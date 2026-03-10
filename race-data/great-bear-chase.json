@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Great Bear Chase",
+    "slug": "great-bear-chase",
+    "display_name": "Great Bear Chase",
+    "tagline": "Fifty-two kilometers through Michigan's Copper Country on 230 inches of annual snow — where Lake Superior's fury becomes the Upper Peninsula's gift and every finisher earns a pasty.",
+    "vitals": {
+      "distance_km": 52,
+      "distance_options": ["52km", "26km", "13km"],
+      "elevation_m": 300,
+      "altitude_m": 370,
+      "location": "Calumet",
+      "location_badge": "Michigan, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Upper Peninsula",
+      "date": "Second Saturday in March",
+      "date_specific": "2026: March 14",
+      "discipline": "both",
+      "field_size": "~800 starters",
+      "founded": 1981,
+      "registration": "Online registration; opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "4 feed stations with hot drinks, energy food, and cookies",
+      "cutoff_time": null,
+      "website": "https://www.greatbearchase.com",
+      "lat": 47.2437,
+      "lng": -88.4530
+    },
+    "climate": {
+      "primary": "Lake Superior lake-effect winter",
+      "description": "March in Michigan's Copper Country means deep lake-effect snow from Lake Superior. Annual snowfall averages 230+ inches. Temperatures range from -15°C to 0°C. The lake-effect machine guarantees snow cover when many lower-latitude venues have melted out. March brings longer days but lingering Upper Peninsula cold.",
+      "typical_temp_c": "-15 to 0",
+      "challenges": [
+        "Lake-effect snow squalls can reduce visibility mid-race",
+        "Heavy snowfall can alter trail conditions overnight",
+        "Remote Upper Peninsula location with limited warming options",
+        "March sun can create slushy afternoon conditions"
+      ]
+    },
+    "course": {
+      "primary": "A rolling loop course through the forests and hills of Michigan's Copper Country near Calumet. The terrain is gentle with moderate rollers through hardwood and conifer forests. The Keweenaw Peninsula's legendary snowfall ensures deep, consistent coverage. Post-race pasty lunch is a tradition.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through Copper Country forest terrain",
+      "technical_rating": 2,
+      "grooming": "Well-maintained on Copper Country trail system, benefiting from deep natural snowpack",
+      "features": [
+        "230+ inches of annual snowfall — among the snowiest venues in America",
+        "Rolling Copper Country forest terrain",
+        "Post-race Cornish pasty lunch — a Upper Peninsula tradition",
+        "Both classic and skate options",
+        "Deep community roots in Michigan's historic mining region"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum snow reliability anchored by Lake Superior's 230+ inch annual snowfall — one of the most snow-sure venues in North America. Strong community score reflects the passionate Upper Peninsula skiing culture and iconic post-race pasty tradition. Remote location limits accessibility and international draw.",
+      "tier_note": "Score 54 confirms TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1981, the Great Bear Chase has become the premier ski marathon of Michigan's Upper Peninsula. Set in the Copper Country near Calumet — a region with deep Finnish-American heritage and 230+ inches of annual snowfall — the race celebrates the legendary snow culture of the Keweenaw Peninsula. The post-race Cornish pasty lunch honors the mining heritage of a region where Finnish, Cornish, and Italian immigrants built a skiing tradition.",
+      "notable_facts": [
+        "Founded in 1981 in Michigan's historic Copper Country",
+        "230+ inches of average annual snowfall from Lake Superior lake-effect",
+        "Post-race Cornish pasty lunch is a beloved tradition",
+        "Calumet has deep Finnish-American heritage and skiing culture",
+        "The Keweenaw Peninsula is one of the snowiest places in America east of the Rockies",
+        "Named after the bears that inhabit the surrounding forests"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

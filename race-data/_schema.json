@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nordic Lab Race Profile",
+  "description": "XC ski race profile for Nordic Lab race database",
+  "type": "object",
+  "required": ["race"],
+  "properties": {
+    "race": {
+      "type": "object",
+      "required": ["name", "slug", "display_name", "tagline", "vitals", "climate", "course", "nordic_lab_rating"],
+      "properties": {
+        "name": { "type": "string" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "display_name": { "type": "string" },
+        "tagline": { "type": "string" },
+        "vitals": {
+          "type": "object",
+          "required": ["distance_km", "location", "country", "date", "discipline"],
+          "properties": {
+            "distance_km": { "type": "number" },
+            "distance_options": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "All available distances, e.g. ['90km', '45km', '30km']"
+            },
+            "elevation_m": { "type": ["number", "null"] },
+            "altitude_m": { "type": ["number", "null"], "description": "Start/course altitude in meters" },
+            "location": { "type": "string" },
+            "location_badge": { "type": "string" },
+            "country": { "type": "string" },
+            "country_code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+            "region": { "type": "string" },
+            "date": { "type": "string", "description": "General timing, e.g. 'First Sunday in March'" },
+            "date_specific": { "type": ["string", "null"], "description": "Specific date, e.g. '2026: March 1'" },
+            "discipline": { "type": "string", "enum": ["classic", "skate", "both"] },
+            "field_size": { "type": "string" },
+            "founded": { "type": ["integer", "null"] },
+            "registration": { "type": "string" },
+            "prize_purse": { "type": ["string", "null"] },
+            "aid_stations": { "type": ["string", "null"] },
+            "cutoff_time": { "type": ["string", "null"] },
+            "website": { "type": "string", "format": "uri" },
+            "lat": { "type": "number" },
+            "lng": { "type": "number" }
+          }
+        },
+        "climate": {
+          "type": "object",
+          "properties": {
+            "primary": { "type": "string" },
+            "description": { "type": "string" },
+            "typical_temp_c": { "type": "string" },
+            "challenges": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "course": {
+          "type": "object",
+          "properties": {
+            "primary": { "type": "string" },
+            "format": { "type": "string", "enum": ["point-to-point", "loop", "out-and-back", "multi-loop", "stage"] },
+            "surface": { "type": "string" },
+            "technical_rating": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "grooming": { "type": "string" },
+            "features": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "nordic_lab_rating": {
+          "type": "object",
+          "required": ["overall_score", "tier", "discipline"],
+          "properties": {
+            "overall_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+            "tier": { "type": "integer", "enum": [1, 2, 3, 4] },
+            "tier_label": { "type": "string" },
+            "discipline": { "type": "string", "enum": ["classic", "skate", "both"] },
+            "distance": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "elevation": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "altitude": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "field_size": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "prestige": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "international_draw": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "course_technicality": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "snow_reliability": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "grooming_quality": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "accessibility": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "community": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "scenery": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "organization": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "competitive_depth": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "score_note": { "type": "string" },
+            "tier_note": { "type": "string" }
+          }
+        },
+        "history": {
+          "type": "object",
+          "properties": {
+            "summary": { "type": "string" },
+            "notable_facts": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "series_membership": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "e.g. ['worldloppet', 'ski_classics_pro_tour', 'euroloppet']"
+        },
+        "youtube_data": {
+          "type": "object",
+          "properties": {
+            "videos": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "video_id": { "type": "string" },
+                  "title": { "type": "string" },
+                  "channel": { "type": "string" },
+                  "published": { "type": "string" },
+                  "views": { "type": "integer" },
+                  "duration": { "type": "string" },
+                  "thumbnail_url": { "type": "string" },
+                  "thumbnail_score": { "type": "number" }
+                }
+              }
+            },
+            "rider_intel": {
+              "type": "object",
+              "properties": {
+                "key_challenges": { "type": "array", "items": { "type": "string" } },
+                "terrain_notes": { "type": "array", "items": { "type": "string" } },
+                "gear_mentions": { "type": "array", "items": { "type": "string" } },
+                "race_day_tips": { "type": "array", "items": { "type": "string" } },
+                "additional_quotes": { "type": "array", "items": { "type": "string" } },
+                "search_text": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

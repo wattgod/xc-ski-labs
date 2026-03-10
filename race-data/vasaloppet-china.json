@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Vasaloppet China",
+    "slug": "vasaloppet-china",
+    "display_name": "Vasaloppet China",
+    "tagline": "The Swedish classic goes east — fifty kilometers through Changchun's frozen forest park where China's growing Nordic ski scene takes shape.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "25km", "1km sprint"],
+      "elevation_m": 200,
+      "altitude_m": 250,
+      "location": "Changchun, Jilin Province",
+      "location_badge": "Jilin, China",
+      "country": "China",
+      "country_code": "CN",
+      "region": "Northeast China (Dongbei)",
+      "date": "First weekend of January",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~800 starters",
+      "founded": 2003,
+      "registration": "Online registration, open entry",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.vasaloppet.cn",
+      "lat": 43.8171,
+      "lng": 125.3235
+    },
+    "climate": {
+      "primary": "Continental Northeast Asian winter",
+      "description": "Changchun's extreme continental climate delivers some of the coldest conditions in the Worldloppet circuit. January temperatures range from -25°C to -10°C. Siberian air masses dominate, producing dry, cold snow. Wind chill can be severe across open sections of the forest park.",
+      "typical_temp_c": "-22 to -10",
+      "challenges": [
+        "Extreme cold — among the coldest Worldloppet venues",
+        "Frostbite risk on exposed skin at -25°C and below",
+        "Dry cold affects breathing and hydration",
+        "Limited course familiarity for most international visitors"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through Jingyuetan National Forest Park on the outskirts of Changchun. The park's frozen lake and dense pine forest create a scenic setting on gently undulating terrain.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through national forest park",
+      "technical_rating": 2,
+      "grooming": "Groomed to Worldloppet standard within the forest park",
+      "features": [
+        "Set in Jingyuetan National Forest Park — one of Asia's largest urban forest parks",
+        "Licensed by the Swedish Vasaloppet organization",
+        "Worldloppet member since 2014",
+        "Frozen Jingyuetan (Clear Moon Lake) as course centerpiece",
+        "China's flagship cross-country ski marathon"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A young event building momentum in China's developing ski market. The Vasaloppet brand license and Worldloppet membership give it credibility. Extreme cold is both a challenge and a draw. Small field and limited competitive depth keep the score modest.",
+      "tier_note": "Score 47 places in T3"
+    },
+    "history": {
+      "summary": "Founded in 2003 as a collaboration between the Swedish Vasaloppet organization and Chinese skiing authorities, Vasaloppet China was created to promote cross-country skiing in Northeast China. Set in Changchun's Jingyuetan National Forest Park, the event became a Worldloppet member in 2014. It represents China's ambitions in Nordic skiing, boosted by the country's 2022 Winter Olympics hosting and government push to engage 300 million people in winter sports.",
+      "notable_facts": [
+        "Licensed directly by the Swedish Vasaloppet organization",
+        "Worldloppet member since 2014",
+        "Set in Jingyuetan National Forest Park — 96 square kilometers of protected forest",
+        "Benefited from China's push to engage 300 million people in winter sports",
+        "One of the coldest venues on the Worldloppet circuit"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

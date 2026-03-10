@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Gommerlauf",
+    "slug": "gommerlauf",
+    "display_name": "Gommerlauf",
+    "tagline": "Forty-two kilometers up the Goms Valley at 1,350 meters — Swiss precision grooming in the high Alpine corridor where the Rhone begins.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km"],
+      "elevation_m": 500,
+      "altitude_m": 1350,
+      "location": "Ulrichen, Goms Valley",
+      "location_badge": "Valais, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Valais",
+      "date": "First or second Saturday in February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~1,900 starters",
+      "founded": 1973,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": null,
+      "aid_stations": "Stations with Swiss mountain hospitality — hot drinks, chocolate, soup",
+      "cutoff_time": null,
+      "website": "https://www.gommerlauf.ch",
+      "lat": 46.5063,
+      "lng": 8.3068
+    },
+    "climate": {
+      "primary": "High Alpine valley winter",
+      "description": "The Goms Valley at 1,350m is one of Switzerland's coldest inhabited valleys. Temperatures regularly drop below -20°C in winter. The high altitude and cold-air pooling in the valley floor create exceptionally cold, dry conditions that preserve snow quality. February race day temperatures typically range from -15°C to -3°C.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "High altitude at 1,350m affects performance for unacclimatized skiers",
+        "Extreme cold from valley inversion — among the coldest spots in Switzerland",
+        "Dry Alpine air requires extra hydration and skin protection",
+        "Sun angle in February can create sharp shadow/sun temperature contrasts"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the Goms Valley, following the upper Rhone River valley between traditional Valais villages. The course is predominantly flat to gently rolling, running through the wide valley floor with views of the surrounding peaks of the Bernese and Pennine Alps.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails along the Goms Valley floor",
+      "technical_rating": 2,
+      "grooming": "Swiss-standard machine grooming — immaculate preparation",
+      "features": [
+        "High Alpine valley at 1,350m — among Europe's highest marathon ski venues",
+        "Source of the Rhone River — the course follows its infant valley",
+        "Traditional Valais villages with wooden chalets along the route",
+        "Views of 4,000m peaks in the Bernese and Pennine Alps",
+        "Euroloppet member event",
+        "One of Switzerland's coldest valleys — exceptional snow preservation"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "The Goms Valley's extreme cold and high altitude deliver some of the best snow conditions in the Alps. Swiss-standard grooming and dramatic scenery elevate a course that is technically straightforward.",
+      "tier_note": "Prestige 4 promotes from T3 to T2"
+    },
+    "history": {
+      "summary": "Founded in 1973, the Gommerlauf has grown into one of Switzerland's premier citizen ski races. The Goms Valley has been a Nordic skiing heartland for centuries, and the race showcases this tradition by traversing the valley between its historic villages. The event is a Euroloppet member, drawing participants from across Europe to its high-altitude course.",
+      "notable_facts": [
+        "The Goms Valley is where the Rhone River begins — one of Europe's great rivers",
+        "At 1,350m, it is one of the highest marathon ski races in the Alps",
+        "The Goms is one of Switzerland's coldest valleys — temperatures below -30°C recorded",
+        "Traditional Valais wooden chalets line the course in villages like Oberwald and Münster",
+        "Euroloppet member connecting Swiss skiing to the European marathon circuit",
+        "The valley has produced multiple Swiss Olympic XC skiers"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

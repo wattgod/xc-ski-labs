@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Noquemanon Ski Marathon",
+    "slug": "noquemanon",
+    "display_name": "Noquemanon",
+    "tagline": "Fifty kilometers and a thousand feet of net descent through Michigan's Upper Peninsula — Lake Superior's snow belt delivers the goods every January.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "24km", "12km"],
+      "elevation_m": 600,
+      "altitude_m": 400,
+      "location": "Ishpeming to Marquette",
+      "location_badge": "Michigan, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Michigan",
+      "date": "Last Saturday in January",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~1,000 starters",
+      "founded": 2001,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": null,
+      "aid_stations": "Multiple aid stations with warm drinks and food",
+      "cutoff_time": null,
+      "website": "https://www.noquemanon.com",
+      "lat": 46.5436,
+      "lng": -87.6776
+    },
+    "climate": {
+      "primary": "Great Lakes snow belt winter",
+      "description": "Michigan's Upper Peninsula receives massive lake-effect snowfall from Lake Superior, averaging over 200 inches per season. January temperatures range from -20°C to -5°C. The lake-effect snow machine makes this one of the snowiest regions in the eastern United States.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Heavy lake-effect snowfall can dump fresh snow on race day",
+        "Deep cold in late January with wind chill factor",
+        "Trail conditions can vary from packed powder to fresh dump",
+        "Iron ore country terrain with rolling, wooded hills"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from Ishpeming to Marquette with approximately 1,000 feet of net descent. The course rolls through the iron range hills of the Upper Peninsula, mixing hardwood and conifer forest with old mining country. Technical sections through hilly terrain demand confident descending skills.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through Upper Peninsula forest and former mining land",
+      "technical_rating": 3,
+      "grooming": "Well-groomed by dedicated UP volunteer crews",
+      "features": [
+        "Net descent of approximately 1,000 feet from Ishpeming to Marquette",
+        "Through historic iron mining country of the UP",
+        "Lake Superior snow belt ensures deep, reliable snowpack",
+        "Rolling hardwood and conifer forest terrain",
+        "Finish in downtown Marquette overlooking Lake Superior",
+        "Part of the Noquemanon Trail Network"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Lake Superior's snow belt provides among the most reliable snow conditions in the eastern US. Strong regional community but limited international profile. The net-descent course and iron country terrain make for a unique racing experience.",
+      "tier_note": "Score 57 places in TIER 3 range"
+    },
+    "history": {
+      "summary": "Founded in 2001, the Noquemanon Ski Marathon takes its name from a Chippewa word meaning 'bear' — fitting for a race through the rugged wilderness of Michigan's Upper Peninsula. The event was created to showcase the exceptional Nordic skiing conditions created by Lake Superior's snow belt and to connect the historic mining towns of Ishpeming and Marquette.",
+      "notable_facts": [
+        "Name derives from Chippewa word 'noquemanon' meaning 'bear'",
+        "Michigan's Upper Peninsula receives over 200 inches of snow annually from lake effect",
+        "Ishpeming is home to the US National Ski Hall of Fame",
+        "The UP was historically iron and copper mining country",
+        "Part of the 80+ mile Noquemanon Trail Network",
+        "Marquette finish overlooks Lake Superior, the world's largest freshwater lake by surface area"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

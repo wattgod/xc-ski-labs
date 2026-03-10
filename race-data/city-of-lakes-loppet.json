@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "City of Lakes Loppet",
+    "slug": "city-of-lakes-loppet",
+    "display_name": "City of Lakes Loppet",
+    "tagline": "Thirty-three kilometers through the frozen heart of Minneapolis — the only major marathon ski race woven through an American city.",
+    "vitals": {
+      "distance_km": 33,
+      "distance_options": ["33km", "17km"],
+      "elevation_m": 300,
+      "altitude_m": 260,
+      "location": "Minneapolis",
+      "location_badge": "Minnesota, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Minnesota",
+      "date": "First weekend in February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~2,000 starters",
+      "founded": 2003,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": null,
+      "aid_stations": "Multiple stations throughout Theodore Wirth Park and lake crossings",
+      "cutoff_time": null,
+      "website": "https://www.loppet.org",
+      "lat": 44.9778,
+      "lng": -93.2650
+    },
+    "climate": {
+      "primary": "Upper Midwest continental winter",
+      "description": "Minneapolis in February is reliably cold with temperatures typically between -15°C and -5°C. The city's position on the northern Great Plains makes it one of the coldest major cities in the US. Snow cover is generally reliable, though warm spells can threaten conditions.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Urban course means variable snow quality near roads and crossings",
+        "Wind exposure on frozen lake crossings",
+        "Cold continental air masses can bring extreme wind chill",
+        "Occasional warm spells threaten snow cover at low altitude"
+      ]
+    },
+    "course": {
+      "primary": "Urban loop course through Theodore Wirth Park and surrounding Minneapolis lakes. The route crosses frozen lakes, winds through city parkland, and traverses some of the best urban Nordic trails in the US. Rolling terrain with short punchy climbs in the park sections.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through urban parkland and frozen lake crossings",
+      "technical_rating": 2,
+      "grooming": "Excellent urban trail grooming by Loppet Foundation",
+      "features": [
+        "Only major marathon ski race through an American city",
+        "Frozen lake crossings on the Chain of Lakes",
+        "Theodore Wirth Park — premier urban Nordic venue",
+        "Part of the larger Loppet Festival with fat bike, skijor, and ski events",
+        "Strong community atmosphere with urban spectator access",
+        "Finish line celebration in the heart of Minneapolis"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 5,
+      "community": 5,
+      "scenery": 2,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "What it lacks in wilderness grandeur it makes up for in community, accessibility, and urban energy. The Loppet Festival atmosphere is exceptional. The only marathon ski race through a major American city.",
+      "tier_note": "Score 59 places in TIER 3 range"
+    },
+    "history": {
+      "summary": "Founded in 2003 by the Loppet Foundation, the City of Lakes Loppet was created to bring marathon ski racing into the urban fabric of Minneapolis. The race leverages the city's exceptional park system and chain of lakes, proving that world-class Nordic skiing can thrive in a metropolitan setting. The Loppet Foundation has since expanded into a year-round outdoor recreation organization serving the Minneapolis community.",
+      "notable_facts": [
+        "Founded by the Loppet Foundation, which now operates year-round outdoor programs",
+        "Theodore Wirth Park is considered the best urban Nordic skiing venue in the US",
+        "The Loppet Festival includes fat bike loppet, skijor loppet, and other winter events",
+        "Minneapolis has the most extensive urban Nordic trail system in America",
+        "The Foundation's mission connects underserved communities to outdoor recreation",
+        "Frozen lake crossings are a signature feature of the course"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

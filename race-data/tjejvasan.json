@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Tjejvasan",
+    "slug": "tjejvasan",
+    "display_name": "Tjejvasan",
+    "tagline": "Thirty kilometers of sisterhood through the Dalarna wilderness — the world's largest women-only ski race, where 8,000 skiers share the same frozen trail that legends built.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": ["30km"],
+      "elevation_m": 200,
+      "altitude_m": 400,
+      "location": "Oxberg to Mora",
+      "location_badge": "Dalarna, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Dalarna",
+      "date": "Last Saturday in February",
+      "date_specific": "2026: February 28",
+      "discipline": "classic",
+      "field_size": "~7,850 starters",
+      "founded": 1988,
+      "registration": "Opens in autumn; sells out quickly",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations with warm drinks, energy food, and blueberry soup",
+      "cutoff_time": null,
+      "website": "https://www.vasaloppet.se/en/races/tjejvasan/",
+      "lat": 61.0067,
+      "lng": 14.5356
+    },
+    "climate": {
+      "primary": "Continental Scandinavian winter",
+      "description": "Late February in Dalarna means deep cold with reliable snow cover. Temperatures typically range from -15°C to -5°C. The forested sections provide wind shelter but open lake crossings near Mora can be exposed. Daylight is returning but race start can still be frigid.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Sub-zero start temperatures in late February",
+        "Open lake crossings near Mora expose skiers to wind",
+        "Wax selection critical across temperature-variable terrain",
+        "Short daylight window for slower participants"
+      ]
+    },
+    "course": {
+      "primary": "The second half of the iconic Vasaloppet trail, from Oxberg to Mora. Rolling forest terrain with gentle climbs and descents through birch and pine forests. The final kilometers cross open farmland before the historic finish in Mora.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through forest and open terrain",
+      "technical_rating": 2,
+      "grooming": "Vasaloppet-standard grooming — world-class, meticulously maintained",
+      "features": [
+        "Shares the final 30km of the legendary Vasaloppet course",
+        "Iconic finish arch in Mora with massive crowds",
+        "Part of Vasaloppet Winter Week",
+        "Rolling forest terrain with birch and pine",
+        "Powerful atmosphere of 8,000 women racing together"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 5,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 5,
+      "scenery": 3,
+      "organization": 5,
+      "competitive_depth": 3,
+      "score_note": "Maximum field size and community scores reflect the unmatched scale and atmosphere of the world's largest women-only ski race. Vasaloppet-grade organization and grooming anchor the logistics scores. Shorter distance limits overall score.",
+      "tier_note": "Prestige 4 promotes one tier but cannot enter TIER 1 — confirmed TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1988 as a women-only complement to Vasaloppet, Tjejvasan covers the final 30 kilometers of the historic Vasaloppet trail from Oxberg to Mora. It has grown into the world's largest women-only ski race, with nearly 8,000 participants annually. The event is a cornerstone of Vasaloppet Winter Week and has become a powerful symbol of women's participation in Nordic skiing.",
+      "notable_facts": [
+        "World's largest women-only cross-country ski race",
+        "Part of Vasaloppet Winter Week alongside Vasaloppet, Öppet Spår, and Halvvasan",
+        "Shares the final 30km of the Vasaloppet course, finishing in Mora",
+        "Founded in 1988 — over 35 years of continuous women's racing",
+        "Part of the Ski Classics Challengers series",
+        "Nearly 8,000 women participate annually"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

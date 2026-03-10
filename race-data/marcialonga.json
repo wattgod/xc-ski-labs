@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Marcialonga",
+    "slug": "marcialonga",
+    "display_name": "Marcialonga",
+    "tagline": "Seventy kilometers beneath the Dolomite spires — Italy's frozen masterpiece where alpine grandeur meets the longest Worldloppet classic.",
+    "vitals": {
+      "distance_km": 70,
+      "distance_options": ["70km", "45km"],
+      "elevation_m": 700,
+      "altitude_m": 1100,
+      "location": "Moena to Cavalese",
+      "location_badge": "Trentino, Italy",
+      "country": "Italy",
+      "country_code": "IT",
+      "region": "Trentino-Alto Adige",
+      "date": "Last Sunday in January",
+      "date_specific": "2026: January 25",
+      "discipline": "classic",
+      "field_size": "~7,000 starters",
+      "founded": 1971,
+      "registration": "Lottery system; registration opens in summer",
+      "prize_purse": null,
+      "aid_stations": "6 feed stations with Italian pastries, warm drinks, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.marcialonga.it",
+      "lat": 46.3765,
+      "lng": 11.5476
+    },
+    "climate": {
+      "primary": "Alpine valley winter",
+      "description": "January race date means consistent cold. The valley location between Dolomite peaks provides some wind shelter but can trap cold air. Temperatures typically -10°C to -2°C. Snow is generally reliable at altitude but January warm spells can soften lower sections.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Cold start in January darkness",
+        "Valley fog can reduce visibility in early kilometers",
+        "Snow quality varies between shaded and sun-exposed valley sections",
+        "Late January thaw risk at lower elevations"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the Val di Fiemme and Val di Fassa, following the Avisio River valley beneath the Dolomites. Rolling terrain with moderate climbs, passing through multiple villages. The course is predominantly valley-floor skiing with stunning mountain scenery above.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through alpine valley terrain",
+      "technical_rating": 3,
+      "grooming": "World-class Worldloppet standard, expertly maintained valley tracks",
+      "features": [
+        "Dolomite panorama throughout the entire course",
+        "Passes through historic Ladin-speaking villages",
+        "Italian feed stations with local pastries and espresso",
+        "Valley skiing along the Avisio River",
+        "Finish in Cavalese — also a FIS World Cup venue"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 89,
+      "tier": 1,
+      "tier_label": "TIER 1",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 5,
+      "prestige": 5,
+      "international_draw": 5,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 5,
+      "scenery": 5,
+      "organization": 5,
+      "competitive_depth": 5,
+      "score_note": "Maximum scenery score anchored by Dolomite views. The Italian hospitality and alpine setting create an atmosphere unmatched in long-distance skiing. Only snow reliability prevents a perfect score.",
+      "tier_note": "Prestige 5 with score >= 75 confirms TIER 1"
+    },
+    "history": {
+      "summary": "Founded in 1971 as a 70km classic race through the Val di Fiemme and Val di Fassa in the Italian Dolomites. It quickly grew into one of the most prestigious events on the Worldloppet circuit. The race celebrates the Ladin culture of the valleys and has become Italy's defining cross-country ski marathon. The Val di Fiemme has also hosted multiple FIS Nordic World Ski Championships.",
+      "notable_facts": [
+        "Val di Fiemme has hosted FIS Nordic World Ski Championships in 1991, 2003, and 2013",
+        "The Ladin-speaking valleys are a unique cultural enclave within Italy",
+        "Italian feed stations famously serve strudel, hot chocolate, and espresso",
+        "One of the original founding members of the Worldloppet series",
+        "Part of both Worldloppet and Ski Classics Grand Classic series",
+        "The race name means 'Long March' in Italian"
+      ]
+    },
+    "series_membership": ["worldloppet", "ski_classics_grand_classic"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

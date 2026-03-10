@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Dolomitenlauf",
+    "slug": "dolomitenlauf",
+    "display_name": "Dolomitenlauf",
+    "tagline": "Forty-two kilometers at 1,400 meters in East Tyrol — where Austrian alpine tradition meets guaranteed snow in the shadow of the Dolomites.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km classic", "42km skate", "25km", "15km"],
+      "elevation_m": 500,
+      "altitude_m": 1400,
+      "location": "Obertilliach",
+      "location_badge": "East Tyrol, Austria",
+      "country": "Austria",
+      "country_code": "AT",
+      "region": "East Tyrol",
+      "date": "Mid-January",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~1,500",
+      "founded": 1970,
+      "registration": "Open registration via online entry",
+      "prize_purse": null,
+      "aid_stations": "4 stations with warm drinks, Austrian pastries, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.dolomitenlauf.at",
+      "lat": 46.6978,
+      "lng": 12.6169
+    },
+    "climate": {
+      "primary": "High-altitude Alpine",
+      "description": "January at 1,400m in East Tyrol delivers reliable cold and deep snow. The Gailtal Alps create a snow-pocket effect, and the high altitude ensures consistently cold temperatures. Clear skies reveal the Dolomite peaks; heavy snowfall years produce exceptional trail conditions.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "High altitude (1,400m) demands acclimatization for lowland skiers",
+        "January cold can be extreme — sub-minus-20 not uncommon",
+        "Alpine valley inversions trap cold air, creating bitter conditions at the start",
+        "Remote location requires planning for travel and accommodation"
+      ]
+    },
+    "course": {
+      "primary": "Valley-floor course through the Lesachtal and surrounding Alpine terrain at 1,400m. The route follows the Gail River valley with views of the Carnic Alps and Dolomite foothills. Moderate elevation changes with some rolling hills, predominantly through open meadows and forest.",
+      "format": "loop",
+      "surface": "Machine-groomed trails at high altitude through Alpine valley and forest",
+      "technical_rating": 3,
+      "grooming": "Excellent Austrian grooming standards at a dedicated biathlon and cross-country venue",
+      "features": [
+        "Course at 1,400m altitude — one of the highest Worldloppet races",
+        "Panoramic views of the Carnic Alps and Dolomite foothills",
+        "Obertilliach is a dedicated biathlon and XC training center",
+        "January date provides early-season racing option",
+        "Traditional Tyrolean village atmosphere",
+        "Snow-sure altitude ensures reliable conditions"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 70,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Maximum scores in altitude, snow reliability, and scenery — the high-elevation Dolomite setting delivers on all three. Remote East Tyrol location limits accessibility and field size. Strong Austrian organization and grooming standards.",
+      "tier_note": "Prestige 4 promotes one tier: raw T2 (64) stays TIER 2 (already T2)"
+    },
+    "history": {
+      "summary": "The Dolomitenlauf was founded in 1970 in Obertilliach, a small village in Austria's East Tyrol region. The high-altitude venue at 1,400m was chosen for its exceptional snow reliability, and the village has since developed into a dedicated biathlon and cross-country skiing center. The race joined the Worldloppet series and has become a fixture for skiers seeking guaranteed snow conditions and dramatic Alpine scenery early in the season.",
+      "notable_facts": [
+        "One of the highest-altitude races in the Worldloppet circuit at 1,400m",
+        "Obertilliach serves as a training base for Austrian biathlon teams",
+        "The Lesachtal valley is UNESCO-recognized as one of Europe's most pristine Alpine valleys",
+        "January timing makes it one of the earliest major XC ski races each season",
+        "East Tyrol was historically part of the Austro-Hungarian frontier with Italy",
+        "The Dolomites are a UNESCO World Heritage Site"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

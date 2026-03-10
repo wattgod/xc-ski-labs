@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Canadian Birkebeiner",
+    "slug": "canadian-birkebeiner",
+    "display_name": "Canadian Birkebeiner",
+    "tagline": "Fifty-five kilometers with a 5.5-kilogram pack through Elk Island's frozen wilderness — Canada's tribute to the warriors who saved a king.",
+    "vitals": {
+      "distance_km": 55,
+      "distance_options": ["55km", "31km", "13km"],
+      "elevation_m": 500,
+      "altitude_m": 700,
+      "location": "Edmonton area",
+      "location_badge": "Alberta, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Alberta",
+      "date": "Second Saturday in February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~1,000 starters",
+      "founded": 1985,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": null,
+      "aid_stations": "Multiple stations with hot drinks, soup, and snacks",
+      "cutoff_time": null,
+      "website": "https://www.canadianbirkie.com",
+      "lat": 53.5461,
+      "lng": -112.8707
+    },
+    "climate": {
+      "primary": "Canadian prairie winter",
+      "description": "February in central Alberta brings deep cold with temperatures routinely dropping below -20°C. The race has been held in conditions as cold as -35°C. The flat prairie geography offers no shelter from Arctic outflow winds. Paradoxically, Chinook winds can push temperatures above freezing within hours.",
+      "typical_temp_c": "-25 to -10",
+      "challenges": [
+        "Extreme cold — race has been held at -35°C",
+        "Mandatory 5.5kg backpack adds physical and logistical challenge",
+        "Wind exposure on open prairie sections",
+        "Chinook winds can cause rapid temperature swings",
+        "Cold-weather gear management is critical"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through Cooking Lake-Blackfoot Provincial Recreation Area and near Elk Island National Park. Rolling terrain through boreal aspen and spruce forest with open prairie sections. The mandatory 5.5kg backpack (representing the baby prince) adds a unique physical challenge.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through boreal forest and prairie",
+      "technical_rating": 3,
+      "grooming": "Well-groomed by volunteer crews, Canadian standard",
+      "features": [
+        "Mandatory 5.5kg backpack representing the infant King Haakon",
+        "Through or near Elk Island National Park — home to free-roaming bison",
+        "Boreal forest and open prairie terrain",
+        "Worldloppet member event",
+        "One of the coldest marathon ski races in the world",
+        "Strong Norwegian-Canadian cultural heritage connection"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 66,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "The mandatory backpack and extreme cold make this race genuinely unique among Worldloppet events. Strong community spirit and cultural significance elevate what would otherwise be a flat prairie race.",
+      "tier_note": "Prestige 4 promotes from T3 to T2"
+    },
+    "history": {
+      "summary": "Founded in 1985 by Edmonton's Norwegian-Canadian community, the Canadian Birkebeiner recreates the 1206 rescue of infant Prince Haakon Haakonsson by two Birkebeiner warriors who skied him to safety across the Norwegian mountains. Like its Norwegian namesake, racers must carry a 5.5kg backpack representing the weight of the baby prince. The race takes place in the Cooking Lake-Blackfoot area east of Edmonton.",
+      "notable_facts": [
+        "Named after the 1206 rescue of infant Prince Haakon by Birkebeiner warriors on skis",
+        "Mandatory 5.5kg backpack represents the weight of the baby prince",
+        "One of three Birkebeiner races worldwide (Norway, USA, Canada)",
+        "Elk Island National Park nearby is home to both plains and wood bison",
+        "Has been held in temperatures as cold as -35°C",
+        "Worldloppet member event since the series' early years"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

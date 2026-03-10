@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Fossavatnsgangan",
+    "slug": "fossavatnsgangan",
+    "display_name": "Fossavatnsgangan",
+    "tagline": "The most northerly Worldloppet race — fifty kilometers across Iceland's wild Westfjords where volcanic landscape meets Arctic snow.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "25km", "7km"],
+      "elevation_m": 400,
+      "altitude_m": 100,
+      "location": "Isafjordur",
+      "location_badge": "Westfjords, Iceland",
+      "country": "Iceland",
+      "country_code": "IS",
+      "region": "Westfjords",
+      "date": "Easter weekend, late April",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~1,000 starters",
+      "founded": 1935,
+      "registration": "Online registration, open entry",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with traditional Icelandic refreshments",
+      "cutoff_time": null,
+      "website": "https://www.fossavatnsgangan.is",
+      "lat": 66.0742,
+      "lng": -23.1279
+    },
+    "climate": {
+      "primary": "Subarctic maritime",
+      "description": "The Westfjords deliver unpredictable late-April conditions. Temperatures range from -5°C to 8°C. Atlantic storms can bring whiteout blizzards or sudden warm spells. Snow cover at this latitude persists well into spring, but maritime influence creates heavy, wet snow conditions.",
+      "typical_temp_c": "-3 to 5",
+      "challenges": [
+        "Extreme weather variability — blizzards to sunshine in hours",
+        "Atlantic storms with high winds and whiteout conditions",
+        "Wet, heavy spring snow difficult for waxing",
+        "Remote location complicates evacuation in emergencies"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point across the dramatic Westfjords landscape, traversing mountain passes and frozen lake terrain. The route crosses volcanic terrain softened by deep spring snow, with sections exposed to fierce Atlantic winds.",
+      "format": "point-to-point",
+      "surface": "Groomed tracks across mountain, valley, and lake terrain",
+      "technical_rating": 3,
+      "grooming": "Groomed to Worldloppet standard given terrain constraints",
+      "features": [
+        "Most northerly Worldloppet race in the world",
+        "Course crosses near the Arctic Circle at 66°N latitude",
+        "Dramatic volcanic and fjord landscape",
+        "One of the oldest ski races in the world (founded 1935)",
+        "Late-season April date means long daylight hours",
+        "Finish in the remote fishing town of Isafjordur"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 5,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 4,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Extraordinary scenery and unmatched setting at the edge of the Arctic. Founded 1935 gives maximum prestige. Remote Westfjords location is both the appeal and the logistical challenge. A pilgrimage race for Worldloppet collectors.",
+      "tier_note": "Prestige 5 with score < 75 caps at T2"
+    },
+    "history": {
+      "summary": "Founded in 1935, Fossavatnsgangan is one of the oldest organized ski races in the world and the most northerly event in the Worldloppet series. The race takes its name from Fossavatn (Waterfall Lake) in the Westfjords. For nearly a century, Icelanders and international visitors have raced across this remote volcanic landscape, making it a bucket-list event for Worldloppet passport holders seeking the most extreme and unique race settings.",
+      "notable_facts": [
+        "Founded in 1935 — one of the oldest ski races globally",
+        "Most northerly race in the Worldloppet series",
+        "Located in Iceland's remote Westfjords peninsula",
+        "Named after Fossavatn (Waterfall Lake)",
+        "The race has run during Easter weekend for decades",
+        "Worldloppet membership since the series founding years"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

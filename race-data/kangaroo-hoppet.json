@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Kangaroo Hoppet",
+    "slug": "kangaroo-hoppet",
+    "display_name": "Kangaroo Hoppet",
+    "tagline": "Forty-two kilometers in the Australian Alps — the Southern Hemisphere's only Worldloppet race, where snow gums replace spruce and August means winter.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km skate", "21km", "7km"],
+      "elevation_m": 600,
+      "altitude_m": 1600,
+      "location": "Falls Creek Alpine Resort, Victoria",
+      "location_badge": "Victorian Alps, Australia",
+      "country": "Australia",
+      "country_code": "AU",
+      "region": "Victoria",
+      "date": "Last Saturday in August",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~800-1,200",
+      "founded": 1991,
+      "registration": "Open registration via online entry",
+      "prize_purse": null,
+      "aid_stations": "4 stations with drinks and energy food",
+      "cutoff_time": null,
+      "website": "https://www.kangaroohoppet.com.au",
+      "lat": -36.8627,
+      "lng": 147.2742
+    },
+    "climate": {
+      "primary": "Australian alpine winter",
+      "description": "August is late winter in the Australian Alps. Conditions at 1,600m are variable — snowfall, rain, fog, and sunshine can all occur within hours. Snow cover is less reliable than Northern Hemisphere alpine venues, and warm fronts from the Tasman Sea can bring rapid thawing. When conditions align, the snow-gum-dotted landscape is uniquely beautiful.",
+      "typical_temp_c": "-5 to 5",
+      "challenges": [
+        "Snow reliability is the key risk — warm years can force course modification or cancellation",
+        "Rapidly changing weather as Southern Ocean fronts sweep through",
+        "High altitude with UV exposure — the Australian sun is intense even in winter",
+        "Variable snow texture from freeze-thaw cycles common in Australian Alps"
+      ]
+    },
+    "course": {
+      "primary": "High-altitude course through the Falls Creek alpine plateau at 1,600m. The route traverses snow-gum woodland and open alpine terrain with views across the Victorian Alps. Rolling terrain with some significant climbs. The unique Australian alpine landscape — snow gums, granite boulders, and high plains — is unlike any other Worldloppet venue.",
+      "format": "loop",
+      "surface": "Machine-groomed trails on alpine plateau, variable snow quality",
+      "technical_rating": 3,
+      "grooming": "Good quality given conditions — Falls Creek maintains Australia's best XC trail network",
+      "features": [
+        "The only Worldloppet race in the Southern Hemisphere",
+        "Unique snow-gum (Eucalyptus pauciflora) woodland landscape",
+        "Course at 1,600m on the Falls Creek alpine plateau",
+        "August timing = Northern Hemisphere off-season racing",
+        "Stunning views across the Victorian High Country",
+        "Strong Australian and New Zealand XC skiing community",
+        "Kangaroos occasionally spotted near the course"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum altitude score at 1,600m. Strong international draw as the only Southern Hemisphere Worldloppet race — European and North American skiers travel specifically for the novelty. Snow reliability is the Achilles heel, with several cancellations in recent decades. Remote Australian alpine location limits accessibility.",
+      "tier_note": "Prestige 4 promotes one tier: raw T3 (59) promoted to TIER 2"
+    },
+    "history": {
+      "summary": "The Kangaroo Hoppet was founded in 1991 (with a precursor event in 1979) at Falls Creek Alpine Resort in the Victorian Alps of southeastern Australia. It holds the unique distinction of being the only Worldloppet race in the Southern Hemisphere, making it a bucket-list event for Worldloppet passport completionists. The race celebrates Australia's small but passionate cross-country skiing community and offers Northern Hemisphere skiers a rare opportunity to race during their off-season. Snow reliability has been an ongoing challenge, with several cancellations due to insufficient snow.",
+      "notable_facts": [
+        "Only Worldloppet race in the Southern Hemisphere",
+        "Named with a playful Australian twist on the Scandinavian 'loppet' tradition",
+        "Falls Creek has Australia's largest network of groomed XC trails",
+        "The Victorian Alps receive snow from Southern Ocean weather systems",
+        "A precursor event existed from 1979; Worldloppet membership from 1991",
+        "Several cancellations due to insufficient snow highlight climate vulnerability",
+        "Australian XC skiing began with Norwegian and Finnish immigrants in the 1860s gold rush"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

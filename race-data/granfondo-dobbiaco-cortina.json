@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Granfondo Dobbiaco-Cortina",
+    "slug": "granfondo-dobbiaco-cortina",
+    "display_name": "Granfondo Dobbiaco-Cortina",
+    "tagline": "Forty-two kilometers along the old railway through the heart of the Dolomites — Italian skiing at its most scenic and civilized.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km classic", "42km skate", "30km", "22km"],
+      "elevation_m": 200,
+      "altitude_m": 1200,
+      "location": "Dobbiaco to Cortina d'Ampezzo",
+      "location_badge": "South Tyrol / Veneto, Italy",
+      "country": "Italy",
+      "country_code": "IT",
+      "region": "Dolomites",
+      "date": "First weekend of February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~2,000 starters",
+      "founded": 1977,
+      "registration": "Online registration, opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with Italian refreshments including vin brule",
+      "cutoff_time": null,
+      "website": "https://www.dobbiacocortina.it",
+      "lat": 46.7331,
+      "lng": 12.2192
+    },
+    "climate": {
+      "primary": "Alpine Dolomitic winter",
+      "description": "The Dolomites deliver cold, stable January-February conditions at 1,200 meters altitude. Temperatures range from -12°C to 0°C. The sheltered valley route along the old railway provides protection from alpine winds. Snow reliability at this altitude is excellent, with the Dolomites receiving consistent winter precipitation.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Cold starts in the shaded Dobbiaco valley",
+        "Altitude at 1,200m requires acclimatization for lowland skiers",
+        "Occasional Foehn winds can raise temperatures rapidly",
+        "Sun exposure on south-facing sections creates variable snow texture"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point along the converted old railway line from Dobbiaco to Cortina d'Ampezzo, passing through tunnels and crossing the dramatic Dolomite landscape. The gentle downhill gradient of the old railway makes this a fast, relatively flat course surrounded by some of the most spectacular mountain scenery in the Alps.",
+      "format": "point-to-point",
+      "surface": "Impeccably groomed trails on the old railway corridor",
+      "technical_rating": 2,
+      "grooming": "World-class Italian standard — the old railway bed provides a perfect grooming surface",
+      "features": [
+        "Follows the historic Dobbiaco-Cortina railway line through the Dolomites",
+        "UNESCO World Heritage Dolomite scenery throughout",
+        "Gentle net downhill makes for fast times",
+        "Passes through original railway tunnels",
+        "Finishes in Cortina d'Ampezzo — site of the 2026 Winter Olympics",
+        "Both classic and skate tracks available"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 4,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Perfect scores in grooming and scenery — the Dolomite railway route is both impeccably maintained and breathtakingly beautiful. Strong international draw from Cortina's fame and the 2026 Olympics connection. Minimal elevation gain keeps the physical challenge modest.",
+      "tier_note": "Prestige 4 eligible for 1-tier promotion, already at T2"
+    },
+    "history": {
+      "summary": "Founded in 1977, the Granfondo Dobbiaco-Cortina follows the route of the decommissioned railway line that once connected the South Tyrolean town of Dobbiaco (Toblach) with the glamorous resort of Cortina d'Ampezzo. The converted railway corridor provides a uniquely scenic and well-graded course through UNESCO World Heritage Dolomite landscape. With Cortina hosting events at the 2026 Winter Olympics, the race's profile has never been higher.",
+      "notable_facts": [
+        "Follows the decommissioned Dobbiaco-Cortina railway line",
+        "Course passes through original railway tunnels",
+        "Dolomites are a UNESCO World Heritage Site",
+        "Cortina d'Ampezzo hosts 2026 Winter Olympic events",
+        "The route crosses from German-speaking South Tyrol into Italian-speaking Veneto",
+        "One of the most scenic marathon ski courses in the world"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Reistadløpet",
+    "slug": "reistadlopet",
+    "display_name": "Reistadløpet",
+    "tagline": "Fifty kilometers above the Arctic Circle where double-poling goes to die — Norway's northernmost marathon demands classical technique or nothing.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km"],
+      "elevation_m": 700,
+      "altitude_m": 300,
+      "location": "Bardufoss",
+      "location_badge": "Troms, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Troms",
+      "date": "Mid-March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~1,500 starters",
+      "founded": 1964,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": "Ski Classics prize pool",
+      "aid_stations": "Multiple stations with warm drinks and food",
+      "cutoff_time": null,
+      "website": "https://www.reistadlopet.no",
+      "lat": 69.0560,
+      "lng": 18.5395
+    },
+    "climate": {
+      "primary": "Arctic Scandinavian winter",
+      "description": "Situated above the Arctic Circle at 69°N, temperatures on race day can range from -20°C to -5°C. Arctic wind chill is a major factor across exposed sections. Snow conditions are typically cold and fast, but polar weather systems can bring sudden whiteouts.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Extreme Arctic cold, especially in headwind sections",
+        "Limited daylight in early season — race held near spring equinox",
+        "Wind chill on exposed plateaus and lake crossings",
+        "Cold-weather wax selection is critical"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through sub-Arctic terrain with sustained climbing that makes double-poling virtually impossible. The course demands genuine classical technique — diagonal stride, herringbone, and kick-and-glide are essential. Rolling hills through birch forest and open tundra.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through Arctic forest and open terrain",
+      "technical_rating": 4,
+      "grooming": "Ski Classics standard, well-groomed classic tracks",
+      "features": [
+        "Northernmost Ski Classics race in the world",
+        "Sustained climbs that eliminate double-poling as a viable strategy",
+        "Arctic birch forest and open tundra landscape",
+        "Midnight sun region — race held as light returns in spring",
+        "Genuine test of classical skiing technique"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 73,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 4,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "A true classical skier's race — the terrain eliminates double-poling shortcuts. Arctic location delivers reliable snow and dramatic scenery but limits accessibility.",
+      "tier_note": "Prestige 4 promotes from T3 to T2"
+    },
+    "history": {
+      "summary": "Founded in 1964 in the Troms region of northern Norway, Reistadløpet has become one of the most respected classical skiing races in Scandinavia. Its inclusion in the Ski Classics series elevated its international profile. The race is named after the Reistad area near Bardufoss and is celebrated for its uncompromising terrain that rewards traditional diagonal-stride technique.",
+      "notable_facts": [
+        "Northernmost race in the Ski Classics series at 69°N latitude",
+        "Course design makes double-poling nearly impossible — a rarity in modern marathon skiing",
+        "Located near a Norwegian military base in Bardufoss",
+        "Has become a cult favorite among purist classical skiers",
+        "Part of the Ski Classics Pro Tour since the series began"
+      ]
+    },
+    "series_membership": ["ski_classics_pro_tour"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

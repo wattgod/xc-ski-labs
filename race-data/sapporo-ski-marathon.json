@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Sapporo Ski Marathon",
+    "slug": "sapporo-ski-marathon",
+    "display_name": "Sapporo Ski Marathon",
+    "tagline": "Fifty kilometers through Hokkaido's deep powder country — Japan's Olympic city delivers world-class snow and meticulous organization.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "25km", "10km", "5km"],
+      "elevation_m": 300,
+      "altitude_m": 300,
+      "location": "Sapporo, Hokkaido",
+      "location_badge": "Hokkaido, Japan",
+      "country": "Japan",
+      "country_code": "JP",
+      "region": "Hokkaido",
+      "date": "First Sunday in February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~2,000 starters",
+      "founded": 1981,
+      "registration": "Online registration, open entry",
+      "prize_purse": null,
+      "aid_stations": "Multiple service stations with Japanese refreshments",
+      "cutoff_time": null,
+      "website": "https://www.sapporo-ski.or.jp",
+      "lat": 43.0621,
+      "lng": 141.3544
+    },
+    "climate": {
+      "primary": "Heavy snowfall maritime (Sea of Japan effect)",
+      "description": "Sapporo receives some of the heaviest snowfall of any major city on Earth thanks to cold Siberian air crossing the Sea of Japan. February temperatures range from -10°C to -2°C. Snow depth regularly exceeds 1 meter in the city, with deeper accumulation in surrounding hills. The snow is drier and lighter than typical maritime snow.",
+      "typical_temp_c": "-8 to -2",
+      "challenges": [
+        "Heavy fresh snowfall can soften tracks mid-race",
+        "Deep powder alongside groomed trails if you fall",
+        "Cold Siberian air mass brings sudden temperature drops",
+        "Humidity from Sea of Japan effect affects waxing"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the forested parkland surrounding Sapporo, using trail infrastructure built for the 1972 Winter Olympics. Gently rolling terrain with short climbs through birch and conifer forest.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through Olympic-legacy parkland",
+      "technical_rating": 2,
+      "grooming": "Japanese precision grooming — meticulous trail preparation",
+      "features": [
+        "Set in Sapporo, host city of the 1972 Winter Olympics",
+        "Uses Olympic-era cross-country skiing infrastructure",
+        "Hokkaido's legendary snow depth guarantees conditions",
+        "Japanese organizational precision — timing, logistics, hospitality",
+        "Gateway to Sapporo Snow Festival (early February)"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 4,
+      "community": 3,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 2,
+      "score_note": "Perfect snow reliability from Hokkaido's legendary snowfall anchors the score. Japanese organizational standards deliver a polished experience. Olympic city accessibility is excellent. Moderate competitive depth reflects predominantly domestic field.",
+      "tier_note": "Score 61 places in T2"
+    },
+    "history": {
+      "summary": "Founded in 1981, the Sapporo Ski Marathon capitalizes on the cross-country skiing infrastructure built for the 1972 Winter Olympics. Sapporo, one of the snowiest cities on Earth, provides unmatched natural snow conditions. The race has become Japan's premier cross-country ski marathon and a Worldloppet member, attracting both Japanese recreational skiers and international Worldloppet passport collectors drawn by the unique combination of Japanese culture and Hokkaido powder.",
+      "notable_facts": [
+        "Built on infrastructure from the 1972 Sapporo Winter Olympics",
+        "Sapporo receives over 5 meters of snowfall annually — among the snowiest cities on Earth",
+        "Worldloppet member event, the only one in Japan",
+        "Coincides with the famous Sapporo Snow Festival in early February",
+        "Showcases Japan's unique cross-country skiing culture on Hokkaido"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

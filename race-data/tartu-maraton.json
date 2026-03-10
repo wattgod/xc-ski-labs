@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Tartu Maraton",
+    "slug": "tartu-maraton",
+    "display_name": "Tartu Maraton",
+    "tagline": "Estonia's winter marathon — 63 kilometers across the frozen Baltic lowlands, where one of Europe's oldest ski races meets the flattest course in the Worldloppet.",
+    "vitals": {
+      "distance_km": 63,
+      "distance_options": ["63km classic", "31km"],
+      "elevation_m": 300,
+      "altitude_m": 100,
+      "location": "Otepää to Elva",
+      "location_badge": "Tartu County, Estonia",
+      "country": "Estonia",
+      "country_code": "EE",
+      "region": "Tartu County",
+      "date": "Mid-February",
+      "date_specific": "2026: February 15",
+      "discipline": "classic",
+      "field_size": "~4,000 starters",
+      "founded": 1960,
+      "registration": "Opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "Multiple stations with warm drinks and energy food",
+      "cutoff_time": null,
+      "website": "https://www.tartumaraton.ee",
+      "lat": 58.0547,
+      "lng": 26.4903
+    },
+    "climate": {
+      "primary": "Baltic continental winter",
+      "description": "February in southern Estonia delivers cold continental conditions moderated by Baltic proximity. Temperatures typically -15°C to -3°C. Snow reliability has become increasingly variable — the low altitude and Baltic influence mean warm winters can threaten conditions.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "Low altitude (100m) makes snow reliability increasingly precarious",
+        "Baltic weather systems can bring sudden thaws",
+        "Flat terrain means constant wind exposure across open fields",
+        "Variable snow quality — from hard-packed ice to wet slush"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from Otepää to Elva through the rolling hills and forests of southern Estonia. Despite the low altitude, the terrain has gentle undulation through mixed forest and open farmland. Otepää is known as the 'winter capital' of Estonia.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through forest and open farmland",
+      "technical_rating": 2,
+      "grooming": "High-quality grooming, Worldloppet member standard",
+      "features": [
+        "Starts in Otepää — Estonia's 'winter capital' and FIS World Cup venue",
+        "One of the flattest courses in the Worldloppet series",
+        "Passes through classic Estonian countryside — forest, lakes, and farmland",
+        "One of the oldest continuously run ski marathons (founded 1960)",
+        "Post-race Estonian sauna tradition"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 64,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 4,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "Deep history (1960) and Worldloppet membership provide strong foundations. Low altitude, flat terrain, and declining snow reliability are the main limitations. A straightforward, honest ski marathon with Baltic charm.",
+      "tier_note": "Prestige 4 promotes from base TIER 2 — stays TIER 2 (cannot enter TIER 1)"
+    },
+    "history": {
+      "summary": "Founded in 1960, the Tartu Maraton is one of the oldest ski marathons in Europe and Estonia's most important winter sporting event. The race connects Otepää — a town with deep ties to Estonian skiing and identity — to Elva through southern Estonian countryside. Despite the country's low altitude and flat terrain, Estonia has a proud nordic skiing tradition, and the Tartu Maraton is its centerpiece. The race is a Worldloppet member.",
+      "notable_facts": [
+        "Founded in 1960 — one of the oldest ski marathons in Europe",
+        "Otepää is Estonia's 'winter capital' and has hosted FIS World Cup events",
+        "Estonia's most important winter mass-participation sporting event",
+        "Part of the Worldloppet series",
+        "The Estonian flag was first consecrated in Otepää in 1884 — the town has deep national significance",
+        "One of the lowest-altitude courses in the Worldloppet series"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

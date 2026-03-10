@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+
+# Data caches
+data/thumbnail-cache/
+data/youtube-cache/
+data/cwv-snapshots/
+data/gsc-snapshots/
+
+# Environment
+.env
+.env.local
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if any frontend tooling)
+node_modules/
+
+# Output (regenerated)
+output/

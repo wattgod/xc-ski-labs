@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Pirkan Hiihto",
+    "slug": "pirkan-hiihto",
+    "display_name": "Pirkan Hiihto",
+    "tagline": "Ninety kilometers across the Finnish lakeland — a silent, frozen marathon through the country that treats cross-country skiing as a birthright.",
+    "vitals": {
+      "distance_km": 90,
+      "distance_options": ["90km", "60km", "50km", "30km", "20km"],
+      "elevation_m": 300,
+      "altitude_m": 150,
+      "location": "Niinisalo to Tampere",
+      "location_badge": "Pirkanmaa, Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "Pirkanmaa",
+      "date": "Last weekend of February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~3,000 starters",
+      "founded": 1955,
+      "registration": "Online registration, opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "12 service points with warm drinks, soup, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.pirkanhiihto.fi",
+      "lat": 61.4978,
+      "lng": 23.7610
+    },
+    "climate": {
+      "primary": "Continental Finnish winter",
+      "description": "Finland's interior delivers consistently cold, stable February conditions. Temperatures range from -20°C to -5°C. The flat, forested terrain provides some wind shelter but frozen lake crossings expose skiers. Snow depth is typically excellent — Finland's continental climate produces dry, fast powder.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Sustained cold over 90km demands layering strategy",
+        "Flat terrain means constant self-pacing with no downhill recovery",
+        "Wind exposure on frozen lake sections",
+        "Fueling across 12 service points requires nutrition planning"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the Finnish lakeland from Niinisalo to Tampere, predominantly flat terrain through boreal forest and across frozen lakes. The 90km distance makes this a true ultra-marathon on skis.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed tracks through forest and frozen lake terrain",
+      "technical_rating": 2,
+      "grooming": "Finnish standard grooming, well-maintained with 12 service points",
+      "features": [
+        "90km main distance — one of the longest Worldloppet races",
+        "12 fully-stocked service points along the course",
+        "Finishes in Tampere, Finland's third-largest city",
+        "Classic Finnish lakeland landscape — forest, lakes, silence",
+        "Both classic and skate techniques available"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 67,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 5,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 4,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "The 90km distance and perfect snow reliability anchor the score. Finland's deep skiing culture delivers strong organization and community. Flat terrain and modest scenery prevent a higher ceiling.",
+      "tier_note": "Prestige 4 eligible for 1-tier promotion, already at T2"
+    },
+    "history": {
+      "summary": "Founded in 1955, Pirkan Hiihto is Finland's premier marathon ski race, covering 90 kilometers from the garrison town of Niinisalo to the city of Tampere. The race was established to promote long-distance skiing in the Pirkanmaa region and has grown to approximately 3,000 participants. With 12 service points, it is one of the best-supported marathon courses in Nordic skiing. The event embodies Finland's deep cultural relationship with cross-country skiing.",
+      "notable_facts": [
+        "One of the longest races in the Worldloppet series at 90km",
+        "12 service points — among the most supported courses in marathon skiing",
+        "Finland's flagship marathon ski race since 1955",
+        "The course from Niinisalo to Tampere crosses classic Finnish lakeland",
+        "Strong domestic participation from Finland's large recreational skiing community"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

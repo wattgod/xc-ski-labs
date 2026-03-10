@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "König Ludwig Lauf",
+    "slug": "konig-ludwig-lauf",
+    "display_name": "König Ludwig Lauf",
+    "tagline": "Fifty kilometers through the Bavarian Alps — where Germany's fairy-tale king once roamed, now skiers chase glory beneath the Passion Play village.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km skate", "23km", "10km"],
+      "elevation_m": 650,
+      "altitude_m": 850,
+      "location": "Oberammergau",
+      "location_badge": "Bavaria, Germany",
+      "country": "Germany",
+      "country_code": "DE",
+      "region": "Bavaria",
+      "date": "First weekend in February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~3,600",
+      "founded": 1968,
+      "registration": "Open registration via online entry",
+      "prize_purse": null,
+      "aid_stations": "5 stations with warm drinks, energy food, and wax service",
+      "cutoff_time": null,
+      "website": "https://www.koenigludwiglauf.com",
+      "lat": 47.5974,
+      "lng": 11.0631
+    },
+    "climate": {
+      "primary": "Alpine continental",
+      "description": "Early February in the Bavarian Alps brings cold, snowy conditions at 850m elevation. The Ammergau Alps provide a reliable snow pocket, though climate change has introduced variability. Clear days offer stunning mountain views; snowfall during the race is common.",
+      "typical_temp_c": "-8 to 2",
+      "challenges": [
+        "Alpine weather can shift rapidly — snowfall, fog, or sunshine within hours",
+        "Elevation changes create micro-climate wax challenges",
+        "Occasional warm Föhn winds can soften snow dramatically",
+        "Cold valley inversions possible in early morning"
+      ]
+    },
+    "course": {
+      "primary": "Rolling course through the Ammergau Alps foothills around Oberammergau. The route weaves through Alpine meadows, forest trails, and valley floors beneath dramatic mountain scenery. Moderate elevation gain with some challenging climbs and rewarding descents.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through Alpine meadows and forest",
+      "technical_rating": 3,
+      "grooming": "Excellent German standards — well-maintained double tracks with skating lane",
+      "features": [
+        "Stunning Ammergau Alps mountain backdrop",
+        "Start/finish in Oberammergau, home of the famous Passion Play",
+        "Named after Bavaria's 'fairy-tale king' Ludwig II",
+        "Both classic and freestyle 50km races",
+        "Route passes through traditional Bavarian villages",
+        "Strong German recreational skiing community"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 73,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Outstanding Alpine scenery and solid Bavarian organization. Good accessibility from Munich. Snow reliability has become more variable with climate change at this altitude. Strong community atmosphere in the culturally rich Oberammergau setting.",
+      "tier_note": "Prestige 4 promotes one tier: raw T2 (70) stays TIER 2 (already T2)"
+    },
+    "history": {
+      "summary": "König Ludwig Lauf was founded in 1968 in Oberammergau, the Bavarian village famous for its Passion Play tradition dating to 1634. Named after King Ludwig II of Bavaria — the eccentric 'fairy-tale king' who built Neuschwanstein Castle — the race has grown into Germany's premier marathon cross-country ski event and a key fixture on the Worldloppet circuit. The Ammergau Alps region has a deep skiing heritage, and the race draws heavily from Germany's large recreational skiing community.",
+      "notable_facts": [
+        "Named after King Ludwig II, Bavaria's legendary castle-building monarch",
+        "Oberammergau is famous for its Passion Play, performed every 10 years since 1634",
+        "Germany's largest marathon cross-country ski race",
+        "Worldloppet member since the series' early years",
+        "The nearby Ettal Monastery provides a dramatic cultural backdrop",
+        "Ludwig II was an avid outdoorsman who built Alpine retreats throughout the region"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

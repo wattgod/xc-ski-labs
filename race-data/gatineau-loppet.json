@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Gatineau Loppet",
+    "slug": "gatineau-loppet",
+    "display_name": "Gatineau Loppet",
+    "tagline": "Fifty-one kilometers through Canada's capital region — Gatineau Park's frozen forests deliver North America's premier Worldloppet marathon.",
+    "vitals": {
+      "distance_km": 51,
+      "distance_options": ["51km classic", "51km skate", "27km", "15km", "2km kids"],
+      "elevation_m": 700,
+      "altitude_m": 300,
+      "location": "Gatineau Park, near Ottawa",
+      "location_badge": "Quebec, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Quebec / National Capital Region",
+      "date": "Mid-February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~2,500",
+      "founded": 1979,
+      "registration": "Open registration via online entry",
+      "prize_purse": null,
+      "aid_stations": "5 stations with warm drinks, maple syrup treats, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.gatineauloppet.com",
+      "lat": 45.4765,
+      "lng": -75.8014
+    },
+    "climate": {
+      "primary": "Canadian continental winter",
+      "description": "February in the Ottawa-Gatineau region brings reliable cold and snow. The Canadian Shield terrain and northern latitude ensure consistent winter conditions. Temperatures are typically well below freezing, with occasional Arctic air masses pushing conditions to extreme cold.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Extreme cold when Arctic air masses descend — wind chill can reach -35°C",
+        "Hilly terrain in Gatineau Park exposes skiers to wind on ridgelines",
+        "Variable snow conditions between sheltered forest and open ridges",
+        "Cold-weather gear management critical for the 3-5 hour effort"
+      ]
+    },
+    "course": {
+      "primary": "Hilly course through Gatineau Park, a 361 km² wilderness area across the river from Ottawa. The route traverses the Gatineau Hills with significant climbing through mixed hardwood and boreal forest. Rolling terrain with punchy climbs and fast descents demands strong technique.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through Gatineau Park's extensive trail network",
+      "technical_rating": 4,
+      "grooming": "Excellent — Gatineau Park maintains one of North America's best groomed trail systems",
+      "features": [
+        "Course through Gatineau Park, a massive protected wilderness area",
+        "Hilly terrain with challenging climbs and technical descents",
+        "Views across the Ottawa River valley to Parliament Hill",
+        "Both classic and freestyle 51km distances",
+        "North America's premier Worldloppet event",
+        "Strong bilingual (French/English) community atmosphere",
+        "Part of the Winterlude festival season in Canada's capital region"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 73,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 5,
+      "community": 4,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Top marks for grooming and accessibility — Gatineau Park is minutes from Ottawa International Airport. The hilly course earns a high technicality score. Strong bilingual community atmosphere. International draw limited by North American location relative to European Worldloppet circuit.",
+      "tier_note": "Prestige 4 promotes one tier: raw T2 (71) stays TIER 2 (already T2)"
+    },
+    "history": {
+      "summary": "The Gatineau Loppet was founded in 1979 and quickly became Canada's premier marathon cross-country ski race. Set in Gatineau Park — a vast wilderness preserve just across the Ottawa River from Canada's Parliament — the race benefits from world-class trail infrastructure and a passionate bilingual skiing community. It joined the Worldloppet series and has been North America's most consistent representative on the circuit, drawing skiers from across Canada and the northeastern United States.",
+      "notable_facts": [
+        "Gatineau Park covers 361 km² and maintains over 200km of groomed XC trails",
+        "The park is managed by the National Capital Commission, ensuring top-tier maintenance",
+        "Located just 15 minutes from downtown Ottawa, Canada's capital",
+        "Canadian XC skiing legends Pierre Harvey and Beckie Scott trained on these trails",
+        "The Gatineau Hills are part of the Canadian Shield, one of Earth's oldest geological formations",
+        "Bilingual French-English event reflects Canada's dual linguistic heritage"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

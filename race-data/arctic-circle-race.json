@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "Arctic Circle Race",
+    "slug": "arctic-circle-race",
+    "display_name": "Arctic Circle Race",
+    "tagline": "Three days, 160 kilometers, minus twenty-five — sleep in tents on the Greenland ice sheet and ski through the most extreme wilderness race on the planet.",
+    "vitals": {
+      "distance_km": 160,
+      "distance_options": ["160km (3 stages)"],
+      "elevation_m": 2000,
+      "altitude_m": 300,
+      "location": "Sisimiut",
+      "location_badge": "Qeqqata, Greenland",
+      "country": "Greenland",
+      "country_code": "GL",
+      "region": "Qeqqata",
+      "date": "Late March / Early April",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~200 from 20+ countries",
+      "founded": 1998,
+      "registration": "Application-based, requires demonstrated winter survival skills",
+      "prize_purse": null,
+      "aid_stations": "Checkpoint stations at stage boundaries; participants carry mandatory survival equipment",
+      "cutoff_time": "Stage-based cutoffs; participants must reach overnight camps before dark",
+      "website": "https://www.acr.gl",
+      "lat": 66.9394,
+      "lng": -53.6735
+    },
+    "climate": {
+      "primary": "Arctic maritime/continental",
+      "description": "Late March in West Greenland brings extreme cold with temperatures routinely dropping to -25°C or below overnight. Daytime temperatures may hover around -10°C to -15°C. Blizzard conditions are possible. Participants sleep in tents on the snow between stages, exposed to the full force of Arctic weather. Wind chill is the primary hazard.",
+      "typical_temp_c": "-30 to -10",
+      "challenges": [
+        "Overnight tent camping at -25°C or colder between stages",
+        "Blizzard risk with whiteout conditions and zero visibility",
+        "Wind chill can push effective temperature below -40°C",
+        "Mandatory survival gear adds weight to racing kit",
+        "Frostbite risk on all exposed skin during three-day effort",
+        "Mental endurance tested by isolation, cold, and multi-day fatigue"
+      ]
+    },
+    "course": {
+      "primary": "Three-stage point-to-point race through the Greenland wilderness near Sisimiut. The route crosses frozen fjords, glacial plateaus, and Arctic tundra. Terrain is rugged and variable — windswept ice, deep powder, and machine-tracked sections alternate. Significant elevation gain across the three stages with exposed ridgeline crossings.",
+      "format": "stage",
+      "surface": "Mixed — snowmobile-tracked trails, windswept ice, ungroomed wilderness sections",
+      "technical_rating": 5,
+      "grooming": "Minimal — snowmobile tracks set before each stage, but conditions vary wildly with wind and weather",
+      "features": [
+        "Three-day stage race with tent camping between stages",
+        "160km through Arctic Greenland wilderness",
+        "Crosses frozen fjords and glacial terrain",
+        "Mandatory survival equipment including sleeping bag, stove, and emergency rations",
+        "Participants from 20+ countries — extreme adventure community",
+        "Course marked with flags; navigation skills helpful in whiteout",
+        "One of the most extreme organized ski races in the world",
+        "Finish in Sisimiut, Greenland's second-largest town"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 70,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 5,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 5,
+      "course_technicality": 5,
+      "snow_reliability": 5,
+      "grooming_quality": 1,
+      "accessibility": 1,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "Maximum scores in distance, elevation, international draw, course technicality, snow reliability, and scenery — this is the most extreme organized XC ski race on the planet. Minimum scores in grooming and accessibility reflect the raw wilderness nature. Tiny field size but intensely international. The tent-camping format is unique in competitive skiing.",
+      "tier_note": "Raw score 70 = TIER 2"
+    },
+    "history": {
+      "summary": "The Arctic Circle Race was founded in 1998 in Sisimiut, West Greenland. It was created to showcase Greenland's extraordinary Arctic landscape through competitive skiing. The three-day stage format with tent camping was inspired by Arctic expedition traditions, and the race has earned a reputation as one of the most extreme organized endurance events in the world. Despite its small field of around 200, the race draws participants from over 20 countries — adventure athletes and ultra-endurance specialists who seek the ultimate combination of racing and survival.",
+      "notable_facts": [
+        "Participants sleep in tents at -25°C between stages — no lodges or heated shelters",
+        "Mandatory equipment list includes sleeping bag rated to -30°C, stove, and emergency food",
+        "The course crosses terrain used by Inuit hunters for thousands of years",
+        "Sisimiut is Greenland's second-largest town with about 5,500 residents",
+        "Whiteout conditions have forced stage modifications in several years",
+        "The race attracts special forces soldiers, polar explorers, and ultra-endurance athletes",
+        "Greenland's national ski culture is deeply tied to traditional Inuit winter travel"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

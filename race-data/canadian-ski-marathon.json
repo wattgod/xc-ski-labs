@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Canadian Ski Marathon",
+    "slug": "canadian-ski-marathon",
+    "display_name": "Canadian Ski Marathon",
+    "tagline": "One hundred and sixty kilometers over two days through Quebec's frozen Laurentians — North America's oldest cross-country ski event and the continent's ultimate endurance test.",
+    "vitals": {
+      "distance_km": 160,
+      "distance_options": ["160km (2 days)", "80km (1 day)", "51km", "25km"],
+      "elevation_m": 1500,
+      "altitude_m": 250,
+      "location": "Montebello to Lachute, Quebec",
+      "location_badge": "Laurentians, Quebec, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Quebec",
+      "date": "Second weekend in February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~1,000",
+      "founded": 1967,
+      "registration": "Open registration via online entry; Coureur de Bois category requires overnight camping",
+      "prize_purse": null,
+      "aid_stations": "Multiple checkpoints with warm food, hot drinks, and volunteer support along each day's route",
+      "cutoff_time": "Daily stage cutoffs; participants must reach overnight stop before dark",
+      "website": "https://www.csm-mcs.com",
+      "lat": 45.6474,
+      "lng": -74.9506
+    },
+    "climate": {
+      "primary": "Quebec continental winter",
+      "description": "February in the Laurentians brings consistently cold, snowy conditions. Deep snow cover is reliable in the forested highlands northwest of Montreal. Arctic air masses regularly push temperatures well below -20°C. The forested terrain provides shelter from wind but cold is unrelenting during the two-day effort.",
+      "typical_temp_c": "-20 to -8",
+      "challenges": [
+        "Two-day effort in extreme cold demands meticulous caloric and hydration planning",
+        "Coureur de Bois category requires overnight camping in the forest at sub-minus-20",
+        "Wax management across 160km in varying cold conditions",
+        "Fatigue accumulation on day two after 80km on day one",
+        "Deep cold makes equipment management (bindings, poles, layers) critical"
+      ]
+    },
+    "course": {
+      "primary": "Two-day point-to-point course through the Laurentian highlands northwest of Montreal. The route traverses rolling forested terrain, frozen lakes, and river valleys. Significant cumulative elevation gain across the 160km. The Coureur de Bois category adds overnight wilderness camping between stages. Terrain is technical in places with forest single-track descents.",
+      "format": "stage",
+      "surface": "Groomed and semi-groomed trails through Laurentian forest, frozen lakes, and logging roads",
+      "technical_rating": 4,
+      "grooming": "Variable — some sections well-groomed, others semi-groomed logging roads and forest trails",
+      "features": [
+        "North America's oldest cross-country ski event (since 1967)",
+        "160km over two days through the Quebec Laurentians",
+        "Coureur de Bois category: ski all 160km AND camp overnight in the forest",
+        "Named after French-Canadian fur trade tradition",
+        "Gold, silver, bronze completion categories based on sections completed",
+        "Strong francophone Quebec skiing culture",
+        "Route between Montebello (Fairmont Chateau) and Lachute",
+        "Volunteer-run with deep community roots"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 66,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 5,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 4,
+      "grooming_quality": 2,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Maximum distance and elevation scores for the grueling 160km two-day format. The Coureur de Bois overnight camping category is unique in competitive XC skiing. Variable grooming reflects the wilderness nature of the event. Strong Quebec community atmosphere and deep historical roots as North America's oldest XC event.",
+      "tier_note": "Prestige 4 promotes one tier: raw T2 (66) stays TIER 2 (already T2)"
+    },
+    "history": {
+      "summary": "The Canadian Ski Marathon was founded in 1967 — Canada's centennial year — making it North America's oldest cross-country ski event. The race was conceived as a celebration of the French-Canadian Coureur de Bois tradition — the fur traders who traversed the wilderness on skis and snowshoes. The two-day format with optional overnight camping honors this heritage. The event has been held continuously in the Laurentian Mountains northwest of Montreal, drawing participants who range from recreational skiers completing a single section to ultra-endurance athletes attempting the full 160km Coureur de Bois challenge.",
+      "notable_facts": [
+        "Founded in 1967, Canada's centennial year — the oldest XC ski event in North America",
+        "The Coureur de Bois category requires skiing all 160km AND camping overnight in the forest",
+        "Named after the French-Canadian fur traders who traveled by ski and canoe",
+        "Montebello's Fairmont Chateau is a historic landmark along the route",
+        "The event uses a section-based medal system: gold for completing all sections, silver/bronze for partial",
+        "Quebec has the strongest recreational XC skiing culture in North America",
+        "Pierre Elliott Trudeau, Canada's Prime Minister, participated in 1970"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

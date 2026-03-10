@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "3 Zinnen Ski-Marathon",
+    "slug": "3-zinnen-ski-marathon",
+    "display_name": "3 Zinnen Ski-Marathon",
+    "tagline": "Sixty-two classic kilometers through the South Tyrolean Dolomites — where the Drei Zinnen spires watch over one of the oldest ski marathons in the Alps.",
+    "vitals": {
+      "distance_km": 62,
+      "distance_options": ["62km", "30km", "15km"],
+      "elevation_m": 800,
+      "altitude_m": 1300,
+      "location": "Sexten to Niederdorf",
+      "location_badge": "South Tyrol, Italy",
+      "country": "Italy",
+      "country_code": "IT",
+      "region": "Trentino-Alto Adige",
+      "date": "Third Sunday in January",
+      "date_specific": "2026: January 18",
+      "discipline": "classic",
+      "field_size": "~1,500 starters",
+      "founded": 1976,
+      "registration": "Online registration; opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "5 feed stations with South Tyrolean specialties, warm drinks, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.3zinnen.info",
+      "lat": 46.6934,
+      "lng": 12.3528
+    },
+    "climate": {
+      "primary": "Dolomite alpine winter",
+      "description": "January in the Sextner Dolomites at 1,300m altitude means reliable cold and deep snow. Temperatures typically range from -12°C to -3°C. The valley route between Sexten and Niederdorf offers some wind protection from surrounding peaks, but exposed sections can be bitterly cold.",
+      "typical_temp_c": "-12 to -3",
+      "challenges": [
+        "January cold at 1,300m altitude in the Dolomites",
+        "Wind exposure on open valley sections",
+        "Shaded north-facing sections can be significantly colder",
+        "Snow quality variation between valley floor and higher terrain"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from Sexten to Niederdorf through the Puster Valley in the heart of the Dolomites. The course follows the valley floor with views of the iconic Drei Zinnen (Tre Cime) and surrounding Dolomite spires. Rolling terrain with several sustained climbs totaling 800m of elevation gain. Classic technique only.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through Dolomite valley terrain",
+      "technical_rating": 3,
+      "grooming": "Well-maintained Italian ski marathon standard, classic tracks expertly set",
+      "features": [
+        "Views of the iconic Drei Zinnen (Tre Cime di Lavaredo) throughout",
+        "Point-to-point through the scenic Puster Valley",
+        "Passes through historic South Tyrolean villages",
+        "South Tyrolean feed stations with local specialties",
+        "One of the oldest continuously-run ski marathons in Italy"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 4,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Maximum scenery score anchored by the Drei Zinnen and Dolomite panorama. Prestige 4 reflects 50 years of continuous racing since 1976. The Dolomite setting and Italian hospitality elevate the experience beyond typical mid-sized marathons.",
+      "tier_note": "Prestige 4 promotes one tier but cannot enter TIER 1 — confirmed TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1976, the 3 Zinnen Ski-Marathon is one of the oldest ski marathons in the Alps. Named after the iconic Drei Zinnen (Tre Cime di Lavaredo), three distinctive Dolomite rock pinnacles visible throughout the course, the race has grown from a regional event into a respected fixture on the European ski marathon calendar. The South Tyrolean setting blends Austrian and Italian cultures with world-class mountain scenery.",
+      "notable_facts": [
+        "Named after the Drei Zinnen (Tre Cime), a UNESCO World Heritage Dolomite landmark",
+        "Founded in 1976 — one of the oldest ski marathons in Italy",
+        "South Tyrol's unique bilingual German-Italian culture shapes the event",
+        "Classic technique only — preserving traditional skiing heritage",
+        "The Puster Valley hosted World War I front lines — historical significance throughout",
+        "Nearly 50 years of continuous racing through the Dolomites"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

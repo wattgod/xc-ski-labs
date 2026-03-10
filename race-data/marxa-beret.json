@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Marxa Beret",
+    "slug": "marxa-beret",
+    "display_name": "Marxa Beret",
+    "tagline": "Forty-two kilometers through the Pyrenees at 1,800 meters — Spain's improbable Nordic masterpiece in the Catalan heartland of Val d'Aran.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km"],
+      "elevation_m": 700,
+      "altitude_m": 1650,
+      "location": "Baqueira Beret, Val d'Aran",
+      "location_badge": "Catalonia, Spain",
+      "country": "Spain",
+      "country_code": "ES",
+      "region": "Val d'Aran, Catalonia",
+      "date": "First or second weekend in February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~900 starters",
+      "founded": 1981,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": "Ski Classics Challengers prize structure",
+      "aid_stations": "Stations with Spanish and Aranese mountain hospitality",
+      "cutoff_time": null,
+      "website": "https://www.marxaberet.com",
+      "lat": 42.6945,
+      "lng": 0.9461
+    },
+    "climate": {
+      "primary": "High Pyrenean winter",
+      "description": "Baqueira Beret sits at 1,500-1,800m in the central Pyrenees, catching Atlantic moisture that delivers heavy snowfall. The Val d'Aran is unique in the Pyrenees — its north-facing Atlantic drainage pattern creates a microclimate more similar to the French side. February temperatures range from -10°C to 2°C.",
+      "typical_temp_c": "-10 to 2",
+      "challenges": [
+        "High altitude at 1,500-1,800m affects unacclimatized skiers",
+        "Pyrenean weather can shift rapidly between sun and storm",
+        "Atlantic-influenced snow can be heavier and wetter than Alpine powder",
+        "Challenging terrain with meaningful climbing at altitude"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the high Pyrenean terrain around Baqueira Beret, Spain's most prestigious ski resort. The course traverses Alpine meadows and mountain forest at 1,500-1,800m altitude with significant climbing. Classic technique only — the terrain rewards strong diagonal stride on the climbs.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through high Pyrenean terrain",
+      "technical_rating": 3,
+      "grooming": "Good grooming at Baqueira Beret's Nordic facilities",
+      "features": [
+        "Spain's biggest and most prestigious XC ski race",
+        "High Pyrenean setting at 1,500-1,800m altitude",
+        "Val d'Aran — the only Atlantic-draining valley in the Spanish Pyrenees",
+        "Ski Classics Challengers series event",
+        "Aranese culture — Occitan-speaking valley with unique Pyrenean identity",
+        "Baqueira Beret is Spain's premier ski resort, favored by Spanish royalty"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 66,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "The most unlikely Nordic race on the calendar — a serious XC marathon in the Spanish Pyrenees. The Val d'Aran setting is spectacular, and the Ski Classics connection brings genuine competitive depth. Spain's sole entry in international marathon skiing.",
+      "tier_note": "Score 66 places in TIER 2 range"
+    },
+    "history": {
+      "summary": "Founded in 1981, the Marxa Beret is Spain's premier cross-country ski race, held in the Val d'Aran — a unique Occitan-speaking valley in the central Pyrenees. The race takes place around Baqueira Beret, Spain's most prestigious ski resort and a favorite of the Spanish royal family. Its inclusion in the Ski Classics Challengers series has elevated its international profile.",
+      "notable_facts": [
+        "Spain's biggest and most prestigious cross-country ski race",
+        "Val d'Aran is the only valley in Spain that drains toward the Atlantic (via the Garonne)",
+        "Aranese, a dialect of Occitan, is co-official with Catalan and Spanish in the valley",
+        "Baqueira Beret is favored by the Spanish royal family for winter holidays",
+        "Part of the Ski Classics Challengers series",
+        "The Pyrenees at this longitude receive heavy Atlantic snowfall — excellent snow record"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

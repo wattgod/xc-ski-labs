@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Skadi Loppet",
+    "slug": "skadi-loppet",
+    "display_name": "Skadi Loppet",
+    "tagline": "Forty-two kilometers and 1,077 meters of climbing through the Bavarian Forest — named for the Norse goddess of winter and built to break you.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km"],
+      "elevation_m": 1077,
+      "altitude_m": 900,
+      "location": "Bodenmais",
+      "location_badge": "Bavarian Forest, Germany",
+      "country": "Germany",
+      "country_code": "DE",
+      "region": "Bavaria",
+      "date": "Late January",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~1,100 starters",
+      "founded": 2000,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": null,
+      "aid_stations": "Multiple stations with warm drinks and Bavarian refreshments",
+      "cutoff_time": null,
+      "website": "https://www.skadi-loppet.de",
+      "lat": 49.0657,
+      "lng": 13.1406
+    },
+    "climate": {
+      "primary": "Central European mountain winter",
+      "description": "The Bavarian Forest receives reliable snowfall due to its position catching moisture from both Atlantic and continental weather systems. The Bodenmais area at 900m+ altitude maintains consistent winter conditions. January temperatures on race day typically range from -10°C to 0°C.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "1,077m of total climbing demands sustained power output",
+        "Steep descents through forest require confident technique",
+        "Variable conditions — forest shelter versus exposed ridgeline",
+        "Central European weather can bring rain-snow transitions"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Bavarian Forest with a massive 1,077 meters of total ascent — making it one of the most demanding marathon ski races in central Europe. The course climbs through dense spruce and beech forest to exposed ridgelines before plunging back down through tight, technical descents. The terrain is relentless.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through dense mountain forest and ridgeline terrain",
+      "technical_rating": 5,
+      "grooming": "Good German-standard grooming, adapted to demanding terrain",
+      "features": [
+        "1,077m total ascent — among the most demanding in European marathon skiing",
+        "Named after Skadi, Norse goddess of winter and mountains",
+        "Nearly 100% snow reliability due to altitude and microclimate",
+        "Dense Bavarian Forest with spruce and beech canopy",
+        "Technical descents through tight forest trails",
+        "Euroloppet member event"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 67,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 4,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 5,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "One of the most physically demanding marathon ski races in Europe — 1,077m of climbing in 42km is brutal. Technical descents and relentless terrain reward strong all-round skiers. The Bavarian Forest setting provides reliable snow and atmospheric racing.",
+      "tier_note": "Score 67 places in TIER 2 range"
+    },
+    "history": {
+      "summary": "Founded in 2000, the Skadi Loppet takes its name from the Norse goddess Skadi, associated with winter, mountains, and skiing. The race was created to showcase the Bavarian Forest's exceptional Nordic skiing terrain and has earned a reputation as one of the most physically demanding marathon ski races in central Europe. Its 1,077m of climbing in just 42km is nearly unmatched.",
+      "notable_facts": [
+        "Named after Skadi, the Norse goddess of winter, mountains, and skiing",
+        "1,077m of total ascent makes it one of Europe's toughest marathon ski races",
+        "The Bavarian Forest is Germany's first national park (established 1970)",
+        "Nearly 100% snow reliability — the Bodenmais area is one of Germany's snowiest",
+        "Euroloppet member connecting it to the European marathon skiing circuit",
+        "The Bavarian Forest borders Sumava National Park in the Czech Republic"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

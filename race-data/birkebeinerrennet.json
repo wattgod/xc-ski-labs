@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Birkebeinerrennet",
+    "slug": "birkebeinerrennet",
+    "display_name": "Birkebeinerrennet",
+    "tagline": "Carry the weight of history — 54km with a 3.5kg pack across the Norwegian mountains, just as the Birkebeiner warriors did 800 years ago.",
+    "vitals": {
+      "distance_km": 54,
+      "distance_options": ["54km"],
+      "elevation_m": 1000,
+      "altitude_m": 800,
+      "location": "Rena to Lillehammer",
+      "location_badge": "Innlandet, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Innlandet",
+      "date": "Third Saturday in March",
+      "date_specific": "2026: March 21",
+      "discipline": "classic",
+      "field_size": "~8,000 starters",
+      "founded": 1932,
+      "registration": "Opens in spring; sells out quickly",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations with warm drinks and energy food",
+      "cutoff_time": "Approximately 8.5 hours",
+      "website": "https://www.birkebeiner.no",
+      "lat": 61.1153,
+      "lng": 10.4663
+    },
+    "climate": {
+      "primary": "Norwegian mountain winter",
+      "description": "March conditions vary from deep cold to spring warmth. The course crosses exposed mountain terrain above treeline where wind chill is severe. Temperatures typically -15°C to 0°C with significant wind on the high plateaus.",
+      "typical_temp_c": "-12 to 0",
+      "challenges": [
+        "Above-treeline exposure with severe wind chill",
+        "Rapidly changing mountain weather",
+        "3.5kg mandatory backpack adds fatigue over 54km",
+        "High altitude sections can be icy or windswept"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point mountain crossing from Rena to Lillehammer with significant climbing. The course reaches 900m+ altitude on the Birkebeiner ridge before descending into Lillehammer. Demanding elevation profile with the infamous climb to the high point.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through mountain and forest terrain",
+      "technical_rating": 4,
+      "grooming": "World-class, Worldloppet standard grooming across the full course",
+      "features": [
+        "Mandatory 3.5kg backpack — unique among Worldloppet races",
+        "Crosses the mountain ridge where Birkebeiner warriors carried infant prince Haakon in 1206",
+        "Finish in Lillehammer at the 1994 Olympic venue",
+        "Exposed above-treeline section with dramatic mountain views",
+        "Historical reenactment of one of Norway's most important events"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 90,
+      "tier": 1,
+      "tier_label": "TIER 1",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 4,
+      "altitude": 3,
+      "field_size": 5,
+      "prestige": 5,
+      "international_draw": 5,
+      "course_technicality": 4,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 5,
+      "scenery": 4,
+      "organization": 5,
+      "competitive_depth": 5,
+      "score_note": "The mandatory backpack, mountain terrain, and deep historical significance make this one of the most iconic ski marathons in the world. Highest overall score in the database.",
+      "tier_note": "Prestige 5 with score >= 75 confirms TIER 1"
+    },
+    "history": {
+      "summary": "The race commemorates the 1206 rescue of the infant Prince Haakon Haakonsson by two Birkebeiner warriors who skied him across the mountains from Lillehammer to safety in Rena during the Norwegian civil war. The 3.5kg backpack requirement represents the weight of the child. Founded in 1932, it has become Norway's most celebrated ski marathon and a cornerstone of the Worldloppet series.",
+      "notable_facts": [
+        "Commemorates the 1206 rescue of infant Prince Haakon — the backpack weight represents the baby",
+        "The Birkebeiner warriors' name means 'birch legs' from the birch-bark leggings they wore",
+        "Finishes at the Lillehammer Olympic cross-country stadium from the 1994 Games",
+        "Has inspired the American Birkebeiner (founded 1973) and the Canadian Birkebeiner",
+        "Part of both Worldloppet and Ski Classics series",
+        "The race has been cancelled multiple times due to extreme weather on the mountain"
+      ]
+    },
+    "series_membership": ["worldloppet", "ski_classics_grand_classic"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

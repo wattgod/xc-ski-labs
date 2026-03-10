@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Ganghoferlauf",
+    "slug": "ganghoferlauf",
+    "display_name": "Ganghoferlauf",
+    "tagline": "Fifty kilometers across the Olympic plateau of Seefeld — where Tyrolean tradition meets world-class grooming at the crossroads of the Alps.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "20km", "10km"],
+      "elevation_m": 800,
+      "altitude_m": 1200,
+      "location": "Seefeld",
+      "location_badge": "Tyrol, Austria",
+      "country": "Austria",
+      "country_code": "AT",
+      "region": "Tyrol",
+      "date": "Late February to early March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~2,000 starters",
+      "founded": 1968,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": null,
+      "aid_stations": "Well-stocked stations with Austrian refreshments",
+      "cutoff_time": null,
+      "website": "https://www.ganghoferlauf.at",
+      "lat": 47.3290,
+      "lng": 11.1874
+    },
+    "climate": {
+      "primary": "Alpine plateau winter",
+      "description": "Seefeld's 1,200m plateau enjoys a reliable snow season backed by snowmaking infrastructure from its Olympic pedigree. Temperatures on race day typically range from -8°C to 2°C. The sheltered plateau position reduces wind exposure compared to higher Alpine venues.",
+      "typical_temp_c": "-8 to 2",
+      "challenges": [
+        "Alpine weather can shift rapidly — sun to snowfall within hours",
+        "Altitude of 1,200m affects pacing for lowland skiers",
+        "Late-season warmth can soften tracks by afternoon",
+        "Technical descents require confident handling"
+      ]
+    },
+    "course": {
+      "primary": "Loop course on the Seefeld Olympic plateau, using the same trail network that hosted the 1964, 1976, and 2019 Olympic and World Championship XC events. Rolling terrain with meaningful climbs and technical descents through Alpine meadows and conifer forest, all framed by the Karwendel mountains.",
+      "format": "loop",
+      "surface": "Olympic-standard machine-groomed trails on the Seefeld plateau",
+      "technical_rating": 3,
+      "grooming": "Olympic-standard grooming with snowmaking backup",
+      "features": [
+        "Olympic XC venue — hosted 1964, 1976 Winter Olympics and 2019 World Championships",
+        "Panoramic views of the Karwendel mountain range",
+        "Named after Tyrolean author Ludwig Ganghofer",
+        "Euroloppet member event",
+        "Alpine meadow and conifer forest terrain",
+        "World-class Nordic infrastructure from Olympic legacy"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 74,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Olympic pedigree and Tyrolean Alpine setting deliver world-class grooming and stunning scenery. The Seefeld plateau is one of the finest Nordic venues in the Alps. Euroloppet membership broadens international reach.",
+      "tier_note": "Prestige 4 promotes from T3 to T2"
+    },
+    "history": {
+      "summary": "Founded in 1968, the Ganghoferlauf is named after Ludwig Ganghofer, a beloved Tyrolean author who celebrated the Alpine landscape in his novels. The race takes place on the Seefeld plateau, which has hosted XC skiing at the 1964 and 1976 Winter Olympics and the 2019 FIS Nordic World Ski Championships. This Olympic legacy gives the race access to world-class infrastructure and grooming.",
+      "notable_facts": [
+        "Named after Ludwig Ganghofer (1855-1920), popular Tyrolean novelist",
+        "Seefeld hosted Olympic XC skiing in 1964 and 1976",
+        "2019 FIS Nordic World Ski Championships held on the same trails",
+        "Euroloppet member event connecting it to European marathon skiing circuit",
+        "The Seefeld plateau at 1,200m is one of Austria's premier Nordic destinations",
+        "Karwendel Nature Park, visible from the course, is the largest nature park in Austria"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

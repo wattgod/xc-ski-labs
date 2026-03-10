@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Holmenkollmarsjen",
+    "slug": "holmenkollmarsjen",
+    "display_name": "Holmenkollmarsjen",
+    "tagline": "Fifty-two kilometers through the Oslo hills to the most famous ski jump in the world — where Norwegian ski culture lives and breathes.",
+    "vitals": {
+      "distance_km": 52,
+      "distance_options": ["52km", "30km", "17km"],
+      "elevation_m": 1020,
+      "altitude_m": 300,
+      "location": "Oslo",
+      "location_badge": "Oslo, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Eastern Norway",
+      "date": "Mid-February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~1,500 starters",
+      "founded": 1974,
+      "registration": "Online registration, Ski Classics Challengers entry",
+      "prize_purse": "Prize money for elite wave via Ski Classics",
+      "aid_stations": "Multiple feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.holmenkollmarsjen.no",
+      "lat": 59.9642,
+      "lng": 10.6674
+    },
+    "climate": {
+      "primary": "Maritime Scandinavian winter",
+      "description": "Oslo's coastal position creates variable winter conditions. Temperatures range from -10°C to 2°C. Maritime influence means snow quality can vary significantly. The elevation gain takes skiers into colder, more reliable snow at higher points on the course.",
+      "typical_temp_c": "-8 to 0",
+      "challenges": [
+        "Maritime influence creates variable snow conditions",
+        "Temperature inversions between valley and hilltop sections",
+        "Rain risk in warmer years",
+        "Wax changes needed for elevation-driven temperature shifts"
+      ]
+    },
+    "course": {
+      "primary": "Hilly point-to-point through the Nordmarka forest and Oslo hills, finishing at the iconic Holmenkollen ski jump. Over 1,000 meters of climbing makes this one of the most demanding marathon ski courses in Scandinavia.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through forest and parkland",
+      "technical_rating": 4,
+      "grooming": "High-quality Norwegian standard grooming on established trail network",
+      "features": [
+        "Finishes at Holmenkollen — Norway's national ski shrine",
+        "Over 1,000 meters of total climbing",
+        "Course through the Nordmarka forest above Oslo",
+        "Part of the Ski Classics Challengers series",
+        "Technical descents require strong downhill skiing"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 74,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 4,
+      "altitude": 2,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 5,
+      "community": 4,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "Outstanding elevation profile and the Holmenkollen finish make this a demanding, prestigious event. Capital city accessibility is unmatched. Strong Ski Classics Challengers link elevates competitive depth.",
+      "tier_note": "Prestige 4 eligible for 1-tier promotion, already at T2"
+    },
+    "history": {
+      "summary": "Founded in 1974, Holmenkollmarsjen was created to give recreational skiers a mass-start marathon finishing at Norway's most hallowed ski venue — the Holmenkollen ski jump. The course traverses the Nordmarka forest that has been central to Oslo skiing culture for over a century. As part of the Ski Classics Challengers series, it attracts both elite long-distance racers and enthusiastic amateurs tackling one of Scandinavia's most elevation-heavy marathon courses.",
+      "notable_facts": [
+        "Finishes at Holmenkollen, site of the 1952 Olympics and annual World Cup events",
+        "Over 1,000 meters of climbing makes it one of the toughest Scandinavian marathons",
+        "Part of the Visma Ski Classics Challengers series",
+        "The Nordmarka forest has been Oslo's skiing playground since the 1800s",
+        "Attracts strong Norwegian domestic field plus international Ski Classics followers"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

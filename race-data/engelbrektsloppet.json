@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Engelbrektsloppet",
+    "slug": "engelbrektsloppet",
+    "display_name": "Engelbrektsloppet",
+    "tagline": "Sixty kilometers through the mining country of Bergslagen — Sweden's second-largest ski race and a pillar of En Svensk Klassiker.",
+    "vitals": {
+      "distance_km": 60,
+      "distance_options": ["60km", "40km", "20km"],
+      "elevation_m": 400,
+      "altitude_m": 200,
+      "location": "Norberg",
+      "location_badge": "Västmanland, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Bergslagen",
+      "date": "First Saturday in February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~1,200 starters",
+      "founded": 1969,
+      "registration": "Online registration, opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "Service stations with warm drinks and energy food",
+      "cutoff_time": null,
+      "website": "https://www.engelbrektsloppet.se",
+      "lat": 60.0657,
+      "lng": 15.9186
+    },
+    "climate": {
+      "primary": "Continental Swedish winter",
+      "description": "Bergslagen's inland position typically delivers reliable cold and good snow conditions in early February. Temperatures range from -15°C to -3°C. The forested terrain provides shelter from wind but can trap cold air in valleys.",
+      "typical_temp_c": "-12 to -3",
+      "challenges": [
+        "Cold starts in shaded forest valleys",
+        "Variable snow conditions across elevation changes",
+        "Classic-only format demands precise wax choice",
+        "Low-altitude course vulnerable to mild winters"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the historic Bergslagen mining district, rolling forest terrain with moderate elevation changes. The course passes through the cultural landscape of Sweden's iron-producing heartland.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through forest and open terrain",
+      "technical_rating": 2,
+      "grooming": "Well-groomed Swedish standard, classic tracks only",
+      "features": [
+        "Second-largest cross-country ski race in Sweden",
+        "Part of En Svensk Klassiker (Swedish Classic) four-race challenge",
+        "Course through historic Bergslagen mining landscape",
+        "Named after medieval Swedish freedom fighter Engelbrekt Engelbrektsson",
+        "Rolling terrain through mixed forest and open countryside"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Historic Swedish race with deep cultural roots. The En Svensk Klassiker connection elevates its prestige. Modest elevation and predominantly domestic field keep the raw score moderate.",
+      "tier_note": "Prestige 4 grants 1-tier promotion from T3 to T2"
+    },
+    "history": {
+      "summary": "Founded in 1969 and named after Engelbrekt Engelbrektsson, a 15th-century Swedish rebel leader from the Bergslagen mining region. The race quickly established itself as Sweden's second-largest ski marathon behind Vasaloppet. Its inclusion in En Svensk Klassiker — a four-race endurance challenge combining skiing, cycling, running, and swimming — has cemented its place in Swedish sporting culture.",
+      "notable_facts": [
+        "Named after Engelbrekt Engelbrektsson, who led a peasant revolt in 1434",
+        "Second-largest ski race in Sweden, behind only Vasaloppet",
+        "One of four events in En Svensk Klassiker (The Swedish Classic)",
+        "Course traverses the historic iron-mining region of Bergslagen",
+        "Many participants use it as a Vasaloppet warm-up race"
+      ]
+    },
+    "series_membership": ["en_svensk_klassiker"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

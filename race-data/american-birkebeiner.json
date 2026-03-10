@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "American Birkebeiner",
+    "slug": "american-birkebeiner",
+    "display_name": "American Birkebeiner",
+    "tagline": "Ten thousand skiers charging through the Northwoods — America's largest and loudest cross-country ski race.",
+    "vitals": {
+      "distance_km": 55,
+      "distance_options": ["55km classic", "50km skate", "29km Kortelopet", "15km Prince Haakon"],
+      "elevation_m": 650,
+      "altitude_m": 400,
+      "location": "Cable to Hayward, Wisconsin",
+      "location_badge": "Wisconsin, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Wisconsin",
+      "date": "Last Saturday in February",
+      "date_specific": "2026: February 28",
+      "discipline": "both",
+      "field_size": "~10,000 starters (all distances)",
+      "founded": 1973,
+      "registration": "Opens in spring; early-bird pricing available",
+      "prize_purse": "Cash prizes for elite wave",
+      "aid_stations": "Multiple stations with cookies, energy drink, water, warm broth",
+      "cutoff_time": null,
+      "website": "https://www.birkie.com",
+      "lat": 46.0133,
+      "lng": -91.0012
+    },
+    "climate": {
+      "primary": "Upper Midwest continental winter",
+      "description": "Late February conditions in northern Wisconsin range from bitter cold to surprisingly mild. Temperatures typically -20°C to 0°C. The race has been shortened or rerouted due to both extreme cold and insufficient snow in recent years, reflecting climate variability.",
+      "typical_temp_c": "-15 to 0",
+      "challenges": [
+        "Extreme cold in some years — wind chill below -30°C possible",
+        "Snow reliability declining — race has been shortened or altered in recent years",
+        "Flat light in overcast conditions makes trail reading difficult",
+        "Midwestern wind exposure on open sections"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the Northwoods forest from Cable to Hayward on the American Birkebeiner Ski Trail. Rolling terrain with significant hills — the course is hillier than many expect. The famous finish on Main Street Hayward is one of skiing's great spectacles.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through hardwood and pine forest",
+      "technical_rating": 3,
+      "grooming": "High-quality machine grooming, well-maintained American Birkebeiner trail system",
+      "features": [
+        "Iconic finish on Main Street Hayward with massive crowds",
+        "Offers both classic and skate distances on separate courses",
+        "The 'Birkie' trail system is groomed year-round for training",
+        "Rolling hills through Northwoods hardwood forest",
+        "Post-race festival in Hayward with live music and community celebration"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 5,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 5,
+      "scenery": 3,
+      "organization": 5,
+      "competitive_depth": 4,
+      "score_note": "North America's premier citizen ski race with unmatched community atmosphere. Low altitude and declining snow reliability are the main limiting factors. The Main Street Hayward finish is legendary.",
+      "tier_note": "Prestige 4 promotes from base TIER 2 — stays TIER 2 (cannot enter TIER 1)"
+    },
+    "history": {
+      "summary": "Founded in 1973 by Tony Wise, inspired by Norway's Birkebeinerrennet. The first race had 35 skiers; it has grown to over 10,000 participants, making it the largest cross-country ski race in North America. The race follows the American Birkebeiner Ski Trail through the Northwoods of Wisconsin. The Birkie has become a cultural institution in the Upper Midwest and a gateway event that introduces thousands of Americans to competitive skiing.",
+      "notable_facts": [
+        "First race in 1973 had just 35 skiers — now North America's largest",
+        "Inspired by Norway's Birkebeinerrennet (founded 1932)",
+        "The Main Street Hayward finish draws thousands of spectators",
+        "The Birkie trail system is maintained year-round and used for mountain biking in summer",
+        "Part of the Worldloppet series",
+        "Has been shortened or rerouted several times due to insufficient snow or extreme cold"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

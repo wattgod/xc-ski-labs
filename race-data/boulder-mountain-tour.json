@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Boulder Mountain Tour",
+    "slug": "boulder-mountain-tour",
+    "display_name": "Boulder Mountain Tour",
+    "tagline": "Thirty-four kilometers through Idaho's Sawtooth wilderness — Sun Valley's crown jewel of citizen racing since 1974.",
+    "vitals": {
+      "distance_km": 34,
+      "distance_options": ["34km", "15km"],
+      "elevation_m": 350,
+      "altitude_m": 1800,
+      "location": "Ketchum / Sun Valley",
+      "location_badge": "Idaho, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Idaho",
+      "date": "First Saturday in February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~1,000 starters",
+      "founded": 1974,
+      "registration": "Online registration; fills quickly",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the Harriman Trail",
+      "cutoff_time": null,
+      "website": "https://www.bouldermountaintour.com",
+      "lat": 43.6807,
+      "lng": -114.3637
+    },
+    "climate": {
+      "primary": "High-altitude intermountain winter",
+      "description": "Sun Valley sits at 1,800m in the central Idaho mountains. February conditions are typically cold and dry with reliable snowpack. Temperatures range from -15°C to -2°C on race day. The high altitude and dry continental air produce excellent powder conditions.",
+      "typical_temp_c": "-12 to -2",
+      "challenges": [
+        "High altitude at 1,800m affects pacing and breathing",
+        "Cold morning starts in February at altitude",
+        "Dry mountain air requires extra hydration",
+        "Occasional high winds through open valley sections"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point along the historic Harriman Trail through the Sawtooth National Recreation Area. The course follows the Big Wood River valley with gentle grades and spectacular mountain views. Predominantly flat to rolling terrain with no major climbs.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through mountain valley and forest",
+      "technical_rating": 2,
+      "grooming": "Excellent grooming on the Harriman Trail system",
+      "features": [
+        "Harriman Trail through the Sawtooth National Recreation Area",
+        "Views of the Boulder Mountains and Pioneer Mountains",
+        "Following the Big Wood River valley",
+        "Net downhill point-to-point course",
+        "Historic Sun Valley ski resort as the finish venue",
+        "Worldloppet member event"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "One of America's oldest and most scenic citizen races. The Sun Valley setting and Worldloppet membership give it international credibility, though the course is not technically demanding.",
+      "tier_note": "Prestige 4 promotes from T3 to T2"
+    },
+    "history": {
+      "summary": "Founded in 1974, the Boulder Mountain Tour is one of the oldest citizen XC ski races in the United States. Set in the legendary Sun Valley resort area of central Idaho, the race follows the Harriman Trail through the Sawtooth National Recreation Area. It became a Worldloppet member event, connecting it to the global marathon skiing community.",
+      "notable_facts": [
+        "One of the oldest citizen XC ski races in the United States",
+        "Sun Valley was America's first destination ski resort, opened 1936",
+        "The Harriman Trail is named after railroad magnate Averell Harriman",
+        "Worldloppet member — the only Idaho race in the global series",
+        "Sawtooth NRA covers over 750,000 acres of protected wilderness",
+        "Ernest Hemingway lived and wrote in the Sun Valley area"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

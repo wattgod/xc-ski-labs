@@ -1,0 +1,85 @@
+{
+  "race": {
+    "name": "Tervahiihto",
+    "slug": "tervahiihto",
+    "display_name": "Tervahiihto",
+    "tagline": "Seventy kilometers from Oulu since 1889 — the world's oldest continuously held cross-country ski race, born in the tar-trading capital of Finland's frozen north.",
+    "vitals": {
+      "distance_km": 70,
+      "distance_options": ["70km classic", "70km skate", "50km", "30km"],
+      "elevation_m": 400,
+      "altitude_m": 50,
+      "location": "Oulu",
+      "location_badge": "North Ostrobothnia, Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "North Ostrobothnia",
+      "date": "Mid-February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~2,000-3,000",
+      "founded": 1889,
+      "registration": "Open registration via online entry",
+      "prize_purse": null,
+      "aid_stations": "5-6 stations with warm drinks, Finnish pastries, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.tervahiihto.fi",
+      "lat": 65.0124,
+      "lng": 25.4682
+    },
+    "climate": {
+      "primary": "Northern Finnish winter",
+      "description": "February in Oulu at 65°N latitude delivers deep, reliable winter. The Gulf of Bothnia coastline moderates temperatures slightly compared to inland Finland, but conditions remain firmly below freezing. Daylight is increasing from the polar winter minimum but still limited. Snow cover is consistent and deep.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Northern latitude means limited February daylight for back-of-pack skiers",
+        "Coastal winds from the Gulf of Bothnia can create wind chill",
+        "Flat terrain means sustained effort without recovery descents",
+        "70km distance at sub-minus-10 demands careful cold management"
+      ]
+    },
+    "course": {
+      "primary": "Predominantly flat to gently rolling course through the forests and coastal lowlands around Oulu. The route traverses boreal pine forest and open marshland near the Gulf of Bothnia. The flat terrain rewards endurance and double-poling strength over technical ability.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through boreal forest and coastal terrain",
+      "technical_rating": 2,
+      "grooming": "Good Finnish grooming standards with well-set classic and skate tracks",
+      "features": [
+        "World's oldest continuously held cross-country ski race (since 1889)",
+        "130+ years of unbroken tradition",
+        "Course through the boreal forests near the Gulf of Bothnia",
+        "Both classic and freestyle 70km options",
+        "'Terva' means tar — Oulu was historically Finland's tar-trading capital",
+        "Strong northern Finnish skiing culture and community",
+        "Flat terrain rewards aerobic fitness and double-poling power"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 5,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 5,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "Maximum prestige as the world's oldest continuously held XC ski race — 130+ years of unbroken tradition since 1889. Perfect snow reliability and distance scores. The flat coastal terrain limits scenery and technicality scores. Strong Finnish national competitive depth.",
+      "tier_note": "Prestige 5 with score < 75 caps at TIER 2"
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

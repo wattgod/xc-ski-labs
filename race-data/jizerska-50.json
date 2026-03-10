@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Jizerská 50",
+    "slug": "jizerska-50",
+    "display_name": "Jizerská 50",
+    "tagline": "Fifty freezing kilometers through the Jizera Mountains — Czech grit meets Worldloppet prestige in one of skiing's toughest mid-winter classics.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km skate", "25km"],
+      "elevation_m": 500,
+      "altitude_m": 900,
+      "location": "Bedřichov, Jizera Mountains",
+      "location_badge": "Liberec Region, Czech Republic",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "region": "Liberec Region",
+      "date": "Second or third weekend in February",
+      "date_specific": "2026: February 15",
+      "discipline": "classic",
+      "field_size": "~9,200 starters",
+      "founded": 1968,
+      "registration": "Opens in autumn; sells out",
+      "prize_purse": "Ski Classics prize money for pro field",
+      "aid_stations": "Multiple stations with warm tea, energy food, and traditional Czech fare",
+      "cutoff_time": null,
+      "website": "https://www.jizerska50.cz",
+      "lat": 50.7783,
+      "lng": 15.1383
+    },
+    "climate": {
+      "primary": "Central European mountain winter",
+      "description": "Mid-February in the Jizera Mountains delivers consistently cold conditions. Temperatures typically -12°C to -3°C. The mountain location ensures good snow cover most years but Central European climate variability means occasional warm spells can threaten conditions.",
+      "typical_temp_c": "-12 to -3",
+      "challenges": [
+        "Exposed mountain ridgeline sections with strong winds",
+        "February cold can be intense in the Jizera Mountains",
+        "Central European weather variability — occasional mid-winter thaws",
+        "Rocky terrain beneath thin snow cover in lean years"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Jizera Mountains starting and finishing in Bedřichov. The course winds through dense spruce forest with rolling terrain and several significant climbs. The mountains were once heavily logged and have been reforested, creating atmospheric dense forest skiing.",
+      "format": "loop",
+      "surface": "Machine-groomed tracks through mountain forest terrain",
+      "technical_rating": 3,
+      "grooming": "Worldloppet standard, expertly maintained Jizera Mountain trail network",
+      "features": [
+        "Dense spruce forest creates sheltered, atmospheric skiing",
+        "Ski Classics Pro Tour event with elite international field",
+        "Rolling mountain terrain with multiple significant climbs",
+        "Part of the extensive Jizera Mountain trail network",
+        "Post-race Czech beer and traditional food in Bedřichov"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 81,
+      "tier": 1,
+      "tier_label": "TIER 1",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 5,
+      "prestige": 5,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 4,
+      "organization": 5,
+      "competitive_depth": 5,
+      "score_note": "Ski Classics Pro Tour status and deep history since 1968 anchor the competitive depth and prestige scores. Strong all-round profile with no weak criteria.",
+      "tier_note": "Prestige 5 with score >= 75 confirms TIER 1"
+    },
+    "history": {
+      "summary": "Founded in 1968, Jizerská 50 has grown from a regional Czech event to one of the premier races on the international long-distance skiing calendar. Set in the Jizera Mountains near the Polish border, the race draws nearly 10,000 participants. It became a Worldloppet member and later joined the Ski Classics Grand Classic series, cementing its status as a world-class event. The Jizera Mountains have a long skiing tradition dating back to the 19th century.",
+      "notable_facts": [
+        "Founded in 1968 during the Prague Spring — a period of political liberalization in Czechoslovakia",
+        "The Jizera Mountains have hosted competitive skiing since the late 1800s",
+        "Part of both Worldloppet and Ski Classics Grand Classic series",
+        "Nearby Liberec hosted the 2009 FIS Nordic World Ski Championships",
+        "The race week includes events for all abilities across multiple distances",
+        "Czech Republic's most important long-distance ski race"
+      ]
+    },
+    "series_membership": ["worldloppet", "ski_classics_grand_classic"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

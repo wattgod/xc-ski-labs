@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Yellowstone Rendezvous",
+    "slug": "yellowstone-rendezvous",
+    "display_name": "Yellowstone Rendezvous",
+    "tagline": "Fifty kilometers at 6,600 feet on the doorstep of Yellowstone — where Montana's deepest snowpack and the world's first national park meet at the Rendezvous trails.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "25km", "10km", "2km"],
+      "elevation_m": 300,
+      "altitude_m": 2012,
+      "location": "West Yellowstone",
+      "location_badge": "Montana, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Rocky Mountains",
+      "date": "First Saturday in March",
+      "date_specific": "2026: March 7",
+      "discipline": "both",
+      "field_size": "~1,000 starters",
+      "founded": 1981,
+      "registration": "Online registration; opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "4 feed stations with hot drinks, cookies, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.skirendezvous.com",
+      "lat": 44.6621,
+      "lng": -111.1041
+    },
+    "climate": {
+      "primary": "High-altitude Rocky Mountain winter",
+      "description": "March at 6,600 feet (2,012m) near Yellowstone means cold, dry conditions with deep snowpack. Temperatures range from -18°C to -2°C. West Yellowstone is one of the coldest towns in the contiguous US. March brings longer days and spring sun but temperatures remain well below freezing, especially at night. Snow is virtually guaranteed.",
+      "typical_temp_c": "-18 to -2",
+      "challenges": [
+        "Extreme cold — West Yellowstone is one of America's coldest towns",
+        "Altitude effects at 2,012m on sustained effort",
+        "Bright March sun combined with sub-zero temperatures creates wax challenges",
+        "Remote Montana location with limited travel options"
+      ]
+    },
+    "course": {
+      "primary": "A rolling loop course on the Rendezvous Ski Trails just outside Yellowstone National Park at 6,600 feet. The terrain is gently rolling through lodgepole pine forest with moderate climbs. The trail system is renowned for its consistent grooming and deep snowpack, serving as a US Biathlon team training venue. Views of the surrounding Madison Range and Yellowstone plateau.",
+      "format": "loop",
+      "surface": "Machine-groomed on the Rendezvous Ski Trail system",
+      "technical_rating": 2,
+      "grooming": "Excellent — US Biathlon team training venue with professional grooming",
+      "features": [
+        "Adjacent to Yellowstone National Park — the world's first national park",
+        "Rendezvous Ski Trails — US Biathlon team training venue",
+        "6,600 feet altitude with deep, reliable snowpack",
+        "Lodgepole pine forest with Madison Range views",
+        "West Yellowstone's legendary cold guarantees fast snow"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 60,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Maximum snow reliability — West Yellowstone's deep snowpack and extreme cold guarantee perfect conditions. Strong grooming score reflects the Rendezvous Trails' status as a US Biathlon training venue. The Yellowstone proximity adds unique scenic value. Remote Montana location limits accessibility.",
+      "tier_note": "Score 60 confirms TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1981, the Yellowstone Rendezvous has become one of the premier ski marathons in the American West. Set on the Rendezvous Ski Trails just outside Yellowstone National Park, the race benefits from West Yellowstone's legendary cold and deep snowpack. The trail system also serves as a training venue for the US Biathlon team, ensuring professional-grade grooming. The name honors the historic fur trade rendezvous gatherings that once took place in the region.",
+      "notable_facts": [
+        "Adjacent to Yellowstone — the world's first national park (established 1872)",
+        "Rendezvous Ski Trails serve as a US Biathlon team training venue",
+        "West Yellowstone is consistently one of the coldest towns in the contiguous US",
+        "Founded in 1981 — over 45 years of continuous racing",
+        "Named after historic fur trade rendezvous gatherings in the region",
+        "6,600 feet altitude with some of the deepest snowpack in Montana"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

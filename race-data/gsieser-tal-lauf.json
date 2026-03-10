@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Gsieser Tal Lauf",
+    "slug": "gsieser-tal-lauf",
+    "display_name": "Gsieser Tal Lauf",
+    "tagline": "Forty-two kilometers through South Tyrol's snow-sure Gsies Valley — never cancelled since 1984, the Dolomites' most reliable date.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km classic", "42km skate", "28km", "21km"],
+      "elevation_m": 400,
+      "altitude_m": 1300,
+      "location": "Gsies/Val Casies",
+      "location_badge": "South Tyrol, Italy",
+      "country": "Italy",
+      "country_code": "IT",
+      "region": "South Tyrol",
+      "date": "Late February or early March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~2,300 starters",
+      "founded": 1984,
+      "registration": "Online registration, opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with South Tyrolean refreshments",
+      "cutoff_time": null,
+      "website": "https://www.gsiesertal-lauf.org",
+      "lat": 46.8142,
+      "lng": 12.0156
+    },
+    "climate": {
+      "primary": "Alpine South Tyrolean winter",
+      "description": "The Gsies Valley at 1,300 meters altitude is one of the most snow-reliable valleys in the Alps. Temperatures range from -12°C to 2°C in late February. The high, enclosed valley position traps cold air and preserves snow quality. The race has never been cancelled due to lack of snow since its founding in 1984.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Cold morning starts in the shaded valley",
+        "Altitude at 1,300m requires some acclimatization",
+        "Late-season sun can soften south-facing trail sections",
+        "Valley winds can funnel through narrow sections"
+      ]
+    },
+    "course": {
+      "primary": "Out-and-back through the scenic Gsies Valley, surrounded by Dolomite peaks. The valley floor provides a natural corridor with moderate undulation. The enclosed alpine setting delivers consistent grooming on a well-maintained trail network.",
+      "format": "out-and-back",
+      "surface": "Machine-groomed trails through alpine valley terrain",
+      "technical_rating": 2,
+      "grooming": "Excellent South Tyrolean standard — the valley floor provides an ideal grooming surface",
+      "features": [
+        "Never been cancelled since 1984 — remarkable snow reliability",
+        "Enclosed Dolomite valley with dramatic mountain views",
+        "South Tyrolean village atmosphere with bilingual German-Italian culture",
+        "Both classic and skate options",
+        "Euroloppet member event",
+        "Traditional Tyrolean refreshments at feed stations"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Perfect snow reliability — never cancelled in over 40 years. Spectacular Dolomite scenery and strong South Tyrolean community atmosphere. The Euroloppet membership and solid field size anchor a well-rounded event. Moderate competitive depth reflects a predominantly recreational field.",
+      "tier_note": "Score 69 places in T2"
+    },
+    "history": {
+      "summary": "Founded in 1984, the Gsieser Tal Lauf has built its reputation on one extraordinary fact: it has never been cancelled. The Gsies Valley's position at 1,300 meters in the eastern Dolomites provides some of the most reliable natural snow conditions in the Alps. The race takes place in a German-speaking valley in South Tyrol, where Alpine farming traditions meet Italian flair. As a Euroloppet member, it draws participants from across central Europe seeking guaranteed snow and stunning mountain scenery.",
+      "notable_facts": [
+        "Never been cancelled since its founding in 1984",
+        "Set in the Gsies Valley (Val Casies) at 1,300 meters altitude",
+        "Euroloppet member event",
+        "South Tyrol's bilingual German-Italian culture adds unique character",
+        "The valley is one of the most snow-reliable locations in the entire Alps",
+        "Traditional Tyrolean hospitality at feed stations and finish area"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

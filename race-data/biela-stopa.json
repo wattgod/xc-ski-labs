@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Biela stopa",
+    "slug": "biela-stopa",
+    "display_name": "Biela Stopa",
+    "tagline": "Fifty kilometers across the Kremnica highlands at 1,200 meters — Slovakia's oldest cross-country race, where Central European grit meets mountain solitude.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "25km", "10km"],
+      "elevation_m": 450,
+      "altitude_m": 1050,
+      "location": "Kremnica / Skalka",
+      "location_badge": "Kremnica, Slovakia",
+      "country": "Slovakia",
+      "country_code": "SK",
+      "region": "Banská Bystrica",
+      "date": "Second Saturday in February",
+      "date_specific": "2026: February 14",
+      "discipline": "both",
+      "field_size": "~800 starters",
+      "founded": 1973,
+      "registration": "Online registration; opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "3 feed stations with warm tea, energy food, and Slovak pastries",
+      "cutoff_time": null,
+      "website": "https://www.bielastopa.sk",
+      "lat": 48.7056,
+      "lng": 18.9189
+    },
+    "climate": {
+      "primary": "Central European mountain winter",
+      "description": "February in the Kremnica Mountains at 860-1,230m altitude brings cold continental conditions. Temperatures range from -12°C to -2°C. Snow is generally reliable at altitude but the mid-mountain location can experience freeze-thaw cycles. Wind exposure on ridge sections adds chill factor.",
+      "typical_temp_c": "-12 to -2",
+      "challenges": [
+        "Variable snow conditions at mid-mountain altitude",
+        "Wind exposure on highland ridge sections",
+        "Freeze-thaw cycles can create icy tracks",
+        "Limited infrastructure in remote mountain sections"
+      ]
+    },
+    "course": {
+      "primary": "A highland course through the Kremnica Mountains between 860m and 1,230m altitude. The terrain is rolling with moderate climbs through mixed spruce and beech forests. The course traverses the Skalka plateau with views across the central Slovak highlands. A genuine mountain marathon that tests fitness and resilience.",
+      "format": "loop",
+      "surface": "Machine-groomed tracks through mountain forest and highland plateau",
+      "technical_rating": 3,
+      "grooming": "Solid grooming on established trails, weather-dependent in exposed sections",
+      "features": [
+        "Slovakia's oldest cross-country ski race — over 50 years of history",
+        "Highland course between 860m and 1,230m altitude",
+        "Views across the Kremnica Mountains and central Slovak highlands",
+        "Euroloppet member since 1994",
+        "Authentic Central European mountain skiing atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Solid mid-range scores across the board reflect a well-established but regional event. Over 50 years of history and Euroloppet membership provide credibility, but limited international draw and variable snow conditions constrain the overall score.",
+      "tier_note": "Score 54 confirms TIER 3"
+    },
+    "history": {
+      "summary": "Founded around 1973, Biela Stopa ('White Track') is Slovakia's oldest cross-country ski event. Set in the Kremnica Mountains of central Slovakia, the race has endured through the Czechoslovak era, the Velvet Divorce, and EU accession, maintaining its identity as an authentic Central European mountain marathon. Joining the Euroloppet series in 1994 brought international recognition to this storied event.",
+      "notable_facts": [
+        "Slovakia's oldest cross-country ski event — founded circa 1973",
+        "Name means 'White Track' in Slovak",
+        "Euroloppet member since 1994",
+        "Survived the transition from Czechoslovakia to independent Slovakia",
+        "Kremnica is historically famous for its medieval gold mint",
+        "Course traverses the Skalka plateau above the historic mining town"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

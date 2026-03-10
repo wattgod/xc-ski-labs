@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Finlandia-hiihto",
+    "slug": "finlandia-hiihto",
+    "display_name": "Finlandia-hiihto",
+    "tagline": "Finland's national ski marathon — once the world's largest, still the heartbeat of Lahti's legendary ski culture.",
+    "vitals": {
+      "distance_km": 62,
+      "distance_options": ["62km", "52km", "32km", "20km"],
+      "elevation_m": 600,
+      "altitude_m": 150,
+      "location": "Lahti",
+      "location_badge": "Päijät-Häme, Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "Päijät-Häme",
+      "date": "Mid-February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~3,000-5,000 (peak 13,226 in 1984)",
+      "founded": 1974,
+      "registration": "Open registration, online entry",
+      "prize_purse": null,
+      "aid_stations": "5-6 stations with warm drinks, energy food, and wax service",
+      "cutoff_time": null,
+      "website": "https://www.finlandiahiihto.fi",
+      "lat": 60.9827,
+      "lng": 25.6550
+    },
+    "climate": {
+      "primary": "Southern Finnish winter",
+      "description": "February in Lahti brings reliable winter conditions, though the relatively southern latitude for Finland means temperatures can vary. Typically cold and stable, with well-established snow cover. Occasional mild spells can affect snow quality.",
+      "typical_temp_c": "-12 to -2",
+      "challenges": [
+        "Variable February temperatures can create tricky wax conditions",
+        "Wind exposure on open lake and field sections",
+        "Southern Finland latitude means snow cover less guaranteed than northern events",
+        "Short daylight hours in mid-February"
+      ]
+    },
+    "course": {
+      "primary": "Rolling loop course through the forests and lakeland terrain around Lahti, Finland's winter sports capital. The route uses the same trail network that has hosted multiple FIS World Championships. Moderate elevation changes with some punchy climbs and fast descents.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through forest and lakeland terrain",
+      "technical_rating": 3,
+      "grooming": "World-class — Lahti's trails are maintained to FIS World Championship standards",
+      "features": [
+        "Start/finish at Lahti Sports Centre, a World Championship venue",
+        "Routes through the Salpausselkä ridge system",
+        "Both classic and freestyle distance options",
+        "Held in Finland's unofficial winter sports capital",
+        "Once held the Guinness World Record for largest ski race (13,226 in 1984)",
+        "Trail network shared with FIS World Championship courses"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 74,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 4,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 5,
+      "accessibility": 5,
+      "community": 4,
+      "scenery": 3,
+      "organization": 5,
+      "competitive_depth": 4,
+      "score_note": "Elite-level organization and grooming at a World Championship venue. Accessibility is excellent via Helsinki. Field size has declined from its 1984 peak but remains strong. Snow reliability slightly lower than northern Finnish events.",
+      "tier_note": "Prestige 4 promotes one tier: raw T3 (73) promoted to TIER 2"
+    },
+    "history": {
+      "summary": "Finlandia-hiihto was founded in 1974 in Lahti, Finland's undisputed winter sports capital. It rapidly grew to become one of the world's largest cross-country ski events, setting a Guinness World Record in 1984 with 13,226 participants. The race is a Worldloppet member and takes place on trail networks that have hosted multiple FIS Nordic World Ski Championships. While participation has declined from its 1980s peak, the event remains a cornerstone of Finnish ski culture and the Worldloppet circuit.",
+      "notable_facts": [
+        "Set the Guinness World Record in 1984 with 13,226 starters",
+        "Lahti has hosted the FIS Nordic World Ski Championships 7 times",
+        "One of the founding members of the Worldloppet series",
+        "Finland is the birthplace of competitive cross-country skiing",
+        "The Salpausselkä Games, held at the same venue, are a World Cup fixture",
+        "Both classic and freestyle distances offered since the 1990s"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

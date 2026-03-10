@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Merino Muster",
+    "slug": "merino-muster",
+    "display_name": "Merino Muster",
+    "tagline": "The Southern Hemisphere's Worldloppet race — forty-two kilometers across New Zealand's Snow Farm where winter arrives in August.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km", "10km"],
+      "elevation_m": 300,
+      "altitude_m": 1400,
+      "location": "Cardrona Valley",
+      "location_badge": "Otago, New Zealand",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "region": "South Island",
+      "date": "Late August or early September",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~100 starters",
+      "founded": 1995,
+      "registration": "Online registration, limited field",
+      "prize_purse": null,
+      "aid_stations": "Feed stations at Snow Farm facilities",
+      "cutoff_time": null,
+      "website": "https://www.snowfarmnz.com",
+      "lat": -44.8609,
+      "lng": 169.0043
+    },
+    "climate": {
+      "primary": "Southern Hemisphere alpine",
+      "description": "The Snow Farm sits at 1,400 meters in the Pisa Range above Cardrona Valley. Late August marks late winter in the Southern Hemisphere. Temperatures range from -5°C to 8°C. Snow conditions are variable — the maritime climate of New Zealand's South Island produces wet, dense snow. Cloud cover can shift rapidly.",
+      "typical_temp_c": "-3 to 6",
+      "challenges": [
+        "Variable snow coverage — not always guaranteed at altitude",
+        "Wet, heavy Southern Hemisphere snow",
+        "Rapid weather changes from maritime influence",
+        "High UV exposure at altitude in Southern Hemisphere"
+      ]
+    },
+    "course": {
+      "primary": "Multi-loop course on the Snow Farm's groomed trail network in the Pisa Range, high above the Cardrona Valley. Alpine tussock country with dramatic views across to the Crown Range and toward Queenstown. Gently rolling terrain at 1,400 meters.",
+      "format": "multi-loop",
+      "surface": "Machine-groomed freestyle trails at Snow Farm",
+      "technical_rating": 3,
+      "grooming": "Snow Farm-maintained trails, groomed for freestyle",
+      "features": [
+        "Only Worldloppet race in the Southern Hemisphere",
+        "Set at 1,400 meters on New Zealand's only Nordic ski area",
+        "Stunning views of the Crown Range and Cardrona Valley",
+        "Alpine tussock and high-country sheep station landscape",
+        "Counter-season race for Northern Hemisphere skiers — August/September"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 1,
+      "score_note": "Extraordinary scenery and uniqueness as the only Southern Hemisphere Worldloppet race. Tiny field and remote location limit the competitive and logistical scores. A pilgrimage event for Worldloppet completists and an off-season adventure for Northern Hemisphere skiers.",
+      "tier_note": "Score 53 places in T3"
+    },
+    "history": {
+      "summary": "Founded in 1995 at the Snow Farm, New Zealand's only dedicated Nordic ski area in the Pisa Range above Cardrona Valley. The Merino Muster takes its name from the sheep musters that have defined high-country life in Otago for over 150 years. As the only Worldloppet race in the Southern Hemisphere, it occupies a unique position in the global marathon skiing calendar, offering Northern Hemisphere skiers a counter-season race in one of the most remote and scenic ski settings on Earth.",
+      "notable_facts": [
+        "Only Worldloppet race in the Southern Hemisphere",
+        "Named after the merino sheep musters of Otago's high country",
+        "Set at Snow Farm — New Zealand's only Nordic ski area",
+        "Counter-season timing draws Northern Hemisphere skiers in August-September",
+        "Smallest field in the Worldloppet series at approximately 100 starters",
+        "The Pisa Range setting offers views toward Queenstown and Wanaka"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

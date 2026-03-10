@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Skarverennet",
+    "slug": "skarverennet",
+    "display_name": "Skarverennet",
+    "tagline": "Twelve thousand Norwegians skating across the Hardangervidda in April — Norway's biggest ski race on Europe's largest mountain plateau.",
+    "vitals": {
+      "distance_km": 37,
+      "distance_options": ["37km skate", "37km classic"],
+      "elevation_m": 600,
+      "altitude_m": 1200,
+      "location": "Geilo/Finse to Ustaoset area",
+      "location_badge": "Hardangervidda, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Buskerud/Vestland",
+      "date": "Late April",
+      "date_specific": "2026: April 25",
+      "discipline": "skate",
+      "field_size": "~12,000 capacity",
+      "founded": 1974,
+      "registration": "Opens in autumn; sells out rapidly",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations across the mountain plateau",
+      "cutoff_time": null,
+      "website": "https://www.skarverennet.no",
+      "lat": 60.5346,
+      "lng": 7.8273
+    },
+    "climate": {
+      "primary": "High mountain plateau, spring conditions",
+      "description": "Late April on the Hardangervidda means spring skiing with longer days but still winter conditions at altitude. Temperatures typically -5°C to +5°C. The open plateau is notoriously exposed to wind — severe weather can force cancellation or course changes.",
+      "typical_temp_c": "-5 to +5",
+      "challenges": [
+        "Extreme wind exposure on the open Hardangervidda plateau",
+        "April weather can shift rapidly between winter and spring conditions",
+        "Whiteout conditions possible in storms",
+        "Sun-softened snow in afternoon warmth affects wax and glide",
+        "The course has been cancelled or shortened due to extreme wind"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point across the Hardangervidda mountain plateau, the largest high-altitude plateau in Northern Europe. The course is fully exposed above treeline with dramatic mountain scenery. Undulating terrain with no shelter from wind.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed tracks on open mountain plateau",
+      "technical_rating": 3,
+      "grooming": "High-quality grooming across open mountain terrain",
+      "features": [
+        "Entirely above treeline on Europe's largest mountain plateau",
+        "Norway's largest ski race by participant count",
+        "Late April date means long daylight and spring skiing atmosphere",
+        "Dramatic exposed mountain landscape — no forest shelter",
+        "Near Finse — the highest station on the Bergen Railway (1,222m)"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 79,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 4,
+      "field_size": 5,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 5,
+      "scenery": 5,
+      "organization": 5,
+      "competitive_depth": 3,
+      "score_note": "Massive domestic participation and dramatic mountain scenery are the highlights. Late April date guarantees snow at altitude. Limited international draw and moderate competitive depth keep it below TIER 1 threshold.",
+      "tier_note": "Prestige 4 promotes from base TIER 2 — stays TIER 2 (cannot enter TIER 1)"
+    },
+    "history": {
+      "summary": "Founded in 1974, Skarverennet has grown to become Norway's largest ski race by participant count, with capacity for over 12,000 skiers. The race crosses the Hardangervidda, Europe's largest mountain plateau, on a course that is entirely above treeline. The late April date takes advantage of reliable spring snow at altitude and provides a dramatic end to the Norwegian ski season. The name references the mountain Skarven near the course.",
+      "notable_facts": [
+        "Norway's largest ski race by participant count — capacity over 12,000",
+        "Crosses the Hardangervidda, Northern Europe's largest mountain plateau",
+        "Late April date makes it one of the last major ski races of the season",
+        "Entirely above treeline — one of the most exposed courses in world skiing",
+        "Near Finse, where Roald Amundsen trained for his South Pole expedition",
+        "The Bergen Railway provides access — Finse is Norway's highest railway station"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

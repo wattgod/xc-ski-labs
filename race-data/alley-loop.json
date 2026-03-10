@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Alley Loop",
+    "slug": "alley-loop",
+    "display_name": "Alley Loop",
+    "tagline": "Forty-two kilometers at 8,900 feet in costume through Crested Butte's backcountry — the highest, weirdest, most joyously unhinged ski marathon in America.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "25km", "10km", "5km"],
+      "elevation_m": 400,
+      "altitude_m": 2713,
+      "location": "Crested Butte",
+      "location_badge": "Colorado, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Rocky Mountains",
+      "date": "First Saturday in February",
+      "date_specific": "2026: February 7",
+      "discipline": "both",
+      "field_size": "~800 starters",
+      "founded": 1994,
+      "registration": "Online registration; sells out quickly",
+      "prize_purse": null,
+      "aid_stations": "3 feed stations with hot drinks, snacks, and costume-themed surprises",
+      "cutoff_time": null,
+      "website": "https://www.cbnordic.org/alley-loop",
+      "lat": 38.8697,
+      "lng": -106.9878
+    },
+    "climate": {
+      "primary": "High-altitude Rocky Mountain winter",
+      "description": "February at 8,900 feet (2,713m) in the Colorado Rockies means dry cold and intense sun. Temperatures range from -20°C to -5°C. The altitude is the defining challenge — thin air at race pace punishes sea-level visitors. Colorado's dry snow is fast but the sun can create tricky conditions on south-facing slopes.",
+      "typical_temp_c": "-20 to -5",
+      "challenges": [
+        "Altitude effects at 2,713m — significant performance impact",
+        "Intense high-altitude UV exposure",
+        "Dry cold can cause dehydration and wax challenges",
+        "Costumes add comedy but also thermoregulation complexity"
+      ]
+    },
+    "course": {
+      "primary": "A loop course through the Nordic trail system and backcountry around Crested Butte at 8,900 feet altitude. Rolling terrain through aspen groves and alpine meadows with views of the Elk Mountains. The altitude is the primary challenge — 42km at nearly 2,800m demands respect. Costumes are strongly encouraged and widely worn.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through high-altitude meadows and aspen groves",
+      "technical_rating": 3,
+      "grooming": "Well-maintained Crested Butte Nordic Center trails",
+      "features": [
+        "8,900 feet (2,713m) base elevation — highest major XC marathon in the US",
+        "Costume party atmosphere — outrageous outfits are the norm",
+        "Elk Mountains panorama throughout the course",
+        "Aspen groves and alpine meadow terrain",
+        "Crested Butte's legendary counterculture spirit"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 5,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum altitude score at 2,713m — the highest major XC marathon in the US. Maximum community and scenery scores reflect the legendary costume party atmosphere and Elk Mountains backdrop. Small field and remote Colorado location limit accessibility and competitive depth.",
+      "tier_note": "Score 61 confirms TIER 2"
+    },
+    "history": {
+      "summary": "Founded around 1994, the Alley Loop emerged from Crested Butte's legendary counterculture spirit. What started as a local fun race through town alleys and backcountry trails has grown into one of America's most distinctive ski marathons — a costume party on snow at nearly 9,000 feet. The event embodies Crested Butte's identity as the 'Last Great Colorado Ski Town' and channels the community's irreverent energy into a genuinely challenging athletic event.",
+      "notable_facts": [
+        "Highest major cross-country ski marathon in the United States at 8,900 feet",
+        "Costume party atmosphere — elaborate outfits are expected, not optional",
+        "Crested Butte is known as the 'Last Great Colorado Ski Town'",
+        "Started as a quirky local event through town alleys — hence the name",
+        "Combines genuine athletic challenge with festival-level community spirit",
+        "Dry Colorado powder provides fast, consistent snow conditions"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

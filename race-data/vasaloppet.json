@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Vasaloppet",
+    "slug": "vasaloppet",
+    "display_name": "Vasaloppet",
+    "tagline": "Ninety kilometers of Swedish winter, one hundred years of legend — the race that invented the marathon ski.",
+    "vitals": {
+      "distance_km": 90,
+      "distance_options": ["90km", "45km", "30km", "10km"],
+      "elevation_m": 850,
+      "altitude_m": 350,
+      "location": "Sälen to Mora",
+      "location_badge": "Dalarna, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Dalarna",
+      "date": "First Sunday in March",
+      "date_specific": "2026: March 1",
+      "discipline": "classic",
+      "field_size": "~16,000 starters",
+      "founded": 1922,
+      "registration": "Lottery + qualification via feeder events; opens previous spring",
+      "prize_purse": "SEK 100,000+ (varies by year)",
+      "aid_stations": "7 stations with blueberry soup, sports drink, wax service",
+      "cutoff_time": "No official cutoff, last finishers arrive after dark",
+      "website": "https://www.vasaloppet.se",
+      "lat": 61.0067,
+      "lng": 14.5356
+    },
+    "climate": {
+      "primary": "Continental Scandinavian winter",
+      "description": "Temperatures typically range from -15°C to 0°C on race day. Cold snaps can push conditions below -20°C. Warm years risk soft, slow snow. Wind exposure across open marshlands between checkpoints.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Extreme cold in early morning start waves",
+        "Wax selection critical — temperature can shift 10°C during race",
+        "Wind exposure on open bog sections",
+        "Soft snow in warm years slows pace dramatically"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through Dalarna wilderness, rolling terrain with no major climbs but relentless undulation over 90km. The final 10km into Mora are fast and flat.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through forest, marsh, and lake terrain",
+      "technical_rating": 3,
+      "grooming": "World-class Worldloppet standard, double-tracked with skating lane alongside",
+      "features": [
+        "Iconic blueberry soup stations",
+        "Passage through 7 historic villages",
+        "Final sprint down Vasaloppet finishing straight in Mora",
+        "Mass start at Berga By in Sälen",
+        "Night skiing possible for back-of-pack finishers"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 87,
+      "tier": 1,
+      "tier_label": "TIER 1",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 5,
+      "prestige": 5,
+      "international_draw": 5,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 5,
+      "scenery": 4,
+      "organization": 5,
+      "competitive_depth": 5,
+      "score_note": "The benchmark against which all other marathon ski races are measured. Perfect scores in prestige, field size, community, organization, and competitive depth.",
+      "tier_note": "Prestige 5 with score >= 75 confirms TIER 1"
+    },
+    "history": {
+      "summary": "Founded in 1922 by newspaper editor Anders Pers to commemorate Gustav Vasa's 1520 flight from Danish soldiers on skis from Mora to Sälen. The race reverses his route. It has grown from 119 starters in 1922 to over 16,000, becoming the world's oldest and largest cross-country ski race. The Vasaloppet week now includes multiple events attracting 60,000+ participants across all distances.",
+      "notable_facts": [
+        "Named after King Gustav Vasa, who fled on skis in 1520 to rally Swedish independence",
+        "First edition in 1922 had 119 starters — now exceeds 16,000",
+        "Nils 'Mora-Nisse' Karlsson won 9 times between 1943-1954",
+        "The race was cancelled only during WWII years (1940, 1942-1945)",
+        "Finishing motto: 'I fäders spår, för framtids segrar' (In the footsteps of our fathers, for future victories)",
+        "Part of both Worldloppet and Ski Classics series"
+      ]
+    },
+    "series_membership": ["worldloppet", "ski_classics_grand_classic"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

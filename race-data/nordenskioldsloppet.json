@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Nordenskiöldsloppet",
+    "slug": "nordenskioldsloppet",
+    "display_name": "Nordenskiöldsloppet",
+    "tagline": "Two hundred and twenty kilometers above the Arctic Circle — the longest cross-country ski race on earth, unchanged since 1884.",
+    "vitals": {
+      "distance_km": 220,
+      "distance_options": ["220km"],
+      "elevation_m": 1200,
+      "altitude_m": 400,
+      "location": "Jokkmokk to Vuollerim",
+      "location_badge": "Norrbotten, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Norrbotten",
+      "date": "Mid-March (Saturday closest to spring equinox)",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~400 starters",
+      "founded": 1884,
+      "registration": "Open registration, limited to ~500 entries",
+      "prize_purse": null,
+      "aid_stations": "Multiple checkpoints with hot food, drinks, and wax service along the 220km route",
+      "cutoff_time": "30 hours",
+      "website": "https://www.nordenskioldsloppet.se",
+      "lat": 66.6078,
+      "lng": 19.8286
+    },
+    "climate": {
+      "primary": "Subarctic continental",
+      "description": "Temperatures range from -25°C to -5°C in mid-March above the Arctic Circle. Clear nights bring extreme cold, while daytime sun can soften snow. Skiers race through the full Arctic light cycle — starting in darkness, skiing through dawn, daylight, and potentially back into darkness.",
+      "typical_temp_c": "-20 to -5",
+      "challenges": [
+        "Extreme cold during night sections, frostbite risk on exposed skin",
+        "30-hour effort demands sleep management and caloric planning",
+        "Wax selection across massive temperature swings between night and day",
+        "Arctic wind exposure on open frozen lakes and marshland",
+        "Limited daylight hours — headlamp skiing required for slower participants"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point ultra-distance route through Arctic Lapland wilderness. Crosses frozen rivers, open marshes, and boreal forest. The terrain is predominantly flat to gently rolling, but the sheer distance and cold make it an extreme endurance test.",
+      "format": "point-to-point",
+      "surface": "Groomed classic tracks through wilderness, frozen lakes, and forest trails",
+      "technical_rating": 3,
+      "grooming": "Well-groomed given the extreme remoteness; snowmobile-set tracks through wilderness sections",
+      "features": [
+        "World's longest cross-country ski race at 220km",
+        "Crosses the Arctic Circle during the route",
+        "Night skiing through Arctic wilderness",
+        "Passages over frozen rivers and lakes",
+        "Sami cultural heritage along the route",
+        "Mandatory equipment check before start",
+        "30-hour time limit tests mental endurance as much as physical"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 70,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 4,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 5,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Perfect distance and scenery scores. The 220km ultra-distance is unmatched globally. Limited field size and remote Arctic location constrain accessibility and community scores, but the race's 140-year history and extreme format earn maximum prestige.",
+      "tier_note": "Prestige 5 with score < 75 caps at TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1884, Nordenskiöldsloppet is the world's longest cross-country ski race and one of the oldest competitive ski events still held. Named after Finnish-Swedish Arctic explorer Adolf Erik Nordenskiöld, the race commemorates the extreme skiing feats of Sami reindeer herders in Swedish Lapland. The event was sporadic in its early decades but has been held consistently in recent years, drawing adventurers and ultra-endurance athletes to Jokkmokk, a Sami cultural center above the Arctic Circle.",
+      "notable_facts": [
+        "Founded in 1884 — predates even the Holmenkollen ski festival",
+        "Named after Adolf Erik Nordenskiöld, the first to navigate the Northeast Passage",
+        "At 220km, it is the longest cross-country ski race in the world",
+        "Jokkmokk hosts the famous Sami winter market, held since 1605",
+        "The 30-hour time limit means some skiers race through an entire Arctic night",
+        "Historically inspired by Sami reindeer herders' legendary long-distance skiing abilities"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

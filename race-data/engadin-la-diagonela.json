@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "La Diagonela",
+    "slug": "engadin-la-diagonela",
+    "display_name": "Engadin La Diagonela",
+    "tagline": "The Engadin's pro-tour classic — 55 kilometers at altitude where Ski Classics elites battle beneath the Bernina massif.",
+    "vitals": {
+      "distance_km": 55,
+      "distance_options": ["55km classic", "28km"],
+      "elevation_m": 500,
+      "altitude_m": 1800,
+      "location": "Pontresina to Zuoz",
+      "location_badge": "Engadin, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Graubünden",
+      "date": "Mid-January",
+      "date_specific": "2026: January 17",
+      "discipline": "classic",
+      "field_size": "~2,000 starters",
+      "founded": 2014,
+      "registration": "Opens in autumn",
+      "prize_purse": "Ski Classics Pro Tour prize money",
+      "aid_stations": "Multiple stations along the Engadin valley",
+      "cutoff_time": null,
+      "website": "https://www.ladiagonela.ch",
+      "lat": 46.4953,
+      "lng": 9.9043
+    },
+    "climate": {
+      "primary": "High alpine valley",
+      "description": "Mid-January at 1,800m altitude guarantees cold, dry conditions with excellent snow. The Engadin's famous sunshine often provides clear skies but temperatures well below freezing. Altitude affects performance significantly for unacclimatized racers.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "High altitude (1,800m) significantly impacts aerobic capacity",
+        "January cold — temperatures frequently below -10°C",
+        "Dry alpine air requires aggressive hydration strategy",
+        "Strong UV at altitude — eye and skin protection essential"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point classic technique race from Pontresina to Zuoz through the Upper Engadin valley. The course follows the valley floor with moderate climbing and descending, offering stunning views of the Bernina massif, Piz Palü, and surrounding 4,000m peaks.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks on high-altitude valley floor",
+      "technical_rating": 3,
+      "grooming": "World-class grooming, Ski Classics Pro Tour standard",
+      "features": [
+        "Ski Classics Pro Tour event — elite professional field",
+        "4,000m Bernina massif panorama throughout",
+        "High altitude course entirely above 1,700m",
+        "Classic technique only — tests traditional skill",
+        "Starts in Pontresina, gateway to the Bernina range"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 83,
+      "tier": 1,
+      "tier_label": "TIER 1",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 5,
+      "organization": 5,
+      "competitive_depth": 5,
+      "score_note": "Despite being founded only in 2014, Ski Classics Pro Tour status delivers maximum competitive depth. Perfect altitude, scenery, snow reliability, grooming, and organization scores. Smaller field and younger pedigree are the main limitations.",
+      "tier_note": "Score >= 80 qualifies for TIER 1 on merit"
+    },
+    "history": {
+      "summary": "La Diagonela is the youngest race in this collection, founded in 2014 as a Ski Classics Pro Tour event. Despite its short history, it immediately established itself as a world-class event by leveraging the Engadin valley's existing infrastructure and the prestige of the Ski Classics series. The race complements the older Engadin Skimarathon (freestyle, March) by offering a classic-technique pro tour event in January.",
+      "notable_facts": [
+        "Founded in 2014 — the newest Ski Classics Pro Tour event",
+        "Complements the Engadin Skimarathon (skate, March) in the same valley",
+        "Ski Classics Pro Tour attracts the world's best long-distance skiers",
+        "Course passes through the historic Romansch-speaking Upper Engadin",
+        "Pontresina start is at the foot of the Bernina range (4,049m)",
+        "Despite its youth, consistently delivers one of the season's most competitive fields"
+      ]
+    },
+    "series_membership": ["ski_classics_pro_tour"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

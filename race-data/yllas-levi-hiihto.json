@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Ylläs-Levi Hiihto",
+    "slug": "yllas-levi-hiihto",
+    "display_name": "Ylläs-Levi Hiihto",
+    "tagline": "Seventy kilometers across three Lapland fells through a national park above the Arctic Circle — Finland's wildest marathon where the snow never lies.",
+    "vitals": {
+      "distance_km": 70,
+      "distance_options": ["70km", "50km", "30km"],
+      "elevation_m": 850,
+      "altitude_m": 700,
+      "location": "Ylläsjärvi to Levi",
+      "location_badge": "Finnish Lapland, Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "Lapland",
+      "date": "Mid-April",
+      "date_specific": "2026: April 18",
+      "discipline": "both",
+      "field_size": "~1,000 starters",
+      "founded": 1985,
+      "registration": "Online registration; typically open through March",
+      "prize_purse": null,
+      "aid_stations": "4 feed stations with warm drinks, energy bars, and Finnish pulla bread",
+      "cutoff_time": null,
+      "website": "https://www.yllas-levi.fi",
+      "lat": 67.5563,
+      "lng": 24.2291
+    },
+    "climate": {
+      "primary": "Arctic subarctic winter",
+      "description": "April in Finnish Lapland means spring snow conditions above the Arctic Circle. Temperatures range from -10°C to +5°C. Longer daylight hours but the fell crossings are fully exposed. Snow is virtually guaranteed at this latitude in April. Above-treeline sections face Arctic wind.",
+      "typical_temp_c": "-10 to 5",
+      "challenges": [
+        "Arctic winds on exposed fell crossings",
+        "Spring sun causes rapid snow transformation during the race",
+        "Above-treeline sections with zero wind shelter",
+        "Remote wilderness course limits rescue access"
+      ]
+    },
+    "course": {
+      "primary": "A point-to-point epic through Pallas-Yllästunturi National Park, crossing three major fells between Ylläsjärvi and Levi. The course passes through pristine Arctic wilderness, above and below the treeline, with significant climbing on each fell crossing. One of Finland's most challenging marathon courses.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed tracks through national park terrain with fell crossings",
+      "technical_rating": 4,
+      "grooming": "Well-maintained Finnish national park trails, exposed sections can deteriorate in wind",
+      "features": [
+        "Crosses three major fells in Pallas-Yllästunturi National Park",
+        "Above-treeline skiing with panoramic Arctic views",
+        "Pristine wilderness — one of Europe's last true frontiers",
+        "Finish at Levi ski resort with full facilities",
+        "April date means spectacular spring light conditions"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 5,
+      "elevation": 4,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Maximum scores for scenery and snow reliability reflect the Arctic wilderness setting and guaranteed spring snow. The fell crossings earn high technicality. Remote Lapland location limits accessibility and field size.",
+      "tier_note": "Score 71 confirms TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1985, the Ylläs-Levi Hiihto is one of Finnish Lapland's premier ski marathons. The 70km course through Pallas-Yllästunturi National Park represents some of the most challenging and scenic terrain in European marathon skiing. As a Euroloppet member event, it draws Nordic skiers seeking an authentic Arctic wilderness experience above the Arctic Circle.",
+      "notable_facts": [
+        "Course passes through Pallas-Yllästunturi National Park, Finland's third-largest",
+        "Crosses three major fells — among the most vertical Euroloppet courses",
+        "Entirely above the Arctic Circle at 67°N latitude",
+        "April race date guarantees snow while offering long spring daylight",
+        "Euroloppet member event",
+        "Finish at Levi, one of Finland's largest ski resorts"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

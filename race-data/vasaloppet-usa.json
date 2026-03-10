@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Vasaloppet USA",
+    "slug": "vasaloppet-usa",
+    "display_name": "Vasaloppet USA",
+    "tagline": "The Swedish legend transplanted to the frozen lakes and birch forests of Minnesota — fifty-eight kilometers of Nordic heartland grit.",
+    "vitals": {
+      "distance_km": 58,
+      "distance_options": ["58km", "42km", "35km", "13km"],
+      "elevation_m": 200,
+      "altitude_m": 430,
+      "location": "Mora, Minnesota",
+      "location_badge": "Minnesota, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Upper Midwest",
+      "date": "Second Sunday in February",
+      "date_specific": "2026: February 8",
+      "discipline": "both",
+      "field_size": "~3,000 starters",
+      "founded": 1973,
+      "registration": "Online registration, typically opens in fall",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations with warm drinks and energy food",
+      "cutoff_time": null,
+      "website": "https://www.vasaloppet.us",
+      "lat": 45.8769,
+      "lng": -93.2909
+    },
+    "climate": {
+      "primary": "Continental Upper Midwest winter",
+      "description": "Minnesota February delivers reliably cold conditions. Temperatures typically range from -20°C to -5°C. Wind chill across open lake sections can be severe. Snow cover is generally dependable but warm spells can compromise trail quality.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Extreme wind chill across open terrain",
+        "Wax selection for wide temperature swings during the day",
+        "Frostbite risk in sub-zero starts",
+        "Occasional warm spells degrade snow quality"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through Minnesota lake country, rolling terrain on predominantly flat-to-gently-undulating trails. The course winds through birch and pine forest with sections crossing frozen lakes.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through forest and lake terrain",
+      "technical_rating": 2,
+      "grooming": "Well-groomed with classic tracks and skate lane",
+      "features": [
+        "Named after the original Swedish Vasaloppet",
+        "Finishes in Mora, Minnesota — named after Mora, Sweden",
+        "Course through birch and pine forests reminiscent of Dalarna",
+        "Frozen lake crossings",
+        "Strong Scandinavian-American cultural heritage atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 2,
+      "field_size": 4,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 2,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Strong community and field size anchored by Scandinavian heritage. Flat terrain and modest scenery limit ceiling. Solid organization and accessible location for Midwest skiers.",
+      "tier_note": "Prestige 4 eligible for 1-tier promotion, already at T2"
+    },
+    "history": {
+      "summary": "Founded in 1973 by a group of Scandinavian-Americans in Mora, Minnesota — a town named after the Swedish finish city of the original Vasaloppet. The race was created to honor Nordic ski heritage in the Upper Midwest, where generations of Swedish and Norwegian immigrants settled. It has grown into the largest cross-country ski race in the United States, attracting around 3,000 participants across all distances.",
+      "notable_facts": [
+        "Mora, Minnesota was founded by Swedish immigrants and named after the Vasaloppet finish town",
+        "Largest cross-country ski race in the United States",
+        "Licensed by the Swedish Vasaloppet organization",
+        "Celebrates the deep Scandinavian-American heritage of Minnesota",
+        "Originally 55km, adjusted over the years to current 58km course"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Stowe Derby",
+    "slug": "stowe-derby",
+    "display_name": "Stowe Derby",
+    "tagline": "Twenty kilometers of pure descent down Mount Mansfield — America's oldest ski race, where 2,700 feet of vertical drop separates the bold from the bruised since 1945.",
+    "vitals": {
+      "distance_km": 20,
+      "distance_options": ["20km"],
+      "elevation_m": 823,
+      "altitude_m": 1200,
+      "location": "Stowe",
+      "location_badge": "Vermont, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "New England",
+      "date": "Last Sunday in February",
+      "date_specific": "2026: February 22",
+      "discipline": "classic",
+      "field_size": "~500 starters",
+      "founded": 1945,
+      "registration": "Online registration; opens in December",
+      "prize_purse": null,
+      "aid_stations": "2 checkpoints with water and snacks",
+      "cutoff_time": null,
+      "website": "https://www.stowederby.org",
+      "lat": 44.4654,
+      "lng": -72.6874
+    },
+    "climate": {
+      "primary": "Northern New England winter",
+      "description": "Late February in Vermont's Green Mountains brings variable conditions. Temperatures range from -15°C to 0°C. Mount Mansfield's summit can be Arctic-cold while the valley finish is significantly warmer. Snow cover is generally good at altitude but lower sections can be thin or icy. Wind on exposed mountain sections adds serious chill.",
+      "typical_temp_c": "-15 to 0",
+      "challenges": [
+        "Extreme temperature differential between summit start and valley finish",
+        "Ice and hardpack on steep descents",
+        "Wind exposure on upper mountain sections",
+        "Variable snow coverage on lower-elevation trails"
+      ]
+    },
+    "course": {
+      "primary": "A unique downhill cross-country course starting near the summit of Mount Mansfield (Vermont's highest peak at 1,339m) and descending 823 vertical meters to Stowe village. The course uses a mix of ski trails, logging roads, and backcountry routes. Technical descents dominate — this is not a typical XC marathon but a gravity-assisted adventure through the Green Mountains.",
+      "format": "point-to-point",
+      "surface": "Mixed — groomed trails, logging roads, and backcountry routes",
+      "technical_rating": 5,
+      "grooming": "Minimal — some sections groomed, many are natural backcountry",
+      "features": [
+        "2,700 feet (823m) of vertical descent — nearly all downhill",
+        "Starts near the summit of Mount Mansfield, Vermont's highest peak",
+        "One of America's oldest continuously-run ski races (since 1945)",
+        "Mix of groomed trails, logging roads, and backcountry terrain",
+        "Legendary steep descents that test nerve and skill"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 60,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 4,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 4,
+      "international_draw": 2,
+      "course_technicality": 5,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum technicality score for the unique downhill XC format — 823m of vertical descent demands advanced skill. Prestige 4 reflects 80+ years of history as one of America's oldest ski races. Small field and limited grooming constrain overall score but add to the cult appeal.",
+      "tier_note": "Prestige 4 promotes one tier but cannot enter TIER 1 — confirmed TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1945, the Stowe Derby is one of the oldest ski races in the United States. The concept is unique: a 20km descent from near the summit of Mount Mansfield to Stowe village, dropping 2,700 vertical feet. Originally conceived as a test of all-around skiing ability, the Derby predates the modern separation of alpine and Nordic disciplines. It remains a beloved Vermont institution and a rite of passage for adventurous New England skiers.",
+      "notable_facts": [
+        "One of the oldest continuously-run ski races in America — since 1945",
+        "Unique downhill XC format — 2,700 feet of vertical descent",
+        "Predates the modern separation of alpine and Nordic skiing",
+        "Mount Mansfield is Vermont's highest peak at 4,393 feet (1,339m)",
+        "Course uses a mix of ski trails, logging roads, and backcountry routes",
+        "Considered a rite of passage for New England cross-country skiers"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

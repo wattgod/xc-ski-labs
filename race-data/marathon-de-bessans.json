@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Marathon de Bessans",
+    "slug": "marathon-de-bessans",
+    "display_name": "Marathon de Bessans",
+    "tagline": "Sixty kilometers at 1,750 meters in the high Maurienne valley — France's altitude crucible that opens the European marathon season before anyone else has even waxed.",
+    "vitals": {
+      "distance_km": 60,
+      "distance_options": ["60km", "30km", "15km"],
+      "elevation_m": 500,
+      "altitude_m": 1750,
+      "location": "Bessans",
+      "location_badge": "Savoie, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Auvergne-Rhône-Alpes",
+      "date": "Mid-January",
+      "date_specific": "2026: January 17",
+      "discipline": "both",
+      "field_size": "~1,500 starters",
+      "founded": 1979,
+      "registration": "Online registration; opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "5 feed stations with hot drinks, dried fruit, energy food, and French mountain cheese",
+      "cutoff_time": null,
+      "website": "https://www.marathon-bessans.com",
+      "lat": 45.3214,
+      "lng": 6.9958
+    },
+    "climate": {
+      "primary": "High alpine continental",
+      "description": "Mid-January at 1,750 meters in the Maurienne valley means intense cold and reliable deep snow. Temperatures range from -18°C to -5°C. The high altitude guarantees snow conditions but the cold demands serious preparation. Clear skies bring stunning views but also rapid radiant cooling.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Extreme cold at 1,750m altitude in January",
+        "Altitude effects on performance — thin air at race pace",
+        "Early-season fitness test — January date catches many underprepared",
+        "Sun-shade temperature differentials on valley loops"
+      ]
+    },
+    "course": {
+      "primary": "A multi-loop course through the high Maurienne valley at 1,750 meters altitude. The terrain is rolling with moderate climbs through alpine meadows and sparse larch forests. Surrounded by glaciated peaks of the Vanoise National Park. The altitude is the defining challenge — sustained effort at nearly 6,000 feet.",
+      "format": "loop",
+      "surface": "Machine-groomed tracks on high-altitude alpine plateau",
+      "technical_rating": 3,
+      "grooming": "French national team training venue — excellent grooming standards",
+      "features": [
+        "Highest Euroloppet venue at 1,750m altitude",
+        "Season opener — first major European marathon of the winter",
+        "Surrounded by glaciated peaks of the Vanoise massif",
+        "Bessans is a French national team training base",
+        "January date guarantees cold, fast snow"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 70,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Maximum altitude score at 1,750m — the highest venue on the Euroloppet circuit. Guaranteed snow and Vanoise scenery earn top marks. Remote Savoie location and moderate field size limit accessibility scores.",
+      "tier_note": "Score 70 confirms TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1979, the Marathon de Bessans has served as Europe's season-opening ski marathon for over four decades. Set at 1,750 meters in the Maurienne valley of Savoie, the event benefits from Bessans' status as a French biathlon and cross-country national team training center. The high altitude guarantees snow when lower venues struggle, making it the traditional January curtain-raiser for the European marathon circuit.",
+      "notable_facts": [
+        "Highest venue on the Euroloppet circuit at 1,750m",
+        "Season opener — traditionally the first major European marathon each winter",
+        "Bessans is a French national team training base for biathlon and XC skiing",
+        "Founded in 1979 — over 45 years of continuous racing",
+        "Euroloppet member event",
+        "Adjacent to Vanoise National Park, France's first national park"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

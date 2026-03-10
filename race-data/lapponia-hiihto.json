@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Lapponia Hiihto",
+    "slug": "lapponia-hiihto",
+    "display_name": "Lapponia Hiihto",
+    "tagline": "One hundred and ninety kilometers across the fells of Finnish Lapland in three days — the longest multi-stage ski race in the Nordic world.",
+    "vitals": {
+      "distance_km": 190,
+      "distance_options": ["190km (3 stages)"],
+      "elevation_m": 1800,
+      "altitude_m": 400,
+      "location": "Hetta to Muonio",
+      "location_badge": "Western Lapland, Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "Lapland",
+      "date": "Early April",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~500 starters",
+      "founded": 1978,
+      "registration": "Online registration; opens autumn prior",
+      "prize_purse": null,
+      "aid_stations": "Multiple stations per stage with warm drinks and traditional Finnish fare",
+      "cutoff_time": "Stage-specific cutoff times",
+      "website": "https://www.lapponia-hiihto.fi",
+      "lat": 67.9553,
+      "lng": 23.6348
+    },
+    "climate": {
+      "primary": "Sub-Arctic Finnish Lapland",
+      "description": "April in western Lapland brings lengthening days but still-cold temperatures. Race conditions typically range from -15°C to 0°C. Late-season sun can soften snow dramatically by afternoon, creating challenging wax conditions across the three days.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Three consecutive days of ultra-distance skiing",
+        "Dramatic temperature swings between morning and afternoon stages",
+        "Late-season sun creating wet, grabby snow conditions",
+        "Remote fell terrain with limited shelter from wind",
+        "Cumulative fatigue across 190km demands careful pacing"
+      ]
+    },
+    "course": {
+      "primary": "Three-day stage race traversing the fells of western Finnish Lapland from Hetta to Muonio. The course crosses frozen lakes, climbs over treeline fell plateaus, and descends through Arctic birch forests. Each stage averages over 60km with significant cumulative elevation.",
+      "format": "stage",
+      "surface": "Machine-groomed tracks through fell wilderness, frozen lakes, and birch forest",
+      "technical_rating": 4,
+      "grooming": "Good Finnish standard, prepared for both classic and skate",
+      "features": [
+        "Longest multi-stage ski race in the Nordic countries at 190km total",
+        "Crosses the fell wilderness between Hetta and Muonio",
+        "Frozen lake crossings with panoramic fell views",
+        "Above-treeline sections on fell plateaus",
+        "Traditional Finnish hospitality between stages",
+        "Ski Classics Challengers series event"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 5,
+      "elevation": 4,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "An extraordinary ultra-distance stage race in one of Europe's most remote corners. The 190km total distance and fell terrain are unmatched, but the remote location limits field size and accessibility.",
+      "tier_note": "Prestige 4 promotes from T3 to T2"
+    },
+    "history": {
+      "summary": "Founded in 1978, Lapponia Hiihto was conceived as a multi-day wilderness crossing that would showcase the vast fell landscape of western Finnish Lapland. The route from Hetta to Muonio traverses some of the most remote terrain in Finland. The race joined the Ski Classics Challengers series, bringing international attention to this unique stage-race format.",
+      "notable_facts": [
+        "At 190km over three days, it is the longest multi-stage XC ski race in Nordic countries",
+        "The route crosses the traditional homeland of the Sámi people",
+        "Hetta (Enontekiö) and Muonio are among Finland's northernmost municipalities",
+        "Part of the Ski Classics Challengers series",
+        "Snow conditions in April Lapland are among the most reliable in the world",
+        "The fell landscape is designated as a UNESCO biosphere reserve area"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

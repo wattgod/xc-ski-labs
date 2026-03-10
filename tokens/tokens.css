@@ -1,0 +1,86 @@
+/* Nordic Lab Design Tokens
+   Neo-brutalist system — sibling to Gravel God
+   No border-radius, no box-shadow, 2-3px solid borders
+   Wintry palette: cold blues, slate, frost
+   -------------------------------------------------- */
+
+:root {
+  /* Primary */
+  --nl-primary: #2c3e50;          /* Deep Slate */
+  --nl-secondary: #5d6d7e;        /* Storm Gray */
+
+  /* Accents */
+  --nl-accent-1: #2980b9;         /* Ice Blue */
+  --nl-accent-2: #5dade2;         /* Frost */
+
+  /* Highlights */
+  --nl-highlight-1: #d4ac0d;      /* Birch Gold */
+  --nl-highlight-2: #f7dc6f;      /* Pale Sun */
+
+  /* Neutrals */
+  --nl-muted: #b0bec5;            /* Snow Dust */
+  --nl-cream: #cfd8dc;            /* Glacier */
+  --nl-paper: #ecf0f1;            /* Cold Paper */
+
+  /* Tier Colors */
+  --nl-tier-1: #1a252f;           /* Midnight */
+  --nl-tier-2: #4a6274;           /* Steel */
+  --nl-tier-3: #607d8b;           /* Slate */
+  --nl-tier-4: #78909c;           /* Fog */
+
+  /* Text */
+  --nl-text-primary: #1a252f;
+  --nl-text-secondary: #4a6274;
+  --nl-text-muted: #78909c;
+  --nl-text-on-dark: #ecf0f1;
+
+  /* Borders */
+  --nl-border: #1a252f;
+  --nl-border-width: 2px;
+  --nl-border-heavy: 3px;
+
+  /* Fonts */
+  --nl-font-data: 'Sometype Mono', monospace;
+  --nl-font-editorial: 'Literata', serif;
+  --nl-font-ui: 'Inter', sans-serif;
+
+  /* Spacing (8px grid) */
+  --nl-space-xs: 4px;
+  --nl-space-sm: 8px;
+  --nl-space-md: 16px;
+  --nl-space-lg: 24px;
+  --nl-space-xl: 32px;
+  --nl-space-2xl: 48px;
+  --nl-space-3xl: 64px;
+
+  /* Neo-brutalist overrides */
+  --nl-radius: 0;
+  --nl-shadow: none;
+}
+
+/* Discipline badges */
+.badge-classic {
+  background: var(--nl-primary);
+  color: var(--nl-text-on-dark);
+  border: var(--nl-border-width) solid var(--nl-border);
+  font-family: var(--nl-font-data);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: var(--nl-space-xs) var(--nl-space-sm);
+}
+
+.badge-skate {
+  background: var(--nl-accent-1);
+  color: var(--nl-text-on-dark);
+  border: var(--nl-border-width) solid var(--nl-border);
+  font-family: var(--nl-font-data);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: var(--nl-space-xs) var(--nl-space-sm);
+}
+
+/* Tier badges */
+.tier-1 { background: var(--nl-tier-1); color: var(--nl-text-on-dark); }
+.tier-2 { background: var(--nl-tier-2); color: var(--nl-text-on-dark); }
+.tier-3 { background: var(--nl-tier-3); color: var(--nl-text-on-dark); }
+.tier-4 { background: var(--nl-tier-4); color: var(--nl-text-on-dark); }

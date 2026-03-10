@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Bieg Piastów",
+    "slug": "bieg-piastow",
+    "display_name": "Bieg Piastów",
+    "tagline": "Five thousand skiers in the Jizera Mountains — Poland's national ski marathon where Eastern European grit meets Worldloppet tradition.",
+    "vitals": {
+      "distance_km": 51,
+      "distance_options": ["51km classic", "30km", "12km", "3km kids"],
+      "elevation_m": 700,
+      "altitude_m": 850,
+      "location": "Jakuszyce, Jizera Mountains",
+      "location_badge": "Lower Silesia, Poland",
+      "country": "Poland",
+      "country_code": "PL",
+      "region": "Lower Silesia",
+      "date": "Mid-March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~5,000",
+      "founded": 1976,
+      "registration": "Open registration via online entry",
+      "prize_purse": null,
+      "aid_stations": "5-6 stations with warm tea, energy food, and traditional Polish refreshments",
+      "cutoff_time": null,
+      "website": "https://www.biegpiastow.pl",
+      "lat": 50.8363,
+      "lng": 15.4316
+    },
+    "climate": {
+      "primary": "Central European mountain winter",
+      "description": "March in the Jizera Mountains at 850m brings variable late-season conditions. The range straddles the Polish-Czech border and receives reliable snowfall, though March dates can bring warming. The mountains create their own weather patterns with frequent fog and precipitation.",
+      "typical_temp_c": "-5 to 5",
+      "challenges": [
+        "Late-season March date increases risk of warm temperatures and soft snow",
+        "Mountain fog and low cloud can reduce visibility on exposed sections",
+        "Jizera Mountains are known for sudden weather changes",
+        "Variable snow conditions between shaded forest and open ridges"
+      ]
+    },
+    "course": {
+      "primary": "Mountain course through the Jizera Mountains (Góry Izerskie), rolling terrain along the Polish-Czech border ridge. The route traverses high-altitude plateaus and forested valleys at 800-1000m elevation. Classic technique only for the main 51km distance.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through mountain forest and plateau terrain",
+      "technical_rating": 3,
+      "grooming": "Good quality grooming on the well-maintained Jakuszyce trail system",
+      "features": [
+        "Course along the Polish-Czech border ridge at 850m+",
+        "Jakuszyce is Poland's premier cross-country ski center",
+        "One of the largest XC ski races in Central/Eastern Europe",
+        "Named after the Piast dynasty, Poland's founding royal house",
+        "Strong tradition of Polish national skiing pride",
+        "Trail system used by Polish national team for training"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 5,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Maximum field size score with ~5,000 participants — one of the largest XC ski races in the Worldloppet circuit. Strong community driven by Polish national skiing pride. Snow reliability dinged by the March date and moderate altitude. The Piast dynasty naming adds cultural weight.",
+      "tier_note": "Prestige 4 promotes one tier: raw T2 (67) stays TIER 2 (already T2)"
+    },
+    "history": {
+      "summary": "Bieg Piastów was founded in 1976 in Jakuszyce, in the Jizera Mountains of southwestern Poland. Named after the Piast dynasty — the founding royal house of Poland — the race embodies Polish national pride in cross-country skiing. It has grown to become the largest XC ski event in Central and Eastern Europe, regularly drawing around 5,000 participants. The race joined the Worldloppet series and serves as Poland's flagship entry on the circuit. Jakuszyce itself has developed into Poland's primary cross-country skiing center.",
+      "notable_facts": [
+        "Named after the Piast dynasty, which ruled Poland from the 10th to 14th centuries",
+        "Poland's largest cross-country ski race and a source of national sporting pride",
+        "Jakuszyce holds the Polish record for lowest temperature: -36.9°C in 1929",
+        "The Jizera Mountains straddle the Polish-Czech-German tri-border region",
+        "Justyna Kowalczyk, Poland's Olympic XC skiing champion, trained in this region",
+        "The race has been a Worldloppet member since the series expanded to Eastern Europe"
+      ]
+    },
+    "series_membership": ["worldloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}
