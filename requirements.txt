@@ -1,0 +1,2 @@
+# Nordic Race Automation dependencies
+# Add packages here as needed
