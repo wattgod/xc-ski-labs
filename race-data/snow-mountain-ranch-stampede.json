@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Snow Mountain Ranch Stampede",
+    "slug": "snow-mountain-ranch-stampede",
+    "display_name": "Snow Mountain Ranch Stampede",
+    "tagline": "50 kilometers at 8,700 feet in the Colorado Rockies — earn the Ranch Boss buckle by conquering both classic and freestyle on the same weekend.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km freestyle", "25km"],
+      "elevation_m": 550,
+      "altitude_m": 2650,
+      "location": "Granby, Colorado",
+      "location_badge": "Colorado, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Colorado",
+      "date": "Early March",
+      "date_specific": "2026: March 7-8",
+      "discipline": "both",
+      "field_size": "~300-500",
+      "founded": 1991,
+      "registration": "Opens in fall; does not typically sell out",
+      "prize_purse": null,
+      "aid_stations": "Aid stations with warm drinks and snacks",
+      "cutoff_time": null,
+      "website": "https://www.snowmountainranch.org",
+      "lat": 40.0861,
+      "lng": -105.8584
+    },
+    "climate": {
+      "primary": "High-altitude Rocky Mountain winter",
+      "description": "Racing at 8,700 feet brings thin air, intense sun, and rapid weather shifts. March temperatures range from -10°C to 5°C. The high altitude ensures excellent snow quality but demands altitude acclimatization. Afternoon sun can soften tracks quickly.",
+      "typical_temp_c": "-10 to 5",
+      "challenges": [
+        "8,700-foot altitude significantly impacts aerobic performance",
+        "Intense high-altitude UV exposure",
+        "Rapid temperature swings from morning cold to afternoon warmth",
+        "Thin air makes climbs disproportionately harder",
+        "Afternoon snow softening affects wax and glide"
+      ]
+    },
+    "course": {
+      "primary": "Multi-loop course at Snow Mountain Ranch (YMCA of the Rockies) at 8,700 feet. Rolling terrain through open meadows and lodgepole pine forest with constant gentle climbing and descending. The altitude is the defining challenge — every climb feels harder in the thin Rocky Mountain air.",
+      "format": "loop",
+      "surface": "Machine-groomed trails at Snow Mountain Ranch Nordic center",
+      "technical_rating": 3,
+      "grooming": "Good machine grooming with classic tracks and skating lane",
+      "features": [
+        "One of the highest-altitude XC ski marathons in North America",
+        "Ranch Boss buckle for completing both 50km classic and 50km freestyle",
+        "YMCA of the Rockies venue with lodge-style atmosphere",
+        "Continental Divide views on clear days",
+        "Two-day format with classic Saturday, freestyle Sunday"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "The extreme altitude is the standout feature — few XC marathons race above 8,000 feet. The Ranch Boss double challenge adds a unique dimension. Limited field size and modest competitive depth keep it in Tier 3.",
+      "tier_note": "Score 57 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "The Snow Mountain Ranch Stampede has been held at the YMCA of the Rockies since approximately 1991, making it one of Colorado's longest-running XC ski marathons. The event's signature is its extreme altitude — at 8,700 feet, skiers contend with thin air that transforms a 50km race into something far more demanding. The Ranch Boss buckle, awarded for completing both the classic and freestyle 50km events on the same weekend, has become a coveted prize in the Western ski community.",
+      "notable_facts": [
+        "One of the highest-altitude XC ski marathons in North America at 8,700 feet",
+        "Ranch Boss buckle for completing both 50km events in a single weekend",
+        "Hosted at the YMCA of the Rockies — Snow Mountain Ranch",
+        "Colorado's thin air adds roughly 10-15% to perceived effort",
+        "Views toward the Continental Divide on clear race days"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

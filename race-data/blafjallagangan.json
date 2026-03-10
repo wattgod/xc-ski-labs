@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Bláfjallagangan",
+    "slug": "blafjallagangan",
+    "display_name": "Bláfjallagangan",
+    "tagline": "Forty kilometers across Iceland's volcanic highlands — the only Euroloppet on a volcanic island, where lava fields meet snow fields just 35 minutes from Reykjavik.",
+    "vitals": {
+      "distance_km": 40,
+      "distance_options": ["40km", "20km"],
+      "elevation_m": 500,
+      "altitude_m": 600,
+      "location": "Bláfjöll",
+      "location_badge": "Near Reykjavik, Iceland",
+      "country": "Iceland",
+      "country_code": "IS",
+      "region": "Capital Region",
+      "date": "Spring (March-April)",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~300 starters",
+      "founded": 2018,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 64.0167,
+      "lng": -21.8500
+    },
+    "climate": {
+      "primary": "Sub-Arctic maritime",
+      "description": "Spring in Iceland's highlands is unpredictable. The Bláfjöll area sits at moderate altitude near Reykjavik, exposed to Atlantic weather systems. Typically -5°C to 3°C. Wind is the dominant factor — Iceland's open terrain offers no shelter. Snow conditions vary from powder to ice depending on wind and temperature cycles.",
+      "typical_temp_c": "-5 to 3",
+      "challenges": [
+        "Extreme wind exposure on open volcanic terrain",
+        "Rapidly changing weather — sun to blizzard in minutes",
+        "Snow quality varies dramatically with wind and temperature",
+        "Maritime influence can bring rain even in spring",
+        "Volcanic terrain creates unique course challenges"
+      ]
+    },
+    "course": {
+      "primary": "A 40km classic race across the Bláfjöll highlands near Reykjavik. The course traverses Iceland's unique volcanic landscape — moss-covered lava fields blanketed in snow, with views to distant glaciers and the North Atlantic. The terrain is rolling with moderate elevation change, but the defining feature is the wind exposure on the treeless highland terrain. Unlike any other ski race in the world.",
+      "format": "loop",
+      "surface": "Groomed classic tracks over volcanic highland terrain",
+      "technical_rating": 3,
+      "grooming": "Good standard given challenging conditions; wind can affect track quality",
+      "features": [
+        "Only Euroloppet event in Iceland",
+        "Volcanic landscape unlike any other ski race",
+        "Just 35km from Reykjavik — easy logistics",
+        "Views to glaciers and the North Atlantic",
+        "Bláfjöll also serves as Reykjavik's local ski area",
+        "Treeless terrain with dramatic wind exposure"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 4,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum scenery score for Iceland's extraordinary volcanic landscape. Strong accessibility — just 35km from Reykjavik with international airport. Euroloppet membership since 2020 boosts international draw. Small field size and relatively new event limit prestige and competitive depth scores.",
+      "tier_note": "Score 56 places in TIER 3"
+    },
+    "history": {
+      "summary": "A relatively new event, Bláfjallagangan launched around 2018 and became a Euroloppet member in 2020. The race takes place in the Bláfjöll highlands, just 35 kilometers from Reykjavik, making it the most accessible ski race in Iceland. The volcanic landscape creates a race experience unlike anything else in the skiing world. Iceland's growing interest in cross-country skiing, combined with Euroloppet recognition, has helped establish this race as a unique destination event.",
+      "notable_facts": [
+        "Euroloppet member since 2020",
+        "Only international loppet event in Iceland",
+        "Bláfjöll means 'Blue Mountains' in Icelandic",
+        "Just 35km from Reykjavik — closest loppet to a capital city",
+        "Course crosses volcanic terrain covered in snow",
+        "Iceland's growing cross-country skiing scene",
+        "Relatively new event, founded around 2018"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

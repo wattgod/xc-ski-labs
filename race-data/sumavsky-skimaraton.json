@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Šumavský Skimaraton",
+    "slug": "sumavsky-skimaraton",
+    "display_name": "Šumavský Skimaraton",
+    "tagline": "Forty-six kilometers through the ancient Šumava forests at the heart of Bohemia — where Central Europe's last primeval wilderness hides a demanding freestyle marathon above the clouds.",
+    "vitals": {
+      "distance_km": 46,
+      "distance_options": [
+        "46km",
+        "23km"
+      ],
+      "elevation_m": 650,
+      "altitude_m": 1050,
+      "location": "Kvilda, Šumava National Park",
+      "location_badge": "South Bohemia, Czech Republic",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "region": "South Bohemia",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~1,500",
+      "founded": 1984,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations through the national park course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 49.02,
+      "lng": 13.58
+    },
+    "climate": {
+      "primary": "Central European mountain winter",
+      "description": "February at 1,000m+ in the Šumava mountains means reliable winter conditions. The Bohemian Forest is one of the snowiest regions in Central Europe. Temperatures typically -8°C to -1°C. Being further south than Scandinavian races, conditions can be more variable.",
+      "typical_temp_c": "-8 to -1",
+      "challenges": [
+        "Central European snow reliability less certain than Scandinavia",
+        "Altitude-dependent conditions — lower sections may be marginal",
+        "Wind on exposed mountain plateau sections",
+        "National park terrain includes some challenging descents"
+      ]
+    },
+    "course": {
+      "primary": "Starting from Kvilda, one of the highest villages in the Czech Republic, the course traverses the Šumava National Park plateau. The terrain features rolling mountain forest with open moorland sections. Šumava (Bohemian Forest) contains some of Europe's last primeval forests and is a UNESCO Biosphere Reserve.",
+      "format": "loop",
+      "surface": "Machine-groomed freestyle tracks through national park terrain",
+      "technical_rating": 3,
+      "grooming": "Good quality, Euroloppet standard",
+      "features": [
+        "Races through Šumava National Park — UNESCO Biosphere Reserve",
+        "Kvilda start at 1,065m — one of Czech Republic's highest villages",
+        "Ancient primeval forest sections of the Bohemian Forest",
+        "Open moorland and mountain plateau terrain",
+        "40+ years of racing history since 1984"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Well-rounded race with no major weaknesses. Scenery lifted by UNESCO Biosphere Reserve status and ancient forest. Good field of 1,500 for a Central European race. 40-year history and Euroloppet membership provide solid credibility. Snow reliability is the main risk factor.",
+      "tier_note": "Score 61 >= 60 qualifies for TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1984, the Šumavský Skimaraton is a 46km freestyle race through Šumava National Park in the Bohemian Forest of South Bohemia, Czech Republic. Part of the Euroloppet series, it starts from Kvilda, one of the highest and coldest villages in the country. The Šumava range straddles the Czech-German-Austrian border and contains some of Europe's last remaining primeval forest.",
+      "notable_facts": [
+        "Šumava National Park is a UNESCO Biosphere Reserve",
+        "Kvilda is one of the coldest places in the Czech Republic — extreme temperature records below -40°C",
+        "The Bohemian Forest (Šumava/Böhmerwald) spans Czech, German, and Austrian territory",
+        "Contains some of Europe's last primeval old-growth forest",
+        "Part of the Euroloppet series",
+        "Founded in 1984, over 40 years of racing history"
+      ]
+    },
+    "series_membership": [
+      "euroloppet"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

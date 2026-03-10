@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Trans'Vercors",
+    "slug": "trans-vercors",
+    "display_name": "Trans'Vercors",
+    "tagline": "53 kilometers and 1,140 meters of climbing across the Vercors Massif — one of France's oldest and most demanding XC ski marathons since 1968.",
+    "vitals": {
+      "distance_km": 53,
+      "distance_options": [
+        "53km freestyle",
+        "25km"
+      ],
+      "elevation_m": 1140,
+      "altitude_m": 1200,
+      "location": "Saint-Agnan to Villard-de-Lans",
+      "location_badge": "Isère, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Isère",
+      "date": "Mid-February",
+      "date_specific": "2026: February 15",
+      "discipline": "skate",
+      "field_size": "~600-1,000",
+      "founded": 1968,
+      "registration": "Opens in late fall; popular event",
+      "prize_purse": null,
+      "aid_stations": "Ravitaillement stations with warm drinks, cheese, charcuterie, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.transvercors.com",
+      "lat": 45.0667,
+      "lng": 5.55
+    },
+    "climate": {
+      "primary": "Pre-Alpine Vercors plateau winter",
+      "description": "February on the Vercors Massif delivers genuine Alpine winter conditions. Temperatures range from -10°C to 2°C. The Vercors is known for reliable snowfall and cold temperatures thanks to its plateau geography. North-facing slopes hold snow well, but exposed ridgeline sections can be windswept.",
+      "typical_temp_c": "-10 to 2",
+      "challenges": [
+        "1,140m of positive elevation gain makes this a serious climbing race",
+        "Exposed plateau and ridgeline sections with wind chill",
+        "Variable snow conditions across different altitudes and aspects",
+        "Descents require strong technical skill at speed",
+        "Race has been cancelled in extreme weather years"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point traversal of the Vercors Massif from Saint-Agnan-en-Vercors to Villard-de-Lans. Massive elevation profile with 1,140m of positive gain across 53km. The course crosses multiple cols and plateaus through one of France's most dramatic limestone massifs. Technical descents and sustained climbs define the experience.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails across the Vercors Nordic domain",
+      "technical_rating": 4,
+      "grooming": "Good French Nordic grooming — variable on remote plateau sections",
+      "features": [
+        "One of France's oldest XC ski marathons — founded 1968",
+        "1,140m of positive elevation gain across 53km",
+        "Traverses the dramatic Vercors limestone massif",
+        "Point-to-point format across multiple plateaus and cols",
+        "Vercors was a major WWII Resistance stronghold",
+        "Finish in the ski resort village of Villard-de-Lans"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 67,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 4,
+      "elevation": 5,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "The combination of 53km distance and 1,140m elevation gain makes this one of the most physically demanding XC marathons in France. Founded in 1968, it has genuine heritage. The Vercors massif scenery is spectacular. Prestige 4 earns 1-tier promotion.",
+      "tier_note": "Prestige 4 with base tier TIER 3 promotes to TIER 2"
+    },
+    "history": {
+      "summary": "The Trans'Vercors is one of France's oldest cross-country ski marathons, first held in 1968. The race traverses the Vercors Massif, a dramatic limestone plateau in the French Pre-Alps that served as a major stronghold for the French Resistance during World War II. The massif's unique geography — high plateaus ringed by steep cliffs — creates a natural fortress that sheltered resistance fighters and now provides an extraordinary skiing landscape. With 1,140m of elevation gain, it ranks among the most demanding XC marathons in Europe.",
+      "notable_facts": [
+        "Founded in 1968 — one of France's oldest XC ski marathons",
+        "1,140m of positive elevation gain across 53km",
+        "The Vercors Massif was a WWII Resistance stronghold — the Maquis du Vercors",
+        "Dramatic limestone plateau and cliff scenery",
+        "Point-to-point traversal finishing in the resort village of Villard-de-Lans",
+        "Grenoble (1968 Winter Olympics host city) is the nearest major city"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

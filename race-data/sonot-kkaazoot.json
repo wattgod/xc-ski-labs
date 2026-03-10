@@ -1,0 +1,98 @@
+{
+  "race": {
+    "name": "Sonot Kkaazoot",
+    "slug": "sonot-kkaazoot",
+    "display_name": "Sonot Kkaazoot",
+    "tagline": "Sliding across snow in springtime — fifty freestyle kilometers through Interior Alaska's deep cold and endless boreal forest.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km freestyle",
+        "20km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 200,
+      "location": "Fairbanks",
+      "location_badge": "Alaska, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Alaska",
+      "date": "March",
+      "date_specific": "2026: March 21",
+      "discipline": "skate",
+      "field_size": "~200",
+      "founded": 1988,
+      "registration": "Open registration",
+      "prize_purse": "None",
+      "aid_stations": "Multiple aid stations with warm drinks and snacks",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.sonotkkaazoot.org",
+      "lat": 64.8378,
+      "lng": -147.7164
+    },
+    "climate": {
+      "primary": "Interior subarctic winter",
+      "description": "Fairbanks in March delivers the tail end of one of North America's coldest winters. Temperatures can still reach -25°C, though late March may warm to -5°C. The race name — Lower Tanana Athabaskan for 'sliding across snow in springtime' — reflects the seasonal transition. Daylight is rapidly increasing, with 12+ hours by late March.",
+      "typical_temp_c": "-25 to -5",
+      "challenges": [
+        "Extreme cold possible — Fairbanks regularly sees -30°C in winter",
+        "Ice fog in deep cold obscures visibility",
+        "Remote location with limited emergency access on course",
+        "Wax selection for extremely cold, dry Interior Alaska snow"
+      ]
+    },
+    "course": {
+      "primary": "Freestyle-only course through the boreal forest surrounding Fairbanks. Gently rolling terrain on groomed trails with no major climbs but relentless distance. The course connects several local trail systems across the Tanana Valley.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through boreal spruce and birch forest",
+      "technical_rating": 2,
+      "grooming": "Groomed by local Nordic club — good quality given the remote setting",
+      "features": [
+        "Name from Lower Tanana Athabaskan language",
+        "Interior Alaska's boreal forest — spruce, birch, and silence",
+        "One of the northernmost marathon ski races in North America",
+        "Late March timing maximizes daylight and moderates temperatures",
+        "Freestyle only — a skate-skiing endurance test",
+        "Small field creates an intimate, self-supported atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 46,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A beautifully remote race with guaranteed snow and a unique cultural name. Limited by tiny field size, extreme remoteness, and minimal international draw. The adventure factor is high but the accessibility is rock-bottom.",
+      "tier_note": "TIER 3 — a niche adventure race for those drawn to Interior Alaska"
+    },
+    "history": {
+      "summary": "Founded in 1988, the Sonot Kkaazoot takes its name from the Lower Tanana Athabaskan phrase meaning 'sliding across snow in springtime.' The race celebrates Fairbanks' deep connection to Nordic skiing — in a city where temperatures routinely hit -40°C, cross-country skiing is both transportation and survival skill. Despite its small field, the Sonot Kkaazoot embodies the spirit of interior Alaska: tough, remote, and profoundly connected to the land.",
+      "notable_facts": [
+        "Name means 'sliding across snow in springtime' in Lower Tanana Athabaskan",
+        "One of the northernmost marathon ski races in North America at 64°N latitude",
+        "Fairbanks is one of the coldest cities in the US — winter lows reach -50°C",
+        "The University of Alaska Fairbanks has a strong Nordic ski program",
+        "Late March timing allows 12+ hours of daylight versus the near-darkness of December",
+        "Small field size — typically around 200 — gives it a backcountry expedition feel"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

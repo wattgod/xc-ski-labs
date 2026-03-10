@@ -1,0 +1,102 @@
+{
+  "race": {
+    "name": "Nattvasan",
+    "slug": "nattvasan",
+    "display_name": "Nattvasan",
+    "tagline": "Ninety kilometers through the Swedish night — headlamps piercing the Dalarna darkness on the Vasaloppet course, where two-person teams race from dusk to dawn.",
+    "vitals": {
+      "distance_km": 90,
+      "distance_options": [
+        "90km (team of 2)",
+        "45km (solo)"
+      ],
+      "elevation_m": 850,
+      "altitude_m": 350,
+      "location": "Sälen to Mora",
+      "location_badge": "Dalarna, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Dalarna",
+      "date": "Late February",
+      "date_specific": "2026: February 27",
+      "discipline": "skate",
+      "field_size": "~4,000 starters",
+      "founded": 2003,
+      "registration": "Online registration, sells out quickly",
+      "prize_purse": "None",
+      "aid_stations": "7 stations matching Vasaloppet infrastructure — blueberry soup, sports drink, warm drinks",
+      "cutoff_time": "14 hours for 90km team event",
+      "website": "https://www.vasaloppet.se/nattvasan",
+      "lat": 61.0067,
+      "lng": 14.5356
+    },
+    "climate": {
+      "primary": "Continental Scandinavian winter — night conditions",
+      "description": "Racing through the Swedish night amplifies every cold-weather challenge. Temperatures drop sharply after sunset, typically reaching -15°C to -5°C through the night. Wind chill on open marshlands compounds the cold. Complete darkness except for headlamp beams and checkpoint lights.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Racing through complete darkness for 8-14 hours",
+        "Night temperatures can plunge below -25°C",
+        "Navigation by headlamp only — depth perception limited",
+        "Extreme wind chill on open bog sections at night",
+        "Fatigue management across overnight effort",
+        "Team coordination — pace matching with partner"
+      ]
+    },
+    "course": {
+      "primary": "The same iconic 90km Vasaloppet course from Sälen to Mora, but skied in free technique through the Swedish night. Two-person teams must stay within 20 minutes of each other. The same seven checkpoints provide warmth and refueling. The darkness transforms familiar terrain into an entirely different challenge.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed Vasaloppet course — skating lane prepared for free technique",
+      "technical_rating": 3,
+      "grooming": "World-class Vasaloppet standard, freshly prepared for night racing",
+      "features": [
+        "Same 90km Sälen-to-Mora course as Vasaloppet — raced in darkness",
+        "Two-person teams for the 90km distance — must stay within 20 minutes of partner",
+        "Headlamps required — racing by beam only",
+        "Seven checkpoint stations with full Vasaloppet support",
+        "Sunrise finish for front-runners arriving in Mora at dawn",
+        "Part of Vasaloppet Winter Week"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 79,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 4,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 4,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 2,
+      "organization": 5,
+      "competitive_depth": 4,
+      "score_note": "The night format transforms the Vasaloppet course into something entirely different — a 90km endurance test in darkness. Inherits Vasaloppet's world-class infrastructure. Scenery scores low by definition (darkness), but the experience is extraordinary. Strong competitive field.",
+      "tier_note": "Score 79 places in TIER 2"
+    },
+    "history": {
+      "summary": "Nattvasan was founded in 2003 as part of the expanding Vasaloppet Winter Week program. The concept was simple but radical: ski the entire Vasaloppet course through the night using headlamps. The 90km distance is raced as two-person teams in free technique (skate), while a 45km solo option exists. The event quickly captured the imagination of the Swedish skiing community, growing to over 4,000 participants. It has become one of the most iconic night races in any sport, turning the familiar Dalarna landscape into an otherworldly experience.",
+      "notable_facts": [
+        "Skis the full Vasaloppet course (Sälen to Mora) in complete darkness",
+        "Two-person teams must finish within 20 minutes of each other",
+        "Founded in 2003 as part of Vasaloppet Winter Week expansion",
+        "Uses free technique (skate) — contrasting with Vasaloppet's classic-only format",
+        "Front-runners often see the sunrise as they approach Mora",
+        "One of the largest night ski races in the world"
+      ]
+    },
+    "series_membership": [
+      "vasaloppet_winter_week"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Jyväskylä Ski Marathon",
+    "slug": "jyvaskyla-ski-marathon",
+    "display_name": "Jyväskylä Ski Marathon",
+    "tagline": "Fifty kilometers along the Metso Route through the Finnish Lakeland — where a thousand frozen lakes frame the quintessential Nordic ski marathon in the heart of Central Finland.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km freestyle", "30km"],
+      "elevation_m": 400,
+      "altitude_m": 150,
+      "location": "Jyväskylä",
+      "location_badge": "Central Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "Central Finland",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": "~1,100",
+      "founded": null,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the Metso Route",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 62.2426,
+      "lng": 25.7473
+    },
+    "climate": {
+      "primary": "Finnish Lakeland winter",
+      "description": "March in Central Finland means late winter with lengthening days. Inland location provides consistent cold. Temperatures typically -10°C to -2°C. Snow is very reliable in the Finnish interior at this time of year. The frozen lake landscape is characteristic.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Open lake crossings expose skiers to wind",
+        "Low altitude means flat terrain — relentless aerobic demand",
+        "March sun can soften tracks in afternoon",
+        "Finnish cold demands steady nutrition strategy over 50km"
+      ]
+    },
+    "course": {
+      "primary": "The Metso Route through the forests and lakeland terrain around Jyväskylä in Central Finland. Both classic and freestyle disciplines offered. The course weaves through the characteristic Finnish landscape of forests, frozen lakes, and gentle rolling terrain. Predominantly flat to gently rolling with occasional short climbs.",
+      "format": "loop",
+      "surface": "Machine-groomed tracks through Finnish Lakeland terrain",
+      "technical_rating": 2,
+      "grooming": "Good Finnish standard, Euroloppet quality",
+      "features": [
+        "Follows the Metso Route — a signature Central Finland ski trail",
+        "Classic Finnish Lakeland scenery — forests and frozen lakes",
+        "Both classic and freestyle disciplines offered",
+        "Jyväskylä is a university city — good infrastructure and logistics",
+        "Part of the Euroloppet series"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 4,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum snow reliability for Finnish interior. Good accessibility — Jyväskylä is a major Finnish city with airport and rail connections. The dual-discipline format adds flexibility. Limited by flat terrain and moderate international profile.",
+      "tier_note": "Score 57 falls in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "A 50km ski marathon in Jyväskylä, Central Finland, offering both classic and freestyle disciplines. Part of the Euroloppet series. The race follows the Metso Route through the Finnish Lakeland, one of the world's largest lake systems. Jyväskylä is a major university city and cultural center in Central Finland, providing excellent infrastructure for the event. Attracts around 1,100 participants.",
+      "notable_facts": [
+        "Part of the Euroloppet series",
+        "Follows the Metso Route — a well-known ski trail in Central Finland",
+        "Jyväskylä is Finland's seventh-largest city and a major university center",
+        "Central Finland has one of the world's highest densities of lakes",
+        "Offers both classic and freestyle — relatively uncommon for Euroloppet events",
+        "Finnish Lakeland is a UNESCO-recognized landscape"
+      ]
+    },
+    "series_membership": ["euroloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

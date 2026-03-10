@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Kobberløpet",
+    "slug": "kobberlopet",
+    "display_name": "Kobberløpet",
+    "tagline": "Forty-three classic kilometers through Norway's copper country — where Arctic mountain spring meets half a century of mining-town grit.",
+    "vitals": {
+      "distance_km": 43,
+      "distance_options": ["43km classic", "20km", "10km"],
+      "elevation_m": 600,
+      "altitude_m": 500,
+      "location": "Sulitjelma to Fauske",
+      "location_badge": "Nordland, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Nordland",
+      "date": "April",
+      "date_specific": "2026: April 11",
+      "discipline": "classic",
+      "field_size": "~800",
+      "founded": 1968,
+      "registration": "Open registration",
+      "prize_purse": "Prizes for top finishers",
+      "aid_stations": "Multiple stations with warm drinks and Norwegian race food",
+      "cutoff_time": "Official cutoff applies",
+      "website": "https://www.kobberlopet.no",
+      "lat": 67.1333,
+      "lng": 15.3833
+    },
+    "climate": {
+      "primary": "Arctic Norwegian coastal spring",
+      "description": "April above the Arctic Circle delivers spring skiing with long daylight — up to 16 hours by mid-April. Temperatures range from -8°C to 5°C. The mountain setting between Sulitjelma and Fauske provides reliable late-season snow. Coastal influence means variable conditions, from firm spring crust to soft corn snow.",
+      "typical_temp_c": "-8 to 5",
+      "challenges": [
+        "Spring snow transitions — morning crust to afternoon slush",
+        "Arctic wind exposure on mountain passes",
+        "Wax selection critical for classic technique in variable spring conditions",
+        "Coastal weather can change rapidly — prepare for all conditions"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from the former copper mining town of Sulitjelma to Fauske on the Norwegian coast. The classic-only course traverses Arctic mountain terrain with significant climbing through birch forest and above the treeline. The descent to Fauske delivers a dramatic finish.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed mountain trails through birch forest and above-treeline terrain",
+      "technical_rating": 3,
+      "grooming": "Norwegian standard — well-prepared classic tracks for the point-to-point route",
+      "features": [
+        "Point-to-point from mountain mining town to coastal Fauske",
+        "Above the Arctic Circle at 67°N latitude",
+        "Named after the copper (kobber) mining heritage of Sulitjelma",
+        "Ski Classics Challengers event",
+        "Classic technique only — pure diagonal stride and double pole",
+        "Above-treeline sections with panoramic Arctic mountain views",
+        "April spring skiing with extended Arctic daylight"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 67,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "A historic Arctic race with Ski Classics Challengers status, stunning mountain scenery, and strong competitive depth. Prestige 4 (founded 1968, nearly 60 years of history) and Ski Classics membership lift it above its modest field size.",
+      "tier_note": "Prestige 4 with score 67 — 1-tier promotion applied, already TIER 2 so no change"
+    },
+    "history": {
+      "summary": "Founded in 1968, Kobberløpet is named after the copper mining heritage of Sulitjelma, a former mining town nestled in the mountains of Nordland above the Arctic Circle. The race traverses the route between Sulitjelma and the coastal town of Fauske, a journey that miners and their families would have made on skis for generations. Now part of the Ski Classics Challengers series, Kobberløpet attracts both elite long-distance racers and citizen skiers seeking an authentic Arctic mountain experience.",
+      "notable_facts": [
+        "Named after copper (kobber) — Sulitjelma was a major copper mining center from 1891 to 1991",
+        "Part of the Ski Classics Challengers series",
+        "Above the Arctic Circle — one of the northernmost races in the Ski Classics network",
+        "Sulitjelma mines operated for exactly 100 years before closing in 1991",
+        "April timing offers up to 16 hours of daylight above the Arctic Circle",
+        "The point-to-point route from mountains to coast mirrors historic travel routes",
+        "Founded in 1968 — approaching 60 years of continuous racing"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

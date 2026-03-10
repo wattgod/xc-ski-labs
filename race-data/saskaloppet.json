@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Saskaloppet",
+    "slug": "saskaloppet",
+    "display_name": "Saskaloppet",
+    "tagline": "Fifty-five kilometers through Saskatchewan's boreal shield — where the cold is absolute, the forest endless, and the snow guaranteed.",
+    "vitals": {
+      "distance_km": 55,
+      "distance_options": ["55km classic", "55km freestyle", "30km", "15km"],
+      "elevation_m": 150,
+      "altitude_m": 380,
+      "location": "La Ronge",
+      "location_badge": "Saskatchewan, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Saskatchewan",
+      "date": "March",
+      "date_specific": "2026: March 7",
+      "discipline": "both",
+      "field_size": "~200",
+      "founded": 2002,
+      "registration": "Open registration",
+      "prize_purse": "Cash prizes for top finishers",
+      "aid_stations": "Multiple aid stations with warm drinks and food",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.saskaloppet.ca",
+      "lat": 55.1001,
+      "lng": -105.2842
+    },
+    "climate": {
+      "primary": "Northern prairie boreal winter",
+      "description": "La Ronge at 55°N latitude delivers some of the coldest marathon ski conditions in the world. March temperatures range from -25°C to -5°C. The boreal shield location guarantees deep, dry, cold snow. Wind is less of a factor than pure cold — trees provide shelter but temperatures are relentless.",
+      "typical_temp_c": "-25 to -5",
+      "challenges": [
+        "Extreme cold — La Ronge is one of the coldest places in southern Canada",
+        "Dry, cold snow requires specialized hard wax or zero grip",
+        "Remote location limits emergency access on course",
+        "Long drive from nearest major city (Saskatoon, 5+ hours)"
+      ]
+    },
+    "course": {
+      "primary": "Flat to gently rolling course through boreal forest near La Ronge. The terrain follows northern Saskatchewan's shield landscape — dense spruce forest, frozen lake crossings, and minimal elevation change. Distance, not climbing, is the challenge.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through boreal spruce forest and frozen lake terrain",
+      "technical_rating": 2,
+      "grooming": "Groomed by local volunteers — good quality given the remote location",
+      "features": [
+        "Northern boreal forest setting at 55°N latitude",
+        "Some of the coldest, most reliable snow conditions for any marathon ski",
+        "Cash prizes — rare for a race this size",
+        "Frozen lake crossings add unique character",
+        "Remote wilderness atmosphere — true backcountry skiing feel",
+        "Both classic and freestyle offered"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 46,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Guaranteed snow at 55°N latitude is the headline. Flat terrain, tiny field, and extreme remoteness limit the scores. Cash prizes and the adventure factor attract a niche audience. The snow reliability score is perfect.",
+      "tier_note": "TIER 3 — a remote northern adventure with unbeatable snow reliability"
+    },
+    "history": {
+      "summary": "Founded around 2002, the Saskaloppet brings marathon ski racing to northern Saskatchewan's boreal shield. La Ronge — a small town at 55°N latitude — is an unlikely host for a ski marathon, but its guaranteed cold, deep snow, and vast boreal forest provide ideal conditions. The event offers cash prizes, a rarity among small-field marathons, and has become a destination for skiers seeking authentic northern wilderness skiing.",
+      "notable_facts": [
+        "One of the northernmost marathon ski races in Canada",
+        "La Ronge is located on the Canadian Shield, surrounded by boreal forest and lakes",
+        "Cash prizes attract competitive skiers despite the small field",
+        "Snow conditions are virtually guaranteed — La Ronge averages 6+ months of snow cover",
+        "The nearest major city, Saskatoon, is over 5 hours' drive south",
+        "Course may include frozen lake crossings depending on conditions"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

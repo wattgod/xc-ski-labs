@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Cascade Crest",
+    "slug": "cascade-crest",
+    "display_name": "Cascade Crest",
+    "tagline": "Fifty kilometers through the high Cascades of Oregon — a spring ski marathon at the foot of Mt Bachelor where the season ends on a summit note.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 700,
+      "altitude_m": 1920,
+      "location": "Mt Bachelor",
+      "location_badge": "Oregon, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Oregon",
+      "date": "April",
+      "date_specific": "2026: April 4",
+      "discipline": "both",
+      "field_size": "~300 starters",
+      "founded": 2010,
+      "registration": "Online registration",
+      "prize_purse": "None",
+      "aid_stations": "3 stations with water, sports drink, food",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.mbsef.org",
+      "lat": 43.9792,
+      "lng": -121.6886
+    },
+    "climate": {
+      "primary": "High Cascades spring conditions",
+      "description": "A late-season race at nearly 2,000 meters altitude. April brings longer days and strong sun, but the high elevation maintains snow quality. Temperatures range from -5°C to 10°C. Corn snow and spring crust are common, with mornings firm and afternoons soft.",
+      "typical_temp_c": "-2 to 8",
+      "challenges": [
+        "Strong spring sun causes rapid snow softening by midday",
+        "UV exposure at nearly 2,000m requires sunscreen and eye protection",
+        "Klister wax conditions common in warm years",
+        "Morning crust can be icy and fast on descents",
+        "Altitude effects for lowland skiers"
+      ]
+    },
+    "course": {
+      "primary": "Loops through the Mt Bachelor Nordic trail system and surrounding volcanic terrain. The high Cascades landscape features volcanic ridges, old-growth forest, and views of the Central Oregon peaks. Technical descents through forested sections test handling skills.",
+      "format": "loop",
+      "surface": "Machine-groomed trails on volcanic terrain, some sections through open meadows above treeline",
+      "technical_rating": 3,
+      "grooming": "Good grooming maintained by Mt Bachelor Nordic Center, though spring conditions can be variable",
+      "features": [
+        "High-altitude course on the flanks of Mt Bachelor (2,764m)",
+        "Views of Broken Top, South Sister, and the Central Oregon Cascades",
+        "Spring skiing with long daylight hours",
+        "Volcanic terrain creates unique rolling topography",
+        "One of the latest-season Nordic marathons in the US"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "High-altitude volcanic terrain provides a unique setting. Spring timing means variable snow but dramatic scenery. Small but dedicated field. Accessible from Bend, Oregon.",
+      "tier_note": "Score 59 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded around 2010, the Cascade Crest ski marathon takes advantage of the deep snowpack and late-season conditions at Mt Bachelor in central Oregon. The race grew out of the region's vibrant Nordic community centered around Bend, Oregon. Mt Bachelor's Nordic center, operated by the Mt Bachelor Sports Education Foundation, provides the trail infrastructure. The event celebrates the end of the ski season with a spring marathon through one of the most scenic volcanic landscapes in the American West.",
+      "notable_facts": [
+        "One of the latest-season Nordic marathons in the United States",
+        "Mt Bachelor receives an average of 460 inches (11.7 meters) of snow annually",
+        "The volcanic terrain of the Central Oregon Cascades creates unique course topography",
+        "Bend, Oregon is one of the fastest-growing Nordic skiing communities in the US",
+        "The race often coincides with the final weeks of the Mt Bachelor Nordic season"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

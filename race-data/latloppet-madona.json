@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "LatLoppet Madona",
+    "slug": "latloppet-madona",
+    "display_name": "LatLoppet Madona",
+    "tagline": "Thirty-two kilometers through Latvia's winter capital — a Ski Classics Challenger rising fast in the Vidzeme uplands, where Baltic grit meets Nordic tradition.",
+    "vitals": {
+      "distance_km": 32,
+      "distance_options": [
+        "32km",
+        "16km",
+        "5km"
+      ],
+      "elevation_m": 380,
+      "altitude_m": 200,
+      "location": "Madona",
+      "location_badge": "Vidzeme, Latvia",
+      "country": "Latvia",
+      "country_code": "LV",
+      "region": "Vidzeme",
+      "date": "Late February to early March",
+      "date_specific": "2026: March 1",
+      "discipline": "classic",
+      "field_size": "~1,200 starters",
+      "founded": 2018,
+      "registration": "Online registration via Ski Classics platform",
+      "prize_purse": "Prize money for Ski Classics Challengers category",
+      "aid_stations": "3 stations with sports drink, water, snacks",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.latloppet.lv",
+      "lat": 56.8535,
+      "lng": 26.2176
+    },
+    "climate": {
+      "primary": "Baltic continental winter",
+      "description": "Madona sits in the Vidzeme uplands, the hilliest region of Latvia, earning its reputation as the 'winter capital.' The continental influence from the east delivers cold, stable winters. Temperatures range from -15°C to -3°C in February-March. Snow cover is generally reliable but can be threatened by Atlantic warming events.",
+      "typical_temp_c": "-12 to -3",
+      "challenges": [
+        "Atlantic warming events can threaten snow cover in mild winters",
+        "Wind exposure on open upland sections",
+        "Variable Baltic weather — conditions can change rapidly",
+        "Cold continental air from Russia can bring extreme temperatures"
+      ]
+    },
+    "course": {
+      "primary": "Rolling terrain through the Vidzeme uplands around Madona. Latvia's hilliest region provides more elevation change than the country's generally flat geography would suggest. The course traverses mixed forest and open farmland, with punchy climbs and fast descents that reward strong technique.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through upland forest and meadow terrain",
+      "technical_rating": 3,
+      "grooming": "Good grooming standard, meeting Ski Classics Challengers requirements",
+      "features": [
+        "Ski Classics Challengers series event",
+        "Set in the Vidzeme uplands — Latvia's hilliest terrain",
+        "Madona is known as the 'winter capital of Latvia'",
+        "Punchy, rolling terrain with frequent transitions",
+        "Growing international field through Ski Classics connection",
+        "Classic technique format"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "A young but ambitious race boosted by its Ski Classics Challengers membership. The series affiliation brings international credibility and a competitive pro field. Latvia's winter capital designation is well-earned. Still building history and field size.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 2018, LatLoppet Madona is Latvia's bid to establish a major Nordic ski marathon. Held in Madona, a town in the Vidzeme uplands region that bills itself as the 'winter capital of Latvia,' the race benefits from the area's reliable snow and relatively hilly terrain. The race gained significant credibility by joining the Ski Classics Challengers series, which brings professional skiers and international attention. Though young, the event has grown quickly, drawing over 1,200 participants and establishing Latvia as a player in the European long-distance skiing calendar.",
+      "notable_facts": [
+        "Part of the Ski Classics Challengers series — the pathway to full Ski Classics events",
+        "Madona is known as the 'winter capital of Latvia' for its reliable snow",
+        "The Vidzeme uplands are Latvia's hilliest region — unusual for this generally flat country",
+        "Latvia has a growing Nordic skiing culture, with strong participation in Baltic championships",
+        "Founded in 2018, making it one of the youngest Ski Classics-affiliated events"
+      ]
+    },
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

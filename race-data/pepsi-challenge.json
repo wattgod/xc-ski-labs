@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Pepsi Challenge",
+    "slug": "pepsi-challenge",
+    "display_name": "Pepsi Challenge",
+    "tagline": "50 kilometers on a World Cup venue in Minnesota's Iron Range — where the sport's fastest surfaces meet the Midwest's deepest competitive field.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km freestyle", "25km"],
+      "elevation_m": 600,
+      "altitude_m": 490,
+      "location": "Biwabik, Minnesota",
+      "location_badge": "Minnesota, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Minnesota",
+      "date": "Late February or early March",
+      "date_specific": "2026: February 28",
+      "discipline": "both",
+      "field_size": "~500-800",
+      "founded": 1987,
+      "registration": "Opens in fall; does not typically sell out",
+      "prize_purse": null,
+      "aid_stations": "Aid stations with warm drinks, energy food, and wax support",
+      "cutoff_time": null,
+      "website": "https://www.giantsridge.com",
+      "lat": 47.5327,
+      "lng": -92.3337
+    },
+    "climate": {
+      "primary": "Northern Minnesota continental winter",
+      "description": "Late February on the Iron Range delivers consistent cold and reliable snow. Temperatures range from -15°C to -2°C. The area's inland location and northern latitude provide excellent snow preservation. Wind exposure varies by course section.",
+      "typical_temp_c": "-15 to -2",
+      "challenges": [
+        "Iron Range cold snaps can push temps well below -20°C",
+        "Exposed ridgeline sections with wind chill",
+        "Variable wax conditions through the day as temps shift",
+        "Altitude is modest but hilly terrain is relentless"
+      ]
+    },
+    "course": {
+      "primary": "Multi-loop course at Giants Ridge Recreation Area, a former World Cup venue. The terrain is demanding with constant rolling hills, punchy climbs, and fast technical descents through mixed forest. World Cup-standard grooming on purpose-built trails.",
+      "format": "loop",
+      "surface": "Machine-groomed World Cup-standard trails with classic tracks and skating lanes",
+      "technical_rating": 4,
+      "grooming": "World Cup venue grooming standards — among the best trail surfaces in North America",
+      "features": [
+        "Giants Ridge hosted FIS World Cup events",
+        "Relentless rolling terrain with no flat recovery sections",
+        "Both classic and freestyle distances offered",
+        "Technical descents require strong downhill skills",
+        "Iron Range mining country setting with boreal forest"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 64,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 4,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "The World Cup venue pedigree elevates this event above typical regional races. Elite-level grooming and a technically demanding course attract a serious competitive field. Remote location limits accessibility.",
+      "tier_note": "Score 64 places in TIER 2 (>=60)"
+    },
+    "history": {
+      "summary": "The Pepsi Challenge has been a fixture of Minnesota Nordic racing since 1987, leveraging the world-class trail infrastructure at Giants Ridge. The venue's FIS World Cup hosting credentials give the race a pedigree unmatched by most citizen races in North America. Set in the Iron Range — the historic mining region of northern Minnesota — the race draws a deep competitive field from the Midwest's vibrant Nordic community.",
+      "notable_facts": [
+        "Giants Ridge hosted FIS Cross-Country World Cup events",
+        "Set in Minnesota's Iron Range, the historic mining heartland",
+        "One of the few American citizen races on a World Cup venue",
+        "Offers both classic and freestyle 50km options",
+        "Part of the American Ski Marathon Series"
+      ]
+    },
+    "series_membership": ["asm"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

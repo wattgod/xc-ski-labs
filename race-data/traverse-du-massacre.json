@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Traversée du Massacre",
+    "slug": "traverse-du-massacre",
+    "display_name": "Traversée du Massacre",
+    "tagline": "Forty-two kilometers through the Forest of Massacre — half a century of skate racing through the Jura's darkest woods, where the name promises exactly what the legs deliver.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km"],
+      "elevation_m": 700,
+      "altitude_m": 1200,
+      "location": "Prémanon",
+      "location_badge": "Jura, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Bourgogne-Franche-Comté",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~1,500 starters",
+      "founded": 1975,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with French provisions",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 46.4667,
+      "lng": 6.0333
+    },
+    "climate": {
+      "primary": "Jura mountain winter",
+      "description": "March in the Jura Mountains brings variable conditions. The 1200m altitude provides good snow depth, but the Jura's position between continental and Atlantic influences creates unpredictable weather. Typically -5°C to 5°C. Late-season warmth can affect snow conditions at lower elevations.",
+      "typical_temp_c": "-5 to 5",
+      "challenges": [
+        "March warmth can soften snow on south-facing slopes",
+        "Jura weather is influenced by both Atlantic and continental systems",
+        "Forest sections can be icy in shade while open areas are soft",
+        "Variable conditions require versatile wax and technique"
+      ]
+    },
+    "course": {
+      "primary": "A 42km skate race through the Forêt du Massacre (Forest of Massacre) in the French Jura. The course traverses dense conifer forest and open ridge lines at around 1200m altitude, with meaningful climbs and technical descents. The forest takes its name from historical events and creates a dramatic, atmospheric course. Technical terrain through the forest rewards confident downhill skating and strong climbing.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed skate lanes through Jura mountain terrain",
+      "technical_rating": 4,
+      "grooming": "Good French standard, well-maintained Jura trails",
+      "features": [
+        "Traverses the dramatic Forêt du Massacre",
+        "Approximately 50th edition — deep racing history",
+        "Jura Mountains — France's cross-country skiing heartland",
+        "Technical forest descents and ridge-line skiing",
+        "Near the Swiss border — views toward Lake Geneva and Mont Blanc",
+        "Prémanon is a FIS Nordic venue"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Strong prestige score for ~50 years of history. Technical course through the atmospheric Forest of Massacre earns high technicality marks. Good community and organization for a well-established French event. Snow reliability is the main concern — the Jura sits at the edge of reliable snow cover.",
+      "tier_note": "Prestige 4 earns 1-tier promotion: base score 69 = TIER 2, promoted to TIER 2 (already at promotion ceiling, cannot enter TIER 1)"
+    },
+    "history": {
+      "summary": "Founded in 1975, the Traversée du Massacre is approaching its 50th edition, making it one of France's oldest and most storied ski marathons. The race crosses the Forêt du Massacre, a dense Jura forest whose name dates to a 16th-century military ambush. Based in Prémanon in the French Jura — a region that has produced many of France's top Nordic skiers — the race is a pillar of French cross-country skiing culture. The Jura Mountains remain France's heartland for Nordic skiing.",
+      "notable_facts": [
+        "Approaching 50th edition — one of France's oldest ski marathons",
+        "The Forêt du Massacre is named after a 1535 military ambush",
+        "Prémanon is a major French Nordic skiing centre",
+        "The Jura has produced many of France's Olympic cross-country skiers",
+        "Course sits near the Swiss border at ~1200m altitude",
+        "Part of the Marathon Ski Tour series",
+        "The Jura is France's cross-country skiing heartland"
+      ]
+    },
+    "series_membership": ["marathon_ski_tour"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

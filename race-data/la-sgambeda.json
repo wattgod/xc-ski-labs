@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "La Sgambeda",
+    "slug": "la-sgambeda",
+    "display_name": "La Sgambeda",
+    "tagline": "Thirty kilometers at 1,800 meters in the December thin air of Livigno — the season opener where the Ski Classics world shakes off the rust on Italy's highest-altitude racing stage.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 1800,
+      "location": "Livigno",
+      "location_badge": "Lombardy, Italy",
+      "country": "Italy",
+      "country_code": "IT",
+      "region": "Lombardy",
+      "date": "December",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~500",
+      "founded": 1990,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the high-altitude course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 46.538,
+      "lng": 10.1357
+    },
+    "climate": {
+      "primary": "High-altitude Alpine winter",
+      "description": "December at 1,800m altitude in Livigno — one of the coldest valleys in the Alps. Reliable early-season snow thanks to extreme altitude. Temperatures typically -15°C to -5°C. The enclosed valley traps cold air, making Livigno consistently one of the coldest inhabited places in the Alps.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Racing at 1,800m altitude — reduced oxygen demands acclimatization",
+        "December cold in one of the Alps' coldest valleys",
+        "Early-season fitness — first race of the year for many",
+        "Altitude effects compound the physical demands of freestyle technique"
+      ]
+    },
+    "course": {
+      "primary": "Freestyle course in the Livigno valley at 1,800m altitude, making it one of the highest-altitude major ski marathons in Europe. The course follows trails in and around the duty-free resort town. Livigno's flat valley floor provides fast skating terrain with minimal technical difficulty, but the altitude is the defining challenge.",
+      "format": "loop",
+      "surface": "Machine-groomed freestyle tracks at high altitude",
+      "technical_rating": 2,
+      "grooming": "Excellent — Livigno invests heavily in early-season grooming, Ski Classics Challengers standard",
+      "features": [
+        "1,800m altitude — one of the highest ski marathons in Europe",
+        "Season opener for the Ski Classics circuit",
+        "Livigno — duty-free Alpine resort with excellent infrastructure",
+        "Guaranteed early-season snow thanks to extreme altitude",
+        "Italian hospitality in a world-class resort setting"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 4,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "Maximum altitude and scenery scores — 1,800m in an Alpine setting. Top-tier snow reliability at this altitude in December. Strong international draw as Ski Classics season opener. Competitive depth elevated by pro-circuit presence. Shorter 30km distance limits the distance score.",
+      "tier_note": "Score 69 >= 60 qualifies for TIER 2. Prestige 3 — no override."
+    },
+    "history": {
+      "summary": "Founded around 1990, La Sgambeda is a 30km freestyle race in Livigno, Italy, at 1,800m altitude. It serves as the traditional season opener for the Ski Classics Challengers series, held in December when few other European venues can guarantee snow. Livigno's extreme altitude and cold valley climate make it one of the earliest reliable snow venues in Europe. The name 'La Sgambeda' is Lombard dialect meaning roughly 'the leg-stretcher.'",
+      "notable_facts": [
+        "Season opener for the Ski Classics circuit — first distance race of the winter",
+        "1,800m altitude makes it one of Europe's highest ski marathons",
+        "Livigno is a duty-free zone — unique in the European Alps",
+        "'Sgambeda' means 'leg-stretcher' in Lombard dialect",
+        "Livigno was chosen as a venue for the 2026 Milan-Cortina Winter Olympics (biathlon/XC)",
+        "Part of the Ski Classics Challengers series"
+      ]
+    },
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

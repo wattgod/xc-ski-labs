@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "7-Mila",
+    "slug": "7-mila",
+    "display_name": "7-Mila",
+    "tagline": "Seven Swedish miles through the forests of Västerbotten — a 76km odyssey in the deep north where daylight is still a luxury in March.",
+    "vitals": {
+      "distance_km": 76,
+      "distance_options": ["76km"],
+      "elevation_m": 600,
+      "altitude_m": 200,
+      "location": "Robertsfors",
+      "location_badge": "Västerbotten, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Västerbotten",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~600 starters",
+      "founded": 1980,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with warm drinks and energy food",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 64.1904,
+      "lng": 20.8416
+    },
+    "climate": {
+      "primary": "Northern Swedish winter",
+      "description": "March in Västerbotten is still deep winter. At 64°N, temperatures remain well below freezing with reliable snow. Typically -15°C to -5°C. The northern latitude ensures excellent snow conditions well into spring, though daylight is increasing by March.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Extreme cold in northern Sweden in March",
+        "76km distance demands careful energy management in cold conditions",
+        "Remote location with limited shelter along the course",
+        "Variable light conditions at northern latitude"
+      ]
+    },
+    "course": {
+      "primary": "A 76km point-to-point race through the forests and rolling terrain of Västerbotten in northern Sweden. The name '7-Mila' refers to seven Swedish miles (one Swedish mile = 10km). The course winds through classic Norrland landscapes — dense boreal forest, frozen lakes, and quiet inland terrain. Predominantly flat to gently rolling, favoring endurance over technical skill.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through boreal forest terrain",
+      "technical_rating": 2,
+      "grooming": "Good standard, maintained by local ski club",
+      "features": [
+        "76km distance — seven Swedish miles",
+        "Classic Norrland boreal forest scenery",
+        "Remote northern Swedish wilderness",
+        "Frozen lake crossings",
+        "One of the longest races in northern Sweden"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 2,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum distance and snow scores. The remote Västerbotten location severely limits accessibility and international draw. A genuine endurance test but primarily a regional event with limited infrastructure.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded around 1980, 7-Mila is a 76km classic race in Robertsfors, Västerbotten, in northern Sweden. The name refers to seven Swedish miles (each Swedish mile being 10 kilometers). The race traverses the boreal forests of Norrland and has become a cherished event for the region's dedicated skiing community. While it lacks the international profile of the major Swedish races, it offers an authentic northern wilderness experience.",
+      "notable_facts": [
+        "Name means 'Seven Miles' — referring to seven Swedish miles (1 mil = 10km)",
+        "Set in Västerbotten, one of Sweden's northernmost provinces",
+        "Traverses classic Norrland boreal forest landscape",
+        "Founded around 1980, over 45 years of history",
+        "One of Sweden's longest races outside the Vasaloppet",
+        "Attracts dedicated endurance skiers from across northern Sweden"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

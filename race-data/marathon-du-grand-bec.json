@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Marathon du Grand Bec",
+    "slug": "marathon-du-grand-bec",
+    "display_name": "Marathon du Grand Bec",
+    "tagline": "Forty-two kilometers beneath the Grand Bec summit — a Vanoise Alps skate marathon where glaciated peaks tower over every stride through Champagny's high valley.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km"],
+      "elevation_m": 800,
+      "altitude_m": 1450,
+      "location": "Champagny-en-Vanoise",
+      "location_badge": "Vanoise, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Auvergne-Rhône-Alpes",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~800 starters",
+      "founded": 1985,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with French alpine provisions",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 45.4500,
+      "lng": 6.7167
+    },
+    "climate": {
+      "primary": "High Alpine winter",
+      "description": "February at 1450m in the Vanoise Alps brings reliable cold and deep snow. The high valley location provides excellent snow security. Typically -10°C to -1°C. Protected from the worst winds by surrounding peaks but cold air pools in the valley, especially in early morning.",
+      "typical_temp_c": "-10 to -1",
+      "challenges": [
+        "Cold valley air pooling in early morning starts",
+        "High altitude demands acclimatization for lowland skiers",
+        "Alpine weather can change rapidly",
+        "Steep valley terrain can channel winds"
+      ]
+    },
+    "course": {
+      "primary": "A 42km skate marathon through the Champagny-en-Vanoise valley at 1450m in the Vanoise Alps. The course sits beneath the Grand Bec (3398m), offering dramatic high-alpine scenery throughout. The terrain follows the valley floor with climbs into side valleys, providing a mix of flat fast sections and grinding ascents. The Vanoise setting — France's first national park — creates an atmosphere of wild alpine grandeur.",
+      "format": "loop",
+      "surface": "Machine-groomed skate lanes through high alpine valley",
+      "technical_rating": 3,
+      "grooming": "Good French standard with reliable snow base at altitude",
+      "features": [
+        "Beneath the Grand Bec summit (3398m)",
+        "Set in the Vanoise Alps — France's first national park",
+        "1450m altitude ensures excellent snow conditions",
+        "Marathon Ski Tour series event",
+        "Champagny-en-Vanoise is part of the La Plagne ski area",
+        "Views of glaciated peaks throughout the course"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Maximum scenery and snow reliability scores — high-altitude Vanoise setting with views of glaciated 3000m+ peaks. Strong altitude score at 1450m. Good organization as a Marathon Ski Tour event. Field size limits competitive depth, but the alpine setting makes this one of France's most scenic ski marathons.",
+      "tier_note": "Score 67 places in TIER 2"
+    },
+    "history": {
+      "summary": "Founded around 1985, the Marathon du Grand Bec is a 42km skate marathon set in Champagny-en-Vanoise in the heart of the Vanoise Alps. Named after the Grand Bec peak (3398m) that dominates the skyline, the race takes place in France's first national park. Part of the Marathon Ski Tour series, it has become one of the most scenic ski marathons in the French Alps. Champagny-en-Vanoise is also connected to the La Plagne ski area, providing excellent infrastructure for a relatively small mountain village.",
+      "notable_facts": [
+        "Named after the Grand Bec summit — 3398m, the valley's dominant peak",
+        "Set in the Vanoise National Park — France's first, established 1963",
+        "Part of the Marathon Ski Tour series",
+        "Champagny-en-Vanoise connects to the La Plagne alpine ski area",
+        "Over 35 years of racing history",
+        "One of the highest-altitude ski marathons in the French Alps"
+      ]
+    },
+    "series_membership": ["marathon_ski_tour"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

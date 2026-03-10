@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Ski to the Sun",
+    "slug": "ski-to-the-sun",
+    "display_name": "Ski to the Sun",
+    "tagline": "Forty-two kilometers through the Methow Valley's 200-kilometer trail network — North America's Nordic paradise, finishing at Sun Mountain Lodge.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 550,
+      "altitude_m": 750,
+      "location": "Methow Valley",
+      "location_badge": "Washington, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Washington",
+      "date": "Late February",
+      "date_specific": "2026: February 28",
+      "discipline": "both",
+      "field_size": "~400 starters",
+      "founded": 2019,
+      "registration": "Online registration, sells out quickly",
+      "prize_purse": "None",
+      "aid_stations": "3-4 stations with water, sports drink, snacks",
+      "cutoff_time": "8 hours",
+      "website": "https://www.methowtrails.org",
+      "lat": 48.52,
+      "lng": -120.19
+    },
+    "climate": {
+      "primary": "Pacific Northwest mountain winter",
+      "description": "The Methow Valley sits in the rain shadow of the Cascades, receiving reliable dry snowfall. Race day temperatures typically range from -10°C to 0°C. Blue skies are common, but Arctic outflow events can bring extreme cold.",
+      "typical_temp_c": "-8 to 0",
+      "challenges": [
+        "Possible Arctic outflow creating bitter cold and wind",
+        "Afternoon sun softening trails at lower elevations",
+        "Variable wax conditions across elevation changes",
+        "Remote valley location complicates logistics if weather turns"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the Methow Valley trail system, traversing forest, meadow, and river valley terrain. Finishes with a climb up to Sun Mountain Lodge at 3,000 feet with panoramic views of the North Cascades.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails on North America's largest cross-country ski trail network",
+      "technical_rating": 3,
+      "grooming": "Excellent grooming standard, both classic and skate lanes maintained by Methow Trails",
+      "features": [
+        "Point-to-point finish at Sun Mountain Lodge with panoramic views",
+        "Traverses multiple connected trail systems",
+        "North America's largest groomed trail network (200+ km)",
+        "Final climb to Sun Mountain Lodge is a signature challenge",
+        "Post-race celebration at the lodge"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "World-class grooming on North America's largest trail network. Young race with small but passionate field. Remote location limits accessibility but rewards with stunning North Cascades scenery.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 2019, Ski to the Sun is a relatively new race that leverages the Methow Valley's extraordinary trail infrastructure. The Methow Trails system, maintained by a dedicated nonprofit, is the largest groomed cross-country ski trail network in North America with over 200 kilometers of trails. The race quickly gained a cult following, selling out annually as word spread about the spectacular point-to-point course finishing at the iconic Sun Mountain Lodge.",
+      "notable_facts": [
+        "The Methow Valley has over 200 km of groomed trails — the largest network in North America",
+        "Sells out every year despite the race's youth",
+        "Sun Mountain Lodge finish provides one of the most scenic race endings in Nordic skiing",
+        "The Methow Trails nonprofit maintains the entire network through community support",
+        "The valley sits in the Cascade rain shadow, creating reliable cold, dry snow"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

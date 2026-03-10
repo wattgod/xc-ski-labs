@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Seeley Hills Classic",
+    "slug": "seeley-hills-classic",
+    "display_name": "Seeley Hills Classic",
+    "tagline": "42 kilometers of classic-only skiing on the legendary Birkie Trail — the Midwest's premier test of traditional technique through the Northwoods.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km"],
+      "elevation_m": 450,
+      "altitude_m": 430,
+      "location": "Seeley, Wisconsin",
+      "location_badge": "Wisconsin, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Wisconsin",
+      "date": "Late January",
+      "date_specific": "2026: January 17",
+      "discipline": "classic",
+      "field_size": "~600",
+      "founded": 1992,
+      "registration": "Opens in fall; rarely sells out",
+      "prize_purse": null,
+      "aid_stations": "Multiple aid stations with warm drinks and snacks along the Birkie Trail",
+      "cutoff_time": null,
+      "website": "https://www.seeleyhillsclassic.com",
+      "lat": 46.1158,
+      "lng": -91.0995
+    },
+    "climate": {
+      "primary": "Upper Midwest continental winter",
+      "description": "Late January in northern Wisconsin brings reliably cold conditions. Temperatures typically range from -20°C to -5°C. Arctic air masses can push conditions well below -20°C. The forested trail provides some wind protection but exposed sections can be bitter.",
+      "typical_temp_c": "-20 to -5",
+      "challenges": [
+        "Extreme cold possible with Arctic air outbreaks",
+        "Wax selection critical in sub-zero temperatures",
+        "Short daylight hours for slower skiers",
+        "Wind chill on exposed sections of the Birkie Trail"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point on the American Birkebeiner Trail from Cable to Seeley. Rolling terrain through dense Northwoods forest with steady climbs and fast descents. The same legendary trail used for the Birkie, but in the classic-only format that rewards pure technique.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks on the American Birkebeiner Trail",
+      "technical_rating": 3,
+      "grooming": "Excellent grooming by the Birkebeiner Trail crew, classic tracks set with skating lane",
+      "features": [
+        "Uses the iconic American Birkebeiner Trail",
+        "Classic-only format — no skating allowed",
+        "Rolling Northwoods terrain with forested corridors",
+        "Second-largest annual classic event on the Birkie Trail",
+        "Early-season classic racing before the February Birkie"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "A strong regional classic event benefiting from the world-class Birkie Trail infrastructure. The classic-only format gives it a distinctive character, but field size and international draw keep it in Tier 3.",
+      "tier_note": "Score 57 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "Founded in 1992 as a classic-technique-only event on the American Birkebeiner Trail, the Seeley Hills Classic has grown into the second-largest annual classic ski race on the trail. It fills a niche for skiers who prefer the traditional stride over skating, offering a pure classic experience on some of the best-groomed trails in North America. The event serves as an early-season test before the February Birkie.",
+      "notable_facts": [
+        "Second-largest classic event on the Birkebeiner Trail after the Birkie itself",
+        "Classic-only format attracts technique purists from across the Midwest",
+        "Uses the same trail infrastructure as the American Birkebeiner",
+        "Early-season timing makes it a key fitness benchmark for Birkie racers",
+        "Seeley is a tiny Northwoods community that comes alive for skiing each winter"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

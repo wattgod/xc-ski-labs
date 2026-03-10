@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Vasaloppet Japan",
+    "slug": "vasaloppet-japan",
+    "display_name": "Vasaloppet Japan",
+    "tagline": "Forty-five kilometers of Hokkaido powder — Japan's tribute to the Swedish original, three laps through the snow country where Siberian winds meet volcanic terrain.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": ["45km", "25km"],
+      "elevation_m": 450,
+      "altitude_m": 250,
+      "location": "Asahikawa",
+      "location_badge": "Hokkaido, Japan",
+      "country": "Japan",
+      "country_code": "JP",
+      "region": "Hokkaido",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~2,000 starters",
+      "founded": 1981,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with Japanese refreshments and energy food",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 43.7707,
+      "lng": 142.3650
+    },
+    "climate": {
+      "primary": "Hokkaido winter — heavy snowfall region",
+      "description": "March in Asahikawa still delivers full winter conditions. Hokkaido is one of the snowiest inhabited regions on Earth, with cold Siberian air masses picking up moisture over the Sea of Japan. Typically -10°C to -2°C. Deep, reliable snow but sometimes heavy snowfall during the race.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Heavy snowfall possible during the race",
+        "Hokkaido's deep powder can affect grooming quality",
+        "Cold Siberian winds across open sections",
+        "Long travel distance for most international participants"
+      ]
+    },
+    "course": {
+      "primary": "A 45km skate race on a 15km loop course completed three times in Asahikawa, Hokkaido. The course winds through Hokkaido's snow-covered forests and open terrain. Named after the Swedish Vasaloppet, the Japanese edition adapts the long-distance skiing tradition to Hokkaido's extraordinary snow conditions. The loop format provides spectator-friendly racing with multiple pass-throughs of the start/finish area.",
+      "format": "loop",
+      "surface": "Machine-groomed skate course through Hokkaido terrain",
+      "technical_rating": 2,
+      "grooming": "Good standard, maintained with Japanese precision despite heavy snow",
+      "features": [
+        "Named after the original Swedish Vasaloppet",
+        "15km loop completed three times",
+        "Set in Asahikawa — one of Japan's coldest cities",
+        "Hokkaido's legendary snow conditions",
+        "Loop format allows multiple spectator viewing points",
+        "Over 40 years of history since 1981"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Maximum snow reliability — Hokkaido is one of the snowiest places on Earth. Strong community and organization scores reflecting Japanese event culture. Over 40 years of history gives solid prestige. The Vasaloppet name provides international recognition, though the course itself is relatively modest.",
+      "tier_note": "Score 64 places in TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1981, Vasaloppet Japan brought the Scandinavian long-distance skiing tradition to Hokkaido. Named with permission from the original Swedish Vasaloppet, the race established itself in Asahikawa, one of Japan's coldest and snowiest cities. The event has grown over four decades to attract around 2,000 participants and serves as Japan's premier cross-country ski marathon. Hokkaido's extraordinary snow reliability — fed by Siberian air masses crossing the Sea of Japan — makes it one of the most snow-sure races in the world.",
+      "notable_facts": [
+        "Named after the Swedish Vasaloppet with official blessing",
+        "Founded in 1981 — over 40 years of history",
+        "Asahikawa regularly records Japan's coldest temperatures",
+        "Hokkaido receives some of the heaviest snowfall on Earth",
+        "Japan's premier cross-country ski marathon event",
+        "15km loop format inspired by Japanese running culture"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

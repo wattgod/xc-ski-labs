@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "North American Vasa",
+    "slug": "north-american-vasa",
+    "display_name": "North American Vasa",
+    "tagline": "Fifty kilometers through Michigan's frozen north woods — where the American Midwest meets Scandinavian grit.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km freestyle", "27km", "12km"],
+      "elevation_m": 450,
+      "altitude_m": 300,
+      "location": "Traverse City",
+      "location_badge": "Michigan, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Michigan",
+      "date": "February",
+      "date_specific": "2026: February 7",
+      "discipline": "both",
+      "field_size": "~1,000",
+      "founded": 1977,
+      "registration": "Open registration, fills in advance",
+      "prize_purse": "None",
+      "aid_stations": "Multiple stations with warm drinks and snacks",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.vfrr.org",
+      "lat": 44.7631,
+      "lng": -85.6206
+    },
+    "climate": {
+      "primary": "Great Lakes continental winter",
+      "description": "February in northern Michigan delivers reliable cold with lake-effect snowfall. Temperatures typically range from -15°C to -3°C. Lake Michigan's proximity moderates extremes but feeds heavy snowfall. Wind chill on open sections can be severe.",
+      "typical_temp_c": "-12 to -3",
+      "challenges": [
+        "Lake-effect snow can dump fresh powder overnight, softening trails",
+        "Wind chill on exposed meadow sections",
+        "Temperature swings from shaded forest to sun-exposed clearings",
+        "Wax selection complicated by variable snow conditions"
+      ]
+    },
+    "course": {
+      "primary": "Rolling loops through Pere Marquette State Forest on groomed trails. Mixed terrain with wooded singletrack, open meadows, and gentle climbs. Classic and freestyle courses share the same trail network.",
+      "format": "loop",
+      "surface": "Machine-groomed forest trails through hardwood and pine forest",
+      "technical_rating": 2,
+      "grooming": "Well-groomed by VASA trail crew, double-tracked classic with skate lane",
+      "features": [
+        "Pere Marquette State Forest setting",
+        "VASA Pathway trail system — Michigan's premier Nordic network",
+        "Rolling terrain with no sustained steep climbs",
+        "Post-race celebration at Grand Traverse Resort",
+        "Both classic and freestyle events on same weekend"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "A well-organized Midwest marathon with strong community spirit. Good grooming and organization elevate it above its modest elevation and altitude scores.",
+      "tier_note": "Solid TIER 3 — a staple of the American marathon ski calendar"
+    },
+    "history": {
+      "summary": "Founded in 1977, the North American Vasa takes its name from the Swedish Vasaloppet, paying homage to Michigan's Scandinavian heritage. The race traverses the VASA Pathway in Pere Marquette State Forest outside Traverse City. Over nearly five decades it has become the Midwest's signature marathon ski event, drawing a passionate community of Nordic skiers from across the Great Lakes region.",
+      "notable_facts": [
+        "Named after the Swedish Vasaloppet, reflecting Michigan's Nordic roots",
+        "Uses the VASA Pathway, one of the finest groomed trail systems in the Midwest",
+        "Traverse City's cherry country provides an unexpected backdrop for Nordic skiing",
+        "Has run continuously since 1977 with rare weather cancellations",
+        "Offers both classic and freestyle events on the same weekend"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

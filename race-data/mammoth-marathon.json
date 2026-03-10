@@ -1,0 +1,98 @@
+{
+  "race": {
+    "name": "Mammoth Marathon",
+    "slug": "mammoth-marathon",
+    "display_name": "Mammoth Marathon",
+    "tagline": "Forty-two kilometers at 8,000 feet in the Eastern Sierra — the highest-altitude Nordic marathon in America, where thin air meets deep snow.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km",
+        "10km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 2440,
+      "location": "Mammoth Lakes",
+      "location_badge": "California, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "California",
+      "date": "February",
+      "date_specific": "2026: February 21",
+      "discipline": "both",
+      "field_size": "~250 starters",
+      "founded": 1978,
+      "registration": "Online registration",
+      "prize_purse": "None",
+      "aid_stations": "3-4 stations with water, sports drink, snacks",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.mammothnordic.com",
+      "lat": 37.6485,
+      "lng": -118.9721
+    },
+    "climate": {
+      "primary": "High Sierra alpine winter",
+      "description": "At 2,440 meters, Mammoth sits in one of the snowiest locations in California. The Eastern Sierra receives both Pacific storms and cold continental air. Race day temperatures range from -15°C to 0°C. Intense high-altitude sun and thin air are defining features.",
+      "typical_temp_c": "-12 to -2",
+      "challenges": [
+        "Significant altitude at 2,440m — acclimatization matters",
+        "Intense UV exposure at high elevation",
+        "Thin air reduces performance 10-15% for lowland skiers",
+        "Pacific storms can bring heavy snowfall during race week",
+        "Temperature inversions can create extreme cold in valley bottom"
+      ]
+    },
+    "course": {
+      "primary": "Loops through the Tamarack Cross Country Ski Center trails and surrounding Sierra terrain. The course winds through lodgepole pine forest and open meadows with views of the Sherwin Range, Mammoth Mountain, and the eastern escarpment of the Sierra Nevada.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through Sierra forest and meadow terrain",
+      "technical_rating": 3,
+      "grooming": "Good grooming by Tamarack Cross Country Ski Center, well-maintained classic and skate tracks",
+      "features": [
+        "Highest-altitude Nordic marathon in the United States (2,440m / 8,000ft)",
+        "Stunning Eastern Sierra backdrop — Sherwin Range and Mammoth Mountain",
+        "Reliable deep snowpack from Sierra storms",
+        "One of the oldest Nordic marathons in the American West",
+        "Combined with other winter events during Mammoth winter season"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "The highest-altitude Nordic marathon in the US, with near-guaranteed snow and spectacular Sierra scenery. Nearly 50 years of history gives it gravitas, though field size remains modest. Altitude is both a feature and a challenge.",
+      "tier_note": "Score 61 places in TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1978, the Mammoth Marathon is one of the oldest Nordic ski marathons in the American West. It grew out of the Mammoth Lakes cross-country skiing community, which has thrived due to the area's legendary snowfall — the Eastern Sierra routinely receives over 10 meters of snow annually. The race has persisted for nearly five decades despite the challenges of organizing a high-altitude winter event, becoming a fixture of the California Nordic scene.",
+      "notable_facts": [
+        "Founded in 1978 — one of the oldest Nordic marathons in the western US",
+        "At 2,440m, it is the highest-altitude Nordic marathon in America",
+        "Mammoth Lakes receives an average of 10+ meters of snowfall annually",
+        "The Eastern Sierra has been a training ground for US Ski Team members",
+        "The Tamarack Cross Country Ski Center has operated since the 1970s"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

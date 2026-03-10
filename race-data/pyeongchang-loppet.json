@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "PyeongChang Loppet",
+    "slug": "pyeongchang-loppet",
+    "display_name": "PyeongChang Loppet",
+    "tagline": "Ten kilometers on Olympic snow — the 2018 Winter Games venue opens its doors for Asia's newest Ski Classics challenger on the Alpensia tracks.",
+    "vitals": {
+      "distance_km": 10,
+      "distance_options": ["10km"],
+      "elevation_m": 150,
+      "altitude_m": 750,
+      "location": "Alpensia Cross-Country Centre, PyeongChang",
+      "location_badge": "PyeongChang, South Korea",
+      "country": "South Korea",
+      "country_code": "KR",
+      "region": "Gangwon Province",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~500 starters",
+      "founded": 2026,
+      "registration": "Online registration via Ski Classics platform",
+      "prize_purse": null,
+      "aid_stations": "Aid station at midpoint",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 37.6501,
+      "lng": 128.6806
+    },
+    "climate": {
+      "primary": "East Asian continental mountain winter",
+      "description": "February in PyeongChang brings cold, dry conditions influenced by Siberian air masses. The Taebaek Mountains receive reliable snowfall, supplemented by snowmaking infrastructure built for the 2018 Olympics. Typically -15°C to -5°C. Cold but generally sunny with low humidity.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Extreme cold from Siberian high-pressure systems",
+        "Low humidity can affect breathing and hydration",
+        "Wind exposure on the open Alpensia plateau",
+        "Jet lag for European and American participants"
+      ]
+    },
+    "course": {
+      "primary": "A 10km skate race on the Alpensia Cross-Country Centre tracks that hosted the 2018 PyeongChang Winter Olympics. The course uses the Olympic venue's world-class infrastructure, including the stadium, timing systems, and groomed tracks. While short in distance, the Olympic pedigree and Asian location make this a unique proposition in the long-distance skiing calendar.",
+      "format": "loop",
+      "surface": "Olympic-standard groomed skate course with snowmaking backup",
+      "technical_rating": 3,
+      "grooming": "Olympic-standard venue grooming with snowmaking infrastructure",
+      "features": [
+        "Raced on the 2018 Winter Olympics cross-country venue",
+        "Alpensia Cross-Country Centre — Olympic stadium finish",
+        "Ski Classics Challengers event",
+        "Asia's first major international loppet",
+        "World-class timing and infrastructure",
+        "Mountain setting in the Taebaek range"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 1,
+      "elevation": 1,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 5,
+      "competitive_depth": 2,
+      "score_note": "Maximum grooming and organization scores — Olympic venue with world-class infrastructure. The 10km distance severely limits distance and elevation scores. Brand new event (2026) with no prestige track record yet. Strong international draw as Asia's first major loppet, but unproven field depth.",
+      "tier_note": "Score 56 places in TIER 3"
+    },
+    "history": {
+      "summary": "Launched in 2026 as a brand-new addition to the Ski Classics Challengers series, the PyeongChang Loppet brings international long-distance skiing to Asia for the first time. The race uses the Alpensia Cross-Country Centre, purpose-built for the 2018 PyeongChang Winter Olympics. While the 10km distance is modest by loppet standards, the Olympic venue and Ski Classics affiliation signal ambitions to grow. South Korea's investment in winter sports infrastructure following the Olympics provides a strong foundation.",
+      "notable_facts": [
+        "Brand new event, inaugural edition in 2026",
+        "Uses the 2018 PyeongChang Winter Olympics cross-country venue",
+        "Asia's first Ski Classics affiliated event",
+        "Alpensia Cross-Country Centre has Olympic-standard snowmaking",
+        "PyeongChang also hosted the 2018 Olympic biathlon and ski jumping",
+        "South Korea has invested heavily in winter sports since the 2018 Games"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

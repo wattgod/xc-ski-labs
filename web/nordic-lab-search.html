@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nordic Lab — XC Ski Race Database</title>
+<meta name="description" content="Search 300+ cross-country ski races worldwide. Classic and skate. Scored, ranked, and searchable.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Literata:opsz,wght@7..72,400;7..72,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --nl-primary: #2c3e50;
+  --nl-secondary: #5d6d7e;
+  --nl-accent-1: #2980b9;
+  --nl-accent-2: #5dade2;
+  --nl-highlight-1: #d4ac0d;
+  --nl-highlight-2: #f7dc6f;
+  --nl-muted: #b0bec5;
+  --nl-cream: #cfd8dc;
+  --nl-paper: #ecf0f1;
+  --nl-tier-1: #1a252f;
+  --nl-tier-2: #4a6274;
+  --nl-tier-3: #607d8b;
+  --nl-tier-4: #78909c;
+  --nl-text-primary: #1a252f;
+  --nl-text-secondary: #4a6274;
+  --nl-text-muted: #78909c;
+  --nl-text-on-dark: #ecf0f1;
+  --nl-border: #1a252f;
+  --nl-border-width: 2px;
+  --nl-font-data: 'Sometype Mono', monospace;
+  --nl-font-editorial: 'Literata', serif;
+  --nl-font-ui: 'Inter', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--nl-font-ui);
+  background: var(--nl-paper);
+  color: var(--nl-text-primary);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Header */
+header {
+  background: var(--nl-primary);
+  color: var(--nl-text-on-dark);
+  padding: 32px 0;
+  border-bottom: 3px solid var(--nl-border);
+}
+
+header h1 {
+  font-family: var(--nl-font-data);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+header .subtitle {
+  font-family: var(--nl-font-editorial);
+  font-size: 1.1rem;
+  color: var(--nl-muted);
+  margin-top: 4px;
+}
+
+.stats-bar {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  font-family: var(--nl-font-data);
+  font-size: 0.8rem;
+  color: var(--nl-accent-2);
+}
+
+.stats-bar span { white-space: nowrap; }
+
+/* Controls */
+.controls {
+  padding: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px 14px;
+  font-family: var(--nl-font-data);
+  font-size: 0.9rem;
+  border: var(--nl-border-width) solid var(--nl-border);
+  background: #fff;
+  outline: none;
+  border-radius: 0;
+}
+
+.search-box:focus { border-color: var(--nl-accent-1); }
+
+.filter-btn {
+  padding: 8px 16px;
+  font-family: var(--nl-font-data);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: var(--nl-border-width) solid var(--nl-border);
+  background: #fff;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background 0.1s;
+}
+
+.filter-btn:hover { background: var(--nl-cream); }
+.filter-btn.active { background: var(--nl-primary); color: var(--nl-text-on-dark); }
+
+select.filter-select {
+  padding: 8px 12px;
+  font-family: var(--nl-font-data);
+  font-size: 0.8rem;
+  border: var(--nl-border-width) solid var(--nl-border);
+  background: #fff;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+/* Results */
+.results-info {
+  font-family: var(--nl-font-data);
+  font-size: 0.8rem;
+  color: var(--nl-text-muted);
+  padding: 8px 0;
+  border-bottom: 1px solid var(--nl-muted);
+  margin-bottom: 16px;
+}
+
+.race-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+  padding-bottom: 48px;
+}
+
+.race-card {
+  background: #fff;
+  border: var(--nl-border-width) solid var(--nl-border);
+  padding: 0;
+  transition: transform 0.1s;
+}
+
+.race-card:hover { transform: translateY(-2px); }
+
+.race-card-header {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.race-card-header h3 {
+  font-family: var(--nl-font-editorial);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.tier-badge {
+  font-family: var(--nl-font-data);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  white-space: nowrap;
+  color: var(--nl-text-on-dark);
+  border: var(--nl-border-width) solid var(--nl-border);
+}
+
+.tier-badge.t1 { background: var(--nl-tier-1); }
+.tier-badge.t2 { background: var(--nl-tier-2); }
+.tier-badge.t3 { background: var(--nl-tier-3); }
+.tier-badge.t4 { background: var(--nl-tier-4); }
+
+.race-card-body {
+  padding: 0 16px 12px;
+}
+
+.race-tagline {
+  font-family: var(--nl-font-editorial);
+  font-size: 0.85rem;
+  color: var(--nl-text-secondary);
+  font-style: italic;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.race-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+  font-family: var(--nl-font-data);
+  font-size: 0.75rem;
+}
+
+.race-meta .label {
+  color: var(--nl-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.race-meta .value {
+  color: var(--nl-text-primary);
+  font-weight: 700;
+}
+
+.race-card-footer {
+  padding: 8px 16px;
+  border-top: 1px solid var(--nl-cream);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.discipline-badge {
+  font-family: var(--nl-font-data);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: var(--nl-border-width) solid var(--nl-border);
+}
+
+.discipline-badge.classic { background: var(--nl-primary); color: var(--nl-text-on-dark); }
+.discipline-badge.skate { background: var(--nl-accent-1); color: var(--nl-text-on-dark); }
+.discipline-badge.both { background: var(--nl-highlight-1); color: var(--nl-text-primary); }
+
+.score-display {
+  font-family: var(--nl-font-data);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--nl-text-secondary);
+}
+
+.series-tags {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding: 0 16px 10px;
+}
+
+.series-tag {
+  font-family: var(--nl-font-data);
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  background: var(--nl-cream);
+  color: var(--nl-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+footer {
+  padding: 32px 0;
+  text-align: center;
+  font-family: var(--nl-font-data);
+  font-size: 0.75rem;
+  color: var(--nl-text-muted);
+  border-top: 2px solid var(--nl-border);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.4rem; }
+  .stats-bar { flex-direction: column; gap: 4px; }
+  .race-grid { grid-template-columns: 1fr; }
+  .controls { flex-direction: column; }
+  .search-box { min-width: 100%; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>NORDIC LAB</h1>
+    <div class="subtitle">XC Ski Race Database — Classic & Skate</div>
+    <div class="stats-bar">
+      <span id="stat-races">— races</span>
+      <span id="stat-countries">— countries</span>
+      <span id="stat-tiers">T1: — | T2: — | T3: — | T4: —</span>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="controls">
+    <input type="text" class="search-box" id="searchInput" placeholder="Search races, countries, regions...">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="t1">Tier 1</button>
+    <button class="filter-btn" data-filter="t2">Tier 2</button>
+    <button class="filter-btn" data-filter="t3">Tier 3</button>
+    <button class="filter-btn" data-filter="classic">Classic</button>
+    <button class="filter-btn" data-filter="skate">Skate</button>
+    <button class="filter-btn" data-filter="both">Both</button>
+    <select class="filter-select" id="countryFilter">
+      <option value="">All Countries</option>
+    </select>
+    <select class="filter-select" id="sortSelect">
+      <option value="score">Sort: Score</option>
+      <option value="name">Sort: Name</option>
+      <option value="distance">Sort: Distance</option>
+      <option value="founded">Sort: Founded</option>
+      <option value="country">Sort: Country</option>
+    </select>
+  </div>
+
+  <div class="results-info" id="resultsInfo"></div>
+  <div class="race-grid" id="raceGrid"></div>
+</main>
+
+<footer>
+  <div class="container">
+    NORDIC LAB — Built for skiers who chase start lines.
+  </div>
+</footer>
+
+<script src="nordic-lab-search.js"></script>
+</body>
+</html>

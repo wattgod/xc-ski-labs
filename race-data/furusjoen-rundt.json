@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Furusjøen Rundt",
+    "slug": "furusjoen-rundt",
+    "display_name": "Furusjøen Rundt",
+    "tagline": "Forty-five kilometers circling Furusjøen in the Rondane foothills — a February classic that doubles as your Birken qualifier and a Ski Classics Challengers test piece.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": ["45km", "22km"],
+      "elevation_m": 500,
+      "altitude_m": 900,
+      "location": "Furusjøen, Innlandet",
+      "location_badge": "Innlandet, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Innlandet",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~517",
+      "founded": null,
+      "registration": "Open registration; Birkebeinerrennet seeding race",
+      "prize_purse": null,
+      "aid_stations": "Feed stations around the lake circuit",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 61.7500,
+      "lng": 9.9000
+    },
+    "climate": {
+      "primary": "Norwegian mountain plateau winter",
+      "description": "February at 900m altitude in the Rondane foothills means deep winter. Cold, stable conditions are typical. Temperatures generally -15°C to -5°C. Snow is highly reliable at this altitude and time of year. Short daylight hours in early February.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Deep cold in February at mountain altitude",
+        "Wind exposure on open sections around the lake",
+        "Short February daylight — early start required",
+        "Mountain weather can change rapidly"
+      ]
+    },
+    "course": {
+      "primary": "Loop course circling Furusjøen lake in the foothills of the Rondane mountain range. The circuit follows classic tracks through forest and open mountain terrain, with views toward the Rondane peaks. Rolling terrain with moderate climbs as the course traces the lake's perimeter.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through mountain terrain",
+      "technical_rating": 3,
+      "grooming": "Good quality, Ski Classics Challengers standard",
+      "features": [
+        "Scenic loop around Furusjøen lake",
+        "Views toward the Rondane National Park peaks",
+        "Mix of forest and open mountain terrain",
+        "Serves as Birkebeinerrennet seeding/qualifying race",
+        "Rolling terrain with moderate climbs"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Strong snow reliability at mountain altitude. Scenic Rondane views lift the scenery score. Primary value as Birkebeinerrennet seeding race — many participants use it to qualify. Limited field size and primarily Norwegian participation.",
+      "tier_note": "Score 56 falls in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "A 45km classic race circling Furusjøen lake in Norway's Innlandet region, in the foothills of the Rondane mountain range. Part of the Ski Classics Challengers series, it also functions as a seeding race for the prestigious Birkebeinerrennet. The race attracts around 500 participants, many of whom are training and qualifying for the Birken.",
+      "notable_facts": [
+        "Functions as a Birkebeinerrennet seeding/qualifying race",
+        "Located in the foothills of Rondane, one of Norway's oldest national parks",
+        "Part of the Ski Classics Challengers series",
+        "Loop format around Furusjøen lake is unusual for Norwegian ski marathons",
+        "~517 participants reflects its role as a qualifier rather than destination race"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

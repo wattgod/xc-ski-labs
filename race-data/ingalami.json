@@ -1,0 +1,98 @@
+{
+  "race": {
+    "name": "IngaLåmi",
+    "slug": "ingalami",
+    "display_name": "IngaLåmi",
+    "tagline": "Thirty kilometers in the tracks of Queen Inga — Norway's largest women-only ski race, a celebration of strength, solidarity, and Scandinavian winter from Birkebeineren Ski Stadium.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 400,
+      "altitude_m": 500,
+      "location": "Lillehammer",
+      "location_badge": "Innlandet, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Innlandet",
+      "date": "Late February to early March",
+      "date_specific": "2026: February 28",
+      "discipline": "classic",
+      "field_size": "~5,000 starters",
+      "founded": 2006,
+      "registration": "Online registration, capacity controlled",
+      "prize_purse": "None",
+      "aid_stations": "3-4 stations with sports drink, fruit, warm beverages",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.ingalami.no",
+      "lat": 61.1153,
+      "lng": 10.4663
+    },
+    "climate": {
+      "primary": "Scandinavian inland winter",
+      "description": "Lillehammer has one of the most reliable winter climates in Norway. The inland location delivers cold, dry conditions with consistent snow cover from November through April. Race day temperatures typically range from -15°C to -2°C.",
+      "typical_temp_c": "-12 to -2",
+      "challenges": [
+        "Cold inland temperatures can drop below -20°C",
+        "Wax selection critical in variable Scandinavian conditions",
+        "Wind exposure on open sections near Lillehammer",
+        "Firm, fast tracks in extreme cold demand strong technique"
+      ]
+    },
+    "course": {
+      "primary": "Classic-technique course starting from the legendary Birkebeineren Ski Stadium in Lillehammer, traversing the forested hills of Innlandet. The terrain is rolling with some meaningful climbs, winding through Norway's quintessential birch and pine forest landscape.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through Norwegian forest and hill terrain",
+      "technical_rating": 3,
+      "grooming": "World-class Norwegian standard — the same infrastructure that supports Birkebeinerrennet",
+      "features": [
+        "Norway's largest women-only ski race",
+        "Named after medieval Queen Inga, mother of King Håkon",
+        "Starts from the iconic Birkebeineren Ski Stadium (1994 Olympics)",
+        "Classic-only format honors Norwegian skiing tradition",
+        "Part of the Birkebeiner festival week of events",
+        "5,000+ women skiing together — powerful community atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 71,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 5,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 5,
+      "scenery": 3,
+      "organization": 5,
+      "competitive_depth": 3,
+      "score_note": "A massive, well-organized women-only event with 5,000+ participants. World-class infrastructure inherited from Lillehammer's Olympic and Birkebeiner legacy. Exceptional community atmosphere. The historical connection to Queen Inga adds meaning.",
+      "tier_note": "Score 71 places in TIER 2"
+    },
+    "history": {
+      "summary": "IngaLåmi was founded in 2006 as Norway's answer to the growing demand for a major women-only ski event. Named after Queen Inga of Varteig, the 13th-century mother of King Håkon Håkonsson whose story is central to the Birkebeiner legend, the race honors women's role in Norwegian skiing history. Starting from the Birkebeineren Ski Stadium — the venue for the 1994 Winter Olympics biathlon and cross-country events — IngaLåmi has grown to become the largest women-only ski race in the world, with over 5,000 participants.",
+      "notable_facts": [
+        "Named after Queen Inga of Varteig, mother of the Birkebeiner prince Håkon Håkonsson",
+        "Largest women-only ski race in Norway and one of the largest in the world",
+        "Uses the same world-class infrastructure as the Birkebeinerrennet",
+        "Birkebeineren Ski Stadium hosted the 1994 Lillehammer Winter Olympics",
+        "The race has grown from a few hundred to over 5,000 participants in under 20 years",
+        "Part of the Birkebeiner festival week alongside the main Birkebeinerrennet"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

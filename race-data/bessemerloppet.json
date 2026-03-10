@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Bessemerloppet",
+    "slug": "bessemerloppet",
+    "display_name": "Bessemerloppet",
+    "tagline": "Fifty-two kilometers from the historic Högbo ironworks through the Gästrikland forests — a Swedish classic born in the steel country where industry and wilderness share the same frozen trails.",
+    "vitals": {
+      "distance_km": 52,
+      "distance_options": ["52km", "26km"],
+      "elevation_m": 400,
+      "altitude_m": 200,
+      "location": "Högbo Bruk, Sandviken",
+      "location_badge": "Gävleborg, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Gävleborg",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~800",
+      "founded": 1960,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the forest route",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 60.6188,
+      "lng": 16.7783
+    },
+    "climate": {
+      "primary": "Central Swedish winter",
+      "description": "February in Gästrikland means solid winter with reliable cold. The inland location provides consistent conditions. Temperatures typically -12°C to -4°C. At relatively low altitude the course depends on latitude for snow reliability, which is generally good.",
+      "typical_temp_c": "-12 to -4",
+      "challenges": [
+        "Low altitude means snow quality depends on sustained cold",
+        "Forest trails can be icy in shaded sections",
+        "Flat-to-rolling terrain demands high aerobic output",
+        "February cold requires careful nutrition and hydration management"
+      ]
+    },
+    "course": {
+      "primary": "Starting from the historic Högbo Bruk ironworks in Sandviken, the course loops through the forests of Gästrikland. Rolling terrain through mixed pine and birch forest with moderate elevation changes. The landscape is classic central Swedish countryside — forests, frozen lakes, and small clearings.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through forest terrain",
+      "technical_rating": 2,
+      "grooming": "Good quality, Ski Classics Challengers standard",
+      "features": [
+        "Start at historic Högbo Bruk — 17th-century ironworks",
+        "Classic Swedish forest skiing through Gästrikland",
+        "Named after the Bessemer steel process — industrial heritage",
+        "Rolling terrain through pine and birch forest",
+        "65+ years of racing tradition"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Solid 65-year heritage lifts prestige. Good distance at 52km. The industrial heritage connection (Bessemer steel) is unique among ski marathons. Limited by low altitude, modest scenery compared to mountain races, and primarily Swedish participation.",
+      "tier_note": "Score 53 falls in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "Founded in 1960 at Högbo Bruk, a historic ironworks in Sandviken, Sweden. Named after the Bessemer steel-making process that once made Sandviken a center of Swedish industry. The 52km classic race through the Gästrikland forests has over 65 years of history. Part of the Ski Classics Challengers series, it connects Sweden's industrial heritage with its skiing traditions.",
+      "notable_facts": [
+        "Named after the Bessemer process — Sandviken was a major steel-producing center",
+        "Högbo Bruk dates to the 17th century — one of Sweden's oldest ironworks",
+        "Founded in 1960, over 65 years of continuous history",
+        "Sandviken is home to the Sandvik industrial corporation",
+        "Part of the Ski Classics Challengers series",
+        "One of Gästrikland's defining sporting events"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

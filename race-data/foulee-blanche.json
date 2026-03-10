@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Foulée Blanche",
+    "slug": "foulee-blanche",
+    "display_name": "Foulée Blanche",
+    "tagline": "Forty-two freestyle kilometers across the Vercors plateau — France's largest Nordic race through alpine meadows and limestone canyons.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km freestyle",
+        "22km",
+        "10km"
+      ],
+      "elevation_m": 550,
+      "altitude_m": 1050,
+      "location": "Autrans-Méaudre en Vercors",
+      "location_badge": "Vercors, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Auvergne-Rhône-Alpes",
+      "date": "Late January",
+      "date_specific": "2026: January 25",
+      "discipline": "skate",
+      "field_size": "~2,000",
+      "founded": 1979,
+      "registration": "Open registration, capped field",
+      "prize_purse": "Prizes for top finishers",
+      "aid_stations": "Multiple ravitaillements with warm drinks and local specialties",
+      "cutoff_time": "Official cutoff applies",
+      "website": "https://www.fouleeblanche.com",
+      "lat": 45.1756,
+      "lng": 5.5447
+    },
+    "climate": {
+      "primary": "Pre-Alpine plateau winter",
+      "description": "The Vercors plateau at 1,050m elevation delivers cold, snowy winters sheltered by surrounding limestone cliffs. January temperatures range from -10°C to 3°C. Snow coverage is generally reliable thanks to altitude and north-facing aspects, though the southern Alpine location can bring occasional warm spells.",
+      "typical_temp_c": "-10 to 3",
+      "challenges": [
+        "Vercors wind exposure on open plateau sections",
+        "Occasional warm Mediterranean influence can soften snow",
+        "Altitude variation creates different snow conditions across the course",
+        "January date means short daylight hours"
+      ]
+    },
+    "course": {
+      "primary": "Freestyle course traversing the Vercors plateau around Autrans. The route crosses high alpine meadows, forest tracks, and limestone terrain typical of the Vercors massif. Rolling terrain with moderate climbing and panoramic views of the surrounding Alps.",
+      "format": "loop",
+      "surface": "Machine-groomed plateau trails through alpine meadow and forest",
+      "technical_rating": 3,
+      "grooming": "Professional French federation standard — well-groomed and maintained",
+      "features": [
+        "France's largest cross-country ski marathon",
+        "Vercors plateau — a limestone massif with dramatic cliff scenery",
+        "Autrans hosted the 1968 Grenoble Olympics Nordic events",
+        "Views of Mont Blanc and the Chartreuse range on clear days",
+        "French ravitaillement culture — aid station food is exceptional",
+        "Part of the French long-distance Nordic calendar"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 4,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "France's flagship Nordic marathon with stunning Vercors scenery and strong field size. Olympic heritage (1968 Grenoble) adds prestige. The French ravitaillement tradition makes aid stations memorable. Snow reliability is the weak point in this southern Alpine location.",
+      "tier_note": "TIER 2 — France's premier citizen ski marathon with Olympic heritage"
+    },
+    "history": {
+      "summary": "Founded in 1979, La Foulée Blanche is France's largest and most prestigious cross-country ski marathon. The race is held in Autrans on the Vercors plateau, which hosted the Nordic skiing events of the 1968 Grenoble Winter Olympics. The event has grown to attract approximately 2,000 participants, making it the premier event on the French citizen ski racing calendar. The Vercors — a dramatic limestone massif — provides a uniquely scenic setting among European marathon ski races.",
+      "notable_facts": [
+        "France's largest cross-country ski marathon",
+        "Autrans hosted Nordic events at the 1968 Grenoble Winter Olympics",
+        "The Vercors massif is a UNESCO Global Geopark",
+        "WWII Resistance history — the Vercors was a major maquis stronghold",
+        "The name 'Foulée Blanche' translates to 'White Stride'",
+        "French aid station culture means exceptional food at ravitaillements"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

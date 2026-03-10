@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Tour of Anchorage",
+    "slug": "tour-of-anchorage",
+    "display_name": "Tour of Anchorage",
+    "tagline": "Fifty kilometers from mountains to sea — a point-to-point urban odyssey through Alaska's wild heart.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km freestyle", "40km", "25km"],
+      "elevation_m": 600,
+      "altitude_m": 150,
+      "location": "Anchorage",
+      "location_badge": "Alaska, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Alaska",
+      "date": "First Sunday in March",
+      "date_specific": "2026: March 1",
+      "discipline": "both",
+      "field_size": "~1,500",
+      "founded": 1988,
+      "registration": "Open registration",
+      "prize_purse": "Cash prizes for top finishers",
+      "aid_stations": "5-6 aid stations with warm drinks, food, and emergency gear",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.tourofanchorage.com",
+      "lat": 61.2181,
+      "lng": -149.9003
+    },
+    "climate": {
+      "primary": "Subarctic coastal winter",
+      "description": "March in Anchorage brings lengthening daylight but persistent cold. Temperatures range from -15°C to 0°C. The Chugach Mountains create variable conditions — sheltered valleys versus exposed coastal trail. Chinook winds can cause rapid temperature swings.",
+      "typical_temp_c": "-12 to 0",
+      "challenges": [
+        "Subarctic wind chill on exposed coastal trail sections",
+        "Highly variable snow conditions — packed trail to fresh powder",
+        "Moose encounters on urban wilderness trail sections (seriously)",
+        "Chinook winds can warm temperatures rapidly, affecting wax"
+      ]
+    },
+    "course": {
+      "primary": "Urban point-to-point traversing Anchorage from Service High School to Kincaid Park. The course threads through city greenbelts, boreal forest, and coastal trail with views of Cook Inlet and the Alaska Range. Rolling terrain with moderate climbing.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed municipal trails through forest and urban greenbelts",
+      "technical_rating": 3,
+      "grooming": "Groomed by Anchorage Nordic Ski Club — excellent standard given terrain variety",
+      "features": [
+        "Point-to-point through Alaska's largest city",
+        "Cook Inlet coastal trail with views of Denali on clear days",
+        "Passage through boreal forest and urban wilderness",
+        "Finish at Kincaid Park — a World Cup-caliber Nordic venue",
+        "Possible moose sightings on course",
+        "Both classic and freestyle on the same day"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 63,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Alaska's premier citizen ski marathon. The unique point-to-point urban format, coastal scenery, and strong community atmosphere set it apart. Reliable snow and solid organization from the Anchorage Nordic community.",
+      "tier_note": "TIER 2 — Alaska's flagship marathon ski race with a one-of-a-kind urban-wilderness format"
+    },
+    "history": {
+      "summary": "Founded in 1988, the Tour of Anchorage is Alaska's premier Nordic ski marathon. The point-to-point format takes skiers across the city of Anchorage, threading through urban greenbelts, boreal forest, and the Tony Knowles Coastal Trail with views of Cook Inlet and the Alaska Range. Anchorage's deeply rooted Nordic ski culture — with over 250km of groomed trails — provides the infrastructure for one of North America's most unique marathon ski experiences.",
+      "notable_facts": [
+        "One of the few urban point-to-point marathon ski races in the world",
+        "Anchorage has over 250km of groomed Nordic trails within city limits",
+        "Kincaid Park has hosted World Cup cross-country skiing events",
+        "Moose on course are a genuine hazard — officials monitor known crossings",
+        "On clear days, Denali (6,190m) is visible from the coastal trail",
+        "Anchorage is the only major US city where Nordic skiing is a mainstream sport"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

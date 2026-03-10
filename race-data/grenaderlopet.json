@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Grenaderløpet",
+    "slug": "grenaderlopet",
+    "display_name": "Grenaderløpet",
+    "tagline": "Ninety grueling kilometers through the Buskerud wilderness — Norway's longest single-day classic and a proving ground for Birkebeiner hopefuls.",
+    "vitals": {
+      "distance_km": 90,
+      "distance_options": ["90km"],
+      "elevation_m": 900,
+      "altitude_m": 700,
+      "location": "Buskerud",
+      "location_badge": "Buskerud, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Buskerud",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~1,500 starters",
+      "founded": 1975,
+      "registration": "Online registration; early entry recommended",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations with warm drinks and energy food",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 59.9500,
+      "lng": 9.8000
+    },
+    "climate": {
+      "primary": "Inland Norwegian winter",
+      "description": "February in Buskerud brings reliable cold and good snow. Interior Norway provides consistently sub-zero temperatures with limited wind exposure in forested sections. Typically -15°C to -5°C. Inland location ensures stable snow conditions throughout the race.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Extended exposure over 90km demands careful fueling and wax planning",
+        "Inland cold can be severe in February, especially early morning start",
+        "Variable snow conditions across the long course distance",
+        "Short daylight hours in Norwegian February"
+      ]
+    },
+    "course": {
+      "primary": "One of Norway's longest single-day cross-country races at 90km through the Buskerud wilderness. The course traverses rolling forested terrain with sustained climbs and descents, serving as a key seeding race for Birkebeinerrennet. Demanding course that tests endurance and classic technique over nearly marathon-and-a-half distance.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through forested and open terrain",
+      "technical_rating": 3,
+      "grooming": "Norwegian standard, well-maintained tracks across the full distance",
+      "features": [
+        "90km makes it one of Norway's longest single-day ski races",
+        "Official Birkebeiner seeding race",
+        "Traverses remote Buskerud wilderness",
+        "Mix of dense forest and open plateaus",
+        "Tests endurance and wax selection over extreme distance"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 4,
+      "altitude": 2,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Maximum distance score for 90km. Excellent snow reliability for inland Norway. Limited international draw and field size keep it from top tier, but the sheer distance and Birken seeding status give it strong domestic credibility.",
+      "tier_note": "Score 69 places in TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1975, Grenaderløpet is one of Norway's longest single-day classic ski races at 90km through the Buskerud region. The race serves as an official seeding event for Birkebeinerrennet, making it a key early-season target for Norwegian long-distance skiers. The name references the Grenadier military tradition of the region. The race has built a loyal following among Norwegian endurance skiers seeking the ultimate single-day test.",
+      "notable_facts": [
+        "At 90km, one of the longest single-day ski races in Norway",
+        "Official Birkebeiner seeding race — strong finish earns better start position",
+        "Name references the Grenadier military tradition of the Buskerud region",
+        "Founded in 1975, over 50 years of history",
+        "Attracts Norway's most dedicated long-distance classic skiers",
+        "Course traverses some of Buskerud's most remote wilderness terrain"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

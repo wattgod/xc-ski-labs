@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Minnesota Finlandia",
+    "slug": "minnesota-finlandia",
+    "display_name": "Minnesota Finlandia",
+    "tagline": "50 kilometers through the frozen North Woods of Bemidji — the Nordic Festival of the North, honoring Minnesota's Finnish heritage since 1982.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km freestyle", "25km", "12km"],
+      "elevation_m": 400,
+      "altitude_m": 420,
+      "location": "Bemidji, Minnesota",
+      "location_badge": "Minnesota, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Minnesota",
+      "date": "Mid-February",
+      "date_specific": "2026: February 14",
+      "discipline": "both",
+      "field_size": "~500-800",
+      "founded": 1982,
+      "registration": "Opens in fall",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with warm drinks, soup, and Finnish-inspired food",
+      "cutoff_time": null,
+      "website": "https://www.finlandia.ski",
+      "lat": 47.4736,
+      "lng": -94.8803
+    },
+    "climate": {
+      "primary": "Northern Minnesota deep continental winter",
+      "description": "Mid-February in Bemidji is among the coldest racing environments in North America. Temperatures regularly drop below -20°C overnight and may not rise above -10°C on race day. The flat terrain around Lake Bemidji offers little wind protection. Reliable natural snow.",
+      "typical_temp_c": "-25 to -8",
+      "challenges": [
+        "Among the coldest marathon ski venues in North America",
+        "Frostbite risk is real — exposed skin freezes quickly",
+        "Kick wax selection in extreme cold is critical",
+        "Lake Bemidji winds can create severe wind chill",
+        "Equipment management in sub-zero temperatures"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the forests and trails around Bemidji. Gently rolling terrain typical of northern Minnesota with mix of forested sections and open lake-area trails. The course rewards steady effort over technical skill — classic Scandinavian-style marathon skiing.",
+      "format": "loop",
+      "surface": "Machine-groomed trails with classic tracks and skating lane",
+      "technical_rating": 2,
+      "grooming": "Good machine grooming maintained by local Nordic club",
+      "features": [
+        "Celebrates Minnesota's deep Finnish heritage",
+        "Nordic Festival of the North with cultural events",
+        "Both classic and freestyle 50km options",
+        "Original member of the American Ski Marathon Series",
+        "Near the headwaters of the Mississippi River",
+        "Paul Bunyan statue in Bemidji is a famous landmark"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 3,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "The Finnish cultural heritage and festival atmosphere elevate this beyond a typical regional marathon. Extreme cold conditions add genuine challenge. Original ASM Series membership gives it legacy status. Remote location limits accessibility.",
+      "tier_note": "Score 56 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "The Minnesota Finlandia was founded in 1982 to celebrate the deep Finnish heritage of northern Minnesota. Bemidji and the surrounding region were settled heavily by Finnish immigrants in the late 19th century, and the race honors that Nordic skiing tradition. As an original member of the American Ski Marathon Series, it helped establish citizen marathon skiing as a sport in the United States. The 'Nordic Festival of the North' branding reflects its role as both a race and a cultural celebration.",
+      "notable_facts": [
+        "Founded in 1982 to honor Minnesota's Finnish immigrant heritage",
+        "Original member of the American Ski Marathon Series",
+        "Bemidji was settled by Finnish immigrants who brought skiing traditions",
+        "Nordic Festival of the North includes cultural events beyond the race",
+        "Near the headwaters of the Mississippi River",
+        "One of the coldest marathon venues — sub-zero starts are common"
+      ]
+    },
+    "series_membership": ["asm"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "StafettVasan",
+    "slug": "stafettvasan",
+    "display_name": "StafettVasan",
+    "tagline": "Ninety kilometers, five legs, one team — the world's largest ski relay, splitting the legendary Vasaloppet course among friends from Sälen to Mora.",
+    "vitals": {
+      "distance_km": 90,
+      "distance_options": [
+        "90km relay (5 legs of ~18km each)"
+      ],
+      "elevation_m": 850,
+      "altitude_m": 350,
+      "location": "Sälen to Mora",
+      "location_badge": "Dalarna, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Dalarna",
+      "date": "Late February",
+      "date_specific": "2026: February 22",
+      "discipline": "classic",
+      "field_size": "~12,000 starters (2,400 teams of 5)",
+      "founded": 2003,
+      "registration": "Online registration, sells out rapidly — team captain registers",
+      "prize_purse": "None",
+      "aid_stations": "Full Vasaloppet checkpoint infrastructure at each exchange zone",
+      "cutoff_time": "Individual leg cutoffs enforced at exchange zones",
+      "website": "https://www.vasaloppet.se/stafettvasan",
+      "lat": 61.0067,
+      "lng": 14.5356
+    },
+    "climate": {
+      "primary": "Continental Scandinavian winter",
+      "description": "Late February conditions in Dalarna. Temperatures typically range from -15°C to 0°C. Each relay leg skier experiences different conditions as the day progresses — early legs ski in cold dawn air, later legs may face afternoon warming.",
+      "typical_temp_c": "-12 to 0",
+      "challenges": [
+        "Wax selection varies by leg — morning legs face different conditions than afternoon",
+        "Waiting at exchange zones in cold can chill muscles",
+        "Team logistics — coordinating 5 skiers and transport to exchange points",
+        "Each leg is ~18km — demanding enough to require genuine fitness"
+      ]
+    },
+    "course": {
+      "primary": "The full 90km Vasaloppet course from Sälen to Mora, divided into five relay legs of approximately 18km each. Exchange zones are located at traditional Vasaloppet checkpoints. Each leg has its own character — from the forested opening to the flat finish into Mora.",
+      "format": "relay",
+      "surface": "Machine-groomed classic tracks on the Vasaloppet course",
+      "technical_rating": 3,
+      "grooming": "World-class Vasaloppet standard — classic tracks prepared for relay format",
+      "features": [
+        "World's largest ski relay — 2,400+ teams of 5",
+        "Full Vasaloppet course split into 5 legs of ~18km",
+        "Exchange zones at historic Vasaloppet checkpoints",
+        "Classic technique — same format as the main Vasaloppet",
+        "Team format makes Vasaloppet accessible to a wider audience",
+        "Part of Vasaloppet Winter Week",
+        "Final leg anchor skier finishes on the Vasaloppet finishing straight in Mora"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 79,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 5,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 5,
+      "scenery": 4,
+      "organization": 5,
+      "competitive_depth": 2,
+      "score_note": "Massive participation (12,000+ skiers) on the iconic Vasaloppet course. World-class infrastructure and organization. The relay format creates a uniquely social experience while maintaining the prestige of skiing the full Sälen-to-Mora route. Slightly lower competitive depth due to team format.",
+      "tier_note": "Score 79 places in TIER 2. Relay format reduces individual competitive depth and international draw compared to the main Vasaloppet."
+    },
+    "history": {
+      "summary": "StafettVasan was launched in 2003 as part of the Vasaloppet organization's effort to make the legendary Sälen-to-Mora course accessible to more skiers. By splitting the 90km course into five relay legs, teams of friends, families, and colleagues can collectively experience the full Vasaloppet route without each individual needing the fitness for 90km. The concept was an immediate hit, and StafettVasan has grown to become the world's largest ski relay with over 2,400 teams and 12,000 participants annually.",
+      "notable_facts": [
+        "World's largest ski relay with 2,400+ teams and 12,000+ participants",
+        "Founded in 2003 alongside Nattvasan during Vasaloppet Winter Week expansion",
+        "Makes the Vasaloppet course accessible to skiers who cannot race the full 90km",
+        "Exchange zones at historic checkpoints — Smågan, Mångsbodarna, Risberg, Evertsberg, Oxberg",
+        "The anchor leg skier crosses the same finish line as Vasaloppet champions",
+        "Teams range from elite club squads to corporate and family groups"
+      ]
+    },
+    "series_membership": [
+      "vasaloppet_winter_week"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

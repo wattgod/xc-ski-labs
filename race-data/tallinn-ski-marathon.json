@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Tallinn Ski Marathon",
+    "slug": "tallinn-ski-marathon",
+    "display_name": "Tallinn Ski Marathon",
+    "tagline": "Thirty-eight kilometers through the Kõrvemaa Nature Reserve — Estonia's flagship ski marathon where Baltic forests and frozen bogs form the unlikely proving ground for a young nation's Nordic ambitions.",
+    "vitals": {
+      "distance_km": 38,
+      "distance_options": [
+        "38km",
+        "19km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 100,
+      "location": "Kõrvemaa Nature Reserve",
+      "location_badge": "Harju County, Estonia",
+      "country": "Estonia",
+      "country_code": "EE",
+      "region": "Harju County",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": "~1,500",
+      "founded": 1998,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations through the nature reserve",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 59.25,
+      "lng": 25.85
+    },
+    "climate": {
+      "primary": "Baltic winter",
+      "description": "February in the Estonian interior means cold continental conditions, though less extreme than Scandinavia. Temperatures typically -8°C to -2°C. Snow reliability is moderate — the Baltic climate can produce mild spells. The Kõrvemaa forest provides some shelter from coastal wind.",
+      "typical_temp_c": "-8 to -2",
+      "challenges": [
+        "Snow reliability less certain than Scandinavian venues",
+        "Baltic maritime influence can bring sudden thaws",
+        "Flat terrain — no respite from sustained tempo",
+        "Low altitude offers no backup snow guarantee"
+      ]
+    },
+    "course": {
+      "primary": "Freestyle course through the Kõrvemaa Nature Reserve, approximately 50km east of Tallinn. The terrain is classic Baltic — flat to gently rolling through pine forest and frozen bogland. Estonia's highest point is only 318m, so the course has minimal elevation change. Fast skating conditions on wide, well-prepared trails.",
+      "format": "loop",
+      "surface": "Machine-groomed freestyle tracks through forest and bogland",
+      "technical_rating": 1,
+      "grooming": "Good quality, Estoloppet series standard",
+      "features": [
+        "Kõrvemaa Nature Reserve — protected Estonian forest and bogland",
+        "Close to Tallinn — easy logistics from the capital",
+        "Fast, flat skating course through Baltic pine forest",
+        "Part of the Estoloppet series — Estonia's national ski marathon circuit",
+        "One of the Baltic states' largest ski events"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 1,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 5,
+      "community": 3,
+      "scenery": 2,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum accessibility — close to Tallinn with excellent transport links. Good field size for a Baltic event at 1,500. Flat terrain and low altitude severely limit several scores. Snow reliability is a genuine concern in the Baltic climate. The Estoloppet series membership and 25+ year history provide foundation.",
+      "tier_note": "Score 47 falls in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "Founded in 1998, the Tallinn Ski Marathon is a 38km freestyle race through the Kõrvemaa Nature Reserve east of the Estonian capital. Part of the Estoloppet series, Estonia's national ski marathon circuit. The race has grown into one of the largest ski events in the Baltic states, attracting around 1,500 participants. It reflects Estonia's strong Nordic cultural identity and growing distance skiing tradition.",
+      "notable_facts": [
+        "Founded in 1998 — among the younger races in the European ski marathon calendar",
+        "Part of the Estoloppet series — Estonia's national long-distance skiing circuit",
+        "Kõrvemaa Nature Reserve protects characteristic Estonian forest and raised bog",
+        "Estonia has one of the highest per-capita participation rates in distance skiing in the Baltics",
+        "Tallinn is a UNESCO World Heritage city — excellent cultural side-trip",
+        "One of the most accessible major ski marathons in Northern Europe"
+      ]
+    },
+    "series_membership": [
+      "estoloppet"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

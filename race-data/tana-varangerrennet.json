@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Tana–Varangerrennet",
+    "slug": "tana-varangerrennet",
+    "display_name": "Tana–Varangerrennet",
+    "tagline": "Eighty kilometers across the Finnmark tundra from Seida to Vadsø — Norway's northeasternmost marathon where the Arctic plateau stretches to the horizon and the midnight sun is still months away.",
+    "vitals": {
+      "distance_km": 80,
+      "distance_options": ["80km", "40km"],
+      "elevation_m": 600,
+      "altitude_m": 350,
+      "location": "Seida to Vadsø",
+      "location_badge": "Finnmark, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Troms og Finnmark",
+      "date": "April",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~400",
+      "founded": 1998,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations along the Arctic route",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 70.0731,
+      "lng": 27.0705
+    },
+    "climate": {
+      "primary": "Arctic tundra winter",
+      "description": "April in Finnmark means returning daylight but still deeply cold conditions. The open tundra offers no wind shelter. Temperatures typically -15°C to -5°C. Snow is highly reliable this far north and this late in the season. Wind chill is the primary concern on exposed plateau sections.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Extreme wind exposure on open Finnmark tundra",
+        "Wind chill can push effective temperature far below ambient",
+        "Arctic cold demands careful layering and skin protection",
+        "Remote course with limited bail-out options",
+        "80km distance compounds exposure risk"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point across the Finnmark plateau from the inland settlement of Seida to the coastal town of Vadsø on the Varanger fjord. Predominantly open tundra terrain with rolling hills. The course crosses one of Europe's last true wilderness areas, passing through Sámi reindeer-herding territory with vast Arctic horizons in every direction.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks across Arctic tundra and rolling terrain",
+      "technical_rating": 2,
+      "grooming": "Good quality given remote location, Ski Classics Challengers standard",
+      "features": [
+        "Open Arctic tundra — one of Europe's last great wildernesses",
+        "Finishes in Vadsø on the Varanger fjord coast",
+        "Crosses traditional Sámi reindeer-herding territory",
+        "Vast horizons and dramatic Arctic light",
+        "Norway's northeasternmost major ski marathon"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum scenery and snow reliability for Arctic tundra setting. The 80km distance is genuinely demanding. Severely limited by remote Finnmark location — accessibility is the lowest possible score. Small field reflects the logistical challenge.",
+      "tier_note": "Score 56 falls in TIER 3 range (45-59). Prestige 3 — no promotion."
+    },
+    "history": {
+      "summary": "Founded in 1998, Tana–Varangerrennet is an 80km classic marathon crossing the Finnmark plateau in Norway's far northeast. The race connects the inland Tana valley to the Varanger coast, traversing one of Europe's most remote and dramatic landscapes. Part of the Ski Classics Challengers series, it draws adventurous long-distance skiers to the Arctic tundra.",
+      "notable_facts": [
+        "One of the northernmost long-distance ski races in the world (70°N)",
+        "Crosses traditional Sámi reindeer-herding territory",
+        "Finnmark plateau is larger than Denmark but nearly uninhabited",
+        "Vadsø was historically a center for Finnish immigration (Kven people)",
+        "Part of the Ski Classics Challengers series",
+        "April race date takes advantage of Arctic spring snow and daylight"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

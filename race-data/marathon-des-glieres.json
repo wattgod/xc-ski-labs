@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Marathon des Glières",
+    "slug": "marathon-des-glieres",
+    "display_name": "Marathon des Glières",
+    "tagline": "42 kilometers across the Plateau des Glières — skiing on sacred ground where French Resistance fighters held the mountains against occupation in 1944.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km freestyle",
+        "21km"
+      ],
+      "elevation_m": 600,
+      "altitude_m": 1440,
+      "location": "Plateau des Glières, Haute-Savoie",
+      "location_badge": "Haute-Savoie, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Haute-Savoie",
+      "date": "Mid-March",
+      "date_specific": "2026: March 15",
+      "discipline": "skate",
+      "field_size": "~500-800",
+      "founded": 1991,
+      "registration": "Opens in late fall",
+      "prize_purse": null,
+      "aid_stations": "Ravitaillement stations with hot drinks, cheese, bread, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.marathondesglieres.com",
+      "lat": 45.9667,
+      "lng": 6.3167
+    },
+    "climate": {
+      "primary": "Pre-Alpine plateau winter",
+      "description": "March on the Plateau des Glières at 1,440m brings variable Alpine conditions. Temperatures range from -5°C to 5°C. The plateau's relatively high altitude and northern exposure preserve snow well into spring. Exposed plateau sections can be windy.",
+      "typical_temp_c": "-5 to 5",
+      "challenges": [
+        "Plateau exposure creates wind chill on open sections",
+        "Variable spring conditions — powder to crust possible",
+        "Altitude of 1,440m adds modest physiological stress",
+        "Access road to the plateau can be challenging in heavy snow"
+      ]
+    },
+    "course": {
+      "primary": "Loop course on the Plateau des Glières, a high Alpine plateau in the Bornes Massif of Haute-Savoie. The terrain combines open plateau skiing with forested sections. Rolling profile with several sustained climbs. The historic plateau provides dramatic views of surrounding Alpine peaks.",
+      "format": "loop",
+      "surface": "Machine-groomed trails on the Plateau des Glières Nordic domain",
+      "technical_rating": 3,
+      "grooming": "Good French Nordic resort grooming standards",
+      "features": [
+        "Plateau des Glières is a WWII Resistance memorial site",
+        "Open plateau skiing with Alpine peak panoramas",
+        "French Resistance monument on the plateau",
+        "Haute-Savoie gastronomic culture extends to aid stations",
+        "Near Annecy — one of France's most beautiful cities"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "The WWII Resistance history gives this race profound emotional weight. Stunning Alpine scenery on the plateau. Proximity to Annecy helps accessibility. Solid mid-range event with distinctive character but limited international draw.",
+      "tier_note": "Score 59 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "The Marathon des Glières, founded around 1991, takes place on one of France's most historically significant sites. The Plateau des Glières was a stronghold of the French Resistance during World War II — in March 1944, nearly 500 maquisards held the plateau against Vichy and German forces. A massive stone monument on the plateau commemorates their sacrifice. The ski marathon honors this legacy, combining sport with remembrance on the same ground where resistance fighters operated on skis.",
+      "notable_facts": [
+        "Plateau des Glières was a French Resistance stronghold in WWII",
+        "In March 1944, ~500 maquisards defended the plateau against German and Vichy forces",
+        "The National Resistance Monument stands on the plateau",
+        "Skiers literally race on the same ground where resistance fighters fought",
+        "Located in Haute-Savoie near the lakeside city of Annecy",
+        "Part of the broader French marathon ski calendar"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

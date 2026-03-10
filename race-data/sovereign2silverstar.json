@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Sovereign to Silver Star",
+    "slug": "sovereign2silverstar",
+    "display_name": "Sovereign to Silver Star",
+    "tagline": "Point to party — forty-two kilometers from Sovereign Lake to Silver Star Village through the Okanagan Highland's high-altitude forests.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km classic", "42km freestyle", "21km"],
+      "elevation_m": 600,
+      "altitude_m": 1600,
+      "location": "Vernon",
+      "location_badge": "British Columbia, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "April",
+      "date_specific": "2026: April 4",
+      "discipline": "both",
+      "field_size": "Up to 1,200",
+      "founded": 2010,
+      "registration": "Open registration, capped at 1,200",
+      "prize_purse": "None",
+      "aid_stations": "Multiple aid stations along the point-to-point route",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.sovereign2silverstar.com",
+      "lat": 50.3725,
+      "lng": -119.0616
+    },
+    "climate": {
+      "primary": "Interior BC highland spring",
+      "description": "April at 1,600m elevation in the Okanagan Highland delivers spring skiing conditions. Temperatures range from -5°C to 8°C. Snow is usually corn or spring consolidated. Bright sun and warm afternoons are the norm — sunscreen matters more than wind protection.",
+      "typical_temp_c": "-5 to 8",
+      "challenges": [
+        "Spring snow conditions — soft, slow corn snow by afternoon",
+        "Intense high-altitude UV requires serious sun protection",
+        "Course can get slushy in warm years, especially south-facing sections",
+        "Late-season snow coverage not always guaranteed for full distance"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from Sovereign Lake Nordic Centre to Silver Star Village. The route traverses high-altitude plateau terrain through subalpine forest at 1,600m. Rolling terrain with moderate climbing and a festive downhill finish into Silver Star Village.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed high-altitude trails through subalpine forest",
+      "technical_rating": 3,
+      "grooming": "Sovereign Lake and Silver Star Nordic clubs coordinate grooming — high standard",
+      "features": [
+        "Point-to-point connecting two major BC Nordic centres",
+        "High-altitude course at 1,600m — among the highest in Canada",
+        "\"Point to party\" — festive finish at Silver Star Village",
+        "Spring skiing atmosphere with sunshine and après culture",
+        "Subalpine forest and highland meadow terrain",
+        "Both classic and freestyle offered"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A fun, festive point-to-point at high altitude with a party finish. Limited prestige (founded 2010) and variable late-season snow hold it back. Strong community and scenery scores reflect the atmosphere.",
+      "tier_note": "TIER 3 — the party atmosphere and altitude make it distinctive"
+    },
+    "history": {
+      "summary": "Founded around 2010, Sovereign to Silver Star connects two of British Columbia's premier Nordic ski centres with a point-to-point marathon. The race's tagline — 'Point to party' — captures its spirit: a challenging 42km traverse through high-altitude Okanagan Highland forest followed by a rollicking finish-line celebration in Silver Star Village. The April timing makes it one of the latest-season marathon ski races in North America, embracing spring corn snow and sunshine.",
+      "notable_facts": [
+        "Connects Sovereign Lake and Silver Star — two of BC's top Nordic centres",
+        "Tagline: 'Point to party' — finish-line celebration is a major draw",
+        "At 1,600m, one of the highest-altitude marathon ski races in Canada",
+        "April timing makes it one of the last marathon ski events of the North American season",
+        "Capped at 1,200 participants for trail and logistics management",
+        "Both Nordic centres are known for exceptional natural snowfall"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

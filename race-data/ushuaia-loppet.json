@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Ushuaia Loppet",
+    "slug": "ushuaia-loppet",
+    "display_name": "Ushuaia Loppet",
+    "tagline": "Forty-two kilometers at the bottom of the world — the most southern ski race on Earth, where Tierra del Fuego's sub-Antarctic winds test every stride.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "21km"],
+      "elevation_m": 500,
+      "altitude_m": 400,
+      "location": "Ushuaia",
+      "location_badge": "Tierra del Fuego, Argentina",
+      "country": "Argentina",
+      "country_code": "AR",
+      "region": "Tierra del Fuego",
+      "date": "August",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~400 starters",
+      "founded": 1986,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": -54.8019,
+      "lng": -68.3030
+    },
+    "climate": {
+      "primary": "Sub-Antarctic maritime winter",
+      "description": "August is mid-winter in the Southern Hemisphere. Ushuaia's sub-Antarctic climate delivers cold, wet, and windy conditions. Typically -5°C to 2°C. Snow reliability can be inconsistent — Tierra del Fuego's maritime influence brings rain-snow transitions. Fierce Patagonian winds are the defining challenge.",
+      "typical_temp_c": "-5 to 2",
+      "challenges": [
+        "Fierce Patagonian winds — gusts can exceed 80 km/h",
+        "Maritime influence means rain-snow transitions possible",
+        "Limited daylight in August at 55°S latitude",
+        "Unpredictable sub-Antarctic weather systems",
+        "Remote location with limited winter infrastructure"
+      ]
+    },
+    "course": {
+      "primary": "A 42km classic race through the forests and valleys surrounding Ushuaia, the world's southernmost city. The course traverses Tierra del Fuego's distinctive sub-Antarctic landscape — lenga beech forests, frozen valleys, and mountain views with the Beagle Channel in the distance. The terrain is rolling with moderate climbs through forested sections. Wind exposure on open stretches is the defining course challenge.",
+      "format": "loop",
+      "surface": "Groomed classic tracks through sub-Antarctic terrain; conditions variable",
+      "technical_rating": 3,
+      "grooming": "Basic to moderate — limited grooming equipment in remote Patagonian location",
+      "features": [
+        "World's most southern ski race at 55°S",
+        "Sub-Antarctic lenga beech forest scenery",
+        "Views toward the Beagle Channel and Chilean islands",
+        "August race date — Southern Hemisphere winter",
+        "Tierra del Fuego's unique end-of-the-world atmosphere",
+        "Race at the literal 'End of the World'"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 50,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum scenery score for the extraordinary sub-Antarctic setting. Strong international draw as a bucket-list destination. Snow reliability is the key weakness — maritime climate at low altitude means inconsistent conditions. Worldloppet membership currently SUSPENDED. The remoteness is both the appeal and the logistical limitation.",
+      "tier_note": "Score 50 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1986, the Ushuaia Loppet holds the distinction of being the world's most southern ski race, set in Tierra del Fuego at the southern tip of Argentina. The race was a Worldloppet member, though membership is currently suspended. Racing in August during the Southern Hemisphere winter, it offers a unique counter-seasonal option for Northern Hemisphere skiers. The race traverses the sub-Antarctic landscapes around Ushuaia, a city that brands itself as 'El Fin del Mundo' — the End of the World.",
+      "notable_facts": [
+        "World's most southern ski race at approximately 55°S latitude",
+        "Founded in 1986 — 40 years of history",
+        "Worldloppet membership currently SUSPENDED",
+        "August race date allows Northern Hemisphere skiers a summer skiing option",
+        "Ushuaia is known as 'El Fin del Mundo' — the End of the World",
+        "Tierra del Fuego means 'Land of Fire' — named by Magellan in 1520"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

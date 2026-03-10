@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "White Pine Stampede",
+    "slug": "white-pine-stampede",
+    "display_name": "White Pine Stampede",
+    "tagline": "42 kilometers point-to-point through northern Michigan's frozen forests — the state's oldest and most iconic Nordic marathon since 1977.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km", "20km", "10km"],
+      "elevation_m": 350,
+      "altitude_m": 380,
+      "location": "Mancelona to Bellaire, Michigan",
+      "location_badge": "Michigan, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Michigan",
+      "date": "First Saturday in February",
+      "date_specific": "2026: February 7",
+      "discipline": "both",
+      "field_size": "~400-600",
+      "founded": 1977,
+      "registration": "Opens in fall",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course with warm drinks and food",
+      "cutoff_time": null,
+      "website": "https://www.whitepinestampede.org",
+      "lat": 44.9022,
+      "lng": -85.0614
+    },
+    "climate": {
+      "primary": "Northern Michigan lake-effect winter",
+      "description": "Early February in northern Michigan delivers cold, snowy conditions enhanced by Lake Michigan lake-effect snow. Temperatures typically range from -15°C to -3°C. The region receives abundant snowfall, though recent warm winters have occasionally threatened conditions.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "Lake-effect snow can dump heavy snow before or during the race",
+        "Sub-zero wind chills on exposed sections",
+        "Variable snow conditions from lake-effect moisture",
+        "Recent warm winters have challenged snow coverage"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from Mancelona to Bellaire through northern Michigan's forests and rolling terrain. The course follows a mix of old railroad grades and forest trails with moderate elevation changes. Classic northern hardwood forest scenery throughout.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through northern Michigan forest",
+      "technical_rating": 2,
+      "grooming": "Good machine grooming with classic tracks and skating lane",
+      "features": [
+        "Northern Michigan's oldest point-to-point Nordic marathon",
+        "Route through classic northern hardwood and pine forests",
+        "Both classic and freestyle options",
+        "Multiple distance options for different ability levels",
+        "Strong community volunteer support along the course"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "A beloved Michigan institution with nearly 50 years of history. Strong community character and the point-to-point format give it appeal, but moderate terrain, low altitude, and limited international draw keep it mid-Tier 3.",
+      "tier_note": "Score 51 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "The White Pine Stampede has been northern Michigan's premier Nordic ski marathon since 1977. As the state's oldest point-to-point XC race, it holds a special place in the Midwest skiing community. The race takes its name from the white pine forests that once dominated northern Michigan before the logging era. For nearly five decades, it has drawn skiers to the quiet beauty of Michigan's northern Lower Peninsula.",
+      "notable_facts": [
+        "Northern Michigan's oldest point-to-point Nordic marathon since 1977",
+        "Named for the white pine forests of northern Michigan's logging heritage",
+        "Point-to-point format from Mancelona to Bellaire",
+        "Strong volunteer tradition — local community organizes the entire event",
+        "Offers both classic and freestyle in multiple distances",
+        "Part of the Michigan Cup racing series"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

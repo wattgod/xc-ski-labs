@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Thorleif Haugs Minneløp",
+    "slug": "thorleif-haugs-minnelop",
+    "display_name": "Thorleif Haugs Minneløp",
+    "tagline": "Fifty kilometers through the Finnemarka forests honoring the man who won three gold medals at the first Winter Olympics — where Norway's skiing heritage runs deepest.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km", "30km"],
+      "elevation_m": 700,
+      "altitude_m": 500,
+      "location": "Finnemarka",
+      "location_badge": "Buskerud, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Viken",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~700",
+      "founded": 1966,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations through the Finnemarka forest circuit",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 59.8500,
+      "lng": 10.0500
+    },
+    "climate": {
+      "primary": "Southern Norwegian forest winter",
+      "description": "February in the Finnemarka forests west of Oslo. At moderate altitude, conditions are typically cold but less extreme than mountain races. Temperatures -10°C to -2°C. Snow reliability is generally good but proximity to the milder Oslo-region climate means occasional thaw risk.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Snow reliability less certain than mountain venues",
+        "Forest terrain can be icy in shaded sections",
+        "Hilly course demands technical classic skiing",
+        "February thaw risk in warmer years"
+      ]
+    },
+    "course": {
+      "primary": "Forest circuit through the Finnemarka wilderness area west of Drammen. Rolling, hilly terrain through dense Norwegian forest. The course features genuine elevation changes with climbs and technical descents on classic tracks. Named after Thorleif Haug, who dominated the 1924 Chamonix Olympics.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through hilly forest terrain",
+      "technical_rating": 4,
+      "grooming": "Good quality, Ski Classics Challengers standard",
+      "features": [
+        "Hilly Finnemarka forest — genuine elevation challenges",
+        "Named for Norway's first Winter Olympic triple gold medalist",
+        "Technical descents on classic tracks through forest",
+        "Accessible from Oslo/Drammen — one of the closest marathons to the capital",
+        "60+ years of continuous racing history"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 2,
+      "course_technicality": 4,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 4,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Prestige boosted by 60-year history honoring Thorleif Haug — one of skiing's most iconic figures. Technical forest course rewards skilled classic skiers. Good accessibility from Oslo region. Snow reliability is the primary weakness.",
+      "tier_note": "Score 61 >= 60 qualifies for TIER 2. Prestige 4 — already T2, cannot promote into T1."
+    },
+    "history": {
+      "summary": "Founded in 1966 to honor Thorleif Haug (1894–1934), who won three gold medals in cross-country skiing and Nordic combined at the inaugural 1924 Winter Olympics in Chamonix. The 50km classic race through the Finnemarka forests near his home region has become one of Norway's most respected memorial ski marathons. Part of the Ski Classics Challengers series.",
+      "notable_facts": [
+        "Honors Thorleif Haug — triple gold medalist at the 1924 Chamonix Olympics",
+        "Haug won the 18km, 50km, and Nordic combined at the first Winter Games",
+        "Founded in 1966, over 60 years of continuous history",
+        "Finnemarka is a popular wilderness area for Oslo-region skiers",
+        "Part of the Ski Classics Challengers series",
+        "One of the most technically demanding forest courses in Norway"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

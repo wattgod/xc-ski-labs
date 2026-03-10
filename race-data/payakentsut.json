@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Payakentsut",
+    "slug": "payakentsut",
+    "display_name": "Payakentsut",
+    "tagline": "Fifty kilometers on Olympic rings — where 2010 legacy trails meet Coast Mountain grandeur in the Sea-to-Sky corridor.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": ["50km classic", "50km freestyle", "30km", "15km"],
+      "elevation_m": 650,
+      "altitude_m": 850,
+      "location": "Whistler Olympic Park",
+      "location_badge": "British Columbia, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "February",
+      "date_specific": "2026: February 14",
+      "discipline": "both",
+      "field_size": "~500",
+      "founded": 2011,
+      "registration": "Open registration",
+      "prize_purse": "None",
+      "aid_stations": "Multiple aid stations on course",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.payakentsut.com",
+      "lat": 50.1441,
+      "lng": -123.1140
+    },
+    "climate": {
+      "primary": "Pacific coastal mountain winter",
+      "description": "Whistler Olympic Park sits at 850m elevation in the Callaghan Valley. February temperatures range from -10°C to 2°C. Heavy Pacific snowfall ensures deep snowpack, but proximity to the coast means occasional warm intrusions and wet snow. The Callaghan Valley is more sheltered and colder than Whistler Village.",
+      "typical_temp_c": "-10 to 2",
+      "challenges": [
+        "Pacific warm fronts can bring rain or wet, heavy snow",
+        "Altitude gain from valley floor adds temperature and snow variability",
+        "Klister conditions possible in warm spells",
+        "Heavy snowfall can dump 30cm+ overnight, softening the track"
+      ]
+    },
+    "course": {
+      "primary": "Courses use the 2010 Winter Olympic cross-country ski venue in the Callaghan Valley. World-class groomed trails at altitude wind through Coast Mountain old-growth forest with significant climbing and technical descents.",
+      "format": "loop",
+      "surface": "World-class machine-groomed Olympic venue trails",
+      "technical_rating": 3,
+      "grooming": "Olympic venue standard — among the best groomed trails in North America",
+      "features": [
+        "2010 Vancouver Winter Olympics cross-country ski venue",
+        "Coast Mountain old-growth forest setting",
+        "Callaghan Valley — quieter and more pristine than Whistler Village",
+        "Olympic-standard timing and infrastructure",
+        "Both classic and freestyle events",
+        "Views of surrounding glaciated peaks on clear days"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 64,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Olympic-legacy grooming and spectacular Coast Mountain scenery are the standouts. Relatively young event (2011) limits prestige, but the venue infrastructure is world-class. Perfect grooming and scenery scores.",
+      "tier_note": "TIER 2 — Olympic infrastructure and mountain beauty elevate a young race"
+    },
+    "history": {
+      "summary": "Founded in 2011, Payakentsut was created to activate the 2010 Vancouver Winter Olympics cross-country ski venue as a citizen race destination. The Whistler Olympic Park in the Callaghan Valley features world-class trail infrastructure built for Olympic competition. The race name honors the indigenous heritage of the region. Despite its youth, the event benefits from Olympic-level grooming, timing, and venue management.",
+      "notable_facts": [
+        "Uses the 2010 Vancouver Winter Olympics cross-country ski venue",
+        "Whistler Olympic Park is operated by the Resort Municipality of Whistler",
+        "The Callaghan Valley is separate from Whistler Village — quieter and more remote",
+        "Olympic biathlon and cross-country events were held on these trails",
+        "One of the youngest major marathon ski events in Canada",
+        "The venue regularly hosts national-level and World Cup junior competitions"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

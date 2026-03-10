@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Great Ski Race",
+    "slug": "great-ski-race",
+    "display_name": "The Great Ski Race",
+    "tagline": "26 kilometers from Tahoe City to Truckee across the Sierra Nevada ridge — the West Coast's largest cross-country ski race and a beloved fundraiser since 1977.",
+    "vitals": {
+      "distance_km": 26,
+      "distance_options": ["26km (30km advertised)"],
+      "elevation_m": 400,
+      "altitude_m": 1900,
+      "location": "Tahoe City to Truckee, California",
+      "location_badge": "California, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "California",
+      "date": "Early March",
+      "date_specific": "2026: March 7",
+      "discipline": "both",
+      "field_size": "~1,000",
+      "founded": 1977,
+      "registration": "Opens in fall; typically sells out",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course with drinks and snacks",
+      "cutoff_time": null,
+      "website": "https://www.thegreatskirace.com",
+      "lat": 39.1657,
+      "lng": -120.1433
+    },
+    "climate": {
+      "primary": "Sierra Nevada mountain winter",
+      "description": "March in the Sierra brings highly variable conditions. The range can receive massive snowfall or enjoy spring-like warmth. Temperatures typically range from -5°C to 8°C. The course crosses ridgeline terrain exposed to Pacific storms. Sierra cement — heavy, wet snow — is common in spring.",
+      "typical_temp_c": "-5 to 8",
+      "challenges": [
+        "Sierra Nevada weather is notoriously unpredictable",
+        "Heavy wet snow ('Sierra cement') affects glide and wax",
+        "Ridgeline exposure to Pacific storm winds",
+        "Race has been cancelled or shortened due to extreme weather",
+        "Altitude around 6,200-7,200 feet affects performance"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from Tahoe City to Truckee, crossing the North Lake Tahoe ridge. The course traverses backcountry terrain with significant climbing in the first half and a long descent into Truckee. Stunning Sierra Nevada views when conditions permit.",
+      "format": "point-to-point",
+      "surface": "Groomed backcountry trails connecting Tahoe City to Truckee",
+      "technical_rating": 3,
+      "grooming": "Good grooming for race day, though backcountry sections can be variable",
+      "features": [
+        "Point-to-point crossing of the Sierra Nevada ridge",
+        "West Coast's largest cross-country ski race",
+        "Fundraiser for Nordic search and rescue (Tahoe Nordic SAR)",
+        "Stunning Lake Tahoe and Sierra Nevada views",
+        "Both classic and freestyle racers on course together"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Spectacular Sierra Nevada scenery and strong community spirit define this event. The Lake Tahoe location provides excellent accessibility. Snow reliability is the weak link — cancellations have occurred. Shorter distance limits the endurance challenge.",
+      "tier_note": "Score 59 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "The Great Ski Race has been a North Lake Tahoe tradition since 1977, making it one of the oldest XC ski races in the western United States. Originally conceived as a fundraiser for the Tahoe Nordic Search and Rescue team, it has grown into the West Coast's largest cross-country ski event. The race traverses the ridge between Tahoe City and Truckee, retracing a historic route used by 19th-century mail carriers.",
+      "notable_facts": [
+        "West Coast's largest cross-country ski race since 1977",
+        "Fundraiser for Tahoe Nordic Search and Rescue",
+        "Route follows historic mail carrier trails between Tahoe City and Truckee",
+        "Has been cancelled or modified in low-snow years",
+        "North Lake Tahoe is a major winter sports destination",
+        "Nearly 50 years of continuous operation"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

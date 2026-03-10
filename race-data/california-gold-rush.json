@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "California Gold Rush",
+    "slug": "california-gold-rush",
+    "display_name": "California Gold Rush",
+    "tagline": "45 kilometers of freestyle racing at Royal Gorge in the Sierra Nevada — the ASM Series finale where the West Coast's fastest skaters chase gold in the mountains.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": [
+        "45km freestyle",
+        "20km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 2100,
+      "location": "Soda Springs, California",
+      "location_badge": "California, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "California",
+      "date": "Late March",
+      "date_specific": "2026: March 28",
+      "discipline": "skate",
+      "field_size": "~300-500",
+      "founded": null,
+      "registration": "Opens in fall",
+      "prize_purse": null,
+      "aid_stations": "Aid stations with drinks and energy food",
+      "cutoff_time": null,
+      "website": "https://www.royalgorge.com",
+      "lat": 39.3268,
+      "lng": -120.3826
+    },
+    "climate": {
+      "primary": "Sierra Nevada high mountain spring",
+      "description": "Late March at 7,000 feet in the Sierra Nevada brings spring skiing conditions. Temperatures range from -5°C to 10°C with strong sun. The Sierra snowpack is typically deep by late March, but warm spring conditions can soften trails by midday. UV exposure is intense.",
+      "typical_temp_c": "-5 to 10",
+      "challenges": [
+        "Spring snow conditions — hard and fast in the morning, soft by afternoon",
+        "Intense high-altitude UV exposure requires sun protection",
+        "Sierra storms can still deliver significant snowfall in late March",
+        "Altitude around 7,000 feet affects aerobic performance",
+        "Wax selection critical as temperatures change rapidly through the race"
+      ]
+    },
+    "course": {
+      "primary": "Loop course at Royal Gorge Cross Country Ski Resort, one of the largest XC ski resorts in North America. Rolling terrain through Sierra Nevada forest with panoramic mountain views. The resort's extensive trail system provides varied terrain with punchy climbs and fast descents.",
+      "format": "loop",
+      "surface": "Machine-groomed trails at Royal Gorge XC Resort",
+      "technical_rating": 3,
+      "grooming": "Resort-quality grooming with skating lanes on purpose-built trails",
+      "features": [
+        "Royal Gorge is one of North America's largest XC ski resorts",
+        "ASM Series season finale event",
+        "Freestyle-only format rewards skating specialists",
+        "Sierra Nevada mountain panoramas throughout the course",
+        "Spring skiing conditions with strong sun and fast snow"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "The Royal Gorge resort setting and Sierra Nevada scenery are excellent. High altitude adds genuine physiological challenge. The ASM Series finale gives it strategic importance for series contenders. Modest field size and limited international draw.",
+      "tier_note": "Score 53 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "The California Gold Rush takes its name from the state's famous 1849 gold rush and serves as the season-ending finale of the American Ski Marathon Series. Held at Royal Gorge Cross Country Ski Resort — one of the largest XC ski areas in North America — the race offers a spectacular Sierra Nevada setting. The freestyle-only format attracts skating enthusiasts looking to close out the racing season on fast spring snow.",
+      "notable_facts": [
+        "American Ski Marathon Series season finale",
+        "Held at Royal Gorge, one of North America's largest XC ski resorts",
+        "Name references California's 1849 Gold Rush history",
+        "Freestyle-only format — skating technique required",
+        "Spring conditions often provide fast, firm morning snow",
+        "Donner Pass area is steeped in Western frontier history"
+      ]
+    },
+    "series_membership": [
+      "asm"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

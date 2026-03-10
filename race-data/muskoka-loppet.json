@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Muskoka Loppet",
+    "slug": "muskoka-loppet",
+    "display_name": "Muskoka Loppet",
+    "tagline": "Thirty kilometers of classic skiing through the frozen forests of Arrowhead Provincial Park — Ontario's signature Nordic race in Canada's cottage country.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km",
+        "7.5km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 320,
+      "location": "Arrowhead Provincial Park, Huntsville",
+      "location_badge": "Ontario, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Ontario",
+      "date": "Late January",
+      "date_specific": "2026: January 24",
+      "discipline": "classic",
+      "field_size": "~500 starters",
+      "founded": 1985,
+      "registration": "Online registration, capacity limited by park access",
+      "prize_purse": "None",
+      "aid_stations": "2-3 stations with water, hot drinks, snacks",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.muskokaloppet.ca",
+      "lat": 45.3917,
+      "lng": -79.2146
+    },
+    "climate": {
+      "primary": "Ontario shield winter",
+      "description": "The Muskoka region experiences classic Canadian winters with reliable snow cover. January temperatures typically range from -20°C to -5°C. Lake-effect moisture from Georgian Bay contributes to consistent snowfall. Cold, dry conditions dominate.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Extreme cold in January — wind chill can reach -30°C",
+        "Hard-packed icy tracks in extended cold snaps",
+        "Short January daylight limits warm-up time",
+        "Hilly terrain in frozen conditions demands strong descending skills"
+      ]
+    },
+    "course": {
+      "primary": "Loops through Arrowhead Provincial Park on rolling Canadian Shield terrain. The course winds through mixed hardwood and conifer forest, with enough hills to test fitness without being overwhelming. Classic-only format emphasizes traditional technique on well-set tracks.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through provincial park forest trails",
+      "technical_rating": 3,
+      "grooming": "Good grooming maintained by park staff and volunteers, classic tracks only",
+      "features": [
+        "Classic-only format — pure traditional Nordic skiing",
+        "Beautiful Canadian Shield forest setting in Arrowhead Provincial Park",
+        "Rolling terrain with engaging hills",
+        "Ontario's premier Nordic ski race",
+        "Muskoka cottage country setting — cozy post-race atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A well-established classic-only race with 40 years of history. The provincial park setting provides a controlled and scenic environment. Reliable Ontario winters ensure good snow. Modest field but loyal regional following.",
+      "tier_note": "Score 51 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1985, the Muskoka Loppet has been a fixture of the Ontario Nordic skiing community for four decades. Held in Arrowhead Provincial Park near Huntsville, the race takes advantage of the park's well-maintained trail system and the Muskoka region's reliable winter conditions. The classic-only format has remained a deliberate choice, preserving the traditional character of the event. The race draws participants from across Ontario and beyond, serving as one of the province's premier Nordic competitions.",
+      "notable_facts": [
+        "Over 40 years of continuous operation in Arrowhead Provincial Park",
+        "Classic-only format preserves traditional Nordic skiing ethos",
+        "Arrowhead Provincial Park is known for its natural ice skating trail and winter recreation",
+        "The Muskoka region is one of Ontario's most popular four-season recreation areas",
+        "The race has been a qualifier and stepping stone for Canadian long-distance skiers"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

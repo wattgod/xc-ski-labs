@@ -1,0 +1,95 @@
+{
+  "race": {
+    "name": "Haanja Maraton",
+    "slug": "haanja-maraton",
+    "display_name": "Haanja Maraton",
+    "tagline": "42 kilometers of classic skiing through the rolling hills of southern Estonia — where the Baltic's highest point meets one of the country's oldest marathon traditions.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": ["42km classic", "21km"],
+      "elevation_m": 500,
+      "altitude_m": 300,
+      "location": "Haanja, Southern Estonia",
+      "location_badge": "Võru County, Estonia",
+      "country": "Estonia",
+      "country_code": "EE",
+      "region": "Võru County",
+      "date": "Late January",
+      "date_specific": "2026: January 24",
+      "discipline": "classic",
+      "field_size": "~800-1,200",
+      "founded": null,
+      "registration": "Opens in fall",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with warm drinks, porridge, and energy food",
+      "cutoff_time": null,
+      "website": "https://www.estoloppet.ee",
+      "lat": 57.7000,
+      "lng": 26.8500
+    },
+    "climate": {
+      "primary": "Baltic continental winter",
+      "description": "Late January in southern Estonia brings cold continental conditions. Temperatures typically range from -15°C to -3°C. The Haanja Uplands receive reliable snowfall and cold temperatures that preserve snow well. The rolling terrain creates wind-exposed hilltops and sheltered valleys.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "Cold Baltic continental conditions with wind chill on hilltops",
+        "Rolling terrain means constant climbing and descending",
+        "Classic technique on hilly terrain requires strong diagonal stride",
+        "Variable snow conditions between exposed hilltops and sheltered forests"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Haanja Uplands in southern Estonia, home to the Baltic states' highest point (Suur Munamägi, 318m). Despite the modest altitude, the terrain is surprisingly hilly with constant rolling elevation changes. The course winds through mixed forest and open farmland in a landscape shaped by glacial moraines.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through the Haanja Uplands",
+      "technical_rating": 3,
+      "grooming": "Good machine grooming by Estoloppet series organizers",
+      "features": [
+        "Set in the Haanja Uplands — Baltic states' highest terrain",
+        "Classic-only format rewards traditional technique",
+        "Part of the Estoloppet series — Estonia's national marathon series",
+        "Rolling glacial moraine landscape with constant elevation changes",
+        "Suur Munamägi (318m), the Baltic states' highest point, is nearby",
+        "Southern Estonian countryside — forest, farms, and frozen lakes"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "A solid Baltic marathon ski event on surprisingly hilly terrain. Part of the Estoloppet series gives it national significance. Estonia's Nordic skiing tradition is genuine but the international profile is modest. Remote southern Estonian location limits accessibility.",
+      "tier_note": "Score 54 places in TIER 3 (>=45)"
+    },
+    "history": {
+      "summary": "The Haanja Maraton is the second-oldest marathon ski race in Estonia and a key event in the Estoloppet series — Estonia's national citizen marathon ski series. Set in the Haanja Uplands of southern Estonia, the race takes place in the hilliest terrain in the Baltic states. Estonia has a deep Nordic skiing tradition, with cross-country skiing serving as both a national sport and a practical winter transportation method for centuries in rural areas.",
+      "notable_facts": [
+        "Second-oldest marathon ski race in Estonia",
+        "Part of the Estoloppet — Estonia's national marathon ski series",
+        "Set in the Haanja Uplands, the Baltic states' highest terrain",
+        "Suur Munamägi (318m), the Baltic states' highest point, is nearby",
+        "Estonia has one of the strongest Nordic skiing traditions in the Baltic region",
+        "Classic-only format reflects Estonian skiing tradition"
+      ]
+    },
+    "series_membership": ["estoloppet"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

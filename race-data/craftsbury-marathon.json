@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Craftsbury Marathon",
+    "slug": "craftsbury-marathon",
+    "display_name": "Craftsbury Marathon",
+    "tagline": "The Northeast Kingdom's longest day on snow — forty-five kilometers of Vermont's fiercest winter through America's most storied ski center.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": ["45km classic", "45km freestyle", "25km", "10km"],
+      "elevation_m": 500,
+      "altitude_m": 400,
+      "location": "Craftsbury Common",
+      "location_badge": "Vermont, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Vermont",
+      "date": "Late January to early February",
+      "date_specific": "2026: January 31",
+      "discipline": "both",
+      "field_size": "~400",
+      "founded": 1981,
+      "registration": "Open registration",
+      "prize_purse": "None",
+      "aid_stations": "Multiple feed stations with warm beverages and food",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.craftsbury.com",
+      "lat": 44.6399,
+      "lng": -72.3591
+    },
+    "climate": {
+      "primary": "Northern New England mountain winter",
+      "description": "Craftsbury Common sits in Vermont's coldest corner. January-February race dates deliver reliable cold, typically -18°C to -5°C. The Northeast Kingdom receives consistent natural snowfall supplemented by snowmaking at the Craftsbury Outdoor Center.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Bitter cold — Northeast Kingdom is Vermont's icebox",
+        "Wind exposure on hilltop meadows",
+        "Short daylight window in late January",
+        "Variable snow conditions between shaded forest and open farmland"
+      ]
+    },
+    "course": {
+      "primary": "Multi-lap course radiating from the Craftsbury Outdoor Center through rolling Vermont farmland and mixed hardwood forest. Steady climbing with no flat respite — the terrain never lets you rest.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through forest and open meadow terrain",
+      "technical_rating": 2,
+      "grooming": "Craftsbury Outdoor Center standard — meticulous grooming with snowmaking backup",
+      "features": [
+        "Craftsbury Outdoor Center — a premier US Nordic training facility",
+        "Rolling Vermont farmland with panoramic views",
+        "The East's largest Nordic ski marathon",
+        "Multi-lap format keeps logistics simple",
+        "Training ground for US Biathlon and ski team members"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Excellent grooming from a world-class training center and beautiful Vermont scenery. Limited by small field size and remote location in the Northeast Kingdom.",
+      "tier_note": "TIER 3 — a boutique marathon with outsized character"
+    },
+    "history": {
+      "summary": "Founded in 1981 at the Craftsbury Outdoor Center, the Craftsbury Marathon has grown into the largest Nordic ski marathon in the eastern United States. The Craftsbury Outdoor Center — established in 1976 — is one of America's premier cross-country ski training facilities, home to the Green Racing Project elite team. The marathon leverages this infrastructure to deliver a well-groomed course through Vermont's remote and beautiful Northeast Kingdom.",
+      "notable_facts": [
+        "The largest Nordic ski marathon in the eastern United States",
+        "Hosted at the Craftsbury Outdoor Center, a US elite training facility",
+        "The Green Racing Project elite team trains on the same trails year-round",
+        "Craftsbury Common is one of the coldest inhabited places in Vermont",
+        "The Center's snowmaking ensures coverage even in lean snow years",
+        "Both classic and freestyle events offered"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

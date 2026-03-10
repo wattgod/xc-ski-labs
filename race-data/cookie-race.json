@@ -1,0 +1,98 @@
+{
+  "race": {
+    "name": "Cookie Race",
+    "slug": "cookie-race",
+    "display_name": "Cookie Race",
+    "tagline": "Thirty kilometers through the Rocky Mountain foothills of Kananaskis Country — Alberta's second-oldest Nordic event, where the aid stations serve homemade cookies.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km",
+        "7.5km"
+      ],
+      "elevation_m": 450,
+      "altitude_m": 1500,
+      "location": "Kananaskis Country",
+      "location_badge": "Alberta, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Alberta",
+      "date": "February",
+      "date_specific": "2026: February 14",
+      "discipline": "both",
+      "field_size": "~400 starters",
+      "founded": 1980,
+      "registration": "Online registration",
+      "prize_purse": "None",
+      "aid_stations": "3 stations — famous for homemade cookies and hot chocolate",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.calgarynordicski.com",
+      "lat": 50.9614,
+      "lng": -115.0874
+    },
+    "climate": {
+      "primary": "Rocky Mountain foothills winter",
+      "description": "Kananaskis Country sits in the transition zone between the prairies and the Rocky Mountains. Chinook winds can bring sudden temperature swings of 20°C or more. When cold air holds, conditions are excellent — dry, cold, fast snow. Temperatures range from -25°C to 5°C depending on Chinook activity.",
+      "typical_temp_c": "-15 to 0",
+      "challenges": [
+        "Chinook winds can rapidly warm and deteriorate snow conditions",
+        "Extreme temperature variability — can swing 20°C in hours",
+        "Wind exposure in open foothill sections",
+        "Altitude at 1,500m adds a fitness challenge for prairie-based skiers",
+        "Freeze-thaw cycles from Chinooks can create icy, crust-covered tracks"
+      ]
+    },
+    "course": {
+      "primary": "Rolling terrain through the Kananaskis Country trail system in the Rocky Mountain foothills. The course traverses mixed spruce and aspen forest with views of the Canadian Rockies. Hilly sections with meaningful climbs and descents provide a good workout.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through Rocky Mountain foothill terrain",
+      "technical_rating": 3,
+      "grooming": "Good grooming maintained by Alberta Parks and volunteer organizations",
+      "features": [
+        "Famous homemade cookie aid stations — the race's signature tradition",
+        "Rocky Mountain foothill terrain with views of the Continental Divide",
+        "One of the oldest Nordic events in Alberta",
+        "Both classic and skate technique options",
+        "Accessible from Calgary (90-minute drive)"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A charming, community-driven event with over 40 years of history. The homemade cookie tradition gives it character. Rocky Mountain scenery is excellent, but Chinook winds create snow reliability concerns. Solid regional race.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded around 1980, the Cookie Race is the second-oldest Nordic skiing event in Alberta. Named for its beloved tradition of serving homemade cookies at aid stations, the race has cultivated a loyal following among Calgary and Alberta skiers. Held in Kananaskis Country, the provincial recreation area west of Calgary, the event showcases the Rocky Mountain foothills landscape. Despite the challenges of Chinook-driven weather variability, the race has endured for over four decades as a community-centered celebration of Nordic skiing.",
+      "notable_facts": [
+        "Named for the homemade cookies served at every aid station",
+        "Second-oldest Nordic skiing event in Alberta",
+        "Kananaskis Country was developed for the 1988 Calgary Winter Olympics",
+        "Chinook winds are both the region's blessing (mild winters) and curse (snow loss)",
+        "The race draws primarily from Calgary's active Nordic community"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

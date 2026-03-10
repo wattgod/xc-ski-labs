@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Kungsledenrännet",
+    "slug": "kungsledenrannet",
+    "display_name": "Kungsledenrännet",
+    "tagline": "Eighty kilometers through the Vindelfjällen wilderness — Sweden's most remote ski race crosses a nature reserve where reindeer outnumber spectators.",
+    "vitals": {
+      "distance_km": 80,
+      "distance_options": ["80km"],
+      "elevation_m": 1000,
+      "altitude_m": 900,
+      "location": "Vindelfjällen Nature Reserve",
+      "location_badge": "Vindelfjällen, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Västerbotten",
+      "date": "April",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~300 starters",
+      "founded": 1985,
+      "registration": "Online registration; limited spots",
+      "prize_purse": null,
+      "aid_stations": "Remote checkpoints with basic provisions",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 66.1000,
+      "lng": 15.5000
+    },
+    "climate": {
+      "primary": "Sub-Arctic mountain winter",
+      "description": "April above the Arctic Circle still delivers full winter conditions at altitude. The Vindelfjällen mountains ensure cold temperatures and deep snow well into spring. Typically -10°C to 0°C. Weather can change rapidly in the exposed mountain terrain, with wind being the primary hazard.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Exposed mountain terrain with rapid weather changes",
+        "High winds on open fjäll sections",
+        "Remote wilderness with limited rescue access",
+        "Whiteout conditions possible in mountain passes",
+        "Self-sufficiency required across the long course"
+      ]
+    },
+    "course": {
+      "primary": "An 80km wilderness race through the Vindelfjällen Nature Reserve, one of Europe's largest protected mountain areas. The course follows ancient Sami reindeer migration routes across exposed mountain plateaus, through sheltered valleys, and past frozen mountain lakes. The terrain is demanding with significant elevation change and technical descents. This is wilderness skiing at its most raw — no spectators, no shortcuts, no shelter.",
+      "format": "point-to-point",
+      "surface": "Groomed tracks through mountain wilderness; some sections wind-affected",
+      "technical_rating": 4,
+      "grooming": "Functional grooming in remote conditions; wind can affect track quality on exposed sections",
+      "features": [
+        "Crosses Vindelfjällen Nature Reserve — one of Europe's largest",
+        "Follows ancient Sami reindeer migration routes",
+        "Above the Arctic Circle at 66°N",
+        "Exposed mountain plateaus and sheltered valleys",
+        "Among the most remote ski races in Scandinavia",
+        "Views of the Vindel Mountains and frozen mountain lakes"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 4,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 4,
+      "snow_reliability": 5,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 2,
+      "scenery": 5,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "Maximum scenery and snow scores for this wilderness mountain race. The extreme remoteness limits accessibility, field size, and organization scores. The course technicality is high with exposed mountain terrain. A bucket-list adventure race rather than a polished marathon event.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded around 1985, Kungsledenrännet is an 80km wilderness classic race through the Vindelfjällen Nature Reserve in northern Sweden, above the Arctic Circle. The name references the Kungsleden ('King's Trail'), Sweden's most famous long-distance hiking route. The race follows ancient Sami migration paths through one of Europe's largest protected mountain areas. It remains a niche event, attracting adventurous skiers who seek genuine wilderness racing far from the groomed boulevards of mainstream marathons.",
+      "notable_facts": [
+        "Crosses Vindelfjällen Nature Reserve — 5,600 km² of protected wilderness",
+        "Named after the Kungsleden (King's Trail), Sweden's iconic hiking route",
+        "Above the Arctic Circle at approximately 66°N latitude",
+        "Follows traditional Sami reindeer herding migration routes",
+        "One of the most remote competitive ski races in Europe",
+        "April date ensures snow while offering longer daylight hours"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

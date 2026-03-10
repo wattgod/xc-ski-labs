@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Flyktningerennet",
+    "slug": "flyktningerennet",
+    "display_name": "Flyktningerennet",
+    "tagline": "Forty-four kilometers from Norway to Sweden on the escape route refugees took in 1944 — a cross-border memorial race where every kilometer carries the weight of wartime history.",
+    "vitals": {
+      "distance_km": 44,
+      "distance_options": ["44km"],
+      "elevation_m": 550,
+      "altitude_m": 600,
+      "location": "Nordli (NO) to Gäddede (SE)",
+      "location_badge": "Trøndelag, Norway / Jämtland, Sweden",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Trøndelag / Jämtland",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": "~600",
+      "founded": 1950,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the cross-border route",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 64.8000,
+      "lng": 14.3500
+    },
+    "climate": {
+      "primary": "Scandinavian mountain border winter",
+      "description": "March in the Norwegian-Swedish border mountains means reliable winter conditions. The route crosses exposed mountain terrain between the two countries. Temperatures typically -10°C to -2°C. Snow reliability is high in this inland mountain zone.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Exposed mountain terrain on the border crossing",
+        "Variable conditions between sheltered valleys and open mountain",
+        "Wind on high-altitude border sections",
+        "Remote course through wilderness terrain"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point from Nordli in Norway's Trøndelag region across the Scandinavian mountain border to Gäddede in Swedish Jämtland. The route follows the historic escape path used by Norwegian refugees fleeing to Sweden during WWII. Terrain mixes forested valleys with exposed mountain crossings at the border.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through mountain and forest terrain",
+      "technical_rating": 3,
+      "grooming": "Good Ski Classics Challengers standard on historic route",
+      "features": [
+        "Crosses the Norway–Sweden border mid-race",
+        "Follows the actual 1944 refugee escape route",
+        "Mix of Norwegian forest and Swedish mountain terrain",
+        "Start and finish in different countries",
+        "Deep historical and cultural significance"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 64,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 4,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Prestige boosted by 75 years of WWII memorial history — genuinely iconic heritage race. The cross-border format is unique in distance skiing. Community score reflects the deep emotional resonance of the event. Limited by remote location and modest field size.",
+      "tier_note": "Score 60 >= 60 qualifies for TIER 2. Prestige 4 — already T2, no further promotion needed."
+    },
+    "history": {
+      "summary": "Founded in 1950 to commemorate the flight of Norwegian refugees across the mountains to neutral Sweden during the German occupation in 1944. The 44km race follows the actual escape route from Nordli to Gäddede. It is one of Scandinavia's most historically significant ski races, carrying deep meaning for border communities. Part of the Ski Classics Challengers series.",
+      "notable_facts": [
+        "Commemorates the 1944 refugee flight from Nazi-occupied Norway to Sweden",
+        "Founded just 5 years after the war's end, in 1950",
+        "The only major ski marathon that crosses an international border",
+        "Race name means 'The Refugee Race' in Norwegian",
+        "Part of the Ski Classics Challengers series",
+        "Start in Norway, finish in Sweden — two countries, one race"
+      ]
+    },
+    "series_membership": ["ski_classics_challengers"],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

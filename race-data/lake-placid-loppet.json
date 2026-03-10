@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Lake Placid Loppet",
+    "slug": "lake-placid-loppet",
+    "display_name": "Lake Placid Loppet",
+    "tagline": "Fifty kilometers over Olympic-legacy trails — where 1,120 meters of Adirondack climbing separates skiers from survivors.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 1120,
+      "altitude_m": 600,
+      "location": "Lake Placid",
+      "location_badge": "New York, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "New York",
+      "date": "January",
+      "date_specific": "2026: January 24",
+      "discipline": "both",
+      "field_size": "~400",
+      "founded": 1982,
+      "registration": "Open registration",
+      "prize_purse": "None",
+      "aid_stations": "Multiple aid stations along the course",
+      "cutoff_time": "No official cutoff",
+      "website": "https://www.lakeplacidloppet.com",
+      "lat": 44.2795,
+      "lng": -73.9799
+    },
+    "climate": {
+      "primary": "Adirondack mountain winter",
+      "description": "Lake Placid's mountain setting delivers cold, snowy winters. January temperatures range from -20°C to -5°C. The Adirondacks receive heavy snowfall, and the Olympic venue's elevation ensures reliable natural coverage. Wind exposure at higher elevations adds a chill factor.",
+      "typical_temp_c": "-20 to -5",
+      "challenges": [
+        "Bitter Adirondack cold, especially at higher elevations on the course",
+        "Significant climbing means wide effort swings and sweat management",
+        "Wind exposure on ridgeline sections",
+        "Snow conditions vary with altitude — icy at top, softer in valleys"
+      ]
+    },
+    "course": {
+      "primary": "The most vertically challenging marathon ski race in the eastern US. The course traverses Olympic-era trails around Lake Placid with 1,120 meters of cumulative climbing through dense Adirondack forest, punishing uphills, and technical descents.",
+      "format": "loop",
+      "surface": "Machine-groomed Olympic legacy trails through Adirondack forest",
+      "technical_rating": 4,
+      "grooming": "Olympic venue standard grooming maintained by the ORDA trail crew",
+      "features": [
+        "1980 Winter Olympic cross-country ski venue",
+        "1,120m of climbing — the hilliest marathon ski in the East",
+        "Technical descents through dense Adirondack forest",
+        "Panoramic views of the High Peaks from ridgeline sections",
+        "Classic Olympic village start and finish atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 67,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 4,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 4,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Olympic legacy trails and dramatic Adirondack scenery deliver a uniquely challenging American loppet. The 1,120m of climbing is exceptional for the eastern US. Limited field size keeps it from higher tiers.",
+      "tier_note": "TIER 2 — Olympic pedigree and mountain terrain lift it above most US marathons"
+    },
+    "history": {
+      "summary": "Founded around 1982, the Lake Placid Loppet capitalizes on the cross-country ski infrastructure built for the 1980 Winter Olympics. The race traverses trails that once hosted Olympic competition, making it one of the few American citizen races on genuine Olympic-legacy terrain. With over 1,100 meters of climbing, it is widely regarded as the most physically demanding marathon ski race in the eastern United States.",
+      "notable_facts": [
+        "Uses trails built for the 1980 Lake Placid Winter Olympics",
+        "1,120m of climbing makes it the hilliest eastern US ski marathon",
+        "Lake Placid is one of only three US cities to host the Winter Olympics (1932, 1980)",
+        "The Olympic Regional Development Authority (ORDA) maintains the trail system year-round",
+        "Attracts serious endurance skiers seeking mountainous terrain rarely found east of the Rockies",
+        "Multiple technique options — classic, freestyle, or any — reflect its inclusive ethos"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}
