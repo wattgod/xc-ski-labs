@@ -696,13 +696,16 @@ a:focus-visible, button:focus-visible {{
 .gl-nav-logo:hover {{ color: var(--gl-glacier-teal); }}
 .gl-nav-links {{
   display: flex;
-  gap: 24px;
+  gap: 0;
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
 }}
-.gl-nav-links a {{
+.gl-nav-item {{
+  position: relative;
+}}
+.gl-nav-item > a {{
   font-family: var(--gl-font-data);
   font-size: 0.75rem;
   font-weight: 700;
@@ -710,12 +713,40 @@ a:focus-visible, button:focus-visible {{
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding: 4px 0;
-  border-bottom: 2px solid transparent;
+  padding: 16px 14px;
+  display: block;
 }}
-.gl-nav-links a:hover, .gl-nav-links a.active {{
+.gl-nav-item > a:hover {{
   color: var(--gl-frost-white);
-  border-bottom-color: var(--gl-aurora-green);
+}}
+.gl-nav-dropdown {{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--gl-nordic-night);
+  border: 2px solid var(--gl-fjord-blue);
+  min-width: 200px;
+  z-index: 1001;
+  padding: 8px 0;
+}}
+.gl-nav-item:hover .gl-nav-dropdown {{
+  display: block;
+}}
+.gl-nav-dropdown a {{
+  font-family: var(--gl-font-data);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--gl-silver-mist);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px 16px;
+  display: block;
+}}
+.gl-nav-dropdown a:hover {{
+  color: var(--gl-frost-white);
+  background: var(--gl-fjord-blue);
 }}
 .gl-nav-hamburger {{
   display: none;
@@ -796,10 +827,17 @@ a:focus-visible, button:focus-visible {{
     background: var(--gl-nordic-night);
     flex-direction: column;
     padding: 16px 20px;
-    gap: 16px;
+    gap: 0;
     border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
   }}
   .gl-nav-links.open {{ display: flex; }}
+  .gl-nav-dropdown {{
+    position: static;
+    border: none;
+    padding: 0 0 0 16px;
+    display: block;
+  }}
+  .gl-nav-item > a {{ padding: 12px 0; }}
 }}
 </style>
 </head>
@@ -810,11 +848,23 @@ a:focus-visible, button:focus-visible {{
   <div class="gl-nav-inner">
     <a href="/" class="gl-nav-logo">XC SKI LABS</a>
     <button class="gl-nav-hamburger" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
-    <nav class="gl-nav-links">
-      <a href="/search/">Races</a>
-      <a href="/training-plans/">Training Plans</a>
-      <a href="/coaching/apply/">Coaching</a>
-    </nav>
+    <ul class="gl-nav-links">
+      <li class="gl-nav-item">
+        <a href="/search/">Races</a>
+        <div class="gl-nav-dropdown"><a href="/search/">All XC Ski Races</a></div>
+      </li>
+      <li class="gl-nav-item">
+        <a href="/training-plans/">Products</a>
+        <div class="gl-nav-dropdown"><a href="/training-plans/">Training Plans</a></div>
+      </li>
+      <li class="gl-nav-item">
+        <a href="/coaching/apply/">Services</a>
+        <div class="gl-nav-dropdown"><a href="/coaching/apply/">Coaching</a></div>
+      </li>
+      <li class="gl-nav-item">
+        <a href="/about/">About</a>
+      </li>
+    </ul>
   </div>
 </header>
 

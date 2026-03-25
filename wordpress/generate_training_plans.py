@@ -143,41 +143,87 @@ a:focus-visible, button:focus-visible {
 /* ── Nav ─────────────────────────────────────────── */
 
 .gl-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background: var(--gl-nordic-night);
   border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
-  padding: 12px 24px;
+  padding: 0 20px;
+}
+.gl-nav-inner {
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  height: 52px;
 }
-
-.gl-nav-brand {
+.gl-nav-logo {
   font-family: var(--gl-font-data);
   font-size: 0.85rem;
   font-weight: 700;
   color: var(--gl-frost-white);
   text-decoration: none;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
-
+.gl-nav-logo:hover { color: var(--gl-birch-bark); }
 .gl-nav-links {
   display: flex;
-  gap: 20px;
+  gap: 0;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
-.gl-nav-links a {
+.gl-nav-item { position: relative; }
+.gl-nav-item > a {
   font-family: var(--gl-font-data);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
+  font-weight: 700;
   color: var(--gl-silver-mist);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  padding: 16px 14px;
+  display: block;
 }
-
-.gl-nav-links a:hover { color: var(--gl-frost-white); }
-.gl-nav-links a.active { color: var(--gl-frost-white); border-bottom: 2px solid var(--gl-wax-orange); padding-bottom: 2px; }
+.gl-nav-item > a:hover { color: var(--gl-frost-white); }
+.gl-nav-item > a.active { color: var(--gl-frost-white); }
+.gl-nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--gl-nordic-night);
+  border: var(--gl-border-width) solid var(--gl-fjord-blue);
+  min-width: 200px;
+  z-index: 1001;
+  padding: 8px 0;
+}
+.gl-nav-item:hover .gl-nav-dropdown { display: block; }
+.gl-nav-dropdown a {
+  font-family: var(--gl-font-data);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--gl-silver-mist);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px 16px;
+  display: block;
+}
+.gl-nav-dropdown a:hover { color: var(--gl-frost-white); background: var(--gl-fjord-blue); }
+.gl-nav-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--gl-frost-white);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 8px;
+  min-width: 44px;
+  min-height: 44px;
+}
 
 /* ── Hero ────────────────────────────────────────── */
 
@@ -634,7 +680,22 @@ a:focus-visible, button:focus-visible {
   .gl-pricing-grid { grid-template-columns: repeat(2, 1fr); }
   .gl-pricing-cell:nth-child(3n) { border-right: var(--gl-border-width) solid var(--gl-border-color); }
   .gl-pricing-cell:nth-child(2n) { border-right: none; }
-  .gl-nav { flex-direction: column; gap: 8px; }
+  .gl-nav-hamburger { display: block; }
+  .gl-nav-links {
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    background: var(--gl-nordic-night);
+    flex-direction: column;
+    padding: 16px 20px;
+    gap: 0;
+    border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+  }
+  .gl-nav-links.open { display: flex; }
+  .gl-nav-dropdown { position: static; border: none; padding: 0 0 0 16px; display: block; }
+  .gl-nav-item > a { padding: 12px 0; }
   .gl-final-cta { padding: 40px 20px; }
   .gl-final-cta h2 { font-size: 1.5rem; }
   .gl-pricing-headline { font-size: 1.4rem; }
@@ -733,11 +794,26 @@ def build_nav():
     """Top navigation bar."""
     return """
 <nav class="gl-nav">
-  <a href="/" class="gl-nav-brand">XC Ski Labs</a>
-  <div class="gl-nav-links">
-    <a href="/">Home</a>
-    <a href="/search/">Search</a>
-    <a href="/training-plans/" class="active">Training Plans</a>
+  <div class="gl-nav-inner">
+    <a href="/" class="gl-nav-logo">XC SKI LABS</a>
+    <button class="gl-nav-hamburger" aria-label="Toggle navigation" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')">&#9776;</button>
+    <ul class="gl-nav-links">
+      <li class="gl-nav-item">
+        <a href="/search/">Races</a>
+        <div class="gl-nav-dropdown"><a href="/search/">All XC Ski Races</a></div>
+      </li>
+      <li class="gl-nav-item">
+        <a href="/training-plans/" class="active">Products</a>
+        <div class="gl-nav-dropdown"><a href="/training-plans/">Training Plans</a></div>
+      </li>
+      <li class="gl-nav-item">
+        <a href="/coaching/apply/">Services</a>
+        <div class="gl-nav-dropdown"><a href="/coaching/apply/">Coaching</a></div>
+      </li>
+      <li class="gl-nav-item">
+        <a href="/about/">About</a>
+      </li>
+    </ul>
   </div>
 </nav>
 """
@@ -785,10 +861,10 @@ def build_how_it_works():
       <div class="gl-step-num">02</div>
       <div class="gl-step-title">Get Your Plan</div>
       <div class="gl-step-desc">
-        A periodized training block drops into your inbox: structured .zwo workouts,
-        roller ski sessions, double-pole progressions, and the strength work your
-        posterior chain actually needs. Base through taper, calibrated to your FTP
-        and available hours.
+        A periodized training block lands in your TrainingPeaks calendar: on-snow sessions,
+        roller ski progressions, SkiErg intervals, and the strength work your
+        posterior chain actually needs. Base through taper, calibrated to your
+        zones and available hours.
       </div>
     </div>
     <div class="gl-step">
@@ -818,13 +894,14 @@ def build_deliverables():
   </div>
   <div class="gl-deliverables">
     <div class="gl-deliverable">
-      <div class="gl-deliverable-icon">Z</div>
+      <div class="gl-deliverable-icon">TP</div>
       <div>
-        <div class="gl-deliverable-title">Structured .zwo Workouts</div>
+        <div class="gl-deliverable-title">TrainingPeaks Calendar</div>
         <div class="gl-deliverable-desc">
-          Import directly into Zwift, TrainerRoad, or any ERG-mode trainer. Every interval
-          has power targets, cadence, and duration. Roller ski and SkiErg sessions included
-          with technique-specific cues for classic stride, V1, V2, and double pole.
+          Every session pushed directly to your TrainingPeaks calendar. Open your watch,
+          see today&rsquo;s workout. Intervals have HR zones, RPE, and duration. On-snow,
+          roller ski, and SkiErg sessions all include technique cues for classic stride,
+          V1, V2, and double pole.
         </div>
       </div>
     </div>
@@ -1009,11 +1086,11 @@ def build_faq():
     """FAQ accordion section."""
     faqs = [
         (
-            "What format are the workouts in?",
-            "Every structured session ships as a .zwo file you can import into Zwift, "
-            "TrainerRoad, or any ERG-compatible trainer. Roller ski and on-snow sessions "
-            "come as detailed PDFs with power targets (if you train with a pod), heart rate "
-            "zones, RPE, cadence, and technique cues."
+            "How do I get the workouts?",
+            "Every session is pushed to your TrainingPeaks calendar. Sync your Garmin, "
+            "COROS, or Polar watch and the workout is on your wrist. On-snow and roller ski "
+            "sessions include heart rate zones, RPE, cadence targets, and technique cues. "
+            "SkiErg sessions have full interval structure with rest periods."
         ),
         (
             "I race both classic and skate. Can the plan cover both?",
