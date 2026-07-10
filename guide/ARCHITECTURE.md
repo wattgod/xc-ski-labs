@@ -65,6 +65,21 @@ pack-riding tactics don't map).
 (IDs: lantern_rouge / finisher / wave_chaser / elite_wave. No FTP defaults — XC
 personalization keys on hours + technique confidence, not watts.)
 
+## Citations doctrine (Matti, Jul 10: "abundant citations")
+Every chapter carries a `sources` array: {id, title, author?, publisher, year?, url,
+supports}. Inline markers `[^id]` in prose where a claim leans on a source; rendered as
+superscript links to a per-chapter SOURCES section. Two source pools:
+(1) **fasterskier.com** — 20+ years of coach interviews, training series, wax science;
+    the never-synthesized archive this guide mines on purpose (ongoing: every new chapter
+    starts with a FasterSkier sweep).
+(2) **Primary literature** — the physiology anchors are conveniently native to this
+    sport (Seiler's seminal intensity-distribution work was done ON elite XC skiers;
+    Sandbakk & Holmberg's world-class-skier physiology reviews; Holmberg's double-pole
+    biomechanics). Verified-before-shipped: a citation enters the JSON only after the
+    page/abstract was fetched and read. No text-fragment URLs; stable DOIs preferred;
+    paywalled is fine, fabricated is never. Port gravel's validate_citations.py rules
+    to a guide-citations checker in the generator tests.
+
 ## Voice & gates
 Claude register per estate rule ("rated," never "honestly rated"; no hype; Normie Test —
 no raw VO2max/lactate jargon without plain English). slop_rules port applies. Every
