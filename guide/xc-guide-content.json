@@ -62,7 +62,7 @@
             },
             {
               "type": "prose",
-              "content": "Here's what makes XC racing different from other endurance sports:\n\nIt uses everything. Cycling spares your upper body; running spares your arms. Skiing spares nothing. Poling drives through your triceps, lats, and trunk; the kick loads your glutes and hips; the balance work never stops. This is why skiers post the highest oxygen-uptake numbers ever measured in a lab — and why the sport is so honest. There is nowhere to hide a weakness.\n\nTechnique is a second engine. At citizen level, the differences between skiers are mostly not fitness. A skier with modest fitness and clean technique will glide past a stronger athlete who fights the snow. You can buy fitness with hours; technique you buy with attention. This guide takes both seriously.\n\nConditions are a third opponent. The snow changes under you — cold and squeaky, warm and sugary, icy and fast. Equipment choices that took the top skiers' service teams all morning will take you five minutes with a rule of thumb, and chapter 7 gives you the rules of thumb."
+              "content": "Here's what makes XC racing different from other endurance sports:\n\nIt uses everything. Cycling spares your upper body; running spares your arms. Skiing spares nothing. Poling drives through your triceps, lats, and trunk; the kick loads your glutes and hips; the balance work never stops. This is why skiers post the highest oxygen-uptake numbers ever measured in a lab[^vo2max-2011][^holmberg-2015-insights] — and why the sport is so honest. There is nowhere to hide a weakness.\n\nTechnique is a second engine. At citizen level, the differences between skiers are mostly not fitness[^fs-economy-efficiency-journals]. A skier with modest fitness and clean technique will glide past a stronger athlete who fights the snow. You can buy fitness with hours; technique you buy with attention. This guide takes both seriously.\n\nConditions are a third opponent. The snow changes under you — cold and squeaky, warm and sugary, icy and fast. Equipment choices that took the top skiers' service teams all morning will take you five minutes with a rule of thumb, and chapter 7 gives you the rules of thumb."
             },
             {
               "type": "callout",
@@ -77,7 +77,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "There are two techniques, and they are close to two different sports.\n\nClassic is the original: skis parallel in cut tracks, propulsion from pressing a gripping wax pocket into the snow, or from double-poling — both poles, no kick, the whole upper body firing at once. Classic is where the monuments live: Vasaloppet, Birkebeinerrennet, and Marcialonga are all classic races. It is gentler to learn and merciless to master, because grip depends on wax, and wax depends on snow.\n\nSkate came from ski marathoners improvising in the 1980s and looks like speed skating on snow: skis angled outward on a groomed deck, no grip wax at all. It is faster, roughly 8 to 10 percent on the same course, harder on the cardiovascular system, and unforgiving on hills — when a climb gets steep and you get tired, skate technique degrades in ways that cost you double.\n\nMost skiers eventually do both. Start with whichever your local trails and your local rental fleet support, and let the race you fall in love with decide the rest."
+              "content": "There are two techniques, and they are close to two different sports.\n\nClassic is the original: skis parallel in cut tracks, propulsion from pressing a gripping wax pocket into the snow, or from double-poling — both poles, no kick, the whole upper body firing at once[^holmberg-dp-2005]. Classic is where the monuments live: Vasaloppet, Birkebeinerrennet, and Marcialonga are all classic races. It is gentler to learn and merciless to master, because grip depends on wax, and wax depends on snow.\n\nSkate came from ski marathoners improvising in the 1980s and looks like speed skating on snow: skis angled outward on a groomed deck, no grip wax at all. It is faster, roughly 8 to 10 percent on the same course, harder on the cardiovascular system, and unforgiving on hills — when a climb gets steep and you get tired, skate technique degrades in ways that cost you double.\n\nMost skiers eventually do both. Start with whichever your local trails and your local rental fleet support, and let the race you fall in love with decide the rest."
             },
             {
               "type": "tabs",
@@ -113,7 +113,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "Everything in this guide is filtered through four rider types. Find yours; the personalized notes in every chapter key off it.\n\nThis is about available hours, not talent. Hours are the honest currency of endurance training, and pretending you have twelve when you have five is how seasons die in November."
+              "content": "Everything in this guide is filtered through four rider types. Find yours; the personalized notes in every chapter key off it.\n\nThis is about available hours, not talent. Hours are the honest currency of endurance training, and pretending you have twelve when you have five[^fs-training-hours] is how seasons die in November."
             },
             {
               "type": "data_table",
@@ -244,6 +244,48 @@
             }
           ]
         }
+      ],
+      "sources": [
+        {
+          "id": "vo2max-2011",
+          "title": "The upper limit of aerobic power in humans (elite XC skier case study)",
+          "author": "",
+          "publisher": "Respir Physiol Neurobiol",
+          "year": 2011,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21373867/"
+        },
+        {
+          "id": "holmberg-2015-insights",
+          "title": "The elite cross-country skier provides unique insights into human exercise physiology",
+          "author": "Holmberg HC",
+          "publisher": "Scand J Med Sci Sports 25(S4):100-109",
+          "year": 2015,
+          "url": "https://doi.org/10.1111/sms.12601"
+        },
+        {
+          "id": "fs-economy-efficiency-journals",
+          "title": "This Month in Journals: Examining Economy, Efficiency and Pacing Strategy on Skis",
+          "author": "Chelsea Little",
+          "publisher": "FasterSkier",
+          "year": 2013,
+          "url": "https://fasterskier.com/2013/06/this-month-in-journals-examining-economy-efficiency-and-pacing-strategy-on-skis/"
+        },
+        {
+          "id": "holmberg-dp-2005",
+          "title": "Biomechanical Analysis of Double Poling in Elite Cross-Country Skiers",
+          "author": "Holmberg HC et al.",
+          "publisher": "Med Sci Sports Exerc 37(5):807-818",
+          "year": 2005,
+          "url": "https://doi.org/10.1249/01.mss.0000162615.47763.c8"
+        },
+        {
+          "id": "fs-training-hours",
+          "title": "Revisiting Training Hours: How Many Do You Need?",
+          "author": "Chelsea Little",
+          "publisher": "FasterSkier",
+          "year": 2016,
+          "url": "https://fasterskier.com/2016/06/revisiting-training-hours-how-many-do-you-need/"
+        }
       ]
     },
     {
@@ -336,7 +378,7 @@
               "type": "callout",
               "style": "tip",
               "title": "The seeding angle",
-              "content": "Big loppets seed start waves from previous results, and some accept results from partner races. If a monument is your goal, a smaller seeded race the season before can buy you a wave upgrade worth twenty minutes of clean tracks."
+              "content": "Big loppets seed start waves from previous results, and some accept results from partner races[^fs-elite-wave][^fs-birkie-wave-part3]. If a monument is your goal, a smaller seeded race the season before can buy you a wave upgrade worth twenty minutes of clean tracks."
             }
           ]
         },
@@ -429,6 +471,24 @@
             }
           ]
         }
+      ],
+      "sources": [
+        {
+          "id": "fs-elite-wave",
+          "title": "Welcome to the Elite Wave",
+          "author": "Jason Albert",
+          "publisher": "FasterSkier",
+          "year": 2019,
+          "url": "https://fasterskier.com/2019/03/welcome-to-the-elite-wave/"
+        },
+        {
+          "id": "fs-birkie-wave-part3",
+          "title": "Why Skiing (and Am I in the Right Birkie Wave?): Part III",
+          "author": "Scott Cummings",
+          "publisher": "FasterSkier",
+          "year": 2018,
+          "url": "https://fasterskier.com/2018/02/skiing-right-birkie-wave-part-iii/"
+        }
       ]
     },
     {
@@ -451,7 +511,7 @@
               "type": "callout",
               "style": "note",
               "title": "Why skiers test so high",
-              "content": "The biggest oxygen-uptake numbers in sports science belong to cross-country skiers — arms and legs together demand more than legs alone. The encouraging corollary: ski training upgrades your whole body, and fitness from running or cycling transfers in better than you'd fear."
+              "content": "The biggest oxygen-uptake numbers in sports science belong to cross-country skiers[^sandbakk-holmberg-2017][^holmberg-2015-insights] — arms and legs together demand more than legs alone. The encouraging corollary: ski training upgrades your whole body, and fitness from running or cycling transfers in better than you'd fear."
             }
           ]
         },
@@ -460,7 +520,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "You need three intensities, honestly separated. The sport's dashboard is breathing, not gadgets.\n\nEasy means conversational — full sentences, nose-breathing on the flats, the pace that feels embarrassingly slow the first month and turns out to be where the engine is built. Most of your time lives here. When easy drifts toward medium, which it always tries to do, both ends of your training get worse: too tired to go hard, too hard to recover.\n\nThreshold is comfortably hard — phrases, not sentences; sustainable for tens of minutes; the intensity of a long climb taken seriously. This is race pace for most loppet skiers, and you visit it on purpose once or twice a week in season.\n\nHard is 3-to-8-minute-interval hard: single words, honest discomfort, technique holding by will. It sharpens the top end and it is the first thing to cut when life compresses a week, because the base pays the bills.\n\nThe proportions: roughly 80 percent easy, 20 percent not-easy, counted over a month rather than policed daily. This split is the most replicated finding in endurance training, it's how the Norwegians train, and it survives contact with a normal life better than any exotic alternative."
+              "content": "You need three intensities, honestly separated. The sport's dashboard is breathing, not gadgets.\n\nEasy means conversational — full sentences, nose-breathing on the flats, the pace that feels embarrassingly slow the first month and turns out to be where the engine is built. Most of your time lives here. When easy drifts toward medium, which it always tries to do, both ends of your training get worse: too tired to go hard, too hard to recover.\n\nThreshold is comfortably hard — phrases, not sentences; sustainable for tens of minutes; the intensity of a long climb taken seriously. This is race pace for most loppet skiers, and you visit it on purpose once or twice a week in season.\n\nHard is 3-to-8-minute-interval hard: single words, honest discomfort, technique holding by will. It sharpens the top end and it is the first thing to cut when life compresses a week, because the base pays the bills.\n\nThe proportions: roughly 80 percent easy, 20 percent not-easy[^seiler-kjerland-2006], counted over a month rather than policed daily. This split is the most replicated finding in endurance training, it's how the Norwegians train, and it survives contact with a normal life better than any exotic alternative."
             },
             {
               "type": "zone_visualizer",
@@ -542,7 +602,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "The upper body is load-bearing in this sport, and it's the piece newcomers underbuild. Double-poling drives through the lats, triceps, and the whole front of your trunk; on fast classic courses it is most of the propulsion. The fix is not bodybuilding — it's a short, heavy, boring strength routine (pulls, presses, trunk) twice a week from May to November, once a week in season, plus the specific work the sport gives you free: ski erg intervals and bounding with poles.\n\nRollerskis are the bridge. They preserve real technique through the snowless months, and every serious dry-land plan leans on them. Two cautions the tradition insists on: brakes and helmets are not optional, and hills you'd ski down happily on snow can be genuinely dangerous on wheels — route around, not down."
+              "content": "The upper body is load-bearing in this sport, and it's the piece newcomers underbuild. Double-poling drives through the lats, triceps, and the whole front of your trunk; on fast classic courses it is most of the propulsion[^holmberg-legs-dp-2006]. The fix is not bodybuilding — it's a short, heavy, boring strength routine (pulls, presses, trunk) twice a week from May to November, once a week in season, plus the specific work the sport gives you free: ski erg intervals and bounding with poles[^fs-skierg-training][^fs-strong-skiers-resistance][^fs-moose-hoofs].\n\nRollerskis are the bridge. They preserve real technique through the snowless months, and every serious dry-land plan leans on them. Two cautions the tradition insists on: brakes and helmets are not optional, and hills you'd ski down happily on snow can be genuinely dangerous on wheels — route around, not down."
             },
             {
               "type": "flashcard",
@@ -580,7 +640,235 @@
             }
           ]
         }
+      ],
+      "sources": [
+        {
+          "id": "sandbakk-holmberg-2017",
+          "title": "Physiological Capacity and Training Routines of Elite Cross-Country Skiers",
+          "author": "Sandbakk O, Holmberg HC",
+          "publisher": "Int J Sports Physiol Perform 12(8):1003-1011",
+          "year": 2017,
+          "url": "https://doi.org/10.1123/ijspp.2016-0749"
+        },
+        {
+          "id": "holmberg-2015-insights",
+          "title": "The elite cross-country skier provides unique insights into human exercise physiology",
+          "author": "Holmberg HC",
+          "publisher": "Scand J Med Sci Sports 25(S4):100-109",
+          "year": 2015,
+          "url": "https://doi.org/10.1111/sms.12601"
+        },
+        {
+          "id": "seiler-kjerland-2006",
+          "title": "Quantifying training intensity distribution in elite endurance athletes",
+          "author": "Seiler S, Kjerland GO",
+          "publisher": "Scand J Med Sci Sports 16(1):49-56",
+          "year": 2006,
+          "url": "https://doi.org/10.1111/j.1600-0838.2004.00418.x"
+        },
+        {
+          "id": "holmberg-legs-dp-2006",
+          "title": "Contribution of the Legs to Double-Poling Performance in Elite Cross-Country Skiers",
+          "author": "Holmberg HC et al.",
+          "publisher": "Med Sci Sports Exerc 38(10):1853-1860",
+          "year": 2006,
+          "url": "https://doi.org/10.1249/01.mss.0000230121.83641.d1"
+        },
+        {
+          "id": "fs-skierg-training",
+          "title": "SkiErg Training: Training Considerations and Technique",
+          "author": "Ned Dowling",
+          "publisher": "FasterSkier",
+          "year": 2022,
+          "url": "https://fasterskier.com/2022/04/skierg-training-training-considerations-and-technique/"
+        },
+        {
+          "id": "fs-strong-skiers-resistance",
+          "title": "Strong Skiers - Skiing and Resistance Training",
+          "author": "Jason Kask",
+          "publisher": "FasterSkier",
+          "year": 2023,
+          "url": "https://fasterskier.com/2023/08/strong-skiers-skiing-and-resistance-training/"
+        },
+        {
+          "id": "fs-moose-hoofs",
+          "title": "What Are Moose-hoofs?",
+          "author": "FasterSkier",
+          "publisher": "FasterSkier",
+          "year": 2005,
+          "url": "https://fasterskier.com/fsarticle/what-are-moose-hoofs/"
+        }
       ]
     }
-  ]
+  ],
+  "source_library": {
+    "fs-training-hours": {
+      "title": "Revisiting Training Hours: How Many Do You Need?",
+      "author": "Chelsea Little",
+      "publisher": "FasterSkier",
+      "year": 2016,
+      "url": "https://fasterskier.com/2016/06/revisiting-training-hours-how-many-do-you-need/"
+    },
+    "fs-double-pole-alsgaard": {
+      "title": "Alsgaard on the Advent of Double Poling and FIS's 'Stupid Rule'",
+      "author": "Jake Ellis",
+      "publisher": "FasterSkier",
+      "year": 2016,
+      "url": "https://fasterskier.com/fsarticle/alsgaard-advent-double-poling-fiss-stupid-rule/"
+    },
+    "fs-moose-hoofs": {
+      "title": "What Are Moose-hoofs?",
+      "author": "FasterSkier",
+      "publisher": "FasterSkier",
+      "year": 2005,
+      "url": "https://fasterskier.com/fsarticle/what-are-moose-hoofs/"
+    },
+    "fs-kick-waxing-toko": {
+      "title": "Toko: Kick Waxing",
+      "author": "Matthew Voisin",
+      "publisher": "FasterSkier",
+      "year": 2012,
+      "url": "https://fasterskier.com/fsarticle/toko-kick-waxing/"
+    },
+    "fs-elite-wave": {
+      "title": "Welcome to the Elite Wave",
+      "author": "Jason Albert",
+      "publisher": "FasterSkier",
+      "year": 2019,
+      "url": "https://fasterskier.com/2019/03/welcome-to-the-elite-wave/"
+    },
+    "fs-birkie-wave-part3": {
+      "title": "Why Skiing (and Am I in the Right Birkie Wave?): Part III",
+      "author": "Scott Cummings",
+      "publisher": "FasterSkier",
+      "year": 2018,
+      "url": "https://fasterskier.com/2018/02/skiing-right-birkie-wave-part-iii/"
+    },
+    "fs-skierg-training": {
+      "title": "SkiErg Training: Training Considerations and Technique",
+      "author": "Ned Dowling",
+      "publisher": "FasterSkier",
+      "year": 2022,
+      "url": "https://fasterskier.com/2022/04/skierg-training-training-considerations-and-technique/"
+    },
+    "fs-strong-skiers-resistance": {
+      "title": "Strong Skiers - Skiing and Resistance Training",
+      "author": "Jason Kask",
+      "publisher": "FasterSkier",
+      "year": 2023,
+      "url": "https://fasterskier.com/2023/08/strong-skiers-skiing-and-resistance-training/"
+    },
+    "fs-tapering-art": {
+      "title": "Wednesday Workout: The Art of Tapering",
+      "author": "Alex Kochon",
+      "publisher": "FasterSkier",
+      "year": 2013,
+      "url": "https://fasterskier.com/2013/07/wednesday-workout-the-art-of-tapering/"
+    },
+    "fs-peaking-big-race": {
+      "title": "Peaking for the Big Race",
+      "author": "Adam St. Pierre",
+      "publisher": "FasterSkier",
+      "year": 2011,
+      "url": "https://fasterskier.com/fsarticle/peaking-for-the-big-race/"
+    },
+    "fs-live-high-train-low": {
+      "title": "Is Live High, Train Low Dead? Not a Chance, Says Stray-Gundersen",
+      "author": "Chelsea Little",
+      "publisher": "FasterSkier",
+      "year": 2012,
+      "url": "https://fasterskier.com/2012/07/is-live-high-train-low-dead-not-a-chance-says-stray-gundersen-its-just-hard/"
+    },
+    "fs-cold-air-mask-tutt": {
+      "title": "Another mask to add to your wardrobe?",
+      "author": "Alasdair Tutt",
+      "publisher": "FasterSkier",
+      "year": 2020,
+      "url": "https://fasterskier.com/2020/11/another-mask-to-add-to-your-wardrobe-by-alasdair-tutt-msc/"
+    },
+    "fs-economy-efficiency-journals": {
+      "title": "This Month in Journals: Examining Economy, Efficiency and Pacing Strategy on Skis",
+      "author": "Chelsea Little",
+      "publisher": "FasterSkier",
+      "year": 2013,
+      "url": "https://fasterskier.com/2013/06/this-month-in-journals-examining-economy-efficiency-and-pacing-strategy-on-skis/"
+    },
+    "fs-ski-stance-fundamentals": {
+      "title": "In Good Standing - Fundamental Elements of Ski Stance",
+      "author": "Ned Dowling",
+      "publisher": "FasterSkier",
+      "year": 2023,
+      "url": "https://fasterskier.com/2023/10/in-good-standing-fundamental-elements-of-ski-stance/"
+    },
+    "seiler-kjerland-2006": {
+      "title": "Quantifying training intensity distribution in elite endurance athletes",
+      "author": "Seiler S, Kjerland GO",
+      "publisher": "Scand J Med Sci Sports 16(1):49-56",
+      "year": 2006,
+      "url": "https://doi.org/10.1111/j.1600-0838.2004.00418.x"
+    },
+    "sandbakk-holmberg-2017": {
+      "title": "Physiological Capacity and Training Routines of Elite Cross-Country Skiers",
+      "author": "Sandbakk O, Holmberg HC",
+      "publisher": "Int J Sports Physiol Perform 12(8):1003-1011",
+      "year": 2017,
+      "url": "https://doi.org/10.1123/ijspp.2016-0749"
+    },
+    "sandbakk-holmberg-2014": {
+      "title": "A Reappraisal of Success Factors for Olympic Cross-Country Skiing",
+      "author": "Sandbakk O, Holmberg HC",
+      "publisher": "Int J Sports Physiol Perform 9(1):117-121",
+      "year": 2014,
+      "url": "https://doi.org/10.1123/ijspp.2013-0373"
+    },
+    "holmberg-dp-2005": {
+      "title": "Biomechanical Analysis of Double Poling in Elite Cross-Country Skiers",
+      "author": "Holmberg HC et al.",
+      "publisher": "Med Sci Sports Exerc 37(5):807-818",
+      "year": 2005,
+      "url": "https://doi.org/10.1249/01.mss.0000162615.47763.c8"
+    },
+    "holmberg-legs-dp-2006": {
+      "title": "Contribution of the Legs to Double-Poling Performance in Elite Cross-Country Skiers",
+      "author": "Holmberg HC et al.",
+      "publisher": "Med Sci Sports Exerc 38(10):1853-1860",
+      "year": 2006,
+      "url": "https://doi.org/10.1249/01.mss.0000230121.83641.d1"
+    },
+    "vo2max-2011": {
+      "title": "The upper limit of aerobic power in humans (elite XC skier case study)",
+      "author": "",
+      "publisher": "Respir Physiol Neurobiol",
+      "year": 2011,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21373867/"
+    },
+    "holmberg-2015-insights": {
+      "title": "The elite cross-country skier provides unique insights into human exercise physiology",
+      "author": "Holmberg HC",
+      "publisher": "Scand J Med Sci Sports 25(S4):100-109",
+      "year": 2015,
+      "url": "https://doi.org/10.1111/sms.12601"
+    },
+    "kennedy-airway-2020": {
+      "title": "Exercise in Sub-zero Temperatures and Airway Health",
+      "author": "Kennedy MD, Faulhaber M, et al.",
+      "publisher": "Front Sports Act Living 2:34",
+      "year": 2020,
+      "url": "https://doi.org/10.3389/fspor.2020.00034"
+    },
+    "asthma-skiers-2020": {
+      "title": "Asthma in Competitive Cross-Country Skiers: A Systematic Review and Meta-analysis",
+      "author": "",
+      "publisher": "Sports Med 50:1963-1981",
+      "year": 2020,
+      "url": "https://doi.org/10.1007/s40279-020-01334-4"
+    },
+    "jeukendrup-cho-2014": {
+      "title": "A Step Towards Personalized Sports Nutrition: Carbohydrate Intake During Exercise",
+      "author": "Jeukendrup AE",
+      "publisher": "Sports Med 44(S1):S25-S33",
+      "year": 2014,
+      "url": "https://doi.org/10.1007/s40279-014-0148-z"
+    }
+  }
 }
