@@ -1,0 +1,164 @@
+{
+  "title": "The Complete XC Ski Racing Training Guide",
+  "subtitle": "Everything you need to go from skiing to racing — technique, training, snow, and the start line.",
+  "meta_description": "Free XC ski racing training guide: classic and skate technique, training zones, dry-land periodization, waxing basics, fueling in the cold, and race-week protocol. From the team behind 229 rated loppets.",
+  "personalization": {
+    "rider_types": [
+      {"id": "lantern_rouge", "label": "Lantern Rouge", "hours": "0-4 hrs/week"},
+      {"id": "finisher", "label": "Finisher", "hours": "4-8 hrs/week"},
+      {"id": "wave_chaser", "label": "Wave Chaser", "hours": "8-12 hrs/week"},
+      {"id": "elite_wave", "label": "Elite Wave", "hours": "12+ hrs/week"}
+    ]
+  },
+  "glossary": {
+    "loppet": "A long-distance citizen ski race, open to everyone. From the Swedish 'lopp' (run). Vasaloppet is the original.",
+    "classic": "The older technique: skis stay parallel in machine-cut tracks, propulsion from a wax pocket that grips when you press down.",
+    "skate": "The newer technique: skis angled outward on groomed decks, pushed like a speed skater. Faster, no grip wax, harder on the engine.",
+    "kick wax": "Grip wax applied under the binding on classic skis. Chosen by snow temperature — the color-coded system this site's design borrows.",
+    "klister": "Sticky grip 'wax' from a tube, for wet or icy snow. Legendary for ending up everywhere except the ski.",
+    "double pole": "Propelling yourself with both poles and no leg kick. The dominant gear on fast, flat classic terrain.",
+    "wave": "Start group. Big loppets seed thousands of skiers into waves by qualification time — your wave sets your race.",
+    "worldloppet": "The international federation of the biggest citizen races — the monuments of the sport.",
+    "grooming": "Machine preparation of the snow: cut tracks for classic, a flat deck for skate.",
+    "rollerski": "Wheeled skis for pavement. How racers keep technique through the snowless months.",
+    "ski erg": "A pole-motion cable machine. Double-pole fitness without leaving the basement.",
+    "bounding": "Uphill running with poles, exaggerating the ski motion. Brutal, effective dry-land work.",
+    "wax pocket": "The cambered zone under a classic ski that only touches snow when you press down — where kick wax lives.",
+    "glide wax": "Speed wax applied to the gliding zones of any ski. Not grip — glide.",
+    "corduroy": "Freshly groomed snow, named for the ribbed texture the machine leaves."
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "id": "what-is-xc-ski-racing",
+      "title": "What Is XC Ski Racing?",
+      "subtitle": "And what you actually need to start",
+      "gated": false,
+      "cta_after": "race_database",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "the-sport",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Cross-country ski racing is moving yourself across frozen terrain, on skis, for distances ranging from \"brisk winter outing\" to \"the length of a Swedish province.\"\n\nThe races are called loppets — citizen races, open to anyone, run on machine-groomed trails through forest and mountain terrain. The big ones are older than almost everything else in endurance sport: Vasaloppet has been run since 1922, and the course commemorates a king's escape from 1520. When you line up at a monument loppet, you are inside a hundred years of other people's suffering. The sport takes this seriously and so will you."
+            },
+            {
+              "type": "prose",
+              "content": "Here's what makes XC racing different from other endurance sports:\n\nIt uses everything. Cycling spares your upper body; running spares your arms. Skiing spares nothing. Poling drives through your triceps, lats, and trunk; the kick loads your glutes and hips; the balance work never stops. This is why skiers post the highest oxygen-uptake numbers ever measured in a lab — and why the sport is so honest. There is nowhere to hide a weakness.\n\nTechnique is a second engine. At citizen level, the differences between skiers are mostly not fitness. A skier with modest fitness and clean technique will glide past a stronger athlete who fights the snow. You can buy fitness with hours; technique you buy with attention. This guide takes both seriously.\n\nConditions are a third opponent. The snow changes under you — cold and squeaky, warm and sugary, icy and fast. Equipment choices that took the top skiers' service teams all morning will take you five minutes with a rule of thumb, and chapter 7 gives you the rules of thumb."
+            },
+            {
+              "type": "callout",
+              "style": "note",
+              "title": "The culture",
+              "content": "Loppet culture rewards finishing. The person who wins Vasaloppet and the person who finishes as the lights come on both get blueberry soup at the feed stations and both skied the same 90 kilometers. Finishing counts. How you finish is between you and your ego."
+            }
+          ]
+        },
+        {
+          "id": "classic-vs-skate",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "There are two techniques, and they are close to two different sports.\n\nClassic is the original: skis parallel in cut tracks, propulsion from pressing a gripping wax pocket into the snow, or from double-poling — both poles, no kick, the whole upper body firing at once. Classic is where the monuments live: Vasaloppet, Birkebeinerrennet, and Marcialonga are all classic races. It is gentler to learn and merciless to master, because grip depends on wax, and wax depends on snow.\n\nSkate came from ski marathoners improvising in the 1980s and looks like speed skating on snow: skis angled outward on a groomed deck, no grip wax at all. It is faster, roughly 8 to 10 percent on the same course, harder on the cardiovascular system, and unforgiving on hills — when a climb gets steep and you get tired, skate technique degrades in ways that cost you double.\n\nMost skiers eventually do both. Start with whichever your local trails and your local rental fleet support, and let the race you fall in love with decide the rest."
+            },
+            {
+              "type": "tabs",
+              "tabs": [
+                {"label": "Classic", "content": "Skis stay in cut tracks. Grip from kick wax (or fish scales/skins on touring skis). Gears: diagonal stride for climbs, kick double-pole for rolling terrain, double-pole for speed. Easier to start, deep to master. The monuments are classic."},
+                {"label": "Skate", "content": "Skis angled on a groomed deck, no grip wax. Gears: V1 for climbs, V2 and V2-alternate for speed. Faster, more intense, technique collapses when you redline. Most North American loppets offer both; the American Birkebeiner's skate race is the big one."},
+                {"label": "Both", "content": "Many skiers train both all season — they load the body differently, which is free durability. If a race offers both techniques, entry lists show skate running faster and classic running deeper in tradition."}
+              ]
+            },
+            {
+              "type": "race_reference",
+              "slug": "birkebeinerrennet",
+              "context": "classic monument — 54 km with a mandatory 3.5 kg pack, commemorating the 1206 rescue of the infant prince"
+            },
+            {
+              "type": "race_reference",
+              "slug": "american-birkebeiner",
+              "context": "North America's biggest — 50 km skate and 55 km classic through the Wisconsin northwoods"
+            }
+          ]
+        },
+        {
+          "id": "rider-types",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Everything in this guide is filtered through four rider types. Find yours; the personalized notes in every chapter key off it.\n\nThis is about available hours, not talent. Hours are the honest currency of endurance training, and pretending you have twelve when you have five is how seasons die in November."
+            },
+            {
+              "type": "data_table",
+              "title": "The four rider types",
+              "headers": ["Type", "Hours/week", "The season goal", "The honest description"],
+              "rows": [
+                ["Lantern Rouge", "0-4", "Finish the loppet upright and smiling", "Skiing is one of several things in a full life. The plan must survive missed weeks."],
+                ["Finisher", "4-8", "Finish strong — negative-split the back half", "Consistent but constrained. Most skiers live here. Most of this guide is aimed here."],
+                ["Wave Chaser", "8-12", "Qualify up a start wave; PB a monument", "Structured year, real dry-land season, technique work on purpose."],
+                ["Elite Wave", "12+", "Front-wave seeding, age-group results", "Training is a planned part of the week, every week, including July."]
+              ]
+            },
+            {
+              "type": "personalized_content",
+              "variants": {
+                "lantern_rouge": "Your enemy is not fitness — it's the gap between December enthusiasm and February reality. Chapter 3's minimum-effective-dose plan shape exists for you.",
+                "finisher": "You'll gain the most from chapter 4: at 4-8 hours, technique economy is worth more than any interval block you have time for.",
+                "wave_chaser": "Wave qualification is won in the dry-land months. Chapter 3's year wheel and chapter 8's off-season are your chapters.",
+                "elite_wave": "You already train. The margins for you are in chapters 5-7: fueling in the cold, tactics, and race-week execution."
+              }
+            }
+          ]
+        },
+        {
+          "id": "race-anatomy",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "A loppet morning, so nothing surprises you:\n\nYou start in a wave — a seeded group of hundreds or thousands, assigned from a previous result or, for your first race, near the back. The gun goes and nothing happens for thirty seconds, because two thousand people cannot accelerate at once. The first kilometers are a negotiation: tracks are limited, poles are everywhere, and patience here is measurably faster than panic.\n\nFeed stations come every 8 to 12 kilometers: warm sport drink, blueberry soup at the Scandinavian classics, bananas going gently frozen at the edges. You learn to drink with poles dangling from your wrists at 15 km/h. Chapter 5 covers why skipping stations to save a minute costs you ten.\n\nThe finish is a stadium — often a real one. Birkebeinerrennet ends at the Lillehammer 1994 Olympic venue. You will not care about your time for at least ten minutes, and then you will care very much, and that's when the next season starts."
+            },
+            {
+              "type": "process_list",
+              "title": "Your first loppet, condensed",
+              "steps": [
+                {"title": "Pick a race 4+ months out", "content": "Long enough to train honestly, close enough to stay motivated. Chapter 2 is the shopping guide."},
+                {"title": "Enter early", "content": "Monuments sell out. Entry also settles the question of which technique you're training."},
+                {"title": "Train the year you have", "content": "Not the year a pro has. Chapter 3 builds the plan shape per rider type."},
+                {"title": "Learn snow on purpose", "content": "A weekly technique focus beats a season of unexamined kilometers. Chapter 4."},
+                {"title": "Race it as a rehearsal", "content": "A local 20-30 km race 4-6 weeks before your goal teaches you feeds, wax, and waves cheaply."}
+              ]
+            },
+            {
+              "type": "knowledge_check",
+              "question": "At citizen level, what separates finishers most?",
+              "options": [
+                {"label": "Raw fitness", "correct": false, "response": "It matters — but at citizen level it's rarely the biggest gap."},
+                {"label": "Technique economy", "correct": true, "response": "Right. Clean technique is a second engine, and unlike fitness it doesn't demand more hours — it demands attention."},
+                {"label": "Equipment cost", "correct": false, "response": "Fast skis help, but a mid-range ski gliding cleanly beats a race ski fighting the snow."}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-you-need",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Gear, honestly: a ski package (skis, boots, poles) in your technique; ski clothing, which is thinner than beginners believe — you are the furnace, dress like you're running, not standing; and a basic wax kit if you're on classic waxable skis, which chapter 7 shrinks to a five-minute routine.\n\nWhat you do not need: the top-line race ski, a heart-rate lab, a wax bench that costs more than your first car, or anyone's permission. Rental fleets at big loppets are real and good. Fitness first, technique second, equipment a distant third — the sport is expensive only if you insist on making it so."
+            },
+            {
+              "type": "accordion",
+              "items": [
+                {"title": "Waxable vs waxless classic skis", "content": "Waxless (fish scales or skins) trades a little glide for zero wax fuss — the right call for Lantern Rouge and busy Finishers. Waxable skis are faster when the wax is right and slower when it's wrong; they come with a hobby attached."},
+                {"title": "Do I need a power meter equivalent?", "content": "No. XC pacing runs on effort and heart rate. A ski erg gives numbers if you love numbers, but the sport's dashboard is your breathing."},
+                {"title": "Can I train for this on rollerskis alone?", "content": "You can build most of the engine and much of the technique on rollerskis — that's the entire dry-land tradition — but plan on real snow time before racing: balance and downhills don't transfer from pavement."}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
