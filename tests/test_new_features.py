@@ -23,6 +23,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
+NON_RACE_DIRS = {"search", "training-plans", "coaching", "questionnaire"}
 
 # ── Helpers ──────────────────────────────────────────────────────
 
@@ -47,7 +48,7 @@ def _all_race_pages():
     for slug_dir in sorted(OUTPUT_DIR.iterdir()):
         if not slug_dir.is_dir():
             continue
-        if slug_dir.name in ("search", "training-plans", "coaching"):
+        if slug_dir.name in NON_RACE_DIRS:
             continue
         index = slug_dir / "index.html"
         if index.exists():
@@ -66,6 +67,7 @@ class TestGA4:
         ("vasaloppet/index.html", "race page"),
         ("training-plans/index.html", "training plans"),
         ("coaching/apply/index.html", "coaching form"),
+        ("questionnaire/index.html", "questionnaire"),
     ])
     def test_ga4_present(self, page, label):
         html = _load_page(page)
@@ -75,6 +77,7 @@ class TestGA4:
         "vasaloppet/index.html",
         "training-plans/index.html",
         "coaching/apply/index.html",
+        "questionnaire/index.html",
     ])
     def test_ga4_consent_gated(self, page):
         """GA4 must check xl_consent cookie before firing."""
@@ -107,6 +110,7 @@ class TestCookieConsent:
         "vasaloppet/index.html",
         "training-plans/index.html",
         "coaching/apply/index.html",
+        "questionnaire/index.html",
     ])
     def test_consent_banner_present(self, page):
         html = _load_page(page)
@@ -287,6 +291,7 @@ class TestAccessibility:
         "vasaloppet/index.html",
         "training-plans/index.html",
         "coaching/apply/index.html",
+        "questionnaire/index.html",
     ])
     def test_focus_visible_on_all_pages(self, page):
         html = _load_page(page)
