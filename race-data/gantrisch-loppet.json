@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Gantrisch Loppet",
+    "slug": "gantrisch-loppet",
+    "display_name": "Gantrisch Loppet",
+    "tagline": "A Swiss Loppet race in the pre-Alpine Gantrisch nature park — compact freestyle skiing south of Bern with views of the Bernese Alps.",
+    "vitals": {
+      "distance_km": 20.5,
+      "distance_options": [
+        "20.5km"
+      ],
+      "elevation_m": 477,
+      "altitude_m": 1000,
+      "location": "Gantrisch region, Bern",
+      "location_badge": "Bern, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Bern",
+      "date": "Fourth Sunday of January",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.swissloppet.ch",
+      "lat": 46.76,
+      "lng": 7.46,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 477
+    },
+    "climate": {
+      "primary": "Pre-Alpine Swiss winter",
+      "description": "Gantrisch nature park at ~1,000m altitude. Snow reliability moderate; event has been cancelled in some years. Temperatures typically -5°C to 2°C.",
+      "typical_temp_c": "-5 to 2",
+      "challenges": [
+        "Snow reliability is a concern — event cancelled in some years",
+        "Pre-Alpine altitude provides marginal conditions",
+        "Wind exposure possible"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Gantrisch nature park south of Bern. Pre-Alpine terrain with forest and meadow sections.",
+      "format": "loop",
+      "surface": "Machine-groomed skating trails",
+      "technical_rating": 2,
+      "grooming": "Good Swiss Loppet standard grooming",
+      "features": [
+        "Gantrisch Nature Park setting",
+        "Views of the Bernese Alps",
+        "Part of the Swiss Loppet series",
+        "Close to Bern"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 41,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "Pleasant Gantrisch Nature Park setting close to Bern, but snow reliability limits the event.",
+      "tier_note": "Score 41 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Gantrisch Loppet is a Swiss Loppet series race in the Gantrisch Nature Park south of Bern. The area offers pre-Alpine Nordic skiing relatively close to Switzerland's capital.",
+      "notable_facts": [
+        "Set in Gantrisch Nature Park, a UNESCO Biosphere candidate",
+        "Part of the Swiss Loppet series",
+        "Accessible from Bern (~45 minutes)"
+      ],
+      "founded": 2024
+    },
+    "series_membership": [
+      "swiss_loppet"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

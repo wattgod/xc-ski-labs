@@ -1,0 +1,219 @@
+{
+  "race": {
+    "name": "Tartu Maratoni Retrosõit",
+    "slug": "tartu-maratoni-retrosoit",
+    "display_name": "Tartu Maratoni Retrosõit",
+    "tagline": "Thirty kilometers of wooden-ski nostalgia through the Estonian snowfields — where the Tartu Marathon tradition lives in its purest form.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 80,
+      "location": "Otepää",
+      "location_badge": "Tartumaa, Estonia",
+      "country": "Estonia",
+      "country_code": "EE",
+      "region": "Tartumaa",
+      "date": "Mid-February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 500,
+      "founded": 2005,
+      "registration": "Online registration; open entry",
+      "prize_purse": null,
+      "aid_stations": "3 feed stations with warm drinks and energy food",
+      "cutoff_time": null,
+      "website": "https://www.tartumaraton.ee",
+      "lat": 58.0547,
+      "lng": 26.4946,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Baltic continental winter",
+      "description": "Mid-February in southern Estonia. The flat, low-altitude terrain means snow cover is not guaranteed every year, though the Otepää region is the snowiest in Estonia. Temperatures typically -10 to -3 degrees Celsius. Wind exposure across open fields can create significant wind chill.",
+      "typical_temp_c": "-10 to -3",
+      "challenges": [
+        "Low altitude makes snow cover unreliable in warm winters",
+        "Wind exposure across flat Estonian terrain",
+        "Short daylight hours in February",
+        "Retro wooden equipment adds challenge on technical sections"
+      ]
+    },
+    "course": {
+      "primary": "A 30km classic course through the rolling hills and forests around Otepää, following a shortened version of the main Tartu Marathon route. The retro format requires participants to use traditional wooden skis and period-appropriate equipment, adding a heritage dimension to the skiing experience.",
+      "format": "point-to-point",
+      "surface": "Groomed classic tracks through forest and open farmland",
+      "technical_rating": 2,
+      "grooming": "Standard grooming adapted for the retro format with wider tracks",
+      "features": [
+        "Mandatory wooden skis and traditional equipment",
+        "Course through the hilly Otepää winter sports region",
+        "Heritage celebration of Estonian skiing traditions",
+        "Part of the broader Tartu Marathon festival weekend",
+        "Period costumes encouraged among participants"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 46,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Community score elevated by the unique retro format and cultural celebration. Limited by small field, low altitude snow reliability, and niche international appeal.",
+      "tier_note": "Score 46 places in TIER 3"
+    },
+    "history": {
+      "summary": "Launched in 2005 as a companion event to the main Tartu Marathon, the Retrosõit celebrates Estonia's skiing heritage by requiring participants to use traditional wooden skis. The event is a nostalgic tribute to the early days of Nordic skiing in Estonia, when the Tartu Marathon was first held in 1960. The 30km distance is deliberately shorter to accommodate the slower wooden equipment.",
+      "notable_facts": [
+        "Participants must use traditional wooden skis with leather bindings",
+        "Period costumes and vintage equipment are encouraged and celebrated",
+        "Companion event to the main Tartu Marathon (Worldloppet member since 1983)",
+        "Otepää is known as the 'Winter Capital of Estonia'",
+        "The main Tartu Marathon has been held since 1960"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Tartu Maratoni Retrosõit cross country ski race Otepää",
+      "videos": [
+        {
+          "video_id": "frvuRBhbzvM",
+          "title": "Otepää MK 2005 Veerpalu ja Mae",
+          "channel": "Pisipatu",
+          "view_count": 19323,
+          "upload_date": "20110416",
+          "duration_string": "9:54",
+          "description": "",
+          "tags": [
+            "Otepää",
+            "Veerpalu",
+            "Mae",
+            "MK",
+            "2005 olympic games"
+          ],
+          "url": "https://www.youtube.com/watch?v=frvuRBhbzvM",
+          "curated": false
+        },
+        {
+          "video_id": "4zc4NJTveLw",
+          "title": "Tartu Maraton 2024 - Falling into a river - Jõkke kukkumine",
+          "channel": "EestiMaal",
+          "view_count": 66074,
+          "upload_date": "20240218",
+          "duration_string": "36",
+          "description": "ENGLISH: This happened at the 2 km point during the 50th Tartu Ski Marathon. A skier was trying to avoid a collision with someone who had fallen in front of him and ended up on an ice slope that dragged him into the river. Despite the -5°C and 61 km still ahead of him, the brave man continued the competition and finished with an incredible time. He is a testament to what skiers are made of. I did not post this video until I saw the skier himself talk about it on TV and in the newspaper.\n\nESTONIAN: See juhtus 50. Tartu Maratoni 2. kilomeetril. Suusataja proovis vältida otsasõitu enda ees kukkunud inimestele ja nendest mööda laveerides sattus väga libedale pinnale, mis ta lõpuks jõkke viis. Vaatamata väljas olevale -5 C temperatuurile ja eesseisvale 61-le kilomeetile, jätkas vapper mees võistlust ja lõpetas suurepärase ajaga. See on näide, millisest materjalist on õiged suusatajad tehtud. Ma ei postitanud seda videot enne, kui suusataja oli ise sellest televisioonis ja ajakirjanduses rääkinud.\n\n--------------------------------------------------------------------------------------------------------\n*** If you like this video I invite you to SUBSCRIBE to my channel and leave a LIKE!\n--------------------------------------------------------------------------------------------------------\n\nPR_159",
+          "tags": [
+            "Tartu Maraton",
+            "50. Tartu Maraton",
+            "2024",
+            "2 km laskumine",
+            "kukkumised",
+            "Otepää",
+            "Tehvandi",
+            "suusatamine",
+            "maraton",
+            "Tartu Ski Marathin",
+            "50th Tartu Ski Marathon",
+            "2k point",
+            "falls",
+            "accidents",
+            "mishaps",
+            "falling into river",
+            "falling into stream",
+            "skier in water",
+            "jõkke kullumine",
+            "jõkke sõitmine",
+            "suustaja vees",
+            "skier falls into water",
+            "suusataja kukub vette"
+          ],
+          "url": "https://www.youtube.com/watch?v=4zc4NJTveLw",
+          "curated": false
+        },
+        {
+          "video_id": "7Va_HHLvZSk",
+          "title": "Suusahüpped - Põhjamaade noorte meistrivõistlused, 26.02.2016",
+          "channel": "Baltic Broadcasting",
+          "view_count": 3359,
+          "upload_date": "20160226",
+          "duration_string": "1:46:53",
+          "description": "otseülekanne Baltic Broadcasting OÜ\nhttp://www.broadcasting.ee\nhttps://www.facebook.com/balticbroadcasting\nhttps://www.instagram.com/balticbroadcasting",
+          "tags": [
+            "BB",
+            "Baltic",
+            "Broadcasting",
+            "balticbroadcasting",
+            "sport",
+            "põhjamaade",
+            "nordic",
+            "MV",
+            "meistrivõistlused",
+            "suusahüpped"
+          ],
+          "url": "https://www.youtube.com/watch?v=7Va_HHLvZSk",
+          "curated": false
+        },
+        {
+          "video_id": "QHiS_ZAGum4",
+          "title": "52. Tartu Maratoni videokokkuvõte",
+          "channel": "Estoloppet",
+          "view_count": 722,
+          "upload_date": "20260216",
+          "duration_string": "2:50",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=QHiS_ZAGum4",
+          "curated": false
+        },
+        {
+          "video_id": "l733KHl_XjM",
+          "title": "50. Tartu Maraton - Tartu Ski Marathon - 2km point - 2024",
+          "channel": "EestiMaal",
+          "view_count": 18730,
+          "upload_date": "20240218",
+          "duration_string": "7:11",
+          "description": "ENGLISH: This video was filmed at the 2 km point of the 50th Tartu Ski Marathon. This location is one of the trickiest as it is very fast, resulting in many falls. This year the track was rather icy and therefore very fast. The winners of the marathon were: Henri Roos, Marko Kilp, Lauri Lepistö, Taavi Kõiv, Andrus Veerpaly, Andres Juursalu\n\nESTONIAN: See video on filmitud 50. Tartu Maratoni 2. kilomeetril. Seal asuv laskumine on üks maratoni kiiremaid ja seal juhtub palju kukkumisi. Seal aasal oli rada jäine ja väga kiire. Tartu Maratoni võitjad olid: Henri Roos, Marko Kilp, Lauri Lepistö, Taavi Kõiv, Andrus Veerpaly, Andres Juursalu\n\n--------------------------------------------------------------------------------------------------------\n*** If you like this video I invite you to SUBSCRIBE to my channel and leave a LIKE!\n--------------------------------------------------------------------------------------------------------\n\nPR_158",
+          "tags": [
+            "Tartu Maraton",
+            "50. Tartu Maraton",
+            "2024",
+            "2 km laskumine",
+            "kukkumised",
+            "Otepää",
+            "Tehvandi",
+            "suusatamine",
+            "maraton",
+            "Tartu Ski Marathin",
+            "50th Tartu Ski Marathon",
+            "2k point",
+            "falls",
+            "accidents",
+            "mishaps"
+          ],
+          "url": "https://www.youtube.com/watch?v=l733KHl_XjM",
+          "curated": true,
+          "curation_reason": "Course preview of the challenging 2km point with specific details about icy conditions and frequent crashes.",
+          "display_order": 2
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

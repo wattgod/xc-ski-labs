@@ -19,8 +19,8 @@
       "region": "South Bohemia",
       "date": "February",
       "date_specific": null,
-      "discipline": "skate",
-      "field_size": "~1,500",
+      "discipline": "both",
+      "field_size": 1500,
       "founded": 1984,
       "registration": "Open registration",
       "prize_purse": null,
@@ -28,7 +28,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 49.02,
-      "lng": 13.58
+      "lng": 13.58,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 650
     },
     "climate": {
       "primary": "Central European mountain winter",
@@ -92,8 +94,134 @@
       "euroloppet"
     ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-11",
+      "search_query": "Šumavský Skimaraton cross country ski race Kvilda",
+      "videos": [
+        {
+          "video_id": "6wZXXaX0Jg8",
+          "title": "Šumavský Skimaraton Kooperativy 2013",
+          "channel": "SPZofficial",
+          "view_count": 2248,
+          "upload_date": "20130313",
+          "duration_string": "3:39",
+          "description": "",
+          "tags": [
+            "běžky",
+            "ski",
+            "snow",
+            "běžecké lyžování",
+            "SPŽ",
+            "loppet",
+            "lauf"
+          ],
+          "url": "https://www.youtube.com/watch?v=6wZXXaX0Jg8",
+          "curated": true,
+          "curation_reason": "Official race coverage from 2013 providing visual documentation of the event atmosphere and course conditions.",
+          "display_order": 3
+        },
+        {
+          "video_id": "_W5eKf7KYFc",
+          "title": "Prezentace Šumavský skimaraton",
+          "channel": "Pavel Hlava",
+          "view_count": 1175,
+          "upload_date": "20071221",
+          "duration_string": "9:56",
+          "description": "Prezentace Šumavského skimaratonu\r\nPresentation of Šumavský skimaraton",
+          "tags": [
+            "Šumava",
+            "Sumava",
+            "skimaraton",
+            "maraton",
+            "euroloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=_W5eKf7KYFc",
+          "curated": true,
+          "curation_reason": "Course preview presentation providing detailed information about the race route and terrain features.",
+          "display_order": 2
+        },
+        {
+          "video_id": "IsagCmbzjek",
+          "title": "Šumavský skimaraton v poledních zprávách České televize",
+          "channel": "Pavel Hlava",
+          "view_count": 1606,
+          "upload_date": "20090224",
+          "duration_string": "1:12",
+          "description": "",
+          "tags": [
+            "pokus2"
+          ],
+          "url": "https://www.youtube.com/watch?v=IsagCmbzjek",
+          "curated": false
+        },
+        {
+          "video_id": "axqoqAZ8rCU",
+          "title": "Starten i Bergebo Skimaraton 2015 - kamera 2",
+          "channel": "Bergebo Skimaraton",
+          "view_count": 309,
+          "upload_date": "20150128",
+          "duration_string": "2:23",
+          "description": "Starten i Bergebo Skimaraton 2015 från kameraposition 2",
+          "tags": [
+            "Bergebo Skimaraton 2015"
+          ],
+          "url": "https://www.youtube.com/watch?v=axqoqAZ8rCU",
+          "curated": false
+        },
+        {
+          "video_id": "pzwwBOIhhEo",
+          "title": "Z ORLICKÝCH HOR DO JESENÍKŮ - nonstop na běžkách - 200 km / 5000 m",
+          "channel": "Tomas Petrecek",
+          "view_count": 4300,
+          "upload_date": "20210218",
+          "duration_string": "6:58",
+          "description": "Rozhodl jsem se vyzkoušet bezpečné cestování mezi kraji. V neděli 14.2.2021 před polednem jsem vyrazil na delší a svižnější \"výlet\" na běžkách. Myšlenku na tento přechod jsem měl v hlavě už několik let a právě teď nadešel ten správný čas. Tolik sněhu totiž už dlouho nebylo…\nVystartoval jsem z Deštné v Orlických horách na trasu dlouhou 200 km nonstop s převýšením téměř 5000 m a po třiceti hodinách dorazil do Karlové Studánky a tam padnul únavou.\nTo celé sám, bez podpory s velkou svačinou, lyžema, batohem a dobrou náladou... \n\nTomáš Petreček\nMůj život je jedno velké dobrodružství...\n\nSledovat ho můžete zde:\n➡️   Instagram - http://instagram.com/tomaspetrecek/   ⬅️\n➡️   Facebook - https://www.facebook.com/tomaspetrecek   ⬅️\n➡️   WWW - http://tomaspetrecek.cz  ⬅️\n➡️   Wikipedia - https://cs.wikipedia.org/wiki/Tomáš_Petreček   ⬅️\n➡️   YouTube - https://www.youtube.com/tomaspetrecek   ⬅️",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=pzwwBOIhhEo",
+          "curated": false
+        },
+        {
+          "video_id": "NSq_OK8m_yQ",
+          "title": "Trénink Skiraplat - 5.3.2013",
+          "channel": "Pavel Hlava",
+          "view_count": 133,
+          "upload_date": "20130307",
+          "duration_string": "4:33",
+          "description": "Trénink našich nejmenších. Již skoro jarní výlet z Vodníka údolím křesánovského potoka na louky pod Drozdárnu. Krásné lyžování přímo ve Vimperku, nádherné počasí a nezapomenutelné zážitky :-)",
+          "tags": [
+            "Vimperk",
+            "Ski klub Šumava",
+            "Vodník",
+            "lyžování"
+          ],
+          "url": "https://www.youtube.com/watch?v=NSq_OK8m_yQ",
+          "curated": false
+        },
+        {
+          "video_id": "COE8QTssdG0",
+          "title": "🔴 Šumavský skimaraton TV NOVA 2022 Sobota",
+          "channel": "SportSoft Timing",
+          "view_count": 1217,
+          "upload_date": "20220226",
+          "duration_string": "5:53:24",
+          "description": "https://www.sportsoft.cz/",
+          "tags": [
+            "sportsoft",
+            "stopa pro zivot",
+            "sumava",
+            "skimaraton",
+            "šumavský skimaraton",
+            "tv nova",
+            "kvilda",
+            "horská kvilda",
+            "skatemaraton",
+            "minimaraton",
+            "sportsoft tv"
+          ],
+          "url": "https://www.youtube.com/watch?v=COE8QTssdG0",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

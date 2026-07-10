@@ -19,15 +19,17 @@
       "date": "Late February",
       "date_specific": "2026: February 22",
       "discipline": "classic",
-      "field_size": "~12,000 starters (2,400 teams of 5)",
+      "field_size": 5000,
       "founded": 2003,
       "registration": "Online registration, sells out rapidly — team captain registers",
       "prize_purse": "None",
       "aid_stations": "Full Vasaloppet checkpoint infrastructure at each exchange zone",
       "cutoff_time": "Individual leg cutoffs enforced at exchange zones",
-      "website": "https://www.vasaloppet.se/stafettvasan",
+      "website": "https://www.vasaloppet.se/en/ski/stafettvasan/",
       "lat": 61.0067,
-      "lng": 14.5356
+      "lng": 14.5356,
+      "field_size_estimate": 12000,
+      "elevation_gain_m": 850
     },
     "climate": {
       "primary": "Continental Scandinavian winter",
@@ -93,8 +95,237 @@
       "vasaloppet_winter_week"
     ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "StafettVasan cross country ski race Sälen to Mora",
+      "videos": [
+        {
+          "video_id": "M4jDC7oLmdU",
+          "title": "SYND 6 3 78 VASA CROSS COUNTRY SKI RACE IN MORA, SWEDEN",
+          "channel": "AP Archive",
+          "view_count": 1700,
+          "upload_date": "20150724",
+          "duration_string": "1:11",
+          "description": "(5 Mar 1978) Scenes of Vasa Cross Country Ski Race in Mora, Sweden: Jean-Paul Pierrat of France won the 53-mile (85 kilometres) Vasa cross-country ski race on Sunday (5 March). Pierrat, a 30 year old customs officer from Chamonix, France, upset a field of Nordic favourites to be the first Frenchman to win the gruelling race which commemorates the 1521 flight from Danish occupants of Gustav Vasa, later king of Sweden. The winner finished the race in 5 hours, 20 minutes and 12 seconds - more than two minutes ahead of Tommy Jonsson, a 21- year old Mora skier. Third, beaten by jonsson on the finish in Vasa Street in Mora town centre, was Matti Kuoski of Hogsby, Sweden, winner of the 1974 and 1976 races. This year's race had gathered a record number of participants - 11,596 skiers from 19 nations - and took place in poor weather conditions. Only sixty percent of the skiers managed to cross the finish line\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/87d64546c49aae69a5b23639add9d93a",
+          "tags": [
+            "AP Archive",
+            "z036515",
+            "87d64546c49aae69a5b23639add9d93a",
+            "SWEDEN CROSS COUNTRY SKI RACE",
+            "Sweden",
+            "France",
+            "Western Europe"
+          ],
+          "url": "https://www.youtube.com/watch?v=M4jDC7oLmdU",
+          "curated": false
+        },
+        {
+          "video_id": "b5pP568mRxc",
+          "title": "SYND 5 3 79 12000 SKIERS TAKE PART IN CROSS COUNTRY SKI RACE IN SALEN",
+          "channel": "AP Archive",
+          "view_count": 848,
+          "upload_date": "20150724",
+          "duration_string": "2:01",
+          "description": "(4 Mar 1979) More than 12,000 skiers set off early in the world's biggest mass sports event, the Vasaloppet cross-country ski race. This annual event takes competitors through the forests of Sweden, along an 85-kilometre course. It's not just a race for experts. Those taking part come from many countries, and they're of both sexes and all ages. There is a dramatic finish, with Sweden's Ola Hassis finishing just ahead of rivals from Finland and Norway.\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/63e0d63d0dd7b618a7a94c1fb4346503",
+          "tags": [
+            "AP Archive",
+            "z041022",
+            "63e0d63d0dd7b618a7a94c1fb4346503",
+            "Sport",
+            "SWEDEN SKIING",
+            "Sweden",
+            "Western Europe"
+          ],
+          "url": "https://www.youtube.com/watch?v=b5pP568mRxc",
+          "curated": false
+        },
+        {
+          "video_id": "Et8wFefciW8",
+          "title": "SYND 5-3-73 ANNUAL VASALOPPET SKI RACE IN SWEDEN",
+          "channel": "AP Archive",
+          "view_count": 827,
+          "upload_date": "20150723",
+          "duration_string": "2:16",
+          "description": "(5 Mar 1973) Worlds longest, annual, cross country ski race, the Vasaloppet, covers 53 miles (85 kilometers) between the towns Mora And Salen, in Sweden\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/dfe0399664b4894f1a42b6bb869c2abe",
+          "tags": [
+            "AP Archive",
+            "z017194",
+            "dfe0399664b4894f1a42b6bb869c2abe",
+            "SWEDEN SKI RACE"
+          ],
+          "url": "https://www.youtube.com/watch?v=Et8wFefciW8",
+          "curated": false
+        },
+        {
+          "video_id": "ddfrd6b0-Hg",
+          "title": "Vasastafetten",
+          "channel": "vasaloppet",
+          "view_count": 3534,
+          "upload_date": "20190914",
+          "duration_string": "1:00",
+          "description": "Folkfest när tio löpare delar på sträckan mellan Sälen och Mora. \nRäkna med folkfest när hundratals lag med tio löpare i varje – föreningar, företag, familjer och kompisgäng – delar på den klassiska sträckan från Sälen till Mora. Vasastafetten är ett terränglopp både för elitlöpare och motionärer, sträckorna är mellan 4,5 km och 15 km. Loppet har tre klasser: dam, herr och motion.\n\nhttps://www.vasaloppet.se/lopp/loplopp/vasastafetten/\n\nRunning fest where ten runners split the distance from Sälen to Mora.\nCount on big running festivities when hundreds of teams of ten runners each – associations, companies, families and groups of friends – share the classic stretch from Sälen to Mora. Vasastafetten is a cross-country race for both elite and recreational runners, with sections ranging between 4.5 km and 15 km. The race has three classes: women, men and leisure.\n\nhttps://www.vasaloppet.se/en/races/running-races/vasastafetten/",
+          "tags": [
+            "stafettävling",
+            "lagtävling",
+            "företagsevent",
+            "stafett",
+            "stafettvasan",
+            "dalarna",
+            "mora",
+            "sälen"
+          ],
+          "url": "https://www.youtube.com/watch?v=ddfrd6b0-Hg",
+          "curated": false
+        },
+        {
+          "video_id": "tTIf3tUfUGU",
+          "title": "SYND 6-3-72 VASALOPPET CROSS COUNTRY SKI RACE",
+          "channel": "AP Archive",
+          "view_count": 480,
+          "upload_date": "20150723",
+          "duration_string": "1:49",
+          "description": "(5 Mar 1972) Vasaloppet cross country ski race\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/788e6f69ae35f37b714ebea7f8a3115f",
+          "tags": [
+            "AP Archive",
+            "z014181",
+            "788e6f69ae35f37b714ebea7f8a3115f",
+            "SWEDEN SKI RACE"
+          ],
+          "url": "https://www.youtube.com/watch?v=tTIf3tUfUGU",
+          "curated": false
+        },
+        {
+          "video_id": "6-IwLquyIRA",
+          "title": "SYND 7 3 77 'VASALOPPET' CROSS COUNTRY SKIING RACE WON BY RUSSIAN",
+          "channel": "AP Archive",
+          "view_count": 1314,
+          "upload_date": "20150724",
+          "duration_string": "1:18",
+          "description": "(6 Mar 1977) Twelve thousand skiers from eighteen nations lined up in the Swedish village of Mora  for the Vasaloppet.  This year's Vasaloppet, the name given to the world's longest and most arduous cross-country ski race. has been won for the first time by a Russian competitor. Ivan Caranin covered the 85-kilometres around the Swedish township of Mora in a time of four hours thirty minutes and four seconds. he finished almost two minutes ahead of his nearest rival for victory.  The wreath was placed around the winner's shoulders by a local girl Christina Andersson, herself a cross-country skier.\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/90617f9ac27fc02101e72bd5e8d5535e",
+          "tags": [
+            "AP Archive",
+            "z031215",
+            "90617f9ac27fc02101e72bd5e8d5535e",
+            "SWEDEN SKIING RACE",
+            "Sweden",
+            "Western Europe"
+          ],
+          "url": "https://www.youtube.com/watch?v=6-IwLquyIRA",
+          "curated": false
+        },
+        {
+          "video_id": "zCVcJMFuYa4",
+          "title": "Vasaloppet",
+          "channel": "vasaloppet",
+          "view_count": 116083,
+          "upload_date": "20200325",
+          "duration_string": "1:00",
+          "description": "Vasaloppet är världens största långlopp på skidor. Traditionen är lång och hundratusentals skidåkare har kämpat sig fram i Vasaloppsspåret sedan starten 1922. För att klara av utmaningen på 90 km krävs kontinuerlig träning och noggranna förberedelser. Åkstilen är klassisk och naturupplevelsen magisk. I Sverige följs loppet av två miljoner tv-tittare. Nu är det dags att anta utmaningen!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=zCVcJMFuYa4",
+          "curated": false
+        },
+        {
+          "video_id": "mr2aiswtz80",
+          "title": "Syskonlag i Stafettvasan",
+          "channel": "vasaloppet",
+          "view_count": 20178,
+          "upload_date": "20090227",
+          "duration_string": "3:49",
+          "description": "Många olika sorters lag deltog i Stafettvasan i år. Ett av dem var ett syskonlag som vi här följer.",
+          "tags": [
+            "Vasaloppet",
+            "stafettvasan"
+          ],
+          "url": "https://www.youtube.com/watch?v=mr2aiswtz80",
+          "curated": true,
+          "curation_reason": "Team perspective following siblings through the relay race experience.",
+          "display_order": 2
+        },
+        {
+          "video_id": "JC5SwepcWuk",
+          "title": "Inför ditt lopp - Stafettvasan 2019",
+          "channel": "vasaloppet",
+          "view_count": 1247,
+          "upload_date": "20190228",
+          "duration_string": "1:44",
+          "description": "Här får du allmän information om loppet, vallatips och väder.",
+          "tags": [
+            "vasaloppet",
+            "stafettvasan"
+          ],
+          "url": "https://www.youtube.com/watch?v=JC5SwepcWuk",
+          "curated": false
+        },
+        {
+          "video_id": "IXqzPTz9cBY",
+          "title": "Stafettvasan",
+          "channel": "vasaloppet",
+          "view_count": 13158,
+          "upload_date": "20200406",
+          "duration_string": "1:00",
+          "description": "Fem deltagare delar på den 90 km långa sträckan från Sälen till Mora. Det spelar ingen roll om ni är ett företag eller ett kompisgäng, alla får uppleva samma feststämning och glädje. Även om många av sträckorna är förhållandevis korta, så krävs träning och bra förberedelser. Varför inte träna tillsammans i laget? Då kan ni lyfta varandra hela vägen fram mot mållinjen i Mora.\n\nDelsträckornas längd:\n1. Start i Sälen–Mångsbodarna 24 km\n2. Mångsbodarna–Evertsberg   24 km\n3. Evertsberg–Oxberg                 14 km\n4. Oxberg– Hökberg                      9 km\n5. Hökberg– Mål i Mora              19 km",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=IXqzPTz9cBY",
+          "curated": false
+        },
+        {
+          "video_id": "-WLPv_nJoto",
+          "title": "Stafettvasan 2018 Team Engadin",
+          "channel": "curdinpfister89",
+          "view_count": 141,
+          "upload_date": "20180310",
+          "duration_string": "8:29",
+          "description": "Stafettvasan 2018\nStart with -27°C\nTime 7:26h",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=-WLPv_nJoto",
+          "curated": true,
+          "curation_reason": "Team race experience with extreme cold conditions (-27°C) showing real race challenges.",
+          "display_order": 3
+        },
+        {
+          "video_id": "RzBp_T5Gdzw",
+          "title": "Stafettvasan 2012",
+          "channel": "Pål Erlandsson",
+          "view_count": 2744,
+          "upload_date": "20120307",
+          "duration_string": "8:58",
+          "description": "Lag Swedwise de två första sträckorna",
+          "tags": [
+            "Stafettvasan",
+            "2012",
+            "Längdskidor",
+            "Klassiskt",
+            "Cross",
+            "Country",
+            "Skiing",
+            "Skii",
+            "Huvudkamera",
+            "HD",
+            "Hero2",
+            "GoPro",
+            "Head",
+            "Camera",
+            "Berga",
+            "By",
+            "Sälen",
+            "Sprängsbackarna",
+            "Smågan",
+            "Långheden",
+            "Mångsbodarna",
+            "Tennäng",
+            "Mora",
+            "Vasaloppet",
+            "Outdoor Sports",
+            "Mora (locality)",
+            "Snow Sports"
+          ],
+          "url": "https://www.youtube.com/watch?v=RzBp_T5Gdzw",
+          "curated": true,
+          "curation_reason": "Team race footage covering the first two stages of the relay course.",
+          "display_order": 4
+        }
+      ],
+      "quotes": []
     }
   }
 }

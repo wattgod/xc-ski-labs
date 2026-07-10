@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Panorama Nordic Loppet",
+    "slug": "panorama-nordic-loppet",
+    "display_name": "Panorama Nordic Loppet",
+    "tagline": "A small-field gem in the Columbia Valley — ski beneath the Purcell Mountains with a hot springs finish reward.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "25km classic",
+        "10km introductory"
+      ],
+      "elevation_m": 250,
+      "altitude_m": 1200,
+      "location": "Invermere, British Columbia",
+      "location_badge": "British Columbia, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "Early February",
+      "date_specific": "2027: February 6",
+      "discipline": "both",
+      "field_size": 100,
+      "founded": 2012,
+      "registration": "Opens in autumn; small field fills quickly",
+      "prize_purse": null,
+      "aid_stations": "Two stations with water and snacks",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 50.51,
+      "lng": -116.04,
+      "field_size_estimate": 100,
+      "elevation_gain_m": 250
+    },
+    "climate": {
+      "primary": "Interior BC mountain winter",
+      "description": "Early February in the Columbia Valley brings cold, dry continental conditions. Temperatures typically -15°C to -5°C. The valley location provides some shelter from major storms but guarantees reliable cold.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Cold starts in the valley bottom before warming with elevation gain",
+        "Dry powder snow requires specific wax selection",
+        "Limited daylight in early February",
+        "Remote location requires planning for travel"
+      ]
+    },
+    "course": {
+      "primary": "A 25km loop through the trail network near Panorama Mountain Resort in the Columbia Valley. The course winds through subalpine forest with views of the Purcell and Rocky Mountain ranges. Moderate elevation gain with rolling terrain suited to intermediate skiers.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through subalpine forest",
+      "technical_rating": 2,
+      "grooming": "Resort-affiliated grooming, adequate but basic",
+      "features": [
+        "Views of both the Purcell and Rocky Mountain ranges",
+        "Quiet forest trails through pristine Columbia Valley wilderness",
+        "Access to Panorama hot springs and resort village post-race",
+        "Small, intimate field with a friendly community atmosphere",
+        "Good introductory distance for newer marathon skiers"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 44,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 5,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "A tiny but scenic loppet in one of BC's most beautiful mountain valleys. The setting is spectacular but the event lacks the field size, organization, and competitive depth of established races. A destination for scenery seekers, not podium chasers.",
+      "tier_note": null
+    },
+    "history": {
+      "summary": "A young event started around 2012 by the local Nordic club to promote cross-country skiing in the Columbia Valley. Panorama is better known as an alpine ski resort, but the area has a small but dedicated Nordic community. The race remains a grassroots affair, organized by volunteers and drawing primarily from the Invermere and Windermere communities.",
+      "notable_facts": [
+        "Panorama Mountain Resort is primarily known for alpine skiing",
+        "The Columbia Valley has a small but passionate Nordic ski community",
+        "Invermere hot springs are a popular post-race destination",
+        "One of the few organized Nordic races in the East Kootenay region"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": null,
+      "search_query": null,
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

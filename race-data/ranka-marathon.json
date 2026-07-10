@@ -1,0 +1,105 @@
+{
+  "race": {
+    "name": "Ranka Kartonfabric Ski Marathon",
+    "slug": "ranka-marathon",
+    "display_name": "Ranka Marathon",
+    "tagline": "Fifty to one hundred kilometers of freestyle skiing through Latvia's meadows, fields, and forests — a Ski Classics Challengers event with a standout 100km ultra distance.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "100km",
+        "50km",
+        "20km",
+        "7km"
+      ],
+      "elevation_m": 150,
+      "altitude_m": 200,
+      "location": "Ranka",
+      "location_badge": "Vidzeme, Latvia",
+      "country": "Latvia",
+      "country_code": "LV",
+      "region": "Vidzeme Uplands",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 500,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://skiclassics.com",
+      "lat": 57.15,
+      "lng": 26.05,
+      "field_size_estimate": 750,
+      "elevation_gain_m": 150
+    },
+    "climate": {
+      "primary": "Baltic continental winter",
+      "description": "February in the Vidzeme Uplands means cold continental conditions with reliable snow in most years. Temperatures range from -15°C to -2°C. Latvia's inland position east of Riga provides colder, more stable winter conditions than the coast. Flat terrain means wind exposure across open fields.",
+      "typical_temp_c": "-15 to -2",
+      "challenges": [
+        "Wind exposure across flat open terrain",
+        "Variable snow reliability — Baltic climate warming is a concern",
+        "Flat course offers no shelter from wind",
+        "Remote Latvian countryside — limited international transport"
+      ]
+    },
+    "course": {
+      "primary": "A multi-distance freestyle event through the Latvian countryside near Ranka, approximately 130km from Riga. The course traverses meadows, fields, and forests across relatively flat terrain with small undulations. The standout 100km ultra distance is one of the longest single-day ski marathon options in Europe.",
+      "format": "loop",
+      "surface": "Groomed trails through Latvian countryside — meadows, fields, and forests",
+      "technical_rating": 2,
+      "grooming": "Event-specific grooming on Latvian countryside tracks",
+      "features": [
+        "100km ultra distance option — one of Europe's longest single-day ski races",
+        "Ski Classics Challengers event",
+        "Beautiful Latvian countryside — meadows, fields, and forests",
+        "Flat terrain suitable for fast freestyle skiing",
+        "Four distance options from 7km to 100km",
+        "Approximately 130km from Riga"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 4,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "High distance score with the 100km ultra option. Ski Classics Challengers membership provides international visibility and competitive depth. Flat terrain limits elevation and technicality. Baltic snow reliability is moderate.",
+      "tier_note": "Score 47 confirms TIER 3"
+    },
+    "history": {
+      "summary": "The Ranka Kartonfabric Ski Marathon is a multi-distance freestyle event in the Latvian countryside, joined the Ski Classics Challengers circuit in 2024. The 100km ultra distance is a standout feature, offering one of the longest single-day ski marathon options in Europe. The event is part of Latvia's growing citizen ski racing scene, alongside the Latloppet Madona event. Set approximately 130km from Riga in the Vidzeme Uplands region.",
+      "notable_facts": [
+        "Joined Ski Classics Challengers circuit in 2024",
+        "100km ultra distance — one of Europe's longest single-day ski races",
+        "Four distance options: 100km, 50km, 20km, 7km",
+        "Set in the Latvian countryside near Ranka (Vidzeme Uplands)",
+        "Freestyle technique",
+        "Part of Latvia's growing citizen ski racing scene"
+      ],
+      "founded": 2024
+    },
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

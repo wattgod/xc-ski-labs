@@ -6,7 +6,10 @@
     "tagline": "Forty-two kilometers beneath the Grand Bec summit — a Vanoise Alps skate marathon where glaciated peaks tower over every stride through Champagny's high valley.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km", "21km"],
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
       "elevation_m": 800,
       "altitude_m": 1450,
       "location": "Champagny-en-Vanoise",
@@ -17,15 +20,17 @@
       "date": "February",
       "date_specific": null,
       "discipline": "skate",
-      "field_size": "~800 starters",
+      "field_size": 800,
       "founded": 1985,
       "registration": "Online registration",
       "prize_purse": null,
       "aid_stations": "Feed stations with French alpine provisions",
       "cutoff_time": null,
       "website": null,
-      "lat": 45.4500,
-      "lng": 6.7167
+      "lat": 45.45,
+      "lng": 6.7167,
+      "field_size_estimate": 800,
+      "elevation_gain_m": 800
     },
     "climate": {
       "primary": "High Alpine winter",
@@ -86,10 +91,220 @@
         "One of the highest-altitude ski marathons in the French Alps"
       ]
     },
-    "series_membership": ["marathon_ski_tour"],
+    "series_membership": [
+      "marathon_ski_tour"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Marathon du Grand Bec cross country ski race Champagny-en-Vanoise",
+      "videos": [
+        {
+          "video_id": "k7z7q06jv4Q",
+          "title": "[Event] Marathon du Grand Bec 2015 - Champagny en Vanoise",
+          "channel": "La Plagne - Ski resort",
+          "view_count": 3166,
+          "upload_date": "20150224",
+          "duration_string": "4:37",
+          "description": "Le marathon du Grand Bec est une grande course populaire de ski nordique. Elle se déroule tous les hivers sur le magnifique plateau de Champagny-le-Haut, en Savoie.\nPlusieurs distances sont proposées aux participants: 42km, 21km, 10km, 5km, 3km et 1,5km pour les plus jeunes.\n\nRetrouvez des sportifs de la France entière pour partager un moment de convivialité et pratiquer votre passion dans un site exceptionnel.\n\nPlus d'infos sur : http://www.marathondugrandbec.com/",
+          "tags": [
+            "marathon",
+            "ski de fond",
+            "populaire",
+            "Iris Pessey",
+            "GUIGONNET LOIC",
+            "CHAMBELLANT THOMAS",
+            "DEMANGEAT RACHEL",
+            "Champagny le Haut",
+            "Course de fond",
+            "bozel",
+            "Sprint (Sport)",
+            "Nordic Exéprience"
+          ],
+          "url": "https://www.youtube.com/watch?v=k7z7q06jv4Q",
+          "curated": true,
+          "curation_reason": "Official race coverage showing the course layout and race atmosphere at Champagny-le-Haut plateau.",
+          "display_order": 2
+        },
+        {
+          "video_id": "ftWnMe8CeWI",
+          "title": "Champagny en Vanoise",
+          "channel": "Ady Short",
+          "view_count": 513,
+          "upload_date": "20160627",
+          "duration_string": "3:38",
+          "description": "Pralognan La Vanoise descent and climb into Champagny en Vanoise, up through the village and into the beautiful valley beyond where the route up to the Grand Bec (not on a bike!) lies.  Off the usual, well beaten, track for cyclists but a bit special and less traffic.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ftWnMe8CeWI",
+          "curated": false
+        },
+        {
+          "video_id": "abltU83AvH4",
+          "title": "EN GOPRO SUR MON PREMIER MARATHON!! (Marathon du Grand Bec)",
+          "channel": "Basile Bunoz",
+          "view_count": 880,
+          "upload_date": "20240410",
+          "duration_string": "12:57",
+          "description": "Après la victoire sur la Foulée Blanche, je vous remmène en caméra embarquée pour mon premier marathon, à Champagny-en-Vanoise en Savoie, pour la 4e étape du Marathon Ski Tour! 🏁 J'espère que cette vidéo avec Guilhem vous plaira, c'était une belle première expérience, avec de la neige, du soleil, et un beau final! 🍿\n\n0:00 Intro\n0:25 Voyages\n01:42 Veille de course\n02:54 Jour de course\n03:34 Mass start 42km Skate\n10:53 Récup\n\n\n🎥 Merci beaucoup à Guilhem pour les images, et à Nils pour m’avoir prêté la Gopro!  \n\n\n🦾 Merci à mes partenaires:\n\n🗞 YPMédias (http://www.ypmedias.com/)\n\n🏔 Chamrousse (https://www.chamrousse.com/)\n\n🎿 Atomic (https://www.atomic.com/fr-fr)\n\n🥢 Swix (https://www.swixsport.com/fr)\n\n🛼 R17 Rollerskis (https://r17.ski)\n\n🍼 Hydrascore (https://www.hydrascore.fr/)\n\n🕶 ODC Opticiens (https://www.odc-opticiens.com/)\n\n\n\n\n\n\n\n#ski  #xcskiing  #racing  #trail  #trailrunning  #sport  #competition  #skating  #classic  #rollerski  #rollerskiing  #cycling  #cycle  #vlog",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=abltU83AvH4",
+          "curated": true,
+          "curation_reason": "Recent first-person GoPro POV video of the actual Marathon du Grand Bec race experience with detailed race footage.",
+          "display_order": 1
+        },
+        {
+          "video_id": "DwGsYCK-PeY",
+          "title": "2015 Bretton Woods Marathon",
+          "channel": "Bretton Woods",
+          "view_count": 407,
+          "upload_date": "20150309",
+          "duration_string": "27",
+          "description": "And they're off! The 2015 Bretton Woods Nordic Marathon was held on March 7, 2015 at Omni Mount Washington Resort. This 42-kilometer, classic format, cross-country ski race showcases one of the largest Nordic systems in the northeast.  In the tracks of the famed 1982 US National Championships and such legends as Bill Koch and Tim Caldwell, this race is steeped in history and Nordic skiing tradition.",
+          "tags": [
+            "Bretton Woods (City/Town/Village)",
+            "Marathon (Sport)",
+            "Cross-country Skiing (Sport)",
+            "Nordic Skiing (Sport)",
+            "Omni Hotels & Resorts (Business Operation)"
+          ],
+          "url": "https://www.youtube.com/watch?v=DwGsYCK-PeY",
+          "curated": false
+        },
+        {
+          "video_id": "a6U0vm0_yH4",
+          "title": "Water and food station at the Birkebeiner cross-country skiing marathon",
+          "channel": "Traveling Ted",
+          "view_count": 288,
+          "upload_date": "20130225",
+          "duration_string": "1:11",
+          "description": "http://travelingted.com",
+          "tags": [
+            "cross-country skiing",
+            "American Birkebeiner",
+            "skiing",
+            "Wisconsin",
+            "Birkie",
+            "marathon",
+            "outdoors",
+            "Hayward Wisconsin"
+          ],
+          "url": "https://www.youtube.com/watch?v=a6U0vm0_yH4",
+          "curated": false
+        },
+        {
+          "video_id": "sif5EWw7RyE",
+          "title": "Dartmouth Ski Team Runs Boston Marathon",
+          "channel": "Holly Hart",
+          "view_count": 241,
+          "upload_date": "20140424",
+          "duration_string": "2:46",
+          "description": "Dartmouth Ski Team Runs Boston Marathon",
+          "tags": [
+            "Dartmouth",
+            "Ski",
+            "Team",
+            "Runs",
+            "Boston",
+            "Marathon"
+          ],
+          "url": "https://www.youtube.com/watch?v=sif5EWw7RyE",
+          "curated": false
+        },
+        {
+          "video_id": "Q7ZE2mYcLBs",
+          "title": "Trail Grand Bec 2010 -  Trail Alpin",
+          "channel": "La Plagne - Ski resort",
+          "view_count": 1105,
+          "upload_date": "20100811",
+          "duration_string": "5:44",
+          "description": "Le \"Trail alpin du Grand Bec\"... une évolution du célèbre \"Cross Alpin du Grand Bec\" :\n\n+ long, + \"roulant\", + de dénivelé ! \nCourse en montagne sur pistes et sentiers, agréée et inscrite au calendrier de la Fédération Française d'Athlétisme.\nDistance : 20km, dénivelé + : 1874m, dénivelé - : 1624m\n\n+ Randonnée : parcours de marche sur sentier - Ouvert à tous !",
+          "tags": [
+            "Trail",
+            "Alpin",
+            "montagne",
+            "course",
+            "pied",
+            "marc",
+            "maroud",
+            "6d",
+            "challenge",
+            "champagny",
+            "en",
+            "vanoise",
+            "refuge"
+          ],
+          "url": "https://www.youtube.com/watch?v=Q7ZE2mYcLBs",
+          "curated": false
+        },
+        {
+          "video_id": "odbDnIyCLv8",
+          "title": "The Craftsbury Marathon 2012",
+          "channel": "video vermont",
+          "view_count": 235,
+          "upload_date": "20120203",
+          "duration_string": "2:19",
+          "description": "The biggest Cross Country Skiing event in Vermont is the annual Craftsbury Marathon. It attracts hundreds of skiers. Unfortunately the winter of 2011-2012 did not bring a lot of snow. The organizers had to reduce the length of the 25 km and 50 km courses due to insufficient snow. Instead, the race was conducted over a shorter course which the contestants had to ski, once, twice or three times. Still, the course did afford some picturesque countryside and the weather on the day of the race, January 28th, was nice. Film with Canon DSLRs",
+          "tags": [
+            "Craftsbury",
+            "Cross Country Skiing",
+            "Vermont",
+            "DSLR"
+          ],
+          "url": "https://www.youtube.com/watch?v=odbDnIyCLv8",
+          "curated": false
+        },
+        {
+          "video_id": "tOzCoDvRqyk",
+          "title": "100-year-old and 102-year-old runners break world records",
+          "channel": "CBS News",
+          "view_count": 26329777,
+          "upload_date": "20180319",
+          "duration_string": "1:21",
+          "description": "102-year-old Julia \"Hurricane\" Hawkins and 100-year-old Orville Rogers just broke world records in track and field events. How do they do it? \"I have a determination to hang in there. Keep going. Never give up,\" Rogers has said.\n\nSubscribe to the CBS News Channel HERE: http://youtube.com/cbsnews\nWatch CBSN live HERE: http://cbsn.ws/1PlLpZ7\nFollow CBS News on Instagram HERE: https://www.instagram.com/cbsnews/\nLike CBS News on Facebook HERE: http://facebook.com/cbsnews\nFollow CBS News on Twitter HERE: http://twitter.com/cbsnews\n\nGet the latest news and best in original reporting from CBS News delivered to your inbox. Subscribe to newsletters HERE: http://cbsn.ws/1RqHw7T\n\nGet your news on the go! Download CBS News mobile apps HERE: http://cbsn.ws/1Xb1WC8\n\nGet new episodes of shows you love across devices the next day, stream CBSN and local news live, and watch full seasons of CBS fan favorites like Star Trek Discovery anytime, anywhere with CBS All Access. Try it free! http://bit.ly/1OQA29B\n\n---\nCBSN is the first digital streaming news network that will allow Internet-connected consumers to watch live, anchored news coverage on their connected TV and other devices. At launch, the network is available 24/7 and makes all of the resources of CBS News available directly on digital platforms with live, anchored coverage 15 hours each weekday. CBSN. Always On.",
+          "tags": [
+            "CBSN",
+            "CBS News",
+            "centennarians",
+            "world records",
+            "running",
+            "track and field"
+          ],
+          "url": "https://www.youtube.com/watch?v=tOzCoDvRqyk",
+          "curated": false
+        },
+        {
+          "video_id": "PI26P8Uu9ls",
+          "title": "Finlandia Cross-Country Ski Marathon Set To Begin",
+          "channel": "Lakeland PBS",
+          "view_count": 53,
+          "upload_date": "20170218",
+          "duration_string": "1:04",
+          "description": "",
+          "tags": [
+            "Lakeland Public Television",
+            "LPTV",
+            "PBS",
+            "Bemidji",
+            "Minnesota",
+            "MN"
+          ],
+          "url": "https://www.youtube.com/watch?v=PI26P8Uu9ls",
+          "transcript": "if you're in the mood for skiing this\nweekend the Finlandia ski marathon is\nthe thing to do the CrossCountry ski\nMarathon welcomes both beginners and\nexpert skiers and consists of five races\nskiers from all over the country are\nexpected to participate including Canada\nfor the spectator sport it can take\nanywhere from 1 to three hours to\ncomplete the race and participants go\naround the course two to three times\nthis year three there will be some\nchanges to the\ncourse we decided to Short in the course\nthis year um it's normally a 25k Loop um\nand we've gone down to an 11 11k across\nthe road here or what we call the west\nside of buav Vista Ski Area now due to\nthe warm weather the start times for the\nrace have been moved up by 1 hour and\nwill now begin at 9:00 a.m. if you've\nenjoyed this segment of Lakeland news\nplease consider making a tax deductible\ncontribution to Lakeland Public\nTelevision",
+          "curated": false
+        },
+        {
+          "video_id": "yg0Apesl3o4",
+          "title": "Marathon du Grand Bec 2020",
+          "channel": "damien souvy",
+          "view_count": 2103,
+          "upload_date": "20200226",
+          "duration_string": "1:38",
+          "description": "Marathon de ski de fond à Champagny-en-vanoise",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=yg0Apesl3o4",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

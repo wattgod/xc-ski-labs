@@ -1,0 +1,98 @@
+{
+  "race": {
+    "name": "Šumava Loppet",
+    "slug": "sumava-loppet",
+    "display_name": "Šumava Loppet",
+    "tagline": "Fifty kilometers through the Bohemian Forest wilderness — where ancient woodland and Czech resilience define Central Europe's most remote loppet.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": [
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 900,
+      "location": "Kvílda",
+      "location_badge": "Plzeň Region, Czech Republic",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "region": "South Bohemia (Jihočeský kraj)",
+      "date": "Late January",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 700,
+      "founded": 1978,
+      "registration": "Online registration; open entry",
+      "prize_purse": null,
+      "aid_stations": "4 feed stations with warm tea, soup, and Czech pastries",
+      "cutoff_time": null,
+      "website": "https://www.sumava-loppet.cz",
+      "lat": 49.0167,
+      "lng": 13.5833,
+      "field_size_estimate": 700,
+      "elevation_gain_m": 500
+    },
+    "climate": {
+      "primary": "Bohemian mountain winter",
+      "description": "Late January in the Šumava mountains along the Czech-German-Austrian border. The forested plateau at around 900-1100m provides reasonable snow reliability for Central Europe. Temperatures typically -10 to -4 degrees Celsius. The remote location and dense forest create a wilderness atmosphere.",
+      "typical_temp_c": "-10 to -4",
+      "challenges": [
+        "Remote forest location with limited rescue access",
+        "Cold air pooling in the high plateau clearings",
+        "Variable snow quality between exposed and forested sections",
+        "Long approach drives to the remote start location"
+      ]
+    },
+    "course": {
+      "primary": "A 50km classic course through the Šumava National Park, one of the last great wilderness areas in Central Europe. The route traverses the high plateau of the Bohemian Forest, passing through ancient spruce forests and open mountain meadows. The terrain is rolling with moderate climbs, characteristic of the Šumava highland landscape.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through national park forest trails",
+      "technical_rating": 2,
+      "grooming": "Good regional grooming through well-maintained national park trail network",
+      "features": [
+        "Course through Šumava National Park — a UNESCO Biosphere Reserve",
+        "Ancient Bohemian Forest with centuries-old spruce stands",
+        "Rolling highland terrain on the Czech-German-Austrian triple border",
+        "Kvílda is the coldest inhabited place in the Czech Republic",
+        "Remote wilderness atmosphere rare in Central European loppets"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 50,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Elevated scenery score for the unique Bohemian Forest wilderness setting in a UNESCO Biosphere Reserve. Limited by moderate altitude snow reliability and regional profile.",
+      "tier_note": "Score 50 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1978 in the Šumava mountains during the Czechoslovak era. The race takes place in what was once part of the Iron Curtain exclusion zone, an area that was off-limits to most civilians for decades. This enforced isolation preserved the ancient Bohemian Forest as one of Europe's most pristine wilderness areas. After the fall of communism, the Šumava Loppet became accessible to all and now draws skiers seeking a genuine wilderness Nordic experience.",
+      "notable_facts": [
+        "The Šumava is a UNESCO Biosphere Reserve and one of Europe's last great forests",
+        "Parts of the course pass through former Iron Curtain exclusion zones",
+        "Kvílda holds the Czech Republic's cold temperature records",
+        "The Bohemian Forest straddles the Czech-German-Austrian triple border",
+        "The Šumava National Park protects over 680 square kilometers of ancient forest"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

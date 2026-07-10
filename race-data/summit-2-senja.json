@@ -1,0 +1,106 @@
+{
+  "race": {
+    "name": "Grand Finale Summit 2 Senja",
+    "slug": "summit-2-senja",
+    "display_name": "Summit 2 Senja",
+    "tagline": "Sixty demanding kilometers from the mountains to the fjords across three Arctic municipalities — the Ski Classics Grand Finale featuring the iconic Magdaskaret climb and spectacular fjord views.",
+    "vitals": {
+      "distance_km": 60,
+      "distance_options": [
+        "60km"
+      ],
+      "elevation_m": 1360,
+      "altitude_m": 300,
+      "location": "Bardufoss to Finnsnes",
+      "location_badge": "Troms, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Northern Norway",
+      "date": "Last Sunday of March (Ski Classics season finale)",
+      "date_specific": "2026: March 29",
+      "discipline": "classic",
+      "field_size": 250,
+      "founded": 2024,
+      "registration": "Qualification required — 1 Pro Tour event within winner's time +50% or 2 Challengers events",
+      "prize_purse": "Ski Classics Pro Tour points and prize money",
+      "aid_stations": "Pro Tour feed zones along the 60km course",
+      "cutoff_time": null,
+      "website": "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+      "lat": 69.05,
+      "lng": 18.5167,
+      "field_size_estimate": 250,
+      "elevation_gain_m": 1360
+    },
+    "climate": {
+      "primary": "Arctic Norwegian coastal/mountain",
+      "description": "Late March in Troms means Arctic spring with lengthening days and reliable snow. Temperatures range from -10°C to 5°C. The course transitions from inland mountain terrain to coastal fjord, creating variable microclimate conditions along the route. March brings 12+ hours of daylight at this latitude.",
+      "typical_temp_c": "-10 to 5",
+      "challenges": [
+        "Arctic conditions — cold and wind at altitude on Magdaskaret",
+        "Course transitions from mountain to fjord — variable conditions",
+        "Wind exposure on coastal/fjord sections",
+        "Demanding 60km with significant climbing",
+        "Qualification required — not open entry"
+      ]
+    },
+    "course": {
+      "primary": "A demanding 60km point-to-point from Bardufoss to Finnsnes, crossing three municipalities (Malselv, Sorreisa, and Senja). The course features everything from long flat stretches with spectacular fjord views to the iconic Magdaskaret climb. Finishes in the city center of Finnsnes. Mountains to fjords — one of the most dramatic courses on the Ski Classics calendar.",
+      "format": "point-to-point",
+      "surface": "Groomed trails through Arctic mountain and fjord terrain",
+      "technical_rating": 4,
+      "grooming": "Pro Tour-standard grooming",
+      "features": [
+        "Iconic Magdaskaret climb — the defining climb of the Grand Finale",
+        "Mountains to fjords — dramatic terrain transition",
+        "Crosses three municipalities: Malselv, Sorreisa, and Senja",
+        "Ski Classics Grand Finale — season-ending Pro Tour event",
+        "Spectacular Arctic fjord views",
+        "Voted 'Best Event of the Year' twice by Pro Team athletes",
+        "Finish in Finnsnes city center"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 74,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 4,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 5,
+      "international_draw": 5,
+      "course_technicality": 4,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 5,
+      "competitive_depth": 5,
+      "score_note": "Maximum prestige, international draw, competitive depth, grooming, scenery, and organization as the Ski Classics Grand Finale. Voted 'Best Event' twice. Very limited recreational field (250 spots) and Arctic location limit accessibility and field size.",
+      "tier_note": "Score 74 confirms TIER 2. Prestige 5 with score >= 75 would force T1 but score is 74, so p5 + score < 75 caps at T2."
+    },
+    "history": {
+      "summary": "Summit 2 Senja is the Ski Classics Pro Tour Grand Finale, first held in 2024 as the season-ending showpiece event. The 60km course from Bardufoss to Finnsnes takes athletes from the mountains to the fjords across three Arctic municipalities, featuring the iconic Magdaskaret climb. Voted 'Best Event of the Year' twice by Pro Team athletes and staff, it has rapidly established itself as one of the most dramatic and celebrated events on the entire Ski Classics calendar. Up to 250 recreational spots are available for qualified skiers.",
+      "notable_facts": [
+        "Ski Classics Pro Tour Grand Finale — season-ending event",
+        "Founded in 2024 as the Grand Finale format",
+        "Voted 'Best Event of the Year' twice by Pro Team athletes and staff",
+        "Features the iconic Magdaskaret climb",
+        "Crosses three municipalities: Malselv, Sorreisa, and Senja",
+        "Up to 250 recreational participation spots for qualified skiers",
+        "Qualification: 1 Pro Tour event within winner's time +50% or 2 Challengers events",
+        "Finish in Finnsnes city center"
+      ],
+      "founded": 2022
+    },
+    "series_membership": [
+      "ski_classics_pro_tour"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

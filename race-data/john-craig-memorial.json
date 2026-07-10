@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "John Craig Memorial",
+    "slug": "john-craig-memorial",
+    "display_name": "John Craig Memorial",
+    "tagline": "A memorial citizen ski race in the Pacific Northwest mountains — honoring a local skiing pioneer with high-altitude Nordic racing.",
+    "vitals": {
+      "distance_km": 19,
+      "distance_options": [
+        "25km",
+        "10km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 1200,
+      "location": "Snoqualmie Pass area, Washington",
+      "location_badge": "Washington, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Washington",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 50,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Basic aid stations",
+      "cutoff_time": null,
+      "website": "https://www.mountaineers.org",
+      "lat": 47.395,
+      "lng": -121.413,
+      "field_size_estimate": 100,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Cascade mountain winter",
+      "description": "Heavy Pacific Northwest snowfall at Snoqualmie Pass. Temperatures typically -5°C to 2°C. Wet, dense snow is common.",
+      "typical_temp_c": "-5 to 2",
+      "challenges": [
+        "Heavy, wet Pacific Northwest snow",
+        "Variable conditions — rain possible at lower elevations",
+        "Mountain pass weather can change rapidly"
+      ]
+    },
+    "course": {
+      "primary": "Mountain trail course near Snoqualmie Pass in the Cascades. Rolling terrain through heavy Pacific Northwest snowpack.",
+      "format": "loop",
+      "surface": "Groomed trails",
+      "technical_rating": 2,
+      "grooming": "Basic grooming",
+      "features": [
+        "Cascade Range mountain setting",
+        "Heavy snowpack typical",
+        "Memorial event honoring local skiing pioneer"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 39,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "A small memorial race with Cascade mountain setting but very limited field and organization.",
+      "tier_note": "Score 39 places in TIER 4"
+    },
+    "history": {
+      "summary": "The John Craig Memorial is a small citizen ski race in Washington's Cascade Mountains, held in memory of a local Nordic skiing pioneer.",
+      "notable_facts": [
+        "Memorial event honoring a Pacific Northwest skiing pioneer",
+        "Set in the Cascade Range near Snoqualmie Pass",
+        "Part of the Pacific Northwest Nordic community"
+      ],
+      "founded": 1934
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

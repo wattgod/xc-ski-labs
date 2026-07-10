@@ -1,0 +1,241 @@
+{
+  "race": {
+    "name": "Larch Hills Loppet",
+    "slug": "larch-hills-loppet",
+    "display_name": "Larch Hills Loppet",
+    "tagline": "British Columbia's interior loppet through the Larch Hills — a community-driven citizen race in the Shuswap region.",
+    "vitals": {
+      "distance_km": 32,
+      "distance_options": [
+        "40km",
+        "25km",
+        "10km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 900,
+      "location": "Salmon Arm, British Columbia",
+      "location_badge": "British Columbia, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "Late January",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 100,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.larchhillsnordics.ca",
+      "lat": 50.7025,
+      "lng": -119.2722,
+      "field_size_estimate": 150,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Interior British Columbia winter",
+      "description": "Reliable snow conditions in the Larch Hills above Salmon Arm. Temperatures typically -10°C to 0°C in late January.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Variable snow conditions depending on elevation",
+        "Possible freezing rain at lower elevations",
+        "Remote mountain setting limits accessibility"
+      ]
+    },
+    "course": {
+      "primary": "Trail course through the Larch Hills Nordic trail system above Shuswap Lake. Mixed forest terrain with moderate climbing.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through mixed forest",
+      "technical_rating": 2,
+      "grooming": "Good volunteer-maintained grooming",
+      "features": [
+        "Views over Shuswap Lake and surrounding mountains",
+        "Community-maintained trail system",
+        "Larch and fir forest setting"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 44,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "A well-established community loppet in BC's interior with good trails but small field.",
+      "tier_note": "Score 44 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Larch Hills Loppet is a community-driven Nordic ski event in the Shuswap region of British Columbia. The Larch Hills trail system is maintained by volunteers and offers some of the best Nordic skiing in BC's interior.",
+      "notable_facts": [
+        "Larch Hills trail system is one of BC's best community-maintained Nordic areas",
+        "Shuswap region has a strong Nordic skiing tradition",
+        "Volunteer-run event with dedicated local community"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Larch Hills Loppet cross country ski race Salmon Arm",
+      "videos": [
+        {
+          "video_id": "CrjevWtblHo",
+          "title": "Reino Keski-Salmi Loppet 2026",
+          "channel": "Sarah Wallensteen-Lauze",
+          "view_count": 2375,
+          "upload_date": "20260118",
+          "duration_string": "8:32",
+          "description": "The 42st annual Reino Keski-Salmi Loppet held at Larch Hills. For more information visit https://skilarchhills.ca/\n\nVideo: Sarah & Adam Lauzé\nGoPro Footage - Trevor Wallensteen\nwww.sarahlauze.com\n\nMusic: The View Between Villages - Noah Kahan\nStep Out - José González\nFriends - Matchbox 20",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=CrjevWtblHo",
+          "curated": true,
+          "curation_reason": "Most recent skier-filmed POV content of the actual Larch Hills Loppet race with GoPro footage.",
+          "display_order": 1
+        },
+        {
+          "video_id": "79wsY2o3nJQ",
+          "title": "Larch Hills Nordics - Silver Star Camp 2013",
+          "channel": "Feisty Penguin",
+          "view_count": 1027,
+          "upload_date": "20131129",
+          "duration_string": "3:45",
+          "description": "Larch Hills Nordic Jr Racing Team 10-11 year olds at ski camp ski and dance to Katy Perry \"Roar\" (Album:  Prism, 2013, Capitol Records).  This activity and organization are not for profit and volunteer led and the purpose of this video is to inspire other kids to try cross country skiing.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=79wsY2o3nJQ",
+          "curated": false
+        },
+        {
+          "video_id": "q5MXlbZZpFE",
+          "title": "Reino Keski-Salmi Loppet 2025",
+          "channel": "Sarah Wallensteen-Lauze",
+          "view_count": 2836,
+          "upload_date": "20250119",
+          "duration_string": "8:11",
+          "description": "The 41st annual Reino Keski-Salmi Loppet held at Larch Hills. For more information visit https://skilarchhills.ca/\n\nVideo: Sarah & Adam Lauzé\nwww.sarahlauze.com\n\nMusic: Good Right Now - Susto\nGood News - Apashe\nFind Your People - Drew Holcomb & The Neighbors",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=q5MXlbZZpFE",
+          "transcript": "[Music]\nI feel good right\nnow outside in the Autumn\ndaytime I love my\nlife and I feel like I am finally making\nmy way down the river towards have\nlong say it\nall to the\nsunshine\nsay to the\nmoonrise what is this\nCelestial body in sky\nif you can see it then you know that you\nare having something come to you through\nyour\neyes is it knowledge is it art is it on\nthe inside of your\nbrain and no matter where you are can\nyou recall it or does it wash away just\nlike the rain\nI'm feel good right\nnow oh I'm going to be all right I want\nto be\nbaptized yeah I want to be a million\nthings I want to find the L of life I'm\nhold and tight what\nI found\nyeah I feel good right\nnow I found a better\nway with all my I'm living my better\nlife and I'm trying try to remember the\nbad times I know what they feel like and\nI know what I\nfeel no no\nit's the end of the world and I'm\nwalking around in circles girl it's the\nend of the day but I'm too St to\nnoce it's the end of the year I'm so\nglad we waiting\nhere for\neverything live what\nyou better live while you okay\nfeels so good right\nnow I can see the sun coming\n[Applause]\nbut now I'll rise above you\nnow I'll rise above you\nhe\nyou got to find your people the ones\nthat make you feel all\nright but can you want to stay up with\nall\nnight you got to find your people the\nones that make you feel\nwhole they won't leave your side when\nyou lose\ncontrol the ones that don't let you lose\nsoul you got to find new people\nthe ones that get the\njoke to understand what you're saying\nfor a word is\nspoke you got to find your people to put\nthe needle in the\ngroove when you're together you got\nnothing to\nPro when you're together you got nothing\nto\nlose in a world full of\nstrangers you don't know who to\ntrust all you see is danger\ntrying to find what you\nlost you can't go It\nAlone everybody needs\nhelp you got to find your people then\nyou'll find\nyourself you got to find your people the\nones that make you feel all\nright to tell you the truth and wish you\nwell\nyou got to find your people then you\nfind\nyourself you got to find your people\nthen you find\nyourself feel good right now\nI can see the sun coming",
+          "curated": true,
+          "curation_reason": "Recent race coverage from same filmmaker showing consistent quality Loppet documentation.",
+          "display_order": 2
+        },
+        {
+          "video_id": "s8UgN7tao8I",
+          "title": "Larch Hills 2010",
+          "channel": "Alex Brown",
+          "view_count": 176,
+          "upload_date": "20110201",
+          "duration_string": "4:36",
+          "description": "Strathcona ski cub at Larch Hills. Soundtrack Black Eyed Peas, Where is The Love Elephunk",
+          "tags": [
+            "cross",
+            "country",
+            "ski",
+            "larch",
+            "hills",
+            "strathcona",
+            "nordics"
+          ],
+          "url": "https://www.youtube.com/watch?v=s8UgN7tao8I",
+          "curated": false
+        },
+        {
+          "video_id": "IHAa9bZ5qmQ",
+          "title": "Rotary at Larch Hills",
+          "channel": "Start Living Again",
+          "view_count": 180,
+          "upload_date": "20190305",
+          "duration_string": "6:42",
+          "description": "Lisa and I are members of the Rotary club  of Salmon Arm and are helping out at the Loppet at  Larch Hills Ski Acres. This is the annual Reno Keski Salmi Loppet. Which is a cross country ski race for all ages. Race distances are from 1km through 34km. The Rotary clubs of Salmon Arm cook and serve beef on a bun with onions and Hamburgers and Hotdogs to all of the event racers and volunteers. We had a great turnout of the Rotarians and we all had a great time.\n\n Please remember Subscribe and hit the bell for notification of our up coming videos.\n\nEmail: Sla.startlivingagain@outliving.com\nInstagram: @sla.startlivingagain\nFacebook:@sla.startlivingagain",
+          "tags": [
+            "Rotary",
+            "Cross country skiing",
+            "Larch Hills",
+            "Larch Hill Ski Acres",
+            "Salmon Arm",
+            "Salmon Arm Chamber of Commerce",
+            "Larch Hills Loppet",
+            "Loppet",
+            "Reno Keski Salmi",
+            "start living again",
+            "sla.startlivingagain",
+            "sla"
+          ],
+          "url": "https://www.youtube.com/watch?v=IHAa9bZ5qmQ",
+          "transcript": "all right we're Steven Lisa Anderson\nand we're starting a YouTube channel\ncalled start living again we're on our\nway - we're on our way to the casks we\nare on our way to the Reno\nCasca saw me lop it at large hills in\nseminar we are part of our Rotary Club\nhere and our Rotary Club every year goes\nup and serves beef on a bun and hotdogs\nto all the skiers and volunteers yes it\nshould be a nice day it's nice and sunny\nout and I hope to see you all in the\nhill bye for now bye bye\n[Music]\nhey hey this is Patrick when we're with\nthe rotary Salmon Arm and we've just\ndone a whole big food thing for for the\nlop it up in large Hills and we served\nwhat it was here about 160 pounds of 600\npeople deep in a bond and hot dogs and\nburgers go yeah yeah and everybody was\njust gorging themselves we have so much\nmean it was so good it was just pulling\noff with new bear and it was breezy that\nhe's crazy but the really best part is\nalmost people did that route behind us\nthey did their 15 or 20 or 30 kilometres\nand they show up here and they turn in\ntheir ticket they get a beef in a bun\nand then they say thank you to us yeah\nwe just we just got the beef so we've\nhad this for how many years you know I\nknow it's been a long time I know I've\nbeen going for a big big years yeah\nthat's right it's all yeah and some of\nthese members have been doing it ever\nsince it started so it's been great\nwe're just volunteering we're just\nhelping out large Hills to put this on\njust just a great volunteer thing for\nour rotary now this is like a community\nthing it's old\nwhat rotary does because we volunteer\nfor our community we step forward and\njust provide the provide the labor clean\nthis thing and make it happen\nno yeah everybody puts in a lot of work\nfor several days just to get everything\norganized and then it's setup and\nteardown it's just a great deal back\nhave a good day yeah fantastic\nthanks a lot better\n[Applause]",
+          "curated": true,
+          "curation_reason": "Community perspective showing race atmosphere and volunteer experience at the Loppet.",
+          "display_order": 4
+        },
+        {
+          "video_id": "9Jwt-k8ZMa0",
+          "title": "BC Champs",
+          "channel": "Vince Kanigan",
+          "view_count": 44,
+          "upload_date": "20120306",
+          "duration_string": "36",
+          "description": "Salmon Arm",
+          "tags": [
+            "Drew racing at Larch Hills"
+          ],
+          "url": "https://www.youtube.com/watch?v=9Jwt-k8ZMa0",
+          "curated": false
+        },
+        {
+          "video_id": "c19EcINbQjg",
+          "title": "Larch hills traverse 2009",
+          "channel": "Nick Proteau",
+          "view_count": 365,
+          "upload_date": "20090921",
+          "duration_string": "5:50",
+          "description": "Riding in Salmon Arm BC",
+          "tags": [
+            "bike",
+            "houseboat",
+            "salmon",
+            "arm",
+            "beer"
+          ],
+          "url": "https://www.youtube.com/watch?v=c19EcINbQjg",
+          "curated": false
+        },
+        {
+          "video_id": "Vr7fN6z6oN4",
+          "title": "Reino Keski-Salmi Loppet 2019",
+          "channel": "Sarah Wallensteen-Lauze",
+          "view_count": 2469,
+          "upload_date": "20190120",
+          "duration_string": "5:37",
+          "description": "The 35th Annual Reino Keski-Salmi Loppet held at Larch Hills. For more information visit https://skilarchhills.ca/loppet/. \n\nVideo: Sarah & Adam Lauzé, Trevor Wallensteen \nwww.sarahlauze.com\n\nMusic: Judah & the Lion - Suit & Jacket \nImagine Dragons - Believer (Kaskade Remix)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Vr7fN6z6oN4",
+          "curated": true,
+          "curation_reason": "Professional race documentation showing multi-year consistency in covering this event.",
+          "display_order": 3
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We served about 160 pounds of beef to 600 people - beef on a bun and hot dogs and burgers. The really best part is when people did their 15 or 20 or 30 kilometres and they show up here and they turn in their ticket they get a beef in a bun and then they say thank you to us.",
+          "source_video_id": "IHAa9bZ5qmQ",
+          "source_channel": "Start Living Again",
+          "source_view_count": 180,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

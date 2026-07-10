@@ -1,0 +1,132 @@
+{
+  "race": {
+    "name": "Ushuaia Ski Marathon",
+    "slug": "ushuaia-ski-marathon",
+    "display_name": "Ushuaia Ski Marathon",
+    "tagline": "Forty-two kilometers of classic skiing at the edge of Antarctica — where Tierra del Fuego's southern beech forests meet the Beagle Channel's glacial winds.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 713,
+      "altitude_m": 350,
+      "location": "Tierra Mayor valley",
+      "location_badge": "Ushuaia, Argentina",
+      "country": "Argentina",
+      "country_code": "AR",
+      "region": "Tierra del Fuego",
+      "date": "September",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 95,
+      "founded": 2005,
+      "registration": "Online and local registration",
+      "prize_purse": null,
+      "aid_stations": "Basic feed stations",
+      "cutoff_time": null,
+      "website": null,
+      "lat": -54.7833,
+      "lng": -68.3167,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 713
+    },
+    "climate": {
+      "primary": "Sub-Antarctic maritime winter",
+      "description": "September is late winter in the Southern Hemisphere. Ushuaia at 55°S brings maritime sub-Antarctic conditions with fierce winds, rain-snow transitions, and limited daylight. Temperatures typically -3°C to 5°C. The maritime climate means snow conditions are variable and challenging — freeze-thaw cycles are common.",
+      "typical_temp_c": "-3 to 5",
+      "challenges": [
+        "Fierce Patagonian winds — gusts can exceed 80 km/h",
+        "Rain-snow transitions due to maritime climate",
+        "Limited September daylight at 55°S latitude",
+        "Variable and often icy snow conditions",
+        "Remote location with limited winter infrastructure"
+      ]
+    },
+    "course": {
+      "primary": "A 42km classic race through the Tierra Mayor valley near Ushuaia. The course traverses sub-Antarctic lenga beech forests and open valleys with views of the Martial Glacier and surrounding Fuegian Andes. The terrain is rolling with moderate climbs. Wind exposure on open sections is the defining challenge. This is a separate event from the Ushuaia Loppet, held later in the season.",
+      "format": "out-and-back",
+      "surface": "Groomed classic tracks through sub-Antarctic terrain; conditions variable",
+      "technical_rating": 3,
+      "grooming": "Basic grooming — limited equipment in remote Patagonian location",
+      "features": [
+        "Southernmost ski marathon on Earth at 55°S",
+        "Tierra Mayor valley beneath the Fuegian Andes",
+        "Views of Martial Glacier and the Beagle Channel",
+        "Sub-Antarctic lenga beech forest scenery",
+        "September race date — late Southern Hemisphere winter"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 46,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Maximum scenery for the extraordinary sub-Antarctic setting at the bottom of the world. International draw is curiosity-driven — bucket-list destination for global ski tourists. Snow reliability and grooming are the key weaknesses due to maritime climate and remote infrastructure. Separate event from the more established Ushuaia Loppet.",
+      "tier_note": "Score 46 confirms TIER 3"
+    },
+    "history": {
+      "summary": "The Ushuaia Ski Marathon is a separate event from the better-known Ushuaia Loppet, held later in the Tierra del Fuego winter season. Set in the Tierra Mayor valley near the world's southernmost city, it offers a marathon-distance classic race in one of the planet's most remote and dramatic landscapes. The event is part of Ushuaia's growing winter sports calendar, which markets the city's position as the gateway to Antarctica.",
+      "notable_facts": [
+        "One of the world's southernmost ski races at 55°S",
+        "Separate event from the more established Ushuaia Loppet",
+        "Tierra Mayor valley is Ushuaia's primary Nordic skiing area",
+        "Ushuaia markets itself as 'El Fin del Mundo' — the End of the World",
+        "September race date is late winter in the Southern Hemisphere"
+      ],
+      "founded": 1986
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Ushuaia Ski Marathon cross country ski race Tierra Mayor valley",
+      "videos": [
+        {
+          "video_id": "5yLVMz9eWM8",
+          "title": "Ushuaia Loppet - Marchablanca - Worldloppet 2018",
+          "channel": "Ushuaia  Esqui de fondo ",
+          "view_count": 2491,
+          "upload_date": "20180820",
+          "duration_string": "3:03",
+          "description": "Resumen del evento deportivo internacional organizado por el Club Andino Ushuaia.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=5yLVMz9eWM8",
+          "curated": true,
+          "curation_reason": "Race coverage showing the Ushuaia Loppet event with course footage and race atmosphere.",
+          "display_order": 1
+        },
+        {
+          "video_id": "5nBkUzlPkGc",
+          "title": "COMING NEXT USHUAIA LOPPET",
+          "channel": "Worldloppet",
+          "view_count": 479,
+          "upload_date": "20190813",
+          "duration_string": "39",
+          "description": "COMING NEXT\n\nLet's start a new Worldloppet Season\nUshuaia Loppet - Marchablanca - Min is coming next week on August 24th. \n\nAre you ready for a new Worldloppet adventure with the new SkiPlanet by Worldloppet Episode?\n\n. SkiPlanet is hosted by Marika Godin\n. Produced by Worldloppet\n. Mizenboite Production",
+          "tags": [
+            "ushuaia loppet",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=5nBkUzlPkGc",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "race": {
+    "name": "Marathon des Belles Combes",
+    "slug": "marathon-des-belles-combes",
+    "display_name": "Marathon des Belles Combes",
+    "tagline": "Season-opening 42km freestyle marathon in the Jura Mountains — the first race of France's Marathon Ski Tour circuit kicks off the French Nordic calendar.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 1100,
+      "location": "Les Moussieres, Jura",
+      "location_badge": "Jura, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Jura",
+      "date": "Late December (season opener)",
+      "date_specific": "2025: December 21",
+      "discipline": "classic",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations on course",
+      "cutoff_time": null,
+      "website": "https://www.marathonskitour.com",
+      "lat": 46.3567,
+      "lng": 5.8089,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 500
+    },
+    "climate": {
+      "primary": "Jura mountain winter",
+      "description": "The Jura Mountains receive reliable snowfall at this altitude, though the December date makes early-season conditions more variable.",
+      "typical_temp_c": "-8 to 0",
+      "challenges": [
+        "Early season — snow conditions can be variable",
+        "Jura weather can be foggy and damp",
+        "December cold",
+        "Lower altitude than Alpine races"
+      ]
+    },
+    "course": {
+      "primary": "42km freestyle marathon through the Jura Mountains around Les Moussieres. Rolling terrain through forest and high pastures.",
+      "format": "loop",
+      "surface": "Machine-groomed skating lanes",
+      "technical_rating": 3,
+      "grooming": "Good French competition grooming",
+      "features": [
+        "Opens the Marathon Ski Tour season",
+        "Jura Mountain scenery",
+        "Rolling terrain through forest and pastures",
+        "Part of the French national long-distance circuit"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Solid mid-tier French marathon that opens the national season, with good organization but limited international draw.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Marathon des Belles Combes opens the Marathon Ski Tour season each December in the Jura Mountains. It is the first race of France's national long-distance Nordic circuit.",
+      "notable_facts": [
+        "Opens the Marathon Ski Tour season",
+        "Part of France's national long-distance circuit",
+        "Jura Mountain venue near La Transjurassienne region",
+        "42km freestyle format"
+      ]
+    },
+    "series_membership": [
+      "marathon_ski_tour"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Marathon des Belles Combes cross country ski race Les Moussieres",
+      "videos": [
+        {
+          "video_id": "oECoZ5TVD1Q",
+          "title": "TCS Lidingöloppet, Stockholm, Sweden, in 2021",
+          "channel": "TCSGlobal",
+          "view_count": 1050,
+          "upload_date": "20220810",
+          "duration_string": "2:18",
+          "description": "In 2021, on a beautiful sunny day in Stockholm, Sweden, 650 TCS employees and clients ran together in the TCS Lidingöloppet. What an inspirational weekend it was. Watch the video to hear about the experiences of those who took part and showed us how resilience and teamwork can get you through any challenge.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=oECoZ5TVD1Q",
+          "transcript": "[Music]\nit's such a beautiful sunny day here in\nstockholm\nand about 650 of our employees and\nclients are running together with us\nactually it's my 11th time here at tcs\nleading in office it's really nice that\nwe are opening up the competitions like\nwe used to\n[Applause]\ntough race\nand i've been here the whole day with my\nfamily\nspent some time here at the hospitality\ntcs\nif i would rate this race between\nstockholm marathon and some of the\nothers that i've run i would say this is\nthe number one it's the best race\nhealth and wellness is a\nimportant part of our philosophy and our\nculture\nwe so look forward to the coming years\nwhen we can invite even more people to\nthis fantastic race\nit's been a really fun\nday a lot of energy a lot of positive\nenergy but i'm tired i must say i'm very\ntired right now\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "dvSOYwa_k_k",
+          "title": "2 PODIUMS EN 1 WEEK-END ?!? (Les Belles Combes 2023, Marathon Ski Tour)",
+          "channel": "Basile Bunoz",
+          "view_count": 800,
+          "upload_date": "20230225",
+          "duration_string": "12:34",
+          "description": "Voici enfin ma vidéo sur le week-end des Belles, avec un 13km Skate et un 26km Classique où je vais essayer d'aller chercher deux podiums! 🔔 Un très bel événement dans le Jura entre deux week-ends de Coupe de France, ce qui me permettra de préparer la dernière, à Prémanon, toujours dans le Jura, à partir d'aujourd'hui 🇫🇷. \n\n\nJe vous donne rendez-vous mercredi prochain pour la vidéo sur le SNT de Prémanon qui aura lieu à partir de demain, avec deux belles courses à ma portée, et encore un week-end de course qui suivra à Prémanon! ✌️\n\n\nVoici le lien de la vidéo des Belles Combes réalisée par MAM Prod, notamment avec ces belles images au drone: https://youtu.be/DX0G-P6IN9k\n\nMerci à Nils Louna et à Emmanuel Perret pour les photos, ainsi qu'à Louis et Boris pour les vidéos des courses 🦾\n\n\nVous pouvez aussi toujours utiliser le code promo BASILE15 sur Hydrascore pour obtenir -15% vos barres et vos boissons isotoniques! https://www.hydrascore.fr/ 🍫🍼\n\n🦾 Merci à mes partenaires:\n\n🗞 YPMédias (http://www.ypmedias.com/)\n\n🏔 Chamrousse (https://www.chamrousse.com/)\n\n🎿 Atomic (https://www.atomic.com/fr-fr)\n\n🥢 Swix (https://www.swixsport.com/fr)\n\n🛼 R17 Rollerskis (https://r17.ski.fr/)\n\n🍼 Hydrascore (https://www.hydrascore.fr/)\n\n🕶 ODC Opticiens (https://www.odc-opticiens.com/)\n\n\nEn attendant la prochaine vidéo, venez me suivre sur Instagram pour suivre mon actualité: https://www.instagram.com/basilebunoz/Voici mon site internet Basile Bunoz Athlete: https://basilebunozathlete.webador.fr et vous pouvez me contacter l’adresse basile.bunoz@gmail.com#ski #xcski #xcskiing #racing #trail #trailrunning #sport #competition #skating #classic #rollerski #rollerskiing #cycling #cycle #vlog",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=dvSOYwa_k_k",
+          "curated": true,
+          "curation_reason": "Recent 2023 skier vlog specifically covering both classic and skate races at Marathon des Belles Combes with podium pursuit narrative.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

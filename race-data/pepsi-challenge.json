@@ -6,8 +6,12 @@
     "tagline": "50 kilometers on a World Cup venue in Minnesota's Iron Range — where the sport's fastest surfaces meet the Midwest's deepest competitive field.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km classic", "50km freestyle", "25km"],
-      "elevation_m": 600,
+      "distance_options": [
+        "50km classic",
+        "50km freestyle",
+        "25km"
+      ],
+      "elevation_m": 305,
       "altitude_m": 490,
       "location": "Biwabik, Minnesota",
       "location_badge": "Minnesota, USA",
@@ -17,7 +21,7 @@
       "date": "Late February or early March",
       "date_specific": "2026: February 28",
       "discipline": "both",
-      "field_size": "~500-800",
+      "field_size": 500,
       "founded": 1987,
       "registration": "Opens in fall; does not typically sell out",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.giantsridge.com",
       "lat": 47.5327,
-      "lng": -92.3337
+      "lng": -92.3337,
+      "field_size_estimate": 650,
+      "elevation_gain_m": 305
     },
     "climate": {
       "primary": "Northern Minnesota continental winter",
@@ -53,7 +59,7 @@
       ]
     },
     "nordic_lab_rating": {
-      "overall_score": 64,
+      "overall_score": 63,
       "tier": 2,
       "tier_label": "TIER 2",
       "discipline": "both",
@@ -84,10 +90,111 @@
         "Part of the American Ski Marathon Series"
       ]
     },
-    "series_membership": ["asm"],
+    "series_membership": [
+      "asm"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Pepsi Challenge cross country ski race Biwabik",
+      "videos": [
+        {
+          "video_id": "SGW29BlL8T0",
+          "title": "Pepsi challenge",
+          "channel": "Mesabi Daily News",
+          "view_count": 131,
+          "upload_date": "20130309",
+          "duration_string": "1:04",
+          "description": "29th annual cross-country race at Giants Ridge in Biwabik, MN",
+          "tags": [
+            "Pepsichallenge",
+            "Ski",
+            "GiantsRidge",
+            "Marathon"
+          ],
+          "url": "https://www.youtube.com/watch?v=SGW29BlL8T0",
+          "transcript": "[Applause]\nand they out the 29th annual Pepsi\nchallenge race is underway this is our\n24 and\n48k classical\nRacers on Saturday March 9th at Giants\nRidge in by wobic Minnesota more than\n300 participants waxed up their\nCrossCountry skem for a chance to win\nbetter their times or just plain finish\nthe Pepsi challenge Cup race the annual\nmarathon on\n[Music]\nsnow Al for more on the 29th Pepsi\nchallenge go online to Virginia\nmn.com or pick up the March 10 edition\nof of the massabi Daily News",
+          "curated": false
+        },
+        {
+          "video_id": "LJsi_CPNS_A",
+          "title": "Pepsi Challenge 2010 Giants Ridge Biwabik Minnesota",
+          "channel": "xc4fun",
+          "view_count": 795,
+          "upload_date": "20100205",
+          "duration_string": "3:37",
+          "description": "Pepsi Challenge 2010 Giants Ridge, MN",
+          "tags": [
+            "Ski",
+            "Cross",
+            "Country",
+            "Giants",
+            "Ridge",
+            "Pepsi",
+            "Challenge"
+          ],
+          "url": "https://www.youtube.com/watch?v=LJsi_CPNS_A",
+          "curated": true,
+          "curation_reason": "Direct race content from Giants Ridge showing the Pepsi Challenge event.",
+          "display_order": 2
+        },
+        {
+          "video_id": "JGnqhLc45gE",
+          "title": "1985 Men's 30K World Cup - Biwabik, MN Part2",
+          "channel": "BirkieBob",
+          "view_count": 10952,
+          "upload_date": "20071115",
+          "duration_string": "9:20",
+          "description": "Part 2 of 2",
+          "tags": [
+            "nordic",
+            "ski",
+            "cross",
+            "country",
+            "world",
+            "cup",
+            "xc",
+            "birkiebob"
+          ],
+          "url": "https://www.youtube.com/watch?v=JGnqhLc45gE",
+          "transcript": "stride for stride as they power through\nthe stadium using these skating\ntechniques and remember that bill K\nstarted 30 seconds behind prer Harvey so\nwe should see Bill K here pretty soon so\nPierre Harvey who passed Paul gunar MLS\nPLA and who started 30 seconds behind\nhim has picked up all of those 30\nseconds and more as they head to the\nwoods Bill KO the innovator who many say\nwas The Man Behind the development of\nthe skate technique skiing very well\nhe's in the top 20 in this race with\nperhaps the birthplace of a new\nCrossCountry ski skating technique as a\nsituation very very close Jim it looks\nlike Harvey is still picking up speed\nyeah that Harvey Michels plots\ncombination is really working to both\nPierre Harvey and Paul Gunner's\nadvantage and it looks like Pierre\nHarvey has moved into second place\nbehind gundes span just ahead of Ola\nonlyy of Norway is this the kind of a\nfinish could be expected from Pier\nHarvey he really is that good at this\npoint well it would be nice to expect a\nfirst and second place from our athletes\nbut this is Sensational Peter this is\none of the finest Races by a North\nAmerican ever that's going out on this\ncourse today with PR Harvey second place\nwould be his top finish in a world cup\nand one of the best ever for North\nAmerica and especially when you consider\nthe depth of this\nfield so up over the hill go the gifted\nswedes and here comes the best one of\nthem all gundas Von number 73 who is\nskating to Perfection right now he's\nopened up over a minute lead over Carri\nristen and of Finland watch Gund on this\nuphill he is going very good he uses a\ntraditional hering bone technique not\nthe vscape because of the steepness or\nthe pitch of this uphill\nsection word from out on the course is\nthat bill Coke has indeed stayed with\nsmof the Soviet skier and is getting a\nbit of a rod so this could help Bill C\nin the third lap of this competition\nat the 28 km Mark of this grueling 30 km\nrace here is our current second place\nskier Ki risten and of Finland\ncontinuing to hold a solid second place\nlead over Norwegian Alvi anley and now\nwith less than a half a kilometer to go\nwe're set for a finishing duel between\ngundes Von and Switzerland's jacam gon\nas they go up at the Fire end of the\nstadium right now of course goodness V\nhas been the leader throughout this\ncompetition he is a happy man every time\nhe gets to ski in North America this\nwill be his fifth consecutive victory at\na North American World Cup gundas Von\nlook at him go at the far end of the\nstadium holding the tuck very very well\nright now but very relaxed Gunda is so\ncontrolled he gives you the sense that\nhe is never rushing cross country ski\ntechnique he is very elongated he is\njust powering through and look at g to\ngo with those long PS as Jim Paige said\nhe is really picking up a lot of power\nhe continues to pour on the energy even\nthough he really has this race wrapped\nup gundes Von across the Finish Line gon\nof Switzerland right behind him another\nbrilliant victory for the 23-year-old\nswed who is seemingly not even out of\nbreath at the Finish Line after the race\nI spoke with the\nwinner in this race today you are almost\na minute and a half ahead of wriston and\nthat's a pretty sizable margin did you\nfeel like you had good skis good uh fast\nskis today yeah maybe it's uh one of the\nreasons and uh I like the course too but\nI have more like to go on the the course\nyou have been from things from the\nbeginning how about the cold\ntemperatures how did that affect you\nGunda yeah it's it's maximum I think not\ncould be colder and uh yeah I have I\nhave not so big problem with the the\ncold but other have more problem do you\nfeel now after having so much success\nnow there's additional pressure on you\nto perform at this level no I don't\nthink so I start with others and they go\nthe LA and it's no so big uh pressure on\nme I\nthink okay here we go out at the far end\nof the stadium we have Paul Gunner\nMichel plots and Pierre Harvey coming\ninto the stadium it looks like Pierre\nhas gained back a few of those 10\nseconds that he had lost running a few\nseconds behind Paul Gunner right now\nthis ladies and gentleman is one of the\nbest races ever by a North American\ncross country skier so help Pierre\nfinish strong he's in the yellow and the\nred he's over by the scoreboard right\nnow a fantastic race for Pierre Harvey\nPierre Harvey who said he wasn't a\nskater and today he's showing the world\nhe's one of the\nbest Pier Harvey up the hill behind Paul\ngunar Pier has closed that Gap and he's\nright on the Tails of Paul gunar\nnow see if he can get by Paul Gunner\ncoming into this finish every second now\ncounts he's in a tight race for second\nthird or fourth place Pierre has gone by\nPaul gunar at the end of the stadium\nthis is a fantastic finish for pier\nHarvey and North American cross country\nskiing P look at him go he's given it\nall he's got right now he knows that all\nthe chips are on the line for this one\nthis could be one of the greatest races\nfor him in the history of North American\nskiing and he's pulling it on he's\npulling it on he's given it every ounce\nof human will and determination he can\nand he's across the Finish Line Pier\nHarvey it is an incredible finish for\nhim fantastic race fantastic race for\npier Harvey and of course Jim that is\nabsolutely fantastic for for the\nCanadian program great for all of us in\nNorth America and that is another\nexample of one tremendously\nwell-prepared athlete Pierre how did the\nrace go for you H it was good it was a\nlittle bit cold but I was well dressed I\ndidn't suffer from the cold and I was\nfeeling great at the old race I ski half\nof the race with Paul gunar M plus of\nNorway and we helped each other and uh I\nwas feeling really good so the position\nof Michels PL close to you was a real\nhelp to you huh yeah but I I caught him\nafter maybe 8K and then he stayed behind\nme for a full lap and the last 5K he\nwent ahead to make me go harder been\nPierre a week ago after Labrador City it\nwas rumored people said well you you\ndidn't like skating so much and now\nyou've come on and really shown that\nyou're a very very strong skater oh I\nthink uh skating or traditional\ntechnique the the best athlete win all\nthe time so it's it doesn't make a big\ndifference but I like I have more I\nenjoy the traditional technique but we\ntrain really hard on skating so we have\nto be able to race in boat\ntechnique so the stadium clock tells the\nstory of yet another dominant victory\nfor Sweden's gundis Von but the cross\ncountry race leader board doesn't tell\nthe whole story as in the case of the\nepic duel between Norway's Michels plot\nand Canada's Pierre Harvey who struggled\nmanto man against Sweden with a very\nvery fast time of\n11447 second place Ki rein of Finland\nthird place oie anley of Norway fourth\nplace Pierre Harvey of Canada and fifth\nplace torney morgren of Sweden sixth\nplace goes to Michels pla of Norway\nseven to gidon of Switzerland eighth\nVladimir Schoff the Soviet Union ninth\ngoes to Andy grunenfelder and 10th goes\nto John Franco povera of the strong\nItalian team 11th goes to vard olang of\nNorway Eric osen of Sweden is 12th gear\nhola 13th of Norway ALU NR a great\nfinish for the US in 14th and Daniel\nSandos holds down number 15 for the\nSwiss team the top North American\nfinishers look like this a very fine\nfinish for Harvey in fourth position and\naead of the US in 14 Bill KO 21st for\nthe US Eve Bido of the Canadian team in\nQuebec is 30th and Wayne Dustin a strong\nfinish for the Canadian team in 33rd\nposition moving out to the top USA\nfinishers Al dendis at a great position\n14th overall Bill KO also giving the\nUnited States power with a 21st Place\nfinish Todd bura a motan 36th Kevin\nBrockman 39th another motan from\nStillwater Dan Simo rounding out the top\nUSA finishes in 44\nhow do nead brought American ski fans to\ntheir feet in this USSA sanctioned event\nwith a strong 14th Place afterward I\ntalk to him about his training yeah I've\nbeen training all summer for his skating\nand I'm feeling strong at skating so I'm\nI'm better at skating right now as part\nof your plan now the World Cup is season\nis very very new how do you think the\nrest of the season's going to go for you\nI think it's going to go well I'm\nstarting out slow this year and picking\nit up so I think I'm looking stronger I\nthink I'll do well for the rest of the\nseason good luck to you thank you for\nthe United States what a great finish\nalun endestad in 14 yes we're very\npleased with the US performances today\nalun endestad 14th the best finish ever\nfor him Bill Cen 21st that's a fine\nfinish uh alog together for North\nAmerica this is one of our best days\never Peter well it's great to compete at\nhome on American soil for the United",
+          "curated": false
+        },
+        {
+          "video_id": "WktYicjTaZM",
+          "title": "Giants Ridge March 21 2009 Slush Cup 0001",
+          "channel": "biwabikboarder",
+          "view_count": 563,
+          "upload_date": "20090325",
+          "duration_string": "2:50",
+          "description": "Biwabik Boarder takes the plunge at the slush cup.",
+          "tags": [
+            "Giants Ridge",
+            "Biwabik",
+            "Slush Cup"
+          ],
+          "url": "https://www.youtube.com/watch?v=WktYicjTaZM",
+          "transcript": "sweet oh\nyeah oh man\n[Applause]\n[Music]\nalmost time\nI don't know\ngo Michael Michael come on Michael come\non do it yeah she Bo God he's trying to\nscrub off a much spe so it can\nswim\ngood oh no\nDad good good\nhe's already lost\nhe oh there's action here oh\nyeah e",
+          "curated": false
+        },
+        {
+          "video_id": "NkMOodJzqik",
+          "title": "Cross country skiing challenge in Minnesota",
+          "channel": "Robertolino Vargas",
+          "view_count": 65,
+          "upload_date": "20190417",
+          "duration_string": "2:32",
+          "description": "A new challenge in this beautiful state. I did it!!!",
+          "tags": [
+            "skiing",
+            "cross country skiing",
+            "Mexicano en Minnesota"
+          ],
+          "url": "https://www.youtube.com/watch?v=NkMOodJzqik",
+          "transcript": "Minnesota but first the cold weather may\nhave delayed the race but it didn't stop\nskiers from getting out to compete in\nthe Pepsi challenge cup this is WGAL\nnews at six\nSaturday good evening I'm Amy Adam Lee\nin for Ryan John T thank you for joining\nus a week after the Birkebeiner another\ncross-country ski race took place today\nthe 35th annual Pepsi Challenge Cup race\nin by Wommack our Alejandra Palacios was\nthere earlier how to go today Alejandra\nwell Amy was a pretty cold warning for\nthe skiers but everyone looks like they\nwere having fun on the hilly Babak ski\ntrails nice family of Faerie we have got\nyou know like nine year olds to 80 year\nold skiing the race cheering and bell\nringing and that sort of thing it's just\na fun day for the family the Pepsi\nchallenge cup offers a 1525 Peak classic\na 1525 paced skate and an AP freestyle\nskate for some skiers it was their first\ntime trying to Babak ski trails I'm\nliving in we know that Minnesota I'm\nfrom Mexico something new in during\nwinter and I think why not while other\nskiers were returning Pepsi Cup\nparticipants it's just fun also to just\nget out and spend a whole day at the\nridge I just ski for a long time the\nracist part of the American ski marathon\nseries and serves as a Birkebeiner\nqualifier I'm hoping that my time here\nwill will improve my my wave placement\nfor the Birkebeiner and although the\ncourse is slightly shorter than the\nBerkey that doesn't make it easy it's a\npretty diverse course we've got a lot of\nhills we've got a lot of very very\ngradual up hills that are long so you\nthink you're on flat but you're really\nnot you're climbing a hill it was a\nsunny but very cold start for the 240\nskiers that participated in this year's\nPepsi Cup Challenge race staying warm is\ngonna be one of the biggest things cuz\nit is cold and windy so hopefully the\ntrees will block some the winner despite\nthe cold weather skiers went through the\nchallenging trail and made it to the\nfinish line right now I'm great because\nI'm done\nbut oh my god what's cold and so tired\nI'm okay I did it there\nhappy they won prizes there they\nfinished you know that's achievements\nthey people are doing it for different\nreasons and they challenge themselves so\nif they finish the race they're very\nproud\nScarah luncheon was hosted after the\nrace ended so Amy a really great time\nfor skiers to celebrate and warm up yeah\nI bet they were happy to warm up thanks\nAlejandra",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

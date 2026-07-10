@@ -1,0 +1,245 @@
+{
+  "race": {
+    "name": "Sjusjoen Skimarathon",
+    "slug": "sjusjoen-skimarathon",
+    "display_name": "Sjusjøen Skimarathon",
+    "tagline": "A full marathon on one of Norway's finest trail networks — the gateway to Birkebeinerrennet qualification.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 400,
+      "altitude_m": 850,
+      "location": "Sjusjoen, Innlandet",
+      "location_badge": "Innlandet, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Innlandet",
+      "date": "January/February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 1000,
+      "founded": 1990,
+      "registration": "Open registration via race website",
+      "prize_purse": null,
+      "aid_stations": "Multiple aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://sjusjoenrundt.no/",
+      "lat": 61.25,
+      "lng": 10.8333,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 400
+    },
+    "climate": {
+      "primary": "Norwegian mountain winter",
+      "description": "Sjusjoen sits at 800-900m ASL in Innlandet, providing reliable winter conditions from December through April. Race day temperatures typically range from -15°C to -3°C in the January-February timeframe.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "Cold mountain temperatures in mid-winter",
+        "Variable conditions across the extensive trail network",
+        "Wind exposure on open mountain sections",
+        "Wax selection critical at mountain altitude"
+      ]
+    },
+    "course": {
+      "primary": "A 42km marathon-distance course on the extensive Sjusjoen trail network at 800-900m altitude. Light, varied terrain through one of Norway's premier cross-country skiing areas.",
+      "format": "loop",
+      "surface": "Machine-groomed tracks on Norway's premier XC ski network",
+      "technical_rating": 2,
+      "grooming": "Excellent — Sjusjoen is one of Norway's best-groomed trail networks",
+      "features": [
+        "One of Norway's premier XC skiing destinations",
+        "Extensive trail network with excellent grooming",
+        "Seeding race for Birkebeinerrennet and Vasaloppet",
+        "Both classic and freestyle options",
+        "Light, varied terrain at mountain altitude"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Strong infrastructure on one of Norway's best trail networks with excellent snow reliability and grooming. Primarily valued as a Birkebeinerrennet and Vasaloppet seeding race. Solid participation for a regional event.",
+      "tier_note": "Score 56 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Sjusjoen Skimarathon emerged in the 1990s on one of Norway's most extensive and well-maintained cross-country skiing trail networks. Sjusjoen has been a premier Norwegian skiing destination for decades, and the marathon leverages its world-class infrastructure. The race serves as an important seeding event for both Birkebeinerrennet and Vasaloppet.",
+      "notable_facts": [
+        "Located on one of Norway's premier XC skiing trail networks",
+        "Seeding race for both Birkebeinerrennet and Vasaloppet",
+        "Both classic and freestyle technique options",
+        "Sjusjoen offers some of the best-groomed trails in Scandinavia",
+        "Situated at 800-900m altitude for reliable snow conditions"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Sjusjoen Skimarathon cross country ski race Sjusjoen",
+      "videos": [
+        {
+          "video_id": "MMMjRAi0PWE",
+          "title": "The Cross Country Skiing Paradise Of Norway",
+          "channel": "Become Norwegian",
+          "view_count": 19060,
+          "upload_date": "20231210",
+          "duration_string": "9:54",
+          "description": "Cross country skiing, Norway’s national sport, and where better place to nordic ski than arguably Norway’s best cross country skiing location: Sjusjøen. \n\nAlso known as Nordic skiing, sometimes ski touring, or simply XC skiing, this sport is growing increasingly popular thanks to the combination of exercise, technique, and often stunning scenery. \n\n360km of trails makes Sjusjøen a top Nordic skiing destination, with people travelling from all over Norway, and even the world, to ski here. Are the boys becoming the new johannes klæbo? Will they maybe Even meet Øystein Pettersen? \n\nSjusjøen is the location for several cross country skiing races throughout the ski season, including the famous Birkebeinerrennet which runs through Sjusjøen.  \n\n\nCross country skiing, or langrennsski as it’s known in Norwegian, actually has two quite distinct styles, classic and skating (klassisk and skøyte in Norwegian respectively). The equipment, and more importantly technique, are quite different in each. Most XC skiing beginners start with classic, and then move onto skating which is usually considered more challenging. \n\nMany professionals come to Sjusjøen to train, including Petter Northug, Johannes Klæbo, Marit Bjørgen, Øystein Pettersen, many of whom have won Olympic medals and represent the best of the best at the sport. And not to forget Therese Johaug. \n\nNordic skiing can be a serious workout and many consider skiers to have some of the highest VO2 max levels of any support. However, it’s also a popular activity with recreational skiers who simply enjoy heading out for a leisurely trip.\n\nShould we make a episode with Therese Johaug? \n\nFor you collaborations please do contact us on Thomas@becomenorwegian.com\n\n\n#crosscountryskiing #xcskiing #crosscountryski",
+          "tags": [
+            "cross country skiing",
+            "xc skiing",
+            "nordic skiing",
+            "nordic ski",
+            "ski touring",
+            "johannes klæbo",
+            "Petter Northug",
+            "Theresse Johaug",
+            "Bjørn Dæhlie",
+            "Marit bjørgen",
+            "cross country skiing norway",
+            "madshus",
+            "swix",
+            "langrenn",
+            "classic vs skate skiing",
+            "Sjusjøen",
+            "Birkenbeiner",
+            "Birkenbeinerrennet",
+            "cross country ski",
+            "rollerskiing",
+            "rollerski",
+            "Federico Pellegrino",
+            "Langlauf",
+            "Langlaufski",
+            "längdskidåkning",
+            "cross country skiing skate",
+            "Skate skiing",
+            "Skøyte teknik",
+            "Cross country skiing back country",
+            "nordic ski lab"
+          ],
+          "url": "https://www.youtube.com/watch?v=MMMjRAi0PWE",
+          "transcript": "[Music]\n360 km of pristine groomed CrossCountry\nskiing slopes everyone we talk to they\nsay this is the place to be this is the\ncross country paradise of Norway would\nyou agree exactly and apparently whether\nyou're a professional Olympian Pro or a\nbeginner just getting started there is\nsomething here for everyone I think it's\nfair to say we did a pretty good job of\ndiving head first into the cross country\nskiing last year but this year we're\ntaking it to the next level aren't we we\ndefinitely are because these are skate\nskis and this season is all about\nbecoming good at skating so in this\nvideo you're going to see us fall\nstruggle and for the whole season we're\ngoing to work on our technique to proper\nskate\nthe CrossCountry Paradise we're of\ncourse talking about is shushan here in\nNorway which is also luckily enough our\nsponsor for this episode toner from\nvisit shushan has provided us with a\ncabin and it is our favorite place in\nthe winter first day of the Season let's\ngo\nso the reason that f is a cross country\nparadise is that snow comes quite early\nand it stays the whole season it's - 25°\nso it's a it's a bit cold right now and\nit's actually one of the most snow Shore\nplaces in Norway as well and as we said\n360 km of Gru piece a lot of flat\nterrain like this which is perfect for\nbeginners like us who are looking to\nlearn but it's also where all the the\npros and the Olympians come as well you\ngot some really steep incline and some\nreally challenging terrain so they're\ncoming for\neveryone\none part about CrossCountry skiing is\nthat you get much cheat when you're\ngoing out but when you take a little\nbreak yes you start freezing exactly but\nwhat is impressive with Norwegians is\nthat every age Gap is out like people\nwho are 2 years old and then you've got\n80y olds going out and just smashing it\nout that's why they're very very healthy\nand fit in Norway what you got to\nremember is yes of course this is a huge\ncompetitive sport here it is Norway's\nnational sport but also there very much\na family fun activity as well so people\ngo out with a B of the Coco and have\nWhat's called the cousa tour or kind of\ncozy tour so it's not all about just\ncompetition a lot of it is just about\ngoing out enjoying the nature and having\na lovely time which is like it's like\nthe it's like summer hiking this is the\nwinter hiking part yeah CR country is\ncross country skiing is almost like a\nmix of hiking running and skiing\nobviously\nthe three techniques of skating we have\nto master the season is paddling ankle\ndance and double\ndance and they are all about balance\nbalance balance something which it's\ngetting better but I think I really need\nto work\non\na big difference when it comes to\nskating and classic obviously skis and\ntechniques as this is the first part of\nthe season they are slippery and it's a\nbig big big difference or classic\nSte I am going to break a hip or leg\nyou're pushing over 30 mate so it's to\nbe expected exactly yeah with the\nclassic last season really got\ncomfortable now it's all about being out\nin the comfort zone again because we're\ngoing to do races skating this season\nwe're going to meet up with Pros we're\ngoing to get coaches so this weekend is\nall about getting some basics in and for\nme right now it's all about\nbalance I'm stupid I'm do a flip I 180 I\ncan\ndo ow did I hit you yeah sorry\nmate soie you wanted to try to do the\nreal cross country as\nwell yes because when I think about\ncross country I'm talking about proper\ncross country I think if we go all the\nway in that direction we might make it\nabout to\nOslo let's find\nout going to be a long a long journey\nback to\nOsler particularly for me especially\nhaving done classic last year where it's\na lot of double poing I'm finding I'm\nreally tempted to just use my arms like\nthis to R upper body strength but\nskating actually all about the legs and\nmore of a like ice skating movement\nusing the power from the legs so I\nreally need to work on building those\nhabits using my legs and not just\nrelying on the upper body and the arms\nlike\nthis\ncomes to skating ENT BS and Double Bs so\nthis it is really difficult for me\nbecause the balance and keeping straight\nand not losing rhythm is what you see is\nvery very\nresal\none of the techniques I find the hardest\nis the padding part so it's like a fish\nhering bone but movement and speed like\nright now I'm using so much\nenergy to get up the hill and I'm not as\nsmooth as I want to be but I\nmean\nclimbing up the mountain for Danish guy\nnot used to mountains it's a bit\ndifficult\nif you want to follow our journey of\nbecoming more regian and becoming better\nI think you should subscribe because\nthat makes it possible for us to go on\nmore trips and obviously check out visit\nchin maybe you see us fall a bit more\nsay even better see some more fails like\nthat it's definitely going to be plenty\nof\nthose\n[Applause]\nnow we're talking babies out on cross\ncountry skin as\nwell let's start I'm young\nhere this was the first installment and\nsession of cross country skiing this\nseason I hope you like to see a bit of\nthe snow content you guys we're going to\ndo way more of it what's on the program\nAl this is going to be my life for the\nnext 5 months I think we've got classic\nskiing skating skiing every type of\nCrossCountry skiing and hopefully you\ncan follow our journey as we improve and\nif you than getting out there yourself\nthen uh please do watch our videos for\nmore tips and\ntricks\ntake a rest you\ndoing oh know I just I just thought i'\nhave it little sit down yeah looks like\na good place to take a\nbreak",
+          "curated": true,
+          "curation_reason": "Recent skier-filmed POV content showcasing Sjusjøen terrain with detailed commentary on skiing techniques and conditions.",
+          "display_order": 1
+        },
+        {
+          "video_id": "NIYnddR-UEI",
+          "title": "Ljøsheimrunden - Sjusjøen",
+          "channel": "Visit Sjusjoen",
+          "view_count": 457,
+          "upload_date": "20200507",
+          "duration_string": "1:15:13",
+          "description": "Starter på Sjusjøen Langrennsarena. Passer i alt type vær. Passerer Midtjfellkoia hvor det er servering i helger gjennom vinteren. Mulighet for pilking Ljøsvatnet. Servering på Hygga fjellkro.\n\n\nwww.visitsjusjoen.no\nDestinasjon Sjusjøen - et eldorado for aktiviteter på ski, sykkel og sti - vi setter spor!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=NIYnddR-UEI",
+          "curated": false
+        },
+        {
+          "video_id": "1kybBh96ev0",
+          "title": "Lillehammer Trollski Marathon 2018 - Glimt fra Rennet Venabygdsfjellet - Sjusjøen",
+          "channel": "Lillehammer Troll Ski Marathon",
+          "view_count": 1342,
+          "upload_date": "20180605",
+          "duration_string": "58",
+          "description": "Årets renn gikk i strålende solskinn og ikke et vindpust på fjellet. Årets renn hadde  nærmere 800 deltagere i alt fra den lengste konkurranseklassen på 120 kilometer til korteste trim og familieklasse på 13 kilometer.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=1kybBh96ev0",
+          "curated": false
+        },
+        {
+          "video_id": "Lj8wOCx8d2g",
+          "title": "Lunkefjellet - Sjusjøen",
+          "channel": "Visit Sjusjoen",
+          "view_count": 1652,
+          "upload_date": "20200511",
+          "duration_string": "57:52",
+          "description": "Starter på Sjusjøen Langrennsarena og etter kort tid passerer dere Matstasjonen, hvor det er åpent for servering i helger gjennom vinteren. Det er en fantastisk tur når det er solskinn og fint vær. På uværsdager blir det ikke kjørt opp her. På toppen av Lunkefjellet så er utsikten svært god vestover mot Jotunheimen og Rondane\n\n\n\nwww.visitsjusjoen.no\nDestinasjon Sjusjøen - et eldorado for aktiviteter på ski, sykkel og sti - vi setter spor!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Lj8wOCx8d2g",
+          "curated": false
+        },
+        {
+          "video_id": "n-IpTOvEL1Q",
+          "title": "Lillehammer Troll Ski Marathon 2018 - Venabygdsfjellet - Sjusjøen",
+          "channel": "Lillehammer Troll Ski Marathon",
+          "view_count": 445,
+          "upload_date": "20180605",
+          "duration_string": "3:23",
+          "description": "De første som startet på den 95 kilometer lange løypa dro fra Venabygdsfjellet klokken 07:00 på morgenen. Utover dagen ble de etterfulgt av trim- og konkurranseløpere på alle 4 distanser der de siste var i mål nærmere 19:00 på kvelden. Mange fikk en lang dag i fjellet med strålende vår, skyfri himmel og realt påskeføre utover dagen.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=n-IpTOvEL1Q",
+          "curated": true,
+          "curation_reason": "Official race coverage showing marathon event atmosphere and conditions at Sjusjøen.",
+          "display_order": 2
+        },
+        {
+          "video_id": "Lme65sIpyL4",
+          "title": "2015 Finlandia Cross Country Ski Marathon Cancelled - Lakeland News at Ten - February 6, 2015",
+          "channel": "Lakeland PBS",
+          "view_count": 33,
+          "upload_date": "20150207",
+          "duration_string": "50",
+          "description": "",
+          "tags": [
+            "Lakeland",
+            "Public",
+            "Television"
+          ],
+          "url": "https://www.youtube.com/watch?v=Lme65sIpyL4",
+          "transcript": "and we have some breaking news some news\nthat just came in moments ago the\nminnesota finlandia cross country ski\nmarathon scheduled for near bemidji in\nfebruary has now been canceled that\nevent has been canceled due to lack of\nsnow and the warm temperatures we had in\njanuary\nthe press release states that it was\nhopeful for some weekend snow here and\nthen that has fizzled out apparently and\nthey are making the decision at this\npoint\nto cancel the race people who have paid\ntheir fees can carry those fees over to\nthe 2016\nseason if you've enjoyed this segment of\nlakeland news please consider making a\ntax deductible contribution to lakeland\npublic television",
+          "curated": false
+        },
+        {
+          "video_id": "wfqj9eru-3U",
+          "title": "Trollski Marathon 2013 Venabygdsfjellet - Sjusjøen",
+          "channel": "Lillehammer Troll Ski Marathon",
+          "view_count": 81,
+          "upload_date": "20180604",
+          "duration_string": "5:22",
+          "description": "Dette året var det nydlig vær, føre og god steming som alltid blant publikum og deltagerne.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=wfqj9eru-3U",
+          "curated": true,
+          "curation_reason": "Marathon race footage from Sjusjøen showing course layout and race atmosphere.",
+          "display_order": 3
+        }
+      ],
+      "quotes": [
+        {
+          "text": "360 km of pristine groomed cross-country skiing slopes, everyone we talk to they say this is the place to be, this is the cross country paradise of Norway. Snow comes quite early and it stays the whole season, and it's actually one of the most snow sure places in Norway as well.",
+          "source_video_id": "MMMjRAi0PWE",
+          "source_channel": "Become Norwegian",
+          "source_view_count": 19060,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "A lot of flat terrain like this which is perfect for beginners like us who are looking to learn, but it's also where all the pros and the Olympians come as well - you got some really steep incline and some really challenging terrain so there's something for everyone.",
+          "source_video_id": "MMMjRAi0PWE",
+          "source_channel": "Become Norwegian",
+          "source_view_count": 19060,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

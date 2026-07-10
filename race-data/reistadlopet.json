@@ -5,9 +5,11 @@
     "display_name": "Reistadløpet",
     "tagline": "Fifty kilometers above the Arctic Circle where double-poling goes to die — Norway's northernmost marathon demands classical technique or nothing.",
     "vitals": {
-      "distance_km": 50,
-      "distance_options": ["50km"],
-      "elevation_m": 700,
+      "distance_km": 35,
+      "distance_options": [
+        "50km"
+      ],
+      "elevation_m": 1225,
       "altitude_m": 300,
       "location": "Bardufoss",
       "location_badge": "Troms, Norway",
@@ -17,15 +19,17 @@
       "date": "Mid-March",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~1,500 starters",
+      "field_size": 1500,
       "founded": 1964,
       "registration": "Online registration; opens autumn prior",
       "prize_purse": "Ski Classics prize pool",
       "aid_stations": "Multiple stations with warm drinks and food",
       "cutoff_time": null,
       "website": "https://www.reistadlopet.no",
-      "lat": 69.0560,
-      "lng": 18.5395
+      "lat": 69.056,
+      "lng": 18.5395,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 1225
     },
     "climate": {
       "primary": "Arctic Scandinavian winter",
@@ -82,12 +86,158 @@
         "Located near a Norwegian military base in Bardufoss",
         "Has become a cult favorite among purist classical skiers",
         "Part of the Ski Classics Pro Tour since the series began"
-      ]
+      ],
+      "founded": 1958
     },
-    "series_membership": ["ski_classics_pro_tour"],
+    "series_membership": [
+      "ski_classics_pro_tour"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Reistadløpet cross country ski race Bardufoss",
+      "videos": [
+        {
+          "video_id": "uQymd13XOOE",
+          "title": "Reistadløpet, 50km Setermoen Bardufoss, Norway   Ski Classics",
+          "channel": "36262lukyno",
+          "view_count": 1370,
+          "upload_date": "20170402",
+          "duration_string": "10",
+          "description": "Překvapení během závodu ;-)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=uQymd13XOOE",
+          "transcript": "norcuron at the moment also of course\nwe've got the snowmobiles alongside them\nand darvid in the rest of the team you\nknow getting as they always do getting\non top of",
+          "curated": true,
+          "curation_reason": "Official race coverage showing course layout and race dynamics with commentary.",
+          "display_order": 3
+        },
+        {
+          "video_id": "hN38QrFL7_E",
+          "title": "Reistadlopet -  Visma Ski Classics",
+          "channel": "36262lukyno",
+          "view_count": 722,
+          "upload_date": "20170328",
+          "duration_string": "30",
+          "description": "Event number 12. Reistadløpet coming up! We look forward to this new event in the tour with the spectacular nature of northern Norway!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=hN38QrFL7_E",
+          "curated": false
+        },
+        {
+          "video_id": "L8nLmJb7PLk",
+          "title": "Leadville Loppet 10k crash",
+          "channel": "pinkIF",
+          "view_count": 412,
+          "upload_date": "20110302",
+          "duration_string": "58",
+          "description": "Leadville Loppet 10k crash 2011, just after race start",
+          "tags": [
+            "10k",
+            "crash"
+          ],
+          "url": "https://www.youtube.com/watch?v=L8nLmJb7PLk",
+          "curated": false
+        },
+        {
+          "video_id": "K2kumamdTp4",
+          "title": "Barnas Reistadsprint 2017",
+          "channel": "Barnas naturpark",
+          "view_count": 177,
+          "upload_date": "20170620",
+          "duration_string": "1:16:38",
+          "description": "I forbindelse med årets utgave av Reistadløpet arrangerte SpareBank 1 Nord-Norge ”Barnas Reistadsprint” på Setermoen 31. mars 2017. Hele løpet med deltakere i alderen 0-12 år ble filmet og vist på storskjerm utenfor kommunehuset. \nLørdag 1. april var storskjermen på Storlømyra skistadion til glede for vel 300 oppmøtte på ”Familiedag med Barnas naturpark” under selve Reistadløpet. \n\nBarnas naturpark bidro til arrangementet ved å få på plass storskjermen gjennom et spleiselag med lokale forretninger og organisasjoner.\n\nDette tiltaket kunne ikke ha blitt realisert uten støtte fra følgende sponsorer og bidragsytere:\nSpareBank 1 Nord-Norge\nStatskog\nReistadløpet AS\nNordbohus Bardu\nRohkunborri nasjonalparkstyre\nMA Regnskap AS\nLians Caravan\nTroms Salgssentral AS\nBrødrene Bakkehaug AS\nFuruly Turbuss AS\nSport 1 Bardu\nFrisklivssentralen\nPolar Park\nSaga Mobil AS\nVelferden Setermoen\nTeknisk etat i Bardu kommune\nSalangen-nyheter\nAktiv Events AS",
+          "tags": [
+            "Barnas Reistadsprint",
+            "Reistadløpet",
+            "Barnas naturpark"
+          ],
+          "url": "https://www.youtube.com/watch?v=K2kumamdTp4",
+          "curated": false
+        },
+        {
+          "video_id": "t59Bhm5I4q0",
+          "title": "Reistadløpet - reklame",
+          "channel": "Salangen- Nyheter AS",
+          "view_count": 1250,
+          "upload_date": "20171220",
+          "duration_string": "2:05",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=t59Bhm5I4q0",
+          "curated": false
+        },
+        {
+          "video_id": "I4lrXg5wEmY",
+          "title": "Reistadløpet - Norges tøffeste 5 mil",
+          "channel": "Line Hermansen Sulejewski",
+          "view_count": 1623,
+          "upload_date": "20170404",
+          "duration_string": "2:49",
+          "description": "Visma Ski Classics\n\nMusikk: Christian Schultz (cs): https://soundcloud.com/christianschultzmusic",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=I4lrXg5wEmY",
+          "curated": false
+        },
+        {
+          "video_id": "P1i2Wfv0cQs",
+          "title": "REISTADLÖPET BEHIND THE SCENES | VLOG 16",
+          "channel": "Anton Karlsson",
+          "view_count": 2925,
+          "upload_date": "20180409",
+          "duration_string": "8:04",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=P1i2Wfv0cQs",
+          "curated": true,
+          "curation_reason": "Behind-the-scenes vlog content providing skier perspective and race experience insights.",
+          "display_order": 2
+        },
+        {
+          "video_id": "0lTOqyD_Rtk",
+          "title": "POV: Reistadløpet",
+          "channel": "Magnus Waaler",
+          "view_count": 6210,
+          "upload_date": "20250330",
+          "duration_string": "15:59",
+          "description": "#Reistadløpet #SkiClassics #Langrenn #POV\n\nBli med på innsiden av Reistadløpet! 🎿🔥 Dette er et av de tøffeste langløpene i Ski Classics, og jeg filmet hele løpet med GoPro på brystet. Se hvordan det er å kjempe seg gjennom bratte bakker, syre i beina og rå nordnorsk natur – alt fra mitt perspektiv! 💀❄️ Hvordan ville du klart deg her? Legg igjen en kommentar!",
+          "tags": [
+            "reistadløpet",
+            "ski",
+            "classics",
+            "reistad",
+            "summit2senja",
+            "langrenn",
+            "anders",
+            "aukland",
+            "ragde",
+            "ebba",
+            "andersson",
+            "slind",
+            "anniken",
+            "gjernde",
+            "alnæs",
+            "mathias",
+            "rolid",
+            "petter",
+            "northug",
+            "magnus",
+            "waaler",
+            "birken",
+            "vasan",
+            "marcialonga",
+            "xcuniverse",
+            "mulegg",
+            "johan",
+            "pov",
+            "gopro"
+          ],
+          "url": "https://www.youtube.com/watch?v=0lTOqyD_Rtk",
+          "curated": true,
+          "curation_reason": "Recent POV race footage filmed from skier's perspective showing the challenging course and conditions.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
     }
   }
 }

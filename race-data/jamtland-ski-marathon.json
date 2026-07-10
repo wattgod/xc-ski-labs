@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Jämtland Ski Marathon",
+    "slug": "jamtland-ski-marathon",
+    "display_name": "Jämtland Ski Marathon",
+    "tagline": "Sixty kilometers through the deep forests of inland Sweden — Jämtland's quiet answer to the coastal crowds.",
+    "vitals": {
+      "distance_km": 60,
+      "distance_options": [
+        "60km",
+        "30km"
+      ],
+      "elevation_m": 600,
+      "altitude_m": 350,
+      "location": "Strömsund area, Jämtland",
+      "location_badge": "Jämtland, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Jämtland",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along course",
+      "cutoff_time": null,
+      "website": "https://www.jamtlandskimarathon.se",
+      "lat": 63.85,
+      "lng": 15.56,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 600
+    },
+    "climate": {
+      "primary": "Interior Scandinavian continental",
+      "description": "Jämtland's interior location produces cold, stable winters with reliable snow cover. Continental climate means colder temperatures than coastal areas, with calm conditions in the forested valleys.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Cold temperatures in sheltered forest valleys",
+        "Long distance through remote terrain",
+        "Limited daylight in early March",
+        "Wax selection in cold, dry conditions"
+      ]
+    },
+    "course": {
+      "primary": "60km through the dense boreal forests of inland Jämtland. Rolling terrain with long forested stretches and occasional lake crossings. A wilderness experience with minimal spectator access along much of the route.",
+      "format": "point-to-point",
+      "surface": "Groomed classic tracks through forest and lake terrain",
+      "technical_rating": 3,
+      "grooming": "Regional grooming standard",
+      "features": [
+        "Deep boreal forest skiing",
+        "Remote wilderness atmosphere",
+        "Frozen lake crossings",
+        "Minimal spectator access creates solitary experience"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A genuine wilderness marathon with beautiful forest scenery, but limited prestige, small field, and remote location hold back the overall score.",
+      "tier_note": "Score 53 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Jämtland Ski Marathon is a 60km classic race through the interior forests of Jämtland, one of Sweden's most sparsely populated regions. The race showcases the deep boreal wilderness of inland Scandinavia, offering a dramatically different experience from the crowded Vasaloppet corridor further south.",
+      "notable_facts": [
+        "Traverses some of Sweden's most remote boreal forest",
+        "Jämtland is one of Sweden's least populated regions",
+        "Offers a wilderness alternative to more commercial Swedish loppets",
+        "Course passes through terrain frequented by moose, lynx, and wolverine"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

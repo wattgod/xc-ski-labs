@@ -1,0 +1,101 @@
+{
+  "race": {
+    "name": "Carpathian Ski Marathon",
+    "slug": "carpathian-ski-marathon",
+    "display_name": "Carpathian Ski Marathon",
+    "tagline": "Forty-two kilometers through the Ukrainian Carpathians from Slavske — Eastern Europe's frontier Nordic marathon where Soviet-era trails meet wild mountain forest.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 600,
+      "altitude_m": 900,
+      "location": "Slavske",
+      "location_badge": "Lviv Oblast, Ukraine",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "region": "Lviv Oblast",
+      "date": "Late February",
+      "date_specific": "2026: February 28",
+      "discipline": "classic",
+      "field_size": 300,
+      "founded": 1975,
+      "registration": "On-site registration",
+      "prize_purse": null,
+      "aid_stations": "4 feed stations with warm tea, Ukrainian salo, and bread",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 48.85,
+      "lng": 23.45,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 600,
+      "official_website_url": "https://klk.com.ua/"
+    },
+    "climate": {
+      "primary": "Carpathian mountain winter",
+      "description": "Late February in the Ukrainian Carpathians brings cold, continental conditions with reliable snow at altitude. The mountains create a rain shadow effect with heavy precipitation on western slopes. Temperatures typically -10°C to -2°C. The dense forest provides wind shelter but trails can be icy in shaded ravines.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Remote location with limited medical infrastructure",
+        "Trail grooming quality can be inconsistent",
+        "Cold continental air masses bring extreme cold snaps",
+        "Forest descents can be icy and technical"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Carpathian mountains around Slavske, utilizing forest trails originally developed during the Soviet era for Nordic skiing training. The terrain is rolling to hilly through dense mixed forest with sections along mountain streams. Moderate technical demands with some steep descents through the forest.",
+      "format": "loop",
+      "surface": "Groomed classic tracks on mountain forest terrain, variable quality",
+      "technical_rating": 3,
+      "grooming": "Variable — ranges from good to basic depending on conditions and available equipment",
+      "features": [
+        "Wild Carpathian mountain forest — among the least developed mountain ranges in Europe",
+        "Soviet-era trail infrastructure with character",
+        "Dense beech and spruce forest with atmospheric woodland skiing",
+        "Ukrainian Carpathian culture and traditions in surrounding villages",
+        "Traditional salo (cured pork fat) at feed stations"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 4,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "The wild Carpathian setting and genuine frontier character make this a distinctive event. Grooming quality and organization are limited by infrastructure constraints, but the mountain environment compensates with authentic wilderness character.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1975 during the Soviet era, when Slavske was developed as a winter sports training center for Ukrainian and Soviet athletes. The trail network was built for cross-country skiing and biathlon training. After Ukrainian independence in 1991, the race continued as a civilian marathon. The Carpathian region has maintained its Nordic skiing tradition despite limited investment, with the race serving as the flagship event for Ukrainian cross-country skiing.",
+      "notable_facts": [
+        "Slavske was a Soviet-era winter sports training center for Ukrainian athletes",
+        "The trail network was originally built for Soviet military biathlon training",
+        "Ukraine has produced Olympic cross-country ski medalists including Valentina Shevchenko",
+        "The Ukrainian Carpathians are among the least developed mountain ranges in Europe",
+        "The race continued through Ukrainian independence and economic turbulence"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": null,
+      "search_query": null,
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Forbush Memorial Classic",
+    "slug": "forbush-memorial-classic",
+    "display_name": "Forbush Memorial Classic",
+    "tagline": "A small memorial classic race in Michigan's Nordic country — community skiing in memory of a local Nordic advocate.",
+    "vitals": {
+      "distance_km": 10,
+      "distance_options": [
+        "10km",
+        "5km"
+      ],
+      "elevation_m": 100,
+      "altitude_m": 350,
+      "location": "Frederic, Michigan",
+      "location_badge": "Michigan, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Michigan",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 30,
+      "founded": null,
+      "registration": "Day-of registration",
+      "prize_purse": null,
+      "aid_stations": "Basic aid station",
+      "cutoff_time": null,
+      "website": "https://www.nordicskiracer.com",
+      "lat": 44.79,
+      "lng": -84.71,
+      "field_size_estimate": 55,
+      "elevation_gain_m": 100
+    },
+    "climate": {
+      "primary": "Northern Michigan winter",
+      "description": "Lake-effect snow belt provides reliable conditions. Temperatures typically -15°C to -3°C in February.",
+      "typical_temp_c": "-12 to -3",
+      "challenges": [
+        "Variable snow conditions",
+        "Cold temperatures",
+        "Remote location"
+      ]
+    },
+    "course": {
+      "primary": "Short classic-technique course through northern Michigan forest on the Forbush Corner trail system.",
+      "format": "loop",
+      "surface": "Groomed classic tracks",
+      "technical_rating": 2,
+      "grooming": "Volunteer-maintained grooming",
+      "features": [
+        "Forbush Corner trail system",
+        "Northern Michigan hardwood forest",
+        "Memorial event for local Nordic advocate"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 30,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 1,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 1,
+      "scenery": 2,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "One of the smallest and shortest races in the database. Community memorial event.",
+      "tier_note": "Score 30 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Forbush Memorial Classic is a small community ski race at Forbush Corner in northern Michigan, held in memory of a local Nordic skiing advocate.",
+      "notable_facts": [
+        "Forbush Corner is a beloved northern Michigan Nordic venue",
+        "Memorial race honoring a local skiing advocate",
+        "Part of Michigan's grassroots Nordic community"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

@@ -6,7 +6,10 @@
     "tagline": "Forty-two kilometers through the Forest of Massacre — half a century of skate racing through the Jura's darkest woods, where the name promises exactly what the legs deliver.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km", "21km"],
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
       "elevation_m": 700,
       "altitude_m": 1200,
       "location": "Prémanon",
@@ -17,7 +20,7 @@
       "date": "March",
       "date_specific": null,
       "discipline": "skate",
-      "field_size": "~1,500 starters",
+      "field_size": 700,
       "founded": 1975,
       "registration": "Online registration",
       "prize_purse": null,
@@ -25,7 +28,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 46.4667,
-      "lng": 6.0333
+      "lng": 6.0333,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 700
     },
     "climate": {
       "primary": "Jura mountain winter",
@@ -85,12 +90,163 @@
         "Course sits near the Swiss border at ~1200m altitude",
         "Part of the Marathon Ski Tour series",
         "The Jura is France's cross-country skiing heartland"
-      ]
+      ],
+      "founded": 1970
     },
-    "series_membership": ["marathon_ski_tour"],
+    "series_membership": [
+      "marathon_ski_tour"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Traversée du Massacre cross country ski race Prémanon",
+      "videos": [
+        {
+          "video_id": "k0eokdmwm78",
+          "title": "Prémanon : la 50ème édition de la Traversée du Massacre aura bien lieu",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 487,
+          "upload_date": "20200228",
+          "duration_string": "1:27",
+          "description": "Prémanon : la 50ème édition de la Traversée du Massacre aura bien lieu\nReportage :\nC. Schaffner, L. Brocard et P. Chamussy\nAvec en interview :\nWilfried Elien\nPrésident du ski club de Prémanon\nAbonnez-vous à notre chaîne YouTube\n► https://www.youtube.com/france3bourgogne\n\nRetrouvez-nous sur  :\n\nnotre site internet\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\n\nFacebook \n► https://www.facebook.com/france3bourgogne/\n► https://www.facebook.com/france3franchecomte/\n\nTwitter\n► https://twitter.com/F3Bourgogne\n► https://twitter.com/F3FrancheComte\n\nInstagram\n► https://www.instagram.com/france3bourgogne/\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France 3 Bourgogne-Franche-Comté",
+            "TV",
+            "France Télévisions",
+            "Bourgogne-Franche-Comté",
+            "région",
+            "franche-comté",
+            "neige",
+            "ski",
+            "doubs",
+            "jura"
+          ],
+          "url": "https://www.youtube.com/watch?v=k0eokdmwm78",
+          "curated": false
+        },
+        {
+          "video_id": "G0b95_OcxcY",
+          "title": "Traversée du Massacre 2012",
+          "channel": "François Bonneville",
+          "view_count": 2522,
+          "upload_date": "20120306",
+          "duration_string": "10:31",
+          "description": "La traversée du Massacre est une course de ski de fond organisée par le Ski Club de Prémanon.\nL'édition 2012 a été remportée, pour l'épreuve des 42 km, par Benoit Chauvet et Florence Geymond-Golay et par Maxime Habran et Morvane Verguet dans l'épreuve des 21km.\nPour en savoir plus : http://www.scpremanon.com",
+          "tags": [
+            "compétition",
+            "course",
+            "ski",
+            "fond",
+            "jura",
+            "prémanon",
+            "france",
+            "neige",
+            "hiver",
+            "winter",
+            "sports",
+            "2012"
+          ],
+          "url": "https://www.youtube.com/watch?v=G0b95_OcxcY",
+          "curated": true,
+          "curation_reason": "Comprehensive 10+ minute race coverage showing the full event with both 42km and 21km results.",
+          "display_order": 1
+        },
+        {
+          "video_id": "O2yp_US72PU",
+          "title": "Traversée du Massacre 2013 départ 42 kms",
+          "channel": "JULIEN MILLET",
+          "view_count": 102,
+          "upload_date": "20130312",
+          "duration_string": "41",
+          "description": "Traversée du Massacre 2013 départ 42 kms",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=O2yp_US72PU",
+          "curated": false
+        },
+        {
+          "video_id": "87j0X2LmaXg",
+          "title": "Traversée du Massacre 2012, 21 kms",
+          "channel": "JULIEN MILLET",
+          "view_count": 162,
+          "upload_date": "20130212",
+          "duration_string": "38",
+          "description": "",
+          "tags": [
+            "2012",
+            "03",
+            "04",
+            "4"
+          ],
+          "url": "https://www.youtube.com/watch?v=87j0X2LmaXg",
+          "curated": false
+        },
+        {
+          "video_id": "HFVdzjbBewk",
+          "title": "Traversée du Massacre 2015 départ 42 kms",
+          "channel": "JULIEN MILLET",
+          "view_count": 109,
+          "upload_date": "20150305",
+          "duration_string": "1:03",
+          "description": "Traversée du Massacre 2015 départ 42 kms",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=HFVdzjbBewk",
+          "curated": false
+        },
+        {
+          "video_id": "mP5tnDoRNe4",
+          "title": "Traversée du Massacre 2014 42 FT",
+          "channel": "JULIEN MILLET",
+          "view_count": 137,
+          "upload_date": "20140305",
+          "duration_string": "40",
+          "description": "départ Traversée du Massacre 2014 du 42 FT",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=mP5tnDoRNe4",
+          "curated": false
+        },
+        {
+          "video_id": "Bsn2s_Tt1Qs",
+          "title": "Ski nordique : 400 fondeurs au rendez-vous de la 50e traversée du massacre",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 1051,
+          "upload_date": "20200301",
+          "duration_string": "1:56",
+          "description": "La traversée du Massacre, dans le Jura, a attiré 400 participants ce dimanche 1er mars. Après les annulations de course de ski de fond en cascade ces dernières semaines, les athlètes étaient plus que jamais contents de rechausser les skis. \n\nReportage Mary Sohier et Jean-Louis Saintain\nAvec Benoît Chauvet, gagnant de la 50e Traversée du Massacre.\n\nAbonnez-vous à notre chaîne YouTube\r\n► https://www.youtube.com/france3bourgogne\r\n\r\nRetrouvez-nous sur  :\r\n\r\nnotre site internet\r\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\r\n\r\nFacebook \r\n► https://www.facebook.com/france3bourgogne/\r\n► https://www.facebook.com/france3franchecomte/\r\n\r\nTwitter\r\n► https://twitter.com/F3Bourgogne\r\n► https://twitter.com/F3FrancheComte\r\n\r\nInstagram\r\n► https://www.instagram.com/france3bourgogne/\r\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France 3 Bourgogne-Franche-Comté",
+            "TV",
+            "France Télévisions",
+            "Bourgogne-Franche-Comté",
+            "région"
+          ],
+          "url": "https://www.youtube.com/watch?v=Bsn2s_Tt1Qs",
+          "curated": false
+        },
+        {
+          "video_id": "KnDmmEbw-k0",
+          "title": "Traversée du Massacre 2013 départ 21 kms",
+          "channel": "JULIEN MILLET",
+          "view_count": 104,
+          "upload_date": "20130312",
+          "duration_string": "49",
+          "description": "Traversée du Massacre 2013 départ 21 kms",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=KnDmmEbw-k0",
+          "curated": false
+        },
+        {
+          "video_id": "Rp_TQ6iGRHU",
+          "title": "Traversée du Massacre 2014 21 FT",
+          "channel": "JULIEN MILLET",
+          "view_count": 209,
+          "upload_date": "20140304",
+          "duration_string": "1:18",
+          "description": "départ du 21 KMS avec QUENTIN FILLON MAILLET ...",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Rp_TQ6iGRHU",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

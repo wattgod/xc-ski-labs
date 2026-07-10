@@ -1,0 +1,259 @@
+{
+  "race": {
+    "name": "Snow Farm Challenge",
+    "slug": "snow-farm-challenge",
+    "display_name": "Snow Farm Challenge",
+    "tagline": "Forty-two kilometers on New Zealand's premier Nordic trails — where the Southern Alps' tussock high country and Cardrona valley views reward every stride.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km",
+        "10km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 1600,
+      "location": "Snow Farm / Cardrona",
+      "location_badge": "Cardrona, New Zealand",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "region": "Otago",
+      "date": "August",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 200,
+      "founded": 2002,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations at Snow Farm lodge and on course",
+      "cutoff_time": null,
+      "website": "https://www.snowfarmnz.com",
+      "lat": -44.8558,
+      "lng": 169.0139,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 500
+    },
+    "climate": {
+      "primary": "Southern Alps alpine winter",
+      "description": "August is mid-winter in New Zealand. Snow Farm at 1,600m in the Cardrona valley receives reliable snowfall from the Southern Alps weather patterns. Temperatures typically -5°C to 5°C. The maritime influence means snow can be variable — freeze-thaw cycles are common. NZ's Nordic season is short but can deliver excellent conditions.",
+      "typical_temp_c": "-5 to 5",
+      "challenges": [
+        "Maritime snow — freeze-thaw cycles create variable conditions",
+        "Short Southern Hemisphere winter season",
+        "Strong nor'west winds can impact the exposed high-country course",
+        "Limited infrastructure — Snow Farm is a remote high-country operation"
+      ]
+    },
+    "course": {
+      "primary": "A 42km race on the Snow Farm's extensive trail system at 1,600m in the Cardrona Valley. The course traverses high-country tussock grassland and sheltered gullies with panoramic views of the Southern Alps, Cardrona Valley, and Lake Wanaka in the distance. Snow Farm is the Southern Hemisphere's only dedicated Nordic ski area with over 55km of groomed trails.",
+      "format": "loop",
+      "surface": "Machine-groomed trails at a dedicated Nordic centre; tussock high country",
+      "technical_rating": 3,
+      "grooming": "Good grooming at the Southern Hemisphere's only dedicated Nordic facility",
+      "features": [
+        "Southern Hemisphere's only dedicated Nordic ski area",
+        "55+ km of groomed trails at 1,600m",
+        "Panoramic Southern Alps and Lake Wanaka views",
+        "High-country tussock grassland — unique landscape",
+        "Used by international teams for off-season training camps",
+        "Both classic and skate options"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 2,
+      "score_note": "Maximum scenery for the extraordinary Southern Alps high-country landscape. Strong grooming and organization for the Southern Hemisphere's only dedicated Nordic facility. International teams use Snow Farm for off-season training, adding credibility. Small field and moderate snow reliability in the maritime climate are limiting factors.",
+      "tier_note": "Score 57 confirms TIER 3"
+    },
+    "history": {
+      "summary": "The Snow Farm Challenge is held at Snow Farm, the Southern Hemisphere's only dedicated Nordic ski area, located at 1,600m in the Cardrona Valley near Wanaka, New Zealand. Snow Farm was developed in the 1990s and has become an important off-season training venue for international Nordic teams from Europe and North America. The Challenge is the centerpiece event of New Zealand's small but passionate Nordic skiing community.",
+      "notable_facts": [
+        "Held at the Southern Hemisphere's only dedicated Nordic ski area",
+        "Snow Farm has 55+ km of groomed trails at 1,600m",
+        "Used by international teams for off-season training",
+        "Cardrona Valley is part of the Wanaka/Queenstown tourism region",
+        "New Zealand's Nordic skiing community is small but dedicated",
+        "Southern Alps provide a dramatic mountain backdrop"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Snow Farm Challenge cross country ski race Snow Farm / Cardrona",
+      "videos": [
+        {
+          "video_id": "c9oWfJaoar4",
+          "title": "#SkiWanaka 2017",
+          "channel": "Wānaka NZ",
+          "view_count": 1205,
+          "upload_date": "20170518",
+          "duration_string": "42",
+          "description": "www.ski-wanaka.nz\n\nLocated in the spectacular Southern Alps of New Zealand, Wanaka is the perfect base to enjoy the best skiing in New Zealand. \n\nThree diverse ski areas - Cardrona, Treble Cone and Snow Farm all located within a 40-minute drive from the town centre, as well as access to the largest heli - ski terrain in the Southern Hemisphere.\n\nWith parks‚ pipes‚ wide open runs, challenging steeps, powder stashes and New Zealand's only cross country ski area, Wanaka is the ultimate snow experience for first-timer skiers through to seasoned pros.\n\nVisit https://www.lakewanaka.co.nz/ for more details",
+          "tags": [
+            "skiing",
+            "snowboarding",
+            "cross country skiing",
+            "heli skiing",
+            "wanaka",
+            "new zealand skiing",
+            "skiing in new zealand",
+            "skiing in Queenstown"
+          ],
+          "url": "https://www.youtube.com/watch?v=c9oWfJaoar4",
+          "curated": false
+        },
+        {
+          "video_id": "1_ms8c36uws",
+          "title": "The Making of \"Meanwhile in New Zealand... Snow Fight\"",
+          "channel": "Air New Zealand",
+          "view_count": 1222,
+          "upload_date": "20150717",
+          "duration_string": "2:08",
+          "description": "Meanwhile in New Zealand, skiers and snowboarders have decided to settle the score the old fashioned way. With the most epic snow fight you’ll ever see…\n\nHere we take you behind the scenes to meet the teams and the crew who helped to make it all happen. Featuring Jossi Wells and the guys from Diaries DownUnder. Filmed at Snow Farm, near Cardrona and Wanaka on the South Island of New Zealand.",
+          "tags": [
+            "Snowball Fight (Game)",
+            "New Zealand (Country)",
+            "Air New Zealand",
+            "Wanaka",
+            "Snow Farm",
+            "queenstown",
+            "Queenstown (City/Town/Village)",
+            "Jossi Wells (Olympic Athlete)",
+            "dairies downunder"
+          ],
+          "url": "https://www.youtube.com/watch?v=1_ms8c36uws",
+          "transcript": "so we are up at the snow farm beautiful\nlocation overlooking cardrona and the\nvalley ultimate snow fight skiers vs.\nsnowboarders crazy slingshot machines\ncalled Trevor Jays triple bond what\nRiver whatever we kind of just just call\nit's just a catapult it it's a snowball\nanything couple of catapults each end\nbunch of good people and the aim of the\ngame is to knock the opposition's target\n/ giant set of skis for the skiers and\nin giant board for the borders heavy\nconditions but other than that she's\nshe's of you plug different cameras and\na lot of people run around watching us\nbattle it out things gonna be unreal all\nright we're gonna be launching this\nthing through here we're gonna eat this\nand I wanted I can't bloody wait kar tar\nballs to the right size which is\nimportant\nand we're going like have a dead-on hit\nright down the V of those skis their\nsmash bank\nblows\nready\nright it was a long battle during the\nday but we actually finally got there\ni'm a ginger i have much going for me at\nthe moment so to make this over them is\nabsolutely fantastic pro it was old cold\ntoday it was freezing but uh super fun\nit was like Game of Thrones old-school\nstairs it's pretty funny years\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "HMtPdml9ceY",
+          "title": "Skier experiences the Merino Muster 2022 in New Zealand (Quad biking, fishing, ice bar...)",
+          "channel": "Worldloppet",
+          "view_count": 294,
+          "upload_date": "20220915",
+          "duration_string": "8:46",
+          "description": "Here comes part 2 of you my Vlog about my journey to New Zealand's Merino Muster. What an awesome country! So many possibilities, so great landscapes, so nice skiing. \n❄️ Follow me to the Snow Farm, the skiing resort in Cardrona, where the Merino Muster is taking place.\n- https://www.merinomuster.com/\n 🏍  Then we add some horse powers and check out New Zealand's mountains with the Quad bike. \n- https://thecardrona.co.nz/\n🎣 As a pre race dinner, I caught my own salmon at Hook Wanaka. \n- https://hookwanaka.nz/\n🧊 And in the end we check out Queenstown's nightlife at the Queenstown Ice Bar. \n- https://queenstownicebar.com/\n\n\nPromo: \n👕 Also check out the Worldloppet Clothing by Moomoo: https://www.worldloppet.com/shop/\n\n😎 Northug Eyewear & Sportswear: \nhttps://northug.com/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=HMtPdml9ceY",
+          "transcript": "I don't know\nladies and gentlemen this is snow Farm\nNew Zealand\nvenue of the\nMerino master\nI'm here\ntwo days before race day checking out\nthe tracks\nand honestly I'm more like checking out\nthe views it's so beautiful up here\nanother extraordinary place\nForest ski Marathon\nso\nlet's go up there and check out the\ntrades\n[Music]\noh yeah\ntwo local kids just asked me if I'm an\nOlympian\noh well I guess they did not ask because\nI ski that well obviously\nbut because of my awesome clothing when\nyou're wondering where you could get\nthis great wallpaper clothing well in\nour web shop perfect for days like this\nright before the marathon you want to\ncheck out the trails\nI have this uh cover jacket and cover\npants if you are a world Puppet Master\nyou could get the world number clothing\npersonalized you see go no World open\nMaster number\n5181 same with the head with the flag of\nmy home country Austria our clothing is\nproduced in Estonia by Momo they have\ntheir origins in cycling where they\ncombine winter sports clothing with\ncycling wear for example on this cover\njacket you have this Pockets back there\nlike you would know it from a cycling\ndress you could put in your phone back\nthere some bars or the camera for\nexample so I really like that feature\nvery much so check out our webshop with\nthe world open clothing you are\nperfectly dressed for your race day and\nalso for the trainings before\nit's Friday one day before the race day\nand the weather up in the mountains is\nnot very beautiful so no skiing for me\nin the snow Farm today I'm doing another\nactivity a non-snow activity today to\ncheck out the mountain range and the\narea around here you can see it behind\nme we go up to gwap biking\nforeign\nlet's go\nthat was quad biking\nin katrona it's actually\nright next to the snow farm so not far\nfrom the skiing Resort where the marina\nMasters taking place so but got biking\nis not the only thing we could do with\nyou right no can you if you look in the\ndistance can you see my furry friends\ndown there\nlittle woolly mammoths in the horses as\nwell so yes I've been on my quad bike\nwith you guys today and tomorrow I'll be\nall day in the saddle that's great and\nit's really just on like it's almost\nnext to the The Crossing where you would\ngo to the snow farm so you cannot miss\nthe place\ning\nfaces just below\nall right great thank you very much for\nthe adventure for the experience my\npleasure hope to see you soon again yeah\nunfortunately the catching fish in the\nlake and river did not work out so\nI am here at another place where I\ndefinitely will catch my fish in New\nZealand it's called hook\nuh restaurant it's right here near to\nWanaka\nand it's a perfect place for a dinner on\nFriday evening before race day George he\nis my guide he will guide me to my fish\nnow and after that we're gonna cook it\nand eat it as a pre-raised meal let's do\nthis so George what kind of fish do we\ncatch here uh salmon salmon all right\nand are you a fisherman too oh yeah fly\nfishing that's quite difficult isn't it\nuh yeah when you started this all right\nand what was your biggest fish you\ncaught so far\noh man\nlook like\ngood yeah\noh you're having a go at it what\nthe bubble one under\nI still can't pick up\noh nearly you might come back he might\ncome back\nfirst fish in New Zealand on\nstrong\nlook at that\nbefore\nand they're gonna get smoked right yep\num\nso we have hot smoked salmon and sashimi\nsalmon let's try the hot smoke first\nwow\nthat's just delicious\nand that is a Shamy one\nwow what a great pre-rest dinner\noh guys look at these views\nmy time here in UC is Lolly coming to an\nend one night we're here in Queenstown\nawesome mountain range\nand Cindy\nmy whole Adventure going to the kangaroo\nHarbor in Australia and one week later\nto the Merino Master is coming to an end\nand I can tell you what a great\nadventure I only can recommend it\ndo this trip I know it's a little bit\nmore expensive than other Waldo but\nraces\nbut it's totally worth it if you have\nthis one week between the two races you\nhave good days and enough adventures and\nthings to do to experience to check out\nthe two countries it's just totally\nworth it I'm gonna enjoy my final night\nhere in New Zealand in Queenstown now\nlet's start in the Queen's down Ice Bar\nlet's go in there\nhi hello awesome I'm actually quite\nheated up from running but I guess it's\ncold down there to expect me down there\nso you can expect to see about because\nof dirty kind of ice downstairs so it's\nall handcrafted made under one month and\nthis is Queenstown brand new premium ice\nbath so we are the bougie one and yeah\nand really talks our Spirits as well\nwhatever\nfriends cheers\n[Applause]",
+          "curated": true,
+          "curation_reason": "First-person POV vlog showcasing the Snow Farm venue with pre-race course preview and terrain details.",
+          "display_order": 1
+        },
+        {
+          "video_id": "5wRHILzC-3k",
+          "title": "Good Morning World | Day 119 of 365 - Queenstown, Snowmobiling",
+          "channel": "100% Pure New Zealand",
+          "view_count": 896,
+          "upload_date": "20191012",
+          "duration_string": "15",
+          "description": "Today’s Good Morning World comes from Mush on the Garvie Plateau, Queenstown! Hope you have a great day, wherever you are in the world! #GoodMorningWorldNZ\n\nLearn more: https://www.newzealand.com/int/campaign/good-morning-world/",
+          "tags": [
+            "New Zealand",
+            "Travel",
+            "100% Pure New Zealand",
+            "Queenstown",
+            "Snowmobiling"
+          ],
+          "url": "https://www.youtube.com/watch?v=5wRHILzC-3k",
+          "transcript": "good morning world kyouda welcome up\nhere to the Garvey's range now you're up\nhere with Queen self snowmobiles I'm not\none of guides up here beautiful days for\nher so really let's fresh powder come up\nhere and join us\n[Music]",
+          "curated": false
+        },
+        {
+          "video_id": "cyEMed8Bdz8",
+          "title": "Young Skiers Learn The Slopes At Minne-Loppet",
+          "channel": "WCCO - CBS Minnesota",
+          "view_count": 111,
+          "upload_date": "20180128",
+          "duration_string": "1:07",
+          "description": "For many families, learning to ski is a rite of passage, Liz Collin reports (1:07). WCCO 4 News At 10 – Jan. 27, 2018",
+          "tags": [
+            "WCCO 4 News At 10",
+            "minne-loppet",
+            "skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=cyEMed8Bdz8",
+          "transcript": "here in Minnesota we love our snow\nsports this time of year and for many\nfamilies learning to ski is a rite of\npassage it is one of the largest Nordic\nSki events in North America and it's\nright in the middle of the city of\nMinneapolis I think that when people\nthink of adventure and they think of\ngetting outdoors they think of the\nBoundary Waters or they think of\nsomething but I don't believe is that\nyou can have adventure anywhere in the\ncity yeah today many kids took part in\nthat adventure at the lopat foundation\nheld its mini lopat ski race today at\nLake Calhoun the event focuses on young\nskiers just learning the sport and that\nmeans for some it was a little slow\ngoing can't it it it\nit falling then I got up I helped to\ngive me up it was like really good\nseeing people all work together and\nstuff the people that was participating\nI think they did a good job you look\nlike you're deserving of a medal there\nwe go congratulations\nhow cute are they and yeah Minneapolis\nMayor jacob frye was also at the event\nto cheer on participants as they crossed\nthe finish line",
+          "curated": false
+        },
+        {
+          "video_id": "ONS39A4pEbc",
+          "title": "Heavy snow, warm temps force Luminary Loppet, Lake Harriet Art Shanties to adjust plans",
+          "channel": "WCCO - CBS Minnesota",
+          "view_count": 808,
+          "upload_date": "20230113",
+          "duration_string": "2:09",
+          "description": "Our recent swing in weather has created challenges for outdoor events. From ice melting, to uneven freezing on lakes, organizers are making adjustments. The changes may impact your plans.",
+          "tags": [
+            "WCCO 4 News",
+            "lake harriet",
+            "snow",
+            "luminary loppet",
+            "art shanties",
+            "bandshell",
+            "U.S. Pond Hockey Championships"
+          ],
+          "url": "https://www.youtube.com/watch?v=ONS39A4pEbc",
+          "transcript": "well our recent swing and weather has\ncreated challenges for outdoor events\nfrom ice melting to uneven freezing on\nlakes organizers are making adjustments\nwcco's Jennifer merely shares how the\nchanges may impact your favorite event\nI think we need to remove this yeah\nthese aren't Shanty organizers are\nscoping out spots around the Lake\nHarriet Bandshell for artists to place\ntheir projects it's part of the\nadaptable changing nature of the game\nartistic director Aaron Lavelle says\nthey need the ice to be 10 inches to\nsafely hold the shanty projects and 30\n000 event goers it's at six inches so\nthey made the call to move from Lake to\nland it was an easy call to make we just\nhad to move to shore and we're calling\nit plan Beach it's going to be a beach\nparty we're not really on the beach but\nwe'll be in the park she says the\nflexibility of artists helps as they\npivot the plan to do the best they can\nand it's most important that the event\ngoes on\nover on Lake of the Isles organizers\nrescheduled February's luminary lopit\nthey say heavy snow coupled with warmer\ntemperatures made conditions unsafe on\nthe lake and impossible to groom and\ncreate sculptures they plan to bring the\nsame magical event to people two weeks\nlater I think it's fantastic I think we\nhave to adapt and I think Safety First\nand I think getting people outside is\nthe most important thing in Minnesota\nenjoy the weather but be safe the U.S\npond hockey championships say the\noperations team has gotten creative\nworking on Lake Nokomis in a holding\npattern for now while they wait for the\nslush to freeze working with safety in\nmind the team tells me they are closely\nmonitoring conditions and they are\ncautiously optimistic as they continue\nto prepare for the tournament in\nMinneapolis Jennifer mayerly WCCO 4 News\nregistration for the U.S pond hockey\nchampionships is Thursday play is\nscheduled to start on Friday watch their\nwebsite for any updates and we will get\nyou there by going to wcco.com links",
+          "curated": false
+        },
+        {
+          "video_id": "qxgfFwEZjes",
+          "title": "The Snowbine Harvester Part 1 | Top Gear | BBC",
+          "channel": "Top Gear",
+          "view_count": 13948561,
+          "upload_date": "20110706",
+          "duration_string": "7:43",
+          "description": "Jeremy, Richard and James set out to end the chaos and misery that snow brings to Britain every year by using a combine harvester, some basic engineering skills and a quick trip to Norway!\n\nSubscribe for more awesome Top Gear videos: http://www.youtube.com/subscription_center?add_user=Topgear\n\nTop Gear YouTube channel: http://www.youtube.com/topgear\nTopGear.com website: http://www.topgear.com\n\nTop Gear Facebook: http://www.facebook.com/topgear\nTop Gear Twitter: http://twitter.com/BBC_topgear\n\nThis is a commercial channel from BBC Studios. Service & Feedback https://www.bbcstudios.com/contact/contact-us/",
+          "tags": [
+            "BBC Top Gear",
+            "Combine Harvester",
+            "Combine Harvesters",
+            "Snow Plough",
+            "Norway",
+            "Snow",
+            "Snow clearance",
+            "Winter",
+            "BBC",
+            "Top Gear (TV Program)",
+            "Jeremy Clarkson (Author)",
+            "Richard Hammond (Author)",
+            "James May (Author)",
+            "Challenge",
+            "Plane",
+            "runway"
+          ],
+          "url": "https://www.youtube.com/watch?v=qxgfFwEZjes",
+          "transcript": "you know what it's like when you're\nfollowing the gritting lorry on the\nmotorway and is that do you think oh no\nit's turning my car into a DeLorean yeah\nexactly said to make sure this isn't too\npowerful we've got Hammond in the car\nwho's just gonna come in here we're\ngonna do a little experiment fire the\ngritter at it make sure it doesn't\nactually take the paint off okay all\nright sideways won't sit yeah yeah okay\nJames initiating gritting\n[Music]\ngritting ceased apart from the fact the\ngrit would kill the occupants of any car\nit hit we felt the Dominator was ready\nto start work but there was a problem\nit's not snow with crossed fingers we\ntuned in to the weather forecast\ngood news is absolutely no sign of the\ncold air returning in the near future\nit's a very mild outlook the reason\nwe've got all this warm air is pumping\nup from the top\nso if the snow wouldn't come to the\nDominator we would take the Dominator to\nthe snow\nhere in Norway we decided to clear the\nsnow from a frozen lake to make a runway\nand then an oar would land yz-plane on\nit\nthis is quite snowy it must have snowed\nwe knew the ice would be thick enough\nfor a light aircraft but what about our\nheavy snow boy that was 10 seconds we\ndon't know this is all through don't yes\nthe regions actually have a chart to say\nhow much weight you can put on various\nthicknesses of ice so how thick is it\nfor five centuries so it's well say 50\nso 50 centimetres of ice 12 tonnes\ncombines them it's more combines more\nthan 13 times 13 tonnes so we can't do\nwell it's only a ton of bravely hammond\nand the optimistic Jeremy decided not to\nbe on board as I gingerly drove the snow\nvine out of the woods\nbloody big this thing towards the ice\nthree yards to the lake this is it I\ndon't like that noise\neventually though I made it did I or did\nI not say we'd be alright\nyeah not based entirely on guesswork\nanyway yes yeah\nmartyr's my guesswork was correct we set\nto work\nwe're plowing\nwe're ploughing chaps look at this\nhere we go\nthe snowbine astir it works yeah\ncome on\nI think we've just gone through it yeah\nwe have that's not an emergency it's\njust time to empty your bowels sinking\nsinking bravely Jeremy dismounted I\ndrove back started issuing orders\nthat is sinking badly what you blade\ndown Jones because that's just gone\nthrough again when the combine finally\nmoved we could see the scale of the\nperil it's 300 meters deep\nit's just however unlike the snow plow\npeople at Heathrow Airport we decided\nnot to just give up do you know how many\nflights were cancelled in Heathrow last\nyear because of the weather 3700 do you\nknow how many flights were cancelled at\nOslo because of the weather\nHeathrow 3,700 has one better and as we\nwere proving all that misery was\ncompletely unnecessary\nthere really is no excuse Heathrow\nbaa if you're watching this you're\npathetic\nthe meetings as our well the reason why\nresult is Sakon there is no reason why\nthe shot because it isn't\nit just isn't my rant was interrupted at\nthis point by news from below decks Bob\nBob Road point the bovril's boiling over\nand up top Hammond was still fretting\nabout the ice\noh my god that's another crack look yeah\nwhen we go through it's gonna be worse\nfor him oh god yes because he will be\npulling at the glass desperate right now\nthough he was pulling at the steering\nwheel James came right you idiot stay\nright it's a straight line were looking\nfor yeah I think this would be a tricky\nlanding accident we got into a tank\nslapper look what were pointing James\nplease indicate man eventually them\nJames mastered the rear-wheel steering I\nwaited to look behind this and see a\nrunway it completely lights everything\nBarry isn't happening but it's not bad\nlook and pretty soon the runway was\nfinished so we pulled over and radioed\nthe pilot giving him permission to now\nit's not the smoothest runway but\nthere's less snow on it than the one it\nis smooth enough isn't it\nwell we're let's find out here he comes\ncook that job done ladies and gentlemen\nwe did that sadly though our\ncelebrations were premature oh oh my god\nyeah that is quite bumpy it's crashed it\nhas pretty much crashed there at a time\nlike this there's only one thing a man\ncan do right quick go no just go go\nright James run",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Two days before race day checking out the tracks and honestly I'm more like checking out the views it's so beautiful up here. Another extraordinary place for ski marathon.",
+          "source_video_id": "HMtPdml9ceY",
+          "source_channel": "Worldloppet",
+          "source_view_count": 294,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

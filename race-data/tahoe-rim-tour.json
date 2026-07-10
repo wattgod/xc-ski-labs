@@ -1,0 +1,271 @@
+{
+  "race": {
+    "name": "Tahoe Rim Tour",
+    "slug": "tahoe-rim-tour",
+    "display_name": "Tahoe Rim Tour",
+    "tagline": "Thirty kilometers along the Sierra Nevada rim with Lake Tahoe shimmering below — high-altitude skiing in California sunshine.",
+    "vitals": {
+      "distance_km": 26,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 450,
+      "altitude_m": 2000,
+      "location": "Lake Tahoe, California",
+      "location_badge": "California, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "California",
+      "date": "Mid-February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 250,
+      "founded": 2005,
+      "registration": "Online; limited spots",
+      "prize_purse": null,
+      "aid_stations": "Aid stations with hydration and snacks",
+      "cutoff_time": null,
+      "website": "https://www.tahoexc.org",
+      "lat": 39.0968,
+      "lng": -120.0324,
+      "field_size_estimate": 250,
+      "elevation_gain_m": 450
+    },
+    "climate": {
+      "primary": "Sierra Nevada mountain winter",
+      "description": "Lake Tahoe in mid-February sees temperatures from -10°C to 5°C. The Sierra Nevada receives massive snowfall from Pacific storms, but the high altitude and California sunshine can create variable snow conditions. Altitude of ~2000m provides excellent snow preservation.",
+      "typical_temp_c": "-10 to 5",
+      "challenges": [
+        "Intense sun at altitude can soften snow by midday",
+        "Altitude around 2000m may affect unacclimatized participants",
+        "Sierra storms can dump heavy wet snow",
+        "Variable conditions from sun crust to powder within the same day"
+      ]
+    },
+    "course": {
+      "primary": "Loop course at elevation along the Tahoe rim with views of the lake and surrounding Sierra peaks. The course traverses through mixed conifer forest and open ridgelines, with sustained climbs and exhilarating descents. High altitude and rolling terrain make it more demanding than the distance suggests.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through Sierra Nevada forest and ridgelines",
+      "technical_rating": 3,
+      "grooming": "Well-groomed by local Tahoe Nordic center",
+      "features": [
+        "Spectacular Lake Tahoe views from the course",
+        "High-altitude skiing at approximately 2000m",
+        "California sunshine creates unique skiing conditions",
+        "Sierra Nevada mountain scenery with granite peaks and conifer forests",
+        "Combines ridgeline and forested sections for varied terrain"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 1,
+      "score_note": "Stunning Sierra Nevada scenery and high-altitude skiing make this a unique West Coast event. Small field and limited competitive depth keep it as a niche regional race, but the setting is world-class.",
+      "tier_note": "Score 53 places in TIER 3 range"
+    },
+    "history": {
+      "summary": "The Tahoe Rim Tour emerged from the Lake Tahoe Nordic community, leveraging the Sierra Nevada's massive snowfall and high altitude to create a scenic touring race. The Tahoe area has a long tradition of Nordic skiing, with multiple Nordic centers operating around the lake. The race showcases the unique combination of California sunshine and Sierra powder.",
+      "notable_facts": [
+        "Lake Tahoe area receives some of the heaviest snowfall in the US — often exceeding 10 meters annually",
+        "The Sierra Nevada rim provides a dramatic natural course setting",
+        "Tahoe has been a Nordic skiing destination since the 1960 Winter Olympics at nearby Squaw Valley",
+        "One of the few Nordic races held at approximately 2000m altitude in the US",
+        "The Tahoe Nordic community supports multiple groomed trail systems around the lake"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Tahoe Rim Tour cross country ski race Lake Tahoe",
+      "videos": [
+        {
+          "video_id": "70j2iLUPzhc",
+          "title": "Tahoe Rim Tour XC Race",
+          "channel": "Sugar Bowl Academy",
+          "view_count": 107,
+          "upload_date": "20120408",
+          "duration_string": "1:50",
+          "description": "For more information about Sugar Bowl Academy, visit sbacademy.org and sugarbowlacademy.blogspot.com",
+          "tags": [
+            "Nordic",
+            "Far",
+            "West",
+            "Tahoe",
+            "Rim",
+            "Tour",
+            "Jeff",
+            "Schloss",
+            "Sugar",
+            "Bowl",
+            "Academy",
+            "Tracy",
+            "Keller",
+            "Bill",
+            "Hudson",
+            "Peyton",
+            "Jobe"
+          ],
+          "url": "https://www.youtube.com/watch?v=70j2iLUPzhc",
+          "curated": false
+        },
+        {
+          "video_id": "E6YJZf6MP3M",
+          "title": "Cross Country skiing in bitter cold (-12° C) at Tahoe Donner Cross Country, Truckee, CA",
+          "channel": "Fiesta Adventures",
+          "view_count": 752,
+          "upload_date": "20221209",
+          "duration_string": "30",
+          "description": "We enjoy a cold, crisp December day of XC skiing at the beautiful Tahoe Donner XC resort in Truckee, CA near Lake Tahoe. We pass the newly restored cowboy cabins and shake our arms to try to get some warmth in our hands! #shorts",
+          "tags": [
+            "#TahoeDonnerCrossCountry",
+            "Euer Valley",
+            "Cowboy Cabins"
+          ],
+          "url": "https://www.youtube.com/watch?v=E6YJZf6MP3M",
+          "curated": false
+        },
+        {
+          "video_id": "15uTNQS3Djg",
+          "title": "The 2022 Great Ski Race",
+          "channel": "Nico Aguilera",
+          "view_count": 247,
+          "upload_date": "20220318",
+          "duration_string": "22:33",
+          "description": "The 2022 The Great Ski Race in new race course: 26 KM (16.2 miles) around Mt Watson, starting and finishing at Tahoe XC.\n\nHad the gopro loosely attached on the chest (in the webbing of a vest). A little wobbly here and there.\nThe data overlays from Virb are off by a few minutes, too time-consuming to fix and re-do, so... sorry.\nStrava: https://www.strava.com/activities/6785047301\n\nThe Great Ski Race® is the main fund raising event for the Tahoe Nordic Search & Rescue Team, a non-profit all-volunteer organization. Team members, along with community supporters, organize The Great Ski Race®, which continues to be one of the largest Nordic ski races west of the Mississippi. Race proceeds are used primarily to purchase equipment for the Team, and to support winter survival and avalanche education programs sponsored and conducted by the Team.\n\nSoundtrack: TSYN Deep House Mix #3 // by Androma  -- https://soundcloud.com/tsyn/tsyn-deep-house-mix-3\n\n\n00:00 Start line\n00:35 Wave 4 - go!\n01:38 Tahoe XC crispy tracks\n03:09 Cheers! up the hill we go\n06:38 a lot of uphill on skis\n10:58 soup station!\n11:50 now for some downhill\n13:43 legs on fire\n15:36 cruising\n18:21 back into Tahoe XC\n21:01 finish line\n21:57 after party",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=15uTNQS3Djg",
+          "curated": true,
+          "curation_reason": "POV race footage of a 26km race around Mt Watson with chest-mounted GoPro perspective.",
+          "display_order": 1
+        },
+        {
+          "video_id": "fDMtqgX4hoQ",
+          "title": "Tahoe Donner XC Skiing",
+          "channel": "David Pluto",
+          "view_count": 82,
+          "upload_date": "20230402",
+          "duration_string": "2:22",
+          "description": "Watch @nads_038 as well as her father and sister #xcskiing #tahoedonner",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=fDMtqgX4hoQ",
+          "transcript": "thank you\n[Music]\n[Applause]\nforeign\ndon't don't crash there\ndude you're pretty good\nlet's go",
+          "curated": false
+        },
+        {
+          "video_id": "EHWA7EwE7VE",
+          "title": "Lake Tahoe: The Great Ski Race 2017",
+          "channel": "Bill O",
+          "view_count": 347,
+          "upload_date": "20170326",
+          "duration_string": "11:09",
+          "description": "Brian and Bill venture out to Lake Tahoe in early March 2017 for an epic 4-day cross-country ski trip -- and the 40th annual Great Ski Race from Tahoe City to Truckee.  Three feet of fresh snow over the weekend helped solidify this season in the history books, with over 600 inches of snow and counting.\n\nSoundtrack courtesy of:\n\nMajestic Hills by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100423\nArtist: http://incompetech.com/\n\nAnd Awaken - Stings by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100331\nArtist: http://incompetech.com/\n\nHero Down by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100880\nArtist: http://incompetech.com/",
+          "tags": [
+            "iMovie"
+          ],
+          "url": "https://www.youtube.com/watch?v=EHWA7EwE7VE",
+          "curated": true,
+          "curation_reason": "Race coverage from the 40th annual Great Ski Race with context about exceptional snow conditions (over 600 inches).",
+          "display_order": 2
+        },
+        {
+          "video_id": "tDvkKWPsmAM",
+          "title": "Tahoe Donner Cross Country Lunch Ski with Judy #shorts",
+          "channel": "Fiesta Adventures",
+          "view_count": 159,
+          "upload_date": "20221207",
+          "duration_string": "30",
+          "description": "We ski Tahoe Donner Cross Country in Truckee, CA, a fine XC resort. Amazing trails, excellent grooming, and competent and friendly staff. Not to mention the new Cross Country Center. Have a ski then enjoy a nice lunch and maybe an adult beverage in the bar or out on the patio with the gas fireplace! #shorts",
+          "tags": [
+            "Tahoe Donner Cross Country",
+            "Truckee XC ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=tDvkKWPsmAM",
+          "transcript": "laughs\nwhoopsie there's I see that smile oh my\nGod this is like I cannot tell you how\nhappy I am this is my lunch hour are you\nkidding me Big D Big D let's do it let's\ndo Big D me first\nwow\n[Music]\nthe Acres",
+          "curated": false
+        },
+        {
+          "video_id": "JFF5qrxRxow",
+          "title": "Mountain Biking Tahoe Cross Country Ski Area - Great Ski Race Trail",
+          "channel": "moon kim",
+          "view_count": 1035,
+          "upload_date": "20100718",
+          "duration_string": "6:48",
+          "description": "Surprisingly good riding. No big climbs, and not that technical. This section is from the Fiberboard Road at the top of The Great Ski Race Trail down. There are a bunch of humps where one could get air, but as you can tell I like to keep my tires on the ground.",
+          "tags": [
+            "Tahoe",
+            "Cross country",
+            "mountain biking",
+            "single track",
+            "gopro hd"
+          ],
+          "url": "https://www.youtube.com/watch?v=JFF5qrxRxow",
+          "curated": false
+        },
+        {
+          "video_id": "z_LKgUZt8p0",
+          "title": "Loppet ski races canceled this weekend due to bitter cold | FOX 9 KMSP",
+          "channel": "FOX 9 Minneapolis-St. Paul",
+          "view_count": 201,
+          "upload_date": "20210204",
+          "duration_string": "2:15",
+          "description": "Due to the bitter cold forecasted for this weekend, the Loppet Foundation will be canceling some of its events for the City of Lakes Loppet Winter Festival, according to organizers.\nSubscribe for more from FOX 9: https://bit.ly/3p5NDSU",
+          "tags": [
+            "news",
+            "Minnesota weather",
+            "Loppet Foundation",
+            "Loppet",
+            "extreme weather",
+            "cold"
+          ],
+          "url": "https://www.youtube.com/watch?v=z_LKgUZt8p0",
+          "transcript": "well bitter cold temperatures expected\nthis weekend are forcing the city of\nlakes lopete to make a tough decision\nthe annual festival is canceling some of\nits in-person events this weekend\norganizers say it will be impossible to\nsafely hold those events\nfox 9's morgan glover joining us live\nfrom minneapolis tonight more organizers\nsay they're looking out for anyone who\nmight venture out\nthis weekend that's right the lope is\nsupposed to be a celebration of winter\nbut this year the main events are being\nleft\nout in the cold the general atmosphere\nthat the the community gets around this\nevent\njohn brock has raced in the city of\nlakes lopete almost\nevery year since it began but this year\nhe crossed the finish line a few days\nearly\nbecause his regular race has been\ncanceled i was disappointed i was\nvery much looking forward to you know\njust cranking it up and letting it you\nknow letting it fly and\nwell couldn't do that so i thought hey\ni'm here today let's ski it virtually\nthe lopitt foundation says it's calling\noff the festival's in-person ski races\nthis weekend\nbecause of the impending cold event\norganizers say with high temperatures\nexpected to be\naround zero they don't want to put the\nracers or volunteers in harm's way\nyou know usually skiers are hardy they\ndon't mind racing a negative seven\nbut during covit i can't send people out\nin shuttles i can't have fires i can't\nhave warming tents i can't serve hot\ndrinks\njust all the things that we would\nnormally do to keep people safe\nare more challenging during covid\norganizers say participants can still\nrace virtually at another location\nand report their time race the actual\ncourse at work park until friday\nor ski in a makeup event later this\nmonth you have to be flexible in\nminnesota in the winter and with kovid\nthat's just an\nextra challenge but skiers are confident\nthe races will return next year\nbigger and better than ever oh yeah i'll\nbe back\noh yeah don't worry about that i'll be\nback\nnow even though the races are canceled\nthe luminary lopid will be\nmoved to thursday and friday nights\ninstead of being held on friday saturday\nand sunday nights\nwill just be too cold reporting live in\nminneapolis mary glover\nfox 9 news",
+          "curated": false
+        },
+        {
+          "video_id": "SuKn-acPvVk",
+          "title": "Classic Cross-Country Skiing for Beginners: Everything You Need to Know to Get Started || REI",
+          "channel": "REI",
+          "view_count": 1152738,
+          "upload_date": "20200225",
+          "duration_string": "13:20",
+          "description": "Classic Cross-Country skiing offers something for everyone, from exercise to beautiful winter scenery. We partnered with Greg Rhodes of the Professional Ski Instructors of America (PSIA) to give you all the basics for your first day on the trail so you'll be gliding over the snow with ease in no time.\n\nBefore Putting Skis On :29\nMoving on Flat Ground 1:09\nPole Basics 3:12\nGoing Uphill 6:35\nGoing Downhill 8:07\nTurning 10:52\nGetting Up from a Fall 12:03",
+          "tags": [
+            "rei",
+            "outdoors",
+            "sporting goods",
+            "adventure",
+            "skiing",
+            "cross-country skiing",
+            "cross country skiing",
+            "classic skiing",
+            "classic cross-country skiing",
+            "how to cross-country ski",
+            "how to cross country ski",
+            "cross country for beginners",
+            "beginner cross country skiin"
+          ],
+          "url": "https://www.youtube.com/watch?v=SuKn-acPvVk",
+          "transcript": "hi i'm greg rhodes with psia and the rei\nco-op and i'm here to cover some tips\nfor you to get your classic skiing down\nthe trail\n[Music]\nwhat we're going to be covering are\nskills before we put our skis on moving\non flat ground pole basics going uphill\ngoing downhill\nturning and coming to a stop and getting\nup from a fall\nbefore we put our skis on let's practice\nour body position that we're going to\nuse when we're on our skis it's a basic\nathletic body position where your ankles\nand your knees are bent softly and your\nhips are right over your feet you can\neven stand with your hands out in front\nof you\npracticing and having this soft bouncing\nmovement to feel the pressure on your\nbottom of your foot\nwhen we classic ski we actually stand on\none foot\nso take that two-footed athletic stance\nand shift your weight over one foot and\npractice having that same stable and\nstacked position on one foot just like\nyou'd be classic skiing\nyou can switch feet and try it on both\nnow that we're on snow we're gonna have\nto put on our skis before we can start\nsliding when you put on your skis put\nthem on the snow\nput them parallel to each other there's\nno right and left ski so don't worry\nabout where they're at\nand then you're going to want to clear\nthe snow off your boot\nline your toe up behind the rubber\nbumper and push down until it clicks\nthe first thing you can do when you to\nget moving on the snow is to do a little\nshuffle just shuffle your feet\nunderneath you to keep your feet\nunderneath your hips\nand have that feeling of having a long\nski on your foot you can also think of\nthe shuffle as just walking on your skis\nnow we're going to bring it to the point\nwhere we get to actually glide on our\nskis\nthe fun advantage of being on\ncross-country skis over just hiking in\nthe snow or being on snowshoes is we get\nto glide so let's take that shuffling\nand add a glide into it\nto do this for the first time a lot of\ntimes what we like to talk about is\ndoing a shuffle shuffle glide this way\nyou can practice having your feet\nunderneath you and then gliding on one\nfoot shuffling with your feet underneath\nyou and then gliding on the next foot\nlet's get to actually kicking and\ngliding on our cross country skis when\nwe kick and glide our skis or the actual\nclassic stride what you want to think\nabout is quickly bending your ankles and\nyour knees to set your wax pocket or\nyour grip zone of your ski and gliding\nonto the new ski\nthis will be a sequence of quickly\nbending your ankle on your knee and\ndriving your other foot forward\none of the best ways that we can have\neverybody get going on the cross-country\nskis is to actually practice kicking and\ngliding without using their pulse\nlet me give you a demo what i mean by\nskiing without pulse\nwhen you're classic skiing you really\nwant to remember to focus on setting the\npocket and pushing off that ski\nthink of bending the ankle on the knee\nquickly push down on the ball of your\nfoot\nand glide\npush\nwhen we cross country ski we don't just\nuse our skis and our legs we actually\nget to use poles too poles provide us an\nopportunity to use both our upper and\nour lower body to move more efficiently\ndown the trail as well as gives us a\nlittle bit of balance when we're in that\nglide position to start we're gonna have\nto put on our poles\nwhen you put on your poles you wanna go\nup from the bottom of the strap i always\ntalk about it as the rabbit comes up\nthrough the hole\nand then grabs onto the tree\nyou want to look to make sure that the\npull strap is between your hand and the\npull\nif you put on a pole and the strap is\ntoo loose because you grab it below\nwhere the strap goes in\nthis is too loose and you're gonna have\nto tighten up your strap now that we\nhave our poles on we're gonna really\nstart putting our arms into the skein\nbefore we start moving and\ndoing the striding let's actually just\nwork on some basics of double pulling\nthat are going to be easier to apply\nwhat i like to have people think about\nthe first time is getting that official\nbody position that we've always done so\nremember our ankles and our knees are\nbent our hips are over our feet and now\nwith our hands we're going to put them\nout in front of us\nabout at the level of our our mouth\nour elbow is going to be bent at 90\ndegrees not straight but right at 90\ndegrees\nthe first movement pattern you're going\nto think about is you're going to think\nabout activating your core\nso when you do this you want to have\nyour hands out in front of you activate\nthe core until your poles come to the\nsnow\nactivate the core till the poles come to\nthe snow\none thing that you can check on to make\nsure you're doing this correctly and\nthat your arms are in the right position\nyour poles tips are landing right at the\ntip of your binding to the tips of your\ntoes if your arms are too long\nthey land out by the tips of your skis\nif your hands aren't in front of you far\nenough\nthey land out by your heels or at the\ntails of your skis elbows at 90 degree\nactivate your core\npull tips to the tops of your bindings\nwhen we're double pulling we do more\nthan just activate our core and bring\nour poles to the snow we actually need\nto use the pulse to push off of so what\nwe're going to do is you're going to\nactivate your core bring the pulse to\nthe snow and then you're going to drive\nyour elbows back so you push off your\npoles to move yourself forward\nactivate the core\npush and slide forward one good way to\nthink about the sequence of double\npoling\nis to think about activating my core and\nthen pushing my hands to my pockets\nactivate push to my pockets\nnow that we've worked on both\nkicking with our feet and our skis\nand our double pulling let's put that\ntogether to actually classic ski or what\nwe call diagonal striding\ndiagonal striding uses your arms\nindependently and not together but the\nsame movement pattern happens with your\nhand just in front of your shoulder\nabout level with your mouth\nelbow at 90 degrees activate\npush with your hand to your pocket with\nyour other arm swinging through at the\nsame time the reason why we call it\ndiagonal stride is the timing with your\nlegs is that it's opposite arm opposite\nleg so before you even have your skis on\nhave your poles on and just walk down\nthe trail and slowly feel like what it\nfeels like to have your poles in your\nhands and diagonal stride\nnow that you have the timing down with\nyour your walking put back on your skis\nand try it with just a little shuffle\nand low intensity to see if you can get\nthe timing down\nhere are a couple easy ways to get up\nthat hill\nso you can use more of the nordic\ncenters that you're visiting\ngradual uphills can easily be taken care\nof which is shorting up your stride into\na one of those shuffle movements that\nyou did when you first got on your skis\nkeep your skis in the track\nshuffle up the hill with a shorter push\nbut make sure you really set that pocket\nwith maybe a little bit more ankle and\nknee flexion to set that pocket harder\nwhen you're getting up that hill if the\nhill gets deep enough that that short\ndiagonal stride you start slipping you\nmight need to use what we call the\nherringbone the herringbone is where you\nstep out of the track\nyour skis or tips are going to go out\ninto a v and separate and you're going\nto start rolling your feet into the\ninside and dig the inside edge of your\ninto the snow you're going to keep your\narms and your legs still in a opposite\narm opposite leg pattern but you're\ngoing to slowly step up the hill and use\nyour pulse to make sure you don't slide\nbackwards as you take a step up the hill\nwith your feet in that v shape and the\nmiddle edges roll towards your arches\ndigging into the snow the hill gets so\nsteep\nyou might even have to sidestep up the\nhill\nor even take off your skis\nand walk up the hill especially if it's\nreally deep powder\nif you have to use herringbone side\nstepping or walking up the hill make\nsure you step out of the track and keep\nthe track nice and crisp and clean for\nthose that are actually going to\ndiagonal stride up the hills\nif you skied up a hill you get the\nopportunity to go down the hill\nthe first way to get down the hill is\nkeep your skis in the track get back\ninto that athletic body position that\nneutral stance that we started with\nankles bent knees bent hips right over\nour feet hands slightly out in front of\nus and just keep your skis sliding in\nthe track as you gradually go down the\nhill this is something you can use on\nlow angle hills places that you feel\nmore comfortable\nkeeping your skis in the track is a\ngreat safe way to do it if there's a\ncorner in that downhill you can usually\njust ride those skis in the track just\nlike a train would rod the rails around\nthe corner if you want to have a little\nbit more safety and speed control you\ncan do a half wedge\nshift your weight to your ski that\nyou're going to keep in the track\nlift up your other ski step it out of\nthe track\nshift your weight to the wedge ski\npushing in on the inside edge and slowly\npressuring that ski that's out of the\ntrack to control your speed and slow you\ndown it's easy just lift your leg back\nup stick your foot in the track and\ncontinue gliding on if the hill is\ntoo big or you want a little bit more\nsafety\nand\ncomfort when you're going down the hill\nyou might want to use a full wedge to\nget down that hill the top of the hill\nis probably the best time to step all\nthe way out of the track with both feet\nand now you're going to put both feet\ninto a wedge meaning you're going to\nmove both heels out putting your toes\ntogether your tips your skis together\nand pushing in on the insides of your\nfeet towards the arch of your foot\nthis way you're pushing out with both\nleft and right foot at the same time and\nyou can really increase the pressure or\nincrease how wide that wedge is to slow\ndown\nyour skis as you're going downhill think\nabout it as you're up snow plow\npushing into the snow slowing yourself\nas you're doing this to make sure\nincrease that pressure you're going to\nwant to drive your knees\ntowards the tip of your skis bending\nyour ankles and your knees keeping your\nhips\nright over your feet\nif you want to stop you're going to have\nto really push out hard until you come\nto a complete stop\none other reminder whenever you're going\ndown the hills keeping your hands out in\nfront of you and your pole tips behind\nyou it's going to keep you in control as\nyou're going down that hill\nif you try to stop yourself with your\npull tips\nyou might catch your pole\nand take it to your chest or your face\nif you come to a hill that's a little\ntoo steep for your current abilities\nor you don't feel safe going down it\nit's okay to take your skis off and walk\ndown the hill just one reminder to be\ncourteous of your other cross-country\nskiers and the trail conditions and make\nsure you do it to the side and\ndefinitely do not walk down the classic\ntrack\none of the great things about cross\ncountry skiing is our ski trails\nwander throughout\nforests and prairies so there's always\ngoing to be a churn that we're going to\nhave to do there's a couple easy ways to\nmake the churn first of all if you're\nclassic stinging the tracks are going to\neasily just guide you around every\ncorner\nyou just feel like you're a train in the\ntrain tracks just keep your skis in the\ntracks and let up the track turn you\nanother turn you can use is a step churn\nstep turns are really just stepping your\ninside foot in the direction of the turn\nand then bringing your other foot\nparallel with it if you're moving fast\nthe rhythm of that is just going to\nincrease with smaller steps each single\ntime just remember it's inside foot\nparallel inside foot parallel until you\nget all the way around the corner and\nthen you can back to gliding straight\ndown the trail if you use the wedge to\nget down a hill and there's a turn in\nthe trail you're gonna have to use what\nwe call a wedge turn\nyou're gonna keep your feet still in\nthat wedge position\nbut now you're gonna start steering your\nfeet by pressuring the outside foot a\nlittle bit more than the inside foot to\nsteer your skis around a corner\nwhen you're sliding on snow inevitably\nyou might fall\nthis is okay everybody does it the first\nthing to remember when you first are on\nthe snow is to take a deep breath and\nrelax and understand you'll be okay then\nstart thinking about how i'm gonna\narrange my skis and my poles so\neverything is untangled\nand in a straight line and parallel to\neach other\none way i like to think about it is i\nlike to do what i call a dead bug i roll\nover on my back put my feet up in the\nair make sure my skis are parallel my\npoles are not tangled and then slowly\ndrop my feet to the side so my feet are\nparallel to each other now i've found\nmyself in a very untangled position\neasy to stand up\nif you're excited and interested in\ntrying cross country skiing we invite\nyou to find your local nordic center\nrent some gear and get out on the trails\nif it make you feel a little bit more\ncomfortable find a nordic center with a\ncertified instructor and take a lesson\nthank you for watching if you found this\ninteresting and valuable click on the\nlike button and subscribe to our channel\nif you want to know more information\nclick on one of our other videos",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "race": {
+    "name": "Viru Maraton",
+    "slug": "viru-maraton",
+    "display_name": "Viru Maraton",
+    "tagline": "Forty-two kilometers through the ancient forests of Virumaa — Estonia's classic-technique marathon where Baltic pine and frozen bog define an Estoloppet staple.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km classic",
+        "21km"
+      ],
+      "elevation_m": 250,
+      "altitude_m": 80,
+      "location": "Virumaa",
+      "location_badge": "Virumaa, Estonia",
+      "country": "Estonia",
+      "country_code": "EE",
+      "region": "Virumaa",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 450,
+      "founded": null,
+      "registration": "Open registration via Estoloppet",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 59.35,
+      "lng": 26.35,
+      "field_size_estimate": 450,
+      "elevation_gain_m": 250
+    },
+    "climate": {
+      "primary": "Baltic winter",
+      "description": "February in Estonia's Virumaa brings cold continental conditions tempered by Baltic maritime influence. Temperatures typically -10°C to -2°C. Snow reliability is moderate — the Baltic climate can produce mild spells, though the inland Virumaa location is more reliable than the coast.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Baltic thaw risk — maritime air masses can bring above-freezing temperatures",
+        "Flat terrain demands sustained classic technique over 42km",
+        "Snow conditions can vary from powder to crust",
+        "Low altitude provides no elevation-based snow guarantee"
+      ]
+    },
+    "course": {
+      "primary": "Classic-technique course through the forests and bogland of Virumaa, northeastern Estonia. Flat to gently undulating terrain typical of the Baltic. Pine forest and frozen bog provide the landscape. Well-groomed set tracks for classic technique.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through Estonian forest",
+      "technical_rating": 1,
+      "grooming": "Good Estoloppet series grooming standards",
+      "features": [
+        "Classic technique only — pure diagonal stride and double pole",
+        "Part of the Estoloppet series — Estonia's national ski marathon circuit",
+        "Virumaa's ancient forests and raised bogs",
+        "Flat Baltic terrain tests endurance over technique",
+        "Estonian forest landscape with pine, spruce, and birch",
+        "Good domestic field as part of the Estoloppet calendar"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 46,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 1,
+      "snow_reliability": 2,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 2,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Solid Estoloppet series event with classic-only format. Flat Baltic terrain and low altitude limit multiple scores. Snow reliability is a concern in the Baltic climate. Good domestic community engagement as part of Estonia's national series.",
+      "tier_note": "Score 46 places in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "The Viru Maraton is part of the Estoloppet series, Estonia's national circuit of long-distance ski marathons. Held in the Virumaa region of northeastern Estonia, the race traverses the ancient forests and raised bogs that characterize the Baltic landscape. Classic technique only, honoring the traditional style of Nordic skiing.",
+      "notable_facts": [
+        "Part of the Estoloppet series — Estonia's national ski marathon circuit",
+        "Classic technique only — one of few marathon-distance classic-only events in the Baltics",
+        "Virumaa is one of Estonia's most forested regions",
+        "Estonia's raised bogs are unique European ecosystems",
+        "Estonian skiing tradition dates to the medieval period",
+        "The Estoloppet series connects ski communities across Estonia"
+      ]
+    },
+    "series_membership": [
+      "estoloppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Viru Maraton cross country ski race Virumaa",
+      "videos": [
+        {
+          "video_id": "TX4Q9VTS2_g",
+          "title": "37. Viru Maraton - 1min video",
+          "channel": "Estoloppet",
+          "view_count": 257,
+          "upload_date": "20230128",
+          "duration_string": "1:13",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=TX4Q9VTS2_g",
+          "curated": false
+        },
+        {
+          "video_id": "XYhsaus-xzw",
+          "title": "35. Viru Maraton videokokkuvõte / 30.01.2021 / Estoloppet 2021",
+          "channel": "Estoloppet",
+          "view_count": 556,
+          "upload_date": "20210205",
+          "duration_string": "9:06",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=XYhsaus-xzw",
+          "curated": true,
+          "curation_reason": "Official race recap video with good duration showing course layout and race coverage from the Estoloppet series.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

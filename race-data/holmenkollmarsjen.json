@@ -6,7 +6,11 @@
     "tagline": "Fifty-two kilometers through the Oslo hills to the most famous ski jump in the world — where Norwegian ski culture lives and breathes.",
     "vitals": {
       "distance_km": 52,
-      "distance_options": ["52km", "30km", "17km"],
+      "distance_options": [
+        "52km",
+        "30km",
+        "17km"
+      ],
       "elevation_m": 1020,
       "altitude_m": 300,
       "location": "Oslo",
@@ -17,7 +21,7 @@
       "date": "Mid-February",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~1,500 starters",
+      "field_size": 1500,
       "founded": 1974,
       "registration": "Online registration, Ski Classics Challengers entry",
       "prize_purse": "Prize money for elite wave via Ski Classics",
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.holmenkollmarsjen.no",
       "lat": 59.9642,
-      "lng": 10.6674
+      "lng": 10.6674,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 1020
     },
     "climate": {
       "primary": "Maritime Scandinavian winter",
@@ -84,10 +90,128 @@
         "Attracts strong Norwegian domestic field plus international Ski Classics followers"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-11",
+      "search_query": "Holmenkollmarsjen cross country ski race Oslo",
+      "videos": [
+        {
+          "video_id": "WxL05VHfUFY",
+          "title": "Highlights from Holmenkollmarsjen 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 176,
+          "upload_date": "20260219",
+          "duration_string": "2:56",
+          "description": "Highlights from Holmenkollmarsjen 2026\n\nThe Ski Classics Challengers event, Holmenkollmarsjen, took place last Saturday (February 14) with a 52km long-distance ski race in classic technique at Holmenkollen, Oslo, Norway. Watch the highlights here!\n\nVideo: Skiforeningen.no",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=WxL05VHfUFY",
+          "curated": false
+        },
+        {
+          "video_id": "F1qY228k8EU",
+          "title": "Holmenkollmarsjen 2019 | Highlights",
+          "channel": "livemotion",
+          "view_count": 533,
+          "upload_date": "20191128",
+          "duration_string": "46",
+          "description": "Here are the Highlights of Holmenkollmarsjen 2019. Hopefully the weather will be better in 2020 XD. See you there!\n\nhttps://www.skiforeningen.no/kursogarrangement/holmenkollmarsjen/",
+          "tags": [
+            "Sport",
+            "XC-Ski",
+            "Norway",
+            "Oslo",
+            "Holmenkollen",
+            "Winter",
+            "Wintersports"
+          ],
+          "url": "https://www.youtube.com/watch?v=F1qY228k8EU",
+          "curated": false
+        },
+        {
+          "video_id": "6mR9sWDlbFE",
+          "title": "Se løypa nå! Holmenkollmarsjen 2013",
+          "channel": "SKIGO - vi elsker langrenn",
+          "view_count": 3606,
+          "upload_date": "20130207",
+          "duration_string": "3:38",
+          "description": "",
+          "tags": [
+            "Holmenkollmarsjen 2013",
+            "SKIGO"
+          ],
+          "url": "https://www.youtube.com/watch?v=6mR9sWDlbFE",
+          "curated": true,
+          "curation_reason": "Course preview content showing the race route and terrain for Holmenkollmarsjen.",
+          "display_order": 4
+        },
+        {
+          "video_id": "h7CVgdLFsQk",
+          "title": "Holmenkollmarsjen 2023",
+          "channel": "Skiforeningen",
+          "view_count": 996,
+          "upload_date": "20230314",
+          "duration_string": "54",
+          "description": "Holmenkollmarsjen 2023 gikk av stabelen 18. februar med start og mål i Holmenkollen nasjonalanlegg. Strålende sol og flotte forhold! \n\n#Holmenkollmarsjen #Skiforeningen #Nordmarka\n\nFilm: Christian Haukeli",
+          "tags": [
+            "Bli medlem",
+            "skiforeningen"
+          ],
+          "url": "https://www.youtube.com/watch?v=h7CVgdLFsQk",
+          "curated": false
+        },
+        {
+          "video_id": "mRSvvVj9hgs",
+          "title": "Holmenkollen Ski festival show | RAW air 2022",
+          "channel": "Norway To India",
+          "view_count": 766,
+          "upload_date": "20220306",
+          "duration_string": "1:57",
+          "description": "Holmenkollen skifest , Nordic fis world cup highlights\n#holmenkollen #skijump #skiing #oslo\n\nThank you for watching the video.\nPlease like ,comment and subscribe for more videos.\n\n-------------------------------------------------------------------------------------------------------\nCopyright infringement not intended. \n\nIf you have any issue with this video regarding copyright or anything else please feel free to \nmail me at official.living.innorway@gmail.com and will remove the concerned content or video.",
+          "tags": [
+            "Holmenkollen Skifestival"
+          ],
+          "url": "https://www.youtube.com/watch?v=mRSvvVj9hgs",
+          "transcript": "[Music]\nthis\n[Applause]\nforeign\num\noh\ntwo",
+          "curated": false
+        },
+        {
+          "video_id": "DEuIU5pwxiY",
+          "title": "Silje går Holmenkollmarsjen del 15",
+          "channel": "Skiforeningen",
+          "view_count": 377,
+          "upload_date": "20191126",
+          "duration_string": "2:50",
+          "description": "Endelig er dagen her! Silje står på startstreken i Sørkedalen og vi følger henne gjennom hele rennet. Klarer hun tidsmålet sitt??",
+          "tags": [
+            "Bli medlem",
+            "skiforeningen",
+            "silje går holmenkollmarsjen",
+            "holmenkollmarsjen",
+            "holmenkollen",
+            "langrennsteknikk",
+            "renn",
+            "startstrek",
+            "sørkedalen"
+          ],
+          "url": "https://www.youtube.com/watch?v=DEuIU5pwxiY",
+          "curated": false
+        },
+        {
+          "video_id": "9esz4pCRkhY",
+          "title": "Vasaloppet 2022 - 100-års jubileum - målgången i Mora",
+          "channel": "DammRåttan",
+          "view_count": 709,
+          "upload_date": "20220306",
+          "duration_string": "4:50",
+          "description": "I strålande väder, den 6 mars, avgjordes Vasaloppet år 2022. Speciellt för årets tävlingar var att man firade 100-års jubileum och så här såg det ut vid målgången av vinnarna för både herrarna och damerna. Dessutom bjöd Astrid Öyre Slind på en rekordtid för damerna. \n\nResultatlistan i sin helhet finner ni på Vasaloppets hemsida: \nhttps://www.vasaloppet.se/nyheter/andreas-nygaard-och-astrid-oyre-slind-vann-vasaloppet-2022/\n\nRESULTAT Vasaloppet 2022, herrar\n1. Andreas Nygaard (NOR) – 3.32.18\n2. Emil Persson (SWE) – 3.32.19\n3. Axel Jutterström (SWE) – 3.32.20\n4. Kasper Stadaas (NOR) – 3.32.21\n5. Joar Andreas Thele (NOR) – 3.32.21\n6. Herman Paus (NOR) – 3.32.21\n7. Johan Hoel (NOR) – 3.32.22\n8. Erik Rosjö (SWE) – 3.32.22\n9. Anders Aukland (NOR) – 3.32.23\n10. Karstein Johaug (NOR) – 3.32.23\n\n--\n\nRESULTAT Vasaloppet 2022, damer\n1. Astrid Öyre Slind (NOR) – 3.50.06\n2. Britta Johansson Norgren (SWE) – 3.52.53\n3. Emilie Fleten (NOR) – 3.54.28\n4. Thea Krokan Murud (NOR) – 3.55.16\n5. Lina Korsgren (SWE) – 3.57.53\n6. Marit Björgen (NOR) – 3.59.34\n7. Ida Dahl (SWE) – 4.04.30\n8. Laila Kveli (NOR) – 4.04.45\n9. Evelina Settlin (SWE) – 4.04.56\n10. Heli Heiskanen (FIN) – 4.07.11",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=9esz4pCRkhY",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

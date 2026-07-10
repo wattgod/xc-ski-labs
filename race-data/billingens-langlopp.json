@@ -1,0 +1,175 @@
+{
+  "race": {
+    "name": "Billingens Langlopp",
+    "slug": "billingens-langlopp",
+    "display_name": "Billingens Långlopp",
+    "tagline": "Western Sweden's Ski Classics Challengers event — forty kilometers through the table mountain landscape of Västergötland.",
+    "vitals": {
+      "distance_km": 40,
+      "distance_options": [
+        "40km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 300,
+      "location": "Billingen area, Vastergotland",
+      "location_badge": "Västergötland, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Vastergotland",
+      "date": "Late January",
+      "date_specific": "2026: January 31",
+      "discipline": "classic",
+      "field_size": 500,
+      "founded": 1980,
+      "registration": "Open registration via Svenska Langlopp",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://svenskalanglopp.se/",
+      "lat": 58.4,
+      "lng": 13.75,
+      "field_size_estimate": 650,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Western Swedish winter",
+      "description": "The Billingen area in Västergötland has a maritime-influenced climate that can make snow conditions variable. Late January temperatures typically range from -10°C to 2°C.",
+      "typical_temp_c": "-10 to 2",
+      "challenges": [
+        "Snow reliability variable in western Sweden's milder climate",
+        "Maritime influence can bring above-zero temperatures",
+        "Lower altitude limits snow insurance compared to mountain venues",
+        "Wind exposure possible on open sections"
+      ]
+    },
+    "course": {
+      "primary": "A 40km classic course through the Billingen area of Västergötland, featuring the characteristic table mountain (platåberg) landscape of the region.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through forest and open terrain",
+      "technical_rating": 2,
+      "grooming": "Good Swedish competition standard",
+      "features": [
+        "Table mountain (platåberg) landscape of Västergötland",
+        "Ski Classics Challengers event",
+        "Part of Svenska Langlopscupen 'The Originals'",
+        "Western Swedish location accessible from Gothenburg",
+        "Classic technique only"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 4,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Ski Classics Challengers and 'The Originals' series membership elevates this western Swedish race. Good accessibility from Gothenburg. Snow reliability at lower altitude is the primary limitation.",
+      "tier_note": "Score 50 places in TIER 3"
+    },
+    "history": {
+      "summary": "Billingens Långlopp has been part of the western Swedish ski calendar since approximately the 1980s. Named after the Billingen table mountain, a distinctive geological feature of the Västergötland landscape, the race is part of both the Ski Classics Challengers circuit and the Svenska Langlopscupen 'The Originals' series.",
+      "notable_facts": [
+        "Named after the Billingen table mountain (platåberg)",
+        "Part of Svenska Langlopscupen 'The Originals'",
+        "Ski Classics Challengers event",
+        "Located in Västergötland, western Sweden",
+        "Accessible from Gothenburg, Sweden's second largest city"
+      ]
+    },
+    "series_membership": [
+      "ski_classics_challengers",
+      "svenska_langlopscupen"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Billingens Langlopp cross country ski race Billingen area",
+      "videos": [
+        {
+          "video_id": "tIcyiBfez1A",
+          "title": "Billingens Långlopp 2026",
+          "channel": "Jakob Andersson",
+          "view_count": 291,
+          "upload_date": "20260216",
+          "duration_string": "12:04",
+          "description": "Uppladdning inför Vasaloppet med Billingens Långlopp för Sofie, Andreas, Ludvig och Anders.\nFin dag med fina prestationer!\n---\n0:00 Uppsnack\n4:07 Loppet\n6:22 Målgångar\n8:07 Eftersnack & race recap\n---\nSong: Summer Was Fun & Laura Brehm - Prism [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/Prism\nWatch: http://youtu.be/Jp1Ka8ZmNFQ",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=tIcyiBfez1A",
+          "curated": true,
+          "curation_reason": "Recent race footage with multiple skiers' performances and post-race analysis as Vasaloppet preparation.",
+          "display_order": 2
+        },
+        {
+          "video_id": "qKhtZa5tock",
+          "title": "Billingens långlopp 2026 - Berg- och- dalbana på Billingen",
+          "channel": "Magnus Högfeldt",
+          "view_count": 4632,
+          "upload_date": "20260202",
+          "duration_string": "19:56",
+          "description": "En race report ur mitt perspektiv (Point-of-View) från Billingens långlopp 2026. Billingens långlopp är ett av det större svenska långloppen, seedningsgrundande för Vasaloppet och en del av \"the Originals\" - svenska långloppscupen på längdskidor. Som namnet antyder går det på Billingen utanför Skövde och är normalt en tvåvarvsbana på totalt 4mil men som alltför ofta tvingats till alternativ sträckning pga dålig snötillgång. I år gick dock banan på den långa sträckningen med natursnö. Väldigt roligt. Filmen låter dig följa med mig under loppet och visar mitt perspektiv med kameror fastsatta på kroppen. Det blev ett händelserikt lopp som inte riktigt gick som jag hoppats, då det skedde ett missöde ganska kort efter start.\n\nInnehåll: \n00:00 Intro\n00:46 skidtester\n3:13 start till natursnön (ca 7km)\n6:25 natursnön till varvning\n10:07 andra varvet\n14:12 eftersnack\n16:00 Valla special hos Snö & Tö",
+          "tags": [
+            "Längdskidor",
+            "cross-country-skiing",
+            "xc-ski",
+            "xc-skiing",
+            "skidor",
+            "skidåkning",
+            "längd",
+            "långlopp",
+            "svenska långlopp",
+            "billingen",
+            "billingens långlopp",
+            "nordic skiing",
+            "snö & tö",
+            "stavbrott",
+            "gopro",
+            "dji",
+            "osmo action",
+            "pov",
+            "point-of-view",
+            "race report",
+            "lopprapport",
+            "nummerlapp",
+            "nummerlappen",
+            "vasaloppet",
+            "birkebeinerrennet",
+            "staka birken",
+            "stakabirken",
+            "birken"
+          ],
+          "url": "https://www.youtube.com/watch?v=qKhtZa5tock",
+          "curated": true,
+          "curation_reason": "POV race report from 2026 covering the full 40km course with natural snow conditions and detailed skier perspective.",
+          "display_order": 1
+        },
+        {
+          "video_id": "xQYD0P56PJo",
+          "title": "Billingens Långlopp",
+          "channel": "Billingen",
+          "view_count": 6075,
+          "upload_date": "20121212",
+          "duration_string": "1:18",
+          "description": "",
+          "tags": [
+            "billingens",
+            "långlopp"
+          ],
+          "url": "https://www.youtube.com/watch?v=xQYD0P56PJo",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

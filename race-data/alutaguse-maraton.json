@@ -1,0 +1,224 @@
+{
+  "race": {
+    "name": "Alutaguse Maraton",
+    "slug": "alutaguse-maraton",
+    "display_name": "Alutaguse Maraton",
+    "tagline": "Forty-two kilometers through the wilderness of Ida-Virumaa — Estonia's largest Estoloppet event where ancient bog trails and dark spruce forest deliver the most remote skiing in the Baltic states.",
+    "vitals": {
+      "distance_km": 43,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 60,
+      "location": "Alutaguse, Ida-Virumaa",
+      "location_badge": "Ida-Virumaa, Estonia",
+      "country": "Estonia",
+      "country_code": "EE",
+      "region": "Alutaguse (Ida-Viru County)",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 800,
+      "founded": null,
+      "registration": "Open registration via Estoloppet",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 59.2,
+      "lng": 27.3,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Baltic continental winter",
+      "description": "February in Ida-Virumaa brings some of Estonia's most reliable winter conditions. The northeastern location, close to the Russian border, has a more continental climate than western Estonia. Temperatures typically -12°C to -3°C. Better snow reliability than coastal areas.",
+      "typical_temp_c": "-12 to -3",
+      "challenges": [
+        "Remote location in eastern Estonia limits access options",
+        "Flat bogland terrain demands sustained effort with no hills for variety",
+        "Baltic snow reliability still less certain than Scandinavian venues",
+        "Frozen bog can create exposed, windy sections"
+      ]
+    },
+    "course": {
+      "primary": "Course through the Alutaguse wilderness in Ida-Virumaa, Estonia's easternmost region. The terrain crosses raised bogs, pine forest, and spruce woodland in one of the most remote areas of the Baltic states. Flat to gently rolling — classic Estonian geography but in a wilder, less developed setting than other Estoloppet venues.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through Alutaguse wilderness",
+      "technical_rating": 1,
+      "grooming": "Good Estoloppet series grooming standards",
+      "features": [
+        "Alutaguse is Estonia's largest and most remote wilderness area",
+        "Part of the Estoloppet series — Estonia's national ski marathon circuit",
+        "Largest field size among Estoloppet events at ~500 participants",
+        "Ancient raised bogs and dark spruce forest landscape",
+        "Near the Russian border — Estonia's easternmost wilderness",
+        "Both classic and skate technique available"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 1,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "The largest Estoloppet event by field size with a genuinely wild setting. Remote Alutaguse wilderness gives strong scenery marks for the Baltic context. Better snow reliability than western Estonia due to continental influence. Limited international profile and flat terrain keep overall score moderate.",
+      "tier_note": "Score 47 places in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "The Alutaguse Maraton is the flagship event of the Estoloppet series, drawing the largest field of any Estonian ski marathon. Held in the Alutaguse wilderness of Ida-Virumaa — Estonia's easternmost region near the Russian border — the race traverses some of the most remote and wild landscape in the Baltic states. The area's raised bogs, ancient spruce forests, and minimal human development create a genuine wilderness skiing experience.",
+      "notable_facts": [
+        "Largest field in the Estoloppet series at approximately 500 participants",
+        "Alutaguse is Estonia's largest wilderness area",
+        "Ida-Virumaa borders Russia — the easternmost point of the EU",
+        "Estonian raised bogs can be thousands of years old",
+        "Part of the Estoloppet series — Estonia's national ski marathon circuit",
+        "The region's continental climate provides better snow than coastal Estonia"
+      ]
+    },
+    "series_membership": [
+      "estoloppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Alutaguse Maraton cross country ski race Alutaguse",
+      "videos": [
+        {
+          "video_id": "Fvcr5N1Rs3g",
+          "title": "Highlights from Alutaguse Maraton 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 170,
+          "upload_date": "20260211",
+          "duration_string": "3:21",
+          "description": "Highlights from Alutaguse Maraton 2026\n\nThe Ski Classics Challengers event, Alutaguse Maraton, took place last Sunday with a 45km long-distance ski race in classic technique in Vasavere, Estonia. Watch the highlights here!\n\nVideo: Stuudiopunkt",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Fvcr5N1Rs3g",
+          "transcript": "Heat.\nHeat. Heat.\nSo, Marco Gil, congratulations.\n&gt;&gt; Thank you.\n&gt;&gt; Can you say with a few words, how was\nthe race? Uh,\n&gt;&gt; race was really fun, actually. Thanks to\nthe organizers who made it possible and\nuh the double ping is also different and\nuh I like it.\n&gt;&gt; But how was the track? Was it uh quite\nflat also? It was easy for you for the\nother guys. You stick together at the\nend.\n&gt;&gt; Uh yeah, it it was really hard to get\nget through. But uh I like the course uh\nespecially we went to the lakes and uh\nthat was pretty fun. They say that Sam\nMarathon has a very very beautiful uh\ntrack. This is also true with your eyes.\n&gt;&gt; Yeah, of course. Uh such a nice forest,\nsnow, and the people that that that's\nthe incredible place to be.\nOkay, wait.",
+          "curated": true,
+          "curation_reason": "Recent 2026 race highlights with winner interview describing course features and race atmosphere.",
+          "display_order": 1
+        },
+        {
+          "video_id": "TV3lpC1Oa60",
+          "title": "Alutaguse suusaõhtu, tillusõit, 22.03.2016, Pannjärve",
+          "channel": "Rene Kundla",
+          "view_count": 49,
+          "upload_date": "20160323",
+          "duration_string": "9:26",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=TV3lpC1Oa60",
+          "curated": false
+        },
+        {
+          "video_id": "UfRC_KfbuAA",
+          "title": "Alutaguse maraton",
+          "channel": "Team Nordic Jobs Worldwide",
+          "view_count": 459,
+          "upload_date": "20210311",
+          "duration_string": "5:24",
+          "description": "First win for the team!\n\n“Hard to complain if you win,\" said Mart after the first victory in Alutaguse Marathon🥇. Good race from all the teammates. Warm-up is done - now we are ready to take on the challenge to win the 47. Tartu Maraton 😎",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=UfRC_KfbuAA",
+          "transcript": "[Music]\ni'm ready\ntoday we have a 20 second ski marathon\nwhich is uh\nthe first usma ski classic challenger\nskiing event this season and uh\nthe main distance is uh 44 kilometers\nand at the moment we have approximately\nsix\nhundred participants in a start line and\nwe are starting\nsoon\nso\nlast 5k was so hard\nother guys are so strong on that\nstiff upper session\na group of three people went away so\ni couldn't keep up with the basel\nbut overall it was\namazing race smart one\nvictories for us\ni was a bit behind the beginning of the\nrace was pretty good\nit was pretty fast but i felt good and\nmy skis were super good\nbut when the uphill started\ndouble polling was definitely the\nslowest version\nbut they managed to do the whole race\ndouble bowling game and\ni was almost all off to track like third\nor second sometimes and\nfor the skis i made a pretty bad choice\ni couldn't be in a downhill position\nalmost never\nbut overall the track was really really\nbeautiful\nand there is so much snow here so\nit was pretty enjoyable it was like a\nreally good competition and performance\nlike i guess this is it uh i knew that\ni'm capable of uh\nby coming to third place and i did it\nso i'm very happy the last few\nkilometers were hard but\nuh i i did it\nso i'm super happy and okay\nthe last week have been also very hard\nbecause of the school\nand yeah i'm very satisfied super\nso with this wrap we are going to wrap\nthis\nall the marathon together and\nwhat else to say perfect for uh perfect\nfor a win\nhard to complain when when you win so\nuh wasn't the easiest day of course\nstill got tired in the end skis were\nworking not so optimal today but\nluckily it was good enough\nalso the body is still recovering after\nthe illness so\nit was a good to have a push just before\nuh dr martin so hopefully next week it\nwill be\neven better and i can be a little bit\nstronger\nthan today but still good good\ngot the peak also for like half a peak\ni have to figure out what to do with it\nso now we're going to\ncharge with some food",
+          "curated": true,
+          "curation_reason": "Team vlog with detailed post-race commentary covering course difficulty, technique, and ski conditions.",
+          "display_order": 2
+        },
+        {
+          "video_id": "4QMul0DTEFQ",
+          "title": "The Best Moments of Alutaguse Maraton 2025",
+          "channel": "SC - The Ski Community",
+          "view_count": 199,
+          "upload_date": "20250211",
+          "duration_string": "3:21",
+          "description": "The Best Moments of Alutaguse Maraton 2025\n\nVideo Credits: Kristjan Kivistik/Stuudiopunkt OÜ",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=4QMul0DTEFQ",
+          "transcript": "[Music]\nlet you\ngo wo\nhe\nhe for\nspee\nfore fore\ngo",
+          "curated": false
+        },
+        {
+          "video_id": "LVIkIHom3S0",
+          "title": "Best Moments of Alutaguse Marathon 2024",
+          "channel": "SC - The Ski Community",
+          "view_count": 176,
+          "upload_date": "20240212",
+          "duration_string": "3:04",
+          "description": "Best Moments of Alutaguse Marathon 2024\n\nVideo Credits: Stuudiopunkt OÜ",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=LVIkIHom3S0",
+          "transcript": "[Music]\nn\nmy\nconratulations\nthe winner of Al Marathon Stan\nhogard how was the race today it was fun\nreally fun and uh also hard was strong\nuh strong competitors so I really had to\ndig deep to get the victory but uh yeah\nit was a fun to race there a really fun\ncourse with uh turns and ups and downs\nand high speed all the time so uh I\nreally like the like the\nrace\nfor\noh",
+          "curated": true,
+          "curation_reason": "Recent race highlights featuring winner interview with course description and race dynamics.",
+          "display_order": 3
+        },
+        {
+          "video_id": "uZ1JurG-e_E",
+          "title": "21. Alutaguse Maraton eelvideo",
+          "channel": "Estoloppet",
+          "view_count": 47,
+          "upload_date": "20190222",
+          "duration_string": "41",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=uZ1JurG-e_E",
+          "curated": false
+        },
+        {
+          "video_id": "jI-33Mm1cvA",
+          "title": "Alutaguse maraton, 300 m 42 km stardist, 7.02.2015, Pannjärve",
+          "channel": "Rene Kundla",
+          "view_count": 487,
+          "upload_date": "20150207",
+          "duration_string": "6:41",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=jI-33Mm1cvA",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I like the course especially we went to the lakes and that was pretty fun. They say that Sam Marathon has a very very beautiful track. This is also true with your eyes.",
+          "source_video_id": "Fvcr5N1Rs3g",
+          "source_channel": "SC - The Ski Community",
+          "source_view_count": 170,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "The track was really really beautiful and there is so much snow here so it was pretty enjoyable. When the uphill started double polling was definitely the slowest version but they managed to do the whole race double bowling.",
+          "source_video_id": "UfRC_KfbuAA",
+          "source_channel": "Team Nordic Jobs Worldwide",
+          "source_view_count": 459,
+          "category": "technique",
+          "curated": true
+        },
+        {
+          "text": "It was a fun course with turns and ups and downs and high speed all the time. I really had to dig deep to get the victory but it was fun to race there.",
+          "source_video_id": "LVIkIHom3S0",
+          "source_channel": "SC - The Ski Community",
+          "source_view_count": 176,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

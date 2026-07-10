@@ -1,0 +1,101 @@
+{
+  "race": {
+    "name": "Kandersteger Volkslauf",
+    "slug": "kandersteger-volkslauf",
+    "display_name": "Kandersteger Volkslauf",
+    "tagline": "Twenty-seven kilometers of freestyle racing beneath the towering Bluemlisalp massif — Swiss Loppet skiing in one of the Bernese Oberland's most dramatic mountain settings.",
+    "vitals": {
+      "distance_km": 27,
+      "distance_options": [
+        "27km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 1200,
+      "location": "Kandersteg",
+      "location_badge": "Bern, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Bernese Oberland",
+      "date": "First Sunday of February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 400,
+      "founded": null,
+      "registration": "Online registration via Datasport",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.kandersteger.ch/kandersteger-volkslauf",
+      "lat": 46.4944,
+      "lng": 7.675,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Alpine valley winter",
+      "description": "February in Kandersteg at 1,200m in the Bernese Oberland means reliable snow and cold Alpine conditions. Temperatures range from -12°C to 2°C. The narrow valley setting provides shelter from extreme winds but can limit sun exposure. Consistent cold preserves excellent trail conditions.",
+      "typical_temp_c": "-12 to 2",
+      "challenges": [
+        "Alpine valley cold — sub-zero temperatures common",
+        "Limited sun exposure in narrow Kandersteg valley",
+        "Altitude at 1,200m — mild performance effect",
+        "Occasional Fohn wind can bring rapid warming"
+      ]
+    },
+    "course": {
+      "primary": "A 27km freestyle course through the impressive mountain landscape of Kandersteg in the Bernese Oberland. Two rounds of a loop plus a starting section, with mass start from Mullermatte. The course is set beneath the towering Bluemlisalp massif and Oeschinensee area — some of Switzerland's most dramatic Alpine scenery.",
+      "format": "multi-loop",
+      "surface": "Machine-groomed Alpine valley trails",
+      "technical_rating": 2,
+      "grooming": "Swiss Loppet-standard grooming at Kandersteg Nordic center",
+      "features": [
+        "Bluemlisalp massif backdrop — dramatic Bernese Oberland scenery",
+        "Mass start from Mullermatte",
+        "Two-loop format plus starting section",
+        "Part of the Swiss Loppet series",
+        "Near UNESCO World Heritage Jungfrau-Aletsch region"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Maximum scenery score — the Bluemlisalp massif and Bernese Oberland setting is exceptional. Swiss grooming and snow reliability are strong. Small field and primarily Swiss participation limit prestige and competitive depth.",
+      "tier_note": "Score 47 confirms TIER 3"
+    },
+    "history": {
+      "summary": "The Kandersteger Volkslauf is a Swiss Loppet series race set in the spectacular mountain village of Kandersteg in the Bernese Oberland. The race takes place beneath the towering Bluemlisalp massif, near the UNESCO World Heritage Jungfrau-Aletsch region. Mass start from Mullermatte, the course covers two rounds of a loop through one of Switzerland's most dramatic Alpine Nordic skiing settings.",
+      "notable_facts": [
+        "Set beneath the Bluemlisalp massif in the Bernese Oberland",
+        "Near the UNESCO World Heritage Jungfrau-Aletsch region",
+        "Part of the Swiss Loppet citizen ski marathon series",
+        "Mass start from Mullermatte",
+        "Two-loop format covering 27km",
+        "Kandersteg is one of Switzerland's premier Nordic skiing villages"
+      ],
+      "founded": 1973
+    },
+    "series_membership": [
+      "swiss_loppet"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

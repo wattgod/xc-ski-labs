@@ -5,7 +5,7 @@
     "display_name": "Cookie Race",
     "tagline": "Thirty kilometers through the Rocky Mountain foothills of Kananaskis Country — Alberta's second-oldest Nordic event, where the aid stations serve homemade cookies.",
     "vitals": {
-      "distance_km": 30,
+      "distance_km": 45,
       "distance_options": [
         "30km",
         "15km",
@@ -20,8 +20,8 @@
       "region": "Alberta",
       "date": "February",
       "date_specific": "2026: February 14",
-      "discipline": "both",
-      "field_size": "~400 starters",
+      "discipline": "classic",
+      "field_size": 500,
       "founded": 1980,
       "registration": "Online registration",
       "prize_purse": "None",
@@ -29,7 +29,9 @@
       "cutoff_time": "No official cutoff",
       "website": "https://www.calgarynordicski.com",
       "lat": 50.9614,
-      "lng": -115.0874
+      "lng": -115.0874,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 450
     },
     "climate": {
       "primary": "Rocky Mountain foothills winter",
@@ -87,7 +89,8 @@
         "Kananaskis Country was developed for the 1988 Calgary Winter Olympics",
         "Chinook winds are both the region's blessing (mild winters) and curse (snow loss)",
         "The race draws primarily from Calgary's active Nordic community"
-      ]
+      ],
+      "founded": 1978
     },
     "series_membership": [],
     "youtube_data": {

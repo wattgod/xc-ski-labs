@@ -6,8 +6,12 @@
     "tagline": "France's toughest ski marathon — 68 hilly kilometers through the Jura Mountains where snow is never guaranteed but suffering always is.",
     "vitals": {
       "distance_km": 68,
-      "distance_options": ["68km classic", "68km skate", "34km"],
-      "elevation_m": 1000,
+      "distance_options": [
+        "68km classic",
+        "68km skate",
+        "34km"
+      ],
+      "elevation_m": 660,
       "altitude_m": 1000,
       "location": "Lamoura to Mouthe",
       "location_badge": "Jura Mountains, France",
@@ -17,7 +21,7 @@
       "date": "Second or third Sunday in February",
       "date_specific": "2026: February 15",
       "discipline": "both",
-      "field_size": "~4,000 starters",
+      "field_size": 4000,
       "founded": 1979,
       "registration": "Opens in autumn",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.transjurassienne.com",
       "lat": 46.3867,
-      "lng": 5.9825
+      "lng": 5.9825,
+      "field_size_estimate": 4000,
+      "elevation_gain_m": 660
     },
     "climate": {
       "primary": "Mid-altitude mountain, continental French",
@@ -85,10 +91,253 @@
         "The 1,000m+ of climbing makes it one of the most physically demanding Worldloppet races"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "La Transjurassienne cross country ski race Lamoura to Mouthe",
+      "videos": [
+        {
+          "video_id": "TDFqO213aIw",
+          "title": "Transjurassienne 2019 : les fondeurs ravis de refaire Lamoura Mouthe !",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 2195,
+          "upload_date": "20190204",
+          "duration_string": "1:33",
+          "description": "Ce n'était pas arrivé depuis 2015,la Transjurassienne aura donc lieu ce week-end entre Lamoura et Mouthe dans le Doubs. La course principale est prévue sur 68 kilomètres sur son parcours historique. \n\nClaire Schaffner, Laurent Brocard avec Michel Bouveret\nChef de pistes\n\n\nAbonnez-vous à notre chaîne YouTube\n► https://www.youtube.com/france3bourgogne\n\nRetrouvez-nous sur  :\n\nnotre site internet\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\n\nFacebook \n► https://www.facebook.com/france3bourgogne/\n► https://www.facebook.com/france3franchecomte/\n\nTwitter\n► https://twitter.com/F3Bourgogne\n► https://twitter.com/F3FrancheComte\n\nInstagram\n► https://www.instagram.com/france3bourgogne/\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France Télévisions",
+            "TV",
+            "France3",
+            "région",
+            "France",
+            "information",
+            "Bourgogne-Franche-Comté",
+            "lamoura",
+            "mouthe",
+            "doubs",
+            "jura",
+            "transjurassienne"
+          ],
+          "url": "https://www.youtube.com/watch?v=TDFqO213aIw",
+          "curated": false
+        },
+        {
+          "video_id": "WmsTExpLmTY",
+          "title": "Transjurassienne : vers une arrivée 2019 à Mouthe ?",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 1046,
+          "upload_date": "20190201",
+          "duration_string": "1:50",
+          "description": "Le parcours de la Transjurassienne qui se courra le 10 février sera annoncé lundi. Un petit doute subsiste encore quant au site d'arrivée. Mouthe comme c'est la tradition ou Chaux-Neuve ? A Mouthe en tous cas les habitants tiennent à ce que cette tradition soit respectée, une pétition circule dans le village. Thierry Chauffour, Jean-Louis Saintain.\n\nAvec\n\nMickaël Pécoud\nLocation de matériel de ski\nPhilippe Bléry\nRestaurateur\nDaniel Perrin\nMaire de Mouthe\n\n\n\nAbonnez-vous à notre chaîne YouTube\n► https://www.youtube.com/france3bourgogne\n\nRetrouvez-nous sur  :\n\nnotre site internet\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\n\nFacebook \n► https://www.facebook.com/france3bourgogne/\n► https://www.facebook.com/france3franchecomte/\n\nTwitter\n► https://twitter.com/F3Bourgogne\n► https://twitter.com/F3FrancheComte\n\nInstagram\n► https://www.instagram.com/france3bourgogne/\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France Télévisions",
+            "TV",
+            "France3",
+            "région",
+            "France",
+            "information",
+            "Bourgogne-Franche-Comté"
+          ],
+          "url": "https://www.youtube.com/watch?v=WmsTExpLmTY",
+          "curated": false
+        },
+        {
+          "video_id": "CPN15bWOFuM",
+          "title": "Transjurassienne : la vidéo de la 40e édition",
+          "channel": "Nordic TV",
+          "view_count": 6759,
+          "upload_date": "20180211",
+          "duration_string": "4:49",
+          "description": "L'édition 2018 de La Transjurassienne, inédite dans son parcours entre Bois d'Amont et Chaux-Neuve, a souri aux deux fondeurs du Haute-Savoie Nordic Team Aurélie Dabudyk et Ivan Perrillat-Boiteux. \nPlus de 2000 personnes ont pris le départ de cette épreuve. Voici le reportage de Nordic TV.\n\nNordic TV, la télé So nordic.\n\n© Nordic TV",
+          "tags": [
+            "NordicTV",
+            "Anders Gløersen",
+            "Aurélie Dabudyk",
+            "Roxane Lacroix",
+            "Gérard Agnellet",
+            "Haute-Savoie Nordic Team",
+            "Chaux-Neuve",
+            "Maria Graefnings",
+            "Ivan Perrillat-Boiteux",
+            "Bois d'Amont",
+            "FIS Worldloppet Cup",
+            "La Transjurassienne",
+            "Ski de fond",
+            "Worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=CPN15bWOFuM",
+          "curated": true,
+          "curation_reason": "Race coverage of the 40th edition showing the complete event with over 2000 participants.",
+          "display_order": 2
+        },
+        {
+          "video_id": "VbLMoAuDXlU",
+          "title": "A un mois de la Transjurassienne, on prépare déjà les pistes",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 1102,
+          "upload_date": "20190111",
+          "duration_string": "2:10",
+          "description": "La Transjurassienne, c'est dans quatre semaines déjà\nL'emblématique course de ski de fond fête en 2019 ses 40 ans.\nComme chaque année, les organisateurs \ndoivent composer avec les aléas climatiques.\nPour l'instant, il manque clairement de neige pour espérer un parcours Lamoura-Mouthe.\nLa préparation des pistes a néanmoins déjà commencé.\n\nAvec \nPierre-Albert Vandel\nPrésident de la Trans'organisation\nOlivier Marillier\nResponsable du damage sur le secteur des Rousses\nQuentin Lebas\nCoordinateur de la Trans'organisation\n\nReportage J.Chevreuil, JL Saintain. \n\n\nAbonnez-vous à notre chaîne YouTube\n► https://www.youtube.com/france3bourgogne\n\nRetrouvez-nous sur  :\n\nnotre site internet\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\n\nFacebook \n► https://www.facebook.com/france3bourgogne/\n► https://www.facebook.com/france3franchecomte/\n\nTwitter\n► https://twitter.com/F3Bourgogne\n► https://twitter.com/F3FrancheComte\n\nInstagram\n► https://www.instagram.com/france3bourgogne/\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France Télévisions",
+            "TV",
+            "France3",
+            "région",
+            "France",
+            "information",
+            "Bourgogne-Franche-Comté",
+            "transjurassienne",
+            "ski de fond",
+            "jura",
+            "sport"
+          ],
+          "url": "https://www.youtube.com/watch?v=VbLMoAuDXlU",
+          "curated": false
+        },
+        {
+          "video_id": "5TpYZFbMbrg",
+          "title": "Be ready for the Transjurassienne race!",
+          "channel": "Julbo",
+          "view_count": 606,
+          "upload_date": "20190206",
+          "duration_string": "1:11",
+          "description": "We are proud to support this cross country skiing race around the wonderful Jura mountains.",
+          "tags": [
+            "ski",
+            "skiing",
+            "julbo",
+            "cross country skiing",
+            "ski de fond",
+            "trasnju",
+            "transjurassienne"
+          ],
+          "url": "https://www.youtube.com/watch?v=5TpYZFbMbrg",
+          "curated": false
+        },
+        {
+          "video_id": "qGv0v56wQzE",
+          "title": "Dimanche - Toutes les arrivées de la Transjurassienne 2019 skating [68FT 48FT et 25FT]",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 9424,
+          "upload_date": "20190210",
+          "duration_string": "4:58:02",
+          "description": "TRANSJURASSIENNE 2019 : Suivez les temps forts de la course 68 km FT de Lamoura à Mouthe : https://france3-regions.francetvinfo.fr/bourgogne-franche-comte/direct-transjurassienne-2019-suivez-temps-forts-course-68-km-ft-lamoura-mouthe-1620399.html\n\nAbonnez-vous à notre chaîne YouTube\n► https://www.youtube.com/france3bourgogne\n\nRetrouvez-nous sur  :\n\nnotre site internet\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\n\nFacebook \n► https://www.facebook.com/france3bourgogne/\n► https://www.facebook.com/france3franchecomte/\n\nTwitter\n► https://twitter.com/F3Bourgogne\n► https://twitter.com/F3FrancheComte\n\nInstagram\n► https://www.instagram.com/france3bourgogne/\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France3",
+            "France",
+            "Bourgogne-Franche-Comté",
+            "transjurassienne",
+            "ski",
+            "nordic",
+            "Jura",
+            "Doubs",
+            "transju",
+            "sport",
+            "neige"
+          ],
+          "url": "https://www.youtube.com/watch?v=qGv0v56wQzE",
+          "curated": false
+        },
+        {
+          "video_id": "yG_U_TaQkRE",
+          "title": "Transjurassienne : portrait de sénateurs",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 3860,
+          "upload_date": "20180205",
+          "duration_string": "3:00",
+          "description": "Pour être sénateur il faut avoir terminé toutes les éditions depuis 1979. Ils ne sont plus que 8.\nIls ont connu toutes les courses, le vent, la neige, la grêle. \nAvec André Midol\nSénateur\nJean Kuhni\nSénateur\nMichel Vieillet\nSénateur\nReportage E.Rivallain et D.Colle\n\nAbonnez-vous à notre chaîne YouTube\n► https://www.youtube.com/france3bourgogne\n\nRetrouvez-nous sur  :\n\nnotre site internet\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\n\nFacebook \n► https://www.facebook.com/france3bourgogne/\n► https://www.facebook.com/france3franchecomte/\n\nTwitter\n► https://twitter.com/F3Bourgogne\n► https://twitter.com/F3FrancheComte\n\nInstagram\n► https://www.instagram.com/france3bourgogne/\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France Télévisions",
+            "TV",
+            "France3",
+            "région",
+            "France",
+            "information",
+            "Bourgogne-Franche-Comté",
+            "Transjurassienne",
+            "ski",
+            "Jura"
+          ],
+          "url": "https://www.youtube.com/watch?v=yG_U_TaQkRE",
+          "curated": false
+        },
+        {
+          "video_id": "fQn8JN9z6aU",
+          "title": "Transjurassienne 2022. Retour sur la seconde journée de compétition",
+          "channel": "France 3 Bourgogne-Franche-Comté",
+          "view_count": 5994,
+          "upload_date": "20220213",
+          "duration_string": "5:33",
+          "description": "Ce samedi 12 février, 1800 fondeurs se sont affrontés lors du 70km skating. Un parcours qui faisait exceptionnellement 63 km, entre Lamoura et Chaux-Neuve, en raison du faible enneigement des pistes.\n\nJérémy Chevreuil, Quentin Carudel, Guillaume Soudat, Hugues Perret.\n\nAbonnez-vous à notre chaîne YouTube\r\n► https://www.youtube.com/france3bourgogne\r\n\r\nRetrouvez-nous sur  :\r\n\r\nnotre site internet\r\n► http://france3-regions.francetvinfo.fr/bourgogne-franche-comte/\r\n\r\nFacebook \r\n► https://www.facebook.com/france3bourgogne/\r\n► https://www.facebook.com/france3franchecomte/\r\n\r\nTwitter\r\n► https://twitter.com/F3Bourgogne\r\n► https://twitter.com/F3FrancheComte\r\n\r\nInstagram\r\n► https://www.instagram.com/france3bourgogne/\r\n► https://www.instagram.com/f3franchecomte/",
+          "tags": [
+            "France 3 Bourgogne-Franche-Comté",
+            "TV",
+            "France Télévisions",
+            "Bourgogne-Franche-Comté",
+            "région"
+          ],
+          "url": "https://www.youtube.com/watch?v=fQn8JN9z6aU",
+          "curated": true,
+          "curation_reason": "Recent race coverage from 2022 showing the 70km skating race with course modifications due to snow conditions.",
+          "display_order": 3
+        },
+        {
+          "video_id": "mjGfYYiA04o",
+          "title": "worldloppetTV   the magazine • Episode 12",
+          "channel": "Worldloppet",
+          "view_count": 17,
+          "upload_date": "20181217",
+          "duration_string": "13:00",
+          "description": "Edition 12 of worldloppetTV - the magazine is online, going to France, to La Transju', third stage of the 2018 FIS WORLDLOPPET CUP, to ear about 2 French cycle and formula one stars telling about their own Transju’; and finally to look at the 3 races to be held next week-end all around the world…",
+          "tags": [
+            "Transju",
+            "Transjurasienne",
+            "FIS Worldloppet Cup",
+            "Worldloppet",
+            "Vasaloppet",
+            "Birkebeinerrennet",
+            "Marcialonga",
+            "xc-skiing",
+            "marathon skiing",
+            "nordic skiing",
+            "cross-country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=mjGfYYiA04o",
+          "transcript": "[Applause]\n[Music]\nwelcome to the twelfth edition of the\nworld lapa TV magazine your worldwide\ncross country marathon skiing show in\nsummary to French cycle and Formula One\nstars will tell about their own trans\nyou then you will look at the three\nraces to be held next weekend all around\nthe world but first let's go to France\nto the trans June 3rd stage of the 2018\nFIS world la Pete cup of perfect one for\nauthsub wha Nordic team team aught\nsavoir nordic dominated ly trans Jude\n2018 all four victories went to the\nFrench marathon skiing team on Saturday\nthe classic races went to Antoine O'Shea\nand Mary chromatin on Sunday the third\nFIS world lapa Cup stage went to Yvonne\nPerry our Puerto and aurally de boutique\nwell I'm originally from Russia but now\nI'm living in Austria and the next month\nI'll move to Finland and between systems\nokay I'm trying to do as many trees as\npossible better pull up come here for\nand encourage whoever love Easter\nChannel fairly do cook so although you\nwere ah we are doing the world rocket\nand this is the eighth race in our tour\nit's gonna be tough but it's a fantastic\ntrack\nat 9:30 thousands of skiers started at\nBois de Mille to ski the 60 kilometre ft\nrace to the finish in show nerve the\nrace was a hard one on this the athletes\nagreed in the finished first it was\nsnowing then it was snowing heavily then\nthere was a mixture of snow and rain\nhence it was not warm but the\ncompetition was a hot one\non the men's race it was a French trio\nbreaking away from the big leading group\naround halfway Evon period wetter\nAgnelli sure are a red bib holder and\nbeurre noir show they increased the\nspeed and brought around 45 seconds\nbetween them and the chasers only a very\nstrong Norwegian world champion Anders\nGleason was able to bring a group of\nchasers to the leading pack and for the\nlast kilometers it was five skiers\nworking together and fighting each other\non the final Hill Yvan Perry our water\nfrom Team ort sub 1 Nordic turned his\nback on the others and brought some\nmetres between him and the rest glutton\nand Agnelli try to stick with him but\ncouldn't so in the end it was Perry are\nraising his hands on the finish line as\nwinner of the 40th trans you on the\nwomen's race orally dabba geek remains\nunstoppable\nwho else could stand on top of the\npodium Pablo Trans you of course oh\nreally who got a third cowboy off the\ntrophy for the winner after winning the\ndollar mint on loaf and the kernig lord\nváclav she now adds another hundred\npoints for the overall ranking to her\naccount with an advantage of 3.3 - she\nwon before her strongest competitor\nMariya Graf Ning's from Sweden who won\nthe trans you last year\nyes with it before they put cause\narnisia mechanical to my virgin which it\nis deceive us guru goodness if I Olaf\ninto fantasy cloob Tinku say said\nwhatever fortune we go to the red babes\nremain in France and in the Oort savoir\nNordic team both de buddhic and annually\nare gonna stand on the first starting\nplace next week in Estonia but a fourth\nF is world lobbied Cup stage the tattoo\nmarathon\nnow to French cycle and Formula one\nstarted telling about their own trans\nyou the Australian school eschewed\nforces in one chosen by you talk on\nmight and oh gosh I do what we talked\nabout see Bianca daddy Mia's\nRonquillo the de couleur my pasta Bob\nRomano super skinny\nwe're okay with the hills so this new\nroute is actually quite good for us\nreally good for the cardiovascular\nsystem gets your heart rate up works\nyour upper body as well good for the\nbalance good for the coordination so\nyeah it's good fun as well I loved it as\namazing it was really cool so many\npeople good atmosphere\nthe piece most additional quality due to\nyour Pokemon Cindy goes if you're Tom\nLee Joong Ki moon away it keeps Wigner\nknockoff of me on a morose impressions\non Tom\nDuke the chastity topic briefly\nSelfridge on professor Avery over the\nnext weekend there will be plenty to do\nbetween where la petrasis fourth stage\nof this world leopard Cup will be held\nin Tartu Estonia but at the same time\nskiers will compete also in Canada on\nbut in a Lopez and in Czechia at Kasatka\nso let's see you next week either in\nCanada in Czech Republic or in Estonia\nwe will be in Estonia since it is a\nfourth both leopard cub stage see you\nthere and keep on skiing around the\nworld\nfour days to go to tattoo marathon main\nevent fourth stage at the FIS world\nLubbock Cup after be proper - degrees\nand pretty heavy snowfalls during the\nlast couple of weeks that tattoo Meriton\ntrack has close to perfect conditions\nfor the classical race to be held this\nweekend February the 18th after three\nyears Tartu is well ready to welcome the\nskiers on the original 63 kilometer this\nyear\nTartu marathon is one of the oldest ski\nmarathons in the world first held in\n1960 original classical track takes the\nskiers to the stunning landscape of\nSouth Estonia\nnot joining the tart erases time follow\nthe live webcast on the marathon day\n1802 starting at their website at 8:45\nat 7:45 CET\nthe recent snow falls on Gatineau has\nfacilitated the grooming of the trail\nsystem 100% of the groomed ski trails\nare now recommended in gatineau park and\nthings are ready to welcome skiers from\naround the world for the 40th\nanniversary of the gatineau lock page\nthe gatineau lahpet officially starts\nthis Friday with the opening of the XC\nski show this will be a unique\nopportunity to mingle with skiers from\nsome 20 different countries who will be\ntaking part in the weekend races the XC\nski salon is also the place to discover\nthe big brand new products and technical\ninnovations\nSaturday February 17th will be dedicated\nto the classic technique with a 51\nkilometer linear 27 kilometer 15\nkilometer and 5 kilometer races as well\nas fat bike races Sunday February of the\n18th will be for the free technique with\n51 kilometer in ear 27 kilometers 10\nkilometers and a 2 kilometer race for\nthe kids as well as snowshoeing races\nincluding the 10 kilometer Canadian\nchampionship maple taffy on snow festive\nrefreshment stations all along the route\nentertainment upon arrival traditional\nmusic true flavors of Canada local beers\nand activities for the youngsters will\nkeep participants entertained throughout\nthe 40th edition\nhell is a memorial to the 1970\nexpedition of perugia zurka at its akka\nis raced in the heart of beaches era\nmountains just an hour from the\nhistorical center of Prague\nit will be possible to register during\nthe racing weekend and do not hesitate\nto connect to the new mobile application\nthis is the end of the twelfth edition\nof the world locket TV magazine see you\nnext week for a new episode\nyou",
+          "curated": true,
+          "curation_reason": "Detailed race coverage of the 2018 Transjurassienne as part of the FIS Worldloppet Cup with competitor interviews and race analysis.",
+          "display_order": 4
+        },
+        {
+          "video_id": "l9vbuRfDjlA",
+          "title": "La Transjurassienne 2012",
+          "channel": "Jules Fougeroux",
+          "view_count": 3094,
+          "upload_date": "20120218",
+          "duration_string": "11:12",
+          "description": "30km Cross Country Race in the Jura (Fr) It took place on the 12th of February. Filmed with a Go Pro camera.",
+          "tags": [
+            "Cross-country Skiing;Race"
+          ],
+          "url": "https://www.youtube.com/watch?v=l9vbuRfDjlA",
+          "transcript": "[Music]\noh\nd\nwho am I I'm the Champion I will\nacknowledge the fact that my opponents\ndo not expect me to win but I Will Never\nSurrender weakness will not be in my\nheart I will look to my comrades and to\nthose who have brought me to this world\nand those who have trained me and I will\ndraw straight from that who am I I a\nchampion I will gradually go out to f a\nbattle and I will move move and\neverything I can do and I will reach my\nfield of Battle At Any Means at my\nand when I get there I will R violently\nI will rip the heart from my enemy and\nleave it bleeding on the ground because\nhe cannot stop him who am I I am a\nchampion to my side I have comrad\ncomrades that the be through me through\ntake D through sacrifice and blood\nthrough through te never will I let them\nfall never will I let them down and I\nwill never leave an enemy behind because\nour opponent does not know my heart who\nam I I'm a champion\nno one will deny me no one will Define\nme and no one will tell me who and what\nI am it can be believe will change my\nworld it is through C it is through\ncountry it is put man on the moon and it\nwill carry me through this battle who am\nI the\nchampion defeat Retreat those are not in\nmy\nwords I don't understand those\ndefinitions I don't understand when\nthings go wrong I don't understand\nmistakes like do understand me\nI understand Victory and I understand\nnever surrendering no matter how bad\nthings go my heart my mind will carry my\nbody with my Lim two week who am I I am\nthe champion today will be that day not\ntomorrow not next week but right now\nright here in your house and in your\nhome who am I I the champion\nla\nsweet\nthis too soon\nbre\nwatching you\na moment of Love A Dream a loud a kiss a\ncry our rights our wrongs I'm moment\nlove a dream aive a moment Al dream\nallive to stay\nthere stop be cing all\nwhile our\nstill\ndown won't stop\ntill won't stop you surrender\nall\ndesperation for\nyou A Moment Of Love\ndream when you try your best but you\ndon't\nsucceed when you get what you want but\nnot what you need\nwhen you feel so tired but you can't\nsleep stuck in\nrivers and the tears come streaming down\nyour\nface when you leave something you can't\nreplace when you love so one but it goes\nto\nwaste could it be worth",
+          "curated": true,
+          "curation_reason": "First-person POV footage of the 30km race filmed with GoPro camera, showing actual race experience.",
+          "display_order": 1
+        }
+      ],
+      "quotes": [
+        {
+          "text": "At 9:30 thousands of skiers started at Bois de Mille to ski the 60 kilometre ft race to the finish in show nerve the race was a hard one on this the athletes agreed in the finished first it was snowing then it was snowing heavily then there was a mixture of snow and rain hence it was not warm but the competition was a hot one.",
+          "source_video_id": "mjGfYYiA04o",
+          "source_channel": "Worldloppet",
+          "source_view_count": 17,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Minocqua Northwoods Loppet",
+    "slug": "minocqua-northwoods-loppet",
+    "display_name": "Minocqua Northwoods Loppet",
+    "tagline": "Through the lake-dotted Northwoods of central Wisconsin — 25 kilometers of frozen beauty in America's island city.",
+    "vitals": {
+      "distance_km": 25,
+      "distance_options": [
+        "25km classic/skate",
+        "10km classic/skate"
+      ],
+      "elevation_m": 150,
+      "altitude_m": 480,
+      "location": "Minocqua, Wisconsin",
+      "location_badge": "Wisconsin, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Wisconsin",
+      "date": "Late January",
+      "date_specific": "2026: January 24",
+      "discipline": "both",
+      "field_size": 100,
+      "founded": 1985,
+      "registration": "Online and day-of registration",
+      "prize_purse": null,
+      "aid_stations": "One aid station mid-course",
+      "cutoff_time": null,
+      "website": "https://www.minocquanordic.com",
+      "lat": 45.8705,
+      "lng": -89.7132,
+      "field_size_estimate": 125,
+      "elevation_gain_m": 150
+    },
+    "climate": {
+      "primary": "Northern Wisconsin Northwoods winter",
+      "description": "Late January in the Northwoods brings reliable cold and snow cover. The lake-rich terrain moderates temperatures slightly compared to open prairie. Temperatures -20°C to -8°C.",
+      "typical_temp_c": "-20 to -8",
+      "challenges": [
+        "Extreme cold possible in late January",
+        "Flat terrain means wind exposure along lake shores",
+        "Declining snow reliability in milder recent winters"
+      ]
+    },
+    "course": {
+      "primary": "A 25km race through the Northwoods lake country around Minocqua. The course winds through pine and hardwood forest, crossing frozen lake shores and connecting trail systems in Wisconsin's famous lake district. Mostly flat to gently rolling terrain.",
+      "format": "loop",
+      "surface": "Machine-groomed Nordic trails through Northwoods forest",
+      "technical_rating": 2,
+      "grooming": "Good quality grooming by local club",
+      "features": [
+        "Lake-dotted Northwoods landscape — trails pass multiple frozen lakes",
+        "Minocqua is known as the 'Island City' for its lake-surrounded location",
+        "Classic Northwoods pine and hardwood forest setting",
+        "Part of Wisconsin's strong citizen Nordic racing tradition",
+        "Accessible for families with shorter distance option"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 44,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A solid community loppet in Wisconsin's beautiful lake country. Flat terrain, small field, and limited competitive depth keep scores modest. The Northwoods lake landscape is the defining feature."
+    },
+    "history": {
+      "summary": "Minocqua, known as the 'Island City' for its location amid northern Wisconsin's thousands of lakes, has a strong Nordic skiing tradition. The loppet celebrates the Northwoods winter and draws from the region's community of lake-country residents and winter visitors.",
+      "notable_facts": [
+        "Minocqua is called the 'Island City' — surrounded by lakes",
+        "The Wisconsin Northwoods have over 15,000 lakes",
+        "Nordic skiing has been popular in the area since Scandinavian settlers arrived",
+        "The race passes near several frozen lakes along the course"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": null,
+      "search_query": null,
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

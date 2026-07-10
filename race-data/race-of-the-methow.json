@@ -1,0 +1,291 @@
+{
+  "race": {
+    "name": "Race of the Methow",
+    "slug": "race-of-the-methow",
+    "display_name": "Race of the Methow",
+    "tagline": "Junior and citizen racing on North America's largest cross-country ski trail network — the Methow Valley's 200km of groomed trails host the Pacific Northwest's premier regional qualifier.",
+    "vitals": {
+      "distance_km": 7,
+      "distance_options": [
+        "25km",
+        "15km",
+        "10km",
+        "5km"
+      ],
+      "elevation_m": 250,
+      "altitude_m": 550,
+      "location": "Methow Valley, Washington",
+      "location_badge": "Washington, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Washington",
+      "date": "Late January / early February",
+      "date_specific": "2026: January 31 - February 1",
+      "discipline": "both",
+      "field_size": 200,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations on course",
+      "cutoff_time": null,
+      "website": "https://www.methowvalleynordic.org/events",
+      "lat": 48.4597,
+      "lng": -120.1867,
+      "field_size_estimate": 350,
+      "elevation_gain_m": 250
+    },
+    "climate": {
+      "primary": "Cascade rain shadow",
+      "description": "Methow Valley sits in the rain shadow of the North Cascades, receiving reliable cold dry snow. Typically -15°C to -2°C in winter.",
+      "typical_temp_c": "-15 to -2",
+      "challenges": [
+        "Cold temperatures in valley bottom",
+        "Occasional warm Chinook winds",
+        "Variable conditions across 200km network",
+        "Remote valley access in winter"
+      ]
+    },
+    "course": {
+      "primary": "Courses on North America's largest groomed cross-country ski trail network (200+ km). The Methow Valley trails traverse open meadows, forests, and river valleys.",
+      "format": "loop",
+      "surface": "Machine-groomed trails",
+      "technical_rating": 3,
+      "grooming": "Excellent grooming on the Methow Trails network",
+      "features": [
+        "North America's largest groomed XC trail network (200+ km)",
+        "Regional JNQ qualifier for Pacific Northwest",
+        "Scenic valley and mountain views",
+        "Classic and freestyle events over two days"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Excellent trail network and grooming on North America's largest XC system, but moderate field size and regional focus limit the overall score.",
+      "tier_note": "Score 51 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Race of the Methow is a signature racing event in Washington's Methow Valley, home to North America's largest groomed cross-country ski trail network with over 200km of trails. It serves as a Regional Junior Olympics Qualifier (JNQ) for the Pacific Northwest.",
+      "notable_facts": [
+        "Held on North America's largest groomed XC trail network",
+        "Regional JNQ qualifier for Pacific Northwest",
+        "Youth teams participate from across the western US",
+        "Two-day format with classic and freestyle events"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Race of the Methow cross country ski race Methow Valley",
+      "videos": [
+        {
+          "video_id": "i6OalNx9wl4",
+          "title": "Race the Methow",
+          "channel": "Methow Grist",
+          "view_count": 308,
+          "upload_date": "20130107",
+          "duration_string": "1:32",
+          "description": "A junior nordic qualifier race for the Pacific Northwest. See the latest video at MethowGrist.com.",
+          "tags": [
+            "Nordic",
+            "Ski",
+            "Race",
+            "Twisp",
+            "Winthrop"
+          ],
+          "url": "https://www.youtube.com/watch?v=i6OalNx9wl4",
+          "transcript": "this is a junior qualifier for the\nPacific\nNorthwest I'm lesie Hall the director of\nthe metal Valley Nordic team and we're\nhere today at the race the\nMeto go\ngo so this is the first of four\nqualifying events for our Junior skiers\nand so they have to qualify in six out\nof eight of their Races they have two\nthis weekend and and um so it's just the\nfirst step on their road towards\nFairbanks and it's just a great fun\nevent we have a lot of kids that aren't\nworking towards Junior Nationals the\nyounger kids are out here just having a\ngood time getting experience racing and\nwe're all enjoying our great venue and\ngreat place to\nbe\na",
+          "curated": false
+        },
+        {
+          "video_id": "AxzAX7zRzD8",
+          "title": "Methow Valley Nordic Ski Team",
+          "channel": "Dr. Telemark's Backcountry Northwest",
+          "view_count": 735,
+          "upload_date": "20191118",
+          "duration_string": "3:30",
+          "description": "Here is a short promo video for the Methow Nordic Ski Team sponsored by the local community through the Methow Valley Nordic Ski Educational Foundation.",
+          "tags": [
+            "Methow Valley",
+            "Nordic skiing",
+            "Crosscountry skiing",
+            "Ski foundation"
+          ],
+          "url": "https://www.youtube.com/watch?v=AxzAX7zRzD8",
+          "transcript": "[Music]\nhi my name is Pete Leonard I'm the\nexecutive director for metal Valley\nNordic ski educational foundation and I\ncame out here because I knew there was a\ngreat cross-country ski community and a\ngreat place to cross-country ski and I\nsaw you know in kind of a small\ncommunity with huge potential to really\ndo some really cool things through the\nsport of cross-country skiing across\nacross all sorts of age ranges just you\nknow from kids to racing team to adults\nand so on\nnext this year I am going to on an oppa\ntrip and so I'll go to race that oppa\nfinals in Germany and that will be fun I\nget to go on a trip with like some of\nthe girls that I was at World Juniors\nwith\nso we really started to gathering the\nyounger kids pretty much from the ages\nof six through seventh grade because\nit's only high schoolers on the team\nwhen I moved here that's what really\nstarted to build the team so that\nstarted to build build build and from we\nhave probably maybe eight to ten stairs\nwhen I came and now well we sort of just\na little bit and one of my goals is I'm\ngonna qualify for this trip that's\ncalled like the scanned our trip is sort\nof like a u.s. trip to races it's\nScandinavia and to qualify you have to\ndo well at senior nationals and that's\nthe race right home kind of destroy it\nso that means I'll have to train really\nwell like fall early season material\nappearances\nearly January race so have to be ready\nfor that that's behind let's do well\nthere",
+          "curated": false
+        },
+        {
+          "video_id": "2DEuood6P3I",
+          "title": "Methow Valley Nordic Team",
+          "channel": "Methow Grist",
+          "view_count": 37,
+          "upload_date": "20121106",
+          "duration_string": "2:05",
+          "description": "",
+          "tags": [
+            "MVNT"
+          ],
+          "url": "https://www.youtube.com/watch?v=2DEuood6P3I",
+          "transcript": "this is the manhole valley nordic team\nj2 and older comp team\nwe've done a bunch of time trials around\nhere just\nlike enter team but we had to race down\nand bend oregon\nthat was really good pretty much\neveryone on our team qualified for\njunior olympics\nwe have got about 127\nregistered skiers this year for the\nwhole program\nand we've got about 11 skiers on the\ncompetition team we travel all over we\ngo from\nbend oregon to spokane washington\nall the way to soldier hollow utah\nfor competition and then racers who\nqualify\nat at least six races get to go\nto a national competition this year that\nsoldier hollow next year's at fairbanks\num these kids have a an amazing\nopportunity to really travel the west\non a pair of skis this coming weekend\nwe're just at home and we're going to do\na time trial\nand then the weekend after that we're\ngonna fly down to uh soldier hollow\nwhich is in\nsalt lake city utah and uh it's at the\nwe're gonna have a race at the venue of\nthe 2002\nwinter olympics and it's it's a really\ncool venue and it's a really hard course\nand it's at altitude so it's always\nit's always hard these guys are just\ngetting off a really hard week we had a\nbig\nvolume week intensity speeds\nlots of skiing last week so we're\ntapering off this week we're going to\nrecover\ntoday we're just going to go out for an\nhour easy ski work a little bit\ntechnique\nbut really have fun keep the energy up\nhitting the midway point of our season\nso getting these kids excited keeping\ntheir motivation up is key right now\nas we head into the end of this month\nwe'll go to soldier hollow a couple of\nbig races in february",
+          "curated": false
+        },
+        {
+          "video_id": "ZYWcH1CcOCs",
+          "title": "Methow valley cross country skiing / Mazama / Upper River Run to Jacks Point / Bush school trailhead",
+          "channel": "Rei's Roamings",
+          "view_count": 337,
+          "upload_date": "20210326",
+          "duration_string": "9:12",
+          "description": "This video showcases our cross country ski trip up in Mazama starting from the Bush School Trailhead towards Upper River Run trail towards Jacks Point and looping back down Upper Jacks to Cassal Cutoff and back via the Methow trail.\n\n\n\nIt was a wonderful cross country ski experience, the views were phenomenal and we saw maybe 4 couples all together during this trip so it was mostly just us and nature the whole time.\n\n\n\nFor more content, questions or travel and adventure ideas, comment below! And join my FB group Rei's Roamings at https://www.facebook.com/groups/809854716456895\n\n\nThanks for watching!",
+          "tags": [
+            "#mazama",
+            "#crosscountryski"
+          ],
+          "url": "https://www.youtube.com/watch?v=ZYWcH1CcOCs",
+          "transcript": "so\njust like a pro\nare you ready kurt i am ready\ni might not be\nwe are at mazama\nthat's the goat wall which\nlooks very great for rock climbing\nand we are headed towards the river\n[Music]\nmatthau valley is the largest\ncross-country trail system in north\namerica\nthat's over 120 miles of available\nnordic skiing\nstretching from winthrop all the way to\nmazama\nthey have many beginner and intermediate\nlevel runs\nin sun mountain winthrop and mazama\nand if you want more intermediate to\nadvanced trails\nrendezvous is the place to be at\non our first day we explored sun\nmountain trails\nand true to its name the trails were\nmostly exposed to the sun\nand the views of the surrounding\nmountains were breathtaking\nstarting out our trail\nwoohoo\non our second day we explored the mazama\narea\nand the trails here were so scenic and\nbeautiful\ni have to admit that i prefer this even\nover the beauty\nof sun mountain we started out at the\nbush\nschool trailhead and followed the river\nrun trail\nall the way to upper jack's leap you can\nsee the beauty of mazama\nin the snippets of our cross-country\nskiing trip here\nwow\n[Applause]\npicture look at how clear the water is\nriver run we are literally next to the\nriver\nlast chance point wow\nbeautiful that's where we came from the\nriver run\noh wow another cross-country skier there\nyou want to go to the warming hut\ncowbeach we hit the one hill here\nlet's watch the pro go up rather than me\nhe looks like a pro compared to me\n[Laughter]\nyou're kidding me\nthe duck walk\nthis is gonna be fun going down\nthank god\ni don't know if that was a green room\ndon't feel like a green to me\nwell it's the green ah you kidding me\noh\nhey\nwe\nthis goat wall\na big meadow here and there's skirt say\nhi kerr\nlook at that look at how peaceful it is\nhere\ntaking a break at jack's point\nlook at this view though\nthis is what we're watching and looking\nout on\nwhile we're resting\n4.\nyou",
+          "curated": true,
+          "curation_reason": "POV ski tour showcasing the Methow Valley trail system and terrain features with first-person commentary.",
+          "display_order": 3
+        },
+        {
+          "video_id": "Vzn7rxO8NlQ",
+          "title": "Race of the Methow-Jake Whitten",
+          "channel": "plainhardware22",
+          "view_count": 182,
+          "upload_date": "20090217",
+          "duration_string": "32",
+          "description": "Jake Whitten, MJ2 representing the Leavenworth Winter Sports Club Junior Nordic Ski Team, skates the hill during the time trial for the Freestyle Sprint Race at the Race of the Methow on February 7, 2009, Liberty Bell High School, Winthrop,  Washington.  He finished with the fastest qualifying time, and went on to win the Final.",
+          "tags": [
+            "Jake Whitten",
+            "LWSC",
+            "nordic",
+            "skate",
+            "skating",
+            "freestyle",
+            "sprint race",
+            "Race of the Methow",
+            "V1",
+            "V-1"
+          ],
+          "url": "https://www.youtube.com/watch?v=Vzn7rxO8NlQ",
+          "curated": false
+        },
+        {
+          "video_id": "A72VUOD_FE4",
+          "title": "Ski the  Methow Valley Rendezvous Trails",
+          "channel": "BestoftheNW",
+          "view_count": 346,
+          "upload_date": "20180312",
+          "duration_string": "1:38",
+          "description": "Popular destinations for overnight hut camping the Rendezvous trails cover valley floor to high-forested ridges above Methow Valley and the Cub Creek side. \n\nhttp://botnw.com/methow-valley-rendezvous-trails/",
+          "tags": [
+            "nordic skiing",
+            "trails",
+            "washington",
+            "best of the NW"
+          ],
+          "url": "https://www.youtube.com/watch?v=A72VUOD_FE4",
+          "transcript": "the high trails of the iconic metal\nvalley popular destinations for\novernight Hut cake the rendezvous trails\ncovered valley floor\n- hi forested ridges above metal Valley\nand the Cup Creekside welcome to best of\nthe Northwest\naccess Luke from the cut Creek Trailhead\na few miles northeast of town the main\nroute steadily climbs along summer roads\nand campgrounds to wintertime trails\n[Music]\ncleverly named cougar bait\nclimb up the relentlessly steep Cedar\nCreek loop trail to the heifer Hut high\npoint the higher elevation ridges make\nfor great early season and spring steam\ndescend traversing across bridges to the\ncow Creek junction connecting back to\nthe rolling Cub Creek Trail that loops\nback creek side to the Cub Creek\nTrailhead this is a great access point\nfor the shorter lower trail swoops or\nthe more ambitious up and over upper\npond creek route and connect to the\nmetal valley floor trails and Mazon\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "szplFAEi7ao",
+          "title": "Ski To the Sun 2022 - Final Version",
+          "channel": "Dr. Telemark's Backcountry Northwest",
+          "view_count": 2194,
+          "upload_date": "20220213",
+          "duration_string": "9:41",
+          "description": "Hosted by the Methow Trails and Methow Valley Nordic Skiing Educational Foundation, this marathon length race stretches the length of the Methow Valley from Mazama up to Sun Mountain.  41+ km with a rigorous uphill the last 10 kilometers.\n\nFilmed and edited in under 12 hours.  \nTelegraphix Studios in Winthrop, Washington",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=szplFAEi7ao",
+          "transcript": "[Music]\nnow\nare you gonna be racing today\nexcellent that sounds great\ntoday's exciting day i've been out\nskiing a ton i've never been in a race\nand it's fun to see all these people\nhere so i'm super excited to go out and\ntry it i don't know where i'm going to\nfit into the pack\nokay\n[Applause]\nso\nwoohoo\ndoing it in fine fast fashion absolutely\nclose and fast\nerickson at the finish line\nthis is\nlooks like we have jack barney from\ntacoma washington\ntip number 60.\nlooks like marines\nwashington\nhi i'm eric bjornson i grew up here in\nthe methow valley\nand went on to compete in two olympics\nit's really fun for me to come back to\nthe mehow valley i live here now with my\nwife marine we own winthrop mountain\nsports um\nwe're actually one of the the main\nsponsors of this event with a sun\nso we're really happy to compete here\nwith all of our friends and it's such a\nwonderful event\nit's so fun to get the community\ntogether it's really nice to be able to\nrace in a real event after two years of\nyou know just doing virtual or not\nracing at all seeing so many people and\nhappy faces it's\nbeen a great time\nplaying number 272.\nbrother and sister\nyou",
+          "curated": true,
+          "curation_reason": "Recent race coverage of the marathon-length Ski to the Sun race with skier interviews and race atmosphere from the Methow Valley.",
+          "display_order": 1
+        },
+        {
+          "video_id": "LyxPQbdwPkI",
+          "title": "Methow Valley Nordic Team - Jan 31st Time Trial",
+          "channel": "cascadiaborealis",
+          "view_count": 489,
+          "upload_date": "20090203",
+          "duration_string": "6:49",
+          "description": "The Methow Valley Nordic Team was out this weekend skiing the Liberty Bell High School trails. Watch them sharpen their skills for next weekend's Race of the Methow event. \r\nWe hope to see you there!",
+          "tags": [
+            "methow valley",
+            "nordic",
+            "skiing",
+            "XC"
+          ],
+          "url": "https://www.youtube.com/watch?v=LyxPQbdwPkI",
+          "transcript": "let's go spitter\n[Music]\nSP\nfore fore spee\nspe\nspeech fore spe speech speeech\nthe e\naing\nfore foree\nthere's\n[Applause]\nalso keep it up\nchance to bring it\ndown by then you're winding it up\nI thought first is pretty good it longer\nthan I\nexpected it's a challenging course yeah\nit's a lot of hill Hills are really\ntough\nsteep hills big Hills there's not really\nany flat spots except for\nthe the um stadium so uhhuh what about\nconditions it was good fast were good\nwas fast it was icy underneath though so\non certain steep Corners you got little\nice it was a little bit hard but it was\ngood it was a good race okay how you\nfeel for next weekend feel good feel\nfast we've been more working on the\nSprint course and so I think we're going\nto be good to\ngo on good how's the new course it's\ntough to say the least it's really hilly\nit's different it's going to be a\nchallenge to do in like real races too\nso it'll\nbe big challenge Big Goal",
+          "curated": true,
+          "curation_reason": "Shows race preparation and course conditions with skier commentary about the challenging terrain and fast conditions.",
+          "display_order": 4
+        },
+        {
+          "video_id": "wTxY76o4xTc",
+          "title": "Spokane Nordic Challenge Loppet 2022",
+          "channel": "Spokane Nordic",
+          "view_count": 613,
+          "upload_date": "20220309",
+          "duration_string": "3:38",
+          "description": "On March 6th, 2022, 65 skiers gathered on Mt Spokane State Park Nordic Ski Area to compete in either a 20k, 30k, or 50k cross-country ski loppet. Thank you to all of our participants! For info on future loppets, visit www.spokanenordic.org/loppet",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=wTxY76o4xTc",
+          "curated": false
+        },
+        {
+          "video_id": "RCx_cEoDWg4",
+          "title": "Ski To The Sun 2020",
+          "channel": "Dr. Telemark's Backcountry Northwest",
+          "view_count": 4722,
+          "upload_date": "20200211",
+          "duration_string": "6:45",
+          "description": "Short film of scenes of the Ski to the Sun Marathon and Relay race in the Methow Valley.  Sponsored by the Methow Trails and Methow Valley Nordic Ski Education Foundation.\n\nDirected by Mike Tuggy\n\nVideography:\nMike Tuggy - Aerial\nKathy Tuggy\nAnnette Frahm\nSally Kentch\nLarry Mauksch\n\nMusic: Licensed from Artlist.io\n\nwww.telegraphixstudios.com",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=RCx_cEoDWg4",
+          "transcript": "[Music]\nwhy do you want to be in the race Sam\n[Laughter]\n[Applause]\nyou look like you're speaking a fairly\ncasual approach to that so early on or\nthe Bernardo is the 2019 dinner and he's\nwell with us underneath I'm too old\nhello I am qicang Randall I'm a\nfive-time Olympic skier and the 2018\nOlympic champion and Jesse Dickens but I\nretired a year and a half ago and now I\njust get the cross-country ski for fun\nyou know we call this type B fun it's\nfun when you're done I can say that now\nthat I'm up here at Sun Mountain Lodge\nat the end of the race but man what a\nbeautiful tour through the valley today\nit's my first time here in the Mets out\nin the winter I've heard so many great\nthings and it's great to kind of finally\ncome and see it for real we had the\ngreat conditions out there the first\nhalf was super fast was fun skiing in a\npack then when we got to the climb\nthings got a bit more challenging snow\nslowed down a little bit but man epic\nscenery great people cheering out there\nlove the love the spirit of the race and\nsuper glad I came",
+          "curated": true,
+          "curation_reason": "Features Olympic champion Kikkan Randall describing race conditions and course challenges in the Methow Valley.",
+          "display_order": 2
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We had the great conditions out there the first half was super fast was fun skiing in a pack then when we got to the climb things got a bit more challenging snow slowed down a little bit but man epic scenery great people cheering out there love the spirit of the race.",
+          "source_video_id": "RCx_cEoDWg4",
+          "source_channel": "Dr. Telemark's Backcountry Northwest",
+          "source_view_count": 4722,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "It was good fast were good was fast it was icy underneath though so on certain steep Corners you got little ice it was a little bit hard but it was good it was a good race.",
+          "source_video_id": "LyxPQbdwPkI",
+          "source_channel": "cascadiaborealis",
+          "source_view_count": 489,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

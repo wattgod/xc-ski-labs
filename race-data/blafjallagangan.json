@@ -6,7 +6,10 @@
     "tagline": "Forty kilometers across Iceland's volcanic highlands — the only Euroloppet on a volcanic island, where lava fields meet snow fields just 35 minutes from Reykjavik.",
     "vitals": {
       "distance_km": 40,
-      "distance_options": ["40km", "20km"],
+      "distance_options": [
+        "40km",
+        "20km"
+      ],
       "elevation_m": 500,
       "altitude_m": 600,
       "location": "Bláfjöll",
@@ -17,7 +20,7 @@
       "date": "Spring (March-April)",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~300 starters",
+      "field_size": 300,
       "founded": 2018,
       "registration": "Online registration",
       "prize_purse": null,
@@ -25,7 +28,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 64.0167,
-      "lng": -21.8500
+      "lng": -21.85,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 500
     },
     "climate": {
       "primary": "Sub-Arctic maritime",
@@ -86,9 +91,12 @@
         "Course crosses volcanic terrain covered in snow",
         "Iceland's growing cross-country skiing scene",
         "Relatively new event, founded around 2018"
-      ]
+      ],
+      "founded": 2020
     },
-    "series_membership": ["euroloppet"],
+    "series_membership": [
+      "euroloppet"
+    ],
     "youtube_data": {
       "videos": [],
       "rider_intel": null

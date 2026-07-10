@@ -1,0 +1,322 @@
+{
+  "race": {
+    "name": "Engadin Frauenlauf",
+    "slug": "engadin-frauenlauf",
+    "display_name": "Engadin Frauenlauf",
+    "tagline": "Seventeen kilometers of women-only racing through the frozen Engadin valley — the Alps' premier all-female Nordic event.",
+    "vitals": {
+      "distance_km": 17,
+      "distance_options": [
+        "17km"
+      ],
+      "elevation_m": 150,
+      "altitude_m": 1800,
+      "location": "Engadin Valley, Graubünden",
+      "location_badge": "Graubünden, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Graubünden",
+      "date": "Early March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 2000,
+      "founded": 2001,
+      "registration": "Online; German, Italian, and English",
+      "prize_purse": null,
+      "aid_stations": "Aid stations with Swiss specialties, warm drinks, and chocolate",
+      "cutoff_time": null,
+      "website": "https://www.engadin-skimarathon.ch",
+      "lat": 46.4908,
+      "lng": 9.8355,
+      "field_size_estimate": 2000,
+      "elevation_gain_m": 150
+    },
+    "climate": {
+      "primary": "High Alpine valley winter",
+      "description": "The Engadin valley at 1800m in early March has excellent snow conditions. Temperatures range from -15°C to 0°C. The high altitude and inner-Alpine position provide reliable cold dry snow. The Engadin is one of the sunniest valleys in the Alps, offering bright racing conditions.",
+      "typical_temp_c": "-15 to 0",
+      "challenges": [
+        "High altitude at 1800m affects performance for unacclimatized racers",
+        "Intense Alpine sun can cause rapid snow surface changes",
+        "Cold morning starts with significant temperature rise by finish",
+        "Occasional Maloja wind funneling through the valley"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the flat Engadin valley floor from Maloja toward St. Moritz. The course follows a portion of the famous Engadin Skimarathon route along frozen lakes and through the stunning Upper Engadin landscape. Predominantly flat with gentle undulations — the altitude rather than terrain provides the challenge.",
+      "format": "point-to-point",
+      "surface": "Superbly groomed valley floor trails at 1800m altitude",
+      "technical_rating": 1,
+      "grooming": "Swiss precision grooming — among the best in the world",
+      "features": [
+        "Women-only event celebrating female participation in Nordic skiing",
+        "Stunning Engadin valley setting with frozen lake views and Alpine peaks",
+        "Uses portion of the famous Engadin Skimarathon course",
+        "High altitude at 1800m with exceptional snow quality",
+        "Swiss organization and infrastructure",
+        "Part of the Engadin Skimarathon weekend events"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 64,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 1,
+      "elevation": 1,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 1,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 5,
+      "scenery": 5,
+      "organization": 5,
+      "competitive_depth": 2,
+      "score_note": "The women-only format, spectacular Engadin setting, and Swiss organization create a unique event. Short distance and flat course limit physical challenge, but the atmosphere, scenery, and snow quality are exceptional.",
+      "tier_note": "Score 64 places in TIER 2 range"
+    },
+    "history": {
+      "summary": "The Engadin Frauenlauf (Engadin Women's Race) was created in 2001 as a companion event to the famous Engadin Skimarathon. It provides a dedicated women-only Nordic racing event in one of the world's most spectacular skiing settings. The race has grown to attract approximately 2,000 women and has become an important event for promoting female participation in Nordic skiing across the Alpine region.",
+      "notable_facts": [
+        "One of the largest women-only cross-country ski races in the world",
+        "Part of the Engadin Skimarathon weekend — one of the world's most prestigious Nordic events",
+        "The Engadin valley has hosted Nordic skiing since the 19th century",
+        "Swiss precision organization and grooming standards",
+        "St. Moritz hosted the Winter Olympics in 1928 and 1948",
+        "The women-only format was pioneering for Nordic skiing events in Switzerland"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Engadin Frauenlauf cross country ski race Engadin Valley",
+      "videos": [
+        {
+          "video_id": "gYD1tvX9cGA",
+          "title": "Norway’s Hedegart Claims Victory at 56th Engadin Skimarathon | APT",
+          "channel": "APT",
+          "view_count": 6439,
+          "upload_date": "20260309",
+          "duration_string": "3:58",
+          "description": "Einar Hedegart won the men’s race at the Engadin Skimarathon after a tight sprint finish in Switzerland. Hedegart edged Jason Ruesch and Sabin Coupat to claim victory. In the women’s race, 18-year-old Anna Endress beat Swiss favourite Giuliana Werro in a dramatic finish, with Clemence Didierlaurent taking third place. Thousands of skiers competed in the popular 42-km race through the scenic Engadin valley.\n#EngadinSkimarathon #CrossCountrySkiing #WinterSports #SportsNews #skirace \n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/UCpLEtz3H0jSfEneSdf1YKnw/join",
+          "tags": [
+            "live news",
+            "news live",
+            "latest news",
+            "news",
+            "world news",
+            "apt",
+            "apt news",
+            "global news",
+            "apt news live",
+            "Engadin Skimarathon 2026",
+            "Einar Hedegart win",
+            "Anna Endress victory",
+            "cross country skiing race Switzerland",
+            "Sabin Coupat ski race",
+            "Giuliana Werro Switzerland skiing",
+            "Clemence Didierlaurent France skiing",
+            "winter sports highlights",
+            "marathon ski race Europe",
+            "Engadin valley skiing event",
+            "international skiing competition",
+            "sports highlights 2026",
+            "winter sports news"
+          ],
+          "url": "https://www.youtube.com/watch?v=gYD1tvX9cGA",
+          "curated": false
+        },
+        {
+          "video_id": "g_emgYvDojI",
+          "title": "Short Film: Engadin Skimarathon, by World of Freesports (english version)",
+          "channel": "Engadin Skimarathon",
+          "view_count": 2528,
+          "upload_date": "20250528",
+          "duration_string": "25:58",
+          "description": "Emotions, peak performances, stories, and history — that is the legendary Engadin Skimarathon, held every year on the second Sunday in March between Maloja and S-chanf in the Engadin Valley.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=g_emgYvDojI",
+          "transcript": "Every year in early March, thousands of\ncross-country skiers from around the\nworld descend on Engodine, one of\nSwitzerland's most picturesque high\nalpine valleys to take part in the\nEnadin Ski Marathon, one of the biggest\nsporting events in Switzerland. The\nEnodine Ski Marathon has been around\nsince 1969.\nIt's been a success story right from the\nstart and this year we have almost\n13,000 participants that have\nregistered. They come from over 60\ndifferent countries, so pretty much from\nall over the world to take part in the\nworld's second biggest cross-country\nskiing event.\nThe Engin Ski Marathon covers 42\nkilometers through all of the\ncommunities here. I think it's the one\nevent where we can really present\nourselves and show how sensational our\nhigh valley is,\nbut the Enadine is a yearround\ndestination. In winter, we have\nsensational skiing and\nsnowboarding. What makes our valley\nstand out though are the lakes where you\ncan enjoy sailing, surfing, kite\nsurfing, and all sorts of other sports.\nIn cross-country skiing, the Engin Ski\nMarathon is together with the Volsa\nLove, the equivalent to the big marathon\nraces in running like the Berlin or New\nYork marathons. On one hand, it's the\nscenery that makes it so nice, but also\nthe topography of the course, which\nisn't too hard and also enables\ncross-country skiers who aren't so well\ntrained to race here. At the same time\nthough, you're on the start line with\nOlympic and world champions. I think the\ncombination of elite sport, adventure,\nand scenery is what makes the Engin Ski\nMarathon so\nspecial with four-time Olympic champion\nand four-time winner of the Enadin Ski\nMarathon, Dario Kona. We of course have\na real celebrity starting here. We have\nJustina Kavalic, a double Olympic and\nworld champion. And in the women's race,\nof course, there's Theres Yohag, who\nreally is the crosscountry skiing\nsuperstar. But we also have a lot of\nreally good upand cominging athletes. We\nhave some from Switzerland from the\nSwiss ski men's team and some very\nstrong French skiers. And it's always a\ngood mix of the top stars and the\namateur athletes.\n[Music]\nThe first race of the Enadine Ski\nMarathon Week is the women's race where\nthe field will tackle a 17 km scenic\ncourse. Before the start in Samadan, all\neyes are on four-time Olympic champion\nTheres Yohag of Norway who's competing\nfor the first time in 2 years after\nmaternity leave. I think I will be\nreally nervous because it's two years\nsince I have competing. Erh, I think\nmaybe you know the head think that you\nare in the same shape as you was for 2\nyears ago. Amongst the hundreds of women\nare some who also use the Enadim women's\nrace to raise awareness and money for\ncharity. I raised for Masharosa which is\npink ribbon and it's about breast cancer\nprevention and the pink bear was kind of\nan obvious costume. There are only women\ndoing this race and I think it's going\nto be a really cool atmosphere. It'll be\nfun to take part.\nAs the start gun goes, almost a thousand\nfemale skiers set off for the first race\nof the Enadin Ski Marathon\nWeek. Right from the start, the\nNorwegian superstar Theresio Hog sets\nthe pace. And despite having a 2-year\nhiatus from competition, the 14time\nworld champion is in a league of her\nown.\nIn the Chasing Pack, Eustina Kavalchic\nof Poland and Switzerland's bialon\nOlympic silver medalist Selena Gasperin\nshow their cross-country credentials and\nthey give it their all to try and keep\nthe distance to Yohag as small as\npossible. Whilst Terresa Yohag is racing\non her own at the front of the pack,\nthere are hundreds of women behind her\nwho are enjoying their time together on\nthe course during the 23rd Engin's\nrace. They soak up the crowd support and\nthe stunning Enodine landscape.\nIt's a joyful occasion and for most of\nthese cross country enthusiasts, the fun\nis more important than the race times\nand podium\npositions. Back at the front, Theresa\nYohag still dominates the race with the\nsame group of seven women in pursuit.\nAmongst them, Switzerland's bialon star\nand engin native Selena\nGasperin. After a dominant race, 14time\nworld and four-time Olympic champion Yoh\ncrosses the finish line in Esamp with a\nhuge gap on the rest of the field and\nclearly enjoying her comeback. It was\nreally fun to have the racing beep on\nagain and uh have the feeling when you\npush yourself in the tracks and uh\npeople are cheering for me out there. So\nit was uh fantastic feeling again. In\nsecond place another former Olympic\nchampion, Yina Kavalce of\nPoland and also happy with her race but\nmore so with the return to her native\nEngadine by athlete Selena Gasperin.\nYes, of course. It's my home. I know\neverything here. I've trained here a lot\nand I would not have just run any old\nrace. So, yeah, this is a real\nhomecoming.\nDue to heavy snowfall followed by warm\ntemperatures, both the Silsa and Silver\nPlanet lakes can't be prepared in time\nfor the 2024 Enadina race. So this\nyear's start is moved to Silver Planner,\nanother logistical challenge that Menuri\nCasper and his team have to deal with.\nYes, it's big and a very complex\nundertaking. We have around a thousand\nvolunteers that work here and all of\nthem need information on when and where\nthey need to be places. We have aid\nstations on the course and we need\naround 20,000 L of warm water for the\nparticipants on race morning. Then we\nhave to organize the transport for all\nof the participants to the start line.\nWe have more than 64 buses that we've\ncollected from all over Switzerland and\nthey're just to drive the people to the\nstart. We also have more than 40\nmilitary trucks that transport the\nparticipants clothes from the start to\nthe finish.\nAs the big race day approaches, more and\nmore competitors arrive in the marathon\nvillage in Pontracina to pick up their\nstart numbers for the 54th edition of\nthe Enadinski\nMarathon.\nAmong the thousands of amateur skiers\nfrom around the world is British life\ncoach Poppy Cross, who's taking part in\nthe Angadine Ski Marathon for the very\nfirst\ntime. A friend of mine actually did it a\ncouple of years ago and said it was one\nof the best things he had ever done and\nI love the mountains. I love a\nchallenge. So I thought why not? I've\ndone downhill for years and years and I\nthought the skating technique for the\ncross country skiing it wouldn't be too\nhard but turns out it's quite technical.\nIt's quite a challenge but I'm excited.\nSwiss friends Michael Akaman and Sirill\nBoliga from Burn are equally excited to\ntake part in the Enadina and for them\nthis legendary race encapsulates\neverything they like about crosscountry\nskiing.\nYou go to places where you normally\nwouldn't go. You can enjoy nature. You\ncan tire yourself out. And at the end of\nthe day, when you get home, you're\nknackered. But it's a healthy tiredness,\nand it's the best thing you can do for\nyour\nbody. The two friends clearly enjoy the\nofferings in the Marathon Village, and\nthey're happy that the modern\nstate-of-the-art character of\ncross-country skiing is reflected here\nin Pontracina.\nYeah, cross country skiing is sometimes\nlooked upon as boring and old-fashioned,\nbut here you don't feel that at all. It\nreally is a cool sport.\nAlso back in the marathon village is\nFrantois Style, aka Madame Enadin Ski\nMarathon. She is the only woman to have\ncompleted all Enadina races and clearly\nremembers her first one 55 years ago. I\nhad good stamina but no technique. But I\nstill made it to the finish without any\nproblems and I got third in the women's\nrace.\nIt went so much better in my second\nmarathon. And in 1972 I got second in\nthe Enadinsky Marathon. Marathon. Every\nyear the 86year-old has got a stall in\nthe marathon village where she sells her\nbook Danglau vadam engadinski marathon.\nIt covers 50 Enadinsky marathons and of\ncourse it's also an autobiography.\nThere were just so many great marathons\nwith blue sky and nice warm weather.\nOnce someone asked me, \"What are you\ngoing to wear on your head for\ntomorrow's Enadin Ski Marathon?\" And I\njust said,\nhairspray. It was just so nice.\nIt's about the fascination of the\nEnadinsky marathon. The marathon has\nalways been part of my life. And in\nwinter, you're just prepared for the\nmarathon. I mean, every time it's an\nadventure, and it's particularly nice if\nyou can ski on the lakes. It's such\nterrific scenery and it's something\nspecial to be one small ant among\nthousands of other cross-country skiers.\nThe second race highlight of the week is\nthe sixth Enadin night race where skiers\nfrom around the world can experience a\nunique and magical adventure on the\nmoonlit cross country trails in and\naround Sills and Pontracena.\nYou get to meet uh people from all many\ndifferent countries. Yeah, that's one of\nthe really special things about it and\njust the excitement around it. We agreed\nthat he's going to stay with me and I'm\nglad about that. It's going to be so\nsurreal like going through the night\nwith a head torch all the way through.\nIt's going to be like an adventure for\nme.\nAs the start gun goes, around 800 skiers\nmake their way into the Enadin Knight to\ntackle the modified 16 km course that\nruns for the first time from La Punt\nthrough Samadan to\nPontracina. For many, this is the\nadventure of a lifetime.\nWith their head torches on, the\ncrosscountry skiers create a magical\natmosphere and supporters and fans cheer\nthem on their\nway. As the hundreds of cross-country\nskiers approach the end of the 16\nkilometer course, hot refreshments help\nthem to tackle the last few kilometers.\nReaching the finish area in first place\nis 19-year-old Pontracina local Roman\nAlder, who is overjoyed with the victory\non his home turf. It's so cool. I'm just\nso happy. The finish line is just around\nthe corner from my house and so it's\nexciting. I actually thought that\nsomething might be possible today and I\nstayed in the group for a long time, but\nto win it's obviously really cool. The\nwomen's category is won by an equally\ndelighted Yustina Kavalek from Poland.\nI'm so happy that I win this race. Uh my\nski was working perfect and I was feel\ngood working with the men. Uh\nI'm happy. I think that I will be sleep\ngood today.\nThe day before the main Enadina race,\nthe marathon village is a hive of\nactivity. And one of the big draws of\nthe day is a lecture with four-time\nOlympic champion and Swiss cross country\nlegend Dario Colona, who has a\nlong-standing connection with the Enadin\nSki\nMarathon. I've known the Enadin Ski\nMarathon since I was little. I grew up\nin Valair which is close to here and\nthat's how I started here for the first\ntime when I was 16. I then managed to\nwin it four times and got second twice.\nMy first win was definitely special.\nThat was on my 21st birthday and it was\nmy first big win internationally. It\ngave me a lot of confidence and it was\nmy breakthrough. That's why that victory\nwas so\nspecial. The last win was in 2019 and\nwas also special. The Enadina was part\nof the ski Classics and there was a\nreally strong field and some big\nNorwegians. From the stars of old\nonwards, it was only five or six of us\nand it was a really fast race with a\nsmall group at the front. That I could\nwin against such strong competition is a\nvery special memory.\nWhat also makes the Enadina special is\nthe fact that it's a week-long happening\nwith 15,000 people here all week. You've\ngot a lot of side events and it's\nimportant for the sport of crosscountry\nskiing that we have such a big race here\nin Switzerland.\n[Applause]\nAnother Swiss gear with his own\nambitions is the winner of this year's\nnight race, 19-year-old Pontracina local\nRoman, who hopes that his home field\nadvantage will also be the deciding\nfactor for the Engadina.\nWe always train on the trails of the\nEngin Ski Marathon. We know the course\ninside out and have watched the race for\ndecades. We've seen over and over again\nwhere the important turns and course\nparts are and that's what we train for.\nDario Kona is of course a massive legend\nand as a small boy it was always\nexciting to watch my idol at the Engin\nSki Marathon but now I have races where\nI compete against Dario Kona and that's\nobviously a lot of fun. I think I\nparticularly like crosscountry skiing\nbecause you get to know yourself so\nwell, your body, how far you can push\nyourself, what your limits are. It's so\nmultifaceted, which you possibly\nwouldn't experience if you're just\nlooking from the outside, but you\ndefinitely do when you take part and\nexperience firsthand the Enadin Ski\nIt's the morning of the race and as\nthousands of crosscountry skiers from\naround the world arrive at the start\narea in Silver Planet to get themselves\nready for the planet's second biggest\ncrosscountry ski race, heavy snowfall\nmakes for interesting conditions. As is\ncustomary, the elite field with\nprofessional skiers will lead the charge\nonto the slightly shortened new course.\nAnd even for the season pros like\nfour-time Olympic champion Dario Kona,\nthese weather conditions will be a\nchallenge. Yeah, it's definitely harsher\nthan in previous years because it's icy\nand the ground is hard.\nNow, yeah, I slowly start to get\nnervous. The atmosphere builds up and\neveryone is here. Soon it all starts.\nIt's race time and the women's proof\nfield starts the 54th Endodine Ski\nMarathon from the new start location in\nSilver\nPlanner. Shortly after, it's the turn of\nthe professional men and straight from\nthe off the elite skiers with Dario Kona\nand Roman Alder amongst them set a\nblistering pace.\nFighting for a good position in the\nearly stages is essential, but for now\nat least, the pack stays together. Soon\nafter, the first amateurs start their\nEngin Ski marathon journey. Meanwhile,\nup at the front of the women's race,\nFrance's Flora Doli is the early\npacemaker. And a few kilometers into the\nrace, she's put a bit of distance\nbetween herself and the three\nchasers. In the men's race, Dario Kona\ntakes an early lead, but Roman, a couple\nof other young Swiss skiers, and the\nrest of the pack stay in touching\ndistance. Soon after, Alder moves past\nhis idol into first\nplace. Whilst the professional skiers\nare already a few kilometers into the\nchanged course, more and more amateurs\nkeep arriving in the busy start area in\nSilver Planner. Amongst them is also\nMichael Akerman who is in awe of the big\ncrowds. There are so many people, but\nit's well organized and the people are\nreally friendly. It's\ngreat. Poppy Cross is also getting ready\nfor her first Enadina and wave after\nwave of new groups embark on their\npersonal Engins.\nIt's an impressive site as thousands of\ncrosscountry enthusiasts make their way\nonto the modified 40 km course in these\ntreacherous\nconditions. Back at the front, a group\nof three skiers, Flora Doli, Enadine\nlocal Juliana Vera and Francis Mayel V\nhave made a break in the women's field\nand are charging ahead full steam.\nThe men's race is still wide open and\nfor now the young Swiss skier Fabitio\nAlbasini manages to maintain his\nblistering speed ahead of his teammate\nNicola Viger and a group of four other\nskiers. Amongst them their compatriate\nDario Kona and three\nNorwegians. Around the 15 kilometer\nmark, the six leading men catch up with\nthe chasing group of the women's pro\nrace and move past them with\nease. At this point, Albasini and Viger\nare still leading the charge, but the\ngroup of six stays tight.\nFurther back in the field around\nSamaritz, the pace isn't quite as\nfrantic and hundreds of amateurs give it\ntheir best on their personal\nEngines. Despite the heavy snowfall, the\nsupport along the course is as strong as\never. And boyed by the cheering fans,\nthousands of skiers make their way\nthrough the Engin's picturesque winter\nwonderland.\nIt's around the 22 km mark in the race\ncoming off the golf course near Samadan\nwhere the leading six men catch up with\nthe top three women and spearhead the\nrace from this point\non. With Norway's Thomas Buer Johansson,\nthere is now a new leader at the front\nof the pack. But this lead group\ncomprised of three Norwegians and three\nSwiss skiers stays tight. In the women's\nFlora Doli, Juliana Vera, a male V still\nhold their\nlead. Even in these challenging\nconditions, the trio have found a steady\nrhythm, pushing hard on some of the\nstrenuous hills. 21-year-old male ver\ntakes control of the race. The French\nwoman alongside Switzerland's Juliana\nVero now leave the early leader Flora\nDoli\nbehind. As 24year-old Doli struggles to\nkeep up, the French Swiss duo of Ver and\nVero are now in control of the race.\nBack in theata vault, spirits are high\nwith skiers from around the world\ndespite battling the tough\nconditions. Cheered on by the crowds,\nthe camaraderie amongst them couldn't be\nbetter. And for all of them, this will\nbe an unforgettable experience that will\nlive long in their memories.\nUp at the front, the lead has changed\nagain and Norway's Magna Hager is now\nheading up the group of six, followed by\nhis countrymen Feld Philip Anderson and\nThomas Johansson Bouah. Also still in\nthe mix, Switzerland's cross-country\nlegend Dario Kona and the two youngsters\nFabitio Albasini and Nicola Viger who\nhave left their teammate Roman Alda\ntrailing in their wake. Suddenly Magna\nHara picks up the pace and moves away\nfrom the five skiers behind\nhim. Has he landed a decisive blow just\nkilometers from the finish line? Hager\nkeeps up his strong stride as he enters\nthe finish area in Sump. His compatriate\nThomas Johansen Bua tries everything to\nclose the\ngap, but it's not enough. And the\n29-year-old Magna Haga wins his first\never Engin Ski Marathon ahead of Thomas\nJohansen Bua in second place. Shel\nPhillip Anderson completes the Norwegian\npodium and snatches away third place\nfrom Dario Colonia in the final meters.\nI felt like it went from 100 to six\npeople in just a moment. So that was\nkind of good for\nus is a special race. So, it's really\nfun to have that victory.\nAfter a challenging race, Roman also\nreaches the finish line 9 minutes after\nthe winner in 26th\nplace. In the women's race, France's\nmale ver has managed to put a bit of\ndistance between herself and Juliana\nVero and Italy's Federica Sanfilippo.\nThe 21-year-old is fighting hard to keep\ncontrol. And after a long and tiring\nbattle, she manages to maintain her lead\nall the way to the finish area where she\ncelebrates her first ever Enadinsky\nMarathon victory.\nLast year's winner, Juliana Vero of\nSwitzerland can't quite repeat her 2023\nresult, but she crosses the finish line\nin second place to celebrate her second\nconsecutive Enadina\npodium. Federica Sanfilippo takes third,\nbut the star of the day is my Elv. I'm\nso happy that I've won this race. I\nreally wasn't expecting too much as\nthere is a big group of girls, some of\nthem big names. So yeah, it's lovely\nthat it's worked out.\nAs the winners celebrate their Engin Ski\nmarathon victories, more and more\namateur crosscountry skiers reach the\nfinish line in Esamp. After more than 4\nhours on the 40 km course, a relieved\nMichael Akerman also manages to finish\nhis first ever Enadina. Well, I have to\nsay it was hard. The wind, the snow, all\nof it. I'm really proud.\nThroughout the afternoon, skier after\nskier crosses the finish line, and every\nsingle one of them celebrates their own\npersonal victory, that of completing the\n54th Engin Ski Marathon.",
+          "curated": true,
+          "curation_reason": "Comprehensive documentary showing both the main marathon and women's race with detailed coverage of course, atmosphere, and elite competitors including Therese Johaug.",
+          "display_order": 1
+        },
+        {
+          "video_id": "wC58ffq0p04",
+          "title": "Antoine Rose  - Engadin ski marathon, Saint-Moritz (Switzerland)",
+          "channel": "Antoine Rose",
+          "view_count": 232,
+          "upload_date": "20181023",
+          "duration_string": "1:54",
+          "description": "The Engadin Skimarathon is an annual cross-country ski race  held on the second Sunday of March in the upper Engadine valley (Switzerland). It is one of the major cross-country skiing events in the Alps. Between 11,000 and 13,000 skiers participate each year. The total distance covered is 42 km. \n\nAntoine Rose started to shoot the event for the first time in 2014.",
+          "tags": [
+            "Photography",
+            "contemporary photography",
+            "art",
+            "artwork",
+            "shooting",
+            "behind the scene",
+            "aerial photography",
+            "helicopter",
+            "photographer",
+            "phase one",
+            "saint-moritz",
+            "Engadin",
+            "Marathon",
+            "Ski",
+            "Snow",
+            "Switzerland"
+          ],
+          "url": "https://www.youtube.com/watch?v=wC58ffq0p04",
+          "curated": false
+        },
+        {
+          "video_id": "1HAkdw5xAfw",
+          "title": "Norway’s Einar Hedegart Wins 56th Engadin Ski Marathon in Switzerland",
+          "channel": "OceanNewsUK",
+          "view_count": 11,
+          "upload_date": "20260309",
+          "duration_string": "1:13",
+          "description": "In Switzerland’s Upper Engadin valley thousands of athletes gathered for the 56th Engadin Ski marathon one of the world’s premier cross‑country ski races. Spanning 42 kilometers across snowy alpine terrain the event draws both elite competitors and amateur enthusiasts from around the globe.\n\nIn a thrilling finish Norway’s Einar Hedegart claimed victory edging out a strong international field in a dramatic sprint. His performance highlighted not only endurance and skill but also the strategic pacing required to conquer the demanding course.\n\nThe marathon is more than a race it’s a celebration of winter sport and alpine culture. Skiers navigate classic and freestyle courses braving unpredictable weather and snowy conditions while supporters line the route cheering competitors on.\n\nOrganizers emphasize both athletic achievement and environmental stewardship ensuring the event maintains its tradition while protecting the stunning Swiss landscape. For participants crossing the finish line represents not just victory but resilience preparation and the spirit of global camaraderie that defines the Engadin Ski marathon.\n\n#EngadinSkiMarathon #CrossCountrySkiing #WinterSports #Norway #Switzerland\n\n#OceanNewsUK #UK #Ocean #breaking #latest #London\n\nMore On: http://oceannewsuk.com\n\n📺Satellite - Asiasat7: Frequency 3880 H, Symbol Rate: 29720",
+          "tags": [
+            "OceanNewsUK",
+            "Viral",
+            "PublicComments",
+            "Life",
+            "2025",
+            "breaking news",
+            "insightful",
+            "analysis",
+            "stories"
+          ],
+          "url": "https://www.youtube.com/watch?v=1HAkdw5xAfw",
+          "transcript": "This is Simon Tilly live from the London\nstudio. In Switzerland's upper Endodine\nValley, thousands of athletes gathered\nfor the 56 Endodine Skiarathon, one of\nthe world's premier crosscountry ski\nraces spanning 42 kilometers across\nsnowy alpine terrain. The event draws\nboth elite competitors and amateur\nenthusiasts from around the globe. In a\nthrilling finish, Norway's Anar Hedgart\nclaimed victory, edging out a strong\ninternational field in a dramatic\nsprint. His performance highlighted not\nonly endurance and skill, but also the\nstrategic pacing required to conquer the\ndemanding course. The marathon is more\nthan a race. It's a celebration of\nwinter sport and alpine culture. Skiers\nnavigate classic and freestyle courses,\nbraving unpredictable weather and snowy\nconditions, while supporters line the\nroute, cheering competitors on.\nOrganizers emphasize both athletic\nachievements and environmental\nstewardship, ensuring the event\nmaintains its tradition while protecting\nthe stunning Swiss landscape. For\nparticipants, crossing the finish line\nrepresents not just victory, but\nresilience, preparation, and the spirit\nof global camaraderie that defines the\nAngaden Skimmeron. Stay tuned for more\nupdates on this story. Keep watching\nOcean News.",
+          "curated": false
+        },
+        {
+          "video_id": "ZKtrX1ju72s",
+          "title": "Engadin Skimarathon 2023 - Trailer Deutsch",
+          "channel": "Engadin Skimarathon",
+          "view_count": 1089,
+          "upload_date": "20220826",
+          "duration_string": "33",
+          "description": "Melde dich jetzt für den Engadin Skimarathon vom 12. März 2023 an. Nimm teil an der grössten Breitensportveranstaltung der Schweiz und dem zweitgrössten Langlaufevent weltweit.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ZKtrX1ju72s",
+          "curated": false
+        },
+        {
+          "video_id": "nrUeRmKwGfU",
+          "title": "Langlauf: Engadiner Skimarathon 2022 - (Letztes Rennen von Dario Cologna)",
+          "channel": "Saison Sport",
+          "view_count": 13157,
+          "upload_date": "20220313",
+          "duration_string": "3:00:50",
+          "description": "[DONATE]: https://streamlabs.com/saisonsport",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=nrUeRmKwGfU",
+          "curated": false
+        },
+        {
+          "video_id": "tnOiyqrjqTs",
+          "title": "Engadin Skimarathon 2016 - Maloja to S-chanf in 14 minutes !",
+          "channel": "wogahoma",
+          "view_count": 3607,
+          "upload_date": "20160316",
+          "duration_string": "13:58",
+          "description": "inclusive crashes, highlights & more...\nrecorded by TomTom Bandit\n\n\nMusic by \nAmy Macdonald - Pride (Acoustic)\nBruce Springsteen - Working on a Highway (Live)\nSing Along - Blue Man Group\nTritsch - tratsch Polka - G.Verdi Orchestra\nCan't Hold Us (feat. Ray Dalton) - Macklemore & Ryan Lewis\n\nMusic copyrights belong to artists!",
+          "tags": [
+            "Engadiner",
+            "Engadin",
+            "Skimarathon",
+            "Volkslauf",
+            "Cross Country",
+            "Langlauf",
+            "Schweiz",
+            "Skating",
+            "Klassisch",
+            "St. Moritz",
+            "Maloja",
+            "Zuoz",
+            "Pontresina",
+            "S-chanf",
+            "Oberengadin",
+            "2016"
+          ],
+          "url": "https://www.youtube.com/watch?v=tnOiyqrjqTs",
+          "curated": false
+        },
+        {
+          "video_id": "AtByduUMp38",
+          "title": "Engadin Frauenlauf 2023 - Trailer",
+          "channel": "Engadin Skimarathon",
+          "view_count": 576,
+          "upload_date": "20230106",
+          "duration_string": "35",
+          "description": "💥YES, in knapp 1 Monat ist es soweit! Über 1'000 💃 Ladies rocken das Engadin am Engadin Frauenlauf. www.engadin-skimarathon.ch \n\n#vorfreude #Frauenlauf  #EngadinFrauenlauf #Engadiner #Womensrun #Womensonly #Engadin #Womensrace",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=AtByduUMp38",
+          "curated": false
+        },
+        {
+          "video_id": "1AWn8IwmHQU",
+          "title": "Engadin Frauenlauf 2026: Aftermovie 16x9",
+          "channel": "Engadin Skimarathon",
+          "view_count": 328,
+          "upload_date": "20260303",
+          "duration_string": "2:02",
+          "description": "Das war die Jubiläumsaustragung des 25. Engadin Frauenlauf 2026.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=1AWn8IwmHQU",
+          "curated": false
+        },
+        {
+          "video_id": "Phvo-wUo6Q8",
+          "title": "24. Engadin Frauenlauf 2025",
+          "channel": "Engadin Skimarathon",
+          "view_count": 798,
+          "upload_date": "20250305",
+          "duration_string": "1:48",
+          "description": "Ein Blick zurück auf den 24. Engadin Frauenlauf vom Sonntag, 2. März 2025.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Phvo-wUo6Q8",
+          "curated": false
+        },
+        {
+          "video_id": "Vs_yG3yaNdI",
+          "title": "55. Engadin Skimarathon: Rückblick auf die Marathon-Woche",
+          "channel": "Engadin Skimarathon",
+          "view_count": 1066,
+          "upload_date": "20250318",
+          "duration_string": "3:15",
+          "description": "Der Engadin Skimarathon ist die grösste Breitensportveranstaltung der Schweiz und der zweitgrösste Langlaufevent weltweit. Seit 1969 laufen Tausende Teilnehmende am zweiten Sonntag im März die Marathonstrecke von Maloja bis S-chanf. Auf dem Programm der Marathonwoche stehen zudem der Engadin Halbmarathon, der Engadin Frauenlauf und der Engadin Nachtlauf.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Vs_yG3yaNdI",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "The first race of the Engadin Ski Marathon Week is the women's race where the field will tackle a 17 km scenic course. There are only women doing this race and I think it's going to be a really cool atmosphere.",
+          "source_video_id": "g_emgYvDojI",
+          "source_channel": "Engadin Skimarathon",
+          "source_view_count": 2528,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "What makes our valley stand out are the lakes and the topography of the course, which isn't too hard and enables cross-country skiers who aren't so well trained to race here. At the same time though, you're on the start line with Olympic and world champions.",
+          "source_video_id": "g_emgYvDojI",
+          "source_channel": "Engadin Skimarathon",
+          "source_view_count": 2528,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

@@ -6,7 +6,9 @@
     "tagline": "One hundred and ninety kilometers across the fells of Finnish Lapland in three days — the longest multi-stage ski race in the Nordic world.",
     "vitals": {
       "distance_km": 190,
-      "distance_options": ["190km (3 stages)"],
+      "distance_options": [
+        "190km (3 stages)"
+      ],
       "elevation_m": 1800,
       "altitude_m": 400,
       "location": "Hetta to Muonio",
@@ -16,16 +18,18 @@
       "region": "Lapland",
       "date": "Early April",
       "date_specific": null,
-      "discipline": "both",
-      "field_size": "~500 starters",
+      "discipline": "skate",
+      "field_size": 500,
       "founded": 1978,
       "registration": "Online registration; opens autumn prior",
       "prize_purse": null,
       "aid_stations": "Multiple stations per stage with warm drinks and traditional Finnish fare",
       "cutoff_time": "Stage-specific cutoff times",
-      "website": "https://www.lapponia-hiihto.fi",
+      "website": "https://www.lapponiahiihto.fi",
       "lat": 67.9553,
-      "lng": 23.6348
+      "lng": 23.6348,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 1800
     },
     "climate": {
       "primary": "Sub-Arctic Finnish Lapland",
@@ -55,7 +59,7 @@
       ]
     },
     "nordic_lab_rating": {
-      "overall_score": 71,
+      "overall_score": 70,
       "tier": 2,
       "tier_label": "TIER 2",
       "discipline": "both",
@@ -87,10 +91,195 @@
         "The fell landscape is designated as a UNESCO biosphere reserve area"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Lapponia Hiihto cross country ski race Hetta to Muonio",
+      "videos": [
+        {
+          "video_id": "7JBtujw06KA",
+          "title": "Pallas Yllästunturin Kansallispuisto-Tunturi lappi on nyt parhaimmillaan",
+          "channel": "kalliopoika",
+          "view_count": 436,
+          "upload_date": "20180216",
+          "duration_string": "14:01",
+          "description": "Pallas Yllästunturin Kansallispuisto-Tunturi lappi on nyt parhaimmillaan 20.3.2014 Muonio Jerisjärvi ja Torassieppi ja Mäntyrova.\nMusic: \"Space Bouzouki\" \nby Doxent Zsigmond\n2013 - Licensed under\nCreative Commons\nAttribution (3.0) http://ccmixter.org/files/doxent/42265\nAttribution 3.0 Unported (CC BY 3.0) https://creativecommons.org/licenses/by/3.0/\n\"Painting in the Sky\" \nby Doxent Zsigmond\n2014 - Licensed under\nCreative Commons\nAttribution (3.0) http://ccmixter.org/files/doxent/45117\nAttribution 3.0 Unported (CC BY 3.0)",
+          "tags": [
+            "Pallas Yllästunturin Kansallispuisto",
+            "Tunturi-Lappi",
+            "lappland",
+            "Hiihtovaellus",
+            "Päiväretki",
+            "Muonio",
+            "Jerisjärvi",
+            "Mäntyrova",
+            "lappi"
+          ],
+          "url": "https://www.youtube.com/watch?v=7JBtujw06KA",
+          "curated": false
+        },
+        {
+          "video_id": "1_VeDsMdJNs",
+          "title": "Iivo Niskasen harjoitteluohjeet Ylläs-Levi hiihtoon 2018",
+          "channel": "Lasse Hurmalainen",
+          "view_count": 611,
+          "upload_date": "20210525",
+          "duration_string": "3:56",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=1_VeDsMdJNs",
+          "curated": false
+        },
+        {
+          "video_id": "J-eKCTlDmeU",
+          "title": "Enontekiön Hettan hiihtomaisemia",
+          "channel": "Jarnoh20",
+          "view_count": 543,
+          "upload_date": "20120402",
+          "duration_string": "2:59",
+          "description": "",
+          "tags": [
+            "pyhäkero",
+            "hetta",
+            "hiihtoladut",
+            "holiday",
+            "lapland",
+            "lappi",
+            "enontekiö",
+            "lapponia",
+            "ski",
+            "skis",
+            "skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=J-eKCTlDmeU",
+          "curated": false
+        },
+        {
+          "video_id": "VE7BjXkfDYQ",
+          "title": "Tervetuloa Tervahiihtoon 3.3. sekä Ylläs-Levi hiihtoon 14.4.2018!",
+          "channel": "Tervahiihto",
+          "view_count": 332,
+          "upload_date": "20180214",
+          "duration_string": "2:14",
+          "description": "Videolla Tervatar Maija Oravamäki esittelee Tervahiihtoa 2018. Videon tuotti Lasse Hurmalainen.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=VE7BjXkfDYQ",
+          "curated": false
+        },
+        {
+          "video_id": "6gGXQxLQdaA",
+          "title": "Finlandia-hiihto - 22nd February 2025",
+          "channel": "Vesa Lampinen",
+          "view_count": 6399,
+          "upload_date": "20250222",
+          "duration_string": "23:55",
+          "description": "As always, the first race day of the weekend was skied with a classic style. The longest route was 62 km (38.5 miles) long. All starting groups and some moments from finish line are shown in this video.",
+          "tags": [
+            "Finlandia-hiihto",
+            "skiing",
+            "Lahden stadion",
+            "Lahti Sports Centre",
+            "Lahti",
+            "classic style",
+            "2025",
+            "Lahti ski marathon",
+            "Lahden urheilukeskus",
+            "cross-country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=6gGXQxLQdaA",
+          "curated": false
+        },
+        {
+          "video_id": "fG8ERTomVqA",
+          "title": "Muonio TV,  Lapponia Ski Week with Okko Kinnunen",
+          "channel": "Muonio TV",
+          "view_count": 149,
+          "upload_date": "20220506",
+          "duration_string": "6:29",
+          "description": "This is the second interview with my former winter work college who took part in this year's Lapponia ski week.\n\nWe hope you enjoy this video, please leave any comments and suggestions. Questions can be send to muoniotv@gmail.com\n\nwww.muoniotv.com\n\nSee you soon for the next video.",
+          "tags": [
+            "#lapponiahiihto",
+            "#lapponiahiihto2022",
+            "#laplandhotels_olos",
+            "#hiihto",
+            "#muoniotv",
+            "#lappia",
+            "#lappiamuonio",
+            "#lapland",
+            "#visitlapland",
+            "#visitfinland",
+            "#purestairintheworld",
+            "#ourfinland",
+            "#discovermuonio",
+            "#arcticcircle",
+            "#fells",
+            "#finlandnature",
+            "#finland",
+            "#muonio",
+            "#onnellisialuonnostaan",
+            "#happybynature",
+            "#vismaskiclassics",
+            "#squeezysportsnutrition"
+          ],
+          "url": "https://www.youtube.com/watch?v=fG8ERTomVqA",
+          "transcript": "hi there my name is william creator of\nmono tv\nthis is the second interview with a\nformer winter work colleague of mine\nthat took part in this year's lapolia\nski week\ni hope you enjoyed the video please like\nshare subscribe and of course leave us a\ncomment\nand why not join me again for another\nstory about life above the arctic circle\nokay my name is\ni'm 25 years old guy from finland\nah well\nactually it's\ni started when i was like a\nyoung kid\nprobably uh four years old and then i\ngot my\nolder sister's keys\nmy parents are always being an\ninteresting\nuh cross-country skiing and\nwhen i\nmoved to old and started to study in\nuniversity i bought i bought my own skis\nand pretty good ones and then i noticed\nit again that oh this is super nice\nsports and\nyeah\nequipment plays a huge role and when i\nhave good equipment then i like like it\ni like that there's a lot of skiers in\nthe same track\nand uh at the same time it's really\nlike it's safety to\ntry\nto reach our limit actually i just want\nto finish yeah that's not my first goal\nlet's say win myself\nin this competition\nyeah great first day\nsun is signing\nof course a little bit nervous uh my\nheart rate is at about like 140\nso it's quite much but uh yeah it's\nnormal a little bit nervous are exciting\nand uh yeah\n10 minutes to start\nit was a fantastic week the monday was\nactually\nalmost the worst day of me because my\nskis\ndidn't work as well and uh i ski with\nhey i kind of follow hey all the all the\ntime but i was so tired but uh yeah i\nsurvived and the wetness day track\nthe weather was so bad 20 centimeters no\non the track you have to go you have to\njust go and there is no obstacles the\nthe focus when you when you wear like\nthe number on your chest and then you\njust go you are focused and the only\ngoal is to get finished in line but uh\nyeah i i i'm really happy about the\nwednesday races because i'm tiny and i\ncan't go well in that uh those\nconditions the last day\nfantastic car rahul gone and\n80 kilometers yeah my plans the first 40\nkilometers just calm down go slowly\nafter the\nhanukuru\nwe have like group of\nthree guys and one lady my plan was that\nthat when i\nreach to palace hotel i will push harder\ngo faster and\ni will try to push my limits and reach\nour limits we came to palace and then i\njust go harder and i\ni left\nthe three other three guys and one lady\nbehind me but yeah when i\ncame to get a cp like get a cp\nall right what's what's behind my back\nlike oh no the day three guys are are\nthere then i realized that uh oh well\ni just had to follow them and i tried to\npass them in last downhill\ni remember why i was thinking that oh\nman i can't lose that that one one lady\nwho was with me i just followed that\nlady and i was so tired\nso tired in the last uphills then\nfinally i didn't pass that lady\nand uh also\nthat one guy\nwon me so that was the awesome race\ni got the branch middle middle of our\ngroup competition\ni remember so good that feeling when i\nwas finishing and i'll go over that\nfinishing line i just fell down and like\nah\ni'm so tired and i was so\nproud of myself and that feeling is\nso good i i will never forgot that\nfeeling\nalso that atmosphere in la ponia skivy\nit was it was super nice\nyeah i i really want to recommend lap\npony skating if you if you have a change\nchance to participate la poneski week\njust\njust do that that is a fantastic\nevent and uh yeah there are also half\ntracks like\nyou you don't have to go all the long\ndistance just slow down and uh yeah just\nlearn a little bit techniques\nand uh especially\nuphill techniques the goal have to have\nto be\nlike your standards\nyou just want to beat yourself\nlast little bit step by step\nand yeah training training training but\nit has to be fun at the same time\nperfect\nit's done\nat the same time feeling absolutely\nhorrible\nlike i mean physically but\nyeah i love this feeling\ni love this feeling this is absolutely\ni left all i left all\nwhat i have\ntoday\n80 kilometers sana\nare really proud of me\nfirst time in labor ever\nand next year i will i will i'm 100 sure\nand i will come again\nit'd be fantastic\n[Music]\nyou",
+          "curated": true,
+          "curation_reason": "First-person interview recap of participating in Lapponia Ski Week with detailed race experiences and conditions.",
+          "display_order": 1
+        },
+        {
+          "video_id": "fa1GifiC0gg",
+          "title": "42. Lapponia-hiihto, 8.4.2019",
+          "channel": "T:mi Kokkens - Live",
+          "view_count": 1320,
+          "upload_date": "20190408",
+          "duration_string": "5:17:54",
+          "description": "42. Lapponia-hiihto, 8.4.2019",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=fa1GifiC0gg",
+          "curated": false
+        },
+        {
+          "video_id": "Rq66bC-mZUY",
+          "title": "Best Moments of Lapponia Ski Week 2023",
+          "channel": "SC - The Ski Community",
+          "view_count": 1341,
+          "upload_date": "20230418",
+          "duration_string": "2:53",
+          "description": "The Ski Classics Challengers event Lapponia Ski Week took place last week with a three-day stage race in freestyle technique in Finland. \n\nNow you can enjoy the event highlights!\n\nVideo Credits: Anssi Mäkinen, www.anselmus.net",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Rq66bC-mZUY",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "The weather was so bad 20 centimeters snow on the track you have to go you have to just go and there is no obstacles the focus when you when you wear like the number on your chest and then you just go you are focused and the only goal is to get finished in line.",
+          "source_video_id": "fG8ERTomVqA",
+          "source_channel": "Muonio TV",
+          "source_view_count": 149,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "My plan was that when I reach to palace hotel I will push harder go faster and I will try to push my limits and reach our limits we came to palace and then I just go harder and I left the three other three guys and one lady behind me.",
+          "source_video_id": "fG8ERTomVqA",
+          "source_channel": "Muonio TV",
+          "source_view_count": 149,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "I remember so good that feeling when I was finishing and I'll go over that finishing line I just fell down.",
+          "source_video_id": "fG8ERTomVqA",
+          "source_channel": "Muonio TV",
+          "source_view_count": 149,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

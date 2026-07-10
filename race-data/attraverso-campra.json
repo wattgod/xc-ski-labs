@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Attraverso Campra",
+    "slug": "attraverso-campra",
+    "display_name": "Attraverso Campra",
+    "tagline": "The Italian-speaking Swiss entry in the Swiss Loppet — a compact freestyle marathon through Ticino's Campra valley.",
+    "vitals": {
+      "distance_km": 21,
+      "distance_options": [
+        "21km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 1200,
+      "location": "Campra, Ticino",
+      "location_badge": "Ticino, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Ticino",
+      "date": "First Sunday of March",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.swissloppet.ch",
+      "lat": 46.52,
+      "lng": 8.81,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Alpine valley",
+      "description": "Campra valley at 1,200m altitude provides decent snow conditions for Ticino. Temperatures typically -3°C to 5°C in March.",
+      "typical_temp_c": "-3 to 5",
+      "challenges": [
+        "Southern exposure can melt snow quickly",
+        "Limited altitude for reliable conditions",
+        "Spring conditions in March"
+      ]
+    },
+    "course": {
+      "primary": "Compact loop course through the Campra valley in Ticino, Switzerland's Italian-speaking canton.",
+      "format": "loop",
+      "surface": "Machine-groomed skating trails",
+      "technical_rating": 2,
+      "grooming": "Good Swiss Loppet standard grooming",
+      "features": [
+        "Only Swiss Loppet race in Italian-speaking Switzerland",
+        "Alpine valley setting",
+        "Compact course suitable for all abilities"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 41,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Unique as the only Italian-speaking Swiss Loppet race, but small and compact.",
+      "tier_note": "Score 41 places in TIER 4"
+    },
+    "history": {
+      "summary": "Attraverso Campra is part of the Swiss Loppet series, uniquely representing Switzerland's Italian-speaking Ticino canton. The Campra valley is Ticino's premier Nordic skiing venue.",
+      "notable_facts": [
+        "The only Swiss Loppet race in Italian-speaking Switzerland",
+        "Campra is Ticino's main Nordic skiing center",
+        "Part of the Swiss Loppet series"
+      ]
+    },
+    "series_membership": [
+      "swiss_loppet"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

@@ -6,7 +6,10 @@
     "tagline": "Sixty-seven kilometers from Aurdal to Beitostølen through the Valdres valley — a classic marathon beneath the Jotunheimen giants where Norway's mountain heart beats loudest.",
     "vitals": {
       "distance_km": 67,
-      "distance_options": ["67km", "34km"],
+      "distance_options": [
+        "67km",
+        "34km"
+      ],
       "elevation_m": 850,
       "altitude_m": 950,
       "location": "Aurdal to Beitostølen",
@@ -17,15 +20,17 @@
       "date": "March",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~800",
+      "field_size": 800,
       "founded": null,
       "registration": "Open registration",
       "prize_purse": null,
       "aid_stations": "Multiple feed stations with warm drinks and energy food",
       "cutoff_time": null,
       "website": null,
-      "lat": 61.0500,
-      "lng": 9.1500
+      "lat": 61.05,
+      "lng": 9.15,
+      "field_size_estimate": 800,
+      "elevation_gain_m": 850
     },
     "climate": {
       "primary": "Mountain valley winter",
@@ -84,10 +89,60 @@
         "Net uphill course from valley floor toward mountain plateau"
       ]
     },
-    "series_membership": ["langlopscupen_innlandet"],
+    "series_membership": [
+      "langlopscupen_innlandet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Valdres Skimaraton cross country ski race Aurdal to Beitostølen",
+      "videos": [
+        {
+          "video_id": "Ad85h7LEa4g",
+          "title": "Høydepunktene fra Trysil Skimaraton 2020",
+          "channel": "Trysil",
+          "view_count": 754,
+          "upload_date": "20200217",
+          "duration_string": "2:27",
+          "description": "Sol, mange deltakere, gode skiforhold og løyperekord. Se høydepunktene fra årets Trysil Skimaraton som gikk av stabelen på lørdag!\n\nFilm: Einar Røyne, Jonas Sjögren og Sigve Myhre",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Ad85h7LEa4g",
+          "curated": false
+        },
+        {
+          "video_id": "xrOW1_0KZoM",
+          "title": "Valdres Skimaraton 2023 - Årets tøffeste skirenn",
+          "channel": "Torbjørn Husevåg",
+          "view_count": 1615,
+          "upload_date": "20230326",
+          "duration_string": "4:57",
+          "description": "Film fra årets tøffeste skirenn: Valdres Skimaraton. \n\n67 km klassisk, fra Beitostølen til Danebu. \n\nVæret i år var noe friskere enn normalt, men flott tur likevel. \n\nMusikk lisensiert fra: \n- MusicBed\n- Epidemic Sound",
+          "tags": [
+            "langrenn",
+            "valdres",
+            "skimaraton",
+            "norway",
+            "norge",
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=xrOW1_0KZoM",
+          "curated": true,
+          "curation_reason": "Recent skier POV content specifically about Valdres Skimaraton with personal race experience and conditions commentary.",
+          "display_order": 1
+        },
+        {
+          "video_id": "whtfQnWQeUM",
+          "title": "Valdres Skimaraton 2022",
+          "channel": "Langsveien. no",
+          "view_count": 288,
+          "upload_date": "20220326",
+          "duration_string": "1:06",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=whtfQnWQeUM",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

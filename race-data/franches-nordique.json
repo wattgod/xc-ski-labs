@@ -1,0 +1,94 @@
+{
+  "race": {
+    "name": "Franches Nordique",
+    "slug": "franches-nordique",
+    "display_name": "Franches Nordique",
+    "tagline": "Freestyle skiing through the rolling Jura pastures of Franches-Montagnes — a Swiss Loppet race in the heart of the Jura plateau.",
+    "vitals": {
+      "distance_km": 25,
+      "distance_options": [
+        "25km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 1000,
+      "location": "Franches-Montagnes, Jura",
+      "location_badge": "Jura, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Jura",
+      "date": "Third Sunday of February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.swissloppet.ch",
+      "lat": 47.23,
+      "lng": 6.95,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Jura plateau winter",
+      "description": "The Jura plateau at ~1,000m receives moderate snowfall. Temperatures typically -5°C to 2°C. Wind exposure on open pastures.",
+      "typical_temp_c": "-5 to 2",
+      "challenges": [
+        "Snow reliability moderate at Jura altitude",
+        "Wind exposure on open pastures",
+        "Variable conditions year to year"
+      ]
+    },
+    "course": {
+      "primary": "Rolling course through the Franches-Montagnes Jura plateau pastures and forest. Gentle terrain typical of Jura cross-country skiing.",
+      "format": "loop",
+      "surface": "Machine-groomed skating trails",
+      "technical_rating": 2,
+      "grooming": "Good Swiss Loppet standard grooming",
+      "features": [
+        "Scenic Jura plateau pastures",
+        "Part of the Swiss Loppet series",
+        "Traditional Jura farming landscape"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 41,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "A small Swiss Loppet race with pleasant Jura scenery but limited reach and snow reliability.",
+      "tier_note": "Score 41 places in TIER 4"
+    },
+    "history": {
+      "summary": "Franches Nordique is a Swiss Loppet series race through the Franches-Montagnes region of the Jura. The area is famous for horse breeding and its rolling plateau landscape.",
+      "notable_facts": [
+        "Set in the Franches-Montagnes, known for horse breeding",
+        "Part of the Swiss Loppet series",
+        "Jura region has a long Nordic skiing tradition"
+      ]
+    },
+    "series_membership": [
+      "swiss_loppet"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

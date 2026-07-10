@@ -6,7 +6,9 @@
     "tagline": "Thirty kilometers of sisterhood through the Dalarna wilderness — the world's largest women-only ski race, where 8,000 skiers share the same frozen trail that legends built.",
     "vitals": {
       "distance_km": 30,
-      "distance_options": ["30km"],
+      "distance_options": [
+        "30km"
+      ],
       "elevation_m": 200,
       "altitude_m": 400,
       "location": "Oxberg to Mora",
@@ -17,7 +19,7 @@
       "date": "Last Saturday in February",
       "date_specific": "2026: February 28",
       "discipline": "classic",
-      "field_size": "~7,850 starters",
+      "field_size": 7850,
       "founded": 1988,
       "registration": "Opens in autumn; sells out quickly",
       "prize_purse": null,
@@ -25,7 +27,9 @@
       "cutoff_time": null,
       "website": "https://www.vasaloppet.se/en/races/tjejvasan/",
       "lat": 61.0067,
-      "lng": 14.5356
+      "lng": 14.5356,
+      "field_size_estimate": 7850,
+      "elevation_gain_m": 200
     },
     "climate": {
       "primary": "Continental Scandinavian winter",
@@ -85,10 +89,233 @@
         "Nearly 8,000 women participate annually"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-11",
+      "search_query": "Tjejvasan cross country ski race Oxberg to Mora",
+      "videos": [
+        {
+          "video_id": "CaeOsqy5AA0",
+          "title": "Live»Stream ↬ Cross-country skiing - Tjejvasan 2023 | Sweden, ((LIVE!))",
+          "channel": "Dethomas LI",
+          "view_count": 11,
+          "upload_date": "20230225",
+          "duration_string": "1:08",
+          "description": "Live Streaming 🔴ᐉ Cross-country skiing - Tjejvasan 2023 | Sweden at Oxberg-Mora, Sweden : Saturday 25 February 2023\n\nᐉ ᐉ Click Link In The Description Or Pin Comment To Watch Full Streaming\n\nGo Live Now ▶️▶️ https://www.youtube.com/redirect?q=https://tinyurl.com/5x6538bw\n\nCross-country skiing - Tjejvasan 2023 | Sweden Live Sports 2023\nCross-country skiing - Tjejvasan 2023 | Sweden Location : Oxberg-Mora, Sweden\nCross-country skiing - Tjejvasan 2023 | Sweden Date : Saturday 25 February 2023\n\nATTENTION : for easy registration,please register now to keep from network busy or access full, before the performance begins…\nDONT FORGET TO SUBSCRIBE FOR MORE INFO AND UPDATE.",
+          "tags": [
+            "sports",
+            "events",
+            "trending",
+            "highlight",
+            "games",
+            "competition",
+            "championships",
+            "tournament"
+          ],
+          "url": "https://www.youtube.com/watch?v=CaeOsqy5AA0",
+          "transcript": "foreign\n[Music]",
+          "curated": false
+        },
+        {
+          "video_id": "isn9Bvw3MKo",
+          "title": "Vasaloppet 2019 i Oxberg",
+          "channel": "Mattias Rismark",
+          "view_count": 550,
+          "upload_date": "20190708",
+          "duration_string": "40",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=isn9Bvw3MKo",
+          "curated": false
+        },
+        {
+          "video_id": "5BJEpjTsjXQ",
+          "title": "En härlig Tjejvasedag!",
+          "channel": "vasaloppet",
+          "view_count": 3153,
+          "upload_date": "20090222",
+          "duration_string": "4:25",
+          "description": "Mångfalden är stor under Tjevvasan. Följ med på en tur!",
+          "tags": [
+            "tjejvasan",
+            "sammandrag",
+            "vasalopppet",
+            "mora",
+            "oxberg"
+          ],
+          "url": "https://www.youtube.com/watch?v=5BJEpjTsjXQ",
+          "curated": true,
+          "curation_reason": "Official race coverage showcasing the diversity and atmosphere of Tjejvasan participants.",
+          "display_order": 3
+        },
+        {
+          "video_id": "ZSoPHOXI3nE",
+          "title": "Tjejvasan 2019",
+          "channel": "Felicia Nehlin",
+          "view_count": 376,
+          "upload_date": "20190225",
+          "duration_string": "8:00",
+          "description": "VLOGGTAJJM! \nFölj med Felicia och Sandra på deras 3 mil från Oxberg till Mora under Tjejvasan :)))\n\nTräningshelg inför Tjejvasan - https://www.youtube.com/watch?v=KLs2J75SVuo&t=35s\n\nLajka o subscribea xD #teamasta80",
+          "tags": [
+            "Tjejvasan",
+            "Tjejvasan 2019",
+            "Vasaloppet",
+            "Vasaloppet 2019",
+            "Felicia Nehlin",
+            "Felicia Sjöberg Nehlin",
+            "Sport",
+            "Skidor",
+            "Längdskidor",
+            "Mora",
+            "Sälen",
+            "Vlogg",
+            "Lall"
+          ],
+          "url": "https://www.youtube.com/watch?v=ZSoPHOXI3nE",
+          "curated": true,
+          "curation_reason": "Skier vlog following participants through the 30km race from Oxberg to Mora with personal race experience.",
+          "display_order": 2
+        },
+        {
+          "video_id": "EvO3-hwpSk8",
+          "title": "TjejeVasan",
+          "channel": "Anna Trnka",
+          "view_count": 214,
+          "upload_date": "20140413",
+          "duration_string": "1:50",
+          "description": "Casey Wright, Ash Spittle and I competed in the TjejVasan at the end of Last February. it's a 30km classic races from Oxberg to Mora with 10000 female participants. I placed 65th in a time of 1:36:42, Casey placed 66th in a time of 1:37:12 and Ash placed 154th in a time of 1:45:26. This was our last hoorah at the end of a 4 month long European ski season before flying home to Australia.",
+          "tags": [
+            "Sweden (Country)",
+            "Skiing (Sport)",
+            "cross country",
+            "vasaloppet",
+            "tjejvasa",
+            "tjejvasan",
+            "ausxc",
+            "ash spittle",
+            "anna trnka",
+            "casey wright",
+            "loppet",
+            "classic",
+            "30km race"
+          ],
+          "url": "https://www.youtube.com/watch?v=EvO3-hwpSk8",
+          "curated": false
+        },
+        {
+          "video_id": "poKiKs8zV2w",
+          "title": "Vasaloppets vintervecka - På skidor i fäders spår",
+          "channel": "vasaloppet",
+          "view_count": 1616,
+          "upload_date": "20160526",
+          "duration_string": "3:59",
+          "description": "Under Vasaloppets vintervecka finns det åtta lopp att välja mellan. Det finns en utmaning för varje familjemedlem.\n\nI veckans första lopp, Kortvasan, får alla från 12 år delta. Hela familjer skidar tillsammans de 30 kilometerna från Oxberg till Mora. Tjejvasan lockar såväl elit som motionär. Det är glädje, svett och gemenskap i en härlig kombination. I Ungdomsvasan får alla mellan nio och sexton år känna på hur det känns att åka in i Vasaloppsmålet till publikens jubel.\n\nÖppet Spår är det perfekta loppet för dig som vill åka världens längsta skidlopp, men slippa tävlingsstress. Väljer du Halvvasan i år, väljer du kanske att åka 90 kilometer nästa år. I Halvvasan kan du också seeda sig till en bättre startgrupp i söndagens Vasalopp. Stafettvasan samlar företag, kompisgäng och familjer. Fem sträckor från Sälen till Mora - en upplevelse utöver det vanliga. I Barnens Vasalopp, i Sälen och Mora, skidar de allra minsta i fäders spår. Alla är vinnare och alla får medalj.\n\nStörst och sist. Veckans höjdpunkt är Vasaloppet - det äldsta, längsta och största långloppet i världen. Det är 90 kilometer naturskön upplevelse tillika ett mandomsprov, kanske en av de största utmaningar du kan ta dig an. I fäders spår för framtids segrar!",
+          "tags": [
+            "skidor",
+            "Sälen",
+            "Gustav vasa",
+            "I fäders spår",
+            "längdskidor",
+            "Cross-country Skiing (Sport)",
+            "vinterveckan",
+            "Mora",
+            "Vasaloppet",
+            "VTV2016",
+            "VV2016",
+            "vasaloppsveckan",
+            "Vasaloppets vintervecka"
+          ],
+          "url": "https://www.youtube.com/watch?v=poKiKs8zV2w",
+          "curated": false
+        },
+        {
+          "video_id": "ZRBQOozPrhE",
+          "title": "World's biggest race is in Sweden - Vasaloppet",
+          "channel": "TheSwedishLad",
+          "view_count": 1176,
+          "upload_date": "20190228",
+          "duration_string": "4:15",
+          "description": "Vasaloppet is the world's oldest long-distance ski race and also the one with the highest amount of participants. On the first Sunday in March, thousands of skiiers make the 90km (56 mile) race between the town of Sälen and Mora in the state of Dalarna. The origin comes from the Swedish rebellion who took down the Danish king and became king of Sweden in 1523. Aside from the Sunday race, there are also night races, tjejvasan for women and öppet spår (open track) during the week prior. The male and female winners gets a winning wreath from a kranskulla and a kransmas at the finish-line in Mora.\n\nMy channel is packed with Swedish tutorials and language challenges where you can learn everything from nouns and verbs to grammar and special Swedish words. I also talk about places in Sweden and where you as a tourist can visit. I have made youtube videos for over 10 years and 10 Swedish Words started with me explaining 10 Swedish words that don't exist in English. You can also find videos about Norse Mythology, my deep-talk series Good Talk and other info about Sweden and Swedish culture. \n\nBlog: http://www.theswedishlad.se\nTwitter: http://www.twitter.com/theswedishlad\nFacebook: ‪http://www.facebook.com/MartinNotSven\nSwedish channel: ‪‪https://www.youtube.com/c/martinarvebro\nInstagram: TheSwedishLad\nInstagram: TheSwedishLanguage\n\nIntro graphics by Oliver Holmgren & Erica Svejderud.\nMusic is used with permission from Epidemic Sound.\n\n#vasarace #vasaloppet\n\nCheers\n-Martin in Sweden",
+          "tags": [
+            "vasaloppet",
+            "world’s biggest ski race",
+            "världens äldsta långlopp",
+            "hur långt är vasaloppet?",
+            "gustav vasa",
+            "berga by",
+            "vasaloppet öppet spår",
+            "tjejvasan",
+            "nattvasan",
+            "sweden",
+            "skiing",
+            "theswedishlad",
+            "blueberry soup",
+            "sälen",
+            "mora",
+            "dalarna",
+            "vasaloppets historia",
+            "Vaasahiihto",
+            "Васалоппет",
+            "smågan",
+            "evertsberg",
+            "oxberg",
+            "hökberg",
+            "bergspriset",
+            "kranskulla",
+            "kransmas",
+            "jörgen brink",
+            "anders aukland",
+            "nils mora-nisse karlsson",
+            "stanislav rezac",
+            "blåbärssoppa",
+            "eldris"
+          ],
+          "url": "https://www.youtube.com/watch?v=ZRBQOozPrhE",
+          "transcript": "let's talk about why sweets either get\nup really early on the first Sunday of\nMarch bundle themselves into the couch\nand drink blueberry soup or go on a 12\nhour adventure on skis yes what we're\ntalking about here is Vasa not but the\nVasa race which is a long-distance ski\nrace in Sweden on the first Sunday in\nMarch it was introduced in 1922 and it\nis a 90 kilometers or 56 miles if you\nmay race between the town of Salem and\nthe town of Mullah in the state of da\nLama in Sweden it is the oldest\nlong-distance race in the world and also\nthe one with the highest amount of\nparticipants the origin lies with Gustav\nEriksson Vasa who tried to convince the\npeople of Mullah to start a rebellion\nagainst a king who was the Danish King\nKing on the second or as he was called\nin Sweden take from the tyrant the\nreason was that Christian had invited\nthe aristocracy of Stockholm into a big\nfeast which ended up with the Stockholm\nbloodbath he killed them all but the men\nof Mullah were not convinced of Gustav's\nplans but they later changed their mind\nbecause rumor has it - was going to\nraise their taxes they then sent out\ntheir two best skiers to catch up with\nGustav and they did so in the Salem the\nrace however goes in the opposite\ndirection from sin and taniwha\nthe race passes many classic places on\nthe way such as snow gum\nAvis Bay bucks pay and hurt Bay at the\nstation the participants gets to drink\nblueberry soup which has become\nsynonymous with the race and me and my\nwife we are those kinds of people who\nbundle up in the couch in the early\nmorning and we watch the race covered in\nblankets and we drink blueberry soup and\nwe are not alone this is a thing that a\nlot of people watch but these stations\nalso have another function they have the\nRope the rope is something that's drawn\nacross the tracks when it's realized\nthat the participants will not be able\nto make it to mooa\nby 8:15 at night so if you get the rope\ndrawn in front of you you have to\nterminate the race the record time for\nthe race so far was set in 2012 three\nhours 38 minutes and 41 seconds at the\nfinish line in mule on the landmark sign\nsays if a dose broke forth on teas sake\nin our fathers tracks for future\nvictories and at the finish line two\nimportant people await the female and\nthe male winners for the male winner a\ncub Scala awaits to hang a victory\nlaurel breath on top of him and for the\nfemale winner a cosmos awaits a good lot\nis a dialectal world for girl and in\nmoss is a dialectal word for boy in\nDonovan in this place in the week\nleading up to the race several other\nraces are held such as a women-only\na night race and you phrases as well as\nopen tracks the race has been cancelled\nthree times in 1932 1934 and 1990 he was\nalmost canceled in 1986 because this was\ntwo days after the assassination of\nSwedish Prime Minister Yadav Palma\nbut instead of canceling the race they\nheld a silent movement among the 10,000\nparticipants before the race when it\ncomes to sports is one of the highlights\nof the year although I am NOT a skier\nmyself I've been on skis once and\nprobably uh no never again\nI prefer bundle myself up in the couch\nwith my cat and my wife drink blueberry\nsoup and enjoy watching the race but to\nyou brave souls out there who defy the\nlogic of logic Godspeed\ngood luck and let's hope stanislav vicek\nwins because he never wins thank you for\nwatching this video about the oldest\nlong ski race in the world it's a\nSwedish tradition it has blueberry soup\nin it and people get excited I hope you\ndid too\nthank you so much for watching I'll see\nyou the next time you click on one of my\nvideos bye\n[Music]",
+          "curated": false
+        },
+        {
+          "video_id": "sw1hzrF5tTY",
+          "title": "Ungdomsvasan 2018 Herrar - Starten i Hökberg",
+          "channel": "vasaloppet",
+          "view_count": 1490,
+          "upload_date": "20180225",
+          "duration_string": "1:32",
+          "description": "Starten för herrar -15 och -16 i Ungdomsvasan 2018. \n\nVälkommen in och kolla på vår livesändning - \"Livet i Hökberg\" på www.vasaloppet.tv",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=sw1hzrF5tTY",
+          "curated": false
+        },
+        {
+          "video_id": "RdnQ7ZHhFE0",
+          "title": "Tjejvasan",
+          "channel": "vasaloppet",
+          "view_count": 8272,
+          "upload_date": "20230314",
+          "duration_string": "1:03",
+          "description": "Loppet är 30 km med bara kvinnor i startleden. Det finns både tävlingsklasser (senior och junior) och motionsklass. Stämningen är hög längs spåret som kantas av levande musik och roliga aktiviteter. Tjejvasan är en del av En Klassiker Tjej och en bra utmaning att ta sig an tillsammans med vännerna. Tjejvasan direktsänds varje år i Sveriges Television.\nhttps://www.vasaloppet.se/lopp/skidlopp/tjejvasan/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=RdnQ7ZHhFE0",
+          "curated": false
+        },
+        {
+          "video_id": "_dmx6HdOAXw",
+          "title": "VLOG 0047 - Tjejvasan 2023 med Clara",
+          "channel": "Bättre flås!",
+          "view_count": 2817,
+          "upload_date": "20230302",
+          "duration_string": "9:22",
+          "description": "I det här avsnittet får ni följa med Clara på Tjejvasan!\n\nRABATTKOD TILL COXA\n\n7vcn32rm\n\nRabattkoden gäller på www.coxacarry.com\nGiltig till och med 2023-04-30 och ger dig 20% rabatt på ett köp!\n\nGlöm inte att prenumerera på kanalen!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=_dmx6HdOAXw",
+          "curated": true,
+          "curation_reason": "Recent 2023 skier vlog content providing first-person race recap experience of Tjejvasan.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
     }
   }
 }

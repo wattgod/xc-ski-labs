@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Grand Mesa 10km Classic",
+    "slug": "grand-mesa-classic",
+    "display_name": "Grand Mesa 10km Classic",
+    "tagline": "A short but scenic classic-only race on the world's largest flat-topped mountain — Grand Mesa's high-altitude snow fields deliver reliable Colorado Nordic skiing.",
+    "vitals": {
+      "distance_km": 10,
+      "distance_options": [
+        "10km"
+      ],
+      "elevation_m": 100,
+      "altitude_m": 3050,
+      "location": "Grand Mesa, Colorado",
+      "location_badge": "Colorado, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Colorado",
+      "date": "Late January",
+      "date_specific": "2026: January 24",
+      "discipline": "classic",
+      "field_size": 50,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": null,
+      "cutoff_time": null,
+      "website": "https://gmnc.org/races/",
+      "lat": 39.055,
+      "lng": -108.05,
+      "field_size_estimate": 75,
+      "elevation_gain_m": 100
+    },
+    "climate": {
+      "primary": "High-altitude mesa",
+      "description": "Grand Mesa at 10,000+ feet receives heavy snowfall and maintains reliable conditions. Part of the Southwest Nordic Race Series.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "High altitude (10,000+ ft)",
+        "Extreme cold possible",
+        "Remote location",
+        "UV exposure at altitude"
+      ]
+    },
+    "course": {
+      "primary": "10km classic course on Grand Mesa, the world's largest flat-topped mountain. Rolling terrain at high altitude through spruce-fir forest.",
+      "format": "loop",
+      "surface": "Groomed classic track",
+      "technical_rating": 2,
+      "grooming": "Good grooming on mesa trails",
+      "features": [
+        "World's largest flat-topped mountain",
+        "High-altitude skiing at 10,000+ feet",
+        "Part of Southwest Nordic Race Series",
+        "Spruce-fir forest setting"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 39,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 1,
+      "elevation": 1,
+      "altitude": 5,
+      "field_size": 1,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Unique high-altitude venue on the world's largest flat-topped mountain, but very small field and short distance limit the score.",
+      "tier_note": "Score 39 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Grand Mesa 10km Classic is part of the Southwest Nordic Race Series, held on the world's largest flat-topped mountain in western Colorado. A small but unique high-altitude Nordic racing venue.",
+      "notable_facts": [
+        "Held on Grand Mesa, the world's largest flat-topped mountain",
+        "Part of the Southwest Nordic Race Series",
+        "High-altitude skiing above 10,000 feet",
+        "Small classic-only race in western Colorado"
+      ]
+    },
+    "series_membership": [
+      "southwest_nordic_race_series"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

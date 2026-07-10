@@ -6,7 +6,12 @@
     "tagline": "Fifty kilometers through Hokkaido's deep powder country — Japan's Olympic city delivers world-class snow and meticulous organization.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km", "25km", "10km", "5km"],
+      "distance_options": [
+        "50km",
+        "25km",
+        "10km",
+        "5km"
+      ],
       "elevation_m": 300,
       "altitude_m": 300,
       "location": "Sapporo, Hokkaido",
@@ -17,15 +22,17 @@
       "date": "First Sunday in February",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~2,000 starters",
+      "field_size": 2000,
       "founded": 1981,
       "registration": "Online registration, open entry",
       "prize_purse": null,
       "aid_stations": "Multiple service stations with Japanese refreshments",
       "cutoff_time": null,
-      "website": "https://www.sapporo-ski.or.jp",
+      "website": "https://www.sapporo-sport.jp/ski/",
       "lat": 43.0621,
-      "lng": 141.3544
+      "lng": 141.3544,
+      "field_size_estimate": 2000,
+      "elevation_gain_m": 300
     },
     "climate": {
       "primary": "Heavy snowfall maritime (Sea of Japan effect)",
@@ -84,10 +91,147 @@
         "Showcases Japan's unique cross-country skiing culture on Hokkaido"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Sapporo Ski Marathon cross country ski race Sapporo",
+      "videos": [
+        {
+          "video_id": "AVHRpbDDvbo",
+          "title": "Sapporo ski marathon 2017",
+          "channel": "Denis Kabanen",
+          "view_count": 1308,
+          "upload_date": "20180110",
+          "duration_string": "17:15",
+          "description": "",
+          "tags": [
+            "Sapporo",
+            "Hokkaido",
+            "Japan",
+            "ski marathon",
+            "япония",
+            "саппоро",
+            "лыжный марафон",
+            "worldloppet",
+            "лыжи"
+          ],
+          "url": "https://www.youtube.com/watch?v=AVHRpbDDvbo",
+          "curated": true,
+          "curation_reason": "Longer-form race documentation providing comprehensive coverage of the event experience.",
+          "display_order": 2
+        },
+        {
+          "video_id": "0AhfXfhyTWs",
+          "title": "Philipp the Race Reporter at the Sapporo Skimarathon 2019",
+          "channel": "Worldloppet",
+          "view_count": 1406,
+          "upload_date": "20190207",
+          "duration_string": "4:51",
+          "description": "The Worldloppet Race Reporter Philipp travelled to Japan, to the Sapporo Skimarathon, to check the race out for you and to collect a stamp in his passport! \nCheck out Philipps experience in Japan!",
+          "tags": [
+            "Sapporo Skimarathon",
+            "Sapporo Dome",
+            "Sapporo",
+            "Race Reporter",
+            "Worldloppet Race Reporter",
+            "Ski around the world",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=0AhfXfhyTWs",
+          "transcript": "[Music]\n[Applause]\nShawn standing here in front of Safra\ndown I made it to the race menu\nI'm close to things I wrote the Metro\nso that's what it looks like inside\n50,000 people fit in here and those\nbuilt 2,000 for a football championships\nand then later used in the Nordic World\nChampionships 2007 if I'm right and now\nit's the venue of Sapporo ski marathon\nI'm really looking forward to oral apps\nfor Sunday for a race day no matter is\nnice the tracks are in really good\ncondition here at the finish line and\nthe famous sacre-coeur see on race day\nso I just picked up my bib right behind\nme is the reception area looks pretty\neasy or the signage is pretty good and\nthere were people who speak English so\nno troubles picking my bib up now I'm\ngonna check out where I can wax my skis\nI heard that there are stables and wax\nbenches where you can fix your skis\nyourself and there also should be\nit's 20 minutes to the start I warmed up\nand soon the gun will go the weather is\nreally nice the tracks are nice I'm\nreally looking forward see you at the\nfinish line and the horas trace never\nhad a long shower arrest lunch and I'm\nfinally feeling like human again and I\ncan walk without my legs cramping but\nnow it's time for the most important\nthing stamping my passport\none step closer to the common monster\nthank you so pro it truly has been an\namazing experience and they're very well\norganized right it's time to say goodbye\nsee you in fourteen days at the Cuttino\nlopat until then\naround the world",
+          "curated": true,
+          "curation_reason": "Race reporter perspective with venue details, registration process, and skier experience at the iconic Sapporo Dome finish.",
+          "display_order": 1
+        },
+        {
+          "video_id": "_mDrVoafo9Y",
+          "title": "Sapporo Ski Marathon 2016",
+          "channel": "JesperHassel",
+          "view_count": 334,
+          "upload_date": "20160918",
+          "duration_string": "4:50",
+          "description": "",
+          "tags": [
+            "Sapporo Ski Marathon"
+          ],
+          "url": "https://www.youtube.com/watch?v=_mDrVoafo9Y",
+          "curated": true,
+          "curation_reason": "Additional race coverage showing different year perspective of the marathon experience.",
+          "display_order": 3
+        },
+        {
+          "video_id": "RDE8Kvwt5tI",
+          "title": "sapporo international ski marathon 2011",
+          "channel": "energytravel",
+          "view_count": 1680,
+          "upload_date": "20110308",
+          "duration_string": "4:20",
+          "description": "ceska stopa na japonskem snehu\r\nwww.energytravel.cz",
+          "tags": [
+            "marathon",
+            "ski",
+            "xc",
+            "travel",
+            "energy"
+          ],
+          "url": "https://www.youtube.com/watch?v=RDE8Kvwt5tI",
+          "curated": true,
+          "curation_reason": "International skier perspective documenting the race experience on Japanese snow conditions.",
+          "display_order": 4
+        },
+        {
+          "video_id": "1RsXBgY44_I",
+          "title": "Tours-TV.com: Cross-country Ski in Sapporo",
+          "channel": "ToursTV Com",
+          "view_count": 122,
+          "upload_date": "20150108",
+          "duration_string": "34",
+          "description": "Japan : Hokkaido Prefecture : Sapporo.  See on map http://tours-tv.com/en/Cross-country-Ski-in-Sapporo .",
+          "tags": [
+            "skiresort",
+            "滑雪胜地",
+            "スキー",
+            "التزحلق",
+            "Tourist Destination"
+          ],
+          "url": "https://www.youtube.com/watch?v=1RsXBgY44_I",
+          "curated": false
+        },
+        {
+          "video_id": "2D6tMDBcAPI",
+          "title": "marathon de Sapporo",
+          "channel": "davidpraire",
+          "view_count": 389,
+          "upload_date": "20080214",
+          "duration_string": "2:38",
+          "description": "piste de ski",
+          "tags": [
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=2D6tMDBcAPI",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "The weather is really nice the tracks are nice I'm really looking forward... and the famous Sapporo Dome finish line venue that fits 50,000 people and was built for football championships and later used in the Nordic World Championships 2007.",
+          "source_video_id": "0AhfXfhyTWs",
+          "source_channel": "Worldloppet",
+          "source_view_count": 1406,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "The tracks are in really good condition here at the finish line and there were people who speak English so no troubles picking my bib up, and there are stables and wax benches where you can fix your skis yourself.",
+          "source_video_id": "0AhfXfhyTWs",
+          "source_channel": "Worldloppet",
+          "source_view_count": 1406,
+          "category": "logistics",
+          "curated": true
+        }
+      ]
     }
   }
 }

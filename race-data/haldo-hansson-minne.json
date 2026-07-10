@@ -1,0 +1,98 @@
+{
+  "race": {
+    "name": "Haldo Hansson Minne",
+    "slug": "haldo-hansson-minne",
+    "display_name": "Haldo Hansson Minne",
+    "tagline": "A memorial race in Åsarna honoring a legendary Jämtland skier — forty-two kilometers of Swedish mountain tradition.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 450,
+      "altitude_m": 500,
+      "location": "Åsarna",
+      "location_badge": "Jämtland, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Jämtland",
+      "date": "Late January",
+      "date_specific": "2026: January 31",
+      "discipline": "classic",
+      "field_size": 500,
+      "founded": 1946,
+      "registration": "Online registration via Swedish Ski Federation",
+      "prize_purse": "None",
+      "aid_stations": "3 stations with warm drinks and energy food",
+      "cutoff_time": "6 hours",
+      "website": "https://www.asarnaif.se",
+      "lat": 63.1833,
+      "lng": 14.8667,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 450
+    },
+    "climate": {
+      "primary": "Inland Scandinavian, cold and dry",
+      "description": "Jämtland's inland climate produces cold, stable winter conditions. Temperatures typically -15°C to -5°C in late January. Reliable natural snow cover. The inland position shields from Atlantic storms but produces consistently cold racing.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Late January cold — often below -15°C at start",
+        "Short daylight hours in northern Sweden",
+        "Cold wax conditions demanding expertise",
+        "Potential for extreme cold cancellation"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Åsarna forest and mountain terrain in central Jämtland. Rolling terrain with moderate climbing, groomed through mixed birch and spruce forest. A classic Swedish ski marathon profile.",
+      "format": "loop",
+      "surface": "Groomed classic track through forest and mountain terrain",
+      "technical_rating": 3,
+      "grooming": "Well-groomed by Åsarna IF, standard Swedish marathon quality",
+      "features": [
+        "Historic race honoring Haldo Hansson, legendary Jämtland skier",
+        "Central Jämtland mountain and forest terrain",
+        "One of Sweden's oldest ski marathons",
+        "Strong local community atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 3,
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "score_note": "Sum 40/70 = 57. Base tier 3."
+    },
+    "history": {
+      "summary": "Founded in 1946 as a memorial race for Haldo Hansson (1891-1944), a legendary skier from Åsarna in Jämtland who was one of Sweden's finest cross-country competitors in the early 20th century. The race has been organized by Åsarna IF continuously and remains one of Sweden's most historically significant ski marathons, deeply rooted in the Jämtland skiing tradition.",
+      "notable_facts": [
+        "Haldo Hansson was a dominant Swedish skier in the 1910s and 1920s",
+        "One of Sweden's oldest continuously held ski marathons",
+        "Åsarna IF, the organizing club, was founded in 1908",
+        "Jämtland has produced many of Sweden's greatest cross-country skiers"
+      ],
+      "founded": 1959
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Haldo Hansson Minne ski race Åsarna Jämtland",
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

@@ -6,7 +6,10 @@
     "tagline": "Forty-two kilometers and 1,077 meters of climbing through the Bavarian Forest — named for the Norse goddess of winter and built to break you.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km", "21km"],
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
       "elevation_m": 1077,
       "altitude_m": 900,
       "location": "Bodenmais",
@@ -17,7 +20,7 @@
       "date": "Late January",
       "date_specific": null,
       "discipline": "both",
-      "field_size": "~1,100 starters",
+      "field_size": 1100,
       "founded": 2000,
       "registration": "Online registration; opens autumn prior",
       "prize_purse": null,
@@ -25,7 +28,9 @@
       "cutoff_time": null,
       "website": "https://www.skadi-loppet.de",
       "lat": 49.0657,
-      "lng": 13.1406
+      "lng": 13.1406,
+      "field_size_estimate": 1100,
+      "elevation_gain_m": 1077
     },
     "climate": {
       "primary": "Central European mountain winter",
@@ -86,10 +91,177 @@
         "The Bavarian Forest borders Sumava National Park in the Czech Republic"
       ]
     },
-    "series_membership": ["euroloppet"],
+    "series_membership": [
+      "euroloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Skadi Loppet cross country ski race Bodenmais",
+      "videos": [
+        {
+          "video_id": "EUIoSXOQJMc",
+          "title": "Skadi Loppet Teaser 2020",
+          "channel": "Euroloppet Your World of Ski Marathon",
+          "view_count": 287,
+          "upload_date": "20191210",
+          "duration_string": "36",
+          "description": "Skadi Loppet is a Ski Marathon Race of Euroloppet, the most famous Ski Marathon Series in Europe. Skadi Loppet exists since 1990 and celebrates its 30th anniversary in 2020. The race is scheduled on the thrid weekend of March in Bodenmais/ Germany have only been canceled once in 30 years.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EUIoSXOQJMc",
+          "curated": false
+        },
+        {
+          "video_id": "C2m37N5toIw",
+          "title": "Skadi Loppet - Langlaufevent am Bretterschachten in Bodenmais",
+          "channel": "NIEDERBAYERN TV",
+          "view_count": 4276,
+          "upload_date": "20110321",
+          "duration_string": "3:26",
+          "description": "Während man sich allerorts schon für den Frühling herausputzt, ist das Bodenmaiser Ski-Zentrum am Wochenende für den letzten großen Wintersport-Event getrimmt worden: Loipen ziehen, Piste präparieren, Start- und Ziel-Raum mit Neuschnee auffüllen, Ski wachsen etc. All das war nötig, um beim Skadi Loppet optimale Bedingungen für die Athleten zu schaffen.",
+          "tags": [
+            "Skadi",
+            "Loppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=C2m37N5toIw",
+          "curated": true,
+          "curation_reason": "Race coverage showing course preparation and event logistics at the Bretterschachten venue.",
+          "display_order": 4
+        },
+        {
+          "video_id": "jk_Fa-cce5E",
+          "title": "Reportage Skadi Loppet 2016",
+          "channel": "Skadi Loppet Skimarathon Germany",
+          "view_count": 2565,
+          "upload_date": "20160322",
+          "duration_string": "4:02",
+          "description": "Das war der Skadi Loppet 2016 mit einem kleinen Blick hinter die Kulissen der Mammut-Veranstaltung in Bodenmais im Bayerischen Wald.",
+          "tags": [
+            "Skadi Loppet",
+            "Skimarathon",
+            "Euroloppet",
+            "Skilanglauf",
+            "Langlauf"
+          ],
+          "url": "https://www.youtube.com/watch?v=jk_Fa-cce5E",
+          "curated": true,
+          "curation_reason": "Official race reportage with behind-the-scenes coverage of the event organization and atmosphere.",
+          "display_order": 3
+        },
+        {
+          "video_id": "6D6Rr-FiqNA",
+          "title": "Skadi Loppet 2016, Bodenmais (DE), 32km FT",
+          "channel": "Peter van der Spek",
+          "view_count": 1192,
+          "upload_date": "20160326",
+          "duration_string": "4:49",
+          "description": "32km FT at km 1.0.",
+          "tags": [
+            "skadi loppet",
+            "bodenmais"
+          ],
+          "url": "https://www.youtube.com/watch?v=6D6Rr-FiqNA",
+          "curated": true,
+          "curation_reason": "POV-style race footage showing the 32km freestyle course from a participant's perspective.",
+          "display_order": 2
+        },
+        {
+          "video_id": "ymrjpd6Kzoc",
+          "title": "2019 Subaru Skadi Loppet 42 km klassische Technik",
+          "channel": "Philipp Koch",
+          "view_count": 291,
+          "upload_date": "20190407",
+          "duration_string": "1:01",
+          "description": "Internationaler Skilanglaufwettkampf in Bodenmais am Bretterschachten",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ymrjpd6Kzoc",
+          "curated": false
+        },
+        {
+          "video_id": "lgIGQk1lnv4",
+          "title": "Langlauf Bretterschachten",
+          "channel": "Mike Ainsworth",
+          "view_count": 641,
+          "upload_date": "20200119",
+          "duration_string": "2:04",
+          "description": "A tour of the Bretterschachten Loipen on 17 January 2020.   Snow conditions were far from perfect.  The weather changed significantly during lunch (at1:23 in this footage) when the winter sun gave way to clouds and a chilly breeze.\n\nWe were accompanied by Guy Beaumont from GB Nordique who had been helping us to improve our techniques throughout the week.  https://www.gbnordique.fr/\n\nMusic is 'Tenderness' from www.bensound.com\n\n#NoOrdinaryJob #RedBoots",
+          "tags": [
+            "iMovie",
+            "bensound",
+            "Cross-Country Skiing",
+            "Bretterschachten",
+            "Langlauf",
+            "GB Nordique"
+          ],
+          "url": "https://www.youtube.com/watch?v=lgIGQk1lnv4",
+          "curated": false
+        },
+        {
+          "video_id": "Fgm-h62Scsk",
+          "title": "Reino Keski-Salmi Loppet 2018",
+          "channel": "Sarah Wallensteen-Lauze",
+          "view_count": 857,
+          "upload_date": "20180121",
+          "duration_string": "5:25",
+          "description": "Video by Sarah & Adam Lauzé\nMusic: Homecoming - Josh Ritter",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Fgm-h62Scsk",
+          "curated": false
+        },
+        {
+          "video_id": "2GJ8XN_9taE",
+          "title": "Ski Marathon Europameisterschaften 2015 - Loipenbesichtigung",
+          "channel": "Euroloppet Your World of Ski Marathon",
+          "view_count": 1380,
+          "upload_date": "20150224",
+          "duration_string": "3:18",
+          "description": "Track inspection for the European Ski Marathon Championships 2015 in Bodenmais",
+          "tags": [
+            "Ski",
+            "Marathon (Sport)",
+            "Cross-country Skiing",
+            "Skiing (Sport)"
+          ],
+          "url": "https://www.youtube.com/watch?v=2GJ8XN_9taE",
+          "curated": false
+        },
+        {
+          "video_id": "u0YQAjUa3dA",
+          "title": "Highlights from Subaru Skadi Loppet 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 267,
+          "upload_date": "20260131",
+          "duration_string": "3:03",
+          "description": "Highlights from Subaru Skadi Loppet 2026\n\nVideo: Marco Felgenhauer",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=u0YQAjUa3dA",
+          "curated": true,
+          "curation_reason": "Recent race highlights from 2026 showing current race conditions and coverage.",
+          "display_order": 1
+        },
+        {
+          "video_id": "BpBLcxjzRHU",
+          "title": "Skadi Loppet 2015",
+          "channel": "Euroloppet Your World of Ski Marathon",
+          "view_count": 9038,
+          "upload_date": "20150708",
+          "duration_string": "2:32",
+          "description": "Die Highlights von der Ski Marathon Europameisterschaft 2015 beim Skadi Loppet in Bodenmais (GER).",
+          "tags": [
+            "Ski",
+            "Ski Marathon",
+            "Langlauf",
+            "xc-skiing",
+            "xc-ski",
+            "Europameisterschaft",
+            "ecs",
+            "Skadi Loppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=BpBLcxjzRHU",
+          "transcript": "[Music]\noh",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

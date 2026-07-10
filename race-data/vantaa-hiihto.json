@@ -1,0 +1,293 @@
+{
+  "race": {
+    "name": "Vantaa-hiihto",
+    "slug": "vantaa-hiihto",
+    "display_name": "Vantaa-hiihto",
+    "tagline": "Thirty to fifty kilometers of mass skiing in the Helsinki metropolitan area — Finland's capital-region citizen race that brings marathon-distance Nordic to the urban doorstep.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "30km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 50,
+      "location": "Vantaa",
+      "location_badge": "Uusimaa, Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "Greater Helsinki",
+      "date": "First Sunday of March",
+      "date_specific": "2026: March 1",
+      "discipline": "both",
+      "field_size": 500,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.vantaahiihto.fi",
+      "lat": 60.2934,
+      "lng": 25.0378,
+      "field_size_estimate": 750,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Southern Finnish coastal winter",
+      "description": "March in the Helsinki metropolitan area means variable conditions. Temperatures range from -10°C to 3°C. Southern Finland's coastal location makes snow cover less reliable than inland or northern events. Spring sun in early March can soften trails, particularly on south-facing sections.",
+      "typical_temp_c": "-10 to 3",
+      "challenges": [
+        "Variable snow conditions — southern Finland is snow-marginal",
+        "Coastal influence can bring mild spells and rain",
+        "Spring sun in March can degrade trail quality",
+        "Flat terrain means wind exposure"
+      ]
+    },
+    "course": {
+      "primary": "A mass skiing course through Vantaa's urban forest and park trail network, offering 30-50km distances. Flat to gently rolling terrain typical of southern Finland's coastal landscape. The course makes long-distance Nordic skiing accessible to Helsinki's large metropolitan skiing population.",
+      "format": "loop",
+      "surface": "Machine-groomed urban forest and park trails",
+      "technical_rating": 1,
+      "grooming": "Vantaa municipal Nordic trail network",
+      "features": [
+        "Helsinki metropolitan area accessibility — large population base",
+        "Urban forest and park trail network",
+        "Both classic and freestyle techniques offered",
+        "Flat terrain suitable for all abilities",
+        "Gateway to long-distance skiing for capital-region residents"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 46,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 1,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 5,
+      "community": 4,
+      "scenery": 2,
+      "organization": 4,
+      "competitive_depth": 2,
+      "score_note": "Maximum accessibility score — Helsinki metro area provides the largest skiing population base in Finland. Strong community and organization reflect Finland's massahiihto culture and municipal event support. Flat terrain and urban setting limit technicality and scenery. Snow reliability is the key risk in southern coastal Finland.",
+      "tier_note": "Score 46 confirms TIER 3"
+    },
+    "history": {
+      "summary": "The Vantaa-hiihto is a popular mass skiing event serving Finland's Helsinki metropolitan area, making long-distance Nordic skiing accessible to the capital region's large population. Part of Finland's rich massahiihto (mass skiing) culture, it provides residents of the greater Helsinki area with a marathon-distance ski experience without requiring travel to more remote venues. The event embodies the Finnish tradition that everyone should have access to long-distance skiing.",
+      "notable_facts": [
+        "Serves Finland's largest metropolitan population — Helsinki/Vantaa area",
+        "Part of Finnish massahiihto (mass skiing) tradition",
+        "Both classic and freestyle techniques offered",
+        "One of the most accessible long-distance ski events in Finland",
+        "Urban forest setting unique among Nordic ski marathons",
+        "Multiple distance options from 30km to 50km"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Vantaa-hiihto cross country ski race Vantaa",
+      "videos": [
+        {
+          "video_id": "rsIfh3kKcLI",
+          "title": "Havuja Perkele / HIIHDON  SUOMEN CUP 2022 HAKUNILA, VANTAA",
+          "channel": "JuJu",
+          "view_count": 494,
+          "upload_date": "20220118",
+          "duration_string": "3:30",
+          "description": "Havuja perkele. Hiihto Suomen Cup 2022 Hakunila Vantaa. Naiset 5 km (v).\nKävin katsomassa kisat. Aivan mahtavaa kaikin puolin.",
+          "tags": [
+            "hiihto",
+            "suomencup2022",
+            "suomencup",
+            "havujaperkele",
+            "vapaa",
+            "vantaa",
+            "hiihdonsuomencup",
+            "mahtavaa",
+            "skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=rsIfh3kKcLI",
+          "curated": true,
+          "curation_reason": "Personal race coverage from spectator perspective at the Vantaa race venue showing race atmosphere.",
+          "display_order": 2
+        },
+        {
+          "video_id": "Ks-zf1_k66s",
+          "title": "Scandinavia Cup Vantaa 2026 - Sprintti (p) - Selostamaton tallenne",
+          "channel": "Olsalive Streaming",
+          "view_count": 713,
+          "upload_date": "20260104",
+          "duration_string": "5:31:38",
+          "description": "Recording of the International Feed of Scandinavia Cup Vantaa 2026 Sprint Competition on Fri. 2.1.2025.\n\nProduction: Olsalive.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Ks-zf1_k66s",
+          "curated": false
+        },
+        {
+          "video_id": "ptgR7tn_1Ow",
+          "title": "Nordic Running Race 29.9.2018",
+          "channel": "Vantaan Hiihtoseura",
+          "view_count": 3407,
+          "upload_date": "20180721",
+          "duration_string": "1:07",
+          "description": "Nordic  Running Race (sauvajuoksu) LA 29.9.2018 (music: bensound.com)\nVHS 60v. juhlakisa  - \nAjankohta: Lauantai 29.9.2018 klo 12\nPaikka: Hakunilan urheilukenttä, \n             Luotikuja 2, 01200 Vantaa  \n      \nAvoin kaikille kilpailijoille ja kuntoilijoille!\nSarjat : \nN / M 8 – 10v  1 km\nN / M 12v ja N 14v  2 km \nM 14, M ja N 16 - 18v  4 km\nN  18 – N  6 km\nM 18 – M  8 km \nKuntoilijat  6 km\n\nILMOITTAUTUMINEN: www.vhs.fi",
+          "tags": [
+            "Nordic Running",
+            "Race",
+            "Sauvajuoksu",
+            "Kilpailu",
+            "Vantaan Hiihtoseura"
+          ],
+          "url": "https://www.youtube.com/watch?v=ptgR7tn_1Ow",
+          "curated": false
+        },
+        {
+          "video_id": "3iEza72YA6g",
+          "title": "Yoko Race Day Service, Finnish Championship Team Sprint, Vantaa 12.1.2018",
+          "channel": "Yoko Sports",
+          "view_count": 1072,
+          "upload_date": "20180209",
+          "duration_string": "1:18",
+          "description": "Yoko Skis are made in Finland and can and are used by a wide range of racing skiers. A race day ski service is constant in work search of the best possible slide + grip combo, with the test skiers trying variety of different waxing options and the waxing guys adjusting the skis throughout the day. Just how much work, see for yourself how our Racing Service and skiers did in the Finnish Championship Team Sprint Race on Jan 12th, 2018.",
+          "tags": [
+            "yokosports",
+            "yokoskis",
+            "cross-country skiing",
+            "xc-skiing",
+            "winter",
+            "Team Sprint"
+          ],
+          "url": "https://www.youtube.com/watch?v=3iEza72YA6g",
+          "curated": false
+        },
+        {
+          "video_id": "Xef_j1tK6mU",
+          "title": "Euroloppet race BIELA STOPA Slovakia Cross-Country Skiing",
+          "channel": "Michal Malák",
+          "view_count": 414,
+          "upload_date": "20221025",
+          "duration_string": "3:16",
+          "description": "Invitation for amazing XC Skiing Marathon race in the central Europe near Kremnica city - Slovakia.\nJoin EUROPEAN CHAMPIONSHIPS 4 -5.3.2023!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Xef_j1tK6mU",
+          "curated": false
+        },
+        {
+          "video_id": "mnhR6lSYQnM",
+          "title": "Lapponia hiihto 2018, 2. pvä Himmelriikki",
+          "channel": "Jarmo Koskinen",
+          "view_count": 341,
+          "upload_date": "20180411",
+          "duration_string": "23",
+          "description": "Himmelriikin hiihdon maali, 50 km",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=mnhR6lSYQnM",
+          "curated": false
+        },
+        {
+          "video_id": "hUMIThOjDu4",
+          "title": "Teemu Virtanen’s 24-hour Guinness World Record attempt 2022",
+          "channel": "Red Bull Nordenskiöldsloppet",
+          "view_count": 11418,
+          "upload_date": "20220205",
+          "duration_string": "11:54:55",
+          "description": "Live broadcast from Stockholms Stadion. Teemu Virtanen will try to beat the Guiness World Record in cross country skiing in 24 hours. He will start Saturday at 10.00 local time in Stockholm and ski for 24 hours. The goal is to ski more than 470 kilometers.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=hUMIThOjDu4",
+          "curated": false
+        },
+        {
+          "video_id": "6NFTdR21MHE",
+          "title": "2018-02-24 - Finlandiahiihto 2018",
+          "channel": "Ivan Kasyankov",
+          "view_count": 130,
+          "upload_date": "20180501",
+          "duration_string": "3:59",
+          "description": "Finalndiahiihto ski marathon\nhttp://www.finlandiahiihto.fi/\n24 February 2018, Lahti, Finland \n\nDistance: 50 km\nStyle: classic\n\nCamera: iPhone SE",
+          "tags": [
+            "Finlandiahiihto",
+            "Kirovsk ski team"
+          ],
+          "url": "https://www.youtube.com/watch?v=6NFTdR21MHE",
+          "curated": false
+        },
+        {
+          "video_id": "pSCuVPmS4Ec",
+          "title": "Finlandia-hiihto 2016: Niko Koskela",
+          "channel": "Finlandiahiihto",
+          "view_count": 584,
+          "upload_date": "20160227",
+          "duration_string": "1:52",
+          "description": "Finlandia-hiihdon kakkoseksi puristi Niko Koskela. Tsekkaa videolta Nikon mietteet kisan ratkaisuista.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=pSCuVPmS4Ec",
+          "curated": false
+        },
+        {
+          "video_id": "lUgM5MpPHE8",
+          "title": "Scenery for Treadmill | Magnificent Finnish Afternoon Ski | 1 Hour Virtual Run / Virtual Ski",
+          "channel": "Treadmill Scenery by Strides and Summits",
+          "view_count": 1760,
+          "upload_date": "20210904",
+          "duration_string": "1:08:50",
+          "description": "Run, bike, ski or just watch 1 hour of perfect winter skate skiing at the Paloheinä ski centre in Helsinki, Finland! This workout scenery for treadmill is great for your virtual run, bike or workout!\n\nOn Strava? Join the Run Club! https://www.strava.com/clubs/StridesAndSummits\n\nStrava Activity: https://www.strava.com/activities/4796386626\n\nLooking for more Treadmill Scenery? Check out my playlist! https://www.youtube.com/playlist?list=PLiJvqKgVLf1tjW9iOoCmTRDMNGKxuh4sc\n\nSubscribe to Strides and Summits: https://www.youtube.com/stridesandsummits?sub_confirmation=1 \n\nCheck me out on Social Media: \nStrava: https://www.strava.com/athletes/13763853 \nBlog: https://stridesandsummits.com/ \nInstagram: https://www.instagram.com/stridesandsummits/\n\nSome of My Equipment:\nGoPro Hero 8: https://www.amazon.ca/gp/product/B07WSRXMS8/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=stridesandsum-20&creative=330641&linkCode=as2&creativeASIN=B07WSRXMS8&linkId=66492bdc7c0fc51789ac5af2e2f26458\nGoPro Accessory Kit: https://www.amazon.ca/gp/product/B07TMY58FS/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=stridesandsum-20&creative=330641&linkCode=as2&creativeASIN=B07TMY58FS&linkId=6a27fe613ad4b26433070149b677f89b\nGarmin 235 Forerunner Watch: https://www.amazon.ca/gp/product/B0160BC1FO/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=stridesandsum-20&creative=330641&linkCode=as2&creativeASIN=B0160BC1FO&linkId=1d84e05d4f217b156b0b0e98446b00eb\n\nDistance Index:\n00:00 0 km (0.0 mi)\n05:00 1 km (0.6 mi)\n10:00 2 km (1.2 mi)\n15:00 3 km (1.9 mi)\n20:00 4 km (2.5 mi)\n25:00 5 km (3.1 mi)\n30:00 6 km (3.7 mi)\n35:00 7 km (4.3 mi) \n40:00 8 km (5.0 mi) \n45:00 9 km (5.6 mi) \n50:00 10 km (6.2 mi) \n55:00 11 km (6.8 mi) \n60:00 12 km (7.5 mi) \n65:00 13 km (8.1 mi)\n70:00 14 km (8.7 mi)\n\n#TreadmillScenery #VirtualRun",
+          "tags": [
+            "virtual run",
+            "treadmill scenery",
+            "running video for treadmill",
+            "running scenery",
+            "scenery 4k",
+            "running tour",
+            "treadmill run",
+            "virtual ski",
+            "treadmill workout scenery",
+            "1 hour virtual run",
+            "treadmill workout",
+            "paloheinä",
+            "skate skiing",
+            "ski scenery",
+            "virtual running videos",
+            "virtual runs for treadmill",
+            "virtual scenery for treadmill"
+          ],
+          "url": "https://www.youtube.com/watch?v=lUgM5MpPHE8",
+          "curated": false
+        },
+        {
+          "video_id": "B42wsIRa9C0",
+          "title": "Finlandia-Hiihto 2022 [4K]",
+          "channel": "PiliPali Producktion",
+          "view_count": 3483,
+          "upload_date": "20220220",
+          "duration_string": "3:18",
+          "description": "Vuoden 2022 Finlandia-Hiihdon tunnelmia ja maisemia runsas lumisesta Lahdesta. Lähtö Lahden hiihto stadionilta. Matkan varrelta kuvaa Messilästä ja Tiirismaan vanhan laskettelu-keskuksen kohdilta. Ilmakuvat kuvattu Dji Mavic mini 2 kopterilla.",
+          "tags": [
+            "Lahti",
+            "Finland",
+            "Finlandia-hiihto",
+            "finlandia",
+            "hiihto",
+            "finlandia hiihto",
+            "ski marathon",
+            "65km",
+            "snow",
+            "ski stadium",
+            "hiihtostadion",
+            "lahden hiihtostadion"
+          ],
+          "url": "https://www.youtube.com/watch?v=B42wsIRa9C0",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

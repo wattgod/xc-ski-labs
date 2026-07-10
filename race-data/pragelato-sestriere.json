@@ -1,0 +1,317 @@
+{
+  "race": {
+    "name": "Pragelato-Sestriere",
+    "slug": "pragelato-sestriere",
+    "display_name": "Pragelato-Sestriere",
+    "tagline": "Thirty kilometers between two Olympic venues — climbing from the Nordic stadium to the alpine summit on the tracks where champions raced in 2006.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 600,
+      "altitude_m": 1520,
+      "location": "Pragelato to Sestriere",
+      "location_badge": "Piedmont, Italy",
+      "country": "Italy",
+      "country_code": "IT",
+      "region": "Piedmont",
+      "date": "Early March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 500,
+      "founded": 2008,
+      "registration": "Online registration; open entry",
+      "prize_purse": null,
+      "aid_stations": "3 feed stations with warm drinks, energy food, and Italian treats",
+      "cutoff_time": null,
+      "website": "https://www.pragelatosestriere.it",
+      "lat": 45.0144,
+      "lng": 6.9369,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 600
+    },
+    "climate": {
+      "primary": "High alpine Piedmont winter",
+      "description": "Early March at high altitude in the Piedmont Alps. The course climbs from 1520m to over 2000m, ensuring reliable snow cover well into spring. Temperatures typically -8 to 0 degrees Celsius at the start, colder at the summit finish. The exposed high-altitude sections can produce strong winds.",
+      "typical_temp_c": "-8 to 0",
+      "challenges": [
+        "Significant altitude gain from start to finish",
+        "Exposed high-altitude sections above 2000m with wind",
+        "Spring sun can soften south-facing sections",
+        "Altitude effects on breathing at the summit finish"
+      ]
+    },
+    "course": {
+      "primary": "A 30km point-to-point course from the Pragelato Nordic stadium (2006 Olympic cross-country venue) climbing to the alpine resort of Sestriere. The route features sustained climbing through Olympic-grade terrain with a dramatic high-altitude finish. The course uses sections of the original 2006 Turin Winter Olympics cross-country tracks.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed tracks on Olympic-standard trails with alpine terrain",
+      "technical_rating": 3,
+      "grooming": "High-quality grooming on Olympic-legacy infrastructure",
+      "features": [
+        "Start at the 2006 Turin Winter Olympics Nordic venue",
+        "Finish at the iconic Sestriere alpine resort",
+        "Sustained climbing on Olympic-grade trails",
+        "High-altitude skiing above 2000m at the finish",
+        "Views of the Cottian Alps and Monte Viso"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Strong grooming score from Olympic-legacy infrastructure. Good scenery in the Cottian Alps. Limited by small field and the event's relatively young history. Olympic heritage adds unique character.",
+      "tier_note": "Score 56 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 2008, two years after the 2006 Turin Winter Olympics brought world-class Nordic infrastructure to Pragelato. The race was created to make use of the Olympic cross-country venue and connect it to the famous alpine resort of Sestriere, which hosted Olympic alpine events. The point-to-point format from the Nordic stadium to the alpine summit creates a unique Olympic-legacy experience.",
+      "notable_facts": [
+        "Pragelato hosted all cross-country skiing events at the 2006 Turin Winter Olympics",
+        "Sestriere hosted Olympic alpine events including giant slalom and slalom",
+        "The Olympic Nordic stadium at Pragelato is at 1,520m altitude",
+        "The course uses sections of the original Olympic cross-country trails",
+        "One of the few races that connects an Olympic Nordic venue to an Olympic alpine venue"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Pragelato-Sestriere cross country ski race Pragelato to Sestriere",
+      "videos": [
+        {
+          "video_id": "EzPCfC6MzLQ",
+          "title": "First day at Sestriere & Pragelato - ski slopes Vialattea",
+          "channel": "Skijanje i skijaško prigovaranje",
+          "view_count": 7528,
+          "upload_date": "20240128",
+          "duration_string": "20:10",
+          "description": "Try the free video editor CapCut to create videos! https://www.capcut.com/t/ZmFqJxBXR/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EzPCfC6MzLQ",
+          "curated": false
+        },
+        {
+          "video_id": "fJnBWE3jhAQ",
+          "title": "Sci di fondo Cross Country Skiing IRON 2015  Pragelato Aspettando Ric リッカルドを待っているクロスカントリースキー",
+          "channel": "Mamola72",
+          "view_count": 146,
+          "upload_date": "20150302",
+          "duration_string": "7:17",
+          "description": "Sci di fondo Cross Country Skiing IRON 2015  Pragelato Aspettando Ric リッカルドを待っているクロスカントリースキー\nCentro olimpico del fondo | Pragelato ( TO )\nII° Evento del IRON 2015\n\n越野  クロスカントリー  напрямик  a campo traviesa\nOlympic center of the bottom  底部的奧運中心  ボトムのオリンピックセンター  Олимпийский центр дна",
+          "tags": [
+            "sci di fondo pragelato",
+            "sci di fondo",
+            "cross country skiing",
+            "IRON Cross Country Skiing 2015",
+            "cross country",
+            "via lattea",
+            "Cross Country Running (Sport)",
+            "mamola72",
+            "ironman channel",
+            "越野",
+            "クロスカントリー",
+            "напрямик",
+            "a campo traviesa",
+            "qdms72",
+            "Cross-country Skiing (Sport)",
+            "Pragelato (City/Town/Village)",
+            "Olympic center of the bottom",
+            "底部的奧運中心",
+            "ボトムのオリンピックセンター",
+            "Олимпийский центр дна"
+          ],
+          "url": "https://www.youtube.com/watch?v=fJnBWE3jhAQ",
+          "curated": true,
+          "curation_reason": "Cross-country skiing race content from the Olympic center at Pragelato showing actual Nordic skiing competition footage.",
+          "display_order": 1
+        },
+        {
+          "video_id": "IQQ4tl1CEIA",
+          "title": "GS Sestriere GPTO 17 gen 09 Pragelato All F",
+          "channel": "chabertonvideo",
+          "view_count": 34,
+          "upload_date": "20090119",
+          "duration_string": "1:55",
+          "description": "GS Sestriere GPTO 17 gen 09 Pragelato All F",
+          "tags": [
+            "pragelato",
+            "allievi",
+            "femminile"
+          ],
+          "url": "https://www.youtube.com/watch?v=IQQ4tl1CEIA",
+          "curated": false
+        },
+        {
+          "video_id": "a1m5oyhGuOQ",
+          "title": "GS Sestriere GPTO 17 gen 09 Pragelato Rag F",
+          "channel": "chabertonvideo",
+          "view_count": 87,
+          "upload_date": "20090119",
+          "duration_string": "2:52",
+          "description": "GS Sestriere GPTO 17 gen 09 Pragelato Rag F",
+          "tags": [
+            "pragelato",
+            "ragazzi",
+            "femminile"
+          ],
+          "url": "https://www.youtube.com/watch?v=a1m5oyhGuOQ",
+          "curated": false
+        },
+        {
+          "video_id": "nokHpUClwM0",
+          "title": "GS Sestriere Pinocchio 18 gen 09 Pragelato Cuc M",
+          "channel": "chabertonvideo",
+          "view_count": 19,
+          "upload_date": "20090120",
+          "duration_string": "1:30",
+          "description": "GS Sestriere Pinocchio 18 gen 09 Pragelato Cuc M",
+          "tags": [
+            "pragelato",
+            "cuccioli",
+            "maschile"
+          ],
+          "url": "https://www.youtube.com/watch?v=nokHpUClwM0",
+          "curated": false
+        },
+        {
+          "video_id": "EjnTQaM0deA",
+          "title": "GS Sestriere Pinocchio 18 gen 09 Pragelato Cuc F",
+          "channel": "chabertonvideo",
+          "view_count": 13,
+          "upload_date": "20090120",
+          "duration_string": "1:30",
+          "description": "GS Sestriere Pinocchio 18 gen 09 Pragelato Cuc F",
+          "tags": [
+            "pragelato",
+            "cuccioli",
+            "femminile"
+          ],
+          "url": "https://www.youtube.com/watch?v=EjnTQaM0deA",
+          "curated": false
+        },
+        {
+          "video_id": "DpaQUhN0btI",
+          "title": "GS Sestriere GPTO 17 gen 09 Pragelato Rag M",
+          "channel": "chabertonvideo",
+          "view_count": 22,
+          "upload_date": "20090119",
+          "duration_string": "2:10",
+          "description": "GS Sestriere GPTO 17 gen 09 Pragelato Rag M",
+          "tags": [
+            "pragelato",
+            "ragazzi",
+            "maschile"
+          ],
+          "url": "https://www.youtube.com/watch?v=DpaQUhN0btI",
+          "curated": false
+        },
+        {
+          "video_id": "WbEdqXUld94",
+          "title": "Pragelato Snow Run 2019",
+          "channel": "Pragelato Races",
+          "view_count": 134,
+          "upload_date": "20190130",
+          "duration_string": "2:51",
+          "description": "Edizione 2019 della Pragelato Snow Run.\nCorsa su neve in notturna sulla pista di fondo di Pragelato.",
+          "tags": [
+            "pragelato",
+            "run",
+            "snow",
+            "snow run",
+            "corsa",
+            "sport",
+            "torino",
+            "montagna",
+            "neve",
+            "competizione",
+            "pragelato races",
+            "corsa in notturna sulla neve",
+            "pragelato snow run"
+          ],
+          "url": "https://www.youtube.com/watch?v=WbEdqXUld94",
+          "transcript": "[Music]",
+          "curated": false
+        },
+        {
+          "video_id": "GXKkSb4uHmo",
+          "title": "De Zolt on the box",
+          "channel": "Andrea Betti",
+          "view_count": 106,
+          "upload_date": "20120106",
+          "duration_string": "9",
+          "description": "Stefano De Zolt riding a box with his snowboard at sestriere",
+          "tags": [
+            "Snowboard",
+            "Box",
+            "Rail"
+          ],
+          "url": "https://www.youtube.com/watch?v=GXKkSb4uHmo",
+          "transcript": "for",
+          "curated": false
+        },
+        {
+          "video_id": "0a3NYGl7BKc",
+          "title": "Sestriere - Prali jan/2018",
+          "channel": "Katrien Aerts",
+          "view_count": 697,
+          "upload_date": "20180112",
+          "duration_string": "1:24",
+          "description": "Skiing between the trees in Sestriere and Prali, january 2018. \nKatrien Aerts - rider for Bergans Of Norway/ Elan/Dalbello/Giro",
+          "tags": [
+            "Katrien Aerts",
+            "Sestriere",
+            "Prali",
+            "freeride",
+            "powder skiing",
+            "tree lines",
+            "big dump",
+            "Elan",
+            "Bergans Of Norway"
+          ],
+          "url": "https://www.youtube.com/watch?v=0a3NYGl7BKc",
+          "curated": false
+        },
+        {
+          "video_id": "JQmoC680UbU",
+          "title": "Snowboard Ski Sestriere italy January 2017 speed run, slope #1",
+          "channel": "Or Karpfen",
+          "view_count": 1311,
+          "upload_date": "20170116",
+          "duration_string": "3:53",
+          "description": "Snowboarding and skiing in italy, sestriere slope's. \nFast run with my friend, high adrenalin, high speed through red and black slope's.\nSki vacation in Italy.slope #1 is start's at 2800 meter and go down to 1800 meter, good angle's  and give's you very good speed",
+          "tags": [
+            "snowboard",
+            "Snow",
+            "ski",
+            "sestriere",
+            "italy",
+            "speed",
+            "fast",
+            "ride",
+            "january",
+            "good weather"
+          ],
+          "url": "https://www.youtube.com/watch?v=JQmoC680UbU",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

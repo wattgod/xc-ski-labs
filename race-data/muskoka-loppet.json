@@ -5,7 +5,7 @@
     "display_name": "Muskoka Loppet",
     "tagline": "Thirty kilometers of classic skiing through the frozen forests of Arrowhead Provincial Park — Ontario's signature Nordic race in Canada's cottage country.",
     "vitals": {
-      "distance_km": 30,
+      "distance_km": 24,
       "distance_options": [
         "30km",
         "15km",
@@ -21,7 +21,7 @@
       "date": "Late January",
       "date_specific": "2026: January 24",
       "discipline": "classic",
-      "field_size": "~500 starters",
+      "field_size": 500,
       "founded": 1985,
       "registration": "Online registration, capacity limited by park access",
       "prize_purse": "None",
@@ -29,7 +29,9 @@
       "cutoff_time": "No official cutoff",
       "website": "https://www.muskokaloppet.ca",
       "lat": 45.3917,
-      "lng": -79.2146
+      "lng": -79.2146,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 350
     },
     "climate": {
       "primary": "Ontario shield winter",
@@ -90,8 +92,223 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Muskoka Loppet cross country ski race Arrowhead Provincial Park",
+      "videos": [
+        {
+          "video_id": "eIzufk9kB4w",
+          "title": "Arrowhead Nordic Ski Club hosts the Muskoka Loppet - Georgian Nordic",
+          "channel": "iSparks Solutions",
+          "view_count": 252,
+          "upload_date": "20180129",
+          "duration_string": "40",
+          "description": "Arrowhead Nordic Ski Club hosts the Muskoka Loppet in the breathtaking Arrowhead Provincial Park.  Georgian Nordic Ski Club from Parry Sound had several participates including 5km, 15km, and 30km skiers.  Absolutely beautiful day for a ski.",
+          "tags": [
+            "iSparks",
+            "iSparks Solutions",
+            "Muskoka Loppet",
+            "Georgian Nordic Ski Club",
+            "GNSCC",
+            "Arrowhead Provincial Park",
+            "Arrowhead Nordic Ski Club",
+            "Cross Country Ski",
+            "Track Attack Ski Races",
+            "Georgian Nordic Ski and Canoe Club"
+          ],
+          "url": "https://www.youtube.com/watch?v=eIzufk9kB4w",
+          "curated": false
+        },
+        {
+          "video_id": "z2jbNfB4W7I",
+          "title": "Muskoka Loppet 2012.mp4",
+          "channel": "Mike McVittie",
+          "view_count": 182,
+          "upload_date": "20120126",
+          "duration_string": "4:41",
+          "description": "This years Muskoka Loppet. Taking place at Arrowhead Provincial Park. It features a 5k, 15k and 30k xcountry ski race, winding through some of Muskoka's most beautiful scenery. Located just north of Huntsville, Ontario. Arrowhead is becoming famous for it's cross country ski trails.",
+          "tags": [
+            "Ski",
+            "Cross Country Ski",
+            "Race",
+            "Snow",
+            "Provincial Park",
+            "Loppet",
+            "Huntsville",
+            "Arrowhead Huntsville",
+            "Ontario"
+          ],
+          "url": "https://www.youtube.com/watch?v=z2jbNfB4W7I",
+          "transcript": "i am waxing skis for people\nand uh\nthe attempt to get the perfect wax\narrowhead is uh is moved ahead by leaps\nand bounds in terms of the quality of\nour grooming and the number of trails\nand the diversity of trails the classic\ntrails that we have the skate skiing\ntrails that we've had all the\nmodifications that we've done to our\ntrails to meet\nevent\ncriteria so that we can do provincial\nlevel championships\nthis is a kind of a trial run working\nthis la pate the muskoka law for\ncanada's oldest lofted\nin preparation for offside\num arrowhead nordic ski club we're a\nnon-profit organization and\nour goal is to promote the sport of\nnordic skiing in this area we run out of\narrowhead park here and we work in close\ncooperation with the park staff who are\namazing who do\njust amazing work to get this event of\nthis magnitude going together i think we\nhave about 300 members this year that's\nincluding we have a very strong\njackrabbit program for kids we have\nabout 160 jackrabbits\nwe have a racing program for teens\nand we have a adult learn to ski program\nfor people who want to just improve\ntheir techniques\nthe muskoka lopez been going on here\nabout 10 years i think um here in the\npark um the original muskoka opera used\nto run over the lake from port sydney to\nhuntsville that was years ago we have\npictures going back to the 1950s 1960s i\nbelieve\nbut this this race was resurrected\nprobably about 10 years ago by tracy\nmarshall and some other people\num today we have 220 racers which i\nthink is a record as far as my\nmicrorecollection go for in the recent\nyears\nwe have three different race courses\nthere's a 15k\na 30k\nand a 5k so the 5k is more for social\nskiers and kids and we have a couple\nspecial olympic skiers as well during\nthe 5k\nin terms of what it means to the local\ncommunity certainly everybody who comes\nto arrowhead needs a place to stay and\nwe're drawing people from all over the\nprovince so just one more thing about\nadding uh\nto the town of huntsville in terms of\nbeing a hospitality oriented\ntown that supports tourism not only\ntourism but the sport industry itself\nand winter sports is a big deal here\nship",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage with detailed commentary about course conditions, waxing, and the ski club's development.",
+          "display_order": 2
+        },
+        {
+          "video_id": "OeGwiyqPSns",
+          "title": "Muskoka Loppet 2012 start 30km",
+          "channel": "SnowMoreNow",
+          "view_count": 174,
+          "upload_date": "20120124",
+          "duration_string": "34",
+          "description": "This is the start of the 30km race (men and women)\n for the 2012 Muskoka Loppet at Arrowhead Provincial Park\n(just outside Huntsville, Ontario).",
+          "tags": [
+            "Arrowhead",
+            "Muskoka",
+            "loppet",
+            "ski",
+            "race",
+            "30k",
+            "30km"
+          ],
+          "url": "https://www.youtube.com/watch?v=OeGwiyqPSns",
+          "curated": false
+        },
+        {
+          "video_id": "1S3XPTfxgBo",
+          "title": "Arrowhead Provincial Park CrossCountry ski trail Huntsville Ontario Canada",
+          "channel": "Brian Hayden",
+          "view_count": 1195,
+          "upload_date": "20091207",
+          "duration_string": "41",
+          "description": "Chance meet while HD video trail at Arrowhead Provincial Park Ontario Muskoka Canada.  Sharon and I were on the Hidden Valley Downhill Ski Patrol in our University Years...been over 20 years since I seen her...that was her husband skiing away at the end.",
+          "tags": [
+            "Arrowhead",
+            "Provincial",
+            "Park",
+            "Huntsville",
+            "Muskoka",
+            "Loppett",
+            "2009",
+            "G8",
+            "2010",
+            "Host",
+            "site",
+            "Ontario",
+            "Youth",
+            "Winter",
+            "Games",
+            "Venue",
+            "Site"
+          ],
+          "url": "https://www.youtube.com/watch?v=1S3XPTfxgBo",
+          "transcript": "is that Brian\nyeah it's sh McKenzie okay there I go\nyou got it yeah okay well we'll see you\nI we're going to freeze up we're not\nwe're\nnot see you nice to see you\nbye good stride yeah\nthe",
+          "curated": false
+        },
+        {
+          "video_id": "KlBIeeABV5A",
+          "title": "Erika @ Muskoka Loppet 2012",
+          "channel": "Tom Dabek",
+          "view_count": 82,
+          "upload_date": "20120123",
+          "duration_string": "15",
+          "description": "Arrowhead Provincial Park, Hunstville, ON",
+          "tags": [
+            "nordic",
+            "classic",
+            "skiing",
+            "hunstville",
+            "cross",
+            "courntyr",
+            "loppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=KlBIeeABV5A",
+          "transcript": "oh",
+          "curated": false
+        },
+        {
+          "video_id": "H4yxMq-fscM",
+          "title": "Arrowhead Provincial Park Amphitheatre video presentation Muskoka Loppett 2009",
+          "channel": "InterHaydn",
+          "view_count": 135,
+          "upload_date": "20090611",
+          "duration_string": "3:09",
+          "description": "Muskoka Loppett video edited to be presented at the Arrowhead Provincial Park Amphitheatre this summer.  Video will play prior to the scheduled Wednesday and Saturday evening show.  Tried to show the youth participation and that families watching can see that this event is for families and competitiors as well.  The Loppett is a annual event that I have shot to be used by Arrowhead and the Ontario Youth Winter Games being held at Arrowhead Provincial Park January 2010 Crosscountry Venue. The competition is an earlier event because some competitors will be competing at the Vancouver 2010 Winter Olympics in Feburary.  A longer 29 minute DVD has been accepted by the Government of Canada to be considered for a 2010 Olympic Venue Presentation of Muskoka home of the 2010 G8 Summit.",
+          "tags": [
+            "Arrowhead",
+            "Provincial",
+            "Park",
+            "Muskoka",
+            "Loppett",
+            "2009",
+            "Ontario",
+            "Youth",
+            "Winter",
+            "Games",
+            "Crosscountry",
+            "Competition",
+            "Venue",
+            "G8",
+            "2010"
+          ],
+          "url": "https://www.youtube.com/watch?v=H4yxMq-fscM",
+          "transcript": "[Applause]\ngood 8 7 6 5 4 3 2 1\nall right there they\ngo so 15 km races should stop at the\nstart line please\nagain 5 4 3 2 1 go\nbye\n[Music]\nbye 7 6 5 4 3 2\n1 for\nset\ngo here comes number 74 Vicky ban of\nHuntsville\nOntario I don't know if you ever heard\nhunsville at the place not far from here\nnice and steady\nnice and steady ski your own race that's\nit that's it good\nwork Minnesota\nway out front that's where usually it's\npretty much NE and neck the start end\nhere comes the rest\neveryone 503 and\n52 all right\nnumber number 65 is Maran newiy\ngreat group always have so many of\ntheace every year all right",
+          "curated": true,
+          "curation_reason": "Race footage with start line commentary and finish coverage showing the family-friendly atmosphere.",
+          "display_order": 3
+        },
+        {
+          "video_id": "4eCkwPCUcTI",
+          "title": "Ontario 2010 Youth Muskoka Winter Games Nordic XC January 17 2010 Arrowhead",
+          "channel": "Brian Hayden",
+          "view_count": 183,
+          "upload_date": "20100127",
+          "duration_string": "8:11",
+          "description": "The Ontario Youth Winter Games with the CrossCountry Classic race in 7.5 race.  Teams from all over Ontario competed at these Provincial races and ages from 14 to 17 years.  Arrowhead Provincial Park the host venue with excellent snow and ski conditions.",
+          "tags": [
+            "Ontario",
+            "2010",
+            "Muskoka",
+            "Youth",
+            "Winter",
+            "Games",
+            "Nordic",
+            "January",
+            "17",
+            "Cross",
+            "Country",
+            "Classic",
+            "Arrowhead",
+            "Park",
+            "Huntsville",
+            "G8",
+            "Host",
+            "site"
+          ],
+          "url": "https://www.youtube.com/watch?v=4eCkwPCUcTI",
+          "transcript": "ready for you whatever\nwill work\nis\num\nkilometer classic\n7.5 kilometer classic\ncompetitors starting\nthey'll be ready to go just momentarily\ncome on\nnames are never any good\nokay\nbring him up\nclose the gap\nuh\nexcellent\noh\nkeep going\nnumber 291 good job good job\nnatalie hawthorne\nhardwood\n293 alexandre joyce\n292.\nfrom big thunder\nrealizes that a lot of this didn't come\nto fruition without the support of parks\nontario and i'd like to introduce two\npeople that were really critical to\nmaking this event happen\none is uh peter brian i asked just to\nput a hand up peter is our park\nsuperintendent and he made this thing\ncome together all the trail systems that\nwere designed have now been cut and\nthey've been put into place and we\nreally appreciate all the feedback that\nyou were able to give us over the last\ntwo days and that's been a really a good\nlearning point for us\nbeside peter is john ledston and he is\nthe assistant park superintendent and uh\nhe was also very instrumental in shaping\nthis vision so thank you very much to\nboth gentlemen\nyeah and in first place from porcupine\njessica demero's\nyes\nwe are now going on to the junior boys\ncategory the 10 kilometer event what's\nthat yeah\nand in third place\ncan i do a close-up of your mouth\nthere you go",
+          "curated": false
+        },
+        {
+          "video_id": "4CpN-ZWPBd4",
+          "title": "2025 Muskoka Loppet   HD 1080p",
+          "channel": "Timothy Du Vernet",
+          "view_count": 315,
+          "upload_date": "20250201",
+          "duration_string": "2:58",
+          "description": "The Muskoka Loppet, hosted by the Arrowhead Nordic Ski Club, was held on Sunday, January 26th. About 300 skiers participated and upwards of 40 volunteers made it all happen. Skiers from less than ten to more than 80 in age challenged themselves.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=4CpN-ZWPBd4",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Arrowhead has moved ahead by leaps and bounds in terms of the quality of our grooming and the number of trails and the diversity of trails - the classic trails that we have, the skate skiing trails that we've had, all the modifications that we've done to our trails to meet event criteria so that we can do provincial level championships.",
+          "source_video_id": "z2jbNfB4W7I",
+          "source_channel": "Mike McVittie",
+          "source_view_count": 182,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "Today we have 220 racers which I think is a record as far as my memory goes for the recent years. We have three different race courses - there's a 15k, a 30k, and a 5k so the 5k is more for social skiers and kids and we have a couple special olympic skiers as well.",
+          "source_video_id": "z2jbNfB4W7I",
+          "source_channel": "Mike McVittie",
+          "source_view_count": 182,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

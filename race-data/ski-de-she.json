@@ -1,0 +1,101 @@
+{
+  "race": {
+    "name": "Ski de She",
+    "slug": "ski-de-she",
+    "display_name": "Ski de She",
+    "tagline": "Twenty-four kilometers of classic skiing for women only — Wisconsin's all-women Nordic marathon celebrating the growing community of female distance skiers in the upper Midwest.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "24km classic",
+        "12km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 350,
+      "location": "Cable, Wisconsin",
+      "location_badge": "Wisconsin, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Wisconsin",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 150,
+      "founded": null,
+      "registration": "Online registration — women only",
+      "prize_purse": null,
+      "aid_stations": "Aid stations with warm drinks and snacks",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 46.21,
+      "lng": -91.01,
+      "field_size_estimate": 350,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Northern Wisconsin winter",
+      "description": "February in the Cable area benefits from Lake Superior's influence on the regional snowpack. Temperatures typically -16°C to -5°C. The Chequamegon National Forest area receives reliable snowfall and cold temperatures that preserve trail conditions.",
+      "typical_temp_c": "-16 to -5",
+      "challenges": [
+        "Deep cold in February with significant wind chill potential",
+        "Northern Wisconsin weather can be unpredictable",
+        "Remote Northwoods location requires travel planning",
+        "Classic technique on rolling terrain demands good wax selection"
+      ]
+    },
+    "course": {
+      "primary": "Classic-technique course on the trail system near Cable, Wisconsin — the same Northwoods region that hosts the American Birkebeiner. Rolling terrain through the Chequamegon National Forest. Well-groomed classic tracks through hardwood and pine forest with moderate hills.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through Northwoods forest",
+      "technical_rating": 2,
+      "grooming": "Good grooming — benefits from Birkie trail infrastructure",
+      "features": [
+        "Women-only event — dedicated space for female Nordic skiers",
+        "Located in the Birkebeiner trail system near Cable, WI",
+        "Chequamegon National Forest — classic Northwoods landscape",
+        "Classic technique only — traditional format",
+        "Growing community of women in distance Nordic skiing",
+        "Same region as the American Birkebeiner"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 44,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 1,
+      "score_note": "The women-only format is the defining and most valuable feature — very few events offer this in Nordic skiing. Strong community score for building female participation. Benefits from the Birkebeiner trail system infrastructure. Shorter distance, limited competitive depth, and regional scope keep the overall score modest.",
+      "tier_note": "Score 44 places in TIER 4 range (<45)"
+    },
+    "history": {
+      "summary": "Ski de She is a women-only cross-country ski marathon held near Cable, Wisconsin, in the heart of the American Birkebeiner trail system. The event was created to provide a dedicated space for women in distance Nordic skiing, addressing the underrepresentation of women in citizen ski marathons. Held in the Chequamegon National Forest, it benefits from the trail infrastructure built for the nearby American Birkebeiner.",
+      "notable_facts": [
+        "Women-only event — one of very few women's-exclusive ski marathons in North America",
+        "Located near Cable, WI — heart of the American Birkebeiner trail system",
+        "Chequamegon National Forest provides the Northwoods setting",
+        "Addresses the growing participation of women in distance Nordic skiing",
+        "Classic technique only — honoring traditional skiing",
+        "Benefits from the Birkebeiner trail grooming and infrastructure"
+      ],
+      "founded": 2022
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "race": {
+    "name": "McMurdo Ski Race",
+    "slug": "mcmurdo-ski-race",
+    "display_name": "McMurdo Ski Race",
+    "tagline": "Twenty kilometers on Ross Island at the bottom of the world — the southernmost cross-country ski race on Earth.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "20km",
+        "10km"
+      ],
+      "elevation_m": 100,
+      "altitude_m": 50,
+      "location": "Ross Island, McMurdo Station",
+      "location_badge": "McMurdo Station, Antarctica",
+      "country": "Antarctica",
+      "country_code": "AQ",
+      "region": "Ross Dependency",
+      "date": "Mid-October (austral spring)",
+      "date_specific": "2026: October 17",
+      "discipline": "both",
+      "field_size": 50,
+      "founded": 2003,
+      "registration": "Open to McMurdo and Scott Base personnel only — registration through station recreation committee",
+      "prize_purse": "None (bragging rights in the most remote race on Earth)",
+      "aid_stations": "1 station with hot drinks and chocolate at the turnaround",
+      "cutoff_time": "4 hours",
+      "website": "https://www.usap.gov",
+      "lat": -77.85,
+      "lng": 166.6667,
+      "field_size_estimate": 50,
+      "elevation_gain_m": 100
+    },
+    "climate": {
+      "primary": "Antarctic polar",
+      "description": "McMurdo Station sits on Ross Island at 77°S. October is early austral spring with 24-hour daylight returning. Temperatures range from -30°C to -15°C. Katabatic winds descending from the Transantarctic Mountains can reach 100+ km/h without warning. Wind chill can push effective temperatures below -50°C. Snow is dry, wind-packed, and crystalline.",
+      "typical_temp_c": "-25 to -15",
+      "challenges": [
+        "Katabatic winds can appear without warning — race may be postponed or cancelled",
+        "Extreme cold with wind chill below -50°C requires full face protection",
+        "Altitude equivalent effect — low barometric pressure at high latitude mimics ~1,000m altitude",
+        "No rescue infrastructure beyond station medical facilities",
+        "UV radiation extreme with 24-hour daylight and ozone-depleted atmosphere"
+      ]
+    },
+    "course": {
+      "primary": "Out-and-back course on the Ross Ice Shelf and sea ice near McMurdo Station, with views of Mount Erebus — the southernmost active volcano — and the Transantarctic Mountains. Flat, windswept terrain on packed snow and sea ice. The course is surveyed for crevasse safety before each race.",
+      "format": "out-and-back",
+      "surface": "Wind-packed snow and sea ice, flagged course with no grooming",
+      "technical_rating": 2,
+      "grooming": "No grooming — natural wind-packed surface, flagged route only",
+      "features": [
+        "World's southernmost cross-country ski race at 77°S",
+        "Views of Mount Erebus, the southernmost active volcano on Earth",
+        "Course surveyed for crevasse safety before each edition",
+        "24-hour daylight in October — no headlamps needed",
+        "Participants are Antarctic research station personnel — scientists, support staff, and military"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 1,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 4,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 1,
+      "score_note": "Sum 33/70 = 47.14, rounds to 47. The ultimate novelty race — perfect snow reliability and unmatched scenery in the most inaccessible place on Earth. Community scores high because the McMurdo social fabric is uniquely tight.",
+      "tier_note": "Score 47 >= 45, TIER 3. No prestige override (prestige=3)."
+    },
+    "history": {
+      "summary": "Organized informally since the early 2000s by outdoor recreation staff at McMurdo Station, the United States Antarctic Program's main research base. The race began as a morale event for winterover personnel and has grown to include summer-season staff from McMurdo and neighboring New Zealand's Scott Base. Participants are scientists, engineers, pilots, cooks, and support staff — no tourists. The race represents the extreme frontier of Nordic skiing, held on Ross Island where Scott and Shackleton launched their legendary expeditions.",
+      "notable_facts": [
+        "McMurdo Station is the largest research station in Antarctica with ~1,000 summer residents",
+        "The race is held near the historic huts of Scott (1902) and Shackleton (1908)",
+        "Mount Erebus (3,794m) — the southernmost active volcano — dominates the course backdrop",
+        "Only accessible by military or research aircraft — no commercial flights to McMurdo",
+        "The Ross Ice Shelf adjacent to the course is the world's largest floating ice mass",
+        "Multi-national field — personnel from the US, New Zealand, Italy, and other Antarctic Treaty nations"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "McMurdo Station ski race Antarctica cross country skiing Ross Island",
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

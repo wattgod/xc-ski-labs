@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Nordic Lab Race Profile",
-  "description": "XC ski race profile for Nordic Lab race database",
+  "title": "XC Ski Labs Race Profile",
+  "description": "XC ski race profile for XC Ski Labs race database",
   "type": "object",
   "required": ["race"],
   "properties": {

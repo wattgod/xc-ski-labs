@@ -1,0 +1,286 @@
+{
+  "race": {
+    "name": "Methow Valley Ski Marathon",
+    "slug": "methow-valley-ski-marathon",
+    "display_name": "Methow Valley Ski Marathon",
+    "tagline": "Forty-two kilometers across the sun-drenched Methow Valley — Pacific Northwest skiing at marathon distance.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km marathon",
+        "21km half marathon"
+      ],
+      "elevation_m": 589,
+      "altitude_m": 600,
+      "location": "Winthrop, Washington",
+      "location_badge": "Washington, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Washington",
+      "date": "Early February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 300,
+      "founded": 1993,
+      "registration": "Online registration; limited field",
+      "prize_purse": null,
+      "aid_stations": "Aid stations every 10km with warm drinks and food",
+      "cutoff_time": null,
+      "website": "https://www.mvsta.com",
+      "lat": 48.4735,
+      "lng": -120.186,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 589
+    },
+    "climate": {
+      "primary": "Pacific Northwest mountain winter",
+      "description": "The Methow Valley sits in the rain shadow of the North Cascades, producing cold dry winters with reliable snowfall. February temperatures typically range from -15°C to 0°C. The valley's eastside location gives it more continental-style cold and dry snow than the wet western slopes.",
+      "typical_temp_c": "-15 to 0",
+      "challenges": [
+        "Occasional warm Chinook winds can soften snow rapidly",
+        "Cold morning starts with significant temperature swings by afternoon",
+        "Dry air and sun at altitude can cause dehydration",
+        "Remote location means weather changes can be impactful"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point through the Methow Valley trail system, one of the largest groomed Nordic trail networks in North America. The course follows the valley floor and surrounding terrain through open meadows and pine forests with stunning views of the North Cascades. Rolling terrain with sustained climbs.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed trails through Methow Valley trail system",
+      "technical_rating": 3,
+      "grooming": "Excellent grooming by the Methow Valley Sport Trails Association (MVSTA)",
+      "features": [
+        "Methow Valley has over 200km of groomed trails — largest Nordic network in North America",
+        "Stunning North Cascades mountain backdrop",
+        "Dry cold snow typical of east-side Cascades location",
+        "Point-to-point through diverse terrain from meadows to forest",
+        "Small-town Western atmosphere in Winthrop and Mazama",
+        "Excellent grooming by the renowned MVSTA"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 59,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 2,
+      "score_note": "Outstanding scenery and world-class grooming on the largest Nordic trail network in North America. Remote location and small field limit its broader reach, but the skiing is exceptional.",
+      "tier_note": "Score 59 places in TIER 3 range"
+    },
+    "history": {
+      "summary": "The Methow Valley Ski Marathon takes advantage of the Methow Valley Sport Trails Association (MVSTA) trail network, one of the largest groomed Nordic systems in North America with over 200km of trails. Founded in 1993, the race showcases the dry, cold snow and spectacular mountain scenery of the North Cascades rain shadow. The Methow Valley has become one of the premier Nordic destinations in the Pacific Northwest.",
+      "notable_facts": [
+        "The MVSTA maintains over 200km of groomed Nordic trails",
+        "The Methow Valley sits in the rain shadow of the North Cascades, producing dry powder snow",
+        "Winthrop is a restored Old West-themed town that serves as a tourism hub",
+        "The valley is considered one of the top Nordic ski destinations in the western US",
+        "Mazama and Winthrop communities provide strong local support for Nordic skiing"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Methow Valley Ski Marathon cross country ski race Winthrop",
+      "videos": [
+        {
+          "video_id": "6baQmODOnlc",
+          "title": "Ski To Sun Marathon Cross-country Ski Race 2019",
+          "channel": "Dr. Telemark's Backcountry Northwest",
+          "view_count": 5498,
+          "upload_date": "20190130",
+          "duration_string": "6:51",
+          "description": "Enjoy scenes from the Methow Valley Nordic and Methow Trails Ski to Sun Marathon Race in January 26th, 2019.  40 kilometer marathon and relay race through the scenic Methow Valley.",
+          "tags": [
+            "Methow Valley",
+            "Methow nordic",
+            "nordic ski racing",
+            "Methow trails"
+          ],
+          "url": "https://www.youtube.com/watch?v=6baQmODOnlc",
+          "transcript": "[Music]\nw\niot\ncold going to need sunglasses if we're\ngoing to the Sun\nwhat\n[Applause]\nfinish is our race director\nM master master\nCrow oh guys\nI'll give him a list and Mikey from\ndingham the final straight away is lo\nwoo almost\nthere not you're almost\nthere minutes\nhello looking\ngreat\nsuper coming around the final Bend is\nEMT percel from Helena\nMontana were great give him\nit Follow by CHR Le\nis excellent perfect it was awesome\ngreat groming beautiful\nday I'm Liz Steven and I so psyched to\nbe here at the race in the metto the SK\nto Sun it is like a beautiful\nday we could not have hoped for more\nperfect weather or more perfect tracks\nand um very cool to have the kids be\nable to do a relay as well as have like\nus oldies like to do the long stuff so\num I couldn't be more excited to be here\nespecially to be in like winter\nwonderland here in the metto it's been\non my short list for a long time places\nto be so um this race I mean it went off\nso smoothly um and it was so fun and\nbeautiful to ski through the trees and\nto end that's such a perfect place like\nthe Sun Mountain Lodge I could not be\nmore excited to be here so thank you\neveryone for having me here and thanks\nfor showing off your town",
+          "curated": true,
+          "curation_reason": "Race day coverage with skier testimonials about course conditions, grooming quality, and race atmosphere through the scenic Methow Valley.",
+          "display_order": 2
+        },
+        {
+          "video_id": "AxzAX7zRzD8",
+          "title": "Methow Valley Nordic Ski Team",
+          "channel": "Dr. Telemark's Backcountry Northwest",
+          "view_count": 735,
+          "upload_date": "20191118",
+          "duration_string": "3:30",
+          "description": "Here is a short promo video for the Methow Nordic Ski Team sponsored by the local community through the Methow Valley Nordic Ski Educational Foundation.",
+          "tags": [
+            "Methow Valley",
+            "Nordic skiing",
+            "Crosscountry skiing",
+            "Ski foundation"
+          ],
+          "url": "https://www.youtube.com/watch?v=AxzAX7zRzD8",
+          "transcript": "[Music]\nhi my name is Pete Leonard I'm the\nexecutive director for metal Valley\nNordic ski educational foundation and I\ncame out here because I knew there was a\ngreat cross-country ski community and a\ngreat place to cross-country ski and I\nsaw you know in kind of a small\ncommunity with huge potential to really\ndo some really cool things through the\nsport of cross-country skiing across\nacross all sorts of age ranges just you\nknow from kids to racing team to adults\nand so on\nnext this year I am going to on an oppa\ntrip and so I'll go to race that oppa\nfinals in Germany and that will be fun I\nget to go on a trip with like some of\nthe girls that I was at World Juniors\nwith\nso we really started to gathering the\nyounger kids pretty much from the ages\nof six through seventh grade because\nit's only high schoolers on the team\nwhen I moved here that's what really\nstarted to build the team so that\nstarted to build build build and from we\nhave probably maybe eight to ten stairs\nwhen I came and now well we sort of just\na little bit and one of my goals is I'm\ngonna qualify for this trip that's\ncalled like the scanned our trip is sort\nof like a u.s. trip to races it's\nScandinavia and to qualify you have to\ndo well at senior nationals and that's\nthe race right home kind of destroy it\nso that means I'll have to train really\nwell like fall early season material\nappearances\nearly January race so have to be ready\nfor that that's behind let's do well\nthere",
+          "curated": false
+        },
+        {
+          "video_id": "szplFAEi7ao",
+          "title": "Ski To the Sun 2022 - Final Version",
+          "channel": "Dr. Telemark's Backcountry Northwest",
+          "view_count": 2194,
+          "upload_date": "20220213",
+          "duration_string": "9:41",
+          "description": "Hosted by the Methow Trails and Methow Valley Nordic Skiing Educational Foundation, this marathon length race stretches the length of the Methow Valley from Mazama up to Sun Mountain.  41+ km with a rigorous uphill the last 10 kilometers.\n\nFilmed and edited in under 12 hours.  \nTelegraphix Studios in Winthrop, Washington",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=szplFAEi7ao",
+          "transcript": "[Music]\nnow\nare you gonna be racing today\nexcellent that sounds great\ntoday's exciting day i've been out\nskiing a ton i've never been in a race\nand it's fun to see all these people\nhere so i'm super excited to go out and\ntry it i don't know where i'm going to\nfit into the pack\nokay\n[Applause]\nso\nwoohoo\ndoing it in fine fast fashion absolutely\nclose and fast\nerickson at the finish line\nthis is\nlooks like we have jack barney from\ntacoma washington\ntip number 60.\nlooks like marines\nwashington\nhi i'm eric bjornson i grew up here in\nthe methow valley\nand went on to compete in two olympics\nit's really fun for me to come back to\nthe mehow valley i live here now with my\nwife marine we own winthrop mountain\nsports um\nwe're actually one of the the main\nsponsors of this event with a sun\nso we're really happy to compete here\nwith all of our friends and it's such a\nwonderful event\nit's so fun to get the community\ntogether it's really nice to be able to\nrace in a real event after two years of\nyou know just doing virtual or not\nracing at all seeing so many people and\nhappy faces it's\nbeen a great time\nplaying number 272.\nbrother and sister\nyou",
+          "curated": true,
+          "curation_reason": "Recent race coverage with skier interviews, finish line footage, and specific details about the 41+ km course with rigorous 10km uphill finish.",
+          "display_order": 1
+        },
+        {
+          "video_id": "A72VUOD_FE4",
+          "title": "Ski the  Methow Valley Rendezvous Trails",
+          "channel": "BestoftheNW",
+          "view_count": 346,
+          "upload_date": "20180312",
+          "duration_string": "1:38",
+          "description": "Popular destinations for overnight hut camping the Rendezvous trails cover valley floor to high-forested ridges above Methow Valley and the Cub Creek side. \n\nhttp://botnw.com/methow-valley-rendezvous-trails/",
+          "tags": [
+            "nordic skiing",
+            "trails",
+            "washington",
+            "best of the NW"
+          ],
+          "url": "https://www.youtube.com/watch?v=A72VUOD_FE4",
+          "transcript": "the high trails of the iconic metal\nvalley popular destinations for\novernight Hut cake the rendezvous trails\ncovered valley floor\n- hi forested ridges above metal Valley\nand the Cup Creekside welcome to best of\nthe Northwest\naccess Luke from the cut Creek Trailhead\na few miles northeast of town the main\nroute steadily climbs along summer roads\nand campgrounds to wintertime trails\n[Music]\ncleverly named cougar bait\nclimb up the relentlessly steep Cedar\nCreek loop trail to the heifer Hut high\npoint the higher elevation ridges make\nfor great early season and spring steam\ndescend traversing across bridges to the\ncow Creek junction connecting back to\nthe rolling Cub Creek Trail that loops\nback creek side to the Cub Creek\nTrailhead this is a great access point\nfor the shorter lower trail swoops or\nthe more ambitious up and over upper\npond creek route and connect to the\nmetal valley floor trails and Mazon\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "Ci5RlKgKaMQ",
+          "title": "30k Ski from Winthrop to Mazama on February 20, 2015",
+          "channel": "Methow Trails",
+          "view_count": 1311,
+          "upload_date": "20150221",
+          "duration_string": "1:09",
+          "description": "Spectacular day for a 30 kilometer ski from Winthrop to Mazama!  Conditions were fantastic. Come ski the Methow, you will not regret it.  Daily grooming report and photos on our website at methowtrails.org and our Methow Trails Facebook page.",
+          "tags": [
+            "methow trails",
+            "30k ski",
+            "winthrop",
+            "mazama",
+            "ski the methow",
+            "cross-country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=Ci5RlKgKaMQ",
+          "curated": false
+        },
+        {
+          "video_id": "i6OalNx9wl4",
+          "title": "Race the Methow",
+          "channel": "Methow Grist",
+          "view_count": 308,
+          "upload_date": "20130107",
+          "duration_string": "1:32",
+          "description": "A junior nordic qualifier race for the Pacific Northwest. See the latest video at MethowGrist.com.",
+          "tags": [
+            "Nordic",
+            "Ski",
+            "Race",
+            "Twisp",
+            "Winthrop"
+          ],
+          "url": "https://www.youtube.com/watch?v=i6OalNx9wl4",
+          "transcript": "this is a junior qualifier for the\nPacific\nNorthwest I'm lesie Hall the director of\nthe metal Valley Nordic team and we're\nhere today at the race the\nMeto go\ngo so this is the first of four\nqualifying events for our Junior skiers\nand so they have to qualify in six out\nof eight of their Races they have two\nthis weekend and and um so it's just the\nfirst step on their road towards\nFairbanks and it's just a great fun\nevent we have a lot of kids that aren't\nworking towards Junior Nationals the\nyounger kids are out here just having a\ngood time getting experience racing and\nwe're all enjoying our great venue and\ngreat place to\nbe\na",
+          "curated": false
+        },
+        {
+          "video_id": "LyxPQbdwPkI",
+          "title": "Methow Valley Nordic Team - Jan 31st Time Trial",
+          "channel": "cascadiaborealis",
+          "view_count": 489,
+          "upload_date": "20090203",
+          "duration_string": "6:49",
+          "description": "The Methow Valley Nordic Team was out this weekend skiing the Liberty Bell High School trails. Watch them sharpen their skills for next weekend's Race of the Methow event. \r\nWe hope to see you there!",
+          "tags": [
+            "methow valley",
+            "nordic",
+            "skiing",
+            "XC"
+          ],
+          "url": "https://www.youtube.com/watch?v=LyxPQbdwPkI",
+          "transcript": "let's go spitter\n[Music]\nSP\nfore fore spee\nspe\nspeech fore spe speech speeech\nthe e\naing\nfore foree\nthere's\n[Applause]\nalso keep it up\nchance to bring it\ndown by then you're winding it up\nI thought first is pretty good it longer\nthan I\nexpected it's a challenging course yeah\nit's a lot of hill Hills are really\ntough\nsteep hills big Hills there's not really\nany flat spots except for\nthe the um stadium so uhhuh what about\nconditions it was good fast were good\nwas fast it was icy underneath though so\non certain steep Corners you got little\nice it was a little bit hard but it was\ngood it was a good race okay how you\nfeel for next weekend feel good feel\nfast we've been more working on the\nSprint course and so I think we're going\nto be good to\ngo on good how's the new course it's\ntough to say the least it's really hilly\nit's different it's going to be a\nchallenge to do in like real races too\nso it'll\nbe big challenge Big Goal",
+          "curated": false
+        },
+        {
+          "video_id": "ev0O05pM018",
+          "title": "Ski to the Sun Ski Marathon & Relay 2019",
+          "channel": "Kent Murdoch",
+          "view_count": 1563,
+          "upload_date": "20181221",
+          "duration_string": "1:52",
+          "description": "A 42km XC ski race in the Methow Valley, WA. Individual and relay options. Part of the American Ski Marathon Series. For more information visit https://www.methowtrails.org/events/2019-ski-to-the-sun-marathon-and-relay/01-26-2019",
+          "tags": [
+            "Cross Country Skiing american ski marathon series Methow Valley MVNSEF Cross country ski racing"
+          ],
+          "url": "https://www.youtube.com/watch?v=ev0O05pM018",
+          "curated": false
+        },
+        {
+          "video_id": "ZYWcH1CcOCs",
+          "title": "Methow valley cross country skiing / Mazama / Upper River Run to Jacks Point / Bush school trailhead",
+          "channel": "Rei's Roamings",
+          "view_count": 337,
+          "upload_date": "20210326",
+          "duration_string": "9:12",
+          "description": "This video showcases our cross country ski trip up in Mazama starting from the Bush School Trailhead towards Upper River Run trail towards Jacks Point and looping back down Upper Jacks to Cassal Cutoff and back via the Methow trail.\n\n\n\nIt was a wonderful cross country ski experience, the views were phenomenal and we saw maybe 4 couples all together during this trip so it was mostly just us and nature the whole time.\n\n\n\nFor more content, questions or travel and adventure ideas, comment below! And join my FB group Rei's Roamings at https://www.facebook.com/groups/809854716456895\n\n\nThanks for watching!",
+          "tags": [
+            "#mazama",
+            "#crosscountryski"
+          ],
+          "url": "https://www.youtube.com/watch?v=ZYWcH1CcOCs",
+          "transcript": "so\njust like a pro\nare you ready kurt i am ready\ni might not be\nwe are at mazama\nthat's the goat wall which\nlooks very great for rock climbing\nand we are headed towards the river\n[Music]\nmatthau valley is the largest\ncross-country trail system in north\namerica\nthat's over 120 miles of available\nnordic skiing\nstretching from winthrop all the way to\nmazama\nthey have many beginner and intermediate\nlevel runs\nin sun mountain winthrop and mazama\nand if you want more intermediate to\nadvanced trails\nrendezvous is the place to be at\non our first day we explored sun\nmountain trails\nand true to its name the trails were\nmostly exposed to the sun\nand the views of the surrounding\nmountains were breathtaking\nstarting out our trail\nwoohoo\non our second day we explored the mazama\narea\nand the trails here were so scenic and\nbeautiful\ni have to admit that i prefer this even\nover the beauty\nof sun mountain we started out at the\nbush\nschool trailhead and followed the river\nrun trail\nall the way to upper jack's leap you can\nsee the beauty of mazama\nin the snippets of our cross-country\nskiing trip here\nwow\n[Applause]\npicture look at how clear the water is\nriver run we are literally next to the\nriver\nlast chance point wow\nbeautiful that's where we came from the\nriver run\noh wow another cross-country skier there\nyou want to go to the warming hut\ncowbeach we hit the one hill here\nlet's watch the pro go up rather than me\nhe looks like a pro compared to me\n[Laughter]\nyou're kidding me\nthe duck walk\nthis is gonna be fun going down\nthank god\ni don't know if that was a green room\ndon't feel like a green to me\nwell it's the green ah you kidding me\noh\nhey\nwe\nthis goat wall\na big meadow here and there's skirt say\nhi kerr\nlook at that look at how peaceful it is\nhere\ntaking a break at jack's point\nlook at this view though\nthis is what we're watching and looking\nout on\nwhile we're resting\n4.\nyou",
+          "curated": true,
+          "curation_reason": "POV skiing content showcasing the Mazama area trails that are part of the race course, with detailed terrain and trail system information.",
+          "display_order": 3
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It was so fun and beautiful to ski through the trees and to end at such a perfect place like the Sun Mountain Lodge. The race went off so smoothly and we could not have hoped for more perfect weather or more perfect tracks.",
+          "source_video_id": "6baQmODOnlc",
+          "source_channel": "Dr. Telemark's Backcountry Northwest",
+          "source_view_count": 5498,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "It's really fun for me to come back to the Methow Valley after competing in two Olympics. It's so fun to get the community together and it's really nice to be able to race in a real event after two years of virtual or not racing at all.",
+          "source_video_id": "szplFAEi7ao",
+          "source_channel": "Dr. Telemark's Backcountry Northwest",
+          "source_view_count": 2194,
+          "category": "community",
+          "curated": true
+        },
+        {
+          "text": "Methow Valley is the largest cross-country trail system in North America with over 120 miles of available nordic skiing stretching from Winthrop all the way to Mazama.",
+          "source_video_id": "ZYWcH1CcOCs",
+          "source_channel": "Rei's Roamings",
+          "source_view_count": 337,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

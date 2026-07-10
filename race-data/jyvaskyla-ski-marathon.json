@@ -6,7 +6,11 @@
     "tagline": "Fifty kilometers along the Metso Route through the Finnish Lakeland — where a thousand frozen lakes frame the quintessential Nordic ski marathon in the heart of Central Finland.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km classic", "50km freestyle", "30km"],
+      "distance_options": [
+        "50km classic",
+        "50km freestyle",
+        "30km"
+      ],
       "elevation_m": 400,
       "altitude_m": 150,
       "location": "Jyväskylä",
@@ -17,7 +21,7 @@
       "date": "March",
       "date_specific": null,
       "discipline": "both",
-      "field_size": "~1,100",
+      "field_size": 1100,
       "founded": null,
       "registration": "Open registration",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 62.2426,
-      "lng": 25.7473
+      "lng": 25.7473,
+      "field_size_estimate": 1100,
+      "elevation_gain_m": 400
     },
     "climate": {
       "primary": "Finnish Lakeland winter",
@@ -85,10 +91,172 @@
         "Finnish Lakeland is a UNESCO-recognized landscape"
       ]
     },
-    "series_membership": ["euroloppet"],
+    "series_membership": [
+      "euroloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Jyväskylä Ski Marathon cross country ski race Jyväskylä",
+      "videos": [
+        {
+          "video_id": "Q-Ow2CsWy8s",
+          "title": "Jyväskylä Ski Marathon",
+          "channel": "Ski Jyväskylä",
+          "view_count": 410,
+          "upload_date": "20220218",
+          "duration_string": "1:00",
+          "description": "Jyväskylä Ski Marathon hiihdetään lauantaina 12.3.2022 upealla reitillä Jyväskylästä Laukaan Peurunkaan. Tapahtuma kuuluu Euroloppet Main Race -sarjaan. 50km reitti hiihdetään Vaajakoskelta Peurunkaan, jossa reitin ensimmäinen puolikas kiertää Vaajakosken mäkisissä maastoissa. Profiililtaan helpompi 30km reitti vie osallistujat Huhtasuolta Peurunkaan. Molempien pitkien matkojen maali sijaitsee Kylpylähotelli Peurungassa. Tapahtuman lyhin eli 10km reitti kulkee puolestaan laduilla Peurungan maastoissa.\n\nJyväskylä Ski Marathon soveltuu kaikille hiihdon ystäville aina kilpahiihtäjistä kuntohiihtäjiin. Lämpimästi tervetuloa!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Q-Ow2CsWy8s",
+          "curated": false
+        },
+        {
+          "video_id": "JiH18Kb1lUg",
+          "title": "Jyväskylä Ski Marathon",
+          "channel": "Ski Jyväskylä",
+          "view_count": 909,
+          "upload_date": "20180703",
+          "duration_string": "1:15",
+          "description": "Welcome video",
+          "tags": [
+            "Jyväskylä Ski Marathon",
+            "xc-skiing",
+            "Finland",
+            "Jyväskylä",
+            "winter",
+            "Ski Jyväskylä",
+            "maastohiihto",
+            "euroloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=JiH18Kb1lUg",
+          "curated": false
+        },
+        {
+          "video_id": "UMwtmDgUQlQ",
+          "title": "Jyväskylä Ski Marathon 2022:  kooste perinteisen kilpailusta",
+          "channel": "Matti Purojärvi",
+          "view_count": 2227,
+          "upload_date": "20220412",
+          "duration_string": "10:17",
+          "description": "Lauantaina 12.3.2022 hiihdettiin Jyväskylä Ski Marathon upealla hiihtoreitillä Jyväskylästä Laukaan Peurunkaan. Tämä lyhyt kooste (10 min) seuraa kärkihiihtäjien kilpailua. Lopussa miesten ja naisten sarjan voittaneiden haastattelut. \n\nVapaan 50 km kilpailusta on tulossa erillinen kooste. Samoin maalialueen yleisistä tapahtumista ja maaliintuloista.\n\nJyväskylä Ski Marathon kuuluu Euroloppet Main Race -sarjaan.",
+          "tags": [
+            "ski marathon",
+            "jyväskylä ski",
+            "hiihto",
+            "hiihtokilpailu",
+            "vaajakoski",
+            "peurunka",
+            "ampujien maja",
+            "euroloppet",
+            "olli tyrväinen",
+            "anni kainulainen",
+            "perinteinen hiihtotapa"
+          ],
+          "url": "https://www.youtube.com/watch?v=UMwtmDgUQlQ",
+          "curated": true,
+          "curation_reason": "Race coverage showing classic technique competition with interviews from winners and course footage from Jyväskylä to Peurunka.",
+          "display_order": 2
+        },
+        {
+          "video_id": "PX2Y8bymGkc",
+          "title": "Jyväskylä Ski Marathon 2019 - latupartiossa",
+          "channel": "Antti Korttinen",
+          "view_count": 520,
+          "upload_date": "20190310",
+          "duration_string": "1:03",
+          "description": "Latupartiohommissa Ski Marathonilla Vaajakoskelta Peurunkaan.",
+          "tags": [
+            "GoPro",
+            "euroloppet",
+            "xcski",
+            "jyvaskylaskimarathon",
+            "peurunka",
+            "vaajakoski",
+            "Finland"
+          ],
+          "url": "https://www.youtube.com/watch?v=PX2Y8bymGkc",
+          "curated": false
+        },
+        {
+          "video_id": "KDjTG4rtuos",
+          "title": "Nordic Junior Competitions - X-Country Skiing",
+          "channel": "Ski Jyväskylä",
+          "view_count": 2067,
+          "upload_date": "20230219",
+          "duration_string": "5:17:47",
+          "description": "Sunday 19 February Cross country skiing relays (3 x 3k women and 3 x 5k men)\n\n10:00-12:00 Relays (C/F) 3 x 3 km (W), 3 x 5 km (M)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=KDjTG4rtuos",
+          "curated": false
+        },
+        {
+          "video_id": "JZcIdM_Dga8",
+          "title": "Kuntohiihtäjän voitelu: Jyväskylä Ski Marathon 11.3.2023",
+          "channel": "#huoltoukko",
+          "view_count": 2158,
+          "upload_date": "20230311",
+          "duration_string": "17:17",
+          "description": "Huoltoukko kävi itse hiihtämässä Jyväskylässä 50km perinteisellä. Tässä pitotälliä millä mentiin (ja luistot kerrottu, mutta ei kuvattu) sekä pari klippiä ladun varresta + yhteenveto.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=JZcIdM_Dga8",
+          "curated": true,
+          "curation_reason": "Recent skier perspective video from 2023 focusing on waxing and personal race experience on the 50km classic course.",
+          "display_order": 1
+        },
+        {
+          "video_id": "IYFgF584N00",
+          "title": "Jätkänkynttilä Ski Marathon 2022",
+          "channel": "Jätkänkynttilä Ski Marathon",
+          "view_count": 191,
+          "upload_date": "20220913",
+          "duration_string": "1:31",
+          "description": "Jätkänkynttilä Ski Marathon 19.3.2022 aftermovie.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=IYFgF584N00",
+          "transcript": "I'm walking alone the streets are empty\nthe only thing I can see is my own\nsilhouette I'm getting stronger step by\nstep the clock is sticking but there's\nno time for me\nI've been flying from town to town\ntrying to protect your souls\ntonight we will fly above the sky we are\nheroes tonight\nwith you\n[Music]",
+          "curated": false
+        },
+        {
+          "video_id": "f9LXPNSe5uM",
+          "title": "Cross Country 8 km",
+          "channel": "Jyväskylän liikuntapalvelut",
+          "view_count": 1488,
+          "upload_date": "20111103",
+          "duration_string": "3:05",
+          "description": "Ilmoittautuminen on alkanut!\r\nOnline registration has begun!\r\n\r\nwma2012.jyvaskyla.fi\r\n\r\nwww.facebook.com\r\n\r\nhttp://www.danosongs.com",
+          "tags": [
+            "cross",
+            "country",
+            "maastojuoksu",
+            "wma",
+            "wma2012",
+            "jyväskylä"
+          ],
+          "url": "https://www.youtube.com/watch?v=f9LXPNSe5uM",
+          "transcript": "do\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "0sQXNd4wKFA",
+          "title": "VLOG 12/Euroloppet Skadi-Loppet",
+          "channel": "Lorenz Lampl",
+          "view_count": 254,
+          "upload_date": "20180318",
+          "duration_string": "3:56",
+          "description": "My second Euroloppet this year. Watch out to see what I`ve become.",
+          "tags": [
+            "XC skiing",
+            "Euroloppet",
+            "Skadi-Loppet",
+            "Hard Races",
+            "Roadtoworldcup",
+            "Bodenmais"
+          ],
+          "url": "https://www.youtube.com/watch?v=0sQXNd4wKFA",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

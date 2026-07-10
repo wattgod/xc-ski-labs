@@ -1,0 +1,338 @@
+{
+  "race": {
+    "name": "Ski Trail Tannheimer Tal",
+    "slug": "ski-trail-tannheimer-tal",
+    "display_name": "Ski Trail Tannheimer Tal",
+    "tagline": "Thirty kilometers through Tirol's hidden valley — where Austrian hospitality meets perfectly groomed Alpine trails.",
+    "vitals": {
+      "distance_km": 24,
+      "distance_options": [
+        "30km",
+        "20km",
+        "10km"
+      ],
+      "elevation_m": 50,
+      "altitude_m": 1100,
+      "location": "Tannheimer Tal, Tirol",
+      "location_badge": "Tirol, Austria",
+      "country": "Austria",
+      "country_code": "AT",
+      "region": "Tirol",
+      "date": "January",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 1500,
+      "founded": 1985,
+      "registration": "Online registration, typically opens in autumn",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations along the valley course",
+      "cutoff_time": null,
+      "website": "https://www.tannheimertal.com/en/tannheimer-tal/events/highlights/ski-trail/",
+      "lat": 47.5,
+      "lng": 10.55,
+      "field_size_estimate": 2000,
+      "elevation_gain_m": 50
+    },
+    "climate": {
+      "primary": "Alpine valley",
+      "description": "The Tannheimer Tal is a high valley at 1,100m in the Northern Limestone Alps. January conditions typically bring reliable snow cover with cold temperatures moderated by the valley's sheltered position. Inversions can trap cold air, ensuring excellent snow preservation.",
+      "typical_temp_c": "-10 to -1",
+      "challenges": [
+        "Valley inversions can produce very cold morning starts",
+        "Altitude at 1,100m adds physiological challenge for lowland skiers",
+        "Sun exposure on south-facing valley sections can soften snow",
+        "January daylight hours are limited"
+      ]
+    },
+    "course": {
+      "primary": "30km course through the picturesque Tannheimer Tal, a high valley surrounded by dramatic Tirolean limestone peaks. The route follows the valley floor and lower slopes, offering both classic and skating disciplines. Excellent grooming on a scenic course that showcases Austrian mountain valley skiing at its best.",
+      "format": "loop",
+      "surface": "Professionally groomed classic and skating tracks",
+      "technical_rating": 2,
+      "grooming": "Excellent Austrian standard — the Tannheimer Tal is known for immaculate trail preparation",
+      "features": [
+        "Scenic high valley surrounded by limestone peaks",
+        "Both classic and skating disciplines offered",
+        "Multiple distance options for all levels",
+        "Austrian hospitality and post-race festivities",
+        "Well-organized event in a popular Nordic skiing region"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 67,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Excellent grooming and organization with strong community atmosphere. Moderate distance and terrain, but the scenic Alpine valley setting and Austrian ski culture elevate the experience.",
+      "tier_note": "Score 67 places in TIER 2"
+    },
+    "history": {
+      "summary": "The Ski Trail Tannheimer Tal has been held since 1985 in one of Tirol's most beautiful high valleys. The Tannheimer Tal is renowned as one of Austria's premier Nordic skiing destinations, with an extensive trail network and a deep commitment to cross-country skiing culture. The race has grown to attract over 2,000 participants from across Central Europe.",
+      "notable_facts": [
+        "Tannheimer Tal is one of Austria's most popular Nordic skiing valleys",
+        "High valley at 1,100m ensures reliable snow conditions",
+        "Attracts participants from Austria, Germany, and across Central Europe",
+        "Both classic and skating disciplines reflect the valley's dual-discipline culture"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Ski Trail Tannheimer Tal cross country ski race Tannheimer Tal",
+      "videos": [
+        {
+          "video_id": "54LvvbYPbus",
+          "title": "Auf und Ab im Tannheimer Tal: Rund 1400 Teilnehmer starten beim Ski-Trail",
+          "channel": "allgäu.tv - fernsehen fürs allgäu",
+          "view_count": 4588,
+          "upload_date": "20120130",
+          "duration_string": "2:16",
+          "description": "Zum 16. Mal schon fand er statt: Der Ski-Trail Tannheimer Tal und Bad Hindelang. Mit jährlich bis zu 1400 Teilnehmern hat er sich zu einem der größten Skilanglauf-Wettbewerbe in Österreich etabliert. Langlauf im Laternenschein, Filmveranstaltungen und Langlaufkurse sind geboten. Höhepunkt der fünf Tage sind natürlich die beiden Wettbewerbe vom Wochenende: Klassischer Stil am Samstag und Skating am Sonntag.",
+          "tags": [
+            "allgã¤u",
+            "ski-trail",
+            "tannheimer",
+            "tal",
+            "bad",
+            "hindelang",
+            "michael",
+            "keller",
+            "peter",
+            "schlickenrieder",
+            "langlauf",
+            "eb3001skitrailtannheim"
+          ],
+          "url": "https://www.youtube.com/watch?v=54LvvbYPbus",
+          "curated": false
+        },
+        {
+          "video_id": "LZeuceZISAg",
+          "title": "SKI-TRAIL Tannheimer Tal - Bad Hindelang",
+          "channel": "skitrail",
+          "view_count": 1090,
+          "upload_date": "20110129",
+          "duration_string": "54",
+          "description": "",
+          "tags": [
+            "IMG",
+            "0694"
+          ],
+          "url": "https://www.youtube.com/watch?v=LZeuceZISAg",
+          "curated": false
+        },
+        {
+          "video_id": "vsTfoWF46yk",
+          "title": "Tannheim Skitrail 28.1.2018",
+          "channel": "Carl Neubacher",
+          "view_count": 212,
+          "upload_date": "20180203",
+          "duration_string": "3:38",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=vsTfoWF46yk",
+          "curated": true,
+          "curation_reason": "More recent race documentation showing participant experience at the 2018 event.",
+          "display_order": 3
+        },
+        {
+          "video_id": "Sa9ajZ_GHAQ",
+          "title": "Daniela Bleymehl Ski Trail Tannheim 2019",
+          "channel": "Challenge Family Triathlon",
+          "view_count": 230,
+          "upload_date": "20190201",
+          "duration_string": "1:00",
+          "description": "Challenge Family Ambassador Daniela Bleymehl started at a 60k ski marathon.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Sa9ajZ_GHAQ",
+          "curated": false
+        },
+        {
+          "video_id": "8WT0IB3AvzY",
+          "title": "Mein Ski-Trail 2010",
+          "channel": "tri2b.com",
+          "view_count": 4016,
+          "upload_date": "20100203",
+          "duration_string": "6:42",
+          "description": "Die 35 Kilometer Skating Strecke des Ski-Trail Tannheimer Tal - Bad Hindelang ist für jeden Hobbylangläufer zu bewältigen. Das zeigt dieses, aus subjektiver Perspektive gedrehte, Video vom Ski-Trail 2010.",
+          "tags": [
+            "Ski-Trail",
+            "Skilanglauf",
+            "Tannheimer",
+            "Tal",
+            "Marathon",
+            "subjektiv"
+          ],
+          "url": "https://www.youtube.com/watch?v=8WT0IB3AvzY",
+          "curated": true,
+          "curation_reason": "POV video from skier perspective showing the 35km skating course of the Ski-Trail race.",
+          "display_order": 1
+        },
+        {
+          "video_id": "O5qwfpBL9j4",
+          "title": "Skating Urlaub im Tannheimer Tal mit Günter Nohl",
+          "channel": "Günter Nohl",
+          "view_count": 3494,
+          "upload_date": "20150706",
+          "duration_string": "45",
+          "description": "Skating Urlaub im Tannheimer Tal mit Günter Nohl. Ski Gruppenreisen. https://www.freizeitsportreisen.de/skilanglaufreisen/tannheimer-tal/  Skating in der Gruppe bringt mehr Spaß & Erfolg!",
+          "tags": [
+            "Skating",
+            "Skating Urlaub",
+            "Skatingreisen",
+            "Günter Nohl",
+            "Freizeitsportreisen",
+            "Gruppenreisen",
+            "Wintersport",
+            "Tirol",
+            "Tannheimer Tal",
+            "Aktivurlaub",
+            "Skating für Alleinreisende",
+            "outdoor sports",
+            "Ski",
+            "Skiing (Sport)",
+            "Wintersport Urlaub",
+            "Skate",
+            "Snow"
+          ],
+          "url": "https://www.youtube.com/watch?v=O5qwfpBL9j4",
+          "curated": false
+        },
+        {
+          "video_id": "Xd85VDLp51U",
+          "title": "St. Johann in Tirol - Koasalauf 2019 - Nordic Team Tirol",
+          "channel": "marlenesleben",
+          "view_count": 20467,
+          "upload_date": "20190212",
+          "duration_string": "5:03",
+          "description": "Koasalauf 2019 in St. Johann in Tirol: Seit Oktober trainiere ich gemeinsam mit 6 weiteren Langlaufanfänger unter dem Namen Nordic Team Tirol für das größte Langlauf-Event in Tirol. Jetzt steht der Tag bevor, auf den wir alle hingearbeitet haben.\n\nHier geht's zur Teamvorstellung: https://www.snowplaza.de/weblog/16943-nordic-team-tirol-koasalauf/\n\nDie ersten Berührungspunkte mit der nordischen Sportart hatte das Team im Oktober in der Olympiaregion Seefeld auf Skirollern. Im November stand dann die erste Trainingseinheit auf der gespurten Loipe in Obertilliach auf dem Programm. Anschließend machte das Nordic Team Tirol im Dezember auf den Loipen in Galtür Fortschritte und versuchte sich im Tannheimer Tal am ersten Langlauf-Wettkampf. Nach den Erfolgen beim Ski Trail Tannheimer Tal-Bad Hindelang steht Anfang Februar der Koasalauf bevor. \n\nEin bisschen aufgeregt sind wir alle, als wir uns kurz vor dem Wettkampf in St. Johann in den Kitzbüheler Alpen unsere Startnummern anziehen. Meine ist gelb. Ich werde die 28 Kilometer in Angriff nehmen, während meine Teamkollegen mit roten Startnummern auf der 50 Kilometer langen Strecke starten. Das Ziel lautet: Ankommen! \n\nEin bisschen Nervenkitzel ist schon dabei, als der Countdown runtergezählt wird. DREI, ZWEI, EINS. Der Startschuss ertönt & gemeinsam mit knapp 800 weiteren Langläufern laufen wir los …\n\nVergesst nicht, dieses Video zu liken, wenn es euch gefällt und meinen Kanal zu abonnieren, wenn ihr mehr sehen wollt. :)",
+          "tags": [
+            "Koasalauf",
+            "St. Johann",
+            "St. Johann in Tirol",
+            "Koasalauf 2019",
+            "Langlauf",
+            "Langlaufen",
+            "Kitzbüheler Alpen",
+            "Skifahren",
+            "Nordic Team Tirol",
+            "Nordic Team",
+            "Wintersport",
+            "Wettkampf",
+            "Volkslanglauf",
+            "Tirol",
+            "Österreich",
+            "Alpen",
+            "Berge",
+            "Outdoors",
+            "Schnee",
+            "Training",
+            "Loipen",
+            "Anfänger",
+            "Langlauf lernen",
+            "Langlaufen lernen",
+            "Langlauf Training"
+          ],
+          "url": "https://www.youtube.com/watch?v=Xd85VDLp51U",
+          "curated": false
+        },
+        {
+          "video_id": "Q1LSWDae_Ao",
+          "title": "Langlauf in Austria - Classic - B8 - Plaik",
+          "channel": "Mike Ainsworth",
+          "view_count": 198,
+          "upload_date": "20190810",
+          "duration_string": "8:22",
+          "description": "This video is about B8 - Plaik near Leutasch on classic skis",
+          "tags": [
+            "iMovie",
+            "Langlauf",
+            "Leutasch",
+            "Cross-country skiing",
+            "Seefeld-in-Tirol",
+            "Plaik",
+            "Platzl",
+            "Klamm",
+            "Austria",
+            "Tirol"
+          ],
+          "url": "https://www.youtube.com/watch?v=Q1LSWDae_Ao",
+          "curated": false
+        },
+        {
+          "video_id": "Pgw5RINSLZg",
+          "title": "SKI-TRAIL Tannheimer Tal - Bad Hindelang",
+          "channel": "skitrail",
+          "view_count": 2523,
+          "upload_date": "20090324",
+          "duration_string": "2:06",
+          "description": "Video vom SKI-TRAIL Tannheimer Tal - Bad Hindelang 2009. 14 + 25 Kilometer Klassische Technik und 35 + 55 Kilometer Sakting. Insgesamt 1200 Teilnehmer. www.ski-trail.com",
+          "tags": [
+            "skitrail",
+            "ski-trail",
+            "tannheimertal",
+            "tannheimer tal",
+            "bad hindelang",
+            "sakting",
+            "klassisch",
+            "volksskilanglauf"
+          ],
+          "url": "https://www.youtube.com/watch?v=Pgw5RINSLZg",
+          "transcript": "so\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "JNUcsWbSbmM",
+          "title": "SkiTrail2013",
+          "channel": "unterwegsvideos",
+          "view_count": 71,
+          "upload_date": "20130128",
+          "duration_string": "1:14",
+          "description": "Ski Trail Tannheimertal",
+          "tags": [
+            "35km Skatin"
+          ],
+          "url": "https://www.youtube.com/watch?v=JNUcsWbSbmM",
+          "curated": false
+        },
+        {
+          "video_id": "5yvq3YgBISo",
+          "title": "SKI-TRAIL Tannheimer Tal - Bad Hindelang 2010 - Sonntag Skating",
+          "channel": "skitrail",
+          "view_count": 21051,
+          "upload_date": "20100216",
+          "duration_string": "3:44",
+          "description": "Video vom SKI-TRAIL Tannheimer Tal - Bad Hindelang 2010. 35 und 55 Kilometer Skating Technik am Sonntag, den 31. Jänner 2010. www.ski-trail.info",
+          "tags": [
+            "ski-trail",
+            "skitrail",
+            "tannheimertal",
+            "tannheimer tal",
+            "bad hindelang",
+            "langlaufen",
+            "langlaufevent",
+            "langlaufmarathon"
+          ],
+          "url": "https://www.youtube.com/watch?v=5yvq3YgBISo",
+          "curated": true,
+          "curation_reason": "Official race coverage of the skating portion showing course layout and race atmosphere.",
+          "display_order": 2
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

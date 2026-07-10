@@ -1,0 +1,237 @@
+{
+  "race": {
+    "name": "Spokane Loppet",
+    "slug": "spokane-loppet",
+    "display_name": "Spokane Loppet",
+    "tagline": "The Inland Northwest's citizen ski marathon — fifty kilometers through eastern Washington's snow-covered Selkirk foothills.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 700,
+      "location": "Spokane area, Washington",
+      "location_badge": "Washington, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Washington",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 100,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.spokanenordic.org",
+      "lat": 47.6588,
+      "lng": -117.426,
+      "field_size_estimate": 150,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Inland Northwest winter",
+      "description": "Eastern Washington receives moderate snowfall. Temperatures typically -10°C to 0°C in February. Chinook winds can bring sudden warming.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Variable snow conditions",
+        "Chinook warming events possible",
+        "Limited snowfall some years"
+      ]
+    },
+    "course": {
+      "primary": "Trail course through Nordic venues in the Spokane area with rolling terrain through pine forest.",
+      "format": "loop",
+      "surface": "Machine-groomed trails",
+      "technical_rating": 3,
+      "grooming": "Good grooming",
+      "features": [
+        "Inland Northwest forest setting",
+        "Part of the Spokane Nordic community",
+        "Selkirk mountain views"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 43,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "A small Pacific Northwest loppet with good community spirit but limited reach.",
+      "tier_note": "Score 43 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Spokane Loppet is part of the Inland Northwest's Nordic skiing community, offering a citizen marathon in eastern Washington state.",
+      "notable_facts": [
+        "Part of the Spokane Nordic community",
+        "Inland Northwest has a dedicated Nordic skiing scene",
+        "Eastern Washington receives more reliable snow than western lowlands"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Spokane Loppet cross country ski race Spokane area",
+      "videos": [
+        {
+          "video_id": "fydw-wdm33E",
+          "title": "Spokane Park Board votes to create cross country skiing trails near golf course",
+          "channel": "4 News Now",
+          "view_count": 78,
+          "upload_date": "20171215",
+          "duration_string": "53",
+          "description": "The Spokane Park Board passed a proposal Thursday to turn land near Indian Canyon Golf Course into cross country skiing trails Thursday.",
+          "tags": [
+            "spokane news"
+          ],
+          "url": "https://www.youtube.com/watch?v=fydw-wdm33E",
+          "transcript": "spokane park board today passed a\nproposal to turn some land near Indian\nCanyon golf course I know you golf there\nbefore into cross-country skiing trails\nfact there's gonna be two of them one a\nbeginner one the intermediate the park\nboard hopes that the trails will be a\nway for the golf course is to make some\nextra money during the winter months and\ngolfers do not worry those fairways and\ngreens will not be used they'll be roped\noff so they'll be protected the trails\nactually in this area you can see on the\nmap here just north east of the course\nthere's already walking trails and a\nservice roads there we're utilizing the\nservice road so we're not actually\ngrooming on the fairways it's about a\none and a half mile route and it'll be\nhopefully groomed for both classic\ncross-country skiing as well as skate\nskating the trails will open once six\ninches of snow is on the ground and is\nbelow freezing you'll be able to access\nthem through Whittier Park and they will\nbe free to you",
+          "curated": false
+        },
+        {
+          "video_id": "wTxY76o4xTc",
+          "title": "Spokane Nordic Challenge Loppet 2022",
+          "channel": "Spokane Nordic",
+          "view_count": 613,
+          "upload_date": "20220309",
+          "duration_string": "3:38",
+          "description": "On March 6th, 2022, 65 skiers gathered on Mt Spokane State Park Nordic Ski Area to compete in either a 20k, 30k, or 50k cross-country ski loppet. Thank you to all of our participants! For info on future loppets, visit www.spokanenordic.org/loppet",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=wTxY76o4xTc",
+          "curated": true,
+          "curation_reason": "Official race coverage of the Spokane Nordic Challenge Loppet showing the actual race event with multiple distance options.",
+          "display_order": 1
+        },
+        {
+          "video_id": "AR1RF-PhrK8",
+          "title": "Get on your skis! #3 - My first cross-country ski",
+          "channel": "Gatineau Loppet",
+          "view_count": 744,
+          "upload_date": "20210119",
+          "duration_string": "1:42",
+          "description": "The Gatineau Loppet is proud to present a series of informative videos to guide novice cross-country skiers. In this video, Louise and Olivier give you advice for you first cross-country ski.\n\nLooking for an opportunity to practice and challenge yourself? The Virtual Gatineau Loppet will take place from February 13 to 28! All information on www.gatineauloppet.com. \n\nVersion française de la vidéo : https://youtu.be/EfSpF78cBbc\n\nAbout the animators :\nLouise Poirier is a physical educator. She obtained a Master's degree in Human Kinetics at Université Laval. Originally an athlete and cross-country ski coach, Louise has more than 45 years of experience in this beautiful outdoor sport. For many years, she hosted the program \"Bouffée de santé\" on Radio-Canada. It is by completing 10 of the greatest cross-country ski races in the world that she obtained her title of \"Worldloppet Master\". She is proud to be the president of the Gatineau Loppet, the greatest cross-country ski race in Canada with a fantastic team of volunteers. \n\nOlivier Babineau is a kinesiologist. He has a Master's degree in Exercise Physiology from McGill University. An elite multi-sport athlete and new father, he aims to develop the vitality of people of all levels within the Fitness for Freedom company. Olivier converted to endurance sports following his many years in the world of high level soccer. He has represented Canada on several occasions in various sports including soccer, winter triathlon and trail running. After falling in love with cross-country skiing several years ago, he won the top 10 at the 50 km Gatineau Loppet. He secretly dreams of one day making a podium there and hopes to be able to discover the other international races of the \"Worldloppet\" series.",
+          "tags": [
+            "cross-country ski",
+            "sport",
+            "outdoor",
+            "winter"
+          ],
+          "url": "https://www.youtube.com/watch?v=AR1RF-PhrK8",
+          "curated": false
+        },
+        {
+          "video_id": "FBXaf4E-7xI",
+          "title": "Cross Country Ski Class",
+          "channel": "SpokaneParksandRec",
+          "view_count": 1089,
+          "upload_date": "20090127",
+          "duration_string": "1:20",
+          "description": "Spokane Parks and Recreation offers private and groups Cross Country Ski classes at Mount Spokane.",
+          "tags": [
+            "Spokane",
+            "Parks",
+            "and",
+            "Recreation",
+            "Cross",
+            "Country",
+            "Ski",
+            "Class",
+            "Outdoor",
+            "Activities",
+            "Activity"
+          ],
+          "url": "https://www.youtube.com/watch?v=FBXaf4E-7xI",
+          "transcript": "so\nbye",
+          "curated": false
+        },
+        {
+          "video_id": "ku-m8CvNuTo",
+          "title": "2022 Barkerbeiner",
+          "channel": "Spokane Nordic",
+          "view_count": 473,
+          "upload_date": "20220318",
+          "duration_string": "3:06",
+          "description": "On March 13th, dozens of skiers and dogs gathered in the Mt Spokane State Park Nordic Ski Area to compete in a variety of skijoring races.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ku-m8CvNuTo",
+          "curated": false
+        },
+        {
+          "video_id": "OZuspcN2xGM",
+          "title": "Shadow Mountain Drop, Nordic Skiing, Mt Spokane.",
+          "channel": "CASCADIAN RAMBLER",
+          "view_count": 79,
+          "upload_date": "20110208",
+          "duration_string": "54",
+          "description": "This video was uploaded from an Android phone.",
+          "tags": [
+            "mobile"
+          ],
+          "url": "https://www.youtube.com/watch?v=OZuspcN2xGM",
+          "transcript": "about to attempt the uh the big drop on\nthe back side of Silver Mountain here\ncross country skiing at Mount\nsmokane bit of a newbie so\nuh there's about 80% chance I'm going\ndown try and take it slow and easy or as\nlong as I can\nthere she\nis\nwoo oh\nyeah that's a fun one I'll survive baby\nthe big drop on\nShadow bful can good time",
+          "curated": false
+        },
+        {
+          "video_id": "AJl0BBRHI2g",
+          "title": "Learning to skijor on Mt Spokane",
+          "channel": "Anne Boyd",
+          "view_count": 502,
+          "upload_date": "20130218",
+          "duration_string": "1:28",
+          "description": "After watching skijorers with their dogs on the Mt Spokane XC trail over the years, we decided today was the day to try out Achilles and Watson (and us) in this interesting snow sport. What fun!  And what a workout!  Try it sometime, if your dogs like to chase little green balls or outrun their owners...",
+          "tags": [
+            "Mt Spokane Skijoring"
+          ],
+          "url": "https://www.youtube.com/watch?v=AJl0BBRHI2g",
+          "transcript": "[Music]\nGet It\nGo Go Get It Go Get\nIt P\ngo\nthat a boy look at you girl look at you\ngirl okay stop\nstop\ngood\nyeah",
+          "curated": false
+        },
+        {
+          "video_id": "SwOvr37Hfjo",
+          "title": "Skijoring in Three Rivers Parks with Kristine Zellmer",
+          "channel": "Three Rivers Parks",
+          "view_count": 9959,
+          "upload_date": "20101021",
+          "duration_string": "2:24",
+          "description": "Most of us are familiar with dog-sledding, where a dog or team of dogs pulls a person on a sled. Skijoring is similar, except the person is on cross-country skis. Bring your dog to Three Rivers Parks for fun winter exercise where we have designated trails for skijoring and dog sledding!",
+          "tags": [
+            "Skijoring",
+            "skijor",
+            "winter",
+            "dog",
+            "harness",
+            "elm creek",
+            "elm creek park reserve",
+            "elm creek winter recreation",
+            "three rivers parks",
+            "three rivers park district",
+            "winter trails",
+            "Kristine Zellmer",
+            "skijor demonstration",
+            "skijoring demonstration"
+          ],
+          "url": "https://www.youtube.com/watch?v=SwOvr37Hfjo",
+          "transcript": "hi local resident and winter enthusiast\nChristine Zellmer is passionate about\nskijoring well the actual term means ski\ndriving and how it started as some\nNorwegians happen to go to on the gold\nrush to Alaska and they discovered dog\nsledding they brought that idea back to\nNorway and attached themselves on their\nskis because they've been skiing for\n3,000 years\n- elk are reindeer and - horses they\nactually didn't start off with dogs well\nin the u.s. em we started in Alaska they\nstarted to attach to people people on\nskis to dogs all right Kari ready five\nfour three two one\nlet's go that's it well I personally\nlike the Three Rivers because you have\nfive beautiful scattering trails for us\nto go and they're groomed they're nicely\nmaintained mostly might have nice\nrolling hills with miles of trails\nwithin three Rivers Park District sched\nor enthusiasts can glide themselves\nthrough sublime winter scenes with the\nlittle help from their best friend the\nmost important thing you need is a\nharness for your dog and this is called\na Fastback harness stand up good boy and\nbasically you want to have it to be a\nnice snug fit so that the harness is\ngoing to utilize the dog's whole body so\nwhen he's pulling he's pulling from his\nwhole body and all of his muscles not\njust from his neck the next thing you\nneed is a line or a belt for you and you\nwant to have something that's gonna ride\non your hip so the dog is pulling you\nfrom your hips not from your waist or\nyour back and the last thing you need is\na line to attach you to any way and we\ndo recommend a line that has a bungee in\nit so that it provides some relief for\nstress on your dog's back as well as\nyours so really those are the three\nbasic ingredients other than a dog you\nmeet about a dog that's at least 30 35\npounds and has a desire to pull and some\nskis and you can use either classic or\nskate skis\nbeing able to get out with your dog and\njust go for a just quiet run through the\nwoods it's just magical\nit's just that just it's just a great\nexperience it's for more information\nabout scheduling or other opportunities\nfor adventure visit Three Rivers parks\norg and click activities",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

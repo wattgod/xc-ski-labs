@@ -6,8 +6,13 @@
     "tagline": "Forty-two kilometers along the old railway through the heart of the Dolomites — Italian skiing at its most scenic and civilized.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km classic", "42km skate", "30km", "22km"],
-      "elevation_m": 200,
+      "distance_options": [
+        "42km classic",
+        "42km skate",
+        "30km",
+        "22km"
+      ],
+      "elevation_m": 850,
       "altitude_m": 1200,
       "location": "Dobbiaco to Cortina d'Ampezzo",
       "location_badge": "South Tyrol / Veneto, Italy",
@@ -17,7 +22,7 @@
       "date": "First weekend of February",
       "date_specific": null,
       "discipline": "both",
-      "field_size": "~2,000 starters",
+      "field_size": 2000,
       "founded": 1977,
       "registration": "Online registration, opens in autumn",
       "prize_purse": null,
@@ -25,7 +30,9 @@
       "cutoff_time": null,
       "website": "https://www.dobbiacocortina.it",
       "lat": 46.7331,
-      "lng": 12.2192
+      "lng": 12.2192,
+      "field_size_estimate": 2000,
+      "elevation_gain_m": 850
     },
     "climate": {
       "primary": "Alpine Dolomitic winter",
@@ -86,10 +93,152 @@
         "One of the most scenic marathon ski courses in the world"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Granfondo Dobbiaco-Cortina cross country ski race Dobbiaco to Cortina d'Ampezzo",
+      "videos": [
+        {
+          "video_id": "0hLWk8PjHR4",
+          "title": "Highlights from Granfondo Dobbiaco/Toblach - Cortina Classic 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 344,
+          "upload_date": "20260120",
+          "duration_string": "6:01",
+          "description": "Highlights from Granfondo Dobbiaco/Toblach - Cortina Classic 2026\n\nThe Ski Classics Challengers events, Granfondo Dobbiaco/Toblach - Cortina Classic and Skating, took place last weekend, featuring a 26km-long-distance ski race in Toblach, Italy. Watch the highlights here!\n\nVideo: Newspower.it",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=0hLWk8PjHR4",
+          "curated": true,
+          "curation_reason": "Most recent race coverage (2026) showing the classic technique portion of this dual-format event.",
+          "display_order": 1
+        },
+        {
+          "video_id": "AptZ6o_x7lw",
+          "title": "Best moments of Granfondo Dobbiaco/Toblach – Cortina weekend 2024",
+          "channel": "SC - The Ski Community",
+          "view_count": 1298,
+          "upload_date": "20240210",
+          "duration_string": "3:10",
+          "description": "Best moments of Granfondo Dobbiaco/Toblach – Cortina weekend 2024\n\nVideo Credits: Alessandro Manaigo/Manaz Productions",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=AptZ6o_x7lw",
+          "curated": false
+        },
+        {
+          "video_id": "ryH3Xr0JZbw",
+          "title": "Dobbiaco-Cortina 2020 CL",
+          "channel": "Rando Sui",
+          "view_count": 5345,
+          "upload_date": "20200208",
+          "duration_string": "1:17:31",
+          "description": "Dobbiaco-Cortina 2020 Classic race on 01.02.2020",
+          "tags": [
+            "Visma ski classics",
+            "Dobbiaco Cortina Ski Marathon",
+            "Dobbiaco-Cortina",
+            "Ski Marathon",
+            "Rando Sui",
+            "Toblach",
+            "Cortina",
+            "Toblach-Cortina",
+            "Toblach-Cortina 2020"
+          ],
+          "url": "https://www.youtube.com/watch?v=ryH3Xr0JZbw",
+          "curated": true,
+          "curation_reason": "Extended race footage providing comprehensive view of the classic technique course and race dynamics.",
+          "display_order": 5
+        },
+        {
+          "video_id": "SDQkvm6sABY",
+          "title": "Highlights from Granfondo Dobbiaco/Toblach - Cortina Skating 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 344,
+          "upload_date": "20260120",
+          "duration_string": "6:37",
+          "description": "Highlights from Granfondo Dobbiaco/Toblach - Cortina Skating 2026\n\nThe Ski Classics Challengers events, Granfondo Dobbiaco/Toblach - Cortina Classic and Skating, took place last weekend, featuring 26km-long-distance ski races in Toblach, Italy. Watch the Skating highlights here!\n\nVideo: Newspower.it",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=SDQkvm6sABY",
+          "curated": true,
+          "curation_reason": "Most recent race coverage (2026) showing the skating technique portion of this dual-format event.",
+          "display_order": 2
+        },
+        {
+          "video_id": "RmmIhA62rVM",
+          "title": "45th Dobbiaco-Cortina Cross Country Race 2022",
+          "channel": "Granfondo Dobbiaco-Cortina",
+          "view_count": 2022,
+          "upload_date": "20220404",
+          "duration_string": "3:22",
+          "description": "Outdoor Sports Show - Icarus Sports",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=RmmIhA62rVM",
+          "transcript": "[Music]\nthe 45th edition of the tobiaco cortina\ncross-country race took place in\nnorthern italy continuing a tradition\nthat first started back in 1977.\nthis historic skiing competition has\nalways attracted top level athletes\nthey've raised the bar of expectation\nand the level of performance every year\nfor passionate skiers this is the race\nto take part in while visiting one of\nthe most beautiful mountain regions\nexperienced and skilled athletes have\nthe chance to compete in any one of the\ndisciplines on offer\nthe first day of action was a great one\nwith a wonderful mix of blue skies\nperfect tracks breathtaking landscapes\nand a fine group of cross-country\nathletes competing with the highlight\nbeing the 40 kilometer race\nfrancesco ferrari was the winner in the\nmen's race\none nicole gonzalez from switzerland\nproved to be the queen in the women's\nrace\nwhen you saw the the mountain you can a\nlittle bit uh enjoy the landscape\nsometimes when you felt bad you can\ncontrol the landscape and\nyou you tell yourself that you are lucky\nto be there and\nit's nice\nthe excitement reached a whole new level\non the second day of action with the 30\nkilometer skating competition\nelisa brossard left her adversaries\nbehind in the women's race to take a\nclear and well-deserved win\nas for the men's category better cle\nfrom switzerland managed to be\nvictorious at the end of the day\nit was tough race from the beginning and\nthen\nin the downhill we had several attacks\nand yeah the group stayed together with\nfour guys and luckily in the sprint in\nthe end i was the fastest\nit was another amazing addition of this\nhistoric race\nagain it had delivered and the\ncompetition lived up to expectations\nwith athletes and spectators leaving the\nvenue\nmeteorological\nmy\nyou",
+          "curated": true,
+          "curation_reason": "Official race coverage with athlete interviews and detailed course footage from the historic 45th edition.",
+          "display_order": 4
+        },
+        {
+          "video_id": "quxPmwUwTI8",
+          "title": "Cross Country Skiing in Dobbiaco",
+          "channel": "Toblach Dobbiaco",
+          "view_count": 560,
+          "upload_date": "20190409",
+          "duration_string": "2:24",
+          "description": "Cross Country Skiing in Dobbiaco offers the right track for everyone. It also guarantees snow and perfectly prepared tracks. As venue for international World Cup races, Dobbiaco benefits from 120 km of perfectly prepared cross country skiing trails for all abilities. Whether you train for ski marathons, want to push yourself to your limits on the FIS-standardised tracks or prefer to glide late at night on the lit night track (from Christmas daily from 6:00 p.m. to 8:00 p.m.): Cross Country Skiing in Dobbiaco is uniquely beautiful. The cross country ski tracks of Dobbiaco are also connected with the rest of the holiday region 3 Zinnen in the Dolomites, allowing you to ski on a total of 200 km of tracks. The cross country track pass 3 Zinnen Dolomites also gives you access to the network in Cortina.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=quxPmwUwTI8",
+          "curated": false
+        },
+        {
+          "video_id": "W-535yc0g5g",
+          "title": "Best Moments of Granfondo Dobbiaco/Toblach - Cortina Classic & Skating 2025",
+          "channel": "SC - The Ski Community",
+          "view_count": 961,
+          "upload_date": "20250205",
+          "duration_string": "3:04",
+          "description": "Best Moments of Granfondo Dobbiaco/Toblach - Cortina Classic & Skating 2025\n\nVideo: Manaz Productions, in collaboration with Sirio Film",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=W-535yc0g5g",
+          "curated": true,
+          "curation_reason": "Recent comprehensive highlights covering both classic and skating techniques from the 2025 edition.",
+          "display_order": 3
+        },
+        {
+          "video_id": "PeTVgafGEu0",
+          "title": "DOBBIACO CORTINA  24 Gennaio 2021",
+          "channel": "StreamingSport",
+          "view_count": 217,
+          "upload_date": "20210212",
+          "duration_string": "16:43",
+          "description": "#StreamingSport #Sport #VenetoGlobe",
+          "tags": [
+            "streamingsport",
+            "sport"
+          ],
+          "url": "https://www.youtube.com/watch?v=PeTVgafGEu0",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "When you saw the mountain you can enjoy the landscape sometimes when you felt bad you can control the landscape and you tell yourself that you are lucky to be there and it's nice.",
+          "source_video_id": "RmmIhA62rVM",
+          "source_channel": "Granfondo Dobbiaco-Cortina",
+          "source_view_count": 2022,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "It was tough race from the beginning and then in the downhill we had several attacks and the group stayed together with four guys and luckily in the sprint in the end I was the fastest.",
+          "source_video_id": "RmmIhA62rVM",
+          "source_channel": "Granfondo Dobbiaco-Cortina",
+          "source_view_count": 2022,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
     }
   }
 }

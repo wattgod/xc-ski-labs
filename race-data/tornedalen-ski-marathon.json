@@ -1,0 +1,135 @@
+{
+  "race": {
+    "name": "Tornedalen Ski Marathon",
+    "slug": "tornedalen-ski-marathon",
+    "display_name": "Tornedalen Ski Marathon",
+    "tagline": "One hundred kilometers along the frozen Torne River — ultra skiing on the Swedish-Finnish border in the Arctic north.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": [
+        "100km",
+        "50km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 200,
+      "location": "Tornio River valley, Swedish-Finnish border",
+      "location_badge": "Norrbotten, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Norrbotten",
+      "date": "March / April",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 100,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the river route",
+      "cutoff_time": null,
+      "website": "https://www.tornedalen-ski-marathon.se",
+      "lat": 66.4,
+      "lng": 23.7,
+      "field_size_estimate": 150,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Sub-Arctic continental",
+      "description": "The Tornedalen valley along the Swedish-Finnish border experiences some of Scandinavia's coldest temperatures. Deep cold is the norm, with stable snow cover well into April. Flat river terrain offers little shelter from Arctic winds.",
+      "typical_temp_c": "-25 to -10",
+      "challenges": [
+        "Extreme cold — temperatures can drop below -30°C",
+        "Wind exposure on the open frozen river",
+        "100km ultra distance in Arctic conditions",
+        "Limited support infrastructure in remote sections",
+        "Frostbite risk requires careful gear preparation"
+      ]
+    },
+    "course": {
+      "primary": "100km along the frozen Torne River on the Swedish-Finnish border. Flat to gently rolling terrain following the river valley through sub-Arctic wilderness. The sheer distance and cold make this a true ultra-endurance test.",
+      "format": "point-to-point",
+      "surface": "Groomed tracks along river and forest terrain",
+      "technical_rating": 3,
+      "grooming": "Basic grooming, river sections can be variable",
+      "features": [
+        "Follows the frozen Torne River along the Swedish-Finnish border",
+        "100km ultra distance in sub-Arctic conditions",
+        "One of Scandinavia's coldest ski marathons",
+        "Flat river terrain with vast Arctic vistas",
+        "Crosses between Sweden and Finland during the race"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 1,
+      "score_note": "A pure ultra-endurance adventure in extreme cold. Snow reliability is perfect, but remoteness, tiny field, and minimal infrastructure keep scores modest.",
+      "tier_note": "Score 51 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Tornedalen Ski Marathon follows the frozen Torne River along the Swedish-Finnish border in the sub-Arctic north. At 100km, it is one of the longest ski marathons in Scandinavia and among the coldest. The Tornedalen (Torne Valley) is home to the Meänkieli-speaking Tornedalian minority, and the race traverses their traditional homeland.",
+      "notable_facts": [
+        "Follows the frozen Torne River along the Swedish-Finnish border",
+        "100km makes it one of the longest ski marathons in Scandinavia",
+        "Traverses the traditional homeland of the Tornedalian minority",
+        "Temperatures regularly drop below -25°C during the race",
+        "The Torne River forms the natural border between Sweden and Finland"
+      ],
+      "founded": 1968
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Tornedalen Ski Marathon cross country ski race Tornio River valley",
+      "videos": [
+        {
+          "video_id": "kmrwIFstubw",
+          "title": "Tornedalsloppet 50-årsjubileum 2017",
+          "channel": "Göran Lahti",
+          "view_count": 1102,
+          "upload_date": "20170627",
+          "duration_string": "5:05",
+          "description": "Film om Tornedalsloppets 50-års jubileum 26 mars 2017.\nFilm about the 50th anniversary of Tornedalsloppet March 26, 2017.\nProduced, filmed and edited by Jonatan Lahti and Erik Wiippa.\nSlow motion photo: Alma Lahti\nMusic: \"Take a chance\" Kevin Macloud, Royalty free music.\nand \"We are the champions\" instrumental version, played and recorded by Jonatan Lahti",
+          "tags": [
+            "Tornedalen",
+            "Crosscountry skiing",
+            "skiing",
+            "Arctic circle",
+            "Övertorneå",
+            "Juoksengi",
+            "Polcirkeln",
+            "Svanstein",
+            "Kuivakangas",
+            "Lapland",
+            "Sweden",
+            "Winter",
+            "Snow",
+            "Skidåkning",
+            "Längdåkning",
+            "Torne valley",
+            "Tornedalsloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=kmrwIFstubw",
+          "curated": true,
+          "curation_reason": "Documentary about the Tornedalen Ski Marathon's 50th anniversary showing race coverage and historical perspective of this border region race.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

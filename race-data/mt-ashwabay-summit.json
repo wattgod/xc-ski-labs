@@ -1,0 +1,224 @@
+{
+  "race": {
+    "name": "Mt. Ashwabay Summit",
+    "slug": "mt-ashwabay-summit",
+    "display_name": "Mt. Ashwabay Summit",
+    "tagline": "Thirty kilometers of skiathlon racing on Wisconsin's Lake Superior shore — where the Bayfield Peninsula's Apostle Islands backdrop and mixed-technique format test versatility in the Northwoods.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km skiathlon",
+        "15km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 300,
+      "location": "Mt. Ashwabay, Bayfield, Wisconsin",
+      "location_badge": "Wisconsin, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Wisconsin",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 46.81,
+      "lng": -90.92,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Lake Superior winter",
+      "description": "February on the Bayfield Peninsula benefits from Lake Superior's snow belt effect. Temperatures typically -16°C to -4°C. Heavy lake-effect snow ensures deep snowpack. The peninsula's exposed position can bring significant wind chill from the lake.",
+      "typical_temp_c": "-16 to -4",
+      "challenges": [
+        "Lake Superior wind chill on exposed sections",
+        "Deep cold in February — frostbite risk",
+        "Lake-effect snow squalls can reduce visibility",
+        "Remote Bayfield Peninsula location requires planning"
+      ]
+    },
+    "course": {
+      "primary": "Skiathlon format at Mt. Ashwabay on the Bayfield Peninsula — half classic, half skate with a transition zone. Rolling terrain through northern Wisconsin hardwood and conifer forest with views toward the Apostle Islands in Lake Superior. The Mt. Ashwabay trail system provides genuine terrain variation with climbs and technical descents.",
+      "format": "loop",
+      "surface": "Machine-groomed trails at Mt. Ashwabay",
+      "technical_rating": 3,
+      "grooming": "Good grooming by dedicated local volunteers",
+      "features": [
+        "Skiathlon format — classic and skate in one race",
+        "Mt. Ashwabay on the Bayfield Peninsula, Lake Superior shore",
+        "Views toward the Apostle Islands National Lakeshore",
+        "Rolling Northwoods terrain with genuine climbs and descents",
+        "Lake Superior snow belt ensures deep snowpack",
+        "Small-town Bayfield community atmosphere"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 1,
+      "score_note": "Skiathlon format is a distinctive feature — few US citizen races offer this. Exceptional snow reliability and Lake Superior/Apostle Islands scenery. Remote location and small field limit several scores. Good technical terrain on the Mt. Ashwabay trail system.",
+      "tier_note": "Score 47 places in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "The Mt. Ashwabay Summit is a skiathlon event on Wisconsin's Bayfield Peninsula, overlooking Lake Superior and the Apostle Islands. Mt. Ashwabay is a community-owned ski area that has served the Bayfield area since the 1960s. The skiathlon format — combining classic and skate technique in a single race — tests versatile Nordic skills in one of the snowiest areas of the upper Midwest.",
+      "notable_facts": [
+        "Skiathlon format combines classic and skate technique in one race",
+        "Mt. Ashwabay is a community-owned ski area since the 1960s",
+        "Bayfield Peninsula overlooks the Apostle Islands National Lakeshore",
+        "The Apostle Islands are a US National Lakeshore with sea caves and historic lighthouses",
+        "Bayfield is known as the gateway to the Apostle Islands",
+        "Lake Superior's snow belt delivers over 100 inches of snow to the peninsula annually"
+      ],
+      "founded": 2007
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Mt. Ashwabay Summit cross country ski race Mt. Ashwabay",
+      "videos": [
+        {
+          "video_id": "aiXffo2V8aM",
+          "title": "XC Sking Mt Ashwabay",
+          "channel": "pitch3831",
+          "view_count": 155,
+          "upload_date": "20131220",
+          "duration_string": "4:08",
+          "description": "Cross Country Skiing at Mount Ashwabay in Bayfield, Wisconsin.",
+          "tags": [
+            "www.superiorhorizons.com",
+            "bayfield",
+            "wisconsin"
+          ],
+          "url": "https://www.youtube.com/watch?v=aiXffo2V8aM",
+          "curated": true,
+          "curation_reason": "Cross-country skiing footage at Mt. Ashwabay providing course perspective and terrain overview.",
+          "display_order": 3
+        },
+        {
+          "video_id": "h6LUyELmBlo",
+          "title": "Mt. Ashwabay XC 1-3-11",
+          "channel": "Pete Kulenkamp",
+          "view_count": 146,
+          "upload_date": "20120105",
+          "duration_string": "2:14",
+          "description": "This is a time lapse of some of Mt. Ashwabay's XC trails on 1-3-11.  The route is Sugarbush Classic, Seagull Classic, Anchor, Roller Coaster.  Conditions are rated Fair-Poor by normal standards, although considering the weather we've had, the snow was in good shape.  The base is approx 4\", and there are rocks and sticks poking through the bottom of the tracks.  The worst part is definitely Sugarbush near the trail head.  Once you get up the hill and into the valleys, the conditions improve greatly.  Definitely bring the rock skis, but get out and enjoy the snow we have!  The Alpine hill is in good condition for those looking for space to skate/train.",
+          "tags": [
+            "Mt. Ashwabay",
+            "XC Skiing",
+            "Nordic Skiing",
+            "Classic Skiing",
+            "Bayfield",
+            "WI",
+            "Winter",
+            "Sugarbush",
+            "Anchor Seagull Trails",
+            "Bayfield County"
+          ],
+          "url": "https://www.youtube.com/watch?v=h6LUyELmBlo",
+          "curated": false
+        },
+        {
+          "video_id": "XQF_J-NtBMg",
+          "title": "Mt. Ashwabay Nordic: Seagull Hill",
+          "channel": "Kate Arnold Ullman",
+          "view_count": 204,
+          "upload_date": "20210111",
+          "duration_string": "44",
+          "description": "Take a ride down the Seagull Hill.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=XQF_J-NtBMg",
+          "curated": false
+        },
+        {
+          "video_id": "NdCwQHfV_dY",
+          "title": "Summit Race 2013",
+          "channel": "David Doering",
+          "view_count": 1180,
+          "upload_date": "20130203",
+          "duration_string": "4:04",
+          "description": "Mt. Ashwabay Summit Ski Race February 2nd, 2013.\n\nWe have an 8 km classic race, 19 km pursuit race, a 11 km skate race, a 3.5 km youth race and a .5 km kids race (this is a non-timed event for those 8 and under).\n\nFor more information, and registration information, please visit http://www.ashwabaysummitskirace.com/\n\nIf you like this film you can support more like it at sunridgemovingpictures.com just put a donation in your shopping cart",
+          "tags": [
+            "AshwabaySummitRace"
+          ],
+          "url": "https://www.youtube.com/watch?v=NdCwQHfV_dY",
+          "transcript": "okay anybody have any questions about\nthe tour\nyes\nHigh School skate racer freestyle you\ncan do whatever you want\nwhat's your name next week\nsomeone up about the course today\num\nSummit skate race\nand we've got the 19k pursuit skiers on\nthe course\n[Music]\n[Applause]\nforeign\nthank you",
+          "curated": true,
+          "curation_reason": "Official race coverage of the Mt. Ashwabay Summit Race showing multiple race formats and course atmosphere.",
+          "display_order": 1
+        },
+        {
+          "video_id": "QTZwZKqjviU",
+          "title": "Mt. Ashwabay Ski Hill near Bayfield, Wisconsin",
+          "channel": "Nate Leding",
+          "view_count": 206,
+          "upload_date": "20140114",
+          "duration_string": "22",
+          "description": "Mt. Ashwabay Ski Hill near Bayfield, Wisconsin",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=QTZwZKqjviU",
+          "curated": false
+        },
+        {
+          "video_id": "joM9NZZ5UuM",
+          "title": "Ashwabay Two Worlds",
+          "channel": "David Doering",
+          "view_count": 90,
+          "upload_date": "20130209",
+          "duration_string": "2:35",
+          "description": "Ashwabay Recreation Area \nSnow Film Festival\nSaturday  March 16- 7PM\nMt. Ashwabay T-Bar\n\nDEADLINE FOR ENTRIES\nFilms Due Feb. 28 \n\nQuestions:\ninfo@mtashwabay.org",
+          "tags": [
+            "Bayfield",
+            "Ashwababy",
+            "ski",
+            "snow park",
+            "Snow Sports",
+            "Skiing (Sport)",
+            "Winter Sport (Media Genre)"
+          ],
+          "url": "https://www.youtube.com/watch?v=joM9NZZ5UuM",
+          "curated": false
+        },
+        {
+          "video_id": "f-1N2J3_c7s",
+          "title": "Mt.Ashwabay",
+          "channel": "DONEWITHIT666",
+          "view_count": 567,
+          "upload_date": "20110110",
+          "duration_string": "4:38",
+          "description": "A couple Minutes of Mt. Ashwabay...",
+          "tags": [
+            "Mt.",
+            "Ashwabay",
+            "Snowboarding",
+            "Skiing",
+            "Bonk-Gong"
+          ],
+          "url": "https://www.youtube.com/watch?v=f-1N2J3_c7s",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

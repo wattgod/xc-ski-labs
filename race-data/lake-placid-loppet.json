@@ -20,15 +20,17 @@
       "date": "January",
       "date_specific": "2026: January 24",
       "discipline": "both",
-      "field_size": "~400",
+      "field_size": 400,
       "founded": 1982,
       "registration": "Open registration",
       "prize_purse": "None",
       "aid_stations": "Multiple aid stations along the course",
       "cutoff_time": "No official cutoff",
-      "website": "https://www.lakeplacidloppet.com",
+      "website": "https://mtvanhoevenberg.com/lakeplacidloppet/",
       "lat": 44.2795,
-      "lng": -73.9799
+      "lng": -73.9799,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 1120
     },
     "climate": {
       "primary": "Adirondack mountain winter",
@@ -90,8 +92,107 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Lake Placid Loppet cross country ski race Lake Placid",
+      "videos": [
+        {
+          "video_id": "kcK3znwv3AU",
+          "title": "Lake Placid Loppet March 1, 2015 by John Eldridge",
+          "channel": "John Eldridge",
+          "view_count": 507,
+          "upload_date": "20150302",
+          "duration_string": "7:15",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=kcK3znwv3AU",
+          "curated": true,
+          "curation_reason": "Good length race coverage video specifically focused on Lake Placid Loppet with sufficient duration for meaningful content.",
+          "display_order": 1
+        },
+        {
+          "video_id": "qGh2wadUAwg",
+          "title": "Lake Placid the final stop for international Nordic Skiing competition tour this weekend",
+          "channel": "MyNBC5-WPTZ",
+          "view_count": 338,
+          "upload_date": "20250326",
+          "duration_string": "1:38",
+          "description": "Lake Placid’s Mount Van Hoevenberg is the host site for the last competition in the SWIX SuperTour Finals, an international Nordic skiing competition series.\n\nSubscribe to My NBC5 on YouTube now for more: http://bit.ly/1e9vG0j\n\nGet more Burlington/Plattsburgh news: http://www.mynbc5.com\nLike us:  https://www.facebook.com/MyNBC5/\nFollow us: https://twitter.com/mynbc5\nInstagram: https://www.instagram.com/mynbc5",
+          "tags": [
+            "Burlington/Plattsburgh"
+          ],
+          "url": "https://www.youtube.com/watch?v=qGh2wadUAwg",
+          "curated": false
+        },
+        {
+          "video_id": "FVv9NQlJRpw",
+          "title": "2013 Lake Placid Loppet",
+          "channel": "dakvam06",
+          "view_count": 772,
+          "upload_date": "20130129",
+          "duration_string": "2:00",
+          "description": "Video Coverage from the 2013 Lake Placid Loppet",
+          "tags": [
+            "New",
+            "Project"
+          ],
+          "url": "https://www.youtube.com/watch?v=FVv9NQlJRpw",
+          "transcript": "[Applause]\n[Music]\nhe fell in love with the reservation\ngirl during the time sugar beat Harvest\nthey moved out west to the coast where\nhe built her a bed made of sh from\nSherwood\nForest life was good until she told him\ntoday was off\nseparate\nmaybe should we stop and take her with\nus should we stop and take her with us\nshould we stop and take her with us for\nall our\ntime we left wor with our boots and our\nbags and America dress a s in front of\nour eyes my sister told\nme my sister told\nme that the gangs in the Hills when the\nHickory Falls and you never know when\nyou're going to roll it all like she\ndid should we stop and take her with us\nshould we stop and take her with us\ntime\nI you know you're\njust for me you know it's\njust from Ottawa and cl",
+          "curated": false
+        },
+        {
+          "video_id": "QC2gOcgoPeI",
+          "title": "Double Pole Visualization 2015 Lake Placid",
+          "channel": "Matt Whitcomb",
+          "view_count": 647,
+          "upload_date": "20150919",
+          "duration_string": "3:50",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=QC2gOcgoPeI",
+          "curated": true,
+          "curation_reason": "Technique-focused content from Lake Placid showing double pole skiing technique which is valuable for skiers.",
+          "display_order": 2
+        },
+        {
+          "video_id": "66GwM0hqocg",
+          "title": "Mutt and Bill - 2010 Loppet, Lake Placid, NY",
+          "channel": "kellivos",
+          "view_count": 394,
+          "upload_date": "20100217",
+          "duration_string": "2:29",
+          "description": "",
+          "tags": [
+            "Loppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=66GwM0hqocg",
+          "curated": false
+        },
+        {
+          "video_id": "XDuwzCpmhUw",
+          "title": "BDMV Clip5",
+          "channel": "Bruce Katz",
+          "view_count": 17,
+          "upload_date": "20190317",
+          "duration_string": "22",
+          "description": "Bruce finishing Lake Placid Loppet 50k 2019",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=XDuwzCpmhUw",
+          "curated": false
+        },
+        {
+          "video_id": "qY5bFnwZwiI",
+          "title": "Gatineau Loppet 2016",
+          "channel": "Gatineau Loppet",
+          "view_count": 1269,
+          "upload_date": "20161208",
+          "duration_string": "15",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=qY5bFnwZwiI",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

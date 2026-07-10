@@ -6,7 +6,9 @@
     "tagline": "Eighty kilometers through the Vindelfjällen wilderness — Sweden's most remote ski race crosses a nature reserve where reindeer outnumber spectators.",
     "vitals": {
       "distance_km": 80,
-      "distance_options": ["80km"],
+      "distance_options": [
+        "80km"
+      ],
       "elevation_m": 1000,
       "altitude_m": 900,
       "location": "Vindelfjällen Nature Reserve",
@@ -17,15 +19,17 @@
       "date": "April",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~300 starters",
+      "field_size": 300,
       "founded": 1985,
       "registration": "Online registration; limited spots",
       "prize_purse": null,
       "aid_stations": "Remote checkpoints with basic provisions",
       "cutoff_time": null,
       "website": null,
-      "lat": 66.1000,
-      "lng": 15.5000
+      "lat": 66.1,
+      "lng": 15.5,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 1000
     },
     "climate": {
       "primary": "Sub-Arctic mountain winter",
@@ -89,8 +93,81 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Kungsledenrännet cross country ski race Vindelfjällen Nature Reserve",
+      "videos": [
+        {
+          "video_id": "-P6T1Ucwjn4",
+          "title": "CO-vloggen #14 | Fjällvlogg och Kungsledenrännet",
+          "channel": "Carl Olander",
+          "view_count": 861,
+          "upload_date": "20180417",
+          "duration_string": "12:29",
+          "description": "Skidåkningens efterrätt med fjäll, sol och storslagna tävlingar.\n\nFörsta delen, fjälltur i Vålådalen\nAndra delen, SM i teamsprint i Bruksvallarna (4:10)\nTredje delen, Kungsledenrännet (7:50)\n\nInstagram: https://www.instagram.com/olandercarl/",
+          "tags": [
+            "ik stern",
+            "ik",
+            "stern",
+            "längdåkning",
+            "carl",
+            "olander",
+            "carl olander",
+            "tobias",
+            "arwidson",
+            "alfred buskqvist",
+            "julia angelsiöö",
+            "kungsledenrännet",
+            "bruksvallarna",
+            "ramundberget",
+            "sm",
+            "teamsprint",
+            "skid sm",
+            "vasaloppet",
+            "hemavan",
+            "ammarnäs",
+            "kungsleden",
+            "skigo",
+            "salomon",
+            "fischer",
+            "vålådalen",
+            "ottfjället",
+            "östersund",
+            "billdal",
+            "göteborg",
+            "langren",
+            "co-vloggen",
+            "co",
+            "vloggen",
+            "tärnaby",
+            "hiihto",
+            "катание на лыжах",
+            "vaasahiihto"
+          ],
+          "url": "https://www.youtube.com/watch?v=-P6T1Ucwjn4",
+          "curated": true,
+          "curation_reason": "Vlog-style content with dedicated Kungsledenrännet segment showing personal race experience.",
+          "display_order": 1
+        },
+        {
+          "video_id": "MXV9xFerES4",
+          "title": "Kungsledenrännet 2018, Team SikSki, Efter tärnasjön",
+          "channel": "Johannes S",
+          "view_count": 280,
+          "upload_date": "20180416",
+          "duration_string": "3:17",
+          "description": "Fångade på film ungefär halvvägs in i loppet ( efter 3 timmar) och krampen börjar smyga sig på.",
+          "tags": [
+            "kungsledenrännet",
+            "kungsledenrännet 2018",
+            "pulskurvan"
+          ],
+          "url": "https://www.youtube.com/watch?v=MXV9xFerES4",
+          "curated": true,
+          "curation_reason": "Mid-race footage captured after 3 hours showing authentic race conditions and skier experience.",
+          "display_order": 2
+        }
+      ],
+      "quotes": []
     }
   }
 }

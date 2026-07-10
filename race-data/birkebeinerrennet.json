@@ -6,8 +6,10 @@
     "tagline": "Carry the weight of history — 54km with a 3.5kg pack across the Norwegian mountains, just as the Birkebeiner warriors did 800 years ago.",
     "vitals": {
       "distance_km": 54,
-      "distance_options": ["54km"],
-      "elevation_m": 1000,
+      "distance_options": [
+        "54km"
+      ],
+      "elevation_m": 1050,
       "altitude_m": 800,
       "location": "Rena to Lillehammer",
       "location_badge": "Innlandet, Norway",
@@ -17,7 +19,7 @@
       "date": "Third Saturday in March",
       "date_specific": "2026: March 21",
       "discipline": "classic",
-      "field_size": "~8,000 starters",
+      "field_size": 10000,
       "founded": 1932,
       "registration": "Opens in spring; sells out quickly",
       "prize_purse": null,
@@ -25,7 +27,9 @@
       "cutoff_time": "Approximately 8.5 hours",
       "website": "https://www.birkebeiner.no",
       "lat": 61.1153,
-      "lng": 10.4663
+      "lng": 10.4663,
+      "field_size_estimate": 10000,
+      "elevation_gain_m": 1050
     },
     "climate": {
       "primary": "Norwegian mountain winter",
@@ -85,10 +89,280 @@
         "The race has been cancelled multiple times due to extreme weather on the mountain"
       ]
     },
-    "series_membership": ["worldloppet", "ski_classics_grand_classic"],
+    "series_membership": [
+      "worldloppet",
+      "ski_classics_grand_classic"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Birkebeinerrennet cross country ski race Rena to Lillehammer",
+      "videos": [
+        {
+          "video_id": "l0od8TZT3-k",
+          "title": "Birkebeinerrennet English version",
+          "channel": "birkebeiner",
+          "view_count": 11565,
+          "upload_date": "20151218",
+          "duration_string": "3:39",
+          "description": "The legendary Birkebeiner ski race is a cross-country race starting at Rena to the finish in Lillehammer. The 54 km, classic technic, race crosses two mountains, and the course takes you through breathtaking sceneries",
+          "tags": [
+            "skirace",
+            "birken",
+            "birkebeiner",
+            "challenges",
+            "experiences",
+            "norway",
+            "snow",
+            "crosscountry"
+          ],
+          "url": "https://www.youtube.com/watch?v=l0od8TZT3-k",
+          "transcript": "the bbina ski race is the world's\nlargest cross-country ski race with over\n16,000\nparticipants the 54 km course crosses\ntwo mountains and is probably the most\nchallenging long-distance CrossCountry\nski race on the circuit in\n126 two Warriors ski the infant Prince\nhok hokanson over the mountains to\nsafety the race commem at that heroic\njourney and participants must carry a 3\nand 1/2 kilo backpack to symbolize the\nweight of the baby the classic style ski\nrace takes place Saturday March 3rd\n[Music]\n[Applause]",
+          "curated": false
+        },
+        {
+          "video_id": "3z8Wew6pj14",
+          "title": "! Warning! Sundby crash on Birkebeinerrennet, 54km Rena-Lillehammer, Norway",
+          "channel": "PSI",
+          "view_count": 8132,
+          "upload_date": "20170318",
+          "duration_string": "31",
+          "description": "Sundby crash on Birkebeinerrennet, 54km Rena-Lillehammer, Norway",
+          "tags": [
+            "#Sundby",
+            "#crash",
+            "#Sundbycrash",
+            "#Birkebeinerrennet",
+            "#Rena-Lillehammer",
+            "#Бирка",
+            "#БИРКЕБЕЙНЕРРЕННЕТ"
+          ],
+          "url": "https://www.youtube.com/watch?v=3z8Wew6pj14",
+          "transcript": "[Music]\nno no no oh\nJesus oh no good that was a collision\nwith\nsunbe no no no oh\nJesus oh no SC that was a collision with\nJesus Oh SC that was a collision with\nthe",
+          "curated": false
+        },
+        {
+          "video_id": "MM26qcgYsT4",
+          "title": "Highlights Birkebeinerrennet 2025 I Ski Classics Pro Tour",
+          "channel": "SC - The Ski Community",
+          "view_count": 6682,
+          "upload_date": "20250315",
+          "duration_string": "1:46",
+          "description": "🔥 Birkebeinerrennet 2025 delivered an unforgettable race as the world’s top long-distance skiers battled through 54 km of demanding terrain in Norway. This legendary race, part of the Ski Classics Pro Tour, takes skiers across the breathtaking mountain pass from Rena to Lillehammer, carrying the traditional 3.5 kg backpack—a tribute to the historic Birkebeiner warriors.\n\n🏆 Winners of Birkebeinerrennet 2025:\n🥇 Men: Andreas Nygaard (Team Ragde Charge)\n🥇 Women: Stina Nilsson (Team Ragde Charge)\n\nRelive the most exciting moments, from early breakaways to the intense final sprint! Who had the best tactics? Who dominated the climbs? Watch now to see how the race unfolded!\n\n📌 Subscribe to SC The Ski Community for more interviews, race highlights, and exclusive Ski Classics content. Subscribe Here:    / @sctheskicommunity  \n\n🔗 Discover more about Ski Classics and cross-country skiing:\n🌐 Ski Classics Official Website: https://skiclassics.com/\n🌐 Längd.se (Swedish): https://www.langd.se/\n🌐 Langrenn.com (Norwegian): https://www.langrenn.com/\n🌐 Maastohiihto (Finnish): https://www.maastohiihto.com/\n🌐 ProXCskiing: https://www.proxcskiing.com/\n\n💬 Join the conversation:\nWhat did you think of this year's Birkebeinerrennet? Drop your thoughts in the comments!\n\n#Birkebeinerrennet #SkiClassics #CrossCountrySkiing #Längdskidåkning #Langrenn #Maastohiihto",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=MM26qcgYsT4",
+          "transcript": "and\n[music]\ns\ntwo",
+          "curated": false
+        },
+        {
+          "video_id": "Sil-QcqC9_I",
+          "title": "Birkebeinerrennet 2018 Norway 54km Ski Marathon",
+          "channel": "Kaerajaan",
+          "view_count": 7571,
+          "upload_date": "20180319",
+          "duration_string": "5:28",
+          "description": "",
+          "tags": [
+            "17.03.2018"
+          ],
+          "url": "https://www.youtube.com/watch?v=Sil-QcqC9_I",
+          "curated": false
+        },
+        {
+          "video_id": "1f1jahbaJ3I",
+          "title": "The Ski Marathon (Birken 2016)",
+          "channel": "Finnian Moore",
+          "view_count": 6528,
+          "upload_date": "20160508",
+          "duration_string": "7:29",
+          "description": "I went to Norway and did the Birkebeinerrennet with some friends. It's a 54km cross country ski marathon that takes you from Rena to Lillehammer, over 2 mountains. It was epic!  \n\n\n \nMusic:\nJon Hopkins\nAkov\nThe Chromatics\nLost Years\nDub Colossus\n\nI am also here:\ninstagram.com/finnianmoore\ntwitter.com/finnianmoore\n\nSUBSCRIBEEEEEEEE",
+          "tags": [
+            "drone",
+            "vlog",
+            "london",
+            "vlogger",
+            "blog",
+            "blogger",
+            "norway",
+            "ski",
+            "skiing",
+            "nordic",
+            "nordic skiing",
+            "cross country skiing",
+            "music",
+            "finnian moore",
+            "ayala show",
+            "casey neistat"
+          ],
+          "url": "https://www.youtube.com/watch?v=1f1jahbaJ3I",
+          "transcript": "[Music]\nY no turning back now guys no turning\nback shot to\nFL\nspent the last few days in bed and sick\nnow once again I'm back here at the beer\ncabiner still bit sick let's do\nthis\nno getting out\nnow\nthe\nbiret is a 54 km CrossCountry ski\nMarathon that takes you over two\nmountains from Rena to\nlammer oh no here we\ngo\nn\nI'm\nTR this is kashad\nthis isn't\nit and then we just go up to\nsh yeah yeah so and then sh sh and then\ndown\nTock hey\nhey\nfastic oh W look at that\namazing\nsilver to\ninac I've got silver freaking kick waack\nwatch out crash dad kick you in the\nass\noh to and\nT oh go hey\nhey Tu all\nright\nwho\nstuck\nto and talk not get man\ny\nfastic\noh too and tck\nyeah yeah yeah yeah\nfantastic woo all\nright check that\nout\nthe Der boys have made it\nagain say boys never mind we didn't get\nit it was so close so close so\nclose boys have made it\nyeah freaking made\nit I made it too but I don't know where\nmy\nbadges I'm very\nimpressed uh finan he is uh he is a\nviking yeah a real Viking excellent yeah",
+          "curated": true,
+          "curation_reason": "Personal vlog-style race experience with course details and authentic skier perspective on the two mountains.",
+          "display_order": 3
+        },
+        {
+          "video_id": "qnthEkI5P3Q",
+          "title": "Birkebiennerrennet 18th March 2017",
+          "channel": "Julian Franklin",
+          "view_count": 96,
+          "upload_date": "20170330",
+          "duration_string": "16:14",
+          "description": "Ski race of 54km distance from Rena to Lillehammer in Norway over two mountains",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=qnthEkI5P3Q",
+          "curated": false
+        },
+        {
+          "video_id": "ir9fpe0msyk",
+          "title": "Fischer Nordic l Birkebeinerrennet Stage Intro Emil Persson 23l24",
+          "channel": "Fischer Sports",
+          "view_count": 297,
+          "upload_date": "20240313",
+          "duration_string": "57",
+          "description": "The 54 km Birkebeiner race from Rena to Lillehammer is one of the highlights of the Ski Classics series. Emil Persson tells us more about the unique characteristics of this race and its special challenges.\n\nMoving pictures from @Ski Classics\n\nFOLLOW FISCHER SPORTS ON SOCIAL \n▲ Fischer Ski on Instagram: https://www.instagram.com/fischerski\n▲ Fischer Nordic on Instagram: https://www.instagram.com/fischernordic\n▲ Fischer Ski on Facebook: https://www.facebook.com/fischerski \n▲ Fischer Nordic on Facebook: https://www.facebook.com/fischernordic\n\n\n▲ Visit our Website: http://www.fischersports.com \n\n\nSKIING IS OUR LIFE.\nFischer’s vision is to be the athlete’s number one choice through outstanding products, made for everlasting moments and new levels of individual performance. Our mission is to enable athletes to enjoy their sport and excel to the next level by introducing the most innovative, reliable, and easy to use products.\n\n\nFor us, skiing is not a lifestyle. It’s life. #livetoski",
+          "tags": [
+            "Fischer",
+            "Sports",
+            "Fischer Sports",
+            "fischersports",
+            "fischersports.com",
+            "Skiing",
+            "Ski",
+            "livetoski",
+            "fischerski",
+            "fischer ski",
+            "winter sports"
+          ],
+          "url": "https://www.youtube.com/watch?v=ir9fpe0msyk",
+          "transcript": "hello em person here Bea is coming up\nhere soon and uh that's a special race\nfor us sweds we haven't won it for like\na few years now so I think it's time to\nto the sweds to to win on the Norwegian\nhome ground uh it's the norwegian's\nbiggest race uh the course is only 54 km\nso not the longest but it's always up or\ndown so it's a very tough course when\nyou go up on the like the high mountains\nyou get very exposed to the weather it\ncan be very windy and\nchallenging but the when you get to the\nShoon it's very nice atmosphere it's\noften very crowdy and the people are\ncheering on you so you get some extra\npower for the last 10 km there to\nfinally get down to the stadium\nhopefully there will be a swed there to\ncross the finish line\n[Music]\nfirst",
+          "curated": false
+        },
+        {
+          "video_id": "RagJvMBR06E",
+          "title": "Birkebeinerrennet BIRKEN 2019",
+          "channel": "fen27",
+          "view_count": 7617,
+          "upload_date": "20190320",
+          "duration_string": "7:00",
+          "description": "BIRKEN 2019, 16.03.2019, Birkebeinerrennet Rena - Lillehammer, start wave 17",
+          "tags": [
+            "Birken",
+            "Nordic",
+            "biegówki",
+            "ski",
+            "visma",
+            "klasyk",
+            "2019",
+            "cross-country skiing",
+            "Birkebeinerrennet",
+            "rena",
+            "lillehammer",
+            "langrenn",
+            "narty",
+            "maraton",
+            "bieg"
+          ],
+          "url": "https://www.youtube.com/watch?v=RagJvMBR06E",
+          "curated": false
+        },
+        {
+          "video_id": "XnFbfKKHb50",
+          "title": "Birkebeinerrennet 2022 Magnus Race Report POV",
+          "channel": "Magnus Högfeldt",
+          "view_count": 18393,
+          "upload_date": "20220321",
+          "duration_string": "9:47",
+          "description": "Race report från Birkebeinerrennet 2022. En film i Point-Of-View format från start i Rena till mål i Lillehammer. Filmat och skidat av Magnus Högfeldt\n\nRace Report from Birkebeinerrennet 2022. A Point-of-View clip showing the race from the start in Rena to the finish line in Lillehammer. Filmed and skied by Magnus Högfeldt.",
+          "tags": [
+            "Birkebeinerrennet",
+            "Birken",
+            "Race report",
+            "crosscountryskiing",
+            "xcskiing",
+            "nordic ski",
+            "Club sportoffice",
+            "lopprapport",
+            "langrenn",
+            "längdskidor",
+            "längdskidåkning",
+            "visma ski classics",
+            "långlopp",
+            "pov",
+            "point-of-view",
+            "gopro"
+          ],
+          "url": "https://www.youtube.com/watch?v=XnFbfKKHb50",
+          "curated": true,
+          "curation_reason": "Point-of-view race report showing the complete race from Rena to Lillehammer finish.",
+          "display_order": 2
+        },
+        {
+          "video_id": "HgG-eBV74wA",
+          "title": "Birkebeinerrennet 2015: Birkebeinerne strømmer i mål",
+          "channel": "birkebeiner",
+          "view_count": 393,
+          "upload_date": "20150321",
+          "duration_string": "2:04",
+          "description": "",
+          "tags": [
+            "birken",
+            "birkebeinere",
+            "birkebeiner",
+            "birkebeinerrennet"
+          ],
+          "url": "https://www.youtube.com/watch?v=HgG-eBV74wA",
+          "transcript": "boy at their data riffs together young\nyou stop what more is there for\nChristmas our fina for teen club\nShintaro how a Libra although a\nya know me my skills you sure no you\nsure this medley bro I'd refer night\nMatty in there is that you are the fauna\narmy I'll go cause he's got today at all\nday okay Meow's Joseph invent any event\nthe definite yesterday schmear what am I\nDavari more of a little late hey I came\nto know her little dog militia prevent\nI'll bother c4 presta Schulman lovely to\nsee the real it later since politics\ndraft resolution a by Lady Anna revolt\nwhy a true harmony cincin we're on were\nturnin hourly fee no good festo guccio\ngucci a free champagne then that's a\ngood five or a stroller we're most\nevening i delay available liar for\nculotte is granite is messed so\ndiversity this is caleb escrever than\nthe folk you first met do whatever\nvuyo murder my address Carlina rule of\nlet me like I after though of NASCAR\ntalk now casually Twitter all right live\nin the photo so early Dino guy like you\nwhat am i understanding young saipa LOL\nlibera whenever you go for a go over\npoints off in dogs meta hi dad stood\nfresh air from nephi entitled a killer\ncannot remove a time I write an order\nbreed expecially just like",
+          "curated": false
+        },
+        {
+          "video_id": "JmEf2-78SqY",
+          "title": "Get ready for the Birkebeinerrennet 2024 🇳🇴 - Cross-country skiing at its best 😎 ☀️ ❄️",
+          "channel": "Worldloppet",
+          "view_count": 1058,
+          "upload_date": "20230927",
+          "duration_string": "1:08",
+          "description": "With more than 7.000 skiers joining this adventure, the Birkebeinerrennet is Norway's greatest ski marathon. It is a member of the Worldloppet Skifederation and stands for tradition and sportsmanship. \n\nFor 2024's edition taking place on February 16th already more than 7.000 skiers are registered. \nEarly bird entry is still possible. \n\nThe organizers also have composed a month by month training plan to make you fit for race day. \n👉 https://www.worldloppet.com/7000-skiers-for-a-superb-birkebeinerrennet-2024/\n\nJoin the Birkebeinerrennet 2024.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=JmEf2-78SqY",
+          "curated": false
+        },
+        {
+          "video_id": "mARJBS1SomY",
+          "title": "Birkebeinerrennet",
+          "channel": "birkebeiner",
+          "view_count": 14824,
+          "upload_date": "20201030",
+          "duration_string": "3:54",
+          "description": "Med deg bærer du en sekk på 3,5 kg og et 800 år gammelt sagn om Kongeriket Norge.\nhttps://birkebeiner.no/no/nyheter/derfor-gar-du-med-sekk_1",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=mARJBS1SomY",
+          "curated": false
+        },
+        {
+          "video_id": "sDMhMymcCbk",
+          "title": "Could this be the HARDEST race I've ever done? - Birkebeinerrennet 2025",
+          "channel": "Andreas Fausko",
+          "view_count": 5352,
+          "upload_date": "20250319",
+          "duration_string": "15:34",
+          "description": "I was warned about how hard this race would be, but it still took me by surprise how long and disgustingly hard the climbs actually are. \n\nFollow me on socials\nStrava: https://www.strava.com/athletes/10202509\nInstagram: https://www.instagram.com/andreasfausko/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=sDMhMymcCbk",
+          "transcript": "6 km\ndone seriously mountain of climbing a\nbit easy to rain now getting to the\nfirst food station soon and then I guess\nit's a lot of climbing\nagain this is\ninsane this is\nbeen so freaking brutal so far I can't\nmore I got to give off I give I give off\njust\n[Music]\nwelcome to shoan I was not supposed to\nbe here right now but to understand how\nI ended up here we need to go back a\ncouple of days\nit's finally happening B 2025 welcome to\nLi hammer and I said in the last week's\nvideo that we would um talk a little bit\nabout the Big B and why have we done it\nso let's just do that right away two\nreasons why I haven't done the bacon B\nrace before first reason is that after\nwasala the motivation for skiing anymore\nis quite low that's because as I said in\nthe last video you pour all the energy\nfrom you know first day of fall all the\nway until the first day of March to bopa\nyou know um and then when you're done\nyou're just like uh okay what I do now\nyou know um just zero motivation to do\nanything after that and um I just want\nto go into the mountains and do some ski\ntouring instead but unfortunately them\nconditions aren't that good in the\nmountain right now even though I'm\nplanning to explore it a little bit more\nafter the race tomorrow\nand then you have the second thing which\nis that big race have always scared me\nscared me like a lot because everybody\nsays it's so brutal which I no doubt it\nis uh because you can see on the course\nprofile that you know you're going over\nfree mountains uh it's basically I don't\nknow they say it's around 14 Cas of\nuphill to begin with then it's down\nagain and then it's up again and then\nit's down and up before yeah it's all\nthe way down to the number and uh\nin the end but um they say like to\ndouble po big binder is like the\nultimate test and yeah you can Bine and\nzero motivation and then being afraid of\nall the suffering you have to do to to\nget to the Finish Line Li Hammer then um\nthat should give you a couple reasons\nwhy I haven't done the big race yet the\ndifferent here from other races is that\nyou need a backpack when you're racing\nand it has to weigh 3 and 1 12 kilos so\nthat's going to be a bit of uh\nnot an issue but it's going to be\nsomething different that I haven't\nexperienced before so I went out to ski\nlast week with the backpack not exactly\n3 and half kilos a little bit below but\nfelt okay so don't think it should be a\nproblem but here we are now picked up my\nstarring bib got my skis nicely prepared\nfrom peric at M\nso as usual there shouldn't be any\nexcuses for my skis not probably get up\naround 5:00 a.m. tomorrow morning before\nit's the bus to the stock line that is\nwhere I'm going to be starting at uh\n8:35 in the morning so that's the plan\nso not that hyped right now but I reckon\nonce I get up in the morning and get my\nstart bib on my suit then um I guess I'm\npretty much sure to go\n[Applause]\ngood morning it's uh qu 5 had a pretty\ngood sleep not that nervous probably\nshould be more but uh I bet nurse going\nto arrive once we get closer to I got\naround half an hour 45 minutes until the\nbus leaves so I'm going to get some\nbreakfast maybe I grab a cup of coffee I\nhaven't set like a time goal for myself\nreally cuz I have no idea what I'm going\nto today in in a sense cuz I've never\ndone it before so I don't know what to\nexpect and how fast I can ski but let's\njust say that if I get below 4 hours\nthen I should be pretty satisfied I\nsuppose\nI\nthis place is absolute chaos makes no\nsense at all so I'm just walking around\nnow looking at other teams seeing what\nother people do but uh I'm starting in\n35 minutes so yeah I'm just going to\nprepare see if I meet somebody I know\nbut as of right now it's going to be me\nmyself and I towards the Finish Line\nover out I just had a sneak peek off the\nstar as well and it looks absolutely\nbrutal so oh yeah I'm sure it's going to\nbe fun but uh first first 14 is going to\nbe pretty tough I think start group four\n845 all right let's go starting in 10\nminutes\nn\ndone seriously mountain climbing a bit\neasy to rain now getting to the first\nfood station soon and I guess it's a lot\nof climbing again\nso we\nare 18 Cas in I guess you're up on the\nmountain now this is\ninsane this\nis so freaking brutal so far it's only\nbeen climbing for 20K\na small downhill for maybe one or two\ncase maximum but ni just been going up\nup up up up up up never experienced\nanything in my whole entire life\nabsolutely insane and it just keeps on\ncontinuing on\neyes up\nI can't more I got to give off I give I\ngive off\njust now this was a stupid idea so\nstupid\non for foree\nwe\nholy [&nbsp;__&nbsp;] huh holy\n[&nbsp;__&nbsp;] that\nwas I was a lot of things a lot of\nthings a lot a lot of things a lot of\nthe time at once I don't know what to\nsay really ah\nyeah I don't know\num let's talk about it later I got to\nget changed and\nuh so get all in I\nguess well welcome back that's the big\nbinder 2025 done and dusted I was\nsupposed to do this recap right after\nthe race uh as I mentioned uh but uh you\nsee my backpack got left at the ARA\nluckily had an air tag in it and I could\nsee that it just left it at their main\noffice in R City Center so on uh Sunday\nI um had to drive back to R pick up my\nbag and I was supposed to head for\nmountains really so I did that I headed\nfor mountains came 1 and a half hours\nnorth of lamur went by a friend had a\ncoffee took another look at the forecast\ntalked to some other friends lived in\nthe mountains figured you know what no\nI'm not doing it I'm not going to the\nmountains because the conditions are\n[&nbsp;__&nbsp;] supposed to be [&nbsp;__&nbsp;] weather it's\nsupposed to rain so I end up turning\nback and here I am at shushan and I have\na couple of days off so I'm going to go\nfor some more cross country skiing so to\nwrap things up just made a metal time of\nuh 3 hours 49 minutes Brewer race lots\nof climbing disgusting amount of climbs\nnot just that it climbs in were\ndisgusting it was the length of them\nthat was disgusting it just never ended\nnever never ended have to be really\nstrong to double pull it I'm probably\nmaybe not strong enough to do it and\nprobably need a few more hours in the\nbank to properly get myself over the\nmountains in good conditions I don't\nreally think I like the event that much\nso I might not do it next year but we'll\njust have to wait and see now I'm going\nto go ski here at shushan\nbecause I might not be done racing after\nall there's probably one more thing\ncoming up I'm not going to spoil\nanything but it's pretty insane and it's\ngoing to be a pretty epic finish to the\nseason and you will figure out soon\nenough but thanks a lot for watching\nI'll see you again next week peace",
+          "curated": true,
+          "curation_reason": "Recent first-person POV race recap from 2025 with detailed experience of the challenging course and climbs.",
+          "display_order": 1
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I was warned about how hard this race would be, but it still took me by surprise how long and disgustingly hard the climbs actually are... this has been so freaking brutal so far.",
+          "source_video_id": "sDMhMymcCbk",
+          "source_channel": "Andreas Fausko",
+          "source_view_count": 5352,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
     }
   }
 }

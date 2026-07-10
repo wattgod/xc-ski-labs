@@ -1,0 +1,338 @@
+{
+  "race": {
+    "name": "Sun Valley Nordic Festival",
+    "slug": "sun-valley-nordic-festival",
+    "display_name": "Sun Valley Nordic Festival",
+    "tagline": "Thirty kilometers beneath the Sawtooth peaks — Sun Valley's Nordic showcase on one of Idaho's finest trail systems.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km classic/skate",
+        "15km classic/skate",
+        "5km fun race"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 1800,
+      "location": "Sun Valley Nordic Center, Ketchum, Idaho",
+      "location_badge": "Idaho, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Idaho",
+      "date": "Mid-February",
+      "date_specific": "2026: February 14",
+      "discipline": "both",
+      "field_size": 150,
+      "founded": 1982,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Multiple aid stations",
+      "cutoff_time": null,
+      "website": "https://www.svnordic.com",
+      "lat": 43.6807,
+      "lng": -114.3637,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Central Idaho mountain winter",
+      "description": "Mid-February in Sun Valley brings cold, dry conditions with excellent snowpack. Temperatures typically -15°C to 0°C. The high-desert mountain climate means intense sun and dry powder snow.",
+      "typical_temp_c": "-15 to 0",
+      "challenges": [
+        "Intense high-altitude sun can affect wax and snow conditions",
+        "Dry air and altitude combine for quick dehydration",
+        "Occasional chinook winds can warm temperatures rapidly"
+      ]
+    },
+    "course": {
+      "primary": "A 30km race on the Sun Valley Nordic Center trail system in Ketchum. World-class grooming on a system that regularly hosts national-level competitions. The course loops through the Wood River valley with stunning views of the Boulder and Pioneer mountain ranges.",
+      "format": "loop",
+      "surface": "Machine-groomed Nordic trails, world-class quality",
+      "technical_rating": 2,
+      "grooming": "Excellent — Sun Valley Nordic Center is known for top-tier grooming",
+      "features": [
+        "Sun Valley Nordic Center is one of the premier trail systems in the western US",
+        "Stunning mountain scenery with Sawtooth and Boulder Mountain views",
+        "World-class grooming rivaling resort-quality trails",
+        "The Sun Valley area has deep skiing heritage dating to the 1930s",
+        "Multiple distance options make it accessible to all levels"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Sun Valley's Nordic pedigree and exceptional grooming stand out, as does the spectacular Idaho mountain scenery. Moderate field size and limited international draw keep it from higher tiers. One of the best-groomed courses in the western US."
+    },
+    "history": {
+      "summary": "Sun Valley has been a skiing destination since 1936 when the Union Pacific Railroad built the Sun Valley Lodge as America's first destination ski resort. The Nordic center carries on that tradition, offering some of the finest groomed trails in the American West. The Nordic Festival celebrates the area's deep skiing culture.",
+      "notable_facts": [
+        "Sun Valley was America's first destination ski resort (1936)",
+        "The Nordic Center maintains over 40km of groomed trails",
+        "Ernest Hemingway was a famous Sun Valley resident and skier",
+        "The area regularly hosts USSA and junior national Nordic competitions"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Sun Valley Nordic Festival cross country ski race Sun Valley Nordic Center",
+      "videos": [
+        {
+          "video_id": "SVt_LbR7Ryo",
+          "title": "Nordic Skiing and New Nordic Center (HD 720p)",
+          "channel": "Sun Valley",
+          "view_count": 739,
+          "upload_date": "20090225",
+          "duration_string": "2:07",
+          "description": "Ned Wheeler, Director of Sun Valley Nordic Center encourages you to come on out and try cross country skiing on our 41Km of daily groomed Nordic trails. Come visit us in new state-of-the-art Nordic headquarters, the facility open to all Nordic skiers for the first time this winter. Looking forward to seeing out out here!",
+          "tags": [
+            "Sun",
+            "Valley",
+            "Resort",
+            "Idaho",
+            "winter",
+            "destination",
+            "Nordic",
+            "cross-country",
+            "skiing",
+            "Club"
+          ],
+          "url": "https://www.youtube.com/watch?v=SVt_LbR7Ryo",
+          "transcript": "hi i'm ned wheeler director of the sun\nvalley nordic center we want to\nencourage all of you to come on out here\nand experience some great skiing we\ngroom daily\nand we have 41 kilometers of trails here\nwe have our beginning trails or green\ntrails you know the easy ones that are\nright out on the golf course here pretty\nlevel terrain pretty flat terrain from\nthere we move on out to some of the\ntrails that are on the forest service\nland that have more hills and variations\nthose get more difficult and then we\nacross the street where the new white\ncloud 9 golf course is we ski all the\nway up to the top on what we call\ndiamond back\nnice\ntough ascent up and a screaming fun\ndownhill back down\nwe've got a great new facility here at\nsun valley nordic you can rent\neverything you'll need to give cross\ncountry a try\nwe also rent snowshoes and we've got\nabout 10 kilometers of signed and packed\ntrails around the center\nupstairs in our retail shop we carry the\nlatest cross-country gear plus a wide\nvariety of performance clothing and\naccessories\ncross-country skiing is a great sport it\nprovides a great break from alpine\nskiing less expensive than alpine skiing\nit's pretty easy to get going\nwith some classic equipment and get out\nin the trails and sort of walk\nstride move into glide we can help you\nwith lessons\nwe have folks out here that are skiing\nthat are in their 80s so it's something\nyou can do throughout your whole life\nsomething you can do with your family\nyou can bring little kids along you can\npull them in a sled behind you\na lot of great benefits for your\nphysical health to it too uses all the\nmajor muscle groups really good for you\nwe're real close to town so come on out\nand ski and stop in at the restaurant\nand have a meal afterwards",
+          "curated": false
+        },
+        {
+          "video_id": "0oVWSBVyEq8",
+          "title": "Sun Valley Nordic Center",
+          "channel": "Ben Reel",
+          "view_count": 76,
+          "upload_date": "20130117",
+          "duration_string": "3:17",
+          "description": "",
+          "tags": [
+            "Nordic",
+            "Just",
+            "music1"
+          ],
+          "url": "https://www.youtube.com/watch?v=0oVWSBVyEq8",
+          "curated": false
+        },
+        {
+          "video_id": "HbceR34SLz0",
+          "title": "Sun Valley becoming a Nordic skiing destination",
+          "channel": "KTVB",
+          "view_count": 417,
+          "upload_date": "20180221",
+          "duration_string": "3:30",
+          "description": "A strong sense of community, along with a seemingly endless trail system, has earned Sun Valley a new moniker: Nordic Town, USA.",
+          "tags": [
+            "Sports",
+            "Olympics"
+          ],
+          "url": "https://www.youtube.com/watch?v=HbceR34SLz0",
+          "transcript": "Sun Valley Idaho is often revered as the\nbirthplace of American Alpine Skiing and\nhome to this the country's first\nchairlift but for those seeking to cover\ndistance instead of vertical this town\nhas earned itself a new moniker Nordic\ntown USA\n[Music]\nthis morning at the Galina Nordic Center\njust north of Sun Valley a couple dozen\nyoung cross-country skiers prepared for\ntheir first true test of the season the\nwinter start course did everyone sort of\nski it this morning all right\nracers set go today these athletes will\npush themselves on a 5 kilometer track\nyeah this kind of get the cobwebs out\nand test themselves in an environment\nwhere there's really no pressure to go\nfast go but this course is short\nespecially when compared to the more\nthan 80 miles of groomed trails that\nthis area has to offer\nit's amazing the the it's just the\ntrails are also Nina Reiser awesome it's\nlabeled they call it Nordic town USA and\nit's no wonder that every year hundreds\nof kids from first grade through\npost-grad flocked to the Sun Valley ski\neducation across country team that's\nlike being out with my friends on the\ntrails eSport makes me wanna continue to\nit it's this strong sense of community\nalong with the seemingly endless number\nof trails that's earned Sun Valley the\ntitle of the nation's only designated\nNordic Olympic Training site as far as\njust kilometres of trail facilities for\nmotive skiers different venues and then\nthe community that we have here I'm hard\npressed to think of any other town in\nthe country that can compete with Sun\nValley for cross-country skiing\nthe designation not only entitles Sun\nValley to extra funding from the United\nStates Olympic Committee but it also\ndraws the country's top athletes here to\nTrain just having that relationship\nbetween the kids coming up and their\nheroes where they actually know each\nother's names\neach other in the hotness that's a\nreally powerful thing for kids\nhistorically cross country is a sport\nthat's been dominated by Scandinavian\ncountries like Norway but the Americans\nare on the rise with the women earning\nthree World Championship medals and\neight World Cup podiums last year it's\ninspired me a why it's so cool seeing\ngirls a woman from my countries really\ndoing well outside of Italy so that has\ndefinitely inspired me to erase and\ncharge because here in Sun Valley these\nkids will have their eyes set squarely\non South Korea all while keeping their\nown tools in plain view I mean hopefully\nelsewhere in college one day\n[Applause]\nnow the Nordic Center here isn't the\nonly United States Olympic training site\ndesignated in the area in fact the USOC\nhas also named Alpine free skiing\nfreestyle and snowboarding sites as well\nthat makes Sun Valley the only place in\nthe country with five official Olympic\ntraining venues in Sun Valley\nI'm Shannon camp Idaho's News Channel\nset",
+          "curated": true,
+          "curation_reason": "Provides excellent context about Sun Valley's Nordic scene, trail system, and community with race footage from local events.",
+          "display_order": 2
+        },
+        {
+          "video_id": "j9qyOGXgLkM",
+          "title": "SUN VALLEY Nordic Festival",
+          "channel": "Next Stop",
+          "view_count": 62,
+          "upload_date": "20160905",
+          "duration_string": "2:21",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=j9qyOGXgLkM",
+          "transcript": "Sun Valley is a Nordic skiers paradise\nand our timing is perfect we're in town\nfor the third annual Sun Valley Nordic\nFestival this is a really hot thing for\nthis town yeah absolutely we get a great\ncrowd out here we're uh we're hoping to\nhave 500 down here by later tonight\nwhich in a town our size is a pretty\ngood sized group really great to see all\nthe kids out here we just saw the kids\nrace the seniors are coming up but this\nis a great sport to start as a young kid\nit is we have uh an incredible program\nhere in the valley we start kids off\nyoung you know we've got kids racing on\nthe World Cup today and we've got\nsix-year-olds racing out here on this\ncourse\ntoday why is it so big here why is Sun\nwell there's a lot of reasons uh a lot\nof big personalities involved in the\nsport in this town and then also we've\ngot some of the best skiing in the world\nthe energy here today is awesome I'm\nexcited for the finals what's your\nprediction I'm still going to to pick\nour hometown guys Colin Rogers Nicole D\nyoung nobody is faster in the last 100\nmeters than Colin Rogers so he's going\nto smoke them and they're off there we\ngo big win for Colin across the line\nbackwards I'm with the Champions Nicole\nand Colin now you guys had some extra\npressure on you sure did I was talking\nto the MC forand I said who do you\nthink's going to win you can tell us he\nsaid I'm going with the local boy going\nwith Colin and Nicole and you guys did\nit man yeah you know I it went all right\nMatt was pushing really hard we were\nreally tight together he pushed the pace\nearly and I just tried to hang on him\nconserve little energy now you're not\nfrom here you came from Alaska corre and\nyou've been here for 5 years how do you\nlike Sun Valley you know it's great I\nhave to say I really like the\nsun it's called Sun for a reason right\nexactly yeah but we had a great time\nwatching you guys win this thing today\ncongratulations\nhave a great time\ntonight the race is over but the party's\njust beginning live music Snowshoe\ndancing and a lot more this was a very\ncool\nevent",
+          "curated": false
+        },
+        {
+          "video_id": "T_f4MBM4QIE",
+          "title": "Nordic Skiing in Sun Valley, Idaho",
+          "channel": "Visit Sun Valley",
+          "view_count": 308,
+          "upload_date": "20190130",
+          "duration_string": "31",
+          "description": "A glimpse in to the Nordic scene in Sun Valley, Idaho including the Nordic Festival and the Boulder Mountain Tour.",
+          "tags": [
+            "Nordic skiing",
+            "Sun Valley Nordic Festival",
+            "Boulder Mountain Tour",
+            "Sun Valley Idaho",
+            "Ketchum"
+          ],
+          "url": "https://www.youtube.com/watch?v=T_f4MBM4QIE",
+          "curated": false
+        },
+        {
+          "video_id": "eIcddkPa_ho",
+          "title": "Oil Creek State Park / Sun Valley Nordic Cross Country Trails Basic Details",
+          "channel": "Cross Adventuring",
+          "view_count": 192,
+          "upload_date": "20161215",
+          "duration_string": "12:01",
+          "description": "Winter 2016 Basic Details for the Oil Creek State Park cross country ski trails ( Nordic skiing ). Conditions, trail details, updates, and more.",
+          "tags": [
+            "Oil Creek State Park",
+            "cross country skiing",
+            "nordic skiing",
+            "winter recreation",
+            "ski trails",
+            "sun valley nordics",
+            "winter trail running",
+            "diagonal skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=eIcddkPa_ho",
+          "transcript": "hey tambra here from cross adventuring\nand we're out here at oil creek state\npark today we're out of the ski trails\nacross country ski trails and we're here\nto have some quick questions answered by\npagan John Sims they're here and they\nrun what's the name of your company sun\nvalley nordic LLC mm-hmm okay we're set\nup up here the park office is down the\nroad a little bit way a little ways\nfurther and we're really excited because\nit looks like the ski trails are going\nto be shaping up pretty good this year\nso we wanted to find out how do you get\nout here how do you pay for the system\nhow do you use the program how do you\nuse the system the trails and everything\nand they're going to give us some\ninformation so we don't have the\ngrooming started yet but what you a\nlittle bit more snow okay we're about\nhow deep right now we're about four to\nfive inches and we need at least six\nmaybe a little bit more so we're almost\nthere okay right now the base is a\nlittle bit wet underneath we have some\nreally cold winter weather coming in\nthis week on top of some more snow so\nthe base should be firming up pretty\ngood freeze this home that's what we\nlike that's what we like so you've been\ndoing this for a couple years now about\nfive horses our sixth year this is our\nsixth year okay that's awesome yeah so\nagainst the student instituted some new\npayment program some new ways you can be\nparticipate in the ski trails here would\nyou like to explain a little bit about\nthat sure on weekends and on holidays\nwe're always here in this little little\nhot right here where you can purchase\nyour ski passes and get maps and\ninformation and things like that a\nseason pass which is for unlimited\nskiing anytime that's forty dollars for\nthe season and the day passes or five\ndollars on during the week sometimes\nwhen we're not here we have an honor\nsystem which is you just pick up an\nenvelope out of this box you know fill\nit out put your money in and pay here\none of the things that's really nice if\npeople will do this is to put where\nyou're from and things like that because\nwe really use the demographics on 24 you\nknow for other things and to just get\nsupport and things like\nthat knowing where people have come from\nand how far they've traveled and how\nmany people are using using the service\nand things like like that so we are\nabsolutely the cheapest place around\nhere a lot of the other cross-country\nski areas do charge a quite a bit more\nso you get you get a lot for your money\ndo you really do get a lot for your\nmoney here when when john gets out here\nand starts grooming those trails let me\ntell you they're pretty phenomenal and\nwe have a couple different systems of\ntrails here you have an easy trail\nsystem marked with green correct okay an\nintermediate beginner system which is a\ncombination system a couple the trails\nare really beginner friendly which is\nmarked in the blue and then you have a\nred trail which is for a more advanced\ngroup would you like to explain about\nany of the trail systems about how many\nmiles well there's like 12 miles total\nof trails but there's so many different\nyou know the inner loop in the outer\nloop and the connector trails I mean you\ncan ski I've skied 30 miles out here in\na day you know just covering all the\ndifferent options you can do so I mean\nthere's there's plenty of variety we're\nin the process of re designating some of\nthe trails as far as the difficulty\nlevels are okay so it'll be a little\nmore exact I guess as to what the trails\nout so far because the blue trail\ncurrently is marked as a more difficult\ntrail and really it's pretty level so it\nshould be an easy there's that nice it's\nabout a three mile circle that's an\nexcellent excellent beginner trail we\nuse it for the night skis right and\nthat's just a phenomenal trail to get\neverybody out get them you know if\nyou're new to it to get on your feet to\nreally get comfortable with learning how\nto keep it going and grooving with a\nlittle bit so we like that trail quite a\nbit so we're going to we were going to\ndo some of that today but we kind of got\nsmoked we like this is coming down\npretty good so I I did want to explain\nthat oil Creek is is just for classical\nskiing or diagonal striding and you know\nour trails are a little bit narrow which\nmakes it in a really nice nice in some\nways I know a lot of people do like to\nski skate and that's great but there are\nother places to go do that this is so\nthis is strictly for a classical skiing\nand a lot of them you know a lot of\nBenson time and effort goes into\ngrooming and setting the track and so we\ndo not allow dogs or snowshoeing here\nand I appreciate that but there are you\nknow 30 some other miles of trails in\nthe park where people can snowshoe they\ncan go down on the bike trail and ski\nwith their dogs if they want to but here\nat the ski area it's strictly for\nclassical skiing only no dogs no snow\nshoeing right hopefully no hiking yeah\nwe appreciate that when you're out on\nthe groomed trails and they're set in so\nnicely it just is just magic when you're\nout there and it's nice not to have them\nchopped up and chunked up after you put\nall the working right right he said\nabout you know in a day you could cover\n30 miles or so if you really want to put\nthat much mileage on but the nice thing\nhere is we have the warming hut and it's\nan awesome place to come back you know\ngo out do a ski loop come back you know\nwarm up your lunch bring a thermos of\nyou know hot tea or cocoa or something\nto bring some hot soup and there's a\nnice big fire right stove it keeps it\nnice and cozy right it's really nice\npeople coming from Erie Pittsburgh you\nknow clearly your college shaking people\ncome and spend the whole you know the\nwhole day and you know how their lunch\nand there's even a few that's stay\novernight and come back the next day\nit's awesome that's awesome there's\nplenty of you know trails keep everybody\nhappy and occupied yeah the trail beauty\nis just phenomenal there's a couple\nhemlock sections that are beautiful and\nyou're crossing over a couple creaks\naround you go and that oohs yeah yeah\nreally challenges for everybody at every\nlevel you know if you're just getting\nstarted plenty of good trails for that\nif you're one a more advanced trail\nthere's plenty of that as well so a nice\nthing here too is at every intersection\nthere's a map showing it with a little\nstar there that shows you exactly where\nyou are so that have your Maps it is so\nmuch easier so that's good because a lot\nof the places that we've skied well all\nover the country really aren't very well\nmarked like that's a kind of lost\nexactly so this is not only good you've\ndone a great job with everything here is\nthere anything else won't include today\nwe're going to come back through the\nseason and do some updates as they get\nthe trails groom\nas they get everything ready to go and\nyou have some you have some special\nevents coming up on the yeah when you go\non on thursday december twenty eight\nnine from noon to six or beyond we're\nhaving a ski swap and what that is is\npeople can bring stuff that they they\nwant to trade or sell or give away and\nhopefully there'll be some stuff here\nthat if people are looking for something\nelse or just looking for some skis to\nget started with things like that will\nbe will have the availability to get\nyour skis waxed so good Alan Hough will\nbe here from skype PA with there's a lot\nof strikes to see what that's all about\nfor for all season roller roller skiing\ntight and we'll have color friends group\nis having a free cocoa and people could\nask questions and mill around and you\nknow things like that so that should be\na fun fun day then we'll also be doing\nwaxing people skis really that want some\nwax for a row inmate den door yeah\nthat's awesome that'll be great yeah\ngetting those skis prepped up ready for\nthe new season makes a big difference\nyou really feel big big big difference\nout there and you're gliding correctly\nyeah some other time we're going to go\nover the types of skis and and what's\nout there we're going to do another\npresentation on that will go over you\nknow the different bindings the\ndifferent pins different way they're set\nup we'll go through that another time\nyou also want to keep thinking ahead\nthat as the weather keeps getting\nbeautiful for us there will probably be\nsome nights keys that the group the\nfriends group will set up then we'll\nkeep you updated as we get those days we\nreally try to coordinate them with a\nfull minute and if they can but those\nare fun evening so and that's free\nskiing that\nshow that is good so but thanks to them\nthe trails are groomed beautifully they\nwill be grooming hopefully this week if\nthe snow keeps coming in and we'll get\neverything set up I just want to thank\nthe volunteers at all creek that spend\nso much time throughout the year doing\ntrail maintenance for both the gorge\ntrail and also for the ski trails we\nhave a good group of people that will\ncome out here and work hard they really\ndo and then we have a fabulous system of\ntrails here at all Creek State Park so\nwhether it's for cross-country skiing or\nhiking or writing or snowshoeing or\nwhatever there's there's something here\nfor everybody to get them out and go I\nthink they're the actually the best\ntrails in the state of any other cross\ndomain area here I think there's\nnotoriety hey there's something for\nevery really yes yeah we like to send\npeople up here I mean I grew up on these\ntrails but we're little biased right oh\nyeah I want to talk a quick moment like\nabout the map system the trail system\nand the website yeah give me a little\nbit of information about that well the\nfriends of well Creek State Park have a\nwebsite it's wwwf ospc I think a part\nyeah and you can go to the to the\nfriends website and you can get\ncondition update on conditions posted\npretty regularly probably almost every\nday during the you know the season and\nthere's information about the system and\nthen there's a trail map there too and a\nlot of people can down you know can\ndownload that map but we do have maps\nhere but some people want to look at it\nahead of time and download it at home\nthey're able to do that so just go to\nthe friends of all creased a park\nwebsite and you know a lot of people\nwill download that map onto their phone\nand you know you cell phone you know\nwhen they're out here skiing that's a\ngreat great way to do that so we're\ngoing to go inside and take a quick look\nat the inside of the hut and the map in\nthere and we'll clip back in a moment\nokay this is our map for the ski trail\nsystem here and on it it shows the the\nhour red blue which is the\nthe most difficult loop and it's\napproximately six miles in length then\nthere is an inner bloom loop is call and\nit's about 2.6 miles and then there's a\nshort green loop which is basically\nright out kind of around the ski hut and\nit's six tenths of a mile then there's\nalso several connector trails that\nconnect the blue loop to the red loop\nand those are some of them are easy and\nsome of them are more difficult so they\ncan be very well I want to thank you for\nyour time today if there's anything else\nwe'll talk about thank you John I would\nsay I'm you know if you're the kind of\nperson that gets a little depressed in\nthe winter or you have cabin fever if\nyou come out and you ski I can guarantee\nyou leave happy yeah a lot of good folks\nout here it's a nice place to connect up\nand find a trail buddy and enjoy the\nweather and enjoy the winter so like I\nsaid we'll be back for some more updates\nas we go through the season thank you\nyeah it's a pleasure happy trails",
+          "curated": false
+        },
+        {
+          "video_id": "TKijHs3Hz88",
+          "title": "Sun Valley Nordic Ski Festival 2012",
+          "channel": "nicholskirk",
+          "view_count": 414,
+          "upload_date": "20120209",
+          "duration_string": "2:49",
+          "description": "Pleasure skiing at the Sun Valley Nordic Ski Festival surrounding the Boulder Mountain Tour. The day following the race many TUNA skiers found their way to the Sun Valley Resort trails. Follow these skiers as they relax along the Trail Creek trails.",
+          "tags": [
+            "Sun",
+            "Valley",
+            "Nordic",
+            "Ski",
+            "Festival",
+            "Boulder",
+            "Mountain",
+            "Tour",
+            "The",
+            "Utah",
+            "Alliance",
+            "TUNA",
+            "2012",
+            "Idaho",
+            "Cross",
+            "Country",
+            "skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=TKijHs3Hz88",
+          "curated": false
+        },
+        {
+          "video_id": "oo9vYonSPVs",
+          "title": "2012 Sun Valley Nordic Festival",
+          "channel": "Nils Ribi",
+          "view_count": 577,
+          "upload_date": "20130104",
+          "duration_string": "8:04",
+          "description": "The 3rd annual Sun Valley Nordic Festival was held in Sun Valley, Idaho for 9 days from January 28 through February 5, 2012. The key events included \"Ski The Rails\", \"Winter Sun Classic Race\", Skin It To Win It\" Downtown Jam and Nordic Sprints\", \"Sun Valley Demo Day\", and was capped off with the \"Boulder Mountain Tour.\" Nils Ribi Photography",
+          "tags": [
+            "Sun Valley",
+            "Idaho",
+            "Sun Valley Nordic Festival",
+            "Nordic Town USA",
+            "Nils Ribi Photography",
+            "Nordic Skiing",
+            "Nils Ribi"
+          ],
+          "url": "https://www.youtube.com/watch?v=oo9vYonSPVs",
+          "curated": false
+        },
+        {
+          "video_id": "aACTNIByTCs",
+          "title": "Sun Valley Nordic Festival ✈Travel Guide",
+          "channel": "Next Stop",
+          "view_count": 30,
+          "upload_date": "20140108",
+          "duration_string": "2:23",
+          "description": "WATCH FREE:",
+          "tags": [
+            "Holiday",
+            "packing",
+            "Tourism",
+            "personality",
+            "expedia",
+            "Where to Travel",
+            "Vacation",
+            "explore",
+            "travel",
+            "where to travel",
+            "visit",
+            "Experience",
+            "host",
+            "adventure",
+            "guide",
+            "Best Deals",
+            "Explore",
+            "destination",
+            "packing tips",
+            "Travel",
+            "Ideas",
+            "travel tips",
+            "Best Travel",
+            "#Tourism",
+            "travel guide",
+            "Next Stop",
+            "vacations",
+            "traveling",
+            "tourist",
+            "Top Travel",
+            "vacation",
+            "tourism",
+            "trip",
+            "Travel Channel",
+            "attractions"
+          ],
+          "url": "https://www.youtube.com/watch?v=aACTNIByTCs",
+          "transcript": "Sun Valley is a Nordic skiers paradise\nand our timing is perfect we're in town\nfor the third annual Sun Valley Nordic\nFestival this is a really hot thing for\nthis town yeah absolutely we get a great\ncrowd out here we're uh we're hoping to\nhave 500 down here by later tonight\nwhich in a town our size is a pretty\ngood sized group really great to see all\nthe kids out here we just saw the kids\nrace the seniors are coming up but this\nis a great sport to start as a young kid\nit is we have have uh an incredible\nprogram here in the valley we start kids\noff young you know we've got kids racing\non the World Cup today and we've got\nsix-year-olds racing out here on this\ncourse\ntoday why is it so big here why is Sun\nwell there's a lot of reasons uh a lot\nof big personalities involved in the\nsport in this town and then also we've\ngot some of the best skiing in the world\nthe energy here today is awesome I'm\nexcited for the finals what's your\nprediction I'm still going to pick our\nhometown guys Colin Rogers Nicole D\nyoung nobody is faster in the last 100\nmet than Colin Rogers so he's going to\nsmoke them and they're off there we\ngo big win for Colin across the line\nbackwards I'm with the Champions Nicole\nand Colin now you guys had some extra\npressure on you sure did I was talking\nto the MC beforehand I said who do you\nthink's going to win you can tell us\nsaid I'm going with the local boy with\nColin and Nicole and you guys did it man\nyeah you know it went all right Matt was\npushing really hard we were really tight\ntogether he pushed the pace early and I\njust tried to hang on him conserval\nenergy now you're not from here you came\nfrom Alaska and you've been here for 5\nyears how do you like Sun Valley you\nknow it's great I have to say I really\nlike the\nsun it's called Sun valy for a reason\nright exactly yeah but we had a great\ntime watching you guys win this thing\ntoday congratulations have a great time\ntonight the race is over but the party's\njust beginning live music Snowshoe\ndancing and a lot more this was a very\ncool event",
+          "curated": false
+        },
+        {
+          "video_id": "0VImvv0Z9Tg",
+          "title": "Sun Valley Nordic Festival 2011",
+          "channel": "Nils Ribi",
+          "view_count": 1523,
+          "upload_date": "20110210",
+          "duration_string": "5:03",
+          "description": "The second annual Sun Valley Nordic Festival was held in Sun Valley, Idaho for nine days from January 29 through February 6, 2011. A number of events were held which led up to the 36th running of the Boulder Mountain Tour held on February 5th.",
+          "tags": [
+            "Sun Valley",
+            "Sun Valley Nordic Festival",
+            "Idaho",
+            "Nordic Skiing",
+            "Cross Country Skiing",
+            "Boulder Mountain Tour"
+          ],
+          "url": "https://www.youtube.com/watch?v=0VImvv0Z9Tg",
+          "transcript": "ah\na\noh\npo\np",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It's amazing the trails are awesome. They call it Nordic town USA and it's no wonder - as far as just kilometers of trail facilities for Nordic skiers, different venues and then the community that we have here, I'm hard pressed to think of any other town in the country that can compete with Sun Valley for cross-country skiing.",
+          "source_video_id": "HbceR34SLz0",
+          "source_channel": "KTVB",
+          "source_view_count": 417,
+          "category": "community",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

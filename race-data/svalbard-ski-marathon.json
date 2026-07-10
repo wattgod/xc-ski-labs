@@ -1,0 +1,197 @@
+{
+  "race": {
+    "name": "Svalbard Ski Marathon",
+    "slug": "svalbard-ski-marathon",
+    "display_name": "Svalbard Ski Marathon",
+    "tagline": "The world's northernmost touring race at 78°N — skiing through Arctic wilderness with armed polar bear guards on the frozen edge of civilization.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 50,
+      "location": "Longyearbyen, Svalbard",
+      "location_badge": "Svalbard, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Svalbard",
+      "date": "Late April / early May",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 300,
+      "founded": 1993,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations with armed polar bear guards",
+      "cutoff_time": null,
+      "website": "https://svalbardskimaraton.no/",
+      "lat": 78.2232,
+      "lng": 15.6267,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "High Arctic",
+      "description": "Svalbard at 78°N latitude. Late April/May means 24-hour daylight but temperatures typically -15°C to -5°C. Polar bear risk requires armed guards.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Extreme Arctic location (78°N)",
+        "Polar bear risk — armed guards on course",
+        "Harsh wind exposure",
+        "Remote Arctic island logistics"
+      ]
+    },
+    "course": {
+      "primary": "42km course through the Arctic wilderness around Longyearbyen. Wild, treeless landscape with glaciers, mountains, and frozen fjords. Armed polar bear guards patrol the course.",
+      "format": "loop",
+      "surface": "Groomed track through Arctic terrain",
+      "technical_rating": 3,
+      "grooming": "Basic grooming in Arctic conditions",
+      "features": [
+        "World's northernmost touring race at 78°N",
+        "Armed polar bear guards along the course",
+        "24-hour daylight in late April/May",
+        "Glaciers, mountains, and frozen fjords",
+        "Largest annual event on Svalbard"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 4,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Utterly unique Arctic adventure race with world-class scenery and strong international draw, limited by remote location and basic infrastructure.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Svalbard Ski Marathon has been held since 1993 in Longyearbyen, the main settlement on the Svalbard archipelago at 78°N latitude. It is the world's northernmost touring race and the largest annual event on Svalbard, complete with armed polar bear guards patrolling the course.",
+      "notable_facts": [
+        "World's northernmost touring race (78°N latitude)",
+        "Armed polar bear guards patrol the course",
+        "Founded 1993 — largest annual event on Svalbard",
+        "24-hour daylight during the late April/May race date",
+        "Classic technique through treeless Arctic wilderness"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Svalbard Ski Marathon cross country ski race Longyearbyen",
+      "videos": [
+        {
+          "video_id": "NRFFuCSewHQ",
+          "title": "Svalbard Ski Marathon 2023",
+          "channel": "Anders Sjöberg",
+          "view_count": 357,
+          "upload_date": "20230423",
+          "duration_string": "2:02",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=NRFFuCSewHQ",
+          "curated": false
+        },
+        {
+          "video_id": "p7St6rTSLsA",
+          "title": "Svalbard skimaraton 2019",
+          "channel": "Nina Lines",
+          "view_count": 1978,
+          "upload_date": "20190427",
+          "duration_string": "1:09",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=p7St6rTSLsA",
+          "curated": false
+        },
+        {
+          "video_id": "sIbS-P1fnGA",
+          "title": "Svalbard Skimaraton",
+          "channel": "Hans Olav Hygen",
+          "view_count": 655,
+          "upload_date": "20220423",
+          "duration_string": "3:09",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=sIbS-P1fnGA",
+          "transcript": "foreign\n[Music]\nso\noh\n[Applause]\nyou",
+          "curated": true,
+          "curation_reason": "Recent 2022 race coverage meeting minimum duration requirements for meaningful content.",
+          "display_order": 2
+        },
+        {
+          "video_id": "HU5ytvqIziw",
+          "title": "Svalbard Skimaraton 2018",
+          "channel": "Nina Lines",
+          "view_count": 483,
+          "upload_date": "20180509",
+          "duration_string": "1:42",
+          "description": "www.svalbardskimaraton.no",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=HU5ytvqIziw",
+          "curated": false
+        },
+        {
+          "video_id": "hKAS3pmm6rI",
+          "title": "Svalbard Skimaraton 2014, offisiell video",
+          "channel": "Nina Lines",
+          "view_count": 4192,
+          "upload_date": "20151020",
+          "duration_string": "2:07",
+          "description": "Velkommen til Arktisk og en uforglemmelig opplevelse!\n\nSiste helgen i april hvert år arrangeres vårens vakreste eventyr, Svalbard Skimaraton. \n\nSvalbard Skimaraton er det største enkeltarrangementet som arrangeres på Svalbard i regi av idrettslaget Svalbard Turn.  \nSkiftende vær og faren for isbjørn gjør at sikkerheten til deltakerne under løpet blir viet en spesiell oppmerksomhet.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=hKAS3pmm6rI",
+          "curated": false
+        },
+        {
+          "video_id": "EF7QG0c9vbk",
+          "title": "Svalbard skimaraton 2014 start",
+          "channel": "Oddmund Rønning",
+          "view_count": 333,
+          "upload_date": "20140504",
+          "duration_string": "33",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EF7QG0c9vbk",
+          "curated": false
+        },
+        {
+          "video_id": "fO_KT3FRdD0",
+          "title": "Svalbard Ski Marathon 2014",
+          "channel": "Lättja If",
+          "view_count": 1877,
+          "upload_date": "20150118",
+          "duration_string": "7:47",
+          "description": "En vacker samling människor unnade sig världens nordligaste skidmaraton 2014.",
+          "tags": [
+            "Svalbard (Administrative Division)",
+            "Ski",
+            "Skimaraton",
+            "Cross-country Skiing",
+            "Marathon (Sport)",
+            "Lättja IF"
+          ],
+          "url": "https://www.youtube.com/watch?v=fO_KT3FRdD0",
+          "curated": true,
+          "curation_reason": "Longest available video providing comprehensive coverage of the world's northernmost ski marathon experience.",
+          "display_order": 4
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

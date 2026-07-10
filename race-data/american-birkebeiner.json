@@ -5,9 +5,14 @@
     "display_name": "American Birkebeiner",
     "tagline": "Ten thousand skiers charging through the Northwoods — America's largest and loudest cross-country ski race.",
     "vitals": {
-      "distance_km": 55,
-      "distance_options": ["55km classic", "50km skate", "29km Kortelopet", "15km Prince Haakon"],
-      "elevation_m": 650,
+      "distance_km": 50,
+      "distance_options": [
+        "55km classic",
+        "50km skate",
+        "29km Kortelopet",
+        "15km Prince Haakon"
+      ],
+      "elevation_m": 1398,
       "altitude_m": 400,
       "location": "Cable to Hayward, Wisconsin",
       "location_badge": "Wisconsin, USA",
@@ -17,7 +22,7 @@
       "date": "Last Saturday in February",
       "date_specific": "2026: February 28",
       "discipline": "both",
-      "field_size": "~10,000 starters (all distances)",
+      "field_size": 10000,
       "founded": 1973,
       "registration": "Opens in spring; early-bird pricing available",
       "prize_purse": "Cash prizes for elite wave",
@@ -25,7 +30,9 @@
       "cutoff_time": null,
       "website": "https://www.birkie.com",
       "lat": 46.0133,
-      "lng": -91.0012
+      "lng": -91.0012,
+      "field_size_estimate": 10000,
+      "elevation_gain_m": 1398
     },
     "climate": {
       "primary": "Upper Midwest continental winter",
@@ -85,10 +92,190 @@
         "Has been shortened or rerouted several times due to insufficient snow or extreme cold"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "American Birkebeiner cross country ski race Cable to Hayward",
+      "videos": [
+        {
+          "video_id": "nxSoznNhBuw",
+          "title": "The American Birkebeiner cross-country ski race",
+          "channel": "CBS Sunday Morning",
+          "view_count": 64684,
+          "upload_date": "20230319",
+          "duration_string": "5:48",
+          "description": "Since it was first held 50 years ago, the American Birkebeiner, a trek of more than 30 miles through the Northwoods of Wisconsin, modeled after a fabled bit of Norwegian history, has become the largest cross-country ski race in the U.S. Correspondent Conor Knighton reports on how enthusiasm for the festival of events surrounding the race (dubbed \"Birke fever\") has snowballed.\n#Birkebeiner #crosscountryski \n\n\"CBS Sunday Morning\" features stories on the arts, music, nature, entertainment, sports, history, science and Americana, and highlights unique human accomplishments and achievements. Check local listings for CBS Sunday Morning broadcast times.\n\nSubscribe to the \"CBS Sunday Morning\" YouTube channel: http://bit.ly/20gXwJT\nGet more of \"CBS Sunday Morning\": http://cbsn.ws/1PlMmAz\nFollow \"CBS Sunday Morning\" on Instagram: http://bit.ly/23XunIh\nLike \"CBS Sunday Morning\" on Facebook: https://bit.ly/3sRgLPG\nFollow \"CBS Sunday Morning\" on Twitter: http://bit.ly/1RquoQb\nSubscribe to our newsletter: http://cbsn.ws/1RqHw7T\nDownload the CBS News app: http://cbsn.ws/1Xb1WC8\nTry Paramount+ free: https://bit.ly/2OiW1kZ\n\nFor video licensing inquiries, contact: licensing@veritone.com",
+          "tags": [
+            "CBS Sunday Morning",
+            "CBS News",
+            "news",
+            "american birkebeiner",
+            "northwoods",
+            "wisconsin",
+            "norwegian history",
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=nxSoznNhBuw",
+          "transcript": "it's part ski Marathon part Norwegian\nHistory part Street Festival Connor\nKnighton takes us to the starting line\nof a race like none other\ns\n[Music]\neach winter thousands of cross-country\nskiers from all across the world travel\nto the North Woods of Wisconsin to\ntravel more than 30 miles between the\ntowns of cable and Hayward\nthe American birkabiner is the largest\ncross-country ski race in the country\nand the enthusiasm here is contagious we\nall got the Berkey fever and it's just\nthe excitement that builds about not\nonly the race but the whole event of\nBerkey week the official burkabiner race\nBerkey for short could fly by in a\ncouple of hours for the most elite\nskiers the leading up to the main event\nthere are days of activities there are\nshorter races for children\nforeign\ndog lovers ski with their pets teams of\nsix compete in giant ski races it's kind\nof like Comic-Con for athletes is how\nI'm looking at it Jackie and Dan daroma\nare Avid skiers Jackie has skied the\nBerkey four times Dan 17 but for this\nyear's race they wanted to do things a\nlittle differently these other Racers\nare going to be in spandex Gore-Tex you\nknow what are you gonna be wearing full\non fur\nJackie Dan and Dan's Father Jim were\nselected to be mascots of sorts skiing\nthe entire course on wooden skis dressed\nas Norwegian folk Heroes all while\ncarrying a baby doll it's a tradition\nwith roots and a far older history\nas portrayed in the film The Last King\nin the early 13th century Norway was in\nthe middle of a civil war after King\nhokan III died members of the birkaviner\nfaction skied his son the heir to the\nthrone through the woods to safety\neach year in Wisconsin three skiers\nreenact the rescue I think the the fact\nthat there is this real story about an\nevent that now you're recreating it I\nthink that's pretty darn cool and pretty\nspecial and I think it resonates with a\nlot of people Ben pop is the executive\ndirector of the American burkabiner\nwhich is modeled after a Norwegian race\nthere every competitor skis with a baby\nweight backpack to honor the Warriors\njourney of course you may be asking\nyourself why is this crazy Norwegian\nhistory have anything to do with Hayward\nWisconsin in the middle of Northwestern\nWisconsin nowhere it all came down to\none man Tony wise\nTony wise was born in Hayward and was a\nborn marketer after serving in World War\nII he decided to bring the competitive\nskiing he observed in Europe back home\nto Wisconsin a place where a\nScandinavian ancestry is common as a way\nto encourage tourism his first Berkey\nrace held 50 years ago had just 35\nparticipants most of whom had never\ncross-country skied before I swore up\nand down after that first I would never\ndo anything so foolish again but\ntoday at age 75\nErnie St Germain is the only competitor\nwho's participated in every single race\nbut there are more than 2 000 athletes\nwho have appeared in 20 or more contests\nwhich can turn into grueling all-day\nendeavors\nthe Berkey attracts skiers of varying\nages and ability levels\nyou're really gonna discover who you are\nit's one of the toughest Marathon\ncourses in the world so let yourself\nkind of Glide a little there you go good\nthat challenge is what attracts Elite\nskiers like Olympian Caitlyn Gregg who's\nwon the women's race a record setting\nfive times the Berkey course is unlike\nany other ski course that we get to race\nnot only here in the United States but\nalso in around the world and I think\nthat it's terrain is so unique and so\nchallenging that people just myself\nincluded love that aspect of it\nthe race itself has faced challenges\nposed by warmer Winters in recent\ndecades it's been canceled twice due to\nlack of snow it's really important that\nwe look at climate change and weather\nbecause if we don't have it well it's a\nbig loss the event provides a major\nboost for the local economy this town of\nfewer than 3 000 residents hosts close\nto 40 000 Spectators on race day\nhayward's Main Street overflows with\ncheering fans caught up in Berkey fever\nfor which the only prescription is more\ncowbell\nthe church bells signal the arrival of\nthe first finisher David Norris won this\nyear's men's race with a commanding lead\nCaitlyn Gregg came in third in the\nwomen's division\nthe biggest cheers of the day were\nreserved for the dromas nearly 7\nafter leaving the starting line they\nskied onto Main Street and swapped out\nthe baby doll for an actual baby\ntheir daughter Clara played the part of\nPrince Hogan for the final few blocks\nthe burkabiners saved the day\nuntil\ndo it all again next year\nI'll be ready to go",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage with historical context, athlete perspectives, and specific details about the 30+ mile course from Cable to Hayward.",
+          "display_order": 1
+        },
+        {
+          "video_id": "JsL56CoaE_M",
+          "title": "American Birkebeiner in Cable and Hayward, WI",
+          "channel": "Travel Wisconsin",
+          "view_count": 604,
+          "upload_date": "20220711",
+          "duration_string": "38",
+          "description": "The American Birkebeiner in Cable and Hayward, WI is the largest cross-country ski race in North America.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=JsL56CoaE_M",
+          "curated": false
+        },
+        {
+          "video_id": "la5rxeBsni0",
+          "title": "Kortelopet & Prince Haakon Cross-Country Ski Races",
+          "channel": "American Birkebeiner",
+          "view_count": 7482,
+          "upload_date": "20190605",
+          "duration_string": "1:16",
+          "description": "Experience the Kortelopet 29K or Prince Haakon 15K cross-country ski races, as part of the Birkie Week Experience (Birkie is North America's largest cross-country ski race)!  Each February, skiers & spectators flock to Hayward, WI, to be a part of the Nordic festivities.  Details at www.Birkie.com",
+          "tags": [
+            "ski",
+            "cross-country ski",
+            "Wisconsin",
+            "Hayward",
+            "Birkie",
+            "American Birkebeiner",
+            "#BirkieFever",
+            "Kortelopet",
+            "Korte",
+            "Prince Haakon",
+            "Snow"
+          ],
+          "url": "https://www.youtube.com/watch?v=la5rxeBsni0",
+          "curated": false
+        },
+        {
+          "video_id": "0VYpz3r6BNQ",
+          "title": "The American Birkebeiner 2015",
+          "channel": "KerFilms",
+          "view_count": 4632,
+          "upload_date": "20150227",
+          "duration_string": "3:54",
+          "description": "Footage from the 2015 American Birkebeiner cross-country ski race in Cable and Hayward, WI.\n\nVideo by Kaitlin Randolph",
+          "tags": [
+            "American Birkebeiner (Event)",
+            "Cross-country Skiing (Sport)"
+          ],
+          "url": "https://www.youtube.com/watch?v=0VYpz3r6BNQ",
+          "curated": false
+        },
+        {
+          "video_id": "UjLyjYsYYP0",
+          "title": "Cross country skiers preparing for 50th American Birkebeiner",
+          "channel": "WCCO - CBS Minnesota",
+          "view_count": 814,
+          "upload_date": "20250213",
+          "duration_string": "2:12",
+          "description": "A mild winter wreaked havoc on the 50th American Birkebeiner last year, and this year's race was also threatened until some recent snow saved the day. Derek James traveled the trails between Cable and Hayward in Wisconsin to see how they're getting back to Birkie.",
+          "tags": [
+            "WCCO 4 News"
+          ],
+          "url": "https://www.youtube.com/watch?v=UjLyjYsYYP0",
+          "transcript": "the American burer ski race is now just\none week away the Nordic ski events in\nnorthern Wisconsin are finally getting\nsome help from other nature Derek James\nvisited cable and Hayward to learn more\nabout the berky's important economic\nimpact to the region in the Tiny Town of\nCable Wisconsin there are signs of\nAmerican babiner Pride everywhere more\nthan just The Prestige of having the\nevent and that recognition there's a lot\nof dollars that come in with\nthat Berk a cross country ski Marathon\nsince 1973 is inspired by Norwegian lore\nthe race from cable to Hayward brings in\n$27 million a year to the area it's\nreally really important for these\nbusinesses that have really been on a\nsecond bad year of outdoor recreation\nand tourism here in northern Wisconsin\nlast year's smaller modified event was\ntough on businesses along both ends of\nthe course everyone took a big hit by\nstocking up replenishing gearing up for\nthe 50th only to have a no snow and warm\nthere was no traditional finish on the\nstreets of downtown Hayward events took\nplace on a 10 km loop around the cable\nTrailhead using stockpiled and\nmanufactured snow something that wasn't\npossible when the burka biner was last\ncancelled in 2017 it was that year that\nactually prompted us into investing in\nmachine-made snow we've now spent almost\n$2.5 million in investing in that\nequipment because we know how important\nit is to have the event here they pulled\noff a a miracle last year and everyone\nwas grateful as the largest race of its\ntype the berky brings 12,000 ski\ncompetitors and 25,000 Spectators from\nall 50 states and two dozen countries it\ngets them here longer they stay here\nthey eat more they drink more they hang\nout more on Monday haor business owners\ngot the news they'd been hoping for that\nthe berky will finish along these\ndowntown streets up north here in berky\nland we still can pull it off we can\nstill have good snow get magic out right\nnow in Hayward Derek James WCCO news\nberky week begins next Wednesday with an\nopen track day the full Burk biner race\nis Saturday February 22nd",
+          "curated": false
+        },
+        {
+          "video_id": "B3eV5UUwhEI",
+          "title": "birkie",
+          "channel": "CBS 3 Duluth",
+          "view_count": 704,
+          "upload_date": "20200223",
+          "duration_string": "2:31",
+          "description": "upLynk Clip",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=B3eV5UUwhEI",
+          "transcript": "skiers prepared for quite a while and\nparticipated in festivities and smaller\nraces all week long all leading up to\nthis morning the start of the 46th\nAmerican Birkebeiner race which kicked\noff in cable Wisconsin\nit's the largest cross-country ski race\nin North America and CBS 3's Emma Quinn\nwas in on all the action as racers made\ntheir way to Heyward a big and busy\nSaturday the saying is there's always\none more Hill no matter where you are on\nthe course there's at least one more\nHill and skiers took over Northwest\nWisconsin for the American Birkebeiner\nher brothers Mike and Jerry chicken now\nski skiing the Berkey is an annual\ntradition we've skied this together for\n41 years so we've also skied in Europe\nof many of the European races and so we\nhave quite a quite of ski industry I\nwould say about the same as last year I\nmean a 41 year some years you feel\nreally good in other years you're barely\nable to do it because you're fighting a\nfever or something but there's not too\nmany other events you would do it when\nyou're not feeling good this year\nthey're fighting warmer weather than in\nthe past not good we're gonna classic in\nthere and we're wax warm because it's\nsupposed to be warm today but it's not\nwarm right now\nfor them the Berkey is a family and\nfriends affair I take pride in that I'm\ntheir Sherpa as my is my job to bring\ntheir craft to the to the start and pick\nthem up at the finish and take them home\nhopefully in one piece\nbut it's been fun to watch them compete\nevery single year and hear all the good\nstories and all the bad stories these\nbrothers say winning isn't their focus\nthis time around we're just trying to\nfinish the race we typically are\ncompetitive but not this year\nand besides they know they'll be coming\nback for more next year\nthey have good years and bad years let's\ngo see how that works for results and\nmore Berkey information you can head to\nour website on Sunday an award breakfast\nand demo for spectators will happen on\nthe Berkey trailhead both of those\nevents begin at 9:00 a.m. tomorrow",
+          "curated": false
+        },
+        {
+          "video_id": "AZ0iIPTpTCw",
+          "title": "Birkebeiner Ski Race",
+          "channel": "spooneradvocate",
+          "view_count": 149,
+          "upload_date": "20160223",
+          "duration_string": "4:04",
+          "description": "The running of the 43rd American Birkebeiner from Cable to Hayward.",
+          "tags": [
+            "Spooner Advocate",
+            "Ski",
+            "American Birkebeiner"
+          ],
+          "url": "https://www.youtube.com/watch?v=AZ0iIPTpTCw",
+          "transcript": "[Music]\nthe 43rd American burer biner is about\nto take place in Hayward\n[Applause]\nhear the\nbells the local church\nthat put on a great race for\nus and here going come with the\nthe best season of her\nlife across the\ngood J\nwoo woo\nsoda Henry white from Missoula\nMontana hours I 4 and 1 half hours\na",
+          "curated": true,
+          "curation_reason": "Raw race footage showing the finish line atmosphere and actual race completion experience.",
+          "display_order": 4
+        },
+        {
+          "video_id": "fH9OGJOX5lI",
+          "title": "American Birkebeiner 2022",
+          "channel": "EREroe",
+          "view_count": 3467,
+          "upload_date": "20220228",
+          "duration_string": "1:01",
+          "description": "American Birkebeiner 2022 from Fish Hatchery Aid Station",
+          "tags": [
+            "American Birkebeiner",
+            "Birkie"
+          ],
+          "url": "https://www.youtube.com/watch?v=fH9OGJOX5lI",
+          "curated": false
+        },
+        {
+          "video_id": "00s-PA_mxWI",
+          "title": "American Birkiebeiner 2009",
+          "channel": "10ftback",
+          "view_count": 5797,
+          "upload_date": "20090222",
+          "duration_string": "5:17",
+          "description": "American Birkiebeiner 2009 Lead Finishers Video By St.George Creative",
+          "tags": [
+            "American",
+            "Birkiebeiner",
+            "2009"
+          ],
+          "url": "https://www.youtube.com/watch?v=00s-PA_mxWI",
+          "transcript": "55 K and\n[Applause]\nhe's here comes Matt Le for\nm a couple of K left in the ring and\njust like even by the year before M Le\nhas nobody challenging here it's going\nto be M Le for the 2009\nsubu\nplease he's going to give it\noh\n[Music]\nyeah all right our next two fishes are\ncoming here they come man and here comes\nthe spr for second\nnow\ncook in the black and red Ro C in the\nblue suit or the GRE fish suit it's\ngoing to be a onew finish for team CXC\nban cup has made the g offro c from\nCanada and cxt will go one two for\nthe and D by the Canada to make us an\ninternational\nI'm right here with the winner if he can\ncatch his breath I want to give a chance\nto say congratulations to Matt Le or is\nhis friends calling Chuck hey Matt how\nwas it out there it was really\ntough really good\nthough decide to forget the pack and\njust go off by\nyourself\n15 you knew were worried that was too\nearly just felt that\ngood\ngot take\nit coming in for six another CXC member\nwhat a\nforam Andre for position from\nthe coming\nthe all right\nnot sure who that is\nRob Battle Lake Minnesota what a great\njob okay dny back to\nyou\nfrom one of factory team members on the\nright get the two blue GI PS in the blue\nand it looks like Rebecca do La M on the\noutside this would be a huge win for hly\nbut coming on the\noutside for thir came for all together\nwhat incredible finish in the women 2009\nAmerican perer too close to call we will\nhave to go to the photo you know Chad\nthat's just phenomenal after as long as\nthis Trail is at 52 km to have these two\nwomen just not even inches apart so\ncongratulations to both of them it to\nme got it with the stretch of to go to\nthe camera\nobviously\nteam\nCXC is to take down the skiing in this\nAmerican per Miner classic it'sing in\nthe\nblackit here he comes to win\nameric 2009 just\nk",
+          "curated": false
+        },
+        {
+          "video_id": "dYFeuAmq6J0",
+          "title": "Birkie Hwy OO Trailhead 2026-03-10 11:48",
+          "channel": "American Birkebeiner",
+          "view_count": 9446,
+          "upload_date": "20251217",
+          "duration_string": null,
+          "description": "Views from the Hwy OO trailhead on the Birkie Trail.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=dYFeuAmq6J0",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We all got the Berkey fever and it's just the excitement that builds about not only the race but the whole event of Berkey week.",
+          "source_video_id": "nxSoznNhBuw",
+          "source_channel": "CBS Sunday Morning",
+          "source_view_count": 64684,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

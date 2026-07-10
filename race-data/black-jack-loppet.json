@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "Black Jack Loppet",
+    "slug": "black-jack-loppet",
+    "display_name": "Black Jack Loppet",
+    "tagline": "Thirty kilometers through the Kootenay mountain powder — Rossland's high-altitude Nordic gem in British Columbia's interior.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 1500,
+      "location": "Rossland, British Columbia",
+      "location_badge": "British Columbia, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "Late January",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 200,
+      "founded": 2001,
+      "registration": "Online; small community event",
+      "prize_purse": null,
+      "aid_stations": "Aid stations with warm drinks and snacks",
+      "cutoff_time": null,
+      "website": "https://www.blackjackxc.ca",
+      "lat": 49.0775,
+      "lng": -117.8009,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 500
+    },
+    "climate": {
+      "primary": "Interior BC mountain winter",
+      "description": "Rossland at 1500m receives abundant snowfall from Pacific moisture funneled through the Columbia Mountains. January temperatures typically range from -15°C to -5°C. The high altitude ensures excellent snow preservation and quality. Interior BC has some of the most reliable snow in western Canada.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "High altitude at 1500m can cause mild altitude effects",
+        "Heavy snowfall sometimes affects race-day logistics",
+        "Cold temperatures at altitude require proper layering",
+        "Remote mountain location limits accessibility"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Black Jack Cross Country ski area in the Kootenay mountains above Rossland. The course traverses subalpine forest with mountain views and varied terrain. At 1500m altitude, the snow quality is consistently excellent. Rolling hills with some steep pitches make this a technical and demanding 30km.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through subalpine Kootenay mountain forest",
+      "technical_rating": 3,
+      "grooming": "Well-groomed by the Black Jack Cross Country Ski Club",
+      "features": [
+        "High-altitude skiing at 1500m with excellent snow quality",
+        "Kootenay mountain scenery with subalpine forest",
+        "Rossland is a renowned mountain sports town",
+        "Abundant interior BC snowfall ensures reliable conditions",
+        "Intimate community event with strong local volunteer support",
+        "Varied terrain with technical descents and sustained climbs"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A hidden gem with bulletproof snow reliability and beautiful Kootenay mountain scenery. The high altitude and remote location limit accessibility and field size, but the skiing quality is outstanding for its size.",
+      "tier_note": "Score 54 places in TIER 3 range"
+    },
+    "history": {
+      "summary": "The Black Jack Loppet is organized by the Black Jack Cross Country Ski Club in Rossland, BC. Rossland is better known for its alpine skiing at Red Mountain Resort, but the Nordic community at Black Jack has carved out a dedicated following. The high-altitude trails at 1500m in the Kootenay mountains offer some of the most reliable snow conditions in western Canada.",
+      "notable_facts": [
+        "Rossland is a historic mining town turned mountain sports hub",
+        "Black Jack ski area sits at approximately 1500m — high by Canadian Nordic standards",
+        "The Kootenay region receives heavy snowfall from Pacific moisture",
+        "Rossland also hosts Red Mountain Resort, one of BC's oldest ski areas",
+        "The local Nordic community maintains trails through volunteer effort"
+      ],
+      "founded": 1997
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

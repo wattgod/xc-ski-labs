@@ -21,7 +21,7 @@
       "date": "Late February to early March",
       "date_specific": "2026: March 1",
       "discipline": "classic",
-      "field_size": "~1,200 starters",
+      "field_size": 1200,
       "founded": 2018,
       "registration": "Online registration via Ski Classics platform",
       "prize_purse": "Prize money for Ski Classics Challengers category",
@@ -29,7 +29,9 @@
       "cutoff_time": "No official cutoff",
       "website": "https://www.latloppet.lv",
       "lat": 56.8535,
-      "lng": 26.2176
+      "lng": 26.2176,
+      "field_size_estimate": 1200,
+      "elevation_gain_m": 380
     },
     "climate": {
       "primary": "Baltic continental winter",
@@ -93,8 +95,97 @@
       "ski_classics_challengers"
     ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "LatLoppet Madona cross country ski race Madona",
+      "videos": [
+        {
+          "video_id": "7jtvh-ZOIUM",
+          "title": "Latloppet 2023 18 km race in Madona, Latvia!",
+          "channel": "Bali Mowgli",
+          "view_count": 94,
+          "upload_date": "20230316",
+          "duration_string": "4:02",
+          "description": "First time attempt in Latloppet classic XC skiing race, 2023-03-12, Madona, Latvia, Smeceres Sils sports base.",
+          "tags": [
+            "Latloppet",
+            "Latvia",
+            "XC skiing",
+            "classic xc skiing",
+            "Madona",
+            "skiing marathon",
+            "skiing race"
+          ],
+          "url": "https://www.youtube.com/watch?v=7jtvh-ZOIUM",
+          "transcript": "[Music]\nforeign\nsorry\nspace\nI never try to understand this no time\nto do\nsometimes we just have to accept\nthank you\nthe question that I'm asking\nus is this\nare we happier for the human race it is\nthe world fundamentally mentally better\nplace because of science\ninteresting species an interesting mix\nand we're capable of surgery\nthe most important thing is that you all\nkeep searching for your own answers I'll\ntell you one thing about the universe\nthough",
+          "curated": true,
+          "curation_reason": "Recent POV content from actual Latloppet race participation showing first-time racer experience.",
+          "display_order": 1
+        },
+        {
+          "video_id": "r3bRNYpyrS8",
+          "title": "Latloppet 2018 3rd stage",
+          "channel": "Edgars Sparans",
+          "view_count": 59,
+          "upload_date": "20180228",
+          "duration_string": "2:36",
+          "description": "Smecersils, Madona, Latvia",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=r3bRNYpyrS8",
+          "curated": false
+        },
+        {
+          "video_id": "88TamBeS8L8",
+          "title": "XC Skiing in Madona, Latvia!",
+          "channel": "Bali Mowgli",
+          "view_count": 172,
+          "upload_date": "20220110",
+          "duration_string": "4:30",
+          "description": "10 kms XC skiing track near Smeceres Sils winter sports base in Madona, Latvia. Skis used: Fischer RCR Zero+, footage filmed with GoPro Hero 7 Black.",
+          "tags": [
+            "skiing",
+            "xc skiing",
+            "latvia",
+            "winter sports",
+            "fischer rcr",
+            "zero+",
+            "Madona",
+            "smeceres sils",
+            "beautiful winter",
+            "snow"
+          ],
+          "url": "https://www.youtube.com/watch?v=88TamBeS8L8",
+          "curated": true,
+          "curation_reason": "POV skiing footage on the Madona course with GoPro showing terrain and conditions.",
+          "display_order": 2
+        },
+        {
+          "video_id": "_cB1S9T6aCI",
+          "title": "Sacensības Madonas BJSS audzēkņiem Smeceres silā ²",
+          "channel": "Lauris Kaparkalējs",
+          "view_count": 407,
+          "upload_date": "20230625",
+          "duration_string": "10:54",
+          "description": "Sveiciens visiem atpakaļ, šeit atskats no ziemas vidus, kad kopā ar Gustavu, Silvestru um Edgaru rīkojām sacensības Madonas BJSS audzēkņiem.\n\nLiels paldies dalībniekiem, treneriem Unai un Airai un organizatoriem!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=_cB1S9T6aCI",
+          "curated": true,
+          "curation_reason": "Recent race coverage from the Smeceres Sils venue showing competitive skiing action.",
+          "display_order": 3
+        },
+        {
+          "video_id": "APDVZOOmW7M",
+          "title": "LATLOPPET MADONA (SWAMP EDGE VIDEO)",
+          "channel": "SWAMP EDGE FILMS",
+          "view_count": 136,
+          "upload_date": "20230102",
+          "duration_string": "2:39",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=APDVZOOmW7M",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

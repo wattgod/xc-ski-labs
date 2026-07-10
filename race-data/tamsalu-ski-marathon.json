@@ -1,0 +1,261 @@
+{
+  "race": {
+    "name": "Tamsalu Ski Marathon",
+    "slug": "tamsalu-ski-marathon",
+    "display_name": "Tamsalu Ski Marathon",
+    "tagline": "Forty-two kilometers of classic technique through the forests of Lääne-Virumaa — an Estoloppet series staple where Estonian tradition and Baltic forest define a no-frills Nordic marathon.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km classic",
+        "21km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 80,
+      "location": "Tamsalu, Lääne-Virumaa",
+      "location_badge": "Lääne-Virumaa, Estonia",
+      "country": "Estonia",
+      "country_code": "EE",
+      "region": "Lääne-Virumaa",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Open registration via Estoloppet",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 59.15,
+      "lng": 26.1,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Baltic winter",
+      "description": "February in Lääne-Virumaa brings cold Baltic winter conditions. Temperatures typically -10°C to -2°C. Snow reliability is moderate — the inland location is somewhat more reliable than the coast but still subject to Baltic thaw events.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Baltic thaw risk — maritime air can disrupt snow conditions",
+        "Flat terrain demands sustained classic technique endurance",
+        "Low altitude provides no snow guarantee from elevation",
+        "Smaller field can mean less draft assistance in classic tracks"
+      ]
+    },
+    "course": {
+      "primary": "Classic-technique course through the forests around Tamsalu in Lääne-Virumaa. Flat to gently undulating Baltic terrain through pine and birch forest. Set classic tracks on well-prepared trails. Typical Estonian forest landscape with minimal elevation change.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through Estonian forest",
+      "technical_rating": 1,
+      "grooming": "Good Estoloppet series grooming standards",
+      "features": [
+        "Part of the Estoloppet series — Estonia's national ski marathon circuit",
+        "Classic technique only — traditional diagonal stride and double pole",
+        "Estonian forest landscape through pine and birch",
+        "Authentic community-level ski marathon atmosphere",
+        "Lääne-Virumaa's gentle terrain is ideal for classic distance skiing",
+        "February timing in the heart of the Baltic winter"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 41,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 1,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 2,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Authentic community-level Estoloppet event with classic-only format. Small field and flat terrain limit scores. Snow reliability is a real concern in the Baltic climate. Solid community engagement as part of Estonia's national series but minimal international profile.",
+      "tier_note": "Score 41 places in TIER 4 range (<45)"
+    },
+    "history": {
+      "summary": "The Tamsalu Ski Marathon is a classic-technique event in the Estoloppet series, held in Lääne-Virumaa, northern Estonia. A community-focused marathon that connects Estonian skiers to the national long-distance skiing tradition. The Estoloppet series provides structure and organization for Estonia's citizen skiing calendar.",
+      "notable_facts": [
+        "Part of the Estoloppet series — Estonia's national ski marathon circuit",
+        "Classic technique only — traditional Nordic skiing format",
+        "Tamsalu is a small town in Lääne-Virumaa with a strong local skiing community",
+        "Estonia's flat terrain makes it ideal for classic-technique distance skiing",
+        "The Estoloppet series draws participants from across Estonia's skiing community",
+        "Estonian skiing culture has deep roots in the country's rural traditions"
+      ]
+    },
+    "series_membership": [
+      "estoloppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Tamsalu Ski Marathon cross country ski race Tamsalu",
+      "videos": [
+        {
+          "video_id": "2OtNv-jQ_pY",
+          "title": "Tamsalu-Neeruti Maraton 2022",
+          "channel": "Rando Sui",
+          "view_count": 1647,
+          "upload_date": "20220208",
+          "duration_string": "16:25",
+          "description": "Tamsalu-Neeruti Maraton 2022",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=2OtNv-jQ_pY",
+          "curated": true,
+          "curation_reason": "POV race footage from the actual Tamsalu-Neeruti Marathon event with good duration for course preview.",
+          "display_order": 1
+        },
+        {
+          "video_id": "Ks2CTm7VIpQ",
+          "title": "23. Tamsalu Neeruti Maraton videokokkuvõte",
+          "channel": "Estoloppet",
+          "view_count": 310,
+          "upload_date": "20220209",
+          "duration_string": "3:54",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Ks2CTm7VIpQ",
+          "curated": true,
+          "curation_reason": "Official race summary video providing race coverage and highlights from the 23rd edition of the marathon.",
+          "display_order": 2
+        },
+        {
+          "video_id": "cBsWeqK3r6E",
+          "title": "Lauhahiihto 2023, 35 km cross-country ski race",
+          "channel": "X-country skiing cyclist",
+          "view_count": 906,
+          "upload_date": "20230313",
+          "duration_string": "37:53",
+          "description": "Lauhahiihto 2023, 35 km cross-country ski race. Nice conditions and the weather was great. 35km double poling all the way as usual. Maybe the last race of this winter.",
+          "tags": [
+            "kauhahiihto 2023",
+            "hiihto",
+            "cross country skiing",
+            "massahiihto",
+            "20 km",
+            "double poling",
+            "racing",
+            "kilpailu",
+            "hiihtokisat",
+            "skirace",
+            "podium",
+            "winter",
+            "winterland",
+            "tasatyöntö",
+            "seinäjoki",
+            "forest",
+            "kettusaarihiihto",
+            "evijärvi",
+            "hiihtokilpailut",
+            "kettusaarihiihto 2023",
+            "skierg",
+            "classic skiing",
+            "massahiihdot",
+            "ski marathon",
+            "perinteinen hiihto",
+            "perinteinen hiihtotyyli",
+            "vasaloppet",
+            "lauhahiihto",
+            "lauhahiihto 2023",
+            "LAUHAVUORI",
+            "lauhanvuori",
+            "training",
+            "cross-country skiing",
+            "xcnordic"
+          ],
+          "url": "https://www.youtube.com/watch?v=cBsWeqK3r6E",
+          "transcript": "thank you\nso hello once again\nit's weekend and Saturday 35 kilometers\nclassic skiing race so not skating today\nyeah\nI just decided when I went to the\nisoyogi that there is a 21 21 kilometer\nrace and 35 kilometer race so\nI wasn't sure because the weather was\npretty cold when I drive to the iso York\nit was minus 20.\nbut luckily it changed a little bit so I\nthink when we started the race it was\nmaybe 11 or 12 minus degrees\nso\nyeah quite nice weather conditions and\nthe sun came up\nbetween the Rays so yeah it was pretty\nnice\nso I decided to do the 35 kilometer race\nbecause I think this is maybe going to\nbe my last race for this winter because\nafter one week we are going to the\nluosto in the Lapland\nso and we are going to stay there one\nweek so\nalmost all races are\nover when we got when we get back to\nhome so but let's see maybe there is a\nsome kind of race there\nso I'm going to participate if they're\ngoing to arrange those races but yeah\nas you can see the tracks are\nokay shape\nnot okay like almost perfect\nand it was nice because there are four\ntracks there and\nthe four tracks lasted maybe four\nkilometers or something like that\nbecause\nit's always\nthree or two or three tracks and it goes\ndirectly to maybe one or two tracks but\nhere was\nquite long four tracks\nthat was nice because this is a little\nbit bigger race than uh\nit's showtime but\nmaybe a little bit smaller than Kawaii\nthough\nbut a nice event\nstill\nokay here you can see we are starting\nthe start\nwas pretty nice it was a little maybe\none percent or two percent uphill like\nthe first\nsection but uh\num as you can\nsee my camera is a little bit off\nit it's directly like\ngoes too low\nI have changed that but I just noticed\nafter the race that\nit wasn't perfect\nwhen you compare the last races\nso yeah here we started the race and as\nyou can see there are many skiers now\nbecause the last race is there are only\na couple guys there but now it was\na bigger group and there is like when\nyou see the blue beep\nskiers they are\nskiing the 21.\nkilometer race so\nwe started at the same time but they are\nlike going their own drag after Maybe\nseven eight kilometers so they go going\nanother Direction there but the first\nlike eight kilometers is the same same\ntrack\nso but the yeah here you're gonna see\nit's pretty important to get your\nposition right when the group is bigger\nbecause if you are like\nbehind someone who is not that\nlike\ndoing so a high speed or the shape is\nisn't that good because the difference\nbetween these races there are there may\nbe maybe\nguys that are really hard\ncore guys and maybe some soft guys\nas you can see here so\nI'm like in fifth or sixth place now and\nI have to like\nlooking out like Strat strategy was like\nlooking the first kilometers that what\nis the groove and what kind of skiers is\nthere but the the group between the\ngroups are getting\nlike caps there so I have to just wait\nbecause there might be maybe\nfive or seven seconds to the first guy\nso if the Gap gets too big it's very\nhard to get those guys so\nsoon you can see I'm jumping the another\ntrack and go past that 11 beep number\nguy so\nI can get the group front of me because\nthe this this guy's space wasn't so high\nso they are the Gap is getting bigger\nand bigger\nif I wear a little bit smarter I would\nlike directly go to that maybe second\nguy or dirt guy there so it is like you\ndon't have to accelerate because I have\nto do that a couple times in this first\nsex and race here you can see here I\njust started accelerate that I'm going\nto get the group back and maybe you can\nsee my heartbeat is\ngoing up a little bit not so much\nbut there is a second try where I have\nto like close the gap and that was a\nlittle bit harder because it was the two\nlike strongest guys in the front I I got\nthose guys yeah yeah\nGBS and speed and heartbeat is isn't\nlike a because I have to like\nso it's a little bit off but yeah as you\ncan see my heartbeat went a little bit\nup when I closed the cap so\nit's not the perfect situation now you\ncan see\nthe gaps is still pretty\nhigh and these two guys are the blue\nbeep guys so the these guys are skiing\nthe 21 kilometer race\nbut I I the Gap isn't getting so much\nbigger here so I just waited and\nlet these guys do the drafting for me so\nand see what is the gap and there's two\nguys in the front and one guy\nis like\ngetting Gap\nto the first group so\nyeah and the second guy\nin the front group is my friend Ari\narawahis\nhe's a little bit older but he is very\ngood in skiing and he's like\nI don't know Superman\nbecause he's so tough\nhe's like skied in this winter Maybe\nthree thousand on something like that\nkilometers so\nhe's a machine so here you can see the\nfront guys dropping out and the next guy\nis pulling pulling us and he a little\nbit accelerated there so the Gap is\ngetting smaller and smaller but he\ndidn't get the crew back so\nafter I think a couple minutes when he\njumps off another track I just\naccelerated\npretty hard there my heartbeat went I\ndon't know maybe almost 180 or something\nlike but but I get it to guys in the\nfront and the\nthen we\nwent like our own way because the\nanother guy's back back group so they\njust fell\nwe left them behind so\nyeah three guys so\nand let's see here we are catching the\nalmost the front crew but\nthe other camera speed off it's\nyeah we get to the third guy there\nbut I think he's jumping off\nand giving us the pulling\nresponsibility so\nyeah the\nGap isn't that maybe\nthree seconds or something like that so\nit isn't big so this is quite nice to go\nin the group because I'm getting a lot\nof draft now now you can see the\nguy jump it\nanother track\nand now the blue whip guy is pulling us\nso I'm just watching The Tech Cafe is\nnot getting so big there\nand when this guy\nwhen this guy changed the track I'll\njust accelerate it and get the front\ngroup back so\nlet's see when it started\nthis guy is taking\na very long pool there\nand then that was like a pretty good\narea because this guy\ntake it so long pool so I just\naccelerated immediately when he jumped\noff the track so\nno one couldn't follow me so\nthat was nice because I I didn't want to\nlike pull the other guys to the front\ngroup so\nyeah maybe\njust go\na couple minutes so but uh yeah this was\nthe first time that I bought my drinking\nbelt on because it was 35 kilometers so\nand their race lasted one hour 45\nminutes so\nI use it two gels and maybe one liter of\nwater\nwater and a\nyeah the two two trails and I think that\nwas enough\nyeah here you can see it's my heartbeat\nis going down a little bit so the pace\nis starting like\nbecause I always in these races the\nstarts are maybe a couple of kilometers\nare very hard but then the speed is like\nsettling down now you can see that\nguy jump at another track and now I\nstarted accelerate a little bit as you\ncan see in my heartbeat and maybe the\nspeed goes up so now I'm\na lot about the heartbeat because the\nyeah now now it goes up because it's\na little bit lagging but yeah now you\ncan see my heart piece almost 175 so\nand speed is going up\nso I got those two guys and didn't bring\nthe group with with me so it was nice so\nI used the drinking belt for this race\nand\nI think necessary because it was\none hour 45 minutes race\nand the ski like the snow condition\nwasn't so like slippery and the speed\nwasn't that high so\nyou feel feel because it's new snow and\nlike very cold so you have to like put\nvery hard work you feel like every pull\nyou have to like put put Power there\nbecause when there are like icy and very\nslippery\nconditioned it's easy to you just pull\nthose\npoles and you just go very fast but now\nbecause it's like not so fast you have\nto like do do the work\nso not not so much drafting benefit\nthere\nbut yeah\nyeah this this guy I'm Ariola is I think\nhis number is Big Five so\nhe he is very strong guy\nand the profile of this race was\nI think the elevation gain was like\nabout 200 140 meters so not so much\nuphill spot\nthis was like uh we are going up like\nthe first 17 kilometers we go up to\nlevel of water it's like a mountain\nso what was I saying my daughter\ncame here and asked can we can see what\nvideo so\nyeah but that\nthe profile so the\nit wasn't too hard so no not not so much\nelevation gain but it was like the Lao\nHawaii we went up the Lao have worry it\nisn't the mountain but\nmountain or I don't know how the how\nthey say it in English but yeah it was\nI think they\nwhen we started we elevation was maybe\n100 meters\nabove sea level and when we got to the\nlike the up the mountain it was 240\nmeters so\nthe elevation difference so\nbutter I haven't like gained it a little\nbit weight\nfrom this season so the uphill like here\nin flat Parts it's pretty okay pace and\nI can like sustain it but when the like\nuphill started\nI didn't\nget the response those armor\nuphills so\nbut uh this guy these guys when the\nfirst uphill came they went the whale it\nwas like the cap Maybe\nfive seconds or something like that but\nmy skis was\nnot excellent but good so when there was\nlike a little downhill section there so\nI just\npull the poles with power and then\nwent like a the landing position so I\nguess it those guys\nagain but then I skied with them like\nmaybe I don't know\n10 or 15 minutes and then they are paid\nuphills game so I couldn't get those\nguys anymore and I didn't want the pool\ntoo hard because\nI know this that if I don't catch those\nguys and the uphill is\nlike still continuing so I didn't want\nto like\nget too much lactic acid because if you\nget too long too much lactic acid you're\nlike muscles and body just\ngo goes off and the last part of the\nrace is going to be like if you are like\ngoing\nwhile walking pace so to speak\nyeah there\ncamera was a little bit off and a\nheartbeat\nlike the hearing video you can see the\nfirst part it's okay but I don't have\nthe whole whole video because it lasted\nalmost two hours and my GoPro died in\nthe end so I just\num half an hour video also\nafter like the\nwhen they do guys went went away I just\ngave my by myself like maybe 17\nkilometers\nso that wasn't so nice go with myself it\nwas a little bit boring but\nI keep it a pretty good Pace there and\nmy skis was pretty okay so it was like a\nokay pace\nbut yeah the\nguy who came who like was behind me he\nafter five minutes he came to the\ngoal\nso there wasn't like danger that they're\ngoing to catch me\nand I think I when I talked the other\nguys they said that the\ngroup there wasn't pretty big groups\nmaybe two skiers and then one skier and\ntwo skier so it's always good that the\nlike groups is splitting up because they\ndidn't get the drafting benefit and the\ngroup always goes\ngoes faster than an individual guy like\nwhen I get a person like drafting Behind\nthese guys we go much faster than single\nguy there so I get the drafting benefit\nhere\nso but after the race I felt that 35\nkilometers was pretty long\nbecause I haven't skied for this winter\nso much\nso but yeah it was a nice race\nthe tools like 35 kilometers\nand yeah the hands were a little bit\ntired but luckily\nit was a good race so\nyeah just keep watching and remember\nremember to subscribe and at the end of\nthe video you can see my\naverage heartbeat and what was the pace\nthere and all that kind of information\nfrom The Polar and yeah I was in third\nplace\nso good race\nand let's see if they're going to be\nanother race for this winter but I think\nnext videos is going when I when we go\nto the luosto Lapland there so let's see\nif the skiing dragster is\nreally good I think\njust if you want to keep watching and\nremember to like And subscribe so\nsee ya\n[Applause]\nforeign\n[Music]\ncome on\nall right",
+          "curated": false
+        },
+        {
+          "video_id": "vjvBoynpGDA",
+          "title": "Tamsalu-Neeruti Maraton 2021",
+          "channel": "Rando Sui",
+          "view_count": 1484,
+          "upload_date": "20210207",
+          "duration_string": "6:14",
+          "description": "Tamsalu-Neeruti Maraton 2021",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=vjvBoynpGDA",
+          "curated": true,
+          "curation_reason": "POV race footage from the 2021 edition providing additional course perspective from the same skier channel.",
+          "display_order": 3
+        },
+        {
+          "video_id": "TfzJAfLybDY",
+          "title": "41.Tartu Maraton (prohmakas)",
+          "channel": "fivexest",
+          "view_count": 3931,
+          "upload_date": "20120225",
+          "duration_string": "43",
+          "description": "",
+          "tags": [
+            "skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=TfzJAfLybDY",
+          "curated": false
+        },
+        {
+          "video_id": "Q8Ho7-xI_68",
+          "title": "Birkebeinerrennet 2023",
+          "channel": "Rando Sui",
+          "view_count": 26127,
+          "upload_date": "20230320",
+          "duration_string": "52:53",
+          "description": "Birkebeinerrennet 2023",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Q8Ho7-xI_68",
+          "curated": false
+        },
+        {
+          "video_id": "tbgHC0c9FBA",
+          "title": "25. Tamsalu-Neeruti Maratoni Farmi lastesõidud",
+          "channel": "Estoloppet",
+          "view_count": 71,
+          "upload_date": "20240304",
+          "duration_string": "1:33",
+          "description": "Video teostus: Stuudiopunkt OÜ / Stuudio.eu",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=tbgHC0c9FBA",
+          "transcript": "[Music]\n[Applause]\nn\nfore\nspee\nspe\nspeech",
+          "curated": false
+        },
+        {
+          "video_id": "V1Fq2sjEUn8",
+          "title": "2019 Lapham Loppet XC Freestyle and Classical Ski Race",
+          "channel": "TMJ4 News",
+          "view_count": 102,
+          "upload_date": "20190121",
+          "duration_string": "1:15",
+          "description": "(Video by Gideon Verdin-Williams)",
+          "tags": [
+            "2019 Lapham Loppet XC Freestyle and Classical Ski Race"
+          ],
+          "url": "https://www.youtube.com/watch?v=V1Fq2sjEUn8",
+          "transcript": "but the weather did make for a perfect\nbackdrop for a cross-country skiing race\ntoday at Lapham park in Delafield it's\nso fun to be on the snow the 2019 Lapham\nLobeck got a little help from Mother\nNature soft mushy bass have real snow\nthe Lapham peak loop is just more than a\nmile long and usually relies on man-made\nsnow to keep skiers going but the fresh\npowder can also have a downside but the\nfresh snow is pretty nice but I was kind\nof struggling on some of the hills there\nthe skiers weren't just gliding along\ntoday they were racing for some it's a\ntest of endurance I'm usually really\nexcited for a race I enjoy racing to see\nhow far I can push myself for others\nit's a case of sibling rivalry just got\nto beat my sister\nmake sure the race also serves as a\nfundraiser for the park hoping to add\nanother half mile of trail in the woods\nit's been a lot of years of working on\nit but it's a wonderful thing now that\nwe've got it all I hope to get started\non the edition of that in the fall if\nthey raise 160 thousand dollars so some\nperfect weather for the skiers today\nJessie",
+          "curated": false
+        },
+        {
+          "video_id": "VEztavh7exg",
+          "title": "Karl Mathias Tamsalu-Neeruti maratoni lastesõidul",
+          "channel": "Mailiis Kivi",
+          "view_count": 95,
+          "upload_date": "20160221",
+          "duration_string": "44",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=VEztavh7exg",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

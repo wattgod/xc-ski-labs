@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Tåssåsen Ski Marathon",
+    "slug": "tassasen-ski-marathon",
+    "display_name": "Tåssåsen Ski Marathon",
+    "tagline": "One hundred kilometers across Härjedalen's frozen plateau — Sweden's ultimate ultra-distance Nordic test.",
+    "vitals": {
+      "distance_km": 100,
+      "distance_options": [
+        "100km",
+        "50km"
+      ],
+      "elevation_m": 1200,
+      "altitude_m": 600,
+      "location": "Tåssåsen, Härjedalen",
+      "location_badge": "Härjedalen, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Härjedalen",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 200,
+      "founded": 1960,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the 100km course",
+      "cutoff_time": null,
+      "website": "https://www.tassasenmarathon.se",
+      "lat": 62.47,
+      "lng": 13.65,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 1200
+    },
+    "climate": {
+      "primary": "Inland Scandinavian mountain climate",
+      "description": "Härjedalen sits between the coastal lowlands and the Norwegian border mountains. Cold and dry conditions are the norm in March, with reliable snowpack at altitude. Wind exposure on open plateau sections adds challenge.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Extreme cold and wind on exposed mountain plateau sections",
+        "100km distance demands meticulous nutrition and energy management",
+        "Remote terrain with long gaps between aid stations",
+        "Late winter daylight still limited at this latitude"
+      ]
+    },
+    "course": {
+      "primary": "100km through the mountains and forests of Härjedalen, one of Sweden's most sparsely populated regions. The course includes significant climbing across plateau terrain and descents through birch forest, demanding both endurance and technical skill over an ultra-marathon distance.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through mountain and forest terrain",
+      "technical_rating": 3,
+      "grooming": "Regional standard grooming — good but stretched over 100km distance",
+      "features": [
+        "100km ultra-distance — one of the longest Nordic races anywhere",
+        "Remote Härjedalen mountain and forest landscape",
+        "Open plateau sections with potential wind exposure",
+        "50km option available for shorter ultra"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 4,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 1,
+      "score_note": "Extreme distance and altitude in remote Härjedalen, but very small field and limited accessibility. A specialist ultra event.",
+      "tier_note": "Score 56 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Tåssåsen Ski Marathon is one of Sweden's most extreme ultra-distance ski races, covering 100km through the remote mountains of Härjedalen. Dating from around 1960, it has remained a niche but respected event for skiers seeking distances beyond the standard marathon format. Härjedalen's sparse population and reliable winter conditions make it an authentic wilderness racing experience.",
+      "notable_facts": [
+        "At 100km, one of Sweden's longest ski races",
+        "Based in Härjedalen, one of Sweden's least populated regions",
+        "Reliable snow conditions due to inland mountain location",
+        "Attracts ultra-endurance specialists seeking maximum distance"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

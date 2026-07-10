@@ -1,0 +1,261 @@
+{
+  "race": {
+    "name": "Teacup Classic",
+    "slug": "teacup-classic",
+    "display_name": "Teacup Classic",
+    "tagline": "A short classic race on the flanks of Mt. Hood — community Nordic racing in Oregon's highest mountain terrain.",
+    "vitals": {
+      "distance_km": 15,
+      "distance_options": [
+        "10km",
+        "5km"
+      ],
+      "elevation_m": 150,
+      "altitude_m": 1200,
+      "location": "Teacup Lake, Mt. Hood, Oregon",
+      "location_badge": "Oregon, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Oregon",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 50,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Basic aid stations",
+      "cutoff_time": null,
+      "website": "https://www.teacupnordic.org",
+      "lat": 45.31,
+      "lng": -121.68,
+      "field_size_estimate": 75,
+      "elevation_gain_m": 150
+    },
+    "climate": {
+      "primary": "Cascade mountain winter",
+      "description": "Mt. Hood receives very heavy snowfall. Temperatures typically -5°C to 2°C. Deep snowpack is guaranteed most years.",
+      "typical_temp_c": "-5 to 2",
+      "challenges": [
+        "Heavy, wet Cascade snow",
+        "Variable visibility in cloud cover",
+        "Mountain weather changes rapidly"
+      ]
+    },
+    "course": {
+      "primary": "Short course on the Teacup Lake Nordic trail system on the eastern flank of Mt. Hood.",
+      "format": "loop",
+      "surface": "Volunteer-groomed classic tracks",
+      "technical_rating": 2,
+      "grooming": "Volunteer grooming, good quality",
+      "features": [
+        "Mt. Hood volcanic backdrop",
+        "Teacup Lake volunteer-maintained trails",
+        "Old-growth forest setting"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 36,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 1,
+      "elevation": 1,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 2,
+      "community": 1,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Excellent snow and Mt. Hood scenery but very small and short.",
+      "tier_note": "Score 36 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Teacup Classic is a small community ski race on the Teacup Lake Nordic trail system, a volunteer-maintained area on the eastern flank of Mt. Hood in Oregon.",
+      "notable_facts": [
+        "Teacup Lake trails are entirely volunteer-maintained",
+        "Set on the eastern flank of Mt. Hood",
+        "Part of Oregon's grassroots Nordic ski community"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Teacup Classic cross country ski race Teacup Lake",
+      "videos": [
+        {
+          "video_id": "hM4REahtb5Y",
+          "title": "Teacup Lake Cross-Country Ski tRIP",
+          "channel": "Dylan Burgess",
+          "view_count": 213,
+          "upload_date": "20180114",
+          "duration_string": "2:22",
+          "description": "Music - Trophy Beats\nAthletes - Kaitlyn, Dylan, Michael, Lyna, Montana, Lacey",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=hM4REahtb5Y",
+          "curated": false
+        },
+        {
+          "video_id": "kGlKVDSAmP0",
+          "title": "Liz, Sue, Chris, Lucy and Ed cross country skiing at teacup lake",
+          "channel": "Eddie White",
+          "view_count": 152,
+          "upload_date": "20100117",
+          "duration_string": "1:45",
+          "description": "Liz and Sue show how to cross country ski, and Ed shows how not to reverse.",
+          "tags": [
+            "Cross",
+            "country",
+            "skiing",
+            "teacup",
+            "lake"
+          ],
+          "url": "https://www.youtube.com/watch?v=kGlKVDSAmP0",
+          "transcript": "we just done a video of\nthat so there one\n[Laughter]\n[Music]\nhave you got it on film\nEd draw a\nhand draw a hand\nbab\nno you sure your\nhand go on Bond girl go rescue\nhim the Russian Bond\ngirl\nno not to laugh you are oh you\nfilming and here's how to stand up on\nCross Country\nSkis cheating",
+          "curated": false
+        },
+        {
+          "video_id": "p39TqH7Dfgc",
+          "title": "Cross Country Teacup Lake",
+          "channel": "bluehole",
+          "view_count": 275,
+          "upload_date": "20070225",
+          "duration_string": "1:12",
+          "description": "I took up skiing fairly recently.",
+          "tags": [
+            "crosscountry",
+            "skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=p39TqH7Dfgc",
+          "transcript": "seems to be doing something okay\nit's not sound right there is some but\ndon't worry about it okay here we are\nteacup Lake\nwith Al cordle sport Nordic Skier\nheading down good form\nnice snow perfect day\nhey\nI'm not sure if it what it did I held it\ndown the whole time but maybe you can\ntell\nbecause I can always do another one\nyou're good though very good see I\ndidn't fall in the movie\nright in the movie okay let's see what\nstore recording oh hi\nhi hi hi\noh couldn't be happier out here pretty\nforeign",
+          "curated": false
+        },
+        {
+          "video_id": "CErzJKajBcA",
+          "title": "Teacup Race 2012",
+          "channel": "Cody Doolan",
+          "view_count": 125,
+          "upload_date": "20120409",
+          "duration_string": "7:13",
+          "description": "While Katie and Chelsea raced in the teacup race, I made a video on my iphone due to lack of functioning classic skis.",
+          "tags": [
+            "nordic",
+            "skiing",
+            "classic",
+            "teacup",
+            "race"
+          ],
+          "url": "https://www.youtube.com/watch?v=CErzJKajBcA",
+          "curated": true,
+          "curation_reason": "Race-specific coverage of the actual Teacup Race event with adequate duration for detailed content.",
+          "display_order": 1
+        },
+        {
+          "video_id": "8yQg0hFJ564",
+          "title": "XC Skiing at Teacup Lake Nordic Trails",
+          "channel": "Tri.Sarah Tops",
+          "view_count": 66,
+          "upload_date": "20180121",
+          "duration_string": "18",
+          "description": "#skiing #xcskiing #snow #outdoors",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=8yQg0hFJ564",
+          "curated": false
+        },
+        {
+          "video_id": "J7zX7b67US4",
+          "title": "XC Skiing downhill at Teacup",
+          "channel": "Derek Nelson",
+          "view_count": 116,
+          "upload_date": "20130203",
+          "duration_string": "29",
+          "description": "Teacup XC ski area",
+          "tags": [
+            "Teacupnordic"
+          ],
+          "url": "https://www.youtube.com/watch?v=J7zX7b67US4",
+          "curated": false
+        },
+        {
+          "video_id": "qqzMbThO3M0",
+          "title": "Cross country skiing @ teacup lake on xmas eve",
+          "channel": "Barry Paul",
+          "view_count": 169,
+          "upload_date": "20101225",
+          "duration_string": "30",
+          "description": "This video was uploaded from an Android phone.",
+          "tags": [
+            "mobile"
+          ],
+          "url": "https://www.youtube.com/watch?v=qqzMbThO3M0",
+          "transcript": "I don't know if I can handle it.\n[Music]\nOkay, let's see the skate style. Let me\ngo down this insane\n[Applause]\ndownhill. I like I can see you from\nmiles away.",
+          "curated": false
+        },
+        {
+          "video_id": "yg4NuicGLOE",
+          "title": "Teacup Nordic Trail • Mt. Hood National Forest",
+          "channel": "Fairly Honest Off Road",
+          "view_count": 543,
+          "upload_date": "20170109",
+          "duration_string": "2:49",
+          "description": "Teacup Nordic Trail - Mt. Hood National Forest \n\nFilmed By\nAlex & Austen Younger \n\nEdited By\nAusten Younger\n\n\nSubscribe To Our Chanel\nhttps://www.youtube.com/c/FairlyHonestOffRoad\n\nPlease Email all Business Inquiries and Requests for showcasing your Event, Product, Adventure or Vehicle in one of our videos.       \nAlex@FairlyHonest.net\n\nSnail Mail (send us your product stickers) \nFairly Honest Productions \nPO Box 2044 \nOregon City, OR 97045\n\nElectro-Light - Symbolism [NCS Release] \nElectro-Light\n➞ Facebook https://www.facebook.com/ElectroLight...\n➞ SoundCloud https://soundcloud.com/maskedacoustic\n➞ Twitter https://twitter.com/ElectroLightEDM\n➞ YouTube https://www.youtube.com/user/ElectroL...",
+          "tags": [
+            "Teacup",
+            "mt hood",
+            "mount hood",
+            "national forest",
+            "nordic",
+            "cross country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=yg4NuicGLOE",
+          "curated": false
+        },
+        {
+          "video_id": "q_7y_eVtfxg",
+          "title": "2014 City of Lakes Loppet - 42K Freestyle Recap",
+          "channel": "Skinnyski.com Videos",
+          "view_count": 2209,
+          "upload_date": "20140203",
+          "duration_string": "13:11",
+          "description": "Cool temperatures made for a squeaky start to the City of Lakes Loppet freestyle races, but bright sunshine helped warm things up.  By the time the race hit the lakes, the lead pack had filtered down to a handful of skiers then thinned in the final kilometers, to Matt Liebsch, Mark Johnson and Chris Pappathopoulos.  Mary Beth Tuttle slipped away from the womens field, with Natalia Naryshkina finishing second and Jan Guenther third.  Credit: Karl Holub, videographer.",
+          "tags": [
+            "city of lakes loppet",
+            "freestyle",
+            "matt liebsch"
+          ],
+          "url": "https://www.youtube.com/watch?v=q_7y_eVtfxg",
+          "curated": false
+        },
+        {
+          "video_id": "nxSoznNhBuw",
+          "title": "The American Birkebeiner cross-country ski race",
+          "channel": "CBS Sunday Morning",
+          "view_count": 64693,
+          "upload_date": "20230319",
+          "duration_string": "5:48",
+          "description": "Since it was first held 50 years ago, the American Birkebeiner, a trek of more than 30 miles through the Northwoods of Wisconsin, modeled after a fabled bit of Norwegian history, has become the largest cross-country ski race in the U.S. Correspondent Conor Knighton reports on how enthusiasm for the festival of events surrounding the race (dubbed \"Birke fever\") has snowballed.\n#Birkebeiner #crosscountryski \n\n\"CBS Sunday Morning\" features stories on the arts, music, nature, entertainment, sports, history, science and Americana, and highlights unique human accomplishments and achievements. Check local listings for CBS Sunday Morning broadcast times.\n\nSubscribe to the \"CBS Sunday Morning\" YouTube channel: http://bit.ly/20gXwJT\nGet more of \"CBS Sunday Morning\": http://cbsn.ws/1PlMmAz\nFollow \"CBS Sunday Morning\" on Instagram: http://bit.ly/23XunIh\nLike \"CBS Sunday Morning\" on Facebook: https://bit.ly/3sRgLPG\nFollow \"CBS Sunday Morning\" on Twitter: http://bit.ly/1RquoQb\nSubscribe to our newsletter: http://cbsn.ws/1RqHw7T\nDownload the CBS News app: http://cbsn.ws/1Xb1WC8\nTry Paramount+ free: https://bit.ly/2OiW1kZ\n\nFor video licensing inquiries, contact: licensing@veritone.com",
+          "tags": [
+            "CBS Sunday Morning",
+            "CBS News",
+            "news",
+            "american birkebeiner",
+            "northwoods",
+            "wisconsin",
+            "norwegian history",
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=nxSoznNhBuw",
+          "transcript": "it's part ski Marathon part Norwegian\nHistory part Street Festival Connor\nKnighton takes us to the starting line\nof a race like none other\ns\n[Music]\neach winter thousands of cross-country\nskiers from all across the world travel\nto the North Woods of Wisconsin to\ntravel more than 30 miles between the\ntowns of cable and Hayward\nthe American birkabiner is the largest\ncross-country ski race in the country\nand the enthusiasm here is contagious we\nall got the Berkey fever and it's just\nthe excitement that builds about not\nonly the race but the whole event of\nBerkey week the official burkabiner race\nBerkey for short could fly by in a\ncouple of hours for the most elite\nskiers the leading up to the main event\nthere are days of activities there are\nshorter races for children\nforeign\ndog lovers ski with their pets teams of\nsix compete in giant ski races it's kind\nof like Comic-Con for athletes is how\nI'm looking at it Jackie and Dan daroma\nare Avid skiers Jackie has skied the\nBerkey four times Dan 17 but for this\nyear's race they wanted to do things a\nlittle differently these other Racers\nare going to be in spandex Gore-Tex you\nknow what are you gonna be wearing full\non fur\nJackie Dan and Dan's Father Jim were\nselected to be mascots of sorts skiing\nthe entire course on wooden skis dressed\nas Norwegian folk Heroes all while\ncarrying a baby doll it's a tradition\nwith roots and a far older history\nas portrayed in the film The Last King\nin the early 13th century Norway was in\nthe middle of a civil war after King\nhokan III died members of the birkaviner\nfaction skied his son the heir to the\nthrone through the woods to safety\neach year in Wisconsin three skiers\nreenact the rescue I think the the fact\nthat there is this real story about an\nevent that now you're recreating it I\nthink that's pretty darn cool and pretty\nspecial and I think it resonates with a\nlot of people Ben pop is the executive\ndirector of the American burkabiner\nwhich is modeled after a Norwegian race\nthere every competitor skis with a baby\nweight backpack to honor the Warriors\njourney of course you may be asking\nyourself why is this crazy Norwegian\nhistory have anything to do with Hayward\nWisconsin in the middle of Northwestern\nWisconsin nowhere it all came down to\none man Tony wise\nTony wise was born in Hayward and was a\nborn marketer after serving in World War\nII he decided to bring the competitive\nskiing he observed in Europe back home\nto Wisconsin a place where a\nScandinavian ancestry is common as a way\nto encourage tourism his first Berkey\nrace held 50 years ago had just 35\nparticipants most of whom had never\ncross-country skied before I swore up\nand down after that first I would never\ndo anything so foolish again but\ntoday at age 75\nErnie St Germain is the only competitor\nwho's participated in every single race\nbut there are more than 2 000 athletes\nwho have appeared in 20 or more contests\nwhich can turn into grueling all-day\nendeavors\nthe Berkey attracts skiers of varying\nages and ability levels\nyou're really gonna discover who you are\nit's one of the toughest Marathon\ncourses in the world so let yourself\nkind of Glide a little there you go good\nthat challenge is what attracts Elite\nskiers like Olympian Caitlyn Gregg who's\nwon the women's race a record setting\nfive times the Berkey course is unlike\nany other ski course that we get to race\nnot only here in the United States but\nalso in around the world and I think\nthat it's terrain is so unique and so\nchallenging that people just myself\nincluded love that aspect of it\nthe race itself has faced challenges\nposed by warmer Winters in recent\ndecades it's been canceled twice due to\nlack of snow it's really important that\nwe look at climate change and weather\nbecause if we don't have it well it's a\nbig loss the event provides a major\nboost for the local economy this town of\nfewer than 3 000 residents hosts close\nto 40 000 Spectators on race day\nhayward's Main Street overflows with\ncheering fans caught up in Berkey fever\nfor which the only prescription is more\ncowbell\nthe church bells signal the arrival of\nthe first finisher David Norris won this\nyear's men's race with a commanding lead\nCaitlyn Gregg came in third in the\nwomen's division\nthe biggest cheers of the day were\nreserved for the dromas nearly 7\nafter leaving the starting line they\nskied onto Main Street and swapped out\nthe baby doll for an actual baby\ntheir daughter Clara played the part of\nPrince Hogan for the final few blocks\nthe burkabiners saved the day\nuntil\ndo it all again next year\nI'll be ready to go",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

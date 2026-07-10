@@ -1,0 +1,243 @@
+{
+  "race": {
+    "name": "Budorrennet",
+    "slug": "budorrennet",
+    "display_name": "Budorrennet",
+    "tagline": "Forty-one flat kilometers across Hedmarksvidda — the most accessible turrenn in Innlandet's long-distance cup.",
+    "vitals": {
+      "distance_km": 41,
+      "distance_options": [
+        "41km"
+      ],
+      "elevation_m": 150,
+      "altitude_m": 700,
+      "location": "Hedmarksvidda, Innlandet",
+      "location_badge": "Innlandet, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Innlandet",
+      "date": "February/March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 200,
+      "founded": 1970,
+      "registration": "Open registration via Langlopscupen",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://langlopscupen.no/",
+      "lat": 61.0333,
+      "lng": 10.9333,
+      "field_size_estimate": 350,
+      "elevation_gain_m": 150
+    },
+    "climate": {
+      "primary": "Norwegian mountain plateau winter",
+      "description": "Hedmarksvidda is a high plateau in Innlandet with reliable continental winter conditions. Temperatures during the February-March race window typically range from -15°C to -5°C. The open plateau can be windy.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Wind exposure on the open Hedmarksvidda plateau",
+        "Cold plateau temperatures",
+        "Flat terrain demands consistent pacing over 41km",
+        "Open landscape with limited wind shelter"
+      ]
+    },
+    "course": {
+      "primary": "A 41km classic course over the flat Hedmarksvidda plateau. The flat profile makes it one of the most accessible turrenn in the region, suitable for recreational skiers seeking their first long-distance experience.",
+      "format": "loop",
+      "surface": "Groomed classic tracks on flat plateau terrain",
+      "technical_rating": 1,
+      "grooming": "Good Norwegian citizen race standard",
+      "features": [
+        "Flat plateau profile — one of the most accessible turrenn",
+        "Open Hedmarksvidda landscape",
+        "Part of Skiplukkern Langlopscup Innlandet",
+        "Good entry-level race for aspiring marathon skiers",
+        "Classic technique"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 1,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 1,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "The flattest course in the Skiplukkern Langlopscup, making it the most beginner-friendly marathon distance in the series. Excellent snow reliability on the Hedmarksvidda plateau. Modest field and minimal technicality limit the score.",
+      "tier_note": "Score 46 places in TIER 3"
+    },
+    "history": {
+      "summary": "Budorrennet has been a Norwegian turrenn since approximately the 1970s, held on the Hedmarksvidda plateau in Innlandet county. Its flat profile has made it a popular choice for recreational skiers looking to complete their first marathon-distance ski race. The race is part of the Skiplukkern Langlopscup Innlandet, the regional long-distance ski cup.",
+      "notable_facts": [
+        "Part of Skiplukkern Langlopscup Innlandet",
+        "Flat Hedmarksvidda plateau profile",
+        "One of the most accessible long-distance turrenn for beginners",
+        "Located on a high Norwegian mountain plateau",
+        "Classic technique citizen race"
+      ]
+    },
+    "series_membership": [
+      "skiplukkern_langlopscup_innlandet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Budorrennet cross country ski race Hedmarksvidda",
+      "videos": [
+        {
+          "video_id": "ahtFDgmYteQ",
+          "title": "Skitur i Vangsåsa Hedmarksvidda 26 01 2018",
+          "channel": "Stein Arne Negård",
+          "view_count": 316,
+          "upload_date": "20180126",
+          "duration_string": "2:45",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ahtFDgmYteQ",
+          "curated": false
+        },
+        {
+          "video_id": "_evM-ZOw_kQ",
+          "title": "Budor 2019",
+          "channel": "Robert Olender",
+          "view_count": 521,
+          "upload_date": "20190310",
+          "duration_string": "3:16",
+          "description": "Budor 2019",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=_evM-ZOw_kQ",
+          "curated": true,
+          "curation_reason": "Race footage specifically from Budorrennet providing visual documentation of the event.",
+          "display_order": 2
+        },
+        {
+          "video_id": "NaXWFZQKNnI",
+          "title": "Friluftsliv - Piteraq Arctic Bedding vårt sovesystem til vinterturer med pulk",
+          "channel": "Friluftsamatørene",
+          "view_count": 21383,
+          "upload_date": "20190407",
+          "duration_string": "6:58",
+          "description": "Friluftsliv - Piteraq Arctic Bedding, sovesystem til vinterturer med pulk\n\nGenial løsning som gjør opp og ned-rigging av camp mye enklere. En fin løsning vi har brukt i flere år nå og er kjempefornøyd med!\n\nDette produktet kan vi anbefale. \n\n\n➥➥➥  ABONNER. FÅ MED DEG ALLE VIDEOER  ➥➥➥\n\nGå aldri glipp av noe av det vi deler på Friluftsamatørene.\nAbonner ⇢ http://www.youtube.com/friluftsamatorene/example?sub_confirmation=1\n\nMer info om beddingen:\nPiteraq Arctic Bedding er en multifunksjons-bag som er beregnet for ekspedisjoner med pulk. Formålet med bagen er å fylle den med de tingene du skal ha inn og ut av teltet hver dag. Ett kolli inn og ett kolli ut av teltet. Fylles gjerne med sovepose, oppblåst liggeunderlag, ekstra sokker, liten hodelykt, lesestoff osv. Når dagsmarsjen er over, så løftes bagen enkelt inn i teltet. Bagen kan enkelt festes på toppen av pulken og kan brukes som sitteplass i pauser. Arctic Bedding gjør teltlivet mer effektivt.\n\nArctic bedding er utviklet og designet etter bruk og tilbakemeldinger fra flere Grønlandskryssinger. På toppen er det en stor lomme hvor det for eksempel er plass til dunjakke. 2 små lommer med glidelås til nødvendig utstyr. \n\nArctic Bedding HD er laget i solid 210D Ripstop Nylon med silicon og PU-coating, samt DWR-behandling. I bagen får du plass til flere oppblåste liggeunderlag med en maks-bredde på 57 cm.\n\nDenne kan kjøpes flere steder, blant annet på fjellsport.no\nhttps://www.fjellsport.no/piteraq-arctic-bedding-hd.html?q=Piteraq%20Arctic%20Bedding\n\n#friluftsliv #piteraq #bedding",
+          "tags": [
+            "Friluftsliv - Piteraq Arctic Bedding vårt sovesystem til vinterturer med pulk",
+            "Friluftsliv - Piteraq Arctic Bedding",
+            "Piteraq Arctic Bedding",
+            "Piteraq",
+            "piteraq 2019",
+            "friluftsliv",
+            "friluftsliv 2019",
+            "telttur",
+            "sovesystem",
+            "sovesystem vinter",
+            "teltur på vinteren",
+            "vintertelting",
+            "telttur vinter",
+            "vinter telttur",
+            "friluftslivet",
+            "friluftsliv i norge",
+            "friluftsliv tips",
+            "friluftsliv tips 2019",
+            "piteraq bedding",
+            "friluftsliv vinter",
+            "telttur på vinteren",
+            "friluftsliv i norge 2019"
+          ],
+          "url": "https://www.youtube.com/watch?v=NaXWFZQKNnI",
+          "curated": false
+        },
+        {
+          "video_id": "pJAqa4thVso",
+          "title": "POV: Birken 2025",
+          "channel": "Magnus Waaler",
+          "view_count": 18407,
+          "upload_date": "20250316",
+          "duration_string": "17:19",
+          "description": "#Birken2025 #POV #Langrenn #Ski #Eliten #gopro \n\n💥 Bli med på en rå førstepersonsopplevelse av Birken 2025! 💥\n\nJeg tok med GoPro på brystet og dokumenterte hele løpet fra eliteklassen – 54 km med staking, motbakker og ren skifest! 🎿🔥 Her får du se POV-perspektivet fra en av verdens mest ikoniske langrennskonkurranser, med all intensiteten, smerten og gleden underveis.\n\n🔹 Hvordan føles det å gå Birken i eliten?\n🔹 De tøffeste partiene – ekte råskap på ski!\n🔹 Kan jeg slå min egen tid? Se hele rennet fra min vinkel!\n\n🔥 Husk å like, kommentere og abonnere for mer langrennsinnhold! 🔥\n\n📲 Følg meg her for mer skirelatert innhold:\n📍 Instagram: @magnuswaaler\n📍 TikTok: @magnuswaaler\n📍 Snapchat: @muggulf",
+          "tags": [
+            "birken",
+            "birkebeiner",
+            "2025",
+            "pov",
+            "gopro",
+            "magnus",
+            "waaler",
+            "ski",
+            "classics",
+            "gukild",
+            "skiklubben",
+            "nygaard",
+            "borthug",
+            "burger",
+            "king",
+            "team",
+            "rustad",
+            "vasaloppet",
+            "pølsa",
+            "teampølsa",
+            "stanislav",
+            "rezack",
+            "vlogg"
+          ],
+          "url": "https://www.youtube.com/watch?v=pJAqa4thVso",
+          "curated": false
+        },
+        {
+          "video_id": "rnqS06aUVsQ",
+          "title": "First ski race of the season - Budor 2024",
+          "channel": "Andreas Fausko",
+          "view_count": 520,
+          "upload_date": "20240129",
+          "duration_string": "7:25",
+          "description": "Focusing hard on getting a good seeding position for Vasaloppet this year and that means a lot ski racing. First off in 2024 is Budor ski race in the biting cold.  \n\nFollow me on social:\nInstagram: @andreasfausko \nStrava: strava.com/athletes/10202509",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=rnqS06aUVsQ",
+          "transcript": "[Music]\ngood morning from bu Stadium this up\nyour little place took a few hours\nNortheast of Oslo this is a place you\nend up when you decide to go ski racing\nin the beginning of\nJanuary to get this good seating\nposition from US Open but we're in it\nfor that\nt it is cold it's we got in uh minus 15\nright now maybe a little bit more maybe\na little bit less but in that area I\ndouble P this race to years back I\ndidn't have any problem with it pretty\nsmashed when I got to the Finish L for\nsure but I made it through but since\nit's so cold today the snow is really\ndry and grippy like sandpaper type of\nconditions so I'm using Bri BS under my\nSK to to see how that's going to work\nand I also got this insane spe R coming\nup in February where gri biks is\nabsolutely necessary so yeah it's nice\nto get some practice on using a diagonal\ntechnique and then I can double p on the\nflat and they come around so yeah it's\ngoing to be good times warming up a\nlittle bit nice checking if I got some\ngrip and just going to send it I\nsuppose starting in uh four 4 minutes or\nsomething here is see it's all in this\nyear as always with the thick ass\nrayit hang out with this one in below 15\nit's not really comfortable but yeah as\nsoon as the start goes I'm going to get\nwarm and should be fine\nhope\n[Applause]\nso made up the climbs and now we're a\nbit of a flat section stor double\npolling here but this snow is so slow\nthat use so much energy on the double\nping and he don't get much back so just\ngoing straight into diagonal trying to\nstretch my legs and try to catch up with\nthe grp in front of\nme\nyou just Glide well that's for\nsure but it's cold in downhills super\ncold\nwoo it's so\nnice\nn\nthat was brutal that was absolutely\nbrutal irresponsible in one way I'd say\nbecause that was uh I was cold o I was\nso cold I guess I could have dressed a\nlittle bit more but uh if I had been out\nfor much longer it would have become\nslightly dangerous I think but I made it\nto the Finish Line 3 hours 1 minutes not\nsuper happy but I had terrible skis I\nthink I'm in pretty good shape I do feel\nI'm in pretty good shape so I'm not\ncomplaining about myself but yeah I\ndefinitely chose the wrong skis today\nand I'm usually I don't blame the skis\nor everything works as it should do and\nI'm not better but today I know that\nwith better skis you would have been\ngone 15 minutes faster I think and maybe\n20 cuz I easily kept up with everybody\nin the climbs but once the once the\nflats came and the downhills everybody\nwas just like yep see you later\nalligator and I tried\nto push hard to get back on on the skis\nto to people but\nin the Easter terrain there were just\nlong gone so I was in the limbo for a\nlong while going by myself and then\npeople catching up to me yeah then they\nwere gone yeah so it was a bit of a\nbummer with the skis but H I think\neverybody had it a bit slow today cuz\nthe snow is it's like sandpaper you can\njust hear a squeaking in the snow all\nthe\ntime and uh yeah it was just super slow\nso that's how it is first race of the\nSeason couple days rest now and we're\njust going to continue training and we\ngot some some crazy things coming up in\nFebruary so just got to keep the eyes on\nthe price and uh I think we should be\ngood I think that should do it I see you\nin the next one\npeace",
+          "curated": true,
+          "curation_reason": "First-person POV race experience with detailed commentary on conditions, waxing challenges, and course terrain from Budorrennet 2024.",
+          "display_order": 1
+        },
+        {
+          "video_id": "Ad85h7LEa4g",
+          "title": "Høydepunktene fra Trysil Skimaraton 2020",
+          "channel": "Trysil",
+          "view_count": 754,
+          "upload_date": "20200217",
+          "duration_string": "2:27",
+          "description": "Sol, mange deltakere, gode skiforhold og løyperekord. Se høydepunktene fra årets Trysil Skimaraton som gikk av stabelen på lørdag!\n\nFilm: Einar Røyne, Jonas Sjögren og Sigve Myhre",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Ad85h7LEa4g",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It is cold it's we got in uh minus 15 right now maybe a little bit more maybe a little bit less but in that area... since it's so cold today the snow is really dry and grippy like sandpaper type of conditions so I'm using Bri BS under my SK.",
+          "source_video_id": "rnqS06aUVsQ",
+          "source_channel": "Andreas Fausko",
+          "source_view_count": 520,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "This snow is so slow that use so much energy on the double ping and he don't get much back... the snow is it's like sandpaper you can just hear a squeaking in the snow all the time and it was just super slow.",
+          "source_video_id": "rnqS06aUVsQ",
+          "source_channel": "Andreas Fausko",
+          "source_view_count": 520,
+          "category": "waxing",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

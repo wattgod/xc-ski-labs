@@ -6,7 +6,10 @@
     "tagline": "Forty-five kilometers of Hokkaido powder — Japan's tribute to the Swedish original, three laps through the snow country where Siberian winds meet volcanic terrain.",
     "vitals": {
       "distance_km": 45,
-      "distance_options": ["45km", "25km"],
+      "distance_options": [
+        "45km",
+        "25km"
+      ],
       "elevation_m": 450,
       "altitude_m": 250,
       "location": "Asahikawa",
@@ -16,8 +19,8 @@
       "region": "Hokkaido",
       "date": "March",
       "date_specific": null,
-      "discipline": "skate",
-      "field_size": "~2,000 starters",
+      "discipline": "both",
+      "field_size": 2000,
       "founded": 1981,
       "registration": "Online registration",
       "prize_purse": null,
@@ -25,7 +28,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 43.7707,
-      "lng": 142.3650
+      "lng": 142.365,
+      "field_size_estimate": 2000,
+      "elevation_gain_m": 450
     },
     "climate": {
       "primary": "Hokkaido winter — heavy snowfall region",
@@ -88,8 +93,142 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Vasaloppet Japan cross country ski race Asahikawa",
+      "videos": [
+        {
+          "video_id": "TZcEm7a864Y",
+          "title": "クロスカントリーと歩くスキーの大会旭川で（2014/03/08-09）北海道新聞",
+          "channel": "北海道新聞　どうしん動画ニュース",
+          "view_count": 1907,
+          "upload_date": "20140310",
+          "duration_string": "1:00",
+          "description": "国内最大規模のクロスカントリーと歩くスキーの大会「第３４回バーサーロペット・ジャパン」が８日、旭川市神居町富沢の富沢クロスカントリーコースで開幕した。初日のクロスカントリーには小学生から８０代まで計５０１人が出場し、雪原を滑走した。９日は、北彩都特設会場で歩くスキーと家族などで参加するミニロペット、富沢会場でチームスプリントを行い、２日間の全日程を終えた。参加者たちは小雪が舞う中、寒さに負けじとスキーを滑らせた。２日間合計の参加者数は２７０２人で、大雪が降った昨年より７３人多かった。（３月８日夕刊などに掲載）\nCopyright(c)The Hokkaido Shimbun Press.\nこの映像の著作権は、北海道新聞社に帰属します。",
+          "tags": [
+            "北海道新聞社",
+            "北海道",
+            "道新",
+            "クロスカントリー",
+            "歩くスキー",
+            "旭川",
+            "ロペット"
+          ],
+          "url": "https://www.youtube.com/watch?v=TZcEm7a864Y",
+          "curated": false
+        },
+        {
+          "video_id": "QAo_wzk4Zsg",
+          "title": "VASA LOPPET JAPAN",
+          "channel": "DDW channel",
+          "view_count": 2419,
+          "upload_date": "20160818",
+          "duration_string": "1:02",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=QAo_wzk4Zsg",
+          "transcript": "parcel of its Japan began in 1984 as\ntheir psyche our international versus\nski competition before subsequently\nbeing renamed as Vasaloppet Japan named\nafter King Gustav Vasa Sweden Vasaloppet\nJapan is held in March every year and\ninherits all of the traditions of the\noriginal Vasaloppet cross-country ski\ncompetition which has been held in\nSweden since 1922 as Japan's largest\ninternational ski competition\nVasaloppet Japan receives entries from\ncompetitors from countries throughout\nthe world\nthe competition is separated into a\ncross-country race that runs through the\nhills and valleys near a snake hour and\nthe walking\nski race that glides through urban areas\nentries are now open to anyone from\ncomplete novices to seasoned athletes",
+          "curated": false
+        },
+        {
+          "video_id": "E-wFZ7V7P8o",
+          "title": "BvdGF Vasaloppet Challenge day 3",
+          "channel": "basvandegoorfoundation",
+          "view_count": 378,
+          "upload_date": "20160302",
+          "duration_string": "2:10",
+          "description": "Training eerste deel van het parcours van Sälen naar Risberg.",
+          "tags": [
+            "bvdgf",
+            "langlaufen",
+            "vasaloppet",
+            "diabetes"
+          ],
+          "url": "https://www.youtube.com/watch?v=E-wFZ7V7P8o",
+          "curated": false
+        },
+        {
+          "video_id": "dgxEebQLDUo",
+          "title": "第34回 バーサーロペット・ジャパン パート1",
+          "channel": "株式会社北海道録画センター",
+          "view_count": 626,
+          "upload_date": "20140401",
+          "duration_string": "16:39",
+          "description": "第34回　バーサーロペット・ジャパン\n日時：2014年3月9日（日）\n会場：北彩都特設会コース\n歩くスキー（10km・5km・ミニロペット）参加者　2001人\n\n第1部　丸田さとみ・歩くスキー初挑戦！\n\nバーサーロペットでは、多くのみなさんに歩くスキーを楽しんでもらおうとスキー・靴のレンタルを行っています。\n今回は便利なシステムも活用して丸田さんも歩くスキーに初挑戦！\nどんな滑りを披露してくれるのでしょうか。\n参加者のみなさんのインタビューもお楽しみに。\n\n取材・制作：株式会社 北海道録画センター\n\n北海道旭川インターネット放送局。道北を中心としたおでかけ情報やイベント、観光情報を動画で紹介しています。\nまるまるネット北海道\nhttp://www.hofm.co.jp/",
+          "tags": [
+            "北海道",
+            "旭川",
+            "バーサーロペットジャパン",
+            "クロスカントリースキー"
+          ],
+          "url": "https://www.youtube.com/watch?v=dgxEebQLDUo",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage showing the walking ski portion with participant interviews and course details.",
+          "display_order": 2
+        },
+        {
+          "video_id": "-rAZJaWSqRY",
+          "title": "バーサーロペット・ジャパン51kmスケーティングのハイライト！Vasaloppet Japan 2023 Highlights",
+          "channel": "ケントーレちゃんねる【石川謙太郎】",
+          "view_count": 2698,
+          "upload_date": "20230316",
+          "duration_string": "2:03",
+          "description": "一言 : 久々の優勝！景品のThule 有効に使います！\n\nサブスク動画チャンネルのサイトはこちら！👇\n『Mediable』\nhttps://mediable.jp/channels/f9a66f77-dda9-47cd-8626-8397a243337b\n\nこのサイトから僕のサブスクチャンネルをご覧頂けます。\nまた、メンバーになって頂くのも上のサイト内の『今すぐ応援視聴する』から可能です！\n\nチャンネルメンバーシップの加入はこちらから！\nhttps://www.youtube.com/channel/UCZwT-wAbJKWwalQh5zzI3Uw/join\n\n---------------------------------------------------------------------------------------------------------------------------\n動画の内容に関しての質問等であれば動画のコメント欄やInstagramアカウントにDMを送って頂ければ回答可能です。\n※質問の内容によっては回答しかねます。\n\n石川謙太郎Instagram(フォロー大歓迎です)\nhttps://www.instagram.com/kentaro_ishikawa/\n\n★個人スポンサーも募集しております★\n応援して下さる方は以下の私のホームページから詳細をご覧頂けます。\n\n石川謙太郎ホームページ\nhttp://kentarou-ishikawa.spo-sta.com/donation\n---------------------------------------------------------------------------------------------------------------------------",
+          "tags": [
+            "スキー",
+            "クロカン",
+            "クロスカントリースキー",
+            "健康",
+            "歩くスキー",
+            "ノルディック",
+            "冬季スポーツ",
+            "札幌オリンピック",
+            "札幌五輪",
+            "アスリート",
+            "選手",
+            "現役",
+            "ランニング",
+            "クロスカントリー",
+            "トレラン",
+            "トレーニング",
+            "スポーツ"
+          ],
+          "url": "https://www.youtube.com/watch?v=-rAZJaWSqRY",
+          "curated": false
+        },
+        {
+          "video_id": "Et8wFefciW8",
+          "title": "SYND 5-3-73 ANNUAL VASALOPPET SKI RACE IN SWEDEN",
+          "channel": "AP Archive",
+          "view_count": 827,
+          "upload_date": "20150723",
+          "duration_string": "2:16",
+          "description": "(5 Mar 1973) Worlds longest, annual, cross country ski race, the Vasaloppet, covers 53 miles (85 kilometers) between the towns Mora And Salen, in Sweden\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/dfe0399664b4894f1a42b6bb869c2abe",
+          "tags": [
+            "AP Archive",
+            "z017194",
+            "dfe0399664b4894f1a42b6bb869c2abe",
+            "SWEDEN SKI RACE"
+          ],
+          "url": "https://www.youtube.com/watch?v=Et8wFefciW8",
+          "curated": false
+        },
+        {
+          "video_id": "maQKROnTKrc",
+          "title": "Vasaloppet 2026 - A Cross Country Ski Journey in Sweden 🇸🇪 Teacher Paul Sports",
+          "channel": "Teacher Paul Sports",
+          "view_count": 5463,
+          "upload_date": "20260305",
+          "duration_string": "6:44",
+          "description": "Vasaloppet 2025 - A Cross Country Ski Journey in Sweden 🇸🇪 Teacher Paul Sports\n15 000 åkare gav sig i morse i väg \nhttps://www.tiktok.com/@svtsport/video/7206984945246457094?_r=1&_t=ZN-94P9NzIwUuU\nVilken prestation av Oskar och Team Lager 157 #vasaloppet2026#sweden#crosscountryskiing \nhttps://www.tiktok.com/@jenniehellberg2/video/7612244956316437782?_r=1&_t=ZN-94P8vX404JC\nVinnarna av Vasaloppet 2026🏆\nhttps://www.tiktok.com/@vasaloppetofficial/video/7612269959565020438?_r=1&_t=ZN-94P97cHvTK2\nRequest a video here: https://buymeacoffee.com/teacherpaul\nCheck out my wishlist: https://buymeacoffee.com/teacherpaul/wishlist\nJoin My Discord: https://discord.gg/TXnMB7UZ5w\nFor sponsorships and business: teacherpaulreacts@gmail.com\n\nA channel for fans who love all kinds of sports! From football and F1 to Olympic events, extreme adventures, and everything in between — Teacher Paul explores the world of sports from every angle. Perfect for viewers who enjoy variety, discover new sports, and want the excitement of Sports World Cups & Olympics year-round.",
+          "tags": [
+            "Teacher Paul Sports"
+          ],
+          "url": "https://www.youtube.com/watch?v=maQKROnTKrc",
+          "transcript": "Yo, what's up guys? Teacher Paul here\nand today we're reacting to a coffee\nrequest. This one comes from Susan and\nthis is what Susan has to say.\nBasel Opit 2026 is the the 102nd edition\nof the classic 90 km ski race from\nThalen to Mora in Sweden on the 1st of\nMarch 2026. So this was 3 days ago.\nThis was held in a tough snowy condition\nthat made the course demanding for many\nparticipants.\nIn the men's race, Oscar Cardin from\nSweden won with a time of around 4 hours\nand 14 minutes and 45 seconds. After\novercoming a broken ski and a mid-ra\nchange\nin the women's race, Emily Fletton from\nNorway dominated and secured her third\nBasa Lopeet victory in about 4 hours 24\nminutes and 26 seconds. Hi Maya. Hi\nLena. Thank you for joining in. So these\n[snorts] are a few videos we're going to\ncheck out and let me know guys in the\ncomments down below. Did you participate\nof the Vasa Lopeet 2026 or not? Did you\nguys were you guys there? Let me know.\nPut a hashtag I was there. # I was there\nor #vasalope\n2026 to indicate you were there. Okay,\nlet me know. Let's go.\n&gt;&gt; Oh my gosh, look at how many people are\nthere.\n&gt;&gt; 15,000\npeople.\nYo, this video,\n&gt;&gt; this video right here that you guys are\nwatching needs to hit 15,000 views\n[laughter]\nbecause every single one of you have to\nwatch this.\nNow, let me know guys if you guys were\nthere. 15,000 people. Wow. Can you\nimagine if 15,000 people watch this?\nThat's going to be dope.\nOh my gosh,\nthat's a lot of people.\nOh my gosh.\nWait, what the what the heck?\n&gt;&gt; Sorry about that.\n15,000 people.\n&gt;&gt; This is insane. Look at how many people,\nguys.\nWow.\n15,000 people skiing.\nonly in Sweden, man. Look at the amount\nof people.\n&gt;&gt; That's amazing, man. Wow.\n&gt;&gt; Were you guys there? Let me know. And if\nyou were not there, would you like to go\nonce?\n&gt;&gt; Okay, that's the first video. Let's see\nthe other the second video. We're\npulling it pulling it up right here.\nThis is the winner.\n&gt;&gt; [music]\n&gt;&gt; Dang. Oscar Carden\nwinning in front of 15,000 people.\nDude, this guy needs to go to the\nOlympics,\nwhich is a question I have. Can athletes\ncompete here or only citizens?\nDo you can you compete if you don't if\nyou don't have any prior 90 km? That's\namazing. 15,000 people.\nInsane.\nAnd he had a good lead.\nEveryone can compete. Is he an athlete?\nThat doesn't seem too fair if everyone\ncan complete compete, you know.\nOkay, so let me just read. The first\nvideo we saw was the start. The la the\nlast video was the finish. And now this\none also this is a video from Tik Tok.\nThese are two people that got the wreath\nfans. What does that mean?\nWho won their\nSo this is the men and women.\nI'm not sure what um this means, but\nlet's check it out.\nDude, imagine winning against 15,000\n[music]\nSo, men's\nwinner and women's winner winner.\nAmazing. Congratulations to the winners.\nThat's pretty cool. That was pretty\ndope, guys.\nImagine competing against 15,000 people\nand winning. Got to be really dedicated\nright there. So, there's the men that\ncompete and the women that compete and\nthey are doing it at the same time, but\nthey got prizes. Okay. So, a question is\nthe lady who won, how far back was she?\ncuz I was she fifth place in overall.\n[sighs and gasps]\nThere are some people that are doing it\nbut it takes them the whole day and they\nare coming in to finish uh the finish\nline really late finish line. Is there a\ntime limit? Like if people can't finish\nthe whole thing, is there a time limit\nor can you keep going for hours and\nhours and days? You're like I must reach\nthe finish line.\nDo people say, \"Oh, you're disqualified\nbecause of you you spent weeks out\nhere.\" Or no, obviously I'm joking about\nthe weeks, but is there a time limit or\nno? Or can you just keep going until you\nfinish? [gasps]\nThat's pretty cool. Thank you so much\nfor sharing this. And guys, if you were\nthere, let me know. If you weren't\nthere, let me know if you would like to\ngo. If you want to request a video, go\nover to Buy Me Coffee. The link is in\nthe pin comments. Thank you guys so\nmuch. Like, subscribe, and I'll see you\non the next video. Bye-bye. Take care\nand have fun.",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

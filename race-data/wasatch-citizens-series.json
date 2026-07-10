@@ -1,0 +1,351 @@
+{
+  "race": {
+    "name": "Wasatch Citizens Series",
+    "slug": "wasatch-citizens-series",
+    "display_name": "Wasatch Citizens Series",
+    "tagline": "Twenty-five kilometers on Olympic-legacy trails — citizen racing on the 2002 Winter Games cross-country venue in Utah's Wasatch Range.",
+    "vitals": {
+      "distance_km": 10,
+      "distance_options": [
+        "25km",
+        "15km",
+        "5km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 2000,
+      "location": "Soldier Hollow, Midway, Utah",
+      "location_badge": "Utah, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Utah",
+      "date": "January to March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 200,
+      "founded": null,
+      "registration": "Online pre-registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along course",
+      "cutoff_time": null,
+      "website": "https://www.soldierhollow.com",
+      "lat": 40.52,
+      "lng": -111.47,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Wasatch mountain",
+      "description": "Utah's Wasatch Range receives legendary dry powder snow. Temperatures typically -15°C to -2°C. High-altitude dry conditions provide excellent grooming.",
+      "typical_temp_c": "-15 to -2",
+      "challenges": [
+        "High altitude at 2000m",
+        "Utah's dry air requires hydration attention",
+        "Occasional inversion layers in the valley",
+        "Sun exposure on open course sections"
+      ]
+    },
+    "course": {
+      "primary": "25km course on the Soldier Hollow Nordic center, venue of the 2002 Salt Lake City Winter Olympics cross-country and biathlon events, in the Wasatch Range.",
+      "format": "loop",
+      "surface": "Professionally groomed Olympic-standard trails",
+      "technical_rating": 3,
+      "grooming": "Professional Olympic-venue grooming",
+      "features": [
+        "2002 Winter Olympics cross-country venue",
+        "Olympic-standard trail infrastructure",
+        "Wasatch Range mountain backdrop",
+        "Utah's legendary dry powder snow",
+        "Soldier Hollow Nordic center"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Olympic legacy venue with excellent grooming and infrastructure. Utah's dry powder provides superb conditions.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Wasatch Citizens Series takes advantage of the Olympic-legacy infrastructure at Soldier Hollow, built for the 2002 Salt Lake City Winter Olympics. The venue continues to host national-level competitions alongside citizen races.",
+      "notable_facts": [
+        "Soldier Hollow hosted the 2002 Olympic cross-country and biathlon events",
+        "Olympic-standard trail grooming and infrastructure remain",
+        "Utah is bidding to host another Winter Olympics (2034)",
+        "Wasatch Range receives an average of 12+ meters of snow annually"
+      ],
+      "founded": 1979
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Wasatch Citizens Series cross country ski race Soldier Hollow",
+      "videos": [
+        {
+          "video_id": "xmeCFF0YqD4",
+          "title": "Wasatch Citizens' #4 Nordic Race Soldier Hollow 2020",
+          "channel": "nicholskirk",
+          "view_count": 109,
+          "upload_date": "20200217",
+          "duration_string": "3:35",
+          "description": "Soldier Hollow hosted the Wasatch Citizens' Race Series #4 using the steep courses prepared for the collegiate University of Utah RMISA Invitational and the Intermountain Super Junior National Qualifier races. From Olympians to novices, the infamous Hermod's Hill and Whale's Tail Descent challenged the agility of these citizen cross country ski racers. Legend says, to skate-ski Soldier Hollow, all you need is V1 and tuck!!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=xmeCFF0YqD4",
+          "curated": true,
+          "curation_reason": "Recent coverage of the challenging Soldier Hollow course featuring the infamous Hermod's Hill and Whale's Tail Descent with detailed terrain description.",
+          "display_order": 1
+        },
+        {
+          "video_id": "f3XSVagQw-E",
+          "title": "Wasatch Citizen's Soldier Hollow Skate09",
+          "channel": "nicholskirk",
+          "view_count": 98,
+          "upload_date": "20090223",
+          "duration_string": "8:44",
+          "description": "An exciting skate race at Soldier Hollow for the Wasatch Citizen's Series #4, TUNA, SLNST, and The Utah Winter Games. February 21, 2009.",
+          "tags": [
+            "Utah Nordic Alliance",
+            "TUNA",
+            "Wasatch Citizens",
+            "Soldier Hollow",
+            "2009",
+            "Utah Winter Games"
+          ],
+          "url": "https://www.youtube.com/watch?v=f3XSVagQw-E",
+          "transcript": "[Music]\ngood job\noh keep going keep\ngoing good skiing will\n[Applause]\nlooking good\nGrady\nAlex Come on B\nawesome good job Abby good job\nAB\njob Ona\ncome on will Chas him\nNoah come on\nKatie come on\nHannah come on Alex\n337 go\nthat you C\nwo hey yes Dad\ngo\nyou yeah go\nAnderson wooo\ngo go go\ngo yeah l\nI wonder where\nthe go go go come on\nb 2\nyes come on\ngood\nwow nice work\nBarry 1 2 4 way to lay it down\n58 putting the HT on the\nyoung 8\n94 7\n1 3\n4 One 2\n5 5 all right man\nyou know\nwhat 2 5\n7 5\nsix\nright 6\n5 8 9\n1 4\n67 no we're coming\n1 2 1 3 9 1 1\n5 4\n40 3 1 0 9 9 0 8\non\nup 38\n2 6\n1 1 5\ndid you write it\ndown up up\nup all right\n2 1 run\nhere\nseven all\nright one four",
+          "curated": false
+        },
+        {
+          "video_id": "fea-LhDy5E8",
+          "title": "Soldier Hollow, Women's Nordic Classic 10km",
+          "channel": "nicholskirk",
+          "view_count": 410,
+          "upload_date": "20200216",
+          "duration_string": "7:10",
+          "description": "Watch the long version of the women racing the tough 10km course at Soldier Hollow. This was a very complicated race as it was the University of Utah Invitational, RIMISA, collegiate race and the Intermountain Junior Super National Qualifier inviting all western Junior Divisions - nearly 700 racers. Follow the lead pack of skiers with Sydney Palmer-Leger (17) of Park City (blue Sun Valley uniform) and a pack of current University of Utah skiers along with Novie McCabe (18) (signed with Univ. Utah for next year along with Sydney Palmer-Leger). The Utah Nordic Alliance (TUNA) was represented well with Tory Peters (2X Junior Nationals), Allison Oler, and Victoria Eggert. Joining the Intermountain Division in this largest of US Western Junior races were Pacific Northwest, Far West, High Plains, and Rocky Mountain Divisions.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=fea-LhDy5E8",
+          "transcript": "Oh\n[Music]\n[Applause]\nthey are coming together any one of\nthese\ncoming through\ncrowd here they come down out else I'm\nall yours our lead group is two down two\nthree four five six in the next little\ngroup they're spread out across the\nhorizon line so for trying to make a\nmove and leave the group behind there\nare of course all these three platforms\non that metals platform so three can\nstand on it the lawbreaker racers out\nthere live great racing happening out\nthere as well the horseshoe and you get\nsome nice speed down this and here we go\nwe'll see what they have it's the report\nthat chase group that small group behind\nabout four or so fork front and another\nfour than another six\nMarco to that silver run\npacify this group\nthere you can see how the wax is playing\nout in the back\nhere we go dude oysters down the base\nin seconds after be a bow\n- the first 50 fogger ledger\nsilver whoo\nin Arkansas\ngood\nto earth\ncareer\nI believe you\nand they just keep on flying\nand my goodness what a great passion use\ntoo racy so you see these races even and\nthe end of ten kilometers even at all\nthey have to get across that line give\nthemselves a chance\nJanie cotton\nshe's Ruby\nthey just keep on coming massive massive\nfield of Wyoming",
+          "curated": true,
+          "curation_reason": "Excellent race coverage of the classic technique showing course layout, wax conditions, and competitive racing dynamics.",
+          "display_order": 2
+        },
+        {
+          "video_id": "-6VhX20opUE",
+          "title": "Wasatch Citizens' Series #5 Soldier Hollow 17km, 2015",
+          "channel": "nicholskirk",
+          "view_count": 126,
+          "upload_date": "20150223",
+          "duration_string": "5:56",
+          "description": "The Soldier Hollow ribbon of snow skied well for the Wasatch Citizens' grand finale. The sky was a mix of snow, low clouds, and sunny moments. With the American Birkie and the McCall JNQ and general interest in bicycling weather, the turnout for the race was limited. Big mistake to miss this race. The course was designed for national level competitors giving the citizens a bit more of a workout. It was good for us. The course began with a long climb up the hollow to top out on Roller Coaster with a few sharp corners unto Going Home and Big Buckaroo, onto the Sprint loop dropping into the stadium to do it again, four times.",
+          "tags": [
+            "Soldier Hollow (Olympic Venue)",
+            "Wasatch Range (Mountain Range)",
+            "Ski",
+            "Skiing",
+            "The Utah Nordic Alliance",
+            "TUNA",
+            "cross country ski",
+            "race",
+            "#5",
+            "skate",
+            "freestyle",
+            "Wasatch citizens' Series",
+            "Utah (US State)",
+            "17km"
+          ],
+          "url": "https://www.youtube.com/watch?v=-6VhX20opUE",
+          "curated": true,
+          "curation_reason": "Shows the challenging national-level course design with varied weather conditions and detailed course description including Roller Coaster section.",
+          "display_order": 4
+        },
+        {
+          "video_id": "mwal2rcZf_M",
+          "title": "Wasatch Citizens' Series #4, Sit-Skiers and Adult Stand-up 2017",
+          "channel": "nicholskirk",
+          "view_count": 68,
+          "upload_date": "20170212",
+          "duration_string": "3:17",
+          "description": "Last week's cold temperatures and hard snow are swirling their way down the river. Soldier Hollow provided a XC-cross experience for these citizen racer  - sadly off camera. The conversations were not \"did you fall?\" but \"how many times did you go down?\"  The surviving tracks were left from the snow-making and hard grooming of Junior worlds so these citizen racers took on the much harder than usual, world-competition-level, racing course. Look on...",
+          "tags": [
+            "Wasatch",
+            "Citizens",
+            "race",
+            "cross country",
+            "2017",
+            "Soldier Hollow",
+            "series",
+            "skate",
+            "TUNA",
+            "the utah nordic alliance",
+            "freestyle",
+            "Utah"
+          ],
+          "url": "https://www.youtube.com/watch?v=mwal2rcZf_M",
+          "curated": false
+        },
+        {
+          "video_id": "RLefUWaDkpY",
+          "title": "Soldier Hollow, Men's Nordic Classic Race",
+          "channel": "nicholskirk",
+          "view_count": 1066,
+          "upload_date": "20200216",
+          "duration_string": "6:43",
+          "description": "Watch three hill climbing and hill bombing laps for a 10km Classic race at Soldier Hollow, Utah. Several races were staged together to be separated out on paper later, but on the snow, the University of Utah western Invitational (RMISA) collegiate skiers raced along with the Intermountain Division invitational to all the western states' Junior National Qualifiers. Western Junior divisions included Pacific Northwest, Far West, High Plains, Intermountain, and Rocky Mountain. Go TUNA skiers (The Utah Nordic Alliance).",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=RLefUWaDkpY",
+          "transcript": "[Music]\nme\n[Applause]\ngreasers and all over the place and all\nthe prestigious race time coming through\na lot of period racing your pal\napproaching the horseshoe that example\nto climb doesn't look like much compared\nto the rose but trust me is plenty to\ndeal with look at him just flying my\ngoodness he just made up some ground on\nthat turn\nhere they come lying down or raise\nleaders flight down one last time now\nthe dark side of the moon is a it's\nWarsaw boats hill\nall three sports\nhere are our race leader's just\napproaching the top of her boots begins\nof separation there now that seemed to\nlimits up a lot of people that love to\nbe up on that podium\nand here we go it's gonna be a battle\nfolks it's gonna be a battle as we\npredicted a lot of bodies within\nposition to make a move on that last\npart and here we go let's see what\nthey've got left in the tank every day\ncoming down that final stretch here we\ngo Mookie missed on the outside\nthe University of Utah\nnine out of the to our group\ncool and that's gonna be a photo finish\nright there why because there's stuff at\nstake here\nour first four to the Nationals there\nare meetings for future races still they\nride giving it works not there on the\npool",
+          "curated": true,
+          "curation_reason": "Comprehensive classic race coverage showing three hill climbing and descending laps with detailed course commentary.",
+          "display_order": 3
+        },
+        {
+          "video_id": "qPoV0l_Ha5I",
+          "title": "Wasatch Citizens' Series #4 Juniors, Soldier Hollow 2017",
+          "channel": "nicholskirk",
+          "view_count": 22,
+          "upload_date": "20170212",
+          "duration_string": "1:10",
+          "description": "Right out of the 2002 Olympic stadium and up under the bridge came the Junior skiers of northern Utah. Warm temperatures and slushy conditions may have slowed the skis but not the enthusiasm of these skiers.",
+          "tags": [
+            "Utah Nordic Alliance",
+            "TUNA",
+            "Soldier Hollow",
+            "Freestyle",
+            "skate",
+            "technique",
+            "cross country",
+            "ski",
+            "race",
+            "Wasatch",
+            "Citizens",
+            "2017"
+          ],
+          "url": "https://www.youtube.com/watch?v=qPoV0l_Ha5I",
+          "curated": false
+        },
+        {
+          "video_id": "SrO9_wejRoo",
+          "title": "Wasatch Citizen's Classic Nordic Race Dec. 08",
+          "channel": "nicholskirk",
+          "view_count": 1430,
+          "upload_date": "20081223",
+          "duration_string": "7:03",
+          "description": "Soldier Hollow was the venue for the opening Wasatch Citizen's Race on December 20th, 2008.  The Utah Nordic Alliance (TUNA), Salt Lake Nordic Ski Team, Park City Ski Team, Soldier Hollow Ski Team, and the Univesrity of Utah ski team joined the citizen's race for over 160 skiers in 10 waves.",
+          "tags": [
+            "Utah",
+            "Nordic",
+            "TUNA",
+            "Cross",
+            "country",
+            "ski",
+            "race"
+          ],
+          "url": "https://www.youtube.com/watch?v=SrO9_wejRoo",
+          "curated": false
+        },
+        {
+          "video_id": "dWi3gCGyRsI",
+          "title": "Wasatch Citizens' Race #2 Jr 2013",
+          "channel": "nicholskirk",
+          "view_count": 90,
+          "upload_date": "20130108",
+          "duration_string": "3:07",
+          "description": "White Pine at Park City hosted race #2 under a perfectly blue sky while US Nationals paused between race days. Skiers from out-of-state came over from Nationals to race in this Wasatch Citizens' race mixing it up with the local kids.",
+          "tags": [
+            "The Utah Nordic Alliance",
+            "TUNA",
+            "Wasatch Citizens' Race #2",
+            "Park City",
+            "Cross country ski race"
+          ],
+          "url": "https://www.youtube.com/watch?v=dWi3gCGyRsI",
+          "curated": false
+        },
+        {
+          "video_id": "rDdDBQGZiG8",
+          "title": "Wasatch Citizens' Series Race #1, Dec. 2015-16",
+          "channel": "nicholskirk",
+          "view_count": 163,
+          "upload_date": "20151221",
+          "duration_string": "5:38",
+          "description": "Welcome back to the best citizens' race series! Watch another perfect Utah day of sunshine, cold temperatures, and fast skiing at Soldier Hollow, Utah. Snow is piling up in Utah allowing  the great folks a Soldier Hollow to groom out both their artificial snow base and natural snow into solid classic tracks. The University of Utah skiers dominated the race front of the race, along with returning Utah college skiers back for the holiday. Great to have so many fast skiers in every age group.",
+          "tags": [
+            "The Utah Nordic Alliance",
+            "TUNA",
+            "Wasatch Citizens' Series Race",
+            "Nordic",
+            "cross country ski",
+            "race",
+            "2015",
+            "2016",
+            "classic technique",
+            "Soldier Hollow",
+            "snow",
+            "Olympic venue",
+            "University of Utah ski team"
+          ],
+          "url": "https://www.youtube.com/watch?v=rDdDBQGZiG8",
+          "curated": false
+        },
+        {
+          "video_id": "dlnzN2xdmyw",
+          "title": "Wasatch Citizens' Series Race #1, Classic",
+          "channel": "nicholskirk",
+          "view_count": 154,
+          "upload_date": "20161219",
+          "duration_string": "5:19",
+          "description": "White Pine of Park City hosted the first Wasatch Citizens' Race of the Year, a classic race. \nWhat is classic racing? Right now it is only defined by what it is not. It is skiing but not skating during a race. \nThe concern with classic skiing is that top skiers are winning classic races without kick wax and on single camber skis by double poling the entire race on glide wax only. The kick and glide is gone. Those of us who were skiing in the 70’s and 80’s get this déjà vu sense. Classic skiing has been in trouble before. Do we need a third category of racing? Classic, Freestyle, and Double-Pole-without-skating? Probably won’t go that route. FIS instituted an 83% rule this year. To reduce your double pole effectiveness, our classic ski poles can be no longer than 83% of your height standing in ski boots – because who wants to be standing outdoors in your socks in the line before a race? Since the biggest advantage of double poling on glide-wax-only is on the flats and descents, perhaps a majority of future classic races will be point to point, always rising. \nNot everyone agrees with double poling a whole classic race, finding it compelling that classic skiing isn’t classic without kick and glide. Somehow, usually by using hills too steep and too long to be advantaged by double poling, the FIS is hoping to get the top skiers back onto classic skis with kick wax. Another opinion, expressed by age group winner and possibly the only age group winner to double pole this race, Tyler Cruickshank, “…there is an added beauty, cunning, and legitimacy for each racer to contemplate each classic race course and their own fitness and ability to double pole or to kick and glide on that day.”",
+          "tags": [
+            "TUNA",
+            "Wasatch Citizens' Race Series",
+            "White Pine",
+            "Park City",
+            "classic technique",
+            "cross country",
+            "skiing",
+            "XC ski",
+            "2016",
+            "December",
+            "Nordic",
+            "Utah"
+          ],
+          "url": "https://www.youtube.com/watch?v=dlnzN2xdmyw",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Here are our race leaders just approaching the top of Hermod's hill begins of separation there now that seemed to limits up a lot of people that love to be up on that podium.",
+          "source_video_id": "RLefUWaDkpY",
+          "source_channel": "nicholskirk",
+          "source_view_count": 1066,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "There you can see how the wax is playing out in the back.",
+          "source_video_id": "fea-LhDy5E8",
+          "source_channel": "nicholskirk",
+          "source_view_count": 410,
+          "category": "waxing",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

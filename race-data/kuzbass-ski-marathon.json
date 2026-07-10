@@ -1,0 +1,145 @@
+{
+  "race": {
+    "name": "Kuzbass Ski Marathon",
+    "slug": "kuzbass-ski-marathon",
+    "display_name": "Kuzbass Ski Marathon",
+    "tagline": "Fifty kilometers through western Siberia's coal country — the Kuzbass basin delivers a thousand-strong field and solid Russialoppet racing.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km",
+        "10km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 250,
+      "location": "Kemerovo Oblast, Western Siberia",
+      "location_badge": "Western Siberia, Russia",
+      "country": "Russia",
+      "country_code": "RU",
+      "region": "Kemerovo Oblast",
+      "date": "Early March",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 1000,
+      "founded": null,
+      "registration": "Online registration via Russialoppet",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.russialoppet.ru",
+      "lat": 55.3544,
+      "lng": 86.088,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Western Siberian continental",
+      "description": "Cold Siberian winters with reliable snow cover. March temperatures typically -15°C to -3°C. The Kuzbass basin benefits from long winter season.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "Siberian cold at morning start",
+        "Industrial haze in some areas",
+        "Dry air and cold affecting performance",
+        "Wind on exposed ridge sections"
+      ]
+    },
+    "course": {
+      "primary": "Rolling course through forested hills around the Kuzbass basin. Mixed birch and pine forest with moderate climbing in the Tom River valley.",
+      "format": "loop",
+      "surface": "Groomed trails through mixed forest",
+      "technical_rating": 2,
+      "grooming": "Good grooming standard",
+      "features": [
+        "Strong thousand-skier field",
+        "Western Siberia's coal country setting",
+        "Well-organized Russialoppet event",
+        "Rolling forest terrain"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 2,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "A well-attended western Siberian Russialoppet with good community support and field depth. Industrial setting limits scenery score.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Kuzbass Ski Marathon takes place in the Kemerovo Oblast, the heart of Russia's Kuzbass coal mining region in western Siberia. Despite the industrial character of the region, the surrounding forests support a strong skiing community.",
+      "notable_facts": [
+        "Kuzbass is Russia's largest coal mining region",
+        "Strong industrial working-class skiing tradition",
+        "Part of the Russialoppet national marathon series",
+        "Kemerovo Oblast has invested in Nordic skiing infrastructure"
+      ]
+    },
+    "series_membership": [
+      "russialoppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Kuzbass Ski Marathon cross country ski race Kemerovo Oblast",
+      "videos": [
+        {
+          "video_id": "bPvbmkk2UJg",
+          "title": "KuzbasSki. 50 км борьбы с ветром и снежными переметами.",
+          "channel": "Саня Kimi",
+          "view_count": 6011,
+          "upload_date": "20240319",
+          "duration_string": "20:01",
+          "description": "#кузбасс #сибирь  #лыжныймарафон \n19.03.2024 года.\nДля поддержки канала:\nhttps://www.donationalerts.com/r/kimi45rus\n\nТрек в Страве:\nhttps://www.strava.com/activities/10980692138\n\nМарафон входит во всероссийскую серию лыжных марафонов Russialoppet, которая объединяет 29 лыжных марафонов России.\nМЕСТО ПРОВЕДЕНИЯ\nКемерово, кемеровская область\nСК «Локомотив»\nСосновый бульвар 10\nКе́мерово —  административный центр Кемеровской области — Кузбасса и Кемеровского района. В состав района не входит. В настоящее время занимает тридцать первое место по численности населения и сорок пятое по площади среди городов России. Город областного подчинения, образует Кемеровский городской округ.",
+          "tags": [
+            "кузбасский лыжный марафон",
+            "борьба с ветром и снежными переметами",
+            "КУЗБАСС-SKI",
+            "Kuzbasski",
+            "кемерово на лыжах",
+            "лыжи кузбасс",
+            "лыжные гонки",
+            "коньковый ход",
+            "беговые лыжи",
+            "cross-country skiing",
+            "лыжи",
+            "соревнования",
+            "russialoppet",
+            "Союза марафонов «Лыжная Россия»",
+            "лыжные марафоны",
+            "коньковые лыжи",
+            "марафон",
+            "marathon",
+            "лыжный марафон",
+            "тамгдетникогданебыл",
+            "Cерия лыжных марафонов",
+            "марафон на лыжах",
+            "50 км на лыжах",
+            "50 км",
+            "бегом на лыжах",
+            "Russialoppet",
+            "лыжная база локомотив кемерово",
+            "бессмертных"
+          ],
+          "url": "https://www.youtube.com/watch?v=bPvbmkk2UJg",
+          "curated": true,
+          "curation_reason": "First-person 50km race experience with challenging wind and snow drift conditions in 2024.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

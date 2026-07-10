@@ -6,7 +6,11 @@
     "tagline": "The Swedish classic goes east — fifty kilometers through Changchun's frozen forest park where China's growing Nordic ski scene takes shape.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km", "25km", "1km sprint"],
+      "distance_options": [
+        "50km",
+        "25km",
+        "1km sprint"
+      ],
       "elevation_m": 200,
       "altitude_m": 250,
       "location": "Changchun, Jilin Province",
@@ -17,7 +21,7 @@
       "date": "First weekend of January",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~800 starters",
+      "field_size": 800,
       "founded": 2003,
       "registration": "Online registration, open entry",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.vasaloppet.cn",
       "lat": 43.8171,
-      "lng": 125.3235
+      "lng": 125.3235,
+      "field_size_estimate": 800,
+      "elevation_gain_m": 200
     },
     "climate": {
       "primary": "Continental Northeast Asian winter",
@@ -84,10 +90,149 @@
         "One of the coldest venues on the Worldloppet circuit"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Vasaloppet China cross country ski race Changchun",
+      "videos": [
+        {
+          "video_id": "qaQdjvfrb7M",
+          "title": "Ski race in China, Organized by Vasaloppet China",
+          "channel": "Kushal Ghimire",
+          "view_count": 78,
+          "upload_date": "20260105",
+          "duration_string": "3:41",
+          "description": "Ski festival organized at Jingyuetan National Park, Changchun \n#skiing #skiracing #changchun #china #snow #fun",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=qaQdjvfrb7M",
+          "curated": true,
+          "curation_reason": "Recent race footage from 2026 event at Jingyuetan National Park showing actual race conditions.",
+          "display_order": 1
+        },
+        {
+          "video_id": "EcHgqrwxJHc",
+          "title": "Epp Paal, CEO of Worldloppet: The atmosphere of the Vasaloppet China in Changchun City is unique.",
+          "channel": "東北亜の窓",
+          "view_count": 15518,
+          "upload_date": "20250104",
+          "duration_string": "32",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EcHgqrwxJHc",
+          "transcript": "[Music]\noh I'm uh amazed about uh the venue what\nis going on here uh in World lopet there\nare 19 different races around the world\nevery race is the best of their country\nand vop China is the best race in in\nChina and it's a great honor to be here\nand to participate in this 50 kilm Race\nand the atmosphere here is of course\nunique you cannot see it anywhere else\nin the world",
+          "curated": false
+        },
+        {
+          "video_id": "Z_AaRGwcF5k",
+          "title": "2026 Vasaloppet China",
+          "channel": "Nordic Ways Events",
+          "view_count": 160,
+          "upload_date": "20260115",
+          "duration_string": "2:36",
+          "description": "On January 4, 2026, Vasaloppet China 2026 officially kicked off in the Jingyuetan National Scenic Area, Changchun City, Jilin Province.\nAs the global opening event of the Worldloppet International Ski Federation for the 2025-2026 new snow season, this year's Vasaloppet China brings together over 2,227 professional athletes and general skiers from 33 countries and regions, including 306 foreign skiers, to jointly launch an international event that combines passionate competition and dreamy ice and snow.",
+          "tags": [
+            "Changchun",
+            "VASA",
+            "Jingyuetan",
+            "SKI",
+            "Vasaloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=Z_AaRGwcF5k",
+          "curated": false
+        },
+        {
+          "video_id": "35y5nAC6ta0",
+          "title": "Vasaloppet China – Ski the Legend in the East",
+          "channel": "Vivian Zhang",
+          "view_count": 30,
+          "upload_date": "20250825",
+          "duration_string": "1:35",
+          "description": "Experience the spirit of the world’s most famous cross-country ski race, now in China.\nVasaloppet China brings the legendary Swedish tradition to the snowy landscapes of Changchun’s Jingyuetan Park, offering a unique fusion of Nordic heritage and Chinese winter wonderland.\n🏔️ What to Expect\nIconic cross-country ski challenge on pristine trails\nInternational atmosphere with skiers from around the globe\nCelebration of culture, endurance, and winter sports\nWhether you are a seasoned skier or a passionate sports fan, Vasaloppet China is where East meets West in a festival of snow and endurance.\n👉 Subscribe to our channel for more highlights, athlete stories, and behind-the-scenes from the race.\n\n#VasaloppetChina #CrossCountrySkiing #WinterSports #Changchun #SkiTheLegend",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=35y5nAC6ta0",
+          "transcript": "After 23 years development,\nBoselopet, China has become the only\nChinese member of the world lapit. World\nlait is the global authority for long-d\ndistanceance cross-country skiing\ninternational events covering\noutstanding events in 20 different\ncountries. This marks the bosalope at\nChina join the top international ski\nevents. It has become the most beautiful\nice and snow business card of Chong Chun\nand makes Chong Chun Jingu enter the\nworld ski map.\nHeat. Heat.",
+          "curated": false
+        },
+        {
+          "video_id": "DlOlBEXyXbQ",
+          "title": "2024 Vasaloppet China-12.1-warm-up",
+          "channel": "Nordic Ways Events",
+          "view_count": 67,
+          "upload_date": "20231215",
+          "duration_string": "45",
+          "description": "★Vasaloppet Sweden: the biggest single sport event in the world with almost 50.000 participants\n★Vasaloppet China: the biggest ski event in China and a new tradition born\n★Vasaloppet China has FIS status and is the classic stage of Tour de Ski China \n★Seeding race status to Vasaloppet Sweden\n★Vasaloppet 50km -- Classic distance in beautiful Jingyuetan Park\n★Vasaloppet 25km -- Classic distance in beautiful Jingyuetan Park\n★Students Vasa -- Sports Education Project further promoting skiing on grassroots level in China\n★Unique marketing platform: branding, government and customer relations hand in hand",
+          "tags": [
+            "Changchun",
+            "VASA",
+            "Jingyuetan",
+            "SKI"
+          ],
+          "url": "https://www.youtube.com/watch?v=DlOlBEXyXbQ",
+          "curated": false
+        },
+        {
+          "video_id": "8qvLMAKIWdk",
+          "title": "Vasaloppet China 2019 THE RACE",
+          "channel": "Gunnar Z",
+          "view_count": 220,
+          "upload_date": "20190315",
+          "duration_string": "3:31",
+          "description": "The Worldloppet race of China is the small brother of the legendary Vasaloppet! Vasaloppet China is the best cross-country skiing race in China and welcomes thousands of skiers from all around the world!",
+          "tags": [
+            "Vasaloppet",
+            "Vasaloppet China",
+            "FIS Worldloppet Cup"
+          ],
+          "url": "https://www.youtube.com/watch?v=8qvLMAKIWdk",
+          "curated": true,
+          "curation_reason": "Race coverage showing the international field and race atmosphere at this Worldloppet event.",
+          "display_order": 4
+        },
+        {
+          "video_id": "FTsTud9hS94",
+          "title": "2022 Vasaloppet China",
+          "channel": "Nordic Ways Events",
+          "view_count": 250,
+          "upload_date": "20220110",
+          "duration_string": "3:02",
+          "description": "★Vasaloppet Sweden: the biggest single sport event in the world with almost 50.000 participants\n★Vasaloppet China: the biggest ski event in China and a new tradition born\n★Vasaloppet China has FIS status and is the classic stage of Tour de Ski China \n★Seeding race status to Vasaloppet Sweden\n★Vasaloppet 50km -- Classic distance in beautiful Jingyuetan Park\n★Vasaloppet 25km -- Classic distance in beautiful Jingyuetan Park\n★Students Vasa -- Sports Education Project further promoting skiing on grassroots level in China\n★Unique marketing platform: branding, government and customer relations hand in hand",
+          "tags": [
+            "Changchun",
+            "VASA",
+            "Jingyuetan",
+            "SKI"
+          ],
+          "url": "https://www.youtube.com/watch?v=FTsTud9hS94",
+          "curated": false
+        },
+        {
+          "video_id": "gE0yZ2RPRSM",
+          "title": "Vasaloppet China 2026 Teaser - Cross-country Skiing in China 🇨🇳",
+          "channel": "Worldloppet",
+          "view_count": 360,
+          "upload_date": "20250714",
+          "duration_string": "3:32",
+          "description": "Vasaloppet China 2026 is going to attract hundreds of international skiers again in January 2026.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=gE0yZ2RPRSM",
+          "transcript": "[Music]\nBasalapit China has become the only\nChinese member of the world lapit. After\n23 years growth, it has now developed\ninto an international event integrating\ncross-country ski competitions, winter\nsports, cultural exchanges, and economic\nand trade cooperation.\nChangun is located in the middle of the\nnortheast plane of China and is the\ncapital of Jilin province.\nChangun is rich in culture and tourism\nresources. The green mountains and clear\nwaters and the ice and snow coexist and\nthrive. It is located in the world's\ngolden latitude zone for ice and snow.\nAs the platinum card of Changun's ice\nand snow, Basilapa, China will offer\nparticipants a rich and diverse\nexperience of ice and snow culture. In\naddition to fully participating in the\nexciting race, participants can also\nvisit Ginuetin snow sculpture world and\nicelight show at the new world of ice\nand snow. Go to the northeast tiger park\nto see pandas and visit the former royal\ntemple, Wanu Temple. The famous\nlandmarks in Chongqun cultural square\nand geological palace museum will also\nbecome important places for you to\nexplore the unique charm of this city.\nTo enrich the trip of foreign\nparticipants to China, the organizer\nwill provide economical and convenient\ntravel packages. After finishing all the\njourney in Changun, the next stop is\nBeijing.\nBeijing is the capital of China. As the\ncapital of six ancient Chinese\ndynasties, it has preserved the pinnacle\nof ancient Chinese architecture. Here\nyou can visit the imperial palaces of\nthe Ming and Adenzai dynasties, the\nforbidden city, Tion Anman Square. On\nthe 1st of October 1949, the People's\nRepublic of China was officially founded\nhere. Temple of heaven is the largest\nexisting ancient imperial sacrificial\ncomplex in China and Zenyang Gate is the\nnational gate of ancient China. Just\nnorth of the city lies the Great Wall, a\nmarvel of ancient engineering winding\nacross rugged mountains. The city is\nalso famous for its delicious cuisine,\nincluding peing duck, dumplings, and\njing.\nAfter finishing the trip to Beijing, the\nnext stop is CN.\nCan is one of China's four most famous\nancient capitals. Here stands a very\nmagnificent ancient city wall which was\nbuilt in the Ming dynasty and is well\npreserved. The most famous site is\nEmperor Dean Xi Kuang's tomb. There is\nthe astonishing terracotta warriors\nwhich is hailed as the eighth wonder of\nthe world and one of the top 10 ancient\ntombs of the world. You can go to Yong\nKaing Fong and try local snacks. And you\ncan also visit Tangi Palace to enjoy a\nroyal feast while watching historical\nreenactments.\nWith these elaborately designed travel\npackages, you can not only experience\nworldclass skiing event, but also gain a\ndeep understanding of China's rich\nhistory and culture, hoping to bring you\na unique experience.",
+          "curated": true,
+          "curation_reason": "Official Worldloppet content providing race context and venue details at Changchun.",
+          "display_order": 3
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Changchun is located in the world's golden latitude zone for ice and snow. As the platinum card of Changchun's ice and snow, Vasaloppet China will offer participants a rich and diverse experience of ice and snow culture.",
+          "source_video_id": "gE0yZ2RPRSM",
+          "source_channel": "Worldloppet",
+          "source_view_count": 360,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
     }
   }
 }

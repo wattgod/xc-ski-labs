@@ -1,0 +1,157 @@
+{
+  "race": {
+    "name": "Avacha Marathon",
+    "slug": "avacha-marathon",
+    "display_name": "Avacha Marathon",
+    "tagline": "Fifty skate kilometers beneath Kamchatka's smoking volcanoes — the most remote marathon in the Russialoppet series.",
+    "vitals": {
+      "distance_km": 60,
+      "distance_options": [
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 300,
+      "location": "Petropavlovsk-Kamchatsky, Kamchatka",
+      "location_badge": "Kamchatka, Russia",
+      "country": "Russia",
+      "country_code": "RU",
+      "region": "Kamchatka Krai",
+      "date": "Late March",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 350,
+      "founded": null,
+      "registration": "Online registration via Russialoppet",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.russialoppet.ru",
+      "lat": 53.0452,
+      "lng": 158.6511,
+      "field_size_estimate": 350,
+      "elevation_gain_m": 500
+    },
+    "climate": {
+      "primary": "Volcanic maritime subarctic",
+      "description": "Kamchatka's Pacific coast climate brings heavy snow and maritime influence. March temperatures typically -10°C to 0°C. Volcanic terrain adds altitude challenge.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Pacific storms can bring sudden weather changes",
+        "Wind exposure in volcanic terrain",
+        "Remote location — nearest major city is 8 time zones from Moscow",
+        "Volcanic terrain creates challenging course profile"
+      ]
+    },
+    "course": {
+      "primary": "Dramatic course through volcanic terrain near Petropavlovsk-Kamchatsky. Views of active volcanoes including Avacha and Koryaksky. Significant climbing through mixed terrain.",
+      "format": "loop",
+      "surface": "Groomed trails through volcanic landscape and forest",
+      "technical_rating": 3,
+      "grooming": "Adequate grooming given remote conditions",
+      "features": [
+        "Active volcano panoramas — Avacha and Koryaksky",
+        "Most remote race in the Russialoppet series",
+        "Unique volcanic landscape setting",
+        "Pacific maritime snow conditions"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 4,
+      "elevation": 4,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 5,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "Kamchatka's volcanic scenery makes this one of the world's most dramatic ski marathon settings. Extreme remoteness limits field and infrastructure.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Avacha Marathon is held near Petropavlovsk-Kamchatsky on Russia's Kamchatka Peninsula, one of the most volcanically active regions on Earth. The race takes its name from the Avacha volcano visible throughout the course.",
+      "notable_facts": [
+        "Kamchatka has over 160 volcanoes, 29 of them active",
+        "Avacha volcano last erupted in 2001",
+        "Most remote event in the Russialoppet series",
+        "Kamchatka is a UNESCO World Heritage Site for its volcanic landscape"
+      ]
+    },
+    "series_membership": [
+      "russialoppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Avacha Marathon cross country ski race Petropavlovsk-Kamchatsky",
+      "videos": [
+        {
+          "video_id": "vOQ-V5OC5A8",
+          "title": "Avacha Volcano, Kamchatka | Авачинский вулкан, Камчатка [demo]",
+          "channel": "Constantine Korikov",
+          "view_count": 638,
+          "upload_date": "20150908",
+          "duration_string": "8:34",
+          "description": "Avacha Volcano is an active stratovolcano on the Kamchatka Peninsula in the far east of Russia.\n\nАвачинский вулкан — действующий вулкан на Камчатке, в южной части Восточного хребта, к северу от Петропавловска-Камчатского, в междуречье рек Авачи и Налычева.",
+          "tags": [
+            "Avacha",
+            "Kamchatka Peninsula (Location)",
+            "Volcano (Geographical Feature Category)",
+            "Volcanoes Of Kamchatka (Location)",
+            "Tourist Destination",
+            "Tourism (Interest)",
+            "Avachinsky (Mountain)",
+            "Russia (Country)",
+            "GoPro",
+            "Камчатка",
+            "Туризм",
+            "Россия",
+            "Вулкан"
+          ],
+          "url": "https://www.youtube.com/watch?v=vOQ-V5OC5A8",
+          "curated": false
+        },
+        {
+          "video_id": "I-PWPNBi0QY",
+          "title": "Мастера спорта: «Авачинский марафон-2018» - гонка снежных стайеров на Камчатке",
+          "channel": "Камчатка Сегодня",
+          "view_count": 818,
+          "upload_date": "20181003",
+          "duration_string": "18:12",
+          "description": "На Камчатке в апреле 2018 года прошёл юбилейный 25-й международный лыжный «Авачинский марафон». В популярных стартах приняло участие рекордное число снежных стайеров – более пятисот лыжников из пятнадцати регионов России, марафонцы Чехии, Норвегии, Тайланда, США и Германии. В стартах приняли участие и лидеры национальных сборных страны по лыжным гонкам, биатлону и титулованные лыжники паралимпийцы. Среди них Антон Шипулин, Алексей Волков, Дмитрий Малышко, Иван Черезов,   Алексей Петухов, Александр Проньков и Владислав Лекомцев. \n«Авчинский марафон» включён в календарь Международной федерации лыжного спорта. Соревнования входят в состав суперкубка России по лыжным марафонам Гран-при Russialoppet и проводятся в рамках весеннего фестиваля зимних видов спорта в Камчатском крае. По традиции «Авачинский марафон» предшествует ещё одному крупному событию в лыжном спорте на полуострове. Снежные стайеры в апреле выходят на старт «младшего брата» популярной международной гонки под названием   «Мутновский экстремальный марафон».",
+          "tags": [
+            "Авачинский марафон",
+            "лыжные гонки",
+            "Мутновский марафон",
+            "лыжный марафон",
+            "марафон на Камчатке",
+            "лыжный спорт",
+            "Russialoppet",
+            "фестиваль зимних видов спорта",
+            "Авача",
+            "Avacha",
+            "marathon",
+            "Kamchatka",
+            "ski race",
+            "sport",
+            "Дмитрий Пюкке"
+          ],
+          "url": "https://www.youtube.com/watch?v=I-PWPNBi0QY",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage of the 25th Avacha Marathon featuring elite athletes including Olympic champions and international competitors.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

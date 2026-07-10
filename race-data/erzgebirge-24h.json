@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Erzgebirge 24-Hour Ski Race",
+    "slug": "erzgebirge-24h",
+    "display_name": "Erzgebirge 24-Hour Ski Race",
+    "tagline": "Twenty-four hours on a 6km loop in the Ore Mountains — a niche ultra-endurance format where skiers chase maximum distance through the night.",
+    "vitals": {
+      "distance_km": 6,
+      "distance_options": [
+        "24-hour unlimited distance (6km loop)"
+      ],
+      "elevation_m": 100,
+      "altitude_m": 800,
+      "location": "Erzgebirge (Ore Mountains), Saxony",
+      "location_badge": "Saxony, Germany",
+      "country": "Germany",
+      "country_code": "DE",
+      "region": "Saxony",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 249,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Base camp with support",
+      "cutoff_time": "24 hours",
+      "website": "https://www.erzgebirge-tourismus.de",
+      "lat": 50.55,
+      "lng": 13.0,
+      "field_size_estimate": 75,
+      "elevation_gain_m": 100
+    },
+    "climate": {
+      "primary": "Central European mountain",
+      "description": "The Erzgebirge (Ore Mountains) on the German-Czech border with 300+ km of groomed trails. Moderate winter conditions for Central Europe.",
+      "typical_temp_c": "-8 to 0",
+      "challenges": [
+        "Night skiing in cold conditions",
+        "24-hour exposure to elements",
+        "Variable conditions through day/night cycle",
+        "Moderate snow reliability at this altitude"
+      ]
+    },
+    "course": {
+      "primary": "6km loop course in the Erzgebirge (Ore Mountains). Skiers complete as many laps as possible in 24 hours.",
+      "format": "multi-loop",
+      "surface": "Groomed classic track",
+      "technical_rating": 2,
+      "grooming": "Good grooming maintained through 24 hours",
+      "features": [
+        "Unique 24-hour ultra-endurance format",
+        "6km loop for unlimited distance",
+        "Night skiing component",
+        "Erzgebirge has 300+ km of groomed trails"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 39,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 3,
+      "field_size": 1,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Unique ultra-endurance format that stands alone in the Nordic racing world, but extremely niche with minimal field size.",
+      "tier_note": "Score 43 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Erzgebirge 24-Hour Ski Race is a niche ultra-endurance event in Saxony's Ore Mountains on the German-Czech border. Participants ski as many laps of a 6km loop as possible in 24 hours.",
+      "notable_facts": [
+        "Unique 24-hour ultra-endurance format",
+        "6km loop for maximum distance",
+        "Erzgebirge has 300+ km of groomed trails",
+        "Night skiing through German-Czech border mountains"
+      ],
+      "founded": 2007
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

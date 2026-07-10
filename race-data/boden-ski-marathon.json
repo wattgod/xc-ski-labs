@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Boden Ski Marathon",
+    "slug": "boden-ski-marathon",
+    "display_name": "Boden Ski Marathon",
+    "tagline": "Forty-five kilometers through the garrison town's boreal forests — Norrbotten skiing with military precision and Arctic grit.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": [
+        "45km",
+        "22km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 200,
+      "location": "Boden",
+      "location_badge": "Norrbotten, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Norrbotten",
+      "date": "Early March",
+      "date_specific": "2026: March 7",
+      "discipline": "classic",
+      "field_size": 400,
+      "founded": 1978,
+      "registration": "Online registration, opens November",
+      "prize_purse": "None",
+      "aid_stations": "3 stations with warm drinks and energy food",
+      "cutoff_time": "7 hours",
+      "website": "https://www.bodensf.se",
+      "lat": 66.0,
+      "lng": 21.6833,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Subarctic inland, cold and stable",
+      "description": "Boden's position in interior Norrbotten produces cold, stable winters with reliable snow cover from November through April. March temperatures typically -15°C to -5°C. Dry continental air from the east keeps snow quality excellent.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Consistent cold temperatures require proper layering",
+        "Wind exposure on open sections near military training grounds",
+        "Remote northern location adds travel logistics",
+        "Early March daylight improving but still limited"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the boreal pine and spruce forests surrounding Boden, utilizing the garrison town's extensive trail network. Gently rolling terrain with no major climbs, typical of the Norrbotten interior plateau.",
+      "format": "loop",
+      "surface": "Groomed classic track through boreal forest",
+      "technical_rating": 2,
+      "grooming": "Well-maintained by Boden Sports Federation, reliable quality",
+      "features": [
+        "Trail network maintained partly by Swedish military garrison",
+        "Boreal forest setting with gentle Norrbotten terrain",
+        "Boden Fortress — historic military heritage backdrop",
+        "Reliable snow conditions in northern Sweden"
+      ]
+    },
+    "nordic_lab_rating": {
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "overall_score": 49,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "score_note": "Sum 34/70 = 49. Base tier 3."
+    },
+    "history": {
+      "summary": "Founded in 1978 in Boden, Sweden's largest garrison town, where the military presence has maintained extensive trail infrastructure. Boden Fortress, built in the early 1900s as Sweden's northern defense, provides a unique historical backdrop. The marathon has become Norrbotten's accessible alternative to more remote Arctic races.",
+      "notable_facts": [
+        "Boden is Sweden's largest garrison town — military skiing has deep roots here",
+        "Boden Fortress was Sweden's most expensive military construction, declassified in 1998",
+        "The town sits at the confluence of the Lule River",
+        "Norrbotten county is Sweden's largest by area, smallest by population density"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Boden ski marathon cross country Norrbotten Sweden",
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

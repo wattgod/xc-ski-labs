@@ -6,7 +6,12 @@
     "tagline": "Fifty kilometers on Olympic rings — where 2010 legacy trails meet Coast Mountain grandeur in the Sea-to-Sky corridor.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km classic", "50km freestyle", "30km", "15km"],
+      "distance_options": [
+        "50km classic",
+        "50km freestyle",
+        "30km",
+        "15km"
+      ],
       "elevation_m": 650,
       "altitude_m": 850,
       "location": "Whistler Olympic Park",
@@ -17,15 +22,17 @@
       "date": "February",
       "date_specific": "2026: February 14",
       "discipline": "both",
-      "field_size": "~500",
+      "field_size": 500,
       "founded": 2011,
       "registration": "Open registration",
       "prize_purse": "None",
       "aid_stations": "Multiple aid stations on course",
       "cutoff_time": "No official cutoff",
-      "website": "https://www.payakentsut.com",
+      "website": "https://www.payak.ca/",
       "lat": 50.1441,
-      "lng": -123.1140
+      "lng": -123.114,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 650
     },
     "climate": {
       "primary": "Pacific coastal mountain winter",

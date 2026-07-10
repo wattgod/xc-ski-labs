@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "Pokljuka Nordic Marathon",
+    "slug": "pokljuka-nordic-marathon",
+    "display_name": "Pokljuka Nordic Marathon",
+    "tagline": "Forty-two kilometers on Slovenia's highest plateau — the Julian Alps' biathlon heartland where World Championship trails meet pristine alpine forest.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 600,
+      "altitude_m": 1350,
+      "location": "Pokljuka Plateau",
+      "location_badge": "Triglav National Park, Slovenia",
+      "country": "Slovenia",
+      "country_code": "SI",
+      "region": "Upper Carniola",
+      "date": "Early March",
+      "date_specific": "2026: March 1",
+      "discipline": "both",
+      "field_size": 300,
+      "founded": 2003,
+      "registration": "Online through Slovenian Ski Association",
+      "prize_purse": null,
+      "aid_stations": "4 feed stations with warm potica cake, tea, and energy bars",
+      "cutoff_time": null,
+      "website": "https://www.pokljuka-maraton.si",
+      "lat": 46.35,
+      "lng": 13.9333,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 600
+    },
+    "climate": {
+      "primary": "Alpine plateau winter",
+      "description": "Pokljuka's elevated plateau at 1300-1400m in the Julian Alps delivers reliable snow from December through March. The dense forest cover provides excellent wind shelter. Temperatures range from -12°C to -2°C. The plateau's position catches precipitation from the Adriatic.",
+      "typical_temp_c": "-12 to -2",
+      "challenges": [
+        "Dense fog can blanket the plateau suddenly",
+        "Heavy snowfall events during Adriatic low-pressure systems",
+        "Temperature inversions occasionally bring warm air above the cold plateau",
+        "Icy conditions after rain-on-snow events"
+      ]
+    },
+    "course": {
+      "primary": "World-class loops on the Pokljuka biathlon center trails, which hosted the 2021 IBU Biathlon World Championships. The course extends beyond the competition loops into the broader plateau forest. Dense spruce forest skiing at 1300-1400m with views of Triglav (2864m) and the Julian Alps from clearings.",
+      "format": "loop",
+      "surface": "Machine-groomed World Championship standard trails",
+      "technical_rating": 3,
+      "grooming": "World Championship standard — Slovenia's best groomed trails",
+      "features": [
+        "2021 IBU Biathlon World Championship venue",
+        "Triglav National Park — Slovenia's only national park",
+        "Views of Triglav (2864m), Slovenia's highest peak",
+        "Dense Julian Alps spruce forest skiing",
+        "International-standard infrastructure and timing"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 66,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 2,
+      "score_note": "Pokljuka's World Championship biathlon infrastructure delivers grooming and organization well above its field size. The Julian Alps setting within Triglav National Park provides excellent scenery. A genuine mid-tier event with international-standard facilities punching above its market size.",
+      "tier_note": "Score 66 places in TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 2003 to leverage Pokljuka's growing biathlon infrastructure, this marathon gained stature after the plateau hosted the 2021 IBU Biathlon World Championships. Slovenia has a strong winter sports tradition relative to its size, and Pokljuka represents the country's best Nordic terrain. The race draws participants from across the Alps region.",
+      "notable_facts": [
+        "Pokljuka hosted the 2021 IBU Biathlon World Championships",
+        "The plateau is within Triglav National Park, Slovenia's only national park",
+        "Triglav (2864m) is visible from the course — it appears on Slovenia's flag and coat of arms",
+        "Pokljuka has hosted IBU Biathlon World Cup events since 1993",
+        "Slovenia punches well above its weight in winter sports for a country of 2 million"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": null,
+      "search_query": null,
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

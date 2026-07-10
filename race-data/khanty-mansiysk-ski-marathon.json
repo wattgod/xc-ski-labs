@@ -1,0 +1,101 @@
+{
+  "race": {
+    "name": "Khanty-Mansiysk Ski Marathon",
+    "slug": "khanty-mansiysk-ski-marathon",
+    "display_name": "Khanty-Mansiysk Ski Marathon",
+    "tagline": "Fifty kilometers through western Siberia's taiga — Russia's oil capital delivers World Cup biathlon trails on the frozen banks of the Irtysh River.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "30km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 80,
+      "location": "Khanty-Mansiysk",
+      "location_badge": "Yugra, Russia",
+      "country": "Russia",
+      "country_code": "RU",
+      "region": "Khanty-Mansi Autonomous Okrug",
+      "date": "Late March",
+      "date_specific": "2026: March 28",
+      "discipline": "both",
+      "field_size": 2000,
+      "founded": 1997,
+      "registration": "Online through Yugra regional sports department",
+      "prize_purse": null,
+      "aid_stations": "5 feed stations with warm tea, bread, and Siberian preserves",
+      "cutoff_time": null,
+      "website": "https://ugraloppet.ru",
+      "lat": 61.0042,
+      "lng": 69.0019,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Continental subarctic winter",
+      "description": "Khanty-Mansiysk's Siberian location guarantees deep cold and reliable snow from October through May. March race date means lengthening days but still solid winter conditions. Temperatures range from -25°C to -5°C. Snow depth regularly exceeds 1 meter.",
+      "typical_temp_c": "-25 to -5",
+      "challenges": [
+        "Extreme cold possible even in late March",
+        "Flat terrain offers no wind shelter",
+        "Fog from the Irtysh and Ob river confluence",
+        "Frostbite risk in Siberian wind chill conditions"
+      ]
+    },
+    "course": {
+      "primary": "A 50km course centered on the Khanty-Mansiysk biathlon center, which has hosted IBU Biathlon World Cup finals. The route extends into the taiga forest along the Irtysh River, passing through birch and pine forest typical of the western Siberian lowlands. Flat to gently rolling terrain on impeccably groomed World Cup trails.",
+      "format": "loop",
+      "surface": "Machine-groomed World Cup standard trails through taiga forest",
+      "technical_rating": 2,
+      "grooming": "World Cup biathlon venue standard — among Russia's best",
+      "features": [
+        "IBU Biathlon World Cup venue — international-standard infrastructure",
+        "Western Siberian taiga forest — birch, pine, and spruce",
+        "Confluence of the Irtysh and Ob rivers nearby",
+        "Late March date means long daylight hours at 61°N",
+        "Khanty-Mansiysk is the capital of Russia's oil-producing Yugra region"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 4,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 2,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "World Cup biathlon infrastructure delivers maximum grooming quality and strong organization. Excellent snow reliability from Siberian climate. Strong Russian field size and community. Limited scenery on flat taiga terrain and remote accessibility are the main limitations.",
+      "tier_note": "Score 61 places in TIER 2"
+    },
+    "history": {
+      "summary": "Founded in 1997 as the oil-rich Yugra region invested heavily in winter sports, the Khanty-Mansiysk Ski Marathon uses trails from the IBU Biathlon World Cup venue. The city became a major international biathlon destination in the 2000s, hosting World Cup finals and World Championships. The citizen marathon leverages this infrastructure for one of Siberia's largest ski events.",
+      "notable_facts": [
+        "Khanty-Mansiysk has hosted IBU Biathlon World Cup finals since 2000",
+        "The Yugra region produces much of Russia's oil wealth",
+        "The indigenous Khanty and Mansi peoples have a centuries-old skiing tradition",
+        "The city invested billions of rubles in winter sports infrastructure",
+        "Located at the confluence of the Irtysh and Ob — two of Asia's great rivers"
+      ],
+      "founded": 2013
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": null,
+      "search_query": null,
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

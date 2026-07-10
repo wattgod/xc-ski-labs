@@ -20,7 +20,7 @@
       "date": "Late February to early March",
       "date_specific": "2026: February 28",
       "discipline": "classic",
-      "field_size": "~5,000 starters",
+      "field_size": 5000,
       "founded": 2006,
       "registration": "Online registration, capacity controlled",
       "prize_purse": "None",
@@ -28,7 +28,9 @@
       "cutoff_time": "No official cutoff",
       "website": "https://www.ingalami.no",
       "lat": 61.1153,
-      "lng": 10.4663
+      "lng": 10.4663,
+      "field_size_estimate": 5000,
+      "elevation_gain_m": 400
     },
     "climate": {
       "primary": "Scandinavian inland winter",
@@ -87,7 +89,8 @@
         "Birkebeineren Ski Stadium hosted the 1994 Lillehammer Winter Olympics",
         "The race has grown from a few hundred to over 5,000 participants in under 20 years",
         "Part of the Birkebeiner festival week alongside the main Birkebeinerrennet"
-      ]
+      ],
+      "founded": 1993
     },
     "series_membership": [],
     "youtube_data": {

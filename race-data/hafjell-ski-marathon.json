@@ -6,7 +6,9 @@
     "tagline": "Forty-two kilometers of pure skate through the Øyer highlands — Norway's longest freestyle race and the skating counterpart to the Birkebeiner tradition.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km"],
+      "distance_options": [
+        "42km"
+      ],
       "elevation_m": 650,
       "altitude_m": 800,
       "location": "Hafjell, Øyer",
@@ -16,8 +18,8 @@
       "region": "Innlandet",
       "date": "February",
       "date_specific": null,
-      "discipline": "skate",
-      "field_size": "~1,200 starters",
+      "discipline": "both",
+      "field_size": 950,
       "founded": 1990,
       "registration": "Online registration",
       "prize_purse": null,
@@ -25,7 +27,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 61.2333,
-      "lng": 10.4833
+      "lng": 10.4833,
+      "field_size_estimate": 1200,
+      "elevation_gain_m": 650
     },
     "climate": {
       "primary": "Inland Norwegian mountain winter",
@@ -84,12 +88,180 @@
         "Located in the Gudbrandsdalen valley — the historic Birkebeiner heartland",
         "One of the few Norwegian marathons focused exclusively on skate technique",
         "Part of the extensive Lillehammer-region skiing infrastructure"
-      ]
+      ],
+      "founded": 2013
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Hafjell Ski Marathon cross country ski race Hafjell",
+      "videos": [
+        {
+          "video_id": "0d1IVydFlu8",
+          "title": "Hafjell ski marathon - Madshus Redline Pakke",
+          "channel": "Imaginary Studio",
+          "view_count": 67,
+          "upload_date": "20170212",
+          "duration_string": "31",
+          "description": "www.imaginary.no",
+          "tags": [
+            "vfx",
+            "motion graphics",
+            "promotional"
+          ],
+          "url": "https://www.youtube.com/watch?v=0d1IVydFlu8",
+          "curated": false
+        },
+        {
+          "video_id": "KpJvuUqp8h4",
+          "title": "Hafjell: Alpine, park and crosscountry",
+          "channel": "Alpinco",
+          "view_count": 398,
+          "upload_date": "20131027",
+          "duration_string": "30",
+          "description": "",
+          "tags": [
+            "Hafjell",
+            "Norway",
+            "Lillehammer",
+            "alpin",
+            "ski",
+            "snowboard",
+            "Winter",
+            "skiing",
+            "PK Hunder"
+          ],
+          "url": "https://www.youtube.com/watch?v=KpJvuUqp8h4",
+          "curated": false
+        },
+        {
+          "video_id": "VXLUngHhMLg",
+          "title": "Hafjell Ski Marathon trasé 2019",
+          "channel": "Hafjell Ski Marathon",
+          "view_count": 2683,
+          "upload_date": "20181012",
+          "duration_string": "3:38",
+          "description": "Dette er løypetraseen til Hafjell Ski Marathon. Denne traseen blir brukt første gang i 2019",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=VXLUngHhMLg",
+          "curated": true,
+          "curation_reason": "Official course preview showing the complete race route used from 2019 onwards.",
+          "display_order": 1
+        },
+        {
+          "video_id": "mfc3B8Mv1FQ",
+          "title": "Vintereventyret Hafjell",
+          "channel": "Hafjell Alpinsenter",
+          "view_count": 131,
+          "upload_date": "20210205",
+          "duration_string": "42",
+          "description": "Film fra januar 2021 Hafjell.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=mfc3B8Mv1FQ",
+          "curated": false
+        },
+        {
+          "video_id": "eMXXKScrMyo",
+          "title": "Hafjell Ski Marathon 2016 \"Bestem deg!\"",
+          "channel": "Hafjell Ski Marathon",
+          "view_count": 339,
+          "upload_date": "20160107",
+          "duration_string": "1:50",
+          "description": "La deg inspirere av Morten Eide Pedersen fra Team Exspirit i årets Hafjell Ski Marathon promo.",
+          "tags": [
+            "langrenn",
+            "hafjell",
+            "ski",
+            "ski classics",
+            "turrenn",
+            "motivation",
+            "promo"
+          ],
+          "url": "https://www.youtube.com/watch?v=eMXXKScrMyo",
+          "curated": false
+        },
+        {
+          "video_id": "nuKfOsyLlEY",
+          "title": "Hafjell Ski Marathon påmeldingspromo - Vinn Madshus Redline!",
+          "channel": "Hafjell Ski Marathon",
+          "view_count": 96,
+          "upload_date": "20161222",
+          "duration_string": "35",
+          "description": "",
+          "tags": [
+            "hafjell",
+            "ski",
+            "langrenn",
+            "marathon",
+            "mosetertoppen"
+          ],
+          "url": "https://www.youtube.com/watch?v=nuKfOsyLlEY",
+          "transcript": "[Music]\nthank you",
+          "curated": false
+        },
+        {
+          "video_id": "mke3a0-0Hfk",
+          "title": "Hafjell Ski Marathon - Erling Jevne viser deg fjellet og løypen.",
+          "channel": "Alpinco",
+          "view_count": 4167,
+          "upload_date": "20130201",
+          "duration_string": "2:27",
+          "description": "Denne ble filmet i slutten av januar 2013. -6 grader og sol.\nHafjell Ski marathon arrangeres for første gang søndag 17. februar 2013.\n\nFor mer informasjon se:\nwww.hafjellskimarathon.no\n\nKamera/edit: Roger Hjelmstadstuen\nMusikk: J Sigsworth\nhttps://soundcloud.com/northcoast",
+          "tags": [
+            "Hafjell",
+            "Norway",
+            "Lillehammer",
+            "ski",
+            "Winter",
+            "skiing",
+            "langrenn",
+            "Turrenn",
+            "maraton",
+            "marathon",
+            "halvmaraton",
+            "øyer",
+            "pellestova"
+          ],
+          "url": "https://www.youtube.com/watch?v=mke3a0-0Hfk",
+          "curated": false
+        },
+        {
+          "video_id": "92wF2mqOwTI",
+          "title": "2012 Pre-Loppet - Highlights",
+          "channel": "Skinnyski.com Videos",
+          "view_count": 772,
+          "upload_date": "20120109",
+          "duration_string": "4:04",
+          "description": "Around and around they go... the 2012 Pre-Loppet was held on the snowmaking loop at Theodore Wirth as Mother Nature had been unable to deliver the real stuff.  After five laps of the 2.5K course, the race came down to a photo finish between Andrew Tilman and Nathan Porath.  Hilary Patzer won the womens division.",
+          "tags": [
+            "preloppet",
+            "city of lakes loppet",
+            "theodore wirth",
+            "cross country ski race"
+          ],
+          "url": "https://www.youtube.com/watch?v=92wF2mqOwTI",
+          "transcript": "uh\ndude\num\noh\nthat was fun to watch all three of you\nthese are our top three day five\njunior boys racers congratulations\ngentlemen\nall right\neasy job\nhit it boys\nall right give these give these ladies a\nround of applause all right good work\nall right give these gentlemen a big\nround of applause for winning this 2012\npeace coffee free lopez",
+          "curated": false
+        },
+        {
+          "video_id": "2GJ8XN_9taE",
+          "title": "Ski Marathon Europameisterschaften 2015 - Loipenbesichtigung",
+          "channel": "Euroloppet Your World of Ski Marathon",
+          "view_count": 1380,
+          "upload_date": "20150224",
+          "duration_string": "3:18",
+          "description": "Track inspection for the European Ski Marathon Championships 2015 in Bodenmais",
+          "tags": [
+            "Ski",
+            "Marathon (Sport)",
+            "Cross-country Skiing",
+            "Skiing (Sport)"
+          ],
+          "url": "https://www.youtube.com/watch?v=2GJ8XN_9taE",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

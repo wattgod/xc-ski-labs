@@ -6,8 +6,13 @@
     "tagline": "Five thousand skiers in the Jizera Mountains — Poland's national ski marathon where Eastern European grit meets Worldloppet tradition.",
     "vitals": {
       "distance_km": 51,
-      "distance_options": ["51km classic", "30km", "12km", "3km kids"],
-      "elevation_m": 700,
+      "distance_options": [
+        "51km classic",
+        "30km",
+        "12km",
+        "3km kids"
+      ],
+      "elevation_m": 903,
       "altitude_m": 850,
       "location": "Jakuszyce, Jizera Mountains",
       "location_badge": "Lower Silesia, Poland",
@@ -17,7 +22,7 @@
       "date": "Mid-March",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~5,000",
+      "field_size": 5000,
       "founded": 1976,
       "registration": "Open registration via online entry",
       "prize_purse": null,
@@ -25,7 +30,9 @@
       "cutoff_time": null,
       "website": "https://www.biegpiastow.pl",
       "lat": 50.8363,
-      "lng": 15.4316
+      "lng": 15.4316,
+      "field_size_estimate": 5000,
+      "elevation_gain_m": 903
     },
     "climate": {
       "primary": "Central European mountain winter",
@@ -86,10 +93,241 @@
         "The race has been a Worldloppet member since the series expanded to Eastern Europe"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Bieg Piastów cross country ski race Jakuszyce",
+      "videos": [
+        {
+          "video_id": "nTcffFnLQnI",
+          "title": "Czas na biegówki! - 50. Bieg Piastów oczami biegaczy",
+          "channel": "Bieganie.pl",
+          "view_count": 1505,
+          "upload_date": "20260305",
+          "duration_string": "26:34",
+          "description": "W lutowy weekend odwiedziliśmy Jakuszyce, by zobaczyć Bieg Piastów z bliska. Śnieg, słońce i setki zawodników, których rozgrzewały sportowe emocje 😊\n\nNie tylko kibicowaliśmy, sami również spróbowaliśmy narciarstwa biegowego: pierwsze kroki, upadki i mnóstwo śmiechu. Dzięki współpracy z PKO Bankiem Polskim przeżyliśmy zimową sportową przygodę pełną emocji i satysfakcji.\n\nZastanawiamy się też: czy bieganie na nartach może być alternatywą dla klasycznego biegania?\n\nZapraszamy do obejrzenia reportażu i przeżycia tej przygody razem z nami!\n\n#bieganie #BiegPiastów #Jakuszyce #biegówki",
+          "tags": [
+            "bieganie",
+            "biegówki",
+            "Jakuszyce",
+            "Bieg Piastów",
+            "Imprezy biegowe"
+          ],
+          "url": "https://www.youtube.com/watch?v=nTcffFnLQnI",
+          "curated": true,
+          "curation_reason": "Recent 2026 coverage showing the race from skiers' perspective with first-person experience content.",
+          "display_order": 1
+        },
+        {
+          "video_id": "ySYbb-kOGFk",
+          "title": "Bieg Piastów 2026 - ART TERMO Sports Division i ÖkoFEN w Jakuszycach #biegówki #narty #biegpistow",
+          "channel": "ART TERMO Ciepło z biomasy",
+          "view_count": 107,
+          "upload_date": "20260227",
+          "duration_string": "2:30",
+          "description": "Po raz kolejny mieliśmy przyjemność być częścią jednego z największych wydarzeń narciarstwa biegowego w Polsce – tym razem podczas jubileuszowej, pięćdziesiątej edycji @biegpiastow9068.\n\nJako ART TERMO Ciepło z biomasy pojawiliśmy się na miejscu ze swoim stoiskiem wspólnie z marką ÖkoFEN. Sportowa energia, zimowa atmosfera oraz wiele inspirujących rozmów – dziękujemy wszystkim, którzy nas odwiedzili!\n\n---\nPłać mniej o 20% za ogrzewanie pelletem dzięki kotłom kondensacyjnym Pellematic Condens 10-18 kW.\n🔹 https://kotlypellet.pl/kociol-kondensacyjny-na-pellet-okofen-condens-10-18-kw/\n---\n#bieginarciarskie #zima #jakuszyce #napolanie #szklarskaporeba #gory #ski #biegpiastow #skirunnning #ski #sport #zdrowie #okofen \n\n🎥 Realizacja i montaż: @odlotymariusza/MarketingDlaMikro.pl",
+          "tags": [
+            "biegi narciarskie",
+            "bieg piastow",
+            "zima",
+            "zawody",
+            "okofen",
+            "szklarska poreba",
+            "ski",
+            "bieg pisató 2026",
+            "ski runner"
+          ],
+          "url": "https://www.youtube.com/watch?v=ySYbb-kOGFk",
+          "curated": false
+        },
+        {
+          "video_id": "HIDAD-TG_5A",
+          "title": "BIEG PIASTÓW – JAK POWSTAŁA NAJWIĘKSZA IMPREZA NARCIARSKA W POLSCE?",
+          "channel": "Polskie Radio",
+          "view_count": 316,
+          "upload_date": "20260217",
+          "duration_string": "28:32",
+          "description": "Zaczęło się skromnie.\nJednodniowe zawody dla kilkuset osób — głównie dzieci z Kotliny Jeleniogórskiej.\n\nDziś?\nTysiące zawodników z całego świata, setki kilometrów tras i jedna z największych imprez narciarstwa biegowego w tej części Europy — Bieg Piastów.\n\nJak to się stało, że lokalna inicjatywa przerodziła się w wydarzenie o międzynarodowej renomie?\nCo przyciąga do Jakuszyc zarówno amatorów, jak i profesjonalistów?\nI czy rzeczywiście wszystko zaczęło się od marzenia jednego człowieka?\n\n🎧 W tym odcinku wracamy do początków, rozmawiamy o rozwoju i sprawdzamy, dlaczego Jakuszyce stały się zimową stolicą narciarstwa biegowego.\n\nPosłuchaj — bo to historia, która pokazuje, że z małych rzeczy potrafią wyrosnąć wielkie wydarzenia.\n\n#BiegPiastów #Jakuszyce #narciarstwobiegowe #sport #Polska #zima #historia #podcast #biegówki #winter #crosscountryskiing #SzklarskaPoręba\n\n𝗣𝗢𝗗𝗖𝗔𝗦𝗧𝗬 𝗣𝗢𝗟𝗦𝗞𝗜𝗘𝗚𝗢 𝗥𝗔𝗗𝗜𝗔. 𝗭 𝗡𝗔𝗠𝗜 𝗡𝗜𝗘 𝗧𝗥𝗔𝗖𝗜𝗦𝗭 𝗖𝗭𝗔𝗦𝗨!\n__________________\n🔔 Subskrybuj kanał i bądź na bieżąco: https://bit.ly/3rFnZJd \n🎧 NASZE PODCASTY: https://www.polskieradio.pl",
+          "tags": [
+            "Polskie Radio",
+            "jedynka polskie radio",
+            "historia",
+            "sport",
+            "Bieg Piastów",
+            "narciarstwo"
+          ],
+          "url": "https://www.youtube.com/watch?v=HIDAD-TG_5A",
+          "curated": true,
+          "curation_reason": "Recent 2026 documentary content about the race's history and international significance in cross-country skiing.",
+          "display_order": 2
+        },
+        {
+          "video_id": "mfP3RrMgOeo",
+          "title": "Zawody narciarstwa biegowego FischerCup w Jakuszycach",
+          "channel": "Jacek Ciszak",
+          "view_count": 166,
+          "upload_date": "20160205",
+          "duration_string": "1:38",
+          "description": "Dopiero zaczynasz swoją przygodę z nartami biegowymi, a już chcesz sprawdzić swoje siły?\nFischer oraz stowarzyszenie Bieg Piastów zapraszają Ciebie na cykl zawodów Fischer Cup 3/6/9 –Biegaj z nami.\nCelem głównym zawodów jest promocja narciarstwa biegowego wśród amatorów i rozpowszechniane zdrowego sposobu na spędzanie wolnego czasu.\nhttp://www.fischercup.pl/\nhttps://www.fischersports.com/pl_pl/\nhttp://biegowkijakuszyce.pl/\nhttp://www.bieg-piastow.pl/\n\nDziękujemy za realizacje: www.spotreklamowy.com",
+          "tags": [
+            "skionline.tv",
+            "skionline.pl",
+            "skiing",
+            "narty",
+            "winter",
+            "zima",
+            "fischer",
+            "fischer cup",
+            "jakuszyce",
+            "biegi narciarskie"
+          ],
+          "url": "https://www.youtube.com/watch?v=mfP3RrMgOeo",
+          "curated": false
+        },
+        {
+          "video_id": "PQv_3tA_WQw",
+          "title": "Bieg Piastów",
+          "channel": "Andrzej Waszkewicz",
+          "view_count": 1645,
+          "upload_date": "20211107",
+          "duration_string": "20",
+          "description": "The Bieg Piastów is the biggest cross-country skiing marathon in Poland. The race is part of Worldloppet Ski Federation and held in Classical Technique. \n\nThe Bieg Piastów ski marathon is held annually in Jakuszyce in the Jizera Mountains, a part of Szklarska Poręba – one of the most popular tourist destinations in Poland, only about 130 km from Wrocław and Prague. \n\n#BiegPiastów • #Waszkewicz \n\n• • • • • • • • • • • • • • • • •  \n\nSubscribe to watch more videos filmed by Andrzej Waszkewicz / IRONMAN Triathlete, Multiple European Champion in Masters Swimming and Poland's Sports Promoter.\n\n▶ Andrzej Waszkewicz – http://waszkewicz.com \n▶ Facebook – https://www.facebook.com/waszkewicz      \n▶ Instagram – https://www.instagram.com/andrzej.waszkewicz      \n▶ Donate – https://www.paypal.me/waszkewicz \n\n• • • • • • • • • • • • • • • • •  \n\nAndrzej Waszkewicz YouTube Channel ▶ https://www.youtube.com/c/waszkewicz \n\nBIEG PIASTÓW • SKI MARATHON POLAND \n\n• • • \n• •\n•",
+          "tags": [
+            "Bieg Piastów",
+            "Ski Marathon Poland",
+            "Skiing Marathon in Poland",
+            "Bieg Piastów Skiing",
+            "Marathon Bieg Piastów",
+            "Cross-country skiing marathon",
+            "Cross-country skiing Poland",
+            "Polish Ski Marathon Bieg Piastow",
+            "BIEG PIASTÓW",
+            "Worldloppet",
+            "Bieg Piastów Worldloppet",
+            "Worldloppet Ski Federation",
+            "Skiing in Poland",
+            "Ski Marathon Bieg Piastów",
+            "Poland Ski Marathon",
+            "Andrzej Waszkiewicz",
+            "Polana Jakuszycka",
+            "Szklarska Poręba",
+            "Poland",
+            "Triathlon Piastów",
+            "Bieg Piastów Videos",
+            "Andrzej Waszkewicz"
+          ],
+          "url": "https://www.youtube.com/watch?v=PQv_3tA_WQw",
+          "curated": false
+        },
+        {
+          "video_id": "sF1izzIm_ro",
+          "title": "46 Bieg Piastów 2022",
+          "channel": "Bieg Piastów",
+          "view_count": 4920,
+          "upload_date": "20220306",
+          "duration_string": "3:23",
+          "description": "Kochamy ten czas! \nOglądajcie na dużym ekranie.\n\nAutor Szczytografia Łukasz Malinowski",
+          "tags": [
+            "#biegówki",
+            "#nartybiegowe",
+            "#46BiegPiastów",
+            "#Jakuszyce",
+            "#SzklarskaPoręba"
+          ],
+          "url": "https://www.youtube.com/watch?v=sF1izzIm_ro",
+          "curated": false
+        },
+        {
+          "video_id": "lQpJmX_0B2Y",
+          "title": "Bieg Piastów 2020",
+          "channel": "Bieg Piastów",
+          "view_count": 6321,
+          "upload_date": "20200303",
+          "duration_string": "2:42",
+          "description": "Przeżyjmy to jeszcze raz - rekordowy 44 Bieg Piastów!",
+          "tags": [
+            "bieg piastów",
+            "jakuszyce",
+            "szklarska poręba",
+            "góry izerskie",
+            "narciastwo biegowe",
+            "justyna kowalczyk",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=lQpJmX_0B2Y",
+          "curated": false
+        },
+        {
+          "video_id": "wk9n-AbYXBw",
+          "title": "SkiPlanet by Worldloppet Episode 6",
+          "channel": "Worldloppet",
+          "view_count": 311,
+          "upload_date": "20190311",
+          "duration_string": "13:01",
+          "description": "💥ON AIR💥\nWelcome to the 6th episode of #SkiPlanetByWorldloppet, your worldwide cross-country marathon skiing show!\nToday, we’re in Szklarska Poręba, in Poland, to discover the great Bieg Piastów... and many more ! Enjoy the show!\n\n👍 Don't miss this episode AND like the #Worldloppet page for not missing a single episode of #SkiPlanet!\n\n• SKI PLANET is hosted by Marika Godin, produced by Worldloppet and proudly presented by Montagnes du Jura and Rossignol & Rossignol Apparel.",
+          "tags": [
+            "Ski Planet",
+            "Ski Planet by Worldloppet",
+            "Marika Godin",
+            "Bieg Piastow",
+            "Finlandia Hiihto",
+            "Birken",
+            "Birkebeinerrennet"
+          ],
+          "url": "https://www.youtube.com/watch?v=wk9n-AbYXBw",
+          "transcript": "skee planet the magazine of the art of\nliving of cross-country skiing across\nthe world is presented by Montaigne do\nszura\nthe official nordic destination in\nfrance\n[Music]\nfish meat I'm Eva kersky Here I am for\nthe sixth episode of skip Lynette's\nbyword Lopez your world right cross\ncountry marathons kingship today we are\nin yakushiji for the biggest key event\nin Poland the VHS toe this names means\nthe race of guests in honor of just the\nrewrite first king of Poland and founder\nof the first dynasty here in Loris\ncelaya in the 9th century but now let's\ndiscover the summary before skiing in\nthe beautiful countryside of shizuru\nmoonface in a sixth episode we'll go to\nNorway to learn more about the Birkin\nhistory then Michael was many unique\nnight in a snow groomer with Mike OPA\nhatch manager of the B egg pesto of\ntracks and she will mingle with the\nparticipants to capture the many\ncolorful faces of the racers will\nprepare our next show in Iceland and of\ncourse provide an update on the FIS\nWorld Cup rankings but first let's go to\nsquash Kippur Emma to learn how to\ncreate delicate glass jewels\nif I tell you handcraft Springwater\nwood and quartz what do you think I will\nshow you follow me\nhi Kristen we are here in a historic\nplace can you tell me why glass\nhandicraft is important here in Poland\nbut in chess club Peppa we are in a\nglass factory a very important place for\nus for people in cars Karima because of\nits historical issues transcript\nremember the name of a town is divided\non two parts the first one Clara means\nthe glass and Purim bar means the things\nthat left after cutting trees in the\nMiddle Ages ironworks that was built\nhere needed a lot of wood to make a fire\nin iron works they needed to have\ntemperature like 1,000 and 200 degrees\nabout so you need a lot of trees to make\nthat that big fire and temperature this\nplace is last in Poland where they do\ntraditional way of making glass\ncan we go closer and yes yes you can go\nyou have lucky so you can do it not\neveryone can do it so especially for you\nwe can do something\nlucky Colorado\n[Applause]\nI think I missed my vocation but now\nlet's go in no way to learn more about\ntheir current history the beer can buy\nnew henna or beer can as it was\nnicknamed is founded upon the legendary\nescape that to Burke and miner loyalists\nmanaged around the new year of 1205 and\n1206 during the Civil War the Begler\nfaction rivaling against the birkin\nbynars was looking for the young hair to\nthe norwegian throne the tuber combiners\nshare of a lucca and Torsten chevre\nrescued the young Prince Haakon hakonsen\nfrom the bag lers by carrying the baby\nover the mountains from Goodwin Stalin\nto austere Dallin in the fall of 1930\nArthur and Forester Hacken Lee published\nan article launching the idea of a ski\nrace in honor of the rescue two years\nlater on January 10th of 1932 six men\nmet on a half yella mountain and\nformally decided to arrange the very\nfirst Birkin by novena in 1932 that's\nwhy all participants of the Birkin carry\na backpack weighing at least 3.5\nkilograms symbolizing the weight of the\nthen one year old Prince fortunately\nthough that's not the real weight of a\none-year-old baby this very first year\n147 men completed that then 59 km/h 59\nminutes and 40 seconds at that time\nthere were few who could have imagined\nthe scale and success the event would\nachieve\nyou\nyes you know that a great race never\nhappened without a good track tonight I\nwill introduce you Mahesh the grooming\nteam manager hey Murray Cohoes Nami to\ncome an achiever\nhi nice to meet you let's go\nare you a skier and I'm you already did\nyour class or race can this become\nenough time to go back to me but so what\nyou have to go to be money atrás y Rabia\n- time to go - voy a trust and at the\nmost erotic oh all amassed a lot\nhow long does it take to prepare the\ntrack for the race since how many days\nyou're working on the track traffic\nshould go to where Maupassant Kojima\ngroove near Pakistan Impreza just our\nseason yes trust some shigoto Bhuvana\nportland anubias nicosia back Naidu's a\nlesser reputation acrylic net far not\nemotional point is that batsu missions\nare used said being in the denominator\nwhat is your feeling when you are alone\nin this machine\nwhy do you like to groom the track\nproblems Asami I don't sama Malaysia\nyes totally at Roku kyrenia autogenic\noxygen naxi emotions copy and last\nquestion what do you think about snow\nconditions this year the race will be\ngood is really cozy of occupations of\nnormal tomorrow kudos mr. Jones of\nGhazni ago because I forgot an\nintersection is realistic of lindos\nlouis bernucci pole not in a strange\ncertain surgical technique samartha\nallah wishes trap educational thank you\nvery much meringue pie\nso now the truck is ready for tomorrow\nand I'm really excited to you know race\nfor me today I will try to touch some\nfaces of the lake just oh can I take you\nthis winter is coming to the end but ski\nseason is not over yet so what will be\nyour next one up at race\nlet's have a look at how travelers\nthe Icelandic name for for civic risky\nmarathon is for savatya slang in short\nand simple isn't it\noriginally the race was established in\n1935 and the start was close to four\ncevapi lake from which the race takes\nits name the little town of ease of your\ndude base camp of the race is situated\njust south of one of Iceland's biggest\nnature reserves hottest and year\nadventure tours which include\nbackcountry skiing and sea tours just a\nfew miles from the Arctic Circle are of\ncourse available during your stay in\nIceland for the race\nwhat a crazy atmosphere people are so\nhappy to be there is so funny and now\nlet's go back to Finland to get an\nupdate on the FIS for market cap ranking\nwith another second place in the\nFinlandia hito just two seconds behind\nthe Finnish skier you homie Conan Damien\nTahaan Tola expands his lead in the\noverall ranking by 37 points but gee\nhaha newly in second position\nLuigi Guney in third and Bastian Pauline\nfourth are all still within the range of\na possible victory coming to the last\nstage of the 2019 FIS war lahpet cup\nthat will be held at the Russian oral\nup--it over a 50 kilometer free\ntechnique of nth on April 6th and with\nher victory in Lochte Marya greetings\nsecures her first FIS World Cup champion\ntitle well before the final stage\nhow was the race today my first time\nreally nice the first exception was the\ntips and washed up the truck will be\nvery hard but actually it was really\nreally nice and it was so so fast so\nunbelievable I beat three hours it's my\nbest time ever so I'm really proud she\nis judging a big it's hard to believe\nthat we are already finishing up how six\nepisode of deployment by word of it see\nyou in one week for the one and only\nAngelina\nthe world was presented to you by\nMontaigne desura\nthe official Nordic destination in\nFrance",
+          "curated": true,
+          "curation_reason": "International Worldloppet coverage featuring Bieg Piastów with course details and race atmosphere insights.",
+          "display_order": 4
+        },
+        {
+          "video_id": "M4DCadaB8Ec",
+          "title": "40 Bieg Piastów – 15 km CT",
+          "channel": "Datasport Transmisja",
+          "view_count": 362,
+          "upload_date": "20160228",
+          "duration_string": "2:35:11",
+          "description": "",
+          "tags": [
+            "#hangoutsonair",
+            "Hangouts On Air",
+            "#hoa"
+          ],
+          "url": "https://www.youtube.com/watch?v=M4DCadaB8Ec",
+          "curated": false
+        },
+        {
+          "video_id": "yx5ZqIKzbnk",
+          "title": "47 Bieg Piastów - Festiwal Narciarstwa Biegowego 2023",
+          "channel": "Bieg Piastów",
+          "view_count": 5634,
+          "upload_date": "20230306",
+          "duration_string": "3:42",
+          "description": "Dziękujemy wszystkim zawodnikom, kibicom, partnerom, wolontariuszom, patronom i sponsorom! \n👉 7023 zgłoszenia\n👉 5734 zawodników na mecie (o pół tysiąca więcej niż w 2022!)\n👉 6 dni zawodów - 9 biegów\nTo był wspaniały czas dzięki Wam! \nPrzeżyjmy to jeszcze raz w skrócie na filmie!\nAutor filmu: Łukasz Malinowski Szczytografia",
+          "tags": [
+            "#biegówki #BiegPiastów #Jakuszyce"
+          ],
+          "url": "https://www.youtube.com/watch?v=yx5ZqIKzbnk",
+          "curated": true,
+          "curation_reason": "Official 2023 race coverage showing the festival atmosphere and scale with over 5,700 finishers.",
+          "display_order": 3
+        },
+        {
+          "video_id": "VgBtEMASywA",
+          "title": "BIEG PIASTÓW - Polana Jakuszyce",
+          "channel": "RDLP w Krośnie",
+          "view_count": 710,
+          "upload_date": "20180625",
+          "duration_string": "2:10",
+          "description": "BIEG PIASTÓW - Jakuszyce",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=VgBtEMASywA",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

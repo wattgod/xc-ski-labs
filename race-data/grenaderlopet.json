@@ -6,7 +6,9 @@
     "tagline": "Ninety grueling kilometers through the Buskerud wilderness — Norway's longest single-day classic and a proving ground for Birkebeiner hopefuls.",
     "vitals": {
       "distance_km": 90,
-      "distance_options": ["90km"],
+      "distance_options": [
+        "90km"
+      ],
       "elevation_m": 900,
       "altitude_m": 700,
       "location": "Buskerud",
@@ -17,15 +19,17 @@
       "date": "February",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~1,500 starters",
+      "field_size": 1500,
       "founded": 1975,
       "registration": "Online registration; early entry recommended",
       "prize_purse": null,
       "aid_stations": "Multiple feed stations with warm drinks and energy food",
       "cutoff_time": null,
       "website": null,
-      "lat": 59.9500,
-      "lng": 9.8000
+      "lat": 59.95,
+      "lng": 9.8,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 900
     },
     "climate": {
       "primary": "Inland Norwegian winter",
@@ -83,12 +87,78 @@
         "Founded in 1975, over 50 years of history",
         "Attracts Norway's most dedicated long-distance classic skiers",
         "Course traverses some of Buskerud's most remote wilderness terrain"
-      ]
+      ],
+      "founded": 1969
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Grenaderløpet cross country ski race Buskerud",
+      "videos": [
+        {
+          "video_id": "oFD82mVd03M",
+          "title": "Grenaderen 2010",
+          "channel": "olemandreas",
+          "view_count": 3613,
+          "upload_date": "20100227",
+          "duration_string": "6:26",
+          "description": "Et 90 kilometer turrenn gjennom de fineste deler av Oslomarka\r\nFilmet fra sporet.",
+          "tags": [
+            "Grenaderen",
+            "2010"
+          ],
+          "url": "https://www.youtube.com/watch?v=oFD82mVd03M",
+          "transcript": "[Music]\nHeat. Heat.\nspeed.\nThey're\n[&nbsp;__&nbsp;] so providing the starch.\nSee there\nare you over there\nlove. Heat. Heat.\nSpeed looks good up.\nThankful they are.\nYep. Heat. Heat.\nDon't go\nthere.\n[Applause]\nHeat.\nSame move there.",
+          "curated": true,
+          "curation_reason": "Skier-filmed course footage showing the 90km route through Oslomarka terrain.",
+          "display_order": 2
+        },
+        {
+          "video_id": "34tw3D6QFo8",
+          "title": "grenaderen 2011",
+          "channel": "SKIGO - vi elsker langrenn",
+          "view_count": 670,
+          "upload_date": "20130211",
+          "duration_string": "2:57",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=34tw3D6QFo8",
+          "curated": false
+        },
+        {
+          "video_id": "4KmgjRs3B1k",
+          "title": "This could've gone way WORSE than it did - The Grenader race 2025",
+          "channel": "Andreas Fausko",
+          "view_count": 2897,
+          "upload_date": "20250219",
+          "duration_string": "16:24",
+          "description": "Norways longest and toughest ski race is taking place right in my backyard. The Grenader race is 90km and almost 2000 meter of elevation gain. It's a brutal race in the heart of Nordmarka and using grip wax or skin skis is usually a good option. If you have grip on your skis that is...\n\nFollow me on socials\nStrava: https://www.strava.com/athletes/10202509\nInstagram: https://www.instagram.com/andreasfausko/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=4KmgjRs3B1k",
+          "transcript": "small status update I decided to go for\nthe goup\nP but the grip pack doesn't\nwork so that's a [&nbsp;__&nbsp;] we're still a few\ndays out from the grad a race 2025 but\nI'm currently down at mukan and there's\ntwo reasons for that first reason is\nthat I went out for a training session\nlast night and I had grip wacks\nunderneath my skis that didn't work very\nwell had grip for like 5Ks then no grip\nso it ended up being a double polling\nsession anyways so now I'm going to\ndeliver my skis to mukan they're going\nto wax them and put group BS on so that\nthey can last for 990ks if I choose to\nski with group BS during the race the\nsecond reason why I'm here is that I'm\ngoing to pick up a pair of skis as well\nbecause I bought a new pair of DP skis\nlast week got a good deal they had like\nfour\nx's on\nwhich is supposed to be like they like a\ngood pick maybe it's a sales trick I\ndon't know lar told me that on the way\nback home from our longa yeah sometimes\nyou pick skis and if you put like four\nx's on them that means it's like the\ntits of DP skis so I came into the store\nsolo skis and like what is this is this\nthis is what I think it is and lar was\nlike yeah yeah yeah yeah they're really\ngood I'll hold them aside for you\nobviously he wanted to sell me The Skys\nthat's easy how I am to fo I guess so\nwe're going to pick up them and then\nwe're going to talk a little bit and uh\nthen we'll see what's what and then if\nI'll decide to double pole or use grib\nis what I'm going to figure out pretty\ndamn soon because the race is coming up\nfast\n[Music]\nthat was pretty cool I got a proper Tour\non how they run their uh Glide wax and\ngrind operation here at the mishar so\nthat was uh quite interesting absolutely\nsuper nice of fls to show me around and\nkind of explain to me in detail how a\nski works why a cold ski is a cold ski\nand why a warm ski is a warm ski and how\ngrip wax work how Glide wax work yeah it\njust it's really fascinating to to hear\nand talk about it and I get a lot more\nknowledge as well so so I left my skis\nthere for gliding and for grip wax it's\ngoing to be really good as for other\nskis they were not quite done yet so\nthat means um I got to use another pair\nfor training this evening and as of\nright now I think um it's going to be\ngrip wax on Saturday considering how the\nconditions are supposed to be I think\nthat's my best\noption good morning it's uh 6:00 a.m.\nbit before 600 a.m.\nand the start of the grand ER is 2025 is\nin 4 and a half hours so coffee\nbreakfast and then it's go time\ntoday but it's all good starting in 1\nminute 2 minutes\nyeah\nyeah that's\nright yeah\nyeah small status update I decided to go\nfor goup\npacks but the grip pack doesn't\nwork so that's a [&nbsp;__&nbsp;] and then the pig\non the the end on my pole disappear the\none who sticks to the snow the Toads or\nwhatever you want to call it is gone so\nthe pole just goes straight through the\nsnow or doesn't stick to the ice\nso it went from bad to worse you could\nsay and I'm only 10K in so I don't know\nwhat to do it\nwhat\nokay\nokay yes oh my God I'm freaking saved\nI'm saved holy [&nbsp;__&nbsp;] okay no bigot we got\nthis\nF holy [&nbsp;__&nbsp;]\n[&nbsp;__&nbsp;]\n[&nbsp;__&nbsp;] that belt it's obviously Frozen\nsome drink out the frood\nstation necessary\nthat's halfway a bit less than halfway\nwe're going to the section where I fell\nlast year I broke my pole so let's try\nnot to do that today shall we CU that's\nSu yeah this is where I felt made it\nthat's\nnice Jesus\nthis climb is\nabsolutely\n[&nbsp;__&nbsp;] just trying to slide carefully so\nsome\ngrip it's not a lot yeah this climb is\n[&nbsp;__&nbsp;] so insane\nmore sh more\ndon't High\nyeah how it how f it\noh okay we got a little less than 20 to\ngo we got this we [&nbsp;__&nbsp;] got\nthis another long disgusting\nclimb of course it is\nthis all right let's show\nI'm going to talk later I'm too tired to\ntalk\nI was absolutely blasted when I came\nhome yesterday like a slaughtered Pig so\nI couldn't bring myself to do a recap\nbut I had a good night of sleep so feel\na bit more recovered now it was a sick\nrace 90 case and almost 2,000 M of\nelevation gain in some of the most epic\nand diverse terrain this country has to\noffer I think when it comes to Forest\ntrain it's hard to beat norak in any\nscale or measure it's just that unique I\nmade it to the Finish Line then in 6\nhours and 20 minutes I am super happy\nabout that considering how bad it could\nhave been decided to go for group backs\nthat unfortunately H didn't work M we\ndid a great job with the grind with\nglide and with the base wax they did\neverything all I had to do was just to\nput on uh a few more layers by myself at\nhome of grip racks myself which I did\nbut fortunately it didn't work had no\ngrip from the start it was double\npulling for the win from the get-go\nmanaged to reset my mind quite fast but\nafter free case I lost the tip of my\npole as you saw which didn't help and\nthe pole then worked either as a\nhandbrake when it was soft snow as it\njust went straight through and then\nstopped the motion completely or just\nlike a dull ice chisel because every\ntime I put it down on the snow when it\nwas hard or ice it just like slipped\nunderneath me that kind of stressed me\nout a little bit but I made it to the\nchicken cabin and I was lucky that they\ncould provide me with a new tip and\nthings started to go really good from\nthere on out started to catch up with\npeople that had gone past me earlier\nduring the race except for a couple of\ndreadful climbs in the middle there I\nfelt good all the way and I even managed\nto push hard to the line the last 10 Cas\nor something so and if I hadn't lost the\npole tip I reckon I could go 10 15\nminutes faster I don't know how much\ntime I lost but I'm sure I lost a few\nminutes that's for sure so the wasup is\nnow coming up in less than two weeks so\nI have much time to waste just got to\nprepare as best as I can train good now\nand uh\nbut yeah anyways super stoked with how\neverything is at the moment the race was\nsuper fun sick race and looking forward\nto do the Gren a race next year as well\nbut now let's focus on wasala and I'll\nsee you very soon\nagain peace",
+          "curated": true,
+          "curation_reason": "Recent POV race experience showing the technical challenges and waxing difficulties specific to Grenaderløpet.",
+          "display_order": 1
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I decided to go for grip wax but the grip wax doesn't work so that's a problem and then the pick on the end of my pole disappears so the pole just goes straight through the snow or doesn't stick to the ice. So it went from bad to worse and I'm only 10K in.",
+          "source_video_id": "4KmgjRs3B1k",
+          "source_channel": "Andreas Fausko",
+          "source_view_count": 2897,
+          "category": "waxing",
+          "curated": true
+        },
+        {
+          "text": "Norway's longest and toughest ski race is taking place right in my backyard. The Grenader race is 90km and almost 2000 meter of elevation gain. It's a brutal race in the heart of Nordmarka and using grip wax or skin skis is usually a good option.",
+          "source_video_id": "4KmgjRs3B1k",
+          "source_channel": "Andreas Fausko",
+          "source_view_count": 2897,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
     }
   }
 }

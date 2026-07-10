@@ -20,7 +20,7 @@
       "date": "March",
       "date_specific": "2026: March 21",
       "discipline": "skate",
-      "field_size": "~200",
+      "field_size": 200,
       "founded": 1988,
       "registration": "Open registration",
       "prize_purse": "None",
@@ -28,7 +28,9 @@
       "cutoff_time": "No official cutoff",
       "website": "https://www.sonotkkaazoot.org",
       "lat": 64.8378,
-      "lng": -147.7164
+      "lng": -147.7164,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 350
     },
     "climate": {
       "primary": "Interior subarctic winter",

@@ -1,0 +1,228 @@
+{
+  "race": {
+    "name": "Sakhalin Ski Marathon",
+    "slug": "sakhalin-ski-marathon",
+    "display_name": "Sakhalin Ski Marathon",
+    "tagline": "Fifty kilometers on Russia's Pacific island — Sakhalin's maritime snowfields deliver deep powder and Sea of Okhotsk winds.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 400,
+      "altitude_m": 100,
+      "location": "Yuzhno-Sakhalinsk, Sakhalin Island",
+      "location_badge": "Sakhalin Island, Russia",
+      "country": "Russia",
+      "country_code": "RU",
+      "region": "Sakhalin Oblast",
+      "date": "Late February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 1000,
+      "founded": null,
+      "registration": "Online registration via Russialoppet",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.russialoppet.ru",
+      "lat": 46.9641,
+      "lng": 142.7285,
+      "field_size_estimate": 750,
+      "elevation_gain_m": 400
+    },
+    "climate": {
+      "primary": "Maritime subarctic",
+      "description": "Sakhalin Island receives heavy snowfall from the Sea of Japan and Sea of Okhotsk. February temperatures typically -15°C to -5°C. Maritime influence creates wet, heavy snow.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Heavy maritime snowfall can disrupt conditions",
+        "Sea of Okhotsk winds on exposed sections",
+        "Wet snow creating slow conditions",
+        "Remote island location — logistically challenging"
+      ]
+    },
+    "course": {
+      "primary": "Undulating course through Sakhalin's forested hills near Yuzhno-Sakhalinsk. Mixed terrain through boreal forest with some exposed ridgelines.",
+      "format": "loop",
+      "surface": "Groomed trails through boreal forest",
+      "technical_rating": 3,
+      "grooming": "Good grooming standard",
+      "features": [
+        "Pacific island race location",
+        "Heavy snowfall zone — deep snowpack",
+        "Unique geographic setting between Sea of Japan and Sea of Okhotsk",
+        "Boreal forest and mountain terrain"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Unique Pacific island location with exceptional snow reliability. Remoteness limits accessibility and international draw significantly.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Sakhalin Ski Marathon takes place on Russia's largest island in the Pacific. Sakhalin, once jointly administered with Japan, has a strong skiing tradition supported by heavy maritime snowfall.",
+      "notable_facts": [
+        "Sakhalin Island lies between the Sea of Japan and the Sea of Okhotsk",
+        "Former Japanese territory with shared cultural heritage",
+        "One of Russia's most remote Russialoppet events",
+        "Heavy maritime snowfall creates deep, reliable snowpack"
+      ]
+    },
+    "series_membership": [
+      "russialoppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Sakhalin Ski Marathon cross country ski race Yuzhno-Sakhalinsk",
+      "videos": [
+        {
+          "video_id": "iX9mtvIB6Rc",
+          "title": "Sakhalin Ski Marathon 2021/Сахалинский лыжный марафон 2021",
+          "channel": "Jiri Necasek",
+          "view_count": 624,
+          "upload_date": "20210316",
+          "duration_string": "7:41",
+          "description": "XXII Сахалинский лыжный марафон 2021.\nНа Сахалин я прилетел накануне старта, в пятницу утром. Время в пути 8,5 часов, разница по времени с Москвой - 8 часов. Поспать в самолете вообще не удалось. Сахалин встретил ужасной погодой - +5 градусов, дождь. На месте получения номеров все по простому - мог выбрать стартовый номер (взял с любимой девяткой 199), получил мешок для багажа и значок. Ну и больше не надо, за демократичный стартовый взнос 1000 рублей.\nВ субботу до 9 утра надо быть в центре на площади Победы, откуда отправляются автобусы на старт в село Лесное. Автобусов где-то 6-8, типа общественный транспорт с небольшим количеством мест для сидения. За ночь похолодало на 20 градусов, с +5 до -15 и выпал свежий снег и это хорошо.\nЗа час до старта прибываем на стартовую поляну. Идет снег, метель. Почти все вышли из автобуса разминаться, сейчас можно немного присесть, переобуться и подготовиться. Вещи в мешке потом отдаются в другой автобусик, который их везет на финиш. Особого стартового коридора как такого нет, слева образуется группа лыжников в желтых майках (30 км), марафонцы в синих майках направо. Старт в 11 часов и обе группы стразу уходят в разные стороны. Нам на 50 км предстоит сначало сделать петлю вдоль моря. Поляна довольно широкая, но трасса почти сразу уходит в лес и сужается. Участников 140, так что все спокойно, сам никуда не дерусь, палку сломал уже в Петрозаводске, не хочется повторять “однопалковый” ход. После километра двух короткий крутой подъем, где образуется небольшая пробка. Дальше уже спокойно. В лесу хорошо, несмотря на свежий снег лыжи едут неплохо. Дальше выходим на открытые участки на побережье. Плюс - виды, минус - ветер. Приходится преодолевать наметы и сугробы, местами наоборот голый лед. Траса пересеченная, спускаемся в небольшие бухты и поднимаемся обратно на высокий берег. Но выходит солнце, тучи исчезают. Какая разница с вчерашним днем!\nПосле 10 км поворачиваем спиной к морю и перед нами горы, пока в дали. Широкая ровная дорога, кажется плоская, особых горок нет, до перевала только одна, которую заметно в профиле трассы. Сначало идут открытые участки, на солнце как раз отлично. Еду в удовольствие, снимаю на камеру, берегу силы. Впереди перевал Чехова, про который много говорили, но на самом деле не знаю, чего ждать. Дальше, ближе к горам, опять погружаемся в лес и трасса соединяется с тридцаткой, весь свежий снег уже укатан по всей ширине лыжни. На пунктах питания изотиники, бананы, гели. На 31-м км предупреждают, что за мостиком начинается подъем, здесь “сердце” марафона. На перевал Чехова 6,5 км. Если по всей трассе нет никаких указателей расстояния, то тут вас информируют каждых 500 метров, сколько осталось до перевала. Все время жду какую-то коварную “стену”, но она не приходит. Лыжня твердая, широкая, хорошо едется. Ну что, подъем конечно поднимает пульс, но таких уже преодолел много, все зашло на отлично.\nНа перевале пункт питания, хочется немного насладиться моментом. Дальше только вниз, последних 10 км. На спуске просто кайф - широкая дорога, можно разогнаться, но нет никаких опасных поворотов. Виды на горы, внизу Южно-Сахалинск. Но осторожно! Можно хорошо замерзнуть. Неплохо имет с собой в запасе как минимум сухую шапочку. Последние километры проходят по стадиону “Санта”, там несколько горочек, наверное, чтобы согреться после длинного спуска.\nИ вот финиш. Часы показывают 46,5 км, перепад высот 806 м. Температура колебалась от -11 до -7, на солнце -3. Чего себе еще желать?\nНа финише напоили чаем и накормили вкусными пирожками с рыбой, (“мы же на Сахалине :-)”. Ешь сколько хочешь, пришлось отказываться, все-таки после такой дистанции не хочется сразу много есть. В здании лыжной базы можно было переодеться.\nЧто сказать под конец? Да, Сахалин далеко, но я ни секунду не жалею, что просидел 8,5 часов в самолете, чтобы добраться сюда и что я несколько дней нормально не поспал. Это все стоит инвестировать, чтобы покататься по трассе Сахалинского марафона. Для меня это было как я люблю - не гонка, а путешествие. \nСпасибо Сахалину, что мне подарил такую шикарную погоду.\n\nMy personal experience with Sakhalin Ski Marathon. From the start in Lesnoe village, along the coast of Okhotskoe Sea, throught the forests and over the Chekhov's pass down to Yuzhno-Sakhalinsk.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=iX9mtvIB6Rc",
+          "curated": true,
+          "curation_reason": "Personal race documentation showing travel logistics and race atmosphere with specific details about challenging weather conditions.",
+          "display_order": 2
+        },
+        {
+          "video_id": "ugsDbLxe320",
+          "title": "Сахалинский лыжный марафон 2024",
+          "channel": "A. Brukhtey Ski \"Po-Krasote\"",
+          "view_count": 5065,
+          "upload_date": "20240401",
+          "duration_string": "23:13",
+          "description": "Лучшие моменты Сахалинского марафона от первого лица, нечестные обгоны и хитрости, что я о них думаю... Как я выбирался с хвоста лыжного пеллотона... Мои впечатления от лыжной трассы, мнение о скольжении лыж и погоде, а также многое многое другое, погнали смотреть.\nСсылка на сломанную палку: https://youtu.be/ThsVtJODeLM\nСсылка на спусск с перевала Чехова в Южно-Сахалинске: https://youtu.be/NsdZXr61F_A\nСсылка накатки на лыжи: https://youtu.be/qsnYjb6PYpY\n\n\n#всеналыжи #беговыелыжи #лыжныегонки\nМои Соц Сети:\nИнстаграмм: @brukhteialexandr\nStrava:              https://www.strava.com/athletes/43312784\nVK:                    http://vk.com/id179367116\nПрофиль Garmin: https://connect.garmin.com/modern/profile/ffe6525b-4980-4cd2-9869-acc66f74cf27\nМой профиль в Strava: https://www.strava.com/athletes/43312784\n\n\n\n#беговыелыжи #лыжи #лыжныегонки #ski #лыжероллеры #подготовкалыж #лыжныйконтент",
+          "tags": [
+            "беговые лыжи",
+            "лыжи",
+            "лыжные гонки",
+            "лыжные соревнования",
+            "подготовка лыж",
+            "все на лыжи",
+            "всеналыжи",
+            "коньковый ход на лыжах",
+            "лыжероллеры",
+            "лыжные гонки сегодня",
+            "техника конькового хода на лыжах",
+            "беговые лыжи мужчины",
+            "лыжные гонки мужчины",
+            "лыжи мужчины",
+            "лыжный марафон",
+            "лыжня россии",
+            "лыжи телеметрия",
+            "лыжи для начинающих",
+            "лыжи фишер",
+            "лыжи брадос",
+            "лыжи коньковый ход",
+            "лыжная мотивация",
+            "лыжная техника конькового хода",
+            "марафон russia loppet",
+            "марафоны россии",
+            "Сахалинский марафон 2024"
+          ],
+          "url": "https://www.youtube.com/watch?v=ugsDbLxe320",
+          "curated": true,
+          "curation_reason": "Recent first-person POV race recap with detailed commentary on course conditions, technique, and race experience.",
+          "display_order": 1
+        },
+        {
+          "video_id": "_r9aWqSz7fw",
+          "title": "Лыжный марафон памяти Игоря Фархутдинова. Сахалин 2018",
+          "channel": "Газпром трансгаз Томск",
+          "view_count": 218,
+          "upload_date": "20180306",
+          "duration_string": "3:01",
+          "description": "Свыше 300 спортсменов стали участниками 19 сахалинского международного лыжного марафона, посвящённого памяти Игоря Фархутдинова. Старты проходили одновременно в двух местах. Одни соперничали в Южно-Сахалинске, другие - в селе Лесное Корсаковского района. Именно там состоялась самая массовая и протяжённая гонка.\n\nhttps://skr.su/news/282379\nОТВ,  \"Центр внимания\", ЭФИР 2018.03.05\n\nГенеральный партнёр лыжного марафона— ООО «Газпром трансгаз Томск».\n\nПонравилось видео? Подпишись на наш канал: http://www.youtube.com/channel/UCYSeimq6Dxto35syMvnnPaw\n______________________________________________________\nОфициальный сайт: http://tomsk-tr.gazprom.ru/\n------------------------------------------------------\nСообщества в социальных сетях:\n\"Вконтакте\" - http://vk.com/gazpromtransgaztomsk\n\"Facebook\" - https://www.facebook.com/gazpromtransgaztomsk/",
+          "tags": [
+            "Gazprom (Business Operation)",
+            "Газпром трансгаз Томск",
+            "Tomsk (City/Town/Village)",
+            "Video Game Culture",
+            "лыжный марафон",
+            "Международный сахалинский лыжный марафон",
+            "памяти Игоря Павловича Фархутдинова",
+            "камчатский край",
+            "Tourist Destination",
+            "Tourism (Interest)",
+            "gazprom",
+            "Gazprom",
+            "Gazprom Transgaz Tomsk",
+            "sevapolk",
+            "gtt",
+            "gtt40",
+            "гонки",
+            "всеволод полковников"
+          ],
+          "url": "https://www.youtube.com/watch?v=_r9aWqSz7fw",
+          "curated": false
+        },
+        {
+          "video_id": "Mktc3n1e_Xc",
+          "title": "Mustangs at the Cross Country Ski Loppet 2023",
+          "channel": "Diane Wade",
+          "view_count": 138,
+          "upload_date": "20230209",
+          "duration_string": "2:50",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Mktc3n1e_Xc",
+          "curated": false
+        },
+        {
+          "video_id": "sQOTk5BzhjM",
+          "title": "XXI Сахалинский лыжный марафон Фархутдинова",
+          "channel": "Газпром трансгаз Томск",
+          "view_count": 82,
+          "upload_date": "20200311",
+          "duration_string": "2:25",
+          "description": "7 марта 2020 состоялся главный старт уходящей зимы. Сотни островитян стали участниками лыжного марафона имени Игоря Фархутдинова.\nГенеральный партнёр лыжного марафона — ООО «Газпром трансгаз Томск».\n\nПОДПИШИСЬ на НАШ КАНАЛ - http://www.youtube.com/channel/UCYSeimq6Dxto35syMvnnPaw\n• Жми под видео на палец вверх!\n• Оставь своё мнение (или крутой комментарий) в комментариях!\n______________________________________________________\nСообщества в социальных сетях:\n\"Вконтакте\" - http://vk.com/gazpromtransgaztomsk\n\"Facebook\" - https://www.facebook.com/gazpromtransgaztomsk/\n\"Instagram\" -  https://www.instagram.com/gazpromtransgaztomsk/\n\" YouTube \" -  http://www.youtube.com/channel/UCYSeimq6Dxto35syMvnnPaw\nПрисоединяйся!\n________________________________________________________________________\n\nПоделись этим видео с друзьями: https://youtu.be/sQOTk5BzhjM\nследи за новыми видео на нашем канале! Спасибо!\n\n#лыжныймарафон #газпромтрансгазтомск #марафонФархутдинова #газпромспорт  #Сахалин   #КомандаГазпрома #Газпром #gazprom #трансгаз   #спорт #Томск #ГТТ #tomsk #GazpromTransgazTomsk",
+          "tags": [
+            "газпромтрансгазтомск",
+            "gazprom",
+            "gazpromtranagaztomsk",
+            "лыжный марафон Фархутдинова",
+            "лыжный марафон",
+            "САХАЛИН",
+            "сахалинский лыжный марафон фархутдинова",
+            "сахалин лыжи",
+            "лыжный костюм",
+            "лыжные гонки марафон",
+            "лыжные марафоны 2020",
+            "ГТТ",
+            "южно сахалинск",
+            "город южно сахалинск",
+            "официальный южно сахалинск"
+          ],
+          "url": "https://www.youtube.com/watch?v=sQOTk5BzhjM",
+          "transcript": "[Music]\n[Applause]",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

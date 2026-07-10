@@ -6,8 +6,12 @@
     "tagline": "Fifty freezing kilometers through the Jizera Mountains — Czech grit meets Worldloppet prestige in one of skiing's toughest mid-winter classics.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km classic", "50km skate", "25km"],
-      "elevation_m": 500,
+      "distance_options": [
+        "50km classic",
+        "50km skate",
+        "25km"
+      ],
+      "elevation_m": 937,
       "altitude_m": 900,
       "location": "Bedřichov, Jizera Mountains",
       "location_badge": "Liberec Region, Czech Republic",
@@ -16,16 +20,18 @@
       "region": "Liberec Region",
       "date": "Second or third weekend in February",
       "date_specific": "2026: February 15",
-      "discipline": "classic",
-      "field_size": "~9,200 starters",
+      "discipline": "both",
+      "field_size": 6000,
       "founded": 1968,
       "registration": "Opens in autumn; sells out",
       "prize_purse": "Ski Classics prize money for pro field",
       "aid_stations": "Multiple stations with warm tea, energy food, and traditional Czech fare",
       "cutoff_time": null,
-      "website": "https://www.jizerska50.cz",
+      "website": "https://jiz50.cz",
       "lat": 50.7783,
-      "lng": 15.1383
+      "lng": 15.1383,
+      "field_size_estimate": 6000,
+      "elevation_gain_m": 937
     },
     "climate": {
       "primary": "Central European mountain winter",
@@ -85,10 +91,149 @@
         "Czech Republic's most important long-distance ski race"
       ]
     },
-    "series_membership": ["worldloppet", "ski_classics_grand_classic"],
+    "series_membership": [
+      "worldloppet",
+      "ski_classics_grand_classic"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Jizerská 50 cross country ski race Bedřichov",
+      "videos": [
+        {
+          "video_id": "vaFfTKftm5g",
+          "title": "Jizerska 50 - main race 2009",
+          "channel": "ČEZ Jizerská 50",
+          "view_count": 5042,
+          "upload_date": "20090303",
+          "duration_string": "5:13",
+          "description": "Main race - 50 kilometers free technique - of Patria Direct Jizerska 50. January 9-10, 2009, Bedrichov.",
+          "tags": [
+            "jizerska",
+            "50",
+            "padesatka",
+            "skiing",
+            "cross-country",
+            "patria",
+            "direct",
+            "worldloppet",
+            "fis",
+            "marathon",
+            "cup"
+          ],
+          "url": "https://www.youtube.com/watch?v=vaFfTKftm5g",
+          "curated": true,
+          "curation_reason": "Official race coverage of the main 50km freestyle event showing actual race footage and course layout.",
+          "display_order": 1
+        },
+        {
+          "video_id": "isLgdiUpIS4",
+          "title": "cross-country skiing in Bedrichov, Jizerske Mountains",
+          "channel": "myCzechRepubliceu",
+          "view_count": 374,
+          "upload_date": "20101114",
+          "duration_string": "27",
+          "description": "Cross-country skiing in Bedrichov, Jizerske Mountains, where the annual 50km FIS marathon takes place. Always well prepared tracks! My favourite x-c place.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=isLgdiUpIS4",
+          "curated": false
+        },
+        {
+          "video_id": "9w9GZbkzzLA",
+          "title": "The legend is back with 4 incredible days of ski racing | 58th ČEZ Jizerská 50",
+          "channel": "ČEZ Jizerská 50",
+          "view_count": 152,
+          "upload_date": "20241101",
+          "duration_string": "35",
+          "description": "🇬🇧  Registration for the 58th ČEZ Jizerská 50 is open! 💛🎉\n👉 No inflation - the price remains the same! The best entry fee is available until November 18.\n👉 We’ve secured snow insurance again this year, covering 70% of basic entry fees for individual races. Fingers crossed for snow! ❄\n👉 Enjoy 4 race days, 8 events, and an exciting program!\n👉 Book professional waxing services from SWIX; even for shorter races like the 10 km or 17 km events\nSee you in Bedřichov!\n\nhttps://jiz50.cz/en/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=9w9GZbkzzLA",
+          "curated": false
+        },
+        {
+          "video_id": "U0uftHwATUg",
+          "title": "Bedrichovska 30",
+          "channel": "ČEZ Jizerská 50",
+          "view_count": 833,
+          "upload_date": "20090302",
+          "duration_string": "1:26",
+          "description": "Patria Direct Jizerska 50 - Friday's race Bedrichovska 30 free technique - Friday, January 9, 2009.",
+          "tags": [
+            "Jizerska",
+            "50",
+            "Jiz50",
+            "padesatka",
+            "skiing",
+            "patria",
+            "direct",
+            "cross-country",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=U0uftHwATUg",
+          "curated": false
+        },
+        {
+          "video_id": "JOP1y4mGa8Y",
+          "title": "The legend continues! 59th ČEZ Jizerská 50",
+          "channel": "ČEZ Jizerská 50",
+          "view_count": 217,
+          "upload_date": "20251029",
+          "duration_string": "47",
+          "description": "Early bird for 59th ČEZ Jizerská 50 only until October 31!\n\nhttps://jiz50.cz/en/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=JOP1y4mGa8Y",
+          "curated": false
+        },
+        {
+          "video_id": "rtrvKltVtwc",
+          "title": "52. Jizerska 50 – summary",
+          "channel": "ČEZ Jizerská 50",
+          "view_count": 408,
+          "upload_date": "20190502",
+          "duration_string": "1:42",
+          "description": "Recap the last Jizerska 50 in our video to find all the important information. 7707 competitors wrote their unique story in February. What will be yours in 2020?",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=rtrvKltVtwc",
+          "transcript": "[Music]",
+          "curated": false
+        },
+        {
+          "video_id": "tqBNFOhNp3g",
+          "title": "Jizerská 50 - secure your place at the start!",
+          "channel": "ČEZ Jizerská 50",
+          "view_count": 669,
+          "upload_date": "20190927",
+          "duration_string": "30",
+          "description": "The tradition, world-class renownand beauty of Jizera Mountains. The legendary 53. ČEZ Jizerská 50 , held from the 7th–9th February 2020 will showcase all of this. Do not miss the 53rd annual traditional cross-country skiing race. You still have a chance to register at the lowest entrance fee possible by the end of September!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=tqBNFOhNp3g",
+          "curated": false
+        },
+        {
+          "video_id": "oZJVPsKpngg",
+          "title": "Jizerská 50 winter and summer",
+          "channel": "ČEZ Jizerská 50",
+          "view_count": 47,
+          "upload_date": "20180723",
+          "duration_string": "53",
+          "description": "The legendary Jizerská 50 ski cross-country race also has its summer Jizerská 50 RUN variant (August 25, 2018)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=oZJVPsKpngg",
+          "curated": false
+        },
+        {
+          "video_id": "vHwZhAhl6kA",
+          "title": "Jizerska 50 2023 Teaser Movie",
+          "channel": "Worldloppet",
+          "view_count": 141,
+          "upload_date": "20220915",
+          "duration_string": "39",
+          "description": "The Jizerska 50 is Czech Republic's premium ski race and member of the Worldloppet International Skifederation. Both, amateur skiers and professionals are enjoying the race since years. \n\nBe part of it and register now: \nwww.jiz50.cz/en",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=vHwZhAhl6kA",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

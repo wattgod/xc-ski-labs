@@ -1,0 +1,258 @@
+{
+  "race": {
+    "name": "Murmansk Ski Marathon",
+    "slug": "murmansk-ski-marathon",
+    "display_name": "Murmansk Ski Marathon (Prazdnik Severa)",
+    "tagline": "The Polar Olympiad — fifty kilometers of tundra and frozen lakes above the Arctic Circle on Russia's Kola Peninsula.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km classic",
+        "50km freestyle",
+        "25km classic",
+        "25km freestyle"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 200,
+      "location": "Murmansk, Kola Peninsula",
+      "location_badge": "Murmansk Oblast, Russia",
+      "country": "Russia",
+      "country_code": "RU",
+      "region": "Murmansk Oblast",
+      "date": "Late March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 1000,
+      "founded": 1974,
+      "registration": "Open registration via Russialoppet",
+      "prize_purse": null,
+      "aid_stations": "Multiple aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://russialoppet.ru/en/",
+      "lat": 68.9585,
+      "lng": 33.0827,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 500
+    },
+    "climate": {
+      "primary": "Arctic tundra winter",
+      "description": "Murmansk lies above the Arctic Circle at 69°N. Late March brings the return of sunlight but temperatures remain cold, typically -15°C to -5°C. The course extends from the city outskirts into higher tundra terrain with exposed sections.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Extreme cold at Arctic latitudes",
+        "Wind exposure on open tundra sections",
+        "Variable snow conditions from coastal to highland terrain",
+        "Remote location limits international accessibility"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point course leading from the outskirts of Murmansk into higher tundra terrain with hilly forest sections and frozen lakes. Classic and freestyle races held on separate days.",
+      "format": "point-to-point",
+      "surface": "Groomed tracks through tundra, forest, and frozen lake terrain",
+      "technical_rating": 3,
+      "grooming": "Good Russian competition standard",
+      "features": [
+        "Course extends from city outskirts into Arctic tundra",
+        "Hilly forest sections mixed with frozen lake crossings",
+        "Part of the historic Polar Olympiad (Prazdnik Severa)",
+        "Classic and freestyle races on separate days",
+        "One of the northernmost major ski marathons in the world"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 61,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 1,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 4,
+      "score_note": "A historic Arctic marathon with guaranteed snow and strong domestic competitive depth. International accessibility severely limited by remote location and current geopolitical situation. Part of Russialoppet and formerly Euroloppet.",
+      "tier_note": "Score 63 places in TIER 2"
+    },
+    "history": {
+      "summary": "The Murmansk Ski Marathon is part of the Prazdnik Severa (Celebration of the North), a historic Polar Olympiad tradition that dates back decades. The ski marathon component was formalized in 1974. The race has been a member of the Russialoppet series and formerly held Euroloppet membership. Located on the Kola Peninsula above the Arctic Circle, it represents one of the most extreme latitudes for organized marathon ski racing.",
+      "notable_facts": [
+        "Part of the historic Prazdnik Severa (Celebration of the North / Polar Olympiad)",
+        "Founded in 1974 as a formal marathon distance",
+        "One of the northernmost major ski marathons in the world (69°N)",
+        "Member of the Russialoppet series",
+        "Formerly held Euroloppet membership",
+        "Both classic and freestyle distances offered on separate days"
+      ]
+    },
+    "series_membership": [
+      "russialoppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Murmansk Ski Marathon cross country ski race Murmansk",
+      "videos": [
+        {
+          "video_id": "aJGPOBk3-kQ",
+          "title": "41st Murmansk Ski Marathon #PrazdnikSevera!",
+          "channel": "Алексей Мироненко",
+          "view_count": 2205,
+          "upload_date": "20140430",
+          "duration_string": "3:43",
+          "description": "",
+          "tags": [
+            "#PrazdnikSevera",
+            "Ski Marathon",
+            "#Russialoppet",
+            "Murmansk (City/Town/Village)"
+          ],
+          "url": "https://www.youtube.com/watch?v=aJGPOBk3-kQ",
+          "curated": true,
+          "curation_reason": "Race coverage of the 41st Murmansk Ski Marathon showing the traditional Prazdnik Severa atmosphere.",
+          "display_order": 4
+        },
+        {
+          "video_id": "DTjfcGJx6Ok",
+          "title": "Skiing in Murmansk",
+          "channel": "MiMi Dansaikul",
+          "view_count": 79,
+          "upload_date": "20190420",
+          "duration_string": "2:30",
+          "description": "April2019 , aurora hunting trip. Murmansk, Russia.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=DTjfcGJx6Ok",
+          "transcript": "[Music]\n[Applause]",
+          "curated": false
+        },
+        {
+          "video_id": "sCNCdW_wd4k",
+          "title": "26-й Лыжный марафон || Киржач 2026",
+          "channel": "Дёке. Сайдинг, фасады, кровля, водостоки",
+          "view_count": 2208,
+          "upload_date": "20260303",
+          "duration_string": "2:11",
+          "description": "23 февраля 2026 года город Киржач в 26-й раз принял один из самых душевных и значимых лыжных стартов России — марафон памяти погибших сотрудников Центра специального назначения ФСБ России.\n🏁 399 участников из  45 городов страны — от Мурманска до Воронежа — вышли на старт солнечным февральским утром. Четыре дистанции: 3 км, 10 км, 20 км и легендарные 50 км классическим стилем.\n\n🥇 Победители главной гонки (50 км):\n1️⃣ Андрей Бабичев — 2:22:57\n2️⃣ Евгений Цепков — 2:24:54\n3️⃣ Артём Грязев — 2:26:23\n🥇 Победительница на 20 км:\n1️⃣ Любовь Ушакова — 1:05:53\n\n⭐ В этот день на финише встречали настоящих героев: 84-летняя Любовь Легеза из Москвы прошла все 20 километров и сорвала шквал аплодисментов на награждении!\n\n🏅 Гостями и участниками церемонии награждения стали двукратная олимпийская чемпионка Ольга Данилова, чемпион мира Александр Кутукин и Герой России полковник Александр Копылов.\n\n❄️ Соревнования — это не просто спорт. Это дань памяти, традиция и живое сообщество людей, которых объединяют лыжи, характер и уважение к тем, кто отдал жизнь за Родину.\n=======================================\n#лыжныймарафон #Киржач  #лыжныегонки #лыжи #февраль2026 #классика #марафон #спорт #вымпел \n=======================================\n✓ Сайт Дёке: https://www.docke.ru/\n✓ Дёке в RuTube: https://rutube.ru/channel/24621492/\n✓ Дёке в Яндекс.Дзен: https://zen.yandex.ru/docke\n✓ Дёке во Вконтакте: https://vk.com/dockeru\n✓ Дёке в Одноклассниках: https://ok.ru/dockeru\n✓ Дёке в Telegram: https://t.me/dockeofficial \n✓ Купить в интернет-магазине Дёке: https://dtm.ru/ \n✓ Docke Pay: https://dockepay.ru/",
+          "tags": [
+            "cross country skiing",
+            "skiing",
+            "winter sports",
+            "nordic skiing",
+            "sports news",
+            "киржач",
+            "лыжный марафон",
+            "школа серегина",
+            "марафон 2026",
+            "лыжный спорт"
+          ],
+          "url": "https://www.youtube.com/watch?v=sCNCdW_wd4k",
+          "curated": false
+        },
+        {
+          "video_id": "VDtkaP1-4rw",
+          "title": "46ой Праздник Севера - 25км классикой /46th Nord Fest in Murmansk - 25km on classic ski",
+          "channel": "Sergey Zharkov",
+          "view_count": 137,
+          "upload_date": "20190409",
+          "duration_string": "1:32",
+          "description": "Мой первый ПМ на лыжах :) \nIt's my first ski half marathon)\nhttps://www.strava.com/activities/2254251449",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=VDtkaP1-4rw",
+          "curated": false
+        },
+        {
+          "video_id": "DBHOiF6TyaA",
+          "title": "Лыжный марафон",
+          "channel": "НАЦИОНАЛЬНЫЙ ЖИЛИЩНЫЙ КАНАЛ",
+          "view_count": 732,
+          "upload_date": "20160329",
+          "duration_string": "6:00",
+          "description": "В эти выходные в Долине Уюта состоялся 43-ий мурманский международный лыжный марафон. В нем принял участие 921 лыжник из России, Беларуси, Австралии, Норвегии, Финляндии, Италии и Германии. Марафон стал финальным аккордом в программе 82-го традиционного праздника севера.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=DBHOiF6TyaA",
+          "curated": true,
+          "curation_reason": "Race coverage of the 43rd Murmansk International Ski Marathon showing international participation and course details.",
+          "display_order": 2
+        },
+        {
+          "video_id": "r36KX12VExs",
+          "title": "Официальный видеоотчет - 46-й Мурманский лыжный марафон (50 км) 2019 год.",
+          "channel": "Облспорт 51",
+          "view_count": 32,
+          "upload_date": "20190428",
+          "duration_string": "12:41",
+          "description": "Представляем вашему вниманию официальный видеоотчет о 46-м Мурманском лыжном марафоне по программе Euroloppet и Кубка лыжных марафонов России \"Russialoppet\" в рамках 85-го Праздника Севера, проходившем 30 и 31 марта 2019 года в СК \"Долина Уюта\" г. Мурманска. \nПроизводство: Видеостудия \"ПРЕМЬЕРА\".",
+          "tags": [
+            "Полярная олимпиада",
+            "Праздник Севера",
+            "Мурманск",
+            "Лыжный марафон",
+            "Алексей Петухов"
+          ],
+          "url": "https://www.youtube.com/watch?v=r36KX12VExs",
+          "curated": true,
+          "curation_reason": "Official race coverage of the 46th Murmansk Ski Marathon with comprehensive course footage and race atmosphere.",
+          "display_order": 1
+        },
+        {
+          "video_id": "YoA1PvemnFU",
+          "title": "THE BRUTAL SKI RACE - ORSA SKI MARATHON!",
+          "channel": "BjörnRandén",
+          "view_count": 1049,
+          "upload_date": "20180211",
+          "duration_string": "7:39",
+          "description": "Truly a brutal experience, but I made it and fulfilled my goal with the race! \nCongrats to Charlotte Kalla to won the first medal of the olympics! \n\nhttp://instagram.com/b_randen\n\nPatreon support\nhttps://www.patreon.com/bjornranden\n\nMY GEAR\nPrimary camera: https://goo.gl/xU2n8c\nSHIOTGUN MIC: https://goo.gl/tsyiu2\nLAVALIER MIC: https://goo.gl/CtZEHz\nTRIPOD:  https://goo.gl/h8Z3I7\nSTEADYCAM: https://goo.gl/2UBRQb\nFIXED LENS: https://goo.gl/2GXjHz\nWIDE LENS: https://goo.gl/CAGXkK\nKIT LENS: https://goo.gl/uW2EUb\nDRONE:  https://goo.gl/hmj5yr (BUY WITH THIS LINK SUPPORTS MY CHANNEL)\nGOPRO: https://goo.gl/izwWRp\nGIMBAL: https://goo.gl/o0I5do\n\nWatch more VLOGS in playlist\nhttps://goo.gl/Rq4LA5\n\nMusic by Epidemic Sound\n\nProduced by Björn Randén",
+          "tags": [
+            "VLOG",
+            "FAMILYMAN",
+            "CANON",
+            "DJI",
+            "MAVIC",
+            "PRO",
+            "ORSA",
+            "GRÖNKLITT",
+            "SKI",
+            "MARATHON",
+            "AXA",
+            "VASALOPPET",
+            "SEEDNINGSLOPP",
+            "QUALIFICATIONS",
+            "CARAVAN",
+            "CAMPING",
+            "WAX",
+            "RACE",
+            "GOPRO",
+            "TRAINING",
+            "GOALS",
+            "HEALTH",
+            "SWEDEN"
+          ],
+          "url": "https://www.youtube.com/watch?v=YoA1PvemnFU",
+          "transcript": "good morning everybody\nrace day whoo I am so nervous\nI'm not used to doing races just\nfinishing up the video from yesterday\nwhich you probably already have seen are\nwatching the Olympics from Pyeongchang\nit's key at long we have kala kalah up\nin the front house is outside preparing\nskis I'm just gonna export this video\nupload it to YouTube from the caravan\nand then I would do fix my skis I\nalready have the glide fixed I need like\nthe the wax for the grip in play the\nstart is in two and a half hours so just\ngonna grab the sandwich girl to fix the\nskis go back and eat some more it's\nimportant to eat then it's go time for\nthe race so yeah let's get some drone\nshots and do some orientation here okay\nit's snowing that means it's gonna be\nslower gonna prepare the skis also we\nare watching gonna watch the race\n[Applause]\n[Music]\nbest possible start in the Olympics\nfirst and fourth place in this key I've\ngone for the ladies come on Carla Oh\nwater rages booze okay I might not be\nable to do the race we're good to go\nchanging clothes in the caravan ready to\ngo ready to race so during the race\nobviously I will focus on doing the race\nI'm gonna bring my phone maybe take some\nshots of the starting area and after and\nokay this is it\n8:47 not the winning number all right\ncase we have 30 minutes to go I'm gonna\nrace but posture the camera guy he's\njust gonna ride for fun\njust save about it how's the Swedish\ncrowns dead\nstealing good shape and is still gonna\ndo great have also loved it right no\nproblem no problem\nI made it 3 hours 26 minutes that is way\nbetter than expected now we'll go and\ndie in the caravan\nok so race report from today's race it\nwas a rough one really rough one I've\nbeen in the shower of like 1 hour trying\nto heal my broken body so I did a\ntactical mistake here I started a bit up\nfront with some fast through people\nthinking that I would gain some time but\nwhat happened on the first lap there are\ntwo laps these people actually they were\ntoo fast for me\nso trying to catch up with them I burned\na lot of energy which I needed for the\nsecond lap so first lap very fast\nsecond lap bit slower but I got a total\ntime of 3 hours and 26 minutes and that\ngives me starting line 9 or 8 not sure\nyet in Walsall open so mission\naccomplished I'm not gonna start last in\na few weeks but it was so rough brutal\nrace I'm eating candy I'm brain so fried\nI don't really know what to make of this\nvideo but yeah I made it so but we're\nstarving so we're gonna go down and eat\nsome food at the local pub here then I'm\ngoing home tomorrow story that I'm not\nso enthusiastic but I'm I'm really I'm\nreally dead yeah\nback from the pub Rebecca eating candy a\nlot of beer Pete's up doing great time\nto end today's video good news is that\nsome of the guys at the pub was talking\nabout that maybe they're gonna push\nforward the winning time for the race\ntoday\nmeaning that both me and the house most\nlikely will get moved up in Vasaloppet\nin the starting position\nlet's see and but we're not sure yet so\nI would have to get back to you on that\none okay so that was a race video I'm\nthe cameraman\nI'm the skier and when I ski I don't\nbring the camera so not much video but\nhope you survive see you around",
+          "curated": false
+        },
+        {
+          "video_id": "Dd1nKDCuoWM",
+          "title": "Murmansk marathon 2018",
+          "channel": "Михаил Иваненко",
+          "view_count": 2606,
+          "upload_date": "20180330",
+          "duration_string": "3:32",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Dd1nKDCuoWM",
+          "curated": true,
+          "curation_reason": "Race footage from the 2018 Murmansk Marathon showing course conditions and skier experience.",
+          "display_order": 3
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

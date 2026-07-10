@@ -6,7 +6,11 @@
     "tagline": "42 kilometers point-to-point through northern Michigan's frozen forests — the state's oldest and most iconic Nordic marathon since 1977.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km", "20km", "10km"],
+      "distance_options": [
+        "42km",
+        "20km",
+        "10km"
+      ],
       "elevation_m": 350,
       "altitude_m": 380,
       "location": "Mancelona to Bellaire, Michigan",
@@ -17,7 +21,7 @@
       "date": "First Saturday in February",
       "date_specific": "2026: February 7",
       "discipline": "both",
-      "field_size": "~400-600",
+      "field_size": 400,
       "founded": 1977,
       "registration": "Opens in fall",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.whitepinestampede.org",
       "lat": 44.9022,
-      "lng": -85.0614
+      "lng": -85.0614,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 350
     },
     "climate": {
       "primary": "Northern Michigan lake-effect winter",
@@ -87,8 +93,117 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "White Pine Stampede cross country ski race Mancelona to Bellaire",
+      "videos": [
+        {
+          "video_id": "QgqJFNgQlBo",
+          "title": "2009 White Pine Stampede - Michigan Skier Television",
+          "channel": "Jennie McCafferty",
+          "view_count": 588,
+          "upload_date": "20090207",
+          "duration_string": "6:51",
+          "description": "The White Pine Stampede had over 400 skiers participate this year.  It is one of Michigan's premier cross country ski races.",
+          "tags": [
+            "2009",
+            "White",
+            "Pine",
+            "Stampede",
+            "michigan",
+            "skier",
+            "television",
+            "tv",
+            "shanty",
+            "creek",
+            "resort",
+            "cross",
+            "country",
+            "bellaire",
+            "mancelona"
+          ],
+          "url": "https://www.youtube.com/watch?v=QgqJFNgQlBo",
+          "curated": true,
+          "curation_reason": "Race coverage showcasing one of Michigan's premier cross country ski events with over 400 participants.",
+          "display_order": 3
+        },
+        {
+          "video_id": "yrcLfSR84LE",
+          "title": "2014 North American Vasa XC 27K Ski Race",
+          "channel": "dirtkahuna",
+          "view_count": 1731,
+          "upload_date": "20140211",
+          "duration_string": "16:03",
+          "description": "The biggest race in Michigan's Lower Peninsula! It was much colder than predicted, but the sun was shining and there was ample snow. Once again NordicSkiRacer.com Master Skier Doug Cornell rocks the head-cam to tunes by The Dirt Surfers.",
+          "tags": [
+            "vasa",
+            "xc skiing",
+            "traverse city",
+            "michigan",
+            "dirt surfers",
+            "Nordic Skiing (Sport)",
+            "Cross-country Skiing (Sport)"
+          ],
+          "url": "https://www.youtube.com/watch?v=yrcLfSR84LE",
+          "curated": true,
+          "curation_reason": "POV head-cam footage of Michigan's biggest Lower Peninsula race with detailed course experience.",
+          "display_order": 2
+        },
+        {
+          "video_id": "TPiZaC-9B1k",
+          "title": "2019 White Pine Stampede 50km Start",
+          "channel": "NordicSkiRacer",
+          "view_count": 272,
+          "upload_date": "20190203",
+          "duration_string": "47",
+          "description": "Start of the 2019 White Pine Stampede 50km in Mancelona, Michigan. The White Pine Stampede is a Michigan Cup Series race.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=TPiZaC-9B1k",
+          "curated": false
+        },
+        {
+          "video_id": "Z6CQbGtkUPs",
+          "title": "2010 White Pine Stampede 40K Race Michigan Skier GLSP",
+          "channel": "Jennie McCafferty",
+          "view_count": 597,
+          "upload_date": "20100207",
+          "duration_string": "8:36",
+          "description": "2010 White Pine Stampede 40K Race",
+          "tags": [
+            "2010",
+            "White",
+            "Pine",
+            "Stampede",
+            "40K",
+            "Race",
+            "Michigan",
+            "Skier",
+            "GLSP"
+          ],
+          "url": "https://www.youtube.com/watch?v=Z6CQbGtkUPs",
+          "transcript": "welcome to the Michigan skier show join\nus each time as we explore the people\nthe places and the events that shape our\ngreat sport welcome to the Stampede hey\nJack any pre-race uh words for the for\nthe camera here yeah it's a beautiful\nday isn't it beautiful day man Salona\nnumber but look at the track it's all\nnice it's great uh probably 98% perfect\nthe sun's out there's a nip in the air a\nnip in the air what more can we ask for\nwould you have a nip in your pocket with\nthe bottle there Jack h no I wouldn't I\nhad some water but that's all right well\ngood we see talk to me about 5:00 it\nmight be a different answer we'll see\nyou after the\n[Music]\nrace go go go go go\ngo\n[Applause]\nit's\nso you've been here and you've U been at\nthis it's a station for several years I\nguess several years yes yes and you\nmention every kind of weather yes we\nhave we've had uh 45° weather all the\nway to below zero weather wow yeah so\nthis is about Perfect Isn't it\nabsolutely water cookies water and\noranges water\ncookies\nwater\nwater job water\nhe\nway to go way to go thank you\ngo good job good job good\njob good job job way to go way to go way\nto go good\njob\nTracy Tracy tand\nwhat\nfirst good\nall right we're rolling hey and you are\nCheryl D an arbor Tracy hard machine\nCarlson gring Michigan all right we have\none two and three how' your race go\ntoday obviously you went pretty good\nbeautiful it was sunny these two are\nwonderful field ski with they were right\nbehind you weren't they they were right\nin front of me for Mo right in front of\nyou was so when did you make the pass\nwhat was it 259 29 somewhere in there\nand she took the uphills and that was\nthat whaty great how many times you ski\nWhite Pine this was my H second time\nsecond time I skied this about 25 years\nago so I'm a little little I did the\nfirst to maybe five back in the 70s '\n80s yeah that's okay and how about\nyourself\nI don't know 12 12 years maybe I mean\nnot all in order between babies well\nwell congratulations guys did a great\njob and we'll we'll see you on YouTube\nall\nright all\nright\nWest Lake Ohio coming up the hill number\nhere good job fourth woman overall\nnicely\ndone our first classic Champion right\nhere right\n40K classic congratulations the champion\nyour name again Gerard how many times\nyou ski this Gerard it's my second\nsecond last year I won the 20 somek\nclassic so I said I had to do this well\ncongratulations thanks man you're best\nsee on YouTube great course great Inc\ncourse and day wasn't too bad either\nCity come on\nCH\nRockford\nhere we hope you enjoy\nshow\nl",
+          "curated": true,
+          "curation_reason": "Features race coverage with skier interviews, course commentary, and finish line footage showing the race atmosphere.",
+          "display_order": 1
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It's a beautiful day isn't it beautiful day man. Look at the track it's all nice it's great uh probably 98% perfect the sun's out there's a nip in the air.",
+          "source_video_id": "Z6CQbGtkUPs",
+          "source_channel": "Jennie McCafferty",
+          "source_view_count": 597,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "We've had uh 45° weather all the way to below zero weather. So this is about Perfect Isn't it absolutely.",
+          "source_video_id": "Z6CQbGtkUPs",
+          "source_channel": "Jennie McCafferty",
+          "source_view_count": 597,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

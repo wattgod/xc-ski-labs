@@ -1,0 +1,97 @@
+{
+  "race": {
+    "name": "Muffin Race",
+    "slug": "muffin-race",
+    "display_name": "Muffin Race",
+    "tagline": "Bozeman's beloved casual classic — ski 25 kilometers through the Bridger Mountains and earn a homemade muffin at the finish.",
+    "vitals": {
+      "distance_km": 25,
+      "distance_options": [
+        "25km classic/skate",
+        "10km short course"
+      ],
+      "elevation_m": 400,
+      "altitude_m": 1800,
+      "location": "Bohart Ranch, Bozeman, Montana",
+      "location_badge": "Montana, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Montana",
+      "date": "Late January",
+      "date_specific": "2026: January 31",
+      "discipline": "both",
+      "field_size": 100,
+      "founded": 1990,
+      "registration": "Day-of registration available",
+      "prize_purse": null,
+      "aid_stations": "One aid station mid-course, muffins at finish",
+      "cutoff_time": null,
+      "website": "https://www.crosscutmt.org",
+      "lat": 45.7536,
+      "lng": -110.9355,
+      "field_size_estimate": 125,
+      "elevation_gain_m": 400
+    },
+    "climate": {
+      "primary": "Northern Rocky Mountain winter",
+      "description": "Late January in the Bridger Mountains brings cold, dry conditions with reliable snowpack. Temperatures typically -15°C to -5°C. Altitude adds bite to the cold.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "High altitude cold — temperatures can drop below -20°C",
+        "Dry, powdery snow can make grooming challenging",
+        "Wind exposure on open meadow sections"
+      ]
+    },
+    "course": {
+      "primary": "A 25km loop through the Bridger Mountains at Bohart Ranch Cross Country Ski Center. The course winds through subalpine forest with meadow openings offering views of the Bridger Range and Gallatin Valley. Moderate climbing with some fun descents.",
+      "format": "loop",
+      "surface": "Machine-groomed Nordic trails at Bohart Ranch",
+      "technical_rating": 2,
+      "grooming": "Good quality grooming at Bohart Ranch",
+      "features": [
+        "Homemade muffins at the finish line — the race's signature tradition",
+        "Beautiful Bridger Mountain scenery",
+        "Mix of forest trails and open meadow sections",
+        "Casual, community-oriented atmosphere",
+        "Day-of registration keeps it accessible"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 49,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 4,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "A charming local race with Montana mountain scenery and beloved muffin tradition. Very small field and minimal organization keep it firmly in community-race territory. The Bridger Mountains setting is beautiful."
+    },
+    "history": {
+      "summary": "A grassroots race organized by the Bridger Ski Foundation and held at Bohart Ranch near Bozeman. Known for its homemade muffin tradition at the finish line, it's a beloved community event that draws local skiers for a fun winter outing in the Bridger Mountains.",
+      "notable_facts": [
+        "Named for the homemade muffins served at the finish",
+        "Bohart Ranch sits at 6,000+ feet in the Bridger Mountains",
+        "One of Montana's most casual and community-driven Nordic events",
+        "The Bozeman area has a thriving Nordic skiing community"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": null,
+      "search_query": null,
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

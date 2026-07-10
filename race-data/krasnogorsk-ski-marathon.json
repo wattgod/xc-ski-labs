@@ -1,0 +1,304 @@
+{
+  "race": {
+    "name": "Krasnogorsk Ski Marathon",
+    "slug": "krasnogorsk-ski-marathon",
+    "display_name": "Krasnogorsk Ski Marathon",
+    "tagline": "Fifty kilometers just outside Moscow's ring road — fifteen hundred skiers make this Russialoppet's most accessible mass-start marathon.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km",
+        "10km"
+      ],
+      "elevation_m": 280,
+      "altitude_m": 180,
+      "location": "Krasnogorsk, Moscow Oblast",
+      "location_badge": "Moscow Oblast, Russia",
+      "country": "Russia",
+      "country_code": "RU",
+      "region": "Moscow Oblast",
+      "date": "Early March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 1500,
+      "founded": null,
+      "registration": "Online registration via Russialoppet",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.russialoppet.ru",
+      "lat": 55.8204,
+      "lng": 37.3385,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 280
+    },
+    "climate": {
+      "primary": "Central Russian continental",
+      "description": "Moscow Oblast climate with moderate cold. Early March temperatures typically -10°C to 0°C. Snow conditions can be marginal as spring approaches.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Late-season thaw risk — snow can be soft",
+        "Crowded start with 1,500 skiers",
+        "Variable conditions near Moscow's urban heat island",
+        "Early March sun can soften afternoon snow"
+      ]
+    },
+    "course": {
+      "primary": "Gently rolling course through Moscow Oblast's suburban forests near Krasnogorsk. Relatively flat terrain with gentle undulations through mixed forest.",
+      "format": "loop",
+      "surface": "Groomed trails through suburban forest",
+      "technical_rating": 2,
+      "grooming": "Good grooming standard with machine preparation",
+      "features": [
+        "Most accessible Russialoppet event from Moscow",
+        "Large field creates mass-start energy",
+        "Well-organized with multiple distance options",
+        "Good transport links to Moscow"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 4,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 5,
+      "community": 4,
+      "scenery": 2,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "Maximum accessibility from Moscow and a large field make this one of Russialoppet's most popular events. Suburban setting and late-season timing limit snow reliability and scenery.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Krasnogorsk Ski Marathon takes place in Krasnogorsk, a city directly adjacent to Moscow's northwestern boundary. Its proximity to the capital makes it one of the most accessible Russialoppet events.",
+      "notable_facts": [
+        "Located just outside Moscow's MKAD ring road",
+        "One of the most accessible Russialoppet events by public transport",
+        "Large field drawn from Moscow's metropolitan population",
+        "Part of the Russialoppet national marathon series"
+      ]
+    },
+    "series_membership": [
+      "russialoppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Krasnogorsk Ski Marathon cross country ski race Krasnogorsk",
+      "videos": [
+        {
+          "video_id": "I6JxA0FaYjI",
+          "title": "50 km ski cross-country marathon in Krasnogorsk 21-02-2010.mpg",
+          "channel": "Mastermind501235",
+          "view_count": 410,
+          "upload_date": "20100224",
+          "duration_string": "1:09",
+          "description": "",
+          "tags": [
+            "cross-country",
+            "ski",
+            "Krasnogorsk",
+            "Лыжи",
+            "Красногорск"
+          ],
+          "url": "https://www.youtube.com/watch?v=I6JxA0FaYjI",
+          "curated": false
+        },
+        {
+          "video_id": "7rC38jGwkDQ",
+          "title": "Finlandia Ski Marathon 2010",
+          "channel": "FinlandiaSkiMarathon",
+          "view_count": 5642,
+          "upload_date": "20100227",
+          "duration_string": "1:49",
+          "description": "Start 50 km 27.2.2010",
+          "tags": [
+            "Lahti",
+            "Cross Country",
+            "Marathon",
+            "ski",
+            "World Cup"
+          ],
+          "url": "https://www.youtube.com/watch?v=7rC38jGwkDQ",
+          "curated": false
+        },
+        {
+          "video_id": "1sw2dpG7DrA",
+          "title": "Старт красногорского марафона",
+          "channel": "Evgenii Kolganov",
+          "view_count": 103,
+          "upload_date": "20130225",
+          "duration_string": "24",
+          "description": "Инцидент на старте",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=1sw2dpG7DrA",
+          "curated": false
+        },
+        {
+          "video_id": "RLPeQqQMIDk",
+          "title": "Красногорский марафон 2023 с телеметрией.",
+          "channel": "Саня Kimi",
+          "view_count": 5848,
+          "upload_date": "20230223",
+          "duration_string": "1:00:37",
+          "description": "#лыжныегонки #красногорск #марафон \n23.02.2023 года.\n\nКрасногорский марафон 2023. Снег,снег и еще снег:\nhttps://youtu.be/N3WgAsz5sCk\n\nТрадиционный «Красногорский марафон» - это мероприятие с более чем 35-летней историей. На протяжении всего этого времени в Красногорске проводятся различные лыжные старты, приуроченные ко Дню защитника Отечества. А с 2009 года здесь проходит полноценный лыжный марафон, который значится в официальном календаре всероссийских марафонов. В прошлом году, несмотря на снег и сильный мороз, на трассы вышли более 400 лыжников. 180 из них рискнули преодолеть марафонскую дистанцию в 50 километров.\n\nВ этом году состоится 13-й «Красногорский лыжный марафон». Он пройдёт в воскресенье, 19 февраля. \n\nМесто проведения: Московская обл., г.Красногорск, ул. Речная, д. 37 (лыжный стадион «Зоркий»).\n\n«Красногорский марафон» входит в серию RussiaLoppet «Кубок Марафонов России», все старты проводятся в соответствии с официальным регламентом серии.",
+          "tags": [
+            "Красногорский марафон с телеметрией",
+            "красногорск",
+            "зоркий",
+            "стадион зоркий",
+            "лыжные гонки",
+            "коньковый ход",
+            "беговые лыжи",
+            "cross-country skiing",
+            "лыжи",
+            "соревнования",
+            "russialoppet",
+            "Союза марафонов «Лыжная Россия»",
+            "лыжные марафоны",
+            "коньковые лыжи",
+            "марафон",
+            "marathon",
+            "лыжный марафон",
+            "тамгдетникогданебыл",
+            "Cерия лыжных марафонов",
+            "марафон на лыжах",
+            "50 км на лыжах",
+            "50 км",
+            "бегом на лыжах",
+            "московский марафон",
+            "Красногорский марафон",
+            "Russialoppet",
+            "красногорский лыжный марафон"
+          ],
+          "url": "https://www.youtube.com/watch?v=RLPeQqQMIDk",
+          "curated": true,
+          "curation_reason": "Recent 2023 POV race footage with telemetry data from the Krasnogorsk Marathon, providing detailed skier perspective.",
+          "display_order": 1
+        },
+        {
+          "video_id": "ThfKmmQaM3o",
+          "title": "Canadian Ski Marathon 2009: Prelude",
+          "channel": "Peter XC",
+          "view_count": 851,
+          "upload_date": "20091027",
+          "duration_string": "5:06",
+          "description": "Prelude to one person's experience as a Coureur de Bois Gold skier in the 160km, 2 day Canadian Ski Marathon (CSM). The CSM is North Americas longest and oldest Nordic ski tour. Friday: Registration and packing Saturday morning: breakfast and getting bussed to the start in Lachute. I'll be uploading videos of each day skiing shortly; stay tuned.\r\n\r\nNext Video:\r\nhttp://www.youtube.com/watch?v=X4C6UFWhwUo",
+          "tags": [
+            "Canadian Ski Marathon",
+            "cross-country ski",
+            "X-country ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=ThfKmmQaM3o",
+          "transcript": "here\nokay\nbig smile there you go\nbe\nyou're mortalized\nhmm he's really wrapping it\nhello\nall these smiling faces this morning\nafter a good night's\nbut they're still sleep\nit's\n5 30 in the morning i've been up since\nthree\num\nuh 2009 version of the canadian steam\nmarathon looking forward to it and uh\ndidn't get a lot of sleep but uh\nthat's part of the course\nso let's go get to the start line\ni'm going to skip this line completely\nand see what we can do\ngetting last minute waxing job\nlooks like it's probably over there\npeople are stocking up on food right\nand so let's have a good day let's book\nit get up\noh there's that family i see them over\ny'all gonna smile for the camera\ni see you folks here every year\nyou're going gold again this year okay\noh not all of you they're doing gold\nthese were bronze and on the silver okay\nwell enjoy i'll see you out there\nthere we go",
+          "curated": false
+        },
+        {
+          "video_id": "slTJsGABh7w",
+          "title": "Fitness One Krasnogorsk Marathon",
+          "channel": "Валентин Владимирович (Ватракшин)",
+          "view_count": 252,
+          "upload_date": "20131204",
+          "duration_string": "8:35",
+          "description": "г. Красногорск, 01.12.2013\nГорка, снег, лёд и 42,195км испытаний на выносливость!\nФрагменты с 1-го и 55-го кругов)",
+          "tags": [
+            "марафон",
+            "зима",
+            "бег"
+          ],
+          "url": "https://www.youtube.com/watch?v=slTJsGABh7w",
+          "curated": false
+        },
+        {
+          "video_id": "v9h_zSz7woI",
+          "title": "1st Contour HD test with running skis",
+          "channel": "Mikhail S.",
+          "view_count": 645,
+          "upload_date": "20100114",
+          "duration_string": "4:10",
+          "description": "Krasnogorsk ski track.Near Moscow",
+          "tags": [
+            "contour",
+            "HD",
+            "camera",
+            "Hi",
+            "defenition",
+            "univega",
+            "Russia",
+            "Moscow",
+            "test",
+            "Krasnogorsk.",
+            "1st",
+            "Contour",
+            "with",
+            "running",
+            "skis.",
+            "(and",
+            "bike",
+            "at",
+            "begining)"
+          ],
+          "url": "https://www.youtube.com/watch?v=v9h_zSz7woI",
+          "curated": true,
+          "curation_reason": "POV skiing footage on the Krasnogorsk ski track showing course terrain and conditions from skier perspective.",
+          "display_order": 3
+        },
+        {
+          "video_id": "6pX0K2_ZBPo",
+          "title": "Krasnogorsk 11 08 2007",
+          "channel": "Mastermind501235",
+          "view_count": 414,
+          "upload_date": "20091117",
+          "duration_string": "7:06",
+          "description": "",
+          "tags": [
+            "Mountain",
+            "Bike",
+            "Красногорск",
+            "XC",
+            "Trail",
+            "Specialized",
+            "Stumpjumper",
+            "FSR",
+            "Cannondale",
+            "Rush"
+          ],
+          "url": "https://www.youtube.com/watch?v=6pX0K2_ZBPo",
+          "curated": false
+        },
+        {
+          "video_id": "nxSoznNhBuw",
+          "title": "The American Birkebeiner cross-country ski race",
+          "channel": "CBS Sunday Morning",
+          "view_count": 64693,
+          "upload_date": "20230319",
+          "duration_string": "5:48",
+          "description": "Since it was first held 50 years ago, the American Birkebeiner, a trek of more than 30 miles through the Northwoods of Wisconsin, modeled after a fabled bit of Norwegian history, has become the largest cross-country ski race in the U.S. Correspondent Conor Knighton reports on how enthusiasm for the festival of events surrounding the race (dubbed \"Birke fever\") has snowballed.\n#Birkebeiner #crosscountryski \n\n\"CBS Sunday Morning\" features stories on the arts, music, nature, entertainment, sports, history, science and Americana, and highlights unique human accomplishments and achievements. Check local listings for CBS Sunday Morning broadcast times.\n\nSubscribe to the \"CBS Sunday Morning\" YouTube channel: http://bit.ly/20gXwJT\nGet more of \"CBS Sunday Morning\": http://cbsn.ws/1PlMmAz\nFollow \"CBS Sunday Morning\" on Instagram: http://bit.ly/23XunIh\nLike \"CBS Sunday Morning\" on Facebook: https://bit.ly/3sRgLPG\nFollow \"CBS Sunday Morning\" on Twitter: http://bit.ly/1RquoQb\nSubscribe to our newsletter: http://cbsn.ws/1RqHw7T\nDownload the CBS News app: http://cbsn.ws/1Xb1WC8\nTry Paramount+ free: https://bit.ly/2OiW1kZ\n\nFor video licensing inquiries, contact: licensing@veritone.com",
+          "tags": [
+            "CBS Sunday Morning",
+            "CBS News",
+            "news",
+            "american birkebeiner",
+            "northwoods",
+            "wisconsin",
+            "norwegian history",
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=nxSoznNhBuw",
+          "transcript": "it's part ski Marathon part Norwegian\nHistory part Street Festival Connor\nKnighton takes us to the starting line\nof a race like none other\ns\n[Music]\neach winter thousands of cross-country\nskiers from all across the world travel\nto the North Woods of Wisconsin to\ntravel more than 30 miles between the\ntowns of cable and Hayward\nthe American birkabiner is the largest\ncross-country ski race in the country\nand the enthusiasm here is contagious we\nall got the Berkey fever and it's just\nthe excitement that builds about not\nonly the race but the whole event of\nBerkey week the official burkabiner race\nBerkey for short could fly by in a\ncouple of hours for the most elite\nskiers the leading up to the main event\nthere are days of activities there are\nshorter races for children\nforeign\ndog lovers ski with their pets teams of\nsix compete in giant ski races it's kind\nof like Comic-Con for athletes is how\nI'm looking at it Jackie and Dan daroma\nare Avid skiers Jackie has skied the\nBerkey four times Dan 17 but for this\nyear's race they wanted to do things a\nlittle differently these other Racers\nare going to be in spandex Gore-Tex you\nknow what are you gonna be wearing full\non fur\nJackie Dan and Dan's Father Jim were\nselected to be mascots of sorts skiing\nthe entire course on wooden skis dressed\nas Norwegian folk Heroes all while\ncarrying a baby doll it's a tradition\nwith roots and a far older history\nas portrayed in the film The Last King\nin the early 13th century Norway was in\nthe middle of a civil war after King\nhokan III died members of the birkaviner\nfaction skied his son the heir to the\nthrone through the woods to safety\neach year in Wisconsin three skiers\nreenact the rescue I think the the fact\nthat there is this real story about an\nevent that now you're recreating it I\nthink that's pretty darn cool and pretty\nspecial and I think it resonates with a\nlot of people Ben pop is the executive\ndirector of the American burkabiner\nwhich is modeled after a Norwegian race\nthere every competitor skis with a baby\nweight backpack to honor the Warriors\njourney of course you may be asking\nyourself why is this crazy Norwegian\nhistory have anything to do with Hayward\nWisconsin in the middle of Northwestern\nWisconsin nowhere it all came down to\none man Tony wise\nTony wise was born in Hayward and was a\nborn marketer after serving in World War\nII he decided to bring the competitive\nskiing he observed in Europe back home\nto Wisconsin a place where a\nScandinavian ancestry is common as a way\nto encourage tourism his first Berkey\nrace held 50 years ago had just 35\nparticipants most of whom had never\ncross-country skied before I swore up\nand down after that first I would never\ndo anything so foolish again but\ntoday at age 75\nErnie St Germain is the only competitor\nwho's participated in every single race\nbut there are more than 2 000 athletes\nwho have appeared in 20 or more contests\nwhich can turn into grueling all-day\nendeavors\nthe Berkey attracts skiers of varying\nages and ability levels\nyou're really gonna discover who you are\nit's one of the toughest Marathon\ncourses in the world so let yourself\nkind of Glide a little there you go good\nthat challenge is what attracts Elite\nskiers like Olympian Caitlyn Gregg who's\nwon the women's race a record setting\nfive times the Berkey course is unlike\nany other ski course that we get to race\nnot only here in the United States but\nalso in around the world and I think\nthat it's terrain is so unique and so\nchallenging that people just myself\nincluded love that aspect of it\nthe race itself has faced challenges\nposed by warmer Winters in recent\ndecades it's been canceled twice due to\nlack of snow it's really important that\nwe look at climate change and weather\nbecause if we don't have it well it's a\nbig loss the event provides a major\nboost for the local economy this town of\nfewer than 3 000 residents hosts close\nto 40 000 Spectators on race day\nhayward's Main Street overflows with\ncheering fans caught up in Berkey fever\nfor which the only prescription is more\ncowbell\nthe church bells signal the arrival of\nthe first finisher David Norris won this\nyear's men's race with a commanding lead\nCaitlyn Gregg came in third in the\nwomen's division\nthe biggest cheers of the day were\nreserved for the dromas nearly 7\nafter leaving the starting line they\nskied onto Main Street and swapped out\nthe baby doll for an actual baby\ntheir daughter Clara played the part of\nPrince Hogan for the final few blocks\nthe burkabiners saved the day\nuntil\ndo it all again next year\nI'll be ready to go",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

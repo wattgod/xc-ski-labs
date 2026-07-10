@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "Silver Star Loppet",
+    "slug": "silver-star-loppet",
+    "display_name": "Silver Star Loppet",
+    "tagline": "Thirty kilometers through the Okanagan highlands where Sovereign Lake's legendary snowpack fuels fast Nordic skiing.",
+    "vitals": {
+      "distance_km": 41,
+      "distance_options": [
+        "30km",
+        "15km",
+        "5km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 1600,
+      "location": "Silver Star Mountain Resort",
+      "location_badge": "Vernon, British Columbia, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "Early February",
+      "date_specific": "2026: February 7",
+      "discipline": "both",
+      "field_size": 800,
+      "founded": 2001,
+      "registration": "Open online registration",
+      "prize_purse": "None",
+      "aid_stations": "3 stations with water, electrolytes, and energy food",
+      "cutoff_time": "5 hours",
+      "website": "https://www.sovereignlake.com",
+      "lat": 50.372,
+      "lng": -119.061,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Interior British Columbia highland",
+      "description": "The Okanagan highlands receive heavy snowfall from Pacific moisture hitting the Monashee Range. Race day temperatures typically range from -10°C to -2°C. The 1,600m altitude delivers consistent cold and deep snowpack, with conditions among the most reliable in western Canada.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Altitude at 1,600m can affect participants from lower elevations",
+        "Heavy snowfall events can coincide with race weekend",
+        "Cold temperatures combined with altitude make hydration critical",
+        "Road access to the resort can be challenging in storm conditions"
+      ]
+    },
+    "course": {
+      "primary": "Rolling highland course through dense subalpine forest on the Sovereign Lake and Silver Star trail network. Well-designed loops with a mix of gentle climbs and flowing descents through snow-laden spruce and fir forest.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through subalpine forest",
+      "technical_rating": 3,
+      "grooming": "Excellent grooming on one of BC's most extensive Nordic trail networks (105km total)",
+      "features": [
+        "Part of a 105km groomed trail network — one of the largest in Canada",
+        "Deep reliable snowpack from Okanagan Highland precipitation",
+        "Snow-draped subalpine forest scenery throughout",
+        "Adjacent to Silver Star ski resort village for post-race amenities"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Sum 39/70 = 55.71, rounds to 56. Outstanding snow reliability and trail network quality elevate an otherwise modest regional event.",
+      "tier_note": "Score 56 >= 45 but < 60, TIER 3. No prestige override (prestige=2)."
+    },
+    "history": {
+      "summary": "Established in 2001 on the Sovereign Lake Nordic Centre trails near Silver Star Mountain Resort. The area has become one of British Columbia's premier Nordic skiing destinations thanks to its exceptional snowpack and extensive trail network. The loppet draws participants from across BC and Alberta, serving as a key event in the Okanagan Nordic racing calendar.",
+      "notable_facts": [
+        "Sovereign Lake Nordic Centre has over 105km of groomed trails",
+        "The area receives an average of 7 meters of snowfall annually",
+        "Silver Star village is one of BC's few ski-in, ski-out resort communities",
+        "The trail network connects to the Sovereign to Silver Star point-to-point race route"
+      ],
+      "founded": 2022
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Silver Star Loppet Vernon cross country ski race Sovereign Lake",
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

@@ -6,7 +6,12 @@
     "tagline": "Ninety kilometers of Swedish winter, one hundred years of legend — the race that invented the marathon ski.",
     "vitals": {
       "distance_km": 90,
-      "distance_options": ["90km", "45km", "30km", "10km"],
+      "distance_options": [
+        "90km",
+        "45km",
+        "30km",
+        "10km"
+      ],
       "elevation_m": 850,
       "altitude_m": 350,
       "location": "Sälen to Mora",
@@ -17,7 +22,7 @@
       "date": "First Sunday in March",
       "date_specific": "2026: March 1",
       "discipline": "classic",
-      "field_size": "~16,000 starters",
+      "field_size": 16000,
       "founded": 1922,
       "registration": "Lottery + qualification via feeder events; opens previous spring",
       "prize_purse": "SEK 100,000+ (varies by year)",
@@ -25,7 +30,9 @@
       "cutoff_time": "No official cutoff, last finishers arrive after dark",
       "website": "https://www.vasaloppet.se",
       "lat": 61.0067,
-      "lng": 14.5356
+      "lng": 14.5356,
+      "field_size_estimate": 16000,
+      "elevation_gain_m": 850
     },
     "climate": {
       "primary": "Continental Scandinavian winter",
@@ -85,10 +92,286 @@
         "Part of both Worldloppet and Ski Classics series"
       ]
     },
-    "series_membership": ["worldloppet", "ski_classics_grand_classic"],
+    "series_membership": [
+      "worldloppet",
+      "ski_classics_grand_classic"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Vasaloppet cross country ski race Sälen to Mora",
+      "videos": [
+        {
+          "video_id": "JoCnXWUYRXc",
+          "title": "2011 Mora Vasaloppet - 35K Freestyle Recap",
+          "channel": "Skinnyski.com Videos",
+          "view_count": 3736,
+          "upload_date": "20110214",
+          "duration_string": "3:46",
+          "description": "One of the biggest fields in event history clashed with some of the warmest conditions providing some challenging racing for the 2011 Mora Vasaloppet 35K freestyle race.  Nathan Porath broke away from the lead pack after the infamous big hill and never looked back, repeating as mens champion.  Angie Robinson reeled in the womens leaders then pressed the pace, moving out front to collect the womens title.",
+          "tags": [
+            "vasaloppet usa",
+            "mora",
+            "35K",
+            "skate",
+            "nordic skiing",
+            "race"
+          ],
+          "url": "https://www.youtube.com/watch?v=JoCnXWUYRXc",
+          "transcript": "oh my God be so\nbad\ngo go\nI feel so dizzy she's wearing a white\nhat\ntoo your brother probably already passed\nI didn't see\nhim are you\ndoing I know she wasn't cheing for\nme lonely out here we got about a minute\non you guys\nlead Pack's about a minute\nup lead pack about a minute up nice job\nguys lead pack about a minute\nup get back on there get back on\nthere\nSt Louis Park we' got Cole\nHendrickson and Nathan porat from\nRedwing Minnesota first R finisher first\n35k finisher right there Nathan\ncongratulations Nathan por finished and\nwon the race and you could tell he was\nskating because of those 42 kers are\nskating Michael oh Jen Pearson I'm sorry\nof gute and then Sarah uh zman white\nthen Derek Wallen from Apple Valley\nThird Place finisher I believe yep third\nplace let's go it\nAndrew those young\nguys Tillman from St Louis Park a name\nfamiliar to the mor bosel open good\ngoing\nAndrew finishing up the 42 uh the no\nfinishing up to K finisher good going\nDan in the top\nfive and we've got Grant Nelson from\nduth Grant Nelson another 35k finisher\nfollowed by Paul Olen from Andover\nMinnesota actually he's from\nmore okay Japan\nfrom Christopher Ro from St Cloud and\nEric Hendrickson from St\nLouis",
+          "curated": false
+        },
+        {
+          "video_id": "Et8wFefciW8",
+          "title": "SYND 5-3-73 ANNUAL VASALOPPET SKI RACE IN SWEDEN",
+          "channel": "AP Archive",
+          "view_count": 827,
+          "upload_date": "20150723",
+          "duration_string": "2:16",
+          "description": "(5 Mar 1973) Worlds longest, annual, cross country ski race, the Vasaloppet, covers 53 miles (85 kilometers) between the towns Mora And Salen, in Sweden\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/dfe0399664b4894f1a42b6bb869c2abe",
+          "tags": [
+            "AP Archive",
+            "z017194",
+            "dfe0399664b4894f1a42b6bb869c2abe",
+            "SWEDEN SKI RACE"
+          ],
+          "url": "https://www.youtube.com/watch?v=Et8wFefciW8",
+          "curated": false
+        },
+        {
+          "video_id": "M4jDC7oLmdU",
+          "title": "SYND 6 3 78 VASA CROSS COUNTRY SKI RACE IN MORA, SWEDEN",
+          "channel": "AP Archive",
+          "view_count": 1700,
+          "upload_date": "20150724",
+          "duration_string": "1:11",
+          "description": "(5 Mar 1978) Scenes of Vasa Cross Country Ski Race in Mora, Sweden: Jean-Paul Pierrat of France won the 53-mile (85 kilometres) Vasa cross-country ski race on Sunday (5 March). Pierrat, a 30 year old customs officer from Chamonix, France, upset a field of Nordic favourites to be the first Frenchman to win the gruelling race which commemorates the 1521 flight from Danish occupants of Gustav Vasa, later king of Sweden. The winner finished the race in 5 hours, 20 minutes and 12 seconds - more than two minutes ahead of Tommy Jonsson, a 21- year old Mora skier. Third, beaten by jonsson on the finish in Vasa Street in Mora town centre, was Matti Kuoski of Hogsby, Sweden, winner of the 1974 and 1976 races. This year's race had gathered a record number of participants - 11,596 skiers from 19 nations - and took place in poor weather conditions. Only sixty percent of the skiers managed to cross the finish line\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/87d64546c49aae69a5b23639add9d93a",
+          "tags": [
+            "AP Archive",
+            "z036515",
+            "87d64546c49aae69a5b23639add9d93a",
+            "SWEDEN CROSS COUNTRY SKI RACE",
+            "Sweden",
+            "France",
+            "Western Europe"
+          ],
+          "url": "https://www.youtube.com/watch?v=M4jDC7oLmdU",
+          "curated": false
+        },
+        {
+          "video_id": "n4F9JUumOPQ",
+          "title": "Vasaloppet 2019",
+          "channel": "PSI",
+          "view_count": 5208,
+          "upload_date": "20190305",
+          "duration_string": "5:29:04",
+          "description": "Vasaloppet2019\nVasaloppet (Swedish for 'the Vasa-race') is an annual long distance cross-country ski race held on the first Sunday of March. The 90 km (56 mi) course starts in the village of Sälen and ends in the town of Mora in northwestern Dalarna, Sweden. It is the oldest cross-country ski race in the world, as well as the one with the highest number of participants.\n\nThe race was inspired by a notable journey made by King Gustav Vasa when he was fleeing from Christian II's soldiers in 1520. The modern competition started in 1922 and it has been a part of the Worldloppet events since 1978.\n\nВасалоппет (швед. Vasaloppet) — массовая лыжная марафонская гонка (90 км) между поселком Селен и городом Мура в Даларне, Швеция.\n\nВпервые гонка проводилась в 1922 году и получила название в честь шведского короля Густава Васы, с тех пор она отменялась лишь три раза (1932, 1934, 1990). Гонка проходит в первое воскресенье марта. Васалоппет — одно из самых престижных соревнований среди лыжников. На 90 км гонку организаторами выделяется 15800 номеров. Как правило, все эти номера выкупаются заранее. Например, на Васалоппет-2013 все 15 тысяч номеров были забронированы уже 15 марта 2012 года, всего за 11 дней продаж, почти за целый год до гонки. В 2015 году все 15800 стартовых номеров были забронированы за 83 секунды.\n\nВ 1922—1923 и 1981—1996 годах женщины могли участвовать в соревновании, но без отдельных наград, на общих основаниях. В 1924—1980 годах участие женщин было запрещено. Отдельный зачёт среди женщин ведётся с 1997 года, причём 4 раза побеждала шведская лыжница София Линд.\n\nIn 1520, the young nobleman Gustav Ericsson Vasa was fleeing from the troops of Christian II, king of Denmark, Sweden and Norway (the Kalmar Union). Much of the Swedish nobility was in opposition to the king, and had nicknamed him Christian the Tyrant. In a move to silence the opposition, Christian invited the Swedish aristocracy to a reconciliation party in Stockholm, only to have them, including Gustav's parents, massacred in what came to be known as the Stockholm Bloodbath.[1]\n\nGustav fled through Dalarna, fearing for his life if he were discovered by the king's troops. He spoke to the men of Mora at a gathering and tried to convince them to raise a levy and start a rebellion against King Christian. The men refused to join the rebellion, and Gustav started out west, toward Norway to seek refuge. However, the men in Mora changed their minds after hearing that the Danish rulers had decided to raise taxes, and now they wanted to join the rebellion with Gustav as their leader. They sent out the two best skiers in the county, two brothers from Mora, Lars and Engelbrekt, to search for him and they caught up with him at Sälen. On 6 June 1523, Gustav Vasa was crowned King of Sweden, after having defeated the Danish king Christian and dissolved the Kalmar Union. Since that day, Sweden has been an independent nation.\n\nWhile Gustav traveled from Mora to Sälen, the modern race is run the opposite way, finishing in Mora.\nВасалоппет (швед. Vasaloppet) — массовая лыжная марафонская гонка (90 км) между поселком Селен и городом Мура в Даларне, Швеция.\nВпервые гонка проводилась в 1922 году и получила название в честь шведского короля Густава Васы, с тех пор она отменялась лишь три раза (1932, 1934, 1990). Гонка проходит в первое воскресенье марта. Васалоппет — одно из самых престижных соревнований среди лыжников. На 90 км гонку организаторами выделяется 15800 номеров. Как правило, все эти номера выкупаются заранее.\n\nVasaloppet (Swedish for 'the Vasa-race') is an annual long distance cross-country ski race held on the first Sunday of March. The 90 km (56 mi) course starts in the village of Sälen and ends in the town of Mora in northwestern Dalarna, Sweden. It is the oldest cross-country ski race in the world, as well as the one with the highest number of participants.\nThe race was inspired by a notable journey made by King Gustav Vasa when he was fleeing from Christian II's soldiers in 1520. The modern competition started in 1922 and it has been a part of the Worldloppet events since 1978.",
+          "tags": [
+            "Vasaloppet 2019",
+            "Vasaloppet2019",
+            "васалоппет2019",
+            "вазалоппет",
+            "васалоппет",
+            "Vasa",
+            "vasaloppet",
+            "crosscountryski",
+            "ski",
+            "skimarathon",
+            "васалопет",
+            "васа",
+            "лыжи",
+            "лыжныймарафон",
+            "visma",
+            "vismaskiclassics",
+            "skiclassics",
+            "worldloppet",
+            "Sweeden",
+            "mora",
+            "salen",
+            "瓦萨洛佩特20",
+            "瓦萨洛佩特",
+            "ヴァサロペット20",
+            "ヴァサロペット"
+          ],
+          "url": "https://www.youtube.com/watch?v=n4F9JUumOPQ",
+          "curated": false
+        },
+        {
+          "video_id": "tTIf3tUfUGU",
+          "title": "SYND 6-3-72 VASALOPPET CROSS COUNTRY SKI RACE",
+          "channel": "AP Archive",
+          "view_count": 480,
+          "upload_date": "20150723",
+          "duration_string": "1:49",
+          "description": "(5 Mar 1972) Vasaloppet cross country ski race\r\n\r\nFind out more about AP Archive: http://www.aparchive.com/HowWeWork \r\nTwitter: https://twitter.com/AP_Archive \r\nFacebook: https://www.facebook.com/APArchives ​​\r\nInstagram: https://www.instagram.com/APNews/\r\n\r\n\r\nYou can license this story through AP Archive: http://www.aparchive.com/metadata/youtube/788e6f69ae35f37b714ebea7f8a3115f",
+          "tags": [
+            "AP Archive",
+            "z014181",
+            "788e6f69ae35f37b714ebea7f8a3115f",
+            "SWEDEN SKI RACE"
+          ],
+          "url": "https://www.youtube.com/watch?v=tTIf3tUfUGU",
+          "curated": false
+        },
+        {
+          "video_id": "M4SBDZRDg-I",
+          "title": "Vasaloppet 2025 -  A Cross Country Ski Journey in Sweden",
+          "channel": "nature.nomadic",
+          "view_count": 5333,
+          "upload_date": "20250323",
+          "duration_string": "8:19",
+          "description": "Ever wonder what it’s like to ski 90KM across Sweden in the legendary Vasaloppet? This is the classic cross country skiing race for beginners to professionals!\n\nJoin our group of friends as we take on the 2025 Vasaloppet, one of the world’s most iconic cross-country ski races. We follow  a seasoned Swedish skier, (and the rest of us!) as we battle frosty weather, test our endurance, and soak in Sweden’s breathtaking winter scenery. If you’re curious about long-distance Nordic skiing, this is your front-row seat to a true winter sports challenge.\n\n0:00 – What is the Vasaloppet\n2:03 – Preparing for the race\n3:32 – Race Day\n4:43 - The 90 km Race\n\nEnjoy the video? Drop a comment about your own ski adventures and hit the like button if you’re up for more outdoor travel videos!",
+          "tags": [
+            "Vasaloppet 2025",
+            "Cross-Country Skiing",
+            "Nordic Skiing",
+            "XC Ski",
+            "Ski Marathon",
+            "Winter Sports",
+            "Sweden Travel",
+            "Long-Distance Ski Race",
+            "Skiing 90KM",
+            "cross country skiing",
+            "nordic skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=M4SBDZRDg-I",
+          "transcript": "[Music]\nyes so the v a littleit it's kind of\nlike the cliche of cross country skin\nso we had a king gavasa so he did this\ntrack from Salem to MRA uh just to\ngather the strong Dolla men to fight for\nthe\ndates and that's how the whole race was\ninvented I landed you know like this\nwith both like this\nthere are a few different versions of it\nit's actually a whole week you can do it\nin the night you can do it in relay you\ncan do it by yourself you can do it\ncross country classic thousands I think\nlike the traditional one thousands\nthousands are starting it's a big uh\nattraction here is\noh\nyeah okay so I'm Corin and born and\nraised in\nSweden so then I would give you you\nwould just give me my\nbag so the real is actually taking the\nvaset and split it into five parts so\nyou have one person doing the first leg\na second person doing the second leg and\nthen you split it up another car to the\nthree four change of first drop so it's\na perfect way to do the Voss of it with\nus know I feel confident that's\nit now I know we're\nusing how do I prepare my SK\nwhat your head\nnow high mountain\nHotel you do get a little bit nervous\nwhen you come there and you see all\nthese committed men getting their\nperfect skis on\nand even if it's very basic the only\nthing you need to do is make sure you\nhave your skis on in the right moment\nthere are a lot of things you need to\nput in your bag there was some like\nnervosity in in\nit Styles polling polling with a push\nand diagonaling so shifting between\nthose ones that's\ngood fore\n[Applause]\nyou go you have\ngo go you go go\nwhy you have to go why you have to go\nhave to\ngo C it\noh bro it's\non oh I'm already\nyou why you have to go why you have to\ngo why you have to go have to go\nyou have to go why you have to go why\nyou have to go why you have to go to go\nwhat do you think you'll take away from\nthis\nexperience that you can really learn a\nnew sport as an old adult is really\nsomething I will take with me like in\nterms of doing sports further on like\nyou can really learn everything as a\ngrown up mhm yeah never too late never\ntoo late yeah become really good at it\nas well",
+          "curated": true,
+          "curation_reason": "Recent skier-filmed POV journey following friends through the 2025 Vasaloppet with experiential commentary about the race.",
+          "display_order": 1
+        },
+        {
+          "video_id": "ZRBQOozPrhE",
+          "title": "World's biggest race is in Sweden - Vasaloppet",
+          "channel": "TheSwedishLad",
+          "view_count": 1176,
+          "upload_date": "20190228",
+          "duration_string": "4:15",
+          "description": "Vasaloppet is the world's oldest long-distance ski race and also the one with the highest amount of participants. On the first Sunday in March, thousands of skiiers make the 90km (56 mile) race between the town of Sälen and Mora in the state of Dalarna. The origin comes from the Swedish rebellion who took down the Danish king and became king of Sweden in 1523. Aside from the Sunday race, there are also night races, tjejvasan for women and öppet spår (open track) during the week prior. The male and female winners gets a winning wreath from a kranskulla and a kransmas at the finish-line in Mora.\n\nMy channel is packed with Swedish tutorials and language challenges where you can learn everything from nouns and verbs to grammar and special Swedish words. I also talk about places in Sweden and where you as a tourist can visit. I have made youtube videos for over 10 years and 10 Swedish Words started with me explaining 10 Swedish words that don't exist in English. You can also find videos about Norse Mythology, my deep-talk series Good Talk and other info about Sweden and Swedish culture. \n\nBlog: http://www.theswedishlad.se\nTwitter: http://www.twitter.com/theswedishlad\nFacebook: ‪http://www.facebook.com/MartinNotSven\nSwedish channel: ‪‪https://www.youtube.com/c/martinarvebro\nInstagram: TheSwedishLad\nInstagram: TheSwedishLanguage\n\nIntro graphics by Oliver Holmgren & Erica Svejderud.\nMusic is used with permission from Epidemic Sound.\n\n#vasarace #vasaloppet\n\nCheers\n-Martin in Sweden",
+          "tags": [
+            "vasaloppet",
+            "world’s biggest ski race",
+            "världens äldsta långlopp",
+            "hur långt är vasaloppet?",
+            "gustav vasa",
+            "berga by",
+            "vasaloppet öppet spår",
+            "tjejvasan",
+            "nattvasan",
+            "sweden",
+            "skiing",
+            "theswedishlad",
+            "blueberry soup",
+            "sälen",
+            "mora",
+            "dalarna",
+            "vasaloppets historia",
+            "Vaasahiihto",
+            "Васалоппет",
+            "smågan",
+            "evertsberg",
+            "oxberg",
+            "hökberg",
+            "bergspriset",
+            "kranskulla",
+            "kransmas",
+            "jörgen brink",
+            "anders aukland",
+            "nils mora-nisse karlsson",
+            "stanislav rezac",
+            "blåbärssoppa",
+            "eldris"
+          ],
+          "url": "https://www.youtube.com/watch?v=ZRBQOozPrhE",
+          "transcript": "let's talk about why sweets either get\nup really early on the first Sunday of\nMarch bundle themselves into the couch\nand drink blueberry soup or go on a 12\nhour adventure on skis yes what we're\ntalking about here is Vasa not but the\nVasa race which is a long-distance ski\nrace in Sweden on the first Sunday in\nMarch it was introduced in 1922 and it\nis a 90 kilometers or 56 miles if you\nmay race between the town of Salem and\nthe town of Mullah in the state of da\nLama in Sweden it is the oldest\nlong-distance race in the world and also\nthe one with the highest amount of\nparticipants the origin lies with Gustav\nEriksson Vasa who tried to convince the\npeople of Mullah to start a rebellion\nagainst a king who was the Danish King\nKing on the second or as he was called\nin Sweden take from the tyrant the\nreason was that Christian had invited\nthe aristocracy of Stockholm into a big\nfeast which ended up with the Stockholm\nbloodbath he killed them all but the men\nof Mullah were not convinced of Gustav's\nplans but they later changed their mind\nbecause rumor has it - was going to\nraise their taxes they then sent out\ntheir two best skiers to catch up with\nGustav and they did so in the Salem the\nrace however goes in the opposite\ndirection from sin and taniwha\nthe race passes many classic places on\nthe way such as snow gum\nAvis Bay bucks pay and hurt Bay at the\nstation the participants gets to drink\nblueberry soup which has become\nsynonymous with the race and me and my\nwife we are those kinds of people who\nbundle up in the couch in the early\nmorning and we watch the race covered in\nblankets and we drink blueberry soup and\nwe are not alone this is a thing that a\nlot of people watch but these stations\nalso have another function they have the\nRope the rope is something that's drawn\nacross the tracks when it's realized\nthat the participants will not be able\nto make it to mooa\nby 8:15 at night so if you get the rope\ndrawn in front of you you have to\nterminate the race the record time for\nthe race so far was set in 2012 three\nhours 38 minutes and 41 seconds at the\nfinish line in mule on the landmark sign\nsays if a dose broke forth on teas sake\nin our fathers tracks for future\nvictories and at the finish line two\nimportant people await the female and\nthe male winners for the male winner a\ncub Scala awaits to hang a victory\nlaurel breath on top of him and for the\nfemale winner a cosmos awaits a good lot\nis a dialectal world for girl and in\nmoss is a dialectal word for boy in\nDonovan in this place in the week\nleading up to the race several other\nraces are held such as a women-only\na night race and you phrases as well as\nopen tracks the race has been cancelled\nthree times in 1932 1934 and 1990 he was\nalmost canceled in 1986 because this was\ntwo days after the assassination of\nSwedish Prime Minister Yadav Palma\nbut instead of canceling the race they\nheld a silent movement among the 10,000\nparticipants before the race when it\ncomes to sports is one of the highlights\nof the year although I am NOT a skier\nmyself I've been on skis once and\nprobably uh no never again\nI prefer bundle myself up in the couch\nwith my cat and my wife drink blueberry\nsoup and enjoy watching the race but to\nyou brave souls out there who defy the\nlogic of logic Godspeed\ngood luck and let's hope stanislav vicek\nwins because he never wins thank you for\nwatching this video about the oldest\nlong ski race in the world it's a\nSwedish tradition it has blueberry soup\nin it and people get excited I hope you\ndid too\nthank you so much for watching I'll see\nyou the next time you click on one of my\nvideos bye\n[Music]",
+          "curated": true,
+          "curation_reason": "Comprehensive course preview covering key terrain features, stations, and race atmosphere details.",
+          "display_order": 4
+        },
+        {
+          "video_id": "70dlHnC00Fs",
+          "title": "Vasaloppet Northern Practice loops January 16, 2011",
+          "channel": "VasaloppetUSA",
+          "view_count": 230,
+          "upload_date": "20110118",
+          "duration_string": "4:56",
+          "description": "Follow along the Memorial trail, view from skiis. Talk to fellow skiiers",
+          "tags": [
+            "Vasaloppet",
+            "cross",
+            "country",
+            "skiing",
+            "usa"
+          ],
+          "url": "https://www.youtube.com/watch?v=70dlHnC00Fs",
+          "transcript": "[Music]\nm\nhe\nall right we meet a fellow skier out in\nthe in the woods what's your name I'm\nKurt parman all right Kurt is it cold\ntoday it's not too bad but it's it's a\nlittle nippy all right where are you\nskiing Kurt where yeah uh the B the\npractice Bo all right what do you think\nthey're great all right memorial trail\nis great memorial trail is great do any\nof the other on or yeah I went by on the\npoint Trail I'm just going to do on the\nwhole outside Loop all right well sounds\ngood we'll see you down there yeah\nbye\na\nall right what's in your name Roger\nRoger kotson where are you skiing\nRoger where\nyeah North Trails all right what do you\nthink of them terrific best trails in\nthe state all right are you skating or\nare you classic in I'm skating today\nokay are you going to do the race oh\nyeah oh yeah probably about my 30th time\nawesome well we look forward to seeing\nyou have a good\none",
+          "curated": false
+        },
+        {
+          "video_id": "tGlAl2JJd18",
+          "title": "🇸🇪 90 km cross-country skiing by night: NattVasan 2024, the toughest race of my life (Vasaloppet)",
+          "channel": "Worldloppet",
+          "view_count": 1819,
+          "upload_date": "20241008",
+          "duration_string": "8:49",
+          "description": "We all know, that Vasaloppet is tough. 90 km cross-country skiing! \nBut doing this whole thing during the night is crazy! \n\nWhat a magical experience: Thousands of headlamps through the dark woods of the Swedish night between Sälen and Mora. Spectators with flares and drinks and great support and awesome tracks. \n\nVasaloppet Night race, the NattVasan, is definitely recommended from my side!\n\nRead more about the Vasaloppet: \n👉 https://www.worldloppet.com/wl-race/vasaloppet/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=tGlAl2JJd18",
+          "transcript": "90 kilm through the dark woods of Sweden\nit's going to be\nmagical I'm so close to tears at the\nmoment\n[Applause]\n[Music]\nwelcome this is gas Nordic Adventures\nthis time from a very special occasion\nof course you know what that means you\nknow that finish right it's the vasal\nopit but not just a normal vasal opit\nit's the 100th edition of this great\nskiing race it's not an easy year to do\nthis race wet slow conditions the skiers\nare really exhausted but happy to be\npart of this special edition and let me\ntell you I really can relate with this\nexhausted skiers because I ski to not\ntoday in the main race but on Friday\nevening the not Vasan vasal lit's night\nrace and it was really a tough one let's\ndo\nthis 2 years ago when I skied the vasal\nopit I went with the car from mura to\nSalin on Friday night and I saw skiers\nwith Hat lamps people with torches uh\ncheering crowd and I thought man this is\nmagical the not Von I want to do this\nrace and now two years later I'm here\nI'm rist\nlet's do this and let's get ready for\nthe not Vasan vasal op at night race so\nexcited let's\ngo so 20 minutes to the\nstart time to take\nposition 1 minute to the start time to\nturn\non theab\nlamp 30 seconds look at this lights\nisn't that beautiful\nthere 15\nseconds 4 3 2\n1 and off we go let's go\nso first big Advantage from the night\nrace is not too much traffic here on the\nfirst up pill it's good and look at this\nbeautiful there\nthousands of\nlamps\nbeautiful and so many people out here\ncheering\nso here we go first upill done and\ninstead of 45 minutes 1 hour depending\nwhere I start it only took me about 20\nminutes so that's definitely a big\nadvantage of the night race somehow I\nimagine this whole thing so romantic\nstars and moon and the Swedish\nnight maybe if you're lucky even some\nNorthern\nLights well probably there are nights\nlike this but that's not the\none it's really dark foggy\nwet but the track is slushy but fast now\nI put away the camera and get some\nkilometers done see you later\nguys oh ladies and gentlemen\nthis thing is so\ncrazy now it's 9 kilometers to the\nFinish I mean velop is crazy we know\nthat but doing this whole thing during\nthe\nnight oh\nman I've never been that exhausted in my\nlife I'm not sure how how I will make\nthis 9 kilm you would might think oh man\nit's just 9 km just do\nit yeah but it's still 9 kilm but yeah\nwe will do it of course we will do it\nand if it takes me an hour it takes me\nan hour but we'll do this so see and\nmura oh man ladies and gentlemen I don't\nknow what to say at\nall thank you so much oh these people\nare crazy I think it's halfast 3 in the\nmorning and they're cheering H I don't\nknow what to say here it is I have never\nbeen that\nexhausted okay when I registered for\nthis whole thing in\nspringtime I somehow thought that this\nwould be a good idea\nI I just need some moments to get my\nbreath\nand so people who know me they wouldn't\nprobably call me an emotional\nperson but I'm so close to tears at the\nmoment not because of emotions I'm not\nthe person for that\nbut just because I'm that\nexhausted oh wow now it's 6:30 in the\nmorning finally I'm in my bed and I'm\nlooking forward to some hours of sleep\nI'm really totally done and dusted I\ndon't know how I would move tomorrow but\nman what a magical experience the people\nare great the the people out there\ncheering it's not too many of course but\nthose who are there they're so\nenthusiastic and helpful the atmosphere\nat the start is with the lights and so\non it's\njust magic and then the whole race\ncourse in the night it's just a\ndifferent thing and totally\nrecommendable one day you should do it\ndefinitely night Vasa should be on your\nbucket\nlist yeah while I'm watching the brave\nskars here it's time to share with you\nsome learnings I had during the night\nVasa bring bring a cup because at some\nfeeding stations they don't have cups\nthere and you are much faster if you\nhave your own cup so bring your drinks\nfood and cup learning number one\nlearning number two you can do it alone\nor in a team and if possible I really\nrecommend you do the night Vasa together\nwith a second person after some hours\nout there in the night of\nSweden you can use every encouragement\nyou can get so it's definitely way\nbetter to ski together than alone and\nthe learning number three and in my\nopinion the most important\none maybe you heard the rumor from Basel\nop already the third third is the easier\none if you make it to everb then you'll\nalmost through let me tell you the last\nthird is the hardest one yeah okay there\nare not too many uphills anymore but\nstill there are and let me tell you it\nafter some hours skiing you feel every\nsmall up like it would be kaskata from\nBach longa if you now have the feeling\nthat this whole thing would be too much\nfor you the 90k um don't you worry\nthere's a 30k and a 45k race starting in\noxburg 2 for the night Vasa so just go\nfor it you can do it",
+          "curated": true,
+          "curation_reason": "First-person POV race recap of the night version with specific course conditions and exhaustion commentary.",
+          "display_order": 2
+        },
+        {
+          "video_id": "YgdItkdU2Og",
+          "title": "Vasaloppet 2025 Risberg",
+          "channel": "Niemeijer Productions",
+          "view_count": 318252,
+          "upload_date": "20250302",
+          "duration_string": "8:44",
+          "description": "Copyright Robin Niemeijer-Niemeijer Productions.\nDO NOT REUPLOAD",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=YgdItkdU2Og",
+          "curated": false
+        },
+        {
+          "video_id": "UXc4JxNIxtE",
+          "title": "Vasaloppet 2026 finish top 21",
+          "channel": "UISTELIJA",
+          "view_count": 12653,
+          "upload_date": "20260301",
+          "duration_string": "13:26",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=UXc4JxNIxtE",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "The track is slushy but fast. I've never been that exhausted in my life. It's really dark, foggy, wet but somehow the thousands of headlamps through the dark woods make it magical.",
+          "source_video_id": "tGlAl2JJd18",
+          "source_channel": "Worldloppet",
+          "source_view_count": 1819,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "At the stations the participants get to drink blueberry soup which has become synonymous with the race, and they have the rope - something that's drawn across the tracks when it's realized that participants will not be able to make it to Mora by 8:15 at night.",
+          "source_video_id": "ZRBQOozPrhE",
+          "source_channel": "TheSwedishLad",
+          "source_view_count": 1176,
+          "category": "logistics",
+          "curated": true
+        },
+        {
+          "text": "You can really learn a new sport as an old adult. Even if it's very basic, the only thing you need to do is make sure you have your skis on at the right moment, but you do get a little bit nervous when you see all these committed men getting their perfect skis on.",
+          "source_video_id": "M4SBDZRDg-I",
+          "source_channel": "nature.nomadic",
+          "source_view_count": 5333,
+          "category": "community",
+          "curated": true
+        }
+      ]
     }
   }
 }

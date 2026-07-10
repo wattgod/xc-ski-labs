@@ -1,0 +1,209 @@
+{
+  "race": {
+    "name": "Leadville Loppet",
+    "slug": "leadville-loppet",
+    "display_name": "Leadville Loppet",
+    "tagline": "Nordic skiing at 10,000 feet on the Mineral Belt Trail — Leadville's high-altitude loppet tests lungs and legs in Colorado's legendary mining town.",
+    "vitals": {
+      "distance_km": 44,
+      "distance_options": [
+        "44km",
+        "10km",
+        "5km"
+      ],
+      "elevation_m": 762,
+      "altitude_m": 3048,
+      "location": "Leadville, Colorado",
+      "location_badge": "Colorado, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Colorado",
+      "date": "Late February",
+      "date_specific": "2026: Cancelled (returning 2027)",
+      "discipline": "both",
+      "field_size": 200,
+      "founded": 2003,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations on course",
+      "cutoff_time": null,
+      "website": "https://leadvilleloppet.itsyourrace.com/",
+      "lat": 39.2381,
+      "lng": -106.2925,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 762
+    },
+    "climate": {
+      "primary": "High-altitude Rocky Mountain",
+      "description": "Leadville sits at 10,152 feet (3,094m), making this one of the highest-altitude Nordic races in the world. Thin air, intense UV, and variable conditions. Cancelled in 2026 due to insufficient snow.",
+      "typical_temp_c": "-15 to -2",
+      "challenges": [
+        "Extreme altitude (10,000+ ft)",
+        "Thin air reduces performance",
+        "Intense UV at altitude",
+        "Variable snow conditions — cancelled in 2026"
+      ]
+    },
+    "course": {
+      "primary": "Course on the Mineral Belt Trail circling historic Leadville at 10,000+ feet. Rolling terrain with views of the Sawatch Range and Mount Massive.",
+      "format": "loop",
+      "surface": "Groomed trail on mountain terrain",
+      "technical_rating": 3,
+      "grooming": "Good grooming when snow permits",
+      "features": [
+        "One of the highest-altitude Nordic races globally",
+        "Mineral Belt Trail around historic Leadville",
+        "Views of Sawatch Range and Mount Massive",
+        "Unique altitude challenge for skiers"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 5,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 4,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "Extreme altitude makes this a unique challenge, but inconsistent snow and limited field size constrain the score.",
+      "tier_note": "Score 51 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Leadville Loppet has been held since 2003 on the Mineral Belt Trail in Leadville, Colorado — the highest incorporated city in the US at 10,152 feet. The race was cancelled in 2026 due to lack of snow but plans to return in 2027.",
+      "notable_facts": [
+        "One of the highest-altitude Nordic races in the world (10,000+ ft)",
+        "Uses the Mineral Belt Trail around historic Leadville",
+        "Cancelled in 2026 due to insufficient snow",
+        "Leadville is famous for its Leadville 100 ultra events"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Leadville Loppet cross country ski race Leadville",
+      "videos": [
+        {
+          "video_id": "mbtKakxBOAY",
+          "title": "The Leadville Loppet Races @ Planet Leadville",
+          "channel": "Planet Leadville",
+          "view_count": 31,
+          "upload_date": "20240222",
+          "duration_string": "52",
+          "description": "The Leadville Loppet is a series of cross-country ski races including a 5K, 10K and 22K sprints along the Mineral Belt Trail in Leadville, Colorado USA.  Funds derived from the participants’ entry fees are used for the care and maintenance of the trail. Show your support for the MBT by competing, volunteering, or by making a donation. The race itself is a real winner! \nSkiers glide through a rolling, forested network of trails, leading racers on to the MBT, where climbs and descends await. The tracks follow along abandoned rail grades left behind from Leadville’s mining era, offering a passing history lesson to the skinny skiers. It’s a one-of-a-kind course which should be laden (and groomed) with fresh snow. The Loppet has also been added to the list of American Birkebeiner qualifiers!  Skiers will be able to utilize results from either the 22 or 44 km race for improving their wave placement for the Birkie or Korte. More details on that can be found HERE: https://www.mineralbelttrail.com/leadville-loppet-1\nThis video is from the Leadville Today archives, now Planet Leadville. Both offerings are owned by The Great Pumpkin LLC, a digital media company established in 2011. Contact grpkin@gmail.com for use guidelines and licensing.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=mbtKakxBOAY",
+          "transcript": "the\nshotgun he's behind the r line do not me\nout of\n[Music]",
+          "curated": false
+        },
+        {
+          "video_id": "3tam8wrHGsI",
+          "title": "Leadville Loppet 2018 5k Fun Race @ Planet Leadville",
+          "channel": "Planet Leadville",
+          "view_count": 18,
+          "upload_date": "20240222",
+          "duration_string": "21",
+          "description": "The Leadville Loppet is a series of cross-country ski races including a 5K, 10K and 22K sprints along the Mineral Belt Trail in Leadville, Colorado USA.  Funds derived from the participants’ entry fees are used for the care and maintenance of the trail. Show your support for the MBT by competing, volunteering, or by making a donation. The race itself is a real winner! \nSkiers glide through a rolling, forested network of trails, leading racers on to the MBT, where climbs and descends await. The tracks follow along abandoned rail grades left behind from Leadville’s mining era, offering a passing history lesson to the skinny skiers. It’s a one-of-a-kind course which should be laden (and groomed) with fresh snow. The Loppet has also been added to the list of American Birkebeiner qualifiers!  Skiers will be able to utilize results from either the 22 or 44 km race for improving their wave placement for the Birkie or Korte. More details on that can be found HERE: https://www.mineralbelttrail.com/leadville-loppet-1\nThis video is from the Leadville Today archives, now Planet Leadville. Both offerings are owned by The Great Pumpkin LLC, a digital media company established in 2011. Contact grpkin@gmail.com for use guidelines and licensing.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=3tam8wrHGsI",
+          "curated": false
+        },
+        {
+          "video_id": "3_C1n3CNzxM",
+          "title": "The Annual Leadville Loppet @ Planet Leadville",
+          "channel": "Planet Leadville",
+          "view_count": 62,
+          "upload_date": "20240222",
+          "duration_string": "2:00",
+          "description": "The Leadville Loppet is a series of cross-country ski races including a 5K, 10K and 22K sprints along the Mineral Belt Trail in Leadville, Colorado USA.  Funds derived from the participants’ entry fees are used for the care and maintenance of the trail. Show your support for the MBT by competing, volunteering, or by making a donation. The race itself is a real winner! \nSkiers glide through a rolling, forested network of trails, leading racers on to the MBT, where climbs and descends await. The tracks follow along abandoned rail grades left behind from Leadville’s mining era, offering a passing history lesson to the skinny skiers. It’s a one-of-a-kind course which should be laden (and groomed) with fresh snow. The Loppet has also been added to the list of American Birkebeiner qualifiers!  Skiers will be able to utilize results from either the 22 or 44 km race for improving their wave placement for the Birkie or Korte. More details on that can be found HERE: https://www.mineralbelttrail.com/leadville-loppet-1\nThis video is from the Leadville Today archives, now Planet Leadville. Both offerings are owned by The Great Pumpkin LLC, a digital media company established in 2011. Contact grpkin@gmail.com for use guidelines and licensing.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=3_C1n3CNzxM",
+          "transcript": "[Music]\nmy\n[Applause]\nla\noh",
+          "curated": false
+        },
+        {
+          "video_id": "Q155mPs4nKs",
+          "title": "Leadville Loppet 2014 @ Planet Leadville",
+          "channel": "Planet Leadville",
+          "view_count": 39,
+          "upload_date": "20240222",
+          "duration_string": "5:05",
+          "description": "The Leadville Loppet is a series of cross-country ski races including a 5K, 10K and 22K sprints along the Mineral Belt Trail in Leadville, Colorado USA.  Funds derived from the participants’ entry fees are used for the care and maintenance of the trail. Show your support for the MBT by competing, volunteering, or by making a donation. The race itself is a real winner! \nSkiers glide through a rolling, forested network of trails, leading racers on to the MBT, where climbs and descends await. The tracks follow along abandoned rail grades left behind from Leadville’s mining era, offering a passing history lesson to the skinny skiers. It’s a one-of-a-kind course which should be laden (and groomed) with fresh snow. The Loppet has also been added to the list of American Birkebeiner qualifiers!  Skiers will be able to utilize results from either the 22 or 44 km race for improving their wave placement for the Birkie or Korte. More details on that can be found HERE: https://www.mineralbelttrail.com/leadville-loppet-1\nThis video is from the Leadville Today archives, now Planet Leadville. Both offerings are owned by The Great Pumpkin LLC, a digital media company established in 2011. Contact grpkin@gmail.com for use guidelines and licensing.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Q155mPs4nKs",
+          "curated": true,
+          "curation_reason": "Longest duration video showing race coverage of the Leadville Loppet with multiple race distances.",
+          "display_order": 1
+        },
+        {
+          "video_id": "2gv8rUYy3xQ",
+          "title": "Leadville Loppet Start 2019 @ Planet Leadville",
+          "channel": "Planet Leadville",
+          "view_count": 38,
+          "upload_date": "20240222",
+          "duration_string": "54",
+          "description": "The Leadville Loppet is a series of cross-country ski races including a 5K, 10K and 22K sprints along the Mineral Belt Trail in Leadville, Colorado USA.  Funds derived from the participants’ entry fees are used for the care and maintenance of the trail. Show your support for the MBT by competing, volunteering, or by making a donation. The race itself is a real winner! \nSkiers glide through a rolling, forested network of trails, leading racers on to the MBT, where climbs and descends await. The tracks follow along abandoned rail grades left behind from Leadville’s mining era, offering a passing history lesson to the skinny skiers. It’s a one-of-a-kind course which should be laden (and groomed) with fresh snow. The Loppet has also been added to the list of American Birkebeiner qualifiers!  Skiers will be able to utilize results from either the 22 or 44 km race for improving their wave placement for the Birkie or Korte. More details on that can be found HERE: https://www.mineralbelttrail.com/leadville-loppet-1\nThis video is from the Leadville Today archives, now Planet Leadville. Both offerings are owned by The Great Pumpkin LLC, a digital media company established in 2011. Contact grpkin@gmail.com for use guidelines and licensing.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=2gv8rUYy3xQ",
+          "transcript": "four three\n[Applause]\ntwo I keep on\nFall get\nshe's going too\nfast\nyeah",
+          "curated": false
+        },
+        {
+          "video_id": "L8nLmJb7PLk",
+          "title": "Leadville Loppet 10k crash",
+          "channel": "pinkIF",
+          "view_count": 412,
+          "upload_date": "20110302",
+          "duration_string": "58",
+          "description": "Leadville Loppet 10k crash 2011, just after race start",
+          "tags": [
+            "10k",
+            "crash"
+          ],
+          "url": "https://www.youtube.com/watch?v=L8nLmJb7PLk",
+          "curated": false
+        },
+        {
+          "video_id": "h-Y8uSXhdRM",
+          "title": "Leadville Loppet 5k FunK",
+          "channel": "pinkIF",
+          "view_count": 71,
+          "upload_date": "20110302",
+          "duration_string": "1:21",
+          "description": "Start of the Leadville Loppet fun 5k ski",
+          "tags": [
+            "Fun",
+            "5k"
+          ],
+          "url": "https://www.youtube.com/watch?v=h-Y8uSXhdRM",
+          "curated": false
+        },
+        {
+          "video_id": "XJ_mxWF_nlw",
+          "title": "Collide.mov",
+          "channel": "theRosedot",
+          "view_count": 42728,
+          "upload_date": "20120129",
+          "duration_string": "1:55",
+          "description": "Men's SuperTour Classic Mass Start at Green Acres, MN Jan. 28 2012",
+          "tags": [
+            "Collide"
+          ],
+          "url": "https://www.youtube.com/watch?v=XJ_mxWF_nlw",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

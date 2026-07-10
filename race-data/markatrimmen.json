@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Markatrimmen",
+    "slug": "markatrimmen",
+    "display_name": "Markatrimmen",
+    "tagline": "Thirty to fifty kilometers through Trondheim's beloved Bymarka forest — a turrenn tradition for Norway's third city and a cornerstone of Trondelag skiing culture.",
+    "vitals": {
+      "distance_km": 36,
+      "distance_options": [
+        "50km",
+        "30km"
+      ],
+      "elevation_m": 400,
+      "altitude_m": 300,
+      "location": "Bymarka, Trondheim",
+      "location_badge": "Trondelag, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Trondelag",
+      "date": "First Saturday of February",
+      "date_specific": "2026: February 7",
+      "discipline": "classic",
+      "field_size": 400,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://skiklubben.no/aktiviteter/markatrimmen/",
+      "lat": 63.3942,
+      "lng": 10.2806,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 400
+    },
+    "climate": {
+      "primary": "Coastal Norwegian winter",
+      "description": "February in Trondheim means variable conditions influenced by the nearby Atlantic coast. Temperatures range from -15°C to 3°C. Bymarka's elevation provides more reliable snow than the city center but the maritime influence can bring mild spells and wet snow. When cold, conditions are excellent for classic skiing.",
+      "typical_temp_c": "-15 to 3",
+      "challenges": [
+        "Maritime influence — mild spells and wet snow possible",
+        "Variable snow conditions in a coastal climate",
+        "Temperature swings can complicate wax choices",
+        "Forest terrain can be windless but humid"
+      ]
+    },
+    "course": {
+      "primary": "A citizen ski marathon through Trondheim's beloved Bymarka forest, offering distances from 30km to 50km. Rolling forested terrain through Norway's most popular urban wilderness skiing area. The course winds through the extensive Bymarka trail network that serves Trondheim's large skiing population.",
+      "format": "loop",
+      "surface": "Machine-groomed forest trails in Bymarka",
+      "technical_rating": 2,
+      "grooming": "Trondheim municipal Bymarka trail network — well-maintained",
+      "features": [
+        "Bymarka — Trondheim's beloved urban forest and skiing area",
+        "Classic turrenn (citizen ski race) tradition",
+        "Organized by Trondhjems Skiklub",
+        "Norway's third city — strong local skiing culture",
+        "Multiple distance options for all abilities"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 49,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Strong community and accessibility scores — Trondheim is Norway's third city with deep turrenn culture. Maritime climate limits snow reliability. Primarily local/regional event with limited international draw.",
+      "tier_note": "Score 46 confirms TIER 3"
+    },
+    "history": {
+      "summary": "Markatrimmen is a classic Norwegian turrenn (citizen ski race) organized by Trondhjems Skiklub in Trondheim's beloved Bymarka forest. The race is a winter tradition for the Trondheim skiing community, representing the deep Norwegian culture of recreational long-distance skiing. Bymarka is one of Norway's most popular urban wilderness areas, providing Trondheim's 200,000+ residents with immediate access to hundreds of kilometers of ski trails.",
+      "notable_facts": [
+        "Classic Norwegian turrenn tradition in Trondheim",
+        "Organized by Trondhjems Skiklub — one of Norway's oldest ski clubs",
+        "Bymarka is Trondheim's most popular recreation and skiing area",
+        "Trondheim is Norway's third-largest city with deep skiing culture",
+        "Classic technique — traditional turrenn format",
+        "Multiple distance options from 30km to 50km"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

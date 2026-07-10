@@ -5,8 +5,12 @@
     "display_name": "Marathon de Bessans",
     "tagline": "Sixty kilometers at 1,750 meters in the high Maurienne valley — France's altitude crucible that opens the European marathon season before anyone else has even waxed.",
     "vitals": {
-      "distance_km": 60,
-      "distance_options": ["60km", "30km", "15km"],
+      "distance_km": 42,
+      "distance_options": [
+        "60km",
+        "30km",
+        "15km"
+      ],
       "elevation_m": 500,
       "altitude_m": 1750,
       "location": "Bessans",
@@ -17,15 +21,17 @@
       "date": "Mid-January",
       "date_specific": "2026: January 17",
       "discipline": "both",
-      "field_size": "~1,500 starters",
+      "field_size": 1500,
       "founded": 1979,
       "registration": "Online registration; opens in autumn",
       "prize_purse": null,
       "aid_stations": "5 feed stations with hot drinks, dried fruit, energy food, and French mountain cheese",
       "cutoff_time": null,
-      "website": "https://www.marathon-bessans.com",
+      "website": null,
       "lat": 45.3214,
-      "lng": 6.9958
+      "lng": 6.9958,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 500
     },
     "climate": {
       "primary": "High alpine continental",
@@ -85,10 +91,181 @@
         "Adjacent to Vanoise National Park, France's first national park"
       ]
     },
-    "series_membership": ["euroloppet"],
+    "series_membership": [
+      "euroloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Marathon de Bessans cross country ski race Bessans",
+      "videos": [
+        {
+          "video_id": "c36U1ekEX3o",
+          "title": "Highlights from Marathon International de Bessans 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 650,
+          "upload_date": "20260112",
+          "duration_string": "2:16",
+          "description": "Highlights from Marathon International de Bessans 2026\n\nThe Ski Classics Challengers event, Marathon International de Bessans, took place last Saturday, January 10, with a 30km long-distance ski race in classic technique in Bessans, France. Watch the highlights here!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=c36U1ekEX3o",
+          "transcript": "[Music]\nMinister.\nTanta.\nHeat. Heat.\n[Applause]\nHeat.\nSuper beautiful place in Bon. Super\natmosphere from the French crowd. Uh\nthat makes me happy. Even if I'm a\nNorwegian, they still cheer at me. So\nthat's uh that's good. My first time\nhere, so I come back next year.",
+          "curated": false
+        },
+        {
+          "video_id": "j7e13vQOeT4",
+          "title": "L'édition 2026 du Marathon international de Bessans",
+          "channel": "Nordic TV",
+          "view_count": 2198,
+          "upload_date": "20260111",
+          "duration_string": "4:40",
+          "description": "Le Marathon International de Bessans a lancé son édition 2026 dans des conditions hivernales extrêmes, avec vent, froid et neige tourbillonnante lors des épreuves classiques de samedi. Dans ce contexte dantesque, le Norvégien Thomas Oedegaarden s’est imposé en solitaire sur 30 km, tandis que Daphné Patois a remporté la course féminine. Le dimanche, pour l’épreuve de skating disputée dans des conditions plus clémentes, Camille Coupé et Gérard Agnellet ont signé des victoires nettes. Cette 47e édition a rassemblé un nombre record de 1 890 participants et marqué le lancement du nouveau 60 km, confirmant le dynamisme du nordique à Bessans.\n\nNordic TV, la télé So nordic.\r\n\r\n© Nordic TV\nPhoto : Nils Louna",
+          "tags": [
+            "NordicTV"
+          ],
+          "url": "https://www.youtube.com/watch?v=j7e13vQOeT4",
+          "curated": true,
+          "curation_reason": "Recent race coverage from 2026 showing extreme winter conditions and race results.",
+          "display_order": 2
+        },
+        {
+          "video_id": "DC8uZJaiVsM",
+          "title": "Marathon International de Bessans 2023 - Teaser",
+          "channel": "Marathon International de Bessans",
+          "view_count": 438,
+          "upload_date": "20221104",
+          "duration_string": "1:05",
+          "description": "Débutez votre saison de ski nordique sur le Marathon International de Bessans les 7 & 8 janvier prochains !",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=DC8uZJaiVsM",
+          "curated": false
+        },
+        {
+          "video_id": "XfdIJcVnm1o",
+          "title": "Marathon International de Bessans - Le style classique",
+          "channel": "Marathon International de Bessans",
+          "view_count": 146,
+          "upload_date": "20220112",
+          "duration_string": "1:54",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=XfdIJcVnm1o",
+          "curated": false
+        },
+        {
+          "video_id": "Jas4-g_Y5II",
+          "title": "Bessans : Près de 1 500 fondeurs pour la 45ème édition du Marathon International de Bessans",
+          "channel": "Savoie News",
+          "view_count": 1089,
+          "upload_date": "20240114",
+          "duration_string": "4:08",
+          "description": "🏔️ SPORT : Près de 1 500 fondeurs pour la 45ème édition du Marathon International de Bessans 🏔️\n\nLe marathon de Bessans est devenu une institution pour le monde du ski de fond, où chaque année les élites et les amateurs se retrouvent pour un week-end de compétition en Haute Maurienne.\n\nCe dimanche se tenaient les épreuves du 42 km, du 23 km et du 10 km. \n\nSur le marathon, c’est le quadruple médaillé olympique Maurice MANIFICAT qui l’emporte. Emilie BULLE est première féminine.\n\nSur le 23 km, c’est le Savoyard Elio ARRIAND qui s’impose, ainsi que Maëlle VEYRE du Ski Club Montgenèvre Val Clarée.\n\nSur le 10 km, Antoine COLLOMB-PATTON, vainqueur, se prépare pour les Deaflympics, des Jeux réservés aux sourds qui se tiendront en mars en Turquie. Namou CANDAU-ARMAND, de Bauges Ski Nordique, l’emporte largement.\n\n#Savoie #Sport #Ski #Bessans #HMV #HauteMaurienneVanoise #Marathon #Marathondebessans",
+          "tags": [
+            "Savoie",
+            "Actualités",
+            "Bessans",
+            "Sport",
+            "Marathon",
+            "Marathon de Bessans",
+            "Ski de fond"
+          ],
+          "url": "https://www.youtube.com/watch?v=Jas4-g_Y5II",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage from 2024 showing the scale and atmosphere of the event with 1,500 participants.",
+          "display_order": 4
+        },
+        {
+          "video_id": "hr0-2yJrXyk",
+          "title": "Training Vlog 4 -  Bessans",
+          "channel": "Laurie Flochon Joly",
+          "view_count": 389,
+          "upload_date": "20260115",
+          "duration_string": "18:51",
+          "description": "Here we go again !\nAfter a Christmas break we our respective families Thomas came back to France !\nThe plan ? 10 days altitude in Bessans, Savoie Département, the place to be as a cross country skier.\nWe end up this week with a Ski Classics Challenger : Le marathon de Bessans 30km in storm conditions with my family, best team ever.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=hr0-2yJrXyk",
+          "transcript": "Hey the vlog.\n&gt;&gt; Hey. Hey.\n&gt;&gt; We are back in\nBon\n&gt;&gt; Magnific.\nLook at that.\nSo here we will stay 10 days before to\ngo to Linho and Laona. But first we do\nat ski Classics Challenger here next\nSaturday.\n&gt;&gt; That will be fun and cold cuz the\nweather forecast said minus 20 I think\nhere. So we need to eat a lot a lot of\ncandies.\nYeah.\nlittle uh classic training.\nUh Thomas is still on rest day today, so\nI enjoy to ski really slow.\nIt's cold, but so beautiful. What are\nyou doing\nthis with\nin tea?\n&gt;&gt; Okay,\nnot that bad.\n&gt;&gt; Hello, the vlog. It's 12 and it's the\ntime when Thomas will go out from the\napartment to ski.\nIt's uh I ski since 1 hour already.\nIt's so cold, but in the sun it's\nperfect.\n&gt;&gt; What's that?\n&gt;&gt; My old socks.\nYes.\n&gt;&gt; Every Norian do this.\n&gt;&gt; Yes, that's true. But with like not with\nthat kind of socks.\n&gt;&gt; Yeah, it's warm socks.\n&gt;&gt; Oh, no.\n&gt;&gt; Usually with wool socks.\n&gt;&gt; Yeah, wool socks.\n&gt;&gt; But this this was the only thing I\nfound. So\nyeah,\n&gt;&gt; you don't need little sport cover shoes\nwhen you have\n&gt;&gt; You have stolen mine.\n&gt;&gt; No,\n&gt;&gt; no, I don't. Do you like the place?\n&gt;&gt; Ah, yeah. I love it.\n&gt;&gt; It reminds me a little bit of Val Ros in\n&gt;&gt; Oh, yeah.\n&gt;&gt; Hello.\n&gt;&gt; 10 in 20 minus degrees.\n&gt;&gt; Yeah.\n&gt;&gt; Up there.\n&gt;&gt; One of the highest mountain road in the\nAlps.\n&gt;&gt; Yeah. More beautiful also. Oh, yeah.\n&gt;&gt; 2,700\nof course.\n&gt;&gt; Okay, we try something new in schedule\nnow.\nChico,\ntoday I've done a little bit longer ski\nsession than yesterday. Of course, it's\nday three in altitude, so I take it\nslowly.\nSo, good sensation and\nit's a beautiful place. So, I just\nwanted to ski more, but I can't be too\ngreedy.\n&gt;&gt; You wait for me\n&gt;&gt; this afternoon.\n&gt;&gt; Yeah, this afternoon I will ski with\nyou.\n&gt;&gt; Nice.\n&gt;&gt; What have you done today?\nUh today I did the 3 * 5 kilometers on\nthe racetrack.\nIs this threshold?\nThat is fast.\nIf this is threshold, I'm really\nimpressed. Really good.\n&gt;&gt; And it was really slow.\nminus 16\nand uh yeah, slow condition and\ndifficult to ski in the in the cold, but\nthen I can eat a lot, so I'm happy.\n&gt;&gt; Good.\n&gt;&gt; A little\nsunset training\nwith my lover.\nWow.\nHey, wait for me.\n&gt;&gt; You happy to wait for me?\n&gt;&gt; Yes. Yes.\nBeautiful.\nSo cold. I think it's - 20 here. But the\nboys, where are they going?\nHere\nI'm in Bonval.\nYou can see the village in the shadow.\nIt's the highest village here. And after\nthat you have no road or you have the\ncold\nbut it's closed in the winter. So it's\nthe end of the world. No sun. I eat\nshroom.\nunderstand. I feel so so slow today and\nreally bad. It's normal because it's the\nfourth day\nin altitude. During the four first day\nin altitude, I always feel really bad.\nSo, I hope tomorrow will be better.\n&gt;&gt; Uh, this lunch, it's not the big\nFrench food.\nYou know this\nand the rice. Super good.\n&gt;&gt; How was it\n&gt;&gt; today?\n&gt;&gt; Oh, super good. Long session with tool.\nSo,\nsince I him, it went a little bit faster\nthan expected.\nSuper beautiful today, but also super\ncold.\n&gt;&gt; M. Your nose is a bit red.\n&gt;&gt; Yeah, I guess so.\n&gt;&gt; Thomas, the prince.\nHuh?\nWhere are you going? Like this?\n&gt;&gt; I go for a 1 hour skate.\n&gt;&gt; Skate?\n&gt;&gt; Yes.\n&gt;&gt; Sure.\n&gt;&gt; You know how to do?\n&gt;&gt; I'm not sure.\n&gt;&gt; You want help?\n&gt;&gt; Okay.\n&gt;&gt; I practice for next weekend.\n&gt;&gt; I'm ski instructor. I can help you.\n&gt;&gt; Yeah, but it's smart to train and skate\nbefore ski classic start again.\nTomas, come to try the blue cheese.\n&gt;&gt; No. You don't like a little piece?\n&gt;&gt; No.\n&gt;&gt; No. It's too big.\n&gt;&gt; I No, I like this.\n&gt;&gt; No, I will not.\n&gt;&gt; Like this.\n&gt;&gt; No, I don't. No.\n&gt;&gt; Please do it for me.\n&gt;&gt; Nope.\n&gt;&gt; I will destroy my appetite for 3 days.\n&gt;&gt; It's so good.\n&gt;&gt; It's the same for you. Is I push to eat\nBrunost.\n&gt;&gt; Oh, no. Yes. is is not good. But this is\ngood.\n&gt;&gt; look at this. Now we try\nthe French if they see that. But I like\nthis.\n&gt;&gt; That's a good one.\n&gt;&gt; And this one.\n&gt;&gt; Let me try this one.\n&gt;&gt; What's the difference?\nThis one is um 12 months I think. And\nthis one\n&gt;&gt; 12 months.\n&gt;&gt; Better.\n&gt;&gt; No. Yeah. A little bit better. More\nsalted this one. This one.\n&gt;&gt; Okay. There.\nThat's no sense to say that.\n&gt;&gt; What up?\n&gt;&gt; Crazy crazy weather.\n&gt;&gt; Maybe 80 cm slower in two days.\n&gt;&gt; And a lot a lot of wind. And tomorrow\nalso I think it will be a lot of wind.\nSo really difficult condition for the\nfirst\n&gt;&gt; race of the year.\n&gt;&gt; That's true.\n&gt;&gt; Not a gift.\n&gt;&gt; You like that?\n&gt;&gt; Depends on how you ask.\n&gt;&gt; Thomas is really happy with this\ncondition.\n&gt;&gt; Yeah. I mean for me it's a flat race\nlike this. Uh my biggest competitor\ntomorrow is Charlie and he he likes\nharder conditions who I guess everyone\nknow. And I like softer condition,\nespecially in a flat track like this. So\nfor me, it's okay.\n&gt;&gt; You ready?\n&gt;&gt; Mhm.\n&gt;&gt; 2023.\n&gt;&gt; This is the finish line, by the way, if\nyou want to see.\nhide the\nwindow.\n&gt;&gt; And here's the starch\nloop over here.\n&gt;&gt; A long loop on the field behind\n&gt;&gt; like this.\n&gt;&gt; Two time 15 km.\n&gt;&gt; Yeah. Two loops.\n&gt;&gt; Actually a really flat race. But with\nthese conditions, it's\n&gt;&gt; it will be really really hard.\n&gt;&gt; Yes. Let's go for\ncookie.\nYou help a lot.\n&gt;&gt; I hope the Italian will not watch the\nvlog.\n&gt;&gt; This is static meeting now.\n&gt;&gt; Okay. Which number has you\n&gt;&gt; have? You\n&gt;&gt; have you\n&gt;&gt; 20 23203.\n&gt;&gt; Have a beautiful\n&gt;&gt; me with on a red red jacket.\n&gt;&gt; Yeah. Okay.\n&gt;&gt; Okay. And and um at\na recogn\nWe have the most beautiful suit in the\n&gt;&gt; beautiful tone.\n&gt;&gt; It's more black than white in fact.\n&gt;&gt; And the hat or\n&gt;&gt; Yeah. blue blue hat.\n&gt;&gt; More black glasses.\n&gt;&gt; Yeah. Like this. Like this.\n&gt;&gt; Yellow.\n&gt;&gt; And the yellow glasses. I think\n&gt;&gt; uh for the start.\n&gt;&gt; Condis and Valeri will be here.\n&gt;&gt; On the left. Valeri will has poles.\n&gt;&gt; Yeah. Then she will cross here\n&gt;&gt; and try to see us if we have a problem\nhere on the little turn.\n&gt;&gt; You have to be fast.\n&gt;&gt; You have to run over after the start.\nAfter my start will go on this little\nbump I show you after 5k.\n&gt;&gt; Yeah. The bump where we here we come\ndownhill.\n&gt;&gt; Yes. Yes. And here is the botan.\n&gt;&gt; Yep. B\n&gt;&gt; stadium.\n&gt;&gt; It's here or here?\n&gt;&gt; No, here.\n&gt;&gt; Okay. Okay. Okay.\n&gt;&gt; Small smaller field.\n&gt;&gt; Uh she will be on the right part of the\ntrack to give the feeding.\n&gt;&gt; Oh, over the top.\n&gt;&gt; Yeah. Yeah.\n&gt;&gt; So, Michelle will be here.\n&gt;&gt; On the right also.\n&gt;&gt; Here on 8K and maybe back if he\n&gt;&gt; I can give you only vodka.\n&gt;&gt; Good plan.\nreally good stuff.\n&gt;&gt; And here also\n&gt;&gt; also here on the way down to the big\nbuilding, you know, you remember?\n&gt;&gt; Yeah, that's here.\nOkay. Okay. Just bad on the map, but\nit's the same place I show.\nOkay.\n&gt;&gt; On the downhill here.\n&gt;&gt; Sorry.\nEverything is normal except\n&gt;&gt; it's me the winner\nconcentrate\nto make the bomb\nTNT.\n&gt;&gt; Yes,\n&gt;&gt; this is also TNT.\nLet's go to the start\nwith Michelle. The pilot\nis the feeding.\nIt's for you.\n&gt;&gt; You think it was stressful?\n&gt;&gt; Yeah. Oh yeah. Now it's the fun part.\n&gt;&gt; Now it's the race.\n&gt;&gt; Now you can calm down.\n&gt;&gt; Blue wax.\n&gt;&gt; Blue kick wax today.\n&gt;&gt; Oh yeah.\n&gt;&gt; I'm stressed because he is stressful.\n&gt;&gt; Yeah. I think he is stressed for the\nnutrition. That's why he's stressed.\n&gt;&gt; Yes, that's true.\n&gt;&gt; The tea have fun. That's for sure.\nMichelle, he know everyone here. Look at\nthat. And\nSuper.\n&gt;&gt; 2 MINUTES. YEAH. LET'S GO.\nWe have the winner of the race.\n&gt;&gt; Easy. But I win.\n&gt;&gt; And you on podium.\n&gt;&gt; Good. Good.\n&gt;&gt; Three.\n&gt;&gt; Three. One.\n&gt;&gt; Good day for the for the team.\nSuper service.\n&gt;&gt; Best service.\n&gt;&gt; The best feeding team.\n&gt;&gt; Team\nVictory means pizza.\n&gt;&gt; So I don't eat pizza.\n&gt;&gt; Everything is for me.\n&gt;&gt; You eat five pizza.\n&gt;&gt; Hey the vlog. Look at this. Oh, it's\nbeautiful today. Today is the the\nskating race. So me and Thomas, we ski.\nNot the girls arrive.\nToday it's our last day\nin this one.\n&gt;&gt; Last day in tireless a bit sad. Yes.\n&gt;&gt; How do you feel after the race?\n&gt;&gt; Good. Yesterday was uh a bit tired.\n&gt;&gt; Today is good again.\nSo uh it's 5 hour on the plan today\nactually but we have to see\n&gt;&gt; how long\nand me because you never ask. Uh\n&gt;&gt; how long will you ski then?\n&gt;&gt; I ski I feel uh also good a bit uh\nuh slow.\n&gt;&gt; But that's good for the two day\ntraining. I I do three hour if I have\nenough strength with\nBye-bye.\nLeaving you next stop.",
+          "curated": true,
+          "curation_reason": "Excellent skier POV vlog showing training and race preparation in Bessans with detailed conditions commentary.",
+          "display_order": 1
+        },
+        {
+          "video_id": "Hnt3Wt52zGc",
+          "title": "Marathon International de Bessans 2018 Ski de Fond Style libre",
+          "channel": "JC Sambain",
+          "view_count": 136,
+          "upload_date": "20181012",
+          "duration_string": "24:01",
+          "description": "Bessans Haute Maurienne Vanoise \nDeuxième journée - Ski de fond Style Libre 42 et 23 km,  2,5 km, 5 km, 10 km \nDimanche 14 janvier 2018\n- -\nReportage : les départs, la course, l'ambiance, tous les podiums du 2,5 km au 42 km, Dames et  Hommes.",
+          "tags": [
+            "Marathon",
+            "Bessans",
+            "Maurienne",
+            "Vanoise",
+            "reportage",
+            "Ski de fond",
+            "style libre"
+          ],
+          "url": "https://www.youtube.com/watch?v=Hnt3Wt52zGc",
+          "curated": false
+        },
+        {
+          "video_id": "8-reAIRrWaE",
+          "title": "Marathon International de Bessans 2022 - Dimanche",
+          "channel": "Marathon International de Bessans",
+          "view_count": 497,
+          "upload_date": "20220112",
+          "duration_string": "3:12",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=8-reAIRrWaE",
+          "curated": false
+        },
+        {
+          "video_id": "q1w3A3MplbU",
+          "title": "Marathon International de Bessans 2019 Ski de Fond Classique Euroloppet",
+          "channel": "JC Sambain",
+          "view_count": 356,
+          "upload_date": "20190204",
+          "duration_string": "19:15",
+          "description": "Bessans Haute Maurienne Vanoise\nPremière journée - Ski de fond Classique 15 et 30 km\nSamedi 12 janvier 2019\n- -\nReportage : les départs, la course, l'ambiance, les podiums des 15 et 30 km, Dames et  Hommes.",
+          "tags": [
+            "Marathon",
+            "Euroloppet",
+            "Bessans",
+            "Maurienne",
+            "Vanoise",
+            "Ski de fond",
+            "classique"
+          ],
+          "url": "https://www.youtube.com/watch?v=q1w3A3MplbU",
+          "curated": false
+        },
+        {
+          "video_id": "CzN19YGOKCM",
+          "title": "Marathon de BESSANS 2019 2",
+          "channel": "Jackie Imbert",
+          "view_count": 160,
+          "upload_date": "20190114",
+          "duration_string": "4:57",
+          "description": "Cette vidéo traite de Marathon de BESSANS 2019 2",
+          "tags": [
+            "iMovie"
+          ],
+          "url": "https://www.youtube.com/watch?v=CzN19YGOKCM",
+          "transcript": "Oh\n[Music]\nyeah that must be just be love\nchant what he is\ngentle a mobile to live\nthis is route\njust love\nwho Sybil\nAlicia key football I will read a book\nthe excellent\n[Applause]",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It's so cold, but in the sun it's perfect. I think it's minus 20 here. Slow condition and difficult to ski in the cold, but then I can eat a lot, so I'm happy.",
+          "source_video_id": "hr0-2yJrXyk",
+          "source_channel": "Laurie Flochon Joly",
+          "source_view_count": 389,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
     }
   }
 }

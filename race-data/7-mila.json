@@ -6,7 +6,9 @@
     "tagline": "Seven Swedish miles through the forests of Västerbotten — a 76km odyssey in the deep north where daylight is still a luxury in March.",
     "vitals": {
       "distance_km": 76,
-      "distance_options": ["76km"],
+      "distance_options": [
+        "76km"
+      ],
       "elevation_m": 600,
       "altitude_m": 200,
       "location": "Robertsfors",
@@ -17,7 +19,7 @@
       "date": "March",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~600 starters",
+      "field_size": 600,
       "founded": 1980,
       "registration": "Online registration",
       "prize_purse": null,
@@ -25,7 +27,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 64.1904,
-      "lng": 20.8416
+      "lng": 20.8416,
+      "field_size_estimate": 600,
+      "elevation_gain_m": 600
     },
     "climate": {
       "primary": "Northern Swedish winter",

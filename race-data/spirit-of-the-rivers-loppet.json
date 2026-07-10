@@ -1,0 +1,96 @@
+{
+  "race": {
+    "name": "Spirit of the Rivers Loppet",
+    "slug": "spirit-of-the-rivers-loppet",
+    "display_name": "Spirit of the Rivers Loppet",
+    "tagline": "Community Nordic skiing in northern British Columbia — Prince George's Caledonia Nordic Club hosts this loppet in one of Canada's most dedicated winter sport regions.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 610,
+      "location": "Prince George, British Columbia",
+      "location_badge": "British Columbia, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "February / March",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 100,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid stations on course",
+      "cutoff_time": null,
+      "website": "https://caledonianordic.com/events/cross-country/spirit-of-the-rivers-loppet",
+      "lat": 53.9171,
+      "lng": -122.7497,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Northern BC interior",
+      "description": "Prince George has cold, snowy winters with reliable Nordic conditions. Caledonia Nordic Ski Club is a major hub for the region, 15 minutes from downtown.",
+      "typical_temp_c": "-20 to -5",
+      "challenges": [
+        "Very cold temperatures possible",
+        "Remote northern location",
+        "Short winter daylight hours",
+        "Heavy snowfall possible"
+      ]
+    },
+    "course": {
+      "primary": "Loppet course through the Caledonia Nordic Ski Club's trail network in the forests near Prince George.",
+      "format": "loop",
+      "surface": "Machine-groomed trails",
+      "technical_rating": 2,
+      "grooming": "Good club grooming",
+      "features": [
+        "Caledonia Nordic Ski Club trails",
+        "Northern British Columbia boreal forest",
+        "Community loppet event",
+        "15 minutes from downtown Prince George"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 40,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Reliable snow and dedicated Nordic club, but remote location and small field size limit the overall score.",
+      "tier_note": "Score 40 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Spirit of the Rivers Loppet is a community Nordic event hosted by the Caledonia Nordic Ski Club in Prince George, British Columbia. The club is a major hub for Nordic sport in northern BC.",
+      "notable_facts": [
+        "Hosted by Caledonia Nordic Ski Club",
+        "One of northern BC's main Nordic events",
+        "15 minutes from downtown Prince George",
+        "Community-focused loppet"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

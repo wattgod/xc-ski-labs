@@ -6,7 +6,10 @@
     "tagline": "Estonia's winter marathon — 63 kilometers across the frozen Baltic lowlands, where one of Europe's oldest ski races meets the flattest course in the Worldloppet.",
     "vitals": {
       "distance_km": 63,
-      "distance_options": ["63km classic", "31km"],
+      "distance_options": [
+        "63km classic",
+        "31km"
+      ],
       "elevation_m": 300,
       "altitude_m": 100,
       "location": "Otepää to Elva",
@@ -16,16 +19,18 @@
       "region": "Tartu County",
       "date": "Mid-February",
       "date_specific": "2026: February 15",
-      "discipline": "classic",
-      "field_size": "~4,000 starters",
-      "founded": 1960,
+      "discipline": "both",
+      "field_size": 4000,
+      "founded": 1966,
       "registration": "Opens in autumn",
       "prize_purse": null,
       "aid_stations": "Multiple stations with warm drinks and energy food",
       "cutoff_time": null,
       "website": "https://www.tartumaraton.ee",
       "lat": 58.0547,
-      "lng": 26.4903
+      "lng": 26.4903,
+      "field_size_estimate": 4000,
+      "elevation_gain_m": 300
     },
     "climate": {
       "primary": "Baltic continental winter",
@@ -85,10 +90,228 @@
         "One of the lowest-altitude courses in the Worldloppet series"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Tartu Maraton cross country ski race Otepää to Elva",
+      "videos": [
+        {
+          "video_id": "ADEI48Rc4VU",
+          "title": "2018 Tartu ski marathon 63km",
+          "channel": "Gints Berzins",
+          "view_count": 425,
+          "upload_date": "20180307",
+          "duration_string": "5:42",
+          "description": "TARTU MARATON  / 63 km track\n\nTARTU MARATON IS ONE OF THE OLDEST SKI MARATHONS IN THE WORLD WITH ITS HISTORY OF ALMOST 60 YEARS. \nIT IS ALSO ONE OF THE BIGGEST SKI MARATHONS IN THE WORLD.\nTHE TRADITIONAL 63 KM MARATHON GOES FROM OTEPÄÄ TO ELVA\n\nWe did it in 4h52min",
+          "tags": [
+            "xcskiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=ADEI48Rc4VU",
+          "curated": false
+        },
+        {
+          "video_id": "Y-GcHaNND9c",
+          "title": "49. Tartu Maraton (2023) - first 2km - leia ennast, find yourself",
+          "channel": "EestiMaal",
+          "view_count": 7162,
+          "upload_date": "20230219",
+          "duration_string": "17:44",
+          "description": "ENGLISH:\nThis video shows 49th Tartu Maraton (Feb 19, 2023) skiiers just before the 2 km point on a downhill slope. This cross country skiing marathon is held in Southern Estonia (between Otepää and Elva) is in classical technique and belongs to the Worldloppet and Estoloppet series. You can try to find yourself among the skiiers in this video. The 2 km point shown in the video is the point where majority of the falls happen. This year the frash snow made the skiing track slower and softer so luckily nothing major happened on this fast section of the marathon track. This year's winners of Tartu maraton were Henri Roos and Justyna Kowalczyk. Andrus Veerpalu was 4th.\n\n--------------------------------------------------------------------------------------------------------\n*** If you like this video I invite you to SUBSCRIBE to my channel and leave a LIKE!\n--------------------------------------------------------------------------------------------------------\n\nESTONIAN: See video näitab 49. Tartu Maratoni (19. veebruar, 2023) laskumist just enne 2km punkti. Tartu Maraton kulgeb Otepäält Elvasse ja see sõidetakse klassikalises stiilis ning ta kuulub Worldloppeti ja Estoloppeti sarja. Proovige leida ennast suusatajate hulgast. Videos näidatav Tartu Maratoni 2 punkt on üks järsematest laskumistest ja seal juhtub tavaliselt palju kukkumisi. Sellel aastal tegi värske lumi raja aeglaseks ja pehmeks ja õnneks seal midagi hullu suusatajatega ei juhtunud. Tartu Maratoni võitjad olid Henri Roos and Justyna Kowalczyk. Andrus Veerpalu sai 4. koha.\n\nPR_137",
+          "tags": [
+            "Tartu Maraton 2023",
+            "49. Tartu Maraton",
+            "49th Tartu Marathon",
+            "skiing maraton",
+            "ski marathon",
+            "cross country skiing",
+            "Worldloppet",
+            "Estoloppet",
+            "2km point",
+            "falls",
+            "kukkumised",
+            "Otepää",
+            "Tartu",
+            "Elva",
+            "Estonia",
+            "Southern Estonia",
+            "Eesti",
+            "Henri Roos",
+            "Justyna Kowalczyk",
+            "Andrus Veerpalu",
+            "2023",
+            "19.02.2023"
+          ],
+          "url": "https://www.youtube.com/watch?v=Y-GcHaNND9c",
+          "transcript": "[Music]\nthank you\nforeign\n[Applause]",
+          "curated": true,
+          "curation_reason": "Recent 2023 race coverage of the challenging 2km downhill section with detailed course conditions and snow quality information.",
+          "display_order": 2
+        },
+        {
+          "video_id": "7A9OsVQ1Fro",
+          "title": "HIGHLIGHTS | 45. Tartu Maraton",
+          "channel": "TartuMaratoniKlassik",
+          "view_count": 4555,
+          "upload_date": "20180219",
+          "duration_string": "2:22",
+          "description": "Klassikalisel Otepää-Elva vahelisel trassil peetud põhisõitudele startis 3376 suusatajat – 2601 pikemale 63 km distantsile ning 775 lühemale 31 km sõidule. \n/\nIn total of 3376 skiers started in Sunday’s main races – 2601 to the longer 63 km distance and 775 to the shorter 31 km race.",
+          "tags": [
+            "Tartu Maraton",
+            "Otepää",
+            "Elva",
+            "Tartu",
+            "Visit Estonia",
+            "Worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=7A9OsVQ1Fro",
+          "curated": false
+        },
+        {
+          "video_id": "FlrmlV8WVzw",
+          "title": "44. Tartu Maraton",
+          "channel": "TartuMaratoniKlassik",
+          "view_count": 3615,
+          "upload_date": "20170227",
+          "duration_string": "2:58",
+          "description": "26. veebruaril peetud Tartu Maratoni eliitgrupi 34-kilomeetrisel distantsil läksid nii meeste kui ka naiste seas võidud Prantsusmaale. Eestlaste parimatena saavutasid Tatjana Mannima naiste seas teise ning meeste konkurentsis Kein Einaste 11. koha. Kahe võistluspäeva peale kokku osales tänavuse Tartu Maratoni põhipäevadel 2875 suusasõpra.\nLoe lähemalt: https://www.tartumaraton.ee/et/uudised/2017/02/26/\n//\nTartu Maraton's elite group's race winnings in the distance of 34 kilometers went both to France. Estonia's best were Tatjana Mannima, who gained second place among women, and Kein Einaste, who finished in 11th place among men. The total number of this year's Tartu Maraton's main events' participants is 2875.\nRead more here: https://www.tartumaraton.ee/en/news/2017/02/26/ \n\nVideo: Rockstick Production",
+          "tags": [
+            "Tartu Maraton",
+            "Rockstick Production",
+            "visitestonia",
+            "Otepää",
+            "marathon",
+            "cross-country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=FlrmlV8WVzw",
+          "curated": false
+        },
+        {
+          "video_id": "eR254rbViQQ",
+          "title": "36th Tartu Forest Marathon - trailer",
+          "channel": "TartuMaratoniKlassik",
+          "view_count": 163,
+          "upload_date": "20180313",
+          "duration_string": "46",
+          "description": "Tartu Running Marathon (or Tartu Jooksumaraton), the biggest cross-country running event in the Baltics, got itself a new name and is now called Tartu Forest Marathon. Also, a 42 km distance has been added to the programme. Every year about 4000 runners participate in the event. ➡️ https://www.tartumaraton.ee/en/events/jooksumaraton/36/",
+          "tags": [
+            "Tartu Maraton",
+            "Tartu Jooksumaraton",
+            "Tartu Maastikumaraton",
+            "jooksmine",
+            "tervisesport",
+            "sport",
+            "Estonia",
+            "Otepää",
+            "Elva",
+            "running",
+            "marathon",
+            "Forest Marathon"
+          ],
+          "url": "https://www.youtube.com/watch?v=eR254rbViQQ",
+          "curated": false
+        },
+        {
+          "video_id": "GmAQGWTWZag",
+          "title": "43. Tartu Maraton",
+          "channel": "TartuMaratoniKlassik",
+          "view_count": 7590,
+          "upload_date": "20150327",
+          "duration_string": "25:34",
+          "description": "„Ma julgen öelda, et see oli isegi parem kui Vasaloppet,“ ütles 43. Tartu Maratoni võitnud neljakordne maailmameister Eldar Rönning vahetult pärast võitu pressikonverentsil. Sarnaselt kuulsale norralasele nautis tänavust Tartu Maratoni erinevatel üritustel kokku 8051 inimest.\n//\n„I can say that it was perhaps even better than Vasaloppet,“ said the winner of the 43rd Tartu Maraton Eldar Rönning after the race. Similary to the four-time world champion a total of 8051 people enjoyed Tartu Maraton events this year.",
+          "tags": [
+            "Tartu Maraton",
+            "Otepää",
+            "Elva",
+            "Tartu",
+            "Tartu Maratoni Kuubik"
+          ],
+          "url": "https://www.youtube.com/watch?v=GmAQGWTWZag",
+          "curated": false
+        },
+        {
+          "video_id": "nHvUefuU_0o",
+          "title": "SkiPlanet by Worldloppet 5 TARTU MARATON",
+          "channel": "Worldloppet",
+          "view_count": 392,
+          "upload_date": "20190226",
+          "duration_string": "13:00",
+          "description": "💥ON AIR💥\nWelcome to the 5th episode of #SkiPlanetByWorldloppet, your worldwide cross-country marathon skiing show!\nToday, we’re in Tartu, in Estonia, to discover the great Tartu Maratoni Kuubik... and many more (Hellenurme Veskimuuseum MTÜ, Eesti Rahva Muuseum / Estonian National Museum, Demino Marathons, Engadin Skimarathon...)!\nEnjoy the show !\n\n👍 Don't miss this episode AND like the #Worldloppet page for not missing a single episode of #SkiPlanet !\n\n• SKI PLANET is hosted by Marika Godin, produced by Worldloppet and proudly presented by Montagnes du Jura and Rossignol & Rossignol Apparel.",
+          "tags": [
+            "SkiPlanet",
+            "Ski around the world",
+            "Marika Godin",
+            "SkiPlanet by Worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=nHvUefuU_0o",
+          "transcript": "[Music]\nskee planet the magazine of the art of\nliving of cross-country skiing across\nthe world is presented by Montaigne do\nszura\nthe official nordic destination in\nfrance\ntell em Dulli much welcome friends for\nthe fifth episode of the planet by world\neffect your work right cross country\nMadison Street today we are in the\nofficial birthplace of Estonian cheap\nsports since many years start American\nhas grown to become a trade center for\nall popular master seventh held in the\ncountry\nEstonia will surprise you between\ntradition and modernity dr. marathon is\ndefinitely an event not to be missed and\nyou will understand why after look at\nthe summary in this fifth episode we'll\ngo to Russia to have a look at one of\nthe youngest world leper traces then\nwe'll discover two faces of Estonia's\nhuge vitality you through the children's\nrace and culture with the visit of one\nof the most beautiful museums of Europe\nthe Estonian national museum of course\nwill prepare a next trip to Switzerland\nand then mica will take part in Tartus\nmain race held in classic style and we\nwon't forget to provide an update on the\nFIS world leopard Cup rankings but first\nlet's go to Helen Adama to learn how to\nbake the famous Estonian black bread\nhi I'm Monica nice to meet you no enemy\non my can have off to them this place is\nso cozy I think it's your workshop you\ntell me well like say only no coat on\nyes NCR acoustic hace Hillerman whiskey\nsay mr. tactile see em on eBay old Yan\nWeimin Institute are busy whiskey does\nit mean that bread is important for\nEstonian people\nYahoo cacao Lena\nTanner appeal a velocity named said they\nare not Canali aha toss it you know you\nknow a ton about the Hawks occupy your\nphotos you know on sort of a more\nassertive sort of oddities sorta I'm\ncurious and I want to learn so is it\npossible to bake refuse some bread today\nyeah\nthen I'm it's it's how many heroic\nlabors they stood at this you up\nmate ok show me the way ok cuz I the hot\ncuz it go down yes she's about Panama\nyou clerk in me okay\nYossi Sarid carapace Emma of course\nit's about jicama\n[Applause]\nYahoo Pollock is it is you know what\nthey let it be if we don't know Moloch\nwill male apparel you leave up Kazaam\nwhat is the next step\nnew darle addicted your new upon a\nminute oh you're Iranian oil yet the\nonly set up do it this mobile now you\neven I am good and now it's going not so\nfar from here in Russia to look at one\nof the youngest wallop attractive\noriginally the marathon was held in\nhonor of Vladimir Namath famous Russian\nskier and founder of the ski sports\ncenter dimino every year the course of\nthe marathon increased by one kilometre\namounting to the number of years of\nVladimir neomu then the cross-country\nWorld Cup came to dimino in 2007 and\nthat year the dimino ski marathon was\nreborn in 2012 with its 1,600\nparticipants the organizers of the\nmarathon passed the most difficult exam\nof entry into the series of the world's\nlargest marathons the world up at Ski\nFederation the evaluation of the six-day\nMino marathon was conducted by the world\nlovett Executive Committee and its\nmembers didn't just watch they were\nparticipants in the race the result was\nthe inclusion of the dimino marathon\ninto the world leopard family starting\nin 2013 and this year more than 2,500\nskiers elite and popular representing 19\ncountries and 60 Russian regions will\ntake part in the 12th traditional\ninternational rostec dimino ski marathon\nflashback to childhood for this first\nday in terms of marathon weekend let's\nhave fun\nMelanie seen dr. one eternal austerity\nAustralian may say initiative allows\nautomatic renewals always the analysis\nthat allows of thought to matter to any\nway the same machine seen even take a\nliquid coalition was ordered to mattify\nmiss Miller may get off to move candolyn\njust another my math lab see sporty was\nthe do wire yeah any task force putrid\non Napoli of Assam Ismail is once a\nsource at Thomas again which will took\nhours to Thomas Robert isocell toll\nemerges any city Melissa that all well\nof novel Menzel Allah stars in a season\nall know we're on our way Melissa cell\nregulation I'm gonna have the volunteers\nwill give some Meadows to children\nwhat is the atmosphere at the pool I\nthink we have been participating at\nthese events for so we actually know how\nthey can I'd love to see rooms enough\nit's how it suits our Dada yeah but\nwhat's cordiality they have become a\ndivided at the option I love the\natmosphere of this country and now I\nwant to learn more about Estonian pupil\nthis afternoon I'm gonna live a cultural\nexperience I will go to the National\nMuseum\nnow I understand why last year this\nmuseum won the European award for museum\nit has to be on your bucket list for\nyour next trip in Estonia and you what\nwill be your next word Lopes trip let's\nhave a look at how travel netbook the\nArdennes ski marathon is not only the\nmost well-known sporting event in\nSwitzerland but also a beloved meeting\npoint for the world's elite the young\ngodina is the second largest\ncross-country skiing event worldwide\nafter the Vasaloppet in 2018 at the 50th\nJubilee registrations had to be stopped\nat 14,000 200 participants every year\nsince 1969 the love of the young godina\nski marathon remains unbroken to this\nday why because with the marathon\ncrossing through summer it's one of the\nworld's most famous holiday resorts and\nwith the various side events throughout\nthe week the cross-country skiing\nexperience in beautiful Upper Angie Dean\nis simply unforgettable\nyou want to know why\nthat's it\nperfect snow conditions amazing\nconditions for the 5000 skiers coming\nfrom 36 countries registered in the 46\nTartu marathon fifth stage of the FIS\nworld Lovett couple conditions were so\ngood that the winner microvascular from\nfinland set a new track record on the\noriginal 63 kilometer between OTP and\nAlva finishing in 2 hours and 31 minutes\nwith his second-place dummy empty home\nto Allah from France takes over the\nleading red 5th from his teammate jaha\nNene and even if it was not his goal to\ngo for the overall victory of the FIS\nwore leopard cup who will try to defend\nhis leading position in the last two\nraces of the season in the ladies\noverall ranking Maria grave Ning's is\nstill outrageously dominating the\ncompetition and as her overall increases\nfinal victory is looking very promising\nit's I really like the end of the race\nthis because this is for me the last\nrace for the global master in the holo\norder we have the Flex here for my races\nin the world to finish so you didn't\nplaying happy life I have to tell you\nthat I had a crush on Estonia I hope\nthis episode of ski planet show you what\nis the experience when you travel in\nthis country see you in two weeks in\nPoland for a new trip bye\nthe world was presented to you by\nMontaigne desura\nthe official Nordic destination in\nFrance",
+          "curated": true,
+          "curation_reason": "Professional Worldloppet race coverage featuring the race experience and cultural context of Tartu Maraton.",
+          "display_order": 3
+        },
+        {
+          "video_id": "EoBVokzRAHY",
+          "title": "Indrek Kelk (Race Director Tartu Maraton) about the Tartu Maraton during the pandemic year.",
+          "channel": "Worldloppet",
+          "view_count": 85,
+          "upload_date": "20210427",
+          "duration_string": "59",
+          "description": "Tartu Maraton was one of the few events that were able to be carried out during the winter 2021. The pandemic didn't allow many big events. Tartu Maraton took place with 3500 skiers but under certain conditions.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EoBVokzRAHY",
+          "transcript": "oh it was a\nlong fight and finally we are here\ni even haven't a lot of words\nuh to tell the emotions what i have\ntoday\nwe have quite stressful uh night because\nwe don't know what\nkind of weather this is coming is it's\nstill snowing in morning or raining but\ntoday now\nhorse is perfect plus one degrees\nno rain no snow hopefully that\nthis virus things are also\nunder control all people wear the mask\nbefore the start\nno public no spectators\nthat's a strange version of of tattoo\nmotherton but\nit's a mark of time\nnothing to do",
+          "curated": false
+        },
+        {
+          "video_id": "l733KHl_XjM",
+          "title": "50. Tartu Maraton - Tartu Ski Marathon - 2km point - 2024",
+          "channel": "EestiMaal",
+          "view_count": 18727,
+          "upload_date": "20240218",
+          "duration_string": "7:11",
+          "description": "ENGLISH: This video was filmed at the 2 km point of the 50th Tartu Ski Marathon. This location is one of the trickiest as it is very fast, resulting in many falls. This year the track was rather icy and therefore very fast. The winners of the marathon were: Henri Roos, Marko Kilp, Lauri Lepistö, Taavi Kõiv, Andrus Veerpaly, Andres Juursalu\n\nESTONIAN: See video on filmitud 50. Tartu Maratoni 2. kilomeetril. Seal asuv laskumine on üks maratoni kiiremaid ja seal juhtub palju kukkumisi. Seal aasal oli rada jäine ja väga kiire. Tartu Maratoni võitjad olid: Henri Roos, Marko Kilp, Lauri Lepistö, Taavi Kõiv, Andrus Veerpaly, Andres Juursalu\n\n--------------------------------------------------------------------------------------------------------\n*** If you like this video I invite you to SUBSCRIBE to my channel and leave a LIKE!\n--------------------------------------------------------------------------------------------------------\n\nPR_158",
+          "tags": [
+            "Tartu Maraton",
+            "50. Tartu Maraton",
+            "2024",
+            "2 km laskumine",
+            "kukkumised",
+            "Otepää",
+            "Tehvandi",
+            "suusatamine",
+            "maraton",
+            "Tartu Ski Marathin",
+            "50th Tartu Ski Marathon",
+            "2k point",
+            "falls",
+            "accidents",
+            "mishaps"
+          ],
+          "url": "https://www.youtube.com/watch?v=l733KHl_XjM",
+          "curated": true,
+          "curation_reason": "Recent 2024 race footage showing the tricky 2km downhill section where many falls occur, with specific course conditions described.",
+          "display_order": 1
+        },
+        {
+          "video_id": "m26OAIQAvho",
+          "title": "46th Tartu Maraton - trailer",
+          "channel": "TartuMaratoniKlassik",
+          "view_count": 2690,
+          "upload_date": "20190108",
+          "duration_string": "32",
+          "description": "Tartu Maraton is also known as the Estonian Song Festival of Winter because of its grand proportions and international fame. It brings together thousands of skiing enthusiasts every year from all corners of the world.\n\nLear more here ➡️ http://bit.ly/TM2019_eng",
+          "tags": [
+            "Tartu Maraton",
+            "skiing",
+            "marathon",
+            "Estonia"
+          ],
+          "url": "https://www.youtube.com/watch?v=m26OAIQAvho",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

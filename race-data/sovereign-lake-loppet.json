@@ -1,0 +1,99 @@
+{
+  "race": {
+    "name": "Sovereign Lake Loppet",
+    "slug": "sovereign-lake-loppet",
+    "display_name": "Sovereign Lake Loppet",
+    "tagline": "Fifty kilometers across the Okanagan Highland's snowbound plateau — where British Columbia's interior delivers cold, dry snow and cathedral forest silence.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 500,
+      "altitude_m": 1600,
+      "location": "Sovereign Lake Nordic Centre",
+      "location_badge": "Vernon, BC, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "British Columbia",
+      "date": "Late January",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 500,
+      "founded": 1998,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.sovereignlake.com",
+      "lat": 50.3528,
+      "lng": -119.1408,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 500
+    },
+    "climate": {
+      "primary": "Interior BC highland winter",
+      "description": "Late January on the Okanagan Highland at 1,600m delivers cold, dry, interior snow — the opposite of coastal BC's wet maritime conditions. Temperatures typically -15°C to -5°C. The plateau's elevation and continental position create some of Canada's most reliable and high-quality snow conditions for Nordic skiing.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Cold temperatures at 1,600m interior elevation",
+        "Remote highland location — drive from Vernon or Kelowna",
+        "Short January daylight hours",
+        "Occasional extreme cold snaps in the BC interior"
+      ]
+    },
+    "course": {
+      "primary": "A 50km race on the Sovereign Lake Nordic Centre's extensive trail system at 1,600m on the Okanagan Highland. The course winds through dense subalpine forest with rolling terrain and technical sections. Sovereign Lake is regularly used for national-level competitions and offers some of the best grooming in western Canada.",
+      "format": "loop",
+      "surface": "Machine-groomed trails at a dedicated Nordic centre; cold dry snow",
+      "technical_rating": 3,
+      "grooming": "Excellent grooming at a dedicated Nordic centre — one of the best in western Canada",
+      "features": [
+        "Dedicated Nordic centre with 50+ km of trails",
+        "Cold, dry interior snow at 1,600m — excellent ski conditions",
+        "Regularly hosts national-level competitions",
+        "Subalpine forest setting in the Okanagan Highland",
+        "Both classic and skate options across multiple distances"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 60,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "both",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 2,
+      "score_note": "Strong grooming and snow reliability at a dedicated Nordic centre. The Okanagan Highland's cold, dry snow provides excellent conditions. National-level venue status reflects high organizational standards. Limited international draw and moderate field size keep it from higher tiers.",
+      "tier_note": "Score 60 confirms TIER 2"
+    },
+    "history": {
+      "summary": "The Sovereign Lake Loppet is held at the Sovereign Lake Nordic Centre near Vernon, British Columbia, one of western Canada's premier Nordic facilities. The centre sits at 1,600m on the Okanagan Highland, where cold interior air creates dry, fast snow conditions. The venue regularly hosts Canadian national championships and has developed a reputation for excellent grooming and reliable conditions.",
+      "notable_facts": [
+        "Set at Sovereign Lake Nordic Centre at 1,600m on the Okanagan Highland",
+        "Regular host of Canadian national-level Nordic competitions",
+        "Cold, dry interior snow — among the best conditions in western Canada",
+        "Over 50km of groomed trails at the Nordic centre",
+        "Located in the Okanagan — better known for wine country in summer"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

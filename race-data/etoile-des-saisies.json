@@ -1,0 +1,313 @@
+{
+  "race": {
+    "name": "Étoile des Saisies",
+    "slug": "etoile-des-saisies",
+    "display_name": "Étoile des Saisies",
+    "tagline": "Forty-two kilometers of skate skiing at altitude in the Savoie — where the Mont Blanc panorama and France's premier Nordic resort deliver a Marathon Ski Tour classic.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km freestyle",
+        "21km"
+      ],
+      "elevation_m": 650,
+      "altitude_m": 1650,
+      "location": "Les Saisies, Savoie",
+      "location_badge": "Savoie, France",
+      "country": "France",
+      "country_code": "FR",
+      "region": "Savoie",
+      "date": "Late January",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 600,
+      "founded": null,
+      "registration": "Opens in fall via Marathon Ski Tour",
+      "prize_purse": null,
+      "aid_stations": "Ravitaillement stations with warm drinks, local cheese, and energy food",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 45.76,
+      "lng": 6.53,
+      "field_size_estimate": 600,
+      "elevation_gain_m": 650
+    },
+    "climate": {
+      "primary": "High Alpine plateau winter",
+      "description": "Late January at Les Saisies at 1,650m altitude brings reliable high-altitude winter conditions. Temperatures typically -10°C to 0°C. Les Saisies is known as one of the snowiest Nordic venues in the French Alps, with its north-facing position ensuring excellent snow retention.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "High altitude at 1,650m — noticeable for lowland skiers",
+        "Exposed plateau sections with wind chill",
+        "Variable conditions between sheltered forest and open terrain",
+        "Access roads can be challenging after heavy snowfall"
+      ]
+    },
+    "course": {
+      "primary": "Skate-technique course based at Les Saisies, France's premier Nordic ski resort in the Savoie Alps. The course combines high-altitude plateau skiing with forest sections, featuring views of Mont Blanc across the valley. Rolling terrain with sustained climbs at altitude. Les Saisies hosted the 1992 Winter Olympics biathlon and Nordic combined events.",
+      "format": "loop",
+      "surface": "Machine-groomed freestyle tracks at Les Saisies Nordic domain",
+      "technical_rating": 3,
+      "grooming": "Excellent — Les Saisies is France's top Nordic resort with professional grooming",
+      "features": [
+        "Les Saisies — France's premier Nordic ski resort",
+        "1992 Winter Olympics biathlon and Nordic combined venue",
+        "Part of the Marathon Ski Tour — France's premier Nordic marathon series",
+        "Mont Blanc panorama across the Beaufortain valley",
+        "1,650m altitude ensures reliable snow conditions",
+        "120km of groomed Nordic trails in the resort domain"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 67,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 4,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 2,
+      "score_note": "France's top Nordic resort with Olympic pedigree. Mont Blanc views earn maximum scenery. High altitude provides excellent snow reliability. Strong grooming and organization from Les Saisies' professional infrastructure. Marathon Ski Tour membership adds credibility.",
+      "tier_note": "Score 66 places in TIER 2 range (60-79)"
+    },
+    "history": {
+      "summary": "The Étoile des Saisies is based at Les Saisies, France's most prestigious Nordic ski resort. Les Saisies hosted the biathlon and Nordic combined events of the 1992 Albertville Winter Olympics, cementing its status as France's premier cross-country skiing venue. Part of the Marathon Ski Tour series. The resort sits at 1,650m with panoramic views of Mont Blanc and 120km of groomed Nordic trails.",
+      "notable_facts": [
+        "Les Saisies hosted biathlon and Nordic combined at the 1992 Winter Olympics",
+        "Part of the Marathon Ski Tour — France's national Nordic marathon series",
+        "France's largest and most prestigious Nordic ski resort",
+        "120km of groomed Nordic trails in the resort domain",
+        "Mont Blanc panorama is one of the most spectacular views in Nordic skiing",
+        "Located in the Beaufortain massif of the Savoie Alps"
+      ]
+    },
+    "series_membership": [
+      "marathon_ski_tour"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Étoile des Saisies cross country ski race Les Saisies",
+      "videos": [
+        {
+          "video_id": "rRS3XgVGojg",
+          "title": "La 20ème Etoile des Saisies, Marathon Ski Tour 2014 par Nordic TV",
+          "channel": "Les Saisies",
+          "view_count": 1863,
+          "upload_date": "20140326",
+          "duration_string": "4:37",
+          "description": "Le dimanche 23 Mars avait lieu l'Étoile des Saisies, finale du Marathon Ski Tour 2014, compétition de ski de fond longue distance sur 42km et 21km - http://www.sports-lessaisies.com/etoiledessaisies.\nBenoit Chauvet pour les hommes et Elisabeth Coupat finissent vainqueur de l'épreuve Marathon de 42km.\nRésultats, photos & classements sur le site dédié aux sports Outdoor de la station des Saisies.",
+          "tags": [
+            "marathon ski tour",
+            "ski nordique",
+            "foulée blanche",
+            "transjurassienne",
+            "transpyrénéenne",
+            "Les Saisies (Location)",
+            "etoile des saisies"
+          ],
+          "url": "https://www.youtube.com/watch?v=rRS3XgVGojg",
+          "curated": false
+        },
+        {
+          "video_id": "ogDjogCcuTU",
+          "title": "Les Saisies - Ski Alpin - Piste noire \"Kamikaze\" | 4K UHD",
+          "channel": "Vincent Zimmermann",
+          "view_count": 29432,
+          "upload_date": "20220218",
+          "duration_string": "2:08",
+          "description": "Station de sports d'hivers des Saisies (73620 Hauteluce, France).\nSki Alpin - Piste noire \"Kamikaze\" en 4K UHD.\nPiste noire assez facile et damée.\nDénivelé 274 m (de 1944 m à 1670 m).\nEn face, la chaîne des Aravis, et le mont Charvin (2 409 m).\nAccès : par le télésiège \"Chamois\", le télésiège \"Bisanne\", le téléski \"Palette\" ou le télécabine \"Rosières\".\nFévrier 2022.\n\n00:00 Titre\n00:04 Plan des pistes\n00:12 Descente de la piste\n01:49 Arrivée au télésiège \"Chamois\"\n02:00 Crédits\n\nCaméra : GoPro Hero7 Black\nMontage : Apple iMovie\n\n#saisies #lessaisies #espacediamant #savoiemontblanc #montagne #vacancesauski  #sportsdhiver #ski #skialpin #glisse #neige #snow #skialp #frenchalps #alpineski #alpineskiing #pistenoire",
+          "tags": [
+            "ski",
+            "les saisies",
+            "gopro",
+            "montagne",
+            "neige",
+            "piste noire"
+          ],
+          "url": "https://www.youtube.com/watch?v=ogDjogCcuTU",
+          "curated": false
+        },
+        {
+          "video_id": "rGKCIs63KR4",
+          "title": "Étoile des Saisies #2024",
+          "channel": "Les Saisies",
+          "view_count": 743,
+          "upload_date": "20240402",
+          "duration_string": "1:57",
+          "description": "[📸Retour en images] de l'Étoile des Saisies✨⛷ Vous étiez 1400 inscrits ! Merci à tous pour cette superbe édition 2024 !",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=rGKCIs63KR4",
+          "curated": false
+        },
+        {
+          "video_id": "OmvaKXESIHw",
+          "title": "Etoile des Saisies 2023",
+          "channel": "Les Saisies",
+          "view_count": 1229,
+          "upload_date": "20230403",
+          "duration_string": "2:56",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=OmvaKXESIHw",
+          "curated": false
+        },
+        {
+          "video_id": "PV38JLTbozY",
+          "title": "Etoile des saisies 2010 - Ski de fond longue distance",
+          "channel": "Les Saisies",
+          "view_count": 2967,
+          "upload_date": "20100510",
+          "duration_string": "6:16",
+          "description": "Compétition de ski de fond longue distance qui a lieu toutes les années au mois de mars. Après la Foulée Blanche, la Transpyrénéenne et la Transjurassienne, les concurrents s'élancent sur les 42 Km ou 21 Km hommes et dames pour cette dernière étape du Grand Prix de ski de fond longue distance.",
+          "tags": [
+            "Etoile des saisies",
+            "Foulée Blanche",
+            "Transpyrénéenne",
+            "Transjurassienne",
+            "vitoz",
+            "manificat",
+            "poirée",
+            "piccard",
+            "ski de fond",
+            "ski nordique",
+            "longue distance",
+            "les saisies",
+            "beaufortain",
+            "skating"
+          ],
+          "url": "https://www.youtube.com/watch?v=PV38JLTbozY",
+          "curated": true,
+          "curation_reason": "Longest available video showing the race as part of the Grand Prix ski de fond series with detailed race footage.",
+          "display_order": 4
+        },
+        {
+          "video_id": "utCYXfswvqM",
+          "title": "L'Etoile des Saisies 2017",
+          "channel": "Les Saisies",
+          "view_count": 1863,
+          "upload_date": "20170413",
+          "duration_string": "2:12",
+          "description": "Découvrez une fantastique course de ski de fond longue distance sur l'un des plus beau domaine nordique des Alpes. Plus de 800 coureurs s'élancent sur des distances pouvant allez jusqu'à 42km.\n\nCrédit vidéo : Libr'Image - Pierre Lager",
+          "tags": [
+            "#nordicefrance",
+            "#lessaisies",
+            "#savoienordic",
+            "#nordicfrance",
+            "#championnatsdefrancelonguedistance",
+            "#skinordique",
+            "#skidefond",
+            "#skating",
+            "#savoiemonblanc",
+            "#skipass",
+            "#francemontagnes",
+            "#rhonealpestourisme",
+            "#etoiledessaisies",
+            "#beaufortain",
+            "#domainenordique"
+          ],
+          "url": "https://www.youtube.com/watch?v=utCYXfswvqM",
+          "curated": false
+        },
+        {
+          "video_id": "uWJEDb_wuKI",
+          "title": "Etoile Des Saisies Caisse d'Epargne 2018",
+          "channel": "Les Saisies",
+          "view_count": 2958,
+          "upload_date": "20180416",
+          "duration_string": "1:58",
+          "description": "Le 8 avril plus de 900 fondeurs valeureux se sont affrontés sur cette dernière course de ski de fond longue distance de la saison. Un magnifique rassemblement populaire et une vraie fête du ski nordique dans un cadre naturel exceptionnel à 1650m d'altitude. \n\nMerci à tous les participants, aux bénévoles et aux organisateurs.\n\nRéalisation & montage : Nicolas Pinto",
+          "tags": [
+            "Les Saisies",
+            "Savoie Nordic",
+            "Nordique France",
+            "Ski nordique",
+            "Ski de fond",
+            "Savoie Mont Blanc",
+            "Justine Braisaz",
+            "Laura Chamiot Maitral",
+            "Etoiles des Saisies 2018",
+            "Marathon de ski de fond",
+            "Course de ski de fond longue distance",
+            "Club des Sports des Saisies",
+            "Adrien Duvillard",
+            "Jean Tiberghien",
+            "Championnat de France de Ski de Fond longue distance",
+            "Clément Parisse",
+            "Maurice Manificat",
+            "Anouk Faivre Picon",
+            "Aurore Jean",
+            "Coraline Thomas Hugue"
+          ],
+          "url": "https://www.youtube.com/watch?v=uWJEDb_wuKI",
+          "curated": false
+        },
+        {
+          "video_id": "_u3LUb6wqhw",
+          "title": "Worldloppet TV   the magazine • Episode #6",
+          "channel": "Worldloppet",
+          "view_count": 69,
+          "upload_date": "20181217",
+          "duration_string": "13:00",
+          "description": "Welcome to the sixth edition of Worldloppet TV - the magazine, your worldwide cross-country marathon skiing show !\n\nIN SUMMARY:\n• First, let's go to Iceland to have a look at the fabulous landscape along the Fossavatnsgangan​ race, the newest member of the Worldloppet family, despite being established in 1935...\n• Then let's connect our stories with the legendary Jizerská 50​ in Czech Republic...\n• Finally, to celebrate its 40th anniversary, let's discover the Gatineau Loppet - Official​'s beautiful venue, the Gatineau Park, in Québec, Canada...\n\n• AND DO NOT FORGET... The next event to come : Vasaloppet China​, this thursday 4th january !\n\n© Worldloppet Ski Federation • January 2018 • Mizenboite Production​ • Nansen Développement​",
+          "tags": [
+            "Vasaloppet",
+            "Birkebeinerrennet",
+            "Marcialonga",
+            "Engadin Skimarathon",
+            "cross-country skiing",
+            "xc-skiing",
+            "nordic skiing",
+            "Jizerska 50",
+            "Fossavatnsgangan",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=_u3LUb6wqhw",
+          "transcript": "[Applause]\n[Music]\nwelcome to the sixth edition of the\nworld La Vie TV magazine your worldwide\ncross-country Marathon skiing show in\nsummary let's connect tell stories with\nthe legendary Jesus scarpetti sadqa' in\nczech republic then to celebrate its\n40th anniversary let's discover the\ngatineau love it's beautiful venue\nforget in Oh Park in Quebec Canada but\nfirst let's go to Iceland to get on the\nfabulous landscape along the fossa vet\nnurse Kangin race the newest member of\nthe world locket family despite being\nestablished in 1930 despite being\nestablished in 1935 fossil vets\ngong-gong in Iceland is one of the\nyoungest or should we say newest members\nof the world locket family the first\nfrost Vatican gun under the flag of\nworld locket was an April the 29th 2015\nthis year's race will therefore be the\nfourth as a world lot it remember we\nvisited Iceland to find out how being a\nworld locket member has affected this\nhistoric events in Easter fie other a\nhumble beginning seven local skiers\nclimb up a mountain to the lake fossa\nthere they put on their skis and race\nover to the valley salience dalit a tote\nof around 18 kilometers fossa but\ngong-gong is born next year the number\nof participants has leapfrogged to nine\nthe race already growing as time went by\nand the race continued to grow the\npeople in town started to have more\nambitious plans for for service gun gun\nafter all they have a proud history as a\nskiing town having produced 19 Olympic\nskiers both cross-country and Alpine by\ndeveloping the course and adding more\ndistances the race opened up for the\ngeneral public\nrather than only peeing for the most\nadvanced skiers to cut a long story\nshort for Hong Kong became the largest\ncross-country ski event in Iceland but\nhave in mind we only needed 40 to 50\npeople to become the largest event so it\nwas maybe not such a big issue but when\nwe added the 50k in 2004 the race got\nbigger and with more and more\nparticipants but the real explosion came\nin 2015 when we joined the world lahpet\nand then we had 700 participants having\na total amount of people of 300 the year\nbefore and only 100 in the 50k and since\nthen the number has kept growing even\nthough the organizers have set the limit\nof 650 registrations for the 50\nkilometer race in 2017 the total number\nof registrations exceeded 1000 for the\nfirst time this also affects the general\natmosphere in town it's more than a race\nit's a festival over 3 days the town is\nfull of people and the inhabitants here\nreally like to show their hospitality\nand one of the most important thing and\nthe most fun thing of the race is the\ncake buffet after the race where the\nlocal inhabitants invites all of the\n1000 patients to a huge cake buffet it's\na highlight of the race\nthe seafood party and dance in the\nevening are a great way to finish the\nskiing season popular ski races are\nabout so much more than just skiing\nthere is a social aspect to them as well\nthat should not be underestimated\ngetting to know people from around the\nglobe\nthat's a united in their love for our\nbeautiful sports is a very important\npart of the whole experience I can say\nfor sure that I think nobody expected\nthat becoming a word local member would\nhave such a big impact on the race the\ntown and the ski port in Iceland it has\nbeen more and more easy to get sponsors\nfor the race the newspapers and social\nmedia are full of reports from Iceland\nand ISA Hillard so becoming a world\nlevel member really works for the sport\nfor the town and for the race and now\nlet's connect tell stories with the\nlegendary Jesus scarpetti Sangha in\nczech republic users kepada Sotka\ntradition human stories memories connect\nyour story with a legend\nusers kepada Sokka is not just a race it\nis a social phenomenon and it's just one\nhour from Prague of the capital\nthe year 1968 for checks a crucial and\nbreakthrough year\nsince then users kepada Sotka has\nexisted as a memorial of this expedition\nto this day their race numbers remain\nreserved and hang in honor at the start\nfor the 50th anniversary of the race in\n2017 a commemorative book with 50\nstories was created\nusers Khepera sadqa' connect your story\nwith a legend then to celebrate his 40th\nanniversary let's discover the gatineau\nlop it's beautiful venue the gatineau\npark in the city of Gatineau Quebec\nCanada\nthe bowel Republicans new stamp activity\nkpop easily unit sir don't develop the\nprogram declared cellphone develop\nenough asked Tony Valdez of to see a\nvalue accessibility mail for public\nestoppel the consolation when I said the\nmeta places exist a lot choppers are\nrunning you\na code language education cabañal Alicia\nKeys caldo Verde sapelo lo se puso\nCovina region CT paella\nresearch by director sakya lama does not\nsee only blue kazoo\ndescoteaux an American now says Kiefer\nWisla reputation party like I did not\nvicinity Santa Mesa larezo pain spell on\nFX is not a machine Kevin Tracy the\nVasant Kunj new actually Rolie weekend's\nawesome annual policy suddenly we\npersonally concern cetera mosa soda\nwater ruin guilty of smile for\nexperience\nthe public gets no a load you cannot\neven a desk phone or Canada Kela gets no\nlahpet sheppard teyla legs world don't\nIndia's overqualified but Larry seasick\nLee jae-yong zadran is perhaps a\ntechnologist an emissary don't live\nweekend over the rock shot and also\nbaaji feds fire back to Quebec back to\ndiamond yeah shake focus review\ndelegates no silly prevalent one wrong\nsame prevalent watch Superman basket\nTakata Chima Yama\nKuya a calc a minute the two non cabin\ngets know whatever a preacher's profound\nEric n'ai pas de Calais your total ease\nof the skillful computer is not attained\nthe classic loose key are for air vegg\nbutfox convey our producers prefer her\nnape of the collage or a de la nuit la\npagina vampa si tu veux office handles\nour Shelly eliminators wha avec des\nsouvenir planet ID or name you deliver -\nsoccer\nMaju support bangla gets no see more\npackets\nthis is the end of a six edition of the\nworld lubbock TV magazine see you next\nweek for a new episode",
+          "curated": false
+        },
+        {
+          "video_id": "HH5p2TZtFQU",
+          "title": "Worldloppet Race Reporter Philipp at the Dolomitenlauf 2019",
+          "channel": "Worldloppet",
+          "view_count": 337,
+          "upload_date": "20190124",
+          "duration_string": "4:54",
+          "description": "Meet the Worldloppet Race Reporter, Philipp, at the Austrian Dolomitenlauf, his home race. Doing what a Worldloppet skier is doing: Travelling, meeting friends, skiing endless kilometres for collecting stamps in a Worldloppet Passport!",
+          "tags": [
+            "Dolomitenlauf",
+            "Worldloppet Race Reporter",
+            "Race Reporter",
+            "Worldloppet",
+            "FIS Worldloppet Cup"
+          ],
+          "url": "https://www.youtube.com/watch?v=HH5p2TZtFQU",
+          "transcript": "[Music]\non the way to the start pick up my\nnumber\nnumber where we are\nall right guys ten minutes to the start\nI've warmed up and I'm ready I'm super\nexcited\nsee you in a finish\nyou\n[Applause]\nall right I made it through the finish\nit was really hard funny was really nice\nas well the weather was good skis were\ngood I had a good dude gonna change\nwithin that town center and eat my\nwell-deserved lunch maybe have a cold\nbeer see you guys\nhi guys here is a race reporter I\nsuccessfully finished my race a lot of\npeople are collecting their passport\nstamps\nhello all right come on the gutter\nleaked out thank you I heard I got my\npossible here\nwe've been in no way you have been a\nlittle bit more city much along and then\nyou see a scape is alia and also to us\nand of you Wow right\nin Maine in Iceland I should be a\nroadblock with master\nuntil then scare up the roll",
+          "curated": false
+        },
+        {
+          "video_id": "VsA-HQOEM6g",
+          "title": "Etoile des Saisies 2013, championnat de France longues distances",
+          "channel": "Ms39",
+          "view_count": 215,
+          "upload_date": "20130324",
+          "duration_string": "2:59",
+          "description": "passage au km4",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=VsA-HQOEM6g",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

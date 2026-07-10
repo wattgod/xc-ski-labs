@@ -1,0 +1,290 @@
+{
+  "race": {
+    "name": "Craft Ski Marathon",
+    "slug": "craft-ski-marathon",
+    "display_name": "Craft Ski Marathon",
+    "tagline": "The Swedish season opener at Gronklitt — first tracks of winter on one of Dalarna's finest trail networks.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 450,
+      "location": "Gronklitt, Orsa, Dalarna",
+      "location_badge": "Dalarna, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Dalarna",
+      "date": "Mid-January",
+      "date_specific": "2026: January 11",
+      "discipline": "classic",
+      "field_size": 500,
+      "founded": 2000,
+      "registration": "Open registration via Svenska Langlopp",
+      "prize_purse": null,
+      "aid_stations": "Multiple aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://svenskalanglopp.se/",
+      "lat": 61.1333,
+      "lng": 14.8167,
+      "field_size_estimate": 750,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Central Swedish winter",
+      "description": "Gronklitt in Dalarna provides reliable mid-winter conditions in January. Temperatures typically range from -15°C to -5°C. As a season opener, cold and dark conditions are the norm.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Early season race — limited daylight in January",
+        "Cold mid-winter temperatures",
+        "Skiers may be early in their season fitness",
+        "Wax selection in consistently cold conditions"
+      ]
+    },
+    "course": {
+      "primary": "A 42km classic course at Gronklitt, one of Sweden's most respected cross-country skiing destinations. Rolling forested terrain through the Dalarna landscape.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks on established trail network",
+      "technical_rating": 2,
+      "grooming": "Excellent Swedish resort-standard grooming",
+      "features": [
+        "Season opener for Swedish recreational skiers",
+        "One of Sweden's premier XC skiing destinations",
+        "Ski Classics Challengers event",
+        "Part of Svenska Langlopscupen 'The Originals'",
+        "Rolling Dalarna forest terrain"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A well-organized season opener at a premier Swedish skiing venue. Ski Classics Challengers and 'The Originals' membership provides some prestige, but early-season timing and modest field limit the overall score.",
+      "tier_note": "Score 53 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Craft Ski Marathon emerged in the early 2000s at Gronklitt, one of Sweden's most established cross-country skiing destinations near Orsa in Dalarna. It serves as the season opener for many Swedish recreational long-distance skiers and is part of both the Ski Classics Challengers circuit and the Svenska Langlopscupen 'The Originals' series.",
+      "notable_facts": [
+        "Season opener for the Swedish long-distance ski calendar",
+        "Part of Svenska Langlopscupen 'The Originals'",
+        "Ski Classics Challengers event",
+        "Held at Gronklitt, one of Sweden's most respected XC skiing venues",
+        "Located in Dalarna, Sweden's heartland of cross-country skiing"
+      ]
+    },
+    "series_membership": [
+      "ski_classics_challengers",
+      "svenska_langlopscupen"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Craft Ski Marathon cross country ski race Gronklitt",
+      "videos": [
+        {
+          "video_id": "KGLr_0_pS5g",
+          "title": "Craft Ski Marathon 2026 in Orsa Grönklitt 🇸🇪 | Race Day, Gear Setup & Travel Vlog",
+          "channel": "Towards Snowbound Horizons",
+          "view_count": 104,
+          "upload_date": "20260214",
+          "duration_string": "8:16",
+          "description": "On January 11, 2026, I took part in the incredible Craft Ski Marathon in Orsa Grönklitt, Sweden 🇸🇪❄️\nIn this video, I’m taking you behind the scenes of my full race experience — from travel preparations to the starting line and all the way to the finish.\n🎿 In this video you’ll see:\n• What I pack for a ski marathon\n• How I dress for cold race conditions\n• My full race-day setup\n• Travel footage to Orsa Grönklitt\n• Highlights from the Craft Ski Marathon course\n• My race experience and impressions\nThe Craft Ski Marathon in Orsa Grönklitt is one of Sweden’s most scenic cross-country ski events, offering stunning winter landscapes and perfectly prepared tracks. It’s always a special experience to race in such beautiful surroundings.\nIf you're preparing for your own cross-country ski race, looking for gear inspiration, or just enjoy ski racing content — this one is for you!\nLet me know in the comments:\nHave you ever raced in Sweden? What’s your favorite ski marathon?\n👍 Like & subscribe for more ski racing and endurance sports content!\n#CraftSkiMarathon #OrsaGrönklitt #CrossCountrySkiing #SkiRace #SkiMarathon #RaceVlog #WinterSports #SkiGear",
+          "tags": [
+            "CrossCountrySkiing",
+            "SkiMarathon",
+            "NordicSkiing",
+            "SkiRace",
+            "WinterSports",
+            "Skiing",
+            "SkiLife",
+            "SkiAdventure",
+            "WinterWonderland",
+            "OutdoorSports",
+            "SkiSeason",
+            "SkiCommunity",
+            "SkiLovers",
+            "SkiAddict",
+            "SkiingPassion",
+            "TowardsSnowboundHorizons",
+            "SnowboundHorizons",
+            "TowardsSnowboundHorizonsSkiing",
+            "SnowboundHorizonsAdventure",
+            "TowardsSnowboundHorizonsVideos",
+            "SnowboundHorizonsExperience",
+            "TowardsSnowboundHorizonsJourney",
+            "vo2 max",
+            "vo2max",
+            "vo2 max testing",
+            "rollerskis",
+            "rollerskiing",
+            "aktivitus",
+            "doublepoling",
+            "aerobicthreshold",
+            "anaerobicthreshold"
+          ],
+          "url": "https://www.youtube.com/watch?v=KGLr_0_pS5g",
+          "transcript": "Heat.\nHeat. Heat.\nHey,\nhey,\nhey.\nHeat up\nhere.\nThere you go.\nHere\nwe go.\nHeat. Heat. N.\nTake a couple go come\nla.\nHeat\nup",
+          "curated": true,
+          "curation_reason": "Recent comprehensive race vlog covering race-day experience, gear setup, and course highlights from 2026 edition.",
+          "display_order": 1
+        },
+        {
+          "video_id": "YoA1PvemnFU",
+          "title": "THE BRUTAL SKI RACE - ORSA SKI MARATHON!",
+          "channel": "BjörnRandén",
+          "view_count": 1049,
+          "upload_date": "20180211",
+          "duration_string": "7:39",
+          "description": "Truly a brutal experience, but I made it and fulfilled my goal with the race! \nCongrats to Charlotte Kalla to won the first medal of the olympics! \n\nhttp://instagram.com/b_randen\n\nPatreon support\nhttps://www.patreon.com/bjornranden\n\nMY GEAR\nPrimary camera: https://goo.gl/xU2n8c\nSHIOTGUN MIC: https://goo.gl/tsyiu2\nLAVALIER MIC: https://goo.gl/CtZEHz\nTRIPOD:  https://goo.gl/h8Z3I7\nSTEADYCAM: https://goo.gl/2UBRQb\nFIXED LENS: https://goo.gl/2GXjHz\nWIDE LENS: https://goo.gl/CAGXkK\nKIT LENS: https://goo.gl/uW2EUb\nDRONE:  https://goo.gl/hmj5yr (BUY WITH THIS LINK SUPPORTS MY CHANNEL)\nGOPRO: https://goo.gl/izwWRp\nGIMBAL: https://goo.gl/o0I5do\n\nWatch more VLOGS in playlist\nhttps://goo.gl/Rq4LA5\n\nMusic by Epidemic Sound\n\nProduced by Björn Randén",
+          "tags": [
+            "VLOG",
+            "FAMILYMAN",
+            "CANON",
+            "DJI",
+            "MAVIC",
+            "PRO",
+            "ORSA",
+            "GRÖNKLITT",
+            "SKI",
+            "MARATHON",
+            "AXA",
+            "VASALOPPET",
+            "SEEDNINGSLOPP",
+            "QUALIFICATIONS",
+            "CARAVAN",
+            "CAMPING",
+            "WAX",
+            "RACE",
+            "GOPRO",
+            "TRAINING",
+            "GOALS",
+            "HEALTH",
+            "SWEDEN"
+          ],
+          "url": "https://www.youtube.com/watch?v=YoA1PvemnFU",
+          "transcript": "good morning everybody\nrace day whoo I am so nervous\nI'm not used to doing races just\nfinishing up the video from yesterday\nwhich you probably already have seen are\nwatching the Olympics from Pyeongchang\nit's key at long we have kala kalah up\nin the front house is outside preparing\nskis I'm just gonna export this video\nupload it to YouTube from the caravan\nand then I would do fix my skis I\nalready have the glide fixed I need like\nthe the wax for the grip in play the\nstart is in two and a half hours so just\ngonna grab the sandwich girl to fix the\nskis go back and eat some more it's\nimportant to eat then it's go time for\nthe race so yeah let's get some drone\nshots and do some orientation here okay\nit's snowing that means it's gonna be\nslower gonna prepare the skis also we\nare watching gonna watch the race\n[Applause]\n[Music]\nbest possible start in the Olympics\nfirst and fourth place in this key I've\ngone for the ladies come on Carla Oh\nwater rages booze okay I might not be\nable to do the race we're good to go\nchanging clothes in the caravan ready to\ngo ready to race so during the race\nobviously I will focus on doing the race\nI'm gonna bring my phone maybe take some\nshots of the starting area and after and\nokay this is it\n8:47 not the winning number all right\ncase we have 30 minutes to go I'm gonna\nrace but posture the camera guy he's\njust gonna ride for fun\njust save about it how's the Swedish\ncrowns dead\nstealing good shape and is still gonna\ndo great have also loved it right no\nproblem no problem\nI made it 3 hours 26 minutes that is way\nbetter than expected now we'll go and\ndie in the caravan\nok so race report from today's race it\nwas a rough one really rough one I've\nbeen in the shower of like 1 hour trying\nto heal my broken body so I did a\ntactical mistake here I started a bit up\nfront with some fast through people\nthinking that I would gain some time but\nwhat happened on the first lap there are\ntwo laps these people actually they were\ntoo fast for me\nso trying to catch up with them I burned\na lot of energy which I needed for the\nsecond lap so first lap very fast\nsecond lap bit slower but I got a total\ntime of 3 hours and 26 minutes and that\ngives me starting line 9 or 8 not sure\nyet in Walsall open so mission\naccomplished I'm not gonna start last in\na few weeks but it was so rough brutal\nrace I'm eating candy I'm brain so fried\nI don't really know what to make of this\nvideo but yeah I made it so but we're\nstarving so we're gonna go down and eat\nsome food at the local pub here then I'm\ngoing home tomorrow story that I'm not\nso enthusiastic but I'm I'm really I'm\nreally dead yeah\nback from the pub Rebecca eating candy a\nlot of beer Pete's up doing great time\nto end today's video good news is that\nsome of the guys at the pub was talking\nabout that maybe they're gonna push\nforward the winning time for the race\ntoday\nmeaning that both me and the house most\nlikely will get moved up in Vasaloppet\nin the starting position\nlet's see and but we're not sure yet so\nI would have to get back to you on that\none okay so that was a race video I'm\nthe cameraman\nI'm the skier and when I ski I don't\nbring the camera so not much video but\nhope you survive see you around",
+          "curated": true,
+          "curation_reason": "Personal race experience vlog with detailed commentary about race difficulty and tactical insights from a skier's perspective.",
+          "display_order": 4
+        },
+        {
+          "video_id": "oU9Qh7QpQxk",
+          "title": "Orsa Grönklitt Ski Marathon 2025",
+          "channel": "Adam",
+          "view_count": 2280,
+          "upload_date": "20251017",
+          "duration_string": "1:08:27",
+          "description": "Hoppas ni gillar den!\n\n_____\n\nBli medlem i kanalen för att få åtkomst till flera förmåner:\nhttps://www.youtube.com/channel/UCn98udtjJg4gK3G4ZXo5X3Q/join\n_____\nStöd gärna vloggen med en liten swish på: 076 - 166 49 97\n\nFölj mig gärna på mina bloggar:\nhttps://adamsteen.se\nhttps://www.addesteek.se\n\nYoutube:https://www.youtube.com/adamsteens?sub_confirmation=1 \nInstagram: https://www.instagram.com/addesteek/\nFacebook: https://www.facebook.com/AdamSteensBlogg/\nX (Twitter): https://twitter.com/addesteek\nTikTok: https://www.tiktok.com/@addesteek\nStrava: https://www.strava.com/athletes/763450\nHandla merch: https://adamsteen.myspreadshop.se/\nByt till Fello som mobiloperatör: https://www.fello.se/?7RVCF\n\nHör av dig om du behöver hjälp med träningsupplägg/teknikträning på skidor/rullskidor, eller vill ingå någon annan form av samarbete. Det går också att få beställa personliga hälsningar:\nMail: adam@adamsteen.se\nMobil: +46 76 166 49 97 \n_____\n\nMusic track: Palms by Sunova\nSource: https://freetouse.com/music\nRoyalty Free Background Music\n\nMusic track: Golden Hour by Walen\nSource: https://freetouse.com/music\nVlog Music for Video (Free Download)\n\nMusic track: Cuba by ASHUTOSH\nSource: https://freetouse.com/music\nCopyright Free Music (Free Download)\n\nMusic track: Other Side by Balynt\nSource: https://freetouse.com/music\nVlog Music for Video (Free Download)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=oU9Qh7QpQxk",
+          "curated": true,
+          "curation_reason": "Detailed 2025 race coverage with highest view count among recent videos, providing extensive race documentation.",
+          "display_order": 3
+        },
+        {
+          "video_id": "KM90MSzFyYg",
+          "title": "Orsa Grönklitt Ski Marathon 2019",
+          "channel": "Thomas Blomquist",
+          "view_count": 603,
+          "upload_date": "20190211",
+          "duration_string": "1:36",
+          "description": "",
+          "tags": [
+            "Orsa",
+            "Grönklitt",
+            "ski marathon",
+            "ski",
+            "marathon",
+            "2019",
+            "cross skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=KM90MSzFyYg",
+          "curated": false
+        },
+        {
+          "video_id": "FJi0cCyDY9E",
+          "title": "Craft Ski Marathon 2020",
+          "channel": "Lukas Schollin-Borg",
+          "view_count": 1506,
+          "upload_date": "20200106",
+          "duration_string": "5:18",
+          "description": "Craft ski marathon I Orsa Grönklitt 5/1 2020",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=FJi0cCyDY9E",
+          "curated": false
+        },
+        {
+          "video_id": "QfM8bnLPzls",
+          "title": "Craft Ski Marathon 2020",
+          "channel": "Orsa Grönklitt",
+          "view_count": 2103,
+          "upload_date": "20200107",
+          "duration_string": "3:00",
+          "description": "Med hela 800 åkare och fantastiska förhållanden i längdspåren avgjordes årets upplaga av Craft Ski Marathon. Vinnare blev Bob Impola och Britta Johansson Norgren.",
+          "tags": [
+            "Craft Ski Marathon",
+            "Skidåkning",
+            "Orsa Grönklitt",
+            "tävling",
+            "Marathon",
+            "Craft",
+            "längdskidåkning",
+            "längdskidor"
+          ],
+          "url": "https://www.youtube.com/watch?v=QfM8bnLPzls",
+          "transcript": "[Music]\n[Applause]\nyeah it means they it's always good to\nhave a victory for their confidence and\nthe champ is coming so I'm really\nlooking forward to the next week in\nbusiness agnostic it was really fast\ncondition so it has been a really fun\nrace I like speed and it has been a lot\nof that\nit was a good race today so I'm\nsatisfied\nit was a tough beginning with a crash\nafter 200 meters and so then I had to go\nreally hard and the case",
+          "curated": true,
+          "curation_reason": "Official race highlights showing course conditions and winner interviews with insights about race atmosphere.",
+          "display_order": 5
+        },
+        {
+          "video_id": "MJ5LjIH7gjs",
+          "title": "Craft Ski Marathon 2026",
+          "channel": "Vincent Ahlström",
+          "view_count": 77,
+          "upload_date": "20260126",
+          "duration_string": "46:59",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=MJ5LjIH7gjs",
+          "curated": true,
+          "curation_reason": "Extended 2026 race content providing comprehensive coverage of the most recent race edition.",
+          "display_order": 2
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I did a tactical mistake here I started a bit up front with some fast through people thinking that I would gain some time but what happened on the first lap there are two laps these people actually they were too fast for me so trying to catch up with them I burned a lot of energy which I needed for the second lap.",
+          "source_video_id": "YoA1PvemnFU",
+          "source_channel": "BjörnRandén",
+          "source_view_count": 1049,
+          "category": "technique",
+          "curated": true
+        },
+        {
+          "text": "It was really fast condition so it has been a really fun race I like speed and it has been a lot of that. It was a tough beginning with a crash after 200 meters and so then I had to go really hard.",
+          "source_video_id": "QfM8bnLPzls",
+          "source_channel": "Orsa Grönklitt",
+          "source_view_count": 2103,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

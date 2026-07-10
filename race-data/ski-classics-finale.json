@@ -1,0 +1,300 @@
+{
+  "race": {
+    "name": "Ski Classics Finale",
+    "slug": "ski-classics-finale",
+    "display_name": "Ski Classics Finale",
+    "tagline": "The season-ending showdown where the pro tour's toughest settle it on the final tracks.",
+    "vitals": {
+      "distance_km": 60,
+      "distance_options": [
+        "50km"
+      ],
+      "elevation_m": 1357,
+      "altitude_m": 800,
+      "location": "Varies annually",
+      "location_badge": "Various, Europe",
+      "country": "Various",
+      "country_code": "SE",
+      "region": "Scandinavia/Alps",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 200,
+      "founded": 2011,
+      "registration": "Pro tour qualification or open entry where available",
+      "prize_purse": "Part of Ski Classics season prize pool",
+      "aid_stations": "Professional feed zones per Ski Classics standard",
+      "cutoff_time": null,
+      "website": "https://www.skiclassics.com",
+      "lat": 61.0,
+      "lng": 14.5,
+      "field_size_estimate": 200,
+      "elevation_gain_m": 1357
+    },
+    "climate": {
+      "primary": "Variable — depends on host venue",
+      "description": "As the season finale held in March, conditions range from cold continental to spring warmth depending on host location. Late-season snow management is a recurring challenge.",
+      "typical_temp_c": "-10 to 5",
+      "challenges": [
+        "Late-season wax selection as temperatures fluctuate",
+        "Variable snow quality depending on host venue altitude",
+        "Strategic racing with overall standings on the line",
+        "Venue changes year to year require course adaptation"
+      ]
+    },
+    "course": {
+      "primary": "Course varies by host venue but follows Ski Classics long-distance format — typically 50km with significant climbing. The finale often features the most demanding course of the season to settle overall standings.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks to Ski Classics professional standard",
+      "technical_rating": 4,
+      "grooming": "Ski Classics professional standard — among the best prepared courses in long-distance skiing",
+      "features": [
+        "Season-deciding race with overall title implications",
+        "Professional team tactics and feed zone strategy",
+        "Elite-level course preparation and media coverage",
+        "Rotating host venues keep the course fresh each year"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 80,
+      "tier": 1,
+      "tier_label": "TIER 1",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 3,
+      "prestige": 5,
+      "international_draw": 5,
+      "course_technicality": 4,
+      "snow_reliability": 3,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 4,
+      "organization": 5,
+      "competitive_depth": 5,
+      "score_note": "Elite-level finale event with maximum prestige and competitive depth. Variable host venue means snow reliability and accessibility scores are conservative.",
+      "tier_note": "Prestige 5 with score >= 75 confirms TIER 1"
+    },
+    "history": {
+      "summary": "The Ski Classics Finale is the season-ending race of the Visma Ski Classics pro tour, the premier long-distance cross-country skiing circuit. Launched in 2011, Ski Classics brought professional team structure to marathon skiing. The finale determines the overall season champion, making it the most tactically charged race of the calendar.",
+      "notable_facts": [
+        "Determines the overall Ski Classics season champion",
+        "Part of the Visma Ski Classics pro tour since 2011",
+        "Host venue rotates — has been held in Scandinavia and the Alps",
+        "Features professional team tactics rarely seen in other marathon ski races",
+        "Prize money and championship points make it the highest-stakes single race on tour"
+      ]
+    },
+    "series_membership": [
+      "ski_classics_pro_tour"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Ski Classics Finale cross country ski race Varies annually",
+      "videos": [
+        {
+          "video_id": "Ss6zSxlOaUY",
+          "title": "First in 50 Years: Ben Ogden Wins Historic Silver for USA in Cross-Country Skiing | Full Story",
+          "channel": "Capital Prime",
+          "view_count": 182,
+          "upload_date": "20260211",
+          "duration_string": "11:26",
+          "description": "🥈 HISTORIC: Ben Ogden won SILVER in cross-country skiing at the 2026 Winter Olympics—the first American man to medal in the sport in 50 YEARS.\n\nThe 25-year-old from Landgrove, Vermont (population 177) finished just 0.8 seconds behind Norwegian legend Johannes Klaebo, ending a half-century drought and becoming only the second U.S. man ever to medal in Olympic cross-country skiing.\n\nThen he did a BACKFLIP off the podium. \"I promised my 15-year-old self I would do that.\"\n\nThis is the story of Ben Ogden, Bill Koch, Vermont ski culture, and why this moment changes everything for American cross-country skiing.\n\n📍 KEY DETAILS:\n- Ben Ogden wins SILVER in men's sprint classic (3:40.61)\n- First U.S. men's medal in cross-country skiing since Bill Koch in 1976\n- Only second American man EVER to medal in the sport\n- From Landgrove, VT (pop. 177) - studied mechanical engineering at UVM\n- Finished 0.8 seconds behind Johannes Klaebo's gold (7th Olympic gold for Klaebo)\n- Grew up skiing in Bill Koch Youth Ski League - trained on Koch's backyard trails\n- Father John Ogden (former Middlebury skier) died in 2023 - didn't see son's medal\n- Did backflip off podium fulfilling promise to 15-year-old self\n- Team USA has now won 4 cross-country medals since 2018 (after 1 in previous 94 years)\n\n🔍 WHAT WE COVER:\n- The race breakdown: How Ogden won silver in the sprint classic\n- The 50-year drought: Why this is so historic for Team USA\n- Who is Ben Ogden? Vermont roots, engineering degree, car restoration hobby\n- The Vermont pipeline: Bill Koch → Jessie Diggins → Ben Ogden\n- The competition: Beating the world's best (except Klaebo)\n- What this means for American cross-country skiing's future\n- The backflip moment and why he did it\n\n⏱️ TIMESTAMPS:\n0:00 - Opening: First in 50 Years\n0:45 - Subscribe for Olympic Stories\n1:00 - The Race: How Ogden Won Silver\n3:00 - The Drought: 50 Years Without a Medal\n5:00 - Who is Ben Ogden? Vermont Engineer Turned Olympian\n7:00 - The Vermont Pipeline: Building Olympic Champions\n8:30 - The Competition: Beating the World's Best\n10:00 - What This Means for America\n11:30 - Closing: The Backflip Promise\n\n📰 SOURCES:\n- NBC Olympics, NPR, CBS News\n- U.S. Ski & Snowboard Team\n- Olympics.com interviews\n- NCAA coverage\n- Boston Globe, Yahoo Sports\n\n👍 LIKE if you love underdog Olympic stories\n💬 COMMENT: Did this inspire you? Will this spark a new era for U.S. cross-country?\n🔔 SUBSCRIBE for more Olympic coverage beyond the highlights\n\n#BenOgden #Olympics2026 #CrossCountrySkiing #TeamUSA #Silver #Vermont #WinterOlympics #Historic #BillKoch #MilanCortina2026 #Olympic #Skiing #Underdog #Inspiration\n\n⚖️ DISCLAIMER: This video celebrates athletic achievement and tells the human story behind the medal.",
+          "tags": [
+            "Ben Ogden",
+            "cross country skiing",
+            "Olympics 2026",
+            "Winter Olympics",
+            "silver medal",
+            "Team USA",
+            "Vermont",
+            "50 year drought",
+            "Bill Koch",
+            "historic medal",
+            "Milan Cortina 2026",
+            "Johannes Klaebo",
+            "sprint classic",
+            "Olympic skiing",
+            "USA skiing",
+            "underdog story",
+            "Landgrove Vermont",
+            "University of Vermont",
+            "NCAA champion",
+            "American Olympics",
+            "cross country medal",
+            "winter sports",
+            "Olympic history",
+            "Vermont skiing",
+            "inspirational sports",
+            "backflip podium"
+          ],
+          "url": "https://www.youtube.com/watch?v=Ss6zSxlOaUY",
+          "transcript": "Good evening. Yesterday, in a valley in\nnorthern Italy, a 25-year-old from a\ntown of 177 people did something no\nAmerican man has done in half a century.\nBen Ogden from Landrove, Vermont.\nPopulation\n177. He won silver in cross-country\nskiing at the Winter Olympics in Milan\nCortina. And with that silver medal,\nfinishing just 8/10en of a second behind\na Norwegian legend, Ogden became only\nthe second American man in history to\nwin an Olympic medal in crosscountry\nskiing. The first was 50 years ago,\n1976, Insburg, Austria. Tonight, I'm\ngoing to tell you about Ben Ogden, about\nthe sport America has never dominated,\nabout the Vermont ski culture that\nproduced him, and about why this matters\n[music] more than you might think. If\nyou want Olympic coverage that goes\ndeeper than the highlights that tells\nyou the story behind the medal,\nsubscribe to Capital Prime right now.\nHit that bell because this is about more\nthan just one race. Let's begin.\nTuesday, February 10th, 2026, Tessero\nCross Country Skiing Stadium, Val DM\nItaly, the Men's Sprint Classic. It's a\nbrutal format. You qualify in a time\ntrial. Then you race head-to-head\nthrough quarterfinals, semifinals, and a\nfinal with six skiers. One mistake, one\nbad wax job, one wrong tactical decision\nand you're out. Ben Ogden qualified\nsecond fastest right behind Johannes\nHost Claybo, the greatest cross-country\nskier of this generation. Seven Olympic\ngold medals, the Norwegian superstar,\nthe man everyone came to watch. Ogden\nadvanced through the quarterfinals, won\nhis heat, made it to the semis, then as\nthe lucky loser, the fastest\nnon-automatic qualifier, he punched his\nticket to the final. Six skiers on the\nstart line. Ogden, Claybo, four others.\n3 minutes and 40 seconds of racing\nthrough slush, up steep climbs, down\ntechnical descents. [music] Classic\ntechnique, no skating, just kick and\nglide. Power and precision. The\ngunfires. Claybo surges ahead on the\nuphills. That's his trademark. Punishing\nclimbs that break competitors. But Ogden\nstays close. He's skiing smart,\nconserving energy, watching the field.\nNear the end, Obden realizes it's\n[music] just three of them. Him, Claybo,\none other Norwegian. He crosses the\nfinish line. 3 minutes 40.61 seconds.\nSilver 8/10en of a second behind\nClaybo's gold. Obden's arms shoot into\nthe air. He skis toward the stands. A\nfan hands him an American flag. He wraps\nit around his shoulders and then he does\nsomething remarkable. He flips a\nbackflip off the podium during the medal\nceremony. Why? I promised my 15-year-old\nself I would do that if I was ever on an\nOlympic podium, Ogden said. I got up\nthere and was like, well, now is the\nmoment. That's Ben Ogden, [music]\nmechanical engineer, car restorer,\nOlympic silver medalist. 50 years.\nThat's how long it's been since an\nAmerican man won an Olympic medal in\ncrosscountry skiing. Bill Insrook\n1976 silver in the 30 kmter race the\nfirst and until yesterday the only\nAmerican man to ever medal in the sport\nand here's [music] the thing Ko is from\nVermont same as Ogden. In fact, Ogden\ngrew up skiing in the Bill Ko Youth Ski\nLeague, a program named after the man\nwhose record he just matched. [music]\nOgden trained on trails Bill carved\nin his backyard. He raced with Ko's son.\nHe lives 5 minutes from where Ko still\nlives today. [music] I've been thinking\nabout Bill a lot ever since the finish,\nOgden said after winning silver.\nCrosscountry skiing is not an American\nsport. It never has been. It's dominated\nby Norway, Sweden, Russia. Countries\nwhere skiing isn't recreation. It's\nculture. Where kids learn to ski before\nthey learn to ride bikes. Since\ncross-country skiing was introduced at\nthe Winter Olympics in [music] 1924,\nover a century ago, Team USA has won\nexactly four medals in the sport. Three\nof them were women. Jesse Diggins and\nKickan Randall won gold in the team\nsprint in 2018. Diggins won bronze\nindividually in 222 and Bill in\n1976.\nThat's it. Four medals in 100 years. So,\nwhen Ben Ogden crossed the finish line\nyesterday in second place, he didn't\njust win a medal. He ended a 50-year\ndrought. He proved that Americans can\ncompete at the highest level in a sport\nthe world never expected them to master.\nLet me tell you about Ben Ogden because\nhis story is quintessentially American\nin [music] the best way. He's from\nLandrove, Vermont, population\n177, a tiny mountain town where everyone\nknows everyone. His father, John Ogden,\nwas a cross-country skier at Mbury\nCollege. He coached a local youth ski\nleague. He taught Ben and his two\nsisters to ski almost as soon as they\ncould walk. John Ogden died in 2023.\nCancer. [music] He never got to see his\nson win an Olympic medal. I was thinking\nof my father, Ben said after the race.\nHis voice cracked. He coached me growing\nup. Ben's mother, Andrea, was there in\nItaly watching from the stands along\nwith his girlfriend, her family, friends\nfrom Vermont. Back home in Richmond near\nCochran Ski Area, more friends and\nfamily gathered for a watch party. Ben\nOgden went to the University of Vermont.\nHe studied mechanical engineering. He\ngraduated with a degree while skiing\ncompetitively, while training for the\nOlympics, while becoming a multi-time\nNCAA [music] Nordic champion. And in his\nspare time, he restores cars. He told\nOlympics.com last year, \"I bought a Land\nRover from 1973 out of a field where it\nhad been sitting for 12 years. I dragged\nit onto a trailer with a tractor. I've\ntaken it completely apart, rebuilt the\nmotor, rebuilt the transmission, rebuilt\nboth axles and the differentials. I've\nalways had an obsession with cars and\nhow they work. That's who Ben Ogden is.\nan engineer, a mechanic, a skier who\ngrew up on trails carved by the only\nother American man to ever meddle in his\nsport. Vermont, it keeps coming up. And\nthat's not an accident. Vermont has a\nski culture unlike anywhere else in\nAmerica. It's cold, it's snowy, it has\nmountains, [music] and it has a\ntradition, a pipeline of producing\nOlympic caliber cross-country skiers.\nJesse Diggins, the most decorated\nAmerican cross-country skier in history,\ntrains in Vermont. She and Ben Ogden ski\ntogether. She's his training partner,\nhis inspiration. After Diggins and\nKickan Randall won gold in 2018, the\nfirst Olympic medal for American women\nin cross-country skiing, Ogden told\nhimself, \"If they can do it, so can we.\"\nIn 2018, Ogden and his teammates won\nsilver at the Junior World Championships\nRelay, the first medal ever for American\nmen at [music] that level. The next two\nyears, they won gold. This is the day\ncross-country skiing changed in America,\nthe US ski team said after Ogden Silver.\nAnd they're right because Ogden's\n[music] medal isn't just about him. It's\nabout the next generation. The kids in\nVermont and across America who are\nwatching and [music] thinking, maybe I\ncan do that, too. Bill Ko's 1976 [music]\nsilver inspired a generation of skiers.\nOne of them was Ben Ogden. And now\nOgden's 2026 silver will inspire the\nnext 50 years. I hope it gives the\nfuture of the sport in the US a big\nboost. Ogden said, \"I know Bill winning\nhis medal gave a big boost to all the\nyoung skiers. I hope this will propel us\ninto the next 50 years.\" Let's talk\nabout who Ogden beat because silver\ndoesn't mean second best. It means he\nwas better than almost everyone in the\nworld. Johannes Hosfl Claybo, the\nNorwegian who won gold. He's 29 years\nold. He's won seven Olympic gold medals.\nSeven. He's the greatest male\ncrosscountry skier of his generation,\nmaybe [music] of all time. Claybo won\nthis race by 0.8 seconds. Less than 1\nsecond. That's how close Ogden came to\ngold. The bronze medalist, Oscar Obstad\nVK, another Norwegian. He finished 6.8\nseconds behind Claybo. So Ogden was\ncloser to gold than bronze. He was\ncompeting against the best in the world\nin a sport where Norway, Sweden, and\nRussia have dominated for decades. And\nhe finished second. That's\nextraordinary. Cross-country skiing is\none of the most physically demanding\nsports in the world. It requires\nexplosive power for the climbs,\ntechnical precision for the descents,\nendurance for the distance, and tactical\nintelligence for the head-to-head\nracing. [music]\nAnd Ogden excelled at all of it. The\nconditions Tuesday were slushy and\nshifting. [music] Hard to wax for, hard\nto ski on. But Ogden grew up skiing in\nVermont where conditions are slushy and\nshifting all the time. Those backyard\ntrails Bill Ko carved those training\nruns through Vermont woods. They\nprepared him for this exact moment. So\nwhy does this matter? Why should you\ncare about a silver medal in\ncross-country skiing? Because it's about\nmore than sports. It's about believing\nyou can do something the world says you\ncan't. For a century, cross-country\nskiing has been a European sport.\nAmericans didn't meddle. Americans\nweren't competitive. Americans didn't\nhave the culture, the training, the\ninfrastructure. And then Bill\nproved them wrong in 1976. And then\nJesse Diggins proved them wrong in 2018.\n[music]\nAnd now Ben Ogden proved them wrong in\n2026. Team USA has won four\ncross-country medals since 2018 after\nwinning just one in the previous 94\nyears. That's a paradigm shift. The\nUniversity of Vermont, where Ogden went\nto school, [music] is producing Olympic\nmedalists. The Bill Youth Ski\nLeague, is training worldclass athletes.\nVermont, a state with 650,000 people, is\nbecoming a pipeline for elite\ncross-country skiers. And kids across\nAmerica are watching. They're seeing Ben\nOgden wrap himself in an American flag.\nThey're seeing him flip off the podium.\nThey're hearing him say, \"I grew up in a\ntown of 177 people and I just won an\nOlympic [music] medal.\" That's the\nAmerican story. That's the dream. And\nthat's why this matters. Tuesday, in a\nvalley in Italy, Ben Ogden skied faster\nthan almost everyone in the world.\n[music] He won silver. He ended a\n50-year drought. He became only the\nsecond American man in history to win an\nOlympic medal in cross-country skiing.\nHe promised his 15-year-old self he'd do\na backflip if he ever made an Olympic\npodium. And he did. His father didn't\nlive to see it. But his mother was\nthere, his girlfriend was there, his\nfriends were there, and back in Vermont\nin a town of 177 people, they were\ncelebrating. Subscribe to Capital Prime\nbecause we're covering the Olympics the\nway they deserve to be covered with the\nstories behind the medals. Let me know\nin the comments, did you watch Ben\nOgden's race? And do you think this\nsparks a new era for American\ncross-country skiing? This is Capital\nPrime. Good night.",
+          "curated": true,
+          "curation_reason": "Excellent race coverage with detailed analysis of sprint classic format, course conditions, and tactical elements from a major international finale-level event.",
+          "display_order": 1
+        },
+        {
+          "video_id": "vo_jyxSnk2Q",
+          "title": "Wolfdog jumps into Olympic XC ski race, goes for gold | Winter Olympics 2026 | NBC Sports",
+          "channel": "NBC Sports",
+          "view_count": 1135265,
+          "upload_date": "20260218",
+          "duration_string": "1:20",
+          "description": "In the women’s cross-country skiing team sprint qualification, a dog ran onto the course and zoomed with two skiers across the finish line. The good boy's sprint was caught by the photo finish camera. #NBCSports #WinterOlympics #CrossCountrySkiing \n» Subscribe to NBC Sports: https://www.youtube.com/nbcsports?sub_confirmation=1\n» Live Olympic coverage on NBCOlympics.com: https://www.nbcolympics.com/schedule\n\nWatch the Milan Cortina Olympics on Peacock: https://smart.link/fs2ge7i8m3qlv\nVisit NBCOlympics.com: https://www.nbcolympics.com\nDownload the NBC Olympics App: https://apps.apple.com/us/app/nbc-sports/id542511686\nFind NBC Olympics on Facebook: https://www.facebook.com/nbcolympics\nFollow NBC Olympics on X: https://www.x.com/NBCOlympics\nFollow NBC Olympics on Instagram: https://www.instagram.com/nbcolympics\nFind NBC Olympics on TikTok: https://www.tiktok.com/@nbcolympics\n\n'Canine Calamity': Dog races on cross-country skiing | Winter Olympics 2026 | NBC Sports\nhttps://www.youtube.com/nbcsports",
+          "tags": [
+            "NBC",
+            "NBC Sports",
+            "sports",
+            "sports news",
+            "2026 winter olympics",
+            "winter olympics",
+            "milan cortina olympics",
+            "milan olympics",
+            "2026 olympics",
+            "2026 winter olympics milan",
+            "olympic winter games",
+            "olympics",
+            "cross country ski",
+            "winter olympics cross country ski",
+            "mens cross country ski winter olympics",
+            "cross country ski winter olympics",
+            "winter olympics funny moments",
+            "dog on olympics course",
+            "dogs in olympics",
+            "funny animal videos",
+            "funny dog videos"
+          ],
+          "url": "https://www.youtube.com/watch?v=vo_jyxSnk2Q",
+          "transcript": "So, so I'm going to say that is\ndomesticated.\nHe wants to enjoy the finish as well.\nHadic of Croatia across the lineage\n&gt;&gt; racing to the line there. The crowd\nclearly enjoying this.\n&gt;&gt; Just the biggest cheer of the day is not\nfor any of the skiers so far.\n&gt;&gt; Is this the highlight reel? Is this the\nmoment?\nEveryone out enjoying the team sprint.\nHow can you not?\n&gt;&gt; It's not a canine calamity.\n&gt;&gt; It's the moment that everybody seems to\nenjoy. Look at the crowd. They they love\nthis. That's true speed down the\nfinishing straight.\nThe magnificence\nof the local wildlife domesticated\nwas the pet pooch.\nChief of competition has come over\nto to handle the guest\nfinish.",
+          "curated": false
+        },
+        {
+          "video_id": "4sy_s4jtvwA",
+          "title": "Owen Wilson and the American Birkebeiner cross-country ski race | Here Comes the Sun",
+          "channel": "CBS News",
+          "view_count": 8561,
+          "upload_date": "20230424",
+          "duration_string": "21:56",
+          "description": "Actor Owen Wilson sits down with Ben Mankiewicz to discuss his latest film, “Paint.” Then, Conor Knighton takes a trip to Wisconsin to learn about the American Birkebeiner. “Here Comes the Sun” is a closer look at some of the people, places and things we bring you every week on “CBS Sunday Morning.”\n\n#news #celebrity #herecomesthesun \n\nCBS News Streaming Network is the premier 24/7 anchored streaming news service from CBS News and Stations, available free to everyone with access to the Internet. The CBS News Streaming Network is your destination for breaking news, live events and original reporting locally, nationally and around the globe. Launched in November 2014 as CBSN, the CBS News Streaming Network is available live in 91 countries and on 30 digital platforms and apps, as well as on CBSNews.com and Paramount+.\n\nSubscribe to the CBS News YouTube channel: http://youtube.com/cbsnews\nWatch CBS News: http://cbsn.ws/1PlLpZ7c\nDownload the CBS News app: http://cbsn.ws/1Xb1WC8\nFollow CBS News on Instagram: https://www.instagram.com/cbsnews/\nLike CBS News on Facebook: http://facebook.com/cbsnews\nFollow CBS News on Twitter: http://twitter.com/cbsnews\nSubscribe to our newsletters: http://cbsn.ws/1RqHw7T\nTry Paramount+ free: https://bit.ly/2OiW1kZ\n\nFor video licensing inquiries, contact: licensing@veritone.com",
+          "tags": [
+            "movie",
+            "theater",
+            "acting",
+            "actors",
+            "hollywood",
+            "wilson brothers"
+          ],
+          "url": "https://www.youtube.com/watch?v=4sy_s4jtvwA",
+          "transcript": "[Music]\nwelcome I'm Tracy Smith and this is Here\nComes the Sun a closer look at some of\nthe people places and things we bring\nyou every weekend on Sunday morning\nOwen Wilson's singular style doesn't\nlimit his range he started everything\nfrom blockbusters to rom-coms but as he\ntold our Ben mankowitz it was a\nmomentous math test that put him on a\npath to fame Wilson never thought about\nacting in school school in fact was a\nbit of a challenge his high school\nexpelled him I got kicked out for\nCheating in Geometry I was the only kid\nthat was caught that was kind of called\nin Wilson could have saved himself if\nhe'd been willing to identify the other\nkids involved you wouldn't name that I\ndidn't name names so offy went at 16 to\nthe New Mexico Military Institute I did\npretty well I got good grades and like\nall these things it ends up being a\nbetter story later in the show Owen\nWilson's filmography as ranked by his\nkids do your kids Zoolander want to talk\nabout Zoolander uh yeah\num my nine-year-old he said that was his\nfavorite of the movies that I've done he\nsaid liked you me and Dupree and\nZoolander and then uh my 12 year old he\nsaid\nhe says bottle rocket but that's nice\nyeah yeah that suggests he's got a\nlittle well it makes me think like does\nhe just kind of know me and no that's\nthe one that's going to make me feel the\nbest it doesn't matter either way it's\neither way either way\nthen Connor Knighton gets a front row\nseat to a week-long festival that\nstarted as a cross-country ski race but\nbecame a celebration the American\nbirkabiner is the largest cross-country\nski race in the country and the\nenthusiasm here is contagious we all got\nthe Berkey fever and it's just the\nexcitement that builds about not only\nthe race but the whole event of Berkey\nweek the official burkabiner race Berkey\nfor short could fly by in a couple of\nhours for the most elite skiers the\nleading up to the main event there are\ndays of activities\nthat's all coming up right here on Here\nComes the Sun\nOwen Wilson May dislike talking about\nhimself but he had plenty to tell Ben\nmankowitz about his films the characters\nhe plays and his journey to the Silver\nScreen\nthe Rolling Stones yeah Rembrandt would\nbe he could be like Sinatra while the\nHammer Museum in Los Angeles is an\nunlikely haunt for a Hollywood star a\nvan Gogh Owen Wilson is not your average\na-lister now look at this color here\nyeah there's something that inhibits me\nfrom talking about a painting on camera\nright because I just I can't get over\nthat in person or on screen you'll show\nmy novel to Gertrude Stein got\nself-e-facing charm is undeniable it\neven started to say brush strokes and I\nwas like don't say pressure Wilson\ncontinues to carve out of varied movie\ncareer do you some guy take cat to be a\nlawfully wedded wife\nas a romantic lead\ning movies\nand his signature comedies we even shot\none of these things before\nthe whole 17 years we've known each\nother I've been sneaking off to go on\nlittle hunting trips around the world no\nI don't even know what the the\nquail is whether it's an Uninvited Guest\nwith Vince Vaughn and Wedding Crashers\nor engaging in a dance-off with Ben\nStiller in Zoolander\n[Applause]\ndon't worry it's not rocket science his\nlatest is paint it's harder PBS\nBurlington off deep comedy where Wilson\nplays a painter hosting a TV show at a\nPBS station in Vermont Carl is\none-dimensional and very sexist you know\nI don't care what people say about me\nthe work and the success remain a bit of\na surprise to him I definitely consider\nmyself lucky making a living doing\nsomething creative that seems incredible\nincredible but not improbable for a kid\nraised around the Arts in Dallas his\nmother is a photographer his father like\nWilson's latest character has a PBS\nconnection we have to move right into\nour programming which is after all all\nthat really counts running the first PBS\nstation in the states to air a show\nfeaturing a certain British comedy trip\nthey were the first station to carry\nMonty Python years later I met Terry\nGilliam and he said you know we're\nincredibly grateful your dad gave us a\nbig break Wilson never thought about\ndidn't name names so off he went at 16\nto the New Mexico Military Institute I\ndid pretty well I got good grades and\nlike all these things it ends up being a\nbetter story he ended up in college at\nthe University of Texas where a friend\nfrom military school introduced him to\nanother student without that thing\nhappening then you know Wes and I\nprobably don't become friends Wes is\nwriter director Wes Anderson who became\nWilson's roommate at Texas and his\nlifelong friend they've made eight\nmovies together including the Royal\nTenenbaums and The Grand Budapest Hotel\nnot long after college they co-wrote\ntheir first feature bottle rocket with\nAnderson directing and Wilson playing\nthe league\noh\ndid you hear that I did Bottle Rock and\npeople started hiring me and it was like\nwell you know it took a little bit a few\nmovies before I could sort of accept or\nsay I guess this is what I do I'm an\nactor yeah I guess I'm an actor as an\nactor Wilson with his unique boyish good\nlooks and those blonde locks soon\nmorphed into a scene stealer prone to\nad-lib like this bit here in Meet the\nParents with Robert De Niro who was\nclearly impressed I'd love to find time\nto do some volunteer work just the other\nday I saw this golden retriever that he\nhad like a with a paw was uh hurt\nbroke my heart\nOwen Wilson is entirely comfortable\ndiscussing his characters talking about\nhimself is a different story why are you\nguarded with your emotions has he always\nbeen that way I think it's well I think\njust growing up in Dallas to have said\nyou wanted to be an actor and be in\nmovies would have sounded like okay yeah\nme too and then I want to go win the\nlottery after that it would have just\nsounded ridiculous that guardedness is\nunderstandable in 2007 came a widely\nreported story that Wilson had attempted\nsuicide he doesn't discuss it publicly\nbut he has said that his family played a\nbig role in his recovery his older\nbrother Andrew moved in with him for a\nbit after he left the hospital he's\nstill clearly a big influence that's a\ngreat feeling when you've got some\nbackup and my older brother has\ncontinued always to\nbe kind of you know somebody who's\nhelped me a lot the Wilson Brothers\nAndrew Owen and Luke also a successful\nactor are still close you know it's like\nthat Paul Simon song with the boys the\ntroops late in the evening yeah\nand what draws you to places like this\nthere is something about going into a\nmuseum that is just sort of a little bit\nmeditative it's also like going to like\na church or a cathedral you kind of feel\ngood afterwards the museum brings in\npeace of mind and perhaps a little\ninspiration for his latest film is that\nRembrandt well this reminds me of that\napp where it matches you to an old\nclassic it's never very flattering and\nI'll be like really that's that's that's\nthe lightness for me I mean the hair\nCarl hair that's Coral norgol yeah\ngoal is Wilson's character in paint that\ntree is probably too tall embrace\nyourself you are going to get some calls\nclearly inspired by Bob Ross who hosted\na PBS painting show for 11 years\nstarting in 1983. let's have another one\nmaybe he lives right there he's slow\nsoothing voice and permed hair have\nremained ubiquitous on the internet\ndid you watch Bob Ross yeah but I can't\nquite do an imitation\njust take it all in Wilson didn't get\nRoss's voice down but he got Ross's\nEssence and he made the character funny\nhow is everything excuse\nme it's good good thing which is what\nOwen Wilson has been doing since he was\na kid you're entitled to your favorite\nTV show\nwhat makes this country great\nyou think you're a good actor\num I don't think that I'm you know good\nuh I do think there's some yeah I think\nthere's some parts that I that I think I\ncan play well yeah well I got news for\nyou you're a good actor\nup next an exclusive excerpt from Owen\nWilson's chat\nyou can only see right here on CBS News\nstreaming stay with us\nas promised here's more from Ben\nmankowitz and Owen Wilson\nyour parents seem very interesting I had\nsome interesting parents so I like\ninteresting parents they but how did\nthey uh how would you assess the manner\nin which they shaped you yeah\num I think that\nyou know I think one of the big things\nwas you know kind of having dinners as a\nfamily\nand then my dad just had great friends\nyou know that would come over and so it\nwas kind of you know sitting there and\nkind of hearing these kind of smart\nfunny\nguys and\num women and you know we all kind of\nkind of idolize my dad a little bit and\num and so it would just really kind of\npay attention and he had a you know\ngreat sense of humor and they did\ninteresting things do your kids\nZoolander want to talk about Zoolander\nuh yeah\nsaid he liked you me and Dupree and\num\nhe says bottle rocket but uh that's nice\nlittle well it makes me think like is he\njust kind of know me and no that's the\none that's going to make me feel the\neither way right either way either he's\nbeing a really thoughtful guy based on\nhis other viewing if I was to do an\nalgorithm bottle rocket is standing out\nin other movies uh Wedding Crashers too\nold for them it's probably I haven't\nseen Wedding Crashers uh have they seen\nme at the parents uh I don't know if\nthey've seen Meet the Parents I'm not\nsure they've seen you know the night at\nthe museums they like that care I like\nthat character Jedediah Wedding Crashers\nis an incredibly funny movie yeah yeah\nyeah I I mean I I think\nyou know we were really lucky with\num well I just think Vince you know I\nthink he's so funny and and we just yeah\nyou were gifted you feel like you guys\nhave a similar manner of being funny\nyeah I don't think that I have a similar\nI have you know just a big appreciation\njust for I just think he's you know one\nof the funniest people and that could be\njust in real life too if I was you know\nwalking around in a museum with Vince\nhe's going to say some stuff that I'm\ngoing to remember and want to write down\num and just has a funny Manner and then\nWill Ferrell\num also and\num you know his character and that\num I thought was yeah it was great so\nyou're doing\nLoki but but if you mentioned you\nmentioned you know I really like that\ncharacter actually yeah the character\nMobius uh that I play on Loki uh and I\nloved working with Tom Hiddleston and\nyou know talk about someone\num you know he went to Cambridge and you\nknow can uh if you want to sit around\nand you know what's this Shakespeare\nhe'll be able to you know he'll be able\nto dial it up and he's also just has\nthat incredible uh you know politeness\nand but really hard-working you sort of\nI I'm kidded about with Tom Hiddleston\nyou kind of see kind of okay yeah that's\nhow that little island nation kind of\nbuilt an Empire they had like you know\nthey have that Keith Richards type you\nknow and then they have you know that\nTom Hiddleston type kind of we're\ntalking about you know I you know not\nreally seeing myself as a fighter pilot\nbut I do see myself kind of you know\nthat kind of\num you know in that genre of kind of a\ndetective do you have some freedom in\nthat when you come up with yeah yeah\num and they kind of you know we just\nfinished season two\num that we shot in London and you know a\nmonth before we kind of were rehearsing\nand working on you know the scripts I\nthink it was in that that Esquire piece\nmaybe it was in something else but I\nlike that when you you doing the press\nfor Loki and you're like why why is\neverybody asking me like either like\nwhat can you do this you don't know\nanything about the Marvel Universe and\nyou were like no no I but I know so and\nthen you're like\nactually maybe I don't yeah well no the\none that I you know they were asking me\nin the article dude do you know everyone\nwas seeming to say oh I don't know\nanything about Marvel movies and I was\nlike that's not true I do you know my\nkids were just watching Aquaman so I\nwatched Aquaman and and I actually got\ninto an argument with them about like\nHow could somebody swim in blue jeans\nlike that's the worst thing like you\nknow and uh they were like well Dad he's\ngonna I go yeah but I I mean right there\nthey lose me uh and so\num and then I guess Aquaman isn't even a\nMarvel movie that's a DC uh maybe you\ndon't know yeah so maybe I don't know\nthat much about it\nup next an American event inspired by\nNorwegian history\nwelcome back each year thousands of\nathletes and enthusiasts descend on a\nsmall community in Wisconsin for the\nlargest and as Connor Knighton shows us\nwhat just might be the most entertaining\ncross-country ski race in the country\neach winter thousands of cross-country\nskiers from all across the world travel\nto the North Woods of Wisconsin to\ntravel more than 30 miles between the\ntowns of cable and Hayward\nthe American burkabiner is the largest\nand the enthusiasm here is contagious we\nall got the Berkey fever and it's just\nthe excitement that builds about not\nonly the race but the whole event of\nBerkey week the official burkabiner race\nBerkey for short could fly by in a\ncouple of hours for the most elite\nskiers the leading up to the main event\nthere are days of activities there are\nshorter races for children\nforeign\nlovers ski with their pets teams of six\ncompete in giant ski races it's kind of\nlike Comic-Con for athletes is how I'm\nlooking at it Jackie and dandaroma are\nAvid skiers Jackie has skied the Berkey\nfour times Dan 17 but for this year's\nrace they wanted to do things a little\ndifferently these other Racers are going\nto be in spandex Gore-Tex you know what\nare you gonna be wearing full on fur\nJackie Dan and Dan's Father Jim were\nselected to be mascots of sorts skiing\nthe entire course on wooden skis dressed\nas Norwegian folk Heroes all while\ncarrying a baby doll it's a tradition\nwith roots and a far older history\nas portrayed in the film The Last King\nin the early 13th century Norway was in\nthe middle of a civil war after King\nHogan III died members of the\nbirkavainer faction skied his son the\nheir to the throne through the woods to\nsafety\ncheer in Wisconsin three skiers reenact\nthe rescue I think the the fact that\nthere is this real story about an event\nthat now you're recreating it I think\nthat's pretty darn cool and pretty\nspecial and I think it resonates with a\nlot of people Ben pop is the executive\ndirector of the American burkabiner\nwhich is modeled after a Norwegian race\nthere every competitor skis with a baby\nweight backpack to honor the Warriors\njourney of course you may be asking\nyourself why is this crazy Norwegian\nhistory have anything to do with Hayward\nWisconsin in the middle of Northwestern\nWisconsin nowhere it all came down to\none man Tony wise Tony wise was born in\nHayward and was a born marketer after\nserving in World War II he decided to\nbring the competitive skiing he observed\nin Europe back home to Wisconsin a place\nwhere a Scandinavian ancestry is common\nas a way to encourage tourism his first\nBerkey race held 50 years ago had just\n35 participants most of whom had never\ncrossed country skied before\nI swore up and down after that first I\nwould never do anything so foolish again\nbut\nJermaine is the only competitor who's\nparticipated in every single race\nbut there are more than 2 000 athletes\nwho have appeared in 20 or more contests\nwhich can turn into grueling all day\nendeavors\nthe Berkey attracts skiers of varying\nages and ability levels they're really\ngonna discover who you are it's one of\nthe toughest Marathon courses in the\nworld so let yourself kind of Glide a\nlittle there you go\nthat challenge is what attracts Elite\nskiers like Olympian Caitlyn Gregg who's\nwon the women's race a record-setting\nfive times the Berkey course is unlike\nany other ski course that we get to race\nnot only here in the United States but\nalso in around the world and I think\nthat it's terrain is so unique and so\nchallenging that people just myself\nincluded love that aspect of it\nthe race itself has faced challenges\nposed by warmer Winters in recent\ndecades it's been canceled twice due to\nlack of snow it's really important that\nwe look at climate change and weather\nbecause if we don't have it well it's a\nbig loss the event provides a major\nboost for the local economy this town of\nfewer than 3 000 residents hosts close\nto 40 000 Spectators on race day\nhayward's Main Street overflows with\ncheering fans caught up in Berkey fever\nfor which the only prescription is more\ncowbell\nthe church bells signal the arrival of\nthe first finisher David Norris won this\nyear's men's race with a commanding lead\nCaitlyn Gregg came in third in the\nwomen's division\nbut the biggest cheers of the day were\nreserved for the deromas nearly seven\nhours after leaving the starting line\nthey skied onto Main Street and swapped\nout the baby doll for an actual baby\ntheir daughter Clara played the part of\nPrince hoken for the final few blocks\nthe burkebiners saved the day until\nthey do it all again next year\nI'm Tracy Smith thanks for joining us\nwe'll see you here next time on Here",
+          "curated": true,
+          "curation_reason": "Features comprehensive coverage of the American Birkebeiner, one of the most significant cross-country skiing events with race atmosphere and participant perspectives.",
+          "display_order": 2
+        },
+        {
+          "video_id": "vujBTIjvoCE",
+          "title": "Cross-country skiing explained | The ultimate test of speed and stamina ⛷️",
+          "channel": "Olympics",
+          "view_count": 466388,
+          "upload_date": "20260102",
+          "duration_string": "1:26",
+          "description": "📺 Re-live all the #MilanoCortina2026 action: https://go.olympics.com/watch \n\nHearts are pounding. Minds are focused. And the fans are cheering! 🙌\n\n⛷️ There's nothing like the thrill of a cross-country skiing race at the Winter Olympics. \n\n #MilanoCortina2026 #CrossCountrySkiing #StepIntoLife #allianz \n_____________________________________________________\n🇫🇷 #Paris2024 replays: https://oly.ch/P24Replays\n🇨🇳 #Beijing2022 replays: https://oly.ch/B22Replays\n🇯🇵 #Tokyo2020 replays: https://oly.ch/T20Replays\n🗞️ News from the Olympic world: https://oly.ch/News",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=vujBTIjvoCE",
+          "curated": false
+        },
+        {
+          "video_id": "cQk8mMVVyKQ",
+          "title": "Noquemanon Ski Marathon 2019 Recap",
+          "channel": "Noquemanon Ski Marathon",
+          "view_count": 2661,
+          "upload_date": "20190308",
+          "duration_string": "1:57",
+          "description": "Noquemanon Ski Marathon 2019 Recap - Floline Media\nVisit Floline Media at https://vimeo.com/flolinemedia",
+          "tags": [
+            "Floline Media",
+            "NTN",
+            "Noquemanon",
+            "Noque",
+            "Noquemanonskimarathon"
+          ],
+          "url": "https://www.youtube.com/watch?v=cQk8mMVVyKQ",
+          "curated": false
+        },
+        {
+          "video_id": "V1Fq2sjEUn8",
+          "title": "2019 Lapham Loppet XC Freestyle and Classical Ski Race",
+          "channel": "TMJ4 News",
+          "view_count": 102,
+          "upload_date": "20190121",
+          "duration_string": "1:15",
+          "description": "(Video by Gideon Verdin-Williams)",
+          "tags": [
+            "2019 Lapham Loppet XC Freestyle and Classical Ski Race"
+          ],
+          "url": "https://www.youtube.com/watch?v=V1Fq2sjEUn8",
+          "transcript": "but the weather did make for a perfect\nbackdrop for a cross-country skiing race\ntoday at Lapham park in Delafield it's\nso fun to be on the snow the 2019 Lapham\nLobeck got a little help from Mother\nNature soft mushy bass have real snow\nthe Lapham peak loop is just more than a\nmile long and usually relies on man-made\nsnow to keep skiers going but the fresh\npowder can also have a downside but the\nfresh snow is pretty nice but I was kind\nof struggling on some of the hills there\nthe skiers weren't just gliding along\ntoday they were racing for some it's a\ntest of endurance I'm usually really\nexcited for a race I enjoy racing to see\nhow far I can push myself for others\nit's a case of sibling rivalry just got\nto beat my sister\nmake sure the race also serves as a\nfundraiser for the park hoping to add\nanother half mile of trail in the woods\nit's been a lot of years of working on\nit but it's a wonderful thing now that\nwe've got it all I hope to get started\non the edition of that in the fall if\nthey raise 160 thousand dollars so some\nperfect weather for the skiers today\nJessie",
+          "curated": false
+        },
+        {
+          "video_id": "AYBzRB5b_es",
+          "title": "Cross Country Skiing Beijing 2022 | Men's 15km Classic highlights",
+          "channel": "Olympics",
+          "view_count": 24525,
+          "upload_date": "20220211",
+          "duration_string": "3:01",
+          "description": "📲 Subscribe to @olympics: http://oly.ch/Subscribe \n\n \n\nFinland's Iivo Niskanen claimed gold in the men's cross country skiing 15km classic, his second medal of Beijing 2022 after his bronze in the 30km skiathlon. His winning time of 37:54.8 was an impressive 23 seconds ahead of ROC's Alexander Bolshunov who took silver. Bronze went to Johannes Klaebo of Norway\n\n__________________________________\n\n \n_____________________________________________________\n🇨🇳 #Beijing2022 replays: https://oly.ch/B22Replays\n🇯🇵 #Tokyo2020 replays: https://oly.ch/T20Replays \n🗞️ News from the Olympic world: https://oly.ch/News",
+          "tags": [
+            "Olympic Games",
+            "Olympic Channel",
+            "Olympic Medal",
+            "Olympics",
+            "IOC",
+            "Olympic Sports",
+            "Champion",
+            "Sport",
+            "Gold",
+            "Silver",
+            "Bronze",
+            "Beijing2022",
+            "Beijing 2022",
+            "Olympic Games 2022",
+            "Olympic Winter Games 2022",
+            "Olympics 2022",
+            "Beijing",
+            "Beijing Olympics",
+            "Winter Olympics",
+            "China Olympics",
+            "China 2022",
+            "carve-out-region-india",
+            "carve-out-region-australia",
+            "carve-out-region-ssa",
+            "carve-out-type-3min"
+          ],
+          "url": "https://www.youtube.com/watch?v=AYBzRB5b_es",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It's a brutal format. You qualify in a time trial. Then you race head-to-head through quarterfinals, semifinals, and a final with six skiers. One mistake, one bad wax job, one wrong tactical decision and you're out.",
+          "source_video_id": "Ss6zSxlOaUY",
+          "source_channel": "Capital Prime",
+          "source_view_count": 182,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "3 minutes and 40 seconds of racing through slush, up steep climbs, down technical descents. Classic technique, no skating, just kick and glide. Power and precision.",
+          "source_video_id": "Ss6zSxlOaUY",
+          "source_channel": "Capital Prime",
+          "source_view_count": 182,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "race": {
+    "name": "Einsiedler Skimarathon",
+    "slug": "einsiedler-skimarathon",
+    "display_name": "Einsiedler Skimarathon",
+    "tagline": "Nearly six decades of Swiss Loppet tradition in the shadow of one of Europe's great pilgrimage towns.",
+    "vitals": {
+      "distance_km": 25,
+      "distance_options": [
+        "25km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 900,
+      "location": "Einsiedeln, Schwyz",
+      "location_badge": "Schwyz, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Schwyz",
+      "date": "Second Sunday of February",
+      "date_specific": "2026: February 8",
+      "discipline": "skate",
+      "field_size": 500,
+      "founded": 1969,
+      "registration": "Open registration via Swiss Loppet / Datasport",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.skimarathon.ch/",
+      "lat": 47.1267,
+      "lng": 8.7526,
+      "field_size_estimate": 650,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Swiss Pre-Alpine winter",
+      "description": "Einsiedeln sits at approximately 900m in the Swiss Pre-Alps. February race conditions typically feature temperatures from -8°C to 2°C. Snow reliability can be variable at this altitude, though the location has historically maintained adequate conditions.",
+      "typical_temp_c": "-8 to 2",
+      "challenges": [
+        "Snow reliability variable at 900m altitude in warming winters",
+        "Pre-Alpine weather can bring rapid changes",
+        "Freestyle technique demands good skating conditions",
+        "Moderate altitude limits extreme cold protection"
+      ]
+    },
+    "course": {
+      "primary": "A 25km freestyle (skating) course through the rolling pre-Alpine landscape surrounding the historic pilgrimage town of Einsiedeln.",
+      "format": "loop",
+      "surface": "Machine-groomed skating tracks on pre-Alpine terrain",
+      "technical_rating": 2,
+      "grooming": "Swiss Loppet standard grooming",
+      "features": [
+        "Historic pilgrimage town of Einsiedeln as race base",
+        "The most traditional race in the Swiss Loppet series",
+        "Pre-Alpine rolling terrain at ~900m",
+        "Freestyle (skating) technique only",
+        "58th edition in 2026"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 60,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "The most traditional race in the Swiss Loppet series with nearly 60 years of history. Good accessibility from Zurich and strong Swiss organization. Snow reliability at 900m is the main concern in warming winters.",
+      "tier_note": "Score 60 places in TIER 2"
+    },
+    "history": {
+      "summary": "The Einsiedler Skimarathon was founded in 1969 and is the most traditional race in the Swiss Loppet series. Held in the pre-Alpine town of Einsiedeln, famous for its Benedictine abbey and centuries of pilgrimage tradition, the race has been a cornerstone of Swiss citizen cross-country skiing for nearly six decades. The 58th edition takes place in 2026.",
+      "notable_facts": [
+        "Founded in 1969 — the most traditional Swiss Loppet race",
+        "58th edition in 2026",
+        "Einsiedeln is one of Europe's most famous pilgrimage towns",
+        "Home to the historic Einsiedeln Abbey (Benedictine monastery)",
+        "Part of the Swiss Loppet series",
+        "Freestyle (skating) technique"
+      ]
+    },
+    "series_membership": [
+      "swiss_loppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Einsiedler Skimarathon cross country ski race Einsiedeln",
+      "videos": [
+        {
+          "video_id": "_6d_78ywce8",
+          "title": "Einsiedler Langlauf-Weekend 2018 in Studen SZ",
+          "channel": "swatch0580",
+          "view_count": 514,
+          "upload_date": "20180216",
+          "duration_string": "6:21",
+          "description": "Special Olympics\nEinsiedler Klassik\n7. Schafbock-Loppet\n50. Einsiedler Skimarathon",
+          "tags": [
+            "Skiclub Einsiedeln",
+            "www.skimarathon.ch",
+            "Einsiedler",
+            "Schafbock",
+            "Special Olympics",
+            "Einsiedeln",
+            "Studen"
+          ],
+          "url": "https://www.youtube.com/watch?v=_6d_78ywce8",
+          "curated": true,
+          "curation_reason": "Most recent coverage of the actual Einsiedler Skimarathon race with good duration for race documentation.",
+          "display_order": 1
+        },
+        {
+          "video_id": "Yr_tBtCl_7s",
+          "title": "Einsiedeln Langlauf Schwedentritt",
+          "channel": "dukelang1967",
+          "view_count": 1199,
+          "upload_date": "20100124",
+          "duration_string": "8:59",
+          "description": "Langlauf Loipe in Einsiedeln",
+          "tags": [
+            "Sport;",
+            "Langlauf;",
+            "Einsiedeln;",
+            "Schwedentritt;",
+            "Schweiz;",
+            "Schnee;",
+            "GoPro",
+            "HD"
+          ],
+          "url": "https://www.youtube.com/watch?v=Yr_tBtCl_7s",
+          "curated": true,
+          "curation_reason": "Good course preview of the Schwedentritt trail system used for the marathon with detailed trail footage.",
+          "display_order": 3
+        },
+        {
+          "video_id": "Pt-IbnqEzh4",
+          "title": "Langlaufen in Einsiedlen",
+          "channel": "Joan Barendsen",
+          "view_count": 71,
+          "upload_date": "20101229",
+          "duration_string": "51",
+          "description": "Was hardstikke leuk.",
+          "tags": [
+            "langlaufen"
+          ],
+          "url": "https://www.youtube.com/watch?v=Pt-IbnqEzh4",
+          "curated": false
+        },
+        {
+          "video_id": "oXIqJ9qGPIw",
+          "title": "Impressionen Schwedentritt",
+          "channel": "langlaufch",
+          "view_count": 710,
+          "upload_date": "20111111",
+          "duration_string": "1:50",
+          "description": "http://www.schwedentritt.ch\r\n\r\nAuf den herrlichen Loipen, von 3,5 Km - 22 Km, geeignet für jeden Läufer, egal welchen Alters und Könnens, erleben sie Langlauf in Reinkultur. Sie geniessen auf den Schwedentritt-Loipen eine herrliche Aussicht in die Schwyzer Berge.",
+          "tags": [
+            "Langlauf",
+            "Einsiedeln",
+            "Schwedentritt",
+            "Loipe",
+            "Schwyz",
+            "Schweiz",
+            "Wintersport"
+          ],
+          "url": "https://www.youtube.com/watch?v=oXIqJ9qGPIw",
+          "transcript": "[Music]\nHeat. Hey, Heat.\nHeat. Heat. N.\nBack\ndata back.\nHeat. Heat.",
+          "curated": false
+        },
+        {
+          "video_id": "tVwUkI9Crck",
+          "title": "Langlauf Club Studen",
+          "channel": "LanglaufStuden",
+          "view_count": 11635,
+          "upload_date": "20111129",
+          "duration_string": "1:08",
+          "description": "Langlaufen in Studen bei herrlichen Loipenverhältnissen wenn es Schnee hat. Hoffentlich kommt er bald.",
+          "tags": [
+            "Studen",
+            "SZ",
+            "Langlauf",
+            "Langlaufzentrum",
+            "Langlaufclub",
+            "Winter",
+            "Schnee",
+            "Winterssport",
+            "Nordic",
+            "Nordicsport"
+          ],
+          "url": "https://www.youtube.com/watch?v=tVwUkI9Crck",
+          "curated": false
+        },
+        {
+          "video_id": "Tvs_F9A_TBQ",
+          "title": "Zielinterview Tour de Studen",
+          "channel": "Ronnie Schildknecht",
+          "view_count": 342,
+          "upload_date": "20101226",
+          "duration_string": "1:30",
+          "description": "RUEDI Wild und Marc Widmer im SF Sport",
+          "tags": [
+            "Langlauf"
+          ],
+          "url": "https://www.youtube.com/watch?v=Tvs_F9A_TBQ",
+          "curated": false
+        },
+        {
+          "video_id": "sw5Wm1aqbb8",
+          "title": "crazy5.ch Langlauf-Day Studen 2012",
+          "channel": "VereinCrazy5",
+          "view_count": 250,
+          "upload_date": "20120118",
+          "duration_string": "3:26",
+          "description": "Präsentiert bei mit no-limit.ch",
+          "tags": [
+            "crazy5.ch",
+            "Gigathlon",
+            "Gigathlon 2012",
+            "no-limit.ch",
+            "no Limit Brugg"
+          ],
+          "url": "https://www.youtube.com/watch?v=sw5Wm1aqbb8",
+          "transcript": "[Music]\nHeat.\n[Applause]\nAnother life.\nCome here.\na little bit louder.\nstatement.\nYeah,\nstatement on his target\nback.\nHeat. Heat.",
+          "curated": false
+        },
+        {
+          "video_id": "AxcUmy9mGEo",
+          "title": "roleto Bikes & Sport AG ihr Spezialist für Langlauf, Velo, Bikes und Rollski",
+          "channel": "SimpleSites OPTIMIZED",
+          "view_count": 515,
+          "upload_date": "20141201",
+          "duration_string": "20",
+          "description": "Die roleto Bike & Sport AG bietet eine riesen Auswahl an Velos, Alpin Ski, Langlauf Ski und Rollski. In unserer Filiale in Schindellegi im Kanton Schwyz beraten Sie die Spezialisten der roleto Bike & Sport AG ganz persönlich.",
+          "tags": [
+            "Langlauf Ski verkauf",
+            "Langlauf Ski vermietung Schwyz",
+            "Rollski",
+            "Velo",
+            "velo reparatur",
+            "alpin ski verkauf",
+            "alpin ski vermietung",
+            "Skiing (Sport)",
+            "Roller Skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=AxcUmy9mGEo",
+          "curated": false
+        },
+        {
+          "video_id": "P7Pi7APEohQ",
+          "title": "Einsiedler Skimarathon 2017",
+          "channel": "Bella Luna",
+          "view_count": 866,
+          "upload_date": "20170216",
+          "duration_string": "2:48",
+          "description": "Sonntag, 12. Februar 2017, Loipe Schwedentritt, Einsiedeln",
+          "tags": [
+            "Einsiedler Skimarathon",
+            "Schwedentritt",
+            "Skiclub Einsiedeln"
+          ],
+          "url": "https://www.youtube.com/watch?v=P7Pi7APEohQ",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

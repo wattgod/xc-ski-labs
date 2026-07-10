@@ -1,0 +1,252 @@
+{
+  "race": {
+    "name": "Sirdal Ski Marathon",
+    "slug": "sirdal-ski-marathon",
+    "display_name": "Sirdal Ski Marathon",
+    "tagline": "Forty kilometers across the Ryfylke mountain plateau — southwestern Norway's high-country classic where Atlantic weather meets inland powder.",
+    "vitals": {
+      "distance_km": 45,
+      "distance_options": [
+        "40km",
+        "20km"
+      ],
+      "elevation_m": 450,
+      "altitude_m": 800,
+      "location": "Sirdal",
+      "location_badge": "Agder, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Agder",
+      "date": "Late February",
+      "date_specific": "2026: February 21",
+      "discipline": "classic",
+      "field_size": 350,
+      "founded": 1973,
+      "registration": "Online registration, opens November",
+      "prize_purse": "None",
+      "aid_stations": "3 stations with warm drinks and snacks",
+      "cutoff_time": "6 hours",
+      "website": "https://www.sirdalskiloype.no",
+      "lat": 58.9833,
+      "lng": 6.6167,
+      "field_size_estimate": 350,
+      "elevation_gain_m": 450
+    },
+    "climate": {
+      "primary": "Maritime mountain, variable conditions",
+      "description": "Sirdal sits on the transition between coastal and mountain climate in southwestern Norway. Atlantic weather systems bring variable conditions. Temperatures range from -10°C to +2°C. Snow quality can shift rapidly from powder to wet depending on weather patterns.",
+      "typical_temp_c": "-8 to +2",
+      "challenges": [
+        "Atlantic weather systems create rapid condition changes",
+        "Rain risk even in February at this latitude",
+        "Wind exposure on open plateau sections",
+        "Wax challenges from temperature swings"
+      ]
+    },
+    "course": {
+      "primary": "Loop course across the Sirdal mountain plateau, traversing open highland terrain with views toward the Ryfylke mountains. The course includes both exposed plateau skiing and sheltered valley sections.",
+      "format": "loop",
+      "surface": "Groomed classic track across mountain plateau terrain",
+      "technical_rating": 3,
+      "grooming": "Well-maintained by local ski club, classic track with some double sections",
+      "features": [
+        "Open mountain plateau skiing at 800-1000m elevation",
+        "Views toward Kjerag and Lysefjord region",
+        "Southwestern Norway's premier ski marathon",
+        "Gateway to Ryfylke mountain area"
+      ]
+    },
+    "nordic_lab_rating": {
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "score_note": "Sum 37/70 = 53. Base tier 3."
+    },
+    "history": {
+      "summary": "Founded in 1973 to promote skiing in the Sirdal mountain plateau, one of southwestern Norway's premier winter destinations. The region serves as the closest mountain skiing for the Stavanger and Kristiansand populations. Despite its relatively southern location, the high plateau ensures reliable skiing most winters.",
+      "notable_facts": [
+        "Sirdal is the closest mountain ski area to Stavanger, Norway's oil capital",
+        "The plateau connects to the famous Ryfylke mountain area and Lysebotn",
+        "The region has over 200km of groomed cross-country trails",
+        "Sirdal municipality is home to only ~1,800 permanent residents"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Sirdal Ski Marathon cross country ski race Sirdal",
+      "videos": [
+        {
+          "video_id": "kZYvq0jy8nI",
+          "title": "Sirdal Skimaraton 2013.mp4",
+          "channel": "ear4a2r",
+          "view_count": 125,
+          "upload_date": "20130224",
+          "duration_string": "19:27",
+          "description": "Start of the Sirdal Ski Marathon 2013. From a novice cross country skier",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=kZYvq0jy8nI",
+          "curated": true,
+          "curation_reason": "POV footage from race start filmed by a novice skier, providing authentic participant perspective.",
+          "display_order": 2
+        },
+        {
+          "video_id": "6NST1N6-P28",
+          "title": "Basic Classic Ski Techniques: Striding",
+          "channel": "Missoula Nordic Ski Club",
+          "view_count": 135130,
+          "upload_date": "20220124",
+          "duration_string": "2:35",
+          "description": "The Missoula Nordic Ski Club demonstrates a basic technique of classic skiing:\nStriding (or 'diagonal stride') - it's like a low gear for starting, easy skiing, and uphills\n\nMore technique videos\nOverview of All Four Techniques: https://youtu.be/4aQVNyY52Pc\nStriding: https://youtu.be/6NST1N6-P28\nHerringbone: https://youtu.be/JdvUibe750k\nDouble Pole: https://youtu.be/BBa2fPziRl0\nKick Double Pole:  https://youtu.be/a7itYppe8xk\nGrip: https://youtu.be/I8iGqr9ZZN0\n\nFilmed at Lolo Pass on the Montana/Idaho border",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=6NST1N6-P28",
+          "transcript": "there are four primary techniques or\ngears in classic skiing and each is used\nin different situations\nthis video is focused on the modern\ntechniques of classic skiing for use on\ngroomed trails we won't talk about\ntechniques for classic ski touring off\nof groomed trails\nclassic striding sometimes called\ndiagonal stride is the traditional and\nstereotypical classic technique striding\nis like a low to medium gear in a car or\nbike good for starting from a standstill\nclimbing up moderate hills or when the\nsnow is slow or deep\nstriding is powerful but is inefficient\nat the higher speeds typical on gradual\nuphills flats and downhills\nstriding is also used for easy relaxed\nclassic skiing on flat terrain and is\nthe first technique learned by beginners\nin spite of this striding uphill is\ndeceptively difficult and requires\nexquisite balance and excellent weight\ntransfer it's one of the hardest and\nmost subtle nordic ski techniques to\nmaster skate or classic\nwhen striding you push with one pole and\ndrive your body forward to glide on a\nsingle ski bringing your opposite pole\nforward at the same time left arm with\nthe right leg or right arm with left leg\nthe important thing is that your arm\nswings forward in tandem with your body\ndriving forward\nthe forward motion of your body should\ncome from thrusting your hip and knee\nforward while pressing downward with the\nother foot\npropulsion does not come from swinging\nor kicking your leg and foot forward\nwhen striding you're never standing with\nweight on both skis you are fully\nbalanced and gliding forward on one ski\nthen drive your body forward onto the\nother to glide and so on\nit's easier to stride in\nwell-established classic tracks but\nstriding out of the tracks on a groomed\nsurface is excellent practice for\nbalance and weight transfer machine set\ntracks are also often wider than is\ncomfortable for striding especially for\npeople of smaller stature it's totally\nfine to stride outside of the tracks\ngetting good grip with your skis can be\ndifficult in icy tracks wet snow or on a\nsteep uphill if you start slipping first\nincrease the tempo at which you stride\nand take shorter steps when even a fast\nstride becomes too difficult consider\nswitching to a herringbone or running\nherringbone technique which we'll cover\nin a different video",
+          "curated": false
+        },
+        {
+          "video_id": "PI26P8Uu9ls",
+          "title": "Finlandia Cross-Country Ski Marathon Set To Begin",
+          "channel": "Lakeland PBS",
+          "view_count": 53,
+          "upload_date": "20170218",
+          "duration_string": "1:04",
+          "description": "",
+          "tags": [
+            "Lakeland Public Television",
+            "LPTV",
+            "PBS",
+            "Bemidji",
+            "Minnesota",
+            "MN"
+          ],
+          "url": "https://www.youtube.com/watch?v=PI26P8Uu9ls",
+          "transcript": "if you're in the mood for skiing this\nweekend the Finlandia ski marathon is\nthe thing to do the CrossCountry ski\nMarathon welcomes both beginners and\nexpert skiers and consists of five races\nskiers from all over the country are\nexpected to participate including Canada\nfor the spectator sport it can take\nanywhere from 1 to three hours to\ncomplete the race and participants go\naround the course two to three times\nthis year three there will be some\nchanges to the\ncourse we decided to Short in the course\nthis year um it's normally a 25k Loop um\nand we've gone down to an 11 11k across\nthe road here or what we call the west\nside of buav Vista Ski Area now due to\nthe warm weather the start times for the\nrace have been moved up by 1 hour and\nwill now begin at 9:00 a.m. if you've\nenjoyed this segment of Lakeland news\nplease consider making a tax deductible\ncontribution to Lakeland Public\nTelevision",
+          "curated": false
+        },
+        {
+          "video_id": "6mR9sWDlbFE",
+          "title": "Se løypa nå! Holmenkollmarsjen 2013",
+          "channel": "SKIGO - vi elsker langrenn",
+          "view_count": 3606,
+          "upload_date": "20130207",
+          "duration_string": "3:38",
+          "description": "",
+          "tags": [
+            "Holmenkollmarsjen 2013",
+            "SKIGO"
+          ],
+          "url": "https://www.youtube.com/watch?v=6mR9sWDlbFE",
+          "curated": false
+        },
+        {
+          "video_id": "jWXArDRMi5Y",
+          "title": "Trysil skimaraton - et populært turrenn",
+          "channel": "Trysil",
+          "view_count": 276,
+          "upload_date": "20190212",
+          "duration_string": "38",
+          "description": "Lørdag 16. februar er det duket for det 20. Trysil Skimaraton. Hvis værmeldingen slår til vil det bli rekordføre på lørdag. Det er forventet opp mot 600 deltakere til start til rennet, som har seeding både til Vasaloppet og Birken.",
+          "tags": [
+            "langrenn",
+            "crosscountry",
+            "längd",
+            "skirenn"
+          ],
+          "url": "https://www.youtube.com/watch?v=jWXArDRMi5Y",
+          "curated": false
+        },
+        {
+          "video_id": "0E4x4f-vK0g",
+          "title": "BigUp Ski Marathon - bland kullar på slätten",
+          "channel": "Magnus Högfeldt",
+          "view_count": 2959,
+          "upload_date": "20260210",
+          "duration_string": "18:14",
+          "description": "Race report från 2026 års upplaga av BigUp Ski Marathon, ett långlopp på Vreta Ski Center. Filmen visar min upplevelse före, under och efter loppet, filmat med kameror fastsatta på mig som ger en Point-Of-View känsla. \n\nLoppet är seedningsgrundande för Vasaloppet och i år genomfördes det på konstsnöslinga som det kördes 13 varv på. Banan var mestadels relativt flack, men varvet innehöll också en backe på 20 hm som gjorde att STIFA för loppet likväl blev 13 (faktiskt mer än ett genomsnittligt seedningslopp i Sverige idag).\n\nInnehåll: \n00:00 Intro innan start\n2:51 Start, första varvet och bangenomgång\n4:47 Varv 2-5\n10:15 Halvvägs\n12:23 Fyra varv kvar\n15:20 Målgång\n16:21 Vallagenomgång hos Snö och Tö",
+          "tags": [
+            "Längdskidor",
+            "cross-country-skiing",
+            "xc-ski",
+            "xc-skiing",
+            "skidor",
+            "skidåkning",
+            "längd",
+            "långlopp",
+            "svenska långlopp",
+            "nordic skiing",
+            "snö & tö",
+            "gopro",
+            "dji",
+            "osmo action",
+            "pov",
+            "point-of-view",
+            "race report",
+            "lopprapport",
+            "nummerlapp",
+            "nummerlappen",
+            "vasaloppet",
+            "birkebeinerrennet",
+            "staka birken",
+            "stakabirken",
+            "birken",
+            "bigup ski marathon",
+            "bigup",
+            "ski marathon",
+            "marathon",
+            "seedningslopp",
+            "seedning",
+            "östergötland",
+            "linköping",
+            "vreta ski center",
+            "vreta kloster",
+            "golfbana",
+            "varvbana",
+            "skidpropaganda"
+          ],
+          "url": "https://www.youtube.com/watch?v=0E4x4f-vK0g",
+          "curated": false
+        },
+        {
+          "video_id": "tIA6onv4pIw",
+          "title": "Sirdal Skimaraton (6min)",
+          "channel": "mrLV",
+          "view_count": 742,
+          "upload_date": "20160320",
+          "duration_string": "6:05",
+          "description": "Film fra skimaratonet i 2016. Tusen takk for all deltakelse. Velkommen tilbake. Se alt om rennet på www.Sirdal-skimaraton.no",
+          "tags": [
+            "sirdal",
+            "skimaraton",
+            "turrenn",
+            "langrenn",
+            "skiglede",
+            "maraton",
+            "ådneram",
+            "sesilåmi",
+            "birken"
+          ],
+          "url": "https://www.youtube.com/watch?v=tIA6onv4pIw",
+          "curated": true,
+          "curation_reason": "Official race footage specifically from Sirdal Skimaraton showing the event and course.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "race": {
+    "name": "Manitoba Loppet",
+    "slug": "manitoba-loppet",
+    "display_name": "Manitoba Loppet",
+    "tagline": "A prairie loppet on the Canadian flatlands — community Nordic skiing where the cold is guaranteed but the hills are not.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "25km",
+        "16km"
+      ],
+      "elevation_m": 50,
+      "altitude_m": 250,
+      "location": "Birds Hill Provincial Park, Manitoba",
+      "location_badge": "Manitoba, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Manitoba",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 96,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Basic aid stations",
+      "cutoff_time": null,
+      "website": "https://www.ccsam.ca",
+      "lat": 50.0275,
+      "lng": -96.86,
+      "field_size_estimate": 100,
+      "elevation_gain_m": 50
+    },
+    "climate": {
+      "primary": "Canadian prairie winter",
+      "description": "Manitoba prairie winter with extreme cold. Temperatures typically -25°C to -10°C. Very reliable snow, very cold conditions.",
+      "typical_temp_c": "-22 to -10",
+      "challenges": [
+        "Extreme cold — wind chill below -40°C possible",
+        "Flat terrain with no wind protection",
+        "Short winter daylight"
+      ]
+    },
+    "course": {
+      "primary": "Flat to gently rolling course through Birds Hill Provincial Park near Winnipeg. Prairie parkland terrain with aspen groves.",
+      "format": "loop",
+      "surface": "Groomed classic tracks",
+      "technical_rating": 1,
+      "grooming": "Basic volunteer grooming",
+      "features": [
+        "Prairie parkland setting",
+        "Reliable deep cold for guaranteed snow",
+        "Birds Hill Provincial Park",
+        "Community-organized event"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 33,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 1,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 2,
+      "scenery": 2,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Extreme cold and flat terrain limit appeal, but reliable snow and community spirit keep it alive.",
+      "tier_note": "Score 33 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Manitoba Loppet is a community Nordic ski event in Birds Hill Provincial Park near Winnipeg, organized by the Cross Country Ski Association of Manitoba. It represents prairie skiing at its most fundamental.",
+      "notable_facts": [
+        "One of the few Nordic ski events on the Canadian prairies",
+        "Organized by the Cross Country Ski Association of Manitoba",
+        "Birds Hill Provincial Park is Winnipeg's primary Nordic venue"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Manitoba Loppet cross country ski race Birds Hill Provincial Park",
+      "videos": [
+        {
+          "video_id": "KeQhSiTuFIg",
+          "title": "Skijor at Birds Hill HD.dv",
+          "channel": "Lorne Volk",
+          "view_count": 661,
+          "upload_date": "20120308",
+          "duration_string": "2:53",
+          "description": "A skijor at Birds Hill Park outside of Winnipeg, Manitoba, with my faithful outboard engine, Beowulf. If you have an understimulated dog and live near Winnipeg check us out at www.snowmotion.ca\n\nSkijoring and Kicksledding is allowed on the GUA1 skate ski loop at Birds Hill Park.  There is currently discussion about opening the Tamarack trail as well.\n\nIt is important to remember that it is unethical to skijor/kicksled on groomed diagonal classic ski trails.  It damages the trail, annoys the other trail users, and is hard on the dog's feet. It is strictly forbidden at Birds Hill park.",
+          "tags": [
+            "Snowmotion",
+            "skijor",
+            "Beowulf",
+            "Birds Hill Provincial park"
+          ],
+          "url": "https://www.youtube.com/watch?v=KeQhSiTuFIg",
+          "curated": false
+        },
+        {
+          "video_id": "2eurymOka_0",
+          "title": "My first day of XC skiing at the Chickadee Trail in the Bird Hill Provincial Park in November 2021",
+          "channel": "William's Outdoor Adventures in Manitoba",
+          "view_count": 154,
+          "upload_date": "20211116",
+          "duration_string": "6:24",
+          "description": "After the first heavy snow in November 2021, I did cross-country skiing at the Chickadee Trail in the Birds Hill Provincial Park last Sunday.\n\nIn the last year, I started to do cross-country skiing after mid-December. We have enough snow to do skiing earlier due to the first heavy snow this winter.\n\nThe park management office has not yet created ski tracks for cross-country skiers, but many people enjoyed winter skiing on the trail.\n\nI hope everyone enjoys this winter.",
+          "tags": [
+            "first",
+            "heavy snow",
+            "November",
+            "cross-country skiing",
+            "Chickadee Trail",
+            "Birds Hill Provincial Park",
+            "cross-country skis December",
+            "skiing",
+            "park",
+            "management",
+            "office",
+            "ski tracks",
+            "cross-country skiers",
+            "winter skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=2eurymOka_0",
+          "curated": true,
+          "curation_reason": "POV skiing experience at Birds Hill Provincial Park showing early season conditions and trail experience.",
+          "display_order": 1
+        },
+        {
+          "video_id": "rH3zcQcB3yk",
+          "title": "Skijoring with Diamond Disc Dogs",
+          "channel": "Bazilinthewoods",
+          "view_count": 93,
+          "upload_date": "20111231",
+          "duration_string": "40",
+          "description": "My first time skijoring. Steve from Diamond Disc Dogs took me to Bird's Hill Park Manitoba for an introduction to the sport.",
+          "tags": [
+            "border collie",
+            "jack russel",
+            "skijoring",
+            "winter sports",
+            "snow",
+            "running sking"
+          ],
+          "url": "https://www.youtube.com/watch?v=rH3zcQcB3yk",
+          "transcript": "well this is going to be very\ndangerous I am going to try\nskiing with snip and\nRufus and pixie without a proper\nleash say\nsomething hey do you like ski Jing so\nfar yes looking okay but man bance on my\nlower leg Yeah I know",
+          "curated": false
+        },
+        {
+          "video_id": "DR2vzjfWdrk",
+          "title": "Manitoba FATBIKE Race Series - Falcon Lake",
+          "channel": "Continue Digital",
+          "view_count": 1381,
+          "upload_date": "20170118",
+          "duration_string": "4:16",
+          "description": "Manitoba FATBIKE Race Series - Falcon Lake - January 15th, 2017\nPresented by: 2 Wheel Revolution\n2wheelrevolution.ca\n\n\nMusic by Dj Quads - https://soundcloud.com/aka-dj-quads",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=DR2vzjfWdrk",
+          "transcript": "we feel like that the fat biking is just\ngonna grow exponentially over the next\nfew years\n[Music]\nso yeah we had a great turnout today for\nour inaugural event for our fatbike\nseries we had about 71 Racers show up a\nmultitude of distances we offered a 10\n20 and 30 kilometer loop the very very\npromising\nbut so it's very important for us like\njust being a small organizing body to\nhave support of our community that\ncommunity is local bike shops we had\nOlympia cycle on Portage Avenue it bikes\nbeyond supporting us with the check\ncache which is amazing we'd sit II\ncycles in Brandon which is a motorcycle\nshop donated the use of a sled for us\nthis year which is which has allowed us\nto come out through many parks and at\nthis venue itself we had a mother\nmultitude of sponsors peg here donated\ncakes for us for this weekend so just\nhelp us get back to you to all the\nracers we had our design team element II\nJade sign works pig ear giant Shimano we\nhad a lot of support this year and\nwithout them like we can't do this it's\na it's a huge endeavor it component\nspend lots of hours lots of dollars\ndriving out to these babies\nwe're excited to be a part of the future\nand then to lend our voice in that\nfuture working in conjunction with with\nthis beautiful venue of Falcon Ridge ski\nslopes we couldn't have had a better\npartner and we will continue to work\nwith them in the future\nnext up we have a three race series so\nthis one down we're super excited about\nthe turnout and and how how things\nworked out the next one will be at Fort\nwhite alive in Winnipeg on February 12\nso come out support us and just to come\nout for a great day of racing and riding\nand hanging out with with good people\ndoing great things",
+          "curated": false
+        },
+        {
+          "video_id": "FfDPbvKVY6s",
+          "title": "Manitoba Loppet 2023 | Whiteshell Cross Country Ski Club",
+          "channel": "Pinawa is Home",
+          "view_count": 562,
+          "upload_date": "20230216",
+          "duration_string": "2:08",
+          "description": "The Whiteshell Cross Country Ski Club hosted the Manitoba Loppet at Pinawa, Manitoba. Fun was had by all! Thank you to the many volunteers and racers that came out.\nIf you are interested in finding out more about joining the ski club or donating, please visit: https://www.whiteshellskiclub.com/",
+          "tags": [
+            "manitoba loppet",
+            "nordic skiing",
+            "pinawa manitoba",
+            "ski race footage",
+            "manitoba skiing",
+            "cross country ski race",
+            "loppet",
+            "manitoba loppet canada",
+            "cross country skiing in canada",
+            "nordic ski",
+            "pinawa canada",
+            "manitoba canada",
+            "skiing in canada"
+          ],
+          "url": "https://www.youtube.com/watch?v=FfDPbvKVY6s",
+          "curated": false
+        },
+        {
+          "video_id": "jkiEaMyT-U8",
+          "title": "2009 City of Lakes Loppet Saturday",
+          "channel": "CityofLakesLoppet",
+          "view_count": 570,
+          "upload_date": "20090211",
+          "duration_string": "9:10",
+          "description": "Coverage of the 2009 City of Lakes Loppet from the urban paradise for winter fun, Minneapolis, Minnesota.  Video includes coverage of the Ice-Cycle bike races, the Junior Loppet, the Mini-Loppet, the fast-paced Sprints competition, and the Luminary Loppet.",
+          "tags": [
+            "ski",
+            "nordic",
+            "cross",
+            "country",
+            "minneapolis",
+            "minnesota",
+            "skiing",
+            "winter",
+            "sprints",
+            "saturday"
+          ],
+          "url": "https://www.youtube.com/watch?v=jkiEaMyT-U8",
+          "transcript": "[Music]\n[Applause]\ndrives up reverse layup oh what a play\nfor Randy ptis with the left hand\nI greetings everyone Dan Webster of MN\nSports welcoming you to continuing\ncoverage of the 2009 city of lakes it\nfrom the urban Paradise of winter fun\nMinneapolis\nMinnesota new to the Uptown Mall this\nyear is the snow sculpturing contest\nsponsored by the Southwest Journal\nparticipants young and old were given\n4x4 by 8T blocks of snow to work with\nand with some imagination and Ingenuity\nthe sculptures were able to create some\nmighty F works of art for the weekend\nfestivities inside the main tent\nfacility in uptown the volunteer\nstaffers are taking continuing\nregistrations for the many events taking\nplace this weekend thanks to such a\ncoordinated online registration effort\nonce participants even reached the tent\nalways ready and waiting for them when\nat the main tent of course the perfect\nthing to do is to purchase any of the\nofficial loit merchandise you can lay\nyour hands\non for those volunteering to help\nthroughout the lit weekend staff at the\ninformation table is able to assist them\nwith getting to their events by the way\nall lit volunteers receive an official\nlit winter cap and what would a large\nscale event like this be without the\nmany vendors and sponsors who help make\nthe lit weekend all\nworthwhile here we find pitmas John Bal\nserving up a helping of pulled chicken\nto one of minneapolis's finest officers\non duty we'll about the a new racing\nevent has been added to the Saturday\nloet agenda in 2009 it's the pen I cycle\nlit featuring Racers from around the\nMidwest cyclists on studded tires race\naround a short track set up on the ice\nLagoon of Lake of the Isles there are\nthree levels of competition the advanced\nintermediate and novice levels each\nlevel's finals has the racers cycling\nthe course over a period of minutes plus\none final lap to be crowned the ice\ncycle Champion the combination of twists\nand turns along with the Sprint\nstraightaways made this new event of the\nlit week and a new fan favorite this is\nsome seriously wild cycling folks it's\nlike watching roller derby with Cycles\non\nIce also on Lake of the aisles another\nfan favorite the Chuck and Don ski\njuring L featuring the combination of\nNordic skiers with their favorite racing\ndogs this year ski drawing lit had the\nlargest amount of registered racers in\nall of North America ski during teams of\none or two dogs race around the 5 km\ncourse on Lake\ntoward the Uptown Mall not only does the\nskier have to have fast moving dogs but\nthose dogs also must have a good sense\nof direction and focus on this day Amy\nCooper of Wisconsin and her two\ncompanions Poco and Flynn beat the best\nof the rest from the United States and\nCanada to claim the 2009 scoring L\ntitle next on the racing agenda was the\n2009 Rosal junor Lage featuring some of\nthe best 10 through 16y olds the region\nhad to offer like last year these\nJuniors started at the Uptown Mall and\nraced around the 5 km course on Lake of\nthe aisles after seeing our coverage\nfrom last year's Junior loic the amount\nof participants nearly doubled many\ncoaches from the area high school Nordic\nprograms like for their junior varsity\nand young Varsity skiers to participate\nin this event as it helps the kids build\nupon their racing resumés and build\nconfidence for the\nfuture finishing first amongst the boys\nwas 14-year-old Riley mon of Rochester\nMayo High School The Freshman said he\nwas thrilled to win especially because\nRochester currently has no State High\nSchool Nordic team well folks hopefully\nthat can change soon for the gals coming\nup the Uptown Mall claiming first place\nwas 15-year-old Sarah Peterson of\nHastings High School The Freshman is the\ndaughter of noted Nordic racer Paul\nPeterson who by the way is getting ready\nfor his second deployment to Iraq\ntogether Sarah and Riley show that\nsouthern Minnesota Nordic skiing is to\nbe considered when considering our\nNordic stars of\nTomorrow next on the lit schedule was\nthe famous sons of Norway mini lit bus\nloads upon bus loads of children from\nboth the inner city and throughout piled\nonto the Uptown Mall in record numbers\nyear after year folks this event simply\ngets more popular introducing kids to\nthe thrill of Nordic\nmany loit unites children from diverse\nbackgrounds and brings them all together\nthrough your donations to the city of\nlakes Nordic ski foundation and that\nmakes this young lady very\nhappy with the Norwegian and American\nflags in the hands of the Southwest High\nSchool leaders the mini lopit got going\ndown and back along the Uptown Mall the\nminil lopit course spanned about 1 km in\ndistance this year next to this\ncollection of Elementary AED kids were\neven younger kids getting their first\ntry at the super Carnival all in all you\ncould not have asked for a better day to\nbring the kids out and enjoy an\nafternoon on skis the name of the game\nfor everyone here folks young and old is\nhaving fun on the\nsnow oh and of course kids of the mini\nloopit also get free cookies and hot\nchocolate at the Finish\nLine once the kids have cleared the\ncourse from the Uptown Mall it's time\nfor the power and speed associated with\nthe Toco finu sprint races here in the\nMasters division Mark bites takes the\ntitle over PE bednarski together PE and\nMark show that as intense as the Sprints\ncompetitions can be longlasting\nfriendships are even more\nimportant for the young ladies of the\nHigh School Division last year's\nrunnerup became this year's girls\nChampion as Southwest High School senior\nRosie frankowski went perfect in her\nHeats to claim the\ntitle likewise for the guys last year's\nrunnerup also became this year's\nChampion as wetta high school senior\nCasey Basco went perfect on the day to\nclaim his boys title first place in the\nelite men's division the Uptown audience\nwas treated as well as nighttime set in\nhere former world record Sprints holder\nKevin hawle of veale Colorado Made Easy\nwork in claiming the elite men's\ntitle the main event for this day\nSprints races belong to the elite women\nas last year Sprints and lit champ ion\nCaroline Bonte would try to defend her\ntitle against the new United States\nnational CrossCountry skiing Champion\nCaitlyn Compton it was the 2006 Olympian\nagainst the want toe 2010 Olympian after\nthe first turn it was prante heading\ndown the backstretch in the leag at this\npoint Compton is third behind Sarah\nMorse of\nMinneapolis brante held the lead after\nthe second turn but as the these women\nheaded up the mall for their second of\nthree legs we saw Compton on your left\nstart to make her move now it's brante\nand Morse looking ahead at the new\nleader number\n18n and as these women came up the final\nhome stretch it was the 28-year-old\nCaitlyn Compton now of Minneapolis\nshowing why she is ready for the world\nchampionships later in February 2009\nafter the race Compton could only say\nthe best of things about her mentor and\nfriend I think she yeah she does she's\nalways a huge inspiration I think the\none thing that Caroline does the best is\nhow she can manage to just take on so\nmany so many good things at once and she\njust succeeds in all of them it's just\nit's awesome and she just keeps me\nmotivated and keeps me inspired which\nyou know always helps in training for\nsuch a grueling sport like this finally\nafter all the high drama of a day of\nracing it was time for some good\noldfashioned everyday people fun that's\nright it was the luminary lit to help\nbenefit the children's programs of the\ncity of lakes Nordic ski Foundation last\nyear saw a record 2700 participants take\npart in the luminary well this year's\nluminary event shattered that Mark is\nmore than 4,000 people graced the night\nsky for a pure evening of family fun if\nthere's one winter event you simply must\ntry it's the luminary lit on the candit\n5 km course of Lake of the Isles after\nthe luminary come back back to the\nUptown Mall warming tent for the\nSaturday evening party log on to the\ncityof Lakes lit.com website for more\ndetails",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

@@ -6,7 +6,12 @@
     "tagline": "Seventy kilometers from Oulu since 1889 — the world's oldest continuously held cross-country ski race, born in the tar-trading capital of Finland's frozen north.",
     "vitals": {
       "distance_km": 70,
-      "distance_options": ["70km classic", "70km skate", "50km", "30km"],
+      "distance_options": [
+        "70km classic",
+        "70km skate",
+        "50km",
+        "30km"
+      ],
       "elevation_m": 400,
       "altitude_m": 50,
       "location": "Oulu",
@@ -17,7 +22,7 @@
       "date": "Mid-February",
       "date_specific": null,
       "discipline": "both",
-      "field_size": "~2,000-3,000",
+      "field_size": 2000,
       "founded": 1889,
       "registration": "Open registration via online entry",
       "prize_purse": null,
@@ -25,7 +30,9 @@
       "cutoff_time": null,
       "website": "https://www.tervahiihto.fi",
       "lat": 65.0124,
-      "lng": 25.4682
+      "lng": 25.4682,
+      "field_size_estimate": 2500,
+      "elevation_gain_m": 400
     },
     "climate": {
       "primary": "Northern Finnish winter",
@@ -78,8 +85,170 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-11",
+      "search_query": "Tervahiihto cross country ski race Oulu",
+      "videos": [
+        {
+          "video_id": "EUa7cBEFUW0",
+          "title": "Tervahiihto 2019 maalissa Markus Niemelä",
+          "channel": "Tervahiihto",
+          "view_count": 149,
+          "upload_date": "20190302",
+          "duration_string": "36",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EUa7cBEFUW0",
+          "curated": false
+        },
+        {
+          "video_id": "H7VNwM8gpa8",
+          "title": "TERVAHIIHTO 12.3.2016 70km vapaan startti Utajärvellä",
+          "channel": "Tervahiihto",
+          "view_count": 2204,
+          "upload_date": "20160313",
+          "duration_string": "1:22",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=H7VNwM8gpa8",
+          "curated": false
+        },
+        {
+          "video_id": "JSwrIT3oIWQ",
+          "title": "Tervahiihto 2019 maalissa nuoret hiihtäjälupaukset",
+          "channel": "Tervahiihto",
+          "view_count": 88,
+          "upload_date": "20190302",
+          "duration_string": "35",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=JSwrIT3oIWQ",
+          "curated": false
+        },
+        {
+          "video_id": "MomDGZVbFb4",
+          "title": "Tervahiihto 2019 49km Viljami Vuorre hiihti kultaa",
+          "channel": "Tervahiihto",
+          "view_count": 294,
+          "upload_date": "20190302",
+          "duration_string": "1:11",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=MomDGZVbFb4",
+          "curated": false
+        },
+        {
+          "video_id": "MeN2Yowkc7c",
+          "title": "Tervahiihto 2019 maalissa Teemu Kalliojärvi",
+          "channel": "Tervahiihto",
+          "view_count": 67,
+          "upload_date": "20190302",
+          "duration_string": "52",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=MeN2Yowkc7c",
+          "curated": false
+        },
+        {
+          "video_id": "chDGqTQAdT0",
+          "title": "Korkalavaaran kirimaali",
+          "channel": "Tervahiihto",
+          "view_count": 654,
+          "upload_date": "20160411",
+          "duration_string": "54",
+          "description": "Tervahiihto 2016. Korkalavaaran kirimaali.",
+          "tags": [
+            "Tervahiihto",
+            "Oulu"
+          ],
+          "url": "https://www.youtube.com/watch?v=chDGqTQAdT0",
+          "curated": false
+        },
+        {
+          "video_id": "yBpwSPDTHc8",
+          "title": "Tervahiihto 2019 Muhoksen vapaan 49km",
+          "channel": "Tervahiihto",
+          "view_count": 207,
+          "upload_date": "20190302",
+          "duration_string": "1:06",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=yBpwSPDTHc8",
+          "curated": false
+        },
+        {
+          "video_id": "t3JMqQKVTiU",
+          "title": "Tervahiihto 2019 Muhos 49km startti",
+          "channel": "Tervahiihto",
+          "view_count": 460,
+          "upload_date": "20190302",
+          "duration_string": "53",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=t3JMqQKVTiU",
+          "curated": false
+        },
+        {
+          "video_id": "WeAbnbPztkY",
+          "title": "Fäbodaloppet 18. 2.2001 / Larsmo NärTV",
+          "channel": "Larsmo När-TV",
+          "view_count": 392,
+          "upload_date": "20200306",
+          "duration_string": "31:14",
+          "description": "Medverkande: Kuisma Taipale m.fl.",
+          "tags": [
+            "larsmo",
+            "Larsmo När-TV",
+            "Larsmo kommun",
+            "Finland",
+            "Jakobstad",
+            "Luoto",
+            "österbotten",
+            "Svenskfinalnd",
+            "för ett bättre larsmo",
+            "holm",
+            "näs",
+            "bosund",
+            "risöhäll",
+            "vikarholmen",
+            "pedersöre",
+            "film",
+            "movie",
+            "kvaltitetstv",
+            "måbra tv",
+            "lokal tv",
+            "lokal när TV"
+          ],
+          "url": "https://www.youtube.com/watch?v=WeAbnbPztkY",
+          "curated": false
+        },
+        {
+          "video_id": "QyN63ARyEiM",
+          "title": "Tervahiihto 2019 Muhos 49km",
+          "channel": "Tervahiihto",
+          "view_count": 385,
+          "upload_date": "20190302",
+          "duration_string": "3:11",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=QyN63ARyEiM",
+          "curated": true,
+          "curation_reason": "Longest available video showing race coverage of the 49km skate distance with course footage.",
+          "display_order": 1
+        },
+        {
+          "video_id": "ZYvCy_pA6U8",
+          "title": "Tervahiihto Ski Marathon, Oulu Finland",
+          "channel": "Tervahiihto",
+          "view_count": 807,
+          "upload_date": "20180321",
+          "duration_string": "1:23",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ZYvCy_pA6U8",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

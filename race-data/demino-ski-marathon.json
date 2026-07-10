@@ -21,7 +21,7 @@
       "date": "March",
       "date_specific": "2026: March 14",
       "discipline": "skate",
-      "field_size": "~2,500 starters",
+      "field_size": 2500,
       "founded": 2007,
       "registration": "Online registration via Russian ski federation platform",
       "prize_purse": "Prize money for elite categories",
@@ -29,7 +29,9 @@
       "cutoff_time": "No official cutoff",
       "website": "https://www.deminomarathon.ru",
       "lat": 58.045,
-      "lng": 38.8396
+      "lng": 38.8396,
+      "field_size_estimate": 2500,
+      "elevation_gain_m": 400
     },
     "climate": {
       "primary": "Russian continental winter",
@@ -94,8 +96,181 @@
       "worldloppet_suspended"
     ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Demino Ski Marathon cross country ski race Rybinsk",
+      "videos": [
+        {
+          "video_id": "yrFmBMEKBDs",
+          "title": "Demino Ski Race 04032017",
+          "channel": "Marina Chernoglazova",
+          "view_count": 53,
+          "upload_date": "20170412",
+          "duration_string": "2:15",
+          "description": "Russia, Rybinsk, Demino Ski Race - Worldloppet, 04 March 2017. The big race of big Russia.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=yrFmBMEKBDs",
+          "curated": false
+        },
+        {
+          "video_id": "931BoNlcABw",
+          "title": "FIS Cross-Country World Cup Rybinsk Demino 2015",
+          "channel": "Sergey Markovsky",
+          "view_count": 5122,
+          "upload_date": "20150226",
+          "duration_string": "11:23",
+          "description": "Все, что не видит зритель. Жизнь Кубка изнутри...",
+          "tags": [
+            "FIS Alpine Ski World Cup (Recurring Competition)",
+            "Demino",
+            "Rybinsk",
+            "Ski",
+            "Лыжные",
+            "Гонки",
+            "Соревнование",
+            "Беговые лыжи",
+            "Демино",
+            "Рыбинск",
+            "Этап кубка мира"
+          ],
+          "url": "https://www.youtube.com/watch?v=931BoNlcABw",
+          "curated": true,
+          "curation_reason": "Behind-the-scenes World Cup coverage showing insider perspective of elite racing at Demino.",
+          "display_order": 2
+        },
+        {
+          "video_id": "BDboN6HlrLI",
+          "title": "Demino Ski Marathon 2018 — Daniil Miasoedov",
+          "channel": "Daniil Miasoedov",
+          "view_count": 69,
+          "upload_date": "20180501",
+          "duration_string": "3:18",
+          "description": "A great video from #deminoskimarathon\nIt was my third big cross-country skiing competition in season 2017-2018, and I got just one workout in a month preparing to 50 km marathon. Anyway, I challenged myself and it was a great pleasure for me to start the distance with the Olympic champions. 2 hours 27 minutes, top 10% out of more than 2000 athletes!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=BDboN6HlrLI",
+          "curated": true,
+          "curation_reason": "Personal race recap from competitor who finished top 10% in the 50km marathon with Olympic champions.",
+          "display_order": 3
+        },
+        {
+          "video_id": "zKxPvVFUxlE",
+          "title": "ROSTEC DEMINO SKI MARATHON Klimanovich Aleksey номер 660",
+          "channel": "MySportFilm",
+          "view_count": 5,
+          "upload_date": "20170410",
+          "duration_string": "3:00",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=zKxPvVFUxlE",
+          "curated": false
+        },
+        {
+          "video_id": "or3BBiWDi6c",
+          "title": "ROSTEC DEMINO SKI MARATHON Matveychenko Sergey номер 728",
+          "channel": "MySportFilm",
+          "view_count": 6,
+          "upload_date": "20170402",
+          "duration_string": "3:00",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=or3BBiWDi6c",
+          "curated": false
+        },
+        {
+          "video_id": "1WO1DKJE6xQ",
+          "title": "Рыбинск-40. ГОРОД ГОТОВИТСЯ ВСТРЕТИТЬ МАРАФОНЦЕВ",
+          "channel": "Рыбинск Сорок",
+          "view_count": 1993,
+          "upload_date": "20240131",
+          "duration_string": "2:04",
+          "description": "Рыбинск готовится к проведению большого спортивного события международного уровня. В начале марта в Демино пройдет XVII Ростех Деминский лыжный марафон. Он уже готов бить рекорды по количеству зарегистрировавшихся. Чтобы участники добрались до места стартов без опозданий, принято решение изменить график реверсивного движения по Волжскому мосту.",
+          "tags": [
+            "Рыбинск",
+            "новости"
+          ],
+          "url": "https://www.youtube.com/watch?v=1WO1DKJE6xQ",
+          "curated": false
+        },
+        {
+          "video_id": "mxmsf_OrWEE",
+          "title": "XI Rostec Demino Ski Marathon |  Марафон, 50km Кузьменко Владимир #881.881",
+          "channel": "MySportFilm",
+          "view_count": 9,
+          "upload_date": "20180421",
+          "duration_string": "3:18",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=mxmsf_OrWEE",
+          "curated": false
+        },
+        {
+          "video_id": "xppaxFj_TB4",
+          "title": "ROSTEC DEMINO SKI MARATHON",
+          "channel": "Sergey Markovsky",
+          "view_count": 543,
+          "upload_date": "20170927",
+          "duration_string": "4:18",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=xppaxFj_TB4",
+          "curated": true,
+          "curation_reason": "Quality race documentation from experienced skiing videographer covering the Rostec-sponsored event.",
+          "display_order": 4
+        },
+        {
+          "video_id": "6CtykOFHKKk",
+          "title": "WORLD LOPPET DEMINO MARAFON  2015",
+          "channel": "RED PRODUCTION",
+          "view_count": 3141,
+          "upload_date": "20150318",
+          "duration_string": "2:10",
+          "description": "FROM RED PRODUCTION",
+          "tags": [
+            "Worldloppet Ski Federation (Organization)",
+            "Cross-country Skiing (Sport)",
+            "Sports (TV Genre)",
+            "RED",
+            "red production",
+            "skiing",
+            "demino",
+            "rybynsk",
+            "russia",
+            "Yaroslavl (City/Town/Village)",
+            "Yaroslavl Oblast (Administrative Division)",
+            "Дёмино"
+          ],
+          "url": "https://www.youtube.com/watch?v=6CtykOFHKKk",
+          "curated": false
+        },
+        {
+          "video_id": "DIxDV7z4i8Y",
+          "title": "Demino Ski Marathon 2019",
+          "channel": "GarAgeR",
+          "view_count": 13232,
+          "upload_date": "20190304",
+          "duration_string": "1:11:38",
+          "description": "Transfer and full support on Russialoppet marathons and other sport events (trails, run, MTB, triathlons) +7 905 770 41 33 (WhatsUp, Viber, Telegram)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=DIxDV7z4i8Y",
+          "curated": true,
+          "curation_reason": "Comprehensive hour-plus race coverage from 2019 with good view count showing full marathon experience.",
+          "display_order": 1
+        },
+        {
+          "video_id": "5GGiylX_nZ8",
+          "title": "XI Rostec Demino Ski Marathon -  Marathon, 50 km Evgeniy Tikhonov #1358",
+          "channel": "Eugene Tikhonov",
+          "view_count": 24,
+          "upload_date": "20180403",
+          "duration_string": "3:18",
+          "description": "",
+          "tags": [
+            "iMovie"
+          ],
+          "url": "https://www.youtube.com/watch?v=5GGiylX_nZ8",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

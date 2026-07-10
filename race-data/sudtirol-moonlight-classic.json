@@ -1,0 +1,196 @@
+{
+  "race": {
+    "name": "Sudtirol Moonlight Classic",
+    "slug": "sudtirol-moonlight-classic",
+    "display_name": "Südtirol Moonlight Classic",
+    "tagline": "A thousand torches, a full moon, and Europe's largest high-altitude plateau — night skiing elevated to spectacle.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 1850,
+      "location": "Compatsch, Seiser Alm (Alpe di Siusi)",
+      "location_badge": "South Tyrol, Italy",
+      "country": "Italy",
+      "country_code": "IT",
+      "region": "South Tyrol",
+      "date": "Late January / early February (full moon night)",
+      "date_specific": "2026: January 31",
+      "discipline": "classic",
+      "field_size": 1000,
+      "founded": 2009,
+      "registration": "Open registration; popular event — early signup recommended",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the torchlit course",
+      "cutoff_time": null,
+      "website": "https://www.moonlightclassic.info/en/",
+      "lat": 46.5412,
+      "lng": 11.6265,
+      "field_size_estimate": 1250,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Alpine Dolomite winter",
+      "description": "The Seiser Alm plateau sits at 1,800-2,000m elevation, providing reliable winter conditions. Night temperatures on the plateau during the full moon race typically drop to -10°C to -5°C. Clear skies are needed for the full atmospheric effect.",
+      "typical_temp_c": "-10 to -3",
+      "challenges": [
+        "Night racing in subzero Alpine temperatures",
+        "Altitude at 1,800-2,000m can affect unacclimatized skiers",
+        "Wax selection critical for cold night conditions",
+        "Wind exposure on the open plateau"
+      ]
+    },
+    "course": {
+      "primary": "A looped course across Europe's largest high-altitude plateau, the Seiser Alm (Alpe di Siusi), illuminated by 1,000 torches under a full moon. Mass start at 8 PM.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks on high-altitude Alpine plateau",
+      "technical_rating": 2,
+      "grooming": "Excellent Dolomite resort-standard grooming",
+      "features": [
+        "Night race illuminated by 1,000 torches",
+        "Timed to coincide with the full moon",
+        "Mass start at 8 PM",
+        "Europe's largest high-altitude Alpine plateau",
+        "Stunning Dolomite mountain backdrop under moonlight",
+        "Ski Classics Challengers event"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 70,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 3,
+      "prestige": 3,
+      "international_draw": 4,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 5,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "A unique atmospheric night race with world-class scenery and snow reliability at altitude. The torchlit full-moon format is unmatched. Shorter distance limits some criteria scores.",
+      "tier_note": "Score 66 places in TIER 2"
+    },
+    "history": {
+      "summary": "The Südtirol Moonlight Classic was first held in 2009 on the Seiser Alm, Europe's largest high-altitude Alpine plateau. The concept of a torchlit night race timed to the full moon quickly captured the imagination of the Nordic ski community. The event has grown into one of the most atmospheric ski races in the world, combining South Tyrolean tradition with Dolomite spectacle. It joined the Ski Classics Challengers circuit, bringing international visibility.",
+      "notable_facts": [
+        "First edition in 2009 on Europe's largest high-altitude plateau",
+        "Course illuminated by 1,000 torches under the full moon",
+        "Mass start at 8 PM — one of very few major night XC ski races",
+        "Seiser Alm sits at 1,800-2,000m providing exceptional snow reliability",
+        "Ski Classics Challengers event",
+        "18th edition in 2026"
+      ],
+      "founded": 2007
+    },
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Sudtirol Moonlight Classic cross country ski race Compatsch",
+      "videos": [
+        {
+          "video_id": "hvjqz6BYPWY",
+          "title": "Highlights from Südtirol Moonlight Classic Seiser Alm 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 305,
+          "upload_date": "20260206",
+          "duration_string": "12:07",
+          "description": "Highlights from Südtirol Moonlight Classic Seiser Alm 2026\n\nThe Ski Classics Challengers event, Südtirol Moonlight Classic Seiser Alm, took place last week with a 30km long-distance ski race in classic technique in Compatsch, Italy. Watch the highlights here!\n\nVideo: SPORTISSIMUS",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=hvjqz6BYPWY",
+          "curated": true,
+          "curation_reason": "Most recent race coverage showing highlights from the 2026 event with substantial duration for detailed race content.",
+          "display_order": 1
+        },
+        {
+          "video_id": "2Nn3AbOurs0",
+          "title": "18. Südtirol Moonlight Classic ❄️🏆💥 | 30.01.2026",
+          "channel": " Dolomites Seiser Alm - Official Fanpage ⛰️❤️",
+          "view_count": 323,
+          "upload_date": "20260209",
+          "duration_string": "1:53",
+          "description": "🇩🇪 Langlaufen bei Vollmond: Der Vollmond Ende Januar/Anfang Februar hat es in sich: Dann treffen sich nämlich begeisterte Profi- und Volkslangläufer auf der Seiser Alm zum Moonlight Classic, einem Langlaufrennen bei Mondschein. Zur Auswahl stehen zwei Strecken, eine lange und eine kurze: Die lange Strecke misst 30 km und ist anspruchsvoll, die kurze Strecke ist 15 km lang und gilt als leicht. Start und Ziel ist für beide Rennen Compatsch. Gelaufen werden darf ausschließlich im klassischen Diagonalstil.\n\n🇮🇹 Sci nordico al chiaro di luna: Quando la luna è piena, alle fine di gennaio/inizio di febbraio, appassionati atleti professionisti ed amatoriali si incontrano all’Alpe di Siusi per disputare la Moonlight Classic, la gara di sci di fondo in notturna. I partecipanti alla gara di sci di fondo Moonlight Classic potranno scegliere tra un tracciato di 15 chilometri, oppure un tracciato di 30 chilometri. Entrambi i tracciati vengono affrontati in stile classico diagonale.\n\n🇬🇧 Cross-country skiing under a full moon: There is something special about the full moon at the end of January/ beginning of February: professionals and amateur cross-country skiers meet at the Seiser Alm for the Moonlight Classic, a cross-country race at moonlight. Participants can choose from two routes, a long and a short route: The long route is 30 km long and demanding, while the short route is 15 km long and rather easy. Start and goal of both races is Compatsch. Only classic diagonal style is allowed during the race.\n\nMore information: www.moonlightclassic.info",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=2Nn3AbOurs0",
+          "transcript": "Heat.\nHeat\nup\nhere.",
+          "curated": false
+        },
+        {
+          "video_id": "K3im5ONlcj0",
+          "title": "Südtirol Moonlight Classic 13.02.2025",
+          "channel": " Dolomites Seiser Alm - Official Fanpage ⛰️❤️",
+          "view_count": 531,
+          "upload_date": "20250306",
+          "duration_string": "2:03",
+          "description": "🇩🇪 Langlaufen bei Vollmond: Der Vollmond Ende Januar/Anfang Februar hat es in sich: Dann treffen sich nämlich begeisterte Profi- und Volkslangläufer auf der Seiser Alm zum Moonlight Classic, einem Langlaufrennen bei Mondschein. Zur Auswahl stehen zwei Strecken, eine lange und eine kurze: Die lange Strecke misst 30 km und ist anspruchsvoll, die kurze Strecke ist 15 km lang und gilt als leicht. Start und Ziel ist für beide Rennen Compatsch. Gelaufen werden darf ausschließlich im klassischen Diagonalstil.\n\n🇮🇹 Sci nordico al chiaro di luna: Quando la luna è piena, alle fine di gennaio/inizio di febbraio, appassionati atleti professionisti ed amatoriali si incontrano all’Alpe di Siusi per disputare la Moonlight Classic, la gara di sci di fondo in notturna. I partecipanti alla gara di sci di fondo Moonlight Classic potranno scegliere tra un tracciato di 15 chilometri, oppure un tracciato di 30 chilometri. Entrambi i tracciati vengono affrontati in stile classico diagonale.\n\n🇬🇧 Cross-country skiing under a full moon: There is something special about the full moon at the end of January/ beginning of February: professionals and amateur cross-country skiers meet at the Seiser Alm for the Moonlight Classic, a cross-country race at moonlight. Participants can choose from two routes, a long and a short route: The long route is 30 km long and demanding, while the short route is 15 km long and rather easy. Start and goal of both races is Compatsch. Only classic diagonal style is allowed during the race.\n\nMore information: www.moonlightclassic.info",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=K3im5ONlcj0",
+          "transcript": "[Music]\nw\nI\na",
+          "curated": false
+        },
+        {
+          "video_id": "xhHpS1adsRI",
+          "title": "Moonlight Classic Seiser Alm ❄️🏆💥",
+          "channel": " Dolomites Seiser Alm - Official Fanpage ⛰️❤️",
+          "view_count": 2150,
+          "upload_date": "20220118",
+          "duration_string": "2:31",
+          "description": "🇩🇪 Langlaufen bei Vollmond: Der Vollmond Ende Januar/Anfang Februar hat es in sich: Dann treffen sich nämlich begeisterte Profi- und Volkslangläufer auf der Seiser Alm zum Moonlight Classic, einem Langlaufrennen bei Mondschein.\n\nZur Auswahl stehen zwei Strecken, eine lange und eine kurze: Die lange Strecke misst 30 km und ist anspruchsvoll, die kurze Strecke ist 15 km lang und gilt als leicht. Start und Ziel ist für beide Rennen Compatsch. Gelaufen werden darf ausschließlich im klassischen Diagonalstil.\n\n🇮🇹 Sci nordico al chiaro di luna: Quando la luna è piena, alle fine di gennaio/inizio di febbraio, appassionati atleti professionisti ed amatoriali si incontrano all’Alpe di Siusi per disputare la Moonlight Classic, la gara di sci di fondo in notturna.\n\nI partecipanti alla gara di sci di fondo Moonlight Classic potranno scegliere tra un tracciato di 15 chilometri, oppure un tracciato di 30 chilometri. Entrambi i tracciati vengono affrontati in stile classico diagonale.\n\n🇬🇧 Cross-country skiing under a full moon: There is something special about the full moon at the end of January/ beginning of February: professionals and amateur cross-country skiers meet at the Seiser Alm for the Moonlight Classic, a cross-country race at moonlight.\n\nParticipants can choose from two routes, a long and a short route: The long route is 30 km long and demanding, while the short route is 15 km long and rather easy. Start and goal of both races is Compatsch. Only classic diagonal style is allowed during the race.\n\nMore information: www.moonlightclassic.info\n©Art Media",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=xhHpS1adsRI",
+          "curated": false
+        },
+        {
+          "video_id": "Rtu4Y-twWcE",
+          "title": "Moonlight Classic Race 2020",
+          "channel": "ImageLineMedien",
+          "view_count": 310,
+          "upload_date": "20200211",
+          "duration_string": "2:44",
+          "description": "Die 14te Moonlight Classic Race in Südtirol auf der Seiser Alm startete heuer mit knapp 400 Teilnehmern bei Vollmond in Compatsch. Zur Wahl stand eine 15km und eine 30km-Strecke.\n1ster/15km-Strecke: Matteo Tanel - 37:50 - ITA\n1ste/15km-Strecke: Michaela Patscheider - 45:41 - ITA\n1ster/30km-Strecke: Giandomenico Salvadori - 1:18:27 - ITA\n1ste/30km-Strecke: Justyna Kowalczyk - 1:31:09 - POL",
+          "tags": [
+            "Moonlight",
+            "Classic",
+            "Seiser Alm",
+            "Alpe di Siusi",
+            "Race",
+            "Südtirol",
+            "South Tyrol",
+            "Cross-Country Skiing",
+            "Skiing Race",
+            "sci di fondo",
+            "sci fondo",
+            "scinordico",
+            "sci nordico"
+          ],
+          "url": "https://www.youtube.com/watch?v=Rtu4Y-twWcE",
+          "curated": false
+        },
+        {
+          "video_id": "sDakTniQlgc",
+          "title": "Seiser alm 2022",
+          "channel": "Rickard Frejemyr",
+          "view_count": 205,
+          "upload_date": "20211109",
+          "duration_string": "1:00",
+          "description": "PWT Travel bjuder in dig att följa med till Seiser Alm och dess härliga omgivningar. Ett perfekt ställe för en lyxig träningsresa med njutfulla aktiviteter både i längdspåret och i backarna. Magiska vyer, boende och \nmat av hög klass ger dig en resa att minnas. Kombinera gärna med något av de klassiska långloppen i närheten.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=sDakTniQlgc",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

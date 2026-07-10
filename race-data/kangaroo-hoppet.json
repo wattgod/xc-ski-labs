@@ -6,7 +6,11 @@
     "tagline": "Forty-two kilometers in the Australian Alps — the Southern Hemisphere's only Worldloppet race, where snow gums replace spruce and August means winter.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km skate", "21km", "7km"],
+      "distance_options": [
+        "42km skate",
+        "21km",
+        "7km"
+      ],
       "elevation_m": 600,
       "altitude_m": 1600,
       "location": "Falls Creek Alpine Resort, Victoria",
@@ -16,8 +20,8 @@
       "region": "Victoria",
       "date": "Last Saturday in August",
       "date_specific": null,
-      "discipline": "skate",
-      "field_size": "~800-1,200",
+      "discipline": "both",
+      "field_size": 800,
       "founded": 1991,
       "registration": "Open registration via online entry",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.kangaroohoppet.com.au",
       "lat": -36.8627,
-      "lng": 147.2742
+      "lng": 147.2742,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 600
     },
     "climate": {
       "primary": "Australian alpine winter",
@@ -88,10 +94,200 @@
         "Australian XC skiing began with Norwegian and Finnish immigrants in the 1860s gold rush"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Kangaroo Hoppet cross country ski race Falls Creek Alpine Resort",
+      "videos": [
+        {
+          "video_id": "oqo6Q_XFXjY",
+          "title": "Falls Creek Kangaroo Hoppet 2011",
+          "channel": "Falls Creek Alpine Resort",
+          "view_count": 1002,
+          "upload_date": "20110830",
+          "duration_string": "1:19",
+          "description": "Check out the highlights from 2011's Kangaroo Hoppet, the largest cross country ski race in the southern hemisphere.",
+          "tags": [
+            "falls",
+            "creek",
+            "kangaroo",
+            "hoppet",
+            "cross",
+            "country",
+            "ski",
+            "2011"
+          ],
+          "url": "https://www.youtube.com/watch?v=oqo6Q_XFXjY",
+          "curated": false
+        },
+        {
+          "video_id": "H0P5qUCm_j4",
+          "title": "COMING NEXT: The Kangaroo Hoppet 2020",
+          "channel": "Worldloppet",
+          "view_count": 1019,
+          "upload_date": "20190820",
+          "duration_string": "39",
+          "description": "A ride with Kangaroos !! Are you interested ?\nAn other great day is coming in the Southern Hemisphere, \nRendezvous on Saturday, August 24th for the Kangaroo Hoppet in Australia!\n\n. Kangaroo Hoppet\n. SkiPlanet is hosted by Marika Godin\n. Produced by Worldloppet\n. Mizenboite Production",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=H0P5qUCm_j4",
+          "curated": false
+        },
+        {
+          "video_id": "fUQ3RuKShyw",
+          "title": "Kangaroo Hoppet 2018",
+          "channel": "Kangaroo Hoppet Australia",
+          "view_count": 329,
+          "upload_date": "20200204",
+          "duration_string": "38",
+          "description": "Kangaroo Hoppet, Australia's premier cross country ski race in Falls Creek Australia. Part of the Worldloppet Series of marathon xc ski races.\n\nhoppet.com.au",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=fUQ3RuKShyw",
+          "curated": false
+        },
+        {
+          "video_id": "KN9OwJFqI-M",
+          "title": "Kangaroo Hoppet 2013",
+          "channel": "Kangaroo Hoppet Australia",
+          "view_count": 687,
+          "upload_date": "20200204",
+          "duration_string": "6:21",
+          "description": "Kangaroo Hoppet, Australia's premier cross country ski race in Falls Creek Australia. Part of the Worldloppet Series of marathon xc ski races.\n\nhoppet.com.au",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=KN9OwJFqI-M",
+          "transcript": "[Music]\n[Applause]\nfavorite very good\nright\nthe black",
+          "curated": true,
+          "curation_reason": "Official race highlights showing course layout and race atmosphere with good length for detailed coverage.",
+          "display_order": 3
+        },
+        {
+          "video_id": "MDfBrPyXLlE",
+          "title": "Falls Creek Elite Night Sprints - Deedra Irwin - Kangaroo Hoppet Event",
+          "channel": "Kangaroo Hoppet Australia",
+          "view_count": 118,
+          "upload_date": "20161006",
+          "duration_string": "54",
+          "description": "Held in Falls Creek on the Thursday before the Hoppet, the invitational Night Sprints showcase cross country ski racing at its most exciting and will feature our best Australian skiers against elite international skiers who are out here for the Hoppet.",
+          "tags": [
+            "Falls Creek",
+            "Deedra Irwin",
+            "Hoppet",
+            "Kangaroo Hoppet",
+            "ski",
+            "skiing",
+            "xc ski",
+            "cross country",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=MDfBrPyXLlE",
+          "transcript": "this is your first time in Australia\nyou've been out here for a few weeks\nhave you been enjoying this game yeah\nit's been really crazy weather here and\nthere it's in super beautiful day is\nreally sunny today was amazing and then\nof course we raced last weekend it was\ndownpouring so it's really cool to kind\nof get on snow and our biggest training\nmonth of the year and\nexperience all the different types of\nrace conditions that we could in the\nu.s. kind of get thrown into it um me\nand my teammates are pretty excited\nabout it we've been training a lot out\nhere so are a little bit tired um but\nwe're still going into it with our heads\nheads held high and we're pretty pumped\nfor it and I've never done a skate race\nthat far before or never finished one so\nI've mostly done classic so this would\nbe a big challenge for me just to kind\nof get out there and hoping the weather\nstand as nice as it was today and it's\nit's really fast out there right now so\nI'm really excited",
+          "curated": false
+        },
+        {
+          "video_id": "DlVsZTBlSzk",
+          "title": "Falls Creek Elite Night Sprints  -  Vahur Teppan - Estonian - Kangaroo Hoppet Event",
+          "channel": "Kangaroo Hoppet Australia",
+          "view_count": 95,
+          "upload_date": "20161006",
+          "duration_string": "1:05",
+          "description": "Held in Falls Creek on the Thursday before the Hoppet, the invitational Night Sprints showcase cross country ski racing at its most exciting and will feature our best Australian skiers against elite international skiers who are out here for the Hoppet.",
+          "tags": [
+            "Falls Creek",
+            "Kangaroo hoppet",
+            "hoppet",
+            "ski",
+            "xc ski",
+            "skiing",
+            "snow",
+            "cross country",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=DlVsZTBlSzk",
+          "transcript": "how is your form leading into this one\nmmm I haven't put in so much training as\nI did two years ago but I'm still\nfeeling quite okay and it's a super-\ndegrees which is a really ready where\nwill be good for me so we'll see i'm\nhoping for at least top 10 finish for\nsure since the last race I had I mean\nnot counting this one here it was half a\nyear ago european winter so i'm i'm\npretty sure i we start out apparently\nwith a decent speed not too hard and\npicking my speed up on the way now\ninterestingly your father was in the\nkangaroo hopping in 1994 he finished in\n14th place and to be great to take back\na trophy to estonia to show you as well\nthat's true yeah he was here and he has\na kangaroo magazine back home so I'm I\nsaw it when I was nine years old and\ncheering for my dad so it's really nice\nto be here right on if I'm gone sat\nnight hopefully you'll have a good rice\nin and be able to take back some\nmemories back to miss Tanya thank you\nvery much thanks Janko",
+          "curated": false
+        },
+        {
+          "video_id": "g3IxZTnt2BE",
+          "title": "Falls Creek Elite Night Sprints  - Phil Bellingham Interview - Kangaroo Hoppet Event",
+          "channel": "Kangaroo Hoppet Australia",
+          "view_count": 135,
+          "upload_date": "20161006",
+          "duration_string": "35",
+          "description": "Held in Falls Creek on the Thursday before the Hoppet, the invitational Night Sprints showcase cross country ski racing at its most exciting and will feature our best Australian skiers against elite international skiers who are out here for the Hoppet.",
+          "tags": [
+            "Falls Creek",
+            "Kangaroo hoppet",
+            "hoppet",
+            "night sprints",
+            "ski",
+            "xc ski",
+            "racing",
+            "nordic",
+            "worldloppet",
+            "cross country"
+          ],
+          "url": "https://www.youtube.com/watch?v=g3IxZTnt2BE",
+          "transcript": "Thank good for saturday yeah look my\nbloody my body infection i had really\ntook its toll but starting to feel good\nnow I've got a lot of movement back in\nmy leg so it's not restricting my\ntechnique and I think the extra rest is\nactually help can we come up fresh for\nme because I haven't done a super large\namount of volume in the last month with\nmy injury I'm going to try and take it\neasy and Fox it a bit sit on the back of\na few guys try and make them work a bit\nand then maybe if i'm still with the\ngroup at the end i'll try and sprint for\nthe line but i'm going to try and take\nit as easy as i can",
+          "curated": false
+        },
+        {
+          "video_id": "EneP_Zwv5Wk",
+          "title": "Vlog Kangaroo Hoppet 2022 Gunnar's Nordic Adventures (with sea kajaking in Melbourne)",
+          "channel": "Worldloppet",
+          "view_count": 1739,
+          "upload_date": "20220830",
+          "duration_string": "10:53",
+          "description": "For the first time Gunnar is traveling to the southern hemisphere to enjoy skiing around the world down under, at the Kangaroo Hoppet 🇦🇺. \n\nSee how he performed amongst the gum trees, if he made friends with kangaroos 🦘  and how he deals with his shark-phobia 🦈  while sea kajaking in Melbourne. \n\nAlso Olympic Gold Medalist Jessie Diggins 🇺🇸 is part of this episode of Gunnar's Nordic Adventures. \n\nThanks go to: \n❄️ Kangaroo Hoppet: https://hoppet.com.au/\n😎 Northug Eyewear: https://northug.com/\n🛶 David",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EneP_Zwv5Wk",
+          "transcript": "welcome down under welcome to australia\nfalls creek the venue of kangaroo hobbit\nfinally after so many years\nskiing around the world\nworking for walter but i have made it\nto australia to the kangaroo hobbit it's\nrace day and let me tell you something i\nhave been in many different places now\nwhile skiing around the world but this\none is definitely\nthe\nmost extraordinary place to ski a\nmarathon i mean look around me\nthis great\nbeautiful gum trees\nwhat a scenery\ndown in the valley\nit's almost like summer\nparrots cockadoos we passed kangaroos\nwith the bus up here\nso what an extraordinary place to ski a\nmarathon\nbut before we go out there and have some\nfun skiing the kangaroo hobbit let's\ncheck out what else you could experience\nwhen traveling down under to\nthe kangaroo hobbit follow me on gunas\nnordic adventures\n[Applause]\n[Music]\nyou\nso welcome ladies and gentlemen to\nwinter in australia yes i do wear a\nt-shirt and yes i'm standing next to a\nlemon tree and here tropical birds\nbut up there\nnot sure if you could see that\nup there\nis snow\ni'm here in mount beauty and\nif you go a little bit up there there's\nfalse creek but before we go up to the\nmountains to ski the kangaroo hobbit we\ntry to find some kangaroos\nand before that\ni'll make a good sports drink for my\nrace tomorrow\nmy first kangaroos like real kangaroos\nin there\nnow a very important lesson\naustrian\nno kangaroos australia\nkangaroos\nin australia of course\nyou cannot only ski\nbut\nyou can do a lot of sports\nout on the ocean i'm here in melbourne\nwith david hi hi\nand as you can see we are carrying a\nkayak to the ocean\ni'm gonna try out kayaking\nokay david what exactly are we going to\ndo now\nwe're going to feed you to the sharks oh\nno this is not the thing i wanted to\nhear\nbecause for some reason even though i'm\nthere is no scene in austria i'm somehow\nscared of sharks but this is the day to\nget rid of the spheres\nright yeah and you said there are\ndolphins out there is dolphins so they\nwould probably protect me if there is\nsomething they always say if it's salt\nwater there's a shaft very close oh yeah\nokay maybe we stopped talking about\nsharks okay let's move on okay now at\nthe moment it's come to just put it into\nthe water oh yeah yeah wow the water is\ncold\nit's good that you're filming the\nchances are high\nwork that's good\nand\noff you go\nall right\nthis is working quite well actually i'm\nstill\nnot wet so when dinner went off didn't\ngo off the boat yet\ni think now it's time to make some speed\nhuh get some distance done yeah okay\nlet's go for it\ngood cheers\nwe deserved it huh and you did really\nwell um natural athlete i'm sure awesome\nyeah yeah good skier man a\nand actually there's some similarities\nas you know between you know um skating\nskiing and and getting a good long\nstroke and your paddle out on the water\nso yeah and the balance is important the\nfeel of the water like the feel of the\nsnow yeah\nthere are really a lot of um\nsimilarities\nyou would not imagine the one you do on\nsnow in the mountains here you are\non the on the beach on the sea but it's\nreally quite similar you're a skier too\nright i am you have skied the kangaroo\nhopper already i have how many times\ni think it's some with something between\nfive and ten oh awesome and any other\none love addresses or are they on your\nboxes no that's all their bucket list\nfor sure next one what would be the race\nyou want to do yeah so i mentioned the\nmaster longer all right i think i love\nthe idea of people running out with uh\nred wine when you're skiing yeah and you\nshould definitely try out kayaking sea\nkayaking when you go to the kangaroo\nhopper you probably would fly to\nmelbourne and there you can rent the\nkayaks too i guess you can can you get\nlessons yes you can get both of those um\nso you can ski one day and you can go\nsee kayaking another so awesome and we\nenjoy our beer now yeah and\ncongratulations on getting eaten by a\nshark oh yeah i survived that's a good\nthing and\ni'm a little bit less scared now about\nsharks probably so cheers\na wonderful good morning here from mount\nbeauty it's race day kangaroo hobbit is\non\nit rained a little bit overnight but i\nthink it was snowing up there in the\nmountain where false creek is and the\nrace is going to take place so it should\nbe superb conditions the track is in\nperfect conditions and i can't wait to\nski my first kangaroo hop and let's go\nso the bus ride is about\n45 minutes up to the mountains to falls\ncreek\nso the major part of the participants\nthey go by buses the parking spots are\nlimited up there\non a day like this\nprobably the most important thing\nsunscreen\nso only a few moments to go until we\nhead out there\nthe elite already started now it's our\nturn\ngood clothing you're from hawaii i guess\nyeah yep\nmy first one it's on\noh man how beautiful is that view\nawesome\nand this is what makes the kangaroo hop\nit\nthe kangaroo hop it\nskiing next to all these gum trees\nthe only trees growing up here\nthat's so cool\nah feeding station on top of the long\nuphill section\nand look what you get in australia for\nthe feeding station\ncandies awesome jelly beans oh nice\nsnacks\nsnakes\nawesome thank you guys\nlet's go on\ni have had a lot\nfor feeding during the race already\npickles with banana pie with pickles in\nestonia\nchocolate grapes\nin iceland\nbeer in austria\nbut candies\nfor the first time world muppet man\nbringing the flag of world topic into\nanother finish\nto kangaroo puppet finish\nhow great is that\nnice\nmust be my it's my first race on the\nsouthern hemisphere\nwe made it kangaroo hopper 2022.\nturned out my body is not made for\nskiing\nin august especially when my inner clock\nsays it's it's three o'clock in the\nmorning and i should be sleeping and not\nskiing but\nyeah i made it\nyeah look guys who i met here it's jesse\ndiggins from the usa you know her from\nthe olympics and now you know her as\nkangaroo hockey winner\nwhat an amazing day it was out there\nright yeah that was really really cool\nsuper awesome volunteers like it was\nsuch a well-run race\ni was very impressed\nso that i mean you only took one and a\nhalf hours for me it took three hours so\ni could enjoy it\ndouble as long as you could so i did\nsome dream life i think\nyeah this is probably inside it says one\nkangaroo oh yeah\nyeah\nso this was gonna snortic adventures\nfrom the kangaroo hobbit australia i am\nalready in the next\nworld lopez nation\nin new zealand at wonderful wanaka what\na beautiful place stay tuned for gunners\nnordic adventures and this time from the\nmerino master in new zealand",
+          "curated": true,
+          "curation_reason": "High-quality POV vlog content showing the unique Australian setting and race experience with detailed course commentary.",
+          "display_order": 1
+        },
+        {
+          "video_id": "axteeoMIgt0",
+          "title": "The best moments of Kangaroo Hoppet 2025",
+          "channel": "SC - The Ski Community",
+          "view_count": 497,
+          "upload_date": "20250901",
+          "duration_string": "6:36",
+          "description": "The best moments of Kangaroo Hoppet 2025\n\nVideo Credits: Chris Hocking/Kangaroo Hoppet",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=axteeoMIgt0",
+          "transcript": "Yeah. Hey, the kangaroo hoppet. Uh, this\nis going to be my first kangaroo hoppet.\nI'm really excited. Uh, it's a great big\ncelebration of skiing. Uh, all of\nAustralia coming together to to uh come\nout and enjoy Falls Creek. The grooming\nis excellent here today. Um, we're gonna\nhave a have a lot of fun up there.\n&gt;&gt; Sorry.\n&gt;&gt; Uh, sky is blue.\n&gt;&gt; Should be nice.\n&gt;&gt; Should be getting my tan on. Um,\nhopefully not with like glitter lines on\nmy face when I take the glitter off, but\nit'll be fun.\n&gt;&gt; Kiwis at the Hobbit.\n&gt;&gt; Yeah. We're taking snow back with us.\n&gt;&gt; Hi.\n[Music]\n[Applause]\nHow's it feeling?\n&gt;&gt; Good. Yeah. Almost ready to start. So\nhopefully that happens soon.\nCome on, Dad.\n&gt;&gt; No pressure. No pressure.\nNot foretting the ladies and gentlemen.\nEvans\n11.\n&gt;&gt; That's it.\nSo happy.\nThat mean everything to me. I've\nbeen trying to do that my whole career.\nSo happy to get that. It'll be the last\none I ever do that I'm in form. So\nI'm done after this. So means heaps to\nme. So happy.\nThanks, man.\n&gt;&gt; Yeah. I I just knew Seby's actually in\nbetter form than me and he's skiing\nbetter than me at the moment.\nSo, I just had to sit in I I was I guess\num just taking a ride of him the most\nthe way. And then I've been I've come\nsecond in the same situation before. So,\nI know how hard it is right to the end.\nYeah. Just so happy.\nThat was good.\n&gt;&gt; That was really fun. Yeah, I mean that\nwas good that the boys kind of strung it\nout and so I was a little bit alone but\nthen I caught up to Liam and Kristoff\nand we skied together a bit. So yeah, it\nwas lots of fun. got a little bit soft\nat the end, but um yeah, it was really\ngood up there.\n&gt;&gt; Now, how did we go with the duct tape?\n&gt;&gt; Well, I didn't even eat the second gel.\nUm one of them fell off sort of on an\nuphill, so I was kind of like trying to\neat it. Hold my pole pole, but you know,\nI got the food in, so that was what was\nuseful.\n&gt;&gt; Ah, this is awesome. It's like the whole\nAustralian Oh, sorry. The community. I'm\ndropping everything. Um, so it's really\ncool to be here with all of them. I\nmean, I haven't seen this many\nAustralians out skiing and I'm sure a\nlot of them have been big fans of mine.\nSo, I'm I'm happy to be here and racing,\nyou know, with everyone around.\n&gt;&gt; Yeah, it's awesome. I should have been\nhere when I was a kid and um, you know,\nI got into skiing a bit late and it\nalways clashed with National Running,\nbut um, I wish I'd been here more. So,\nI'll definitely be back.\n&gt;&gt; 5 and a half months from the big one.\n&gt;&gt; Yeah.\n&gt;&gt; Tell us about that as well.\n&gt;&gt; Oh, yeah. Really looking forward to it.\nHopefully we're going to have a lot of\nwomen there and um hopefully quite a few\nmen as well. So, I mean definitely like\nlooking forward to the relay and we have\na 10k skate so that's kind of my\nspecialty which is um it's good to to\nyou know have that happening at the\nOlympics.\n&gt;&gt; Any other final words on the hobby 2025?\n&gt;&gt; Um no no I mean it's great. It's\nawesome. Happy to be here. So yeah,\n&gt;&gt; thank you. He was the first Australian\nto podium on an international ski\nchampionship with a silver medal at the\nworld under 23 championship.\n&gt;&gt; Yeah, girls.",
+          "curated": true,
+          "curation_reason": "Recent comprehensive race coverage featuring athlete interviews and race highlights from the 2025 event.",
+          "display_order": 2
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I have been in many different places now while skiing around the world but this one is definitely the most extraordinary place to ski a marathon. Look around me, these beautiful gum trees, what a scenery. Down in the valley it's almost like summer - parrots, cockatoos, we passed kangaroos with the bus up here.",
+          "source_video_id": "EneP_Zwv5Wk",
+          "source_channel": "Worldloppet",
+          "source_view_count": 1739,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "The grooming is excellent here today. Sky is blue, should be nice. Should be getting my tan on. Hopefully not with like glitter lines on my face when I take the glitter off, but it'll be fun.",
+          "source_video_id": "axteeoMIgt0",
+          "source_channel": "SC - The Ski Community",
+          "source_view_count": 497,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "That was really fun. The boys kind of strung it out and so I was a little bit alone but then I caught up to Liam and Kristoff and we skied together a bit. Got a little bit soft at the end, but it was really good up there.",
+          "source_video_id": "axteeoMIgt0",
+          "source_channel": "SC - The Ski Community",
+          "source_view_count": 497,
+          "category": "technique",
+          "curated": true
+        }
+      ]
     }
   }
 }

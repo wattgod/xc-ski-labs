@@ -1,0 +1,102 @@
+{
+  "race": {
+    "name": "Öppet Spår",
+    "slug": "oppet-spar",
+    "display_name": "Öppet Spår",
+    "tagline": "The Monday-after Vasaloppet — ninety kilometers on the same legendary course, without the clock, without the pressure, with all the blueberry soup.",
+    "vitals": {
+      "distance_km": 90,
+      "distance_options": [
+        "90km"
+      ],
+      "elevation_m": 850,
+      "altitude_m": 350,
+      "location": "Sälen to Mora",
+      "location_badge": "Dalarna, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Dalarna",
+      "date": "Monday after Vasaloppet (first Monday in March)",
+      "date_specific": "2026: March 2",
+      "discipline": "classic",
+      "field_size": 8000,
+      "founded": 1945,
+      "registration": "Via Vasaloppet organization, separate entry from main race",
+      "prize_purse": "None — untimed event",
+      "aid_stations": "7 stations with blueberry soup, sports drink, snacks",
+      "cutoff_time": "No official cutoff — same as main Vasaloppet logistics",
+      "website": "https://www.vasaloppet.se/en/ski/oppet-spar-sunday/",
+      "lat": 61.0067,
+      "lng": 14.5356,
+      "field_size_estimate": 8000,
+      "elevation_gain_m": 850
+    },
+    "climate": {
+      "primary": "Continental Scandinavian winter",
+      "description": "Identical conditions to Vasaloppet — temperatures typically -15°C to 0°C. Course may be slightly more worn from Sunday's main race. Same wind exposure on open marshlands.",
+      "typical_temp_c": "-10 to -2",
+      "challenges": [
+        "Track conditions may be softer after 16,000 Vasaloppet skiers the day before",
+        "Same cold and wind exposure as the main race",
+        "Wax selection still critical",
+        "Fatigue if also racing Vasaloppet on Sunday"
+      ]
+    },
+    "course": {
+      "primary": "Identical to Vasaloppet — 90km point-to-point from Sälen to Mora through Dalarna wilderness. Rolling terrain, forest, marsh, and lake crossings. The exact same course, stations, and finish straight as the main race.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks, same preparation as Vasaloppet",
+      "technical_rating": 3,
+      "grooming": "World-class Vasaloppet grooming, though track may be slightly worn from Sunday",
+      "features": [
+        "Same 90km Vasaloppet course — Sälen to Mora",
+        "Untimed — no official results, no competition pressure",
+        "Same iconic blueberry soup stations",
+        "Finish on the Vasaloppet finishing straight in Mora",
+        "Popular 'bucket list' option for those who can't qualify for Vasaloppet"
+      ]
+    },
+    "nordic_lab_rating": {
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 5,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 5,
+      "scenery": 4,
+      "organization": 5,
+      "competitive_depth": 1,
+      "overall_score": 76,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "score_note": "Sum 53/70 = 76. Base tier 2. Prestige 4 promotes one tier: tier 2.",
+      "tier_note": "Prestige 4 override applied"
+    },
+    "history": {
+      "summary": "Founded in 1945 as an untimed, open-track version of Vasaloppet, held the day after the main race. Created to give everyday skiers the chance to experience the full 90km Vasaloppet course without qualification requirements or competitive timing. It has grown into one of the world's largest recreational ski events, attracting around 8,000 participants annually.",
+      "notable_facts": [
+        "Name means 'Open Track' in Swedish — anyone can enter without qualifying",
+        "Held on Monday after Vasaloppet since 1945",
+        "No timing, no results — purely experiential",
+        "Many use it as their first Vasaloppet-distance experience before attempting the real race",
+        "Same aid stations serve the iconic blueberry soup",
+        "Part of Vasaloppet Week which includes 9 events over 8 days"
+      ]
+    },
+    "series_membership": [
+      "vasaloppet_week"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Öppet Spår Vasaloppet open track Sälen Mora ski",
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

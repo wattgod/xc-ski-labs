@@ -6,8 +6,10 @@
     "tagline": "26 kilometers from Tahoe City to Truckee across the Sierra Nevada ridge — the West Coast's largest cross-country ski race and a beloved fundraiser since 1977.",
     "vitals": {
       "distance_km": 26,
-      "distance_options": ["26km (30km advertised)"],
-      "elevation_m": 400,
+      "distance_options": [
+        "26km (30km advertised)"
+      ],
+      "elevation_m": 499,
       "altitude_m": 1900,
       "location": "Tahoe City to Truckee, California",
       "location_badge": "California, USA",
@@ -17,7 +19,7 @@
       "date": "Early March",
       "date_specific": "2026: March 7",
       "discipline": "both",
-      "field_size": "~1,000",
+      "field_size": 1000,
       "founded": 1977,
       "registration": "Opens in fall; typically sells out",
       "prize_purse": null,
@@ -25,7 +27,9 @@
       "cutoff_time": null,
       "website": "https://www.thegreatskirace.com",
       "lat": 39.1657,
-      "lng": -120.1433
+      "lng": -120.1433,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 499
     },
     "climate": {
       "primary": "Sierra Nevada mountain winter",
@@ -54,9 +58,9 @@
       ]
     },
     "nordic_lab_rating": {
-      "overall_score": 59,
-      "tier": 3,
-      "tier_label": "TIER 3",
+      "overall_score": 63,
+      "tier": 2,
+      "tier_label": "TIER 2",
       "discipline": "both",
       "distance": 2,
       "elevation": 3,
@@ -88,8 +92,249 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Great Ski Race cross country ski race Tahoe City to Truckee",
+      "videos": [
+        {
+          "video_id": "1W9MdkI2Omw",
+          "title": "Cross-Country Skiing at Tahoe Donner - Jan 20 2022",
+          "channel": "Nico Aguilera",
+          "view_count": 633,
+          "upload_date": "20220121",
+          "duration_string": "5:09",
+          "description": "Ben and Lindsay are new parents. Was great to visit with them, and do a lap of Eur Valley.\n\nShot on GoPro, edited on ShotCut.\nSoundtrack: Breakdancer's Paradise by Lebrosk (https://soundcloud.com/lebrosk/breakdancers-paradise-2021-refix-free-download)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=1W9MdkI2Omw",
+          "transcript": "hey all you kids out there say kids what\ntime is it\ngive me some pace\n[Music]\neat\nrepeatedly\ncome on y'all\ncome on\noh no no no dawg\noh\ncome on everybody\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "EHWA7EwE7VE",
+          "title": "Lake Tahoe: The Great Ski Race 2017",
+          "channel": "Bill O",
+          "view_count": 347,
+          "upload_date": "20170326",
+          "duration_string": "11:09",
+          "description": "Brian and Bill venture out to Lake Tahoe in early March 2017 for an epic 4-day cross-country ski trip -- and the 40th annual Great Ski Race from Tahoe City to Truckee.  Three feet of fresh snow over the weekend helped solidify this season in the history books, with over 600 inches of snow and counting.\n\nSoundtrack courtesy of:\n\nMajestic Hills by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100423\nArtist: http://incompetech.com/\n\nAnd Awaken - Stings by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100331\nArtist: http://incompetech.com/\n\nHero Down by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100880\nArtist: http://incompetech.com/",
+          "tags": [
+            "iMovie"
+          ],
+          "url": "https://www.youtube.com/watch?v=EHWA7EwE7VE",
+          "curated": true,
+          "curation_reason": "First-person race experience content specifically about The Great Ski Race, documenting a 4-day cross-country ski trip including the race itself.",
+          "display_order": 1
+        },
+        {
+          "video_id": "E6YJZf6MP3M",
+          "title": "Cross Country skiing in bitter cold (-12° C) at Tahoe Donner Cross Country, Truckee, CA",
+          "channel": "Fiesta Adventures",
+          "view_count": 752,
+          "upload_date": "20221209",
+          "duration_string": "30",
+          "description": "We enjoy a cold, crisp December day of XC skiing at the beautiful Tahoe Donner XC resort in Truckee, CA near Lake Tahoe. We pass the newly restored cowboy cabins and shake our arms to try to get some warmth in our hands! #shorts",
+          "tags": [
+            "#TahoeDonnerCrossCountry",
+            "Euer Valley",
+            "Cowboy Cabins"
+          ],
+          "url": "https://www.youtube.com/watch?v=E6YJZf6MP3M",
+          "curated": false
+        },
+        {
+          "video_id": "8XQKeDgDzw4",
+          "title": "2010 Great Ski Race finish_2",
+          "channel": "andersrk1",
+          "view_count": 115,
+          "upload_date": "20100308",
+          "duration_string": "47",
+          "description": "Scenes from the 2010 Great Ski Race, Truckee, CA.",
+          "tags": [
+            "nordic",
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=8XQKeDgDzw4",
+          "transcript": "gary lacey from boulder colorado\nnumber 20.\nno that's number seven\nnumber 112 is adrian tieslow from kings\npeach california\nnumber 41 jan holan from truckee\ncalifornia\nnumber 85 kirk sable from chester\nnumber 100 beth thomas from truckee\nnumber 129\ngunnery",
+          "curated": false
+        },
+        {
+          "video_id": "fDMtqgX4hoQ",
+          "title": "Tahoe Donner XC Skiing",
+          "channel": "David Pluto",
+          "view_count": 82,
+          "upload_date": "20230402",
+          "duration_string": "2:22",
+          "description": "Watch @nads_038 as well as her father and sister #xcskiing #tahoedonner",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=fDMtqgX4hoQ",
+          "transcript": "thank you\n[Music]\n[Applause]\nforeign\ndon't don't crash there\ndude you're pretty good\nlet's go",
+          "curated": false
+        },
+        {
+          "video_id": "JFF5qrxRxow",
+          "title": "Mountain Biking Tahoe Cross Country Ski Area - Great Ski Race Trail",
+          "channel": "moon kim",
+          "view_count": 1035,
+          "upload_date": "20100718",
+          "duration_string": "6:48",
+          "description": "Surprisingly good riding. No big climbs, and not that technical. This section is from the Fiberboard Road at the top of The Great Ski Race Trail down. There are a bunch of humps where one could get air, but as you can tell I like to keep my tires on the ground.",
+          "tags": [
+            "Tahoe",
+            "Cross country",
+            "mountain biking",
+            "single track",
+            "gopro hd"
+          ],
+          "url": "https://www.youtube.com/watch?v=JFF5qrxRxow",
+          "curated": false
+        },
+        {
+          "video_id": "fXi5p4SZBiQ",
+          "title": "Great Ski Race 2010.mov",
+          "channel": "Vizslalovers",
+          "view_count": 313,
+          "upload_date": "20100310",
+          "duration_string": "8:58",
+          "description": "The start and the finish of the 2010 Great Ski Race from Tahoe XC to Truckee CA.",
+          "tags": [
+            "Great",
+            "Ski",
+            "Race",
+            "cross",
+            "country",
+            "truckee",
+            "tahoe"
+          ],
+          "url": "https://www.youtube.com/watch?v=fXi5p4SZBiQ",
+          "curated": true,
+          "curation_reason": "Race coverage showing both the start and finish of The Great Ski Race, providing course layout perspective.",
+          "display_order": 2
+        },
+        {
+          "video_id": "tDvkKWPsmAM",
+          "title": "Tahoe Donner Cross Country Lunch Ski with Judy #shorts",
+          "channel": "Fiesta Adventures",
+          "view_count": 159,
+          "upload_date": "20221207",
+          "duration_string": "30",
+          "description": "We ski Tahoe Donner Cross Country in Truckee, CA, a fine XC resort. Amazing trails, excellent grooming, and competent and friendly staff. Not to mention the new Cross Country Center. Have a ski then enjoy a nice lunch and maybe an adult beverage in the bar or out on the patio with the gas fireplace! #shorts",
+          "tags": [
+            "Tahoe Donner Cross Country",
+            "Truckee XC ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=tDvkKWPsmAM",
+          "transcript": "laughs\nwhoopsie there's I see that smile oh my\nGod this is like I cannot tell you how\nhappy I am this is my lunch hour are you\nkidding me Big D Big D let's do it let's\ndo Big D me first\nwow\n[Music]\nthe Acres",
+          "curated": false
+        },
+        {
+          "video_id": "dCX5ItJviIo",
+          "title": "Fastenal Parallel 45 Cup Rollerski Loppet",
+          "channel": "Loppet Foundation",
+          "view_count": 2601,
+          "upload_date": "20191120",
+          "duration_string": "2:12",
+          "description": "The Fastenal Parallel 45 Cup Rollerski Loppet brought together some of the best cross-country skiers of all ages in the United States for a rollerski race in downtown Minneapolis, Minnesota. The race was the kick-off to the 2019 CXC Rollerski Cup season and a prelude to the 2020 Coop FIS Cross Country World Cup Sprint Finals and Fastenal Parallel 45 Winter Festival being held in Minneapolis, Minnesota, March 2020. \n\nThe Elite Women's field included star athletes like Olympic gold medalist Jessie Diggins, 2010 Olympian and World Championship bronze medalist Caitlin Gregg, and 2006 Olympian Carolyn Bramante. The Elite Men's field included 4-time Olympian Andy Newell, 2019 US National Champion and World Championships skier Kyle Bratrud, World Cup skier Matt Liebsch, and US Ski Team member Jakob Ellingson.\n\nVideo by Steve Barone.",
+          "tags": [
+            "Jessie Diggins",
+            "Cross-Country Skiing",
+            "Cross Country Skiing",
+            "XC Skiing",
+            "Skiing",
+            "Ski",
+            "Fastenal Parallel 45",
+            "Parallel 45",
+            "World Cup",
+            "FIS World Cup",
+            "Coop FIS World Cup",
+            "Cross Country World Cup",
+            "Cross-Country World Cup",
+            "Minneapolis World Cup",
+            "Minnesota World Cup",
+            "FIS",
+            "USSA",
+            "US Ski Team",
+            "US Ski & Snowboard",
+            "Team USA",
+            "The Loppet Foundation",
+            "Olympics",
+            "Gold Medal",
+            "CXC Skiing",
+            "CXC",
+            "Rollerski",
+            "Rollerskiing",
+            "Andy Newell",
+            "CC Skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=dCX5ItJviIo",
+          "curated": false
+        },
+        {
+          "video_id": "ILom6p5gyIU",
+          "title": "2013 Gatineau Loppet 55k Classic Race Review",
+          "channel": "GetOutThereMagazine",
+          "view_count": 1637,
+          "upload_date": "20130217",
+          "duration_string": "3:12",
+          "description": "ActiveSteve, not even recovered from tackling the Canadian Ski Marathon the week before, heads back out with his skis on to cover another classic Canadian ski event, the Gatineau Loppet, heading into it's 35th year. To commemorate the 35th year, the Classic event featured a 55km and 38km linear (point-to-point) route instead of the normal looped course. Under brilliant skies and great snow conditions, he lined up with participants from around the world. Check out the video to see how is all unrolled.\n\nMusic: Dan-O Songs",
+          "tags": [
+            "Get Out There Magazine",
+            "Gatineau Loppet",
+            "Loppet",
+            "skiing",
+            "World Loppet",
+            "Gatineau",
+            "classic",
+            "freestyle",
+            "snow",
+            "winter",
+            "review",
+            "ActiveSteve"
+          ],
+          "url": "https://www.youtube.com/watch?v=ILom6p5gyIU",
+          "transcript": "[Music]\nhi I'm ma Steve for get out their\nmagazine and today I'm recoring from the\n35th annual Gat no La it's about 7:30 in\nthe morning - 15 and I'm just waiting to\nget on a bus to head to the start line\nof my event 55k classic before boarding\nany buses however there was the matter\nof the pre-race briefing along with that\nthere was also the registration kit\npickup which occurred inside the\ngymnasium there's also time to check out\nthe course Maps and look where all the\ndifferent Aid stations would be and\nfinally a great Expo inside the gym as\nwell where you could buy all kinds of\nski things we've all been loaded up on\nthe buses now and we're heading to the\nstart line La here there starting the\nrace in about an hour see in the Finish\nLine\nhope now in the start\ncar heading up to the official start\nline we're leaving in 2\nminutes going to be a beautiful day of\nskiing out there see you the car even\nthough some of the buses were running a\nlittle bit late the race got underway\npromptly on time so at 8:55 my wave\ndeparted to start the\ncourse to celebrate the 35th anniversary\nof the Gat no lopit organizers actually\nhad us starting in the far north of the\npark on a point-to-point course which is\npretty special along with the 55 and 38k\nevents there were also other events\nstarting closer to the Finish Line\nincluding the 20K event that you see\nhere because we get to start further\naway in the park we were treated to some\nof this more remote trails that have\nsome pretty amazing scenery and great\ntracks for all skiers to\nenjoy with the sun shining the\ntemperatures became a little milder\nwhich made for some great skiing out\nthere and some beautiful\nsights to keep the energy up over a long\ncourse such as this there were of course\nAid stations along the way which made\nthis really feel a lot like a marathon\nif you're running only you're on skis so\nthere's plenty of food and drink along\nthe way with great volunteers on hand to\ngive you whatever you needed to help\ncomplete your race and of course you had\nto take time every now and again just to\nadmire some of the beauty around\nus but there's nothing quite like\nfinally skiing under that finishing Arch\nhearing that beep and knowing that\nyou're done your race at the Finish Line\nnot only did we get snacks but we also\ngot a commemorative buff and a PIN to\nremember this event there's also a full\nmeal on offer in the cafeteria for\nRacers to enjoy\nof course there is also the awards\nceremony recognizing the outstanding\nachievements of some of the great\nathletes from 17 different countries\nthere was even some APPA ski live music\nand beer for people to enjoy at the end\nwell that's it for my report from the\n35th annual Gat no Lin I really enjoyed\nthe point-to-point course this year it's\na gorgeous day and I even got some\nshopping done here at the Expo looking\nforward to coming back again next year\noh",
+          "curated": false
+        },
+        {
+          "video_id": "nxSoznNhBuw",
+          "title": "The American Birkebeiner cross-country ski race",
+          "channel": "CBS Sunday Morning",
+          "view_count": 64684,
+          "upload_date": "20230319",
+          "duration_string": "5:48",
+          "description": "Since it was first held 50 years ago, the American Birkebeiner, a trek of more than 30 miles through the Northwoods of Wisconsin, modeled after a fabled bit of Norwegian history, has become the largest cross-country ski race in the U.S. Correspondent Conor Knighton reports on how enthusiasm for the festival of events surrounding the race (dubbed \"Birke fever\") has snowballed.\n#Birkebeiner #crosscountryski \n\n\"CBS Sunday Morning\" features stories on the arts, music, nature, entertainment, sports, history, science and Americana, and highlights unique human accomplishments and achievements. Check local listings for CBS Sunday Morning broadcast times.\n\nSubscribe to the \"CBS Sunday Morning\" YouTube channel: http://bit.ly/20gXwJT\nGet more of \"CBS Sunday Morning\": http://cbsn.ws/1PlMmAz\nFollow \"CBS Sunday Morning\" on Instagram: http://bit.ly/23XunIh\nLike \"CBS Sunday Morning\" on Facebook: https://bit.ly/3sRgLPG\nFollow \"CBS Sunday Morning\" on Twitter: http://bit.ly/1RquoQb\nSubscribe to our newsletter: http://cbsn.ws/1RqHw7T\nDownload the CBS News app: http://cbsn.ws/1Xb1WC8\nTry Paramount+ free: https://bit.ly/2OiW1kZ\n\nFor video licensing inquiries, contact: licensing@veritone.com",
+          "tags": [
+            "CBS Sunday Morning",
+            "CBS News",
+            "news",
+            "american birkebeiner",
+            "northwoods",
+            "wisconsin",
+            "norwegian history",
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=nxSoznNhBuw",
+          "transcript": "it's part ski Marathon part Norwegian\nHistory part Street Festival Connor\nKnighton takes us to the starting line\nof a race like none other\ns\n[Music]\neach winter thousands of cross-country\nskiers from all across the world travel\nto the North Woods of Wisconsin to\ntravel more than 30 miles between the\ntowns of cable and Hayward\nthe American birkabiner is the largest\ncross-country ski race in the country\nand the enthusiasm here is contagious we\nall got the Berkey fever and it's just\nthe excitement that builds about not\nonly the race but the whole event of\nBerkey week the official burkabiner race\nBerkey for short could fly by in a\ncouple of hours for the most elite\nskiers the leading up to the main event\nthere are days of activities there are\nshorter races for children\nforeign\ndog lovers ski with their pets teams of\nsix compete in giant ski races it's kind\nof like Comic-Con for athletes is how\nI'm looking at it Jackie and Dan daroma\nare Avid skiers Jackie has skied the\nBerkey four times Dan 17 but for this\nyear's race they wanted to do things a\nlittle differently these other Racers\nare going to be in spandex Gore-Tex you\nknow what are you gonna be wearing full\non fur\nJackie Dan and Dan's Father Jim were\nselected to be mascots of sorts skiing\nthe entire course on wooden skis dressed\nas Norwegian folk Heroes all while\ncarrying a baby doll it's a tradition\nwith roots and a far older history\nas portrayed in the film The Last King\nin the early 13th century Norway was in\nthe middle of a civil war after King\nhokan III died members of the birkaviner\nfaction skied his son the heir to the\nthrone through the woods to safety\neach year in Wisconsin three skiers\nreenact the rescue I think the the fact\nthat there is this real story about an\nevent that now you're recreating it I\nthink that's pretty darn cool and pretty\nspecial and I think it resonates with a\nlot of people Ben pop is the executive\ndirector of the American burkabiner\nwhich is modeled after a Norwegian race\nthere every competitor skis with a baby\nweight backpack to honor the Warriors\njourney of course you may be asking\nyourself why is this crazy Norwegian\nhistory have anything to do with Hayward\nWisconsin in the middle of Northwestern\nWisconsin nowhere it all came down to\none man Tony wise\nTony wise was born in Hayward and was a\nborn marketer after serving in World War\nII he decided to bring the competitive\nskiing he observed in Europe back home\nto Wisconsin a place where a\nScandinavian ancestry is common as a way\nto encourage tourism his first Berkey\nrace held 50 years ago had just 35\nparticipants most of whom had never\ncross-country skied before I swore up\nand down after that first I would never\ndo anything so foolish again but\ntoday at age 75\nErnie St Germain is the only competitor\nwho's participated in every single race\nbut there are more than 2 000 athletes\nwho have appeared in 20 or more contests\nwhich can turn into grueling all-day\nendeavors\nthe Berkey attracts skiers of varying\nages and ability levels\nyou're really gonna discover who you are\nit's one of the toughest Marathon\ncourses in the world so let yourself\nkind of Glide a little there you go good\nthat challenge is what attracts Elite\nskiers like Olympian Caitlyn Gregg who's\nwon the women's race a record setting\nfive times the Berkey course is unlike\nany other ski course that we get to race\nnot only here in the United States but\nalso in around the world and I think\nthat it's terrain is so unique and so\nchallenging that people just myself\nincluded love that aspect of it\nthe race itself has faced challenges\nposed by warmer Winters in recent\ndecades it's been canceled twice due to\nlack of snow it's really important that\nwe look at climate change and weather\nbecause if we don't have it well it's a\nbig loss the event provides a major\nboost for the local economy this town of\nfewer than 3 000 residents hosts close\nto 40 000 Spectators on race day\nhayward's Main Street overflows with\ncheering fans caught up in Berkey fever\nfor which the only prescription is more\ncowbell\nthe church bells signal the arrival of\nthe first finisher David Norris won this\nyear's men's race with a commanding lead\nCaitlyn Gregg came in third in the\nwomen's division\nthe biggest cheers of the day were\nreserved for the dromas nearly 7\nafter leaving the starting line they\nskied onto Main Street and swapped out\nthe baby doll for an actual baby\ntheir daughter Clara played the part of\nPrince Hogan for the final few blocks\nthe burkabiners saved the day\nuntil\ndo it all again next year\nI'll be ready to go",
+          "curated": false
+        },
+        {
+          "video_id": "UIRGHyRZ8po",
+          "title": "Engadin Ski Marathon 2025 HIGHLIGHTS | 03/09/25 | beIN SPORTS USA",
+          "channel": "beIN SPORTS USA",
+          "view_count": 472,
+          "upload_date": "20250309",
+          "duration_string": "4:05",
+          "description": "The excitement of the Engadin Ski Marathon 2025 on beIN SPORTS. \n\nCatch the latest highlights of Ligue 1🇫🇷, Turkish Süper Lig🇹🇷, \nCopa Libertadores🏆, Copa Sudamericana🥇 on our YouTube channel.\nFollow the latest news on beIN SPORTS.com and stream all our matches on our beIN SPORTS CONNECT app or on our beIN XTRA channels.\nDownload beIN SPORTS CONNECT on Apple devices: https://tinyurl.com/y4bd3osh\nDownload beIN SPORTS CONNECT on Android devices: https://tinyurl.com/yxlst4vj",
+          "tags": [
+            "ski",
+            "marathon",
+            "engadin",
+            "highlights"
+          ],
+          "url": "https://www.youtube.com/watch?v=UIRGHyRZ8po",
+          "transcript": "200 women were skiing the\nAngadine women race.\nNo intermediate time here. The\nintermediate time is a few kilometers\nlater for the full distance.\nGreat atmosphere alongside the course in\nevery Melina Perte. Melina Perte from\nFrance here on the third place.\nCongratulations one more time.\nThe flowers are given from the OKA chief\nfrom the chief of the organizers here.\nJuliana. And now the crowd is getting\nlouder with a Swiss gear. Juliana Vero.\nLast year's second, this year's second.\nIn 2003, she was on top of the\npodium. Maybe we see her there again.\nAnd here comes the big winner, Nadin\nFri Switzerland.\nThe marathon meni\nkasp\nimpressive skiers, impressive sportsmen\nhere.\nin second place representing Norway.\nAnd\nhere one of the closest finishes atinski\nmarathon\nand winners as well from Norway Harby.\nAnd here the big winner Harvard Mby from\nNorway Oslo.\nCongratulations.\n[Music]\nNorwegian party here I think will start\nquite soon. Pinchant,\ncongratulations. Enjoy the moment. We\ngive a big picture for Valadium.",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

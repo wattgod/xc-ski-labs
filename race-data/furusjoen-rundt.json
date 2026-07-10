@@ -6,7 +6,10 @@
     "tagline": "Forty-five kilometers circling Furusjøen in the Rondane foothills — a February classic that doubles as your Birken qualifier and a Ski Classics Challengers test piece.",
     "vitals": {
       "distance_km": 45,
-      "distance_options": ["45km", "22km"],
+      "distance_options": [
+        "45km",
+        "22km"
+      ],
       "elevation_m": 500,
       "altitude_m": 900,
       "location": "Furusjøen, Innlandet",
@@ -17,15 +20,17 @@
       "date": "February",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~517",
+      "field_size": 517,
       "founded": null,
       "registration": "Open registration; Birkebeinerrennet seeding race",
       "prize_purse": null,
       "aid_stations": "Feed stations around the lake circuit",
       "cutoff_time": null,
-      "website": null,
-      "lat": 61.7500,
-      "lng": 9.9000
+      "website": "https://en.furusjoenrundt.no/rennet/",
+      "lat": 61.75,
+      "lng": 9.9,
+      "field_size_estimate": 517,
+      "elevation_gain_m": 500
     },
     "climate": {
       "primary": "Norwegian mountain plateau winter",
@@ -84,10 +89,157 @@
         "~517 participants reflects its role as a qualifier rather than destination race"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Furusjøen Rundt cross country ski race Furusjøen",
+      "videos": [
+        {
+          "video_id": "ehplqXZ0rfo",
+          "title": "The best moments of Furusjøen Rundt-Rennet 2025",
+          "channel": "SC - The Ski Community",
+          "view_count": 605,
+          "upload_date": "20250221",
+          "duration_string": "4:18",
+          "description": "The best moments of Furusjøen Rundt-Rennet 2025\n\nVideo Credits: Furusjøen Rundt-Rennet/Kompani Kvam AS",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ehplqXZ0rfo",
+          "curated": true,
+          "curation_reason": "Recent race highlights from 2025 providing good race coverage and atmosphere from this Nordic skiing event.",
+          "display_order": 2
+        },
+        {
+          "video_id": "PgtgMN4eR8o",
+          "title": "Best moments of Furusjøen Rundt-Rennet 2024",
+          "channel": "SC - The Ski Community",
+          "view_count": 311,
+          "upload_date": "20240222",
+          "duration_string": "2:52",
+          "description": "Best moments of Furusjøen Rundt-Rennet 2024 \n\nVideo Credits: Furusjøen Rundt-Rennet",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=PgtgMN4eR8o",
+          "curated": false
+        },
+        {
+          "video_id": "VU_RqoO-zsk",
+          "title": "Highlights from Furusjøen Rundt-Rennet 2026",
+          "channel": "SC - The Ski Community",
+          "view_count": 79,
+          "upload_date": "20260219",
+          "duration_string": "3:36",
+          "description": "Highlights from Furusjøen Rundt-Rennet 2026\n\nThe Ski Classics Challengers event, Furusjøen Rundt-Rennet, took place last Saturday (February 14) and featured a 45km long-distance ski race in classic technique in Kvam, Norway. Watch the highlights here!\n\nVideo: Daniel Strandheim",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=VU_RqoO-zsk",
+          "curated": true,
+          "curation_reason": "Recent highlights from the 2026 Ski Classics Challengers 45km classic technique race showing race coverage and course layout.",
+          "display_order": 1
+        },
+        {
+          "video_id": "g_NksrPepg8",
+          "title": "Proud over our beautiful mountains",
+          "channel": "Furusjøen Rundt",
+          "view_count": 252,
+          "upload_date": "20170710",
+          "duration_string": "53",
+          "description": "The community are now preparing for this years event.\nWe are proud over our beautiful mountains and are looking forward to great you all a warm welcome to Furusjoen Rundt MTB July 22nd. \nWelcome! 😍🚴🏻‍♂️",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=g_NksrPepg8",
+          "curated": false
+        },
+        {
+          "video_id": "PZ-fa2doEMo",
+          "title": "Welcome to Kvam, Lillehammer and Norway - MTB Marathon riders!",
+          "channel": "Furusjøen Rundt",
+          "view_count": 2727,
+          "upload_date": "20190313",
+          "duration_string": "2:53",
+          "description": "Welcome to 2019 UEC MTB Marathon European Championships for Elite and Masters. \n\nWelcome to Lillehammer and Kvam! \n\nIn the Lillehammer region, you can explore the very best of Norwegian countryside – from high mountains to forest-clad hills and cultural landscapes. Your next adventure is never far away.\n\nThe valley north of Lillehammer, Gudbrandsdalen, you will find the tiny village of Kvam. \nA fantastic area with hundreds of kilometeres of tracks all year long from skiing, biking and hiking. MTB race in adventurous environment. \n\nThe ciricuit is in the mountains with paths and challenges of varying degrees of difficulty, rapid forest trails to tough downhill and climbs.",
+          "tags": [
+            "mtb",
+            "mtb marathon",
+            "#EuroXCM19",
+            "kvamsfjellet",
+            "rondane",
+            "terrengsykling",
+            "rondablikk"
+          ],
+          "url": "https://www.youtube.com/watch?v=PZ-fa2doEMo",
+          "transcript": "[Music]\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "HOuJAZK5ndU",
+          "title": "Official Aftermovie 2019  UEC MTB Marathon European Championships | Furusjøen Rundt-rittet",
+          "channel": "Furusjøen Rundt",
+          "view_count": 286,
+          "upload_date": "20190714",
+          "duration_string": "4:45",
+          "description": "Thank you - Merci beaucoup - Grazie mille - Vielen Dank - Muchas gracias\n\nVi er stolte av vårt flotte fjell, og vi takker dere alle for besøket. \nTakk til UEC og Terreng Maraton Europamesterskapet. \nTakk til utøvere, støtteapparat, frivillige og publikum. \nVi er stolte av dere! \n\nWe are proud of our beautiful mountain, and we thank you all for your visit \nThanks to UEC and the MTB Marathon European Championship. \nThanks to practitioners, support staff, volunteers and the public. \nWe are proud of you!",
+          "tags": [
+            "mtb",
+            "mtbmarathon",
+            "european championships",
+            "furusjøen rundt",
+            "terrengsykkel",
+            "2019 UEC MTB Marathon European Championships",
+            "Furusjøen Rundt-rittet",
+            "UEC",
+            "EuroXCM19",
+            "Kvamsfjellet",
+            "Rondablikk",
+            "Rondane",
+            "Lillehammer",
+            "visit lillehammer",
+            "norges cycleforbund",
+            "uci",
+            "terreng maraton"
+          ],
+          "url": "https://www.youtube.com/watch?v=HOuJAZK5ndU",
+          "curated": false
+        },
+        {
+          "video_id": "YqscJJ5t-H4",
+          "title": "kvamsfjellet ned 2015",
+          "channel": "jølster løypelag",
+          "view_count": 678,
+          "upload_date": "20150319",
+          "duration_string": "3:52",
+          "description": "25 Deltakarar kjører kinesisk utfor frå ca 1080 moh til 240.",
+          "tags": [
+            "Jølster (City/Town/Village)",
+            "jølster skisenter"
+          ],
+          "url": "https://www.youtube.com/watch?v=YqscJJ5t-H4",
+          "curated": false
+        },
+        {
+          "video_id": "QGrZmBe1byo",
+          "title": "Furusjøen Rundt-løpet 2015",
+          "channel": "Furusjøen Rundt",
+          "view_count": 165,
+          "upload_date": "20160422",
+          "duration_string": "2:44",
+          "description": "Eventyret i Rondane - løpet i et fantastisk terreng på Kvamsfjellet.",
+          "tags": [
+            "sport",
+            "idrett",
+            "løp",
+            "terrengløp",
+            "løpeglede",
+            "kondis",
+            "Furusjøen Rundt",
+            "Furusjøen",
+            "Rondane",
+            "Kvamsfjellet",
+            "Rondablikk"
+          ],
+          "url": "https://www.youtube.com/watch?v=QGrZmBe1byo",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

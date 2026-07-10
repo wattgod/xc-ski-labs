@@ -1,0 +1,319 @@
+{
+  "race": {
+    "name": "Frosty Freestyle",
+    "slug": "frosty-freestyle",
+    "display_name": "Frosty Freestyle",
+    "tagline": "Eau Claire's fast and flat skate race — 25 kilometers of Wisconsin river valley trails in full freestyle flight.",
+    "vitals": {
+      "distance_km": 15,
+      "distance_options": [
+        "25km skate",
+        "10km skate"
+      ],
+      "elevation_m": 150,
+      "altitude_m": 250,
+      "location": "Eau Claire, Wisconsin",
+      "location_badge": "Wisconsin, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Wisconsin",
+      "date": "Mid-January",
+      "date_specific": "2026: January 17",
+      "discipline": "skate",
+      "field_size": 100,
+      "founded": 1995,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Aid at midpoint and finish",
+      "cutoff_time": null,
+      "website": "https://www.eauclairenordic.com",
+      "lat": 44.8113,
+      "lng": -91.4985,
+      "field_size_estimate": 150,
+      "elevation_gain_m": 150
+    },
+    "climate": {
+      "primary": "Upper Midwest continental winter",
+      "description": "Mid-January in western Wisconsin is typically cold with reasonable snow cover. Temperatures -20°C to -5°C. The Chippewa Valley's low elevation makes it vulnerable to mid-winter warm spells.",
+      "typical_temp_c": "-20 to -5",
+      "challenges": [
+        "Mid-winter warm spells can threaten snow conditions",
+        "Wind chill on exposed river valley sections",
+        "Lower elevation than northern Wisconsin venues"
+      ]
+    },
+    "course": {
+      "primary": "A 25km skate-only race on the groomed trail system in the Eau Claire area. The course follows rolling terrain through hardwood forest and along the Chippewa River valley. Relatively flat by Nordic racing standards, favoring strong skaters.",
+      "format": "loop",
+      "surface": "Machine-groomed Nordic trails",
+      "technical_rating": 2,
+      "grooming": "Well-maintained by local club",
+      "features": [
+        "Skate-only format attracts technique-focused skiers",
+        "Relatively flat course favors speed",
+        "Chippewa River valley setting",
+        "Strong local Nordic community in the Eau Claire area",
+        "Part of Wisconsin's active citizen racing scene"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 41,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 2,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A solid local skate race with good community energy but limited by small field, flat terrain, and marginal snow reliability. Fills a niche for freestyle-only racing in western Wisconsin."
+    },
+    "history": {
+      "summary": "A community-organized skate ski race in Eau Claire, Wisconsin, part of the state's vibrant citizen Nordic racing culture. The race draws skiers from across western Wisconsin and the Twin Cities metro area for a fast, flat course on well-groomed trails.",
+      "notable_facts": [
+        "One of the few skate-only Nordic races in Wisconsin",
+        "Eau Claire has a growing Nordic ski community",
+        "Draws participants from the Twin Cities metro area",
+        "Part of Wisconsin's strong citizen Nordic racing tradition"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Frosty Freestyle cross country ski race Eau Claire",
+      "videos": [
+        {
+          "video_id": "n8YF6WKKQac",
+          "title": "Frosty 5K - 2014",
+          "channel": "John Q. Burbank",
+          "view_count": 429,
+          "upload_date": "20140118",
+          "duration_string": "1:49",
+          "description": "Burbank Park District's annual Frosty 5K Run / 1 Mile Walk.",
+          "tags": [
+            "Frosty 5K",
+            "Burbank Illinois",
+            "Burbank",
+            "Park District",
+            "5K"
+          ],
+          "url": "https://www.youtube.com/watch?v=n8YF6WKKQac",
+          "transcript": "[Music]\nBreeze that blows like leaves. It\ncrushed beneath my\nfeet. Heavy loss and time goes slow. It\nsucks me out to\nsleep. So when in this fallen state I\nfind the only\nproof weight on my shoulders\nmake broken\ntruth. You stop. You stop\nstalling. Stop stalling.\nWe can start starting\nagain. We can start starting again cuz\nit's so so\n[Applause]\neasy. Still I'm only wide awake just\nthinking to\nmyself if ever there's a need for more.\nSurely you wouldn't help but I sit\ninside watch years just roll\naway from\nmyself pass through day by\nday. You stop you stop\nstoing. We can start starting again.",
+          "curated": false
+        },
+        {
+          "video_id": "sY7DbWmovLI",
+          "title": "Snowboarding: backyard session 1 2009-10",
+          "channel": "ViRgiLPROductions",
+          "view_count": 247,
+          "upload_date": "20091214",
+          "duration_string": "1:07",
+          "description": "Just wanted to make something and this is what you get! A small backyard session in stratford, wi please enjoy! let me know what yyy",
+          "tags": [
+            "snowboarding",
+            "jibbing",
+            "snowboard",
+            "session",
+            "rail",
+            "box",
+            "jump"
+          ],
+          "url": "https://www.youtube.com/watch?v=sY7DbWmovLI",
+          "transcript": "[Music]\nThe two\nfaced all\nsideways. You're dry\neyed and night fly.\nThin\njokes and split\nspokes. You\nhigh you for keeps and deep sleep. You\ncatch up. You young pap. You old dog.\nYou fuckble.",
+          "curated": false
+        },
+        {
+          "video_id": "RwFytKWobDs",
+          "title": "Norge Ski Club postpones annual ski jump tournament until February, due to lack of snow",
+          "channel": "CBS Chicago",
+          "view_count": 714,
+          "upload_date": "20230126",
+          "duration_string": "2:04",
+          "description": "A lack of snow and wintry weather has prompted the Norge Ski Club to postpone its 118th annual Winter Ski Jump Tournament in Fox River Grove.\n*************************************************************\nABOUT CBS 2 NEWS CHICAGO: Honored as an Edward R. Murrow winner for overall excellence, CBS 2 News Chicago brings you breaking news, weather, compelling exclusive content and award-winning investigative reports from the CBS 2 Investigators. \nSubscribe to CBS 2 News Chicago on YouTube : http://www.youtube.com/user/cbschicago\nCBS 2 NEWS 24/7 LIVESTREAM: https://www.cbsnews.com/chicago/live/\nCBS 2 NEWS WEBSITE:  http://www.cbsnews.com/chicago\nFACEBOOK: https://www.facebook.com/cbschicago\nTWITTER: https://twitter.com/CBSchicago\nGET THE CBS 2 NEWS APP: https://apps.cbslocal.com/chicago/",
+          "tags": [
+            "CBS 2 News Evening",
+            "Norge Ski Club",
+            "snow",
+            "Fox River Grove",
+            "skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=RwFytKWobDs",
+          "transcript": "it's one of the most daring Sports\nyou'll find in the area ski jumping but\nat the Norge Ski Club in Fox River Grove\nthere's one big problem not enough snow\nCBS 2's no Brennan explains what happens\nnext\nwell we were founded in 1905 three\nNorwegians came over from Norway found\nthis location and started a ski club\ntradition forges on at the Norge Ski\nClub we just keep plugging away but\npresident Scott Smith will admit this\nyear the path looks different in Fox\nRiver Grove yeah this is odd that we're\nnot skiing right now today's snow is\nsticking but the cold hasn't stuck\naround but we just had too long of a\nperiod with warm temperatures that many\ndays in a row it just it hurt us the\nclub needs about a foot of natural or\nman-made snow to safely open its ski\njump you can see up on the hill we got\nthese Tower guns on the side yep those\npoles sticking up and you can turn them\nadjust them up and down for us to make\nsnow we need roughly 20 degrees or\ncolder just because we use well water\nand it's kind of warm temperatures are\nnot ideal and neither is the timing our\nplanning for this event in the winter is\nliterally six to eight months in advance\nwe start planting the club's annual\nwinter ski jump tournament was set for\nthis weekend the last 10 years we've\nbeen typically getting eight to ten\nthousand people over two days a crowd\nexpecting to see competition will have\nto wait because of the one thing we just\nhad no choice none of us can control\nMother Nature the competition has never\nbeen canceled and in its 118 year\nhistory this is only the second\npostponement it's a hard decision you\nknow believe me we would have loved what\npulled it off the tournament is pushed\nback two weeks so we're just going\nFebruary 11th and 12th instead but\ntradition will return when temperatures\nand timing align as soon as we get down\nto that temperature we'll fire these up\nand start making it Noel Brennan CBS 2\nNews\nthe ski club says it's not offering\nrefunds but it will allow people to\ntransfer their tickets if they can't\nmake the rescheduled event",
+          "curated": false
+        },
+        {
+          "video_id": "Ph8xRRLjzT8",
+          "title": "River ice skating in Wisconsin",
+          "channel": "Zacharie Jombart",
+          "view_count": 83,
+          "upload_date": "20200125",
+          "duration_string": "7:10",
+          "description": "This video is about River skating Ice skating",
+          "tags": [
+            "iMovie"
+          ],
+          "url": "https://www.youtube.com/watch?v=Ph8xRRLjzT8",
+          "curated": false
+        },
+        {
+          "video_id": "PugKejR-18M",
+          "title": "Bando Baby Diaries",
+          "channel": "D Block Europe TV",
+          "view_count": 1869034,
+          "upload_date": "20220922",
+          "duration_string": "2:42",
+          "description": "Provided to YouTube by Universal Music Group\n\nBando Baby Diaries · D-Block Europe · Young Adz\n\nLap 5\n\n℗ 2022 D-Block Europe\n\nReleased on: 2022-09-23\n\nComposer Lyricist, Associated Performer, Vocals: Young Adz\nVocals, Associated Performer, Composer Lyricist: Dirtbike LB\n\nAuto-generated by YouTube.",
+          "tags": [
+            "D-Block Europe",
+            "Young Adz",
+            "ＹｏｕｎｇＡｄｚ",
+            "Lap 5",
+            "Bando Baby Diaries"
+          ],
+          "url": "https://www.youtube.com/watch?v=PugKejR-18M",
+          "curated": false
+        },
+        {
+          "video_id": "YyjsFvY3faA",
+          "title": "Van Camping Utah to Secret Ancient Ruins",
+          "channel": "Nikki Delventhal",
+          "view_count": 2369760,
+          "upload_date": "20250321",
+          "duration_string": "30:25",
+          "description": "Remove your personal information from the web at Https://joindeleteme.com/Nikki20 and use code Nikki20 for 20% off! Thanks Delete me for sponsoring this video!\nDeleteMe international Plans: https://international.joindeleteme.com\n\nEXCLUSIVE Content, Early Access & more! - https://www.patreon.com/Nikkidelventhal\n\nWant to help support our channel (& animals in need)? BUY OUR MERCH: https://shop.nikkidelventhal.com\n\nI opened a MAILBOX! : \nNikki Delventhal\n3827 S Carson St\n505-25 Unit #3149\nCarson City, NV 89701 \n\nBE MY FRIEND:\nIG: https://www.instagram.com/nikkidelventhal/ \nTikTok: @nikkidelventhal\nCamper's IG https://www.instagram.com/adventuresofcamper\nFacebook: https://www.facebook.com/nikkidelventhal\nCamperCares Charity IG: https://www.instagram.com/CamperCares\n\n\nGEAR I USE: \n(using these direct LINKS also helps support Camper, RV & I! =))\n\n*JACKERY POWER STATIONS: FOR 10% off click here: https://www.jackery.com/?aff=344 AND use CODE: NikkiDelventhal at check out (must use both)\n\n*AMAZON Storefront: / Car/Truck/Van & Outdoor Camping + Dog gear: https://www.amazon.com/shop/nikkidelventhal\n\n*NuVet (Dog Supplements, Shampoo, etc.)     https://www.nuvet.com/977388 Code: 977388 to order\n\n*Xero Shoes (barefoot style winter&rain boots and z trail hiking sandals): https://xeroshoes.com/go/nikkidelventhal\n\n*Roam Rest (mattress, custom cushions in truck and van, dog bed elevated center in van etc): www.roamrest.com DISCOUNT CODE: \"Nikkidelventhal\"\n\n*Van Made Gear: (Window Covers and Black out Partition) https://vanmadegear.com/?ref=mrxijvvg Discount Code: \"Nikki Delventhal\"\n\n*FrontRunner Outfitters (truck roof rack, cooking and camping accessories and more): https://www.frontrunneroutfitters.com/?affiliate_code=nikkidelventhal\n\n\nWant to support us further? Send us a tip!\nVENMO @nikkidelventhal\nCASHAPP https://cash.app/$NikkiDelventhal\nPAYPAL https://www.paypal.me/nikkidelventhal\n\n***Business Inquiries: nikki@night.co",
+          "tags": [
+            "living in a car",
+            "how to live in your car",
+            "solo female travel",
+            "solo female car living",
+            "prius",
+            "I live in my car",
+            "car dwelling",
+            "how to live in a car",
+            "car camper conversion",
+            "Nikki and camper",
+            "adventure travel",
+            "bucket list travel",
+            "climbing",
+            "hiking",
+            "vanlife",
+            "van living"
+          ],
+          "url": "https://www.youtube.com/watch?v=YyjsFvY3faA",
+          "transcript": "is the risk of getting stuck out here\nwith no fuel to the truck high enough\nreward to just get up this hill I've\nbeen living in vehicles for 6 years and\nI am no stranger to taking risks for\noff-road Adventures even if it meant the\ndemise of my vehicle home now there's\nthis one place I've only heard rumors of\nsaid to be seen by only a daring few so\ntoday we are going to attempt to find\none of the possible last untouched\nunmanaged ruins in the country and we're\ntaking you along so let's get into it\n[Music]\n[Applause]\ngood morning Utah not a bad place to\nhave your morning coffee huh it is so\nmagical this is my favorite thing about\nUtah in the winter is that you are most\nlikely going to have these off the\nbeaten path spots all to\nyourself makes you never want to leave\nbut I only have a week left and there's\na lot to see between now and then oh\nyeah in case you're here I'm Nikki I've\nbeen living in vehicles for over 6 years\nwith my rescue dogs camper and RV this\nis Justin he just moved into a truck a\nlittle over a month ago and it has been\nepic but Justin's going to be going off\non his own way soon so we got to show\nhim all the best off the beating spots\nmhm of Utah yeah yeah it's going to be\nepic so today we are going somewhere\nI've never been before and apparently is\nreally sketchy and hopefully it doesn't\nend up like yesterday when we got stuck\nin the sand so I got written directions\nto this trail head and uh honestly\nthey're a little confusing so um what do\nyou guys say we just kind of hit it and\nfigure it out\ntogether is we just going to send it\njust going to send it\nhey after being on the road solo for\nmost of this time this is one of my\nfavorite setups ever Justin is part-time\non the road and I'm full-time but having\nthe two separate rigs that we liveit is\nJust a Dream because when he wants to go\nhome he can and he doesn't have to have\nme with him and vice versa or he can\ncome out and meet me and I can stay\nplaces it's just the freedom and the\nrespect is just like but anyways let's\ntry to find this trail head oh\nboy all\nright here we go let's see how this\ngoes let's see the van's okay so\nfar do you think we should maybe take\nthe van a little bit further so it's out\nof sight from everybody and then get\ninto your truck it looks like we want to\ntake it down this\nthing all right we're in 4x4 I'm so\nnervous\nuhoh Okay so the sand looks like it's\ngetting kind of deep up\nhere I don't know if that I might walk\nand check it out real quick and see if\nthere's another spot to pull over but I\nthink this might have to be the spot let\nme check real quick still in slippers oh\nyeah that's some pretty deep sand but I\nthink the van the van's great so I think\nwe're going to take the van park it\nright over here yeah that seems good\nlook at that guy ready to take the\nrecovery boards you guys I love\noffroading just a cool spot makes you\nfeel so capable all right let's get to\nthat\nspot so honestly I'm really tempted to\nkeep going cuz it's so much fun so yeah\nI'm going to keep going where case we\nget stuck right let's\ngo I built this thing to off-road I have\nthe Locking d I have the winch the\nonboard air system and I finally have\nsomeone with me so like why not put it\nto the test we're just going to send\nit mid Offroad and confessional how we\ndoing good I'm doing good yeah this is\ngreat do we need to air down you think I\nthink right now we're fine mean Famous\nLast Words last time I said that I ended\nup with a slash sidewall so maybe oh\nthat's a big dip let's go down here like\nthis\noh it's getting\nSandy there we\ngo rule number one do not stop in deep\nsand keep\nrolling so I just went up to the top\nthere it's uh super rded and Rocky so\nlike for instance the van is going to be\nlike this and being top heavy I feel\nlike let's not risk it why don't I just\nput the van right over here and then\nwe'll take the truck up yep that's\nstable there she\nis\nwoo all right let's pack her\nup let's go boys\nokie\ndokie here we\ngo okay stuff in here first step air\ndown if we get into a deep sand we can\ngo as low as like I feel like\n15 oh\nscary I didn't know you were going to\npull it then so I jumped oh yeah that\nlooks good look at the surface\narea talking about me or the tire shut\nup\nanother necessity is going to be these\nrecovery boards for sure\ncatch I'm so\nexcited don't hit my\nlights how do you feel about this road\nit's definitely the sketchiest this\ntruck's ever been on this is so much\nfun should I get up\nthere\ncliming you got it baby woo what is over\nthis it's so scary what is over it oh\nyou're\ngood good job oh it goes up that\nway okay I currently checking if this is\ntoo sketchy and we should just walk it\nthis is gnarly like you would hit\nunderneath bad if you had a skid plate\nwe would be perfect from the bottom to\nthe top right here because the camera is\nso bad that's like a good 3 and 1/2 ft\nwall I feel like you can make it but\nit's it's pretty gar go look under my\ntruck the last time I hit the bottom of\nmy truck my truck immediately lost Fuel\nand pressure and broke down so yeah so\nright now we're basically going risk\nvers re wward is the risk of getting\nstuck out here with no fuel to the truck\nhigh enough reward to just get up this\nhill Oh my God look at all the dogs\nthough hi boys what you guys think\nshould we go for a hike or should we\nsend\nit if that hits that front Carly we're\ndone the suspension's out what do you\nthink send it slowly do we walk it or do\nwe do it just send it I'll walk it and\nI'll talk you through\nit I mean worst case we walk back to the\nvan and then we got to no oh my God I\ndon't like this do you want to go here\nor there probably\nhere ouch I go\nthere okay now this way yep you're good\nkeep going\non woo\nkeep it\nup that was so cool something sad like\nit\nmy boyfriend is so much cooler than\nme how's the\nlook any any any hits nothing's leing\nyeah there's no way the van was going to\nmake that uh-uh wow this is smooth\nsaling now oh we're going to check that\non the way back let's get to the ruin\nfirst oh it's up there you could see the\ndwellings in the Cliffside oh my gosh\nthat is sick I'm so excited oh this is\nincredible we are here they're ready to\ncheck out the\nruins she get it you got a little\nCactus where are they I got it he was\nstuck in his back pot oh good job yeah\nwe'll have to do a cactus trck at the\nend all right little Bab bab goes in the\ncar so places like this it's really\nreally important to respect rules but\nalso protect the archaeology and the\nwhole sites because there's not people\nthat are here making sure that people\nfollow the rules so one is dogs don't\nreally mix with it um you don't want to\nbe on the walls you don't want to grind\nthe Stones it's really just to explore\nbut treading\nlightly\nwow this is incredible\nI cannot believe this place is just\nuntouched and we have it all to\nourselves W look at the Pedro lifs up\nhow freaking cool this place is I know I\nnobody's out here cuz getting in here\nwas rough I like that you censored\nyourself you're\nlearning\noh wow oh my God that's so sick it is\nwild how well preserved these people's\nlives and even these writings on the\nwalls are if we do our part and follow\nleave no Trace ethics they will be here\nfor a very long time uh kind of like\nyour personal information and data if\nyou're not careful but in this situation\nwe do not want that to happen because\nwhen your information is out there that\ncould lead to Identity Theft Online\nharassment Robo and spam calls and that\nis all thanks to data brokers in case\nyou didn't know what data Brokers are\nthey are corporations that collect a\nhuge huge amount of personally\nidentifiable information from things\nlike government corporations or social\nmedia and having your personal\ninformation exposed and easy to find\nputs you at risk for targeted harassment\nso what can you do uh thankfully there\nis help like delete me the sponsor of\nthis video but they are people who do\nthe work for you and make sure that your\ninformation doesn't get into the wrong\nhands delete me actively monitors these\nwebsites making sure your info stays\nremoved and the best part is they even\nsend you regular reports to show their\nprogress thank you so much delete me for\nkeeping my information safe but also for\nsponsoring this video if you would like\n20% off your delete me consumer plans\njust go to join delet me.com niki2 or go\nto nikki2 at checkout all right this is\namazing let's check out some more ruins\nhuh oh oh my God that's so sick maybe\nthere was like a ceiling on that let's\nsee what we can look at\nsafely looks like there's a trail in oh\nthere is\nso do not climb on walls but stay on the\ntrail and this is a trail right here\nright yeah take my hand so we don't end\nup on any walls here thank\nyou\nwow this is awesome what a view they had\nright what do you think was in here the\nshower\ntheit now it looks like a storage room\nmaybe a baby has slept in\nhere just kidding I don't know what I'm\nsaying we can't climb the walls but\nlet's look over them this is\nawesome whoa look what's up there look\nat all these different\nchambers wow look at the Petroglyph up\ntoo this looks like at one point there\nwas a big room where we just sat around\nin a circle maybe a fire pit there and\nsmoked the pece\npipe\nsick thank\nyou look there's steps to go up to the\nrest of the house oh yeah let's check it\nout\nwow how long ago do you think they built\nthis I don't know but I'm fascinated to\nfind out imagine life\nthen oh my\ngoodness I am in heaven these people\nmust have been tiny these holes are\nlittle I don't know if I can fit through\nthere well yeah I guess those are the\ndoors huh you can see where they step\nthrough yeah I think cliff dwellings\nare my favorite thing to do and\nexplore there's one just like this that\nI love in New Mexico oh yeah you want to\nwalk around the corners and see what we\ncan\nfind I love my\njob like this is work today like you\nguys you guys thank you for for making\nthis possible and\nmaking my life I don't know maybe kind\nof looks like ear there face there's got\nto be more around here I mean if they\nlived here there's got to be so so many\nmarkings oh wow right in here what do\nyou think they mean well we got the\nanimals we got a\nperson honestly that looks kind of like\na alien I know right whoa I mean maybe\nthey knew things we don't\nright like look there's an alien with a\nspaceship right no actually look alien\non a\nspaceship it's like a little person\nhands up you're under\narrest oh my God you got me a\nrock wow this is a really pretty\none take only pictures leave only\nFootprints but finding rocks for your\npartner and then putting them back is\nreally really\ncool that one honestly looks like a fat\nguy blow darted a toucan in the butt\nit's a turtle a turtle blow dart touc\ncan rocks falling it's a warning sign\nrocks falling you don't think that that\nCircle could be like rocks tumbling down\ncuz look at how many rocks fall in this\narea what do you guys think everything\nmeans leave it in the comments I mean or\nif you know how cool see know a petri\ngphs up on the wall there possibly let's\ncheck out up here\nwow it looks like they like were making\nsomething whoa check this out we got a\npetri but what do you think they made\nhere so they were definitely grinding\nsomething\nhere I wonder what yeah it's a\nlizard W the Rocks up here are sick look\nat this one I found look how red it is I\nthink people like watching your butt\nfrom\nbehind look that looks like a face\nagain thank you Nick and Becky for\ntrusting us and giving away this\nbeautiful spot for us to explore you're\nthe best we love you all right\nboys lunch\ntime yky what's on the lunch menu sir\nsandies\nSandos\noh Cookie Dough\nmhm M perfect for our off-road\nAdventure\ncheers please sir can I have some\nwater look at that M what do you have to\ndo for all those condiments be happy I\ngot them actually we were at a Maverick\nfilling up water and he got recognized\nfrom the YouTube channel and he walks\nout with like a handful of\ncondiments thank thank you\ncheers woo all right that's where're at\nboys now for the next adventure getting\nback and and figuring out where to sleep\ncuz I don't know where we're going to do\nthat tonight we also need to find a\nshower yeah okay let's figure this\nout here we\ngo way back down do you want me to get\nout so I can tell you cuz remember we\nhave to straddle certain areas nice\ncrawling nice\ncrawling watch out hang on okay now\nyou're getting a little close to the\nedge here uh remember you had to stay\nleft though otherwise you\nslammed my left or right\nright you're dropping oh it's going to\nSL oh you got you got it you did\nit I got you did it we did it we did it\nwe did\nit that was so cool\nokay now I'm feeling confident what do\nyou guys say we get back to the\nvan one\ntwo we made it back safely to the van we\nhave two things that we need to do\nthough one we do need to air back up\nwe'll do that at the end um but number\ntwo so there's something about the\ndesert in the winter that is a little\nwild if you haven't experienced it for\ninstance right now it is 55° but the sun\nand the dryness you can wear it tank top\nbut as soon as that sun drops over those\nmountains it's a different story it's\nlike sub freezing so we want to take a\nshower today um and I'm thinking there's\ngoing to be water where we're going\ntomorrow so let's use up some of this\nwater in the back of the van that's how\nwe're going to shower today let do it\nnow yeah yeah when the sun's out like\nnecessary I'm going to get shower shoes\nall righty hey boys in one sec okay I\ngot my towel\nthank you\nsir oh oh God coming in coming down you\nhear that that's the heater\ngoing and\nthat is my shower and a heck of a lot of\npopcorn the popcorn Queen so true I have\nbeen looking forward to a real shower\nwhole week it's like a longer one I\ndon't mind if we overuse the water a\nlittle bit cuz we have I think 20\ngallons and we can refill tomorrow\nmorning so I think the only thing I'm\nnot totally thrilled about with this\nwater heater is that the exhaust comes\nout right over here right where the\noutdoor shower is so you're kind of like\nbreathing in fumes the whole time but\nyou do have hot water so can't complain\ntoo\nmuch oh now it's hot oo that's really\nhot yep it's\nworking okay biodegradable Wilderness\nwash\nI love this stuff a little bit goes such\na long way\num oh my God there's up in my eye and\nit's so hot ow\now oh it's actually so cold out there's\nsteam coming off of me it doesn't feel\nthat also it's like such a massive\nmisconception that like van lifers don't\nstay clean like I shower every single\nday it's just we use less\nwater are you laughing over there all\nright Justin come on in okay uh for the\nsake of YouTube and All of You Justin is\ngoing to be showering in the nude so\nwe'll be right\nback that is always there's there's\nliterally nothing like a hot shower when\nyou're living out of a vehicle you agree\nin Winter yeah seriously\nthat was best okay next van life\nobstacle challenge here um we need to\nfind a place to sleep mhm and the next\nclosest town is an hour and 45 which\nputs us there about 6 yeah and we do not\nlike finding a place to camp in the dark\nespecially cuz well one thing about van\nlife is you don't own land so if\nsomeone's already there you're so so um\nlet I think I think I know a place like\n20 minutes from here closer the better\nyeah yeah I don't like setting up in a\ndark yeah okay so uh what do you guys\nsay we go try to figure this\nout oh I got to close my back doors wow\nthat would suck driving away with that\nhuh probably would drive away like that\ntoo knowing me okay got all\nthat all right wow it's a mess in here\nit's another van life obstacle keeping\neverything organized and clean in such a\nsmall space\nlet's get over\nthere oh think it's stuck\nthere we\nhave like an hour before the sun goes\ndown I think we're doing good oh shoot I\njust realized we're going to have to\nrack on 20 minutes for airing Justin's\ntires back up so we are going to be\ncutting it really close\nregardless cannot forget that\nall right here we\ngo crap I'm stuck in the sand I got to\ntry this\nagain I got stuck I got to try\nagain\nand we're up Yeah Baby Woo\nI'm tempted to go a little further in\nbut I kind of like this view I mean\ncheck this view out you guys got a\nlittle Camper's eyeball but then all\nthat nose art behind it\no what a\nplace oh\nno I didn't close my closet oh\nGod I accidentally left my closet open\noh no oh there's so much on the ground\nhere\nshould have known that was going to\nhappen oh well what's for dinner tonight\nMr Fry\nwo in case you haven't picked up Justin\nis a chef oh my gosh for sure they call\nme Camp\ndaddy I'm the Camp's Daddy all my\nfriends call him Camp Daddy some of you\nguys call him bear\ndaddy Camp Daddy Camp\ndaddy he's the camp daddy oh he's one\nbaddy what camp daddy he's kind of fatty\nbut he's the\ndaddy of the\ncamptastic place I couldn't think of a\nanything wait what's a what what rhymes\nwith daddy that is a\nplace of the\nyeah we got nothing all right anyways\ndinner\ntime it's a red wine kind of\nevening would you like some\nyeah do you have a cup cuz I only have\none oh there's a little dog hair in this\none a strong poor\ngirl welcome to Camp\nlife cheers camp Daddy how's it looking\nlooking\ngood reduce the sauce a little and we're\ngood to\ngo there she\ngoes into the\nsunset it's\namazing look who's pooped out from the\nday these boys are dumb\nlook at Rodney too he's in the\nfront\ncheers this looks\ngood\nM thanks for cooking of\ncourse mhm\nFireside history with Nikki delventhal\nso these ruins were occupied around 900\nad to like 1200 and they were ancestors\nto the Hopi Zuni and peblo tribes that\nis so cool um apparently they were\nprehistoric farmers who grew corn beans\nand squash and they stored their crops\nin Pottery jars and greeneries that's\nwhat those little rooms that we hiked to\nwere four that we h up into yeah those\nwere to store everything the little\nsquare ones that were made from like the\nsoil mortar and the wooden beams mhm are\nyou channeling your inner Native\nAmerican when you talk about Native\nAmerican I know I've been to a lot of\nCeremonies and I would say I relate most\nto Native American spirituality of\ncultures for sure love that yeah I think\nthis is incredible probably why I'm so\nfascinated by the history and of the the\nruins so what do the petroglyphs me that\nwe found oh like the spiral one okay so\nspiral petroglyphs can have many\nmeanings including a representation of\nthe sun water migration or a calendar\nwhich is really interesting I feel like\nbut apparently for the poblo ancestors\nit mostly meant like the sky or the sun\num but maybe also like\nsolstices not Falling\nRocks didn't we see the same ones in uh\nyeah it's a very common Petroglyph to\nsee um but also if you think about it in\nthe area we are where all the tribes\nwere they're very like very common\ntribes but apparently a lot of people\nwill argue that the spiral represents\nthe Sun or the portal to the spirit\nworld so I think it has a very spiritual\nmeaning as well which I could definitely\nsee um perhaps it represented life\nitself for Life Beyond life like\neternity or the Galaxy I this is so cool\nso long story short find yourself in\npetroglyphs geek out go get to a fire\nand make sure you tune in Next Friday\nfor next week's Adventure because it's\njust going to keep getting better and\nbetter cheers we love you all",
+          "curated": false
+        },
+        {
+          "video_id": "yusCJWcQC8U",
+          "title": "2012 REI Frosty Freestyle Womens 10K",
+          "channel": "NordicSkiRacer",
+          "view_count": 254,
+          "upload_date": "20120117",
+          "duration_string": "5:15",
+          "description": "Cheryl Darnton gets out of the start like a rocket and never looks back to take victory at the 2012 Frosty Freestyle 10K cross country ski race - for the third year in a row.",
+          "tags": [
+            "Snow",
+            "Winter",
+            "Ski",
+            "Skiing",
+            "Cross Country Skiing",
+            "Frosty Freestyle",
+            "Huron Meadows"
+          ],
+          "url": "https://www.youtube.com/watch?v=yusCJWcQC8U",
+          "transcript": "[Applause]\nCome on, Brenda. Get up there.\nRacer,\nyou're kicking butt, Cheryl.\nCome on, Tracy. Just relax. Get in the\ngroove.\nYou know what you're doing.\nGo Mikey. Good job, Linda.\n[Music]\nOkay, Lisa. Okay, Diana.\nAll right.\ngot\nBrenda.\nLooking good.\nLooking good, ladies. Looking good.\nGood job, Carol.\nOkay, Lyanna. Go, go, go.\nOkay, Joe. Okay, Joe. Go. Go, go, go.\nGood job. Good job.\nAll right. Sure. I'll stay smooth.\nOkay, Tracy.\nGo, Tracy. Nice job. Nice and smooth.\nthe race.\nNo pictures allowed.\nGo get around her, Megan.\nQuit skiing together. Come on. Push the\nface.\nYou got to get in front and pull her for\na while.\nThis isn't so bad.\nI mean, I wasn't I had no designs. I'm\nway\nI haven't seen her out here before. We\ndon't call casting over for nothing.\nWorse than that.\nYeah.\nCome on, Tracy.\nYeah. You know what, Randy?\nNice job.\nBring the phone.\nNo, I've got a good I've got a good\nlittle video camera.\nBring it.\nReal high run.\nYou're going to go next week.\nOkay. Looking good. Looking good. See if\nyou can catch Tracy ahead of you.\nA little run. You should have done a run\nbefore.\nAll right. Looking good.\nGo.\nGo Tracy.\nBack. You're just a minute back. You're\ndoing great to hold that. Good job.\nSee you later.\nYou're looking great, Julie. Good job.\ndo this year.\nYep.\nYou dropped Megan, Lisa. Good job.\nKeep working, Lisa. Keep working hard.\nAll right. Looking good there. All\nright. Looking good.\nGo,\nMegan. Keep working.\nend of your fourth lap. End of your\nfourth lap.\nTwo to go.\nJulia,\nlooking good, Lisa.\nAll right, Diana, let's go.\nKeep it going.\nAll right, you're finishing your fourth\nlap. You have two more laps to go.\nYeah. Oh, yeah. Looking good. Looking\ngood. All right. All right.\nHe classic my face right behind him last\nyear.\nAll right, Carol.\nYelling at me on the he was yelling at\nme on the court.\nDoing great.\nFlawless.\nPretty nice, too.\nI ski around her all day.\nGood girl. Lex, swear to smile.\nKeep it going. Keep it going.\nOkay, Brenda.\nHow you're more efficient.\nOh, no kidding.\nAll right, Megan.\nGood job. Good job, Carol.\nHow's it feel to be racing?\nSee, she's smiling.\nAll right. You're still smiling. All\nright. Woohoo.\nGood job.\nGreat.\nYou are finishing lap five, Lex. You're\nfinishing lap five.\nYay, Cheryl. Woo. Woo!\nFork isn't good enough.\nWe're\nstill looking good. Still looking good.\nAll right. Yeah, you suck. Yeah, you\nsuck.",
+          "curated": true,
+          "curation_reason": "Race coverage of the actual Frosty Freestyle showing skier technique, course layout, and race atmosphere with spectator commentary.",
+          "display_order": 1
+        },
+        {
+          "video_id": "M4iTp0elMUw",
+          "title": "Cross country ski loppet in Walden",
+          "channel": "Sudbury.com",
+          "view_count": 201,
+          "upload_date": "20090127",
+          "duration_string": "59",
+          "description": "About 100 skiers bundled up for the annual Walden Cross Country Ski Loppet on Jan 25th.",
+          "tags": [
+            "Sudbury",
+            "Northern",
+            "Life",
+            "video",
+            "news",
+            "cross",
+            "country",
+            "skiing",
+            "annual",
+            "ski",
+            "loppet",
+            "races",
+            "Jim",
+            "Palys",
+            "President",
+            "of",
+            "Walden",
+            "Cross",
+            "Country",
+            "Fitness",
+            "Club"
+          ],
+          "url": "https://www.youtube.com/watch?v=M4iTp0elMUw",
+          "transcript": "all the way all the way all the way come\non come\non that's\ngreat this is the annual wal cross\ncountry ski lopit uh we've got three\ndistances uh 3 km 8 km and 16 kilm and\nAG is ranging from uh four years of age\nall the way up to uh 60 plus so how many\nparticipants did we have in this Lait\nthis year uh this year we have\napproximately 100 skiers now where are\nthey all from uh they're from all over\nthe place we have people from Southern\nOntario the majority from Sudbury we\nhave a number of Laurentian University\nstudents taking part this year\nw",
+          "curated": false
+        },
+        {
+          "video_id": "8g0iFIiXMyQ",
+          "title": "2011-01-08 The Frosty Freestyle 1km Backup Race Course",
+          "channel": "NordicSkiRacer",
+          "view_count": 478,
+          "upload_date": "20110109",
+          "duration_string": "2:47",
+          "description": "If there's not enough snow on the Frosty Freestyle course this coming Saturday, Jan 15, 2011, we'll use this alternative course on Maltby Lake in Huron Meadows Metropark. A beautiful prep job by Adam Haberkorn. Details at http://nordicskiracer.com/news.asp?NewsID=5308",
+          "tags": [
+            "cross country ski",
+            "Nordic ski",
+            "xc ski",
+            "Frosty Freestyle",
+            "Michigan Cup",
+            "NordicSkiRacer",
+            "Nordic Ski Racer"
+          ],
+          "url": "https://www.youtube.com/watch?v=8g0iFIiXMyQ",
+          "transcript": "soon as I got on the trail it was it was\npretty amazing it was like being on a\nski trail that was packed for several\nweeks\nhow are the tracks\nit's awesome\nI am how was the trail\nwe feel like we're in the Netherlands\nwe're skiing on a lake there's beautiful\nSun out here and we're just doing\nsomething no ski racer\nover here\noh\nwhat are you guys doing how do you like\nthe trail\nit's great yeah\nforeign\nvery firm\nuh really good edging and very fast\neven though it's really cold so it'll be\ngreat",
+          "curated": false
+        },
+        {
+          "video_id": "E5skC8ud734",
+          "title": "2013 Frosty Freestyle Nordic Ski Race",
+          "channel": "dirtkahuna",
+          "view_count": 1473,
+          "upload_date": "20130113",
+          "duration_string": "9:46",
+          "description": "On January 12, 2013, 60 athletes defied Mother Nature and completed a 12k cross-country ski race on man-made snow at Huron Meadows Metropark in Brighton, Michigan. Just 3 days before the race, there was nearly 10\" of beautiful, natural powder on the course, but rain showers and rising temperatures destroyed the regular trail. The crew at Huron Meadows used a stockpile of man-made snow to create a fun loop and the race went on as scheduled.",
+          "tags": [
+            "nordic skiing michigan",
+            "nordic",
+            "skiing",
+            "cross country skiing",
+            "frosty freestyle",
+            "huron meadows michigan"
+          ],
+          "url": "https://www.youtube.com/watch?v=E5skC8ud734",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage showing how the event adapted to challenging conditions by using man-made snow after weather destroyed the regular trail.",
+          "display_order": 3
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

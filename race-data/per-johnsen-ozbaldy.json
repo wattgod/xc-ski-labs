@@ -1,0 +1,93 @@
+{
+  "race": {
+    "name": "Per Johnsen Ozbaldy",
+    "slug": "per-johnsen-ozbaldy",
+    "display_name": "Per Johnsen Ozbaldy",
+    "tagline": "A memorial marathon at Snoqualmie Pass — fifty backcountry-influenced kilometers through the Washington Cascades.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 900,
+      "location": "Snoqualmie Pass, Washington",
+      "location_badge": "Washington, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Washington",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 50,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Basic aid stations",
+      "cutoff_time": null,
+      "website": "https://www.kongsbergerskiclub.org",
+      "lat": 47.3927,
+      "lng": -121.4145,
+      "field_size_estimate": 75,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Cascade mountain winter",
+      "description": "Heavy Pacific Northwest snowfall at Snoqualmie Pass. Temperatures typically -5°C to 3°C. Dense, wet snow is common.",
+      "typical_temp_c": "-5 to 3",
+      "challenges": [
+        "Heavy, wet Cascade snow",
+        "Variable conditions",
+        "Mountain pass weather"
+      ]
+    },
+    "course": {
+      "primary": "Long-distance course through Cascade mountain terrain near Snoqualmie Pass. Rolling mountain terrain with Pacific Northwest forest.",
+      "format": "loop",
+      "surface": "Groomed trails",
+      "technical_rating": 2,
+      "grooming": "Basic grooming",
+      "features": [
+        "Cascade mountain setting",
+        "Heavy snowpack environment",
+        "Memorial race honoring Per Johnsen"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 37,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 1,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Long distance but extremely small field and minimal organization.",
+      "tier_note": "Score 37 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Per Johnsen Ozbaldy Memorial is a small marathon ski race near Snoqualmie Pass in Washington, named in honor of Per Johnsen, a notable figure in Pacific Northwest Nordic skiing.",
+      "notable_facts": [
+        "Memorial race honoring Per Johnsen",
+        "Organized by the Kongsberger Ski Club",
+        "Part of the Pacific Northwest Nordic tradition"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

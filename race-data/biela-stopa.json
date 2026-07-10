@@ -6,7 +6,11 @@
     "tagline": "Fifty kilometers across the Kremnica highlands at 1,200 meters — Slovakia's oldest cross-country race, where Central European grit meets mountain solitude.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km", "25km", "10km"],
+      "distance_options": [
+        "50km",
+        "25km",
+        "10km"
+      ],
       "elevation_m": 450,
       "altitude_m": 1050,
       "location": "Kremnica / Skalka",
@@ -17,7 +21,7 @@
       "date": "Second Saturday in February",
       "date_specific": "2026: February 14",
       "discipline": "both",
-      "field_size": "~800 starters",
+      "field_size": 800,
       "founded": 1973,
       "registration": "Online registration; opens in autumn",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.bielastopa.sk",
       "lat": 48.7056,
-      "lng": 18.9189
+      "lng": 18.9189,
+      "field_size_estimate": 800,
+      "elevation_gain_m": 450
     },
     "climate": {
       "primary": "Central European mountain winter",
@@ -83,12 +89,116 @@
         "Survived the transition from Czechoslovakia to independent Slovakia",
         "Kremnica is historically famous for its medieval gold mint",
         "Course traverses the Skalka plateau above the historic mining town"
-      ]
+      ],
+      "founded": 1974
     },
-    "series_membership": ["euroloppet"],
+    "series_membership": [
+      "euroloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Biela stopa cross country ski race Kremnica / Skalka",
+      "videos": [
+        {
+          "video_id": "EJIBNigFsqA",
+          "title": "Biela stopa 8.3.2020 - 30 km C + Junior - Euroloppet, Skalka pri Kremnici",
+          "channel": "Matúš Jančík",
+          "view_count": 2463,
+          "upload_date": "20200308",
+          "duration_string": "4:37",
+          "description": "Druhý súťažný deň Bielej stopy - 30 km klasicky a Biela stopa Kremnica Junior.\n\nVýsledky na https://sportsofttiming.sk/sk/zavod/results/5200?rid=4552",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EJIBNigFsqA",
+          "curated": true,
+          "curation_reason": "Race coverage of the 30km classic distance with good duration showing course and technique.",
+          "display_order": 1
+        },
+        {
+          "video_id": "Xef_j1tK6mU",
+          "title": "Euroloppet race BIELA STOPA Slovakia Cross-Country Skiing",
+          "channel": "Michal Malák",
+          "view_count": 414,
+          "upload_date": "20221025",
+          "duration_string": "3:16",
+          "description": "Invitation for amazing XC Skiing Marathon race in the central Europe near Kremnica city - Slovakia.\nJoin EUROPEAN CHAMPIONSHIPS 4 -5.3.2023!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Xef_j1tK6mU",
+          "curated": false
+        },
+        {
+          "video_id": "lFWhvRYTjAA",
+          "title": "Biela stopa 7.3.2020 - 37km F -  Euroloppet, Skalka pri Kremnici",
+          "channel": "Matúš Jančík",
+          "view_count": 2362,
+          "upload_date": "20200307",
+          "duration_string": "3:35",
+          "description": "Krátky zostrih zo 47. ročníka Bielej stopy a prvého dňa - pretekov na 37 km voľnou technikou.\nhttp://bielastopa.eu/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=lFWhvRYTjAA",
+          "curated": true,
+          "curation_reason": "Race highlights from the 37km freestyle/skate distance showing course layout and racing action.",
+          "display_order": 2
+        },
+        {
+          "video_id": "4Ex4vdoyrIo",
+          "title": "Biela stopa 2020",
+          "channel": "Róbert Gutten",
+          "view_count": 178,
+          "upload_date": "20200308",
+          "duration_string": "18",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=4Ex4vdoyrIo",
+          "curated": false
+        },
+        {
+          "video_id": "uxFhZBfTMqU",
+          "title": "Biela stopa - Skalka 2018",
+          "channel": "AD MEDIA studio",
+          "view_count": 5874,
+          "upload_date": "20180130",
+          "duration_string": "5:57",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=uxFhZBfTMqU",
+          "curated": true,
+          "curation_reason": "Longer race coverage providing good overview of the Biela Stopa course and race atmosphere.",
+          "display_order": 3
+        },
+        {
+          "video_id": "2qYKxyCPq4U",
+          "title": "40. Biela stopa Kremnica-Skalka, Euroloppet",
+          "channel": "KKarol04",
+          "view_count": 3568,
+          "upload_date": "20130207",
+          "duration_string": "9:47",
+          "description": "40. Biela stopa, Kremnica-Skalka, Slovakia - EUROLOPPET. \n26.1.2013 - 45 a 25 km FT . \nŠtart a 3. km na obchvate zjazdovky.\nAutor Alexander Gašparík, KT Apollo",
+          "tags": [
+            "40. Biela stopa",
+            "Kremnica",
+            "Skalka",
+            "Euroloppet",
+            "45 a 25 km FT"
+          ],
+          "url": "https://www.youtube.com/watch?v=2qYKxyCPq4U",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage showing start area and 3km mark with course terrain details.",
+          "display_order": 4
+        },
+        {
+          "video_id": "aohgpG7Hw2M",
+          "title": "Biela stopa 2020 Skalka",
+          "channel": "Xixo gg",
+          "view_count": 2539,
+          "upload_date": "20200308",
+          "duration_string": "1:59",
+          "description": "Pretek v behu na lyziach",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=aohgpG7Hw2M",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

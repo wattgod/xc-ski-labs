@@ -6,7 +6,11 @@
     "tagline": "Forty-three classic kilometers through Norway's copper country — where Arctic mountain spring meets half a century of mining-town grit.",
     "vitals": {
       "distance_km": 43,
-      "distance_options": ["43km classic", "20km", "10km"],
+      "distance_options": [
+        "43km classic",
+        "20km",
+        "10km"
+      ],
       "elevation_m": 600,
       "altitude_m": 500,
       "location": "Sulitjelma to Fauske",
@@ -17,7 +21,7 @@
       "date": "April",
       "date_specific": "2026: April 11",
       "discipline": "classic",
-      "field_size": "~800",
+      "field_size": 800,
       "founded": 1968,
       "registration": "Open registration",
       "prize_purse": "Prizes for top finishers",
@@ -25,7 +29,9 @@
       "cutoff_time": "Official cutoff applies",
       "website": "https://www.kobberlopet.no",
       "lat": 67.1333,
-      "lng": 15.3833
+      "lng": 15.3833,
+      "field_size_estimate": 800,
+      "elevation_gain_m": 600
     },
     "climate": {
       "primary": "Arctic Norwegian coastal spring",
@@ -88,10 +94,102 @@
         "Founded in 1968 — approaching 60 years of continuous racing"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Kobberløpet cross country ski race Sulitjelma to Fauske",
+      "videos": [
+        {
+          "video_id": "IhE-DQaxHD4",
+          "title": "Sulitjelma Fjellandsby Løype nr 4",
+          "channel": "Frode Andersen",
+          "view_count": 508,
+          "upload_date": "20150117",
+          "duration_string": "1:52",
+          "description": "Malm Jibb & Snowboard og  Bodø Snowboard tester ut løype nr 4",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=IhE-DQaxHD4",
+          "transcript": "oh give me but you know I need\noh\nbaby\nbaby baby\nhe",
+          "curated": false
+        },
+        {
+          "video_id": "GNpl8dbmi8I",
+          "title": "Pov: Kobberløpet 2025",
+          "channel": "Magnus Waaler",
+          "view_count": 6966,
+          "upload_date": "20250411",
+          "duration_string": "18:48",
+          "description": "#kobberløpet #skiclassics #pov \nHvordan gikk det med Ski Classics Challenger-rennet kobberløpet 2025?\n\nSe det her!\nBli med meg på en rå og ufiltrert opplevelse fra Kobberløpet, filmet i full POV! Her får du være med tett på hele løpet, gjennom snødekt landskap, bratte bakker og ekte nordnorsk vinterstemning. Enten du planlegger å delta selv eller bare vil kjenne på følelsen, gir denne videoen deg en smakebit på hva Kobberløpet virkelig handler om 💪🔥",
+          "tags": [
+            "magnus",
+            "waaler",
+            "burger",
+            "king",
+            "petter",
+            "northug",
+            "langrenn",
+            "xc",
+            "skiing",
+            "ski",
+            "classics",
+            "kobberløpet",
+            "fauske",
+            "sulis",
+            "jakobsbakken",
+            "pov",
+            "gopro",
+            "vlog",
+            "max",
+            "novak",
+            "intervjudirektesport"
+          ],
+          "url": "https://www.youtube.com/watch?v=GNpl8dbmi8I",
+          "curated": true,
+          "curation_reason": "Perfect POV race experience from 2025 showing the full course through snowy terrain and challenging climbs.",
+          "display_order": 1
+        },
+        {
+          "video_id": "-ac9vayfL5A",
+          "title": "Historien om Kobberløpet",
+          "channel": "Jakobsbakken Mountain Resort",
+          "view_count": 106,
+          "upload_date": "20230310",
+          "duration_string": "17:34",
+          "description": "Kobberløpet er et skirenn som arrangeres hvert år i fantastiske omgivelser i den gamle gruvebyen, Sulitjelma, i Fauske Kommune i Salten.\n\nLøpet ble for første gang arrangert i 1968, og startet som en hedring av Mons Petter - mannen som fant den første malmklumpen i Sulitjelma, som ble starten på det 100 år lange gruveeventyret.\n\nI 1968 stilte 163 deltakere til start. De senere årene har løpet vokst seg større, og til 50. årsjubileumet i 2018 stilte hele 1200 deltakere på startstreken.\n\nSkistjerner som Martin Johnsrud Sundby, Petter Northug Jr., Bjørn Dæhlie, Ragnhild Haga og Anette Bøe er blant de som har gått løpet, sammen med en rekke lokale skihelter, bedriftsidrettslag, vennegjenger, familier og hvermannsen. Kobberløpet er et skirenn for alle!\n\nUnder VM i Seefeld 2019 uttalte Petter Northug at Kobberløpet er det beste turrennet med det beste publikummet. Martin Johnsrud Sunby har også sagt at folk må få øya opp for Sulis. Vi er utrolig stolte av uttalelsene, og av å kunne kalle oss vårens vakreste skieventyr.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=-ac9vayfL5A",
+          "curated": true,
+          "curation_reason": "Comprehensive race history and context about this unique mining town race from Sulitjelma to Fauske.",
+          "display_order": 2
+        },
+        {
+          "video_id": "08COyD6fwOU",
+          "title": "Petter Northug recommends everyone to go to Kobberløpet!",
+          "channel": "Jakobsbakken Mountain Resort",
+          "view_count": 141,
+          "upload_date": "20201018",
+          "duration_string": "22",
+          "description": "Petter Northug is the most winning cross country skier of all time in the WC and one of the greatest cross-country legends of all time. He has traveled all over the world on skiing races, but when it comes to skiing races in Norway, he has no doubt which race is his favorite.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=08COyD6fwOU",
+          "curated": false
+        },
+        {
+          "video_id": "LtCIaBK8AB4",
+          "title": "Starten i Kobberløpet 43 kilometer",
+          "channel": "Bodø Nu",
+          "view_count": 419,
+          "upload_date": "20180414",
+          "duration_string": "1:39",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=LtCIaBK8AB4",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

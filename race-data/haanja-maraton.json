@@ -6,7 +6,10 @@
     "tagline": "42 kilometers of classic skiing through the rolling hills of southern Estonia — where the Baltic's highest point meets one of the country's oldest marathon traditions.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km classic", "21km"],
+      "distance_options": [
+        "42km classic",
+        "21km"
+      ],
       "elevation_m": 500,
       "altitude_m": 300,
       "location": "Haanja, Southern Estonia",
@@ -17,15 +20,17 @@
       "date": "Late January",
       "date_specific": "2026: January 24",
       "discipline": "classic",
-      "field_size": "~800-1,200",
+      "field_size": 800,
       "founded": null,
       "registration": "Opens in fall",
       "prize_purse": null,
       "aid_stations": "Feed stations with warm drinks, porridge, and energy food",
       "cutoff_time": null,
       "website": "https://www.estoloppet.ee",
-      "lat": 57.7000,
-      "lng": 26.8500
+      "lat": 57.7,
+      "lng": 26.85,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 500
     },
     "climate": {
       "primary": "Baltic continental winter",
@@ -84,12 +89,150 @@
         "Suur Munamägi (318m), the Baltic states' highest point, is nearby",
         "Estonia has one of the strongest Nordic skiing traditions in the Baltic region",
         "Classic-only format reflects Estonian skiing tradition"
-      ]
+      ],
+      "founded": 1998
     },
-    "series_membership": ["estoloppet"],
+    "series_membership": [
+      "estoloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Haanja Maraton cross country ski race Haanja",
+      "videos": [
+        {
+          "video_id": "ryl97Kk5xkc",
+          "title": "6  Haanja suusa 100",
+          "channel": "Urmas Paejärv",
+          "view_count": 320,
+          "upload_date": "20160322",
+          "duration_string": "38:34",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ryl97Kk5xkc",
+          "curated": true,
+          "curation_reason": "Extended coverage of the Haanja ski race showing course layout and race conditions.",
+          "display_order": 3
+        },
+        {
+          "video_id": "IluUZLC-R84",
+          "title": "Haanja Ultra100",
+          "channel": "Urmas Paejärv",
+          "view_count": 106,
+          "upload_date": "20161103",
+          "duration_string": "1:50:45",
+          "description": "29.10.2016, Haanja",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=IluUZLC-R84",
+          "curated": false
+        },
+        {
+          "video_id": "smTFQxzDB2M",
+          "title": "Marko Kilp road to Lahti 2017",
+          "channel": "Team Haanja",
+          "view_count": 1357,
+          "upload_date": "20160921",
+          "duration_string": "2:47",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=smTFQxzDB2M",
+          "curated": false
+        },
+        {
+          "video_id": "dPposiW7fCE",
+          "title": "teatesõit ENoMV 2009 Haanjas 14-15 märts",
+          "channel": "rosskandoss13",
+          "view_count": 403,
+          "upload_date": "20090322",
+          "duration_string": "2:52",
+          "description": "Team Metallica product",
+          "tags": [
+            "teatesõit",
+            "avi"
+          ],
+          "url": "https://www.youtube.com/watch?v=dPposiW7fCE",
+          "curated": false
+        },
+        {
+          "video_id": "oKtPqy1YGMs",
+          "title": "TEAM NJW VLOG - Test race",
+          "channel": "Team Nordic Jobs Worldwide",
+          "view_count": 345,
+          "upload_date": "20201030",
+          "duration_string": "3:00",
+          "description": "New vlog is up! Mart Kevin Põlluste took part in a locally organised race by our own ski enthusiasts 😉 \nTake a look, how it went down!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=oKtPqy1YGMs",
+          "transcript": "so\ntoday we are doing a quick test run with\nthe\nlocal master skiers that have organized\nthis in\nclose to thailand the plan was to have a\nhard training\nbut this opportunity presented itself so\nwe'll see the plan is to do some\nsprint in between every 10k\nlet's see if i can hold it up or not\n[Music]\ngood night\none minute\nbye\nthe thing that killed me is the sprints\nin every 10k\ntried to push really hard on the change\nto the lap\nso kind of ran out of energy in the last\ntwo laps\nbut i think overall it was pretty good i\ncould all the time push\nreally hard so i felt happy\nbut yeah i was alone so\nthat was a little shame but other than\nthat i think\ni think the race was good\nyou",
+          "curated": true,
+          "curation_reason": "Skier-filmed vlog content showing race experience and post-race commentary in the Haanja area.",
+          "display_order": 2
+        },
+        {
+          "video_id": "m26OAIQAvho",
+          "title": "46th Tartu Maraton - trailer",
+          "channel": "TartuMaratoniKlassik",
+          "view_count": 2690,
+          "upload_date": "20190108",
+          "duration_string": "32",
+          "description": "Tartu Maraton is also known as the Estonian Song Festival of Winter because of its grand proportions and international fame. It brings together thousands of skiing enthusiasts every year from all corners of the world.\n\nLear more here ➡️ http://bit.ly/TM2019_eng",
+          "tags": [
+            "Tartu Maraton",
+            "skiing",
+            "marathon",
+            "Estonia"
+          ],
+          "url": "https://www.youtube.com/watch?v=m26OAIQAvho",
+          "curated": false
+        },
+        {
+          "video_id": "qdrAdjMwv7g",
+          "title": "Tartu Maraton 2009",
+          "channel": "Rob474747",
+          "view_count": 1309,
+          "upload_date": "20090218",
+          "duration_string": "2:21",
+          "description": "63km langlaufen in Estland Rob Brugman\r\nfilm Pie Janssen",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=qdrAdjMwv7g",
+          "curated": false
+        },
+        {
+          "video_id": "OldPlzEaNDU",
+          "title": "Lumestuudio #16 48. Haanja Maraton",
+          "channel": "Estoloppet",
+          "view_count": 180,
+          "upload_date": "20260306",
+          "duration_string": "33:11",
+          "description": "Lumestuudio 16. osas arutleb Vahur Teppan 48. Haanja Maratoni peakorraldajaga, kuidas maratoni päev osalejale välja näeb ning mida peab silmapidama.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=OldPlzEaNDU",
+          "curated": true,
+          "curation_reason": "Recent detailed race discussion with organizer about what participants can expect on race day.",
+          "display_order": 1
+        },
+        {
+          "video_id": "5HQNX9XTlmQ",
+          "title": "44 Haanja Maraton eelvideo",
+          "channel": "Estoloppet",
+          "view_count": 96,
+          "upload_date": "20190226",
+          "duration_string": "34",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=5HQNX9XTlmQ",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "The thing that killed me is the sprints in every 10k tried to push really hard on the change to the lap so kind of ran out of energy in the last two laps but I think overall it was pretty good I could all the time push really hard.",
+          "source_video_id": "oKtPqy1YGMs",
+          "source_channel": "Team Nordic Jobs Worldwide",
+          "source_view_count": 345,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

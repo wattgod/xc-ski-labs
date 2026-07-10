@@ -6,7 +6,12 @@
     "tagline": "Fifty kilometers from mountains to sea — a point-to-point urban odyssey through Alaska's wild heart.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km classic", "50km freestyle", "40km", "25km"],
+      "distance_options": [
+        "50km classic",
+        "50km freestyle",
+        "40km",
+        "25km"
+      ],
       "elevation_m": 600,
       "altitude_m": 150,
       "location": "Anchorage",
@@ -17,7 +22,7 @@
       "date": "First Sunday in March",
       "date_specific": "2026: March 1",
       "discipline": "both",
-      "field_size": "~1,500",
+      "field_size": 307,
       "founded": 1988,
       "registration": "Open registration",
       "prize_purse": "Cash prizes for top finishers",
@@ -25,7 +30,9 @@
       "cutoff_time": "No official cutoff",
       "website": "https://www.tourofanchorage.com",
       "lat": 61.2181,
-      "lng": -149.9003
+      "lng": -149.9003,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 600
     },
     "climate": {
       "primary": "Subarctic coastal winter",

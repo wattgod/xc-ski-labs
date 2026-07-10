@@ -1,0 +1,150 @@
+{
+  "race": {
+    "name": "Bieg Lotników",
+    "slug": "bieg-lotnikow",
+    "display_name": "Bieg Lotników",
+    "tagline": "Thirty kilometers through the Beskid Sądecki foothills — Poland's spa town classic where thermal springs meet frozen trails.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 450,
+      "altitude_m": 700,
+      "location": "Krynica-Zdrój",
+      "location_badge": "Małopolska, Poland",
+      "country": "Poland",
+      "country_code": "PL",
+      "region": "Małopolska",
+      "date": "Mid-February",
+      "date_specific": "2026: February 14",
+      "discipline": "classic",
+      "field_size": 400,
+      "founded": 1985,
+      "registration": "Online pre-registration; same-day available",
+      "prize_purse": null,
+      "aid_stations": "3 feed stations with warm tea, energy bars, and Polish pastries",
+      "cutoff_time": null,
+      "website": "https://www.bieglotnikow.pl",
+      "lat": 49.4215,
+      "lng": 20.9591,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 450
+    },
+    "climate": {
+      "primary": "Continental mountain winter",
+      "description": "February in the Beskid Sądecki brings reliable cold and decent snow cover. The spa town's sheltered valley position moderates extremes. Temperatures typically -8°C to -1°C. The region receives consistent snowfall from December through March.",
+      "typical_temp_c": "-8 to -1",
+      "challenges": [
+        "Variable snow conditions in lower spa town sections",
+        "Fog can develop in valley sections during morning hours",
+        "Temperature inversions trap cold air in sheltered valleys",
+        "Late-season thaw risk at lower elevations"
+      ]
+    },
+    "course": {
+      "primary": "Looped course through the forested hills surrounding Krynica-Zdrój, passing through mixed spruce and beech forest with rolling terrain typical of the Beskid Sądecki range. Several moderate climbs with rewarding descents back toward the spa town.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through mountain forest terrain",
+      "technical_rating": 3,
+      "grooming": "Regional standard grooming with Polish ski club support",
+      "features": [
+        "Historic spa town start and finish",
+        "Mixed forest skiing through spruce and beech",
+        "Views of the Beskid Sądecki mountain range",
+        "Post-race thermal spring recovery opportunities",
+        "Named for Polish aviators — a local memorial tradition"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Solid regional event anchored by Krynica-Zdrój's spa town charm. Limited international visibility but strong local community. The Beskid Sądecki scenery and post-race thermal springs add unique character.",
+      "tier_note": "Score 51 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1985 as a tribute to Polish aviators, this race through the Beskid Sądecki hills has become a fixture of the Polish XC ski calendar. Krynica-Zdrój's status as Poland's premier mountain spa town gives the event a unique post-race recovery option. The race draws primarily from the southern Polish skiing community.",
+      "notable_facts": [
+        "Named in honor of Polish aviators — a regional memorial tradition",
+        "Krynica-Zdrój is known as the 'Pearl of Polish Spas'",
+        "The Beskid Sądecki range offers some of Poland's most reliable natural snow",
+        "Post-race thermal spring soaks are a popular tradition among participants",
+        "One of several citizen ski races in Poland's southern mountain belt"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Bieg Lotników cross country ski race Krynica-Zdrój",
+      "videos": [
+        {
+          "video_id": "3M6WKeAteXY",
+          "title": "RyterSKI zimą zaprasza!",
+          "channel": "Ośrodek Rekreacyjny Ryterski",
+          "view_count": 552,
+          "upload_date": "20220125",
+          "duration_string": "29",
+          "description": "Nasz ośrodek to nie tylko miejsca hotelowe, to także stacja narciarska pośród malowniczych widoków. Serdecznie zapraszamy www.ryterski.pl",
+          "tags": [
+            "ryterski",
+            "rytro",
+            "zima",
+            "stok",
+            "stacja narciarska",
+            "zimowa aura",
+            "stacja"
+          ],
+          "url": "https://www.youtube.com/watch?v=3M6WKeAteXY",
+          "transcript": "[Music]\num\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "uK5BJIwS8_c",
+          "title": "XXXIII Bieszczadzki Bieg Lotników  9 luty 2020",
+          "channel": "capricornus13",
+          "view_count": 324,
+          "upload_date": "20200210",
+          "duration_string": "12:26",
+          "description": "XXXIII Bieszczadzki Bieg Lotników odbył się w pięknej zimowej scenerii.Wzięło w nim udział przeszło 150 osób z całej Polski.Niektórzy byli zachwyceni tak dużą ilością śniegu, ponieważ jak sami mówili w rodzinnych stronach nie widzieli śniegu od dwóch lat.",
+          "tags": [
+            "bieg lotników ustianowa 2020"
+          ],
+          "url": "https://www.youtube.com/watch?v=uK5BJIwS8_c",
+          "curated": true,
+          "curation_reason": "Race coverage of Bieg Lotników event with good duration and race-specific content showing winter conditions and participant experience.",
+          "display_order": 1
+        },
+        {
+          "video_id": "zzEM3JEKnfI",
+          "title": "Elbrus Zatorska2016",
+          "channel": "Ustjanowa Wieś",
+          "view_count": 1912,
+          "upload_date": "20160802",
+          "duration_string": "2:27",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=zzEM3JEKnfI",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

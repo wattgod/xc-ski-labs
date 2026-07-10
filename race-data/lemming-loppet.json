@@ -1,0 +1,152 @@
+{
+  "race": {
+    "name": "Lemming Loppet",
+    "slug": "lemming-loppet",
+    "display_name": "Lemming Loppet",
+    "tagline": "Germany's Black Forest answer to Sweden's Vasaloppet — a newer marathon through one of Central Europe's most atmospheric Nordic landscapes.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "21km"
+      ],
+      "elevation_m": 400,
+      "altitude_m": 900,
+      "location": "Northern Black Forest, Baden-Württemberg",
+      "location_badge": "Black Forest, Germany",
+      "country": "Germany",
+      "country_code": "DE",
+      "region": "Baden-Württemberg",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 200,
+      "founded": 2016,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://lemming-loppet.de/en/",
+      "lat": 48.6,
+      "lng": 8.2,
+      "field_size_estimate": 350,
+      "elevation_gain_m": 400
+    },
+    "climate": {
+      "primary": "Central European mountain winter",
+      "description": "Snow conditions in the Black Forest are increasingly variable. Temperatures typically -5°C to 3°C. Snowmaking may supplement natural snow.",
+      "typical_temp_c": "-5 to 3",
+      "challenges": [
+        "Unreliable snow conditions due to climate change",
+        "Mild winters can force cancellation or course modification",
+        "Fog common in Black Forest valleys"
+      ]
+    },
+    "course": {
+      "primary": "Trail course through the Northern Black Forest with typical Central European rolling terrain through dense fir forest.",
+      "format": "loop",
+      "surface": "Machine-groomed skating trails",
+      "technical_rating": 3,
+      "grooming": "Good grooming when snow permits",
+      "features": [
+        "Atmospheric Black Forest setting",
+        "Modeled on Sweden's Vasaloppet format",
+        "Growing event with enthusiastic organizers"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 44,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "A newer event still finding its footing. Snow reliability in the Black Forest is the main challenge.",
+      "tier_note": "Score 44 places in TIER 4"
+    },
+    "history": {
+      "summary": "Founded in 2016, the Lemming Loppet is a newer Nordic ski marathon modeled after Sweden's Vasaloppet. Set in Germany's Black Forest, it brings the Scandinavian loppet tradition to Central Europe.",
+      "notable_facts": [
+        "Founded 2016 — one of Germany's newest ski marathons",
+        "Modeled on Sweden's Vasaloppet format",
+        "Black Forest has a long Nordic skiing tradition"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Lemming Loppet cross country ski race Northern Black Forest",
+      "videos": [
+        {
+          "video_id": "eL2hdJwl7uc",
+          "title": "Kniebis,  Lemming Loppet  21.01.2024",
+          "channel": "Andrej Praszolov",
+          "view_count": 52,
+          "upload_date": "20240121",
+          "duration_string": "10:46",
+          "description": "",
+          "tags": [
+            "Kniebis"
+          ],
+          "url": "https://www.youtube.com/watch?v=eL2hdJwl7uc",
+          "curated": true,
+          "curation_reason": "Recent 2024 coverage of the actual Lemming Loppet race at the correct location (Kniebis, Black Forest).",
+          "display_order": 1
+        },
+        {
+          "video_id": "2ojB5HPfY9E",
+          "title": "Lemming Loppet 2018",
+          "channel": "Thomas Schindler (SchindlerSportsService)",
+          "view_count": 755,
+          "upload_date": "20180121",
+          "duration_string": "1:13:15",
+          "description": "Zieleinlaufvideo des 3. Lemming Loppet 21.1.2018 im Skistadion Kniebis\npräsentiert von SchindlerSports.de",
+          "tags": [
+            "Langlauf",
+            "Lemminge",
+            "Karlsruhe",
+            "Kniebis",
+            "Zeitmessung",
+            "raceresult",
+            "timing",
+            "race|result",
+            "Skating",
+            "Fischer Ski",
+            "Triathlon",
+            "Lemming Loppet",
+            "Loppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=2ojB5HPfY9E",
+          "curated": true,
+          "curation_reason": "Race finish line coverage from the 3rd Lemming Loppet at Kniebis ski stadium showing race atmosphere and results.",
+          "display_order": 2
+        },
+        {
+          "video_id": "Vr7fN6z6oN4",
+          "title": "Reino Keski-Salmi Loppet 2019",
+          "channel": "Sarah Wallensteen-Lauze",
+          "view_count": 2469,
+          "upload_date": "20190120",
+          "duration_string": "5:37",
+          "description": "The 35th Annual Reino Keski-Salmi Loppet held at Larch Hills. For more information visit https://skilarchhills.ca/loppet/. \n\nVideo: Sarah & Adam Lauzé, Trevor Wallensteen \nwww.sarahlauze.com\n\nMusic: Judah & the Lion - Suit & Jacket \nImagine Dragons - Believer (Kaskade Remix)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Vr7fN6z6oN4",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

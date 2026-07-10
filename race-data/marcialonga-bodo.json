@@ -1,0 +1,210 @@
+{
+  "race": {
+    "name": "Marcialonga Bodo",
+    "slug": "marcialonga-bodo",
+    "display_name": "Marcialonga Bodo",
+    "tagline": "Arctic Norway meets Italian racing heritage — a Ski Classics Pro Tour marathon above the Arctic Circle.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "45km",
+        "18km",
+        "6km"
+      ],
+      "elevation_m": 1063,
+      "altitude_m": 50,
+      "location": "Bodo, Nordland",
+      "location_badge": "Nordland, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Nordland",
+      "date": "Late March",
+      "date_specific": "2026: March 21",
+      "discipline": "classic",
+      "field_size": 1500,
+      "founded": 2024,
+      "registration": "Open registration via Ski Classics and race website",
+      "prize_purse": "Ski Classics Pro Tour points (300-point category)",
+      "aid_stations": "Multiple aid stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.arcticmarcialonga.no/",
+      "lat": 67.2804,
+      "lng": 14.4049,
+      "field_size_estimate": 1750,
+      "elevation_gain_m": 1063
+    },
+    "climate": {
+      "primary": "Arctic coastal Norwegian winter",
+      "description": "Bodo sits just above the Arctic Circle on the Norwegian coast. Temperatures on race day typically range from -10°C to 0°C. Maritime influence moderates extremes but can bring variable conditions including wind and precipitation.",
+      "typical_temp_c": "-8 to 0",
+      "challenges": [
+        "Arctic coastal winds can create challenging conditions",
+        "Variable snow quality due to maritime climate influence",
+        "Cold temperatures at higher elevations on the course",
+        "Daylight still limited in late March at 67°N latitude"
+      ]
+    },
+    "course": {
+      "primary": "Start and finish at Bestemorenga near Bodo city center, with the elite race finishing at Junkerfjellet. Varied Arctic terrain combining coastal and mountain elements.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed classic tracks through varied Arctic terrain",
+      "technical_rating": 3,
+      "grooming": "Ski Classics Pro Tour standard grooming",
+      "features": [
+        "Start at Bestemorenga near Bodo city center",
+        "Elite race finishes at Junkerfjellet",
+        "Arctic landscape above the Arctic Circle",
+        "Ski Classics Pro Tour 300-point category event",
+        "Multiple distance options including 6km family race"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 69,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 3,
+      "prestige": 4,
+      "international_draw": 4,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 4,
+      "competitive_depth": 4,
+      "score_note": "A new but high-profile Ski Classics Pro Tour event bringing elite racing to the Arctic. Strong prestige and international draw from series membership, offset by remote location and limited history.",
+      "tier_note": "Prestige 4 promotes one tier: raw score 67 (T2) stays T2"
+    },
+    "history": {
+      "summary": "Marcialonga Bodo is a relatively new addition to the Ski Classics calendar, launched as a Challengers event in 2024 and elevated to full Pro Tour status in 2025. The race brings the storied Marcialonga brand from the Italian Dolomites to the Arctic coast of Northern Norway, creating a unique hybrid of Italian racing tradition and Norwegian ski culture.",
+      "notable_facts": [
+        "Launched in 2024 as a Ski Classics Challengers event",
+        "Elevated to full Ski Classics Pro Tour status in 2025",
+        "Extends the Marcialonga brand from Italy to Arctic Norway",
+        "One of the northernmost Ski Classics Pro Tour events",
+        "300-point category in the Pro Tour standings"
+      ]
+    },
+    "series_membership": [
+      "ski_classics_pro_tour"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Marcialonga Bodo cross country ski race Bodo",
+      "videos": [
+        {
+          "video_id": "fqz0DIsBen4",
+          "title": "Marcialonga Bodø | Ski Classics Pro Tour | 22/03/2025 | beIN SPORTS",
+          "channel": "beIN SPORTS USA",
+          "view_count": 88,
+          "upload_date": "20250323",
+          "duration_string": "3:14",
+          "description": "Relive the best moments of the Ski Classics Pro Tour Marcialonga Bodø!\n\nCatch the latest highlights of Ligue 1🇫🇷, Turkish Süper Lig🇹🇷, \nCopa Libertadores🏆, Copa Sudamericana🥇 on our YouTube channel.\nFollow the latest news on beIN SPORTS.com and stream all our matches on our beIN SPORTS CONNECT app or on our beIN XTRA channels.\nDownload beIN SPORTS CONNECT on Apple devices: https://tinyurl.com/y4bd3osh\nDownload beIN SPORTS CONNECT on Android devices: https://tinyurl.com/yxlst4vj",
+          "tags": [
+            "ski",
+            "ski classics pro tour",
+            "marcialong",
+            "MARCIALONGA BODO"
+          ],
+          "url": "https://www.youtube.com/watch?v=fqz0DIsBen4",
+          "curated": true,
+          "curation_reason": "Recent official race coverage from 2025 showing highlights from the actual event.",
+          "display_order": 1
+        },
+        {
+          "video_id": "0hlaOOGBTck",
+          "title": "Highlights of the day Marcialonga Bodø I Ski Classics Pro Tour 2024/2025",
+          "channel": "SC - The Ski Community",
+          "view_count": 2509,
+          "upload_date": "20250322",
+          "duration_string": "1:47",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=0hlaOOGBTck",
+          "transcript": "[Music]\nHeat. Hey,\nHeat.\nHeat. Heat.\nHeat. Heat. Heat.\nof the king.",
+          "curated": false
+        },
+        {
+          "video_id": "9eBe9s15cpc",
+          "title": "Marcialonga Bodø teaser - Ski Classics Season XVII",
+          "channel": "SC - The Ski Community",
+          "view_count": 274,
+          "upload_date": "20250602",
+          "duration_string": "32",
+          "description": "Marcialonga Bodø teaser - Ski Classics Season XVII\n\nMarcialonga Bodø: A unique event between the city and Arctic nature",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=9eBe9s15cpc",
+          "curated": false
+        },
+        {
+          "video_id": "vKcd4r4dGSA",
+          "title": "Testing Bodø: Marcialonga Arctic Ski Race",
+          "channel": "Visit Bodø",
+          "view_count": 304,
+          "upload_date": "20240313",
+          "duration_string": "2:11",
+          "description": "Testing Bodø is Visit Bodø's new series about the activities and life up in Northern Norway. We are testing everything from local restaurant dishes to climbing in the world's northernmost Via Ferrata and learning about the old trading boats that are stored in Bodø and Salten.  \n\nLearn more about Bodø: \nhttps://visitbodo.com/en/\n\nABOUT\nVisit Bodø is the official destination company and travel inspiration to Bodø and the Salten region in Northern Norway.\n\nCONNECT\nWeb: https://www.visitbodo.com\nFacebook:  / visitbodo\nInstagram:   / visitbodo\nTiktok:         / visitbodo\n\n\nPLANNING A TRIP  TO NORTHERN NORWAY?\nCheck out Bodø - the first European Capital of Culture above the Arctic Circle\n\n#visitbodo #visitnorway #northernnorway #marcialong",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=vKcd4r4dGSA",
+          "curated": false
+        },
+        {
+          "video_id": "cE1S-CZkar8",
+          "title": "Marcialonga 2014 på 5 minutter HD",
+          "channel": "Rune Andre Wiig",
+          "view_count": 4792,
+          "upload_date": "20140202",
+          "duration_string": "5:35",
+          "description": "fra 11. til 3. pulje -the true story",
+          "tags": [
+            "Marcialonga",
+            "2014"
+          ],
+          "url": "https://www.youtube.com/watch?v=cE1S-CZkar8",
+          "curated": true,
+          "curation_reason": "Skier-filmed content showing race experience and progression through different start groups.",
+          "display_order": 3
+        },
+        {
+          "video_id": "uSe7mHH1msU",
+          "title": "Teaser Marcialonga 2024",
+          "channel": "Fysio-outdoor",
+          "view_count": 793,
+          "upload_date": "20230601",
+          "duration_string": "3:44",
+          "description": "",
+          "tags": [
+            "Marcialonga",
+            "Längdskidor",
+            "Resa",
+            "Skidor",
+            "Rullskidor",
+            "Stakning",
+            "Vasaloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=uSe7mHH1msU",
+          "curated": false
+        },
+        {
+          "video_id": "t59Bhm5I4q0",
+          "title": "Reistadløpet - reklame",
+          "channel": "Salangen- Nyheter AS",
+          "view_count": 1250,
+          "upload_date": "20171220",
+          "duration_string": "2:05",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=t59Bhm5I4q0",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

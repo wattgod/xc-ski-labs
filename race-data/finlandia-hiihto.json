@@ -6,8 +6,13 @@
     "tagline": "Finland's national ski marathon — once the world's largest, still the heartbeat of Lahti's legendary ski culture.",
     "vitals": {
       "distance_km": 62,
-      "distance_options": ["62km", "52km", "32km", "20km"],
-      "elevation_m": 600,
+      "distance_options": [
+        "62km",
+        "52km",
+        "32km",
+        "20km"
+      ],
+      "elevation_m": 450,
       "altitude_m": 150,
       "location": "Lahti",
       "location_badge": "Päijät-Häme, Finland",
@@ -17,7 +22,7 @@
       "date": "Mid-February",
       "date_specific": null,
       "discipline": "both",
-      "field_size": "~3,000-5,000 (peak 13,226 in 1984)",
+      "field_size": 3000,
       "founded": 1974,
       "registration": "Open registration, online entry",
       "prize_purse": null,
@@ -25,7 +30,9 @@
       "cutoff_time": null,
       "website": "https://www.finlandiahiihto.fi",
       "lat": 60.9827,
-      "lng": 25.6550
+      "lng": 25.655,
+      "field_size_estimate": 4000,
+      "elevation_gain_m": 450
     },
     "climate": {
       "primary": "Southern Finnish winter",
@@ -86,10 +93,190 @@
         "Both classic and freestyle distances offered since the 1990s"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Finlandia-hiihto cross country ski race Lahti",
+      "videos": [
+        {
+          "video_id": "lypYHEpwSNc",
+          "title": "Finlandia Ski Marathon (Finlandia-hiihto) 2016 - 32 km",
+          "channel": "My Finland Tour Operator",
+          "view_count": 382,
+          "upload_date": "20160407",
+          "duration_string": "1:56",
+          "description": "Start of Finlandia Ski Marathon 2016 classic 32 km. Why not participate as a skier or spectator in 2017 and stay a week in Lahti, Finland, for activity holidays with My Finland? This is a race for all skier levels - if you think 32 km is not too much - or too little :) . Book with My Finland ! Demande d'offre avev My Finland : www.myfinland.info .",
+          "tags": [
+            "Finlandia",
+            "skiing marathon",
+            "2016",
+            "Finland",
+            "activity holidays",
+            "finlandia-hiihto",
+            "world ski championships lahti 2017"
+          ],
+          "url": "https://www.youtube.com/watch?v=lypYHEpwSNc",
+          "transcript": "thank you\n[Music]\nproduction enough\ntwo minutes to start\ncompetition\nthere's key friends and that way\nor stickier during the first uphill and\nremember you are making history today\nit's first time when we start feeding on\nthe other to watch Dave on lucky and we\nit's the first time when we close this\nteam break\ns so\nenjoyable\nwelcome back",
+          "curated": false
+        },
+        {
+          "video_id": "TmoVMP80Tes",
+          "title": "Finlandia-hiihto - 7th February 2026",
+          "channel": "Vesa Lampinen",
+          "view_count": 2601,
+          "upload_date": "20260207",
+          "duration_string": "27:51",
+          "description": "This year I wanted to do things differently, to break my own traditions. That's why I filmed only the first starting group at the stadium.\n \nIt was a rather cold day. The lowest temperature was about -20 C (-4 F).",
+          "tags": [
+            "Finlandia-hiihto",
+            "Finski",
+            "Lahti",
+            "skiing",
+            "Finlandia-hiihto 2026"
+          ],
+          "url": "https://www.youtube.com/watch?v=TmoVMP80Tes",
+          "curated": false
+        },
+        {
+          "video_id": "kd8LOmnt5y8",
+          "title": "Finlandia-hiihto 2024: 62 km classic (POV)",
+          "channel": "Gaiaspiker",
+          "view_count": 6252,
+          "upload_date": "20240305",
+          "duration_string": "5:09:58",
+          "description": "Full 62 km course of Finlandia-hiihto 24.2.2024 with classic style and 9.20 start (starting group 3).\n\nFinlandia-hiihto (Finlandia Ski Marathon) is a long-distance cross-country skiing competition held in Finland each February.\nFrom 2001 onwards, the Finlandia-hiihto has been raced on a course that takes the competitors from Lahti to Hollola and back.\nIn 2011, Finlandia-hiihto became a part of the FIS Marathon Cup series.\nFinlandia-hiihto is one of the events forming the Worldloppet (WL).\nhttps://www.finlandiahiihto.fi/\nhttps://en.wikipedia.org/wiki/Finlandia-hiihto\nhttps://www.worldloppet.com/\n\nVideo chapters and service stations:\n00:00 Start\n00:47:53 Messilä 10,5 km\n01:31:51 Hälvälä 19 km\n02:15:35 Orinkarkaus 28 km\n03:08:14 Papinkaivo 38,5 km\n04:08:00 Heinsuo 50,4 km\n04:45:15 Tapanila 57,4 km\n\nTechnical details: \nTemperature from 0 to 2 °C with humidity 92-100 %\nVideo with GoPro Hero11 Black 1080p 30fps SuperView Hypersmooth and three Enduro batteries\nMaps with 2d.routegadget.net (Finland NLS bgmap & rotatable blank background)\nEditing with Shotcut version 24.02.29 https://www.shotcut.org/\nTransportation and carb loading with the generous help of Tommi and Elina",
+          "tags": [
+            "finlnandia",
+            "finlandi",
+            "lahtihiihto",
+            "laturetki",
+            "finalanli",
+            "finla",
+            "hiihto",
+            "hiihot",
+            "finlanfia",
+            "finalndia",
+            "finlandiahiihhot",
+            "finaldia",
+            "finalia",
+            "hoihto",
+            "finski",
+            "finksi",
+            "fsinsk",
+            "24.2.2024",
+            "2/24/2024",
+            "salpausselkä",
+            "lahti",
+            "hollola",
+            "pertsa",
+            "perinteinen",
+            "persta"
+          ],
+          "url": "https://www.youtube.com/watch?v=kd8LOmnt5y8",
+          "curated": false
+        },
+        {
+          "video_id": "X9nlBa880N0",
+          "title": "🎿 Finlandia Hiihto 2025 – 66 km Skiing Adventure in Lahti | 4K First-Person View + Drone Footage ❄️",
+          "channel": "Kipe5000",
+          "view_count": 1150,
+          "upload_date": "20250319",
+          "duration_string": "6:33:32",
+          "description": "Welcome to an unforgettable skiing experience at Finlandia Hiihto 2025! 🎿❄️ This 4K video takes you through the 66 km race in Lahti, Finland, capturing the full journey from a first-person perspective (FPV). Enjoy the stunning winter scenery and feel the challenge of this legendary ski marathon!\n\n🌲 What’s in the video?\n\nFirst-Person View (FPV): Experience the full race through the skier's eyes, from start to finish. See the trails, feel the effort, and immerse yourself in the race.\nDrone Footage: Stunning aerial shots from the starting area and key checkpoints along the course, showcasing the scale of the event and the beauty of the snowy landscape.\n📍 Route & Performance:\nThe skier completes the 66 km course in 6 hours and 30 minutes, giving a realistic insight into the endurance and technique required for this epic ski marathon.\n\n🏁 Checkpoint Highlights:\nFollow along as we stop at multiple aid stations along the course, where skiers refuel and prepare for the next stage of the journey. These key locations bring energy and excitement to the race!\n\n❄️ Weather Conditions:\nA crisp, clear winter day provides perfect skiing conditions, highlighting the beautiful Finnish nature without direct sunlight interfering with the view.\n\nJoin us on this iconic cross-country ski adventure and experience the thrill of Finlandia Hiihto like never before!\n\n🔔 Subscribe for more outdoor sports and adventure videos!\n\n#FinlandiaHiihto2025 #LahtiFinland #CrossCountrySkiing #4KFPV #SkiMarathon #DroneFootage #WinterSports #SkiingAdventure #ScenicViews #EnduranceSports",
+          "tags": [
+            "#finlandia2025",
+            "#hiihto",
+            "#finland"
+          ],
+          "url": "https://www.youtube.com/watch?v=X9nlBa880N0",
+          "transcript": "[Music]\nn\n[Laughter]\n[Applause]\nw\noh\na\nhe\nyou\nit\nhe a\nhey hey hey hey\nhey\nhey hey he\nhey heyy\nhey hey\nhey hey hey\nand\noh oh\nw oh\nyeah he\ne\nhey hey hey hey hey hey\nhe n\nm\nn a\nno\nh\nyou about\nnah\nn oh\nup\nw he\nhe he\nheyy\nlet\nhe e\nla\nhe oh\np\npap\nhe and\na e\nnow\nhey hey hey hey hey\nhe hey\ngo\nabout\nyeah oh\nhey he\nno a\nit you do it\nyou you\nyou a\nw a\nhe yeah\nw yeah\nhey a\nyeah hey hey hey hey hey hey\nhe w\nyou oh\nI\nheyy hey hey hey",
+          "curated": false
+        },
+        {
+          "video_id": "EQXCtcV8xW4",
+          "title": "The Best Moments of Finlandia Ski Marathon Classic 2025",
+          "channel": "SC - The Ski Community",
+          "view_count": 666,
+          "upload_date": "20250227",
+          "duration_string": "2:23",
+          "description": "The Best Moments of Finlandia Ski Marathon Classic 2025\n\nVideo Credits: Anton Floor/Finlandia Ski Marathon",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=EQXCtcV8xW4",
+          "transcript": "[Music]\nhe",
+          "curated": false
+        },
+        {
+          "video_id": "6gGXQxLQdaA",
+          "title": "Finlandia-hiihto - 22nd February 2025",
+          "channel": "Vesa Lampinen",
+          "view_count": 6399,
+          "upload_date": "20250222",
+          "duration_string": "23:55",
+          "description": "As always, the first race day of the weekend was skied with a classic style. The longest route was 62 km (38.5 miles) long. All starting groups and some moments from finish line are shown in this video.",
+          "tags": [
+            "Finlandia-hiihto",
+            "skiing",
+            "Lahden stadion",
+            "Lahti Sports Centre",
+            "Lahti",
+            "classic style",
+            "2025",
+            "Lahti ski marathon",
+            "Lahden urheilukeskus",
+            "cross-country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=6gGXQxLQdaA",
+          "curated": true,
+          "curation_reason": "Comprehensive coverage of all starting groups and finish line moments from the 2025 classic race.",
+          "display_order": 3
+        },
+        {
+          "video_id": "rkAeoHLaojk",
+          "title": "Finlandia-hiihto - 24th February 2024 - Start",
+          "channel": "Vesa Lampinen",
+          "view_count": 7564,
+          "upload_date": "20240224",
+          "duration_string": "21:39",
+          "description": "The first race day of the weekend was skied with a classic style in a somewhat foggy weather. The longest route was 62 km (38.5 miles) long. All starting groups are included in this video.",
+          "tags": [
+            "Finlandia-hiihto",
+            "skiing",
+            "Lahden stadion",
+            "Lahti Sports Centre",
+            "Lahti",
+            "classic style",
+            "2024",
+            "Lahti ski marathon",
+            "Lahden urheilukeskus",
+            "cross-country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=rkAeoHLaojk",
+          "curated": true,
+          "curation_reason": "Detailed start coverage showing all starting groups for the 62km classic race in foggy conditions.",
+          "display_order": 4
+        },
+        {
+          "video_id": "FNct6RaA1Hs",
+          "title": "Finlandia-hiihto - 25th February 2023 - Start",
+          "channel": "Vesa Lampinen",
+          "view_count": 4181,
+          "upload_date": "20230225",
+          "duration_string": "21:46",
+          "description": "This year is 50th anniversary for Finlandia-hiihto. The first race day of the weekend was skied with a classic style. The longest route was 58 km (36 miles) long.",
+          "tags": [
+            "skiing",
+            "Finlandia-hiihto",
+            "Lahti",
+            "classic style",
+            "mass skiing event"
+          ],
+          "url": "https://www.youtube.com/watch?v=FNct6RaA1Hs",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

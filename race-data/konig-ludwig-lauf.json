@@ -5,8 +5,13 @@
     "display_name": "König Ludwig Lauf",
     "tagline": "Fifty kilometers through the Bavarian Alps — where Germany's fairy-tale king once roamed, now skiers chase glory beneath the Passion Play village.",
     "vitals": {
-      "distance_km": 50,
-      "distance_options": ["50km classic", "50km skate", "23km", "10km"],
+      "distance_km": 45,
+      "distance_options": [
+        "50km classic",
+        "50km skate",
+        "23km",
+        "10km"
+      ],
       "elevation_m": 650,
       "altitude_m": 850,
       "location": "Oberammergau",
@@ -17,15 +22,17 @@
       "date": "First weekend in February",
       "date_specific": null,
       "discipline": "both",
-      "field_size": "~3,600",
+      "field_size": 3600,
       "founded": 1968,
       "registration": "Open registration via online entry",
       "prize_purse": null,
       "aid_stations": "5 stations with warm drinks, energy food, and wax service",
       "cutoff_time": null,
-      "website": "https://www.koenigludwiglauf.com",
+      "website": "https://www.koenig-ludwig-lauf.com",
       "lat": 47.5974,
-      "lng": 11.0631
+      "lng": 11.0631,
+      "field_size_estimate": 3600,
+      "elevation_gain_m": 650
     },
     "climate": {
       "primary": "Alpine continental",
@@ -86,10 +93,151 @@
         "Ludwig II was an avid outdoorsman who built Alpine retreats throughout the region"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "König Ludwig Lauf cross country ski race Oberammergau",
+      "videos": [
+        {
+          "video_id": "MG4vJyaov_s",
+          "title": "König Ludwig Lauf 2022",
+          "channel": "König Ludwig Lauf",
+          "view_count": 1068,
+          "upload_date": "20220314",
+          "duration_string": "1:46",
+          "description": "König Ludwig Lauf 2023\n02.02.2023-05.02-2023 \nFreu Dich Drauf. Anmeldung und Information: www. koenig-ludwig-lauf.com",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=MG4vJyaov_s",
+          "transcript": "[Music]\n[Applause]\nimpede\nugh\nokay\noh",
+          "curated": false
+        },
+        {
+          "video_id": "F0BCzTczyR4",
+          "title": "2023.02.04 König Ludwig Lauf 2023 - FT 43 km - Olga Kasatkina",
+          "channel": "Olga Kasatkina",
+          "view_count": 415,
+          "upload_date": "20230207",
+          "duration_string": "2:11",
+          "description": "EN\nKönig Ludwig Lauf is the largest ski marathon in Germany, was founded in 1968 and is held in Oberammergau and Ettal in the Ammergau Alps Nature Park. It is part of the Worldloppet series and annually gathers cross-country skiers from more than 30 countries.\n\nExcellent organization, interesting track, difficult weather conditions and perfect result guarantee memories for a long time.\n\nRU\nKönig Ludwig Lauf - крупнейший лыжный марафон в Германии, основанный в 1968 году и проходящий в Обераммергау и Эттале в Ammergau Alps Nature Park. Он входит в серию Worldloppet и ежегодно собирает любителей лыжных гонок из более чем 30 стран.\n\nОтличная организация, интересная трасса, сложные погодные условия и отличный результат гарантируют воспоминания на долгое время.\n\n#koenigludwiglauf #crosscountryskiing #xcskiing #winter #ammergaueralpen #skiing #activelife",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=F0BCzTczyR4",
+          "curated": false
+        },
+        {
+          "video_id": "kUSx8t7BFRk",
+          "title": "KÖNIG LUDWIG LAUF 2023 - HIGHLIGHTS",
+          "channel": "König Ludwig Lauf",
+          "view_count": 1316,
+          "upload_date": "20230222",
+          "duration_string": "2:23",
+          "description": "@The_worldloppet_skier",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=kUSx8t7BFRk",
+          "curated": false
+        },
+        {
+          "video_id": "kgFdjSnULwU",
+          "title": "Magnus Cederblad Skiing König Ludwig Lauf Oberammergau Germany.",
+          "channel": "Magnus Cederblad",
+          "view_count": 133,
+          "upload_date": "20211007",
+          "duration_string": "37",
+          "description": "Swix Ski Classics.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=kgFdjSnULwU",
+          "transcript": "it might seem crazy what i'm about to\nsay\nshe's here you can take a break\n[Music]\nthe third of six events and we are off\n46 kilometers um\ni can compete in the same race starting\ntogether with the\ntop skiers in the world that's\nquite nice\nlovely to see\ndouble falling away as you",
+          "curated": false
+        },
+        {
+          "video_id": "duhcLJXTG6o",
+          "title": "König Ludwig Lauf Oberammergau 50km CT",
+          "channel": "KLLOgau",
+          "view_count": 11155,
+          "upload_date": "20100121",
+          "duration_string": "9:18",
+          "description": "König Ludwig Lauf 50km Klassisch | Koenig Ludwig Lauf 50km CT\n------------------------------------------------------------------------------------------\nMit freundlicher Unterstützung des Kofel Kamera Club's Oberammergau",
+          "tags": [
+            "König Ludwig Lauf",
+            "Oberammergau",
+            "Langlauf",
+            "Skateing",
+            "Cross Country",
+            "Worldloppet",
+            "Passionsspiele",
+            "FIS",
+            "Volkslanglauf"
+          ],
+          "url": "https://www.youtube.com/watch?v=duhcLJXTG6o",
+          "curated": false
+        },
+        {
+          "video_id": "SHsHFCErqhA",
+          "title": "Konig Ludwig Lauf 2011",
+          "channel": "velotique",
+          "view_count": 2316,
+          "upload_date": "20140128",
+          "duration_string": "13:02",
+          "description": "Ski the Konig Ludwig Lauf cross-country ski race with Saul Goldman. This is a citizen racers perspective of this World Loppet race. It is held annually in Oberamergau, Germany. Oberamergau, Germany is famous for its Passion Play, held once every ten years. It is less famous for the annual Konig Ludwig Lauf ski race, named after the Bavarian King Ludwig II. He commissioned the construction of several extravagant fantasy castles and palaces.Since his legacy of grandiose castles lives on in the form of massive tourist revenue, King Ludwig is generally well liked and even revered by many in Bavaria today.",
+          "tags": [
+            "Cross counry ski race world Loppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=SHsHFCErqhA",
+          "curated": true,
+          "curation_reason": "Citizen racer's POV perspective of the World Loppet race showing detailed course experience.",
+          "display_order": 3
+        },
+        {
+          "video_id": "yWvwZcAuTBQ",
+          "title": "König Ludwig Lauf Oberammergau 2023",
+          "channel": "QUATSCHKÖPFE",
+          "view_count": 466,
+          "upload_date": "20230211",
+          "duration_string": "1:42",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=yWvwZcAuTBQ",
+          "curated": false
+        },
+        {
+          "video_id": "oV91p6D2iuQ",
+          "title": "Show Case Cross Country Skiing: König Ludwig Lauf Germany",
+          "channel": "iRewind",
+          "view_count": 157,
+          "upload_date": "20220708",
+          "duration_string": "2:11",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=oV91p6D2iuQ",
+          "curated": false
+        },
+        {
+          "video_id": "r8g-k6oP0og",
+          "title": "🎥  Vlog Gunnar's Nordic Adventures at König Ludwig Lauf 2022 ( with paragliding🪂)",
+          "channel": "Worldloppet",
+          "view_count": 841,
+          "upload_date": "20220209",
+          "duration_string": "5:06",
+          "description": "🎥 Vlog coming in 3,2,1...🎥\nGunnar's Nordic Adventures, this time from Oberammergau 🇩🇪 , the home of the royal König Ludwig Lauf 👑 !\nThe 2022 edition of the german Worldloppet race was an adventure for itself, as it was finally celebrating a comeback to the tracks after 2 years break. Only happy faces to see among the thousands of starters, but see by yourself.\n💥 But of course, we want to experience the venues of Worldloppet also from another perspective, so for this Vlog Gunnar took off into the sky, to experience Oberammergau and the tracks of KLL from above during a paragliding flight 🪂. Btw: Northug Glasses also perform high in the sky 🤙\n🤝 Special thanks go to:\n👑 König Ludwig Lauf for hosting us\n🪂 fly-garmisch.com Gleitschirm Paragliding\n🕶 Petter Northug for supporting us with great glasses & clothing See less",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=r8g-k6oP0og",
+          "transcript": "have fun on the tracks i wish you a very\nvery race\nit's time for a royal weekend here in\ngermany\nit's time for konig ludwig love finally\nreconnect ludwig laugh again i'm here\nat the start area the start will take\nplace only in a few minutes and what we\nhave experienced this weekend here in\noberamagao and why you should definitely\ncome here to ski the koenig ludwig love\nand what else you can experience in\noberamacao you to see in this video\n[Music]\noh\nright\nokay my friends now i'm getting really\nexcited for this video blog for our um\nadventure here in obamacare we have a\nvery special thing for you hi go now\nwhat are we going to do now\ndoing some crazy stuff we're going up to\na lava mountain\nand for our paragliding flight awesome\nparagliding flight over the valley\narmagow ethel see the tracks of\nkerniglutic love from the sky let's go\nlet's go\nokay which mountain do we\nmight climb right now\nit's called la belle\nthe mountain and that's\nnearly 1800 meters high\nand it moves over the\nbeautiful village of obamacare\nand how many crashes did you have so far\nsome but i did over 10 000 flights okay\nso the the the risk is not too high\nnothing too high especially not another\ntenant all right good to hear for me\nnow hannah is preparing the suit\nand i try to get familiar a little bit\nwith our starting rampage\nand how do you remember all the lines\nwhere\nwhere they belong with the colors yeah\nwith the colors all right\nred lines in the front of the glider\nso my starting command will be three two\none go all right\nand for the go we go\nhundred percent\nyeah sounds\ngood to me\nit's\nperfect\nperfect start wasn't it yeah it was\ngreat awesome\nslightly backwards might be managed\nhere\nthat's the start of koenig club now and\nover there\nthe finish\nand i still see people skiing\nso underneath was the finish of konig\nlottiglov\ngreat\nthank you very much welcome to obamacare\nwhat a cool way to experience obamacare\nyou",
+          "curated": true,
+          "curation_reason": "Excellent vlog content from race weekend with skier perspective and unique aerial view of the course via paragliding.",
+          "display_order": 1
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It's time for a royal weekend here in germany it's time for konig ludwig love finally reconnect ludwig laugh again I'm here at the start area the start will take place only in a few minutes and what we have experienced this weekend here in oberamagao and why you should definitely come here to ski the koenig ludwig love.",
+          "source_video_id": "r8g-k6oP0og",
+          "source_channel": "Worldloppet",
+          "source_view_count": 841,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

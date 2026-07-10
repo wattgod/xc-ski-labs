@@ -20,7 +20,7 @@
       "date": "December",
       "date_specific": null,
       "discipline": "skate",
-      "field_size": "~500",
+      "field_size": 500,
       "founded": 1990,
       "registration": "Open registration",
       "prize_purse": null,
@@ -28,7 +28,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 46.538,
-      "lng": 10.1357
+      "lng": 10.1357,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 350
     },
     "climate": {
       "primary": "High-altitude Alpine winter",
@@ -92,8 +94,180 @@
       "ski_classics_challengers"
     ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "La Sgambeda cross country ski race Livigno",
+      "videos": [
+        {
+          "video_id": "603hsHE_VBk",
+          "title": "La Sgambeda Marathon 15.12.2013",
+          "channel": "Livigno",
+          "view_count": 3237,
+          "upload_date": "20131216",
+          "duration_string": "1:33",
+          "description": "L'evento che apre la stagione invernale di Livigno e la prima granfondo del circuito FIS Marathon Cup * The winter season opens with La Sgambeda, the first cross-country Fis Marathon Cup",
+          "tags": [
+            "sci di fondo",
+            "cross country skiing",
+            "Nordic Skiing (Sport)",
+            "Marathon (Sport)",
+            "livigno",
+            "gara",
+            "race"
+          ],
+          "url": "https://www.youtube.com/watch?v=603hsHE_VBk",
+          "curated": false
+        },
+        {
+          "video_id": "N9urKZLBZyU",
+          "title": "La Sgambeda 2012",
+          "channel": "Livigno",
+          "view_count": 710,
+          "upload_date": "20131118",
+          "duration_string": "1:10",
+          "description": "La stagione invernale di Livigno apre i battenti con La Sgambeda, la prima granfondo del circuito FIS Marathon Cup. \nUn appuntamento di 42 km per i più allenati o di 22,5 per quanti invece vogliono testare le loro  condizioni fisiche a inizio stagione.",
+          "tags": [
+            "Sgambeda",
+            "Livigno",
+            "Eventi",
+            "Sci Fondo"
+          ],
+          "url": "https://www.youtube.com/watch?v=N9urKZLBZyU",
+          "curated": false
+        },
+        {
+          "video_id": "UsgaVWQ4Big",
+          "title": "La Sgambeda 2009",
+          "channel": "Livigno",
+          "view_count": 1598,
+          "upload_date": "20091216",
+          "duration_string": "2:32",
+          "description": "La stagione invernale apre i battenti con La Sgambeda, la prima granfondo del circuito FIS Marathon Cup.\r\nUn appuntamento di 42 km per i più allenati o di 22,5 per quanti invece vogliono testare le loro  condizioni fisiche a inizio stagione.\r\nInfo ed iscrizioni: www.lasgambeda.com\r\n\r\n--------------------------------------------------------------------------------\r\n\r\nThe winter season opens with La Sgambeda, the first cross-country Fis Marathon Cup.\r\nA meeting of 42 km for the most trained and of 22,5 for the ones who want to test their phisical condition.\r\nInfo and subscriptions: www.lasgambeda.com",
+          "tags": [
+            "La Sgambeda",
+            "Livigno",
+            "Cross country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=UsgaVWQ4Big",
+          "curated": false
+        },
+        {
+          "video_id": "JDDopO2ehU4",
+          "title": "Livigno | Sgambeda 2015",
+          "channel": "Livigno",
+          "view_count": 3253,
+          "upload_date": "20151206",
+          "duration_string": "1:48",
+          "description": "#Sgambeda 2015: 4 gare in 2 giorni, per un super mix di sport e divertimento! #Livigno\n\n#Sgambeda 2015: 4 races in 2 days, for a great mix of sport and fun! Ski Classics​",
+          "tags": [
+            "La Sgambeda",
+            "Cross-country Skiing (Sport)",
+            "Livigno (City/Town/Village)",
+            "sci di fondo",
+            "sci da fondo",
+            "gara",
+            "race",
+            "winter",
+            "inverno",
+            "snow",
+            "neve",
+            "neve artificiale",
+            "artificial snow",
+            "cold",
+            "family",
+            "famiglia",
+            "sport",
+            "sportivo",
+            "athletes",
+            "atleta",
+            "high altitude training",
+            "allenamento alta quota",
+            "sports",
+            "tv",
+            "visma ski classics",
+            "ski classics",
+            "visma",
+            "Action",
+            "team",
+            "effor"
+          ],
+          "url": "https://www.youtube.com/watch?v=JDDopO2ehU4",
+          "curated": false
+        },
+        {
+          "video_id": "9ctdPM3fMUQ",
+          "title": "Livigno 15 dicembre 2024 - partenza della Sgambeda - gara di sci di fondo",
+          "channel": "Tuttolivigno",
+          "view_count": 1704,
+          "upload_date": "20241215",
+          "duration_string": "7:31",
+          "description": "Livigno: anche quest’anno si è svolta la “Sgambeda”, una gara di sci di fondo molto conosciuta. Solitamente di 35 km, è stata accorciata a 25 km a causa della scarsità di neve sul percorso. Nonostante tutto, un grande lavoro ha reso possibile la manifestazione.\nVi mostro la partenza e la prima parte del percorso❄️\n\nLivigno: the \"Sgambeda\", a well-known cross-country ski race, was held again this year. Usually 35 km, it was shortened to 25 km due to the lack of snow on the route. Despite everything, a great work made the event possible.\nHere is the start and the first part of the route❄️\n\n#livigno #livignolive #crosscountryskiing #lasgambeda",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=9ctdPM3fMUQ",
+          "curated": true,
+          "curation_reason": "Most recent video (2024) showing race start and course details with specific information about course conditions and snow challenges.",
+          "display_order": 1
+        },
+        {
+          "video_id": "3kBLA_aRQro",
+          "title": "Sgambeda Livigno",
+          "channel": "Livigno",
+          "view_count": 26743,
+          "upload_date": "20161123",
+          "duration_string": "25",
+          "description": "Mancano solo 10 giorni a la Sgambeda! Se non vi siete ancora iscritti, avete tempo fino al 27 Novembre: www.lasgambeda.it\n\nJust -10 days to the #Sgambeda race in #Livigno! You can register till the 27th November: www.lasgambeda.it/en/",
+          "tags": [
+            "Livigno",
+            "Sgambeda",
+            "Sci",
+            "Sci di fondo",
+            "Gara",
+            "Race",
+            "Ski",
+            "Cross Country skiing",
+            "Cross Country",
+            "Neve",
+            "Winter",
+            "Snow",
+            "Inverno",
+            "Vacanza",
+            "Holiday",
+            "Montagna",
+            "Mountain"
+          ],
+          "url": "https://www.youtube.com/watch?v=3kBLA_aRQro",
+          "curated": false
+        },
+        {
+          "video_id": "TjMMNCj-KqM",
+          "title": "La Sgambeda Classic 13.12.2013",
+          "channel": "Livigno",
+          "view_count": 1074,
+          "upload_date": "20131213",
+          "duration_string": "1:21",
+          "description": "La Sgambeda Classic 13.12.2013",
+          "tags": [
+            "Sgambeda",
+            "Cross Country Running (Sport)"
+          ],
+          "url": "https://www.youtube.com/watch?v=TjMMNCj-KqM",
+          "curated": false
+        },
+        {
+          "video_id": "KVh8eEb2y7Q",
+          "title": "La Sgambeda 2017",
+          "channel": "Team Forever Nordic",
+          "view_count": 450,
+          "upload_date": "20171207",
+          "duration_string": "3:18",
+          "description": "TFN in Livigno",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=KVh8eEb2y7Q",
+          "curated": true,
+          "curation_reason": "Team-perspective video from a Nordic skiing team providing skier viewpoint of the race experience.",
+          "display_order": 2
+        }
+      ],
+      "quotes": []
     }
   }
 }

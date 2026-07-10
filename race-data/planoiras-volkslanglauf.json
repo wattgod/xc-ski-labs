@@ -1,0 +1,199 @@
+{
+  "race": {
+    "name": "Planoiras Volkslanglauf",
+    "slug": "planoiras-volkslanglauf",
+    "display_name": "Planoiras Volkslanglauf",
+    "tagline": "Twenty-five kilometers of freestyle racing through the snow-covered winter landscape of Lenzerheide — the traditional opener of the Swiss Loppet series.",
+    "vitals": {
+      "distance_km": 25,
+      "distance_options": [
+        "25km",
+        "13km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 1500,
+      "location": "Lenzerheide",
+      "location_badge": "Graubunden, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Graubunden Alps",
+      "date": "Second Sunday of January",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 500,
+      "founded": 1986,
+      "registration": "Online registration via Swiss Loppet / Datasport",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 46.7333,
+      "lng": 9.55,
+      "field_size_estimate": 650,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Alpine valley winter",
+      "description": "January in Lenzerheide at 1,500m means cold, reliable snow cover in the Graubunden Alps. Temperatures range from -15°C to -2°C. The valley position provides some shelter from extreme wind while the altitude ensures consistent winter conditions. January's deep snow provides excellent grooming base.",
+      "typical_temp_c": "-15 to -2",
+      "challenges": [
+        "Mid-altitude Alpine cold — sub-zero temperatures common",
+        "January daylight still limited in Swiss Alps",
+        "Valley fog can reduce visibility",
+        "Altitude at 1,500m — mild performance impact for lowland skiers"
+      ]
+    },
+    "course": {
+      "primary": "A 25km freestyle course through the deeply snow-covered winter landscape of the Lenzerheide holiday region in Graubunden. Rolling terrain at approximately 1,500m altitude through a classic Swiss Alpine setting. The shorter 13km Planoirino option uses a subset of the main course.",
+      "format": "loop",
+      "surface": "Machine-groomed Alpine valley trails",
+      "technical_rating": 2,
+      "grooming": "Swiss Loppet-standard grooming at Lenzerheide Nordic center",
+      "features": [
+        "Traditional Swiss Loppet series opener since 1986",
+        "Deeply snow-covered Lenzerheide winter landscape",
+        "Graubunden Alps setting — classic Swiss mountain scenery",
+        "13km Planoirino shorter option available",
+        "41st edition in 2026"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 3,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Excellent Swiss grooming and Graubunden Alpine scenery are the standout attributes. Snow reliability strong at 1,500m. Shorter distance and primarily Swiss participation limit prestige and competitive depth.",
+      "tier_note": "Score 47 confirms TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1986, the Planoiras Volkslanglauf is the traditional season-opening race of the Swiss Loppet series. Held in the deeply snow-covered Lenzerheide region of Graubunden, it has been a fixture of Swiss citizen skiing for four decades. The 41st edition takes place in 2026. The race reflects the Swiss tradition of well-organized Volkslanglauf (folk cross-country) events that emphasize participation and enjoyment of winter landscapes.",
+      "notable_facts": [
+        "Founded in 1986 — 41st edition in 2026",
+        "Traditional Swiss Loppet series opener",
+        "Set in Lenzerheide, one of Graubunden's premier holiday regions",
+        "Freestyle (skating) technique only",
+        "Part of the Swiss Loppet — Switzerland's citizen ski marathon circuit",
+        "Shorter Planoirino (13km) option for recreational skiers"
+      ]
+    },
+    "series_membership": [
+      "swiss_loppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Planoiras Volkslanglauf cross country ski race Lenzerheide",
+      "videos": [
+        {
+          "video_id": "kzTJZFnAiQI",
+          "title": "Planoiras - Cross-country skiing 2010",
+          "channel": "LMS01112009",
+          "view_count": 373,
+          "upload_date": "20100115",
+          "duration_string": "3:34",
+          "description": "",
+          "tags": [
+            "Lenzerheide",
+            "Langlauf",
+            "Planoiras"
+          ],
+          "url": "https://www.youtube.com/watch?v=kzTJZFnAiQI",
+          "curated": true,
+          "curation_reason": "Direct race content from the Planoiras Volkslanglauf showing actual skiing footage from the event.",
+          "display_order": 1
+        },
+        {
+          "video_id": "PO3HMsp3zY8",
+          "title": "Vertical race (Recap) #SkimoECH2022",
+          "channel": "ISMF Skimo",
+          "view_count": 4228,
+          "upload_date": "20220215",
+          "duration_string": "3:47",
+          "description": "Watch the highlight's from the championship Vertical race! \nIt was a tough one with so many rhythm changes, hot weather and finishing at almost 2600 metres above sea level!\n\n▶ WEBSITE: http://www.ismf-ski.org\n▶ FACEBOOK: https://www.facebook.com/ismf.ski\n▶ TWITTER: https://twitter.com/ISMFSkimo\n▶ INSTAGRAM: https://www.instagram.com/ismf_world_cup",
+          "tags": [
+            "ISMF",
+            "ISMF World Cup",
+            "ISMF Ski Mountaineering",
+            "SkiMo",
+            "ISMF World Cup 2018",
+            "Vertical Race",
+            "Individual Race",
+            "Sprint Race",
+            "Ski",
+            "Snow",
+            "Mountain"
+          ],
+          "url": "https://www.youtube.com/watch?v=PO3HMsp3zY8",
+          "transcript": "[Music]\nwelcome to boytol in spain and the\neuropean championships vertical race\nlet's take a look at what happened today\nwhat the race lacked in vertical meters\nit more than made up for in challenging\nclimbing on the beautiful and winding\nroute up to basiroyas at an altitude of\n2600 metres\nyou could argue that the women's race is\nbecoming easy to predict but axel geshe\nmonterey of france who successfully\ndefended her european title still feels\nthe pressure to give it her all\nrecognising the immense talent behind\nher i have to push really hard\ni haven't the\nopportunity to wait and see at the end i\nhave to go faster from the beginning so\nit was really a hard one but uh\nthe title was at the end so it was an\nimportant one so i'm really happy to to\npush me again and again until the finish\nline\nwinner of the vertical race in andorra\ntoffee alex anderson of sweden was just\npleased to cross the line today to claim\nher second silver medal of the\nchampionships like after already after\n10 minutes i was\ndead and just wanted to stop and lay\ndown so i really really had to fight\ntoday i had a really hard day and i'm\nreally satisfied that i\nyeah continue to fight and i'm really\nhappy for the second place xl is so\nstrong and i'm happy that i could\nchallenge her in adora but today she was\nmuch stronger than me\nand the joy radiating off sarah dreyer\nof austria as she claimed her second\nthird place of the season and the bronze\nmedal was infectious\nit's unbelievable it's so crazy a few\ndays ago i had coveted so it was not\nsure if i can stay here and now i'm here\nand i'm\ni had the\nbronze medal it's it's fantastic\ntough competition in the men's category\ntoday as the early flat parts of the\ncourse suited verna marty of switzerland\nand he successfully claimed his first\neuropean championship title the other\nones are also not\nor can i say not sleeping\nvery tough it was a very tough race but\ni had i feel very good from the\nbeginning so i made the race hard from\nthe beginning and could get the gap\nquite early and then keep it till the\nend\n[Applause]\nwith a big smile on his face alex\noberbacher of italy explained his\nstrategy for making it into second place\nto take his first spot on the podium in\nan ismf race\ni start at\nfifth posit position\nand at the end\nalways better and\ni super happy to finish that second\nposition\nafter a difficult start to the season\nmaximilian dream of belgium was just\npipped into third place after an\nexhilarating race to the finish line\nyeah it's so incredible because\nlast week i couldn't go to italy because\ni had covered i recovered very quickly\nfrom kovid and yeah i wasn't even sure\nto be able to race today and so yeah\nit's amazing to to get such a result at\nthe end because yeah i couldn't have\ndreamed of it\nwell-deserved wins today on surely the\ntoughest vertical race of the season won\nbefitting a european championships\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "G5y8xGxvEJs",
+          "title": "Der 23. Pfitscher Volkslanglauf",
+          "channel": "sportnewsbz",
+          "view_count": 304,
+          "upload_date": "20130215",
+          "duration_string": "6:04",
+          "description": "Mehr als 200 Teilnehmer am Pfitscher Volkslanglauf kämpften nicht nur gegen die Stoppuhr und ihre Gegner, sondern in erster Linie auch gegen arktische Temperaturen um -20 Grad Celsius. Dafür konnten sie bei strahlendem Sonnenschein eine der schönsten Langlaufstrecken Südtirols in Angriff nehmen. Am schnellsten waren über 30 Kilometer in der freien Technik Bruno De Bertolis und Roberto De Zolt, die bei den Männern einen Doppelsieg feierten, bzw. Valentina Danese, die bei den Frauen gewann.",
+          "tags": [
+            "ice hockey",
+            "hoockey",
+            "sportnews",
+            "egna",
+            "neumarkt",
+            "dyllan stanley",
+            "caldaro",
+            "kaltern",
+            "laconi"
+          ],
+          "url": "https://www.youtube.com/watch?v=G5y8xGxvEJs",
+          "curated": false
+        },
+        {
+          "video_id": "x5Vfj3kfc3U",
+          "title": "Nordic Team Tirol",
+          "channel": "Tirol",
+          "view_count": 1598,
+          "upload_date": "20190327",
+          "duration_string": "7:12",
+          "description": "Sieben Langlauf-Neulinge, drei Trainer, fünf Wochenenden: Aus diesen Zutaten besteht in der Wintersaison 2018/19 das „Nordic Team Tirol“. Unter Anleitung von Profi-Trainer Urban Lentsch bereiten sich die Teammitglieder auf einen großen nordischen Wettbewerb vor: den Tiroler Koasalauf in St. Johann im Februar 2019. Das Ziel ist es, den Wettkampf zu meistern – und das fast ohne jede Vorerfahrung. Alle Teilnehmer sind Anfänger, einige standen sogar noch nie auf Langlaufskiern. \n\nHier könnt ihr die Geschichte nachlesen: https://www.blog.tirol/dossiers/vom-langlauf-newbie-zum-pro-das-nordic-team-tirol/",
+          "tags": [
+            "Tirol",
+            "Tyrol",
+            "Alpen",
+            "Österreich",
+            "Wintersport"
+          ],
+          "url": "https://www.youtube.com/watch?v=x5Vfj3kfc3U",
+          "curated": false
+        },
+        {
+          "video_id": "8BPXPB0fvYk",
+          "title": "Planoiras Volkslanglauf 2022 I Official aftermovie",
+          "channel": "livemotion",
+          "view_count": 157,
+          "upload_date": "20221125",
+          "duration_string": "2:24",
+          "description": "Für einen der bekanntesten und ältesten Volksläufe (Langlauf) in der Schweiz durften wir einen Eventfilm sowie diverse Social Media Beiträge erstellen.\n---\n\nproduced by: #welivemotion \n@welivemotion www.livemotion.ch\n\nLivemotion is a film and broadcasting company\n\nmail | info@livemotion.ch\nweb | http://www.livemotion.ch \nfacebook | https://www.facebook.com/welivemotion\nyoutube | https://www.youtube.com/welivemotion\ninstagram | https://www.instagram.com/welivemotion",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=8BPXPB0fvYk",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

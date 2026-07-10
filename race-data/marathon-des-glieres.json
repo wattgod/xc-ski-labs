@@ -20,7 +20,7 @@
       "date": "Mid-March",
       "date_specific": "2026: March 15",
       "discipline": "skate",
-      "field_size": "~500-800",
+      "field_size": 500,
       "founded": 1991,
       "registration": "Opens in late fall",
       "prize_purse": null,
@@ -28,7 +28,9 @@
       "cutoff_time": null,
       "website": "https://www.marathondesglieres.com",
       "lat": 45.9667,
-      "lng": 6.3167
+      "lng": 6.3167,
+      "field_size_estimate": 650,
+      "elevation_gain_m": 600
     },
     "climate": {
       "primary": "Pre-Alpine plateau winter",
@@ -56,9 +58,9 @@
       ]
     },
     "nordic_lab_rating": {
-      "overall_score": 59,
-      "tier": 3,
-      "tier_label": "TIER 3",
+      "overall_score": 63,
+      "tier": 2,
+      "tier_label": "TIER 2",
       "discipline": "skate",
       "distance": 3,
       "elevation": 3,
@@ -90,8 +92,122 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Marathon des Glières cross country ski race Plateau des Glières",
+      "videos": [
+        {
+          "video_id": "6AWdXB5n2WQ",
+          "title": "Marathon des Glières 2022",
+          "channel": "xavier allard",
+          "view_count": 235,
+          "upload_date": "20220321",
+          "duration_string": "10:20",
+          "description": "Marathon des Glières et plein d'autres distances ( 4,10, 22 et 30 km) ce dimanche sur le plateau des Glières.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=6AWdXB5n2WQ",
+          "curated": true,
+          "curation_reason": "Most recent race coverage showing multiple race distances on the Plateau des Glières.",
+          "display_order": 1
+        },
+        {
+          "video_id": "2Cv9gxA-rdY",
+          "title": "Marathon Glières 2019 (Plateau des Glières )",
+          "channel": "xavier allard",
+          "view_count": 434,
+          "upload_date": "20190318",
+          "duration_string": "8:16",
+          "description": "Images du Marathon des Glières le 17 Mars 2019",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=2Cv9gxA-rdY",
+          "curated": true,
+          "curation_reason": "Race coverage from 2019 providing visual documentation of the course and race atmosphere.",
+          "display_order": 2
+        },
+        {
+          "video_id": "0wnOKJXzkaI",
+          "title": "Présentation marathon des Glières 2018",
+          "channel": "Marathon des Glières",
+          "view_count": 1332,
+          "upload_date": "20171216",
+          "duration_string": "2:18",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=0wnOKJXzkaI",
+          "curated": false
+        },
+        {
+          "video_id": "Pj72jE0Kq9g",
+          "title": "Présentation marathon des Glières 2017",
+          "channel": "Marathon des Glières",
+          "view_count": 1311,
+          "upload_date": "20170124",
+          "duration_string": "2:26",
+          "description": "Présentation du 31ème marathon des Glières 2017",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=Pj72jE0Kq9g",
+          "curated": false
+        },
+        {
+          "video_id": "XLspRyAzdCY",
+          "title": "Glieres 2019",
+          "channel": "isba",
+          "view_count": 71,
+          "upload_date": "20190319",
+          "duration_string": "16",
+          "description": "au départ du Marathon",
+          "tags": [
+            "Marathon des Glières",
+            "ski de fond"
+          ],
+          "url": "https://www.youtube.com/watch?v=XLspRyAzdCY",
+          "curated": false
+        },
+        {
+          "video_id": "0bE0kUfGxhI",
+          "title": "Marathon des Glières 2013",
+          "channel": "JULIEN MILLET",
+          "view_count": 206,
+          "upload_date": "20130409",
+          "duration_string": "1:35",
+          "description": "Marathon des Glières 2013",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=0bE0kUfGxhI",
+          "curated": false
+        },
+        {
+          "video_id": "LiXxm0073W4",
+          "title": "Marathon des Glieres",
+          "channel": "loupeux",
+          "view_count": 539,
+          "upload_date": "20080317",
+          "duration_string": "7:01",
+          "description": "marathon des gliers 2008",
+          "tags": [
+            "Glieres",
+            "ski",
+            "fond",
+            "nordique",
+            "clermont"
+          ],
+          "url": "https://www.youtube.com/watch?v=LiXxm0073W4",
+          "curated": true,
+          "curation_reason": "Longer race documentation showing course layout and skiing conditions on the Plateau des Glières.",
+          "display_order": 3
+        },
+        {
+          "video_id": "4Y_NvUwl2wg",
+          "title": "Lidingöloppet 2018 highlight video",
+          "channel": "TCSGlobal",
+          "view_count": 696,
+          "upload_date": "20190819",
+          "duration_string": "2:05",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=4Y_NvUwl2wg",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

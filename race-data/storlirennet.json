@@ -1,0 +1,98 @@
+{
+  "race": {
+    "name": "Storlirennet",
+    "slug": "storlirennet",
+    "display_name": "Storlirennet",
+    "tagline": "A cross-border freestyle race from Sweden to Norway — 35 kilometers from Storlien across the Scandinavian divide into Meraaker.",
+    "vitals": {
+      "distance_km": 35,
+      "distance_options": [
+        "35km"
+      ],
+      "elevation_m": 140,
+      "altitude_m": 600,
+      "location": "Storlien, Sweden to Meraaker, Norway",
+      "location_badge": "Sweden / Norway",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Jamtland / Trondelag",
+      "date": "TBD 2026",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations on course",
+      "cutoff_time": null,
+      "website": "https://www.skiclassics.com",
+      "lat": 63.3167,
+      "lng": 12.1,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 140
+    },
+    "climate": {
+      "primary": "Scandinavian mountain border",
+      "description": "The Storlien-Meraaker area on the Swedish-Norwegian border has reliable winter conditions. Typical Scandinavian mountain climate.",
+      "typical_temp_c": "-15 to -3",
+      "challenges": [
+        "Mountain border weather can be harsh",
+        "Wind exposure on open mountain sections",
+        "Cold temperatures",
+        "Remote mountain terrain"
+      ]
+    },
+    "course": {
+      "primary": "35km point-to-point freestyle course from Storlien, Sweden across the Scandinavian mountains to Meraaker, Norway. Crosses the national border mid-race.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed skating course",
+      "technical_rating": 3,
+      "grooming": "Professional Ski Classics standard grooming",
+      "features": [
+        "Cross-border race from Sweden to Norway",
+        "Crosses the Scandinavian mountain divide",
+        "New addition to Ski Classics Challengers",
+        "Point-to-point through mountain terrain"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 56,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "skate",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 3,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 4,
+      "accessibility": 2,
+      "community": 2,
+      "scenery": 4,
+      "organization": 4,
+      "competitive_depth": 3,
+      "score_note": "Unique cross-border concept with Ski Classics backing gives this new race strong potential, though it lacks established history.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "Storlirennet is a new cross-border ski race from Storlien in Sweden to Meraaker in Norway, added to the Ski Classics Challengers calendar. The course crosses the Scandinavian mountain divide between the two countries.",
+      "notable_facts": [
+        "Cross-border race from Sweden to Norway",
+        "New addition to Ski Classics Challengers calendar",
+        "Crosses the Scandinavian mountain divide",
+        "35km freestyle point-to-point format"
+      ],
+      "founded": 1938
+    },
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

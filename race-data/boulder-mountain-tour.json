@@ -6,18 +6,21 @@
     "tagline": "Thirty-four kilometers through Idaho's Sawtooth wilderness — Sun Valley's crown jewel of citizen racing since 1974.",
     "vitals": {
       "distance_km": 34,
-      "distance_options": ["34km", "15km"],
-      "elevation_m": 350,
+      "distance_options": [
+        "34km",
+        "15km"
+      ],
+      "elevation_m": 850,
       "altitude_m": 1800,
       "location": "Ketchum / Sun Valley",
       "location_badge": "Idaho, USA",
       "country": "United States",
       "country_code": "US",
-      "region": "Idaho",
+      "region": "Utah",
       "date": "First Saturday in February",
       "date_specific": null,
       "discipline": "both",
-      "field_size": "~1,000 starters",
+      "field_size": 800,
       "founded": 1974,
       "registration": "Online registration; fills quickly",
       "prize_purse": null,
@@ -25,7 +28,9 @@
       "cutoff_time": null,
       "website": "https://www.bouldermountaintour.com",
       "lat": 43.6807,
-      "lng": -114.3637
+      "lng": -114.3637,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 850
     },
     "climate": {
       "primary": "High-altitude intermountain winter",
@@ -86,10 +91,253 @@
         "Ernest Hemingway lived and wrote in the Sun Valley area"
       ]
     },
-    "series_membership": ["worldloppet"],
+    "series_membership": [
+      "worldloppet"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Boulder Mountain Tour cross country ski race Ketchum / Sun Valley",
+      "videos": [
+        {
+          "video_id": "T_f4MBM4QIE",
+          "title": "Nordic Skiing in Sun Valley, Idaho",
+          "channel": "Visit Sun Valley",
+          "view_count": 308,
+          "upload_date": "20190130",
+          "duration_string": "31",
+          "description": "A glimpse in to the Nordic scene in Sun Valley, Idaho including the Nordic Festival and the Boulder Mountain Tour.",
+          "tags": [
+            "Nordic skiing",
+            "Sun Valley Nordic Festival",
+            "Boulder Mountain Tour",
+            "Sun Valley Idaho",
+            "Ketchum"
+          ],
+          "url": "https://www.youtube.com/watch?v=T_f4MBM4QIE",
+          "curated": false
+        },
+        {
+          "video_id": "eb2kFLLwnVY",
+          "title": "Boulder Mtn Tour near Sun Valley, Idaho",
+          "channel": "Idaho Mountain Express Online Team",
+          "view_count": 487,
+          "upload_date": "20180205",
+          "duration_string": "3:28",
+          "description": "43rd Boulder Mountain Tour near  Sun Valley on January 23, 2018.\nExpress video & photography by Roland Lane",
+          "tags": [
+            "boulder mountain tour",
+            "ketchum",
+            "sun valley",
+            "nordic ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=eb2kFLLwnVY",
+          "curated": true,
+          "curation_reason": "Race coverage showing the course and race atmosphere specific to the Boulder Mountain Tour.",
+          "display_order": 2
+        },
+        {
+          "video_id": "Sdj-pM0RJoo",
+          "title": "Boulder Mountain Tour 2012",
+          "channel": "nicholskirk",
+          "view_count": 1970,
+          "upload_date": "20120205",
+          "duration_string": "8:19",
+          "description": "The Boulder Mountain Tour out of Ketchum is an American Ski Marathon Series race drawing over 900 racers. Clear skies allowed for a morning low of -12F leaving cold sharp snow on the track. Men's: Matt Liebsch, Lars Flora, Nils Koons, Women's Rebecca Dussault, Morgan Arritola, Chelsea Holmes.",
+          "tags": [
+            "Boulder",
+            "Mountain",
+            "Tour",
+            "Ketchum",
+            "American",
+            "Ski",
+            "Marathon",
+            "Series",
+            "The",
+            "Utah",
+            "Nordic",
+            "Alliance",
+            "TUNA",
+            "2012"
+          ],
+          "url": "https://www.youtube.com/watch?v=Sdj-pM0RJoo",
+          "transcript": "[Applause]\nfor some reason they\nmove again please remember dou off the\nline to the end of\nthe there\nare okay winning field we have to your\nThird Way guys\n[Music]\nup okay so Elite and minut can you guys\nit's likely that some of you guys will\nprobably into the wom field I would\nexpect as you\nokay\nguys on the up here guys\nthe\nall right have a\ngreat good job great thing about being\ntoday\nbecause\nthat's\ncome\nis to\nbe I want\nthe it is going to be now\nR by very nice race Mar SC grabbing the\nsilver Mills con the Kiwi that\nisart West\nthis is Chris mallerie\nnumber coming up we got the it's going\nto\nBean the call every Morgan and Chelsea\nwith sun b girls hanging on Morgan\ndriving the\nF all right\ngreat GE up the going out from the\nyoung followed byg\nwead out of white fish\nand is an Olympian having silver today a\ngreat race for\nnow\n278 Race by number\n278 number one six\n6 Alon holding up William Nicholls\nstrong Race by William finishing it\nup\n308 now we're in the 300 so we're\ngetting in fourth wave folks now\nas\nroll phenomenal group of\nradio just a few minutes\nbe on the\nall vet smart race out there today boy\nwe got another big group coming\ndown bring them\nC",
+          "curated": true,
+          "curation_reason": "Extended race coverage with finish line commentary and specific details about cold conditions and snow quality.",
+          "display_order": 3
+        },
+        {
+          "video_id": "mw4fAtODGb4",
+          "title": "Boulder Mtn Tour 2016",
+          "channel": "Idaho Mountain Express Online Team",
+          "view_count": 309,
+          "upload_date": "20160210",
+          "duration_string": "1:00",
+          "description": "The 2016 Boulder Mountain Tour was staged this weekend on the course north of Ketchum. 757 racers enjoyed near perfect conditions for the 41st edition of the event.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=mw4fAtODGb4",
+          "curated": false
+        },
+        {
+          "video_id": "wnkp5abUPXE",
+          "title": "2008 Boulder Mountain Tour",
+          "channel": "SunValleyOnline",
+          "view_count": 661,
+          "upload_date": "20080206",
+          "duration_string": "2:14",
+          "description": "Pre-race interview with the winner Mike Sinnott, clips from the start, slo-mo replay of the tight finish and podium from the premier Nordic race in the Ketchum Sun Valley, Idaho area and 2nd largest race in the nation",
+          "tags": [
+            "boulder",
+            "bmt",
+            "sunvalleyonline",
+            "sunvalley",
+            "ketchum",
+            "nordic",
+            "crosscountry",
+            "idaho"
+          ],
+          "url": "https://www.youtube.com/watch?v=wnkp5abUPXE",
+          "curated": false
+        },
+        {
+          "video_id": "klw0CRBoOfM",
+          "title": "2007 Wells Fargo Boulder Mountain Tour",
+          "channel": "racedirector",
+          "view_count": 973,
+          "upload_date": "20070217",
+          "duration_string": "8:53",
+          "description": "2007 Boulder Mountain Tour cross country ski race. The 32nd annual winter event in Sun Valley, Idaho",
+          "tags": [
+            "skiing",
+            "skating",
+            "crosscountry",
+            "nordic",
+            "racing"
+          ],
+          "url": "https://www.youtube.com/watch?v=klw0CRBoOfM",
+          "curated": false
+        },
+        {
+          "video_id": "VXtgnGO-Ugk",
+          "title": "Sun Valley Ski Education Foundation hosts a Super Tour nordic skiing event",
+          "channel": "Idaho News 6",
+          "view_count": 150,
+          "upload_date": "20221211",
+          "duration_string": "2:22",
+          "description": "The U.S. Ski and Snowboard Association puts on a Super Tour where the best nordic skiers in the country compete against each other and this weekend the Sun Valley Ski Education Foundation hosted a series of races.",
+          "tags": [
+            "idaho",
+            "ketchum",
+            "nordic skiing",
+            "olympics",
+            "racing",
+            "skiing",
+            "snow",
+            "sun valley",
+            "sun valley ski education foundation",
+            "super tour",
+            "u.s. ski and snowboard association",
+            "weather",
+            "winter"
+          ],
+          "url": "https://www.youtube.com/watch?v=VXtgnGO-Ugk",
+          "transcript": "every winter the Sun Valley Ski\nEducation Foundation hosts a super Tour\nevent I'm outdoor reporter Steve dent\nand not only does this event bring some\nof the best Nordic skiers in the country\nto Sun Valley it also allows the next\ngeneration of athletes to enjoy a\nlifetime of exercise\n[Applause]\nwe caught a perfect weather window for\nthe boys and girls u12 through u16\nsprint races on a 1.4 kilometer course\nwith ups and downs in Sun Valley the\ncourse is challenging but it's more\ngradual at the start with little\nrecovery and then it goes straight into\nhis really steep climate the super tour\nfeatured four days of racing and in the\n15K on Thursday\nSydney Palmer lager from Sun Valley who\nraces now for the University of Utah\nfinished second and Samantha Smith\nanother Sun Valley racer finished third\nI didn't get a chance to interview these\nladies because of timing and because I\nalso needed to get the camera out of the\nelements but watching the races was\nreally entertaining\nSylvester Williams races for team\nSoldier Hollow out of Utah and in\nDecember of 2020 he competed for the\nvery first time I finished dead last by\nlike two minutes from the person ahead\nof me not from the person who won the\nperson ahead of me now I'm training five\nor six days a week and my progression\nhas just been like minutes of race some\nof these Nordic skiers will reach the\nPinnacle of the sport it's a high bar\nbut it's also a lifetime sport that\npeople not very talented like myself can\ndo for exercise\ngood move in beautiful places and that's\none of the draws of cross-country skiing\nit is amazing exercise that was so good\nthat was so good it's gonna be great\nwhen I'm like 60 and I'm like the old\nfit guy who teaches everyone how to ski\nthat will be great\nit'll be great the super Tour event\nwrapped up on Sunday the results will be\nposted online and the top overall\nleaders will advance to the next stage\nof the tour Steve Dent Idaho news 6.",
+          "curated": false
+        },
+        {
+          "video_id": "oo9vYonSPVs",
+          "title": "2012 Sun Valley Nordic Festival",
+          "channel": "Nils Ribi",
+          "view_count": 577,
+          "upload_date": "20130104",
+          "duration_string": "8:04",
+          "description": "The 3rd annual Sun Valley Nordic Festival was held in Sun Valley, Idaho for 9 days from January 28 through February 5, 2012. The key events included \"Ski The Rails\", \"Winter Sun Classic Race\", Skin It To Win It\" Downtown Jam and Nordic Sprints\", \"Sun Valley Demo Day\", and was capped off with the \"Boulder Mountain Tour.\" Nils Ribi Photography",
+          "tags": [
+            "Sun Valley",
+            "Idaho",
+            "Sun Valley Nordic Festival",
+            "Nordic Town USA",
+            "Nils Ribi Photography",
+            "Nordic Skiing",
+            "Nils Ribi"
+          ],
+          "url": "https://www.youtube.com/watch?v=oo9vYonSPVs",
+          "curated": false
+        },
+        {
+          "video_id": "f5XV5pB1-n0",
+          "title": "Toasting Galena Lodge Loppet Style",
+          "channel": "Eye On Sun Valley",
+          "view_count": 71,
+          "upload_date": "20210328",
+          "duration_string": "6:03",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=f5XV5pB1-n0",
+          "curated": false
+        },
+        {
+          "video_id": "A49T17ZJXic",
+          "title": "Loppet Foundation opens portion of cross-country skiing trails at Theodore Wirth",
+          "channel": "KARE 11",
+          "view_count": 577,
+          "upload_date": "20201030",
+          "duration_string": "1:26",
+          "description": "When it snows in October, many people in Minnesota are craving skiing. \r\n\r\nMarth Bardwell and her daughter Naomi couldn't resist. \r\n\r\nJust this week at Theodore Wirth Park, The Loppet Foundation opened a portion of the cross-country skiing trails. It's the earliest they've ever welcomed skiers and it's likely the first place in the state to make snow this year.\r\n\r\nhttps://www.kare11.com/article/sports/loppet-foundation-opens-portion-of-cross-country-skiing-trails-at-theodore-wirth-park/89-bd2f1df2-a7fb-4122-bdfc-025e145cc830\r\n\r\nWelcome to the official YouTube channel of KARE 11 News. Subscribe to our channel for compelling and dramatic storytelling, award winning investigations, breaking news and information you can use.\r\n\r\n» Subscribe to KARE 11 on YouTube: https://www.youtube.com/subscription_...\r\n» Watch more KARE 11 video: https://www.youtube.com/user/KARE11/v...\r\n» Visit KARE11.com: http://www.kare11.com/\r\n» Download our app! https://www.kare11.com/appredirect/\r\n» Find KARE 11 on Facebook: https://www.facebook.com/KARE11/\r\n» Follow KARE 11 on Twitter: https://twitter.com/kare11\r\n» Follow KARE 11 on Instagram: https://www.instagram.com/kare11/",
+          "tags": [
+            "sports",
+            "outdoors",
+            "skiing",
+            "october skiing",
+            "minnesota outdoors",
+            "Loppet Foundation",
+            "cross-country skiing",
+            "Theodore Wirth Park",
+            "ski trails"
+          ],
+          "url": "https://www.youtube.com/watch?v=A49T17ZJXic",
+          "curated": false
+        },
+        {
+          "video_id": "es5N2mydCwU",
+          "title": "Sun Valley hosts the Boulder Mountain Tour for the 50th year and a local racer wins",
+          "channel": "Idaho News 6",
+          "view_count": 391,
+          "upload_date": "20230205",
+          "duration_string": "2:31",
+          "description": "The Boulder Mountain Tour is a marathon style nordic race taking skiers from Galena Lodge down the mountain along the Harriman Trail for 34 kilometers.",
+          "tags": [
+            "boulder mountain tour",
+            "bridger",
+            "cross country skiing",
+            "event",
+            "galena lodge",
+            "hannah rudd",
+            "idaho",
+            "marathon",
+            "nordic skiing",
+            "peter wolter",
+            "race",
+            "snow",
+            "sports",
+            "sun valley",
+            "sun valley ski education foundation",
+            "winter"
+          ],
+          "url": "https://www.youtube.com/watch?v=es5N2mydCwU",
+          "transcript": "the Boulder Mountain tour takes skiers\non a 34 kilometer Journey from Galena\nLodge along the Harriman trail to the\nfinish line but at least most of it is\ndownhill where skiers need to balance\ndrafting with the pack or making their\nmove then at Prairie Creek which is\nabout 20K to go-ish I knew that was the\none section which had a pretty\nconsistent chunk of uphill afterwards\nand I figured that would be the best\nplace to make the break so I went for it\nthere uh which was definitely bold the\nlast time Sun Valley native Peter Walter\nparticipated he was in seventh grade now\nhe races for the Sun Valley Ski\nEducation Foundation and this year he\nwon the Boulder Mountain tour\nfortunately I was able to hold him off\nand uh played out and was able to take\nthe win which has been kind of a\nlong-term goal of minus to win the local\nfamous race\non the women's side the group stayed\ntogether for most of the race before\nHannah Rudd made her move to Finish\nFirst with her teammate from the Bridger\nski Foundation Erica flowers finishing\nsecond the community here is just\namazing yeah I've had family Take Me In\nfrom Sun Valley to stay here this\nweekend for the race everyone's just\ngreat this is one of the best put on\ngrazes I think I've ever been to so very\namazing thank you for having me the race\nwouldn't be possible without the hard\nwork of volunteers and I enjoyed\nwatching the folks at the final\ncheckpoint have a lot of fun they could\nslow down so we could serve them better\nand apparently that happened at the\nother checkpoints as well\noh\nway to go Richard oh yeah I had someone\noffer me a burger\nhe held one out with the water and I was\nlike I don't think so\nfor Peter Walter growing up in Sun\nValley helped fuel love for the outdoors\nthanks to his family the community and\nthe Sun Valley Ski Education Foundation\nhopefully I can take it back to the\nworld stage I was just last weekend I\nwas in France for the World Cup which\nwas my first time skiing at that level\nand uh hope to get back there and\ncouldn't have done it without the\nsupport of this the ski team my friends\nand my family the Boulder Mountain tour\nalso creates a fun race for adaptive\nathletes kids and the older generation\nwhich includes Bob Rosso one of the\nfounders of the race he's now 75 years\nold\nforeign",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Clear skies allowed for a morning low of -12F leaving cold sharp snow on the track.",
+          "source_video_id": "Sdj-pM0RJoo",
+          "source_channel": "nicholskirk",
+          "source_view_count": 1970,
+          "category": "race_atmosphere",
+          "curated": true
+        }
+      ]
     }
   }
 }

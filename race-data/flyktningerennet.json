@@ -6,26 +6,30 @@
     "tagline": "Forty-four kilometers from Norway to Sweden on the escape route refugees took in 1944 — a cross-border memorial race where every kilometer carries the weight of wartime history.",
     "vitals": {
       "distance_km": 44,
-      "distance_options": ["44km"],
+      "distance_options": [
+        "44km"
+      ],
       "elevation_m": 550,
       "altitude_m": 600,
       "location": "Nordli (NO) to Gäddede (SE)",
       "location_badge": "Trøndelag, Norway / Jämtland, Sweden",
       "country": "Norway",
       "country_code": "NO",
-      "region": "Trøndelag / Jämtland",
+      "region": "Trøndelag",
       "date": "March",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~600",
+      "field_size": 600,
       "founded": 1950,
       "registration": "Open registration",
       "prize_purse": null,
       "aid_stations": "Feed stations along the cross-border route",
       "cutoff_time": null,
       "website": null,
-      "lat": 64.8000,
-      "lng": 14.3500
+      "lat": 64.8,
+      "lng": 14.35,
+      "field_size_estimate": 600,
+      "elevation_gain_m": 550
     },
     "climate": {
       "primary": "Scandinavian mountain border winter",
@@ -53,7 +57,7 @@
       ]
     },
     "nordic_lab_rating": {
-      "overall_score": 64,
+      "overall_score": 60,
       "tier": 2,
       "tier_label": "TIER 2",
       "discipline": "classic",
@@ -85,10 +89,65 @@
         "Start in Norway, finish in Sweden — two countries, one race"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Flyktningerennet cross country ski race Nordli (NO) to Gäddede (SE)",
+      "videos": [
+        {
+          "video_id": "9MkGbQDbk24",
+          "title": "Best moments of Flyktningerennet 2024",
+          "channel": "SC - The Ski Community",
+          "view_count": 357,
+          "upload_date": "20240328",
+          "duration_string": "3:38",
+          "description": "The Best moments of Flyktningerennet 2024 \n\nVideo Credits: Flyktningerennet/Flyktingloppet",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=9MkGbQDbk24",
+          "curated": true,
+          "curation_reason": "Recent race highlights from 2024 showing key moments from the cross-border race between Norway and Sweden.",
+          "display_order": 1
+        },
+        {
+          "video_id": "2qPrNqRbkrw",
+          "title": "LIERNE: FLYKTNINGERENNET MOSJON HERRER 31 MARS 2012",
+          "channel": "Bengt Steinar Nordbakk",
+          "view_count": 324,
+          "upload_date": "20120402",
+          "duration_string": "1:37",
+          "description": "Flyktningerennet lørdag kl 11.40 Fellesstart herrer mosjon.",
+          "tags": [
+            "LIERNE",
+            "FLYKTNINGERENNET",
+            "SPORT",
+            "SKI"
+          ],
+          "url": "https://www.youtube.com/watch?v=2qPrNqRbkrw",
+          "curated": false
+        },
+        {
+          "video_id": "TaOyKBIV_CE",
+          "title": "LIERNE: FLYKTNINGERENNET FELLESSTART DAMER MOSJON 31 MARS 2012",
+          "channel": "Bengt Steinar Nordbakk",
+          "view_count": 210,
+          "upload_date": "20120402",
+          "duration_string": "3:03",
+          "description": "Flyktningerennet fellesstart damer.",
+          "tags": [
+            "Lierne",
+            "flyktningerennet",
+            "sport",
+            "ski"
+          ],
+          "url": "https://www.youtube.com/watch?v=TaOyKBIV_CE",
+          "curated": true,
+          "curation_reason": "Mass start footage showing the race atmosphere and participation in the women's recreational category.",
+          "display_order": 2
+        }
+      ],
+      "quotes": []
     }
   }
 }

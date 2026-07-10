@@ -20,7 +20,7 @@
       "date": "February",
       "date_specific": null,
       "discipline": "skate",
-      "field_size": "~1,500",
+      "field_size": 1500,
       "founded": 1998,
       "registration": "Open registration",
       "prize_purse": null,
@@ -28,7 +28,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 59.25,
-      "lng": 25.85
+      "lng": 25.85,
+      "field_size_estimate": 1500,
+      "elevation_gain_m": 200
     },
     "climate": {
       "primary": "Baltic winter",

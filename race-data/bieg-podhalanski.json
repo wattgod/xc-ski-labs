@@ -1,0 +1,100 @@
+{
+  "race": {
+    "name": "Bieg Podhalański",
+    "slug": "bieg-podhalanski",
+    "display_name": "Bieg Podhalański",
+    "tagline": "Thirty kilometers through the Tatra Mountain foothills — where Poland's highland culture, Góral traditions, and reliable Carpathian snow create a distinct Polish ski marathon.",
+    "vitals": {
+      "distance_km": 30,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 400,
+      "altitude_m": 900,
+      "location": "Podhale region, Tatra Mountains",
+      "location_badge": "Tatra Mountains, Poland",
+      "country": "Poland",
+      "country_code": "PL",
+      "region": "Tatra Mountains",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 600,
+      "founded": null,
+      "registration": "Open registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": null,
+      "lat": 49.3,
+      "lng": 19.95,
+      "field_size_estimate": 450,
+      "elevation_gain_m": 400
+    },
+    "climate": {
+      "primary": "Carpathian mountain winter",
+      "description": "February in the Tatra foothills at 900m brings reliable Carpathian winter conditions. Temperatures typically -10°C to 0°C. The Tatras act as a snow barrier, receiving heavy precipitation from southern weather systems. The Podhale plateau retains snow well.",
+      "typical_temp_c": "-10 to 0",
+      "challenges": [
+        "Föhn wind (halny) can bring sudden warming from the south",
+        "Variable conditions in the Carpathian climate",
+        "Mountain weather can change rapidly in the Tatra region",
+        "Altitude of 900m adds modest physiological stress"
+      ]
+    },
+    "course": {
+      "primary": "Course through the Podhale region at the foot of the Tatra Mountains. Rolling terrain across the highland plateau with views of the Tatra peaks. The Podhale is Poland's distinctive highland region — open meadows, spruce forest, and traditional wooden villages. More varied terrain than lowland Polish courses.",
+      "format": "loop",
+      "surface": "Machine-groomed trails through the Podhale highland",
+      "technical_rating": 2,
+      "grooming": "Good Polish grooming standards",
+      "features": [
+        "Tatra Mountain panorama as a dramatic backdrop",
+        "Podhale — Poland's distinctive highland region with Góral culture",
+        "Near Zakopane — Poland's winter capital",
+        "Traditional wooden architecture along the route",
+        "Carpathian mountain climate provides reliable snow",
+        "Both classic and skate technique available"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 50,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Tatra Mountain scenery and Góral highland culture give this race distinctive character. Proximity to Zakopane provides good infrastructure and accessibility. Shorter 30km distance and modest international draw limit top scores. Solid regional event in Poland's premier winter sports area.",
+      "tier_note": "Score 51 places in TIER 3 range (45-59)"
+    },
+    "history": {
+      "summary": "The Bieg Podhalański is a ski marathon in the Podhale region of southern Poland, at the foot of the Tatra Mountains. The Podhale is home to the Góral people — Poland's highland culture with distinctive music, architecture, and traditions. Zakopane, nearby, is Poland's undisputed winter capital and has hosted numerous international ski competitions. The race celebrates the region's deep connection to winter sports and mountain culture.",
+      "notable_facts": [
+        "Podhale is home to the Góral people — Poland's highland mountain culture",
+        "Near Zakopane — Poland's winter capital since the 19th century",
+        "The Tatra Mountains are the highest range in the Carpathians",
+        "Zakopane hosted the 1929 and 1939 FIS Nordic World Ski Championships",
+        "Poland's Bieg Piastów (Jakuszyce) is the country's largest ski marathon — Bieg Podhalański offers the Tatra alternative",
+        "The Podhale's traditional wooden architecture is a UNESCO-recognized heritage"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

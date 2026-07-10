@@ -1,0 +1,92 @@
+{
+  "race": {
+    "name": "Crescent Lake Challenge",
+    "slug": "crescent-lake-challenge",
+    "display_name": "Crescent Lake Challenge",
+    "tagline": "A short freestyle challenge in the Oregon Cascades — backcountry-flavored Nordic racing near Crescent Lake.",
+    "vitals": {
+      "distance_km": 23,
+      "distance_options": [
+        "23km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 1400,
+      "location": "Crescent Lake, Oregon",
+      "location_badge": "Oregon, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Oregon",
+      "date": "February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 50,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Basic aid stations",
+      "cutoff_time": null,
+      "website": "https://www.oregonnordic.org",
+      "lat": 43.49,
+      "lng": -121.97,
+      "field_size_estimate": 75,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Cascade mountain winter",
+      "description": "High Cascades receive heavy snowfall. Temperatures typically -8°C to 0°C. Deep snowpack is typical.",
+      "typical_temp_c": "-8 to 0",
+      "challenges": [
+        "Heavy, wet Cascade snow",
+        "Variable grooming on remote trails",
+        "Mountain weather can change rapidly"
+      ]
+    },
+    "course": {
+      "primary": "Trail course near Crescent Lake in the Oregon Cascades. Mountain terrain through dense conifer forest.",
+      "format": "loop",
+      "surface": "Groomed trails",
+      "technical_rating": 2,
+      "grooming": "Basic grooming",
+      "features": [
+        "Oregon Cascades mountain setting",
+        "Near scenic Crescent Lake",
+        "Deep snowpack environment"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 37,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "A very small Pacific Northwest mountain race with good snow but limited everything else.",
+      "tier_note": "Score 37 places in TIER 4"
+    },
+    "history": {
+      "summary": "The Crescent Lake Challenge is a small Nordic ski event in the Oregon Cascades, part of the state's citizen ski racing scene.",
+      "notable_facts": [
+        "Set near scenic Crescent Lake in the Oregon Cascades",
+        "Part of Oregon's Nordic skiing community",
+        "High Cascades provide reliable snowpack"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

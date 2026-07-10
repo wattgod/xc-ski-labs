@@ -6,7 +6,10 @@
     "tagline": "Eighty kilometers across the Finnmark tundra from Seida to Vadsø — Norway's northeasternmost marathon where the Arctic plateau stretches to the horizon and the midnight sun is still months away.",
     "vitals": {
       "distance_km": 80,
-      "distance_options": ["80km", "40km"],
+      "distance_options": [
+        "80km",
+        "40km"
+      ],
       "elevation_m": 600,
       "altitude_m": 350,
       "location": "Seida to Vadsø",
@@ -17,15 +20,17 @@
       "date": "April",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~400",
+      "field_size": 400,
       "founded": 1998,
       "registration": "Open registration",
       "prize_purse": null,
       "aid_stations": "Multiple feed stations along the Arctic route",
       "cutoff_time": null,
-      "website": null,
+      "website": "https://www.tvrennet.no",
       "lat": 70.0731,
-      "lng": 27.0705
+      "lng": 27.0705,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 600
     },
     "climate": {
       "primary": "Arctic tundra winter",
@@ -86,7 +91,9 @@
         "April race date takes advantage of Arctic spring snow and daylight"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
       "videos": [],
       "rider_intel": null

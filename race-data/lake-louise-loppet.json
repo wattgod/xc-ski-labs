@@ -1,0 +1,247 @@
+{
+  "race": {
+    "name": "Lake Louise Loppet",
+    "slug": "lake-louise-loppet",
+    "display_name": "Lake Louise Loppet",
+    "tagline": "Western Canada's longest-running loppet — classic skiing beneath the turquoise-tinted Canadian Rockies.",
+    "vitals": {
+      "distance_km": 25,
+      "distance_options": [
+        "20km",
+        "10km",
+        "2km",
+        "1km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 1540,
+      "location": "Lake Louise, Alberta",
+      "location_badge": "Alberta, Canada",
+      "country": "Canada",
+      "country_code": "CA",
+      "region": "Alberta",
+      "date": "First Sunday of March",
+      "date_specific": "2026: March 1",
+      "discipline": "classic",
+      "field_size": 200,
+      "founded": 1972,
+      "registration": "Open registration via Calgary Ski Club",
+      "prize_purse": null,
+      "aid_stations": "Aid available along the course",
+      "cutoff_time": null,
+      "website": "https://calgaryskiclub.org/loppet",
+      "lat": 51.4254,
+      "lng": -116.1773,
+      "field_size_estimate": 300,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Canadian Rocky Mountain winter",
+      "description": "Lake Louise sits at 1,540m in the Canadian Rockies with reliable cold winter conditions. March temperatures typically range from -15°C to -5°C. Chinook winds can occasionally bring rapid warming, but the altitude usually guarantees excellent snow.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "High altitude at 1,540m can affect effort",
+        "Cold Rocky Mountain temperatures in early March",
+        "Occasional Chinook wind events can warm conditions rapidly",
+        "Remote mountain setting requires advance planning"
+      ]
+    },
+    "course": {
+      "primary": "Classic-only course through the stunning Lake Louise area of Banff National Park, with mountain scenery throughout. Terrain suitable for all ages and abilities.",
+      "format": "loop",
+      "surface": "Groomed classic tracks on Banff National Park trails",
+      "technical_rating": 2,
+      "grooming": "Good Parks Canada / club standard grooming",
+      "features": [
+        "Set in Banff National Park beneath the Canadian Rockies",
+        "Spectacular mountain scenery at every turn",
+        "Classic technique only — no skating",
+        "Community fun race format welcoming all ages",
+        "Western Canada's longest-running loppet (since 1972)",
+        "Organized by Calgary Ski Club"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 60,
+      "tier": 2,
+      "tier_label": "TIER 2",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 4,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Outstanding scenery in Banff National Park and excellent snow reliability at altitude compensate for the shorter distance and modest field size. Over 50 years of heritage as Western Canada's oldest loppet.",
+      "tier_note": "Score 60 places in TIER 2"
+    },
+    "history": {
+      "summary": "The Lake Louise Loppet was founded in 1972, making it the longest-running loppet in Western Canada. Organized by the Calgary Ski Club, it has been a community institution for over five decades. The event celebrated its 50th anniversary in 2022. Set against the spectacular backdrop of the Canadian Rockies in Banff National Park, it emphasizes participation and community over competition.",
+      "notable_facts": [
+        "Founded in 1972 — Western Canada's longest-running loppet",
+        "Celebrated 50th anniversary in 2022",
+        "Organized by Calgary Ski Club",
+        "Set in Banff National Park, a UNESCO World Heritage Site",
+        "Classic technique only — preserves traditional skiing format",
+        "Community fun race open to all ages and abilities"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Lake Louise Loppet cross country ski race Lake Louise",
+      "videos": [
+        {
+          "video_id": "-___SnssR-g",
+          "title": "Lake Louise loppet",
+          "channel": "Angel Calgary",
+          "view_count": 94,
+          "upload_date": "20170306",
+          "duration_string": "1:29",
+          "description": "X Country race",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=-___SnssR-g",
+          "transcript": "sign one sign says 1K turn off here 2K\ngoes straight ahead okay so if you're in\nthe 1K you'll turn off to the right\nwhere you see the the two sides and the\n2K look will continue straight on okay\nand then you do a 2K loop around the\nlake by to the finish the\none and then comes by around and goes to\nthe Finish\nokay and maybe if there's a parent could\nfollow just to make sure that would be\ngreat okay on your\nMarch anel follow him on skis so you\ntell him follow him on skis so\nyou\nI\n[Music]\nready now hold that\n[Laughter]\npause\nthat's fight you all win a medal\ngo\nJohny you just make sure take the right\ntril nice\ngood yeah follow him so you can tell him\nI see him",
+          "curated": false
+        },
+        {
+          "video_id": "aGCD7CUK7nI",
+          "title": "Lake Louise to Banff Loppet start",
+          "channel": "SkiHere",
+          "view_count": 328,
+          "upload_date": "20140120",
+          "duration_string": "57",
+          "description": "Lake Louise to Banff loppet 2014 start",
+          "tags": [
+            "ski",
+            "loppet",
+            "race",
+            "Lake Louise",
+            "Banff",
+            "Skierbob",
+            "Cross-country Skiing (Sport)"
+          ],
+          "url": "https://www.youtube.com/watch?v=aGCD7CUK7nI",
+          "curated": false
+        },
+        {
+          "video_id": "t9JH1og47y4",
+          "title": "Lake Louise Loppet 2016 - 10 km race",
+          "channel": "AscendTech Simulations",
+          "view_count": 141,
+          "upload_date": "20160307",
+          "duration_string": "2:07",
+          "description": "Jackson and 142 others at the Lake Louise Loppet in the 10 km race.  Brian McKeever won the 20 km race.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=t9JH1og47y4",
+          "transcript": "alright go phils\n[Music]\nscare behind you\nall right go Jackson your way out in\nfront\nall right\nall right good job Jackson",
+          "curated": false
+        },
+        {
+          "video_id": "5sdZXZBDRLs",
+          "title": "Lake Louise! Cross Country skiing!!",
+          "channel": "The Life of Mack",
+          "view_count": 312,
+          "upload_date": "20210127",
+          "duration_string": "2:28",
+          "description": "Find the best pow to cross country in!!!! SOOOOOOOOO Beautiful!!",
+          "tags": [
+            "skiing",
+            "crosscountry",
+            "xcskiing",
+            "winter",
+            "thule",
+            "fischer",
+            "rossignol",
+            "fun",
+            "adventure",
+            "active",
+            "healthy",
+            "vegan",
+            "vegetarian",
+            "fit",
+            "exercise",
+            "get outside",
+            "weekend",
+            "love life",
+            "be kind",
+            "swix",
+            "patagonia",
+            "review",
+            "kananaskis",
+            "banff",
+            "lake louise",
+            "mountains",
+            "snow",
+            "black diamond",
+            "cold",
+            "winter wonderland",
+            "have fun",
+            "stay active",
+            "get active",
+            "rockies",
+            "canmore"
+          ],
+          "url": "https://www.youtube.com/watch?v=5sdZXZBDRLs",
+          "transcript": "beautiful lakelies\nhotel beautiful ray beautiful day\nbeautiful hook\nepic epic\nlook at that beautiful\nhey girl\nthank you\n[Music]\nyeah then yeah buddy\nlet's do this\nlet me go first i want to get you guys\ncoming down\nand i'll yell piss if i hear\nanything\nit's a good corner here\nso pretty yeah\nwhoa holy\ngood job oh you're ripping\ngood job\nyes\nyou good\n[Applause]",
+          "curated": false
+        },
+        {
+          "video_id": "k9uUdxCbthI",
+          "title": "2015 Lake Louise Banff Loppet",
+          "channel": "KiYoung Sung",
+          "view_count": 156,
+          "upload_date": "20150119",
+          "duration_string": "2:19",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=k9uUdxCbthI",
+          "curated": false
+        },
+        {
+          "video_id": "hhjGXMGs5zY",
+          "title": "2018 X-Country Ski - Pipestone Trail Lake Louise - 4K",
+          "channel": "Tim Schultz",
+          "view_count": 323,
+          "upload_date": "20180429",
+          "duration_string": "3:51",
+          "description": "Recorded using: \n- GoPro Hero 5 Black \n- 3840 x 2160 @ 30FPS\n- FOV Wide\n\nMusic: Yacht \"I Walked Alone\"  \n\nSelect 2160p for best playback quality \n\nInstagram - http://www.instagram.com/t_schultz",
+          "tags": [
+            "gopro",
+            "gopro hero 5",
+            "hero 5",
+            "cross country ski",
+            "karma grip",
+            "lake louise"
+          ],
+          "url": "https://www.youtube.com/watch?v=hhjGXMGs5zY",
+          "curated": true,
+          "curation_reason": "High-quality 4K POV skiing footage on the Pipestone Trail at Lake Louise showing course terrain and conditions.",
+          "display_order": 1
+        },
+        {
+          "video_id": "5_SwrC3BcC0",
+          "title": "banff lake louise loppet",
+          "channel": "TheUnameful",
+          "view_count": 42,
+          "upload_date": "20130622",
+          "duration_string": "1:36",
+          "description": "lake louise banff loppet 2012\nlake louise to banff ski loppet\nlake louise to banff loppet & relay\nbanff lake louise map\nbanff hotels lake louise\nbanff lake louise loppet",
+          "tags": [
+            "banff lake louise map"
+          ],
+          "url": "https://www.youtube.com/watch?v=5_SwrC3BcC0",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

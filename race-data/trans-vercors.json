@@ -20,15 +20,17 @@
       "date": "Mid-February",
       "date_specific": "2026: February 15",
       "discipline": "skate",
-      "field_size": "~600-1,000",
+      "field_size": 600,
       "founded": 1968,
       "registration": "Opens in late fall; popular event",
       "prize_purse": null,
       "aid_stations": "Ravitaillement stations with warm drinks, cheese, charcuterie, and energy food",
       "cutoff_time": null,
-      "website": "https://www.transvercors.com",
+      "website": "https://transvercors-nordic.com/",
       "lat": 45.0667,
-      "lng": 5.55
+      "lng": 5.55,
+      "field_size_estimate": 800,
+      "elevation_gain_m": 1140
     },
     "climate": {
       "primary": "Pre-Alpine Vercors plateau winter",
@@ -58,7 +60,7 @@
       ]
     },
     "nordic_lab_rating": {
-      "overall_score": 67,
+      "overall_score": 70,
       "tier": 2,
       "tier_label": "TIER 2",
       "discipline": "skate",
@@ -90,10 +92,75 @@
         "Grenoble (1968 Winter Olympics host city) is the nearest major city"
       ]
     },
-    "series_membership": [],
+    "series_membership": [
+      "marathon_ski_tour"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Trans'Vercors cross country ski race Saint-Agnan to Villard-de-Lans",
+      "videos": [
+        {
+          "video_id": "59Yf2FEF00Y",
+          "title": "SKI DE FOND. Des Licornes et des fantômes pour les 51 ans de la Trans’Vercors",
+          "channel": "France 3 Auvergne-Rhône-Alpes",
+          "view_count": 341,
+          "upload_date": "20190304",
+          "duration_string": "1:51",
+          "description": "Dimanche 3 mars 2019, a eu lieu la Trans’Vercors, une course mythique de ski de fond qui a fêté ses 51 ans cette année. Et depuis l’année dernière, les organisateurs ont aussi mis en place un parcours de 18 kilomètres réservé aux équipes Trans’Générationnelles. \n\nLire l'article : https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/isere/ski-fond-licornes-fantomes-51-ans-trans-vercors-entre-isere-drome-1632944.html\n\nReportage : Jean-Christophe Pain, Dominique Semet et Mélanie Ducret\n\nRetrouvez-nous sur :\nNotre site web\nhttp://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/\n\nNos pages Facebook\nhttps://www.facebook.com/f3Alpes/\nhttps://www.facebook.com/france3Auvergne/\nhttps://www.facebook.com/france3rhonealpes/\n\nNos comptes Twitter\nhttps://twitter.com/f3Alpes\nhttps://twitter.com/F3Auvergne\nhttps://twitter.com/F3Rhone_Alpes\n\nSur Instagram\nhttps://www.instagram.com/france3alpes/\nhttps://www.instagram.com/france3auvergne/\nhttps://www.instagram.com/france3rhonealpes/",
+          "tags": [
+            "France3",
+            "France",
+            "Télévisions",
+            "Auvergne-Rhône-Alpes",
+            "Ski",
+            "Ski de fond",
+            "Trans'Vercors",
+            "Isère",
+            "Drôme",
+            "Générations",
+            "famille",
+            "montagne",
+            "sport"
+          ],
+          "url": "https://www.youtube.com/watch?v=59Yf2FEF00Y",
+          "curated": false
+        },
+        {
+          "video_id": "8S3lNvRjO2E",
+          "title": "50 ans pour la Trans’Vercors",
+          "channel": "Admin Transvercors",
+          "view_count": 507,
+          "upload_date": "20180315",
+          "duration_string": "11:25",
+          "description": "Découvrez le superbe reportage de la webtv Vercorstv :\nhttps://www.vercors-tv.com/50-ans-pour-la-Trans-Vercors_v1160.html\nRetour en image sur le Weekend du 3 et 4 mars 2018 avec toute une retrospective sur les 50 ans de cette aventure nordique...\n\"En 1968, la Traversée du Vercors prenait son envol. 50 ans plus tard, le tracé a bien changé mais l’esprit des pionniers perdure. La Trans’Vercors nordique 2018 a rassemblé plus de 1000 participants et ce fut l’occasion de belles rencontres inter-générationnelles.\"",
+          "tags": [
+            "ski",
+            "vercors",
+            "nordique",
+            "villard",
+            "col du rousset"
+          ],
+          "url": "https://www.youtube.com/watch?v=8S3lNvRjO2E",
+          "curated": true,
+          "curation_reason": "Comprehensive retrospective coverage of the 50th anniversary race weekend with over 1000 participants.",
+          "display_order": 2
+        },
+        {
+          "video_id": "R6asljqOujI",
+          "title": "Caméra embarquée - 53km Trans'Vercors Nordic - 4 mars 2018",
+          "channel": "Admin Transvercors",
+          "view_count": 1196,
+          "upload_date": "20180306",
+          "duration_string": "3:17",
+          "description": "Embarquez avec Pierre-Yves Gibello et revivez la Mythique course des 53km de Trans'Vercors Nordic : L’épreuve Reine par équipe de 2 en libre contre le chrono ou en rando ! \nhttp://transvercors-nordic.com/le-53km-mythic/\n\nLa « TransVercors Nordic » est une course mythique de ski de fond, qui a été créée en 1968. Cette course, de 53 kilomètres traverse la Réserve Naturelle des Hauts Plateaux du massif du Vercors, partant du département de la Drôme pour arriver dans celui de l’Isère.\n\n2 formules aux choix :\nLa formule « chrono » : par équipe de 2 avec 3 classements à l’arrivée : paires Féminines, Masculines et mixtes\nLa formule « rando/ loisirs », individuelle en rando loisir sans classement",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=R6asljqOujI",
+          "curated": true,
+          "curation_reason": "POV camera footage of the full 53km mythic race provides first-person perspective of the course.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
     }
   }
 }

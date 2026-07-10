@@ -6,7 +6,11 @@
     "tagline": "Fifty-two kilometers through Michigan's Copper Country on 230 inches of annual snow — where Lake Superior's fury becomes the Upper Peninsula's gift and every finisher earns a pasty.",
     "vitals": {
       "distance_km": 52,
-      "distance_options": ["52km", "26km", "13km"],
+      "distance_options": [
+        "52km",
+        "26km",
+        "13km"
+      ],
       "elevation_m": 300,
       "altitude_m": 370,
       "location": "Calumet",
@@ -17,7 +21,7 @@
       "date": "Second Saturday in March",
       "date_specific": "2026: March 14",
       "discipline": "both",
-      "field_size": "~800 starters",
+      "field_size": 800,
       "founded": 1981,
       "registration": "Online registration; opens in autumn",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.greatbearchase.com",
       "lat": 47.2437,
-      "lng": -88.4530
+      "lng": -88.453,
+      "field_size_estimate": 800,
+      "elevation_gain_m": 300
     },
     "climate": {
       "primary": "Lake Superior lake-effect winter",
@@ -87,8 +93,239 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Great Bear Chase cross country ski race Calumet",
+      "videos": [
+        {
+          "video_id": "dJzIxJOrD4U",
+          "title": "TV6 Early News Saturday - UP Health System Great Bear Chase race returns to Calumet",
+          "channel": "Upper Michigan's Source | TV6 & FOX UP",
+          "view_count": 58,
+          "upload_date": "20250312",
+          "duration_string": "1:55",
+          "description": "Skiers could compete in skiathlon, freestyle or classic races of various distances.\r\n  \r\n For more Local News from WLUC:  https://www.uppermichiganssource.com/\r\n For more YouTube Content: https://www.youtube.com/channel/UC0VdQ0qx4RpethtRWqjkSCA",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=dJzIxJOrD4U",
+          "transcript": "today the ski trails bustled with\nexcitement in CT for the return of the\nGreat Bear Chase TV 6's Julia sites asks\nskiers how it feels to get back on the\ntrails skiers and bears raced on packed\nsnow today in Calumet the up Health\nSystem Great Bear Chase returned to the\nswed town Trails after last year's\ncancellation skier Kim green says It's\namazing to have the race back super\nexciting to see all these people I get\nlike an just Jitters but it's kind of\ngood energy and it's so fun to have\neverybody here and we have the best snow\num we had a huge base and then we got\nthat blizzard and it just added a whole\nbunch more so race Committee Member Dean\nwoodbeck says everyone's happy to see\nextra snow especially the 80% of skiers\nWho come out of state the course is\nreally a fun course and a lot of it is\nthrough the woods not a lot of open\nspaces and I think people like that they\nlike the feeling that they're skiing in\nthe woods rather than maybe on a 2K\nman-made Loop woodbeck says the team is\nproud of attracting skiers and bringing\n$700,000 into the local economy woodbeck\nsays about 900 people are competing\ntoday which is record-breaking and a\ngreat start to the 45th annual race\nhaving 45 of these is great it started\nout as a small race as a lot of races do\num I remember doing it once and we\nstarted on the snowmobile trail and\nthere were snowmobiles coming by while\nwe were uh skiing to the road crossing\nafter years of hard work the race\nimproved to the large Stadium it is\ntoday I ski here all the time and I just\nlove these Trails they're really\nbeautiful and then when they put the\nrace together they make it flow really\nnicely so it's just a really good use of\nwhat we have here as a Great Bear Chase\nskier of 20 years green says there's a\nrace for everyone Julia sites TV6 news",
+          "curated": false
+        },
+        {
+          "video_id": "40ItC5h4aWA",
+          "title": "Cross country skiers hit the trails for Great Bear Chase",
+          "channel": "My UP Now",
+          "view_count": 175,
+          "upload_date": "20140310",
+          "duration_string": "1:11",
+          "description": "Calumet was the place to be this past weekend for the Great Bear Chase Ski Marathon. ABC 10 Keweenaw Bureau reporter Sam Ali was there for a complete recap of the event.",
+          "tags": [
+            "wbup",
+            "wbkp",
+            "abc10",
+            "cw5",
+            "ishpeming",
+            "marquette",
+            "michigan",
+            "calumet",
+            "houghton"
+          ],
+          "url": "https://www.youtube.com/watch?v=40ItC5h4aWA",
+          "transcript": "C met was the place to be this past\nweekend for the Great Bear Chase ski\nMarathon ABC 10's q&amp; Bureau reporter Sam\nAli was there for a complete recap of\nthe\nevent great weather led to a great crowd\nat the 2014 Great Bear chase this past\nweekend the ray brought together\nprofessional and Casual skiers from all\nacross the country to the swed town\ntrails in couat Kathleen Morris who has\nbeen skiing for over 30 years says this\nrace has one of the best trails in the\nentire country I thought they were great\nthey were excellent this is one of my\nfavorite ski races I just love it and\nit's it's they just do a great job and I\nI wish it wasn't over I wish I could\nkeep going over 500 people took part in\nthe race including 12-year-old Mark\nsheller from Minnesota he says he knows\nhe's one of the youngest participants\nand although he liked his time he still\nhas a lot to learn I feel like I have a\nlot of time to catch up and just\nprobably get get better and see if I can\nget as good as I can at cross country\nskiing and with temperature above\nfreezing for the first time in quite a\nwhile the event made for a great hangout\nspot as well for ABC 10 cw5 news now I'm\nSam Ali",
+          "curated": false
+        },
+        {
+          "video_id": "OxJDinXnruc",
+          "title": "Organizers prepare for annual Great Bear Chase",
+          "channel": "Upper Michigan's Source | TV6 & FOX UP",
+          "view_count": 56,
+          "upload_date": "20260306",
+          "duration_string": "2:06",
+          "description": "Organizers prepare for annual Great Bear Chase\r\n\r\nFor more Local News from WLUC: https://www.uppermichiganssource.com/\r\nFor more YouTube Content: https://www.youtube.com/channel/UC0VdQ0qx4RpethtRWqjkSCA",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=OxJDinXnruc",
+          "transcript": "The copper dog may have concluded last\nweekend, but the copper country has more\nwinter activities to check out. A racing\nevent is nearly ready to begin in\nCalumet.\n&gt;&gt; TV6's Hoten Hancock Bureau reporter\nColin Jackson tells us how many racers\nare involved this year and just how much\nof an impact this race has on the area.\n&gt;&gt; So far, we have 842\nwho have signed up. That seems oddly\nspecific, but I just looked. Hundreds of\nparticipants are ready and raring to\nrace in the latest Great Bear Chase\nskiing event this weekend. From the 52\nkm freestyle to the 1 kilometer junior\nbear chase, these racers will be\ncompeting across a variety of distances\nto cross the finish line. First,\norganizing committee member Dean\nWoodbeck says the appeal of the event\ncomes down to three factors.\n&gt;&gt; One is uh we almost always have snow. In\nrecent years in the upper Midwest,\nsometimes we're the only place with\nsnow. We've become known for our\nvolunteers being very friendly and we\ncreate kind of a friendly atmosphere.\nAnd then I think the third thing is our\norganizing committee. We've got a broad\nrange of people. So we have people who\nski race a lot. We have people like me\nwho don't ski race a lot.\n&gt;&gt; Wood Beck also says that he and fellow\norganizers have been keeping an eye on\nhow much economic impact the event has\non the area for the past four years.\n&gt;&gt; We contribute something like $700,000 to\nthe economy in this event. you know,\njust from Friday night through Sunday.\n&gt;&gt; Race director Angela Luskin says the\nevent needs 150 volunteers each year to\nrun smoothly. She says all necessary\nvolunteer positions have been filled,\nbut encourages anyone still interested\nin racing to register before it's too\nlate.\n&gt;&gt; Online registration closes Thursday\nnight at midnight and then we'll have\nlast minute registration at um the Calat\nHigh School from 4:30 to 8:30 p.m. on\nFriday. No race day registration, so\nFriday is the deadline. The races kick\noff Saturday morning at 8 with the 52 km\nskiathlon with the starting line located\nnear Spruce Street in Calat. Organizers\nrecommend planning for a 15minute walk\nto the race start. Colin Jackson, TV6\nNews, Calumet.",
+          "curated": false
+        },
+        {
+          "video_id": "_5bzQfXxT8w",
+          "title": "Great Bear Chase 2014 - 10k course",
+          "channel": "Trail Genius",
+          "view_count": 610,
+          "upload_date": "20140313",
+          "duration_string": "32:42",
+          "description": "New for 2014 the 10k course at the Great Bear Chase Ski Marathon in Calumet, MI gets skiers out on the same beautiful Swede Town trails the 25 and 50k course use.  If you are looking to give nordic ski racing a try, this a great course to start on.  Get Video+GPS or the course at: http://trailgenius.com/trail-genius-map/great-bear-chase-10k-2014",
+          "tags": [
+            "Trail",
+            "Genius",
+            "map",
+            "gps",
+            "race",
+            "event",
+            "trail",
+            "Great Bear Chase",
+            "Nordic Skiing (Sport)",
+            "Marathon (Sport)",
+            "Calumet (City/Town/Village)",
+            "Michigan (US State)",
+            "Swede Town",
+            "10k"
+          ],
+          "url": "https://www.youtube.com/watch?v=_5bzQfXxT8w",
+          "curated": true,
+          "curation_reason": "Complete POV course footage showing the 10k route through Swede Town trails for course preview.",
+          "display_order": 4
+        },
+        {
+          "video_id": "4BB2CNZEDxg",
+          "title": "Goldilocks Spring Skiing: The Great Bear Chase (The Crossing Place 2025)",
+          "channel": "Visit Keweenaw",
+          "view_count": 655,
+          "upload_date": "20250303",
+          "duration_string": "2:57",
+          "description": "In the Keweenaw, the joys of cross-country skiing extend into early spring, thanks to the hundreds of inches of snow that fall each season! Since 1981, the Great Bear Chase has welcomed skiers from around the world to Calumet, Michigan, to experience the Copper Country's excellent late-season trail conditions in this friendly competition. While many other places in the Great Lakes region turn green by March, the UP Health Great Bear Chase Marathon offers skiers a variety of races and distances to enjoy!\n\n___________________________________________________________________________\n\n\"The Crossing Place\" is a Visit Keweenaw documentary film series that explores the deep veins of inspiration and majesty that run through the people, organizations, and experiences that make the Keweenaw truly singular. Explore more of the Crossing Place at: https://www.visitkeweenaw.com/the-crossing-place/\n\n___________________________________________________________________________\n\nSign up for The Great Bear Chase or learn more about the annual race here: https://www.greatbearchase.com/\n\n___________________________________________________________________________\n\nTo learn more about Visit Keweenaw, and find your reason to #AdventureNorth, visit: www.visitkeweenaw.com",
+          "tags": [
+            "keweenaw",
+            "keweenaw peninsula",
+            "cross country ski",
+            "great bear chase"
+          ],
+          "url": "https://www.youtube.com/watch?v=4BB2CNZEDxg",
+          "transcript": "it's just an amazing experience with the\nGreat Bear Chase if you've never been to\nthe Kina that alone is just an\nincredible highlight and then second you\nknow to see the sweet Town Trails\namazing trail system and then just the\nwelcoming atmosphere of everybody\ninvolved it's just it's incredible\nenvironment and something really cool to\n[Music]\nexperience my name is Angela Lin I am\nthe race director for the Great Bear\ntaste so the Great Bear taste is a cross\ncountry ski event at sweeton trails that\nstarted in 1981 so a long-standing\ncommunity tradition and just a\nopportunity for a last minute ski race\nit's kind of at the tail end of winter\nwhere we still have plenty of snow and\ngreat conditions for\nRacers this race is top-notch because of\nthe access to the SED Town trails that\nthe course happens on these beautiful\ngroomed trails and every year people\ncomment on how we have some of the best\ntrail systems in the midwest here at\nSweet toown Trails so we're really\nfortunate in the Copper Country to have\nthis you know in our\nbackyard what is really unique about the\nGreat Bear Chase is 85% of the hundreds\nof skiers that come are from out of the\narea so it's a huge economic boom you\nknow for our community and these Racers\nare coming from all over almost every\nstate is represented sometimes we have\npeople from out of the country even and\nthey are all ages all demographic so\nit's um just really great to see such a\nmix of individuals that come out for\nthis\nrace there's the unique experiences of\nthe Great Bear Chase too so we are\nfamous for our racer luncheon at the cat\nschools these pasties everyone wants to\ncome and have a pasty we try to Source\num as many things as we can locally so\nwe have these beautiful very sought\nafter wood skis that are designed by\nlocal artists for the first place age\ngroup winners I came gam and Gifts helps\nus with the overall awards that are made\nout of copper so all of these small\nlittle touches that really help to set\nthe Great Bear Chase apart from other\nski\nraces and then there's you know also the\nhometown feel of it too so you know once\nRacers visit here they often want to\ncome back but then Word of Mouth helps\nthe race too as it has continued to grow\nyear after year the Great Bear Chase has\njust this incredible reputation it\nstarts with our volunteers every year\nour Racers always comment like they are\nthe most incredible volunteers they're\nso welcoming they just always have\nSmiles on their faces they're so happy\nwe would not be the high caliber event\nwe are today if it weren't for our\ntremendous volunteers our great sponsors\nand our super incredible Racers we all\njust love the outdoors and all of the\nseasons and there's just so much to\noffer here in the cuan now",
+          "curated": false
+        },
+        {
+          "video_id": "mn9jCCOJRSo",
+          "title": "Great Bear Chase Start",
+          "channel": "saveurwi",
+          "view_count": 427,
+          "upload_date": "20130311",
+          "duration_string": "38",
+          "description": "Start of the 25km Classical Division for the Great Bear Chase Ski Marathon at the Swedetown Trails in Calumet, Michigan on March 9, 2013.",
+          "tags": [
+            "Skiing",
+            "Cross Country",
+            "XC",
+            "Calumet",
+            "Great Bear Chase",
+            "ski",
+            "marathon",
+            "Upper Peninsula",
+            "Classical skiing",
+            "Swedetown"
+          ],
+          "url": "https://www.youtube.com/watch?v=mn9jCCOJRSo",
+          "curated": false
+        },
+        {
+          "video_id": "-zTXgLxOQNY",
+          "title": "Challenge Accepted: 25K X Country Skiing Race... Just Learned to Ski...",
+          "channel": "Jessica Wachs",
+          "view_count": 125,
+          "upload_date": "20210315",
+          "duration_string": "5:41",
+          "description": "Michigan's Great Bear Chase is a gathering of graceful, well-trained athletes who breeze their way through nature's bliss, hardened muscles rippling under their cute little bibs as they propel their way into greatness.\n\nThere was also me. I was totally there... enjoying my second week of cross country skiing ever... Challenge accepted!\n\nLet me know in the comments below what challenge you'd like to see next!",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=-zTXgLxOQNY",
+          "transcript": "a little jacket\ni want to wear this they're going to be\nscreaming 435 out of the way\nthe whole time i still have yet\nto go down a hill without falling\ni had mcdonald's for dinner last night\nmy goals for today oh it comes with a\nvanilla bean\na little energy gel right my three goals\nbecause uh it's important to be\nrealistic as well\nshow up on time fall fewer than five\ntimes\ni just want to get off the track before\nthey close the track\ndream big i'm gonna die\nokay not off to a good start i already\ncan't find the address anywhere i have\nno idea where i'm going i don't know\nwhere this begins\npages and pages of this map but they\ndon't have any addresses\nwhat have i done oh my god\nnot bad for a second week skiing\nhello world this is the person who's\ngonna make sure that i don't die in the\nwoods because i'm\nso fly last place isn't it great\npersonal cheerleader i went down three\nhills without falling\noh my god i've only fallen on my face\nonce\nthis is a big hill i call it the death\nhill\noh i'm alive\nthere are so many people with abs around\nhere it's inspirational\nchallenge accepted\nalmost halfway done this is a lot of fun\nit's really pretty feels like a video\ngame\nwith a broken remote and pain lots of\npain\nbut it's really pretty a good way to get\nsome cardio in\nand listen to music and\nsee people with abs come by among\nother things it's kind of good to be in\nthe back sometimes\n[Music]\ni made it to the halfway point there's\nlots of cool people here\nand most importantly gatorade and this\nis the place to watch everyone else face\nplant so\npart of the culture in action here\ni still haven't fallen more than five\ntimes right i'm getting cocky\ni'm about to fall\nshe's still making sure i'm not dead\n9k marker\ni will succeed i am ahead of the track\nclosing\nhuzzah\nokay i think i'm gonna run out of\nfalls that i'm allotting myself on this\none hill alone\nit's fun to say goodbye to the loved\nones of my life\nit's fine\nnumber six has happened i am\nnot at five falls anymore but\ni couldn't park let's get you off this\ntrail so you can go home to your family\nso close\nnot gonna lie i'm in a lot of pain and\nthat's the finish line\nhere's the timer yeah now i fall\nand\ni have made it 25k\nsecond week of cross-country skiing i'm\nstill alive there are pasties with my\nname on it i'm going now\nthat was a lot of fun i mean i\nwas dead last but i learned how to\nactually like\nski i got good at going downhills i got\ngood at the pizza wedge i got good at\ngoing fast and staying in the tracks and\nnow i know how to cross country ski uh\nbut that was fun\nthat was a fun little challenge and a\ni think i want to sign up for a\ntriathlon next\nsee what happens\nyou",
+          "curated": true,
+          "curation_reason": "Engaging POV vlog of a beginner tackling the 25k with authentic race experience and course terrain details.",
+          "display_order": 2
+        },
+        {
+          "video_id": "n1AkP4Q8V9s",
+          "title": "Great Bear Chase Ski Marathon Weekend March 5, 2016; Calumet, MI",
+          "channel": "nodrunner",
+          "view_count": 802,
+          "upload_date": "20160306",
+          "duration_string": "14:48",
+          "description": "I created this video with the YouTube Video Editor (https://www.youtube.com/editor)",
+          "tags": [
+            "YouTube Editor",
+            "Great Bear Chase",
+            "Ski Marathon",
+            "Swedetown",
+            "Calumet",
+            "Keweenaw",
+            "U.P. Winter",
+            "Cross Country Skiing",
+            "Copper Country Ski Tigers",
+            "Ski Tigers",
+            "Great Bear Chase Ski Marathon Weekend"
+          ],
+          "url": "https://www.youtube.com/watch?v=n1AkP4Q8V9s",
+          "transcript": "[Music]\nlet your dreams guide\nyou some days are\nperfect Everything feels like it should\nsome days I worth it when it's so good\nnever question\nwhy just take your dream and\nF\nthe always never forever but yourself\naim\nhigh one day you will make it you have\ngot to\ntry let your dreams guide you one day\nyou\nremember how to fly\nsometimes you feel\nRestless you feel like giving up but if\nyou believe it your dreams will come\ntrue in time never question\nwhy just take your dreams and\nDy\nto always and forever let yourself aim\ntry let your dreams C you one day you\nremember how\nto hold on to\nfeelings everything will fall into place\nwhen you least\nexpected so don't stop your dreams\ntonight never question\nfly to\nthe always and forever let yourself Aim\nHigh\none day you will make it you have got to\nto yeah yeah yeah\nyeah oh wo\nwo you have you\ntry let your dreams got you\none day you\nremember how to\n[Applause]\nliving on the learning curve side\nstepping out of my own way already hard\nenough to see without the sun beating\ndown on me good morning my future I know\nthat I need you I'm coming to get who's\ncoming with\nme there's a fine line between falling\nand\nflying it all really feels the same but\nyou got to do it any way oh what else\ncan I say I'm doing or dying throw me in\nwith the lion are coming to get you\nwho's coming with me\nflirting constantly with\nDestiny living for the patterns in\nbetween the\nscenes falling over backwards on the\nlearning curve stepping outside I've got\nyou in the palm of my hands oh you\nbetter believe it now\nr h enough to see without the sun\nbeating down on me good morning my\nfuture I know that I\nneed J good job\ncom coming with me\nSte looking good looking\ngood now it's you and me on a winning\nstreak Got a Feeling we do\nbelong to this magic spot right here at\nthe top where the feeling we can't go\nwrong cuz it's you and me on a winning\nstre and making their way across the\nline now it is number 616 Joe wood from\nMichigan good job Joey that was a good R\nmy head is spinning now I pinch my arm\nsomehow I managed to believe in all\nthose different\nfeelings I'm standing in the light\nbecause of you and\ntonight we celebrate together we'll make\nit last\nforever now it's you and me on a winning\nstreak Got a Feeling we do belong\nto this magic spot right here at the top\nwith the feeling we can't go\nstreak it's well I love to\nbe cuz as long as you're with me it's a\nwinning streak I try to\nrecall how did we get here must be\nsomething I don't my\ncontrol out of my hands out of this\nworld we're keeping it that\nway now it's you and me on a winning\nStreet Got a Feeling we do\nbelong to the magic spot right here at\nthe top and there's nothing that can go\nwrong now it's you and me y winning\nstreak I know we do\nbelong to the magic SP right here at the\ntop you know we can't go\nstreak it's what I love to\nbe cuz as long as you with me it's a\nwinning streak\nn\noh\nhappy\ntrails to\nyou until we meet again\nagain happy\nTRS to\nyou keep\nsmileing on until\nthen who cares about the clouds when\nwe're\ntogether just sing a song and bring the\nsunny\nweather happy\ntrails to you\ntill we\nmeet\nagain who car car about the clouds when\nyou till we\nmeet again\nyou're\nyou're happy trails",
+          "curated": false
+        },
+        {
+          "video_id": "JPjMzkOZlw8",
+          "title": "Some Highlights from our \"Great Bear Chase Weekend\", 2015",
+          "channel": "nodrunner",
+          "view_count": 102,
+          "upload_date": "20150311",
+          "duration_string": "12:19",
+          "description": "I created this video with the YouTube Video Editor (http://www.youtube.com/editor)",
+          "tags": [
+            "YouTube Editor",
+            "The Great Bear Chase 2015",
+            "Swedetown",
+            "Calumet",
+            "Ski Race",
+            "Skiathalon",
+            "Ski Marathon",
+            "Copper Country Ski Tigers"
+          ],
+          "url": "https://www.youtube.com/watch?v=JPjMzkOZlw8",
+          "transcript": "the other day I met a bear a great big\nbear away up there he looked at me I\nlooked at him he sized up me ized up him\nhe said to me why don't you run I see\nyou ain't got no gun so I ran away from\nthere but right behind me was that there\nin front of me there was a tree a great\nbig tree Oh Glory Be\nlowest Branch was 10 ft up so I thought\nI jump and trust my\n[Music]\nLu and so I jumped into the air but I\nmiss that Branch way up there now don't\nyou f and don't you frown I that branch\non the way back down this is the end\nthere ain't no more unless I see that\nbear once more the other day I met up\nthere a great big bear way out there the\nother day I met a bear a great big bear\nway out\nthere\na\nn\nyeah\nI sit beside the\nwindow and stare at the snow thinking of\na time not long ago when not even cold\nwould keep me at Bay like I am\ntoday the white fi like a blank piece of\npaper our canvas for us to make our Mark\nlike a work of art with our boots and\nour mittens on our hearts the snow on\nthe ground makes me feel home the snow\non the ground makes me feel like a child\nagain like a\nchild\nagain when I wore my slippers I fell on\nthe ground just like all the snowflakes\nfalling around me I was not alone when I\nfell on the ground they were fall in all\naround me all around when I wore my\nslippers I fell on the ground just like\nall the snowflakes falling around me I\nwas not alone when I fell on the ground\nthey were falling all around me around\nmeing on the ground makes me\nfeel falling on the ground makes me feel\nlike a child again like a\nagain why is it got to be so cold\noutside why is it got to be so cold so\ncold\noutside so cold\noutside\naccidents can't see through my\nwindshield out to the highway what's\ncoming my way should worn a thicker coat\ntoday cuz I'm afraid of\nACD on the ground makes\nfeel afraid of\naccidence why is it got to be so cold\noutside on the ground makes feel on the\nground the snow on the\nground on the\nground on the ground on the on the\nground on the ground\n[Applause]\nla\nhe",
+          "curated": false
+        },
+        {
+          "video_id": "cXh-HxM_e-Q",
+          "title": "Great Bear Chase 50km Ski Marathon 2025",
+          "channel": "Patrick Ogden",
+          "view_count": 543,
+          "upload_date": "20250412",
+          "duration_string": "9:03",
+          "description": "Very fun race. Would highly recommend.\nSki from March 8th, 2025\n\nEvent info: https://www.greatbearchase.com/",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=cXh-HxM_e-Q",
+          "transcript": "The Great Bear Chase is a ski marathon\nheld on the Swede Town Trail, which are\nmy local trails. Now, I'm not a good\nskier at all, but I thought this just\nsounded like fun, so I signed up for the\n50K the night before. This was my first\ncross country ski race ever and my 15th\never time on cross country skis. I\ndefinitely wasn't there to compete, but\nit just sounded like a fun challenge to\nme. Uh, so my longest ski up to this\npoint was wasn't even 15 mi long. I\nwasn't entirely sure that I had what it\ntook to finish, but wanted to give it a\ngood shot. So, I set out with three main\ngoals. I wanted to finish before the\n6-hour cut off. Uh, I didn't want to\nbreak anything cuz I didn't want to have\nto buy new poles or skis. I didn't want\nto fall because I've fallen almost every\ntime I've been out skate skiing. And,\nyou know, always try to not do\nthat. My technique is not good. So, I\nwas trying to do my best to just stay\nout of the way of the people who are\nactually here to race.\nJust by watching the people ski in front\nof me, feel like I'm finally starting to\nget the hang of this skate skiing\nthing. It's starting to come together\nafter my technique still sucks, but it's\nimproving every kilometer.\nMan, this is\nfun. I don't know if I'll be saying that\nthe second time around here,\nbut for now, this is cool.\nI like skiing with all these people\nhere, watching them, getting passed by\nall the classic skiers.\nGot about 8K till 25K to go. So, got a\nwhile left,\nbut I'm feeling okay.\nI'm good.\ntime on your right.\nOh man, no flamingo hill today.\non your\nleft. Go. Go up here. 50k. Yep.\nJust 25k to go.\nEasy. This is my first time ever skiing\n25k and I'm feeling it. My hips and feet\nand\nshoulders,\nman. Going uphill. Almost broke a\npole. Getting sloppy. My technique was\ngetting sloppy. The trail conditions\nwere still perfect, but I'd consider\nthat a fall. So, there goes my goal not\nto fall.\nOh man.\nSuch a nice day for\nthis. Almost broke a pole again. Stuck\nit on the inside of my ski and tripped\nover it, but didn't break it. So, still\nhave the possibility for two\nstars. Just got a beat cut off and not\nbreak\nanything.\nSo, I don't know.\nIf I'm even at risk of cut off, I have\nno clue what time it\nis. Doesn't really matter. I'm just\ngoing to I got this pace. Can't go much\nfaster. So, this is uh the pace I'm\ngoing.\nThat was a close one. Oh, I tweaked my\nback. Oh, my back hurts like hell. I'm\ngetting old. What the\nhell, man? I am\nuh hurting. My back is in\npain. My shoulders are dead.\nBut feet are killing me. Hips are almost\ngone. Aside from that, I'm feeling\ngreat. I'm definitely going to finish.\nJust uh not\nfast. I'm only using the poles when\nnecessary. My\nshoulders, they're gone.\n5k to\ngo and do another 5k.\n3k to\ngo. Should empty the tank if it's not\nalready\nempty. Final\nkilometer.\nWoohoo. I ended up finishing in 3 hours\n32 minutes, which is way faster than I\nexpected. But 11 people over the age of\n60 beat me, which is way less than I\nexpected, but still insane. So, I hope\none day I'm able to get to that shape.\nHopefully before I'm\n60. I did fall twice, but didn't break\nanything. So, I'm pretty happy with\nthat. It's just a really fun time out on\nthe trails with perfect conditions.\nI'm not sure if I'm going to enter any\nother ski races after this, but I'm\ndefinitely going to keep skiing for fun\nbecause it's just a good time. If you\nhaven't tried it, say give it a\ngo. Then afterwards, I made my way to\nthe high school for a free pasti. Pretty\ngreat day.",
+          "curated": true,
+          "curation_reason": "Excellent first-person POV race recap from a beginner's perspective with detailed course commentary and personal experience.",
+          "display_order": 1
+        },
+        {
+          "video_id": "p-zXe9ll9tk",
+          "title": "2025 Great Bear Chase",
+          "channel": "Great Bear Chase",
+          "view_count": 962,
+          "upload_date": "20250314",
+          "duration_string": "4:49",
+          "description": "The Great Bear Chase is a cross-country ski race with distances of 10km, 25km, and 50km. It also include 20km and 50km skiathlons and a 3km sit-ski race. www.greatbearchase.com",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=p-zXe9ll9tk",
+          "transcript": "[Music]\noh fantastic day isn't\nit sun sets and sh\nlights are shining on the\nSE no place\non I could try to just follow the\nSW but I'll never find this anywhere\nelse\nall those places on the\nwall come Clos to this I'm\nsure you try to say so the\nsame but tell me if you have Dan\nand I could try to follow this way\namazing but never this\nanywhere oh I did one without doing it\nm\nnow for the fun\n[Applause]\nCL I could try to just follow\nanywhere okay\nthere am real snow it was great I like\nchasing the bear awesome I've done it\nfor many many years that's fantastic\nre 30 years doing it my 43rd 43rd I've\ndone everyone except the first one the\nthing is my nickname is\nbear and the bear welcomed me in about\nmost fun of the Year\noh I said it was amazing really\nconsistent car beautiful day I love the\ngreat be T best ski ever man 3T of know\nperfect edging doesn't get much better\nthan this yeah I had fun you know it's\nalways fun to come up here and do this\nrace yeah it was awesome Five Star Race\nfirst bear taste first taste congrats 58\nyears old going to be 59 yes 25k\nCL yeah bear Chase\nwowow all right say\nPE congratulations thank you so much",
+          "curated": true,
+          "curation_reason": "Official 2025 race recap with participant interviews and race atmosphere footage.",
+          "display_order": 5
+        }
+      ],
+      "quotes": [
+        {
+          "text": "My technique is not good. So, I was trying to do my best to just stay out of the way of the people who are actually here to race. Just by watching the people ski in front of me, feel like I'm finally starting to get the hang of this skate skiing thing.",
+          "source_video_id": "cXh-HxM_e-Q",
+          "source_channel": "Patrick Ogden",
+          "source_view_count": 543,
+          "category": "technique",
+          "curated": true
+        },
+        {
+          "text": "I still have yet to go down a hill without falling... there are so many people with abs around here it's inspirational... I went down three hills without falling this is a big hill I call it the death hill.",
+          "source_video_id": "-zTXgLxOQNY",
+          "source_channel": "Jessica Wachs",
+          "source_view_count": 125,
+          "category": "course_difficulty",
+          "curated": true
+        }
+      ]
     }
   }
 }

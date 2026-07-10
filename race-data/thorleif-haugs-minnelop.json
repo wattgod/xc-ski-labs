@@ -6,7 +6,10 @@
     "tagline": "Fifty kilometers through the Finnemarka forests honoring the man who won three gold medals at the first Winter Olympics — where Norway's skiing heritage runs deepest.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km", "30km"],
+      "distance_options": [
+        "50km",
+        "30km"
+      ],
       "elevation_m": 700,
       "altitude_m": 500,
       "location": "Finnemarka",
@@ -17,15 +20,17 @@
       "date": "February",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~700",
+      "field_size": 700,
       "founded": 1966,
       "registration": "Open registration",
       "prize_purse": null,
       "aid_stations": "Feed stations through the Finnemarka forest circuit",
       "cutoff_time": null,
       "website": null,
-      "lat": 59.8500,
-      "lng": 10.0500
+      "lat": 59.85,
+      "lng": 10.05,
+      "field_size_estimate": 700,
+      "elevation_gain_m": 700
     },
     "climate": {
       "primary": "Southern Norwegian forest winter",
@@ -85,10 +90,48 @@
         "One of the most technically demanding forest courses in Norway"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Thorleif Haugs Minneløp cross country ski race Finnemarka",
+      "videos": [
+        {
+          "video_id": "zSVIUdTV_V0",
+          "title": "Best Moments of Thorleif Haugs Minneløp 2024",
+          "channel": "SC - The Ski Community",
+          "view_count": 159,
+          "upload_date": "20240218",
+          "duration_string": "2:48",
+          "description": "The Best Moments of Thorleif Haugs Minneløp 2024\n\nVideo Credits: Thorleif Haugs Minneløp",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=zSVIUdTV_V0",
+          "transcript": "[Music]\nit was a a beautiful race I would say uh\nnice to be skiing uh locally just a\nshort drive from home uh good trucks uh\nsunny and um but a tough course really\nsteep up hill so uh it was a tough 50k\nbut uh nice to nice to ski we were a\ngroup of Five Guys on the first lap and\nthen I was thinking I was going to push\nfor the second lap so when we came to\nthe uphills on the second lap I just\nstarted put picking up the pace and uh\nwent went for it and then um I got uh\nGot Away solo so I just um Tred to\ncontinue to push like a steady\npace\nit was a very tough race it was um very\nhard it was a lot of uh upill so I am\nglad I have the\nRO g under my skis I can\ndiagonal but it was a beautiful weather\nso it was a really nice race",
+          "curated": false
+        },
+        {
+          "video_id": "F8l_SWOjaY0",
+          "title": "Hauern 2018",
+          "channel": "a hansen (arhansen)",
+          "view_count": 512,
+          "upload_date": "20180206",
+          "duration_string": "6:58",
+          "description": "Thorleif Haug's minneløp 2018. Turrenn på 41 km gjennom Finnemarka.",
+          "tags": [
+            "Langrenn",
+            "Hauern",
+            "cross country",
+            "drammen",
+            "finnemarka"
+          ],
+          "url": "https://www.youtube.com/watch?v=F8l_SWOjaY0",
+          "curated": true,
+          "curation_reason": "Longer format race footage showing the 41km course through Finnemarka.",
+          "display_order": 2
+        }
+      ],
+      "quotes": []
     }
   }
 }

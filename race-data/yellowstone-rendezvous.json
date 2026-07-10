@@ -6,7 +6,12 @@
     "tagline": "Fifty kilometers at 6,600 feet on the doorstep of Yellowstone — where Montana's deepest snowpack and the world's first national park meet at the Rendezvous trails.",
     "vitals": {
       "distance_km": 50,
-      "distance_options": ["50km", "25km", "10km", "2km"],
+      "distance_options": [
+        "50km",
+        "25km",
+        "10km",
+        "2km"
+      ],
       "elevation_m": 300,
       "altitude_m": 2012,
       "location": "West Yellowstone",
@@ -17,15 +22,17 @@
       "date": "First Saturday in March",
       "date_specific": "2026: March 7",
       "discipline": "both",
-      "field_size": "~1,000 starters",
+      "field_size": 1000,
       "founded": 1981,
       "registration": "Online registration; opens in autumn",
       "prize_purse": null,
       "aid_stations": "4 feed stations with hot drinks, cookies, and energy food",
       "cutoff_time": null,
-      "website": "https://www.skirendezvous.com",
+      "website": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home",
       "lat": 44.6621,
-      "lng": -111.1041
+      "lng": -111.1041,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 300
     },
     "climate": {
       "primary": "High-altitude Rocky Mountain winter",
@@ -87,8 +94,144 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Yellowstone Rendezvous cross country ski race West Yellowstone",
+      "videos": [
+        {
+          "video_id": "wDvsyKdqlKk",
+          "title": "Yellowstone Rendezvous 2010 SLNST",
+          "channel": "nicholskirk",
+          "view_count": 461,
+          "upload_date": "20100308",
+          "duration_string": "9:12",
+          "description": "Went to bed to stars with hope of a cold, hard snow race start, instead we woke to an overcast morning and warm temps so we scrambled to rewax for the West Yellowstone Rendezvous.  Highlights of the 50k, 25k, 10k, and 5k races with the Salt Lake Nordic Ski Team, March 6, 2010.  Much was learned by the younger skiers about racing longer distances.",
+          "tags": [
+            "West",
+            "Yellowstone",
+            "Rendezvous",
+            "Cross",
+            "Country",
+            "Ski",
+            "Race",
+            "Salt",
+            "Lake",
+            "Nordic",
+            "Team",
+            "Utah",
+            "2010"
+          ],
+          "url": "https://www.youtube.com/watch?v=wDvsyKdqlKk",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage showing multiple distance events with specific waxing conditions mentioned in the description.",
+          "display_order": 1
+        },
+        {
+          "video_id": "ss1YFrbGwMo",
+          "title": "Women's 5k Classic West Yellowstone 2011",
+          "channel": "nicholskirk",
+          "view_count": 511,
+          "upload_date": "20111128",
+          "duration_string": "4:46",
+          "description": "Jesse Diggins leads the Women's SuperTour 5k classic race at West Yellowstone, 2011.",
+          "tags": [
+            "Women's",
+            "5k",
+            "classic",
+            "cross",
+            "country",
+            "ski",
+            "race",
+            "Super",
+            "Tour",
+            "West",
+            "Yellowstone",
+            "technique"
+          ],
+          "url": "https://www.youtube.com/watch?v=ss1YFrbGwMo",
+          "curated": true,
+          "curation_reason": "Race coverage featuring classic technique with elite skier Jesse Diggins showcasing the competitive level of the event.",
+          "display_order": 2
+        },
+        {
+          "video_id": "0KrMypB2NLI",
+          "title": "2009 Yellowstone Rendezvous",
+          "channel": "nordicskisource",
+          "view_count": 1838,
+          "upload_date": "20090416",
+          "duration_string": "5:55",
+          "description": "Miscellaneous clips from the 2009 Yellowstone Rendezvous cross country ski race in West Yellowstone, Montana.",
+          "tags": [
+            "cross country skiing",
+            "cross country ski race",
+            "Nordic ski racing",
+            "Yellowstone Rendezvous",
+            "Rendezvous ski race"
+          ],
+          "url": "https://www.youtube.com/watch?v=0KrMypB2NLI",
+          "transcript": "[Music]\n[Applause]\nnice job\nhey",
+          "curated": true,
+          "curation_reason": "Race highlights providing atmosphere and general race coverage from the Yellowstone Rendezvous event.",
+          "display_order": 3
+        },
+        {
+          "video_id": "3lnZzsmI8DY",
+          "title": "*Ernie's U14 5km West Yellowstone 2013",
+          "channel": "nicholskirk",
+          "view_count": 135,
+          "upload_date": "20131202",
+          "duration_string": "2:27",
+          "description": "Final race of the West Yellowstone Ski Festival has the U14 skiers racing the same 5km course as the Super Tour skiers. Watch the hairpin turns and hill climbing by the TUNA and Park City Junior's.",
+          "tags": [
+            "West Yellowstone Ski Festival",
+            "2013",
+            "Ernie's Race",
+            "5km",
+            "TUNA",
+            "The Utah Nordic Alliance",
+            "skate technique",
+            "cross country ski race",
+            "West Yellowstone (City/Town/Village)",
+            "Skiing (Sport)"
+          ],
+          "url": "https://www.youtube.com/watch?v=3lnZzsmI8DY",
+          "curated": false
+        },
+        {
+          "video_id": "hb6lvyLp_8k",
+          "title": "West Yellowstone Ski Festival, Rendezvous Trails 2014",
+          "channel": "nicholskirk",
+          "view_count": 334,
+          "upload_date": "20141203",
+          "duration_string": "2:52",
+          "description": "The West Yellowstone Ski Festival at the Rendezvous Trails draws skiers from across the country and world for the first skiing of the year. The SuperTour races are over and the TUNA skiers of all ages play games, drop the Telemark Hill, ski the trails, and venture into the Park. Sorry to see it end.",
+          "tags": [
+            "West Yellowstone",
+            "Ski Festival",
+            "Rendezvous Trails",
+            "The Utah Nordic Alliance",
+            "TUNA",
+            "Skiing (Sport)",
+            "2014",
+            "Thanksgiving"
+          ],
+          "url": "https://www.youtube.com/watch?v=hb6lvyLp_8k",
+          "curated": false
+        },
+        {
+          "video_id": "yBl0U4FPZsc",
+          "title": "LNR West Yellowstone Ski Festival Highlights",
+          "channel": "Loppet Foundation",
+          "view_count": 1381,
+          "upload_date": "20191230",
+          "duration_string": "2:29",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=yBl0U4FPZsc",
+          "transcript": "[Music]\nthere's not\nsome\nRussia misfortune in my work took place\ninside",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

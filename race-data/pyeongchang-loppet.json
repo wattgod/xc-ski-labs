@@ -6,7 +6,9 @@
     "tagline": "Ten kilometers on Olympic snow — the 2018 Winter Games venue opens its doors for Asia's newest Ski Classics challenger on the Alpensia tracks.",
     "vitals": {
       "distance_km": 10,
-      "distance_options": ["10km"],
+      "distance_options": [
+        "10km"
+      ],
       "elevation_m": 150,
       "altitude_m": 750,
       "location": "Alpensia Cross-Country Centre, PyeongChang",
@@ -17,7 +19,7 @@
       "date": "February",
       "date_specific": null,
       "discipline": "skate",
-      "field_size": "~500 starters",
+      "field_size": 500,
       "founded": 2026,
       "registration": "Online registration via Ski Classics platform",
       "prize_purse": null,
@@ -25,7 +27,9 @@
       "cutoff_time": null,
       "website": null,
       "lat": 37.6501,
-      "lng": 128.6806
+      "lng": 128.6806,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 150
     },
     "climate": {
       "primary": "East Asian continental mountain winter",
@@ -86,7 +90,9 @@
         "South Korea has invested heavily in winter sports since the 2018 Games"
       ]
     },
-    "series_membership": ["ski_classics_challengers"],
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
     "youtube_data": {
       "videos": [],
       "rider_intel": null

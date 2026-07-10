@@ -1,0 +1,174 @@
+{
+  "race": {
+    "name": "Vaskoolihiihto",
+    "slug": "vaskoolihiihto",
+    "display_name": "Vaskoolihiihto",
+    "tagline": "A remote Finnish ultra-distance ski marathon through Lapland wilderness — guaranteed snow and endless forest for the hardy few.",
+    "vitals": {
+      "distance_km": 60,
+      "distance_options": [
+        "60km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 200,
+      "location": "Posio, Finnish Lapland",
+      "location_badge": "Lapland, Finland",
+      "country": "Finland",
+      "country_code": "FI",
+      "region": "Lapland",
+      "date": "March",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 47,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Basic aid stations",
+      "cutoff_time": null,
+      "website": "https://www.posio.fi",
+      "lat": 66.11,
+      "lng": 28.17,
+      "field_size_estimate": 100,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Subarctic Finnish winter",
+      "description": "Deep Lapland winter with guaranteed snow. Temperatures typically -20°C to -5°C. Very short daylight in early season.",
+      "typical_temp_c": "-18 to -5",
+      "challenges": [
+        "Extreme cold possible",
+        "Very remote location",
+        "Limited daylight",
+        "Minimal spectator support"
+      ]
+    },
+    "course": {
+      "primary": "Point-to-point or loop through Lapland wilderness. Flat to gently rolling boreal forest terrain with guaranteed deep snow.",
+      "format": "point-to-point",
+      "surface": "Groomed classic tracks through boreal forest",
+      "technical_rating": 2,
+      "grooming": "Basic grooming",
+      "features": [
+        "Guaranteed deep snow conditions",
+        "Remote Lapland wilderness",
+        "True Finnish ski marathon experience",
+        "Minimal crowds, maximum solitude"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 44,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 5,
+      "grooming_quality": 2,
+      "accessibility": 1,
+      "community": 2,
+      "scenery": 4,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Guaranteed snow and remote Lapland setting, but very small field and limited accessibility.",
+      "tier_note": "Score 44 places in TIER 4"
+    },
+    "history": {
+      "summary": "Vaskoolihiihto is a traditional Finnish ski marathon in the Posio area of Finnish Lapland. It represents the deep tradition of long-distance skiing in Finland's northern wilderness.",
+      "notable_facts": [
+        "Set in the remote Posio area of Finnish Lapland",
+        "Part of Finland's extensive citizen ski marathon tradition",
+        "Guaranteed snow conditions due to northern latitude"
+      ],
+      "founded": 1983
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Vaskoolihiihto cross country ski race Posio",
+      "videos": [
+        {
+          "video_id": "WeAbnbPztkY",
+          "title": "Fäbodaloppet 18. 2.2001 / Larsmo NärTV",
+          "channel": "Larsmo När-TV",
+          "view_count": 392,
+          "upload_date": "20200306",
+          "duration_string": "31:14",
+          "description": "Medverkande: Kuisma Taipale m.fl.",
+          "tags": [
+            "larsmo",
+            "Larsmo När-TV",
+            "Larsmo kommun",
+            "Finland",
+            "Jakobstad",
+            "Luoto",
+            "österbotten",
+            "Svenskfinalnd",
+            "för ett bättre larsmo",
+            "holm",
+            "näs",
+            "bosund",
+            "risöhäll",
+            "vikarholmen",
+            "pedersöre",
+            "film",
+            "movie",
+            "kvaltitetstv",
+            "måbra tv",
+            "lokal tv",
+            "lokal när TV"
+          ],
+          "url": "https://www.youtube.com/watch?v=WeAbnbPztkY",
+          "curated": false
+        },
+        {
+          "video_id": "-AC7LeY2gck",
+          "title": "Vaskoolihiihto 2015",
+          "channel": "Webepro1",
+          "view_count": 778,
+          "upload_date": "20150409",
+          "duration_string": "5:54",
+          "description": "Ski marathon race Vaskoolihiihto 60km 03.04.2015 from my perspective. Filmed by Gopro Hero 3+ silver. Enjoy!",
+          "tags": [
+            "Saariselkä (City/Town/Village)",
+            "Cross-country Skiing (Sport)",
+            "vaskoolihiihto"
+          ],
+          "url": "https://www.youtube.com/watch?v=-AC7LeY2gck",
+          "curated": true,
+          "curation_reason": "First-person POV race footage from skier's perspective filmed with GoPro during the 60km marathon.",
+          "display_order": 1
+        },
+        {
+          "video_id": "MKo_Muos0A8",
+          "title": "Vaskoolihiihto 2013",
+          "channel": "Luontoon.fi_Official",
+          "view_count": 7245,
+          "upload_date": "20130404",
+          "duration_string": "3:33",
+          "description": "Perinteinen Vaskoolihiihto tapahtuma Urho Kekkosen kansallispuiston maisemissa 2013. Hiihto hiidetään vuosittain pitkäperjantaina.",
+          "tags": [
+            "Kansallispuisto",
+            "Metsähallitus",
+            "Luontopalvelut",
+            "Saariselkä",
+            "Urho Kekkosen kansallispuisto",
+            "Vaskoolihiihto",
+            "Lappi",
+            "Inari",
+            "Lapin Sudet ry"
+          ],
+          "url": "https://www.youtube.com/watch?v=MKo_Muos0A8",
+          "curated": true,
+          "curation_reason": "Race coverage showing the event in Urho Kekkonen National Park with course scenery and atmosphere.",
+          "display_order": 2
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

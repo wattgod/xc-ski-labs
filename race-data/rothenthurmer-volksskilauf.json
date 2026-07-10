@@ -1,0 +1,170 @@
+{
+  "race": {
+    "name": "Rothenthurmer Volksskilauf",
+    "slug": "rothenthurmer-volksskilauf",
+    "display_name": "Rothenthurmer Volksskilauf",
+    "tagline": "Swiss Loppet racing through the protected Rothenthurm moorland — a compact freestyle marathon in one of Switzerland's most scenic Nordic venues.",
+    "vitals": {
+      "distance_km": 23.5,
+      "distance_options": [
+        "23.5km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 850,
+      "location": "Rothenthurm, Schwyz",
+      "location_badge": "Schwyz, Switzerland",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "region": "Schwyz",
+      "date": "Third Sunday of January",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 400,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.swissloppet.ch",
+      "lat": 47.105,
+      "lng": 8.68,
+      "field_size_estimate": 500,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Pre-Alpine Swiss winter",
+      "description": "Moorland setting at 850m. Temperatures typically -5°C to 2°C in January. Snow reliability moderate at this altitude.",
+      "typical_temp_c": "-5 to 2",
+      "challenges": [
+        "Snow reliability declining at 850m altitude",
+        "Moorland terrain can be exposed to wind",
+        "Mild winters occasionally force cancellation"
+      ]
+    },
+    "course": {
+      "primary": "Loop course through the Rothenthurm moor landscape, a protected natural area. Flat to gently rolling moorland terrain.",
+      "format": "loop",
+      "surface": "Machine-groomed skating trails through moorland",
+      "technical_rating": 2,
+      "grooming": "Good Swiss Loppet standard grooming",
+      "features": [
+        "Protected Rothenthurm moorland landscape",
+        "Part of the Swiss Loppet series",
+        "Scenic wetland setting"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 44,
+      "tier": 4,
+      "tier_label": "TIER 4",
+      "discipline": "skate",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 1,
+      "prestige": 3,
+      "international_draw": 1,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 2,
+      "scenery": 3,
+      "organization": 2,
+      "competitive_depth": 2,
+      "score_note": "A compact Swiss Loppet race with nice moorland setting but limited field and moderate altitude.",
+      "tier_note": "Score 44 places in TIER 4"
+    },
+    "history": {
+      "summary": "Part of the Swiss Loppet series, the Rothenthurmer Volksskilauf takes place through the protected Rothenthurm moor landscape in central Switzerland. The moor was preserved by a historic 1987 referendum.",
+      "notable_facts": [
+        "Set in the Rothenthurm moor, protected since a 1987 Swiss referendum",
+        "Part of the Swiss Loppet series",
+        "One of central Switzerland's most scenic Nordic venues"
+      ],
+      "founded": 1969
+    },
+    "series_membership": [
+      "swiss_loppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Rothenthurmer Volksskilauf cross country ski race Rothenthurm",
+      "videos": [
+        {
+          "video_id": "_6d_78ywce8",
+          "title": "Einsiedler Langlauf-Weekend 2018 in Studen SZ",
+          "channel": "swatch0580",
+          "view_count": 514,
+          "upload_date": "20180216",
+          "duration_string": "6:21",
+          "description": "Special Olympics\nEinsiedler Klassik\n7. Schafbock-Loppet\n50. Einsiedler Skimarathon",
+          "tags": [
+            "Skiclub Einsiedeln",
+            "www.skimarathon.ch",
+            "Einsiedler",
+            "Schafbock",
+            "Special Olympics",
+            "Einsiedeln",
+            "Studen"
+          ],
+          "url": "https://www.youtube.com/watch?v=_6d_78ywce8",
+          "curated": false
+        },
+        {
+          "video_id": "W5XEMzlx-9Y",
+          "title": "Good time JO Davos Nordisch",
+          "channel": "Désirée Steiner",
+          "view_count": 319,
+          "upload_date": "20130321",
+          "duration_string": "4:07",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=W5XEMzlx-9Y",
+          "curated": false
+        },
+        {
+          "video_id": "49_sqvTmUjY",
+          "title": "Cesar Baena (VEN) @ DONAU TV",
+          "channel": "Cesar Baena",
+          "view_count": 379,
+          "upload_date": "20090731",
+          "duration_string": "4:53",
+          "description": "Cesar Baena, Langlaufer aus Venezuela ist bei Skadiloppet in Deutschland.",
+          "tags": [
+            "cesar",
+            "baena",
+            "langlauf"
+          ],
+          "url": "https://www.youtube.com/watch?v=49_sqvTmUjY",
+          "curated": false
+        },
+        {
+          "video_id": "FUxoByuZZU4",
+          "title": "Rothenthurmer Volksskilauf 2019",
+          "channel": "Remo Szalai",
+          "view_count": 4488,
+          "upload_date": "20190213",
+          "duration_string": "3:20",
+          "description": "Bei idealen Witterungs- und perfekten Loipenverhältnissen absolvierten 434 Läuferinnen und Läufer den 51. Rothenthurmer Volksskilauf. 71 Kinder und Jugendliche massen sich am Nachmittag und zeigten sehr spannende und faire Wettkämpfe. Ein herzlicher Dank geht an alle Teilnehmerinnen und Teilnehmer, Sponsoren, Unterstützer und Helfer.",
+          "tags": [
+            "Langlauf",
+            "Rothenthurm",
+            "Volksskilauf",
+            "Triichler",
+            "Loipe Rothenthurm",
+            "Winter",
+            "Skiclub",
+            "Nordic",
+            "Sponsoren"
+          ],
+          "url": "https://www.youtube.com/watch?v=FUxoByuZZU4",
+          "curated": true,
+          "curation_reason": "Official race coverage of the Rothenthurmer Volksskilauf showing race conditions and participant atmosphere.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

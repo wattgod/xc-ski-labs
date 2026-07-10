@@ -1,0 +1,101 @@
+{
+  "race": {
+    "name": "Bieg Bystrzycki",
+    "slug": "bieg-bystrzycki",
+    "display_name": "Bieg Bystrzycki",
+    "tagline": "Twenty-five kilometers through the Sudeten mountain valleys — a Polish classic where Silesian grit meets alpine-grade climbing.",
+    "vitals": {
+      "distance_km": 25,
+      "distance_options": [
+        "25km",
+        "10km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 500,
+      "location": "Bystrzyca Kłodzka",
+      "location_badge": "Lower Silesia, Poland",
+      "country": "Poland",
+      "country_code": "PL",
+      "region": "Lower Silesia",
+      "date": "Early February",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 400,
+      "founded": 1992,
+      "registration": "Online registration; open entry",
+      "prize_purse": null,
+      "aid_stations": "2 feed stations with warm tea and energy bars",
+      "cutoff_time": null,
+      "website": "https://www.biegbystrzycki.pl",
+      "lat": 50.2279,
+      "lng": 16.65,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 350,
+      "total_elevation_gain_meters": 108,
+      "technique": "classic",
+      "year_first_held": 1990
+    },
+    "climate": {
+      "primary": "Sudeten mountain winter",
+      "description": "Early February in the Sudeten mountains of southwestern Poland. The moderate altitude provides decent snow conditions when cold air masses settle over Central Europe, but warm spells from the west can cause rapid thaws. Temperatures typically -6 to 0 degrees Celsius.",
+      "typical_temp_c": "-6 to 0",
+      "challenges": [
+        "Moderate altitude makes snow cover variable year to year",
+        "Exposed ridgeline sections with wind chill",
+        "Freeze-thaw cycles create icy patches on shaded descents",
+        "Short daylight hours require early starts"
+      ]
+    },
+    "course": {
+      "primary": "A 25km classic course through the Sudeten mountain valleys around Bystrzyca Kłodzka. The route features notable climbing through forested hillsides with some technical descents. The terrain is more demanding than the distance suggests, with the Sudeten foothills providing genuine mountain character.",
+      "format": "loop",
+      "surface": "Machine-groomed classic tracks through mountain forest and valley trails",
+      "technical_rating": 3,
+      "grooming": "Regional grooming standard with attention to technical descents",
+      "features": [
+        "Genuine mountain character in the Sudeten foothills",
+        "Forested climbs with panoramic ridge views",
+        "Technical descents requiring solid classic technique",
+        "Passes near the historic gold mining town of Bystrzyca Kłodzka",
+        "Compact distance with concentrated elevation gain"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 46,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 1,
+      "international_draw": 1,
+      "course_technicality": 3,
+      "snow_reliability": 2,
+      "grooming_quality": 3,
+      "accessibility": 3,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Elevated course technicality score for genuine mountain terrain in a short format. Limited by small field, local-only profile, and variable snow at moderate altitude.",
+      "tier_note": "Score 46 places in TIER 3"
+    },
+    "history": {
+      "summary": "Founded in 1992 shortly after the fall of communism in Poland, the Bieg Bystrzycki emerged from the strong Silesian cross-country skiing tradition. Bystrzyca Kłodzka, a historic town in the Kłodzko Valley, provided a natural setting for a mountain-oriented Nordic race. The event has remained a beloved regional fixture, drawing skiers from across southwestern Poland to the Sudeten mountains.",
+      "notable_facts": [
+        "Founded in 1992, one of the first post-communist era Polish ski races",
+        "Bystrzyca Kłodzka is a historic fortified town dating to the 13th century",
+        "The Sudeten mountains straddle the Polish-Czech border",
+        "Part of the Lower Silesian regional ski race circuit",
+        "The Kłodzko Valley is one of Poland's most scenic winter landscapes"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "quotes": []
+    }
+  }
+}

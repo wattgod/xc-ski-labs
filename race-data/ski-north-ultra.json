@@ -1,0 +1,103 @@
+{
+  "race": {
+    "name": "Ski North Ultra",
+    "slug": "ski-north-ultra",
+    "display_name": "Ski North Ultra",
+    "tagline": "One hundred kilometers of classic-only skiing along Minnesota's North Shore of Lake Superior — one of North America's few 100K XC ski races, launched in 2025.",
+    "vitals": {
+      "distance_km": 100,
+      "distance_options": [
+        "100km",
+        "50km",
+        "25km"
+      ],
+      "elevation_m": 1130,
+      "altitude_m": 400,
+      "location": "Lutsen / North Shore",
+      "location_badge": "Minnesota, USA",
+      "country": "United States",
+      "country_code": "US",
+      "region": "Upper Midwest",
+      "date": "First Saturday of March",
+      "date_specific": "2026: March 7",
+      "discipline": "classic",
+      "field_size": 100,
+      "founded": 2025,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the North Shore trail systems",
+      "cutoff_time": null,
+      "website": "https://www.skinorthultra.com/",
+      "lat": 47.64,
+      "lng": -90.7,
+      "field_size_estimate": 150,
+      "elevation_gain_m": 1130
+    },
+    "climate": {
+      "primary": "Lake Superior continental winter",
+      "description": "March on Minnesota's North Shore means reliable deep snow influenced by Lake Superior's moderating effect. Temperatures range from -15°C to 5°C. The lake effect provides consistent snowfall while the March date brings lengthening days. North Shore terrain is hilly — the course climbs from lake level up through the Sawtooth Mountains.",
+      "typical_temp_c": "-15 to 5",
+      "challenges": [
+        "100km ultra distance — extreme endurance required",
+        "Hilly North Shore terrain with significant elevation gain",
+        "Lake Superior weather can change rapidly",
+        "March conditions range from deep cold to spring thaw",
+        "Remote North Shore location — limited services"
+      ]
+    },
+    "course": {
+      "primary": "A 100km classic-only ultra-distance race along Minnesota's North Shore of Lake Superior, using the Norpine, Cascade River State Park, and Bally Creek trail systems. Hilly terrain through boreal forest with views of Lake Superior. One of North America's very few 100km XC ski races. Classic technique only — no skating permitted.",
+      "format": "point-to-point",
+      "surface": "Machine-groomed North Shore trail systems through boreal forest",
+      "technical_rating": 4,
+      "grooming": "Norpine, Cascade River State Park, and Bally Creek trail systems",
+      "features": [
+        "100km ultra distance — one of North America's few 100K XC ski races",
+        "Classic technique only — traditional format",
+        "Minnesota's North Shore of Lake Superior setting",
+        "Norpine, Cascade River State Park, and Bally Creek trail systems",
+        "Hilly boreal forest terrain",
+        "Three distance options: 100km, 50km, 25km"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 51,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 5,
+      "elevation": 3,
+      "altitude": 1,
+      "field_size": 1,
+      "prestige": 2,
+      "international_draw": 1,
+      "course_technicality": 4,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 2,
+      "competitive_depth": 1,
+      "score_note": "Maximum distance score with the 100km ultra option. Strong technicality on hilly North Shore terrain. Lake Superior scenery is exceptional. Very new event (founded 2025) with small field limits prestige and competitive depth.",
+      "tier_note": "Score 50 confirms TIER 3"
+    },
+    "history": {
+      "summary": "Ski North Ultra launched in 2025 as one of North America's very few 100km cross-country ski races. Set along Minnesota's iconic North Shore of Lake Superior, the classic-only event uses the Norpine, Cascade River State Park, and Bally Creek trail systems. The 100km distance fills a gap in the North American citizen racing calendar for ultra-endurance classic skiers seeking distances comparable to European ultra events.",
+      "notable_facts": [
+        "Founded in 2025 — one of North America's newest ski marathons",
+        "100km ultra distance — extremely rare in North American XC skiing",
+        "Classic technique only — no skating permitted",
+        "Set along Minnesota's North Shore of Lake Superior",
+        "Uses three trail systems: Norpine, Cascade River, and Bally Creek",
+        "Three distance options: 100km, 50km, 25km",
+        "Fills a gap for ultra-distance classic skiing in North America"
+      ]
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

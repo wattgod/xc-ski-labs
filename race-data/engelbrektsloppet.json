@@ -6,7 +6,11 @@
     "tagline": "Sixty kilometers through the mining country of Bergslagen — Sweden's second-largest ski race and a pillar of En Svensk Klassiker.",
     "vitals": {
       "distance_km": 60,
-      "distance_options": ["60km", "40km", "20km"],
+      "distance_options": [
+        "60km",
+        "40km",
+        "20km"
+      ],
       "elevation_m": 400,
       "altitude_m": 200,
       "location": "Norberg",
@@ -17,7 +21,7 @@
       "date": "First Saturday in February",
       "date_specific": null,
       "discipline": "classic",
-      "field_size": "~1,200 starters",
+      "field_size": 1200,
       "founded": 1969,
       "registration": "Online registration, opens in autumn",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.engelbrektsloppet.se",
       "lat": 60.0657,
-      "lng": 15.9186
+      "lng": 15.9186,
+      "field_size_estimate": 1200,
+      "elevation_gain_m": 400
     },
     "climate": {
       "primary": "Continental Swedish winter",
@@ -84,10 +90,197 @@
         "Many participants use it as a Vasaloppet warm-up race"
       ]
     },
-    "series_membership": ["en_svensk_klassiker"],
+    "series_membership": [
+      "en_svensk_klassiker"
+    ],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Engelbrektsloppet cross country ski race Norberg",
+      "videos": [
+        {
+          "video_id": "QRhbyDXSqho",
+          "title": "Engelbrektsloppet 45 km Norberg 2026",
+          "channel": "Erik Barkefors",
+          "view_count": 1462,
+          "upload_date": "20260201",
+          "duration_string": "11:47",
+          "description": "Några klipp från Engelbrektsloppet 45 km 2026\nSome clips from Engelbrektsloppet 45 km 2026",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=QRhbyDXSqho",
+          "curated": true,
+          "curation_reason": "Most recent race footage from 2026 showing race clips from the 45km distance.",
+          "display_order": 2
+        },
+        {
+          "video_id": "pVKKFR44ylM",
+          "title": "Engelbrektsloppet 2025 (45k) Race report vlog",
+          "channel": "Magnus Högfeldt",
+          "view_count": 9606,
+          "upload_date": "20250204",
+          "duration_string": "21:22",
+          "description": "En lopprapport inifrån Engelbrektsloppet 45, filmad med GoPro samtidigt som jag skidade. \nEngelbrektsloppet är en anrikt skidlopp som kan sägas vara ett mindre syskon till Vasaloppet. Så arrangeras t.ex. lopp under en hel vecka, precis som för Vasaloppet, där jag körde en kortare variant om 46km. Huvudloppet, Engelbrektsloppet60, kan dessutom räknas in i en svensk klassiker om man byter bort Vasaloppet, samt att den kortare kan räknas in i Halvklassikern.\n\nInnehåll:\n00:00 Uppsnack inför start\n02:20 Första milen\n05:37 Andra milen\n09:09 Tredje milen\n13:06 Fjärde milen\n16:00 Sista 5k till mål\n18:36 Efter målgång",
+          "tags": [
+            "engelbrektsloppet",
+            "svensk klassiker",
+            "engelbrektsloppet45",
+            "cross country skiing",
+            "cross country",
+            "xcskiing",
+            "xcski",
+            "längdskidor",
+            "längdskidåkning",
+            "langrenn",
+            "längd",
+            "race report",
+            "club sportoffice",
+            "gopro",
+            "xcc originals"
+          ],
+          "url": "https://www.youtube.com/watch?v=pVKKFR44ylM",
+          "curated": true,
+          "curation_reason": "Recent POV race vlog with GoPro footage showing the skier's first-person experience during the 45km race.",
+          "display_order": 1
+        },
+        {
+          "video_id": "lN7HWLQp7-k",
+          "title": "Engelbrektsloppet 14 februari 2010 start tävlingsklass",
+          "channel": "Lars Jacobsson",
+          "view_count": 3560,
+          "upload_date": "20100214",
+          "duration_string": "2:52",
+          "description": "Engelbrektsloppet 14 februari 2010 start tävlingsklass på torget i Norberg",
+          "tags": [
+            "Ebgelbrektsloppet",
+            "Norberg"
+          ],
+          "url": "https://www.youtube.com/watch?v=lN7HWLQp7-k",
+          "curated": false
+        },
+        {
+          "video_id": "-OEqf1kSw8o",
+          "title": "Kristinaloppet 13 februari 2010 målgång",
+          "channel": "Lars Jacobsson",
+          "view_count": 888,
+          "upload_date": "20100213",
+          "duration_string": "38",
+          "description": "Kristinaloppet i Norberg 13 februari 2010 målgång",
+          "tags": [
+            "Kristinaloppet",
+            "Norberg"
+          ],
+          "url": "https://www.youtube.com/watch?v=-OEqf1kSw8o",
+          "curated": false
+        },
+        {
+          "video_id": "lhaWFHTraIY",
+          "title": "Doosan DX160W",
+          "channel": "audirobban",
+          "view_count": 493,
+          "upload_date": "20250218",
+          "duration_string": "4:30",
+          "description": "Doosan DX160W Loading A Volvo FH-480 6X2 From  Lennart Conradssons Schakt & Transport AB.\nRemoves Snow After A Cross-Country Ski Competition\n\nDoosan DX160W Lastar En Volvo FH-480 6X2 Från Lennart Conradssons Schakt & Transport AB.\nTar Bort Snö Efter Längdskidslopp, Engelbrektsloppet.",
+          "tags": [
+            "Doosan Hjulgrävare",
+            "Doosan Wheel Excavator",
+            "Doosan DX160W",
+            "Lastar",
+            "Loading",
+            "Snö",
+            "Snow",
+            "Skopa",
+            "Bucket",
+            "Volvo FH-480",
+            "Volvo FH-480 6X2",
+            "Lennart Conradssons Schakt & Transport AB",
+            "Fagersta",
+            "Lastar Snö",
+            "Loading Snow",
+            "Engelbrektsloppet",
+            "Norberg",
+            "2025",
+            "Panasonic HC VX1",
+            "Røde Videomic PRO R",
+            "Lampor",
+            "Lights",
+            "LED Lights",
+            "LED Lampor"
+          ],
+          "url": "https://www.youtube.com/watch?v=lhaWFHTraIY",
+          "curated": false
+        },
+        {
+          "video_id": "YSvxmJ275wo",
+          "title": "Hyundai R 140W-7A",
+          "channel": "audirobban",
+          "view_count": 368,
+          "upload_date": "20250210",
+          "duration_string": "3:25",
+          "description": "Hyundai R 140W-7A Loading A Volvo FH-540 From Werner Eriksson AB.\nRemoves Snow After A Cross-Country Ski Competition\n\nHyundai R 140W-7A Lastar En Volvo FH-540 Från Werner Eriksson AB.\nTar Bort Snö Efter Längdskidslopp, Engelbrektsloppet.",
+          "tags": [
+            "Engelbrektsloppet",
+            "Norberg",
+            "Sverige",
+            "Sweden",
+            "Hyundai Wheel Excavator",
+            "Hyundai R 140W-7A",
+            "Loading",
+            "Lastar",
+            "Snö",
+            "Snow",
+            "Volvo FH-540",
+            "Werner Eriksson AB",
+            "Skopa",
+            "Bucket",
+            "Big Bucket",
+            "Lampor",
+            "Lights",
+            "Vinter",
+            "Winter",
+            "2025",
+            "Panasonic HC VX1",
+            "Røde Videomic PRO R"
+          ],
+          "url": "https://www.youtube.com/watch?v=YSvxmJ275wo",
+          "curated": false
+        },
+        {
+          "video_id": "OdmDAlBP9_I",
+          "title": "Engelbrektsloppet 2025 Markos rapport",
+          "channel": "nackam",
+          "view_count": 464,
+          "upload_date": "20250209",
+          "duration_string": "2:18",
+          "description": "Inte så resultatmässigt men alltid en upplevelse arrangörsmässigt.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=OdmDAlBP9_I",
+          "curated": false
+        },
+        {
+          "video_id": "uFytT9oaX1w",
+          "title": "Euroloppet - Engelbrektsloppet Sweden",
+          "channel": "Euroloppet Your World of Ski Marathon",
+          "view_count": 538,
+          "upload_date": "20210419",
+          "duration_string": "1:29",
+          "description": "Der Engelbrektsloppet in Norberg /Schweden -  60 km klassische Technik \n-  Euroloppet Champion Race / Svensk Klassik Race",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=uFytT9oaX1w",
+          "curated": false
+        },
+        {
+          "video_id": "fL8NPIzeSVQ",
+          "title": "Tävlingsmoment Skidor 2018 – Engelbrektsloppet/Vasaloppet",
+          "channel": "Skolklassikern",
+          "view_count": 722,
+          "upload_date": "20170511",
+          "duration_string": "4:16",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=fL8NPIzeSVQ",
+          "curated": false
+        }
+      ],
+      "quotes": []
     }
   }
 }

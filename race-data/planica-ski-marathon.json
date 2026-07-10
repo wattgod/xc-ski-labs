@@ -6,8 +6,12 @@
     "tagline": "Forty-two kilometers on a World Championship course beneath the Julian Alps — Slovenia's newest marathon where ski jumping history meets cross-country ambition.",
     "vitals": {
       "distance_km": 42,
-      "distance_options": ["42km", "21km", "10km"],
-      "elevation_m": 200,
+      "distance_options": [
+        "42km",
+        "21km",
+        "10km"
+      ],
+      "elevation_m": 800,
       "altitude_m": 850,
       "location": "Planica Nordic Centre",
       "location_badge": "Kranjska Gora, Slovenia",
@@ -17,7 +21,7 @@
       "date": "Late January to early February",
       "date_specific": "2026: January 31",
       "discipline": "both",
-      "field_size": "~1,000 starters",
+      "field_size": 1000,
       "founded": 2020,
       "registration": "Online registration; opens in autumn",
       "prize_purse": null,
@@ -25,7 +29,9 @@
       "cutoff_time": null,
       "website": "https://www.planica-skimarathon.com",
       "lat": 46.4784,
-      "lng": 13.7199
+      "lng": 13.7199,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 800
     },
     "climate": {
       "primary": "Alpine valley winter",
@@ -85,7 +91,9 @@
         "Flat course design makes it one of the most beginner-friendly Euroloppet events"
       ]
     },
-    "series_membership": ["euroloppet"],
+    "series_membership": [
+      "euroloppet"
+    ],
     "youtube_data": {
       "videos": [],
       "rider_intel": null

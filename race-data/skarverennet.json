@@ -6,7 +6,10 @@
     "tagline": "Twelve thousand Norwegians skating across the Hardangervidda in April — Norway's biggest ski race on Europe's largest mountain plateau.",
     "vitals": {
       "distance_km": 37,
-      "distance_options": ["37km skate", "37km classic"],
+      "distance_options": [
+        "37km skate",
+        "37km classic"
+      ],
       "elevation_m": 600,
       "altitude_m": 1200,
       "location": "Geilo/Finse to Ustaoset area",
@@ -16,8 +19,8 @@
       "region": "Buskerud/Vestland",
       "date": "Late April",
       "date_specific": "2026: April 25",
-      "discipline": "skate",
-      "field_size": "~12,000 capacity",
+      "discipline": "both",
+      "field_size": 12000,
       "founded": 1974,
       "registration": "Opens in autumn; sells out rapidly",
       "prize_purse": null,
@@ -25,7 +28,9 @@
       "cutoff_time": null,
       "website": "https://www.skarverennet.no",
       "lat": 60.5346,
-      "lng": 7.8273
+      "lng": 7.8273,
+      "field_size_estimate": 12000,
+      "elevation_gain_m": 600
     },
     "climate": {
       "primary": "High mountain plateau, spring conditions",
@@ -88,8 +93,170 @@
     },
     "series_membership": [],
     "youtube_data": {
-      "videos": [],
-      "rider_intel": null
+      "researched_at": "2026-03-10",
+      "search_query": "Skarverennet cross country ski race Geilo/Finse to Ustaoset area",
+      "videos": [
+        {
+          "video_id": "xSeN5jh0J_Q",
+          "title": "Skarven2012",
+          "channel": "Vetle Thyli",
+          "view_count": 5468,
+          "upload_date": "20120426",
+          "duration_string": "5:00",
+          "description": "Skarverennet 2012, 38 km, Finse til Ustaoset. Musikk: Vinter in Hollywood - Supressor. I HD (1080p).",
+          "tags": [
+            "sport",
+            "langrenn",
+            "cross",
+            "country",
+            "skiing",
+            "Finse",
+            "Geilo",
+            "Skarverennet"
+          ],
+          "url": "https://www.youtube.com/watch?v=xSeN5jh0J_Q",
+          "transcript": "Heat.\n[Music]\nHeat. Heat.\nDo you think you were made for greater\nthings? I'm all you need.\nDo you think love when they say sin? I'm\nall you ever need.\nI have a plan to come here. I'm all you\never need.\nWhat do you need for me to set you free?\nI'm all you ever need.\nCuz I'm all you ever need.\nthings?\nDo you think someone may kill your\nfriends?\nI plan to come here.\nWhat do you need for me? Set you free.\n[Applause]\nThe music\nbrings me back to love.\nYes, the music always brings me back to\nlife.\nOh, the music\nThe music always brings me back to life.",
+          "curated": false
+        },
+        {
+          "video_id": "o5_m2kQ1GO8",
+          "title": "Driving thru Ustaoset, Hol, Norway",
+          "channel": "Living in Norway Channel",
+          "view_count": 1422,
+          "upload_date": "20210810",
+          "duration_string": "4:27",
+          "description": "Ustaoset, Norway\n\nUstaoset is a village in Hol municipality, Viken County, Norway. It is located on Norwegian National Road 7. Ustaoset is situated 990 m above sea level and is the finish for the cross country ski event Skarverennet. Ustaoset first came to prominence in 1909 with the opening of the Bergen Line.\n\nUstaoset station on the Bergen line is located here.  On site is also a cottage town with about 900 cottages, hotels and mountain lodges.\n\n The name comes from the fact that the place is the estuary where the river Usteåne flows out of Ustevatn.\n\n Ustaoset is the finish line in the Skarverennet touring race.\n\n🇳🇴norsk\n\nUstaoset ligger i Hol kommune i Viken. Ustaoset stasjon på Bergensbanen ligger her. På stedet ligger også en hytteby med cirka 900 hytter, hotell og fjellstuer.\n\nNavnet kommer av at stedet er oset der elven Usteåne renner ut fra Ustevatn.\n\nUstaoset er målgang i turrennet Skarverennet.",
+          "tags": [
+            "Ustaoset",
+            "Geilo",
+            "Driving in norway",
+            "Norway drive",
+            "Travel norway",
+            "Roadtrip in norway",
+            "Viken county norway",
+            "Hyttetur sommer 2021",
+            "Sommer 2021",
+            "Norway summer",
+            "Summer 2021",
+            "Off the beaten path travel in norway",
+            "Driving bergen to voss",
+            "Norway drive through",
+            "Norway scenic drive",
+            "Hol norway",
+            "Viken fylke",
+            "Visit viken",
+            "Visit buskerud",
+            "Visit hol",
+            "Hol kommune",
+            "Overnatting hol ustaoset",
+            "Geilo tour",
+            "Røldal to geilo",
+            "Norway vlog"
+          ],
+          "url": "https://www.youtube.com/watch?v=o5_m2kQ1GO8",
+          "curated": false
+        },
+        {
+          "video_id": "vMGcvxpEVeM",
+          "title": "Haugastøl leverer",
+          "channel": "Kristian Hagen",
+          "view_count": 268,
+          "upload_date": "20210319",
+          "duration_string": "6:27",
+          "description": "Snowkite session at Ørteren day 1 and scaled the mountain Hallingskarvet at day 2",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=vMGcvxpEVeM",
+          "curated": false
+        },
+        {
+          "video_id": "0uOnzAOGZvo",
+          "title": "Skarverennet 2015",
+          "channel": "skidohammer",
+          "view_count": 1031,
+          "upload_date": "20150419",
+          "duration_string": "1:46",
+          "description": "Blev inget filmat under loppet, var för uppslukad av alla intryck",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=0uOnzAOGZvo",
+          "curated": false
+        },
+        {
+          "video_id": "4I6ZVKrN_Jo",
+          "title": "Skarverennet 2025: taking on a Norwegian cross country skiing marathon!",
+          "channel": "Rossies Go Roaming",
+          "view_count": 272,
+          "upload_date": "20250429",
+          "duration_string": "23:50",
+          "description": "A bit different to our normal travel videos! I travel to Norway with some of our family to take on Skarverennet - a 39km cross country skiing race (so very nearly a marathon!).\n\n\nHi - we are Callum and Jan - and having decided to give up work in our 50's we are travelling through SE Asia over the next few months. We have already done a driving trip round Europe (Spain, France, Monaco, Italy, Croatia, more of Italy, Austria, Germany and Holland) in 2021, 10 weeks in Thailand in  Spring 2022 and 10 weeks in Peru and Colombia in Autumn 2022. We did do BLOGs for these (https://rossiesgoroaming.travel.blog/...) but decided to have a go at VLOGs as we have found many so useful in planning our current trip.\n\nOur favourite VLOGs:\nPaddy Doyle\n   / @paddydoyle  . \nJoel Friend\n   / @joel_emilia   \nProbably Lost\n   / @probablylost  \nFlora and Note\n   / @floraandnote  \nEoin and Aisling\n   / @eoinandaisling  \nTravels on Toast\n   / @travelsontoast   \nKarl Watson\n   / @karlwatsondocs  \nRetired Working for You\n   / @retiredworkingforyou   \n\n\nWater-To-Go bottles as featured (this is an affiliate link):\nhttps://watertogo.eu/refer/836/\n\n#travelbudget \n#traveltips   \n#vietnam \n#fire \n#toptips \n#southeastasiatravel \n#asiatravel \n#hochiminh \n#hochiminhcity",
+          "tags": [
+            "cross country",
+            "cross country skiing",
+            "xc skiing",
+            "skarverennet",
+            "norway",
+            "ustaoset",
+            "andymusgrave",
+            "@musgraveandrew",
+            "swix"
+          ],
+          "url": "https://www.youtube.com/watch?v=4I6ZVKrN_Jo",
+          "transcript": "Okay, bit of a different video today cuz\nI'm going to go to Norway to do a cross\ncountry skiing race. Um there's four of\nus going and going with the son,\ndaughter, and her boyfriend and my mom's\ngoing for moral support. So, um, yeah,\nwe're heading off to Norway tomorrow and\ngoing to do a week on Saturday, Scar\nVarenna, which is a 37 km ski race.\nWell, meant to be 37. There's not quite\nenough snow this year, so it might be\n35, but we'll find out for sure when we\nget\nthere. And this is\nthe map of the Scarboro route. So you\ncan see we start in Fininsa which is\n1,222 m above the sea and we're doing\nthis route\nhere and finishing at a Stoza 991 m\nabove sea level. Although I think it's\nthis last couple of kilometers here that\nthere isn't enough snow. So uh that bit\nmight be cut off. We might be quite\ngrateful of that by the time we get\nalthough it is a downhill bit.\nPacking's been left a bit last minute.\nHaven't quite finished it yet. But, uh,\nbasically trying to take as many\ndifferent thin layers as I can. So, I\ncan just mix and match cuz the\ntemperatures look like they're going to\nrange from minus2 to about plus 12 over\nthe the week or so that we're there. And\ngot my Norway hat and my Scottish flag\nfor during the race. And various other\nbits and pieces. The important stuff\nisn't in the pile yet. We've got a\ncouple of wine boxes to take with us and\nsome bacon cuz that's very expensive\nover there. But otherwise, we've ordered\nfood for when we get\nthere. We've made it onto our flight\ndespite a minor panic last night cuz the\nbaggage handlers for Norwegian have gone\non strike, but all very efficient and uh\nbit of a delay checking in just cuz\nthere was a massive school group just in\nfront of us.\n[Music]\nIt's an airport. We've got one bag\nalready and it's the important one with\nthe wine in.\n[Applause]\nYeah, okay, time to get on the train for\nthe 3-hour trip up to a\nSo, normally this would be about 2 m of\nsnow at this time of year, but we're\nwalking along the road and that's up\nthere with a Scottish flag flying there.\nOkay, waxing underway.\nskiing on\nheather. Fair bit of that this\nweek. That was\nelegant. See how the professionals\ndo. That's what it normally looks like.\nHere's what snow does. Yeah, that's\nthat's what it should be like.\nBut got silver tardy. Can't be bad.\nOkay, we're refreshed after our stop.\nSo, we decided to go round via Hiega\nrather than back over Aaha, which uh\ndidn't look nice going down the other\nside. So, we've seen people coming this\nway. So, hopefully the trucks are all\nright. Easter chip has seen better\ndays. I guess it was designed for\nyesterday, Easter\nSunday. There's someone else out with a\ndog being pulled.\nvery happy looking\ndog. Normally all you can see here is\nsnow, no bare rocks or heather, but as\nyou can see, not the case this year.\nTry to find the best route, avoiding the\nbare patches, the heather, the little\nstreams and ponds that are scattering\nthe\ntracks. To get uphill on cross country\nskis, you have to herring bone. It's\nharder than it looks. We're going to go\nthat way and then that way and then that\nway, which we think is what the other\nguy did.\nside on the best route\ndown. Yesterday we went on the tracks\nand it was icy and roughly so. So we're\ngoing to try off pie but it's quite hard\nto\nsee. So that's my glasses steaming up or\njust poor light.\nOh, the wolf is on the\ngo. That's slowly coming.\nSo, while we're British, we're not\ncomplete noviceses. Mom's Norwegian, so\nwe have been coming skiing for quite a\nwhile. Me since I was a young kid, and\nuh our kids have been a few times as\nwell. So, not complete noviceses,\ndespite what we might think from the\nstyle and that\nwobble. We attempt to do the classic\nstyle skiing. Uh, as you'll see, the the\nquicker and more modern style is\nskating, but you'll you'll see that\nlater in the video, particularly during\nthe race when you see the\nprofessionals at some\npoint. Nope.\nOh, this is tricky. His body's littered\neverywhere. Okay, made it to Presto,\nwhich normally you can get drinks and\nfood like we did yesterday, but it's\nlooking very shut today. I think they've\ngiven up. And given that we're the only\npeople out, probably not surprising.\nYeah, shut. It's a shame. We still use\ntheir\nbenches. At least we brought some drinks\nand chocolate.\nYeah, we might have we might have tracks\ntomorrow on Saturday. Okay. All the snow\ndown from the side of the hill to we\nassume where the track for Scar is going\nbe.\nHeat. Heat.\nThere was some boyish screaming coming\npast me there. Sorry. There was some\nboyish screaming on my right side.\nI can't stop.\nOh, you would moan if I didn't give you\nany warning. No, I didn't appreciate it.\nI found it quite entertaining. I also\ncouldn't stop. It may or may not be on\nfilm depending on which way this is\npointing. There was a bit I nearly\nstacked. Everyone did well. No one.\nGreat. Right. Right at the start. There\nwas a bit where one of you and skis went\nthrough snow and he lifted the other one\nup. I thought that looks cool. I'll do\nthe same. I was like,\nwhere you basically dropped. I was like,\nnah, I don't need to do that. I was\nlike, there's only room for one ski. I\nsaw my life flash before my\neyes.\nSlow trudge back up from the shop.\nHaven't got supplies.\nNot much skiing today probably\ncuz as you can see the mountain has\ndisappeared into\nthe mist cloud and odd little flakes of\nsnow but not enough to make any\ndifference I don't\nthink. Beautiful day today.\nFull sun, few wispy clouds, but the\nworst job of skiing. Putting the wax\non. I think there's a bit more snow on\nthe other side from where it was snowing\nyesterday. And I need a little bit of\nwind.\nOkay, on the search for enough snow to\nski\non. Hopefully there was a bit of snow\nlast night and certainly there was a bit\nyesterday during the day. So, we're\nhoping as we get higher up it'll be\nbetter and that the tracks they were\nmaking for Scarena\nhave made it to the\ntracks. It looks like they've done this\nbit really nicely for Scarena or just\nafter the end. It's that film crew.\nfilming. You filming\nme in\n13.99. Chocolate\nrequired. Double deckers,\nclubs, Mars\nbars. We should really have Norwegian\nchocolate, but we'll save that for\nScarava. Extra energy in Norwegian\nchocolate, you reckon?\nYou do sometimes forget to look around\nyou and look at the views cuz we're too\nbusy looking down to avoid falling and\navoid the rust. But look at it. It's\nquite incredible. On top of the world,\nliterally.\nNo, cuz I don't want to be next to you\nwhen you pull.\nI followed him. It was I got\nway up. Yeah. Ski being waxed are done\nand and ours are so dirty they're going\nto clean them off over there.\nHe's actually putting stuff on them now.\nYeah, he was disgusted by our skis.\nI don't blame him. I don't know what\njust about to get started. Nice euro\npoppy music. We had our skis waxed over\nthere. Allie's just finishing off\ngetting his done and then we need to\nhead down there to the start and then\nit's 4 km up the auto start.\nNo, going falling going down it. It's\nobviously harder than it looks.\nOh dear.\nWhat an amateur.\nYeah, he is in our\nminds. That was trickier than it\nlooked. Spent more energy not falling\nover than I\ndid. My feet. Yeah, it's good, isn't it?\nOh, someone's busted a pole already.\nThat's not good at the\nstart. Orange.\nOh, very unlucky at the start. Oh,\nwhere's your support team?\nOkay, top of the big hill, I\nhope as well as the great wax for\ngetting up the hills. It was really,\nreally nice on these long, slightly\ndownhill sections where you could just\nglide along. So made made the going very\neasy for for a lot of it particularly in\nthat kind of uh after that first climb\nup scooters at the bottom of the worry.\nAll the first aids at the\nbottom Heat.\nHeat.\nOkay, come up to a drink\nstop. Thank you.\nThat was a killer hill. That was worse\nthan the first\none cuz the wax isn't as good. We\nthought we'd be applying sun cream at 24\nkm in to go. Not in, to\ngo. There goes\nKate. overtaking Norwegians.\nWhat we hadn't realized was at the\nsecond drinks break, you could uh also\nget your skis rewaxed again. So, that\nwas an added bonus and and helped us\nwith the last few hills. So, many thanks\nagain to\nSwix. Wa!\nSorry. Go. 21k to go. Nearly\nhalfway. Procession going up the\nhill.\nHere comes a proc on the left. Heat.\nNow guys, we're finished with the\ncompetition. Nice and\nfast. Let's trudge up the\nhill. Tired legs. And then they put a\ndanger sign on a steep downhill is just\nwhat you want. Got to walk the last\nkilometer cuz there is no snow left down\nhere. But we made it 1 kilometer\nago. But hopefully no more falls given\nthere's no snow.\nOkay, free beer for the finish.\nWe finished just in time to see the\npresentations to the professionals and\nI've got to say the whole event was\nsuperb given the challenges they had\nwith the snow. The tracks were brilliant\nand all really well organized. Thanks to\nthe organizers for a superb Scar 2025\nand especially as we had a GB athlete\nsecond in the pros as\nwell\nforeign\nsupplies. Who needs Who needs Who needs\nflowers and trophies and chests? We've\ngot back up to the hat. And look at\nthat. Lovely.",
+          "curated": true,
+          "curation_reason": "Excellent recent skier POV content with detailed course description, snow conditions, and race experience from 2025.",
+          "display_order": 1
+        },
+        {
+          "video_id": "OyZJzDZaPXM",
+          "title": "Skarverennet 2006 (part 2)",
+          "channel": "Ultravisions",
+          "view_count": 661,
+          "upload_date": "20080317",
+          "duration_string": "9:38",
+          "description": "After finishing Skarverennet it's time for afterski. Take a look at the atmosphere in Ustaoset. We walk in Bjoern Daehlie`s trail!",
+          "tags": [
+            "nature",
+            "sneila",
+            "birken",
+            "bergensbanen",
+            "swix",
+            "haugastøl",
+            "vasaloppet",
+            "geilo",
+            "hardangervidda",
+            "cross-country",
+            "northug",
+            "bjoerndalen"
+          ],
+          "url": "https://www.youtube.com/watch?v=OyZJzDZaPXM",
+          "curated": false
+        }
+      ],
+      "quotes": [
+        {
+          "text": "So you can see we start in Finse which is 1,222 m above the sea and we're doing this route here and finishing at Ustaoset 991 m above sea level. Although I think it's this last couple of kilometers here that there isn't enough snow. So that bit might be cut off.",
+          "source_video_id": "4I6ZVKrN_Jo",
+          "source_channel": "Rossies Go Roaming",
+          "source_view_count": 272,
+          "category": "course_difficulty",
+          "curated": true
+        },
+        {
+          "text": "Normally this would be about 2 m of snow at this time of year, but we're walking along the road. Normally all you can see here is snow, no bare rocks or heather, but as you can see, not the case this year.",
+          "source_video_id": "4I6ZVKrN_Jo",
+          "source_channel": "Rossies Go Roaming",
+          "source_view_count": 272,
+          "category": "race_atmosphere",
+          "curated": true
+        },
+        {
+          "text": "Try to find the best route, avoiding the bare patches, the heather, the little streams and ponds that are scattering the tracks. To get uphill on cross country skis, you have to herringbone.",
+          "source_video_id": "4I6ZVKrN_Jo",
+          "source_channel": "Rossies Go Roaming",
+          "source_view_count": 272,
+          "category": "technique",
+          "curated": true
+        }
+      ]
     }
   }
 }

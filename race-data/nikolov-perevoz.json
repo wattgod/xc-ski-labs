@@ -1,0 +1,142 @@
+{
+  "race": {
+    "name": "Nikolov Perevoz",
+    "slug": "nikolov-perevoz",
+    "display_name": "Nikolov Perevoz",
+    "tagline": "Fifty classic kilometers through Moscow Oblast forest — one of Russialoppet's flagship marathons drawing two thousand skiers to the capital's snowfields.",
+    "vitals": {
+      "distance_km": 50,
+      "distance_options": [
+        "50km",
+        "25km",
+        "10km"
+      ],
+      "elevation_m": 300,
+      "altitude_m": 200,
+      "location": "Moscow Oblast",
+      "location_badge": "Moscow Oblast, Russia",
+      "country": "Russia",
+      "country_code": "RU",
+      "region": "Moscow Oblast",
+      "date": "Mid-February",
+      "date_specific": null,
+      "discipline": "skate",
+      "field_size": 2000,
+      "founded": null,
+      "registration": "Online registration via Russialoppet",
+      "prize_purse": null,
+      "aid_stations": "Multiple feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.russialoppet.ru",
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "field_size_estimate": 2000,
+      "elevation_gain_m": 300
+    },
+    "climate": {
+      "primary": "Central Russian continental",
+      "description": "Moscow Oblast winters with moderate cold. February temperatures typically -15°C to -5°C. Snow conditions can be variable — thaws are possible even in midwinter.",
+      "typical_temp_c": "-15 to -5",
+      "challenges": [
+        "Variable snow conditions near Moscow",
+        "Midwinter thaw risk in some years",
+        "Crowded start with 2,000 skiers",
+        "Forest trails can be icy after thaw-freeze cycles"
+      ]
+    },
+    "course": {
+      "primary": "Rolling course through Moscow Oblast's mixed birch and pine forest. Classic technique on well-worn trails with moderate terrain.",
+      "format": "loop",
+      "surface": "Groomed trails through mixed forest",
+      "technical_rating": 2,
+      "grooming": "Good grooming by Russialoppet organizers",
+      "features": [
+        "Major Russialoppet series event",
+        "Accessible from Moscow",
+        "Large field creates festive atmosphere",
+        "Well-organized feed stations"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 4,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 4,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 3,
+      "accessibility": 4,
+      "community": 4,
+      "scenery": 2,
+      "organization": 3,
+      "competitive_depth": 3,
+      "score_note": "One of Russialoppet's largest marathons with strong field size and Moscow accessibility. Snow reliability and scenery are modest for the region.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "Nikolov Perevoz is one of the premier events in the Russialoppet marathon series, held in the Moscow Oblast forests. The race draws a large field of Russian citizen skiers and is one of the most accessible Russialoppet events due to its proximity to Moscow.",
+      "notable_facts": [
+        "One of the largest Russialoppet series events",
+        "Located within easy reach of Moscow",
+        "Draws a strong field of Russian marathon skiers",
+        "Part of the Russialoppet national marathon series"
+      ]
+    },
+    "series_membership": [
+      "russialoppet"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Nikolov Perevoz cross country ski race Moscow Oblast",
+      "videos": [
+        {
+          "video_id": "ZBxOZ7CpqPo",
+          "title": "Лыжный маскарад «Николов Перевоз Ретро» 2023.01.07. Ski masquerade 'Nikolov Perevoz Retro'",
+          "channel": "alex mat",
+          "view_count": 370,
+          "upload_date": "20230107",
+          "duration_string": "4:57",
+          "description": "Лыжный маскарад «Николов Перевоз Ретро» состоялся в Дубне Московской области 7 января 2023 года.\nК участию в допускались все желающие, имеющие старое лыжное снаряжение, соответствующее следующим требованиям:\nДеревянные или пластиковые лыжи не позднее 1995 года выпуска, лыжные ботинки с креплениями «75 мм», динамовские или SDS, бамбуковые или металлические палки с кольцами.\nЛыжные костюмы, соответствующие любой ретро эпохе: эпоха короля Васса, начало XX в., военный и послевоенный период ВОВ 1940-50-е гг., советский период 1960-80-х гг. — например: гоночные костюмы «Динамо», свитер с оленями, шапка-петушок, шерстяные гетры и пр.\nПитание с собой: горячий чай в термосе, бутерброды с колбасой, мятные пряники — все сложить в тряпичный рюкзак и взять на трассу. К участию в мероприятии приглашаются и зрители. После финиша жюри выбрало лучший костюм.\nThe ski masquerade 'Nikolov Perevoz Retro' took place in Dubna, Moscow Region on January 7, 2023.\nAnyone with old ski equipment that meets the following requirements was allowed to participate in the competition:\nWooden or plastic skis manufactured no later than 1995, ski boots with “75 mm” bindings, Dynamo or SDS, bamboo or metal poles with rings.\nSki suits corresponding to any retro era: the era of King Vass, the beginning of the 20th century, the military and post-war period of the Second World War 1940-50s, the Soviet period 1960-80s. - for example, Dynamo racing suits, a sweater with deer, a cockerel hat, woolen leggings, etc.\nMeals to go: hot tea in a thermos, sandwiches with sausage, mint gingerbread - put everything in a rag backpack and take it to the track. Spectators are also invited to participate in the event. After the finish, the jury chose the best costume.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=ZBxOZ7CpqPo",
+          "curated": true,
+          "curation_reason": "Recent retro-themed variant of the race showing unique vintage equipment racing atmosphere.",
+          "display_order": 2
+        },
+        {
+          "video_id": "oLd6Zs6M4sY",
+          "title": "Russialoppet Spirit Cup Nikolov Perevoz 2017",
+          "channel": "Sergey Markovsky",
+          "view_count": 67,
+          "upload_date": "20170227",
+          "duration_string": "1:00",
+          "description": "russialoppet.ru",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=oLd6Zs6M4sY",
+          "curated": false
+        },
+        {
+          "video_id": "lxAMnqMrcHs",
+          "title": "Nikolov Perevoz 2019 / Николов Перевоз 2019",
+          "channel": "GarAgeR",
+          "view_count": 3365,
+          "upload_date": "20190210",
+          "duration_string": "56:02",
+          "description": "Transfer and full support on Russialoppet marathons and other sport events (trails, run, MTB, triathlons) +7 905 770 41 33 (WhatsUp, Viber, Telegram)",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=lxAMnqMrcHs",
+          "curated": true,
+          "curation_reason": "Comprehensive race coverage with good duration showing the full Nikolov Perevoz experience.",
+          "display_order": 1
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

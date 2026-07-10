@@ -1,0 +1,242 @@
+{
+  "race": {
+    "name": "Galtuer Nordic Volumes",
+    "slug": "galtuer-nordic-volumes",
+    "display_name": "Galtuer Nordic Volumes",
+    "tagline": "Season-closing Nordic racing in the Tyrolean Alps — the third leg of the Tirol3 Nordic Challenge brings the Austrian cross-country calendar to a spring finale.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "30km",
+        "15km"
+      ],
+      "elevation_m": 900,
+      "altitude_m": 1584,
+      "location": "Galtuer, Tyrol",
+      "location_badge": "Tyrol, Austria",
+      "country": "Austria",
+      "country_code": "AT",
+      "region": "Tyrol",
+      "date": "Late March",
+      "date_specific": "2026: March 26-28",
+      "discipline": "both",
+      "field_size": 300,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations on course",
+      "cutoff_time": null,
+      "website": "https://www.galtuer.gv.at",
+      "lat": 46.9717,
+      "lng": 10.185,
+      "field_size_estimate": 400,
+      "elevation_gain_m": 900
+    },
+    "climate": {
+      "primary": "High Alpine Tyrolean",
+      "description": "Galtuer at 1,584m in the Silvretta Alps maintains reliable late-season snow. March conditions are typically spring-like with sun and firm morning snow.",
+      "typical_temp_c": "-5 to 5",
+      "challenges": [
+        "Late-season spring conditions",
+        "Afternoon softening of snow",
+        "High-altitude sun exposure",
+        "Variable spring weather"
+      ]
+    },
+    "course": {
+      "primary": "Courses through the Galtuer area in the Silvretta Alps of Tyrol. High-altitude terrain with mountain valley and alpine views.",
+      "format": "loop",
+      "surface": "Machine-groomed trails",
+      "technical_rating": 3,
+      "grooming": "Good Austrian competition grooming",
+      "features": [
+        "Part of the Tirol3 Nordic Challenge (with Dolomitenlauf and Ganghoferlauf)",
+        "Silvretta Alps setting at 1,584m",
+        "Season-closing event",
+        "Completing all three earns Tirol3 award"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 54,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 2,
+      "altitude": 4,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 4,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Beautiful high-altitude Tyrolean venue and part of a compelling multi-race challenge, but moderate field and limited standalone prestige.",
+      "tier_note": "Score 54 places in TIER 3"
+    },
+    "history": {
+      "summary": "Galtuer Nordic Volumes is the season-closing leg of the Tirol3 Nordic Challenge, alongside Dolomitenlauf and Ganghoferlauf. Set in the Silvretta Alps of Tyrol, it brings the Austrian Nordic season to a close in late March.",
+      "notable_facts": [
+        "Third leg of the Tirol3 Nordic Challenge",
+        "Completing all three legs (with Dolomitenlauf and Ganghoferlauf) earns awards",
+        "High-altitude Silvretta Alps venue at 1,584m",
+        "Season-closing event in late March"
+      ]
+    },
+    "series_membership": [
+      "tirol3_nordic_challenge"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Galtuer Nordic Volumes cross country ski race Galtuer",
+      "videos": [
+        {
+          "video_id": "CyAdOVaCR1o",
+          "title": "Galtuer Nordic Volumes 2024",
+          "channel": "Galtür - Tirol, Austria ",
+          "view_count": 771,
+          "upload_date": "20240325",
+          "duration_string": "5:03",
+          "description": "GALTÜR NORDIC VOLUMES 2024! 🏆\n\nDrei Tage lang war Galtür für Spitzenathlen und Hobbysportlern im nordischen Skilanglaufen \"the place to be\" 🎿 Angefangen beim Sprint Race bis hin zum Cross-Country Climb und natürlich dem Kids Race, bot jedes Rennen eine Mischung aus Sprints und unvergesslichen Momenten! 🙌\n\nEin riesiges Dankeschön an alle Teilnehmer, Besucher, Sponsoren und das Organisationsteam für ein legendäres Event! DANKE! ❤\n\n#galtür #nordicvolumes #GNV",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=CyAdOVaCR1o",
+          "curated": true,
+          "curation_reason": "Recent race coverage from 2024 showing the complete event with multiple race formats including sprint and cross-country climb.",
+          "display_order": 1
+        },
+        {
+          "video_id": "wDnW2IkO0Ss",
+          "title": "Galtür Nordic Volumes | Event im Paznaun | Tirol",
+          "channel": "Galtür - Tirol, Austria ",
+          "view_count": 510,
+          "upload_date": "20210922",
+          "duration_string": "45",
+          "description": "Einmal im Jahr verwandelt sich Galtür in das österreichische Mekka des Langlaufs.\n\nDie Langlaufserie „Galtür Nordic Volumes“ besteht aus dem bekannten Galtür Nordic Night Race und neu ab 2022 aus dem Cross-Country Climb auf die Silvretta Bielerhöhe, welcher auch erstmals Teil der Österreichischen Meisterschaft Langdistanz 2022 ist. \n\nZudem neu ab 2022 ist der XC Team Relay und das Langlaufrennen für Schüler.\n\nProgramm:\n\n▶ 24. März 2022: \n\nDer Event startet am Donnerstag, 24. März 2022 abends mit dem bekannten und beliebten Galtür Nordic Night Race – dem Nachsprint in Galtür.\n\n\n▶ 25. März 2022:\n\nAm Freitag geht es weiter mit dem Langlaufcamp mit kostenfreiem Langlauftraining, Skiletics Station von Fischer und vielem mehr.\n\n\n▶ 26. März 2022:\n\nErstmals findet dann am Samstag, 26. März der Cross Country Climb auf die Bielerhöhe, durch das wunderschöne Vermunt statt.\n\n\n▶ 27. März 2022: \n\nDas Rennwochenende klingt am Sonntag, 27. März dem XC Team Relay und einem Langlaufrennen für Schüler aus.",
+          "tags": [
+            "Galtür",
+            "Alpen",
+            "Event",
+            "Nordic",
+            "Ski",
+            "Winter",
+            "Österreich",
+            "Tirol",
+            "Race",
+            "Rennen"
+          ],
+          "url": "https://www.youtube.com/watch?v=wDnW2IkO0Ss",
+          "curated": false
+        },
+        {
+          "video_id": "4lcnsGCcfq8",
+          "title": "Galtür Nordic Volumes - Hill Climb 2022",
+          "channel": "Galtür - Tirol, Austria ",
+          "view_count": 835,
+          "upload_date": "20220331",
+          "duration_string": "2:40",
+          "description": "Die ERSTE Auflage unseres Galtür Nordic Volumes lieferte uns sensationelle Bilder aus einer der schönsten Langlaufregionen!\n\nAm 26. März lieferten sich zahlreiche Sportler aus aller Welt ein spannendes Wettrennen bei unserem Hill Climb in Galtür.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=4lcnsGCcfq8",
+          "curated": false
+        },
+        {
+          "video_id": "8GTUwoG9Cd4",
+          "title": "Galtür Nordic Volumes – 26  – 28  März 2026",
+          "channel": "Galtür - Tirol, Austria ",
+          "view_count": 50,
+          "upload_date": "20251121",
+          "duration_string": "20",
+          "description": "Erlebe ein Langlauf-Event der Extraklasse im Herzen der Alpen!\n• Drei Top-Bewerbe für jedes Können – vom Sprinter über den Cross Country Climb bis zum Kids & Juniors Race.\n• Teil der tirol³ Nordic Challenge: Gemeinsam mit dem Dolomitenlauf und dem Ganghoferlauf bringt’s dir das volle Volkslauf-Erlebnis. \n• Ideal für alle, die Spaß am Nordic Sport haben — vom ambitionierten Hobbyläufer bis zum Nachwuchs-Talent.\n#Galtür #GaltürNordicVolumes #GNV",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=8GTUwoG9Cd4",
+          "curated": false
+        },
+        {
+          "video_id": "zpYlpXQpofU",
+          "title": "1. Galtür Nordic Climb Siegerehrung mit Friedrich | wsvisny",
+          "channel": "wsvisny",
+          "view_count": 168,
+          "upload_date": "20220502",
+          "duration_string": "2:18",
+          "description": "Grandiose Stimmung während der Siegerehrung des 1. Galtür Nordic Climb in Verbindung mit der Österreichischen Meisterschaft. Friedrich Moch und Sigrid Mutscheller vom WSV Isny waren natürlich auch dabei und haben Top Platzierungen erreicht.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=zpYlpXQpofU",
+          "transcript": "[Music]\ntrunks\n[Applause]\nforeign\nthink\nfirst and winner representing germany\nosteichland laura\nam",
+          "curated": false
+        },
+        {
+          "video_id": "Kn_4yWzFC-o",
+          "title": "Galtuer Nordic Volumes - Sprint",
+          "channel": "K19",
+          "view_count": 835,
+          "upload_date": "20240322",
+          "duration_string": "1:33",
+          "description": "Prominente Sieger beim Nordic Sprint Race\n \nWeltcupläufer Benjamin Moser und Coletta Rydzek, Schwester des deutschen Top-Biathleten Johannes Rydzek, haben gestern Abend das Nordic Sprint Race in Galtür, Auftakt des Galtür Nordic Volumes gewonnen. Am kommenden Samstag treffen die besten Langlaufspezialisten, Biathleten und Nordischen Kombinierer Deutschlands und Österreichs beim Cross Country Climb aufeinander.\n \nEhe am kommenden Samstag der anspruchsvolle Cross Country Climb in Galtür, gleichzeitig österreichische und deutsche Meisterschaften, über die Bühne geht, fand gestern Abend der klassische Sprint statt. Als prominente Zaungäste waren Teresa Stadlober, Mika Vermeulen und der nordische Kombinierer Johannes Lamparter dabei, die alle am Samstag starten werden. Die österreichischen Athlet:innen treffen dabei auf starke internationale Konkurrenz: Der deutsche Langlaufstar Katharina Hennig, Olympiasiegerin und WM-Medaillengewinnerin, nimmt in Galtür ebenso teil wie Weltcup-Topten-Läufer Lucas Bögl!\n \nNach einer Qualifikationsrunde für die jeweils 16 schnellsten Damen und Herren ging es in die Finalläufe. Die spektakuläre Strecke führte über zwei Runden mit je 1.050 Metern. Im K.O.-Prinzip qualifizierten sich die Sportler für die nächsten Durchgänge. Den Kampf um das Gesamtpreisgeld von 7.500 Euro bestritten die Finalisten in Vierer-Gruppen.\n \nBei den Damen setzte sich die Deutsche Coletta Rydzek, Schwester des Nordischen Kombinierers Johannes, knapp gegen Weltcupathletin Laura Gimmler durch. Den dritten Platz holte die ÖSV-Biathletin Anna Juppe. Bei den Männern ging der Sieg an den Tiroler Lokalmatador Benjamin Moser, der beim Weltcupfinale letzte Woche noch einen tollen 12. Platz holte. \"Ich bin total happy, dass ich den Titel aus dem Vorjahr verteidigen konnte. Ein großer Respekt an die Veranstalter, dass sie die Strecke so hingebracht haben. Es waren Top-Bedingungen.\" Hinter Moser belegte der Salzburger Michael Föttinger den zweiten Platz. Aufs Podest schaffte es noch der Deutsche Markus Bauer. \n\n\nProduktion/Production: Studio K19 GmbH\nBesuchen Sie uns auf : https://www.k19.at\n\nÜber einen LIKE und ABO würden wir uns sehr freuen. \nKommentar für den Algorithmus. \nVielen Dank 😊💙\n\n\nFolgen Sie uns auf den Sozialen Medien\nYoutube 📽️ : https://youtube.com/@K19at\nInstagram 📸 : https://instagram.com/k19.tv\nFacebook ⓕ : https://www.facebook.com/tv.k19\nTwitter 𝕏 : https://twitter.com/k19tv\nWebsite : https://k19.at\n\n\nEmpfangen Sie unseren TV-Kanal über Magenta, SimpliTV, A1 NOW oder \nauf unseren Webseite hier : https://k19.at/programm/empfang/\n\n\nKontakt — office@studiok19.at \n\n\nStudio K19 GmbH © 2024 • All rights reserved",
+          "tags": [
+            "StudioK19",
+            "K19",
+            "ambestenlive",
+            "Galtür",
+            "Nordic Volumes",
+            "Paznaun",
+            "Ischgl",
+            "Katharina Hennig",
+            "Lucas Bögl",
+            "Ryzek",
+            "Gimmler",
+            "Teresa Stadlober",
+            "Mika Vermeulen",
+            "Benjamin Moser",
+            "Tirol",
+            "deutsche Meisterschaften",
+            "österreichische Meisterschaften",
+            "langlauf",
+            "weltcup",
+            "anna juppe",
+            "johannes lamparter",
+            "nordische Kombination",
+            "Lukas Greiderer"
+          ],
+          "url": "https://www.youtube.com/watch?v=Kn_4yWzFC-o",
+          "curated": false
+        },
+        {
+          "video_id": "7rMB0_AIwAE",
+          "title": "Galtür Nordic Volumes 2023",
+          "channel": "Galtür - Tirol, Austria ",
+          "view_count": 801,
+          "upload_date": "20230402",
+          "duration_string": "1:30",
+          "description": "Das waren die GALTÜR NORDIC VOLUMES 2023! 🎉\n\nDas 2-tägige Event brachte einige der besten nordischen Skifahrer und Skifahrerinnen zusammen 🎿 Vom Nordic Sprint Race, dem Cross-Country Climb, bis über zum Kids Race - die Wettkämpfe waren definitiv intensiv und fesselnd! 🙌\n\nWir bedanken uns bei allen Teilnehmern, Zuschauern, Partnern & Helfern für das atemberaubende Event! Es war uns eine Ehre! ❤\n\n#lovegaltür #galtür #silvapark #paznaun #nordicvolumes #GNV #crosscountry #langlauf",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=7rMB0_AIwAE",
+          "curated": false
+        },
+        {
+          "video_id": "qfShNBgX6wg",
+          "title": "Langlaufen in Galtür: Silvaparkloipe",
+          "channel": "Galtür - Tirol, Austria ",
+          "view_count": 623,
+          "upload_date": "20190321",
+          "duration_string": "1:00",
+          "description": "Langlauf-Paradies Galtür mit 73 Loipenkilometern!\nFür Anfänger, Fortgeschrittene und ambitionierte Langläufer ist das Netz aus 73 Loipenkilometern ideal. Die Strecken führen durch die winterlichen Landschaften des Paznaun und reichen teilweise sogar bis nach Vorarlberg. Neben der klassischen Spur steht Ihnen auch ein breiter Platz zum Skaten zur Verfügung.\n\nwww.galtür.com \n#galtür #erlebedenberg",
+          "tags": [
+            "Galtür",
+            "Paznaun",
+            "Langlaufen in Galtür",
+            "Galtür Nordic Night Race",
+            "Cross country skiing"
+          ],
+          "url": "https://www.youtube.com/watch?v=qfShNBgX6wg",
+          "transcript": "[Music]",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

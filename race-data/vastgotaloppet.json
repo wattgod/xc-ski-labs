@@ -1,0 +1,101 @@
+{
+  "race": {
+    "name": "Vastgotaloppet",
+    "slug": "vastgotaloppet",
+    "display_name": "Västgötaloppet",
+    "tagline": "Two days, two techniques — Sweden's unique back-to-back skate and classic marathon in the heart of Västergötland.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "25km",
+        "18km"
+      ],
+      "elevation_m": 350,
+      "altitude_m": 300,
+      "location": "Lassalyckan, Ulricehamn, Vastergotland",
+      "location_badge": "Västergötland, Sweden",
+      "country": "Sweden",
+      "country_code": "SE",
+      "region": "Vastergotland",
+      "date": "Late January / early February",
+      "date_specific": "2026: January 31 (Skate), February 1 (Classic)",
+      "discipline": "both",
+      "field_size": 1000,
+      "founded": 2000,
+      "registration": "Open registration; seeding race for Vasaloppet and Tjejvasan",
+      "prize_purse": null,
+      "aid_stations": "Aid stations along the course (8km lap format)",
+      "cutoff_time": null,
+      "website": "https://vastgotaloppet.se/",
+      "lat": 57.791,
+      "lng": 13.4177,
+      "field_size_estimate": 1000,
+      "elevation_gain_m": 350
+    },
+    "climate": {
+      "primary": "Western Swedish winter",
+      "description": "Ulricehamn in western Sweden has more variable snow conditions than inland Dalarna. Late January/early February temperatures typically range from -10°C to 2°C. Snow reliability can be challenging in milder winters.",
+      "typical_temp_c": "-10 to 2",
+      "challenges": [
+        "Snow reliability variable in western Sweden's milder climate",
+        "Two-day format means adapting to potentially different conditions",
+        "Maritime influence can bring above-zero temperatures",
+        "Lower altitude limits snow insurance"
+      ]
+    },
+    "course": {
+      "primary": "An 8km lap-based course at Lassalyckan in Ulricehamn, with skate and classic events on consecutive days. One of Sweden's largest Vasaloppet seeding races.",
+      "format": "multi-loop",
+      "surface": "Machine-groomed tracks for both skate and classic technique",
+      "technical_rating": 2,
+      "grooming": "Good Swedish competition standard grooming",
+      "features": [
+        "Unique two-day format: skate Saturday, classic Sunday",
+        "8km lap course allows spectator-friendly racing",
+        "One of Sweden's largest Vasaloppet seeding races",
+        "Ski Classics Challengers event",
+        "Multiple distance options from 18km to 42km"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 53,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 3,
+      "elevation": 2,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 3,
+      "international_draw": 2,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 4,
+      "accessibility": 4,
+      "community": 3,
+      "scenery": 3,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Unique two-technique format and strong role as a Vasaloppet seeding race. Ski Classics Challengers status adds prestige. Snow reliability in western Sweden is the main concern.",
+      "tier_note": "Score 53 places in TIER 3"
+    },
+    "history": {
+      "summary": "Västgötaloppet emerged in the early 2000s at Lassalyckan in Ulricehamn, western Sweden. It has carved a niche as one of the few events offering both skate and classic marathons on consecutive days. The race serves as one of Sweden's largest seeding races for Vasaloppet and Tjejvasan, and joined the Ski Classics Challengers circuit.",
+      "notable_facts": [
+        "Unique format with skate and classic races on consecutive days",
+        "One of Sweden's largest Vasaloppet seeding races",
+        "Ski Classics Challengers event",
+        "Based at Lassalyckan, Ulricehamn's established Nordic center",
+        "Multiple distance options cater to different ability levels"
+      ]
+    },
+    "series_membership": [
+      "ski_classics_challengers"
+    ],
+    "youtube_data": {
+      "videos": [],
+      "rider_intel": null
+    }
+  }
+}

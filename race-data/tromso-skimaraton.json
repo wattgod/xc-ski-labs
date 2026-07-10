@@ -1,0 +1,249 @@
+{
+  "race": {
+    "name": "Tromsø Skimaraton",
+    "slug": "tromso-skimaraton",
+    "display_name": "Tromsø Skimaraton",
+    "tagline": "Forty-two kilometers above the Arctic treeline — marathon skiing under the northern lights latitude.",
+    "vitals": {
+      "distance_km": 42,
+      "distance_options": [
+        "42km",
+        "20km"
+      ],
+      "elevation_m": 700,
+      "altitude_m": 400,
+      "location": "Tromsø area",
+      "location_badge": "Troms, Norway",
+      "country": "Norway",
+      "country_code": "NO",
+      "region": "Troms",
+      "date": "April",
+      "date_specific": null,
+      "discipline": "classic",
+      "field_size": 80,
+      "founded": null,
+      "registration": "Online registration",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along course",
+      "cutoff_time": null,
+      "website": "https://www.tromsoskimaraton.no",
+      "lat": 69.65,
+      "lng": 18.95,
+      "field_size_estimate": 650,
+      "elevation_gain_m": 700
+    },
+    "climate": {
+      "primary": "Arctic maritime",
+      "description": "Tromsø sits at 69°N, well above the Arctic Circle. Spring conditions in April bring long daylight hours but cold temperatures. Maritime influence moderates extremes but brings variable weather.",
+      "typical_temp_c": "-10 to -1",
+      "challenges": [
+        "Arctic wind exposure above the treeline",
+        "Rapidly changing weather at high latitude",
+        "Wind chill can be severe on exposed plateaus",
+        "Late-season spring sun can soften snow surfaces"
+      ]
+    },
+    "course": {
+      "primary": "42km course through the mountains above Tromsø, much of it above the treeline. Dramatic Arctic scenery with fjord views and exposed mountain terrain requiring fitness and respect for conditions.",
+      "format": "loop",
+      "surface": "Machine-groomed tracks through mountain terrain",
+      "technical_rating": 3,
+      "grooming": "Regional standard grooming",
+      "features": [
+        "Significant portions above the Arctic treeline",
+        "Panoramic views of fjords and Arctic peaks",
+        "One of the northernmost ski marathons in the world",
+        "Exposed mountain terrain demanding weather preparedness"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 57,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "classic",
+      "distance": 3,
+      "elevation": 3,
+      "altitude": 2,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 2,
+      "course_technicality": 3,
+      "snow_reliability": 5,
+      "grooming_quality": 3,
+      "accessibility": 2,
+      "community": 3,
+      "scenery": 5,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Outstanding Arctic scenery and reliable snow, but remote location limits field size and international accessibility. A true adventure race.",
+      "tier_note": "Score 57 places in TIER 3"
+    },
+    "history": {
+      "summary": "The Tromsø Skimaraton is a ski marathon held in the mountains above Tromsø in Arctic Norway. One of the northernmost organized ski marathons in the world, it takes skiers through dramatic above-treeline terrain with views across the fjords and Arctic peaks of northern Troms.",
+      "notable_facts": [
+        "One of the northernmost ski marathons in the world at 69°N",
+        "Course runs largely above the Arctic treeline",
+        "Held in April when Tromsø has nearly 24 hours of daylight",
+        "Views across Arctic fjords and the Lyngen Alps"
+      ],
+      "founded": 2009
+    },
+    "series_membership": [],
+    "youtube_data": {
+      "researched_at": "2026-03-11",
+      "search_query": "Tromsø Skimaraton cross country ski race Tromsø area",
+      "videos": [
+        {
+          "video_id": "HRHfsEellK0",
+          "title": "Reindeer racing in Tromsø",
+          "channel": "Oops ! I made it ",
+          "view_count": 150,
+          "upload_date": "20191103",
+          "duration_string": "43",
+          "description": "Reindeer racing in Tromsø 10 February 2019",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=HRHfsEellK0",
+          "curated": false
+        },
+        {
+          "video_id": "_jWxTXZdWkw",
+          "title": "Sprint race Men - Tromsø #SkimoWC23",
+          "channel": "ISMF Skimo",
+          "view_count": 3884,
+          "upload_date": "20230421",
+          "duration_string": "3:32",
+          "description": "The main protagonists of the Sprint races of the past seasons, Arno Lietha and Oriol Cardona Coll, proved that they are just the best in this discipline. The two great rivals made it to the finals, and Lietha won ahead of the Spanish Sprint specialist by half of a ski.\n\nLietha had an exceptional season. He won five out of six Sprints and defended the small Globe for this discipline.\n\n▶ WEBSITE: http://www.ismf-ski.org\n▶ FACEBOOK: https://www.facebook.com/ismf.ski\n▶ TWITTER: https://twitter.com/ISMFSkimo\n▶ INSTAGRAM: https://www.instagram.com/ismf_world_cup",
+          "tags": [
+            "ISMF",
+            "ISMF World Cup",
+            "ISMF Ski Mountaineering",
+            "SkiMo",
+            "ISMF World Cup 2018",
+            "Vertical Race",
+            "Individual Race",
+            "Sprint Race",
+            "Ski",
+            "Snow",
+            "Mountain"
+          ],
+          "url": "https://www.youtube.com/watch?v=_jWxTXZdWkw",
+          "curated": false
+        },
+        {
+          "video_id": "RUG5-ZXabI4",
+          "title": "Tromsø Skimaraton 2020",
+          "channel": "Thomas K. Føre",
+          "view_count": 448,
+          "upload_date": "20200215",
+          "duration_string": "6:19",
+          "description": "Tromsø Skimaraton lørdag 15. februar 2020.",
+          "tags": [
+            "skimaraton",
+            "skimarathon",
+            "tromsø"
+          ],
+          "url": "https://www.youtube.com/watch?v=RUG5-ZXabI4",
+          "curated": true,
+          "curation_reason": "Race day coverage of the actual Tromsø Skimaraton event showing course and conditions.",
+          "display_order": 1
+        },
+        {
+          "video_id": "FDPn43yLeqM",
+          "title": "Hurtigruten Langlaufen in Tromsø - 5M",
+          "channel": "Jessica Kirsten Travels & Events",
+          "view_count": 319,
+          "upload_date": "20230102",
+          "duration_string": "6:52",
+          "description": "werbung - Alle Hurtigruten und HX Reisen sind zu BUCHEN bei mir\nJESSICA KIRSTEN\nReiseleiterin und Agentur – bei Hurtigruten seit 2002\nBeratung mit Expertenwissen \nhttps://www.travelsandevents.com/hurtigruten\n\nAnfängerkurs mit Hurtigruten, Ausflug auf dem \"Hausberg\" von Tromsö. Hurtigruten Ausflug im Winter. Nachmittags geht es mit Skilehrerin auf die Loipe, als Anfänger-Kurs.",
+          "tags": [
+            "hurtigruten ausflug",
+            "ausflüge Tromsö",
+            "skilaufen Tromsö",
+            "langlauf ausflug",
+            "hurtigruten ausflug 5m",
+            "cross country skifahren",
+            "ausflug buchen hurtigruten"
+          ],
+          "url": "https://www.youtube.com/watch?v=FDPn43yLeqM",
+          "curated": false
+        },
+        {
+          "video_id": "s_fb64mMIF8",
+          "title": "Tromsø Ski marathon with Martin Korsner | SkatePro.com",
+          "channel": "SkatePro Wintersports",
+          "view_count": 201,
+          "upload_date": "20180305",
+          "duration_string": "4:25",
+          "description": "Martin attended this year's ski marathon in Tromsø, and he made a little vlog about his experience. He shared some tips and tell you a bit about his preparation and evaluation of the race. \n\nRemember to like and subscribe. \nGot any questions? Please comment and we will reply within a few days. \n\nFollow SkatePro on Social Media:\n► Instagram: https://instagram.com/skatepro.wintersports\n► Facebook: https://www.facebook.com/skateprodk\n► Snapchat: 'skatepro.com'",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=s_fb64mMIF8",
+          "curated": true,
+          "curation_reason": "Skier vlog about race experience with preparation tips and race evaluation.",
+          "display_order": 2
+        },
+        {
+          "video_id": "sUzx1f9etIU",
+          "title": "Start 120 km Lillehammer Troll Ski Marathon 2019",
+          "channel": "Rolf Bakken",
+          "view_count": 497,
+          "upload_date": "20190407",
+          "duration_string": "32",
+          "description": "",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=sUzx1f9etIU",
+          "curated": false
+        },
+        {
+          "video_id": "a1Uha8ktp9U",
+          "title": "2012-02-11 Tromsø Skimaraton 2012 - Oddgeir Sølvfæstersen",
+          "channel": "Thomas K. Føre",
+          "view_count": 205,
+          "upload_date": "20120212",
+          "duration_string": "7",
+          "description": "Oddgeir Sølvfæstersen, Northern Runners, leverer en imponerende skimaraton på sørpeføre. Tiden ble 2:36:15, kun 35:07 bak vinneren Snorri Einarsson.",
+          "tags": [
+            "Northern Runners",
+            "Tromsø Skimaraton",
+            "ski marathon",
+            "Tromso",
+            "Oddgeir Sølvfæstersen"
+          ],
+          "url": "https://www.youtube.com/watch?v=a1Uha8ktp9U",
+          "curated": false
+        },
+        {
+          "video_id": "F25vrHh6ZQk",
+          "title": "Troms, Norway - Storstolpan and Gorzelvtind",
+          "channel": "Alexander Apeland",
+          "view_count": 390,
+          "upload_date": "20200131",
+          "duration_string": "4:59",
+          "description": "Topptur til Storstolpan og Gorzelvtind.\nStorstolpan 977 moh.\nGorzelvtind 1072 moh. \n\nMusic: \nhttps://www.youtube.com/watch?v=yJg-Y5byMMw \nhttps://www.youtube.com/watch?v=K4DyBUG242c\n\n#Freeski #Skimo #randonee #Tromsø #Norway #Norrøna",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=F25vrHh6ZQk",
+          "transcript": "[Music]\noh sweet Jesus and leading us will ever\ntrust know I don't always would\nwe'll go through the wastelands through\nthe highways so my shadow through the\nsunrays and\nalong the way melodies we haven't played\nI don't know\ngoing around these walls planning to\ncreate a song\nI don't wanna miss Abby\nwe'll go\nto the wastelands through the highways\nzuma shadow through sun rays and\ndried out tears",
+          "curated": false
+        },
+        {
+          "video_id": "9_CSE5Nnnr0",
+          "title": "Kayaking in Tromsø",
+          "channel": "Hurtigruten",
+          "view_count": 5054,
+          "upload_date": "20141001",
+          "duration_string": "1:32",
+          "description": "Experience the sea in an intense and exciting way. Together with your experienced guide, you paddle in the waters off the coast of Tromsø with the mountains forming a stunning backdrop. A great way to silently travel through these pristine waters and to get close to the marine wildlife. We use stable, double, sea kayaks and no paddling experience is needed to join this excursion. The guide will give you instructions and support you along the way.\n\nOur Original Norwegian Coastal Express voyage is your pure and unfiltered escape to the charming everyday life of the Norwegian coast. Come join us on an iconic journey: \n\nFacebook: https://www.facebook.com/Hurtigruten/  \nInstagram: https://www.instagram.com/hurtigruten/\nWebsite: https://global.hurtigruten.com/destinations/norway/",
+          "tags": [
+            "Norwegian cruise",
+            "Norwegian cruise line",
+            "Norway cruise ship",
+            "Norway cruise",
+            "cruise ship Norway"
+          ],
+          "url": "https://www.youtube.com/watch?v=9_CSE5Nnnr0",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}

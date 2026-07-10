@@ -1,0 +1,206 @@
+{
+  "race": {
+    "name": "Marchablanca",
+    "slug": "marchablanca",
+    "display_name": "Marchablanca",
+    "tagline": "Twenty-one kilometers of cross-country skiing at the bottom of the world near Ushuaia — South America's most important XC ski race since 1986, on the trails of Tierra del Fuego.",
+    "vitals": {
+      "distance_km": 21,
+      "distance_options": [
+        "21km",
+        "7.5km"
+      ],
+      "elevation_m": 200,
+      "altitude_m": 300,
+      "location": "Ushuaia",
+      "location_badge": "Tierra del Fuego, Argentina",
+      "country": "Argentina",
+      "country_code": "AR",
+      "region": "Tierra del Fuego",
+      "date": "August (Southern Hemisphere winter)",
+      "date_specific": null,
+      "discipline": "both",
+      "field_size": 500,
+      "founded": 1986,
+      "registration": "Online registration via Club Andino Ushuaia",
+      "prize_purse": null,
+      "aid_stations": "Feed stations along the course",
+      "cutoff_time": null,
+      "website": "https://www.worldloppet.com/marchablanca-ushuaia-loppet/",
+      "lat": -54.8019,
+      "lng": -68.303,
+      "field_size_estimate": 650,
+      "elevation_gain_m": 200
+    },
+    "climate": {
+      "primary": "Patagonian subantarctic winter",
+      "description": "August in Ushuaia at 54°S latitude means deep Southern Hemisphere winter. Temperatures range from -5°C to 5°C. Tierra del Fuego's maritime subantarctic climate provides consistent but often wet and windy conditions. Snow can be heavy and wind-affected. Daylight is limited — about 9 hours in August at this extreme southern latitude.",
+      "typical_temp_c": "-5 to 5",
+      "challenges": [
+        "Subantarctic wind — Tierra del Fuego is notoriously windy",
+        "Wet maritime snow — heavier than continental powder",
+        "Limited August daylight at 54°S latitude",
+        "Remote southern location — limited international accessibility",
+        "Variable snow quality due to maritime influence"
+      ]
+    },
+    "course": {
+      "primary": "A 21km course through the Tierra del Fuego landscape near Ushuaia, the world's southernmost city. The course traverses subantarctic forest and open terrain at approximately 300m altitude. Moderate rolling terrain with views of the Martial Glacier and Beagle Channel. A shorter 7.5km promotional distance is also offered.",
+      "format": "loop",
+      "surface": "Groomed trails through subantarctic forest and open terrain",
+      "technical_rating": 2,
+      "grooming": "Club Andino Ushuaia trail network",
+      "features": [
+        "World's southernmost major XC ski race",
+        "Ushuaia — 'End of the World' city at 54°S",
+        "Tierra del Fuego subantarctic landscape",
+        "Views of Martial Glacier and Beagle Channel",
+        "South America's most important XC ski race since 1986",
+        "Southern Hemisphere winter — August racing"
+      ]
+    },
+    "nordic_lab_rating": {
+      "overall_score": 47,
+      "tier": 3,
+      "tier_label": "TIER 3",
+      "discipline": "both",
+      "distance": 2,
+      "elevation": 1,
+      "altitude": 1,
+      "field_size": 2,
+      "prestige": 2,
+      "international_draw": 3,
+      "course_technicality": 2,
+      "snow_reliability": 3,
+      "grooming_quality": 2,
+      "accessibility": 2,
+      "community": 4,
+      "scenery": 4,
+      "organization": 3,
+      "competitive_depth": 2,
+      "score_note": "Unique geographic position as the world's southernmost major XC ski race. Strong scenery in the Tierra del Fuego subantarctic landscape. International draw boosted by Worldloppet candidacy and southern hemisphere timing. Short distance and limited grooming infrastructure limit some scores.",
+      "tier_note": "Score 47 confirms TIER 3"
+    },
+    "history": {
+      "summary": "The Marchablanca has been South America's most important cross-country ski race since its founding in 1986. Organized by the Club Andino Ushuaia (CAU), a nonprofit institution nearly sixty years old, the race takes place in Tierra del Fuego near Ushuaia — the world's southernmost city. The event has been part of the Worldloppet candidacy process alongside the Ushuaia Loppet, seeking to bring South American citizen skiing into the global Worldloppet family. With up to 780 entries in its peak years, it represents the heart of Argentine cross-country skiing culture.",
+      "notable_facts": [
+        "Founded in 1986 — South America's most important XC ski race",
+        "Organized by Club Andino Ushuaia (CAU) — nearly 60 years old",
+        "Ushuaia — the world's southernmost city at 54°S latitude",
+        "Worldloppet candidacy — seeking to join the global loppet family",
+        "Peak participation of 780 entries in the 21km distance",
+        "Southern Hemisphere timing — August racing during boreal summer",
+        "30th edition celebrated as a milestone season"
+      ]
+    },
+    "series_membership": [
+      "worldloppet_candidate"
+    ],
+    "youtube_data": {
+      "researched_at": "2026-03-10",
+      "search_query": "Marchablanca cross country ski race Ushuaia",
+      "videos": [
+        {
+          "video_id": "5yLVMz9eWM8",
+          "title": "Ushuaia Loppet - Marchablanca - Worldloppet 2018",
+          "channel": "Ushuaia  Esqui de fondo ",
+          "view_count": 2491,
+          "upload_date": "20180820",
+          "duration_string": "3:03",
+          "description": "Resumen del evento deportivo internacional organizado por el Club Andino Ushuaia.",
+          "tags": [],
+          "url": "https://www.youtube.com/watch?v=5yLVMz9eWM8",
+          "curated": true,
+          "curation_reason": "Official race coverage from the organizing club showing the international Worldloppet event with race footage and course views.",
+          "display_order": 1
+        },
+        {
+          "video_id": "hRnEfcZ-TDQ",
+          "title": "Marchablanca - Ushuaia Loppet 2013",
+          "channel": "Ushuaia  Esqui de fondo ",
+          "view_count": 180,
+          "upload_date": "20140508",
+          "duration_string": "2:03",
+          "description": "Eventos del mes internacional del esquí de fondo organizados por el Club Andino en el Valle de Tierra Mayor a 20 km de la ciudad de Ushuaia en la provincia de Tierra del Fuego",
+          "tags": [
+            "Marchablanca",
+            "Ushuaia Loppet",
+            "Tierra del Fuego",
+            "valcheff",
+            "Club Andino Ushuaia",
+            "Tierra Mayor",
+            "Patagonia",
+            "Argentina (Country)",
+            "Ushuaia (City/Town/Village)",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=hRnEfcZ-TDQ",
+          "transcript": "so\nyou",
+          "curated": false
+        },
+        {
+          "video_id": "U6PWsyYytC0",
+          "title": "XC-Skiing in Ushuaia - Marchablanca & Loppet 2012",
+          "channel": "turismotdf",
+          "view_count": 296,
+          "upload_date": "20130204",
+          "duration_string": "3:54",
+          "description": "XC-Skiing in Ushuaia - Marchablanca & Loppet 2012\nhttp://www.tierradelfuego.org.ar/xc-skiing\n\nhttp://www.twitter.com/turismoTDF\nhttp://www.facebook.com/tierradelfuego.org.ar\nhttp://www.youtube.com/turismoTDF\nhttp://www.tierradelfuego.org.ar",
+          "tags": [
+            "XC Skiing",
+            "Marchablanca",
+            "Loppet",
+            "Ushuaia",
+            "Tierra del Fuego"
+          ],
+          "url": "https://www.youtube.com/watch?v=U6PWsyYytC0",
+          "curated": true,
+          "curation_reason": "Tourism department video showcasing both Marchablanca and Loppet races with course footage from Valle de Tierra Mayor.",
+          "display_order": 2
+        },
+        {
+          "video_id": "5nBkUzlPkGc",
+          "title": "COMING NEXT USHUAIA LOPPET",
+          "channel": "Worldloppet",
+          "view_count": 479,
+          "upload_date": "20190813",
+          "duration_string": "39",
+          "description": "COMING NEXT\n\nLet's start a new Worldloppet Season\nUshuaia Loppet - Marchablanca - Min is coming next week on August 24th. \n\nAre you ready for a new Worldloppet adventure with the new SkiPlanet by Worldloppet Episode?\n\n. SkiPlanet is hosted by Marika Godin\n. Produced by Worldloppet\n. Mizenboite Production",
+          "tags": [
+            "ushuaia loppet",
+            "worldloppet"
+          ],
+          "url": "https://www.youtube.com/watch?v=5nBkUzlPkGc",
+          "curated": false
+        },
+        {
+          "video_id": "PArhHO-Pv7o",
+          "title": "Ushuaia -  Mes Internacional del Esquí de Fondo 2014",
+          "channel": "Ushuaia  Esqui de fondo ",
+          "view_count": 430,
+          "upload_date": "20141010",
+          "duration_string": "2:26",
+          "description": "Ushuaia Loppet  y Marchablanca organizados por el Club Andino Ushuaia en el Fin del Mundo. Recientemente incorporado al Worldloppet. Agosto 2014 en el Valle de Tierra Mayor.",
+          "tags": [
+            "ushuaia loppet",
+            "Ushuaia (City/Town/Village)",
+            "ushuaia",
+            "fin del mundo",
+            "worldloppet",
+            "marchablanca",
+            "marcha blanca",
+            "argentina",
+            "Argentina (Country)",
+            "Tierra Del Fuego Province Argentina (Argentine Province)",
+            "tierra del fuego",
+            "valcheff",
+            "club andino ushuaia"
+          ],
+          "url": "https://www.youtube.com/watch?v=PArhHO-Pv7o",
+          "curated": false
+        }
+      ],
+      "quotes": []
+    }
+  }
+}
