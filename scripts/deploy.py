@@ -425,6 +425,7 @@ def purge_cache():
         return True
 
     print("  Cache purge requires manual action: go to SiteGround Site Tools → Speed → Caching → Flush Cache")
+    return "manual"
     return True  # Non-fatal — pages are still deployed
 
 
@@ -454,7 +455,7 @@ def deploy_all():
     print("\n" + "=" * 40)
     print("Deploy Summary:")
     for name, ok in results:
-        status = "OK" if ok else "FAILED"
+        status = "MANUAL — flush in Site Tools" if ok == "manual" else ("OK" if ok else "FAILED")
         print(f"  {name}: {status}")
 
     return all(ok for _, ok in results)
