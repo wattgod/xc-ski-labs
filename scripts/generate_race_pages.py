@@ -3,7 +3,7 @@
 XC Ski Labs — Race Page Generator
 
 Generates self-contained HTML race pages from JSON profiles.
-Neo-brutalist design system with wintry XC Ski Labs palette.
+Wax Bench design system, with tokens embedded from tokens/tokens.css.
 
 Usage:
     python generate_race_pages.py              # all races
@@ -15,6 +15,7 @@ import argparse
 import html
 import json
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Any, Optional
@@ -24,6 +25,7 @@ from typing import Any, Optional
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
+TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 
 # ── Rating Criteria ────────────────────────────────────────────
 
@@ -126,856 +128,607 @@ def tier_label(tier: int) -> str:
     return labels.get(tier, "TIER 4")
 
 
+def _display_caps(text: Any) -> str:
+    """Format display text for the Wax Bench hero.
+
+    Existing hyphens become non-breaking (the name breaks where WE say);
+    known Nordic compound suffixes get a soft hyphen so very long single
+    words (BIRKEBEINERRENNET) break with a real hyphen, per guidelines §3.
+    """
+    out = esc(text).replace("-", "&#8209;")
+    words = out.split(" ")
+    fixed = []
+    for w in words:
+        if len(w) > 14:
+            for suffix in ("rennet", "loppet", "marsjen", "maraton", "marathon", "rittet"):
+                idx = w.lower().rfind(suffix)
+                if idx > 3:
+                    w = w[:idx] + "&shy;" + w[idx:]
+                    break
+        fixed.append(w)
+    return " ".join(fixed)
+
+
+def _hero_name_class(name: str) -> str:
+    longest = max((len(w) for w in str(name).split()), default=0)
+    return "gl-hero-name gl-hero-name--long" if longest > 14 else "gl-hero-name"
+
+
+def _series_label(race: dict) -> str:
+    series = race.get("series_membership", [])
+    if not series:
+        return "Independent"
+    return SERIES_LABELS.get(series[0], str(series[0]).replace("_", " ").title())
+
+
+def parse_temperature_range(raw: Any) -> Optional[tuple[float, float]]:
+    """Parse climate temperature strings like '-15 to 0'."""
+    if raw is None:
+        return None
+    nums = re.findall(r"[-+]?\d+(?:\.\d+)?", str(raw))
+    if len(nums) < 2:
+        return None
+    try:
+        a, b = float(nums[0]), float(nums[1])
+    except ValueError:
+        return None
+    return (min(a, b), max(a, b))
+
+
+WAX_SEGMENTS = [
+    ("green", "GREEN · -15° AND BELOW", float("-inf"), -15.0),
+    ("blue", "BLUE · -15° TO -8°", -15.0, -8.0),
+    ("violet", "VIOLET · -8° TO -2°", -8.0, -2.0),
+    ("red", "RED · -2° AND ABOVE", -2.0, float("inf")),
+]
+
+
+def _ranges_overlap(low: float, high: float, seg_low: float, seg_high: float) -> bool:
+    return high >= seg_low and low <= seg_high
+
+
 # ── CSS ────────────────────────────────────────────────────────
+
+def load_tokens_css() -> str:
+    """Read the shared Wax Bench token file for static embedding."""
+    return TOKENS_CSS.read_text(encoding="utf-8").strip()
+
 
 def build_css() -> str:
     """Build the complete CSS for race pages."""
-    return """
-:root {
-  /* Primary */
-  --gl-nordic-night: #1a2332;
-  --gl-fjord-blue: #2b4c7e;
-  --gl-deep-powder: #354f6e;
-  --gl-slate-steel: #4a5568;
+    tokens = load_tokens_css()
+    return f"""
+{tokens}
 
-  /* Accents */
-  --gl-aurora-green: #1b7260;
-  --gl-aurora-violet: #7b5ea7;
-  --gl-wax-orange: #b34a1a;
-  --gl-glacier-teal: #357a88;
-
-  /* Neutrals & Backgrounds */
-  --gl-birch-bark: #d4cdc4;
-  --gl-silver-mist: #9ca8b8;
-  --gl-frost-white: #e8edf2;
-  --gl-ice-paper: #f0f3f7;
-
-  /* Tier Colors */
-  --gl-tier-1: #1a2332;
-  --gl-tier-2: #2b4c7e;
-  --gl-tier-3: #4a5568;
-  --gl-tier-4: #5a6d7e;
-
-  /* Typography */
-  --gl-font-data: 'Sometype Mono', monospace;
-  --gl-font-editorial: 'Source Serif 4', serif;
-
-  /* Borders (neo-brutalist) */
-  --gl-border-width: 2px;
-  --gl-border-heavy: 3px;
-  --gl-border-color: var(--gl-nordic-night);
-}
-
-*, *::before, *::after {
+*, *::before, *::after {{
   box-sizing: border-box;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
+}}
 
-body {
+html {{
+  scroll-behavior: smooth;
+}}
+
+body {{
   margin: 0;
-  padding: 0;
-  background: var(--gl-ice-paper);
-  color: var(--gl-nordic-night);
+  background: var(--gl-paper);
+  color: var(--gl-carbon);
   font-family: var(--gl-font-editorial);
-  line-height: 1.6;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
-}
+}}
 
-.gl-page {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
+.gl-page {{
+  background: var(--gl-paper);
   padding-bottom: 80px;
-}
+}}
 
-/* ── [01] Hero ───────────────────────────────────── */
+.gl-wrap {{
+  max-width: var(--gl-measure);
+  margin: 0 auto;
+  padding: 0 var(--gl-space-5);
+}}
 
-.gl-hero {
-  background: var(--gl-nordic-night);
-  color: var(--gl-ice-paper);
-  padding: 48px 32px 40px;
-  border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
-}
-
-.gl-hero-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.gl-hero-name {
-  font-family: var(--gl-font-editorial);
-  font-size: 2.2rem;
-  font-weight: 700;
-  line-height: 1.15;
-  margin: 0;
-}
-
-.gl-hero-tier {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 4px 12px;
-  border: var(--gl-border-width) solid var(--gl-frost-white);
-  white-space: nowrap;
-  letter-spacing: 0.08em;
-}
-
-.gl-hero-tier.t1 { background: var(--gl-tier-1); border-color: var(--gl-frost-white); }
-.gl-hero-tier.t2 { background: var(--gl-tier-2); border-color: var(--gl-frost-white); }
-.gl-hero-tier.t3 { background: var(--gl-tier-3); border-color: var(--gl-frost-white); }
-.gl-hero-tier.t4 { background: var(--gl-tier-4); border-color: var(--gl-frost-white); }
-
-.gl-hero-tagline {
-  font-family: var(--gl-font-editorial);
-  font-size: 1.05rem;
+.gl-display {{
+  font-family: var(--gl-font-display);
+  font-weight: 900;
   font-style: italic;
-  color: var(--gl-silver-mist);
-  margin: 16px 0 0;
-  line-height: 1.5;
-}
-
-.gl-hero-score {
-  font-family: var(--gl-font-data);
-  font-size: 0.85rem;
-  color: var(--gl-frost-white);
-  margin-top: 20px;
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-
-.gl-hero-score-number {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.gl-hero-vitals {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 24px;
-  padding-top: 20px;
-  border-top: 1px solid var(--gl-deep-powder);
-}
-
-.gl-hero-vital {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-}
-
-.gl-hero-vital-label {
-  color: var(--gl-silver-mist);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  display: block;
-  margin-bottom: 2px;
-}
+  letter-spacing: 0;
+  line-height: .96;
+}}
 
-.gl-hero-vital-value {
-  color: var(--gl-frost-white);
-  font-weight: 700;
-  font-size: 0.85rem;
-}
-
-/* ── Section Base ────────────────────────────────── */
-
-.gl-section {
-  padding: 36px 0;
-  border-bottom: 1px solid var(--gl-birch-bark);
-}
-
-.gl-section:last-child {
-  border-bottom: none;
-}
-
-.gl-section-label {
+.gl-mono {{
   font-family: var(--gl-font-data);
-  font-size: 0.7rem;
   font-weight: 700;
+  letter-spacing: .16em;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--gl-slate-steel);
-  margin-bottom: 6px;
-}
+}}
 
-.gl-section-title {
-  font-family: var(--gl-font-editorial);
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--gl-nordic-night);
-  margin: 0 0 20px;
-  line-height: 1.25;
-}
+a {{ color: inherit; }}
 
-.gl-section-prose {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.95rem;
-  color: var(--gl-nordic-night);
-  line-height: 1.7;
-  margin-bottom: 16px;
-}
-
-/* ── [02] At a Glance ────────────────────────────── */
-
-.gl-vitals-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 0;
-  border: var(--gl-border-width) solid var(--gl-border-color);
-}
-
-.gl-vital-cell {
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--gl-birch-bark);
-  border-right: 1px solid var(--gl-birch-bark);
-  background: var(--gl-frost-white);
-}
-
-.gl-vital-label {
-  font-family: var(--gl-font-data);
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--gl-slate-steel);
-  margin-bottom: 4px;
-}
-
-.gl-vital-value {
-  font-family: var(--gl-font-data);
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--gl-nordic-night);
-}
-
-/* ── [03] Course ─────────────────────────────────── */
-
-.gl-course-meta {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 20px;
-}
-
-.gl-course-meta-item {
-  padding: 12px 16px;
-  background: var(--gl-frost-white);
-  border: var(--gl-border-width) solid var(--gl-border-color);
-}
-
-.gl-course-meta-label {
-  font-family: var(--gl-font-data);
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--gl-slate-steel);
-}
-
-.gl-course-meta-value {
-  font-family: var(--gl-font-data);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--gl-nordic-night);
-  margin-top: 2px;
-}
-
-.gl-feature-list {
-  list-style: none;
-  padding: 0;
-  margin: 16px 0 0;
-}
-
-.gl-feature-list li {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.9rem;
-  color: var(--gl-nordic-night);
-  padding: 8px 0 8px 20px;
-  position: relative;
-  border-bottom: 1px solid var(--gl-frost-white);
-}
-
-.gl-feature-list li::before {
-  content: "\\2014";
-  position: absolute;
-  left: 0;
-  color: var(--gl-fjord-blue);
-  font-weight: 700;
-}
-
-/* ── [04] Climate ────────────────────────────────── */
-
-.gl-climate-temp {
-  display: inline-block;
-  font-family: var(--gl-font-data);
-  font-size: 0.85rem;
-  font-weight: 700;
-  padding: 6px 14px;
-  background: var(--gl-frost-white);
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  color: var(--gl-fjord-blue);
-  margin-bottom: 16px;
-}
-
-.gl-challenge-list {
-  list-style: none;
-  padding: 0;
-  margin: 16px 0 0;
-}
-
-.gl-challenge-list li {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.9rem;
-  color: var(--gl-nordic-night);
-  padding: 8px 0 8px 24px;
-  position: relative;
-  border-bottom: 1px solid var(--gl-frost-white);
-}
-
-.gl-challenge-list li::before {
-  content: "\\2744";
-  position: absolute;
-  left: 0;
-  color: var(--gl-glacier-teal);
-  font-size: 0.85rem;
-}
-
-/* ── [05] Rating Breakdown ───────────────────────── */
-
-.gl-rating-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.gl-rating-row {
-  display: grid;
-  grid-template-columns: 130px 1fr 36px;
-  align-items: center;
-  gap: 10px;
-}
-
-.gl-rating-label {
-  font-family: var(--gl-font-data);
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--gl-slate-steel);
-  text-align: right;
-}
-
-.gl-rating-track {
-  height: 20px;
-  background: var(--gl-frost-white);
-  border: 1px solid var(--gl-birch-bark);
-  position: relative;
-}
-
-.gl-rating-fill {
-  height: 100%;
-  background: var(--gl-fjord-blue);
-  transition: width 0.3s ease;
-}
-
-.gl-rating-fill.score-5 { background: var(--gl-nordic-night); }
-.gl-rating-fill.score-4 { background: var(--gl-fjord-blue); }
-.gl-rating-fill.score-3 { background: var(--gl-deep-powder); }
-.gl-rating-fill.score-2 { background: var(--gl-slate-steel); }
-.gl-rating-fill.score-1 { background: var(--gl-silver-mist); }
-
-.gl-rating-value {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--gl-nordic-night);
-  text-align: center;
-}
-
-.gl-score-note {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.85rem;
-  font-style: italic;
-  color: var(--gl-slate-steel);
-  margin-top: 20px;
-  padding: 16px;
-  background: var(--gl-frost-white);
-  border-left: none;
-  box-shadow: inset 3px 0 0 var(--gl-fjord-blue) !important;
-}
-
-/* ── [06] History ────────────────────────────────── */
-
-.gl-facts-list {
-  list-style: none;
-  padding: 0;
-  margin: 16px 0 0;
-}
-
-.gl-facts-list li {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.9rem;
-  color: var(--gl-nordic-night);
-  padding: 10px 0 10px 20px;
-  position: relative;
-  border-bottom: 1px solid var(--gl-frost-white);
-  line-height: 1.5;
-}
-
-.gl-facts-list li::before {
-  content: "\\25A0";
-  position: absolute;
-  left: 0;
-  color: var(--gl-wax-orange);
-  font-size: 0.6rem;
-  top: 14px;
-}
-
-/* ── [07] Series Membership ──────────────────────── */
-
-.gl-series-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.gl-series-badge {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 8px 16px;
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  background: var(--gl-frost-white);
-  color: var(--gl-nordic-night);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.gl-series-badge.worldloppet {
-  border-color: var(--gl-aurora-green);
-  color: var(--gl-aurora-green);
-}
-
-.gl-series-badge.ski-classics {
-  border-color: var(--gl-aurora-violet);
-  color: var(--gl-aurora-violet);
-}
-
-.gl-series-badge.euroloppet {
-  border-color: var(--gl-fjord-blue);
-  color: var(--gl-fjord-blue);
-}
-
-/* ── [08] YouTube Placeholder ────────────────────── */
-
-.gl-placeholder {
-  font-family: var(--gl-font-data);
-  font-size: 0.8rem;
-  color: var(--gl-silver-mist);
-  padding: 24px;
-  text-align: center;
-  background: var(--gl-frost-white);
-  border: var(--gl-border-width) solid var(--gl-birch-bark);
-}
-
-/* ── Footer ──────────────────────────────────────── */
-
-.gl-footer {
-  padding: 32px 0;
-  text-align: center;
-  border-top: var(--gl-border-heavy) solid var(--gl-border-color);
-  margin-top: 24px;
-}
-
-.gl-footer-back {
-  font-family: var(--gl-font-data);
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--gl-fjord-blue);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.gl-footer-back:hover {
-  color: var(--gl-nordic-night);
-}
-
-.gl-footer-brand {
-  font-family: var(--gl-font-data);
-  font-size: 0.7rem;
-  color: var(--gl-silver-mist);
-  margin-top: 12px;
-  letter-spacing: 0.04em;
-}
-
-/* ── Discipline Badge ────────────────────────────── */
-
-.gl-discipline {
-  font-family: var(--gl-font-data);
-  font-size: 0.65rem;
-  font-weight: 700;
-  padding: 2px 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  display: inline-block;
-}
-
-.gl-discipline.classic { background: var(--gl-nordic-night); color: var(--gl-ice-paper); }
-.gl-discipline.skate { background: var(--gl-fjord-blue); color: var(--gl-ice-paper); }
-.gl-discipline.both { background: var(--gl-glacier-teal); color: var(--gl-ice-paper); }
-
-/* ── Skip Link (a11y) ────────────────────────────── */
-
-.gl-skip-link {
+.gl-skip-link {{
   position: absolute;
   left: -9999px;
   top: 0;
-  background: var(--gl-wax-orange);
-  color: var(--gl-ice-paper);
-  padding: 8px 16px;
-  font-family: var(--gl-font-data);
-  font-size: 0.8rem;
   z-index: 9999;
-  text-decoration: none;
-}
-
-.gl-skip-link:focus {
-  left: 0;
-}
-
-/* ── Responsive ──────────────────────────────────── */
-
-@media (max-width: 640px) {
-  .gl-hero { padding: 32px 20px 28px; }
-  .gl-hero-name { font-size: 1.6rem; }
-  .gl-hero-vitals { flex-direction: column; gap: 12px; }
-  .gl-vitals-grid { grid-template-columns: 1fr 1fr; }
-  .gl-course-meta { grid-template-columns: 1fr; }
-  .gl-rating-row { grid-template-columns: 90px 1fr 30px; }
-  .gl-rating-label { font-size: 0.6rem; }
-  .gl-section-title { font-size: 1.2rem; }
-}
-
-@media (max-width: 400px) {
-  .gl-vitals-grid { grid-template-columns: 1fr; }
-  .gl-hero-top { flex-direction: column; }
-}
-
-/* ── [09] Training ─────────────────────────────────── */
-
-.gl-training-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin: 24px 0;
-}
-.gl-training-card {
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  padding: 20px;
-  background: white;
-}
-.gl-training-card-title {
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
+  padding: var(--gl-space-3) var(--gl-space-4);
   font-family: var(--gl-font-data);
-  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  text-decoration: none;
+}}
+
+.gl-skip-link:focus {{ left: 0; }}
+
+.gl-nav {{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+  border-bottom: 3px solid var(--gl-carbon);
+}}
+
+.gl-nav-inner {{
+  max-width: var(--gl-measure);
+  min-height: 56px;
+  margin: 0 auto;
+  padding: 0 var(--gl-space-5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gl-space-5);
+}}
+
+.gl-nav-logo,
+.gl-footer-logo {{
+  font-family: var(--gl-font-display);
+  font-weight: 900;
+  font-style: italic;
   text-transform: uppercase;
-  color: var(--gl-aurora-green);
-  margin: 0 0 8px;
-}
-.gl-training-card-desc {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.9rem;
-  color: var(--gl-slate-steel);
+  text-decoration: none;
+  letter-spacing: 0;
+  white-space: nowrap;
+}}
+
+.gl-nav-logo em {{ color: var(--gl-swix-red); font-style: italic; }}
+.gl-footer-logo em {{ color: var(--gl-klister); font-style: italic; }}
+
+.gl-nav-links {{
+  display: flex;
+  align-items: center;
+  gap: var(--gl-space-2);
+  list-style: none;
   margin: 0;
-  line-height: 1.5;
-}
-.gl-training-cta {
-  display: inline-block;
+  padding: 0;
+}}
+
+.gl-nav-item > a,
+.gl-nav-dropdown a {{
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--gl-space-4);
   font-family: var(--gl-font-data);
-  background: var(--gl-aurora-green);
-  color: var(--gl-frost-white);
-  padding: 14px 28px;
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  text-decoration: none;
-  font-size: 0.85rem;
+  font-size: .68rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: .18em;
   text-transform: uppercase;
-  margin-top: 20px;
-}
-.gl-training-cta:hover {
-  background: var(--gl-glacier-teal);
-}
-@media (max-width: 640px) {
-  .gl-training-grid { grid-template-columns: 1fr; }
-}
+  text-decoration: none;
+  color: var(--gl-white);
+}}
 
-/* ── Sticky CTA Bar ────────────────────────────────── */
+.gl-nav-item > a:hover,
+.gl-nav-item > a.active,
+.gl-nav-dropdown a:hover {{
+  color: var(--gl-klister);
+}}
 
-.gl-sticky-cta {
+.gl-nav-item {{ position: relative; }}
+
+.gl-nav-dropdown {{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background: var(--gl-carbon);
+  border: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-2) 0;
+}}
+
+.gl-nav-item:hover .gl-nav-dropdown {{ display: block; }}
+
+.gl-nav-hamburger {{
+  display: none;
+  min-width: 44px;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: var(--gl-white);
+  font-size: 1.45rem;
+  cursor: pointer;
+}}
+
+.gl-hero {{
+  position: relative;
+  overflow: hidden;
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+}}
+
+.gl-hero::after {{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -72px;
+  bottom: 0;
+  width: 340px;
+  background: repeating-linear-gradient(115deg, var(--gl-carbon) 0 26px, var(--gl-muted) 26px 27px, var(--gl-carbon) 27px 52px);
+  opacity: .35;
+}}
+
+.gl-hero-inner {{
+  position: relative;
+  z-index: 1;
+  max-width: var(--gl-measure);
+  margin: 0 auto;
+  padding: 52px var(--gl-space-5) 42px;
+}}
+
+.gl-hero-kicker {{
+  margin: 0 0 var(--gl-space-3);
+  color: var(--gl-klister);
+  font-family: var(--gl-font-data);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+}}
+
+.gl-hero-name {{
+  max-width: 14ch;
+  margin: 0 180px var(--gl-space-4) 0;
+  font-family: var(--gl-font-display);
+  font-size: clamp(3rem, 8vw, 5.9rem);
+  font-weight: 900;
+  font-style: italic;
+  line-height: .92;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  overflow-wrap: normal;
+  hyphens: manual;
+}}
+.gl-hero-name--long {{ font-size: clamp(2.4rem, 6vw, 4.4rem); }}
+
+.gl-hero-tagline {{
+  max-width: 54ch;
+  margin: 0 180px var(--gl-space-5) 0;
+  color: var(--gl-hairline);
+  font-family: var(--gl-font-editorial);
+  font-size: 1.08rem;
+  font-style: italic;
+  line-height: 1.55;
+}}
+
+.gl-hero-chips {{ display: flex; flex-wrap: wrap; gap: var(--gl-space-2); }}
+
+.gl-chip {{
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  background: var(--gl-white);
+  color: var(--gl-carbon);
+  padding: var(--gl-space-2) var(--gl-space-3);
+  font-family: var(--gl-font-data);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}}
+
+.gl-scorebox {{
+  position: absolute;
+  right: var(--gl-space-5);
+  top: 48px;
+  width: 136px;
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
+  padding: var(--gl-space-4) var(--gl-space-3) var(--gl-space-3);
+  text-align: center;
+  transform: rotate(2deg);
+}}
+
+.gl-scorebox-number {{
+  display: block;
+  font-family: var(--gl-font-display);
+  font-size: 3.3rem;
+  font-weight: 900;
+  font-style: italic;
+  line-height: .9;
+}}
+
+.gl-scorebox-label {{
+  display: block;
+  margin-top: var(--gl-space-2);
+  font-family: var(--gl-font-data);
+  font-size: .56rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}}
+
+.gl-waxbar {{ display: grid; grid-template-columns: repeat(4, 1fr); }}
+.gl-wax {{
+  position: relative;
+  min-height: 44px;
+  padding: var(--gl-space-3) var(--gl-space-4) calc(var(--gl-space-3) + 14px);
+  color: var(--gl-white);
+  font-family: var(--gl-font-data);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}}
+.gl-wax-green {{ background: var(--gl-wax-green); }}
+.gl-wax-blue {{ background: var(--gl-wax-blue); }}
+.gl-wax-violet {{ background: var(--gl-wax-violet); }}
+.gl-wax-red {{ background: var(--gl-swix-red); }}
+.gl-wax {{ opacity: .45; }}
+.gl-wax.active {{ opacity: 1; box-shadow: none; outline: 3px solid var(--gl-white); outline-offset: -3px; }}
+.gl-waxbar-caption {{
+  font-family: var(--gl-font-data);
+  font-size: .58rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--gl-carbon);
+  padding: var(--gl-space-2) var(--gl-space-4);
+  background: var(--gl-paper);
+}}
+
+.gl-section {{
+  border-bottom: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-7) 0;
+}}
+
+.gl-section:last-of-type {{ border-bottom: 0; }}
+
+.gl-section-header {{
+  display: flex;
+  align-items: baseline;
+  gap: var(--gl-space-3);
+  margin: 0 0 var(--gl-space-5);
+  border-bottom: 4px solid var(--gl-carbon);
+  padding-bottom: var(--gl-space-3);
+}}
+
+.gl-section-num {{
+  color: var(--gl-swix-red);
+  font-family: var(--gl-font-display);
+  font-size: 1.15rem;
+  font-weight: 900;
+  font-style: italic;
+}}
+
+.gl-section-title {{
+  margin: 0;
+  font-family: var(--gl-font-display);
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}}
+
+.gl-section-prose,
+.gl-feature-list li,
+.gl-challenge-list li,
+.gl-facts-list li {{
+  max-width: var(--gl-prose);
+  font-family: var(--gl-font-editorial);
+  font-size: 1rem;
+  line-height: 1.7;
+}}
+
+.gl-section-prose {{ margin: 0 0 var(--gl-space-4); }}
+
+.gl-vitals-grid,
+.gl-course-meta {{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  border-top: 3px solid var(--gl-carbon);
+}}
+
+.gl-vital-cell,
+.gl-course-meta-item {{
+  background: var(--gl-white);
+  border-right: 1px solid var(--gl-hairline);
+  border-bottom: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-4);
+}}
+
+.gl-vital-label,
+.gl-course-meta-label,
+.gl-rating-label {{
+  margin-bottom: var(--gl-space-1);
+  color: var(--gl-muted);
+  font-family: var(--gl-font-data);
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}}
+
+.gl-vital-value,
+.gl-course-meta-value {{
+  font-family: var(--gl-font-data);
+  font-size: .86rem;
+  font-weight: 700;
+  color: var(--gl-carbon);
+}}
+
+.gl-feature-list,
+.gl-challenge-list,
+.gl-facts-list {{
+  list-style: none;
+  padding: 0;
+  margin: var(--gl-space-5) 0 0;
+}}
+
+.gl-feature-list li,
+.gl-challenge-list li,
+.gl-facts-list li {{
+  border-bottom: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-3) 0;
+}}
+
+.gl-climate-temp {{
+  display: inline-block;
+  margin-bottom: var(--gl-space-4);
+  background: var(--gl-white);
+  border: 3px solid var(--gl-carbon);
+  padding: var(--gl-space-2) var(--gl-space-4);
+  font-family: var(--gl-font-data);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}}
+
+.gl-rating-bars {{ display: grid; gap: var(--gl-space-2); max-width: 760px; }}
+.gl-rating-row {{ display: grid; grid-template-columns: 150px 1fr 36px; align-items: center; gap: var(--gl-space-3); }}
+.gl-rating-label {{ text-align: right; margin: 0; }}
+.gl-rating-track {{ height: 20px; background: var(--gl-white); border: 1px solid var(--gl-hairline); }}
+.gl-rating-fill {{ height: 100%; background: var(--gl-carbon); }}
+.gl-rating-value {{ font-family: var(--gl-font-data); font-weight: 700; text-align: center; }}
+.gl-score-note {{
+  max-width: var(--gl-prose);
+  margin-top: var(--gl-space-5);
+  border-left: 6px solid var(--gl-swix-red);
+  padding: var(--gl-space-3) 0 var(--gl-space-3) var(--gl-space-5);
+  font-style: italic;
+}}
+
+.gl-series-badges {{ display: flex; flex-wrap: wrap; gap: var(--gl-space-2); }}
+.gl-series-badge,
+.gl-placeholder {{
+  background: var(--gl-white);
+  border: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-3) var(--gl-space-4);
+  font-family: var(--gl-font-data);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}}
+
+.gl-ladder {{ background: var(--gl-carbon); color: var(--gl-white); }}
+.gl-ladder-inner {{ max-width: var(--gl-measure); margin: 0 auto; padding: 52px var(--gl-space-5) 56px; }}
+.gl-ladder h2 {{
+  margin: 0 0 var(--gl-space-2);
+  font-family: var(--gl-font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: .95;
+  text-transform: uppercase;
+}}
+.gl-ladder-lead {{ margin: 0 0 var(--gl-space-6); color: var(--gl-hairline); font-style: italic; }}
+.gl-rungs {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gl-space-4); }}
+.gl-rung {{ background: var(--gl-carbon); border: 1px solid var(--gl-muted); border-top: 6px solid var(--gl-swix-red); padding: var(--gl-space-5); }}
+.gl-rung-kicker,
+.gl-rung-price {{ color: var(--gl-klister); font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }}
+.gl-rung h3 {{ margin: var(--gl-space-2) 0; font-family: var(--gl-font-display); font-size: 1.05rem; font-weight: 900; font-style: italic; text-transform: uppercase; letter-spacing: 0; }}
+.gl-rung p {{ margin: 0 0 var(--gl-space-4); color: var(--gl-hairline); font-size: .9rem; line-height: 1.55; }}
+.gl-rung-btn {{
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: var(--gl-space-3);
+  border: 2px solid var(--gl-white);
+  color: var(--gl-white);
+  padding: 0 var(--gl-space-4);
+  font-family: var(--gl-font-data);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-decoration: none;
+  text-transform: uppercase;
+}}
+.gl-rung-btn.apply {{ border-color: var(--gl-swix-red); background: var(--gl-swix-red); }}
+
+.gl-footer {{ background: var(--gl-swix-red); color: var(--gl-white); }}
+.gl-footer-inner {{ max-width: var(--gl-measure); min-height: 72px; margin: 0 auto; padding: var(--gl-space-4) var(--gl-space-5); display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-5); }}
+.gl-footer-links {{ display: flex; gap: var(--gl-space-4); flex-wrap: wrap; }}
+.gl-footer-links a,
+.gl-footer-motto {{ font-family: var(--gl-font-data); font-size: .64rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; text-decoration: none; }}
+.gl-footer-motto {{ color: var(--gl-klister); }}
+
+.gl-sticky-cta {{
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 200;
-  background: var(--gl-nordic-night);
-  border-top: var(--gl-border-heavy) solid var(--gl-aurora-green);
+  background: var(--gl-carbon);
+  border-top: 4px solid var(--gl-swix-red);
   transform: translateY(100%);
-  transition: transform 0.3s ease;
-  padding: 12px 20px;
-}
-.gl-sticky-cta.visible {
-  transform: translateY(0);
-}
-.gl-sticky-cta-inner {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-.gl-sticky-cta-name {
-  font-family: var(--gl-font-editorial);
-  color: var(--gl-frost-white);
-  font-weight: 700;
-  font-size: 0.95rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  flex: 1;
-  min-width: 0;
-}
-.gl-sticky-cta-btn {
-  font-family: var(--gl-font-data);
-  background: var(--gl-aurora-green);
-  color: var(--gl-frost-white);
-  padding: 10px 20px;
-  border: var(--gl-border-width) solid var(--gl-frost-white);
-  text-decoration: none;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-.gl-sticky-cta-btn:hover {
-  background: var(--gl-glacier-teal);
-}
-.gl-sticky-cta-dismiss {
-  background: none;
-  border: none;
-  color: var(--gl-silver-mist);
-  font-size: 1.4rem;
-  cursor: pointer;
-  padding: 12px 16px;
-  line-height: 1;
-  min-width: 44px;
-  min-height: 44px;
-}
-@media (max-width: 640px) {
-  .gl-sticky-cta-name { display: none; }
-  .gl-sticky-cta-inner { justify-content: center; }
-}
+  padding: var(--gl-space-3) var(--gl-space-5);
+}}
+.gl-sticky-cta.visible {{ transform: translateY(0); }}
+.gl-sticky-cta-inner {{ max-width: var(--gl-measure); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-4); }}
+.gl-sticky-cta-name {{ color: var(--gl-white); font-style: italic; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+.gl-sticky-cta-actions {{ display: flex; align-items: center; gap: var(--gl-space-3); }}
+.gl-sticky-cta-btn {{ min-height: 44px; display: inline-flex; align-items: center; background: var(--gl-swix-red); color: var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-decoration: none; text-transform: uppercase; white-space: nowrap; }}
+.gl-sticky-cta-dismiss {{ min-width: 44px; min-height: 44px; border: 0; background: transparent; color: var(--gl-white); font-size: 1.4rem; cursor: pointer; }}
 
-/* ── Focus Visible (a11y) ────────────────────────── */
-
-a:focus-visible, button:focus-visible {
-  outline: 3px solid var(--gl-wax-orange);
-  outline-offset: 2px;
-}
-
-/* ── Nav Header ──────────────────────────────────── */
-
-.gl-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: var(--gl-nordic-night);
-  border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
-  padding: 0 20px;
-}
-.gl-nav-inner {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 52px;
-}
-.gl-nav-logo {
-  font-family: var(--gl-font-data);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--gl-frost-white);
-  text-decoration: none;
-  letter-spacing: 0.1em;
-}
-.gl-nav-logo:hover {
-  color: var(--gl-birch-bark);
-}
-.gl-nav-links {
-  display: flex;
-  align-items: center;
-  gap: 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.gl-nav-item {
-  position: relative;
-}
-.gl-nav-item > a {
-  font-family: var(--gl-font-data);
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: var(--gl-silver-mist);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 16px 14px;
-  display: block;
-}
-.gl-nav-item > a:hover {
-  color: var(--gl-frost-white);
-}
-.gl-nav-item > a.active {
-  color: var(--gl-frost-white);
-}
-.gl-nav-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: var(--gl-nordic-night);
-  border: var(--gl-border-width) solid var(--gl-fjord-blue);
-  min-width: 200px;
-  z-index: 1001;
-  padding: 8px 0;
-}
-.gl-nav-item:hover .gl-nav-dropdown {
-  display: block;
-}
-.gl-nav-dropdown a {
-  font-family: var(--gl-font-data);
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: var(--gl-silver-mist);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 10px 16px;
-  display: block;
-}
-.gl-nav-dropdown a:hover {
-  color: var(--gl-frost-white);
-  background: var(--gl-fjord-blue);
-}
-.gl-nav-hamburger {
-  display: none;
-  background: none;
-  border: none;
-  color: var(--gl-frost-white);
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 8px;
-  min-width: 44px;
-  min-height: 44px;
-}
-@media (max-width: 640px) {
-  .gl-nav-links {
-    display: none;
-    position: absolute;
-    top: 52px;
-    left: 0;
-    right: 0;
-    background: var(--gl-nordic-night);
-    flex-direction: column;
-    padding: 16px 20px;
-    gap: 0;
-    border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
-  }
-  .gl-nav-links.open {
-    display: flex;
-  }
-  .gl-nav-hamburger {
-    display: block;
-  }
-  .gl-nav-dropdown {
-    position: static;
-    border: none;
-    padding: 0 0 0 16px;
-    display: block;
-  }
-  .gl-nav-item > a {
-    padding: 12px 0;
-  }
-}
-
-/* ── Cookie Consent ──────────────────────────────── */
-
-.gl-cookie-consent {
+.gl-cookie-consent {{
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 9999;
-  background: var(--gl-nordic-night);
-  border-top: 3px solid var(--gl-wax-orange);
-  padding: 20px;
   display: none;
-}
-.gl-cookie-consent.visible {
-  display: block;
-}
-.gl-cookie-inner {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.gl-cookie-text {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.85rem;
-  color: var(--gl-frost-white);
-  flex: 1;
-  min-width: 200px;
-}
-.gl-cookie-buttons {
-  display: flex;
-  gap: 10px;
-}
-.gl-cookie-btn {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 10px 20px;
-  border: var(--gl-border-width) solid var(--gl-frost-white);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  min-width: 44px;
-  min-height: 44px;
-}
-.gl-cookie-btn.accept {
-  background: var(--gl-aurora-green);
-  color: var(--gl-frost-white);
-}
-.gl-cookie-btn.decline {
-  background: transparent;
-  color: var(--gl-frost-white);
-}
+  background: var(--gl-carbon);
+  border-top: 4px solid var(--gl-swix-red);
+  padding: var(--gl-space-5);
+}}
+.gl-cookie-consent.visible {{ display: block; }}
+.gl-cookie-inner {{ max-width: var(--gl-measure); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-4); flex-wrap: wrap; }}
+.gl-cookie-text {{ margin: 0; color: var(--gl-white); max-width: 62ch; }}
+.gl-cookie-buttons {{ display: flex; gap: var(--gl-space-2); }}
+.gl-cookie-btn {{ min-width: 44px; min-height: 44px; border: 2px solid var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }}
+.gl-cookie-btn.accept {{ background: var(--gl-swix-red); color: var(--gl-white); border-color: var(--gl-swix-red); }}
+.gl-cookie-btn.decline {{ background: transparent; color: var(--gl-white); }}
+
+a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); outline-offset: 2px; }}
+
+@media (max-width: 820px) {{
+  .gl-hero-name,
+  .gl-hero-tagline {{ margin-right: 0; }}
+  .gl-scorebox {{ position: static; margin: var(--gl-space-5) 0 0; }}
+  .gl-waxbar,
+  .gl-rungs {{ grid-template-columns: 1fr 1fr; }}
+}}
+
+@media (max-width: 640px) {{
+  .gl-nav-links {{ display: none; position: absolute; top: 56px; left: 0; right: 0; background: var(--gl-carbon); flex-direction: column; align-items: stretch; padding: var(--gl-space-3) var(--gl-space-5); border-bottom: 3px solid var(--gl-carbon); }}
+  .gl-nav-links.open {{ display: flex; }}
+  .gl-nav-hamburger {{ display: block; }}
+  .gl-nav-dropdown {{ position: static; display: block; border: 0; padding: 0 0 0 var(--gl-space-4); }}
+  .gl-nav-item > a {{ padding: 0; }}
+  .gl-hero-inner {{ padding-top: 40px; }}
+  .gl-waxbar,
+  .gl-rungs,
+  .gl-rating-row {{ grid-template-columns: 1fr; }}
+  .gl-rating-label {{ text-align: left; }}
+  .gl-sticky-cta-name {{ display: none; }}
+  .gl-footer-inner {{ align-items: flex-start; flex-direction: column; }}
+}}
 """
 
 
@@ -1032,30 +785,16 @@ def build_nav_header(active: str = "") -> str:
     return f"""
 <nav class="gl-nav">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo">XC SKI LABS</a>
+    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS">XC SKI <em>LABS</em></a>
     <button class="gl-nav-hamburger" aria-label="Toggle navigation" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')">&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
         <a href="/search/"{_active("races")}>Races</a>
-        <div class="gl-nav-dropdown">
-          <a href="/search/">All XC Ski Races</a>
-        </div>
+        <div class="gl-nav-dropdown"><a href="/search/">All races</a></div>
       </li>
-      <li class="gl-nav-item">
-        <a href="/training-plans/"{_active("products")}>Products</a>
-        <div class="gl-nav-dropdown">
-          <a href="/training-plans/">Training Plans</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/coaching/apply/"{_active("services")}>Services</a>
-        <div class="gl-nav-dropdown">
-          <a href="/coaching/apply/">Coaching</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/about/"{_active("about")}>About</a>
-      </li>
+      <li class="gl-nav-item"><a href="/training-plans/"{_active("plans")}>Plans</a></li>
+      <li class="gl-nav-item"><a href="/coaching/apply/"{_active("coaching")}>Coaching</a></li>
+      <li class="gl-nav-item"><a href="/about/"{_active("about")}>About</a></li>
     </ul>
   </div>
 </nav>
@@ -1063,56 +802,71 @@ def build_nav_header(active: str = "") -> str:
 
 
 def build_hero(race: dict) -> str:
-    """[01] Hero section."""
+    """Carbon race hero with scorebox and data chips."""
     v = race["vitals"]
     r = race["nordic_lab_rating"]
     tier = r["tier"]
     score = r["overall_score"]
     discipline = r.get("discipline", v.get("discipline", "classic"))
 
-    discipline_badge = (
-        f'<span class="gl-discipline {esc(discipline)}">'
-        f'{esc(DISCIPLINE_LABELS.get(discipline, discipline))}</span>'
-    )
-
-    vitals_items = []
+    chips = []
     if v.get("distance_km"):
-        vitals_items.append(("Distance", format_distance(v["distance_km"])))
-    if v.get("elevation_m"):
-        vitals_items.append(("Elevation", format_elevation(v["elevation_m"])))
+        chips.append(format_distance(v["distance_km"]).upper())
     if discipline:
-        vitals_items.append(("Technique", DISCIPLINE_LABELS.get(discipline, discipline)))
+        chips.append(DISCIPLINE_LABELS.get(discipline, discipline).upper())
     if v.get("date"):
-        vitals_items.append(("Date", v["date"]))
+        chips.append(str(v["date"]).upper())
+    if v.get("location_badge") or v.get("location"):
+        chips.append(str(v.get("location_badge", v.get("location"))).upper())
 
-    vitals_html = ""
-    for label, value in vitals_items:
-        vitals_html += (
-            f'<div class="gl-hero-vital">'
-            f'<span class="gl-hero-vital-label">{esc(label)}</span>'
-            f'<span class="gl-hero-vital-value">{esc(value)}</span>'
-            f'</div>'
-        )
+    chips_html = "".join(f'<span class="gl-chip">{esc(chip)}</span>' for chip in chips)
+    kicker = f'{tier_label(tier)} · {_series_label(race)} · {v.get("country", "")}'
 
     return f"""
-<section class="gl-hero">
-  <div class="gl-hero-top">
-    <div>
-      <h1 class="gl-hero-name">{esc(race.get("display_name", race["name"]))}</h1>
-      {discipline_badge}
+<section class="gl-hero" id="hero">
+  <div class="gl-hero-inner">
+    <p class="gl-hero-kicker">{esc(kicker)}</p>
+    <h1 class="{_hero_name_class(race.get("display_name", race["name"]))}">{_display_caps(race.get("display_name", race["name"]))}</h1>
+    <p class="gl-hero-tagline">{esc(race.get("tagline", ""))}</p>
+    <div class="gl-hero-chips">{chips_html}</div>
+    <div class="gl-scorebox" aria-label="Lab Score {score} out of 100">
+      <span class="gl-scorebox-number">{score}</span>
+      <span class="gl-scorebox-label">Lab Score</span>
     </div>
-    <span class="gl-hero-tier {tier_class(tier)}">{esc(tier_label(tier))}</span>
-  </div>
-  <p class="gl-hero-tagline">{esc(race.get("tagline", ""))}</p>
-  <div class="gl-hero-score">
-    <span class="gl-hero-score-number">{score}</span>
-    <span>/ 100</span>
-  </div>
-  <div class="gl-hero-vitals">
-    {vitals_html}
   </div>
 </section>
 """
+
+
+def build_wax_bar(race: dict) -> str:
+    """Temperature wax bar, omitted if the profile range cannot be parsed."""
+    parsed = parse_temperature_range(race.get("climate", {}).get("typical_temp_c"))
+    if parsed is None:
+        return ""
+    low, high = parsed
+    segments = []
+    active_count = 0
+    for key, label, seg_low, seg_high in WAX_SEGMENTS:
+        active = _ranges_overlap(low, high, seg_low, seg_high)
+        if active:
+            active_count += 1
+        classes = f"gl-wax gl-wax-{key}" + (" active" if active else "")
+        segments.append(f'<div class="{classes}">{esc(label)}</div>')
+    if active_count == 0:
+        return ""
+    # One caption for the whole range — a caret per segment reads as three alarms
+    caption = (
+        f'<div class="gl-waxbar-caption">&#9650; RACE DAY &middot; '
+        f'{esc(f"{low:g}")}&deg; TO {esc(f"{high:g}")}&deg;C TYPICAL</div>'
+    )
+    return (
+        '<div class="gl-waxbar" aria-label="Race day wax temperature range">'
+        + "".join(segments) + "</div>" + caption
+    )
+
+
+def build_section_header(num: str, title: str) -> str:
+    return f'<div class="gl-section-header"><span class="gl-section-num">{esc(num)}</span><h2 class="gl-section-title">{esc(title)}</h2></div>'
 
 
 def build_at_a_glance(race: dict) -> str:
@@ -1153,8 +907,7 @@ def build_at_a_glance(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="vitals">
-  <div class="gl-section-label">02 — At a Glance</div>
-  <h2 class="gl-section-title">Race Vitals</h2>
+  {build_section_header('01', 'Race vitals')}
   <div class="gl-vitals-grid">
     {cells_html}
   </div>
@@ -1201,8 +954,7 @@ def build_course(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="course">
-  <div class="gl-section-label">03 — Course</div>
-  <h2 class="gl-section-title">The Course</h2>
+  {build_section_header('02', 'Course overview')}
   <div class="gl-course-meta">{meta_html}</div>
   <p class="gl-section-prose">{esc(primary)}</p>
   {features_html}
@@ -1231,8 +983,7 @@ def build_climate(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="climate">
-  <div class="gl-section-label">04 — Climate</div>
-  <h2 class="gl-section-title">Weather &amp; Conditions</h2>
+  {build_section_header('03', 'Weather and conditions')}
   {temp_html}
   <p class="gl-section-prose">{esc(desc)}</p>
   {challenges_html}
@@ -1269,8 +1020,7 @@ def build_rating_breakdown(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="rating">
-  <div class="gl-section-label">05 — Rating Breakdown</div>
-  <h2 class="gl-section-title">14-Criteria Analysis</h2>
+  {build_section_header('04', '14-criteria analysis')}
   <div class="gl-rating-bars">
     {rows_html}
   </div>
@@ -1295,8 +1045,7 @@ def build_history(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="history">
-  <div class="gl-section-label">06 — History</div>
-  <h2 class="gl-section-title">History &amp; Heritage</h2>
+  {build_section_header('05', 'History and heritage')}
   <p class="gl-section-prose">{esc(summary)}</p>
   {facts_html}
 </section>
@@ -1321,8 +1070,7 @@ def build_series(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="series">
-  <div class="gl-section-label">07 — Series Membership</div>
-  <h2 class="gl-section-title">Race Series</h2>
+  {build_section_header('06', 'Race series')}
   <div class="gl-series-badges">
     {badges_html}
   </div>
@@ -1339,51 +1087,44 @@ def build_youtube_placeholder(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="videos">
-  <div class="gl-section-label">08 — Video</div>
-  <h2 class="gl-section-title">Race Videos</h2>
+  {build_section_header('07', 'Race videos')}
   <div class="gl-placeholder">VIDEO ENRICHMENT COMING SOON</div>
 </section>
 """
 
 
-def build_training_section(race: dict) -> str:
-    """[09] Train for This Race section."""
-    name = esc(race.get("display_name", race["name"]))
+def build_product_ladder(race: dict) -> str:
+    """Product ladder band for high-intent race pages."""
     slug = esc(race["slug"])
-    v = race["vitals"]
-    distance = v.get("distance_km")
-    elevation = v.get("elevation_m")
-    country = esc(v.get("country", "this region"))
+    rungs = [
+        ("Plans", "Training plans", "Structured blocks for classic ski-marathon preparation.", "FROM $60", "/training-plans/", "Browse", False, False),
+        ("Custom", "Custom plan", "Your race, your hours, your history. Built from the intake.", "$60-$249", f"/questionnaire/?race={slug}", "Start the intake", False, False),
+        ("Coaching", "1:1 coaching", "A person reads your training and adjusts the plan as life changes.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply", True, False),
+    ]
+    learn_path = DEFAULT_OUTPUT_DIR / "learn" / "index.html"
+    if learn_path.exists():
+        rungs.insert(2, ("Course", "XC ski course", "Self-paced lessons from first glide to race preparation.", "SELF-PACED", "/learn/", "See the course", False, True))
 
-    if distance is not None and elevation is not None:
-        course_desc = f"Build a periodized plan tailored to {name}&#39;s {distance}km course with {elevation}m of climbing."
-    elif distance is not None:
-        course_desc = f"Build a periodized plan tailored to {name}&#39;s {distance}km course."
-    elif elevation is not None:
-        course_desc = f"Build a periodized plan tailored to {name}&#39;s course with {elevation}m of climbing."
-    else:
-        course_desc = f"Build a periodized plan tailored to {name}&#39;s unique course demands."
+    cards = []
+    for kicker, title, desc, price, href, label, primary, nofollow in rungs:
+        rel = ' rel="nofollow"' if nofollow else ""
+        btn_class = "gl-rung-btn apply" if primary else "gl-rung-btn"
+        cards.append(f"""
+    <div class="gl-rung gl-training-card">
+      <span class="gl-rung-kicker">{esc(kicker)}</span>
+      <h3>{esc(title)}</h3>
+      <p>{esc(desc)}</p>
+      <span class="gl-rung-price">{esc(price)}</span><br>
+      <a class="{btn_class}" href="{href}"{rel}>{esc(label)}</a>
+    </div>""")
 
     return f"""
-<section class="gl-section" id="training">
-  <div class="gl-section-label">09 — Training</div>
-  <h2 class="gl-section-title">Train for {name}</h2>
-  <p class="gl-section-prose">{course_desc}</p>
-  <div class="gl-training-grid">
-    <div class="gl-training-card">
-      <div class="gl-training-card-title">Structured Workouts</div>
-      <p class="gl-training-card-desc">.zwo files for Zwift, TrainerRoad, or standalone</p>
-    </div>
-    <div class="gl-training-card">
-      <div class="gl-training-card-title">Periodized Plan</div>
-      <p class="gl-training-card-desc">Base &rarr; Build &rarr; Peak &rarr; Taper, timed to race day</p>
-    </div>
-    <div class="gl-training-card">
-      <div class="gl-training-card-title">Race-Specific Prep</div>
-      <p class="gl-training-card-desc">Climate, altitude, and terrain protocols for {country}</p>
-    </div>
+<section class="gl-ladder" id="training">
+  <div class="gl-ladder-inner">
+    <h2>Get race ready</h2>
+    <p class="gl-ladder-lead">Choose the amount of structure you want around the start line.</p>
+    <div class="gl-rungs">{''.join(cards)}</div>
   </div>
-  <a href="/questionnaire/?race={slug}" class="gl-training-cta">BUILD MY {name} PLAN</a>
 </section>
 """
 
@@ -1397,9 +1138,9 @@ def build_sticky_cta(race: dict) -> str:
 <div class="gl-sticky-cta" id="gl-sticky-cta">
   <div class="gl-sticky-cta-inner">
     <span class="gl-sticky-cta-name">{name}</span>
-    <div style="display:flex;align-items:center;gap:12px">
+    <div class="gl-sticky-cta-actions">
       <a href="/questionnaire/?race={slug}" class="gl-sticky-cta-btn" id="gl-sticky-cta-link">
-        <span id="gl-sticky-cta-text">BUILD MY PLAN &mdash; $15/WK</span>
+        <span id="gl-sticky-cta-text">Build my plan</span>
       </a>
       <button class="gl-sticky-cta-dismiss" onclick="document.getElementById('gl-sticky-cta').style.display='none';try{{sessionStorage.setItem('xl-cta-dismissed','1')}}catch(e){{}}" aria-label="Dismiss">&times;</button>
     </div>
@@ -1448,11 +1189,14 @@ def build_sticky_js() -> str:
 
 
 def build_footer(race: dict) -> str:
-    """Footer with back link and branding."""
+    """Red footer strip."""
     return """
 <footer class="gl-footer">
-  <a href="/search/" class="gl-footer-back">&larr; Back to Search</a> | <a href="/" class="gl-footer-back">Home</a>
-  <div class="gl-footer-brand">XC SKI LABS &mdash; Built for skiers who chase start lines.</div>
+  <div class="gl-footer-inner">
+    <span class="gl-footer-logo">XC SKI <em>LABS</em></span>
+    <span class="gl-footer-motto">BUILT FOR SKIERS WHO CHASE START LINES</span>
+    <span class="gl-footer-links"><a href="/search/">Back to search</a><a href="/">Home</a></span>
+  </div>
 </footer>
 """
 
@@ -1539,7 +1283,8 @@ def generate_page(race: dict) -> str:
     course = build_course(race)
     climate = build_climate(race)
     rating = build_rating_breakdown(race)
-    training = build_training_section(race)
+    wax_bar = build_wax_bar(race)
+    ladder = build_product_ladder(race)
     history = build_history(race)
     series = build_series(race)
     youtube = build_youtube_placeholder(race)
@@ -1559,7 +1304,6 @@ def generate_page(race: dict) -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%231a2332'/><text x='16' y='24' text-anchor='middle' font-family='monospace' font-size='22' font-weight='700' fill='%23e8edf2'>GL</text></svg>">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
   <meta property="og:type" content="article">
@@ -1572,14 +1316,17 @@ def generate_page(race: dict) -> str:
 {nav_header}
 <div class="gl-page">
 {hero}
+{wax_bar}
 {vitals}
 {course}
 {climate}
 {rating}
-{training}
 {history}
 {series}
 {youtube}
+</div>
+{ladder}
+<div class="gl-page">
 {footer}
 </div>
 {sticky_cta}
