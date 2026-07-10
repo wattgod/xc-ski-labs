@@ -439,6 +439,8 @@ def deploy_all():
         ("Race Pages", sync_pages),
         ("Training Plans", sync_training),
         ("Coaching Form", sync_coaching),
+        ("Questionnaire", sync_questionnaire),
+        ("About", sync_about),
         ("Sitemap", sync_sitemap),
         ("Cache Purge", purge_cache),
     ]
