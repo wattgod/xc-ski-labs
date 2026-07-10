@@ -24,7 +24,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 WEB_DIR = PROJECT_ROOT / "web"
 OUTPUT_DIR = PROJECT_ROOT / "output"
-NON_RACE_DIRS = {"about", "coaching", "feed", "questionnaire", "search", "thanks", "training-plans"}
+NON_RACE_DIRS = {"about", "coaching", "feed", "guide", "questionnaire", "search", "thanks", "training-plans"}
 
 
 # ── Race Page Generator Tests ─────────────────────────────────
