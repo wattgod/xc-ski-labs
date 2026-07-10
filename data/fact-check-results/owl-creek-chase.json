@@ -1,0 +1,83 @@
+{
+  "slug": "owl-creek-chase",
+  "name": "Owl Creek Chase",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 150,
+    "country": "United States",
+    "region": "Colorado",
+    "discipline": "skate",
+    "field_size": 200,
+    "founded": null,
+    "website": "https://www.aspennordic.com/events",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 25,
+      "note": "Multiple sources confirm 25km for the main Owl Creek Chase race; database's 10km does not match (outside ±3km tolerance). Sources describe 25km point-to-point from Snowmass to Aspen[1][5][7]",
+      "source_url": "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain of 150m or any specific value",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States, specifically Colorado[1][2][8]",
+      "source_url": "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Colorado[1][2][8]",
+      "source_url": "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle",
+      "note": "Sources indicate freestyle technique (skate) for this year's events[2]; one older source mentions both classic and skate[5]",
+      "source_url": "https://www.utemountaineer.com/eventscalendar/owl-creek-chase"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found matching ~200; AVSC Nordic program has 350 youth but not race-specific[1]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1985,
+      "note": "Origins in mid-1980s with Owl Creek Trail opening[1]",
+      "source_url": "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.teamavsc.org/owl-creek-chase",
+      "note": "Official registration and info at AVSC site, not aspennordic.com[1][2][7]",
+      "source_url": "https://www.teamavsc.org/owl-creek-chase"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "January",
+      "note": "Typical/2026 date is January 18, not February[1][8]; one older source mentions February[4]",
+      "source_url": "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592"
+    }
+  },
+  "citations": [
+    "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592",
+    "https://www.utemountaineer.com/eventscalendar/owl-creek-chase",
+    "https://www.aspenpublicradio.org/community-calendar/event/owl-creek-chase-16-01-2025-11-31-26",
+    "https://www.tosv.com/Calendar/Home/SingleEvent?eventID=1433",
+    "https://www.youtube.com/watch?v=Fxn2nDMzz4I",
+    "https://www.youtube.com/watch?v=FHdAZtNKneg",
+    "https://www.teamavsc.org/owl-creek-chase",
+    "https://www.skireg.com/8543"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:48:52Z"
+}

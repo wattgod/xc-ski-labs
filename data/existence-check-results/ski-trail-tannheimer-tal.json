@@ -1,0 +1,30 @@
+{
+  "slug": "ski-trail-tannheimer-tal",
+  "name": "Ski Trail Tannheimer Tal",
+  "country": "Austria",
+  "tier": 2,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Multiple sources reference the 'Ski-Trail Tannheimer Tal – Bad Hindelang' as an annual cross-country marathon held on a specific 24km circular trail in Tannheimer Tal, Austria, described as one of the largest XC events in Germany and Austria. However, no current official website, race results, news articles, listings in Worldloppet/FIS/Ski Classics, social media events, YouTube videos, or registration pages were found, suggesting it may have been a past event no longer actively organized.",
+    "sources": [
+      "https://www.tannheimertal.com/en/ski-trail-circular-trail-t3751",
+      "https://guthof.com/en/cross-country-skiing-skate-skiing/"
+    ]
+  },
+  "citations": [
+    "https://www.tannheimertal.com/en/ski-trail-circular-trail-t3751",
+    "https://www.tannheimertal.com/en/experience/winter/skiing/ski-resorts",
+    "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/neunerkoepfle-tannheimer-tal/",
+    "https://www.monstirol.com/en/looking-for-adventure/in-winter/cross-country-skiing",
+    "https://www.tannheimertal.com/en/experience/winter/cross-country-skiing/cross-country-trail-overview",
+    "https://guthof.com/en/cross-country-skiing-skate-skiing/",
+    "https://www.tannheimertal.com/en/experience/winter/cross-country-skiing/trail-status",
+    "https://www.rotflueh.com/en/tannheimer-valley",
+    "https://www.tannheimertal.com/en/service/faqs/cross-country-skiing",
+    "https://www.tyrol.tl/en/tyrol/lechtal-tannheimer-tal-zugspitz-arena/tannheim/"
+  ],
+  "checked_at": "2026-03-12T16:04:40Z"
+}

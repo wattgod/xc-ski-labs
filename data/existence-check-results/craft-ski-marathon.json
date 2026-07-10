@@ -1,0 +1,33 @@
+{
+  "slug": "craft-ski-marathon",
+  "name": "Craft Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://skimarathon.se",
+    "results_url": null,
+    "evidence_summary": "The Craft Ski Marathon is a real annual cross-country ski race held in Orsa Grönklitt, Sweden, with an official website providing event details, invitation, and registration info for 2026. It is listed as a Ski Classics Challengers event with start lists and live coverage mentioned, and confirmed by ProXC Skiing news articles and other ski directories. Past editions in 2024 are documented with 800+ participants.",
+    "sources": [
+      "https://skimarathon.se",
+      "https://www.proxcskiing.com/long-distance/craft-ski-marathon-start-lists-start-times-and-where-to-watch/",
+      "https://skiclassics.com/events/challengers/craft-ski-marathon/",
+      "https://skimarathon.se/inbjudan/",
+      "https://www.ahotu.com/event/craft-ski-marathon",
+      "https://ssfta.skidor.com/event/46811",
+      "https://www.langrenn.com/event/craft-ski-marathon/"
+    ]
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/craft-ski-marathon-start-lists-start-times-and-where-to-watch/",
+    "https://skiclassics.com/events/challengers/craft-ski-marathon/",
+    "https://www.ahotu.com/event/craft-ski-marathon",
+    "https://skimarathon.se/inbjudan/",
+    "https://skimarathon.se",
+    "https://www.langrenn.com/event/craft-ski-marathon/",
+    "https://skimarathon.se/team/",
+    "https://ssfta.skidor.com/event/46811"
+  ],
+  "checked_at": "2026-03-12T15:43:04Z"
+}

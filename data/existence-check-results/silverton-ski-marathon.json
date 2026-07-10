@@ -1,0 +1,27 @@
+{
+  "slug": "silverton-ski-marathon",
+  "name": "Silverton Ski Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Silverton Ski Marathon' in the United States. Search results mention trail running events like Silverton Alpine Marathon and skijoring events in Silverton, CO, but nothing matching a cross-country ski marathon. No official website, results, news, or listings for the specific event exist.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.aravaiparunning.com/silverton-alpine/",
+    "https://silvertonskijoring.itsyourrace.com",
+    "https://ultrasignup.com/register.aspx?did=129589",
+    "https://silvertonmountain.com/event/silverton-skijoring-26/",
+    "https://silvertonmountain.com",
+    "https://silvertonmountain.com/mountain/schedule/",
+    "https://www.silvertonskijoring.com",
+    "https://silvertonmountain.com/silverton-winterfest/",
+    "https://silvertonmountain.com/spring/",
+    "https://www.silvertoncolorado.com/winter-adventures"
+  ],
+  "checked_at": "2026-03-12T16:03:32Z"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "rukajarvi-march",
+  "name": "Rukajärvi March",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Rukajärvi March' in Finland across any searched categories: no official website, race results, news articles, Worldloppet/Euroloppet/Ski Classics/FIS listings, social media, YouTube videos, or registration pages. Search results mention Ruka ski events (FIS Nordic, Finnish Cup, slalom) and snowboarder Enni Rukajärvi, but nothing matches the specific event name or description.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.ruka.fi/en/events/finnish-ski-cup",
+    "https://www.ruka.fi/en/events/fis-slalom-race",
+    "https://www.ruka.fi/en/events/freeski-snowboard-slopestyle-european-cup",
+    "https://www.ruka.fi/en/events/snowracing",
+    "https://etusuora.com/en/cross-country-skiing/world-cup/ruka",
+    "https://finland.fi/life-society/good-chance-of-gold-as-finnish-olympic-and-paralympic-athletes-head-for-beijing/",
+    "https://www.boardriding.com/riders/enni-rukajarvi",
+    "https://www.worldsnowboardfederation.org/news/category/news/page/146/"
+  ],
+  "checked_at": "2026-03-12T16:01:59Z"
+}

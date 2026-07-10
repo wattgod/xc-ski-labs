@@ -1,0 +1,25 @@
+{
+  "slug": "whitehorse-loppet",
+  "name": "Whitehorse Loppet",
+  "country": "Canada",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a race named 'Whitehorse Loppet'. Existing events include Yukon Ski Marathon (March 21, 2026, at Whitehorse Nordic Centre trails) and a March 8 event at Whitehorse Nordic Centre listed in Nordiq Canada Masters calendar, but neither matches the queried name. Searches yielded no official site, results, news, or listings for 'Whitehorse Loppet'.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.yukonskimarathon.ca/pacific-northwest-loppet-series",
+    "https://www.whitehorsenordiccentre.ca",
+    "https://nordiqcanada.ca/wp-content/uploads/Masters-Ranking-List-Calendar.pdf",
+    "https://www.yukonskimarathon.ca/the-event",
+    "https://www.whitehorsenordiccentre.ca/yukon-ski-marathon",
+    "https://www.yukonskimarathon.ca",
+    "https://crosscountryyukon.com/races-events/",
+    "https://crosscountryyukon.com/events/"
+  ],
+  "checked_at": "2026-03-12T16:12:03Z"
+}

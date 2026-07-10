@@ -1,0 +1,84 @@
+{
+  "slug": "yllas-pallas",
+  "name": "Ylläs-Pallas",
+  "facts": {
+    "distance_km": 55,
+    "elevation_m": 800,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "classic",
+    "field_size": "~300-600 participants",
+    "founded": 1973,
+    "website": null,
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 55,
+      "note": "Offers 55km and 70km distances; 55km matches within tolerance and is listed as an option",
+      "source_url": "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Finland",
+      "source_url": "https://www.worldloppet.com/yllas-levi/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Lapland, Finland",
+      "source_url": "https://yllaslevi.fi/en/general-information/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Classic on day 1, skate/freestyle on day 2",
+      "source_url": "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 2000,
+      "note": "2025 had 2000 skiers; outside ±20% tolerance of 300-600",
+      "source_url": "https://yllas.fi/en/event/yllas-levi-hiihto-2026/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://yllaslevi.fi/en/",
+      "note": "Official site listed",
+      "source_url": "https://www.worldloppet.com/yllas-levi/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically first half of April",
+      "source_url": "https://yllaslevi.fi/en/general-information/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/yllas-levi/",
+    "https://www.goxski.com/yllas",
+    "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+    "https://yllaslevi.fi/en/",
+    "https://www.visitfinland.com/en/product/e6919ded-2f83-4a85-acc8-4e7b7bc4076f/yllas-levi-xc-ski-2024/",
+    "https://yllaslevi.fi/en/general-information/",
+    "https://yllas.fi/en/guide-to-cross-country-skiing-in-yllas-practical-tips-and-services/",
+    "https://yllas.fi/en/event/yllas-levi-hiihto-2026/",
+    "https://www.youtube.com/watch?v=QUfmzlqZJjw"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:58:43Z"
+}

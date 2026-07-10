@@ -1,0 +1,85 @@
+{
+  "slug": "ugra-ski-marathon",
+  "name": "Ugra Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 50,
+    "country": "Russia",
+    "region": "Western Siberia",
+    "discipline": "skate",
+    "field_size": 2000,
+    "founded": 2013,
+    "website": "https://ugraloppet.ru/en/",
+    "date": "Late March / early April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": null,
+      "note": "Search results show multiple distance options offered: 50 km, 25 km, 15 km, and 5 km on the first day (freestyle), and 50 km, 25 km, 15 km on the second day (classic style). The race is not a single fixed distance of 50 km.",
+      "source_url": "https://eventsinrussia.com/en/event/28607"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found in search results for the Ugra Ski Marathon course.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia in multiple sources.",
+      "source_url": "https://eventsinrussia.com/en/event/28607"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Ugra (Khanty-Mansiysk) is located in Western Siberia, Russia.",
+      "source_url": "https://investugra.ru/en/about/visiting-ugra/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "The race includes both freestyle (first day) and classic style (second day) disciplines, not skate only.",
+      "source_url": "https://eventsinrussia.com/en/event/28607"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 4000,
+      "note": "Search results state 'Participation of over 4000 thousand participants is planned' (interpreting as 4000+ participants, not 2000).",
+      "source_url": "https://eventsinrussia.com/en/event/28607"
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed that Ugra Ski Marathon has been held since 2013.",
+      "source_url": "https://www.proxcskiing.com/mn/%D2%AF%D0%B9%D0%BB-%D1%8F%D0%B2%D0%B4%D0%B0%D0%BB/ugra-ski-marathon/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide the official website URL to verify or contradict the claimed URL.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not specify the typical race date or month for the Ugra Ski Marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://eventsinrussia.com/en/event/28607",
+    "https://russialoppet.ru/upload/medialibrary/430/430b7d458cd6c261fd2abf647727300e.pdf",
+    "https://investugra.ru/en/about/visiting-ugra/",
+    "https://www.proxcskiing.com/mn/%D2%AF%D0%B9%D0%BB-%D1%8F%D0%B2%D0%B4%D0%B0%D0%BB/ugra-ski-marathon/",
+    "https://medias1.fis-ski.com/pdf/2015/CC/3012/2015CC3012RL.pdf",
+    "https://medias4.fis-ski.com/pdf/2015/CC/3013/2015CC3013RL.pdf",
+    "https://orienteering.sport/17-nations-competing-in-european-skio-championships/",
+    "https://transeurotrail.org/georgia/",
+    "http://fasterskier.com/wp-content/blogs.dir/1/files/2015/12/2016CC2192SLES.pdf%22",
+    "https://libhm.ru/upload/GUIDEBOOK.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:57:42Z"
+}

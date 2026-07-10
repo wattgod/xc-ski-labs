@@ -1,0 +1,34 @@
+{
+  "slug": "dolomitenlauf",
+  "name": "Dolomitenlauf",
+  "country": "Austria",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.dolomitensport.at/en/events/dolomitenlauf.html",
+    "results_url": "https://www.dolomitensport.at/en/dolomitenlauf-race-program.html",
+    "evidence_summary": "The Dolomitenlauf is a well-documented, real cross-country skiing event held annually in Obertilliach, Austria since 1970. Multiple independent sources confirm its existence including official organizational websites, Worldloppet and Ski Classics listings, Wikipedia documentation, and detailed race information with registration pages and results access.",
+    "sources": [
+      "https://www.dolomitensport.at/en/events/dolomitenlauf.html",
+      "https://www.worldloppet.com/wl-race/dolomitenlauf/",
+      "https://skiclassics.com/events/challengers/dolomitenlauf/",
+      "https://www.dolomitensport.at/en/dolomitenlauf-race-program.html",
+      "https://www.osttirol.com/en/discover-and-experience/events/internationaler-dolomitenlauf/",
+      "https://www.dolomitinordicski.com/en/events/dolomitenlauf",
+      "https://en.wikipedia.org/wiki/Dolomitenlauf"
+    ]
+  },
+  "citations": [
+    "https://www.dolomitensport.at/en/events/dolomitenlauf.html",
+    "https://www.worldloppet.com/wl-race/dolomitenlauf/",
+    "https://skiclassics.com/events/challengers/dolomitenlauf/",
+    "https://www.dolomitensport.at/en/dolomitenlauf-race-program.html",
+    "https://www.osttirol.com/en/discover-and-experience/events/internationaler-dolomitenlauf/",
+    "https://www.dolomitinordicski.com/en/events/dolomitenlauf",
+    "https://www.dolomitensport.at/en/dolomitenlauf-routes.html",
+    "https://en.wikipedia.org/wiki/Dolomitenlauf",
+    "https://www.dolomitensport.at/en/"
+  ],
+  "checked_at": "2026-03-12T15:43:47Z"
+}

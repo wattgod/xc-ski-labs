@@ -1,0 +1,83 @@
+{
+  "slug": "per-johnsen-ozbaldy",
+  "name": "Per Johnsen Ozbaldy",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Washington",
+    "discipline": "skate",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.kongsbergerskiclub.org",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the Ozbaldy race includes a 50km distance option. Source [2] lists 'Per Johnsen Memorial Ozbaldy 50k & 10k Freestyle' and source [4] confirms '(50km/10km freestyle)'",
+      "source_url": "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide elevation gain data for the Ozbaldy race. Cannot confirm or deny the 350m claim.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the race takes place in the United States. Source [6] and [7] specify 'Cabin Creek Road, WA, United States'",
+      "source_url": "https://www.webscorer.com/racelaps?did=503829&gender=f&raceid=382254"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All sources consistently identify Washington state as the location. Source [2] specifies 'Cabin Creek, WA' and source [5] refers to it as 'western Washington's only XC ski marathon'",
+      "source_url": "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle",
+      "note": "Sources consistently identify the race as freestyle, not skate. Source [2] lists 'Per Johnsen Memorial Ozbaldy 50k & 10k Freestyle' and source [4] confirms '(50km/10km freestyle)'",
+      "source_url": "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 151,
+      "note": "Source [8] reports 151 racers participated in the 2025 Per Johnsen Memorial Ozbaldy Freestyle event, which exceeds the claimed 50 participants by more than 20%",
+      "source_url": "https://www.webscorer.com/race?raceid=382254"
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide information about when the Per Johnsen Memorial Ozbaldy race was first established. Cannot confirm or deny.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "WRONG",
+      "correct_value": "https://kongsbergers.org/races/OZ2026.html",
+      "note": "Source [5] shows the official Kongsberger Ski Club website for Ozbaldy 2026 is at kongsbergers.org, not kongsbergerskiclub.org as claimed",
+      "source_url": "https://kongsbergers.org/races/OZ2026.html"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "March",
+      "note": "Multiple sources confirm the race occurs in March, not February. Source [2] lists 'March 2, 2025 - Per Johnsen Memorial Ozbaldy 50k & 10k Freestyle' and source [7] shows 'Race started: Sunday, March 2, 2025'",
+      "source_url": "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/"
+    }
+  },
+  "citations": [
+    "https://www.webscorer.com/racedetails?raceid=382254&did=503828&gender=f",
+    "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/",
+    "https://strambecco.com/event/ozbaldy/",
+    "https://xcoregon.org/pac-nw-event-listing",
+    "https://kongsbergers.org/races/OZ2026.html",
+    "https://www.webscorer.com/racelaps?did=503829&gender=f&raceid=382254",
+    "https://www.webscorer.com/results?did=503829&gender=m&raceid=382254",
+    "https://www.webscorer.com/race?raceid=382254"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:18:19Z"
+}

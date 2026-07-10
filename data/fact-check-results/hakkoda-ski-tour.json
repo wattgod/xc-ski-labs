@@ -1,0 +1,85 @@
+{
+  "slug": "hakkoda-ski-tour",
+  "name": "Hakkoda Ski Tour",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 300,
+    "country": "Japan",
+    "region": "Aomori",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.hakkoda-ropeway.jp",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning a 'Hakkoda Ski Tour' cross-country ski race or its distance; results describe Hakkoda Ski Area downhill/backcountry ski courses (e.g., 4-5.3km tours)[3]",
+      "source_url": "https://hakkoda-ropeway.jp/en/ski/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a cross-country race with 300m elevation gain; ski area tour routes mention vertical drops of 524m or 724m, not matching classic XC profile[3]",
+      "source_url": "https://hakkoda-ropeway.jp/en/ski/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Hakkoda is located in Japan[1][2]",
+      "source_url": "https://hakkoda-ski.com"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Hakkoda is in Aomori Prefecture/region[2][4]",
+      "source_url": "https://aomori-tourism.com/en/spot/detail_1445.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention any cross-country ski race at Hakkoda, classic or otherwise; area focuses on downhill, powder, backcountry skiing[1][3]",
+      "source_url": "https://hakkoda-ropeway.jp/en/ski/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on participants for any Hakkoda Ski Tour race; no race documented in sources[1-10]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention a 'Hakkoda Ski Tour' race or its founding year[1-10]",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "https://www.hakkoda-ropeway.jp is the official Hakkoda Ropeway site, linked to ski area[2][6]",
+      "source_url": "https://hakkoda-ropeway.jp/en/"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a cross-country race in late February; ski area operates Dec-May, some routes open early March/April[3]",
+      "source_url": "https://hakkoda-ropeway.jp/en/ski/"
+    }
+  },
+  "citations": [
+    "https://hakkoda-ski.com",
+    "https://aomori-tourism.com/en/spot/detail_1445.html",
+    "https://hakkoda-ropeway.jp/en/ski/",
+    "https://www.tripadvisor.com/Attraction_Review-g298241-d14070543-Reviews-Hakkoda_Ski_Area-Aomori_Aomori_Prefecture_Tohoku.html",
+    "https://www.japan.travel/en/sports/snow/snow-travel/hakkoda-snow-monsters/",
+    "https://hakkoda-ropeway.jp/en/",
+    "https://hakkoda-ski.com/winter-mountain/",
+    "https://hakkoda-ski.com/sightseeing/",
+    "https://www.join-aomori.jp/en.html",
+    "https://www.tohokukanko.jp/en/attractions/detail_1672.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:35Z"
+}

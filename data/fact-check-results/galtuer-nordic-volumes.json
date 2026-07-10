@@ -1,0 +1,84 @@
+{
+  "slug": "galtuer-nordic-volumes",
+  "name": "Galtuer Nordic Volumes",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 300,
+    "country": "Austria",
+    "region": "Tyrol",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.galtuer.gv.at",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "Sources describe main Cross Country Climb as 42 km (HARD) or 25 km (LIGHT), not 30 km; 30 km outside ±3 km tolerance of main distance",
+      "source_url": "https://www.worldloppet.com/galtur-cross-country-climb-aut/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 900,
+      "note": "Sources specify 900m for HARD (42 km) and 300m for LIGHT (25 km); database 300m matches LIGHT but not main race, outside ±100m tolerance for primary",
+      "source_url": "https://www.worldloppet.com/galtur-cross-country-climb-aut/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Austria",
+      "source_url": "https://www.worldloppet.com/galtur-cross-country-climb-aut/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Tirol (Tyrol)",
+      "source_url": "https://www.worldloppet.com/galtur-cross-country-climb-aut/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Free Technique (both classic and skate)",
+      "source_url": "https://www.worldloppet.com/galtur-cross-country-climb-aut/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded/first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.galtuer.com/gnv/en",
+      "note": "Official sites are galtuer.com event pages, not gv.at",
+      "source_url": "https://www.galtuer.com/gnv/en"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late March (e.g., 26-28 March 2026)",
+      "source_url": "https://www.galtuer.com/en/events-experiences/event-calendar/galtuer-nordic-volumes_event_125158093"
+    }
+  },
+  "citations": [
+    "https://www.galtuer.com/en/events-experiences/event-calendar/galtuer-nordic-volumes_event_125158093",
+    "https://www.galtuer.com/gnv/en",
+    "https://www.worldloppet.com/galtur-cross-country-climb-aut/",
+    "https://www.seefeld.com/en/tirol-nordic-challenge.html",
+    "https://www.montafon.at/en/galtuer-nordic-volumes-2024-1_vc22385",
+    "https://www.ischgl.com/en/booking/packages/specialoffers/ISC/82f316ed-9b28-4437-bebf-15705891e2b7/galtuer-nordic-volumes",
+    "https://www.youtube.com/watch?v=8GTUwoG9Cd4",
+    "https://www.youtube.com/watch?v=jPWbI5LlVsk",
+    "https://presse.tirol.at/en/galtur-nordic-volumes-a-cross-country-event-tip/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:39:09Z"
+}

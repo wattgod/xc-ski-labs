@@ -1,0 +1,33 @@
+{
+  "slug": "canadian-ski-marathon",
+  "name": "Canadian Ski Marathon",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://skimarathon.ca",
+    "results_url": "https://skimarathon.ca/skiers-guide/",
+    "evidence_summary": "The Canadian Ski Marathon has a fully functional official website at skimmarathon.ca detailing the event for February 6-7-8, 2026, including trail info, registration categories, and live tracking via zone4.ca during the event, with results (sections completed) posted on the site a week after. It mentions social media presence on Facebook and Instagram for updates, and historical context since 1967 with past participant numbers like 3500 skiers in its 15th year. The site provides concrete organizational details like checkpoints, shuttle buses, and weather adjustments, confirming it as a real, ongoing event.",
+    "sources": [
+      "https://skimarathon.ca",
+      "https://skimarathon.ca/where-is-it/",
+      "https://skimarathon.ca/skiers-guide/",
+      "https://skimarathon.ca/csm-timeline/",
+      "https://skimarathon.ca/registration-categories/"
+    ]
+  },
+  "citations": [
+    "https://skimarathon.ca/where-is-it/",
+    "https://skimarathon.ca/skiers-guide/",
+    "https://skimarathon.ca",
+    "https://skimarathon.ca/csm-timeline/",
+    "https://skimarathon.ca/canadian-ski-challenge/",
+    "https://skimarathon.ca/registration-categories/",
+    "https://skimarathon.ca/join-us/",
+    "https://skimarathon.ca/tips-and-tricks/be-a-csm-good-samaritan/",
+    "https://skimarathon.ca/award-categories/individual-awards/",
+    "https://skimarathon.ca/official-passport-of-training-trails/"
+  ],
+  "checked_at": "2026-03-12T15:41:56Z"
+}

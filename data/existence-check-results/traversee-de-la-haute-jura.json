@@ -1,0 +1,27 @@
+{
+  "slug": "traversee-de-la-haute-jura",
+  "name": "Traversée de la Haute-Jura",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a race named 'Traversée de la Haute-Jura'. Search results describe 'La Transjurassienne' (La Transju') as the major cross-country ski race in the Haute-Jura region and the 'Grande Traversée du Jura' (GTJ) as a ski trail, not an organized race event. No official site, results, news, or listings match the exact name.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.latransju.com/en/evenements/la-transju/",
+    "https://www.latransju.com/en/",
+    "https://www.goxski.com/jura",
+    "https://www.pays-horloger.com/en/la-grande-traversee-du-jura-en-pays-horloger/",
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/cross-country-skiing-on-the-grande-traversee-du-jura-trail/",
+    "https://www.hautjuraski.fr",
+    "https://en.francevelotourisme.com/cycle-route/grande-traversee-du-jura-by-mountain-bike",
+    "https://www.latransju.com/en/actualites/les-inscriptions-de-la-transju-sont-ouvertes/",
+    "https://www.gtj.asso.fr/en/",
+    "https://www.latransju.com/en/programme-web/"
+  ],
+  "checked_at": "2026-03-12T16:09:30Z"
+}

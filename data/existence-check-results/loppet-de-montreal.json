@@ -1,0 +1,27 @@
+{
+  "slug": "loppet-de-montreal",
+  "name": "Loppet de Montréal",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Loppet de Montréal' cross-country ski race in Canada. All search results refer to events organized by the Loppet Foundation in Minneapolis, Minnesota, USA, such as the City of Lakes Loppet and related ski marathons. No official website, results, news articles, or listings match the queried event in Montréal.",
+    "sources": []
+  },
+  "citations": [
+    "https://loppet.org/event/marathon-pouli-tour-ski/",
+    "https://loppet.org/event/5k-ski-loppet/",
+    "https://loppet.org/event/next-generation-loppet/",
+    "https://loppet.org/Experiences/loppet-ski-adults/",
+    "https://loppet.org",
+    "https://loppet.org/Experiences/lnr-juniors/",
+    "https://loppet.org/summer-club-championships/",
+    "https://loppetcup.com",
+    "https://skiloppet.com/en/home.php",
+    "https://loppet.org/loppet-nordic-racing/"
+  ],
+  "checked_at": "2026-03-12T15:54:09Z"
+}

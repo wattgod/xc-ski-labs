@@ -1,0 +1,33 @@
+{
+  "slug": "engadin-la-diagonela",
+  "name": "La Diagonela",
+  "country": "Switzerland",
+  "tier": 1,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.ladiagonela.ch",
+    "results_url": null,
+    "evidence_summary": "Engadin La Diagonela is a real annual cross-country ski race in Switzerland's Engadin Valley, confirmed by its official website, Worldloppet listing, and multiple Ski Classics pages detailing past and upcoming events including 2025 course changes and 2026 registration. It features distances like 55km classic technique from Pontresina to Zuoz, with history since 2014 and pro tour status. Additional mentions in news and event directories provide strong independent verification.",
+    "sources": [
+      "https://www.worldloppet.com/la-diagonela-sui/",
+      "https://skiclassics.com/course-changes-for-engadin-la-diagonela-2025/",
+      "https://www.gomarathon.run/2026-engadin-la-diagonela",
+      "https://skiclassics.com/register-for-engadin-la-diagonela-2026-now/",
+      "https://www.ladiagonela.ch",
+      "https://skiclassics.com/events/pro-tour/engadin-la-diagonela/",
+      "https://www.sportivo.se/en/sportivo-se-engadin-la-diagonela/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/la-diagonela-sui/",
+    "https://skiclassics.com/course-changes-for-engadin-la-diagonela-2025/",
+    "https://www.gomarathon.run/2026-engadin-la-diagonela",
+    "https://skiclassics.com/register-for-engadin-la-diagonela-2026-now/",
+    "https://www.ladiagonela.ch",
+    "https://skiclassics.com/events/pro-tour/engadin-la-diagonela/",
+    "https://www.sportivo.se/en/sportivo-se-engadin-la-diagonela/",
+    "https://www.proxcskiing.com/paid_content/10th-edition-of-engadin-la-diagonela-saturday-january-21st-2023/"
+  ],
+  "checked_at": "2026-03-12T15:44:17Z"
+}

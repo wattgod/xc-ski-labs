@@ -1,0 +1,83 @@
+{
+  "slug": "krasnogorsk-ski-marathon",
+  "name": "Krasnogorsk Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 280,
+    "country": "Russia",
+    "region": "Moscow Oblast",
+    "discipline": "both",
+    "field_size": 1500,
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results contain information about a Krasnogorsk cross-country ski course (2678m competition distance) and a cycling brevet through Krasnogorsk, but no specific information about a 'Krasnogorsk Ski Marathon' race with a 50km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the total elevation gain of 280 meters for a Krasnogorsk Ski Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Krasnogorsk is confirmed to be located in Russia (Moscow Oblast).",
+      "source_url": "https://en-ie.topographic-map.com/map-sq6hb3/Krasnogorsk/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Krasnogorsk is confirmed to be in Moscow Oblast (Moscow Region).",
+      "source_url": "https://en-ie.topographic-map.com/map-sq6hb3/Krasnogorsk/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide information about whether the Krasnogorsk Ski Marathon uses classic, skate, or both disciplines.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming typical participant numbers of 1500 for a Krasnogorsk Ski Marathon.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not contain information about when a Krasnogorsk Ski Marathon was first held.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not confirm whether https://www.russialoppet.ru is the official website for a Krasnogorsk Ski Marathon. The domain appears to be related to Russian ski marathons generally, but no specific verification found.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide information about the typical race date or month for a Krasnogorsk Ski Marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://medias2.fis-ski.com/pdf/homologations/CC/RUS/RUS_Krasnogorsk_19_78-02_2-5.pdf",
+    "https://www.rsaski.ru/en/sport-russia/resorts/?ELEMENT_ID=2645",
+    "https://moscow-city.guide/en/articles/luchshie-gornolyzhnye-kurorty-moskvy-i-podmoskovya-v-sezone-2025-2026-podborka-trass-i-sklonov/",
+    "http://diginfo.ru/en/cycling_en/brevet-200-km-to-the-edge-of-love-moscow-krasnogorsk-istra-tuchkovo-zvenigorod/",
+    "https://en-us.topographic-map.com/map-sq6hb3/Krasnogorsk/",
+    "https://en-ie.topographic-map.com/map-sq6hb3/Krasnogorsk/",
+    "https://en.wikipedia.org/wiki/Russia_at_the_2010_Winter_Olympics",
+    "https://www.floodmap.net/Elevation/ElevationMap/?gi=2124187"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:13Z"
+}

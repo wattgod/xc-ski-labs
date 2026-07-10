@@ -1,0 +1,83 @@
+{
+  "slug": "muffin-race",
+  "name": "Muffin Race",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 400,
+    "country": "United States",
+    "region": "Montana",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 1990,
+    "website": "https://www.crosscutmt.org",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing a 'Muffin Race' with 25km distance; found a different Muffin Race (6km team sprint relay) in Michigan[1][2]",
+      "source_url": "https://www.crosscountryski.com/product/muffin/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 400m elevation gain on Muffin Race",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Database claims US/Montana, but identified Muffin Race is in Michigan, US[1][2]; no Montana match found",
+      "source_url": "https://www.crosscountryski.com/product/muffin/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Database claims Montana, but identified Muffin Race is in Roscommon, MI[1][2]; Montana races like Lolo to Lolo exist but not named Muffin[3]",
+      "source_url": "https://www.crosscountryski.com/product/muffin/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Database claims both; identified Muffin Race is freestyle (skate) only[1]",
+      "source_url": "https://www.crosscountryski.com/product/muffin/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm ~100 participants for this Muffin Race",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Database claims 1990; identified Muffin Race is 33rd edition in 2026, implying ~1993[2]",
+      "source_url": "https://nordicskiracer.com/news.asp?NewsID=16786"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.crosscutmt.org not confirmed as Muffin Race site; actual Muffin Race registration at crosscountryski.com[1]",
+      "source_url": "https://www.crosscountryski.com/product/muffin/"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Database claims late January; identified Muffin Race is late February (Feb 22)[1][2]",
+      "source_url": "https://www.crosscountryski.com/product/muffin/"
+    }
+  },
+  "citations": [
+    "https://www.crosscountryski.com/product/muffin/",
+    "https://nordicskiracer.com/news.asp?NewsID=16786",
+    "https://www.missoulanordic.org/races",
+    "https://www.youtube.com/watch?v=u9zwyLU4690",
+    "https://www.skisignup.com/Race/MT/SeeleyLake/NordicDance",
+    "https://www.bridgerskifoundation.org/events/funski",
+    "https://fasterskier.com/2017/12/fasterskiers-12-days-fbd-christmas-day-2/",
+    "https://www.usskiandsnowboard.org/events/mayors-xc-ski-challenge"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:46:55Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "ingalami",
+  "name": "IngaLåmi",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": "~5,000 starters",
+    "founded": 2006,
+    "website": "https://www.ingalami.no",
+    "date": "Late February to early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "Offers 5, 15, or 30 km distances; database lists 30 km which is one option but not sole distance",
+      "source_url": "https://www.hafjellresort.no/en/ingalami"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain; one source mentions 114m difference for 15km route but not total gain for 30km",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as Norwegian event in Lillehammer",
+      "source_url": "https://fasterskier.com/2013/02/leave-the-husband-and-kids-at-home-a-week-before-the-birkebeiner-inga-lami-is-a-womens-ski-party-in-lillehammer/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Lillehammer is in Innlandet county, Norway",
+      "source_url": "https://en.lillehammer.com/things-to-do/ingalami-15-km-p632573"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic or skate; described as cross-country skiing generally",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~4,000 participants in past edition, within ±20% of 5,000",
+      "source_url": "https://fasterskier.com/2013/02/leave-the-husband-and-kids-at-home-a-week-before-the-birkebeiner-inga-lami-is-a-womens-ski-party-in-lillehammer/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1993,
+      "note": "First held in 1993",
+      "source_url": "https://fasterskier.com/2013/02/leave-the-husband-and-kids-at-home-a-week-before-the-birkebeiner-inga-lami-is-a-womens-ski-party-in-lillehammer/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No source confirms https://www.ingalami.no; related sites like hafjellresort.no/en/ingalami and lillehammer-skiklub.no mentioned but not official race site",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Season January-March aligns with late February to early March; associated with Birkebeiner timing",
+      "source_url": "https://en.lillehammer.com/things-to-do/ingalami-15-km-p632573"
+    }
+  },
+  "citations": [
+    "https://en.lillehammer.com/things-to-do/ingalami-15-km-p632573",
+    "https://fasterskier.com/2013/02/leave-the-husband-and-kids-at-home-a-week-before-the-birkebeiner-inga-lami-is-a-womens-ski-party-in-lillehammer/",
+    "https://www.hafjellresort.no/en/ingalami",
+    "http://lillehammer-skiklub.no/wp-content/uploads/2025/04/05.-Lillehammer-Skiklub-Arsberetning-Sesong-2024-2025-1.pdf",
+    "https://www.forskning.no/hogskolen-i-innlandet-kjonn-og-samfunn-partner/birkenrennet-hvor-blir-det-av-kvinnene/1627273",
+    "https://lillehammersentrum.no/arrangementer/liste/?posts_per_page=141&tribe-bar-date=2026-01-15&eventDisplay=past",
+    "https://www.inn.no/losc/2021-12-17-jhl-tls---forprosjektol.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:34Z"
+}

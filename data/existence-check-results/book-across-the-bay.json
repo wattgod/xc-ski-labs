@@ -1,0 +1,32 @@
+{
+  "slug": "book-across-the-bay",
+  "name": "Book Across the Bay",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://batb.org",
+    "results_url": "https://batb.org/race-information/race-results",
+    "evidence_summary": "The event has a fully functional official website at batb.org with detailed race information, registration, course conditions, and a race results page. SkiSignup.com hosts the official registration for the 2026 event (Chapter 29) on February 14, confirming logistics like shuttles, waves, and timing. Multiple subpages provide contact info, volunteer opportunities, gallery, and FAQs, indicating an active, organized non-profit event in Ashland, WI.",
+    "sources": [
+      "https://batb.org",
+      "https://www.skisignup.com/Race/WI/Ashland/BookAcrosstheBay",
+      "https://batb.org/race-information/frequently-asked-questions",
+      "https://batb.org/race-information/general-info"
+    ]
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/WI/Ashland/BookAcrosstheBay",
+    "https://batb.org/race-information/frequently-asked-questions",
+    "https://batb.org",
+    "https://batb.org/contact",
+    "https://batb.org/race-information/general-info",
+    "https://batb.org/race-information/course-conditions",
+    "https://batb.org/things-to-do",
+    "https://batb.org/gallery",
+    "https://batb.org/race-information/local-lodging",
+    "https://batb.org/help-out/volunteer-opportunities"
+  ],
+  "checked_at": "2026-03-12T15:41:06Z"
+}

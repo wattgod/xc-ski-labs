@@ -1,5 +1,5 @@
 """
-Nordic Lab — XC Ski Race Scoring System
+XC Ski Labs — XC Ski Race Scoring System
 14 criteria, 1-5 scale, overall_score = round((sum/70)*100)
 Tiers: T1 (>=80), T2 (>=60), T3 (>=45), T4 (<45)
 Prestige override: p5 + score>=75 → T1, p5 + score<75 → T2 cap, p4 = 1-tier promotion (not into T1)

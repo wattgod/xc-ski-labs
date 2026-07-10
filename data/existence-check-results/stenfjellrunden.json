@@ -1,0 +1,19 @@
+{
+  "slug": "stenfjellrunden",
+  "name": "Stenfjellrunden",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for 'Stenfjellrunden' cross-country ski race in any search results. Results mention Birkebeinerrennet and SkiBirken events but no reference to Stenfjellrunden. Appears to be fictional or confused with other Norwegian races.",
+    "sources": []
+  },
+  "citations": [
+    "https://birken.no/en/ski",
+    "https://birken.no"
+  ],
+  "checked_at": "2026-03-12T16:05:50Z"
+}

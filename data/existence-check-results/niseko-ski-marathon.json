@@ -1,0 +1,29 @@
+{
+  "slug": "niseko-ski-marathon",
+  "name": "Niseko Ski Marathon",
+  "country": "Japan",
+  "tier": 2,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 1,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "A single source on experienceniseko.com explicitly mentions the Niseko Ski Marathon as a community cross-country ski race connecting Kutchan with local and international skiers[3]. No official website, race results, news articles, Worldloppet/FIS listings, social media, YouTube videos, or registration pages were found in the search results. Other results discuss Niseko's running marathons, road cycling events like Niseko Classic, and ski resorts but provide no further confirmation of the ski marathon.",
+    "sources": [
+      "https://www.experienceniseko.com/events/niseko-ski-marathon"
+    ]
+  },
+  "citations": [
+    "https://www.niseko-village.com/organiser/niseko-marathon-festival-office/",
+    "https://ucigranfondoworldseries.com/en/niseko-classic/",
+    "https://www.experienceniseko.com/events/niseko-ski-marathon",
+    "https://www.niseko.ne.jp/en/niseko/",
+    "https://www.niseko.ne.jp/en/map/village/",
+    "https://nisekoclassic.com/en/",
+    "https://www.niseko.ne.jp/en/niseko-winter-activities/",
+    "https://hanazononiseko.com/en/blog/niseko-classic-2025",
+    "https://www.niseko.ne.jp",
+    "https://nisekoclassic.com/en/news/niseko-classic-2024-%E5%8F%97%E4%BB%98-%E9%A7%90%E8%BB%8A%E5%A0%B4"
+  ],
+  "checked_at": "2026-03-12T15:57:58Z"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "bjelasnica-ski-marathon",
+  "name": "Bjelašnica Ski Marathon",
+  "country": "Bosnia and Herzegovina",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Bjelašnica Ski Marathon' in Bosnia and Herzegovina. Search results mention Bjelašnica as an Olympic ski venue for alpine and Nordic events in 1984, current alpine competitions, and general skiing, but no marathon race results, official site, news, or listings in Worldloppet, FIS cross-country, or social media.",
+    "sources": []
+  },
+  "citations": [
+    "https://sarajevotimes.com/forty-years-since-the-olympics-the-ski-slope-in-bjelasnica-is-named-jure-franko/",
+    "https://ocbjelasnica.com/en/about-us/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=51317&seasoncode=2023",
+    "https://bjelasnica.ba/en/winter-activities/ski-snowboard/",
+    "https://www.youtube.com/watch?v=hHdJ-zJpHUM"
+  ],
+  "checked_at": "2026-03-12T15:40:43Z"
+}

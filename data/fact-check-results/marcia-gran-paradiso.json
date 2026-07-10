@@ -1,0 +1,83 @@
+{
+  "slug": "marcia-gran-paradiso",
+  "name": "Marcia Gran Paradiso",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 350,
+    "country": "Italy",
+    "region": "Aosta Valley",
+    "discipline": "classic",
+    "field_size": "~800-1,200 participants",
+    "founded": 1975,
+    "website": "https://www.granparadiso.net",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the main classic race is 40km, though shortened to 30km in some years (e.g., 2025); typical/standard distance matches within tolerance",
+      "source_url": "https://skiclassics.com/events/challengers/marcia-gran-paradiso/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain of 350m or any specific value",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as in Italy",
+      "source_url": "https://skiclassics.com/events/challengers/marcia-gran-paradiso/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Aosta Valley (Valle d'Aosta)",
+      "source_url": "https://skiclassics.com/events/challengers/marcia-gran-paradiso/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Main race is classic technique",
+      "source_url": "https://skiclassics.com/events/challengers/marcia-gran-paradiso/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific numbers found for typical participants (~800-1200); one source mentions international entries but no count",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition in 1975",
+      "source_url": "https://skiclassics.com/events/challengers/marcia-gran-paradiso/"
+    },
+    "website": {
+      "status": "WRONG",
+      "correct_value": "https://www.marciagranparadiso.it",
+      "note": "Official site referenced as marciagranparadiso.it in sources; granparadiso.net not confirmed",
+      "source_url": "https://www.proxcskiing.com/long-distance/marcia-gran-paradiso-2025-this-weekend-in-cogne/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Early February",
+      "note": "Recent editions on Feb 1 or Feb 9, 2025; no mention of mid-March",
+      "source_url": "https://skiclassics.com/events/challengers/marcia-gran-paradiso/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/marcia-gran-paradiso/",
+    "https://www.proxcskiing.com/long-distance/marcia-gran-paradiso-2025-this-weekend-in-cogne/",
+    "https://www.marciagranparadiso.it/admin-orangepix/uploads/5d239030-c0bc-8e91.pdf",
+    "https://www.visitcogne.it/en/notizia/marciagranparadiso/",
+    "https://www.proxcskiing.com/long-distance/marcia-gran-paradiso-opens-registrations/",
+    "https://www.lovevda.it/en/database/2/sport/cogne/marciagranparadiso/27390",
+    "https://www.langrenn.com/event/marcia-gran-paradiso-2/",
+    "https://www.worldloppet.com/marciagranparadiso-ita/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:52:35Z"
+}

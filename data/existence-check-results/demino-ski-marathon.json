@@ -1,0 +1,32 @@
+{
+  "slug": "demino-ski-marathon",
+  "name": "Demino Ski Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://deminom.ru/en/",
+    "results_url": "https://deminom.ru/en/news/",
+    "evidence_summary": "The Demino Ski Marathon has an official website with history, news, and recent results mentioning winners like Shemyakin Aleksey for 2025 and over 18,000 attendees. It is listed as a Worldloppet and FIS event with detailed past editions, participant numbers, and elite athletes. News from Rostec and Worldloppet confirm multiple years of events with thousands of international participants.",
+    "sources": [
+      "https://deminom.ru/en/about/history/",
+      "https://deminom.ru/en/news/",
+      "https://www.deminom.ru/en/",
+      "https://www.worldloppet.com/demino-ski-marathon-worldloppet-helping-children-saving-the-environment-creating-the-future/",
+      "https://rostec.ru/en/media/news/russian-major-ski-marathon-is-ended-in-demino/"
+    ]
+  },
+  "citations": [
+    "https://rostec.ru/en/media/news/russian-major-ski-marathon-is-ended-in-demino/",
+    "https://www.worldloppet.com/demino-ski-marathon-worldloppet-helping-children-saving-the-environment-creating-the-future/",
+    "https://www.sandozconcept.com/en/worldloppet-races/archiv/russias-demino-ski-marathon/important-information/",
+    "https://deminom.ru/en/about/history/",
+    "https://deminom.ru/en/news/",
+    "https://www.deminom.ru/en/",
+    "https://deminom.ru/en/about/",
+    "https://deminom.ru/en/marathons/",
+    "https://www.worldloppet.com/category/news/domino-ski-marathon/"
+  ],
+  "checked_at": "2026-03-12T15:43:36Z"
+}

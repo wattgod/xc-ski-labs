@@ -1,0 +1,26 @@
+{
+  "slug": "sapporo-bankei-night-ski-race",
+  "name": "Sapporo Bankei Night Ski Race",
+  "country": "Japan",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Sapporo Bankei Night Ski Race' as a cross-country ski event. Search results confirm Sapporo Bankei Ski Area exists with night skiing and hosts competitions like moguls, FIS halfpipe, and slalom, but no mentions of any cross-country race, night or otherwise. Other Sapporo ski events like the International Ski Marathon are separate and not at Bankei.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.skiing-hokkaido.com/detail.php?id=2",
+    "https://snowsapporo.com/en/skiarea/bankei/",
+    "https://www.wamazing.com/snow/resorts/bankei",
+    "https://www.bankei.co.jp/home-english/",
+    "https://domingo.ne.jp/en/spot/1020",
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://visit.sapporo.travel/discover/snow/sapporo-bankei-ski-area/",
+    "https://www.bankei.co.jp/liftprice-en/",
+    "https://www.bankei.co.jp/home-english/ski-en/"
+  ],
+  "checked_at": "2026-03-12T16:02:28Z"
+}

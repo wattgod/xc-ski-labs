@@ -1,0 +1,29 @@
+{
+  "slug": "cookie-race",
+  "name": "Cookie Race",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.foothillsnordic.ca/cookie-race",
+    "results_url": null,
+    "evidence_summary": "The Cookie Race is a real, organized annual event run by the Foothills Nordic Ski Club in Peter Lougheed Provincial Park, Alberta. It has been held since 1978 and is documented across multiple independent sources including an official website, volunteer coordination platform, and ski club directories. The 2026 race is scheduled for February 28, 2026.",
+    "sources": [
+      "https://www.foothillsnordic.ca/cookie-race",
+      "https://foothillsnordic.galaxydigital.com/agency/detail/?agency_id=214127",
+      "https://albertamastersassociation.com/event/cookie-race/",
+      "https://nakkertok.ca/en/events/cookie-race/"
+    ]
+  },
+  "citations": [
+    "https://www.foothillsnordic.ca/cookie-race",
+    "https://foothillsnordic.galaxydigital.com/agency/detail/?agency_id=214127",
+    "https://albertamastersassociation.com/event/cookie-race/",
+    "https://nordiqcanada.ca",
+    "https://nakkertok.ca/en/events/cookie-race/",
+    "https://nakkertok.ca/en/2025/02/register-for-the-2025-cookie-race/",
+    "https://nakkertok.ca/en/programs/racing/"
+  ],
+  "checked_at": "2026-03-12T15:42:48Z"
+}

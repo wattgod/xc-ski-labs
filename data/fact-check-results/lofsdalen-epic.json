@@ -1,0 +1,83 @@
+{
+  "slug": "lofsdalen-epic",
+  "name": "Lofsdalen Epic",
+  "facts": {
+    "distance_km": 55,
+    "elevation_m": 500,
+    "country": "Sweden",
+    "region": "Harjedalen",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 2010,
+    "website": "https://www.lofsdalen.com/en/lofsdalenepic",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Standard distance is 55 km, with options of 35 or 55 km; 2025 shortened to 52.3 km due to snow but nominal is 55 km within ±3 km tolerance",
+      "source_url": "https://www.lofsdalen.com/en/lofsdalenepic"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden",
+      "source_url": "https://www.proxcskiing.com/long-distance/lofsdalen-epic-2025-takes-place-this-saturday-in-sweden/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Lofsdalen is in Harjedalen, Sweden (inferred from context and location)",
+      "source_url": "https://www.lofsdalen.com/en/lofsdalenepic"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic style confirmed for 55 km mass start",
+      "source_url": "https://www.lofsdalsspar.se/en/ski-trails/lofsdalen-epic-race/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site matches, though some sources reference lofsdalenepic.se variant",
+      "source_url": "https://www.lofsdalen.com/en/lofsdalenepic"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held annually at turn of March/April or late March, e.g., April 5, 2025",
+      "source_url": "https://www.lofsdalsspar.se/en/ski-trails/lofsdalen-epic-race/"
+    }
+  },
+  "citations": [
+    "https://www.lofsdalen.com/en/lofsdalenepic",
+    "https://www.lofsdalsspar.se/en/ski-trails/lofsdalen-epic-race/",
+    "https://www.proxcskiing.com/long-distance/lofsdalen-epic-2025-takes-place-this-saturday-in-sweden/",
+    "https://www.lofsdalen.com/en/cross-country-skiing",
+    "https://skiclassics.com/stina-nilsson-and-johannes-eklof-winners-of-lofsdalen-epic-2025/",
+    "https://www.proxcskiing.com/long-distance/lofsdalen-epic-start-lists-and-where-to-watch/",
+    "https://www.youtube.com/watch?v=qdH3ZnQemVk",
+    "https://www.youtube.com/watch?v=OVr-67h84Tk"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:44:14Z"
+}

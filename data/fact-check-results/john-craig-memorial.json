@@ -1,0 +1,83 @@
+{
+  "slug": "john-craig-memorial",
+  "name": "John Craig Memorial",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Washington",
+    "discipline": "both",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.mountaineers.org",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 19.3,
+      "note": "Event offers self-timed races of about 6 or 12 miles (approx. 9.7 or 19.3 km), not 25 km (15.5 miles); 25 km outside ±3 km tolerance of 19.3 km",
+      "source_url": "https://conordicclub.wildapricot.org/event-5625392"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain; event on McKenzie Pass but no numeric data",
+      "source_url": null
+    },
+    "country": {
+      "status": "WRONG",
+      "correct_value": "United States",
+      "note": "Event held in Oregon, USA, which matches country but database specifies Washington state below; country correct but context mismatches",
+      "source_url": "https://conordicclub.wildapricot.org/event-5625392"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Oregon",
+      "note": "Event near Sisters, Oregon, on McKenzie Pass, not Washington",
+      "source_url": "https://conordicclub.wildapricot.org/event-5625392"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Groomed for both skate and classic skiing",
+      "source_url": "https://conordicclub.wildapricot.org/event-5625392"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants; low-cost event but no numeric data",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1934,
+      "note": "First edition in 1934; tradition since 1930s, taken over by Oregon Nordic Club in 1972",
+      "source_url": "https://onc.org/john-craig-story/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://onc.org",
+      "note": "Organized by Oregon Nordic Club (onc.org); Mountaineers.org not referenced",
+      "source_url": "https://conordicclub.wildapricot.org/event-5625392"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-March (e.g., March 16 2024, March 15 2025), aligns with February/March winter timing",
+      "source_url": "https://onc-pdx.org/events/john-craig-memorial-ski-race-and-tour-2025/"
+    }
+  },
+  "citations": [
+    "https://conordicclub.wildapricot.org/event-5625392",
+    "https://onc-pdx.org/events/john-craig-memorial-ski-race-and-tour-2024/",
+    "https://onc-pdx.org/events/john-craig-memorial-ski-race-and-tour-2025/",
+    "https://www.bendsource.com/outside/xc-skiing-like-a-pioneer-mailman-18816667/",
+    "https://onc.org/john-craig-story/",
+    "https://xcoregon.org/pac-nw-event-listing",
+    "https://teacupnordic.org/pages/events-races",
+    "https://tokous.com/wp-content/uploads/2024/03/JohnCraig.3.16.24.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:15:17Z"
+}

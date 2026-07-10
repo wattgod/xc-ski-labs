@@ -1,0 +1,31 @@
+{
+  "slug": "flyktningerennet",
+  "name": "Flyktningerennet",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://flyktningerennet.no",
+    "results_url": "https://live.eqtiming.com/69084",
+    "evidence_summary": "Flyktningerennet is listed as a Ski Classics Challengers event with a dedicated page, an official Norwegian website detailing its history since 1950 and upcoming events, and 2024 race results from EQ Timing. Additional coverage includes a ProXC article and the event's future date of March 21, 2026. No connections to fictional or AI-generated content found.",
+    "sources": [
+      "https://skiclassics.com/events/challengers/flyktningerennet/",
+      "https://flyktningerennet.no",
+      "https://live.eqtiming.com/69084",
+      "https://www.proxcskiing.com/long-distance/flyktningerennet-this-sunday-crossing-the-norwegian-swedish-border/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/flyktningerennet/",
+    "https://flyktningerennet.no",
+    "https://en.wikipedia.org/wiki/Birkebeinerrennet",
+    "https://birken.no/en/ski",
+    "https://en.lillehammer.com/whats-on/birkebeinerrennet-birkebeiner-ski-race-53-km-p634893",
+    "https://www.youtube.com/watch?v=MM26qcgYsT4",
+    "https://www.worldloppet.com/category/news/birkebeinerrennet/",
+    "https://www.proxcskiing.com/long-distance/flyktningerennet-this-sunday-crossing-the-norwegian-swedish-border/",
+    "https://live.eqtiming.com/69084"
+  ],
+  "checked_at": "2026-03-12T15:45:11Z"
+}

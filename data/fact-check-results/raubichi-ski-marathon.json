@@ -1,0 +1,84 @@
+{
+  "slug": "raubichi-ski-marathon",
+  "name": "Raubichi Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 300,
+    "country": "Belarus",
+    "region": "Minsk",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1995,
+    "website": "https://www.raubichi.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources mention 'Raubichi Ski Marathon' or confirm 50km distance; related Minsk Ski Track events at Raubichi describe relays (e.g., 4x2km=8km) and a 2.5km trail, but no marathon distance found.[1][2][6][9]",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain for any cross-country ski race at Raubichi, including claimed marathon.[1][3][6][9]",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Raubichi is confirmed as a sports center in Belarus.[1][3][5][6]",
+      "source_url": "https://www.belarus.by/en/about-belarus/sport"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Events described as 'Minsk Ski Race/Track' held in Raubichi, indicating Minsk region.[1][4][5][7]",
+      "source_url": "https://soyuz.by/en/sport/minsk-ski-race-2026-will-be-held-in-raubichi-on-march-7"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both for a 'Raubichi Ski Marathon'; Raubichi hosts biathlon and ski events, but discipline not detailed for marathon.[1][2][3][5]",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for 'Raubichi Ski Marathon'; Minsk Ski Track called mass event but no specifics like 500.[1][4][5][7]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention founding year of 1995 for 'Raubichi Ski Marathon'; Raubichi center built for 1974 Biathlon Worlds, but no marathon history.[3][8]",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Raubichi site is rau.by or raubichi.com variant, but no mention of 'Ski Marathon' event; https://www.raubichi.com not confirmed in results and no event details there implied.[6]",
+      "source_url": "https://rau.by/en/"
+    },
+    "race_date_month": {
+      "status": "WRONG",
+      "correct_value": "March",
+      "note": "Related Minsk Ski Track at Raubichi held in early March (e.g., March 7, 2026; March 1, 2025), not February.[1][4][5][7]",
+      "source_url": "https://soyuz.by/en/sport/minsk-ski-race-2026-will-be-held-in-raubichi-on-march-7"
+    }
+  },
+  "citations": [
+    "https://soyuz.by/en/sport/minsk-ski-race-2026-will-be-held-in-raubichi-on-march-7",
+    "https://president.gov.by/en/events/uchastie-v-sportivnom-prazdnike-minskaya-lyzhnya-v-raubichah-1646811804",
+    "https://www.belarus.by/en/about-belarus/sport",
+    "https://belarus24.by/en/news/sport/raubichi-will-host-the-sports-and-mass-festival-minsk-ski-track-2026/",
+    "https://www.mst.by/en/news/news.html",
+    "https://rau.by/en/",
+    "https://bntu.by/en/news/18761-studenty-bntu-na-minskoj-lyzhne-2026",
+    "http://rau.by/en/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-1/",
+    "https://mst.gov.by/en/kalendar-sobytij/21851-raubichi-otkryvayut-zimnij-sezon.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:50:31Z"
+}

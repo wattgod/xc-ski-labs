@@ -1,0 +1,84 @@
+{
+  "slug": "bieg-piastow",
+  "name": "Bieg Piastów",
+  "facts": {
+    "distance_km": 51,
+    "elevation_m": 700,
+    "country": "Poland",
+    "region": "Lower Silesia",
+    "discipline": "classic",
+    "field_size": "~5,000",
+    "founded": 1976,
+    "website": "https://www.biegpiastow.pl",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Main race is 50 km CT, Worldloppet distance",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 903,
+      "note": "50 km CT total elevation gain 903 m",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Poland",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Lower Silesia (Dolny Śląsk)",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Main 50 km is classic (CT)",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Highest 1661 finishers in main race (2009); festival has thousands but no ~5000 confirmation",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First race 1976",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches bieg-piastow.pl domain",
+      "source_url": "https://bieg-piastow.pl"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Late February to early March",
+      "note": "Typically late Feb/early March (e.g., 2024: Feb 24-Mar 3; 2026: Feb 14-22)",
+      "source_url": "https://bieg-piastow.pl/ertgy-908/n"
+    }
+  },
+  "citations": [
+    "https://bieg-piastow.pl/25-km-ct",
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "https://bieg-piastow.pl/50-km-ct",
+    "https://pl.wikipedia.org/wiki/Bieg_Piast%C3%B3w",
+    "https://dolnyslask.travel/en/wydarzenia/50-bieg-piastow-cross-country-skiing-festival",
+    "https://bieg-piastow.pl/62645gtyh/n",
+    "https://bieg-piastow.pl",
+    "https://bieg-piastow.pl/bieg-piastow",
+    "https://bieg-piastow.pl/ertgy-908/n"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:05Z"
+}

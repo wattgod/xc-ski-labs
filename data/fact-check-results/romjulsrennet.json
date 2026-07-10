@@ -1,0 +1,82 @@
+{
+  "slug": "romjulsrennet",
+  "name": "Romjulsrennet",
+  "facts": {
+    "distance_km": 23,
+    "elevation_m": 200,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 2000,
+    "website": "https://www.brottumil.no/romjulsrennet/",
+    "date": "December 30 (annually)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "ProXCskiing reports Romjulsrennet races at Sjusjøen, Norway, with men's and women's races (likely 50km based on context of long-distance Visproxcskiing.com articles describe thrilling finishes in men's and women's races at Romjulsrennet, but no exact distance specified; database claim of 23km not confirmed.",
+      "source_url": "https://www.proxcskiing.com/long-distance/team-ragde-charge-and-alnaes-shine-at-romjulsrennet/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Norway in ProXCskiing report.",
+      "source_url": "https://www.proxcskiing.com/long-distance/team-ragde-charge-and-alnaes-shine-at-romjulsrennet/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sjusjøen is mentioned, located in Innlandet region, but no source explicitly states 'Innlandet'.",
+      "source_url": "https://www.proxcskiing.com/long-distance/team-ragde-charge-and-alnaes-shine-at-romjulsrennet/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found specifying classic, skate, or both.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for year founded.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming official website; provided URL not in search results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Reported on Tuesday at Sjusjøen (recent event), but no confirmation of annual December 30.",
+      "source_url": "https://www.proxcskiing.com/long-distance/team-ragde-charge-and-alnaes-shine-at-romjulsrennet/"
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=QEsjz-ZSlXc",
+    "https://www.nbcolympics.com/news/norway-pounces-gold-after-sweden-survives-slush-silver-womens-4x75km-relay",
+    "https://www.espn.com/olympics/story/_/id/47975614/norway-sweeps-nordic-combined-event-possible-olympic-end",
+    "https://www.youtube.com/watch?v=eTVG7k3Jybw",
+    "https://www.proxcskiing.com/long-distance/team-ragde-charge-and-alnaes-shine-at-romjulsrennet/",
+    "https://www.proxcskiing.com/tag/romulsrennet/",
+    "https://www.youtube.com/watch?v=qkhQZCEvJU8"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:50:51Z"
+}

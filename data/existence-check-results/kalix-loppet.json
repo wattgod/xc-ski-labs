@@ -1,0 +1,24 @@
+{
+  "slug": "kalix-loppet",
+  "name": "Kalix Loppet",
+  "country": "Sweden",
+  "tier": 4,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "http://www.skidsm.se",
+    "results_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025",
+    "evidence_summary": "FIS listings confirm a cross-country ski event in Kalix, Sweden, organized by Kalix SK, with participant codex entries for Elmqvist Magnus and a 2024/2025 race page. No explicit 'Kalix Loppet' branding found, but Kalix SK contact details and a club website are provided. Lacks news articles, social media, or videos specifically for 'Kalix Loppet'.",
+    "sources": [
+      "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025",
+      "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=47413"
+    ]
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://www.fis-ski.com/DB/cross-country/live.html?mi=menu-live",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=47413"
+  ],
+  "checked_at": "2026-03-12T15:50:42Z"
+}

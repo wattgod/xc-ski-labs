@@ -1,0 +1,33 @@
+{
+  "slug": "sonot-kkaazoot",
+  "name": "Sonot Kkaazoot",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://sonotkkaazoot.org",
+    "results_url": "https://zone4.ca/event/2025/98qw3X/",
+    "evidence_summary": "The Sonot Kkaazoot has an active official website with detailed history, course maps, 2025 results linked to Zone4 timing system, and announcements for the 39th edition in 2026. Multiple pages provide winner times (e.g., Max Kaufman 1:40:20.6 in 50km 2025), past results, and references to news like Fairbanks News-Miner. The event is organized by Nordic Ski Club of Fairbanks, held annually since 1988 at Birch Hill Recreation Area.",
+    "sources": [
+      "https://sonotkkaazoot.org",
+      "https://sonotkkaazoot.org/about/",
+      "https://sonotkkaazoot.org/results/",
+      "https://sonotkkaazoot.org/2025/04/",
+      "https://sonotkkaazoot.org/2025/12/"
+    ]
+  },
+  "citations": [
+    "https://sonotkkaazoot.org/about/",
+    "https://sonotkkaazoot.org/2025/04/",
+    "https://sonotkkaazoot.org",
+    "https://sonotkkaazoot.org/2025/12/",
+    "https://sonotkkaazoot.org/results/",
+    "https://sonotkkaazoot.org/2025/03/",
+    "https://sonotkkaazoot.org/courses-download/",
+    "https://sonotkkaazoot.org/2023/05/",
+    "https://sonotkkaazoot.org/page/6/",
+    "https://sonotkkaazoot.org/2025/11/"
+  ],
+  "checked_at": "2026-03-12T16:05:06Z"
+}

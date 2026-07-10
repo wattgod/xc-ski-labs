@@ -1,0 +1,83 @@
+{
+  "slug": "gsieser-tal-lauf",
+  "name": "Gsieser Tal Lauf",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 400,
+    "country": "Italy",
+    "region": "South Tyrol",
+    "discipline": "both",
+    "field_size": "~2,300 starters",
+    "founded": 1984,
+    "website": "https://www.valcasies.com",
+    "date": "Late February or early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 42 km distance (along with 30 km option) for both classic and skating.",
+      "source_url": "https://en.wikipedia.org/wiki/Gsieser-Tal-Lauf"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 200,
+      "note": "Official site states 200m climb towards St. Magdalena; no source confirms 400m.",
+      "source_url": "https://www.valcasies.com/en/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Italy.",
+      "source_url": "https://en.wikipedia.org/wiki/Gsieser-Tal-Lauf"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as South Tyrol.",
+      "source_url": "https://en.wikipedia.org/wiki/Gsieser-Tal-Lauf"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic (Saturday) and skating (Sunday).",
+      "source_url": "https://www.valcasies.com/en/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~2,300 or over 2,400 starters; within ±20% tolerance.",
+      "source_url": "https://en.wikipedia.org/wiki/Gsieser-Tal-Lauf"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First held in 1984.",
+      "source_url": "https://en.wikipedia.org/wiki/Gsieser-Tal-Lauf"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site https://www.valcasies.com.",
+      "source_url": "https://www.valcasies.com/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically third weekend in February; late Feb/early March (e.g., 2026: Feb 28-Mar 1).",
+      "source_url": "https://en.wikipedia.org/wiki/Gsieser-Tal-Lauf"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Gsieser-Tal-Lauf",
+    "https://www.dolomitinordicski.com/en/events/granfondo-val-casies",
+    "https://www.valcasies.com/en/",
+    "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/val-casies-cross-country-ski-race/",
+    "https://www.south-tirol.com/event/209/cross-country-ski-race-in-gsies",
+    "https://www.gsieser-tal.com/en/events/084EF681B20D40139DDDE19A78E3039F-gran-fondo-val-casies-gsiesertal-lauf.html",
+    "https://skiclassics.com/gsiesertal-lauf-classic-and-skating-2026-this-weekend-in-italy/",
+    "https://www.gsieser-tal.com/en/active-experiences/cross-country-skiing/cross-country-skiing-events.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:05Z"
+}

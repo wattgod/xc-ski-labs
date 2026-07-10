@@ -1,0 +1,18 @@
+{
+  "slug": "schlickelauf",
+  "name": "Schlickelauf",
+  "country": "Austria",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No concrete evidence found for the 'Schlickelauf' cross-country ski race in the provided search results. The only result is the general Ski Austria website, which lists disciplines like Langlauf but contains no mention of this specific event, results, news, or listings. Lacks official site, results, news articles, or any other required verification.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.skiaustria.at"
+  ],
+  "checked_at": "2026-03-12T16:03:00Z"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "planoiras-volkslanglauf",
+  "name": "Planoiras Volkslanglauf",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "Switzerland",
+    "region": "Graubunden Alps",
+    "discipline": "skate",
+    "field_size": 500,
+    "founded": 1986,
+    "website": null,
+    "date": "Second Sunday of January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 25 km for Planoiras[1][5][6]",
+      "source_url": "https://www.worldloppet.com/planoiras-volkslauf-sui/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Switzerland[1][5][6][8]",
+      "source_url": "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Graubünden (Graubunden) confirmed, Lenzerheide in Graubünden Alps area[1][8]",
+      "source_url": "https://www.hdsports.de/wintersport/planoiras-volkslanglauf"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freie Technik (free technique/skate), classic tracks available[1][5][6]",
+      "source_url": "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Up to 500 participants mentioned; 2024 had ~156 finishers, within ±20% tolerance[7][9]",
+      "source_url": "https://sportsparadise.ch/event/planoiras-volkslanglauf/graubunden-1"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "41st edition in 2026 confirms first in 1986[1][10]",
+      "source_url": "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf",
+      "note": "Official site listed by Worldloppet and event pages[1][6]",
+      "source_url": "https://www.worldloppet.com/planoiras-volkslauf-sui/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Second Sunday of January: 11 Jan 2026, 12 Jan 2025[1][4][10]",
+      "source_url": "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf"
+    }
+  },
+  "citations": [
+    "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf",
+    "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf/Swiss-Loppet",
+    "https://www.suedostschweiz.ch/regionalsport/langlauf-volkslanglauf-planoiras-das-muesst-ihr-wissen",
+    "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf/Startbloecke-Planoiras",
+    "https://www.xc-ski.de/aktuelles/termine/planoiras-volkslanglauf-lenzerheide-schweiz-9/",
+    "https://www.worldloppet.com/planoiras-volkslauf-sui/",
+    "https://sportsparadise.ch/event/planoiras-volkslanglauf/graubunden-1",
+    "https://www.hdsports.de/wintersport/planoiras-volkslanglauf",
+    "https://www.datasport.com/live/ranking/?racenr=26708",
+    "https://vazobervaz.ch/aktuell/allgemein/41-planoiras-volkslanglauf-i-austragung-in-roland-arena"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:49:33Z"
+}

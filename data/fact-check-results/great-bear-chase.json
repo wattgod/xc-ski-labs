@@ -1,0 +1,81 @@
+{
+  "slug": "great-bear-chase",
+  "name": "Great Bear Chase",
+  "facts": {
+    "distance_km": 52,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Upper Peninsula",
+    "discipline": "both",
+    "field_size": 800,
+    "founded": 1981,
+    "website": "https://www.greatbearchase.com",
+    "date": "Second Saturday in March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site lists 52km Skiathlon, 52km Classic, 52km Freestyle as main long-distance events",
+      "source_url": "https://www.greatbearchase.com"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Calumet, Michigan",
+      "source_url": "https://www.greatbearchase.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Upper Peninsula (Keweenaw Peninsula, Calumet, Michigan); sources confirm 'UP' and Michigan's Upper Peninsula",
+      "source_url": "https://www.greatbearchase.com"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both classic and freestyle (skate) races, including skiathlon",
+      "source_url": "https://www.greatbearchase.com"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions 'hundreds of skiers' with 85% from out of area, but no specific number like 800 confirmed",
+      "source_url": "https://www.youtube.com/watch?v=4BB2CNZEDxg"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Started in 1981 by Rick Oikarinen and Bob Gregg",
+      "source_url": "https://www.greatbearchase.com/Race/GreatBearChase/Page/About"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site",
+      "source_url": "https://www.greatbearchase.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Saturday March 7, 2026 (second Saturday in March); described as late winter/early spring event",
+      "source_url": "https://www.greatbearchase.com"
+    }
+  },
+  "citations": [
+    "https://www.greatbearchase.com",
+    "https://www.greatbearchase.com/Race/GreatBearChase/Page/RaceGuide",
+    "https://www.visitkeweenaw.com/the-crossing-place/the-great-bear-chase/",
+    "https://www.greatbearchase.com/Race/GreatBearChase/Page/About",
+    "https://www.youtube.com/watch?v=4BB2CNZEDxg",
+    "https://www.uptravel.com/event/great-bear-chase-ski-marathon/2804/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:39:24Z"
+}

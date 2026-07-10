@@ -1,0 +1,79 @@
+{
+  "slug": "la-diable-nordic",
+  "name": "La Diable Nordic",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 500,
+    "country": "Andorra",
+    "region": "Canillo",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": 2016,
+    "website": "https://www.grandvalira.com",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'La Diable Nordic' cross-country ski race or matching 30km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming total elevation gain for 'La Diable Nordic'; trail races in Canillo mentioned but not ski event.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Canillo is in Andorra per trail race sources, but no confirmation for 'La Diable Nordic' ski race.",
+      "source_url": "https://itra.run/Races/RaceDetails/91635"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Canillo mentioned in Andorra trail races, but no ski race 'La Diable Nordic' found.",
+      "source_url": "https://itra.run/Races/RaceDetails/91635"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe 'La Diable Nordic' as classic cross-country skiing.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this specific ski race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention first edition in 2016 for 'La Diable Nordic'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Grandvalira site mentioned in unrelated context (family park); no link to ski race.",
+      "source_url": "https://www.youtube.com/watch?v=Q6KvotBS4lw"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm March timing for this race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://itra.run/Races/RaceDetails/91635",
+    "https://www.youtube.com/watch?v=Q6KvotBS4lw",
+    "https://itra.run/Races/RaceResults/Canillo.Trail.Races.ULTRA/2024/91647",
+    "http://www.cardpostage.com/galateo9.htm"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:43Z"
+}

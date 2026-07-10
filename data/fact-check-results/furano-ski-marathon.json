@@ -1,0 +1,84 @@
+{
+  "slug": "furano-ski-marathon",
+  "name": "Furano Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 400,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1984,
+    "website": null,
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Furano Ski Marathon or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Furano Ski Marathon or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming Furano Ski Marathon location, though Furano ski resort is in Japan.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming Furano Ski Marathon location, though Furano ski resort is in Hokkaido.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Furano Ski Marathon or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Furano Ski Marathon or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Furano Ski Marathon or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Furano Ski Marathon official website.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Furano Ski Marathon or its date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.princehotels.com/en/ski/furano/",
+    "https://www.onthesnow.com/hokkaido/furano-ski-resort/ski-resort",
+    "https://www.snowfurano.com/ski-resort/",
+    "https://en.wikipedia.org/wiki/Furano_Ski_Resort",
+    "https://www.snowmonkeyresorts.com/smr/hokkaido/hokkaido-ski-resorts/",
+    "https://itra.run/Races/RaceDetails/92769",
+    "https://nozohotel.com/wp-content/uploads/2024/12/FuranoTrailMap22_23English.pdf",
+    "https://www.ikonpass.com/en/destinations/furano-ski-resort",
+    "https://worldsmarathons.com/marathon/hokkaido-marathon"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:38:53Z"
+}

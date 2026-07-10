@@ -1,0 +1,24 @@
+{
+  "slug": "ski-marathon-montreal",
+  "name": "Ski Marathon Montréal",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Ski Marathon Montréal' event; all search results refer to the Canadian Ski Marathon (CSM), a real event held in the Outaouais region near Montebello, not Montreal. No official site, results, news, or listings match 'Ski Marathon Montréal' specifically. The query likely confuses it with the established CSM, which has an official site at skimarathon.ca but no Montréal association.",
+    "sources": []
+  },
+  "citations": [
+    "https://skimarathon.ca/skiers-guide/",
+    "https://www.bonjourquebec.com/en-us/listing/events/marathon-canadien-de-ski/0oor",
+    "https://skimarathon.ca",
+    "https://hikebiketravel.com/the-canadian-ski-marathon-an-amazing-annual-event/",
+    "https://en.wikipedia.org/wiki/Canadian_Ski_Marathon",
+    "https://skimarathon.ca/getting-to-the-event/",
+    "https://skimarathon.ca/registration-fees/"
+  ],
+  "checked_at": "2026-03-12T16:04:19Z"
+}

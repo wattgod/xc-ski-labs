@@ -1,0 +1,77 @@
+{
+  "slug": "backwoods-pursuit",
+  "name": "Backwoods Pursuit",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Michigan",
+    "discipline": "both",
+    "field_size": 40,
+    "founded": 2008,
+    "website": null,
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 25 km distance for 'Backwoods Pursuit' race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 300m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention Michigan backcountry skiing but no specific info on 'Backwoods Pursuit' race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Michigan mentioned in general backcountry skiing videos, but no confirmation for this race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources detail classic, skate, or both for 'Backwoods Pursuit'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for the race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 2008 as first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified in search results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of late February date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/shorts/WFmNPn57fN8",
+    "https://www.youtube.com/watch?v=w16zqL3E4b8"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:11:04Z"
+}

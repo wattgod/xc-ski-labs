@@ -1,0 +1,81 @@
+{
+  "slug": "la-savoyarde",
+  "name": "La Savoyarde",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "France",
+    "region": "French Alps",
+    "discipline": "skate",
+    "field_size": 800,
+    "founded": null,
+    "website": "https://www.lasavoyardeorganisation.com",
+    "date": "First Sunday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm La Savoyarde Marathon offers races including a 42km distance in both skate and classic techniques",
+      "source_url": "https://skiclassics.com/events/challengers/la-savoyarde-marathon/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide elevation gain information for the race course",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm La Savoyarde takes place in France, specifically in La Féclaz, Savoie",
+      "source_url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/la-savoyarde-marathon-international-ski-nordique/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm the race is located in the French Alps, specifically on the Savoie Grand Revard Plateau",
+      "source_url": "https://skiclassics.com/events/challengers/la-savoyarde-marathon/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Search results explicitly state the race offers both skate and classic techniques. The 42km race is available in skate technique, and a 21km classic race is also offered",
+      "source_url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/la-savoyarde-marathon-international-ski-nordique/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide information about typical number of participants",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe La Savoyarde as a 'legendary race' and 'emblematic' event but do not specify the founding year or first edition date",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not confirm the provided URL. Results reference other domains (skiclassics.com, milesrepublic.com, auvergnerhonealpes-tourisme.com) but not lasavoyardeorganisation.com",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm La Savoyarde takes place on the first Sunday in February. The 2026 edition is scheduled for Sunday, February 1st, 2026",
+      "source_url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/la-savoyarde-marathon-international-ski-nordique/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/la-savoyarde-marathon/",
+    "https://fr.milesrepublic.com/en/event/savoyarde-ski-nordique-10645",
+    "https://www.auvergnerhonealpes-tourisme.com/en/fiches/la-savoyarde-marathon-international-ski-nordique/",
+    "https://www.nordicmag.info/en/cross-country-skiing-this-sunday-the-cross-country-caravan-arrives-at-la-savoyarde-0128/",
+    "https://www.youtube.com/watch?v=RUuWNXNuanM",
+    "https://www.explore-savoie.com/en/sit/evening-cross-country-skiing-race-6645908/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:52Z"
+}

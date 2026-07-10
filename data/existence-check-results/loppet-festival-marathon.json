@@ -1,0 +1,27 @@
+{
+  "slug": "loppet-festival-marathon",
+  "name": "Loppet Festival Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Loppet Festival Marathon' in the United States. Search results reference the Loppet Foundation's City of Lakes Loppet Winter Festival, which includes marathon-distance ski events (e.g., 42K races), but no exact match to the queried name exists. No race results, news articles, social media, or listings confirm this specific event.",
+    "sources": []
+  },
+  "citations": [
+    "https://loppet.org/event/luminary-loppet/",
+    "https://loppet.org/event/marathon-pouli-tour-fat-bike/",
+    "https://loppet.org/event/trail-loppet/",
+    "https://loppet.org/loppet-goes-marathon-distance/",
+    "https://loppet.org/loppet-goes-epic/",
+    "https://loppet.org",
+    "https://loppet.org/marathon-puoli-or-tour-changes-guide/",
+    "https://loppet.org/about/",
+    "https://loppet.org/loppet-on-record-pace/",
+    "https://loppet.org/about/get-involved/"
+  ],
+  "checked_at": "2026-03-12T15:54:14Z"
+}

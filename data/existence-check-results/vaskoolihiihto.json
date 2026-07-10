@@ -1,0 +1,28 @@
+{
+  "slug": "vaskoolihiihto",
+  "name": "Vaskoolihiihto",
+  "country": "Finland",
+  "tier": 4,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "https://laplandnorth.fi/en/events/lapin-sudet-100-anniversary-gold-pan-skiing-vaskoolihiihto/",
+    "results_url": null,
+    "evidence_summary": "Vaskoolihiihto is listed as the 'Gold Pan Skiing' event organized by Lapin Sudet ry in Saariselkä on Good Friday, April 3, 2026, with details on distances, registration, and prizes on a tourism site. It is also mentioned as an annual ski marathon on Good Friday in Saariselkä by a skiing information site. No race results, news articles, or listings in major series like Worldloppet were found.",
+    "sources": [
+      "https://laplandnorth.fi/en/events/lapin-sudet-100-anniversary-gold-pan-skiing-vaskoolihiihto/",
+      "https://www.goxski.com/saariselka"
+    ]
+  },
+  "citations": [
+    "https://laplandnorth.fi/en/events/lapin-sudet-100-anniversary-gold-pan-skiing-vaskoolihiihto/",
+    "https://www.goxski.com/saariselka",
+    "https://www.finlandiahiihto.fi",
+    "https://www.finlandiahiihto.fi/registration",
+    "https://hiihtoliitto.fi/en/front-page/",
+    "https://laplandnorth.fi/en/events/",
+    "https://online.tulospalvelu.fi/tulokset-new/sv/?Year=2017",
+    "https://en.glosbe.com/en/fi/Sudetes"
+  ],
+  "checked_at": "2026-03-12T16:11:11Z"
+}

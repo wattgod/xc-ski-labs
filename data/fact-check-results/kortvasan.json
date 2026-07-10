@@ -1,0 +1,83 @@
+{
+  "slug": "kortvasan",
+  "name": "Kortvasan",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 250,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": "~5,000 participants",
+    "founded": null,
+    "website": "https://www.vasaloppet.se/lopp/kortvasan/",
+    "date": "Vasaloppet week (late February / early March)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Kortvasan is listed as a 30 km race, same track as Tjejvasan and Nattvasan 30, starting from Oxberg[4][6]",
+      "source_url": "https://vasaloppet.se/en/news/welcome-to-vasaloppets-winter-week-2026-here-is-a-guide-to-all-races/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for Kortvasan",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All Vasaloppet races, including Kortvasan, held in Sweden[2][4][8]",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Vasaloppet races in Dalarna province, Sweden[2]",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nattvasan 30 (same 30km route from Oxberg) allows both skate and classic; no specific confirmation for Kortvasan[4]",
+      "source_url": "https://vasaloppet.se/en/news/welcome-to-vasaloppets-winter-week-2026-here-is-a-guide-to-all-races/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants in Kortvasan specifically",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded/first edition of Kortvasan",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official Vasaloppet site has /lopp/kortvasan/ path structure matching claim; main site confirms races[4][8]",
+      "source_url": "https://vasaloppet.se/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Part of Vasaloppet's Winter Week in late February/early March[4]",
+      "source_url": "https://vasaloppet.se/en/news/welcome-to-vasaloppets-winter-week-2026-here-is-a-guide-to-all-races/"
+    }
+  },
+  "citations": [
+    "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://vasaloppet.se/en/news/welcome-to-vasaloppets-winter-week-2026-here-is-a-guide-to-all-races/",
+    "https://www.ahotu.com/event/nattvasan",
+    "https://openskimap.org/?obj=8bc921024608adbb76bbfaa3b304711424cf0038",
+    "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594",
+    "https://vasaloppet.se/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:50:54Z"
+}

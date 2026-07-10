@@ -1,0 +1,26 @@
+{
+  "slug": "kainuu-ski-marathon",
+  "name": "Kainuu Ski Marathon",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Kainuu Ski Marathon'. Search results mention Vuokatti Hiihto (a real ski marathon in Kainuu, part of Euroloppet), Kainuu Trail (trail running), and Kainuu Ski Orienteering Week, but none reference 'Kainuu Ski Marathon'. The query likely confuses it with Vuokatti Hiihto.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.kainuutrail.fi/en/news",
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/",
+    "https://www.kainuu.fi/en/tarinat-2/vuokatti-hiihto-skiing-event/",
+    "https://endurancekainuu.fi/en/endurance-kainuu-en/",
+    "https://www.kainuu.fi/en/tourism/active-holiday/skiing/",
+    "https://endurancekainuu.fi/en/vuokatti-ski-marathon-14-3-2026-new-start-times-and-route-updates/",
+    "https://skiorient.fi/en/",
+    "https://endurancekainuu.fi/en/50-km-route-map-and-profile-now-available/",
+    "https://skiorient.fi/bulletin/"
+  ],
+  "checked_at": "2026-03-12T15:50:36Z"
+}

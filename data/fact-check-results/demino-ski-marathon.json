@@ -1,0 +1,84 @@
+{
+  "slug": "demino-ski-marathon",
+  "name": "Demino Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 400,
+    "country": "Russia",
+    "region": "Yaroslavl Oblast",
+    "discipline": "skate",
+    "field_size": 2500,
+    "founded": 2007,
+    "website": "https://www.deminomarathon.ru",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm main distance is 50 km free style.",
+      "source_url": "https://deminom.ru/en/news/deminskie-trassy-gotovy-k-samomu-massovomu-lyzhnomu-marafonu-rossii/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia.",
+      "source_url": "https://en.wikipedia.org/wiki/Demino_Ski_Marathon"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located near Rybinsk in Yaroslavl Oblast; governor of Yaroslavl region mentioned.",
+      "source_url": "https://www.worldloppet.com/most-massive-edition-of-demino-ski-marathon-in-history/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Main 50 km race is free style (FT, skate).",
+      "source_url": "https://deminom.ru/en/news/deminskie-trassy-gotovy-k-samomu-massovomu-lyzhnomu-marafonu-rossii/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typical around 2500; sources report 2800 registered, 2367 registered, over 2000, within ±20% tolerance.",
+      "source_url": "https://deminom.ru/en/news/deminskie-trassy-gotovy-k-samomu-massovomu-lyzhnomu-marafonu-rossii/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held since 2007, first edition 2007.",
+      "source_url": "https://en.wikipedia.org/wiki/Demino_Ski_Marathon"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources link to deminom.ru and demnomarathon.ru domains, matching.",
+      "source_url": "https://deminom.ru/en/news/deminskie-trassy-gotovy-k-samomu-massovomu-lyzhnomu-marafonu-rossii/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early March (e.g., March 3-5 2023, March 6 2021, March 6-7 2022).",
+      "source_url": "https://deminom.ru/en/news/deminskie-trassy-gotovy-k-samomu-massovomu-lyzhnomu-marafonu-rossii/"
+    }
+  },
+  "citations": [
+    "https://deminom.ru/en/news/deminskie-trassy-gotovy-k-samomu-massovomu-lyzhnomu-marafonu-rossii/",
+    "https://en.wikipedia.org/wiki/Demino_Ski_Marathon",
+    "https://rostec.ru/en/media/news/russian-major-ski-marathon-is-ended-in-demino/",
+    "https://worldloppetskier.wordpress.com/events/demino-skimarathon/",
+    "https://www.worldloppet.com/most-massive-edition-of-demino-ski-marathon-in-history/",
+    "https://www.worldloppet.com/browse-alphabetical/?id=1649&l=H",
+    "https://www.worldloppet.com/internationals-able-again-to-travel-to-demino-skimarathon/",
+    "https://deminom.ru/en/news/izmeneniya-na-trasse-deminskogo-lyzhnogo-marafona-/",
+    "https://deminom.ru/en/about/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:38:14Z"
+}

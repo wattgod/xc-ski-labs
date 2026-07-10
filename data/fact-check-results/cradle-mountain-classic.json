@@ -1,0 +1,83 @@
+{
+  "slug": "cradle-mountain-classic",
+  "name": "Cradle Mountain Classic",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "Australia",
+    "region": "Tasmania",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 2010,
+    "website": null,
+    "date": "August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a cross-country ski race named 'Cradle Mountain Classic' with 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources confirm or deny 300m elevation gain for this specific ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Cradle Mountain is in Australia (Tasmania), no sources confirm a ski race by this name.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Tasmania associated with Cradle Mountain area, but no confirmation for the ski race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe the discipline for 'Cradle Mountain Classic' ski race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention typical participants around 50 for this event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm founding year 2010 for this ski race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Cradle Mountain Classic' cross-country ski race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical August date; general cross-country events in Australia are July-August but none match this race.[5]",
+      "source_url": "https://www.snow.org.au/disciplines/cross-country-events/"
+    }
+  },
+  "citations": [
+    "https://www.cradlemtnrun.asn.au/?page_id=6",
+    "https://weareexplorers.co/first-full-ski-descent-of-cradle-mountain/",
+    "https://www.cradlemtnrun.asn.au",
+    "https://www.youtube.com/watch?v=edHrFz6h85M",
+    "https://www.snow.org.au/disciplines/cross-country-events/",
+    "https://www.youtube.com/watch?v=pTz_lLKvuLw",
+    "https://www.runningcalendar.com.au/event/cradle-mountain-run/",
+    "https://tasmania.com/skiing-in-tasmania/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:12:25Z"
+}

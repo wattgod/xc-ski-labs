@@ -1,0 +1,83 @@
+{
+  "slug": "falls-creek-hotham-crossing",
+  "name": "Falls Creek to Hotham Crossing",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 600,
+    "country": "Australia",
+    "region": "Victoria",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.fallscreek.com.au",
+    "date": "August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 37,
+      "note": "Multiple sources describe the Falls to Hotham Alpine Crossing as a 37km route, not a 20km cross-country ski race; no evidence of a 20km ski race found.",
+      "source_url": "https://www.parks.vic.gov.au/places-to-see/parks/alpine-national-park/things-to-do/falls-to-hotham-alpine-crossing"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1100,
+      "note": "Vertical gain listed as 1,100m for the route; one source mentions 700m climb but total is higher; no ski race specifics.",
+      "source_url": "https://fastestknowntime.com/route/falls-hotham-alpine-crossing"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Victoria, Australia.",
+      "source_url": "https://fastestknowntime.com/route/falls-hotham-alpine-crossing"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Victoria, Alpine National Park.",
+      "source_url": "https://www.parks.vic.gov.au/places-to-see/parks/alpine-national-park/things-to-do/falls-to-hotham-alpine-crossing"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for a cross-country ski race named 'Falls Creek to Hotham Crossing'; trail is a summer hike.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on participants for any ski race event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention a ski race or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Falls Creek site exists but no specific ski race page found; sites describe hiking.",
+      "source_url": "https://www.fallscreek.com.au"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Trail accessible November-April for hiking; no ski race in August confirmed.",
+      "source_url": "https://www.parks.vic.gov.au/places-to-see/parks/alpine-national-park/things-to-do/falls-to-hotham-alpine-crossing"
+    }
+  },
+  "citations": [
+    "https://fastestknowntime.com/route/falls-hotham-alpine-crossing",
+    "https://www.parks.vic.gov.au/places-to-see/parks/alpine-national-park/things-to-do/falls-to-hotham-alpine-crossing",
+    "https://www.runguides.com/event/21153/alpine-challenge",
+    "https://www.mthotham.com.au/summer/things-to-do/events/events-whats-on/summer-2025-26/australian-grand-traverse",
+    "https://www.mthotham.com.au/summer/walking-hiking/hike-hotham/falls-to-hotham-alpine-crossing",
+    "https://www.victoriashighcountry.com.au/listing/falls-to-hotham-alpine-crossing-falls-creek",
+    "https://www.fallscreek.com.au/listing/falls-creek-to-hotham-and-shuttle-return-falls-creek/",
+    "https://www.skifalls.com.au/whats-on/events/summer-events/alpine-challenge"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:13:06Z"
+}

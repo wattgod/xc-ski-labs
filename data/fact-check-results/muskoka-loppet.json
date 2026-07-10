@@ -1,0 +1,79 @@
+{
+  "slug": "muskoka-loppet",
+  "name": "Muskoka Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Canada",
+    "region": "Ontario",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1985,
+    "website": "https://www.muskokaloppet.ca",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 24,
+      "note": "Search results show the 2026 Muskoka Loppet offers distances of 4 km, 17 km, and 24 km. The longest competitive distance is 24 km, not 30 km. The 24 km course consists of 3 laps around the lake at Arrowhead Provincial Park.",
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide elevation gain data for the Muskoka Loppet course.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada. The event is held at Arrowhead Provincial Park in Huntsville, Ontario.",
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf"
+    },
+    "region_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Ontario. The event is held at Arrowhead Provincial Park in Huntsville, Ontario.",
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "The 2026 Muskoka Loppet is explicitly a classic race only. The Notice of Race states: 'This is a classic race – skating is not allowed.' The database claim of 'classic' is correct, but the search results confirm this is exclusively classic, not both classic and skate.",
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide historical or typical participant numbers for the Muskoka Loppet.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide information about when the Muskoka Loppet was first established.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.arrowheadnordic.ca",
+      "note": "The official website is hosted by Arrowhead Nordic Ski Club, not a dedicated Muskoka Loppet domain. Registration and event information are found at arrowheadnordic.ca, not muskokaloppet.ca.",
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as late January. The 2026 Muskoka Loppet is scheduled for Sunday, January 25, 2026.",
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf"
+    }
+  },
+  "citations": [
+    "https://northernontario.travel/outdoor-adventures/cross-country-ski-events-ontario",
+    "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf",
+    "https://xcskiontario.ca/event/muskoka-loppet/",
+    "https://thegreatcanadianwilderness.com/events/muskoka-loppet-2026/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:47:14Z"
+}

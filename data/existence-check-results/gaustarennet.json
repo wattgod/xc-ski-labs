@@ -1,0 +1,27 @@
+{
+  "slug": "gaustarennet",
+  "name": "Gaustarennet",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a race called 'Gaustarennet' was found in the search results. The search results contain information about Skarverennet (a real, major cross-country ski race in Norway) and Gausta Ski Resort (an alpine ski destination), but no mention of 'Gaustarennet' as an organized event. The query appears to conflate or confuse these two separate entities.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/skarverennet/",
+    "https://en.wikipedia.org/wiki/Skarverennet",
+    "https://skarverennet.no/en/deltakerinfo/",
+    "https://www.geilo.com/en/skarverennet-2026",
+    "https://skarverennet.no/en/om-skarverennet/",
+    "https://www.gausta.com/en-US/gausta-skisenter/",
+    "https://www.gausta.com/en-US/teambuilding/giant-slalom/",
+    "https://skarverennet.no/en/varens-vakreste-eventyr/",
+    "https://www.gausta.com/en-US/",
+    "https://birken.no/en/ski"
+  ],
+  "checked_at": "2026-03-12T15:46:37Z"
+}

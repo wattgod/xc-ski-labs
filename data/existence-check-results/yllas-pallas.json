@@ -1,0 +1,27 @@
+{
+  "slug": "yllas-pallas",
+  "name": "Ylläs-Pallas",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Ylläs-Pallas' cross-country ski race; all results refer to the real 'Ylläs-Levi Hiihto' event from Ylläs to Levi. No race results, news articles, social media, videos, or listings match 'Ylläs-Pallas' exactly. The query likely confuses it with Ylläs-Levi or the NUTS Ylläs-Pallas trail running event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/yllas-levi/",
+    "https://ski.yllas.fi/en/",
+    "https://www.visitfinland.com/en/product/b6c6f493-6afd-462f-9571-623beaf26c95/yllas-levi-hiihto-2026/",
+    "https://yllaslevi.fi/en/general-information/",
+    "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+    "https://yllaslevi.fi/en/",
+    "https://yllas.fi/en/guide-to-cross-country-skiing-in-yllas-practical-tips-and-services/",
+    "https://yllas.fi/en/activity/national-park/",
+    "https://nutsyllaspallas.com/en/",
+    "https://yllas.fi/en/yllas/"
+  ],
+  "checked_at": "2026-03-12T16:12:25Z"
+}

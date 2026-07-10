@@ -1,0 +1,83 @@
+{
+  "slug": "femund-ski-marathon",
+  "name": "Femund Ski Marathon",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 600,
+    "country": "Norway",
+    "region": "Trøndelag",
+    "discipline": "classic",
+    "field_size": 250,
+    "founded": 1970,
+    "website": "https://www.femundlopet.no",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing a cross-country ski race called Femund Ski Marathon. All results refer to Femundløpet/Femund Race as a sled dog race with distances like 450km, 650km.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for a cross-country ski race; dog sled race Femundløpet mentioned but no elevation data.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Femundløpet is in Norway[1][2][3], but no confirmation of claimed ski race.",
+      "source_url": "https://femundengerdal.no/en/sted/femundlopet/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Femundløpet passes through Trøndelag and Innlandet[1], but Trøndelag alone unconfirmed for ski race; no ski race found.",
+      "source_url": "https://femundengerdal.no/en/sted/femundlopet/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic skiing; Femundløpet is dog sledding with skijoring events[2].",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Femund Race has many participants as 'world's largest by number'[6], but no specific number like 250 for ski race.",
+      "source_url": "https://www.trysil.com/en/businesses/ungdomslaget-flendolen/femund-race-2025-checkpoint-flendalen/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year found for claimed ski race; Femundløpet dog race exists but year unstated in results.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.femundlopet.no is official site for Femundløpet dog sled race[2][3], not confirmed for ski marathon.",
+      "source_url": "https://images.femundlopet.no/original/femundlopet.no/siste-nytt/simpleblog-eae8c225-ca9c-4238-b42e-2f628b8157ae.pdf"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Femundløpet dog race in February (e.g., 2025: Feb 8-15)[2][6]; mid-March unconfirmed for ski race.",
+      "source_url": "https://images.femundlopet.no/original/femundlopet.no/siste-nytt/simpleblog-eae8c225-ca9c-4238-b42e-2f628b8157ae.pdf"
+    }
+  },
+  "citations": [
+    "https://femundengerdal.no/en/sted/femundlopet/",
+    "https://images.femundlopet.no/original/femundlopet.no/siste-nytt/simpleblog-eae8c225-ca9c-4238-b42e-2f628b8157ae.pdf",
+    "https://images.femundlopet.no/original/femundlopet.no/for-utovere/simpleblog-1e2ab590-b6c5-43da-a050-a404e3965a62.pdf",
+    "https://www.visitnorway.com/listings/the-femund-race/209302/",
+    "https://femundengerdal.no/en/events/femundlopet-2025-2/",
+    "https://www.trysil.com/en/businesses/ungdomslaget-flendolen/femund-race-2025-checkpoint-flendalen/",
+    "https://www.femund.no/en/",
+    "https://www.femund.no/en/dropping-points/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:38:39Z"
+}

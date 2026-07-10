@@ -1,0 +1,82 @@
+{
+  "slug": "payakentsut",
+  "name": "Payakentsut",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 650,
+    "country": "Canada",
+    "region": "British Columbia",
+    "discipline": "both",
+    "field_size": "~500",
+    "founded": 2011,
+    "website": "https://www.payak.ca/",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Payak 50 Loppet listed as 50 Km[2]",
+      "source_url": "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "British Columbia, Canada explicitly stated[2]",
+      "source_url": "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Whistler, BC (British Columbia)[2]",
+      "source_url": "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Free technique (both classic and skate)[2][3]",
+      "source_url": "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded/first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site referenced multiple times, matches exactly[1][2][5]",
+      "source_url": "https://www.payak.ca"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late February (e.g., Feb 28 2026, Feb 22 prior year, Feb 26 2022)[2][5][6][7]",
+      "source_url": "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf"
+    }
+  },
+  "citations": [
+    "https://www.whistlerolympicpark.com/things-to-do/event-calendar/the-coast-outdoors-payakentsut-payak",
+    "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf",
+    "https://www.pacificnorthwestloppetseries.com",
+    "https://www.hollyburnxc.ca/event/coast-outdoors-payakentsut/",
+    "https://www.payak.ca",
+    "https://www.payak.ca/home/",
+    "https://www.crosscountrybc.ca/2022-coast-outdoors-payakentsut-whistler-bc"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:53:50Z"
+}

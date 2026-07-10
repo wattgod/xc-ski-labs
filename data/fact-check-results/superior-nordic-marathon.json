@@ -1,0 +1,83 @@
+{
+  "slug": "superior-nordic-marathon",
+  "name": "Superior Nordic Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "United States",
+    "region": "Minnesota",
+    "discipline": "both",
+    "field_size": 350,
+    "founded": 1998,
+    "website": "https://www.superiornordic.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Superior Nordic Marathon' cross-country ski race; results describe trail running events like Superior Fall Trail Race (26.2 miles marathon)",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm cross-country ski race details; trail races mention high elevation gains (e.g., 4050 ft ~1234m for 26.2mi) but not matching query",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for this specific Nordic ski event; trail races are in US (Minnesota)",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation for ski race; trail races in Minnesota North Shore",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for cross-country ski disciplines of this event",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers for ski race; trail races mention nearly 1000 runners but not specific",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year for Nordic ski race; trail races founded 1991 or 2003",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not found in results and no confirmation; results show https://www.superiorfalltrailrace.com for trail races",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No dates for ski race; trail races in September, spring race unspecified",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.superiorfalltrailrace.com/26-mile-info/",
+    "https://www.superiorfalltrailrace.com/maps-and-data/",
+    "https://www.superiorspringtrailrace.com/50km-info/",
+    "https://www.superiorfalltrailrace.com/100-mile-info/",
+    "https://en.wikipedia.org/wiki/Superior_100_Mile_Trail_Race",
+    "https://www.youtube.com/watch?v=uJJ6ehfMl9o",
+    "https://fastestknowntime.com/route/superior-200-mn",
+    "https://ultrarunning.com/calendar/event/superior-fall-trail-races"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:54:44Z"
+}

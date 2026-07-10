@@ -1,0 +1,83 @@
+{
+  "slug": "lapponia-hiihto",
+  "name": "Lapponia Hiihto",
+  "facts": {
+    "distance_km": 190,
+    "elevation_m": 1800,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "both",
+    "field_size": "~500 starters",
+    "founded": 1978,
+    "website": "https://www.lapponiahiihto.fi",
+    "date": "Early April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm total distance of 190km across three stages: 60km + 50km + 80km",
+      "source_url": "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results provide elevation profile descriptions and mention challenging climbs and fells, but do not specify total elevation gain in meters",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the event is held in Finland, specifically in West Lapland",
+      "source_url": "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Lapland (West Lapland/Fell Lapland), specifically in the Pallas-Yllästunturi National Park area near Muonio",
+      "source_url": "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle (free technique) only",
+      "note": "Search results explicitly state races use 'free technique' or 'freestyle technique.' Source [1] mentions 'both classic and free style tracks' are available on trails, but the official competition races themselves are freestyle only, not both disciplines",
+      "source_url": "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Source [1] states 'hundreds of cross-country skiers' participate, but no specific number around 500 is provided in search results",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the event has been organized since 1978",
+      "source_url": "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official website URL confirmed in search results",
+      "source_url": "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as early April. Search results show 2025 dates as April 7, 9, and 11; organized annually in April",
+      "source_url": "https://www.lapponiahiihto.fi/en/lapponia-basic-information.html"
+    }
+  },
+  "citations": [
+    "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html",
+    "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/",
+    "https://www.lapponiahiihto.fi/en/lapponia-basic-information.html",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://www.lapponiahiihto.fi/en/routes-and-services/full-races.html",
+    "https://www.lapponiahiihto.fi/en/routes-and-services.html",
+    "https://enjoywinter.com/read-skipost/finland-the-finlandiahiihto-in-focus/",
+    "https://enontekiolapland.com/en/tapahtuma/lapponia-hiihto/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:51:46Z"
+}

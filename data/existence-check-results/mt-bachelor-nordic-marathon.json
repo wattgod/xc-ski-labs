@@ -1,0 +1,26 @@
+{
+  "slug": "mt-bachelor-nordic-marathon",
+  "name": "Mt Bachelor Nordic Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Mt Bachelor Nordic Marathon' cross-country ski race. Search results show related events like Mt. Bachelor Cup Nordic Race Series (including Cascade Crest with distances up to 50k self-reported), but no marathon specifically named 'Mt Bachelor Nordic Marathon'. No race results, news articles, Worldloppet/FIS listings, social media events, YouTube videos, or registration pages match the exact event name.",
+    "sources": []
+  },
+  "citations": [
+    "https://mbsef.org/mt-bachelor-cup-nordic-races/",
+    "https://mbsef.org/cascadecrest/",
+    "https://www.skireg.com/Confirmed/8860",
+    "https://www.mtbachelor.com/nordic/events/oisran-state-championships/",
+    "https://www.mtbachelor.com/nordic/events/",
+    "https://www.mtbachelor.com/nordic/conditions-grooming-report/",
+    "https://pnwdivision.org/venue/mt-bachelor-resort/",
+    "https://www.mtbachelor.com/nordic/overview/",
+    "https://www.mtbachelor.com/the-mountain/hours-of-operation/"
+  ],
+  "checked_at": "2026-03-12T15:56:38Z"
+}

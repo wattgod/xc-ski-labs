@@ -1,0 +1,82 @@
+{
+  "slug": "flyktningerennet",
+  "name": "Flyktningerennet",
+  "facts": {
+    "distance_km": 44,
+    "elevation_m": 550,
+    "country": "Norway",
+    "region": "Trøndelag",
+    "discipline": "classic",
+    "field_size": "~600",
+    "founded": 1950,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 44km distance",
+      "source_url": "https://skiclassics.com/events/challengers/flyktningerennet/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found confirming or denying 550m elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Starts in Norway, confirmed across sources",
+      "source_url": "https://en.wikipedia.org/wiki/Flyktningerennet"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Starts in Nordli or Lierne (Nord-Trøndelag area), but no direct confirmation of current Trøndelag region classification; Trøndelag mentioned in unrelated results",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed",
+      "source_url": "https://skiclassics.com/events/challengers/flyktningerennet/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants (~600)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First race in 1950",
+      "source_url": "https://en.wikipedia.org/wiki/Flyktningerennet"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Wikipedia mentions 'official home page' but no URL provided in results; no specific URL found",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical March date; one mentions 'this Sunday' without specifics",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Flyktningerennet",
+    "https://scanmagazine.co.uk/trondheim-2025-this-decades-biggest-ski-festival-in-norway/",
+    "https://trondelag.com/en/world-ski-championship/",
+    "https://www.youtube.com/watch?v=-qszPW4S52s",
+    "https://skiclassics.com/events/challengers/flyktningerennet/",
+    "https://www.proxcskiing.com/long-distance/flyktningerennet-this-sunday-crossing-the-norwegian-swedish-border/",
+    "https://www.proxcskiing.com/long-distance/flyktningerennet-live-streamed-today-from-1045-cet-watch-here/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:47:53Z"
+}

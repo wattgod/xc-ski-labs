@@ -1,0 +1,82 @@
+{
+  "slug": "skarverennet",
+  "name": "Skarverennet",
+  "facts": {
+    "distance_km": 37,
+    "elevation_m": 600,
+    "country": "Norway",
+    "region": "Buskerud/Vestland",
+    "discipline": "skate",
+    "field_size": "~12,000 capacity",
+    "founded": 1974,
+    "website": "https://www.skarverennet.no",
+    "date": "Late April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 37 km as the main distance (tolerance ±3 km; also noted as 38 km in one source)",
+      "source_url": "https://en.wikipedia.org/wiki/Skarverennet"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain; start ~1220m, finish ~1000m, high point ~1445-1450m, but no cumulative gain figure found",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as held in Norway",
+      "source_url": "https://en.wikipedia.org/wiki/Skarverennet"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Locations Finse, Ustaoset, Geilo, Hallingskarvet (Hallingdal area); historically Buskerud, now Vestland/Viken, but no source matches 'Buskerud/Vestland' exactly",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Tracks prepared for both skating (freestyle, introduced 1987) and classic; choice available",
+      "source_url": "https://skarverennet.no/en/om-skarverennet/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~12,000 capacity confirmed; also 14,000 limit (tolerance ±20%)",
+      "source_url": "https://skarverennet.no/en/om-skarverennet/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition 1974",
+      "source_url": "https://en.wikipedia.org/wiki/Skarverennet"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as official site",
+      "source_url": "https://www.worldloppet.com/skarverennet/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late April / latter half of April / end of April; e.g., April 18, 2026",
+      "source_url": "https://en.wikipedia.org/wiki/Skarverennet"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Skarverennet",
+    "https://www.worldloppet.com/skarverennet/",
+    "https://skarverennet.no/en/om-skarverennet/",
+    "https://www.geilo.com/en/skarverennet-2026",
+    "https://www.geilo.com/en/event/skarverennet",
+    "https://www.youtube.com/watch?v=4I6ZVKrN_Jo",
+    "https://skarverennet.no/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:21Z"
+}

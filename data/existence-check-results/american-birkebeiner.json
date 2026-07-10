@@ -1,0 +1,35 @@
+{
+  "slug": "american-birkebeiner",
+  "name": "American Birkebeiner",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.birkie.com",
+    "results_url": null,
+    "evidence_summary": "The American Birkebeiner has a fully functional official website at birkie.com detailing the event since 1973 as North America's largest cross-country ski race, with specific pages for 2026 and 2027 events including course maps, cut-off times, registration, and Worldloppet affiliation. Multiple subpages confirm ongoing organization, related events like Birkie Week, Junior Nationals, and past activities such as 2025 updates. It is explicitly listed as part of the Worldloppet circuit.",
+    "sources": [
+      "https://www.birkie.com/ski/events/birkie/",
+      "https://www.birkie.com/2025/",
+      "https://www.birkie.com/calendar/",
+      "https://www.birkie.com/live/worldloppet/",
+      "https://www.birkie.com",
+      "https://www.birkie.com/ski/birkie-week/",
+      "https://www.birkie.com/ski/"
+    ]
+  },
+  "citations": [
+    "https://www.birkie.com/ski/events/birkie/",
+    "https://www.birkie.com/2025/",
+    "https://www.birkie.com/calendar/",
+    "https://www.birkie.com/live/worldloppet/",
+    "https://www.birkie.com",
+    "https://www.birkie.com/ski/birkie-week/",
+    "https://www.birkie.com/ski/",
+    "https://www.birkie.com/ski/events/ski-de-she/",
+    "https://www.birkie.com/race-guide/",
+    "https://www.birkie.com/ski/events/giant-ski/"
+  ],
+  "checked_at": "2026-03-12T15:38:09Z"
+}

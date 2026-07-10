@@ -1,0 +1,34 @@
+{
+  "slug": "traverse-du-massacre",
+  "name": "Traversée du Massacre",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://traverseedumassacre.com",
+    "results_url": "https://traverseedumassacre.com/2026/03/01/resultats-2026/",
+    "evidence_summary": "The Traversée du Massacre is a real, well-established cross-country ski race in the French Jura that has been organized annually since 1970. Multiple independent sources confirm the 2026 edition took place on March 1, 2026, with official race results published, news coverage from regional and specialized ski media, and an active official website with historical information and current race details.",
+    "sources": [
+      "https://traverseedumassacre.com",
+      "https://traverseedumassacre.com/2026/03/01/resultats-2026/",
+      "https://www.leprogres.fr/sport/2026/02/27/la-traversee-du-massacre-est-de-retour-a-premanon",
+      "https://masterskinordique.fr/2026/03/la-traversee-du-massacre-2026-une-course-dans-la-foret-jurassienne/",
+      "https://www.nordicmag.info/ski-de-fond-aubin-gautier-pelissier-et-alice-bourdin-remportent-la-traversee-du-massacre-0301/",
+      "https://premanon.com/event/traversee-du-massacre-2026/",
+      "https://blog.ekosport.fr/traversee-du-massacre/"
+    ]
+  },
+  "citations": [
+    "https://www.leprogres.fr/sport/2026/02/27/la-traversee-du-massacre-est-de-retour-a-premanon",
+    "https://traverseedumassacre.com",
+    "https://masterskinordique.fr/2026/03/la-traversee-du-massacre-2026-une-course-dans-la-foret-jurassienne/",
+    "https://blog.ekosport.fr/traversee-du-massacre/",
+    "https://traverseedumassacre.com/histoire-de-la-traversee-du-massacre/",
+    "https://www.nordicmag.info/ski-de-fond-aubin-gautier-pelissier-et-alice-bourdin-remportent-la-traversee-du-massacre-0301/",
+    "https://premanon.com/event/traversee-du-massacre-2026/",
+    "https://www.marathonskitour.fr/actualite/9992",
+    "https://www.youtube.com/watch?v=k0eokdmwm78"
+  ],
+  "checked_at": "2026-03-12T16:09:25Z"
+}

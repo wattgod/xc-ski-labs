@@ -1,0 +1,80 @@
+{
+  "slug": "vaskoolihiihto",
+  "name": "Vaskoolihiihto",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 300,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.posio.fi",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2012 edition lists Perinteinen 60km: 60.0 km[1]",
+      "source_url": "https://www.kokkens.fi/kilpailut/2012/vaskooli/vaskooli2012.htm"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain; mentions challenging tracks over Palopää, Luuvaara, Kiilopää but no numeric value[2]",
+      "source_url": "https://www.saariselansanomat.fi/artikkeli/auringonpaistetta-pikkupakkasta-haastavia-latuja-ja-onnistumisen-iloa-2"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Saariselkä, Finland[1][2]",
+      "source_url": "https://www.kokkens.fi/kilpailut/2012/vaskooli/vaskooli2012.htm"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Saariselkä is in Lapland region, Finland[1][2]",
+      "source_url": "https://www.kokkens.fi/kilpailut/2012/vaskooli/vaskooli2012.htm"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Perinteinen (classic) 60km confirmed in 2012; 2018 mentions both classic and free but classic exists[1][2]",
+      "source_url": "https://www.kokkens.fi/kilpailut/2012/vaskooli/vaskooli2012.htm"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 47,
+      "note": "2012: 47 starters for 60km classic (close to 50 within ±20% tolerance but sources show higher total; specific 60km classic matches closely)[1]",
+      "source_url": "https://www.kokkens.fi/kilpailut/2012/vaskooli/vaskooli2012.htm"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1983,
+      "note": "36th edition in 2018 implies first in 1983 (2018 - 36 + 1 = 1983)[2]",
+      "source_url": "https://www.saariselansanomat.fi/artikkeli/auringonpaistetta-pikkupakkasta-haastavia-latuja-ja-onnistumisen-iloa-2"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of https://www.posio.fi as official site; Posio is different location, no direct link found[3]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2018: March 30; 2012: April 6 (late March/early April, typical March/Easter time)[1][2]",
+      "source_url": "https://www.saariselansanomat.fi/artikkeli/auringonpaistetta-pikkupakkasta-haastavia-latuja-ja-onnistumisen-iloa-2"
+    }
+  },
+  "citations": [
+    "https://www.kokkens.fi/kilpailut/2012/vaskooli/vaskooli2012.htm",
+    "https://www.saariselansanomat.fi/artikkeli/auringonpaistetta-pikkupakkasta-haastavia-latuja-ja-onnistumisen-iloa-2",
+    "https://vauhti.fi/voitelusuositukset/",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://online.tulospalvelu.fi/tulokset-new/sv/?Year=2017"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:20:41Z"
+}

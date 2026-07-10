@@ -1,0 +1,82 @@
+{
+  "slug": "bjelasnica-ski-marathon",
+  "name": "Bjelašnica Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 450,
+    "country": "Bosnia and Herzegovina",
+    "region": "Sarajevo",
+    "discipline": "both",
+    "field_size": 150,
+    "founded": 2010,
+    "website": "https://www.bjelasnica.ba",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Bjelašnica Ski Marathon' or any cross-country ski race with 30km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for the cross-country ski race 'Bjelašnica Ski Marathon' or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Bjelašnica is in Bosnia and Herzegovina per sources, but no confirmation of the specific cross-country ski marathon event.",
+      "source_url": "https://medias2.fis-ski.com/pdf/2026/AL/0075/2026AL0075PROG.pdf"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sarajevo region confirmed for Bjelašnica ski events, but not specifically for the claimed cross-country marathon.",
+      "source_url": "https://medias2.fis-ski.com/pdf/2026/AL/0075/2026AL0075PROG.pdf"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention classic or skate disciplines for 'Bjelašnica Ski Marathon'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for the specific cross-country ski race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition in 2010 for this event.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.bjelasnica.ba not verified as official site for the marathon; other sites like race-bjelasnica.ba appear for alpine events.",
+      "source_url": "https://medias2.fis-ski.com/pdf/2026/AL/0075/2026AL0075PROG.pdf"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical February date for this specific cross-country marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://medias2.fis-ski.com/pdf/2026/AL/0075/2026AL0075PROG.pdf",
+    "https://sarajevotimes.com/forty-years-since-the-olympics-the-ski-slope-in-bjelasnica-is-named-jure-franko/",
+    "https://sarajevo.travel/en/text/ski-season-on-jahorina-bjelasnica-and-igman/142",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=58130&seasoncode=2026",
+    "https://www.boardriding.com/events/fis-race-ss-ba-bjelasnica-sarajevo-2025",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=51317&seasoncode=2023",
+    "https://app.advcollective.com/travel-guides/Sarajevo/conquer-the-olympic-slopes-ski-bjelasnica-sarajevo"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:35:42Z"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "madesimo-ski-marathon",
+  "name": "Madesimo Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "Italy",
+    "region": "Lombardy",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 2002,
+    "website": "https://www.madesimo.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Madesimo Ski Marathon' race with specific distance details. Search results show Madesimo has cross-country skiing trails (5 km total in the area) and hosts various skiing events, but no dedicated marathon event with a 42 km distance is documented in the provided sources.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found documenting elevation gain for a 'Madesimo Ski Marathon.' While Madesimo's ski area extends from village level to Alpe Motta, specific elevation gain for a marathon race is not provided in available sources.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Madesimo is confirmed to be in Italy, located in the province of Sondrio in the Valchiavenna region.",
+      "source_url": "https://www.madesimo.eu/en/"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Sondrio",
+      "note": "The database claims 'Lombardy' (which is technically the region), but the more specific province is Sondrio. Madesimo is described as 'an Italian municipality that belongs to the province of Sondrio.'",
+      "source_url": "https://deaflympics2019.fssi.it/madesimo/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Madesimo offers cross-country skiing with 5 km of tracks, but no specific information about a 'Madesimo Ski Marathon' race or whether it uses classic or skate discipline is found in web sources.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources document typical participant numbers for a 'Madesimo Ski Marathon.' The search results do not reference this specific race event.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found documenting when a 'Madesimo Ski Marathon' was founded or first held. The race does not appear in the provided search results.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.madesimo.eu/en/",
+      "note": "The provided URL 'https://www.madesimo.com' does not appear in search results. The official Madesimo tourism and events website is 'https://www.madesimo.eu/en/', which contains information about skiing and events in Madesimo.",
+      "source_url": "https://www.madesimo.eu/en/"
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources document a specific race date or month for a 'Madesimo Ski Marathon.' While Madesimo's ski season runs from late November to late spring, no dedicated marathon event with a typical February date is confirmed in available sources.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.madesimo.eu/en/experiences/ski-madesimo/",
+    "https://www.sellaronda.it/en/entries/",
+    "https://www.deminom.ru/en/",
+    "https://www.madesimo.eu/en/experiences/cross-country-skiing/",
+    "https://www.nordica.com/latvijas-republika/en/event/pool-sci-italia-prove-libere-tour-2025-all-the-nordica-ski-range-ski-test-07-08-2024",
+    "https://www.madesimo.eu/en/",
+    "https://www.sellaronda.it/en/",
+    "https://www.valtellina.it/en/events/madesimo-campodolcino/en-campionato-italiano-downhill-madesimo",
+    "https://www.fis-ski.com/DB/pdf/2021/AL/2301/2021AL2301PROG.pdf",
+    "https://deaflympics2019.fssi.it/madesimo/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:44:49Z"
+}

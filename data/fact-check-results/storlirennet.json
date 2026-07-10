@@ -1,0 +1,80 @@
+{
+  "slug": "storlirennet",
+  "name": "Storlirennet",
+  "facts": {
+    "distance_km": 35,
+    "elevation_m": 400,
+    "country": "Sweden",
+    "region": "Jamtland / Trondelag",
+    "discipline": "skate",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.skiclassics.com",
+    "date": "TBD 2026"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 35km distance[1][2][5]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 140,
+      "note": "Sources describe start at 600m, highest point 740m (140m climb), finish at 400m; no mention of 400m total gain[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "country": {
+      "status": "WRONG",
+      "correct_value": "Sweden/Norway",
+      "note": "Cross-border race starting in Storlien, Sweden, finishing in Meråker, Norway[1][2][5]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Jämtland (Sweden) / Trøndelag (Norway)",
+      "note": "Starts in Storlien (Jämtland County, Sweden), finishes in Meråker (Trøndelag, Norway); matches but specified as counties, not provinces exactly[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle (skating official class)",
+      "note": "Freestyle technique, official competition class skating (skate), though classic/double poling allowed[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1938,
+      "note": "First held in 1938[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "Storlirennet (specific site linked, not skiclassics.com)",
+      "note": "Sources list 'Storlirennet' as website, Ski Classics is the series site[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "April 11, 2026",
+      "note": "Specific date April 11, 2026 (not TBD)[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/"
+    }
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/",
+    "https://skiclassics.com/storlirennet-joins-the-ski-classics-challengers-calendar/",
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://www.nordicmag.info/en/cross-country-skiing-astrid-oeyre-slind-and-jan-thomas-jenssen-win-the-storlirennet-0405/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:54:21Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "lake-placid-loppet",
+  "name": "Lake Placid Loppet",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 1120,
+    "country": "United States",
+    "region": "New York",
+    "discipline": "both",
+    "field_size": "~400",
+    "founded": 1982,
+    "website": "https://mtvanhoevenberg.com/lakeplacidloppet/",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 50 km Loppet is confirmed as the primary race distance. Search results consistently reference '50 km Loppet' and '25 km Kort Loppet' as main events, with shorter 2-13 km Ski Challenge courses also available.",
+      "source_url": "https://www.adktaste.com/adirondack-events/lake-placid-2026-loppet-cross-country-skiing"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe the course as 'demanding' with 'sustained climbs' and 'fast descents' but do not provide specific total elevation gain measurements.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located at Mt. Van Hoevenberg in Lake Placid, New York, United States, as confirmed across all sources.",
+      "source_url": "https://www.adktaste.com/adirondack-events/lake-placid-2026-loppet-cross-country-skiing"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event is held in Lake Placid, New York, as confirmed across all sources.",
+      "source_url": "https://www.lakeplacid.com/events/lakeplacidloppet"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race schedule includes both Classic Technique and Free Technique (skate) races for multiple distances, confirming both disciplines are offered.",
+      "source_url": "https://www.adktaste.com/adirondack-events/lake-placid-2026-loppet-cross-country-skiing"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide typical participant numbers. One 2023 race report mentions 84 competitors in the 25km Freestyle race and 35 in the 25km Kort Loppet, but these are specific race distances from one year, not overall event totals.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide the founding year. One source mentions the race 'returned after a multiyear hiatus due to snow conditions and the COVID-19 disruption' in 2023, but does not establish when the event was first created.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results reference 'Mt. Van Hoevenberg website' for registration and information but do not provide the specific URL. The provided URL cannot be verified from these search results.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 2026 Lake Placid Loppet is scheduled for Sunday, January 25, 2026, confirming January as the typical race month.",
+      "source_url": "https://www.adktaste.com/adirondack-events/lake-placid-2026-loppet-cross-country-skiing"
+    }
+  },
+  "citations": [
+    "https://www.adktaste.com/adirondack-events/lake-placid-2026-loppet-cross-country-skiing",
+    "https://www.lakeplacid.com/events/lakeplacidloppet",
+    "https://www.adirondack.net/event/lake-placid-nordic-festival-85341/",
+    "https://www.nwve.org/single-post/lake-placid-loppet-2023",
+    "https://www.skireg.com/8541",
+    "http://www.m.roberts-1.com/xcski/lpl/index.htm",
+    "https://www.mansfieldnordic.org/event/lake-placid-loppet-2/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:51:37Z"
+}

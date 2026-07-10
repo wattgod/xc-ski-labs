@@ -1,0 +1,35 @@
+{
+  "slug": "birkebeinerrennet",
+  "name": "Birkebeinerrennet",
+  "country": "Norway",
+  "tier": 1,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://birken.no/en/ski/birkebeinerrennet-54-km",
+    "results_url": "https://birken.no/en/news",
+    "evidence_summary": "Birkebeinerrennet is a well-established annual 54km cross-country ski race from Rena to Lillehammer, Norway, held since 1932, with detailed 2026 event info including schedules, registration, and bib pickup on the official site. It is listed in Worldloppet, Ski Classics, and Wikipedia, with news confirming past editions like 2025 with over 30,000 participants. Multiple tourism and historical sites corroborate its existence and traditions.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Birkebeinerrennet",
+      "https://birken.no/en/ski/birkebeinerrennet-54-km",
+      "https://skiclassics.com/events/pro-tour/birkebeinerrennet/",
+      "https://en.lillehammer.com/whats-on/birkebeinerrennet-birkebeiner-ski-race-53-km-p634893",
+      "https://birken.no/en/ski",
+      "https://birken.no",
+      "https://birken.no/en/news",
+      "https://www.worldloppet.com/category/news/birkebeinerrennet/"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Birkebeinerrennet",
+    "https://birken.no/en/ski/birkebeinerrennet-54-km",
+    "https://skiclassics.com/events/pro-tour/birkebeinerrennet/",
+    "https://en.lillehammer.com/whats-on/birkebeinerrennet-birkebeiner-ski-race-53-km-p634893",
+    "https://birken.no/en/ski",
+    "https://birken.no",
+    "https://birken.no/en/news",
+    "https://www.worldloppet.com/category/news/birkebeinerrennet/",
+    "https://eng.maihaugen.no/exhibitions/previous-exhibitions/birkebeinerrennet"
+  ],
+  "checked_at": "2026-03-12T15:40:39Z"
+}

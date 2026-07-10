@@ -1,0 +1,77 @@
+{
+  "slug": "gulmarg-nordic-ski-challenge",
+  "name": "Gulmarg Nordic Ski Challenge",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 400,
+    "country": "India",
+    "region": "Jammu and Kashmir",
+    "discipline": "classic",
+    "field_size": 40,
+    "founded": 2020,
+    "website": "https://www.gulmarg.org",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention Nordic Skiing as a discipline at Khelo India Winter Games in Gulmarg but do not specify race distance details for any individual event",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not contain elevation gain information for specific Nordic Skiing races",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Gulmarg is confirmed to be in India",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227124"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Gulmarg is confirmed to be in Jammu and Kashmir",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227124"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results confirm Nordic Skiing (Cross-Country) is a discipline at Khelo India Winter Games in Gulmarg but do not specify whether events use classic, skate, or both techniques",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227124"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention over 800 athletes total across all disciplines at the 2024 Khelo India Winter Games but do not specify participant numbers for individual Nordic Skiing events",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2024,
+      "note": "Search results indicate Khelo India Winter Games started in 2024, not 2020. The 2024 event was the fourth edition held in Gulmarg",
+      "source_url": "https://www.youtube.com/watch?v=BCfRWzytFWY"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide information about an official website for the Gulmarg Nordic Ski Challenge specifically",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Khelo India Winter Games Gulmarg leg is confirmed to occur in February (2024 edition was February 21-25; 2026 edition scheduled for February 23-26)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227124"
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=BCfRWzytFWY",
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227124"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:25Z"
+}

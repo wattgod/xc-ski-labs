@@ -1,0 +1,2470 @@
+{
+  "total_races_checked": 379,
+  "per_field_summary": {
+    "distance_km": {
+      "CORRECT": 137,
+      "WRONG": 99,
+      "UNCERTAIN": 143
+    },
+    "elevation_m": {
+      "CORRECT": 7,
+      "WRONG": 42,
+      "UNCERTAIN": 330
+    },
+    "country": {
+      "CORRECT": 263,
+      "WRONG": 6,
+      "UNCERTAIN": 110
+    },
+    "region": {
+      "CORRECT": 27,
+      "WRONG": 2,
+      "UNCERTAIN": 350
+    },
+    "discipline": {
+      "CORRECT": 148,
+      "WRONG": 53,
+      "UNCERTAIN": 178
+    },
+    "field_size": {
+      "CORRECT": 24,
+      "WRONG": 40,
+      "UNCERTAIN": 315
+    },
+    "founded": {
+      "CORRECT": 56,
+      "WRONG": 56,
+      "UNCERTAIN": 267
+    },
+    "website": {
+      "CORRECT": 6,
+      "WRONG": 4,
+      "UNCERTAIN": 369
+    },
+    "date": {
+      "CORRECT": 0,
+      "WRONG": 0,
+      "UNCERTAIN": 379
+    }
+  },
+  "wrong_findings": [
+    {
+      "slug": "3-zinnen-ski-marathon",
+      "field": "field_size",
+      "profile_value": "~1,500 starters",
+      "correct_value": 100,
+      "source_url": "https://www.dolomiti.it/en/3-zinnen-dolomites/events/pustertaler-ski-marathon",
+      "note": "Sources state 'over a hundred skiers' compete each year, not ~1500; ~1,500 outside ±20% tolerance (1200-1800)"
+    },
+    {
+      "slug": "alutaguse-maraton",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 43,
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/",
+      "note": "Sources consistently state 43km (45km for 2026), outside ±3km tolerance of 42km[1][2][3][4]"
+    },
+    {
+      "slug": "alutaguse-maraton",
+      "field": "region",
+      "profile_value": "Ida-Virumaa",
+      "correct_value": "Alutaguse (Ida-Viru County)",
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/",
+      "note": "Located in Alutaguse National Park, Vasavere, North-East Estonia (Ida-Viru County includes Alutaguse)[1][2][3][4]"
+    },
+    {
+      "slug": "alutaguse-maraton",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "classic",
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/",
+      "note": "Main race is classic technique only; additional classic races noted, no skate mentioned[1][2][3][4]"
+    },
+    {
+      "slug": "alutaguse-maraton",
+      "field": "field_size",
+      "profile_value": 500,
+      "correct_value": 800,
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/",
+      "note": "Approximately 800 participants yearly, outside ±20% tolerance of 500 (400-600)[1][2][3]"
+    },
+    {
+      "slug": "american-birkebeiner",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 50,
+      "source_url": "https://www.birkie.com/ski/events/birkie/",
+      "note": "Skate is 50km, classic is 53km; database lists 50km which matches skate but not precisely both[3][1]"
+    },
+    {
+      "slug": "american-birkebeiner",
+      "field": "elevation_m",
+      "profile_value": 650,
+      "correct_value": 1398,
+      "source_url": "https://www.worldloppet.com/wl-race/american-birkebeiner/",
+      "note": "Total elevation gain 1398m for 50km FT (skate), 1379m for 53km CL; database 650m incorrect, outside ±100m tolerance[1]"
+    },
+    {
+      "slug": "asarna-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 90,
+      "correct_value": 48,
+      "source_url": "https://skiclassics.com/events/challengers/asarna-ski-marathon/",
+      "note": "Sources confirm 48km classic for 2026, or 46-47km generally; 90km exceeds ±3km tolerance"
+    },
+    {
+      "slug": "asarna-ski-marathon",
+      "field": "founded",
+      "profile_value": 1940,
+      "correct_value": 2009,
+      "source_url": "https://plane-bear-ztrl.squarespace.com/nyheter-asarnaik/sarna-ski-marathon-2026",
+      "note": "18th edition in 2026 implies first in 2009 (2026-17=2009)"
+    },
+    {
+      "slug": "avacha-marathon",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 60,
+      "source_url": "https://www.worldloppet.com/avacha-marathon-rus/",
+      "note": "Multiple sources confirm the Avacha Marathon is a 60km race, not 50km"
+    },
+    {
+      "slug": "bad-gastein-criterium",
+      "field": "elevation_m",
+      "profile_value": 600,
+      "correct_value": 528,
+      "source_url": "https://skiclassics.com/bad-gastein-weekend-opens-ski-classics-season-xvii-racing-alpine-charm-and-a-touch-of-belle-epoque-magic/",
+      "note": "Sources report 528m elevation gain; outside ±100m tolerance of 600m"
+    },
+    {
+      "slug": "bad-gastein-criterium",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "classic",
+      "source_url": "https://skiclassics.com/bad-gastein-weekend-opens-ski-classics-season-xvii-racing-alpine-charm-and-a-touch-of-belle-epoque-magic/",
+      "note": "Sources specify classic technique for Criterium"
+    },
+    {
+      "slug": "baikal-ice-marathon-on-skis",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 50,
+      "source_url": "https://baikalcomplex.com/skimarathon.htm",
+      "note": "Baikal Skiing Marathon is 50 km classic style ski marathon[2]"
+    },
+    {
+      "slug": "baikal-ice-marathon-on-skis",
+      "field": "elevation_m",
+      "profile_value": 20,
+      "correct_value": 60,
+      "source_url": "https://baikalcomplex.com/skimarathon.htm",
+      "note": "Lap's difference in altitude about 60 m (within one lap, total for 50km/3 laps ~180m, but per lap 60m; database 20m too low)[2]"
+    },
+    {
+      "slug": "baikal-ice-marathon-on-skis",
+      "field": "founded",
+      "profile_value": 2005,
+      "correct_value": 1976,
+      "source_url": "https://baikalcomplex.com/skimarathon.htm",
+      "note": "Annual competition held since 1976[2]"
+    },
+    {
+      "slug": "baikal-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 50,
+      "source_url": "https://baikalcomplex.com/skimarathon.htm",
+      "note": "Source [5] describes Baikal Skiing Marathon with highest spot implying a ski event, consistent with 50km distance claimed, but other sources describe running marathon at 42km; however, query specifies cross-country ski race and [5] matches ski context"
+    },
+    {
+      "slug": "bedrichov-night-light",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/",
+      "note": "Offers Free Technique (skate) on one day and Classical Technique (CT) on the other[1]"
+    },
+    {
+      "slug": "bieg-grunwaldzki",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 50,
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/",
+      "note": "Multiple sources confirm the main race is 50 km classic technique (CT), matching database claim within tolerance; one source mentions shortened to 42 km in a specific year due to snow issues but standard is 50 km[1][3][4][6][7]"
+    },
+    {
+      "slug": "bieg-grunwaldzki",
+      "field": "elevation_m",
+      "profile_value": 800,
+      "correct_value": 903,
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/",
+      "note": "Official course profile lists 903 m total elevation gain for 50 km CT; one review claims 1700 m but less authoritative; outside ±100m tolerance of 800m[3][6]"
+    },
+    {
+      "slug": "bieg-grunwaldzki",
+      "field": "founded",
+      "profile_value": 1978,
+      "correct_value": 1976,
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/",
+      "note": "First edition in 1976, not 1978[3][5]"
+    },
+    {
+      "slug": "bieg-piastow",
+      "field": "distance_km",
+      "profile_value": 51,
+      "correct_value": 50,
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/",
+      "note": "Main race is 50 km CT, Worldloppet distance"
+    },
+    {
+      "slug": "bieg-piastow",
+      "field": "elevation_m",
+      "profile_value": 700,
+      "correct_value": 903,
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/",
+      "note": "50 km CT total elevation gain 903 m"
+    },
+    {
+      "slug": "bieg-podhalanski",
+      "field": "field_size",
+      "profile_value": 450,
+      "correct_value": 600,
+      "source_url": "https://bieg.nowytarg.pl",
+      "note": "Typical number around 600 participants"
+    },
+    {
+      "slug": "biela-stopa",
+      "field": "founded",
+      "profile_value": 1973,
+      "correct_value": 1974,
+      "source_url": "https://sk.wikipedia.org/wiki/Biela_stopa",
+      "note": "First edition 1974 (preparations in 1973, race on 17 Feb 1974); 50th edition implies ~2023/2024"
+    },
+    {
+      "slug": "birkebeinerrennet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://www.globalrunners.se/birkebeinerrennet/",
+      "note": "Source [4] states 'Distance: 53 or 28 km in classic style, or 53 km skate.' This indicates both classic and skate disciplines are offered, not classic only."
+    },
+    {
+      "slug": "black-jack-loppet",
+      "field": "founded",
+      "profile_value": 2001,
+      "correct_value": 1997,
+      "source_url": "https://www.crosscountrybc.ca/youre-invited-30th-annual-black-jack-loppet",
+      "note": "30th annual in 2026 implies first edition in 1997 (2026-29=1997)"
+    },
+    {
+      "slug": "blafjallagangan",
+      "field": "founded",
+      "profile_value": 2018,
+      "correct_value": 2020,
+      "source_url": "https://blafjallagangan.is/en/",
+      "note": "First mentioned as new Euroloppet race in 2020; earlier pages like 2021 exist but no pre-2020 confirmation"
+    },
+    {
+      "slug": "book-across-the-bay",
+      "field": "founded",
+      "profile_value": 1996,
+      "correct_value": 1998,
+      "source_url": "https://seagullbay.com/book-across-the-bay/",
+      "note": "Past 25 years in 2023 implies founded ~1998 (2023-25); Chapter 29 in 2026 confirms first edition 1998"
+    },
+    {
+      "slug": "boulder-mountain-tour",
+      "field": "country",
+      "profile_value": "United States",
+      "correct_value": "Idaho, United States",
+      "source_url": "https://bouldermountaintour.com/race-details/",
+      "note": "Race held in Ketchum, Idaho, in Sawtooth National Recreation Area"
+    },
+    {
+      "slug": "boulder-mountain-tour",
+      "field": "field_size",
+      "profile_value": "~1,000 starters",
+      "correct_value": 800,
+      "source_url": "https://bouldermountaintour.com/race-details/",
+      "note": "Capped at 800 for Full Boulder (2025); recent events had 770 starters out of 1000 registrants (~77% of ~1000)"
+    },
+    {
+      "slug": "boulder-mountain-tour",
+      "field": "founded",
+      "profile_value": 1974,
+      "correct_value": 1974,
+      "source_url": "https://bouldermountaintour.com/bmt-race-field-rounding-into-shape/",
+      "note": "49th annual in 2023 implies first edition 1975 (2023-48=1975); 52nd in 2025 confirms ~1974 start but exact year not explicit"
+    },
+    {
+      "slug": "california-gold-rush",
+      "field": "distance_km",
+      "profile_value": 45,
+      "correct_value": 50,
+      "source_url": "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/",
+      "note": "Recent events (2025, 2026) list Gold Rush as 50km freestyle; older sources mention 45k but current is 50k"
+    },
+    {
+      "slug": "california-gold-rush",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "freestyle (skate)",
+      "source_url": "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/",
+      "note": "Gold Rush is Mass Start Freestyle Races (skate); classic is on Saturday for shorter distances"
+    },
+    {
+      "slug": "cascade-crest",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "freestyle skate (50k allows self-reported classic or skate)",
+      "source_url": "https://mbsef.org/cascadecrest/",
+      "note": "Primarily freestyle skate for most distances; 50k self-reported freestyle skate or classic[2][6][7]"
+    },
+    {
+      "slug": "cascade-crest",
+      "field": "field_size",
+      "profile_value": 300,
+      "correct_value": 120,
+      "source_url": "https://bendbulletin.com/2016/03/13/changes-get-positive-reviews-at-cascade-crest/",
+      "note": "Roughly 120 participants reported in 2016; tolerance ±20% (96-144) matches but source provides specific number[5]"
+    },
+    {
+      "slug": "cascade-crest",
+      "field": "founded",
+      "profile_value": 2010,
+      "correct_value": 2016,
+      "source_url": "https://skitrax.com/mt-bachelor-nordic-center-announces-inaugural-cascade-crest-50km-nordic-ski-marathon-and-relay/",
+      "note": "Inaugural Cascade Crest 50km announced January 2016[3]"
+    },
+    {
+      "slug": "chama-chile-ski-classic",
+      "field": "distance_km",
+      "profile_value": 10,
+      "correct_value": 18,
+      "source_url": "https://findarace.com/us/events/chama-chile-ski-classic",
+      "note": "Event features 18k Freestyle XC Ski Race as the main distance, plus shorter options like 6k and 12k; database's 10km does not match listed distances"
+    },
+    {
+      "slug": "chama-chile-ski-classic",
+      "field": "elevation_m",
+      "profile_value": 200,
+      "correct_value": 244,
+      "source_url": "https://app.advcollective.com/travel-guides/Chama/chama-chile-ski-classic-new-mexico-winter-adventure",
+      "note": "Elevation gain around 800 feet (244m), not 200m"
+    },
+    {
+      "slug": "city-of-lakes-loppet",
+      "field": "distance_km",
+      "profile_value": 33,
+      "correct_value": 30,
+      "source_url": "https://loppet.org/event/winter-festival-2/2026-01-31/",
+      "note": "Classic Marathon listed as 29km (5 laps), Skate Marathon as 31km (4 laps); database 33km outside ±3km tolerance"
+    },
+    {
+      "slug": "cookie-race",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 45,
+      "source_url": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "First edition had one 45 km distance; now includes 45km, 24km, 15km, and youth races[2]"
+    },
+    {
+      "slug": "cookie-race",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "classic",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "Open to classic cross-country skiers only[2][3]"
+    },
+    {
+      "slug": "cookie-race",
+      "field": "field_size",
+      "profile_value": 400,
+      "correct_value": 500,
+      "source_url": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "Grown to 500 participants annually (maximum allowed)[2]"
+    },
+    {
+      "slug": "cookie-race",
+      "field": "founded",
+      "profile_value": 1980,
+      "correct_value": 1978,
+      "source_url": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "First Kananaskis Ski Marathon in March 1978[2]"
+    },
+    {
+      "slug": "dachstein-nordic-classic",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 40,
+      "source_url": "https://www.schladming-dachstein.at/en/activities/tours/Dachsteinlauf-40-km-Classic-26-Skating_tour_5679",
+      "note": "Multiple sources confirm the main race distance as 40 km, not 42 km (outside ±3 km tolerance)"
+    },
+    {
+      "slug": "dachstein-nordic-classic",
+      "field": "elevation_m",
+      "profile_value": 600,
+      "correct_value": 380,
+      "source_url": "https://www.outdooractive.com/mobile/en/route/cross-country-skiing/schladming-dachstein/dachsteinlauf-40-km-classic-skating/805010428/",
+      "note": "Source states 380 meters of elevation for the 40 km Dachsteinlauf (outside ±100m tolerance)"
+    },
+    {
+      "slug": "dachstein-nordic-classic",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://www.schladming-dachstein.at/en/activities/tours/Dachsteinlauf-40-km-Classic-26-Skating_tour_5679",
+      "note": "Offers both classic and skating technique races (10km and 40km each)"
+    },
+    {
+      "slug": "dolomitenlauf",
+      "field": "elevation_m",
+      "profile_value": 500,
+      "correct_value": 460,
+      "source_url": "https://www.tyrol.com/activities/sport/cross-country-skiing/nordic-ski-trails/dolomitenlauf-2022",
+      "note": "Sources indicate 230m per lap run twice (230*2=460m), within current Obertilliach course; database 500m exceeds ±100m tolerance"
+    },
+    {
+      "slug": "dolomitenlauf",
+      "field": "field_size",
+      "profile_value": "~1,500",
+      "correct_value": 2500,
+      "source_url": "https://www.dolomitinordicski.com/en/events/dolomitenlauf",
+      "note": "~2,000 to 2,500 participants; ~1,500 is below 20% tolerance (1,500*1.2=1,800)"
+    },
+    {
+      "slug": "dolomitenlauf",
+      "field": "website",
+      "profile_value": "https://www.dolomitenlauf.at",
+      "correct_value": "https://www.dolomitensport.at",
+      "source_url": "https://www.dolomitinordicski.com/en/events/dolomitenlauf",
+      "note": "Official site listed as www.dolomitensport.at and dolomitensport.at[1][4]"
+    },
+    {
+      "slug": "engadin-frauenlauf",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "classic",
+      "source_url": "https://www.toko.ch/en/news-wax-tip/news-stories/engadin-frauenlauf-2026/",
+      "note": "Sources describe this as a cross-country skiing race (Langlauf). The term 'skate' refers to skate skiing, which is a different technique. Cross-country skiing races in the Engadin Marathon Week are classic style unless otherwise specified"
+    },
+    {
+      "slug": "engadin-la-diagonela",
+      "field": "elevation_m",
+      "profile_value": 500,
+      "correct_value": 694,
+      "source_url": "https://www.worldloppet.com/la-diagonela-sui/",
+      "note": "Sources report +694m elevation gain, outside ±100m tolerance of 500m.[1][2]"
+    },
+    {
+      "slug": "engadin-la-diagonela",
+      "field": "founded",
+      "profile_value": 2014,
+      "correct_value": 2014,
+      "source_url": "https://www.proxcskiing.com/paid_content/engadin-la-diagonela-2026-the-heartbeat-of-classic-cross-country-skiing-returns-to-the-engadin-valley/",
+      "note": "13th edition in 2026 implies first edition around 2014 (2026-12=2014).[8]"
+    },
+    {
+      "slug": "engadin-skimarathon",
+      "field": "elevation_m",
+      "profile_value": 200,
+      "correct_value": 380,
+      "source_url": "https://www.myswitzerland.com/en-us/experiences/route/engadin-marathonloipe/",
+      "note": "Sources report total elevation gain of 380m or 271m, not 200m; 380m exceeds 100m tolerance.[2][4][7]"
+    },
+    {
+      "slug": "erciyes-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": null,
+      "source_url": null,
+      "note": "No cross-country ski race called 'Erciyes Ski Marathon' found in search results. Search results show Erciyes Ultra Sky Trail (trail running, not cross-country skiing) with distances of 64K, 45K, 25K, 12K, and VK. No cross-country ski marathon event found."
+    },
+    {
+      "slug": "erzgebirge-24h",
+      "field": "distance_km",
+      "profile_value": 100,
+      "correct_value": 6,
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/",
+      "note": "The race is run on a 6 km loop, not a fixed 100 km distance (24-hour format, max distances like 414 km achieved)"
+    },
+    {
+      "slug": "erzgebirge-24h",
+      "field": "field_size",
+      "profile_value": 50,
+      "correct_value": 249,
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/",
+      "note": "In 2017, 249 participants (28 solo, 20 duo, 46 quad teams); database's 50 is outside ±20% tolerance"
+    },
+    {
+      "slug": "erzgebirge-24h",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 2007,
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/",
+      "note": "First held in 2007 in Zinnwald"
+    },
+    {
+      "slug": "etoile-des-saisies",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 42,
+      "source_url": "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/",
+      "note": "The 42 km distance is correct, but this is only ONE of multiple race distances offered. The race includes 42km (Marathon), 21km (Semi-Marathon), 10km, 5km, 3km, and 1.5km options. The database claim appears to reference only the marathon distance without acknowledging the multi-distance format."
+    },
+    {
+      "slug": "etoile-des-saisies",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "freestyle",
+      "source_url": "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/",
+      "note": "The race is explicitly described as 'style libre' (freestyle), not skate. Sources consistently state it is a free-style cross-country ski race open to all."
+    },
+    {
+      "slug": "falls-creek-hotham-crossing",
+      "field": "distance_km",
+      "profile_value": 20,
+      "correct_value": 37,
+      "source_url": "https://www.parks.vic.gov.au/places-to-see/parks/alpine-national-park/things-to-do/falls-to-hotham-alpine-crossing",
+      "note": "Multiple sources describe the Falls to Hotham Alpine Crossing as a 37km route, not a 20km cross-country ski race; no evidence of a 20km ski race found."
+    },
+    {
+      "slug": "falls-creek-hotham-crossing",
+      "field": "elevation_m",
+      "profile_value": 600,
+      "correct_value": 1100,
+      "source_url": "https://fastestknowntime.com/route/falls-hotham-alpine-crossing",
+      "note": "Vertical gain listed as 1,100m for the route; one source mentions 700m climb but total is higher; no ski race specifics."
+    },
+    {
+      "slug": "finlandia-hiihto",
+      "field": "elevation_m",
+      "profile_value": 600,
+      "correct_value": 450,
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+      "note": "Total elevation gain for main race is 450 m, outside ±100m tolerance"
+    },
+    {
+      "slug": "finlandia-hiihto",
+      "field": "founded",
+      "profile_value": 1974,
+      "correct_value": 1974,
+      "source_url": "https://www.finlandiahiihto.fi/history",
+      "note": "First edition 1974, organized since 1974 despite idea in 1973; 53rd event in 2026 confirms"
+    },
+    {
+      "slug": "fjalltopploppet",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 35,
+      "source_url": "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/",
+      "note": "Multiple sources confirm 35km race distance, not 42km."
+    },
+    {
+      "slug": "fjalltopploppet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "freestyle",
+      "source_url": "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/",
+      "note": "Sources indicate freestyle technique, not classic."
+    },
+    {
+      "slug": "fossavatnsgangan",
+      "field": "elevation_m",
+      "profile_value": 400,
+      "correct_value": 614,
+      "source_url": "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+      "note": "Highest point is 614m; no source confirms total elevation gain of 400m."
+    },
+    {
+      "slug": "fossavatnsgangan",
+      "field": "field_size",
+      "profile_value": "~1,000 starters",
+      "correct_value": 600,
+      "source_url": "https://en.wikipedia.org/wiki/Fossavatnsgangan",
+      "note": "~1,000 exceeds 600 (2024) and other reports (e.g., <300 for 50km, over 400 total); outside ±20% tolerance."
+    },
+    {
+      "slug": "foulee-blanche",
+      "field": "field_size",
+      "profile_value": "~2,000",
+      "correct_value": 1824,
+      "source_url": "https://www.youtube.com/watch?v=T8KJAZIUtUY[4]",
+      "note": "2026 edition had 1,824 participants; within tolerance of past years but recent data shows variance from ~2,000."
+    },
+    {
+      "slug": "frosty-freestyle",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 15,
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest",
+      "note": "Frosty Freestyle offers 15km and 5km distances, not 25km"
+    },
+    {
+      "slug": "frosty-freestyle",
+      "field": "country",
+      "profile_value": "United States",
+      "correct_value": "United States",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest",
+      "note": "Country is United States, but race is in Michigan, not Wisconsin"
+    },
+    {
+      "slug": "furusjoen-rundt",
+      "field": "website",
+      "profile_value": null,
+      "correct_value": "https://en.furusjoenrundt.no/rennet/",
+      "source_url": "https://en.furusjoenrundt.no/rennet/",
+      "note": "Official site identified"
+    },
+    {
+      "slug": "galtuer-nordic-volumes",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 42,
+      "source_url": "https://www.worldloppet.com/galtur-cross-country-climb-aut/",
+      "note": "Sources describe main Cross Country Climb as 42 km (HARD) or 25 km (LIGHT), not 30 km; 30 km outside ±3 km tolerance of main distance"
+    },
+    {
+      "slug": "galtuer-nordic-volumes",
+      "field": "elevation_m",
+      "profile_value": 300,
+      "correct_value": 900,
+      "source_url": "https://www.worldloppet.com/galtur-cross-country-climb-aut/",
+      "note": "Sources specify 900m for HARD (42 km) and 300m for LIGHT (25 km); database 300m matches LIGHT but not main race, outside ±100m tolerance for primary"
+    },
+    {
+      "slug": "ganghoferlauf",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 50,
+      "source_url": "https://www.seefeld.com/en/ganghoferlauf-program.html",
+      "note": "Sources confirm 50km classic and 42km skating (42km within ±3km tolerance of 50km for main distance); some list 47km classic but official program shows 50km classic[6]"
+    },
+    {
+      "slug": "gantrisch-loppet",
+      "field": "elevation_m",
+      "profile_value": 200,
+      "correct_value": 477,
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event",
+      "note": "Source [1] states elevation of 477 metres for the 20 km Loppet, outside ±100m tolerance of 200m."
+    },
+    {
+      "slug": "gantrisch-loppet",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 2024,
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event",
+      "note": "Inferred from [1] 'third time' in 2025 (first edition ~2023/2024); [2] calls 2027 the 4th."
+    },
+    {
+      "slug": "gatineau-55",
+      "field": "distance_km",
+      "profile_value": 55,
+      "correct_value": 50,
+      "source_url": "https://gatineauloppet.com/info-for-skiers/?lang=en",
+      "note": "Current main race is 50 km (previously 55 km as Gatineau 55); sources mention both but official now 50 km"
+    },
+    {
+      "slug": "gatineau-55",
+      "field": "elevation_m",
+      "profile_value": 700,
+      "correct_value": 1100,
+      "source_url": "https://www.worldloppet.com/wl-race/gatineau-loppet/",
+      "note": "Official course profile for 50 km states total elevation gain 1100 meters"
+    },
+    {
+      "slug": "gatineau-55",
+      "field": "field_size",
+      "profile_value": "~800 starters",
+      "correct_value": 2500,
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet",
+      "note": "~2500 total participants (starters across all events; ~800 may refer to older/main race edition)"
+    },
+    {
+      "slug": "gatineau-loppet",
+      "field": "distance_km",
+      "profile_value": 51,
+      "correct_value": 50,
+      "source_url": "https://gatineauloppet.com/info-for-skiers/?lang=en",
+      "note": "Sources indicate 50 km as the main race distance, originally 55 km in first edition but now 50 km; 51 km mentioned in context of trail development but current race is 50 km.[1][5][7][8]"
+    },
+    {
+      "slug": "great-glen-nordic",
+      "field": "distance_km",
+      "profile_value": 10,
+      "correct_value": 4.5,
+      "source_url": "https://greatglentrails.com/nordic-meisters/",
+      "note": "Search results indicate participants choose either long course (~5km) or short course (~4km). The series does not have a single standard distance of 10km."
+    },
+    {
+      "slug": "great-glen-to-bretton-woods",
+      "field": "founded",
+      "profile_value": 2005,
+      "correct_value": 2002,
+      "source_url": "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/[1]",
+      "note": "Second annual in March 2003 indicates first edition 2002"
+    },
+    {
+      "slug": "great-nordeen",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 30,
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+      "note": "The 30K distance is correct, but the database claim is incomplete. The race offers multiple distances: 30K, 18K (both XC ski), and 15K (fat bike). The claim of a single '30' km distance without acknowledging the other options is misleading."
+    },
+    {
+      "slug": "great-nordeen",
+      "field": "elevation_m",
+      "profile_value": 200,
+      "correct_value": 853,
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+      "note": "Search results state the historic Crater Lake race (which the modern Great Nordeen honors) had 2,800 feet elevation gain. Converting: 2,800 feet ≈ 853 meters. The claimed 200 meters is significantly lower than the actual elevation gain."
+    },
+    {
+      "slug": "great-nordeen",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "freestyle",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+      "note": "Search results explicitly state '30K and 18K Freestyle Race' for the XC ski portion. The race uses freestyle (skate) technique, not classic. Database claim of 'skate' is partially correct but imprecise; the official designation is 'Freestyle.'"
+    },
+    {
+      "slug": "great-ski-race",
+      "field": "elevation_m",
+      "profile_value": 850,
+      "correct_value": 499,
+      "source_url": "https://thegreatskirace.com/race-info/",
+      "note": "Sources state 1,636 feet (499m), outside ±100m tolerance of 850m"
+    },
+    {
+      "slug": "grenaderlopet",
+      "field": "founded",
+      "profile_value": 1975,
+      "correct_value": 1969,
+      "source_url": "https://www.grenaderen.com",
+      "note": "Website states 'siden 1969' (since 1969)"
+    },
+    {
+      "slug": "gsieser-tal-lauf",
+      "field": "elevation_m",
+      "profile_value": 400,
+      "correct_value": 200,
+      "source_url": "https://www.valcasies.com/en/",
+      "note": "Official site states 200m climb towards St. Magdalena; no source confirms 400m."
+    },
+    {
+      "slug": "haanja-maraton",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1998,
+      "source_url": "https://www.worldloppet.com/haanja-maraton/",
+      "note": "Belongs to Estoloppet series since 1998; described as second oldest in Estonia (implying pre-1998 start, but 1998 is key date found)[1]"
+    },
+    {
+      "slug": "hafjell-ski-marathon",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://hafjellskimarathon.no",
+      "note": "Offers both classic (klassisk) and freestyle/skate (fristil) for marathon distance"
+    },
+    {
+      "slug": "hafjell-ski-marathon",
+      "field": "field_size",
+      "profile_value": "~1,200 starters",
+      "correct_value": 950,
+      "source_url": "https://hafjellskimarathon.no",
+      "note": "Cap at 950 participants (within ~20% tolerance of 1200, but explicitly stated as 950; typical may vary)"
+    },
+    {
+      "slug": "hafjell-ski-marathon",
+      "field": "founded",
+      "profile_value": 1990,
+      "correct_value": 2013,
+      "source_url": "https://hafjellskimarathon.no",
+      "note": "Started in 2013 per Norwegian site; conflicting 2000 claim on English about page"
+    },
+    {
+      "slug": "haldo-hansson-minne",
+      "field": "founded",
+      "profile_value": 1946,
+      "correct_value": 1959,
+      "source_url": "https://sv.wikipedia.org/wiki/Haldo_Hansson",
+      "note": "First edition in 1959 by Alsens and Trångsvikens IF; earlier 1943-1958 by Alsens IF only"
+    },
+    {
+      "slug": "highland-cross",
+      "field": "distance_km",
+      "profile_value": 32,
+      "correct_value": null,
+      "source_url": "http://www.highlandcross.co.uk",
+      "note": "No web sources found describing a 32km cross-country ski race named 'Highland Cross'. The official site describes a 50-mile (80km) duathlon (20 miles foot, 30 miles bike), not skiing[1]."
+    },
+    {
+      "slug": "ingalami",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 30,
+      "source_url": "https://www.hafjellresort.no/en/ingalami",
+      "note": "Offers 5, 15, or 30 km distances; database lists 30 km which is one option but not sole distance"
+    },
+    {
+      "slug": "ingalami",
+      "field": "founded",
+      "profile_value": 2006,
+      "correct_value": 1993,
+      "source_url": "https://fasterskier.com/2013/02/leave-the-husband-and-kids-at-home-a-week-before-the-birkebeiner-inga-lami-is-a-womens-ski-party-in-lillehammer/",
+      "note": "First held in 1993"
+    },
+    {
+      "slug": "jatkankynttila",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 42.2,
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info",
+      "note": "Sources confirm 42.2km marathon distance, outside ±3km tolerance of 50km"
+    },
+    {
+      "slug": "jatkankynttila",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "classic",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info",
+      "note": "2025 race held on classic technique only; one source mentions skate but official sites specify classic"
+    },
+    {
+      "slug": "jilin-city-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 50,
+      "source_url": "https://www.worldloppet.com/wl-race/vasaloppet-china/",
+      "note": "The search results consistently refer to Vasaloppet China as featuring a 50km race as the main event, not 30km. A 25km option is also available, but the primary distance is 50km."
+    },
+    {
+      "slug": "jizerska-50",
+      "field": "elevation_m",
+      "profile_value": 850,
+      "correct_value": 937,
+      "source_url": "https://www.worldloppet.com/wl-race/jizerska-50/",
+      "note": "Source states total elevation gain 937 m for 50 km CT course."
+    },
+    {
+      "slug": "john-craig-memorial",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 19.3,
+      "source_url": "https://conordicclub.wildapricot.org/event-5625392",
+      "note": "Event offers self-timed races of about 6 or 12 miles (approx. 9.7 or 19.3 km), not 25 km (15.5 miles); 25 km outside ±3 km tolerance of 19.3 km"
+    },
+    {
+      "slug": "john-craig-memorial",
+      "field": "country",
+      "profile_value": "United States",
+      "correct_value": "United States",
+      "source_url": "https://conordicclub.wildapricot.org/event-5625392",
+      "note": "Event held in Oregon, USA, which matches country but database specifies Washington state below; country correct but context mismatches"
+    },
+    {
+      "slug": "john-craig-memorial",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1934,
+      "source_url": "https://onc.org/john-craig-story/",
+      "note": "First edition in 1934; tradition since 1930s, taken over by Oregon Nordic Club in 1972"
+    },
+    {
+      "slug": "jokkmokk-winter-marathon",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 42,
+      "source_url": null,
+      "note": "No sources mention a 42km Jokkmokk Winter Marathon; all refer to Nordenskiöldsloppet (220km) or a FIS event without distance specified. No confirmation found for claimed race."
+    },
+    {
+      "slug": "kananaskis-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 45,
+      "source_url": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "First event in 1978 had one 45 km distance; race has grown to include 45km, 24km, 15km, and youth races[1]"
+    },
+    {
+      "slug": "kananaskis-ski-marathon",
+      "field": "field_size",
+      "profile_value": 300,
+      "correct_value": 500,
+      "source_url": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "Grown to 500 participants annually (maximum allowed by Alberta Parks); 300 is outside ±20% tolerance (400-600)[1]"
+    },
+    {
+      "slug": "kananaskis-ski-marathon",
+      "field": "founded",
+      "profile_value": 2005,
+      "correct_value": 1978,
+      "source_url": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "First organized in March 1978 by Don Gardner and Ruedi Setz with 67 participants[1]"
+    },
+    {
+      "slug": "kandersteger-volkslauf",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1973,
+      "source_url": "https://www.kandersteger.ch",
+      "note": "54th edition in 2026 implies first edition around 1973 (2026-53=1973)"
+    },
+    {
+      "slug": "kangaroo-hoppet",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 42,
+      "source_url": "https://www.victoriashighcountry.com.au/listing/kangaroo-hoppet-falls-creek",
+      "note": "The main race is 42km, but the database claim of '42' is correct for the primary Kangaroo Hoppet race. However, the event offers three distances: 7km Joey Hoppet, 21km Australian Birkebeiner, and 42km Kangaroo Hoppet. If the database refers only to the main race, this is CORRECT."
+    },
+    {
+      "slug": "kazan-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": null,
+      "source_url": null,
+      "note": "Search results contain no information about a 'Kazan Ski Marathon'. All results refer to the Kazan Running Marathon, not a cross-country ski race. The running marathon distances are 3km, 10km, 21.1km (half-marathon), and 42.195km (full marathon)."
+    },
+    {
+      "slug": "keskinada-loppet",
+      "field": "distance_km",
+      "profile_value": 51,
+      "correct_value": 50,
+      "source_url": "https://www.worldloppet.com/wl-race/gatineau-loppet/",
+      "note": "Keskinada Loppet was renamed from Gatineau 55 and changed to 50km in 1996; current flagship race is 50km"
+    },
+    {
+      "slug": "keswick-to-barrow",
+      "field": "distance_km",
+      "profile_value": 40,
+      "correct_value": 63.5,
+      "source_url": "https://keswick2barrow.co.uk/challenge",
+      "note": "Sources consistently describe Keswick to Barrow (K2B) as 39.5-40 miles (63.4-64.4 km), not 40 km[1][2][3][4][5]"
+    },
+    {
+      "slug": "keswick-to-barrow",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "walking and running",
+      "source_url": "https://keswick2barrow.co.uk/challenge",
+      "note": "Event is a charity walking and running challenge; no mention of cross-country skiing[1][2][3][4][5]"
+    },
+    {
+      "slug": "keswick-to-barrow",
+      "field": "founded",
+      "profile_value": 1992,
+      "correct_value": 1967,
+      "source_url": "https://www.cclg.org.uk/get-involved/fundraising-events/keswick-barrow",
+      "note": "Started in 1967 as challenge between Barrow Shipyard and HMS Resolution crew[2][3]"
+    },
+    {
+      "slug": "khanty-mansiysk-ski-marathon",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/",
+      "note": "Sources mention both classic and freestyle (skate) races at 50 km"
+    },
+    {
+      "slug": "khanty-mansiysk-ski-marathon",
+      "field": "field_size",
+      "profile_value": "~1500 starters",
+      "correct_value": 2000,
+      "source_url": "https://www.proxcskiing.com/event/ugra-ski-marathon/",
+      "note": "~2000 participants mentioned; ~1500 is outside ±20% tolerance (1600-1800)"
+    },
+    {
+      "slug": "khanty-mansiysk-ski-marathon",
+      "field": "founded",
+      "profile_value": 1997,
+      "correct_value": 2013,
+      "source_url": "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/",
+      "note": "Held since 2013 per multiple sources"
+    },
+    {
+      "slug": "koasalauf",
+      "field": "founded",
+      "profile_value": 1973,
+      "correct_value": 1974,
+      "source_url": "https://www.austria.info/de-at/veranstaltungen/internationaler-tiroler-koasalauf/",
+      "note": "51st edition in 2025 implies first edition in 1975-1974=1974 (2025-51+1=1975 start year)."
+    },
+    {
+      "slug": "konig-ludwig-lauf",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 45,
+      "source_url": "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf",
+      "note": "Search results indicate the main race distance is 45km, not 50km. Multiple sources confirm 45km as the longest classic distance offered."
+    },
+    {
+      "slug": "krkonossky-maraton",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 70,
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/czech-republic",
+      "note": "Search results show 'Krkonošská 70 MONZAS' as a major cross-country ski race in the Krkonoše region with distances of 25 km, 50 km, and 70 km. The '70' in the race name indicates the primary distance is 70 km, not 50 km."
+    },
+    {
+      "slug": "kuopio-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": null,
+      "source_url": null,
+      "note": "No race called 'Kuopio Ski Marathon' found in search results. Search results show 'Finland Ice Marathon' (ice skating, not skiing) and 'Kuopio Maraton' (running marathon). The query appears to reference a non-existent event."
+    },
+    {
+      "slug": "kuzbass-ski-marathon",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "free (skate)",
+      "source_url": "https://russialoppet.ru/events/kuzbass2025.html?region=116",
+      "note": "Specified as free style (свободным стилем, skate) for all distances including 50 km; no mention of classic"
+    },
+    {
+      "slug": "la-savoyarde",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/la-savoyarde-marathon-international-ski-nordique/",
+      "note": "Search results explicitly state the race offers both skate and classic techniques. The 42km race is available in skate technique, and a 21km classic race is also offered"
+    },
+    {
+      "slug": "la-sgambeda",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 30,
+      "source_url": "https://www.lasgambeda.it/en/",
+      "note": "Sources confirm 30 km freestyle, though some recent editions note 25 km or 22 km variants; database value matches primary descriptions[2][3][4][6][7]"
+    },
+    {
+      "slug": "lake-louise-loppet",
+      "field": "distance_km",
+      "profile_value": 20,
+      "correct_value": 25,
+      "source_url": "https://calgaryskiclub.org/loppet",
+      "note": "Current event offers 25 km as the longest race distance (others: 13km, 10km, 6km, 3km, 1km); database's 20km does not match exactly (past event had 20km in 2023)"
+    },
+    {
+      "slug": "lake-louise-loppet",
+      "field": "founded",
+      "profile_value": 1972,
+      "correct_value": 1972,
+      "source_url": "https://calgaryskiclub.org/content.aspx?page_id=4002&club_id=93324&item_id=1817984",
+      "note": "51st annual in 2023 implies first edition ~1972 (2023-51+1=1973, close to 1972)"
+    },
+    {
+      "slug": "lapponia-hiihto",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "freestyle (free technique) only",
+      "source_url": "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/",
+      "note": "Search results explicitly state races use 'free technique' or 'freestyle technique.' Source [1] mentions 'both classic and free style tracks' are available on trails, but the official competition races themselves are freestyle only, not both disciplines"
+    },
+    {
+      "slug": "larch-hills-loppet",
+      "field": "distance_km",
+      "profile_value": 40,
+      "correct_value": 32,
+      "source_url": "https://skilarchhills.ca/loppet/race-information/",
+      "note": "Competitive course is 32 km single loop, not 40 km. Shorter distances available for other categories."
+    },
+    {
+      "slug": "leadville-loppet",
+      "field": "elevation_m",
+      "profile_value": 400,
+      "correct_value": 762,
+      "source_url": "https://strambecco.com/event/leadville-loppet/",
+      "note": "Sources state approximately 2,500 feet (762m) elevation gain for 44k race."
+    },
+    {
+      "slug": "loppet-festival-marathon",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 30,
+      "source_url": "https://loppet.org/event/marathon-pouli-tour-ski/",
+      "note": "The City of Lakes Ski Marathon (the primary marathon event) is 30K according to source [5]. The 42K distance refers to separate events (Hoigaard's Classic and Loppet Freestyle) mentioned in source [3], not the main Loppet Festival Marathon."
+    },
+    {
+      "slug": "manitoba-loppet",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 30,
+      "source_url": "https://www.whiteshellskiclub.com/news",
+      "note": "The Manitoba Loppet offers distances of 30 km, 15 km, 6 km, and 3 km, not 25 km."
+    },
+    {
+      "slug": "manitoba-loppet",
+      "field": "field_size",
+      "profile_value": 50,
+      "correct_value": 96,
+      "source_url": "https://www.whiteshellskiclub.com/news",
+      "note": "Typical number around 96-98 participants (e.g., 47th: 96, 46th: 98), not 50; outside ±20% tolerance."
+    },
+    {
+      "slug": "marathon-de-bessans",
+      "field": "distance_km",
+      "profile_value": 60,
+      "correct_value": 42,
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/",
+      "note": "Sources indicate distances of 30km classic, 23km and 42km freestyle/skate; no 60km found, 42km closest long distance but outside ±3km tolerance"
+    },
+    {
+      "slug": "marathon-de-bessans",
+      "field": "founded",
+      "profile_value": 1979,
+      "correct_value": 1980,
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/",
+      "note": "Sources state every year since 1980; 47th edition aligns with ~1979/1980 start"
+    },
+    {
+      "slug": "marathon-des-belles-combes",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "classic",
+      "source_url": "https://www.marathonskitour.fr/actualite/11408",
+      "note": "The discipline is classic (style classique), not skate. Source [2] explicitly states 'Le 42km classique programmé le dimanche 15 février' and source [3] confirms 'deuxième course longue distance en style classique'"
+    },
+    {
+      "slug": "marathon-des-glieres",
+      "field": "founded",
+      "profile_value": 1991,
+      "correct_value": 1990,
+      "source_url": "https://domainenordiquedesglieres.com/marathon-des-glieres-2025/",
+      "note": "2025 is 35th edition (35ème), indicating first edition in 1991 (2025-34=1991); 2026 would be 36th per source[3]."
+    },
+    {
+      "slug": "marathon-du-grand-bec",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "libre (skate and classic)",
+      "source_url": "https://www.ledauphine.com/skichrono/2026/02/18/marathon-ski-tour-champagny-accueille-le-marathon-du-grand-bec-dimanche",
+      "note": "Source [1] explicitly states 'Marathon du Grand Bec (libre)' indicating freestyle/libre format, not exclusively skate. Source [2] describes it as 'ski nordique' (cross-country skiing) without specifying skate-only. The 'libre' designation typically means both classic and skate techniques are permitted."
+    },
+    {
+      "slug": "maratonul-zapezii",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 42,
+      "source_url": "https://www.ilierosu.ro/2017/02/19/maratonul-zapezii-isostar-rasnov-2017-la-final/",
+      "note": "Sources describe the main race as maraton 42,195 km or 42 km[4][5][6][8]"
+    },
+    {
+      "slug": "marcia-gran-paradiso",
+      "field": "website",
+      "profile_value": "https://www.granparadiso.net",
+      "correct_value": "https://www.marciagranparadiso.it",
+      "source_url": "https://www.proxcskiing.com/long-distance/marcia-gran-paradiso-2025-this-weekend-in-cogne/",
+      "note": "Official site referenced as marciagranparadiso.it in sources; granparadiso.net not confirmed"
+    },
+    {
+      "slug": "marcialonga-bodo",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 50,
+      "source_url": "https://skiclassics.com/events/pro-tour/marcialonga-bodo/",
+      "note": "The elite/Pro Tour race is 50 km classic, matching the claim within tolerance, but amateur distances include 45 km; claim likely refers to main race."
+    },
+    {
+      "slug": "marcialonga-bodo",
+      "field": "elevation_m",
+      "profile_value": 600,
+      "correct_value": 1063,
+      "source_url": "https://skiclassics.com/events/pro-tour/marcialonga-bodo/",
+      "note": "Sources report 1,063 meters of elevation gain, exceeding the ±100m tolerance of 600m."
+    },
+    {
+      "slug": "marcialonga",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "classic",
+      "source_url": "https://www.visitfiemme.it/en/events/events/marcialonga",
+      "note": "Sources specify classic technique only for main 70km race; no mention of skate"
+    },
+    {
+      "slug": "markatrimmen",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 36,
+      "source_url": "https://live.eqtiming.com/79424",
+      "note": "2026 results show Markatrimmen klassisk 36 km; also 12 km race exists, no 50 km found"
+    },
+    {
+      "slug": "mcmurdo-ski-race",
+      "field": "distance_km",
+      "profile_value": 20,
+      "correct_value": 42.195,
+      "source_url": "https://en.wikipedia.org/wiki/Antarctica_Marathon",
+      "note": "The McMurdo Marathon is a full marathon distance (26.2 miles / 42.195 km), not 20 km. Search results confirm this is a marathon event held annually."
+    },
+    {
+      "slug": "mcmurdo-ski-race",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both (running and skiing)",
+      "source_url": "https://antarcticfudgesicles.wordpress.com/2011/01/17/mcmurdo-run-and-ski-marathon/",
+      "note": "The McMurdo event is described as a 'Run and Ski Marathon' with options for both running and skiing the course, not classic skiing only."
+    },
+    {
+      "slug": "merino-muster",
+      "field": "elevation_m",
+      "profile_value": 300,
+      "correct_value": 361,
+      "source_url": "https://en.wikipedia.org/wiki/Merino_Muster",
+      "note": "Sources specify total elevation gain of 361m for 42km course"
+    },
+    {
+      "slug": "merino-muster",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://snowfarm.nz/merino-muster/",
+      "note": "Sources state can be raced as either classic or skate"
+    },
+    {
+      "slug": "merino-muster",
+      "field": "field_size",
+      "profile_value": 100,
+      "correct_value": 112,
+      "source_url": "https://en.wikipedia.org/wiki/Merino_Muster",
+      "note": "Highest number of participants in 42km race was 112 in 2015 (within tolerance but noting peak; typical unclear)"
+    },
+    {
+      "slug": "methow-valley-ski-marathon",
+      "field": "elevation_m",
+      "profile_value": 500,
+      "correct_value": 589,
+      "source_url": "https://www.trailforks.com/event/5711/",
+      "note": "Total elevation gain +1,932 ft (converted to ~589m), outside ±100m tolerance of 500m."
+    },
+    {
+      "slug": "mont-sainte-anne-loppet",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 48,
+      "source_url": "https://fasterskier.com/2018/02/mont-sainte-anne-loppet-fresh-new-spring-challenge/",
+      "note": "2018 FasterSkier article mentions 48K freestyle distance race as main event alongside 25K, not confirming 50K classic as primary[8]"
+    },
+    {
+      "slug": "mont-sainte-anne-loppet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "freestyle and classic",
+      "source_url": "https://fasterskier.com/2018/02/mont-sainte-anne-loppet-fresh-new-spring-challenge/",
+      "note": "Offers both freestyle (48K, 25K, 10K) and classic (10K) distances[8]"
+    },
+    {
+      "slug": "moraloppet",
+      "field": "field_size",
+      "profile_value": 500,
+      "correct_value": 1000,
+      "source_url": "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/",
+      "note": "More than 1000 participants for 2025 edition (exceeds 500 ±20% tolerance)."
+    },
+    {
+      "slug": "mt-ashwabay-summit",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 2007,
+      "source_url": "https://ashwabaysummitskirace.com",
+      "note": "20th annual in 2026 implies first edition around 2007 (2026-19=2007)"
+    },
+    {
+      "slug": "muskoka-loppet",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 24,
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf",
+      "note": "Search results show the 2026 Muskoka Loppet offers distances of 4 km, 17 km, and 24 km. The longest competitive distance is 24 km, not 30 km. The 24 km course consists of 3 laps around the lake at Arrowhead Provincial Park."
+    },
+    {
+      "slug": "muskoka-loppet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "classic",
+      "source_url": "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf",
+      "note": "The 2026 Muskoka Loppet is explicitly a classic race only. The Notice of Race states: 'This is a classic race – skating is not allowed.' The database claim of 'classic' is correct, but the search results confirm this is exclusively classic, not both classic and skate."
+    },
+    {
+      "slug": "nattvasan",
+      "field": "distance_km",
+      "profile_value": 90,
+      "correct_value": 90,
+      "source_url": "https://vasaloppet.se/en/ski/nattvasan-90/",
+      "note": "The claim states 90 km, which is correct for Nattvasan 90. However, Nattvasan offers multiple distances: 90km, 45km, and 30km. If the database is claiming a single 'typical' distance, 90km is the primary/flagship event."
+    },
+    {
+      "slug": "nattvasan",
+      "field": "elevation_m",
+      "profile_value": 850,
+      "correct_value": 1380,
+      "source_url": "https://www.ahotu.com/event/nattvasan",
+      "note": "Search results indicate 1380m of elevation gain for Nattvasan 90, not 850m as claimed."
+    },
+    {
+      "slug": "nattvasan",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://vasaloppet.se/en/ski/nattvasan-90/",
+      "note": "The database claims 'skate' only, but Nattvasan is a freestyle race allowing both classic skiing and skate style."
+    },
+    {
+      "slug": "neeruti-maraton",
+      "field": "distance_km",
+      "profile_value": 31,
+      "correct_value": 43,
+      "source_url": "https://www.worldloppet.com/tamsalu-neeruti-maraton/",
+      "note": "Sources list 43 km (long distance) and 21 km options, not 31 km"
+    },
+    {
+      "slug": "nikolov-perevoz",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "free technique (FT)",
+      "source_url": "https://www.worldloppet.com/nikolov-perevoz-rus/",
+      "note": "Sources indicate free style/technique (FT), not classic; 2018 race was 40km free style"
+    },
+    {
+      "slug": "north-end-classic",
+      "field": "field_size",
+      "profile_value": 50,
+      "correct_value": 164,
+      "source_url": "https://www.webscorer.com/race?raceid=420837",
+      "note": "2026 results show 164 racers (outside ±20% tolerance of 50)"
+    },
+    {
+      "slug": "oosik-classic",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": "10, 25, 50",
+      "source_url": "https://www.alaskavisit.com/blog/post/oosik/",
+      "note": "Multiple sources confirm distances of 10km, 25km, and 50km options, not a single 50km race."
+    },
+    {
+      "slug": "oosik-classic",
+      "field": "field_size",
+      "profile_value": 100,
+      "correct_value": 800,
+      "source_url": "https://www.webscorer.com/register?raceid=376561",
+      "note": "Sources indicate capped at 800 participants, grown from 200; recent event had 693 finishers (far exceeds typical 100)."
+    },
+    {
+      "slug": "oosik-classic",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 2004,
+      "source_url": "https://www.webscorer.com/register?raceid=376561",
+      "note": "Inception in 2004 per official description; one source says roughly 25 years ago (consistent with ~2025)."
+    },
+    {
+      "slug": "oregon-nordic-invitational",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 5,
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational",
+      "note": "Search results clearly indicate the XC Oregon High School XC Ski Invitational features a 5km individual course, not 25km"
+    },
+    {
+      "slug": "oregon-nordic-invitational",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "freestyle",
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational",
+      "note": "Search results specify the event uses Freestyle Technique, not skate"
+    },
+    {
+      "slug": "orsa-gronklitt-ski-marathon",
+      "field": "elevation_m",
+      "profile_value": 350,
+      "correct_value": 485,
+      "source_url": "https://skiclassics.com/orsa-gronklitt-50k-itt-women-program-start-list-start-times-and-where-to-watch/",
+      "note": "The Orsa Grönklitt 50k ITT course (which uses the same trails as the ski marathon) features 485 meters of total ascent, not 350 meters. Database value is significantly lower than actual elevation gain."
+    },
+    {
+      "slug": "owl-creek-chase",
+      "field": "distance_km",
+      "profile_value": 10,
+      "correct_value": 25,
+      "source_url": "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592",
+      "note": "Multiple sources confirm 25km for the main Owl Creek Chase race; database's 10km does not match (outside ±3km tolerance). Sources describe 25km point-to-point from Snowmass to Aspen[1][5][7]"
+    },
+    {
+      "slug": "owl-creek-chase",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "freestyle",
+      "source_url": "https://www.utemountaineer.com/eventscalendar/owl-creek-chase",
+      "note": "Sources indicate freestyle technique (skate) for this year's events[2]; one older source mentions both classic and skate[5]"
+    },
+    {
+      "slug": "owl-creek-chase",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1985,
+      "source_url": "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592",
+      "note": "Origins in mid-1980s with Owl Creek Trail opening[1]"
+    },
+    {
+      "slug": "pac-nw-loppet-series",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 40,
+      "source_url": "https://www.payak.ca/pacific-northwest-loppet-series/",
+      "note": "Series events feature distances like 34km, 30km, 20km, 40km, 50km; no 25km found for a specific Oregon event"
+    },
+    {
+      "slug": "pac-nw-loppet-series",
+      "field": "country",
+      "profile_value": "United States",
+      "correct_value": "Canada and United States",
+      "source_url": "https://www.payak.ca/pacific-northwest-loppet-series/",
+      "note": "Series spans BC (Canada) and Washington (US); no exclusive US focus"
+    },
+    {
+      "slug": "pac-nw-loppet-series",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "both",
+      "source_url": "https://www.payak.ca/pacific-northwest-loppet-series/",
+      "note": "Series includes classic-only, skate-only, and both (e.g., Ski to the Sun offers free and classic)"
+    },
+    {
+      "slug": "panorama-nordic-loppet",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 30,
+      "source_url": "https://nipika.com/loppet/",
+      "note": "Classic distances include 1.5, 3, 7.5, 15, and 30km (longest is 30km, outside ±3km tolerance of 25km)"
+    },
+    {
+      "slug": "panorama-nordic-loppet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://nipika.com/loppet/",
+      "note": "Classic on Saturday at Nipika, skate on Sunday at Panorama"
+    },
+    {
+      "slug": "pepsi-challenge",
+      "field": "elevation_m",
+      "profile_value": 600,
+      "correct_value": 305,
+      "source_url": "https://www.skisignup.com/Race/PepsiChallengeSki/Page-3",
+      "note": "Sources state ~1000 feet per 25K loop (1000 ft = ~305m for 50K); database's 600m does not match within ±100m tolerance[3]"
+    },
+    {
+      "slug": "per-johnsen-ozbaldy",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "freestyle",
+      "source_url": "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/",
+      "note": "Sources consistently identify the race as freestyle, not skate. Source [2] lists 'Per Johnsen Memorial Ozbaldy 50k & 10k Freestyle' and source [4] confirms '(50km/10km freestyle)'"
+    },
+    {
+      "slug": "perisher-nordic-festival",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 30,
+      "source_url": "https://www.perisherxcountry.org/events/xc-week/",
+      "note": "Snowy Mountains Classic offers 2.5/7.5/15/30 km distances (freestyle); database's 30 km matches the longest option but race has multiple distances, not fixed at 30 km"
+    },
+    {
+      "slug": "perisher-nordic-festival",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "freestyle",
+      "source_url": "https://www.perisherxcountry.org/events/xc-week/",
+      "note": "Snowy Mountains Classic is freestyle (F); skiers choose technique"
+    },
+    {
+      "slug": "pirkan-hiihto",
+      "field": "field_size",
+      "profile_value": "~3,000 starters",
+      "correct_value": 1500,
+      "source_url": "https://www.hiihtomuseo.fi/en/50-years-of-finlandia/how-ski-trekking-started/",
+      "note": "Around 1,500 participants[5]; ~3,000 exceeds ±20% tolerance (2400-3600)"
+    },
+    {
+      "slug": "planica-ski-marathon",
+      "field": "elevation_m",
+      "profile_value": 200,
+      "correct_value": 800,
+      "source_url": "https://planicaski.com/slo",
+      "note": "Sources list elevation gain of 800m for 42km (3x12.5km loops); database's 200m is outside ±100m tolerance."
+    },
+    {
+      "slug": "race-of-the-methow",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 7.5,
+      "source_url": "https://www.methowvalleynordic.org/raceofthemethow",
+      "note": "U16+ classic mass start is 7.5 km (3 laps); sprint distance not specified in km. No 25 km found."
+    },
+    {
+      "slug": "rajalta-rajalle-hiihto",
+      "field": "distance_km",
+      "profile_value": 440,
+      "correct_value": 420,
+      "source_url": "http://www.rajaltarajallehiihto.fi/en/faq",
+      "note": "Sources state 440 km on main info page but consistently 420 km on FAQ and history pages; 420 km appears more precise/official[3][4]"
+    },
+    {
+      "slug": "ranka-marathon",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 2024,
+      "source_url": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/",
+      "note": "First as Ski Classics Challengers in 2024; third edition in 2026 per source[1]"
+    },
+    {
+      "slug": "reistadlopet",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 35,
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/",
+      "note": "Recent sources indicate the distance has been adjusted to 35 km for 2026 (from previous 50 km), outside ±3 km tolerance"
+    },
+    {
+      "slug": "reistadlopet",
+      "field": "elevation_m",
+      "profile_value": 700,
+      "correct_value": 1225,
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/",
+      "note": "Sources report 1,225 meters of climbing, outside ±100m tolerance of 700m"
+    },
+    {
+      "slug": "reistadlopet",
+      "field": "founded",
+      "profile_value": 1964,
+      "correct_value": 1958,
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/",
+      "note": "First held in 1958, not 1964"
+    },
+    {
+      "slug": "romjulsrennet",
+      "field": "distance_km",
+      "profile_value": 23,
+      "correct_value": 50,
+      "source_url": "https://www.proxcskiing.com/long-distance/team-ragde-charge-and-alnaes-shine-at-romjulsrennet/",
+      "note": "ProXCskiing reports Romjulsrennet races at Sjusjøen, Norway, with men's and women's races (likely 50km based on context of long-distance Visproxcskiing.com articles describe thrilling finishes in men's and women's races at Romjulsrennet, but no exact distance specified; database claim of 23km not confirmed."
+    },
+    {
+      "slug": "rothenthurmer-volksskilauf",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1969,
+      "source_url": "https://sc-r.ch/home-volksskilauf.html",
+      "note": "58th edition in 2026 implies first edition 2026-57=1969; described as oldest in Switzerland with 35th in 2001 (2001-34=1967, close confirmation)"
+    },
+    {
+      "slug": "rovaniemi-arctic-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 42,
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info",
+      "note": "Jätkänkynttilä Ski Marathon (likely the race in question, held in Rovaniemi) offers 42.2km marathon distance, not 50km."
+    },
+    {
+      "slug": "rovaniemi-arctic-ski-marathon",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "classic",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info",
+      "note": "2025 edition specified as classic technique only; 2026 as free (skating). Not both."
+    },
+    {
+      "slug": "sakhalin-ski-marathon",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "free technique (FT)",
+      "source_url": "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/",
+      "note": "Sources specify FT (freestyle, which includes skate); classic and free mentioned in one source but Worldloppet lists FT for 30/50km"
+    },
+    {
+      "slug": "sakhalin-ski-marathon",
+      "field": "field_size",
+      "profile_value": 750,
+      "correct_value": 1000,
+      "source_url": "https://www.wam.ae/en/article/biewdk4-more-than-thousand-athletes-take-part-sakhalin-ski",
+      "note": "Sources report >1000 or >2000 participants (exceeds 750 ±20%)"
+    },
+    {
+      "slug": "salpausselka-hiihto",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 62,
+      "source_url": "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/",
+      "note": "Recent sources indicate 62km for the main races (classic and freestyle) in 2025, changed from previous lengths for snow security; database's 50km does not match current distance (tolerance ±3km exceeded)"
+    },
+    {
+      "slug": "salpausselka-hiihto",
+      "field": "founded",
+      "profile_value": 1923,
+      "correct_value": 1974,
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+      "note": "First edition 1974, not 1923; multiple sources confirm 1974 inception, 52nd time in 2025"
+    },
+    {
+      "slug": "saskaloppet",
+      "field": "field_size",
+      "profile_value": 200,
+      "correct_value": 300,
+      "source_url": "https://larongenow.com/2026/03/04/hundreds-expected-for-don-allen-saskaloppet/",
+      "note": "Organizers expecting about 300 skiers (within ±20% of 200? No, 300 is 50% higher; recent report[2])"
+    },
+    {
+      "slug": "seeley-hills-classic",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 35,
+      "source_url": "https://downtownhaywardwi.com/event/seeley-hills-classic-2025/",
+      "note": "For 2025, distance changed to 35K (full race, 7x5K laps); previously 42K"
+    },
+    {
+      "slug": "silver-star-loppet",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 41,
+      "source_url": "https://www.sovereign2silverstar.com",
+      "note": "Sources describe the main distances as 40-42km or specifically 41km, not 30km."
+    },
+    {
+      "slug": "silver-star-loppet",
+      "field": "field_size",
+      "profile_value": 200,
+      "correct_value": 800,
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+      "note": "Sources state over 800 skiers throughout the weekend, exceeding 200±20%."
+    },
+    {
+      "slug": "silver-star-loppet",
+      "field": "founded",
+      "profile_value": 2001,
+      "correct_value": 2022,
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+      "note": "Launched in 2022, first edition April 2-3, 2022; 5th annual in 2026."
+    },
+    {
+      "slug": "sirdal-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 40,
+      "correct_value": 45,
+      "source_url": "https://www.worldloppet.com/sirdal-skimaraton-nor/",
+      "note": "Sources indicate 45km and 23km distances, not 40km (outside ±3km tolerance)"
+    },
+    {
+      "slug": "sisu-ski-fest",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 30,
+      "source_url": "https://www.sisuskifest.com/events",
+      "note": "Database claims 30 km, but SISU Ski Fest offers multiple race distances: 30K SISU race, 15K Heikki Lunta race, and 5K Hauska Hiihto fun ski. The primary race is 30K, but this is not the only distance offered."
+    },
+    {
+      "slug": "skarverennet",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://skarverennet.no/en/om-skarverennet/",
+      "note": "Tracks prepared for both skating (freestyle, introduced 1987) and classic; choice available"
+    },
+    {
+      "slug": "ski-classics-finale",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 60,
+      "source_url": "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/",
+      "note": "The Grand Finale Summit 2 Senja (the final event) is 60km, not 50km. Reistadløpet (penultimate event) is 46km. The database value of 50km matches neither event."
+    },
+    {
+      "slug": "ski-classics-finale",
+      "field": "elevation_m",
+      "profile_value": 600,
+      "correct_value": 1357,
+      "source_url": "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/",
+      "note": "The Grand Finale Summit 2 Senja has 1357m total ascent. Reistadløpet has 1225m. The database value of 600m is significantly lower than both final events."
+    },
+    {
+      "slug": "ski-de-she",
+      "field": "distance_km",
+      "profile_value": 24,
+      "correct_value": 30,
+      "source_url": "https://www.birkie.com/ski/events/ski-de-she/",
+      "note": "Sources mention 30k, 20K, 10K, 5K races, with 30k highlighted; database's 24km does not match any option (outside ±3km tolerance)"
+    },
+    {
+      "slug": "ski-de-she",
+      "field": "field_size",
+      "profile_value": 350,
+      "correct_value": 150,
+      "source_url": "https://enjoywinter.com/read-skipost/ski-de-she-race-update-/",
+      "note": "Over 150 participants reported; 350 exceeds ±20% tolerance (120-180 range)"
+    },
+    {
+      "slug": "ski-de-she",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 2022,
+      "source_url": "https://www.mprnews.org/story/2022/10/15/ski-de-she-new-womenonly-crosscountry-ski-race-set-for-debut-this-winter",
+      "note": "Debut described as 'new' for winter 2022/23; 3rd annual in recent source implies ~2023/24 start"
+    },
+    {
+      "slug": "ski-north-ultra",
+      "field": "elevation_m",
+      "profile_value": 1000,
+      "correct_value": 1130,
+      "source_url": "https://www.visitcookcounty.com/articles/post/ski-north-ultramarathon-returning-to-lutsen-march-7-2026/",
+      "note": "Sources state 3,707 feet elevation climb, which converts to approximately 1130 meters (3707 ft * 0.3048 ≈ 1130m), outside ±100m tolerance of 1000m"
+    },
+    {
+      "slug": "ski-north-ultra",
+      "field": "field_size",
+      "profile_value": 100,
+      "correct_value": 72,
+      "source_url": "https://www.givesignup.org/Race/MN/Lutsen/SkiNorthUltra",
+      "note": "Last year (2025) 72 skiers started; described as typical with spots limited (e.g., 26 left for 100K), outside ±20% tolerance of 100 (80-120)"
+    },
+    {
+      "slug": "ski-north-ultra",
+      "field": "founded",
+      "profile_value": 2025,
+      "correct_value": 2025,
+      "source_url": "https://wtip.org/fresh-snow-welcome-as-ski-north-ultra-returns-for-a-second-year/",
+      "note": "First edition in 2025, 2026 is second year"
+    },
+    {
+      "slug": "ski-to-the-sun",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 40,
+      "source_url": "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/",
+      "note": "Search results consistently show the marathon distance is 40 km, not 42 km"
+    },
+    {
+      "slug": "ski-to-the-sun",
+      "field": "elevation_m",
+      "profile_value": 550,
+      "correct_value": 589,
+      "source_url": "https://squid-sunflower-ngjr.squarespace.com/events/ski-to-the-sun-marathon-and-relay",
+      "note": "Total elevation gain is 589m (1,932 feet), not 550m. Source provides detailed elevation data."
+    },
+    {
+      "slug": "ski-trail-tannheimer-tal",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 24.4,
+      "source_url": "https://www.bergfex.com/tirol/langlaufen/tannheimer-tal/loipenplan/",
+      "note": "Search results show the Ski-Trail circular route is 24.4 km according to the trail map. The claim of 30 km exceeds the documented distance."
+    },
+    {
+      "slug": "ski-trail-tannheimer-tal",
+      "field": "elevation_m",
+      "profile_value": 400,
+      "correct_value": 50,
+      "source_url": "https://www.tannheimertal.com/en/ski-trail-circular-trail-t3751",
+      "note": "Multiple sources consistently state the maximum altitude difference in Tannheimer Tal is 50 meters, not 400 meters. The entire valley network has only 50m elevation difference."
+    },
+    {
+      "slug": "sleeping-giant-loppet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both (classic and skate)",
+      "source_url": "https://xcskiontario.ca/event/sleeping-giant-loppet-2026/",
+      "note": "Sources confirm 50km offered in Skate, Classic, or Skiathlon (both techniques).[1][2][4]"
+    },
+    {
+      "slug": "sleeping-giant-loppet",
+      "field": "field_size",
+      "profile_value": 350,
+      "correct_value": 1000,
+      "source_url": "https://northernontario.travel/thunder-bay/ski-sleeping-giant-loppet-and-own-giant",
+      "note": "Attracts nearly 1000 skiers (outside ±20% tolerance of 350).[2]"
+    },
+    {
+      "slug": "sleeping-giant-loppet",
+      "field": "founded",
+      "profile_value": 1981,
+      "correct_value": 1978,
+      "source_url": "https://www.sleepinggiantloppet.ca/about.html",
+      "note": "First edition in 1978 (as Thunder Bay Ski Tour).[5]"
+    },
+    {
+      "slug": "snow-farm-challenge",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 85,
+      "source_url": "https://www.worldloppet.com/new-zealands-biggest-cross-country-skiing-race-is-returning/",
+      "note": "The primary race is the Merino Muster with 42km as the longest single event, but the full Musterer title requires completing all five races totaling 85km (42km Merino Muster + 21km Snow Rake + 14km Double Fleece + 7km Straggle Muster + 1km Mini Merino). The race name in the database appears to be incorrect; it should be 'Merino Muster' not 'Snow Farm Challenge'."
+    },
+    {
+      "slug": "snow-mountain-ranch-stampede",
+      "field": "founded",
+      "profile_value": 1991,
+      "correct_value": 1984,
+      "source_url": "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-ranch-stampede",
+      "note": "42nd annual in 2026 implies first edition ~1984; 'nearly 40 years' in recent source supports pre-1991[3][6]"
+    },
+    {
+      "slug": "sonot-kkaazoot",
+      "field": "field_size",
+      "profile_value": 200,
+      "correct_value": 152,
+      "source_url": "https://www.nscfairbanks.org/2026/01/15/sonot-kkaazoot-comes-to-birch-hill-on-march-21/",
+      "note": "2025 race had 152 finishers across all events."
+    },
+    {
+      "slug": "sovereign-lake-loppet",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 30,
+      "source_url": "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf",
+      "note": "2017 Sovereign Lake Loppet offered distances of 2km, 10km, 15km, and 30km (longest race distance), not 50km[1]"
+    },
+    {
+      "slug": "sovereign2silverstar",
+      "field": "field_size",
+      "profile_value": 1200,
+      "correct_value": 800,
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+      "note": "Sources report over 800 skiers[1]; 1200 outside ±20% tolerance (960-1440)"
+    },
+    {
+      "slug": "sovereign2silverstar",
+      "field": "founded",
+      "profile_value": 2010,
+      "correct_value": 2022,
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+      "note": "Launched in 2022[1]; 2025 is 4th annual, 2026 is 5th[1][2]"
+    },
+    {
+      "slug": "spokane-loppet",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 50,
+      "source_url": "https://www.spokanenordic.org/loppet",
+      "note": "Offers 20/30/50km races; database lists 50km which is one of the distances offered"
+    },
+    {
+      "slug": "stafettvasan",
+      "field": "field_size",
+      "profile_value": "~12,000 starters (2,400 teams of 5)",
+      "correct_value": 5000,
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/",
+      "note": "Sources describe 'over a thousand teams' (~2000-5000 starters assuming ~5 per team); database's 12,000 exceeds ±20% tolerance of ~6000."
+    },
+    {
+      "slug": "stafettvasan",
+      "field": "founded",
+      "profile_value": 2003,
+      "correct_value": 2004,
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/",
+      "note": "Order Number 23 for 2026 implies first edition in 2004 (2026-22=2004)."
+    },
+    {
+      "slug": "steirische-langlauf-marathon",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 50,
+      "source_url": "https://steiralauf.at",
+      "note": "Longest distance is 50 km Freistil, also 30km classic, 25km Freistil, 10km; no 42km mentioned"
+    },
+    {
+      "slug": "steirische-langlauf-marathon",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both (classic and freistil/skating)",
+      "source_url": "https://steiralauf.at",
+      "note": "Offers 30km Klassisch and 50km/25km Freistil"
+    },
+    {
+      "slug": "stenfjellrunden",
+      "field": "elevation_m",
+      "profile_value": 400,
+      "correct_value": 850,
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/",
+      "note": "Sum stigning for 42 km is 850 meters"
+    },
+    {
+      "slug": "stenfjellrunden",
+      "field": "field_size",
+      "profile_value": 200,
+      "correct_value": 460,
+      "source_url": "https://www.kondis.no/resultater/resultater-stenfjellrunden-2025/1457464",
+      "note": "460 løpere fullførte in 2025 (within recent years, >200 but outside ±20% tolerance of 200)"
+    },
+    {
+      "slug": "storlirennet",
+      "field": "elevation_m",
+      "profile_value": 400,
+      "correct_value": 140,
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/",
+      "note": "Sources describe start at 600m, highest point 740m (140m climb), finish at 400m; no mention of 400m total gain[1][2]"
+    },
+    {
+      "slug": "storlirennet",
+      "field": "country",
+      "profile_value": "Sweden",
+      "correct_value": "Sweden/Norway",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/",
+      "note": "Cross-border race starting in Storlien, Sweden, finishing in Meråker, Norway[1][2][5]"
+    },
+    {
+      "slug": "storlirennet",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "freestyle (skating official class)",
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/",
+      "note": "Freestyle technique, official competition class skating (skate), though classic/double poling allowed[1][2]"
+    },
+    {
+      "slug": "storlirennet",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1938,
+      "source_url": "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/",
+      "note": "First held in 1938[1][2]"
+    },
+    {
+      "slug": "stowe-derby",
+      "field": "elevation_m",
+      "profile_value": 823,
+      "correct_value": 823,
+      "source_url": "https://www.mmsca.org/events/stowe-derby",
+      "note": "Sources state ~2,700 feet vertical drop, which converts to 823 meters (2,700 ft * 0.3048 = 823 m exactly)"
+    },
+    {
+      "slug": "stowe-derby",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://www.mmsca.org/events/stowe-derby",
+      "note": "Offers both Classic and Skate for long course (2026 listings)"
+    },
+    {
+      "slug": "sudtirol-moonlight-classic",
+      "field": "founded",
+      "profile_value": 2009,
+      "correct_value": 2007,
+      "source_url": "https://www.seiser-alm.it/en/leisure-activities/winter-sports/moonlight-classic-alpe-di-siusi/",
+      "note": "First edition in 2007 per official source"
+    },
+    {
+      "slug": "sumava-loppet",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 45,
+      "source_url": "https://passport.euroloppet.com/event/sumavsky",
+      "note": "Sources indicate main race distances of 45-46 km, not 50 km (outside ±3 km tolerance)"
+    },
+    {
+      "slug": "sumava-loppet",
+      "field": "region",
+      "profile_value": "Plzeň Region",
+      "correct_value": "South Bohemia (Jihočeský kraj)",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky",
+      "note": "Kvilda is in Šumava National Park, South Bohemia region, not Plzeň Region"
+    },
+    {
+      "slug": "sumava-loppet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky",
+      "note": "Offers both classic (CT) and freestyle (FT) techniques on different days/distances"
+    },
+    {
+      "slug": "summit-2-senja",
+      "field": "elevation_m",
+      "profile_value": 800,
+      "correct_value": 1360,
+      "source_url": "https://www.proxcskiing.com/long-distance/the-grand-finale-summit-2-senja-ending-ski-classics-season-xvi/",
+      "note": "Source lists Elevation Gain: 1360m (exceeds 800m +100m tolerance)"
+    },
+    {
+      "slug": "summit-2-senja",
+      "field": "founded",
+      "profile_value": 2024,
+      "correct_value": 2022,
+      "source_url": "https://www.proxcskiing.com/long-distance/the-grand-finale-summit-2-senja-ending-ski-classics-season-xvi/",
+      "note": "Introduced in Season XIV (2021-2022), first edition 2024 would be Season XVI"
+    },
+    {
+      "slug": "suomen-hiihto",
+      "field": "distance_km",
+      "profile_value": 60,
+      "correct_value": 62,
+      "source_url": "https://www.ahotu.com/event/finlandia-hiihto",
+      "note": "Multiple sources confirm the main race distance as 62 km classic, within ±3 km tolerance but consistently listed as 62 km not 60 km"
+    },
+    {
+      "slug": "suomen-hiihto",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://www.ahotu.com/event/finlandia-hiihto",
+      "note": "Offers both classic (62 km on Sat) and free/skate (62 km on Sun); not only classic"
+    },
+    {
+      "slug": "suomen-hiihto",
+      "field": "founded",
+      "profile_value": 1946,
+      "correct_value": 1974,
+      "source_url": "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+      "note": "First edition 1974, not 1946; 53rd event in 2026 confirms this"
+    },
+    {
+      "slug": "tahoe-rim-tour",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 26,
+      "source_url": "https://visittahoecity.org/event/the-tahoe-rim-tour/",
+      "note": "Multiple sources confirm the Tahoe Rim Tour is a 26-kilometer point-to-point race, not 30km"
+    },
+    {
+      "slug": "tallinn-ski-marathon",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "Free Technique (with classic track option)",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/",
+      "note": "Source [1] specifies '38 and 18 km Free Technique'. Source [2] notes that 'we have even been able to add a classic track – a bonus that not every freestyle marathon has', indicating the primary discipline is freestyle/skate, not skate exclusively, but the database claim of 'skate' is imprecise"
+    },
+    {
+      "slug": "tana-varangerrennet",
+      "field": "founded",
+      "profile_value": 1998,
+      "correct_value": 1998,
+      "source_url": "https://www.proxcskiing.com/long-distance/tana-varangerrennet-2025-this-saturday-in-norway/",
+      "note": "Sources indicate ~27-28 years history in 2025, aligning with first edition ~1998 (e.g., 27 years in 2025 points to 1998)[1][4][5]"
+    },
+    {
+      "slug": "tana-varangerrennet",
+      "field": "website",
+      "profile_value": null,
+      "correct_value": "https://www.tvrennet.no",
+      "source_url": "https://www.tvrennet.no",
+      "note": "Official website identified as tvrennet.no[3]"
+    },
+    {
+      "slug": "tartu-maratoni-retrosoit",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 31,
+      "source_url": "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026",
+      "note": "Search results indicate Tartu Maraton Vintage is a 31 km race, not 30 km. The 2026 event listing shows '31 km' for the Vintage Start on February 14, 2026."
+    },
+    {
+      "slug": "teacup-classic",
+      "field": "distance_km",
+      "profile_value": 10,
+      "correct_value": 15,
+      "source_url": "https://teacupnordic.org/pages/2025-teacup-classic",
+      "note": "The famous, traditional 15k course is described across multiple years (2025: 15k with 10k+5k loops; 2022: 15K; 2024 listing: 15/5km)"
+    },
+    {
+      "slug": "timmins-gold-rush-loppet",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 20,
+      "source_url": "https://www.porcupineskirunners.com/loppet",
+      "note": "Longest distance is 20 km (2 x 10 km), not 30 km; other distances 8 km, 3 km, 1.25 km"
+    },
+    {
+      "slug": "timmins-gold-rush-loppet",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "classic and skate",
+      "source_url": "https://www.porcupineskirunners.com/loppet",
+      "note": "Offers both classic/skate for main distances (20 km, 8 km, 3 km); some classic only shorter events"
+    },
+    {
+      "slug": "tornedalen-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 100,
+      "correct_value": 45,
+      "source_url": "https://en.wikipedia.org/wiki/Tornedalsloppet",
+      "note": "Tornedalsloppet is traditionally 45 km (and 23 km for younger adults), not 100 km"
+    },
+    {
+      "slug": "tornedalen-ski-marathon",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1968,
+      "source_url": "https://en.wikipedia.org/wiki/Tornedalsloppet",
+      "note": "First held in 1968"
+    },
+    {
+      "slug": "tour-de-gaspe",
+      "field": "distance_km",
+      "profile_value": 150,
+      "correct_value": 200,
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/",
+      "note": "Search results consistently refer to 'Traversée de la Gaspésie' (not 'Tour de Gaspé') as a 200+ kilometre ski tour, with one source specifying '200 kilometre-plus'"
+    },
+    {
+      "slug": "tour-de-gaspe",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "classic and skate",
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/",
+      "note": "Search results indicate the event includes both cross-country skiers (classic technique implied) and snowshoers, but do not explicitly confirm skate skiing. However, the event is described as including diverse skiing styles"
+    },
+    {
+      "slug": "tour-de-stowe",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 22,
+      "source_url": "https://nensa.net/event/stowe-nordic-tour-de-stowe/",
+      "note": "Sources describe 22km main course with 14km cutoff and 5km for kids[2][6]"
+    },
+    {
+      "slug": "tour-de-stowe",
+      "field": "discipline",
+      "profile_value": "both",
+      "correct_value": "classic",
+      "source_url": "https://nensa.net/event/stowe-nordic-tour-de-stowe/",
+      "note": "Explicitly classic technique only, non-competitive ski tour[1][2][6]"
+    },
+    {
+      "slug": "tour-of-anchorage",
+      "field": "field_size",
+      "profile_value": "~1,500",
+      "correct_value": 307,
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/",
+      "note": "307 finishers in 2025 (low snow year); typical higher but no exact ~1,500 confirmed and outside ±20% tolerance without baseline"
+    },
+    {
+      "slug": "transjurassienne",
+      "field": "distance_km",
+      "profile_value": 68,
+      "correct_value": 70,
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+      "note": "Sources indicate 70 km (official site) or 68 km (other sources); database 68 km matches some but official prefers 70 km historic route"
+    },
+    {
+      "slug": "transjurassienne",
+      "field": "elevation_m",
+      "profile_value": 1000,
+      "correct_value": 660,
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+      "note": "Official site lists 660m D+ for 70 km route"
+    },
+    {
+      "slug": "transjurassienne",
+      "field": "founded",
+      "profile_value": 1979,
+      "correct_value": 1979,
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+      "note": "Multiple sources confirm first edition 1979, Wikipedia says 1980 debut (conflict, but majority 1979)"
+    },
+    {
+      "slug": "traverse-du-massacre",
+      "field": "field_size",
+      "profile_value": "~1,500 starters",
+      "correct_value": 700,
+      "source_url": "https://blog.ekosport.fr/traversee-du-massacre/",
+      "note": "Sources indicate 600-800 participants, within ~20% tolerance of 1500? Wait, 600-800 is 40-53% less, outside tolerance; but ekosport says 600-800"
+    },
+    {
+      "slug": "traverse-du-massacre",
+      "field": "founded",
+      "profile_value": 1975,
+      "correct_value": 1970,
+      "source_url": "https://blog.ekosport.fr/traversee-du-massacre/",
+      "note": "Founded in 1970, first edition 1er avril 1970"
+    },
+    {
+      "slug": "traversee-de-la-haute-jura",
+      "field": "distance_km",
+      "profile_value": 76,
+      "correct_value": 68,
+      "source_url": "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/",
+      "note": "Search results indicate La Transjurassienne covers 68km between Lamoura and Mouthe, not 76km. Source [3] states '68km between Lamoura and Mouthe' and source [2] mentions '70 km' as the main distance option."
+    },
+    {
+      "slug": "traversee-de-la-haute-jura",
+      "field": "elevation_m",
+      "profile_value": 1500,
+      "correct_value": 660,
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+      "note": "Source [2] specifies '70 km - 660m D+' for the race elevation gain, not 1500m."
+    },
+    {
+      "slug": "traversee-de-la-haute-jura",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+      "note": "Source [2] states 'free style (skating or classic)' - both disciplines are allowed, not classic only."
+    },
+    {
+      "slug": "tromso-skimaraton",
+      "field": "field_size",
+      "profile_value": 500,
+      "correct_value": 80,
+      "source_url": "https://live.eqtiming.com/79671",
+      "note": "2026 edition had total 80 participants (in race)[8]; outside ±20% tolerance of 500 (400-600)"
+    },
+    {
+      "slug": "tromso-skimaraton",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 2009,
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton",
+      "note": "First arranged in 2009[2]"
+    },
+    {
+      "slug": "tug-hill-tourathon",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": 50,
+      "source_url": "https://www.skireg.com/8354",
+      "note": "Offers 12.5/25/50K distances; 50K matches database within tolerance and is highlighted as returning; formerly Tug Hill Tourathon now Winona Forest Tourathon[2][3][4]"
+    },
+    {
+      "slug": "tug-hill-tourathon",
+      "field": "field_size",
+      "profile_value": 200,
+      "correct_value": 45,
+      "source_url": "https://www.webscorer.com/race?raceid=380800",
+      "note": "2025 edition had 45 racers; outside ±20% tolerance of 200 (160-240); prior years may vary but recent data contradicts[1]"
+    },
+    {
+      "slug": "ugra-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 50,
+      "correct_value": null,
+      "source_url": "https://eventsinrussia.com/en/event/28607",
+      "note": "Search results show multiple distance options offered: 50 km, 25 km, 15 km, and 5 km on the first day (freestyle), and 50 km, 25 km, 15 km on the second day (classic style). The race is not a single fixed distance of 50 km."
+    },
+    {
+      "slug": "ugra-ski-marathon",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://eventsinrussia.com/en/event/28607",
+      "note": "The race includes both freestyle (first day) and classic style (second day) disciplines, not skate only."
+    },
+    {
+      "slug": "ulricehamn-ski-marathon",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 42,
+      "source_url": "https://skiclassics.com/events/challengers/vastgotaloppet-classic/",
+      "note": "Västgötaloppet, associated with Ulricehamn, is 42km (not 30km); no source confirms 30km for Ulricehamn Ski Marathon"
+    },
+    {
+      "slug": "ulricehamn-ski-marathon",
+      "field": "field_size",
+      "profile_value": 500,
+      "correct_value": 1000,
+      "source_url": "https://skiclassics.com/events/challengers/vastgotaloppet-classic/",
+      "note": "Västgötaloppet Classic attracts around 1,000 participants (outside 500 ±20% tolerance)"
+    },
+    {
+      "slug": "ushuaia-loppet",
+      "field": "elevation_m",
+      "profile_value": 500,
+      "correct_value": 712.6,
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+      "note": "Source states total elevation gain for two laps is 712.6 meters, not 500 meters"
+    },
+    {
+      "slug": "ushuaia-ski-marathon",
+      "field": "elevation_m",
+      "profile_value": 500,
+      "correct_value": 713,
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+      "note": "Source states total elevation gain in the two laps: 712.6 meters (within ±100m of 500? No, differs significantly)"
+    },
+    {
+      "slug": "ushuaia-ski-marathon",
+      "field": "field_size",
+      "profile_value": 200,
+      "correct_value": 95,
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+      "note": "Highest number of participants/finishers: 95 in 42km (2015); 780 entries for Marchablanca 21km. 95 outside ±20% of 200 (160-240 range)"
+    },
+    {
+      "slug": "ushuaia-ski-marathon",
+      "field": "founded",
+      "profile_value": 2005,
+      "correct_value": 1986,
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+      "note": "First race: 1986"
+    },
+    {
+      "slug": "valdres-skimaraton",
+      "field": "distance_km",
+      "profile_value": 67,
+      "correct_value": 65,
+      "source_url": "https://www.valdres.com/things-to-do/beitostolen-danebu-65-km-cross-country-p611753",
+      "note": "Multiple sources confirm the Valdres Skimaraton follows a 65 km track from Beitostølen to Danebu (65 km within ±3 km tolerance? No, 67 vs 65 is outside tolerance). Vasaloppet lists 67 km."
+    },
+    {
+      "slug": "valtellina-orobie-ski-marathon",
+      "field": "elevation_m",
+      "profile_value": 800,
+      "correct_value": 1700,
+      "source_url": "https://www.valtellinaorobie.it/gara-scialpinismo/en/35th-valtellina-orobie/individual-race/",
+      "note": "Sources indicate 1700m elevation gain for senior men individual race (2022 edition), outside ±100m tolerance of 800m; event is ski-mountaineering, not classic XC"
+    },
+    {
+      "slug": "valtellina-orobie-ski-marathon",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "ski-mountaineering",
+      "source_url": "https://www.polalbosaggia.com/site/le-nostre-gare/_valtellina-orobie/",
+      "note": "Described as international scialpinismo (ski-mountaineering) race, not classic cross-country skiing"
+    },
+    {
+      "slug": "vasaloppet-japan",
+      "field": "discipline",
+      "profile_value": "skate",
+      "correct_value": "both",
+      "source_url": "https://vasaloppet.jp/index_e.html",
+      "note": "The official website describes Vasaloppet Japan as 'クロスカントリースキー及び歩くスキーの国際大会' (cross-country ski and walking ski international competition), indicating both classic and leisure/walking ski disciplines, not skate only."
+    },
+    {
+      "slug": "vaskoolihiihto",
+      "field": "field_size",
+      "profile_value": 50,
+      "correct_value": 47,
+      "source_url": "https://www.kokkens.fi/kilpailut/2012/vaskooli/vaskooli2012.htm",
+      "note": "2012: 47 starters for 60km classic (close to 50 within ±20% tolerance but sources show higher total; specific 60km classic matches closely)[1]"
+    },
+    {
+      "slug": "vaskoolihiihto",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1983,
+      "source_url": "https://www.saariselansanomat.fi/artikkeli/auringonpaistetta-pikkupakkasta-haastavia-latuja-ja-onnistumisen-iloa-2",
+      "note": "36th edition in 2018 implies first in 1983 (2018 - 36 + 1 = 1983)[2]"
+    },
+    {
+      "slug": "viru-maraton",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 36,
+      "source_url": "https://www.worldloppet.com/results/",
+      "note": "Search results show the 40th Viru Maraton (January 17, 2026) had distances of 35km and 18km due to weather shortening. However, the standard/planned distances are 42km and 21km according to multiple sources. The claim of 42km matches the planned full distance, but recent races have been shortened. Most recent confirmed result shows 36km as the actual race distance on 17-01-2026."
+    },
+    {
+      "slug": "viru-maraton",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "Free Technique",
+      "source_url": "https://www.worldloppet.com/results/",
+      "note": "Search results indicate 'Free Technique' (FT) not 'classic'. The Worldloppet results table shows Viru Maraton races as 'FT' (Free Technique), which allows both classic and skate techniques."
+    },
+    {
+      "slug": "vuokatti-hiihto",
+      "field": "distance_km",
+      "profile_value": 60,
+      "correct_value": 50,
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/",
+      "note": "Main race distances are 14km, 30km, 50km (free/classic); no specific 60km mentioned, closest main is 50km within some events up to 100km"
+    },
+    {
+      "slug": "vuokatti-hiihto",
+      "field": "field_size",
+      "profile_value": "~800-1,200 participants",
+      "correct_value": 2000,
+      "source_url": "https://www.goxski.com/vuokatti",
+      "note": "Around 2,000 participants; outside 800-1200 range (±20% tolerance 640-1440)"
+    },
+    {
+      "slug": "wasa-ski-club-loppet",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 51,
+      "source_url": "https://www.skisignup.com/Race/Events/MN/Mora/VasaloppetUSA2024",
+      "note": "Main race (Vasa) is 51km freestyle (3 laps of ~17km), classic is 42km; no 30km found"
+    },
+    {
+      "slug": "wasa-ski-club-loppet",
+      "field": "country",
+      "profile_value": "United States",
+      "correct_value": "United States",
+      "source_url": "https://vasaloppet.us",
+      "note": "Matches, but race is Vasaloppet USA in Mora, MN"
+    },
+    {
+      "slug": "wasatch-citizens-series",
+      "field": "distance_km",
+      "profile_value": 25,
+      "correct_value": 10,
+      "source_url": "https://utaholympiclegacy.org/event/wasatch-citizen-series-race-2/",
+      "note": "Sources describe typical race distances as 10km for skiathlon and age-based (1-10km), with short/long course options for adults; no 25km mentioned.[1][5]"
+    },
+    {
+      "slug": "wasatch-citizens-series",
+      "field": "founded",
+      "profile_value": null,
+      "correct_value": 1979,
+      "source_url": "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html",
+      "note": "Premier nordic skiing events since 1979; more than forty years ago from recent context.[2][3][4]"
+    },
+    {
+      "slug": "white-mountain-classic",
+      "field": "founded",
+      "profile_value": 1990,
+      "correct_value": 2005,
+      "source_url": "https://skitrax.com/white-mountain-classic-30k/",
+      "note": "First Annual White Mountain Classic held January 22, 2005[1]"
+    },
+    {
+      "slug": "white-pine-stampede",
+      "field": "distance_km",
+      "profile_value": 42,
+      "correct_value": 42,
+      "source_url": "https://whitepinestampede.org/index.php/trail-updates/[5]; https://nordicskiracer.com/event-details.asp?id=4242[1]",
+      "note": "Sources confirm long course around 42km or 40km (within ±3km tolerance, but listed as 40km/42km)"
+    },
+    {
+      "slug": "whitehorse-loppet",
+      "field": "distance_km",
+      "profile_value": 30,
+      "correct_value": 44,
+      "source_url": "https://www.yukonskimarathon.ca/the-event",
+      "note": "The Yukon Ski Marathon qualifying event for the Pacific Northwest Loppet Series is 44km (or 45km free according to one source), not 30km. Multiple sources confirm the main race distance is 44km with shorter options of 22km and 12km available."
+    },
+    {
+      "slug": "yllas-levi-hiihto",
+      "field": "field_size",
+      "profile_value": "~1,000 starters",
+      "correct_value": 2000,
+      "source_url": "https://yllas.fi/en/event/yllas-levi-hiihto-2026/",
+      "note": "2025 had 2000 skiers, outside ±20% tolerance of ~1000 (800-1200); no typical ~1000 found"
+    },
+    {
+      "slug": "yllas-pallas",
+      "field": "distance_km",
+      "profile_value": 55,
+      "correct_value": 55,
+      "source_url": "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+      "note": "Offers 55km and 70km distances; 55km matches within tolerance and is listed as an option"
+    },
+    {
+      "slug": "yllas-pallas",
+      "field": "discipline",
+      "profile_value": "classic",
+      "correct_value": "both",
+      "source_url": "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+      "note": "Classic on day 1, skate/freestyle on day 2"
+    },
+    {
+      "slug": "yllas-pallas",
+      "field": "field_size",
+      "profile_value": "~300-600 participants",
+      "correct_value": 2000,
+      "source_url": "https://yllas.fi/en/event/yllas-levi-hiihto-2026/",
+      "note": "2025 had 2000 skiers; outside ±20% tolerance of 300-600"
+    }
+  ],
+  "wrong_count": 302,
+  "source": "perplexity-sonar-pro + exa (web-grounded)"
+}

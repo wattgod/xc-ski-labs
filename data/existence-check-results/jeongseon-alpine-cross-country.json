@@ -1,0 +1,22 @@
+{
+  "slug": "jeongseon-alpine-cross-country",
+  "name": "Jeongseon Alpine Cross-Country",
+  "country": "South Korea",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a cross-country ski race named 'Jeongseon Alpine Cross-Country' found. Jeongseon Alpine Centre hosted Olympic alpine skiing events, while para cross-country skiing was at Alpensia Biathlon Centre. No official website, race results, news articles, listings in Worldloppet/FIS, social media, videos, or registration pages for this specific event.",
+    "sources": []
+  },
+  "citations": [
+    "https://snowguidekorea.com/ski-resorts/gangwondo/jeongseon-alpine-centre/",
+    "https://www.paralimpicos.es/sites/default/files/inline-files/pyeongchang_2018_-_para_biathlon_and_cross-country_skiing_information_book,_january_2017_20170204153159686.pdf",
+    "https://www.paralympic.org/news?amp=510&page=1312",
+    "https://www.wbur.org/news/2026/03/02/massachusetts-paralymics-athletes-sled-hockey-curling",
+    "https://www.usskiandsnowboard.org/news/vonn-second-again-olympic-test-event"
+  ],
+  "checked_at": "2026-03-12T15:50:01Z"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "sapporo-moiwayama-classic",
+  "name": "Sapporo Moiwayama Classic",
+  "country": "Japan",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Sapporo Moiwayama Classic' cross-country ski race found in search results. Moiwayama (Mt. Moiwa) is a real alpine ski resort near Sapporo with downhill skiing courses, but no mentions of organized cross-country races, results, news, or listings there. Other Sapporo cross-country events like the Sapporo International Ski Marathon exist at different venues.",
+    "sources": []
+  },
+  "citations": [
+    "https://snowsapporo.com/en/skiarea/moiwa/",
+    "https://www.sapporo-sport.jp/ski/e-information/",
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://sapporo-moiwa.jp/en/news/%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AF%E3%81%99%E3%82%8B%E8%97%BB%E5%B2%A9%E5%B1%B1%E3%80%82%E5%86%92%E9%99%BA%E3%81%AE%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A/",
+    "https://sapporo-moiwa.jp/en/skiareainformation/",
+    "https://sapporo-moiwa.jp/en/about/",
+    "https://niseko-moiwa.jp",
+    "https://sapporo-moiwa.jp/en/firsttimeskiing/",
+    "https://domingo.ne.jp/en/spot/1017"
+  ],
+  "checked_at": "2026-03-12T16:02:34Z"
+}

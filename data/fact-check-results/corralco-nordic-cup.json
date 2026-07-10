@@ -1,0 +1,83 @@
+{
+  "slug": "corralco-nordic-cup",
+  "name": "Corralco Nordic Cup",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Chile",
+    "region": "Araucanía",
+    "discipline": "both",
+    "field_size": 75,
+    "founded": null,
+    "website": "https://www.corralco.com",
+    "date": "August to September"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a 'Corralco Nordic Cup' cross-country ski race or any 30km distance",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources reference the Corralco Nordic Cup or any 400m elevation gain for cross-country skiing",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Corralco is in Chile per multiple sources, but no confirmation of a Nordic Cup cross-country race there",
+      "source_url": "https://www.fis-ski.com/snowboard-cross/news/2025-26/historic-chilean-success-highlights-corralco-ski-and-snowboard-cross-races"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Corralco is near Malalcahuello (likely Araucanía region), but no Nordic Cup details found",
+      "source_url": "https://skiracing.com/cracking-into-corralco/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe classic or skate cross-country events at Corralco; events are ski cross, snowboard cross, downhill training",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions >70 athletes for ski/snowboard cross (close to 75), but not for Nordic Cup",
+      "source_url": "https://www.fis-ski.com/snowboard-cross/news/2025-26/historic-chilean-success-highlights-corralco-ski-and-snowboard-cross-races"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on founding or first edition of Corralco Nordic Cup",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "www.corralco.com confirmed as Corralco resort site in event invitations",
+      "source_url": "https://medias1.fis-ski.com/pdf/2026/SB/6001/2026SB6001INVI.pdf"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Corralco winter events in late Aug/Sep (e.g., Sept 2025), but no Nordic Cup specified; matches season but unconfirmed for this race",
+      "source_url": "https://medias1.fis-ski.com/pdf/2026/SB/6001/2026SB6001INVI.pdf"
+    }
+  },
+  "citations": [
+    "https://www.fis-ski.com/snowboard-cross/news/2025-26/historic-chilean-success-highlights-corralco-ski-and-snowboard-cross-races",
+    "https://skiracing.com/cracking-into-corralco/",
+    "https://medias1.fis-ski.com/pdf/2026/SB/6001/2026SB6001INVI.pdf",
+    "https://www.skitalk.com/threads/2024-corralco-chile-trip-report.35134/",
+    "https://medias1.fis-ski.com/pdf/2026/FS/8016/2026FS8016INVI.pdf",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=SB&eventid=55656&seasoncode=2025",
+    "https://www.boardriding.com/events/fis-south-america-cup-sbx-corralco-2025",
+    "https://www.youtube.com/watch?v=CL__axu-3Og"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:12:18Z"
+}

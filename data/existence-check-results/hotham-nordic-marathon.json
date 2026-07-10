@@ -1,0 +1,26 @@
+{
+  "slug": "hotham-nordic-marathon",
+  "name": "Hotham Nordic Marathon",
+  "country": "Australia",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Hotham Nordic Marathon' event exists in the search results or Mt Hotham's official website. While Mt Hotham does offer cross-country skiing with 35km of trails, there is no organized race by this name. The resort's official events pages list trail running races, ski cross races, and guided walks, but no Nordic marathon event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.mthotham.com.au/winter",
+    "https://www.mthotham.com.au",
+    "https://www.mthotham.com.au/events",
+    "https://www.mhrs.org.au/product/u18-plus-alpine-skiing-full-time/",
+    "https://www.mthotham.com.au/events/anx-ski-cross-races",
+    "https://www.mthotham.com.au/summer/discover/explore/about-us",
+    "https://www.mthotham.com.au/mountain/explore/trail-maps",
+    "https://www.mthotham.com.au/resort/things-to-do/activities/cross-country-skiing",
+    "https://medias3.fis-ski.com/pdf/2026/SB/6024/2026SB6024PROG.pdf"
+  ],
+  "checked_at": "2026-03-12T15:49:06Z"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "oukaimeden-nordic-race",
+  "name": "Oukaimeden Nordic Race",
+  "facts": {
+    "distance_km": 15,
+    "elevation_m": 200,
+    "country": "Morocco",
+    "region": "Marrakech-Safi",
+    "discipline": "classic",
+    "field_size": 30,
+    "founded": 2022,
+    "website": "https://www.oukaimeden.ma",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing an 'Oukaimeden Nordic Race' or any cross-country ski race at Oukaimeden. Search results mention ski resort activities, ski passes, and mountain tourism, but no specific Nordic/cross-country ski race by this name.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing an 'Oukaimeden Nordic Race' or its elevation gain specifications.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Oukaimeden is confirmed to be located in Morocco, approximately 76 km from Marrakech city.",
+      "source_url": "https://www.visitoukaimeden.com"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Oukaimeden is near Marrakech, search results do not explicitly confirm the administrative region as 'Marrakech-Safi' for the race location.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing the discipline of an 'Oukaimeden Nordic Race'.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing participant numbers for an 'Oukaimeden Nordic Race'.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing the founding year of an 'Oukaimeden Nordic Race'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "The provided URL (https://www.oukaimeden.ma) does not appear in search results. Official Oukaimeden resort information is found at https://oukaimeden.org and https://www.visitoukaimeden.com, but neither mentions a Nordic race.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing race dates for an 'Oukaimeden Nordic Race'. Search results indicate Oukaimeden operates as a ski resort but provide no information about a specific Nordic race event.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.visitoukaimeden.com",
+    "https://oukaimeden.org",
+    "https://www.miksture.com/2023-morocco",
+    "https://oukaimeden.org/ski-pass/",
+    "https://www.snow-forecast.com/whiteroom/snow-forecasts-updates-on-ski-resorts-re-opening-after-the-covid-19-coronavirus-lockdown/",
+    "https://www.visitoukaimeden.com/guides"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:17:47Z"
+}

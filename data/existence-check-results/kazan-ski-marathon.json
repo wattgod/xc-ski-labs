@@ -1,0 +1,34 @@
+{
+  "slug": "kazan-ski-marathon",
+  "name": "Kazan Ski Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Multiple official Kazan and Tatarstan government sites reference the 'Kazan ski marathon' as a longstanding annual event, including its 53rd edition on March 7 with a 'race in skirts', and the anniversary edition gathering 670 athletes. It is listed alongside major events like Ski Track of Russia and Kazan Marathon in sports news portals. News articles confirm its tradition and participation from Russia and abroad, though no specific official site, results, or international listings (Worldloppet etc.) were found.",
+    "sources": [
+      "https://kzn.ru/prinyat-uchastie/sobytiya/na-traditsionnom-kazanskom-lyzhnom-marafone-ustroyat-gonku-v-yubkakh/?lang=en",
+      "https://metshin.ru/en/posts?page=230",
+      "https://kzn.ru/napravleniya-raboty/sport/?lang=en",
+      "https://kzn.ru/napravleniya-raboty/sport/novosti/?lang=en",
+      "https://kzn.ru/prinyat-uchastie/sobytiya/na-traditsionnom-kazanskom-lyzhnom-marafone-ustroyat-gonku-v-yubkakh/?lang=en",
+      "https://metshin.com/en/videos/16150"
+    ]
+  },
+  "citations": [
+    "https://goszakupki.tatarstan.ru/eng/index.htm/news/388894.htm",
+    "https://eco.tatarstan.ru/eng/index.htm/news/2166148.htm",
+    "http://brics.run/eng",
+    "https://www.ahotu.com/event/kazan-marathon",
+    "https://kzn.ru/prinyat-uchastie/sobytiya/na-traditsionnom-kazanskom-lyzhnom-marafone-ustroyat-gonku-v-yubkakh/?lang=en",
+    "https://metshin.com/en/videos/16150",
+    "https://metshin.ru/en/posts?page=230",
+    "https://kzn.ru/napravleniya-raboty/sport/?lang=en",
+    "https://kzn.ru/napravleniya-raboty/sport/novosti/?lang=en",
+    "https://minjust.tatarstan.ru/eng/index.htm/news/1927992.htm"
+  ],
+  "checked_at": "2026-03-12T15:51:20Z"
+}

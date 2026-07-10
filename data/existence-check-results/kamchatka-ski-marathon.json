@@ -1,0 +1,26 @@
+{
+  "slug": "kamchatka-ski-marathon",
+  "name": "Kamchatka Ski Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Kamchatka Ski Marathon'. Search results mention Avachinsky Marathon (a real FIS-listed Russialoppet event with official site kamchatkaloppet.ru), Mutnovsky extreme marathon, and general ski events in Kamchatka, but nothing matching the queried name. Other results cover unrelated races like Ski Track of Russia or heli-skiing.",
+    "sources": []
+  },
+  "citations": [
+    "https://en.kamtravel.pro/kamchatka/calendar/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42378",
+    "https://kamchatka.name/news/22566/",
+    "http://en.kremlin.ru/events/councils/79152",
+    "http://skiinginkamchatka.com/more_destinations/",
+    "https://www.allaboutkamchatka.ru/en/programs/",
+    "http://skiinginkamchatka.com/kamchatka/welcome-to-kamchatka/",
+    "https://kamchatintour.ru/en/tours/nachinaetsa_rossiya/",
+    "https://visitrussia.com/kamchatka_peninsula"
+  ],
+  "checked_at": "2026-03-12T15:50:47Z"
+}

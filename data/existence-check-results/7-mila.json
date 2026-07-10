@@ -1,0 +1,29 @@
+{
+  "slug": "7-mila",
+  "name": "7-Mila",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://www.7-mila.se/",
+    "results_url": null,
+    "evidence_summary": "7-Mila is confirmed as a real, organized cross-country ski race in Sweden. It appears in the official Union of the Baltic Cities event directory with detailed race information (74 km course from Vindeln to Robertsfors, first held in 1964). The race is also mentioned on the official Vasaloppet website as a seeding event for the Vasaloppet, indicating it is an established part of Sweden's organized ski racing calendar.",
+    "sources": [
+      "https://ubc.net/event/7-mila/",
+      "https://www.7-mila.se/",
+      "https://vasaloppet.se/en/ski/"
+    ]
+  },
+  "citations": [
+    "https://ubc.net/event/7-mila/",
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.sandozconcept.com/en/worldloppet-races/the-famous-vasaloppet-in-sweden/",
+    "https://vasaloppet.se/en/ski/",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://www.youtube.com/watch?v=R6RQSVSVpZM"
+  ],
+  "checked_at": "2026-03-12T15:37:36Z"
+}

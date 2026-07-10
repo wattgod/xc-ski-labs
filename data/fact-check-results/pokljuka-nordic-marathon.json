@@ -1,0 +1,85 @@
+{
+  "slug": "pokljuka-nordic-marathon",
+  "name": "Pokljuka Nordic Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "Slovenia",
+    "region": "Upper Carniola",
+    "discipline": "both",
+    "field_size": "~300 starters",
+    "founded": 2003,
+    "website": "https://www.pokljuka-maraton.si",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the distance of the Pokljuka Nordic Marathon.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Pokljuka is mentioned in Slovenia context for biathlon events, but no direct confirmation for this specific cross-country ski race.",
+      "source_url": "https://www.biathlonworld.com/news/biathlon-competition-schedule-pokljuka/A9lYEcR8BRY2DB9mf77jl"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm Upper Carniola as the region for this race; Pokljuka biathlon context noted but not specific.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cross-country skiing mentioned generally at Pokljuka, but no details on classic/skate for this marathon.",
+      "source_url": "https://www.center-pokljuka.si/en/sports-center-triglav-pokljuka/activities/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for this event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm the first edition year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not found in search results; no official site confirmed for the Nordic Marathon (biathlon sites present).",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical date; biathlon events in March noted but not this race.",
+      "source_url": "https://www.biathlonworld.com/news/biathlon-competition-schedule-pokljuka/A9lYEcR8BRY2DB9mf77jl"
+    }
+  },
+  "citations": [
+    "https://www.biathlonworld.com/news/biathlon-competition-schedule-pokljuka/A9lYEcR8BRY2DB9mf77jl",
+    "https://www.biathlon-pokljuka.com/en/domov-eng/",
+    "https://www.biathlon-pokljuka.com/en/world-cup/info-for-visitors/",
+    "https://www.slovenia.info/en/things-to-do/events/24895-ibu-open-european-championships-2027-pokljuka",
+    "https://www.center-pokljuka.si/en/sports-center-triglav-pokljuka/activities/",
+    "https://www.biathlon-pokljuka.com/en/world-cup/media-info/",
+    "https://www.center-pokljuka.si/en/home/",
+    "https://www.biathlon-pokljuka.com/en/2022/",
+    "https://www.biathlon-pokljuka.com/en/2023/",
+    "https://www.youtube.com/watch?v=PNuiD7NIMyg"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:18Z"
+}

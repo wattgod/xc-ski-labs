@@ -1,0 +1,80 @@
+{
+  "slug": "holmenkollmarsjen",
+  "name": "Holmenkollmarsjen",
+  "facts": {
+    "distance_km": 52,
+    "elevation_m": 1020,
+    "country": "Norway",
+    "region": "Eastern Norway",
+    "discipline": "classic",
+    "field_size": "~1,500 starters",
+    "founded": 1974,
+    "website": "https://www.holmenkollmarsjen.no",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 52km classic race[1]",
+      "source_url": "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/"
+    },
+    "elevation_m": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 1,020 meters of elevation gain[1]",
+      "source_url": "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Norway[1]",
+      "source_url": "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Oslo, which is in Eastern Norway (Nordmarka region)[1]",
+      "source_url": "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as classic technique[1]",
+      "source_url": "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "States 'thousands of skiers' but no specific number like ~1,500 starters found",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First organized in 1974[1]",
+      "source_url": "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Mentions 'Holmenkollmarsjen' website but no exact URL match to https://www.holmenkollmarsjen.no confirmed in results",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "February 14, 2026, aligns with mid-February (typical timing)[1]",
+      "source_url": "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/"
+    }
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/",
+    "https://www.lumiexperiences.com/blog/2023/3/9/skiing-as-a-way-of-life",
+    "https://www.youtube.com/watch?v=P2VRjBg2XOY",
+    "https://www.visitnorway.com/events/world-cup-cross-country-ski-jumping-and-nordic-combined/14147/",
+    "https://rottefella.com/en/inspiration/move/holmenkollmarsjen"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:26Z"
+}

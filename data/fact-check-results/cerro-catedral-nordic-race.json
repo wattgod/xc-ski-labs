@@ -1,0 +1,83 @@
+{
+  "slug": "cerro-catedral-nordic-race",
+  "name": "Cerro Catedral Nordic Race",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "Argentina",
+    "region": "Rio Negro",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2008,
+    "website": null,
+    "date": "August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for a specific 'Cerro Catedral Nordic Race' with 25km distance; results mention short XC events like 1.3km sprints and 5-10km races at Cerro Catedral but no matching race.",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=142625&raceid=46488"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide elevation gain for any specific Nordic race at Cerro Catedral matching the description.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Cerro Catedral is confirmed in Argentina.",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=142625&raceid=46488"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources confirm Bariloche location (Río Negro province), but no specific confirmation for the named race; matches geographically.",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=142625&raceid=46488"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "FIS events at Cerro Catedral include both classic (Aug 31, Sep 1) and free/skate (Sep 2), but no confirmation for a specific 'Cerro Catedral Nordic Race' using both.",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=142625&raceid=46488"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for any matching race; FIS sprint qual has small fields listed (e.g., top 7 shown).",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=142625&raceid=46488"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention a 'Cerro Catedral Nordic Race' founded in 2008.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for this specific race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Recent FIS XC events at Cerro Catedral held in late August (e.g., Aug 31-Sep 2, 2024), aligning with typical August winter timing in southern hemisphere.",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=142625&raceid=46488"
+    }
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=142625&raceid=46488",
+    "https://wander-argentina.com/skiing-in-bariloche-cerro-catedral/",
+    "https://www.peakrankings.com/content/cerro-catedral",
+    "https://www.iloveski.org/en/ski-resorts/cerro-catedral/",
+    "https://www.onthesnow.com/argentina/cerro-catedral-alta-patagonia/ski-resort",
+    "https://www.powderhounds.com/southamerica/argentina/catedral.aspx?template=resort_resortratings",
+    "https://www.patagonia-argentina.com/en/skiing-in-cerro-catedral/",
+    "https://www.snow-online.com/cross-country/catedral-alta-patagonia.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:36:56Z"
+}

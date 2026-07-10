@@ -1,0 +1,80 @@
+{
+  "slug": "ski-de-she",
+  "name": "Ski de She",
+  "facts": {
+    "distance_km": 24,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "classic",
+    "field_size": 350,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "Sources mention 30k, 20K, 10K, 5K races, with 30k highlighted; database's 24km does not match any option (outside ±3km tolerance)",
+      "source_url": "https://www.birkie.com/ski/events/ski-de-she/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain information",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Wisconsin, USA",
+      "source_url": "https://www.birkie.com/ski/events/ski-de-she/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Explicitly Wisconsin",
+      "source_url": "https://www.birkie.com/ski/events/ski-de-she/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 150,
+      "note": "Over 150 participants reported; 350 exceeds ±20% tolerance (120-180 range)",
+      "source_url": "https://enjoywinter.com/read-skipost/ski-de-she-race-update-/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2022,
+      "note": "Debut described as 'new' for winter 2022/23; 3rd annual in recent source implies ~2023/24 start",
+      "source_url": "https://www.mprnews.org/story/2022/10/15/ski-de-she-new-womenonly-crosscountry-ski-race-set-for-debut-this-winter"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.birkie.com/ski/events/ski-de-she/",
+      "note": "Official event page on American Birkebeiner site; also northendskiclub.org mentioned",
+      "source_url": "https://www.birkie.com/ski/events/ski-de-she/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "January",
+      "note": "Typically late January (e.g., Jan 16-18, 2026; last week of January)",
+      "source_url": "https://www.birkie.com/ski/events/ski-de-she/"
+    }
+  },
+  "citations": [
+    "https://www.cable4fun.com/event/ski-de-she-camp-race/",
+    "https://www.mprnews.org/story/2022/10/15/ski-de-she-new-womenonly-crosscountry-ski-race-set-for-debut-this-winter",
+    "https://enjoywinter.com/read-skipost/ski-de-she-race-update-/",
+    "https://www.bayfieldcounty.wi.gov/Calendar.aspx",
+    "https://www.birkie.com/ski/events/ski-de-she/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:19:17Z"
+}

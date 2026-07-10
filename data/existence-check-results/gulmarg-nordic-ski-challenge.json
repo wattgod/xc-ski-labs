@@ -1,0 +1,23 @@
+{
+  "slug": "gulmarg-nordic-ski-challenge",
+  "name": "Gulmarg Nordic Ski Challenge",
+  "country": "India",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Gulmarg Nordic Ski Challenge' race exists in the search results. While Gulmarg hosts Nordic Skiing competitions as part of the Khelo India Winter Games (KIWG), there is no organized event by the name 'Gulmarg Nordic Ski Challenge.' The search results reference only official government-sanctioned winter sports events in Gulmarg, not an independently organized cross-country ski race with that specific name.",
+    "sources": []
+  },
+  "citations": [
+    "http://www.ski-india.com/events",
+    "https://winter.kheloindia.gov.in",
+    "https://skigulmarg.com",
+    "https://gulmargskiresort.com/snowboarding/",
+    "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2227124&reg=3&lang=1",
+    "https://gulmargski.in"
+  ],
+  "checked_at": "2026-03-12T15:47:57Z"
+}

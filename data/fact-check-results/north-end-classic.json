@@ -1,0 +1,82 @@
+{
+  "slug": "north-end-classic",
+  "name": "North End Classic",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 150,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.birkie.com",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race offers 25K distance (long course), matching database within tolerance",
+      "source_url": "https://northendskiclub.org/north-end-classic-race/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Cable, Wisconsin, United States",
+      "source_url": "https://northendskiclub.org/north-end-classic-race/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Wisconsin (Cable, WI)",
+      "source_url": "https://northendskiclub.org/north-end-classic-race/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classical technique only (classic)",
+      "source_url": "https://northendskiclub.org/north-end-classic-race/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 164,
+      "note": "2026 results show 164 racers (outside ±20% tolerance of 50)",
+      "source_url": "https://www.webscorer.com/race?raceid=420837"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://northendskiclub.org/north-end-classic-race/",
+      "note": "Official site is northendskiclub.org, not birkie.com (Birkie trail used but separate event)",
+      "source_url": "https://northendskiclub.org/north-end-classic-race/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "February",
+      "note": "Typically early February (e.g., Feb 9 2025, Feb 8 2026), not January",
+      "source_url": "https://northendskiclub.org/north-end-classic-race/"
+    }
+  },
+  "citations": [
+    "https://northendskiclub.org/north-end-classic-race/",
+    "https://www.webscorer.com/register?raceid=410235",
+    "https://northendskiclub.org/trails/",
+    "https://northendskiclub.org",
+    "https://www.webscorer.com/race?raceid=420837",
+    "https://www.bayfieldcounty.wi.gov/Calendar.aspx",
+    "https://www.birkie.com/ski/birkie-week/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:17:31Z"
+}

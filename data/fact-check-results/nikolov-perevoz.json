@@ -1,0 +1,82 @@
+{
+  "slug": "nikolov-perevoz",
+  "name": "Nikolov Perevoz",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 300,
+    "country": "Russia",
+    "region": "Moscow Oblast",
+    "discipline": "classic",
+    "field_size": 2000,
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 50km distance as one of the options (25km or 50km)",
+      "source_url": "https://www.worldloppet.com/nikolov-perevoz-rus/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia",
+      "source_url": "https://www.worldloppet.com/nikolov-perevoz-rus/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Moscow region / Moscow Oblast (Peresvet, Veretievo)",
+      "source_url": "https://www.worldloppet.com/nikolov-perevoz-rus/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "free technique (FT)",
+      "note": "Sources indicate free style/technique (FT), not classic; 2018 race was 40km free style",
+      "source_url": "https://www.worldloppet.com/nikolov-perevoz-rus/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "22nd edition in 2018 implies ~1996, but no exact first edition year confirmed",
+      "source_url": "https://mrsk-1.ru/en/press-center/news/branches/63144/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as part of Russialoppet",
+      "source_url": "https://www.worldloppet.com/nikolov-perevoz-rus/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February (e.g., Feb 10 2018, Feb 11 2017, Feb 12 2022)",
+      "source_url": "https://mrsk-1.ru/en/press-center/news/branches/63144/"
+    }
+  },
+  "citations": [
+    "https://www.dreamstime.com/ski-race-skiers-start-line-anticipation-russia-berezniki-march-image113413837",
+    "https://www.dreamstime.com/editorial-image-nikolov-perevoz-russialoppet-ski-marathon-children-s-race-kids-colorful-tracksuits-running-snow-bed-image86077725",
+    "https://www.dreamstime.com/royalty-free-stock-photo-nikolov-perevoz-russialoppet-ski-marathon-children-s-race-kids-colorful-tracksuits-running-snow-bed-image86077695",
+    "https://mrsk-1.ru/en/press-center/news/branches/63144/",
+    "https://www.worldloppet.com/nikolov-perevoz-rus/",
+    "https://olympiandatabase.com/index.php/en/nordic-ski-world-championships-nations-russia-cross-country-15-km-men-results",
+    "https://www.youtube.com/watch?v=dtBpGrr8OkY"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:47:35Z"
+}

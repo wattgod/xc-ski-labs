@@ -1,0 +1,26 @@
+{
+  "slug": "kortvasan",
+  "name": "Kortvasan",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of 'Kortvasan' as an organized cross-country ski race was found in the search results. The search results document several real Vasaloppet events (Vasaloppet main race, Tjejvasan, HalvVasan), but Kortvasan is not mentioned in any official sources, race listings, or organizational materials. The name does not appear in Vasaloppet's official website, race schedules, or related cross-country skiing event documentation.",
+    "sources": []
+  },
+  "citations": [
+    "https://vasaloppet.se/en/ski/tjejvasan/",
+    "https://mail.hotway.life/en/cross-country-skiing/sweden/vasaloppet",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.skinnyski.com/training/articles/sweden-1.html",
+    "https://vasaloppet.se/en/",
+    "https://vasaloppet.se/en/ski/",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://vasaloppet.se"
+  ],
+  "checked_at": "2026-03-12T15:52:15Z"
+}

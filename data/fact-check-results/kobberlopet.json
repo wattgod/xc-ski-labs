@@ -1,0 +1,79 @@
+{
+  "slug": "kobberlopet",
+  "name": "Kobberløpet",
+  "facts": {
+    "distance_km": 43,
+    "elevation_m": 600,
+    "country": "Norway",
+    "region": "Nordland",
+    "discipline": "classic",
+    "field_size": "~800",
+    "founded": 1968,
+    "website": "https://www.kobberlopet.no",
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 43km classic race.",
+      "source_url": "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Explicitly stated as Norway.",
+      "source_url": "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Nordland confirmed via Nordland Ski Association and Salten region (in Nordland).",
+      "source_url": "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as long-distance classic race.",
+      "source_url": "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific numbers found for typical participants; mentions coordination with registered participants but no count.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Roots stretching back to 1968.",
+      "source_url": "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website listed in sources; https://www.kobberlopet.no not confirmed here.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically April, with 2026 editions on April 11/18.",
+      "source_url": "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/"
+    }
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/",
+    "https://skiclassics.com/kobberlopet-2026-rescheduled/",
+    "https://www.youtube.com/watch?v=QEsjz-ZSlXc",
+    "https://runagain.com/find-event/kobberlopets-fjellop"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:50:27Z"
+}

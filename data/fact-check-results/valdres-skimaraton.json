@@ -1,0 +1,84 @@
+{
+  "slug": "valdres-skimaraton",
+  "name": "Valdres Skimaraton",
+  "facts": {
+    "distance_km": 67,
+    "elevation_m": 850,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": "~800",
+    "founded": null,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 65,
+      "note": "Multiple sources confirm the Valdres Skimaraton follows a 65 km track from Beitostølen to Danebu (65 km within ±3 km tolerance? No, 67 vs 65 is outside tolerance). Vasaloppet lists 67 km.",
+      "source_url": "https://www.valdres.com/things-to-do/beitostolen-danebu-65-km-cross-country-p611753"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for the race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Valdres region ski resort sources.",
+      "source_url": "https://us.j2ski.com/ski_resorts/Norway/Valdres.html"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Valdres is in Innlandet (former Oppland), Norway.",
+      "source_url": "https://us.j2ski.com/ski_resorts/Norway/Valdres.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Described as cross-country skiing race on groomed tracks, but technique (classic/skate) not specified in sources.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified in search results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Tracks groomed from mid-February to Easter; videos show 2023/2024 races likely in that period, but typical month March unconfirmed specifically.",
+      "source_url": "https://www.valdres.com/things-to-do/beitostolen-danebu-65-km-cross-country-p611753"
+    }
+  },
+  "citations": [
+    "https://us.j2ski.com/ski_resorts/Norway/Valdres.html",
+    "https://shredindex.com/resort/valdresalpinsenter/overview",
+    "https://www.valdres.com/things-to-do/beitostolen-danebu-65-km-cross-country-p611753",
+    "https://www.skiresort.info/ski-resorts/valdres/sorted/altitude-difference/",
+    "https://www.valdres.com/things-to-do/activities/cross-country-skiing/cross-country-skiing-destinations/beitostolen-and-valdresflye",
+    "https://www.onthesnow.co.uk/eastern-norway/valdres/ski-resort",
+    "https://www.youtube.com/watch?v=xrOW1_0KZoM",
+    "https://www.youtube.com/watch?v=QDOlRg5mSRo",
+    "https://vasaloppet.se/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:57:51Z"
+}

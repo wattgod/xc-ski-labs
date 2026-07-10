@@ -1,0 +1,84 @@
+{
+  "slug": "dizin-nordic-race",
+  "name": "Dizin Nordic Race",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 250,
+    "country": "Iran",
+    "region": "Alborz",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 2019,
+    "website": "https://www.dizin.ir",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Dizin Nordic Race' or any cross-country ski race with 20km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources reference a cross-country ski race at Dizin with 250m elevation gain; results discuss alpine skiing only.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Dizin is confirmed in Iran[1][3][4], but no sources confirm a 'Dizin Nordic Race' event.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Dizin located in Alborz mountains[1][2][3][4][5][6][8][9], but no mention of the specific nordic race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "All sources describe alpine/downhill skiing at Dizin[1][2][3][4][5][6]; no cross-country/classic nordic race found.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention participant numbers for any nordic race at Dizin.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources reference a 2019-founded nordic race; Dizin resort established 1960s[3].",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.dizin.ir not confirmed in results as official site for a nordic race; general Dizin mentions but no race details.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Skiing season Dec-April[1][2][4], February plausible, but no specific nordic race dates found.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.adventureiran.com/iran-tour/dizin-skiing-alborz-trekking-and-the-caspian-sea/",
+    "https://www.iranexploration.com/holiday-types/iran-adventure-skiing-ski-on-off-piste-tour/on-off-piste-skiing-in-dizin-ski-resort-7days-wi22srop/",
+    "https://en.wikipedia.org/wiki/Dizin",
+    "https://www.youngpioneertours.com/tour/iran-skiing-tour/",
+    "https://damavandmt.blogspot.com/2009/11/ski-dizin.html",
+    "https://www.damawand.de/Ski/Dizin.html",
+    "https://inspirationaladventures.com/adventure/ski-at-the-dizin-resort-in-irans-alborz-mountains",
+    "https://www.oreateai.com/blog/dizin-ski-resort-iran/5e00307f0e24b4b504d74cd3f0caa962",
+    "https://skiofpersia.com/en/resort/dizin/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:12:40Z"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "michigan-cup-relays",
+  "name": "Michigan Cup Relays",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://nordicskiracer.com/micup/",
+    "results_url": null,
+    "evidence_summary": "The Michigan Cup Relays is a real, organized end-of-season relay race within the Michigan Cup Cross Country Ski Racing Series, held annually at Cross Country Ski Headquarters in Roscommon, MI, with the 2026 event scheduled for March 8. Multiple sources including the series website detail its format (3 skiers per team: 1 classic, 2 freestyle legs), registration ($20/person or $60/team), and awards party. Event listings confirm past and upcoming dates, locations, and logistics, with no results pages directly linked but series standings referenced.",
+    "sources": [
+      "https://nordicskiracer.com/micup/",
+      "https://www.crosscountryski.com/product/michigan-cup-relay-registration/",
+      "https://www.crosscountryski.com/mi-cup-relay-race-course-update-saturday-march-7th/",
+      "https://nordicskiracer.com/MICup/micupfaq.asp",
+      "https://www.nordicskiracer.com",
+      "https://www.northeastmichigan.org/event-details/michigan-cup-relays-at-xc-ski-hq",
+      "http://www.michiganskiblog.com/xc-ski-headquarters-michigan-cup-relays/"
+    ]
+  },
+  "citations": [
+    "https://nordicskiracer.com/micup/",
+    "https://www.crosscountryski.com/product/michigan-cup-relay-registration/",
+    "https://www.crosscountryski.com/mi-cup-relay-race-course-update-saturday-march-7th/",
+    "https://nordicskiracer.com/MICup/micupfaq.asp",
+    "https://www.nordicskiracer.com",
+    "https://www.cxcskiing.org",
+    "https://www.northeastmichigan.org/event-details/michigan-cup-relays-at-xc-ski-hq",
+    "https://www.skitigers.com/2025-mi-state-championships.html",
+    "http://www.michiganskiblog.com/xc-ski-headquarters-michigan-cup-relays/"
+  ],
+  "checked_at": "2026-03-12T15:56:05Z"
+}

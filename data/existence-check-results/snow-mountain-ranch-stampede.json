@@ -1,0 +1,32 @@
+{
+  "slug": "snow-mountain-ranch-stampede",
+  "name": "Snow Mountain Ranch Stampede",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://skigrandnordic.org/snow-mountain-stampede/",
+    "results_url": "https://runsignup.com/Race/Results/144607/#resultSetId-369188",
+    "evidence_summary": "Multiple sources confirm the Snow Mountain Ranch Stampede as a real annual cross-country ski race series at Snow Mountain Ranch Nordic Center in Granby, CO, part of the Grand County Nordic Race Series, with events on March 7-8, 2026 (skate and classic races). Official pages provide registration, past results, and details; YMCA site lists it as the 42nd annual event; other Nordic clubs reference it in their schedules. Concrete evidence includes a working official site, race results links, and active registration pages.",
+    "sources": [
+      "https://skigrandnordic.org/snow-mountain-stampede/",
+      "https://skigrandnordic.org/grand-nordic-race-series/",
+      "https://www.webscorer.com/register?raceid=411005",
+      "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-ranch-stampede",
+      "https://www.skisignup.com/Race/CO/Granby/SnowMountainRanchStampedeClassicSunday",
+      "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-classic-grand-nordic-race-series-11165569",
+      "https://www.durangonordic.org/youth-race-team"
+    ]
+  },
+  "citations": [
+    "https://skigrandnordic.org/snow-mountain-stampede/",
+    "https://skigrandnordic.org/grand-nordic-race-series/",
+    "https://www.webscorer.com/register?raceid=411005",
+    "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-ranch-stampede",
+    "https://www.skisignup.com/Race/CO/Granby/SnowMountainRanchStampedeClassicSunday",
+    "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-classic-grand-nordic-race-series-11165569",
+    "https://www.durangonordic.org/youth-race-team"
+  ],
+  "checked_at": "2026-03-12T16:05:01Z"
+}

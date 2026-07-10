@@ -1,0 +1,82 @@
+{
+  "slug": "loppet-festival-marathon",
+  "name": "Loppet Festival Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Minnesota",
+    "discipline": "both",
+    "field_size": 2500,
+    "founded": 2003,
+    "website": "https://www.loppet.org",
+    "date": "First weekend in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "The City of Lakes Ski Marathon (the primary marathon event) is 30K according to source [5]. The 42K distance refers to separate events (Hoigaard's Classic and Loppet Freestyle) mentioned in source [3], not the main Loppet Festival Marathon.",
+      "source_url": "https://loppet.org/event/marathon-pouli-tour-ski/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide elevation gain/loss data for the Loppet Festival Marathon courses.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the event is in the United States.",
+      "source_url": "https://loppet.org/event/marathon-pouli-tour-ski/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the event is in Minnesota, specifically Minneapolis.",
+      "source_url": "https://loppet.org/event/marathon-pouli-tour-ski/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source [5] confirms both classic and skate (freestyle) ski marathon options are offered on consecutive days (Saturday classic, Sunday skate).",
+      "source_url": "https://loppet.org/event/marathon-pouli-tour-ski/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide participant numbers for the Loppet Festival Marathon.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide founding year or first edition date for the Loppet Festival Marathon.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source [1] and [4] reference https://www.loppet.org as the official race website.",
+      "source_url": "https://loppet.org/event/marathon-pouli-tour-ski/"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Late January/Early February",
+      "note": "Source [5] indicates the 2026 City of Lakes Ski Marathon is scheduled for Saturday, January 31 and Sunday, February 1, not the first weekend in February. The event occurs in late January/early February.",
+      "source_url": "https://loppet.org/event/marathon-pouli-tour-ski/"
+    }
+  },
+  "citations": [
+    "https://runsignup.com/Race/MN/Minneapolis/TrailLoppet",
+    "https://loppet.org/looking-forward-to-the-trail-loppet/",
+    "https://loppet.org/loppet-goes-epic/",
+    "https://loppet.org/event/trail-loppet/",
+    "https://loppet.org/event/marathon-pouli-tour-ski/",
+    "https://loppet.org/event/marathon-pouli-tour-fat-bike/",
+    "https://statistik.d-u-v.org/eventdetail.php?event=115305"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:44:30Z"
+}

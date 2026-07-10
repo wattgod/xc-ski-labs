@@ -1,0 +1,84 @@
+{
+  "slug": "great-ski-race",
+  "name": "Great Ski Race",
+  "facts": {
+    "distance_km": 26,
+    "elevation_m": 850,
+    "country": "United States",
+    "region": "California",
+    "discipline": "both",
+    "field_size": "~1,000",
+    "founded": 1977,
+    "website": "https://www.thegreatskirace.com",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 26km course",
+      "source_url": "https://thegreatskirace.com/race-info/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 499,
+      "note": "Sources state 1,636 feet (499m), outside ±100m tolerance of 850m",
+      "source_url": "https://thegreatskirace.com/race-info/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Tahoe City, CA",
+      "source_url": "https://thegreatskirace.com/race-info/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "California, Tahoe City",
+      "source_url": "https://thegreatskirace.com/race-info/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Machine-groomed with skating lanes and double tracks",
+      "source_url": "https://thegreatskirace.com/race-info/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants ~1,000",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Dating back to 1977",
+      "source_url": "https://thegreatskirace.com/about/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site",
+      "source_url": "https://thegreatskirace.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "March 2, 2025; early March",
+      "source_url": "https://raceroster.com/events/2025/86989/the-great-ski-race"
+    }
+  },
+  "citations": [
+    "https://thegreatskirace.com/race-info/",
+    "https://thegreatskirace.com",
+    "https://raceroster.com/events/2025/86989/the-great-ski-race",
+    "https://thegreatskirace.com/the-start/",
+    "https://thegreatskirace.com/reminders/",
+    "https://thegreatskirace.com/the-course/",
+    "https://thegreatskirace.com/about/",
+    "https://thegreatskirace.com/the-finish/",
+    "https://thegreatskirace.com/race-history/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:51Z"
+}

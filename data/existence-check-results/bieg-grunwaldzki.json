@@ -1,0 +1,22 @@
+{
+  "slug": "bieg-grunwaldzki",
+  "name": "Bieg Grunwaldzki",
+  "country": "Poland",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of 'Bieg Grunwaldzki' as a cross-country ski race in any of the search results. Mentions of 'Grunwaldzki' appear only in unrelated contexts like place names (pl. Grunwaldzki, Grunwaldzki Square) and non-ski events. No official website, results, news articles, listings, social media, videos, or registration pages for this specific event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.wroclaw.pl/en/wroclaw-for-weekend-1315-march-list-of-events",
+    "https://polskieregiony.pl/tag/bieg/",
+    "https://en.wikipedia.org/wiki/Pope_John_Paul_II_Avenue,_Szczecin",
+    "https://www.frse.org.pl",
+    "https://eurobuildcee.com/en/news/30158-amrest-to-move-polish-hq-to-centrum-poludnie"
+  ],
+  "checked_at": "2026-03-12T15:39:57Z"
+}

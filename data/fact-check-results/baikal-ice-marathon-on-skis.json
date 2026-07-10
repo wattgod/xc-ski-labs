@@ -1,0 +1,84 @@
+{
+  "slug": "baikal-ice-marathon-on-skis",
+  "name": "Baikal Ice Marathon on Skis",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 20,
+    "country": "Russia",
+    "region": "Irkutsk Oblast",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 2005,
+    "website": null,
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Baikal Skiing Marathon is 50 km classic style ski marathon[2]",
+      "source_url": "https://baikalcomplex.com/skimarathon.htm"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 60,
+      "note": "Lap's difference in altitude about 60 m (within one lap, total for 50km/3 laps ~180m, but per lap 60m; database 20m too low)[2]",
+      "source_url": "https://baikalcomplex.com/skimarathon.htm"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia[1][2][6]",
+      "source_url": "http://www.baikal-marathon.org"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Irkutsk region, Listvyanka near Irkutsk[2][4][6]",
+      "source_url": "https://baikalcomplex.com/skimarathon.htm"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic style ski marathon[2]",
+      "source_url": "https://baikalcomplex.com/skimarathon.htm"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1976,
+      "note": "Annual competition held since 1976[2]",
+      "source_url": "https://baikalcomplex.com/skimarathon.htm"
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No clear official website for ski marathon; baikalcomplex.com hosts info but not confirmed official",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held on the first Sunday of March[2]",
+      "source_url": "https://baikalcomplex.com/skimarathon.htm"
+    }
+  },
+  "citations": [
+    "http://www.baikal-marathon.org",
+    "https://baikalcomplex.com/skimarathon.htm",
+    "https://ice-storm.com/main-en",
+    "http://www.baikalexpress.de/eismarathon/index_eng.htm",
+    "http://www.baikal-marathon.org/rulesandterms",
+    "http://www.baikal-marathon.org/history/the-worlds-marathons-baikal-ice-marathon",
+    "https://baikalcomplex.com/superskimarathon.htm",
+    "http://www.baikal-marathon.org/reports/video-baikal-ice-marathon-runners-brave-siberian-frost",
+    "https://worldsmarathons.com/p/ice-run"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:11:11Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "wachau-ski-marathon",
+  "name": "Wachau Ski Marathon",
+  "country": "Austria",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Wachau Ski Marathon' or any cross-country ski race in the Wachau region. All search results refer to the Wachau Marathon, a running event (e.g., official site wachaumarathon.com for 2025 running marathon). No mentions of skiing, cross-country, Worldloppet, results, news, or social media for a ski marathon.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.ahotu.com/event/wachau-marathon",
+    "https://www.pichler-wachau.com/en/active/running-skating-wachau.html",
+    "https://www.wachaumarathon.com/en/events/marathon/",
+    "https://www.wachaumarathon.com/en/around-the-race/race-weekend/",
+    "https://worldsmarathons.com/marathon/international-wachau-marathon",
+    "https://www.wachaumarathon.com/en/",
+    "https://www.wachau-radmarathon.at/en/tracks/krone-champions-marathon",
+    "https://www.wachau-radmarathon.at/en/news/249-3-routes",
+    "https://www.wachaumarathon.com/en/events/",
+    "https://www.wachautrail.at/en/wachau101"
+  ],
+  "checked_at": "2026-03-12T16:11:33Z"
+}

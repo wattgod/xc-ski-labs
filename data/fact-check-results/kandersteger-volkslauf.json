@@ -1,0 +1,81 @@
+{
+  "slug": "kandersteger-volkslauf",
+  "name": "Kandersteger Volkslauf",
+  "facts": {
+    "distance_km": 27,
+    "elevation_m": 300,
+    "country": "Switzerland",
+    "region": "Bernese Oberland",
+    "discipline": "skate",
+    "field_size": 400,
+    "founded": null,
+    "website": "https://www.kandersteger.ch/kandersteger-volkslauf",
+    "date": "First Sunday of February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 27 km for the main race (2 rounds + start loop)",
+      "source_url": "https://www.kandersteger.ch/kandersteger-volkslauf"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in Kandersteg, Switzerland; part of Swiss-Loppet series",
+      "source_url": "https://www.kandersteger.ch/kandersteger-volkslauf"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as in Berner Oberland (Bernese Oberland)",
+      "source_url": "https://www.kandersteger.ch"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freie Technik (skating/free technique); no classic track prepared",
+      "source_url": "https://www.kandersteger.ch/kandersteger-volkslauf"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Up to 500 participants expected; start blocks up to 400+; 400 within ±20% tolerance",
+      "source_url": "https://www.kandersteger.ch"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1973,
+      "note": "54th edition in 2026 implies first edition around 1973 (2026-53=1973)",
+      "source_url": "https://www.kandersteger.ch"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches the official site with event details",
+      "source_url": "https://www.kandersteger.ch/kandersteger-volkslauf"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Last Sunday of January / First Sunday of February (e.g., 1 Feb 2026)",
+      "note": "2026 race on Sunday, 1 February (first Sunday); part of Nordic Days 31 Jan-1 Feb",
+      "source_url": "https://www.kandersteger.ch/kandersteger-volkslauf"
+    }
+  },
+  "citations": [
+    "https://www.kandersteger.ch/kandersteger-volkslauf",
+    "https://www.swiss-ski.ch/events/swiss-loppet/terminkalender/kandersteger-volkslauf/",
+    "https://www.kandersteger.ch",
+    "https://adelboden-lenk-kandersteg.ch/aktivitaeten/ganzjaehrig/event/detail/kandersteger-nordic-days-1",
+    "https://arosalenzerheide.swiss/en/Lenzerheide/Top-Events/Sports/Planoiras-Folk-Cross-Country-Skiing-Race/Swiss-Loppet",
+    "https://datasport.com/en/sport-events/series/swiss-loppet/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:42:48Z"
+}

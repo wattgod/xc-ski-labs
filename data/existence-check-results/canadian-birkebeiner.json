@@ -1,0 +1,29 @@
+{
+  "slug": "canadian-birkebeiner",
+  "name": "Canadian Birkebeiner",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://canadianbirkie.com",
+    "results_url": "https://canadianbirkie.com/ski/55-km-with-pack-torskeklubben-birkebeiner/",
+    "evidence_summary": "The Canadian Birkebeiner has a fully functional official website with detailed race information, registration for 2025/2026 events, timing via Zone4, and Worldloppet affiliation since 2019. It mentions past results integration with Worldloppet and Zone4, course maps, cut-off times, and recent cancellation due to weather with deferrals to 2027. Additional confirmation from Ukrainian Village site describing it as Canada's largest classical ski festival.",
+    "sources": [
+      "https://canadianbirkie.com",
+      "https://canadianbirkie.com/ski/55-km-with-pack-torskeklubben-birkebeiner/",
+      "https://canadianbirkie.com/ski/",
+      "http://ukrainianvillage.ca/canadian-birkebeiner-ski-festival"
+    ]
+  },
+  "citations": [
+    "https://canadianbirkie.com/ski/55-km-with-pack-torskeklubben-birkebeiner/",
+    "https://canadianbirkie.com/ski/",
+    "https://canadianbirkie.com/birkie-faq/",
+    "https://www.birkie.com/ski/events/birkie/",
+    "https://canadianbirkie.com",
+    "https://www.birkie.com/ski/birkie-week/",
+    "http://ukrainianvillage.ca/canadian-birkebeiner-ski-festival"
+  ],
+  "checked_at": "2026-03-12T15:41:50Z"
+}

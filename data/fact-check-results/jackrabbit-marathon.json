@@ -1,0 +1,83 @@
+{
+  "slug": "jackrabbit-marathon",
+  "name": "Jackrabbit Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 600,
+    "country": "Canada",
+    "region": "Quebec",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1985,
+    "website": "https://www.jackrabbitmarathon.ca",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for a 50km 'Jackrabbit Marathon' cross-country ski race matching the claimed details; results reference unrelated events like Ultra-Trail Jack Rabbit (short loops) or other marathons.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 600m elevation gain for a Jackrabbit Marathon; mentions of Jackrabbit-related trails or events show much lower gains (e.g., 256 ft ~78m, 143m).",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Quebec mentioned in related events (e.g., Ultra-Trail Jack Rabbit), but no confirmation of specific 50km Jackrabbit Marathon in Canada.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Quebec/Laurentians referenced in sources for Jackrabbit-named events, but no match for claimed race details.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cross-country skiing mentioned in Jackrabbit-related events, but no confirmation for classic discipline in a 50km marathon.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for a Jackrabbit Marathon matching the description.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1985 founding for this specific race; Ultra-Trail Jack Rabbit noted as 4th year in 2026.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not found in search results; no official site for matching race confirmed.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Early March not contradicted but unconfirmed for this race; related events in February (e.g., Ultra-Trail Jack Rabbit Feb 20, 2026).",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.therunningdirectory.ca/race/ultra-trail-jack-rabbit-2026",
+    "https://skimarathon.ca/the-trail/",
+    "https://www.trailforks.com/trails/a20--jackrabbit/",
+    "https://www.trailforks.com/trails/jack-rabbit-411010/",
+    "https://caltopo.com/find",
+    "https://findarace.com/ca/events/ultra-trail-jack-rabbit",
+    "https://raceroster.com/events/2026/106956/ultra-trail-jack-rabbit",
+    "https://www.plotaroute.com/routeplayer/905385?init=download"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:41:27Z"
+}

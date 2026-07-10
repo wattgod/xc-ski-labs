@@ -1,0 +1,34 @@
+{
+  "slug": "orsa-gronklitt-ski-marathon",
+  "name": "Orsa Gronklitt Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.orsagronklitt.se/evenemang/orsa-ski-marathon/",
+    "results_url": "https://live.eqtiming.com/73495",
+    "evidence_summary": "The Orsa Grönklitt Ski Marathon is a confirmed, well-established Nordic skiing event held annually at Orsa Grönklitt in Sweden. Multiple independent sources document the race including an official website, live timing/results system, race registration pages, and detailed event information from Swedish skiing organizations. The event serves as an official qualifying race for the Vasaloppet and Tjejvasan.",
+    "sources": [
+      "https://loppkartan.se/en/race-pages/orsa_ski_marathon/",
+      "https://www.orsagronklitt.se/en/skiing/cross-country-center/",
+      "https://www.orsagronklitt.se/evenemang/craft-ski-marathon/",
+      "https://www.svenskalag.se/orsask-varatavlingar/sida/78469/gronklitt-ski-marathon",
+      "https://skimarathon.se",
+      "https://www.orsagronklitt.se/evenemang/orsa-ski-marathon/",
+      "https://signup.eqtiming.com/?Event=OrsaSkidor&lang=swedish"
+    ]
+  },
+  "citations": [
+    "https://loppkartan.se/en/race-pages/orsa_ski_marathon/",
+    "https://www.proxcskiing.com/long-distance/orsa-gronklitt-50k-itt-women-program-start-list-start-times-and-where-to-watch/",
+    "https://www.svenskalag.se/orsask-varatavlingar/sida/78469/gronklitt-ski-marathon",
+    "https://www.orsagronklitt.se/en/skiing/cross-country-center/",
+    "https://www.orsagronklitt.se/en/skiing/",
+    "https://www.orsagronklitt.se/en/skiing/cross-country-skiing/",
+    "https://skimarathon.se",
+    "https://skiclassics.com/orsa-gronklitt-50k-itt-womens-preliminary-results/",
+    "https://www.orsagronklitt.se/evenemang/craft-ski-marathon/"
+  ],
+  "checked_at": "2026-03-12T15:58:55Z"
+}

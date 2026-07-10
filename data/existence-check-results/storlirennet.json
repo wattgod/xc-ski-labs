@@ -1,0 +1,29 @@
+{
+  "slug": "storlirennet",
+  "name": "Storlirennet",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.storlirennet.se",
+    "results_url": "https://www.nordicmag.info/en/cross-country-skiing-astrid-oeyre-slind-and-jan-thomas-jenssen-win-the-storlirennet-0405/",
+    "evidence_summary": "Storlirennet is a confirmed real event with multiple independent sources including official Ski Classics and ProXCskiing coverage, news articles reporting race results, and social media presence. The race is a 35km cross-country ski event held between Storlien, Sweden and Meråker, Norway, scheduled for April 11, 2026, as part of the Ski Classics Challengers circuit. Historical records show it was first held in 1938 and has been held 66 times.",
+    "sources": [
+      "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/",
+      "https://skiclassics.com/storlirennet-joins-the-ski-classics-challengers-calendar/",
+      "https://www.nordicmag.info/en/cross-country-skiing-astrid-oeyre-slind-and-jan-thomas-jenssen-win-the-storlirennet-0405/",
+      "https://www.storlirennet.se",
+      "https://www.facebook.com/storlirennet",
+      "https://www.instagram.com/storlirennet"
+    ]
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/storlirennet-joins-the-ski-classics-challengers-calendar/",
+    "https://skiclassics.com/storlirennet-joins-the-ski-classics-challengers-calendar/",
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://www.nordicmag.info/en/cross-country-skiing-astrid-oeyre-slind-and-jan-thomas-jenssen-win-the-storlirennet-0405/"
+  ],
+  "checked_at": "2026-03-12T16:05:56Z"
+}

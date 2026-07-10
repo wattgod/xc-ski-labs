@@ -1,0 +1,83 @@
+{
+  "slug": "jackson-hole-nordic-marathon",
+  "name": "Jackson Hole Nordic Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Wyoming",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.jhnordic.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention a 'Snow King Marathon' started in 1967 and reference to 'Drift race' with 13, 28, or 103 mile options in March 2026, but no specific confirmation of a 50km 'Jackson Hole Nordic Marathon' distance found in provided sources.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found in search results for any Jackson Hole Nordic cross-country ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Jackson Hole is located in Wyoming, United States, as confirmed by multiple search results.",
+      "source_url": "https://jhnordic.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Jackson Hole is in Wyoming, as confirmed by search results mentioning Trail Creek Nordic Center location and Teton Pass.",
+      "source_url": "https://jhskiclub.org/programs/johnny-curtis-memorial-race"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results show the Johnny Curtis Memorial Race (February 2026) includes both Classic and Freestyle (skate) disciplines, but no specific confirmation found for a race specifically called 'Jackson Hole Nordic Marathon' or its discipline format.",
+      "source_url": "https://jhskiclub.org/programs/johnny-curtis-memorial-race"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found in search results for any Jackson Hole Nordic cross-country ski race.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention the Snow King Marathon started in 1967, but no founding year found for a race specifically called 'Jackson Hole Nordic Marathon'.",
+      "source_url": "https://jhskiclub.org/programs/johnny-curtis-memorial-race"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "https://www.jhnordic.com is confirmed as the Jackson Hole Nordic Alliance website, the primary resource for Nordic skiing in Jackson Hole.",
+      "source_url": "https://jhnordic.com"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "February",
+      "note": "The Johnny Curtis Memorial Race, a major Jackson Hole Nordic event, occurs in early February (February 7-8, 2026). The Drift race occurs in March (March 13-15, 2026). No evidence found of a major Jackson Hole Nordic Marathon in late January.",
+      "source_url": "https://jhskiclub.org/programs/johnny-curtis-memorial-race"
+    }
+  },
+  "citations": [
+    "https://www.jacksonholemarathon.com",
+    "https://www.jacksonhole.com/nordic",
+    "https://jhskiclub.org/programs/johnny-curtis-memorial-race",
+    "https://jhnordic.com",
+    "https://jhnordic.com/welcome-to-jackson-hole-nordic/",
+    "https://jhnordic.com/grooming/",
+    "https://jhnordic.com/the-spring-issue-dtr-march-10-26/",
+    "https://jhnordic.com/give-yourself-something-to-look-forward-to/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:15:08Z"
+}

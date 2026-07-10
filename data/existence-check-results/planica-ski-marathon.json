@@ -1,0 +1,31 @@
+{
+  "slug": "planica-ski-marathon",
+  "name": "Planica Ski Marathon",
+  "country": "Slovenia",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "https://planicaski.com",
+    "results_url": null,
+    "evidence_summary": "Multiple sites including an apparent official website (planicaski.com) and Kranjska Gora tourism page promote the Planica Ski Marathon as an Euroloppet event with specific dates in February 2025/2026, registration details, and course info. Registration pages like eventrac.co.uk exist, but no past race results, YouTube videos, or official listings in Worldloppet/Euroloppet/Ski Classics were found in the results. Directory listings like worldsMarathons and ahotu mention it but provide weak evidence.",
+    "sources": [
+      "https://kranjska-gora.si/en/events/planica-ski-marathon",
+      "https://planicaski.com",
+      "https://planicaski.eventrac.co.uk/e/planica-ski-marathon-14059",
+      "https://worldsmarathons.com/marathon/ski-marathon-planica-ski"
+    ]
+  },
+  "citations": [
+    "https://kranjska-gora.si/en/events/planica-ski-marathon",
+    "https://worldsmarathons.com/marathon/ski-marathon-planica-ski",
+    "https://planicaski.eventrac.co.uk/e/planica-ski-marathon-14059",
+    "https://www.ahotu.com/event/planica-ski-marathon",
+    "https://planicaski.com/slo",
+    "https://planicaski.com",
+    "https://www.planica.si/en",
+    "https://www.slovenia.info/en/things-to-do/events/24589-fis-ski-jumping-world-cup-planica-2026",
+    "https://www.planica.si/en/programme"
+  ],
+  "checked_at": "2026-03-12T16:00:15Z"
+}

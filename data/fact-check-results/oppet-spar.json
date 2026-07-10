@@ -1,0 +1,82 @@
+{
+  "slug": "oppet-spar",
+  "name": "Öppet Spår",
+  "facts": {
+    "distance_km": 90,
+    "elevation_m": 850,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": "~8,000 starters",
+    "founded": 1945,
+    "website": "https://www.vasaloppet.se/en/ski/oppet-spar-sunday/",
+    "date": "Monday after Vasaloppet (first Monday in March)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 90 km for Öppet Spår Sunday, matching the classic Vasaloppet distance.[1][3]",
+      "source_url": "https://www.visitdalarna.se/en/do/events/oppet-spar-sunday"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for Öppet Spår; Vasaloppet track profile shows partial data but not total.[4]",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden.[3][4]",
+      "source_url": "https://www.ahotu.com/event/vasaloppet-week"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Dalarna.[1][3][4]",
+      "source_url": "https://www.visitdalarna.se/en/do/events/oppet-spar-sunday"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources describe it as the 'entire classic Vasaloppet' but no explicit confirmation of classic-only technique for Öppet Spår Sunday; related Monday 45 is freestyle.[1][2]",
+      "source_url": "https://www.visitdalarna.se/en/do/events/oppet-spar-sunday"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found for Öppet Spår Sunday; Vasaloppet main event has ~15,000 but Öppet Spår not detailed.[3][4]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm founding year for Öppet Spår specifically; Vasaloppet founded 1922.[4]",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.visitdalarna.se/en/do/events/oppet-spar-sunday or https://vasaloppet.se/en/ (no exact match found)",
+      "note": "Database URL returns no direct content in results; official info on Vasaloppet sites and Visit Dalarna.[1][7]",
+      "source_url": "https://www.visitdalarna.se/en/do/events/oppet-spar-sunday"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Sunday after Vasaloppet (e.g., 22 Feb 2026)",
+      "note": "Sources indicate Sunday (Öppet Spår Sunday), not Monday; e.g., 22 Feb 2026 Sunday, Vasaloppet typically first Sunday in March.[1][3]",
+      "source_url": "https://www.visitdalarna.se/en/do/events/oppet-spar-sunday"
+    }
+  },
+  "citations": [
+    "https://www.visitdalarna.se/en/do/events/oppet-spar-sunday",
+    "https://vasaloppet.se/en/ski/oppet-spar-monday-45/",
+    "https://www.ahotu.com/event/vasaloppet-week",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.learnswedishnow.com/blog/vasaloppet-the-worlds-oldest-cross-country-ski-race",
+    "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594",
+    "https://vasaloppet.se/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:53:42Z"
+}

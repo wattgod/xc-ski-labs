@@ -1,0 +1,82 @@
+{
+  "slug": "seeley-hills-classic",
+  "name": "Seeley Hills Classic",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 450,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "classic",
+    "field_size": 600,
+    "founded": 1992,
+    "website": "https://www.seeleyhillsclassic.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 35,
+      "note": "For 2025, distance changed to 35K (full race, 7x5K laps); previously 42K",
+      "source_url": "https://downtownhaywardwi.com/event/seeley-hills-classic-2025/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States",
+      "source_url": "https://my.raceresult.com/378583/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Wisconsin (Hayward/Cable/Seeley area)",
+      "source_url": "https://www.skisignup.com/Race/WI/Hayward/SeeleyHillsClassicBirkie"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique required; skate added separately on Sunday for 2025",
+      "source_url": "https://www.skisignup.com/Race/WI/Hayward/SeeleyHillsClassicBirkie"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Started in 1992",
+      "source_url": "https://www.travelwisconsin.com/events/seeley-hills-classic-ski-event"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches https://seeleyhillsclassic.com/ or https://www.seeleyhillsclassic.com",
+      "source_url": "https://www.skisignup.com/Race/WI/Hayward/SeeleyHillsClassicBirkie"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early/mid January, e.g., Jan 11 2025, Jan 10 2026",
+      "source_url": "https://downtownhaywardwi.com/event/seeley-hills-classic-2025/"
+    }
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/WI/Hayward/SeeleyHillsClassicBirkie",
+    "https://www.travelwisconsin.com/events/seeley-hills-classic-ski-event",
+    "https://downtownhaywardwi.com/event/seeley-hills-classic-2025/",
+    "https://www.worldloppet.com/seeley-hills-classic-usa/",
+    "https://www.cable4fun.com/event/seeley-hills-classic-2/",
+    "https://my.raceresult.com/378583/",
+    "https://www.birkie.com/ski/events/seeley-hills-classic/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:51:56Z"
+}

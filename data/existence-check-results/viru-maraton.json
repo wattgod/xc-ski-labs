@@ -1,0 +1,30 @@
+{
+  "slug": "viru-maraton",
+  "name": "Viru Maraton",
+  "country": "Estonia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.estoloppet.ee/en",
+    "results_url": "https://www.worldloppet.com/results/",
+    "evidence_summary": "Viru Maraton is listed as part of the Estoloppet series on its official website with 2026 results and dates. Worldloppet confirms it as a real event with 2023 details and 2026 race results for 18km and 36km distances. Additional evidence includes 2024 wax test results from the 38th edition and historical mentions.",
+    "sources": [
+      "https://www.worldloppet.com/viru-maraton/",
+      "https://www.worldloppet.com/results/",
+      "https://www.skiwax.eu/blog/wax-test-results-01-27-24.html",
+      "https://www.estoloppet.ee/en",
+      "https://www.proxcskiing.com/sm/mea-na-tupu/viru-maraton/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/viru-maraton/",
+    "https://www.worldloppet.com/results/",
+    "https://www.skiwax.eu/blog/wax-test-results-01-27-24.html",
+    "https://www.estoloppet.ee/en",
+    "https://www.proxcskiing.com/sm/mea-na-tupu/viru-maraton/",
+    "https://news.err.ee/1609585319/estonian-twins-take-top-two-cross-country-ski-race-spots-at-turin-student-games",
+    "https://tartumaraton.ee/en/tartu-maraton-2025"
+  ],
+  "checked_at": "2026-03-12T16:11:23Z"
+}

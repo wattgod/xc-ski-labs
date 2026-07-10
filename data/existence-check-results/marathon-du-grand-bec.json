@@ -1,0 +1,32 @@
+{
+  "slug": "marathon-du-grand-bec",
+  "name": "Marathon du Grand Bec",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.marathondugrandbec.com",
+    "results_url": null,
+    "evidence_summary": "The official website details the event for February 22, 2026, with multiple distances from 1.5km to 42km on the Champagny-le-Haut plateau. Independent mentions appear in Nordic Mag articles about its inclusion in the Marathon Ski Tour and a past cancellation, plus listings on France-Montagnes, La Plagne sites, and SeeLaPlagne. Contact information for organizer Arnaud Ruffier des Aimes confirms legitimacy.",
+    "sources": [
+      "https://www.marathondugrandbec.com",
+      "https://www.marathondugrandbec.com/course/",
+      "https://www.france-montagnes.com/en/sit/marathon-du-grand-bec-sitraeve699266/",
+      "https://www.nordicmag.info/en/cross-country-skiing-marathon-ski-tour-the-marathon-du-grand-bec-on-the-programme-for-sunday-in-champagny-en-vanoise-0219/",
+      "https://www.nordicmag.info/en/cross-country-skiing-marathon-ski-tour-grand-bec-marathon-cancelled-0220/"
+    ]
+  },
+  "citations": [
+    "https://www.marathondugrandbec.com",
+    "https://www.marathondugrandbec.com/course/",
+    "https://www.france-montagnes.com/en/sit/marathon-du-grand-bec-sitraeve699266/",
+    "https://nl.la-plagne.com/neem-kennis-van-onze-talrijke-activiteiten/ski/langlaufen-noords-skien/nordic-skien/skimarathon-van-de-grand-bec-nordic-skien",
+    "https://www.nordicmag.info/en/cross-country-skiing-marathon-ski-tour-the-marathon-du-grand-bec-on-the-programme-for-sunday-in-champagny-en-vanoise-0219/",
+    "https://www.finishers.com/en/event/grand-bec-alpine-trails",
+    "https://www.seelaplagne.com/events/calendar/nordic-marathon",
+    "http://www.marathondugrandbec.com/contact/",
+    "https://www.nordicmag.info/en/cross-country-skiing-marathon-ski-tour-grand-bec-marathon-cancelled-0220/"
+  ],
+  "checked_at": "2026-03-12T15:55:01Z"
+}

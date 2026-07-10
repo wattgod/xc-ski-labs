@@ -1,0 +1,34 @@
+{
+  "slug": "noquemanon",
+  "name": "Noquemanon Ski Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.noquemanon.com",
+    "results_url": "https://www.noquemanon.com/results/",
+    "evidence_summary": "The Noquemanon Ski Marathon has a fully functional official website with detailed race pages, registration info, and results from multiple years including 2026, 2024, and earlier events listing specific finishers and times. Independent timing service my.race|result hosts official results for 2024 and 2026 events. The site details various distances (50K, 24K, 12K), awards, virtual options, and even 2025 cancellation due to snow conditions, confirming it's a real organized event in the US.",
+    "sources": [
+      "https://www.noquemanon.com/results/",
+      "https://www.noquemanon.com",
+      "http://www.noquemanon.com/races/full-marathon/",
+      "https://www.noquemanon.com/races/half-noque/",
+      "https://my.raceresult.com/groups/5859/",
+      "https://my.raceresult.com/376898/"
+    ]
+  },
+  "citations": [
+    "https://www.noquemanon.com/results/",
+    "http://www.noquemanon.com/races/full-marathon/",
+    "https://www.noquemanon.com/races/half-noque/",
+    "https://www.noquemanon.com",
+    "https://my.raceresult.com/groups/5859/",
+    "https://my.raceresult.com/376898/",
+    "http://www.noquemanon.com/races/noque-12k/",
+    "https://www.noquemanon.com/races/",
+    "http://www.noquemanon.com/races/50k-relay/",
+    "http://www.noquemanon.com/races/junior-noque/"
+  ],
+  "checked_at": "2026-03-12T15:58:04Z"
+}

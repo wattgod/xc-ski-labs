@@ -1,0 +1,82 @@
+{
+  "slug": "bayerischer-wald-skimarathon",
+  "name": "Bayerischer Wald Skimarathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 550,
+    "country": "Germany",
+    "region": "Bavaria",
+    "discipline": "both",
+    "field_size": "~700 starters",
+    "founded": 1975,
+    "website": "https://www.skimarathon.de",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "42 km distance confirmed for the race in Bodenmais",
+      "source_url": "https://www.skadi-loppet.de/de"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Germany (Bodenmais, GER)",
+      "source_url": "https://www.skadi-loppet.de/de"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Bayerischer Wald, Bayern (Bavaria)",
+      "source_url": "https://www.skadi-loppet.de/de"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic (klassisch, Sunday) and skate/free technique (freie Technik, Saturday)",
+      "source_url": "https://www.skadi-loppet.de/de"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants (~700 starters)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found confirming year founded (1975)",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.skadi-loppet.de/de",
+      "note": "Official site is skadi-loppet.de, not skimarahton.de; matches Bodenmais Bayerischer Wald event",
+      "source_url": "https://www.skadi-loppet.de/de"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Early February typical; 2026 event mid-January (17.01.2026) but aligns with winter/early year pattern",
+      "source_url": "https://www.skadi-loppet.de/de"
+    }
+  },
+  "citations": [
+    "https://www.skadi-loppet.de/de",
+    "https://www.ok-bayerischer-wald.de/en/",
+    "https://www.biathlon-dahoam.de/wp-content/uploads/2021/11/ausschreibung-biathlon-em-2022-web.pdf",
+    "https://www.bayerischer-wald.de",
+    "https://www.nationalpark-bayerischer-wald.bayern.de/index.htm",
+    "https://www.ok-bayerischer-wald.de/en/allgemein-en/",
+    "https://www.ok-bayerischer-wald.de/en/events/kategorie/biathlon-en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:45:41Z"
+}

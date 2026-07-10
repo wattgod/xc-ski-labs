@@ -1,0 +1,23 @@
+{
+  "slug": "mt-hermon-nordic-race",
+  "name": "Mt Hermon Nordic Race",
+  "country": "Israel",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Mt Hermon Nordic Race' was found in the search results. The search results describe Mt. Hermon mountain running events (Hermon Challenge), skiing facilities, and mountain biking trails, but contain no mention of any cross-country skiing race by this name. The Mt. Hermon ski resort appears to focus on alpine skiing and snowboarding rather than Nordic/cross-country skiing.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.marathonisrael.co.il/en/event/hermon-challenge/",
+    "https://ibt.org.il/en/2-about-the-trail",
+    "https://skihermon.co.il/en/groups/",
+    "https://skihermon.co.il/en/information/",
+    "https://skihermon.co.il/en/",
+    "https://skihermon.co.il/en/price-lists/ski-lesson-price-list/"
+  ],
+  "checked_at": "2026-03-12T15:56:43Z"
+}

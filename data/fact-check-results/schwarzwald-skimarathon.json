@@ -1,0 +1,84 @@
+{
+  "slug": "schwarzwald-skimarathon",
+  "name": "Schwarzwald Skimarathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 700,
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "discipline": "both",
+    "field_size": "~800 starters",
+    "founded": 1972,
+    "website": "https://www.fernskiwanderweg.de/",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results contain information about Schwarzwald Marathon (running event) and Schwarzwald Bike Marathon, but no specific details about a cross-country ski race called 'Schwarzwald Skimarathon'. The Lemming Loppet is mentioned as a ski marathon in the Northern Black Forest, but distance is not specified in results.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation data found for any Schwarzwald cross-country ski marathon in search results.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Germany is confirmed for Schwarzwald region events, no specific confirmation found for a 'Schwarzwald Skimarathon' cross-country ski race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Schwarzwald (Black Forest) is in Baden-Württemberg, but this cannot be confirmed for the specific 'Schwarzwald Skimarathon' as it does not appear in search results.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Lemming Loppet in Northern Black Forest uses skating technique only, not both classic and skate. However, this is a different event (founded 2016) than the claimed 'Schwarzwald Skimarathon'.",
+      "source_url": "https://lemming-loppet.de/en/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for any Schwarzwald cross-country ski marathon in search results.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year found for 'Schwarzwald Skimarathon'. The Lemming Loppet (a different ski marathon in Black Forest) was founded in 2016, not 1972.",
+      "source_url": "https://lemming-loppet.de/en/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.fernskiwanderweg.de/ does not appear to be an official race website in search results; no official website for 'Schwarzwald Skimarathon' found",
+      "note": "The provided URL cannot be verified as the official website for a 'Schwarzwald Skimarathon'. Search results show no evidence this specific race exists with this name or website.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No race date information found for 'Schwarzwald Skimarathon'. Lemming Loppet timing not specified in results.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://worldsmarathons.com/marathon/schwarzwald-marathon",
+    "https://www.schwarzwaldmarathon.de/infos/faq",
+    "https://www.schwarzwaldmarathon.de/anmeldung",
+    "https://www.schwarzwaldmarathon.de",
+    "https://www.skiverband-schwarzwald.de",
+    "https://lemming-loppet.de/en/",
+    "https://www.schwarzwald-bike-marathon.de",
+    "https://www.schwarzwald-marathon.de",
+    "https://www.schwarzwaldpokal.de"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:05Z"
+}

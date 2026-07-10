@@ -1,0 +1,26 @@
+{
+  "slug": "salpausselka-hiihto",
+  "name": "Salpausselkä Hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Salpausselkä Hiihto'. Salpausselkä is a real geological area and sports venue in Lahti hosting events like Finlandia-hiihto (Finlandia Ski Marathon) and Salpausselän kisat (Lahti Ski Games), but no distinct race by that name exists in listings, results, news, or official sites. Searches yielded only references to the location, not the queried event.",
+    "sources": []
+  },
+  "citations": [
+    "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/",
+    "https://lahtiskigames.com/en/salpausselka-2/",
+    "https://lahtiskigames.com",
+    "https://www.finlandiahiihto.fi",
+    "https://www.kiilopaachallenge.fi/en/partners/",
+    "https://visitlakelandfinland.com/products/ski-museum/",
+    "https://lahtiskigames.com/en/",
+    "https://www.hiihtomuseo.fi/en/do-and-discover/services-of-lahti-sports-centre/",
+    "https://www.finlandiahiihto.fi/news/nordic-walking-world-championships-2024"
+  ],
+  "checked_at": "2026-03-12T16:02:17Z"
+}

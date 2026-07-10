@@ -1,0 +1,83 @@
+{
+  "slug": "nayoro-citizen-ski-marathon",
+  "name": "Nayoro Citizen Ski Marathon",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 150,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": null,
+    "website": "https://www.city.nayoro.lg.jp",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing the 'Nayoro Citizen Ski Marathon' or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing the 'Nayoro Citizen Ski Marathon' or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention Nayoro in Hokkaido, Japan [2][4][5], but no direct confirmation of the specific race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources confirm Nayoro is in Hokkaido [2][4][5], but no direct confirmation of the specific race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing the 'Nayoro Citizen Ski Marathon' or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing the 'Nayoro Citizen Ski Marathon' or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing the 'Nayoro Citizen Ski Marathon' or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.city.nayoro.lg.jp is Nayoro city site; no confirmation it hosts race details. No specific race site found.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming date for 'Nayoro Citizen Ski Marathon'.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.merinomuster.com/post/the-sapporo-ski-marathon-hokkaido-japan",
+    "https://www.powderhounds.com/Japan/Hokkaido/Nayoro-Piyashiri.aspx",
+    "https://runjapan.jp/entry/runtes/smp/competitiondetail.do?raceId=E336168&div=1",
+    "https://www.snowjapan.com/japan-ski-resorts/hokkaido/nayoro/nayoro-piyashiri",
+    "https://www.indyskipass.com/our-resorts/nayoro-piyashiri-ski-resort",
+    "https://nayoro-tourism.com/en/topics-list/topics3/",
+    "https://hokkaido-marathon.com/overview-en/",
+    "https://nayorosports.com/cms/wp-content/uploads/2021/05/nayoroSnow-EN.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:17:17Z"
+}

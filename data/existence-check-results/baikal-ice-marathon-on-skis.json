@@ -1,0 +1,31 @@
+{
+  "slug": "baikal-ice-marathon-on-skis",
+  "name": "Baikal Ice Marathon on Skis",
+  "country": "Russia",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Baikal Ice Marathon on Skis'. All sources describe the Baikal Ice Marathon as a **running** event on frozen Lake Baikal, with no mentions of skiing versions in Worldloppet, results, news, or social media specific to skis. One source mentions a generic 'CROSS-COUNTRY SKIING SUPER BAIKAL MARATHON' but lacks details like results or official listings.",
+    "sources": [
+      "http://www.baikal-marathon.org",
+      "https://www.absolute-siberia.com/en/pages/ice_marathon.html",
+      "http://www.baikal-marathon.org/rulesandterms",
+      "https://baikalcomplex.com/superskimarathon.htm"
+    ]
+  },
+  "citations": [
+    "http://www.baikal-marathon.org",
+    "https://www.absolute-siberia.com/en/pages/ice_marathon.html",
+    "http://baikal-marathon.org/baikal-ice-training",
+    "http://www.baikalexpress.de/eismarathon/index_eng.htm",
+    "http://www.baikal-marathon.org/rulesandterms",
+    "https://worldsmarathons.com/marathon/baikal-ice-marathon",
+    "http://www.baikal-marathon.org/reports",
+    "https://baikalcomplex.com/superskimarathon.htm",
+    "http://www.baikal-marathon.org/reports/video-baikal-ice-marathon-runners-brave-siberian-frost"
+  ],
+  "checked_at": "2026-03-12T15:39:00Z"
+}

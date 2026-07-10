@@ -1,0 +1,82 @@
+{
+  "slug": "sar-planina-marathon",
+  "name": "Šar Planina Marathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 400,
+    "country": "North Macedonia",
+    "region": "Tetovo",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 2021,
+    "website": "https://www.popova-sapka.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a cross-country ski race named 'Šar Planina Marathon' or any matching 25km event.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources reference the 'Šar Planina Marathon' or a 400m elevation gain ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Šar Planina is in North Macedonia per general sources, but no confirmation for this specific race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Tetovo and Popova Šapka linked to Šar Planina region, but no race confirmation.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe a classic or skate cross-country ski race by this name.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources indicate a 2021 founding or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.popova-sapka.com not verified as official site for this race; site mentions ski resort but no marathon[2].",
+      "source_url": "https://www.panacomp.net/sar-planina-mountain-sharr-mountain/"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm February timing for this race; ski season general info only.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=vf1fJPHLXsY",
+    "https://www.panacomp.net/sar-planina-mountain-sharr-mountain/",
+    "https://macedonia-timeless.com/eng/things_to_do/senses/sight/mountains/shar-mountain/",
+    "https://sharplanina.com.mk/EN/istorija.html",
+    "https://macedoniatourism.com/shar-mountain-travel-guide/",
+    "https://runningaround.it/en/nazioni/%D1%81%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%20%D0%BC%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0/",
+    "https://www.tripadvisor.com.au/ShowTopic-g295109-i8578-k10516524-Trail_and_Mountain_running_in_Macedonia-Republic_of_North_Macedonia.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:19:00Z"
+}

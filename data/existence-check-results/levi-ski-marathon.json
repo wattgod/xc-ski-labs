@@ -1,0 +1,31 @@
+{
+  "slug": "levi-ski-marathon",
+  "name": "Levi Ski Marathon",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://yllaslevi.fi/en/",
+    "results_url": null,
+    "evidence_summary": "Ylläs-Levi Hiihto is a real annual cross-country ski marathon in Finland from Ylläs to Levi (55-70km), confirmed by its official website with detailed race info, organization, and 2026 dates (April 10-11). It is listed as a member of Worldloppet and Euroloppet series, and promoted on Levi's tourism site. No past results in snippets, but event infrastructure including timing service is described.",
+    "sources": [
+      "https://yllaslevi.fi/en/race-info/",
+      "https://www.worldloppet.com/yllas-levi/",
+      "https://yllaslevi.fi/en/general-information/",
+      "https://yllaslevi.fi/en/",
+      "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/"
+    ]
+  },
+  "citations": [
+    "https://yllaslevi.fi/en/race-info/",
+    "https://www.worldloppet.com/yllas-levi/",
+    "https://yllaslevi.fi/en/general-information/",
+    "https://www.levi.fi/en/events/ruskamarathon-2025/",
+    "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+    "https://yllaslevi.fi/en/",
+    "https://www.levi.fi/en/events/?category=Sports",
+    "https://www.levi.fi/en/events/fischer-sprint-challenge/"
+  ],
+  "checked_at": "2026-03-12T15:53:52Z"
+}

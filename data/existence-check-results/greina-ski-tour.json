@@ -1,0 +1,27 @@
+{
+  "slug": "greina-ski-tour",
+  "name": "Greina Ski Tour",
+  "country": "Switzerland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Greina Ski Tour' cross-country ski race found in search results. Greina Plateau is a real location with guided ski tours (not races), hiking trails, and a trail running event (Greina Trail), but no organized cross-country ski race with results, official site, news, or listings in Worldloppet/FIS/Ski Classics.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.bergschaft.ch/en/topic/ski-tours/guided-ski-tours/",
+    "https://www.graubuenden.ch/en/tours/2-day-hike-greina-high-plateau",
+    "https://www.graubuenden.ch/en/attractions/greina-hochebene-0",
+    "https://www.myswitzerland.com/en-us/experiences/greina-plateau/",
+    "https://www.myswitzerland.com/en/experiences/events/greina-trail/",
+    "https://www.bellinzonaevalli.ch/en/commons/details/Bus-Alpin-Greina-Plateau-Tour/138477.html",
+    "https://schweizmobil.ch/en/tour/7101203",
+    "https://www.bellinzonaevalli.ch/en/hike/details/The-Greina-plateau-and-its-arch/41744746.html",
+    "https://schweizmobil.ch/en/place-of-interest-362",
+    "https://blog.tatonka.com/en/hike-through-the-greina-plateau/"
+  ],
+  "checked_at": "2026-03-12T15:47:36Z"
+}

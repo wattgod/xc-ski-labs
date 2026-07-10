@@ -1,0 +1,102 @@
+{
+  "slug": "backwoods-pursuit",
+  "name": "Backwoods Pursuit",
+  "tier": 4,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded"
+  ],
+  "result": {
+    "fields": {
+      "main_race_distance_km": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No verified distance found for a race specifically named 'Backwoods Pursuit'. Search results show 'Maine Huts & Trails Backwoods Duathlon' and 'JayP's Backyard Fat Pursuit' but with different formats."
+      },
+      "total_elevation_gain_meters": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No elevation gain data found for any 'Backwoods Pursuit' XC ski race in search results."
+      },
+      "technique_type": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Technique specifications not found for a race with this exact name in provided search results."
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Participant numbers not verified in search results for 'Backwoods Pursuit' as an XC ski race."
+      },
+      "year_first_held": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No founding year verified in search results for a race with this name."
+      }
+    },
+    "race_exists": false,
+    "best_source": null,
+    "summary": "Search results contain no authoritative sources confirming a cross-country ski race specifically named 'Backwoods Pursuit' with the specified characteristics. 'Backwoods Pursuit' is primarily identified as a backcountry gear review website (results [8], [12], [35], [36], [62], [65], [69]). Related races found include: Maine Huts & Trails Backwoods Duathlon (result [43], [64], [68]) in Maine and JayP's Backyard Fat Pursuit 2025 (result [54]) in Idaho, but neither matches the query specifications. Major XC ski race databases (Worldloppet [7], Ski Classics [9], FIS databases) do not appear to list a race by this name."
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=zyDVWORzdD8",
+    "https://jennwoltjen.substack.com/p/skiing-the-jackrabbit-trail-in-the",
+    "https://climbimcs.com/guides/",
+    "https://www.outsideonline.com/outdoor-adventure/snow-sports/ben-ogden-olympics/",
+    "https://www.usskiandsnowboard.org/node?page=18",
+    "https://www.outsideonline.com/health/wellness/kale-poland-profile/",
+    "https://www.worldloppet.com/races/",
+    "https://backwoodspursuit.com",
+    "https://skiclassics.com",
+    "https://www.usskiandsnowboard.org/taxonomy/term/1936?page=8",
+    "https://www.youtube.com/watch?v=vyRi00t1LmI",
+    "https://backwoodspursuit.com/about-backwoods-pursuit/",
+    "https://townlift.com/2025/11/olympic-gold-medalist-xcs-jessie-diggins-announces-retirement-after-2025-26-season/",
+    "https://backwoodspursuit.com/become-bp-member/",
+    "https://www.youtube.com/watch?v=mTQaquf22mM",
+    "https://www.youtube.com/watch?v=u5Cc6bjJ6XE",
+    "https://www.youtube.com/@BackwoodsPursuit",
+    "https://www.usskiandsnowboard.org/news/one-final-season-jessie-diggins-announces-retirement-following-end-2025-26-season",
+    "https://outdoor-pursuit.pointofrentalcloud.com/portal/item/Cross-Country-Skis/1060622",
+    "https://www.youtube.com/watch?v=nxSoznNhBuw",
+    "https://backwoodspursuit.com/exo-k4-3600-review-best-hunting-pack/",
+    "https://help.zone4.ca/kb/pursuit-and-multi-stage-races/",
+    "https://northbaynordic.ca/admin/storage/uploads/2024/11/06/KICK-AND-GLIDE---A-History-of-the-North-Bay-Nordic-Ski-Club-1975-2002-Dave-Minden_uid_672ae817b778e.pdf",
+    "https://www.mylaps.com/active-sports/cross-country-skiing-biathlon/",
+    "https://bouldermountaintour.com/wp-content/uploads/BMT2018program-Final.pdf",
+    "https://mylaps.com/news-tag/cross-country-skiing/",
+    "https://en.wikipedia.org/wiki/Backwoods_(film)",
+    "https://www.strava.com/athlete/routes",
+    "https://www.nscfairbanks.org/wp-content/uploads/2025/10/2024-25-Annual-Report-FINAL-web-version.pdf",
+    "https://en.wikipedia.org/wiki/Outdoor_cooking",
+    "https://www.strava.com/challenges/Backcountry-20-21-Adventure-Challenge",
+    "https://backwoodspursuit.com/exo-k4-5000-review-exo-mountain-gear-pack/",
+    "https://nwdirtchurners.com/backcountry-rise-20-mile-race-report/",
+    "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-fork-state-park",
+    "https://scholarsjunction.msstate.edu/cgi/viewcontent.cgi?article=3275&context=td",
+    "https://www.popsci.com/story/health/endurance-athletes-push-mental-limits/",
+    "https://www.sdsmt.edu/student-life/get-involved/student-organizations/index.html",
+    "https://www.webscorer.com/resultlatest?did=163239&raceid=145997",
+    "https://media.ca11.uscourts.gov/opinions/pub/files/202212792.pdf",
+    "https://www.happyvalleyor.gov/wp-content/uploads/2024/12/HVN-January-2025.pdf",
+    "https://corpsnetwork.org/conference-news/2025-project-of-the-year-backcountry-trails-program-california-conservation-corps/",
+    "https://www.youtube.com/watch?v=LOVEJcMNYao",
+    "https://www.whcollective.com/featured-artist",
+    "https://backwoodspursuit.com/ccpa-california-consumer-privacy-act/",
+    "https://outdooradventuresampler.com/best-free-cross-country-skiing-in-vermont/",
+    "https://www.irunfar.com/this-week-in-running-july-21-2025",
+    "https://www.ridgelinewealthadvisors.com/author/podcast/page/4/",
+    "https://www.webscorer.com/racealldetails?live=1&raceid=377115&topn=3",
+    "https://www.thesunmagazine.org/articles/27857-small-towns",
+    "https://en.wikipedia.org/wiki/Pursuit_racing"
+  ],
+  "checked_at": "2026-03-12T15:40:40Z"
+}

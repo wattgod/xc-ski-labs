@@ -1,0 +1,85 @@
+{
+  "slug": "finlandia-hiihto",
+  "name": "Finlandia-hiihto",
+  "facts": {
+    "distance_km": 62,
+    "elevation_m": 600,
+    "country": "Finland",
+    "region": "Päijät-Häme",
+    "discipline": "both",
+    "field_size": "~3,000-5,000 (peak 13,226 in 1984)",
+    "founded": 1974,
+    "website": "https://www.finlandiahiihto.fi",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "62 km confirmed as main distance for individual and team races in both techniques",
+      "source_url": "https://www.finlandiahiihto.fi/relay-and-team-race"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 450,
+      "note": "Total elevation gain for main race is 450 m, outside ±100m tolerance",
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Finland, Lahti",
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Päijät-Häme region, referenced as 'Päijät-Hämeen huipulla' and Lahti location",
+      "source_url": "https://www.finlandiahiihto.fi"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic (CT) and free-style (FT) offered for 62 km, 32 km, 20 km",
+      "source_url": "https://www.finlandiahiihto.fi/relay-and-team-race"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific numbers found for typical participants or peak in 1984; bib ranges suggest capacity for thousands but no exact match",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1974,
+      "note": "First edition 1974, organized since 1974 despite idea in 1973; 53rd event in 2026 confirms",
+      "source_url": "https://www.finlandiahiihto.fi/history"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site with event details",
+      "source_url": "https://www.finlandiahiihto.fi"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February; 2026 on Feb 7-8, 2027 on 20-21.2",
+      "source_url": "https://www.finlandiahiihto.fi"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.finlandiahiihto.fi",
+    "https://www.finlandiahiihto.fi/relay-and-team-race",
+    "https://magenta-chameleon-rp3a.squarespace.com",
+    "https://www.finlandiahiihto.fi/for-skier",
+    "https://www.finlandiahiihto.fi/registration",
+    "https://www.finlandiahiihto.fi/program",
+    "https://www.finlandiahiihto.fi/de/news",
+    "https://www.finlandiahiihto.fi/awards-and-prizes",
+    "https://www.finlandiahiihto.fi/history"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:47:41Z"
+}

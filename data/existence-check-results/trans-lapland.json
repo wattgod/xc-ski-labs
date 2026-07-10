@@ -1,0 +1,25 @@
+{
+  "slug": "trans-lapland",
+  "name": "Trans-Lapland",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Trans-Lapland' in Finland across official websites, race results, news articles, Worldloppet/Euroloppet/Ski Classics/FIS listings, social media, YouTube videos, or registration pages. Search results mention other Lapland ski events like Jätkankynttilä Ski Marathon and general traverses/tours, but nothing matching 'Trans-Lapland'. This suggests it is fictional or confused with another event.",
+    "sources": []
+  },
+  "citations": [
+    "https://jatkankynttilaskimarathon.fi/pages/event-info",
+    "https://www.cloud9adventure.com/lapland-cross-country-ski-traverse",
+    "https://www.visitsalla.fi/en/",
+    "https://www.transalpine-run.com/en/",
+    "https://www.tripadvisor.com/Attraction_Review-g189916-d9602250-Reviews-Transun_Winter_Wonderland-Enontekio_Lapland.html",
+    "https://www.auroravillage.fi/activeoutdoors-winter/",
+    "https://tracks-and-trails.com/holidays/ski-lapland-beyond-the-arctic-circle",
+    "https://www.suomutunturi.fi/en/"
+  ],
+  "checked_at": "2026-03-12T16:09:05Z"
+}

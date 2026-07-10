@@ -1,0 +1,33 @@
+{
+  "slug": "hafjell-ski-marathon",
+  "name": "Hafjell Ski Marathon",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://hafjellskimarathon.no",
+    "results_url": "https://hafjellskimarathon.no (links to 2025, 2024, 2023, 2022 results); https://live.eqtiming.com/71549 (2025 results)",
+    "evidence_summary": "The official website hafjellskimarathon.no provides registration, race details, location info, and links to past results from 2022-2025 via EQ Timing. External listings on Hafjell Resort sites confirm the event at Mosetertoppen Skistadion on February 21, 2026, with history since 2013. EQ Timing hosts live results and timing for 2025, indicating an organized, real event.",
+    "sources": [
+      "https://hafjellskimarathon.no",
+      "https://hafjellskimarathon.no/registration/",
+      "https://hafjellskimarathon.no/about-the-race/",
+      "https://hafjellresort.no/en/activities-and-events",
+      "https://live.eqtiming.com/71549",
+      "https://www2.hafjellresort.no/en/to-do/404513/hafjell-ski-marathon/showdetails"
+    ]
+  },
+  "citations": [
+    "https://hafjellskimarathon.no/registration/",
+    "https://hafjellskimarathon.no/location/",
+    "https://hafjellskimarathon.no/about-the-race/",
+    "https://hafjellskimarathon.no/hafjell-ski-marathon/",
+    "https://hafjellskimarathon.no",
+    "https://hafjellskimarathon.no/race-details/",
+    "https://www2.hafjellresort.no/en/to-do/404513/hafjell-ski-marathon/showdetails",
+    "https://hafjellskiresort.no/en/activities-and-events",
+    "https://live.eqtiming.com/71549"
+  ],
+  "checked_at": "2026-03-12T15:48:10Z"
+}

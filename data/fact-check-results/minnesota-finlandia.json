@@ -1,0 +1,82 @@
+{
+  "slug": "minnesota-finlandia",
+  "name": "Minnesota Finlandia",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 400,
+    "country": "United States",
+    "region": "Minnesota",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": 1982,
+    "website": "https://www.finlandia.ski",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50km distance for the main Finlandia race[1][2][6]",
+      "source_url": "https://www.minnesotafinlandia.com/marathon_race_info.htm"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as US event in Minnesota[1][2][6]",
+      "source_url": "https://www.minnesotafinlandia.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Explicitly Minnesota[1][2][3][6]",
+      "source_url": "https://www.minnesotafinlandia.com"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and freestyle (skate) supported, with separate tracks and events[1][7]",
+      "source_url": "https://www.minnesotafinlandia.com/marathon_race_info.htm"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific typical number of participants found; 41st annual implies established event but no count[2][4]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "41st annual mentioned but no exact founding year; 1982 would fit ~41 years ago but unconfirmed[2]",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.minnesotafinlandia.com",
+      "note": "Official site is minnesotafinlandia.com, not finlandia.ski[1][2][3]",
+      "source_url": "https://www.minnesotafinlandia.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February, e.g., Feb 14th[3][4]",
+      "source_url": "https://www.minnesotafinlandia.com/Race%20Info.htm"
+    }
+  },
+  "citations": [
+    "https://www.minnesotafinlandia.com/marathon_race_info.htm",
+    "https://www.minnesotafinlandia.com",
+    "https://www.minnesotafinlandia.com/Race%20Info.htm",
+    "https://www.skireg.com/8910",
+    "http://mnnordicski.org",
+    "https://www.exploreminnesota.com/outdoors/winter-sports/best-cross-country-skiing-trails",
+    "https://www.minnesotafinlandia.com/25_km_pursuit.htm"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:46:13Z"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "konig-ludwig-lauf",
+  "name": "König Ludwig Lauf",
+  "country": "Germany",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.koenig-ludwig-lauf.com/",
+    "results_url": null,
+    "evidence_summary": "The König Ludwig Lauf has an active official website with registration details, fees, and event dates for 2026, confirming it as Germany's largest cross-country skiing event. It is listed on Ski Classics, Worldloppet with news articles about past editions including 2024 races and weather conditions, and the Ammergau Alps Nature Park site noting its tradition since 1968. Additional mentions in travel packages and event directories provide further corroboration.",
+    "sources": [
+      "https://skiclassics.com/events/challengers/konig-ludwig-lauf/",
+      "https://www.koenig-ludwig-lauf.com/anmeldung-3.html",
+      "https://www.worldloppet.com/category/news/konig-ludwig-lauf/",
+      "https://www.ammergauer-alpen.de/en/aktiv/koenig-ludwig-lauf",
+      "https://www.koenig-ludwig-lauf.com/konig-ludwig-lauf-germany-biggest-xc-skiing-event.html"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/konig-ludwig-lauf/",
+    "https://www.koenig-ludwig-lauf.com/anmeldung-3.html",
+    "https://www.ahotu.com/event/konig-ludwig-lauf",
+    "https://www.worldloppet.com/category/news/konig-ludwig-lauf/",
+    "https://www.ammergauer-alpen.de/en/aktiv/koenig-ludwig-lauf",
+    "https://www.koenig-ludwig-lauf.com/konig-ludwig-lauf-germany-biggest-xc-skiing-event.html",
+    "https://www.koenig-ludwig-lauf.com/general-information-for-participants.html",
+    "https://www.koenig-ludwig-lauf.com/regulations.html",
+    "https://www.lumiexperiences.com"
+  ],
+  "checked_at": "2026-03-12T15:52:05Z"
+}

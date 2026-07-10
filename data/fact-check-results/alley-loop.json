@@ -1,0 +1,82 @@
+{
+  "slug": "alley-loop",
+  "name": "Alley Loop",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 400,
+    "country": "United States",
+    "region": "Rocky Mountains",
+    "discipline": "both",
+    "field_size": "~800 starters",
+    "founded": 1982,
+    "website": "https://www.cbnordic.org/alley-loop",
+    "date": "First Saturday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42km race distance",
+      "source_url": "https://gunnisoncrestedbutte.com/the-32nd-annual-alley-loop-nordic-ski-race/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in Crested Butte, Colorado",
+      "source_url": "https://www.cbnordic.org/alley-loop"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Crested Butte is in the Rocky Mountains of Colorado",
+      "source_url": "https://gunnisoncrestedbutte.com/the-32nd-annual-alley-loop-nordic-ski-race/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both 42K Classic and 42K Skate",
+      "source_url": "https://www.skisignup.com/Race/CO/CrestedButte/AlleyLoop"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants or starters",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "32nd edition implies around 1982-1994 start; 29th in older source supports ~1982-1995; over 30 years in another",
+      "source_url": "https://gunnisoncrestedbutte.com/the-32nd-annual-alley-loop-nordic-ski-race/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site with event details",
+      "source_url": "https://www.cbnordic.org/alley-loop"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Late January (e.g., first Saturday in late January)",
+      "note": "2026 event on January 31 (Saturday); prior on January 30-31; not February",
+      "source_url": "https://www.skisignup.com/Race/CO/CrestedButte/AlleyLoop"
+    }
+  },
+  "citations": [
+    "https://gunnisoncrestedbutte.com/the-32nd-annual-alley-loop-nordic-ski-race/",
+    "https://www.youtube.com/watch?v=aCIx4UQDlXM",
+    "https://travelcrestedbutte.com/crested-butte-alley-loop-schedule/",
+    "https://www.skisignup.com/Race/CO/CrestedButte/AlleyLoop",
+    "https://www.cbnordic.org/alley-loop",
+    "https://mtntownmagazine.com/crested-butte-alley-loop-nordic-ski-race/",
+    "https://coloradocrosscountry.com/Resources/go-big-dream-races-for-nordic-skiers"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:44:54Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "minocqua-northwoods-loppet",
+  "name": "Minocqua Northwoods Loppet",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "https://minocquawinterpark.org",
+    "results_url": null,
+    "evidence_summary": "The search results confirm that Minocqua Winter Park hosts a cross-country skiing event called the 'Loopy Loppet' (not 'Minocqua Northwoods Loppet'). The official Minocqua Winter Park website and the Greater Minocqua Area Visitors Bureau both reference this event as a real, organized race. However, no race results, registration pages, or detailed race information were found in the search results.",
+    "sources": [
+      "https://minocquawinterpark.org",
+      "https://www.minocqua.org/event/loopy-loppet-and-ski-rodeo/39944/"
+    ]
+  },
+  "citations": [
+    "https://minocquawinterpark.org",
+    "https://www.minocqua.org/event/loopy-loppet-and-ski-rodeo/39944/",
+    "https://www.minocqua.org/event/minocqua-northwoods-escape-marathon-half-marathon-and-5k/34768/",
+    "https://loppet.org/about/",
+    "https://loppet.org",
+    "https://loppet.org/Experiences/loppet-trail-kids/",
+    "https://loppet.org/Experiences/loppet-nordic-racing-development-team/"
+  ],
+  "checked_at": "2026-03-12T15:56:16Z"
+}

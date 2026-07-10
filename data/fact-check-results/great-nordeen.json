@@ -1,0 +1,84 @@
+{
+  "slug": "great-nordeen",
+  "name": "Great Nordeen",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "Pacific Northwest",
+    "discipline": "skate",
+    "field_size": 200,
+    "founded": 2004,
+    "website": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+    "date": "First Sunday of February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "The 30K distance is correct, but the database claim is incomplete. The race offers multiple distances: 30K, 18K (both XC ski), and 15K (fat bike). The claim of a single '30' km distance without acknowledging the other options is misleading.",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 853,
+      "note": "Search results state the historic Crater Lake race (which the modern Great Nordeen honors) had 2,800 feet elevation gain. Converting: 2,800 feet ≈ 853 meters. The claimed 200 meters is significantly lower than the actual elevation gain.",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race is held at Mt. Bachelor in Bend, Oregon, United States",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race is held in Oregon (Pacific Northwest region), specifically at Mt. Bachelor near Bend",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle",
+      "note": "Search results explicitly state '30K and 18K Freestyle Race' for the XC ski portion. The race uses freestyle (skate) technique, not classic. Database claim of 'skate' is partially correct but imprecise; the official designation is 'Freestyle.'",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Only one specific participant count found: 143 racers in 2025. This does not provide sufficient data to verify the claimed typical of 200 participants. More historical data would be needed.",
+      "source_url": "https://www.webscorer.com/race?raceid=379971"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2003,
+      "note": "Search results reference the '23rd Annual' race in 2026 and the '20th annual' race in 2023. Working backward: 2026 - 23 = 2003. The database claim of 2004 is off by one year.",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The provided URL matches the official MBSEF Great Nordeen race page",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "February 1st",
+      "note": "The 2026 race was held February 1st. The 2025 race was held February 9th. The pattern is early February, not specifically the first Sunday. The database claim of 'First Sunday of February' is inaccurate; races occur in early February but not necessarily on the first Sunday.",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    }
+  },
+  "citations": [
+    "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+    "https://www.webscorer.com/register?raceid=409261",
+    "https://bendmagazine.com/event/the-great-nordeen-xc-ski-and-fat-bike-race/",
+    "https://bendbulletin.com/2022/01/21/great-nordeen-and-tour-of-meissner-races-bring-central-oregon-nordic-ski-community-together/",
+    "https://www.bendsource.com/outside/the-great-nordeen-honoring-tradition-and-embracing-adventure-in-central-oregon-22592508/",
+    "https://www.bendsource.com/outside/great-nordeen-ski-race-2022-16077502/",
+    "https://mbsef.org/nordic/races/",
+    "https://www.webscorer.com/race?raceid=379971",
+    "https://ktvz.com/sports/2023/01/07/registration-opens-for-20th-annual-great-nordeen-cross-country-ski-race-fat-bike-race/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:39:46Z"
+}

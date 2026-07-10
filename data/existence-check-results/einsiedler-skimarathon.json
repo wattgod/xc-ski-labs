@@ -1,0 +1,32 @@
+{
+  "slug": "einsiedler-skimarathon",
+  "name": "Einsiedler Skimarathon",
+  "country": "Switzerland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://skiclubeinsiedeln.ch/skimarathon",
+    "results_url": "https://skiclubeinsiedeln.ch/skimarathon",
+    "evidence_summary": "The Einsiedler Skimarathon is a well-documented, officially organized cross-country ski race in Switzerland with multiple independent sources confirming its existence. The 58th edition took place on February 7-8, 2026, organized by Skiclub Einsiedeln. Official sources include Swiss Ski federation listings, regional tourism websites, and the organizing club's website with race information and results.",
+    "sources": [
+      "https://www.myswitzerland.com/de-at/erlebnisse/veranstaltungen/einsiedler-skimarathon/",
+      "https://www.eyz.swiss/de/einsiedler-skimarathon",
+      "https://www.swiss-ski.ch/langlauf/termine/detail/2026-einsiedeln-cross-country-f1217a15-836c-4bdd-bf7c-348bd758487c",
+      "https://skiclubeinsiedeln.ch/skimarathon",
+      "https://skiclubeinsiedeln.ch/home/view/event/27294?elid=227298",
+      "https://www.swiss-ski.ch/fr/ski-de-fond/resultats/detail/2026-einsiedeln-cross-country-f1217a15-836c-4bdd-bf7c-348bd758487c"
+    ]
+  },
+  "citations": [
+    "https://www.myswitzerland.com/de-at/erlebnisse/veranstaltungen/einsiedler-skimarathon/",
+    "https://www.eyz.swiss/de/einsiedler-skimarathon",
+    "https://www.swiss-ski.ch/langlauf/termine/detail/2026-einsiedeln-cross-country-f1217a15-836c-4bdd-bf7c-348bd758487c",
+    "https://skiclubeinsiedeln.ch/home/view/event/17890?elid=227298",
+    "https://www.swiss-ski.ch/fr/ski-de-fond/resultats/detail/2026-einsiedeln-cross-country-f1217a15-836c-4bdd-bf7c-348bd758487c",
+    "https://skiclubeinsiedeln.ch/skimarathon",
+    "https://www.swiss-ski.ch/langlauf/",
+    "https://skiclubeinsiedeln.ch/home/view/event/27294?elid=227298"
+  ],
+  "checked_at": "2026-03-12T15:44:05Z"
+}

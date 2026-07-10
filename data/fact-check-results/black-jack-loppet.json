@@ -1,0 +1,79 @@
+{
+  "slug": "black-jack-loppet",
+  "name": "Black Jack Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 500,
+    "country": "Canada",
+    "region": "British Columbia",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2001,
+    "website": "https://www.blackjackxc.ca",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2022 Black Jack Loppet listed as 30km (15km x 2)",
+      "source_url": "https://www.trailforks.com/route/2022-black-jack-loppet-30km-15km-x-2/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in British Columbia, Canada",
+      "source_url": "https://www.trailforks.com/route/2022-black-jack-loppet-30km-15km-x-2/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Rossland, British Columbia",
+      "source_url": "https://www.trailforks.com/route/2022-black-jack-loppet-30km-15km-x-2/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nordic skiing mentioned but no specific confirmation of classic, skate, or both",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1997,
+      "note": "30th annual in 2026 implies first edition in 1997 (2026-29=1997)",
+      "source_url": "https://www.crosscountrybc.ca/youre-invited-30th-annual-black-jack-loppet"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Related sites found (blackjackskiteam.com, skiblackjack.ca) but cannot confirm if https://www.blackjackxc.ca is official",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Late February",
+      "note": "30th annual on Sat Feb 22 (likely 2026); Al Fisher Loppet variant in March",
+      "source_url": "https://www.crosscountrybc.ca/youre-invited-30th-annual-black-jack-loppet"
+    }
+  },
+  "citations": [
+    "https://www.trailforks.com/route/2022-black-jack-loppet-30km-15km-x-2/",
+    "https://www.crosscountrybc.ca/youre-invited-30th-annual-black-jack-loppet",
+    "https://www.blackjackskiteam.com/program/senior-race-team/",
+    "https://www.skiblackjack.ca/news/2026/2/27/2026-al-fisher-memorial-loppet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:35:49Z"
+}

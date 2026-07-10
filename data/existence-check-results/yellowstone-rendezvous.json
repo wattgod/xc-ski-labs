@@ -1,0 +1,31 @@
+{
+  "slug": "yellowstone-rendezvous",
+  "name": "Yellowstone Rendezvous",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home",
+    "results_url": null,
+    "evidence_summary": "The Yellowstone Rendezvous Race has a fully functional official website with detailed race info, registration (open for 2026 event on March 7), schedule, fees, and course description from Ski Run Bike MT. It is listed as part of the American Ski Marathon Series with 600+ skiers expected. Additional confirmations from Destination Yellowstone (past 45th annual in 2024) and Outside Bozeman describing it as a major annual Nordic event in West Yellowstone, MT.",
+    "sources": [
+      "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info",
+      "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home",
+      "https://www.skirunbikemt.com/yellowstone-rendezvous-race/registration",
+      "https://destinationyellowstone.com/events/rendezvous-ski-race/",
+      "https://outsidebozeman.com/activities/skiing/nordic-skiing/yellowstone-rendezvous"
+    ]
+  },
+  "citations": [
+    "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info",
+    "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home",
+    "https://www.skirunbikemt.com/yellowstone-rendezvous-race/registration",
+    "https://destinationyellowstone.com/events/rendezvous-ski-race/",
+    "https://www.westyellowstonenet.com/events/yellowstone_ski_festival.php",
+    "https://www.skirunbikemt.com/yellowstone-ski-festival/ski-passes",
+    "https://www.skirunbikemt.com",
+    "https://outsidebozeman.com/activities/skiing/nordic-skiing/yellowstone-rendezvous"
+  ],
+  "checked_at": "2026-03-12T16:12:13Z"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "harbin-ice-city-marathon",
+  "name": "Harbin Ice City Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 150,
+    "country": "China",
+    "region": "Heilongjiang",
+    "discipline": "both",
+    "field_size": 550,
+    "founded": null,
+    "website": "https://www.harbin.gov.cn",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a 'Harbin Ice City Marathon' or any cross-country ski race with 50km distance; results discuss road Harbin Marathon (42.195km) and ice festivals only.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on any cross-country ski race 'Harbin Ice City Marathon' or its elevation gain found in sources.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Harbin is in China per sources, but no confirmation of the specific ski race existing.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Harbin is capital of Heilongjiang per sources, but no ski race match.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe a cross-country ski race with classic or skate disciplines named 'Harbin Ice City Marathon'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Harbin road Marathon has 35,000+ participants, not 550; no ski race found.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year for this ski race; Harbin road Marathon founded 2016.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.harbin.gov.cn is Harbin government site mentioning ice festivals, not a specific ski race site; official Harbin Marathon site is http://www.hrb-marathon.chinarun.com.",
+      "source_url": "https://www.harbin.gov.cn"
+    },
+    "race_date_month": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ice festivals in January, road Marathon in late summer; no ski race date confirmed.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://tvbrics.com/en/news/harbin-marathon-to-bring-together-more-than-35-000-participants/",
+    "https://www.newsfilecorp.com/release/264429/Harbin-Cultural-Tourism-and-Sports-Industry-Expo-2025-Harbin-Marathon-Expo-Opens",
+    "http://www.hrb-marathon.chinarun.com/en/",
+    "https://www.travelpirates.com/captains-log/us-worlds-largest-ice-festival-is-open",
+    "https://www.theworldofchinese.com/2026/01/harbin-ice-snow-world-winter-wonderland/",
+    "https://www.harbin.gov.cn/haerbin/c104447/s_index.shtml"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:42Z"
+}

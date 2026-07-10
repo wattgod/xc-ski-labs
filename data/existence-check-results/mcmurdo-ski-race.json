@@ -1,0 +1,27 @@
+{
+  "slug": "mcmurdo-ski-race",
+  "name": "McMurdo Ski Race",
+  "country": "Antarctica",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "The McMurdo Run and Ski Marathon is documented as a real, recurring organized event at McMurdo Station in Antarctica. A firsthand account from January 2011 describes the 13th annual marathon with specific details: 52 participants, 41 volunteers, GPS-verified 26.2-mile route between Pegasus runway and Scott Base, and half-marathon option. However, no official website, current race results database, or recent race registrations were found in search results.",
+    "sources": [
+      "https://antarcticfudgesicles.wordpress.com/2011/01/17/mcmurdo-run-and-ski-marathon/",
+      "https://en.wikipedia.org/wiki/McMurdo_Station"
+    ]
+  },
+  "citations": [
+    "https://antarcticfudgesicles.wordpress.com/2011/01/17/mcmurdo-run-and-ski-marathon/",
+    "https://en.wikipedia.org/wiki/McMurdo_Station",
+    "https://www.icemarathon.com",
+    "https://antarcticarctic.wordpress.com/category/antarctic/stations/mcmurdo/",
+    "https://downandout.wordpress.com/2010/12/02/life-mcmurdo-ski-season/",
+    "https://ski-antarctica.com/upcoming-expeditions",
+    "https://usap.gov/USAPgov/travelAndDeployment/documents/ParticipantGuide-Chapter6.pdf"
+  ],
+  "checked_at": "2026-03-12T15:55:48Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "la-savoyarde",
+  "name": "La Savoyarde",
+  "country": "France",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.lasavoyardeorganisation.com",
+    "results_url": "https://fr.milesrepublic.com/en/event/savoyarde-ski-nordique-10645",
+    "evidence_summary": "La Savoyarde is a real cross-country ski event organized by Club des Sports La Féclaz, featuring races from 2-42km, biathlon, and night events in Savoie Grand Revard, France. The official website details 2026 events with registration open, past results (2024-2025) are listed on Miles Republic, and it's recognized by Ski Classics Challengers and ProXCskiing. FFS affiliation and multiple event pages confirm its legitimacy.",
+    "sources": [
+      "https://www.lasavoyardeorganisation.com",
+      "https://skiclassics.com/events/challengers/la-savoyarde-marathon/",
+      "https://fr.milesrepublic.com/en/event/savoyarde-ski-nordique-10645",
+      "https://www.proxcskiing.com/eu/event/la-savoyarde-ekosport/",
+      "https://www.marathonskitour.fr/galerie/7401"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/la-savoyarde-marathon/",
+    "https://fr.milesrepublic.com/en/event/savoyarde-ski-nordique-10645",
+    "https://www.lasavoyardeorganisation.com",
+    "https://www.lasavoyardeorganisation.com/biathlonteam",
+    "https://www.lasavoyardeorganisation.com/trail21km",
+    "https://www.lasavoyardeorganisation.com/contact",
+    "https://www.marathonskitour.fr/galerie/7401",
+    "https://www.proxcskiing.com/eu/event/la-savoyarde-ekosport/"
+  ],
+  "checked_at": "2026-03-12T15:52:56Z"
+}

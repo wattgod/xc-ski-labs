@@ -1,0 +1,84 @@
+{
+  "slug": "mt-bachelor-nordic-marathon",
+  "name": "Mt Bachelor Nordic Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "United States",
+    "region": "Oregon",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 1996,
+    "website": "https://www.mtbachelornordic.com",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming a 42 km distance for the Mt Bachelor Nordic Marathon; general Nordic trails mentioned but no specific race details matching this event[1][2][5][8]",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 600m total elevation gain for this specific race; Nordic area has ~260m vertical overall but no race-specific data[2][8]",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mt. Bachelor is located in the United States[1][2][4][5]",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Bachelor_ski_area"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mt. Bachelor is in Oregon, USA[1][2][4][5]",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Bachelor_ski_area"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic, skate, or both for this specific race; other Mt. Bachelor races are freestyle (skate)[5]",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants (~100) in this race[5]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm year founded/first edition as 1996 for this race",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Website https://www.mtbachelornordic.com not confirmed in results; official Mt. Bachelor site is www.mtbachelor.com, Nordic section exists but no specific marathon page[1][8]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm early March for this race; other Nordic races at Mt. Bachelor in April[5]",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.highonadventure.com/Hoa09dec/Vicki/MtBachelor.htm",
+    "https://en.wikipedia.org/wiki/Mount_Bachelor_ski_area",
+    "https://visitbend.com/journal/winter-activities-at-mt-bachelor/",
+    "https://traveloregon.com/things-to-do/outdoor-recreation/snow-sports/downhill-skiing-snowboarding/mt-bachelor-ski-area/",
+    "https://fasterskier.com/2024/03/spring-skiing-on-a-volcano-the-novelty-of-mt-bachelor/",
+    "https://www.trailforks.com/region/mt-bachelor-ski-resort-63080/",
+    "https://bendmagazine.com/mt-bachelor-more-than-a-winter-destination/",
+    "https://www.mtbachelor.com/nordic/overview/",
+    "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:46:38Z"
+}

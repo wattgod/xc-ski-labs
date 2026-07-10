@@ -1,0 +1,81 @@
+{
+  "slug": "chama-chile-ski-classic",
+  "name": "Chama Chile Ski Classic",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "New Mexico",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.chamanordic.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 18,
+      "note": "Event features 18k Freestyle XC Ski Race as the main distance, plus shorter options like 6k and 12k; database's 10km does not match listed distances",
+      "source_url": "https://findarace.com/us/events/chama-chile-ski-classic"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 244,
+      "note": "Elevation gain around 800 feet (244m), not 200m",
+      "source_url": "https://app.advcollective.com/travel-guides/Chama/chama-chile-ski-classic-new-mexico-winter-adventure"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in New Mexico",
+      "source_url": "https://findarace.com/us/events/chama-chile-ski-classic"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "New Mexico",
+      "source_url": "https://findarace.com/us/events/chama-chile-ski-classic"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both freestyle (skate) and classic races offered",
+      "source_url": "https://findarace.com/us/events/chama-chile-ski-classic"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Facebook page listed (www.facebook.com/skichama), chama nordic.com not confirmed as official; no direct match found",
+      "source_url": "https://findarace.com/us/events/chama-chile-ski-classic"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "January",
+      "note": "Typically January (e.g., Jan 17 2026, Jan 12 previous), not February",
+      "source_url": "https://findarace.com/us/events/chama-chile-ski-classic"
+    }
+  },
+  "citations": [
+    "https://www.telluridenordic.com/events/chama-chile-ski-classic",
+    "https://app.advcollective.com/travel-guides/Chama/chama-chile-ski-classic-new-mexico-winter-adventure",
+    "https://sandianordic.org/event/chama-chile-classic/",
+    "https://findarace.com/us/events/chama-chile-ski-classic",
+    "https://www.durangonordic.org/events/salomon-southwest-race-series-chama-chili-ski-classic",
+    "https://www.sportingscouter.com/event/chama-chile-ski-classic"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:12:03Z"
+}

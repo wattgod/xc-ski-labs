@@ -1,0 +1,32 @@
+{
+  "slug": "stafettvasan",
+  "name": "StafettVasan",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://vasaloppet.se/en/ski/stafettvasan/",
+    "results_url": null,
+    "evidence_summary": "Stafettvasan is a confirmed real event organized by Vasaloppet, the world's largest cross-country ski race. The official Vasaloppet website provides detailed race information including 2026 race details (completed February 27, 2026) and 2027 scheduling (March 5, 2027). Multiple independent sources confirm the event as an established relay race with over 1,000 teams participating annually.",
+    "sources": [
+      "https://vasaloppet.se/en/ski/stafettvasan/",
+      "https://vasaloppet.se/skidor/stafettvasan/",
+      "https://www.skistar.com/en/inspiration/ambassadorer/stafettvasan/",
+      "https://vasaloppet.se/en/ski/"
+    ]
+  },
+  "citations": [
+    "https://vasaloppet.se/en/ski/stafettvasan/",
+    "https://vasaloppet.se/en/ski/oppet-spar-sunday/",
+    "https://vasaloppet.se/skidor/stafettvasan/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://vasaloppet.se/en/",
+    "https://vasaloppet.se/en/ski/",
+    "https://vasaloppet.se",
+    "https://149.81.148.189/en/registration/",
+    "https://www.skistar.com/en/inspiration/ambassadorer/stafettvasan/"
+  ],
+  "checked_at": "2026-03-12T16:05:36Z"
+}

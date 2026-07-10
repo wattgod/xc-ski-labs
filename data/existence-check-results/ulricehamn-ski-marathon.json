@@ -1,0 +1,26 @@
+{
+  "slug": "ulricehamn-ski-marathon",
+  "name": "Ulricehamn Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Ulricehamn Ski Marathon'. Ulricehamn hosts FIS events, World Cup races, Västgötaloppet, and youth weekends, but none match the queried name. Search results show strong skiing activity in the area but no marathon by this title.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58348&seasoncode=2026",
+    "https://www.vastsverige.com/en/ulricehamn/produkter/lassalyckan/",
+    "https://www.worldcupulricehamn.com/en/program",
+    "https://skiclassics.com/events/challengers/vastgotaloppet-classic/",
+    "https://skibikehike.se/en/",
+    "https://skibikehike.se",
+    "https://www.worldcupulricehamn.com/en",
+    "https://www.worldcupulricehamn.com/en/news",
+    "https://ssfta.skidor.com/anmalan/46763"
+  ],
+  "checked_at": "2026-03-12T16:10:17Z"
+}

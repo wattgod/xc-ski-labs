@@ -1,0 +1,26 @@
+{
+  "slug": "foothills-nordic-loppet",
+  "name": "Foothills Nordic Loppet",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a specific 'Foothills Nordic Loppet' race event; the Foothills Nordic Ski Club exists and hosts events like AB Cup #3 & #4 'Foothills Nordic Rodeo' and mentions a 'Cookie Race', but no loppet by that name. No race results, news articles, international listings, social media events, videos, or registration pages for 'Foothills Nordic Loppet' identified. 'Learn To Loppet' is a training program, not a race.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.foothillsnordic.ca/learn-to-loppet",
+    "https://www.foothillsnordic.ca",
+    "https://loppet.org/Experiences/trail-kids-nordic-ski-sessions/",
+    "https://foothills-nordic.squarespace.com/events-calendar",
+    "https://www.foothillsnordic.ca/learn-to-compete",
+    "https://nordiqcanada.ca/wp-content/uploads/Masters-Ranking-List-Calendar.pdf",
+    "https://snowreg.com",
+    "https://loppet.org/Experiences/loppet-ski-adults/",
+    "https://foothillsnordic.galaxydigital.com/agency/detail/?agency_id=214127"
+  ],
+  "checked_at": "2026-03-12T15:45:16Z"
+}

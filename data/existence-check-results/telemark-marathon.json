@@ -1,0 +1,25 @@
+{
+  "slug": "telemark-marathon",
+  "name": "Telemark Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Telemark Marathon' cross-country ski race in the United States. Search results mention telemark skiing events (downhill free-heel racing like US Telemark Nationals), a bike enduro at Mt. Telemark, and a cross-country ski team in Canada, but nothing matching the specific event name or description as a cross-country ski marathon.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.ustsa.org",
+    "https://sarahrobbinscarley.wixsite.com/us-telemark",
+    "https://www.youtube.com/watch?v=ugI1EXHz8CI",
+    "https://www.ustsa.org/us-telemark-timeline/",
+    "https://telemark-skiing.info/events/us-telemark-nationals-competition-2026/",
+    "https://telemarker.org",
+    "https://www.birkie.com/bike/events/enduro/",
+    "https://race.teamtelemark.ca"
+  ],
+  "checked_at": "2026-03-12T16:08:01Z"
+}

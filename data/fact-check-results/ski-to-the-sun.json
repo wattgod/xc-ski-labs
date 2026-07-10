@@ -1,0 +1,83 @@
+{
+  "slug": "ski-to-the-sun",
+  "name": "Ski to the Sun",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 550,
+    "country": "United States",
+    "region": "Washington",
+    "discipline": "both",
+    "field_size": 400,
+    "founded": 2019,
+    "website": "https://www.methowtrails.org",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 40,
+      "note": "Search results consistently show the marathon distance is 40 km, not 42 km",
+      "source_url": "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 589,
+      "note": "Total elevation gain is 589m (1,932 feet), not 550m. Source provides detailed elevation data.",
+      "source_url": "https://squid-sunflower-ngjr.squarespace.com/events/ski-to-the-sun-marathon-and-relay"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States",
+      "source_url": "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Washington state (Winthrop/Methow Valley area)",
+      "source_url": "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and skate (freestyle) disciplines offered",
+      "source_url": "https://squid-sunflower-ngjr.squarespace.com/events/ski-to-the-sun-marathon-and-relay"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 325,
+      "note": "Marathon field limit is 325 participants, not 400. This is the stated capacity for the solo marathon event.",
+      "source_url": "https://squid-sunflower-ngjr.squarespace.com/events/ski-to-the-sun-marathon-and-relay"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2019,
+      "note": "The 2026 event is described as the 'eighth annual' Ski to the Sun, which would place the first edition in 2019. However, search results show a 2019 race reference, confirming 2019 as the founding year, not a different year.",
+      "source_url": "https://sunmountainlodge.com/event/ski-to-sun/"
+    },
+    "official_website_url": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Methow Trails (methowtrails.org) is confirmed as the organizing entity and hosts event information",
+      "source_url": "https://methowtrails.org/events"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Early February",
+      "note": "The 2026 race is scheduled for February 7, and the 2023 race was February 11. Both are early February, not late February.",
+      "source_url": "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/",
+    "https://www.youtube.com/watch?v=ydb5A-hKksI",
+    "https://squid-sunflower-ngjr.squarespace.com/events/ski-to-the-sun-marathon-and-relay",
+    "https://www.skireg.com/ski-to-the-sun-marathon-and-relay-2026",
+    "https://methowtrails.org/events",
+    "https://sunmountainlodge.com/event/ski-to-sun/",
+    "https://www.winthropwashington.com/event-details/ski-to-the-sun",
+    "https://www.youtube.com/watch?v=szplFAEi7ao"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:53:14Z"
+}

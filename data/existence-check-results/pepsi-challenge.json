@@ -1,0 +1,33 @@
+{
+  "slug": "pepsi-challenge",
+  "name": "Pepsi Challenge",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.pepsichallengeskirace.com",
+    "results_url": null,
+    "evidence_summary": "The Pepsi Challenge is a real annual cross-country ski race at Giants Ridge in Biwabik, Minnesota, organized by East Range Cross Country Challenges, Inc., with the 40th edition scheduled for February 28, 2026. The official website provides detailed race information, registration via skisignup.com, and confirms its status as part of the American Ski Marathon Series and Birkie qualifier. Multiple independent sources including SkinnySki, Minnesota Trails, and RaceResult corroborate the event's history and legitimacy, though past results were not directly found in these snippets.",
+    "sources": [
+      "https://www.pepsichallengeskirace.com",
+      "https://www.skinnyski.com/racing/display.asp?Id=24653",
+      "https://www.pepsichallengeskirace.com/Race/PepsiChallengeSki/Page/abouterccci",
+      "https://www.skisignup.com/Race/PepsiChallengeSki/Page-3",
+      "https://mntrails.com/event/pepsi-challenge/",
+      "https://my.raceresult.com/384976/"
+    ]
+  },
+  "citations": [
+    "https://www.pepsichallengeskirace.com",
+    "https://www.skinnyski.com/racing/display.asp?Id=24653",
+    "https://www.pepsichallengeskirace.com/Race/PepsiChallengeSki/Page/abouterccci",
+    "https://www.skisignup.com/Race/PepsiChallengeSki/Page-3",
+    "https://mntrails.com/event/pepsi-challenge/",
+    "https://my.raceresult.com/384976/",
+    "https://www.youtube.com/watch?v=xLTRNdOmF1w",
+    "https://usaskijumping.com/results/brattleboro-harris-hill-us-cup-pepsi-challenge/",
+    "https://www.sportingscouter.com/event/40th-annual-2026-pepsi-challenge-50k-great-river-energy-rush-25k-giants-ridge-8k-nordic-ski-races-at-giants-ridge"
+  ],
+  "checked_at": "2026-03-12T15:59:39Z"
+}

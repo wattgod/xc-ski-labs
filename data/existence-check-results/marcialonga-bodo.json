@@ -1,0 +1,32 @@
+{
+  "slug": "marcialonga-bodo",
+  "name": "Marcialonga Bodo",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.arcticmarcialonga.no/en-gb",
+    "results_url": "https://www.arcticmarcialonga.no/en-gb/resultater",
+    "evidence_summary": "Marcialonga Bodø is a real cross-country ski race in Bodø, Norway, organized by Marcialonga Arctic Ski Race AS, with an official website detailing the 2026 event schedule, registration, and past results page confirming editions since 2024. It is listed as an official Ski Classics Pro Tour event with dedicated pages, social media mentions, and coverage from ProXCskiing and Visit Bodø. Multiple sources confirm its history, including promotion to Pro Tour level after starting as a Challenger event.",
+    "sources": [
+      "https://www.arcticmarcialonga.no/en-gb/praktisk-info",
+      "https://skiclassics.com/events/pro-tour/marcialonga-bodo/",
+      "https://www.arcticmarcialonga.no/en-gb",
+      "https://www.proxcskiing.com/long-distance/marcialonga-bodo-moves-to-valnesfjord/",
+      "https://visitbodo.com/en/event/sports-event/marcialonga-arctic-ski-race/",
+      "https://www.arcticmarcialonga.no/en-gb/resultater",
+      "https://registration.wsportsmedia.com/?action=register"
+    ]
+  },
+  "citations": [
+    "https://www.arcticmarcialonga.no/en-gb/praktisk-info",
+    "https://skiclassics.com/events/pro-tour/marcialonga-bodo/",
+    "https://www.arcticmarcialonga.no/en-gb",
+    "https://www.proxcskiing.com/long-distance/marcialonga-bodo-moves-to-valnesfjord/",
+    "https://visitbodo.com/en/event/sports-event/marcialonga-arctic-ski-race/",
+    "https://www.arcticmarcialonga.no/en-gb/resultater",
+    "https://registration.wsportsmedia.com/?action=register"
+  ],
+  "checked_at": "2026-03-12T15:55:25Z"
+}

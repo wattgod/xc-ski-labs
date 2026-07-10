@@ -1,0 +1,33 @@
+{
+  "slug": "race-of-the-methow",
+  "name": "Race of the Methow",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.methowvalleynordic.org/raceofthemethow",
+    "results_url": "https://www.webscorer.com/mvnsef",
+    "evidence_summary": "The Race of the Methow is organized by Methow Valley Nordic Ski Education Foundation with a detailed official page including 2025-2026 schedules, start lists, and links to Webscorer results. It is listed as a Junior Nationals Qualifier on PNW Division sites with registration via SkiReg. Multiple pages confirm it as an annual sprint and mass-start event at McCabe Trails in Winthrop, WA.",
+    "sources": [
+      "https://www.methowvalleynordic.org/raceofthemethow",
+      "https://pnwdivision.org/event/2026-jn-qualifier-3-race-of-the-methow/",
+      "https://pnwdivision.org/event/2025-jnq-qualifier-2/",
+      "https://www.webscorer.com/mvnsef",
+      "https://www.methowvalleynordic.org/events/race-of-the-methow-mbcsm"
+    ]
+  },
+  "citations": [
+    "https://www.methowvalleynordic.org/raceofthemethow",
+    "https://pnwdivision.org/event/2026-jn-qualifier-3-race-of-the-methow/",
+    "https://pnwdivision.org/event/2025-jnq-qualifier-2/",
+    "https://www.webscorer.com/mvnsef",
+    "https://methowtrails.org",
+    "https://www.methowvalleynordic.org/events/race-of-the-methow-mbcsm",
+    "https://www.methowvalleynordic.org/events",
+    "https://okanogancountry.com/events/race-of-the-methow",
+    "https://www.methowvalleynordic.org",
+    "https://www.spokanenordic.org/pineapple-express"
+  ],
+  "checked_at": "2026-03-12T16:01:07Z"
+}

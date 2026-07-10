@@ -1,0 +1,81 @@
+{
+  "slug": "craft-ski-marathon",
+  "name": "Craft Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 350,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 2000,
+    "website": "https://svenskalanglopp.se/",
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 42km (21km course over two laps)",
+      "source_url": "https://skiclassics.com/craft-ski-marathon-2026-this-sunday-in-sweden/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden",
+      "source_url": "https://skiclassics.com/craft-ski-marathon-2026-this-sunday-in-sweden/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Dalarna County; near Mora in Grönklitt/Orsa",
+      "source_url": "https://www.ahotu.com/event/craft-ski-marathon"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as classic technique",
+      "source_url": "https://skiclassics.com/craft-ski-marathon-2026-this-sunday-in-sweden/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Attracts 'hundreds of skiers'; 500 is within ±20% tolerance of typical hundreds",
+      "source_url": "https://skiclassics.com/craft-ski-marathon-2026-this-sunday-in-sweden/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources reference 'Craft Ski Marathon' website but no specific URL matches; Svenskalanglopp.se not mentioned",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early/mid-January (e.g., January 11, 2026)",
+      "source_url": "https://skiclassics.com/craft-ski-marathon-2026-this-sunday-in-sweden/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/craft-ski-marathon-2026-this-sunday-in-sweden/",
+    "https://www.proxcskiing.com/long-distance/craft-ski-marathon-2026-this-sunday-in-sweden/",
+    "https://www.ahotu.com/event/craft-ski-marathon",
+    "https://running.life/en/event/craft-ski-marathon",
+    "https://ssfta.skidor.com/event/46811",
+    "https://www.youtube.com/watch?v=HYlx1RhqUBY"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:37:47Z"
+}

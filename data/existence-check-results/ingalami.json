@@ -1,0 +1,33 @@
+{
+  "slug": "ingalami",
+  "name": "IngaLåmi",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://lillehammer-skiklub.no/ingalaami/",
+    "results_url": "https://live.eqtiming.com/58262",
+    "evidence_summary": "Ingalåmi is a confirmed real cross-country ski race for women held annually in Lillehammer, Norway since 1993. Multiple independent sources including the official Lillehammer Skiklub website, EQ Timing race results platform, tourism websites, and Birken organization all document the event. The race offers 5km, 15km, and 30km distances and was last held in 2027 (upcoming from current date perspective).",
+    "sources": [
+      "https://lillehammer-skiklub.no/ingalaami/",
+      "https://live.eqtiming.com/58262",
+      "https://en.lillehammer.com/things-to-do/ingalami-15-km-p632573",
+      "https://www.goxski.com/lillehammer",
+      "https://en.lillehammer.com/things-to-do/activities/skiing/cross-country-skiing/lillehammer-cross-country-skiing-destination",
+      "https://www.hafjellresort.no/en/ingalami",
+      "https://birken.no/no/nyheter/eventyret-ingalami"
+    ]
+  },
+  "citations": [
+    "https://lillehammer-skiklub.no/ingalaami/",
+    "https://en.lillehammer.com/things-to-do/ingalami-15-km-p632573",
+    "https://www.goxski.com/lillehammer",
+    "https://en.lillehammer.com/things-to-do/activities/skiing/cross-country-skiing/lillehammer-cross-country-skiing-destination",
+    "https://www.hafjellresort.no/en/ingalami",
+    "https://live.eqtiming.com/58262",
+    "https://birken.no/no/nyheter/eventyret-ingalami",
+    "https://birken.no"
+  ],
+  "checked_at": "2026-03-12T15:49:29Z"
+}

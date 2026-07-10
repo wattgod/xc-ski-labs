@@ -1,0 +1,81 @@
+{
+  "slug": "asarna-ski-marathon",
+  "name": "Åsarna Ski Marathon",
+  "facts": {
+    "distance_km": 90,
+    "elevation_m": 900,
+    "country": "Sweden",
+    "region": "Jämtland",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1940,
+    "website": "https://www.asarnaskimarathon.se",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 48,
+      "note": "Sources confirm 48km classic for 2026, or 46-47km generally; 90km exceeds ±3km tolerance",
+      "source_url": "https://skiclassics.com/events/challengers/asarna-ski-marathon/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden",
+      "source_url": "https://skiclassics.com/events/challengers/asarna-ski-marathon/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Åsarna located 70km south of Östersund (Jämtland), but no source explicitly states Jämtland",
+      "source_url": "https://skiclassics.com/events/challengers/asarna-ski-marathon/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed",
+      "source_url": "https://skiclassics.com/events/challengers/asarna-ski-marathon/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2009,
+      "note": "18th edition in 2026 implies first in 2009 (2026-17=2009)",
+      "source_url": "https://plane-bear-ztrl.squarespace.com/nyheter-asarnaik/sarna-ski-marathon-2026"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No source lists https://www.asarnaskimarathon.se; official site not identified",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late January/February, e.g., Jan 31 2026",
+      "source_url": "https://skiclassics.com/events/challengers/asarna-ski-marathon/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/asarna-ski-marathon/",
+    "https://www.proxcskiing.com/long-distance/pettersson-and-antell-winners-at-asarna-ski-marathon-2026/",
+    "https://plane-bear-ztrl.squarespace.com/nyheter-asarnaik/sarna-ski-marathon-2026",
+    "https://vemdalen.se/en/event/asarna-ski-marathon/",
+    "https://www.youtube.com/watch?v=dts57D2VOno",
+    "https://www.op.se/2026-02-01/lista-alla-resultat-fran-asarna-ski-marathon/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:33:51Z"
+}

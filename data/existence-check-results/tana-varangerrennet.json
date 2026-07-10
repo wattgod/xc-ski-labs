@@ -1,0 +1,32 @@
+{
+  "slug": "tana-varangerrennet",
+  "name": "Tana–Varangerrennet",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.tvrennet.no",
+    "results_url": "https://www.tvrennet.no/resultater/",
+    "evidence_summary": "Tana-Varangerrennet has an official website with registration, course details, history since 1997, and 2025 race results listing top finishers. It is listed in Ski Classics Challengers circuit with event pages confirming the 80km classic race from Seida to Vadsø. ProXCskiing reports open registrations for 2026 edition on April 18.",
+    "sources": [
+      "https://www.tvrennet.no",
+      "https://skiclassics.com/events/challengers/8854/",
+      "https://www.proxcskiing.com/long-distance/registrations-for-tana-varangerrennet-2026-are-now-open/",
+      "https://www.tvrennet.no/om-oss/",
+      "https://www.tvrennet.no/resultater/",
+      "https://www.tvrennet.no/pamelding/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/8854/",
+    "https://www.proxcskiing.com/long-distance/registrations-for-tana-varangerrennet-2026-are-now-open/",
+    "https://www.tvrennet.no",
+    "https://www.tvrennet.no/om-oss/",
+    "https://www.proxcskiing.com/long-distance/tana-varangerrennet-2025-opens-registrations-next-friday/",
+    "https://www.tvrennet.no/pamelding/",
+    "https://registration.wsportsmedia.com/?action=register",
+    "https://www.tvrennet.no/resultater/"
+  ],
+  "checked_at": "2026-03-12T16:07:20Z"
+}

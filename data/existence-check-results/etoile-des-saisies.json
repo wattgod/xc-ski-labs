@@ -1,0 +1,33 @@
+{
+  "slug": "etoile-des-saisies",
+  "name": "Étoile des Saisies",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "https://www.savoienordic.com/etoile-des-saisies.html",
+    "results_url": null,
+    "evidence_summary": "Multiple tourism and regional sites promote the Étoile des Saisies as a real cross-country ski race scheduled for March 29, 2026, in Les Saisies, France, serving as the French long-distance championships finale and Marathon Ski Tour closer. Sites include official-sounding pages with event details and online registration mentions, but no past race results, videos, or major series listings were found. Directory listing on ahotu provides weak supporting evidence.",
+    "sources": [
+      "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/",
+      "https://www.savoienordic.com/etoile-des-saisies.html",
+      "https://en.lessaisies.com/events/etoile-des-saisies/",
+      "https://www.lessaisies.com/evenements/etoile-des-saisies/",
+      "https://www.ahotu.com/event/etoile-des-saisies"
+    ]
+  },
+  "citations": [
+    "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/",
+    "https://www.savoienordic.com/etoile-des-saisies.html",
+    "https://en.lessaisies.com/events/etoile-des-saisies/",
+    "https://www.lessaisies.com/evenements/etoile-des-saisies/",
+    "https://www.ahotu.com/event/etoile-des-saisies",
+    "https://www.glissepassion.fr/en/run",
+    "https://www.esf-lessaisies.com/alpine/activities/",
+    "https://www.chamberymontagnes.com/en/offers/etoile-des-saisies-les-saisies-en-5993318/",
+    "https://ffs.fr/actualites/debut-du-marathon-ski-tour-2024/",
+    "https://www.esf-lessaisies.com/alpine/teens/competition/"
+  ],
+  "checked_at": "2026-03-12T15:44:44Z"
+}

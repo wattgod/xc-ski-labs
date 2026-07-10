@@ -1,0 +1,82 @@
+{
+  "slug": "larch-hills-loppet",
+  "name": "Larch Hills Loppet",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 300,
+    "country": "Canada",
+    "region": "British Columbia",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.larchhillsnordics.ca",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 32,
+      "note": "Competitive course is 32 km single loop, not 40 km. Shorter distances available for other categories.",
+      "source_url": "https://skilarchhills.ca/loppet/race-information/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Salmon Arm, BC.",
+      "source_url": "https://skilarchhills.ca/loppet/race-information/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "British Columbia (BC), Salmon Arm.",
+      "source_url": "https://skilarchhills.ca/loppet/race-information/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique only.",
+      "source_url": "https://skilarchhills.ca/loppet/race-information/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded. 42nd annual in 2026 implies around 1984, but unconfirmed.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://skilarchhills.ca/loppet/",
+      "note": "Official site is skilarchhills.ca, under Larch Hills Nordic Society.",
+      "source_url": "https://skilarchhills.ca/loppet/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late January, e.g., January 17, 2026; January 18, 2025.",
+      "source_url": "https://skilarchhills.ca/loppet/race-information/"
+    }
+  },
+  "citations": [
+    "https://skilarchhills.ca/loppet/race-information/",
+    "https://www.larchhillsskiteam.com/home-alt",
+    "https://www.payak.ca/pacific-northwest-loppet-series/",
+    "https://skilarchhills.ca/loppet/course-information/",
+    "https://skilarchhills.ca/loppet/",
+    "https://skilarchhills.ca/loppet/course-information/17km-recreational/",
+    "https://www.crosscountrybc.ca/race-information-reino-keski-salmi-loppet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:16:10Z"
+}

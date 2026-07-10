@@ -1,0 +1,84 @@
+{
+  "slug": "kamchatka-ski-marathon",
+  "name": "Kamchatka Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 600,
+    "country": "Russia",
+    "region": "Kamchatka Krai",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.kamchatka-ski.ru",
+    "date": "March / April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning 'Kamchatka Ski Marathon' or matching 50km distance; closest is Avachinsky marathon (unspecified distance) and Mutnovsky (60km)",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide elevation gain for any matching race",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 'Kamchatka Ski Marathon'; Kamchatka events are in Russia but race unverified",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm race; Kamchatka Krai mentioned for other ski events like Avachinsky marathon",
+      "source_url": "https://en.kamtravel.pro/kamchatka/calendar/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources detail technique for this specific race",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Avachinsky marathon has >500 participants, but no match for 'Kamchatka Ski Marathon'",
+      "source_url": "https://en.kamtravel.pro/kamchatka/calendar/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide founding year",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "kamchatka-ski.ru not found in results; related sites like kamchatkaloppet.ru for Avachinsky",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42378"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Avachinsky marathon in April, matches month but race name differs",
+      "source_url": "https://en.kamtravel.pro/kamchatka/calendar/"
+    }
+  },
+  "citations": [
+    "https://en.kamtravel.pro/kamchatka/calendar/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42378",
+    "http://en.kremlin.ru/events/councils/79152",
+    "http://skiinginkamchatka.com/more_destinations/",
+    "https://www.allaboutkamchatka.ru/en/programs/",
+    "https://kamchatka.name/news/22566/",
+    "https://kamchatintour.ru/en/tours/nachinaetsa_rossiya/",
+    "http://skiinginkamchatka.com/kamchatka/welcome-to-kamchatka/",
+    "https://visitrussia.com/kamchatka_peninsula"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:42:32Z"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cedars-ski-marathon",
+  "name": "Cedars Ski Marathon",
+  "country": "Lebanon",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a cross-country ski race called 'Cedars Ski Marathon' was found in the search results. The Cedars region in Lebanon does have a ski resort with alpine skiing events, but no cross-country ski marathon event exists under this name. Search results show alpine skiing results from Cedars Ski Resort and general ski season information, but no cross-country marathon event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=272113&raceid=119158",
+    "https://www.beirutmarathon.org/cedar-challenge.php",
+    "https://rcbeirutcedars.org",
+    "https://the961.com/places-to-stay-during-ski-season-al-arz/",
+    "https://the961.com/ski-season-in-lebanon-is-officially-on-prices/"
+  ],
+  "checked_at": "2026-03-12T15:42:14Z"
+}

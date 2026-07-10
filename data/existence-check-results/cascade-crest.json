@@ -1,0 +1,31 @@
+{
+  "slug": "cascade-crest",
+  "name": "Cascade Crest",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://mbsef.org/cascadecrest/",
+    "results_url": "https://www.onlineraceresults.com/race/view_race.php?race_id=62574",
+    "evidence_summary": "The Cascade Crest Nordic Ski Race is a real event organized by MBSEF at Mt. Bachelor, Oregon, with an official website, active registration for 2025 via Webscorer, and past results from 2018. It offers distances of 5k, 12.5k, 25k, and unofficial 50k, distinct from the unrelated Cascade Crest 100 ultra-running event in Washington.",
+    "sources": [
+      "https://mbsef.org/cascadecrest/",
+      "https://www.webscorer.com/register?raceid=373605",
+      "https://www.onlineraceresults.com/race/view_race.php?race_id=62574",
+      "https://secure.getmeregistered.com/get_information.php?event_id=125509"
+    ]
+  },
+  "citations": [
+    "https://www.webscorer.com/register?raceid=373605",
+    "https://mbsef.org/cascadecrest/",
+    "https://www.cascadecrest100.com/registration",
+    "https://www.cascadecrest100.com/race-weekend",
+    "https://onlineraceresults.com/race/view_race.php?race_id=62574",
+    "https://www.cascadecrest100.com",
+    "http://www.cascadecrest100.org/cascadecrest100.com/entry.php",
+    "https://cascadeskiteam.org",
+    "https://secure.getmeregistered.com/get_information.php?event_id=125509"
+  ],
+  "checked_at": "2026-03-12T15:42:06Z"
+}

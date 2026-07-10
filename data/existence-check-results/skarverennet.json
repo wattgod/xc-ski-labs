@@ -1,0 +1,36 @@
+{
+  "slug": "skarverennet",
+  "name": "Skarverennet",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 8,
+    "official_website": "https://skarverennet.no",
+    "results_url": null,
+    "evidence_summary": "Skarverennet is a real cross-country ski race in Norway, first held in 1974, with distances of 25km and 37km from Finse or Haugastøl to Ustaoset, scheduled for April 18, 2026. It has an active official website with participant info, registration, and news, plus listings on Worldloppet and Wikipedia, and promotion on Geilo tourism sites. While specific past race results pages are not directly in these snippets, the depth of organizational details, history, and future event planning across multiple credible sources confirms its existence.",
+    "sources": [
+      "https://www.worldloppet.com/skarverennet/",
+      "https://en.wikipedia.org/wiki/Skarverennet",
+      "https://skarverennet.no/en/om-skarverennet/",
+      "https://www.geilo.com/en/skarverennet-2026",
+      "https://skarverennet.no/en/deltakerinfo/",
+      "https://www.geilo.com/en/event/skarverennet",
+      "https://skarverennet.no/en/",
+      "https://skarverennet.no"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/skarverennet/",
+    "https://en.wikipedia.org/wiki/Skarverennet",
+    "https://skarverennet.no/en/om-skarverennet/",
+    "https://www.geilo.com/en/skarverennet-2026",
+    "https://skarverennet.no/en/deltakerinfo/",
+    "https://www.geilo.com/en/event/skarverennet",
+    "https://skarverennet.no/en/",
+    "https://skarverennet.no/en/aktuelt/",
+    "https://skarverennet.no",
+    "https://skarverennet.no/en/meld-deg-pa-i-tide/"
+  ],
+  "checked_at": "2026-03-12T16:04:02Z"
+}

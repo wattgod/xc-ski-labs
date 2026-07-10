@@ -1,0 +1,82 @@
+{
+  "slug": "whitehorse-loppet",
+  "name": "Whitehorse Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 300,
+    "country": "Canada",
+    "region": "Yukon",
+    "discipline": "both",
+    "field_size": 150,
+    "founded": null,
+    "website": "https://www.xcskiwhitehorse.ca",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 44,
+      "note": "The Yukon Ski Marathon qualifying event for the Pacific Northwest Loppet Series is 44km (or 45km free according to one source), not 30km. Multiple sources confirm the main race distance is 44km with shorter options of 22km and 12km available.",
+      "source_url": "https://www.yukonskimarathon.ca/the-event"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in the search results provide elevation gain data for the Yukon Ski Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Canada is confirmed as the correct country.",
+      "source_url": "https://www.yukonskimarathon.ca/the-event"
+    },
+    "region_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Yukon Territory, Canada is confirmed as the correct region.",
+      "source_url": "https://www.yukonskimarathon.ca/the-event"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and skate disciplines are offered at the Yukon Ski Marathon.",
+      "source_url": "https://www.yukonskimarathon.ca/the-event"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in the search results provide participant numbers for the Yukon Ski Marathon.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources describe it as a 'legendary' race that has been 'reimagined for a new era' but do not specify the founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.yukonskimarathon.ca",
+      "note": "The official website is yukonskimarathon.ca, not xcskiwhitehorse.ca. The search results consistently reference yukonskimarathon.ca as the official event website.",
+      "source_url": "https://www.yukonskimarathon.ca/the-event"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "March is confirmed as the typical race month. The 2026 event is scheduled for March 21st.",
+      "source_url": "https://www.pacificnorthwestloppetseries.com"
+    }
+  },
+  "citations": [
+    "https://www.pacificnorthwestloppetseries.com",
+    "https://www.sportyukon.com/events/yukon-ski-marathon",
+    "https://www.yukonskimarathon.ca/the-event",
+    "https://loppet.org/event/marathon-pouli-tour-ski/",
+    "https://albertamastersassociation.com/pacific-nw-race-series-2024-25/",
+    "https://crosscountryyukon.com/wp-content/uploads/2024/10/CCY-Technical-Package-2024-25.pdf",
+    "https://www.whatsupyukon.com/sports/ski-snowboard/ultimate-cross-country-event-hits-yukon-trails/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:20:50Z"
+}

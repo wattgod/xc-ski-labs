@@ -1,0 +1,30 @@
+{
+  "slug": "ranka-marathon",
+  "name": "Ranka Kartonfabric Ski Marathon",
+  "country": "Latvia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Multiple credible sources including ProXCskiing and Ski Classics confirm the event as a real Ski Classics Challengers race with announcements for 2024 and 2025 dates, a 2024 men's startlist PDF, and mentions of past records. Social media presence noted on Facebook and Instagram. No direct race results or official site found in results, but event postponements and listings on langrenn.com strengthen legitimacy.",
+    "sources": [
+      "https://www.proxcskiing.com/long-distance/ranka-kartonfabric-ski-marathon-confirmed-for-the-weekend/",
+      "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/",
+      "https://skiclassics.com/wp-content/uploads/2024/02/Ranka-Kartonfabric-Ski-Marathon-Startlist-Men-2024-Ski-Classics-Challengers.pdf",
+      "https://www.proxcskiing.com/long-distance/ranka-kartonfabric-ski-marathon-this-sunday-in-latvia/"
+    ]
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/ranka-kartonfabric-ski-marathon-confirmed-for-the-weekend/",
+    "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/",
+    "https://www.proxcskiing.com/long-distance/ranka-kartonfabric-ski-marathon-this-sunday-in-latvia/",
+    "https://www.langrenn.com/event/ranka-kartonfabric-ski-marathon-3/",
+    "https://www.langrenn.com/event/ranka-kartonfabric-ski-marathon/",
+    "https://www.bezky.net/event/ranka-kartonfabric-ski-marathon-3/",
+    "https://www.proxcskiing.com/long-distance/ranka-kartonfabric-ski-marathon-postponed-to-february-22/",
+    "https://skiclassics.com/wp-content/uploads/2024/02/Ranka-Kartonfabric-Ski-Marathon-Startlist-Men-2024-Ski-Classics-Challengers.pdf"
+  ],
+  "checked_at": "2026-03-12T16:01:19Z"
+}

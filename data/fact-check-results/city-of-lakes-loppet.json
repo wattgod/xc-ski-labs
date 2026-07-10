@@ -1,0 +1,82 @@
+{
+  "slug": "city-of-lakes-loppet",
+  "name": "City of Lakes Loppet",
+  "facts": {
+    "distance_km": 33,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Minnesota",
+    "discipline": "both",
+    "field_size": 2000,
+    "founded": 2003,
+    "website": "https://www.loppet.org",
+    "date": "First weekend in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "Classic Marathon listed as 29km (5 laps), Skate Marathon as 31km (4 laps); database 33km outside ±3km tolerance",
+      "source_url": "https://loppet.org/event/winter-festival-2/2026-01-31/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as USA",
+      "source_url": "https://www.worldloppet.com/city-of-lakes-loppet-festival/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Minnesota",
+      "source_url": "https://www.worldloppet.com/city-of-lakes-loppet-festival/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both classic (e.g., Classic Marathon) and skate (e.g., Skate Marathon) events",
+      "source_url": "https://loppet.org/event/winter-festival-2/2026-01-31/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Grew from a cross-country ski race in 2003",
+      "source_url": "https://www.skisignup.com/Race/MN/Minneapolis/CityofLakesLoppetWinterFestival"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site confirmed as loppet.org",
+      "source_url": "https://www.worldloppet.com/city-of-lakes-loppet-festival/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Last weekend of January / first weekend of February",
+      "note": "2026 dates: Jan 31-Feb 1 (Sat-Sun spanning late Jan/early Feb); not specifically first weekend in February",
+      "source_url": "https://loppet.org/event/winter-festival-2/2026-01-31/"
+    }
+  },
+  "citations": [
+    "https://loppet.org/event/winter-festival-2/2026-01-31/",
+    "https://findarace.com/us/events/city-of-lakes-loppet-winter-festival",
+    "https://www.worldloppet.com/city-of-lakes-loppet-festival/",
+    "https://www.skisignup.com/Race/MN/Minneapolis/CityofLakesLoppetWinterFestival",
+    "https://www.exploreminnesota.com/event/city-lakes-loppet-winter-festival/32633",
+    "https://westopolis.org/events/city-of-lakes-loppet-winter-festival/",
+    "https://loppet.org"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:37:13Z"
+}

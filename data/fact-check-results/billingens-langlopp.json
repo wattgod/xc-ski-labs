@@ -1,0 +1,83 @@
+{
+  "slug": "billingens-langlopp",
+  "name": "Billingens Langlopp",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 300,
+    "country": "Sweden",
+    "region": "Vastergotland",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1980,
+    "website": "https://svenskalanglopp.se/",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 40km distance",
+      "source_url": "https://skiclassics.com/billingens-langlopp-2025-this-saturday-in-sweden/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden",
+      "source_url": "https://skiclassics.com/billingens-langlopp-2025-this-saturday-in-sweden/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Västra Götaland (Vastergotland), near Skövde",
+      "source_url": "https://en.wikipedia.org/wiki/Billingen"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed",
+      "source_url": "https://skiclassics.com/billingens-langlopp-2025-this-saturday-in-sweden/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Described as one of the largest in southern Sweden but no specific participant numbers found",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://billingenslanglopp.se or similar (links to event pages, not svenskalanglopp.se)",
+      "note": "Sources link to Billingens Långlopp specific sites, not the claimed URL; svenskalanglopp.se not mentioned",
+      "source_url": "https://skiclassics.com/billingens-langlopp-2025-this-saturday-in-sweden/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February, aligns with late January (e.g., Feb 1, 2025)",
+      "source_url": "https://skiclassics.com/billingens-langlopp-2025-this-saturday-in-sweden/"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Billingen",
+    "https://skiclassics.com/billingens-langlopp-2025-this-saturday-in-sweden/",
+    "https://www.proxcskiing.com/long-distance/billingens-langlopp-2025-start-lists-start-times-and-where-to-watch/",
+    "https://www.proxcskiing.com/long-distance/elias-andersson-and-tova-andersson-winners-at-billingens-langlopp-2025/",
+    "https://ssfta.skidor.com/event/45766",
+    "https://www.youtube.com/watch?v=9CUPMmV0al0",
+    "https://www.youtube.com/watch?v=uIS9NyEKSNU",
+    "https://www.youtube.com/watch?v=uply_FQvMRo"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:35:33Z"
+}

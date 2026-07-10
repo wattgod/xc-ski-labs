@@ -1,0 +1,25 @@
+{
+  "slug": "jokkmokk-winter-marathon",
+  "name": "Jokkmokk Winter Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Jokkmokk Winter Marathon' cross-country ski race. Search results describe Nordenskiöldsloppet, a real 220 km ski race in Jokkmokk listed on Worldloppet with an official site, but it has a different name and no 'Winter Marathon' branding. Other results mention Jokkmokk Winter Market and general winter activities, with no race results, news, or listings matching the queried event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/nordenskioldsloppet-swe/",
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://www.swedishlapland.com/stories/nordenskioeldsloppet/",
+    "https://www.nordenskioldsloppet.com",
+    "https://res.inlandsbanan.se/jokkmokks-market-2026",
+    "https://www.jokkmokk.se/media/trbnqu3i/jokkmokk-vinter-eng-2025-mail.pdf",
+    "https://jokkmokksmarknad.se/en/program/category/winter-activities/summary/?tribe-bar-date=2024-12-03",
+    "https://www.arcticstories.se/jokkmokksmarknad"
+  ],
+  "checked_at": "2026-03-12T15:50:26Z"
+}

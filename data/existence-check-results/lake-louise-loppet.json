@@ -1,0 +1,31 @@
+{
+  "slug": "lake-louise-loppet",
+  "name": "Lake Louise Loppet",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.loppet.ca",
+    "results_url": null,
+    "evidence_summary": "The Lake Louise to Banff Loppet is a real, longstanding cross-country ski event with an official website detailing course maps, race info, and schedules for 2025 and 2026. It uses Zone4 timing chips, has volunteer grooming, and is mentioned by Calgary Ski Club as their annual Lake Louise Loppet. Past updates confirm grooming and course readiness for prior years.",
+    "sources": [
+      "https://www.loppet.ca/coursedescription",
+      "https://www.loppet.ca/raceinfo",
+      "https://www.loppet.ca",
+      "https://calgaryskiclub.org/loppet"
+    ]
+  },
+  "citations": [
+    "https://www.loppet.ca/coursedescription",
+    "https://www.loppet.ca/raceinfo",
+    "https://www.loppet.ca",
+    "https://calgaryskiclub.org/loppet",
+    "https://loppet.org/Experiences/skiing/",
+    "https://loppet.org/how-why-when-of-fall-ski-training/",
+    "https://loppetcup.com",
+    "https://xcountryab.net/alberta-loppet-series/",
+    "https://loppet.org/event/marathon-pouli-tour-ski/"
+  ],
+  "checked_at": "2026-03-12T15:53:07Z"
+}

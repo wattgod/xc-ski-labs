@@ -1,0 +1,82 @@
+{
+  "slug": "vastgotaloppet",
+  "name": "Vastgotaloppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 350,
+    "country": "Sweden",
+    "region": "Vastergotland",
+    "discipline": "both",
+    "field_size": 1000,
+    "founded": 2000,
+    "website": "https://vastgotaloppet.se/",
+    "date": "Late January / early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention Vastgotaloppet; all results describe Vasaloppet (90km)",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for Vastgotaloppet; Vasaloppet has varying elevations but no total gain of 350m specified",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation for Vastgotaloppet; Vasaloppet is in Sweden",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for Vastgotaloppet in Vastergotland; Vasaloppet is in Dalarna",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on Vastgotaloppet; Vasaloppet is classic style",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No data on Vastgotaloppet participants; Vasaloppet has 15,000+",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 2000 for Vastgotaloppet; Vasaloppet founded 1922",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify https://vastgotaloppet.se/ from search results; no mentions",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation for late January/early February; Vasaloppet is first Sunday of March",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://www.sandozconcept.com/en/worldloppet-races/the-famous-vasaloppet-in-sweden/",
+    "https://www.youtube.com/watch?v=M4SBDZRDg-I",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://www.thebestviewpoints.com/2025/09/23/how-to-prepare-for-your-first-vasaloppet/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:58:40Z"
+}

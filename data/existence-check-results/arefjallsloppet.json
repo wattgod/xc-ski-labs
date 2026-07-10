@@ -1,0 +1,18 @@
+{
+  "slug": "arefjallsloppet",
+  "name": "Arefjällsloppet",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No search results were returned for 'Arefjällsloppet'. The provided search results contain only information about Swix Ski Classics in Livigno, Italy, which is unrelated to the queried Swedish race. Without access to official websites, race results, news articles, or listings from major ski race databases (Worldloppet, Euroloppet, FIS), the existence of this event cannot be verified.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.ski-nordique.net/swix-ski-classics-innove.5566133-162998.html"
+  ],
+  "checked_at": "2026-03-12T15:38:20Z"
+}

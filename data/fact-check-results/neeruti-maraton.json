@@ -1,0 +1,82 @@
+{
+  "slug": "neeruti-maraton",
+  "name": "Neeruti Maraton",
+  "facts": {
+    "distance_km": 31,
+    "elevation_m": 200,
+    "country": "Estonia",
+    "region": "Lääne-Virumaa",
+    "discipline": "skate",
+    "field_size": 350,
+    "founded": null,
+    "website": null,
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 43,
+      "note": "Sources list 43 km (long distance) and 21 km options, not 31 km",
+      "source_url": "https://www.worldloppet.com/tamsalu-neeruti-maraton/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Estonia across multiple sources",
+      "source_url": "https://www.worldloppet.com/tamsalu-neeruti-maraton/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention Tamsalu (Lääne-Virumaa) and Pariisi Puhkeküla (also Lääne-Virumaa), but no explicit confirmation; reasonable but unverified",
+      "source_url": "https://www.worldloppet.com/tamsalu-neeruti-maraton/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "'FT' indicates free technique (skate) in sources",
+      "source_url": "https://www.worldloppet.com/tamsalu-neeruti-maraton/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "www.estoloppet.ee",
+      "note": "Worldloppet lists www.estoloppet.ee as website",
+      "source_url": "https://www.worldloppet.com/tamsalu-neeruti-maraton/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February (e.g., Feb 3-5, within January/February winter season)",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/estonia"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/tamsalu-neeruti-maraton/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/estonia",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=52505&seasoncode=2023",
+    "https://www.ahotu.com/event/tamsalu-neeruti-marathon",
+    "https://www.fis-ski.com/DB/general/event-details.html?eventid=45901&sectorcode=CC&seasoncode=2020",
+    "https://www.proxcskiing.com/event/tamsalu-neeruti-maraton/",
+    "https://www.youtube.com/watch?v=VBDiuxaRqRw"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:17:24Z"
+}

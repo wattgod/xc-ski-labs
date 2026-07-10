@@ -1,0 +1,83 @@
+{
+  "slug": "halvvasan",
+  "name": "HalvVasan",
+  "facts": {
+    "distance_km": 45,
+    "elevation_m": 850,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": "~8,000 participants",
+    "founded": 1964,
+    "website": "https://www.vasaloppet.se/lopp/halvvasan/",
+    "date": "First Sunday in March (Vasaloppet week)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "HalvVasan (Vasaloppet 45) is 45 km from Oxberg to Mora",
+      "source_url": "https://vasaloppet.se/lopp/halvvasan/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found confirming total elevation gain of 850m; some sources mention rolling terrain but no specific figure",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Dalarna region",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific confirmation for HalvVasan discipline (classic); other Vasaloppet races allow both skate and classic",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical ~8,000 participants in HalvVasan specifically",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found confirming 1964 as first edition for HalvVasan",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official URL",
+      "source_url": "https://www.vasaloppet.se/lopp/halvvasan/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Part of Vasaloppet week, first Sunday in March (e.g., March 1, 2026)",
+      "source_url": "https://vasaloppet.se/en/news/welcome-to-vasaloppets-winter-week-2026-here-is-a-guide-to-all-races/"
+    }
+  },
+  "citations": [
+    "https://www.ahotu.com/event/vasaloppet-week",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://vasaloppet.se/en/news/welcome-to-vasaloppets-winter-week-2026-here-is-a-guide-to-all-races/",
+    "https://inspirationaladventures.com/adventure/cross-country-ski-along-the-vasaloppet-trail",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://vasaloppet.se/en/",
+    "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:18Z"
+}

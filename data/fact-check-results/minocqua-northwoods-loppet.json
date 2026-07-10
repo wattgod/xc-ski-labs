@@ -1,0 +1,79 @@
+{
+  "slug": "minocqua-northwoods-loppet",
+  "name": "Minocqua Northwoods Loppet",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 150,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 1985,
+    "website": "https://www.minocquanordic.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention 'Minocqua Northwoods Loppet'; closest event Squirrel Hill Loopy Loppet has distances of 10.8k, 7.2k (not 25km)",
+      "source_url": "https://www.skisignup.com/Race/WI/Minocqua/SquirrelHillLoopyLoppet"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation data found for any Minocqua ski race",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 'Minocqua Northwoods Loppet'; Minocqua Winter Park events are in US/WI but event name mismatch",
+      "source_url": "https://minocquawinterpark.org"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for specific event; Minocqua Winter Park is in Wisconsin but event name not found",
+      "source_url": "https://minocquawinterpark.org"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Squirrel Hill Loopy Loppet offers both classic and skate, but not the queried event name",
+      "source_url": "https://www.skisignup.com/Race/WI/Minocqua/SquirrelHillLoopyLoppet"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for 'Minocqua Northwoods Loppet' or similar events",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year found for the event",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://minocquawinterpark.org",
+      "note": "Database URL https://www.minocquanordic.com not found in searches; Minocqua Winter Park at https://minocquawinterpark.org hosts Loopy Loppet",
+      "source_url": "https://minocquawinterpark.org"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Squirrel Hill Loopy Loppet on Feb 28 (late winter), but late January not confirmed for queried event",
+      "source_url": "https://www.skisignup.com/Race/WI/Minocqua/SquirrelHillLoopyLoppet"
+    }
+  },
+  "citations": [
+    "https://minocquawinterpark.org",
+    "https://www.skisignup.com/Race/WI/Minocqua/SquirrelHillLoopyLoppet",
+    "https://www.wisconsinxcski.org/events/2024-25-events/",
+    "https://www.minocqua.org/event/loopy-loppet-and-ski-rodeo/39944/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:16:53Z"
+}

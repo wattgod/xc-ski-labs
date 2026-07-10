@@ -1,0 +1,84 @@
+{
+  "slug": "nozawa-onsen-ski-marathon",
+  "name": "Nozawa Onsen Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Japan",
+    "region": "Nagano",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1990,
+    "website": null,
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention a 'Nozawa Onsen Ski Marathon' is not found. Results show an 'Annual marathon' event in July (23-25th) with distances of 14km, 23km, and 65km, but this appears to be a trail running event, not a cross-country ski race. No web sources found describing a cross-country ski marathon with a 30km distance at Nozawa Onsen.",
+      "source_url": "https://www.nozawahospitality.com/events/annual-marathon"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing elevation gain for a 'Nozawa Onsen Ski Marathon' cross-country race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Nozawa Onsen is confirmed to be located in Japan",
+      "source_url": "https://nozawaonsen.ski"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Nozawa Onsen is confirmed to be in Nagano Prefecture",
+      "source_url": "https://nozawaonsen.ski"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing the specific discipline (classic vs. skate) for a 'Nozawa Onsen Ski Marathon' cross-country race.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found providing participant numbers for a 'Nozawa Onsen Ski Marathon' cross-country race.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing when a 'Nozawa Onsen Ski Marathon' cross-country race was founded.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for a 'Nozawa Onsen Ski Marathon' cross-country race in search results.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing the typical race date for a 'Nozawa Onsen Ski Marathon' cross-country race. Search results show various winter events at Nozawa Onsen but none matching this specific race name or description.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://nozawaonsen.ski",
+    "https://en.nozawaski.com/the-mountain/mountain-facilities/training-facilities/",
+    "https://www.nozawahospitality.com/events/annual-marathon",
+    "https://en.nozawaski.com/the-mountain/",
+    "https://www.nozawaholidays.com/ski-resort/course-information/",
+    "https://en.nozawaski.com/the-mountain/moutain-info/winter_events_shedule/",
+    "https://en.nozawaski.com",
+    "https://www.staynozawa.com/event/north-shinshu-half-marathon",
+    "https://en.nozawaski.com/the-mountain/lesson/ski-school/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:48:00Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "noquemanon",
+  "name": "Noquemanon Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 600,
+    "country": "United States",
+    "region": "Michigan",
+    "discipline": "both",
+    "field_size": 1000,
+    "founded": 2001,
+    "website": "https://www.noquemanon.com",
+    "date": "Last Saturday in January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 50K marathon distance",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Mentions '1000-foot net descent' (~305m), but no total elevation gain specified",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "US confirmed via location",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Michigan (MI) confirmed",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both Classic and Freestyle (skate)",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Total attendance over 1,000 annually (matches ~1000 within ±20%)",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Over two decades (20+ years in 2026), but no exact year found",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as official site",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "January 23-24, 2026 (last Saturday in January)",
+      "source_url": "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon"
+    }
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/MI/Marquette/NoquemanonSkiMarathon",
+    "https://www.noquemanon.com/races/",
+    "http://www.noquemanon.com/races/full-marathon/",
+    "https://www.noquemanon.com/races/general-race-information/",
+    "https://www.noquemanon.com",
+    "https://www.noquemanon.com/schedule/",
+    "http://www.noquemanon.com/register/",
+    "http://www.noquemanon.com/races/junior-noque/",
+    "https://www.noquemanon.com/races/snowshoe-15-mile-10k/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:47:44Z"
+}

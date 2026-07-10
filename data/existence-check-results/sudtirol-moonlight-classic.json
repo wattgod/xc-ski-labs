@@ -1,0 +1,30 @@
+{
+  "slug": "sudtirol-moonlight-classic",
+  "name": "Sudtirol Moonlight Classic",
+  "country": "Italy",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.moonlightclassic.info/en/welcome.html",
+    "results_url": "https://www.moonlightclassic.info/en/welcome.html",
+    "evidence_summary": "The Südtirol Moonlight Classic is a real annual night cross-country ski race on Alpe di Siusi/Seiser Alm in South Tyrol, Italy, with 15km and 30km classic distances, confirmed by its official website featuring 2026 registration, past results (e.g., 2026 winners listed), and prize details. Multiple tourism sites describe the event, including its history since 2007 and upcoming dates like 30/01/2026 and 22 Jan 2027. No Worldloppet/FIS mentions in results, but official site and results provide strongest evidence.",
+    "sources": [
+      "https://www.moonlightclassic.info/en/welcome.html",
+      "https://www.moonlightclassic.info/en/registration-results/registration.html",
+      "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/south-tyrol-moonlight-classic/",
+      "https://www.seiser-alm.it/en/leisure-activities/winter-sports/moonlight-classic-alpe-di-siusi/",
+      "https://www.moonlightclassic.info/en/information/the-track.html"
+    ]
+  },
+  "citations": [
+    "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/south-tyrol-moonlight-classic/",
+    "https://www.moonlightclassic.info/en/registration-results/registration.html",
+    "https://www.ahotu.com/event/sudtirol-moonlight-classic",
+    "https://www.moonlightclassic.info/en/welcome.html",
+    "https://www.moonlightclassic.info/en/prize-men.html",
+    "https://www.seiser-alm.it/en/leisure-activities/winter-sports/moonlight-classic-alpe-di-siusi/",
+    "https://www.moonlightclassic.info/en/information/the-track.html"
+  ],
+  "checked_at": "2026-03-12T16:06:11Z"
+}

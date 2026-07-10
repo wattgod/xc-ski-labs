@@ -1,0 +1,27 @@
+{
+  "slug": "latloppet-madona",
+  "name": "LatLoppet Madona",
+  "country": "Latvia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.latloppet.lv",
+    "results_url": "https://www.latloppet.lv",
+    "evidence_summary": "LatLoppet Madona is a confirmed real event with an official website (latloppet.lv) and multiple independent sources. The race is part of the LatLoppet skiing series started in 2018, held annually in Madona, Latvia. Evidence includes the official website, Ski Classics directory listing, and references from multiple skiing event platforms.",
+    "sources": [
+      "https://www.latloppet.lv",
+      "https://skiclassics.com/events/challengers/latloppet/",
+      "https://www.maastohiihto.com/event/latloppet-madona/",
+      "https://biathlonmadona.com"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/latloppet/",
+    "https://biathlonmadona.com",
+    "https://www.latloppet.lv",
+    "https://www.maastohiihto.com/event/latloppet-madona/",
+    "https://www.latloppet.lv/?English"
+  ],
+  "checked_at": "2026-03-12T15:53:30Z"
+}

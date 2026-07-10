@@ -1,0 +1,25 @@
+{
+  "slug": "tbilisi-bakuriani-challenge",
+  "name": "Tbilisi-Bakuriani Challenge",
+  "country": "Georgia",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Tbilisi-Bakuriani Challenge' cross-country ski race was found in the search results or referenced in any official Georgian skiing sources. The search results document multiple skiing events in Bakuriani (Ski Cross World Cup, Snowboard World Cup, Freestyle World Championships, Winter EYOF 2025), but none mention a cross-country ski race by this name. The Georgian Ski Federation website and official sources make no reference to this event.",
+    "sources": []
+  },
+  "citations": [
+    "https://mta.ski/en/presscenter/bakuriani-world-cup-stages",
+    "https://brams.ge/news/bakuriani-2023",
+    "https://gsf.ge/en/fis-ski-cross-world-cup-in-bakuriani/",
+    "https://gsf.ge/en/fis-ski-cross-world-cup-bakuriani/",
+    "https://www.fis-ski.com/ski-cross/news/2024-25/fis-ski-cross-world-cup-event-in-bakuriani-geo-cancelled-for-2025-26-season",
+    "https://sporteurope.org/bakuriani-2025-past-event/",
+    "https://gsf.ge/en/",
+    "https://www.gov.ge/index.php?lang_id=ENG&sec_id=587&info_id=83968"
+  ],
+  "checked_at": "2026-03-12T16:07:48Z"
+}

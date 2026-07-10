@@ -1,0 +1,84 @@
+{
+  "slug": "egilsstadir-ski-marathon",
+  "name": "Egilsstaðir Ski Marathon",
+  "facts": {
+    "distance_km": 35,
+    "elevation_m": 300,
+    "country": "Iceland",
+    "region": "Austurland",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": 1992,
+    "website": "https://www.skidafelag.is",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Search results only returned information about Fossavatnsgangan, a different Icelandic ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify elevation data.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify country.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify region/province.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify discipline.",
+      "source_url": null
+    },
+    "participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify typical participant numbers.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify official website URL.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about an 'Egilsstaðir Ski Marathon'. Cannot verify typical race date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://bodyandsoulinternational.com/activities/3013-fossavatnsgangan-2026",
+    "https://www.westfjords.is/en/moya/news/the-fossavatn-ski-marathon-skiing-off-the-beaten-path-since-1935",
+    "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+    "https://www.lumiexperiences.com/blog/2024/5/14/iceland",
+    "https://www.inspiredbyiceland.com/events/fossavatn-ski-marathon-2025/",
+    "https://skiclassics.com/events/challengers/fossavatnsgangan/",
+    "https://en.wikipedia.org/wiki/Fossavatnsgangan",
+    "https://www.ahotu.com/event/dyrfjallahlaup",
+    "https://fossavatn.is/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:38:29Z"
+}

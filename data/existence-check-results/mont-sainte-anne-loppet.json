@@ -1,0 +1,27 @@
+{
+  "slug": "mont-sainte-anne-loppet",
+  "name": "Mont-Sainte-Anne Loppet",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a specific cross-country ski race named 'Mont-Sainte-Anne Loppet' in the search results. Mont-Sainte-Anne resort exists with cross-country skiing facilities mentioned, but no official website, race results, news articles, Worldloppet listings, social media events, videos, or registration pages for this event. Only general resort information about alpine skiing, summer events, and a multi-purpose track for cross-country training.",
+    "sources": []
+  },
+  "citations": [
+    "https://mont-sainte-anne.com/en/about/",
+    "https://mont-sainte-anne.com/en/",
+    "https://mont-sainte-anne.com/en/home/",
+    "https://mont-sainte-anne.com/en/alpine-skiing-rates-and-schedules/",
+    "https://mont-sainte-anne.com/en/events/la-grande-viree-des-couleurs/",
+    "https://mont-sainte-anne.com/en/events/quebec-mega-trail/",
+    "https://mont-sainte-anne.com/en/multi-purpose-track/",
+    "https://mont-sainte-anne.com/en/summer/",
+    "https://loppet.org",
+    "https://mont-sainte-anne.com/en/winter/"
+  ],
+  "checked_at": "2026-03-12T15:56:20Z"
+}

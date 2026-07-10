@@ -1,0 +1,83 @@
+{
+  "slug": "tokachi-ski-marathon",
+  "name": "Tokachi Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 180,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.tokachi-ski-marathon.jp",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 30 km distance for Tokachi Ski Marathon.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 180 m total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources specifically confirm Tokachi Ski Marathon is in Japan, though region mentions Hokkaido (Japan).",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Tokachi and Hokkaido mentioned in sources, but no direct confirmation for this race's location.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming classic, skate, or both for Tokachi Ski Marathon.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical number of participants around 300.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not found in search results; no confirmation of official website.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention late February ski events in Hokkaido/Tokachi area (e.g., third Sunday in February), but none confirm for Tokachi Ski Marathon specifically.",
+      "source_url": "https://www.biei-hokkaido.jp/en/fiveminutes/event"
+    }
+  },
+  "citations": [
+    "https://www.biei-hokkaido.jp/en/fiveminutes/event",
+    "https://cooljapan-videos.com/en/user/953l7ik4/posts/io9p2sao",
+    "https://domingo.ne.jp/en/article/19112",
+    "https://booking-hokkaido.com/spot.php?id=176",
+    "https://matoka-tokachi.jp/en/tokachi-kankoku-ranking/",
+    "https://sahoro-resort.com/category/info/page/2?lang=en",
+    "https://www.tripadvisor.com/Attractions-g12600497-Activities-c42-Tokachi_Hokkaido.html",
+    "https://en.visit-hokkaido.jp/adventure-travel/traveltrade-press/courses/multiple-day/post-04_tokachi/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:20:16Z"
+}

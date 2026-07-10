@@ -1,0 +1,33 @@
+{
+  "slug": "sovereign-lake-loppet",
+  "name": "Sovereign Lake Loppet",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.sovereignlake.com/events/sovereignlakeloppet/",
+    "results_url": null,
+    "evidence_summary": "The Sovereign Lake Loppet is a real, organized cross-country ski race hosted by Sovereign Lake Nordic Club, Canada's largest Nordic ski club with over 3,000 members. Multiple official sources confirm the event's existence, including the club's official website, Cross Country BC directory listing, and detailed event information pages. The club has a documented history of hosting major international competitions including World Cup (2005) and World Masters (2011) events.",
+    "sources": [
+      "https://www.sovereignlake.com/events/sovereignlakeloppet/",
+      "https://www.sovereignlake.com/tag/loppet/",
+      "https://www.crosscountrybc.ca/sovereign-lake-loppet-0",
+      "https://www.sovereignlake.com",
+      "https://www.sovereign2silverstar.com/pacific-northwest-loppet-series"
+    ]
+  },
+  "citations": [
+    "https://www.sovereignlake.com/events/xc105/",
+    "https://www.sovereign2silverstar.com/pacific-northwest-loppet-series",
+    "https://www.sovereignlake.com/loppet/",
+    "https://www.sovereignlake.com/tag/loppet/",
+    "https://www.crosscountrybc.ca/sovereign-lake-loppet-0",
+    "https://www.sovereignlake.com/?taxonomy=page-category&term=programs",
+    "https://www.sovereignlake.com",
+    "https://www.sovereignlake.com/category/events/",
+    "https://www.sovereignlake.com/officials-level-1/",
+    "https://www.sovereignlake.com/latest-news/"
+  ],
+  "checked_at": "2026-03-12T16:05:12Z"
+}

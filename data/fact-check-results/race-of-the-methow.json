@@ -1,0 +1,81 @@
+{
+  "slug": "race-of-the-methow",
+  "name": "Race of the Methow",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 250,
+    "country": "United States",
+    "region": "Washington",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": null,
+    "website": "https://www.methowvalleynordic.org/events",
+    "date": "Late January / early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 7.5,
+      "note": "U16+ classic mass start is 7.5 km (3 laps); sprint distance not specified in km. No 25 km found.",
+      "source_url": "https://www.methowvalleynordic.org/raceofthemethow"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Winthrop, WA.",
+      "source_url": "https://www.methowvalleynordic.org/raceofthemethow"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Washington state.",
+      "source_url": "https://www.methowvalleynordic.org/raceofthemethow"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Saturday freestyle sprint, Sunday classic mass start.",
+      "source_url": "https://www.methowvalleynordic.org/raceofthemethow"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No year of first edition found.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches event page.",
+      "source_url": "https://www.methowvalleynordic.org/events"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late January/early February (e.g., Jan 31-Feb 1/2).",
+      "source_url": "https://www.methowvalleynordic.org/raceofthemethow"
+    }
+  },
+  "citations": [
+    "https://www.methowvalleynordic.org/raceofthemethow",
+    "https://methowtrails.org/events",
+    "https://pnwdivision.org/event/2026-jn-qualifier-3-race-of-the-methow/",
+    "https://www.webscorer.com/mvnsef",
+    "https://www.methowvalleynordic.org/events/race-of-the-methow-mbcsm",
+    "https://www.skireg.com/8365"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:50:04Z"
+}

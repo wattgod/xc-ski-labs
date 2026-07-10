@@ -1,0 +1,25 @@
+{
+  "slug": "ufa-marathon",
+  "name": "Ufa Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Ufa Marathon' cross-country ski race. Search results mention Ufa in contexts like a sports committee, a cycling trip starting point, biathlon world championships, and general cross-country skiing in Russia, but nothing specific to this event. No official site, results, news, listings in major series, social media, videos, or registration pages identified.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.rsaski.ru/en/regions-executive/?ELEMENT_ID=2090",
+    "https://www.gonomad.com/138287-guinness-quest-pedaling-from-russia-to-portugal",
+    "https://www.teamusa.com/profiles/douglas-hoover",
+    "https://mid.ru/upload/archive/d288049854eadf85c106243a0a474246.pdf",
+    "https://enplusgroup.com/upload/uf/342/zcb2knshmox4z0m1vzrogc7efmc0p8sd/AR_full_ENG_06_25.pdf",
+    "https://catalog.upb.pitt.edu/mime/media/138/4418/2018-2019+Bradford+Campus+Catalog.pdf",
+    "http://isoh.org/wp-content/uploads/2019/02/JOH-2.18_1-80_OK_screen.pdf",
+    "https://ar2023.nornickel.com/download/full-reports/ar_en_annual-report_pages_nornickel_2023.pdf"
+  ],
+  "checked_at": "2026-03-12T16:10:00Z"
+}

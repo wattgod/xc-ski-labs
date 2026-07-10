@@ -1,0 +1,83 @@
+{
+  "slug": "krkonossky-maraton",
+  "name": "Krkonošský Maratón",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 800,
+    "country": "Czech Republic",
+    "region": "Liberec / Hradec Králové",
+    "discipline": "classic",
+    "field_size": "~600 starters",
+    "founded": 1983,
+    "website": null,
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 70,
+      "note": "Search results show 'Krkonošská 70 MONZAS' as a major cross-country ski race in the Krkonoše region with distances of 25 km, 50 km, and 70 km. The '70' in the race name indicates the primary distance is 70 km, not 50 km.",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/czech-republic"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide elevation gain data for any Krkonoše cross-country ski races.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Czech Republic is confirmed as the location of Krkonoše cross-country ski races.",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/czech-republic"
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention Špindlerův Mlýn as the location of Krkonošská 70 MONZAS, which is in the Krkonoše region. The claim of 'Liberec / Hradec Králové' cannot be verified or contradicted from available sources.",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/czech-republic"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not specify whether Krkonošská 70 MONZAS uses classic, skate, or both disciplines.",
+      "source_url": null
+    },
+    "participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide participant numbers for Krkonošská 70 MONZAS. The Jizerská 50 race is mentioned with 5,000 participants, but this is a different race.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide founding year information for Krkonošská 70 MONZAS or any race with 'Krkonošský Maratón' in the name.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide an official website URL for Krkonošská 70 MONZAS or 'Krkonošský Maratón'.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "March",
+      "note": "Krkonošská 70 MONZAS is scheduled for 09 Mar, 2024 according to search results, confirming early March as the typical race date. However, the database claim of 'Early March' is technically correct, so this should be marked CORRECT. Upon review, the claim matches the evidence.",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/czech-republic"
+    }
+  },
+  "citations": [
+    "https://www.snowtrex.ie/czech_republic/liberec/cross-country.html",
+    "https://www.liberecky-kraj.cz/en/winter-holiday/cross-country-skiing.html",
+    "https://www.orea.cz/en/resort-sklar/activities/cross-country-skiing",
+    "https://www.eventy.skiresort.cz/en/aktivita/cross-country-ski-races",
+    "https://www.ahotu.com/calendar/cross-country-skiing/czech-republic",
+    "https://www.krkonose.eu/en/cross-country-ski-trails-krkonose",
+    "https://www.sportchallenge.cz",
+    "https://crosscountryrace.cz"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:51:04Z"
+}

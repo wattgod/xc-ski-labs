@@ -1,0 +1,31 @@
+{
+  "slug": "murmansk-ski-marathon",
+  "name": "Murmansk Ski Marathon",
+  "country": "Russia",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "http://www.prazdniksevera.ru",
+    "results_url": null,
+    "evidence_summary": "The Murmansk Ski Marathon is listed on Worldloppet and Euroloppet with a website and past dates like 2022, and on FIS for 2017 as the 44th edition with organizer details. News sources confirm the 51st edition for March 29-30, 2025, as part of the longstanding Holiday of the North since 1974. Additional mentions in tourism and travel sites describe it as a major annual event with 25/50km distances.",
+    "sources": [
+      "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/",
+      "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=40056&seasoncode=2017&racecodex=3542",
+      "https://www.forumarctica.ru/en/news/51-y-murmanskiy-lyzhnyy-marafon-sostoitsya-29-30-marta-2025-g/",
+      "https://forumarctica.ru/en/programme/sport-programme/?day=30.03.2025",
+      "https://murmansk.travel/en/journals/79"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=40056&seasoncode=2017&racecodex=3542",
+    "https://www.forumarctica.ru/en/news/51-y-murmanskiy-lyzhnyy-marafon-sostoitsya-29-30-marta-2025-g/",
+    "https://forumarctica.ru/en/programme/sport-programme/?day=30.03.2025",
+    "https://murmansk.travel/en/journals/79",
+    "https://visitmurmansk.info/en/murmansk-explorer/",
+    "https://tour.citymurmansk.ru/en/city-events/traditional-annual-event",
+    "https://www.kolatravel.com/cross_country_ski_tours.php"
+  ],
+  "checked_at": "2026-03-12T15:57:06Z"
+}

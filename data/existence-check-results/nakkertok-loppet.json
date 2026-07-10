@@ -1,0 +1,25 @@
+{
+  "slug": "nakkertok-loppet",
+  "name": "Nakkertok Loppet",
+  "country": "Canada",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a cross-country ski race named 'Nakkertok Loppet' across official websites, results, news articles, calendars, social media, videos, or registration pages. Nakkertok Nordic Ski Club exists and hosts events like Nakkerloppet and Nordiq Canada Ski Nationals, but 'Nakkertok Loppet' is not mentioned. Searches confirm only the real club and other local races like Gatineau Loppet.",
+    "sources": []
+  },
+  "citations": [
+    "https://gatineauloppet.com/category/news-en/?lang=en",
+    "https://nakkertok.ca/en/",
+    "https://nakkertok.ca/en/trails/nakkertrak/",
+    "https://ottawasportspages.ca/2020/12/16/high-achievers-nakkertok-nordic-skiers-count-km-gatineau-loppet-registration-delayed-canadian-ski-marathon-goes-virtual/",
+    "https://nordiqcanada.ca/news-item/evenements-nordiques-gatineau-nordic-events-to-host-2024-nordiq-canada-ski-nationals/",
+    "https://www.crosscountrybc.ca/race-notice-2024-nordiq-canada-ski-nationals",
+    "https://nakkertok.ca/en/programs/racing/",
+    "https://nakkertok.ca/en/events/"
+  ],
+  "checked_at": "2026-03-12T15:57:23Z"
+}

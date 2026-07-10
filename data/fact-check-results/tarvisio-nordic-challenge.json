@@ -1,0 +1,84 @@
+{
+  "slug": "tarvisio-nordic-challenge",
+  "name": "Tarvisio Nordic Challenge",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Italy",
+    "region": "Friuli Venezia Giulia",
+    "discipline": "both",
+    "field_size": 250,
+    "founded": 2006,
+    "website": "https://www.tarvisiano.org",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific race called 'Tarvisio Nordic Challenge' found in search results. Search results mention 60 km of cross-country skiing trails in Tarvisio area, but no specific race by this name with a 30 km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific race called 'Tarvisio Nordic Challenge' found in search results. Cannot verify elevation gain for this specific race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Tarvisio is confirmed to be in Italy, located in the Julian Alps at the junction of Italy, Austria, and Slovenia.",
+      "source_url": "https://www.turismofvg.it/en/ski-world-cup-tarvisio-2026/tarvisio-and-the-ski-world-cup?LangSetCMS=en"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Tarvisio is confirmed to be in Friuli Venezia Giulia region.",
+      "source_url": "https://www.turismofvg.it/en/ski-world-cup-tarvisio-2026/news?LangSetCMS=en"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results confirm cross-country skiing exists in Tarvisio with 60 km of trails, but no specific information about whether 'Tarvisio Nordic Challenge' uses classic, skate, or both techniques.",
+      "source_url": "https://www.tarvisiano.org/en/Winter-World/Outdoor%20Winter%20World/Cross-country%20skiing"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific race called 'Tarvisio Nordic Challenge' found in search results. Cannot verify typical participant numbers.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific race called 'Tarvisio Nordic Challenge' found in search results. Search results mention Tarvisio Winter Trail (9th edition in 2026, suggesting founded around 2018), but this is a different event.",
+      "source_url": "https://my.raceresult.com/375331/info"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "The URL tarvisiano.org is confirmed as a Tarvisio tourism website with cross-country skiing information, but no specific 'Tarvisio Nordic Challenge' race page found.",
+      "source_url": "https://www.tarvisiano.org/en/Winter-World/Outdoor%20Winter%20World/Cross-country%20skiing"
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific race called 'Tarvisio Nordic Challenge' found in search results. Cannot verify typical race date or month.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.alpineskiworldcup.com/post/tarvisio-alpine-ski-world-cup-races-preview",
+    "https://www.tarvisiano.org/en/Winter-World/Outdoor%20Winter%20World/Cross-country%20skiing",
+    "https://www.turismofvg.it/en/ski-world-cup-tarvisio-2026/news?LangSetCMS=en",
+    "https://www.turismofvg.it/en/ski-world-cup-tarvisio-2026/tarvisio-and-the-ski-world-cup?LangSetCMS=en",
+    "https://my.raceresult.com/375331/info",
+    "https://etusuora.com/en/cross-country-skiing/jwsc",
+    "https://www.usskiandsnowboard.org/news/vonn-third-tarvisio-johnson-sixth",
+    "https://www.youtube.com/watch?v=wNoJ8glYWp0",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=NK&raceid=2984"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:55:39Z"
+}

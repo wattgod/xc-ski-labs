@@ -1,0 +1,34 @@
+{
+  "slug": "asarna-ski-marathon",
+  "name": "Åsarna Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://asarnaik.se/asarnaskimarathon2026",
+    "results_url": "https://live.skidor.com",
+    "evidence_summary": "Åsarna Ski Marathon is a confirmed real event with multiple independent sources including an official Swedish website with detailed 2026 race information, registration details via RaceID.com, and live results tracking via live.skidor.com. The event is recognized as an 18th edition race in 2026, is part of the Ski Classics Challengers series, and serves as a seeding race for Vasaloppet and Tjejvasan.",
+    "sources": [
+      "https://asarnaik.se/asarnaskimarathon2026",
+      "https://skiclassics.com/events/challengers/asarna-ski-marathon/",
+      "https://www.proxcskiing.com/long-distance/asarna-ski-marathon-2025-this-saturday-in-sweden/",
+      "https://bezky.net/event/asarna-ski-marathon-3/",
+      "https://www.langrenn.com/event/asarna-ski-marathon/",
+      "https://www.langd.se/event/asarna-ski-marathon/",
+      "https://asarnaik.se"
+    ]
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/asarna-ski-marathon-2025-this-saturday-in-sweden/",
+    "https://asarnaik.se/asarnaskimarathon2026",
+    "https://skiclassics.com/events/challengers/asarna-ski-marathon/",
+    "https://www.bezky.net/event/asarna-ski-marathon-3/",
+    "https://www.langrenn.com/event/asarna-ski-marathon/",
+    "https://www.langd.se/event/asarna-ski-marathon/",
+    "https://asarnaik.se",
+    "https://www.asarna.se/evenemang/event-three-9x4sk",
+    "https://www.asarnaskicenter.se/lngdskidkning-sarna-ski-marathon"
+  ],
+  "checked_at": "2026-03-12T15:38:26Z"
+}

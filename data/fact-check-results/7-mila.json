@@ -1,0 +1,82 @@
+{
+  "slug": "7-mila",
+  "name": "7-Mila",
+  "facts": {
+    "distance_km": 76,
+    "elevation_m": 600,
+    "country": "Sweden",
+    "region": "Västerbotten",
+    "discipline": "classic",
+    "field_size": 600,
+    "founded": 1980,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 76 km for the main solo and stafett races[1]",
+      "source_url": "https://www.ahotu.com/event/7-mila"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden[1]",
+      "source_url": "https://www.ahotu.com/event/7-mila"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific mention of Västerbotten; covers three municipalities in Sweden but not specified[1]",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Classic for 76 km races[1]",
+      "source_url": "https://www.ahotu.com/event/7-mila"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Described as having a 'rich history' and a 'true classic' but no specific year mentioned[1]",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified in sources",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typical date March (e.g., 17 Mar 2024)[1]",
+      "source_url": "https://www.ahotu.com/event/7-mila"
+    }
+  },
+  "citations": [
+    "https://www.ahotu.com/event/7-mila",
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://vasaloppet.us",
+    "https://visitumea.se/en/cross-country-skiing",
+    "https://www.youtube.com/shorts/4Kx09rQXwcQ"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:33:20Z"
+}

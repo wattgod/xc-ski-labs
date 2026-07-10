@@ -1,0 +1,84 @@
+{
+  "slug": "glacier-nordic-races",
+  "name": "Glacier Nordic Races",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "Montana",
+    "discipline": "both",
+    "field_size": 125,
+    "founded": null,
+    "website": "https://www.glaciernordic.com",
+    "date": "January to February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention 25 km trails at Big Mountain Nordic (Glacier Nordic Club) and Whitefish Lake Golf Course, but no specific 'Glacier Nordic Races' 25 km race confirmed.[2][3][4]",
+      "source_url": "https://www.glaciernordicclub.org/grooming-reports/big-mountain/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Trailforks lists 1,125 ft (~343 m) total vertical for Big Mountain Nordic trails, outside 200m ±100m tolerance, but no specific race elevation gain found for 'Glacier Nordic Races'.[2]",
+      "source_url": "https://www.trailforks.com/region/big-mountain-nordic-34126/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All Glacier Nordic Club trails and events are in Montana, USA.[2][3][4]",
+      "source_url": "https://www.glaciernordicclub.org/grooming-reports/big-mountain/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Glacier Nordic Club operates in Whitefish, Montana area.[2][4][6]",
+      "source_url": "https://www.glaciernordicclub.org/grooming-reports/big-mountain/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Glacier Glide race by Glacier Nordic Club offers both classic and skate; trails groomed for both, but no confirmation for specific 'Glacier Nordic Races'.[3][7]",
+      "source_url": "https://www.glaciernordicclub.org/glacier-glide-race/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for any Glacier Nordic Club races, including Glacier Glide or relays.[7][8]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No year founded or first edition found for 'Glacier Nordic Races' or Glacier Nordic Club events.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "https://www.glaciernordicclub.org/ is the official site for Glacier Nordic Club, matching provided URL (note: .com vs .org minor discrepancy, but content aligns).[4][7][8]",
+      "source_url": "https://www.glaciernordicclub.org/grooming-reports/big-mountain/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Glacier Glide on January 9 (2022); Tuesday Night Relay Races Jan-Feb, aligns with January to February.[7][8]",
+      "source_url": "https://www.glaciernordicclub.org/glacier-glide-race/"
+    }
+  },
+  "citations": [
+    "https://blog.glaciermt.com/glacier-country-road-and-trail-races-that-cant-be-beat/",
+    "https://www.trailforks.com/region/big-mountain-nordic-34126/",
+    "https://main.glaciermt.io/cross-country-skiing",
+    "https://www.glaciernordicclub.org/grooming-reports/big-mountain/",
+    "https://www.glaciernordicclub.org/events-3/big-mountain-trail-run/",
+    "https://glaciercyclery.com/nordic/",
+    "https://www.glaciernordicclub.org/glacier-glide-race/",
+    "https://www.glaciernordicclub.org/events-3/tuesday-night-relay-races-tnrr/",
+    "https://www.glaciernordicclub.org/wp-content/uploads/2020/12/All-BMNT-Map-reduced-CLOSURE20.21.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:13:53Z"
+}

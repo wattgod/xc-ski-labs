@@ -1,0 +1,25 @@
+{
+  "slug": "myoko-nordic-festival",
+  "name": "Myoko Nordic Festival",
+  "country": "Japan",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No mentions of 'Myoko Nordic Festival' or any cross-country ski race by that name in the search results. Results cover general Myoko events, festivals, ski resorts, and snow-related activities but lack any specific evidence of this event, such as official sites, results, news, or listings in Worldloppet/FIS. Only generic Myoko tourism and ski info found.",
+    "sources": []
+  },
+  "citations": [
+    "https://myoko-nagano.com/events/",
+    "https://www.msiff.com/en/",
+    "https://myoko.jp",
+    "https://myokoskiresort.com",
+    "https://myokosnowsports.com/contact-us/",
+    "https://www.lifestinymiracles.com/2025/11/discovering-myoko-japans-underrated-ski-destination-for-singapore-families/",
+    "https://livejapan.com/en/in-tohoku/in-pref-niigata/in-joetsu_uonuma_yuzawa/article-a3000141/",
+    "https://myoko.jp/myoko-kogen-booking-appointment/"
+  ],
+  "checked_at": "2026-03-12T15:57:18Z"
+}

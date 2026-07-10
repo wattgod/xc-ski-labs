@@ -1,0 +1,30 @@
+{
+  "slug": "kandersteger-volkslauf",
+  "name": "Kandersteger Volkslauf",
+  "country": "Switzerland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.kandersteger.ch/kandersteger-volkslauf",
+    "results_url": "https://www.datasport.ch",
+    "evidence_summary": "The Kandersteger Volkslauf is detailed on its official event website with full 2026 program, registration via Datasport (including results access), and confirmation as part of the Swiss-Loppet series. Swiss-Ski lists it officially as a mass-start Volkslauf event on 31.01.-01.02.2026 organized by Ski-Club Kandersteg. Switzerland Tourism and the main event site promote it as a 54th edition traditional cross-country ski race expecting up to 500 participants.",
+    "sources": [
+      "https://www.kandersteger.ch/kandersteger-volkslauf",
+      "https://www.kandersteger.ch",
+      "https://www.swiss-ski.ch/langlauf/termine/detail/2026-kandersteg-cross-country-95e676ce-139f-4e34-a113-625e0d11d000",
+      "https://www.myswitzerland.com/en-gb/experiences/events/kandersteger-nordic-days/",
+      "https://www.datasport.ch"
+    ]
+  },
+  "citations": [
+    "https://www.kandersteger.ch/kandersteger-volkslauf",
+    "https://www.kandersteger.ch",
+    "https://www.sckandersteg.ch/kanderstegernordicfestival",
+    "https://www.kandersteger.ch/kandersteger-nordic-day",
+    "https://www.swiss-ski.ch/langlauf/termine/detail/2026-kandersteg-cross-country-95e676ce-139f-4e34-a113-625e0d11d000",
+    "https://www.myswitzerland.com/en-gb/experiences/events/kandersteger-nordic-days/",
+    "https://www.kandersteger.ch/craft-kidscup"
+  ],
+  "checked_at": "2026-03-12T15:51:05Z"
+}

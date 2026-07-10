@@ -1,0 +1,84 @@
+{
+  "slug": "merino-muster",
+  "name": "Merino Muster",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 300,
+    "country": "New Zealand",
+    "region": "South Island",
+    "discipline": "skate",
+    "field_size": 100,
+    "founded": 1995,
+    "website": "https://www.snowfarmnz.com",
+    "date": "Late August or early September"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42km as the main race distance",
+      "source_url": "https://snowfarm.nz/merino-muster/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 361,
+      "note": "Sources specify total elevation gain of 361m for 42km course",
+      "source_url": "https://en.wikipedia.org/wiki/Merino_Muster"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as in New Zealand",
+      "source_url": "https://snowfarm.nz/merino-muster/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held at Snow Farm in Wanaka on South Island (Pisa Range, Cardrona Valley)",
+      "source_url": "https://snowfarm.nz/merino-muster/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Sources state can be raced as either classic or skate",
+      "source_url": "https://snowfarm.nz/merino-muster/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 112,
+      "note": "Highest number of participants in 42km race was 112 in 2015 (within tolerance but noting peak; typical unclear)",
+      "source_url": "https://en.wikipedia.org/wiki/Merino_Muster"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition in 1995, confirmed across sources",
+      "source_url": "https://www.skisignup.com/Race/NZ/Wanaka/MerinoMuster2"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://snowfarm.nz/merino-muster/",
+      "note": "Official event page on Snow Farm NZ site; merinomuster.com also exists but Snow Farm is primary host",
+      "source_url": "https://snowfarm.nz/merino-muster/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Examples: August 31 2024, August 30 2025 implied, late August/early September consistent with NZ winter end",
+      "source_url": "https://snowfarm.nz/merino-muster/"
+    }
+  },
+  "citations": [
+    "https://snowfarm.nz/merino-muster/",
+    "https://www.skisignup.com/Race/NZ/Wanaka/MerinoMuster2",
+    "https://en.wikipedia.org/wiki/Merino_Muster",
+    "https://www.worldloppet.com/wl-race/merino-muster/",
+    "https://skiclassics.com/events/challengers/merino-muster/",
+    "https://www.wanaka-xc.com/package/merino-muster-package",
+    "https://www.merinomuster.com/about-4",
+    "https://wanakaxc.webflow.io",
+    "https://www.merinomuster.com"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:45:50Z"
+}

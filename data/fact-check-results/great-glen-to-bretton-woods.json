@@ -1,0 +1,82 @@
+{
+  "slug": "great-glen-to-bretton-woods",
+  "name": "Great Glen to Bretton Woods",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 800,
+    "country": "United States",
+    "region": "New Hampshire",
+    "discipline": "both",
+    "field_size": 150,
+    "founded": 2005,
+    "website": "https://www.greatglennordic.com",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50km distance for the full event",
+      "source_url": "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/[1]https://www.conwaydailysun.com/sports/great-glen-to-bretton-woods-race-is-march-9/article_1c215eea-57a1-5a01-8824-4228f9ecdc6c.html[2]"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found confirming total elevation gain; one mentions Jefferson Notch at 3000 feet (~914m) as mightiest climb but no total",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in NH, explicitly US",
+      "source_url": "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/[1]"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "New Hampshire confirmed",
+      "source_url": "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/[1]https://www.brettonwoods.com/events/chasing-gold/[3]"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as classical cross-country ski event",
+      "source_url": "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/[1]"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention registration limited to 500[1] and field of 500 racers[5]; typical number not specified and 150 outside ±20% tolerance of 500 without confirmation of 'typical'",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2002,
+      "note": "Second annual in March 2003 indicates first edition 2002",
+      "source_url": "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/[1]"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Old sources mention www.ggtobw.com[1] and skireg.com event page[4]; greatglennordic.com not confirmed for this specific race",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Events held March 9 2003[1][2], March 4 2007[4]; early March matches",
+      "source_url": "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/[1]https://www.conwaydailysun.com/sports/great-glen-to-bretton-woods-race-is-march-9/article_1c215eea-57a1-5a01-8824-4228f9ecdc6c.html[2]"
+    }
+  },
+  "citations": [
+    "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/",
+    "https://www.conwaydailysun.com/sports/great-glen-to-bretton-woods-race-is-march-9/article_1c215eea-57a1-5a01-8824-4228f9ecdc6c.html",
+    "https://www.brettonwoods.com/events/chasing-gold/",
+    "https://www.skireg.com/2073",
+    "https://fasterskier.com/2003/03/stewart-tereshchenko-win-great-glen-to-bretton-woods-nordic-adventure/",
+    "https://www.vftt.org/threads/article-on-bretton-woods-ski-area-in-ny-times.39538/",
+    "https://nensa.net/events/category/recreational/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:39:34Z"
+}

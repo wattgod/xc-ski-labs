@@ -1,0 +1,30 @@
+{
+  "slug": "muskoka-loppet",
+  "name": "Muskoka Loppet",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.arrowheadnordic.ca/events/muskoka-loppet",
+    "results_url": null,
+    "evidence_summary": "The Muskoka Loppet is an annual classic cross-country ski race organized by Arrowhead Nordic Ski Club at Arrowhead Provincial Park in Huntsville, Ontario, Canada, with a 2026 event scheduled for January 25 including detailed Notice of Race, registration via zone4.ca, and categories from 3km to 24km. It is listed on Cross Country Ski Ontario and Nordiq Canada calendars, and past editions like a successful return after hiatus with over 240 participants are documented in news. No race results from timing services were found in the provided sources, but official announcements and organizational listings confirm its existence.",
+    "sources": [
+      "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf",
+      "https://xcskiontario.ca/event/muskoka-loppet/",
+      "https://www.arrowheadnordic.ca/events/muskoka-loppet",
+      "https://southmuskoka.doppleronline.ca/muskoka-loppet-makes-a-successful-return-after-a-two-year-hiatus/",
+      "https://cccski.com/Events/Events-Info/Loppets.html",
+      "https://nordiqcanada.ca/wp-content/uploads/Masters-Ranking-List-Calendar.pdf"
+    ]
+  },
+  "citations": [
+    "https://static1.squarespace.com/static/6375497e0c4a8c50abdcfff2/t/694ac8f2365b820b77f889f4/1766508786420/Muskoka+Loppet+Notice+of+Race.pdf",
+    "https://xcskiontario.ca/event/muskoka-loppet/",
+    "https://www.arrowheadnordic.ca/events/muskoka-loppet",
+    "https://southmuskoka.doppleronline.ca/muskoka-loppet-makes-a-successful-return-after-a-two-year-hiatus/",
+    "https://cccski.com/Events/Events-Info/Loppets.html",
+    "https://nordiqcanada.ca/wp-content/uploads/Masters-Ranking-List-Calendar.pdf"
+  ],
+  "checked_at": "2026-03-12T15:57:13Z"
+}

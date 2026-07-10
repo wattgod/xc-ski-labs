@@ -1,0 +1,26 @@
+{
+  "slug": "vantaa-hiihto",
+  "name": "Vantaa-hiihto",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Vantaa-hiihto'. Vantaan Hiihtoseura (VHS) organizes events like 'Vantaan Hiihdot', 'Vantaan SM-Hiihdot', and 'Vantaa Hiihto' in Vantaa, but no specific 'Vantaa-hiihto' race with results, official site, or listings in Worldloppet, etc. Prominent results are for Finlandia-hiihto in Lahti, a major event with official site and Worldloppet status.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.finlandiahiihto.fi",
+    "https://www.vhs.fi",
+    "https://www.finlandiahiihto.fi/for-skier",
+    "https://www.finlandiahiihto.fi/program",
+    "https://magenta-chameleon-rp3a.squarespace.com",
+    "https://www.finlandiahiihto.fi/registration",
+    "https://tapahtumat.vantaa.fi/en-FI/page/6777ad8716e6d1238326c469",
+    "https://www.vhs.fi/en/"
+  ],
+  "checked_at": "2026-03-12T16:10:44Z"
+}

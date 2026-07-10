@@ -1,0 +1,32 @@
+{
+  "slug": "tervahiihto",
+  "name": "Tervahiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://tervahiihto.fi/en/",
+    "results_url": "https://tervahiihto.fi/en/results/",
+    "evidence_summary": "Oulun Tervahiihto, also known as Tervahiihto, is a real annual cross-country ski marathon in Oulu, Finland, held since 1889, with an active official website detailing the 2026 event on February 28, including registration, schedule, categories, and results archive. Wikipedia confirms its history and FIS affiliation. Registration is open via raceresult.com, providing strong organizational evidence.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Oulun_Tervahiihto",
+      "https://tervahiihto.fi/en/",
+      "https://tervahiihto.fi/en/registration/",
+      "https://tervahiihto.fi/en/info/",
+      "https://tervahiihto.fi/en/results/"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Oulun_Tervahiihto",
+    "https://tervahiihto.fi/en/",
+    "https://tervahiihto.fi/en/info/",
+    "https://tervahiihto.fi/en/registration/",
+    "https://tervahiihto.fi/en/info/schedule/",
+    "http://tervahiihto.fi/en/info/rules/",
+    "https://www.finlandiahiihto.fi",
+    "https://tervahiihto.fi",
+    "https://tervahiihto.fi/en/info/transportation/"
+  ],
+  "checked_at": "2026-03-12T16:08:07Z"
+}

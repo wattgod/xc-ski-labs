@@ -1,0 +1,33 @@
+{
+  "slug": "3-zinnen-ski-marathon",
+  "name": "3 Zinnen Ski-Marathon",
+  "country": "Italy",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.ski-marathon.com/en/",
+    "results_url": null,
+    "evidence_summary": "The 3 Zinnen Ski-Marathon has an active official website detailing the 50th edition in January 2026, including rules, registration via Datasport, and FIS points. It is listed on Worldloppet and Ski Classics Pro Tour with event descriptions. Multiple South Tyrol tourism and event sites confirm it as a traditional race renamed from Pustertaler Ski-Marathon, with no results in snippets but diplomas downloadable from datasport.",
+    "sources": [
+      "https://www.ski-marathon.com/en/",
+      "https://skiclassics.com/events/pro-tour/3-zinnen-ski-marathon/",
+      "https://www.worldloppet.com/pustertaler-ski-marathon-ita/",
+      "https://www.endu.net/en/events/pustertaler-ski-marathon-3zinnen-dolomites/info",
+      "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/3-zinnen-ski-marathon/",
+      "https://www.ski-marathon.com/en/the-race/rules/"
+    ]
+  },
+  "citations": [
+    "https://www.endu.net/en/events/pustertaler-ski-marathon-3zinnen-dolomites/info",
+    "https://skiclassics.com/events/pro-tour/3-zinnen-ski-marathon/",
+    "https://www.worldloppet.com/pustertaler-ski-marathon-ita/",
+    "https://www.ski-marathon.com/en/",
+    "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/3-zinnen-ski-marathon/",
+    "https://www.ski-marathon.com/en/the-race/rules/",
+    "https://www.dreizinnenlauf.com/en/",
+    "https://www.ski-marathon.com/en/the-race/info/",
+    "https://www.ski-marathon.com/en/the-race/history/"
+  ],
+  "checked_at": "2026-03-12T15:37:30Z"
+}

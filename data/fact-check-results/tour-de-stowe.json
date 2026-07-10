@@ -1,0 +1,83 @@
+{
+  "slug": "tour-de-stowe",
+  "name": "Tour de Stowe",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "Vermont",
+    "discipline": "both",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.stowearea.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 22,
+      "note": "Sources describe 22km main course with 14km cutoff and 5km for kids[2][6]",
+      "source_url": "https://nensa.net/event/stowe-nordic-tour-de-stowe/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in Stowe, Vermont[1][2][6]",
+      "source_url": "https://nensa.net/event/stowe-nordic-tour-de-stowe/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Vermont, USA[1][2][6]",
+      "source_url": "https://nensa.net/event/stowe-nordic-tour-de-stowe/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "Explicitly classic technique only, non-competitive ski tour[1][2][6]",
+      "source_url": "https://nensa.net/event/stowe-nordic-tour-de-stowe/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://stowenordic.org/ or https://nensa.net/event/stowe-nordic-tour-de-stowe/",
+      "note": "Stowe Nordic site hosts event details; stowearea.com not specific to event[4][6]",
+      "source_url": "https://stowenordic.org/events/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February, consistent with late January pattern (e.g., Jan 20 nearby event, Feb 2/8 dates)[1][2][4][6]",
+      "source_url": "https://nensa.net/event/stowe-nordic-tour-de-stowe/"
+    }
+  },
+  "citations": [
+    "https://www.crosscountryskier.com/cross-country-skier-tour-de-trail-is-on/",
+    "https://nensa.net/event/stowe-nordic-tour-de-stowe/",
+    "https://gostowe.com/events/signature-events/stowe-derby",
+    "https://stowenordic.org/2025/09/06/january-25-2025/",
+    "https://www.stowe.com/the-mountain/about-the-mountain/cross-country-center.aspx",
+    "https://stowenordic.org/events/",
+    "https://www.skimaven.com/post/cross-country-ski-tour-at-stowe-mountain-resort-nordic-center",
+    "https://www.stowe.com/explore-the-resort/activities-and-events/event-details.aspx?id=%7B5599e0e3-0147-45d2-8f3b-5c47d36025f3%7D"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:20:24Z"
+}

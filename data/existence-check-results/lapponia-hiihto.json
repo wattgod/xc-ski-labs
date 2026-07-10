@@ -1,0 +1,32 @@
+{
+  "slug": "lapponia-hiihto",
+  "name": "Lapponia Hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.lapponiahiihto.fi/en/",
+    "results_url": "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html",
+    "evidence_summary": "Lapponia Hiihto is a confirmed real event organized annually in April in Finland. Multiple independent sources including an official website with registration and race information, Worldloppet listing, Ski Classics Challengers recognition, and news coverage from ski sports media (Ski Classics) all verify the event's existence and legitimacy.",
+    "sources": [
+      "https://www.worldloppet.com/lapponia-hiihto-fin/",
+      "https://www.lapponiahiihto.fi/en/lapponia-basic-information.html",
+      "https://www.lapponiahiihto.fi/en/routes-and-services/full-races.html",
+      "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/",
+      "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html",
+      "https://www.lapponiahiihto.fi/en/routes-and-services.html"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/lapponia-hiihto-fin/",
+    "https://www.lapponiahiihto.fi/en/lapponia-basic-information.html",
+    "https://www.lapponiahiihto.fi/en/routes-and-services/full-races.html",
+    "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/",
+    "https://www.finlandiahiihto.fi/relay-and-team-race",
+    "https://www.lapponiahiihto.fi/en/lapponia-ski-event.html",
+    "https://enjoywinter.com/read-skipost/finland-the-finlandiahiihto-in-focus/",
+    "https://www.lapponiahiihto.fi/en/routes-and-services.html"
+  ],
+  "checked_at": "2026-03-12T15:53:19Z"
+}

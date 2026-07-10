@@ -1,0 +1,28 @@
+{
+  "slug": "lithuanian-ski-marathon",
+  "name": "Lithuanian Ski Marathon",
+  "country": "Lithuania",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a cross-country ski race called 'Lithuanian Ski Marathon' exists in the search results. The search results mention the Jyväskylä Ski Marathon in Finland (March 7, 2026) and reference two Lithuanian marathons (Kaunas Marathon and Danske Bank Vilnius Marathon), but these are running marathons, not cross-country skiing events. Lithuanian skiing competitions documented in the results are alpine skiing events (slalom cups) held at Snow Arena in Druskininkai and a cross-country championship in Ignalina, but no 'Lithuanian Ski Marathon' cross-country event is mentioned.",
+    "sources": [
+      "https://jyvaskylaskimarathon.fi/en/home-en/",
+      "https://worldsmarathons.com/c/marathon/lithuania",
+      "https://lnsa.lt/wp-content/uploads/2026/01/2026.01.1011-Lithuanian-CC-Championship.-Invitation.pdf"
+    ]
+  },
+  "citations": [
+    "https://medias3.fis-ski.com/pdf/2026/AL/6250/2026AL6250PROG.pdf",
+    "https://lnsa.lt/wp-content/uploads/2025/11/2025-26-Invitation-2nd-stage-LT-CUP-AC-and-SNB-1.pdf",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=54491&seasoncode=2024",
+    "https://en.wikipedia.org/wiki/National_Skiing_Association_of_Lithuania",
+    "https://lnsa.lt/wp-content/uploads/2026/01/2026.01.1011-Lithuanian-CC-Championship.-Invitation.pdf",
+    "https://jyvaskylaskimarathon.fi/en/home-en/",
+    "https://worldsmarathons.com/c/marathon/lithuania"
+  ],
+  "checked_at": "2026-03-12T15:53:58Z"
+}

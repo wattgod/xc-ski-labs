@@ -1,0 +1,22 @@
+{
+  "slug": "friday-night-lights-series",
+  "name": "Friday Night Lights Series",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a cross-country ski race named 'Friday Night Lights Series' in the United States. Search results show unrelated events like freeride rail jams, ski-a-thons, and uphill series, but none match the query for an organized cross-country ski race with results, official site, or listings in major calendars. No race results, news articles, social media, or registration pages specific to this event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.spacracing.com/events/friday-night-lights/",
+    "https://p2p.onecause.com/nacfridaynightlights",
+    "https://www.cxcskiing.org",
+    "https://whitemountainski.co/pages/friday-night-vertical-series-presented-by-terrex",
+    "https://waiver.smartwaiver.com/w/61e01a87c5996/web/"
+  ],
+  "checked_at": "2026-03-12T15:45:46Z"
+}

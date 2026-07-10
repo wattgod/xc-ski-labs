@@ -1,0 +1,28 @@
+{
+  "slug": "pyeongchang-loppet",
+  "name": "PyeongChang Loppet",
+  "country": "South Korea",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": "https://my.raceresult.com/384446/contact",
+    "evidence_summary": "The PyeongChang Loppet is listed as an official Ski Classics Challengers event on February 21, 2026, at Alpensia Cross-Country Center, with a dedicated event page describing the 10km freestyle mass-start race and festival. A race results platform (race result) has a page for '2026 Pyeongchang Loppet Ski Marathon_SKI CLASSIC' including sections for registration, participants, live timing, and results. No official website or past results found, but these two independent sources from established skiing organizations confirm it as a real upcoming event.",
+    "sources": [
+      "https://skiclassics.com/events/challengers/pyeongchang-loppet/",
+      "https://my.raceresult.com/384446/contact"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/pyeongchang-loppet/",
+    "https://my.raceresult.com/384446/contact",
+    "https://loppet.org/event/mayors-challenge/",
+    "https://loppetcup.com",
+    "https://loppet.org/event/next-generation-loppet/",
+    "https://loppetcup.com/news/",
+    "https://loppet.org",
+    "https://loppet.org/Experiences/loppet-ski-adults/"
+  ],
+  "checked_at": "2026-03-12T16:01:01Z"
+}

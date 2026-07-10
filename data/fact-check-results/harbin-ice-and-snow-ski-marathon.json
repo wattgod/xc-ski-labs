@@ -1,0 +1,81 @@
+{
+  "slug": "harbin-ice-and-snow-ski-marathon",
+  "name": "Harbin Ice and Snow Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 450,
+    "country": "China",
+    "region": "Heilongjiang Province",
+    "discipline": "classic",
+    "field_size": 1500,
+    "founded": 2004,
+    "website": null,
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources mention a 'Harbin Ice and Snow Ski Marathon' or any cross-country ski race with 50km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources reference this specific ski marathon or its elevation gain of 450m.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Harbin events are in China, no sources confirm this exact ski race exists.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Harbin is in Heilongjiang, but no mention of the ski marathon.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention alpine skiing but no cross-country (classic) ski marathon.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources indicate a founding year of 2004 for this event.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Harbin Ice and Snow Ski Marathon'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ice festival is in January, but no specific date for this ski race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.chinadiscovery.com/heilongjiang/harbin/harbin-ice-snow-festival.html",
+    "https://www.harbinice.com/fact-v21-harbin-international-snow-sculpture-competition.html",
+    "https://www.harbinice.com/attraction-v6-harbin-ice-snow-sculpture-festival.html",
+    "https://www.thechinajourney.com/harbin-ice-snow-festival-guide/",
+    "https://www.harbinice.com",
+    "https://www.harbin.gov.cn/haerbin/c104447/s_index.shtml"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:40:38Z"
+}

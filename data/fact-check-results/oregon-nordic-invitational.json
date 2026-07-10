@@ -1,0 +1,84 @@
+{
+  "slug": "oregon-nordic-invitational",
+  "name": "Oregon Nordic Invitational",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Oregon",
+    "discipline": "skate",
+    "field_size": 200,
+    "founded": 2005,
+    "website": null,
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 5,
+      "note": "Search results clearly indicate the XC Oregon High School XC Ski Invitational features a 5km individual course, not 25km",
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found in available search results for this event",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event is held at Mt Bachelor Nordic Center in Oregon, United States",
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event is held in Oregon at Mt Bachelor Nordic Center",
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle",
+      "note": "Search results specify the event uses Freestyle Technique, not skate",
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational"
+    },
+    "typical_participants": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2025 event had 195 racers, which is within reasonable tolerance of 200 participants",
+      "source_url": "https://www.webscorer.com/race?raceid=378521"
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide founding year or first edition date for this event",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official website is https://xcoregon.org/xc-oregon-hs-invitational",
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event is held in January (January 25, 2025 and January 24, 2026 documented)",
+      "source_url": "https://xcoregon.org/xc-oregon-hs-invitational"
+    }
+  },
+  "citations": [
+    "https://xcoregon.org/xc-oregon-hs-invitational",
+    "https://mbsef.org/mt-bachelor-cup-nordic-races/",
+    "https://pnwdivision.org/nordic/pnw-cup/",
+    "https://bendbulletin.com/2026/02/19/nordic-state-championships-set-for-friday-and-saturday-at-bachelor/",
+    "https://www.webscorer.com/race?raceid=378521",
+    "https://xcoregon.org",
+    "https://oisran.org/race-schedules/",
+    "https://www.mtbachelor.com/nordic/events/oisran-state-championships/",
+    "https://oisran.org"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:48:16Z"
+}

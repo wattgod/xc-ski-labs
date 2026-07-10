@@ -1,0 +1,30 @@
+{
+  "slug": "summit-2-senja",
+  "name": "Grand Finale Summit 2 Senja",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+    "results_url": null,
+    "evidence_summary": "The race is listed as the Grand Finale of Ski Classics Season XVII on March 29, 2026, with detailed event info on the official Ski Classics site, past editions in 2023 and 2025 mentioned, and confirmation from Senja municipality including road closures and activities. Registration pages and news articles from ProXCskiing and Etusuora further support its existence as a real, organized pro tour event open to qualified recreational skiers.",
+    "sources": [
+      "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+      "https://skiclassics.com/summit-2-senja-the-brand-new-ski-classics-finale/",
+      "https://www.senja.kommune.no/aktuelt/summit2senja-praktisk-informasjon.20913.aspx",
+      "https://www.proxcskiing.com/long-distance/2633-skiers-have-qualified-so-far-for-the-ski-classics-grand-finale-summit-2-senja-have-you/",
+      "https://registration.wsportsmedia.com/?action=register",
+      "https://etusuora.com/en/cross-country-skiing/ski-classics/summit-2-senja"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+    "https://skiclassics.com/summit-2-senja-the-brand-new-ski-classics-finale/",
+    "https://www.senja.kommune.no/aktuelt/summit2senja-praktisk-informasjon.20913.aspx",
+    "https://www.proxcskiing.com/long-distance/2633-skiers-have-qualified-so-far-for-the-ski-classics-grand-finale-summit-2-senja-have-you/",
+    "https://registration.wsportsmedia.com/?action=register",
+    "https://etusuora.com/en/cross-country-skiing/ski-classics/summit-2-senja"
+  ],
+  "checked_at": "2026-03-12T16:06:30Z"
+}

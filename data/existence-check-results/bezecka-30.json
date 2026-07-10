@@ -1,0 +1,25 @@
+{
+  "slug": "bezecka-30",
+  "name": "Bežecká 30",
+  "country": "Slovakia",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Bežecká 30' in Slovakia across official websites, race results, news, Worldloppet/Euroloppet listings, social media, YouTube videos, or registration pages. Search results mention Slovak cross-country trails and events like FIS races at Štrbské Pleso but nothing matching this specific name or event. Similar-named events like Krušnohorska 30 exist in Czech Republic, suggesting possible confusion.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/krusnohorska-30/",
+    "https://www.youtube.com/watch?v=6WAM0lQAzXg",
+    "https://slovakia.travel/en/cross-country-skiing",
+    "https://k30.online",
+    "https://www.tripadvisor.com/Attractions-g274922-Activities-c61-t78-Slovakia.html",
+    "https://www.snow-online.com/cross-country/slovakia",
+    "https://www.iscarexpohar.cz/vysledky/team/the-minions-slovakia",
+    "https://www.behej.com/races/index/search/page/303?date_from=&date_to=&name=&place=&asmSelect0=undefined&asmSelect1=undefined&types%5B0%5D=1&asmSelect2=undefined&asmSelect3=undefined&asmSelect4=undefined&id_geo_countries%5B0%5D=1&asmSelect5=undefined&asmSelect6=undefined&attachments=0&submit=Hledej+z%C3%A1vody"
+  ],
+  "checked_at": "2026-03-12T15:39:42Z"
+}

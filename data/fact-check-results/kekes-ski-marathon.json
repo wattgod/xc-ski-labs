@@ -1,0 +1,82 @@
+{
+  "slug": "kekes-ski-marathon",
+  "name": "Kékestető Ski Marathon",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 200,
+    "country": "Hungary",
+    "region": "Heves",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": 2002,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a 'Kékestető Ski Marathon' or cross-country ski race with 20km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources confirm total elevation gain of 200m for any cross-country ski marathon at Kékestető.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Kékestető is in Hungary per sources, but no specific ski marathon referenced.[1][3]",
+      "source_url": "https://kekesteto.hu"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Kékestető linked to Heves county (HE-DO mentioned), but no ski marathon confirmation.[1]",
+      "source_url": "https://kekesteto.hu/kekesteto-terepfuto-verseny/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe a classic cross-country ski race at Kékestető; mentions of sípálya (downhill) only.[3][4]",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers for any Kékestető ski marathon found; trail run mentions 100 limit but not ski.[1]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources indicate a ski marathon founded in 2002.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Kékestető Ski Marathon'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm late January date for ski marathon; ski slopes weather-dependent, currently closed.[4]",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://kekesteto.hu/kekesteto-terepfuto-verseny/",
+    "https://www.kekescsucsfutas.hu",
+    "https://kekesteto.hu",
+    "https://kekesteto.hu/sieles/",
+    "https://www.skihungary.hu/verseny/versenyeredmenyek",
+    "https://skihungary.hu",
+    "https://visithungary.com/documents/f/fe/feb/febd180d759b647f6a3d7f907ac5ae4a4da719f.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:15:46Z"
+}

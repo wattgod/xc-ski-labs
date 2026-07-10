@@ -1,0 +1,84 @@
+{
+  "slug": "sapporo-bankei-night-ski-race",
+  "name": "Sapporo Bankei Night Ski Race",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 100,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "skate",
+    "field_size": 100,
+    "founded": 2015,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a cross-country ski race called 'Sapporo Bankei Night Ski Race'. Search results show Sapporo Bankei is primarily a downhill/snowboard ski area, not a cross-country ski venue. The Sapporo International Ski Marathon (50km/25km/10km) exists but is a separate event at a different venue.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify elevation gain for a race that does not appear to exist in web sources. Sapporo Bankei ski area has 482m peak and 200m base elevation, but this is not a cross-country race venue.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "If such a race exists, it would logically be in Japan based on 'Sapporo' location",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sapporo is confirmed to be in Hokkaido, Japan",
+      "source_url": "https://www.skiing-hokkaido.com/bankei.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources describe a 'Sapporo Bankei Night Ski Race' or its discipline. Sapporo Bankei is a downhill/snowboard area with night skiing until 9-10 PM, not a cross-country venue.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify participant numbers for a race not found in web sources.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing when 'Sapporo Bankei Night Ski Race' was founded. The race does not appear to exist as a documented cross-country ski event.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Sapporo Bankei Night Ski Race'. Sapporo Bankei's official site (bankei.co.jp) is for the downhill ski area, not a cross-country race.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify race date for an event not found in web sources. Note: Sapporo International Ski Marathon occurs in March, not late January.",
+      "source_url": "https://www.sapporo-sport.jp/ski/english/"
+    }
+  },
+  "citations": [
+    "http://www.skiing-hokkaido.com/bankei.html",
+    "https://snowsapporo.com/en/skiarea/bankei/",
+    "https://www.wamazing.com/snow/resorts/bankei",
+    "https://www.bankei.co.jp/home-english/",
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://visit.sapporo.travel/discover/snow/sapporo-bankei-ski-area/",
+    "https://www.bankei.co.jp/home-english/ski-en/",
+    "https://www.iwafu.com/en/events",
+    "https://www.kkday.com/en-hk/product/155607?ud1=2200313&ud2=e3dd760e051842599261c4eb72de3337&sskey=e3dd760e051842599261c4eb72de3337"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:18:53Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "grenaderlopet",
+  "name": "Grenaderløpet",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.grenaderen.com",
+    "results_url": "https://live.eqtiming.com/74613",
+    "evidence_summary": "Grenaderløpet is a confirmed real cross-country ski race in Norway with multiple independent sources. An official website (grenaderen.com) exists with race information and history. Race results are available through EQ Timing, a Nordic timing service, with documented results from 2023, 2024, and 2025. The 2026 race is scheduled for February 7, 2026.",
+    "sources": [
+      "https://www.grenaderen.com",
+      "https://live.eqtiming.com/74613",
+      "https://live.eqtiming.com/69012",
+      "https://live.eqtiming.com/64356"
+    ]
+  },
+  "citations": [
+    "https://live.eqtiming.com/74613",
+    "https://www.grenaderen.com",
+    "https://live.eqtiming.com/64356",
+    "https://live.eqtiming.com/69012",
+    "https://birken.no"
+  ],
+  "checked_at": "2026-03-12T15:47:40Z"
+}

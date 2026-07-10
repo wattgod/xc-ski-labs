@@ -1,0 +1,26 @@
+{
+  "slug": "changbaishan-ski-marathon",
+  "name": "Changbaishan Ski Marathon",
+  "country": "China",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No direct evidence found for a 'Changbaishan Ski Marathon' cross-country ski race. Search results mention general skiing and outdoor activities at Changbai Mountain, Vasaloppet China in a different location (Jingyuetan/Changchun), and a forest marathon (running event), but no official site, results, news, or listings for the specific ski marathon exist.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.chinadaily.com.cn/a/202406/17/WS666fe1c9a31095c51c5094ce.html",
+    "https://www.vasaloppetchina.com",
+    "https://www.wandaresorts.com/en.html",
+    "https://www.wandaresorts.com/en/snow/",
+    "https://www.marathonchangsha.com/Detail/92",
+    "https://www.clubmed.com.sg/r/changbaishan/w",
+    "https://www.wandaresorts.com/en/explore/party",
+    "https://www.ahotu.com/event/changbaishan-forest-marathon",
+    "https://en.chinaculture.org/a/202406/17/WS666fe1cda31095c51c5094d2.html"
+  ],
+  "checked_at": "2026-03-12T15:42:30Z"
+}

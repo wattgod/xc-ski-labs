@@ -1,0 +1,83 @@
+{
+  "slug": "kananaskis-ski-marathon",
+  "name": "Kananaskis Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 450,
+    "country": "Canada",
+    "region": "Alberta",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 2005,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 45,
+      "note": "First event in 1978 had one 45 km distance; race has grown to include 45km, 24km, 15km, and youth races[1]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in Peter Lougheed Provincial Park, Alberta[1]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Alberta, Canada (Peter Lougheed Provincial Park in Kananaskis Country)[1]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both; described as Nordic ski event by Foothills Nordic Ski Club[1][3]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 500,
+      "note": "Grown to 500 participants annually (maximum allowed by Alberta Parks); 300 is outside ±20% tolerance (400-600)[1]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1978,
+      "note": "First organized in March 1978 by Don Gardner and Ruedi Setz with 67 participants[1]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "Official event page on Foothills Nordic Ski Club site[1]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Last Saturday of February",
+      "note": "Each year on the last Saturday of February (e.g., February 28, 2026); not late January[1]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    }
+  },
+  "citations": [
+    "https://www.foothillsnordic.ca/cookie-race",
+    "https://kananaskis.com/things-to-do/winter-activities/cross-country-skiing",
+    "https://www.foothillsnordic.ca",
+    "https://www.albertaparks.ca/parks/kananaskis/canmore-nordic-centre-pp/events/events/rmcc-cx-race/",
+    "https://caraham.org/General-Forum/13320877",
+    "https://skinakiska.com/blog/your-journey-begins-here-an-introduction-to-the-sport-of-ski-racing/",
+    "https://www.skinasa.org/nasa-house-league",
+    "https://alpinecanada.org/competitions/nc-nakiska-260109"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:42:40Z"
+}

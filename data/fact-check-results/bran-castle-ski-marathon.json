@@ -1,0 +1,82 @@
+{
+  "slug": "bran-castle-ski-marathon",
+  "name": "Bran Castle Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 450,
+    "country": "Romania",
+    "region": "Brașov",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": 2012,
+    "website": "https://www.skimarathonbran.ro",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Bran Castle Ski Marathon' cross-country ski race. Search results show trail running events (Transylvania 100) and road running events (Brasov Running Festival) in the region, but no cross-country ski marathon with this name.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirmation that the race exists. No web sources found for 'Bran Castle Ski Marathon'.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirmation that the race exists.",
+      "source_url": null
+    },
+    "region_brasov": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirmation that the race exists.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirmation that the race exists.",
+      "source_url": null
+    },
+    "participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirmation that the race exists.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirmation that the race exists.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming the existence of https://www.skimarathonbran.ro or a 'Bran Castle Ski Marathon' event.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirmation that the race exists.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.ahotu.com/event/transylvania-100",
+    "https://aims-worldrunning.org/articles/2164-transylvania-s-iconic-new-race.html",
+    "https://www.budgetbucketlist.com/brasov-7-different-experiences.html",
+    "https://worldsmarathons.com/marathon/transylvania-100k",
+    "https://ultraracecalendar.com/events/2006/brasov-marathon/",
+    "https://transylvaniamountainchalet.ro/thingstodo/",
+    "https://www.brasovrun.ro/en"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:36:14Z"
+}

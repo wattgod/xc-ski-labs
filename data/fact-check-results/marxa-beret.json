@@ -1,0 +1,81 @@
+{
+  "slug": "marxa-beret",
+  "name": "Marxa Beret",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 700,
+    "country": "Spain",
+    "region": "Val d'Aran, Catalonia",
+    "discipline": "classic",
+    "field_size": "~900 starters",
+    "founded": 1981,
+    "website": "https://www.marxaberet.com",
+    "date": "First or second weekend in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 46th edition (2026) offers 42km, 21km, and 10km distances. The main race is 42km in classic technique.",
+      "source_url": "https://www.marxaberet.com/en/register/reglamento/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain information found in available web sources.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Pla de Beret, Spain, as confirmed by multiple sources.",
+      "source_url": "https://www.marxaberet.com/en/register/reglamento/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Val d'Aran (Valle de Arán), Catalonia, Spain.",
+      "source_url": "https://www.visitvaldaran.com/en/tag/marxa-beret-en/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Only classic technique is allowed for the 42km and 21km races. The 10km is freestyle.",
+      "source_url": "https://www.marxaberet.com/en/register/reglamento/"
+    },
+    "typical_participants": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 2026 edition had approximately 900 starters. Sources indicate the event typically attracts about 1000 participants, with entries limited to 1200 skiers.",
+      "source_url": "https://www.youtube.com/watch?v=ZR1644cUnmw"
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "The 46th edition is in 2026, which would suggest founding around 1981, but no web source explicitly confirms the founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official website confirmed as https://www.marxaberet.com",
+      "source_url": "https://www.marxaberet.com/en/register/reglamento/"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 46th edition (2026) is held on February 1, 2026, which falls in the first weekend of February. Historical data shows the event is typically held in early February.",
+      "source_url": "https://www.marxaberet.com/en/register/reglamento/"
+    }
+  },
+  "citations": [
+    "https://www.marxaberet.com/en/register/reglamento/",
+    "https://skiclassics.com/events/challengers/marxa-beret/",
+    "https://www.visitvaldaran.com/en/tag/marxa-beret-en/",
+    "https://www.youtube.com/watch?v=ZR1644cUnmw",
+    "https://www.marxaberet.com/en/",
+    "https://diaricatalunya.cat/en/aran/aran/registration-opens-for-the-46th-marxa-beret-nordic-ski-race-in-val-daran"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:52:52Z"
+}

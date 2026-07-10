@@ -1,0 +1,83 @@
+{
+  "slug": "erzgebirge-24h",
+  "name": "Erzgebirge 24-Hour Ski Race",
+  "facts": {
+    "distance_km": 100,
+    "elevation_m": 100,
+    "country": "Germany",
+    "region": "Saxony",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.erzgebirge-tourismus.de",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 6,
+      "note": "The race is run on a 6 km loop, not a fixed 100 km distance (24-hour format, max distances like 414 km achieved)",
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific total elevation gain found for the loop or race; one roller event mentions 74m per 2.55km loop but not for this ski race",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as in Germany (Erzgebirge)",
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Erzgebirge is in Saxony, Germany",
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Gelaufen wird im klassischen Stil (classic style)",
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 249,
+      "note": "In 2017, 249 participants (28 solo, 20 duo, 46 quad teams); database's 50 is outside ±20% tolerance",
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2007,
+      "note": "First held in 2007 in Zinnwald",
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": null,
+      "note": "No confirmation of https://www.erzgebirge-tourismus.de as official site; race referred to as Miriquidi, organized by local entities like WSC Erzgebirge but no matching official URL found",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February (e.g., 4-5 Feb 2017, 9-10 Feb 2019)",
+      "source_url": "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/"
+    }
+  },
+  "citations": [
+    "https://www.xc-ski.de/themen/skimarathonteam/blogs/miriquidi-24-stunden-skilanglauf-nonstop-im-erzgebirge/",
+    "https://www.freiepresse.de/sport/lokalsport/erzgebirge/deutschland-premiere-rollski-rennen-in-oberwiesenthal-dauert-24-stunden-artikel13476048",
+    "https://www.xc-ski.de/aktuelles/news/rollski/24-stunden-auf-skirollern-das-war-die-premiere-des-erztwenty4/",
+    "https://www.xc-ski.de/aktuelles/news/rollski/erztwenty4-2025-abgesagt-neuausrichtung-fuer-2026-geplant/",
+    "https://www.wsc-erzgebirge.de/fileadmin/user_upload/Flyer_2.pdf",
+    "https://skiverbandsachsen.de/skisport-in-sachsen/termine/termin/erztwenty4",
+    "https://www.tag24.de/sachsen/erzgebirge/130-kilometer-querfeldein-erzgebirge-wird-zum-ziel-fuer-ski-marathonlaeufer-3349543",
+    "https://www.youtube.com/watch?v=T84P8yxnOnU"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:12:59Z"
+}

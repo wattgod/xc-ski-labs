@@ -1,0 +1,85 @@
+{
+  "slug": "sirdal-ski-marathon",
+  "name": "Sirdal Ski Marathon",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 450,
+    "country": "Norway",
+    "region": "Agder",
+    "discipline": "classic",
+    "field_size": 350,
+    "founded": 1973,
+    "website": "https://www.sirdalskiloype.no",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 45,
+      "note": "Sources indicate 45km and 23km distances, not 40km (outside ±3km tolerance)",
+      "source_url": "https://www.worldloppet.com/sirdal-skimaraton-nor/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Norway",
+      "source_url": "https://www.worldloppet.com/sirdal-skimaraton-nor/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sirdal is in Vest-Agder, now part of Agder county since 2020 merger",
+      "source_url": "https://www.worldloppet.com/sirdal-skimaraton-nor/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Source mentions CT (classic technique) for distances, but not explicitly confirmed as only classic",
+      "source_url": "https://www.worldloppet.com/sirdal-skimaraton-nor/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants (350 ±20% tolerance not verifiable)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found confirming year founded as 1973",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.sirdal-skimaraton.no",
+      "note": "Official site listed as www.sirdal-skimaraton.no or www.sirdal-skimaraton.no",
+      "source_url": "https://www.worldloppet.com/sirdal-skimaraton-nor/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Example date March 7, 2020 aligns with late February/early March period",
+      "source_url": "https://www.worldloppet.com/sirdal-skimaraton-nor/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/sirdal-skimaraton-nor/",
+    "https://www.visitnorway.com/places-to-go/southern-norway/sirdal/",
+    "http://www.sirdal-skimaraton.no",
+    "https://sirdalfjellpark.no/en/ski-school/",
+    "https://www.visitnorway.com/things-to-do/outdoor-activities/skiing/cross-country-skiing/",
+    "https://sirdalfjellpark.no",
+    "https://sirdalfjellpark.no/en/prices/",
+    "https://sirdal-skisenter.no",
+    "https://www.fjordnorway.com/de/Veranstaltungen/sirdalslami-evplnyxr1ezwfmftu5z2g",
+    "https://sirdalfjellpark.no/en/explore/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:52:28Z"
+}

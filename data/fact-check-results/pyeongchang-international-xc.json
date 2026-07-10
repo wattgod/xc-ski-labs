@@ -1,0 +1,83 @@
+{
+  "slug": "pyeongchang-international-xc",
+  "name": "Pyeongchang International Cross-Country",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 450,
+    "country": "South Korea",
+    "region": "Gangwon Province",
+    "discipline": "both",
+    "field_size": "~500 starters",
+    "founded": 2019,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for 'Pyeongchang International Cross-Country' race; results describe Olympic venue (7.5km trails, various race distances like 30km mass start) but not this specific event.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention total elevation gain for this race; Olympic venue described as rolling hills with no extreme climbs, but no specific 450m figure.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of this specific race; Olympic events were in South Korea.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Olympic venue in Pyeongchang, Gangwon Province, South Korea, but no info on this race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for this race; Olympics had both classic and skate events.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No data on typical participants (~500); Olympics had varying numbers per event, Paralympics ~170.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a race founded in 2019; Olympics were 2018.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for this race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of late January for this race; Olympics spanned February 2018.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.crosscountryskier.com/the-2018-pyeongchang-olympic-nordic-course/",
+    "https://www.si.com/olympics/2017/11/27/2018-winter-olympics-rookies-guide-cross-country-skiing-pyeongchang",
+    "https://www.paralympic.org/news/pyeongchang-2018-biathlon-and-cross-country-venue-guides",
+    "https://en.wikipedia.org/wiki/Cross-country_skiing_at_the_2018_Winter_Olympics",
+    "https://en.wikipedia.org/wiki/Cross-country_skiing_at_the_2018_Winter_Olympics_%E2%80%93_Women's_10_kilometre_freestyle",
+    "https://www.korea.net/Government/Current-Affairs/International-Events/view?subId=72&articleId=143545",
+    "https://www.youtube.com/watch?v=kt0OtQqlxUU",
+    "https://www.ucimtbworldseries.com/events/race-of-south-korea-2026"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:25Z"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "jamtland-ski-marathon",
+  "name": "Jämtland Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No official website, race results, news articles, or listings in Worldloppet/Ski Classics/FIS found for 'Jämtland Ski Marathon'. A 2022 invitation PDF for 'OnePartnerGroup Ski Marathon Östersund' (42km in Östersund, Jämtland) mentions inclusion in 'Gällö Skog Jämtland Ski Tour', and a directory lists 'OPG Östersund Ski Marathon' among Jämtland ski marathons, but no direct evidence confirms the exact named event.",
+    "sources": [
+      "https://www.ostersundssk.se/wp-content/uploads/2020/06/Invitation-OnePartnerGroup-Ski-Marathon-Ostersund-2022.pdf",
+      "https://lopplistan.se/jamtland/skidor/marathon/"
+    ]
+  },
+  "citations": [
+    "https://www.ostersundssk.se/wp-content/uploads/2020/06/Invitation-OnePartnerGroup-Ski-Marathon-Ostersund-2022.pdf",
+    "https://lopplistan.se/jamtland/skidor/marathon/",
+    "https://flyktningerennet.no/gallo-skog-jamtland-ski-tour/",
+    "https://www.swedentips.se/jamtland/",
+    "https://visitsweden.com/what-to-do/nature-outdoors/winter-activities/cross-country-skiing-sweden/",
+    "https://trailrunningsweden.se/distrikt/jamtland/",
+    "https://www.sidetracked.com/jamtland-harjedalen-sweden/",
+    "https://www.goragunda.com/activities-/snow-racer"
+  ],
+  "checked_at": "2026-03-12T15:49:50Z"
+}

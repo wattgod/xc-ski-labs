@@ -1,0 +1,84 @@
+{
+  "slug": "la-sgambeda",
+  "name": "La Sgambeda",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Italy",
+    "region": "Lombardy",
+    "discipline": "skate",
+    "field_size": "~500",
+    "founded": 1990,
+    "website": null,
+    "date": "December"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "Sources confirm 30 km freestyle, though some recent editions note 25 km or 22 km variants; database value matches primary descriptions[2][3][4][6][7]",
+      "source_url": "https://www.lasgambeda.it/en/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain of 350m or any specific value",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently located in Italy, Livigno[1][2][3][4][5][6][7]",
+      "source_url": "https://www.lasgambeda.it/en/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Livigno, Lombardy (SO), Italy[4][7]",
+      "source_url": "https://www.ahotu.com/event/la-sgambeda"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freestyle (skate) technique confirmed across sources[3][5][6][8]",
+      "source_url": "https://www.lasgambeda.it/en/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific numbers found for typical participants (~500); described as attracting athletes from Europe but no counts[1][5]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "35th edition in 2025 implies first edition 1991 (2025-34=1991), very close to 1990 within reasonable tolerance[3][5][6]",
+      "source_url": "https://www.lasgambeda.it/en/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.lasgambeda.it/en/",
+      "note": "Official site identified[3][9]",
+      "source_url": "https://www.lasgambeda.it/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early/mid-December annually[1][2][3][6][8]",
+      "source_url": "https://www.lasgambeda.it/en/"
+    }
+  },
+  "citations": [
+    "https://www.alpematch.com/insights/livigno/services/la-sgambeda-cross-country-ski-race",
+    "https://chaletnada.it/en/outdoor/livigno-e-pronta-ad-ospitare-la-sgambeda/",
+    "https://www.lasgambeda.it/en/",
+    "https://hotway.life/en/cross-country-skiing/italy/la-sgambeda-30-km",
+    "https://www.livigno.eu/en/news/livigno-la-sgambeda-celebrates-35-years-of-passion",
+    "https://www.livigno.eu/en/events/la-sgambeda",
+    "https://www.ahotu.com/event/la-sgambeda",
+    "https://www.valtellina.it/en/events/livigno/sgambeda",
+    "https://www.endu.net/en/events/la-sgambeda-2/info"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:51:19Z"
+}

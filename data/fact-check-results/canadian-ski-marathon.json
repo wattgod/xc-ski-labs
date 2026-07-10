@@ -1,0 +1,84 @@
+{
+  "slug": "canadian-ski-marathon",
+  "name": "Canadian Ski Marathon",
+  "facts": {
+    "distance_km": 160,
+    "elevation_m": 1500,
+    "country": "Canada",
+    "region": "Quebec",
+    "discipline": "classic",
+    "field_size": "~1,000",
+    "founded": 1967,
+    "website": "https://www.csm-mcs.com",
+    "date": "Second weekend in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm total distance of 160 km over two days of ~80 km each.",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Ski_Marathon"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Detailed section elevations provided (e.g., Section 1: 420m ascent, Section 2: not fully listed, etc.), but no total elevation gain summed for the full 160 km course.",
+      "source_url": "https://skimarathon.ca/wp-content/uploads/2025/01/Skiers-Guide.Eng_.2025.pdf"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Canada.",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Ski_Marathon"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Locations include Quebec areas like Arundel, Mont-Tremblant, Montebello, Lachute, Buckingham.",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Ski_Marathon"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Trail is tracked set for classic skiing.",
+      "source_url": "https://skimarathon.ca/where-is-it/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific total participant numbers found; sources mention skiers of all levels but no ~1,000 figure.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "58th edition in 2024 implies founding around 1967 (2024-58+1=1967).",
+      "source_url": "https://kenauk.com/canadian-ski-marathon-2024-registration-now-open/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site is https://skimarathon.ca (matches closely with provided URL variant).",
+      "source_url": "https://skimarathon.ca"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically February; 2026 event February 6-7-8 (second weekend).",
+      "source_url": "https://skimarathon.ca"
+    }
+  },
+  "citations": [
+    "https://skimarathon.ca/skiers-guide/",
+    "https://skimarathon.ca/where-is-it/",
+    "https://skimarathon.ca/canadian-ski-challenge/",
+    "https://en.wikipedia.org/wiki/Canadian_Ski_Marathon",
+    "https://skimarathon.ca/wp-content/uploads/2025/01/Skiers-Guide.Eng_.2025.pdf",
+    "https://www.skicanada.org/the-canadian-ski-marathon-a-celebration-of-canadas-winter/",
+    "https://kenauk.com/canadian-ski-marathon-2024-registration-now-open/",
+    "https://skimarathon.ca",
+    "https://skimarathon.ca/wp-content/uploads/2024/12/CSC-Guide-2025-EN.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:36Z"
+}

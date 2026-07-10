@@ -1,0 +1,82 @@
+{
+  "slug": "steirische-langlauf-marathon",
+  "name": "Steirische Langlauf Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 450,
+    "country": "Austria",
+    "region": "Styria",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1985,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Longest distance is 50 km Freistil, also 30km classic, 25km Freistil, 10km; no 42km mentioned",
+      "source_url": "https://steiralauf.at"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Bad Mitterndorf, Österreich",
+      "source_url": "https://steiralauf.at"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Steiermark (Styria), Ausseerland Salzkammergut",
+      "source_url": "https://langlaufen.at/langlaufevents-in-oesterreich/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both (classic and freistil/skating)",
+      "note": "Offers 30km Klassisch and 50km/25km Freistil",
+      "source_url": "https://steiralauf.at"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No exact participant numbers found; 2025 results PDF shows some top finishers but not total",
+      "source_url": "https://steiralauf.at/stl_wp/wp-content/uploads/2025/02/ErgebnislistenErgebnislisteAK-1.pdf"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "46th edition in 2026 implies around 1980, but no exact first year confirmed",
+      "source_url": "https://www.raceresult-austria.at/results"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://steiralauf.at",
+      "note": "Official site identified",
+      "source_url": "https://steiralauf.at"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late January: 30.01.-31.01.2026, last January weekend",
+      "source_url": "https://langlaufen.at/langlaufevents-in-oesterreich/"
+    }
+  },
+  "citations": [
+    "https://langlaufen.at/langlaufevents-in-oesterreich/",
+    "https://steiralauf.at",
+    "https://www.raceresult-austria.at/results",
+    "https://www.youtube.com/watch?v=wcaPAoL83UY",
+    "https://www.youtube.com/watch?v=fSwx43sZ9lk",
+    "https://www.steiermark.com/en/Thermen-Vulkanland/Plan-your-holiday/Events/10-marathons-in-10-days_ed_73912510",
+    "https://steiralauf.at/stl_wp/wp-content/uploads/2025/02/ErgebnislistenErgebnislisteAK-1.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:54:04Z"
+}

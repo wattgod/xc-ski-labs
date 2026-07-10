@@ -1,0 +1,81 @@
+{
+  "slug": "jyvaskyla-ski-marathon",
+  "name": "Jyväskylä Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 400,
+    "country": "Finland",
+    "region": "Central Finland",
+    "discipline": "both",
+    "field_size": 1100,
+    "founded": null,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site confirms 50km route available (alongside 35km/34km and 10km)",
+      "source_url": "https://jyvaskylaskimarathon.fi/en/event-information-2/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Finland",
+      "source_url": "https://jyvaskylaskimarathon.fi/en/home-en/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in Jyväskylä, which is in Central Finland",
+      "source_url": "https://jyvaskylaskimarathon.fi/en/event-information-2/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No explicit confirmation of classic, skate, or both; site mentions 'series and styles' but no details in results",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "In 2024, more than 1100 participants (matches typical 1100 within ±20%)",
+      "source_url": "https://hotway.life/en/cross-country-skiing/finland/jyvaskyla-skimarathon"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found on year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://jyvaskylaskimarathon.fi/en/",
+      "note": "Official website identified",
+      "source_url": "https://jyvaskylaskimarathon.fi/en/home-en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically March (e.g., March 7/8 in 2024-2026)",
+      "source_url": "https://jyvaskylaskimarathon.fi/en/event-information-2/"
+    }
+  },
+  "citations": [
+    "https://jyvaskylaskimarathon.fi/en/event-information-2/",
+    "https://hotway.life/en/cross-country-skiing/finland/jyvaskyla-skimarathon",
+    "https://jyvaskylaskimarathon.fi/en/home-en/",
+    "https://jyvaskylaskimarathon.fi/en/euroloppet-2/",
+    "https://jyvaskylaskimarathon.fi/en/arrival-in-jyvaskyla/",
+    "https://jyvaskylaskimarathon.fi/en/registration-en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:42:24Z"
+}

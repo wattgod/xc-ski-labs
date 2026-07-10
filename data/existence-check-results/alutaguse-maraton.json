@@ -1,0 +1,32 @@
+{
+  "slug": "alutaguse-maraton",
+  "name": "Alutaguse Maraton",
+  "country": "Estonia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.alutagusemaraton.ee",
+    "results_url": null,
+    "evidence_summary": "Alutaguse Maraton is listed on Worldloppet and Ski Classics sites with event details and history. The official website provides registration, 2026 event info (48th edition on Feb 8), distances, and updates on conditions. An official organization is registered in Estonia with contact details, confirming it as a real, ongoing event.",
+    "sources": [
+      "https://www.worldloppet.com/alutaguse-maraton/",
+      "https://skiclassics.com/events/challengers/alutaguse-marathon/",
+      "https://www.spordiregister.ee/en/organisatsioon/5179/mtu_alutaguse_maraton/detail",
+      "https://www.alutagusemaraton.ee",
+      "https://alutaguse.com/en/events/",
+      "https://tartumaraton.ee/en/tartu-maraton-2025",
+      "https://ariregister.rik.ee/eng/company/80374476"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/alutaguse-maraton/",
+    "https://skiclassics.com/events/challengers/alutaguse-marathon/",
+    "https://www.spordiregister.ee/en/organisatsioon/5179/mtu_alutaguse_maraton/detail",
+    "https://www.alutagusemaraton.ee",
+    "https://alutaguse.com/en/events/",
+    "https://tartumaraton.ee/en/tartu-maraton-2025",
+    "https://ariregister.rik.ee/eng/company/80374476"
+  ],
+  "checked_at": "2026-03-12T15:38:03Z"
+}

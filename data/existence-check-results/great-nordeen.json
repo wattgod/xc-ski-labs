@@ -1,0 +1,32 @@
+{
+  "slug": "great-nordeen",
+  "name": "Great Nordeen",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+    "results_url": null,
+    "evidence_summary": "The Great Nordeen is a real annual cross-country ski and fat bike race organized by Mt. Bachelor Sports Education Foundation (MBSEF) in Bend, Oregon, honoring pioneer Emil Nordeen, with the 2026 edition on February 1st featuring 30K/18K ski and 15K fat bike events. Evidence includes the official MBSEF website with registration details, active Webscorer registration page, multiple news articles from BendSource and KTVZ covering past editions (e.g., 22nd annual in 2025, 20th in 2023), and listings in MBSEF's race schedule. No race results from prior years were in the provided search results, but organizational and media evidence strongly confirms its existence.",
+    "sources": [
+      "https://www.webscorer.com/register?raceid=409261",
+      "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+      "https://www.bendsource.com/outside/the-great-nordeen-honoring-tradition-and-embracing-adventure-in-central-oregon-22592508/",
+      "https://mbsef.org/nordic/races/",
+      "https://ktvz.com/sports/2023/01/07/registration-opens-for-20th-annual-great-nordeen-cross-country-ski-race-fat-bike-race/"
+    ]
+  },
+  "citations": [
+    "https://www.webscorer.com/register?raceid=409261",
+    "https://www.bendsource.com/outside/the-great-nordeen-honoring-tradition-and-embracing-adventure-in-central-oregon-22592508/",
+    "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/",
+    "https://thegreatskirace.com",
+    "https://mbsef.org/nordic/races/",
+    "https://www.bendsource.com/outside/great-nordeen-ski-race-2022-16077502/",
+    "https://mbsef.org/mt-bachelor-cup-nordic-races/",
+    "https://ktvz.com/sports/2023/01/07/registration-opens-for-20th-annual-great-nordeen-cross-country-ski-race-fat-bike-race/",
+    "https://www.usskiandsnowboard.org"
+  ],
+  "checked_at": "2026-03-12T15:47:25Z"
+}

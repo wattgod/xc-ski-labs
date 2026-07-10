@@ -1,0 +1,31 @@
+{
+  "slug": "gatineau-55",
+  "name": "Gatineau 55",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://gatineauloppet.com/?lang=en",
+    "results_url": "https://gatineauloppet.com/info-for-skiers/?lang=en",
+    "evidence_summary": "The 'Gatineau 55' was an earlier name for the Gatineau Loppet, a real annual cross-country ski event in Gatineau Park, Canada, held since 1979 and part of the Worldloppet series. The official website provides race schedules, results via Sportstats app, and history confirming the name change from Gatineau 55. Multiple sources including Wikipedia, Worldloppet, and YouTube videos corroborate its existence with past participation up to 2,500 skiers.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gatineau_Loppet",
+      "https://gatineauloppet.com/?lang=en",
+      "https://gatineauloppet.com/about-us/gloppet/?lang=en",
+      "https://www.worldloppet.com/wl-race/gatineau-loppet/",
+      "https://www.youtube.com/watch?v=AaVZx7njvbg"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Gatineau_Loppet",
+    "https://gatineauloppet.com/info-for-skiers/?lang=en",
+    "https://gatineauloppet.com/about-us/gloppet/?lang=en",
+    "https://crosscountryns.ca/international-loppets/",
+    "https://www.worldloppet.com/wl-race/gatineau-loppet/",
+    "https://xcskiing.ca",
+    "https://gatineauloppet.com/?lang=en",
+    "https://www.youtube.com/watch?v=AaVZx7njvbg"
+  ],
+  "checked_at": "2026-03-12T15:46:26Z"
+}

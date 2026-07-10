@@ -1,0 +1,34 @@
+{
+  "slug": "lofsdalen-epic",
+  "name": "Lofsdalen Epic",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://lofsdalenepic.se",
+    "results_url": null,
+    "evidence_summary": "Multiple sources confirm the Lofsdalen Epic as a real annual cross-country ski race in Sweden, including its official website with registration open for 2026 (March 28), Ski Classics Challengers listing, and local tourism/organizer sites detailing courses (35km and 55km classic style), start lists, and past photos. Organizers are Lofsdalen SK, with electronic timing and afterski events mentioned. No race results pages in these snippets, but event legitimacy is strongly supported by independent listings and active registration.",
+    "sources": [
+      "https://www.lofsdalsspar.se/en/ski-trails/lofsdalen-epic-race/",
+      "https://skiclassics.com/events/challengers/lofsdalen-epic/",
+      "https://www.lofsdalen.com/en/lofsdalenepic",
+      "https://lofsdalenepic.se",
+      "https://lofsdalenepic.se/anmalan/",
+      "https://www.proxcskiing.com/long-distance/lofsdalen-epic-start-lists-and-where-to-watch/",
+      "https://www.langrenn.com/event/lofsdalen-epic-3/"
+    ]
+  },
+  "citations": [
+    "https://www.lofsdalsspar.se/en/ski-trails/lofsdalen-epic-race/",
+    "https://skiclassics.com/events/challengers/lofsdalen-epic/",
+    "https://www.lofsdalen.com/en/lofsdalenepic",
+    "https://lofsdalenepic.se",
+    "https://www.langrenn.com/event/lofsdalen-epic-3/",
+    "https://lofsdalenepic.se/anmalan/",
+    "https://www.proxcskiing.com/long-distance/lofsdalen-epic-start-lists-and-where-to-watch/",
+    "https://vasaloppet.se/en/",
+    "https://www.lofsdalen.com/en"
+  ],
+  "checked_at": "2026-03-12T15:54:05Z"
+}

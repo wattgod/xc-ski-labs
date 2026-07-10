@@ -1,0 +1,26 @@
+{
+  "slug": "dachstein-nordic-classic",
+  "name": "Dachstein Nordic Classic",
+  "country": "Austria",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Dachstein Nordic Classic' in any search results. Related events like Dachsteinlauf (a real cross-country race in Ramsau am Dachstein) and FIS cross-country events in Ramsau exist, but nothing matches the specific name. Results mention alpine races, glacier cross-country trails, and other events, but no official site, results, news, or listings for 'Dachstein Nordic Classic'.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.dachstein.at/en/winter/racetrack",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=51163",
+    "https://www.dachsteinlauf.at/en",
+    "https://www.schladming-dachstein.at/en",
+    "https://www.derdachstein.at/en/dachstein-glacier-world/ski-and-snow-active",
+    "https://www.derdachstein.at/en/dachstein-glacier-world/ski-and-snow-active/cross-country-skiing",
+    "https://dachstein-salzkammergut.com/en",
+    "https://www.schladming-dachstein.at/en/event/top-events/nightrace",
+    "https://www.dachstein.at/en"
+  ],
+  "checked_at": "2026-03-12T15:43:20Z"
+}

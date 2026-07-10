@@ -1,0 +1,80 @@
+{
+  "slug": "sierra-de-guadarrama-ski-marathon",
+  "name": "Sierra de Guadarrama Ski Marathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 500,
+    "country": "Spain",
+    "region": "Community of Madrid",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 2008,
+    "website": "https://www.rfedi.es",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a cross-country ski race named 'Sierra de Guadarrama Ski Marathon' with 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources confirm or deny 500m elevation gain for this specific ski marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sierra de Guadarrama is in Spain per general sources, but no confirmation for this exact ski race event.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Region matches Sierra de Guadarrama location in Community of Madrid, but no specific race confirmation.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe the discipline (classic skiing) for this race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this ski marathon.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 2008 as founding year; unrelated trail race founded 1999.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.rfedi.es is RFEDI (Spanish winter sports fed), but no confirmation as official site for this specific race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ski season Dec-April in area, late January plausible, but no confirmation for this race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.ahotu.com/event/maraton-alpino-madrileno",
+    "https://trailruntemple.com/en/races/espana/madrid/maraton-alpino-madrileno/",
+    "https://rove.me/to/madrid/skiing-and-snowboarding",
+    "https://sierraguadarrama.info/en/about-us/",
+    "https://sierraguadarrama.info/en/what-to-do/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:19:08Z"
+}

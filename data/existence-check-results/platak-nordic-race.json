@@ -1,0 +1,27 @@
+{
+  "slug": "platak-nordic-race",
+  "name": "Platak Nordic Race",
+  "country": "Croatia",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No mentions of 'Platak Nordic Race' or any cross-country ski race found across all Platak ski resort pages. The site documents numerous alpine skiing events (FIS, championships, skibike, snowboard), but zero evidence of cross-country/nordic racing. Platak appears to be an alpine ski center without nordic infrastructure indicated.",
+    "sources": []
+  },
+  "citations": [
+    "https://platak.hr/en/2026/02/19/odrzano-medunarodno-natjecanje-zagreb-children-fis/",
+    "https://platak.hr/en/novosti/",
+    "https://platak.hr/en/category/novosti/",
+    "https://platak.hr/en/category/dogadaji/",
+    "https://platak.hr/en/2026/01/06/pocinje-skijaska-sezona-na-platku/",
+    "https://platak.hr/en/",
+    "https://platak.hr/en/2026/01/14/platak-ponovno-domacin-svjetske-elite-skibikea/",
+    "https://platak.hr/en/2026/03/05/platak-domacin-prvenstva-hrvatske-i-kupa-pgz-za-djecu/",
+    "https://platak.hr/en/2026/02/15/platak-domacin-medunarodnog-skijaskog-natjecanja-zagreb-children-fis/",
+    "https://platak.hr/en/novosti/page/11/"
+  ],
+  "checked_at": "2026-03-12T16:00:26Z"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "cookie-race",
+  "name": "Cookie Race",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 450,
+    "country": "Canada",
+    "region": "Alberta",
+    "discipline": "both",
+    "field_size": 400,
+    "founded": 1980,
+    "website": "https://www.calgarynordicski.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 45,
+      "note": "First edition had one 45 km distance; now includes 45km, 24km, 15km, and youth races[2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Peter Lougheed Provincial Park is in Canada[1][2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Foothills Nordic Ski Club in Calgary, Alberta; Peter Lougheed Provincial Park in Kananaskis, Alberta[1][2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "Open to classic cross-country skiers only[2][3]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 500,
+      "note": "Grown to 500 participants annually (maximum allowed)[2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1978,
+      "note": "First Kananaskis Ski Marathon in March 1978[2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.foothillsnordic.ca/cookie-race",
+      "note": "Official page on Foothills Nordic Ski Club site[2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Last Saturday of February, e.g., February 28, 2026[2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    }
+  },
+  "citations": [
+    "https://foothillsnordic.galaxydigital.com/agency/detail/?agency_id=214127",
+    "https://www.foothillsnordic.ca/cookie-race",
+    "https://albertamastersassociation.com/event/cookie-race/",
+    "https://foothillsnordic.galaxydigital.com/need/detail/?need_id=824003"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:37:22Z"
+}

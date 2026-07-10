@@ -1,0 +1,26 @@
+{
+  "slug": "tronfjell-rundt",
+  "name": "Tronfjell Rundt",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No search results mention 'Tronfjell Rundt' at all. Results describe other real Norwegian cross-country ski events like The Troll Trail (self-guided tour), Birkebeinerrennet (53km race), and Furusjøen Rundt, but nothing matching the queried race name, official site, results, news, or social media.",
+    "sources": []
+  },
+  "citations": [
+    "https://discover-norway.no/en/winter/cross-country-skiing-the-troll-trail/",
+    "https://en.lillehammer.com/whats-on/birkebeinerrennet-birkebeiner-ski-race-53-km-p634893",
+    "https://birken.no/en/ski",
+    "https://en.lillehammer.com/whats-on/articles/furusjoen-rundt",
+    "https://www.hafjellresort.no/en/history-of-hafjell",
+    "https://en.lillehammer.com/whats-on/major-events",
+    "https://birken.no",
+    "https://wanderlog.com/drive/between/11695/11887/roros-to-lillehammer-drive",
+    "https://www.nak.no/seilfly/html/Publikasjoner/Arkiv/seilflysport-2006-03.pdf"
+  ],
+  "checked_at": "2026-03-12T16:09:40Z"
+}

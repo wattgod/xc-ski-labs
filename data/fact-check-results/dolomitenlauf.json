@@ -1,0 +1,85 @@
+{
+  "slug": "dolomitenlauf",
+  "name": "Dolomitenlauf",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "Austria",
+    "region": "East Tyrol",
+    "discipline": "both",
+    "field_size": "~1,500",
+    "founded": 1970,
+    "website": "https://www.dolomitenlauf.at",
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km as the main marathon distance[1][2][3][7]",
+      "source_url": "https://www.worldloppet.com/dolomitenlauf-austrias-lagerst-cross-country-skiing-event-with-guaranteed-snow/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 460,
+      "note": "Sources indicate 230m per lap run twice (230*2=460m), within current Obertilliach course; database 500m exceeds ±100m tolerance",
+      "source_url": "https://www.tyrol.com/activities/sport/cross-country-skiing/nordic-ski-trails/dolomitenlauf-2022"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as in Austria[1][2][3][4]",
+      "source_url": "https://www.worldloppet.com/dolomitenlauf-austrias-lagerst-cross-country-skiing-event-with-guaranteed-snow/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Osttirol (East Tyrol) repeatedly confirmed[1][4][5][6]",
+      "source_url": "https://www.worldloppet.com/dolomitenlauf-austrias-lagerst-cross-country-skiing-event-with-guaranteed-snow/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and skating (free style) offered[1][4][6]",
+      "source_url": "https://www.worldloppet.com/dolomitenlauf-austrias-lagerst-cross-country-skiing-event-with-guaranteed-snow/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 2500,
+      "note": "~2,000 to 2,500 participants; ~1,500 is below 20% tolerance (1,500*1.2=1,800)",
+      "source_url": "https://www.dolomitinordicski.com/en/events/dolomitenlauf"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First race 1970, over 50 years history[1][3][4][10]",
+      "source_url": "https://www.worldloppet.com/wl-race/dolomitenlauf/"
+    },
+    "website": {
+      "status": "WRONG",
+      "correct_value": "https://www.dolomitensport.at",
+      "note": "Official site listed as www.dolomitensport.at and dolomitensport.at[1][4]",
+      "source_url": "https://www.dolomitinordicski.com/en/events/dolomitenlauf"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mid-January, e.g., 16-18 Jan 2026, 17-18 Jan 2026, January annually[1][4][9]",
+      "source_url": "https://www.worldloppet.com/dolomitenlauf-austrias-lagerst-cross-country-skiing-event-with-guaranteed-snow/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/dolomitenlauf-austrias-lagerst-cross-country-skiing-event-with-guaranteed-snow/",
+    "https://skiclassics.com/events/challengers/dolomitenlauf/",
+    "https://www.worldloppet.com/wl-race/dolomitenlauf/",
+    "https://www.dolomitinordicski.com/en/events/dolomitenlauf",
+    "https://www.tyrol.com/activities/sport/cross-country-skiing/nordic-ski-trails/dolomitenlauf-2022",
+    "https://www.dolomitensport.at/de/events/dolomitenlauf.html",
+    "https://www.osttirol.com/en/events-culture/internationaler-dolomitenlauf/",
+    "https://www.xc-ski.de/aktuelles/news/skilanglauf/dolomitenlauf-2024-neue-strecke-neue-herausforderung/",
+    "https://kids.kiddle.co/Dolomitenlauf",
+    "https://jennwoltjen.substack.com/p/the-dolomitenlauf-cross-country-ski?action=share"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:59Z"
+}

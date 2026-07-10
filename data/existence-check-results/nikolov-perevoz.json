@@ -1,0 +1,29 @@
+{
+  "slug": "nikolov-perevoz",
+  "name": "Nikolov Perevoz",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "http://www.russialoppet.ru",
+    "results_url": null,
+    "evidence_summary": "Worldloppet lists Nikolov Perevoz as a real event held since 1995 in Veretievo, Moscow region, with a 2022 date and official website. A 2024 JINR newsletter reports a recent event on February 3 where a coach placed 5th in the women's 50km. Stock photos from Dreamstime confirm the 2017 race at Art-Veretevo Estate as part of Russialoppet, including Paralympic category.",
+    "sources": [
+      "https://www.worldloppet.com/nikolov-perevoz-rus/",
+      "https://www.jinr.ru/wp-content/uploads/Newsletter/JINR_Newsletter_5_080224.pdf",
+      "https://www.dreamstime.com/photos-images/fischer-family.html"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/nikolov-perevoz-rus/",
+    "https://www.dreamstime.com/photos-images/fischer-family.html",
+    "https://www.dreamstime.com/people-adidas-store-downtown-hong-kong-hong-kong-march-people-buy-shoes-adidas-store-tsim-sha-tsui-adidas-ag-german-image158553292",
+    "https://www.dreamstime.com/photos-images/skiers-racing.html",
+    "https://www.dreamstime.com/photos-images/heroes-health.html?pg=4",
+    "https://www.dreamstime.com/photos-images/marathon-winners.html",
+    "https://www.jinr.ru/wp-content/uploads/Newsletter/JINR_Newsletter_5_080224.pdf",
+    "https://gomel.gov.by/en/content/social-sphere/sport/our-olympians/"
+  ],
+  "checked_at": "2026-03-12T15:57:50Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "pirkan-hiihto",
+  "name": "Pirkan Hiihto",
+  "facts": {
+    "distance_km": 90,
+    "elevation_m": 300,
+    "country": "Finland",
+    "region": "Pirkanmaa",
+    "discipline": "both",
+    "field_size": "~3,000 starters",
+    "founded": 1955,
+    "website": "https://www.pirkanhiihto.fi",
+    "date": "Last weekend of February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Main track Pirkka is 90 km long[1]",
+      "source_url": "https://www.pirkanhiihto.fi/pirkka-ski-race/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Finland[1][4][5][7]",
+      "source_url": "https://www.pirkanhiihto.fi/pirkka-ski-race/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Named after Pirkanmaa region, based in Tampere area[1][7]",
+      "source_url": "https://www.pirkanhiihto.fi/pirkka-ski-race/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 1500,
+      "note": "Around 1,500 participants[5]; ~3,000 exceeds ±20% tolerance (2400-3600)",
+      "source_url": "https://www.hiihtomuseo.fi/en/50-years-of-finlandia/how-ski-trekking-started/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm exact year 1955",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site for Pirkan Hiihto[1]",
+      "source_url": "https://www.pirkanhiihto.fi/pirkka-ski-race/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Scheduled for last weekend of February (e.g., Feb 28, 2026)[4]",
+      "source_url": "https://jami.fi/en/news/pirkka-ski-race/"
+    }
+  },
+  "citations": [
+    "https://www.pirkanhiihto.fi/pirkka-ski-race/",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://jami.fi/en/news/pirkka-ski-race/",
+    "https://www.hiihtomuseo.fi/en/50-years-of-finlandia/how-ski-trekking-started/",
+    "https://www.fis-ski.com/DB/cross-country/calendar-results.html",
+    "https://www.proxcskiing.com/cs/ud%C3%A1lost/pirkan-hiihto/",
+    "https://www.finlandiahiihto.fi"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:04Z"
+}

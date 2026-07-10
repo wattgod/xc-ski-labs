@@ -1,0 +1,23 @@
+{
+  "slug": "bran-castle-ski-marathon",
+  "name": "Bran Castle Ski Marathon",
+  "country": "Romania",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Bran Castle Ski Marathon' cross-country ski race exists in the search results. The search results contain extensive information about the Transylvania 100, which is a trail running ultramarathon event (not a ski race) held in May 2026 at Bran Castle. The Transylvania 100 features running distances of 20k, 30k, 50k, 80k, and 100k, with no ski racing component mentioned.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.transylvania100k.com/info",
+    "https://www.ahotu.com/event/transylvania-100",
+    "https://theordinaryironman.com/2024/05/27/extreme-behaviour-an-ultra-mountain-marathon-in-transylvania/",
+    "https://worldsmarathons.com/marathon/transylvania-100k",
+    "https://www.transylvania100k.com",
+    "http://draculascastle.ro"
+  ],
+  "checked_at": "2026-03-12T15:41:19Z"
+}

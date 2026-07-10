@@ -1,0 +1,31 @@
+{
+  "slug": "hovdentour",
+  "name": "HovdenTour",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.hovdentour.no",
+    "results_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=47087",
+    "evidence_summary": "HovdenTour has an official website at hovdentour.no organized by Hovden Sportsklubb, with FIS cross-country race results from 2024/2025 listing numerous Norwegian athletes. Tourism sites hovden.com promote the event with distances (10km, 22km, 42.5km) and afterski details, and langrenn.com lists it as a real event. Contact info like roar@hovdentour.no confirms organization.",
+    "sources": [
+      "https://www.hovdentour.no",
+      "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=47087",
+      "https://hovden.com/hovdentour",
+      "https://www.langrenn.com/event/hovdentour/"
+    ]
+  },
+  "citations": [
+    "https://www.hovdentour.no",
+    "https://hovden.com",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=47087",
+    "https://hovden.com/hovdentour",
+    "https://hovden.com/en/langrenn",
+    "https://hovden.com/en",
+    "https://hovden.com/en/hovdentour-afterski",
+    "https://www.langrenn.com/event/hovdentour/",
+    "https://hovden.com/en/events"
+  ],
+  "checked_at": "2026-03-12T15:49:12Z"
+}

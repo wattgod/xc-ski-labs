@@ -1,0 +1,85 @@
+{
+  "slug": "marathon-de-la-clusaz",
+  "name": "Marathon de La Clusaz",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "France",
+    "region": "Haute-Savoie",
+    "discipline": "both",
+    "field_size": 450,
+    "founded": null,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the distance of the 'Marathon de La Clusaz' cross-country ski race as 42 km.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming total elevation gain of 600m for this race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "La Clusaz is located in France, confirmed across multiple sources.",
+      "source_url": "https://www.laclusaz.com/en/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Haute-Savoie confirmed as the department/region for La Clusaz.",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?eventid=54639&sectorcode=AL&seasoncode=2024"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nordic skiing mentioned in La Clusaz but no specific confirmation of classic, skate, or both for 'Marathon de La Clusaz'.",
+      "source_url": "https://www.laclusaz.com/en/ski/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for typical number of participants around 450.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified specifically for 'Marathon de La Clusaz' cross-country ski race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources confirm typical March date for this specific race; other winter events in La Clusaz span Dec-Apr.",
+      "source_url": "https://www.laclusaz.com/en/ski/alpine-skiing/"
+    }
+  },
+  "citations": [
+    "https://www.laclusaz.com/en/ski/alpine-skiing/",
+    "https://www.fis-ski.com/DB/general/event-details.html?eventid=54639&sectorcode=AL&seasoncode=2024",
+    "https://www.laclusaz.com/en/agenda/boarder-line/",
+    "https://www.laclusaz.com/en/ski/freeski/",
+    "https://lebelier-laclusaz.fr/en/evenements/belier-blanc/epreuves/trail-14-km/",
+    "https://www.ski-school-laclusaz.com/animations/private-race-organisation/",
+    "https://lebelier-laclusaz.fr/en/evenements/belier-trail-rando/infos-pratiques/",
+    "https://www.laclusaz.com/en/ski/",
+    "https://www.laclusaz.com/en/",
+    "https://www.laclusaz.com/en/agenda/defi-foly/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:44:58Z"
+}

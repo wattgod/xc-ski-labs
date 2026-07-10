@@ -1,0 +1,84 @@
+{
+  "slug": "sakhalin-ski-marathon",
+  "name": "Sakhalin Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 400,
+    "country": "Russia",
+    "region": "Sakhalin Oblast",
+    "discipline": "both",
+    "field_size": 750,
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 50 km distance (along with 30 km)",
+      "source_url": "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia",
+      "source_url": "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sakhalin Region/Oblast",
+      "source_url": "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "free technique (FT)",
+      "note": "Sources specify FT (freestyle, which includes skate); classic and free mentioned in one source but Worldloppet lists FT for 30/50km",
+      "source_url": "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 1000,
+      "note": "Sources report >1000 or >2000 participants (exceeds 750 ±20%)",
+      "source_url": "https://www.wam.ae/en/article/biewdk4-more-than-thousand-athletes-take-part-sakhalin-ski"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions XXVI (26th) edition in 2025, implying ~1999, but no exact first year confirmed",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as www.russialoppet.ru",
+      "source_url": "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early to late March (e.g., March 6 2022, March 8-9), consistent with late February/March winter period",
+      "source_url": "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/",
+    "https://en-gb.topographic-map.com/map-5gstj/Sakhalin/",
+    "https://www.skiresort.info/ski-resorts/sakhalin/sorted/mountain-altitude/",
+    "https://tvbrics.com/en/video/sakhalin-ski-marathon-mountains-of-snow-and-loads-of-enthusiasm/",
+    "https://www.wam.ae/en/article/biewdk4-more-than-thousand-athletes-take-part-sakhalin-ski",
+    "https://www.rbth.com/lifestyle/328115-marathon-running-russia",
+    "https://en.wikipedia.org/wiki/Demino_Ski_Marathon",
+    "https://www.youtube.com/watch?v=t_Y8fqG25VQ",
+    "https://www.youtube.com/watch?v=-mBLlR4Qyy4"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:51:16Z"
+}

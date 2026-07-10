@@ -1,0 +1,27 @@
+{
+  "slug": "ski-north-loppet",
+  "name": "Ski North Loppet",
+  "country": "Canada",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No mentions of 'Ski North Loppet' in any search results. All results describe other real Canadian cross-country ski loppets such as Gatineau Loppet, Sleeping Giant Loppet, Payak Loppet, and Lake Louise to Banff Loppet, but none match the queried event name or indicate its existence.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.nordicracers.ca/loppet",
+    "https://nordiqcanada.ca/news-item/evenements-nordiques-gatineau-nordic-events-to-host-2024-nordiq-canada-ski-nationals/",
+    "https://www.sleepinggiantloppet.ca",
+    "https://crosscountryns.ca/international-loppets/",
+    "https://www.loppet.ca",
+    "https://gatineauloppet.com/?lang=en",
+    "https://nickelplatenordic.org/loppet/",
+    "https://cccski.com/Events/Events-Info/Loppets.html",
+    "https://www.worldloppet.com/wl-race/gatineau-loppet/",
+    "https://xcountryab.net/alberta-loppet-series/"
+  ],
+  "checked_at": "2026-03-12T16:04:24Z"
+}

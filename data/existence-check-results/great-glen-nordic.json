@@ -1,0 +1,31 @@
+{
+  "slug": "great-glen-nordic",
+  "name": "Great Glen Nordic Race Series",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://greatglentrails.com/nordic-meisters/",
+    "results_url": null,
+    "evidence_summary": "The Great Glen Nordic Race Series, called 'Nordic Meisters,' is detailed on the official Great Glen Trails Outdoor Center website with a dedicated page describing an 8-week Tuesday series of timed Nordic ski, snowshoe, and fatbike races from early January to early March, including age-graded results posted online and in the Conway Daily Sun. The events page lists it explicitly for 2026 with dates January 6 - March 3. An independent review confirms Great Glen Trails as a real Nordic skiing venue in New Hampshire with groomed trails.",
+    "sources": [
+      "https://greatglentrails.com/nordic-meisters/",
+      "https://greatglentrails.com/events/",
+      "https://greatglentrails.com",
+      "https://seniorsskiing.com/at-great-glen-trails-nordic-skiing-and-activities-for-everyone/"
+    ]
+  },
+  "citations": [
+    "https://greatglentrails.com/nordic-meisters/",
+    "https://greatglentrails.com/events/",
+    "https://greatglentrails.com/24-hours/schedule/",
+    "https://greatglentrails.com/24-hours/results-photos/",
+    "https://greatglentrails.com/24-hours/",
+    "https://greatglentrails.com/ski-shoe-fatbike-to-the-clouds/",
+    "https://seniorsskiing.com/at-great-glen-trails-nordic-skiing-and-activities-for-everyone/",
+    "https://greatglentrails.com",
+    "https://greatglentrails.com/run-walk/"
+  ],
+  "checked_at": "2026-03-12T15:47:13Z"
+}

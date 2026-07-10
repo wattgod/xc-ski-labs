@@ -1,0 +1,33 @@
+{
+  "slug": "tassasen-ski-marathon",
+  "name": "Tåssåsen Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Tåssåsen Criterium 64 powered by Visma is documented as a real cross-country ski race in Sweden, part of the Visma Ski Classics series, with detailed race reports including winners Emil Persson and Lina Korsgren in a 54 km event. Multiple sources from Ski Classics official site, Wikipedia, and Swedish ski news confirm its occurrence, start lists, and integration into the championship calendar. No standalone official website or direct results pages found, but event legitimacy is established through series affiliation and coverage.",
+    "sources": [
+      "https://skiclassics.com/emil-persson-and-lina-korsgren-win-tassasen-criterium-64-powered-by-visma/",
+      "https://skiclassics.com/valadalsrennet-and-tassasen-criterium-64-powered-by-visma-takes-place-this-weekend/",
+      "https://en.wikipedia.org/wiki/Ski_Classics",
+      "https://www.langd.se/langlopp/startlistor-visma-ski-classics-tassasen-criterium-64-powered-by-visma/",
+      "https://www.langrenn.com/langrenn-allround/ski-classics-yllas-levi-flytter-fra-finland-til-sverige/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/emil-persson-and-lina-korsgren-win-tassasen-criterium-64-powered-by-visma/",
+    "https://vasaloppet.se/en/ski/tjejvasan/",
+    "https://skiclassics.com/valadalsrennet-and-tassasen-criterium-64-powered-by-visma-takes-place-this-weekend/",
+    "https://en.wikipedia.org/wiki/Ski_Classics",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://vasaloppet.se/en/",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://www.langd.se/langlopp/startlistor-visma-ski-classics-tassasen-criterium-64-powered-by-visma/",
+    "https://www.langrenn.com/langrenn-allround/ski-classics-yllas-levi-flytter-fra-finland-til-sverige/",
+    "https://ssfta.skidor.com/event/47071"
+  ],
+  "checked_at": "2026-03-12T16:07:42Z"
+}

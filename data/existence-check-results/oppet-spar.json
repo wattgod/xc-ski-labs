@@ -1,0 +1,30 @@
+{
+  "slug": "oppet-spar",
+  "name": "Öppet Spår",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://vasaloppet.se/en/ski/oppet-spar-monday-45/",
+    "results_url": null,
+    "evidence_summary": "Öppet Spår is a series of real, organized non-competitive cross-country ski events on the Vasaloppet course, including Öppet Spår Monday 45km (Feb 23, 2026) and Öppet Spår Sunday 90km, with detailed official pages on vasaloppet.se covering registration, course, checkpoints, and rules. A YouTube video documents participants skiing Öppet Spår 45km, and news mentions confirm Öppet Spår Monday as part of the Vasaloppet ecosystem. Organized by the reputable Vasaloppet organization with future dates listed.",
+    "sources": [
+      "https://vasaloppet.se/en/ski/oppet-spar-monday-45/",
+      "https://vasaloppet.se/en/ski/oppet-spar-sunday/",
+      "https://vasaloppet.se/en/ski/vasaloppet/",
+      "https://www.youtube.com/watch?v=R6RQSVSVpZM",
+      "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594"
+    ]
+  },
+  "citations": [
+    "https://vasaloppet.se/en/ski/oppet-spar-monday-45/",
+    "https://vasaloppet.se/en/ski/oppet-spar-sunday/",
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.youtube.com/watch?v=R6RQSVSVpZM",
+    "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594"
+  ],
+  "checked_at": "2026-03-12T15:58:38Z"
+}

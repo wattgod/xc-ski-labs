@@ -1,0 +1,31 @@
+{
+  "slug": "per-johnsen-ozbaldy",
+  "name": "Per Johnsen Ozbaldy",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://kongsbergers.org/races/OZ2026.html",
+    "results_url": "https://www.webscorer.com/results?did=503829&gender=m&raceid=382254",
+    "evidence_summary": "Detailed 2025 race results from Webscorer show actual finishers, times, and categories for the Per Johnsen Memorial Ozbaldy Freestyle at Cabin Creek Road, WA. The Kongsberger Ski Club official page announces the 2026 edition with course details, registration info, and references Webscorer results. Additional mentions in Pacific Northwest race calendars confirm it as a real organized event.",
+    "sources": [
+      "https://www.webscorer.com/results?did=503829&gender=m&raceid=382254",
+      "https://kongsbergers.org/races/OZ2026.html",
+      "https://www.webscorer.com/racelaps?did=503829&gender=f&raceid=382254",
+      "https://www.webscorer.com/racedetails?raceid=382254&did=503828&gender=f",
+      "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/"
+    ]
+  },
+  "citations": [
+    "https://www.webscorer.com/results?did=503829&gender=m&raceid=382254",
+    "https://www.webscorer.com/racelaps?did=503829&gender=f&raceid=382254",
+    "https://www.webscorer.com/racedetails?raceid=382254&did=503828&gender=f",
+    "https://kongsbergers.org/races/OZ2026.html",
+    "https://www.webscorer.com/racedetails?raceid=382254&did=503829&gender=M",
+    "https://www.webscorer.com/race?raceid=382254",
+    "https://www.winthropmountainsports.com/blogs/resources/2024-2025-cross-country-ski-pacific-northwest-race/",
+    "https://xcoregon.org/pac-nw-event-listing"
+  ],
+  "checked_at": "2026-03-12T15:59:44Z"
+}

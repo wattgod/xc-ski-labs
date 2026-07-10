@@ -1,0 +1,24 @@
+{
+  "slug": "harbin-ice-city-marathon",
+  "name": "Harbin Ice City Marathon",
+  "country": "China",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a cross-country ski race named 'Harbin Ice City Marathon'. Search results mention a road Harbin Marathon (not ski) and the Harbin Ice and Snow Festival with general winter sports like alpine skiing, but no specific cross-country ski marathon, results, official site, or listings in Worldloppet/FIS.",
+    "sources": []
+  },
+  "citations": [
+    "http://www.hrb-marathon.chinarun.com/en/bnotice_en.html",
+    "https://www.travelpirates.com/captains-log/us-worlds-largest-ice-festival-is-open",
+    "https://www.chinadiscovery.com/heilongjiang/harbin/harbin-ice-snow-festival.html",
+    "https://cellulardata.ubigi.com/blog/articles/china-ice-festival-harbin/",
+    "https://www.harbin.gov.cn/haerbin/c104447/s_index.shtml",
+    "https://www.icesnowcn.com/en/",
+    "https://www.harbinice.com/fact-v26-how-to-apply-for-harbin-ice-snow-sculpture-competitions-events.html"
+  ],
+  "checked_at": "2026-03-12T15:48:40Z"
+}

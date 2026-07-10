@@ -1,0 +1,33 @@
+{
+  "slug": "galtuer-nordic-volumes",
+  "name": "Galtuer Nordic Volumes",
+  "country": "Austria",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.galtuer.com/gnv/en",
+    "results_url": null,
+    "evidence_summary": "The Galtür Nordic Volumes is a real cross-country ski event in Galtür, Austria, with an official website detailing races like Nordic Sprint Race, Cross Country Climb, and Kids & Juniors Race, scheduled for March 26-28, 2026. It is part of the Euroloppet series and listed on Worldloppet, with mentions on regional tourism sites. No past race results found in search, but extensive promotional materials confirm organization.",
+    "sources": [
+      "https://www.galtuer.com/gnv/en",
+      "https://www.galtuer.com/en/events-experiences/galtuer-nordic-volumes/races-routes/sprint-race",
+      "https://www.worldloppet.com/galtur-cross-country-climb-aut/",
+      "https://www.galtuer.com/en/events-experiences/event-calendar/galtuer-nordic-volumes_event_125158093",
+      "https://www.montafon.at/en/galtuer-nordic-volumes-2024-1_vc22385",
+      "https://www.euroloppet.com/"
+    ]
+  },
+  "citations": [
+    "https://www.galtuer.com/en/events-experiences/galtuer-nordic-volumes/races-routes/sprint-race",
+    "https://www.galtuer.com/gnv/en",
+    "https://www.galtuer.com/en/events-experiences/event-calendar/galtuer-nordic-volumes_event_125158093",
+    "https://www.galtuer.com/en/events-experiences/galtuer-nordic-volumes/races-routes",
+    "https://www.worldloppet.com/galtur-cross-country-climb-aut/",
+    "https://www.montafon.at/en/galtuer-nordic-volumes-2024-1_vc22385",
+    "https://www.galtuer.com/en/events-experiences/galtuer-nordic-volumes/info/faq",
+    "https://www.galtuer.com/en/events-experiences/galtuer-nordic-volumes/programme/race-programme",
+    "https://www.ischgl.com/en/booking/packages/specialoffers/ISC/82f316ed-9b28-4437-bebf-15705891e2b7/galtuer-nordic-volumes"
+  ],
+  "checked_at": "2026-03-12T15:46:08Z"
+}

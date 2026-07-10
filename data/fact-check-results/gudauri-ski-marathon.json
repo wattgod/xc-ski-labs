@@ -1,0 +1,85 @@
+{
+  "slug": "gudauri-ski-marathon",
+  "name": "Gudauri Ski Marathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 350,
+    "country": "Georgia",
+    "region": "Mtskheta-Mtianeti",
+    "discipline": "classic",
+    "field_size": 70,
+    "founded": 2019,
+    "website": "https://www.gudauri.info",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Gudauri Ski Marathon' or any cross-country ski race with 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Gudauri Ski Marathon' or any cross-country ski race with 350m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Gudauri is in Georgia, but no sources confirm a 'Gudauri Ski Marathon' cross-country race there.",
+      "source_url": "https://www.gudauri.info/about_gudauri/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Gudauri is in Kazbegi region (Mtskheta-Mtianeti), but no sources confirm the specific race.",
+      "source_url": "https://www.gudauri.info/about_gudauri/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe the discipline for a 'Gudauri Ski Marathon'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention participant numbers for a 'Gudauri Ski Marathon'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a first edition in 2019 for this race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.gudauri.info is a Gudauri resort site with no mention of a 'Ski Marathon'.",
+      "source_url": "https://www.gudauri.info/about_gudauri/"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm March as typical date for this race; Gudauri events like Skimo are in February.",
+      "source_url": "https://www.traillab.ge/skimo/"
+    }
+  },
+  "citations": [
+    "https://www.traillab.ge/skimo/",
+    "https://gudauriski.com",
+    "https://gudauri.com",
+    "https://www.gudauri.info/about_gudauri/",
+    "https://mta.ski/about",
+    "https://gudauri.com/about-gudauri/",
+    "https://www.skigudauri.ge",
+    "https://gsf.ge/en/snowboard-cross-world-cup-in-gudauri/",
+    "https://gudauri.com/directory/activities/all-season-activities/",
+    "https://www.gudauri.info/news/?page=26"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:16Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "boulder-mountain-tour",
+  "name": "Boulder Mountain Tour",
+  "facts": {
+    "distance_km": 34,
+    "elevation_m": 850,
+    "country": "United States",
+    "region": "Utah",
+    "discipline": "both",
+    "field_size": "~1,000 starters",
+    "founded": 1974,
+    "website": "https://www.bouldermountaintour.com",
+    "date": "First Saturday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 34 km for the Full Boulder",
+      "source_url": "https://bouldermountaintour.com/bmt-race-field-rounding-into-shape/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "WRONG",
+      "correct_value": "Idaho, United States",
+      "note": "Race held in Ketchum, Idaho, in Sawtooth National Recreation Area",
+      "source_url": "https://bouldermountaintour.com/race-details/"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Idaho",
+      "note": "Located in Ketchum, Idaho; not Utah despite some Utah participants",
+      "source_url": "https://bouldermountaintour.com/race-details/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No explicit mention of classic vs skate; sources describe as cross-country ski race without specifying technique",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 800,
+      "note": "Capped at 800 for Full Boulder (2025); recent events had 770 starters out of 1000 registrants (~77% of ~1000)",
+      "source_url": "https://bouldermountaintour.com/race-details/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1974,
+      "note": "49th annual in 2023 implies first edition 1975 (2023-48=1975); 52nd in 2025 confirms ~1974 start but exact year not explicit",
+      "source_url": "https://bouldermountaintour.com/bmt-race-field-rounding-into-shape/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site",
+      "source_url": "https://bouldermountaintour.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First Saturday in February confirmed repeatedly",
+      "source_url": "https://bouldermountaintour.com/race-details/"
+    }
+  },
+  "citations": [
+    "https://bouldermountaintour.com/bmt-race-field-rounding-into-shape/",
+    "https://bouldermountaintour.com/race-details/",
+    "https://fasterskier.com/2025/02/the-2025-zions-bank-boulder-mountain-tour-a-lesson-in-perseverance-and-faith-in-the-people-around-you/",
+    "https://bouldermountaintour.com/2025-bmt-an-affair-to-remember/",
+    "https://bouldermountaintour.com/wp-content/uploads/2025/01/2025BMTprogramWeb.pdf",
+    "https://www.theargyros.org/calendar/jpwuw0xczguybbrroygvnje80e9wfy-wnpdm",
+    "https://bouldermountaintour.com",
+    "https://bouldermountaintour.com/race-info/",
+    "https://bouldermountaintour.com/clear-and-present-strangers/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:12Z"
+}

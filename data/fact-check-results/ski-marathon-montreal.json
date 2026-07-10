@@ -1,0 +1,82 @@
+{
+  "slug": "ski-marathon-montreal",
+  "name": "Ski Marathon Montréal",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 80,
+    "country": "Canada",
+    "region": "Québec",
+    "discipline": "both",
+    "field_size": 400,
+    "founded": 2008,
+    "website": "https://www.skimarathonmontreal.ca",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Ski Marathon Montréal' with 25km distance; results reference Canadian Ski Marathon with sections 9.5-25km but not matching event",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 80m elevation gain for this event; general Montreal running elevation mentioned but irrelevant",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm event location; Canadian Ski Marathon is in Canada but different event",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Québec mentioned in Canadian Ski Marathon contexts near Montreal but no confirmation for 'Ski Marathon Montréal'",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Canadian Ski Marathon is classic but no info on 'Ski Marathon Montréal'",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this event",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year found; Canadian Ski Marathon predates 2008",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Website https://www.skimarathonmontreal.ca/ not found in results; skimarathon.ca is Canadian Ski Marathon",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Canadian Ski Marathon in early February but no confirmation for this event in mid-February",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://findmymarathon.com/elevation.php?elevation=Montreal+Marathon",
+    "https://findarace.com/ca/events/elevate-montreal-d%C3%A9fi-du-sentier-d%C3%A9l%C3%A9vation",
+    "https://skimarathon.ca/where-is-it/",
+    "https://en.wikipedia.org/wiki/Canadian_Ski_Marathon",
+    "https://hikebiketravel.com/the-canadian-ski-marathon-an-amazing-annual-event/",
+    "https://www.telemarktalk.com/viewtopic.php?t=5851",
+    "https://skimarathon.ca"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:52:55Z"
+}

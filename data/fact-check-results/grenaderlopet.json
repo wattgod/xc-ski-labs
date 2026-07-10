@@ -1,0 +1,82 @@
+{
+  "slug": "grenaderlopet",
+  "name": "Grenaderløpet",
+  "facts": {
+    "distance_km": 90,
+    "elevation_m": 900,
+    "country": "Norway",
+    "region": "Buskerud",
+    "discipline": "classic",
+    "field_size": "~1,500 starters",
+    "founded": 1975,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Website confirms 90km classic style",
+      "source_url": "https://www.grenaderen.com"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Norwegian race",
+      "source_url": "https://www.grenaderen.com"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "2026 edition moved to Nittedal (Akershus), historical links to Buskerud possible but unconfirmed",
+      "source_url": "https://www.grenaderen.com"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 'klassisk stil' (classic)",
+      "source_url": "https://www.grenaderen.com"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1969,
+      "note": "Website states 'siden 1969' (since 1969)",
+      "source_url": "https://www.grenaderen.com"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.grenaderen.com",
+      "note": "Official site identified",
+      "source_url": "https://www.grenaderen.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed February (7. februar 2026)",
+      "source_url": "https://www.grenaderen.com"
+    }
+  },
+  "citations": [
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://www.grenaderen.com",
+    "https://www.airial.travel/attractions/norway/gjellebekk-skanse-H__UGAkX",
+    "https://worldloppetskier.wordpress.com/wp-content/uploads/2015/01/xc_long_distance_calender_2015_iawls.pdf",
+    "https://worldloppetskier.files.wordpress.com/2012/12/world-ski-marathon-calender-2013.pdf",
+    "https://www.youtube.com/watch?v=9Ta8t-6X484",
+    "https://birken.no/en/undersider-ski/seeding-races-birkebeinerrennet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:58Z"
+}

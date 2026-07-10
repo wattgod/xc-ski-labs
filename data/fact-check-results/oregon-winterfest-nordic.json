@@ -1,0 +1,82 @@
+{
+  "slug": "oregon-winterfest-nordic",
+  "name": "Oregon Winterfest Nordic",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 250,
+    "country": "United States",
+    "region": "Oregon",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 2000,
+    "website": "https://www.bendwinterfest.com",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Oregon Winterfest Nordic' or matching 20km distance",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Oregon Winterfest Nordic' or matching 250m elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming 'Oregon Winterfest Nordic' in United States",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming 'Oregon Winterfest Nordic' in Oregon",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming classic and skate for 'Oregon Winterfest Nordic'",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming typical 100 participants for 'Oregon Winterfest Nordic'",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming first edition in 2000 for 'Oregon Winterfest Nordic'",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming https://www.bendwinterfest.com as official site for 'Oregon Winterfest Nordic'; related WinterFest events at [2] but no Nordic race mentioned",
+      "source_url": "https://runsignup.com/Race/OR/Bend/WinterFestPumpBumpJam"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming mid-February for 'Oregon Winterfest Nordic'; Bend WinterFest at [2] is mid-February but not Nordic",
+      "source_url": "https://runsignup.com/Race/OR/Bend/WinterFestPumpBumpJam"
+    }
+  },
+  "citations": [
+    "https://conordicclub.wildapricot.org/event-6078463",
+    "https://runsignup.com/Race/OR/Bend/WinterFestPumpBumpJam",
+    "https://www.skihood.com/explore/Nordic-Races",
+    "https://mbsef.org/mt-bachelor-cup-nordic-races/",
+    "https://bendmagazine.com/event/ski-for-all-3/",
+    "https://hoodoo.com/event/winter-carnival-2022/",
+    "https://oisran.org/race-schedules/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:48:24Z"
+}

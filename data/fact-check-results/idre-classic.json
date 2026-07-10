@@ -1,0 +1,84 @@
+{
+  "slug": "idre-classic",
+  "name": "Idre Classic",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 350,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.idre.se",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Vasaloppet site lists Idre Classic as 50 km race[8]",
+      "source_url": "https://vasaloppet.se/en/ski/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific elevation gain found for Idre Classic race; general area elevation 660-750m mentioned but not race-specific[1]",
+      "source_url": "https://www.snow-online.com/cross-country/idre-fjaell.html"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in multiple sources as Sweden[1][2][4][8]",
+      "source_url": "https://www.idrefjall.se/en/skiing/cross-country-skiing/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in northwestern Dalarna[4]",
+      "source_url": "https://www.idrefjall.se/en/training-competitions/race-arena/cross-country-biathlon/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Name 'Idre Classic' and Vasaloppet context indicate classic style[8]",
+      "source_url": "https://vasaloppet.se/en/ski/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants in Idre Classic",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.idrefjall.se appears to be main site for Idre Fjäll area hosting the race, but https://www.idre.se not confirmed as official for Idre Classic specifically; no direct match found[2][4]",
+      "source_url": "https://www.idrefjall.se/en/skiing/cross-country-skiing/"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific date or month confirmed for Idre Classic; general cross-country season October-April[1][2]",
+      "source_url": "https://www.snow-online.com/cross-country/idre-fjaell.html"
+    }
+  },
+  "citations": [
+    "https://www.snow-online.com/cross-country/idre-fjaell.html",
+    "https://www.idrefjall.se/en/skiing/cross-country-skiing/",
+    "https://www.fis-ski.com/freestyle/news/moguls-aerials-2025-26/idre-fjaell-set-to-host-fis-open-moguls-classic-with-live-streaming",
+    "https://www.idrefjall.se/en/training-competitions/race-arena/cross-country-biathlon/",
+    "https://www.nordicmag.info/en/cross-country-skiing-idre-fjall-swedish-cup-sindre-bjoernestad-skar-and-elin-henriksson-win-the-sprint-skate-event-1207/",
+    "https://www.youtube.com/watch?v=vVoBJX-m834",
+    "https://www.proxcskiing.com/biathlon/world-cup-winner-to-compete-at-swedish-biathlon-season-opener-in-idre-fjall/",
+    "https://vasaloppet.se/en/ski/",
+    "https://fjatervalen.se/en/skiing/cross-country/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:50Z"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "owl-creek-chase",
+  "name": "Owl Creek Chase",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 8,
+    "official_website": "https://www.teamavsc.org/owl-creek-chase",
+    "results_url": null,
+    "evidence_summary": "Multiple sources confirm the Owl Creek Chase as a real, long-running cross-country ski race in Aspen/Snowmass, Colorado, organized by Aspen Valley Ski & Snowboard Club (AVSC) since the 1980s. Evidence includes official AVSC pages announcing the 2026 event (cancelled due to low snow), registration on SkiReg.com for 2024 and 2026, trail system mentions, news articles, and local government calendars. No race results pages found in these snippets, but event history and active registration provide strong verification.",
+    "sources": [
+      "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592",
+      "https://www.teamavsc.org/owl-creek-chase",
+      "https://www.aspennordic.com/trails/owl-creek-trail",
+      "https://www.skireg.com/7281",
+      "https://www.skireg.com/8543",
+      "https://fasterskier.com/author/owlcreekchase/",
+      "https://www.tosv.com/Calendar.aspx",
+      "https://www.aspen.gov/Calendar.aspx"
+    ]
+  },
+  "citations": [
+    "https://www.teamavsc.org/page.cfm?pageid=16645&articleid=40592",
+    "https://www.aspennordic.com/trails/owl-creek-trail",
+    "https://www.teamavsc.org/owl-creek-chase",
+    "https://www.skireg.com/7281",
+    "https://www.skireg.com/8543",
+    "https://fasterskier.com/author/owlcreekchase/",
+    "https://www.tosv.com/Calendar.aspx",
+    "https://www.aspen.gov/Calendar.aspx"
+  ],
+  "checked_at": "2026-03-12T15:59:15Z"
+}

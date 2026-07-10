@@ -1,0 +1,26 @@
+{
+  "slug": "davos-nordic-marathon",
+  "name": "Davos Nordic Marathon",
+  "country": "Switzerland",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Davos Nordic Marathon' cross-country ski race. Search results confirm 'Davos Nordic' as an established FIS Cross-Country World Cup event with sprints and distances, not a marathon. No race results, registration, Worldloppet/Euroloppet listings, or social media for a marathon event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58062&seasoncode=2026",
+    "https://www.davosnordic.ch/en/programm",
+    "https://www.davosnordic.ch",
+    "https://www.davos.ch/en/information/portrait-image/storybook/davos-nordic",
+    "https://www.davosnordic.ch/events",
+    "https://www.davos.ch/en/national-davos",
+    "https://www.davosnordic.ch/en/events",
+    "https://www.nordicmag.info/en/cross-country-skiing-davos-switzerland-unveils-its-selection-for-the-world-cup-in-graubunden-1208/",
+    "https://www.davos.ch/en/information/news/news/ready-for-the-cross-country-skiing-season"
+  ],
+  "checked_at": "2026-03-12T15:43:30Z"
+}

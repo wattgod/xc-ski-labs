@@ -1,0 +1,23 @@
+{
+  "slug": "three-rivers-classic",
+  "name": "Three Rivers Classic",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a cross-country ski race called 'Three Rivers Classic' was found in the search results. The search results contain information about the Three Rivers Ski League, which is an alpine (downhill) ski racing organization in Oregon, not a cross-country ski event. The query appears to conflate two different skiing disciplines and organizations.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.ski3rivers.org",
+    "https://www.ski3rivers.org/schedule",
+    "https://www.ski3rivers.org/league-info",
+    "https://threeriversskiracing.sportngin.com",
+    "https://www.ski3rivers.org/sportsmanship",
+    "https://www.ski3rivers.org/past-results"
+  ],
+  "checked_at": "2026-03-12T16:08:16Z"
+}

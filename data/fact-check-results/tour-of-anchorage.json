@@ -1,0 +1,83 @@
+{
+  "slug": "tour-of-anchorage",
+  "name": "Tour of Anchorage",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 600,
+    "country": "United States",
+    "region": "Alaska",
+    "discipline": "both",
+    "field_size": "~1,500",
+    "founded": 1988,
+    "website": "https://www.tourofanchorage.com",
+    "date": "First Sunday in March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers 50 km distance among 25, 40, and 50 km options",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Anchorage, AK",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Anchorage, Alaska",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Available in both Freestyle (skate) and Classic techniques",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 307,
+      "note": "307 finishers in 2025 (low snow year); typical higher but no exact ~1,500 confirmed and outside ±20% tolerance without baseline",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Inception in 1988",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://anchoragenordicski.com/events/tour-of-anchorage/",
+      "note": "Official event page on Nordic Ski Association site",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sunday March 8, 2026 (first Sunday in March); presented March 8, 2026",
+      "source_url": "https://anchoragenordicski.com/events/tour-of-anchorage/"
+    }
+  },
+  "citations": [
+    "https://anchoragenordicski.com/events/tour-of-anchorage/",
+    "https://anchoragenordicski.com/races/ancsupertour/",
+    "https://www.usskiandsnowboard.org/events/alaska-supertour-anchorage",
+    "https://www.enduradv.com/group-trips/anchorage-tour/",
+    "https://www.crosscountryalaska.org/calendar",
+    "https://anchoragenordicski.com/anchorage-nordic-skiing/",
+    "https://www.alaskanordicracing.org",
+    "https://www.anchorage.net/event/tour-of-anchorage/47400/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:57:06Z"
+}

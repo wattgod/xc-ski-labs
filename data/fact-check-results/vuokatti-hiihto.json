@@ -1,0 +1,82 @@
+{
+  "slug": "vuokatti-hiihto",
+  "name": "Vuokatti Hiihto",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 400,
+    "country": "Finland",
+    "region": "Kainuu",
+    "discipline": "both",
+    "field_size": "~800-1,200 participants",
+    "founded": 1989,
+    "website": "https://www.vuokattihiihto.fi",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Main race distances are 14km, 30km, 50km (free/classic); no specific 60km mentioned, closest main is 50km within some events up to 100km",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No total elevation gain specified for race course; individual trails show max ascent 165-201m but not cumulative for full race",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as in Finland",
+      "source_url": "https://www.goxski.com/vuokatti"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Kainuu region (Vuokatti, Sotkamo area)",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both free (skate) and classic styles for all main distances",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 2000,
+      "note": "Around 2,000 participants; outside 800-1200 range (±20% tolerance 640-1440)",
+      "source_url": "https://www.goxski.com/vuokatti"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable source found for founding year",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "endurancekainuu.fi hosts event pages but no confirmation of https://www.vuokattihiihto.fi as official; possibly outdated",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Mid-March",
+      "note": "Confirmed mid-March (e.g., 14.3.2026, 16 Mar 2024); not first week of February as one older source claims",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/"
+    }
+  },
+  "citations": [
+    "https://www.goxski.com/vuokatti",
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/",
+    "https://vuokatti.fi/en/cross-country-skiing/",
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/finland",
+    "https://www.kainuu.fi/en/tarinat-2/vuokatti-hiihto-skiing-event/",
+    "https://hiihtoliitto.fi/en/cross-country-events-of-jwsc21-are-ready-to-kick-off-tomorrow-in-vuokatti-jessie-diggins-and-protect-our-winters-finland-are-sending-an-important-message/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:58:22Z"
+}

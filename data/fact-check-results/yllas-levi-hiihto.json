@@ -1,0 +1,83 @@
+{
+  "slug": "yllas-levi-hiihto",
+  "name": "Ylläs-Levi Hiihto",
+  "facts": {
+    "distance_km": 70,
+    "elevation_m": 850,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "both",
+    "field_size": "~1,000 starters",
+    "founded": 1985,
+    "website": "https://yllaslevi.fi/en/",
+    "date": "Mid-April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 70km distance for the main race from Ylläsjärvi to Levi[1][2][3]",
+      "source_url": "https://yllaslevi.fi/en/race-info/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Finland, specifically Finnish Lapland[2][3][5]",
+      "source_url": "https://yllaslevi.fi/en/general-information/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Lapland, north of Finland; Fell Lapland mentioned[2][3]",
+      "source_url": "https://yllaslevi.fi/en/general-information/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic on Friday, skating (freestyle) on Saturday, confirming both[3][4][5]",
+      "source_url": "https://yllaslevi.fi/en/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 2000,
+      "note": "2025 had 2000 skiers, outside ±20% tolerance of ~1000 (800-1200); no typical ~1000 found",
+      "source_url": "https://yllas.fi/en/event/yllas-levi-hiihto-2026/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site used in all primary sources",
+      "source_url": "https://yllaslevi.fi/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently first half of April; 2025: 4th-5th, 2026: 10th-11th[1][2][3][4]",
+      "source_url": "https://yllaslevi.fi/en/race-info/"
+    }
+  },
+  "citations": [
+    "https://yllaslevi.fi/en/race-info/",
+    "https://yllaslevi.fi/en/general-information/",
+    "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+    "https://yllaslevi.fi/en/",
+    "https://www.visitfinland.com/en/product/b6c6f493-6afd-462f-9571-623beaf26c95/yllas-levi-hiihto-2026/",
+    "https://yllaslevi.fi/en/program/",
+    "https://yllas.fi/en/event/yllas-levi-hiihto-2026/",
+    "https://www.levi.fi/en/news-and-stories/yllas-levi-reaching-the-finish-line-with-the-right-equipment-and-tips/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:58:36Z"
+}

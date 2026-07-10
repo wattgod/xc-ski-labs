@@ -1,0 +1,81 @@
+{
+  "slug": "wasatch-citizens-series",
+  "name": "Wasatch Citizens Series",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Utah",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": null,
+    "website": "https://www.soldierhollow.com",
+    "date": "January to March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 10,
+      "note": "Sources describe typical race distances as 10km for skiathlon and age-based (1-10km), with short/long course options for adults; no 25km mentioned.[1][5]",
+      "source_url": "https://utaholympiclegacy.org/event/wasatch-citizen-series-race-2/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain information.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Utah-based events.[2][3][4]",
+      "source_url": "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Events held along Wasatch Front and Back in Utah.[2][3]",
+      "source_url": "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Series includes two classic and three free technique (skate) races.[2]",
+      "source_url": "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1979,
+      "note": "Premier nordic skiing events since 1979; more than forty years ago from recent context.[2][3][4]",
+      "source_url": "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://utahnordic.org/wcs/",
+      "note": "Utah Nordic Alliance (TUNA) site hosts WCS info, registration via Zone4 linked there; Soldier Hollow hosts specific races but not series official site.[5]",
+      "source_url": "https://utahnordic.org/wcs/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Five events yearly January to March, e.g., 2026 schedule starts January.[3][5]",
+      "source_url": "https://townlift.com/2025/12/mark-your-calendar-wasatch-citizens-and-town-series-ski-race-dates-for-2026/"
+    }
+  },
+  "citations": [
+    "https://utaholympiclegacy.org/event/wasatch-citizen-series-race-2/",
+    "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html",
+    "https://townlift.com/2025/12/mark-your-calendar-wasatch-citizens-and-town-series-ski-race-dates-for-2026/",
+    "https://utahnordic.org/wcs-about/",
+    "https://utahnordic.org/wcs/",
+    "https://activeproject.kellybrushfoundation.org/events/xc-ski-race-tuna-wcs-3/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:59:14Z"
+}

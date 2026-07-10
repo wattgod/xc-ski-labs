@@ -1,0 +1,84 @@
+{
+  "slug": "tamsalu-ski-marathon",
+  "name": "Tamsalu Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 200,
+    "country": "Estonia",
+    "region": "Lääne-Virumaa",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon; all results reference Tartu Maraton (63km)",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon; Tartu Maraton reports 778-779m or ~400m",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming Tamsalu Ski Marathon in Estonia; Tartu Maraton is in Estonia",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon in Lääne-Virumaa; Tartu Maraton in Otepää/Valga County area",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon; Tartu Maraton is classic technique",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon participants (~300); Tartu Maraton has thousands (e.g., 6,000)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon founding year; Tartu Maraton founded ~1960 (63 active years, 48th edition ~2022)",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon website",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Tamsalu Ski Marathon date (February); Tartu Maraton typically mid-February",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://app.advcollective.com/travel-guides/Tartu/glide-through-estonia-the-thrill-of-the-tartu-ski-marathon",
+    "https://skiclassics.com/all-you-need-to-know-before-tartu-maraton/",
+    "https://www.proxcskiing.com/long-distance/all-you-need-to-know-before-tartu-maraton/",
+    "https://www.worldloppet.com/wl-race/tartu-maraton/",
+    "https://www.merinomuster.com/post/the-tartu-maraton-estonia",
+    "https://en.wikipedia.org/wiki/Tartu_Maraton",
+    "https://www.sandozconcept.com/media/tartu_2025_english.pdf",
+    "https://visitestonia.com/en/51st-tartu-marathon",
+    "https://tartumaraton.ee/en/tartu-maraton-2024"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:19:55Z"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "glacier-nordic-races",
+  "name": "Glacier Nordic Races",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a race named 'Glacier Nordic Races'. The Glacier Nordic Club organizes events like Glacier Glide (cross-country ski race with results from 2023), but this exact name does not match any listed event. Searches yielded only club events, no mentions of 'Glacier Nordic Races' in results, news, or directories.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.glaciernordicclub.org/glacier-glide-race/",
+    "https://www.glaciernordicclub.org/events-3/big-mountain-trail-run/",
+    "https://www.glaciernordicclub.org/glacier-meltdown-biathlon/",
+    "https://www.glaciernordicclub.org/events-3/tuesday-night-relay-races-tnrr/",
+    "https://www.glaciernordicclub.org/events-3/carnival-classic-race/",
+    "https://www.glaciernordicclub.org",
+    "https://www.glaciernordicclub.org/events-3/",
+    "https://www.glaciernordicclub.org/category/current-events/",
+    "https://www.glaciernordicclub.org/glacier-glide-race/glacier-glide-2/"
+  ],
+  "checked_at": "2026-03-12T15:46:41Z"
+}

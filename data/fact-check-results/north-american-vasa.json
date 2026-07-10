@@ -1,0 +1,82 @@
+{
+  "slug": "north-american-vasa",
+  "name": "North American Vasa",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 450,
+    "country": "United States",
+    "region": "Michigan",
+    "discipline": "both",
+    "field_size": 1000,
+    "founded": 1977,
+    "website": "https://www.vfrr.org",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "50k Classic and Freestyle races confirmed, matching within tolerance",
+      "source_url": "https://www.vasa.org/Race/NorthAmericanVasaFestivalofRaces/Page/Events"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Traverse City, MI, United States",
+      "source_url": "https://enjoywinter.com/read-skipost/north-american-vasa-is-on-as-trail-conditions-reach-peak/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Michigan, specifically northern Michigan and Traverse City",
+      "source_url": "https://nmmba.net/content.aspx?page_id=22&club_id=533979&module_id=708585"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and freestyle (skate) events offered",
+      "source_url": "https://www.vasa.org/Race/NorthAmericanVasaFestivalofRaces/Page/Events"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention 'hundreds of participants' but no specific typical number like 1000 found",
+      "source_url": "https://enjoywinter.com/read-skipost/north-american-vasa-is-on-as-trail-conditions-reach-peak/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Founded in 1977, 50th annual in 2026 confirms this",
+      "source_url": "https://nmmba.net/content.aspx?page_id=22&club_id=533979&module_id=708585"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.vasa.org",
+      "note": "Official site is vasa.org, not vfrr.org",
+      "source_url": "https://enjoywinter.com/read-skipost/north-american-vasa-is-on-as-trail-conditions-reach-peak/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically first full weekend in February",
+      "source_url": "https://nmmba.net/content.aspx?page_id=22&club_id=533979&module_id=708585"
+    }
+  },
+  "citations": [
+    "https://nmmba.net/content.aspx?page_id=22&club_id=533979&module_id=708585",
+    "https://enjoywinter.com/read-skipost/north-american-vasa-is-on-as-trail-conditions-reach-peak/",
+    "https://www.skisignup.com/Race/NorthAmericanVasaFestivalofRaces/Page/About",
+    "https://www.vasa.org/Race/NorthAmericanVasaFestivalofRaces/Page/Events",
+    "https://www.vasa.org/Race/Events/MI/TraverseCity/NorthAmericanVasaFestivalofRaces",
+    "https://www.vasa.org/Race/MI/TraverseCity/NorthAmericanVasaFestivalofRaces",
+    "https://www.vasa.org/Race/Results/88459"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:47:51Z"
+}

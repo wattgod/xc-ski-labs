@@ -1,0 +1,32 @@
+{
+  "slug": "gantrisch-loppet",
+  "name": "Gantrisch Loppet",
+  "country": "Switzerland",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://gantrischloppet.ch",
+    "results_url": null,
+    "evidence_summary": "The Gantrisch Loppet has a fully functional official website with detailed reglement, news updates confirming past events in 2023, 2024, and 2025, registration pages, and announcements for the 2026 edition as part of the Swiss Loppet series. Multiple independent sources including Switzerland Tourism, Bern Welcome, and Parks Switzerland promote it as a real cross-country ski race in Gantrisch Nature Park. News on the site mentions successful past races and weather-related adjustments, establishing it as an organized annual event.",
+    "sources": [
+      "https://gantrischloppet.ch",
+      "https://www.myswitzerland.com/en-us/experiences/events/4-gantrisch-loppet-2027/",
+      "https://gantrischloppet.ch/news",
+      "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event",
+      "https://www.parks.swiss/en/visit-the-parks/all-offers/offer-detail/gantrisch-loppet-langlauf-breitensportevent-im-naturpark-46347"
+    ]
+  },
+  "citations": [
+    "https://www.myswitzerland.com/en-us/experiences/events/4-gantrisch-loppet-2027/",
+    "https://gantrischloppet.ch/reglement",
+    "https://gantrischloppet.ch/news",
+    "https://gantrischloppet.ch",
+    "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event",
+    "https://gantrischloppet.ch/anmeldung",
+    "https://www.parks.swiss/en/visit-the-parks/all-offers/offer-detail/gantrisch-loppet-langlauf-breitensportevent-im-naturpark-46347",
+    "https://gantrischloppet.ch/serie",
+    "https://datasport.com/en/sport-events/series/swiss-loppet/"
+  ],
+  "checked_at": "2026-03-12T15:46:20Z"
+}

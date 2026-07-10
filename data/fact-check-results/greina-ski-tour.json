@@ -1,0 +1,85 @@
+{
+  "slug": "greina-ski-tour",
+  "name": "Greina Ski Tour",
+  "facts": {
+    "distance_km": 35,
+    "elevation_m": 900,
+    "country": "Switzerland",
+    "region": "Graubünden",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": 1998,
+    "website": "https://www.greinaskitour.ch",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Greina Ski Tour' or matching the claimed 35km cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming or denying 900m elevation gain for 'Greina Ski Tour'. Search results discuss hiking routes in Greina plateau area but no ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Greina plateau is on Switzerland-Ticino/Graubünden border[3][4][6], but no confirmation of 'Greina Ski Tour' race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Graubünden mentioned in context of Greina area[1][2][6], but no specific ski race found.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe a 'Greina Ski Tour' cross-country race or its technique (classic/skate).",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on typical participants (claimed 150) for any 'Greina Ski Tour'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention a 'Greina Ski Tour' founded in 1998.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify https://www.greinaskitour.ch as no search results reference this URL or confirm it as official site for the race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of late February for 'Greina Ski Tour'. Some unrelated ski tours in late Feb[1], but no match.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.backcountryadventures.co.uk/activities/graub%C3%BCnden-haute-route-ski-tour",
+    "https://www.strava.com/routes/backcountry-skiing/switzerland/graubunden",
+    "https://huttohuthikingswitzerland.com/tours/greina-plateau-hike",
+    "https://www.ticinotopten.ch/en/trekking/greina",
+    "https://www.bergfex.com/tl/ch/passo-della-greina/touren/wandern/",
+    "https://www.graubuenden.ch/en/tours/greina-for-endurance-hikers",
+    "https://www.myswitzerland.com/en-us/experiences/greina-plateau/",
+    "https://blog.tatonka.com/en/hike-through-the-greina-plateau/",
+    "https://www.graubuenden.ch/en/tours/the-greina-1-day-route-with-the-bus-alpin",
+    "https://www.youtube.com/watch?v=by4QsJxIeq4"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:40:05Z"
+}

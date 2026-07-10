@@ -1,0 +1,31 @@
+{
+  "slug": "boulder-mountain-tour",
+  "name": "Boulder Mountain Tour",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://bouldermountaintour.com",
+    "results_url": null,
+    "evidence_summary": "The Boulder Mountain Tour has a fully functional official website detailing the event as a long-standing annual cross-country ski race in Ketchum, Idaho, on the Harriman Trail, with references to its 49th, 51st, 52nd, and 53rd editions in various years. Multiple pages provide race details, schedules, field sizes up to 800 participants, weather updates, and historical context as a nonprofit event. While direct race results links are not in the provided snippets, the site's depth, consistency across years, and organizational details confirm it as a real, organized event.",
+    "sources": [
+      "https://bouldermountaintour.com",
+      "https://bouldermountaintour.com/bmt-race-field-rounding-into-shape/",
+      "https://bouldermountaintour.com/race-details/",
+      "https://bouldermountaintour.com/race-status-2025/"
+    ]
+  },
+  "citations": [
+    "https://bouldermountaintour.com/bmt-race-field-rounding-into-shape/",
+    "https://bouldermountaintour.com/race-details/",
+    "https://bouldermountaintour.com",
+    "https://bouldermountaintour.com/race-status-2025/",
+    "https://bouldermountaintour.com/race-info-2/",
+    "https://bouldermountaintour.com/sign-ups-to-start-for-the-2024-bmt/",
+    "https://bouldermountaintour.com/race-packet-pickup-expo/",
+    "https://bouldermountaintour.com/category/news/",
+    "https://bouldermountaintour.com/our-town-2/"
+  ],
+  "checked_at": "2026-03-12T15:41:12Z"
+}

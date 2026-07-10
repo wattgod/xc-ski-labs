@@ -1,0 +1,32 @@
+{
+  "slug": "bad-gastein-criterium",
+  "name": "Bad Gastein Criterium",
+  "country": "Austria",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://skiclassics.com/events/pro-tour/bad-gastein-criterium/",
+    "results_url": null,
+    "evidence_summary": "Multiple official Ski Classics pages confirm the Bad Gastein Criterium as a 36km mass-start race on December 14, 2025, in Sportgastein, Austria, part of Season XVII with past winners listed. Local tourism sites like gastein.com and derskiguide.at detail it within the Gastein Classics weekend, including registration and schedules. Proxcskiing and Vasaloppet also list it in calendars, establishing it as a real organized event.",
+    "sources": [
+      "https://derskiguide.at/en/event/gastein-classics/",
+      "https://skiclassics.com/events/pro-tour/bad-gastein-criterium/",
+      "https://www.gastein.com/en/experiences-events/events/winter/gastein-classics/",
+      "https://www.proxcskiing.com/long-distance/bad-gastein-criterium-wraps-up-the-opening-weekend-of-season-xvii/",
+      "https://vasaloppet.se/en/guides-and-tips/ski/ski-classics/",
+      "https://www.proxcskiing.com/long-distance/all-you-need-to-know-ahead-of-the-bad-gastein-weekend-season-xvii/",
+      "https://skiclassics.com/strong-performances-mark-the-bad-gastein-criterium-season-xvii/"
+    ]
+  },
+  "citations": [
+    "https://derskiguide.at/en/event/gastein-classics/",
+    "https://skiclassics.com/events/pro-tour/bad-gastein-criterium/",
+    "https://www.gastein.com/en/experiences-events/events/winter/gastein-classics/",
+    "https://www.proxcskiing.com/long-distance/bad-gastein-criterium-wraps-up-the-opening-weekend-of-season-xvii/",
+    "https://vasaloppet.se/en/guides-and-tips/ski/ski-classics/",
+    "https://www.proxcskiing.com/long-distance/all-you-need-to-know-ahead-of-the-bad-gastein-weekend-season-xvii/",
+    "https://skiclassics.com/strong-performances-mark-the-bad-gastein-criterium-season-xvii/"
+  ],
+  "checked_at": "2026-03-12T15:38:54Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "crescent-lake-challenge",
+  "name": "Crescent Lake Challenge",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.crescentlakechallenge.com",
+    "results_url": null,
+    "evidence_summary": "An official website provides detailed event information including race distance, fees, start time, and location at Crescent Lake Sno-Park, Oregon. A registration page on getmeregistered.com shows categories for the 23K Nordic Ski race with on-site registration available. Additional mentions appear on Sporthill.com (2019 event) and XC Oregon event listing (scheduled for February 23, 2025, after a hiatus).",
+    "sources": [
+      "https://www.crescentlakechallenge.com",
+      "https://secure.getmeregistered.com/get_information.php?event_id=136444",
+      "https://www.sporthill.com/crescent-lake-challenge/",
+      "https://xcoregon.org/pac-nw-event-listing"
+    ]
+  },
+  "citations": [
+    "https://secure.getmeregistered.com/get_information.php?event_id=136444",
+    "https://www.crescentlakechallenge.com",
+    "https://www.sporthill.com/crescent-lake-challenge/",
+    "https://www.crescentskicouncil.org/content.aspx?page_id=22&club_id=395076&module_id=530585",
+    "https://xcoregon.org/pac-nw-event-listing"
+  ],
+  "checked_at": "2026-03-12T15:43:15Z"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "kananaskis-ski-marathon",
+  "name": "Kananaskis Ski Marathon",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://www.foothillsnordic.ca/cookie-race",
+    "results_url": null,
+    "evidence_summary": "The Kananaskis Ski Marathon (also known as the Cookie Race) is confirmed as a real, organized annual event run by the Foothills Nordic Ski Club in Alberta, Canada. The official website lists the 2026 event scheduled for February 28, 2026, at Peter Lougheed Provincial Park. Historical documentation confirms the race has been held since 1978, making it the second-oldest Nordic event in Alberta and the second-largest loppet in the province.",
+    "sources": [
+      "https://www.foothillsnordic.ca/cookie-race",
+      "https://kananaskis.com/things-to-do/winter-activities/cross-country-skiing"
+    ]
+  },
+  "citations": [
+    "https://www.foothillsnordic.ca/cookie-race",
+    "https://skimarathon.ca",
+    "https://kananaskis.com/things-to-do/winter-activities/cross-country-skiing",
+    "https://skimarathon.ca/canadian-ski-challenge/",
+    "https://www.skinasa.org/kananakis-alpine-ski-club",
+    "https://alpinecanada.org/competitions/nc-nakiska-260109",
+    "https://www.tichyracing.com/thanksgiving",
+    "https://skimarathon.ca/half-marathon/"
+  ],
+  "checked_at": "2026-03-12T15:50:58Z"
+}

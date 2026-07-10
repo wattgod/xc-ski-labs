@@ -1,0 +1,84 @@
+{
+  "slug": "traversee-de-la-haute-jura",
+  "name": "Traversée de la Haute-Jura",
+  "facts": {
+    "distance_km": 76,
+    "elevation_m": 1500,
+    "country": "France",
+    "region": "Jura",
+    "discipline": "classic",
+    "field_size": "~400-800 participants",
+    "founded": 1979,
+    "website": "https://www.gtj.asso.fr/en/itineraires-et-activites/gtj-a-ski-de-fond/",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 68,
+      "note": "Search results indicate La Transjurassienne covers 68km between Lamoura and Mouthe, not 76km. Source [3] states '68km between Lamoura and Mouthe' and source [2] mentions '70 km' as the main distance option.",
+      "source_url": "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 660,
+      "note": "Source [2] specifies '70 km - 660m D+' for the race elevation gain, not 1500m.",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as France in multiple sources [1][2][3]",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Jura Mountains/Jura region in multiple sources [1][2][3]",
+      "source_url": "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Source [2] states 'free style (skating or classic)' - both disciplines are allowed, not classic only.",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "participants": {
+      "status": "WRONG",
+      "correct_value": 4000,
+      "note": "Source [3] states 'Nearly 4,000 skiers' participate, not 400-800. This is significantly higher than the claimed range.",
+      "source_url": "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/"
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 1979 in sources [2] and [3]: 'The biggest cross-country ski race in France since 1979' and 'Created in 1979'",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.latransju.com/en/",
+      "note": "The official website is latransju.com, not gtj.asso.fr. Source [2] and [4] are the official La Transju' websites. The GTJ (Grande Traversée du Jura) is a different trail system [7].",
+      "source_url": "https://www.latransju.com/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as February. Source [2] indicates 2026 registration for 'February 7 & 8, 2026' and source [8] mentions 'February 8 and 9, 2025'.",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    }
+  },
+  "citations": [
+    "https://www.lesbellescombes.fr/en/",
+    "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/",
+    "https://www.latransju.com/en/",
+    "https://www.worldloppet.com/wl-race/la-transjurassienne/",
+    "https://www.latransju.com/en/actualites/le-programme-officiel-est-disponible/",
+    "https://www.gtj.asso.fr/en/",
+    "https://www.latransju.com/en/actualites/les-inscriptions-de-la-transju-sont-ouvertes/",
+    "https://www.pays-horloger.com/en/la-grande-traversee-du-jura-en-pays-horloger/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:57:44Z"
+}

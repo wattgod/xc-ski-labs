@@ -1,0 +1,31 @@
+{
+  "slug": "payakentsut",
+  "name": "Payakentsut",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.payak.ca",
+    "results_url": "https://www.payak.ca (mentions Zone4 results posted)",
+    "evidence_summary": "The Coast Outdoors P'ayakentsut (Payak) is a real annual cross-country ski event at Whistler Olympic Park, Canada, with an official website at payak.ca providing race details, course maps, and past results links to Zone4. Cross Country BC hosts official race notices for 2026 and 2022 events, including registration via Zone4, and the event is listed on Whistler Olympic Park's calendar with direct registration links. Additional mentions appear on Global News, confirming multiple years of organization by Callaghan Valley Cross Country.",
+    "sources": [
+      "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf",
+      "https://www.crosscountrybc.ca/2022-coast-outdoors-payakentsut-whistler-bc",
+      "https://www.payak.ca",
+      "https://www.whistlerolympicpark.com/things-to-do/event-calendar/the-coast-outdoors-payakentsut-payak",
+      "https://globalnews.ca/event/4929476/coast-outdoors-payak/"
+    ]
+  },
+  "citations": [
+    "https://crosscountrybc.ca/sites/default/files/documents/Coast%20Outdoors%20_P'ayakentsut_Race_Notice_2026_FNL.pdf",
+    "https://www.crosscountrybc.ca/2022-coast-outdoors-payakentsut-whistler-bc",
+    "https://www.payak.ca",
+    "https://www.whistlerolympicpark.com/things-to-do/event-calendar/the-coast-outdoors-payakentsut-payak",
+    "https://www.payak.ca/home/",
+    "https://www.payak.ca/course/",
+    "https://www.payak.ca/partners/",
+    "https://globalnews.ca/event/4929476/coast-outdoors-payak/"
+  ],
+  "checked_at": "2026-03-12T15:59:32Z"
+}

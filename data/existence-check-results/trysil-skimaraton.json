@@ -1,0 +1,33 @@
+{
+  "slug": "trysil-skimaraton",
+  "name": "Trysil Skimaraton",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.trysilskimaraton.org",
+    "results_url": null,
+    "evidence_summary": "Trysil Skimaraton has an active official website with detailed event info for 2026, including dates, distances, start times, and organizer contacts. It is listed as a Ski Classics Challenger event with over 20 years of history and 500-700 participants annually. Multiple tourism and organizer sites confirm the race as a real, seeding event for major races like Vasaloppet.",
+    "sources": [
+      "https://www.trysilskimaraton.org/info",
+      "https://skiclassics.com/events/challengers/trysil-skimaraton/",
+      "https://www.trysil.com/en/businesses/ostby-idrettslag/Trysil-Ski-Marathon-2025/",
+      "https://www.trysilskimaraton.org",
+      "https://www.trysil.com/en/businesses/ostby-idrettslag/Trysil-Ski-Marathon/"
+    ]
+  },
+  "citations": [
+    "https://www.trysilskimaraton.org/info",
+    "https://skiclassics.com/events/challengers/trysil-skimaraton/",
+    "https://www.trysil.com/en/businesses/ostby-idrettslag/Trysil-Ski-Marathon-2025/",
+    "https://www.trysilskimaraton.org",
+    "https://www.trysilskimaraton.org/loype",
+    "https://www.trysil.com/en/businesses/ostby-idrettslag/Trysil-Ski-Marathon/",
+    "https://www.trysilraceacademy.no",
+    "https://www.skistar.com/en/ski-destinations/trysil/winter-in-trysil/",
+    "https://www.visitnorway.com/places-to-go/eastern-norway/trysil/",
+    "https://www.trysil.com/en/"
+  ],
+  "checked_at": "2026-03-12T16:09:45Z"
+}

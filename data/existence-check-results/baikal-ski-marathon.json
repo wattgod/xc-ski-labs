@@ -1,0 +1,31 @@
+{
+  "slug": "baikal-ski-marathon",
+  "name": "Baikal Ski Marathon",
+  "country": "Russia",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "http://www.baikal-marathon.org",
+    "results_url": null,
+    "evidence_summary": "Multiple websites describe the Baikal Ski Marathon as an annual classic-style cross-country ski event held since 1976, organized by AngarskStroyKomplex and Irkutsk Ski Club, typically on the first Sunday of March with 3 laps in taiga forest near Lake Baikal. Sites like baikalcomplex.com provide detailed course info (elevation 670-805m, 60m climb per lap) and contact details. Distinct from the Baikal Ice Marathon (foot race on ice) and Baikal Race (dog-sled/skijoring), confirming it as a real organized ski event.",
+    "sources": [
+      "https://baikalcomplex.com/skimarathon.htm",
+      "https://baikalcomplex.com/superskimarathon.htm",
+      "http://www.baikal-marathon.org",
+      "https://www.baikal-race.ru/en/20-baikalrace-2017.html"
+    ]
+  },
+  "citations": [
+    "http://www.baikal-marathon.org/rulesandterms",
+    "https://baikalcomplex.com/skimarathon.htm",
+    "https://baikalcomplex.com/superskimarathon.htm",
+    "http://www.baikal-marathon.org",
+    "http://www.baikalexpress.de/eismarathon/index_eng.htm",
+    "http://baikal-marathon.org/tourservices/baikal-ice-marathon-traing-to-run-package",
+    "http://www.baikal-marathon.org/reports",
+    "https://www.baikal-race.ru/en/20-baikalrace-2017.html",
+    "http://baikalmarathon.com/en/CONTACT-US/"
+  ],
+  "checked_at": "2026-03-12T15:39:06Z"
+}

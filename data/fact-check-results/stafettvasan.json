@@ -1,0 +1,82 @@
+{
+  "slug": "stafettvasan",
+  "name": "StafettVasan",
+  "facts": {
+    "distance_km": 90,
+    "elevation_m": 850,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": "~12,000 starters (2,400 teams of 5)",
+    "founded": 2003,
+    "website": "https://www.vasaloppet.se/en/ski/stafettvasan/",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 90 km total distance for Stafettvasan relay.",
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for Stafettvasan.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden; starts in Sälen, ends in Mora.",
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Dalarna, Sweden.",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique specified.",
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 5000,
+      "note": "Sources describe 'over a thousand teams' (~2000-5000 starters assuming ~5 per team); database's 12,000 exceeds ±20% tolerance of ~6000.",
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2004,
+      "note": "Order Number 23 for 2026 implies first edition in 2004 (2026-22=2004).",
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site.",
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late February (e.g., Feb 27, 2026).",
+      "source_url": "https://vasaloppet.se/en/ski/stafettvasan/"
+    }
+  },
+  "citations": [
+    "https://vasaloppet.se/en/ski/stafettvasan/",
+    "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://vasaloppet.se/en/news/welcome-to-vasaloppets-winter-week-2026-here-is-a-guide-to-all-races/",
+    "https://www.learnswedishnow.com/blog/vasaloppet-the-worlds-oldest-cross-country-ski-race",
+    "https://www.mynewsdesk.com/se/vasaloppet/pressreleases/facts-statistics-news-and-trivia-ahead-of-vasaloppet-2026-3434542",
+    "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:51Z"
+}

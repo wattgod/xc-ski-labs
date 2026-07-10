@@ -1,0 +1,82 @@
+{
+  "slug": "summit-2-senja",
+  "name": "Grand Finale Summit 2 Senja",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 800,
+    "country": "Norway",
+    "region": "Northern Norway",
+    "discipline": "classic",
+    "field_size": "~250 recreational + Pro Tour field",
+    "founded": 2024,
+    "website": "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+    "date": "Last Sunday of March (Ski Classics season finale)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 60 km distance",
+      "source_url": "https://skiclassics.com/events/pro-tour/summit-2-senja/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1360,
+      "note": "Source lists Elevation Gain: 1360m (exceeds 800m +100m tolerance)",
+      "source_url": "https://www.proxcskiing.com/long-distance/the-grand-finale-summit-2-senja-ending-ski-classics-season-xvi/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Norway",
+      "source_url": "https://skiclassics.com/events/pro-tour/summit-2-senja/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Bardufoss-Finnsnes in northern Norway",
+      "source_url": "https://skiclassics.com/events/pro-tour/summit-2-senja/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No explicit mention of classic or skate; Ski Classics long-distance races typically classic but unconfirmed here",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~250 recreational spots + Pro Tour field confirmed (within ±20% tolerance)",
+      "source_url": "https://skiclassics.com/events/pro-tour/summit-2-senja/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2022,
+      "note": "Introduced in Season XIV (2021-2022), first edition 2024 would be Season XVI",
+      "source_url": "https://www.proxcskiing.com/long-distance/the-grand-finale-summit-2-senja-ending-ski-classics-season-xvi/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official Ski Classics event page",
+      "source_url": "https://skiclassics.com/events/pro-tour/summit-2-senja/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Last Sunday of March: e.g., March 29, 2026 (Sun), March 30, 2025 (Sun)",
+      "source_url": "https://skiclassics.com/events/pro-tour/summit-2-senja/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+    "https://www.proxcskiing.com/long-distance/the-grand-finale-summit-2-senja-ending-ski-classics-season-xvi/",
+    "https://skiclassics.com/how-to-qualify-for-the-ski-classics-grand-finale-summit-2-senja/",
+    "https://www.youtube.com/watch?v=NJandjdVCpo",
+    "https://etusuora.com/en/cross-country-skiing/ski-classics/summit-2-senja",
+    "https://www.youtube.com/watch?v=eZDHDOa6oHs",
+    "https://www.proxcskiing.com/long-distance/summit-2-senja-2024-impressive-win-for-lowstrom-nyenget/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:56:19Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "hetta-vuontisjarvi",
+  "name": "Hetta-Vuontisjärvi",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a specific cross-country ski race named 'Hetta-Vuontisjärvi'. Mentions of Vuontisjärvi appear only as a stage (Stage 2: Himmelriikin Hiihto, Vuontisjärvi-Pallas-Olos 50km) within the multi-stage Lapponia Ski Week event, not as a standalone race from Hetta to Vuontisjärvi. No official site, results, news articles, or listings confirm the exact event queried.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.hettahuskies.com/de/location/when-to-come/events",
+    "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/",
+    "https://www.hettahuskies.com/en/about-us/location/winter-area-attractions/skiing-in-enontekio",
+    "https://lahtiskigames.com/en/",
+    "https://www.hettahuskies.com/fi/location/winter-area-attractions/snowmobiling-in-enontekio",
+    "https://www.hettahuskies.com/en/location/winter-area-attractions/ski-races",
+    "https://www.hettahuskies.com/fi/location/xold/area-attractions2/skiing-in-enontekio",
+    "https://enontekiolapland.com/en/events/",
+    "https://www.proxcskiing.com/long-distance/lapponia-ski-week-stage-3-live-streamed-this-friday/",
+    "https://www.hettahuskies.com/fi/location/area-attractions/events-in-enontekio"
+  ],
+  "checked_at": "2026-03-12T15:48:45Z"
+}

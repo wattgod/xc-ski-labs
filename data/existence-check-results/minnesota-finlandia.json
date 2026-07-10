@@ -1,0 +1,33 @@
+{
+  "slug": "minnesota-finlandia",
+  "name": "Minnesota Finlandia",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.minnesotafinlandia.com",
+    "results_url": "https://www.minnesotafinlandia.com/results.html",
+    "evidence_summary": "The Minnesota Finlandia Ski Marathon has a fully functional official website with detailed race information, multiple years of posted results (e.g., 40th, 39th, back to 2005), and registration pages. It is listed in the 2026 Tour de Finn series schedule and has news coverage of past cancellations due to conditions. No Worldloppet or FIS mentions found, but extensive historical evidence confirms it as a real, organized event in Bemidji, MN.",
+    "sources": [
+      "https://www.minnesotafinlandia.com",
+      "https://www.minnesotafinlandia.com/results.html",
+      "https://www.minnesotafinlandia.com/marathon_race_info.htm",
+      "https://minnesotafinlandia.com/Registration.html",
+      "https://www.finnsisu.com/community/tour-de-finn",
+      "https://lptv.org/finlandia-ski-marathon-in-bemidji-cancelled-for-2nd-year-in-a-row/"
+    ]
+  },
+  "citations": [
+    "https://www.minnesotafinlandia.com/marathon_race_info.htm",
+    "https://www.minnesotafinlandia.com",
+    "https://www.minnesotafinlandia.com/results.html",
+    "https://www.minnesotafinlandia.com/Race%20Info.htm",
+    "https://www.finnsisu.com/community/tour-de-finn",
+    "https://minnesotafinlandia.com/Registration.html",
+    "https://www.minnesotafinlandia.com/25_km_pursuit.htm",
+    "https://www.minnesotafinlandia.com/Conditions.htm",
+    "https://lptv.org/finlandia-ski-marathon-in-bemidji-cancelled-for-2nd-year-in-a-row/"
+  ],
+  "checked_at": "2026-03-12T15:56:10Z"
+}

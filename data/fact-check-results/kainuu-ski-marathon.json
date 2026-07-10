@@ -1,0 +1,84 @@
+{
+  "slug": "kainuu-ski-marathon",
+  "name": "Kainuu Ski Marathon",
+  "facts": {
+    "distance_km": 100,
+    "elevation_m": 800,
+    "country": "Finland",
+    "region": "Kainuu",
+    "discipline": "both",
+    "field_size": "~350",
+    "founded": null,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 100 km distance exists as part of Vuokatti Hiihto (also called Kainuu Ski Marathon), via 50 km route twice[1][3][4][7]",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Vuokatti, Finland[1][3][4]",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Kainuu region[1][3][4][6]",
+      "source_url": "https://www.kainuu.fi/en/tarinat-2/vuokatti-hiihto-skiing-event/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both classic and freestyle (free) styles for all distances including 100 km[1][3][4]",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/",
+      "note": "Official site is Endurance Kainuu's Vuokatti Hiihto page",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Scheduled for March 14, 2026; described as spring/closing event typically in March[1][3][4][7]",
+      "source_url": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/"
+    }
+  },
+  "citations": [
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/",
+    "https://www.kainuutrail.fi/en/news",
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/",
+    "https://www.kainuu.fi/en/tarinat-2/vuokatti-hiihto-skiing-event/",
+    "https://www.kainuutrail.fi/en/entry-and-registration",
+    "https://endurancekainuu.fi/en/endurance-kainuu-en/",
+    "https://endurancekainuu.fi/en/vuokatti-ski-marathon-14-3-2026-new-start-times-and-route-updates/",
+    "https://skiorient.fi/en/",
+    "https://skiorient.fi/bulletin/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:48Z"
+}

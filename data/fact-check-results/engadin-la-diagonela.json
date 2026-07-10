@@ -1,0 +1,83 @@
+{
+  "slug": "engadin-la-diagonela",
+  "name": "La Diagonela",
+  "facts": {
+    "distance_km": 55,
+    "elevation_m": 500,
+    "country": "Switzerland",
+    "region": "Graubünden",
+    "discipline": "classic",
+    "field_size": "~2,000 starters",
+    "founded": 2014,
+    "website": "https://www.ladiagonela.ch",
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 55 km classic technique race.[1][2][5][6]",
+      "source_url": "https://www.worldloppet.com/la-diagonela-sui/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 694,
+      "note": "Sources report +694m elevation gain, outside ±100m tolerance of 500m.[1][2]",
+      "source_url": "https://www.worldloppet.com/la-diagonela-sui/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Switzerland across all sources.[1][2][3][6]",
+      "source_url": "https://www.worldloppet.com/la-diagonela-sui/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Engadin valley in Graubünden (canton); Zuoz, Pontresina locations confirm.[1][2][3]",
+      "source_url": "https://www.worldloppet.com/la-diagonela-sui/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Largest classic technique race in Switzerland; main race is classic (CT).[1][2][5][7]",
+      "source_url": "https://www.worldloppet.com/la-diagonela-sui/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of ~2,000 starters.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2014,
+      "note": "13th edition in 2026 implies first edition around 2014 (2026-12=2014).[8]",
+      "source_url": "https://www.proxcskiing.com/paid_content/engadin-la-diagonela-2026-the-heartbeat-of-classic-cross-country-skiing-returns-to-the-engadin-valley/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Website confirmed as www.ladiagonela.ch.[1]",
+      "source_url": "https://www.worldloppet.com/la-diagonela-sui/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-January: e.g., Jan 17-18 2026, Jan 18-19 2025.[2][3][6]",
+      "source_url": "https://fasterskier.com/2024/09/the-engadin-la-diagonela-a-preview-of-switzerlands-premier-skiing-competition/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/la-diagonela-sui/",
+    "https://fasterskier.com/2024/09/the-engadin-la-diagonela-a-preview-of-switzerlands-premier-skiing-competition/",
+    "https://www.toko.ch/en/news-wax-tip/news-stories/la-diagonela-2026/",
+    "https://www.kronenhof.com/en/engadin-activities/events/detail/4706541/?no_cache=1",
+    "https://www.sportivo.se/en/sportivo-se-engadin-la-diagonela/",
+    "https://skiclassics.com/events/pro-tour/engadin-la-diagonela/",
+    "https://www.myswitzerland.com/en-my/experiences/events/la-diagonela/",
+    "https://www.proxcskiing.com/paid_content/engadin-la-diagonela-2026-the-heartbeat-of-classic-cross-country-skiing-returns-to-the-engadin-valley/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:41:29Z"
+}

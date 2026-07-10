@@ -1,0 +1,25 @@
+{
+  "slug": "karakol-ski-marathon",
+  "name": "Karakol Ski Marathon",
+  "country": "Kyrgyzstan",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No official website, race results, news articles, or listings found for 'Karakol Ski Marathon' in any of the search results. A single mention of general 'Winter Skiing Games' in Karakol exists but does not reference a specific cross-country ski marathon event. No presence in Worldloppet, Ski Classics, FIS, social media, or video evidence.",
+    "sources": []
+  },
+  "citations": [
+    "https://open.kg/en/news/sports-news/73581-opredeleny-pobediteli-zimnih-igr-po-gornolyzhnomu-sportu-v-karakole.html",
+    "https://www.skinnyski.com/racing/",
+    "https://www.worldloppet.com/results/",
+    "https://www.webscorer.com/findraces?pg=results",
+    "https://onlineraceresults.com",
+    "https://my.raceresult.com",
+    "https://skiclassics.com/results/",
+    "https://www.npmarathon.com/years/2025"
+  ],
+  "checked_at": "2026-03-12T15:51:14Z"
+}

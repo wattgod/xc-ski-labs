@@ -1,0 +1,33 @@
+{
+  "slug": "rennsteig-ski-lauf",
+  "name": "Rennsteig Ski-Lauf",
+  "country": "Germany",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://rennsteig-skilauf.de/",
+    "results_url": null,
+    "evidence_summary": "The Rennsteig Ski-Lauf is a real cross-country ski race with a long tradition since 1906, organized by WSV Schneestern Seligenthal e.V., featuring 15km and 30km distances in classic and free techniques around Oberhof in Thuringia. Multiple sources including the official website confirm its existence and past events, such as the 47th edition scheduled for 2024, though recent announcements note cancellations due to climate conditions and its discontinuation after six consecutive cancellations as of August 2025. Tourism sites and the Thuringian Ski Association also reference it as an established event.",
+    "sources": [
+      "https://rennsteig-skilauf.de/rennsteig-skilauf/start/",
+      "https://tourismus.zella-mehlis.de/veranstaltungen-zella-mehlis/sportevents/rennsteigskilauf",
+      "https://rennsteig-skilauf.de/rennsteig-skilauf/ausschreibung/rennsteig-skilauf/",
+      "https://rennsteig-skilauf.de",
+      "https://thueringer-skiverband.de/termine/rennsteig-skilauf-arena/"
+    ]
+  },
+  "citations": [
+    "https://rennsteig-skilauf.de/rennsteig-skilauf/start/",
+    "https://tourismus.zella-mehlis.de/veranstaltungen-zella-mehlis/sportevents/rennsteigskilauf",
+    "https://www.rennsteiglauf.de/en/race/courses/supermarathon/",
+    "https://rennsteig-skilauf.de/rennsteig-skilauf/ausschreibung/rennsteig-skilauf/",
+    "https://www.rennsteiglauf.de/en/",
+    "https://www.rennsteiglauf.de/en/race/courses/half-marathon/",
+    "https://rennsteig-skilauf.de",
+    "https://thueringer-skiverband.de/termine/rennsteig-skilauf-arena/",
+    "https://www.oberhof.de/en/event/gutsmuths-rennsteiglauf-a17e1af085",
+    "https://rennsteig-skilauf.de/bergzeitfahren/start/"
+  ],
+  "checked_at": "2026-03-12T16:01:38Z"
+}

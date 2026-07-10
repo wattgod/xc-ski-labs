@@ -1,0 +1,82 @@
+{
+  "slug": "white-pine-stampede",
+  "name": "White Pine Stampede",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Michigan",
+    "discipline": "both",
+    "field_size": 400,
+    "founded": 1977,
+    "website": "https://www.whitepinestampede.org",
+    "date": "First Saturday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "Sources confirm long course around 42km or 40km (within ±3km tolerance, but listed as 40km/42km)",
+      "source_url": "https://whitepinestampede.org/index.php/trail-updates/[5]; https://nordicskiracer.com/event-details.asp?id=4242[1]"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States (Michigan)",
+      "source_url": "https://whitepinestampede.org[3]; https://www.goskimichigan.com/running-white-stampede/[2]"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Northwestern Lower Michigan, specifically Antrim County (Mancelona)",
+      "source_url": "https://whitepinestampede.org/index.php/about-us-history/[6]; https://nordicskiracer.com/event-details.asp?id=4242[1]"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic and skate (freestyle) combined for scoring; awards for both",
+      "source_url": "https://nordicskiracer.com/event-details.asp?id=4242[1]; https://whitepinestampede.org/index.php/white-pine-stampede-2-0/[4]"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention 'thousands who have skied' over history and original 90 entrants, but no typical number like 400 found",
+      "source_url": "https://whitepinestampede.org[3]; https://whitepinestampede.org/index.php/about-us-history/[6]"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First held in 1977; 50th in 2026 confirms (2026-50+1=1977)",
+      "source_url": "https://www.goskimichigan.com/running-white-stampede/[2]; https://whitepinestampede.org/index.php/about-us-history/[6]"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site with event details",
+      "source_url": "https://whitepinestampede.org[3]"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First Saturday in February (e.g., Feb 7, 2026; Feb 3, 2024)",
+      "source_url": "https://nordicskiracer.com/event-details.asp?id=4242[1]; https://whitepinestampede.org/index.php/trail-updates/[5]"
+    }
+  },
+  "citations": [
+    "https://nordicskiracer.com/event-details.asp?id=4242",
+    "https://www.goskimichigan.com/running-white-stampede/",
+    "https://whitepinestampede.org",
+    "https://whitepinestampede.org/index.php/white-pine-stampede-2-0/",
+    "https://whitepinestampede.org/index.php/trail-updates/",
+    "https://whitepinestampede.org/index.php/about-us-history/",
+    "https://whitepinestampede.org/index.php/register/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:59:31Z"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "vastgotaloppet",
+  "name": "Vastgotaloppet",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.proxcskiing.com/long-distance/registrations-are-now-open-for-vastgotaloppet-winter-weekend-2026/",
+    "results_url": null,
+    "evidence_summary": "Västgotaloppet (likely the intended 'Vastgotaloppet') is a real annual cross-country ski race in Ulricehamn, Sweden, with events like 42km Classic and Skate, part of Ski Classics Challengers. Registrations for 2026 are open, confirming it's an organized event held since 1929 at Lassalyckan Vasaloppet Center. ProXC Skiing provides direct details on dates, location, and history.",
+    "sources": [
+      "https://www.proxcskiing.com/long-distance/registrations-are-now-open-for-vastgotaloppet-winter-weekend-2026/",
+      "https://skiclassics.com/events/pro-tour/vasaloppet/",
+      "https://vasaloppet.se/en/ski/vasaloppet/",
+      "https://www.worldloppet.com/wl-race/vasaloppet/"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.cloud9adventure.com/sweden-vasaloppet-trail",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://vasaloppet.se/en/about-us/",
+    "https://www.proxcskiing.com/long-distance/registrations-are-now-open-for-vastgotaloppet-winter-weekend-2026/",
+    "https://skiclassics.com/events/pro-tour/vasaloppet/",
+    "https://vasaloppet.se/en/ski/tjejvasan/",
+    "https://vasaloppet.se/en/",
+    "https://vasaloppet.se/en/ski/",
+    "https://www.worldloppet.com/wl-race/vasaloppet/"
+  ],
+  "checked_at": "2026-03-12T16:11:17Z"
+}

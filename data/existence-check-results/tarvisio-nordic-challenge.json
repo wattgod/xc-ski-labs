@@ -1,0 +1,27 @@
+{
+  "slug": "tarvisio-nordic-challenge",
+  "name": "Tarvisio Nordic Challenge",
+  "country": "Italy",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Tarvisio Nordic Challenge'. Search results mention alpine skiing World Cup events in Tarvisio, trail running events like Tarvisio Winter Trail, general cross-country skiing trails in the area, but no specific organized race by that name, no results, official site, or listings in Worldloppet/FIS/Ski Classics.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.turismofvg.it/en/ski-world-cup-tarvisio-2026/news?LangSetCMS=en",
+    "https://www.tarvisiotrailrunning.com/tarvisio-winter-trail-2026/",
+    "https://www.italia.it/en/friuli-venezia-giulia/things-to-do/tarvisio-ski-resort",
+    "https://www.tarvisiotrailrunning.com",
+    "https://www.nortecsport.com/en/37588-2/",
+    "https://www.tarvisiano.org/en/Winter-World/Outdoor%20Winter%20World/Cross-country%20skiing",
+    "https://www.tarvisiotrailrunning.com/category/tarvisio-summer-trail/",
+    "https://www.snowrugby.com/en",
+    "https://www.turismofvg.it/en/ski-world-cup-tarvisio-2026/tarvisio-and-the-ski-world-cup?LangSetCMS=en",
+    "https://www.tarvisiano.org/en/Winter-World/Ski-World/Skiing%20in%20Tarvisio"
+  ],
+  "checked_at": "2026-03-12T16:07:36Z"
+}

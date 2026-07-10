@@ -1,0 +1,32 @@
+{
+  "slug": "north-end-classic",
+  "name": "North End Classic",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://northendskiclub.org/north-end-classic-race/",
+    "results_url": "https://www.webscorer.com/race?raceid=420837",
+    "evidence_summary": "The North End Classic is a confirmed real event organized by the North End Ski Club in Cable, Wisconsin. Multiple independent sources document the 2026 race held on February 8, 2026, including an official website, detailed race results with 164 participants, registration pages, news coverage, and government calendar listings.",
+    "sources": [
+      "https://northendskiclub.org/north-end-classic-race/",
+      "https://www.webscorer.com/race?raceid=420837",
+      "https://www.webscorer.com/register?raceid=410235",
+      "https://www.bayfieldcounty.wi.gov/Calendar.aspx",
+      "https://silentsportsmagazine.com/stories/north-end-snowshoe-classic-set-to-go-on-january-3,313273",
+      "https://northendskiclub.org/north-end-classic-ski-race-results/",
+      "https://www.skinnyski.com/racing/display.asp?Id=53333"
+    ]
+  },
+  "citations": [
+    "https://northendskiclub.org/north-end-classic-race/",
+    "https://www.webscorer.com/race?raceid=420837",
+    "https://www.webscorer.com/register?raceid=410235",
+    "https://silentsportsmagazine.com/stories/north-end-snowshoe-classic-set-to-go-on-january-3,313273",
+    "https://northendskiclub.org/north-end-classic-ski-race-results/",
+    "https://www.bayfieldcounty.wi.gov/Calendar.aspx",
+    "https://www.skinnyski.com/racing/display.asp?Id=53333"
+  ],
+  "checked_at": "2026-03-12T15:58:21Z"
+}

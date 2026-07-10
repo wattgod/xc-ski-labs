@@ -1,0 +1,83 @@
+{
+  "slug": "kulakova-marathon",
+  "name": "Kulakova Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 400,
+    "country": "Russia",
+    "region": "Udmurtia",
+    "discipline": "both",
+    "field_size": "~1,500 participants",
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention 'Kulakova Marathon' as a race in Izhevsk, Russia (Udmurtia) on 2022.03.19, but do not specify the distance. No reliable web source found confirming the 50 km distance.",
+      "source_url": "https://www.proxcskiing.com/sm/mea-na-tupu/kulakova-marathon/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide elevation gain data for the Kulakova Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia. Search result [7] identifies the race location as Izhevsk, Russia.",
+      "source_url": "https://www.proxcskiing.com/sm/mea-na-tupu/kulakova-marathon/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Udmurtia. Search result [7] lists the race in Izhevsk, which is in Udmurtia. Search result [1] also references 'Ski Track of Russia' held in municipalities of the Udmurt Republic.",
+      "source_url": "https://www.proxcskiing.com/sm/mea-na-tupu/kulakova-marathon/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources specify whether the Kulakova Marathon uses classic, skate, or both disciplines.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide participant count data for the Kulakova Marathon.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found specifying when the Kulakova Marathon was first held.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources confirm or deny the official website URL https://www.russialoppet.ru for the Kulakova Marathon.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One observed race date is March 19, 2022 [7], which aligns with 'Early March' claim, but insufficient data to confirm this as typical across multiple years.",
+      "source_url": "https://www.proxcskiing.com/sm/mea-na-tupu/kulakova-marathon/"
+    }
+  },
+  "citations": [
+    "https://sad22.izh.ru/en/promo/2891.html",
+    "https://www.youtube.com/watch?v=s2hqqoMBh8E",
+    "https://www.britannica.com/biography/Galina-Kulakova",
+    "https://en.wikipedia.org/wiki/Galina_Kulakova",
+    "https://www.gettyimages.com/detail/news-photo/soviet-skier-galina-kulakova-shortly-before-the-start-of-news-photo/51887986",
+    "https://alchetron.com/Galina-Kulakova",
+    "https://www.proxcskiing.com/sm/mea-na-tupu/kulakova-marathon/",
+    "https://www.gettyimages.com/photos/galina-kulakova"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:51:12Z"
+}

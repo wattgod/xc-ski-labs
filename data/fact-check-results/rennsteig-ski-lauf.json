@@ -1,0 +1,90 @@
+{
+  "slug": "rennsteig-ski-lauf",
+  "name": "Rennsteig Ski-Lauf",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Germany",
+    "region": "Thuringian Forest",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": null,
+    "website": "https://www.ahotu.com/event/rennsteig-ski-lauf",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm distances of 30 km and 15 km in classical technique, plus 15 km in free technique. The 30 km distance matches the claimed value.",
+      "source_url": "https://tourismus.zella-mehlis.de/veranstaltungen-zella-mehlis/sportevents/rennsteigskilauf"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide specific elevation gain data for the race course. The Rennsteig trail itself ranges from 500-980m elevation, but total elevation gain for the race is not stated in available sources.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the race takes place in Germany, specifically in the Thuringian Forest region.",
+      "source_url": "https://tourismus.zella-mehlis.de/veranstaltungen-zella-mehlis/sportevents/rennsteigskilauf"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm the race is held in the Thuringian Forest (Thüringer Wald) region of Thuringia, Germany.",
+      "source_url": "https://tourismus.zella-mehlis.de/veranstaltungen-zella-mehlis/sportevents/rennsteigskilauf"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results explicitly state the race includes both classical technique (klassischer Technik) and free technique (freien Technik).",
+      "source_url": "https://tourismus.zella-mehlis.de/veranstaltungen-zella-mehlis/sportevents/rennsteigskilauf"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 1000,
+      "note": "Source states 'Rund 1.000 Skiläufer' (approximately 1,000 skiers) participate, not 500. This exceeds the ±20% tolerance for the claimed 500.",
+      "source_url": "https://www.thueringer-wald.de/freizeit/erleben/jedermann-skilanglauf-rennen-in-oberhof-rennsteig-ski-lauf/"
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide the founding year or first edition date of the Rennsteig Ski-Lauf race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://rennsteig-skilauf.de",
+      "note": "The official website is rennsteig-skilauf.de, not ahotu.com. Multiple sources reference the correct domain.",
+      "source_url": "https://rennsteig-skilauf.de"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm the race typically occurs in mid-February. The 2025 edition was scheduled for February 15-16.",
+      "source_url": "https://rennsteig-skilauf.de"
+    },
+    "race_status_note": {
+      "status": "CRITICAL_UPDATE",
+      "correct_value": "discontinued",
+      "note": "As of August 22, 2025, the race organizers announced the permanent discontinuation of the Rennsteig Ski-Lauf in its current form due to climate change making reliable snow conditions impossible. Six consecutive cancellations preceded this decision.",
+      "source_url": "https://rennsteig-skilauf.de/rennsteig-skilauf/ausschreibung/rennsteig-skilauf/"
+    }
+  },
+  "citations": [
+    "https://www.tourenportal-thueringer-wald.de/en/tour/cross-country-skiing/long-distance-ski-hiking-trail-rennsteig-from-ascherbrueck-to/15545971/",
+    "https://www.xc-ski.de/aktuelles/termine/rennsteig-ski-lauf-seligenthal-2/",
+    "https://tourismus.zella-mehlis.de/veranstaltungen-zella-mehlis/sportevents/rennsteigskilauf",
+    "https://www.mapquest.com/de/thuringen/rennsteig-ski-lauf-und-seligenthaler-rad-berg-zeitfahren-im-thuringer-wald-803556190",
+    "https://rennsteig-skilauf.de/rennsteig-skilauf/ausschreibung/rennsteig-skilauf/",
+    "https://www.thueringer-wald.de/freizeit/erleben/jedermann-skilanglauf-rennen-in-oberhof-rennsteig-ski-lauf/",
+    "https://rennsteig-skilauf.de",
+    "https://www.rennsteiglauf.de/en/race/courses/half-marathon/",
+    "https://www.rennsteig.de/winter"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:50:43Z"
+}

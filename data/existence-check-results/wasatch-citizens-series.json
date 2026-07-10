@@ -1,0 +1,30 @@
+{
+  "slug": "wasatch-citizens-series",
+  "name": "Wasatch Citizens Series",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://utahnordic.org/wcs/",
+    "results_url": "http://www.summittiming.net",
+    "evidence_summary": "The Wasatch Citizens Series is a long-running cross-country ski race series in Utah since 1979, organized by the Utah Nordic Alliance, with an official website providing 2026 results for multiple races, event pages at venues like Soldier Hollow and Solitude, and documented timing results from Summit Timing. Additional sources include a dedicated WCS page with history and rules, and tourism listings confirming the events. No listings in Worldloppet or FIS, but strong local evidence including registration via Zone4/TUNA.",
+    "sources": [
+      "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html",
+      "https://utaholympiclegacy.org/event/wasatch-citizen-series-race-2/",
+      "https://utaholympiclegacy.org/event/wasatch-citizen-series-race-1/",
+      "https://utahnordic.org/wcs/",
+      "http://www.summittiming.net"
+    ]
+  },
+  "citations": [
+    "https://users.cs.utah.edu/~hanscom/WasatchCitizensSeries.html",
+    "https://utaholympiclegacy.org/event/wasatch-citizen-series-race-2/",
+    "https://utaholympiclegacy.org/event/wasatch-citizen-series-race-1/",
+    "https://www.gohebervalley.com/wasatch-citizens-race-series/",
+    "https://utahnordic.org/wcs-about/",
+    "https://utahnordic.org/wcs/",
+    "http://www.summittiming.net"
+  ],
+  "checked_at": "2026-03-12T16:11:43Z"
+}

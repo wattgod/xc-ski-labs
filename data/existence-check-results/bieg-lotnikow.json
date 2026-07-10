@@ -1,0 +1,23 @@
+{
+  "slug": "bieg-lotnikow",
+  "name": "Bieg Lotników",
+  "country": "Poland",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 1,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Ahotu calendar lists 'Bieszczadzki Bieg Lotników' in Ustjanowa Górna, Poland on Feb 11, 2024, matching the query name and described as a cross-country ski event with 10km and 20km distances. No official website, race results, news articles, Worldloppet/Euroloppet listings, social media, YouTube videos, or registration pages found for this specific race. Other results mention similar events like Bieg Piastów but not Bieg Lotników.",
+    "sources": [
+      "https://www.ahotu.com/calendar/cross-country-skiing/poland"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/poland",
+    "https://www.youtube.com/watch?v=toD20P8MdQs",
+    "https://www.youtube.com/shorts/MSYb8PiceOs"
+  ],
+  "checked_at": "2026-03-12T15:40:07Z"
+}

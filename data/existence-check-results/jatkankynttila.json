@@ -1,0 +1,30 @@
+{
+  "slug": "jatkankynttila",
+  "name": "Jatkankynttila Ski Marathon",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://jatkankynttilaskimarathon.fi",
+    "results_url": null,
+    "evidence_summary": "The Jätkänkynttilä Ski Marathon is a real, organized cross-country ski event held annually in Rovaniemi, Finland. Multiple independent sources confirm its existence, including an official website with detailed race information, registration pricing, course details, and logistics. The event is scheduled for March 21, 2026, with 42km and 21km distance options using free (skating) technique.",
+    "sources": [
+      "https://jatkankynttilaskimarathon.fi",
+      "https://jatkankynttilaskimarathon.fi/pages/event-info",
+      "https://jatkankynttilaskimarathon.fi/blogs/news/route-info-2025",
+      "https://jatkankynttilaskimarathon.fi/blogs/news/jatkankynttila-ski-marathon-2026",
+      "https://pace.sport/events/jatkankynttila-ski-marathon"
+    ]
+  },
+  "citations": [
+    "https://jatkankynttilaskimarathon.fi/pages/event-info",
+    "https://jatkankynttilaskimarathon.fi",
+    "https://jatkankynttilaskimarathon.fi/blogs/news/route-info-2025",
+    "https://jyvaskylaskimarathon.fi/en/home-en/",
+    "https://www.finlandiahiihto.fi",
+    "https://pace.sport/events/jatkankynttila-ski-marathon",
+    "https://jatkankynttilaskimarathon.fi/blogs/news/jatkankynttila-ski-marathon-2026"
+  ],
+  "checked_at": "2026-03-12T15:49:56Z"
+}

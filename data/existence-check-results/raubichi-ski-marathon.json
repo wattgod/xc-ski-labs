@@ -1,0 +1,29 @@
+{
+  "slug": "raubichi-ski-marathon",
+  "name": "Raubichi Ski Marathon",
+  "country": "Belarus",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a race called 'Raubichi Ski Marathon' was found in the search results. The search results reference 'Minsk Ski Race' and 'Minsk Ski Track' events held at Raubichi, but these are distinct mass sports festivals featuring biathlon relay races and skiing events organized by Belarusian authorities, not a cross-country ski marathon. The query appears to conflate or misname an actual event.",
+    "sources": [
+      "https://soyuz.by/en/sport/minsk-ski-race-2026-will-be-held-in-raubichi-on-march-7",
+      "https://belarus24.by/en/news/sport/raubichi-will-host-the-sports-and-mass-festival-minsk-ski-track-2026/",
+      "https://bntu.by/en/news/18761-studenty-bntu-na-minskoj-lyzhne-2026"
+    ]
+  },
+  "citations": [
+    "https://soyuz.by/en/sport/minsk-ski-race-2026-will-be-held-in-raubichi-on-march-7",
+    "https://rau.by/en/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/",
+    "https://www.belarus.by/en/about-belarus/sport",
+    "https://www.mst.by/en/news/news.html",
+    "https://belarus24.by/en/news/sport/raubichi-will-host-the-sports-and-mass-festival-minsk-ski-track-2026/",
+    "https://president.gov.by/en/events/uchastie-v-sportivnom-prazdnike-minskaya-lyzhnya-v-raubichah-1646811804",
+    "https://bntu.by/en/news/18761-studenty-bntu-na-minskoj-lyzhne-2026",
+    "http://rau.by/en/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-1/"
+  ],
+  "checked_at": "2026-03-12T16:01:25Z"
+}

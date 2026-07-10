@@ -1,0 +1,85 @@
+{
+  "slug": "levi-ski-marathon",
+  "name": "Levi Ski Marathon",
+  "facts": {
+    "distance_km": 70,
+    "elevation_m": 800,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "both",
+    "field_size": "~500-1,000 participants",
+    "founded": null,
+    "website": "https://yllaslevi.fi",
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 70 km route for Ylläs-Levi Hiihto ski marathon.",
+      "source_url": "https://www.outdooractive.com/mobile/en/route/cross-country-skiing/levi-kittilae/yllaes-levi-hiihto-70-km/808896680/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain; mentions climbs like over 200m on Kukastunturi and Pyhätunturi but no total.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Finland.",
+      "source_url": "https://en.wikipedia.org/wiki/Levi,_Finland"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "In Lapland region.",
+      "source_url": "https://en.wikipedia.org/wiki/Levi,_Finland"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Levi has both classic and skate trails, but no specific confirmation for this race.",
+      "source_url": "https://www.goxski.com/levi"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "No official site confirmed; related info on levi.fi and yllaslevi.fi not directly verified as official for the race",
+      "note": "Levi info on https://www.levi.fi, race mentions on related sites but no clear official URL matching.",
+      "source_url": "https://www.levi.fi/en/news-and-stories/yllas-levi-reaching-the-finish-line-with-the-right-equipment-and-tips/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held annually in April.",
+      "source_url": "https://www.outdooractive.com/mobile/en/route/cross-country-skiing/levi-kittilae/yllaes-levi-hiihto-70-km/808896680/"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Levi,_Finland",
+    "https://en-nz.topographic-map.com/map-kmz257/Levi-Ski-Resort/",
+    "https://www.goxski.com/levi",
+    "https://www.levi.fi/en/news-and-stories/yllas-levi-reaching-the-finish-line-with-the-right-equipment-and-tips/",
+    "https://www.skiresort.info/ski-resort/levi/slope-offering/",
+    "https://www.snow-online.com/ski-resort/levi.html",
+    "https://www.outdooractive.com/mobile/en/route/cross-country-skiing/levi-kittilae/yllaes-levi-hiihto-70-km/808896680/",
+    "https://www.levi.fi/en/events/ruskamarathon-2025/",
+    "https://www.weski.com/en-us/guides/pistes-maps/finland-levi",
+    "https://www.finishers.com/en/event/ruskamaraton"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:51:53Z"
+}

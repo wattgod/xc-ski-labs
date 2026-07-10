@@ -1,0 +1,27 @@
+{
+  "slug": "erzgebirge-24h",
+  "name": "Erzgebirge 24-Hour Ski Race",
+  "country": "Germany",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 1,
+    "official_website": "https://www.wsc-erzgebirge.de",
+    "results_url": null,
+    "evidence_summary": "WSC Erzgebirge in Oberwiesenthal (Erzgebirge region) hosts real cross-country ski events like Deutschlandpokal biathlon and FIS Junior World Championships, with an official website and contact details. No evidence found for a specific '24-Hour Ski Race' including results, news, social media, or listings in Worldloppet/Ski Classics. Other results mention general skiing in the area but no matching 24-hour event.",
+    "sources": [
+      "https://winter.racetime.pro/storage/pdfs/invitations/543/invitation.pdf",
+      "https://www.wsc-erzgebirge.de/fileadmin/user_upload/200212_Teaminfoguide_final_form.pdf",
+      "https://www.wsc-erzgebirge.de"
+    ]
+  },
+  "citations": [
+    "https://winter.racetime.pro/storage/pdfs/invitations/543/invitation.pdf",
+    "https://www.wsc-erzgebirge.de/fileadmin/user_upload/200212_Teaminfoguide_final_form.pdf",
+    "https://www.scr-ski.de/scr_daten/2019/2019-08-23_Eventprogramm_SGP_NK_Oberwiesenthal.pdf",
+    "https://www.nordicmag.info/en/cross-country-skiing-germany-announces-its-squad-for-the-tour-de-ski-1226/",
+    "https://www.outdooractive.com/mobile/en/winter-sports/the-ore-mountains/winter-sports-in-the-ore-mountains/1455483/",
+    "https://fasterskier.com/2019/05/behind-the-scenes-organizing-the-dresden-city-sprint-with-race-co-director-torsten-puschel/"
+  ],
+  "checked_at": "2026-03-12T15:44:39Z"
+}

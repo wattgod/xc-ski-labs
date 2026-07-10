@@ -1,0 +1,31 @@
+{
+  "slug": "spokane-loppet",
+  "name": "Spokane Loppet",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.spokanenordic.org/loppet",
+    "results_url": "https://www.spokanenordic.org/loppet2022",
+    "evidence_summary": "The Spokane Loppet is an annual cross-country ski race organized by Spokane Nordic Ski Association at Mt. Spokane State Park, with official pages detailing 2026 event (March 1), past dates like 2023 and 2022, registration, and courses. Webscorer lists start lists and results for multiple years including 2023, 2022, and 2020. Additional mentions on spokanesports.org and palousedividenordic.org confirm its legitimacy.",
+    "sources": [
+      "https://www.spokanenordic.org/events",
+      "https://www.spokanenordic.org/loppet",
+      "https://www.webscorer.com/spokane-nordic?pg=start",
+      "https://www.spokanenordic.org/loppet2022",
+      "https://www.spokanesports.org/event/2025-spokane-nordic-challenge-20-30-50k-looplet"
+    ]
+  },
+  "citations": [
+    "https://www.spokanenordic.org/events",
+    "https://www.spokanenordic.org/loppet",
+    "https://www.spokanesports.org/event/2025-spokane-nordic-challenge-20-30-50k-looplet",
+    "https://www.webscorer.com/spokane-nordic?pg=start",
+    "https://loppet.org/Experiences/loppet-ski-adults/",
+    "https://www.spokanenordic.org",
+    "https://palousedividenordic.org/mc-events/the-spokane-loppet/",
+    "https://www.spokanenordic.org/loppet2022"
+  ],
+  "checked_at": "2026-03-12T16:05:30Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "sjusjoen-skimarathon",
+  "name": "Sjusjoen Skimarathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 400,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "both",
+    "field_size": 1000,
+    "founded": 1990,
+    "website": "https://sjusjoenrundt.no/",
+    "date": "January/February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming a 42 km distance for Sjusjoen Skimarathon; results mention various XC trails (e.g., 7.2 km Sjusjoen Rundt) but no specific marathon race of this name or distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm total elevation gain of 400m for this race; general Sjusjoen area elevations mentioned (700-1000m) but no race-specific data.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All sources confirm Sjusjøen is in Norway.",
+      "source_url": "https://www.skiresort.info/ski-resort/sjusjoeen/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources place Sjusjøen in Oppland (historical) or Hedmark, both now part of Innlandet county.",
+      "source_url": "https://www.skiresort.info/ski-resort/sjusjoeen/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention disciplines for Sjusjoen Skimarathon; general XC skiing in area but no specifics.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical number of participants around 1000 for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm year founded as 1990 for Sjusjoen Skimarathon.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not verified in search results; no official site for 'Sjusjoen Skimarathon' found, though 'Sjusjøen Rundt' (shorter loop) mentioned.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical January/February date for this specific race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.skiresort.info/ski-resort/sjusjoeen/",
+    "https://us.j2ski.com/ski_resorts/Norway/Sjusjoen.html",
+    "https://www.goxski.com/sjusjoen",
+    "https://www.snow-online.com/ski-resort/sjusjoen.html",
+    "https://www.snow-forecast.com/resorts/Sjusjoen",
+    "https://itra.run/Races/RaceDetails/106357",
+    "https://shredindex.com/resort/sjusjoen/overview",
+    "https://en.lillehammer.com/things-to-do/activities/skiing/cross-country-skiing/sjusjoen-cross-country-skiing",
+    "https://www.visitnorway.com/listings/sjusj%C3%B8en-cross-country-skiing/7155/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:52:47Z"
+}

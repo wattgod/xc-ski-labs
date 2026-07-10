@@ -1,0 +1,81 @@
+{
+  "slug": "highland-cross",
+  "name": "Highland Cross",
+  "facts": {
+    "distance_km": 32,
+    "elevation_m": 500,
+    "country": "United Kingdom",
+    "region": "Scottish Highlands",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 1983,
+    "website": "https://www.highlandcross.co.uk",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": null,
+      "note": "No web sources found describing a 32km cross-country ski race named 'Highland Cross'. The official site describes a 50-mile (80km) duathlon (20 miles foot, 30 miles bike), not skiing[1].",
+      "source_url": "http://www.highlandcross.co.uk"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for a 'Highland Cross' cross-country ski race with 500m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Scottish Highlands are in UK, no sources confirm a matching ski race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm ski race in Scottish Highlands named 'Highland Cross'.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic discipline for this ski race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm ~200 participants for ski race; duathlon has ~750-800[1].",
+      "source_url": "http://www.highlandcross.co.uk"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1983 founding for ski race; duathlon history mentioned but no year[1].",
+      "source_url": "http://www.highlandcross.co.uk"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "http://www.highlandcross.co.uk",
+      "note": "Official site exists but describes duathlon, not cross-country ski race[1].",
+      "source_url": "http://www.highlandcross.co.uk"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm March date for ski race; duathlon in June/July[1].",
+      "source_url": "http://www.highlandcross.co.uk"
+    }
+  },
+  "citations": [
+    "http://www.highlandcross.co.uk",
+    "https://www.snowsportscotland.org/scottish-rollerski-series",
+    "https://fasterskier.com/2024/07/the-best-destinations-for-cross-country-skiing-in-scotland/",
+    "http://www.spanglefish.com/highlandnordic",
+    "https://www.wildstuffscotland.co.uk/snowsports",
+    "https://www.visitaviemore.com/activities/snowsports/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:40:55Z"
+}

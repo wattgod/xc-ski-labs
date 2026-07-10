@@ -1,0 +1,82 @@
+{
+  "slug": "gantrisch-loppet",
+  "name": "Gantrisch Loppet",
+  "facts": {
+    "distance_km": 20.5,
+    "elevation_m": 200,
+    "country": "Switzerland",
+    "region": "Bern",
+    "discipline": "skate",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.swissloppet.ch",
+    "date": "Fourth Sunday of January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source [1] states the Loppet covers 20 kilometres, within ±3 km tolerance of 20.5 km.",
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 477,
+      "note": "Source [1] states elevation of 477 metres for the 20 km Loppet, outside ±100m tolerance of 200m.",
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Switzerland, e.g., [1], [2], [7].",
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Bern region, Gurnigelpass near Riggisberg, Bern canton [1][2].",
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Source [1] states free choice of technique (skate or classic); no confirmation of skate only.",
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2024,
+      "note": "Inferred from [1] 'third time' in 2025 (first edition ~2023/2024); [2] calls 2027 the 4th.",
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://gantrischloppet.ch",
+      "note": "Official site listed as https://gantrischloppet.ch in [2].",
+      "source_url": "https://www.myswitzerland.com/en-us/experiences/events/4-gantrisch-loppet-2027/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late January; 26 Jan 2025 (fourth Sunday [1]), 25 Jan 2026 [6][7], 31 Jan 2027 [2].",
+      "source_url": "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event"
+    }
+  },
+  "citations": [
+    "https://bern.com/en/news/event-calendar/events/gantrisch-loppet-cross-country-ski-event",
+    "https://www.myswitzerland.com/en-us/experiences/events/4-gantrisch-loppet-2027/",
+    "https://www.myswitzerland.com/en-ch/experiences/events/4th-gantrisch-loppet/",
+    "https://www.myswitzerland.com/ko/experiences/events/4-gantrisch-loppet-2026/",
+    "https://www.localcities.ch/it/eventi/riggisberg/1789/4505765",
+    "https://datasport.com/en/sport-events/series/swiss-loppet/",
+    "https://my.raceresult.com/337785/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:13:44Z"
+}

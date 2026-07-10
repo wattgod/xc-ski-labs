@@ -1,0 +1,23 @@
+{
+  "slug": "jizni-cechy-loppet",
+  "name": "Jižní Čechy Loppet",
+  "country": "Czech Republic",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for 'Jižní Čechy Loppet' across official websites, race results, news articles, Worldloppet/Euroloppet listings, social media, YouTube, or registration pages. Search results mention other Czech ski races like Jizerská 50 and unrelated loppet events elsewhere, but nothing matches the queried event. PDF documents are irrelevant to cross-country skiing races.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/jizerska-50/",
+    "https://loppet.org",
+    "https://www.falconridgeski.com/floppet",
+    "https://www.kampocesku.cz/jpg/pdf/KAM_01_2010.pdf",
+    "https://dspace.cuni.cz/bitstream/handle/20.500.11956/117886/130277933.pdf",
+    "https://www.finidr.cz/wp-content/uploads/2025/06/finidrak-02-2025-luk-01-40-web-zm.pdf"
+  ],
+  "checked_at": "2026-03-12T15:50:16Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "snow-mountain-ranch-stampede",
+  "name": "Snow Mountain Ranch Stampede",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 550,
+    "country": "United States",
+    "region": "Colorado",
+    "discipline": "both",
+    "field_size": "~300-500",
+    "founded": 1991,
+    "website": "https://skigrandnordic.org/snow-mountain-stampede/",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50K long course option for both skate and classic[1][2][4]",
+      "source_url": "https://strambecco.com/event/snow-mountain-ranch-stampede/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain data",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All sources confirm United States, specifically Colorado[1][2][3]",
+      "source_url": "https://strambecco.com/event/snow-mountain-ranch-stampede/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Colorado, with venues in Granby/Tabernash area[1][2][3]",
+      "source_url": "https://strambecco.com/event/snow-mountain-ranch-stampede/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both freestyle/skate (Saturday) and classic (Sunday) confirmed[1][3][4][8]",
+      "source_url": "https://strambecco.com/event/snow-mountain-ranch-stampede/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources give typical participant numbers for this event; unrelated event mentions 350 but not applicable[5]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1984,
+      "note": "42nd annual in 2026 implies first edition ~1984; 'nearly 40 years' in recent source supports pre-1991[3][6]",
+      "source_url": "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-ranch-stampede"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No source lists this exact URL as official; related sites like skigrandnordic.org and ymcarockies.org host info but not confirmed as sole official[4][6]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically March 7-8 or similar early March weekend[2][4][8][9]",
+      "source_url": "https://skigrandnordic.org/grand-nordic-race-series/"
+    }
+  },
+  "citations": [
+    "https://strambecco.com/event/snow-mountain-ranch-stampede/",
+    "https://coloradotriathlete.com/event/snow-mountain-stampede-classic-races-gcnrs-8/",
+    "https://coloradocrosscountry.com/Resources/go-big-dream-races-for-nordic-skiers",
+    "https://skigrandnordic.org/grand-nordic-race-series/",
+    "https://cmunordic.org/events/uscsa-cross-country-ski-racing-festival",
+    "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-ranch-stampede",
+    "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-classic-grand-nordic-race-series-11165569",
+    "https://skigrandnordic.org/42nd-annual-snow-mountain-stampede-this-weekend/",
+    "https://www.webscorer.com/gcnrs"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:37Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "foulee-blanche",
+  "name": "Foulée Blanche",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 550,
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "discipline": "skate",
+    "field_size": "~2,000",
+    "founded": 1979,
+    "website": "https://www.lafouleeblanche.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km as the main long-distance marathon race distance.",
+      "source_url": "https://pistehors.com/PzsFlWgB_Gcc1lDbjwg9/the-foulee-blanche-2019[1]; https://www.worldloppet.com/la-foulee-blanche-fra/[2]"
+    },
+    "elevation_m": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2019 edition had 550 meters of climbing explicitly stated.",
+      "source_url": "https://pistehors.com/PzsFlWgB_Gcc1lDbjwg9/the-foulee-blanche-2019[1]"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as French event.",
+      "source_url": "https://www.worldloppet.com/la-foulee-blanche-fra/[2]"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Auvergne-Rhône-Alpes region.",
+      "source_url": "https://www.worldloppet.com/la-foulee-blanche-fra/[2]"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "42 km is Free Technique (skate); classic offered in shorter 25 km.",
+      "source_url": "https://www.worldloppet.com/la-foulee-blanche-fra/[2]"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 1824,
+      "note": "2026 edition had 1,824 participants; within tolerance of past years but recent data shows variance from ~2,000.",
+      "source_url": "https://www.youtube.com/watch?v=T8KJAZIUtUY[4]"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First held in 1979; 47th in 2025 confirms (2025-1979+1=47).",
+      "source_url": "https://www.worldloppet.com/la-foulee-blanche-fra/[2]; https://www.lafouleeblanche.com[3]"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site listed as www.lafouleeblanche.com.",
+      "source_url": "https://www.worldloppet.com/la-foulee-blanche-fra/[2]; https://www.lafouleeblanche.com[3]"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late January (e.g., 24-28 Jan 2024, 22-26 Jan 2025, 21-25 Jan 2026).",
+      "source_url": "https://www.worldloppet.com/la-foulee-blanche-fra/[2]; https://www.lafouleeblanche.com[3]; https://www.nordicmag.info/en/cross-country-skiing-the-foulee-blanche-2026-will-take-place-from-21-to-25-january-1113/[6]"
+    }
+  },
+  "citations": [
+    "https://pistehors.com/PzsFlWgB_Gcc1lDbjwg9/the-foulee-blanche-2019",
+    "https://www.worldloppet.com/la-foulee-blanche-fra/",
+    "https://www.lafouleeblanche.com",
+    "https://www.youtube.com/watch?v=T8KJAZIUtUY",
+    "https://fr.milesrepublic.com/en/event/la-foulee-blanche-13201",
+    "https://www.nordicmag.info/en/cross-country-skiing-the-foulee-blanche-2026-will-take-place-from-21-to-25-january-1113/",
+    "https://www.alpes-isere.com/en/sit/la-foulee-blanche-194142/",
+    "https://www.nordicmag.info/en/cross-country-skiing-registration-for-the-foulee-blanche-2025-is-now-open-1101/",
+    "https://www.proxcskiing.com/bs/event/la-foulee-blanche/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:10Z"
+}

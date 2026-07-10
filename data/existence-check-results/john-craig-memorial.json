@@ -1,0 +1,28 @@
+{
+  "slug": "john-craig-memorial",
+  "name": "John Craig Memorial",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Multiple news articles from The Nugget Newspaper confirm the John Craig Memorial Race as a real cross-country ski event held on National Forest Land at the snow gate on Highway 242 near Sisters, Oregon, with over 250 participants in 2002 and nearly 300 in 2001. A Bend Source Weekly article describes it as an annual ski race and tour celebrating winter beauty and John Craig's pioneer mailman journey across McKenzie Pass. No official website, race results, or recent mentions found, but historical news coverage provides strong evidence of its existence.",
+    "sources": [
+      "https://www.nuggetnews.com/story/2002/03/26/news/skiers-turn-out-for-craig-race/7908.html",
+      "https://www.nuggetnews.com/story/2001/03/27/news/john-craig-ski-race-draws-a-crowd/7172.html",
+      "https://www.bendsource.com/outside/xc-skiing-like-a-pioneer-mailman-18816667/"
+    ]
+  },
+  "citations": [
+    "https://register.pacificmultisports.com/events/104/results/leg/22",
+    "https://www.birkie.com/media/champions/",
+    "https://www.nuggetnews.com/story/2002/03/26/news/skiers-turn-out-for-craig-race/7908.html",
+    "https://www.bendsource.com/outside/xc-skiing-like-a-pioneer-mailman-18816667/",
+    "http://www.tullyrunners.com/XC2007/Feds2007.htm",
+    "https://results.raceroster.com/v2/en-CA/results/v5auezkmena3futj/detail/jrqsg54sep3z429q",
+    "https://www.nuggetnews.com/story/2001/03/27/news/john-craig-ski-race-draws-a-crowd/7172.html"
+  ],
+  "checked_at": "2026-03-12T15:50:21Z"
+}

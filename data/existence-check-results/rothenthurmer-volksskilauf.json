@@ -1,0 +1,30 @@
+{
+  "slug": "rothenthurmer-volksskilauf",
+  "name": "Rothenthurmer Volksskilauf",
+  "country": "Switzerland",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://sc-r.ch/home-volksskilauf.html",
+    "results_url": null,
+    "evidence_summary": "The Rothenthurmer Volksskilauf is a confirmed real event with an official website operated by Skiclub Rothenthurm (founded 1970). The 58th edition took place on January 18, 2026, and is officially recognized as part of the Swiss Loppet series by Swiss Ski. Multiple independent sources including the official club website, Swiss Ski's event calendar, and Datasport confirm the race's existence and regular annual occurrence.",
+    "sources": [
+      "https://sc-r.ch/home-volksskilauf.html",
+      "https://sc-r.ch/ok-und-geschichte/geschichte.html",
+      "https://sc-r.ch",
+      "https://www.swiss-ski.ch/events/swiss-loppet/",
+      "https://datasport.com/en/essentials/switzerlands-eleven-biggest-open-cross-country-races-the-swiss-loppet-series/"
+    ]
+  },
+  "citations": [
+    "https://sc-r.ch/home-volksskilauf.html",
+    "https://sc-r.ch/ok-und-geschichte/geschichte.html",
+    "https://sc-r.ch",
+    "https://www.swiss-ski.ch/events/swiss-loppet/",
+    "https://datasport.com/en/essentials/switzerlands-eleven-biggest-open-cross-country-races-the-swiss-loppet-series/",
+    "https://datasport.com/en/sport-events/winter-sports/cross-country-skiing/",
+    "https://en.wikipedia.org/wiki/Raten_Pass"
+  ],
+  "checked_at": "2026-03-12T16:01:49Z"
+}

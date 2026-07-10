@@ -1,0 +1,30 @@
+{
+  "slug": "great-glen-to-bretton-woods",
+  "name": "Great Glen to Bretton Woods",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "http://www.greatglentobrettonwoods.com",
+    "results_url": "https://www.NENSA.net",
+    "evidence_summary": "News articles from 2003 confirm the 'Great Glen to Bretton Woods Nordic Adventure' as a real 25/50km cross-country ski event held on March 9, organized by Olympian Sue Wemyss, part of the New England Marathon Series, with 500 participants and NENSA sanctioning. An archived registration page on skireg.com references the event website and contact details. No recent editions, race results, or current listings found; websites appear inactive.",
+    "sources": [
+      "https://www.conwaydailysun.com/sports/great-glen-to-bretton-woods-race-is-march-9/article_1c215eea-57a1-5a01-8824-4228f9ecdc6c.html",
+      "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/",
+      "https://www.skireg.com/2073"
+    ]
+  },
+  "citations": [
+    "https://www.conwaydailysun.com/sports/great-glen-to-bretton-woods-race-is-march-9/article_1c215eea-57a1-5a01-8824-4228f9ecdc6c.html",
+    "https://fasterskier.com/2003/03/great-glen-to-bretton-woods-not-a-race-an-adventure/",
+    "https://www.skireg.com/2073",
+    "https://greatglentrails.com/ski-shoe-fatbike-to-the-clouds/history/",
+    "https://greatglentrails.com/nordic-meisters/",
+    "https://www.brettonwoods.com/experiences/alpine-ski/racing-programs/",
+    "https://www.brettonwoods.com/events/chasing-gold/",
+    "https://www.brettonwoods.com/events/geschmossel-classic-ski-race/",
+    "https://www.brettonwoods.com/events/mount-washington-cup/"
+  ],
+  "checked_at": "2026-03-12T15:47:19Z"
+}

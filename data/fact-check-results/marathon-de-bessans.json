@@ -1,0 +1,82 @@
+{
+  "slug": "marathon-de-bessans",
+  "name": "Marathon de Bessans",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 500,
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "discipline": "both",
+    "field_size": "~1,500 starters",
+    "founded": 1979,
+    "website": "https://www.bessans.com/en/fete-et-manifestation/marathon-international-de-ski-de-fond-de-bessans-bessans/",
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "Sources indicate distances of 30km classic, 23km and 42km freestyle/skate; no 60km found, 42km closest long distance but outside ±3km tolerance",
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain; described as 'mostly flat with short but steep climbs'",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in multiple sources as France",
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Bessans in Haute Maurienne Vanoise, part of Auvergne-Rhône-Alpes (Savoie department)",
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both classic and freestyle (skate) races",
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~1,500 participants; 47th edition brings together over 1,500, within ±20% tolerance",
+      "source_url": "https://www.bessans.com/en/fete-et-manifestation/international-marathon-of-bessans-mib-bessans/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1980,
+      "note": "Sources state every year since 1980; 47th edition aligns with ~1979/1980 start",
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Similar official site confirmed with event details",
+      "source_url": "https://www.bessans.com/en/fete-et-manifestation/international-marathon-of-bessans-mib-bessans/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically second week/mid-January; 2026 on Jan 10-11",
+      "source_url": "https://skiclassics.com/events/challengers/marathon-international-de-bessans/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/marathon-international-de-bessans/",
+    "https://www.goxski.com/bessans",
+    "https://openskimap.org/?obj=b1ff26cc13452a6553b33835a27a6a66b7049c18",
+    "https://www.youtube.com/watch?v=c36U1ekEX3o",
+    "https://www.proxcskiing.com/long-distance/marathon-international-de-bessans-this-weekend-in-france/",
+    "https://www.bessans.com/en/fete-et-manifestation/international-marathon-of-bessans-mib-bessans/",
+    "https://www.proxcskiing.com/sm/mamao/marathon-international-de-bessans-this-weekend-in-france-3/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:52:08Z"
+}

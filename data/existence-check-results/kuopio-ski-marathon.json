@@ -1,0 +1,27 @@
+{
+  "slug": "kuopio-ski-marathon",
+  "name": "Kuopio Ski Marathon",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Kuopio Ski Marathon' cross-country ski race. All search results refer to the Finland Ice Marathon (ice skating on Lake Kallavesi) or Kuopio Marathon (running), with no mentions of cross-country skiing events by that name in Worldloppet, Ski Classics, or other listings. The query appears to confuse it with these distinct events.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.finlandicemarathon.com/https-www-finlandicemarathon-com-in/",
+    "https://www.finlandicemarathon.com/https-www-finlandicemarathon-com-in/registration/",
+    "https://www.finlandicemarathon.com/uutiset/finland-ice-marathon-2023/",
+    "https://www.kuopio.fi/en/leisure-and-well-being/kuopio-in-motion/sports-facilities/winter-sports-facilities/kallavesi-ice-marathon/",
+    "https://worldsmarathons.com/marathon/kuopio-maraton",
+    "https://www.finlandicemarathon.com",
+    "https://jahtihovi.fi/en/ice-marathon-kuopio.html",
+    "https://www.kuopiomaraton.com/in-english/",
+    "https://www.finlandiahiihto.fi/de/news",
+    "https://www.hellokuopio.fi/en/event/finland-ice-marathon/"
+  ],
+  "checked_at": "2026-03-12T15:52:40Z"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "ugra-ski-marathon",
+  "name": "Ugra Ski Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.russialoppet.ru",
+    "results_url": null,
+    "evidence_summary": "The Ugra Ski Marathon is listed on official Ski Classics and Worldloppet sites as a real event held since 2013 in Khanty-Mansiysk, Russia, with mentions of past editions in 2022 and a 2025 edition announced by VTB with a 2.5 million ruble prize fund. Organizers include the Ugra government and ski federation, with participation by Olympic champions. Historical documents reference registration at ugraloppet.ru and results mentions like Sergei Dolidovich's 4th place.",
+    "sources": [
+      "https://skiclassics.com/ugra-ski-marathon-joins-challengers/",
+      "https://www.worldloppet.com/ugra-ski-marathon/",
+      "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/",
+      "https://v4m-vps5.juniper-xs.it/x00001/public/324FB29A5CCC4D59A409391AD07D3B55/WebElements/090FBDF16F504F4EB7EAE07E207D5CF2.pdf",
+      "https://www.proxcskiing.com/hi/event/ugra-ski-marathon/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/ugra-ski-marathon-joins-challengers/",
+    "https://www.worldloppet.com/ugra-ski-marathon/",
+    "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/",
+    "https://v4m-vps5.juniper-xs.it/x00001/public/324FB29A5CCC4D59A409391AD07D3B55/WebElements/090FBDF16F504F4EB7EAE07E207D5CF2.pdf",
+    "https://www.proxcskiing.com/hi/event/ugra-ski-marathon/",
+    "https://rollerski.ugramegasport.ru/about-the-city/",
+    "https://investugra.ru/en/about/visiting-ugra/",
+    "https://mid.ru/upload/archive/d288049854eadf85c106243a0a474246.pdf",
+    "https://www.belarus.by/en/press-center/press-release/sergei-dolidovich-4th-at-ugra-ski-marathon-retires-from-skiing_i_77506.html"
+  ],
+  "checked_at": "2026-03-12T16:10:07Z"
+}

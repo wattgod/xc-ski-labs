@@ -1,0 +1,76 @@
+{
+  "slug": "otaru-zenichi-loppet",
+  "name": "Otaru Zenichi Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 250,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.otaru-zenichi-loppet.jp",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying 30 km distance for Otaru Zenichi Loppet; search result [1] describes a different 80 km race in Hokkaido.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying 250 m total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found specifically for this race, though [1] confirms cross-country races in Japan (Hokkaido).",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming Hokkaido for this specific race; [1] mentions Hokkaido races but different event.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming classic technique.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming ~300 participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for year founded.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found verifying https://www.otaru-zenichi-loppet.jp as official site.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming mid-February; [1] mentions late February for different race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "http://connect.ajet.net/2020/04/12/the-longest-cross-country-ski-race-in-japan/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:17:38Z"
+}

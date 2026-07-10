@@ -1,0 +1,28 @@
+{
+  "slug": "tug-hill-tourathon",
+  "name": "Tug Hill Tourathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a race called 'Tug Hill Tourathon' exists. The search results show two distinct real events: the 'Winona Forest Tourathon' (a Nordic ski race held in Winona State Forest on the Tug Hill Plateau) and the 'Tug Hill Yeti Quest' (an adventure race). The query appears to conflate these two separate events into a non-existent race name.",
+    "sources": [
+      "https://www.winonaforest.com/tourathon.html",
+      "https://tughilloutfitters.com/events/",
+      "https://www.skireg.com/8354",
+      "https://www.winonaforest.com"
+    ]
+  },
+  "citations": [
+    "https://www.winonaforest.com/tourathon.html",
+    "https://tughilloutfitters.com/events/",
+    "https://oswegocountytoday.com/news/winona-forest-tourathon-a-wintery-success/",
+    "https://www.winonaforest.com/news-amp-announcements/tourathon-race-results",
+    "https://www.skireg.com/8354",
+    "https://www.winonaforest.com"
+  ],
+  "checked_at": "2026-03-12T16:09:50Z"
+}

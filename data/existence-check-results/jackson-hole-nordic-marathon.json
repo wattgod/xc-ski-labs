@@ -1,0 +1,25 @@
+{
+  "slug": "jackson-hole-nordic-marathon",
+  "name": "Jackson Hole Nordic Marathon",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Jackson Hole Nordic Marathon' cross-country ski race. Search results show a road Jackson Hole Marathon, nordic skiing resources and centers in the area, and other local nordic events like the Johnny Curtis Memorial Race, but nothing matching the specific event name or description. No official site, results, news, or listings for this marathon exist.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.jacksonholemarathon.com",
+    "https://www.jacksonhole.com/nordic",
+    "https://jhskiclub.org/programs/johnny-curtis-memorial-race",
+    "https://jhnordic.com",
+    "https://jhnordic.com/welcome-to-jackson-hole-nordic/",
+    "https://jhnordic.com/win-the-jackson-hole-nordic-ski-trip-of-a-lifetime-sweepstakes/",
+    "https://jhnordic.com/the-spring-issue-dtr-march-10-26/",
+    "https://jhnordic.com/give-yourself-something-to-look-forward-to/"
+  ],
+  "checked_at": "2026-03-12T15:49:39Z"
+}

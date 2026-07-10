@@ -1,0 +1,31 @@
+{
+  "slug": "pokljuka-nordic-marathon",
+  "name": "Pokljuka Nordic Marathon",
+  "country": "Slovenia",
+  "tier": 2,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "https://www.biathlon-pokljuka.com/en/",
+    "results_url": null,
+    "evidence_summary": "The search results reference a 'Pokljuka XC Marathon' as an organized event at the Pokljuka biathlon centre in Slovenia. The Pokljuka biathlon centre is confirmed as a real, world-class facility that has hosted international events since 1992/93. However, no dedicated official website, race results, or detailed information about the Nordic Marathon specifically was found in the search results.",
+    "sources": [
+      "https://www.biathlon-pokljuka.com/en/other-events/",
+      "https://www.biathlon-pokljuka.com/en/domov-eng/",
+      "https://www.center-pokljuka.si/en/sports-center-triglav-pokljuka/about-sports-centre/development/",
+      "https://www.slovenia.info/en/things-to-do/events/24892-ibu-cup-2027-pokljuka"
+    ]
+  },
+  "citations": [
+    "https://www.center-pokljuka.si/en/sports-center-triglav-pokljuka/about-sports-centre/development/",
+    "https://www.slovenia.info/en/things-to-do/events/24892-ibu-cup-2027-pokljuka",
+    "https://www.biathlon-pokljuka.com/en/domov-eng/",
+    "https://www.biathlon-pokljuka.com/en/other-events/",
+    "https://www.biathlon-pokljuka.com/en/2022/",
+    "https://www.center-pokljuka.si/en/events/event-calendar-2018-2019/",
+    "https://www.biathlon-pokljuka.com/en/world-cup/media-info/",
+    "https://www.nordicmag.info/en/biathlon-the-world-team-challenge-2026-will-take-place-on-30-december-a-few-days-before-the-new-pokljuka-world-cup-on-2-and-3-january-0312/",
+    "https://www.biathlon-pokljuka.com/en/2023/"
+  ],
+  "checked_at": "2026-03-12T16:00:38Z"
+}

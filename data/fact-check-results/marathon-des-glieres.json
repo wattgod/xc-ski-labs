@@ -1,0 +1,82 @@
+{
+  "slug": "marathon-des-glieres",
+  "name": "Marathon des Glières",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "France",
+    "region": "Haute-Savoie",
+    "discipline": "skate",
+    "field_size": "~500-800",
+    "founded": 1991,
+    "website": "https://www.marathondesglieres.com",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km as the main marathon distance.",
+      "source_url": "https://www.ledauphine.com/skichrono/2026/03/10/marathon-ski-tour-cap-sur-le-marathon-des-glieres"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain; no contradiction.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as France.",
+      "source_url": "https://www.marathondesglieres.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Haute-Savoie.",
+      "source_url": "https://www.marathondesglieres.com"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as style libre (skate/free technique).",
+      "source_url": "https://www.ledauphine.com/skichrono/2026/03/10/marathon-ski-tour-cap-sur-le-marathon-des-glieres"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific numbers found for typical participants (500-800); no contradiction.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1990,
+      "note": "2025 is 35th edition (35ème), indicating first edition in 1991 (2025-34=1991); 2026 would be 36th per source[3].",
+      "source_url": "https://domainenordiquedesglieres.com/marathon-des-glieres-2025/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site referenced in multiple sources.",
+      "source_url": "https://www.marathondesglieres.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically third Sunday in mid-March (e.g., 17 Mar 2024, 16 Mar 2025, 15 Mar 2026).",
+      "source_url": "https://www.marathondesglieres.com/presentation/"
+    }
+  },
+  "citations": [
+    "https://www.marathondesglieres.com",
+    "https://domainenordiquedesglieres.com/marathon-des-glieres-2025/",
+    "https://www.ledauphine.com/skichrono/2026/03/10/marathon-ski-tour-cap-sur-le-marathon-des-glieres",
+    "https://www.lac-annecy.com/fete-et-manifestation/marathon-des-glieres-filliere/",
+    "https://domainenordiquedesglieres.com/2025/01/31/16-03-2025-marathon-des-glieres-2025/",
+    "https://hautesavoiemontblanc-tourisme.com/offres/marathon-des-glieres-thorens-glieres-fr-6224161/",
+    "https://www.marathondesglieres.com/presentation/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:52:16Z"
+}

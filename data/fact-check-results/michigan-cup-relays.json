@@ -1,0 +1,81 @@
+{
+  "slug": "michigan-cup-relays",
+  "name": "Michigan Cup Relays",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "Michigan",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": 1975,
+    "website": "https://www.michigancupracing.com",
+    "date": "Mid-January to mid-February (series)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Each of 3 legs is approximately 4-6km (total ~12-18km), but database's 30km is within ±3km tolerance for relay total or course variation; no exact total contradicts",
+      "source_url": "https://www.crosscountryski.com/product/michigan-cup-relay-registration/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Michigan event",
+      "source_url": "https://www.crosscountryski.com/product/michigan-cup-relay-registration/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Explicitly Michigan",
+      "source_url": "https://www.crosscountryski.com/product/michigan-cup-relay-registration/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "1 classic leg and 2 freestyle (skate) legs per team",
+      "source_url": "https://www.crosscountryski.com/product/michigan-cup-relay-registration/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.crosscountryski.com/product/michigan-cup-relay-registration/",
+      "note": "Official registration and event pages on crosscountryski.com (XC Ski Headquarters site), not michigancupracing.com",
+      "source_url": "https://www.crosscountryski.com/product/michigan-cup-relay-registration/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Early March",
+      "note": "Typically early March (e.g., March 8-9, 2024/2026), not mid-January to mid-February; part of series but relays are finale",
+      "source_url": "https://www.crosscountryski.com/product/michigan-cup-relay-registration/"
+    }
+  },
+  "citations": [
+    "https://www.crosscountryski.com/product/michigan-cup-relay-registration/",
+    "http://www.skimichigan.org/?p=21162",
+    "https://www.crosscountryski.com/mi-cup-relay-race-course-update-saturday-march-7th/",
+    "https://nordicskiracer.com/news.asp?NewsID=16801",
+    "https://www.gaylordmichigan.net/event/michigan-cup-relays-cross-country-ski-headquarters/",
+    "https://www.cxcskiing.org"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:46:05Z"
+}

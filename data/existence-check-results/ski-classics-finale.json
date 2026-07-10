@@ -1,0 +1,29 @@
+{
+  "slug": "ski-classics-finale",
+  "name": "Ski Classics Finale",
+  "country": "Various",
+  "tier": 1,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+    "results_url": null,
+    "evidence_summary": "The 'Grand Finale Summit 2 Senja' is the official finale of the Ski Classics Pro Tour, documented across multiple pages on the Ski Classics website with detailed event info, dates (e.g., March 30, 2025 for Season XVI and March 29, 2026 for Season XVII), courses, past winners, and qualification rules for recreational skiers. It is listed in the Pro Tour calendar, Wikipedia confirms Ski Classics as a real series, and rules PDFs support the event's legitimacy. No direct race results pages found in results, but official listings provide strong evidence of it being a real, organized event.",
+    "sources": [
+      "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/",
+      "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+      "https://en.wikipedia.org/wiki/Ski_Classics",
+      "https://skiclassics.com/ski-classics-challengers-calendar-and-how-to-qualify-for-the-grand-finale-summit-2-senja/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/",
+    "https://skiclassics.com/events/pro-tour/summit-2-senja/",
+    "https://en.wikipedia.org/wiki/Ski_Classics",
+    "https://skiclassics.com/ski-classics-challengers-calendar-and-how-to-qualify-for-the-grand-finale-summit-2-senja/",
+    "https://skiclassics.com/events/",
+    "https://skiclassics.com/wp-content/uploads/2025/10/SC-Pro-Tour-AthletesPro-Teams-RR-v17.2.pdf",
+    "https://skiclassics.com/wp-content/uploads/2024/06/RR-Pro-Teams-v16.2.pdf"
+  ],
+  "checked_at": "2026-03-12T16:04:08Z"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "bieg-bystrzycki",
+  "name": "Bieg Bystrzycki",
+  "country": "Poland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": null,
+    "results_url": "https://ultimasport.pl/wyniki/",
+    "evidence_summary": "Detailed news article from 2017 describes the XXVIII Bystrzycki Bieg Narciarski in Spalona, Górach Bystrzyckich, with winners, participant count (66), route details (12.5 km actual), and mentions full results attached. Results archive lists the XIX edition on 2018-02-03 in Spalona. No official site or recent mentions found, but multiple years confirm it's a real organized event.",
+    "sources": [
+      "https://nabiegowkach.pl/legierski-i-sujak-wygrywaja-xxviii-bystrzycki-bieg-narciarski-1545/",
+      "https://ultimasport.pl/wyniki/",
+      "https://nabiegowkach.pl/legierski-i-sujak-wygrywaja-xxviii-bystrzycki-bieg-narciarski-1545/"
+    ]
+  },
+  "citations": [
+    "https://nabiegowkach.pl/legierski-i-sujak-wygrywaja-xxviii-bystrzycki-bieg-narciarski-1545/",
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "https://medias4.fis-ski.com/pdf/2019/CC/5434/2019CC5434RL.pdf",
+    "https://psb-biegi.com.pl/wp-content/uploads/2019/06/20190303jakuszyce.pdf",
+    "https://ultimasport.pl/wyniki/",
+    "https://bieg-piastow.pl/img/files/wyniki/2018/25CT.pdf",
+    "https://www.youtube.com/watch?v=nTcffFnLQnI",
+    "http://polishxcmasters.pl",
+    "https://online.datasport.pl/zapisy/bp2019/lista.php"
+  ],
+  "checked_at": "2026-03-12T15:39:53Z"
+}

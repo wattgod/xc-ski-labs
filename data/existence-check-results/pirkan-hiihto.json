@@ -1,0 +1,32 @@
+{
+  "slug": "pirkan-hiihto",
+  "name": "Pirkan Hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.pirkanhiihto.fi/",
+    "results_url": "https://www.pirkanhiihto.fi/tulokset",
+    "evidence_summary": "Pirkan Hiihto is a confirmed real cross-country ski race in Finland with an official website, multiple news articles, race results pages, and documented event history. The 90 km main race is one of Finland's longest one-day ski races, held annually since 2014 (with exceptions in 2014 and 2021). The 69th edition was scheduled for Saturday, February 28, 2026.",
+    "sources": [
+      "https://www.pirkanhiihto.fi/",
+      "https://www.pirkanhiihto.fi/pirkka-ski-race/",
+      "https://jami.fi/en/news/jami-ski-marathon-gathers-skiers-to-hameenkangas/",
+      "https://www.pirkanhiihto.fi/pirkan-hiihto/"
+    ]
+  },
+  "citations": [
+    "https://www.pirkanhiihto.fi/pirkka-ski-race/",
+    "https://jami.fi/en/news/jami-ski-marathon-gathers-skiers-to-hameenkangas/",
+    "https://www.pirkanhiihto.fi",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.finlandiahiihto.fi/relay-and-team-race",
+    "https://www.finlandiahiihto.fi/se/nyheter",
+    "https://www.umpihankihiihto.fi/en/mainpage/",
+    "https://www.finlandiahiihto.fi/de/news",
+    "https://www.pirkanhiihto.fi/pirkan-hiihto/",
+    "https://hiihtoliitto.fi/en/front-page/"
+  ],
+  "checked_at": "2026-03-12T16:00:05Z"
+}

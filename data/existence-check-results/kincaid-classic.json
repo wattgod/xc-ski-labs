@@ -1,0 +1,27 @@
+{
+  "slug": "kincaid-classic",
+  "name": "Kincaid Classic",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a specific cross-country ski race named 'Kincaid Classic'. Search results mention Kincaid Park hosting various events like U.S. Nationals sprints, mass starts, Anchorage Winter Start Race, and Tuesday Night Ski Races, but none reference a 'Kincaid Classic'. Result [9] refers to a track and field meet, not skiing.",
+    "sources": []
+  },
+  "citations": [
+    "https://nordicinsights.news/2025/12/04/nationals-notes-inside-the-kincaid-sprint-course/",
+    "https://usnationalsanchorage2025.com",
+    "https://usnationalsanchorage2025.com/event-information-3/",
+    "https://alaskananooks.com/news/2025/11/21/general-nordic-skiing-opens-2025-26-season-in-anchorage-for-nordic-cup.aspx",
+    "https://anchoragenordicski.com/races/2024-anchorage-winter-start-race/",
+    "https://www.usskiandsnowboard.org/2025-26-events",
+    "https://www.crosscountryalaska.org/tuesday-night-ski-races",
+    "https://anchoragenordicski.com/trails/",
+    "https://trcrace.com/event/2022-kincaid-classic/",
+    "https://www.usskiandsnowboard.org/events/us-national-championships-mt-van-hoevenberg"
+  ],
+  "checked_at": "2026-03-12T15:51:47Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "fossavatnsgangan",
+  "name": "Fossavatnsgangan",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 400,
+    "country": "Iceland",
+    "region": "Westfjords",
+    "discipline": "classic",
+    "field_size": "~1,000 starters",
+    "founded": 1935,
+    "website": "https://fossavatn.is",
+    "date": "Easter weekend, late April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50 km classic race as the main distance.",
+      "source_url": "https://bodyandsoulinternational.com/activities/3013-fossavatnsgangan-2026"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 614,
+      "note": "Highest point is 614m; no source confirms total elevation gain of 400m.",
+      "source_url": "https://www.worldloppet.com/wl-race/fossavatnsgangan/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Iceland.",
+      "source_url": "https://en.wikipedia.org/wiki/Fossavatnsgangan"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Westfjords, Ísafjörður.",
+      "source_url": "https://bodyandsoulinternational.com/activities/3013-fossavatnsgangan-2026"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "50km is classic; freestyle available for shorter distances.",
+      "source_url": "https://bodyandsoulinternational.com/activities/3013-fossavatnsgangan-2026"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 600,
+      "note": "~1,000 exceeds 600 (2024) and other reports (e.g., <300 for 50km, over 400 total); outside ±20% tolerance.",
+      "source_url": "https://en.wikipedia.org/wiki/Fossavatnsgangan"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Founded in 1935.",
+      "source_url": "https://bodyandsoulinternational.com/activities/3013-fossavatnsgangan-2026"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site listed as https://www.fossavatn.is/ (minor path difference).",
+      "source_url": "https://en.wikipedia.org/wiki/Fossavatnsgangan"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically April, around Easter (e.g., 18 Apr 2026, 10-12 Apr 2025).",
+      "source_url": "https://bodyandsoulinternational.com/activities/3013-fossavatnsgangan-2026"
+    }
+  },
+  "citations": [
+    "https://bodyandsoulinternational.com/activities/3013-fossavatnsgangan-2026",
+    "https://skiclassics.com/events/challengers/fossavatnsgangan/",
+    "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+    "https://www.inspiredbyiceland.com/events/fossavatn-ski-marathon-2025/",
+    "https://en.wikipedia.org/wiki/Fossavatnsgangan",
+    "https://www.lumiexperiences.com/blog/2024/5/14/iceland",
+    "https://fossavatn.is/en/",
+    "https://www.worldloppet.com/category/news/fossavatnsgangan/",
+    "https://www.youtube.com/watch?v=Us3-XvpcMB4"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:00Z"
+}

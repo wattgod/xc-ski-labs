@@ -1,0 +1,24 @@
+{
+  "slug": "keswick-to-barrow",
+  "name": "Keswick to Barrow",
+  "country": "United Kingdom",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a cross-country ski race named 'Keswick to Barrow'. All sources describe a walking and running charity event (K2B Walk), not a ski race. No mentions of skiing, snow, or winter conditions in any results.",
+    "sources": []
+  },
+  "citations": [
+    "https://keswick2barrow.co.uk/challenge",
+    "https://www.cclg.org.uk/get-involved/fundraising-events/keswick-barrow",
+    "https://www.ataxia.org.uk/get-involved/events-and-fundraising/challenges/runs/keswick-to-barrow-and-coniston-to-barrow-walks/",
+    "https://en.wikipedia.org/wiki/Keswick_to_Barrow",
+    "https://www.youtube.com/watch?v=uyHoHLNmUTc",
+    "https://www.thelilyfoundation.org.uk/charity/get-involved/events/keswick-to-barrow-k2b-2026/",
+    "https://keswick2barrow.co.uk"
+  ],
+  "checked_at": "2026-03-12T15:51:35Z"
+}

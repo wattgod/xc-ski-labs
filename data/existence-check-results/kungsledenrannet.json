@@ -1,0 +1,23 @@
+{
+  "slug": "kungsledenrannet",
+  "name": "Kungsledenrännet",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 2,
+    "official_website": "https://www.millegrobbe.com",
+    "results_url": "https://ssfta.skidor.com/event/14844",
+    "evidence_summary": "Kungsledenrännet is a real, organized cross-country ski race in Sweden held in Ammarnäs. It appears in an official cross-country skiing calendar for 2014/2015 with a website reference, and a current race registration/results page exists on the Swedish Ski Federation's official platform (ssfta.skidor.com) showing the race was held on April 13, 2024.",
+    "sources": [
+      "https://worldloppetskier.wordpress.com/wp-content/uploads/2015/01/xc_long_distance_calender_2015_iawls.pdf",
+      "https://ssfta.skidor.com/event/14844",
+      "https://www.millegrobbe.com"
+    ]
+  },
+  "citations": [
+    "https://worldloppetskier.wordpress.com/wp-content/uploads/2015/01/xc_long_distance_calender_2015_iawls.pdf",
+    "https://ssfta.skidor.com/event/14844"
+  ],
+  "checked_at": "2026-03-12T15:52:36Z"
+}

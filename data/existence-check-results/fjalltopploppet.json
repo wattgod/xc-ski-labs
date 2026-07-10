@@ -1,0 +1,31 @@
+{
+  "slug": "fjalltopploppet",
+  "name": "Fjälltopploppet",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Fjälltopploppet is listed as an official Ski Classics Challengers event with a 35km freestyle race held on April 20, 2024, in Bruksvallarna, Sweden, and described as organized for over 30 years. News articles report specific winners (Jan Thomas Jenssen and Moa Lundgren) and event details from Fjälltopphelgen. Additional mentions on tourism sites, race directories, and event pages confirm its annual occurrence as part of the cross-country skiing season ender.",
+    "sources": [
+      "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/",
+      "https://skiclassics.com/events/challengers/fjalltoppsloppet/",
+      "https://www.bruksvallarna.se/cross-country-skiing/",
+      "https://www.nordicmag.info/en/cross-country-skiing-bruksvallarna-jan-thomas-jenssen-and-moa-lundgren-win-the-fjalltopploppet-0412/",
+      "https://www.nordicmag.info/en/cross-country-skiing-bruksvallarna-the-fjalltopphelgen-100-metre-sprints-for-barbora-antosova-and-marcus-grate-0411/"
+    ]
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/",
+    "https://skiclassics.com/events/challengers/fjalltoppsloppet/",
+    "https://www.bezky.net/event/fjalltopploppet-knallcrossen/",
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://www.bruksvallarna.se/cross-country-skiing/",
+    "https://www.nordicmag.info/en/cross-country-skiing-bruksvallarna-the-fjalltopphelgen-100-metre-sprints-for-barbora-antosova-and-marcus-grate-0411/",
+    "https://raceid.com/races/13424/about",
+    "https://www.nordicmag.info/en/cross-country-skiing-bruksvallarna-jan-thomas-jenssen-and-moa-lundgren-win-the-fjalltopploppet-0412/"
+  ],
+  "checked_at": "2026-03-12T15:45:06Z"
+}

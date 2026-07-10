@@ -1,0 +1,81 @@
+{
+  "slug": "sumavsky-skimaraton",
+  "name": "Šumavský Skimaraton",
+  "facts": {
+    "distance_km": 46,
+    "elevation_m": 650,
+    "country": "Czech Republic",
+    "region": "South Bohemia",
+    "discipline": "both",
+    "field_size": "~1,500",
+    "founded": 1984,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source [1] lists 46 km FT on Saturday, matching within ±3 km tolerance; other distances like 45 km CT also close.",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No source specifies total elevation gain for 46 km; [4] shows 754 m for 44.7 km (close but unspecified distance match), [2] 560 m for 25 km, [3] implies ~323 m for 24 km.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Explicitly stated as CZE (Czech Republic) in [1].",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Šumava is in South Bohemia (Jižní Čechy); [1] mentions Bohemian Forest/Šumava near Vimperk.",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both FT (freestyle/skate) and CT (classic): 46 km FT, 45 km CT in [1]; confirmed classic and free in [6].",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants (~1,500).",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm year founded/first edition as 1984.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website URL identified in sources; [1] is Euroloppet passport page.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically February: [2] 2/20/2023, [3] 2/18/20, [6] lists for Feb 2026.",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    }
+  },
+  "citations": [
+    "https://passport.euroloppet.com/event/sumavsky",
+    "https://mapy.com/zimni?dim=63f3c56419125a71691794bf",
+    "https://www.stopaprozivot.cz/wp-content/uploads/2020/02/sm_2020_24km_FT_CT-1.pdf",
+    "https://mapy.com/en/?id=2135548",
+    "https://www.horydoly.cz/international/all-time-best-trekking-route-in-the-nepal.html?akce=novy-prispevek",
+    "https://www.visitczechia.com/en-us/things-to-do/events/2026/02/e-sumava-ski-marathon"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:56:12Z"
+}

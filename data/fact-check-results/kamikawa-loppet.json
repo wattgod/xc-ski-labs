@@ -1,0 +1,83 @@
+{
+  "slug": "kamikawa-loppet",
+  "name": "Kamikawa Loppet",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 200,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "both",
+    "field_size": 250,
+    "founded": null,
+    "website": "https://www.kamikawa-loppet.jp",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Kamikawa Loppet or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Kamikawa Loppet or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming Kamikawa Loppet location.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming Kamikawa Loppet region; Kamikawa mentioned in Hokkaido contexts but not for this race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Kamikawa Loppet or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Kamikawa Loppet participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Kamikawa Loppet founding year.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or linking to https://www.kamikawa-loppet.jp for the race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning Kamikawa Loppet race dates.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/cross-country-skiing-in-japan/",
+    "http://connect.ajet.net/2020/04/12/the-longest-cross-country-ski-race-in-japan/",
+    "https://www.snowjapan.com/japan-ski-resorts/hokkaido/kamikawa/kamikawa-choei-nakayama",
+    "https://runjapan.jp/entry/runtes/smp/competitiondetail.do?raceId=E336188&div=1",
+    "https://www.skisprungschanzen.com/EN/Ski+Jumps/JPN-Japan/01-Hokkaid%C5%8D/Kamikawa/1605/",
+    "https://fiscroc.jp/en/jc2026/",
+    "https://www.youtube.com/watch?v=FRzzZP_vZx8",
+    "https://www.skisprungschanzen.com/EN/Ski+Jumps/JPN-Japan/01-Hokkaid%C5%8D/Kamikawa/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:15:31Z"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "sjusjoen-skimarathon",
+  "name": "Sjusjoen Skimarathon",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://www.soreil.no/sjusjoenskimarathon/",
+    "results_url": null,
+    "evidence_summary": "The Sjusjøen Skimarathon is confirmed as a real, organized event with an official website operated by Søre Ål Idrettslag. The 2026 edition took place on Saturday, February 7, 2026, offering 40 km and 19 km distances in both classic and freestyle styles. The race is officially recognized as a seeding race for the Birkebeinerrennet and Vasaloppet marathons.",
+    "sources": [
+      "https://www.soreil.no/sjusjoenskimarathon/",
+      "https://en.lillehammer.com/whats-on/sjusjoen-skimarathon-2026-p5688683",
+      "https://www.visitnorway.com/listings/sjusj%C3%B8en-cross-country-skiing/7155/"
+    ]
+  },
+  "citations": [
+    "https://www.visitnorway.com/listings/sjusj%C3%B8en-cross-country-skiing/7155/",
+    "https://www.soreil.no/sjusjoenskimarathon/",
+    "https://en.lillehammer.com/whats-on/sjusjoen-skimarathon-2026-p5688683",
+    "https://www.goxski.com/sjusjoen",
+    "https://www.sjusjoen.ski",
+    "https://sjusjoen.no/en/winter-at-sjusjoen/",
+    "https://www.tripadvisor.ca/Attraction_Review-g1188517-d1734422-Reviews-Sjusjoen_Ski_Center-Sjusjoen_Ringsaker_Municipality_Hedmark_Eastern_Norway.html",
+    "https://sjusjoenskisenter.no",
+    "https://www.sjusjoen.ski/about"
+  ],
+  "checked_at": "2026-03-12T16:03:51Z"
+}

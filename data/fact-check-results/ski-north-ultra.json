@@ -1,0 +1,82 @@
+{
+  "slug": "ski-north-ultra",
+  "name": "Ski North Ultra",
+  "facts": {
+    "distance_km": 100,
+    "elevation_m": 1000,
+    "country": "United States",
+    "region": "Upper Midwest",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": 2025,
+    "website": "https://www.skinorthultra.com/",
+    "date": "First Saturday of March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 100K distance for the main event",
+      "source_url": "https://www.givesignup.org/Race/MN/Lutsen/SkiNorthUltra"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1130,
+      "note": "Sources state 3,707 feet elevation climb, which converts to approximately 1130 meters (3707 ft * 0.3048 ≈ 1130m), outside ±100m tolerance of 1000m",
+      "source_url": "https://www.visitcookcounty.com/articles/post/ski-north-ultramarathon-returning-to-lutsen-march-7-2026/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Lutsen, MN US",
+      "source_url": "https://www.givesignup.org/Race/MN/Lutsen/SkiNorthUltra"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Minnesota, Upper Midwest region (North Shore near Lutsen, Cook County)",
+      "source_url": "https://www.visitcookcounty.com/articles/post/ski-north-ultramarathon-returning-to-lutsen-march-7-2026/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic-only or classic-technique skiing confirmed across sources",
+      "source_url": "https://www.givesignup.org/Race/MN/Lutsen/SkiNorthUltra"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 72,
+      "note": "Last year (2025) 72 skiers started; described as typical with spots limited (e.g., 26 left for 100K), outside ±20% tolerance of 100 (80-120)",
+      "source_url": "https://www.givesignup.org/Race/MN/Lutsen/SkiNorthUltra"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2025,
+      "note": "First edition in 2025, 2026 is second year",
+      "source_url": "https://wtip.org/fresh-snow-welcome-as-ski-north-ultra-returns-for-a-second-year/"
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources reference 'official Ski North Ultra website' and registration at givesignup.org but no direct confirmation of exact URL https://www.skinorthultra.com/",
+      "source_url": "https://www.visitcookcounty.com/articles/post/ski-north-ultramarathon-returning-to-lutsen-march-7-2026/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Scheduled for first Saturday of March (March 7, 2026)",
+      "source_url": "https://www.givesignup.org/Race/MN/Lutsen/SkiNorthUltra"
+    }
+  },
+  "citations": [
+    "https://www.givesignup.org/Race/MN/Lutsen/SkiNorthUltra",
+    "https://www.visitcookcounty.com/articles/post/ski-north-ultramarathon-returning-to-lutsen-march-7-2026/",
+    "https://wtip.org/fresh-snow-welcome-as-ski-north-ultra-returns-for-a-second-year/",
+    "https://kpeo.org/local-events?_evDiscoveryPath=%2Fevent%2F171785r-ski-north-ultra",
+    "https://www.exploreminnesota.com/event/ski-north-ultra/37699",
+    "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/cookcountymn/Ski_North_Ultra_press_release_09065db6-9a26-49ec-a4f2-6698304d4329.pdf",
+    "https://www.boreal.org/events/336241/ski-north-ultra"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:53:04Z"
+}

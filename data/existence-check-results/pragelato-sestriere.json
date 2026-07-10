@@ -1,0 +1,30 @@
+{
+  "slug": "pragelato-sestriere",
+  "name": "Pragelato-Sestriere",
+  "country": "Italy",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 1,
+    "official_website": "https://www.vialattea.it/en/",
+    "results_url": null,
+    "evidence_summary": "Pragelato and Sestriere are confirmed as real ski locations within the Vialattea ski resort in Italy's Val Chisone region. Pragelato hosted Nordic skiing during the 2006 Turin Olympics and is connected to Sestriere via cable car. However, no specific cross-country ski race called 'Pragelato-Sestriere' was found in search results. The search results mention various ski races at these locations (Coppa Italia Master, Uovo d'Oro Lauretana) but none specifically named 'Pragelato-Sestriere.' The Special Olympics World Winter Games 2025 mentions cross-country skiing in Pragelato, but this is a separate international event, not a named race between the two towns.",
+    "sources": [
+      "https://www.vialattea.it/en/ski-area/pragelato/",
+      "https://sestriere.it/en/winter-in-sestriere/ski-area/",
+      "https://www.vialattea.it/en/ski-race-schedule/",
+      "https://www.turin2025.org/en"
+    ]
+  },
+  "citations": [
+    "https://www.vialattea.it/en/ski-area/pragelato/",
+    "https://sestriere.it/en/winter-in-sestriere/ski-area/",
+    "https://www.vialattea.it/en/ski-race-schedule/",
+    "https://triathlon.org/events/2024-world-triathlon-winter-championships-pragelato-bardonecchia",
+    "https://www.vialattea.it/en/",
+    "https://www.vialattea.it/en/events/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=46035&seasoncode=2020",
+    "https://www.turin2025.org/en"
+  ],
+  "checked_at": "2026-03-12T16:00:49Z"
+}

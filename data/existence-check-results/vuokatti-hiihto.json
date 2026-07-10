@@ -1,0 +1,31 @@
+{
+  "slug": "vuokatti-hiihto",
+  "name": "Vuokatti Hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://endurancekainuu.fi/en/vuokatti-hiihto-en/",
+    "results_url": null,
+    "evidence_summary": "Vuokatti Hiihto is a real cross-country ski event organized by Endurance Kainuu, with an official website detailing races (14-50 km classic/free), start times for March 14, 2026, registration, routes, prizes, and news updates. Multiple pages on the site confirm event logistics, categories, and services like timekeeping and medals. No past results found in search, but detailed future planning and Euroloppet mentions provide strong evidence of legitimacy.",
+    "sources": [
+      "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/",
+      "https://endurancekainuu.fi/en/vuokatti-hiihto-en/",
+      "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-register-now/",
+      "https://endurancekainuu.fi/en/vuokatti-ski-marathon-14-3-2026-new-start-times-and-route-updates/"
+    ]
+  },
+  "citations": [
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-event-info/",
+    "https://hiihtoliitto.fi/en/jwsc2021/vuokatti/",
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/",
+    "https://endurancekainuu.fi/en/vuokatti-hiihto-en/vuokatti-hiihto-register-now/",
+    "https://endurancekainuu.fi/en/vuokatti-ski-marathon-14-3-2026-new-start-times-and-route-updates/",
+    "https://www.finlandiahiihto.fi/for-skier",
+    "https://vuokatti.fi/en/winter-fun/",
+    "https://vuokattiexperiences.fi/en/vuokatti-winter/",
+    "https://hiihtoliitto.fi/en/front-page/"
+  ],
+  "checked_at": "2026-03-12T16:11:28Z"
+}

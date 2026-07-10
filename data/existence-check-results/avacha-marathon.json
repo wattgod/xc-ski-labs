@@ -1,0 +1,31 @@
+{
+  "slug": "avacha-marathon",
+  "name": "Avacha Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 3,
+    "official_website": "www.russialoppet.ru",
+    "results_url": null,
+    "evidence_summary": "The Avacha Marathon is documented across multiple independent sources including Worldloppet (an official international ski marathon federation), a Kamchatka regional events calendar, and skyrunning event listings. The race is confirmed as a 60km cross-country ski marathon held annually in April near Petropavlovsk-Kamchatskiy on the Kamchatka Peninsula. However, no accessible race results, registration pages, or recent news articles were found in the search results.",
+    "sources": [
+      "https://www.worldloppet.com/avacha-marathon-rus/",
+      "https://en.kamtravel.pro/kamchatka/calendar/",
+      "https://skyrunningpoland.wordpress.com/tag/vertical-kilometer/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/avacha-marathon-rus/",
+    "https://en.kamtravel.pro/kamchatka/calendar/",
+    "https://skyrunningpoland.wordpress.com/tag/vertical-kilometer/",
+    "https://discoverrussia.travel/routes/kamchatka-where-russia-begins",
+    "https://embassylife.ru/en/2023/02/03/18318/",
+    "https://russiacb.com/upload/iblock/639/63963f5ab869d21f8fed8ac1d7db1820.pdf",
+    "https://test.visitkamchatka.ru/upload/tests_doc/quest_eng.pdf",
+    "https://www.tripadvisor.com/Attractions-g298491-Activities-c57-t59-Kamchatka_Krai_Far_Eastern_District.html",
+    "https://en.iz.ru/en/1841067/oleg-samonaev/broken-track-will-we-see-bolshunov-new-marathons-europe",
+    "https://www.eastrussia.ru/material/kamchatka-needed-a-tourists-flow-well-distributed-throughout-all-the-season/"
+  ],
+  "checked_at": "2026-03-12T15:38:43Z"
+}

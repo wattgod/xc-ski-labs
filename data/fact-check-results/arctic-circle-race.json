@@ -1,0 +1,84 @@
+{
+  "slug": "arctic-circle-race",
+  "name": "Arctic Circle Race",
+  "facts": {
+    "distance_km": 160,
+    "elevation_m": 2000,
+    "country": "Greenland",
+    "region": "Qeqqata",
+    "discipline": "classic",
+    "field_size": "~200 from 20+ countries",
+    "founded": 1998,
+    "website": "https://www.acr.gl",
+    "date": "Late March / Early April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site confirms 160 km distance",
+      "source_url": "https://acr.gl"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found confirming total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Greenland, Sisimiut location",
+      "source_url": "https://acr.gl"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Qeqqata Kommunia (municipality) mentioned",
+      "source_url": "https://acr.gl"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Technique listed as CLASSIC",
+      "source_url": "https://acr.gl"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Mentions nearly 250 participants but no consistent typical number from 20+ countries confirmed; within tolerance but lacks multi-year data",
+      "source_url": "https://acr.gl/check-in/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Results from 2016+ but no explicit first edition year found",
+      "source_url": "https://acr.gl/results/"
+    },
+    "website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site https://acr.gl (note: www.acr.gl also redirects)",
+      "source_url": "https://acr.gl"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late March/Early April confirmed (e.g., 27-29 March 2026, April dates in past editions)",
+      "source_url": "https://acr.gl"
+    }
+  },
+  "citations": [
+    "https://acr.gl/check-in/",
+    "https://acr.gl/pricing/",
+    "https://acr.gl",
+    "https://acr.gl/program/",
+    "https://acr.gl/results/",
+    "https://acr.gl/about-us/",
+    "https://acr.gl/acr-route/",
+    "https://acr.gl/acr-contact/",
+    "https://visitgreenland.com/activities/arctic-circle-race/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:45:16Z"
+}

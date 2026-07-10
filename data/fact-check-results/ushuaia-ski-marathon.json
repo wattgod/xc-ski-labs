@@ -1,0 +1,84 @@
+{
+  "slug": "ushuaia-ski-marathon",
+  "name": "Ushuaia Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "Argentina",
+    "region": "Tierra del Fuego",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 2005,
+    "website": null,
+    "date": "September"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km distance for Ushuaia Loppet (42.4 km in one source, within ±3 km tolerance)",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 713,
+      "note": "Source states total elevation gain in the two laps: 712.6 meters (within ±100m of 500? No, differs significantly)",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Argentina",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Tierra del Fuego",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as classic technique",
+      "source_url": "https://skiclassics.com/events/challengers/ushuaia-loppet/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 95,
+      "note": "Highest number of participants/finishers: 95 in 42km (2015); 780 entries for Marchablanca 21km. 95 outside ±20% of 200 (160-240 range)",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1986,
+      "note": "First race: 1986",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "www.ushuaialoppet.com",
+      "note": "Official website listed as www.ushuaialoppet.com",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "August",
+      "note": "Typical dates in August (e.g., Aug 18, Aug 14, Aug 17), not September",
+      "source_url": "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+    "https://en.wikipedia.org/wiki/Ushuaia_Loppet",
+    "https://skiclassics.com/events/challengers/ushuaia-loppet/",
+    "https://worldsmarathons.com/marathon/ushuaia-trail-race",
+    "https://www.worldloppet.com/category/news/ushuaia-loppet/",
+    "https://findelmundo.tur.ar/en/c/eventos-deportivos/4982",
+    "https://skiracing.com/ushuaia-training-home-of-the-worlds-best/",
+    "https://www.worldloppet.com/tag/ushuaialoppet/",
+    "https://www.ahotu.com/event/ushuaia-loppet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:58:09Z"
+}

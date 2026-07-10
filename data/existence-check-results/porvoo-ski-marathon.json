@@ -1,0 +1,24 @@
+{
+  "slug": "porvoo-ski-marathon",
+  "name": "Porvoo Ski Marathon",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Porvoo Ski Marathon' cross-country ski race found in any search results. Mentions of cross-country skiing in Porvoo refer only to general lighted trails and local clubs, with no specific marathon event, official site, results, news, or listings in Worldloppet/Euroloppet/Ski Classics. Other events like Porvoo Race (likely cycling) and running marathons exist, but no ski marathon.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.visitporvoo.fi/en/activities-and-experiences/",
+    "https://www.porvooski.fi",
+    "https://suomi-juoksu.fi/en/race-calendar/cities/porvoo/all-race-types/maraton/",
+    "https://runoporvoo.com-hotel.website",
+    "https://www.porvoo.fi/en/hobbies/",
+    "https://santaclausfinland.fi/en/page/2/?taxonomy=product_type",
+    "https://www.porvoonajot.fi/en/evastekaytanto-eu/"
+  ],
+  "checked_at": "2026-03-12T16:00:42Z"
+}

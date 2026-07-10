@@ -1,0 +1,84 @@
+{
+  "slug": "fjalltopploppet",
+  "name": "Fjälltopploppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 800,
+    "country": "Sweden",
+    "region": "Härjedalen",
+    "discipline": "classic",
+    "field_size": "~300 starters",
+    "founded": 1982,
+    "website": "https://www.fjalltopploppet.se",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 35,
+      "note": "Multiple sources confirm 35km race distance, not 42km.",
+      "source_url": "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found confirming total elevation gain of 800m.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden.",
+      "source_url": "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention Funäsfjällen and Bruksvallarna, but not explicitly Härjedalen; cannot confirm or deny.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle",
+      "note": "Sources indicate freestyle technique, not classic.",
+      "source_url": "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found on typical number of participants (~300 starters).",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found confirming year founded (1982).",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm https://www.fjalltopploppet.se as official site; other sites like skiclassics.com mentioned.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Late April",
+      "note": "2024 edition on April 20; not late March.",
+      "source_url": "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/"
+    }
+  },
+  "citations": [
+    "https://www.lofsdalen.com/en/lofsdalenepic",
+    "https://unofficialnetworks.com/2025/03/04/sweden-hosts-the-worlds-largest-cross-country-ski-race-15800-athletes/",
+    "https://www.proxcskiing.com/long-distance/fjalltoppsloppet-joins-the-ski-classics-challengers-calendar/",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://raceid.com/races/13424/about",
+    "https://www.youtube.com/watch?v=M4SBDZRDg-I",
+    "https://www.bezky.net/event/fjalltopploppet-knallcrossen/",
+    "https://skiclassics.com/events/challengers/fjalltoppsloppet/",
+    "https://www.proxcskiing.com/el/event/fjalltopploppet-35km/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:47:47Z"
+}

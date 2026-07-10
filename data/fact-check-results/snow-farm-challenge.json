@@ -1,0 +1,83 @@
+{
+  "slug": "snow-farm-challenge",
+  "name": "Snow Farm Challenge",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "New Zealand",
+    "region": "Otago",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2002,
+    "website": "https://www.snowfarmnz.com",
+    "date": "August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 85,
+      "note": "The primary race is the Merino Muster with 42km as the longest single event, but the full Musterer title requires completing all five races totaling 85km (42km Merino Muster + 21km Snow Rake + 14km Double Fleece + 7km Straggle Muster + 1km Mini Merino). The race name in the database appears to be incorrect; it should be 'Merino Muster' not 'Snow Farm Challenge'.",
+      "source_url": "https://www.worldloppet.com/new-zealands-biggest-cross-country-skiing-race-is-returning/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources in the search results specify the total elevation gain for the Merino Muster or Snow Farm courses.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Snow Farm is confirmed to be in New Zealand.",
+      "source_url": "https://snowfarm.nz/events/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Wanaka is mentioned as the nearest town for accommodation, the specific regional designation of 'Otago' is not explicitly confirmed in the search results, though Wanaka is in the Otago region.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The Merino Muster offers both classic and freestyle (skate) disciplines. The FIS results show both 'Marathon Free' (freestyle) events, and Snow Farm's programmes describe both classic and skating options.",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=49920"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources in the search results specify the typical number of participants for the Merino Muster.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 1995,
+      "note": "The Merino Muster has been running since 1995, not 2002.",
+      "source_url": "https://www.merinomuster.com"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.merinomuster.com",
+      "note": "The official Merino Muster website is https://www.merinomuster.com, not https://www.snowfarmnz.com. Snow Farm's main events page is at https://snowfarm.nz/events/.",
+      "source_url": "https://www.merinomuster.com"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "September",
+      "note": "The Merino Muster takes place in September (specifically September 3rd in recent years), not August. The 2025 event was held on August 30th according to FIS records, but the standard timing is September.",
+      "source_url": "https://www.worldloppet.com/new-zealands-biggest-cross-country-skiing-race-is-returning/"
+    }
+  },
+  "citations": [
+    "https://snowfarm.nz/events/",
+    "https://www.worldloppet.com/new-zealands-biggest-cross-country-skiing-race-is-returning/",
+    "https://www.snowsports.co.nz/sports/cross-country/starting-out/",
+    "https://wanakaxc.webflow.io/ski",
+    "https://www.sporty.co.nz/snowsportsnz/sports/cross-country",
+    "https://snowfarm.nz/cross-country-ski-programmes/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=49920",
+    "https://www.merinomuster.com"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:53:33Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "markatrimmen",
+  "name": "Markatrimmen",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 400,
+    "country": "Norway",
+    "region": "Trondelag",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": null,
+    "website": "https://skiklubben.no/aktiviteter/markatrimmen/",
+    "date": "First Saturday of February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 36,
+      "note": "2026 results show Markatrimmen klassisk 36 km; also 12 km race exists, no 50 km found",
+      "source_url": "https://live.eqtiming.com/79424"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Trondheim, Norway",
+      "source_url": "https://www.kondis.no/resultater/resultater-markatrimmen-2026/1550178"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Trondheim is in Trøndelag; explicitly stated as Trondheim",
+      "source_url": "https://www.kondis.no/resultater/resultater-markatrimmen-2026/1550178"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Markatrimmen klassisk (classic); 2026 edition",
+      "source_url": "https://live.eqtiming.com/79424"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "376 finishers in 2026; within ±20% of 400 (80-480 range)",
+      "source_url": "https://www.kondis.no/resultater/resultater-markatrimmen-2026/1550178"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of this URL in results; ProXCskiing mentions but no direct match; official site not clearly identified",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2026 on Saturday 7 February (first Saturday); 2023 on 4 February (first Saturday)",
+      "source_url": "https://www.kondis.no/resultater/resultater-markatrimmen-2026/1550178"
+    }
+  },
+  "citations": [
+    "https://www.kondis.no/resultater/resultater-markatrimmen-2026/1550178",
+    "https://live.eqtiming.com/79424",
+    "https://www.proxcskiing.com/event/markatrimmen-2/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=46939",
+    "https://www.proxcskiing.com/is/atbur%C3%B0ur/markatrimmen-2/",
+    "https://www.youtube.com/watch?v=-qszPW4S52s",
+    "https://www.youtube.com/watch?v=9WptVviwUbM",
+    "https://www.youtube.com/watch?v=UtttjUngT6E"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:45:32Z"
+}

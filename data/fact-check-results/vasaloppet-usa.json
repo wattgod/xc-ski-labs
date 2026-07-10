@@ -1,0 +1,84 @@
+{
+  "slug": "vasaloppet-usa",
+  "name": "Vasaloppet USA",
+  "facts": {
+    "distance_km": 58,
+    "elevation_m": 850,
+    "country": "United States",
+    "region": "Upper Midwest",
+    "discipline": "both",
+    "field_size": "~3,000 starters",
+    "founded": 1973,
+    "website": "https://www.vasaloppet.us",
+    "date": "Second Sunday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific distance mentioned in search results; course maps referenced but not detailed in provided snippets",
+      "source_url": "https://vasaloppet.us/race-weekend/course-maps/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found in search results",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States, located in Mora, Minnesota",
+      "source_url": "https://vasaloppet.us"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mora, MN is in Minnesota, Upper Midwest region",
+      "source_url": "https://vasaloppet.us"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No explicit mention of classic or skate; other races mention freestyle with classic tracks but not main event",
+      "source_url": "https://vasaloppet.us/first-chance-race/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found in search results",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First race in 1973 confirmed multiple times",
+      "source_url": "https://vasaloppet.us"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site https://vasaloppet.us (note: .us confirmed in content)",
+      "source_url": "https://vasaloppet.us"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Second weekend of February; 2026 dates February 7-8 align with second Sunday",
+      "source_url": "https://vasaloppet.us"
+    }
+  },
+  "citations": [
+    "https://vasaloppet.us",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://vasaloppet.us/last-chance-race/",
+    "https://vasaloppet.us/first-chance-race/",
+    "https://vasaloppet.us/nordic-center/",
+    "https://vasaloppet.us/race-weekend/about/",
+    "https://vasaloppet.us/race-weekend/",
+    "https://vasaloppet.us/race-weekend/ski-for-life-club/",
+    "https://vasaloppet.us/race-weekend/course-maps/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:58:15Z"
+}

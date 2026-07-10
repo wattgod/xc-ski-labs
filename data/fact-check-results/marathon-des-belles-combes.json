@@ -1,0 +1,83 @@
+{
+  "slug": "marathon-des-belles-combes",
+  "name": "Marathon des Belles Combes",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "France",
+    "region": "Jura",
+    "discipline": "skate",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.marathonskitour.com",
+    "date": "Late December (season opener)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 42km distance is confirmed in multiple sources. Source [2] states 'Le 42km classique programmé le dimanche 15 février' and source [5] mentions 'trois épreuves de 12, 23 et 42 kilomètres'",
+      "source_url": "https://www.marathonskitour.fr/actualite/11408"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain information found in any of the search results provided",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "France is confirmed. Source [1] states 'dans le haut Jura' and source [2] confirms it is part of the 'circuit national des longues distances orchestré par la Fédération française de ski'",
+      "source_url": "https://www.leprogres.fr/sport/2025/12/11/l-epreuve-des-belles-combes-decalee"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Jura region is confirmed. Multiple sources reference 'haut Jura' and 'Haut-Jura' as the location",
+      "source_url": "https://www.leprogres.fr/sport/2025/12/11/l-epreuve-des-belles-combes-decalee"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "The discipline is classic (style classique), not skate. Source [2] explicitly states 'Le 42km classique programmé le dimanche 15 février' and source [3] confirms 'deuxième course longue distance en style classique'",
+      "source_url": "https://www.marathonskitour.fr/actualite/11408"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information about typical participant numbers found in the search results",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year or first edition date found in the search results provided",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "WRONG",
+      "correct_value": "https://www.lesbellescombes.fr",
+      "note": "The provided URL 'https://www.marathonskitour.com' is incorrect. The official website for Les Belles Combes is https://www.lesbellescombes.fr as shown in sources [6] and [7]",
+      "source_url": "https://www.lesbellescombes.fr/fr/"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Mid-February",
+      "note": "The race was originally scheduled for late December (20-21 December 2025) but was rescheduled to mid-February (14-15 February 2026). Source [1] states the original date was 'les 20 et 21 décembre 2025' but it was 'reporté l'événement aux 14 et 15 février 2026'. The 2026 edition was ultimately cancelled, but the rescheduled date represents the current typical timing",
+      "source_url": "https://www.leprogres.fr/sport/2025/12/11/l-epreuve-des-belles-combes-decalee"
+    }
+  },
+  "citations": [
+    "https://www.leprogres.fr/sport/2025/12/11/l-epreuve-des-belles-combes-decalee",
+    "https://www.marathonskitour.fr/actualite/11408",
+    "https://www.ledauphine.com/skichrono/2026/02/12/marathon-ski-tour-l-edition-2026-des-belles-combes-est-annulee",
+    "https://hebdo39.net/massif-jurassien-la-course-des-belles-combes-est-definitivement-annulee-pour-2026/",
+    "https://blog.ekosport.fr/marathon-belles-combes/",
+    "https://www.lesbellescombes.fr/fr/les-courses/inscriptions/",
+    "https://www.lesbellescombes.fr/fr/",
+    "https://www.lesbellescombes.fr/fr/actualites/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:45:09Z"
+}

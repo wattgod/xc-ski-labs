@@ -1,0 +1,26 @@
+{
+  "slug": "kobberlopet",
+  "name": "Kobberløpet",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.skiclassics.com/kobberlopet-2026-rescheduled/",
+    "results_url": null,
+    "evidence_summary": "Kobberløpet is confirmed as a real, organized long-distance skiing event in Sulitjelma, Norway with over 50 years of history. Multiple independent sources (ProXCskiing, Ski Classics official site, Nordic Mag) document the 2026 edition scheduled for April 18, featuring elite Olympic athletes including Johannes Høsflot Klæbo and Emil Iversen. The event is part of the official Ski Classics Challengers calendar.",
+    "sources": [
+      "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/",
+      "https://skiclassics.com/kobberlopet-2026-rescheduled/",
+      "https://www.proxcskiing.com/paid_content/half-of-olympic-team-set-for-star-studded-clash/",
+      "https://www.nordicmag.info/en/cross-country-skiing-ski-classics-challengers-laurie-flochon-joly-second-in-the-kobberlopet-0405/"
+    ]
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/kobberlopet-2026-rescheduled/",
+    "https://skiclassics.com/kobberlopet-2026-rescheduled/",
+    "https://www.proxcskiing.com/paid_content/half-of-olympic-team-set-for-star-studded-clash/",
+    "https://www.nordicmag.info/en/cross-country-skiing-ski-classics-challengers-laurie-flochon-joly-second-in-the-kobberlopet-0405/"
+  ],
+  "checked_at": "2026-03-12T15:51:59Z"
+}

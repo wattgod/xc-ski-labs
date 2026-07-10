@@ -1,0 +1,83 @@
+{
+  "slug": "pac-nw-loppet-series",
+  "name": "Pacific Northwest Loppet Series",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 250,
+    "country": "United States",
+    "region": "Oregon",
+    "discipline": "both",
+    "field_size": 175,
+    "founded": null,
+    "website": "https://www.oregonnordic.org",
+    "date": "January to March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 40,
+      "note": "Series events feature distances like 34km, 30km, 20km, 40km, 50km; no 25km found for a specific Oregon event",
+      "source_url": "https://www.payak.ca/pacific-northwest-loppet-series/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain for series events; general trail info mentions elevation but not specific gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "WRONG",
+      "correct_value": "Canada and United States",
+      "note": "Series spans BC (Canada) and Washington (US); no exclusive US focus",
+      "source_url": "https://www.payak.ca/pacific-northwest-loppet-series/"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "British Columbia, Washington",
+      "note": "Events in BC (Larch Hills, Nipika, Panorama, Whistler, Vernon) and WA (Methow Valley); no Oregon events",
+      "source_url": "https://www.nipikapanoramaloppet.com/pacific-nw-series"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Series includes classic-only, skate-only, and both (e.g., Ski to the Sun offers free and classic)",
+      "source_url": "https://www.payak.ca/pacific-northwest-loppet-series/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found in sources",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No year founded or first edition mentioned",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.payak.ca/pacific-northwest-loppet-series/",
+      "note": "Primary site is payak.ca; oregonnordic.org relates to trails but not series",
+      "source_url": "https://www.payak.ca/pacific-northwest-loppet-series/"
+    },
+    "race_date_month": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Events from January (e.g., Jan 17) to April, covering January to March",
+      "source_url": "https://www.nipikapanoramaloppet.com/pacific-nw-series"
+    }
+  },
+  "citations": [
+    "https://onc.org/wp-content/uploads/Trails/BMNC-MeachamDivide-SkiTrails.pdf",
+    "https://adventuresportsjournal.com/events/brnw-oregon/",
+    "https://onc.org/onc-chapters/bmnc/bmnc-trail-conditions/",
+    "https://www.payak.ca/pacific-northwest-loppet-series/",
+    "https://www.nipikapanoramaloppet.com/pacific-nw-series",
+    "https://www.yukonskimarathon.ca/pacific-northwest-loppet-series",
+    "https://fasterskier.com/2023/01/pacific-northwest-loppet-series/",
+    "https://skitrax.com/tag/blog/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:17:56Z"
+}

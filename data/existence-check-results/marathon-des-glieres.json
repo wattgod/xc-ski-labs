@@ -1,0 +1,31 @@
+{
+  "slug": "marathon-des-glieres",
+  "name": "Marathon des Glières",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.marathondesglieres.com",
+    "results_url": "https://www.marathondesglieres.com/resultats/",
+    "evidence_summary": "The official website provides detailed event information, regulations, and a dedicated results page for past and future editions, confirming FFS calendar inclusion and 2026 date. Independent news from nordicmag.info and domainenordiquedesglieres.com announce the race as part of Marathon Ski Tour. Multiple references to past events like 2024 and 2025 editions with adaptations due to weather.",
+    "sources": [
+      "https://www.marathondesglieres.com",
+      "https://www.marathondesglieres.com/presentation/reglement/",
+      "https://www.nordicmag.info/en/cross-country-skiing-marathon-ski-tour-the-marathon-des-glieres-takes-place-on-sunday-15-march-0311/",
+      "https://domainenordiquedesglieres.com/evenements/"
+    ]
+  },
+  "citations": [
+    "https://www.marathondesglieres.com",
+    "https://www.marathondesglieres.com/presentation/reglement/",
+    "https://www.nordicmag.info/en/cross-country-skiing-marathon-ski-tour-the-marathon-des-glieres-takes-place-on-sunday-15-march-0311/",
+    "https://domainenordiquedesglieres.com/evenements/",
+    "https://ffs.fr/resultats/",
+    "http://raphaelweis.com/j1zu/",
+    "https://www.ahotu.com/event/le-marathon-des-glieres",
+    "https://www.marathondesglieres.com/actualites/",
+    "https://www.runthealps.com/races"
+  ],
+  "checked_at": "2026-03-12T15:54:56Z"
+}

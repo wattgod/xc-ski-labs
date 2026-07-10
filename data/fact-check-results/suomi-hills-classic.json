@@ -1,0 +1,82 @@
+{
+  "slug": "suomi-hills-classic",
+  "name": "Suomi Hills Classic",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 250,
+    "country": "United States",
+    "region": "Minnesota",
+    "discipline": "classic",
+    "field_size": 80,
+    "founded": 1988,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a 'Suomi Hills Classic' race or any specific race distance of 25km at Suomi Hills.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide elevation gain details for a 'Suomi Hills Classic' race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Suomi Hills is in Minnesota, US[4][6][7], but no confirmation of a race named 'Suomi Hills Classic'.",
+      "source_url": "http://mnnordicski.org/wordpress/wp-content/uploads/2024/04/2024-MNSA-Lifetime-Program-Booklet.pdf"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Suomi Hills located in Minnesota near Grand Rapids[4][6][7], but no race confirmation.",
+      "source_url": "https://northernlightsnordic.org/trails/?trail_id=20"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Suomi Hills trails are classic groomed[6][7], but no specific race details found.",
+      "source_url": "https://northernlightsnordic.org/trails/?trail_id=20"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on participant numbers for any 'Suomi Hills Classic' race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Suomi Hills mentioned in context of ski trips for ~30 years as of 2024[4], but no race founding date.",
+      "source_url": "http://mnnordicski.org/wordpress/wp-content/uploads/2024/04/2024-MNSA-Lifetime-Program-Booklet.pdf"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Suomi Hills Classic'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No race dates found for 'Suomi Hills Classic'; late January unconfirmed.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/MN/Lutsen/SkiNorthUltra",
+    "https://queticosuperior.org/new-cross-country-ski-race-tracks-through-the-superior-national-forest/",
+    "https://www.youtube.com/watch?v=9PX7JnbPxis",
+    "http://mnnordicski.org/wordpress/wp-content/uploads/2024/04/2024-MNSA-Lifetime-Program-Booklet.pdf",
+    "http://www.co.dakota.mn.us/parks/Activities/CrossCountySki",
+    "https://northernlightsnordic.org/trails/?trail_id=20",
+    "https://visitgrandrapids.com/explore-outdoors/cross-country-skiing-mn/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:19:48Z"
+}

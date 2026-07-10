@@ -1,0 +1,51 @@
+{
+  "slug": "baikal-ski-marathon",
+  "name": "Baikal Ski Marathon",
+  "tier": 2,
+  "uncertain_fields": [
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded",
+    "website"
+  ],
+  "result": {
+    "race_exists": true,
+    "note": "Cannot perform real-time web searches to verify current data as of March 2026. My training data has a cutoff in April 2024, and I cannot access live websites, race databases, or social media to confirm current participant numbers, elevation data, or website URLs.",
+    "fields": {
+      "total_elevation_gain_meters": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Could not find authoritative elevation data in accessible sources. Lake Baikal region is relatively flat; 350m seems plausible but unverified."
+      },
+      "technique": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Cannot confirm whether race is classic, skate, or both. Would require direct access to official race rules."
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "~750 participants may be accurate for recent years, but cannot verify without access to current/recent race results."
+      },
+      "year_first_held": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Unable to confirm founding year. Likely 1990s-2000s based on typical Russian loppet development, but cannot verify."
+      },
+      "official_website": {
+        "value": "https://www.russialoppet.ru",
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "russialoppet.ru appears to be a Worldloppet-affiliated site, but cannot verify current functionality or content as of March 2026."
+      }
+    },
+    "limitation": "For accurate current data, you would need to: (1) Contact Worldloppet directly (worldloppet.com), (2) Reach out to Russian ski federation (FIS), or (3) Contact the race organizers directly via russialoppet.ru if accessible."
+  },
+  "citations": [],
+  "checked_at": "2026-03-12T15:40:57Z"
+}

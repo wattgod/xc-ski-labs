@@ -1,0 +1,28 @@
+{
+  "slug": "oosik-classic",
+  "name": "Oosik Classic",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://denalinordicskiclub.org/oosik-classic/",
+    "results_url": "https://my.race result.com/373232/info",
+    "evidence_summary": "The Oosik Classic is a real annual Nordic ski race in Talkeetna, Alaska, organized by the Denali Nordic Ski Club since 2004, with distances of 10k, 25k, and 50k, known for costumes and community fun. Evidence includes the official club website with registration, Webscorer registration page for 2025, RaceResult page for 2026, a news article from Alaska Visit, and a YouTube video of participants. No Worldloppet or FIS listings found, but multiple direct sources confirm its existence.",
+    "sources": [
+      "https://www.alaskavisit.com/blog/post/oosik/",
+      "https://www.webscorer.com/register?raceid=376561",
+      "https://denalinordicskiclub.org/oosik-classic/",
+      "https://www.youtube.com/watch?v=O9Z3jaUzeJc",
+      "https://my.raceresult.com/373232/info"
+    ]
+  },
+  "citations": [
+    "https://www.alaskavisit.com/blog/post/oosik/",
+    "https://www.webscorer.com/register?raceid=376561",
+    "https://denalinordicskiclub.org/oosik-classic/",
+    "https://www.youtube.com/watch?v=O9Z3jaUzeJc",
+    "https://my.raceresult.com/373232/info"
+  ],
+  "checked_at": "2026-03-12T15:58:32Z"
+}

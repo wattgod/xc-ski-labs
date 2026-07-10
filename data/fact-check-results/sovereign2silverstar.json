@@ -1,0 +1,82 @@
+{
+  "slug": "sovereign2silverstar",
+  "name": "Sovereign to Silver Star",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "Canada",
+    "region": "British Columbia",
+    "discipline": "both",
+    "field_size": 1200,
+    "founded": 2010,
+    "website": "https://www.sovereign2silverstar.com",
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 40-42km for full distance (e.g., 42km[7], 41km[2][5], 40km[1]); within ±3km tolerance",
+      "source_url": "https://www.tourismvernon.com/events/sovereign2-silverstar-ski-marathon"
+    },
+    "elevation_m": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm approximately 800m[3]; within ±100m tolerance of 600m",
+      "source_url": "https://skiclassics.com/events/challengers/sovereign-2-sliverstar-ski-marathon-classic/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada across multiple sources[1][2][4]",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "British Columbia, near Vernon[1][2][4]",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and skate (two techniques/styles)[1][2][3][7]",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 800,
+      "note": "Sources report over 800 skiers[1]; 1200 outside ±20% tolerance (960-1440)",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2022,
+      "note": "Launched in 2022[1]; 2025 is 4th annual, 2026 is 5th[1][2]",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as official site[1][2]",
+      "source_url": "https://www.sovereign2silverstar.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early April (e.g., April 5-6 2025, April 4-5 2026)[1][2][4]",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    }
+  },
+  "citations": [
+    "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+    "https://fasterskier.com/2026/02/the-5th-annual-sovereign-2-silverstar-ski-marathon-april-4-5-2026/",
+    "https://skiclassics.com/events/challengers/sovereign-2-sliverstar-ski-marathon-classic/",
+    "https://www.crosscountrybc.ca/sovereign-2-silverstar-marathon-stussi-night-sprints-s2s-price-increase",
+    "https://fasterskier.com/2026/01/5th-annual-sovereign-2-silverstar-ski-marathon-s2s-make-it-your-olympic-event/",
+    "https://www.sovereign2silverstar.com",
+    "https://www.tourismvernon.com/events/sovereign2-silverstar-ski-marathon"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:53:47Z"
+}

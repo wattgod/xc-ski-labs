@@ -1,0 +1,35 @@
+{
+  "slug": "tartu-maraton",
+  "name": "Tartu Maraton",
+  "country": "Estonia",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://tartumaraton.ee/en/",
+    "results_url": null,
+    "evidence_summary": "Tartu Maraton is a well-documented, real cross-country ski marathon in Estonia with an official website, Worldloppet membership since 1994, a 65-year history dating to 1960, and multiple independent sources confirming its existence as an organized annual event. The 2026 edition was scheduled for February 14-15, 2026.",
+    "sources": [
+      "https://tartumaraton.ee/en/",
+      "https://tartumaraton.ee/en/tartu-maraton-2026/courses",
+      "https://www.worldloppet.com/wl-race/tartu-maraton/",
+      "https://visitestonia.com/en/51st-tartu-marathon",
+      "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026",
+      "https://www.sandozconcept.com/en/worldloppet-races/tartu-marathon/",
+      "https://tartumaraton.ee/en/tartu-maraton-2026/discover-south-estonia"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/tartu-maraton/",
+    "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/courses",
+    "https://visitestonia.com/en/51st-tartu-marathon",
+    "https://tartumaraton.ee/en/",
+    "https://www.sandozconcept.com/en/worldloppet-races/tartu-marathon/",
+    "https://tartumaraton.ee/en/tartu-maraton-2025",
+    "https://tartumaraton.ee",
+    "https://tartumaraton.ee/en/tartu-maraton-2024",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/discover-south-estonia"
+  ],
+  "checked_at": "2026-03-12T16:07:26Z"
+}

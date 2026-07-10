@@ -1,0 +1,83 @@
+{
+  "slug": "bansko-nordic-challenge",
+  "name": "Bansko Nordic Challenge",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Bulgaria",
+    "region": "Blagoevgrad",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2008,
+    "website": "https://www.banskoski.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing a 'Bansko Nordic Challenge' cross-country ski race or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing a 'Bansko Nordic Challenge' cross-country ski race or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Bansko is in Bulgaria per multiple sources, but no confirmation of a 'Bansko Nordic Challenge' race.",
+      "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50248"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm Blagoevgrad region for a 'Bansko Nordic Challenge'; Bansko is mentioned but not linked to this specific race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Bansko Nordic Challenge' disciplines; FIS lists other CC events in Bansko but not this race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for participant numbers in 'Bansko Nordic Challenge'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming a 2008 founding for 'Bansko Nordic Challenge'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "banskoski.com mentioned in Bansko ski context but no confirmation it is the official site for 'Bansko Nordic Challenge'.",
+      "source_url": "https://www.banskoworldcup.com"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for typical date of 'Bansko Nordic Challenge'; Bansko hosts other events in February/March.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://skiracing.com/odermatt-dominates-for-6th-gs-victory-in-bansko-steen-olsen-secures-first-2024-podium/",
+    "https://www.bbnt.ski/race",
+    "https://www.banskoworldcup.com/wc2024/genprogram",
+    "https://www.banskoworldcup.com",
+    "https://www.youtube.com/watch?v=RBMmgAwzeqI",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50248",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=44580",
+    "https://www.youtube.com/watch?v=1uEUdtlp_Wc"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:34:14Z"
+}

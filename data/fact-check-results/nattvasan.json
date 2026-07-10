@@ -1,0 +1,83 @@
+{
+  "slug": "nattvasan",
+  "name": "Nattvasan",
+  "facts": {
+    "distance_km": 90,
+    "elevation_m": 850,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "skate",
+    "field_size": "~4,000 starters",
+    "founded": 2003,
+    "website": "https://www.vasaloppet.se/nattvasan",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 90,
+      "note": "The claim states 90 km, which is correct for Nattvasan 90. However, Nattvasan offers multiple distances: 90km, 45km, and 30km. If the database is claiming a single 'typical' distance, 90km is the primary/flagship event.",
+      "source_url": "https://vasaloppet.se/en/ski/nattvasan-90/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1380,
+      "note": "Search results indicate 1380m of elevation gain for Nattvasan 90, not 850m as claimed.",
+      "source_url": "https://www.ahotu.com/event/nattvasan"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sweden is confirmed as the country where Nattvasan takes place (Sälen to Mora route).",
+      "source_url": "https://vasaloppet.se/en/ski/nattvasan-90/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Dalarna region is confirmed; the race runs from Sälen to Mora in Dalarna, Sweden.",
+      "source_url": "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "The database claims 'skate' only, but Nattvasan is a freestyle race allowing both classic skiing and skate style.",
+      "source_url": "https://vasaloppet.se/en/ski/nattvasan-90/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide specific participant numbers for Nattvasan. No web source found confirming or denying the ~4,000 starters claim.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not specify when Nattvasan was first held. Results mention Vasaloppet began in 1922, but Nattvasan's founding year is not stated in available sources.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://vasaloppet.se/en/races/ski-races/nattvasan90/",
+      "note": "The provided URL is incomplete. The correct booking/information URL for Nattvasan 90 is https://vasaloppet.se/en/races/ski-races/nattvasan90/ or the main Nattvasan page at https://vasaloppet.se/en/ski/nattvasan-90/",
+      "source_url": "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Late February",
+      "note": "Nattvasan 90 is held in late February (27 February 2026 confirmed), not early March. The main Vasaloppet is held in early March, but Nattvasan occurs earlier.",
+      "source_url": "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski"
+    }
+  },
+  "citations": [
+    "https://hotway.life/en/cross-country-skiing/sweden/nattvasan-2026",
+    "https://worldsmarathons.com/marathon/nattvasan",
+    "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski",
+    "https://vasaloppet.se/en/ski/nattvasan-90/",
+    "https://www.ahotu.com/event/nattvasan",
+    "https://vasaloppet.se/en/ski/nattvasan-45/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:53:17Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "blafjallagangan",
+  "name": "Bláfjallagangan",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 500,
+    "country": "Iceland",
+    "region": "Capital Region",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 2018,
+    "website": null,
+    "date": "Spring (March-April)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site confirms 40 km distance for main race (17+ years)",
+      "source_url": "https://blafjallagangan.is/en/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Iceland, near Reykjavik",
+      "source_url": "https://blafjallagangan.is/en/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Blafjöll ski area is in Capital Region, 30 min from Reykjavik",
+      "source_url": "https://blafjallagangan.is/en/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Bláfjallagangan specifically in classical technique",
+      "source_url": "https://blafjallagangan.is/en/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2020,
+      "note": "First mentioned as new Euroloppet race in 2020; earlier pages like 2021 exist but no pre-2020 confirmation",
+      "source_url": "https://blafjallagangan.is/en/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://blafjallagangan.is/en/",
+      "note": "Official website identified",
+      "source_url": "https://blafjallagangan.is/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late March, e.g., March 22 2025, March 21 2026, fitting spring (March-April)",
+      "source_url": "https://blafjallagangan.is/en/"
+    }
+  },
+  "citations": [
+    "https://blafjallagangan.is/en/",
+    "https://netskraning.is/blafjallagangan/?lang=en",
+    "https://www.icelandreview.com/news/ski-resorts-open-across-iceland/",
+    "https://www.lumiexperiences.com/blog/2024/5/14/iceland",
+    "https://www.worldloppet.com/blafjallagangan-isl/",
+    "https://blafjallagangan.is/en/blafjallagangan-2021-skraning/",
+    "https://blafjallagangan.is/en/new-homepage/",
+    "https://reykjavik.is/en/cross-country-skiing-trails-or-loipe-in-the-capital-area",
+    "https://netskraning.is"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:35:57Z"
+}

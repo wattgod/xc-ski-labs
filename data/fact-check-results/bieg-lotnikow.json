@@ -1,0 +1,82 @@
+{
+  "slug": "bieg-lotnikow",
+  "name": "Bieg Lotników",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 450,
+    "country": "Poland",
+    "region": "Małopolska",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1985,
+    "website": "https://www.bieglotnikow.pl",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for 'Bieg Lotników' confirming 30 km; similar event 'Bieszczadzki Bieg Lotników' lists 10 km, 20 km[2][6]",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/poland"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming total elevation gain of 450m for this race",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "'Bieszczadzki Bieg Lotników' is in Poland[2][6], but no direct confirmation for exact 'Bieg Lotników'",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/poland"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "'Bieszczadzki Bieg Lotników' in Gmina Ustrzyki Dolne (Podkarpackie Voivodeship), not Małopolska[2]; Ustjanowa Górna also Podkarpackie",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/poland"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both for this race",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical number of participants around 400",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition in 1985",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify https://www.bieglotnikow.pl; no mentions in search results",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "'Bieszczadzki Bieg Lotników' held mid-February (e.g., 11 Feb 2024)[2][6]",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/poland"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/the-49th-bieg-piastow-as-grande-finale-of-the-polish-cross-country-ski-festival/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/poland",
+    "https://www.worldloppet.com/bieg-piastow-is-this-the-most-convenient-race-venue/",
+    "https://www.snow-online.com/largest_cross-country-skiing-areas/poland",
+    "https://www.tripadvisor.co.uk/Attraction_Review-g274808-d2715888-Reviews-Bieg_Piastow-Szklarska_Poreba_Lower_Silesia_Province_Southern_Poland.html",
+    "https://www.ahotu.com/calendar/cross-country-skiing/february/europe",
+    "https://www.youtube.com/watch?v=toD20P8MdQs"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:35:08Z"
+}

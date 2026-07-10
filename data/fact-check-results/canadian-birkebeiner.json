@@ -1,0 +1,80 @@
+{
+  "slug": "canadian-birkebeiner",
+  "name": "Canadian Birkebeiner",
+  "facts": {
+    "distance_km": 55,
+    "elevation_m": 500,
+    "country": "Canada",
+    "region": "Alberta",
+    "discipline": "classic",
+    "field_size": "~1,000 starters",
+    "founded": 1985,
+    "website": "https://www.canadianbirkie.com",
+    "date": "Second Saturday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 55 km as the main race distance, matching within ±3 km tolerance[1][2]",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Birkebeiner"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada[1]",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Birkebeiner"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Alberta, specifically Cooking Lake–Blackfoot Provincial Recreation Area[1][2]",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Birkebeiner"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as largest classic style/event, classic technique only for main races[1][2][5]",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Birkebeiner"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~1000 skiers confirmed, matches ~1,000 starters within ±20% tolerance (e.g., 2018: ~1000, 1999: 2500)[1]",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Birkebeiner"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Founded/inaugurated in 1985, first race February 9, 1985[1]",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Birkebeiner"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site confirmed as https://canadianbirkie.com (note: www.canadianbirkie.com redirects)[2][4]",
+      "source_url": "https://canadianbirkie.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Annually on second Saturday in February[1]",
+      "source_url": "https://en.wikipedia.org/wiki/Canadian_Birkebeiner"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Canadian_Birkebeiner",
+    "https://canadianbirkie.com/ski/55-km-with-pack-torskeklubben-birkebeiner/",
+    "https://goeastofedmonton.com/places/edmonton/canadian-birkebeiner-ski-festival-2025/",
+    "https://canadianbirkie.com",
+    "http://ukrainianvillage.ca/canadian-birkebeiner-ski-festival"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:28Z"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "tallinn-ski-marathon",
+  "name": "Tallinn Ski Marathon",
+  "country": "Estonia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.estoloppet.ee",
+    "results_url": "https://www.estoloppet.ee/en",
+    "evidence_summary": "The Tallinn Ski Marathon is a real, organized cross-country ski event in Estonia that has been held annually since 1998 as part of the Estoloppet ski marathon series. Multiple independent sources confirm its existence, including the official Estoloppet website with race results, news coverage from Estonian media (ERR News), and Worldloppet directory listing. The 28th edition took place in February 2026.",
+    "sources": [
+      "https://www.worldloppet.com/tallinn-ski-marathon/",
+      "https://news.err.ee/1609946807/ideal-conditions-in-store-for-this-saturday-s-tallinn-ski-marathon",
+      "https://www.estoloppet.ee/en",
+      "https://visiteurope.com/experiences/go-distance-estonia"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/tallinn-ski-marathon/",
+    "https://news.err.ee/1609946807/ideal-conditions-in-store-for-this-saturday-s-tallinn-ski-marathon",
+    "https://jooksma.ee/en/race-pages/tallinna_maraton_2/",
+    "https://worldsmarathons.com/marathon/tallinn-marathon",
+    "https://www.estoloppet.ee/en",
+    "https://visiteurope.com/experiences/go-distance-estonia",
+    "https://www.jooks.ee/en/tallinn-marathon/program-info",
+    "https://eestimaraton.ee/en/events?competition_id=55",
+    "https://www.jooks.ee/en/tallinn-marathon/",
+    "https://tartumaraton.ee/en/tartu-maraton-2025"
+  ],
+  "checked_at": "2026-03-12T16:07:08Z"
+}

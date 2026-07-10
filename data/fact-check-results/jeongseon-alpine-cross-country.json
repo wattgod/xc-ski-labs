@@ -1,0 +1,82 @@
+{
+  "slug": "jeongseon-alpine-cross-country",
+  "name": "Jeongseon Alpine Cross-Country",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 650,
+    "country": "South Korea",
+    "region": "Gangwon Province",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": 2019,
+    "website": "https://www.jeongseonxc.kr",
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 42 km distance for 'Jeongseon Alpine Cross-Country' race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 650m total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention Jeongseon and Gangwon in South Korea context (Olympic venues), but no specific confirmation for this cross-country race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Jeongseon Alpine Centre is in Gangwon Province per Olympic sources, but no confirmation for the specific cross-country race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe disciplines for 'Jeongseon Alpine Cross-Country'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for typical number of participants (~500).",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition in 2019.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention https://www.jeongseonxc.kr or confirm it as official site.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical mid-January date for this race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://skijumpingwinter.angelfire.com",
+    "https://www.olympic.sk/sites/default/files/field_media_file/2023-09/14.%20Sport%20Explanatory%20Brochure_Alpine%20Skiing.pdf",
+    "https://www.usskiandsnowboard.org/taxonomy/term/1?page=171",
+    "https://newsroom.ap.org/editorial-photos-videos/detail?itemid=c02ac992440625898bae77f81b2b1aff&mediatype=video",
+    "https://www.paralympic.org/news/pyeongchang-2018-biathlon-and-cross-country-venue-guides",
+    "https://www.korea.net/Government/Current-Affairs/International-Events/view?subId=72&articleId=143971",
+    "https://www.usskiandsnowboard.org/news/fis-alpine-ski-world-cup-olympic-test-event-yanqing-chn-cancelled"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:41:52Z"
+}

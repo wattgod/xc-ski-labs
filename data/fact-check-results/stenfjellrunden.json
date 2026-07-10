@@ -1,0 +1,85 @@
+{
+  "slug": "stenfjellrunden",
+  "name": "Stenfjellrunden",
+  "facts": {
+    "distance_km": 42.5,
+    "elevation_m": 400,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 1980,
+    "website": "https://langlopscupen.no/",
+    "date": "February/March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km or 42.5 km (within ±3 km tolerance)",
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 850,
+      "note": "Sum stigning for 42 km is 850 meters",
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Location explicitly Gåsbu, Norway",
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sted: Gåsbu – Innlandet",
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as 'turrenn klassisk'",
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 460,
+      "note": "460 løpere fullførte in 2025 (within recent years, >200 but outside ±20% tolerance of 200)",
+      "source_url": "https://www.kondis.no/resultater/resultater-stenfjellrunden-2025/1457464"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2026 is 48. utgave, so first edition 2026-47=1979, close to 1980 (reasonable tolerance)",
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of https://langlopscupen.no/ as official site; results on sportsidioten.no and others",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February (e.g., 7 Feb 2026, 1 Feb 2025), aligns with February/March",
+      "source_url": "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/"
+    }
+  },
+  "citations": [
+    "https://www.sportsidioten.no/resultater/stenfjellrunden-2026/",
+    "https://www.kondis.no/resultater/resultater-stenfjellrunden-2025/1457464",
+    "https://www.raceone.com/nb-no/race/d9d821d8-cff3-e811-9f2a-000d3ab259a1",
+    "https://www.sportsidioten.no/resultater/resultater-stenfjellrunden-2025/",
+    "https://worldcupkvitfjell.no/en/",
+    "https://minidrett.nif.no/Event/Index/331036",
+    "https://live.eqtiming.com/55358",
+    "https://live.eqtiming.com",
+    "https://events.eqtiming.com/eventlist?fullscreen=true&fullscreen=true&theme=eqtiming&locale=no",
+    "https://www.eqtiming.com/no/?lang=english"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:54:12Z"
+}

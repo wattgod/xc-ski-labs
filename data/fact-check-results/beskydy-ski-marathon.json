@@ -1,0 +1,83 @@
+{
+  "slug": "beskydy-ski-marathon",
+  "name": "Beskydy Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Czech Republic",
+    "region": "Moravian-Silesian",
+    "discipline": "classic",
+    "field_size": 350,
+    "founded": 1988,
+    "website": null,
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Beskydy Ski Marathon' or matching 30km cross-country ski race details",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for this specific race or matching 400m elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Beskydy region appears in Czech/Slovak/Polish contexts but no specific confirmation for this ski marathon",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Moravian-Silesian associated with Beskydy but no source confirms for this race",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources detail classic skiing for this specific event",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for 'Beskydy Ski Marathon'",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1988 founding",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified in search results",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of mid-February; other Beskydy events not matching",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.goralmarathon.com/en/eurocup-beskydy/mountain-marathon",
+    "https://www.beskydyportal.cz/en/top_akce_detail/13",
+    "https://tatraskymarathon.pl/en/home/",
+    "https://www.beskydyportal.cz/en/top_akce_detail/10",
+    "https://www.pghnizdo.cz/wp-content/uploads/2025/03/beskydy_open_event_2025_final_nr.pdf",
+    "https://www.goralmarathon.com/en/eurocup-beskydy",
+    "https://www.laacr.cz/en/2025/02/vr-souteze-2025/",
+    "https://www.stevenscreekinfiniti.com"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:34:29Z"
+}

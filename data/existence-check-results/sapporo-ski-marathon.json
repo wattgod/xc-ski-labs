@@ -1,0 +1,31 @@
+{
+  "slug": "sapporo-ski-marathon",
+  "name": "Sapporo Ski Marathon",
+  "country": "Japan",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.sapporo-sport.jp/ski/home.html",
+    "results_url": "https://www.sapporo-sport.jp/ski/e-information/",
+    "evidence_summary": "The Sapporo International Ski Marathon is a well-documented, officially organized cross-country skiing event held annually in Japan since 1981. Multiple independent sources confirm its existence, including an official website with detailed race information, registration pages, Worldloppet membership since 1985, and historical documentation of past events.",
+    "sources": [
+      "https://www.sapporo-sport.jp/ski/home.html",
+      "https://www.sapporo-sport.jp/ski/e-information/",
+      "https://en.wikipedia.org/wiki/Sapporo_International_Ski_Marathon",
+      "https://www.worldloppet.com/wl-race/cross-country-skiing-in-japan/",
+      "https://runjapan.jp/entry/runtes/smp/competitiondetail.do?raceId=E336168&div=1",
+      "https://www.kirari-ishikari.pref.hokkaido.lg.jp/en/visit/event-en/sapporo-international-ski-marathon/"
+    ]
+  },
+  "citations": [
+    "https://runjapan.jp/entry/runtes/smp/competitiondetail.do?raceId=E336188&div=1",
+    "https://en.wikipedia.org/wiki/Sapporo_International_Ski_Marathon",
+    "https://www.sapporo-sport.jp/ski/e-information/",
+    "https://www.worldloppet.com/wl-race/cross-country-skiing-in-japan/",
+    "https://www.kirari-ishikari.pref.hokkaido.lg.jp/en/visit/event-en/sapporo-international-ski-marathon/",
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://www.sapporo-sport.jp/ski/online-e/"
+  ],
+  "checked_at": "2026-03-12T16:02:41Z"
+}

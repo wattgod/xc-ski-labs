@@ -1,0 +1,128 @@
+{
+  "slug": "bieg-bystrzycki",
+  "name": "Bieg Bystrzycki",
+  "tier": 3,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded"
+  ],
+  "result": {
+    "race_name": "Bieg Narciarski Ziemi Bystrzyckiej (Bystrzycka Land Ski Race)",
+    "race_exists": true,
+    "note": "The race is officially known as 'Ogólnopolski Bieg Narciarski Ziemi Bystrzyckiej' (National Cross-Country Ski Race of Bystrzycka Land). 'Bieg Bystrzycki' appears to be a shortened colloquial name.",
+    "fields": {
+      "main_race_distance_km": {
+        "value": null,
+        "source_url": "https://turystyka.bystrzycaklodzka.pl/169/bieg-narciarski-ziemi-bystrzyckiej.html",
+        "confidence": "LOW",
+        "note": "No single 'main' distance found. The 25th edition (documented in search results) featured different distances by category: Women 15 km, Men 20 km, Children 1-2 km. The user's listed value of 25 km does not match available documentation."
+      },
+      "total_elevation_gain_meters": {
+        "value": 108,
+        "source_url": "https://www.bystrzycaklodzka.pl/asp/xxv-bieg-narciarski-ziemi-bystrzyckiej---oficjalny-komunikat-i-fotogaleria!,27,artykul,1,1144",
+        "confidence": "MEDIUM",
+        "note": "Technical data for 25th edition shows: 'Pętla o długości 5 km, suma podbiegów i zbiegów 108 m' (5 km loop with total elevation gains and descents of 108 m). This differs significantly from the user's listed 350 m."
+      },
+      "technique": {
+        "value": "classic",
+        "source_url": "https://www.bystrzycaklodzka.pl/asp/xxv-bieg-narciarski-ziemi-bystrzyckiej---oficjalny-komunikat-i-fotogaleria!,27,artykul,1,1144",
+        "confidence": "HIGH",
+        "note": "Multiple sources confirm 'techniką klasyczną' (classic technique). However, source [41] mentions 'stylem dowolnym' (free style) for 2023 edition, suggesting technique may vary by year."
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": "https://www.bystrzycaklodzka.pl/asp/xxv-bieg-narciarski-ziemi-bystrzyckiej---oficjalny-komunikat-i-fotogaleria!,27,artykul,1,1144",
+        "confidence": "LOW",
+        "note": "Results documentation shows approximately 30-50 finishers across multiple categories for the 25th edition. The user's listed 400 participants cannot be verified from available sources. Participation data is incomplete."
+      },
+      "year_first_held": {
+        "value": 1990,
+        "source_url": "https://ultimasport.pl/wyniki/",
+        "confidence": "MEDIUM",
+        "note": "Source [15] references 'XXX Bystrzycki Bieg Narciarski' (30th edition) dated 2019-02-17. If the 30th edition occurred in 2019, the first race would have been in 1990 (2019 - 30 + 1 = 1990), not 1992 as listed by user. However, documentation gap makes this calculation-based rather than directly sourced."
+      },
+      "location": {
+        "value": "Spalona, Górach Bystrzyckich (Bystrzyckie Mountains)",
+        "source_url": "https://turystyka.bystrzycaklodzka.pl/169/bieg-narciarski-ziemi-bystrzyckiej.html",
+        "confidence": "HIGH",
+        "note": "Consistently documented across all official sources as being held in Spalona within the Bystrzyckie Mountains, part of Bystrzyca Kłodzka municipality."
+      }
+    },
+    "best_source": "https://www.bystrzycaklodzka.pl/asp/xxv-bieg-narciarski-ziemi-bystrzyckiej---oficjalny-komunikat-i-fotogaleria!,27,artykul,1,1144",
+    "best_source_description": "Official Bystrzyca Kłodzka municipal website with detailed technical data for the 25th edition including course profile, race categories, participant results, and weather conditions.",
+    "verification_summary": {
+      "fields_verified": 2,
+      "fields_partially_verified": 2,
+      "fields_unverifiable": 1,
+      "significant_discrepancies": [
+        "Main distance listed as 25 km does not match documented distances (15 km women, 20 km men)",
+        "Elevation gain listed as 350 m does not match documented 108 m for 5 km loop",
+        "First year listed as 1992 likely incorrect; calculation suggests 1990 based on 30th edition in 2019"
+      ]
+    },
+    "additional_findings": {
+      "race_history_gaps": "Event was cancelled in 2020-2021 due to COVID-19 restrictions. In 2023, the ski race was converted to a mountain running event ('Polsko - Czeski Bieg Górski') due to insufficient snow cover.",
+      "race_cancellation_pattern": "The race has experienced weather-related cancellations in recent years due to insufficient snow conditions, reflecting climate and snow reliability challenges.",
+      "alternative_names": [
+        "Ogólnopolski Bieg Narciarski Ziemi Bystrzyckiej",
+        "Bieg Bystrzycki",
+        "Bieg Narciarski Ziemi Bystrzyckiej"
+      ]
+    }
+  },
+  "citations": [
+    "https://bieg-piastow.pl/50-km-ct",
+    "https://www.bystrzycaklodzka.pl/asp/przed-ogolnopolskim-biegiem-bystrzyckim,27,artykul,45,4092",
+    "https://bieg-piastow.pl/img/files/wyniki/2018/25CT.pdf",
+    "https://tetnoregionu.pl/bystrzycki-kochalem-i-nadal-kocham-sport-zuzlowy/",
+    "https://www.youtube.com/watch?v=nTcffFnLQnI",
+    "https://biegajpl.com/en/race-pages/bieg_gorski_i_jesieni/",
+    "https://ultimasport.pl/wyniki/",
+    "https://www.youtube.com/watch?v=Lgmxfn9cWRU",
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "http://wyniki.datasport.pl/results1694/results.php?dystans=2",
+    "https://enjoytatras.com/cross-county-in-tatras-and-liptov-region/",
+    "https://www.worldloppet.com/browse-alphabetical/?id=1127&l=B",
+    "http://skipol.pl/wynikizawodow/polska/biegi_narciarskie_polska_wyniki/8",
+    "https://www.skiresort.info/best-ski-resorts/bystrzyckie-mountains-gory-bystrzyckie/sorted/cross-country/",
+    "https://www.bystrzycaklodzka.pl/asp/xxv-bieg-narciarski-ziemi-bystrzyckiej---oficjalny-komunikat-i-fotogaleria!,27,artykul,1,1144",
+    "https://jyvaskylaskimarathon.fi/en/euroloppet-2/",
+    "https://doba.pl/dkl/artykul/dodajkomentarz/18758/17/nr",
+    "https://turystyka.bystrzycaklodzka.pl/169/bieg-narciarski-ziemi-bystrzyckiej.html",
+    "https://www.worldloppet.com",
+    "https://pl.wikipedia.org/wiki/Biegi_narciarskie_na_Zimowych_Igrzyskach_Olimpijskich_1992",
+    "https://pl.wikipedia.org/wiki/Biegi_narciarskie_na_Zimowych_Igrzyskach_Olimpijskich_1992_%E2%80%93_bieg_na_50_km_m%C4%99%C5%BCczyzn",
+    "https://nabiegowkach.pl/bieg-narciarski-ziemi-bystrzyckiej-696/",
+    "https://bieg-piastow.pl/img/files/wyniki/2019/30FT.pdf",
+    "https://www.biegrzeznika.pl/bieg-rzeznika/",
+    "https://pho.znp.edu.pl/files/2019/01/PHO-3-4_2018_DO-DRUKU.pdf",
+    "https://www.bystrzycaklodzka.pl/asp/xxv-bieg-narciarski-ziemi-bystrzyckiej---oficjalny-komunikat-i-fotogaleria!,27,artykul,164,1144",
+    "https://www.owbystre.pl/bystre-ski/",
+    "https://dbc.wroc.pl/Content/23753/PDF/Kulesza_Geografia_historyczna_jako_determinant.pdf",
+    "https://medias3.fis-ski.com/pdf/2026/CC/2474/2026CC2474SLTF.pdf",
+    "https://nabiegowkach.pl/mistrzostwa-lasowki-i-xxvii-bieg-narciarski-odbyly-sie-w-gorach-bystrzyckich-1126/",
+    "https://web.archive.org/web/20180129080622/http:/medias3.fis-ski.com/pdf/2018/FS/8058/2018FS8058PROG.pdf",
+    "https://turystyka.bystrzycaklodzka.pl/204/stacja-narciarstwa-biegowego-spalona.html",
+    "https://www.ahajournals.org/doi/10.1161/01.cir.0000025242.79963.4c",
+    "https://www.bystrzycaklodzka.pl/asp/polsko---czeski-bieg-narciarski-stylem-dowolnym-spalona-2023,27,artykul,1,5285",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4613415/",
+    "https://sbc.org.pl/Content/7107/PDF/bibliografia_slaska-1971-00-0001.pdf",
+    "https://www.fis-ski.com/DB/ski-jumping/calendar-results.html?noselection=true",
+    "https://www.dbc.wroc.pl/Content/12239/Turystyka_kulturowa_w_swietle_badan_interdyscyplinarnych.pdf",
+    "https://www.bystrzycaklodzka.pl/asp/xxv-bieg-narciarski-ziemi-bystrzyckiej---zapraszamy-do-udzialu!,27,artykul,1,1093",
+    "https://www.fis-ski.com/DB/pdf/2026/AL/1371/2026AL1371RLR0.pdf",
+    "https://skiclassics.com/results/standings/?season=2025&comp=2819&gender=M&nation=all",
+    "https://www.strava.com/routes/3254143069431852610",
+    "https://skiclassics.com",
+    "https://www.trailforks.com/region/bystrzyckie-singletracki-60518/",
+    "https://www.strava.com/routes/backcountry-skiing/slovakia/presov/tatra-national-park?hl=pl-PL",
+    "https://pl.wikipedia.org/wiki/Lista_skoczni_narciarskich",
+    "https://www.youtube.com/playlist?list=PL9orL0U43W0AlKSGKD8ldLMGZ31DclSQa",
+    "https://pl.wikipedia.org/wiki/Kategoria:Zawody_sportowe_w_Ba%C5%84skiej_Bystrzycy",
+    "https://my.raceresult.com/193415/results"
+  ],
+  "checked_at": "2026-03-12T15:48:49Z"
+}

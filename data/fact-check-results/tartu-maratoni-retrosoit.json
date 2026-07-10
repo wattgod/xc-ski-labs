@@ -1,0 +1,84 @@
+{
+  "slug": "tartu-maratoni-retrosoit",
+  "name": "Tartu Maratoni Retrosõit",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 200,
+    "country": "Estonia",
+    "region": "Tartumaa",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 2005,
+    "website": "https://www.tartumaraton.ee",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 31,
+      "note": "Search results indicate Tartu Maraton Vintage is a 31 km race, not 30 km. The 2026 event listing shows '31 km' for the Vintage Start on February 14, 2026.",
+      "source_url": "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe the course as 'constantly rolls over the hills' with 'no major steep uphills/downhills' but do not provide specific total elevation gain data.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Estonia is confirmed as the country for Tartu Maraton.",
+      "source_url": "https://en.wikipedia.org/wiki/Tartu_Maraton"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention 'Otepää Upland's forests' and 'Valga maakond' (Valga County) in one source, but do not explicitly confirm 'Tartumaa' as the region.",
+      "source_url": "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The Vintage race is explicitly listed as a classic technique race in the 2026 event program.",
+      "source_url": "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results provide participant numbers for the main 63 km race (typically 6,000 skiers) and historical data, but do not specify typical participation for the Vintage race specifically.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results confirm the main Tartu Maraton was first held in 1960, but do not provide a founding year for the Vintage race variant specifically.",
+      "source_url": "https://en.wikipedia.org/wiki/Tartu_Maraton"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The official website https://www.tartumaraton.ee is confirmed in search results.",
+      "source_url": "https://tartumaraton.ee/en/tartu-maraton-2026"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 2026 Tartu Maraton Vintage Start is scheduled for February 14, 2026 (Saturday), which is mid-February. Wikipedia confirms the race is held 'on the third Sunday of February' annually.",
+      "source_url": "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/tartu-maraton/",
+    "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026",
+    "https://www.worldloppet.com/the-most-legendary-tartu-maraton/",
+    "https://en.wikipedia.org/wiki/Tartu_Maraton",
+    "https://visitestonia.com/en/51st-tartu-marathon",
+    "https://www.sandozconcept.com/en/worldloppet-races/tartu-marathon/",
+    "https://tartumaraton.ee/en/tartu-maraton-2026",
+    "https://www.fis-ski.com/cross-country/news/2018-19/tartu-maraton-vintage-where-the-old-meets-the-new",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/history"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:55:30Z"
+}

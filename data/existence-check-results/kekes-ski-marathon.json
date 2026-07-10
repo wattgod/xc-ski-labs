@@ -1,0 +1,24 @@
+{
+  "slug": "kekes-ski-marathon",
+  "name": "Kékestető Ski Marathon",
+  "country": "Hungary",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Kékestető Ski Marathon' cross-country ski race exists in the search results. The search results reference Kékestető as Hungary's highest peak with alpine skiing facilities and a trail running event (Kékestető Terepfutó Verseny), but contain no mention of any cross-country ski marathon at this location. The alpine ski slopes at Kékestető are for downhill skiing, not cross-country skiing.",
+    "sources": []
+  },
+  "citations": [
+    "https://kekesteto.hu/kekesteto-terepfuto-verseny/",
+    "https://www.kekescsucsfutas.hu",
+    "https://kekesteto.hu",
+    "https://kekesteto.hu/sieles/",
+    "https://www.skihungary.hu/verseny/versenyeredmenyek",
+    "https://skihungary.hu",
+    "https://visithungary.com/documents/f/fe/feb/febd180d759b647f6a3d7f907ac5ae4a4da719f.pdf"
+  ],
+  "checked_at": "2026-03-12T15:51:26Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "erciyes-ski-marathon",
+  "name": "Erciyes Ski Marathon",
+  "country": "Turkey",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of an 'Erciyes Ski Marathon' cross-country ski race was found in the search results. The search results reference Erciyes as Turkey's largest ski resort and mention the 'Erciyes Ultra Sky Trail' (a trail running event held in July), but contain no mention of any cross-country skiing marathon event. The resort operates as an alpine ski destination, not a cross-country skiing venue.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.skiresort.info/ski-resort/erciyes-kayseri/",
+    "https://chaletkaiser.com/blog/the-ultimate-guide-to-erciyes-ski-resort",
+    "https://www.tripadvisor.com/Attraction_Review-g297984-d13327115-Reviews-Erciyes_Ski_Resort-Kayseri_Kayseri_Province.html",
+    "https://skyerciyes.com/race-programme/?lang=en",
+    "https://skyerciyes.com/ana-sayfa-2-2-2/?lang=en",
+    "https://www.kayserierciyes.com.tr",
+    "https://skyerciyes.com/?lang=en",
+    "https://www.erciyeskayak.com/en",
+    "https://www.sporaskayseri.com.tr/haberler/turkiye-erciyes-mount-open-sprint-cup16133",
+    "https://www.travelweekly.com/Hotels/Kayseri-Turkey/Ski-Resort-Erciyes-p4133826"
+  ],
+  "checked_at": "2026-03-12T15:44:34Z"
+}

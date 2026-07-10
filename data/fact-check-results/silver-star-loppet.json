@@ -1,0 +1,82 @@
+{
+  "slug": "silver-star-loppet",
+  "name": "Silver Star Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Canada",
+    "region": "British Columbia",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2001,
+    "website": "https://www.sovereignlake.com",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 41,
+      "note": "Sources describe the main distances as 40-42km or specifically 41km, not 30km.",
+      "source_url": "https://www.sovereign2silverstar.com"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada, British Columbia.",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "British Columbia confirmed.",
+      "source_url": "https://fasterskier.com/2024/11/make-the-sovereign-2-silverstar-ski-marathon-a-goal-event-and-season-finale-for-2025/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and skate techniques offered.",
+      "source_url": "https://www.sovereign2silverstar.com"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 800,
+      "note": "Sources state over 800 skiers throughout the weekend, exceeding 200±20%.",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2022,
+      "note": "Launched in 2022, first edition April 2-3, 2022; 5th annual in 2026.",
+      "source_url": "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.sovereign2silverstar.com",
+      "note": "Official site is sovereign2silverstar.com, sovereignlake.com is the Nordic club site.",
+      "source_url": "https://www.sovereign2silverstar.com"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Early April",
+      "note": "Typically early April (e.g., April 4-5, 2026; April 5-6, 2025), not early February.",
+      "source_url": "https://www.sovereign2silverstar.com"
+    }
+  },
+  "citations": [
+    "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+    "https://www.sovereignlake.com/tag/loppet/",
+    "https://www.sovereign2silverstar.com",
+    "https://fasterskier.com/2026/01/5th-annual-sovereign-2-silverstar-ski-marathon-s2s-make-it-your-olympic-event/",
+    "https://fasterskier.com/2024/11/make-the-sovereign-2-silverstar-ski-marathon-a-goal-event-and-season-finale-for-2025/",
+    "https://www.sovereign2silverstar.com/registration",
+    "https://www.sovereign2silverstar.com/event-information/information-package"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:52:11Z"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "salzkammergut-langlauf",
+  "name": "Salzkammergut Langlauf",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Austria",
+    "region": "Upper Austria",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1978,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Salzkammergut Langlauf' or matching 30km cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for the race with details on 350m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Salzkammergut is in Austria per general context in results[1][4], but no specific confirmation for this race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Upper Austria matches Salzkammergut area in results[1][6], but race not identified.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic discipline for this specific race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for 'Salzkammergut Langlauf'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1978 founding for this race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified in search results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of late January; other Salzkammergut events in January but not matching[2][4][10].",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://wolfgangsee.salzkammergut.at/en/oesterreich-veranstaltung/detail/430004617/54th-international-wolfgangsee-run.html",
+    "https://www.outdooractive.com/mobile/en/cross-country-ski-trails/ausseerland-salzkammergut/cross-country-ski-trails-in-ausseerland-salzkammergut/20344034/",
+    "https://www.salzkammergut-2024.at/index.html%3Fp=430311572.html",
+    "https://www.langlauf-urlaub.com/en/cross-country-skiing/region-detail/ausseerland-salzkammergut",
+    "https://www.im-salzkammergut.at/events/gosau/run-around-the-lake-gosau-2026/",
+    "https://www.bergfex.com/oberoesterreich/langlaufen/rettenbachalm/",
+    "https://www.hallstatt.net/about-hallstatt/winterzeit-en-US/schneetreiben-en-US/langlauf-en-US/cross-country-skiing-in-the-ausseerland/",
+    "https://www.gosautal.net/gosau-en-US/winterzeit-en-US/schneetreiben-en-US/langlaufen-en-US/",
+    "https://www.skizeit.at/races/49517",
+    "https://www.langlauf-urlaub.com/en/winter-sports-events/event-detail/steiralauf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:51:24Z"
+}

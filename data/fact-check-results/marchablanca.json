@@ -1,0 +1,82 @@
+{
+  "slug": "marchablanca",
+  "name": "Marchablanca",
+  "facts": {
+    "distance_km": 21,
+    "elevation_m": 200,
+    "country": "Argentina",
+    "region": "Tierra del Fuego",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": 1986,
+    "website": "https://www.worldloppet.com/marchablanca-ushuaia-loppet/",
+    "date": "August (Southern Hemisphere winter)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the main competitive circuit is 21 kilometers",
+      "source_url": "https://www.ushuaianoticias.com/2025/08/14/se-viene-la-marchablanca/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results provide elevation gain data for the Marchablanca course",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All sources confirm the race is held in Ushuaia, Argentina",
+      "source_url": "https://www.eldiariodelfindelmundo.com/noticias/2025/07/29/112011-se-viene-la-37-edicion-de-la-marchablanca"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm the race takes place in Tierra del Fuego, specifically in the Tierra Mayor valley near Ushuaia",
+      "source_url": "https://www.infofueguina.com/tu-ciudad/ushuaia/2025/8/19/destacan-exitoso-desarrollo-de-la-37-edicion-de-la-marchablanca-en-tierra-mayor-83568.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not specify whether the race uses classic, skate, or both skiing disciplines",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions 'hundreds of people' participated in the 37th edition, but no specific participant count is provided in search results",
+      "source_url": "https://www.infofueguina.com/tu-ciudad/ushuaia/2025/8/19/destacan-exitoso-desarrollo-de-la-37-edicion-de-la-marchablanca-en-tierra-mayor-83568.html"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 1981,
+      "note": "A YouTube source states the Marchablanca has been held in Ushuaia since 1981, not 1986",
+      "source_url": "https://www.youtube.com/watch?v=7wTlwZVIOUs"
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not confirm or deny the provided URL as the official website",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the race is held in August (Southern Hemisphere winter). The 37th edition was held on August 17, 2025",
+      "source_url": "https://www.eldiariodelfindelmundo.com/noticias/2025/07/29/112011-se-viene-la-37-edicion-de-la-marchablanca"
+    }
+  },
+  "citations": [
+    "https://www.infofueguina.com/tu-ciudad/ushuaia/2025/8/19/destacan-exitoso-desarrollo-de-la-37-edicion-de-la-marchablanca-en-tierra-mayor-83568.html",
+    "https://noticiadetapa.com.ar/la-marchablanca-tendra-un-circuito-adaptado-y-un-enfoque-familiar/",
+    "https://www.eldiariodelfindelmundo.com/noticias/2025/07/29/112011-se-viene-la-37-edicion-de-la-marchablanca",
+    "https://www.radardeviajes.com.ar/2022/08/esqui-de-fondo-marchablanca-ushuaia-loppet-2022.html",
+    "https://www.ushuaianoticias.com/2025/08/14/se-viene-la-marchablanca/",
+    "https://www.tiempofueguino.com/se-viene-la-marcha-blanca-un-festival-de-esqui-en-el-fin-del-mundo/",
+    "https://www.youtube.com/watch?v=7wTlwZVIOUs"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:45:25Z"
+}

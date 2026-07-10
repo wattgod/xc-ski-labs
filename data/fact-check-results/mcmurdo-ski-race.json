@@ -1,0 +1,81 @@
+{
+  "slug": "mcmurdo-ski-race",
+  "name": "McMurdo Ski Race",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 100,
+    "country": "Antarctica",
+    "region": "Ross Dependency",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 2003,
+    "website": "https://www.usap.gov",
+    "date": "Mid-October (austral spring)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42.195,
+      "note": "The McMurdo Marathon is a full marathon distance (26.2 miles / 42.195 km), not 20 km. Search results confirm this is a marathon event held annually.",
+      "source_url": "https://en.wikipedia.org/wiki/Antarctica_Marathon"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide specific elevation gain data for the McMurdo Marathon course.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "McMurdo Station is located in Antarctica, confirmed by multiple sources.",
+      "source_url": "https://en.wikipedia.org/wiki/Antarctica_Marathon"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "McMurdo Sound / Ross Dependency",
+      "note": "The race is held at McMurdo Station on the shore of McMurdo Sound, not simply 'Ross Dependency'. The database value is incomplete/imprecise.",
+      "source_url": "https://www.espn.com/espn/thelife/news/story?id=5761185"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both (running and skiing)",
+      "note": "The McMurdo event is described as a 'Run and Ski Marathon' with options for both running and skiing the course, not classic skiing only.",
+      "source_url": "https://antarcticfudgesicles.wordpress.com/2011/01/17/mcmurdo-run-and-ski-marathon/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions 52 participants in 2011, but insufficient data across multiple years to establish a reliable 'typical' number. The claim of 50 is plausible but not definitively verified.",
+      "source_url": "https://downandout.wordpress.com/2011/01/26/life-mcmurdo-ice-marathon-2011/"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 1995,
+      "note": "The McMurdo Marathon may have been the first marathon held in Antarctica in January 1995, not 2003. Wikipedia states it is now held annually.",
+      "source_url": "https://en.wikipedia.org/wiki/Antarctica_Marathon"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not confirm https://www.usap.gov as the official McMurdo Marathon website. The USAP (United States Antarctic Program) operates McMurdo Station, but no dedicated race website is verified in search results.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "January (austral summer)",
+      "note": "The McMurdo Marathon is held in January during the Antarctic summer season, not mid-October. October is austral spring, but the race occurs during the warmer summer months when McMurdo's population swells.",
+      "source_url": "https://www.espn.com/espn/thelife/news/story?id=5761185"
+    }
+  },
+  "citations": [
+    "https://www.espn.com/espn/thelife/news/story?id=5761185",
+    "https://en.wikipedia.org/wiki/Antarctica_Marathon",
+    "https://downandout.wordpress.com/2011/01/26/life-mcmurdo-ice-marathon-2011/",
+    "https://www.icemarathon.com",
+    "https://antarcticfudgesicles.wordpress.com/2011/01/17/mcmurdo-run-and-ski-marathon/",
+    "https://www.jeffreydonenfeld.com/blog/2014/12/racing-at-mcmurdo-station/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:45:42Z"
+}

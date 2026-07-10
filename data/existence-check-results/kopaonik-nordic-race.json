@@ -1,0 +1,27 @@
+{
+  "slug": "kopaonik-nordic-race",
+  "name": "Kopaonik Nordic Race",
+  "country": "Serbia",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a specific 'Kopaonik Nordic Race' cross-country ski race in Serbia. Search results confirm Kopaonik ski resort has 12 km of Nordic trails and hosts alpine/ski cross events like FIS Ski Cross World Cup 2026 and humanitarian ski races, but no mentions of an organized Nordic race event with results, official site, news, or listings in Worldloppet/FIS. Other events like Trail Race Kopaonik are running races, not skiing.",
+    "sources": []
+  },
+  "citations": [
+    "https://gfl2027.com/location/",
+    "https://serbia.com/kopaonik-makes-history-ski-cross-world-cup-in-serbia/",
+    "https://www.kopaonik.rs/kopaonik-mountain-resort/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=FS&eventid=57929&seasoncode=2026",
+    "https://www.skijalistasrbije.rs/en/about-ski-resort-kopaonik",
+    "https://kopaonik.travel/en/about-kop/",
+    "https://trailracekopaonik.com",
+    "https://kopaonikonline.com/en/home-page/",
+    "https://npkopaonik.rs/en/",
+    "https://sportforallserbia.org.rs/2026/2026-ENG-NAJAVNI-BILTEN-SKI-FEST.pdf"
+  ],
+  "checked_at": "2026-03-12T15:52:10Z"
+}

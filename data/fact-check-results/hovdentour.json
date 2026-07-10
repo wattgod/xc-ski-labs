@@ -1,0 +1,84 @@
+{
+  "slug": "hovdentour",
+  "name": "HovdenTour",
+  "facts": {
+    "distance_km": 42.5,
+    "elevation_m": 500,
+    "country": "Norway",
+    "region": "Agder",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1990,
+    "website": "https://www.hovdentour.no/",
+    "date": "February/March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source confirms 42,5 km distance option for HovdenTour.",
+      "source_url": "https://en.visitsorlandet.com/event/hovdentour/832951306/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying total elevation gain of 500m.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Hovden is in Norway.",
+      "source_url": "https://en.visitsorlandet.com/event/hovdentour/832951306/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Hovden is located in Agder county, Norway (inferred from context of Sørlandet region).",
+      "source_url": "https://en.visitsorlandet.com/event/hovdentour/832951306/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source states 'Rennet går i klassisk stil' (classic style).",
+      "source_url": "https://en.visitsorlandet.com/event/hovdentour/832951306/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found for HovdenTour; other Hovden events mention >500 but not this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not in search results; no official site confirmed in sources.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Hovden skiing conditions best in March; aligns with February/March.",
+      "source_url": "https://www.snow-online.com/cross-country/hovden.html"
+    }
+  },
+  "citations": [
+    "https://www.nordicmag.info/en/cross-country-skiing-norwegian-championships-in-hovden-martin-loewstroem-nyenget-wins-an-extremely-close-10-km-individual-skate-johannes-hoesflot-klaebo-fourth-0328/",
+    "https://www.visitnorway.com/listings/cross-country-skiing-at-hovden/268714/",
+    "https://www.snow-online.com/cross-country/hovden.html",
+    "https://hovden.com/en/langrenn",
+    "https://en.visitsorlandet.com/event/hovdentour/832951306/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=47087",
+    "https://www.youtube.com/watch?v=eTVG7k3Jybw",
+    "https://www.goxski.com/cross-country-ski-races",
+    "https://openskimap.org/?obj=399782a6828d6e0a60f2d9bdaaa9a4c2999c617d"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:41:18Z"
+}

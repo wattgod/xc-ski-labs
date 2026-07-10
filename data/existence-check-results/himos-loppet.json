@@ -1,0 +1,26 @@
+{
+  "slug": "himos-loppet",
+  "name": "Himos Loppet",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a cross-country ski race named 'Himos Loppet' found in the search results. Himos is a real ski resort with Nordic trails and hosts snowcross events, but no mentions of any loppet-style cross-country ski race, results, official site, news, or listings in Worldloppet, Euroloppet, or similar. Other Finnish races like Finlandia Hiihto appear, but nothing matching 'Himos Loppet'.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.snowcross.fi/wp-content/uploads/2022/04/Racersinfo-ENG.pdf",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://ski.fi/en/ski-resorts-in-finland/himos/",
+    "https://himoslomat.fi/en/campaigns/ski-and-stay/",
+    "https://himoslomat.fi/en/activities/hiihtoladut-himoksella/",
+    "https://himos.fi/en/groups/alpine-ski-teams/",
+    "https://himos.fi",
+    "https://himos.fi/en/openings/",
+    "https://himos.fi/en/seasonpasses/"
+  ],
+  "checked_at": "2026-03-12T15:48:56Z"
+}

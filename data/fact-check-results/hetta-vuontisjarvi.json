@@ -1,0 +1,84 @@
+{
+  "slug": "hetta-vuontisjarvi",
+  "name": "Hetta-Vuontisjärvi",
+  "facts": {
+    "distance_km": 52,
+    "elevation_m": 350,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 1953,
+    "website": "https://www.enontekio.fi",
+    "date": "Early April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a specific 'Hetta-Vuontisjärvi' race or 52km distance matching this name.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide elevation gain for a 'Hetta-Vuontisjärvi' race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Hetta is in Finland per sources, but no confirmation of this specific race.",
+      "source_url": "https://www.hettahuskies.com/en/about-us/location/winter-area-attractions/skiing-in-enontekio"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Hetta is in Enontekiö, Lapland, Finland, but no specific race confirmation.",
+      "source_url": "https://www.hettahuskies.com/en/about-us/location/winter-area-attractions/skiing-in-enontekio"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Local trails support classic, but no info on this race.",
+      "source_url": "https://www.hettahuskies.com/en/about-us/location/winter-area-attractions/skiing-in-enontekio"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year found for 'Hetta-Vuontisjärvi'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.enontekio.fi is municipality site; no race-specific confirmation on it per search results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nearby events like Lapponia Ski Week in early April, but no match for this race.",
+      "source_url": "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/"
+    }
+  },
+  "citations": [
+    "https://www.hettahuskies.com/en/about-us/location/winter-area-attractions/skiing-in-enontekio",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://skiclassics.com/lapponia-ski-week-kicks-off-monday-in-finland/",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.hettahuskies.com/fi/location/xold/area-attractions2/skiing-in-enontekio",
+    "https://www.youtube.com/watch?v=Ne_vcoXN3jQ",
+    "https://www.youtube.com/watch?v=Z2wQKGsqCLE",
+    "https://www.proxcskiing.com/long-distance/lapponia-ski-week-stage-2-the-ski-classics-challengers-event-live-streamed-this-wednesday/",
+    "https://enontekiolapland.com/en/trails/ski-tracks/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:40:47Z"
+}

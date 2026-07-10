@@ -1,0 +1,83 @@
+{
+  "slug": "konig-ludwig-lauf",
+  "name": "König Ludwig Lauf",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 650,
+    "country": "Germany",
+    "region": "Bavaria",
+    "discipline": "both",
+    "field_size": "~3,600",
+    "founded": 1968,
+    "website": "https://www.koenig-ludwig-lauf.com",
+    "date": "First weekend in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 45,
+      "note": "Search results indicate the main race distance is 45km, not 50km. Multiple sources confirm 45km as the longest classic distance offered.",
+      "source_url": "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention climbing from 840m altitude at start to over 1000m elevation, indicating approximately 160m elevation gain on the longest route. However, total elevation gain (accounting for descents) is not explicitly stated in sources.",
+      "source_url": "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Germany in multiple sources",
+      "source_url": "https://en.wikipedia.org/wiki/K%C3%B6nig_Ludwig_Lauf"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Bavaria in multiple sources",
+      "source_url": "https://en.wikipedia.org/wiki/K%C3%B6nig_Ludwig_Lauf"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed that both classic and skating (free technique) are offered",
+      "source_url": "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf"
+    },
+    "typical_participants": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source states 'around 3,600 runners took part in the last run'",
+      "source_url": "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf"
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 1968 (men) with women admitted in 1980",
+      "source_url": "https://en.wikipedia.org/wiki/K%C3%B6nig_Ludwig_Lauf"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Website URL https://www.koenig-ludwig-lauf.com is referenced multiple times in search results",
+      "source_url": "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as first weekend in February",
+      "source_url": "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/konig-ludwig-lauf/",
+    "https://www.ammergauer-alpen.de/en/blog/detailansicht/koenig-ludwig-lauf-2024-deutschlands-groesster-skilanglauf",
+    "https://en.wikipedia.org/wiki/K%C3%B6nig_Ludwig_Lauf",
+    "https://www.explorer-hotels.com/en/garmisch/sport-action/koenig-ludwig-lauf.html",
+    "https://www.koenig-ludwig-lauf.com/anmeldung-3.html",
+    "https://www.ahotu.com/event/konig-ludwig-lauf",
+    "https://skiclassics.com/konig-ludwig-lauf-2025-is-canceled/",
+    "https://www.worldloppet.com/konig-ludwig-lauf-a-scalable-track-toward-a-snow-safe-future/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:50:36Z"
+}

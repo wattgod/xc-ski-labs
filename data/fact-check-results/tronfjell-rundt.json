@@ -1,0 +1,84 @@
+{
+  "slug": "tronfjell-rundt",
+  "name": "Tronfjell Rundt",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 550,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1975,
+    "website": "https://www.tronfjellrundt.no",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt' or provide details on its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt' or provide details on its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt'; while many Norwegian ski races exist, cannot confirm this specific one.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt' or confirm Innlandet as its location.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt' or its skiing discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt' or its typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt' or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results reference https://www.tronfjellrundt.no or confirm it as the official site.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Tronfjell Rundt' or its typical date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.mountaineers.org/blog/global-adventures-cross-country-ski-routes-of-norway",
+    "https://www.youtube.com/watch?v=QEsjz-ZSlXc",
+    "https://www.norgesbooking.no/en/activities-in-norway/cross-country-skiing-in-norway/",
+    "https://en.lillehammer.com/whats-on/articles/furusjoen-rundt",
+    "https://www.youtube.com/watch?v=7hVEkWCEczI",
+    "https://www.youtube.com/watch?v=eTVG7k3Jybw",
+    "https://www.naturetravels.co.uk/blog/small-tracks-to-big-horizons-cross-country-skiing-in-rondane-national-park-norway/",
+    "https://www.visitnorway.com/things-to-do/outdoor-activities/skiing/cross-country-skiing/",
+    "https://www.goxski.com/cross-country-ski-races"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:56Z"
+}

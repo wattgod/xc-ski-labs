@@ -1,0 +1,82 @@
+{
+  "slug": "nordenskioldsloppet",
+  "name": "Nordenskiöldsloppet",
+  "facts": {
+    "distance_km": 220,
+    "elevation_m": 1200,
+    "country": "Sweden",
+    "region": "Norrbotten",
+    "discipline": "classic",
+    "field_size": "~400 starters",
+    "founded": 1884,
+    "website": "https://www.nordenskioldsloppet.se",
+    "date": "Mid-March (Saturday closest to spring equinox)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 220 km distance",
+      "source_url": "https://www.proxcskiing.com/long-distance/nordenskioldsloppet-2025-the-ultimate-220km-skiing-challenge-this-weekend-in-sweden/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden",
+      "source_url": "https://www.proxcskiing.com/long-distance/nordenskioldsloppet-2025-the-ultimate-220km-skiing-challenge-this-weekend-in-sweden/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Jokkmokk is in Norrbotten County, northern Sweden (Lapland region)",
+      "source_url": "https://www.proxcskiing.com/long-distance/nordenskioldsloppet-2025-the-ultimate-220km-skiing-challenge-this-weekend-in-sweden/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed",
+      "source_url": "https://www.proxcskiing.com/long-distance/nordenskioldsloppet-2025-the-ultimate-220km-skiing-challenge-this-weekend-in-sweden/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found specifying typical number of starters (~400)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Historical route and first race from 1884 confirmed; modern edition started ~2016-2017 (8th in 2025, 9th in 2026)",
+      "source_url": "https://www.proxcskiing.com/long-distance/nordenskioldsloppet-2025-the-ultimate-220km-skiing-challenge-this-weekend-in-sweden/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.nordenskioldsloppet.com",
+      "note": "Official site is nordenskioldsloppet.com (note spelling without ö)",
+      "source_url": "https://www.nordenskioldsloppet.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Last weekend of March (e.g., March 29, 2025; March 28, 2026), aligns with mid-March to spring equinox Saturday",
+      "source_url": "https://www.proxcskiing.com/long-distance/nordenskioldsloppet-2025-the-ultimate-220km-skiing-challenge-this-weekend-in-sweden/"
+    }
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/nordenskioldsloppet-2025-the-ultimate-220km-skiing-challenge-this-weekend-in-sweden/",
+    "https://www.swedishlapland.com/stories/nordenskioeldsloppet/",
+    "https://www.worldloppet.com/nordenskioldsloppet-swe/",
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://www.nordenskioldsloppet.com",
+    "https://www.youtube.com/watch?v=0GB0ysmGM7o",
+    "https://www.redbull.com/se-en/nordenskioldsloppet-pause-2023"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:53:33Z"
+}

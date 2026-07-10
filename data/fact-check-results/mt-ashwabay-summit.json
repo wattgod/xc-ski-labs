@@ -1,0 +1,84 @@
+{
+  "slug": "mt-ashwabay-summit",
+  "name": "Mt. Ashwabay Summit",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 30k races (skate, classic, skiathlon) exist as main adult events, matching within ±3km tolerance[1][2][3][5]",
+      "source_url": "https://4hcanski.org/asummit/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for the race course",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States, located in Bayfield, Wisconsin[2][3][5][8]",
+      "source_url": "https://www.mtashwabay.org"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Wisconsin (Bayfield, WI)[2][3][5][6][8]",
+      "source_url": "https://www.mtashwabay.org/nordic-skiing.html"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers both classic and skate (freestyle), including separate races and skiathlons[1][2][3][5]",
+      "source_url": "https://4hcanski.org/asummit/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants; described as 'small, but growing'[5]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2007,
+      "note": "20th annual in 2026 implies first edition around 2007 (2026-19=2007)",
+      "source_url": "https://ashwabaysummitskirace.com"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.mtashwabay.org/summit-ski-race.html",
+      "note": "Official race page on Mt. Ashwabay site; also ashwabaysummitskirace.com[3][5]",
+      "source_url": "https://www.mtashwabay.org/summit-ski-race.html"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "January",
+      "note": "Typically late January (e.g., Jan 31, 2026; prior years similar), not February[2][3][9]",
+      "source_url": "https://www.skisignup.com/Race/WI/Bayfield/ashwabaysummitskirace"
+    }
+  },
+  "citations": [
+    "https://4hcanski.org/asummit/",
+    "https://www.skisignup.com/Race/WI/Bayfield/ashwabaysummitskirace",
+    "https://ashwabaysummitskirace.com",
+    "https://www.perfectduluthday.com/the-event/ashwabay-summit-nordic-ski-race-2026/",
+    "https://www.mtashwabay.org/summit-ski-race.html",
+    "https://www.mtashwabay.org/nordic-skiing.html",
+    "https://www.mtashwabay.org/events.html",
+    "https://www.mtashwabay.org",
+    "https://www.bayfieldcounty.wi.gov/Calendar.aspx?month=1&year=2026&day=4&calType=0"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:46:30Z"
+}

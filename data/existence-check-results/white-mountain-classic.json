@@ -1,0 +1,32 @@
+{
+  "slug": "white-mountain-classic",
+  "name": "White Mountain Classic",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.jacksonxc.org/",
+    "results_url": null,
+    "evidence_summary": "The White Mountain Classic is a real, organized cross-country ski race held annually in Jackson, NH. Multiple independent sources confirm its existence including official NENSA (New England Nordic Ski Association) registration pages, the Jackson Ski Touring Foundation's official website, SkiReg.com registration platform, and event listings from established Nordic skiing organizations. The 2026 event is scheduled for January 10-11.",
+    "sources": [
+      "https://nensa.net/event/white-mountain-classic-and-jackson-jaunt/",
+      "https://www.jacksonxc.org/",
+      "https://www.skireg.com/white-mountain-classic-and-uscsa",
+      "https://www.mansfieldnordic.org/event/white-mountain-classic-30k/",
+      "https://nensa.net/tag/white-mountain-classic/"
+    ]
+  },
+  "citations": [
+    "https://nensa.net/event/white-mountain-classic-and-jackson-jaunt/",
+    "https://wmnordic.com",
+    "https://www.visitwhitemountains.com/articles/post/white-mountain-nordic-introduces-chasing-gold-weekend-pass/",
+    "https://wmnordic.com/cross-country-ski-events/",
+    "https://whitemountainski.co/pages/run-the-whites",
+    "https://whitemountainski.co/pages/saturday-night-nordic-lights",
+    "https://www.skireg.com/white-mountain-classic-and-uscsa",
+    "https://www.mansfieldnordic.org/event/white-mountain-classic-30k/",
+    "https://nensa.net/tag/white-mountain-classic/"
+  ],
+  "checked_at": "2026-03-12T16:11:49Z"
+}

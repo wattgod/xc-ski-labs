@@ -1,0 +1,82 @@
+{
+  "slug": "tervahiihto",
+  "name": "Tervahiihto",
+  "facts": {
+    "distance_km": 70,
+    "elevation_m": 400,
+    "country": "Finland",
+    "region": "North Ostrobothnia",
+    "discipline": "both",
+    "field_size": "~2,000-3,000",
+    "founded": 1889,
+    "website": "https://www.tervahiihto.fi",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results confirm Tervahiihto exists and was founded in 1889, but do not specify the race distance. No web source in results provides the distance value.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not contain elevation gain information for Tervahiihto.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Finland in search results.",
+      "source_url": "https://tervahiihto.fi/en/history/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention 'Oulun hiihto' (Oulu ski race) and reference to North Ostrobothnia region is plausible given Oulu's location, but search results do not explicitly state the region.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not specify whether Tervahiihto uses classic technique, skate technique, or both.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe Tervahiihto as 'the world's oldest continuously arranged mass ski event' but do not provide specific participant numbers.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 1889 in search results.",
+      "source_url": "https://tervahiihto.fi/en/history/"
+    },
+    "official_website_url": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The URL https://www.tervahiihto.fi is cited in search results.",
+      "source_url": "https://tervahiihto.fi/en/history/"
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not specify the typical race date or month for Tervahiihto. Related event Finlandia-hiihto races in February, but no source confirms Tervahiihto's typical date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.hiihtomuseo.fi/en/50-years-of-finlandia/finlandia-hiihto-beginnings/",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://www.finlandiahiihto.fi/history",
+    "https://skiclassics.com/a-short-history-of-cross-country-skiing/",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.hiihtomuseo.fi/en/50-years-of-finlandia/how-ski-trekking-started/",
+    "https://tervahiihto.fi/en/history/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:56:44Z"
+}

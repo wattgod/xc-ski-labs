@@ -1,0 +1,83 @@
+{
+  "slug": "lithuanian-ski-marathon",
+  "name": "Lithuanian Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 200,
+    "country": "Lithuania",
+    "region": "Utena County",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.slidinejo.lt",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Lithuanian Ski Marathon' or a 50km cross-country ski race matching the description.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Lithuanian Ski Marathon' or elevation gain for any matching ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Lithuania has cross-country skiing events like championships in Ignalina[2], no sources confirm 'Lithuanian Ski Marathon'.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Utena County mentioned for other events[1][3], but no ski marathon confirmed there.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe techniques for 'Lithuanian Ski Marathon'; other events use classic (C)[2].",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for any matching ski marathon event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year or first edition information available for 'Lithuanian Ski Marathon'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Website https://www.slidinejo.lt not mentioned in search results; no confirmation of official site.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Lithuanian ski events in January[2] or general winter, but no February marathon confirmed.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://hotway.life/en/running/lithuania/utena-hippodrome-marathon",
+    "https://lnsa.lt/wp-content/uploads/2026/01/2026.01.10-11-Lithuanian-CC-Championship.-Invitation.pdf",
+    "https://hotway.life/en/gravel-biking/lithuania/megre-gravel-earth-series",
+    "https://lithuania.travel/en/what-to-do/active-recreation/skiing",
+    "https://list.fandom.com/wiki/Lithuania",
+    "https://en.wikipedia.org/wiki/Lithuania",
+    "https://www.jstor.org/content/pdf/oa_book_monograph/10.2307/jj.36233902.pdf",
+    "https://groups.jewishgen.org/g/LitvakSIG/topics?page=250&after=1229412300000000000"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:16:36Z"
+}

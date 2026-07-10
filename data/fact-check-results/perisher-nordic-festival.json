@@ -1,0 +1,83 @@
+{
+  "slug": "perisher-nordic-festival",
+  "name": "Perisher Nordic Festival",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 300,
+    "country": "Australia",
+    "region": "New South Wales",
+    "discipline": "both",
+    "field_size": 150,
+    "founded": 1995,
+    "website": null,
+    "date": "August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "Snowy Mountains Classic offers 2.5/7.5/15/30 km distances (freestyle); database's 30 km matches the longest option but race has multiple distances, not fixed at 30 km",
+      "source_url": "https://www.perisherxcountry.org/events/xc-week/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for Perisher Nordic Festival or Snowy Mountains Classic",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All events at Perisher, Australia",
+      "source_url": "https://www.perisherxcountry.org/events/xc-week/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Perisher is in New South Wales, Snowy Mountains",
+      "source_url": "https://www.perisher.com.au/plan-your-trip/activities/nordic-skiing"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle",
+      "note": "Snowy Mountains Classic is freestyle (F); skiers choose technique",
+      "source_url": "https://www.perisherxcountry.org/events/xc-week/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants for this event",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Snowy Mountains Classic evolved from Paddy Pallin Classic (1970s), but no exact year for 'Perisher Nordic Festival' or this event as 1995",
+      "source_url": "https://perisherhistory.org.au/emuseum/development-of-skiing/cross-country-skiing/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific official site for 'Perisher Nordic Festival'; events listed on Perisher XC site, possibly during XC Ski Week",
+      "source_url": "https://www.perisherxcountry.org/events/xc-week/"
+    },
+    "race_date_month": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Snowy Mountains Classic on Sat 9th Aug during XC Ski Week (1st-9th Aug)",
+      "source_url": "https://www.perisherxcountry.org/events/xc-week/"
+    }
+  },
+  "citations": [
+    "https://discoverxcski.com/events/",
+    "https://www.perisherxcountry.org/events/xc-week/",
+    "https://perisherhistory.org.au/emuseum/development-of-skiing/cross-country-skiing/",
+    "https://www.perisher.com.au/plan-your-trip/activities/nordic-skiing",
+    "https://www.snow.org.au/disciplines/cross-country-events/",
+    "https://www.perisherxcountry.org/events/australian-calendar/",
+    "https://www.perisher.com.au/events/",
+    "https://www.perisherxcountry.org/events/local/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:18:27Z"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "gsieser-tal-lauf",
+  "name": "Gsieser Tal Lauf",
+  "country": "Italy",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 8,
+    "official_website": "https://www.valcasies.com",
+    "results_url": null,
+    "evidence_summary": "The Gsieser Tal Lauf is a well-documented, real cross-country ski marathon held annually in Val Casies, South Tyrol, Italy since 1984. Multiple independent official sources confirm its existence, organization, and 2026 event details (February 28 - March 1). The event is recognized by Ski Classics and has a documented 42-year history with over 76,000 finishers.",
+    "sources": [
+      "https://www.valcasies.com",
+      "https://www.gsieser-tal.com/en/events/084EF681B20D40139DDDE19A78E3039F-gran-fondo-val-casies-gsiesertal-lauf.html",
+      "https://skiclassics.com/events/challengers/gsiesertal-lauf-granfondo-val-casies-classic/",
+      "https://www.dolomitinordicski.com/en/events/granfondo-val-casies",
+      "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/val-casies-cross-country-ski-race/",
+      "https://www.valcasies.com/en/brochure-poster-2026-are-online/"
+    ]
+  },
+  "citations": [
+    "https://www.gsieser-tal.com/en/events/084EF681B20D40139DDDE19A78E3039F-gran-fondo-val-casies-gsiesertal-lauf.html",
+    "https://skiclassics.com/events/challengers/gsiesertal-lauf-granfondo-val-casies-classic/",
+    "https://www.valcasies.com",
+    "https://www.dolomitinordicski.com/en/events/granfondo-val-casies",
+    "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/val-casies-cross-country-ski-race/",
+    "https://www.valcasies.com/en/",
+    "https://www.valcasies.com/en/brochure-poster-2026-are-online/",
+    "https://www.gsieser-tal.com/en/active-experiences/cross-country-skiing/cross-country-skiing-events.html"
+  ],
+  "checked_at": "2026-03-12T15:47:48Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "gommerlauf",
+  "name": "Gommerlauf",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "Switzerland",
+    "region": "Valais",
+    "discipline": "both",
+    "field_size": "~1,900 starters",
+    "founded": 1973,
+    "website": "https://www.goms.ch/gommerlauf",
+    "date": "First or second Saturday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 42 km (Int. Gommer Skimarathon over 42 kilometers, 2x21 km).",
+      "source_url": "https://www.valais.ch/en/events/54-int-gommerlauf"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Switzerland.",
+      "source_url": "https://www.nordicmag.info/en/cross-country-skiing-thomas-joly-and-amelie-suiffet-win-the-gommerlauf-classic-in-switzerland-0222/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Valais canton.",
+      "source_url": "https://www.nordicmag.info/en/cross-country-skiing-thomas-joly-and-amelie-suiffet-win-the-gommerlauf-classic-in-switzerland-0222/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic (Gommer classic) and skate/free technique offered.",
+      "source_url": "https://www.valais.ch/en/events/54-int-gommerlauf"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found (~1,900 starters unconfirmed).",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "54th edition in 2026 implies first edition in 1973 (2026-53=1973).",
+      "source_url": "https://www.valais.ch/en/events/54-int-gommerlauf"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as www.gommerlauf.ch (matches goms.ch/gommerlauf).",
+      "source_url": "https://www.valais.ch/en/events/54-int-gommerlauf"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late February, e.g., 21-22 Feb 2026 (first/second Saturday).",
+      "source_url": "https://www.valais.ch/en/events/54-int-gommerlauf"
+    }
+  },
+  "citations": [
+    "https://www.valais.ch/en/events/54-int-gommerlauf",
+    "https://www.nordicmag.info/en/cross-country-skiing-thomas-joly-and-amelie-suiffet-win-the-gommerlauf-classic-in-switzerland-0222/",
+    "https://www.toko.ch/en/news-wax-tip/news-stories/gommerlauf-2026/",
+    "https://www.myswitzerland.com/en-us/experiences/events/54-int-gommerlauf/",
+    "https://www.goms.ch/en/gommerlauf/marathon",
+    "https://www.goms.ch/en/gommerlauf/rennguide",
+    "https://www.goms.ch/en/gommerlauf",
+    "https://www.matterhorngotthardbahn.ch/en/stories/mobile-stand-gommerlauf",
+    "https://pomona.ch/en/story/710222/this-years-gommerlauf-was-a-special-day-for-four-residents-of-the-goms-region-"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:37Z"
+}

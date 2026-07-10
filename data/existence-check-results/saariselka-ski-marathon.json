@@ -1,0 +1,27 @@
+{
+  "slug": "saariselka-ski-marathon",
+  "name": "Saariselkä Ski Marathon",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Saariselkä Ski Marathon'. Search results mention other events in Saariselkä like Kiilopää Ski, Vaskoolihiihto, Gold Bottle Games, and Arctic Ski Maraton, but none match the queried name. No official site, results, news, or listings for 'Saariselkä Ski Marathon' exist.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.kiilopaachallenge.fi/en/kiilopaa-ski-event/osallistujaohjeet/",
+    "https://www.goxski.com/saariselka",
+    "https://pace.sport/events/arctic-ski-maraton",
+    "https://skisaariselka.com",
+    "https://www.visitnordic.com/en/attraction/ski-saariselka-center",
+    "https://londonnordic.org.uk/httpslondonnordicorguk21/",
+    "https://www.saariselkatrails.fi/en/",
+    "https://skisaariselka.com/events/",
+    "https://saariselka.northernlightsvillage.com/experiences",
+    "https://saariselka.com/de/ski-track-info/"
+  ],
+  "checked_at": "2026-03-12T16:02:06Z"
+}

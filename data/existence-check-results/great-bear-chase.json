@@ -1,0 +1,34 @@
+{
+  "slug": "great-bear-chase",
+  "name": "Great Bear Chase",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.greatbearchase.com",
+    "results_url": "https://www.greatbearchase.com/Race/GreatBearChase/Page/Results",
+    "evidence_summary": "The Great Bear Chase has a fully functional official website with detailed race information, registration pages open for 2026, and past results from multiple years including 2025-2016. It is listed on Worldloppet and mentioned in news/tourism sites like Visit Keweenaw. Active social media is referenced on the site, confirming it as a real, organized annual event in Calumet, Michigan since 1981.",
+    "sources": [
+      "https://www.greatbearchase.com",
+      "https://www.greatbearchase.com/Race/GreatBearChase/Page/RaceGuide",
+      "https://www.greatbearchase.com/Race/GreatBearChase/Page/About",
+      "https://www.greatbearchase.com/Race/GreatBearChase/Page/Results",
+      "https://www.greatbearchase.com/Race/Events/MI/Calumet/GreatBearChase",
+      "https://www.worldloppet.com/great-bear-chase/",
+      "https://www.visitkeweenaw.com/the-crossing-place/the-great-bear-chase/"
+    ]
+  },
+  "citations": [
+    "https://www.greatbearchase.com/Race/GreatBearChase/Page/RaceGuide",
+    "https://www.greatbearchase.com/Race/GreatBearChase/Page/About",
+    "https://www.greatbearchase.com",
+    "https://www.visitkeweenaw.com/the-crossing-place/the-great-bear-chase/",
+    "https://www.greatbearchase.com/Race/Events/MI/Calumet/GreatBearChase",
+    "https://www.greatbearchase.com/Race/GreatBearChase/Page/JuniorBearChase",
+    "https://www.greatbearchase.com/Race/GreatBearChase/Page/Results",
+    "https://www.greatbearchase.com/Race/GreatBearChase/Page/MapsandParking",
+    "https://www.worldloppet.com/great-bear-chase/"
+  ],
+  "checked_at": "2026-03-12T15:47:07Z"
+}

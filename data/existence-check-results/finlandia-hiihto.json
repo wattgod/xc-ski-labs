@@ -1,0 +1,33 @@
+{
+  "slug": "finlandia-hiihto",
+  "name": "Finlandia-hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 10,
+    "official_website": "https://www.finlandiahiihto.fi",
+    "results_url": "https://www.finlandiahiihto.fi/news",
+    "evidence_summary": "The official website finlandiahiihto.fi provides detailed event information, recent race results (e.g., winners Kati Roivas, Miro Karppanen, Hilla Niemelä, Veeti Pyykkö), registration pages, program schedules, history since 1973/1974, and organization details by Lahti Ski Club and Hollola Athletics. It mentions YouTube coverage at www.youtube.com/finlandiahiihto and Worldloppet/Ski Classics affiliations. News updates cover weather adjustments, snowmaking, and the 53rd event planned for February 7-8, 2026.",
+    "sources": [
+      "https://www.finlandiahiihto.fi",
+      "https://www.finlandiahiihto.fi/news",
+      "https://www.finlandiahiihto.fi/contact-us",
+      "https://www.finlandiahiihto.fi/registration",
+      "https://www.finlandiahiihto.fi/program"
+    ]
+  },
+  "citations": [
+    "https://www.finlandiahiihto.fi/contact-us",
+    "https://www.finlandiahiihto.fi",
+    "https://www.finlandiahiihto.fi/news",
+    "https://www.finlandiahiihto.fi/relay-and-team-race",
+    "https://www.finlandiahiihto.fi/for-skier",
+    "https://www.finlandiahiihto.fi/registration",
+    "https://www.finlandiahiihto.fi/program",
+    "https://www.finlandiahiihto.fi/de/news",
+    "https://www.finlandiahiihto.fi/news/qampa-frequently-asked-questions",
+    "https://www.finlandiahiihto.fi/history"
+  ],
+  "checked_at": "2026-03-12T15:45:00Z"
+}

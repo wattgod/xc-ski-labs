@@ -1,0 +1,84 @@
+{
+  "slug": "orsa-gronklitt-ski-marathon",
+  "name": "Orsa Gronklitt Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 350,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": null,
+    "website": "https://www.orsagronklitt.se/",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm participants can choose between 42 km and 21 km distances. The 42 km marathon distance matches the database claim.",
+      "source_url": "https://loppkartan.se/en/race-pages/orsa_ski_marathon/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 485,
+      "note": "The Orsa Grönklitt 50k ITT course (which uses the same trails as the ski marathon) features 485 meters of total ascent, not 350 meters. Database value is significantly lower than actual elevation gain.",
+      "source_url": "https://skiclassics.com/orsa-gronklitt-50k-itt-women-program-start-list-start-times-and-where-to-watch/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the race takes place in Sweden.",
+      "source_url": "https://loppkartan.se/en/race-pages/orsa_ski_marathon/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm the race is located in Dalarna region of Sweden.",
+      "source_url": "https://loppkartan.se/en/race-pages/orsa_ski_marathon/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The Ski Classics events specify '50km Classic Technique,' and the race is described as a Nordic/cross-country skiing competition using classic technique.",
+      "source_url": "https://skiclassics.com/orsa-gronklitt-50k-itt-women-program-start-list-start-times-and-where-to-watch/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions 1500 skiers at the 2020 Orsa Grönklitt Ski Marathon start, which is significantly higher than the claimed 500. However, this is a single data point from 2020 and may not represent typical participation across all years. Insufficient data to definitively confirm or contradict the 500 figure.",
+      "source_url": "https://hotigris.wordpress.com/2020/02/10/orsa-gronklitt-ski-marathon-2020/"
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide information about when the Orsa Grönklitt Ski Marathon was first established. The database correctly marks this as unknown.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The official website URL https://www.orsagronklitt.se/ is cited in the search results as the organizer website.",
+      "source_url": "https://loppkartan.se/en/race-pages/orsa_ski_marathon/"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm the race takes place in late January. The 2026 edition was held on January 31, and the 2027 edition is scheduled for January 30.",
+      "source_url": "https://loppkartan.se/en/race-pages/orsa_ski_marathon/"
+    }
+  },
+  "citations": [
+    "https://loppkartan.se/en/race-pages/orsa_ski_marathon/",
+    "https://skiclassics.com/events/pro-tour/gronklitt-50k-itt-men/",
+    "https://skiclassics.com/orsa-gronklitt-50k-itt-women-program-start-list-start-times-and-where-to-watch/",
+    "https://gotrail.run/en/race/orsa-gronklitt-skimaraton",
+    "https://www.rucksack.se/en/en-helg-i-orsa-gronklitt/",
+    "https://hotigris.wordpress.com/2020/02/10/orsa-gronklitt-ski-marathon-2020/",
+    "https://www.orsagronklitt.se/en/skiing/cross-country-skiing/",
+    "https://live.eqtiming.com/81579",
+    "https://www.raceone.com/en-us/race/dd0d1691-e8d4-e711-80c3-000d3ab1b27f"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:48:35Z"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "moraloppet",
+  "name": "Moraloppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 300,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1990,
+    "website": "https://svenskalanglopp.se/",
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42km race distance.",
+      "source_url": "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain for Moraloppet.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden.",
+      "source_url": "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Oxberg-Mora is in Dalarna region (inferred from Vasaloppet context in same area).",
+      "source_url": "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed.",
+      "source_url": "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 1000,
+      "note": "More than 1000 participants for 2025 edition (exceeds 500 ±20% tolerance).",
+      "source_url": "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Svenskalanglopp.se not confirmed as official; Ski Classics mentions 'Moraloppet' website but no specific URL matches.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "January 18, 2025 is mid-January.",
+      "source_url": "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/moraloppet-2025-start-lists-start-times-and-where-to-watch/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://inspirationaladventures.com/adventure/cross-country-ski-along-the-vasaloppet-trail",
+    "https://vasaloppet.se/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:46:21Z"
+}

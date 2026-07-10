@@ -1,0 +1,25 @@
+{
+  "slug": "schwarzwald-skimarathon",
+  "name": "Schwarzwald Skimarathon",
+  "country": "Germany",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a cross-country ski race called 'Schwarzwald Skimarathon' was found in the search results. The search results contain information about the Schwarzwald Marathon (a running event since 1968), the Schwarzwald Bike Marathon (a mountain biking event), and the Schwarzwald Ultra Rad Marathon (a cycling event), but no cross-country skiing marathon. The Schwarzwaldportal mentions historical ski clubs from 1895, but no current organized Schwarzwald Skimarathon event.",
+    "sources": []
+  },
+  "citations": [
+    "https://worldsmarathons.com/marathon/schwarzwald-marathon",
+    "https://www.schwarzwaldmarathon.de/infos/faq",
+    "https://www.schwarzwaldmarathon.de",
+    "https://www.granfondoguide.com/Events/Index/10264/schwarzwald-ultra-rad-marathon",
+    "https://www.schwarzwald-bike-marathon.de",
+    "https://www.skiverband-schwarzwald.de",
+    "https://www.schwarzwald-marathon.de",
+    "https://www.schwarzwaldportal.com/en/_Ski-history-of-the-Black-Forest.html"
+  ],
+  "checked_at": "2026-03-12T16:03:05Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "akakura-xc-race",
+  "name": "Akakura XC Race",
+  "facts": {
+    "distance_km": 15,
+    "elevation_m": 200,
+    "country": "Japan",
+    "region": "Niigata",
+    "discipline": "both",
+    "field_size": 150,
+    "founded": null,
+    "website": "https://www.myoko.tv",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about an 'Akakura XC Race' or cross-country ski race at Akakura. Search results only contain information about the Akakura ski resort's downhill skiing facilities.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about an 'Akakura XC Race'. Cannot verify elevation gain for a race that does not appear in search results.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Akakura is confirmed to be in Japan based on ski resort information, no sources verify the existence of an 'Akakura XC Race'.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Akakura is confirmed to be in Niigata Prefecture based on ski resort information, no sources verify the existence of an 'Akakura XC Race'.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about an 'Akakura XC Race' or its discipline format.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about an 'Akakura XC Race' or participant numbers.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about an 'Akakura XC Race' or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming an official website for an 'Akakura XC Race'. The provided URL (https://www.myoko.tv) does not appear in search results related to a cross-country ski race.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about an 'Akakura XC Race' or its typical race date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.skiresort.info/ski-resort/myoko-akakura/",
+    "https://getslopes.com/resorts/akakura_onsen",
+    "https://steep.jp/en/ski-area/akakura-kanko/",
+    "https://japancheapo.com/place/myoko-akakura-onsen-ski-resort/",
+    "https://snowresortjapan.com/course/akakura-kankou/",
+    "https://www.yukiguni-journey.jp/en/37907/",
+    "https://www.powderhounds.com/Japan/Honshu/Akakura.aspx",
+    "https://www.snowjapan.com/japan-ski-resorts/niigata/myoko/akakura-kanko-resort"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:10:49Z"
+}

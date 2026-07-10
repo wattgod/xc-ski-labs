@@ -1,0 +1,25 @@
+{
+  "slug": "femund-ski-marathon",
+  "name": "Femund Ski Marathon",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Femund Ski Marathon'. All search results refer to Femundløpet or Femund Race, which are long-distance sled dog races, not ski races. Mentions of cross-country skiing in the area are general trail information without any specific organized marathon event.",
+    "sources": []
+  },
+  "citations": [
+    "https://femundengerdal.no/en/sted/femundlopet/",
+    "https://images.femundlopet.no/original/femundlopet.no/siste-nytt/simpleblog-eae8c225-ca9c-4238-b42e-2f628b8157ae.pdf",
+    "https://www.visitnorway.com/listings/the-femund-race/209302/",
+    "https://femundengerdal.no/en/events/femundlopet-2025-2/",
+    "https://femundengerdal.no/en/langrenn/",
+    "https://www.trysil.com/en/businesses/ungdomslaget-flendolen/femund-race-2025-checkpoint-flendalen/",
+    "https://www.femund.no/en/",
+    "https://www.norrona.com/en-GB/collection/femund/"
+  ],
+  "checked_at": "2026-03-12T15:44:54Z"
+}

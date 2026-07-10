@@ -1,0 +1,33 @@
+{
+  "slug": "marcia-gran-paradiso",
+  "name": "Marcia Gran Paradiso",
+  "country": "Italy",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.marciagranparadiso.it",
+    "results_url": "https://www.marciagranparadiso.it/news/",
+    "evidence_summary": "The Marcia Gran Paradiso is listed on Worldloppet and Ski Classics with details on dates, distances, and location in Cogne, Italy. The official website provides news articles with 2025 race results, podium mentions, and announcements for future editions including 2026. Additional confirmations from local tourism sites, videos, and programs establish it as an annual event since 1975.",
+    "sources": [
+      "https://www.worldloppet.com/marciagranparadiso-ita/",
+      "https://skiclassics.com/events/challengers/marcia-gran-paradiso/",
+      "https://www.marciagranparadiso.it",
+      "https://www.marciagranparadiso.it/news/",
+      "https://www.visitcogne.it/en/notizia/marciagranparadiso/",
+      "https://www.lovevda.it/en/database/2/sport/cogne/marciagranparadiso/27390",
+      "https://www.marciagranparadiso.it/video/single.php?id=0L2GoUoZpJE__MARCIAGRANPARADISO+2025+-+La+diretta+della+42%C2%AA+MarciaGranParadiso__2016"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/marciagranparadiso-ita/",
+    "https://skiclassics.com/events/challengers/marcia-gran-paradiso/",
+    "https://www.visitcogne.it/en/notizia/marciagranparadiso/",
+    "https://www.marciagranparadiso.it/news/",
+    "https://www.marciagranparadiso.it",
+    "https://www.lovevda.it/en/database/2/sport/cogne/marciagranparadiso/27390",
+    "https://www.marciagranparadiso.it/pagina.php?id=5",
+    "https://www.marciagranparadiso.it/video/single.php?id=0L2GoUoZpJE__MARCIAGRANPARADISO+2025+-+La+diretta+della+42%C2%AA+MarciaGranParadiso__2016"
+  ],
+  "checked_at": "2026-03-12T15:55:19Z"
+}

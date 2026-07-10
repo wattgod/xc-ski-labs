@@ -1,0 +1,78 @@
+{
+  "slug": "jizerska-50",
+  "name": "Jizerská 50",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 850,
+    "country": "Czech Republic",
+    "region": "Liberec Region",
+    "discipline": "both",
+    "field_size": 6000,
+    "founded": 1968,
+    "website": "https://jiz50.cz",
+    "date": "Second or third weekend in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50 km distance for the main race.[1][2]",
+      "source_url": "https://skiclassics.com/events/pro-tour/jizerska-padesatka/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 937,
+      "note": "Source states total elevation gain 937 m for 50 km CT course.",
+      "source_url": "https://www.worldloppet.com/wl-race/jizerska-50/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Czech Republic.[1][2]",
+      "source_url": "https://skiclassics.com/events/pro-tour/jizerska-padesatka/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Liberec Region, as race organized by Ski club Liberec and location near Liberec.[2]",
+      "source_url": "https://www.worldloppet.com/wl-race/jizerska-50/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Main 50 km is classic (CT), but event offers both classic and skate (FT) distances like 30 km FT.[1][2][3]",
+      "source_url": "https://www.worldloppet.com/wl-race/jizerska-50/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typical around 6000; sources note highest 6467 finishers (1977), limited to 4800 currently, expect over 9000 total skiers, 9200 in 2023.[1][2]",
+      "source_url": "https://skiclassics.com/events/pro-tour/jizerska-padesatka/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First race 1968.[1][2]",
+      "source_url": "https://skiclassics.com/events/pro-tour/jizerska-padesatka/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as official site, mentioned in sources.[1][3]",
+      "source_url": "https://skiclassics.com/events/pro-tour/jizerska-padesatka/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February, second or third weekend; e.g., Feb 1 2026 (Sunday), Feb 9 2024, first half of February.[1][3]",
+      "source_url": "https://skiclassics.com/events/pro-tour/jizerska-padesatka/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/pro-tour/jizerska-padesatka/",
+    "https://www.worldloppet.com/wl-race/jizerska-50/",
+    "https://sportid.online/en/lp_jiz50en/p10"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:41:44Z"
+}

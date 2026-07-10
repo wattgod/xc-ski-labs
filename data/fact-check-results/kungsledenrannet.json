@@ -1,0 +1,85 @@
+{
+  "slug": "kungsledenrannet",
+  "name": "Kungsledenrännet",
+  "facts": {
+    "distance_km": 80,
+    "elevation_m": 1000,
+    "country": "Sweden",
+    "region": "Västerbotten",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1985,
+    "website": null,
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying the distance for Kungsledenrännet; search results mention other races like Vasaloppet (90km)[1][3][6] but not this one.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for total elevation gain of Kungsledenrännet.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Kungsledenrännet listed on Swedish ski federation site (ssfta.skidor.com), implying Sweden, but no explicit confirmation; cannot mark CORRECT without direct statement matching database claim.[7]",
+      "source_url": "https://ssfta.skidor.com/event/14844"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify the region for Kungsledenrännet; Västerbotten not mentioned.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources detail the technique (classic/skate) for Kungsledenrännet.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for Kungsledenrännet.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention the founding year of Kungsledenrännet.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified; ssfta.skidor.com has event page but not confirmed as official.[7]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event listed for 13 April 2024, confirming typical April timing within reasonable expectation.[7]",
+      "source_url": "https://ssfta.skidor.com/event/14844"
+    }
+  },
+  "citations": [
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://visitsweden.com/what-to-do/nature-outdoors/winter-activities/cross-country-skiing-sweden/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://ssfta.skidor.com/event/14844",
+    "https://www.swedishtouristassociation.com/activities/skiing/cross-country-skiing/",
+    "https://www.youtube.com/watch?v=M4SBDZRDg-I",
+    "https://www.worldloppet.com/wl-race/vasaloppet/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:21Z"
+}

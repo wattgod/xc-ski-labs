@@ -1,0 +1,35 @@
+{
+  "slug": "marcialonga",
+  "name": "Marcialonga",
+  "country": "Italy",
+  "tier": 1,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://marcialonga.it/marcialonga_ski/",
+    "results_url": "https://marcialonga.it/marcialonga_ski/",
+    "evidence_summary": "Marcialonga is a real annual 70km cross-country ski race held on the last Sunday of January in Val di Fassa and Val di Fiemme, Italy, since 1971, confirmed by its official website listing the 2026 event on 25.01.2026 with results and registration pages. It is listed in Worldloppet, Ski Classics, and Wikipedia with detailed course info, and mentioned in Trentino tourism sites and news. Multiple independent sources including race federations provide history, tracks, and past editions.",
+    "sources": [
+      "https://marcialonga.it/marcialonga_ski/",
+      "https://www.worldloppet.com/wl-race/marcialonga-italy-cross-country-skiing/",
+      "https://skiclassics.com/events/pro-tour/marcialonga/",
+      "https://en.wikipedia.org/wiki/Marcialonga",
+      "https://www.trentino.com/en/leisure-activities/winter-sports/cross-country-skiing/marcialonga-di-fiemme-e-fassa/",
+      "https://marcialonga.it",
+      "https://www.visittrentino.info/EN/guida/eventi/fis-race-gs/marcialonga-story_e_125920649"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/marcialonga-italy-cross-country-skiing/",
+    "https://en.wikipedia.org/wiki/Marcialonga",
+    "https://skiclassics.com/events/pro-tour/marcialonga/",
+    "https://www.visittrentino.info/EN/guida/eventi/fis-race-gs/marcialonga-story_e_125920649",
+    "https://www.trentino.com/en/leisure-activities/winter-sports/cross-country-skiing/marcialonga-di-fiemme-e-fassa/",
+    "https://marcialonga.it/marcialonga_ski/",
+    "https://marcialonga.it/marcialonga_ski/index_en.php",
+    "https://marcialonga.it",
+    "https://marcialonga.it/marcialonga_running/",
+    "https://marcialonga.it/marcialonga_ski/EN_webcam.php"
+  ],
+  "checked_at": "2026-03-12T15:55:31Z"
+}

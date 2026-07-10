@@ -1,0 +1,84 @@
+{
+  "slug": "pragelato-sestriere",
+  "name": "Pragelato-Sestriere",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 600,
+    "country": "Italy",
+    "region": "Piedmont",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": 2008,
+    "website": "https://www.pragelatosestriere.it",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found detailing the distance of a 'Pragelato-Sestriere' cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found specifying total elevation gain for this race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Pragelato and Sestriere are located in Italy.",
+      "source_url": "https://www.vialattea.it/en/ski-area/pragelato/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Pragelato is in Val Chisone, Upper Val Chisone, Piedmont region (TO province).",
+      "source_url": "https://www.vialattea.it/en/ski-area/pragelato/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic, skate, or both for this specific race; Pragelato hosted Olympic Nordic skiing in 2006.",
+      "source_url": "https://www.vialattea.it/en/ski-area/pragelato/"
+    },
+    "typical_number_of_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for typical participant numbers.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition in 2008; Pragelato hosted 2006 Olympics cross-country, but no specific race history found.",
+      "source_url": "https://www.vialattea.it/en/ski-area/pragelato/"
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not confirmed in sources as official site for this race; no matching site found.",
+      "source_url": null
+    },
+    "typical_race_date_or_month": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm early March; Vialattea has alpine races in March, triathlon in Feb, but no CC ski race specified.",
+      "source_url": "https://www.vialattea.it/en/ski-race-schedule/"
+    }
+  },
+  "citations": [
+    "https://www.vialattea.it/en/ski-area/pragelato/",
+    "https://www.vialattea.it/en/ski-race-schedule/",
+    "https://sestriere.it/en/winter-in-sestriere/ski-area/",
+    "https://triathlon.org/events/2024-world-triathlon-winter-championships-pragelato-bardonecchia",
+    "https://www.vialattea.it/en/",
+    "https://www.vialattea.it/en/organise-your-race/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=46035&seasoncode=2020",
+    "https://www.vialattea.it/en/events/",
+    "https://www.specialolympics.org/about/press-releases/special-olympics-world-winter-games-turin-2025-the-future-is-here"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:49:48Z"
+}

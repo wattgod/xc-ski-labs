@@ -1,0 +1,82 @@
+{
+  "slug": "astana-ski-marathon",
+  "name": "Astana Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 100,
+    "country": "Kazakhstan",
+    "region": "Akmola",
+    "discipline": "both",
+    "field_size": 2000,
+    "founded": 2012,
+    "website": "https://www.astanamarathon.kz",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; provided URL not confirmed in results; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Astana Ski Marathon'; all results refer to Astana Half Marathon (running event)",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://worldsmarathons.com/marathon/astana-half-marathon",
+    "https://almaty-marathon.kz/en/news/781/",
+    "https://aims-worldrunning.org/races/10388.html",
+    "https://astana21k.com/registration/",
+    "https://astana21k.com/race-day/",
+    "https://www.finishers.com/en/event/astana-half-marathon",
+    "https://astana21k.com"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:33:58Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "zao-ski-marathon",
+  "name": "Zao Ski Marathon",
+  "country": "Japan",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Zao Ski Marathon' cross-country ski race in any search results. Zao Onsen is a real ski resort with downhill skiing, snow monsters festival, and events like torch ski runs, but no mentions of organized cross-country marathons, results, official sites, or listings in Worldloppet/FIS. Sapporo International Ski Marathon exists but is unrelated and in a different location.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://jasumo.com/listing/zao-snow-monster-festival/",
+    "https://www.visityamagata.jp/en/topics-zao-winter-en-2024/",
+    "https://matcha-jp.com/en/22388",
+    "https://www.japan.travel/en/spot/1783/",
+    "https://www.zao-spa.or.jp/english/ski/",
+    "https://www.zao-spa.or.jp/english/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=JP&eventid=39320",
+    "https://www.snowjapan.com/japan-ski-resorts/yamagata/yamagata/zao-onsen",
+    "https://miyagizao-navi.jp/en/event_en/"
+  ],
+  "checked_at": "2026-03-12T16:12:30Z"
+}

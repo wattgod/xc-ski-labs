@@ -1,0 +1,82 @@
+{
+  "slug": "forbush-memorial-classic",
+  "name": "Forbush Memorial Classic",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 100,
+    "country": "United States",
+    "region": "Michigan",
+    "discipline": "classic",
+    "field_size": 30,
+    "founded": null,
+    "website": "https://www.nordicskiracer.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Senior division race approximately 10 km[1]",
+      "source_url": "https://www.forbushcorner.com/memorialRace.html"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Michigan, USA[1][2][7]",
+      "source_url": "https://www.forbushcorner.com/memorialRace.html"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Michigan, specifically Frederic/Gaylord area[1][2][7]",
+      "source_url": "https://www.forbushcorner.com/memorialRace.html"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique (double-tracked course)[4]",
+      "source_url": "https://nordicskiracer.com/news.asp?NewsID=16779"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.forbushcorner.com/memorialRace.html",
+      "note": "Official page is on forbushcorner.com, not nordicskiracer.com[1]",
+      "source_url": "https://www.forbushcorner.com/memorialRace.html"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February (e.g., Feb 2 2025, Feb 5 2023)[1][2][5]",
+      "source_url": "https://www.forbushcorner.com/memorialRace.html"
+    }
+  },
+  "citations": [
+    "https://www.forbushcorner.com/memorialRace.html",
+    "https://www.skireg.com/6539",
+    "https://nordicskiracer.com/news.asp?NewsID=16690",
+    "https://nordicskiracer.com/news.asp?NewsID=16779",
+    "https://www.forbushcorner.com/documents/entryForm%20ForbushMemorial26.pdf",
+    "https://www.forbushcorner.com/forbushClassic.html",
+    "https://www.forbushcorner.com/MichiganXCRacing.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:13:13Z"
+}

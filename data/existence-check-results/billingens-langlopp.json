@@ -1,0 +1,32 @@
+{
+  "slug": "billingens-langlopp",
+  "name": "Billingens Langlopp",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://billingenslanglopp.se",
+    "results_url": "http://ssfta.skidor.com/event/46810",
+    "evidence_summary": "Billingens Långlopp is a confirmed real cross-country ski race in Sweden with multiple independent sources including an official website, registration pages, Ski Classics circuit listing, and Swedish ski federation records. The 2026 edition is scheduled for January 30 - February 1, 2026, with documented accommodation packages and event infrastructure.",
+    "sources": [
+      "https://billingenslanglopp.se",
+      "https://skiclassics.com/events/challengers/billingens-langlopp/",
+      "https://billingensskidallians.se",
+      "http://ssfta.skidor.com/event/46810",
+      "https://www.proxcskiing.com/long-distance/billingens-langlopp-2025-start-lists-start-times-and-where-to-watch/",
+      "https://www.youtube.com/watch?v=uIS9NyEKSNU"
+    ]
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/billingens-langlopp-2025-start-lists-start-times-and-where-to-watch/",
+    "https://skiclassics.com/events/challengers/billingens-langlopp/",
+    "https://billingenslanglopp.se",
+    "https://billingensskidallians.se",
+    "http://ssfta.skidor.com/event/46810",
+    "https://billingenslanglopp.se/index.php/resa-hit/",
+    "https://billingenslanglopp.se/index.php/kontakt/",
+    "https://www.youtube.com/watch?v=uIS9NyEKSNU"
+  ],
+  "checked_at": "2026-03-12T15:40:32Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "keswick-to-barrow",
+  "name": "Keswick to Barrow",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 600,
+    "country": "United Kingdom",
+    "region": "Cumbria",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 1992,
+    "website": null,
+    "date": "When conditions allow (variable)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 63.5,
+      "note": "Sources consistently describe Keswick to Barrow (K2B) as 39.5-40 miles (63.4-64.4 km), not 40 km[1][2][3][4][5]",
+      "source_url": "https://keswick2barrow.co.uk/challenge"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain for K2B; route described with climbs (e.g., Kirkby Moor highest point) but no numeric total[1][3]",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as England, United Kingdom[1][2][3][4]",
+      "source_url": "https://keswick2barrow.co.uk/challenge"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Cumbria, England (Lake District)[1][2][3]",
+      "source_url": "https://keswick2barrow.co.uk/challenge"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "walking and running",
+      "note": "Event is a charity walking and running challenge; no mention of cross-country skiing[1][2][3][4][5]",
+      "source_url": "https://keswick2barrow.co.uk/challenge"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Teams of 4-12 members mentioned, but no total participant numbers; events described as over-subscribed but no specific typical number like 50[1][2][3][5]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1967,
+      "note": "Started in 1967 as challenge between Barrow Shipyard and HMS Resolution crew[2][3]",
+      "source_url": "https://www.cclg.org.uk/get-involved/fundraising-events/keswick-barrow"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://keswick2barrow.co.uk",
+      "note": "Official site confirmed[1][5]",
+      "source_url": "https://keswick2barrow.co.uk"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "May (annually)",
+      "note": "Typically annual in May (e.g., 9 May 2026 provisional); not variable based on snow conditions[3][4][5]",
+      "source_url": "https://keswick2barrow.co.uk"
+    }
+  },
+  "citations": [
+    "https://keswick2barrow.co.uk/challenge",
+    "https://www.cclg.org.uk/get-involved/fundraising-events/keswick-barrow",
+    "https://en.wikipedia.org/wiki/Keswick_to_Barrow",
+    "https://www.thelilyfoundation.org.uk/charity/get-involved/events/keswick-to-barrow-k2b-2026/",
+    "https://keswick2barrow.co.uk",
+    "https://www.youtube.com/watch?v=uyHoHLNmUTc",
+    "https://www.nwairambulance.org.uk/events/keswick-to-barrow-walk/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:15:56Z"
+}

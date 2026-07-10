@@ -1,0 +1,83 @@
+{
+  "slug": "lysebotn-sirdal",
+  "name": "Lysebotn-Sirdal",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 900,
+    "country": "Norway",
+    "region": "Rogaland",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1990,
+    "website": "https://www.lysebotn-sirdal.no",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 40km distance for Lysebotn-Sirdal cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 900m total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Norway in multiple sources referencing Lysebotn events.",
+      "source_url": "https://www.youtube.com/watch?v=Go0cDUUD6Kc"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific confirmation for Rogaland; Lysebotn is in Rogaland but no direct link to this race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Related Lysebotn Opp events mention classic and freestyle, but no confirmation for Lysebotn-Sirdal.",
+      "source_url": "https://www.youtube.com/watch?v=6m71_XLyqHA"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for typical number of participants (~300).",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying 1990 as first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of https://www.lysebotn-sirdal.no; related site is lysebotn[at]blinkfestivalen.no but not matching.",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42977&seasoncode=2019&racecodex=4042"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Blink Festival (including Lysebotn events) in August, not March; no confirmation for this specific race.",
+      "source_url": "https://www.youtube.com/watch?v=Go0cDUUD6Kc"
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=Go0cDUUD6Kc",
+    "https://www.nbcolympics.com/news/klaebo-endures-50km-achieves-historic-6-6-gold-medal-games",
+    "https://www.biathlonworld.com/news/blinkfestivalen-preview-2022/1w9rW7xjDdCNKdd4uPgNgj",
+    "https://www.youtube.com/watch?v=eTVG7k3Jybw",
+    "https://www.proxcskiing.com/traditional-skiing/hegstad-kruger-wins-lysebotn-opp-freestyle/",
+    "https://www.youtube.com/watch?v=6m71_XLyqHA",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42977&seasoncode=2019&racecodex=4042",
+    "https://www.visitnorway.com/events/norwegian-sprint-orienteering-championships/485960/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:44:39Z"
+}

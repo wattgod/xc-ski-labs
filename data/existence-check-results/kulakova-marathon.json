@@ -1,0 +1,24 @@
+{
+  "slug": "kulakova-marathon",
+  "name": "Kulakova Marathon",
+  "country": "Russia",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Kulakova Marathon' cross-country ski race in Russia across any requested categories: no official website, race results, news articles specifically naming it, Worldloppet/FIS listings, social media, YouTube videos, or registration pages. Search results mention unrelated events like Murmansk ski marathon and Polar Olympics, but nothing matches the query. A person named Tatsiana Kulakova appears in a non-sport context.",
+    "sources": []
+  },
+  "citations": [
+    "https://eng.gov-murman.ru/press/446897/",
+    "https://norceca.net/old_news%20files/Archives_13.htm",
+    "http://isoh.org/wp-content/uploads/2019/11/JOH-3.19_1-80.pdf",
+    "https://www.hoc.gr/en/olympic-games-history/",
+    "https://buromedia.io/en/investigations/zoloto-imperii",
+    "https://united24media.com/latest-news/war-veteran-roman-kashpur-becomes-first-ukrainian-to-finish-six-world-majors-on-prosthetic-11307",
+    "https://global.upenn.edu/isss/penn-world-scholars/"
+  ],
+  "checked_at": "2026-03-12T15:52:30Z"
+}

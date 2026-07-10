@@ -1,0 +1,84 @@
+{
+  "slug": "sovereign-lake-loppet",
+  "name": "Sovereign Lake Loppet",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 500,
+    "country": "Canada",
+    "region": "British Columbia",
+    "discipline": "both",
+    "field_size": "~500 starters",
+    "founded": 1998,
+    "website": "https://www.sovereignlake.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "2017 Sovereign Lake Loppet offered distances of 2km, 10km, 15km, and 30km (longest race distance), not 50km[1]",
+      "source_url": "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain for the Sovereign Lake Loppet",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located at Sovereign Lake Nordic Centre, Vernon, BC[1][3]",
+      "source_url": "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "British Columbia (BC), Vernon[1][3]",
+      "source_url": "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Free technique (skate or classic) in 2017[1]; skate and classic in related S2S events[2][4]",
+      "source_url": "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found on typical number of participants or starters",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found confirming year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Website listed as www.sovereignlake.com in race notice[1]",
+      "source_url": "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "March",
+      "note": "2017 edition on Sunday March 12 (not late January)[1]",
+      "source_url": "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf"
+    }
+  },
+  "citations": [
+    "https://www.sovereignlake.com/wp-content/uploads/2017/02/2017-Loppet-Race-Notice_v4.pdf",
+    "https://www.sovereign2silverstar.com",
+    "https://www.sovereignlake.com/events/xc105/",
+    "https://www.webscorer.com/register?raceid=199931",
+    "https://www.sovereignlake.com/tag/loppet/",
+    "https://www.sovereignlake.com/wp-content/uploads/2024/10/Cross-Country-What-to-Expect-on-Race-Day.pdf",
+    "https://sovereignlake.galaxydigital.com/need/?need_id=823928&need_init_id=103474&view=calendar",
+    "https://www.sovereignlake.com/15k-30k-best-in-snow-loppet-course/",
+    "https://www.sovereignlake.com/tag/courses/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:44Z"
+}

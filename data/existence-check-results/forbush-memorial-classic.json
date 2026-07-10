@@ -1,0 +1,32 @@
+{
+  "slug": "forbush-memorial-classic",
+  "name": "Forbush Memorial Classic",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.forbushcorner.com/memorialRace.html",
+    "results_url": "https://nordicskiracer.com/news.asp?NewsID=16690",
+    "evidence_summary": "The Forbush Memorial Classic is a real annual cross-country ski race at Forbush Corner Nordic in Michigan, part of the Michigan Cup series, with an official website detailing the event, past and recent race results including 2025 winners, registration forms for 2026, and coverage on Nordic Ski Racer with specific results and news articles. Multiple years of events are documented, such as the Chris Weingartz Memorial Classic in 2025 and others honoring different skiers. Registration is available via SkiReg.com, confirming organized occurrence.",
+    "sources": [
+      "https://www.forbushcorner.com/memorialRace.html",
+      "https://www.forbushcorner.com/documents/entryForm%20ForbushMemorial26.pdf",
+      "https://nordicskiracer.com/event-details.asp?id=3986",
+      "https://nordicskiracer.com/news.asp?NewsID=16690",
+      "https://www.forbushcorner.com",
+      "https://www.skireg.com/forbush-memorial-classic-in-memory-of-mike-keenan"
+    ]
+  },
+  "citations": [
+    "https://www.forbushcorner.com/memorialRace.html",
+    "https://www.forbushcorner.com/documents/entryForm%20ForbushMemorial26.pdf",
+    "https://nordicskiracer.com/event-details.asp?id=3986",
+    "https://nordicskiracer.com/news.asp?NewsID=16690",
+    "https://www.forbushcorner.com",
+    "https://www.forbushcorner.com/forbushClassic.html",
+    "https://www.skireg.com/forbush-memorial-classic-in-memory-of-mike-keenan",
+    "https://www.skireg.com/6988"
+  ],
+  "checked_at": "2026-03-12T15:45:22Z"
+}

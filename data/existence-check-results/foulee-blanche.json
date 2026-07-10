@@ -1,0 +1,32 @@
+{
+  "slug": "foulee-blanche",
+  "name": "Foulée Blanche",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.lafouleeblanche.com",
+    "results_url": null,
+    "evidence_summary": "The Foulée Blanche is a real annual cross-country ski race held in Autrans-Méaudre en Vercors, France, since 1979, with official website detailing programs for 2025 and 2026 editions, including races from 1.5 to 42 km. It is listed on Worldloppet as a 42 km freestyle event, with video summaries of past editions like 2025 confirming over 3200 participants. Multiple pages mention registration, challenges, and historical context, establishing it as a well-organized, longstanding event.",
+    "sources": [
+      "https://www.lafouleeblanche.com",
+      "https://www.worldloppet.com/la-foulee-blanche-fra/",
+      "https://www.lafouleeblanche.com/hiver/home-hiver/",
+      "https://www.lafouleeblanche.com/47e-foulee-blanche-le-resume-video-2025/",
+      "https://www.autrans-location.com/foulee-blanche-2026-dates-inscriptions-et-formats/"
+    ]
+  },
+  "citations": [
+    "https://www.lafouleeblanche.com/hiver/infos-pratiques/programme/",
+    "https://www.worldloppet.com/la-foulee-blanche-fra/",
+    "https://www.lafouleeblanche.com/hiver/home-hiver/",
+    "https://www.autrans-location.com/foulee-blanche-2026-dates-inscriptions-et-formats/",
+    "https://www.lafouleeblanche.com/47e-foulee-blanche-le-resume-video-2025/",
+    "https://www.lafouleeblanche.com",
+    "https://www.lafouleeblanche.com/hiver/courses/",
+    "https://en.vercors-experience.com/la-foulee-blanche.html",
+    "https://www.lafouleeblanche.com/organisation/"
+  ],
+  "checked_at": "2026-03-12T15:45:33Z"
+}

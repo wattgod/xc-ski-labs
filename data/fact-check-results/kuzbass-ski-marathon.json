@@ -1,0 +1,85 @@
+{
+  "slug": "kuzbass-ski-marathon",
+  "name": "Kuzbass Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 350,
+    "country": "Russia",
+    "region": "Kemerovo Oblast",
+    "discipline": "both",
+    "field_size": 1000,
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 50 km marathon distance",
+      "source_url": "https://russialoppet.ru/events/kuzbass2025.html?region=116"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain for 50 km; per-lap elevations given for shorter distances only (e.g., 190m for 12.5 km)",
+      "source_url": "https://russialoppet.ru/events/kuzbass2025.html?region=116"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia",
+      "source_url": "https://russialoppet.ru/events/kuzbass2025.html?region=116"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Kemerovo Oblast (Kemerovo region)",
+      "source_url": "https://russialoppet.ru/events/kuzbass2025.html?region=116"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "free (skate)",
+      "note": "Specified as free style (свободным стилем, skate) for all distances including 50 km; no mention of classic",
+      "source_url": "https://russialoppet.ru/events/kuzbass2025.html?region=116"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Transcript mentions ~1000 on full distance (over declared 700) and ~72-82 in one wave; total across all events unclear and not reliably quantified",
+      "source_url": "https://www.youtube.com/watch?v=bPvbmkk2UJg"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as official Russialoppet site hosting event page",
+      "source_url": "https://russialoppet.ru/events/kuzbass2025.html?region=116"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held mid-March (e.g., March 19, 2024); 2025 event implies early March timing",
+      "source_url": "https://www.youtube.com/watch?v=bPvbmkk2UJg"
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=bPvbmkk2UJg",
+    "https://russialoppet.ru/events/kuzbass2025.html?region=116",
+    "https://www.uszn-mzk.ru/pressa/2017/03/06/7867-7880124.html",
+    "https://www.proxcskiing.com/event/kuzbass-classic-marathon/",
+    "https://www.noc.by/en/news/medals-of-kuzbass-the-future-of-belarusian-sports/",
+    "https://top-prom.ru/en/press-center/news/yubileynaya_mine_foreman_becomes_fifth_in_winter_triathlon_competition/",
+    "https://silkwayrally.com/en/along-the-2024-silk-way-rally-kemerovo-region-kuzbass/",
+    "https://www.ahotu.com/calendar/russia?continents=europe&subContinents=eastern-europe",
+    "https://www.tripadvisor.com/Tourism-g2697909-Kuzbass_Kemerovo_Oblast_Siberian_District-Vacations.html",
+    "https://redhill-kemerovo.ru/en/istoriya/stati/aik-kuzbass/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:36Z"
+}

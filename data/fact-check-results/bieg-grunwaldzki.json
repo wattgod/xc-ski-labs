@@ -1,0 +1,84 @@
+{
+  "slug": "bieg-grunwaldzki",
+  "name": "Bieg Grunwaldzki",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 800,
+    "country": "Poland",
+    "region": "Lower Silesia",
+    "discipline": "classic",
+    "field_size": "~600 starters",
+    "founded": 1978,
+    "website": null,
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Multiple sources confirm the main race is 50 km classic technique (CT), matching database claim within tolerance; one source mentions shortened to 42 km in a specific year due to snow issues but standard is 50 km[1][3][4][6][7]",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 903,
+      "note": "Official course profile lists 903 m total elevation gain for 50 km CT; one review claims 1700 m but less authoritative; outside ±100m tolerance of 800m[3][6]",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Poland across all sources[1][3][5][7]",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Jizera Mountains, Szklarska Poręba, Lower Silesia (Dolny Śląsk/Lower Silesian Voivodeship)[3][6]",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "50 km is classic technique (CT); other races include freestyle (FT)[3][4][6]",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "First edition had 518 starters; modern events have thousands (e.g., over 4,000 total competitors across festival), but no specific number for 50 km race starters near ~600[1][3]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1976,
+      "note": "First edition in 1976, not 1978[3][5]",
+      "source_url": "https://www.worldloppet.com/wl-race/bieg-piastow/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://bieg-piastow.pl/",
+      "note": "Official site identified as bieg-piastow.pl[4]",
+      "source_url": "https://bieg-piastow.pl/50-km-ct"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late February to early March, e.g., 24 Feb - 03 Mar 2024[7]",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/poland"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/the-49th-bieg-piastow-as-grande-finale-of-the-polish-cross-country-ski-festival/",
+    "https://worldloppetskier.wordpress.com/events/bieg-piastow/",
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "https://bieg-piastow.pl/50-km-ct",
+    "https://en.wikipedia.org/wiki/Bieg_Piast%C3%B3w",
+    "https://www.tripadvisor.com/Attraction_Review-g274808-d2715888-Reviews-Bieg_Piastow-Szklarska_Poreba_Lower_Silesia_Province_Southern_Poland.html",
+    "https://www.ahotu.com/calendar/cross-country-skiing/poland",
+    "https://www.liberec-region.com/dr-en/23919-the-jakuszyce-cross-country-centre-poland.html",
+    "https://www.youtube.com/watch?v=nTcffFnLQnI"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:45:57Z"
+}

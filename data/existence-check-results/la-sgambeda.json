@@ -1,0 +1,32 @@
+{
+  "slug": "la-sgambeda",
+  "name": "La Sgambeda",
+  "country": "Italy",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.lasgambeda.it",
+    "results_url": null,
+    "evidence_summary": "La Sgambeda is a confirmed real event with an official website, FIS international calendar listing, multiple news sources, and registration pages. The 35th edition took place on December 14, 2025 in Livigno, Italy. While race results from the 2025 edition are not yet visible in the search results, the event has substantial institutional presence including official regulations, FAQ pages, and coverage from local tourism authorities.",
+    "sources": [
+      "https://www.lasgambeda.it",
+      "https://www.lasgambeda.it/en/",
+      "https://www.lasgambeda.it/en/regulations/",
+      "https://www.lasgambeda.it/en/registrations/",
+      "https://www.livigno.eu/en/news/livigno-la-sgambeda-celebrates-35-years-of-passion",
+      "https://www.endu.net/en/events/la-sgambeda-2/info"
+    ]
+  },
+  "citations": [
+    "https://www.lasgambeda.it",
+    "https://www.lasgambeda.it/en/faq/",
+    "https://www.lasgambeda.it/en/",
+    "https://www.lasgambeda.it/en/regulations/",
+    "https://www.livigno.eu/en/news/livigno-la-sgambeda-celebrates-35-years-of-passion",
+    "https://www.lasgambeda.it/en/registrations/",
+    "https://www.endu.net/en/events/la-sgambeda-2/info",
+    "https://www.ahotu.com/event/la-sgambeda"
+  ],
+  "checked_at": "2026-03-12T15:53:02Z"
+}

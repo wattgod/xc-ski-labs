@@ -1,0 +1,24 @@
+{
+  "slug": "krkonossky-maraton",
+  "name": "Krkonošský Maratón",
+  "country": "Czech Republic",
+  "tier": 2,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No direct mentions of 'Krkonošský Maratón' as a specific cross-country ski race in any search results. Results show general cross-country skiing trails in Krkonose mountains, tracking events (none matching the race name), historical references to ski races in the area, and ski clubs, but no official site, results, news, or listings for this event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.krkonose.eu/en",
+    "https://www.krkonose.eu/en/cross-country-ski-trails-krkonose",
+    "https://en.follow.me.cz/events-tracking/",
+    "https://www.krnap.cz/media/m4sm1uih/krnap_kniha_50_let_aj_web.pdf",
+    "https://nsa.gov.cz/wp-content/uploads/2023/10/MK23_na-web.pdf",
+    "https://www.krkonose.eu/en/bezecke-lyzovani",
+    "https://www.memoryofnations.eu/en/paulu-blanka-1954"
+  ],
+  "checked_at": "2026-03-12T15:52:25Z"
+}

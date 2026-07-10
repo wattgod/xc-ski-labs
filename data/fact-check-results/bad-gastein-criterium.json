@@ -1,0 +1,83 @@
+{
+  "slug": "bad-gastein-criterium",
+  "name": "Bad Gastein Criterium",
+  "facts": {
+    "distance_km": 36,
+    "elevation_m": 600,
+    "country": "Austria",
+    "region": "Salzburg Alps",
+    "discipline": "skate",
+    "field_size": "~500-1,000 (Pro Tour event)",
+    "founded": null,
+    "website": "https://www.gastein.com/en/events/winter/gastein-classics/",
+    "date": "Mid-December (season opener)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 36 km for Bad Gastein Criterium",
+      "source_url": "https://www.gastein.com/en/experiences-events/events/winter/gastein-classics/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 528,
+      "note": "Sources report 528m elevation gain; outside ±100m tolerance of 600m",
+      "source_url": "https://skiclassics.com/bad-gastein-weekend-opens-ski-classics-season-xvii-racing-alpine-charm-and-a-touch-of-belle-epoque-magic/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Austria, Sportgastein",
+      "source_url": "https://skiclassics.com/events/pro-tour/bad-gastein-criterium/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sportgastein in Hohe Tauern National Park, Salzburg region (Salzburg Alps)",
+      "source_url": "https://www.gastein.com/en/experiences-events/events/winter/gastein-classics/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "Sources specify classic technique for Criterium",
+      "source_url": "https://skiclassics.com/bad-gastein-weekend-opens-ski-classics-season-xvii-racing-alpine-charm-and-a-touch-of-belle-epoque-magic/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found for Criterium; Pro Tour but no ~500-1,000 confirmation",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No year founded or first edition details found",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches Gastein Classics site hosting event info",
+      "source_url": "https://www.gastein.com/en/experiences-events/events/winter/gastein-classics/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mid-December, e.g., Dec 14, 2025 as season opener",
+      "source_url": "https://skiclassics.com/bad-gastein-weekend-opens-ski-classics-season-xvii-racing-alpine-charm-and-a-touch-of-belle-epoque-magic/"
+    }
+  },
+  "citations": [
+    "https://www.gastein.com/en/experiences-events/events/winter/gastein-classics/",
+    "https://skiclassics.com/events/pro-tour/bad-gastein-criterium/",
+    "https://skiclassics.com/bad-gastein-weekend-opens-ski-classics-season-xvii-racing-alpine-charm-and-a-touch-of-belle-epoque-magic/",
+    "https://vasaloppet.se/en/guides-and-tips/ski/ski-classics/",
+    "https://derskiguide.at/en/event/gastein-classics/",
+    "https://etusuora.com/en/cross-country-skiing/ski-classics/bad-gastein",
+    "https://www.proxcskiing.com/paid_content/gastein-classics-season-kickoff-for-recreational-cross-country-skiers-in-the-hohe-tauern-national-park/",
+    "https://www.nordicfocus.com/skimarathon/event/sc-202526-02"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:45:25Z"
+}

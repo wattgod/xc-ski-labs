@@ -1,0 +1,32 @@
+{
+  "slug": "biela-stopa",
+  "name": "Biela stopa",
+  "country": "Slovakia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.bielastopa.sk/en/",
+    "results_url": "https://www.bielastopa.sk/en/history/",
+    "evidence_summary": "Biela Stopa is a well-documented, real cross-country skiing event in Slovakia with over 50 years of history. Multiple independent sources confirm its existence, including an official website with detailed race information, historical documentation dating back to 1974, EUROLOPPET membership, FIS recognition, and upcoming 2026 race dates (February 14-15, 2026). The event is organized by TJ Biela Stopa Kremnica and has been continuously held since 1974 with documented participation records.",
+    "sources": [
+      "https://www.bielastopa.sk/en/",
+      "https://www.bielastopa.sk/en/history/",
+      "https://www.bielastopa.sk/en/bielastopa-en/propositions/",
+      "https://slovakia.travel/en/biela-stopa-euroloppet",
+      "https://www.proxcskiing.com/sk/event/biela-stopa-classic/",
+      "https://www.youtube.com/watch?v=Xef_j1tK6mU",
+      "https://web.slovalco.sk/web/homepage_ne.nsf/2fc86ac8bf98f091c1256fab00468abd/4fe5b21a4131c9e8c12576c4004c0a0d?OpenDocument"
+    ]
+  },
+  "citations": [
+    "https://slovakia.travel/en/biela-stopa-euroloppet",
+    "https://www.bielastopa.sk/en/history/",
+    "https://www.bielastopa.sk/en/bielastopa-en/propositions/",
+    "https://www.proxcskiing.com/sk/event/biela-stopa-classic/",
+    "https://www.bielastopa.sk/en/",
+    "https://www.youtube.com/watch?v=Xef_j1tK6mU",
+    "https://web.slovalco.sk/web/homepage_ne.nsf/2fc86ac8bf98f091c1256fab00468abd/4fe5b21a4131c9e8c12576c4004c0a0d?OpenDocument"
+  ],
+  "checked_at": "2026-03-12T15:40:26Z"
+}

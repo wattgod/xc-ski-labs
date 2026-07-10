@@ -1,0 +1,83 @@
+{
+  "slug": "steamboat-ski-touring-loppet",
+  "name": "Steamboat Ski Touring Center Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Colorado",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 1988,
+    "website": "https://www.steamboatnordiccenter.com",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Steamboat Ski Touring Center Loppet' distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for elevation gain of this specific race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Steamboat Ski Touring Center exists in CO, US[7], but no confirmation of a 'Loppet' race there.",
+      "source_url": "https://nordicski.net/steamboat-ski-touring-center/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Steamboat Ski Touring Center is in Steamboat Springs, Colorado[7], but no Loppet details.",
+      "source_url": "https://nordicski.net/steamboat-ski-touring-center/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic, skate, or both for this specific event.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention a first edition in 1988 or founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Website https://www.steamboatnordiccenter.com not in results; current site nordicski.net/steamboat-ski-touring-center/ mentions closure, no Loppet[7].",
+      "source_url": "https://nordicski.net/steamboat-ski-touring-center/"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm early March date for this event.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://loppet.org/event/marathon-pouli-tour-ski/",
+    "https://seder-skier.com/2024/10/16/the-ultimate-north-american-loppet-racing-calendar/",
+    "https://www.steamboat.com/explore/groups/private-race-experience",
+    "https://www.solitudemountain.com/things-to-do/events-and-activities/silver-lake-loppet",
+    "https://loppet.org",
+    "https://steamboatsprings.net/1484/Ski-Ascent-Series",
+    "https://nordicski.net/steamboat-ski-touring-center/",
+    "https://www.skisignup.com/Race/CO/SteamboatSprings/SteamboatSpringsHighSchoolAndMiddleSchoolNordicRace"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:53:55Z"
+}

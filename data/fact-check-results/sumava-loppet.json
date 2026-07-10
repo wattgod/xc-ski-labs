@@ -1,0 +1,83 @@
+{
+  "slug": "sumava-loppet",
+  "name": "Šumava Loppet",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 500,
+    "country": "Czech Republic",
+    "region": "Plzeň Region",
+    "discipline": "classic",
+    "field_size": 700,
+    "founded": 1978,
+    "website": "https://www.sumava-loppet.cz",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 45,
+      "note": "Sources indicate main race distances of 45-46 km, not 50 km (outside ±3 km tolerance)",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain; trails described as having moderate climbs but no specific meters provided",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Czech Republic (CZE)",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "region": {
+      "status": "WRONG",
+      "correct_value": "South Bohemia (Jihočeský kraj)",
+      "note": "Kvilda is in Šumava National Park, South Bohemia region, not Plzeň Region",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Offers both classic (CT) and freestyle (FT) techniques on different days/distances",
+      "source_url": "https://passport.euroloppet.com/event/sumavsky"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Official site https://www.sumava-loppet.cz not confirmed in search results; event uses Euroloppet passport page",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late January/early February (e.g., Feb 21-22 2026)",
+      "source_url": "https://www.visitczechia.com/en-us/things-to-do/events/2026/02/e-sumava-ski-marathon"
+    }
+  },
+  "citations": [
+    "https://passport.euroloppet.com/event/sumavsky",
+    "https://www.visitczechia.com/en-us/things-to-do/events/2026/02/e-sumava-ski-marathon",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://loppet.org/event/marathon-pouli-tour-ski/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.worldloppet.com/zadowska-30-cze/",
+    "https://loppetcup.com",
+    "https://matadornetwork.com/read/cross-country-races/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:54:28Z"
+}

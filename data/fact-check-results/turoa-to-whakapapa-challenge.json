@@ -1,0 +1,83 @@
+{
+  "slug": "turoa-to-whakapapa-challenge",
+  "name": "Turoa to Whakapapa Challenge",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 450,
+    "country": "New Zealand",
+    "region": "Manawatū-Whanganui",
+    "discipline": "classic",
+    "field_size": 40,
+    "founded": 2016,
+    "website": null,
+    "date": "Late August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a cross-country ski race named 'Turoa to Whakapapa Challenge'. Sources describe a running event 'The Goat Adventure Run' from Whakapapa to Turoa at 20km, but direction and discipline differ.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm details for the specified ski race. 'The Goat' run mentions 1,000m descent from Whakapapa to Turoa, not matching gain or ski context.",
+      "source_url": "https://the-park.co.nz/ruapehu-sporting-events"
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No direct confirmation for this specific ski race; related events on Mt Ruapehu are in New Zealand.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Mt Ruapehu events are in Manawatū-Whanganui region, but no sources for this ski race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for any cross-country ski race by this name; local ski events are alpine, not classic cross-country.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers for this race; other Ruapehu events like Tussock Traverse mention up to 500.",
+      "source_url": "https://the-park.co.nz/ruapehu-sporting-events"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention first edition of this ski race.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Turoa to Whakapapa Challenge'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm date for this ski race; 'The Goat' run is early December.",
+      "source_url": "https://alpinechalets.co.nz/events/"
+    }
+  },
+  "citations": [
+    "https://the-park.co.nz/ruapehu-sporting-events",
+    "https://victoryevents.co.nz/event-index/the-goat/",
+    "https://skywakaverticalchallenge.nz",
+    "https://www.pureturoa.nz/event/niss",
+    "https://www.tripadvisor.ie/ShowTopic-g255105-i403-k4781411-Turoa_or_Whakapapa-North_Island.html",
+    "https://alpinechalets.co.nz/events/",
+    "https://www.snowsports.co.nz/get-involved/training-programme/training-programmes-in-the-north-island/",
+    "https://www.trisignup.com/Race/Results/104222/Milestones/View-Team-222953-26131-1"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:57:24Z"
+}

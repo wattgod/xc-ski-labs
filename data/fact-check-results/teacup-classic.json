@@ -1,0 +1,83 @@
+{
+  "slug": "teacup-classic",
+  "name": "Teacup Classic",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 150,
+    "country": "United States",
+    "region": "Oregon",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.teacupnordic.org",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 15,
+      "note": "The famous, traditional 15k course is described across multiple years (2025: 15k with 10k+5k loops; 2022: 15K; 2024 listing: 15/5km)",
+      "source_url": "https://teacupnordic.org/pages/2025-teacup-classic"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for the Teacup Classic course",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently located in Mt. Hood, OR, United States",
+      "source_url": "https://teacupnordic.org/pages/2025-teacup-classic"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Oregon, specifically Mt. Hood area",
+      "source_url": "https://teacupnordic.org"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Annual classic-technique race; listed as CL (classic)",
+      "source_url": "https://teacupnordic.org/pages/2025-teacup-classic"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for Teacup Classic",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Club since 1979, but no specific first edition year for the race found",
+      "source_url": "https://teacupnordic.org"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site with event pages like /pages/2025-teacup-classic",
+      "source_url": "https://teacupnordic.org"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February (e.g., Feb 9 2025, Feb 8 2026, Feb 13 2022)",
+      "source_url": "https://teacupnordic.org/pages/2025-teacup-classic"
+    }
+  },
+  "citations": [
+    "https://teacupnordic.org",
+    "https://teacupnordic.org/pages/2025-teacup-classic",
+    "https://www.mountainshop.net/teacup-classic-race-at-teacup-nordic-center/",
+    "https://pnwdivision.org/event/2026-pnw-cup-1/",
+    "https://xcoregon.org/pac-nw-event-listing",
+    "https://www.mountaineers.org/activities/activities/cross-country-ski-teacup-nordic-ski-area-1",
+    "https://teacupnordic.org/pages/2026teacup-classic",
+    "https://oisran.org/race-schedules/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:20:02Z"
+}

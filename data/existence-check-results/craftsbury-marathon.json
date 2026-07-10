@@ -1,0 +1,34 @@
+{
+  "slug": "craftsbury-marathon",
+  "name": "Craftsbury Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.craftsbury.com/events/craftsbury-marathon",
+    "results_url": "https://www.craftsbury.com/ski/races/ski-race-results",
+    "evidence_summary": "The Craftsbury Marathon Ski Festival is an annual cross-country ski race at Craftsbury Outdoor Center in Vermont, USA, with official pages detailing the 2025 and 2026 events including classic and skate races on specific dates. Multiple pages from the official Craftsbury website provide event schedules, registration via SkiReg, course details, and links to past race results. NENSA also lists it as the historic largest popular racing event in New England.",
+    "sources": [
+      "https://www.craftsbury.com/events/craftsbury-marathon",
+      "https://nensa.net/event/craftsbury-marathon-ski-festival-saturday-classic-sunday-skate/",
+      "https://www.craftsbury.com/events/the-2026-craftsbury-marathon-ski-festival",
+      "https://www.craftsbury.com/ski/races/ski-race-results",
+      "https://www.craftsbury.com/events",
+      "https://townofcraftsbury.squarespace.com/craftsbury-calendar/376s9rcprmys2ml-ss4ml-5976a-dyrp2-3d54n-jzrh3-wtets-s9ahz-ysshd-h5z7s-55tc9-hcz3d-sz7zn-d2nf2",
+      "https://www.craftsbury.com/ski/races/racing-home"
+    ]
+  },
+  "citations": [
+    "https://www.craftsbury.com/events/craftsbury-marathon",
+    "https://nensa.net/event/craftsbury-marathon-ski-festival-saturday-classic-sunday-skate/",
+    "https://www.craftsbury.com/events/the-2026-craftsbury-marathon-ski-festival",
+    "https://www.craftsbury.com/ski/races/ski-race-results",
+    "https://www.craftsbury.com/events",
+    "https://townofcraftsbury.squarespace.com/craftsbury-calendar/376s9rcprmys2ml-ss4ml-5976a-dyrp2-3d54n-jzrh3-wtets-s9ahz-ysshd-h5z7s-55tc9-hcz3d-sz7zn-d2nf2",
+    "https://www.craftsbury.com/ski/races/racing-home",
+    "https://www.craftsbury.com/events/craftsbury-marathon-ski-festival-amp-supertour",
+    "https://www.craftsbury.com"
+  ],
+  "checked_at": "2026-03-12T15:43:10Z"
+}

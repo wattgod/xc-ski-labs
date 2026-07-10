@@ -1,0 +1,30 @@
+{
+  "slug": "black-jack-loppet",
+  "name": "Black Jack Loppet",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.skiblackjack.ca",
+    "results_url": null,
+    "evidence_summary": "The Black Jack Ski Club hosts the annual Black Jack Loppet (also called Al Fisher Memorial Loppet) in Rossland, BC, Canada, with an official website announcing the 2026 event on March 14, registration via zone4.ca, and a 30th annual event in a prior year noted by Cross Country BC. The club's site lists it in events, and the ski team site references past races on home trails. No specific past results pages found in search, but multiple years confirmed via news and invitations.",
+    "sources": [
+      "https://www.skiblackjack.ca/news/2026/2/27/2026-al-fisher-memorial-loppet",
+      "https://www.crosscountrybc.ca/youre-invited-30th-annual-black-jack-loppet",
+      "https://www.skiblackjack.ca/news",
+      "https://www.blackjackskiteam.com/program/senior-race-team/",
+      "https://www.skiblackjack.ca"
+    ]
+  },
+  "citations": [
+    "https://www.skiblackjack.ca/news/2026/2/27/2026-al-fisher-memorial-loppet",
+    "https://www.crosscountrybc.ca/youre-invited-30th-annual-black-jack-loppet",
+    "https://www.skiblackjack.ca/news",
+    "https://www.blackjackskiteam.com/program/senior-race-team/",
+    "https://www.skiblackjack.ca",
+    "https://www.skiblackjack.ca/news/2026/3/9/2026-al-fisher-loppet-registration-is-open",
+    "https://www.blackjackskiteam.com/skier-development-program/team-black-jack/senior-race-team/"
+  ],
+  "checked_at": "2026-03-12T15:40:49Z"
+}

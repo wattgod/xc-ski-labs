@@ -1,0 +1,30 @@
+{
+  "slug": "kangaroo-hoppet",
+  "name": "Kangaroo Hoppet",
+  "country": "Australia",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.worldloppet.com/wl-race/kangaroo-hoppet-australia/",
+    "results_url": null,
+    "evidence_summary": "The Kangaroo Hoppet is listed on Worldloppet with detailed history since 1979, confirmed by Wikipedia, Falls Creek official site announcing the 2025 event on August 23, and Ski Classics as a challenger series. Olympics.com.au reports 2025 race results with Aussie winners, and a dedicated YouTube channel exists. Multiple independent sources including news and event organizers verify it as a real, annual cross-country ski race in Falls Creek, Australia.",
+    "sources": [
+      "https://www.worldloppet.com/wl-race/kangaroo-hoppet-australia/",
+      "https://en.wikipedia.org/wiki/Kangaroo_Hoppet",
+      "https://www.skifalls.com.au/whats-on/events/winter-events/kangaroo-hoppet",
+      "https://skiclassics.com/events/challengers/kangaroo-hoppet/",
+      "https://www.olympics.com.au/news/aussie-olympic-hopefuls-take-double-gold-at-the-2025-kangaroo-hoppet/",
+      "https://www.youtube.com/channel/UChQcIMHiFpOxfx9zC5RByNA"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/kangaroo-hoppet-australia/",
+    "https://en.wikipedia.org/wiki/Kangaroo_Hoppet",
+    "https://www.skifalls.com.au/whats-on/events/winter-events/kangaroo-hoppet",
+    "https://skiclassics.com/events/challengers/kangaroo-hoppet/",
+    "https://www.olympics.com.au/news/aussie-olympic-hopefuls-take-double-gold-at-the-2025-kangaroo-hoppet/",
+    "https://www.youtube.com/channel/UChQcIMHiFpOxfx9zC5RByNA"
+  ],
+  "checked_at": "2026-03-12T15:51:10Z"
+}

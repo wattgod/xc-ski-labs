@@ -1,0 +1,34 @@
+{
+  "slug": "engelbrektsloppet",
+  "name": "Engelbrektsloppet",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.engelbrektsloppet.se",
+    "results_url": "https://www.engelbrektsloppet.se",
+    "evidence_summary": "Engelbrektsloppet has a fully functional official website with detailed race information, registration fees, participant guides, and mentions of results lists for multiple distances (30km, 45km, 60km) held annually in February in Norberg, Sweden. It is listed on Worldloppet as a major skimarathon and part of 'En Svensk Klassiker,' with historical details from 1968 and over 4,000 participants across events. Specific 2025 and 2026 dates, start times, and seeding for Vasaloppet confirm it as an organized, ongoing event.",
+    "sources": [
+      "https://www.worldloppet.com/engelbrektsloppet/",
+      "https://www.engelbrektsloppet.se/pm-engelbrektsloppet-45-english",
+      "https://www.engelbrektsloppet.se/engelbrektsloppet-60",
+      "https://www.engelbrektsloppet.se/engelbrektsloppet-60-eng",
+      "https://www.engelbrektsloppet.se",
+      "https://www.engelbrektsloppet.se/om-oss-1",
+      "https://ensvenskklassiker.se/klassikerloppen/engelbrektsloppet/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/engelbrektsloppet/",
+    "https://www.engelbrektsloppet.se/pm-engelbrektsloppet-45-english",
+    "https://www.engelbrektsloppet.se/engelbrektsloppet-60",
+    "https://www.engelbrektsloppet.se/engelbrektsloppet-60-eng",
+    "https://www.engelbrektsloppet.se",
+    "https://www.engelbrektsloppet.se/om-oss-1",
+    "https://www.engelbrektsloppet.se/our-races-eng",
+    "https://engelbrektsloppet-8ly8.squarespace.com/s/Anmalningsvillkor-GDPR-2026-ENG.pdf",
+    "https://ensvenskklassiker.se/klassikerloppen/engelbrektsloppet/"
+  ],
+  "checked_at": "2026-03-12T15:44:29Z"
+}

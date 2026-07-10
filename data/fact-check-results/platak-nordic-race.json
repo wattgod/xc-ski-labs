@@ -1,0 +1,80 @@
+{
+  "slug": "platak-nordic-race",
+  "name": "Platak Nordic Race",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 250,
+    "country": "Croatia",
+    "region": "Primorje-Gorski Kotar",
+    "discipline": "classic",
+    "field_size": 60,
+    "founded": 2015,
+    "website": "https://www.platak.info",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Platak Nordic Race' cross-country ski race or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Platak Nordic Race' cross-country ski race or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Platak location is in Croatia per climb/ski sources, but no confirmation of specific Nordic ski race.",
+      "source_url": "https://mycols.app/en/climb/platak"
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Platak in Primorje-Gorski Kotar County per climb source, but no Nordic race confirmation.",
+      "source_url": "https://mycols.app/en/climb/platak"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention Platak Nordic Race or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention Platak Nordic Race or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention Platak Nordic Race or its founding year.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.platak.info not in search results; no confirmation it hosts Nordic race info.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention Platak Nordic Race or its dates.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://mycols.app/en/climb/platak",
+    "https://climbfinder.com/en/climbs/platak-zracno-pristaniste-grobnik",
+    "https://www.skiresort.info/ski-resort/platak/ski-lifts/l106941/",
+    "https://www.trailforks.com/trails/platak-dh/",
+    "https://skimap.org/skiareas/view/1826"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:18:33Z"
+}

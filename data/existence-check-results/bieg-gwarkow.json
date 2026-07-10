@@ -1,0 +1,24 @@
+{
+  "slug": "bieg-gwarkow",
+  "name": "Bieg Gwarków",
+  "country": "Poland",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for 'Bieg Gwarków' in any search results. All results reference 'Bieg Piastów', a well-established Polish cross-country ski event part of Worldloppet, suggesting 'Bieg Gwarków' may be a confusion or misspelling.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/the-49th-bieg-piastow-as-grande-finale-of-the-polish-cross-country-ski-festival/",
+    "https://en.wikipedia.org/wiki/Bieg_Piast%C3%B3w",
+    "https://www.ahotu.com/calendar/cross-country-skiing/poland",
+    "https://www.liberec-region.com/dr-en/23919-the-jakuszyce-cross-country-centre-poland.html",
+    "https://www.harrachov.com/aktuality/35th-annual-bieg-piastow-cross-country-skiing-race",
+    "https://www.tripadvisor.com/Attraction_Review-g274808-d2715888-Reviews-Bieg_Piastow-Szklarska_Poreba_Lower_Silesia_Province_Southern_Poland.html",
+    "https://www.palac-pakoszow.pl/en/hotel/events/kiedy-zimowy-bieg-piastow-2025-gdzie-sie-zatrzymac-na-regenerujacy-nocleg-po-biegu"
+  ],
+  "checked_at": "2026-03-12T15:40:02Z"
+}

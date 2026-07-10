@@ -1,0 +1,81 @@
+{
+  "slug": "latloppet-madona",
+  "name": "LatLoppet Madona",
+  "facts": {
+    "distance_km": 32,
+    "elevation_m": 380,
+    "country": "Latvia",
+    "region": "Vidzeme",
+    "discipline": "classic",
+    "field_size": 1200,
+    "founded": 2018,
+    "website": "https://www.latloppet.lv",
+    "date": "Late February to early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 32km course",
+      "source_url": "https://skiclassics.com/latloppet-madona-2026-this-sunday-in-latvia/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Latvia",
+      "source_url": "https://skiclassics.com/latloppet-madona-2026-this-sunday-in-latvia/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Vidzeme uplands",
+      "source_url": "https://skiclassics.com/latloppet-madona-2026-this-sunday-in-latvia/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed",
+      "source_url": "https://skiclassics.com/latloppet-madona-2026-this-sunday-in-latvia/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Established in 2018",
+      "source_url": "https://skiclassics.com/latloppet-madona-2026-this-sunday-in-latvia/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site referenced as latloppet.lv",
+      "source_url": "https://www.latloppet.lv/?English"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late February to early March (e.g., March 1 2026, Feb 27 2022, Feb 4 2024)",
+      "source_url": "https://skiclassics.com/latloppet-madona-2026-this-sunday-in-latvia/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/latloppet-madona-2026-this-sunday-in-latvia/",
+    "https://www.proxcskiing.com/long-distance/challengers-latloppet-madona-this-sunday-in-latvia/",
+    "https://www.proxcskiing.com/event/latloppet/",
+    "https://www.maastohiihto.com/event/latloppet-madona/",
+    "https://www.latloppet.lv/?English",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=53505&seasoncode=2026"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:59Z"
+}

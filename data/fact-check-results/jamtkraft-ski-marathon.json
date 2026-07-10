@@ -1,0 +1,82 @@
+{
+  "slug": "jamtkraft-ski-marathon",
+  "name": "Jämtkraft Ski Marathon",
+  "facts": {
+    "distance_km": 45,
+    "elevation_m": 500,
+    "country": "Sweden",
+    "region": "Jämtland",
+    "discipline": "both",
+    "field_size": "~1,200 starters (all distances)",
+    "founded": 1988,
+    "website": "https://www.ostersundssk.se/tavlingar/ostersund-ski-marathon/",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the distance for Jämtkraft Ski Marathon; search results mention other races like Craft Ski Marathon (42-45km) but not this specific event.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming total elevation gain for Jämtkraft Ski Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found specifically for Jämtkraft Ski Marathon, though Jämtland context suggests Sweden; unconfirmed without direct source.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming region for Jämtkraft Ski Marathon.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming classic, skate, or both for Jämtkraft Ski Marathon.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical number of participants (~1,200 starters all distances).",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming year founded/first edition (1988) for Jämtkraft Ski Marathon.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found verifying https://www.ostersundssk.se/tavlingar/ostersund-ski-marathon/ as official site for Jämtkraft Ski Marathon; site not mentioned in results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical race date (mid-February) for Jämtkraft Ski Marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Fj%C3%A4llmaraton",
+    "https://fjallmaraton.se/en/nyheter/",
+    "https://www.proxcskiing.com/long-distance/craft-ski-marathon-this-sunday-in-sweden-2/",
+    "https://www.proxcskiing.com/long-distance/craft-ski-marathon-2026-this-sunday-in-sweden/",
+    "https://www.proxcskiing.com/long-distance/craft-ski-marathon-start-lists-start-times-and-where-to-watch/",
+    "https://www.efns.eu/eip/media/medias2422391285693627.pdf",
+    "https://www.skistar.com/globalassets/dokument-nya-skistar.com/skistar-corporate/corporate/handlingar-arsstamma-2022/skistar-ab-annual-and-sustainability-report-2021-22-pdf_print-version.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:41Z"
+}

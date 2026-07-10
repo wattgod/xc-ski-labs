@@ -1,0 +1,35 @@
+{
+  "slug": "transjurassienne",
+  "name": "La Transjurassienne",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.latransju.com/en/",
+    "results_url": "https://www.njuko.net/la-transju-2025/registrations-list",
+    "evidence_summary": "La Transjurassienne is a real annual cross-country ski race in France's Jura Mountains, organized since 1979/1980, with an official website providing event details, registration lists, and 2025 results. It is listed on Worldloppet, Ski Classics, and Wikipedia, with news coverage of recent editions including the 45th event despite weather challenges. Multiple pages confirm races over 70km in skating or classic style, held in early February.",
+    "sources": [
+      "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+      "https://www.latransju.com/en/evenements-transju-nordique-infos-pratiques/",
+      "https://en.wikipedia.org/wiki/La_Transjurassienne",
+      "https://www.worldloppet.com/wl-race/la-transjurassienne/",
+      "https://www.latransju.com/en/evenements/la-transju/",
+      "https://www.worldloppet.com/category/news/la-transjurassienne/",
+      "https://skiclassics.com/events/challengers/la-transjurassienne/"
+    ]
+  },
+  "citations": [
+    "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+    "https://www.latransju.com/en/evenements-transju-nordique-infos-pratiques/",
+    "https://en.wikipedia.org/wiki/La_Transjurassienne",
+    "https://www.worldloppet.com/wl-race/la-transjurassienne/",
+    "https://www.latransju.com/en/evenements/la-transju/",
+    "https://www.worldloppet.com/category/news/la-transjurassienne/",
+    "https://www.latransju.com/en/",
+    "https://skiclassics.com/events/challengers/la-transjurassienne/",
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/",
+    "https://www.latransju.com/en/les-epreuves-de-ski-de-fond-de-la-transju-course-jura-france/"
+  ],
+  "checked_at": "2026-03-12T16:09:16Z"
+}

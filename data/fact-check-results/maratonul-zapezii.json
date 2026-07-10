@@ -1,0 +1,83 @@
+{
+  "slug": "maratonul-zapezii",
+  "name": "Maratonul Zăpezii",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 600,
+    "country": "Romania",
+    "region": "Brașov",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 2005,
+    "website": "https://www.maratonulzapezii.ro",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "Sources describe the main race as maraton 42,195 km or 42 km[4][5][6][8]",
+      "source_url": "https://www.ilierosu.ro/2017/02/19/maratonul-zapezii-isostar-rasnov-2017-la-final/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning elevation gain for Maratonul Zăpezii",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Romania in multiple sources[4][5][6][7][8]",
+      "source_url": "https://www.digi24.ro/regional/digi24-brasov/maratonul-zapezii-prin-noroi-491280"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Râșnov",
+      "note": "Event held in Râșnov near Brașov, not directly in Brașov[4][7][8]",
+      "source_url": "http://alerg.ro/maratonul-zapezii-2013.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm cross-country skiing technique; described as running/skiing event but details unclear",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition year; 2013 edition mentioned but not founding[7]",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not found in search results; no official site confirmed",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific dates or February confirmation; various years mentioned without month details[4][5][6][7][8]",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.brasovmarathon.ro",
+    "https://itra.run/Races/RaceDetails/102907",
+    "https://worldsmarathons.com/marathon/brasov-marathon",
+    "https://www.ilierosu.ro/2017/02/19/maratonul-zapezii-isostar-rasnov-2017-la-final/",
+    "https://www.digi24.ro/regional/digi24-brasov/maratonul-zapezii-prin-noroi-491280",
+    "https://www.gsp.ro/gsp-special/superreportaje/o-poveste-despre-curaj-vointa-si-suferinte-extreme-la-primul-maraton-al-zapezii-desfasurat-in-romania-la-risnov-309021.html",
+    "http://alerg.ro/maratonul-zapezii-2013.html",
+    "https://adevarul.ro/stiri-locale/brasov/maratonul-zapezii-este-sambata-la-rasnov-la-start-1690101.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:45:16Z"
+}

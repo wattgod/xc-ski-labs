@@ -1,0 +1,24 @@
+{
+  "slug": "koasalauf",
+  "name": "Koasalauf",
+  "country": "Austria",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://www.kitzbueheler-alpen.com/en/stjo/koasalauf.html",
+    "results_url": null,
+    "evidence_summary": "The International Tiroler Koasalauf is documented as a real historical cross-country ski race in St. Johann in Tirol, Austria, with detailed history including past winners and route changes since its inception. Official regional tourism sites confirm its status as one of Austria's biggest events, listed in event calendars, though no race will occur in winter 2025/26. No race results, social media, or listings in Worldloppet/FIS found, but multiple pages from the same credible source provide strong corroboration.",
+    "sources": [
+      "https://www.kitzbueheler-alpen.com/en/stjo/koasalauf.html",
+      "https://www.kitzbueheler-alpen.com/de/stjo/koasalauf.html",
+      "https://www.kitzbueheler-alpen.com/en/kam/events.html"
+    ]
+  },
+  "citations": [
+    "https://www.kitzbueheler-alpen.com/en/stjo/koasalauf.html",
+    "https://www.kitzbueheler-alpen.com/de/stjo/koasalauf.html",
+    "https://www.kitzbueheler-alpen.com/en/kam/events.html"
+  ],
+  "checked_at": "2026-03-12T15:51:53Z"
+}

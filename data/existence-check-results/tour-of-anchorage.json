@@ -1,0 +1,34 @@
+{
+  "slug": "tour-of-anchorage",
+  "name": "Tour of Anchorage",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://anchoragenordicski.com/events/tour-of-anchorage/",
+    "results_url": "https://anchoragenordicski.com/events/tour-of-anchorage/",
+    "evidence_summary": "The Tour of Anchorage is a real annual cross-country ski race organized by the Nordic Ski Association of Anchorage since 1988, with an official website detailing the 2025 event (307 finishers) and upcoming 2026 race on March 8. Multiple sources including Wikipedia, chamber of commerce, APU training program, and RaceResult confirm its existence, history, and urban point-to-point course. No evidence of fiction; strong organizational backing and past results mentioned.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tour_of_Anchorage",
+      "https://anchoragenordicski.com/events/tour-of-anchorage/",
+      "https://business.anchoragechamber.org/events/details/tour-of-anchorage-14505",
+      "https://my.raceresult.com/385477/",
+      "https://apunordic.com/programs/tour-of-anchorage-training-group/",
+      "https://anchoragenordicski.com/2025-run-de-tour/",
+      "https://www.anchorage.net/event/tour-of-anchorage/47400/"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Tour_of_Anchorage",
+    "https://business.anchoragechamber.org/events/details/tour-of-anchorage-14505",
+    "https://anchoragenordicski.com/events/tour-of-anchorage/",
+    "https://anchoragenordicski.com/2025-run-de-tour/",
+    "https://anchoragenordicski.com/races/ancsupertour/",
+    "https://www.usskiandsnowboard.org/events/alaska-supertour-anchorage",
+    "https://apunordic.com/programs/tour-of-anchorage-training-group/",
+    "https://my.raceresult.com/385477/",
+    "https://www.anchorage.net/event/tour-of-anchorage/47400/"
+  ],
+  "checked_at": "2026-03-12T16:09:01Z"
+}

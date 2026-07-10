@@ -1,0 +1,83 @@
+{
+  "slug": "vasaloppet",
+  "name": "Vasaloppet",
+  "facts": {
+    "distance_km": 90,
+    "elevation_m": 850,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": "~16,000 starters",
+    "founded": 1922,
+    "website": "https://www.vasaloppet.se",
+    "date": "First Sunday in March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 90 km distance.",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources in results specify total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All sources confirm Sweden.",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm Dalarna province.",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site and others confirm classic style.",
+      "source_url": "https://vasaloppet.se/en/ski/vasaloppet/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~15,000-16,500 participants; ~16,000 within ±20% tolerance.",
+      "source_url": "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition in 1922 confirmed across sources.",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site matches; used in results.",
+      "source_url": "https://vasaloppet.se/en/ski/vasaloppet/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First Sunday in March confirmed by multiple sources.",
+      "source_url": "https://en.wikipedia.org/wiki/Vasaloppet"
+    }
+  },
+  "citations": [
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.learnswedishnow.com/blog/vasaloppet-the-worlds-oldest-cross-country-ski-race",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://www.sandozconcept.com/en/worldloppet-races/the-famous-vasaloppet-in-sweden/",
+    "https://www.vasaloppetchina.com/vasaloppet-sweden-history/",
+    "https://xperiencesthlm.com/blog-1/f/vasaloppet-in-sweden-skiing-through-history?blogcategory=Swedish+traditions"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:42:10Z"
+}

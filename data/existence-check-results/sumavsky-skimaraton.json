@@ -1,0 +1,32 @@
+{
+  "slug": "sumavsky-skimaraton",
+  "name": "Šumavský Skimaraton",
+  "country": "Czech Republic",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.skisumava.cz/ski",
+    "results_url": "https://evidence.czech-ski.com/kalendar-a-vysledky/3684/informace-o-zavode",
+    "evidence_summary": "Šumavský Skimaraton is listed as an official Euroloppet event with detailed track information and history. The official website promotes the 41st edition on February 21-22, 2026, with registration open via SportSoft. Multiple years' race results (e.g., 2015, 2023) are available from the Czech Ski Association, confirming it as a real, organized event since 1984.",
+    "sources": [
+      "https://passport.euroloppet.com/event/sumavsky",
+      "https://evidence.czech-ski.com/kalendar-a-vysledky/149/informace-o-zavode",
+      "https://www.skisumava.cz/ski",
+      "https://evidence.czech-ski.com/kalendar-a-vysledky/3684/informace-o-zavode",
+      "https://www.skisumava.cz",
+      "https://registrace.sportsoft.cz/melregistration.aspx?m=457",
+      "https://www.skisumava.cz/event-details/sumavsky-skimaraton"
+    ]
+  },
+  "citations": [
+    "https://passport.euroloppet.com/event/sumavsky",
+    "https://evidence.czech-ski.com/kalendar-a-vysledky/149/informace-o-zavode",
+    "https://www.skisumava.cz/ski",
+    "https://evidence.czech-ski.com/kalendar-a-vysledky/3684/informace-o-zavode",
+    "https://www.skisumava.cz",
+    "https://registrace.sportsoft.cz/melregistration.aspx?m=457",
+    "https://www.skisumava.cz/event-details/sumavsky-skimaraton"
+  ],
+  "checked_at": "2026-03-12T16:06:24Z"
+}

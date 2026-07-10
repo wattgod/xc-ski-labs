@@ -1,0 +1,30 @@
+{
+  "slug": "oregon-winterfest-nordic",
+  "name": "Oregon Winterfest Nordic",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a race called 'Oregon Winterfest Nordic' exists in the search results. While 'Bend WinterFest' is a real event in Oregon featuring winter sports, it is a snowboard and ski contest (The Rally) with a pump-track style course, not a cross-country ski race. OISRAN, Mt. Bachelor Cup Nordic Series, and XC Oregon are real Nordic skiing organizations in Oregon, but none mention an 'Oregon Winterfest Nordic' race.",
+    "sources": [
+      "https://oregonwinterfest.com",
+      "https://oisran.org",
+      "https://mbsef.org/mt-bachelor-cup-nordic-races/"
+    ]
+  },
+  "citations": [
+    "https://mbsef.org/cascadecrest/",
+    "https://oisran.org/about/",
+    "http://pnwdivision.org/nordic/nordic-clubs/",
+    "https://oregonwinterfest.com",
+    "https://oisran.org",
+    "https://mbsef.org/mt-bachelor-cup-nordic-races/",
+    "https://xcoregon.org",
+    "https://www.mtbachelor.com/nordic/overview/",
+    "https://oregonwinterfest.com/?page_id=15452"
+  ],
+  "checked_at": "2026-03-12T15:58:48Z"
+}

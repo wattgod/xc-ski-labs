@@ -1,0 +1,27 @@
+{
+  "slug": "akureyri-ski-marathon",
+  "name": "Akureyri Ski Marathon",
+  "country": "Iceland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for an event named 'Akureyri Ski Marathon'. Search results mention a 2022 Scandinavian Cup cross-country ski race in Akureyri organized by Akureyri Ski Club, Fossavatnsgangan (a real Worldloppet event in Ísafjörður), and Icelandic championships at Hlíðarfjall, but nothing matches the queried marathon name. No official site, results, news, or listings for 'Akureyri Ski Marathon' exist.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.scancupakureyri.com/about.html",
+    "https://www.scancupakureyri.com/invitation.html",
+    "https://www.visitakureyri.is/en/whats-on/skidafelag-akureyrar-mun-halda-tvo-stormot-um-helgina-i-hlidarfjalli",
+    "https://www.hlidarfjall.is/en",
+    "https://fossavatn.is/en/",
+    "https://www.hlidarfjall.is",
+    "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+    "https://www.scancupakureyri.com/news/category/all/2",
+    "https://www.northiceland.is/en/service/iceland-snow-sports",
+    "https://www.visitakureyri.is/en/moya/extras/allt-sem-thu-oskar-ther/icelandsnowsports"
+  ],
+  "checked_at": "2026-03-12T15:37:46Z"
+}

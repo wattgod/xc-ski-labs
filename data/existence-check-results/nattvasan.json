@@ -1,0 +1,32 @@
+{
+  "slug": "nattvasan",
+  "name": "Nattvasan",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://vasaloppet.se/en/ski/nattvasan-90/",
+    "results_url": null,
+    "evidence_summary": "Nattvasan 90 is an official 90 km nighttime cross-country ski race organized by Vasaloppet, with a dedicated page on their website detailing the 2027 event on March 5, start time, course, rules, and registration. It is listed on Visit Dalarna's events page for February 27, 2026, and referenced on Worlds Marathons with registration info. Related Nattvasan distances (45km, 30km) confirm the series under Vasaloppet, a real Worldloppet event.",
+    "sources": [
+      "https://vasaloppet.se/en/ski/nattvasan-90/",
+      "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski",
+      "https://vasaloppet.se/en/ski/nattvasan-45/",
+      "https://www.worldsmarathons.com/marathon/nattvasan"
+    ]
+  },
+  "citations": [
+    "https://vasaloppet.se/en/ski/nattvasan-90/",
+    "https://www.visitdalarna.se/en/do/events/nattvasan-90-km-cross-country-ski",
+    "https://vasaloppet.se/en/ski/nattvasan-45/",
+    "https://vasaloppet.se/en/ski/nattvasan-30/",
+    "https://vasaloppet-lb-1-295122-fra05.clb.appdomain.cloud/en/races/ski-races/nattvasan90/",
+    "https://worldsmarathons.com/marathon/nattvasan",
+    "https://vasaloppet.se/en/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://en.wikipedia.org/wiki/Vasaloppet"
+  ],
+  "checked_at": "2026-03-12T15:57:29Z"
+}

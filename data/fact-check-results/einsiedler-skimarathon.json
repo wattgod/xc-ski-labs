@@ -1,0 +1,80 @@
+{
+  "slug": "einsiedler-skimarathon",
+  "name": "Einsiedler Skimarathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "Switzerland",
+    "region": "Schwyz",
+    "discipline": "skate",
+    "field_size": "~500-800",
+    "founded": 1969,
+    "website": "https://www.skimarathon.ch/",
+    "date": "Second Sunday of February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as 'Halbmarathondistanz' (half-marathon distance, approximately 21km, within ±3km tolerance of 25km)",
+      "source_url": "https://www.eyz.swiss/de/einsiedler-skimarathon"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Switzerland (Schweiz)",
+      "source_url": "https://skiclubeinsiedeln.ch/home/view/event/17890?elid=227298"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "SZ (canton Schwyz), Unteriberg, SZ, Schweiz",
+      "source_url": "https://skiclubeinsiedeln.ch/home/view/event/17890?elid=227298"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific mention of classic, skate, or both; referred to generally as Skimarathon/Langlauf",
+      "source_url": null
+    },
+    "typical_number_of_participants": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "'Hunderte von Langläuferinnen und Langläufer' (hundreds of cross-country skiers), matches ~500-800 within ±20% tolerance",
+      "source_url": "https://www.eyz.swiss/de/einsiedler-skimarathon"
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "58th edition in 2026 implies first edition in 1969 (2026-57=1969)",
+      "source_url": "https://www.eyz.swiss/de/einsiedler-skimarathon"
+    },
+    "official_website_url": {
+      "status": "WRONG",
+      "correct_value": "https://skiclubeinsiedeln.ch/skimarathon",
+      "note": "Official site referenced as Skiclub Einsiedeln site, contact skimarathon@skiclubeinsiedeln.ch; https://www.skimarathon.ch/ not confirmed in sources",
+      "source_url": "https://skiclubeinsiedeln.ch/skimarathon"
+    },
+    "typical_race_date_or_month": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February, e.g., 08.02.2026 (Sunday), 09.02.2025; aligns with second Sunday of February",
+      "source_url": "https://www.eyz.swiss/de/einsiedler-skimarathon"
+    }
+  },
+  "citations": [
+    "https://www.eyz.swiss/de/einsiedler-skimarathon",
+    "https://skiclubeinsiedeln.ch/home/view/event/17890?elid=227298",
+    "https://skiclubeinsiedeln.ch/skimarathon",
+    "https://www.myswitzerland.com/en-ch/experiences/events/events-search/sports/schwyz/",
+    "https://www.myswitzerland.com/en-gb/experiences/events/events-search/-/einsiedeln/?rubrik=topevent"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:47:08Z"
+}

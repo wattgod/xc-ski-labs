@@ -1,0 +1,33 @@
+{
+  "slug": "vasaloppet-china",
+  "name": "Vasaloppet China",
+  "country": "China",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.vasaloppetchina.com",
+    "results_url": null,
+    "evidence_summary": "Vasaloppet China is a confirmed real event with an official website, Worldloppet membership since 2014, and documented history spanning 23+ years in Changchun. The 2026 edition took place on January 4, 2026, with over 2,227 participants from 33 countries. Multiple independent sources including Worldloppet, Ski Classics, and news coverage verify its legitimacy.",
+    "sources": [
+      "https://www.vasaloppetchina.com",
+      "https://www.vasaloppetchina.com/ski-register/",
+      "https://www.worldloppet.com/wl-race/vasaloppet-china/",
+      "https://skiclassics.com/events/challengers/vasaloppet-china/",
+      "https://worldsmarathons.com/marathon/vasaloppet-china",
+      "https://www.vasaloppetchina.com/about-race-host-city/"
+    ]
+  },
+  "citations": [
+    "https://www.vasaloppetchina.com/ski-register/",
+    "https://www.vasaloppetchina.com",
+    "https://skiclassics.com/events/challengers/vasaloppet-china/",
+    "https://www.worldloppet.com/wl-race/vasaloppet-china/",
+    "https://www.vasaloppetchina.com/about-race-host-city/",
+    "https://worldsmarathons.com/marathon/vasaloppet-china",
+    "https://www.vasaloppetchina.com/category/news/",
+    "https://www.vasaloppetchina.com/program/",
+    "https://vasaloppet.se/en/ski/vasaloppet/"
+  ],
+  "checked_at": "2026-03-12T16:10:50Z"
+}

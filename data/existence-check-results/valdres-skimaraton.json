@@ -1,0 +1,33 @@
+{
+  "slug": "valdres-skimaraton",
+  "name": "Valdres Skimaraton",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.valdresskimaraton.no",
+    "results_url": "https://live.eqtiming.com/73806",
+    "evidence_summary": "The official website provides detailed race information, distances, registration for March 21, 2026, and mentions 529 participants in 2025 with thanks to volunteers. Race results are available via EQ Timing for 2025. The event is listed on valdres.com events page, aurdal.no, isonen.no registration, and referenced in local tourism sites.",
+    "sources": [
+      "https://www.valdresskimaraton.no",
+      "https://www.valdresskimaraton.no/alt-om-rennet/",
+      "https://www.valdres.com/whats-on/all-events",
+      "https://aurdal.no/en",
+      "https://live.eqtiming.com/73806",
+      "https://isonen.no/event/cmefafqnl09fxkd01eyh0rukk/"
+    ]
+  },
+  "citations": [
+    "https://www.valdresskimaraton.no",
+    "https://www.valdresskimaraton.no/alt-om-rennet/",
+    "https://www.valdres.com/whats-on/all-events",
+    "https://www.valdres.com/things-to-do/activities/cross-country-skiing/cross-country-skiing-destinations/beitostolen-and-valdresflye",
+    "https://aurdal.no/en",
+    "https://www.valdresskimaraton.no/distansene/halvmaraton/",
+    "https://www.visitnorway.com/things-to-do/outdoor-activities/skiing/cross-country-skiing/",
+    "https://live.eqtiming.com/73806",
+    "https://isonen.no/event/cmefafqnl09fxkd01eyh0rukk/"
+  ],
+  "checked_at": "2026-03-12T16:10:34Z"
+}

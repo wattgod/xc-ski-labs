@@ -1,0 +1,84 @@
+{
+  "slug": "akureyri-ski-marathon",
+  "name": "Akureyri Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Iceland",
+    "region": "Northeastern Iceland",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": 1990,
+    "website": "https://www.hlynur.is",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Akureyri Ski Marathon' with 30km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming 400m elevation gain for this race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Akureyri is in Iceland per multiple sources, but no confirmation of 'Akureyri Ski Marathon' specifically.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Akureyri is in North Iceland, but no specific match for race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic technique for this race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention typical 150 participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1990 founding.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.hlynur.is not mentioned in search results; scancupakureyri.com is for Scandinavian Cup.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Scandinavian Cup in late March[1][8], but no confirmation for 'Akureyri Ski Marathon'.",
+      "source_url": "https://www.scancupakureyri.com/about.html"
+    }
+  },
+  "citations": [
+    "https://www.scancupakureyri.com/about.html",
+    "https://www.visitakureyri.is/en/whats-on/skidagongukeppni-sulur-vertical",
+    "https://www.hlidarfjall.is/en",
+    "https://www.theriftmtb.bike/practical",
+    "https://fossavatn.is/en/",
+    "https://www.visitakureyri.is/en/whats-on/skidafelag-akureyrar-mun-halda-tvo-stormot-um-helgina-i-hlidarfjalli",
+    "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+    "https://www.scancupakureyri.com/invitation.html",
+    "https://www.northiceland.is/en/service/iceland-snow-sports"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:33:27Z"
+}

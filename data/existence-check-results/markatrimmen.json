@@ -1,0 +1,32 @@
+{
+  "slug": "markatrimmen",
+  "name": "Markatrimmen",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://skiklubben.no/aktiviteter/markatrimmen/",
+    "results_url": "https://skiklubben.no/category/markatrimmen/",
+    "evidence_summary": "Trondhjems Skiklub's official website details Markatrimmen as an annual cross-country ski race in Bymarka, Norway, with reports on 2025 (387 participants), 2026 (403 participants), 2024, and earlier editions including winners and conditions. Live timing results available from EQ Timing for 2022 and RaceOne for 2018. Event includes registration pages, pricing, and seeding for Birkebeinerrennet.",
+    "sources": [
+      "https://skiklubben.no/category/markatrimmen/",
+      "https://skiklubben.no/aktiviteter/markatrimmen/",
+      "https://skiklubben.no/aktiviteter/markatrimmen/informasjon/",
+      "https://live.eqtiming.com/58753",
+      "https://www.raceone.com/nb-no/race/9bef6e87-46d4-e711-80c3-000d3ab1b27f"
+    ]
+  },
+  "citations": [
+    "https://skiklubben.no/category/markatrimmen/",
+    "https://skiklubben.no/aktiviteter/markatrimmen/",
+    "https://skiklubben.no/aktiviteter/markatrimmen/informasjon/",
+    "https://live.eqtiming.com/58753",
+    "https://www.raceone.com/nb-no/race/9bef6e87-46d4-e711-80c3-000d3ab1b27f",
+    "https://birken.no/en/ski",
+    "https://skiklubben.no/aktiviteter/markatrimmen/pamelding/",
+    "https://birken.no",
+    "https://trollheimsporten.custompublish.com/getfile.php/1431834.1537.rqrtsrpeqs/Trollheimsporten+2008.docx"
+  ],
+  "checked_at": "2026-03-12T15:55:37Z"
+}

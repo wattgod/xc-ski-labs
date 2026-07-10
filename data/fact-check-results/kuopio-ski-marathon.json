@@ -1,0 +1,85 @@
+{
+  "slug": "kuopio-ski-marathon",
+  "name": "Kuopio Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 350,
+    "country": "Finland",
+    "region": "Northern Savonia",
+    "discipline": "both",
+    "field_size": 450,
+    "founded": null,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": null,
+      "note": "No race called 'Kuopio Ski Marathon' found in search results. Search results show 'Finland Ice Marathon' (ice skating, not skiing) and 'Kuopio Maraton' (running marathon). The query appears to reference a non-existent event.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify - the 'Kuopio Ski Marathon' does not appear to exist as a distinct event in available sources. Note: Finland Ice Marathon occurs in February, and Kuopio Maraton occurs in August.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.finlandicemarathon.com/https-www-finlandicemarathon-com-in/race-info/",
+    "https://www.kuopiomaraton.com/in-english/event-info/",
+    "https://www.kuopio.fi/en/leisure-and-well-being/kuopio-in-motion/sports-facilities/winter-sports-facilities/kallavesi-ice-marathon/",
+    "https://www.finlandicemarathon.com/https-www-finlandicemarathon-com-in/",
+    "https://www.finlandicemarathon.com/https-www-finlandicemarathon-com-in/registration/",
+    "https://worldsmarathons.com/marathon/kuopio-maraton",
+    "https://www.tripadvisor.com/Attraction_Review-g189908-d21319665-Reviews-Finland_Ice_Marathon-Kuopio_Northern_Savonia.html",
+    "https://www.finlandicemarathon.com/https-www-finlandicemarathon-com-in/ice-track-info/",
+    "https://www.kuopiomaraton.com/in-english/",
+    "https://jahtihovi.fi/en/ice-marathon-kuopio.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:28Z"
+}

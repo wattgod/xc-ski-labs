@@ -1,0 +1,32 @@
+{
+  "slug": "ski-to-the-sun",
+  "name": "Ski to the Sun",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.methowvalleynordic.org/events",
+    "results_url": "https://www.webscorer.com/mvnsef",
+    "evidence_summary": "Ski to the Sun is a real annual cross-country ski marathon and relay held in Winthrop, Washington, USA, organized by Methow Trails and Methow Valley Nordic Ski Educational Foundation. It is listed on Worldloppet with a 2023 event, has registration pages on SkiReg for 2025 and 2026 (now closed), past results on Webscorer, and coverage in FasterSkier news from the 2019 inaugural event. Social media and YouTube not directly in results, but multiple independent sources confirm its existence.",
+    "sources": [
+      "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/",
+      "https://www.methowvalleynordic.org/events",
+      "https://www.webscorer.com/mvnsef",
+      "https://www.skireg.com/8365",
+      "https://fasterskier.com/2019/01/stephen-murdoch-fastest-skiers-to-the-sun-hundreds-revel-at-inaugural-event/",
+      "https://www.skireg.com/Confirmed/7667",
+      "https://methowtrails.org"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/ski-to-the-sun-marathon-usa/",
+    "https://methowtrails.org",
+    "https://www.methowvalleynordic.org/events",
+    "https://www.webscorer.com/mvnsef",
+    "https://www.skireg.com/8365",
+    "https://fasterskier.com/2019/01/stephen-murdoch-fastest-skiers-to-the-sun-hundreds-revel-at-inaugural-event/",
+    "https://www.skireg.com/Confirmed/7667"
+  ],
+  "checked_at": "2026-03-12T16:04:35Z"
+}

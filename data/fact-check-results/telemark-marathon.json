@@ -1,0 +1,80 @@
+{
+  "slug": "telemark-marathon",
+  "name": "Telemark Marathon",
+  "facts": {
+    "distance_km": 40,
+    "elevation_m": 400,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "both",
+    "field_size": 150,
+    "founded": 1978,
+    "website": "https://www.telemarkresort.com",
+    "date": "Early January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing a 'Telemark Marathon' cross-country ski race with 40km distance; results mention other events at Telemark Resort like 24 Hours of Telemark (10km laps) and American Birkebeiner.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for total elevation gain of Telemark Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Telemark Resort is in United States (Wisconsin), but no confirmation of a specific 'Telemark Marathon' race.",
+      "source_url": "https://www.skinnyski.com/notices/archives/telemark-24hours.html"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Telemark Resort is in Wisconsin, but no confirmation for Telemark Marathon.",
+      "source_url": "https://www.skinnyski.com/notices/archives/telemark-24hours.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming classic, skate, or both for Telemark Marathon.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for typical number of participants in Telemark Marathon.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming 1978 as founding year for Telemark Marathon.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Telemark Resort mentioned, but no confirmation this is official site for Telemark Marathon; site content in results focuses on other events.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Other Telemark events in January, but no confirmation for Telemark Marathon in early January.",
+      "source_url": "https://www.skinnyski.com/notices/archives/telemark-24hours.html"
+    }
+  },
+  "citations": [
+    "https://www.skinnyski.com/notices/archives/telemark-24hours.html",
+    "https://www.wisconsinhistory.org/Records/Article/CS17405",
+    "https://www.travelwisconsin.com/events/slumberland-american-birkebeiner-cross-country-ski-event",
+    "https://www.birkie.com/ski/events/junior-national-championships/",
+    "https://www.youtube.com/watch?v=GvNOMLo9eyQ"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:00Z"
+}

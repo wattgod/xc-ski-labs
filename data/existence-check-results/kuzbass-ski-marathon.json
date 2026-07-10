@@ -1,0 +1,29 @@
+{
+  "slug": "kuzbass-ski-marathon",
+  "name": "Kuzbass Ski Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Two independent sources mention the Kuzbass Classic Marathon, a cross-country ski race in Kuzbass region near Belovsky Sea, including an event page on ProXCskiing and a Ski Classics article referencing program, start lists, and live results. No official website, actual race results, news articles specifically for 'Kuzbass Ski Marathon', or listings in Worldloppet/FIS were found; other results refer to different events.",
+    "sources": [
+      "https://www.proxcskiing.com/event/kuzbass-classic-marathon/",
+      "https://skiclassics.com/challengers-kuzbass-classic-marathon-this-weekend/"
+    ]
+  },
+  "citations": [
+    "https://www.uszn-mzk.ru/pressa/2017/03/06/7867-7880124.html",
+    "https://www.proxcskiing.com/event/kuzbass-classic-marathon/",
+    "http://en.special.kremlin.ru/catalog/regions/KYA/events",
+    "https://skiclassics.com/challengers-kuzbass-classic-marathon-this-weekend/",
+    "https://sheregesh.com",
+    "https://silkwayrally.com/en/along-the-2024-silk-way-rally-kemerovo-region-kuzbass/",
+    "https://forumspb.com/en/news/news/pitch-sessii-top-proektov-portala-investinregionsru-na-pmef-kak-eto-bylo/",
+    "https://www.belovo42.ru/UDM/",
+    "https://redhill-kemerovo.ru/en/istoriya/stati/aik-kuzbass/"
+  ],
+  "checked_at": "2026-03-12T15:52:46Z"
+}

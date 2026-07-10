@@ -1,0 +1,31 @@
+{
+  "slug": "sisu-ski-fest",
+  "name": "Sisu Ski Fest",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.sisuskifest.com",
+    "results_url": "https://www.sisuskifest.com/results",
+    "evidence_summary": "SISU Ski Fest is a real, organized cross-country ski race established in 2010 in Ironwood, Michigan. The event has a fully functional official website with registration pages, race results dating back to 2013, detailed event information, and documented race history including 880 registered racers in 2023. The 2026 race is scheduled for January 10 with a capacity of 940 racers.",
+    "sources": [
+      "https://www.sisuskifest.com",
+      "https://www.sisuskifest.com/registration",
+      "https://www.sisuskifest.com/results",
+      "https://www.sisuskifest.com/about",
+      "https://www.sisuskifest.com/events"
+    ]
+  },
+  "citations": [
+    "https://www.sisuskifest.com",
+    "https://www.sisuskifest.com/registration",
+    "https://www.sisuskifest.com/about",
+    "https://www.sisuskifest.com/sponsors-brochure",
+    "https://www.sisuskifest.com/events",
+    "https://www.sisuskifest.com/results",
+    "https://www.sisuskifest.com/maps",
+    "https://www.sisuskifest.com/sponsors"
+  ],
+  "checked_at": "2026-03-12T16:03:44Z"
+}

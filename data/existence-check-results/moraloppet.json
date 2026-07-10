@@ -1,0 +1,28 @@
+{
+  "slug": "moraloppet",
+  "name": "Moraloppet",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Moraloppet is listed as a 42 km classic cross-country ski race in Mora, Sweden, on the Ski Classics Challengers circuit, with mentions of past and upcoming editions including January 18, 2025, and January 17, 2026. ProXCskiing reports on start lists for the January 21 event, confirming it as a new Ski Classics Challengers race. A Swedish ski federation page shows entries and registration for the 2026 edition, providing strong organizational evidence.",
+    "sources": [
+      "https://skiclassics.com/events/challengers/moraloppet/",
+      "https://www.proxcskiing.com/long-distance/moraloppet-start-lists-and-where-to-watch/",
+      "https://ssfta.skidor.com/event/46835/anmalningar?lang=undefined"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/moraloppet/",
+    "https://vasaloppet.us",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://www.proxcskiing.com/long-distance/moraloppet-start-lists-and-where-to-watch/",
+    "https://vasaloppet.se/en/",
+    "https://ssfta.skidor.com/event/46835/anmalningar?lang=undefined"
+  ],
+  "checked_at": "2026-03-12T15:56:26Z"
+}

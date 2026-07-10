@@ -1,0 +1,83 @@
+{
+  "slug": "marathon-du-grand-bec",
+  "name": "Marathon du Grand Bec",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 800,
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "discipline": "skate",
+    "field_size": "~800 starters",
+    "founded": 1985,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the main race distance is 42km. Source [1] states '42km libre', source [2] lists '42km' as the primary distance offered, and source [3] confirms '42 km' as available.",
+      "source_url": "https://www.marathondugrandbec.com/course/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide specific elevation gain data. Source [1] mentions 'Le parcours est difficile physiquement avec de belles portions de montées' (the course is physically difficult with nice climbing sections) but does not quantify elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm France as the country. Source [2] states the race 'se déroule tous les hivers sur le magnifique plateau de Champagny-le-Haut, en Savoie' (takes place every winter on the magnificent plateau of Champagny-le-Haut, in Savoie).",
+      "source_url": "https://www.marathondugrandbec.com/course/"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Savoie (Auvergne-Rhône-Alpes)",
+      "note": "Sources specify the race is in Savoie, which is part of the Auvergne-Rhône-Alpes region. However, the database claim lists only 'Auvergne-Rhône-Alpes' without the specific department. Source [2] and [3] both state 'Savoie'. Source [3] provides full address: '73350 Champagny-en-Vanoise' where 73 is the Savoie department code.",
+      "source_url": "https://www.marathondugrandbec.com/course/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "libre (skate and classic)",
+      "note": "Source [1] explicitly states 'Marathon du Grand Bec (libre)' indicating freestyle/libre format, not exclusively skate. Source [2] describes it as 'ski nordique' (cross-country skiing) without specifying skate-only. The 'libre' designation typically means both classic and skate techniques are permitted.",
+      "source_url": "https://www.ledauphine.com/skichrono/2026/02/18/marathon-ski-tour-champagny-accueille-le-marathon-du-grand-bec-dimanche"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide specific participant numbers or field size data. Source [2] describes it as 'une grande course populaire' (a large popular race) but does not quantify typical starters.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide the founding year or first edition date. Source [4] mentions '12ème édition' (12th edition) in a YouTube video title, but the video date is not provided in the search results, making it impossible to calculate the founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source [1] provides the official website URL: 'www.marathondugrandbec.com'. This is confirmed by source [2] which is from that domain.",
+      "source_url": "https://www.marathondugrandbec.com/"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm February as the typical race date. Source [1] states '22 février : Marathon du Grand Bec (libre)' and source [2] confirms 'Le 22 février 2026'. Source [8] also confirms 'Le rendez-vous est pris pour le dimanche 22 février 2026'.",
+      "source_url": "https://www.marathondugrandbec.com/course/"
+    }
+  },
+  "citations": [
+    "https://www.ledauphine.com/skichrono/2026/02/18/marathon-ski-tour-champagny-accueille-le-marathon-du-grand-bec-dimanche",
+    "https://www.marathondugrandbec.com/course/",
+    "https://www.france-montagnes.com/sit/marathon-du-grand-bec-sitraeve699266/",
+    "https://www.youtube.com/watch?v=P_8tqoumnDA",
+    "https://raceup.org/event/marathon-du-grand-bec-2026-02-01-champagny",
+    "https://www.marathonskitour.fr/evenement/detail/5858",
+    "https://blog.ekosport.fr/marathon-grand-bec/",
+    "https://www.marathondugrandbec.com/actualites/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:52:27Z"
+}

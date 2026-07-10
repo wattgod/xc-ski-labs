@@ -1,0 +1,81 @@
+{
+  "slug": "biatlon-romaniei-ski-marathon",
+  "name": "Biatlon Românii Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Romania",
+    "region": "Brașov",
+    "discipline": "both",
+    "field_size": 250,
+    "founded": 2012,
+    "website": "https://www.bfrb.ro",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Biatlon Românii Ski Marathon' or matching 30km cross-country ski race details.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming or denying 400m elevation gain for this specific race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While FRSB is Romanian[6], no sources confirm this race exists in Romania.",
+      "source_url": "https://frsb.ro"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "FRSB linked to Brașov area[3][4], but no confirmation for this race.",
+      "source_url": "https://brasovtourism.app/ro/places/federatia-romana-de-schi-biatlon"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe discipline (classic/skate) for this race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition in 2012.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.bfrb.ro not mentioned; FRSB site is https://frsb.ro or https://frsb.ro[6], but no race page found.",
+      "source_url": "https://frsb.ro"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm early February timing.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://itra.run/Races/RaceDetails/93226",
+    "https://www.radiobrasovfm.ro/sport/jocurile-olimpice-milano-cortina-2026/schi-biatlon-brasoveanul-george-buta-locul-39-la-proba-de-20-de-kilometri-individual-id213266.html",
+    "https://brasovtourism.app/ro/places/federatia-romana-de-schi-biatlon",
+    "https://brasovtourism.app/en/places/federatia-romana-de-schi-biatlon?page=2",
+    "https://voluntarbv.ro/organizatii/federatia-romana-de-ski-biatlon",
+    "https://frsb.ro"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:34:50Z"
+}

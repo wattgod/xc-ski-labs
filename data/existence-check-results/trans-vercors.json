@@ -1,0 +1,32 @@
+{
+  "slug": "trans-vercors",
+  "name": "Trans'Vercors",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://transvercors-nordic.com",
+    "results_url": null,
+    "evidence_summary": "The Trans'Vercors Nordic has an active official website with details on the 2026 edition, registration pages, and historical context since 1968. Multiple sources confirm past events, including a 2023 cancellation notice with mentions of participants and awards, news articles about snow conditions and historic routes, and listings on regional ski sites. Team Vercors Isère, a Ski Classics Pro Team, is linked to the region and event.",
+    "sources": [
+      "https://transvercors-nordic.com",
+      "https://www.lesstationsdeladrome.fr/en/event/transvercors-nordic-2/",
+      "https://skiclassics.com/team-vercors-isere-the-newly-registered-ski-classics-pro-team/",
+      "https://transvercors-nordic.com/inscription/",
+      "https://transvercors-nordic.com/363-2/",
+      "https://www.nordicmag.info/en/cross-country-skiing-fairly-good-snow-conditions-allow-the-transvercors-to-be-run-on-the-historic-route-0127/"
+    ]
+  },
+  "citations": [
+    "https://transvercors-nordic.com",
+    "https://www.lesstationsdeladrome.fr/en/event/transvercors-nordic-2/",
+    "https://skiclassics.com/team-vercors-isere-the-newly-registered-ski-classics-pro-team/",
+    "https://www.latransju.com/en/evenements/la-transju/",
+    "https://transvercors-nordic.com/inscription/",
+    "https://transvercors-nordic.com/363-2/",
+    "https://en.vercors-experience.com/clubs-athletes-ski-autrans-meaudre.html",
+    "https://www.nordicmag.info/en/cross-country-skiing-fairly-good-snow-conditions-allow-the-transvercors-to-be-run-on-the-historic-route-0127/"
+  ],
+  "checked_at": "2026-03-12T16:09:11Z"
+}

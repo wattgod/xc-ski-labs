@@ -1,0 +1,29 @@
+{
+  "slug": "engadin-frauenlauf",
+  "name": "Engadin Frauenlauf",
+  "country": "Switzerland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.engadin-skimarathon.ch/",
+    "results_url": "https://engadinmoments.ch/events/engadin-frauenlauf-2023-premiere/",
+    "evidence_summary": "Multiple sources confirm the Engadin Frauenlauf as a real women's cross-country ski race held during Engadin Skimarathon week, with a 17km route from Samedan to S-Chanf. A 2023 participant report details 805 starters and personal results (1h20min, 708th place). 2024 edition announced as 23rd running on March 3 with online registration via Engadin Skimarathon site; listed on Engadin tourism pages.",
+    "sources": [
+      "https://engadinmoments.ch/events/engadin-frauenlauf-2023-premiere/",
+      "https://sportpress.international/skimarathon-engadin-skimarathon-3/",
+      "https://www.engadin.ch/de/events/engadin-marathonwoche-frauenlauf-samedan",
+      "https://www.engadin-skimarathon.ch/"
+    ]
+  },
+  "citations": [
+    "https://engadinmoments.ch/events/engadin-frauenlauf-2023-premiere/",
+    "https://sportpress.international/skimarathon-engadin-skimarathon-3/",
+    "https://www.frauenlauf.ch/anmelden",
+    "https://www.engadinultratrail.ch",
+    "https://www.engadin.ch/de/events/engadin-marathonwoche-frauenlauf-samedan",
+    "http://www.frauenlauf.ch/en/",
+    "https://www.engadin.ch/en"
+  ],
+  "checked_at": "2026-03-12T15:44:11Z"
+}

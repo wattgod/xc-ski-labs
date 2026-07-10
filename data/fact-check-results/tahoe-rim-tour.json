@@ -1,0 +1,83 @@
+{
+  "slug": "tahoe-rim-tour",
+  "name": "Tahoe Rim Tour",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 450,
+    "country": "United States",
+    "region": "California",
+    "discipline": "skate",
+    "field_size": 250,
+    "founded": 2005,
+    "website": "https://www.tahoexc.org",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 26,
+      "note": "Multiple sources confirm the Tahoe Rim Tour is a 26-kilometer point-to-point race, not 30km",
+      "source_url": "https://visittahoecity.org/event/the-tahoe-rim-tour/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide elevation gain data for the Tahoe Rim Tour",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event is located in the United States (California/Nevada border region)",
+      "source_url": "https://laketahoethisweek.com/far-west-nordic/events/tahoe-rim-tour-race"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event starts in California (Tahoe City) and ends at Northstar California XC Ski Center",
+      "source_url": "https://laketahoethisweek.com/far-west-nordic/events/tahoe-rim-tour-race"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe it as a 'Nordic ski event' but do not specify whether it is classic, skate, or both",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide typical participant numbers for the Tahoe Rim Tour",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2008,
+      "note": "Source states 'First run in 2008, the Tahoe Rim Tour has become one of the Far West region's premier cross-country ski races'",
+      "source_url": "https://laketahoethisweek.com/far-west-nordic/events/tahoe-rim-tour-race"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide a dedicated official website URL for the Tahoe Rim Tour; event information appears on third-party event listing sites",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not specify a typical race date or month for the Tahoe Rim Tour",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://laketahoethisweek.com/tahoe-xc/events/tahoe-rim-tour",
+    "https://laketahoethisweek.com/far-west-nordic/events/tahoe-rim-tour-race",
+    "https://tahoexc.org/event/the-great-ski-race-2/",
+    "https://visittahoecity.org/event/the-tahoe-rim-tour/",
+    "https://tahoexc.org",
+    "https://trter.com",
+    "https://visittahoecity.org/event/tahoe-rim-tour-2/",
+    "https://tahoexc.org/events/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:55:00Z"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "brezovica-ski-marathon",
+  "name": "Brezovica Ski Marathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 500,
+    "country": "Kosovo",
+    "region": "Šar Mountains",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.brezovica-resort.com",
+    "date": "February / March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Brezovica Ski Marathon' race or its distance. Search results contain only general information about Brezovica ski resort facilities.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Brezovica Ski Marathon' race or its elevation gain. Cannot verify this claim.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Brezovica is confirmed to be located in Kosovo",
+      "source_url": "https://www.skiresort.info/ski-resort/brezovica/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Brezovica is confirmed to be in the Šar Mountains (also called Sharr Mountains)",
+      "source_url": "https://www.kosovavista.com/place/brezovica-ski-resort"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Brezovica Ski Marathon' race or its discipline type. Cannot verify this claim.",
+      "source_url": null
+    },
+    "participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Brezovica Ski Marathon' race or typical participant numbers. Cannot verify this claim.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Brezovica Ski Marathon' race or when it was established. Cannot verify this claim.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming or denying the existence of https://www.brezovica-resort.com or any official 'Brezovica Ski Marathon' website. Cannot verify this claim.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Brezovica Ski Marathon' race or its typical race date. The ski resort operates December–March, but no specific race event is documented in available sources.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.skiresort.info/ski-resort/brezovica/",
+    "https://www.kosovavista.com/place/brezovica-ski-resort",
+    "https://shredindex.com/resort/brezovica",
+    "https://www.powderhounds.com/Europe/Kosovo/Brezovica.aspx",
+    "https://www.kosovo-vacations.com/brezovica.html",
+    "https://skimap.org/skiareas/view/2642"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:11:41Z"
+}

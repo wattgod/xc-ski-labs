@@ -1,0 +1,84 @@
+{
+  "slug": "reistadlopet",
+  "name": "Reistadløpet",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 700,
+    "country": "Norway",
+    "region": "Troms",
+    "discipline": "classic",
+    "field_size": "~1,500 starters",
+    "founded": 1964,
+    "website": "https://www.reistadlopet.no",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 35,
+      "note": "Recent sources indicate the distance has been adjusted to 35 km for 2026 (from previous 50 km), outside ±3 km tolerance",
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1225,
+      "note": "Sources report 1,225 meters of climbing, outside ±100m tolerance of 700m",
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as in Norway",
+      "source_url": "https://www.proxcskiing.com/long-distance/reistadlopet-an-arctic-adventure-in-the-north-of-norway/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Setermoen in Bardu municipality, Bardufoss in Målselv municipality, both in Troms region (northern Norway)",
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique (CT) confirmed across sources",
+      "source_url": "https://www.proxcskiing.com/long-distance/reistadlopet-an-arctic-adventure-in-the-north-of-norway/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants (~1,500 starters)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1958,
+      "note": "First held in 1958, not 1964",
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Listed as www.reistadlopet.no",
+      "source_url": "https://www.worldloppet.com/reistadlopet-nor/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late March (e.g., March 28-29, 2025-2026), aligns with mid-March broadly",
+      "source_url": "https://skiclassics.com/events/pro-tour/reistadlopet/"
+    }
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/reistadlopet-an-arctic-adventure-in-the-north-of-norway/",
+    "https://www.worldloppet.com/reistadlopet-nor/",
+    "https://skiclassics.com/events/pro-tour/reistadlopet/",
+    "https://www.proxcskiing.com/paid_content/reistadlopet-pure-arctic-madness/",
+    "https://www.reistadlopet.no/konkurranseinfo",
+    "https://skiclassics.com/reistadlopet-an-arctic-adventure-in-the-north-of-norway/",
+    "https://skiclassics.com/all-you-need-to-know-ahead-of-reistadlopet-and-grand-finale-summit-2-senja-season-xvi/",
+    "https://etusuora.com/en/cross-country-skiing/ski-classics/reistadlopet",
+    "https://www.youtube.com/watch?v=5rF6PhYEDWg"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:32Z"
+}

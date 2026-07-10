@@ -1,0 +1,81 @@
+{
+  "slug": "hotham-nordic-marathon",
+  "name": "Hotham Nordic Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Australia",
+    "region": "Victoria",
+    "discipline": "classic",
+    "field_size": 80,
+    "founded": 2005,
+    "website": null,
+    "date": "Mid-August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Hotham Nordic Marathon' cross-country ski race or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Hotham Nordic Marathon' cross-country ski race or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming a 'Hotham Nordic Marathon' cross-country ski race in Australia; Mt Hotham events mentioned are trail runs.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming a 'Hotham Nordic Marathon' cross-country ski race in Victoria; Mt Hotham is in Victoria but events are summer trail runs.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Hotham Nordic Marathon' as classic, skate, or both skiing disciplines.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found providing participant numbers for a 'Hotham Nordic Marathon' cross-country ski race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found providing founding year for a 'Hotham Nordic Marathon' cross-country ski race.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Hotham Nordic Marathon'; Mt Hotham site lists summer trail events, not Nordic skiing.",
+      "source_url": "https://www.mthotham.com.au"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming mid-August date for a 'Hotham Nordic Marathon' cross-country ski race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.mthotham.com.au/summer/things-to-do/events/events-whats-on/summer-2025-26/australian-grand-traverse",
+    "https://www.mthotham.com.au/summer/things-to-do/events/great-southern-endurance-run",
+    "https://www.ahotu.com/calendar/trail-running/victoria",
+    "https://www.singletrack.com.au/alpine-challenge",
+    "https://runnerstribe.com/features/5-of-australias-toughest-trail-races-for-hardcore-runners/",
+    "https://www.snow.org.au/pathways/recognised-pathway-clubs-team-hotham"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:41:11Z"
+}

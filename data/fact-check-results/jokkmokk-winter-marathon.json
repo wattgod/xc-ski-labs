@@ -1,0 +1,81 @@
+{
+  "slug": "jokkmokk-winter-marathon",
+  "name": "Jokkmokk Winter Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 300,
+    "country": "Sweden",
+    "region": "Norrbotten",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 1985,
+    "website": "https://www.jokkmokksvintertid.se",
+    "date": "First weekend of February (during Jokkmokk Winter Market)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "No sources mention a 42km Jokkmokk Winter Marathon; all refer to Nordenskiöldsloppet (220km) or a FIS event without distance specified. No confirmation found for claimed race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources provide elevation gain for any Jokkmokk ski race matching the description.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources confirm Jokkmokk races in Sweden, but no match for 'Jokkmokk Winter Marathon'.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Jokkmokk is in Norrbotten, Sweden per sources, but no specific match for claimed race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nordenskiöldsloppet is classic technique[1][2][4], but no info on claimed race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nordenskiöldsloppet has ~340 participants[5]; no data on claimed race or 200 participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nordenskiöldsloppet modern edition started 2016 (8th in 2025, 9th in 2026)[1][4]; historic 1884[2]; no 1985 match.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No source confirms https://www.jokkmokksvintertid.se for this race; Nordenskiöldsloppet site is nordenskioldsloppet.com[4].",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Nordenskiöldsloppet late March[1][4]; Jokkmokk Winter Market is first weekend February, but no link to ski marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/nordenskioldsloppet-worlds-longest-ski-race-joins-ski-classics-challengers-series/",
+    "https://www.swedishlapland.com/stories/nordenskioeldsloppet/",
+    "https://www.redbull.com/se-en/This-ski-challenge-is-not-for-you",
+    "https://www.nordenskioldsloppet.com",
+    "https://www.skoda-storyboard.com/en/skoda-world/extreme-polar-circle-challenge/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=49840"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:42:17Z"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "ifrane-nordic-festival",
+  "name": "Ifrane Nordic Festival",
+  "facts": {
+    "distance_km": 15,
+    "elevation_m": 150,
+    "country": "Morocco",
+    "region": "Fès-Meknès",
+    "discipline": "classic",
+    "field_size": 30,
+    "founded": 2018,
+    "website": null,
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Ifrane Nordic Festival' or specific details like 15km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Ifrane Nordic Festival' or specific details like 150m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources confirm skiing in Ifrane, Morocco[1][2][3], but no mention of 'Ifrane Nordic Festival'.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ifrane is in Fès-Meknès region, but no sources confirm it for the specific event.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Ifrane Nordic Festival' or its discipline (classic). Moroccan cross-country skiing exists[4][5], but not this race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Ifrane Nordic Festival' or participant numbers like 30.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Ifrane Nordic Festival' or a 2018 first edition.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Ifrane Nordic Festival' in search results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Ifrane Nordic Festival' or mid-February date; general winter skiing in Ifrane noted[1][2].",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.thenationalnews.com/lifestyle/travel/ifrane-morocco-s-winter-idyll-1.570928",
+    "https://drifttravel.com/visiting-morocco-in-winter-what-to-see-and-do-from-december-to-march/",
+    "https://www.youtube.com/watch?v=jydPyyEz0eo",
+    "https://www.youtube.com/watch?v=K9r11JPdBJ0",
+    "https://www.nordicmag.info/en/cross-country-skiing-moroccos-abderrahim-kemmissa-officially-selected-for-the-2026-olympic-games-in-milan-cortina-0203/",
+    "https://www.ahotu.com/calendar/cross-country-skiing?countries=morocco%2Cmalta"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:57Z"
+}

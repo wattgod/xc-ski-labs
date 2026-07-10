@@ -1,0 +1,79 @@
+{
+  "slug": "skadi-loppet",
+  "name": "Skadi Loppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 1077,
+    "country": "Germany",
+    "region": "Bavaria",
+    "discipline": "both",
+    "field_size": "~1,100 starters",
+    "founded": 2000,
+    "website": "https://www.skadi-loppet.de",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm 42 km as the main race distance in classic technique",
+      "source_url": "https://skiclassics.com/events/challengers/subaru-skadi-loppet/"
+    },
+    "elevation_m": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results state '1,077 meters of elevation' which matches the claimed 1077m within tolerance",
+      "source_url": "https://skiclassics.com/events/challengers/subaru-skadi-loppet/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the race takes place in Germany, specifically in Bodenmais",
+      "source_url": "https://www.skadi-loppet.de/en"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results explicitly state 'Bodenmais in the Bavarian Forest' and 'Bavarian Forest'",
+      "source_url": "https://www.skadi-loppet.de/en"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm both classic and freestyle (free technique) races are offered: '42 km and 22 km, both in free technique on Saturday and in classic technique on Sunday'",
+      "source_url": "https://www.skadi-loppet.de/en"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 550,
+      "note": "Search results state 'Starting places are limited to 550 per race day' for 2026, not ~1,100 total starters",
+      "source_url": "https://www.skadi-loppet.de/en"
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe it as 'organized for decades' and 'legendary' but do not specify the founding year of 2000",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm the official website is https://www.skadi-loppet.de/en",
+      "source_url": "https://www.skadi-loppet.de/en"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Late January (January 25-26)",
+      "note": "Search results indicate the 2025 and 2026 races take place in late January (January 25-26), not just 'Late January' as a general month. The 2025 edition specifically notes it was 'earlier than usual' and moved to January from its traditional timing",
+      "source_url": "https://skiclassics.com/events/challengers/subaru-skadi-loppet/"
+    }
+  },
+  "citations": [
+    "https://www.skadi-loppet.de/en",
+    "https://skiclassics.com/events/challengers/subaru-skadi-loppet/",
+    "https://www.proxcskiing.com/long-distance/subaru-skadi-loppet-2026-this-weekend-in-germany/",
+    "https://www.skadi-loppet.de/en/races/loppet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:14Z"
+}

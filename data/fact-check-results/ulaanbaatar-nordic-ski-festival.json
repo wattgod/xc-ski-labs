@@ -1,0 +1,81 @@
+{
+  "slug": "ulaanbaatar-nordic-ski-festival",
+  "name": "Ulaanbaatar Nordic Ski Festival",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 200,
+    "country": "Mongolia",
+    "region": "Ulaanbaatar",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": 2012,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival' or matching details.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival' or matching details.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival'. Ulaanbaatar implies Mongolia but unconfirmed for this event.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival'.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival' or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival' or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival' or its founding year.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival' or an official website.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Ulaanbaatar Nordic Ski Festival' or its dates. Unrelated Ulaanbaatar Winter Festival in January[1].",
+      "source_url": "https://visitulaanbaatar.net/p/551"
+    }
+  },
+  "citations": [
+    "https://visitulaanbaatar.net/p/551",
+    "https://skishoeing.com/category/skishoeing-hoks/",
+    "https://www.exodustravels.com/trips/italy-holidays/winter/italian-dolomites-cross-country-skiing/cxd",
+    "https://www.nordicways.com/category/news/",
+    "https://www.runthealps.com/run-the-alps-trail-running-guide-network/siebrig-scheeres",
+    "https://www.blacktomato.com/inspirations/our-guide-to-mongolia/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:20:31Z"
+}

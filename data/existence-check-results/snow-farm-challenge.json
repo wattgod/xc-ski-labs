@@ -1,0 +1,32 @@
+{
+  "slug": "snow-farm-challenge",
+  "name": "Snow Farm Challenge",
+  "country": "New Zealand",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://snowfarm.nz",
+    "results_url": null,
+    "evidence_summary": "Snow Farm NZ hosts the 'Merino Muster' cross-country ski race, described as New Zealand's event on the Worldloppet tour with distances of 7km, 14km, 21km, and 42km, scheduled for August 30, 2025. The official Snow Farm website lists it prominently under events, and a dedicated site confirms it as New Zealand's only XC ski marathon since 1995 held at Snow Farm. No direct race results found in provided sources, but multiple independent references including Wikipedia and Snow Sports NZ support the venue's legitimacy for cross-country skiing events.",
+    "sources": [
+      "https://snowfarm.nz/events/",
+      "https://snowfarm.nz",
+      "https://www.merinomuster.com",
+      "https://en.wikipedia.org/wiki/Snow_Farm",
+      "https://www.snowsports.co.nz"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Snow_Farm",
+    "https://snowfarm.nz",
+    "https://snowfarm.nz/home-2/",
+    "https://snowfarm.nz/snowfunzone/",
+    "https://www.tripadvisor.com/Attraction_Review-g612500-d3308643-Reviews-Snow_Farm_NZ-Wanaka_Otago_Region_South_Island.html",
+    "https://snowfarm.nz/events/",
+    "https://snowfarm.nz/skiing-snow-farm/",
+    "https://www.snowsports.co.nz",
+    "https://www.merinomuster.com"
+  ],
+  "checked_at": "2026-03-12T16:04:53Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "leadville-loppet",
+  "name": "Leadville Loppet",
+  "facts": {
+    "distance_km": 44,
+    "elevation_m": 400,
+    "country": "United States",
+    "region": "Colorado",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2003,
+    "website": "https://leadvilleloppet.itsyourrace.com/",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 44k as the longest race distance.",
+      "source_url": "https://leadvilleloppet.itsyourrace.com"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 762,
+      "note": "Sources state approximately 2,500 feet (762m) elevation gain for 44k race.",
+      "source_url": "https://strambecco.com/event/leadville-loppet/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All sources confirm United States.",
+      "source_url": "https://www.uncovercolorado.com/festivals-in-leadville-co/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Colorado.",
+      "source_url": "https://www.leadvilletwinlakes.com/listing/leadville-loppet/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and freestyle/skate disciplines offered.",
+      "source_url": "https://www.leadvilletwinlakes.com/listing/leadville-loppet/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition in 2003; 23rd annual in 2026 confirms this.",
+      "source_url": "https://leadvilleloppet.itsyourrace.com"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official registration and event site.",
+      "source_url": "https://leadvilleloppet.itsyourrace.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in mid to late February; e.g., Feb 25, Feb 21.",
+      "source_url": "https://www.leadvilletwinlakes.com/listing/leadville-loppet/"
+    }
+  },
+  "citations": [
+    "https://www.uncovercolorado.com/festivals-in-leadville-co/",
+    "https://www.leadvilletwinlakes.com/listing/leadville-loppet/",
+    "https://strambecco.com/event/leadville-loppet/",
+    "https://summitvoice.wordpress.com/2012/02/21/are-you-ready-for-the-leadville-loppet/",
+    "https://leadvilleloppet.itsyourrace.com",
+    "https://www.leadvilletwinlakes.com/event/leadville-loppet-nordic-ski-event/",
+    "https://leadvilleloppet.itsyourrace.com/Fundraising.aspx?id=286",
+    "https://www.skisignup.com/Race/Events/CO/Leadville/LeadvilleLoppet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:44:06Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "neeruti-maraton",
+  "name": "Neeruti Maraton",
+  "country": "Estonia",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.estoloppet.ee",
+    "results_url": "https://www.estoloppet.ee/et/etapid?competition_id=454",
+    "evidence_summary": "Neeruti Maraton is a confirmed real event, part of the Estoloppet ski marathon series in Estonia. Multiple independent sources document the 26th edition scheduled for January 31, 2026, with official race details, schedule, distance options, and results pages. The event is listed on Worldloppet and has an active official website with registration and results.",
+    "sources": [
+      "https://www.worldloppet.com/tamsalu-neeruti-maraton/",
+      "https://www.estoloppet.ee/et/etapid?competition_id=454",
+      "https://www.estoloppet.ee/en",
+      "https://www.estoloppet.ee",
+      "https://www.sportos.eu/ee/et/tamsalu-neeruti-maraton/",
+      "https://www.lvsl.ee/event-details/26-neeruti-maraton"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/tamsalu-neeruti-maraton/",
+    "https://www.estoloppet.ee/et/etapid?competition_id=454",
+    "https://www.estoloppet.ee/en",
+    "https://www.estoloppet.ee",
+    "https://www.sportos.eu/ee/en/tamsalu-neeruti-maraton/juhend/epwV/",
+    "https://www.sportos.eu/ee/et/tamsalu-neeruti-maraton/",
+    "https://www.lvsl.ee/event-details/26-neeruti-maraton"
+  ],
+  "checked_at": "2026-03-12T15:57:44Z"
+}

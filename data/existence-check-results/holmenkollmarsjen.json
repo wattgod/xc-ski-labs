@@ -1,0 +1,29 @@
+{
+  "slug": "holmenkollmarsjen",
+  "name": "Holmenkollmarsjen",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.skiforeningen.no/aktiviteter-for-voksne/holmenkollmarsjen/",
+    "results_url": "https://www.skiforeningen.no/aktiviteter-for-voksne/holmenkollmarsjen/",
+    "evidence_summary": "Holmenkollmarsjen is listed as an official Ski Classics Challengers event with a 52km race on February 14, 2026, organized by Skiforeningen, featuring a dedicated page on their site with results, registration, and past winners. ProXCskiing confirms the event details, history since 1974, and provides links to registration and social media. No past results directly linked in snippets, but organizer site references them explicitly.",
+    "sources": [
+      "https://skiclassics.com/events/challengers/holmenkollmarsjen/",
+      "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/",
+      "https://www.skiforeningen.no/aktiviteter-for-voksne/holmenkollmarsjen/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/holmenkollmarsjen/",
+    "https://www.proxcskiing.com/long-distance/holmenkollmarsjen-2026-this-saturday-in-norway/",
+    "https://holmenkollenskifestival.no/en/om-holmenkollen-skifestival/",
+    "https://www.ungdommensholmenkollrenn.no/english-info/",
+    "https://holmenkollen.com/en/",
+    "https://www.skiforeningen.no/aktiviteter-for-voksne/holmenkollmarsjen/",
+    "https://holmenkollenskifestival.no",
+    "https://holmenkollenskifestival.no/en/"
+  ],
+  "checked_at": "2026-03-12T15:49:01Z"
+}

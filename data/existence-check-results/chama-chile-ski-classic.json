@@ -1,0 +1,27 @@
+{
+  "slug": "chama-chile-ski-classic",
+  "name": "Chama Chile Ski Classic",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.skisignup.com/Race/NM/Chama/ChamaChileSkiClassic",
+    "results_url": "https://www.skisignup.com/Race/Results/122180",
+    "evidence_summary": "The Chama Chile Ski Classic is a real, organized cross-country ski race held in Chama, New Mexico. Multiple independent sources confirm its existence: official registration pages on SkiSignup and RunSignup, documented race results from at least 2022 and 2026, and a Facebook presence. The 2026 event was scheduled for January 17, 2026, featuring multiple distance options (6K, 12K, 18K) for various skill levels.",
+    "sources": [
+      "https://www.skisignup.com/Race/Results/122180",
+      "https://www.skisignup.com/Race/NM/Chama/ChamaChileSkiClassic",
+      "https://www.santafestriders.org/race_results_html/ChamaChile2022/2022_Chama%20Classic%20Ski_6K%20Classic_ByAgeGrp.pdf",
+      "https://runsignup.com/Race/Events/NM/Chama/ChamaChileSkiClassic"
+    ]
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/Results/122180",
+    "https://www.skisignup.com/Race/NM/Chama/ChamaChileSkiClassic",
+    "https://www.santafestriders.org/race_results_html/ChamaChile2022/2022_Chama%20Classic%20Ski_6K%20Classic_ByAgeGrp.pdf",
+    "https://runsignup.com/Race/Events/NM/Chama/ChamaChileSkiClassic",
+    "https://runsignup.com/Race/NM/Chama/ChamaChileSkiClassic?embedId2=TZ1S5pTD"
+  ],
+  "checked_at": "2026-03-12T15:42:25Z"
+}

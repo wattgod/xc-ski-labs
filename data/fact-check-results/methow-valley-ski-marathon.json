@@ -1,0 +1,83 @@
+{
+  "slug": "methow-valley-ski-marathon",
+  "name": "Methow Valley Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "United States",
+    "region": "Washington",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": 1993,
+    "website": "https://www.mvsta.com",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Ski to the Sun Marathon (likely the event) is 42 km for both classic and skate.",
+      "source_url": "https://www.trailforks.com/event/5711/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 589,
+      "note": "Total elevation gain +1,932 ft (converted to ~589m), outside ±100m tolerance of 500m.",
+      "source_url": "https://www.trailforks.com/event/5711/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Methow Valley is in north central Washington, USA.",
+      "source_url": "https://www.winthropmountainsports.com/blogs/resources/exploring-the-best-nordic-ski-trails-in-the-methow/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Washington state.",
+      "source_url": "https://www.winthropmountainsports.com/blogs/resources/exploring-the-best-nordic-ski-trails-in-the-methow/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic and free (skate) technique waves.",
+      "source_url": "https://www.trailforks.com/event/5711/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "mvsta.com not directly confirmed as official for this specific marathon; methowtrails.org appears in event maps but no explicit match.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event map dated 2/1/2022 aligns with early February timing.",
+      "source_url": "https://methowtrails.org/assets/event-map_skitothesun_2022.pdf"
+    }
+  },
+  "citations": [
+    "https://methowtrails.org/assets/event-map_skitothesun_2022.pdf",
+    "https://www.mountaineers.org/activities/activities/cross-country-ski-methow-valley-winter-trails-1",
+    "https://www.winthropmountainsports.com/blogs/resources/exploring-the-best-nordic-ski-trails-in-the-methow/",
+    "https://www.enduradv.com/2022/12/06/best-kept-secret-the-methow-valley/",
+    "https://methowtrails.org/assets/event-map_sunflowerrelaymarathon_2020.pdf",
+    "https://www.trailforks.com/event/5711/",
+    "https://www.methowvalleynordic.org/events/ski-rodeo-5cw39",
+    "https://www.trailrunnermag.com/destinations/northwest-destinations/methow-valley-mellow/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:45:57Z"
+}

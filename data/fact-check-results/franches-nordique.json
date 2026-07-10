@@ -1,0 +1,83 @@
+{
+  "slug": "franches-nordique",
+  "name": "Franches Nordique",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 200,
+    "country": "Switzerland",
+    "region": "Jura",
+    "discipline": "skate",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.swissloppet.ch",
+    "date": "Third Sunday of February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for a cross-country ski race named 'Franches Nordique'. Search results discuss Transjurassienne (68km), Grande Boucle (42km), and other Jura races, but none match this name or 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention 'Franches Nordique' or a 25km race with ~200m elevation gain in Jura.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Jura region spans France and Switzerland, but no confirmation of 'Franches Nordique' in Switzerland.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources reference this race in Jura.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information found on 'Franches Nordique'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm ~300 participants for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year found for 'Franches Nordique'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.swissloppet.ch is Swiss Loppet site, but no mention of 'Franches Nordique' in results; race appears obscure or non-existent.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of third Sunday of February for this race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/",
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/welcome-to-little-scandinavia-france/here-begins-the-nordic-adventure/",
+    "https://www.lesrousses.com/en/French-Nordic-Ski-Championships--March-27-29--2026/",
+    "https://www.latransju.com/en/les-epreuves-de-ski-de-fond-de-la-transju-course-jura-france/",
+    "https://www.j3l.ch/en/Z10364/things-to-do/sport-leisure/cross-country-skiing",
+    "https://www.crosscountryskier.com/pure-nordic-territory-cross-country-is-king-in-frances-chapelle-des-bois/",
+    "https://www.snow-online.com/cross-country/les-rousses.html",
+    "https://enjoywinter.com/read-skipost/the-french-connection-local-relationships-make-the-difference-of-the-ski-trails-of-frances-jura-region/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:13:21Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "furusjoen-rundt",
+  "name": "Furusjøen Rundt",
+  "facts": {
+    "distance_km": 45,
+    "elevation_m": 500,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": 517,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 45 km for the main race",
+      "source_url": "https://en.furusjoenrundt.no/rennet/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Norway",
+      "source_url": "https://skiclassics.com/furusjoen-rundt-rennet-2025-this-weekend-in-norway/"
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Kvamsfjellet near Rondane National Park is in Innlandet county, but no source explicitly states 'Innlandet'",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed for all distances including 45 km",
+      "source_url": "https://en.furusjoenrundt.no/rennet/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources state 'hundreds of skiers' annually; 517 is plausible within tolerance but no exact numbers found",
+      "source_url": "https://skiclassics.com/furusjoen-rundt-rennet-2025-this-weekend-in-norway/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on year founded or first edition found",
+      "source_url": null
+    },
+    "website": {
+      "status": "WRONG",
+      "correct_value": "https://en.furusjoenrundt.no/rennet/",
+      "note": "Official site identified",
+      "source_url": "https://en.furusjoenrundt.no/rennet/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February (e.g., Feb 15 2025, Feb 14 2026)",
+      "source_url": "https://skiclassics.com/furusjoen-rundt-rennet-2025-this-weekend-in-norway/"
+    }
+  },
+  "citations": [
+    "https://en.furusjoenrundt.no/rennet/",
+    "https://skiclassics.com/furusjoen-rundt-rennet-2025-this-weekend-in-norway/",
+    "https://www.proxcskiing.com/long-distance/furusjoen-rundt-rennet-2026-this-saturday-in-norway/",
+    "https://en.lillehammer.com/whats-on/articles/furusjoen-rundt",
+    "https://www.visitnorway.com/events/furusjoen-rundt-cross-country-race/16668/",
+    "https://www.youtube.com/watch?v=VU_RqoO-zsk",
+    "https://www.youtube.com/watch?v=ehplqXZ0rfo"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:39:01Z"
+}

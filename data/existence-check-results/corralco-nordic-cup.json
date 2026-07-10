@@ -1,0 +1,27 @@
+{
+  "slug": "corralco-nordic-cup",
+  "name": "Corralco Nordic Cup",
+  "country": "Chile",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Corralco Nordic Cup' cross-country ski race. Corralco is a real ski resort hosting alpine and snowboard events like FIS Snowboard Cross South American Cup, but no mentions of cross-country (nordic) racing, results, news, or listings in Worldloppet/FIS for this event. Search results confirm the resort's existence but lack any nordic-specific organization.",
+    "sources": []
+  },
+  "citations": [
+    "https://medias1.fis-ski.com/pdf/2026/SB/6001/2026SB6001INVI.pdf",
+    "https://corralco.com/eng/",
+    "https://corralco.com/eng/19/Montana/47/Tickets/",
+    "https://corralco.com/eng/19/Montana/",
+    "https://corralco.com",
+    "https://www.usskiandsnowboard.org/news/corralco-ski-resort-origin-story",
+    "https://corralco.com/eng/19/Montana/46/Rental/",
+    "https://corralco.com/eng/5/Malalcahuello-National-Reserve/",
+    "https://www.corralco.com/eng/18/42/95/",
+    "https://www.corralco.com/eng/4/4/69/"
+  ],
+  "checked_at": "2026-03-12T15:42:53Z"
+}

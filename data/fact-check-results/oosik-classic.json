@@ -1,0 +1,81 @@
+{
+  "slug": "oosik-classic",
+  "name": "Oosik Classic",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Southcentral Alaska",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://denalinordicskiclub.org/oosik-classic/",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": "10, 25, 50",
+      "note": "Multiple sources confirm distances of 10km, 25km, and 50km options, not a single 50km race.",
+      "source_url": "https://www.alaskavisit.com/blog/post/oosik/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain of 300m or any exact figure; one mentions climbs but for a different distance.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Alaska, United States.",
+      "source_url": "https://www.alaskavisit.com/blog/post/oosik/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Talkeetna in Southcentral Alaska.",
+      "source_url": "https://nordicinsights.news/2025/04/25/personal-essay-how-one-old-nordic-skier-celebrated-this-spring-in-southcentral-alaska/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as classic-only ski race.",
+      "source_url": "https://nordicinsights.news/2025/04/25/personal-essay-how-one-old-nordic-skier-celebrated-this-spring-in-southcentral-alaska/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 800,
+      "note": "Sources indicate capped at 800 participants, grown from 200; recent event had 693 finishers (far exceeds typical 100).",
+      "source_url": "https://www.webscorer.com/register?raceid=376561"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2004,
+      "note": "Inception in 2004 per official description; one source says roughly 25 years ago (consistent with ~2025).",
+      "source_url": "https://www.webscorer.com/register?raceid=376561"
+    },
+    "website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site referenced in multiple sources.",
+      "source_url": "https://www.alaskavisit.com/blog/post/oosik/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held every March, e.g., March 8, mid-March dates like 03/14/2026.",
+      "source_url": "https://www.alaskavisit.com/blog/post/oosik/"
+    }
+  },
+  "citations": [
+    "https://www.alaskavisit.com/blog/post/oosik/",
+    "https://www.webscorer.com/register?raceid=376561",
+    "https://nordicinsights.news/2025/04/25/personal-essay-how-one-old-nordic-skier-celebrated-this-spring-in-southcentral-alaska/",
+    "https://www.youtube.com/watch?v=xti6mOIi10E",
+    "https://denalinordicskiclub.org/oosik-classic/",
+    "https://my.raceresult.com/373232/info"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:48:08Z"
+}

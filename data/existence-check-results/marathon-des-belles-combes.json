@@ -1,0 +1,33 @@
+{
+  "slug": "marathon-des-belles-combes",
+  "name": "Marathon des Belles Combes",
+  "country": "France",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.lesbellescombes.fr",
+    "results_url": null,
+    "evidence_summary": "Les Belles Combes is a real, organized cross-country ski race held in the Haut-Jura region of France. Multiple independent sources confirm its existence, including an official website with detailed race information, rules, and registration pages. The race is registered in national and regional calendars, recognized by Worldloppet, and has been featured in skiing news outlets. However, the 2026 edition has been cancelled due to weather conditions.",
+    "sources": [
+      "https://www.lesbellescombes.fr",
+      "https://www.lesbellescombes.fr/en/",
+      "https://www.lesbellescombes.fr/en/the-race/rules/",
+      "https://www.worldloppet.com/les-belles-combes/",
+      "https://www.nordicmag.info/ski-de-fond-le-marathon-des-belles-combes-annule-0212/",
+      "https://blog.ekosport.fr/marathon-belles-combes/"
+    ]
+  },
+  "citations": [
+    "https://www.lesbellescombes.fr/en/the-new-website-of-les-belles-combes/",
+    "https://www.lesbellescombes.fr/en/",
+    "https://www.lesbellescombes.fr/en/the-race/rules/",
+    "https://www.marathondugrandbec.com",
+    "https://www.nordicmag.info/ski-de-fond-le-marathon-des-belles-combes-annule-0212/",
+    "https://blog.ekosport.fr/marathon-belles-combes/",
+    "https://www.lesbellescombes.fr",
+    "https://www.worldloppet.com/les-belles-combes/",
+    "https://www.lesbellescombes.fr/en/the-race/registrations/"
+  ],
+  "checked_at": "2026-03-12T15:54:50Z"
+}

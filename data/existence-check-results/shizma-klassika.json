@@ -1,0 +1,21 @@
+{
+  "slug": "shizma-klassika",
+  "name": "Shizma Klassika",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No mentions of 'Shizma Klassika' in Ski Classics listings, official Ski Classics site, Russian Ski Association, or any other search results. All provided sources detail known Ski Classics events, none of which match 'Shizma Klassika' in Russia. No official website, results, news, or social media evidence found.",
+    "sources": []
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Ski_Classics",
+    "https://skiclassics.com",
+    "https://www.proxcskiing.com/long-distance/half-of-the-russian-olympic-team-to-race-visma-ski-classics/",
+    "https://www.rsaski.ru/en/"
+  ],
+  "checked_at": "2026-03-12T16:03:15Z"
+}

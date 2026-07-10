@@ -1,0 +1,79 @@
+{
+  "slug": "pyeongchang-loppet",
+  "name": "PyeongChang Loppet",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 150,
+    "country": "South Korea",
+    "region": "Gangwon Province",
+    "discipline": "skate",
+    "field_size": 500,
+    "founded": 2026,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 10km mass-start race[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as South Korea[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in Gangwon-do (Gangwon Province), Alpensia Cross-Country Center[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freestyle technique (skate)[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as first-ever Loppet festival in South Korea, event on February 21, 2026[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-joins-the-ski-classics-challengers-calendar/"
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources reference 'PyeongChang Loppet' website but no specific URL provided or resolvable",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "February 21, 2026, matches typical February[1][2]",
+      "source_url": "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-joins-the-ski-classics-challengers-calendar/"
+    }
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-joins-the-ski-classics-challengers-calendar/",
+    "https://www.proxcskiing.com/long-distance/pyeongchang-loppet-2026-this-saturday-in-south-korea/",
+    "https://loppet.org/event/next-generation-loppet/",
+    "https://my.raceresult.com/384446/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:49:56Z"
+}

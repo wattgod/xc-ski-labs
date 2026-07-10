@@ -1,0 +1,35 @@
+{
+  "slug": "fossavatnsgangan",
+  "name": "Fossavatnsgangan",
+  "country": "Iceland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://fossavatn.is/en/",
+    "results_url": "https://fossavatn.is/en/",
+    "evidence_summary": "Fossavatnsgangan has an active official website detailing the 2026 event on April 16 with registration, schedules, and real-time results links. It is listed on Worldloppet and Ski Classics as a real event since 1935, with Wikipedia confirming its history and participant numbers. Multiple pages describe courses, past editions, and series affiliations.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fossavatnsgangan",
+      "https://skiclassics.com/events/challengers/fossavatnsgangan/",
+      "https://fossavatn.is/en/",
+      "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+      "https://fossavatn.is/en/fossavatnsgangan-25-km/",
+      "https://fossavatn.is/en/motaradir/",
+      "https://www.worldloppet.com/tag/fossavatnsgangan/"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Fossavatnsgangan",
+    "https://skiclassics.com/events/challengers/fossavatnsgangan/",
+    "https://fossavatn.is/en/",
+    "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+    "https://fossavatn.is/en/fossavatnsgangan-25-km/",
+    "https://fossavatn.is/en/motaradir/",
+    "https://www.worldloppet.com/tag/fossavatnsgangan/",
+    "https://www.westfjords.is/en/experiences/events/fossavatn-ski-marathon",
+    "https://fossavatn.is/en/um/",
+    "https://fossavatn.is/en/dagskra/"
+  ],
+  "checked_at": "2026-03-12T15:45:27Z"
+}

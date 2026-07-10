@@ -1,0 +1,82 @@
+{
+  "slug": "kalix-loppet",
+  "name": "Kalix Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 150,
+    "country": "Sweden",
+    "region": "Norrbotten",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.kalixloppet.se",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for Kalix Loppet distance; search results mention Vasaloppet (90km) and FIS Kalix events (10km, team sprint) but not a 30km race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide elevation gain for Kalix Loppet.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Kalix is in Sweden per FIS event details.",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Kalix is in Norrbotten County, Sweden (inferred from location; address confirms Kalix, SWE).",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "FIS Kalix event lists 'C' (classic) for 10km, but no confirmation for a 'Kalix Loppet' classic race.",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for Kalix Loppet.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for founding year of Kalix Loppet.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not confirmed in search results; FIS Kalix events list no website.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "FIS Kalix events in early April (e.g., Apr 3-4 2025), not early March; no specific 'Loppet' date match.",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025"
+    }
+  },
+  "citations": [
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56428&seasoncode=2025",
+    "https://www.youtube.com/watch?v=M4SBDZRDg-I",
+    "https://www.worldloppet.com/these-are-the-names-of-the-vasaloppstrippeln-finishers/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=47413"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:15:25Z"
+}

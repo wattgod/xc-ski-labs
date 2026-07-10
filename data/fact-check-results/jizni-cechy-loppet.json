@@ -1,0 +1,85 @@
+{
+  "slug": "jizni-cechy-loppet",
+  "name": "Jižní Čechy Loppet",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 450,
+    "country": "Czech Republic",
+    "region": "South Bohemia",
+    "discipline": "classic",
+    "field_size": 800,
+    "founded": 1985,
+    "website": "https://www.jiznicechy-loppet.cz",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results mention 'Jižní Čechy Loppet' or matching details (50km classic in South Bohemia). Results cover other Czech races like Jizerská 50 (50km CT, 937m gain, Liberec region) but not this event.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information found on 'Jižní Čechy Loppet'. Closest is Jizerská 50 with 937m gain, outside South Bohemia.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation for this specific race; Czech Republic has many ski races but none matching name/location.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources reference a loppet in South Bohemia (Jižní Čechy); Jizerská 50 is in Liberec region (Jizera Mountains).",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No details on technique for this race; other Czech races like Jizerská 50 are classic (CT).",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No history or first edition info available.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not referenced or confirmed in search results; no matching event found.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No date info for this race; other Czech loppets in Jan/Feb (e.g., Jizerská 50 early Feb).",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://loppet.org/event/marathon-pouli-tour-ski/",
+    "https://www.worldloppet.com/wl-race/jizerska-50/",
+    "https://www.liberecky-kraj.cz/en/winter-holiday/cross-country-skiing.html",
+    "https://uko.cz/en/activities/sports-activities/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/czech-republic",
+    "https://crosscountryrace.cz",
+    "https://www.worldloppet.com/category/news/jizerska-padesatka/",
+    "https://www.skiresort.info/best-ski-resorts/czech-republic/sorted/cross-country/",
+    "https://www.visitczechia.com/en-us/campaigns/traditions-2023/cross-country-skiing-in-czechia",
+    "https://www.snow-online.com/largest_cross-country-skiing-areas/czech-republic"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:42:09Z"
+}

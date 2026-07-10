@@ -1,0 +1,26 @@
+{
+  "slug": "carpathian-ski-marathon",
+  "name": "Carpathian Ski Marathon",
+  "country": "Ukraine",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 1,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "The Carpathian Ski Club mentions annual ski races in the Carpathian mountains as a major event, but no specific 'Carpathian Ski Marathon' is named, and there are no race results, official event website, news articles, Worldloppet/Euroloppet listings, social media events, YouTube videos, or registration pages found. Other results discuss general ski resorts and activities in Ukraine's Carpathians but provide no concrete evidence of this particular cross-country ski marathon.",
+    "sources": [
+      "https://klk.com.ua/about-us.html"
+    ]
+  },
+  "citations": [
+    "https://klk.com.ua/about-us.html",
+    "https://visitukraine.today/blog/5669/a-new-ski-resort-is-being-built-in-the-carpathians-details",
+    "https://peterglenn.com/blog/is-ukraine-building-a-ski-resort/",
+    "https://en.wikipedia.org/wiki/Bukovel",
+    "https://www.gonomad.com/1248-skiing-carpathian-mountains-ukraine",
+    "https://www.ushmm.org/m/pdfs/20130500-holocaust-in-ukraine.pdf",
+    "https://harpers.org/archive/2021/01/the-armies-of-the-right-ukraine-militias/"
+  ],
+  "checked_at": "2026-03-12T15:42:01Z"
+}

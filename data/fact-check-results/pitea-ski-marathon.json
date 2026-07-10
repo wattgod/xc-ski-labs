@@ -1,0 +1,85 @@
+{
+  "slug": "pitea-ski-marathon",
+  "name": "Piteå Ski Marathon",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 250,
+    "country": "Sweden",
+    "region": "Norrbotten",
+    "discipline": "both",
+    "field_size": 400,
+    "founded": 1975,
+    "website": "https://www.piteaski.se",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 60 km distance for Piteå Ski Marathon",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming or denying the 250m total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Piteå is confirmed as located in Sweden across multiple sources",
+      "source_url": "https://www.swedishlapland.com/pitea/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Piteå is in Sweden and associated with northern areas like Swedish Lapland, but no source explicitly confirms Norrbotten for the race",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming classic, skate, or both for Piteå Ski Marathon",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical number of participants around 400",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming first edition in 1975",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming https://www.piteaski.se as official website; site not referenced in results",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific confirmation of late February for Piteå Ski Marathon; general winter skiing mentioned but not tied to this race",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.skidor.com/download/18.8c3297718388dc70858ec07/1665758988767/Invetation%20FIS.pdf",
+    "https://skiclassics.com/highlights-from-asarna-ski-marathon-2026/",
+    "https://www.proxcskiing.com/long-distance/highlights-from-asarna-ski-marathon-2026/",
+    "https://www.raceofchampions.com/sweden-2022",
+    "https://www.pitea.se/en/Visitors/Events/?TLcat=39&TLll=20&TLlt=16&TLfy=2026&TLfm=01&TLfd=25&TLty=2027&TLtm=01&TLtd=25",
+    "https://www.pitea.se/en/Visitors/Events/?TLcat=39&TLll=20&TLlt=20&TLfy=2026&TLfm=03&TLfd=10&TLty=2027&TLtm=03&TLtd=10",
+    "https://www.pitea.se/en/Visitors/Events/?TLcat=39&TLll=20&TLlt=19&TLfy=2026&TLfm=02&TLfd=28&TLty=2027&TLtm=02&TLtd=28",
+    "https://www.pitea.se/en/Visitors/events/?TLcat=39_739&TLll=20&TLlt=12&TLfy=2025&TLfm=09&TLfd=27&TLty=2026&TLtm=09&TLtd=27",
+    "https://eventor.orienteering.sport/Documents/Event/2775/Bulletin-4",
+    "https://www.swedishlapland.com/pitea/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:49:15Z"
+}

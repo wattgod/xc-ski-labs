@@ -1,0 +1,80 @@
+{
+  "slug": "cedars-ski-marathon",
+  "name": "Cedars Ski Marathon",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 300,
+    "country": "Lebanon",
+    "region": "North Lebanon",
+    "discipline": "classic",
+    "field_size": 60,
+    "founded": 2017,
+    "website": "https://www.skileb.com",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Cedars Ski Marathon' or any cross-country ski race with 20km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Cedars Ski Marathon' or any cross-country ski race with 300m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cedars region and ski resorts are in Lebanon[3][4][5], but no sources confirm a 'Cedars Ski Marathon'.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cedars Ski Resort is associated with Bcharre in North Lebanon[4][5], but no sources confirm the race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention any cross-country ski race at Cedars, let alone classic style.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention participant numbers for 'Cedars Ski Marathon'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention the founding year of 'Cedars Ski Marathon'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.skileb.com not found in search results; no official site identified for the race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm March as typical date for 'Cedars Ski Marathon'; ski season context exists but no race details[3][4].",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.beirutmarathon.org/cedar-challenge.php",
+    "https://rcbeirutcedars.org",
+    "https://the961.com/places-to-stay-during-ski-season-al-arz/",
+    "https://the961.com/ski-season-in-lebanon-is-officially-on-prices/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=272113&raceid=119158"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:11:55Z"
+}

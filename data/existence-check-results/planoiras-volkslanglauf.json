@@ -1,0 +1,33 @@
+{
+  "slug": "planoiras-volkslanglauf",
+  "name": "Planoiras Volkslanglauf",
+  "country": "Switzerland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf",
+    "results_url": "https://services.datasport.com/2024/winter/planoiras/",
+    "evidence_summary": "The Planoiras Volkslanglauf is listed on the official Arosa Lenzerheide website with detailed event info, 2026 registration, past results links, and photos. Worldloppet confirms it as a 25km event in Lenzerheide with 40+ year history. Race results from 2024 are available via Datasport, and news articles cover past editions like the 39th and 41st.",
+    "sources": [
+      "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf",
+      "https://www.worldloppet.com/planoiras-volkslauf-sui/",
+      "https://services.datasport.com/2024/winter/planoiras/",
+      "https://arosalenzerheide.swiss/en/Lenzerheide/Up-to-date/News/39th-planoiras-in-dream-conditions_n_16435579",
+      "https://www.xc-ski.de/aktuelles/termine/planoiras-volkslanglauf-lenzerheide-schweiz-10/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/planoiras-volkslauf-sui/",
+    "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf",
+    "https://arosalenzerheide.swiss/en/Lenzerheide/Top-Events/Sports/Planoiras-Folk-Cross-Country-Skiing-Race",
+    "https://arosalenzerheide.swiss/en/Lenzerheide/Top-Events/Sports/Planoiras-Folk-Cross-Country-Skiing-Race/Tracks-Planoiras",
+    "https://www.xc-ski.de/aktuelles/termine/planoiras-volkslanglauf-lenzerheide-schweiz-10/",
+    "https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf/Startbloecke-Planoiras",
+    "https://arosalenzerheide.swiss/en/Lenzerheide/Up-to-date/News/39th-planoiras-in-dream-conditions_n_16435579",
+    "https://arosalenzerheide.swiss/en/Lenzerheide/Up-to-date/News/Registration-for-the-Planoiras-open_n_19516945",
+    "https://services.datasport.com/2024/winter/planoiras/",
+    "https://arosalenzerheide.swiss/en/Lenzerheide/Top-Events/Sports/Planoiras-Folk-Cross-Country-Skiing-Race/Starting-Blocks-Planoiras"
+  ],
+  "checked_at": "2026-03-12T16:00:21Z"
+}

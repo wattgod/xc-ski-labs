@@ -1,0 +1,83 @@
+{
+  "slug": "boden-ski-marathon",
+  "name": "Boden Ski Marathon",
+  "facts": {
+    "distance_km": 45,
+    "elevation_m": 350,
+    "country": "Sweden",
+    "region": "Norrbotten",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1978,
+    "website": "https://www.bodensf.se",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention 'Boden Ski Maraton 2026' but do not specify the race distance. Result [2] references a half-marathon and full-marathon option with a 10.5 km motion class, but does not confirm the primary race distance of 45 km.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain information found in search results for Boden Ski Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden. Multiple sources reference Boden, Sweden as the location.",
+      "source_url": "https://www.milsport.one/news/skiiing/55th-wmc-skiing-boden-swe-opening-ceremony-and-first-competitions"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not explicitly state that Boden is in Norrbotten region, though this is geographically accurate. No contradictory information found.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search result [2] mentions 'långlopp på skidor' (ski marathon) but does not specify whether it is classic, skate, or both disciplines.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found for Boden Ski Marathon in search results.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide founding year or first edition date for Boden Ski Marathon.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search result [2] is from svenskalag.se (Sävast Ski Team IF page) which discusses the 2026 race cancellation, but does not confirm the official website URL provided.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Early January",
+      "note": "Search result [2] indicates the Boden Ski Maraton 2026 was scheduled for early January (registration deadline 2026-01-01), not early March. The 2026 race was cancelled due to extreme cold temperatures.",
+      "source_url": "https://www.svenskalag.se/savastskiteamif/sida/122257/boden-ski-maraton-2026"
+    }
+  },
+  "citations": [
+    "https://www.milsport.one/news/skiiing/55th-wmc-skiing-boden-swe-opening-ceremony-and-first-competitions",
+    "https://www.svenskalag.se/savastskiteamif/sida/122257/boden-ski-maraton-2026",
+    "https://boden.se/en/explore-and-enjoy/leisure-and-sports/fitness-trails-and-outdoor-facilities/ski-trails",
+    "https://boden.se/en/explore-and-enjoy/leisure-and-sports/fitness-trails-and-outdoor-facilities/downhill-skiing",
+    "https://www.visitboden.se/en/kampanj/sportlovskul-i-boden/",
+    "https://www.nordicmag.info/en/cross-country-skiing-boden-cup-of-sweden-mass-starts-skate-for-george-ersson-and-lisa-eriksson-1130/",
+    "https://www.swedishlapland.com/boden/",
+    "https://flyttatillboden.se/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:36:06Z"
+}

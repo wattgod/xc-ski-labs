@@ -1,0 +1,84 @@
+{
+  "slug": "vasaloppet-china",
+  "name": "Vasaloppet China",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 200,
+    "country": "China",
+    "region": "Northeast China (Dongbei)",
+    "discipline": "classic",
+    "field_size": 800,
+    "founded": 2003,
+    "website": "https://www.vasaloppet.cn",
+    "date": "First weekend of January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Main race is 50 km cross-country ski race confirmed across multiple sources",
+      "source_url": "https://www.worldloppet.com/wl-race/vasaloppet-china/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide total elevation gain data for the course",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event takes place in China, specifically in Changchun, Jilin Province",
+      "source_url": "https://www.vasaloppetchina.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Jilin Province in northeast China (Dongbei region). Source states 'north-east of China' and 'Jilin Province'",
+      "source_url": "https://www.worldloppet.com/wl-race/vasaloppet-china/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as '50 km cross-country ski race' in classic technique",
+      "source_url": "https://skiclassics.com/events/challengers/vasaloppet-china/"
+    },
+    "typical_participants": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source states 'gathers each edition about 800 participants from around the world'. 2026 had 2,227 athletes but this includes professional athletes and multiple race distances (50km, 25km, 6km, 1.5km, 0.3km), so 800 is reasonable for typical/historical participation",
+      "source_url": "https://skiclassics.com/events/challengers/vasaloppet-china/"
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First race held on March 15, 2003 with 750 registered participants",
+      "source_url": "https://www.worldloppet.com/wl-race/vasaloppet-china/"
+    },
+    "official_website_url": {
+      "status": "WRONG",
+      "correct_value": "https://www.vasaloppetchina.com",
+      "note": "The provided URL (vasaloppet.cn) does not appear in search results. The official website is vasaloppetchina.com, confirmed across multiple sources",
+      "source_url": "https://www.vasaloppetchina.com"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event consistently held in early January. 2026 edition was January 4, 2025 edition was January 4, confirming first weekend of January pattern",
+      "source_url": "https://www.vasaloppetchina.com"
+    }
+  },
+  "citations": [
+    "https://www.vasaloppetchina.com/virtual-vasaloppet/details/",
+    "https://www.vasaloppetchina.com",
+    "https://www.vasaloppetchina.com/program/",
+    "https://www.worldloppet.com/wl-race/vasaloppet-china/",
+    "https://worldsmarathons.com/marathon/vasaloppet-china",
+    "https://skiclassics.com/events/challengers/vasaloppet-china/",
+    "https://www.youtube.com/watch?v=_p6Z1_9zfOw",
+    "https://www.vasaloppetchina.com/welcome-to-join-vasaloppet-china-2026%EF%BC%81/",
+    "https://www.vasaloppetchina.com/category/news/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:58:32Z"
+}

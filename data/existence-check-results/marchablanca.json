@@ -1,0 +1,30 @@
+{
+  "slug": "marchablanca",
+  "name": "Marchablanca",
+  "country": "Argentina",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Multiple credible sources including Worldloppet, Ski Classics, and FasterSkier confirm Marchablanca as a real 21km cross-country ski race in Ushuaia, Argentina, organized by Club Andino Ushuaia, with over 30 years of history and recent editions in 2022-2024 alongside Ushuaia Loppet. It is held in Tierra Mayor Valley, often on the same date as Ushuaia Loppet, attracting hundreds of participants. No official site or direct results found in results, but listings in major series and detailed historical articles provide strong evidence.",
+    "sources": [
+      "https://findelmundo.tur.ar/en/c/eventos-deportivos/4982",
+      "https://fasterskier.com/2013/11/the-paradox-loppet-argentinas-marchablanca-ushuaia-loppet-and-their-world-loppet-candidacy/",
+      "https://skiclassics.com/events/challengers/ushuaia-loppet/",
+      "https://www.worldloppet.com/category/news/ushuaia-loppet/",
+      "https://www.worldloppet.com/tag/ushuaialoppet/"
+    ]
+  },
+  "citations": [
+    "https://findelmundo.tur.ar/en/c/eventos-deportivos/4982",
+    "https://fasterskier.com/2013/11/the-paradox-loppet-argentinas-marchablanca-ushuaia-loppet-and-their-world-loppet-candidacy/",
+    "https://skiclassics.com/events/challengers/ushuaia-loppet/",
+    "https://www.worldloppet.com/category/news/ushuaia-loppet/",
+    "https://skitrax.com/tag/marcha-blanca/",
+    "https://www.worldloppet.com/tag/ushuaialoppet/",
+    "https://www.worldloppet.com/marchablanca-ushuaia-loppet/"
+  ],
+  "checked_at": "2026-03-12T15:55:13Z"
+}

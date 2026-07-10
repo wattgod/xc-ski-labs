@@ -1,0 +1,32 @@
+{
+  "slug": "larch-hills-loppet",
+  "name": "Larch Hills Loppet",
+  "country": "Canada",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://skilarchhills.ca/loppet/",
+    "results_url": "https://skilarchhills.ca/loppet/videos-from-previous-loppets/",
+    "evidence_summary": "The Larch Hills Loppet (Reino Keski-Salmi Loppet) has a fully functional official website from Larch Hills Nordic Society with detailed race information, registration, course maps, and links to past results and videos for 2025 event on January 18. It is sanctioned by Nordiq Canada and Cross Country BC, with a Cross Country BC page confirming 430 participants in a prior event. Multiple subpages provide concrete organizational details including fees, categories, and contact info.",
+    "sources": [
+      "https://skilarchhills.ca/loppet/race-information/",
+      "https://skilarchhills.ca/loppet/registration/",
+      "https://www.crosscountrybc.ca/reino-keski-salmi-loppet-2025-0",
+      "https://skilarchhills.ca"
+    ]
+  },
+  "citations": [
+    "https://skilarchhills.ca/loppet/race-information/",
+    "https://skilarchhills.ca/loppet/race-information/entry-information/",
+    "https://skilarchhills.ca/loppet/course-information/",
+    "https://skilarchhills.ca/loppet/course-information/32km/",
+    "https://skilarchhills.ca/loppet/course-information/1km-kids-route/",
+    "https://skilarchhills.ca/loppet/registration/",
+    "https://skilarchhills.ca",
+    "https://skilarchhills.ca/loppet/",
+    "https://www.crosscountrybc.ca/reino-keski-salmi-loppet-2025-0",
+    "https://skilarchhills.ca/loppet/videos-from-previous-loppets/"
+  ],
+  "checked_at": "2026-03-12T15:53:25Z"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "marxa-beret",
+  "name": "Marxa Beret",
+  "country": "Spain",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.marxaberet.com/en/",
+    "results_url": "https://www.marxaberet.com/en/",
+    "evidence_summary": "Marxa Beret has an active official website with registration, rules, program, and past results like Sprint Salomon. It is listed on Ski Classics as a Challenger event with the 46th edition on February 1, 2026. News from Visit Val d'Aran confirms past editions, such as the 41st in 2020.",
+    "sources": [
+      "https://skiclassics.com/events/challengers/marxa-beret/",
+      "https://www.marxaberet.com/en/register/reglamento/",
+      "https://www.marxaberet.com/en/",
+      "https://www.visitvaldaran.com/en/marxa-beret-2020-abiertas-las-inscripciones-la-gran-fiesta-del-esqui-fondo/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/marxa-beret/",
+    "https://www.marxaberet.com/en/register/reglamento/",
+    "https://www.marxaberet.com/en/program/",
+    "https://www.marxaberet.com/en/",
+    "https://www.visitvaldaran.com/en/marxa-beret-2020-abiertas-las-inscripciones-la-gran-fiesta-del-esqui-fondo/",
+    "https://www.marxaberet.com/en/author/rami/",
+    "https://www.marxaberet.com/en/news/"
+  ],
+  "checked_at": "2026-03-12T15:55:43Z"
+}

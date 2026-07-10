@@ -1,0 +1,30 @@
+{
+  "slug": "muffin-race",
+  "name": "Muffin Race",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://www.crosscountryski.com/product/muffin/",
+    "results_url": null,
+    "evidence_summary": "The Muffin Race is a real annual junior cross-country ski event at Cross Country Ski Headquarters in Roscommon, MI, with the 33rd edition scheduled for February 22, 2026, as a team sprint relay. An official registration page provides full details including format, costs, and schedule. NordicSkiRacer.com lists the event and features a news update from the organizer confirming preparations and history.",
+    "sources": [
+      "https://www.crosscountryski.com/product/muffin/",
+      "https://nordicskiracer.com/news.asp?NewsID=16786",
+      "https://nordicskiracer.com/event-details.asp?id=4226"
+    ]
+  },
+  "citations": [
+    "https://www.crosscountryski.com/product/muffin/",
+    "https://nordicskiracer.com/news.asp?NewsID=16786",
+    "https://nordicskiracer.com/event-details.asp?id=4226",
+    "https://www.fis-ski.com/DB/cross-country/calendar-results.html",
+    "https://www.usskiandsnowboard.org/follow/cross-country",
+    "https://cmunordic.org/resources",
+    "https://www.usskiandsnowboard.org/teams/cross-country",
+    "https://www.skireg.com/Events/",
+    "https://www.nbcolympics.com/news/jessie-diggins-fuels-her-olympic-training-regimen-superhero-muffins"
+  ],
+  "checked_at": "2026-03-12T15:56:54Z"
+}

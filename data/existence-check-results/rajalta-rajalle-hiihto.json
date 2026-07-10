@@ -1,0 +1,30 @@
+{
+  "slug": "rajalta-rajalle-hiihto",
+  "name": "Rajalta Rajalle Hiihto",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "http://www.rajaltarajallehiihto.fi/",
+    "results_url": null,
+    "evidence_summary": "The official website rajaltarajallehiihto.fi provides detailed event information, including descriptions of the 440 km guided ski tour from Russian to Swedish border near the Arctic Circle, registration details for 2024 at 1950€, and FAQ on logistics and cancellations. A November 2024 announcement confirms the event's end after 38 editions with over 10,000 participants from 31 nationalities. A personal blog post also mentions participating in the event, supporting its historical reality.",
+    "sources": [
+      "http://www.rajaltarajallehiihto.fi/2-perussisaeltoe/9-rr-info-2",
+      "http://www.rajaltarajallehiihto.fi/en/news/74-the-border-to-border-skiing-comes-to-an-end",
+      "http://www.rajaltarajallehiihto.fi/en/faq",
+      "http://www.rajaltarajallehiihto.fi/2-perussisaeltoe/24-registration-has-ended",
+      "https://www.moxashack.com/turning-fifty/"
+    ]
+  },
+  "citations": [
+    "http://www.rajaltarajallehiihto.fi/2-perussisaeltoe/9-rr-info-2",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "http://www.rajaltarajallehiihto.fi/en/news/74-the-border-to-border-skiing-comes-to-an-end",
+    "http://www.rajaltarajallehiihto.fi/en/faq",
+    "https://enjoywinter.com/read-skipost/finland-the-finlandiahiihto-in-focus/",
+    "https://www.moxashack.com/turning-fifty/",
+    "http://www.rajaltarajallehiihto.fi/2-perussisaeltoe/24-registration-has-ended"
+  ],
+  "checked_at": "2026-03-12T16:01:13Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "vasaloppet-japan",
+  "name": "Vasaloppet Japan",
+  "facts": {
+    "distance_km": 45,
+    "elevation_m": 450,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "skate",
+    "field_size": "~2,000 starters",
+    "founded": 1981,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide specific distance information for Vasaloppet Japan. The official website mentions the race exists but does not list course distance details in the provided search results.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide elevation gain information for Vasaloppet Japan.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Japan. Vasaloppet Japan is held in Asahikawa, Hokkaido.",
+      "source_url": "https://vasaloppet.jp/index_e.html"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Hokkaido. The race is held in Asahikawa city, Hokkaido.",
+      "source_url": "https://vasaloppet.jp/index_e.html"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "The official website describes Vasaloppet Japan as 'クロスカントリースキー及び歩くスキーの国際大会' (cross-country ski and walking ski international competition), indicating both classic and leisure/walking ski disciplines, not skate only.",
+      "source_url": "https://vasaloppet.jp/index_e.html"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide specific participant numbers for Vasaloppet Japan. No data on typical starters found in available sources.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention the '44th Convention' and reference to a '36th Vasa Loppet Japan' but do not provide a clear founding year. The 44th edition would suggest founding around 1982-1983 if counting from 2026, but this is inference rather than explicit confirmation.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official website identified as vasaloppet.jp with English pages available at vasaloppet.jp/index_e.html",
+      "source_url": "https://vasaloppet.jp/index_e.html"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as March. The official website states the race is held 'every year in early March' (毎年3月上旬に開催).",
+      "source_url": "https://vasaloppet.jp/index_e.html"
+    }
+  },
+  "citations": [
+    "https://vasaloppet.jp/index_e.html",
+    "https://vasaloppet.jp/entry_e.html",
+    "https://vasaloppet.jp/access_e.html",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://runjapan.jp/pickup/vasa.html",
+    "https://vasaloppet.jp/summary_e.html",
+    "https://vasaloppet.us/2025/01/race-details-finalized/",
+    "https://vasaloppet.us/2024/03/2025-early-bird-registration-now-open/",
+    "https://www.vasaloppetchina.com/vasaloppet-history/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:58:08Z"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "wachau-ski-marathon",
+  "name": "Wachau Ski Marathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 250,
+    "country": "Austria",
+    "region": "Lower Austria",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1990,
+    "website": null,
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Wachau Ski Marathon' cross-country ski race with 25 km distance; all results refer to running or cycling events in Wachau region.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Wachau Ski Marathon' with 250m elevation gain; running events like Wachau Marathon described as flat.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Wachau region is in Austria, but no confirmation of a cross-country ski race named 'Wachau Ski Marathon'.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Wachau is in Lower Austria per running event sources, but no ski race confirmed.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for ski race; running events are not classic/skate skiing.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical 300 participants for ski race; running events have thousands.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1990 founding for ski race; Wachau running marathon ~1998-2000.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Wachau Ski Marathon'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm early February for ski race; running marathons in September.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.ahotu.com/event/wachau-marathon",
+    "https://www.pichler-wachau.com/en/active/running-skating-wachau.html",
+    "https://www.wachaumarathon.com/en/events/halfmarathon/",
+    "https://www.wachaumarathon.com/en/events/marathon/",
+    "https://www.wachaumarathon.com/en/around-the-race/race-weekend/",
+    "https://worldsmarathons.com/marathon/international-wachau-marathon",
+    "https://www.wachaumarathon.com/en/",
+    "https://www.wachau-radmarathon.at/en/event/information-for-participants",
+    "https://www.wachau-radmarathon.at/en/news/249-3-routes",
+    "https://www.finishers.com/en/event/marathon-de-wachau"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:59:00Z"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "haldo-hansson-minne",
+  "name": "Haldo Hansson Minne",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://haldos.se",
+    "results_url": null,
+    "evidence_summary": "The official website haldos.se details the 65th edition of Haldo Hanssons Minne as a 42 km classic cross-country ski race on February 15, 2025, organized by Alsens IF, Trångsvikens IF, and Tullus Sjöbygdens byalag, with seeding for Vasaloppet. A local news article from jamtlandstidning.se confirms the event's 65th running with 42 km and 15 km races. ProXCskiing lists it under Ski Classics events in Trångsviken, Sweden.",
+    "sources": [
+      "https://haldos.se",
+      "https://www.proxcskiing.com/el/event/haldo-hansson-minne/",
+      "https://www.jamtlandstidning.se/jt25v7-krokom/haldo-hanssons-minne-arrangeras-for-65-gangen/256592"
+    ]
+  },
+  "citations": [
+    "https://haldos.se",
+    "https://www.proxcskiing.com/el/event/haldo-hansson-minne/",
+    "https://www.jamtlandstidning.se/jt25v7-krokom/haldo-hanssons-minne-arrangeras-for-65-gangen/256592",
+    "https://archive.org/stream/8506985X13.nlm.nih.gov/8506985X13_djvu.txt",
+    "https://www.psychiatry.ru/siteconst/userfiles/file/englit/Michaela%20Amering%20(Author),%20Margit%20Schmolke%20(Author)%20-%20Recovery%20in%20Mental%20Health%20Reshaping%20scientific%20and%20clinical%20responsibilities%20(World%20Psychiatric%20Association).pdf"
+  ],
+  "checked_at": "2026-03-12T15:48:20Z"
+}

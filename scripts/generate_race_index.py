@@ -1,5 +1,5 @@
 """
-Nordic Lab — Race Index Generator
+XC Ski Labs — Race Index Generator
 Reads all race-data/*.json profiles and generates web/race-index.json
 for the search UI.
 """

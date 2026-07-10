@@ -1,0 +1,81 @@
+{
+  "slug": "vantaa-hiihto",
+  "name": "Vantaa-hiihto",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 200,
+    "country": "Finland",
+    "region": "Greater Helsinki",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": null,
+    "website": "https://www.vantaahiihto.fi",
+    "date": "First Sunday of March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources confirm or deny 50km; [6] mentions 'Vantaa Hiihto' event on 2022.03.05 but no distance details.",
+      "source_url": "https://www.proxcskiing.com/sv/event/vantaa-hiihto/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for elevation gain of Vantaa-hiihto.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "[6] confirms Finland for Vantaa Hiihto, but no direct match to all database claims.",
+      "source_url": "https://www.proxcskiing.com/sv/event/vantaa-hiihto/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Vantaa is in Greater Helsinki area per [1][4], but not tied specifically to 'Vantaa-hiihto' race details.",
+      "source_url": "https://www.vhs.fi/vantaan-hiihtoseura-vantaa-ski-club-in-english/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both for this race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for Vantaa-hiihto.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No year founded information available.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Database URL https://www.vantaahiihto.fi not found in results; [1][4] are VHS club sites, [6] mentions event but no official site confirmed.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "[6] lists 2022.03.05 (near first Sunday of March), but no confirmation of 'typical' date.",
+      "source_url": "https://www.proxcskiing.com/sv/event/vantaa-hiihto/"
+    }
+  },
+  "citations": [
+    "https://www.vhs.fi/vantaan-hiihtoseura-vantaa-ski-club-in-english/",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.vhs.fi/en/",
+    "https://www.finlandiahiihto.fi/registration",
+    "https://www.proxcskiing.com/sv/event/vantaa-hiihto/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:58:23Z"
+}

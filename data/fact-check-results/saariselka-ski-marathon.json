@@ -1,0 +1,84 @@
+{
+  "slug": "saariselka-ski-marathon",
+  "name": "Saariselkä Ski Marathon",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 700,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "classic",
+    "field_size": "~400-700 participants",
+    "founded": null,
+    "website": "https://www.saariselka.fi",
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Saariselkä Ski Marathon' or confirming 60km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Saariselkä Ski Marathon' or confirming 700m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Saariselkä is in Finland per multiple sources, but no confirmation of a 'Saariselkä Ski Marathon' event.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Saariselkä is in Lapland, Finland per sources, but no specific confirmation for the named race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming classic technique for 'Saariselkä Ski Marathon'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming ~400-700 participants for 'Saariselkä Ski Marathon'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for year founded or first edition of 'Saariselkä Ski Marathon'.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "WRONG",
+      "correct_value": "https://www.saariselka.fi",
+      "note": "Provided URL https://www.saariselka.fi does not resolve to an active site in search results; active site is https://skisaariselka.com (note the missing 'k' in 'saariselka'). No marathon info there.",
+      "source_url": "https://skisaariselka.com"
+    },
+    "race_date_month": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical April date for 'Saariselkä Ski Marathon'. Other ski events in Saariselkä occur in various months.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.kiilopaachallenge.fi/en/kiilopaa-ski-event/osallistujaohjeet/",
+    "https://pace.sport/events/arctic-ski-maraton",
+    "https://skisaariselka.com/ski-holiday-weeks-programme-16-2-8-3-2026/",
+    "https://skisaariselka.com",
+    "https://skisaariselka.com/events/",
+    "https://www.saariselkatrails.fi/en/",
+    "https://skisaariselka.com/videonaytot/",
+    "https://activitybookingsaariselka.fi",
+    "https://skisaariselka.com/activities/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:39Z"
+}

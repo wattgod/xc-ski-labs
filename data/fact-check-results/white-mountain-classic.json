@@ -1,0 +1,84 @@
+{
+  "slug": "white-mountain-classic",
+  "name": "White Mountain Classic",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "United States",
+    "region": "New Hampshire",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1990,
+    "website": "https://www.jacksonxc.org",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 30k classical race[1]",
+      "source_url": "https://skitrax.com/white-mountain-classic-30k/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Jackson, NH, United States[1][2][6]",
+      "source_url": "https://skitrax.com/white-mountain-classic-30k/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "New Hampshire, specifically Jackson[1][2][6]",
+      "source_url": "https://skitrax.com/white-mountain-classic-30k/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classical style/technique[1]",
+      "source_url": "https://skitrax.com/white-mountain-classic-30k/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "First edition limited to 300 racers[1]; recent results imply hundreds but no exact typical number of 400 confirmed within tolerance",
+      "source_url": "https://skitrax.com/white-mountain-classic-30k/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2005,
+      "note": "First Annual White Mountain Classic held January 22, 2005[1]",
+      "source_url": "https://skitrax.com/white-mountain-classic-30k/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Jackson Ski Touring Center/JacksonXC hosts the event[1][9]; registration at skireg.com links to Jackson, NH[6]",
+      "source_url": "https://www.jacksonxc.org"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Mid-January",
+      "note": "2026 event on Sun January 11[6]; first edition Jan 22, 2005[1]; recent weekend in January[2]",
+      "source_url": "https://www.skireg.com/white-mountain-classic-and-uscsa"
+    }
+  },
+  "citations": [
+    "https://skitrax.com/white-mountain-classic-30k/",
+    "https://nensa.net/2026/01/12/the-wave-returns-at-the-jackson-jaunt-white-mountain-classic-weekend-in-jackson-nh/",
+    "https://xcski.org/2025/10/white-mountain-nordic-introduces-chasing-gold-weekend-pass/",
+    "https://whitemountainski.co/pages/summer-2025-schedule",
+    "https://nensa.net/event/white-mountain-classic-and-jackson-jaunt/",
+    "https://www.skireg.com/white-mountain-classic-and-uscsa",
+    "https://whitemountainski.co/pages/saturday-night-nordic-lights",
+    "https://wmnordic.com/cross-country-ski-events/",
+    "https://www.jacksonxc.org/home/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:59:21Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "haanja-maraton",
+  "name": "Haanja Maraton",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "Estonia",
+    "region": "Võru County",
+    "discipline": "classic",
+    "field_size": 800,
+    "founded": null,
+    "website": "https://www.estoloppet.ee",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 42 km (or 41-43 km in recent listings, within ±3 km tolerance) as the main/long distance[1][2][3][4]",
+      "source_url": "https://www.worldloppet.com/haanja-maraton/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Estonia[1][2][3]",
+      "source_url": "https://www.worldloppet.com/haanja-maraton/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Haanja is in Võru County (Rõuge Parish within it); sources list Haanja/Rõuge Parish, Estonia[1][2][3]",
+      "source_url": "https://www.worldloppet.com/haanja-maraton/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed[1]",
+      "source_url": "https://www.worldloppet.com/haanja-maraton/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1998,
+      "note": "Belongs to Estoloppet series since 1998; described as second oldest in Estonia (implying pre-1998 start, but 1998 is key date found)[1]",
+      "source_url": "https://www.worldloppet.com/haanja-maraton/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "http://haanjamaraton.ee/",
+      "note": "Official site listed as http://haanjamaraton.ee/; estoloppet.ee is the series site[1]",
+      "source_url": "https://www.worldloppet.com/haanja-maraton/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Early March",
+      "note": "Recent/2026 dates: March 9 2024, March 7 2026 (early March, not late January)[2][3][4]",
+      "source_url": "https://www.ahotu.com/calendar/cross-country-skiing/estonia"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/haanja-maraton/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/estonia",
+    "https://www.ahotu.com/event/haanja-marathon",
+    "https://www.worldloppet.com",
+    "https://www.travelstride.com/trips/exodus-travels-cross-country-skiing-estonia",
+    "https://haanja100.ee/en/",
+    "https://teamtime.ee",
+    "https://orienteeringusa.org/2024/02/international-ski-orienteering-wraps-up-season-in-estonia/",
+    "https://news.err.ee/1609246959/reports-say-snow-pack-good-for-next-weekend-s-tartu-ski-marathon"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:40:14Z"
+}

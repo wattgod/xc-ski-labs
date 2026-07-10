@@ -1,0 +1,27 @@
+{
+  "slug": "marathon-de-la-clusaz",
+  "name": "Marathon de La Clusaz",
+  "country": "France",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No direct evidence found for a cross-country ski race named 'Marathon de La Clusaz'. Search results confirm La Clusaz has extensive Nordic skiing trails (53 km at Confins, 38 km at Beauregard) and hosts events like Boarder Line (cross-country boarder cross) and Défi Foly, but no marathon race results, official site, news articles, or listings in Worldloppet/Euroloppet/Ski Classics match the query.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.laclusaz.com/en/ski/alpine-skiing/",
+    "https://www.la-clusaz.fr",
+    "https://www.laclusaz.com/en/agenda/boarder-line/",
+    "https://www.laclusaz.com/en/ski/nordic-skiing/",
+    "https://www.laclusaz.com/en/ski/freeski/",
+    "https://www.ski-school-laclusaz.com/animations/private-race-organisation/",
+    "https://www.annecy-town.com/grands-evenements-la-clusaz_en/",
+    "https://www.laclusaz.com/en/ski/",
+    "https://www.laclusaz.com/en/agenda/defi-foly/",
+    "https://www.laclusaz.com/en/"
+  ],
+  "checked_at": "2026-03-12T15:54:45Z"
+}

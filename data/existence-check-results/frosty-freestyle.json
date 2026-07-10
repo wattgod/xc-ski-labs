@@ -1,0 +1,28 @@
+{
+  "slug": "frosty-freestyle",
+  "name": "Frosty Freestyle",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest",
+    "results_url": "https://nordicskiracer.com/frosty.asp",
+    "evidence_summary": "Active registration pages on SkiSignup confirm the Frosty Freestyle & Krazy Klassic races scheduled for January 10-11, 2026, at Huron Meadows Metropark in Brighton, MI, with detailed event info, distances, and Michigan Cup points. Nordicskiracer.com provides past results, photos, and video links, while Ahotu lists the event. RunSignup shows historical race details including awards and amenities.",
+    "sources": [
+      "https://www.skisignup.com/Race/MI/Brighton/FrostyFest",
+      "https://nordicskiracer.com/frosty/frosty-freestyle-race.asp",
+      "https://nordicskiracer.com/frosty.asp",
+      "https://www.ahotu.com/event/frosty-freestyle-krazy-klassic-cross-country-ski-race"
+    ]
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/MI/Brighton/FrostyFest",
+    "https://www.skisignup.com/Race/Events/MI/Brighton/FrostyFest",
+    "https://www.ahotu.com/event/frosty-freestyle-krazy-klassic-cross-country-ski-race",
+    "https://runsignup.com/Race/MI/Brighton/FrostyFreestyle",
+    "https://nordicskiracer.com/frosty/frosty-freestyle-race.asp",
+    "https://nordicskiracer.com/frosty.asp"
+  ],
+  "checked_at": "2026-03-12T15:45:51Z"
+}

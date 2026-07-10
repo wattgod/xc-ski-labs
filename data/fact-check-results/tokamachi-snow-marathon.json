@@ -1,0 +1,84 @@
+{
+  "slug": "tokamachi-snow-marathon",
+  "name": "Tokamachi Snow Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Japan",
+    "region": "Niigata",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1988,
+    "website": "https://www.tokamachishi-navi.jp",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a 'Tokamachi Snow Marathon' or any cross-country ski race with 30km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources reference a cross-country ski race in Tokamachi with 350m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Tokamachi events like Snow Festival are in Japan, but no confirmation of the specific ski race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Tokamachi is in Niigata, but no sources confirm for this race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe a classic cross-country ski race named Tokamachi Snow Marathon.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for any matching ski race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Snow Festival founded ~1950, but no info on ski race in 1988.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL is Tokamachi city navigation site; Snow Festival sites are snowfes.jp and tokamachishikankou.jp, but no ski race confirmation.",
+      "source_url": "https://www.tokamachishi-navi.jp"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Snow Festival in late February, but no ski race details match.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://snowfes.jp/hp/contact/tokamachi-snow-festival/",
+    "https://runjapan.jp/entry/runtes/smp/competitiondetail.do?raceId=E333768&div=1",
+    "https://jasumo.com/listing/tokamachi-snow-festival/",
+    "https://snowfes.jp/hp/english/75th_mainarea/",
+    "https://www.tokamachishikankou.jp/en/event/yukimatsuri/",
+    "https://snowrich-tokamachi.com/en/festival.html",
+    "https://snowfes.jp",
+    "https://snowrich-tokamachi.com/en/guidebook/pageindices/index16.html",
+    "https://www.mlit.go.jp/tagengo-db/en/R5-00091.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:14Z"
+}

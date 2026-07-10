@@ -1,0 +1,83 @@
+{
+  "slug": "tromso-skimaraton",
+  "name": "Tromsø Skimaraton",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 700,
+    "country": "Norway",
+    "region": "Troms",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": null,
+    "website": "https://www.tromsoskimaraton.no",
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Offers 10K, 21K, and 42K distances, matching 42 km marathon[2]",
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Tromsø, Norway[1][2]",
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Tromsø is in Troms county (Troms og Finnmark), historically Troms; race in Tromsømarka[2]",
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Explicitly 'KLASSISK' (classic style)[2]",
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 80,
+      "note": "2026 edition had total 80 participants (in race)[8]; outside ±20% tolerance of 500 (400-600)",
+      "source_url": "https://live.eqtiming.com/79671"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2009,
+      "note": "First arranged in 2009[2]",
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.tromsoskiklubb.no/tromsoskimaraton",
+      "note": "Official site is under Tromsø Skiklubb[1][2]; provided URL does not match",
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "February",
+      "note": "Typically February (e.g., 15.02.2025, 07.02.2026), not April[1][2]",
+      "source_url": "https://www.tromsoskiklubb.no/tromsoskimaraton"
+    }
+  },
+  "citations": [
+    "https://www.tromsoskiklubb.no/troms%C3%B8-skimaraton",
+    "https://www.tromsoskiklubb.no/tromsoskimaraton",
+    "https://www.tromsoskiklubb.no/mwc2027",
+    "https://tromsoalpinpark.no",
+    "https://kvaloyaskimaraton.no/english/",
+    "https://live.eqtiming.com/59106",
+    "https://msm.no/en/",
+    "https://live.eqtiming.com/79671"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:49Z"
+}

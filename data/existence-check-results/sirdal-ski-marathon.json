@@ -1,0 +1,32 @@
+{
+  "slug": "sirdal-ski-marathon",
+  "name": "Sirdal Ski Marathon",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "http://www.sirdal-skimaraton.no",
+    "results_url": null,
+    "evidence_summary": "Sirdal Skimaraton is listed as an official Worldloppet event with a dedicated page providing event details, dates, distances (23km/45km), and the official website www.sirdal-skimaraton.no, which is active and mentions past events including a virtual race in 2021[1][4]. A related event, Sirdalslåmi, is organized in Sirdal with registration and details on fjordnorway.com[2]. Sirdal is a confirmed ski area with extensive cross-country trails[3].",
+    "sources": [
+      "https://www.worldloppet.com/sirdal-skimaraton-nor/",
+      "http://www.sirdal-skimaraton.no",
+      "https://www.fjordnorway.com/de/Veranstaltungen/sirdalslami-evplnyxr1ezwfmftu5z2g",
+      "https://www.visitnorway.com/places-to-go/southern-norway/sirdal/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/sirdal-skimaraton-nor/",
+    "https://www.fjordnorway.com/de/Veranstaltungen/sirdalslami-evplnyxr1ezwfmftu5z2g",
+    "https://www.visitnorway.com/places-to-go/southern-norway/sirdal/",
+    "http://www.sirdal-skimaraton.no",
+    "https://sirdalfjellpark.no/en/ski-school/",
+    "https://sirdalfjellpark.no",
+    "https://sirdalfjellpark.no/en/prices/",
+    "https://sirdal-skisenter.no",
+    "https://sirdalfjellpark.no/en/explore/",
+    "https://sirdalfjellpark.no/en/skiservice/"
+  ],
+  "checked_at": "2026-03-12T16:03:39Z"
+}

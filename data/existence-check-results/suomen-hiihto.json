@@ -1,0 +1,27 @@
+{
+  "slug": "suomen-hiihto",
+  "name": "Suomen Hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a race named 'Suomen Hiihto'. Extensive search results detail 'Finlandia-hiihto', a real annual cross-country ski marathon in Lahti, Finland, with official site, history since 1973, and Worldloppet listing, but this does not match the queried name. No results, news, or listings for 'Suomen Hiihto' as a distinct organized event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.finlandiahiihto.fi",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://www.finlandiahiihto.fi/relay-and-team-race",
+    "https://www.finlandiahiihto.fi/registration",
+    "https://magenta-chameleon-rp3a.squarespace.com",
+    "https://hiihtoliitto.fi",
+    "https://www.finlandiahiihto.fi/program",
+    "https://hiihtoliitto.fi/en/front-page/",
+    "https://www.finlandiahiihto.fi/de/news"
+  ],
+  "checked_at": "2026-03-12T16:06:40Z"
+}

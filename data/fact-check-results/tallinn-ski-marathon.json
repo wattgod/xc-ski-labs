@@ -1,0 +1,85 @@
+{
+  "slug": "tallinn-ski-marathon",
+  "name": "Tallinn Ski Marathon",
+  "facts": {
+    "distance_km": 38,
+    "elevation_m": 200,
+    "country": "Estonia",
+    "region": "Harju County",
+    "discipline": "skate",
+    "field_size": 1500,
+    "founded": 1998,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm 38 km distance. Source [1] states '38 and 18 km Free Technique' and source [2] mentions '38 km and 19 km tracks'",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found in search results. Source [2] mentions 'longer climbs' in the main race versus night race, but no specific elevation figures provided",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Estonia as the country. Source [1] states 'Estonian ski marathon' and 'Location: Kõrvemaa, Estonia'",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Kõrvemaa",
+      "note": "Search results consistently identify the location as Kõrvemaa (a nature reserve in northern Estonia), not Harju County. Source [1] states 'Location: Kõrvemaa, Estonia' and source [2] confirms 'This Saturday, the 28th Tallinn Ski Marathon takes place in Kõrvemaa'",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "Free Technique (with classic track option)",
+      "note": "Source [1] specifies '38 and 18 km Free Technique'. Source [2] notes that 'we have even been able to add a classic track – a bonus that not every freestyle marathon has', indicating the primary discipline is freestyle/skate, not skate exclusively, but the database claim of 'skate' is imprecise",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found in search results. Sources discuss the event but do not provide typical attendance figures",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 1998,
+      "note": "The database claims 1998 as the year founded, but source [1] states the race 'belongs to Estoloppet ski marathon series since 1998' and source [2] references the '28th Tallinn Ski Marathon' in February 2026, which would place the first edition in 1998 or 1999. However, source [1] also states 'organized in 2023 for 25th time', which would indicate first edition in 1999, not 1998",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source [1] provides website URL: www.estoloppet.ee. This is the Estoloppet series website that includes the Tallinn Ski Marathon",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "February is confirmed as the typical race month. Source [1] lists 'Date: 25 February 2023' and source [2] confirms 'Saturday, February 21' for the 28th edition, and source [5] shows the 2026 race scheduled for 'Fri 20.02 - Sat 21.02'",
+      "source_url": "https://www.worldloppet.com/tallinn-ski-marathon/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/tallinn-ski-marathon/",
+    "https://news.err.ee/1609946807/ideal-conditions-in-store-for-this-saturday-s-tallinn-ski-marathon",
+    "https://jooksma.ee/en/race-pages/tallinna_maraton_2/",
+    "https://worldsmarathons.com/marathon/tallinn-marathon",
+    "https://www.estoloppet.ee/en",
+    "https://visiteurope.com/experiences/go-distance-estonia",
+    "https://www.jooks.ee/en/tallinn-marathon/program-info",
+    "https://www.jooks.ee/en/tallinn-marathon/",
+    "https://eestimaraton.ee/en/events?competition_id=55",
+    "https://tartumaraton.ee/en/tartu-maraton-2025"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:55:11Z"
+}

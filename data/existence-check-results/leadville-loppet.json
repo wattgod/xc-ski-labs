@@ -1,0 +1,29 @@
+{
+  "slug": "leadville-loppet",
+  "name": "Leadville Loppet",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://leadvilleloppet.itsyourrace.com",
+    "results_url": "https://leadvilleloppet.itsyourrace.com/ParticipantList.aspx?id=286",
+    "evidence_summary": "The Leadville Loppet is a real annual Nordic ski race in Leadville, Colorado, held in February as a fundraiser for the Mineral Belt Trail, with distances from 1K kids to 44K. Multiple sources include an official registration site with 2026 event details and schedule, participant lists from past events, and listings on leadvilletwinlakes.com and skisignup.com confirming 2023 races with timing. No Worldloppet or major series affiliation found, but concrete organizational evidence exists.",
+    "sources": [
+      "https://www.leadvilletwinlakes.com/listing/leadville-loppet/",
+      "https://www.skisignup.com/Race/Events/CO/Leadville/LeadvilleLoppet",
+      "https://leadvilleloppet.itsyourrace.com",
+      "https://leadvilleloppet.itsyourrace.com/ParticipantList.aspx?id=286"
+    ]
+  },
+  "citations": [
+    "https://www.leadvilletwinlakes.com/listing/leadville-loppet/",
+    "https://www.skisignup.com/Race/Events/CO/Leadville/LeadvilleLoppet",
+    "https://leadvilleloppet.itsyourrace.com",
+    "https://leadvilleloppet.itsyourrace.com/ParticipantList.aspx?id=286",
+    "https://loppet.org",
+    "https://www.itsyourrace.com/EventSchedule.aspx?id=286",
+    "https://leadvilleloppet.itsyourrace.com/Fundraising.aspx?id=286"
+  ],
+  "checked_at": "2026-03-12T15:53:37Z"
+}

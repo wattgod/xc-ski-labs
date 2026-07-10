@@ -1,0 +1,27 @@
+{
+  "slug": "halvvasan",
+  "name": "HalvVasan",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'HalvVasan' cross-country ski race in the search results. All results refer to Vasaloppet (90km), Vasaloppet 45 (45km), and other Vasaloppet Week events, but none mention 'HalvVasan' specifically. It may be a confusion with Vasaloppet 45 or a non-existent event.",
+    "sources": []
+  },
+  "citations": [
+    "https://mail.hotway.life/en/cross-country-skiing/sweden/vasaloppet",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://vasaloppet.se/en/ski/vasaloppet-45/",
+    "https://www.mynewsdesk.com/se/vasaloppet/pressreleases/vasaloppet-has-opened-registration-for-vasaloppet-2025-3306419",
+    "https://vasaloppet.se/en/",
+    "https://vasaloppet.se/en/ski/",
+    "https://www.worldloppet.com/wl-race/vasaloppet/",
+    "https://vasaloppet.se",
+    "https://mrsswede.org/2021/02/27/vasaloppet/"
+  ],
+  "checked_at": "2026-03-12T15:48:31Z"
+}

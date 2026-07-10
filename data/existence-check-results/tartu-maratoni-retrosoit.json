@@ -1,0 +1,29 @@
+{
+  "slug": "tartu-maratoni-retrosoit",
+  "name": "Tartu Maratoni Retrosõit",
+  "country": "Estonia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://tartumaraton.ee/en/tartu-maraton-2024/vintage",
+    "results_url": null,
+    "evidence_summary": "The 'Tartu Maraton Vintage' (also called Tartu Maraton Retrosõit or retro race) is a real 31 km cross-country ski event held every five years as part of the established Tartu Maraton series in Estonia, with official pages for 2024 (Feb 17) and 2026 (Feb 14) detailing registration, fees, start times, and Worldloppet eligibility. The main Tartu Maraton site confirms ongoing organization of skiing events. No direct past results in snippets, but event pages and structure indicate it's organized.",
+    "sources": [
+      "https://tartumaraton.ee/en/tartu-maraton-2024/vintage",
+      "https://tartumaraton.ee/en/tartu-maraton-2026/vintage",
+      "https://tartumaraton.ee/en/",
+      "https://tartumaraton.ee/en/tartu-maraton-2024"
+    ]
+  },
+  "citations": [
+    "https://tartumaraton.ee/en/tartu-maraton-2024/vintage",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/vintage",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/31-km-ft",
+    "https://tartumaraton.ee",
+    "https://tartumaraton.ee/en/",
+    "https://tartumaraton.ee/en/tartu-maraton-2024",
+    "https://tartumaraton.ee/en/tartu-maratoni-klassik-2026/history"
+  ],
+  "checked_at": "2026-03-12T16:07:31Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "carpathian-ski-marathon",
+  "name": "Carpathian Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "Ukraine",
+    "region": "Lviv Oblast",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1975,
+    "website": null,
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Carpathian Ski Marathon' or confirm 42 km distance",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention the race or confirm 600m elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources discuss Ukrainian Carpathians skiing but no specific mention of this race",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm Lviv Oblast for this race; general Carpathian info only",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention the race or its discipline (classic)",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical 300 participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1975 founding",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found in sources; race not mentioned",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm late February date",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.skiresort.info/ski-resorts/ukrainian-carpathians/sorted/altitude-difference/",
+    "https://ukraine-travel-secrets.com/skiing-carpathian-mountains",
+    "https://www.skiresort.info/ski-resorts/ukrainian-carpathians/",
+    "https://en.wikipedia.org/wiki/Bukovel",
+    "https://green-ukraine.com/carpathians-winter-sports/",
+    "https://www.gonomad.com/1248-skiing-carpathian-mountains-ukraine",
+    "https://www.snowboarder.com/news/ukraine-avalanche-highest-resort"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:36:38Z"
+}

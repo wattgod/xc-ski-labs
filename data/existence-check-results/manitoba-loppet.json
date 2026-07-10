@@ -1,0 +1,30 @@
+{
+  "slug": "manitoba-loppet",
+  "name": "Manitoba Loppet",
+  "country": "Canada",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "The Manitoba Loppet is hosted by the Whiteshell Cross Country Ski Club, described as the longest running annual cross-country ski race in Manitoba since 1973. CCSAM, the Cross Country Ski Association of Manitoba, announced the 47th edition on February 15, 2026, at Pinawa Club with registration details and multiple past editions referenced. No direct race results or official standalone website found, but provincial ski association announcements confirm it as a real, organized event.",
+    "sources": [
+      "https://www.pinawa.com/p/skiing-in-pinawa",
+      "https://ccsam.ca/2026/02/10/47th-manitoba-loppet/",
+      "https://ccsam.ca",
+      "https://ccsam.ca/tag/manitoba-loppet/"
+    ]
+  },
+  "citations": [
+    "https://www.pinawa.com/p/skiing-in-pinawa",
+    "https://loppet.org/bringing-the-world-to-wirth/",
+    "https://ccsam.ca/2026/02/10/47th-manitoba-loppet/",
+    "https://ccsam.ca",
+    "https://loppet.org/summer-club-championships/",
+    "https://ccsam.ca/tag/manitoba-loppet/",
+    "https://loppetcup.com",
+    "https://loppet.org/Experiences/loppet-ski-adults/"
+  ],
+  "checked_at": "2026-03-12T15:54:35Z"
+}

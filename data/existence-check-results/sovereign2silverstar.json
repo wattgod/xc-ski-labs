@@ -1,0 +1,33 @@
+{
+  "slug": "sovereign2silverstar",
+  "name": "Sovereign to Silver Star",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 9,
+    "official_website": "https://www.sovereign2silverstar.com",
+    "results_url": null,
+    "evidence_summary": "The Sovereign2SilverStar Ski Marathon has an official website with registration pages, history, and event details, confirming it as an annual event starting in 2022, with the 5th edition scheduled for April 4-5, 2026. Multiple independent sources including Sovereign Lake Nordic Club, SilverStar properties, Destination SilverStar, Ski Classics, and FasterSkier promote it as a real point-to-point nordic ski event from Sovereign Lake to SilverStar village. While specific race results pages were not directly in the snippets, the organized structure, past editions, and listings provide strong evidence of its existence.",
+    "sources": [
+      "https://www.sovereign2silverstar.com",
+      "https://www.silverstarproperties.ca/blog/sovereign2silver-star-ski-marathon/",
+      "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+      "https://www.sovereignlake.com/sovereign2silverstar/",
+      "https://skiclassics.com/events/challengers/sovereign-2-sliverstar-ski-marathon-classic/",
+      "https://fasterskier.com/2026/01/5th-annual-sovereign-2-silverstar-ski-marathon-s2s-make-it-your-olympic-event/"
+    ]
+  },
+  "citations": [
+    "https://www.silverstarproperties.ca/blog/sovereign2silver-star-ski-marathon/",
+    "https://destinationsilverstar.com/sovereign2silverstar-ski-marathon-race-the-ultimate-nordic-skiing-event/",
+    "https://www.sovereignlake.com/sovereign2silverstar/",
+    "https://www.sovereign2silverstar.com/WhoWeAre",
+    "https://www.sovereign2silverstar.com/WhoWeAre/our-history",
+    "https://skiclassics.com/events/challengers/sovereign-2-sliverstar-ski-marathon-classic/",
+    "https://www.sovereign2silverstar.com/registration",
+    "https://www.sovereign2silverstar.com",
+    "https://fasterskier.com/2026/01/5th-annual-sovereign-2-silverstar-ski-marathon-s2s-make-it-your-olympic-event/"
+  ],
+  "checked_at": "2026-03-12T16:05:19Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "tour-de-gaspe",
+  "name": "Tour de Gaspé",
+  "facts": {
+    "distance_km": 150,
+    "elevation_m": 2000,
+    "country": "Canada",
+    "region": "Quebec",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.tourdegaspe.com",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 200,
+      "note": "Search results consistently refer to 'Traversée de la Gaspésie' (not 'Tour de Gaspé') as a 200+ kilometre ski tour, with one source specifying '200 kilometre-plus'",
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention peaks reaching 4,000 feet and 25 peaks over 1,000 metres, but do not specify total elevation gain for the tour",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada (Quebec)",
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/"
+    },
+    "region_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Quebec (Gaspésie region, Gaspé Peninsula)",
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic and skate",
+      "note": "Search results indicate the event includes both cross-country skiers (classic technique implied) and snowshoers, but do not explicitly confirm skate skiing. However, the event is described as including diverse skiing styles",
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions 220 participants in February 2016 and another mentions 125 participants in an unspecified year. Insufficient data to establish 'typical' number",
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2003,
+      "note": "Search results state 'First organized in 2003'",
+      "source_url": "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide or verify the official website URL. The provided URL (https://www.tourdegaspe.com) does not appear in any search results",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "February (last week)",
+      "note": "Multiple sources confirm the event occurs 'for the last week of February', not March",
+      "source_url": "https://www.wiredforadventure.com/article/experience-traversee-de-la-gaspesie/"
+    }
+  },
+  "citations": [
+    "https://www.toqueandcanoe.com/2016/12/20/the-traversees-de-la-gaspesie/",
+    "https://www.aventurequebec.ca/en/outdoor-activities/outdoor-activities-quebec/winter/cross-country-skiing/gaspesie-quebec",
+    "https://www.wiredforadventure.com/article/experience-traversee-de-la-gaspesie/",
+    "https://www.bonjourquebec.com/en-us/listing/events/ultra-trail-gaspesia-100/0rsr",
+    "https://www.tourisme-gaspesie.com/en/discover/gaspesie-experiences/cross-country-skiing-and-snowshoeing/",
+    "https://catamounttrail.org/gaspe-not-too-far-away/",
+    "https://gaspesia.org/en/events/",
+    "https://www.telemarktalk.com/viewtopic.php?t=914&start=10"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:33Z"
+}

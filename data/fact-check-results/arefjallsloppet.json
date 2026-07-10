@@ -1,0 +1,82 @@
+{
+  "slug": "arefjallsloppet",
+  "name": "Arefjällsloppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "Sweden",
+    "region": "Jämtland",
+    "discipline": "both",
+    "field_size": 450,
+    "founded": null,
+    "website": "https://www.arefjallsloppet.se",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify or contradict the 42 km distance claim for Arefjällsloppet",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify or contradict the 500m elevation gain claim",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify Sweden as the country for Arefjällsloppet",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify Jämtland as the region",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify whether the race offers both classic and skate disciplines",
+      "source_url": null
+    },
+    "participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify typical participation of 450 athletes",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to determine the founding year of Arefjällsloppet",
+      "source_url": null
+    },
+    "website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the official website URL",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the typical race date of late March",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://watchingtheswedes.com/2019/03/03/the-worlds-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.learnswedishnow.com/blog/vasaloppet-the-worlds-oldest-cross-country-ski-race",
+    "https://www.youtube.com/watch?v=M4SBDZRDg-I",
+    "https://www.worldloppet.com/wl-race/vasaloppet/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:33:44Z"
+}

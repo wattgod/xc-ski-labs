@@ -1,0 +1,32 @@
+{
+  "slug": "pac-nw-loppet-series",
+  "name": "Pacific Northwest Loppet Series",
+  "country": "Canada and United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.pacificnorthwestloppetseries.com",
+    "results_url": "https://www.payak.ca/pacific-northwest-loppet-series/",
+    "evidence_summary": "The Pacific Northwest Loppet Series has an active official website detailing events, points systems, and new additions for 2024/25 and 2026 seasons across BC and Yukon sites. Multiple participating event sites reference it explicitly with schedules and links to results. News articles from FasterSkier and Castanet confirm its formation and promotion in BC and Washington State.",
+    "sources": [
+      "https://www.pacificnorthwestloppetseries.com",
+      "https://www.sovereign2silverstar.com",
+      "https://www.payak.ca/pacific-northwest-loppet-series/",
+      "https://www.yukonskimarathon.ca/pacific-northwest-loppet-series",
+      "https://fasterskier.com/2023/01/pacific-northwest-loppet-series/",
+      "https://www.castanet.net/news/Vernon/406787/Sovereign-2-SilverStar-Ski-Marathon-joins-4-event-series"
+    ]
+  },
+  "citations": [
+    "https://www.pacificnorthwestloppetseries.com",
+    "https://www.sovereign2silverstar.com",
+    "https://www.payak.ca/pacific-northwest-loppet-series/",
+    "https://www.yukonskimarathon.ca/pacific-northwest-loppet-series",
+    "https://fasterskier.com/2023/01/pacific-northwest-loppet-series/",
+    "https://loppet.org/programs/",
+    "https://loppet.org/Experiences/loppet-ski-adults/",
+    "https://www.castanet.net/news/Vernon/406787/Sovereign-2-SilverStar-Ski-Marathon-joins-4-event-series"
+  ],
+  "checked_at": "2026-03-12T15:59:21Z"
+}

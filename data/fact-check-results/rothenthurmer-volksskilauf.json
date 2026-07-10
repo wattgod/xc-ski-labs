@@ -1,0 +1,83 @@
+{
+  "slug": "rothenthurmer-volksskilauf",
+  "name": "Rothenthurmer Volksskilauf",
+  "facts": {
+    "distance_km": 23.5,
+    "elevation_m": 200,
+    "country": "Switzerland",
+    "region": "Schwyz",
+    "discipline": "skate",
+    "field_size": 400,
+    "founded": null,
+    "website": "https://www.swissloppet.ch",
+    "date": "Third Sunday of January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 23.5 km or 23,5 km (within ±3 km tolerance; one source says 22 km but official sources match)",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    },
+    "elevation_m": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source describes 'nur wenigen Metern Höhenunterschied' (only a few meters elevation difference), consistent with ~200m total gain within ±100m tolerance as a low-elevation course",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All sources confirm Switzerland (Schweiz)",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Rothenthurm, Schwyz canton implied by location and sources",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freie Technik (free technique/skating), with classic track prepared; listed as Skating",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants (~400); Swiss Loppet series attracts thousands overall but no specific numbers for this race",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1969,
+      "note": "58th edition in 2026 implies first edition 2026-57=1969; described as oldest in Switzerland with 35th in 2001 (2001-34=1967, close confirmation)",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://sc-r.ch/home-volksskilauf.html",
+      "note": "Official club site for the race; swissloppet.ch is the series site, not specific official race site",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-January, e.g., 19 Jan 2025 (57th, third Sunday), 18 Jan 2026 (58th, third Sunday)",
+      "source_url": "https://sc-r.ch/home-volksskilauf.html"
+    }
+  },
+  "citations": [
+    "https://sc-r.ch/home-volksskilauf.html",
+    "https://www.xc-ski.de/aktuelles/termine/rothenthurmer-volkslanglauf-schweiz-11/",
+    "https://www.xc-ski.de/aktuelles/termine/rothenthurmer-volkslanglauf-schweiz-9/",
+    "https://www.bote.ch/nachrichten/regionalsport/nach-zwei-absagen-rothenthurmer-volksskilauf-kann-stattfinden-art-1581469",
+    "https://www.swiss-ski.ch/events/swiss-loppet/",
+    "https://fitforlife.ch/wp-content/uploads/attachments/Rothenturmer-Volkslauf_12.2001.pdf",
+    "https://datasport.com/de/sportevents/serien/swiss-loppet/",
+    "https://www.langlauf.ch/de/swiss-loppet-volkslaeufe"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:18:42Z"
+}

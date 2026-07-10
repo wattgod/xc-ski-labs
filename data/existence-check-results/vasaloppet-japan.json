@@ -1,0 +1,30 @@
+{
+  "slug": "vasaloppet-japan",
+  "name": "Vasaloppet Japan",
+  "country": "Japan",
+  "tier": 2,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "https://vasaloppet.jp",
+    "results_url": null,
+    "evidence_summary": "A fully functional official website exists at vasaloppet.jp with details for the 2026 event, including entry information, access, and organization by local authorities and ski associations in Asahikawa, Hokkaido. Wikipedia confirms it as an annual event since 1981, but no race results, news articles, or listings in Worldloppet/Ski Classics were found in the results.",
+    "sources": [
+      "https://vasaloppet.jp",
+      "https://simple.wikipedia.org/wiki/Vasaloppet_Japan"
+    ]
+  },
+  "citations": [
+    "https://vasaloppet.jp",
+    "https://vasaloppet.jp/index_e.html",
+    "https://vasaloppet.jp/entry_e.html",
+    "https://vasaloppet.jp/access_e.html",
+    "https://simple.wikipedia.org/wiki/Vasaloppet_Japan",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://vasaloppet.jp/summary_e.html",
+    "https://www.skisignup.com/Race/Register?raceId=142178",
+    "https://www.vasaloppetchina.com/category/news/page/13/",
+    "https://www.vasaloppetchina.com/15th-vasaloppet-china-anniversary-edition-enters-the-worlds-ski-classics/"
+  ],
+  "checked_at": "2026-03-12T16:10:55Z"
+}

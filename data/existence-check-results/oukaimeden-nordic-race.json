@@ -1,0 +1,23 @@
+{
+  "slug": "oukaimeden-nordic-race",
+  "name": "Oukaimeden Nordic Race",
+  "country": "Morocco",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No official website, race results, news articles, listings in Worldloppet/FIS/Ski Classics, social media events, YouTube videos, or registration pages found for 'Oukaimeden Nordic Race'. Oukaimeden is a real ski resort in Morocco with mentions of skiing and a vague 2010 SCIJ image gallery reference to a 'nordic race' in a different location, but no concrete evidence of this specific organized cross-country ski race exists.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.visitoukaimeden.com/guides",
+    "https://www.visitoukaimeden.com",
+    "https://www.miksture.com/2023-morocco",
+    "https://oukaimeden.org",
+    "https://scij.ski/news/scij-image-gallery/",
+    "https://oukaimeden.org/ski-pass/"
+  ],
+  "checked_at": "2026-03-12T15:59:04Z"
+}

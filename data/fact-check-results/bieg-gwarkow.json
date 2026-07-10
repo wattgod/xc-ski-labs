@@ -1,0 +1,83 @@
+{
+  "slug": "bieg-gwarkow",
+  "name": "Bieg Gwarków",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 250,
+    "country": "Poland",
+    "region": "Silesia",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1974,
+    "website": "https://www.bieggwarkow.pl",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race. Search results returned information about 'Bieg Piastow' instead, which is a different cross-country ski race in Poland.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race to verify elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race to verify country.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race to verify region.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race to verify discipline.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race to verify participant numbers.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race to verify founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race or its official website. The provided URL could not be verified through search results.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found about 'Bieg Gwarków' race to verify typical race date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "https://www.skisprungschanzen.com/EN/Ski+Jumps/POL-Poland/D-Lower+Silesia/Jelenia+G%C3%B3ra/1683-Sobiesz%C3%B3w/",
+    "https://en.wikipedia.org/wiki/History_of_Silesia",
+    "https://en.wikipedia.org/wiki/Silesian_Voivodeship_(1920%E2%80%931939)",
+    "https://www.britannica.com/place/Silesia",
+    "https://www.tripadvisor.com/Attraction_Review-g274808-d2715888-Reviews-Bieg_Piastow-Szklarska_Poreba_Lower_Silesia_Province_Southern_Poland.html",
+    "https://dolnyslask.travel/en/obiekt/dolnoslaskie-centrum-sportu-polana-jakuszycka",
+    "https://www.wikiwand.com/en/articles/Jizera_Mountains"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:11:26Z"
+}

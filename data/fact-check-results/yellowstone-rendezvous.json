@@ -1,0 +1,83 @@
+{
+  "slug": "yellowstone-rendezvous",
+  "name": "Yellowstone Rendezvous",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Rocky Mountains",
+    "discipline": "both",
+    "field_size": "~1,000 starters",
+    "founded": 1981,
+    "website": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home",
+    "date": "First Saturday in March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "50k race confirmed; 50 km racers complete the 25 km loop twice[1][2]",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Course climbs from 6666 ft (~2032 m) to 6900 ft (~2103 m), difference ~234 m, but total elevation gain not specified[1]",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "West Yellowstone, Montana, United States[1][2]",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "West Yellowstone, Montana in Rocky Mountains region[1][2]",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "50k Freestyle and 25k Classic offered (both techniques)[1][2]",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Limited to first 1000 participants; ~1,000 starters matches within tolerance[2][3][8]",
+      "source_url": "https://www.skisignup.com/Race/MT/WestYellowstone/YellowstoneRendezvousRace"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "46th annual in 2026 implies first edition 1981 (2026-46+1=1981); 39th in 2018 confirms (2018-39+1=1980, close to 1981)[2][3]",
+      "source_url": "https://www.skisignup.com/Race/MT/WestYellowstone/YellowstoneRendezvousRace"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site with race info[1][5]",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First Saturday in March (e.g., March 7, 2026; March 3, 2018; March 8, 2025)[1][2][3][4]",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info"
+    }
+  },
+  "citations": [
+    "https://www.skirunbikemt.com/yellowstone-rendezvous-race/race-info",
+    "https://www.skisignup.com/Race/MT/WestYellowstone/YellowstoneRendezvousRace",
+    "https://www.skinnyski.com/racing/display.asp?Id=44338",
+    "https://www.skirunbikemt.com/yellowstone-rendezvous-race/schedule",
+    "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home",
+    "https://destinationyellowstone.com/events/rendezvous-ski-race/",
+    "https://outsidebozeman.com/activities/skiing/nordic-skiing/yellowstone-rendezvous",
+    "https://www.skirunbikemt.com/yellowstone-rendezvous-race/registration"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:58:30Z"
+}

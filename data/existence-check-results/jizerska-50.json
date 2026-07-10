@@ -1,0 +1,25 @@
+{
+  "slug": "jizerska-50",
+  "name": "Jizerská 50",
+  "country": "Czech Republic",
+  "tier": 1,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.jizerska50.cz/",
+    "results_url": "https://skiclassics.com/results/?race_id=1402",
+    "evidence_summary": "Jizerská 50 (Jizerská padesátka) is a real cross-country ski race in the Czech Republic, confirmed by official Ski Classics results listing numerous finishers with times, and etusuora.com providing startlists and results for multiple years including 2026. It is part of the Ski Classics series, with a working official website at jizerska50.cz featuring registration and past results. Additional evidence includes Worldloppet and Euroloppet listings, news coverage, YouTube videos, and social media presence.",
+    "sources": [
+      "https://skiclassics.com/results/?race_id=1402",
+      "https://etusuora.com/en/cross-country-skiing/ski-classics/jizerska50",
+      "https://www.jizerska50.cz/",
+      "https://www.worldloppet.com/index.php?races/jizerska50",
+      "https://www.facebook.com/jizerska50"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/results/?race_id=1402",
+    "https://etusuora.com/en/cross-country-skiing/ski-classics/jizerska50"
+  ],
+  "checked_at": "2026-03-12T15:50:11Z"
+}

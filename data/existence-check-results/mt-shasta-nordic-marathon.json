@@ -1,0 +1,30 @@
+{
+  "slug": "mt-shasta-nordic-marathon",
+  "name": "Mt Shasta Nordic Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": "https://www.mtshastanordic.org",
+    "results_url": null,
+    "evidence_summary": "Mt. Shasta Nordic Center exists with an official website promoting groomed trails, rentals, and general events like a 5K race and snowshoe race, but no mention of a 'Mt Shasta Nordic Marathon' or any marathon-length cross-country ski race. No race results, news articles, social media events, videos, or listings in major series found confirming the specific event. The organization focuses on trails and shorter events, with no historical marathon evidence.",
+    "sources": [
+      "https://www.mtshastanordic.org",
+      "https://www.mtshastanordic.org/events",
+      "https://www.mtshastanordic.org/events/50k-race"
+    ]
+  },
+  "citations": [
+    "https://www.mtshastanordic.org/mission-history",
+    "https://www.mtshastanordic.org/media-resources",
+    "https://www.mtshastanordic.org",
+    "https://www.mtshastanordic.org/info",
+    "https://www.mtshastanordic.org/facilities-upgrade-project",
+    "https://www.mtshastanordic.org/events",
+    "https://www.mtshastanordic.org/events/50k-race",
+    "https://www.mtshastanordic.org/events/snowshoe-race",
+    "https://www.newsbank.com/regional/solutions/access-global-newsbank"
+  ],
+  "checked_at": "2026-03-12T15:56:49Z"
+}

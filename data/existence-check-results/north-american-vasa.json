@@ -1,0 +1,32 @@
+{
+  "slug": "north-american-vasa",
+  "name": "North American Vasa",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.vasa.org/Race/NorthAmericanVasaFestivalofRaces/Page/Events",
+    "results_url": "https://www.vasa.org/Race/Results/88459",
+    "evidence_summary": "The North American Vasa Festival of Races has an official website on vasa.org detailing the 50th annual event for February 14-15, 2026, at Timber Ridge Resort in Traverse City, Michigan, with registration, schedules, and history since 1977. Race results are available directly on the site, and additional mentions appear on skisignup.com and nmmba.net confirming its status as a longstanding Midwest Nordic ski and fat bike event. No Worldloppet or FIS listings found, but multiple concrete sources including results and registration pages verify its existence.",
+    "sources": [
+      "https://www.vasa.org/Race/NorthAmericanVasaFestivalofRaces/Page/Events",
+      "https://www.skisignup.com/Race/NorthAmericanVasaFestivalofRaces/Page/About",
+      "https://nmmba.net/content.aspx?page_id=22&club_id=533979&module_id=708585",
+      "https://www.vasa.org/Race/Results/88459",
+      "https://www.vasa.org/Race/Register/?raceId=88459"
+    ]
+  },
+  "citations": [
+    "https://www.vasa.org/Race/NorthAmericanVasaFestivalofRaces/Page/Events",
+    "https://www.skisignup.com/Race/NorthAmericanVasaFestivalofRaces/Page/About",
+    "https://nmmba.net/content.aspx?page_id=22&club_id=533979&module_id=708585",
+    "https://www.vasa.org/Race/Events/MI/TraverseCity/NorthAmericanVasaFestivalofRaces",
+    "https://vasaloppet.us",
+    "https://www.vasa.org/Race/Results/88459",
+    "https://www.vasa.org/Race/MI/TraverseCity/NorthAmericanVasaFestivalofRaces",
+    "https://www.vasa.org/Race/Register/?raceId=88459",
+    "https://www.vasa.org/Race/Donate/MI/TraverseCity/NorthAmericanVasaFestivalofRaces"
+  ],
+  "checked_at": "2026-03-12T15:58:16Z"
+}

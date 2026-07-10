@@ -1,0 +1,81 @@
+{
+  "slug": "foothills-nordic-loppet",
+  "name": "Foothills Nordic Loppet",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 550,
+    "country": "Canada",
+    "region": "Alberta",
+    "discipline": "both",
+    "field_size": 250,
+    "founded": 2005,
+    "website": "https://www.foothillsnordicloppet.ca",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the distance for Foothills Nordic Loppet; search results mention other events like Cookie Race (24km, 15km) but not this specific race[2]",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide total elevation gain for Foothills Nordic Loppet",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Foothills Nordic Ski Club is based in Calgary, Alberta, Canada[1][2]",
+      "source_url": "https://www.foothillsnordic.ca/learn-to-loppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Alberta, specifically Calgary area and Kananaskis[1][2]",
+      "source_url": "https://www.foothillsnordic.ca/cookie-race"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention classic and skate in club programs but no specifics for Foothills Nordic Loppet[1]",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical number of participants for this race; Cookie Race has 500 max but is different event[2]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm founding year; Cookie Race noted as second oldest after Lake Louise Loppet but not this race[2][6]",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Club site is https://www.foothillsnordic.ca; provided URL https://www.foothillsnordicloppet.ca not found in results or confirmed as official for this race[1]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm date for Foothills Nordic Loppet; Cookie Race is late February[2][6]",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.foothillsnordic.ca/learn-to-loppet",
+    "https://www.foothillsnordic.ca/cookie-race",
+    "https://nordiqalberta.ca/wp-content/uploads/Race-Notice-AB-Cup-3-4-2022-Trials_-6-Dec-2021-FINAL.pdf",
+    "https://xcountryab.net/alberta-loppet-series/",
+    "https://foothills-nordic.squarespace.com/events-calendar",
+    "https://www.avenuecalgary.com/things-to-do/mountains/cross-country-ski-races-loppets-worth-the-drive/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:38:48Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "great-ski-race",
+  "name": "Great Ski Race",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 9,
+    "official_website": "https://thegreatskirace.com",
+    "results_url": "https://thegreatskirace.com/race-info/",
+    "evidence_summary": "The Great Ski Race is a well-documented, real organized event held annually on the first Sunday in March in the Lake Tahoe area. Multiple official website pages provide comprehensive race information including course details, logistics, history dating to 1977, registration information, and race results archives. The event is organized by the Tahoe Nordic Search & Rescue Team and has grown from 60 racers in 1977 to over 1,100 registered participants in peak years.",
+    "sources": [
+      "https://thegreatskirace.com",
+      "https://thegreatskirace.com/race-info/",
+      "https://thegreatskirace.com/about/",
+      "https://thegreatskirace.com/history/",
+      "https://thegreatskirace.com/the-inside-scoop/",
+      "https://thegreatskirace.com/the-start/",
+      "https://thegreatskirace.com/the-course/",
+      "https://thegreatskirace.com/become-a-sponsor/",
+      "https://thegreatskirace.com/reminders/"
+    ]
+  },
+  "citations": [
+    "https://thegreatskirace.com/become-a-sponsor/",
+    "https://thegreatskirace.com/race-info/",
+    "https://thegreatskirace.com/about/",
+    "https://thegreatskirace.com",
+    "https://thegreatskirace.com/history/",
+    "https://thegreatskirace.com/the-inside-scoop/",
+    "https://thegreatskirace.com/the-start/",
+    "https://thegreatskirace.com/the-course/",
+    "https://thegreatskirace.com/reminders/"
+  ],
+  "checked_at": "2026-03-12T15:47:31Z"
+}

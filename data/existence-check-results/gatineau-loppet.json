@@ -1,0 +1,33 @@
+{
+  "slug": "gatineau-loppet",
+  "name": "Gatineau Loppet",
+  "country": "Canada",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://gatineauloppet.com/?lang=en",
+    "results_url": "https://gatineauloppet.com/official-results-2025/?lang=en",
+    "evidence_summary": "The Gatineau Loppet has a fully functional official website with detailed history, news releases about past editions (e.g., 2024 with 2,348 participants, 2023 with 2,300), and official race results from 2025 listing top finishers. It is confirmed as part of the Worldloppet series, Canada's largest cross-country ski event held annually in February at Gatineau Park, with press releases and partner pages providing further organizational evidence.",
+    "sources": [
+      "https://gatineauloppet.com/?lang=en",
+      "https://gatineauloppet.com/about-us/gloppet/?lang=en",
+      "https://gatineauloppet.com/official-results-2025/?lang=en",
+      "https://gatineauloppet.com/category/news-en/?lang=en",
+      "https://gatineauloppet.com/about-us/?lang=en"
+    ]
+  },
+  "citations": [
+    "https://gatineauloppet.com/about-us/gloppet/?lang=en",
+    "https://gatineauloppet.com/about-us/?lang=en",
+    "https://gatineauloppet.com/legends-path/?lang=en",
+    "https://gatineauloppet.com/category/news-en/?lang=en",
+    "https://gatineauloppet.com/page/7/?lang=en",
+    "https://gatineauloppet.com/about-us/to-become-partner/?lang=en",
+    "https://gatineauloppet.com/?lang=en",
+    "https://gatineauloppet.com/info-for-skiers/?lang=en",
+    "https://gatineauloppet.com/official-results-2025/?lang=en",
+    "https://gatineauloppet.com/the-weekend/saturday-february-14-2026/27-km-classical/?lang=en"
+  ],
+  "checked_at": "2026-03-12T15:46:32Z"
+}

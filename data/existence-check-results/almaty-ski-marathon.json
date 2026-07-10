@@ -1,0 +1,27 @@
+{
+  "slug": "almaty-ski-marathon",
+  "name": "Almaty Ski Marathon",
+  "country": "Kazakhstan",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Almaty Ski Marathon' in Kazakhstan. Search results only reference the Almaty Marathon (road running event) and Winter Run (short snow trail runs, not ski marathons), with no mentions of skiing, cross-country races, Worldloppet listings, results, news, or social media for any ski marathon. The queried event appears fictional or confused with running events.",
+    "sources": []
+  },
+  "citations": [
+    "https://almaty-marathon.kz/en/events/almaty_marathon_2025/",
+    "https://almaty-marathon.kz/en/events/almaty_marathon_2026/",
+    "https://en.wikipedia.org/wiki/Almaty_Marathon",
+    "https://worldsmarathons.com/marathon/almaty-marathon",
+    "https://www.ahotu.com/event/almaty-marathon",
+    "https://almaty-marathon.kz/en/events/winter_run_2025/",
+    "https://almaty-marathon.kz/en/",
+    "https://almaty-marathon.kz/en/events/winter_run_2026/",
+    "https://almaty-marathon.kz/en/events",
+    "https://the-running-ginger.blog/almaty-marathon/"
+  ],
+  "checked_at": "2026-03-12T15:37:57Z"
+}

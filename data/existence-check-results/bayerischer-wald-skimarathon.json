@@ -1,0 +1,26 @@
+{
+  "slug": "bayerischer-wald-skimarathon",
+  "name": "Bayerischer Wald Skimarathon",
+  "country": "Germany",
+  "tier": 2,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a race named 'Bayerischer Wald Skimarathon'. Search results mention Skadi Loppet in Bodenmais (Bayerischer Wald region) and other cross-country/biathlon events, but no exact match, results, news, or listings for the queried event. Lacks official site, results, or specific mentions.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.skadi-loppet.de/de",
+    "https://www.ok-bayerischer-wald.de/en/",
+    "https://www.ok-bayerischer-wald.de/en/allgemein-en/",
+    "https://www.bayerischer-wald.de",
+    "https://www.ferienregion-nationalpark.de/aktuelles",
+    "https://www.nationalpark-bayerischer-wald.bayern.de/index.htm",
+    "https://www.nationalpark-bayerischer-wald.bayern.de/english/index.htm",
+    "https://www.biathlon-dahoam.de/en/home/",
+    "https://www.goxski.com/zwiesel"
+  ],
+  "checked_at": "2026-03-12T15:39:15Z"
+}

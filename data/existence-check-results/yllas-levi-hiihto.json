@@ -1,0 +1,34 @@
+{
+  "slug": "yllas-levi-hiihto",
+  "name": "Ylläs-Levi Hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://yllaslevi.fi/en/",
+    "results_url": null,
+    "evidence_summary": "The Ylläs-Levi Hiihto has a fully functional official website with detailed race info, program, registration details, and organization staff for the 2026 event (April 10-11), confirming it's an annual Euroloppet race in Finnish Lapland with 70km and 55km distances. Multiple tourism sites (yllas.fi, levi.fi) promote it as a real event with past participation of 2000 skiers in 2025. It mentions real-time results service on the site and partnerships like Fischer, though specific past results pages were not in the provided snippets.",
+    "sources": [
+      "https://yllaslevi.fi/en/race-info/",
+      "https://yllaslevi.fi/en/general-information/",
+      "https://yllaslevi.fi/en/",
+      "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+      "https://yllaslevi.fi/en/program/",
+      "https://yllas.fi/en/event/yllas-levi-hiihto-2026/",
+      "https://www.levi.fi/en/news-and-stories/yllas-levi-reaching-the-finish-line-with-the-right-equipment-and-tips/"
+    ]
+  },
+  "citations": [
+    "https://yllaslevi.fi/en/race-info/",
+    "https://yllaslevi.fi/en/general-information/",
+    "https://www.levi.fi/en/events/yllaes-levi-hiihto-2026/",
+    "https://yllaslevi.fi/en/",
+    "https://yllaslevi.fi/en/program/",
+    "https://yllas.fi/en/event/yllas-levi-hiihto-2026/",
+    "https://www.levi.fi/en/news-and-stories/yllas-levi-reaching-the-finish-line-with-the-right-equipment-and-tips/",
+    "https://yllas.fi/en/events/",
+    "https://yllas.fi"
+  ],
+  "checked_at": "2026-03-12T16:12:20Z"
+}

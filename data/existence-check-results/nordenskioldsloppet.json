@@ -1,0 +1,32 @@
+{
+  "slug": "nordenskioldsloppet",
+  "name": "Nordenskiöldsloppet",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.nordenskioldsloppet.com",
+    "results_url": "https://www.nordenskioldsloppet.com/2025",
+    "evidence_summary": "Multiple official websites detail the 220 km race in Jokkmokk, Sweden, with 2026 edition info, historical context, registration, and rules. Ski Classics lists it as a Challengers event with open registration. 2025 race results mention winner Johan Lövgren; Swedish Lapland confirms history and past editions.",
+    "sources": [
+      "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+      "https://skiclassics.com/register-now-for-the-2026-nordenskioldsloppet/",
+      "https://www.swedishlapland.com/stories/nordenskioeldsloppet/",
+      "https://www.nordenskioldsloppet.se",
+      "https://www.nordenskioldsloppet.com",
+      "https://www.nordenskioldsloppet.com/2025",
+      "https://www.nordenskioldsloppet.com/travel-nordenskioldsloppet"
+    ]
+  },
+  "citations": [
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://skiclassics.com/register-now-for-the-2026-nordenskioldsloppet/",
+    "https://www.swedishlapland.com/stories/nordenskioeldsloppet/",
+    "https://www.nordenskioldsloppet.se",
+    "https://www.nordenskioldsloppet.com",
+    "https://www.nordenskioldsloppet.com/2025",
+    "https://www.nordenskioldsloppet.com/travel-nordenskioldsloppet"
+  ],
+  "checked_at": "2026-03-12T15:58:10Z"
+}

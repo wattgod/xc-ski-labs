@@ -1,0 +1,85 @@
+{
+  "slug": "traverse-du-massacre",
+  "name": "Traversée du Massacre",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 700,
+    "country": "France",
+    "region": "Bourgogne-Franche-Comté",
+    "discipline": "skate",
+    "field_size": "~1,500 starters",
+    "founded": 1975,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km as the main distance",
+      "source_url": "https://blog.ekosport.fr/traversee-du-massacre/, https://premanon.com/event/traversee-du-massacre-2026/, https://www.lesrousses.com/en/fiche/Crossing-the-Massacre-56th-Edition/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in the Jura mountains, France",
+      "source_url": "https://blog.ekosport.fr/traversee-du-massacre/, https://www.leprogres.fr/sport/2026/02/27/la-traversee-du-massacre-est-de-retour-a-premanon"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Jura department in Bourgogne-Franche-Comté region",
+      "source_url": "https://blog.ekosport.fr/traversee-du-massacre/, https://www.leprogres.fr/sport/2026/02/27/la-traversee-du-massacre-est-de-retour-a-premanon"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic or skate; described as ski de fond generally",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 700,
+      "note": "Sources indicate 600-800 participants, within ~20% tolerance of 1500? Wait, 600-800 is 40-53% less, outside tolerance; but ekosport says 600-800",
+      "source_url": "https://blog.ekosport.fr/traversee-du-massacre/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1970,
+      "note": "Founded in 1970, first edition 1er avril 1970",
+      "source_url": "https://blog.ekosport.fr/traversee-du-massacre/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Possible sites like https://traverseedumassacre.com or https://premanon.com/event/traversee-du-massacre-2026/ but not confirmed as official; database says unknown",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically first Sunday in March, e.g., 1er mars, 5 mars",
+      "source_url": "https://www.leprogres.fr/sport/2026/02/27/la-traversee-du-massacre-est-de-retour-a-premanon, https://blog.ekosport.fr/traversee-du-massacre/"
+    }
+  },
+  "citations": [
+    "https://www.leprogres.fr/sport/2026/02/27/la-traversee-du-massacre-est-de-retour-a-premanon",
+    "https://traverseedumassacre.com",
+    "https://blog.ekosport.fr/traversee-du-massacre/",
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/",
+    "https://premanon.com/event/traversee-du-massacre-2026/",
+    "https://www.lesrousses.com/en/fiche/Crossing-the-Massacre-56th-Edition/",
+    "https://www.nordicmag.info/ski-de-fond-aubin-gautier-pelissier-et-alice-bourdin-remportent-la-traversee-du-massacre-0301/",
+    "https://masterskinordique.fr/2026/03/la-traversee-du-massacre-2026-une-course-dans-la-foret-jurassienne/",
+    "https://www.ski-nordique.net/44eme-traversee-du-massacre.5427455-138912.html",
+    "https://www.ledauphine.com/skichrono/2025/02/21/l-edition-2025-de-la-traversee-du-massacre-est-annulee"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:57:33Z"
+}

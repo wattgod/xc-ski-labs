@@ -1,0 +1,83 @@
+{
+  "slug": "karakol-ski-marathon",
+  "name": "Karakol Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 450,
+    "country": "Kyrgyzstan",
+    "region": "Issyk-Kul",
+    "discipline": "classic",
+    "field_size": 60,
+    "founded": 2017,
+    "website": "https://www.karakol.kg",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Karakol Ski Marathon' or any cross-country ski race with 30km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on 'Karakol Ski Marathon'; sources describe downhill ski resort elevations (2300-3040m base/top, 740m drop) but not cross-country race elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources confirm Karakol ski resort in Kyrgyzstan, but no mention of the specific cross-country ski marathon race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources confirm Issyk-Kul region for Karakol ski resort, but no confirmation of 'Karakol Ski Marathon'.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources reference the race or its discipline (classic).",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention participant numbers for any Karakol Ski Marathon.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition in 2017 for this race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.karakol.kg not referenced in results; karakol-ski.kg is ski base site, but no marathon info.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ski season Nov-March mentioned, but no specific race or February date for marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://visitkarakol.com/skibase_karakol",
+    "https://skicentralasia.com/skiing-in-kyrgyzstan/karakol/",
+    "https://karakolski.com/karakol/",
+    "https://karakolski.com",
+    "https://www.karakol-ski.kg",
+    "https://www.karakol-ski.info/en/home",
+    "https://visitkarakol.com",
+    "https://atc.kg/en/winter-weekend-in-karakol-eng/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:15:39Z"
+}

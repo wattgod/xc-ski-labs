@@ -1,0 +1,28 @@
+{
+  "slug": "spirit-of-the-rivers-loppet",
+  "name": "Spirit of the Rivers Loppet",
+  "country": "Canada",
+  "tier": 4,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 3,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "The Spirit of the Rivers Loppet is mentioned in multiple sources as a real cross-country ski race held in Prince George, BC at the Caledonia Nordic Centre. A news article from the Prince George Citizen references the race with specific registration details (zone4.ca, race fees $30 for 30km). However, no official dedicated website, race results archive, or recent confirmation of current operations were found in the search results.",
+    "sources": [
+      "https://www.crosscountrybc.ca/spirit-rivers-loppet-event-notice-prince-george",
+      "https://caledonia.nordic-pulse.com/events/spirit-of-the-rivers-loppet",
+      "https://www.princegeorgecitizen.com/archive/stride-glide-spirit-of-the-rivers-loppet-on-for-sunday-3739504"
+    ]
+  },
+  "citations": [
+    "https://www.loppet.ca",
+    "https://www.crosscountrybc.ca/spirit-rivers-loppet-event-notice-prince-george",
+    "https://skifortsmith.ca/loppet/",
+    "https://www.pacificnorthwestloppetseries.com",
+    "https://loppet.org",
+    "https://caledonia.nordic-pulse.com/events/spirit-of-the-rivers-loppet",
+    "https://www.princegeorgecitizen.com/archive/stride-glide-spirit-of-the-rivers-loppet-on-for-sunday-3739504"
+  ],
+  "checked_at": "2026-03-12T16:05:24Z"
+}

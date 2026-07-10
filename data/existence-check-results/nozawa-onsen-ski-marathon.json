@@ -1,0 +1,27 @@
+{
+  "slug": "nozawa-onsen-ski-marathon",
+  "name": "Nozawa Onsen Ski Marathon",
+  "country": "Japan",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No direct evidence of a 'Nozawa Onsen Ski Marathon' as an organized cross-country ski race was found. Search results confirm Nozawa Onsen Ski Resort exists with cross-country training courses (e.g., Minamihara and Uenotaira), FIS-approved alpine courses, and Olympic biathlon history, but no official website, race results, news articles, Worldloppet listings, social media events, YouTube videos, or registration pages for the specific marathon event. Mentions are limited to general cross-country facilities and training.",
+    "sources": []
+  },
+  "citations": [
+    "https://nozawaonsen.ski",
+    "https://en.nozawaski.com/the-mountain/mountain-facilities/training-facilities/",
+    "https://www.staynozawa.com/discover/ski-resort",
+    "https://nozawapeaks.com/en/faq-nozawa-onsen",
+    "https://runjapan.jp/entry/runtes/smp/competitiondetail.do?raceId=E336688&div=1",
+    "https://www.nozawaholidays.com/ski-resort/course-information/",
+    "https://en.nozawaski.com/the-mountain/",
+    "https://en.nozawaski.com/the-mountain/moutain-info/winter_events_shedule/",
+    "https://en.nozawaski.com",
+    "https://www.nozawahospitality.com/events"
+  ],
+  "checked_at": "2026-03-12T15:58:27Z"
+}

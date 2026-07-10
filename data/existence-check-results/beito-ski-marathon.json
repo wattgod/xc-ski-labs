@@ -1,0 +1,27 @@
+{
+  "slug": "beito-ski-marathon",
+  "name": "Beito Ski Marathon",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Beito Ski Marathon' cross-country ski race in Norway. Search results mention running marathons like Fjellmaraton and Norwegian Mountain Marathon in Beitostølen, FIS cross-country events like Beitosprinten with results, but no marathon-length ski race or the specific event name. No official site, results, news, Worldloppet listings, or social media for 'Beito Ski Marathon'.",
+    "sources": []
+  },
+  "citations": [
+    "https://worldsmarathons.com/marathon/det-norske-fjellmarathonbeitostolen",
+    "https://www.visitbeitostolen.no/en/stories/norwegian-mountain-marathon/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58148&seasoncode=2026",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=51484&seasoncode=2023",
+    "https://etusuora.com/en/cross-country-skiing/beitosprinten",
+    "https://beito.com/en/beitostolen-ski-center/",
+    "https://www.riddergaarden.no/en/blogg/sesongaapningen-paa-beitostoelen/",
+    "https://beito.com/en/frontpage/",
+    "https://www.beitoaktiv.com/en/",
+    "https://www.visitbeitostolen.no/en/"
+  ],
+  "checked_at": "2026-03-12T15:39:26Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "kopaonik-nordic-race",
+  "name": "Kopaonik Nordic Race",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 250,
+    "country": "Serbia",
+    "region": "Raška District",
+    "discipline": "classic",
+    "field_size": 60,
+    "founded": 2021,
+    "website": "https://www.skiserbia.rs",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Kopaonik Nordic Race' or any cross-country ski race with 20km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning 'Kopaonik Nordic Race' or any cross-country ski race with 250m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Kopaonik is in Serbia per multiple sources, but no confirmation of 'Kopaonik Nordic Race'.",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=FS&eventid=57929&seasoncode=2026"
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm Raška District specifically for a Nordic race; Kopaonik is in Serbia's Kopaonik National Park.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention classic or skate for 'Kopaonik Nordic Race'; Kopaonik has alpine and ski cross events.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention typical participants around 60 for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition in 2021 for 'Kopaonik Nordic Race'.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.skiserbia.rs not mentioned in results; ski cross uses skicrossserbia.com and skiresortsofsrb.com implied.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm mid-February for this specific Nordic race; ski cross is late February.",
+      "source_url": "https://serbia.com/kopaonik-makes-history-ski-cross-world-cup-in-serbia/"
+    }
+  },
+  "citations": [
+    "https://serbia.com/kopaonik-makes-history-ski-cross-world-cup-in-serbia/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=FS&eventid=57929&seasoncode=2026",
+    "https://trailracekopaonik.com",
+    "https://www.skiresort.info/ski-resort/kopaonik/",
+    "https://kopaonikonline.com/en/home-page/",
+    "https://npkopaonik.rs/en/",
+    "https://www.gorskihotel.com/gorski/en/kopaonik/",
+    "https://kopaonikonline.com/en/home-page/page/17/",
+    "https://gfl2027.com/location/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:16:03Z"
+}

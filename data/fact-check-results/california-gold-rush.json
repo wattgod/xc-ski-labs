@@ -1,0 +1,82 @@
+{
+  "slug": "california-gold-rush",
+  "name": "California Gold Rush",
+  "facts": {
+    "distance_km": 45,
+    "elevation_m": 500,
+    "country": "United States",
+    "region": "California",
+    "discipline": "skate",
+    "field_size": "~300-500",
+    "founded": null,
+    "website": "https://www.royalgorge.com",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Recent events (2025, 2026) list Gold Rush as 50km freestyle; older sources mention 45k but current is 50k",
+      "source_url": "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as US, Soda Springs, CA",
+      "source_url": "https://www.skisignup.com/Race/CA/SodaSprings/GoldRushUSMarathonNationalChampionship"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "California, Soda Springs",
+      "source_url": "https://www.skisignup.com/Race/CA/SodaSprings/GoldRushUSMarathonNationalChampionship"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle (skate)",
+      "note": "Gold Rush is Mass Start Freestyle Races (skate); classic is on Saturday for shorter distances",
+      "source_url": "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed via skisignup and direct page",
+      "source_url": "https://www.skisignup.com/Race/CA/SodaSprings/GoldRushUSMarathonNationalChampionship"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late March (e.g., March 16 2025, March 22 2026)",
+      "source_url": "https://www.royalgorge.com/goldrush"
+    }
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/CA/SodaSprings/GoldRushUSMarathonNationalChampionship",
+    "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/",
+    "https://www.royalgorge.com/goldrush",
+    "https://raceroster.com/events/2026/102793/the-great-ski-race",
+    "https://laketahoethisweek.com/royalgorge/events/gold-rush-festival",
+    "https://laketahoetravel.com/event/gold-rush-festival/",
+    "https://www.skireg.com/8158"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:20Z"
+}

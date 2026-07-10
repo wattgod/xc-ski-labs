@@ -1,0 +1,25 @@
+{
+  "slug": "oregon-nordic-invitational",
+  "name": "Oregon Nordic Invitational",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of an event called 'Oregon Nordic Invitational' was found in the search results. The actual event that exists is the 'XC Oregon High School XC Ski Invitational' (also called '2026 XC Oregon High School Invitational'), which is a different name. The user appears to have confused or misremembered the official event name.",
+    "sources": []
+  },
+  "citations": [
+    "https://xcoregon.org/xc-oregon-hs-invitational",
+    "https://oisran.org/about/",
+    "https://www.webscorer.com/oisran",
+    "https://oisran.org",
+    "https://conordicclub.wildapricot.org/events",
+    "https://xcoregon.org",
+    "https://onc.org",
+    "https://oisran.org/race-schedules/"
+  ],
+  "checked_at": "2026-03-12T15:58:42Z"
+}

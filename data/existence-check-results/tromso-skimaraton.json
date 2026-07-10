@@ -1,0 +1,30 @@
+{
+  "slug": "tromso-skimaraton",
+  "name": "Tromsø Skimaraton",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.tromsoskiklubb.no/tromsoskimaraton",
+    "results_url": "https://live.eqtiming.com/74677",
+    "evidence_summary": "Tromsø Skimaraton is organized by Tromsø Skiklubb with an official website detailing the event history since 2009, distances (10K, 21K, 42K classic style), course maps, seeding status for Vasaloppet, and registration info for 2025/2026. Race results for 2025 are available via EQ Timing. It is positioned as a test event for the 2027 Masters World Cup in Tromsø.",
+    "sources": [
+      "https://www.tromsoskiklubb.no/tromsoskimaraton",
+      "https://www.tromsoskiklubb.no/troms%C3%B8-skimaraton",
+      "https://www.tromsoskiklubb.no/l%C3%B8ypekart",
+      "https://live.eqtiming.com/74677"
+    ]
+  },
+  "citations": [
+    "https://www.skiforbundet.no/arrangementer/ismfwctromso25/",
+    "https://www.tromsoskiklubb.no/troms%C3%B8-skimaraton",
+    "https://www.tromsoskiklubb.no/tromsoskimaraton",
+    "https://www.tromsoskiklubb.no/l%C3%B8ypekart",
+    "https://kvaloyaskimaraton.no/english/",
+    "https://tromsoalpinpark.no/english-about-us/",
+    "https://msm.no/en/",
+    "https://live.eqtiming.com/74677"
+  ],
+  "checked_at": "2026-03-12T16:09:35Z"
+}

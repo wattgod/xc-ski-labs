@@ -1,0 +1,81 @@
+{
+  "slug": "ufa-marathon",
+  "name": "Ufa Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 450,
+    "country": "Russia",
+    "region": "Bashkortostan",
+    "discipline": "both",
+    "field_size": 750,
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming a 50km cross-country ski race named 'Ufa Marathon'. Search results mention running marathons in Ufa (up to 42.2km) and general 'Ski Track of Russia' events with 50km, but not specifically 'Ufa Marathon'.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide elevation gain for 'Ufa Marathon' cross-country ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ufa is in Russia, but no sources confirm a cross-country ski race 'Ufa Marathon' there.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ufa is in Bashkortostan, Russia, but no sources confirm the ski race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources detail classic/skate for 'Ufa Marathon'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for 'Ufa Marathon'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide founding year for 'Ufa Marathon'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.russialoppet.ru not mentioned in search results; no confirmation it hosts 'Ufa Marathon'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm late February for 'Ufa Marathon'. 'Ski Track of Russia' is typically February, but not specific to Ufa Marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://eng.bashinform.ru/news/social/2024-09-23/x-ufa-international-marathon-was-held-in-ufa-3942434",
+    "https://www.youtube.com/watch?v=rvrR1iF1iVk",
+    "https://www.alamy.com/stock-photo/ski-track-of-russia.html",
+    "https://www.youtube.com/watch?v=FC7VkoxVLRI",
+    "https://www.teamusa.com/profiles/douglas-hoover",
+    "https://mid.ru/upload/archive/d288049854eadf85c106243a0a474246.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:57:33Z"
+}

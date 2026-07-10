@@ -1,0 +1,32 @@
+{
+  "slug": "idre-classic",
+  "name": "Idre Classic",
+  "country": "Sweden",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://idreclassic.se/",
+    "results_url": "https://ssfta.skidor.com/event/47345",
+    "evidence_summary": "The official website idreclassic.se provides detailed event information including course maps (bansträckning), participant info, and post-race details. The Swedish Ski Association site ssfta.skidor.com lists Idre Classic as an event on 11 April 2026 with registration and results access. Idre Fjäll's site hosts cross-country competitions, supporting the location. No direct news or YouTube found in results, but official site and association listing confirm organization.",
+    "sources": [
+      "https://idreclassic.se/banstrackning/",
+      "https://idreclassic.se/efter-loppet/",
+      "https://ssfta.skidor.com/event/47345",
+      "https://www.idrefjall.se/en/training-competitions/"
+    ]
+  },
+  "citations": [
+    "https://www.idrefjall.se/en/training-competitions/",
+    "https://www.idrefjall.se/en/training-competitions/race-arena/",
+    "https://idrefjallmaraton.se/en/entry/",
+    "https://www.idrefjall.se/en/skiing/",
+    "https://www.visitdalarna.se/en/do/rental/idrefjallens-sport-ski-rental-ski-workshop",
+    "https://idreclassic.se/banstrackning/",
+    "https://www.idrefjall.se/en/events/",
+    "https://ssfta.skidor.com/event/47345",
+    "https://skiclassics.com",
+    "https://idreclassic.se/efter-loppet/"
+  ],
+  "checked_at": "2026-03-12T15:49:18Z"
+}

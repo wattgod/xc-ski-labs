@@ -1,0 +1,34 @@
+{
+  "slug": "white-pine-stampede",
+  "name": "White Pine Stampede",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://whitepinestampede.org",
+    "results_url": "https://whitepinestampede.org/index.php/race-results/",
+    "evidence_summary": "The White Pine Stampede has a fully functional official website with pages for registration, trail updates for 2026, race maps, contact info, and a dedicated results page listing results from 2013 to 2025 including the 2024 'White Pine 2.0' event. The site details its history as Northern Michigan's oldest point-to-point ski race, with specific dates, locations in Mancelona, MI, and options for 12.5k, 22k, and 40k distances. Multiple subpages confirm ongoing organization, past events, and future planning through 2026.",
+    "sources": [
+      "https://whitepinestampede.org",
+      "https://whitepinestampede.org/index.php/white-pine-stampede-2-0/",
+      "https://whitepinestampede.org/index.php/trail-updates/",
+      "https://whitepinestampede.org/index.php/register/",
+      "https://whitepinestampede.org/index.php/race-results/",
+      "https://whitepinestampede.org/index.php/about-us-history/",
+      "https://whitepinestampede.org/index.php/contact-us/"
+    ]
+  },
+  "citations": [
+    "https://whitepinestampede.org/index.php/white-pine-stampede-2-0/",
+    "https://whitepinestampede.org",
+    "https://whitepinestampede.org/index.php/trail-updates/",
+    "https://whitepinestampede.org/index.php/register/",
+    "https://whitepinestampede.org/index.php/race-results/",
+    "https://whitepinestampede.org/index.php/about-us-history/",
+    "https://whitepinestampede.org/index.php/maps/",
+    "https://whitepinestampede.org/index.php/race-map/",
+    "https://whitepinestampede.org/index.php/contact-us/"
+  ],
+  "checked_at": "2026-03-12T16:11:58Z"
+}

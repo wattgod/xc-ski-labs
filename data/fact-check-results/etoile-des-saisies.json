@@ -1,0 +1,83 @@
+{
+  "slug": "etoile-des-saisies",
+  "name": "Étoile des Saisies",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 650,
+    "country": "France",
+    "region": "Savoie",
+    "discipline": "skate",
+    "field_size": "~600",
+    "founded": null,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "The 42 km distance is correct, but this is only ONE of multiple race distances offered. The race includes 42km (Marathon), 21km (Semi-Marathon), 10km, 5km, 3km, and 1.5km options. The database claim appears to reference only the marathon distance without acknowledging the multi-distance format.",
+      "source_url": "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain information found in search results. Sources describe the race but do not provide elevation gain data.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "France is confirmed. Race takes place in Les Saisies, French Alps.",
+      "source_url": "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Savoie is confirmed as the region in the French Alps.",
+      "source_url": "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle",
+      "note": "The race is explicitly described as 'style libre' (freestyle), not skate. Sources consistently state it is a free-style cross-country ski race open to all.",
+      "source_url": "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found in search results. Sources describe the race as 'popular' and 'open to all' but provide no specific attendance figures.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions a '27e édition' (27th edition) held on April 3, but the exact founding year cannot be determined from available sources.",
+      "source_url": "https://www.nordicmag.info/ski-de-fond-tout-ce-quil-faut-savoir-sur-letoile-des-saisies-0311/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Multiple websites provide information about the race (explore-savoie.com, lessaisies.com, savoienordic.com), but no single official website URL is explicitly identified as the primary source.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Late March",
+      "note": "The race takes place in late March, not late January. The 2026 edition is scheduled for Sunday, March 29, 2026. The race is described as closing the marathon season in spring.",
+      "source_url": "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/"
+    }
+  },
+  "citations": [
+    "https://www.explore-savoie.com/en/sit/etoile-des-saisies-149836/",
+    "https://en.lessaisies.com/events/etoile-des-saisies-2/",
+    "https://www.savoienordic.com/etoile-des-saisies.html",
+    "https://www.lessaisies.com/evenements/etoile-des-saisies/",
+    "https://www.ledauphine.com/skichrono/2024/03/31/etoiles-des-saisies-revivez-la-derniere-course-de-la-saison",
+    "https://www.chamberymontagnes.com/en/offers/etoile-des-saisies-les-saisies-en-5993318/",
+    "https://en.lessaisies.com/offers/etoile-des-saisies-les-saisies-en-4028544/",
+    "https://www.nordicmag.info/ski-de-fond-tout-ce-quil-faut-savoir-sur-letoile-des-saisies-0311/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:47:34Z"
+}

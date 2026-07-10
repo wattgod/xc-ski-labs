@@ -1,0 +1,83 @@
+{
+  "slug": "pogostan-hiihto",
+  "name": "Pogostan Hiihto",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 400,
+    "country": "Finland",
+    "region": "North Karelia",
+    "discipline": "both",
+    "field_size": "~500-1,000",
+    "founded": 1960,
+    "website": "https://ilu.fi/pogostan-hiihto",
+    "date": "Mid-March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Distances of 30 and 60 km available[1]",
+      "source_url": "https://northstar-hotel.fi/en/our-programs/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Finland, in Ilomantsi, North Karelia[1][2]",
+      "source_url": "https://northstar-hotel.fi/en/our-programs/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "North Karelia, Ilomantsi[1][2]",
+      "source_url": "https://northstar-hotel.fi/en/our-programs/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and skating styles[1]",
+      "source_url": "https://northstar-hotel.fi/en/our-programs/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Held for almost 50 years (as of ~2023-2024), implies ~1970s start, but no exact year confirmed; 1960 unverified",
+      "source_url": "https://northstar-hotel.fi/en/our-programs/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Database URL not confirmed in results; no official site directly verified, though https://live.eqtiming.com/74075 for 2025[8]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "18.-19.3.2017 confirms March timing[2]",
+      "source_url": "https://www.youtube.com/watch?v=dprihkW1Nkw"
+    }
+  },
+  "citations": [
+    "https://northstar-hotel.fi/en/our-programs/",
+    "https://www.youtube.com/watch?v=dprihkW1Nkw",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://www.finlandiahiihto.fi/for-skier",
+    "https://www.visitkarelia.fi/en/events-in-north-karelia/",
+    "https://enjoywinter.com/read-skipost/finland-the-finlandiahiihto-in-focus/",
+    "https://www.pogostanultra.fi/english-summary/",
+    "https://live.eqtiming.com/74075"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:11Z"
+}

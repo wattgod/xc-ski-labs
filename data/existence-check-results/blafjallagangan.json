@@ -1,0 +1,30 @@
+{
+  "slug": "blafjallagangan",
+  "name": "Bláfjallagangan",
+  "country": "Iceland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://blafjallagangan.is/en/",
+    "results_url": null,
+    "evidence_summary": "The official website blafjallagangan.is details the event history, including past dates like March 2022 and 2023, registration info, and its status as part of Euroloppet. Active registration is available on netskraning.is for 2026 events. Worldloppet lists it with a specific past date and links back to the official site, confirming its legitimacy as an organized Icelandic cross-country ski race.",
+    "sources": [
+      "https://blafjallagangan.is/en/",
+      "https://netskraning.is/blafjallagangan/?lang=en",
+      "https://www.worldloppet.com/blafjallagangan-isl/",
+      "https://blafjallagangan.is/en/blafjallagangan-2021-skraning/"
+    ]
+  },
+  "citations": [
+    "https://blafjallagangan.is/en/",
+    "https://netskraning.is/blafjallagangan/?lang=en",
+    "https://www.worldloppet.com/blafjallagangan-isl/",
+    "https://fossavatn.is/en/",
+    "https://blafjallagangan.is/en/blafjallagangan-2021-skraning/",
+    "https://blafjallagangan.is/en/blafjallagongunni-frestad-um-oakvedinn-tima/",
+    "https://blafjallagangan.is/en/blafjallagongunni-2020-aflyst/",
+    "https://blafjallagangan.is/en/blafjallagongunni-frestad-til-10-april/"
+  ],
+  "checked_at": "2026-03-12T15:40:55Z"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "three-rivers-classic",
+  "name": "Three Rivers Classic",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Colorado",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 1985,
+    "website": "https://www.leadvillenordic.org",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Three Rivers Classic' cross-country ski race or confirm 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Three Rivers Classic' or provide elevation gain data.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources confirm 'Three Rivers Classic' exists in the United States.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources link 'Three Rivers Classic' to Colorado; [3] mentions Three Rivers Ski League but for alpine skiing in Oregon.",
+      "source_url": "https://www.ski3rivers.org/schedule"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources confirm classic technique for 'Three Rivers Classic'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention typical participants (~50) for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources confirm 1985 founding for 'Three Rivers Classic'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.leadvillenordic.org not mentioned in results; no site confirms 'Three Rivers Classic'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources confirm early February for this race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.destinationgranby.com/blog/post/guide-to-nordic-skiing-in-granby/",
+    "https://www.cbnordic.org/alley-loop",
+    "https://www.ski3rivers.org/schedule",
+    "https://coloradocrosscountry.com/events",
+    "https://www.telluridenordic.com/about-us"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:06Z"
+}

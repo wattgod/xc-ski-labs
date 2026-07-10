@@ -1,0 +1,79 @@
+{
+  "slug": "manitoba-loppet",
+  "name": "Manitoba Loppet",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 50,
+    "country": "Canada",
+    "region": "Manitoba",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.ccsam.ca",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "The Manitoba Loppet offers distances of 30 km, 15 km, 6 km, and 3 km, not 25 km.",
+      "source_url": "https://www.whiteshellskiclub.com/news"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada (Manitoba).",
+      "source_url": "https://www.whiteshellskiclub.com/news"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Manitoba.",
+      "source_url": "https://www.whiteshellskiclub.com/news"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "All races are classic technique only.",
+      "source_url": "https://ccsam.ca/2026/02/10/47th-manitoba-loppet/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 96,
+      "note": "Typical number around 96-98 participants (e.g., 47th: 96, 46th: 98), not 50; outside ±20% tolerance.",
+      "source_url": "https://www.whiteshellskiclub.com/news"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Whiteshell club founded 1973, but first edition year of Manitoba Loppet unknown; 47th in 2026 implies ~1980 but unconfirmed.",
+      "source_url": "https://www.pinawa.com/p/skiing-in-pinawa"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.ccsam.ca/ hosts event page (47th Manitoba Loppet), but unclear if primary official site; Whiteshell club site also prominent.",
+      "source_url": "https://ccsam.ca/2026/02/10/47th-manitoba-loppet/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February (e.g., Feb 15 2026, Feb 2 2025).",
+      "source_url": "https://www.whiteshellskiclub.com/news"
+    }
+  },
+  "citations": [
+    "https://www.whiteshellskiclub.com/news",
+    "https://www.falconridgeski.com/floppet",
+    "https://www.pinawa.com/p/skiing-in-pinawa",
+    "https://ccsam.ca/2026/02/10/47th-manitoba-loppet/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:16:44Z"
+}

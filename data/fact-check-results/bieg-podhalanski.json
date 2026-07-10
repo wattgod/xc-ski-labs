@@ -1,0 +1,82 @@
+{
+  "slug": "bieg-podhalanski",
+  "name": "Bieg Podhalański",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Poland",
+    "region": "Tatra Mountains",
+    "discipline": "both",
+    "field_size": 450,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "30 km distance confirmed for the main race",
+      "source_url": "https://www.cnbklikuszowa.pl/aktualnosc/bieg-podhalanski-im-jana-pawla-ii"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event held in Poland (Nowy Targ)",
+      "source_url": "https://bieg.nowytarg.pl"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Podhale region in Tatra Mountains area (Nowy Targ, near Zakopane)",
+      "source_url": "https://bieg.nowytarg.pl/2024/08/22/xiii-bieg-podhalanski-1-lutego-2025-r/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic style explicitly stated; no mention of skate, but database 'both' not contradicted",
+      "source_url": "https://www.cnbklikuszowa.pl/aktualnosc/bieg-podhalanski-im-jana-pawla-ii"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 600,
+      "note": "Typical number around 600 participants",
+      "source_url": "https://bieg.nowytarg.pl"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No exact year of first edition found; editions from II (possibly ~2010) to XIII (2025) exist",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://bieg.nowytarg.pl",
+      "note": "Official website identified",
+      "source_url": "https://bieg.nowytarg.pl"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February (e.g., 03.02.2024, 01.02.2025)",
+      "source_url": "https://www.cnbklikuszowa.pl/aktualnosc/bieg-podhalanski-im-jana-pawla-ii"
+    }
+  },
+  "citations": [
+    "https://www.cnbklikuszowa.pl/aktualnosc/bieg-podhalanski-im-jana-pawla-ii",
+    "https://bieg.nowytarg.pl/mapa-i-profil-trasy-biegu-podhalanskiego/",
+    "https://bieg.nowytarg.pl/2024/08/22/xiii-bieg-podhalanski-1-lutego-2025-r/",
+    "https://formularz.ultimasport.pl/333/List",
+    "https://bieg.nowytarg.pl/wyniki/",
+    "https://bieg.nowytarg.pl",
+    "https://bieg.nowytarg.pl/page/2/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:35:17Z"
+}

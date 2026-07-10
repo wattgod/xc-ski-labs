@@ -1,0 +1,81 @@
+{
+  "slug": "tjejvasan",
+  "name": "Tjejvasan",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 200,
+    "country": "Sweden",
+    "region": "Dalarna",
+    "discipline": "classic",
+    "field_size": "~7,850 starters",
+    "founded": 1988,
+    "website": "https://www.vasaloppet.se/en/races/tjejvasan/",
+    "date": "Last Saturday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Tjejvasan is 30 km long",
+      "source_url": "https://vasaloppet.se/en/ski/tjejvasan/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide elevation gain data for Tjejvasan",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Tjejvasan takes place in Sweden",
+      "source_url": "https://vasaloppet.se/en/ski/tjejvasan/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Tjejvasan is part of Vasaloppet, which is located in Dalarna, Sweden",
+      "source_url": "https://www.learnswedishnow.com/blog/vasaloppet-the-worlds-oldest-cross-country-ski-race"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official source specifies 'Classic technique' for competition class",
+      "source_url": "https://vasaloppet.se/en/ski/tjejvasan/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide specific participant numbers for Tjejvasan",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Tjejvasan was first held in 1988",
+      "source_url": "https://skiclassics.com/events/challengers/tjeivasan/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://vasaloppet.se/en/ski/tjejvasan/",
+      "note": "The correct URL is vasaloppet.se/en/ski/tjejvasan/ (not /races/)",
+      "source_url": "https://vasaloppet.se/en/ski/tjejvasan/"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Last Saturday in February (or February 27, 2027)",
+      "note": "Tjejvasan 2027 is scheduled for February 27, 2026 edition was February 21. The pattern indicates late February, not last Saturday specifically but consistently late February dates",
+      "source_url": "https://vasaloppet.se/en/ski/tjejvasan/"
+    }
+  },
+  "citations": [
+    "https://vasaloppet.se/en/ski/tjejvasan/",
+    "https://skiclassics.com/events/challengers/tjeivasan/",
+    "https://www.learnswedishnow.com/blog/vasaloppet-the-worlds-oldest-cross-country-ski-race",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://openskimap.org/?obj=8bc921024608adbb76bbfaa3b304711424cf0038",
+    "https://news.cision.com/visit-sweden/r/world-s-longest-cross-country-ski-race---a-cool-winter-spectacle-with-tradition,c3932594"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:56:59Z"
+}

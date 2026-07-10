@@ -1,0 +1,83 @@
+{
+  "slug": "trans-vercors",
+  "name": "Trans'Vercors",
+  "facts": {
+    "distance_km": 53,
+    "elevation_m": 1140,
+    "country": "France",
+    "region": "Isère",
+    "discipline": "skate",
+    "field_size": "~600-1,000",
+    "founded": 1968,
+    "website": "https://transvercors-nordic.com/",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 53 km distance.",
+      "source_url": "https://www.lesstationsdeladrome.fr/en/event/transvercors-nordic-2/, https://transvercors-nordic.com"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event in Vercors, within France.",
+      "source_url": "https://transvercors-nordic.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Ends in Villard-de-Lans, Isère; Nordic area in Isère.",
+      "source_url": "https://www.bergfex.com/auvergne-rhone-alpes/langlaufen/correncon-en-vercors/, https://www.nordicmag.info/en/cross-country-skiing-the-transvercors-nordic-returns-on-1-february-0110/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources describe as ski de fond (cross-country skiing) in skate/classical Nordic area, but no specific confirmation of skate only.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition 1968 confirmed.",
+      "source_url": "https://www.lesstationsdeladrome.fr/en/event/transvercors-nordic-2/, https://transvercors-nordic.com"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site confirmed; older source lists www.transvercors.com but current is transvercors-nordic.com.",
+      "source_url": "https://transvercors-nordic.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early to mid-February (e.g., March 5 2023, Feb 1 2026).",
+      "source_url": "https://www.lesstationsdeladrome.fr/en/event/transvercors-nordic-2/, https://transvercors-nordic.com"
+    }
+  },
+  "citations": [
+    "https://www.lesstationsdeladrome.fr/en/event/transvercors-nordic-2/",
+    "https://www.bergfex.com/auvergne-rhone-alpes/langlaufen/correncon-en-vercors/",
+    "https://uk.villarddelans-correnconenvercors.com/activities/skiing-and-snow-activities/nordic-skiing/",
+    "https://transvercors-nordic.com",
+    "https://www.nordicmag.info/en/cross-country-skiing-fairly-good-snow-conditions-allow-the-transvercors-to-be-run-on-the-historic-route-0127/",
+    "https://www.nordic-pulse.com/ski-areas/FR/IS/Site-Nordique-Du-Haut-Vercors",
+    "https://www.snow-online.com/cross-country/isere",
+    "https://www.nordicmag.info/en/cross-country-skiing-the-transvercors-nordic-returns-on-1-february-0110/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:57:15Z"
+}

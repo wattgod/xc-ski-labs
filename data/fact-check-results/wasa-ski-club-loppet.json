@@ -1,0 +1,82 @@
+{
+  "slug": "wasa-ski-club-loppet",
+  "name": "Wasa Ski Club Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Minnesota",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 1980,
+    "website": "https://www.wasaskiclub.org",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 51,
+      "note": "Main race (Vasa) is 51km freestyle (3 laps of ~17km), classic is 42km; no 30km found",
+      "source_url": "https://www.skisignup.com/Race/Events/MN/Mora/VasaloppetUSA2024"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "WRONG",
+      "correct_value": "United States",
+      "note": "Matches, but race is Vasaloppet USA in Mora, MN",
+      "source_url": "https://vasaloppet.us"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Mora, Minnesota",
+      "source_url": "https://vasaloppet.us"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both freestyle (skate) on Saturday and classic on Sunday",
+      "source_url": "https://www.skisignup.com/Race/Events/MN/Mora/VasaloppetUSA2024"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded/first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://vasaloppet.us",
+      "note": "Official site is vasaloppet.us, not wasaskiclub.org (no mention of Wasa Ski Club Loppet)",
+      "source_url": "https://vasaloppet.us"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February (e.g., Feb 7-8 2026, Feb 13-14 2027)",
+      "source_url": "https://vasaloppet.us"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.youtube.com/watch?v=oBsjfY5vjjg",
+    "https://www.skisignup.com/Race/Events/MN/Mora/VasaloppetUSA2024",
+    "https://vasaloppet.us",
+    "https://vasaloppet.us/race-weekend/course-maps/",
+    "https://vasaloppet.us/race-weekend/",
+    "https://vasaloppet.us/race-weekend/race-schedule/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:59:07Z"
+}

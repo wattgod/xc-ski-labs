@@ -1,0 +1,85 @@
+{
+  "slug": "marcialonga",
+  "name": "Marcialonga",
+  "facts": {
+    "distance_km": 70,
+    "elevation_m": 1050,
+    "country": "Italy",
+    "region": "Trentino-Alto Adige",
+    "discipline": "both",
+    "field_size": "~7,000 starters",
+    "founded": 1971,
+    "website": "https://www.marcialonga.it",
+    "date": "Last Sunday in January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 70 km for the main race (with 45 km light variant); 69.38 km precise length within ±3 km tolerance",
+      "source_url": "https://en.wikipedia.org/wiki/Marcialonga"
+    },
+    "elevation_m": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources report 1030m[7], 1050m approximate from 1030m, or 870m[9]; 1050m within ±100m tolerance of primary sources",
+      "source_url": "https://www.worldloppet.com/wl-race/marcialonga-italy-cross-country-skiing/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently described as in Italy",
+      "source_url": "https://en.wikipedia.org/wiki/Marcialonga"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Trentino-Alto Adige / Trentino / Province of Trento confirmed",
+      "source_url": "https://www.italybyevents.com/en/events/marcialonga-ski-race"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "Sources specify classic technique only for main 70km race; no mention of skate",
+      "source_url": "https://www.visitfiemme.it/en/events/events/marcialonga"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention 'thousands' of participants but no specific number like ~7000 found",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First held in 1971 confirmed across sources",
+      "source_url": "https://en.wikipedia.org/wiki/Marcialonga"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Referenced as https://marcialonga.it in sources; matches claim",
+      "source_url": "https://sportpress.international/skimarathon-marcialonga-skiing-2026/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Last Sunday in January consistently stated; e.g., 25 Jan 2026",
+      "source_url": "https://en.wikipedia.org/wiki/Marcialonga"
+    }
+  },
+  "citations": [
+    "https://www.italybyevents.com/en/events/marcialonga-ski-race",
+    "https://sportpress.international/skimarathon-marcialonga-skiing-2026/",
+    "https://www.trentino.com/en/leisure-activities/winter-sports/cross-country-skiing/marcialonga-di-fiemme-e-fassa/",
+    "https://en.wikipedia.org/wiki/Marcialonga",
+    "https://www.visittrentino.info/EN/guida/eventi/fis-race-gs/marcialonga-story_e_125920649",
+    "https://www.visitfiemme.it/en/events/events/marcialonga",
+    "https://www.worldloppet.com/wl-race/marcialonga-italy-cross-country-skiing/",
+    "https://www.dolomiti.it/en/moena/events/marcialonga-of-fiemme-and-fassa",
+    "https://skiclassics.com/events/pro-tour/marcialonga/",
+    "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fassa/2026/Marcialonga-di-Fiemme-e-Fassa"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:41:52Z"
+}

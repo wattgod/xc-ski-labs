@@ -1,0 +1,85 @@
+{
+  "slug": "mont-sainte-anne-loppet",
+  "name": "Mont-Sainte-Anne Loppet",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 600,
+    "country": "Canada",
+    "region": "Quebec",
+    "discipline": "classic",
+    "field_size": "~500 starters (all distances)",
+    "founded": 1998,
+    "website": null,
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 48,
+      "note": "2018 FasterSkier article mentions 48K freestyle distance race as main event alongside 25K, not confirming 50K classic as primary[8]",
+      "source_url": "https://fasterskier.com/2018/02/mont-sainte-anne-loppet-fresh-new-spring-challenge/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found providing total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Listed as Quebec event, Canada[3][5][8]",
+      "source_url": "https://www.nordicracers.ca/loppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Quebec confirmed in multiple sources[3][5][8]",
+      "source_url": "https://www.nordicracers.ca/loppet"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle and classic",
+      "note": "Offers both freestyle (48K, 25K, 10K) and classic (10K) distances[8]",
+      "source_url": "https://fasterskier.com/2018/02/mont-sainte-anne-loppet-fresh-new-spring-challenge/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~500 participants across all distances matches ~500 novices mentioned[8]",
+      "source_url": "https://fasterskier.com/2018/02/mont-sainte-anne-loppet-fresh-new-spring-challenge/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found confirming year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified in sources",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Spring (March)",
+      "note": "Described as spring challenge in March 2018 report, not mid-February[8]",
+      "source_url": "https://fasterskier.com/2018/02/mont-sainte-anne-loppet-fresh-new-spring-challenge/"
+    }
+  },
+  "citations": [
+    "https://skiracing.com/saving-mont-sainte-anne-2/",
+    "https://mont-sainte-anne.com/en/events/le-gros-vallon-challenge-2025/",
+    "https://www.nordicracers.ca/loppet",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=59230&seasoncode=2026",
+    "https://www.swixsport.ca/blogs/all-articles/loppets-uncovered-everything-you-need-to-know",
+    "https://mont-sainte-anne.com/en/events/quebec-mega-trail/",
+    "https://www.quebec-cite.com/en/what-to-do-quebec-city/events/classique-alex-harvey-loppet",
+    "https://fasterskier.com/2018/02/mont-sainte-anne-loppet-fresh-new-spring-challenge/",
+    "https://mont-sainte-anne.com/en/",
+    "https://mont-sainte-anne.com/en/events/crankworx-summer-series-canada/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:52:59Z"
+}

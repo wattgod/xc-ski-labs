@@ -1,0 +1,81 @@
+{
+  "slug": "panorama-nordic-loppet",
+  "name": "Panorama Nordic Loppet",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 250,
+    "country": "Canada",
+    "region": "British Columbia",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": 2012,
+    "website": null,
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "Classic distances include 1.5, 3, 7.5, 15, and 30km (longest is 30km, outside ±3km tolerance of 25km)",
+      "source_url": "https://nipika.com/loppet/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada in multiple sources",
+      "source_url": "https://www.nipikapanoramaloppet.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "British Columbia, Canada (Columbia Valley area)",
+      "source_url": "https://www.nipikapanoramaloppet.com"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Classic on Saturday at Nipika, skate on Sunday at Panorama",
+      "source_url": "https://nipika.com/loppet/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions 'third year' but undated; no clear first edition year found",
+      "source_url": "https://www.panoramaresort.com/explore/nipika-panorama-loppet"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.nipikapanoramaloppet.com",
+      "note": "Official site identified",
+      "source_url": "https://www.nipikapanoramaloppet.com"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Late January",
+      "note": "Typically January 24-26 or 25-26, not early February",
+      "source_url": "https://nipika.com/loppet/"
+    }
+  },
+  "citations": [
+    "https://www.nipikapanoramaloppet.com",
+    "https://www.panoramaresort.com/explore/nipika-panorama-loppet",
+    "https://invermerepanorama.com/activities/nordic-skiing-lake-windermere-whiteway/",
+    "https://nipika.com/loppet/",
+    "https://www.nipikapanoramaloppet.com/panorama",
+    "https://www.tobycreeknordic.ca/programs-overview-and-rates"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:18:03Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "superior-nordic-marathon",
+  "name": "Superior Nordic Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Superior Nordic Marathon' in the United States. Search results mention similar events like Noquemanon Ski Marathon and Ski North Ultra, but none match the exact name. Superior Timing handles many Nordic ski races but lists no such event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.noquemanon.com/races/general-race-information/",
+    "https://www.skisignup.com/Race/MN/Lutsen/SkiNorthUltra",
+    "https://www.superiortiming.com/2022/01/nwsc-nordic-ski-championship-2022/",
+    "https://www.superiortiming.com",
+    "https://www.noquemanon.com",
+    "https://www.cxcskiing.org",
+    "https://www.superiortiming.com/about/",
+    "https://www.superiortiming.com/category/raceresults/page/6/",
+    "https://www.superiortiming.com/category/raceresults/",
+    "https://www.superiortiming.com/event-calendar/"
+  ],
+  "checked_at": "2026-03-12T16:06:50Z"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "jilin-city-ski-marathon",
+  "name": "Jilin City Ski Marathon",
+  "country": "China",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Jilin City Ski Marathon' cross-country ski race. Search results mention trail running events near Jilin City (e.g., Lake Songhua) and the well-established Vasaloppet China in Changchun, Jilin Province, but nothing matching the specific name or description as a ski marathon in Jilin City.",
+    "sources": []
+  },
+  "citations": [
+    "https://moganshan.saihuitong.com/article?id=68371",
+    "https://skiclassics.com/vasaloppet-china-opens-international-registrations-through-the-sc-registration-platform/",
+    "https://www.gojilin.gov.cn/2026/01/04/c_14410.htm",
+    "https://www.vasaloppetchina.com",
+    "https://www.worldloppet.com/wl-race/vasaloppet-china/",
+    "http://en.changchun.gov.cn/wthd/202201/t20220106_2968930.html",
+    "https://www.ahotu.com/event/vasaloppet-china-ski-festival",
+    "https://www.vasaloppetchina.com/category/news/",
+    "https://en.people.cn/n3/2022/0126/c90000-9949558.html"
+  ],
+  "checked_at": "2026-03-12T15:50:05Z"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "transjurassienne",
+  "name": "La Transjurassienne",
+  "facts": {
+    "distance_km": 68,
+    "elevation_m": 1000,
+    "country": "France",
+    "region": "Bourgogne-Franche-Comté",
+    "discipline": "both",
+    "field_size": "~4,000 starters",
+    "founded": 1979,
+    "website": "https://www.transjurassienne.com",
+    "date": "Second or third Sunday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 70,
+      "note": "Sources indicate 70 km (official site) or 68 km (other sources); database 68 km matches some but official prefers 70 km historic route",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 660,
+      "note": "Official site lists 660m D+ for 70 km route",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as France across multiple sources",
+      "source_url": "https://en.wikipedia.org/wiki/La_Transjurassienne"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Bourgogne-Franche-Comté region confirmed",
+      "source_url": "https://skiclassics.com/events/challengers/la-transjurassienne-classic/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Free style (skating or classic) or both styles offered",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~4,000 matches 'more than 4,000' or 'nearly 4500' (within ±20%)",
+      "source_url": "https://en.wikipedia.org/wiki/La_Transjurassienne"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1979,
+      "note": "Multiple sources confirm first edition 1979, Wikipedia says 1980 debut (conflict, but majority 1979)",
+      "source_url": "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.latransju.com",
+      "note": "Current official site is latransju.com, transjurassienne.com may be outdated",
+      "source_url": "https://www.latransju.com/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Second weekend in February matches 'second or third Sunday'",
+      "source_url": "https://en.wikipedia.org/wiki/La_Transjurassienne"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/La_Transjurassienne",
+    "https://www.latransju.com/en/evenements/la-transju/epreuves/la-transjurassienne-70-km/",
+    "https://skiclassics.com/events/challengers/la-transjurassienne-classic/",
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/the-iconic-transjurassienne-race/",
+    "https://www.worldloppet.com/wl-race/la-transjurassienne/",
+    "https://www.latransju.com/en/",
+    "https://www.latransju.com/en/les-epreuves-de-ski-de-fond-de-la-transju-course-jura-france/",
+    "https://www.latransju.com/en/evenements/la-transju/",
+    "https://www.latransju.com/en/actualites/le-programme-officiel-est-disponible/",
+    "https://www.gtj.asso.fr/en/sejours-tout-compris/la-grande-traversee-du-jura-a-ski-de-fond/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:57:22Z"
+}

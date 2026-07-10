@@ -1,0 +1,33 @@
+{
+  "slug": "haanja-maraton",
+  "name": "Haanja Maraton",
+  "country": "Estonia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "http://haanjamaraton.ee/",
+    "results_url": null,
+    "evidence_summary": "Haanja Maraton is a real, organized cross-country ski race in Estonia with multiple independent sources confirming its existence. The official website (haanjamaraton.ee) provides detailed race information including 2026 schedule, registration details, and course specifications. The race is listed on Worldloppet, belongs to the Estoloppet ski marathon series since 1998, and is organized by MTÜ Haanja Suusaklubi with documented contact information.",
+    "sources": [
+      "https://www.worldloppet.com/haanja-maraton/",
+      "https://www.haanjamaraton.ee",
+      "https://www.haanjamaraton.ee/kontakt",
+      "https://www.haanjamaraton.ee/haanja-vabamaraton",
+      "https://www.ahotu.com/event/haanja-marathon",
+      "https://ariregister.rik.ee/eng/company/80229834/Klubi-Haanja-maraton"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/haanja-maraton/",
+    "https://www.haanjamaraton.ee/kontakt",
+    "https://www.haanjamaraton.ee",
+    "https://trailrun.ee/en/rules/haanja-ultra100/",
+    "https://haanja100.ee/en/",
+    "https://www.ahotu.com/event/haanja-marathon",
+    "https://ariregister.rik.ee/eng/company/80229834/Klubi-Haanja-maraton",
+    "https://haanjamaraton.ee/Haanja-Maraton/",
+    "https://www.haanjamaraton.ee/haanja-vabamaraton"
+  ],
+  "checked_at": "2026-03-12T15:48:04Z"
+}

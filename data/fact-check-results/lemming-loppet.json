@@ -1,0 +1,84 @@
+{
+  "slug": "lemming-loppet",
+  "name": "Lemming Loppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 400,
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "discipline": "skate",
+    "field_size": 200,
+    "founded": 2016,
+    "website": "https://lemming-loppet.de/en/",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 42 km distance offered[1][2][6]",
+      "source_url": "https://www.worldloppet.com/lemming-loppet-ger/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Germany[1][2]",
+      "source_url": "https://www.worldloppet.com/lemming-loppet-ger/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Baden-Württemberg[1][2]",
+      "source_url": "https://www.worldloppet.com/lemming-loppet-ger/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as free technique (skate), skating technique[1][2]",
+      "source_url": "https://www.worldloppet.com/lemming-loppet-ger/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific numbers found for typical participants; mentions popularity and participants from 10 nations but no count",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition in 2016[1][2]",
+      "source_url": "https://www.worldloppet.com/lemming-loppet-ger/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site[1][2]",
+      "source_url": "https://lemming-loppet.de/en/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "January",
+      "note": "Typical date is January (e.g., 21 Jan 2024, 23 Jan 2022), not February[1][2][7]",
+      "source_url": "https://www.worldloppet.com/lemming-loppet-ger/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/lemming-loppet-ger/",
+    "https://lemming-loppet.de/en/",
+    "https://lemming-loppet.de/en/2022/01/10/lemming-loppet-2022-it-looks-good/",
+    "https://www.behance.net/gallery/103272929/5-Lemming-Loppet-Poster?locale=en_US",
+    "https://lemming-loppet.de/en/2024/01/",
+    "https://lemming-loppet.de/en/athlete-info/",
+    "https://my.raceresult.com/184578/",
+    "https://my.raceresult.com/261395/info",
+    "https://lemming-loppet.de/en/2024/01/18/lemming-loppet-as-a-circuit-race/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:16:27Z"
+}

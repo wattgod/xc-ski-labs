@@ -1,0 +1,33 @@
+{
+  "slug": "panorama-nordic-loppet",
+  "name": "Panorama Nordic Loppet",
+  "country": "Canada",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.nipikapanoramaloppet.com",
+    "results_url": null,
+    "evidence_summary": "Multiple independent sources confirm the Nipika Panorama Loppet as a real two-day cross-country ski event hosted by Toby Creek Nordic Ski Club, with classic races at Nipika on Saturday and skate races at Panorama on Sunday, scheduled for January 25-26, 2025. Official site provides details and registration via Zone4.ca, supported by resort pages, series listings, and tourism sites. No past results found in these sources, but event promotion across official partners is extensive.",
+    "sources": [
+      "https://www.nipikapanoramaloppet.com",
+      "https://www.pacificnorthwestloppetseries.com",
+      "https://www.panoramaresort.com/explore/nipika-panorama-loppet",
+      "https://www.nipikapanoramaloppet.com/registration",
+      "https://nipika.com/loppet/",
+      "https://invermerepanorama.com/activities/nordic-skiing-lake-windermere-whiteway/",
+      "https://nipika.com"
+    ]
+  },
+  "citations": [
+    "https://www.nipikapanoramaloppet.com",
+    "https://www.pacificnorthwestloppetseries.com",
+    "https://www.panoramaresort.com/explore/nipika-panorama-loppet",
+    "https://www.nipikapanoramaloppet.com/registration",
+    "https://nipika.com/loppet/",
+    "https://invermerepanorama.com/activities/nordic-skiing-lake-windermere-whiteway/",
+    "https://nipika.com",
+    "https://www.tobycreeknordic.ca"
+  ],
+  "checked_at": "2026-03-12T15:59:26Z"
+}

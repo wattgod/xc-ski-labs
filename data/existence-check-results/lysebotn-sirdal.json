@@ -1,0 +1,25 @@
+{
+  "slug": "lysebotn-sirdal",
+  "name": "Lysebotn-Sirdal",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a cross-country ski race named 'Lysebotn-Sirdal'. Search results mention a road cycling race 'Lysebotn-Bryne' and general hiking/skiing in the area, but nothing about cross-country skiing between these locations. No official sites, results, news, or listings for the specific ski event.",
+    "sources": []
+  },
+  "citations": [
+    "https://lysebotn-bryne.no/race-information/",
+    "https://www.thetravellingsloth.com/norway-nature/",
+    "https://www.biathlonworld.com/fr/news/blinkfestivalen-preview-2022/1w9rW7xjDdCNKdd4uPgNgj",
+    "https://sirdalfjellpark.no/en/prices/",
+    "https://www.visitnorway.com/things-to-do/outdoor-activities/climbing/",
+    "https://sirdal-skisenter.no",
+    "https://susandunklee.wordpress.com",
+    "https://www.epicroadadventures.com/suleskarvegen-mountain-road/"
+  ],
+  "checked_at": "2026-03-12T15:54:19Z"
+}

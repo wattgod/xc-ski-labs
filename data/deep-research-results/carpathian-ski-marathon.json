@@ -1,0 +1,109 @@
+{
+  "slug": "carpathian-ski-marathon",
+  "name": "Carpathian Ski Marathon",
+  "tier": 3,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded",
+    "website"
+  ],
+  "result": {
+    "fields": {
+      "main_race_distance_km": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No cross-country ski race specifically titled 'Carpathian Ski Marathon' with verified 42km distance found in searches. Carpathian Ski Club races mentioned but not with specific distance specifications."
+      },
+      "total_elevation_gain_meters": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No verified elevation data found for a 'Carpathian Ski Marathon' cross-country ski event."
+      },
+      "technique": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No verified technique specification (classic/skate/both) found for this specific race."
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No participant count data found. West Carpathian Marathon (running, not skiing) shows 2400+ runners in 2025, but this is a different event."
+      },
+      "year_first_held": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Carpathian Ski Club founded 1924 and organizes annual races, but specific 'Carpathian Ski Marathon' inaugural year unverified."
+      },
+      "official_website_url": {
+        "value": "https://klk.com.ua/",
+        "source_url": "https://klk.com.ua/about-us.html",
+        "confidence": "MEDIUM",
+        "note": "Carpathian Ski Club (KLK) website found, but no specific 'Carpathian Ski Marathon' race page identified."
+      }
+    },
+    "race_exists": false,
+    "best_source": "https://klk.com.ua/about-us.html",
+    "clarification": "While the Carpathian Ski Club (KLK) organizes annual ski races in the Carpathian Mountains, a race specifically titled 'Carpathian Ski Marathon' as a distinct event could not be verified in Worldloppet, Euroloppet, Ski Classics, FIS, or other major race registries. A 'West Carpathian Marathon' exists but it is a running event held in October, not a cross-country ski marathon. The data provided (42km, 600m elevation, classic technique, 300 participants, 1975 founding) does not match verified events in the search results."
+  },
+  "citations": [
+    "https://klk.com.ua/about-us.html",
+    "https://en.wikipedia.org/wiki/Engadin_Skimarathon",
+    "https://app.advcollective.com/travel-guides/Ivano-Frankivsk/carpathian-winter-sports-competitions-ivano-frankivsk-ukraine",
+    "https://www.skiresort.info/ski-resorts/carpathian-mountains-karpaty/sorted/mountain-altitude/",
+    "https://www.gonomad.com/1248-skiing-carpathian-mountains-ukraine",
+    "https://www.sportivo.se/en/engadin-skimarathon/",
+    "https://explorersweb.com/the-first-solo-ski-across-ukraines-carpathian-mountains/",
+    "https://skimarathon.ca/the-trail/",
+    "https://my.raceresult.com/367978/",
+    "https://archive.ukrweekly.com/wp-content/uploads/The_Ukrainian_Weekly_1975-32.pdf",
+    "https://skimarathon.ca",
+    "https://www.worldloppet.com/browse-alphabetical/?id=3282&l=K",
+    "https://worldathletics.org/competition/calendar-results/results/7232759",
+    "https://en.wikipedia.org/wiki/Rusyns",
+    "https://carpathiatrails.com/inscriere/?lang=en",
+    "https://maratonapuseni.ro/en/rules-and-regulations-of-the-carpathian-circuit/",
+    "https://www.worldloppet.com/global-ski-marathon-calendar/",
+    "https://www.fis-ski.com/DB/general/calendar-results.html",
+    "https://www.worldloppet.com",
+    "https://live.fis-ski.com/cc-2393/results-pda.htm",
+    "https://www.worldloppet.com/all-ski-marathons-around-the-world-in-one-calendar/",
+    "https://www.youtube.com/watch?v=hA-8CMMg2Aw",
+    "https://en.wikipedia.org/wiki/Demino_Ski_Marathon",
+    "https://maglev.strava.com/challenges/ochsner-sport-xc-ski",
+    "https://passport.euroloppet.com/event/events-2025-26",
+    "https://skiclassics.com",
+    "https://en.wikipedia.org/wiki/Canadian_Ski_Marathon",
+    "https://strava-embeds.com/route/3282063803176478168?clubId=530651&style=standard&fullWidth=true&fromEmbed=true",
+    "https://www.youtube.com/watch?v=lByHVhCpw_o",
+    "https://www.worldloppet.com/new-route-in-finlandia-ski-marathon-changes-bring-more-snow-security-and-improve-service/",
+    "https://www.ski-marathon.com/en/the-race/track/",
+    "https://carpatho.ro/results/",
+    "https://www.youtube.com/user/engadinskimarathon",
+    "https://www.crosscountryskier.com/ski-mountaineering-steps-onto-the-olympic-stage/ski-mountaineer-during-competition-in-carpathian-mountains/",
+    "https://xcskiworld.com/asm-series",
+    "https://www.webscorer.com/results?did=394641&raceid=320144",
+    "https://en.wikipedia.org/wiki/Carpatho-Ukraine",
+    "https://olympiandatabase.com/no/nordic-ski-world-championships-nations-ukraine-cross-country-competitions",
+    "https://www.uzhnu.edu.ua/en/news/Carpathian-Ukraine-is-81.htm",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=56907&seasoncode=2025",
+    "https://maratonapuseni.ro/en/june-7-start-of-the-14th-edition-of-msg-maraton-apuseni-2025/",
+    "https://vk.com/ptzskimarathon",
+    "https://lasierra.edu/fileadmin/documents/library/criterion/Vol-56-1984-1985.pdf",
+    "https://www.skinnyski.com/racing/",
+    "https://visiteurope.com/experiences/czechia-play-local",
+    "https://www.questformore.com/carpathian-ultramarathon-208km-4-days/",
+    "https://run-and-smile.com/images/download/Run-and-Smile_final.pdf",
+    "https://skiclassics.com/engadin-skimarathon-presented-a-new-technique-close-look-at-skating/",
+    "http://klk.com.ua/learn_video.html",
+    "https://raceid.com/en/articles/271"
+  ],
+  "checked_at": "2026-03-12T15:55:32Z"
+}

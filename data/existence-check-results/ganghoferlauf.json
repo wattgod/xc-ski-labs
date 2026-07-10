@@ -1,0 +1,33 @@
+{
+  "slug": "ganghoferlauf",
+  "name": "Ganghoferlauf",
+  "country": "Austria",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.seefeld.com/en/ganghoferlauf.html",
+    "results_url": null,
+    "evidence_summary": "Multiple official sources confirm the Ganghoferlauf as a real, long-standing cross-country ski race in Leutasch, Austria, established in 1968 and hosting its 59th edition in 2026. It is listed as an Euroloppet event with registration open on racetime.pro, featured in Ski Classics Challengers, and promoted by regional tourism sites like seefeld.com and tyrol.com with detailed programs and entry fees. News from presse.tirol.at covers past editions like the 51st.",
+    "sources": [
+      "https://events.racetime.pro/en/event/1263/infos",
+      "https://www.tyrol.com/activities/events/all-events/euroloppet-ganghoferlauf-mini-ganghoferlauf",
+      "https://www.langlauf-urlaub.com/en/winter-sports-events/event-detail/euroloppet-ganghoferlauf",
+      "https://skiclassics.com/events/challengers/ganghoferlauf-classic/",
+      "https://www.seefeld.com/en/ganghoferlauf-program.html",
+      "https://www.seefeld.com/en/ganghoferlauf.html",
+      "https://presse.tirol.at/en/51th-euroloppet-ganghoferlauf/137918/"
+    ]
+  },
+  "citations": [
+    "https://events.racetime.pro/en/event/1263/infos",
+    "https://www.tyrol.com/activities/events/all-events/euroloppet-ganghoferlauf-mini-ganghoferlauf",
+    "https://www.langlauf-urlaub.com/en/winter-sports-events/event-detail/euroloppet-ganghoferlauf",
+    "https://skiclassics.com/events/challengers/ganghoferlauf-classic/",
+    "https://www.seefeld.com/en/ganghoferlauf-program.html",
+    "https://www.seefeld.com/en/ganghoferlauf.html",
+    "https://presse.tirol.at/en/51th-euroloppet-ganghoferlauf/137918/",
+    "https://www.seefeld.com/en/ganghoferlauf-starting-fee-race-info.html"
+  ],
+  "checked_at": "2026-03-12T15:46:14Z"
+}

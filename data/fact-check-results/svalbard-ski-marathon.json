@@ -1,0 +1,78 @@
+{
+  "slug": "svalbard-ski-marathon",
+  "name": "Svalbard Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 300,
+    "country": "Norway",
+    "region": "Svalbard",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1993,
+    "website": "https://svalbardskimaraton.no/",
+    "date": "Late April / early May"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources in results confirm the distance of 42 km for Svalbard Ski Marathon.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources in results confirm total elevation gain of 300 meters.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Svalbard is part of Norway, confirmed in context of races there.",
+      "source_url": "https://worldsmarathons.com/marathon/spitsbergen-marathon"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event explicitly named Svalbard Skimaraton and located in Svalbard.",
+      "source_url": "https://www.sportivo.se/en/faq-svalbard-skimaraton/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources in results specify classic, skate, or both.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources in results confirm typical number of participants around 300.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources in results confirm year founded as 1993.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No results link to or confirm https://svalbardskimaraton.no/ as official site.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "April",
+      "note": "Sources indicate every April, not late April/early May.",
+      "source_url": "https://www.sportivo.se/en/faq-svalbard-skimaraton/"
+    }
+  },
+  "citations": [
+    "https://en.visitsvalbard.com/whats-on/spitsbergen-marathon-p2521643",
+    "https://worldsmarathons.com/marathon/spitsbergen-marathon",
+    "https://www.sportivo.se/en/faq-svalbard-skimaraton/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:54:51Z"
+}

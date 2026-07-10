@@ -1,0 +1,32 @@
+{
+  "slug": "sakhalin-ski-marathon",
+  "name": "Sakhalin Ski Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.russialoppet.ru",
+    "results_url": null,
+    "evidence_summary": "Multiple news articles confirm the Sakhalin Ski Marathon as a real annual event, with the 26th edition in March drawing over 1,000-2,000 participants from across Russia, including Olympic champions like Aleksander Legkov. It is listed as an official Worldloppet race with a history since 1987, held in Yuzhno-Sakhalinsk along coastal and mountain routes. TV BRICS served as media partner, reporting on preparations, races, and record applications.",
+    "sources": [
+      "https://tvbrics.com/en/news/more-than-thousand-athletes-to-take-part-in-the-sakhalin-ski-marathon/",
+      "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/",
+      "https://tvbrics.com/en/shows/sakhalin-ski-marathon-mountains-of-snow-and-loads-of-enthusiasm/",
+      "https://www.pakistanpoint.com/en/story/1942205/winners-honoured-at-ski-marathon-in-russias-sakhalin.html"
+    ]
+  },
+  "citations": [
+    "https://tvbrics.com/en/news/more-than-thousand-athletes-to-take-part-in-the-sakhalin-ski-marathon/",
+    "https://www.worldloppet.com/sakhalin-international-ski-marathon-rus/",
+    "https://tvbrics.com/en/shows/sakhalin-ski-marathon-mountains-of-snow-and-loads-of-enthusiasm/",
+    "https://www.paralympic.org/feature/sakhalin-world-cup-we-are-shocked-rest",
+    "https://en.iz.ru/en/node/2048295",
+    "https://deminom.ru/en/about/history/",
+    "https://www.skisprungschanzen.com/EN/Ski+Jumps/RUS-Russia/D-Far+East/Yuzhno-Sakhalinsk/1890-Tramplin+Sakhalinsk/",
+    "https://www.pakistanpoint.com/en/story/1942205/winners-honoured-at-ski-marathon-in-russias-sakhalin.html",
+    "https://ws65.ru/en/",
+    "https://www.paralympic.org/news/milestone-medals-mark-three-days-high-flying-downhill-racing-sakhalin"
+  ],
+  "checked_at": "2026-03-12T16:02:12Z"
+}

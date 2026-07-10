@@ -1,0 +1,85 @@
+{
+  "slug": "changbaishan-ski-marathon",
+  "name": "Changbaishan Ski Marathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "China",
+    "region": "Jilin",
+    "discipline": "both",
+    "field_size": 350,
+    "founded": null,
+    "website": "https://www.changbaishan.gov.cn",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the distance of a 'Changbaishan Ski Marathon' cross-country ski race as 25 km.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming total elevation gain of 300m for this specific race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in multiple sources as located in China[1][2][5].",
+      "source_url": "https://www.snow-online.com/ski-resort/changbaishan-international-ski-center.html"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Jilin province[1][2][3][5].",
+      "source_url": "https://www.snow-online.com/ski-resort/changbaishan-international-ski-center.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both for a cross-country ski marathon named 'Changbaishan Ski Marathon'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical number of participants as ~350 for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.changbaishan.gov.cn not confirmed as official site for the race; no sources link it directly to the event.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical January date specifically for 'Changbaishan Ski Marathon'; general snow season Nov-May[1], events in winter but not specified[5].",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.snow-online.com/ski-resort/changbaishan-international-ski-center.html",
+    "https://en.people.cn/n3/2024/0617/c90000-20181909.html",
+    "https://english.news.cn/20240202/77253091709d4a71acde59854781a2de/c.html",
+    "https://www.gojilin.gov.cn/changbaishan/cbs-latest_20.html",
+    "https://www.chinadaily.com.cn/a/201904/03/WS5ca42583a3104842260b429e.html",
+    "https://en.chinaculture.org/a/202406/17/WS666fe1cda31095c51c5094d2.html",
+    "https://www.chinadailyhk.com/hk/article/630179",
+    "https://www.ahotu.com/event/changbaishan-forest-marathon",
+    "https://fasterskier.com/2018/01/china-tour-de-ski-changbaishan-luneng-resort/",
+    "https://www.wandaresorts.com/en/explore/party"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:12:10Z"
+}

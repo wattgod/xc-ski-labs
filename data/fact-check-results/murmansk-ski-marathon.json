@@ -1,0 +1,84 @@
+{
+  "slug": "murmansk-ski-marathon",
+  "name": "Murmansk Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 500,
+    "country": "Russia",
+    "region": "Murmansk Oblast",
+    "discipline": "both",
+    "field_size": "~1,000-2,000",
+    "founded": 1974,
+    "website": "https://russialoppet.ru/en/",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 25 km or 50 km distances available[1][7]",
+      "source_url": "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia[1][2][5]",
+      "source_url": "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Murmansk Oblast confirmed[2]",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=40056&seasoncode=2017&racecodex=3542"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "FT (freestyle/skate) / CT (classic), i.e., both[1]",
+      "source_url": "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found in range of 1,000-2,000; one source mentions over 3,000 for related event but not this race[6]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held since 1974; 51st edition in 2025 confirms founding in 1974[1][5]",
+      "source_url": "https://forumarctica.ru/en/programme/sport-programme/?day=30.03.2025"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "www.russialoppet.ru confirmed as website[1]",
+      "source_url": "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late March, e.g., 26-27 March 2022, 29-30 March 2025[1][4]",
+      "source_url": "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/murmansk-ski-marathon-prazdnik-severa-rus/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=40056&seasoncode=2017&racecodex=3542",
+    "https://tour.citymurmansk.ru/en/17-traditional-annual-event",
+    "https://www.forumarctica.ru/en/news/51-y-murmanskiy-lyzhnyy-marafon-sostoitsya-29-30-marta-2025-g/",
+    "https://forumarctica.ru/en/programme/sport-programme/?day=30.03.2025",
+    "https://murmansk.travel/en/journals/1",
+    "https://www.kolatravel.com/cross_country_ski_tours.php",
+    "https://visitmurmansk.info/en/murmansk-explorer/",
+    "https://eng.gov-murman.ru/press/446897/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:53:07Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "valtellina-orobie-ski-marathon",
+  "name": "Valtellina Orobie Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 800,
+    "country": "Italy",
+    "region": "Lombardy",
+    "discipline": "classic",
+    "field_size": "~250 starters",
+    "founded": 1999,
+    "website": "https://www.valtellinaorobieskimarathon.it",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying distance for a cross-country ski race named Valtellina Orobie Ski Marathon; sources describe Valtellina Orobie as ski-mountaineering (scialpinismo) race with lengths like 15km but not 50km classic XC",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1700,
+      "note": "Sources indicate 1700m elevation gain for senior men individual race (2022 edition), outside ±100m tolerance of 800m; event is ski-mountaineering, not classic XC",
+      "source_url": "https://www.valtellinaorobie.it/gara-scialpinismo/en/35th-valtellina-orobie/individual-race/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Event organized in Albosaggia, Italy",
+      "source_url": "https://www.polalbosaggia.com/site/le-nostre-gare/_valtellina-orobie/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Valtellina region in Lombardy (SO = Sondrio province)",
+      "source_url": "https://www.polalbosaggia.com/site/le-nostre-gare/_valtellina-orobie/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "ski-mountaineering",
+      "note": "Described as international scialpinismo (ski-mountaineering) race, not classic cross-country skiing",
+      "source_url": "https://www.polalbosaggia.com/site/le-nostre-gare/_valtellina-orobie/"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~250 participants in 2009 edition; over 200 in recent edition, within ±20% tolerance",
+      "source_url": "https://www.polalbosaggia.com/site/le-nostre-gare/_valtellina-orobie/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention 'first editions' and 35th edition in 2022 implying ~1988 start, but no exact year 1999 confirmed for this event",
+      "source_url": "https://www.polalbosaggia.com/site/le-nostre-gare/_valtellina-orobie/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.valtellinaorobie.it",
+      "note": "Official site is valtellinaorobie.it, not valtellinaorobieskimarathon.it; note domain mismatch and no matching site found",
+      "source_url": "https://www.valtellinaorobie.it"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically February, e.g., 3 February 2022",
+      "source_url": "https://www.valtellinaorobie.it/gara-scialpinismo/en/35th-valtellina-orobie/individual-race/"
+    }
+  },
+  "citations": [
+    "https://www.polalbosaggia.com/site/le-nostre-gare/_valtellina-orobie/",
+    "https://www.valtellinaorobie.it/gara-scialpinismo/en/35th-valtellina-orobie/individual-race/",
+    "https://www.orobiesport.it/en/",
+    "https://www.valtellinaorobie.it/gara-scialpinismo/en/35th-valtellina-orobie/",
+    "https://www.valtellina.it/en/events/livigno/sgambeda",
+    "https://www.valtellinaorobie.it/gara-scialpinismo/en/home-en/",
+    "https://www.youtube.com/watch?v=EigrmYt0BFA",
+    "https://www.valtellinaorobie.it"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:57:59Z"
+}

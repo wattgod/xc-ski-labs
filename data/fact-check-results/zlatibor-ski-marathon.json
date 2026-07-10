@@ -1,0 +1,85 @@
+{
+  "slug": "zlatibor-ski-marathon",
+  "name": "Zlatibor Ski Marathon",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 300,
+    "country": "Serbia",
+    "region": "Zlatibor District",
+    "discipline": "classic",
+    "field_size": 80,
+    "founded": 2019,
+    "website": "https://www.skiserbia.rs",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zlatibor Ski Marathon' or a 25km cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zlatibor Ski Marathon' or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Zlatibor is in Serbia[2][6][7], but no sources confirm a 'Zlatibor Ski Marathon'.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Zlatibor District matches location of ski area[2][6], but no sources confirm the race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "FIS events in Zlatibor 2025 are 'Free' technique (skate)[1][8], but no marathon or classic discipline confirmed.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention participant numbers for 'Zlatibor Ski Marathon'. Small U12 race had few finishers[1].",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention year founded or first edition of 'Zlatibor Ski Marathon'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.skiserbia.rs not in results; no official site for the race found. skijalistasrbije.rs covers Zlatibor ski area[4][7].",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm typical date for 'Zlatibor Ski Marathon'. FIS CC races in Zlatibor on 6.2.2025[1][8].",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://medias1.fis-ski.com/pdf/2025/CC/3779/2025CC3779RL.pdf",
+    "https://www.skiresort.info/ski-resort/tornik-zlatibor/",
+    "https://www.sportforallserbia.org.rs/wp-content/uploads/2023/12/ENG-NAJAVNI-BILTEN-31.-SKI-FESTIVAL-Kopaonik-2024L.pdf",
+    "https://www.skijalistasrbije.rs/en/lifts-and-slopes-tornik-zlatibor",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=57051&seasoncode=2025",
+    "https://en.wikipedia.org/wiki/Zlatibor",
+    "https://www.skijalistasrbije.rs/en",
+    "https://medias4.fis-ski.com/pdf/2025/CC/3781/2025CC3781RL.pdf",
+    "https://www.skijalistasrbije.rs/en/ski-pass",
+    "https://zlatibor.rs/sites/default/files/vesti_preuzmi/22526/InvitationSESCUP_Zlatibor2020.PDF"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:21:00Z"
+}

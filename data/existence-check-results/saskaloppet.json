@@ -1,0 +1,26 @@
+{
+  "slug": "saskaloppet",
+  "name": "Saskaloppet",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": "https://www.saskaloppet.ca",
+    "results_url": null,
+    "evidence_summary": "An official website exists at saskaloppet.ca with detailed event information, registration via Zone4, and 2025/2026 dates, hosted by La Ronge Nordic Ski Club. Cross Country Saskatchewan lists the event for March 7-8, 2026 in La Ronge among other competitions. No race results, news articles, or social media/YouTube evidence found.",
+    "sources": [
+      "https://www.saskaloppet.ca",
+      "https://www.crosscountrysask.ca/events-competitions/don-allen-saskaloppet"
+    ]
+  },
+  "citations": [
+    "https://www.saskaloppet.ca",
+    "https://www.saskaloppet.ca/event-info",
+    "https://www.crosscountrysask.ca/events-competitions/don-allen-saskaloppet",
+    "https://www.crosscountrysask.ca/events-competitions",
+    "https://triceratops-caper-47ad.squarespace.com/new-events/2022/3/4/don-allen-saskaloppet",
+    "https://www.saskaloppet.ca/contact-us"
+  ],
+  "checked_at": "2026-03-12T16:02:54Z"
+}

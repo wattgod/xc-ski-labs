@@ -1,0 +1,83 @@
+{
+  "slug": "timmins-gold-rush-loppet",
+  "name": "Timmins Gold Rush Loppet",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 200,
+    "country": "Canada",
+    "region": "Ontario",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": null,
+    "website": "https://www.porcupinenordic.ca",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 20,
+      "note": "Longest distance is 20 km (2 x 10 km), not 30 km; other distances 8 km, 3 km, 1.25 km",
+      "source_url": "https://www.porcupineskirunners.com/loppet"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Timmins is in Canada",
+      "source_url": "https://northernontario.travel/outdoor-adventures/cross-country-ski-events-ontario"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Ontario, specifically Timmins",
+      "source_url": "https://northernontario.travel/outdoor-adventures/cross-country-ski-events-ontario"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic and skate",
+      "note": "Offers both classic/skate for main distances (20 km, 8 km, 3 km); some classic only shorter events",
+      "source_url": "https://www.porcupineskirunners.com/loppet"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded; mentions annual event but no first edition date",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.porcupineskirunners.com/loppet",
+      "note": "Official site is porcupineskirunners.com, not porcupinenordic.ca (possibly related but distinct club)",
+      "source_url": "https://www.porcupineskirunners.com/loppet"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically February (e.g., Feb 22 listed for 2026, Feb 14 on club site)",
+      "source_url": "https://northernontario.travel/outdoor-adventures/cross-country-ski-events-ontario"
+    }
+  },
+  "citations": [
+    "https://www.payak.ca/pacific-northwest-loppet-series/",
+    "https://www.porcupineskirunners.com/loppet",
+    "https://loppet.org/friday-and-saturday-race-recaps/",
+    "https://northernontario.travel/outdoor-adventures/cross-country-ski-events-ontario",
+    "https://tourismtimmins.com/wp-content/uploads/2025/03/timmins_guide_visual_eng.pdf",
+    "https://www.temiskamingnordic.ca/wp-content/uploads/2023/03/TNSC_Relays_LoppetNotice_13March2023.pdf",
+    "https://www.northernminer.com/news/athletes-to-compete-for-gold-in-timmins/1000181075/",
+    "https://w.porcupineskirunners.com/newsletters/2022_2023/Newsletter50th_2.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:20:09Z"
+}

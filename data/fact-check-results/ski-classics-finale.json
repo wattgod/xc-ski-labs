@@ -1,0 +1,84 @@
+{
+  "slug": "ski-classics-finale",
+  "name": "Ski Classics Finale",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 600,
+    "country": "Various",
+    "region": "Scandinavia/Alps",
+    "discipline": "classic",
+    "field_size": "~200 pro athletes + open field",
+    "founded": 2011,
+    "website": "https://www.skiclassics.com",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 60,
+      "note": "The Grand Finale Summit 2 Senja (the final event) is 60km, not 50km. Reistadløpet (penultimate event) is 46km. The database value of 50km matches neither event.",
+      "source_url": "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1357,
+      "note": "The Grand Finale Summit 2 Senja has 1357m total ascent. Reistadløpet has 1225m. The database value of 600m is significantly lower than both final events.",
+      "source_url": "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Ski Classics events span multiple countries including Norway, Switzerland, Italy, and Austria. 'Various' is accurate.",
+      "source_url": "https://skiclassics.com/ski-classics-complete-calendar-for-the-pro-tour-season-xvii/"
+    },
+    "region_scandinavia_alps": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Events are held in Scandinavia (Norway) and the Alps (Switzerland, Italy, Austria). The characterization is accurate.",
+      "source_url": "https://skiclassics.com/ski-classics-complete-calendar-for-the-pro-tour-season-xvii/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both Reistadløpet and Grand Finale Summit 2 Senja are listed as 'Classic Technique' events.",
+      "source_url": "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention 'Pro Teams' and 'Pro Team athletes' but do not specify exact participant numbers for the finale events. The Grand Finale Summit 2 Senja is described as celebrating Pro Teams and their athletes, but total field size is not provided.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide the founding year of Ski Classics. The Grand Finale Summit 2 Senja was introduced in Season XIV, but the overall Ski Classics founding date is not mentioned in provided sources.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple search results are from skiclassics.com, confirming this is the official website.",
+      "source_url": "https://skiclassics.com/"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Season XVI finale events occurred March 29-30, 2025. Season XVII finale is scheduled for March 28-29, 2026. March is the consistent race month for the finale.",
+      "source_url": "https://skiclassics.com/ski-classics-pro-tour-season-xvii-2025-2026/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-ending-ski-classics-pro-tour-season-xvi/",
+    "https://skiclassics.com/100km-ski-classics-grand-finale-janteloppet-ending-season-xv/",
+    "https://skiclassics.com/ski-classics-pro-tour-season-xvii-2025-2026/",
+    "https://skiclassics.com/ski-classics-challengers-january-events-and-grand-finale-qualification-opportunities/",
+    "https://skiclassics.com/ski-classics-challengers-calendar-and-how-to-qualify-for-the-grand-finale-summit-2-senja/",
+    "https://skiclassics.com/ski-classics-complete-calendar-for-the-pro-tour-season-xvii/",
+    "https://skiclassics.com/wp-content/uploads/2025/10/SC-Pro-Tour-AthletesPro-Teams-RR-v17.2.pdf",
+    "https://skiclassics.com/all-you-need-to-know-ahead-of-marcialonga-season-xvi/",
+    "https://skiclassics.com/wp-content/uploads/2024/06/RR-Pro-Teams-v16.2.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:42:04Z"
+}

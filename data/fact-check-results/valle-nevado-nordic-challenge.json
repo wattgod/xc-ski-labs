@@ -1,0 +1,83 @@
+{
+  "slug": "valle-nevado-nordic-challenge",
+  "name": "Valle Nevado Nordic Challenge",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 300,
+    "country": "Chile",
+    "region": "Santiago Metropolitan Region",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": 2015,
+    "website": null,
+    "date": "Late August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race. Search results contain information about Valle Nevado ski resort but no references to this specific Nordic/cross-country event.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race. Valle Nevado resort is located in Central Chile, 2 hours from Santiago Airport, but no Nordic Challenge event is documented.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race.",
+      "source_url": null
+    },
+    "participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race or its official website.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found mentioning a 'Valle Nevado Nordic Challenge' cross-country ski race. Valle Nevado operates as an alpine ski resort (mid-June to mid-October) with freestyle competitions documented, but no Nordic Challenge event appears in available sources.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://powderquest.com/ski-resorts/chile/valle-nevado/",
+    "https://www.powderhounds.com/SouthAmerica/Chile/Valle-Nevado/Ski-Resort.aspx",
+    "https://www.vallenevado.com/en/service/heliski/",
+    "https://www.vallenevado.com/en/andes-cup-the-adrenaline-of-freestyle-returns-to-the-andes/",
+    "https://sportsclubint.com/valle-nevado-racing-camp/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=55637&seasoncode=2025",
+    "https://www.vallenevado.com/en/",
+    "https://www.vallenevado.com/en/about-valle-nevado/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:58:15Z"
+}

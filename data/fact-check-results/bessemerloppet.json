@@ -1,0 +1,82 @@
+{
+  "slug": "bessemerloppet",
+  "name": "Bessemerloppet",
+  "facts": {
+    "distance_km": 52,
+    "elevation_m": 400,
+    "country": "Sweden",
+    "region": "Gävleborg",
+    "discipline": "classic",
+    "field_size": 800,
+    "founded": 1960,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 52km for 2025 edition; 45km noted for 2026 but query matches typical value within ±3km tolerance",
+      "source_url": "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden",
+      "source_url": "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Gästrikland (Sandviken municipality)",
+      "note": "Located in Högbo Bruk, Sandviken; Sandviken is in Gästrikland, not Gävleborg (adjacent county)",
+      "source_url": "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique confirmed",
+      "source_url": "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First held since 1960",
+      "source_url": "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.hogbobrukshotell.se/en/events/bessemerloppet or bessemerloppet.se (inferred)",
+      "note": "Sources reference 'Bessemerloppet' website and Högbo Bruk page; not unknown",
+      "source_url": "https://www.hogbobrukshotell.se/en/events/bessemerloppet"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically February (e.g., Feb 16, 2025; mid-February otherwise)",
+      "source_url": "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/"
+    }
+  },
+  "citations": [
+    "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/",
+    "https://skiclassics.com/bessemerloppet-2025-this-sunday-in-sweden/",
+    "https://www.hogbobrukshotell.se/en/events/bessemerloppet",
+    "https://unofficialnetworks.com/2026/03/05/sweden-just-hosted-the-worlds-largest-cross-country-ski-race/",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://www.proxcskiing.com/long-distance/olsson-and-jutterdal-winners-at-bessemerloppet-2026/",
+    "https://www.piagoetz.de/bessemerloppet-2024"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:34:38Z"
+}

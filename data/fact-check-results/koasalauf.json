@@ -1,0 +1,83 @@
+{
+  "slug": "koasalauf",
+  "name": "Koasalauf",
+  "facts": {
+    "distance_km": 55,
+    "elevation_m": 600,
+    "country": "Austria",
+    "region": "Tirol",
+    "discipline": "classic",
+    "field_size": "~2,000 starters",
+    "founded": 1973,
+    "website": "https://www.koasalauf.at",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable source confirms 55 km; historical distances mentioned as 38 km and 72 km in first edition, but current distance not specified.",
+      "source_url": "https://www.kitzbueheler-alpen.com/de/stjo/koasalauf.html"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain information.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Austria (Tirol).",
+      "source_url": "https://www.austria.info/de-at/veranstaltungen/internationaler-tiroler-koasalauf/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Tirol (Tyrol), specifically St. Johann in Tirol region.",
+      "source_url": "https://www.kitzbueheler-alpen.com/de/stjo/koasalauf.html"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both for the main Koasalauf event.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Historical first edition had >1000 participants; no current typical number near ~2000 confirmed.",
+      "source_url": "https://www.kitzbueheler-alpen.com/de/stjo/koasalauf.html"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1974,
+      "note": "51st edition in 2025 implies first edition in 1975-1974=1974 (2025-51+1=1975 start year).",
+      "source_url": "https://www.austria.info/de-at/veranstaltungen/internationaler-tiroler-koasalauf/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://app.koasalauf.at",
+      "note": "Official site appears to be app.koasalauf.at based on event pages and Strava club.",
+      "source_url": "https://app.koasalauf.at"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late January/February (e.g., 2025-02, Jänner/February period).",
+      "source_url": "https://www.austria.info/de-at/veranstaltungen/internationaler-tiroler-koasalauf/"
+    }
+  },
+  "citations": [
+    "https://www.kitzbueheler-alpen.com/de/stjo/koasalauf.html",
+    "https://app.koasalauf.at",
+    "https://www.austria.info/de-at/veranstaltungen/internationaler-tiroler-koasalauf/",
+    "https://www.kitzbueheler-alpen.com/en/stjo/koasalauf.html",
+    "https://www.strava.com/clubs/koasalauf-789955",
+    "https://app.koasalauf.at/de/strecke.html",
+    "https://www.austria.info/en-us/events/international-tirolean-koasalauf/",
+    "https://www.tirol.gv.at/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:50:20Z"
+}

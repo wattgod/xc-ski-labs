@@ -1,0 +1,83 @@
+{
+  "slug": "sisu-ski-fest",
+  "name": "Sisu Ski Fest",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 300,
+    "country": "United States",
+    "region": "Michigan",
+    "discipline": "both",
+    "field_size": 350,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 30,
+      "note": "Database claims 30 km, but SISU Ski Fest offers multiple race distances: 30K SISU race, 15K Heikki Lunta race, and 5K Hauska Hiihto fun ski. The primary race is 30K, but this is not the only distance offered.",
+      "source_url": "https://www.sisuskifest.com/events"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe the course as having 'ups and downs among rocky outcrops' and mention it is a point-to-point race with elevation changes, but no specific total elevation gain in meters is provided in available sources.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race is held in Ironwood, Michigan, United States.",
+      "source_url": "https://www.skisignup.com/Race/MI/IRONWOOD/SisuSkiFest"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race is held in Michigan (Ironwood, MI).",
+      "source_url": "https://www.skisignup.com/Race/MI/IRONWOOD/SisuSkiFest"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe SISU Ski Fest as a 'cross country ski race' but do not explicitly specify whether the discipline is classic, skate, or both.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 880,
+      "note": "Database claims 350 participants. However, search results indicate 880 registered in 2023 (described as 'most ever') and event capacity for 2026 is 940 racers. The 350 figure appears to refer to volunteers, not participants.",
+      "source_url": "https://www.sisuskifest.com"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2010,
+      "note": "Database claims unknown. Search results state 'The SISU Ski Fest (SSF) was chartered in 2010 as a 501(c)(4) non-profit organization.' The 2026 event is described as the '17th annual,' which would place the first race in 2010.",
+      "source_url": "https://ironwoodchamber.org/business/sisu-ski-fest/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "http://www.sisuskifest.com",
+      "note": "Database claims unknown. Search results provide the official website URL.",
+      "source_url": "https://www.skisignup.com/Race/MI/IRONWOOD/SisuSkiFest"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "January",
+      "note": "Database claims February. Search results consistently indicate the race is held in January. The 2026 race is scheduled for January 10, 2026.",
+      "source_url": "https://www.skisignup.com/Race/MI/IRONWOOD/SisuSkiFest"
+    }
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/MI/IRONWOOD/SisuSkiFest",
+    "https://ironwoodchamber.org/business/sisu-ski-fest/",
+    "https://findarace.com/us/events/sisu-ski-fest-2026",
+    "https://www.sisuskifest.com/events",
+    "https://www.sisuskifest.com",
+    "https://www.sisuskifest.com/schedule",
+    "https://www.sisuskifest.com/about",
+    "https://abrtrails.com/blog/sisu-race-is-about-how-it-makes-you-feel/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:52:38Z"
+}

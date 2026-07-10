@@ -1,0 +1,82 @@
+{
+  "slug": "kangaroo-hoppet",
+  "name": "Kangaroo Hoppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "Australia",
+    "region": "Victoria",
+    "discipline": "both",
+    "field_size": "~800-1,200",
+    "founded": 1991,
+    "website": "https://www.kangaroohoppet.com.au",
+    "date": "Last Saturday in August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "The main race is 42km, but the database claim of '42' is correct for the primary Kangaroo Hoppet race. However, the event offers three distances: 7km Joey Hoppet, 21km Australian Birkebeiner, and 42km Kangaroo Hoppet. If the database refers only to the main race, this is CORRECT.",
+      "source_url": "https://www.victoriashighcountry.com.au/listing/kangaroo-hoppet-falls-creek"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results mention a '2km long Paralyzer climb with combination of 1700 m altitude air' but do not specify total elevation gain for the entire 42km course. The 1700m reference appears to be altitude/elevation at that location, not total gain. No reliable source found confirming total elevation gain of 600m.",
+      "source_url": "https://www.worldloppet.com/wl-race/kangaroo-hoppet-australia/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the race is held in Australia",
+      "source_url": "https://en.wikipedia.org/wiki/Kangaroo_Hoppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the race is held in Falls Creek, Victoria",
+      "source_url": "https://en.wikipedia.org/wiki/Kangaroo_Hoppet"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe the race as 'cross country skiing' and mention it was changed to a 'freestyle event' when joining Worldloppet in 1991, but do not explicitly state whether both classic and skate techniques are permitted or if only freestyle (skate) is used.",
+      "source_url": "https://en.wikipedia.org/wiki/Kangaroo_Hoppet"
+    },
+    "typical_participants": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources state 'over 1000 cross country skiers' participate annually, with the highest recorded being 1588 in 1995. The database claim of ~800-1,200 falls within the typical range.",
+      "source_url": "https://www.victoriashighcountry.com.au/listing/kangaroo-hoppet-falls-creek"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 1979,
+      "note": "The database claims 1991, but sources confirm the first race was held in 1979 as the 21km Australian Birkebeiner with 80 participants. The race joined Worldloppet in 1991, which may be the source of confusion.",
+      "source_url": "https://en.wikipedia.org/wiki/Kangaroo_Hoppet"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide a definitive official website URL. The domain 'kangaroohoppet.com.au' is not mentioned in any search results. Related information is found at victoriashighcountry.com.au and worldloppet.com, but no confirmation of the claimed URL.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Fourth Saturday of August",
+      "note": "The database claims 'Last Saturday in August,' but multiple sources explicitly state the race is held on the 'fourth Saturday of August,' which is not necessarily the last Saturday.",
+      "source_url": "https://en.wikipedia.org/wiki/Kangaroo_Hoppet"
+    }
+  },
+  "citations": [
+    "https://www.victoriashighcountry.com.au/listing/kangaroo-hoppet-falls-creek",
+    "https://discoverxcski.com/racing/kangaroo-hoppet/",
+    "https://en.wikipedia.org/wiki/Kangaroo_Hoppet",
+    "https://www.skifalls.com.au/whats-on/events/winter-events/kangaroo-hoppet",
+    "https://www.worldloppet.com/wl-race/kangaroo-hoppet-australia/",
+    "https://www.ahotu.com/event/kangaroo-hoppet",
+    "https://www.youtube.com/channel/UChQcIMHiFpOxfx9zC5RByNA"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:59Z"
+}

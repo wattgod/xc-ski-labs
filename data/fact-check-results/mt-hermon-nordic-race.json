@@ -1,0 +1,82 @@
+{
+  "slug": "mt-hermon-nordic-race",
+  "name": "Mt Hermon Nordic Race",
+  "facts": {
+    "distance_km": 15,
+    "elevation_m": 200,
+    "country": "Israel",
+    "region": "Golan Heights",
+    "discipline": "classic",
+    "field_size": 30,
+    "founded": 2015,
+    "website": null,
+    "date": "When conditions allow (January-March)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a 'Mt Hermon Nordic Race' or cross-country ski race with 15km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources reference a cross-country ski race at Mt Hermon with 200m elevation gain; sources discuss running events only.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Mt Hermon ski resort is in Israeli-occupied Golan Heights[1], but no confirmation of specific Nordic ski race.",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Hermon_ski_resort"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Golan Heights associated with Mt Hermon ski activities[1][2], but no Nordic race confirmed.",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Hermon_ski_resort"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Wikipedia mentions Nordic skiing offered at resort[1], but no details on organized classic cross-country race.",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Hermon_ski_resort"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for any Mt Hermon Nordic ski race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a Nordic race founded in 2015.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Mt Hermon Nordic Race'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Ski resort open January–March when snow allows[1]; matches claim but no specific Nordic race confirmation.",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Hermon_ski_resort"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Mount_Hermon_ski_resort",
+    "https://www.jpost.com/israel-news/sports/runners-race-to-the-top-of-mt-hermon-in-annual-challenge-670416",
+    "https://www.marathonisrael.co.il/en/event/hermon-challenge/",
+    "https://www.youtube.com/watch?v=Wo5hdbE5FZg",
+    "https://www.youtube.com/watch?v=RKU0vkLt_O8",
+    "https://www.youtube.com/watch?v=UoIKUho5uvU",
+    "https://worldsmarathons.com/marathon/volcano-race"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:17:00Z"
+}

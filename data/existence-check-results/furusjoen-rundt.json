@@ -1,0 +1,31 @@
+{
+  "slug": "furusjoen-rundt",
+  "name": "Furusjøen Rundt",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.furusjoenrundt.no/",
+    "results_url": null,
+    "evidence_summary": "Multiple sources confirm Furusjøen Rundt-Rennet as a real annual cross-country ski race in Kvam, Norway, with distances of 45km, 20km, and 12km in classic technique, part of Ski Classics Challengers series and a seeding race for major events like Vasaloppet. Official websites provide registration details, race info, and schedules for 2025 and 2026 editions. Listings on Ski Classics and ProXCskiing, plus regional tourism sites, describe hundreds of participants yearly in terrain near Rondane National Park.",
+    "sources": [
+      "https://skiclassics.com/furusjoen-rundt-rennet-2025-this-weekend-in-norway/",
+      "https://en.furusjoenrundt.no/rennet/",
+      "https://www.proxcskiing.com/long-distance/furusjoen-rundt-rennet-2026-this-saturday-in-norway/",
+      "https://www.furusjoenrundt.no/rennet/",
+      "https://skiclassics.com/events/challengers/furusjoen-rundt-rennet/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/furusjoen-rundt-rennet-2025-this-weekend-in-norway/",
+    "https://en.furusjoenrundt.no/rennet/",
+    "https://www.proxcskiing.com/long-distance/furusjoen-rundt-rennet-2026-this-saturday-in-norway/",
+    "https://www.furusjoenrundt.no/rennet/",
+    "https://en.furusjoenrundt.no",
+    "https://www.furusjoenrundt.no",
+    "https://skiclassics.com/events/challengers/furusjoen-rundt-rennet/",
+    "https://en.lillehammer.com/whats-on/articles/furusjoen-rundt"
+  ],
+  "checked_at": "2026-03-12T15:46:03Z"
+}

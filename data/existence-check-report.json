@@ -1,0 +1,929 @@
+{
+  "total": 378,
+  "confirmed": 204,
+  "likely": 21,
+  "suspicious": 25,
+  "fictional": 128,
+  "suspicious_races": [
+    {
+      "slug": "arefjallsloppet",
+      "name": "Arefjällsloppet",
+      "tier": 3,
+      "summary": "No search results were returned for 'Arefjällsloppet'. The provided search results contain only information about Swix Ski Classics in Livigno, Italy, which is unrelated to the queried Swedish race. Without access to official websites, race results, news articles, or listings from major ski race databases (Worldloppet, Euroloppet, FIS), the existence of this event cannot be verified."
+    },
+    {
+      "slug": "baikal-ice-marathon-on-skis",
+      "name": "Baikal Ice Marathon on Skis",
+      "tier": 4,
+      "summary": "No evidence found for a cross-country ski race named 'Baikal Ice Marathon on Skis'. All sources describe the Baikal Ice Marathon as a **running** event on frozen Lake Baikal, with no mentions of skiing versions in Worldloppet, results, news, or social media specific to skis. One source mentions a generic 'CROSS-COUNTRY SKIING SUPER BAIKAL MARATHON' but lacks details like results or official listings."
+    },
+    {
+      "slug": "bansko-nordic-challenge",
+      "name": "Bansko Nordic Challenge",
+      "tier": 3,
+      "summary": "No evidence of a specific organized cross-country ski race called 'Bansko Nordic Challenge' found across official websites, results, news, or listings. Bansko Ski Resort mentions general cross-country ski trails in the Pirin forest, but no dedicated event, results, or promotions for this race exist in search results. No mentions in Worldloppet, FIS, social media, or registration pages."
+    },
+    {
+      "slug": "bayerischer-wald-skimarathon",
+      "name": "Bayerischer Wald Skimarathon",
+      "tier": 2,
+      "summary": "No evidence found for a race named 'Bayerischer Wald Skimarathon'. Search results mention Skadi Loppet in Bodenmais (Bayerischer Wald region) and other cross-country/biathlon events, but no exact match, results, news, or listings for the queried event. Lacks official site, results, or specific mentions."
+    },
+    {
+      "slug": "brezovica-ski-marathon",
+      "name": "Brezovica Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence found of a 'Brezovica Ski Marathon' cross-country ski race. Search results mention Brezovica ski resort, alpine skiing events like FIS races and Brezovica Cup (canceled in 2022), but nothing about a cross-country marathon. No official website, results, news, Worldloppet listings, or social media for this specific event."
+    },
+    {
+      "slug": "carpathian-ski-marathon",
+      "name": "Carpathian Ski Marathon",
+      "tier": 3,
+      "summary": "The Carpathian Ski Club mentions annual ski races in the Carpathian mountains as a major event, but no specific 'Carpathian Ski Marathon' is named, and there are no race results, official event website, news articles, Worldloppet/Euroloppet listings, social media events, YouTube videos, or registration pages found. Other results discuss general ski resorts and activities in Ukraine's Carpathians but provide no concrete evidence of this particular cross-country ski marathon."
+    },
+    {
+      "slug": "changbaishan-ski-marathon",
+      "name": "Changbaishan Ski Marathon",
+      "tier": 4,
+      "summary": "No direct evidence found for a 'Changbaishan Ski Marathon' cross-country ski race. Search results mention general skiing and outdoor activities at Changbai Mountain, Vasaloppet China in a different location (Jingyuetan/Changchun), and a forest marathon (running event), but no official site, results, news, or listings for the specific ski marathon exist."
+    },
+    {
+      "slug": "erzgebirge-24h",
+      "name": "Erzgebirge 24-Hour Ski Race",
+      "tier": 4,
+      "summary": "WSC Erzgebirge in Oberwiesenthal (Erzgebirge region) hosts real cross-country ski events like Deutschlandpokal biathlon and FIS Junior World Championships, with an official website and contact details. No evidence found for a specific '24-Hour Ski Race' including results, news, social media, or listings in Worldloppet/Ski Classics. Other results mention general skiing in the area but no matching 24-hour event."
+    },
+    {
+      "slug": "friday-night-lights-series",
+      "name": "Friday Night Lights Series",
+      "tier": 4,
+      "summary": "No evidence found of a cross-country ski race named 'Friday Night Lights Series' in the United States. Search results show unrelated events like freeride rail jams, ski-a-thons, and uphill series, but none match the query for an organized cross-country ski race with results, official site, or listings in major calendars. No race results, news articles, social media, or registration pages specific to this event."
+    },
+    {
+      "slug": "jamtland-ski-marathon",
+      "name": "Jämtland Ski Marathon",
+      "tier": 3,
+      "summary": "No official website, race results, news articles, or listings in Worldloppet/Ski Classics/FIS found for 'Jämtland Ski Marathon'. A 2022 invitation PDF for 'OnePartnerGroup Ski Marathon Östersund' (42km in Östersund, Jämtland) mentions inclusion in 'Gällö Skog Jämtland Ski Tour', and a directory lists 'OPG Östersund Ski Marathon' among Jämtland ski marathons, but no direct evidence confirms the exact named event."
+    },
+    {
+      "slug": "karakol-ski-marathon",
+      "name": "Karakol Ski Marathon",
+      "tier": 4,
+      "summary": "No official website, race results, news articles, or listings found for 'Karakol Ski Marathon' in any of the search results. A single mention of general 'Winter Skiing Games' in Karakol exists but does not reference a specific cross-country ski marathon event. No presence in Worldloppet, Ski Classics, FIS, social media, or video evidence."
+    },
+    {
+      "slug": "krkonossky-maraton",
+      "name": "Krkonošský Maratón",
+      "tier": 2,
+      "summary": "No direct mentions of 'Krkonošský Maratón' as a specific cross-country ski race in any search results. Results show general cross-country skiing trails in Krkonose mountains, tracking events (none matching the race name), historical references to ski races in the area, and ski clubs, but no official site, results, news, or listings for this event."
+    },
+    {
+      "slug": "madesimo-ski-marathon",
+      "name": "Madesimo Ski Marathon",
+      "tier": 3,
+      "summary": "Multiple sources confirm Madesimo as a real ski resort in Italy with extensive cross-country ski trails (12-25 km mentioned), but no evidence of a specific organized 'Madesimo Ski Marathon' event. No official website, race results, news articles, Worldloppet/Euroloppet listings, social media events, YouTube videos, or registration pages for this marathon were found in the search results."
+    },
+    {
+      "slug": "marathon-de-la-clusaz",
+      "name": "Marathon de La Clusaz",
+      "tier": 3,
+      "summary": "No direct evidence found for a cross-country ski race named 'Marathon de La Clusaz'. Search results confirm La Clusaz has extensive Nordic skiing trails (53 km at Confins, 38 km at Beauregard) and hosts events like Boarder Line (cross-country boarder cross) and Défi Foly, but no marathon race results, official site, news articles, or listings in Worldloppet/Euroloppet/Ski Classics match the query."
+    },
+    {
+      "slug": "mont-sainte-anne-loppet",
+      "name": "Mont-Sainte-Anne Loppet",
+      "tier": 2,
+      "summary": "No evidence found of a specific cross-country ski race named 'Mont-Sainte-Anne Loppet' in the search results. Mont-Sainte-Anne resort exists with cross-country skiing facilities mentioned, but no official website, race results, news articles, Worldloppet listings, social media events, videos, or registration pages for this event. Only general resort information about alpine skiing, summer events, and a multi-purpose track for cross-country training."
+    },
+    {
+      "slug": "mt-shasta-nordic-marathon",
+      "name": "Mt Shasta Nordic Marathon",
+      "tier": 3,
+      "summary": "Mt. Shasta Nordic Center exists with an official website promoting groomed trails, rentals, and general events like a 5K race and snowshoe race, but no mention of a 'Mt Shasta Nordic Marathon' or any marathon-length cross-country ski race. No race results, news articles, social media events, videos, or listings in major series found confirming the specific event. The organization focuses on trails and shorter events, with no historical marathon evidence."
+    },
+    {
+      "slug": "myoko-nordic-festival",
+      "name": "Myoko Nordic Festival",
+      "tier": 3,
+      "summary": "No mentions of 'Myoko Nordic Festival' or any cross-country ski race by that name in the search results. Results cover general Myoko events, festivals, ski resorts, and snow-related activities but lack any specific evidence of this event, such as official sites, results, news, or listings in Worldloppet/FIS. Only generic Myoko tourism and ski info found."
+    },
+    {
+      "slug": "nozawa-onsen-ski-marathon",
+      "name": "Nozawa Onsen Ski Marathon",
+      "tier": 3,
+      "summary": "No direct evidence of a 'Nozawa Onsen Ski Marathon' as an organized cross-country ski race was found. Search results confirm Nozawa Onsen Ski Resort exists with cross-country training courses (e.g., Minamihara and Uenotaira), FIS-approved alpine courses, and Olympic biathlon history, but no official website, race results, news articles, Worldloppet listings, social media events, YouTube videos, or registration pages for the specific marathon event. Mentions are limited to general cross-country facilities and training."
+    },
+    {
+      "slug": "oukaimeden-nordic-race",
+      "name": "Oukaimeden Nordic Race",
+      "tier": 4,
+      "summary": "No official website, race results, news articles, listings in Worldloppet/FIS/Ski Classics, social media events, YouTube videos, or registration pages found for 'Oukaimeden Nordic Race'. Oukaimeden is a real ski resort in Morocco with mentions of skiing and a vague 2010 SCIJ image gallery reference to a 'nordic race' in a different location, but no concrete evidence of this specific organized cross-country ski race exists."
+    },
+    {
+      "slug": "pirin-ultra-nordic",
+      "name": "Pirin Ultra Nordic",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Pirin Ultra Nordic'. The official website pirinultra.com describes a trail running ultramarathon event in Pirin Mountains, Bulgaria, with routes like 160km, 68km, etc., history since 2016, and 2026 dates in September, but no mention of skiing or Nordic events. No race results, news articles, social media, or listings for any ski race by this name."
+    },
+    {
+      "slug": "pragelato-sestriere",
+      "name": "Pragelato-Sestriere",
+      "tier": 3,
+      "summary": "Pragelato and Sestriere are confirmed as real ski locations within the Vialattea ski resort in Italy's Val Chisone region. Pragelato hosted Nordic skiing during the 2006 Turin Olympics and is connected to Sestriere via cable car. However, no specific cross-country ski race called 'Pragelato-Sestriere' was found in search results. The search results mention various ski races at these locations (Coppa Italia Master, Uovo d'Oro Lauretana) but none specifically named 'Pragelato-Sestriere.' The Special Olympics World Winter Games 2025 mentions cross-country skiing in Pragelato, but this is a separate international event, not a named race between the two towns."
+    },
+    {
+      "slug": "schlickelauf",
+      "name": "Schlickelauf",
+      "tier": 3,
+      "summary": "No concrete evidence found for the 'Schlickelauf' cross-country ski race in the provided search results. The only result is the general Ski Austria website, which lists disciplines like Langlauf but contains no mention of this specific event, results, news, or listings. Lacks official site, results, news articles, or any other required verification."
+    },
+    {
+      "slug": "steamboat-ski-touring-loppet",
+      "name": "Steamboat Ski Touring Center Loppet",
+      "tier": 3,
+      "summary": "The Steamboat Ski Touring Center exists as a real Nordic skiing facility with groomed trails, but no evidence of a specific 'Loppet' race was found in search results. No official website, race results, news articles, listings in Worldloppet or similar, social media events, videos, or registration pages mention the 'Steamboat Ski Touring Center Loppet'. Directory listings or indirect Nordic mentions in Steamboat do not confirm an organized loppet event."
+    },
+    {
+      "slug": "tokachi-ski-marathon",
+      "name": "Tokachi Ski Marathon",
+      "tier": 4,
+      "summary": "Only one indirect mention in a Biei Tourism Association events page referencing the Tokachi mountain range as background for the Miyasama International Ski Marathon, but no dedicated information, official site, results, news articles, or listings for a 'Tokachi Ski Marathon'. No evidence found for race results, Worldloppet/FIS listings, social media events, YouTube videos, or registration pages specific to this event. Other results discuss unrelated Hokkaido ski marathons like Sapporo and Miyasama."
+    },
+    {
+      "slug": "zlatibor-ski-marathon",
+      "name": "Zlatibor Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence found for a 'Zlatibor Ski Marathon' cross-country ski race. Search results show FIS cross-country events in Zlatibor (e.g., SES Cup 2020, NC Serbia 2025) and alpine ski facilities, but no marathon, results, news, or listings for this specific event. Zlatibor has cross-country tracks and general ski resorts, but nothing matches the named marathon."
+    }
+  ],
+  "fictional_races": [
+    {
+      "slug": "akakura-xc-race",
+      "name": "Akakura XC Race",
+      "tier": 4,
+      "summary": "No evidence of an 'Akakura XC Race' cross-country ski race found in the search results. Results mention Akakura Onsen Ski Area and Akakura Kanko Resort, which are alpine ski resorts in Myoko, Japan, with no references to cross-country events, race results, news, or listings in Worldloppet/FIS. No official websites, results, social media, or videos for the specific race exist in the provided data."
+    },
+    {
+      "slug": "akureyri-ski-marathon",
+      "name": "Akureyri Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for an event named 'Akureyri Ski Marathon'. Search results mention a 2022 Scandinavian Cup cross-country ski race in Akureyri organized by Akureyri Ski Club, Fossavatnsgangan (a real Worldloppet event in Ísafjörður), and Icelandic championships at Hlíðarfjall, but nothing matches the queried marathon name. No official site, results, news, or listings for 'Akureyri Ski Marathon' exist."
+    },
+    {
+      "slug": "almaty-ski-marathon",
+      "name": "Almaty Ski Marathon",
+      "tier": 2,
+      "summary": "No evidence found for a cross-country ski race named 'Almaty Ski Marathon' in Kazakhstan. Search results only reference the Almaty Marathon (road running event) and Winter Run (short snow trail runs, not ski marathons), with no mentions of skiing, cross-country races, Worldloppet listings, results, news, or social media for any ski marathon. The queried event appears fictional or confused with running events."
+    },
+    {
+      "slug": "astana-ski-marathon",
+      "name": "Astana Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for any 'Astana Ski Marathon' cross-country ski race in Kazakhstan. All search results refer exclusively to the Astana Half Marathon, a road running event, with no mentions of skiing, cross-country races, Worldloppet, or related listings. The query appears to confuse it with a running event or a fictional ski race."
+    },
+    {
+      "slug": "backwoods-pursuit",
+      "name": "Backwoods Pursuit",
+      "tier": 4,
+      "summary": "No evidence of a 'Backwoods Pursuit' cross-country ski race found in search results. backwoodspursuit.com is a backcountry gear review site, not a race organizer. The Fat Pursuit is a similar-sounding human-powered winter race in Idaho but is not cross-country skiing-specific and does not match the name."
+    },
+    {
+      "slug": "beito-ski-marathon",
+      "name": "Beito Ski Marathon",
+      "tier": 2,
+      "summary": "No evidence found for a 'Beito Ski Marathon' cross-country ski race in Norway. Search results mention running marathons like Fjellmaraton and Norwegian Mountain Marathon in Beitostølen, FIS cross-country events like Beitosprinten with results, but no marathon-length ski race or the specific event name. No official site, results, news, Worldloppet listings, or social media for 'Beito Ski Marathon'."
+    },
+    {
+      "slug": "beskydy-ski-marathon",
+      "name": "Beskydy Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Beskydy Ski Marathon'. Search results mention other Beskydy events like Beskydy Seven Summits (a running/trail event) and general skiing in the region, but nothing matching the specific ski marathon. No official site, results, news, listings in Worldloppet/Ski Classics, social media, videos, or registration pages for this event."
+    },
+    {
+      "slug": "bezecka-30",
+      "name": "Bežecká 30",
+      "tier": 4,
+      "summary": "No evidence found for a cross-country ski race named 'Bežecká 30' in Slovakia across official websites, race results, news, Worldloppet/Euroloppet listings, social media, YouTube videos, or registration pages. Search results mention Slovak cross-country trails and events like FIS races at Štrbské Pleso but nothing matching this specific name or event. Similar-named events like Krušnohorska 30 exist in Czech Republic, suggesting possible confusion."
+    },
+    {
+      "slug": "biatlon-romaniei-ski-marathon",
+      "name": "Biatlon Românii Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence of a cross-country ski race named 'Biatlon Românii Ski Marathon' found in search results. Results mention the Romanian Ski Biathlon Federation and general biathlon events, but no specific race results, official site, news, or listings for this marathon event. It appears to be fictional or confused with general biathlon activities."
+    },
+    {
+      "slug": "bieg-grunwaldzki",
+      "name": "Bieg Grunwaldzki",
+      "tier": 2,
+      "summary": "No evidence found of 'Bieg Grunwaldzki' as a cross-country ski race in any of the search results. Mentions of 'Grunwaldzki' appear only in unrelated contexts like place names (pl. Grunwaldzki, Grunwaldzki Square) and non-ski events. No official website, results, news articles, listings, social media, videos, or registration pages for this specific event."
+    },
+    {
+      "slug": "bieg-gwarkow",
+      "name": "Bieg Gwarków",
+      "tier": 4,
+      "summary": "No evidence found for 'Bieg Gwarków' in any search results. All results reference 'Bieg Piastów', a well-established Polish cross-country ski event part of Worldloppet, suggesting 'Bieg Gwarków' may be a confusion or misspelling."
+    },
+    {
+      "slug": "bjelasnica-ski-marathon",
+      "name": "Bjelašnica Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Bjelašnica Ski Marathon' in Bosnia and Herzegovina. Search results mention Bjelašnica as an Olympic ski venue for alpine and Nordic events in 1984, current alpine competitions, and general skiing, but no marathon race results, official site, news, or listings in Worldloppet, FIS cross-country, or social media."
+    },
+    {
+      "slug": "bran-castle-ski-marathon",
+      "name": "Bran Castle Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence of a 'Bran Castle Ski Marathon' cross-country ski race exists in the search results. The search results contain extensive information about the Transylvania 100, which is a trail running ultramarathon event (not a ski race) held in May 2026 at Bran Castle. The Transylvania 100 features running distances of 20k, 30k, 50k, 80k, and 100k, with no ski racing component mentioned."
+    },
+    {
+      "slug": "bukovel-ski-marathon",
+      "name": "Bukovel Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence of a 'Bukovel Ski Marathon' cross-country ski race was found in the search results. Bukovel hosts trail running events (Buko Trail), alpine skiing championships, and snowboarding competitions, but no cross-country skiing marathon is mentioned in official sources, news articles, or event listings."
+    },
+    {
+      "slug": "cairngorm-nordic-challenge",
+      "name": "Cairngorm Nordic Challenge",
+      "tier": 4,
+      "summary": "No evidence of the 'Cairngorm Nordic Challenge' cross-country ski race was found in the search results. Results mention general Nordic skiing in the Cairngorms area, ski resorts like Cairngorm Mountain (downhill-focused), and clubs, but no official website, race results, news articles, listings in Worldloppet/FIS, social media, videos, or registration for this specific event."
+    },
+    {
+      "slug": "cedars-ski-marathon",
+      "name": "Cedars Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence of a cross-country ski race called 'Cedars Ski Marathon' was found in the search results. The Cedars region in Lebanon does have a ski resort with alpine skiing events, but no cross-country ski marathon event exists under this name. Search results show alpine skiing results from Cedars Ski Resort and general ski season information, but no cross-country marathon event."
+    },
+    {
+      "slug": "cerro-catedral-nordic-race",
+      "name": "Cerro Catedral Nordic Race",
+      "tier": 3,
+      "summary": "No evidence found of a 'Cerro Catedral Nordic Race' as a cross-country ski event in Argentina. Search results mention Cerro Catedral as an alpine ski resort with downhill skiing, competitions, and activities, but nothing about cross-country or Nordic racing. No official websites, results, news, listings, social media, videos, or registration pages for this specific event exist in the results."
+    },
+    {
+      "slug": "chapelco-nordic-race",
+      "name": "Chapelco Nordic Race",
+      "tier": 3,
+      "summary": "No evidence of a 'Chapelco Nordic Race' cross-country ski race found in search results. Cerro Chapelco is a real alpine ski resort in Argentina with an official website focused on downhill skiing, snowboarding, and summer activities, but no mentions of nordic or cross-country events, results, news, or listings in Worldloppet/FIS. Other results discuss unrelated skiing or golf at Chapelco."
+    },
+    {
+      "slug": "corralco-nordic-cup",
+      "name": "Corralco Nordic Cup",
+      "tier": 4,
+      "summary": "No evidence found of a 'Corralco Nordic Cup' cross-country ski race. Corralco is a real ski resort hosting alpine and snowboard events like FIS Snowboard Cross South American Cup, but no mentions of cross-country (nordic) racing, results, news, or listings in Worldloppet/FIS for this event. Search results confirm the resort's existence but lack any nordic-specific organization."
+    },
+    {
+      "slug": "cradle-mountain-classic",
+      "name": "Cradle Mountain Classic",
+      "tier": 4,
+      "summary": "No evidence found of a 'Cradle Mountain Classic' cross-country ski race. Search results mention a Cradle Mountain Run (trail running event)[1][2][6] and general cross-country skiing possibilities at Cradle Mountain[3][7], but no organized ski race by that name, no results, no official site, no news, no social media, no videos, and no listings in Worldloppet or similar."
+    },
+    {
+      "slug": "dachstein-nordic-classic",
+      "name": "Dachstein Nordic Classic",
+      "tier": 2,
+      "summary": "No evidence found for a cross-country ski race named 'Dachstein Nordic Classic' in any search results. Related events like Dachsteinlauf (a real cross-country race in Ramsau am Dachstein) and FIS cross-country events in Ramsau exist, but nothing matches the specific name. Results mention alpine races, glacier cross-country trails, and other events, but no official site, results, news, or listings for 'Dachstein Nordic Classic'."
+    },
+    {
+      "slug": "daegwallyeong-snow-festival-race",
+      "name": "Daegwallyeong Snow Festival Race",
+      "tier": 3,
+      "summary": "Multiple sources confirm the existence of the Daegwallyeong Snow Festival, a real winter event since 1993 featuring snow sculptures, sledding, rafting, and local activities, with a listed official site at http://www.snowfestival.net/. However, no evidence of a 'cross-country ski race' called 'Daegwallyeong Snow Festival Race' was found—no race results, FIS/Worldloppet listings, registration pages, videos, or news articles mentioning any organized ski competition. One source vaguely references a 'skiing competition exclusively for local participants' within the festival context, but lacks specifics or confirmation of it being a formal cross-country race."
+    },
+    {
+      "slug": "davos-nordic-marathon",
+      "name": "Davos Nordic Marathon",
+      "tier": 2,
+      "summary": "No evidence found for a 'Davos Nordic Marathon' cross-country ski race. Search results confirm 'Davos Nordic' as an established FIS Cross-Country World Cup event with sprints and distances, not a marathon. No race results, registration, Worldloppet/Euroloppet listings, or social media for a marathon event."
+    },
+    {
+      "slug": "dizin-nordic-race",
+      "name": "Dizin Nordic Race",
+      "tier": 4,
+      "summary": "No evidence found of a 'Dizin Nordic Race' as a specific cross-country ski race event. Search results mention Dizin Ski Resort, grass skiing competitions, and general nordic skiing in Iran, but no official website, race results, news articles, listings in Worldloppet/FIS/Ski Classics, social media, videos, or registration pages for this named event."
+    },
+    {
+      "slug": "dolomiti-ski-jazz",
+      "name": "Dolomiti Ski Jazz",
+      "tier": 3,
+      "summary": "Dolomiti Ski Jazz is a real annual music festival featuring jazz concerts on ski slopes and in mountain huts in Val di Fassa, Val di Fiemme, and surrounding Dolomites areas, scheduled for March 6-15, 2026, in its 30th edition. No evidence found of any cross-country ski race component, race results, registration, or listings in Worldloppet, FIS, or similar; all sources describe it exclusively as a live music event for skiers."
+    },
+    {
+      "slug": "egilsstadir-ski-marathon",
+      "name": "Egilsstaðir Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for 'Egilsstaðir Ski Marathon' across official websites, results, news, Worldloppet listings, social media, YouTube, or registration pages. Search results reference Fossavatnsgangan, a real ski marathon in Ísafjörður, not Egilsstaðir. The queried event appears fictional or confused with Fossavatnsgangan."
+    },
+    {
+      "slug": "erciyes-ski-marathon",
+      "name": "Erciyes Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence of an 'Erciyes Ski Marathon' cross-country ski race was found in the search results. The search results reference Erciyes as Turkey's largest ski resort and mention the 'Erciyes Ultra Sky Trail' (a trail running event held in July), but contain no mention of any cross-country skiing marathon event. The resort operates as an alpine ski destination, not a cross-country skiing venue."
+    },
+    {
+      "slug": "falls-creek-hotham-crossing",
+      "name": "Falls Creek to Hotham Crossing",
+      "tier": 4,
+      "summary": "No evidence of a cross-country ski race named 'Falls Creek to Hotham Crossing' found in any search results. The route exists as a popular summer hiking trail (Falls to Hotham Alpine Crossing) and a walking/endurance event (Australian Grand Traverse), but no mentions of organized cross-country skiing events, results, news, or listings on Worldloppet/FIS/Ski Classics. Other results are ski cross races at Mt Hotham, not cross-country."
+    },
+    {
+      "slug": "femund-ski-marathon",
+      "name": "Femund Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Femund Ski Marathon'. All search results refer to Femundløpet or Femund Race, which are long-distance sled dog races, not ski races. Mentions of cross-country skiing in the area are general trail information without any specific organized marathon event."
+    },
+    {
+      "slug": "foothills-nordic-loppet",
+      "name": "Foothills Nordic Loppet",
+      "tier": 3,
+      "summary": "No evidence found of a specific 'Foothills Nordic Loppet' race event; the Foothills Nordic Ski Club exists and hosts events like AB Cup #3 & #4 'Foothills Nordic Rodeo' and mentions a 'Cookie Race', but no loppet by that name. No race results, news articles, international listings, social media events, videos, or registration pages for 'Foothills Nordic Loppet' identified. 'Learn To Loppet' is a training program, not a race."
+    },
+    {
+      "slug": "furano-ski-marathon",
+      "name": "Furano Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence of a 'Furano Ski Marathon' cross-country ski race was found in the search results. The search results extensively document Furano Ski Resort's alpine skiing operations, events (including the Furanon Trial Race and Pond Skimming Race), and facilities, but contain no mention of any cross-country ski marathon event. The resort is exclusively an alpine skiing destination with no cross-country skiing infrastructure mentioned."
+    },
+    {
+      "slug": "gaustarennet",
+      "name": "Gaustarennet",
+      "tier": 3,
+      "summary": "No evidence of a race called 'Gaustarennet' was found in the search results. The search results contain information about Skarverennet (a real, major cross-country ski race in Norway) and Gausta Ski Resort (an alpine ski destination), but no mention of 'Gaustarennet' as an organized event. The query appears to conflate or confuse these two separate entities."
+    },
+    {
+      "slug": "glacier-nordic-races",
+      "name": "Glacier Nordic Races",
+      "tier": 4,
+      "summary": "No evidence found for a race named 'Glacier Nordic Races'. The Glacier Nordic Club organizes events like Glacier Glide (cross-country ski race with results from 2023), but this exact name does not match any listed event. Searches yielded only club events, no mentions of 'Glacier Nordic Races' in results, news, or directories."
+    },
+    {
+      "slug": "greina-ski-tour",
+      "name": "Greina Ski Tour",
+      "tier": 3,
+      "summary": "No evidence of a 'Greina Ski Tour' cross-country ski race found in search results. Greina Plateau is a real location with guided ski tours (not races), hiking trails, and a trail running event (Greina Trail), but no organized cross-country ski race with results, official site, news, or listings in Worldloppet/FIS/Ski Classics."
+    },
+    {
+      "slug": "gudauri-ski-marathon",
+      "name": "Gudauri Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence found of a 'Gudauri Ski Marathon' cross-country ski race in any search results. Gudauri is a confirmed ski resort with downhill skiing, ski schools, snowboarding events like the Snowboard Cross World Cup, and general winter activities, but zero mentions of cross-country marathons, results, news, official sites, social media, videos, or listings in Worldloppet/Ski Classics/FIS."
+    },
+    {
+      "slug": "gulmarg-nordic-ski-challenge",
+      "name": "Gulmarg Nordic Ski Challenge",
+      "tier": 4,
+      "summary": "No evidence of a 'Gulmarg Nordic Ski Challenge' race exists in the search results. While Gulmarg hosts Nordic Skiing competitions as part of the Khelo India Winter Games (KIWG), there is no organized event by the name 'Gulmarg Nordic Ski Challenge.' The search results reference only official government-sanctioned winter sports events in Gulmarg, not an independently organized cross-country ski race with that specific name."
+    },
+    {
+      "slug": "hakkoda-ski-tour",
+      "name": "Hakkoda Ski Tour",
+      "tier": 4,
+      "summary": "No evidence found of a 'Hakkoda Ski Tour' cross-country ski race. Search results only mention Hakkoda as a backcountry/downhill ski area with powder snow, ropeway access, and general ski courses, but no organized cross-country race, results, news, listings in Worldloppet/FIS/Ski Classics, social media events, videos, or registration pages."
+    },
+    {
+      "slug": "halsingeleden",
+      "name": "Halsingeleden",
+      "tier": 3,
+      "summary": "No evidence found for 'Halsingeleden' as a cross-country ski race in Sweden across official websites, results, news, Worldloppet listings, social media, YouTube, or registration pages. Search results mention only Vasaloppet and unrelated events, with no matches for the queried race name. It appears to be fictional or confused with another event."
+    },
+    {
+      "slug": "halvvasan",
+      "name": "HalvVasan",
+      "tier": 2,
+      "summary": "No evidence found for a 'HalvVasan' cross-country ski race in the search results. All results refer to Vasaloppet (90km), Vasaloppet 45 (45km), and other Vasaloppet Week events, but none mention 'HalvVasan' specifically. It may be a confusion with Vasaloppet 45 or a non-existent event."
+    },
+    {
+      "slug": "harbin-ice-and-snow-ski-marathon",
+      "name": "Harbin Ice and Snow Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found of a 'Harbin Ice and Snow Ski Marathon' cross-country ski race. Search results mention the Harbin Ice and Snow Festival, snow sculptures, general winter activities like skiing, and the Asian Winter Games, but no specific organized marathon race with results, official site, or listings in Worldloppet/FIS. The event appears fictional or confused with festival activities."
+    },
+    {
+      "slug": "harbin-ice-city-marathon",
+      "name": "Harbin Ice City Marathon",
+      "tier": 4,
+      "summary": "No evidence found of a cross-country ski race named 'Harbin Ice City Marathon'. Search results mention a road Harbin Marathon (not ski) and the Harbin Ice and Snow Festival with general winter sports like alpine skiing, but no specific cross-country ski marathon, results, official site, or listings in Worldloppet/FIS."
+    },
+    {
+      "slug": "hetta-vuontisjarvi",
+      "name": "Hetta-Vuontisjärvi",
+      "tier": 3,
+      "summary": "No evidence found for a specific cross-country ski race named 'Hetta-Vuontisjärvi'. Mentions of Vuontisjärvi appear only as a stage (Stage 2: Himmelriikin Hiihto, Vuontisjärvi-Pallas-Olos 50km) within the multi-stage Lapponia Ski Week event, not as a standalone race from Hetta to Vuontisjärvi. No official site, results, news articles, or listings confirm the exact event queried."
+    },
+    {
+      "slug": "highland-cross",
+      "name": "Highland Cross",
+      "tier": 3,
+      "summary": "No evidence found of a 'Highland Cross' cross-country ski race in the UK. The highlandcross.co.uk site describes a real duathlon (foot and bike) event in the Scottish Highlands, not skiing. No mentions in ski club directories, Snowsport England, or other nordic skiing sources match the query."
+    },
+    {
+      "slug": "himos-loppet",
+      "name": "Himos Loppet",
+      "tier": 3,
+      "summary": "No evidence of a cross-country ski race named 'Himos Loppet' found in the search results. Himos is a real ski resort with Nordic trails and hosts snowcross events, but no mentions of any loppet-style cross-country ski race, results, official site, news, or listings in Worldloppet, Euroloppet, or similar. Other Finnish races like Finlandia Hiihto appear, but nothing matching 'Himos Loppet'."
+    },
+    {
+      "slug": "hotham-nordic-marathon",
+      "name": "Hotham Nordic Marathon",
+      "tier": 3,
+      "summary": "No evidence of a 'Hotham Nordic Marathon' event exists in the search results or Mt Hotham's official website. While Mt Hotham does offer cross-country skiing with 35km of trails, there is no organized race by this name. The resort's official events pages list trail running races, ski cross races, and guided walks, but no Nordic marathon event."
+    },
+    {
+      "slug": "ifrane-nordic-festival",
+      "name": "Ifrane Nordic Festival",
+      "tier": 4,
+      "summary": "No evidence of the 'Ifrane Nordic Festival' cross-country ski race was found in the search results. Mentions of Ifrane refer only to it as a ski resort town or a stop on general Morocco tours, with no references to any organized Nordic ski race, results, news, official sites, social media, videos, or listings in Worldloppet/FIS. The absence of concrete evidence across all requested categories confirms it does not exist as a real event."
+    },
+    {
+      "slug": "jackson-hole-nordic-marathon",
+      "name": "Jackson Hole Nordic Marathon",
+      "tier": 4,
+      "summary": "No evidence found for a 'Jackson Hole Nordic Marathon' cross-country ski race. Search results show a road Jackson Hole Marathon, nordic skiing resources and centers in the area, and other local nordic events like the Johnny Curtis Memorial Race, but nothing matching the specific event name or description. No official site, results, news, or listings for this marathon exist."
+    },
+    {
+      "slug": "jamtkraft-ski-marathon",
+      "name": "Jämtkraft Ski Marathon",
+      "tier": 2,
+      "summary": "No evidence of a cross-country ski race called 'Jämtkraft Ski Marathon' exists in the search results. Jämtkraft is a real energy company in Sweden that sponsors Fjällmaraton, which is a trail running event (not cross-country skiing). The confusion appears to stem from Jämtkraft's sponsorship of running races rather than organizing a ski marathon."
+    },
+    {
+      "slug": "jeongseon-alpine-cross-country",
+      "name": "Jeongseon Alpine Cross-Country",
+      "tier": 3,
+      "summary": "No evidence of a cross-country ski race named 'Jeongseon Alpine Cross-Country' found. Jeongseon Alpine Centre hosted Olympic alpine skiing events, while para cross-country skiing was at Alpensia Biathlon Centre. No official website, race results, news articles, listings in Worldloppet/FIS, social media, videos, or registration pages for this specific event."
+    },
+    {
+      "slug": "jilin-city-ski-marathon",
+      "name": "Jilin City Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Jilin City Ski Marathon' cross-country ski race. Search results mention trail running events near Jilin City (e.g., Lake Songhua) and the well-established Vasaloppet China in Changchun, Jilin Province, but nothing matching the specific name or description as a ski marathon in Jilin City."
+    },
+    {
+      "slug": "jizni-cechy-loppet",
+      "name": "Jižní Čechy Loppet",
+      "tier": 3,
+      "summary": "No evidence found for 'Jižní Čechy Loppet' across official websites, race results, news articles, Worldloppet/Euroloppet listings, social media, YouTube, or registration pages. Search results mention other Czech ski races like Jizerská 50 and unrelated loppet events elsewhere, but nothing matches the queried event. PDF documents are irrelevant to cross-country skiing races."
+    },
+    {
+      "slug": "jokkmokk-winter-marathon",
+      "name": "Jokkmokk Winter Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Jokkmokk Winter Marathon' cross-country ski race. Search results describe Nordenskiöldsloppet, a real 220 km ski race in Jokkmokk listed on Worldloppet with an official site, but it has a different name and no 'Winter Marathon' branding. Other results mention Jokkmokk Winter Market and general winter activities, with no race results, news, or listings matching the queried event."
+    },
+    {
+      "slug": "kainuu-ski-marathon",
+      "name": "Kainuu Ski Marathon",
+      "tier": 2,
+      "summary": "No evidence found for a cross-country ski race named 'Kainuu Ski Marathon'. Search results mention Vuokatti Hiihto (a real ski marathon in Kainuu, part of Euroloppet), Kainuu Trail (trail running), and Kainuu Ski Orienteering Week, but none reference 'Kainuu Ski Marathon'. The query likely confuses it with Vuokatti Hiihto."
+    },
+    {
+      "slug": "kamchatka-ski-marathon",
+      "name": "Kamchatka Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Kamchatka Ski Marathon'. Search results mention Avachinsky Marathon (a real FIS-listed Russialoppet event with official site kamchatkaloppet.ru), Mutnovsky extreme marathon, and general ski events in Kamchatka, but nothing matching the queried name. Other results cover unrelated races like Ski Track of Russia or heli-skiing."
+    },
+    {
+      "slug": "kamikawa-loppet",
+      "name": "Kamikawa Loppet",
+      "tier": 4,
+      "summary": "No evidence found of a 'Kamikawa Loppet' cross-country ski race in Japan across official websites, race results, news articles, Worldloppet listings, social media, YouTube videos, or registration pages. Search results mention unrelated entities like a precision technology company in Kanagawa, the Vasaloppet Japan race in Asahikawa, and botanical PDFs with 'Kamikawa' references, but nothing confirms the event's existence. It appears to be fictional or confused with other Hokkaido ski events."
+    },
+    {
+      "slug": "kekes-ski-marathon",
+      "name": "Kékestető Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence of a 'Kékestető Ski Marathon' cross-country ski race exists in the search results. The search results reference Kékestető as Hungary's highest peak with alpine skiing facilities and a trail running event (Kékestető Terepfutó Verseny), but contain no mention of any cross-country ski marathon at this location. The alpine ski slopes at Kékestető are for downhill skiing, not cross-country skiing."
+    },
+    {
+      "slug": "keskinada-loppet",
+      "name": "Keskinada Loppet",
+      "tier": 2,
+      "summary": "No evidence of a current 'Keskinada Loppet' as an active, organized event; it was a former name (1996-2008) for what is now the Gatineau Loppet. No official website, race results, news articles, social media, videos, or listings for 'Keskinada Loppet' as a standalone race exist. All mentions redirect to or reference the Gatineau Loppet's history."
+    },
+    {
+      "slug": "keswick-to-barrow",
+      "name": "Keswick to Barrow",
+      "tier": 4,
+      "summary": "No evidence found of a cross-country ski race named 'Keswick to Barrow'. All sources describe a walking and running charity event (K2B Walk), not a ski race. No mentions of skiing, snow, or winter conditions in any results."
+    },
+    {
+      "slug": "kincaid-classic",
+      "name": "Kincaid Classic",
+      "tier": 3,
+      "summary": "No evidence found for a specific cross-country ski race named 'Kincaid Classic'. Search results mention Kincaid Park hosting various events like U.S. Nationals sprints, mass starts, Anchorage Winter Start Race, and Tuesday Night Ski Races, but none reference a 'Kincaid Classic'. Result [9] refers to a track and field meet, not skiing."
+    },
+    {
+      "slug": "kopaonik-nordic-race",
+      "name": "Kopaonik Nordic Race",
+      "tier": 4,
+      "summary": "No evidence found of a specific 'Kopaonik Nordic Race' cross-country ski race in Serbia. Search results confirm Kopaonik ski resort has 12 km of Nordic trails and hosts alpine/ski cross events like FIS Ski Cross World Cup 2026 and humanitarian ski races, but no mentions of an organized Nordic race event with results, official site, news, or listings in Worldloppet/FIS. Other events like Trail Race Kopaonik are running races, not skiing."
+    },
+    {
+      "slug": "kortvasan",
+      "name": "Kortvasan",
+      "tier": 2,
+      "summary": "No evidence of 'Kortvasan' as an organized cross-country ski race was found in the search results. The search results document several real Vasaloppet events (Vasaloppet main race, Tjejvasan, HalvVasan), but Kortvasan is not mentioned in any official sources, race listings, or organizational materials. The name does not appear in Vasaloppet's official website, race schedules, or related cross-country skiing event documentation."
+    },
+    {
+      "slug": "kulakova-marathon",
+      "name": "Kulakova Marathon",
+      "tier": 2,
+      "summary": "No evidence found of a 'Kulakova Marathon' cross-country ski race in Russia across any requested categories: no official website, race results, news articles specifically naming it, Worldloppet/FIS listings, social media, YouTube videos, or registration pages. Search results mention unrelated events like Murmansk ski marathon and Polar Olympics, but nothing matches the query. A person named Tatsiana Kulakova appears in a non-sport context."
+    },
+    {
+      "slug": "kuopio-ski-marathon",
+      "name": "Kuopio Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Kuopio Ski Marathon' cross-country ski race. All search results refer to the Finland Ice Marathon (ice skating on Lake Kallavesi) or Kuopio Marathon (running), with no mentions of cross-country skiing events by that name in Worldloppet, Ski Classics, or other listings. The query appears to confuse it with these distinct events."
+    },
+    {
+      "slug": "la-diable-nordic",
+      "name": "La Diable Nordic",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'La Diable Nordic' in Andorra across official websites, race results, news articles, Worldloppet/Euroloppet/Ski Classics/FIS listings, social media, YouTube videos, or registration pages. The sole search result refers to Parc Montagne du Diable in Canada, which is unrelated to Andorra or any Nordic ski race by that name. This indicates the event is likely fictional or confused with another."
+    },
+    {
+      "slug": "leavenworth-nordic-cup",
+      "name": "Leavenworth Nordic Cup",
+      "tier": 4,
+      "summary": "No evidence found for a cross-country ski race named 'Leavenworth Nordic Cup'. Search results mention Leavenworth ski events like Bakke Cup (multi-discipline youth event with Nordic component), Washington Nordic Cup series (youth-focused with events in Leavenworth like Skirennen), and Tour de Plain Race Series, but none match the exact name. The query likely confuses these real events."
+    },
+    {
+      "slug": "lithuanian-ski-marathon",
+      "name": "Lithuanian Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence of a cross-country ski race called 'Lithuanian Ski Marathon' exists in the search results. The search results mention the Jyväskylä Ski Marathon in Finland (March 7, 2026) and reference two Lithuanian marathons (Kaunas Marathon and Danske Bank Vilnius Marathon), but these are running marathons, not cross-country skiing events. Lithuanian skiing competitions documented in the results are alpine skiing events (slalom cups) held at Snow Arena in Druskininkai and a cross-country championship in Ignalina, but no 'Lithuanian Ski Marathon' cross-country event is mentioned."
+    },
+    {
+      "slug": "loppet-de-montreal",
+      "name": "Loppet de Montréal",
+      "tier": 3,
+      "summary": "No evidence found for a 'Loppet de Montréal' cross-country ski race in Canada. All search results refer to events organized by the Loppet Foundation in Minneapolis, Minnesota, USA, such as the City of Lakes Loppet and related ski marathons. No official website, results, news articles, or listings match the queried event in Montréal."
+    },
+    {
+      "slug": "loppet-festival-marathon",
+      "name": "Loppet Festival Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Loppet Festival Marathon' in the United States. Search results reference the Loppet Foundation's City of Lakes Loppet Winter Festival, which includes marathon-distance ski events (e.g., 42K races), but no exact match to the queried name exists. No race results, news articles, social media, or listings confirm this specific event."
+    },
+    {
+      "slug": "lysebotn-sirdal",
+      "name": "Lysebotn-Sirdal",
+      "tier": 3,
+      "summary": "No evidence found of a cross-country ski race named 'Lysebotn-Sirdal'. Search results mention a road cycling race 'Lysebotn-Bryne' and general hiking/skiing in the area, but nothing about cross-country skiing between these locations. No official sites, results, news, or listings for the specific ski event."
+    },
+    {
+      "slug": "maratonul-zapezii",
+      "name": "Maratonul Zăpezii",
+      "tier": 3,
+      "summary": "No evidence found for 'Maratonul Zăpezii' as a cross-country ski race in any of the search results. Results mention unrelated events like running marathons, rallies (e.g., Raliul Zăpezii), and tourism reports, but nothing matching the specific ski event name, results, official site, news, or listings in Worldloppet/Euroloppet/Ski Classics/FIS."
+    },
+    {
+      "slug": "mt-bachelor-nordic-marathon",
+      "name": "Mt Bachelor Nordic Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Mt Bachelor Nordic Marathon' cross-country ski race. Search results show related events like Mt. Bachelor Cup Nordic Race Series (including Cascade Crest with distances up to 50k self-reported), but no marathon specifically named 'Mt Bachelor Nordic Marathon'. No race results, news articles, Worldloppet/FIS listings, social media events, YouTube videos, or registration pages match the exact event name."
+    },
+    {
+      "slug": "mt-hermon-nordic-race",
+      "name": "Mt Hermon Nordic Race",
+      "tier": 4,
+      "summary": "No evidence of a 'Mt Hermon Nordic Race' was found in the search results. The search results describe Mt. Hermon mountain running events (Hermon Challenge), skiing facilities, and mountain biking trails, but contain no mention of any cross-country skiing race by this name. The Mt. Hermon ski resort appears to focus on alpine skiing and snowboarding rather than Nordic/cross-country skiing."
+    },
+    {
+      "slug": "muju-taekwondo-ski-marathon",
+      "name": "Muju Taekwondo Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence of a 'Muju Taekwondo Ski Marathon' cross-country ski race was found in the search results. While Muju is confirmed as a real location in South Korea with both a Taekwondowon complex and skiing facilities (Muju Deogyugsan Resort), there is no mention of an organized cross-country ski marathon event by that name. The search results reference taekwondo events and winter tourism activities in Muju, but no cross-country ski race."
+    },
+    {
+      "slug": "nakkertok-loppet",
+      "name": "Nakkertok Loppet",
+      "tier": 4,
+      "summary": "No evidence found of a cross-country ski race named 'Nakkertok Loppet' across official websites, results, news articles, calendars, social media, videos, or registration pages. Nakkertok Nordic Ski Club exists and hosts events like Nakkerloppet and Nordiq Canada Ski Nationals, but 'Nakkertok Loppet' is not mentioned. Searches confirm only the real club and other local races like Gatineau Loppet."
+    },
+    {
+      "slug": "navrat-pod-lysou",
+      "name": "Návrat pod Lysou",
+      "tier": 3,
+      "summary": "No search results mention the 'Návrat pod Lysou' cross-country ski race by name. Results discuss unrelated running events, general skiing in Slovakia/Czechia, golf cross-country, and PDFs on sports/tourism with no reference to this specific event. Absence of official site, results, news, or social media confirms it does not exist as a real organized event."
+    },
+    {
+      "slug": "nayoro-citizen-ski-marathon",
+      "name": "Nayoro Citizen Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence found for a 'Nayoro Citizen Ski Marathon' in any search results. Nayoro sites mention snow festivals, skiing areas, and general winter events but no cross-country ski marathon. Sapporo International Ski Marathon (Worldloppet member) appears instead, located elsewhere in Hokkaido."
+    },
+    {
+      "slug": "oregon-nordic-invitational",
+      "name": "Oregon Nordic Invitational",
+      "tier": 3,
+      "summary": "No evidence of an event called 'Oregon Nordic Invitational' was found in the search results. The actual event that exists is the 'XC Oregon High School XC Ski Invitational' (also called '2026 XC Oregon High School Invitational'), which is a different name. The user appears to have confused or misremembered the official event name."
+    },
+    {
+      "slug": "oregon-winterfest-nordic",
+      "name": "Oregon Winterfest Nordic",
+      "tier": 3,
+      "summary": "No evidence of a race called 'Oregon Winterfest Nordic' exists in the search results. While 'Bend WinterFest' is a real event in Oregon featuring winter sports, it is a snowboard and ski contest (The Rally) with a pump-track style course, not a cross-country ski race. OISRAN, Mt. Bachelor Cup Nordic Series, and XC Oregon are real Nordic skiing organizations in Oregon, but none mention an 'Oregon Winterfest Nordic' race."
+    },
+    {
+      "slug": "otaru-zenichi-loppet",
+      "name": "Otaru Zenichi Loppet",
+      "tier": 4,
+      "summary": "No evidence of the 'Otaru Zenichi Loppet' cross-country ski race found in search results. Results mention Otaru tourism, ski resorts, and snowsports schools but no specific race, official site, results, news, or listings in Worldloppet or similar. Appears to be fictional or non-existent."
+    },
+    {
+      "slug": "ounasvaara-ski-marathon",
+      "name": "Ounasvaara Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found of an event named 'Ounasvaara Ski Marathon'. Search results confirm Ounasvaara Ski Resort exists with cross-country trails, and nearby Jätkänkynttilä Ski Marathon uses Ounasvaara areas for parts of its route, but no specific marathon by that name is mentioned in results, news, listings, or social media. No official site, results, or videos for the queried race."
+    },
+    {
+      "slug": "perisher-nordic-festival",
+      "name": "Perisher Nordic Festival",
+      "tier": 4,
+      "summary": "No evidence found for a 'Perisher Nordic Festival' cross-country ski race in any search results. Perisher Resort hosts events like PEAK Music Festival, mogul championships, and other snow sports, but nothing matching a Nordic or cross-country ski race by that name. No official site, results, news, or listings for this specific event exist."
+    },
+    {
+      "slug": "piancavallo-nordic-marathon",
+      "name": "Piancavallo Nordic Marathon",
+      "tier": 3,
+      "summary": "No evidence of a 'Piancavallo Nordic Marathon' cross-country ski race exists in the search results. Piancavallo is confirmed as a real location in Italy that hosts mountain running events (Piancavallo.run), but there is no mention of any cross-country skiing marathon at this location. The search results show Piancavallo is associated with trail running and mountain running competitions, not Nordic skiing events."
+    },
+    {
+      "slug": "pitea-ski-marathon",
+      "name": "Piteå Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found of a 'Piteå Ski Marathon' cross-country ski race. Search results mention biathlon championships, alpine skiing, ski orienteering, and other events in Piteå, but no cross-country marathon by this name. No official website, results, news articles, listings in Worldloppet/Ski Classics, or social media for this specific event."
+    },
+    {
+      "slug": "platak-nordic-race",
+      "name": "Platak Nordic Race",
+      "tier": 4,
+      "summary": "No mentions of 'Platak Nordic Race' or any cross-country ski race found across all Platak ski resort pages. The site documents numerous alpine skiing events (FIS, championships, skibike, snowboard), but zero evidence of cross-country/nordic racing. Platak appears to be an alpine ski center without nordic infrastructure indicated."
+    },
+    {
+      "slug": "porvoo-ski-marathon",
+      "name": "Porvoo Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence of a 'Porvoo Ski Marathon' cross-country ski race found in any search results. Mentions of cross-country skiing in Porvoo refer only to general lighted trails and local clubs, with no specific marathon event, official site, results, news, or listings in Worldloppet/Euroloppet/Ski Classics. Other events like Porvoo Race (likely cycling) and running marathons exist, but no ski marathon."
+    },
+    {
+      "slug": "pyeongchang-international-xc",
+      "name": "Pyeongchang International Cross-Country",
+      "tier": 2,
+      "summary": "No evidence of a race called 'Pyeongchang International Cross-Country' exists in the search results. The search results reference several real cross-country skiing events at PyeongChang venues (Gangwon 2024 Youth Olympics, FIS Roller Ski Asian Cup 2025, PyeongChang Loppet 2026), but none match the queried event name. The PyeongChang Loppet is described as 'the first-ever Loppet festival in South Korea' scheduled for February 2026, suggesting no prior international cross-country race by that name existed at the venue."
+    },
+    {
+      "slug": "raubichi-ski-marathon",
+      "name": "Raubichi Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence of a race called 'Raubichi Ski Marathon' was found in the search results. The search results reference 'Minsk Ski Race' and 'Minsk Ski Track' events held at Raubichi, but these are distinct mass sports festivals featuring biathlon relay races and skiing events organized by Belarusian authorities, not a cross-country ski marathon. The query appears to conflate or misname an actual event."
+    },
+    {
+      "slug": "romjulsrennet",
+      "name": "Romjulsrennet",
+      "tier": 3,
+      "summary": "No evidence found of 'Romjulsrennet' as a cross-country ski race in any search results. Results mention general skiing events in Norway like Birkebeiner and World Cup but nothing matching this specific name. No official site, results, news, or social media presence detected."
+    },
+    {
+      "slug": "rovaniemi-arctic-ski-marathon",
+      "name": "Rovaniemi Arctic Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Rovaniemi Arctic Ski Marathon'. Search results show Jätkänkynttilä Ski Marathon (a real ski event in Rovaniemi with official site) and various running marathons like Arctic Marathon, but no matching cross-country ski race by that name. No race results, news, Worldloppet listings, or other concrete evidence for the queried event."
+    },
+    {
+      "slug": "rukajarvi-march",
+      "name": "Rukajärvi March",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Rukajärvi March' in Finland across any searched categories: no official website, race results, news articles, Worldloppet/Euroloppet/Ski Classics/FIS listings, social media, YouTube videos, or registration pages. Search results mention Ruka ski events (FIS Nordic, Finnish Cup, slalom) and snowboarder Enni Rukajärvi, but nothing matches the specific event name or description."
+    },
+    {
+      "slug": "saariselka-ski-marathon",
+      "name": "Saariselkä Ski Marathon",
+      "tier": 2,
+      "summary": "No evidence found for a cross-country ski race named 'Saariselkä Ski Marathon'. Search results mention other events in Saariselkä like Kiilopää Ski, Vaskoolihiihto, Gold Bottle Games, and Arctic Ski Maraton, but none match the queried name. No official site, results, news, or listings for 'Saariselkä Ski Marathon' exist."
+    },
+    {
+      "slug": "salpausselka-hiihto",
+      "name": "Salpausselkä Hiihto",
+      "tier": 2,
+      "summary": "No evidence found for a cross-country ski race named 'Salpausselkä Hiihto'. Salpausselkä is a real geological area and sports venue in Lahti hosting events like Finlandia-hiihto (Finlandia Ski Marathon) and Salpausselän kisat (Lahti Ski Games), but no distinct race by that name exists in listings, results, news, or official sites. Searches yielded only references to the location, not the queried event."
+    },
+    {
+      "slug": "salzkammergut-langlauf",
+      "name": "Salzkammergut Langlauf",
+      "tier": 3,
+      "summary": "No evidence of a specific organized cross-country ski race named 'Salzkammergut Langlauf' found in search results. Results mention general cross-country skiing trails and areas in Salzkammergut and Ausseerland-Salzkammergut regions, but no official website, race results, news articles, listings in Worldloppet/FIS, social media, videos, or registration pages for this event. All sources refer to trails and generic skiing, not a named race."
+    },
+    {
+      "slug": "sapporo-bankei-night-ski-race",
+      "name": "Sapporo Bankei Night Ski Race",
+      "tier": 4,
+      "summary": "No evidence found of a 'Sapporo Bankei Night Ski Race' as a cross-country ski event. Search results confirm Sapporo Bankei Ski Area exists with night skiing and hosts competitions like moguls, FIS halfpipe, and slalom, but no mentions of any cross-country race, night or otherwise. Other Sapporo ski events like the International Ski Marathon are separate and not at Bankei."
+    },
+    {
+      "slug": "sapporo-moiwayama-classic",
+      "name": "Sapporo Moiwayama Classic",
+      "tier": 3,
+      "summary": "No evidence of a 'Sapporo Moiwayama Classic' cross-country ski race found in search results. Moiwayama (Mt. Moiwa) is a real alpine ski resort near Sapporo with downhill skiing courses, but no mentions of organized cross-country races, results, news, or listings there. Other Sapporo cross-country events like the Sapporo International Ski Marathon exist at different venues."
+    },
+    {
+      "slug": "sar-planina-marathon",
+      "name": "Šar Planina Marathon",
+      "tier": 4,
+      "summary": "No evidence of the 'Šar Planina Marathon' cross-country ski race was found in the search results. Results mention the Šar Planina (Shar Mountains) region, skiing at Popova Sapka, and general tourism, but no official website, race results, news articles, listings in Worldloppet or similar, social media, videos, or registration pages for this specific event exist. The absence of concrete evidence for an organized cross-country ski marathon confirms it does not exist as a real event."
+    },
+    {
+      "slug": "schwarzwald-skimarathon",
+      "name": "Schwarzwald Skimarathon",
+      "tier": 2,
+      "summary": "No evidence of a cross-country ski race called 'Schwarzwald Skimarathon' was found in the search results. The search results contain information about the Schwarzwald Marathon (a running event since 1968), the Schwarzwald Bike Marathon (a mountain biking event), and the Schwarzwald Ultra Rad Marathon (a cycling event), but no cross-country skiing marathon. The Schwarzwaldportal mentions historical ski clubs from 1895, but no current organized Schwarzwald Skimarathon event."
+    },
+    {
+      "slug": "shizma-klassika",
+      "name": "Shizma Klassika",
+      "tier": 3,
+      "summary": "No mentions of 'Shizma Klassika' in Ski Classics listings, official Ski Classics site, Russian Ski Association, or any other search results. All provided sources detail known Ski Classics events, none of which match 'Shizma Klassika' in Russia. No official website, results, news, or social media evidence found."
+    },
+    {
+      "slug": "sierra-de-guadarrama-ski-marathon",
+      "name": "Sierra de Guadarrama Ski Marathon",
+      "tier": 4,
+      "summary": "No evidence of a 'Sierra de Guadarrama Ski Marathon' cross-country ski race was found in the search results. While the Sierra de Guadarrama region has ski resorts like Puerto de Navacerrada and Navafría Nordic Skiing Centre for cross-country skiing, there are no mentions of this specific marathon event, official websites, results, news articles, or listings in Worldloppet, Euroloppet, Ski Classics, or FIS. Directory listings or other events like trail running marathons do not reference it."
+    },
+    {
+      "slug": "silverton-ski-marathon",
+      "name": "Silverton Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Silverton Ski Marathon' in the United States. Search results mention trail running events like Silverton Alpine Marathon and skijoring events in Silverton, CO, but nothing matching a cross-country ski marathon. No official website, results, news, or listings for the specific event exist."
+    },
+    {
+      "slug": "ski-marathon-montreal",
+      "name": "Ski Marathon Montréal",
+      "tier": 3,
+      "summary": "No evidence found for a 'Ski Marathon Montréal' event; all search results refer to the Canadian Ski Marathon (CSM), a real event held in the Outaouais region near Montebello, not Montreal. No official site, results, news, or listings match 'Ski Marathon Montréal' specifically. The query likely confuses it with the established CSM, which has an official site at skimarathon.ca but no Montréal association."
+    },
+    {
+      "slug": "ski-north-loppet",
+      "name": "Ski North Loppet",
+      "tier": 4,
+      "summary": "No mentions of 'Ski North Loppet' in any search results. All results describe other real Canadian cross-country ski loppets such as Gatineau Loppet, Sleeping Giant Loppet, Payak Loppet, and Lake Louise to Banff Loppet, but none match the queried event name or indicate its existence."
+    },
+    {
+      "slug": "steirische-langlauf-marathon",
+      "name": "Steirische Langlauf Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Steirische Langlauf Marathon' in Austria. Search results mention 'Graz Marathon' (a running event) and 'Steiralauf' (a real Volkslanglauf with distances like 50km Freistil and 30km Klassisch in Bad Mitterndorf), but no match for the queried name. No official site, results, news, or listings for 'Steirische Langlauf Marathon' exist."
+    },
+    {
+      "slug": "stenfjellrunden",
+      "name": "Stenfjellrunden",
+      "tier": 3,
+      "summary": "No evidence found for 'Stenfjellrunden' cross-country ski race in any search results. Results mention Birkebeinerrennet and SkiBirken events but no reference to Stenfjellrunden. Appears to be fictional or confused with other Norwegian races."
+    },
+    {
+      "slug": "suomen-hiihto",
+      "name": "Suomen Hiihto",
+      "tier": 2,
+      "summary": "No evidence found for a race named 'Suomen Hiihto'. Extensive search results detail 'Finlandia-hiihto', a real annual cross-country ski marathon in Lahti, Finland, with official site, history since 1973, and Worldloppet listing, but this does not match the queried name. No results, news, or listings for 'Suomen Hiihto' as a distinct organized event."
+    },
+    {
+      "slug": "suomi-hills-classic",
+      "name": "Suomi Hills Classic",
+      "tier": 4,
+      "summary": "No mentions of 'Suomi Hills Classic' race in any search results. Suomi Hills is a real ski trail in Grand Rapids, MN (not listed as in the US for races), but no official website, race results, news, social media, videos, or listings for this specific event exist. All results cover other US cross-country ski races, primarily in NH and WI."
+    },
+    {
+      "slug": "superior-nordic-marathon",
+      "name": "Superior Nordic Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Superior Nordic Marathon' in the United States. Search results mention similar events like Noquemanon Ski Marathon and Ski North Ultra, but none match the exact name. Superior Timing handles many Nordic ski races but lists no such event."
+    },
+    {
+      "slug": "tarvisio-nordic-challenge",
+      "name": "Tarvisio Nordic Challenge",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Tarvisio Nordic Challenge'. Search results mention alpine skiing World Cup events in Tarvisio, trail running events like Tarvisio Winter Trail, general cross-country skiing trails in the area, but no specific organized race by that name, no results, official site, or listings in Worldloppet/FIS/Ski Classics."
+    },
+    {
+      "slug": "tbilisi-bakuriani-challenge",
+      "name": "Tbilisi-Bakuriani Challenge",
+      "tier": 3,
+      "summary": "No evidence of a 'Tbilisi-Bakuriani Challenge' cross-country ski race was found in the search results or referenced in any official Georgian skiing sources. The search results document multiple skiing events in Bakuriani (Ski Cross World Cup, Snowboard World Cup, Freestyle World Championships, Winter EYOF 2025), but none mention a cross-country ski race by this name. The Georgian Ski Federation website and official sources make no reference to this event."
+    },
+    {
+      "slug": "telemark-marathon",
+      "name": "Telemark Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Telemark Marathon' cross-country ski race in the United States. Search results mention telemark skiing events (downhill free-heel racing like US Telemark Nationals), a bike enduro at Mt. Telemark, and a cross-country ski team in Canada, but nothing matching the specific event name or description as a cross-country ski marathon."
+    },
+    {
+      "slug": "three-rivers-classic",
+      "name": "Three Rivers Classic",
+      "tier": 3,
+      "summary": "No evidence of a cross-country ski race called 'Three Rivers Classic' was found in the search results. The search results contain information about the Three Rivers Ski League, which is an alpine (downhill) ski racing organization in Oregon, not a cross-country ski event. The query appears to conflate two different skiing disciplines and organizations."
+    },
+    {
+      "slug": "timmins-gold-rush-loppet",
+      "name": "Timmins Gold Rush Loppet",
+      "tier": 4,
+      "summary": "No evidence of a 'Timmins Gold Rush Loppet' cross-country ski race was found in the search results. Timmins Gold refers to a mining corporation with projects in Mexico, not a ski event. A Tourism Timmins guide mentions 'Porcupine Ski Runners Loppet' as a real ski event, suggesting possible confusion with that established race."
+    },
+    {
+      "slug": "tokamachi-snow-marathon",
+      "name": "Tokamachi Snow Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Tokamachi Snow Marathon' or any cross-country ski race by that name. Search results mention the Tokamachi Snow Festival (a snow sculpture event in February) and a summer running event (Echigo Matsudai Harunojin), but nothing about a ski marathon, race results, official site, or listings in Worldloppet/FIS. No social media, YouTube videos, or registration pages for such a ski race."
+    },
+    {
+      "slug": "trans-lapland",
+      "name": "Trans-Lapland",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Trans-Lapland' in Finland across official websites, race results, news articles, Worldloppet/Euroloppet/Ski Classics/FIS listings, social media, YouTube videos, or registration pages. Search results mention other Lapland ski events like Jätkankynttilä Ski Marathon and general traverses/tours, but nothing matching 'Trans-Lapland'. This suggests it is fictional or confused with another event."
+    },
+    {
+      "slug": "traversee-de-la-haute-jura",
+      "name": "Traversée de la Haute-Jura",
+      "tier": 2,
+      "summary": "No evidence found for a race named 'Traversée de la Haute-Jura'. Search results describe 'La Transjurassienne' (La Transju') as the major cross-country ski race in the Haute-Jura region and the 'Grande Traversée du Jura' (GTJ) as a ski trail, not an organized race event. No official site, results, news, or listings match the exact name."
+    },
+    {
+      "slug": "tronfjell-rundt",
+      "name": "Tronfjell Rundt",
+      "tier": 3,
+      "summary": "No search results mention 'Tronfjell Rundt' at all. Results describe other real Norwegian cross-country ski events like The Troll Trail (self-guided tour), Birkebeinerrennet (53km race), and Furusjøen Rundt, but nothing matching the queried race name, official site, results, news, or social media."
+    },
+    {
+      "slug": "tug-hill-tourathon",
+      "name": "Tug Hill Tourathon",
+      "tier": 3,
+      "summary": "No evidence of a race called 'Tug Hill Tourathon' exists. The search results show two distinct real events: the 'Winona Forest Tourathon' (a Nordic ski race held in Winona State Forest on the Tug Hill Plateau) and the 'Tug Hill Yeti Quest' (an adventure race). The query appears to conflate these two separate events into a non-existent race name."
+    },
+    {
+      "slug": "turoa-to-whakapapa-challenge",
+      "name": "Turoa to Whakapapa Challenge",
+      "tier": 3,
+      "summary": "No evidence of a 'Turoa to Whakapapa Challenge' cross-country ski race exists in the search results. The search results reference 'The Goat' adventure run (a 20km trail run from Whakapapa to Turoa, typically held in early December), but this is a running event, not a cross-country ski race. The query appears to conflate or confuse this trail running event with a non-existent ski race."
+    },
+    {
+      "slug": "ufa-marathon",
+      "name": "Ufa Marathon",
+      "tier": 3,
+      "summary": "No evidence found of a 'Ufa Marathon' cross-country ski race. Search results mention Ufa in contexts like a sports committee, a cycling trip starting point, biathlon world championships, and general cross-country skiing in Russia, but nothing specific to this event. No official site, results, news, listings in major series, social media, videos, or registration pages identified."
+    },
+    {
+      "slug": "ulaanbaatar-nordic-ski-festival",
+      "name": "Ulaanbaatar Nordic Ski Festival",
+      "tier": 4,
+      "summary": "No evidence found for a 'Ulaanbaatar Nordic Ski Festival' or any cross-country ski race by that name. Search results mention Ulaanbaatar Winter Festival at Sky Resort with alpine skiing, snowboarding, and other events, but no cross-country (Nordic) skiing races, results, official site, or listings in Worldloppet/FIS. Sky Resort supports cross-country skiing per tourism sites, but no specific organized race matches the query."
+    },
+    {
+      "slug": "ulricehamn-ski-marathon",
+      "name": "Ulricehamn Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a cross-country ski race named 'Ulricehamn Ski Marathon'. Ulricehamn hosts FIS events, World Cup races, Västgötaloppet, and youth weekends, but none match the queried name. Search results show strong skiing activity in the area but no marathon by this title."
+    },
+    {
+      "slug": "valle-nevado-nordic-challenge",
+      "name": "Valle Nevado Nordic Challenge",
+      "tier": 3,
+      "summary": "No evidence of the 'Valle Nevado Nordic Challenge' cross-country ski race found in search results. Valle Nevado is a real alpine ski resort with mentions of downhill skiing, heli-skiing, and FIS snowboard events, but no references to any cross-country or nordic events, results, news, or listings. Lacking official site, results, or any independent sources confirming the race."
+    },
+    {
+      "slug": "wachau-ski-marathon",
+      "name": "Wachau Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Wachau Ski Marathon' or any cross-country ski race in the Wachau region. All search results refer to the Wachau Marathon, a running event (e.g., official site wachaumarathon.com for 2025 running marathon). No mentions of skiing, cross-country, Worldloppet, results, news, or social media for a ski marathon."
+    },
+    {
+      "slug": "wasa-ski-club-loppet",
+      "name": "Wasa Ski Club Loppet",
+      "tier": 3,
+      "summary": "No evidence found for a 'Wasa Ski Club Loppet' race in the United States. Search results reference Vasaloppet USA (Mora, MN), Vasa Ski Club (Traverse City, MI), and North American Vasa (Traverse City, MI), but none match the exact name 'Wasa Ski Club Loppet'. These appear to be distinct events with no connection to the queried race."
+    },
+    {
+      "slug": "whitehorse-loppet",
+      "name": "Whitehorse Loppet",
+      "tier": 4,
+      "summary": "No evidence found for a race named 'Whitehorse Loppet'. Existing events include Yukon Ski Marathon (March 21, 2026, at Whitehorse Nordic Centre trails) and a March 8 event at Whitehorse Nordic Centre listed in Nordiq Canada Masters calendar, but neither matches the queried name. Searches yielded no official site, results, news, or listings for 'Whitehorse Loppet'."
+    },
+    {
+      "slug": "yakutsk-ski-marathon",
+      "name": "Yakutsk Ski Marathon",
+      "tier": 3,
+      "summary": "No evidence found for a 'Yakutsk Ski Marathon' cross-country ski race. Search results mention running events like the Siberian Ice Half Marathon and Yakutsk Half-Marathon, but nothing about skiing, marathons, or cross-country races in Yakutsk. No official sites, results, news, or listings match the query."
+    },
+    {
+      "slug": "yllas-pallas",
+      "name": "Ylläs-Pallas",
+      "tier": 2,
+      "summary": "No evidence found for a 'Ylläs-Pallas' cross-country ski race; all results refer to the real 'Ylläs-Levi Hiihto' event from Ylläs to Levi. No race results, news articles, social media, videos, or listings match 'Ylläs-Pallas' exactly. The query likely confuses it with Ylläs-Levi or the NUTS Ylläs-Pallas trail running event."
+    },
+    {
+      "slug": "zao-ski-marathon",
+      "name": "Zao Ski Marathon",
+      "tier": 2,
+      "summary": "No evidence found of a 'Zao Ski Marathon' cross-country ski race in any search results. Zao Onsen is a real ski resort with downhill skiing, snow monsters festival, and events like torch ski runs, but no mentions of organized cross-country marathons, results, official sites, or listings in Worldloppet/FIS. Sapporo International Ski Marathon exists but is unrelated and in a different location."
+    }
+  ]
+}

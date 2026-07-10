@@ -1,0 +1,27 @@
+{
+  "slug": "tokachi-ski-marathon",
+  "name": "Tokachi Ski Marathon",
+  "country": "Japan",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 1,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Only one indirect mention in a Biei Tourism Association events page referencing the Tokachi mountain range as background for the Miyasama International Ski Marathon, but no dedicated information, official site, results, news articles, or listings for a 'Tokachi Ski Marathon'. No evidence found for race results, Worldloppet/FIS listings, social media events, YouTube videos, or registration pages specific to this event. Other results discuss unrelated Hokkaido ski marathons like Sapporo and Miyasama.",
+    "sources": [
+      "https://www.biei-hokkaido.jp/en/fiveminutes/event"
+    ]
+  },
+  "citations": [
+    "https://www.biei-hokkaido.jp/en/fiveminutes/event",
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://domingo.ne.jp/en/article/19112",
+    "https://matoka-tokachi.jp/en/",
+    "http://www.nature-tokachi.co.jp/menu_winter_mobileopen_en.html",
+    "https://sahoro-resort.com/category/info/page/2?lang=en",
+    "https://cooljapan-videos.com/en/user/953l7ik4/posts/pkd1zpm8",
+    "https://brittlebooks.library.illinois.edu/brittlebooks_open/Books2009-03/adamfr0001hisjap/adamfr0001hisjapv00002/adamfr0001hisjapv00002.pdf"
+  ],
+  "checked_at": "2026-03-12T16:08:32Z"
+}

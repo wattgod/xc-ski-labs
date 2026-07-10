@@ -1,0 +1,84 @@
+{
+  "slug": "book-across-the-bay",
+  "name": "Book Across the Bay",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 20,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "both",
+    "field_size": 1500,
+    "founded": 1996,
+    "website": "https://www.batb.org",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 10 km course",
+      "source_url": "https://batb.org"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention elevation gain; race on frozen lake implies minimal",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Wisconsin, USA",
+      "source_url": "https://batb.org"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Wisconsin (Ashland and Washburn areas)",
+      "source_url": "https://batb.org"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Groomed for both classic-style and skate skiing",
+      "source_url": "https://batb.org"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions '4000 skiers, snowshoers, walkers, and runners' but not official participant count; no reliable typical number found",
+      "source_url": "https://seagullbay.com/book-across-the-bay/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1998,
+      "note": "Past 25 years in 2023 implies founded ~1998 (2023-25); Chapter 29 in 2026 confirms first edition 1998",
+      "source_url": "https://seagullbay.com/book-across-the-bay/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site is https://batb.org (https://www.batb.org redirects)",
+      "source_url": "https://batb.org"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February (e.g., Feb 18 2023, Feb 14, Feb 17)",
+      "source_url": "https://batb.org"
+    }
+  },
+  "citations": [
+    "https://batb.org",
+    "https://seagullbay.com/book-across-the-bay/",
+    "https://batb.org/race-information/course-conditions",
+    "https://www.visitashland.com/events/book-across-the-bay/",
+    "https://batb.org/things-to-do",
+    "https://batb.org/race-information/general-info",
+    "https://www.travelwisconsin.com/events/book-across-the-bay",
+    "https://batb.org/race-information/frequently-asked-questions",
+    "https://www.performancetiming.com/2026/02/book-across-the-bay-chapter-29-2026/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:11:33Z"
+}

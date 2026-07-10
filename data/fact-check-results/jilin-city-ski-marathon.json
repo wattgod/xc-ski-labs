@@ -1,0 +1,84 @@
+{
+  "slug": "jilin-city-ski-marathon",
+  "name": "Jilin City Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 200,
+    "country": "China",
+    "region": "Jilin",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 2008,
+    "website": null,
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "The search results consistently refer to Vasaloppet China as featuring a 50km race as the main event, not 30km. A 25km option is also available, but the primary distance is 50km.",
+      "source_url": "https://www.worldloppet.com/wl-race/vasaloppet-china/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results describe the terrain as 'moderate to very hilly' but do not provide specific elevation gain measurements.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as China in multiple sources.",
+      "source_url": "https://www.gojilin.gov.cn/2026/01/04/c_14410.htm"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Jilin Province in multiple sources.",
+      "source_url": "https://www.gojilin.gov.cn/2026/01/04/c_14410.htm"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as 'cross-country skiing' and 'classic long-distance skiing' in search results.",
+      "source_url": "https://www.worldloppet.com/wl-race/vasaloppet-china/"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 2227,
+      "note": "The 2026 edition attracted 2,227 professional athletes and recreational skiers. The 2025 edition also had over 2,000 participants. The claimed 400 is significantly lower than actual participation.",
+      "source_url": "https://www.gojilin.gov.cn/2026/01/04/c_14410.htm"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2003,
+      "note": "Vasaloppet China was introduced to Changchun in 2003, not 2008. The 2026 edition is the 24th edition, confirming the 2003 start date.",
+      "source_url": "https://en.people.cn/n3/2026/0105/c90000-20410141.html"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results reference vasaloppetchina.com as a source, but the exact official website status cannot be definitively confirmed from these results.",
+      "source_url": "https://www.vasaloppetchina.com"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The 2026 edition opened on January 4, 2026, and the 2025 edition opened on January 4, 2025, confirming early January timing consistent with 'mid-January'.",
+      "source_url": "https://www.gojilin.gov.cn/2026/01/04/c_14410.htm"
+    }
+  },
+  "citations": [
+    "https://www.gojilin.gov.cn/2026/01/04/c_14410.htm",
+    "https://en.beidahu.com",
+    "https://www.vasaloppetchina.com",
+    "https://en.people.cn/n3/2026/0105/c90000-20410141.html",
+    "https://skiclassics.com/ski-classics-challengers-kicks-off-2024-with-vasaloppet-china-this-week/",
+    "https://www.worldloppet.com/wl-race/vasaloppet-china/",
+    "https://www.ahotu.com/event/vasaloppet-china-ski-festival",
+    "http://en.changchun.gov.cn/wthd/202201/t20220106_2968930.html",
+    "https://www.gojilin.gov.cn/2022/11/28/c_10107.htm"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:42:01Z"
+}

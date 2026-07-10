@@ -1,0 +1,26 @@
+{
+  "slug": "krasnogorsk-ski-marathon",
+  "name": "Krasnogorsk Ski Marathon",
+  "country": "Russia",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=50082",
+    "evidence_summary": "FIS lists a cross-country ski event in Krasnogorsk, Russia, with organizer contact details for Krasnogorskiy Sport Committee and participant entries like Grigoriev Viktor, indicating an organized competition. A news article from EMERCOM mentions a cross-country skiing competition at the Krasnogorsk ski stadium. No official race website, recent results, or mentions in Worldloppet/Ski Classics found.",
+    "sources": [
+      "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=50082",
+      "https://en.mchs.gov.ru/for-mass-media/novosti/4403307"
+    ]
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=50082",
+    "https://www.stremglav.fun/people/ilya-romashkov",
+    "https://www.rsaski.ru/en/sport-russia/resorts/?ELEMENT_ID=2645",
+    "https://moscow-city.guide/en/articles/luchshie-gornolyzhnye-kurorty-moskvy-i-podmoskovya-v-sezone-2025-2026-podborka-trass-i-sklonov/",
+    "https://en.mchs.gov.ru/for-mass-media/novosti/4403307",
+    "https://escholarship.org/content/qt2702x6wr/qt2702x6wr_noSplash_bc7b3a31823dd70969c5ee40445fb5cf.pdf"
+  ],
+  "checked_at": "2026-03-12T15:52:20Z"
+}

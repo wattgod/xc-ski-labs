@@ -1,0 +1,80 @@
+{
+  "slug": "lake-louise-loppet",
+  "name": "Lake Louise Loppet",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 200,
+    "country": "Canada",
+    "region": "Alberta",
+    "discipline": "classic",
+    "field_size": "~200-400",
+    "founded": 1972,
+    "website": "https://calgaryskiclub.org/loppet",
+    "date": "First Sunday of March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 25,
+      "note": "Current event offers 25 km as the longest race distance (others: 13km, 10km, 6km, 3km, 1km); database's 20km does not match exactly (past event had 20km in 2023)",
+      "source_url": "https://calgaryskiclub.org/loppet"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain for any Lake Louise Loppet course",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Lake Louise is in Canada",
+      "source_url": "https://calgaryskiclub.org/loppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Alberta, Canada",
+      "source_url": "https://calgaryskiclub.org/loppet"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic technique only",
+      "source_url": "https://www.loppet.ca/raceinfo"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Past mentions ~20 teams + 40 individuals for Lake Louise to Banff variant; max registration 400 noted but not specific to typical; no clear match for Calgary Ski Club's Lake Louise Loppet",
+      "source_url": "http://loppet.wikidot.com/course"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1972,
+      "note": "51st annual in 2023 implies first edition ~1972 (2023-51+1=1973, close to 1972)",
+      "source_url": "https://calgaryskiclub.org/content.aspx?page_id=4002&club_id=93324&item_id=1817984"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches Calgary Ski Club's Lake Louise Loppet page",
+      "source_url": "https://calgaryskiclub.org/loppet"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Early March",
+      "note": "Typically early March (e.g., March 5, 2023); not first Sunday",
+      "source_url": "https://calgaryskiclub.org/content.aspx?page_id=4002&club_id=93324&item_id=1817984"
+    }
+  },
+  "citations": [
+    "http://loppet.wikidot.com/course",
+    "https://www.loppet.ca/raceinfo",
+    "https://calgaryskiclub.org/content.aspx?page_id=4002&club_id=93324&item_id=1817984",
+    "https://albertamastersassociation.com/event/lake-louise-loppet/",
+    "https://calgaryskiclub.org/loppet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:51:26Z"
+}

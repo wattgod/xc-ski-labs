@@ -1,0 +1,30 @@
+{
+  "slug": "seeley-hills-classic",
+  "name": "Seeley Hills Classic",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://seeleyhillsclassic.com",
+    "results_url": "https://my.raceresult.com/378583/",
+    "evidence_summary": "Multiple independent sources confirm the Seeley Hills Classic as a real annual classic cross-country ski race on the American Birkebeiner Trail in Seeley/Cable, Wisconsin, including an official website, registration pages on skisignup and birkie.com, Worldloppet listing, Travel Wisconsin event page, and race results platform for 2026. The event started in 1992, offers 22K and 42K distances, and serves as a Birkie qualifier and fundraiser for the Seeley Ski Club.",
+    "sources": [
+      "https://www.skisignup.com/Race/WI/Hayward/SeeleyHillsClassicBirkie",
+      "https://www.worldloppet.com/seeley-hills-classic-usa/",
+      "https://www.travelwisconsin.com/events/seeley-hills-classic-ski-event",
+      "https://my.raceresult.com/378583/",
+      "https://www.birkie.com/ski/events/seeley-hills-classic/",
+      "https://seeleyhillsclassic.com"
+    ]
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/WI/Hayward/SeeleyHillsClassicBirkie",
+    "https://www.worldloppet.com/seeley-hills-classic-usa/",
+    "https://www.travelwisconsin.com/events/seeley-hills-classic-ski-event",
+    "https://my.raceresult.com/378583/",
+    "https://www.birkie.com",
+    "https://www.birkie.com/ski/events/seeley-hills-classic/"
+  ],
+  "checked_at": "2026-03-12T16:03:11Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "davos-nordic-marathon",
+  "name": "Davos Nordic Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 400,
+    "country": "Switzerland",
+    "region": "Graubünden",
+    "discipline": "both",
+    "field_size": "~600 starters",
+    "founded": 1998,
+    "website": "https://www.davosnordic.ch",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found describing a 'Davos Nordic Marathon' or any 42km cross-country ski race; results focus on Davos Nordic FIS World Cup with shorter distances like 10km.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for a 'Davos Nordic Marathon' or its elevation gain; Davos Nordic World Cup courses mentioned but no 400m figure.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Switzerland (SUI).",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58062&seasoncode=2026"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Davos is in Graubünden, Switzerland, but no direct confirmation in results for the specific race; general knowledge aligns but requires web source per rules.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for 'Davos Nordic Marathon'; Davos Nordic World Cup features skating (e.g., 10km Skating).",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "~600 starters unconfirmed; World Cup has ~250 athletes per race.",
+      "source_url": "https://www.davos.ch/en/information/news/news/davos-nordic-2025-highlights-insights-and-tips"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "1998 unconfirmed for marathon; Davos Nordic history starts 1972.",
+      "source_url": "https://www.davos.ch/en/information/portrait-image/storybook/davos-nordic"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site for Davos Nordic.",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58062&seasoncode=2026"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Mid-December",
+      "note": "Davos Nordic held in December (e.g., Dec 12-14 2025), not early March.",
+      "source_url": "https://www.davos.ch/en/information/news/news/davos-nordic-2025-highlights-insights-and-tips"
+    }
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58062&seasoncode=2026",
+    "https://www.davosnordic.ch/en/geschichte",
+    "https://www.davosnordic.ch/en/programm",
+    "https://www.davos.ch/en/information/news/news/davos-nordic-2025-highlights-insights-and-tips",
+    "https://www.davosnordic.ch/en",
+    "https://www.davos.ch/en/information/portrait-image/storybook/davos-nordic",
+    "https://www.davosnordic.ch/en/events",
+    "https://www.outdooractive.com/mobile/en/route/cross-country-skiing/davos/davos-nordic-world-cup-course/25644226/",
+    "https://www.davos-xtrails.ch/en/race-registration/runs/k23-klosters"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:52Z"
+}

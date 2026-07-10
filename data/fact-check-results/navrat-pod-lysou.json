@@ -1,0 +1,80 @@
+{
+  "slug": "navrat-pod-lysou",
+  "name": "Návrat pod Lysou",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 550,
+    "country": "Slovakia",
+    "region": "Prešov",
+    "discipline": "classic",
+    "field_size": 350,
+    "founded": 1990,
+    "website": "https://www.navratpodlysou.sk",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race. Search results provided focus on general cross-country skiing locations in Prešov Region but do not mention this specific race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race to verify country.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race to verify Prešov region location.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race or its official website.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found containing information about 'Návrat pod Lysou' race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.severovychod.sk/en/clanok/where-to-go-shoeing/",
+    "https://www.tripadvisor.com/AttractionProductReview-g982822-d15884228-Cross_Country_Skiing_around_Strbske_Pleso_High_Tatras-Strbske_Pleso_Presov_Region.html",
+    "https://www.severovychod.sk/en/clanok/on-birch-trees-in-slovakia-and-in-the-presov-region/",
+    "http://www.floowie.com/en/read/relax2012/html/",
+    "https://archive.org/stream/slovnik_naucny-14/slovnik_naucny-14_djvu.txt"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:47:27Z"
+}

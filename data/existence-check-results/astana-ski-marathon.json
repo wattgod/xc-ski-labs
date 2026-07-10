@@ -1,0 +1,24 @@
+{
+  "slug": "astana-ski-marathon",
+  "name": "Astana Ski Marathon",
+  "country": "Kazakhstan",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for any 'Astana Ski Marathon' cross-country ski race in Kazakhstan. All search results refer exclusively to the Astana Half Marathon, a road running event, with no mentions of skiing, cross-country races, Worldloppet, or related listings. The query appears to confuse it with a running event or a fictional ski race.",
+    "sources": []
+  },
+  "citations": [
+    "https://worldsmarathons.com/marathon/astana-half-marathon",
+    "https://ir.airastana.com/en/about-us/company-news/almaty-marathon-air-astana-offers-special-rate-for-athletes/",
+    "https://almaty-marathon.kz/en/news/781/",
+    "https://aims-worldrunning.org/races/10388.html",
+    "https://astana21k.com/registration/",
+    "https://www.finishers.com/en/event/astana-half-marathon",
+    "https://astana21k.com"
+  ],
+  "checked_at": "2026-03-12T15:38:31Z"
+}

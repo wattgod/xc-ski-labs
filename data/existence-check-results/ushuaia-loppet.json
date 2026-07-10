@@ -1,0 +1,31 @@
+{
+  "slug": "ushuaia-loppet",
+  "name": "Ushuaia Loppet",
+  "country": "Argentina",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.ushuaialoppet.com",
+    "results_url": null,
+    "evidence_summary": "The Ushuaia Loppet is listed as an official Worldloppet member race since 2014 with a detailed history starting in 1986, course info, and past editions like 2022 and 2023. It is also featured on Ski Classics, Wikipedia, and FasterSkier with news of events, registrations, and cancellations (e.g., 2025). Multiple independent sources confirm its organization by Club Andino Ushuaia, though specific race results pages were not directly found in the results.",
+    "sources": [
+      "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+      "https://skiclassics.com/events/challengers/ushuaia-loppet/",
+      "https://www.worldloppet.com/ushuaia-loppet-2022/",
+      "https://en.wikipedia.org/wiki/Ushuaia_Loppet",
+      "https://fasterskier.com/2013/11/the-paradox-loppet-argentinas-marchablanca-ushuaia-loppet-and-their-world-loppet-candidacy/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+    "https://skiclassics.com/events/challengers/ushuaia-loppet/",
+    "https://www.worldloppet.com/ushuaia-loppet-2022/",
+    "https://en.wikipedia.org/wiki/Ushuaia_Loppet",
+    "https://www.worldloppet.com/category/news/ushuaia-loppet/",
+    "https://fasterskier.com/2013/11/the-paradox-loppet-argentinas-marchablanca-ushuaia-loppet-and-their-world-loppet-candidacy/",
+    "https://simple.wikipedia.org/wiki/Ushuaia_Loppet",
+    "https://www.worldloppet.com/tag/ushuaialoppet/"
+  ],
+  "checked_at": "2026-03-12T16:10:23Z"
+}

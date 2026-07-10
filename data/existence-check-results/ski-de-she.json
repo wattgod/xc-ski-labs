@@ -1,0 +1,29 @@
+{
+  "slug": "ski-de-she",
+  "name": "Ski de She",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.birkie.com/ski/events/ski-de-she/",
+    "results_url": "https://www.skinnyski.com/racing/",
+    "evidence_summary": "Ski de She is an annual women's cross-country ski camp and race held on the Birkie trails in Cable, Wisconsin, USA, organized by the American Birkebeiner. Race results from January 17, 2026, list winners in 30K, 20K, 10K, and 5K events on skinnyski.com. Official pages on birkie.com confirm the event for 2027 with registration options, and cable4fun.com lists it as a chamber event.",
+    "sources": [
+      "https://www.skinnyski.com/racing/",
+      "https://www.cable4fun.com/event/ski-de-she-camp-race/",
+      "https://www.birkie.com/calendar/",
+      "https://www.birkie.com/ski/events/ski-de-she/"
+    ]
+  },
+  "citations": [
+    "https://www.skinnyski.com/racing/",
+    "https://www.cable4fun.com/event/ski-de-she-camp-race/",
+    "https://www.birkie.com/calendar/",
+    "https://www.birkie.com",
+    "https://www.birkie.com/ski/events/ski-de-she/",
+    "https://nensa.net",
+    "https://www.usskiandsnowboard.org"
+  ],
+  "checked_at": "2026-03-12T16:04:14Z"
+}

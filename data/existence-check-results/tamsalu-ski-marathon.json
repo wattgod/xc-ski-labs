@@ -1,0 +1,32 @@
+{
+  "slug": "tamsalu-ski-marathon",
+  "name": "Tamsalu Ski Marathon",
+  "country": "Estonia",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "www.estoloppet.ee",
+    "results_url": null,
+    "evidence_summary": "The Tamsalu-Neeruti Ski Marathon is confirmed as a real, organized event in Estonia. It appears in the official Worldloppet directory, is part of the Estoloppet ski marathon series, has an official website, and is mentioned in Estonian government records approving ski marathons. The race is held in Pariisi Puhkeküla, Estonia with distances of 43 km and 21 km.",
+    "sources": [
+      "https://www.worldloppet.com/tamsalu-neeruti-maraton/",
+      "https://news.err.ee/1608078355/government-green-lights-tartu-ski-marathon",
+      "https://visitestonia.com/en/51st-tartu-marathon",
+      "www.estoloppet.ee"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/tamsalu-neeruti-maraton/",
+    "https://news.err.ee/1608078355/government-green-lights-tartu-ski-marathon",
+    "https://visitestonia.com/en/51st-tartu-marathon",
+    "https://tartumaraton.ee/en/",
+    "https://tartumaraton.ee/en/news",
+    "https://tartumaraton.ee/en/tartu-maraton-2026",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/participant-info",
+    "https://tartumaraton.ee/en/tartu-maraton-2024",
+    "https://tartumaraton.ee/en/tartu-maraton-2027/31-km-ft",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/discover-south-estonia"
+  ],
+  "checked_at": "2026-03-12T16:07:14Z"
+}

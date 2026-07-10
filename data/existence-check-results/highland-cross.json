@@ -1,0 +1,25 @@
+{
+  "slug": "highland-cross",
+  "name": "Highland Cross",
+  "country": "United Kingdom",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Highland Cross' cross-country ski race in the UK. The highlandcross.co.uk site describes a real duathlon (foot and bike) event in the Scottish Highlands, not skiing. No mentions in ski club directories, Snowsport England, or other nordic skiing sources match the query.",
+    "sources": []
+  },
+  "citations": [
+    "http://www.highlandcross.co.uk",
+    "https://www.goxski.com/nordic-ski-clubs",
+    "http://www.highlandcross.co.uk/Newsletter.htm",
+    "https://www.snowsportengland.org.uk/get-competitive/",
+    "https://www.snowsportengland.org.uk/get-involved/nordic/",
+    "http://www.spanglefish.com/highlandnordic",
+    "https://www.hemelskiraceclub.co.uk/sitemap",
+    "https://teambss.org.uk/get-involved"
+  ],
+  "checked_at": "2026-03-12T15:48:50Z"
+}

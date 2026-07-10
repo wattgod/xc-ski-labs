@@ -1,0 +1,84 @@
+{
+  "slug": "ulricehamn-ski-marathon",
+  "name": "Ulricehamn Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Sweden",
+    "region": "Västergötland",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": 2010,
+    "website": "https://www.ulricehamnsskidstadion.se",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "Västgötaloppet, associated with Ulricehamn, is 42km (not 30km); no source confirms 30km for Ulricehamn Ski Marathon",
+      "source_url": "https://skiclassics.com/events/challengers/vastgotaloppet-classic/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain of any Ulricehamn ski race",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Sweden (SWE)",
+      "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58348&seasoncode=2026"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Ulricehamn is in Västergötland (West Sweden)",
+      "source_url": "https://www.vastsverige.com/en/ulricehamn/produkter/lassalyckan/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Västgötaloppet has classic and skate versions separately, but no confirmation for 'both' in a single Ulricehamn Ski Marathon event",
+      "source_url": "https://skiclassics.com/events/challengers/vastgotaloppet-classic/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 1000,
+      "note": "Västgötaloppet Classic attracts around 1,000 participants (outside 500 ±20% tolerance)",
+      "source_url": "https://skiclassics.com/events/challengers/vastgotaloppet-classic/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 2010; Västgötaloppet first held 1929 but modern format may differ; no specific 'Ulricehamn Ski Marathon' found",
+      "source_url": "https://skiclassics.com/events/challengers/vastgotaloppet-classic/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Website exists but no confirmation it is official for 'Ulricehamn Ski Marathon'; points to Lassalyckan ski stadium",
+      "source_url": "https://www.vastsverige.com/en/ulricehamn/produkter/lassalyckan/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Västgötaloppet in late January/early February 2026, consistent with February",
+      "source_url": "https://skiclassics.com/events/challengers/vastgotaloppet-classic/"
+    }
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58348&seasoncode=2026",
+    "https://www.vastsverige.com/en/ulricehamn/produkter/lassalyckan/",
+    "https://www.worldcupulricehamn.com/en/program",
+    "https://skiclassics.com/events/challengers/vastgotaloppet-classic/",
+    "https://visitsweden.com/what-to-do/nature-outdoors/winter-activities/cross-country-skiing-sweden/",
+    "https://www.worldcupulricehamn.com/en",
+    "https://skibikehike.se/en/about-us/",
+    "https://skibikehike.se/en/aktuellt/year-round-activities/",
+    "https://www.worldcupulricehamn.com/en/news"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:57:51Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "planica-ski-marathon",
+  "name": "Planica Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 200,
+    "country": "Slovenia",
+    "region": "Upper Carniola",
+    "discipline": "both",
+    "field_size": 1000,
+    "founded": 2020,
+    "website": "https://www.planica-skimarathon.com",
+    "date": "Late January to early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km marathon distance.",
+      "source_url": "https://worldsmarathons.com/marathon/ski-marathon-planica-ski"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 800,
+      "note": "Sources list elevation gain of 800m for 42km (3x12.5km loops); database's 200m is outside ±100m tolerance.",
+      "source_url": "https://planicaski.com/slo"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Slovenia.",
+      "source_url": "https://worldsmarathons.com/marathon/ski-marathon-planica-ski"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Event in Rateče Planica near Julian Alps; no sources explicitly confirm 'Upper Carniola'.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Skate on Feb 1, classic on Feb 2, allowing both.",
+      "source_url": "https://worldsmarathons.com/marathon/ski-marathon-planica-ski"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm first edition year; events from 2024/2025 noted but no founding date.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://planicaski.com",
+      "note": "Active sites are planicaski.com and planicaski.eventrac.co.uk; provided URL not matching sources.",
+      "source_url": "https://planicaski.com"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late January to early February (e.g., 31 Jan-2 Feb, 1-2 Feb).",
+      "source_url": "https://worldsmarathons.com/marathon/ski-marathon-planica-ski"
+    }
+  },
+  "citations": [
+    "https://worldsmarathons.com/marathon/ski-marathon-planica-ski",
+    "https://planicaski.eventrac.co.uk/e/planica-ski-marathon-14059",
+    "https://www.ahotu.com/event/planica-ski-marathon",
+    "https://planicaski.com/slo",
+    "https://planicaski.com",
+    "https://www.planica.si/en",
+    "https://www.planica.si/en/programme"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:49:23Z"
+}

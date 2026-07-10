@@ -1,0 +1,102 @@
+{
+  "slug": "bansko-nordic-challenge",
+  "name": "Bansko Nordic Challenge",
+  "tier": 3,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded"
+  ],
+  "result": {
+    "fields": {
+      "main_race_distance": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No race specifically named 'Bansko Nordic Challenge' found in search results. Generic cross-country races held in Bansko during 2025/2026 season show 10km and 7.5km distances, not 30km"
+      },
+      "total_elevation_gain": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No elevation gain data found for any 'Bansko Nordic Challenge' race"
+      },
+      "technique": {
+        "value": "Classic (based on available FIS events)",
+        "source_url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50255",
+        "confidence": "MEDIUM",
+        "note": "FIS cross-country events in Bansko 2025/2026 list 'Interval Start Classic' races, but this is not a branded 'Nordic Challenge'"
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No participant data found for any 'Bansko Nordic Challenge' race"
+      },
+      "year_first_held": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No historical data found for race establishment date"
+      }
+    },
+    "race_exists": false,
+    "best_source": "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50255",
+    "verification_note": "No race specifically branded as 'Bansko Nordic Challenge' could be verified in provided search results. Bansko does host FIS cross-country skiing events (10km classic and 7.5km classic races documented for March 2026), but these appear to be regional SEE (South Eastern Europe) competitions, not a standalone branded event. The provided data values (30km distance, 400m elevation gain, 200 participants, 2008 establishment year) could not be confirmed from any source."
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=Zs6JQKZNHNo",
+    "https://www.youtube.com/watch?v=RBMmgAwzeqI",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=44580",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58836&seasoncode=2026",
+    "https://www.banskoski.com/en/news/the-fis-snowboard-world-cup-returns-to-bansko-in-the-2024-2025-season",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=SB&competitorid=161257&raceid=8662",
+    "https://skiclubgb.wordpress.com/2015/04/22/theres-more-than-meets-the-eye-at-bansko/",
+    "https://www.banskoworldcup.com",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=SB&competitorid=143282&raceid=22957",
+    "https://www.youtube.com/watch?v=qtXJl7Rwmog",
+    "https://www.bfski.com/docs-al/386/program",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50255",
+    "https://www.banskoski.com/en/news/fis-has-confirmed-two-world-cup-starts-in-bulgaria-for-the-upcoming-2023-2024-season",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50237",
+    "https://www.bbnt.ski/race",
+    "https://www.snowtrex.us/bulgaria/bansko/cross-country.html",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50257",
+    "https://www.worldloppet.com",
+    "https://www.banskoworldcup.com/wc2024/slopes",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50232",
+    "https://www.bfski.com/docs-cc/171/32/results",
+    "https://www.worldloppet.com/races/",
+    "https://passport.euroloppet.com/event/events-2025-26",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=62344&raceid=60566",
+    "https://www.proxcskiing.com/long-distance/ski-classics-challengers-six-european-events-this-weekend/",
+    "https://www.snow-online.com/ski-resort/bansko.html",
+    "https://www.banskoworldcup.com/wc2024/athletes",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50248",
+    "http://oreateai.com/blog/bansko-ski-resort-elevation/8aac18475a0789aa239966656e4d6262",
+    "https://assets.fis-ski.com/f/252177/x/1ac1db90b1/2025_06_12-13_fiscouncilsummaryminutes.pdf",
+    "https://en.wikipedia.org/wiki/FIS_Nordic_World_Ski_Championships_2025",
+    "https://assets.fis-ski.com/f/252177/x/c1db6cd8b7/2024_11_08_fis_council_minutessummary.pdf",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=90715&raceid=18562",
+    "https://en.wikipedia.org/wiki/Nordic_Cross_Country_Championships",
+    "https://www.banskoski.com/en",
+    "https://assets.fis-ski.com/f/252177/x/dee1f8f36c/bulletin_2024_final.pdf",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=144351&raceid=17599",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=128841",
+    "https://www.strava.com/challenges/2160",
+    "https://nl.mylaps.com/evenementen/uitslagen/2023/sep/9/almere/LDAG_Cat.html",
+    "https://communityhub.strava.com/t5/club-hub-chat/club-challenges/m-p/10548/highlight/true",
+    "https://eventkit.mylaps.com/fr/event/1530",
+    "https://www.bta.bg/en/news/1060779-bulgaria-s-kalina-nedyalkova-places-75th-in-winter-olympics-cross-country-classi",
+    "https://banskoskishop.com/bansko-cross-country-ski-rental/",
+    "https://worldsmarathons.com/marathon/pirin-ultra",
+    "https://trka.rs/events/468/runners/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=244779&raceid=48480",
+    "https://www.usskiandsnowboard.org/taxonomy/term/3166?page=54",
+    "https://www.ahotu.com/calendar/trail-running/ultramarathon/bulgaria",
+    "https://en.wikipedia.org/wiki/FIS_Nordic_World_Ski_Championships_2009"
+  ],
+  "checked_at": "2026-03-12T15:42:05Z"
+}

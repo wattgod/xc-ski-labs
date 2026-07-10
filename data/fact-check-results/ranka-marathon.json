@@ -1,0 +1,81 @@
+{
+  "slug": "ranka-marathon",
+  "name": "Ranka Kartonfabric Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 150,
+    "country": "Latvia",
+    "region": "Vidzeme Uplands",
+    "discipline": "skate",
+    "field_size": 500,
+    "founded": null,
+    "website": "https://skiclassics.com",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the main race distance is 50km (freestyle), though multi-distance event with 100km option exists[1][2][4]",
+      "source_url": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide total elevation gain; described as 'relatively flat terrain with few small uphills and downhills'[1][2]",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Latvia across all sources[1][2][4][5]",
+      "source_url": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Location is Ranka near Madona (40km), no mention of Vidzeme Uplands[1][2]",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freestyle technique (skate) confirmed[1][2][4]",
+      "source_url": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2024,
+      "note": "First as Ski Classics Challengers in 2024; third edition in 2026 per source[1]",
+      "source_url": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/",
+      "note": "Ski Classics page is primary source; Facebook/Instagram mentioned but no dedicated site[1][2]",
+      "source_url": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "January",
+      "note": "Typical date January 31 (2026 edition); past editions February (2024, 2025)[1][2][4][5]",
+      "source_url": "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/ranka-kartonfabric-ski-marathon/",
+    "https://www.proxcskiing.com/long-distance/ranka-kartonfabric-ski-marathon-confirmed-for-the-weekend/",
+    "https://www.langrenn.com/event/ranka-kartonfabric-ski-marathon/",
+    "https://www.proxcskiing.com/long-distance/ranka-kartonfabric-ski-marathon-this-sunday-in-latvia/",
+    "https://www.langrenn.com/event/ranka-kartonfabric-ski-marathon-3/",
+    "https://www.bezky.net/event/ranka-kartonfabric-ski-marathon-3/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:50:21Z"
+}

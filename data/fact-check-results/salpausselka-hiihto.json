@@ -1,0 +1,83 @@
+{
+  "slug": "salpausselka-hiihto",
+  "name": "Salpausselkä Hiihto",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 450,
+    "country": "Finland",
+    "region": "Päijät-Häme",
+    "discipline": "both",
+    "field_size": "~750",
+    "founded": 1923,
+    "website": "https://www.finlandiahiihto.fi",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 62,
+      "note": "Recent sources indicate 62km for the main races (classic and freestyle) in 2025, changed from previous lengths for snow security; database's 50km does not match current distance (tolerance ±3km exceeded)",
+      "source_url": "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain; described as demanding with rolling terrain and height differences in Salpausselkä ridge, but no numeric value",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Finland across multiple sources",
+      "source_url": "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Lahti, which is in Päijät-Häme region; Salpausselkä area in Lahti confirmed",
+      "source_url": "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and freestyle (skate) offered, including 62km in each technique",
+      "source_url": "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Historical high of 13,226 in 1984 and 1,334 in first race noted, but no typical/average ~750 confirmed; called Finland's largest mass event but no current typical number",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1974,
+      "note": "First edition 1974, not 1923; multiple sources confirm 1974 inception, 52nd time in 2025",
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "www.finlandiahiihto.fi explicitly listed as official site",
+      "source_url": "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late February; e.g., Feb 22-23 2025, Feb 12-13 noted, annual in February",
+      "source_url": "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/finlandia-ski-marathon-new-route-brings-more-snow-security-and-improves-services/",
+    "https://lahtiskigames.com/en/salpausselka-2/",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://www.goxski.com/lahti",
+    "https://www.kiilopaachallenge.fi/en/partners/",
+    "https://enjoywinter.com/read-skipost/finland-the-finlandiahiihto-in-focus/",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://lahtiskigames.com/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:48Z"
+}

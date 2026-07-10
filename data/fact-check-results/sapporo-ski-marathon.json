@@ -1,0 +1,82 @@
+{
+  "slug": "sapporo-ski-marathon",
+  "name": "Sapporo Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 300,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "classic",
+    "field_size": "~2,000 starters",
+    "founded": 1981,
+    "website": "https://www.sapporo-sport.jp/ski/",
+    "date": "First Sunday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "50km race confirmed as 2 laps of 25km course at Shirahatayama Open Stadium[1]",
+      "source_url": "https://www.sapporo-sport.jp/ski/e-information/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Japan[1][3]",
+      "source_url": "https://www.sapporo-sport.jp/ski/e-information/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held in Sapporo, Hokkaido (Sapporo city, Hokkaido prefecture)[1][4]",
+      "source_url": "https://www.sapporo-sport.jp/ski/e-information/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classical technique specified for events including 50km[1]",
+      "source_url": "https://www.sapporo-sport.jp/ski/e-information/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide typical number of participants or starters",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First held in 1981[3]",
+      "source_url": "https://en.wikipedia.org/wiki/Sapporo_International_Ski_Marathon"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site https://www.sapporo-sport.jp/ski/[1][6]",
+      "source_url": "https://www.sapporo-sport.jp/ski/e-information/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "46th edition on February 1, 2026 (Sunday), first Sunday in February; typically early February[1][2][4]",
+      "source_url": "https://www.sapporo-sport.jp/ski/e-information/"
+    }
+  },
+  "citations": [
+    "https://www.sapporo-sport.jp/ski/e-information/",
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://en.wikipedia.org/wiki/Sapporo_International_Ski_Marathon",
+    "https://www.kirari-ishikari.pref.hokkaido.lg.jp/en/visit/event-en/sapporo-international-ski-marathon/",
+    "https://www.worldloppet.com/category/news/sapporo-int-ski-marathon/",
+    "https://www.sapporo-sport.jp/ski/",
+    "https://www.sapporo-sport.jp/ski/online-e/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:54:55Z"
+}

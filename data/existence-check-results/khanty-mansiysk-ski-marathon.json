@@ -1,0 +1,32 @@
+{
+  "slug": "khanty-mansiysk-ski-marathon",
+  "name": "Khanty-Mansiysk Ski Marathon",
+  "country": "Russia",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.russialoppet.ru",
+    "results_url": null,
+    "evidence_summary": "The 'Ugra Ski Marathon' in Khanty-Mansiysk, Russia, is a well-established annual cross-country ski event since 2013, listed on Worldloppet, ProXCskiing, and Ski Classics Challengers, with news articles confirming the XII edition in 2025 including prize details. No exact match for 'Khanty-Mansiysk Ski Marathon' found, but Ugra Ski Marathon matches the location and description precisely. Multiple independent sources from event calendars, organizers, and media provide strong evidence of its existence.",
+    "sources": [
+      "https://www.worldloppet.com/ugra-ski-marathon/",
+      "https://www.proxcskiing.com/event/ugra-ski-marathon/",
+      "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/",
+      "https://skiclassics.com/ugra-ski-marathon-joins-challengers/",
+      "https://www.russialoppet.ru"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/ugra-ski-marathon/",
+    "https://www.proxcskiing.com/event/ugra-ski-marathon/",
+    "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/",
+    "https://skiclassics.com/ugra-ski-marathon-joins-challengers/",
+    "https://rollerski.ugramegasport.ru/about-the-city/",
+    "https://www.nordicmag.info/en/biathlon-commonwealth-cup-khanty-mansiysk-eduard-latypov-and-dzinara-smolskaya-win-the-sprints-1204/",
+    "https://investugra.ru/en/about/visiting-ugra/",
+    "https://mid.ru/upload/archive/d288049854eadf85c106243a0a474246.pdf",
+    "https://corrinemalcolm.com/2011/03/"
+  ],
+  "checked_at": "2026-03-12T15:51:43Z"
+}

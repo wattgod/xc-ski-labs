@@ -1,0 +1,83 @@
+{
+  "slug": "niseko-ski-marathon",
+  "name": "Niseko Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "classic",
+    "field_size": "~700 starters",
+    "founded": 1982,
+    "website": "https://www.experienceniseko.com/events/niseko-ski-marathon",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning the Niseko Ski Marathon or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning the Niseko Ski Marathon or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the Niseko Ski Marathon exists; Niseko is in Japan per general context but event unmentioned.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning the Niseko Ski Marathon or its location.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning the Niseko Ski Marathon or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning the Niseko Ski Marathon or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning the Niseko Ski Marathon or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL in search results discusses other events like NAC Trail Run but no mention of Ski Marathon; cannot confirm as official site for this event.",
+      "source_url": "https://www.experienceniseko.com/news/nac-trail-run-gains-itra-recognition"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning the Niseko Ski Marathon or its date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://niseko-moiwa.jp/slope/",
+    "https://wanderluxe.theluxenomad.com/running-trails-in-niseko/",
+    "https://www.skiresort.info/ski-resort/niseko-united-annupuri-grand-hirafu-hanazono-niseko-village/",
+    "https://holidayniseko.com/niseko-united",
+    "https://www.experienceniseko.com/news/nac-trail-run-gains-itra-recognition",
+    "https://www.niseko.ne.jp/en/map/village/",
+    "https://en.wikipedia.org/wiki/Niseko_Mt._Resort_Grand_Hirafu",
+    "https://www.niseko.ne.jp/en/booklet.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:53:24Z"
+}

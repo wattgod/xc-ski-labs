@@ -1,0 +1,82 @@
+{
+  "slug": "piancavallo-nordic-marathon",
+  "name": "Piancavallo Nordic Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 300,
+    "country": "Italy",
+    "region": "Friuli Venezia Giulia",
+    "discipline": "classic",
+    "field_size": 350,
+    "founded": 1992,
+    "website": null,
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Piancavallo Nordic Marathon' or matching cross-country ski race details.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Piancavallo Nordic Marathon' or matching cross-country ski race details.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Piancavallo is in Italy per general mentions, but no specific confirmation for this race.",
+      "source_url": "https://www.bergfex.com/friaul-julisch-venetien/langlaufen/piancavallo/"
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Piancavallo associated with Friuli Venezia Giulia in running event context, but no cross-country ski marathon confirmed.",
+      "source_url": "https://my.raceresult.com/324754/info"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Piancavallo Nordic Marathon' or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Piancavallo Nordic Marathon' or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Piancavallo Nordic Marathon' or its founding year.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Piancavallo Nordic Marathon'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical date for 'Piancavallo Nordic Marathon'.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Ida_Nilsson_(runner)",
+    "https://my.raceresult.com/324754/info",
+    "https://www.fis-ski.com/DB/general/calendar-results.html",
+    "https://www.thesportsexaminer.com/highlights-u-s-women-take-concacaf-u-20-crown-shiffrin-maintains-overall-world-cup-lead-jackson-and-bowe-take-season-skating-titles/",
+    "https://www.bergfex.com/friaul-julisch-venetien/langlaufen/piancavallo/",
+    "https://support.garmin.com/en-ZA/?productID=702902&faq=pKdgWE6ohx0IIWIB72vtm8&tab=topics",
+    "https://fasterskier.com/2017/04/liz-hill-stephen-plans-foray-ski-mountaineering/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:49:00Z"
+}

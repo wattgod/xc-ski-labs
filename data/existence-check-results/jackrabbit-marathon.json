@@ -1,0 +1,28 @@
+{
+  "slug": "jackrabbit-marathon",
+  "name": "Jackrabbit Marathon",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "The Ultra-Trail Jack Rabbit is a real endurance event in Val-Morin, Quebec, offering cross-country skiing options in 4/8/12-hour formats, honoring Jackrabbit Johannsen, scheduled for Feb 20, 2026. It is listed on running directories and local sites, but no race results, official website, news articles, or listings in Worldloppet/FIS are found. 'Jackrabbit' primarily refers to a national youth ski program, not a standalone marathon.",
+    "sources": [
+      "https://www.therunningdirectory.ca/race/ultra-trail-jack-rabbit-2026",
+      "https://www.courirlaurentides.com/ultratrail-jackrabbit/"
+    ]
+  },
+  "citations": [
+    "https://www.therunningdirectory.ca/race/ultra-trail-jack-rabbit-2026",
+    "https://nordiqcanada.ca/news-item/2027-jackrabbit-toque-contest/",
+    "https://www.hollyburnxc.ca/club/policiesplanhistory/the-story-of-the-jackrabbit-ski-program/",
+    "https://cccski.com/Programs/Athlete-Development/Skill-Development-Programs/Jackrabbits.html",
+    "https://skimarathon.ca/the-trail/",
+    "https://collection.nfb.ca/film/jack_rabbit",
+    "https://skimarathon.ca/canadian-ski-challenge/",
+    "https://www.courirlaurentides.com/ultratrail-jackrabbit/"
+  ],
+  "checked_at": "2026-03-12T15:49:34Z"
+}

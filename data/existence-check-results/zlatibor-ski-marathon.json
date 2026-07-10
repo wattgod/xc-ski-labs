@@ -1,0 +1,27 @@
+{
+  "slug": "zlatibor-ski-marathon",
+  "name": "Zlatibor Ski Marathon",
+  "country": "Serbia",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Zlatibor Ski Marathon' cross-country ski race. Search results show FIS cross-country events in Zlatibor (e.g., SES Cup 2020, NC Serbia 2025) and alpine ski facilities, but no marathon, results, news, or listings for this specific event. Zlatibor has cross-country tracks and general ski resorts, but nothing matches the named marathon.",
+    "sources": []
+  },
+  "citations": [
+    "https://zlatibor.rs/sites/default/files/vesti_preuzmi/22526/InvitationSESCUP_Zlatibor2020.PDF",
+    "https://medias1.fis-ski.com/pdf/2025/CC/3779/2025CC3779RL.pdf",
+    "https://medias4.fis-ski.com/pdf/2025/CC/3781/2025CC3781RL.pdf",
+    "https://www.skiresort.info/ski-resort/tornik-zlatibor/",
+    "https://www.sportforallserbia.org.rs/wp-content/uploads/2023/12/ENG-NAJAVNI-BILTEN-31.-SKI-FESTIVAL-Kopaonik-2024L.pdf",
+    "https://www.skijalistasrbije.rs/en/lifts-and-slopes-tornik-zlatibor",
+    "https://www.skijalistasrbije.rs/en/about-ski-resort-0",
+    "https://www.skijalistasrbije.rs/en",
+    "https://www.skijalistasrbije.rs/en/ski-pass",
+    "https://en.wikipedia.org/wiki/Zlatibor"
+  ],
+  "checked_at": "2026-03-12T16:12:35Z"
+}

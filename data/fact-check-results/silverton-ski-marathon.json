@@ -1,0 +1,84 @@
+{
+  "slug": "silverton-ski-marathon",
+  "name": "Silverton Ski Marathon",
+  "facts": {
+    "distance_km": 26,
+    "elevation_m": 450,
+    "country": "United States",
+    "region": "Colorado",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 1992,
+    "website": null,
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Silverton Ski Marathon' cross-country ski race with 26 km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming or denying 450m elevation gain for the Silverton Ski Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Silverton, Colorado mentioned in unrelated events (Alpine running, skijoring), but no confirmation for this specific ski marathon.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific sources for the race; Colorado appears in other Silverton events but not this one.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on classic or skate discipline for Silverton Ski Marathon.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for this race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention a 1992 founding or first edition.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website identified in search results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of early March; other Silverton winter events in February but not this ski marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.aravaiparunning.com/silverton-alpine/",
+    "https://silvertonskijoring.itsyourrace.com",
+    "https://ultrasignup.com/register.aspx?did=129589",
+    "https://silvertonmountain.com/event/silverton-skijoring-26/",
+    "https://www.silvertonskijoring.com",
+    "https://silvertonmountain.com",
+    "http://www.cosmicski.com",
+    "https://www.runna.com/races/race/silverton-alpine-50km",
+    "https://www.silvertoncolorado.com/winter-adventures"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:52:19Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "bieg-bystrzycki",
+  "name": "Bieg Bystrzycki",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 350,
+    "country": "Poland",
+    "region": "Lower Silesia",
+    "discipline": "classic",
+    "field_size": 400,
+    "founded": 1992,
+    "website": "https://www.biegbystrzycki.pl",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Bieg Bystrzycki' or matching details like 25km classic race with 350m elevation.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Bieg Bystrzycki' providing elevation data.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources confirm 'Bieg Bystrzycki' in Poland; results mention other Polish races like Bieg Piastów.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources link 'Bieg Bystrzycki' to Lower Silesia.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic technique for 'Bieg Bystrzycki'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for 'Bieg Bystrzycki'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 1992 founding for 'Bieg Bystrzycki'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources reference https://www.biegbystrzycki.pl; race appears obscure with no web presence in results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm early February for 'Bieg Bystrzycki'.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://turystyczna.szklarskaporeba.pl/en/76-szklarskaporeba-jakuszycka-glade",
+    "https://bieg-piastow.pl/50-km-ct",
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/poland",
+    "https://www.liberec-region.com/dr-en/23919-the-jakuszyce-cross-country-centre-poland.html",
+    "https://psb-biegi.com.pl/wp-content/uploads/2019/06/20190303jakuszyce.pdf",
+    "https://wyniki.datasport.pl/results2822/wyniki/03_KATEGORIE.pdf",
+    "https://www.youtube.com/watch?v=nTcffFnLQnI"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:34:58Z"
+}

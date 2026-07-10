@@ -1,0 +1,81 @@
+{
+  "slug": "myoko-nordic-festival",
+  "name": "Myoko Nordic Festival",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 200,
+    "country": "Japan",
+    "region": "Niigata",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": 2010,
+    "website": null,
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Myoko Nordic Festival' or matching its claimed 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Myoko Nordic Festival' or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming 'Myoko Nordic Festival' in Japan; Myoko is in Niigata, Japan, but no race match.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for the race in Niigata; general Myoko events exist but not this ski race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found specifying classic or skate for 'Myoko Nordic Festival'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning participant numbers for 'Myoko Nordic Festival'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming first edition in 2010.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found in search results for 'Myoko Nordic Festival'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming late February for this race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "http://connect.ajet.net/2020/04/12/the-longest-cross-country-ski-race-in-japan/",
+    "https://en.wikipedia.org/wiki/FIS_Nordic_World_Ski_Championships_2025",
+    "https://www.youtube.com/watch?v=h1znNUnOMN8",
+    "https://skiasia.com/guides/japan-ski-resort-events-green-season-2023/",
+    "https://www.youtube.com/watch?v=K9gTjtMSVRY",
+    "https://www.youtube.com/watch?v=jHvi4rMy5zw"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:47:21Z"
+}

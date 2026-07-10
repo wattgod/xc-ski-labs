@@ -1,0 +1,30 @@
+{
+  "slug": "jyvaskyla-ski-marathon",
+  "name": "Jyväskylä Ski Marathon",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://jyvaskylaskimarathon.fi",
+    "results_url": null,
+    "evidence_summary": "The Jyväskylä Ski Marathon has a fully functional official website with detailed event information, registration details, and announcements including the 2025 cancellation due to weather and confirmation for 2026 on March 7. It is explicitly listed as part of the Euroloppet series, with past participation numbers (over 1200 in 2024, 1100 in another year). The organizing committee provides contact info and snow updates, confirming it as a real, organized event.",
+    "sources": [
+      "https://jyvaskylaskimarathon.fi/en/event-information-2/",
+      "https://jyvaskylaskimarathon.fi",
+      "https://jyvaskylaskimarathon.fi/en/euroloppet-2/",
+      "https://jyvaskylaskimarathon.fi/en/home-en/"
+    ]
+  },
+  "citations": [
+    "https://jyvaskylaskimarathon.fi/en/event-information-2/",
+    "https://jatkankynttilaskimarathon.fi/pages/event-info",
+    "https://jyvaskylaskimarathon.fi",
+    "https://jyvaskylaskimarathon.fi/en/euroloppet-2/",
+    "https://jyvaskylaskimarathon.fi/en/home-en/",
+    "https://worldsmarathons.com/marathon/finlandia-marathon",
+    "https://jyvaskylaskimarathon.fi/en/arrival-in-jyvaskyla/",
+    "https://skijyvaskyla.fi"
+  ],
+  "checked_at": "2026-03-12T15:50:31Z"
+}

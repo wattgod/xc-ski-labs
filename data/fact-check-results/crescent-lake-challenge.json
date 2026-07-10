@@ -1,0 +1,81 @@
+{
+  "slug": "crescent-lake-challenge",
+  "name": "Crescent Lake Challenge",
+  "facts": {
+    "distance_km": 23,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "Oregon",
+    "discipline": "skate",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://www.oregonnordic.org",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 23 km loop",
+      "source_url": "https://www.crescentlakechallenge.com"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Oregon, United States",
+      "source_url": "https://www.crescentlakechallenge.com"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Oregon",
+      "source_url": "https://www.crescentlakechallenge.com"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freestyle (FS), which is skate; one source mentions possible classic track but primary is FS",
+      "source_url": "https://xcoregon.org/pac-nw-event-listing"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention 'limited entries' but no specific number of typical participants",
+      "source_url": "https://secure.getmeregistered.com/get_information.php?event_id=136444"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.crescentlakechallenge.com",
+      "note": "Official site listed in multiple sources",
+      "source_url": "https://www.sporthill.com/crescent-lake-challenge/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "February (e.g., Feb 23, 2025)",
+      "note": "Typically late February, not general February but specific dates vary; 2025 is Feb 23",
+      "source_url": "https://xcoregon.org/pac-nw-event-listing"
+    }
+  },
+  "citations": [
+    "https://www.sporthill.com/crescent-lake-challenge/",
+    "https://www.crescentlakechallenge.com",
+    "https://skitrax.com/crescent-lake-challenge-jan-15-registration-open/",
+    "https://xcoregon.org/pac-nw-event-listing",
+    "https://www.youtube.com/watch?v=_VOgB-GTldY",
+    "https://secure.getmeregistered.com/get_information.php?event_id=136444"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:12:32Z"
+}

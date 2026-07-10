@@ -1,0 +1,82 @@
+{
+  "slug": "halsingeleden",
+  "name": "Halsingeleden",
+  "facts": {
+    "distance_km": 53,
+    "elevation_m": 832,
+    "country": "Sweden",
+    "region": "Gavleborg",
+    "discipline": "classic",
+    "field_size": 300,
+    "founded": 1970,
+    "website": "https://halsingeleden.se/",
+    "date": "February/March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the 53 km distance for Halsingeleden race; search results mention Hälsingeleden trail but no specific race distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming the 832 m total elevation gain for Halsingeleden race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Hälsingeleden is associated with Sweden[2][4], but no direct confirmation for the specific 'Halsingeleden' race.",
+      "source_url": "https://fastestknowntime.com/route/halsingeleden-harsa-bollnas-sweden"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Hälsingland region in Sweden mentioned[2][4], which aligns with Gavleborg (Gävleborg County), but no explicit confirmation for the race.",
+      "source_url": "https://fastestknowntime.com/route/halsingeleden-harsa-bollnas-sweden"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming classic technique for Halsingeleden race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical number of participants around 300 for Halsingeleden race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming 1970 as the founding year for Halsingeleden race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found verifying https://halsingeleden.se/ as the official website; site not referenced in results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical February/March date for Halsingeleden race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://unofficialnetworks.com/2025/03/04/sweden-hosts-the-worlds-largest-cross-country-ski-race-15800-athletes/",
+    "https://fastestknowntime.com/route/halsingeleden-harsa-bollnas-sweden",
+    "https://watchingtheswedes.com/2026/03/01/the-worlds-oldest-and-longest-cross-country-ski-race-swedens-vasalopp/",
+    "https://visitsweden.com/what-to-do/nature-outdoors/winter-activities/cross-country-skiing-sweden/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://en.wikipedia.org/wiki/Vasaloppet",
+    "https://www.youtube.com/watch?v=M4SBDZRDg-I"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:40:30Z"
+}

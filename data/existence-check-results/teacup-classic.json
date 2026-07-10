@@ -1,0 +1,33 @@
+{
+  "slug": "teacup-classic",
+  "name": "Teacup Classic",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://teacupnordic.org",
+    "results_url": "https://www.webscorer.com/teacuplakenordic",
+    "evidence_summary": "The Teacup Classic is an annual cross-country ski race organized by Teacup Lake Nordic Club in Mt. Hood, Oregon, with an official website detailing the 2025 and 2026 events including registration and course maps. Multiple years of race results (2007-2019) are available on Webscorer, confirming historical occurrence. Additional mentions appear in news/event listings from XC Oregon and Mountain Shop, plus social media integration on the official site.",
+    "sources": [
+      "https://teacupnordic.org",
+      "https://teacupnordic.org/pages/2025-teacup-classic",
+      "https://www.webscorer.com/teacuplakenordic",
+      "https://www.mountainshop.net/teacup-classic-race-at-teacup-nordic-center/",
+      "https://xcoregon.org/pac-nw-event-listing",
+      "https://www.webscorer.com/race?raceid=376995",
+      "https://teacupnordic.org/pages/2026teacup-classic"
+    ]
+  },
+  "citations": [
+    "https://teacupnordic.org",
+    "https://teacupnordic.org/pages/2025-teacup-classic",
+    "https://www.webscorer.com/teacuplakenordic",
+    "https://www.mountainshop.net/teacup-classic-race-at-teacup-nordic-center/",
+    "https://xcoregon.org/pac-nw-event-listing",
+    "https://www.mountaineers.org/activities/activities/cross-country-ski-teacup-nordic-ski-area-2",
+    "https://www.webscorer.com/race?raceid=376995",
+    "https://teacupnordic.org/pages/2026teacup-classic"
+  ],
+  "checked_at": "2026-03-12T16:07:57Z"
+}

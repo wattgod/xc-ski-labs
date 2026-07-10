@@ -1,0 +1,84 @@
+{
+  "slug": "trans-lapland",
+  "name": "Trans-Lapland",
+  "facts": {
+    "distance_km": 100,
+    "elevation_m": 1000,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": 1985,
+    "website": "https://www.translapland.fi",
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for a cross-country ski race called 'Trans-Lapland'. Search results returned information about the Bright Equipment Lapland Arctic Ultra (a winter ultramarathon race, not a cross-country ski race) and general Lapland tourism information. Cannot verify or contradict the claimed 100 km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race. Cannot verify the claimed 1000 meters elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race. The claim of Finland cannot be verified or contradicted from available sources.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race. The claim of Lapland region cannot be verified or contradicted.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race. Cannot verify the claimed 'classic' discipline.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race. Cannot verify the claimed 100 typical participants.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race. Cannot verify the claimed founding year of 1985.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race or the URL https://www.translapland.fi. Cannot verify or contradict the claimed website.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No search results found for 'Trans-Lapland' cross-country ski race. Cannot verify the claimed April race date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://lapland.arcticultra.de/race-info/",
+    "https://lapland.arcticultra.de/application/",
+    "https://lapland.arcticultra.de/links/",
+    "https://lapland.arcticultra.de/results-2024/",
+    "https://ski.yllas.fi/en/",
+    "https://www.transun.co.uk/tour",
+    "https://www.swedishlapland.com",
+    "https://www.transun.co.uk/northern-lights/",
+    "https://www.transun.co.uk/festive-lights/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:41Z"
+}

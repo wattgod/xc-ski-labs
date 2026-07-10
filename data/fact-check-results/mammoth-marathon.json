@@ -1,0 +1,81 @@
+{
+  "slug": "mammoth-marathon",
+  "name": "Mammoth Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 500,
+    "country": "United States",
+    "region": "California",
+    "discipline": "both",
+    "field_size": "~250 starters",
+    "founded": 1978,
+    "website": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc",
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm marathon distance of 42km (within ±3km tolerance), with races from 3–42km or 5–42km[1][4]",
+      "source_url": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States (Mammoth Lakes, CA)[1][2]",
+      "source_url": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as California (Mammoth Lakes, CA)[1][2]",
+      "source_url": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Open to both classic and skate skiing[1][4]",
+      "source_url": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of starters (~250 within ±20%)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "A staple since 1978; 47th annual aligns with first edition 1978 (2025=47th)[1][2]",
+      "source_url": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official event page[1]",
+      "source_url": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "April",
+      "note": "Typically early April (e.g., Apr 6 2025, Apr 7 2024); 2026 on March 29[1][2][6]",
+      "source_url": "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc"
+    }
+  },
+  "citations": [
+    "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc",
+    "https://thedriven.net/event-registration/site.event_reg/eid/96815012569",
+    "https://www.visitmammoth.com/trip-ideas/cross-country-skiing-mammoth-lakes-basin/",
+    "https://www.mammothres.com/mammoth-events/outdoor-activities/44th-annual-mammoth-marathon",
+    "https://www.mammothmountain.com/things-to-do/events?EventType=Races+%26+Competitions",
+    "https://www.webscorer.com/MammothNordic"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:52:01Z"
+}

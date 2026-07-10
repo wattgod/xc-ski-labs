@@ -1,0 +1,83 @@
+{
+  "slug": "cascade-crest",
+  "name": "Cascade Crest",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 700,
+    "country": "United States",
+    "region": "Oregon",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": 2010,
+    "website": "https://www.mbsef.org",
+    "date": "April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50k distance as one of the main races/distances offered[1][2][3][6][7]",
+      "source_url": "https://mbsef.org/cascadecrest/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found providing total elevation gain information",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States, specifically Oregon[1][4][5][8]",
+      "source_url": "https://www.webscorer.com/register?raceid=409412"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located at Mt. Bachelor, Bend, Oregon[1][4][5]",
+      "source_url": "https://www.webscorer.com/register?raceid=409412"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "freestyle skate (50k allows self-reported classic or skate)",
+      "note": "Primarily freestyle skate for most distances; 50k self-reported freestyle skate or classic[2][6][7]",
+      "source_url": "https://mbsef.org/cascadecrest/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 120,
+      "note": "Roughly 120 participants reported in 2016; tolerance ±20% (96-144) matches but source provides specific number[5]",
+      "source_url": "https://bendbulletin.com/2016/03/13/changes-get-positive-reviews-at-cascade-crest/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2016,
+      "note": "Inaugural Cascade Crest 50km announced January 2016[3]",
+      "source_url": "https://skitrax.com/mt-bachelor-nordic-center-announces-inaugural-cascade-crest-50km-nordic-ski-marathon-and-relay/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "MBSEF site hosts official event page and registration links[1][2][7]",
+      "source_url": "https://mbsef.org/cascadecrest/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "late March to April (e.g., April 4, April 26)",
+      "note": "Typical late season: March 10 2018[4], April listings for recent/future[1][6][7]",
+      "source_url": "https://www.webscorer.com/register?raceid=409412"
+    }
+  },
+  "citations": [
+    "https://www.webscorer.com/register?raceid=409412",
+    "https://mbsef.org/cascadecrest/",
+    "https://skitrax.com/mt-bachelor-nordic-center-announces-inaugural-cascade-crest-50km-nordic-ski-marathon-and-relay/",
+    "https://onlineraceresults.com/race/view_race.php?race_id=62574",
+    "https://bendbulletin.com/2016/03/13/changes-get-positive-reviews-at-cascade-crest/",
+    "https://xcoregon.org/pac-nw-event-listing",
+    "https://mbsef.org/nordic/races/",
+    "https://secure.getmeregistered.com/get_information.php?event_id=131070"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:36:47Z"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "steamboat-ski-touring-loppet",
+  "name": "Steamboat Ski Touring Center Loppet",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "The Steamboat Ski Touring Center exists as a real Nordic skiing facility with groomed trails, but no evidence of a specific 'Loppet' race was found in search results. No official website, race results, news articles, listings in Worldloppet or similar, social media events, videos, or registration pages mention the 'Steamboat Ski Touring Center Loppet'. Directory listings or indirect Nordic mentions in Steamboat do not confirm an organized loppet event.",
+    "sources": []
+  },
+  "citations": [
+    "https://nordicski.net/steamboat-ski-touring-center/",
+    "https://nordicski.net",
+    "https://www.steamboat.com",
+    "https://www.steamboat.com/things-to-do/events",
+    "https://www.steamboatsprings.net/1449/Nordic-Center",
+    "https://loppet.org",
+    "https://www.sswsc.org",
+    "https://www.steamboatsir.com/blog/2018/03/06/nordic-cross-country-skiing-steamboat-springs/"
+  ],
+  "checked_at": "2026-03-12T16:05:40Z"
+}

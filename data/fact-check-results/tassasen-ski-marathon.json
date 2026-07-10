@@ -1,0 +1,82 @@
+{
+  "slug": "tassasen-ski-marathon",
+  "name": "Tåssåsen Ski Marathon",
+  "facts": {
+    "distance_km": 100,
+    "elevation_m": 1200,
+    "country": "Sweden",
+    "region": "Härjedalen",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 1960,
+    "website": "https://www.tassasenmarathon.se",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the distance of Tåssåsen Ski Marathon",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the elevation gain of Tåssåsen Ski Marathon",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the country for Tåssåsen Ski Marathon",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify that Tåssåsen Ski Marathon is located in Härjedalen",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the discipline (classic, skate, or both) for Tåssåsen Ski Marathon",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify typical participant numbers for Tåssåsen Ski Marathon",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the founding year (1960) of Tåssåsen Ski Marathon",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the official website URL for Tåssåsen Ski Marathon",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found in search results to verify the typical race date or month for Tåssåsen Ski Marathon",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://ssfta.skidor.com/?district=534&sectorCode=CC&year=2026&month=1&day=11",
+    "https://www.tidningenharjedalen.se/location/b18bfeeb-7555-31b8-90fa-f7848e3f7a8a?pageSlug=ostersund",
+    "https://ssfta.skidor.com/?sectorCode=CC",
+    "https://ssfta.skidor.com/?district=534&sectorCode=CC&year=2025&month=1&day=1",
+    "https://www.diva-portal.org/smash/get/diva2:1511255/FULLTEXT02.pdf",
+    "https://umu.diva-portal.org/smash/get/diva2:1527833/FULLTEXT01.pdf",
+    "https://www.lumes.lu.se/sites/lumes.lu.se/files/bistra_nikolova.pdf"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:55:45Z"
+}

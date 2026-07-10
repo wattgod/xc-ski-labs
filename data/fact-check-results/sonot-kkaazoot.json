@@ -1,0 +1,84 @@
+{
+  "slug": "sonot-kkaazoot",
+  "name": "Sonot Kkaazoot",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Alaska",
+    "discipline": "skate",
+    "field_size": 200,
+    "founded": 1988,
+    "website": "https://www.sonotkkaazoot.org",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50 km race distance.",
+      "source_url": "https://en.wikipedia.org/wiki/Sonot_Kkaazoot"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Fairbanks, Alaska.",
+      "source_url": "https://en.wikipedia.org/wiki/Sonot_Kkaazoot"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Alaska, specifically Fairbanks.",
+      "source_url": "https://en.wikipedia.org/wiki/Sonot_Kkaazoot"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freestyle (skate) events; classic tracks set but no separate classic division.",
+      "source_url": "https://sonotkkaazoot.org"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 152,
+      "note": "2025 race had 152 finishers across all events.",
+      "source_url": "https://www.nscfairbanks.org/2026/01/15/sonot-kkaazoot-comes-to-birch-hill-on-march-21/"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Founded in 1988.",
+      "source_url": "https://en.wikipedia.org/wiki/Sonot_Kkaazoot"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site.",
+      "source_url": "https://sonotkkaazoot.org"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically held in March (e.g., March 22, 2025; March 21, 2026).",
+      "source_url": "https://sonotkkaazoot.org"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Sonot_Kkaazoot",
+    "https://sonotkkaazoot.org",
+    "https://www.explorefairbanks.com/event/sonot-kkaazoot-nordic-ski-race/11428/",
+    "https://www.nscfairbanks.org/programs/races/sonot-kkaazoot/",
+    "https://www.nscfairbanks.org/2026/01/15/sonot-kkaazoot-comes-to-birch-hill-on-march-21/",
+    "https://sonotkkaazoot.org/2025/12/",
+    "https://sonotkkaazoot.org/2025/09/",
+    "https://sonotkkaazoot.org/2025/08/",
+    "https://sonotkkaazoot.org/2025/03/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:53:39Z"
+}

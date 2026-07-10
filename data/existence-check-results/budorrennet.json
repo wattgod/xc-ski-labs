@@ -1,0 +1,29 @@
+{
+  "slug": "budorrennet",
+  "name": "Budorrennet",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://nlski.no",
+    "results_url": "https://live.eqtiming.com/73803",
+    "evidence_summary": "The official website of Nordbygda Løten Ski (nlski.no) details Budorrennet 2026 with registration links, course maps, fees, and weather updates for the January 3 event. Race results from 2025 are available via EQ Timing. Additional mentions include a personal rollerski profile and context as a seeding race.",
+    "sources": [
+      "https://nlski.no",
+      "https://live.eqtiming.com/73803",
+      "http://www.rollerski.co.uk/profileiain.html"
+    ]
+  },
+  "citations": [
+    "https://nlski.no",
+    "https://birken.no/en/ski/birkebeinerrennet-54-km",
+    "https://skiclassics.com/events/pro-tour/birkebeinerrennet/",
+    "https://birken.no/en/ski",
+    "https://birken.no",
+    "https://live.eqtiming.com/73803",
+    "https://www.worldloppet.com/category/news/birkebeiner-rennet/",
+    "http://www.rollerski.co.uk/profileiain.html"
+  ],
+  "checked_at": "2026-03-12T15:41:28Z"
+}

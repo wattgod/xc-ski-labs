@@ -1,0 +1,25 @@
+{
+  "slug": "bansko-nordic-challenge",
+  "name": "Bansko Nordic Challenge",
+  "country": "Bulgaria",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a specific organized cross-country ski race called 'Bansko Nordic Challenge' found across official websites, results, news, or listings. Bansko Ski Resort mentions general cross-country ski trails in the Pirin forest, but no dedicated event, results, or promotions for this race exist in search results. No mentions in Worldloppet, FIS, social media, or registration pages.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.snowandrock.com/bansko-ski-resort.html",
+    "https://www.banskoworldcup.com",
+    "https://www.bulgariaski.com/bansko/",
+    "https://www.banskoski.com/en",
+    "https://www.banskoski.com/en/events?page=2",
+    "https://www.banskoski.com/en/news",
+    "https://www.freerideworldtour.com/qualifier/events/",
+    "https://www.gate1travel.com/small-groups/small-group-europe/2026/central-europe-tours-13dbgd26.aspx?CartID=2D4A2E20&Brand=DISCOVER"
+  ],
+  "checked_at": "2026-03-12T15:39:11Z"
+}

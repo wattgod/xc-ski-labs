@@ -1,0 +1,30 @@
+{
+  "slug": "marathon-de-bessans",
+  "name": "Marathon de Bessans",
+  "country": "France",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "http://www.marathondebessans.com",
+    "results_url": null,
+    "evidence_summary": "The Marathon International de Bessans is listed on the official Ski Classics Challengers site with details for 2026, has a dedicated official website with registration pages and past event recaps mentioning 1,890 participants, and is promoted on the Bessans tourism site as a 47th edition event attracting over 1,500 skiers. Local event calendars and course pages further confirm its annual occurrence since 1980. No race results pages were directly in the provided snippets, but multiple independent sources verify its existence and organization.",
+    "sources": [
+      "https://skiclassics.com/events/challengers/marathon-international-de-bessans/",
+      "http://www.marathondebessans.com",
+      "https://www.marathondebessans.com/inscriptions/",
+      "https://www.bessans.com/en/fete-et-manifestation/international-marathon-of-bessans-mib-bessans/",
+      "https://www.bessans.com/en/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/marathon-international-de-bessans/",
+    "http://www.marathondebessans.com",
+    "https://www.marathondebessans.com/inscriptions/",
+    "https://www.bessans.com/en/fete-et-manifestation/international-marathon-of-bessans-mib-bessans/",
+    "https://www.bessans.com/en/",
+    "https://www.bessans.com/en/agenda/agenda-des-evenements/",
+    "http://www.marathondebessans.com/parcours-style-classique/"
+  ],
+  "checked_at": "2026-03-12T15:54:40Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "madesimo-ski-marathon",
+  "name": "Madesimo Ski Marathon",
+  "country": "Italy",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Multiple sources confirm Madesimo as a real ski resort in Italy with extensive cross-country ski trails (12-25 km mentioned), but no evidence of a specific organized 'Madesimo Ski Marathon' event. No official website, race results, news articles, Worldloppet/Euroloppet listings, social media events, YouTube videos, or registration pages for this marathon were found in the search results.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.tripreporter.co.uk/madesimo-ski-resort-italys-best-kept-alpine-secret/",
+    "https://www.madesimo.eu/en/experiences/ski-madesimo/",
+    "https://www.italia.it/en/lombardy/sondrio/madesimo",
+    "https://www.valchiavenna.com/en/valchiavenna-in-winter/The-Ski-Area-of-Madesimo-and-Valchiavenna.html",
+    "https://www.italia.it/en/lombardy/sondrio/things-to-do/madesimo",
+    "https://www.madesimo.eu/en/",
+    "https://www.madesimo.eu/en/experiences/cross-country-skiing/",
+    "https://www.valtellina.it/en/events/madesimo-campodolcino/en-campionato-italiano-downhill-madesimo",
+    "https://www.skiareavalchiavenna.it/en/ticket-offices/",
+    "https://www.madesimo.eu/en/adventure-summer/"
+  ],
+  "checked_at": "2026-03-12T15:54:24Z"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "tbilisi-bakuriani-challenge",
+  "name": "Tbilisi-Bakuriani Challenge",
+  "facts": {
+    "distance_km": 35,
+    "elevation_m": 600,
+    "country": "Georgia",
+    "region": "Samtskhe-Javakheti",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2023,
+    "website": "https://www.skigeorgia.ge",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Tbilisi-Bakuriani Challenge' or a 35km cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Tbilisi-Bakuriani Challenge' or provide elevation gain for such a race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Georgia (country) is mentioned in ski events in Bakuriani, no sources confirm this specific race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Bakuriani is in Samtskhe-Javakheti, but no sources link it to this race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cross-country skiing mentioned in EYOF Bakuriani 2025, but not this specific race or 'both' classic/skate.",
+      "source_url": "https://sporteurope.org/bakuriani-2025-past-event/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for this race; other events mention 60 athletes but unrelated.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a 2023 first edition for this race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.skigeorgia.ge not mentioned in results; gsf.ge is Georgian Ski Federation site but no link to this race.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Early March aligns with some events like cancelled 2026 Ski Cross (March 4-7), but no confirmation for this race.",
+      "source_url": "https://www.fis-ski.com/ski-cross/news/2024-25/fis-ski-cross-world-cup-event-in-bakuriani-geo-cancelled-for-2025-26-season"
+    }
+  },
+  "citations": [
+    "https://gsf.ge/en/fis-ski-cross-world-cup-bakuriani/",
+    "https://gsf.ge/en/fis-ski-cross-world-cup-in-bakuriani/",
+    "https://www.fis-ski.com/ski-cross/news/2024-25/fis-ski-cross-world-cup-event-in-bakuriani-geo-cancelled-for-2025-26-season",
+    "https://londonsnowshow.com/2022/09/21/bakuriani-georgia-host-of-2023-freestyle-ski-and-snowboard-world-championship",
+    "https://brams.ge/news/bakuriani-2023",
+    "https://sporteurope.org/bakuriani-2025-past-event/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:55:52Z"
+}

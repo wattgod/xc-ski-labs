@@ -1,0 +1,81 @@
+{
+  "slug": "leavenworth-nordic-cup",
+  "name": "Leavenworth Nordic Cup",
+  "facts": {
+    "distance_km": 15,
+    "elevation_m": 150,
+    "country": "United States",
+    "region": "Washington",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.skileavenworth.com",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for 'Leavenworth Nordic Cup' specifically; related Leavenworth Skirennen is a time trial with no distance listed, other WA Nordic Cup events are 1-5km.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found for this race or related Leavenworth events in sources.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a race named 'Leavenworth Nordic Cup'; WA Nordic Cup events are in US but not this specific name.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Leavenworth-area events (e.g., Skirennen, WNC #3) in Washington, but no 'Leavenworth Nordic Cup' confirmed.",
+      "source_url": "https://palousedividenordic.org/mc-events/leavenworth-skirennen-2025/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Related events specify classic only (e.g., PVNT WA Nordic Cup); WNC series has classic/freestyle but no info on this race.",
+      "source_url": "https://www.webscorer.com/register?raceid=413916"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for any Leavenworth Nordic Cup or similar event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year found; WNC series ongoing but no specific info.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://skileavenworth.com hosts Leavenworth Skirennen (WA Nordic Cup event), but no 'Leavenworth Nordic Cup' page found.",
+      "source_url": "https://skileavenworth.com/events/skirennen-2025"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "WNC #3 Leavenworth scheduled Feb 1, 2026 (cancelled); other WA Nordic Cup late Jan/Feb, fits late January but unconfirmed for this name.",
+      "source_url": "https://www.wncup.org/schedule-and-registration"
+    }
+  },
+  "citations": [
+    "https://palousedividenordic.org/mc-events/leavenworth-skirennen-2025/",
+    "https://www.webscorer.com/register?raceid=413916",
+    "https://leavenworth.org/event/2026-tour-de-plain-race-series-event-4-in-conjunction-with-washington-nordic-cup/",
+    "https://www.leavenworthecho.com/stories/tour-de-plain-event-4-in-conjuction-with-the-washington-nordic-cup-race-series,162518",
+    "https://pnwdivision.org/event/2025-26-washington-nordic-cup-race-schedule/",
+    "https://www.wncup.org/schedule-and-registration"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:16:19Z"
+}

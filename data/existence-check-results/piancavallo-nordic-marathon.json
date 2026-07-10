@@ -1,0 +1,23 @@
+{
+  "slug": "piancavallo-nordic-marathon",
+  "name": "Piancavallo Nordic Marathon",
+  "country": "Italy",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Piancavallo Nordic Marathon' cross-country ski race exists in the search results. Piancavallo is confirmed as a real location in Italy that hosts mountain running events (Piancavallo.run), but there is no mention of any cross-country skiing marathon at this location. The search results show Piancavallo is associated with trail running and mountain running competitions, not Nordic skiing events.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.piancavallo.run",
+    "https://www.fis-ski.com/DB/general/calendar-results.html",
+    "https://www.ondaneve.it/en/event-management/",
+    "https://en.wikipedia.org/wiki/Ida_Nilsson_(runner)",
+    "https://fasterskier.com/2017/04/liz-hill-stephen-plans-foray-ski-mountaineering/",
+    "https://www.icron.it"
+  ],
+  "checked_at": "2026-03-12T15:59:54Z"
+}

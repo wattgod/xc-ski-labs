@@ -1,0 +1,34 @@
+{
+  "slug": "gommerlauf",
+  "name": "Gommerlauf",
+  "country": "Switzerland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.goms.ch/en/gommerlauf",
+    "results_url": "https://www.goms.ch/gommerlauf",
+    "evidence_summary": "Multiple pages from the official Goms.ch website detail the race program, past winners (e.g., 42km: Werro Giuliana, Candide Pralong), participant stats (1728 from 17 nations), and registration for the 54th event in February 2026. Regional tourism sites (Valais.ch, Matterhorngotthardbahn.ch) and sports organizations (Swiss University Sports, Special Olympics) promote and reference the longstanding cross-country ski marathon in Goms, Switzerland. No race results timing links in snippets, but recap data confirms historical events.",
+    "sources": [
+      "https://www.goms.ch/en/gommerlauf/race-programme",
+      "https://www.valais.ch/en/events/54-int-gommerlauf",
+      "https://www.matterhorngotthardbahn.ch/en/stories/mobile-stand-gommerlauf",
+      "https://www.goms.ch/en/gommerlauf/marathon",
+      "https://www.goms.ch/gommerlauf",
+      "https://specialolympics.ch/en/blog/2026/03/02/gommerlauf-2026/",
+      "https://swissuniversitysports.ch/events/54-int-gommerlauf/"
+    ]
+  },
+  "citations": [
+    "https://www.goms.ch/en/gommerlauf/race-programme",
+    "https://www.valais.ch/en/events/54-int-gommerlauf",
+    "https://www.matterhorngotthardbahn.ch/en/stories/mobile-stand-gommerlauf",
+    "https://www.goms.ch/en/gommerlauf/marathon",
+    "https://www.goms.ch/gommerlauf",
+    "https://specialolympics.ch/en/blog/2026/03/02/gommerlauf-2026/",
+    "https://www.goms.ch/en/gommerlauf",
+    "https://www.goms.ch/en/gommerlauf/rennguide",
+    "https://swissuniversitysports.ch/events/54-int-gommerlauf/"
+  ],
+  "checked_at": "2026-03-12T15:46:48Z"
+}

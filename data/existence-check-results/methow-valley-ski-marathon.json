@@ -1,0 +1,29 @@
+{
+  "slug": "methow-valley-ski-marathon",
+  "name": "Methow Valley Ski Marathon",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.methowvalleynordic.org/events",
+    "results_url": "https://results.raceroster.com/v2/en-US/results/snkud9xxzx727j5k/detail/zw99rdqtfh6jch3n",
+    "evidence_summary": "The 'Ski to the Sun Marathon and Relay' is a real, organized cross-country ski event in the Methow Valley, Washington. The official Methow Valley Nordic website provides comprehensive event details including course information, elevation data, and registration categories. Race results from multiple years are available through RaceRoster, confirming the event's existence and regular operation.",
+    "sources": [
+      "https://www.methowvalleynordic.org/events",
+      "https://results.raceroster.com/v2/en-US/results/snkud9xxzx727j5k/detail/zw99rdqtfh6jch3n",
+      "https://results.raceroster.com/v2/en-US/results/snkud9xxzx727j5k/detail/ppau99ytnjrkffk6",
+      "https://www.methowvalleynordic.org/news/race-of-the-methow-results",
+      "https://www.webscorer.com/mvnsef"
+    ]
+  },
+  "citations": [
+    "https://www.methowvalleynordic.org/events",
+    "http://www.summittiming.net",
+    "https://results.raceroster.com/v2/en-US/results/snkud9xxzx727j5k/detail/zw99rdqtfh6jch3n",
+    "https://www.methowvalleynordic.org/news/race-of-the-methow-results",
+    "https://www.webscorer.com/mvnsef",
+    "https://results.raceroster.com/v2/en-US/results/snkud9xxzx727j5k/detail/ppau99ytnjrkffk6"
+  ],
+  "checked_at": "2026-03-12T15:55:59Z"
+}

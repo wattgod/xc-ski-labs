@@ -1,0 +1,79 @@
+{
+  "slug": "friday-night-lights-series",
+  "name": "Friday Night Lights Series",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 100,
+    "country": "United States",
+    "region": "California",
+    "discipline": "both",
+    "field_size": 200,
+    "founded": 2026,
+    "website": "https://www.mammothnordic.com",
+    "date": "January to March (Friday evenings)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Friday Night Lights Series' cross-country ski race specifying 10km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Friday Night Lights Series' cross-country ski race specifying 100m elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming 'Friday Night Lights Series' cross-country ski race in United States.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming 'Friday Night Lights Series' cross-country ski race in California.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Friday Night Lights Series' cross-country ski race specifying classic, skate, or both.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Friday Night Lights Series' cross-country ski race specifying typical number of participants around 200.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Friday Night Lights Series' cross-country ski race confirming first edition in 2026.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.mammothnordic.com not confirmed as official site for 'Friday Night Lights Series'; site not in search results and no matching race details found.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming 'Friday Night Lights Series' cross-country ski race dates as January to March on Friday evenings.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://hoodoo.com/friday-night-races/",
+    "https://skirose.com/friday-nite-gates/",
+    "https://www.skiheavenly.com/explore-the-resort/experience-heavenly/event-detail-page.aspx?id=%7Bf678425d-e66f-4656-884a-a49449de8c70%7D",
+    "https://www.sugarbowl.com/crosscountry"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:13:28Z"
+}

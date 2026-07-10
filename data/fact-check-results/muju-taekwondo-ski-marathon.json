@@ -1,0 +1,83 @@
+{
+  "slug": "muju-taekwondo-ski-marathon",
+  "name": "Muju Taekwondo Ski Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "South Korea",
+    "region": "North Jeolla",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 2012,
+    "website": null,
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a cross-country ski race named 'Muju Taekwondo Ski Marathon' or any specific distances for such an event.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources reference this race or its elevation gain; results discuss Muju ski resort (downhill) and Taekwondowon but no cross-country details.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Muju and Taekwondowon are in South Korea per sources, but no confirmation of the specific ski race existing.",
+      "source_url": "https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=265011"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources place Muju in Jeollabuk-do (North Jeolla) Province, South Korea, but no race details.",
+      "source_url": "https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=265011"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe a cross-country ski race; mentions are of downhill skiing at Muju Deogyusan Resort.",
+      "source_url": "https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=265011"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on participants for any such race found in sources.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year or first edition details for this race; Taekwondowon referenced from 2009 but unrelated to skiing.",
+      "source_url": "https://www.koreakonsult.com/program_skorea_taekwondo_eng.html"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Muju Taekwondo Ski Marathon'; sources link to tours and resort info only.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No race dates mentioned; winter tours/skiing in Muju noted in January but no specific event.",
+      "source_url": "https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=265011"
+    }
+  },
+  "citations": [
+    "https://www.klook.com/en-US/activity/139182-taekwondowon-muju-ski-1n2d-tour-from-seoul/",
+    "https://www.koreakonsult.com/program_skorea_taekwondo_eng.html",
+    "https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=265011",
+    "https://www.tripadvisor.com/AttractionProductReview-g678593-d23843994-Snow_Club_Muju_Deokyusan_Resort-Pyeongtaek_Gyeonggi_do.html",
+    "https://www.aaa.com/tripcanvas/thing-to-do/snow-club-muju-deokyusan-resort-6411P215",
+    "https://www.korea.net/NewsFocus/FoodTravel/view?articleId=264856",
+    "https://www.kkday.com/en-us/product/287034",
+    "https://www.klook.com/en-CA/activity/139182-taekwondowon-muju-ski-1n2d-tour-from-seoul/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:47:03Z"
+}

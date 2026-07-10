@@ -1,0 +1,102 @@
+{
+  "slug": "femund-ski-marathon",
+  "name": "Femund Ski Marathon",
+  "tier": 3,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded"
+  ],
+  "result": {
+    "fields": {
+      "main_race_distance_km": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No cross-country ski marathon called 'Femund Ski Marathon' found. Femundløpet is a sled dog race (400-600 km depending on class), not a ski marathon."
+      },
+      "total_elevation_gain_m": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Not applicable to identified Femund events"
+      },
+      "technique": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Femundløpet is a sled dog race; Salomon Xreid Femunden is trail running/ski mountaineering (109 km, 2380m elevation gain)"
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Femundløpet sled dog race has ~200 teams annually; no ski marathon with 250 participants verified"
+      },
+      "year_first_held": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Femundløpet sled dog race history not dated in sources; no 1970 founding date found for any Femund ski event"
+      }
+    },
+    "race_exists": false,
+    "note": "Search results contain information about Femundløpet (sled dog race, winter, started in UNESCO site Røros) and Salomon Xreid Femunden (trail running/ski mountaineering event, 109 km). No 'Femund Ski Marathon' with the specified characteristics (60 km, 600m elevation, classic technique, 250 participants, founded 1970) was found in any official source including Worldloppet.com, FIS databases, or Wikipedia.",
+    "best_source": "https://www.worldloppet.com - Lists major ski marathons but Femund/Femundløpet listed only as sled dog race"
+  },
+  "citations": [
+    "https://www.visitnorway.com/listings/the-femund-race/209302/",
+    "https://www.trysil.com/en/businesses/ungdomslaget-flendolen/femund-race-2025-checkpoint-flendalen/",
+    "https://fasterskier.com/2022/02/equal_distance_racing/",
+    "https://www.womensmarathonhistoryproject.com/timeline",
+    "https://www.usaskimo.org/ski-mountaineering-racing-formats/",
+    "https://www.youtube.com/watch?v=sZbdgcczsdA",
+    "https://www.worldloppet.com",
+    "https://www.youtube.com/watch?v=T3tpf9Urdg4",
+    "https://www.youtube.com/watch?v=dCZThu3mVqI",
+    "https://www.nbcsports.com/olympics/news/cross-country-skiing-world-cup-distances-men-women-fis",
+    "https://onceuponatimeinthevest.blogspot.com/2017/01/v-7-n-4-when-canadian-woman-was-worlds.html",
+    "https://www.visitnorway.com/places-to-go/eastern-norway/hallingdal/plan-your-trip/?skip=60&sort=rankTitle&regionudf=3353",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=225653&raceid=50998",
+    "https://sportstats.one/events",
+    "https://skiclassics.com/events/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3426727/",
+    "https://en.wikipedia.org/wiki/Jungfrau_Marathon",
+    "https://femundengerdal.no/en/events/femundlopet-2025/",
+    "https://www.norgepalangs.com/npl-blog-2025/what-happened-with-the-2025-npl-project",
+    "https://mylaps.com",
+    "https://www.picolo.com/en-gb/experiences/adventures/articles/Experience-femunds-sled-dog-race/",
+    "https://femundengerdal.no/en/",
+    "https://www.youtube.com/watch?v=H5isxL8JkNU",
+    "https://www.flotrack.org/articles/14552976-heres-whos-running-at-the-bmw-berlin-marathon-2025-elite-entries",
+    "https://en.wikipedia.org/wiki/Cross-country_skiing_(sport)",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7739746/",
+    "https://vasaloppet.se/en/ski/vasaloppet/",
+    "https://www.strava.com/routes/backcountry-skiing/switzerland/graubunden",
+    "https://www.backcountry.com/norrona-femund-thermo60-zip-hooded-jacket-mens",
+    "https://www.finishers.com/en/event/salomon-xreid-femunden",
+    "https://www.youtube.com/watch?v=SuKn-acPvVk",
+    "https://en.wikipedia.org/wiki/Mike_Fremont",
+    "https://erinmaryquinn.com/2024/03/22/the-cocodona-250-showdown/",
+    "https://sandrinemuffat.jimdoweb.com/nos-courses/2012/",
+    "https://statistik.d-u-v.org/getresultperson.php?runner=690628",
+    "https://vasaloppet.se/en/guides-and-tips/ski/ski-classics/",
+    "https://itra.run/api/RunnerSpace/GetRunnerSpace?memberString=tXcwrPWBdcy7xu4uHxSulQ%3D%3D",
+    "https://www.worldloppet.com/global-ski-marathon-calendar/",
+    "https://itra.run/RunnerSpace/BORRESEN.Terje/4172427",
+    "https://itra.run/RunnerSpace/VINGERHAGEN.Ruth/3271743",
+    "https://my.raceresult.com/144879/results?lang=bg",
+    "https://www.femundlopet.no",
+    "https://femundengerdal.no/en/sted/femundlopet/",
+    "https://en.wikipedia.org/wiki/Engadin_Skimarathon",
+    "https://en.roros.no/whats-on/events/the-femund-dog-race",
+    "https://images.femundlopet.no/original/femundlopet.no/siste-nytt/simpleblog-eae8c225-ca9c-4238-b42e-2f628b8157ae.pdf",
+    "https://www.swedishtouristassociation.com/trails/the-femundsmarka-trail/",
+    "https://www.femund.no/en/",
+    "https://scanmagazine.co.uk/femund-engerdal/",
+    "https://en.wikipedia.org/wiki/Cross-country_skiing"
+  ],
+  "checked_at": "2026-03-12T16:11:06Z"
+}

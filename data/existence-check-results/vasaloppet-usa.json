@@ -1,0 +1,31 @@
+{
+  "slug": "vasaloppet-usa",
+  "name": "Vasaloppet USA",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://vasaloppet.us",
+    "results_url": "https://vasaloppet.us/race-weekend/results/",
+    "evidence_summary": "Vasaloppet USA has a fully functional official website with detailed race information, upcoming 2026 dates (February 7-8), and historical results from multiple years including 2025, 2023, etc., noting cancellations in 2024 and 2012 due to weather. The site includes Nordic Center trail reports, news blogs, course maps, and volunteer/donation pages, confirming it's an established annual event in Mora, MN since 1973. Multiple subpages provide concrete organizational evidence like awards, age classes, and event schedules.",
+    "sources": [
+      "https://vasaloppet.us/race-weekend/results/",
+      "https://vasaloppet.us",
+      "https://vasaloppet.us/nordic-center/",
+      "https://vasaloppet.us/2025/01/whats-new-for-vasaloppet-2025/"
+    ]
+  },
+  "citations": [
+    "https://vasaloppet.us/race-weekend/results/",
+    "https://vasaloppet.us",
+    "https://vasaloppet.us/nordic-center/",
+    "https://vasaloppet.us/2025/01/whats-new-for-vasaloppet-2025/",
+    "https://vasaloppet.us/news/",
+    "https://vasaloppet.us/race-weekend/",
+    "https://vasaloppet.us/race-weekend/course-maps/",
+    "https://vasaloppet.us/race-weekend/ski-for-life-club/",
+    "https://vasaloppet.us/race-weekend/about/"
+  ],
+  "checked_at": "2026-03-12T16:11:01Z"
+}

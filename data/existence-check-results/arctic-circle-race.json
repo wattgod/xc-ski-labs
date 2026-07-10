@@ -1,0 +1,34 @@
+{
+  "slug": "arctic-circle-race",
+  "name": "Arctic Circle Race",
+  "country": "Greenland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://acr.gl",
+    "results_url": null,
+    "evidence_summary": "The Arctic Circle Race has a fully functional official website (acr.gl) with detailed pages on registration, pricing for 2025/2026, check-in, routes, and program, confirming it as an organized event in Sisimiut, Greenland. Multiple independent sources including Air Greenland, Visit Greenland, and Destination Arctic Circle describe it as the world's toughest cross-country ski race, a 3-day 160km/100km event attracting international participants. No race results were directly found in the provided search results, but the site's active promotion for upcoming dates (March 27-29, 2026) provides strong organizational evidence.",
+    "sources": [
+      "https://acr.gl",
+      "https://acr.gl/about-us/",
+      "https://acr.gl/check-in/",
+      "https://acr.gl/pricing/",
+      "https://www.airgreenland.com/discover-greenland/events/",
+      "https://visitgreenland.com/activities/arctic-circle-race/",
+      "https://destinationarcticcircle.com/arctic-circle-race/"
+    ]
+  },
+  "citations": [
+    "https://acr.gl/about-us/",
+    "https://acr.gl/check-in/",
+    "https://acr.gl/pricing/",
+    "https://www.airgreenland.com/discover-greenland/events/",
+    "https://acr.gl",
+    "https://destinationarcticcircle.com/arctic-circle-race/",
+    "https://acr.gl/program/",
+    "https://visitgreenland.com/activities/arctic-circle-race/",
+    "https://acr.gl/acr-route/"
+  ],
+  "checked_at": "2026-03-12T15:38:14Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "jatkankynttila",
+  "name": "Jatkankynttila Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 250,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.rovaniemi.fi",
+    "date": "Third Saturday of March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42.2,
+      "note": "Sources confirm 42.2km marathon distance, outside ±3km tolerance of 50km",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Finland",
+      "source_url": "https://jatkankynttilaskimarathon.fi"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Rovaniemi is capital of Lapland",
+      "source_url": "https://jatkankynttilaskimarathon.fi"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "2025 race held on classic technique only; one source mentions skate but official sites specify classic",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded/first edition",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://jatkankynttilaskimarathon.fi",
+      "note": "Official site is jatkankynttilaskimarathon.fi, not rovaniemi.fi",
+      "source_url": "https://jatkankynttilaskimarathon.fi"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "15.3.2025 is third Saturday of March; past events like 16.3 also align",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info"
+    }
+  },
+  "citations": [
+    "https://jatkankynttilaskimarathon.fi/pages/event-info",
+    "https://jatkankynttilaskimarathon.fi",
+    "https://yllaslevi.fi/en/news-en/great-marathon-ski-events-for-your-training-program/",
+    "https://tapahtumat.rovaniemi.fi/en-FI/page/670cb61dad8fbf43aa161532",
+    "https://pace.sport/events/jatkankynttila-ski-marathon",
+    "https://www.proxcskiing.com/cs/ud%C3%A1lost/Ly%C5%BEa%C5%99sk%C3%BD-maraton-Jatkankynttila/",
+    "https://rex.fi/tietopankki/jatkankynttila-ski-marathon"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:41:44Z"
+}

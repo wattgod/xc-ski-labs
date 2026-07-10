@@ -1,0 +1,30 @@
+{
+  "slug": "tornedalen-ski-marathon",
+  "name": "Tornedalen Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.tdloppet.se/english/",
+    "results_url": null,
+    "evidence_summary": "Tornedalsloppet is a real annual cross-country ski marathon in Övertorneå, Sweden, since 1968, with an official website at tdloppet.se describing the event and its unique Arctic Circle route. Wikipedia confirms its history, FIS Nordic Ski Marathon Cup participation, and references news articles like a 2013 Sveriges Radio report. Additional mentions on Destination Övertorneå and Ahotu provide event details for 2025.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tornedalsloppet",
+      "https://www.tdloppet.se/english/",
+      "https://www.destinationovertornea.com/events",
+      "https://www.ahotu.com/event/tornedalsloppet"
+    ]
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Tornedalsloppet",
+    "https://www.destinationovertornea.com/events",
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://www.tdloppet.se/english/",
+    "https://www.ahotu.com/event/tornedalsloppet",
+    "https://vasaloppet.se/en/ski/",
+    "https://vasaloppet.se/en/calendar/",
+    "https://vasaloppet.se/en/"
+  ],
+  "checked_at": "2026-03-12T16:08:42Z"
+}

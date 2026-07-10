@@ -1,0 +1,34 @@
+{
+  "slug": "alley-loop",
+  "name": "Alley Loop",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.cbnordic.org/alley-loop",
+    "results_url": null,
+    "evidence_summary": "The Alley Loop is a well-documented, real Nordic ski race in Crested Butte, Colorado with origins dating to 1986. Multiple independent sources confirm its existence including an official website (cbnordic.org), news articles, event listings, and detailed race information. The 2026 edition is scheduled for January 31, 2026, and the race is recognized as an American Birkebeiler Qualifier event.",
+    "sources": [
+      "https://www.cbnordic.org/alley-loop",
+      "https://strambecco.com/event/the-alley-loop/",
+      "https://www.lake.com/events/alley-loop-nordic-marathon/",
+      "https://skitrax.com/crested-buttes-alley-loop-joins-the-american-ski-marathon-series/",
+      "https://travelcrestedbutte.com/events-calendar/32nd-annual-alley-loop-nordic-marathon/",
+      "https://chriskopf.com/crested-butte-alley-loop-nordic-race-weekend/",
+      "https://raceroster.com/events/2022/50679/alley-loop-nordic-marathon"
+    ]
+  },
+  "citations": [
+    "https://skitrax.com/crested-buttes-alley-loop-joins-the-american-ski-marathon-series/",
+    "https://strambecco.com/event/the-alley-loop/",
+    "https://www.cbnordic.org/alley-loop",
+    "https://www.lake.com/events/alley-loop-nordic-marathon/",
+    "https://www.cbnordic.org",
+    "https://chriskopf.com/crested-butte-alley-loop-nordic-race-weekend/",
+    "https://raceroster.com/events/2022/50679/alley-loop-nordic-marathon",
+    "https://travelcrestedbutte.com/events-calendar/32nd-annual-alley-loop-nordic-marathon/",
+    "https://www.cbprop.com/crested-butte-alley-loop-nordic-ski-race-everything-you-need-to-know/"
+  ],
+  "checked_at": "2026-03-12T15:37:52Z"
+}

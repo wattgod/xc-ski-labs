@@ -1,0 +1,84 @@
+{
+  "slug": "dachstein-nordic-classic",
+  "name": "Dachstein Nordic Classic",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 600,
+    "country": "Austria",
+    "region": "Styria",
+    "discipline": "classic",
+    "field_size": "~600-1,000 participants",
+    "founded": 1988,
+    "website": "https://www.ramsau.com",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 40,
+      "note": "Multiple sources confirm the main race distance as 40 km, not 42 km (outside ±3 km tolerance)",
+      "source_url": "https://www.schladming-dachstein.at/en/activities/tours/Dachsteinlauf-40-km-Classic-26-Skating_tour_5679"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 380,
+      "note": "Source states 380 meters of elevation for the 40 km Dachsteinlauf (outside ±100m tolerance)",
+      "source_url": "https://www.outdooractive.com/mobile/en/route/cross-country-skiing/schladming-dachstein/dachsteinlauf-40-km-classic-skating/805010428/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Austria (Ramsau am Dachstein)",
+      "source_url": "https://www.schladming-dachstein.at/en/activities/tours/Dachsteinlauf-40-km-Classic-26-Skating_tour_5679"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Ramsau am Dachstein is in Styria",
+      "source_url": "https://www.langlauf-urlaub.com/en/cross-country-skiing/region-detail/schladming-dachstein"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Offers both classic and skating technique races (10km and 40km each)",
+      "source_url": "https://www.schladming-dachstein.at/en/activities/tours/Dachsteinlauf-40-km-Classic-26-Skating_tour_5679"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants (~600-1,000)",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "27th edition in 2027 implies around 2000 start, but no exact first edition year like 1988 confirmed",
+      "source_url": "https://www.dachsteinlauf.at/en"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.dachsteinlauf.at/en",
+      "note": "Official site is dachsteinlauf.at, not ramsau.com (which is general tourism)",
+      "source_url": "https://www.dachsteinlauf.at/en"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-January (e.g., 15-17 Jan 2027, historical 2nd weekend January)",
+      "source_url": "https://www.schladming-dachstein.at/en/activities/tours/Dachsteinlauf-40-km-Classic-26-Skating_tour_5679"
+    }
+  },
+  "citations": [
+    "https://www.schladming-dachstein.at/en/activities/tours/Dachsteinlauf-40-km-Classic-26-Skating_tour_5679",
+    "https://www.langlauf-urlaub.com/en/cross-country-skiing/region-detail/schladming-dachstein",
+    "https://www.goxski.com/ramsau",
+    "https://www.derdachstein.at/en/dachstein-glacier-world/ski-and-snow-active/cross-country-skiing",
+    "https://www.dachsteinlauf.at/en",
+    "https://www.hallstatt.net/about-hallstatt/winterzeit-en-US/schneetreiben-en-US/langlauf-en-US/cross-country-skiing-tracks/",
+    "https://www.outdooractive.com/mobile/en/route/cross-country-skiing/schladming-dachstein/dachsteinlauf-40-km-classic-skating/805010428/",
+    "https://www.snowindustrynews.com/articles/new-name-new-route-dachsteinlauf-revives-the-tradition-of-cross-country-skiing",
+    "https://www.youtube.com/watch?v=fF3TTS3Q5Q4"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:46:44Z"
+}

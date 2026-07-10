@@ -1,0 +1,80 @@
+{
+  "slug": "alutaguse-maraton",
+  "name": "Alutaguse Maraton",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 200,
+    "country": "Estonia",
+    "region": "Ida-Virumaa",
+    "discipline": "both",
+    "field_size": 500,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 43,
+      "note": "Sources consistently state 43km (45km for 2026), outside ±3km tolerance of 42km[1][2][3][4]",
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Estonia[1][2][3][4]",
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/"
+    },
+    "region": {
+      "status": "WRONG",
+      "correct_value": "Alutaguse (Ida-Viru County)",
+      "note": "Located in Alutaguse National Park, Vasavere, North-East Estonia (Ida-Viru County includes Alutaguse)[1][2][3][4]",
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "Main race is classic technique only; additional classic races noted, no skate mentioned[1][2][3][4]",
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 800,
+      "note": "Approximately 800 participants yearly, outside ±20% tolerance of 500 (400-600)[1][2][3]",
+      "source_url": "https://skiclassics.com/events/challengers/alutaguse-marathon/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Over 20 years experience mentioned, but no exact year of first edition found[1][2][3]",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Mentions 'Website: Alutaguse Maraton' and www.estoloppet.ee but no direct URL confirmed as official[2][3][4]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early February (e.g., Feb 9 2025, Feb 8 2026, Feb 10-11 2023)[2][3][4]",
+      "source_url": "https://www.proxcskiing.com/long-distance/alutaguse-maraton-2025-this-weekend-in-estonia/"
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/events/challengers/alutaguse-marathon/",
+    "https://www.proxcskiing.com/long-distance/alutaguse-maraton-2025-this-weekend-in-estonia/",
+    "https://www.proxcskiing.com/long-distance/alutaguse-maraton-2026-this-weekend-in-estonia/",
+    "https://www.worldloppet.com/alutaguse-maraton/",
+    "https://www.proxcskiing.com/long-distance/kilp-and-mannima-winners-at-alutaguse-maraton-2026/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:33:37Z"
+}

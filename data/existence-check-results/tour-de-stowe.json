@@ -1,0 +1,33 @@
+{
+  "slug": "tour-de-stowe",
+  "name": "Tour de Stowe",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://nensa.net/event/stowe-nordic-tour-de-stowe/",
+    "results_url": null,
+    "evidence_summary": "Multiple sources confirm the Tour de Stowe as a real non-competitive classic ski tour organized by Stowe Nordic, held at Trapp Family Lodge in Stowe, VT, with past events in 2024 and 2026 editions planned. Evidence includes official event pages on NENSA and Stowe Nordic sites, registration on SkiReg.com, a news article on the third annual event with participant details, and mentions in Cross Country Skier magazine. No race results pages found, but event descriptions, schedules, and volunteer contacts provide strong organizational proof.",
+    "sources": [
+      "https://nensa.net/event/stowe-nordic-tour-de-stowe/",
+      "https://www.crosscountryskier.com/cross-country-skier-tour-de-trail-is-on/",
+      "https://stowenordic.org/events/",
+      "https://nensa.net/2026/03/09/friends-fun-food-at-the-third-annual-tour-de-stowe/",
+      "https://www.skireg.com/6938",
+      "https://stowenordic.org/newsletters-archive/"
+    ]
+  },
+  "citations": [
+    "https://nensa.net/event/stowe-nordic-tour-de-stowe/",
+    "https://www.crosscountryskier.com/cross-country-skier-tour-de-trail-is-on/",
+    "https://www.stowe.com/the-mountain/about-the-mountain/cross-country-center.aspx",
+    "https://stowenordic.org/events/",
+    "https://nensa.net/2026/03/09/friends-fun-food-at-the-third-annual-tour-de-stowe/",
+    "https://www.skireg.com/6938",
+    "https://stowenordic.org/newsletters-archive/",
+    "https://www.stowe.com/explore-the-resort/activities-and-events/event-details.aspx?id=%7Bdad04bdc-a976-4650-9210-7cc4a06611be%7D",
+    "https://gostowe.com"
+  ],
+  "checked_at": "2026-03-12T16:08:54Z"
+}

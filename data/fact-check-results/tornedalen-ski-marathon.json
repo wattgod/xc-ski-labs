@@ -1,0 +1,83 @@
+{
+  "slug": "tornedalen-ski-marathon",
+  "name": "Tornedalen Ski Marathon",
+  "facts": {
+    "distance_km": 100,
+    "elevation_m": 300,
+    "country": "Sweden",
+    "region": "Norrbotten",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.tornedalen-ski-marathon.se",
+    "date": "March / April"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 45,
+      "note": "Tornedalsloppet is traditionally 45 km (and 23 km for younger adults), not 100 km",
+      "source_url": "https://en.wikipedia.org/wiki/Tornedalsloppet"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for elevation gain of Tornedalsloppet",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Övertorneå, Sweden",
+      "source_url": "https://en.wikipedia.org/wiki/Tornedalsloppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Övertorneå is in Norrbotten County",
+      "source_url": "https://en.wikipedia.org/wiki/Tornedalsloppet"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources specify classic, skate, or both for Tornedalsloppet",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1968,
+      "note": "First held in 1968",
+      "source_url": "https://en.wikipedia.org/wiki/Tornedalsloppet"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.tdloppet.se/english/",
+      "note": "Official site is tdloppet.se, not tornedalen-ski-marathon.se (no such site found in results)",
+      "source_url": "https://www.tdloppet.se/english/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held late March-early April",
+      "source_url": "https://en.wikipedia.org/wiki/Tornedalsloppet"
+    }
+  },
+  "citations": [
+    "https://www.tanndalen.com/en/explore/event/taenndalen-100-miles/",
+    "https://en.wikipedia.org/wiki/Tornedalsloppet",
+    "https://tanndalen100.com/about-the-race/",
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://www.tdloppet.se/english/",
+    "https://www.ahotu.com/event/tornedalsloppet",
+    "https://www.swedishlapland.com/destination-swedish-lapland/",
+    "https://www.proxcskiing.com/long-distance/the-worlds-longest-ski-race-is-back/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:56:23Z"
+}

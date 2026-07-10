@@ -1,0 +1,80 @@
+{
+  "slug": "haldo-hansson-minne",
+  "name": "Haldo Hansson Minne",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 450,
+    "country": "Sweden",
+    "region": "Jämtland",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": 1946,
+    "website": "https://www.asarnaif.se",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 42 km as the main distance",
+      "source_url": "https://haldos.se"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Jämtland, Sweden",
+      "source_url": "https://sv.wikipedia.org/wiki/Haldo_Hansson"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Jämtland confirmed in multiple sources",
+      "source_url": "https://sv.wikipedia.org/wiki/Haldo_Hansson"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Described as 'Klassiskt långlopp' (classic)",
+      "source_url": "https://haldos.se"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1959,
+      "note": "First edition in 1959 by Alsens and Trångsvikens IF; earlier 1943-1958 by Alsens IF only",
+      "source_url": "https://sv.wikipedia.org/wiki/Haldo_Hansson"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://haldos.se",
+      "note": "Official site is haldos.se",
+      "source_url": "https://haldos.se"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2025 edition on February 15 (late January/February)",
+      "source_url": "https://haldos.se"
+    }
+  },
+  "citations": [
+    "https://sv.wikipedia.org/wiki/Haldo_Hansson",
+    "https://haldos.se",
+    "https://www.jamtlandstidning.se/jt25v7-krokom/haldo-hanssons-minne-arrangeras-for-65-gangen/256592",
+    "https://ssfta.skidor.com/event/46150/anmalningar?competitionId=57779&raceCategory=L%C3%A5nglopp+fr%C3%A5n+40+km&classId=241839",
+    "https://ssfta.skidor.com/event/46150/anmalningar"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:40:22Z"
+}

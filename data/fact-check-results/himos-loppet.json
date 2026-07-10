@@ -1,0 +1,83 @@
+{
+  "slug": "himos-loppet",
+  "name": "Himos Loppet",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 400,
+    "country": "Finland",
+    "region": "Central Finland",
+    "discipline": "both",
+    "field_size": 350,
+    "founded": null,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources mention 'Himos Loppet'; all results describe Finlandia-Hiihto (62km main distance) in Lahti, not Himos. Himos referenced only as ski resort without ski race details.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for Himos Loppet; Finlandia-Hiihto has 450m elevation gain, outside tolerance but irrelevant.",
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/"
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation for Himos Loppet; Finlandia-Hiihto is in Finland.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for Himos Loppet in Central Finland; Himos is in Jämsä (Central Finland possible), but no race info. Finlandia-Hiihto in Päijät-Häme.",
+      "source_url": "https://ski.fi/en/ski-resorts-in-finland/himos/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm Himos Loppet offers both classic and skate.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers for Himos Loppet; Finlandia-Hiihto has thousands (e.g., 13,226 peak).",
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year for Himos Loppet.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for Himos Loppet.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No date info for Himos Loppet; Finlandia-Hiihto typically early February.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://www.ahotu.com/event/finlandia-hiihto",
+    "https://www.sandozconcept.com/en/worldloppet-races/the-finlandia-hiihto/",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://enjoywinter.com/read-skipost/finland-the-finlandiahiihto-in-focus/",
+    "https://ski.fi/en/ski-resorts-in-finland/himos/",
+    "https://www.worldloppet.com/news-from-finland-get-ready-for-finlandia-skimarathon-2026/",
+    "https://www.youtube.com/watch?v=oIdr2lUjVIs"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:41:03Z"
+}

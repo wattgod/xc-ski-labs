@@ -1,0 +1,82 @@
+{
+  "slug": "ganghoferlauf",
+  "name": "Ganghoferlauf",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 800,
+    "country": "Austria",
+    "region": "Tyrol",
+    "discipline": "both",
+    "field_size": "~2,000 starters",
+    "founded": 1968,
+    "website": "https://www.ganghoferlauf.at",
+    "date": "Late February to early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Sources confirm 50km classic and 42km skating (42km within ±3km tolerance of 50km for main distance); some list 47km classic but official program shows 50km classic[6]",
+      "source_url": "https://www.seefeld.com/en/ganghoferlauf-program.html"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Austria across multiple sources[1][2][3]",
+      "source_url": "https://www.proxcskiing.com/long-distance/ganghoferlauf-classic-and-skating-this-weekend-in-austria-2/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Tyrol/Tyrolean[1][2][3][5]",
+      "source_url": "https://www.tyrol.com/activities/events/all-events/euroloppet-ganghoferlauf-mini-ganghoferlauf"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both classic and skating/freestyle confirmed[2][3][6]",
+      "source_url": "https://www.proxcskiing.com/long-distance/ganghoferlauf-classic-and-skating-this-weekend-in-austria-2/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific mention of ~2,000 participants found in sources",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "59th edition in 2026 implies founded 1968 (2026-59+1=1968); over five decades history[5][7]",
+      "source_url": "https://www.langlauf-urlaub.com/en/winter-sports-events/event-detail/euroloppet-ganghoferlauf"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources reference ganghoferlauf.at indirectly via links but no explicit confirmation; not directly listed",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late February to early March confirmed (e.g., Feb 28-Mar 1 2026, Feb 28-Mar 2 2025)[2][4][5][6]",
+      "source_url": "https://www.proxcskiing.com/long-distance/ganghoferlauf-classic-and-skating-this-weekend-in-austria-2/"
+    }
+  },
+  "citations": [
+    "https://www.tyrol.com/activities/events/all-events/euroloppet-ganghoferlauf-mini-ganghoferlauf",
+    "https://www.proxcskiing.com/long-distance/ganghoferlauf-classic-and-skating-this-weekend-in-austria-2/",
+    "https://skiclassics.com/events/challengers/ganghoferlauf-classic/",
+    "https://www.seefeld.com/en/tirol-nordic-challenge.html",
+    "https://www.langlauf-urlaub.com/en/winter-sports-events/event-detail/euroloppet-ganghoferlauf",
+    "https://www.seefeld.com/en/ganghoferlauf-program.html",
+    "https://www.leutascherhof.at/en/tips/events"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:17Z"
+}

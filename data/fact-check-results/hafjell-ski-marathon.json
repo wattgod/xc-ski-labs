@@ -1,0 +1,85 @@
+{
+  "slug": "hafjell-ski-marathon",
+  "name": "Hafjell Ski Marathon",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 650,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "skate",
+    "field_size": "~1,200 starters",
+    "founded": 1990,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "42 km distance listed for helmarathon",
+      "source_url": "https://hafjellskimarathon.no"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Explicitly described as in Norway",
+      "source_url": "https://hafjellskimarathon.no"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Øyerfjellet, Øyer in Innlandet county (Hafjell located in Innlandet)",
+      "source_url": "https://hafjellskimarathon.no"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Offers both classic (klassisk) and freestyle/skate (fristil) for marathon distance",
+      "source_url": "https://hafjellskimarathon.no"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 950,
+      "note": "Cap at 950 participants (within ~20% tolerance of 1200, but explicitly stated as 950; typical may vary)",
+      "source_url": "https://hafjellskimarathon.no"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2013,
+      "note": "Started in 2013 per Norwegian site; conflicting 2000 claim on English about page",
+      "source_url": "https://hafjellskimarathon.no"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://hafjellskimarathon.no",
+      "note": "Official site confirmed",
+      "source_url": "https://hafjellskimarathon.no"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "February 21, 2026; typically February",
+      "source_url": "https://hafjellskimarathon.no"
+    }
+  },
+  "citations": [
+    "https://hafjellskimarathon.no/registration/",
+    "https://hafjellskimarathon.no/about-the-race/",
+    "https://hafjellskimarathon.no/location/",
+    "https://hafjellskimarathon.no/hafjell-ski-marathon/",
+    "https://hafjellskimarathon.no",
+    "https://hafjellskimarathon.no/race-details/",
+    "https://www2.hafjellresort.no/en/to-do/404513/hafjell-ski-marathon/showdetails",
+    "https://hafjellskiresort.no/en/activities-and-events",
+    "https://live.eqtiming.com/71549",
+    "https://www.hafjellresort.no/sv/hafjell-skidmaraton-0"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:49:12Z"
+}

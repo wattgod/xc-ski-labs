@@ -1,0 +1,84 @@
+{
+  "slug": "zao-ski-marathon",
+  "name": "Zao Ski Marathon",
+  "facts": {
+    "distance_km": 32,
+    "elevation_m": 500,
+    "country": "Japan",
+    "region": "Yamagata",
+    "discipline": "classic",
+    "field_size": "~350 starters",
+    "founded": 1985,
+    "website": "https://www.zao-ski.or.jp",
+    "date": "Early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zao Ski Marathon' or a 32km cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zao Ski Marathon' or elevation gain for any cross-country ski race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Zao area is in Japan per multiple sources, but no confirmation of 'Zao Ski Marathon'.",
+      "source_url": "https://www.visityamagata.jp/en/event-zao-snowmonster-en/"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Zao Onsen is in Yamagata Prefecture per multiple sources, but no confirmation of 'Zao Ski Marathon'.",
+      "source_url": "https://www.visityamagata.jp/en/event-zao-snowmonster-en/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zao Ski Marathon' or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zao Ski Marathon' or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zao Ski Marathon' or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL (https://www.zao-ski.or.jp) not in search results and no confirmation it relates to 'Zao Ski Marathon'. Zao ski sites are zao-spa.or.jp and zaoropeway.co.jp.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Zao Ski Marathon' or its date. Zao events in early February noted but unrelated.",
+      "source_url": "https://en.japantravel.com/yamagata/zao-snow-monster-festival/3553"
+    }
+  },
+  "citations": [
+    "https://jasumo.com/listing/zao-snow-monster-festival/",
+    "https://en.japantravel.com/yamagata/zao-snow-monster-festival/3553",
+    "https://www.visityamagata.jp/en/event-zao-snowmonster-en/",
+    "https://www.japan.travel/en/spot/418/",
+    "https://zaoropeway.co.jp/winter/en.php",
+    "https://www.zao-spa.or.jp/english/ski/",
+    "https://www.zao-spa.or.jp/english/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=JP&eventid=30450",
+    "https://www.zao-spa.or.jp/english/play/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:58:49Z"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "bessemerloppet",
+  "name": "Bessemerloppet",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "LIKELY",
+    "evidence_count": 2,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Multiple sources including Ski Classics and ProXCskiing confirm Bessemerloppet as a real 52km classic cross-country ski race held since 1960 in Högbo Bruk, Sweden, listed as a Ski Classics Challengers event for 2025. The venue's site (Högbo Brukshotell) promotes it with details on dates and distances. No official race website, past results, or registration pages found in results.",
+    "sources": [
+      "https://skiclassics.com/bessemerloppet-2025-this-sunday-in-sweden/",
+      "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/",
+      "https://www.hogbobrukshotell.se/en/events/bessemerloppet",
+      "https://skiclassics.com/events/challengers/bessemerloppet/"
+    ]
+  },
+  "citations": [
+    "https://skiclassics.com/bessemerloppet-2025-this-sunday-in-sweden/",
+    "https://www.proxcskiing.com/long-distance/bessemerloppet-2025-this-sunday-in-sweden/",
+    "https://www.hogbobrukshotell.se/en/events/bessemerloppet",
+    "https://skiclassics.com/events/challengers/bessemerloppet/",
+    "https://www.langd.se/event/bessemerloppet/",
+    "https://www.hogbobrukshotell.se/events/bessemerloppet",
+    "https://www.proxcskiing.com/event/bessemerloppet-5/",
+    "https://vasaloppet.se/en/"
+  ],
+  "checked_at": "2026-03-12T15:39:36Z"
+}

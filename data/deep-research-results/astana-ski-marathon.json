@@ -1,0 +1,109 @@
+{
+  "slug": "astana-ski-marathon",
+  "name": "Astana Ski Marathon",
+  "tier": 3,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded",
+    "website"
+  ],
+  "result": {
+    "fields": {
+      "main_race_distance_km": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No dedicated cross-country ski marathon with 42 km distance found. Astana hosts various skiing events but no established 'Astana Ski Marathon' as described."
+      },
+      "total_elevation_gain_m": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Insufficient data. Astana terrain is relatively flat; Central Park skiing areas have minimal elevation."
+      },
+      "technique": {
+        "value": "classic and freestyle available",
+        "source_url": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42895&seasoncode=2019",
+        "confidence": "MEDIUM",
+        "note": "FIS records show both classic and freestyle techniques at Astana roller-ski venue, but no single marathon event specified."
+      },
+      "typical_participants": {
+        "value": 200,
+        "source_url": "https://www.fis-ski.com/cross-country/news/2018-19/articleastana-roller-skiing-open-attracts-more-than-200-athletes",
+        "confidence": "MEDIUM",
+        "note": "Astana Roller Skiing Open Cup (2018) attracted 200+ athletes. No 2000-participant ski marathon found."
+      },
+      "year_first_held": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No verified founding year for 'Astana Ski Marathon'. FIS Astana cross-country venue has records from at least 2018-2019."
+      },
+      "official_website": {
+        "value": "https://astana42k.com",
+        "source_url": "https://en.wikipedia.org/wiki/Astana_Marathon",
+        "confidence": "HIGH",
+        "note": "This URL is for Astana Marathon (running), not a ski marathon. The provided URL appears incorrect for a cross-country ski event."
+      }
+    },
+    "race_exists": false,
+    "best_source": "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42895&seasoncode=2019",
+    "explanation": "Research indicates Astana hosts various cross-country skiing events including the Astana Roller Skiing Open Cup and FIS-sanctioned competitions, but no established 'Astana Ski Marathon' matching the specified parameters (42 km, 2000 participants, since 2012) was located. The city's primary marathons are the Astana Marathon and Astana Half Marathon, which are road-running events. Cross-country skiing competitions in Astana appear to be smaller, occasional events rather than annual ski marathons with the scale described."
+  },
+  "citations": [
+    "https://www.finishers.com/en/event/astana-half-marathon",
+    "https://www.ahotu.com/calendar/running/marathon/kazakhstan",
+    "https://almaty-marathon.kz/en/news/814/",
+    "https://astanatimes.com/2018/01/alexey-poltoranin-wins-cross-country-world-cup-stage/",
+    "https://en.wikipedia.org/wiki/2012_Astana_season",
+    "https://astanatimes.com/2023/03/kazakhstan-ranks-in-top-five-in-2023-world-para-nordic-skiing-championship/",
+    "https://www.worldloppet.com",
+    "https://www.worldloppet.com/all-ski-marathons-around-the-world-in-one-calendar/",
+    "https://kazatu.edu.kz/en/news/the-participants-of-the-competition-in-cross-country-skiing",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42895&seasoncode=2019",
+    "https://www.worldloppet.com/races/",
+    "https://www.ahotu.com/calendar/cross-country-skiing/march/western-europe",
+    "https://astanatimes.com/2024/10/astana-city-marathon-attracts-participants-from-18-countries/",
+    "https://astanatimes.com/2013/01/kazakhstans-alexey-poltoranin-wins-tour-de-ski-victories/",
+    "https://www.fis-ski.com/DB/cross-country/live.html?mi=menu-live",
+    "https://en.wikipedia.org/wiki/Astana_Marathon",
+    "https://skiclassics.com",
+    "https://worldathletics.org/competition/calendar-results/results/7135719",
+    "https://www.ahotu.com/event/astana-marathon",
+    "https://sportstats.one/event/oka-ski-marathon",
+    "https://mylaps.com",
+    "https://astanatimes.com/section-archives/page/2/?at_year=2018&cat_id=23",
+    "https://www.youtube.com/watch?v=rtuQxekzYRY",
+    "https://sportstats.one",
+    "https://results.sporthive.com/events/7329530757753788928/races/1/team/7329955289548546304",
+    "https://en.wikipedia.org/wiki/Cross-country_skiing_(sport)",
+    "https://astanatimes.com/2025/12/wondering-where-to-ski-this-winter-kazakhstan-offers-different-kind-of-mountain-escape/",
+    "https://en.wikipedia.org/wiki/2012%E2%80%9313_FIS_Cross-Country_World_Cup",
+    "https://xcskiworld.com/asm-series",
+    "https://www.youtube.com/watch?v=p9o0_vIOi0k",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=139509&raceid=73286",
+    "https://passport.euroloppet.com/event/jyvaskyla",
+    "https://en.wikipedia.org/wiki/Almaty_Marathon",
+    "https://www.strava.com/dashboard",
+    "https://www.youtube.com/watch?v=t_Y8fqG25VQ",
+    "https://passport.euroloppet.com/event/events-2025-26",
+    "https://en.wikipedia.org/wiki/Medeu",
+    "https://www.strava.com/login",
+    "https://www.youtube.com/shorts/eAsEhB_P0T4",
+    "https://astanatimes.com/2025/02/kazakhstans-winter-games-success-continues-with-biathlon-gold-and-cross-country-silver/",
+    "https://aims-worldrunning.org/races/10388.html",
+    "https://azertag.az/en/xeber/over_2000_from_18_countries_run_astana_city_marathon-3230206",
+    "https://en.wikipedia.org/wiki/Engadin_Skimarathon",
+    "https://qazinform.com/news/astana-marathon-2023-brings-together-2-000-runners_a4107714",
+    "https://almaty-marathon.kz/ru/news/846/",
+    "https://astanatriathlon.kz/en/competitions",
+    "https://almaty-marathon.kz/en/news/847/",
+    "https://astanatimes.com/2025/01/winter-sports-in-kazakhstan-infrastructure-athletes-successes-in-2024/",
+    "https://astanatriathlon.kz",
+    "https://astanatriathlon.kz/en/competitions/148"
+  ],
+  "checked_at": "2026-03-12T15:39:43Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "shizma-klassika",
+  "name": "Shizma Klassika",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 350,
+    "country": "Russia",
+    "region": "Kirov Oblast",
+    "discipline": "classic",
+    "field_size": 500,
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika' or matching details",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika' or matching details",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika'",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika' or Kirov Oblast connection",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika'",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika' or participant numbers",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika' or founding year",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "russialoppet.ru not mentioned in search results; no confirmation for 'Shizma Klassika'",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Shizma Klassika' or date details",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://skiclassics.com/pro-team-presentation-russian-winter-team/",
+    "https://www.youtube.com/watch?v=s2hqqoMBh8E",
+    "https://www.youtube.com/watch?v=GD6HHJDAfgI",
+    "https://www.proxcskiing.com/traditional-skiing/russia-dominates-the-30km-mass-start-podium-at-the-junior-world-championships/",
+    "https://www.youtube.com/shorts/tF8a9ThIi3A",
+    "https://www.youtube.com/watch?v=RmOzkbb4N1I",
+    "https://www.sipausa.com/id/58870736"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:52:03Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "sleeping-giant-loppet",
+  "name": "Sleeping Giant Loppet",
+  "country": "Canada",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.sleepinggiantloppet.ca",
+    "results_url": "https://www.sleepinggiantloppet.ca/results.html",
+    "evidence_summary": "The Sleeping Giant Loppet is a well-established, real cross-country ski event held annually in Sleeping Giant Provincial Park near Thunder Bay, Ontario, Canada. The event has an official website with registration pages, event day instructions, results archives dating back multiple years, and is listed on Cross Country Ski Ontario. The 2026 edition (46th annual) is scheduled for March 7, 2026.",
+    "sources": [
+      "https://www.sleepinggiantloppet.ca",
+      "https://www.sleepinggiantloppet.ca/register.html",
+      "https://www.sleepinggiantloppet.ca/results.html",
+      "https://www.sleepinggiantloppet.ca/event_day.html",
+      "https://xcskiontario.ca/event/sleeping-giant-loppet-2026/"
+    ]
+  },
+  "citations": [
+    "https://www.sleepinggiantloppet.ca/about.html",
+    "https://www.sleepinggiantloppet.ca/register.html",
+    "https://www.sleepinggiantloppet.ca/event_day.html",
+    "https://www.sleepinggiantloppet.ca",
+    "https://xcskiontario.ca/event/sleeping-giant-loppet-2026/",
+    "https://www.sleepinggiantloppet.ca/results.html",
+    "https://www.sleepinggiantloppet.ca/awards.html",
+    "https://www.sleepinggiantloppet.ca/news.html"
+  ],
+  "checked_at": "2026-03-12T16:04:46Z"
+}

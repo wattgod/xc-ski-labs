@@ -1,0 +1,27 @@
+{
+  "slug": "navrat-pod-lysou",
+  "name": "Návrat pod Lysou",
+  "country": "Slovakia",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No search results mention the 'Návrat pod Lysou' cross-country ski race by name. Results discuss unrelated running events, general skiing in Slovakia/Czechia, golf cross-country, and PDFs on sports/tourism with no reference to this specific event. Absence of official site, results, news, or social media confirms it does not exist as a real organized event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.archivbezeckaskola.cz/clanky-5-bezecke-akce.html",
+    "https://www.golfinfo.cz/xmap",
+    "https://www.youtube.com/shorts/-niG_7VRg-A",
+    "https://snow.cz/diskuze/5-neviditelne-ke-vsem-modulum",
+    "https://www.cuscz.cz/files/2073YmY.pdf",
+    "http://www.floowie.com/cs/cti/relax2012/html/",
+    "http://utok.mendelu.cz/sites/default/files/data/USERS/u24/2012_RaOP.pdf",
+    "https://www.filmdat.sk/souteze.php?detail=957",
+    "https://www.studiaturistica.cz/wp-content/uploads/2024/03/Conference_Proceedings_2023.pdf",
+    "https://advokatnidenik.cz/wp-content/uploads/BA_03_2020_web.pdf"
+  ],
+  "checked_at": "2026-03-12T15:57:33Z"
+}

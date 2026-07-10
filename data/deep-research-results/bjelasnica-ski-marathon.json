@@ -1,0 +1,102 @@
+{
+  "slug": "bjelasnica-ski-marathon",
+  "name": "Bjelašnica Ski Marathon",
+  "tier": 3,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded"
+  ],
+  "result": {
+    "fields": {
+      "main_race_distance": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No official Bjelašnica Ski Marathon race found. Cross-country skiing infrastructure exists at Bjelašnica-Igman with ~50km total trails, but no specific marathon race by this name is listed on Worldloppet, Euroloppet, or FIS databases."
+      },
+      "total_elevation_gain": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Unable to locate race-specific elevation data. Bjelašnica summit is at 2,067m with varying terrain across multiple ridges, but no documented marathon course profile found."
+      },
+      "technique": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "Cross-country facilities at Bjelašnica-Igman support both classic and freestyle technique, but no specific race details confirm this marathon offers both techniques."
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No participant data found for a race by this name. Regional events show varying participation, but no specific marathon documented."
+      },
+      "year_first_held": {
+        "value": null,
+        "source_url": null,
+        "confidence": "LOW",
+        "note": "No establishment date found. Regional cross-country events at Bjelašnica-Igman are documented from 2023-2024 onwards in FIS records, but no marathon race history located."
+      }
+    },
+    "race_exists": false,
+    "best_source": "https://www.worldloppet.com/global-ski-marathon-calendar/ and https://www.fis-ski.com/DB/general/calendar-results.html",
+    "search_conclusion": "Extensive search of Worldloppet, Euroloppet, FIS, Ski Classics, Strava, and general web sources found no registered race specifically named 'Bjelašnica Ski Marathon.' While Bjelašnica-Igman is an active cross-country skiing venue with approximately 50km of Nordic trails, no marathon-distance race by the provided name appears in any official competition calendars or historical records. The venue does host FIS-level cross-country events, but these are typically individual distance races rather than a dedicated marathon event."
+  },
+  "citations": [
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=128506",
+    "https://www.skiresort.info/ski-resort/babin-do-bjelasnica/test-result/cross-country/",
+    "http://skiresortguru.com/bjelasnica-review/",
+    "https://ocbjelasnica.com/en/",
+    "https://bravo-bih.com/making-history-on-the-slopes-the-first-inclusive-ski-race-in-bosnia-and-herzegovina/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=128431",
+    "https://www.freeride.com/ski-resorts/bjelasnica/",
+    "https://bjelasnica.ba/en/",
+    "https://www.worldloppet.com/ski-marathon-calendar/",
+    "https://www.bielastopa.sk/en/history/",
+    "https://skiclassics.com",
+    "https://www.race-tracking.com",
+    "https://www.worldloppet.com/global-ski-marathon-calendar/",
+    "https://bjelasnica.ba/en/winter-activities/nordic-skiing/",
+    "https://itra.run/Races/RaceResults/Bjelasica.Trail.The.Three.Lake.Trail.45k/2024/91632",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=51409&raceid=58166",
+    "https://www.bigcycling.eu/upload/Natachas/NEW/11-BIH-off-en.pdf",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=FS&raceid=18687",
+    "https://mylaps.com/active-sports/sports/cross-country-skiing-biathlon/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=70692&raceid=58167",
+    "https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/169_2020_a_20211029.pdf",
+    "https://sportstats.one/events",
+    "https://mylaps.com",
+    "https://sarajevotimes.com/forty-years-since-the-olympics-the-ski-slope-in-bjelasnica-is-named-jure-franko/",
+    "https://www.skiresort.info/ski-resort/babin-do-bjelasnica/",
+    "https://medias3.fis-ski.com/pdf/2021/FS/8823/2021FS8823PROG.pdf",
+    "https://www.tripadvisor.com/Attraction_Review-g17492704-d12934229-Reviews-Bjelasnica_Olympic_Mountain_Ski_Centre-Federation_of_Bosnia_and_Herzegovina.html",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=AL&eventid=51317&seasoncode=2023",
+    "https://en.wikipedia.org/wiki/Bjela%C5%A1nica",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=123791",
+    "https://medias2.fis-ski.com/pdf/2026/AL/0075/2026AL0075PROG.pdf",
+    "https://www.trailforks.com/region/bjelasnica-47688/",
+    "https://en.wikipedia.org/wiki/Ljubljana_Marathon",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=123803",
+    "https://sharemontenegro.me/bjelasica-winter-adventure-race-2025-pridruzi-se-avanturi/",
+    "https://www.strava.com/maps",
+    "https://www.european-athletics.com/home/results/7220309",
+    "https://www.youtube.com/watch?v=CEM7S67c7eg",
+    "https://www.youtube.com/watch?v=AiVCujWVaAY",
+    "https://www.youtube.com/watch?v=PWVYaSDM3yM",
+    "https://bjelasnica.ba/en/summer-activities/summer-trips/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=128505",
+    "https://taxi2ski.com/bjelasnica-ski-review/",
+    "https://en.wikipedia.org/wiki/2010_Nordic_Opening",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=44277",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=266663&raceid=127811",
+    "http://arhiva.visitsarajevo.ba/bjelasnica-ovdje-masta-postaje-stvarnost/?lang=en",
+    "https://www.fis-ski.com/DB/general/calendar-results.html",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=44280",
+    "https://ocbjelasnica.com/en/fis-ski-europe-cup-2023/"
+  ],
+  "checked_at": "2026-03-12T15:51:18Z"
+}

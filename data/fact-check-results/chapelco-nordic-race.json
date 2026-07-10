@@ -1,0 +1,82 @@
+{
+  "slug": "chapelco-nordic-race",
+  "name": "Chapelco Nordic Race",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 280,
+    "country": "Argentina",
+    "region": "Neuquén",
+    "discipline": "classic",
+    "field_size": 80,
+    "founded": 2010,
+    "website": null,
+    "date": "Mid-August"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Chapelco Nordic Race' or any cross-country ski race with 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Chapelco Nordic Race' elevation gain; general Chapelco ski resort vertical drop is 730m but unrelated to specific Nordic race.[1]",
+      "source_url": "https://es.wikipedia.org/wiki/Chapelco"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Chapelco is located in Argentina.[1][4]",
+      "source_url": "https://es.wikipedia.org/wiki/Chapelco"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Chapelco is in Neuquén province, Argentina.[1][4]",
+      "source_url": "https://es.wikipedia.org/wiki/Chapelco"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Chapelco offers cross-country skiing (esquí de fondo) generally, but no specific 'Chapelco Nordic Race' or classic/skate details found.[1]",
+      "source_url": "https://es.wikipedia.org/wiki/Chapelco"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention participant numbers for any Nordic ski race at Chapelco; Tetratlón has 100+ but unrelated.[3]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a 'Chapelco Nordic Race' founded in 2010.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Chapelco Nordic Race'; general Chapelco site is cerrochapelco.com.ar but no Nordic race info.[5]",
+      "source_url": "https://www.cerrochapelco.com.ar"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm mid-August for a Nordic race; Tetratlón is late August but multi-sport, not Nordic skiing.[2]",
+      "source_url": "https://www.cerrochapelco.com.ar/tetra-2025/"
+    }
+  },
+  "citations": [
+    "https://es.wikipedia.org/wiki/Chapelco",
+    "https://www.cerrochapelco.com.ar/tetra-2025/",
+    "https://realidadsm.com/2025/08/28/el-tetratlon-de-chapelco-se-reinventa-por-falta-de-nieve-y-suma-running-en-la-montana/",
+    "https://www.snow-online.com/ski-resort/chapelco.html",
+    "https://www.cerrochapelco.com.ar",
+    "https://chapelco.com.ar",
+    "https://www.youtube.com/watch?v=g2SudJ-k50g"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:37:05Z"
+}

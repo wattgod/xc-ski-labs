@@ -1,0 +1,81 @@
+{
+  "slug": "bedrichov-night-light",
+  "name": "Bedrichov Night Light Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 500,
+    "country": "Czech Republic",
+    "region": "Jizera Mountains",
+    "discipline": "skate",
+    "field_size": 500,
+    "founded": null,
+    "website": "https://www.ski-tour.cz/en/",
+    "date": "Late January (evening race, preceding Jizerska 50)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 30 km distance option available[1]",
+      "source_url": "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Czech Republic[1]",
+      "source_url": "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Jizera Mountains[1]",
+      "source_url": "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Offers Free Technique (skate) on one day and Classical Technique (CT) on the other[1]",
+      "source_url": "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Results show some participants but no total count near 500; partial lists only[3]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources found for year founded or first edition",
+      "source_url": null
+    },
+    "website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official website confirmed, with specific page for event[1]",
+      "source_url": "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late January evening race, precedes Jizerska 50; e.g., 26-27 Jan 2024, 10 Jan 2026[1][3][4]",
+      "source_url": "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/",
+    "https://skiclassics.com/historic-sprint-night-as-bedrichov-sprint-makes-pro-tour-debut/",
+    "https://vysledky.sportsoft.cz/race/781",
+    "https://www.liberec-region.com/dre-en/97579-bedrichovsky-night-light-marathon-2025.html",
+    "https://results.onlinesystem.cz/ResultsDetail/Index/?Id=2996",
+    "https://www.stopaprozivot.cz/en/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:34:22Z"
+}

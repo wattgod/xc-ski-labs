@@ -1,0 +1,33 @@
+{
+  "slug": "city-of-lakes-loppet",
+  "name": "City of Lakes Loppet",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://loppet.org",
+    "results_url": "https://loppet.org/event/winter-festival-2/2026-01-31/",
+    "evidence_summary": "The City of Lakes Loppet Winter Festival is a well-documented, real organized event in Minneapolis, Minnesota. Multiple independent sources confirm its existence, including an official website (loppet.org), event registration pages (skisignup.com), official event pages with detailed schedules and course maps, and information from the Explore Minnesota tourism board. The event has been running since 2003 and includes cross-country ski races along with fat bike, skijor, and snowshoe events.",
+    "sources": [
+      "https://loppet.org",
+      "https://loppet.org/event/winter-festival-2/2026-01-31/",
+      "https://www.skisignup.com/Race/MN/Minneapolis/CityofLakesLoppetWinterFestival",
+      "https://www.exploreminnesota.com/event/city-lakes-loppet-winter-festival/32633",
+      "https://loppet.org/event/luminary-loppet/",
+      "https://loppet.org/trailheads-trails/"
+    ]
+  },
+  "citations": [
+    "https://www.exploreminnesota.com/event/city-lakes-loppet-winter-festival/32633",
+    "https://www.skisignup.com/Race/MN/Minneapolis/CityofLakesLoppetWinterFestival",
+    "https://loppet.org/trailheads-trails/",
+    "https://loppet.org/event/luminary-loppet/",
+    "https://loppet.org/event/winter-festival-2/2026-01-31/",
+    "https://loppet.org/ski-trail-passes/",
+    "https://loppet.org",
+    "https://www.loppet.org/city-",
+    "https://loppet.org/event/5k-ski-loppet/"
+  ],
+  "checked_at": "2026-03-12T15:42:42Z"
+}

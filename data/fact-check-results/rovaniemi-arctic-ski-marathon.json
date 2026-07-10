@@ -1,0 +1,84 @@
+{
+  "slug": "rovaniemi-arctic-ski-marathon",
+  "name": "Rovaniemi Arctic Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 300,
+    "country": "Finland",
+    "region": "Lapland",
+    "discipline": "both",
+    "field_size": 300,
+    "founded": null,
+    "website": null,
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 42,
+      "note": "Jätkänkynttilä Ski Marathon (likely the race in question, held in Rovaniemi) offers 42.2km marathon distance, not 50km.",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Finland (Rovaniemi).",
+      "source_url": "https://jatkankynttilaskimarathon.fi"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Lapland region confirmed.",
+      "source_url": "https://jatkankynttilaskimarathon.fi"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "classic",
+      "note": "2025 edition specified as classic technique only; 2026 as free (skating). Not both.",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for typical number of participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded; described as started by a group of friends but no specific year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://jatkankynttilaskimarathon.fi",
+      "note": "Official site for Jätkänkynttilä Ski Marathon in Rovaniemi.",
+      "source_url": "https://jatkankynttilaskimarathon.fi"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically March (e.g., 15.3.2025, 21.3.2026).",
+      "source_url": "https://jatkankynttilaskimarathon.fi/pages/event-info"
+    }
+  },
+  "citations": [
+    "https://jatkankynttilaskimarathon.fi/pages/event-info",
+    "https://jatkankynttilaskimarathon.fi",
+    "https://www.ahotu.com/event/arctic-marathon-finland",
+    "https://www.visitrovaniemi.fi/event/rovaniemi-trail-run/",
+    "https://worldsmarathons.com/marathon/artic-marathon-finland",
+    "https://wildmarathon.com/articmarathon-eng/",
+    "https://www.arcticskimaraton.fi/en/",
+    "https://pace.sport/events/jatkankynttila-ski-marathon",
+    "https://www.arcticskimaraton.fi/l/the-registration-is-open/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:51:00Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "reistadlopet",
+  "name": "Reistadløpet",
+  "country": "Norway",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.reistadlopet.no",
+    "results_url": "https://www.proxcskiing.com/long-distance/reistadlopet-an-arctic-adventure-in-the-north-of-norway/",
+    "evidence_summary": "Reistadløpet is listed on Worldloppet and Ski Classics official sites with detailed event info, history since 1958, and upcoming 2026 date of March 28. Race results from 2019 are provided on ProXCskiing, including top finishers. Additional coverage from Ski Classics, ProXCskiing previews, and a YouTube highlights video from 2024/2025 confirm its status as a real, organized event.",
+    "sources": [
+      "https://www.worldloppet.com/reistadlopet-nor/",
+      "https://skiclassics.com/events/pro-tour/reistadlopet/",
+      "https://www.proxcskiing.com/long-distance/reistadlopet-an-arctic-adventure-in-the-north-of-norway/",
+      "https://www.proxcskiing.com/paid_content/reistadlopet-pure-arctic-madness/",
+      "https://www.youtube.com/watch?v=5rF6PhYEDWg"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/reistadlopet-nor/",
+    "https://skiclassics.com/events/pro-tour/reistadlopet/",
+    "https://www.proxcskiing.com/long-distance/reistadlopet-an-arctic-adventure-in-the-north-of-norway/",
+    "https://www.proxcskiing.com/paid_content/reistadlopet-pure-arctic-madness/",
+    "https://etusuora.com/en/cross-country-skiing/ski-classics/reistadlopet",
+    "https://skiclassics.com/reistadlopet-and-grand-finale-summit-2-senja-highlight-the-final-weekend-of-ski-classics-season-xvii/",
+    "https://www.sandozconcept.com/en/worldloppet-races/reistaloppet/",
+    "https://www.youtube.com/watch?v=5rF6PhYEDWg"
+  ],
+  "checked_at": "2026-03-12T16:01:31Z"
+}

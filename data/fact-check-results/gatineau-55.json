@@ -1,0 +1,83 @@
+{
+  "slug": "gatineau-55",
+  "name": "Gatineau 55",
+  "facts": {
+    "distance_km": 55,
+    "elevation_m": 700,
+    "country": "Canada",
+    "region": "Quebec",
+    "discipline": "both",
+    "field_size": "~800 starters",
+    "founded": 1979,
+    "website": "https://www.gatineauloppet.com",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Current main race is 50 km (previously 55 km as Gatineau 55); sources mention both but official now 50 km",
+      "source_url": "https://gatineauloppet.com/info-for-skiers/?lang=en"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 1100,
+      "note": "Official course profile for 50 km states total elevation gain 1100 meters",
+      "source_url": "https://www.worldloppet.com/wl-race/gatineau-loppet/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Quebec, Gatineau Park",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Races in both classic and free (skate) technique",
+      "source_url": "https://www.worldloppet.com/wl-race/gatineau-loppet/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 2500,
+      "note": "~2500 total participants (starters across all events; ~800 may refer to older/main race edition)",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition 1979 as Rivière Rouge",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mid-February (e.g., Feb 19-21 2027, historically February weekend)",
+      "source_url": "https://gatineauloppet.com/?lang=en"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Gatineau_Loppet",
+    "https://gatineauloppet.com/info-for-skiers/?lang=en",
+    "https://gatineauloppet.com/about-us/gloppet/?lang=en",
+    "https://crosscountryns.ca/international-loppets/",
+    "https://skitrax.com/gatineau-loppet-classic-winners-crowned-in-great-conditions-lloyd-and-mctavish-top-canucks-in-55km-cl/",
+    "https://gatineauloppet.com/?lang=en",
+    "https://www.worldloppet.com/wl-race/gatineau-loppet/",
+    "https://www.youtube.com/watch?v=AaVZx7njvbg"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:23Z"
+}

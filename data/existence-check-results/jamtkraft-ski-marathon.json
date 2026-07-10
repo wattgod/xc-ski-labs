@@ -1,0 +1,25 @@
+{
+  "slug": "jamtkraft-ski-marathon",
+  "name": "Jämtkraft Ski Marathon",
+  "country": "Sweden",
+  "tier": 2,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a cross-country ski race called 'Jämtkraft Ski Marathon' exists in the search results. Jämtkraft is a real energy company in Sweden that sponsors Fjällmaraton, which is a trail running event (not cross-country skiing). The confusion appears to stem from Jämtkraft's sponsorship of running races rather than organizing a ski marathon.",
+    "sources": []
+  },
+  "citations": [
+    "https://fjallmaraton.se/en/nyheter/",
+    "https://www.youtube.com/watch?v=zT9umI4FejQ",
+    "https://fjallmaraton.se/en/partners/",
+    "https://www.skistar.com/en/ski-destinations/vemdalen/winter-in-vemdalen/",
+    "https://medias3.fis-ski.com/pdf/2024/CC/2245/2024CC2245PROG.pdf",
+    "https://fjallmaraton.se/en/the-fjallmaraton-week/jamtkraft-minimaraton/",
+    "https://en.jamtkraft.se/private/about-jamtkraft/",
+    "https://www.forsvarsmakten.se"
+  ],
+  "checked_at": "2026-03-12T15:49:44Z"
+}

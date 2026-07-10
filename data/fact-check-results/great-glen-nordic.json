@@ -1,0 +1,84 @@
+{
+  "slug": "great-glen-nordic",
+  "name": "Great Glen Nordic Race Series",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 200,
+    "country": "United States",
+    "region": "New Hampshire",
+    "discipline": "both",
+    "field_size": 100,
+    "founded": 1994,
+    "website": "https://greatglentrails.com/events/",
+    "date": "December through March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 4.5,
+      "note": "Search results indicate participants choose either long course (~5km) or short course (~4km). The series does not have a single standard distance of 10km.",
+      "source_url": "https://greatglentrails.com/nordic-meisters/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide elevation gain information for the Nordic Meisters race series.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as United States (located in Gorham, New Hampshire)",
+      "source_url": "https://www.skireg.com/nordic-meisters-at-great-glen-trails"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as New Hampshire",
+      "source_url": "https://greatglentrails.com/nordic-meisters/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as both classic and skate divisions available",
+      "source_url": "https://greatglentrails.com/nordic-meisters/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide participant count information for the Nordic Meisters series.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 1994,
+      "note": "Search results describe it as 'Three decades of Nordic racing' and note that 'This 2024-25 winter season marks the third decade of operation,' which indicates the series began approximately 30 years before 2024-25, placing the founding around 1994-1995. However, one source describes it as 'the longest running weekly citizen Nordic race series in the country' without specifying exact founding year. The claim of 1994 appears reasonable but cannot be definitively verified from these sources.",
+      "source_url": "https://www.conwaydailysun.com/outdoors/skiing/crosscountry/nordic-tracks-great-glen-trails-celebrates-30-years-part-two/article_f31140c8-c239-11ef-b07b-a374b0638958.html"
+    },
+    "official_website_url": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as https://greatglentrails.com/events/",
+      "source_url": "https://greatglentrails.com/events/"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "January through March",
+      "note": "Search results consistently show the series runs Tuesdays from early January through early March (2026 dates: January 6 - March 3). December is not included.",
+      "source_url": "https://greatglentrails.com/nordic-meisters/"
+    }
+  },
+  "citations": [
+    "https://greatglentrails.com/nordic-meisters/",
+    "https://greatglentrails.com/24-hours/course-information/",
+    "https://greatglentrails.com/events/",
+    "https://greatglentrails.com/cross-country-skiing/",
+    "https://seniorsskiing.com/at-great-glen-trails-nordic-skiing-and-activities-for-everyone/",
+    "https://www.whitemountainmilers.org/event-details/great-glen-trails-nordic-meisters-2025-02-04-10-00",
+    "https://www.skireg.com/nordic-meisters-at-great-glen-trails",
+    "https://greatglentrails.com/run-walk/",
+    "https://www.conwaydailysun.com/outdoors/skiing/crosscountry/nordic-tracks-great-glen-trails-celebrates-30-years-part-two/article_f31140c8-c239-11ef-b07b-a374b0638958.html"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:09Z"
+}

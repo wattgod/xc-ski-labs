@@ -1,0 +1,32 @@
+{
+  "slug": "dolomiti-ski-jazz",
+  "name": "Dolomiti Ski Jazz",
+  "country": "Italy",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "Dolomiti Ski Jazz is a real annual music festival featuring jazz concerts on ski slopes and in mountain huts in Val di Fassa, Val di Fiemme, and surrounding Dolomites areas, scheduled for March 6-15, 2026, in its 30th edition. No evidence found of any cross-country ski race component, race results, registration, or listings in Worldloppet, FIS, or similar; all sources describe it exclusively as a live music event for skiers.",
+    "sources": [
+      "https://www.fassa.com/en/get-inspired/dolomiti-ski-jazz",
+      "https://www.visitfiemme.it/en/events/events/dolomiti-ski-jazz",
+      "https://www.dolomiticlass.com/trentino/events/dolomiti-ski-jazz",
+      "https://www.visittrentino.info/EN/guida/eventi/fis-race-gs/fis-race-gs/latin-mood_e_126441298",
+      "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fiemme/2026/LATIN-MOOD-Dolomiti-Ski-Jazz"
+    ]
+  },
+  "citations": [
+    "https://www.fassa.com/en/get-inspired/dolomiti-ski-jazz",
+    "https://www.visitfiemme.it/en/events/events/dolomiti-ski-jazz",
+    "https://www.dolomiticlass.com/trentino/events/dolomiti-ski-jazz",
+    "https://www.visittrentino.info/EN/guida/eventi/fis-race-gs/fis-race-gs/latin-mood_e_126441298",
+    "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fiemme/2026/LATIN-MOOD-Dolomiti-Ski-Jazz",
+    "https://www.dolomitisuperski.com/en/",
+    "https://www.visittrentino.info/mercatini-di-natale/25th-dolomiti-ski-jazz_e_83464950",
+    "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fiemme/2026/ALTA-QUOTA-QUARTET-Dolomiti-Ski-Jazz",
+    "https://www.latemar.it/en/"
+  ],
+  "checked_at": "2026-03-12T15:43:53Z"
+}

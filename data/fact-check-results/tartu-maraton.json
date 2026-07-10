@@ -1,0 +1,84 @@
+{
+  "slug": "tartu-maraton",
+  "name": "Tartu Maraton",
+  "facts": {
+    "distance_km": 63,
+    "elevation_m": 300,
+    "country": "Estonia",
+    "region": "Tartu County",
+    "discipline": "both",
+    "field_size": "~4,000 starters",
+    "founded": 1966,
+    "website": "https://www.tartumaraton.ee",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm the main 63 km distance from Otepää to Elva",
+      "source_url": "https://www.worldloppet.com/wl-race/tartu-maraton/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide specific elevation gain data. Sources describe the course as 'constantly rolls over the hills' but do not quantify total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Estonia as the country",
+      "source_url": "https://en.wikipedia.org/wiki/Tartu_Maraton"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention Otepää Upland and Elva as locations, and one source references 'Valga maakond' (Valga County), but Tartu County is not explicitly confirmed in search results",
+      "source_url": "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm both classic and freestyle techniques are offered. The 63 km main race is classic only, but 31 km freestyle race is also available",
+      "source_url": "https://www.worldloppet.com/tartu-maraton-2026-estonias-worldloppet-classic-returns-on-full-original-course/"
+    },
+    "typical_participants": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources cite 'up to 5,000 skiers' for 2026 and 'usually there are 6,000 skiers' historically. The claim of ~4,000 starters is within reasonable tolerance",
+      "source_url": "https://www.worldloppet.com/tartu-maraton-2026-estonias-worldloppet-classic-returns-on-full-original-course/"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 1960,
+      "note": "Multiple sources confirm the race was first held in 1960, not 1966. Wikipedia states 'It debuted in 1960' and sources reference '65 years' of history from 1960",
+      "source_url": "https://en.wikipedia.org/wiki/Tartu_Maraton"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "The URL https://tartumaraton.ee is confirmed in multiple search results as the official website",
+      "source_url": "https://tartumaraton.ee/en/"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Wikipedia and multiple sources confirm the race is held 'on the third Sunday of February.' The 2026 edition is scheduled for February 14-15, which aligns with mid-February timing",
+      "source_url": "https://en.wikipedia.org/wiki/Tartu_Maraton"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/tartu-maraton/",
+    "https://en.wikipedia.org/wiki/Tartu_Maraton",
+    "https://tartumaraton.ee/en/tartu-maraton-2026/courses",
+    "https://hotway.life/en/cross-country-skiing/estonia/52-tartu-ski-marathon-2026",
+    "https://www.sandozconcept.com/en/worldloppet-races/tartu-marathon/",
+    "https://visitestonia.com/en/51st-tartu-marathon",
+    "https://www.worldloppet.com/tartu-maraton-2026-estonias-worldloppet-classic-returns-on-full-original-course/",
+    "https://tartumaraton.ee/en/",
+    "https://tartumaraton.ee/en/tartu-maraton-2026"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:56:36Z"
+}

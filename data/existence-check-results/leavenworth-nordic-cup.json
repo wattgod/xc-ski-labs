@@ -1,0 +1,22 @@
+{
+  "slug": "leavenworth-nordic-cup",
+  "name": "Leavenworth Nordic Cup",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Leavenworth Nordic Cup'. Search results mention Leavenworth ski events like Bakke Cup (multi-discipline youth event with Nordic component), Washington Nordic Cup series (youth-focused with events in Leavenworth like Skirennen), and Tour de Plain Race Series, but none match the exact name. The query likely confuses these real events.",
+    "sources": []
+  },
+  "citations": [
+    "https://skileavenworth.app.neoncrm.com/np/clients/skileavenworth/event.jsp?event=214",
+    "http://pnwdivision.org/nordic/nordic-clubs/",
+    "https://leavenworth.org/event/2026-tour-de-plain-race-series-event-4-in-conjunction-with-washington-nordic-cup/",
+    "https://www.wncup.org",
+    "https://www.webscorer.com/register?raceid=375109"
+  ],
+  "checked_at": "2026-03-12T15:53:41Z"
+}

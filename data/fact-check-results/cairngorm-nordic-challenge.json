@@ -1,0 +1,82 @@
+{
+  "slug": "cairngorm-nordic-challenge",
+  "name": "Cairngorm Nordic Challenge",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 350,
+    "country": "United Kingdom",
+    "region": "Scottish Highlands",
+    "discipline": "both",
+    "field_size": 80,
+    "founded": 2005,
+    "website": "https://www.huntlynordic.org.uk",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a cross-country ski race named 'Cairngorm Nordic Challenge' with 25km distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming 350m elevation gain for this specific race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for the race; Cairngorm area is in UK but unconfirmed for this event.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming Scottish Highlands for this race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming classic and skate for this race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming typical 80 participants.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming first edition in 2005.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Huntly Nordic website mentioned in rollerski events but no specific confirmation for this race; https://www.huntlynordic.org.uk not directly linked in results.",
+      "source_url": "https://www.snowsportscotland.org/scottish-rollerski-series"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming early March for this race.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.snowsportscotland.org/scottish-rollerski-series",
+    "https://www.cairngormskiclub.co.uk/racing-all-you-need-to-know/",
+    "https://skimoscotland.co.uk/FKT/",
+    "https://www.cairngormmountain.co.uk/events/ski-road-challenge/",
+    "http://www.rollerski.co.uk/ns040.html",
+    "https://www.ahotu.com/event/cairngorms-trail-race-festival",
+    "https://runabc.co.uk/cairngorms-ultra-trail-race"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:11:48Z"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "craftsbury-marathon",
+  "name": "Craftsbury Marathon",
+  "facts": {
+    "distance_km": 45,
+    "elevation_m": 500,
+    "country": "United States",
+    "region": "Vermont",
+    "discipline": "both",
+    "field_size": 400,
+    "founded": 1981,
+    "website": "https://www.craftsbury.com",
+    "date": "Late January to early February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm long distance as 45k (planned) or ~47k (actual with 23k loop, within ±3km tolerance)[3][2]",
+      "source_url": "https://www.craftsbury.com/events/the-2026-craftsbury-marathon-ski-festival"
+    },
+    "elevation_m": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "1,200 feet ≈ 366m, within ±100m tolerance of 500m[1]",
+      "source_url": "https://app.advcollective.com/travel-guides/St.-Johnsbury/craftsbury-marathon-nordic-ski-race-vermont"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Vermont, United States[1][2][3]",
+      "source_url": "https://www.craftsbury.com/events/craftsbury-marathon"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Craftsbury Common, VT[2][3]",
+      "source_url": "https://www.craftsbury.com/events/craftsbury-marathon"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic on Saturday, skate/freestyle on Sunday (both)[2][3][4]",
+      "source_url": "https://www.craftsbury.com/events/craftsbury-marathon"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Described as 'largest popular racing event in New England' and 'largest citizen race turnout,' but no specific number like 400 found[4][6]",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "History traces to 1980s at Craftsbury Outdoor Center, but no exact year 1981 confirmed[1]",
+      "source_url": "https://app.advcollective.com/travel-guides/St.-Johnsbury/craftsbury-marathon-nordic-ski-race-vermont"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.craftsbury.com/events/craftsbury-marathon or www.craftsburymarathon.com (past)",
+      "note": "Official info at craftsbury.com/events and skireg.com; craftsburymarathon.com mentioned historically[2][3][7]",
+      "source_url": "https://www.craftsbury.com/events/craftsbury-marathon"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late January (e.g., Jan 25-26 2025, Jan 31-Feb 1 2026)[2][10]",
+      "source_url": "https://www.craftsbury.com/events/craftsbury-marathon"
+    }
+  },
+  "citations": [
+    "https://app.advcollective.com/travel-guides/St.-Johnsbury/craftsbury-marathon-nordic-ski-race-vermont",
+    "https://www.craftsbury.com/events/craftsbury-marathon",
+    "https://www.craftsbury.com/events/the-2026-craftsbury-marathon-ski-festival",
+    "https://nensa.net/event/craftsbury-marathon-ski-festival-saturday-classic-sunday-skate/",
+    "https://www.craftsbury.com/events",
+    "https://putneyskiclub.org/event/craftsbury-marathon-ski-festival-2",
+    "https://www.craftsbury.com/events/23craftsbury-marathon",
+    "https://www.craftsbury.com/ski/races/racing-home",
+    "https://www.meetdaisy.co/calendars/craftsbury-outdoor-center/events/the-2026-craftsbury-marathon-ski-festival",
+    "https://www.skireg.com/8385"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:37:57Z"
+}

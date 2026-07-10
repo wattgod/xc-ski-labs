@@ -1,0 +1,83 @@
+{
+  "slug": "pirin-ultra-nordic",
+  "name": "Pirin Ultra Nordic",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 900,
+    "country": "Bulgaria",
+    "region": "Blagoevgrad",
+    "discipline": "classic",
+    "field_size": 120,
+    "founded": 2018,
+    "website": "https://www.bulskilodge.bg",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Pirin Ultra Nordic' cross-country ski race with 50km distance; results describe 'Pirin Ultra' as a running ultramarathon with distances 25km, 38km, 68km, 160km.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 900m elevation for a 50km cross-country ski race named Pirin Ultra Nordic.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Pirin Ultra (running) is in Bulgaria, but no confirmation for ski race 'Pirin Ultra Nordic'.",
+      "source_url": "https://www.pirinultra.com"
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Pirin Ultra running race in Bansko, Blagoevgrad province, Bulgaria, but no ski race match.",
+      "source_url": "https://www.pirinultra.com"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources for classic skiing in Pirin Ultra Nordic; Pirin Ultra is trail running/skyrunning.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers found for Pirin Ultra Nordic ski race.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Pirin Ultra running race first edition 2016, not 2018, and not a ski race.",
+      "source_url": "https://www.pirinultra.com"
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.bulskilodge.bg not confirmed as official site for Pirin Ultra Nordic; Pirin Ultra running site is https://www.pirinultra.com.",
+      "source_url": "https://www.pirinultra.com"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No late February date for ski race; Pirin Ultra running in early-mid September.",
+      "source_url": "https://www.pirinultra.com/schedule"
+    }
+  },
+  "citations": [
+    "https://worldsmarathons.com/marathon/pirin-ultra",
+    "https://www.ahotu.com/event/pirin-ultra",
+    "https://www.pirinultra.com",
+    "https://www.pirinultra.com/routes/25km",
+    "https://itra.run/Races/RaceDetails/102540",
+    "https://www.youtube.com/watch?v=IKC61hVkPEI",
+    "https://www.pirinultra.com/schedule",
+    "https://www.finishers.com/en/event/pirin-extreme-and-pirin-ultra"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:49:07Z"
+}

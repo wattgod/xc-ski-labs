@@ -1,0 +1,27 @@
+{
+  "slug": "pirin-ultra-nordic",
+  "name": "Pirin Ultra Nordic",
+  "country": "Bulgaria",
+  "tier": 3,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Pirin Ultra Nordic'. The official website pirinultra.com describes a trail running ultramarathon event in Pirin Mountains, Bulgaria, with routes like 160km, 68km, etc., history since 2016, and 2026 dates in September, but no mention of skiing or Nordic events. No race results, news articles, social media, or listings for any ski race by this name.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.pirinultra.com",
+    "https://www.pirinultra.com/routes/160km",
+    "https://www.pirinultra.com/registration",
+    "https://www.pirinultra.com/routes/38km",
+    "https://www.pirinultra.com/contact",
+    "https://www.pirinultra.com/accommodation",
+    "https://www.pirinultra.com/routes/68km",
+    "https://www.pirinultra.com/routes/25km",
+    "https://www.pirinultra.com/gallery",
+    "https://www.pirinultra.com/schedule"
+  ],
+  "checked_at": "2026-03-12T15:59:58Z"
+}

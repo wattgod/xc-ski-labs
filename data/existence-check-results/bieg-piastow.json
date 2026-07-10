@@ -1,0 +1,31 @@
+{
+  "slug": "bieg-piastow",
+  "name": "Bieg Piastów",
+  "country": "Poland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://bieg-piastow.pl",
+    "results_url": "https://pl.wikipedia.org/wiki/Bieg_Piast%C3%B3w",
+    "evidence_summary": "Bieg Piastów has an active official website with race details, schedules for 2025-2026, and event pages for distances like 50km, 25km, and 30km. It is listed on Worldloppet with history since 1976, membership since 2008, and course details. Wikipedia provides winner lists from 1976 to 2026, confirming past editions, and notes 2024 cancellation due to snow but ongoing tradition.",
+    "sources": [
+      "https://bieg-piastow.pl",
+      "https://www.worldloppet.com/wl-race/bieg-piastow/",
+      "https://pl.wikipedia.org/wiki/Bieg_Piast%C3%B3w",
+      "https://bieg-piastow.pl/50-km-ct",
+      "https://bieg-piastow.pl/bieg-piastow"
+    ]
+  },
+  "citations": [
+    "https://bieg-piastow.pl/50-km-ct",
+    "https://www.worldloppet.com/wl-race/bieg-piastow/",
+    "https://bieg-piastow.pl/25-km-ct",
+    "https://bieg-piastow.pl/30-km-ft",
+    "https://pl.wikipedia.org/wiki/Bieg_Piast%C3%B3w",
+    "https://bieg-piastow.pl/bieg-piastow",
+    "https://bieg-piastow.pl",
+    "https://bieg-piastow.pl/ertgy-908/n"
+  ],
+  "checked_at": "2026-03-12T15:40:14Z"
+}

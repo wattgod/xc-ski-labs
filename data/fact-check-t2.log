@@ -1,0 +1,424 @@
+Found 115 race(s) to check.
+
+[1/115] Checking: 3 Zinnen Ski-Marathon (3-zinnen-ski-marathon)
+  Results: 4 correct, 0 wrong, 5 uncertain
+[2/115] Checking: Alley Loop (alley-loop)
+  Results: 8 correct, 1 wrong, 0 uncertain
+    FIX: founded: 1994 -> 1982
+[3/115] Checking: Almaty Ski Marathon (almaty-ski-marathon)
+  Results: 3 correct, 0 wrong, 5 uncertain
+[4/115] Checking: American Birkebeiner (american-birkebeiner)
+  Results: 7 correct, 2 wrong, 0 uncertain
+    FIX: distance_km: 55 -> 50
+[5/115] Checking: Arctic Circle Race (arctic-circle-race)
+  Results: 8 correct, 0 wrong, 1 uncertain
+[6/115] Checking: Bad Gastein Criterium (bad-gastein-criterium)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[7/115] Checking: Baikal Ski Marathon (baikal-ski-marathon)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[8/115] Checking: Bayerischer Wald Skimarathon (bayerischer-wald-skimarathon)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[9/115] Checking: Beito Ski Marathon (beito-ski-marathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[10/115] Checking: Besseggen på Langs (besseggen-pa-langs)
+  Results: 7 correct, 1 wrong, 1 uncertain
+    FIX: region: 'Oppland' -> 'Innlandet'
+[11/115] Checking: Bieg Grunwaldzki (bieg-grunwaldzki)
+  Results: 1 correct, 0 wrong, 8 uncertain
+[12/115] Checking: Bieg Piastów (bieg-piastow)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[13/115] Checking: Boulder Mountain Tour (boulder-mountain-tour)
+  Results: 7 correct, 2 wrong, 0 uncertain
+    FIX: elevation_m: 350 -> 850
+    FIX: region: 'Idaho' -> 'Utah'
+[14/115] Checking: California Gold Rush (california-gold-rush)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[15/115] Checking: Canadian Birkebeiner (canadian-birkebeiner)
+  Results: 4 correct, 0 wrong, 5 uncertain
+[16/115] Checking: Canadian Ski Marathon (canadian-ski-marathon)
+  Results: 8 correct, 0 wrong, 1 uncertain
+[17/115] Checking: Dachstein Nordic Classic (dachstein-nordic-classic)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[18/115] Checking: Davos Nordic Marathon (davos-nordic-marathon)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[19/115] Checking: Dolomitenlauf (dolomitenlauf)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[20/115] Checking: Einsiedler Skimarathon (einsiedler-skimarathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[21/115] Checking: Engadin Frauenlauf (engadin-frauenlauf)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[22/115] Checking: Engelbrektsloppet (engelbrektsloppet)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[23/115] Checking: Étoile des Saisies (etoile-des-saisies)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[24/115] Checking: Finlandia-hiihto (finlandia-hiihto)
+  Results: 8 correct, 0 wrong, 1 uncertain
+[25/115] Checking: Fjälltopploppet (fjalltopploppet)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[26/115] Checking: Flyktningerennet (flyktningerennet)
+  Results: 4 correct, 2 wrong, 3 uncertain
+    FIX: region: 'Trøndelag / Jämtland' -> 'Trøndelag'
+[27/115] Checking: Fossavatnsgangan (fossavatnsgangan)
+  Results: 1 correct, 0 wrong, 8 uncertain
+[28/115] Checking: Foulée Blanche (foulee-blanche)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[29/115] Checking: Ganghoferlauf (ganghoferlauf)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[30/115] Checking: Gatineau 55 (gatineau-55)
+  Results: 6 correct, 1 wrong, 2 uncertain
+    FIX: discipline: 'classic' -> 'both'
+[31/115] Checking: Gatineau Loppet (gatineau-loppet)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[32/115] Checking: Gommerlauf (gommerlauf)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[33/115] Checking: Granfondo Dobbiaco-Cortina (granfondo-dobbiaco-cortina)
+  Results: 7 correct, 2 wrong, 0 uncertain
+    FIX: elevation_m: 200 -> 850
+[34/115] Checking: Great Ski Race (great-ski-race)
+  Results: 8 correct, 1 wrong, 0 uncertain
+    FIX: elevation_m: 400 -> 850
+[35/115] Checking: Grenaderløpet (grenaderlopet)
+  Results: 8 correct, 0 wrong, 0 uncertain
+[36/115] Checking: Gsieser Tal Lauf (gsieser-tal-lauf)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[37/115] Checking: Hafjell Ski Marathon (hafjell-ski-marathon)
+  Results: 3 correct, 0 wrong, 5 uncertain
+[38/115] Checking: HalvVasan (halvvasan)
+  Results: 7 correct, 2 wrong, 0 uncertain
+    FIX: elevation_m: 400 -> 850
+[39/115] Checking: Hedmarksvidda On Ski (hedmarksvidda-on-ski)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[40/115] Checking: Holmenkollen Skimaraton (holmenkollen-skimaraton)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[41/115] Checking: Holmenkollmarsjen (holmenkollmarsjen)
+  Results: 4 correct, 2 wrong, 3 uncertain
+[42/115] Checking: IngaLåmi (ingalami)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[43/115] Checking: Jämtkraft Ski Marathon (jamtkraft-ski-marathon)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[44/115] Checking: Kainuu Ski Marathon (kainuu-ski-marathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[45/115] Checking: Kangaroo Hoppet (kangaroo-hoppet)
+  Results: 5 correct, 1 wrong, 3 uncertain
+    FIX: discipline: 'skate' -> 'both'
+[46/115] Checking: Keskinada Loppet (keskinada-loppet)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[47/115] Checking: Khanty-Mansiysk Ski Marathon (khanty-mansiysk-ski-marathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[48/115] Checking: Koasalauf (koasalauf)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[49/115] Checking: Kobberløpet (kobberlopet)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[50/115] Checking: König Ludwig Lauf (konig-ludwig-lauf)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[51/115] Checking: Kortvasan (kortvasan)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[52/115] Checking: Krkonošský Maratón (krkonossky-maraton)
+  Results: 5 correct, 0 wrong, 3 uncertain
+[53/115] Checking: Kulakova Marathon (kulakova-marathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[54/115] Checking: La Sgambeda (la-sgambeda)
+  Results: 1 correct, 0 wrong, 7 uncertain
+[55/115] Checking: Lake Louise Loppet (lake-louise-loppet)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[56/115] Checking: Lake Placid Loppet (lake-placid-loppet)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[57/115] Checking: Lapponia Hiihto (lapponia-hiihto)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[58/115] Checking: Lavaredo Ski Marathon (lavaredo-ski-marathon)
+  Results: 3 correct, 1 wrong, 5 uncertain
+    FIX: region: 'Veneto' -> 'Trentino-Alto Adige/South Tyrol'
+[59/115] Checking: Levi Ski Marathon (levi-ski-marathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[60/115] Checking: Mammoth Marathon (mammoth-marathon)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[61/115] Checking: Mara (mara-engadin)
+  Results: 0 correct, 1 wrong, 8 uncertain
+    FIX: website: 'https://www.myvaulting.ch/mara' -> 'unknown'
+[62/115] Checking: Marathon de Bessans (marathon-de-bessans)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[63/115] Checking: Marathon des Glières (marathon-des-glieres)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[64/115] Checking: Marathon du Grand Bec (marathon-du-grand-bec)
+  Results: 0 correct, 0 wrong, 9 uncertain
+[65/115] Checking: Marcia Gran Paradiso (marcia-gran-paradiso)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[66/115] Checking: Marcialonga Bodo (marcialonga-bodo)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[67/115] Checking: Marxa Beret (marxa-beret)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[68/115] Checking: Mont-Sainte-Anne Loppet (mont-sainte-anne-loppet)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[69/115] Checking: Mora-Nissa Ski Marathon (mora-nissa-ski-marathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[70/115] Checking: Murmansk Ski Marathon (murmansk-ski-marathon)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[71/115] Checking: Nattvasan (nattvasan)
+  Results: 6 correct, 1 wrong, 2 uncertain
+    FIX: date: 'Late February' -> 'Early March'
+[72/115] Checking: Niseko Ski Marathon (niseko-ski-marathon)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[73/115] Checking: Nordenskiöldsloppet (nordenskioldsloppet)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[74/115] Checking: Öppet Spår (oppet-spar)
+  Results: 9 correct, 0 wrong, 0 uncertain
+[75/115] Checking: Payakentsut (payakentsut)
+  Results: 0 correct, 0 wrong, 9 uncertain
+[76/115] Checking: Peer Gynt Skimaraton (peer-gynt-skimaraton)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[77/115] Checking: Pepsi Challenge (pepsi-challenge)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[78/115] Checking: Pirkan Hiihto (pirkan-hiihto)
+  Results: 5 correct, 2 wrong, 2 uncertain
+[79/115] Checking: Pogostan Hiihto (pogostan-hiihto)
+  Results: 0 correct, 0 wrong, 9 uncertain
+[80/115] Checking: Pokljuka Nordic Marathon (pokljuka-nordic-marathon)
+  Results: 5 correct, 1 wrong, 3 uncertain
+    FIX: website: 'https://www.sloski.si' -> 'https://www.pokljuka-maraton.si'
+[81/115] Checking: Pyeongchang International Cross-Country (pyeongchang-international-xc)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[82/115] Checking: Reistadløpet (reistadlopet)
+  Results: 1 correct, 0 wrong, 8 uncertain
+[83/115] Checking: Saariselkä Ski Marathon (saariselka-ski-marathon)
+  Results: 3 correct, 0 wrong, 6 uncertain
+[84/115] Checking: Salpausselkä Hiihto (salpausselka-hiihto)
+  Results: 5 correct, 1 wrong, 3 uncertain
+[85/115] Checking: Sapporo Ski Marathon (sapporo-ski-marathon)
+  Results: 3 correct, 0 wrong, 6 uncertain
+[86/115] Checking: Schwarzwald Skimarathon (schwarzwald-skimarathon)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[87/115] Checking: Skadi Loppet (skadi-loppet)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[88/115] Checking: Skarverennet (skarverennet)
+  Results: 9 correct, 0 wrong, 0 uncertain
+[89/115] Checking: Ski Trail Tannheimer Tal (ski-trail-tannheimer-tal)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[90/115] Checking: Snow Mountain Ranch Stampede (snow-mountain-ranch-stampede)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[91/115] Checking: Sovereign Lake Loppet (sovereign-lake-loppet)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[92/115] Checking: StafettVasan (stafettvasan)
+  Results: 7 correct, 1 wrong, 1 uncertain
+[93/115] Checking: Stowe Derby (stowe-derby)
+  Results: 7 correct, 1 wrong, 1 uncertain
+[94/115] Checking: Sudtirol Moonlight Classic (sudtirol-moonlight-classic)
+  Results: 3 correct, 0 wrong, 6 uncertain
+[95/115] Checking: Šumavský Skimaraton (sumavsky-skimaraton)
+  Results: 4 correct, 1 wrong, 4 uncertain
+    FIX: discipline: 'skate' -> 'both'
+[96/115] Checking: Grand Finale Summit 2 Senja (summit-2-senja)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[97/115] Checking: Suomen Hiihto (suomen-hiihto)
+  Results: 7 correct, 0 wrong, 2 uncertain
+[98/115] Checking: Tartu Maraton (tartu-maraton)
+  Results: 5 correct, 2 wrong, 2 uncertain
+    FIX: discipline: 'classic' -> 'both'
+    FIX: founded: 1960 -> 1966
+[99/115] Checking: Tervahiihto (tervahiihto)
+  Results: 6 correct, 1 wrong, 2 uncertain
+[100/115] Checking: Thorleif Haugs Minneløp (thorleif-haugs-minnelop)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[101/115] Checking: Tjejvasan (tjejvasan)
+  Results: 6 correct, 1 wrong, 2 uncertain
+[102/115] Checking: Tour of Anchorage (tour-of-anchorage)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[103/115] Checking: Trans'Vercors (trans-vercors)
+  Results: 9 correct, 0 wrong, 0 uncertain
+[104/115] Checking: La Transjurassienne (transjurassienne)
+  Results: 8 correct, 0 wrong, 1 uncertain
+[105/115] Checking: Traversée du Massacre (traverse-du-massacre)
+  Results: 0 correct, 0 wrong, 8 uncertain
+[106/115] Checking: Traversée de la Haute-Jura (traversee-de-la-haute-jura)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[107/115] Checking: Valdres Skimaraton (valdres-skimaraton)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[108/115] Checking: Valtellina Orobie Ski Marathon (valtellina-orobie-ski-marathon)
+  Results: 3 correct, 1 wrong, 5 uncertain
+    FIX: website: 'https://www.valtellina.it' -> 'https://www.valtellinaorobieskimarathon.it'
+[109/115] Checking: Vasaloppet Japan (vasaloppet-japan)
+  Results: 1 correct, 0 wrong, 7 uncertain
+[110/115] Checking: Vasaloppet USA (vasaloppet-usa)
+  Results: 7 correct, 2 wrong, 0 uncertain
+    FIX: elevation_m: 200 -> 850
+[111/115] Checking: Vuokatti Hiihto (vuokatti-hiihto)
+  Results: 2 correct, 0 wrong, 7 uncertain
+[112/115] Checking: Yellowstone Rendezvous (yellowstone-rendezvous)
+  Results: 7 correct, 1 wrong, 1 uncertain
+[113/115] Checking: Ylläs-Levi Hiihto (yllas-levi-hiihto)
+  Results: 5 correct, 0 wrong, 4 uncertain
+[114/115] Checking: Ylläs-Pallas (yllas-pallas)
+  Results: 6 correct, 0 wrong, 3 uncertain
+[115/115] Checking: Zao Ski Marathon (zao-ski-marathon)
+  Results: 3 correct, 0 wrong, 6 uncertain
+
+============================================================
+Done. Checked: 115, Skipped: 0, Errors: 0
+Auto-fixes applied: 20
+Results saved to: /Users/mattirowe/Documents/NordicLab/nordic-race-automation/data/fact-check-results/
+Report saved to: /Users/mattirowe/Documents/NordicLab/nordic-race-automation/data/fact-check-report.json
+
+============================================================
+FACT-CHECK REPORT — 122 races checked
+============================================================
+
+Field                 CORRECT    WRONG  UNCERTAIN
+-------------------- -------- -------- ----------
+distance_km                81        1         40
+elevation_m                12        9        101
+country                   116        0          6
+region                    107        4         11
+discipline                 77        7         38
+field_size                 21        2         99
+founded                    15        2        105
+website                    40        3         79
+date                       12        1        109
+
+============================================================
+WRONG FINDINGS (29 total)
+============================================================
+
+  alley-loop.founded
+    Profile value: 1994
+    Correct value: 1982
+    Note: The Alley Loop was first held in 1982, not 1994
+
+  american-birkebeiner.distance_km
+    Profile value: 55
+    Correct value: 50
+    Note: The American Birkebeiner main race distance is 50km, not 55km
+
+  besseggen-pa-langs.region
+    Profile value: 'Oppland'
+    Correct value: 'Innlandet'
+    Note: Oppland was merged with Hedmark to form Innlandet county in 2020, though historically it was in Oppland
+
+  birkebeinerrennet.elevation_m
+    Profile value: 1000
+    Correct value: 1050
+    Note: The elevation gain is approximately 1050 meters, not 1000 meters
+
+  birkebeinerrennet.field_size
+    Profile value: '~8,000 starters'
+    Correct value: 10000
+    Note: The race typically has around 10,000-12,000 participants, not 8,000
+
+  boulder-mountain-tour.elevation_m
+    Profile value: 350
+    Correct value: 850
+    Note: The race has approximately 850 meters of elevation gain, not 350m
+
+  boulder-mountain-tour.region
+    Profile value: 'Idaho'
+    Correct value: 'Utah'
+    Note: The Boulder Mountain Tour is held in Utah, not Idaho
+
+  engadin-skimarathon.elevation_m
+    Profile value: 400
+    Correct value: 200
+    Note: The elevation gain is approximately 200 meters, not 400 meters
+
+  engadin-skimarathon.discipline
+    Profile value: 'skate'
+    Correct value: 'both'
+    Note: The Engadin Skimarathon offers both classic and skating techniques
+
+  flyktningerennet.region
+    Profile value: 'Trøndelag / Jämtland'
+    Correct value: 'Trøndelag'
+    Note: The race is held in Trøndelag region of Norway, not spanning into Sweden's Jämtland
+
+  gatineau-55.discipline
+    Profile value: 'classic'
+    Correct value: 'both'
+    Note: The Gatineau Loppet typically offers both classic and skate skiing options
+
+  granfondo-dobbiaco-cortina.elevation_m
+    Profile value: 200
+    Correct value: 850
+    Note: The race has approximately 850m of elevation gain, not 200m
+
+  great-ski-race.elevation_m
+    Profile value: 400
+    Correct value: 850
+
+  halvvasan.elevation_m
+    Profile value: 400
+    Correct value: 850
+    Note: The elevation gain is approximately 850 meters, not 400 meters
+
+  jizerska-50.elevation_m
+    Profile value: 500
+    Correct value: 850
+    Note: The elevation gain is approximately 850 meters, not 500 meters
+
+  jizerska-50.discipline
+    Profile value: 'classic'
+    Correct value: 'both'
+    Note: Jizerská 50 offers both classic and skate skiing techniques
+
+  jizerska-50.field_size
+    Profile value: '~9,200 starters'
+    Correct value: 6000
+    Note: The typical field size is around 6,000 participants, not 9,200
+
+  kangaroo-hoppet.discipline
+    Profile value: 'skate'
+    Correct value: 'both'
+    Note: The Kangaroo Hoppet offers both classic and skate skiing disciplines
+
+  lavaredo-ski-marathon.region
+    Profile value: 'Veneto'
+    Correct value: 'Trentino-Alto Adige/South Tyrol'
+    Note: The race is held in the Dolomites area, which is in Trentino-Alto Adige/South Tyrol, not Veneto
+
+  mara-engadin.website
+    Profile value: 'https://www.myvaulting.ch/mara'
+    Correct value: 'unknown'
+    Note: The provided URL appears to be for a vaulting website, not cross-country skiing
+
+  marcialonga.elevation_m
+    Profile value: 700
+    Correct value: 1050
+    Note: The elevation gain is approximately 1,050 meters, not 700 meters
+
+  marcialonga.discipline
+    Profile value: 'classic'
+    Correct value: 'both'
+    Note: Marcialonga allows both classic and skating techniques
+
+  nattvasan.date
+    Profile value: 'Late February'
+    Correct value: 'Early March'
+    Note: Nattvasan typically takes place in early March, not late February
+
+  pokljuka-nordic-marathon.website
+    Profile value: 'https://www.sloski.si'
+    Correct value: 'https://www.pokljuka-maraton.si'
+    Note: The official website is pokljuka-maraton.si, not sloski.si which is the general Slovenian ski association site
+
+  sumavsky-skimaraton.discipline
+    Profile value: 'skate'
+    Correct value: 'both'
+    Note: The race typically offers both classic and skate techniques
+
+  tartu-maraton.discipline
+    Profile value: 'classic'
+    Correct value: 'both'
+    Note: The Tartu Maraton offers both classic and freestyle (skate) categories
+
+  tartu-maraton.founded
+    Profile value: 1960
+    Correct value: 1966
+    Note: The Tartu Maraton was first held in 1966, not 1960
+
+  valtellina-orobie-ski-marathon.website
+    Profile value: 'https://www.valtellina.it'
+    Correct value: 'https://www.valtellinaorobieskimarathon.it'
+    Note: The general Valtellina tourism site is not the race-specific website
+
+  vasaloppet-usa.elevation_m
+    Profile value: 200
+    Correct value: 850
+    Note: The elevation gain is significantly higher than 200m, closer to 850m based on the challenging terrain
+
+Report saved to: /Users/mattirowe/Documents/NordicLab/nordic-race-automation/data/fact-check-report.json

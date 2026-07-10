@@ -1,0 +1,85 @@
+{
+  "slug": "beito-ski-marathon",
+  "name": "Beito Ski Marathon",
+  "facts": {
+    "distance_km": 35,
+    "elevation_m": 400,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "both",
+    "field_size": "~600 starters",
+    "founded": 1982,
+    "website": null,
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Beito Ski Marathon' or a 35km cross-country ski race with this name.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Beito Ski Marathon' or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Beitostølen events are in Norway, no sources confirm 'Beito Ski Marathon'.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Innlandet matches Beitostølen location in some sources, but no confirmation for this specific race.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources describe 'Beito Ski Marathon' disciplines.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for 'Beito Ski Marathon'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention founding year of 'Beito Ski Marathon'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Beito Ski Marathon'.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm dates for 'Beito Ski Marathon'.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.ahotu.com/event/fjellmaraton",
+    "https://www.riddergaarden.no/en/hva-skjer-hos-oss/beitosprinten/",
+    "https://www.visitbeitostolen.no/en/stories/norwegian-mountain-marathon/",
+    "https://www.youtube.com/watch?v=7C9vJf7m_N8",
+    "https://www.youtube.com/watch?v=ZgR61JUg9Sk",
+    "https://etusuora.com/en/cross-country-skiing/beitosprinten",
+    "https://www.proxcskiing.com/traditional-skiing/beitostolen-season-opener-program-and-start-lists-for-the-10km-classic/",
+    "https://beito.com/en/activities/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=58148&seasoncode=2026",
+    "https://www.youtube.com/watch?v=jlXjUtIm3YY"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:45:48Z"
+}

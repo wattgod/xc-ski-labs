@@ -1,0 +1,29 @@
+{
+  "slug": "pogostan-hiihto",
+  "name": "Pogostan Hiihto",
+  "country": "Finland",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://ilu.fi/pogostan-hiihto",
+    "results_url": "https://tulokset.hiihtoliitto.fi/site/assets/files/355722/142_pogostanhiihto_2019_tulokset.pdf",
+    "evidence_summary": "Official 2019 race results from the Finnish Ski Association confirm the event with detailed timing for 51km races in Ilomantsi. The organizer's website (Ilomantsin Urheilijat) details the event history, 2024/2025 news including cancellations due to snow, and registration info. Multiple years of results and announcements establish it as a real, recurring cross-country ski race.",
+    "sources": [
+      "https://tulokset.hiihtoliitto.fi/site/assets/files/355722/142_pogostanhiihto_2019_tulokset.pdf",
+      "https://ilu.fi/pogostan-hiihto",
+      "https://hiihtoliitto.fi/en/front-page/"
+    ]
+  },
+  "citations": [
+    "https://tulokset.hiihtoliitto.fi/site/assets/files/355722/142_pogostanhiihto_2019_tulokset.pdf",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "https://ilu.fi/pogostan-hiihto",
+    "https://www.finlandiahiihto.fi",
+    "https://hiihtoliitto.fi/en/front-page/",
+    "https://www.finlandiahiihto.fi/relay-and-team-race",
+    "https://www.finlandiahiihto.fi/de/news",
+    "http://www.rollerski.co.uk/nf003.html"
+  ],
+  "checked_at": "2026-03-12T16:00:31Z"
+}

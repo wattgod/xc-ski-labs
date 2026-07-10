@@ -1,0 +1,82 @@
+{
+  "slug": "keskinada-loppet",
+  "name": "Keskinada Loppet",
+  "facts": {
+    "distance_km": 51,
+    "elevation_m": 600,
+    "country": "Canada",
+    "region": "Quebec",
+    "discipline": "classic",
+    "field_size": "~2,000 starters",
+    "founded": 1979,
+    "website": "https://www.skimarathon.ca",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Keskinada Loppet was renamed from Gatineau 55 and changed to 50km in 1996; current flagship race is 50km",
+      "source_url": "https://www.worldloppet.com/wl-race/gatineau-loppet/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canada",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Quebec, specifically Gatineau",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Classic style confirmed for at least one race (27k), but no specific confirmation for Keskinada Loppet's 51/50km race",
+      "source_url": "https://www.youtube.com/watch?v=AaVZx7njvbg"
+    },
+    "field_size": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "~2,500 participants matches ~2,000 within ±20% tolerance",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition 1979 as Rivière Rouge, later Keskinada Loppet",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://gatineauloppet.com/?lang=en",
+      "note": "Current official site is gatineauloppet.com; skimarathon.ca not mentioned",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically February, late February aligns",
+      "source_url": "https://en.wikipedia.org/wiki/Gatineau_Loppet"
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Gatineau_Loppet",
+    "https://gatineauloppet.com/about-us/gloppet/?lang=en",
+    "https://gatineauloppet.com/?lang=en",
+    "https://www.swixsport.ca/blogs/all-articles/loppets-uncovered-everything-you-need-to-know",
+    "https://www.worldloppet.com/i-am-in-love-with-gatinau-loppet-get-ready-for-2026/",
+    "https://www.youtube.com/watch?v=AaVZx7njvbg",
+    "https://www.worldloppet.com/wl-race/gatineau-loppet/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:50:06Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "3-zinnen-ski-marathon",
+  "name": "3 Zinnen Ski-Marathon",
+  "facts": {
+    "distance_km": 62,
+    "elevation_m": 800,
+    "country": "Italy",
+    "region": "Trentino-Alto Adige",
+    "discipline": "classic",
+    "field_size": "~1,500 starters",
+    "founded": 1976,
+    "website": "https://www.ski-marathon.com",
+    "date": "Third Sunday in January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 62 km classic race distance",
+      "source_url": "https://www.ahotu.com/event/3-zinnen-ski-marathon"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain; Prato Piazza mentioned with 1000m but for separate skate race",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Italy",
+      "source_url": "https://www.ahotu.com/event/3-zinnen-ski-marathon"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Trentino-Alto Adige/Südtirol confirmed",
+      "source_url": "https://www.ahotu.com/event/3-zinnen-ski-marathon"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "62 km is classic technique",
+      "source_url": "https://www.dolomitinordicski.com/en/events/3-zinnen-ski-marathon"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 100,
+      "note": "Sources state 'over a hundred skiers' compete each year, not ~1500; ~1,500 outside ±20% tolerance (1200-1800)",
+      "source_url": "https://www.dolomiti.it/en/3-zinnen-dolomites/events/pustertaler-ski-marathon"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "50th edition in 2026 confirms first edition 1976 (2026-50=1976)",
+      "source_url": "https://www.dolomitinordicski.com/en/events/3-zinnen-ski-marathon"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official site listed as www.ski-marathon.com",
+      "source_url": "https://www.dolomitinordicski.com/en/events/3-zinnen-ski-marathon"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "January 9-11 (classic on Saturday)",
+      "note": "Typically early/mid-January over weekend (e.g., Jan 10 classic in 2026), not specifically third Sunday",
+      "source_url": "https://www.dolomitinordicski.com/en/events/3-zinnen-ski-marathon"
+    }
+  },
+  "citations": [
+    "https://www.ahotu.com/event/3-zinnen-ski-marathon",
+    "https://www.dolomitinordicski.com/en/events/3-zinnen-ski-marathon",
+    "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/3-zinnen-ski-marathon/",
+    "https://skiclassics.com/events/pro-tour/3-zinnen-ski-marathon/",
+    "https://www.worldloppet.com/pustertaler-ski-marathon-ita/",
+    "https://www.dolomiti.it/en/3-zinnen-dolomites/events/pustertaler-ski-marathon",
+    "https://www.ski-marathon.com/en/",
+    "https://www.dolomitisuperski.com/en/experiences/events/3-Zinnen-Dolomites/2026/50-3-Zinnen-Ski-Marathon",
+    "https://www.sesto.it/en/event/3zinnen-ski-marathon/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:44:46Z"
+}

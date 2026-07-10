@@ -1,0 +1,35 @@
+{
+  "slug": "attraverso-campra",
+  "name": "Attraverso Campra",
+  "country": "Switzerland",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.campra.ch",
+    "results_url": "http://my.raceresult.com/379048/",
+    "evidence_summary": "The race is listed on the official Campra.ch website with event pages for 2025 and 2026 editions, including past winner mentions. RaceResult.com hosts registration and results pages for multiple years (2025, 2026). It appears in Worldloppet, Swiss-Ski official calendars, and other ski sites with historical dates like 2023.",
+    "sources": [
+      "https://www.worldloppet.com/attraverso-campra/",
+      "http://my.raceresult.com/379048/",
+      "https://www.campra.ch",
+      "https://www.campra.ch/events/swiss-loppet-attraverso-campra/",
+      "https://www.campra.ch/swissloppet/",
+      "https://www.swiss-ski.ch/fr/resultats/detail/2026-campra-cross-country-0aef67d8-43a1-49ee-9f97-cd9c8c817e7a/?cHash=1e5a50731d4a46eb983b693bb9659041",
+      "http://my.raceresult.com/317906/info"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/attraverso-campra/",
+    "http://my.raceresult.com/379048/",
+    "https://www.campra.ch",
+    "https://www.campra.ch/events/swiss-loppet-attraverso-campra/",
+    "https://www.xc-ski.de/aktuelles/termine/attraverso-campra-schweiz-8/",
+    "https://www.campra.ch/swissloppet/",
+    "https://www.swiss-ski.ch/fr/resultats/detail/2026-campra-cross-country-0aef67d8-43a1-49ee-9f97-cd9c8c817e7a/?cHash=1e5a50731d4a46eb983b693bb9659041",
+    "https://www.swiss-ski.ch/langlauf/resultate/detail/2026-campra-cross-country-0aef67d8-43a1-49ee-9f97-cd9c8c817e7a",
+    "http://my.raceresult.com/317906/info",
+    "https://my.raceresult.com/379048/contact"
+  ],
+  "checked_at": "2026-03-12T15:38:37Z"
+}

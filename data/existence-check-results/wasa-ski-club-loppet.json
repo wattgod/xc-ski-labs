@@ -1,0 +1,24 @@
+{
+  "slug": "wasa-ski-club-loppet",
+  "name": "Wasa Ski Club Loppet",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Wasa Ski Club Loppet' race in the United States. Search results reference Vasaloppet USA (Mora, MN), Vasa Ski Club (Traverse City, MI), and North American Vasa (Traverse City, MI), but none match the exact name 'Wasa Ski Club Loppet'. These appear to be distinct events with no connection to the queried race.",
+    "sources": []
+  },
+  "citations": [
+    "https://vasaloppet.us",
+    "https://www.vasaskiclub.org/club-calendar.html",
+    "https://www.vasa.org/Race/MI/TraverseCity/NorthAmericanVasaFestivalofRaces",
+    "https://vasaloppet.us/2026/02/2026-vasaloppet-usa-skier-instructions/",
+    "https://vasaloppet.us/race-weekend/ski-for-life-club/",
+    "https://vasaloppet.us/news/",
+    "https://vasaloppet.us/race-weekend/"
+  ],
+  "checked_at": "2026-03-12T16:11:37Z"
+}

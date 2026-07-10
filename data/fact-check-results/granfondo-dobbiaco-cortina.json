@@ -1,0 +1,84 @@
+{
+  "slug": "granfondo-dobbiaco-cortina",
+  "name": "Granfondo Dobbiaco-Cortina",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 850,
+    "country": "Italy",
+    "region": "Dolomites",
+    "discipline": "both",
+    "field_size": "~2,000 starters",
+    "founded": 1977,
+    "website": "https://www.dobbiacocortina.it",
+    "date": "First weekend of February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 42 km classic race as the main distance",
+      "source_url": "https://www.dobbiacocortina.org/en/rules/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Italy (South Tyrol)",
+      "source_url": "https://www.dobbiacocortina.org/en/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Dolomites (3 Zinnen Dolomites, Upper Puster Valley)",
+      "source_url": "https://www.dolomitinordicski.com/en/events/dobbiaco-cortina"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic (42km Sat) and skate/free technique (35km Sun)",
+      "source_url": "https://www.dobbiacocortina.org/en/rules/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific participant numbers found; described as one of the biggest in Italy but no ~2,000 figure confirmed",
+      "source_url": null
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "First edition 1977; 49th in 2026 confirms",
+      "source_url": "https://www.dobbiacocortina.org/en/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.dobbiacocortina.org",
+      "note": "Official site is dobblacocortina.org, not dobblacocortina.it",
+      "source_url": "https://www.dobbiacocortina.org/en/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Mid-January (17-18 January 2026)",
+      "note": "Typically mid-January, not first weekend of February",
+      "source_url": "https://www.dobbiacocortina.org/en/rules/"
+    }
+  },
+  "citations": [
+    "https://www.dolomitinordicski.com/en/events/dobbiaco-cortina",
+    "https://www.dolomiti.it/en/dobbiaco/events/dobbiaco-cortina-cross-country-ski-race",
+    "https://www.dobbiacocortina.org/en/rules/",
+    "https://www.endu.net/en/events/granfondo-dobbiaco-cortina-tecnica-classica/info",
+    "https://www.dobbiacocortina.org/en/",
+    "https://skiclassics.com/events/challengers/granfondo-dobbiach-toblach-cortina-classic/",
+    "https://www.dobbiacocortina.org/en/program/",
+    "https://www.dobbiacocortina.org/en/registration/",
+    "https://www.dolomitisuperski.com/en/experiences/events/3-Zinnen-Dolomites/2026/49-Gran-Fondo-Dobbiaco-Cortina"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:48:45Z"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "bedrichov-night-light",
+  "name": "Bedrichov Night Light Marathon",
+  "country": "Czech Republic",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.bedrichov-ou.cz/cs/aktuality/bedrichovsky-night-light-marathon-2025.html",
+    "results_url": "https://vysledky.sportsoft.cz/race/781",
+    "evidence_summary": "Multiple official sources confirm the Bedřichovský Night Light Marathon as a real annual cross-country ski event in Bedřichov, Czech Republic, with races in free and classical techniques over 10-30 km distances held over two nights. Concrete evidence includes detailed race results from SportSoft Timing for 2026 and prior years, listings on Worldloppet, registration and program details on local sites, and event calendars from the organizing municipality. The event is part of the Czech Ski Tour series.",
+    "sources": [
+      "https://www.bedrichov-ou.cz/cs/aktuality/bedrichovsky-night-light-marathon-2025.html",
+      "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/",
+      "https://www.stopaprozivot.cz/zavody/bnlm/propozice",
+      "https://vysledky.sportsoft.cz/race/781",
+      "https://www.bedrichov.cz/redakce/index.php?lanG=en&subakce=events&show=9.1.2026",
+      "https://vysledky.sportsoft.cz/race/434/competition/3152",
+      "https://www.langrenn.com/event/bedrichov-night-light-marathon-2/"
+    ]
+  },
+  "citations": [
+    "https://www.bedrichov-ou.cz/cs/aktuality/bedrichovsky-night-light-marathon-2025.html",
+    "https://www.worldloppet.com/bedrichov-night-light-marathon-cze/",
+    "https://www.stopaprozivot.cz/zavody/bnlm/propozice",
+    "https://www.langrenn.com/event/bedrichov-night-light-marathon-2/",
+    "https://vysledky.sportsoft.cz/race/781",
+    "https://www.bedrichov.cz/redakce/index.php?lanG=en&subakce=events&show=9.1.2026",
+    "https://vysledky.sportsoft.cz/race/434/competition/3152"
+  ],
+  "checked_at": "2026-03-12T15:39:21Z"
+}

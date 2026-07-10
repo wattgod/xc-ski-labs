@@ -1,0 +1,83 @@
+{
+  "slug": "dolomiti-ski-jazz",
+  "name": "Dolomiti Ski Jazz",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 250,
+    "country": "Italy",
+    "region": "Trentino-Alto Adige",
+    "discipline": "both",
+    "field_size": 600,
+    "founded": 1987,
+    "website": "https://www.dolomitiskijazz.com",
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning a 25km cross-country ski race associated with Dolomiti Ski Jazz; results describe it as a music festival with ski-related concerts, not a race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources provide elevation gain for any Dolomiti Ski Jazz race; event appears to be a jazz festival during ski season, not a ski race with specified profile.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed in Trentino valleys (Italy).",
+      "source_url": "https://www.fassa.com/en/press-area/comunicati-stampa/the-global-spirit-to-the-30th-dolomiti-ski-jazz"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Val di Fassa, Fiemme, Cembra in Trentino (Trentino-Alto Adige).",
+      "source_url": "https://www.fassa.com/en/press-area/comunicati-stampa/the-global-spirit-to-the-30th-dolomiti-ski-jazz"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm classic, skate, or both for Dolomiti Ski Jazz; described as music festival with skiing contexts, no race discipline specified.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention typical number of participants ~600 for a Dolomiti Ski Jazz race; other races like Val Casies have thousands, but not this event.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "30th edition in 2026 implies ~1997 start, contradicting 1987; however, no explicit first edition year or race confirmation found.",
+      "source_url": "https://www.fassa.com/en/press-area/comunicati-stampa/the-global-spirit-to-the-30th-dolomiti-ski-jazz"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Provided URL not in results; event sites like visitfiemme.it and fassa.com mention festival but no matching official race site found.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "2026 edition 6-15 March (early March).",
+      "source_url": "https://www.fassa.com/en/press-area/comunicati-stampa/the-global-spirit-to-the-30th-dolomiti-ski-jazz"
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=hHmAk9PaMss",
+    "https://www.dolomitisuperski.com/en/experiences/events/3-Zinnen-Dolomites/2026/49-Gran-Fondo-Dobbiaco-Cortina",
+    "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/val-casies-cross-country-ski-race/",
+    "https://www.fassa.com/en/press-area/comunicati-stampa/the-global-spirit-to-the-30th-dolomiti-ski-jazz",
+    "https://jennwoltjen.substack.com/p/the-dolomitenlauf-cross-country-ski",
+    "https://www.visitfiemme.it/en/events/events/dolomiti-ski-jazz",
+    "https://www.visittrentino.info/en/guide/what-to-do/events/25th-dolomiti-ski-jazz_e_80766705",
+    "https://www.dolomitinordicski.com/en/events"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:38:23Z"
+}

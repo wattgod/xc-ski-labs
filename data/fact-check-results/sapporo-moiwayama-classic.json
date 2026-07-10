@@ -1,0 +1,84 @@
+{
+  "slug": "sapporo-moiwayama-classic",
+  "name": "Sapporo Moiwayama Classic",
+  "facts": {
+    "distance_km": 15,
+    "elevation_m": 250,
+    "country": "Japan",
+    "region": "Hokkaido",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 2015,
+    "website": null,
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Sapporo Moiwayama Classic' or provide distance details for such a race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Sapporo Moiwayama Classic' or provide elevation gain details.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Moiwayama is in Sapporo, Hokkaido, Japan [3], but no confirmation of a 'Sapporo Moiwayama Classic' race.",
+      "source_url": "https://www.powderhounds.com/Japan/Hokkaido/Moiwayama.aspx"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Moiwayama is in Hokkaido, Japan [3], but no confirmation of the specific race.",
+      "source_url": "https://www.powderhounds.com/Japan/Hokkaido/Moiwayama.aspx"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a classic cross-country ski race named 'Sapporo Moiwayama Classic'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources provide participant numbers for this race; FIS results in Sapporo show ~100 participants but not for this event [2].",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention founding year of 'Sapporo Moiwayama Classic'.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Sapporo Moiwayama Classic'; Moiwayama ski area unrelated [3][4].",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm dates for this race; Moiwayama ski season mid-Dec to mid-Mar [3], Sapporo events in Feb/Mar [8][9].",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/cross-country-skiing-in-japan/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50156",
+    "https://www.powderhounds.com/Japan/Hokkaido/Moiwayama.aspx",
+    "https://sapporo-moiwa.jp/en/school/",
+    "https://skiracing.com/sapporo-nordic-worlds-start-thursday-dome/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=270141&raceid=50177",
+    "https://www.youtube.com/watch?v=h1znNUnOMN8",
+    "https://www.sapporo-sport.jp/ski/english/",
+    "https://domingo.ne.jp/en/event/53040"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:51:32Z"
+}

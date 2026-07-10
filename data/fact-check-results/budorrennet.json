@@ -1,0 +1,82 @@
+{
+  "slug": "budorrennet",
+  "name": "Budorrennet",
+  "facts": {
+    "distance_km": 41,
+    "elevation_m": 150,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": 200,
+    "founded": 1970,
+    "website": "https://langlopscupen.no/",
+    "date": "February/March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm Budorrennet is 41 km",
+      "source_url": "https://nlski.no/langrenn/budorrennet/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found in search results",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm race is held in Norway (Løten, Hedmarksvidda)",
+      "source_url": "https://nlski.no/langrenn/budorrennet/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm Innlandet region (Løten Kommune is in Innlandet)",
+      "source_url": "https://birken.no/en/undersider-ski/seeding-races-birkebeinerrennet"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results explicitly state 'The race will be in classic style'",
+      "source_url": "https://nlski.no/2026/01/01/budorrennet-2026/"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 600,
+      "note": "2025 edition had 600 participants, not 200. Search results state '600 deltagere' for 2025",
+      "source_url": "https://nlski.no/langrenn/budorrennet/"
+    },
+    "year_founded": {
+      "status": "WRONG",
+      "correct_value": 2010,
+      "note": "Search results indicate 2025 was the 15th edition and 2026 is the 16th edition. Working backwards: 2025 - 15 = 2010 (approximately), not 1970",
+      "source_url": "https://nlski.no/langrenn/budorrennet/"
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://nlski.no/langrenn/budorrennet/",
+      "note": "Official website is nlski.no (Nordbygda Løten Ski), not langlopscupen.no",
+      "source_url": "https://nlski.no/langrenn/budorrennet/"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "January (early January)",
+      "note": "Search results show race is held in early January (4 January 2025, 3 January 2026), not February/March",
+      "source_url": "https://nlski.no/langrenn/budorrennet/"
+    }
+  },
+  "citations": [
+    "https://nlski.no/langrenn/budorrennet/",
+    "https://nlski.no/2026/01/01/budorrennet-2026/",
+    "https://live.eqtiming.com/73803",
+    "https://live.eqtiming.com/78660",
+    "https://creators.spotify.com/pod/profile/erlendholsen4/episodes/Budorrennet-2024-e2vrr8q",
+    "https://en.wikipedia.org/wiki/Birkebeinerrennet",
+    "https://birken.no/en/undersider-ski/seeding-races-birkebeinerrennet"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:36:23Z"
+}

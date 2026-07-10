@@ -1,0 +1,30 @@
+{
+  "slug": "ski-north-ultra",
+  "name": "Ski North Ultra",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://www.skinorthultra.com",
+    "results_url": null,
+    "evidence_summary": "Ski North Ultra is a real cross-country ski race with an official website offering registration for its second annual event on March 7, 2026, detailing the 2025 inaugural race with 72 starters and 52 finishers. Multiple credible sources including Explore Minnesota, Visit Cook County news release, MPR News, and local event listings confirm the event's existence, location on Minnesota's North Shore, and distances (25K/38K/50K/100K classic technique). No race results pages were directly found in search results, but past event details and upcoming registration provide strong evidence.",
+    "sources": [
+      "https://www.skinorthultra.com",
+      "https://www.exploreminnesota.com/event/ski-north-ultra/37699",
+      "https://www.visitcookcounty.com/articles/post/ski-north-ultramarathon-returning-to-lutsen-march-7-2026/",
+      "https://www.mprnews.org/story/2024/12/15/new-100-kilometer-ski-race-scheduled-for-northern-minnesota-this-winter",
+      "https://www.boreal.org/events/336241/ski-north-ultra",
+      "https://kpeo.org/local-events?_evDiscoveryPath=%2Fevent%2F171785r-ski-north-ultra"
+    ]
+  },
+  "citations": [
+    "https://www.exploreminnesota.com/event/ski-north-ultra/37699",
+    "https://www.skinorthultra.com",
+    "https://www.visitcookcounty.com/articles/post/ski-north-ultramarathon-returning-to-lutsen-march-7-2026/",
+    "https://www.mprnews.org/story/2024/12/15/new-100-kilometer-ski-race-scheduled-for-northern-minnesota-this-winter",
+    "https://www.boreal.org/events/336241/ski-north-ultra",
+    "https://kpeo.org/local-events?_evDiscoveryPath=%2Fevent%2F171785r-ski-north-ultra"
+  ],
+  "checked_at": "2026-03-12T16:04:30Z"
+}

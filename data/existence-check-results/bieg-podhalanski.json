@@ -1,0 +1,32 @@
+{
+  "slug": "bieg-podhalanski",
+  "name": "Bieg Podhalański",
+  "country": "Poland",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://bieg.nowytarg.pl",
+    "results_url": "https://bieg.nowytarg.pl/wyniki/",
+    "evidence_summary": "Bieg Podhalański is a confirmed real cross-country ski race in Poland with an official website, documented race results from multiple years, online registration system, and scheduled editions. The 13th edition is scheduled for January 17, 2026, with registration pages and organizational details available.",
+    "sources": [
+      "https://bieg.nowytarg.pl",
+      "https://bieg.nowytarg.pl/wyniki/",
+      "https://bieg.nowytarg.pl/zgloszenia-online/",
+      "https://formularz.ultimasport.pl/333",
+      "https://nabiegowkach.pl/kalendarz/xiii-bieg-podhalanski/",
+      "https://www.cnbklikuszowa.pl/aktualnosc/bieg-podhalanski-im-jana-pawla-ii"
+    ]
+  },
+  "citations": [
+    "https://www.cnbklikuszowa.pl/aktualnosc/bieg-podhalanski-im-jana-pawla-ii",
+    "https://formularz.ultimasport.pl/333/List",
+    "https://nabiegowkach.pl/kalendarz/xiii-bieg-podhalanski/",
+    "https://bieg.nowytarg.pl/wyniki/",
+    "https://bieg.nowytarg.pl",
+    "https://bieg.nowytarg.pl/page/2/",
+    "https://bieg.nowytarg.pl/zgloszenia-online/",
+    "https://formularz.ultimasport.pl/333"
+  ],
+  "checked_at": "2026-03-12T15:40:20Z"
+}

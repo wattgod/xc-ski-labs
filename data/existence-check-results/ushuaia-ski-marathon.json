@@ -1,0 +1,33 @@
+{
+  "slug": "ushuaia-ski-marathon",
+  "name": "Ushuaia Ski Marathon",
+  "country": "Argentina",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://www.ushuaialoppet.com",
+    "results_url": null,
+    "evidence_summary": "The Ushuaia Loppet is listed as an official Worldloppet event since 2014 with history dating back to 1986, detailed on Worldloppet's site including past participant numbers and 2023 highlights. It is also recognized by Ski Classics and Wikipedia, with multiple news articles on Worldloppet about recent editions like 2023 and 2022. Organized by Club Andino Ushuaia in Tierra Mayor Valley, it features 42km and shorter distances alongside Marchablanca.",
+    "sources": [
+      "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+      "https://en.wikipedia.org/wiki/Ushuaia_Loppet",
+      "https://skiclassics.com/events/challengers/ushuaia-loppet/",
+      "https://www.worldloppet.com/tag/ushuaialoppet/",
+      "https://www.worldloppet.com/category/news/ushuaia-loppet/"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/argentinas-greatest-ski-race-ushuaia-loppet/",
+    "https://en.wikipedia.org/wiki/Ushuaia_Loppet",
+    "https://skiclassics.com/events/challengers/ushuaia-loppet/",
+    "https://worldsmarathons.com/marathon/ushuaia-trail-race",
+    "https://www.worldloppet.com/tag/ushuaialoppet/",
+    "https://www.worldloppet.com/category/news/ushuaia-loppet/",
+    "https://findelmundo.tur.ar/en/c/eventos-deportivos/4982",
+    "https://ushuaia.utmb.world",
+    "https://skiracing.com/ushuaia-training-home-of-the-worlds-best/",
+    "https://www.ahotu.com/event/ushuaia-loppet"
+  ],
+  "checked_at": "2026-03-12T16:10:29Z"
+}

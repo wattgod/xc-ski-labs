@@ -1,0 +1,27 @@
+{
+  "slug": "boden-ski-marathon",
+  "name": "Boden Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://www.svenskalag.se/savastskiteamif/",
+    "results_url": null,
+    "evidence_summary": "Boden Ski Marathon is a real, organized cross-country ski race in Sweden hosted by Sävast Ski Team IF. Official announcements confirm the 2026 edition was scheduled for January 3, 2026, but was cancelled due to extreme cold temperatures (-20 to -26°C). The event is a seeding-qualifying marathon race in Norrbotten with multiple distance options (10.5 km, half-marathon, and full marathon).",
+    "sources": [
+      "https://www.svenskalag.se/savastskiteamif/nyheter/2441329/boden-ski-maraton-3-januari-2026",
+      "https://www.svenskalag.se/savastskiteamif/sida/122257/boden-ski-maraton-2026"
+    ]
+  },
+  "citations": [
+    "https://www.svenskalag.se/savastskiteamif/nyheter/2441329/boden-ski-maraton-3-januari-2026",
+    "https://www.svenskalag.se/savastskiteamif/sida/122257/boden-ski-maraton-2026",
+    "https://boden.se/en/explore-and-enjoy/leisure-and-sports/fitness-trails-and-outdoor-facilities/ski-trails",
+    "https://boden.se/en/explore-and-enjoy/leisure-and-sports/fitness-trails-and-outdoor-facilities/downhill-skiing",
+    "https://www.visitboden.se/en/kampanj/sportlovskul-i-boden/",
+    "https://www.swedishlapland.com/boden/",
+    "https://www.snowcross.fi/races/sweden/"
+  ],
+  "checked_at": "2026-03-12T15:41:01Z"
+}

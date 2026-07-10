@@ -1,0 +1,32 @@
+{
+  "slug": "engadin-skimarathon",
+  "name": "Engadin Skimarathon",
+  "country": "Switzerland",
+  "tier": 1,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://www.engadin-skimarathon.ch/",
+    "results_url": "https://en.wikipedia.org/wiki/Engadin_Skimarathon",
+    "evidence_summary": "The Engadin Skimarathon is listed as a Worldloppet event with detailed course info, address, and dates[1]. Wikipedia provides race history since 1969, track records, and past results like 2011-2013 winners[2]. Multiple news sites confirm recent editions (e.g., 2024, 2025), official site, and YouTube trailer, with organizational changes like start location shifts[3][5][6].",
+    "sources": [
+      "https://www.worldloppet.com/wl-race/engadin-skimarathon/",
+      "https://en.wikipedia.org/wiki/Engadin_Skimarathon",
+      "https://www.iamexpat.ch/lifestyle/events-festivals-switzerland/engadin-skimarathon",
+      "https://www.ahotu.com/event/engadin-skimarathon",
+      "https://www.loga.ch/en/blog/detail/der-engadiner-skimarathon",
+      "https://sportpress.international/skimarathon-engadin-skimarathon/",
+      "https://www.engadin.ch/en/events/engadin-marathon-week-2026"
+    ]
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/engadin-skimarathon/",
+    "https://en.wikipedia.org/wiki/Engadin_Skimarathon",
+    "https://www.iamexpat.ch/lifestyle/events-festivals-switzerland/engadin-skimarathon",
+    "https://www.ahotu.com/event/engadin-skimarathon",
+    "https://www.loga.ch/en/blog/detail/der-engadiner-skimarathon",
+    "https://sportpress.international/skimarathon-engadin-skimarathon/",
+    "https://www.engadin.ch/en/events/engadin-marathon-week-2026"
+  ],
+  "checked_at": "2026-03-12T15:44:23Z"
+}

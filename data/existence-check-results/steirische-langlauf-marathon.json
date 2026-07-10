@@ -1,0 +1,19 @@
+{
+  "slug": "steirische-langlauf-marathon",
+  "name": "Steirische Langlauf Marathon",
+  "country": "Austria",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a cross-country ski race named 'Steirische Langlauf Marathon' in Austria. Search results mention 'Graz Marathon' (a running event) and 'Steiralauf' (a real Volkslanglauf with distances like 50km Freistil and 30km Klassisch in Bad Mitterndorf), but no match for the queried name. No official site, results, news, or listings for 'Steirische Langlauf Marathon' exist.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.grazmarathon.at/en/?lang=en",
+    "https://steiralauf.at"
+  ],
+  "checked_at": "2026-03-12T16:05:45Z"
+}

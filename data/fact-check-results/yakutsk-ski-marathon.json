@@ -1,0 +1,81 @@
+{
+  "slug": "yakutsk-ski-marathon",
+  "name": "Yakutsk Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 150,
+    "country": "Russia",
+    "region": "Sakha Republic (Yakutia)",
+    "discipline": "classic",
+    "field_size": 800,
+    "founded": 1990,
+    "website": null,
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing a 'Yakutsk Ski Marathon' with specific distance details. Search results include the Siberian International Marathon (a road marathon in Omsk, not a ski race) and the Siberian Ice Half Marathon, but neither match the query about a Yakutsk-based ski marathon.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found with elevation gain data for a Yakutsk Ski Marathon.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Cannot verify without confirming the race exists. While Yakutsk is in Russia, no web sources describe a ski marathon by this name.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Yakutsk is located in Sakha Republic (Yakutia), Russia, but this cannot be confirmed as the race location without verifying the race exists.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing the discipline of a Yakutsk Ski Marathon.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found with participant data for a Yakutsk Ski Marathon.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming the founding year of a Yakutsk Ski Marathon. The 1990 date cannot be verified.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for a Yakutsk Ski Marathon in search results.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing the typical race date for a Yakutsk Ski Marathon.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Siberian_International_Marathon",
+    "https://aims-worldrunning.org/races/631.html",
+    "http://www.felicityaston.co.uk",
+    "https://media.kasperskycontenthub.com/wp-content/uploads/sites/67/2023/04/20132843/EK_book_Kolyma_block_EN_WEB3.pdf",
+    "https://www.youtube.com/watch?v=EnWK_1bVccM",
+    "https://www.gonomad.com/239889-southern-australia-cruising-victorias"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:59:40Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "schlickelauf",
+  "name": "Schlickelauf",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 550,
+    "country": "Austria",
+    "region": "Tirol",
+    "discipline": "classic",
+    "field_size": 600,
+    "founded": 1980,
+    "website": "https://www.schlickelauf.at",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Schlickelauf' cross-country ski race or its distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Schlickelauf' cross-country ski race or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming 'Schlickelauf' cross-country ski race location, though Schlick 2000 area is in Austria.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming 'Schlickelauf' cross-country ski race region, though Schlick 2000 is in Stubaital, Tirol.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Schlickelauf' cross-country ski race or its discipline.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Schlickelauf' cross-country ski race or participant numbers.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Schlickelauf' cross-country ski race or its founding year.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Schlickelauf'; provided URL not in search results and unverified.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Schlickelauf' cross-country ski race or its date.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.stubai.at/skigebiete/schlick2000/",
+    "https://www.stubai.at",
+    "https://www.stubai.at/en/skiing-resorts/schlick2000/",
+    "https://www.tyrol.tl/en/leisure-activities/theme-parks-and-educational-trails/disc-trail-schlick-2000/",
+    "https://www.stubai.at/it/",
+    "https://www.stubai.at/en/skiing-resorts/schlick2000/schlick-live/",
+    "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/patscherkofel-innsbruck/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:51:47Z"
+}

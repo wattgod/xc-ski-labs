@@ -1,0 +1,84 @@
+{
+  "slug": "birkebeinerrennet",
+  "name": "Birkebeinerrennet",
+  "facts": {
+    "distance_km": 54,
+    "elevation_m": 1050,
+    "country": "Norway",
+    "region": "Innlandet",
+    "discipline": "classic",
+    "field_size": 10000,
+    "founded": 1932,
+    "website": "https://www.birkebeiner.no",
+    "date": "Third Saturday in March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 54 km for the main Birkebeinerrennet race. Source [1] states 'The original length of the course has also been reduced to 54 km.' Source [3] confirms 'The race starts at Rena and ends at Lillehammer, a distance of 54 kilometres (34 mi).' Source [6] states 'The 54-kilometer course takes off from Rena and goes to Lillehammer.'",
+      "source_url": "https://www.worldloppet.com/wl-race/birkebeinerrennet/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results provide elevation data for specific mountain peaks along the course (Raudfjellet 880m, Kvarstaddammen 660m, Midtfjellet 910m, Sjusjøen 880m) but do not explicitly state total elevation gain. Calculation from these points would be approximate and may not reflect actual total elevation gain.",
+      "source_url": "https://www.worldloppet.com/wl-race/birkebeinerrennet/"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm Norway as the country. Source [3] states 'a long-distance cross-country ski marathon held annually in Norway.' Source [1] confirms start near Rena and finish in Lillehammer, both in Norway.",
+      "source_url": "https://en.wikipedia.org/wiki/Birkebeinerrennet"
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not explicitly mention 'Innlandet' as the region. Sources mention specific locations (Rena, Lillehammer) but do not identify the administrative region/county.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Source [4] states 'Distance: 53 or 28 km in classic style, or 53 km skate.' This indicates both classic and skate disciplines are offered, not classic only.",
+      "source_url": "https://www.globalrunners.se/birkebeinerrennet/"
+    },
+    "typical_participants": {
+      "status": "WRONG",
+      "correct_value": 14000,
+      "note": "Source [4] states 'Number of participants: 14,000, of which 8,900 in the main race.' Source [2] mentions '18,000 participants.' Source [3] notes 'for the 2011 race, the limit was set at 16,000.' The claim of 10,000 is below documented participation numbers.",
+      "source_url": "https://www.globalrunners.se/birkebeinerrennet/"
+    },
+    "year_founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 1932 as the founding year. Source [3] states 'It debuted in 1932.' Source [4] states 'The iconic Birkebeinerrennet had its premiere in 1932.' Source [6] confirms 'on January 10, 1932, 6 men...formally decided to arrange the very first Birkebeierrennet.'",
+      "source_url": "https://en.wikipedia.org/wiki/Birkebeinerrennet"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not provide the official website URL. The provided URL 'https://www.birkebeiner.no' cannot be verified from the search results, though source [5] references 'birken.no/en/ski' which may be related.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Source [4] states 'Trip dates 2026: March 12–16' with 'Start of the main race Saturday: From 07:45.' This confirms the race occurs in mid-March on a Saturday, consistent with 'Third Saturday in March.' Source [7] references 'March 16, 2024' as the race date.",
+      "source_url": "https://www.globalrunners.se/birkebeinerrennet/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/wl-race/birkebeinerrennet/",
+    "https://www.sandozconcept.com/en/worldloppet-races/the-unique-birkebeinerrennet-in-norway/",
+    "https://en.wikipedia.org/wiki/Birkebeinerrennet",
+    "https://www.globalrunners.se/birkebeinerrennet/",
+    "https://birken.no/en/ski",
+    "https://skiclassics.com/skiing-through-history-the-saga-of-birkebeinerrennet/",
+    "https://www.sofn.com/blog/birken-ski-festival-a-tribute-to-history/",
+    "https://www.mansfieldnordic.org/norwegian-birkebeinerrennet-and-norway-skiing-heaven/",
+    "https://www.visitnorway.com/events/birkebeinerrennet-birkebeiner-ski-race-53-km/1193/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:41:22Z"
+}

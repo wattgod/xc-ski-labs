@@ -1,0 +1,24 @@
+{
+  "slug": "chapelco-nordic-race",
+  "name": "Chapelco Nordic Race",
+  "country": "Argentina",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Chapelco Nordic Race' cross-country ski race found in search results. Cerro Chapelco is a real alpine ski resort in Argentina with an official website focused on downhill skiing, snowboarding, and summer activities, but no mentions of nordic or cross-country events, results, news, or listings in Worldloppet/FIS. Other results discuss unrelated skiing or golf at Chapelco.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.cerrochapelco.com.ar",
+    "https://www.chapelcogolf.com/?lang=en",
+    "https://www.cerrochapelco.com.ar/tarifario-esqui-y-snowboard-cerro-chapelco/",
+    "https://skiracing.com/ussa-announce-olympic-teams-over-next-week/",
+    "https://www.snow-forecast.com/whiteroom/world-snow-roundup-198/",
+    "https://www.interpatagonia.com/sanmartindelosandes/dog-sled-ride-chapelco.html",
+    "https://www.paralympic.org/powerlifting/events?amp%3Bfield_event_start_date_value=&amp%3Bfield_event_type_target_id=all&amp%3Bpage=763&combine=&field_event_end_date_value=&field_event_region_target_id=All&field_event_start_date_value=&field_event_type_target_id=All&field_taxonomy_regions_target_id=All&field_taxonomy_sport_target_id=All&page=267"
+  ],
+  "checked_at": "2026-03-12T15:42:36Z"
+}

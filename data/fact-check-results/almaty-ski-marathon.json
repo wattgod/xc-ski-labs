@@ -1,0 +1,83 @@
+{
+  "slug": "almaty-ski-marathon",
+  "name": "Almaty Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 700,
+    "country": "Kazakhstan",
+    "region": "Almaty Region",
+    "discipline": "classic",
+    "field_size": "~2,000 starters",
+    "founded": 1993,
+    "website": null,
+    "date": "February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing an 'Almaty Ski Marathon' cross-country ski race. Search results only return information about the Almaty Marathon (running event) and Winter Run events. No cross-country ski marathon with this name appears in available sources.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Almaty Ski Marathon' cross-country ski race. Cannot verify elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Almaty is in Kazakhstan, no web sources confirm an 'Almaty Ski Marathon' exists as a cross-country ski event.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Almaty Region is a real location in Kazakhstan, but no web sources confirm an 'Almaty Ski Marathon' cross-country ski race operates there.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing the discipline of an 'Almaty Ski Marathon' cross-country ski race.",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found for 'Almaty Ski Marathon' cross-country ski race participant numbers.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found confirming the founding year of an 'Almaty Ski Marathon' cross-country ski race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Almaty Ski Marathon' cross-country ski race. Search results show almaty-marathon.kz exists for running events only.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources found describing race dates for an 'Almaty Ski Marathon' cross-country ski race. Note: Almaty does host Winter Run events in February, but these are running races, not ski marathons.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://almaty-marathon.kz/en/events/almaty_marathon_2025/",
+    "https://almaty-marathon.kz/en/events/almaty_marathon_2026/",
+    "https://worldsmarathons.com/marathon/almaty-marathon",
+    "https://www.ahotu.com/event/almaty-marathon",
+    "https://almaty-marathon.kz/en/events/winter_run_2025/",
+    "https://almaty-marathon.kz/en/",
+    "https://almaty-marathon.kz/en/events/winter_run_2026/",
+    "https://the-running-ginger.blog/almaty-marathon/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:45:02Z"
+}

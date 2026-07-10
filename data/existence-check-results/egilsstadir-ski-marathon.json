@@ -1,0 +1,26 @@
+{
+  "slug": "egilsstadir-ski-marathon",
+  "name": "Egilsstaðir Ski Marathon",
+  "country": "Iceland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for 'Egilsstaðir Ski Marathon' across official websites, results, news, Worldloppet listings, social media, YouTube, or registration pages. Search results reference Fossavatnsgangan, a real ski marathon in Ísafjörður, not Egilsstaðir. The queried event appears fictional or confused with Fossavatnsgangan.",
+    "sources": []
+  },
+  "citations": [
+    "https://fossavatn.is/en/",
+    "https://www.worldloppet.com/wl-race/fossavatnsgangan/",
+    "https://www.worldloppet.com/category/news/fossavatnsgangan/",
+    "https://skidasvaedi.is/en/information/other-ski-areas/",
+    "https://fossavatn.is/en/um/",
+    "https://www.sotisummits.is/en/activities/",
+    "https://adventures.is/sitemap-images-xml/",
+    "https://www.getyourguide.com/langjokull-glacier-l35467/snowmobile-tours-tc119/",
+    "https://www.northiceland.is/en/travel-info/tours/travel-agency"
+  ],
+  "checked_at": "2026-03-12T15:43:58Z"
+}

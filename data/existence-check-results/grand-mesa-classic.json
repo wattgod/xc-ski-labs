@@ -1,0 +1,31 @@
+{
+  "slug": "grand-mesa-classic",
+  "name": "Grand Mesa 10km Classic",
+  "country": "United States",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://gmnc.org/event/13587/",
+    "results_url": "https://gmnc.org/race_result/grand-mesa-classic-10k-2024-2025/",
+    "evidence_summary": "The Grand Mesa Nordic Council (gmnc.org) hosts the Grand Mesa 10km Classic as part of their annual race series, with a dedicated event page for the 2026 race including registration details and a specific results page for the 2024-2025 edition held on December 28, 2024. Multiple pages on the same site list it consistently in the 2024-2025 and 2025-2026 series schedules. No Worldloppet or FIS listings found, but official site and past results provide strong confirmation.",
+    "sources": [
+      "https://gmnc.org/event/13587/",
+      "https://gmnc.org/race_result/grand-mesa-classic-10k-2024-2025/",
+      "https://gmnc.org/races/2024-2025-race-series/",
+      "https://gmnc.org/event/grand-mesa-classic-10km-classic-race/"
+    ]
+  },
+  "citations": [
+    "https://gmnc.org/event/13587/",
+    "https://gmnc.org/races/2024-2025-race-series/",
+    "https://gmnc.org/race_result/grand-mesa-classic-10k-2024-2025/",
+    "https://skigrandnordic.org/grand-nordic-race-series/",
+    "https://gmnc.org/event/grand-mesa-classic-10km-classic-race/",
+    "https://gmnc.org/races/",
+    "https://cmunordic.org/handbook",
+    "https://gmnc.org/races/2025-2026-race-series/",
+    "https://gmnc.org/races/race-series/"
+  ],
+  "checked_at": "2026-03-12T15:46:54Z"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "ounasvaara-ski-marathon",
+  "name": "Ounasvaara Ski Marathon",
+  "country": "Finland",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of an event named 'Ounasvaara Ski Marathon'. Search results confirm Ounasvaara Ski Resort exists with cross-country trails, and nearby Jätkänkynttilä Ski Marathon uses Ounasvaara areas for parts of its route, but no specific marathon by that name is mentioned in results, news, listings, or social media. No official site, results, or videos for the queried race.",
+    "sources": []
+  },
+  "citations": [
+    "https://ounasvaara.fi/en/about/",
+    "https://jatkankynttilaskimarathon.fi/blogs/news/route-info-2025",
+    "https://www.visitrovaniemi.fi/attraction/ounasvaara-ski-resort/",
+    "https://ounasvaara.fi/en/",
+    "https://ounasvaara.fi/en/slopes/",
+    "https://oh.fi/en/",
+    "https://ounasvaara.fi/en/services/",
+    "https://pace.sport/events/jatkankynttila-ski-marathon",
+    "https://ounasvaara.fi/en/summer/",
+    "https://ounasvaara.fi/en/hinnasto/"
+  ],
+  "checked_at": "2026-03-12T15:59:09Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "frosty-freestyle",
+  "name": "Frosty Freestyle",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 150,
+    "country": "United States",
+    "region": "Wisconsin",
+    "discipline": "skate",
+    "field_size": 100,
+    "founded": 1995,
+    "website": "https://www.eauclairenordic.com",
+    "date": "Mid-January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 15,
+      "note": "Frosty Freestyle offers 15km and 5km distances, not 25km",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for elevation gain; course described as relatively flat with small hills on 2.5km trail",
+      "source_url": null
+    },
+    "country": {
+      "status": "WRONG",
+      "correct_value": "United States",
+      "note": "Country is United States, but race is in Michigan, not Wisconsin",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest"
+    },
+    "region_state_province": {
+      "status": "WRONG",
+      "correct_value": "Michigan",
+      "note": "Located in Brighton, Michigan",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Freestyle allows skate (and classic option)",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Max capacities: 225 for 15k skate, 65 for 5k skate (total ~290 available), but no data on typical participants; outside ±20% tolerance unverifiable",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Krazy Klassic noted as 13th edition in older info, but no confirmation for Frosty Freestyle founding in 1995",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest",
+      "note": "Primary registration site; also nordicskiracer.com/frosty.asp referenced",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "Early January",
+      "note": "Typically first weekend (e.g., Jan 10-11, 2026), not mid-January",
+      "source_url": "https://www.skisignup.com/Race/MI/Brighton/FrostyFest"
+    }
+  },
+  "citations": [
+    "https://www.skisignup.com/Race/MI/Brighton/FrostyFest",
+    "https://www.ahotu.com/event/frosty-freestyle-krazy-klassic-cross-country-ski-race",
+    "https://runsignup.com/Race/MI/Brighton/FrostyFreestyle",
+    "https://www.skinnyski.com/racing/directors.asp",
+    "https://silentsportsmagazine.com/stories/cross-country-ski-raceevent-calendar-includes-rollerski-races-biathlon,130293",
+    "https://nordicskiracer.com/frosty.asp",
+    "https://performancetiming.com/2015/02/",
+    "https://www.wisconsinxcski.org/wp-content/uploads/2022/02/2022-WNSL-State-Meet-v2.pdf",
+    "https://www.wausaunordic.org/tribute-golf-course"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:13:36Z"
+}

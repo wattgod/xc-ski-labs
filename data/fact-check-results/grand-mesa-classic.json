@@ -1,0 +1,79 @@
+{
+  "slug": "grand-mesa-classic",
+  "name": "Grand Mesa 10km Classic",
+  "facts": {
+    "distance_km": 10,
+    "elevation_m": 100,
+    "country": "United States",
+    "region": "Colorado",
+    "discipline": "classic",
+    "field_size": 50,
+    "founded": null,
+    "website": "https://gmnc.org/races/",
+    "date": "Late January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Search results confirm '10km classic' race format",
+      "source_url": "https://gmnc.org/races/2025-2026-race-series/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No elevation gain data found in available search results",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race location confirmed as Grand Mesa, Colorado, United States",
+      "source_url": "https://gmnc.org/event/grand-mesa-classic-10km-classic-race/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race confirmed to be in Colorado",
+      "source_url": "https://gmnc.org/races/2025-2026-race-series/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race explicitly described as '10km classic' format",
+      "source_url": "https://gmnc.org/event/grand-mesa-classic-10km-classic-race/"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant count data found in available search results",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year information found in available search results",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "URL matches Grand Mesa Nordic Council official race series page",
+      "source_url": "https://gmnc.org/races/2025-2026-race-series/"
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Race confirmed for late January (January 24 in 2025-2026 season)",
+      "source_url": "https://gmnc.org/races/2025-2026-race-series/"
+    }
+  },
+  "citations": [
+    "https://gmnc.org/races/2025-2026-race-series/",
+    "https://www.snowyoming.org/snow-tracks/training-123-grand-mesa-race",
+    "https://gmnc.org/event/grand-mesa-classic-10km-classic-race/",
+    "https://www.webscorer.com/findraces?embed=1%27nvopzp%3B+and+1%3D1+or+%28%3C%27%22%3Eiko%29%29%2C%27&pg=register"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:14:00Z"
+}

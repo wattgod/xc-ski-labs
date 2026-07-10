@@ -1,0 +1,29 @@
+{
+  "slug": "california-gold-rush",
+  "name": "California Gold Rush",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 5,
+    "official_website": "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/",
+    "results_url": "https://www.webscorer.com/race?raceid=345897",
+    "evidence_summary": "The California Gold Rush is a real cross-country ski race organized by Royal Gorge in California, part of the American Ski Marathon Series, with documented results from Webscorer, recent announcements for 2025 races including registration via Zone4, and historical mentions in skiing publications like SkiTrax and SkinnySki from 2002-2008. It features distances like 50km Gold Rush, 25km Silver Rush, and shorter events. Older historical references discuss 19th-century ski races in Gold Rush-era California but are distinct from the modern event.",
+    "sources": [
+      "https://www.webscorer.com/race?raceid=345897",
+      "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/",
+      "https://www.skinnyski.com/notices/archives/asm-2.html",
+      "https://skitrax.com/california-gold-rush-2008/"
+    ]
+  },
+  "citations": [
+    "https://plumasskiclub.org/web/images/2022/womenlongboardershistory.pdf",
+    "https://www.webscorer.com/race?raceid=345897",
+    "https://www.skinnyski.com/notices/archives/asm-2.html",
+    "https://fasterskier.com/2025/03/royal-gorges-california-gold-rush-is-back/",
+    "https://goldrushar.com/GRARResults/ResultsMaster",
+    "https://historynet.com/bold-sierra-nevada-miners-struck-gold-ski-racing/",
+    "https://skitrax.com/california-gold-rush-2008/"
+  ],
+  "checked_at": "2026-03-12T15:41:44Z"
+}

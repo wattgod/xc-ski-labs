@@ -1,0 +1,82 @@
+{
+  "slug": "sudtirol-moonlight-classic",
+  "name": "Sudtirol Moonlight Classic",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 350,
+    "country": "Italy",
+    "region": "South Tyrol",
+    "discipline": "classic",
+    "field_size": "~1,000-1,500",
+    "founded": 2009,
+    "website": "https://www.moonlightclassic.info/en/",
+    "date": "Late January / early February (full moon night)"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm 30 km as one of the main distances (alongside 15 km)",
+      "source_url": "https://www.moonlightclassic.info/en/welcome.html"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Italy/South Tyrol",
+      "source_url": "https://www.moonlightclassic.info/en/welcome.html"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "South Tyrol (Südtirol)",
+      "source_url": "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/south-tyrol-moonlight-classic/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Classic diagonal style only",
+      "source_url": "https://www.moonlightclassic.info/en/welcome.html"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No specific numbers found for typical participants (~1,000-1,500); sources mention 'numerous' but not quantified",
+      "source_url": null
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2007,
+      "note": "First edition in 2007 per official source",
+      "source_url": "https://www.seiser-alm.it/en/leisure-activities/winter-sports/moonlight-classic-alpe-di-siusi/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site used in search results",
+      "source_url": "https://www.moonlightclassic.info/en/"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Late January/early February under full moon; e.g., 30/01/2026, 22 Jan 2027",
+      "source_url": "https://www.moonlightclassic.info/en/registration-results/registration.html"
+    }
+  },
+  "citations": [
+    "https://www.suedtirolerland.it/en/leisure-activities/top-events-in-south-tyrol/south-tyrol-moonlight-classic/",
+    "https://www.moonlightclassic.info/en/registration-results/registration.html",
+    "https://www.moonlightclassic.info/en/information/partecipants-information.html",
+    "https://www.moonlightclassic.info/en/prize-men.html",
+    "https://www.moonlightclassic.info/en/welcome.html",
+    "https://www.ahotu.com/event/sudtirol-moonlight-classic",
+    "https://www.seiser-alm.it/en/leisure-activities/winter-sports/moonlight-classic-alpe-di-siusi/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:56:05Z"
+}

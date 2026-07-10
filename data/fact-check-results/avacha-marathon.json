@@ -1,0 +1,83 @@
+{
+  "slug": "avacha-marathon",
+  "name": "Avacha Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 500,
+    "country": "Russia",
+    "region": "Kamchatka Krai",
+    "discipline": "skate",
+    "field_size": 350,
+    "founded": null,
+    "website": "https://www.russialoppet.ru",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 60,
+      "note": "Multiple sources confirm the Avacha Marathon is a 60km race, not 50km",
+      "source_url": "https://www.worldloppet.com/avacha-marathon-rus/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found specifying total elevation gain for the race course",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia in multiple sources",
+      "source_url": "https://www.worldloppet.com/avacha-marathon-rus/"
+    },
+    "region": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Kamchatka (Kamchatka Krai) in multiple sources",
+      "source_url": "https://www.worldloppet.com/avacha-marathon-rus/"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources refer to it as a 'cross-country skiing' marathon but do not explicitly specify classic vs. skate discipline",
+      "source_url": null
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found specifying typical participant numbers",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Source mentions 'Since 1996' athletes have participated, but does not explicitly state 1996 as founding year. Another source references '18th annual' in 2011, suggesting founding around 1993-1994, but this is not definitive",
+      "source_url": "https://www.worldloppet.com/avacha-marathon-rus/"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as www.russialoppet.ru in search results",
+      "source_url": "https://www.worldloppet.com/avacha-marathon-rus/"
+    },
+    "typical_race_date": {
+      "status": "WRONG",
+      "correct_value": "Mid-April",
+      "note": "Sources indicate the race typically occurs in mid-April (April 17, 2022 and April 19, 2011 documented), not late March",
+      "source_url": "https://www.worldloppet.com/avacha-marathon-rus/"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/avacha-marathon-rus/",
+    "https://skitrax.com/kowaczyk-wins-60km-race-in-kamchatka/",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=44138&seasoncode=2019&racecodex=5144",
+    "https://vostokmedia.com/news/2013-04-10/russian-ski-team-will-take-part-in-two-marathons-in-kamchatka-532861",
+    "https://www.dreamstime.com/stock-photo-skijor-races-background-kozelsky-volcano-kamchatka-petropavlovsk-russia-dec-competition-cup-region-avacha-image88097020",
+    "https://www.alamy.com/stock-photo-avacha-volcano-open-cup-of-russia-on-ski-mountaineering-on-kamchatka-133662555.html",
+    "https://www.fis-ski.com/DB/general/event-details.html?sectorcode=CC&eventid=42378",
+    "https://www.youtube.com/watch?v=rvrR1iF1iVk"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:34:07Z"
+}

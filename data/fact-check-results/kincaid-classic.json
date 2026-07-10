@@ -1,0 +1,85 @@
+{
+  "slug": "kincaid-classic",
+  "name": "Kincaid Classic",
+  "facts": {
+    "distance_km": 42,
+    "elevation_m": 350,
+    "country": "United States",
+    "region": "Alaska",
+    "discipline": "both",
+    "field_size": 400,
+    "founded": 1990,
+    "website": null,
+    "date": "Early March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention a 'Kincaid Classic' race or provide details on a 42km race distance.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources reference the 'Kincaid Classic' or specify total elevation gain for any matching race.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "While Kincaid Park is in Alaska, USA [1][2][3], no sources confirm a specific 'Kincaid Classic' race.",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Kincaid Park is in Anchorage, Alaska [1][2][3], but no confirmation for 'Kincaid Classic'.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Sources mention classic and skate events at Kincaid Park [1][2][5], but not for a 'Kincaid Classic' race.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "U.S. Nationals at Kincaid had 400+ athletes [3], but no info on 'Kincaid Classic'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources mention the founding year of a 'Kincaid Classic' race.",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No official website found for 'Kincaid Classic'; Kincaid events lack specific site.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Kincaid races occur in winter (Nov-Mar) [3][4][5][6], but no early March 'Kincaid Classic' confirmed.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://nordicinsights.news/2025/12/04/nationals-notes-inside-the-kincaid-sprint-course/",
+    "https://alaskapublic.org/news/anchorage/2025-01-06/alaskans-claim-victory-at-u-s-cross-country-ski-championships",
+    "https://usnationalsanchorage2025.com",
+    "https://www.challengealaska.org/paranordic",
+    "https://alaskananooks.com/news/2025/11/21/general-nordic-skiing-opens-2025-26-season-in-anchorage-for-nordic-cup.aspx",
+    "https://anchoragenordicski.com/races/2024-anchorage-winter-start-race/",
+    "https://fasterskier.com/2025/01/the-national-championship-ski-race-was-set-for-kincaid-park-then-the-moose-showed-up/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&raceid=50498",
+    "https://www.youtube.com/watch?v=CyBQGFh2kb8",
+    "https://www.usskiandsnowboard.org/news/recap-cross-country-national-championships-wrap-anchorage"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:43:05Z"
+}

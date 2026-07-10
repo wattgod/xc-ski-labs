@@ -1,0 +1,84 @@
+{
+  "slug": "rukajarvi-march",
+  "name": "Rukajärvi March",
+  "facts": {
+    "distance_km": 75,
+    "elevation_m": 600,
+    "country": "Finland",
+    "region": "Kainuu",
+    "discipline": "classic",
+    "field_size": 100,
+    "founded": null,
+    "website": "https://www.rukajarvenmarssi.fi",
+    "date": "March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Rukajärvi March' or matching details of a 75km classic ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found mentioning 'Rukajärvi March' or its elevation gain.",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming 'Rukajärvi March' location.",
+      "source_url": null
+    },
+    "region": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for 'Rukajärvi March' in Kainuu; search results mention Ruka (also Kainuu) but different events.",
+      "source_url": null
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming discipline for 'Rukajärvi March'.",
+      "source_url": null
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for participant numbers in 'Rukajärvi March'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found for founding year of 'Rukajärvi March'.",
+      "source_url": null
+    },
+    "website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources confirm https://www.rukajarvenmarssi.fi as official site for this race; site not referenced in results.",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources found confirming typical March date for 'Rukajärvi March'.",
+      "source_url": null
+    }
+  },
+  "citations": [
+    "https://www.fis-ski.com/nordic-combined/news/2025-26/lamparter-seals-ruka-tour-title-as-wind-prevents-mass-start-jumping",
+    "https://www.ruka.fi/en/events/rukanordic",
+    "https://fasterskier.com/2024/11/ruka-preview-the-world-cup-starts-here/",
+    "https://www.youtube.com/watch?v=w2ClggtbxCE",
+    "https://www.proxcskiing.com/traditional-skiing/ruka-world-cup-womens-sprint-qualifier-2/",
+    "https://skiorient.fi/en/",
+    "https://www.youtube.com/watch?v=jSThOqNgRrs",
+    "https://www.youtube.com/watch?v=ex9XTutJzZY",
+    "https://www.youtube.com/watch?v=Y7o1C5xvEUM"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:51:08Z"
+}

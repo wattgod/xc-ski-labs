@@ -1,0 +1,84 @@
+{
+  "slug": "attraverso-campra",
+  "name": "Attraverso Campra",
+  "facts": {
+    "distance_km": 21,
+    "elevation_m": 200,
+    "country": "Switzerland",
+    "region": "Ticino",
+    "discipline": "skate",
+    "field_size": 300,
+    "founded": null,
+    "website": "https://www.swissloppet.ch",
+    "date": "First Sunday of March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as 21 km (3 x 7 km)",
+      "source_url": "https://www.worldloppet.com/attraverso-campra/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Switzerland (SUI)",
+      "source_url": "https://www.worldloppet.com/attraverso-campra/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Canton of Ticino",
+      "source_url": "https://www.worldloppet.com/attraverso-campra/"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as FT (free technique, i.e., skate)",
+      "source_url": "https://www.worldloppet.com/attraverso-campra/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "One source mentions ~50 participants in 2025, but not typical number; no confirmation for 300",
+      "source_url": "https://www.campra.ch"
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found for year founded",
+      "source_url": null
+    },
+    "official_website": {
+      "status": "WRONG",
+      "correct_value": "https://www.campra.ch",
+      "note": "Worldloppet lists www.campra.ch as website",
+      "source_url": "https://www.worldloppet.com/attraverso-campra/"
+    },
+    "race_date": {
+      "status": "WRONG",
+      "correct_value": "First Sunday of March (e.g., 01.03.2026)",
+      "note": "Scheduled for 01.03.2026, which is first Sunday of March; past dates vary (e.g., Jan 2023)",
+      "source_url": "https://my.raceresult.com/379048/results"
+    }
+  },
+  "citations": [
+    "https://www.worldloppet.com/attraverso-campra/",
+    "https://www.campra.ch",
+    "https://my.raceresult.com/379048/results",
+    "https://www.ahotu.com/calendar/cross-country-skiing/switzerland",
+    "https://www.proxcskiing.com/bs/event/attraverso-campra/",
+    "https://datasport.com/en/sport-events/series/swiss-loppet/",
+    "https://www.proxcskiing.com/it/event/attraverso-campra/",
+    "https://luganoeventi.ch/en/events/27950/swiss-cup-campra/",
+    "https://schweizmobil.ch/en/cross-country-skiing/route-502"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:10:57Z"
+}

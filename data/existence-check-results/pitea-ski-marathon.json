@@ -1,0 +1,26 @@
+{
+  "slug": "pitea-ski-marathon",
+  "name": "Piteå Ski Marathon",
+  "country": "Sweden",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Piteå Ski Marathon' cross-country ski race. Search results mention biathlon championships, alpine skiing, ski orienteering, and other events in Piteå, but no cross-country marathon by this name. No official website, results, news articles, listings in Worldloppet/Ski Classics, or social media for this specific event.",
+    "sources": []
+  },
+  "citations": [
+    "https://www.pitea.se/en/Visitors/Events/?TLcat=39&TLll=20&TLlt=19&TLfy=2026&TLfm=02&TLfd=28&TLty=2027&TLtm=02&TLtd=28",
+    "https://www.pitea.se/en/Visitors/events/big-events/",
+    "https://www.skidor.com/download/18.8c3297718388dc70858ec07/1665758988767/Invetation%20FIS.pdf",
+    "https://www.proxcskiing.com/traditional-skiing/pitea-elit-sk-1-and-asarna-ik-1-relay-winners-at-the-swedish-championships/",
+    "https://skiclassics.com/highlights-from-asarna-ski-marathon-2026/",
+    "https://www.pitea.se/en/Visitors/Events/?TLcat=39&TLll=20&TLlt=17&TLfy=2025&TLfm=04&TLfd=13&TLty=2026&TLtm=04&TLtd=13",
+    "https://www.pitea.se/en/Visitors/Events/?TLcat=39&TLll=20&TLlt=18&TLfy=2026&TLfm=02&TLfd=27&TLty=2027&TLtm=02&TLtd=27",
+    "https://eventor.orienteering.sport/Documents/Event/2775/Bulletin-4",
+    "https://www.swedishlapland.com/pitea/"
+  ],
+  "checked_at": "2026-03-12T16:00:10Z"
+}

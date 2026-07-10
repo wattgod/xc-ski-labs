@@ -1,0 +1,84 @@
+{
+  "slug": "mt-shasta-nordic-marathon",
+  "name": "Mt Shasta Nordic Marathon",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 500,
+    "country": "United States",
+    "region": "California",
+    "discipline": "both",
+    "field_size": 50,
+    "founded": 1992,
+    "website": "https://www.mtshastanordic.org",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources mention a 'Mt Shasta Nordic Marathon' or any 30km cross-country ski race.",
+      "source_url": null
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources mention a 'Mt Shasta Nordic Marathon' or any 30km cross-country ski race with elevation details.",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mt. Shasta Nordic is located in the United States.",
+      "source_url": "https://www.mtshastanordic.org"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Mt. Shasta Nordic Center is in California.",
+      "source_url": "https://www.mtshastanordic.org"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Trails support both skate and classic, and a 5K race exists, but no 30km marathon or specific discipline for such event found.",
+      "source_url": "https://www.mtshastanordic.org/events/50k-race"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable web sources provide participant numbers for a 'Mt Shasta Nordic Marathon'.",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Mt Shasta Nordic formed in 2006, but no mention of a marathon event founded in 1992.",
+      "source_url": "https://www.mtshastanordic.org/mission-history"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Official website for Mt. Shasta Nordic matches.",
+      "source_url": "https://www.mtshastanordic.org"
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm a late February marathon; events page shows no current races listed, only a 5K spring race.",
+      "source_url": "https://www.mtshastanordic.org/events"
+    }
+  },
+  "citations": [
+    "https://www.mtshastanordic.org/mission-history",
+    "https://www.mtshastanordic.org/media-resources",
+    "https://www.adventurecorps.com/downloads/en/ENissue60.pdf",
+    "https://www.mtshastanordic.org",
+    "https://www.mtshastanordic.org/info",
+    "https://www.mtshastanordic.org/facilities-upgrade-project",
+    "https://www.mtshastanordic.org/events",
+    "https://www.mtshastanordic.org/events/50k-race",
+    "https://www.newsbank.com/regional/solutions/access-global-newsbank"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:46:46Z"
+}

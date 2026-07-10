@@ -1,0 +1,84 @@
+{
+  "slug": "suomen-hiihto",
+  "name": "Suomen Hiihto",
+  "facts": {
+    "distance_km": 60,
+    "elevation_m": 400,
+    "country": "Finland",
+    "region": "Päijänne Tavastia",
+    "discipline": "classic",
+    "field_size": "~1,500 starters",
+    "founded": 1946,
+    "website": "https://www.finlandiahiihto.fi/",
+    "date": "Late February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 62,
+      "note": "Multiple sources confirm the main race distance as 62 km classic, within ±3 km tolerance but consistently listed as 62 km not 60 km",
+      "source_url": "https://www.ahotu.com/event/finlandia-hiihto"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found specifying total elevation gain; course described as demanding due to Salpausselkä ridges but no numeric value",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Consistently held in Finland",
+      "source_url": "https://en.wikipedia.org/wiki/Finlandia-hiihto"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Päijät-Häme (Päijänne Tavastia); Lahti and Hollola locations confirmed",
+      "source_url": "https://www.ahotu.com/event/finlandia-hiihto"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Offers both classic (62 km on Sat) and free/skate (62 km on Sun); not only classic",
+      "source_url": "https://www.ahotu.com/event/finlandia-hiihto"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Historical highs like 13,226 (1984) and over 7,000 (2013) noted, but no typical ~1,500 starters confirmed for main race",
+      "source_url": "https://www.worldloppet.com/wl-race/finlandia-hiihto/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1974,
+      "note": "First edition 1974, not 1946; 53rd event in 2026 confirms this",
+      "source_url": "https://en.wikipedia.org/wiki/Finlandia-hiihto"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site",
+      "source_url": "https://www.finlandiahiihto.fi"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held every February, typically early to late February (e.g., Feb 7-8 2026)",
+      "source_url": "https://www.ahotu.com/event/finlandia-hiihto"
+    }
+  },
+  "citations": [
+    "https://www.youtube.com/watch?v=kd8LOmnt5y8",
+    "https://www.ahotu.com/event/finlandia-hiihto",
+    "https://en.wikipedia.org/wiki/Finlandia-hiihto",
+    "https://www.worldloppet.com/wl-race/finlandia-hiihto/",
+    "http://www.rajaltarajallehiihto.fi/2-perussisaeltoe/9-rr-info-2",
+    "https://www.finlandiahiihto.fi",
+    "https://hiihtoliitto.fi/en/front-page/",
+    "https://www.finlandiahiihto.fi/history",
+    "https://www.umpihankihiihto.fi/en/mainpage/"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:56:27Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "khanty-mansiysk-ski-marathon",
+  "name": "Khanty-Mansiysk Ski Marathon",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 300,
+    "country": "Russia",
+    "region": "Khanty-Mansi Autonomous Okrug",
+    "discipline": "classic",
+    "field_size": "~1500 starters",
+    "founded": 1997,
+    "website": "https://ugraloppet.ru",
+    "date": "Late March"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 50 km as the main distance",
+      "source_url": "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Russia",
+      "source_url": "https://www.proxcskiing.com/event/ugra-ski-marathon/"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Khanty-Mansi Autonomous Okrug (Ugra)",
+      "source_url": "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Sources mention both classic and freestyle (skate) races at 50 km",
+      "source_url": "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/"
+    },
+    "field_size": {
+      "status": "WRONG",
+      "correct_value": 2000,
+      "note": "~2000 participants mentioned; ~1500 is outside ±20% tolerance (1600-1800)",
+      "source_url": "https://www.proxcskiing.com/event/ugra-ski-marathon/"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 2013,
+      "note": "Held since 2013 per multiple sources",
+      "source_url": "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No source confirms this exact URL; ugraloppet.ru not mentioned",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically early/mid April, consistent with late March/early April",
+      "source_url": "https://www.proxcskiing.com/event/ugra-ski-marathon/"
+    }
+  },
+  "citations": [
+    "https://www.akm.ru/eng/society/vtb-announced-the-prize-fund-of-the-xii-ugra-ski-marathon/",
+    "https://www.proxcskiing.com/event/ugra-ski-marathon/",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=CC&competitorid=6030&raceid=28601",
+    "https://www.worldloppet.com/category/news/fis-worldloppet-cup/",
+    "https://skiclassics.com/ugra-ski-marathon-joins-challengers/",
+    "https://v4m-vps5.juniper-xs.it/x00001/public/324FB29A5CCC4D59A409391AD07D3B55/WebElements/090FBDF16F504F4EB7EAE07E207D5CF2.pdf",
+    "https://www.biathlonworld.com/results/BT0304SWRLGP01SMSP/skiing",
+    "https://www.belarus.by/en/press-center/press-release/sergei-dolidovich-4th-at-ugra-ski-marathon-retires-from-skiing_i_77506.html",
+    "https://www.paralympic.org/chris-klebl"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:50:13Z"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "franches-nordique",
+  "name": "Franches Nordique",
+  "country": "Switzerland",
+  "tier": 4,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 6,
+    "official_website": "https://scsaignelegier.ch/franches-nordique/",
+    "results_url": "https://scsaignelegier.ch/franches-nordique/",
+    "evidence_summary": "The Franches Nordique is a real cross-country ski race organized by Ski-Club Saignelégier in Les Breuleux, Switzerland, part of the Swiss Loppet series, with documented events in 2022 (including results), 2024, and 2025 (some cancelled due to snow). The club's official site provides race details, past results, and announcements like the 2026 cancellation. Multiple sources including Swiss-Ski and event directories confirm its existence and history.",
+    "sources": [
+      "https://scsaignelegier.ch/franches-nordique/",
+      "https://scsaignelegier.ch",
+      "https://www.j3l.ch/en/P76471/things-to-do/events/sport/franches-nordique-swiss-loppet",
+      "https://datasport.com/en/essentials/switzerlands-eleven-biggest-open-cross-country-races-the-swiss-loppet-series/",
+      "https://www.swiss-ski.ch/skispringen/news/news/swiss-loppet-franches-nordique-in-les-breuleux-findet-statt/?cHash=94012ec73aa56b846f948cdefc85ecc1",
+      "https://www.nordicmag.info/en/cross-country-skiing-viteos-ski-tour-franches-nordique-cancelled-0213/"
+    ]
+  },
+  "citations": [
+    "https://www.j3l.ch/en/P76471/things-to-do/events/sport/franches-nordique-swiss-loppet",
+    "https://scsaignelegier.ch",
+    "https://www.skidefond.ch/centres/saignelegier-franches-montagnes/",
+    "https://scsaignelegier.ch/franches-nordique/",
+    "https://weltcup-adelboden.ch/en/rennen/",
+    "https://datasport.com/en/essentials/switzerlands-eleven-biggest-open-cross-country-races-the-swiss-loppet-series/",
+    "https://www.swiss-ski.ch/skispringen/news/news/swiss-loppet-franches-nordique-in-les-breuleux-findet-statt/?cHash=94012ec73aa56b846f948cdefc85ecc1",
+    "https://www.swiss-ski.ch",
+    "https://www.nordicmag.info/en/cross-country-skiing-viteos-ski-tour-franches-nordique-cancelled-0213/",
+    "https://en.montagnes-du-jura.fr/winter-sports-in-the-jura-mountains/cross-country-skiing-nordic-activities-in-the-nordic-areas-of-jura/"
+  ],
+  "checked_at": "2026-03-12T15:45:39Z"
+}

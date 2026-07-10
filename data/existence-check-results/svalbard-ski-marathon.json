@@ -1,0 +1,24 @@
+{
+  "slug": "svalbard-ski-marathon",
+  "name": "Svalbard Ski Marathon",
+  "country": "Norway",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 3,
+    "official_website": "https://www.sportivo.se/en/faq-svalbard-skimaraton/",
+    "results_url": null,
+    "evidence_summary": "The Svalbard Ski Marathon (also called Svalbard Skimaraton) is explicitly described as a real annual cross-country ski race held every April in Svalbard, promoted as the world's northernmost ski race with an official FAQ page on sportivo.se detailing the 2026 event. Multiple sources confirm its organization, including event listings and tourism sites referencing Arctic ski challenges in the region. No race results or registration pages were directly found in the provided results, but the dedicated event page provides strong evidence of its existence.",
+    "sources": [
+      "https://www.sportivo.se/en/faq-svalbard-skimaraton/",
+      "https://en.visitsvalbard.com/whats-on/spitsbergen-marathon-p2521643",
+      "https://worldsmarathons.com/marathon/spitsbergen-marathon"
+    ]
+  },
+  "citations": [
+    "https://en.visitsvalbard.com/whats-on/spitsbergen-marathon-p2521643",
+    "https://worldsmarathons.com/marathon/spitsbergen-marathon",
+    "https://www.sportivo.se/en/faq-svalbard-skimaraton/"
+  ],
+  "checked_at": "2026-03-12T16:06:55Z"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "mt-ashwabay-summit",
+  "name": "Mt. Ashwabay Summit",
+  "country": "United States",
+  "tier": 3,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 7,
+    "official_website": "https://ashwabaysummitskirace.com",
+    "results_url": "https://ashwabaysummitskirace.com",
+    "evidence_summary": "Multiple official sites including ashwabaysummitskirace.com and mtashwabay.org detail the 20th Annual Mt. Ashwabay Summit Ski Race on January 31, 2026, with registration open, course maps, and 2025 results available. Registration pages on skisignup.com and mentions on 4hcanski.org, perfectduluthday.com, and Bayfield County calendar confirm it as a real organized event with youth, high school, college, and adult races. No listings in Worldloppet or FIS, but strong local presence with past results and future event planning.",
+    "sources": [
+      "https://4hcanski.org/asummit/",
+      "https://www.skisignup.com/Race/WI/Bayfield/ashwabaysummitskirace",
+      "https://ashwabaysummitskirace.com",
+      "https://www.perfectduluthday.com/the-event/ashwabay-summit-nordic-ski-race-2026/",
+      "https://www.mtashwabay.org/summit-ski-race.html",
+      "https://www.mtashwabay.org",
+      "https://www.bayfieldcounty.wi.gov/Calendar.aspx?month=1&year=2026&day=4&calType=0"
+    ]
+  },
+  "citations": [
+    "https://4hcanski.org/asummit/",
+    "https://www.skisignup.com/Race/WI/Bayfield/ashwabaysummitskirace",
+    "https://ashwabaysummitskirace.com",
+    "https://www.perfectduluthday.com/the-event/ashwabay-summit-nordic-ski-race-2026/",
+    "https://www.mtashwabay.org/summit-ski-race.html",
+    "https://www.mtashwabay.org/nordic-skiing.html",
+    "https://www.mtashwabay.org/events.html",
+    "https://www.mtashwabay.org",
+    "https://www.bayfieldcounty.wi.gov/Calendar.aspx?month=1&year=2026&day=4&calType=0"
+  ],
+  "checked_at": "2026-03-12T15:56:33Z"
+}

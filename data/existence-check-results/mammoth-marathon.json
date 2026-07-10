@@ -1,0 +1,31 @@
+{
+  "slug": "mammoth-marathon",
+  "name": "Mammoth Marathon",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.mammothres.com/mammoth-events/outdoor-activities/44th-annual-mammoth-marathon",
+    "results_url": null,
+    "evidence_summary": "Multiple official websites from Mammoth Mountain and Mammoth Resorts confirm the Mammoth Marathon as an annual cross-country ski event since 1978, organized by the Eastern Sierra Nordic Ski Association, with distances from 3-42km for classic and skate skiing. Event pages include registration links and details for recent editions like the 44th and 47th annual races. No race results or social media were directly in search results, but consistent descriptions across sites provide strong evidence of its existence.",
+    "sources": [
+      "https://www.mammothres.com/mammoth-events/outdoor-activities/44th-annual-mammoth-marathon",
+      "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc",
+      "https://www.mammothmountain.com/discover-mammoth/camps-teams/ski-and-snowboard-teams/nordic-team",
+      "https://www.mammothmountain.com/on-the-mountain/winter-trail-map"
+    ]
+  },
+  "citations": [
+    "https://www.mammothres.com/mammoth-events/outdoor-activities/44th-annual-mammoth-marathon",
+    "https://www.mammothmountain.com/things-to-do/events/mammoth-marathon-xc",
+    "https://www.mammothmountain.com/discover-mammoth/camps-teams/race-department",
+    "https://www.mammothmountain.com/on-the-mountain/winter-trail-map",
+    "https://www.mammothmountain.com/things-to-do/events/race-department/mar-22-masters-championships",
+    "https://www.mammothmountain.com/discover-mammoth/camps-teams/ski-and-snowboard-teams/nordic-team",
+    "https://www.mammothmountain.com/discover-mammoth/camps-teams/ski-and-snowboard-teams",
+    "https://www.mammothrace.com/about-3",
+    "https://www.mammothmountain.com/things-to-do/events"
+  ],
+  "checked_at": "2026-03-12T15:54:30Z"
+}

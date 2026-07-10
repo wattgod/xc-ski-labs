@@ -1,0 +1,28 @@
+{
+  "slug": "lake-placid-loppet",
+  "name": "Lake Placid Loppet",
+  "country": "United States",
+  "tier": 2,
+  "result": {
+    "status": "CONFIRMED",
+    "evidence_count": 4,
+    "official_website": "https://www.lakeplacid.com/events/lakeplacidloppet",
+    "results_url": "https://www.skireg.com/8541",
+    "evidence_summary": "The Lake Placid Loppet is listed on the official Lake Placid tourism site with detailed event schedule, courses, and registration info for January 25, 2026. Online registration is available via SkiReg.com, which includes past results and participant lists. An unofficial site and ORDA affiliation provide additional confirmation of its history at Mt Van Hoevenberg.",
+    "sources": [
+      "https://www.lakeplacid.com/events/lakeplacidloppet",
+      "https://www.skireg.com/8541",
+      "http://www.m.roberts-1.com/xcski/lpl/index.htm"
+    ]
+  },
+  "citations": [
+    "https://www.lakeplacid.com/events/lakeplacidloppet",
+    "https://loppet.org/loppet-nordic-racing/",
+    "https://www.worldloppet.com",
+    "https://loppet.org",
+    "https://www.skireg.com/8541",
+    "http://www.m.roberts-1.com/xcski/lpl/index.htm",
+    "https://www.usskiandsnowboard.org/2025-26-events"
+  ],
+  "checked_at": "2026-03-12T15:53:13Z"
+}

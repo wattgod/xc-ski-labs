@@ -1,0 +1,26 @@
+{
+  "slug": "tokamachi-snow-marathon",
+  "name": "Tokamachi Snow Marathon",
+  "country": "Japan",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found for a 'Tokamachi Snow Marathon' or any cross-country ski race by that name. Search results mention the Tokamachi Snow Festival (a snow sculpture event in February) and a summer running event (Echigo Matsudai Harunojin), but nothing about a ski marathon, race results, official site, or listings in Worldloppet/FIS. No social media, YouTube videos, or registration pages for such a ski race.",
+    "sources": []
+  },
+  "citations": [
+    "https://runjapan.jp/entry/runtes/smp/competitiondetail.do?raceId=E333768&div=1",
+    "https://snowfes.jp/hp/contact/tokamachi-snow-festival/",
+    "https://snowfes.jp/hp/english/75th_mainarea/",
+    "https://partners-pamph.jnto.go.jp/simg/pamph/391.pdf",
+    "https://www.tokamachishikankou.jp/en/event/yukimatsuri/",
+    "https://en.japantravel.com/niigata/tokamachi-snow-festival/56201",
+    "https://snowrich-tokamachi.com/en/festival.html",
+    "https://www.japan.travel/en/spot/1443/",
+    "https://www.echigo-tsumari.jp/en/travelinformation/tokamachi/"
+  ],
+  "checked_at": "2026-03-12T16:08:37Z"
+}

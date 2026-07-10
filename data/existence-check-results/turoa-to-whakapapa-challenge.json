@@ -1,0 +1,29 @@
+{
+  "slug": "turoa-to-whakapapa-challenge",
+  "name": "Turoa to Whakapapa Challenge",
+  "country": "New Zealand",
+  "tier": 3,
+  "result": {
+    "status": "FICTIONAL",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence of a 'Turoa to Whakapapa Challenge' cross-country ski race exists in the search results. The search results reference 'The Goat' adventure run (a 20km trail run from Whakapapa to Turoa, typically held in early December), but this is a running event, not a cross-country ski race. The query appears to conflate or confuse this trail running event with a non-existent ski race.",
+    "sources": [
+      "https://victoryevents.co.nz/event-index/the-goat/",
+      "https://alpinechalets.co.nz/events/"
+    ]
+  },
+  "citations": [
+    "https://www.pureturoa.nz",
+    "https://skywakaverticalchallenge.nz",
+    "https://victoryevents.co.nz/event-index/the-goat/",
+    "https://www.lovetaupo.com/en/see-do/outdoor-adventure/skiing-snowboarding/",
+    "https://www.pureturoa.nz/event/niss",
+    "https://www.whakapapa.com/NIPS",
+    "https://alpinechalets.co.nz/events/",
+    "https://skywakaverticalchallenge.nz/event-and-entry-information/",
+    "https://www.trisignup.com/Race/Results/104222/Milestones/View-Team-222953-26131-1"
+  ],
+  "checked_at": "2026-03-12T16:09:56Z"
+}

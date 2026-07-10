@@ -1,0 +1,130 @@
+{
+  "slug": "dolomiti-ski-jazz",
+  "name": "Dolomiti Ski Jazz",
+  "tier": 3,
+  "uncertain_fields": [
+    "distance_km",
+    "elevation_m",
+    "discipline",
+    "field_size",
+    "founded"
+  ],
+  "result": {
+    "race_exists": false,
+    "clarification": "Dolomiti Ski Jazz is NOT a cross-country ski race. It is a jazz music festival held March 6-15, 2026 in the Dolomites (Val di Fassa, Val di Fiemme, Val di Cembra valleys). The festival features 27 concerts across 25 venues with nearly 100 musicians performing jazz, blues, swing, and soul music—not a ski marathon or competitive cross-country event.",
+    "fields": {
+      "main_race_distance_km": {
+        "value": null,
+        "source_url": null,
+        "confidence": "N/A",
+        "note": "Not a ski race; data field not applicable"
+      },
+      "total_elevation_gain_m": {
+        "value": null,
+        "source_url": null,
+        "confidence": "N/A",
+        "note": "Not a ski race; data field not applicable"
+      },
+      "technique": {
+        "value": null,
+        "source_url": null,
+        "confidence": "N/A",
+        "note": "Not a ski race; data field not applicable"
+      },
+      "typical_participants": {
+        "value": null,
+        "source_url": null,
+        "confidence": "N/A",
+        "note": "Not a ski race; refers to music festival attendees across 27 concerts, not competitors"
+      },
+      "first_held_year": {
+        "value": 1997,
+        "source_url": "https://helicopter4you.com/2026/01/13206/",
+        "confidence": "MEDIUM",
+        "note": "Source states Dolomiti Ski Jazz began in 1997; 2026 is the 30th edition"
+      }
+    },
+    "actual_event_details": {
+      "event_type": "Jazz Music Festival",
+      "dates_2026": "March 6-15, 2026",
+      "edition": "30th",
+      "locations": "Val di Fassa, Val di Fiemme, Val di Cembra valleys",
+      "musical_genres": "Jazz, swing, soul, blues, funk, Latin",
+      "venues": 25,
+      "concerts": 27,
+      "musicians": "nearly 100",
+      "artistic_director": "Enrico Tommasini",
+      "best_source": "https://www.fassa.com/en/get-inspired/dolomiti-ski-jazz"
+    },
+    "related_actual_ski_races": [
+      {
+        "name": "Marcialonga",
+        "distance_km": 70,
+        "technique": "Classic",
+        "typical_participants": 7000,
+        "held_annually": "Last Sunday of January",
+        "source": "https://www.trentino.com/en/leisure-activities/winter-sports/cross-country-skiing/marcialonga-di-fiemme-e-fassa/"
+      },
+      {
+        "name": "3 Zinnen Ski-Marathon",
+        "distance_km": 62,
+        "technique": "Classic and Skating",
+        "held_annually": "January",
+        "source": "https://www.ski-marathon.com/en/"
+      }
+    ]
+  },
+  "citations": [
+    "https://www.fassa.com/en/get-inspired/dolomiti-ski-jazz",
+    "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fiemme/2026/LATIN-MOOD-Dolomiti-Ski-Jazz",
+    "https://www.igluski.com/news/mountain-jazz-festival-longest-indoor-slope-and-brand-new-black-run_a19736654",
+    "https://www.visittrentino.info/en/guide/what-to-do/events/25th-dolomiti-ski-jazz_e_80766705",
+    "https://www.allaboutjazz.com/dolomiti-ski-jazz-2024-francesco-bearzatti",
+    "https://www.worldloppet.com/dolomitenlauf-austrias-lagerst-cross-country-skiing-event-with-guaranteed-snow/",
+    "https://www.youtube.com/playlist?list=PL24QJ6Qju5rnZ5Fm2Ly6mV175NSa6V_Ap",
+    "https://www.fassa.com/en/press-area/comunicati-stampa/the-global-spirit-to-the-30th-dolomiti-ski-jazz",
+    "https://www.worldloppet.com/dolomitenlauf-2025-everyone-a-winner-over-themselves/",
+    "https://jazzblues.eu/2025/04/08/this-years-29th-edition-of-dolomiti-ski-jazz-northern-italian-jazz-2025-festival-packed-in-sky-high-gigs-and-some-subtle-surprises-photos/",
+    "https://www.skiinghistory.org/resources/ski-magazine-back-issues-and-index-1941-1993",
+    "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fiemme/2026/ALTA-QUOTA-QUARTET-Dolomiti-Ski-Jazz",
+    "https://www.visitfiemme.it/en/events/events/dolomiti-ski-jazz",
+    "https://www.dolomiti.it/en/events",
+    "https://www.visittrentino.info/en/articles/art-and-culture/dolomiti-ski-jazz",
+    "https://preferredhotels.com",
+    "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fassa/2026/Marcialonga-di-Fiemme-e-Fassa",
+    "https://en.wikipedia.org/wiki/Marcialonga",
+    "https://www.dolomitisuperski.com/it/esperienze/eventi/Val-di-Fassa/2026/Marcialonga-di-Fiemme-e-Fassa",
+    "https://skiclassics.com/this-is-how-marcialonga-revolutionized-long-distance-skiing/",
+    "https://skiclassics.com/7-pro-tour-event-presentation-marcialonga/",
+    "https://mylaps.com/blog/marcialonga-2026-timing-at-one-of-the-toughest-ski-races/",
+    "https://marcialonga.it/marcialonga_ski/index_en.php",
+    "https://www.youtube.com/watch?v=A--l0Ttb6LA",
+    "https://www.proxcskiing.com/long-distance/marcialonga-takes-place-on-sunday-2/",
+    "https://www.worldloppet.com/ski-marathon-calendar/",
+    "https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?place_search=Val+d",
+    "https://www.dolomitisuperski.com/en/experiences/events/Val-di-Fiemme/2026/THE-ROARIN-CATS-Dolomiti-Ski-Jazz",
+    "https://www.worldloppet.com/races/",
+    "https://www.youtube.com/watch?v=9Qo5FHLATF8",
+    "https://medias4.fis-ski.com/pdf/2026/AL/0050/2026AL0050SLR0.pdf",
+    "https://www.dolomitinordicski.com/en/events/3-zinnen-ski-marathon",
+    "https://www.datasport.com/live/startlist/?lang=EN&racenr=271090",
+    "https://www.ski-marathon.com/en/",
+    "https://www.cs.cf.ac.uk/semanticspaces/places/clusters20.txt",
+    "https://www.worldloppet.com/wl-race/marcialonga-italy-cross-country-skiing/",
+    "https://www.strava.com/routes/backcountry-skiing/italy/bozen/dolomites?hl=it-IT",
+    "https://datasport.com/en/?racenr=20143",
+    "https://en.wikipedia.org/wiki/Bolzano",
+    "https://www.fassa.com/en/things-to-do/nordic-skiing/ciancoal-cross-country-ski-area-pozza",
+    "https://www.strava.com/routes/backcountry-skiing/italy/trento/trentino-alto-adige",
+    "https://my.raceresult.com/346723/contact",
+    "https://it.wikipedia.org/wiki/Italia",
+    "https://helicopter4you.com/2026/01/13206/",
+    "https://www.youtube.com/watch?v=hHmAk9PaMss",
+    "https://www.trentino.com/en/leisure-activities/winter-sports/cross-country-skiing/marcialonga-di-fiemme-e-fassa/",
+    "https://www.visittrentino.info/mercatini-di-natale/quot-viva/25th-dolomiti-ski-jazz_e_80766712",
+    "https://www.dolomitisuperski.com/en/experiences/events/Alpe-Lusia-San-Pellegrino/2026/Marcialonga-di-Fiemme-e-Fassa",
+    "https://www.dreizinnen.com/en/events/festival-dolomites-2026-jazz-more_37666",
+    "https://www.dolomitisuperski.com/en/experiences/events/3-Zinnen-Dolomites/2026/Festival-Dolomites-2026"
+  ],
+  "checked_at": "2026-03-12T16:10:01Z"
+}

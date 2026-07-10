@@ -1,0 +1,84 @@
+{
+  "slug": "ski-trail-tannheimer-tal",
+  "name": "Ski Trail Tannheimer Tal",
+  "facts": {
+    "distance_km": 30,
+    "elevation_m": 400,
+    "country": "Austria",
+    "region": "Tirol",
+    "discipline": "both",
+    "field_size": "~1,500-2,500 participants",
+    "founded": 1985,
+    "website": "https://www.tannheimertal.com/en/tannheimer-tal/events/highlights/ski-trail/",
+    "date": "January"
+  },
+  "results": {
+    "distance_km": {
+      "status": "WRONG",
+      "correct_value": 24.4,
+      "note": "Search results show the Ski-Trail circular route is 24.4 km according to the trail map. The claim of 30 km exceeds the documented distance.",
+      "source_url": "https://www.bergfex.com/tirol/langlaufen/tannheimer-tal/loipenplan/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 50,
+      "note": "Multiple sources consistently state the maximum altitude difference in Tannheimer Tal is 50 meters, not 400 meters. The entire valley network has only 50m elevation difference.",
+      "source_url": "https://www.tannheimertal.com/en/ski-trail-circular-trail-t3751"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Austria is confirmed in multiple sources describing Tannheimer Tal location.",
+      "source_url": "https://www.tyrol.com/activities/sport/cross-country-skiing/places-for-cross-country-skiing/cross-country-skiing-tannheimer-tal"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Tirol (Tyrol) is confirmed as the region in all sources.",
+      "source_url": "https://www.tannheimertal.com/en/ski-trail-circular-trail-t3751"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Sources confirm trails are suitable for both classic style and skating.",
+      "source_url": "https://www.tannheimertal.com/en/ski-trail-circular-trail-t3751"
+    },
+    "typical_participants": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources in search results provide participant numbers for the Ski-Trail event.",
+      "source_url": null
+    },
+    "year_founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Search results do not contain information about when the Ski-Trail was first established. The earliest race result found is from 2019.",
+      "source_url": null
+    },
+    "official_website_url": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "The provided URL cannot be verified from search results. Search results reference tannheimertal.com pages but do not confirm this specific event URL exists or is current.",
+      "source_url": null
+    },
+    "typical_race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "January is confirmed as the typical race month. Historical race result shows January 25-27, 2019. However, search results indicate no Ski-Trail is planned for winter season 2025/26.",
+      "source_url": "https://www.saegerhof.at/en/winter-holiday/events-tradition-tannheim.html"
+    }
+  },
+  "citations": [
+    "https://www.tannheimertal.com/en/ski-trail-circular-trail-t3751",
+    "https://www.bergfex.com/tirol/langlaufen/tannheimer-tal/loipenplan/",
+    "https://www.tannheimertal.com/en/evening-round-t3575",
+    "https://www.tannheimertal.com/en/expert-route-t3613",
+    "https://www.tyrol.com/activities/sport/cross-country-skiing/places-for-cross-country-skiing/cross-country-skiing-tannheimer-tal",
+    "https://www.snow-online.com/cross-country/tannheimer-tal.html",
+    "https://www.monstirol.com/en/looking-for-adventure/in-winter/skiing",
+    "https://www.saegerhof.at/en/winter-holiday/events-tradition-tannheim.html",
+    "https://my.raceresult.com/114660/results"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:30Z"
+}

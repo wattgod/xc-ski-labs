@@ -1,0 +1,82 @@
+{
+  "slug": "ski-north-loppet",
+  "name": "Ski North Loppet",
+  "facts": {
+    "distance_km": 25,
+    "elevation_m": 200,
+    "country": "Canada",
+    "region": "Ontario",
+    "discipline": "classic",
+    "field_size": 150,
+    "founded": 1995,
+    "website": "https://www.tbnordic.ca",
+    "date": "Mid-February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No web sources mention 'Ski North Loppet'; closest events like Bluesky Loppet (North Bay, ON) have distances of 1-18km or TBD, but no match to 25km[1][3]",
+      "source_url": "https://northbaynordic.ca/bluesky-loppet"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No information on 'Ski North Loppet' or matching event with 200m elevation gain found in sources",
+      "source_url": null
+    },
+    "country": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No confirmation of 'Ski North Loppet'; Ontario events exist but no exact match[1][3]",
+      "source_url": null
+    },
+    "region_state_province": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No sources confirm 'Ski North Loppet' in Ontario; similar events like Bluesky Loppet are in North Bay, Ontario[1]",
+      "source_url": "https://northbaynordic.ca/bluesky-loppet"
+    },
+    "discipline": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No info on 'Ski North Loppet'; Bluesky Loppet offers skate or classic[1]",
+      "source_url": "https://northbaynordic.ca/bluesky-loppet"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No participant numbers for 'Ski North Loppet' or matching event found",
+      "source_url": null
+    },
+    "founded": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No founding year for 'Ski North Loppet'; Bluesky Loppet evolved from 1980 Langlauf but renamed 2006[1]",
+      "source_url": "https://northbaynordic.ca/bluesky-loppet"
+    },
+    "official_website": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "https://www.tbnordic.ca not in search results and no confirmation for 'Ski North Loppet'; North Bay Nordic is https://northbaynordic.ca[1]",
+      "source_url": null
+    },
+    "race_date": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No date for 'Ski North Loppet'; Bluesky Loppet typically early February (e.g., Feb 9)[1][3]",
+      "source_url": "https://northbaynordic.ca/bluesky-loppet"
+    }
+  },
+  "citations": [
+    "https://northbaynordic.ca/bluesky-loppet",
+    "https://xcskiontario.ca/event/sleeping-giant-loppet-2026/",
+    "https://northernontario.travel/outdoor-adventures/cross-country-ski-events-ontario",
+    "https://www.nordenskioldsloppet.com/about-nordenskioldsloppet",
+    "https://loppet.org/event/next-generation-loppet/",
+    "https://loppet.org/event/marathon-pouli-tour-ski/",
+    "https://www.sleepinggiantloppet.ca"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T15:19:26Z"
+}

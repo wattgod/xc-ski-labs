@@ -1,0 +1,82 @@
+{
+  "slug": "biela-stopa",
+  "name": "Biela stopa",
+  "facts": {
+    "distance_km": 50,
+    "elevation_m": 450,
+    "country": "Slovakia",
+    "region": "Banská Bystrica",
+    "discipline": "both",
+    "field_size": 800,
+    "founded": 1973,
+    "website": "https://www.bielastopa.sk",
+    "date": "Second Saturday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Current races include 50km free style, matching within ±3km tolerance (historical 51km, 55km noted but current standard 50km)",
+      "source_url": "https://www.bielastopa.sk/bielastopa/preteky/"
+    },
+    "elevation_m": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "No reliable sources found mentioning total elevation gain",
+      "source_url": null
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Confirmed as Slovakia",
+      "source_url": "https://sk.wikipedia.org/wiki/Biela_stopa"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Held near Banská Bystrica (e.g., first edition goal, modern mentions), in Kremnické vrchy",
+      "source_url": "https://sk.wikipedia.org/wiki/Biela_stopa"
+    },
+    "discipline": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Both: 50km/25km free style (skate) on Saturday, 30km classic on Sunday",
+      "source_url": "https://www.bielastopa.sk/bielastopa/preteky/"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Recent examples: 260 on Saturday (2026), 84 on Sunday; historical first edition 421; no typical 800 confirmed within ±20% tolerance consistently",
+      "source_url": "https://www.bielastopa.sk"
+    },
+    "founded": {
+      "status": "WRONG",
+      "correct_value": 1974,
+      "note": "First edition 1974 (preparations in 1973, race on 17 Feb 1974); 50th edition implies ~2023/2024",
+      "source_url": "https://sk.wikipedia.org/wiki/Biela_stopa"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site with race details",
+      "source_url": "https://www.bielastopa.sk"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically mid-February; 2026 on 14-15 Feb (Saturday-Sunday), aligns with second Saturday in February",
+      "source_url": "https://www.bielastopa.sk/bielastopa/preteky/"
+    }
+  },
+  "citations": [
+    "https://sk.wikipedia.org/wiki/Biela_stopa",
+    "https://www.bielastopa.sk",
+    "https://www.bielastopa.sk/bielastopa/preteky/",
+    "https://www.bielastopa.sk/historia/",
+    "https://www.bielastopa.sk/en/free-style-50km-en/",
+    "https://old.sportsoft.cz/en/race/results/3792?rid=3122&eventid=2&categoryid=4",
+    "https://slovakia.travel/en/event-calendar/march/nature"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T14:35:25Z"
+}

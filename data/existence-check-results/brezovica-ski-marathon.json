@@ -1,0 +1,24 @@
+{
+  "slug": "brezovica-ski-marathon",
+  "name": "Brezovica Ski Marathon",
+  "country": "Kosovo",
+  "tier": 4,
+  "result": {
+    "status": "SUSPICIOUS",
+    "evidence_count": 0,
+    "official_website": null,
+    "results_url": null,
+    "evidence_summary": "No evidence found of a 'Brezovica Ski Marathon' cross-country ski race. Search results mention Brezovica ski resort, alpine skiing events like FIS races and Brezovica Cup (canceled in 2022), but nothing about a cross-country marathon. No official website, results, news, Worldloppet listings, or social media for this specific event.",
+    "sources": []
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/Brezovica_ski_resort",
+    "https://www.beinkosovo.com/brezovica-ski-center/",
+    "https://tiranaairportinfo.com/brezovica.html",
+    "https://www.brezovica-ski.net",
+    "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=130603",
+    "https://kosovapress.com/eng/the-competitions-brezovica-cup-2022-and-kosovo-championship-have-been-canceled",
+    "https://www.kosovo-vacations.com/brezovica.html"
+  ],
+  "checked_at": "2026-03-12T15:41:23Z"
+}

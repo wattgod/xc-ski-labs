@@ -1,0 +1,84 @@
+{
+  "slug": "stowe-derby",
+  "name": "Stowe Derby",
+  "facts": {
+    "distance_km": 20,
+    "elevation_m": 823,
+    "country": "United States",
+    "region": "New England",
+    "discipline": "classic",
+    "field_size": "~500 starters",
+    "founded": 1945,
+    "website": "https://www.mmsca.org/events/stowe-derby",
+    "date": "Last Sunday in February"
+  },
+  "results": {
+    "distance_km": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Multiple sources confirm 20 km for the long course",
+      "source_url": "https://nensa.net/2019/10/22/stowe-derby-epic-cross-country-ski-race-75th-anniversary/"
+    },
+    "elevation_m": {
+      "status": "WRONG",
+      "correct_value": 823,
+      "note": "Sources state ~2,700 feet vertical drop, which converts to 823 meters (2,700 ft * 0.3048 = 823 m exactly)",
+      "source_url": "https://www.mmsca.org/events/stowe-derby"
+    },
+    "country": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Located in Stowe, Vermont",
+      "source_url": "https://www.mmsca.org/events/stowe-derby"
+    },
+    "region_state_province": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "New England (Vermont), one of the most challenging races in New England",
+      "source_url": "https://nensa.net/2019/10/22/stowe-derby-epic-cross-country-ski-race-75th-anniversary/"
+    },
+    "discipline": {
+      "status": "WRONG",
+      "correct_value": "both",
+      "note": "Offers both Classic and Skate for long course (2026 listings)",
+      "source_url": "https://www.mmsca.org/events/stowe-derby"
+    },
+    "field_size": {
+      "status": "UNCERTAIN",
+      "correct_value": null,
+      "note": "Short course ~100 competitors mentioned, but no total starters figure found for ~500",
+      "source_url": "https://www.mmsca.org/events/stowe-derby"
+    },
+    "founded": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Started in 1945",
+      "source_url": "https://www.mmsca.org/events/stowe-derby"
+    },
+    "official_website": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Matches official site listed in sources",
+      "source_url": "https://www.mmsca.org/events/stowe-derby"
+    },
+    "race_date": {
+      "status": "CORRECT",
+      "correct_value": null,
+      "note": "Typically late February, e.g., Feb 23 2020, Feb 25 2018?, Feb 22 2026 (Sunday); last Sunday in February aligns",
+      "source_url": "https://www.skisignup.com/Race/Register/?raceId=176682&eventId=1084499"
+    }
+  },
+  "citations": [
+    "https://nensa.net/2019/10/22/stowe-derby-epic-cross-country-ski-race-75th-anniversary/",
+    "https://gostowe.com/travel-tips/blog/the-heart-of-the-stowe-derby",
+    "https://www.mmsca.org/events/stowe-derby",
+    "https://www.skisignup.com/Race/Register/?raceId=176682&eventId=1084499",
+    "https://www.stowe.com/the-mountain/about-the-mountain/cross-country-center.aspx",
+    "https://www.stowe.com/explore-the-resort/activities-and-events/event-details.aspx?id=%7B359d3212-1f20-4f5f-8e4d-1b9179f0fe1d%7D",
+    "https://www.stowe.com/explore-the-resort/activities-and-events/event-details.aspx?id=%7B5599e0e3-0147-45d2-8f3b-5c47d36025f3%7D",
+    "https://www.stowe.com/Plan-Your-Trip/Lift-Access/More%20Options/Racing.aspx",
+    "https://www.skireg.com/7025"
+  ],
+  "source": "perplexity-sonar-pro",
+  "checked_at": "2026-03-12T03:55:58Z"
+}
