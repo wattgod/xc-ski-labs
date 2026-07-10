@@ -56,21 +56,23 @@ def _plain(text: Any) -> str:
     return out
 
 
-def _md_inline(text: Any, source_ids: set[str] | None = None) -> str:
+def _md_inline(text: Any, source_map: dict[str, int] | None = None) -> str:
     out = esc(_plain(text))
 
     def repl(match: re.Match[str]) -> str:
         sid = match.group(1)
-        missing = source_ids is not None and sid not in source_ids
-        klass = "gl-cite gl-cite--missing" if missing else "gl-cite"
-        return f'<sup><a class="{klass}" href="#source-{esc(sid)}" id="ref-{esc(sid)}">[{esc(sid)}]</a></sup>'
+        num = source_map.get(sid) if source_map else None
+        if num is None:
+            # unknown source id — render nothing visible rather than a raw slug
+            return f'<sup><a class="gl-cite gl-cite--missing" href="#sources">[?]</a></sup>'
+        return f'<sup><a class="gl-cite" href="#source-{esc(sid)}" id="ref-{esc(sid)}">{num}</a></sup>'
 
     return CITE_RE.sub(repl, out)
 
 
-def _paragraphs(text: Any, source_ids: set[str] | None = None) -> str:
+def _paragraphs(text: Any, source_map: dict[str, int] | None = None) -> str:
     parts = [p.strip() for p in _plain(text).split("\n\n") if p.strip()]
-    return "".join(f'<p class="gl-section-prose">{_md_inline(p, source_ids)}</p>' for p in parts)
+    return "".join(f'<p class="gl-section-prose">{_md_inline(p, source_map)}</p>' for p in parts)
 
 
 def _estimate_read_time(chapter: dict[str, Any]) -> int:
@@ -201,12 +203,12 @@ def build_jump_nav(chapters: list[dict[str, Any]]) -> str:
 
 def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[str, Any]) -> str:
     kind = block.get("type")
-    source_ids = {s["id"] for s in chapter.get("sources", [])}
+    source_map = {s["id"]: i + 1 for i, s in enumerate(chapter.get("sources", []))}
     if kind == "prose":
-        return _paragraphs(block.get("content", ""), source_ids)
+        return _paragraphs(block.get("content", ""), source_map)
     if kind == "callout":
         style = block.get("style", "note")
-        return f'<aside class="gl-guide-block gl-callout gl-callout--{esc(style)}"><h3>{esc(block.get("title", style))}</h3>{_paragraphs(block.get("content", ""), source_ids)}</aside>'
+        return f'<aside class="gl-guide-block gl-callout gl-callout--{esc(style)}"><h3>{esc(block.get("title", style))}</h3>{_paragraphs(block.get("content", ""), source_map)}</aside>'
     if kind == "tabs":
         uid = f'tabs-{chapter["id"]}-{len(block.get("tabs", []))}'
         buttons = []
@@ -214,23 +216,23 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
         for i, tab in enumerate(block.get("tabs", [])):
             active = " is-active" if i == 0 else ""
             buttons.append(f'<button class="gl-tab-button{active}" type="button" data-tab-target="{uid}-{i}">{esc(tab.get("label", ""))}</button>')
-            panels.append(f'<div class="gl-tab-panel{active}" id="{uid}-{i}">{_paragraphs(tab.get("content", ""), source_ids)}</div>')
+            panels.append(f'<div class="gl-tab-panel{active}" id="{uid}-{i}">{_paragraphs(tab.get("content", ""), source_map)}</div>')
         return f'<div class="gl-guide-block gl-tabs"><div class="gl-tab-buttons">{"".join(buttons)}</div>{"".join(panels)}</div>'
     if kind == "accordion":
-        items = "".join(f'<details><summary>{esc(item.get("title", ""))}</summary>{_paragraphs(item.get("content", ""), source_ids)}</details>' for item in block.get("items", []))
+        items = "".join(f'<details><summary>{esc(item.get("title", ""))}</summary>{_paragraphs(item.get("content", ""), source_map)}</details>' for item in block.get("items", []))
         return f'<div class="gl-guide-block gl-accordion">{items}</div>'
     if kind == "data_table":
         title = f'<h3 class="gl-data-table-title">{esc(block.get("title", ""))}</h3>' if block.get("title") else ""
         headers = "".join(f"<th>{esc(h)}</th>" for h in block.get("headers", []))
-        rows = "".join("<tr>" + "".join(f"<td>{_md_inline(cell, source_ids)}</td>" for cell in row) + "</tr>" for row in block.get("rows", []))
+        rows = "".join("<tr>" + "".join(f"<td>{_md_inline(cell, source_map)}</td>" for cell in row) + "</tr>" for row in block.get("rows", []))
         return f'<div class="gl-guide-block">{title}<div class="gl-data-table-wrap"><table class="gl-data-table"><thead><tr>{headers}</tr></thead><tbody>{rows}</tbody></table></div></div>'
     if kind == "process_list":
         steps = []
         for i, step in enumerate(block.get("steps", []), start=1):
-            steps.append(f'<div class="gl-process-step"><span class="gl-process-num">{i}</span><h3>{esc(step.get("title", ""))}</h3>{_paragraphs(step.get("content", ""), source_ids)}</div>')
+            steps.append(f'<div class="gl-process-step"><span class="gl-process-num">{i}</span><h3>{esc(step.get("title", ""))}</h3>{_paragraphs(step.get("content", ""), source_map)}</div>')
         return f'<div class="gl-guide-block"><h3 class="gl-data-table-title">{esc(block.get("title", ""))}</h3><div class="gl-process">{"".join(steps)}</div></div>'
     if kind == "timeline":
-        items = "".join(f'<div class="gl-timeline-item"><span class="gl-timeline-label">{esc(item.get("label", ""))}</span>{_paragraphs(item.get("content", ""), source_ids)}</div>' for item in block.get("items", []))
+        items = "".join(f'<div class="gl-timeline-item"><span class="gl-timeline-label">{esc(item.get("label", ""))}</span>{_paragraphs(item.get("content", ""), source_map)}</div>' for item in block.get("items", []))
         return f'<div class="gl-guide-block gl-timeline"><h3 class="gl-timeline-title">{esc(block.get("title", ""))}</h3>{items}</div>'
     if kind == "hero_stat":
         stats = "".join(f'<div class="gl-hero-stat"><span class="gl-hero-stat-value">{esc(s.get("value", ""))}</span><span class="gl-hero-stat-label">{esc(s.get("label", ""))}</span></div>' for s in block.get("stats", []))
@@ -241,7 +243,7 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
     if kind == "flashcard":
         cards = []
         for card in block.get("cards", []):
-            cards.append(f'<button class="gl-wax-card gl-wax-card-blue" type="button" aria-pressed="false"><span class="gl-wax-card-inner"><span class="gl-wax-card-face gl-wax-card-front"><span class="gl-wax-card-kicker">Flashcard</span><span><h3>{esc(card.get("front", ""))}</h3><p>Tap to reveal.</p></span></span><span class="gl-wax-card-face gl-wax-card-back"><span class="gl-wax-card-kicker">Answer</span><span><h3>Answer</h3>{_paragraphs(card.get("back", ""), source_ids)}</span></span></span></button>')
+            cards.append(f'<button class="gl-wax-card gl-wax-card-blue" type="button" aria-pressed="false"><span class="gl-wax-card-inner"><span class="gl-wax-card-face gl-wax-card-front"><span class="gl-wax-card-kicker">Flashcard</span><span><h3>{esc(card.get("front", ""))}</h3><p>Tap to reveal.</p></span></span><span class="gl-wax-card-face gl-wax-card-back"><span class="gl-wax-card-kicker">Answer</span><span><h3>Answer</h3>{_paragraphs(card.get("back", ""), source_map)}</span></span></span></button>')
         return f'<div class="gl-guide-block gl-flashcard"><div class="gl-wax-cards">{"".join(cards)}</div></div>'
     if kind == "calculator":
         return f'<div class="gl-guide-block gl-calc" data-guide-calculator><h3>{esc(block.get("title", ""))}</h3><p>{esc(_plain(block.get("description", "")))}</p><label class="gl-mono">Hours <input type="number" min="0" max="24" step="1" value="6" data-hours-input></label><div class="gl-calc-output" data-hours-output>6 hours: two easy sessions, one technique session, one longer ski.</div></div>'
@@ -254,10 +256,10 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
                 correct = opt.get("label", "")
                 feedback = opt.get("response", "")
             opts.append(f'<button class="gl-quiz-option" type="button" data-answer="{esc(opt.get("label", ""))}">{esc(opt.get("label", ""))}</button>')
-        return f'<div class="gl-guide-block gl-knowledge" data-quiz-correct="{esc(correct)}" data-quiz-feedback="{esc(_plain(feedback))}"><h3>Knowledge check</h3><p class="gl-section-prose">{_md_inline(block.get("question", ""), source_ids)}</p><div class="gl-quiz-options" role="group" aria-label="Knowledge check options">{"".join(opts)}</div><p class="gl-knowledge-result" aria-live="polite" data-empty="Choose one answer.">Choose one answer.</p></div>'
+        return f'<div class="gl-guide-block gl-knowledge" data-quiz-correct="{esc(correct)}" data-quiz-feedback="{esc(_plain(feedback))}"><h3>Knowledge check</h3><p class="gl-section-prose">{_md_inline(block.get("question", ""), source_map)}</p><div class="gl-quiz-options" role="group" aria-label="Knowledge check options">{"".join(opts)}</div><p class="gl-knowledge-result" aria-live="polite" data-empty="Choose one answer.">Choose one answer.</p></div>'
     if kind == "race_reference":
         slug = block.get("slug", "")
-        return f'<aside class="gl-guide-block gl-race-ref" data-race-reference="{esc(slug)}"><h3>Race reference</h3><p>{_md_inline(block.get("context", ""), source_ids)}</p><a href="/{esc(slug)}/">Open race profile</a></aside>'
+        return f'<aside class="gl-guide-block gl-race-ref" data-race-reference="{esc(slug)}"><h3>Race reference</h3><p>{_md_inline(block.get("context", ""), source_map)}</p><a href="/{esc(slug)}/">Open race profile</a></aside>'
     if kind == "personalized_content":
         riders = content.get("personalization", {}).get("rider_types", [])
         buttons = []
@@ -267,7 +269,7 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
             rid = rider["id"]
             active = " is-active" if i == 0 else ""
             buttons.append(f'<button class="gl-personal-button{active}" type="button" data-rider-target="{esc(rid)}">{esc(rider["label"])}</button>')
-            panels.append(f'<div class="gl-personal-panel{active}" data-rider-panel="{esc(rid)}"><span class="gl-guide-tag">{esc(rider.get("hours", ""))}</span>{_paragraphs(variants.get(rid, ""), source_ids)}</div>')
+            panels.append(f'<div class="gl-personal-panel{active}" data-rider-panel="{esc(rid)}"><span class="gl-guide-tag">{esc(rider.get("hours", ""))}</span>{_paragraphs(variants.get(rid, ""), source_map)}</div>')
         return f'<div class="gl-guide-block gl-personal"><h3>I am a:</h3><div class="gl-personal-buttons">{"".join(buttons)}</div>{"".join(panels)}</div>'
     return f'<div class="gl-guide-block gl-placeholder">Unsupported block: {esc(kind)}</div>'
 
@@ -475,12 +477,12 @@ def validate_references(content: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     slugs = _slug_set()
     for chapter in content.get("chapters", []):
-        source_ids = {s["id"] for s in chapter.get("sources", [])}
+        source_map = {s["id"]: i + 1 for i, s in enumerate(chapter.get("sources", []))}
         for section in chapter.get("sections", []):
             for block in section.get("blocks", []):
                 raw = json.dumps(block)
                 for sid in CITE_RE.findall(raw):
-                    if sid not in source_ids:
+                    if sid not in source_map:
                         errors.append(f"{chapter['id']}: missing source {sid}")
                 if block.get("type") == "race_reference" and block.get("slug") not in slugs:
                     errors.append(f"{chapter['id']}: missing race slug {block.get('slug')}")

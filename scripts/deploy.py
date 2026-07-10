@@ -33,7 +33,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "questionnaire", "search", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "questionnaire", "search", "thanks", "training-plans"}
 
 
 def get_ssh_credentials():
@@ -395,6 +395,33 @@ def _sync_static_page(name: str, remote_path: str):
     return False
 
 
+def sync_guide():
+    """Upload the guide tree (pillar + 8 chapters) to /guide/ via tar+ssh."""
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+
+    guide_dir = PROJECT_ROOT / "output" / "guide"
+    if not (guide_dir / "index.html").exists():
+        print(f"  Guide not found: {guide_dir}")
+        print("  Run: python3 scripts/generate_guide.py")
+        return False
+
+    remote_dir = f"{get_remote_base()}/guide"
+    ok, _, err = _ssh_run(host, user, port,
+                          f"mkdir -p {remote_dir} && chmod 755 {remote_dir}")
+    if not ok:
+        print(f"  Failed to create /guide/ directory: {err}")
+        return False
+
+    if _tar_ssh_upload(host, user, port, guide_dir, remote_dir):
+        _ssh_run(host, user, port, f"chmod -R 755 {remote_dir}")
+        print("  Deployed guide (pillar + chapters) to /guide/")
+        return True
+    return False
+
+
 def sync_questionnaire():
     """Upload plan questionnaire to /questionnaire/."""
     return _sync_static_page("questionnaire", "questionnaire")
@@ -489,6 +516,7 @@ def deploy_all():
         ("Coaching Form", sync_coaching),
         ("Questionnaire", sync_questionnaire),
         ("About", sync_about),
+        ("Guide", sync_guide),
         ("Thanks", sync_thanks),
         ("Sitemap", sync_sitemap),
         ("Feeds", sync_feeds),
@@ -554,6 +582,10 @@ if __name__ == "__main__":
         help="Upload coaching intake form to /coaching/apply/"
     )
     parser.add_argument(
+        "--sync-guide", action="store_true",
+        help="Upload the guide (pillar + 8 chapters) to /guide/"
+    )
+    parser.add_argument(
         "--sync-questionnaire", action="store_true",
         help="Upload plan questionnaire to /questionnaire/"
     )
@@ -605,6 +637,8 @@ if __name__ == "__main__":
         if args.sync_coaching:
             sync_coaching()
             ran = True
+        if args.sync_guide:
+            sync_guide()
         if args.sync_questionnaire:
             sync_questionnaire()
             ran = True
