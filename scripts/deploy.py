@@ -298,7 +298,10 @@ def sync_sitemap():
         return False
     host, user, port = ssh
 
-    sitemap = PROJECT_ROOT / "web" / "sitemap.xml"
+    # generate_sitemap.py writes output/sitemap.xml — prefer it; web/ copy is legacy
+    sitemap = PROJECT_ROOT / "output" / "sitemap.xml"
+    if not sitemap.exists():
+        sitemap = PROJECT_ROOT / "web" / "sitemap.xml"
     if not sitemap.exists():
         print("  sitemap.xml not found — generate it first")
         return False
