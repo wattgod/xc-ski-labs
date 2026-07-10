@@ -57,7 +57,7 @@ class TestRacePageGenerator:
         output_dirs = [d for d in OUTPUT_DIR.iterdir()
                        if d.is_dir() and (d / "index.html").exists()]
         # Subtract 1 for 'search' directory if present
-        non_race_dirs = {"search", "training-plans", "coaching"}
+        non_race_dirs = {"search", "training-plans", "coaching", "about"}
         page_count = len([d for d in output_dirs if d.name not in non_race_dirs])
 
         assert page_count == valid_count, \
@@ -66,7 +66,7 @@ class TestRacePageGenerator:
     def test_every_page_has_doctype(self):
         """Every generated page should start with <!DOCTYPE html>."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching"):
+            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching", "about"):
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -78,7 +78,7 @@ class TestRacePageGenerator:
     def test_every_page_has_title(self):
         """Every page should have a <title> tag."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching"):
+            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching", "about"):
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -91,7 +91,7 @@ class TestRacePageGenerator:
         """No </script> should appear inside <script> JSON blocks."""
         pattern = re.compile(r"<script[^>]*>.*?</script>", re.DOTALL)
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching"):
+            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching", "about"):
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -109,7 +109,7 @@ class TestRacePageGenerator:
         """'undefined' or 'null' should not appear as visible text."""
         skip_patterns = re.compile(r'(rider_intel|"null"|null,|= null|null;|null\))')
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching"):
+            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching", "about"):
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -129,7 +129,7 @@ class TestRacePageGenerator:
         )
         checked = 0
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching"):
+            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching", "about"):
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -149,7 +149,7 @@ class TestRacePageGenerator:
     def test_pages_have_back_navigation(self):
         """Every race page should link back to search and home."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching"):
+            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching", "about"):
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -318,7 +318,7 @@ class TestBranding:
     def test_no_nordic_lab_in_race_pages(self):
         """Race pages should say 'XC Ski Labs', not 'Nordic Lab'."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching"):
+            if not slug_dir.is_dir() or slug_dir.name in ("search", "training-plans", "coaching", "about"):
                 continue
             index = slug_dir / "index.html"
             if not index.exists():

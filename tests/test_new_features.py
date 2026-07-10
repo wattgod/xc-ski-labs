@@ -47,7 +47,7 @@ def _all_race_pages():
     for slug_dir in sorted(OUTPUT_DIR.iterdir()):
         if not slug_dir.is_dir():
             continue
-        if slug_dir.name in ("search", "training-plans", "coaching"):
+        if slug_dir.name in ("search", "training-plans", "coaching", "about"):
             continue
         index = slug_dir / "index.html"
         if index.exists():
@@ -358,6 +358,74 @@ class TestTrainingPlansPage:
         html = _load_page("training-plans/index.html")
         assert 'href="https://xcskilabs.com/training-plans/"' in html, \
             "Missing or wrong canonical URL"
+
+
+# ── About Page ──────────────────────────────────────────────────
+
+
+class TestAboutPage:
+    """Tests for wordpress/generate_about.py output."""
+
+    def test_page_generates(self):
+        result = subprocess.run(
+            [sys.executable, str(WORDPRESS_DIR / "generate_about.py")],
+            capture_output=True, text=True, timeout=30,
+            cwd=str(PROJECT_ROOT),
+        )
+        assert result.returncode == 0, f"About page generator failed: {result.stderr[-300:]}"
+        assert (OUTPUT_DIR / "about" / "index.html").exists(), "About page not generated"
+
+    def test_about_content_and_count(self):
+        html = _load_page("about/index.html")
+        race_count = len([
+            f for f in RACE_DATA_DIR.glob("*.json")
+            if f.name != "_schema.json"
+        ])
+        assert "Honest reviews for a sport that deserves them." in html
+        assert f"{race_count} races scored on 14 criteria" in html
+        assert "/search/" in html
+        assert "/training-plans/" in html
+        assert "/coaching/apply/" in html
+        assert "gravelgodcycling.com" in html
+
+    def test_about_has_ga4_and_consent(self):
+        html = _load_page("about/index.html")
+        head = html.split("</head>")[0]
+        assert "G-3JQLSQLPPM" in head, "GA4 snippet missing from about head"
+        assert "xl_consent" in html, "About page GA4 not gated by consent cookie"
+        assert "gl-cookie-consent" in html, "About page missing consent banner"
+        assert "Accept" in html and "Decline" in html, "Consent choices missing"
+
+    def test_about_count_is_not_hardcoded(self, tmp_path):
+        source = (WORDPRESS_DIR / "generate_about.py").read_text(encoding="utf-8")
+        assert "229" not in source, "About generator hardcodes the old race count"
+
+        data_dir = tmp_path / "race-data"
+        output_dir = tmp_path / "output"
+        data_dir.mkdir()
+        (data_dir / "_schema.json").write_text("{}", encoding="utf-8")
+        (data_dir / "one.json").write_text("{}", encoding="utf-8")
+        (data_dir / "two.json").write_text("{}", encoding="utf-8")
+
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(WORDPRESS_DIR / "generate_about.py"),
+                "--data-dir", str(data_dir),
+                "--output-dir", str(output_dir),
+            ],
+            capture_output=True, text=True, timeout=30,
+            cwd=str(PROJECT_ROOT),
+        )
+        assert result.returncode == 0, f"About temp generation failed: {result.stderr[-300:]}"
+        html = (output_dir / "about" / "index.html").read_text(encoding="utf-8")
+        assert "2 races scored on 14 criteria" in html
+
+    def test_about_has_zero_images(self):
+        html = _load_page("about/index.html")
+        assert "<img" not in html.lower(), "About page should be type-only"
+        assert "og:image" not in html.lower(), "About page should not define image metadata"
+        assert "twitter:image" not in html.lower(), "About page should not define image metadata"
 
 
 # ── Coaching Form ────────────────────────────────────────────────

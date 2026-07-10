@@ -561,7 +561,7 @@ class TestOutputIntegrity:
         for d in OUTPUT_DIR.iterdir():
             if not d.is_dir():
                 continue
-            if d.name in ("search", "training-plans", "coaching"):
+            if d.name in ("search", "training-plans", "coaching", "about"):
                 continue
             if d.name not in profile_slugs:
                 orphaned.append(d.name)
