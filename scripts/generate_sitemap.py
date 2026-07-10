@@ -88,6 +88,13 @@ def generate_sitemap(domain, profiles):
     # Static pages
     add_url(f"{domain}/", "1.0", "weekly")
     add_url(f"{domain}/search/", "0.8", "weekly")
+    add_url(f"{domain}/training-plans/", "0.8", "monthly")
+    add_url(f"{domain}/about/", "0.5", "monthly")
+
+    # Free guide — pillar + only the OPEN (indexable) chapters; gated ones are noindex
+    add_url(f"{domain}/guide/", "0.9", "monthly")
+    for gid in ("what-is-xc-ski-racing", "race-selection", "training-fundamentals"):
+        add_url(f"{domain}/guide/{gid}/", "0.7", "monthly")
 
     # Race pages — already sorted
     tier_counts = {}
