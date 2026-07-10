@@ -105,8 +105,8 @@ add_action('wp_footer', function () {
             <a href="/privacy/">Privacy policy</a>.
         </div>
         <div class="xl-consent-btns">
-            <button class="xl-consent-btn xl-consent-accept" onclick="xlConsent('accepted')">Accept</button>
-            <button class="xl-consent-btn xl-consent-decline" onclick="xlConsent('declined')">Decline</button>
+            <button class="xl-consent-btn xl-consent-accept" type="button" data-xl-consent-choice="accepted">Accept</button>
+            <button class="xl-consent-btn xl-consent-decline" type="button" data-xl-consent-choice="declined">Decline</button>
         </div>
     </div>
 </div>
@@ -120,6 +120,11 @@ function xlConsent(choice) {
     document.getElementById('xl-consent-banner').classList.remove('show');
 }
 (function() {
+    document.querySelectorAll('[data-xl-consent-choice]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            xlConsent(btn.getAttribute('data-xl-consent-choice'));
+        });
+    });
     if (!/xl_consent=/.test(document.cookie)) {
         document.getElementById('xl-consent-banner').classList.add('show');
     }

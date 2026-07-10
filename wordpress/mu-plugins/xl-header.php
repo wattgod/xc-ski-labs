@@ -117,7 +117,7 @@ add_action('wp_body_open', function () {
 <header class="xl-header">
     <div class="xl-header-inner">
         <a href="/" class="xl-logo">XC SKI LABS</a>
-        <button class="xl-hamburger" onclick="document.querySelector('.xl-nav').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+        <button class="xl-hamburger" type="button" data-xl-nav-toggle aria-label="Menu">&#9776;</button>
         <nav class="xl-nav">
             <a href="/search/"<?php echo $is_races ? ' class="active"' : ''; ?>>Races</a>
             <a href="/training-plans/"<?php echo $is_plans ? ' class="active"' : ''; ?>>Training Plans</a>
@@ -126,6 +126,16 @@ add_action('wp_body_open', function () {
         </nav>
     </div>
 </header>
+<script>
+(function() {
+    var toggle = document.querySelector('[data-xl-nav-toggle]');
+    var nav = document.querySelector('.xl-nav');
+    if (!toggle || !nav) return;
+    toggle.addEventListener('click', function() {
+        nav.classList.toggle('open');
+    });
+})();
+</script>
     <?php
 }, 1);
 

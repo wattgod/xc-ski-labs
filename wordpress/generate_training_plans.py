@@ -58,6 +58,16 @@ def load_stripe_products():
         return json.load(fh)
 
 
+def load_payment_links():
+    """Load generated Stripe Payment Links if present."""
+    filepath = DATA_DIR / "stripe-payment-links.json"
+    if not filepath.exists():
+        return {}
+    with open(filepath, "r", encoding="utf-8") as fh:
+        data = json.load(fh)
+    return data if isinstance(data, dict) else {}
+
+
 def get_price_per_week(stripe_data):
     """Extract price-per-week from Stripe data (4-week plan / 4)."""
     if not stripe_data:
@@ -514,6 +524,9 @@ a:focus-visible, button:focus-visible {
   margin: 24px 0;
   text-align: center;
 }
+.gl-pricing-grid.has-checkout {
+  grid-template-columns: repeat(4, 1fr);
+}
 
 .gl-pricing-cell {
   padding: 12px 8px;
@@ -525,6 +538,9 @@ a:focus-visible, button:focus-visible {
 
 .gl-pricing-cell:nth-child(3n) { border-right: none; }
 .gl-pricing-cell:nth-last-child(-n+3) { border-bottom: none; }
+.gl-pricing-grid.has-checkout .gl-pricing-cell:nth-child(3n) { border-right: 2px solid var(--gl-carbon); }
+.gl-pricing-grid.has-checkout .gl-pricing-cell:nth-child(4n) { border-right: none; }
+.gl-pricing-grid.has-checkout .gl-pricing-cell:nth-last-child(-n+4) { border-bottom: none; }
 
 .gl-pricing-cell--header {
   background: var(--gl-carbon);
@@ -533,6 +549,27 @@ a:focus-visible, button:focus-visible {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-size: 0.68rem;
+}
+
+.gl-pricing-checkout {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+  border: 2px solid var(--gl-carbon);
+  padding: 8px 12px;
+  font-family: var(--gl-font-data);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.gl-pricing-checkout:hover {
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
 }
 
 /* ── FAQ ─────────────────────────────────────────── */
@@ -991,7 +1028,7 @@ def build_sample_week():
 """
 
 
-def build_pricing(stripe_data):
+def build_pricing(stripe_data, payment_links):
     """Pricing section with dynamic calculation from Stripe data."""
     ppw = get_price_per_week(stripe_data)
     ppw_dollars = ppw // 100
@@ -1001,34 +1038,59 @@ def build_pricing(stripe_data):
     if stripe_data:
         for p in stripe_data.get("prices", []):
             nick = p.get("nickname", "")
-            if "week plan" in nick.lower() and "17" not in nick:
+            if "week plan" in nick.lower():
                 amount = p["amount"] // 100
                 # Extract week count (handles "4-week", "12-Week", etc.)
                 m = re.search(r'(\d+)', nick)
                 if m:
                     weeks = int(m.group(1))
-                    examples.append((weeks, amount))
+                    examples.append((weeks, amount, p.get("id", ""), nick))
 
     # Fallback if no stripe data
     if not examples:
         examples = [
-            (4, 60), (6, 90), (8, 120), (10, 150), (12, 180),
-            (14, 210), (16, 240),
+            (4, 60, "", "4-week plan ($60)"),
+            (6, 90, "", "6-week plan ($90)"),
+            (8, 120, "", "8-week plan ($120)"),
+            (10, 150, "", "10-week plan ($150)"),
+            (12, 180, "", "12-week plan ($180)"),
+            (14, 210, "", "14-week plan ($210)"),
+            (16, 240, "", "16-week plan ($240)"),
+            (17, 249, "", "17+ week plan ($249 cap)"),
         ]
 
     examples.sort()
 
     # Build pricing grid rows (show a representative subset)
-    show = [e for e in examples if e[0] in (4, 6, 8, 10, 12, 16)]
-    if not show:
-        show = examples[:6]
+    has_checkout = bool(payment_links)
+    if has_checkout:
+        show = examples
+    else:
+        show = [e for e in examples if e[0] in (4, 6, 8, 10, 12, 16)]
+        if not show:
+            show = examples[:6]
 
     grid_cells = ""
-    for weeks, total in show:
+    grid_class = "gl-pricing-grid has-checkout" if has_checkout else "gl-pricing-grid"
+    action_header = '<div class="gl-pricing-cell gl-pricing-cell--header">Checkout</div>' if has_checkout else ""
+    for weeks, total, price_id, nick in show:
+        duration = "17+ weeks" if "17+" in nick else f"{weeks} weeks"
+        action_cell = ""
+        if has_checkout:
+            link = payment_links.get(price_id, {}) if price_id else {}
+            url = link.get("url", "") if isinstance(link, dict) else ""
+            if url:
+                action_cell = (
+                    f'\n    <div class="gl-pricing-cell"><a class="gl-pricing-checkout" '
+                    f'href="{esc(url)}" data-checkout-link data-price-id="{esc(price_id)}" '
+                    f'data-price-nickname="{esc(nick)}">Pay</a></div>'
+                )
+            else:
+                action_cell = '\n    <div class="gl-pricing-cell">&mdash;</div>'
         grid_cells += f"""
-    <div class="gl-pricing-cell">{weeks} weeks</div>
+    <div class="gl-pricing-cell">{duration}</div>
     <div class="gl-pricing-cell">${ppw_dollars}/wk</div>
-    <div class="gl-pricing-cell"><strong>${total}</strong></div>"""
+    <div class="gl-pricing-cell"><strong>${total}</strong></div>{action_cell}"""
 
     # Cap note
     cap_price = 249
@@ -1051,10 +1113,11 @@ def build_pricing(stripe_data):
     <div class="gl-pricing-example">
       8-week plan = <strong>$120</strong>
     </div>
-    <div class="gl-pricing-grid">
+    <div class="{grid_class}">
       <div class="gl-pricing-cell gl-pricing-cell--header">Duration</div>
       <div class="gl-pricing-cell gl-pricing-cell--header">Rate</div>
       <div class="gl-pricing-cell gl-pricing-cell--header">Total</div>
+      {action_header}
       {grid_cells}
     </div>
     <div class="gl-pricing-note">
@@ -1213,6 +1276,7 @@ def build_jsonld(stripe_data):
 def generate_page():
     """Generate the complete training plans landing page."""
     stripe_data = load_stripe_products()
+    payment_links = load_payment_links()
     race_count = count_race_profiles()
 
     css = build_css()
@@ -1223,7 +1287,7 @@ def generate_page():
     how_it_works = build_how_it_works()
     deliverables = build_deliverables()
     sample_week = build_sample_week()
-    pricing = build_pricing(stripe_data)
+    pricing = build_pricing(stripe_data, payment_links)
     faq = build_faq()
     final_cta = build_final_cta()
     footer = build_footer()
@@ -1343,6 +1407,19 @@ function xlConsent(choice) {{
     document.querySelectorAll('[data-consent-choice]').forEach(function(btn) {{
         btn.addEventListener('click', function() {{
             xlConsent(btn.getAttribute('data-consent-choice'));
+        }});
+    }});
+    document.querySelectorAll('[data-checkout-link]').forEach(function(link) {{
+        link.addEventListener('click', function() {{
+            if (typeof gtag === 'function') {{
+                gtag('event', 'begin_checkout', {{
+                    currency: 'USD',
+                    items: [{{
+                        item_id: link.getAttribute('data-price-id') || '',
+                        item_name: link.getAttribute('data-price-nickname') || 'Training plan'
+                    }}]
+                }});
+            }}
         }});
     }});
     if (!/xl_consent=/.test(document.cookie)) {{
