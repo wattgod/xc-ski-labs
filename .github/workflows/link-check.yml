@@ -1,0 +1,21 @@
+name: Link Check
+
+# Weekly dead-link sweep of the live site. A red run means something a visitor
+# can click is broken, including race-page CTAs sampled from the live sitemap.
+
+on:
+  schedule:
+    - cron: "0 12 * * 3"   # Wednesdays 12:00 UTC
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check live links (xcskilabs.com)
+        run: python3 scripts/check_links.py --max-urls 300 --delay 0.4
