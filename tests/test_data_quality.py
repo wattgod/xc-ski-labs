@@ -548,8 +548,8 @@ class TestOutputIntegrity:
             f"({profile_count} profiles + homepage + search)"
 
     def test_no_orphaned_output_dirs(self):
-        """Every dir in output/ (except 'search') should correspond
-        to an existing profile slug. Catches stale output after profile deletion.
+        """Every race dir in output/ should correspond to an existing profile
+        slug. Catches stale output after profile deletion.
         """
         if not OUTPUT_DIR.exists():
             pytest.skip("Output directory not generated yet")
@@ -561,7 +561,7 @@ class TestOutputIntegrity:
         for d in OUTPUT_DIR.iterdir():
             if not d.is_dir():
                 continue
-            if d.name in ("search", "training-plans", "coaching", "about"):
+            if d.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
                 continue
             if d.name not in profile_slugs:
                 orphaned.append(d.name)
