@@ -363,6 +363,42 @@ def sync_coaching():
     return False
 
 
+def _sync_static_page(name: str, remote_path: str):
+    """Upload a single generated static page dir (output/{name}/index.html)."""
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+
+    page_file = PROJECT_ROOT / "output" / name / "index.html"
+    if not page_file.exists():
+        print(f"  Page not found: {page_file}")
+        print(f"  Run the matching wordpress/generate_*.py first")
+        return False
+
+    remote_dir = f"{get_remote_base()}/{remote_path}"
+    ok, _, err = _ssh_run(host, user, port,
+                          f"mkdir -p {remote_dir} && chmod 755 {remote_dir}")
+    if not ok:
+        print(f"  Failed to create /{remote_path}/ directory: {err}")
+        return False
+
+    if _scp_upload(host, user, port, page_file, f"{remote_dir}/index.html"):
+        print(f"  Deployed /{remote_path}/")
+        return True
+    return False
+
+
+def sync_questionnaire():
+    """Upload plan questionnaire to /questionnaire/."""
+    return _sync_static_page("questionnaire", "questionnaire")
+
+
+def sync_about():
+    """Upload about page to /about/."""
+    return _sync_static_page("about", "about")
+
+
 def purge_cache():
     """Purge SiteGround caches.
 
@@ -463,6 +499,14 @@ if __name__ == "__main__":
         help="Upload coaching intake form to /coaching/apply/"
     )
     parser.add_argument(
+        "--sync-questionnaire", action="store_true",
+        help="Upload plan questionnaire to /questionnaire/"
+    )
+    parser.add_argument(
+        "--sync-about", action="store_true",
+        help="Upload about page to /about/"
+    )
+    parser.add_argument(
         "--purge-cache", action="store_true",
         help="Purge all SiteGround caches"
     )
@@ -497,6 +541,12 @@ if __name__ == "__main__":
             ran = True
         if args.sync_coaching:
             sync_coaching()
+            ran = True
+        if args.sync_questionnaire:
+            sync_questionnaire()
+            ran = True
+        if args.sync_about:
+            sync_about()
             ran = True
         if args.purge_cache:
             purge_cache()
