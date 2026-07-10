@@ -237,9 +237,10 @@ def check_output_pages(result: PreflightResult):
         result.error("output/ directory not found — run generate_race_pages.py")
         return
 
+    NON_RACE_DIRS = {"about", "coaching", "questionnaire", "search", "training-plans"}
     page_slugs = set()
     for d in OUTPUT_DIR.iterdir():
-        if d.is_dir() and d.name != "search" and (d / "index.html").exists():
+        if d.is_dir() and d.name not in NON_RACE_DIRS and (d / "index.html").exists():
             page_slugs.add(d.name)
 
     profile_count = result.stats.get("profiles", 0)
