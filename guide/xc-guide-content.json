@@ -4,10 +4,26 @@
   "meta_description": "Free XC ski racing training guide: classic and skate technique, training zones, dry-land periodization, waxing basics, fueling in the cold, and race-week protocol. From the team behind 229 rated loppets.",
   "personalization": {
     "rider_types": [
-      {"id": "lantern_rouge", "label": "Lantern Rouge", "hours": "0-4 hrs/week"},
-      {"id": "finisher", "label": "Finisher", "hours": "4-8 hrs/week"},
-      {"id": "wave_chaser", "label": "Wave Chaser", "hours": "8-12 hrs/week"},
-      {"id": "elite_wave", "label": "Elite Wave", "hours": "12+ hrs/week"}
+      {
+        "id": "lantern_rouge",
+        "label": "Lantern Rouge",
+        "hours": "0-4 hrs/week"
+      },
+      {
+        "id": "finisher",
+        "label": "Finisher",
+        "hours": "4-8 hrs/week"
+      },
+      {
+        "id": "wave_chaser",
+        "label": "Wave Chaser",
+        "hours": "8-12 hrs/week"
+      },
+      {
+        "id": "elite_wave",
+        "label": "Elite Wave",
+        "hours": "12+ hrs/week"
+      }
     ]
   },
   "glossary": {
@@ -66,9 +82,18 @@
             {
               "type": "tabs",
               "tabs": [
-                {"label": "Classic", "content": "Skis stay in cut tracks. Grip from kick wax (or fish scales/skins on touring skis). Gears: diagonal stride for climbs, kick double-pole for rolling terrain, double-pole for speed. Easier to start, deep to master. The monuments are classic."},
-                {"label": "Skate", "content": "Skis angled on a groomed deck, no grip wax. Gears: V1 for climbs, V2 and V2-alternate for speed. Faster, more intense, technique collapses when you redline. Most North American loppets offer both; the American Birkebeiner's skate race is the big one."},
-                {"label": "Both", "content": "Many skiers train both all season — they load the body differently, which is free durability. If a race offers both techniques, entry lists show skate running faster and classic running deeper in tradition."}
+                {
+                  "label": "Classic",
+                  "content": "Skis stay in cut tracks. Grip from kick wax (or fish scales/skins on touring skis). Gears: diagonal stride for climbs, kick double-pole for rolling terrain, double-pole for speed. Easier to start, deep to master. The monuments are classic."
+                },
+                {
+                  "label": "Skate",
+                  "content": "Skis angled on a groomed deck, no grip wax. Gears: V1 for climbs, V2 and V2-alternate for speed. Faster, more intense, technique collapses when you redline. Most North American loppets offer both; the American Birkebeiner's skate race is the big one."
+                },
+                {
+                  "label": "Both",
+                  "content": "Many skiers train both all season — they load the body differently, which is free durability. If a race offers both techniques, entry lists show skate running faster and classic running deeper in tradition."
+                }
               ]
             },
             {
@@ -93,12 +118,37 @@
             {
               "type": "data_table",
               "title": "The four rider types",
-              "headers": ["Type", "Hours/week", "The season goal", "The honest description"],
+              "headers": [
+                "Type",
+                "Hours/week",
+                "The season goal",
+                "The honest description"
+              ],
               "rows": [
-                ["Lantern Rouge", "0-4", "Finish the loppet upright and smiling", "Skiing is one of several things in a full life. The plan must survive missed weeks."],
-                ["Finisher", "4-8", "Finish strong — negative-split the back half", "Consistent but constrained. Most skiers live here. Most of this guide is aimed here."],
-                ["Wave Chaser", "8-12", "Qualify up a start wave; PB a monument", "Structured year, real dry-land season, technique work on purpose."],
-                ["Elite Wave", "12+", "Front-wave seeding, age-group results", "Training is a planned part of the week, every week, including July."]
+                [
+                  "Lantern Rouge",
+                  "0-4",
+                  "Finish the loppet upright and smiling",
+                  "Skiing is one of several things in a full life. The plan must survive missed weeks."
+                ],
+                [
+                  "Finisher",
+                  "4-8",
+                  "Finish strong — negative-split the back half",
+                  "Consistent but constrained. Most skiers live here. Most of this guide is aimed here."
+                ],
+                [
+                  "Wave Chaser",
+                  "8-12",
+                  "Qualify up a start wave; PB a monument",
+                  "Structured year, real dry-land season, technique work on purpose."
+                ],
+                [
+                  "Elite Wave",
+                  "12+",
+                  "Front-wave seeding, age-group results",
+                  "Training is a planned part of the week, every week, including July."
+                ]
               ]
             },
             {
@@ -123,20 +173,47 @@
               "type": "process_list",
               "title": "Your first loppet, condensed",
               "steps": [
-                {"title": "Pick a race 4+ months out", "content": "Long enough to train honestly, close enough to stay motivated. Chapter 2 is the shopping guide."},
-                {"title": "Enter early", "content": "Monuments sell out. Entry also settles the question of which technique you're training."},
-                {"title": "Train the year you have", "content": "Not the year a pro has. Chapter 3 builds the plan shape per rider type."},
-                {"title": "Learn snow on purpose", "content": "A weekly technique focus beats a season of unexamined kilometers. Chapter 4."},
-                {"title": "Race it as a rehearsal", "content": "A local 20-30 km race 4-6 weeks before your goal teaches you feeds, wax, and waves cheaply."}
+                {
+                  "title": "Pick a race 4+ months out",
+                  "content": "Long enough to train honestly, close enough to stay motivated. Chapter 2 is the shopping guide."
+                },
+                {
+                  "title": "Enter early",
+                  "content": "Monuments sell out. Entry also settles the question of which technique you're training."
+                },
+                {
+                  "title": "Train the year you have",
+                  "content": "Not the year a pro has. Chapter 3 builds the plan shape per rider type."
+                },
+                {
+                  "title": "Learn snow on purpose",
+                  "content": "A weekly technique focus beats a season of unexamined kilometers. Chapter 4."
+                },
+                {
+                  "title": "Race it as a rehearsal",
+                  "content": "A local 20-30 km race 4-6 weeks before your goal teaches you feeds, wax, and waves cheaply."
+                }
               ]
             },
             {
               "type": "knowledge_check",
               "question": "At citizen level, what separates finishers most?",
               "options": [
-                {"label": "Raw fitness", "correct": false, "response": "It matters — but at citizen level it's rarely the biggest gap."},
-                {"label": "Technique economy", "correct": true, "response": "Right. Clean technique is a second engine, and unlike fitness it doesn't demand more hours — it demands attention."},
-                {"label": "Equipment cost", "correct": false, "response": "Fast skis help, but a mid-range ski gliding cleanly beats a race ski fighting the snow."}
+                {
+                  "label": "Raw fitness",
+                  "correct": false,
+                  "response": "It matters — but at citizen level it's rarely the biggest gap."
+                },
+                {
+                  "label": "Technique economy",
+                  "correct": true,
+                  "response": "Right. Clean technique is a second engine, and unlike fitness it doesn't demand more hours — it demands attention."
+                },
+                {
+                  "label": "Equipment cost",
+                  "correct": false,
+                  "response": "Fast skis help, but a mid-range ski gliding cleanly beats a race ski fighting the snow."
+                }
               ]
             }
           ]
@@ -151,9 +228,354 @@
             {
               "type": "accordion",
               "items": [
-                {"title": "Waxable vs waxless classic skis", "content": "Waxless (fish scales or skins) trades a little glide for zero wax fuss — the right call for Lantern Rouge and busy Finishers. Waxable skis are faster when the wax is right and slower when it's wrong; they come with a hobby attached."},
-                {"title": "Do I need a power meter equivalent?", "content": "No. XC pacing runs on effort and heart rate. A ski erg gives numbers if you love numbers, but the sport's dashboard is your breathing."},
-                {"title": "Can I train for this on rollerskis alone?", "content": "You can build most of the engine and much of the technique on rollerskis — that's the entire dry-land tradition — but plan on real snow time before racing: balance and downhills don't transfer from pavement."}
+                {
+                  "title": "Waxable vs waxless classic skis",
+                  "content": "Waxless (fish scales or skins) trades a little glide for zero wax fuss — the right call for Lantern Rouge and busy Finishers. Waxable skis are faster when the wax is right and slower when it's wrong; they come with a hobby attached."
+                },
+                {
+                  "title": "Do I need a power meter equivalent?",
+                  "content": "No. XC pacing runs on effort and heart rate. A ski erg gives numbers if you love numbers, but the sport's dashboard is your breathing."
+                },
+                {
+                  "title": "Can I train for this on rollerskis alone?",
+                  "content": "You can build most of the engine and much of the technique on rollerskis — that's the entire dry-land tradition — but plan on real snow time before racing: balance and downhills don't transfer from pavement."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "race-selection",
+      "title": "Race Selection",
+      "subtitle": "Using a database of 229 rated loppets",
+      "gated": false,
+      "cta_after": "race_database",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "why-selection-matters",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Your race choice is the biggest training decision you'll make, because the race writes the plan. A 90 km classic monument at altitude asks for a different winter than a rolling 25 km skate loppet an hour from your house.\n\nWe rate every race in the database on 14 criteria and rank them into four tiers. The tiers aren't a quality verdict on your goals — a tier-4 local loppet might be exactly the right race — they're a measure of how much event you're signing up for: field depth, prestige, organization, scenery, and how hard the course itself will argue with you."
+            },
+            {
+              "type": "hero_stat",
+              "stats": [
+                {
+                  "value": "229",
+                  "label": "races rated"
+                },
+                {
+                  "value": "30",
+                  "label": "countries"
+                },
+                {
+                  "value": "14",
+                  "label": "criteria"
+                },
+                {
+                  "value": "4",
+                  "label": "tiers"
+                }
+              ]
+            },
+            {
+              "type": "prose",
+              "content": "Tier 1 is the monuments — seven races where the sport's history lives. Tier 2 is the serious classics: deep fields, real infrastructure, worth traveling for. Tier 3 is the strong regional loppet, and tier 4 is grassroots — small fields, honest snow, often the best first race precisely because nobody is watching."
+            }
+          ]
+        },
+        {
+          "id": "criteria-that-matter",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Fourteen criteria go into a rating, but four of them should dominate your choice, and they change with your rider type.\n\nDistance is the obvious one, and skiers consistently over-order. Doubling race distance more than doubles the demand, because fatigue degrades technique and degraded technique wastes energy you no longer have — the spiral every long loppet is famous for.\n\nSnow reliability decides whether your race happens at all. Scandinavian and high-altitude races are safe bets; low-altitude central European races have thinner margins, and a canceled race after a four-month build is a heartbreak you can hedge against by checking this score.\n\nCourse profile — our elevation and technicality scores — determines whether the race is an engine test or a skills test. Birkebeinerrennet climbs a mountain and holds it; Marcialonga is deceptively flat and turns into a double-pole time trial.\n\nAccessibility is the honest logistics score: flights, transfers, lodging pressure, and the morning-of shuttle reality. A race two flights and a bus away costs training days on both ends."
+            },
+            {
+              "type": "data_table",
+              "title": "Which criteria to weight, by rider type",
+              "headers": [
+                "Rider type",
+                "Weight first",
+                "Weight second",
+                "Mostly ignore"
+              ],
+              "rows": [
+                [
+                  "Lantern Rouge",
+                  "Distance (shorter)",
+                  "Accessibility",
+                  "Field depth, prestige"
+                ],
+                [
+                  "Finisher",
+                  "Distance",
+                  "Snow reliability",
+                  "Competitive depth"
+                ],
+                [
+                  "Wave Chaser",
+                  "Course profile",
+                  "Field depth (seeding!)",
+                  "Scenery (you won't look)"
+                ],
+                [
+                  "Elite Wave",
+                  "Competitive depth",
+                  "Course profile",
+                  "Expenses (you already know)"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "tip",
+              "title": "The seeding angle",
+              "content": "Big loppets seed start waves from previous results, and some accept results from partner races. If a monument is your goal, a smaller seeded race the season before can buy you a wave upgrade worth twenty minutes of clean tracks."
+            }
+          ]
+        },
+        {
+          "id": "the-monuments",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The monuments deserve their reputations, and they are not interchangeable.\n\nVasaloppet is the oldest and longest of the great classics: 90 km, mostly gentle, decided by double-pole endurance and feed-station discipline. Birkebeinerrennet is half the distance and twice the mountain, with a mandatory pack that commemorates the royal rescue it reenacts. Marcialonga runs 70 km down an Italian valley so gradually that your poling muscles file a formal complaint at 50 km. The American Birkebeiner is North America's answer — the deepest field on the continent and a town that closes for the party. Engadin Skimarathon is the fast one: 42 km of Swiss valley at altitude, half marathon-sized fields, skate technique, sunglasses weather."
+            },
+            {
+              "type": "race_reference",
+              "slug": "vasaloppet",
+              "context": "90 km, the oldest loppet — double-pole endurance and blueberry soup"
+            },
+            {
+              "type": "race_reference",
+              "slug": "marcialonga",
+              "context": "70 km Italian classic — the great double-pole time trial"
+            },
+            {
+              "type": "race_reference",
+              "slug": "engadin-skimarathon",
+              "context": "42 km Swiss skate race at altitude — the fast monument"
+            },
+            {
+              "type": "personalized_content",
+              "variants": {
+                "lantern_rouge": "Monuments welcome you — they have cutoffs but generous ones. Consider the shorter companion races most monuments run on the same weekend.",
+                "finisher": "One monument per season. Build the winter around it and let a local race in January be the rehearsal.",
+                "wave_chaser": "Check each monument's seeding-race list before you plan the season — the qualifying race IS part of the season.",
+                "elite_wave": "Front waves at the monuments are qualification-gated. Reverse-plan from the seeding deadline, not the race date."
+              }
+            }
+          ]
+        },
+        {
+          "id": "building-a-season",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "A season is one goal race, one rehearsal, and whatever local skiing keeps you happy.\n\nThe rehearsal race matters more than skiers think: 4 to 6 weeks before the goal, at a third to half the distance, close to home. It pressure-tests wax choices, feed-station technique, pacing discipline, and clothing — every lesson costs a tenth of what it would cost at the monument. Chapter 7 turns the rehearsal's findings into race-week protocol.\n\nResist the three-monument season until you've finished one comfortably. Recovery from a 50-90 km race is measured in weeks, and stacking them turns a season into a survival tour."
+            },
+            {
+              "type": "timeline",
+              "title": "A season, shaped",
+              "items": [
+                {
+                  "label": "May-July",
+                  "content": "Dry-land base: rollerski, run, bound, lift. The season is built here (ch. 3)."
+                },
+                {
+                  "label": "Aug-Oct",
+                  "content": "Volume peak on rollerskis + intensity returns. Enter your races now — monuments sell out."
+                },
+                {
+                  "label": "Nov-Dec",
+                  "content": "First snow camp or local skiing; technique re-calibration; volume steady."
+                },
+                {
+                  "label": "January",
+                  "content": "Rehearsal race, 20-40 km, close to home."
+                },
+                {
+                  "label": "Feb-Mar",
+                  "content": "Goal monument. Taper per chapter 7, race, recover, grill sausages."
+                }
+              ]
+            },
+            {
+              "type": "knowledge_check",
+              "question": "What's the rehearsal race for?",
+              "options": [
+                {
+                  "label": "Fitness — one last hard workout",
+                  "correct": false,
+                  "response": "It's training too, but that's not why it earns its calendar slot."
+                },
+                {
+                  "label": "Testing wax, feeds, pacing and clothing cheaply",
+                  "correct": true,
+                  "response": "Right — every race-craft lesson costs a tenth of what the monument charges for it."
+                },
+                {
+                  "label": "Wave seeding only",
+                  "correct": false,
+                  "response": "Sometimes it does that too — but the craft lessons are the point even when seeding isn't on offer."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "training-fundamentals",
+      "title": "Training Fundamentals",
+      "subtitle": "The engine, the zones, and the year",
+      "gated": false,
+      "cta_after": "training_plans",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "the-engine",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The physiology of ski racing is the physiology of every endurance sport, with one addition that changes everything: the engine drives through four limbs, and the software matters as much as the horsepower.\n\nThe engine itself is aerobic. A 3-hour loppet runs almost entirely on oxygen: your ability to move oxygen to muscle and burn fuel with it decides your cruising speed. This system grows slowly and almost without limit — it responds to accumulated easy hours over months and years, which is why the training year (below) is mostly unheroic.\n\nThe addition is economy. On a bike, watts are watts. On snow, two skiers producing identical physiological power can move at different speeds, because one of them wastes less of it — better glide per push, better weight transfer, less braking on every stride. Fitness sets your ceiling; technique decides how much of the ceiling you get to use. That's why chapter 4 exists and why it's not optional reading."
+            },
+            {
+              "type": "callout",
+              "style": "note",
+              "title": "Why skiers test so high",
+              "content": "The biggest oxygen-uptake numbers in sports science belong to cross-country skiers — arms and legs together demand more than legs alone. The encouraging corollary: ski training upgrades your whole body, and fitness from running or cycling transfers in better than you'd fear."
+            }
+          ]
+        },
+        {
+          "id": "zones",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "You need three intensities, honestly separated. The sport's dashboard is breathing, not gadgets.\n\nEasy means conversational — full sentences, nose-breathing on the flats, the pace that feels embarrassingly slow the first month and turns out to be where the engine is built. Most of your time lives here. When easy drifts toward medium, which it always tries to do, both ends of your training get worse: too tired to go hard, too hard to recover.\n\nThreshold is comfortably hard — phrases, not sentences; sustainable for tens of minutes; the intensity of a long climb taken seriously. This is race pace for most loppet skiers, and you visit it on purpose once or twice a week in season.\n\nHard is 3-to-8-minute-interval hard: single words, honest discomfort, technique holding by will. It sharpens the top end and it is the first thing to cut when life compresses a week, because the base pays the bills.\n\nThe proportions: roughly 80 percent easy, 20 percent not-easy, counted over a month rather than policed daily. This split is the most replicated finding in endurance training, it's how the Norwegians train, and it survives contact with a normal life better than any exotic alternative."
+            },
+            {
+              "type": "zone_visualizer",
+              "zones": [
+                {
+                  "name": "Easy",
+                  "share": "~80%",
+                  "cue": "Full sentences. Nose breathing. Feels too slow.",
+                  "use": "Engine construction. Most sessions."
+                },
+                {
+                  "name": "Threshold",
+                  "share": "~15%",
+                  "cue": "Phrases. Comfortably hard. A serious climb.",
+                  "use": "Race pace. 1-2 focused sessions/week in season."
+                },
+                {
+                  "name": "Hard",
+                  "share": "~5%",
+                  "cue": "Words. 3-8 min repeats. Technique on will.",
+                  "use": "Top-end sharpening. First thing cut in a bad week."
+                }
+              ]
+            },
+            {
+              "type": "personalized_content",
+              "variants": {
+                "lantern_rouge": "At 0-4 hours, skip formal intervals entirely: make one session a week 'hilly and honest' and keep the rest conversational. Consistency IS your intensity plan.",
+                "finisher": "One threshold session a week, everything else easy. Your gains come from never missing the long session, not from interval heroics.",
+                "wave_chaser": "The classic week: one threshold, one hard-intervals, one long easy, the rest genuinely easy. Guard the easy days from ambition.",
+                "elite_wave": "You can carry two intensity days plus a long threshold-tempo. The discipline that separates you now is how slow your easy days are."
+              }
+            }
+          ]
+        },
+        {
+          "id": "the-year",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Skiing's cruelest constraint is that the sport disappears for half the year — and its best-kept secret is that this is an advantage. The dry-land months are where seasons are built, because training there is measurable, repeatable, and free of the variable that scrambles everything on snow.\n\nMay through July is base: easy volume in whatever moves you — rollerskiing, running, cycling — plus strength work and bounding to keep the ski-specific muscles awake. August through October is the volume peak and the return of structure: rollerski intervals, uphill bounding with poles, the ski erg when weather argues. November is the awkward month — first snow camps for those who can, patience for those who can't. December through March is the season: volume holds, intensity sharpens, races punctuate. April is closed for repairs; chapter 8 covers why the gap is mandatory.\n\nThe October trap deserves its own sentence: every year, skiers greet the approaching season by doubling volume in October, arriving at the first race tired instead of fit. The volume peak belongs in late summer. October is for sharpening what summer built."
+            },
+            {
+              "type": "process_list",
+              "title": "The year wheel",
+              "steps": [
+                {
+                  "title": "May-Jul — Build",
+                  "content": "Easy volume in any sport + strength + bounding. Unheroic on purpose."
+                },
+                {
+                  "title": "Aug-Oct — Peak",
+                  "content": "Biggest weeks of the year, on rollerskis. Intensity returns. NOT October-only heroics."
+                },
+                {
+                  "title": "Nov — Transition",
+                  "content": "First snow, technique recalibration, ego stored with the lawn furniture."
+                },
+                {
+                  "title": "Dec-Mar — Season",
+                  "content": "Hold volume, sharpen intensity, race the plan from chapter 2."
+                },
+                {
+                  "title": "Apr — Closed",
+                  "content": "Recovery. The gap is part of the plan, not a failure of it."
+                }
+              ]
+            },
+            {
+              "type": "calculator",
+              "id": "weekly-hours",
+              "title": "Your honest week",
+              "description": "Hours you can actually train, most weeks, including the bad ones — that number, not your best week, is what a plan should be built on."
+            }
+          ]
+        },
+        {
+          "id": "strength-and-dry-land",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The upper body is load-bearing in this sport, and it's the piece newcomers underbuild. Double-poling drives through the lats, triceps, and the whole front of your trunk; on fast classic courses it is most of the propulsion. The fix is not bodybuilding — it's a short, heavy, boring strength routine (pulls, presses, trunk) twice a week from May to November, once a week in season, plus the specific work the sport gives you free: ski erg intervals and bounding with poles.\n\nRollerskis are the bridge. They preserve real technique through the snowless months, and every serious dry-land plan leans on them. Two cautions the tradition insists on: brakes and helmets are not optional, and hills you'd ski down happily on snow can be genuinely dangerous on wheels — route around, not down."
+            },
+            {
+              "type": "flashcard",
+              "cards": [
+                {
+                  "front": "What does the ski erg train?",
+                  "back": "Double-pole power and the trunk sequence that drives it — the most race-transferable indoor minute available to a skier."
+                },
+                {
+                  "front": "What's bounding?",
+                  "back": "Uphill running with poles, exaggerating ski motion. The classic dry-land intensity session: brutal, specific, older than your coach."
+                }
+              ]
+            },
+            {
+              "type": "knowledge_check",
+              "question": "When is a ski season actually built?",
+              "options": [
+                {
+                  "label": "December, when snow arrives",
+                  "correct": false,
+                  "response": "By December the engine is what it is — snow time is for technique and sharpening."
+                },
+                {
+                  "label": "May through October, on dry land",
+                  "correct": true,
+                  "response": "Right. The dry-land months build the engine; winter spends it."
+                },
+                {
+                  "label": "Race week, with the right taper",
+                  "correct": false,
+                  "response": "A taper reveals fitness; it can't create any. Chapter 7 covers what it CAN do."
+                }
               ]
             }
           ]
