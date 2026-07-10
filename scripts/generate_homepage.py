@@ -24,6 +24,7 @@ from typing import Any, Optional
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
+TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 
 # ── Constants ──────────────────────────────────────────────────
 
@@ -68,6 +69,11 @@ def _parse_score(raw: Any) -> Optional[int]:
         return int(float(str(raw)))
     except (ValueError, TypeError):
         return None
+
+
+def load_tokens_css() -> str:
+    """Read shared Wax Bench tokens for static embedding."""
+    return TOKENS_CSS.read_text(encoding="utf-8").strip()
 
 
 # ── Data Loading ───────────────────────────────────────────────
@@ -184,6 +190,27 @@ def build_race_card(race: dict) -> str:
     </div>"""
 
 
+def build_tier_row(race: dict) -> str:
+    """Generate a single Tier 1 table row."""
+    slug = esc(race.get("slug", ""))
+    name = esc(race.get("display_name") or race.get("name", ""))
+    country = esc(get_country(race))
+    distance = esc(get_distance_display(race))
+    score = get_score(race)
+    tier = get_tier(race)
+    discipline = DISCIPLINE_LABELS.get(get_discipline(race), esc(get_discipline(race).title()))
+    score_class = " score-red" if tier == 1 else ""
+
+    return f"""    <tr>
+      <td><span class="tchip">T{tier}</span> {name}</td>
+      <td>{country}</td>
+      <td class="mono r">{distance}</td>
+      <td>{discipline}</td>
+      <td class="mono r{score_class}">{score}</td>
+      <td class="r"><a class="rowlink" href="/race/{slug}/">READ &rarr;</a></td>
+    </tr>"""
+
+
 def build_coverage_data(races: list[dict]) -> list[tuple[str, int]]:
     """Return sorted (country, count) pairs."""
     counter: Counter = Counter()
@@ -232,6 +259,7 @@ def generate_homepage(races: list[dict]) -> str:
 
     # ── T1 cards ──
     t1_cards = "\n\n".join(build_race_card(r) for r in t1_races)
+    t1_rows = "\n".join(build_tier_row(r) for r in t1_races)
 
     # ── T2 top N cards ──
     t2_top = t2_races[:T2_HIGHLIGHT_COUNT]
@@ -263,6 +291,7 @@ def generate_homepage(races: list[dict]) -> str:
         + _safe_json_for_script(jsonld_obj, indent=2)
         + "\n</script>"
     )
+    tokens_css = load_tokens_css()
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -289,28 +318,7 @@ gtag('js',new Date());gtag('config','G-3JQLSQLPPM')}})();
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-:root {{
-  --gl-nordic-night: #1a2332;
-  --gl-fjord-blue: #2b4c7e;
-  --gl-deep-powder: #354f6e;
-  --gl-slate-steel: #4a5568;
-  --gl-aurora-green: #1b7260;
-  --gl-wax-orange: #b34a1a;
-  --gl-glacier-teal: #357a88;
-  --gl-birch-bark: #d4cdc4;
-  --gl-silver-mist: #9ca8b8;
-  --gl-frost-white: #e8edf2;
-  --gl-ice-paper: #f0f3f7;
-  --gl-tier-1: #1a2332;
-  --gl-tier-2: #2b4c7e;
-  --gl-tier-3: #4a5568;
-  --gl-tier-4: #5a6d7e;
-  --gl-font-data: 'Sometype Mono', monospace;
-  --gl-font-editorial: 'Source Serif 4', serif;
-  --gl-font-ui: 'Inter', sans-serif;
-  --gl-border-width: 2px;
-  --gl-border-heavy: 3px;
-}}
+{tokens_css}
 
 *, *::before, *::after {{
   box-sizing: border-box;
@@ -321,42 +329,59 @@ gtag('js',new Date());gtag('config','G-3JQLSQLPPM')}})();
 body {{
   margin: 0;
   padding: 0;
-  background: var(--gl-ice-paper);
-  color: var(--gl-nordic-night);
-  font-family: var(--gl-font-ui);
+  background: var(--gl-paper);
+  color: var(--gl-carbon);
+  font-family: var(--gl-font-editorial);
   line-height: 1.6;
 }}
 
-a {{ color: var(--gl-fjord-blue); text-decoration: none; }}
+a {{ color: var(--gl-swix-red); text-decoration: none; }}
 a:hover {{ text-decoration: underline; }}
 
 /* ── Hero ── */
 .hero {{
-  background: var(--gl-nordic-night);
-  color: var(--gl-frost-white);
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
+  position: relative;
+  overflow: hidden;
   padding: 80px 24px 64px;
-  border-bottom: var(--gl-border-heavy) solid var(--gl-nordic-night);
+  border-bottom: 4px solid var(--gl-carbon);
+}}
+
+.hero::after {{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -60px;
+  bottom: 0;
+  width: 420px;
+  background: repeating-linear-gradient(115deg, var(--gl-red-deep) 0 28px, var(--gl-swix-red) 28px 56px);
 }}
 
 .hero-inner {{
-  max-width: 960px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }}
 
 .hero h1 {{
-  font-family: var(--gl-font-editorial);
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 700;
-  line-height: 1.1;
+  font-family: var(--gl-font-display);
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 900;
+  font-style: italic;
+  line-height: .92;
+  text-transform: uppercase;
   margin: 0 0 20px;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
+  max-width: 13ch;
 }}
 
 .hero-sub {{
   font-family: var(--gl-font-data);
   font-size: 1.1rem;
   font-weight: 700;
-  color: var(--gl-glacier-teal);
+  color: var(--gl-klister);
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -365,17 +390,19 @@ a:hover {{ text-decoration: underline; }}
 .hero-desc {{
   font-family: var(--gl-font-editorial);
   font-size: 1.15rem;
-  color: var(--gl-silver-mist);
+  color: var(--gl-white);
   max-width: 600px;
   line-height: 1.5;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
 }}
 
 .hero-stats {{
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-top: 28px;
+  margin-bottom: 0;
+  color: var(--gl-klister);
 }}
 
 .hero-stat {{
@@ -385,9 +412,9 @@ a:hover {{ text-decoration: underline; }}
 
 .hero-stat .num {{
   font-family: var(--gl-font-data);
-  font-size: 2.5rem;
+  font-size: 1rem;
   font-weight: 700;
-  color: var(--gl-frost-white);
+  color: var(--gl-klister);
   line-height: 1;
 }}
 
@@ -396,33 +423,126 @@ a:hover {{ text-decoration: underline; }}
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   margin-top: 4px;
 }}
 
 .hero-cta {{
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   padding: 14px 32px;
   font-family: var(--gl-font-data);
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  background: var(--gl-glacier-teal);
-  color: var(--gl-frost-white);
-  border: var(--gl-border-width) solid var(--gl-frost-white);
-  text-decoration: none;
-  transition: background 0.15s;
+  background: var(--gl-white);
+  color: var(--gl-carbon);
+  border: 2px solid var(--gl-white);
+}}
+
+.hero-cta.secondary {{
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+  border-color: var(--gl-carbon);
+  margin-left: 10px;
 }}
 
 .hero-cta:hover {{
-  background: var(--gl-aurora-green);
   text-decoration: none;
+}}
+
+.mono {{ font-family: var(--gl-font-data); }}
+.r {{ text-align: right; }}
+
+.db-band {{
+  background: var(--gl-paper);
+  border-bottom: 4px solid var(--gl-carbon);
+}}
+
+.db-inner {{
+  max-width: var(--gl-measure);
+  margin: 0 auto;
+  padding: 44px 24px;
+}}
+
+.section-heading {{
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 20px;
+}}
+
+.section-heading .num {{
+  color: var(--gl-swix-red);
+  font-family: var(--gl-font-display);
+  font-weight: 900;
+  font-style: italic;
+}}
+
+.section-heading h2 {{
+  margin: 0;
+  font-family: var(--gl-font-display);
+  font-size: 1.45rem;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+  text-transform: uppercase;
+}}
+
+.tier-table {{
+  width: 100%;
+  border-collapse: collapse;
+}}
+
+.tier-table th {{
+  padding: 8px 10px;
+  border-bottom: 3px solid var(--gl-carbon);
+  color: var(--gl-muted);
+  font-family: var(--gl-font-data);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-align: left;
+  text-transform: uppercase;
+}}
+
+.tier-table td {{
+  padding: 13px 10px;
+  border-bottom: 1px solid var(--gl-hairline);
+  font-size: .98rem;
+}}
+
+.tchip {{
+  display: inline-block;
+  margin-right: 8px;
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+  padding: 3px 8px;
+  font-family: var(--gl-font-data);
+  font-size: .56rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+}}
+
+.score-red,
+.rowlink {{
+  color: var(--gl-swix-red);
+  font-weight: 700;
+}}
+
+.rowlink {{
+  font-family: var(--gl-font-data);
+  font-size: .64rem;
+  letter-spacing: .14em;
+  text-decoration: none;
+  white-space: nowrap;
 }}
 
 /* ── Tier Showcase ── */
 .section {{
-  max-width: 1200px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   padding: 64px 24px;
 }}
@@ -432,7 +552,7 @@ a:hover {{ text-decoration: underline; }}
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 32px;
-  border-bottom: var(--gl-border-width) solid var(--gl-nordic-night);
+  border-bottom: 2px solid var(--gl-carbon);
   padding-bottom: 12px;
 }}
 
@@ -449,7 +569,7 @@ a:hover {{ text-decoration: underline; }}
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--gl-fjord-blue);
+  color: var(--gl-swix-red);
 }}
 
 /* ── Race Cards ── */
@@ -460,8 +580,8 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 .race-card {{
-  background: #fff;
-  border: var(--gl-border-width) solid var(--gl-nordic-night);
+  background: var(--gl-white);
+  border: 2px solid var(--gl-carbon);
   display: flex;
   flex-direction: column;
   transition: transform 0.1s;
@@ -492,21 +612,21 @@ a:hover {{ text-decoration: underline; }}
   font-size: 0.65rem;
   font-weight: 700;
   padding: 2px 8px;
-  color: var(--gl-frost-white);
-  border: var(--gl-border-width) solid var(--gl-nordic-night);
+  color: var(--gl-white);
+  border: 2px solid var(--gl-carbon);
   white-space: nowrap;
   flex-shrink: 0;
 }}
 
-.tier-badge.t1 {{ background: var(--gl-tier-1); }}
-.tier-badge.t2 {{ background: var(--gl-tier-2); }}
-.tier-badge.t3 {{ background: var(--gl-tier-3); }}
+.tier-badge.t1 {{ background: var(--gl-carbon); }}
+.tier-badge.t2 {{ background: var(--gl-carbon); }}
+.tier-badge.t3 {{ background: var(--gl-carbon); }}
 
 .rc-tagline {{
   padding: 0 16px 10px;
   font-family: var(--gl-font-editorial);
   font-size: 0.85rem;
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   font-style: italic;
   line-height: 1.4;
 }}
@@ -521,7 +641,7 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 .rc-meta .lbl {{
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }}
@@ -533,7 +653,7 @@ a:hover {{ text-decoration: underline; }}
 .rc-footer {{
   margin-top: auto;
   padding: 8px 16px;
-  border-top: 1px solid var(--gl-birch-bark);
+  border-top: 1px solid var(--gl-hairline);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -546,18 +666,18 @@ a:hover {{ text-decoration: underline; }}
   padding: 2px 8px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border: var(--gl-border-width) solid var(--gl-nordic-night);
+  border: 2px solid var(--gl-carbon);
 }}
 
-.discipline-badge.classic {{ background: var(--gl-nordic-night); color: var(--gl-frost-white); }}
-.discipline-badge.skate {{ background: var(--gl-fjord-blue); color: var(--gl-frost-white); }}
-.discipline-badge.both {{ background: var(--gl-wax-orange); color: var(--gl-frost-white); }}
+.discipline-badge.classic {{ background: var(--gl-carbon); color: var(--gl-white); }}
+.discipline-badge.skate {{ background: var(--gl-swix-red); color: var(--gl-white); }}
+.discipline-badge.both {{ background: var(--gl-swix-red); color: var(--gl-white); }}
 
 .score-display {{
   font-family: var(--gl-font-data);
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
 }}
 
 /* ── Coverage Map (text version) ── */
@@ -568,8 +688,8 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 .coverage-item {{
-  background: #fff;
-  border: var(--gl-border-width) solid var(--gl-nordic-night);
+  background: var(--gl-white);
+  border: 2px solid var(--gl-carbon);
   padding: 12px 16px;
   display: flex;
   justify-content: space-between;
@@ -586,7 +706,7 @@ a:hover {{ text-decoration: underline; }}
   font-family: var(--gl-font-data);
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--gl-fjord-blue);
+  color: var(--gl-swix-red);
 }}
 
 /* ── About ── */
@@ -597,8 +717,8 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 .about-card {{
-  background: #fff;
-  border: var(--gl-border-width) solid var(--gl-nordic-night);
+  background: var(--gl-white);
+  border: 2px solid var(--gl-carbon);
   padding: 24px;
 }}
 
@@ -609,23 +729,23 @@ a:hover {{ text-decoration: underline; }}
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin: 0 0 12px;
-  color: var(--gl-fjord-blue);
+  color: var(--gl-swix-red);
 }}
 
 .about-card p {{
   font-family: var(--gl-font-editorial);
   font-size: 0.95rem;
   line-height: 1.6;
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   margin: 0;
 }}
 
 /* ── Footer ── */
 footer {{
-  background: var(--gl-nordic-night);
-  color: var(--gl-silver-mist);
-  padding: 40px 24px;
-  border-top: var(--gl-border-heavy) solid var(--gl-nordic-night);
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
+  padding: 0 24px;
+  border-top: 0;
 }}
 
 .footer-inner {{
@@ -639,19 +759,19 @@ footer {{
 }}
 
 .footer-brand {{
-  font-family: var(--gl-font-data);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-family: var(--gl-font-display);
+  font-size: 1rem;
+  font-weight: 900;
+  font-style: italic;
   text-transform: uppercase;
-  color: var(--gl-glacier-teal);
+  color: var(--gl-white);
 }}
 
 .footer-tagline {{
   font-family: var(--gl-font-editorial);
   font-size: 0.85rem;
   font-style: italic;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
 }}
 
 .footer-link {{
@@ -660,19 +780,106 @@ footer {{
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gl-glacier-teal);
+  color: var(--gl-klister);
+}}
+
+.gl-ladder {{
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+}}
+
+.gl-ladder-inner {{
+  max-width: var(--gl-measure);
+  margin: 0 auto;
+  padding: 52px var(--gl-space-5) 56px;
+}}
+
+.gl-ladder h2 {{
+  margin: 0 0 4px;
+  font-family: var(--gl-font-display);
+  font-size: 1.9rem;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+  text-transform: uppercase;
+}}
+
+.gl-ladder-lead {{
+  margin: 0 0 var(--gl-space-6);
+  color: var(--gl-hairline);
+  font-style: italic;
+}}
+
+.gl-rungs {{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gl-space-4);
+}}
+
+.gl-rung {{
+  background: var(--gl-carbon);
+  border: 1px solid var(--gl-muted);
+  border-top: 6px solid var(--gl-swix-red);
+  padding: var(--gl-space-5);
+}}
+
+.gl-rung-kicker,
+.gl-rung-price {{
+  color: var(--gl-klister);
+  font-family: var(--gl-font-data);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}}
+
+.gl-rung h3 {{
+  margin: var(--gl-space-2) 0;
+  font-family: var(--gl-font-display);
+  font-size: 1.05rem;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+}}
+
+.gl-rung p {{
+  margin: 0 0 var(--gl-space-4);
+  color: var(--gl-hairline);
+  font-size: .9rem;
+  line-height: 1.55;
+}}
+
+.gl-rung-btn {{
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: var(--gl-space-3);
+  border: 2px solid var(--gl-white);
+  color: var(--gl-white);
+  padding: 0 var(--gl-space-4);
+  font-family: var(--gl-font-data);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-decoration: none;
+  text-transform: uppercase;
+}}
+
+.gl-rung-btn.apply {{
+  border-color: var(--gl-swix-red);
+  background: var(--gl-swix-red);
 }}
 
 /* ── Focus ── */
 a:focus-visible, button:focus-visible {{
-  outline: 3px solid var(--gl-wax-orange);
+  outline: 3px solid var(--gl-swix-red);
   outline-offset: 2px;
 }}
 
 /* ── Nav Header ── */
 .gl-nav-header {{
-  background: var(--gl-nordic-night);
-  border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+  background: var(--gl-carbon);
+  border-bottom: 3px solid var(--gl-swix-red);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -689,11 +896,12 @@ a:focus-visible, button:focus-visible {{
   font-family: var(--gl-font-data);
   font-weight: 700;
   font-size: 1.1rem;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   text-decoration: none;
   letter-spacing: 0.05em;
 }}
-.gl-nav-logo:hover {{ color: var(--gl-glacier-teal); }}
+.gl-nav-logo:hover {{ color: var(--gl-klister); }}
+.gl-nav-logo em {{ color: var(--gl-swix-red); font-style: italic; }}
 .gl-nav-links {{
   display: flex;
   gap: 0;
@@ -709,7 +917,7 @@ a:focus-visible, button:focus-visible {{
   font-family: var(--gl-font-data);
   font-size: 0.75rem;
   font-weight: 700;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -717,15 +925,15 @@ a:focus-visible, button:focus-visible {{
   display: block;
 }}
 .gl-nav-item > a:hover {{
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
 }}
 .gl-nav-dropdown {{
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  background: var(--gl-nordic-night);
-  border: 2px solid var(--gl-fjord-blue);
+  background: var(--gl-carbon);
+  border: 2px solid var(--gl-swix-red);
   min-width: 200px;
   z-index: 1001;
   padding: 8px 0;
@@ -737,7 +945,7 @@ a:focus-visible, button:focus-visible {{
   font-family: var(--gl-font-data);
   font-size: 0.65rem;
   font-weight: 700;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -745,14 +953,14 @@ a:focus-visible, button:focus-visible {{
   display: block;
 }}
 .gl-nav-dropdown a:hover {{
-  color: var(--gl-frost-white);
-  background: var(--gl-fjord-blue);
+  color: var(--gl-white);
+  background: var(--gl-swix-red);
 }}
 .gl-nav-hamburger {{
   display: none;
   background: none;
   border: none;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   font-size: 1.5rem;
   cursor: pointer;
   padding: 4px;
@@ -765,12 +973,12 @@ a:focus-visible, button:focus-visible {{
   left: 0;
   right: 0;
   z-index: 9999;
-  background: var(--gl-nordic-night);
-  border-top: var(--gl-border-heavy) solid var(--gl-wax-orange);
+  background: var(--gl-carbon);
+  border-top: 3px solid var(--gl-swix-red);
   padding: 16px 20px;
   font-family: var(--gl-font-data);
   font-size: 0.8rem;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   display: none;
 }}
 .gl-cookie-banner.show {{ display: block; }}
@@ -793,29 +1001,34 @@ a:focus-visible, button:focus-visible {{
   font-size: 0.75rem;
   font-weight: 700;
   padding: 8px 16px;
-  border: 2px solid var(--gl-frost-white);
+  border: 2px solid var(--gl-white);
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }}
 .gl-cookie-accept {{
-  background: var(--gl-aurora-green);
-  color: var(--gl-frost-white);
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
 }}
 .gl-cookie-decline {{
   background: transparent;
-  color: var(--gl-silver-mist);
-  border-color: var(--gl-slate-steel);
+  color: var(--gl-muted);
+  border-color: var(--gl-muted);
 }}
 
 /* ── Responsive ── */
 @media (max-width: 640px) {{
   .hero {{ padding: 48px 16px 40px; }}
   .hero-stats {{ gap: 20px; }}
-  .hero-stat .num {{ font-size: 2rem; }}
+  .hero-cta.secondary {{ margin: 10px 0 0; }}
   .section {{ padding: 40px 16px; }}
   .race-grid {{ grid-template-columns: 1fr; }}
   .coverage-grid {{ grid-template-columns: 1fr 1fr; }}
+  .gl-rungs {{ grid-template-columns: 1fr; }}
+  .tier-table th:nth-child(3),
+  .tier-table td:nth-child(3),
+  .tier-table th:nth-child(4),
+  .tier-table td:nth-child(4) {{ display: none; }}
   .footer-inner {{ flex-direction: column; text-align: center; }}
   .gl-nav-hamburger {{ display: block; }}
   .gl-nav-links {{
@@ -824,11 +1037,11 @@ a:focus-visible, button:focus-visible {{
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--gl-nordic-night);
+    background: var(--gl-carbon);
     flex-direction: column;
     padding: 16px 20px;
     gap: 0;
-    border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+    border-bottom: 3px solid var(--gl-swix-red);
   }}
   .gl-nav-links.open {{ display: flex; }}
   .gl-nav-dropdown {{
@@ -846,7 +1059,7 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Nav Header ── -->
 <header class="gl-nav-header">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo">XC SKI LABS</a>
+    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS">XC SKI <em>LABS</em></a>
     <button class="gl-nav-hamburger" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
@@ -854,13 +1067,11 @@ a:focus-visible, button:focus-visible {{
         <div class="gl-nav-dropdown"><a href="/search/">All XC Ski Races</a></div>
       </li>
       <li class="gl-nav-item">
-        <a href="/training-plans/">Products</a>
-        <div class="gl-nav-dropdown"><a href="/training-plans/">Training Plans</a></div>
-      </li>
+        <a href="/training-plans/">Plans</a>
+              </li>
       <li class="gl-nav-item">
-        <a href="/coaching/apply/">Services</a>
-        <div class="gl-nav-dropdown"><a href="/coaching/apply/">Coaching</a></div>
-      </li>
+        <a href="/coaching/apply/">Coaching</a>
+              </li>
       <li class="gl-nav-item">
         <a href="/about/">About</a>
       </li>
@@ -871,9 +1082,11 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Hero ── -->
 <section class="hero">
   <div class="hero-inner">
-    <h1>XC SKI LABS</h1>
-    <p class="hero-sub">XC Ski Race Database &mdash; Classic &amp; Skate</p>
-    <p class="hero-desc">Every marathon, every loppet, every citizen race worth lining up for. Scored on {CRITERIA_COUNT} criteria. Ranked into tiers. Searchable.</p>
+    <p class="hero-sub">The XC Ski Race Database</p>
+    <h1>Every loppet, rated.</h1>
+    <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria and ranked into four tiers, from the Birkebeiner to the backyard classics.</p>
+    <a href="/search/" class="hero-cta">Search the races</a>
+    <a href="/about/" class="hero-cta secondary">How we rate</a>
     <div class="hero-stats">
       <div class="hero-stat">
         <span class="num" id="statRaces">{race_count}</span>
@@ -892,23 +1105,24 @@ a:focus-visible, button:focus-visible {{
         <span class="label">Tiers</span>
       </div>
     </div>
-    <a href="/search/" class="hero-cta">Search All Races</a>
   </div>
 </section>
 
-<!-- ── Tier 1 Showcase ── -->
-<div class="section">
-  <div class="section-header">
-    <span class="section-title">Tier 1 &mdash; The Monuments</span>
-    <a href="/search/" class="section-link">View All &rarr;</a>
+<!-- ── Tier 1 Table ── -->
+<section class="db-band">
+  <div class="db-inner">
+    <div class="section-heading"><span class="num">01</span><h2>Tier 1 — The monuments</h2></div>
+    <table class="tier-table">
+      <thead><tr><th>Race</th><th>Country</th><th class="r">Distance</th><th>Style</th><th class="r">Score</th><th></th></tr></thead>
+      <tbody>
+{t1_rows}
+      </tbody>
+    </table>
   </div>
-  <div class="race-grid" id="tier1Grid">
-{t1_cards}
-  </div>
-</div>
+</section>
 
 <!-- ── Tier 2 Highlights ── -->
-<div class="section" style="background: #fff; margin: 0; max-width: none; padding-left: calc((100% - 1200px)/2 + 24px); padding-right: calc((100% - 1200px)/2 + 24px);">
+<div class="section" style="background: var(--gl-white); margin: 0; max-width: none; padding-left: calc((100% - var(--gl-measure))/2 + 24px); padding-right: calc((100% - var(--gl-measure))/2 + 24px);">
   <div class="section-header">
     <span class="section-title">Tier 2 &mdash; Must-Do Races</span>
     <a href="/search/" class="section-link">View All {t2_total} &rarr;</a>
@@ -927,7 +1141,7 @@ a:focus-visible, button:focus-visible {{
 </div>
 
 <!-- ── What We Score ── -->
-<div class="section" style="background: #fff; margin: 0; max-width: none; padding-left: calc((100% - 1200px)/2 + 24px); padding-right: calc((100% - 1200px)/2 + 24px);">
+<div class="section" style="background: var(--gl-white); margin: 0; max-width: none; padding-left: calc((100% - var(--gl-measure))/2 + 24px); padding-right: calc((100% - var(--gl-measure))/2 + 24px);">
   <div class="section-header">
     <span class="section-title">How We Score</span>
   </div>
@@ -947,6 +1161,44 @@ a:focus-visible, button:focus-visible {{
   </div>
 </div>
 
+<!-- ── Ladder ── -->
+<section class="gl-ladder" id="training">
+  <div class="gl-ladder-inner">
+    <h2>Get race ready</h2>
+    <p class="gl-ladder-lead">Choose the amount of structure you want around the start line.</p>
+    <div class="gl-rungs">
+      <div class="gl-rung">
+        <span class="gl-rung-kicker">Plans</span>
+        <h3>Training plans</h3>
+        <p>Structured plans for classic races, skate races, and long winter builds.</p>
+        <span class="gl-rung-price">FROM $60</span><br>
+        <a class="gl-rung-btn" href="/training-plans/">Browse</a>
+      </div>
+      <div class="gl-rung">
+        <span class="gl-rung-kicker">Custom</span>
+        <h3>Custom plan</h3>
+        <p>Your race, your hours, your history. Built from the intake.</p>
+        <span class="gl-rung-price">$60-$249</span><br>
+        <a class="gl-rung-btn" href="/questionnaire/">Start the intake</a>
+      </div>
+      <div class="gl-rung">
+        <span class="gl-rung-kicker">Course</span>
+        <h3>XC ski course</h3>
+        <p>Lessons from first glide to race preparation.</p>
+        <span class="gl-rung-price">SELF-PACED</span><br>
+        <a class="gl-rung-btn" href="/learn/">See the course</a>
+      </div>
+      <div class="gl-rung">
+        <span class="gl-rung-kicker">Coaching</span>
+        <h3>Coaching</h3>
+        <p>Direct support when the season needs more than a template.</p>
+        <span class="gl-rung-price">APPLICATION</span><br>
+        <a class="gl-rung-btn apply" href="/coaching/apply/">Apply</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ── Footer ── -->
 <footer>
   <div class="footer-inner">
@@ -963,7 +1215,7 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Cookie Consent ── -->
 <div class="gl-cookie-banner" id="gl-cookie-banner">
   <div class="gl-cookie-inner">
-    <div>We use cookies for analytics to improve the experience. <a href="/privacy/" style="color:var(--gl-glacier-teal)">Privacy policy</a>.</div>
+    <div>We use cookies for analytics to improve the experience. <a href="/privacy/" style="color:var(--gl-klister)">Privacy policy</a>.</div>
     <div class="gl-cookie-btns">
       <button class="gl-cookie-btn gl-cookie-accept" onclick="xlConsent('accepted')">Accept</button>
       <button class="gl-cookie-btn gl-cookie-decline" onclick="xlConsent('declined')">Decline</button>

@@ -18,6 +18,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 RACE_INDEX = PROJECT_ROOT / "web" / "race-index.json"
+TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
 
 FORM_ACTION = "https://formsubmit.co/coaching@xcskilabs.com"
 FORM_SUBJECT = "New Plan Questionnaire \u2014 XC Ski Labs"
@@ -51,43 +52,14 @@ def load_race_slug_map(index_path: Path = RACE_INDEX) -> dict[str, str]:
     return dict(sorted(slug_map.items()))
 
 
+def load_tokens_css() -> str:
+    """Read shared Wax Bench tokens for static embedding."""
+    return TOKENS_CSS.read_text(encoding="utf-8").strip()
+
+
 def build_css() -> str:
     """Build the complete CSS for the questionnaire page."""
-    return """
-:root {
-  /* Primary */
-  --gl-nordic-night: #1a2332;
-  --gl-fjord-blue: #2b4c7e;
-  --gl-deep-powder: #354f6e;
-  --gl-slate-steel: #4a5568;
-
-  /* Accents */
-  --gl-aurora-green: #1b7260;
-  --gl-aurora-violet: #7b5ea7;
-  --gl-wax-orange: #b34a1a;
-  --gl-glacier-teal: #357a88;
-
-  /* Neutrals & Backgrounds */
-  --gl-birch-bark: #d4cdc4;
-  --gl-silver-mist: #9ca8b8;
-  --gl-frost-white: #e8edf2;
-  --gl-ice-paper: #f0f3f7;
-
-  /* Tier Colors */
-  --gl-tier-1: #1a2332;
-  --gl-tier-2: #2b4c7e;
-  --gl-tier-3: #4a5568;
-  --gl-tier-4: #5a6d7e;
-
-  /* Typography */
-  --gl-font-data: 'Sometype Mono', monospace;
-  --gl-font-editorial: 'Source Serif 4', serif;
-
-  /* Borders (neo-brutalist) */
-  --gl-border-width: 2px;
-  --gl-border-heavy: 3px;
-  --gl-border-color: var(--gl-nordic-night);
-}
+    return load_tokens_css() + """
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -98,23 +70,23 @@ def build_css() -> str:
 body {
   margin: 0;
   padding: 0;
-  background: var(--gl-ice-paper);
-  color: var(--gl-nordic-night);
+  background: var(--gl-paper);
+  color: var(--gl-carbon);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: var(--gl-fjord-blue);
+  color: var(--gl-swix-red);
 }
 
 a:hover {
-  color: var(--gl-glacier-teal);
+  color: var(--gl-klister);
 }
 
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
-  outline: 3px solid var(--gl-wax-orange);
+  outline: 3px solid var(--gl-swix-red);
   outline-offset: 2px;
 }
 
@@ -129,8 +101,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   position: absolute;
   left: -999px;
   top: 8px;
-  background: var(--gl-frost-white);
-  color: var(--gl-nordic-night);
+  background: var(--gl-white);
+  color: var(--gl-carbon);
   padding: 8px 12px;
   z-index: 10000;
   font-family: var(--gl-font-data);
@@ -147,8 +119,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--gl-nordic-night);
-  border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+  background: var(--gl-carbon);
+  border-bottom: 3px solid var(--gl-swix-red);
   padding: 0 20px;
 }
 .gl-nav-inner {
@@ -163,12 +135,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   font-family: var(--gl-font-data);
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   text-decoration: none;
   letter-spacing: 0.1em;
 }
 .gl-nav-logo:hover {
-  color: var(--gl-birch-bark);
+  color: var(--gl-hairline);
 }
 .gl-nav-links {
   display: flex;
@@ -185,7 +157,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   font-family: var(--gl-font-data);
   font-size: 0.7rem;
   font-weight: 700;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -194,15 +166,15 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 .gl-nav-item > a:hover,
 .gl-nav-item > a.active {
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
 }
 .gl-nav-dropdown {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  background: var(--gl-nordic-night);
-  border: var(--gl-border-width) solid var(--gl-fjord-blue);
+  background: var(--gl-carbon);
+  border: 2px solid var(--gl-swix-red);
   min-width: 200px;
   z-index: 1001;
   padding: 8px 0;
@@ -214,7 +186,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   font-family: var(--gl-font-data);
   font-size: 0.65rem;
   font-weight: 700;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -222,14 +194,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   display: block;
 }
 .gl-nav-dropdown a:hover {
-  color: var(--gl-frost-white);
-  background: var(--gl-fjord-blue);
+  color: var(--gl-white);
+  background: var(--gl-swix-red);
 }
 .gl-nav-hamburger {
   display: none;
   background: transparent;
   border: none;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   font-size: 1.5rem;
   cursor: pointer;
   padding: 8px;
@@ -241,14 +213,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 .gl-page-header {
   padding: 52px 0 28px;
-  border-bottom: var(--gl-border-width) solid var(--gl-birch-bark);
+  border-bottom: 2px solid var(--gl-hairline);
   margin-bottom: 28px;
 }
 .gl-kicker {
   font-family: var(--gl-font-data);
   font-size: 0.72rem;
   font-weight: 700;
-  color: var(--gl-wax-orange);
+  color: var(--gl-swix-red);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -263,15 +235,15 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .gl-page-header p {
   font-family: var(--gl-font-editorial);
   font-size: 1.08rem;
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   margin: 0;
 }
 
 /* Form */
 
 .gl-form {
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  background: var(--gl-frost-white);
+  border: 2px solid var(--gl-carbon);
+  background: var(--gl-white);
 }
 .gl-form-grid {
   display: grid;
@@ -279,8 +251,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 .gl-field {
   padding: 20px;
-  border-right: var(--gl-border-width) solid var(--gl-border-color);
-  border-bottom: var(--gl-border-width) solid var(--gl-border-color);
+  border-right: 2px solid var(--gl-carbon);
+  border-bottom: 2px solid var(--gl-carbon);
 }
 .gl-field:nth-child(2n) {
   border-right: none;
@@ -296,20 +268,20 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   margin-bottom: 8px;
 }
 .gl-required {
-  color: var(--gl-wax-orange);
+  color: var(--gl-swix-red);
 }
 .gl-input,
 .gl-select,
 .gl-textarea {
   width: 100%;
   min-height: 44px;
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  background: var(--gl-ice-paper);
-  color: var(--gl-nordic-night);
+  border: 2px solid var(--gl-carbon);
+  background: var(--gl-paper);
+  color: var(--gl-carbon);
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   padding: 10px 12px;
@@ -324,9 +296,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .gl-submit-btn {
   min-width: 44px;
   min-height: 44px;
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  background: var(--gl-aurora-green);
-  color: var(--gl-frost-white);
+  border: 2px solid var(--gl-carbon);
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -339,18 +311,18 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   padding: 12px 18px;
 }
 .gl-submit-btn:hover {
-  background: var(--gl-glacier-teal);
+  background: var(--gl-klister);
 }
 .gl-submit-note,
 .gl-plan-note {
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   font-family: var(--gl-font-editorial);
   font-size: 0.96rem;
   margin: 14px 0 0;
 }
 .gl-success-message {
-  border: var(--gl-border-width) solid var(--gl-border-color);
-  background: var(--gl-frost-white);
+  border: 2px solid var(--gl-carbon);
+  background: var(--gl-white);
   padding: 28px 24px;
   margin-top: 34px;
   display: none;
@@ -362,7 +334,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   margin: 0 0 10px;
 }
 .gl-success-message p {
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   font-family: var(--gl-font-editorial);
   margin: 0 0 16px;
 }
@@ -380,15 +352,15 @@ body.is-submitted .gl-success-message {
   max-width: 760px;
   margin: 0 auto;
   padding: 28px 20px 44px;
-  border-top: var(--gl-border-width) solid var(--gl-birch-bark);
-  color: var(--gl-slate-steel);
+  border-top: 2px solid var(--gl-hairline);
+  color: var(--gl-muted);
   font-family: var(--gl-font-data);
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 .gl-footer a {
-  color: var(--gl-fjord-blue);
+  color: var(--gl-swix-red);
   text-decoration: none;
 }
 
@@ -400,8 +372,8 @@ body.is-submitted .gl-success-message {
   left: 0;
   right: 0;
   z-index: 9999;
-  background: var(--gl-nordic-night);
-  border-top: 3px solid var(--gl-wax-orange);
+  background: var(--gl-carbon);
+  border-top: 3px solid var(--gl-swix-red);
   padding: 20px;
   display: none;
 }
@@ -420,7 +392,7 @@ body.is-submitted .gl-success-message {
 .gl-cookie-text {
   font-family: var(--gl-font-editorial);
   font-size: 0.85rem;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   flex: 1;
   min-width: 200px;
 }
@@ -433,7 +405,7 @@ body.is-submitted .gl-success-message {
   font-size: 0.75rem;
   font-weight: 700;
   padding: 10px 20px;
-  border: var(--gl-border-width) solid var(--gl-frost-white);
+  border: 2px solid var(--gl-white);
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -441,12 +413,12 @@ body.is-submitted .gl-success-message {
   min-height: 44px;
 }
 .gl-cookie-btn.accept {
-  background: var(--gl-aurora-green);
-  color: var(--gl-frost-white);
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
 }
 .gl-cookie-btn.decline {
   background: transparent;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
 }
 
 @media (max-width: 640px) {
@@ -456,11 +428,11 @@ body.is-submitted .gl-success-message {
     top: 52px;
     left: 0;
     right: 0;
-    background: var(--gl-nordic-night);
+    background: var(--gl-carbon);
     flex-direction: column;
     padding: 16px 20px;
     gap: 0;
-    border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+    border-bottom: 3px solid var(--gl-swix-red);
   }
   .gl-nav-links.open {
     display: flex;

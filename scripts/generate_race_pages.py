@@ -1317,6 +1317,7 @@ def generate_page(race: dict) -> str:
 <div class="gl-page">
 {hero}
 {wax_bar}
+<div class="gl-wrap">
 {vitals}
 {course}
 {climate}
@@ -1324,6 +1325,7 @@ def generate_page(race: dict) -> str:
 {history}
 {series}
 {youtube}
+</div>
 </div>
 {ladder}
 <div class="gl-page">

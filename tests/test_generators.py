@@ -415,9 +415,6 @@ class TestQuestionnaireGenerator:
         questionnaire_tokens = set(re.findall(r'(--gl-[a-z0-9-]+):', html))
         tokens_source = (PROJECT_ROOT / "tokens" / "tokens.css").read_text(encoding="utf-8")
         race_tokens = set(re.findall(r'(--gl-[a-z0-9-]+):', tokens_source))
-        legacy_tokens = questionnaire_tokens - race_tokens
-        if legacy_tokens:
-            pytest.skip("Questionnaire remains on the legacy palette until the next Wax Bench port.")
         assert questionnaire_tokens <= race_tokens, \
             f"Questionnaire declares new tokens: {sorted(questionnaire_tokens - race_tokens)}"
 
@@ -452,6 +449,26 @@ class TestWaxBenchRacePages:
             "--gl-wax-violet",
         ]:
             assert token in tokens
+
+    def test_homepage_uses_wax_bench_chrome(self):
+        homepage = OUTPUT_DIR / "index.html"
+        html = homepage.read_text(encoding="utf-8")
+        assert "Every loppet, rated." in html
+        assert "honestly rated" not in html.lower()
+        assert "gl-ladder" in html
+        assert "Get race ready" in html
+        assert "tier-table" in html
+        assert 'id="statRaces">' in html
+        assert "--gl-nordic-night" not in html
+
+    def test_search_page_uses_wax_bench_table(self):
+        html = (WEB_DIR / "nordic-lab-search.html").read_text(encoding="utf-8")
+        js = (WEB_DIR / "nordic-lab-search.js").read_text(encoding="utf-8")
+        assert "race-table" in html
+        assert "gl-nav-logo" in html
+        assert "READ" in js
+        assert "--nl-" not in html
+        assert "--gl-nordic-night" not in html
 
     def test_wax_bar_omitted_when_temperature_unparseable(self):
         gen = self._race_generator()

@@ -386,7 +386,7 @@ class TestAboutPage:
             f for f in RACE_DATA_DIR.glob("*.json")
             if f.name != "_schema.json"
         ])
-        assert "Honest reviews for a sport that deserves them." in html
+        assert "Race intel for a sport that deserves it." in html
         assert f"{race_count} races scored on 14 criteria" in html
         assert "/search/" in html
         assert "/training-plans/" in html

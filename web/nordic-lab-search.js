@@ -113,70 +113,29 @@
   }
 
   function createCard(r) {
-    const card = document.createElement("div");
-    card.className = "race-card";
-
-    // Series tags
-    let seriesHtml = "";
-    if (r.sm && r.sm.length > 0) {
-      const tags = r.sm
-        .map((s) => {
-          const label = SERIES_LABELS[s] || s.replace(/_/g, " ");
-          const span = document.createElement("span");
-          span.className = "series-tag";
-          span.textContent = label;
-          return span.outerHTML;
-        })
-        .join("");
-      seriesHtml = '<div class="series-tags">' + tags + "</div>";
-    }
-
+    const row = document.createElement("tr");
     const distText = r.d ? r.d + "km" : "";
-    const elevText = r.el ? r.el + "m" : "—";
-    const foundedText = r.yr ? r.yr : "—";
     const tierClass = "t" + r.t;
 
-    // Use textContent for user-derived values to prevent XSS
-    const nameEl = document.createElement("h3");
-    nameEl.textContent = r.dn || r.n;
+    row.innerHTML =
+      '<td><span class="tier-badge ' + tierClass + '"></span><span class="race-name"></span></td>' +
+      '<td></td>' +
+      '<td class="mono r"></td>' +
+      '<td></td>' +
+      '<td class="mono r score-display ' + tierClass + '"></td>' +
+      '<td class="r"><a class="rowlink"></a></td>';
 
-    const taglineEl = document.createElement("div");
-    taglineEl.className = "race-tagline";
-    taglineEl.textContent = r.tg;
+    row.querySelector(".tier-badge").textContent = "T" + r.t;
+    row.querySelector(".race-name").textContent = r.dn || r.n;
+    row.children[1].textContent = r.co;
+    row.children[2].textContent = distText;
+    row.children[3].textContent = r.di;
+    row.children[4].textContent = r.sc;
+    const link = row.querySelector(".rowlink");
+    link.href = "/race/" + encodeURIComponent(r.s) + "/";
+    link.textContent = "READ →";
 
-    card.innerHTML =
-      '<div class="race-card-header">' +
-      '<h3></h3>' +
-      '<span class="tier-badge ' + tierClass + '">' + r.tl + "</span>" +
-      "</div>" +
-      '<div class="race-card-body">' +
-      '<div class="race-tagline"></div>' +
-      '<div class="race-meta">' +
-      '<span class="label">Location</span><span class="value"></span>' +
-      '<span class="label">Distance</span><span class="value">' + distText + "</span>" +
-      '<span class="label">Elevation</span><span class="value">' + elevText + "</span>" +
-      '<span class="label">When</span><span class="value"></span>' +
-      '<span class="label">Field</span><span class="value"></span>' +
-      '<span class="label">Founded</span><span class="value">' + foundedText + "</span>" +
-      "</div>" +
-      "</div>" +
-      seriesHtml +
-      '<div class="race-card-footer">' +
-      '<span class="discipline-badge ' + r.di + '">' + r.di + "</span>" +
-      '<span class="score-display">' + r.sc + "%</span>" +
-      "</div>";
-
-    // Set text content safely
-    card.querySelector("h3").textContent = r.dn || r.n;
-    card.querySelector(".race-tagline").textContent = r.tg;
-
-    // Set location, date, field safely
-    const values = card.querySelectorAll(".race-meta .value");
-    values[0].textContent = r.lb || r.loc;
-    values[3].textContent = r.dt;
-    values[4].textContent = r.fs;
-
-    return card;
+    return row;
   }
 
   function render() {

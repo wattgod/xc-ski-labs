@@ -14,6 +14,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_DATA_DIR = PROJECT_ROOT / "race-data"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
+TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
 
 
 def esc(text: Any) -> str:
@@ -28,44 +29,14 @@ def count_race_profiles(data_dir: Path = DEFAULT_DATA_DIR) -> int:
     return len([f for f in data_dir.glob("*.json") if f.name != "_schema.json"])
 
 
+def load_tokens_css() -> str:
+    """Read shared Wax Bench tokens for static embedding."""
+    return TOKENS_CSS.read_text(encoding="utf-8").strip()
+
+
 def build_css() -> str:
     """Build CSS using the race-page design tokens."""
-    return """
-:root {
-  /* Primary */
-  --gl-nordic-night: #1a2332;
-  --gl-fjord-blue: #2b4c7e;
-  --gl-deep-powder: #354f6e;
-  --gl-slate-steel: #4a5568;
-
-  /* Accents */
-  --gl-aurora-green: #1b7260;
-  --gl-aurora-violet: #7b5ea7;
-  --gl-wax-orange: #b34a1a;
-  --gl-glacier-teal: #357a88;
-
-  /* Neutrals & Backgrounds */
-  --gl-birch-bark: #d4cdc4;
-  --gl-silver-mist: #9ca8b8;
-  --gl-frost-white: #e8edf2;
-  --gl-ice-paper: #f0f3f7;
-
-  /* Tier Colors */
-  --gl-tier-1: #1a2332;
-  --gl-tier-2: #2b4c7e;
-  --gl-tier-3: #4a5568;
-  --gl-tier-4: #5a6d7e;
-
-  /* Typography */
-  --gl-font-data: 'Sometype Mono', monospace;
-  --gl-font-editorial: 'Source Serif 4', serif;
-  --gl-font-ui: 'Inter', sans-serif;
-
-  /* Borders (neo-brutalist) */
-  --gl-border-width: 2px;
-  --gl-border-heavy: 3px;
-  --gl-border-color: var(--gl-nordic-night);
-}
+    return load_tokens_css() + """
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -76,18 +47,18 @@ def build_css() -> str:
 body {
   margin: 0;
   padding: 0;
-  background: var(--gl-ice-paper);
-  color: var(--gl-nordic-night);
+  background: var(--gl-paper);
+  color: var(--gl-carbon);
   font-family: var(--gl-font-editorial);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--gl-fjord-blue); }
-a:hover { color: var(--gl-glacier-teal); }
+a { color: var(--gl-swix-red); }
+a:hover { color: var(--gl-klister); }
 
 a:focus-visible, button:focus-visible {
-  outline: 3px solid var(--gl-wax-orange);
+  outline: 3px solid var(--gl-swix-red);
   outline-offset: 2px;
 }
 
@@ -97,8 +68,8 @@ a:focus-visible, button:focus-visible {
   left: 16px;
   z-index: 10000;
   padding: 10px 14px;
-  background: var(--gl-wax-orange);
-  color: var(--gl-frost-white);
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
   font-family: var(--gl-font-data);
   font-size: 0.75rem;
   font-weight: 700;
@@ -119,8 +90,8 @@ a:focus-visible, button:focus-visible {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--gl-nordic-night);
-  border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+  background: var(--gl-carbon);
+  border-bottom: 3px solid var(--gl-swix-red);
   padding: 0 20px;
 }
 .gl-nav-inner {
@@ -135,11 +106,11 @@ a:focus-visible, button:focus-visible {
   font-family: var(--gl-font-data);
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   text-decoration: none;
   letter-spacing: 0.1em;
 }
-.gl-nav-logo:hover { color: var(--gl-birch-bark); }
+.gl-nav-logo:hover { color: var(--gl-hairline); }
 .gl-nav-links {
   display: flex;
   align-items: center;
@@ -153,7 +124,7 @@ a:focus-visible, button:focus-visible {
   font-family: var(--gl-font-data);
   font-size: 0.7rem;
   font-weight: 700;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -161,14 +132,14 @@ a:focus-visible, button:focus-visible {
   display: block;
 }
 .gl-nav-item > a:hover,
-.gl-nav-item > a.active { color: var(--gl-frost-white); }
+.gl-nav-item > a.active { color: var(--gl-white); }
 .gl-nav-dropdown {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  background: var(--gl-nordic-night);
-  border: var(--gl-border-width) solid var(--gl-fjord-blue);
+  background: var(--gl-carbon);
+  border: 2px solid var(--gl-swix-red);
   min-width: 200px;
   z-index: 1001;
   padding: 8px 0;
@@ -178,7 +149,7 @@ a:focus-visible, button:focus-visible {
   font-family: var(--gl-font-data);
   font-size: 0.65rem;
   font-weight: 700;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -186,14 +157,14 @@ a:focus-visible, button:focus-visible {
   display: block;
 }
 .gl-nav-dropdown a:hover {
-  color: var(--gl-frost-white);
-  background: var(--gl-fjord-blue);
+  color: var(--gl-white);
+  background: var(--gl-swix-red);
 }
 .gl-nav-hamburger {
   display: none;
   background: none;
   border: none;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   font-size: 1.5rem;
   cursor: pointer;
   padding: 8px;
@@ -203,10 +174,10 @@ a:focus-visible, button:focus-visible {
 
 /* Page */
 .gl-hero {
-  background: var(--gl-nordic-night);
-  color: var(--gl-ice-paper);
+  background: var(--gl-carbon);
+  color: var(--gl-paper);
   padding: 64px 32px 56px;
-  border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+  border-bottom: 3px solid var(--gl-swix-red);
 }
 .gl-kicker {
   font-family: var(--gl-font-data);
@@ -214,7 +185,7 @@ a:focus-visible, button:focus-visible {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--gl-wax-orange);
+  color: var(--gl-swix-red);
   margin: 0 0 16px;
 }
 .gl-hero h1 {
@@ -227,13 +198,13 @@ a:focus-visible, button:focus-visible {
 }
 .gl-hero-sub {
   font-size: 1.08rem;
-  color: var(--gl-silver-mist);
+  color: var(--gl-muted);
   max-width: 680px;
   margin: 0;
 }
 .gl-section {
   padding: 48px 0;
-  border-bottom: 1px solid var(--gl-birch-bark);
+  border-bottom: 1px solid var(--gl-hairline);
 }
 .gl-section-title {
   font-family: var(--gl-font-editorial);
@@ -244,7 +215,7 @@ a:focus-visible, button:focus-visible {
 }
 .gl-section p {
   font-size: 1rem;
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   max-width: 680px;
   margin: 0 0 14px;
 }
@@ -253,7 +224,7 @@ a:focus-visible, button:focus-visible {
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: var(--gl-nordic-night);
+  color: var(--gl-carbon);
   text-transform: uppercase;
 }
 .gl-text-link {
@@ -264,10 +235,10 @@ a:focus-visible, button:focus-visible {
   letter-spacing: 0.05em;
 }
 .gl-cta-band {
-  background: var(--gl-nordic-night);
-  color: var(--gl-ice-paper);
+  background: var(--gl-carbon);
+  color: var(--gl-paper);
   padding: 32px;
-  border-top: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+  border-top: 3px solid var(--gl-swix-red);
 }
 .gl-cta-band h2 {
   font-family: var(--gl-font-editorial);
@@ -284,23 +255,23 @@ a:focus-visible, button:focus-visible {
   align-items: center;
   min-height: 44px;
   padding: 10px 18px;
-  border: var(--gl-border-width) solid var(--gl-frost-white);
+  border: 2px solid var(--gl-white);
   font-family: var(--gl-font-data);
   font-size: 0.78rem;
   font-weight: 700;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .gl-cta-link:hover {
-  background: var(--gl-frost-white);
-  color: var(--gl-nordic-night);
+  background: var(--gl-white);
+  color: var(--gl-carbon);
 }
 .gl-footer {
   padding: 28px 0 0;
   text-align: center;
-  color: var(--gl-slate-steel);
+  color: var(--gl-muted);
   font-family: var(--gl-font-data);
   font-size: 0.68rem;
   letter-spacing: 0.06em;
@@ -314,8 +285,8 @@ a:focus-visible, button:focus-visible {
   left: 0;
   right: 0;
   z-index: 9999;
-  background: var(--gl-nordic-night);
-  border-top: 3px solid var(--gl-wax-orange);
+  background: var(--gl-carbon);
+  border-top: 3px solid var(--gl-swix-red);
   padding: 20px;
   display: none;
 }
@@ -332,7 +303,7 @@ a:focus-visible, button:focus-visible {
 .gl-cookie-text {
   font-family: var(--gl-font-editorial);
   font-size: 0.85rem;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
   flex: 1;
   min-width: 200px;
 }
@@ -345,7 +316,7 @@ a:focus-visible, button:focus-visible {
   font-size: 0.75rem;
   font-weight: 700;
   padding: 10px 20px;
-  border: var(--gl-border-width) solid var(--gl-frost-white);
+  border: 2px solid var(--gl-white);
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -353,12 +324,12 @@ a:focus-visible, button:focus-visible {
   min-height: 44px;
 }
 .gl-cookie-btn.accept {
-  background: var(--gl-aurora-green);
-  color: var(--gl-frost-white);
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
 }
 .gl-cookie-btn.decline {
   background: transparent;
-  color: var(--gl-frost-white);
+  color: var(--gl-white);
 }
 
 @media (max-width: 640px) {
@@ -374,11 +345,11 @@ a:focus-visible, button:focus-visible {
     top: 52px;
     left: 0;
     right: 0;
-    background: var(--gl-nordic-night);
+    background: var(--gl-carbon);
     flex-direction: column;
     padding: 16px 20px;
     gap: 0;
-    border-bottom: var(--gl-border-heavy) solid var(--gl-fjord-blue);
+    border-bottom: 3px solid var(--gl-swix-red);
   }
   .gl-nav-links.open { display: flex; }
   .gl-nav-hamburger { display: block; }
@@ -506,7 +477,7 @@ def generate_html(race_count: int) -> str:
 <main class="gl-page" id="main">
   <section class="gl-hero">
     <p class="gl-kicker">ABOUT</p>
-    <h1>Honest reviews for a sport that deserves them.</h1>
+    <h1>Race intel for a sport that deserves it.</h1>
     <p class="gl-hero-sub">XC ski race information is scattered across organizer pages, registration sites, local forums, and old results PDFs. Organizer marketing is useful, but it is not a review.</p>
   </section>
 

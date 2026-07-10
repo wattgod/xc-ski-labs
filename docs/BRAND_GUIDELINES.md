@@ -96,8 +96,8 @@ The signature component. A full-width 4-segment strip in the wax quartet
 
 ## 5. Layout & components
 
-**Skeleton:** full-bleed bands; inner content `max-width: 1200px` (1160 + 24px padding is
-the mock's compromise — pick 1200 in tokens); `body { background: var(--gl-paper) }`;
+**Skeleton:** full-bleed bands; inner content `max-width: 960px` (Matti, Jul 9: 1200 read
+"too wide"; GG's 960 race-page measure is the proven structure — don't reinvent); `body { background: var(--gl-paper) }`;
 prose ≤66ch; `border-radius: 0` everywhere; no box-shadow; borders 1px hairline, 3px
 frames, 4–6px statement rules only.
 
