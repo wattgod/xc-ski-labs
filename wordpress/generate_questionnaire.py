@@ -1,47 +1,45 @@
 #!/usr/bin/env python3
-"""
-XC Ski Labs - Plan Questionnaire Generator
+"""Generate the custom-plan intake form at /questionnaire/."""
 
-Generates the plan-purchase intake form at /questionnaire/.
+from __future__ import annotations
 
-Usage:
-    python wordpress/generate_questionnaire.py
-    python wordpress/generate_questionnaire.py --output-dir output
-"""
-
+import argparse
 import html
 import json
 from pathlib import Path
+from typing import Any
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 RACE_INDEX = PROJECT_ROOT / "web" / "race-index.json"
+RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
 
 FORM_ACTION = "https://formsubmit.co/coaching@xcskilabs.com"
 FORM_SUBJECT = "New Plan Questionnaire \u2014 XC Ski Labs"
+TOTAL_SECTIONS = 8
 
 
-def esc(text) -> str:
-    """HTML-escape a string. Safe for None/empty."""
+def esc(text: Any) -> str:
     if text is None or text == "":
         return ""
     return html.escape(str(text), quote=True)
 
 
-def _safe_json_for_script(obj, **kwargs) -> str:
-    """Serialize JSON safely for embedding inside a script element."""
-    raw = json.dumps(obj, **kwargs)
-    return raw.replace("</", "<\\/")
+def _safe_json_for_script(obj: Any, **kwargs: Any) -> str:
+    return json.dumps(obj, **kwargs).replace("</", "<\\/")
+
+
+def load_tokens_css() -> str:
+    return TOKENS_CSS.read_text(encoding="utf-8").strip()
 
 
 def load_race_slug_map(index_path: Path = RACE_INDEX) -> dict[str, str]:
     """Load a compact slug-to-name map from web/race-index.json."""
     if not index_path.exists():
         return {}
-
     data = json.loads(index_path.read_text(encoding="utf-8"))
     slug_map: dict[str, str] = {}
     for race in data.get("races", []):
@@ -52,51 +50,55 @@ def load_race_slug_map(index_path: Path = RACE_INDEX) -> dict[str, str]:
     return dict(sorted(slug_map.items()))
 
 
-def load_tokens_css() -> str:
-    """Read shared Wax Bench tokens for static embedding."""
-    return TOKENS_CSS.read_text(encoding="utf-8").strip()
+def load_race_details(slug_map: dict[str, str]) -> dict[str, dict[str, Any]]:
+    """Load date and distance options for known race slugs when available."""
+    details: dict[str, dict[str, Any]] = {}
+    for slug, name in slug_map.items():
+        details[slug] = {"name": name}
+        path = RACE_DATA_DIR / f"{slug}.json"
+        if not path.exists():
+            continue
+        try:
+            race = json.loads(path.read_text(encoding="utf-8")).get("race", {})
+        except json.JSONDecodeError:
+            continue
+        vitals = race.get("vitals") or {}
+        details[slug] = {
+            "name": race.get("display_name") or race.get("name") or name,
+            "date": vitals.get("date_specific") or vitals.get("date") or "",
+            "distance_options": vitals.get("distance_options") or [],
+            "distance_km": vitals.get("distance_km") or "",
+            "discipline": vitals.get("discipline") or "",
+        }
+    return details
 
 
 def build_css() -> str:
-    """Build the complete CSS for the questionnaire page."""
     return load_tokens_css() + """
-
 *, *::before, *::after {
   box-sizing: border-box;
   border-radius: 0 !important;
   box-shadow: none !important;
 }
-
 body {
   margin: 0;
   padding: 0;
   background: var(--gl-paper);
   color: var(--gl-carbon);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--gl-font-editorial);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
-
-a {
-  color: var(--gl-swix-red);
-}
-
-a:hover {
-  color: var(--gl-klister);
-}
-
-a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+a { color: var(--gl-swix-red); }
+a:hover { color: var(--gl-carbon); }
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
   outline: 3px solid var(--gl-swix-red);
   outline-offset: 2px;
 }
-
-.gl-page {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 0 20px;
-  padding-bottom: 80px;
-}
-
 .gl-skip-link {
   position: absolute;
   left: -999px;
@@ -108,13 +110,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   font-family: var(--gl-font-data);
   font-size: 0.75rem;
 }
-
-.gl-skip-link:focus {
-  left: 8px;
-}
-
-/* Nav Header */
-
+.gl-skip-link:focus { left: 8px; }
 .gl-nav {
   position: sticky;
   top: 0;
@@ -129,7 +125,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 52px;
+  min-height: 52px;
 }
 .gl-nav-logo {
   font-family: var(--gl-font-data);
@@ -139,21 +135,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   text-decoration: none;
   letter-spacing: 0.1em;
 }
-.gl-nav-logo:hover {
-  color: var(--gl-hairline);
-}
 .gl-nav-links {
   display: flex;
+  gap: 18px;
   align-items: center;
-  gap: 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
-.gl-nav-item {
-  position: relative;
-}
-.gl-nav-item > a {
+.gl-nav-links a {
   font-family: var(--gl-font-data);
   font-size: 0.7rem;
   font-weight: 700;
@@ -161,60 +148,18 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  padding: 16px 14px;
-  display: block;
 }
-.gl-nav-item > a:hover,
-.gl-nav-item > a.active {
-  color: var(--gl-white);
+.gl-nav-links a:hover,
+.gl-nav-links a.active { color: var(--gl-white); }
+.gl-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
 }
-.gl-nav-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: var(--gl-carbon);
-  border: 2px solid var(--gl-swix-red);
-  min-width: 200px;
-  z-index: 1001;
-  padding: 8px 0;
-}
-.gl-nav-item:hover .gl-nav-dropdown {
-  display: block;
-}
-.gl-nav-dropdown a {
-  font-family: var(--gl-font-data);
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: var(--gl-muted);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 10px 16px;
-  display: block;
-}
-.gl-nav-dropdown a:hover {
-  color: var(--gl-white);
-  background: var(--gl-swix-red);
-}
-.gl-nav-hamburger {
-  display: none;
-  background: transparent;
-  border: none;
-  color: var(--gl-white);
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 8px;
-  min-width: 44px;
-  min-height: 44px;
-}
-
-/* Header */
-
 .gl-page-header {
-  padding: 52px 0 28px;
+  padding: 48px 0 28px;
   border-bottom: 2px solid var(--gl-hairline);
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 .gl-kicker {
   font-family: var(--gl-font-data);
@@ -226,75 +171,174 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   margin-bottom: 12px;
 }
 .gl-page-header h1 {
-  font-family: var(--gl-font-editorial);
-  font-size: 2.35rem;
-  line-height: 1.1;
-  font-weight: 700;
-  margin: 0 0 12px;
+  font-family: var(--gl-font-display);
+  font-size: clamp(2.2rem, 8vw, 4.4rem);
+  font-style: italic;
+  font-weight: 900;
+  line-height: 0.96;
+  text-transform: uppercase;
+  margin: 0 0 14px;
 }
 .gl-page-header p {
-  font-family: var(--gl-font-editorial);
   font-size: 1.08rem;
   color: var(--gl-muted);
   margin: 0;
+  max-width: 62ch;
 }
-
-/* Form */
-
-.gl-form {
+.gl-progress-wrap {
+  position: sticky;
+  top: 52px;
+  z-index: 900;
+  background: var(--gl-white);
+  border: 2px solid var(--gl-carbon);
+  margin-bottom: 28px;
+  padding: 12px;
+}
+.gl-progress-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.gl-progress-label,
+.gl-progress-pct,
+.gl-save-indicator {
+  font-family: var(--gl-font-data);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gl-muted);
+  white-space: nowrap;
+}
+.gl-progress-track {
+  flex: 1;
+  height: 8px;
+  background: var(--gl-hairline);
+  border: 1px solid var(--gl-muted);
+}
+.gl-progress-fill {
+  height: 100%;
+  width: 0;
+  background: var(--gl-swix-red);
+  transition: width 0.2s ease;
+}
+.gl-save-indicator {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.gl-save-indicator.show { opacity: 1; }
+.gl-form { margin: 0; }
+.gl-section {
   border: 2px solid var(--gl-carbon);
   background: var(--gl-white);
+  margin-bottom: 28px;
 }
-.gl-form-grid {
+.gl-section-header {
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.gl-section-num {
+  font-family: var(--gl-font-data);
+  font-size: 0.68rem;
+  font-weight: 700;
+  background: var(--gl-swix-red);
+  color: var(--gl-white);
+  padding: 3px 8px;
+  letter-spacing: 0.08em;
+}
+.gl-section-title {
+  font-family: var(--gl-font-data);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.gl-section-body { padding: 22px 18px; }
+.gl-field { margin-bottom: 18px; }
+.gl-field:last-child { margin-bottom: 0; }
+.gl-field-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
-.gl-field {
-  padding: 20px;
-  border-right: 2px solid var(--gl-carbon);
-  border-bottom: 2px solid var(--gl-carbon);
-}
-.gl-field:nth-child(2n) {
-  border-right: none;
-}
-.gl-field-full {
-  grid-column: 1 / -1;
-  border-right: none;
-}
+.gl-field label,
 .gl-label {
   display: block;
   font-family: var(--gl-font-data);
-  font-size: 0.72rem;
+  font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--gl-muted);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
-.gl-required {
-  color: var(--gl-swix-red);
-}
-.gl-input,
-.gl-select,
-.gl-textarea {
+.req { color: var(--gl-swix-red); }
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
   width: 100%;
   min-height: 44px;
   border: 2px solid var(--gl-carbon);
   background: var(--gl-paper);
   color: var(--gl-carbon);
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-family: var(--gl-font-data);
+  font-size: 0.9rem;
   padding: 10px 12px;
 }
-.gl-textarea {
+textarea {
   min-height: 116px;
   resize: vertical;
 }
+.gl-hint {
+  font-family: var(--gl-font-data);
+  font-size: 0.68rem;
+  color: var(--gl-muted);
+  margin-top: 4px;
+}
+.gl-radio-group,
+.gl-checkbox-group,
+.gl-scale-group {
+  display: grid;
+  gap: 8px;
+}
+.gl-radio-group,
+.gl-checkbox-group {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.gl-scale-group {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.gl-choice {
+  min-height: 44px;
+  border: 1px solid var(--gl-hairline);
+  padding: 9px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--gl-font-data);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.gl-choice:hover { border-color: var(--gl-swix-red); }
+.gl-choice input { accent-color: var(--gl-swix-red); }
+.gl-conditional {
+  display: none;
+  margin-top: 12px;
+  padding-left: 14px;
+  border-left: 3px solid var(--gl-swix-red);
+}
+.gl-conditional.visible { display: block; }
 .gl-submit-wrap {
-  padding: 22px 20px;
+  border: 2px solid var(--gl-carbon);
+  background: var(--gl-white);
+  padding: 22px 18px;
 }
 .gl-submit-btn {
-  min-width: 44px;
   min-height: 44px;
   border: 2px solid var(--gl-carbon);
   background: var(--gl-swix-red);
@@ -304,347 +348,474 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   align-items: center;
   justify-content: center;
   font-family: var(--gl-font-data);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding: 12px 18px;
 }
-.gl-submit-btn:hover {
-  background: var(--gl-klister);
-}
-.gl-submit-note,
-.gl-plan-note {
+.gl-submit-btn:hover { background: var(--gl-carbon); }
+.gl-submit-note {
   color: var(--gl-muted);
-  font-family: var(--gl-font-editorial);
-  font-size: 0.96rem;
-  margin: 14px 0 0;
+  font-size: 0.95rem;
+  margin: 12px 0 0;
 }
 .gl-success-message {
-  border: 2px solid var(--gl-carbon);
+  border: 3px solid var(--gl-carbon);
   background: var(--gl-white);
-  padding: 28px 24px;
-  margin-top: 34px;
-  display: none;
+  padding: 28px;
+  margin: 36px 0;
 }
 .gl-success-message h2 {
-  font-family: var(--gl-font-editorial);
-  font-size: 1.55rem;
-  line-height: 1.2;
-  margin: 0 0 10px;
+  font-family: var(--gl-font-display);
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.98;
+  margin: 0 0 12px;
 }
-.gl-success-message p {
-  color: var(--gl-muted);
-  font-family: var(--gl-font-editorial);
-  margin: 0 0 16px;
-}
-body.is-submitted .gl-page-header,
-body.is-submitted .gl-form {
-  display: none;
-}
-body.is-submitted .gl-success-message {
-  display: block;
-}
-
-/* Footer */
-
 .gl-footer {
   max-width: 760px;
   margin: 0 auto;
-  padding: 28px 20px 44px;
-  border-top: 2px solid var(--gl-hairline);
+  padding: 34px 20px 60px;
   color: var(--gl-muted);
   font-family: var(--gl-font-data);
   font-size: 0.72rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
-.gl-footer a {
-  color: var(--gl-swix-red);
-  text-decoration: none;
-}
-
-/* Cookie Consent */
-
 .gl-cookie-consent {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: var(--gl-carbon);
-  border-top: 3px solid var(--gl-swix-red);
-  padding: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2000;
   display: none;
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+  border: 2px solid var(--gl-swix-red);
+  padding: 14px;
 }
-.gl-cookie-consent.visible {
-  display: block;
-}
+.gl-cookie-consent.visible { display: block; }
 .gl-cookie-inner {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .gl-cookie-text {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.85rem;
-  color: var(--gl-white);
-  flex: 1;
-  min-width: 200px;
-}
-.gl-cookie-buttons {
-  display: flex;
-  gap: 10px;
-}
-.gl-cookie-btn {
   font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 10px 20px;
+  font-size: 0.72rem;
+  color: var(--gl-hairline);
+}
+.gl-cookie-actions {
+  display: flex;
+  gap: 8px;
+}
+.gl-cookie-actions button {
+  min-height: 40px;
   border: 2px solid var(--gl-white);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  min-width: 44px;
-  min-height: 44px;
-}
-.gl-cookie-btn.accept {
-  background: var(--gl-swix-red);
-  color: var(--gl-white);
-}
-.gl-cookie-btn.decline {
   background: transparent;
   color: var(--gl-white);
+  font-family: var(--gl-font-data);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  cursor: pointer;
 }
-
-@media (max-width: 640px) {
-  .gl-nav-links {
-    display: none;
-    position: absolute;
-    top: 52px;
-    left: 0;
-    right: 0;
-    background: var(--gl-carbon);
-    flex-direction: column;
-    padding: 16px 20px;
-    gap: 0;
-    border-bottom: 3px solid var(--gl-swix-red);
-  }
-  .gl-nav-links.open {
-    display: flex;
-  }
-  .gl-nav-hamburger {
-    display: block;
-  }
-  .gl-nav-dropdown {
-    position: static;
-    border: none;
-    padding: 0 0 0 16px;
-    display: block;
-  }
-  .gl-nav-item > a {
-    padding: 12px 0;
-  }
-  .gl-page-header h1 {
-    font-size: 2rem;
-  }
-  .gl-form-grid {
+.gl-cookie-actions button:first-child {
+  background: var(--gl-white);
+  color: var(--gl-carbon);
+}
+@media (max-width: 700px) {
+  .gl-nav-inner { align-items: flex-start; flex-direction: column; padding: 12px 0; }
+  .gl-nav-links { flex-wrap: wrap; gap: 12px; }
+  .gl-progress-wrap { top: 86px; }
+  .gl-field-row,
+  .gl-radio-group,
+  .gl-checkbox-group,
+  .gl-scale-group {
     grid-template-columns: 1fr;
   }
-  .gl-field {
-    border-right: none;
-  }
+  .gl-cookie-inner { align-items: flex-start; flex-direction: column; }
 }
 """
 
 
-def build_ga4_snippet() -> str:
-    """GA4 tracking snippet with cookie consent gating."""
+def build_ga4() -> str:
     return """<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
 <script>
-window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-(function(){var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-if(c==='declined')return;gtag('js',new Date());gtag('config','G-3JQLSQLPPM')})();
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+(function(){
+  var consent = (document.cookie.match(/xl_consent=([^;]+)/) || [])[1];
+  gtag('consent','default',{
+    'analytics_storage': consent === 'accepted' ? 'granted' : 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'functionality_storage': 'granted',
+    'security_storage': 'granted'
+  });
+})();
+gtag('js', new Date());
+gtag('config', 'G-3JQLSQLPPM');
 </script>"""
 
 
-def build_cookie_consent() -> str:
-    """Cookie consent banner with accept/decline buttons."""
-    return """
-<div class="gl-cookie-consent" id="gl-cookie-consent">
-  <div class="gl-cookie-inner">
-    <p class="gl-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline.</p>
-    <div class="gl-cookie-buttons">
-      <button class="gl-cookie-btn accept" id="gl-cookie-accept">Accept</button>
-      <button class="gl-cookie-btn decline" id="gl-cookie-decline">Decline</button>
-    </div>
-  </div>
-</div>
-<script>
-(function(){
-  var banner=document.getElementById('gl-cookie-consent');
-  if(!banner)return;
-  if(document.cookie.match(/xl_consent=/)){return;}
-  banner.classList.add('visible');
-  document.getElementById('gl-cookie-accept').addEventListener('click',function(){
-    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});gtag('js',new Date());gtag('config','G-3JQLSQLPPM');}
-  });
-  document.getElementById('gl-cookie-decline').addEventListener('click',function(){
-    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'denied'});}
-  });
-})();
-</script>
-"""
-
-
-def build_nav_header(active: str = "") -> str:
-    """Sticky top nav bar with logo and links."""
-    def _active(page: str) -> str:
-        return ' class="active"' if active == page else ""
-
-    return f"""
-<nav class="gl-nav">
+def build_nav() -> str:
+    return """<nav class="gl-nav" aria-label="Primary">
   <div class="gl-nav-inner">
     <a href="/" class="gl-nav-logo">XC SKI LABS</a>
-    <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
-    <ul class="gl-nav-links">
-      <li class="gl-nav-item">
-        <a href="/search/"{_active("races")}>Races</a>
-        <div class="gl-nav-dropdown">
-          <a href="/search/">All XC Ski Races</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/training-plans/"{_active("products")}>Products</a>
-        <div class="gl-nav-dropdown">
-          <a href="/training-plans/">Training Plans</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/coaching/apply/"{_active("services")}>Services</a>
-        <div class="gl-nav-dropdown">
-          <a href="/coaching/apply/">Coaching</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/about/"{_active("about")}>About</a>
-      </li>
-    </ul>
+    <div class="gl-nav-links">
+      <a href="/search/">Search</a>
+      <a href="/training-plans/" class="active">Plans</a>
+      <a href="/coaching/apply/">Coaching</a>
+    </div>
   </div>
-</nav>
-<script>
-(function(){{
-  var toggle=document.querySelector('[data-nav-toggle]');
-  var links=document.querySelector('.gl-nav-links');
-  if(toggle&&links){{toggle.addEventListener('click',function(){{var open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false')}});}}
-}})();
-</script>
-"""
+</nav>"""
+
+
+def radio_group(name: str, options: list[tuple[str, str]], required: bool = False) -> str:
+    req = " required" if required else ""
+    return '<div class="gl-radio-group">' + "".join(
+        f'<label class="gl-choice"><input type="radio" name="{esc(name)}" value="{esc(value)}"{req}> {esc(label)}</label>'
+        for value, label in options
+    ) + "</div>"
+
+
+def checkbox_group(name: str, options: list[tuple[str, str]]) -> str:
+    return '<div class="gl-checkbox-group">' + "".join(
+        f'<label class="gl-choice"><input type="checkbox" name="{esc(name)}" value="{esc(value)}"> {esc(label)}</label>'
+        for value, label in options
+    ) + "</div>"
+
+
+def scale_group(name: str, required: bool = False) -> str:
+    req = " required" if required else ""
+    return '<div class="gl-scale-group">' + "".join(
+        f'<label class="gl-choice"><input type="radio" name="{esc(name)}" value="{i}"{req}> {i}</label>'
+        for i in range(1, 6)
+    ) + "</div>"
+
+
+def section(num: int, title: str, body: str) -> str:
+    return f"""<section class="gl-section" data-section="{num}">
+  <div class="gl-section-header">
+    <div class="gl-section-num">{num:02d}</div>
+    <div class="gl-section-title">{esc(title)}</div>
+  </div>
+  <div class="gl-section-body">{body}</div>
+</section>"""
 
 
 def build_form() -> str:
-    """Build the plan questionnaire form."""
-    return f"""
-<form class="gl-form" id="planQuestionnaire" action="{esc(FORM_ACTION)}" method="POST">
+    return f"""<form id="planIntake" class="gl-form" action="{esc(FORM_ACTION)}" method="POST">
   <input type="hidden" name="_subject" value="{esc(FORM_SUBJECT)}">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
   <input type="hidden" name="_next" value="https://xcskilabs.com/questionnaire/?submitted=1">
   <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="race_slug" id="raceSlug">
 
-  <div class="gl-form-grid">
-    <div class="gl-field gl-field-full">
-      <label class="gl-label" for="target_race">Target race <span class="gl-required">*</span></label>
-      <input class="gl-input" id="target_race" name="target_race" type="text" autocomplete="off" required>
-    </div>
-
+  {section(1, "Your race", '''
     <div class="gl-field">
-      <label class="gl-label" for="race_date">Race date <span class="gl-required">*</span></label>
-      <input class="gl-input" id="race_date" name="race_date" type="date" required>
+      <label for="targetRace">Target race <span class="req">*</span></label>
+      <input id="targetRace" name="target_race" type="text" required autocomplete="off">
+      <div class="gl-hint">Tell me about your race.</div>
     </div>
+    <div class="gl-field-row">
+      <div class="gl-field">
+        <label for="raceDate">Race date <span class="req">*</span></label>
+        <input id="raceDate" name="race_date" type="text" required placeholder="March 1, 2027">
+      </div>
+      <div class="gl-field">
+        <label for="raceDistance">Distance</label>
+        <select id="raceDistance" name="race_distance">
+          <option value="">Select if known</option>
+        </select>
+      </div>
+    </div>
+  ''')}
 
+  {section(2, "Technique", f'''
     <div class="gl-field">
-      <label class="gl-label" for="weekly_hours">Weekly training hours <span class="gl-required">*</span></label>
-      <select class="gl-select" id="weekly_hours" name="weekly_hours" required>
-        <option value="">Select</option>
-        <option value="0-5">0-5</option>
-        <option value="5-8">5-8</option>
-        <option value="8-12">8-12</option>
-        <option value="12+">12+</option>
+      <div class="gl-label">What do you ski most?</div>
+      {radio_group("technique_background", [("classic", "Classic"), ("skate", "Skate"), ("both", "Both")])}
+    </div>
+    <div class="gl-field">
+      <div class="gl-label">Technique for this race <span class="req">*</span></div>
+      {radio_group("technique", [("classic", "Classic"), ("skate", "Skate"), ("both", "Both")], required=True)}
+    </div>
+    <div class="gl-field">
+      <div class="gl-label">Technique confidence</div>
+      {scale_group("technique_confidence")}
+      <div class="gl-hint">1 means shaky. 5 means confident.</div>
+    </div>
+  ''')}
+
+  {section(3, "Experience", '''
+    <div class="gl-field-row">
+      <div class="gl-field">
+        <label for="yearsSnow">Years on snow</label>
+        <input id="yearsSnow" name="years_on_snow" type="number" min="0" step="1">
+      </div>
+      <div class="gl-field">
+        <label for="structuredYears">Years structured training</label>
+        <input id="structuredYears" name="structured_training_years" type="number" min="0" step="1">
+      </div>
+    </div>
+    <div class="gl-field">
+      <label for="recentHours">Typical weekly hours last 3 months</label>
+      <input id="recentHours" name="recent_weekly_hours" type="number" min="0" step="0.5">
+    </div>
+  ''')}
+
+  {section(4, "Schedule", '''
+    <div class="gl-field-row">
+      <div class="gl-field">
+        <label for="weeklyHours">Hours/week available <span class="req">*</span></label>
+        <input id="weeklyHours" name="weekly_hours" type="number" min="1" step="0.5" required>
+      </div>
+      <div class="gl-field">
+        <label for="daysWeek">Days/week available</label>
+        <input id="daysWeek" name="days_per_week" type="number" min="1" max="7" step="1">
+      </div>
+    </div>
+    <div class="gl-field">
+      <label for="longDay">Best day for the long session</label>
+      <select id="longDay" name="long_session_day">
+        <option value="">Select one</option>
+        <option>Monday</option><option>Tuesday</option><option>Wednesday</option>
+        <option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option>
       </select>
     </div>
+  ''')}
 
+  {section(5, "Dry-land reality", f'''
     <div class="gl-field">
-      <label class="gl-label" for="structured_training_years">Years of structured training <span class="gl-required">*</span></label>
-      <select class="gl-select" id="structured_training_years" name="structured_training_years" required>
-        <option value="">Select</option>
-        <option value="0">0</option>
-        <option value="1-2">1-2</option>
-        <option value="3-5">3-5</option>
-        <option value="6+">6+</option>
-      </select>
+      <div class="gl-label">Rollerski access</div>
+      {radio_group("rollerski_access", [("yes", "Yes"), ("no", "No")])}
     </div>
-
     <div class="gl-field">
-      <label class="gl-label" for="technique">Classic / skate / both <span class="gl-required">*</span></label>
-      <select class="gl-select" id="technique" name="technique" required>
-        <option value="">Select</option>
-        <option value="classic">Classic</option>
-        <option value="skate">Skate</option>
-        <option value="both">Both</option>
-      </select>
+      <div class="gl-label">SkiErg access</div>
+      {radio_group("ski_erg_access", [("yes", "Yes"), ("no", "No")])}
     </div>
+    <div class="gl-field">
+      <div class="gl-label">Gym or strength access</div>
+      {radio_group("strength_access", [("yes", "Yes"), ("no", "No")])}
+    </div>
+    <div class="gl-field">
+      <div class="gl-label">Running tolerance</div>
+      {radio_group("running_tolerance", [("none", "None"), ("some", "Some"), ("lots", "Lots")])}
+    </div>
+  ''')}
 
-    <div class="gl-field gl-field-full">
-      <label class="gl-label" for="constraints">Anything the plan must work around</label>
-      <textarea class="gl-textarea" id="constraints" name="constraints" maxlength="1200"></textarea>
+  {section(6, "Recent form", '''
+    <div class="gl-field">
+      <label for="recentResult">Recent race result or time trial</label>
+      <textarea id="recentResult" name="recent_result" maxlength="900"></textarea>
     </div>
+    <div class="gl-field">
+      <label for="restingHr">Resting HR if known</label>
+      <input id="restingHr" name="resting_hr" type="number" min="25" max="120" step="1">
+    </div>
+  ''')}
 
-    <div class="gl-field gl-field-full">
-      <label class="gl-label" for="email">Email <span class="gl-required">*</span></label>
-      <input class="gl-input" id="email" name="email" type="email" autocomplete="email" required>
+  {section(7, "Constraints", '''
+    <div class="gl-field">
+      <label for="injuries">Injuries or movements to avoid</label>
+      <textarea id="injuries" name="injuries" maxlength="900"></textarea>
     </div>
-  </div>
+    <div class="gl-field">
+      <label for="constraints">Work/family constraints</label>
+      <textarea id="constraints" name="constraints" maxlength="900"></textarea>
+    </div>
+    <div class="gl-field-row">
+      <div class="gl-field">
+        <label for="homeAltitude">Altitude where you live</label>
+        <input id="homeAltitude" name="home_altitude" type="text">
+      </div>
+      <div class="gl-field">
+        <label for="raceAltitude">Altitude where you race</label>
+        <input id="raceAltitude" name="race_altitude" type="text">
+      </div>
+    </div>
+  ''')}
+
+  {section(8, "Email and notes", '''
+    <div class="gl-field">
+      <label for="email">Email <span class="req">*</span></label>
+      <input id="email" name="email" type="email" required autocomplete="email">
+    </div>
+    <div class="gl-field">
+      <label for="planNotes">Anything the plan must work around</label>
+      <textarea id="planNotes" name="plan_workarounds" maxlength="1200"></textarea>
+    </div>
+  ''')}
 
   <div class="gl-submit-wrap">
     <button type="submit" class="gl-submit-btn" id="submitBtn">Send questionnaire</button>
-    <p class="gl-plan-note">You'll get your plan details and payment link by email, usually within a day.</p>
+    <p class="gl-submit-note">You'll get your plan details and payment link by email, usually within a day.</p>
   </div>
-</form>
-"""
+</form>"""
 
 
-def build_questionnaire_js(slug_map: dict[str, str]) -> str:
-    """Build JS for race prefill, success state, and double-submit protection."""
-    race_map_json = _safe_json_for_script(slug_map, ensure_ascii=False, separators=(",", ":"))
-    return f"""
-<script>
-(function(){{
+def build_cookie_banner() -> str:
+    return """<div class="gl-cookie-consent" id="gl-cookie-consent">
+  <div class="gl-cookie-inner">
+    <div class="gl-cookie-text">We use analytics cookies to improve XC Ski Labs.</div>
+    <div class="gl-cookie-actions">
+      <button type="button" id="gl-cookie-accept">Accept</button>
+      <button type="button" id="gl-cookie-decline">Decline</button>
+    </div>
+  </div>
+</div>"""
+
+
+def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dict[str, Any]]) -> str:
+    return f"""<script>
+(function() {{
   'use strict';
-  var races = {race_map_json};
+  var STORAGE_KEY = 'xcskilabs_plan_intake_v2';
+  var TOTAL_SECTIONS = {TOTAL_SECTIONS};
+  var races = {_safe_json_for_script(slug_map, separators=(',', ':'))};
+  var raceDetails = {_safe_json_for_script(race_details, separators=(',', ':'))};
   var params = new URLSearchParams(window.location.search);
   var submitted = params.get('submitted');
-  if (submitted === '1' || submitted === 'true') {{
-    document.body.classList.add('is-submitted');
+  var form = document.getElementById('planIntake');
+  var raceInput = document.getElementById('targetRace');
+  var raceSlugInput = document.getElementById('raceSlug');
+  var dateInput = document.getElementById('raceDate');
+  var distanceSelect = document.getElementById('raceDistance');
+  var progressFill = document.getElementById('progressFill');
+  var progressPct = document.getElementById('progressPct');
+  var saveIndicator = document.getElementById('saveIndicator');
+
+  function setDistanceOptions(detail) {{
+    if (!distanceSelect) return;
+    var current = distanceSelect.value;
+    distanceSelect.innerHTML = '<option value="">Select if known</option>';
+    var options = [];
+    if (detail && Array.isArray(detail.distance_options)) options = detail.distance_options;
+    if (!options.length && detail && detail.distance_km) options = [String(detail.distance_km) + 'km'];
+    options.forEach(function(option) {{
+      var opt = document.createElement('option');
+      opt.value = String(option);
+      opt.textContent = String(option);
+      distanceSelect.appendChild(opt);
+    }});
+    if (current) distanceSelect.value = current;
   }}
 
-  var raceSlug = params.get('race');
-  var raceInput = document.getElementById('target_race');
-  if (raceInput && raceSlug && Object.prototype.hasOwnProperty.call(races, raceSlug)) {{
+  function applyRacePrefill() {{
+    var raceSlug = params.get('race');
+    if (!raceSlug || !races[raceSlug]) return;
     raceInput.value = races[raceSlug];
+    raceSlugInput.value = raceSlug;
+    var detail = raceDetails[raceSlug] || {{}};
+    if (detail.date && !dateInput.value) dateInput.value = detail.date;
+    setDistanceOptions(detail);
+    if (detail.discipline) {{
+      var tech = form.querySelector('input[name="technique"][value="' + detail.discipline + '"]');
+      if (tech) tech.checked = true;
+    }}
   }}
 
-  var form = document.getElementById('planQuestionnaire');
-  if (!form) return;
+  function getFormData() {{
+    var data = {{}};
+    Array.prototype.forEach.call(form.elements, function(el) {{
+      if (!el.name || el.name.charAt(0) === '_') return;
+      if (el.type === 'checkbox') {{
+        if (!data[el.name]) data[el.name] = [];
+        if (el.checked) data[el.name].push(el.value);
+      }} else if (el.type === 'radio') {{
+        if (el.checked) data[el.name] = el.value;
+      }} else {{
+        data[el.name] = el.value;
+      }}
+    }});
+    return data;
+  }}
+
+  function restoreFormData() {{
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return;
+    var data;
+    try {{ data = JSON.parse(raw); }} catch(e) {{ return; }}
+    Array.prototype.forEach.call(form.elements, function(el) {{
+      if (!el.name || el.name.charAt(0) === '_') return;
+      if (el.type === 'checkbox') {{
+        el.checked = Array.isArray(data[el.name]) && data[el.name].indexOf(el.value) !== -1;
+      }} else if (el.type === 'radio') {{
+        el.checked = data[el.name] === el.value;
+      }} else if (data[el.name] !== undefined) {{
+        el.value = data[el.name];
+      }}
+    }});
+  }}
+
+  function saveFormData() {{
+    try {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(getFormData())); }} catch(e) {{}}
+    if (saveIndicator) {{
+      saveIndicator.classList.add('show');
+      clearTimeout(saveIndicator._timeout);
+      saveIndicator._timeout = setTimeout(function() {{ saveIndicator.classList.remove('show'); }}, 1000);
+    }}
+  }}
+
+  function fieldHasValue(inp) {{
+    if (inp.type === 'hidden') return false;
+    if (inp.type === 'checkbox' || inp.type === 'radio') return inp.checked;
+    return inp.value && inp.value.trim() !== '';
+  }}
+
+  function updateProgress() {{
+    var sections = document.querySelectorAll('.gl-section');
+    var filled = 0;
+    Array.prototype.forEach.call(sections, function(section) {{
+      var inputs = section.querySelectorAll('input, select, textarea');
+      var hasContent = Array.prototype.some.call(inputs, fieldHasValue);
+      if (hasContent) filled += 1;
+    }});
+    var pct = Math.round((filled / TOTAL_SECTIONS) * 100);
+    if (progressFill) progressFill.style.width = pct + '%';
+    if (progressPct) progressPct.textContent = pct + '%';
+  }}
+
+  function updateConditionals() {{
+    var slug = raceSlugInput.value;
+    setDistanceOptions(raceDetails[slug] || null);
+  }}
+
+  if (submitted === '1') {{
+    var page = document.querySelector('.gl-page');
+    if (page) {{
+      page.innerHTML = '<div class="gl-success-message"><h2>Questionnaire received.</h2><p>Payment received or not, we read the intake before building the plan. Check your email for the next step.</p><a href="/training-plans/">Back to training plans</a></div>';
+    }}
+    return;
+  }}
+
+  restoreFormData();
+  applyRacePrefill();
+  updateProgress();
+  updateConditionals();
+
+  form.addEventListener('input', function() {{
+    saveFormData();
+    updateProgress();
+  }});
+  form.addEventListener('change', function() {{
+    saveFormData();
+    updateProgress();
+    updateConditionals();
+  }});
   form.addEventListener('submit', function() {{
+    localStorage.removeItem(STORAGE_KEY);
+    if (typeof gtag === 'function') gtag('event', 'generate_lead', {{ form_name: 'custom_plan_intake' }});
     var btn = document.getElementById('submitBtn');
     if (btn) {{
       btn.disabled = true;
@@ -655,88 +826,85 @@ def build_questionnaire_js(slug_map: dict[str, str]) -> str:
       }}, 5000);
     }}
   }});
+
+  var banner = document.getElementById('gl-cookie-consent');
+  if (banner && !/xl_consent=/.test(document.cookie)) banner.classList.add('visible');
+  var accept = document.getElementById('gl-cookie-accept');
+  var decline = document.getElementById('gl-cookie-decline');
+  if (accept) accept.addEventListener('click', function() {{
+    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
+    banner.classList.remove('visible');
+    if(typeof gtag==='function') gtag('consent','update',{{'analytics_storage':'granted'}});
+  }});
+  if (decline) decline.addEventListener('click', function() {{
+    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
+    banner.classList.remove('visible');
+    if(typeof gtag==='function') gtag('consent','update',{{'analytics_storage':'denied'}});
+  }});
 }})();
-</script>
-"""
+</script>"""
 
 
-def build_footer() -> str:
-    """Build footer links."""
-    return """
-<footer class="gl-footer">
-  <a href="/">Home</a> &middot;
-  <a href="/search/">Search</a> &middot;
-  <a href="/training-plans/">Training Plans</a>
-</footer>
-"""
-
-
-def generate_page(output_dir: Path | None = None, race_index_path: Path = RACE_INDEX) -> Path:
-    """Generate the questionnaire page."""
-    if output_dir is None:
-        output_dir = OUTPUT_DIR
-
+def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) -> Path:
+    slug_map = load_race_slug_map(race_index)
+    race_details = load_race_details(slug_map)
     out_path = output_dir / "questionnaire" / "index.html"
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    slug_map = load_race_slug_map(race_index_path)
-    page_html = f"""<!DOCTYPE html>
+    page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plan Questionnaire | XC Ski Labs</title>
-  <meta name="description" content="Tell XC Ski Labs about your target race and training history so we can prepare your custom XC ski training plan.">
-  <meta name="robots" content="noindex, nofollow">
+  <title>Custom Plan Intake | XC Ski Labs</title>
+  <meta name="description" content="Tell XC Ski Labs about your target race, technique, schedule, training access, and constraints for a custom ski training plan.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/questionnaire/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sometype+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
-  {build_ga4_snippet()}
+  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  {build_ga4()}
   <style>{build_css()}</style>
 </head>
 <body>
-
 <a href="#questionnaire" class="gl-skip-link">Skip to questionnaire</a>
-
-{build_nav_header(active="products")}
-
+{build_nav()}
 <main class="gl-page" id="questionnaire">
   <header class="gl-page-header">
-    <div class="gl-kicker">Training plans</div>
+    <div class="gl-kicker">Custom plan intake</div>
     <h1>Tell me about your race.</h1>
-    <p>A short intake so the plan fits the start line, the calendar, and the training hours you actually have.</p>
+    <p>Race, technique, schedule, dry-land tools, and the constraints the plan needs to respect.</p>
   </header>
-
+  <div class="gl-progress-wrap" aria-live="polite">
+    <div class="gl-progress-inner">
+      <div class="gl-progress-label">Progress</div>
+      <div class="gl-progress-track"><div class="gl-progress-fill" id="progressFill"></div></div>
+      <div class="gl-progress-pct" id="progressPct">0%</div>
+      <div class="gl-save-indicator" id="saveIndicator">Saved</div>
+    </div>
+  </div>
   {build_form()}
-
-  <section class="gl-success-message" aria-live="polite">
-    <h2>Questionnaire received.</h2>
-    <p>You'll get your plan details and payment link by email, usually within a day.</p>
-    <a href="/training-plans/">Back to training plans</a>
-  </section>
 </main>
-
-{build_footer()}
-
-{build_cookie_consent()}
-
-{build_questionnaire_js(slug_map)}
-
+<footer class="gl-footer">
+  <a href="/training-plans/">Back to training plans</a>
+</footer>
+{build_cookie_banner()}
+{build_questionnaire_js(slug_map, race_details)}
 </body>
-</html>"""
-
-    out_path.write_text(page_html, encoding="utf-8")
+</html>
+"""
+    out_path.write_text(page, encoding="utf-8")
+    print(f"Generated: {out_path}")
     return out_path
 
 
-if __name__ == "__main__":
-    import argparse
-
+def main() -> None:
     parser = argparse.ArgumentParser(description="Generate XC Ski Labs plan questionnaire")
-    parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
-    parser.add_argument("--race-index", type=Path, default=RACE_INDEX)
+    parser.add_argument("--output-dir", default=str(OUTPUT_DIR))
+    parser.add_argument("--race-index", default=str(RACE_INDEX))
     args = parser.parse_args()
+    generate_page(Path(args.output_dir), Path(args.race_index))
 
-    path = generate_page(args.output_dir, args.race_index)
-    print(f"Generated {path}")
+
+if __name__ == "__main__":
+    main()

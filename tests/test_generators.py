@@ -24,7 +24,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 WEB_DIR = PROJECT_ROOT / "web"
 OUTPUT_DIR = PROJECT_ROOT / "output"
-NON_RACE_DIRS = {"about", "coaching", "questionnaire", "search", "training-plans"}
+NON_RACE_DIRS = {"about", "coaching", "feed", "questionnaire", "search", "thanks", "training-plans"}
 
 
 # ── Race Page Generator Tests ─────────────────────────────────
@@ -69,7 +69,7 @@ class TestRacePageGenerator:
     def test_every_page_has_doctype(self):
         """Every generated page should start with <!DOCTYPE html>."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+            if not slug_dir.is_dir() or slug_dir.name in NON_RACE_DIRS:
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -81,7 +81,7 @@ class TestRacePageGenerator:
     def test_every_page_has_title(self):
         """Every page should have a <title> tag."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+            if not slug_dir.is_dir() or slug_dir.name in NON_RACE_DIRS:
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -94,7 +94,7 @@ class TestRacePageGenerator:
         """No </script> should appear inside <script> JSON blocks."""
         pattern = re.compile(r"<script[^>]*>.*?</script>", re.DOTALL)
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+            if not slug_dir.is_dir() or slug_dir.name in NON_RACE_DIRS:
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -112,7 +112,7 @@ class TestRacePageGenerator:
         """'undefined' or 'null' should not appear as visible text."""
         skip_patterns = re.compile(r'(rider_intel|"null"|null,|= null|null;|null\))')
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+            if not slug_dir.is_dir() or slug_dir.name in NON_RACE_DIRS:
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -132,7 +132,7 @@ class TestRacePageGenerator:
         )
         checked = 0
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+            if not slug_dir.is_dir() or slug_dir.name in NON_RACE_DIRS:
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -152,7 +152,7 @@ class TestRacePageGenerator:
     def test_pages_have_back_navigation(self):
         """Every race page should link back to search and home."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+            if not slug_dir.is_dir() or slug_dir.name in NON_RACE_DIRS:
                 continue
             index = slug_dir / "index.html"
             if not index.exists():
@@ -260,6 +260,14 @@ class TestDeployScript:
         )
         assert result.returncode != 0, \
             "deploy.py with no args should fail"
+
+    def test_deploy_has_thanks_and_feeds_flags(self):
+        content = (SCRIPTS_DIR / "deploy.py").read_text(encoding="utf-8")
+        assert "--sync-thanks" in content
+        assert "--sync-feeds" in content
+        assert "sync_thanks" in content
+        assert "sync_feeds" in content
+        assert "NON_RACE_OUTPUT_DIRS" in content
 
 
 # ── Homepage Tests ────────────────────────────────────────────
@@ -391,16 +399,38 @@ class TestQuestionnaireGenerator:
         for field in [
             'name="target_race"',
             'name="race_date"',
+            'name="race_distance"',
             'name="weekly_hours"',
+            'name="days_per_week"',
             'name="structured_training_years"',
+            'name="technique_background"',
             'name="technique"',
+            'name="technique_confidence"',
+            'name="rollerski_access"',
+            'name="ski_erg_access"',
+            'name="strength_access"',
+            'name="running_tolerance"',
+            'name="recent_result"',
+            'name="resting_hr"',
+            'name="injuries"',
             'name="constraints"',
+            'name="home_altitude"',
+            'name="race_altitude"',
             'name="email"',
+            'name="plan_workarounds"',
         ]:
             assert field in html
         assert 'type="email"' in html
         assert 'maxlength="1200"' in html
         assert "You'll get your plan details and payment link by email, usually within a day." in html
+
+    def test_v2_intake_behaviors_present(self, tmp_path):
+        html = self._generate_with_fixture(tmp_path)
+        assert "xcskilabs_plan_intake_v2" in html
+        assert "localStorage" in html
+        assert "progressFill" in html
+        assert "gl-conditional" in html
+        assert "TOTAL_SECTIONS = 8" in html
 
     def test_ga4_and_cookie_consent_present(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
@@ -418,6 +448,62 @@ class TestQuestionnaireGenerator:
         assert questionnaire_tokens <= race_tokens, \
             f"Questionnaire declares new tokens: {sorted(questionnaire_tokens - race_tokens)}"
 
+
+class TestPaymentLinksAndFeeds:
+    """Coverage for Stripe Payment Link wiring and crawler support feeds."""
+
+    def test_payment_link_creator_is_idempotent_and_redirects_to_thanks(self):
+        source = (SCRIPTS_DIR / "create_payment_links.py").read_text(encoding="utf-8")
+        assert "stripe-payment-links.json" in source
+        assert "STRIPE_SECRET_KEY" in source
+        assert "XC_STRIPE_SECRET_KEY" in source
+        assert "https://xcskilabs.com/thanks/" in source
+        assert "after_completion" in source
+        assert "skipped" in source
+
+    def test_feed_generator_outputs_expected_files(self, tmp_path):
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(SCRIPTS_DIR / "generate_feeds.py"),
+                "--data-dir",
+                str(RACE_DATA_DIR),
+                "--output-dir",
+                str(tmp_path),
+            ],
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        assert result.returncode == 0, result.stderr
+        assert (tmp_path / "llms.txt").exists()
+        assert (tmp_path / "feed" / "races.xml").exists()
+        assert (tmp_path / "race-dates.json").exists()
+        assert (tmp_path / "robots.txt").exists()
+        llms = (tmp_path / "llms.txt").read_text(encoding="utf-8")
+        assert "229 scored race profiles" in llms
+        assert "https://xcskilabs.com/feed/races.xml" in llms
+        robots = (tmp_path / "robots.txt").read_text(encoding="utf-8")
+        assert "Sitemap: https://xcskilabs.com/sitemap.xml" in robots
+        assert "LLMs: https://xcskilabs.com/llms.txt" in robots
+
+    def test_success_page_generator(self, tmp_path):
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(WORDPRESS_DIR / "generate_success.py"),
+                "--output-dir",
+                str(tmp_path),
+            ],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+        assert result.returncode == 0, result.stderr
+        html = (tmp_path / "thanks" / "index.html").read_text(encoding="utf-8")
+        assert "Payment received." in html
+        assert "Check your email" in html
+        assert "Wax Bench" in html
 
 class TestWaxBenchRacePages:
     """Wax Bench-specific race page invariants."""
@@ -512,7 +598,7 @@ class TestBranding:
     def test_no_nordic_lab_in_race_pages(self):
         """Race pages should say 'XC Ski Labs', not 'Nordic Lab'."""
         for slug_dir in OUTPUT_DIR.iterdir():
-            if not slug_dir.is_dir() or slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+            if not slug_dir.is_dir() or slug_dir.name in NON_RACE_DIRS:
                 continue
             index = slug_dir / "index.html"
             if not index.exists():

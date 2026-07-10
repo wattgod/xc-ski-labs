@@ -13,6 +13,8 @@ Usage:
     python deploy.py --sync-sitemap                # sitemap to site root
     python deploy.py --sync-training               # training plans to /training-plans/
     python deploy.py --sync-coaching               # coaching form to /coaching/apply/
+    python deploy.py --sync-thanks                 # success page to /thanks/
+    python deploy.py --sync-feeds                  # llms.txt, RSS, robots.txt, race dates
     python deploy.py --purge-cache                 # purge SiteGround caches
     python deploy.py --deploy-all                  # everything + cache purge
 """
@@ -31,6 +33,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "questionnaire", "search", "thanks", "training-plans"}
 
 
 def get_ssh_credentials():
@@ -158,7 +161,7 @@ def sync_pages(pages_dir=None):
     # Find all slug directories with index.html
     slug_dirs = [
         d for d in sorted(pages_path.iterdir())
-        if d.is_dir() and d.name != "search" and (d / "index.html").exists()
+        if d.is_dir() and d.name not in NON_RACE_OUTPUT_DIRS and (d / "index.html").exists()
     ]
 
     if not slug_dirs:
@@ -402,6 +405,50 @@ def sync_about():
     return _sync_static_page("about", "about")
 
 
+def sync_thanks():
+    """Upload payment success page to /thanks/."""
+    return _sync_static_page("thanks", "thanks")
+
+
+def sync_feeds():
+    """Upload crawler support feed files to site root and /feed/."""
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+
+    output_dir = PROJECT_ROOT / "output"
+    files = [
+        (output_dir / "llms.txt", f"{get_remote_base()}/llms.txt"),
+        (output_dir / "race-dates.json", f"{get_remote_base()}/race-dates.json"),
+        (output_dir / "robots.txt", f"{get_remote_base()}/robots.txt"),
+        (output_dir / "feed" / "races.xml", f"{get_remote_base()}/feed/races.xml"),
+    ]
+    missing = [str(local) for local, _ in files if not local.exists()]
+    if missing:
+        print("  Feed files missing:")
+        for path in missing:
+            print(f"   {path}")
+        print("  Run: python scripts/generate_feeds.py")
+        return False
+
+    ok, _, err = _ssh_run(host, user, port, f"mkdir -p {get_remote_base()}/feed")
+    if not ok:
+        print(f"  Failed to create /feed/ directory: {err}")
+        return False
+
+    success = 0
+    for local, remote in files:
+        if _scp_upload(host, user, port, local, remote):
+            success += 1
+
+    if success == len(files):
+        print("  Deployed feed files")
+        return True
+    print(f"  FAILED: partial feed deploy {success}/{len(files)} files")
+    return False
+
+
 def purge_cache():
     """Purge SiteGround caches.
 
@@ -442,7 +489,9 @@ def deploy_all():
         ("Coaching Form", sync_coaching),
         ("Questionnaire", sync_questionnaire),
         ("About", sync_about),
+        ("Thanks", sync_thanks),
         ("Sitemap", sync_sitemap),
+        ("Feeds", sync_feeds),
         ("Cache Purge", purge_cache),
     ]
 
@@ -513,6 +562,14 @@ if __name__ == "__main__":
         help="Upload about page to /about/"
     )
     parser.add_argument(
+        "--sync-thanks", action="store_true",
+        help="Upload payment success page to /thanks/"
+    )
+    parser.add_argument(
+        "--sync-feeds", action="store_true",
+        help="Upload llms.txt, race-dates.json, robots.txt, and feed/races.xml"
+    )
+    parser.add_argument(
         "--purge-cache", action="store_true",
         help="Purge all SiteGround caches"
     )
@@ -553,6 +610,12 @@ if __name__ == "__main__":
             ran = True
         if args.sync_about:
             sync_about()
+            ran = True
+        if args.sync_thanks:
+            sync_thanks()
+            ran = True
+        if args.sync_feeds:
+            sync_feeds()
             ran = True
         if args.purge_cache:
             purge_cache()

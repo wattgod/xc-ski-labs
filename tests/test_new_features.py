@@ -23,7 +23,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
-NON_RACE_DIRS = {"about", "coaching", "questionnaire", "search", "training-plans"}
+NON_RACE_DIRS = {"about", "coaching", "feed", "questionnaire", "search", "thanks", "training-plans"}
 
 # ── Helpers ──────────────────────────────────────────────────────
 
@@ -48,7 +48,7 @@ def _all_race_pages():
     for slug_dir in sorted(OUTPUT_DIR.iterdir()):
         if not slug_dir.is_dir():
             continue
-        if slug_dir.name in ("about", "coaching", "questionnaire", "search", "training-plans"):
+        if slug_dir.name in NON_RACE_DIRS:
             continue
         index = slug_dir / "index.html"
         if index.exists():
