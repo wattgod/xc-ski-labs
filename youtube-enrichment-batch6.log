@@ -1,0 +1,2608 @@
+=== YouTube enrichment batch: 173 races ===
+Started: Wed Mar 11 15:51:00 MDT 2026
+
+[1/173] Researching: 7-mila
+Query: 7-Mila cross country ski race Robertsfors
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: 7-mila
+  Videos found: 2
+  SKIP 7-mila: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[2/173] Researching: akakura-xc-race
+Query: Akakura XC Race cross country ski race Akakura Onsen
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: akakura-xc-race
+  Videos found: 5
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[3/173] Researching: akureyri-ski-marathon
+Query: Akureyri Ski Marathon cross country ski race Akureyri
+  Found 7 videos
+SUMMARY: 1 races searched, 7 videos found
+
+  Enriching: akureyri-ski-marathon
+  Videos found: 7
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[4/173] Researching: almaty-ski-marathon
+Query: Almaty Ski Marathon cross country ski race Medeu / Shymbulak area
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: almaty-ski-marathon
+  Videos found: 1
+  SKIP almaty-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[5/173] Researching: astana-ski-marathon
+Query: Astana Ski Marathon cross country ski race Astana (Nur-Sultan)
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: astana-ski-marathon
+  Videos found: 2
+    Dropped 'YE6b9jAZYFg': too short (2:03)
+  SKIP astana-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[6/173] Researching: attraverso-campra
+Query: Attraverso Campra cross country ski race Campra
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP attraverso-campra: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[7/173] Researching: backwoods-pursuit
+Query: Backwoods Pursuit cross country ski race Houghton
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: backwoods-pursuit
+  Videos found: 3
+  SKIP backwoods-pursuit: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[8/173] Researching: baikal-ice-marathon-on-skis
+Query: Baikal Ice Marathon on Skis cross country ski race Lake Baikal
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: baikal-ice-marathon-on-skis
+  Videos found: 11
+    Dropped 'TLEA_p3-Pno': too short (2:49)
+    Dropped 'npI5MakCjBw': too short (2:05)
+  SUCCESS: 1 curated videos, 0 quotes, 5 transcripts stored -> baikal-ice-marathon-on-skis.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[9/173] Researching: bansko-nordic-challenge
+Query: Bansko Nordic Challenge cross country ski race Bansko
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: bansko-nordic-challenge
+  Videos found: 4
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[10/173] Researching: bayerischer-wald-skimarathon
+Query: Bayerischer Wald Skimarathon cross country ski race Bayerisch Eisenstein
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: bayerischer-wald-skimarathon
+  Videos found: 3
+  SUCCESS: 1 curated videos, 0 quotes, 0 transcripts stored -> bayerischer-wald-skimarathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[11/173] Researching: beito-ski-marathon
+Query: Beito Ski Marathon cross country ski race Beitostølen
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: beito-ski-marathon
+  Videos found: 8
+  SUCCESS: 3 curated videos, 3 quotes, 4 transcripts stored -> beito-ski-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[12/173] Researching: beskydy-ski-marathon
+Query: Beskydy Ski Marathon cross country ski race Bílá
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: beskydy-ski-marathon
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[13/173] Researching: bieg-bystrzycki
+Query: Bieg Bystrzycki cross country ski race Bystrzyca Kłodzka
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: bieg-bystrzycki
+  Videos found: 2
+  SKIP bieg-bystrzycki: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[14/173] Researching: bieg-grunwaldzki
+Query: Bieg Grunwaldzki cross country ski race Szklarska Poręba
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: bieg-grunwaldzki
+  Videos found: 2
+  SKIP bieg-grunwaldzki: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[15/173] Researching: bieg-gwarkow
+Query: Bieg Gwarków cross country ski race Tarnowskie Góry
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: bieg-gwarkow
+  Videos found: 3
+  SKIP bieg-gwarkow: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[16/173] Researching: bieg-podhalanski
+Query: Bieg Podhalański cross country ski race Podhale region
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: bieg-podhalanski
+  Videos found: 3
+    Dropped 'Q6DuDIGy2BQ': too short (2:59)
+  SKIP bieg-podhalanski: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[17/173] Researching: bjelasnica-ski-marathon
+Query: Bjelašnica Ski Marathon cross country ski race Bjelašnica
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: bjelasnica-ski-marathon
+  Videos found: 3
+  SUCCESS: 1 curated videos, 0 quotes, 0 transcripts stored -> bjelasnica-ski-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[18/173] Researching: black-jack-loppet
+Query: Black Jack Loppet cross country ski race Rossland
+  Found 10 videos
+      Desc: John Munger, the executive director of the Loppet Foundation, says the skiers were “ecstatic” about the race Monday morning (0:44). WCCO 4 News At Noon – April 16, 2018...
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: black-jack-loppet
+  Videos found: 10
+    Dropped 'QXhsic962N0': too short (2:04)
+    Dropped '0e4s5M3_uCU': too short (1:38)
+  SKIP black-jack-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[19/173] Researching: blafjallagangan
+Query: Bláfjallagangan cross country ski race Bláfjöll
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: blafjallagangan
+  Videos found: 1
+  SKIP blafjallagangan: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[20/173] Researching: boden-ski-marathon
+Query: Boden Ski Marathon cross country ski race Boden
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: boden-ski-marathon
+  Videos found: 8
+  SKIP boden-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[21/173] Researching: bran-castle-ski-marathon
+Query: Bran Castle Ski Marathon cross country ski race Bran
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: bran-castle-ski-marathon
+  Videos found: 9
+  SKIP bran-castle-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[22/173] Researching: brezovica-ski-marathon
+Query: Brezovica Ski Marathon cross country ski race Brezovica
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: brezovica-ski-marathon
+  Videos found: 9
+  SKIP brezovica-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[23/173] Researching: bukovel-ski-marathon
+Query: Bukovel Ski Marathon cross country ski race Bukovel
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: bukovel-ski-marathon
+  Videos found: 11
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[24/173] Researching: cairngorm-nordic-challenge
+Query: Cairngorm Nordic Challenge cross country ski race Cairngorm Mountains
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: cairngorm-nordic-challenge
+  Videos found: 9
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[25/173] Researching: carpathian-ski-marathon
+Query: Carpathian Ski Marathon cross country ski race Slavske
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: carpathian-ski-marathon
+  Videos found: 4
+  SKIP carpathian-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[26/173] Researching: cedars-ski-marathon
+Query: Cedars Ski Marathon cross country ski race The Cedars (Arz el Rab)
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: cedars-ski-marathon
+  Videos found: 3
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[27/173] Researching: cerro-catedral-nordic-race
+Query: Cerro Catedral Nordic Race cross country ski race Cerro Catedral
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: cerro-catedral-nordic-race
+  Videos found: 5
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[28/173] Researching: chapelco-nordic-race
+Query: Chapelco Nordic Race cross country ski race San Martín de los Andes
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: chapelco-nordic-race
+  Videos found: 10
+  SKIP chapelco-nordic-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[29/173] Researching: cookie-race
+Query: Cookie Race cross country ski race Kananaskis Country
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: cookie-race
+  Videos found: 5
+  SKIP cookie-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[30/173] Researching: corralco-nordic-cup
+Query: Corralco Nordic Cup cross country ski race Corralco
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: corralco-nordic-cup
+  Videos found: 5
+  SKIP corralco-nordic-cup: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[31/173] Researching: cradle-mountain-classic
+Query: Cradle Mountain Classic cross country ski race Cradle Mountain
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: cradle-mountain-classic
+  Videos found: 9
+  SKIP cradle-mountain-classic: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[32/173] Researching: crescent-lake-challenge
+Query: Crescent Lake Challenge cross country ski race Crescent Lake
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: crescent-lake-challenge
+  Videos found: 9
+  SKIP crescent-lake-challenge: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[33/173] Researching: daegwallyeong-snow-festival-race
+Query: Daegwallyeong Snow Festival Race cross country ski race Daegwallyeong
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: daegwallyeong-snow-festival-race
+  Videos found: 3
+  SKIP daegwallyeong-snow-festival-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[34/173] Researching: davos-nordic-marathon
+Query: Davos Nordic Marathon cross country ski race Davos
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: davos-nordic-marathon
+  Videos found: 8
+    Dropped 'tOTu7Qm_ZnY': too long (2:00:45)
+  SUCCESS: 3 curated videos, 2 quotes, 5 transcripts stored -> davos-nordic-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[35/173] Researching: dizin-nordic-race
+Query: Dizin Nordic Race cross country ski race Dizin Ski Resort
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: dizin-nordic-race
+  Videos found: 8
+  SKIP dizin-nordic-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[36/173] Researching: egilsstadir-ski-marathon
+Query: Egilsstaðir Ski Marathon cross country ski race Egilsstaðir and Fljótsdalshérað highlands
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: egilsstadir-ski-marathon
+  Videos found: 3
+  SKIP egilsstadir-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[37/173] Researching: erciyes-ski-marathon
+Query: Erciyes Ski Marathon cross country ski race Mount Erciyes
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: erciyes-ski-marathon
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[38/173] Researching: erzgebirge-24h
+Query: Erzgebirge 24-Hour Ski Race cross country ski race Erzgebirge (Ore Mountains)
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: erzgebirge-24h
+  Videos found: 5
+  SKIP erzgebirge-24h: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[39/173] Researching: falls-creek-hotham-crossing
+Query: Falls Creek to Hotham Crossing cross country ski race Victorian Alps
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: falls-creek-hotham-crossing
+  Videos found: 8
+  SKIP falls-creek-hotham-crossing: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[40/173] Researching: femund-ski-marathon
+Query: Femund Ski Marathon cross country ski race Femundsmarka
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: femund-ski-marathon
+  Videos found: 2
+  SKIP femund-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[41/173] Researching: foothills-nordic-loppet
+Query: Foothills Nordic Loppet cross country ski race Canmore Nordic Centre
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: foothills-nordic-loppet
+  Videos found: 6
+    Dropped 'VRhenjD-zQA': too short (2:07)
+  SKIP foothills-nordic-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[42/173] Researching: forbush-memorial-classic
+Query: Forbush Memorial Classic cross country ski race Frederic
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: forbush-memorial-classic
+  Videos found: 1
+  SKIP forbush-memorial-classic: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[43/173] Researching: franches-nordique
+Query: Franches Nordique cross country ski race Franches-Montagnes
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: franches-nordique
+  Videos found: 11
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[44/173] Researching: friday-night-lights-series
+Query: Friday Night Lights Series cross country ski race Mammoth Lakes
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: friday-night-lights-series
+  Videos found: 10
+  SKIP friday-night-lights-series: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[45/173] Researching: furano-ski-marathon
+Query: Furano Ski Marathon cross country ski race Furano
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: furano-ski-marathon
+  Videos found: 4
+  SKIP furano-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[46/173] Researching: gantrisch-loppet
+Query: Gantrisch Loppet cross country ski race Gantrisch region
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: gantrisch-loppet
+  Videos found: 1
+  SKIP gantrisch-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[47/173] Researching: gaustarennet
+Query: Gaustarennet cross country ski race Rjukan
+  Found 7 videos
+SUMMARY: 1 races searched, 7 videos found
+
+  Enriching: gaustarennet
+  Videos found: 7
+  SKIP gaustarennet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[48/173] Researching: glacier-nordic-races
+Query: Glacier Nordic Races cross country ski race Whitefish
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: glacier-nordic-races
+  Videos found: 9
+    Dropped 'nR-zYysDGj0': too short (1:21)
+  SKIP glacier-nordic-races: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[49/173] Researching: grand-mesa-classic
+Query: Grand Mesa 10km Classic cross country ski race Grand Mesa
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: grand-mesa-classic
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[50/173] Researching: great-glen-to-bretton-woods
+Query: Great Glen to Bretton Woods cross country ski race Pinkham Notch to Bretton Woods
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: great-glen-to-bretton-woods
+  Videos found: 6
+    Dropped 'W6MOUUjK7lY': too short (1:43)
+  SUCCESS: 1 curated videos, 0 quotes, 2 transcripts stored -> great-glen-to-bretton-woods.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[51/173] Researching: great-nordeen
+Query: Great Nordeen cross country ski race Mt. Bachelor to Wanoga Sno Park
+  Found 7 videos
+SUMMARY: 1 races searched, 7 videos found
+
+  Enriching: great-nordeen
+  Videos found: 7
+    Dropped 'LdhVq76y5Fw': too short (1:27)
+  SKIP great-nordeen: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[52/173] Researching: greina-ski-tour
+Query: Greina Ski Tour cross country ski race Graubünden
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: greina-ski-tour
+  Videos found: 10
+  SKIP greina-ski-tour: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[53/173] Researching: gudauri-ski-marathon
+Query: Gudauri Ski Marathon cross country ski race Gudauri
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: gudauri-ski-marathon
+  Videos found: 3
+  SKIP gudauri-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[54/173] Researching: hakkoda-ski-tour
+Query: Hakkoda Ski Tour cross country ski race Hakkoda Mountains
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: hakkoda-ski-tour
+  Videos found: 11
+  SKIP hakkoda-ski-tour: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[55/173] Researching: haldo-hansson-minne
+Query: Haldo Hansson Minne cross country ski race Åsarna
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP haldo-hansson-minne: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[56/173] Researching: harbin-ice-and-snow-ski-marathon
+Query: Harbin Ice and Snow Ski Marathon cross country ski race Yabuli Ski Resort area
+  Found 4 videos
+      Desc: Due to the bitter cold forecasted for this weekend, the Loppet Foundation will be canceling some of its events for the City of Lakes Loppet Winter Festival, according to organizers. Subscribe for more...
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: harbin-ice-and-snow-ski-marathon
+  Videos found: 4
+  SUCCESS: 1 curated videos, 0 quotes, 4 transcripts stored -> harbin-ice-and-snow-ski-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[57/173] Researching: harbin-ice-city-marathon
+Query: Harbin Ice City Marathon cross country ski race Harbin
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: harbin-ice-city-marathon
+  Videos found: 9
+  SKIP harbin-ice-city-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[58/173] Researching: hetta-vuontisjarvi
+Query: Hetta-Vuontisjärvi cross country ski race Hetta (Enontekiö) to Vuontisjärvi
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: hetta-vuontisjarvi
+  Videos found: 3
+  SKIP hetta-vuontisjarvi: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[59/173] Researching: highland-cross
+Query: Highland Cross cross country ski race Moray Firth to Beauly Firth
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: highland-cross
+  Videos found: 1
+  SKIP highland-cross: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[60/173] Researching: himos-loppet
+Query: Himos Loppet cross country ski race Himos
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: himos-loppet
+  Videos found: 3
+  SKIP himos-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[61/173] Researching: holmenkollen-skimaraton
+Query: Holmenkollen Skimaraton cross country ski race Holmenkollen to Nordmarka and return
+  Found 7 videos
+SUMMARY: 1 races searched, 7 videos found
+
+  Enriching: holmenkollen-skimaraton
+  Videos found: 7
+    Dropped 'F1qY228k8EU': too short (0:46)
+  SKIP holmenkollen-skimaraton: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[62/173] Researching: hotham-nordic-marathon
+Query: Hotham Nordic Marathon cross country ski race Mount Hotham
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: hotham-nordic-marathon
+  Videos found: 6
+  SKIP hotham-nordic-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[63/173] Researching: ifrane-nordic-festival
+Query: Ifrane Nordic Festival cross country ski race Ifrane
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: ifrane-nordic-festival
+  Videos found: 3
+  SKIP ifrane-nordic-festival: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[64/173] Researching: ingalami
+Query: IngaLåmi cross country ski race Lillehammer
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: ingalami
+  Videos found: 2
+    Dropped 'ojHgPgUYDz0': too long (6:24:19)
+  SKIP ingalami: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[65/173] Researching: jackrabbit-marathon
+Query: Jackrabbit Marathon cross country ski race Laurentians
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: jackrabbit-marathon
+  Videos found: 5
+  SUCCESS: 2 curated videos, 3 quotes, 4 transcripts stored -> jackrabbit-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[66/173] Researching: jackson-hole-nordic-marathon
+Query: Jackson Hole Nordic Marathon cross country ski race Jackson Hole
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: jackson-hole-nordic-marathon
+  Videos found: 9
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[67/173] Researching: jamtkraft-ski-marathon
+Query: Jämtkraft Ski Marathon cross country ski race Östersund
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: jamtkraft-ski-marathon
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[68/173] Researching: jamtland-ski-marathon
+Query: Jämtland Ski Marathon cross country ski race Strömsund area
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: jamtland-ski-marathon
+  Videos found: 3
+  SKIP jamtland-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[69/173] Researching: jatkankynttila
+Query: Jatkankynttila Ski Marathon cross country ski race Rovaniemi
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: jatkankynttila
+  Videos found: 2
+  SKIP jatkankynttila: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[70/173] Researching: jeongseon-alpine-cross-country
+Query: Jeongseon Alpine Cross-Country cross country ski race Jeongseon
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: jeongseon-alpine-cross-country
+  Videos found: 5
+  SKIP jeongseon-alpine-cross-country: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[71/173] Researching: jilin-city-ski-marathon
+Query: Jilin City Ski Marathon cross country ski race Jilin City
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: jilin-city-ski-marathon
+  Videos found: 8
+  SKIP jilin-city-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[72/173] Researching: jizni-cechy-loppet
+Query: Jižní Čechy Loppet cross country ski race Nové Hrady
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: jizni-cechy-loppet
+  Videos found: 3
+  SKIP jizni-cechy-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[73/173] Researching: john-craig-memorial
+Query: John Craig Memorial cross country ski race Snoqualmie Pass area
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: john-craig-memorial
+  Videos found: 3
+    Dropped 'AkC_tYnInnU': too short (1:10)
+  SKIP john-craig-memorial: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[74/173] Researching: jokkmokk-winter-marathon
+Query: Jokkmokk Winter Marathon cross country ski race Jokkmokk
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: jokkmokk-winter-marathon
+  Videos found: 6
+    Dropped '0GB0ysmGM7o': too short (2:11)
+  SUCCESS: 2 curated videos, 3 quotes, 2 transcripts stored -> jokkmokk-winter-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[75/173] Researching: kainuu-ski-marathon
+Query: Kainuu Ski Marathon cross country ski race Kainuu region
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: kainuu-ski-marathon
+  Videos found: 4
+  SKIP kainuu-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[76/173] Researching: kamikawa-loppet
+Query: Kamikawa Loppet cross country ski race Kamikawa
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP kamikawa-loppet: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[77/173] Researching: kananaskis-ski-marathon
+Query: Kananaskis Ski Marathon cross country ski race Kananaskis Country
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: kananaskis-ski-marathon
+  Videos found: 10
+  SUCCESS: 1 curated videos, 2 quotes, 8 transcripts stored -> kananaskis-ski-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[78/173] Researching: kandersteger-volkslauf
+Query: Kandersteger Volkslauf cross country ski race Kandersteg
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP kandersteger-volkslauf: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[79/173] Researching: karakol-ski-marathon
+Query: Karakol Ski Marathon cross country ski race Karakol
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: karakol-ski-marathon
+  Videos found: 8
+  SKIP karakol-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[80/173] Researching: kekes-ski-marathon
+Query: Kékestető Ski Marathon cross country ski race Kékestető
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: kekes-ski-marathon
+  Videos found: 6
+  SKIP kekes-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[81/173] Researching: keswick-to-barrow
+Query: Keswick to Barrow cross country ski race Keswick to Barrow-in-Furness
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: keswick-to-barrow
+  Videos found: 5
+  SUCCESS: 1 curated videos, 0 quotes, 4 transcripts stored -> keswick-to-barrow.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[82/173] Researching: khanty-mansiysk-ski-marathon
+Query: Khanty-Mansiysk Ski Marathon cross country ski race Khanty-Mansiysk
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: khanty-mansiysk-ski-marathon
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[83/173] Researching: kopaonik-nordic-race
+Query: Kopaonik Nordic Race cross country ski race Kopaonik National Park
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: kopaonik-nordic-race
+  Videos found: 2
+  SKIP kopaonik-nordic-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[84/173] Researching: krkonossky-maraton
+Query: Krkonošský Maratón cross country ski race Harrachov to Špindlerův Mlýn
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: krkonossky-maraton
+  Videos found: 4
+  SKIP krkonossky-maraton: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[85/173] Researching: kulakova-marathon
+Query: Kulakova Marathon cross country ski race Izhevsk
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: kulakova-marathon
+  Videos found: 3
+    Dropped 'L6ULL6Ld6Mk': too short (2:51)
+  SKIP kulakova-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[86/173] Researching: la-savoyarde
+Query: La Savoyarde cross country ski race La Feclaz
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: la-savoyarde
+  Videos found: 6
+  SKIP la-savoyarde: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[87/173] Researching: leavenworth-nordic-cup
+Query: Leavenworth Nordic Cup cross country ski race Leavenworth
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: leavenworth-nordic-cup
+  Videos found: 6
+  SKIP leavenworth-nordic-cup: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[88/173] Researching: madesimo-ski-marathon
+Query: Madesimo Ski Marathon cross country ski race Madesimo
+  Found 4 videos
+      Desc: The Prince Albert Ski Club hosted a Fun Ski to raise money for the Cosmopolitan Diabetes Foundation at the Mary Nisbet Campground.  Hot apple cidar was served to all skiers to warm up between runs.  L...
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: madesimo-ski-marathon
+  Videos found: 4
+  SKIP madesimo-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[89/173] Researching: mara-engadin
+Query: Mara cross country ski race Sils im Engadin to S-chanf
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: mara-engadin
+  Videos found: 3
+  SUCCESS: 1 curated videos, 0 quotes, 0 transcripts stored -> mara-engadin.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[90/173] Researching: marathon-de-la-clusaz
+Query: Marathon de La Clusaz cross country ski race La Clusaz
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: marathon-de-la-clusaz
+  Videos found: 9
+  SKIP marathon-de-la-clusaz: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[91/173] Researching: markatrimmen
+Query: Markatrimmen cross country ski race Bymarka
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: markatrimmen
+  Videos found: 3
+  SKIP markatrimmen: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[92/173] Researching: mcmurdo-ski-race
+Query: McMurdo Ski Race cross country ski race Ross Island
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: mcmurdo-ski-race
+  Videos found: 3
+  SKIP mcmurdo-ski-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[93/173] Researching: minocqua-northwoods-loppet
+Query: Minocqua Northwoods Loppet cross country ski race Minocqua
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: minocqua-northwoods-loppet
+  Videos found: 1
+  SKIP minocqua-northwoods-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[94/173] Researching: mont-sainte-anne-loppet
+Query: Mont-Sainte-Anne Loppet cross country ski race Beaupré
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: mont-sainte-anne-loppet
+  Videos found: 3
+  SKIP mont-sainte-anne-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[95/173] Researching: mt-bachelor-nordic-marathon
+Query: Mt Bachelor Nordic Marathon cross country ski race Mt Bachelor Nordic Center
+  Found 9 videos
+  [8] Minnesota Moment: New Loppet Foundation program to be led by Olympian
+      Desc: It's a new opportunity to get kids outside and active in the Twin Cities.  The Loppet Foundation is growing, and on Wednesday, it announced the creation of a new program called Loppet Run 365.  Full S...
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: mt-bachelor-nordic-marathon
+  Videos found: 9
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[96/173] Researching: mt-hermon-nordic-race
+Query: Mt Hermon Nordic Race cross country ski race Mount Hermon Ski Center
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: mt-hermon-nordic-race
+  Videos found: 11
+  SKIP mt-hermon-nordic-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[97/173] Researching: mt-shasta-nordic-marathon
+Query: Mt Shasta Nordic Marathon cross country ski race Mt Shasta Nordic Center
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: mt-shasta-nordic-marathon
+  Videos found: 6
+  SUCCESS: 1 curated videos, 0 quotes, 3 transcripts stored -> mt-shasta-nordic-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[98/173] Researching: muffin-race
+Query: Muffin Race cross country ski race Bohart Ranch
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: muffin-race
+  Videos found: 4
+  SKIP muffin-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[99/173] Researching: muju-taekwondo-ski-marathon
+Query: Muju Taekwondo Ski Marathon cross country ski race Muju
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: muju-taekwondo-ski-marathon
+  Videos found: 3
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[100/173] Researching: myoko-nordic-festival
+Query: Myoko Nordic Festival cross country ski race Myoko
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: myoko-nordic-festival
+  Videos found: 8
+  SKIP myoko-nordic-festival: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[101/173] Researching: nakkertok-loppet
+Query: Nakkertok Loppet cross country ski race Cantley
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: nakkertok-loppet
+  Videos found: 5
+  SKIP nakkertok-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[102/173] Researching: navrat-pod-lysou
+Query: Návrat pod Lysou cross country ski race Vysoké Tatry
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP navrat-pod-lysou: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[103/173] Researching: nayoro-citizen-ski-marathon
+Query: Nayoro Citizen Ski Marathon cross country ski race Nayoro
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: nayoro-citizen-ski-marathon
+  Videos found: 2
+  SKIP nayoro-citizen-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[104/173] Researching: niseko-ski-marathon
+Query: Niseko Ski Marathon cross country ski race Niseko
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: niseko-ski-marathon
+  Videos found: 11
+  SUCCESS: 1 curated videos, 2 quotes, 4 transcripts stored -> niseko-ski-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[105/173] Researching: nozawa-onsen-ski-marathon
+Query: Nozawa Onsen Ski Marathon cross country ski race Nozawa Onsen
+  Found 9 videos
+      Desc: Cross Country Skiing at Rocky Lane, Alberta. Found the main trail very icy/hard to skate-ski on, so I stuck with the tracks. One wipeout while trying to get back into track. April 2014...
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: nozawa-onsen-ski-marathon
+  Videos found: 9
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[106/173] Researching: oppet-spar
+Query: Öppet Spår cross country ski race Sälen to Mora
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: oppet-spar
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[107/173] Researching: otaru-zenichi-loppet
+Query: Otaru Zenichi Loppet cross country ski race Otaru
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP otaru-zenichi-loppet: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[108/173] Researching: ounasvaara-ski-marathon
+Query: Ounasvaara Ski Marathon cross country ski race Ounasvaara
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: ounasvaara-ski-marathon
+  Videos found: 6
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[109/173] Researching: panorama-nordic-loppet
+Query: Panorama Nordic Loppet cross country ski race Invermere
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: panorama-nordic-loppet
+  Videos found: 4
+  SKIP panorama-nordic-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[110/173] Researching: payakentsut
+Query: Payakentsut cross country ski race Whistler Olympic Park
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: payakentsut
+  Videos found: 1
+  SKIP payakentsut: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[111/173] Researching: peer-gynt-skimaraton
+Query: Peer Gynt Skimaraton cross country ski race Gålå to Vinstra
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: peer-gynt-skimaraton
+  Videos found: 4
+  SKIP peer-gynt-skimaraton: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[112/173] Researching: per-johnsen-ozbaldy
+Query: Per Johnsen Ozbaldy cross country ski race Snoqualmie Pass
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP per-johnsen-ozbaldy: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[113/173] Researching: piancavallo-nordic-marathon
+Query: Piancavallo Nordic Marathon cross country ski race Piancavallo
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: piancavallo-nordic-marathon
+  Videos found: 2
+  SKIP piancavallo-nordic-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[114/173] Researching: pirin-ultra-nordic
+Query: Pirin Ultra Nordic cross country ski race Bansko area
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: pirin-ultra-nordic
+  Videos found: 6
+  SKIP pirin-ultra-nordic: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[115/173] Researching: pitea-ski-marathon
+Query: Piteå Ski Marathon cross country ski race Piteå and coastal Norrbotten
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: pitea-ski-marathon
+  Videos found: 2
+  SKIP pitea-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[116/173] Researching: planica-ski-marathon
+Query: Planica Ski Marathon cross country ski race Planica Nordic Centre
+  Found 8 videos
+      Desc: Short film of scenes of the Ski to the Sun Marathon and Relay race in the Methow Valley.  Sponsored by the Methow Trails and Methow Valley Nordic Ski Education Foundation.  Directed by Mike Tuggy  Vid...
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: planica-ski-marathon
+  Videos found: 8
+    Dropped 'cQvKAnXtigQ': too short (2:42)
+    Dropped 'yrGlD1YafA4': too long (2:02:09)
+  SKIP planica-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[117/173] Researching: platak-nordic-race
+Query: Platak Nordic Race cross country ski race Platak
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: platak-nordic-race
+  Videos found: 6
+  SKIP platak-nordic-race: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[118/173] Researching: pokljuka-nordic-marathon
+Query: Pokljuka Nordic Marathon cross country ski race Pokljuka Plateau
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: pokljuka-nordic-marathon
+  Videos found: 3
+  SKIP pokljuka-nordic-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[119/173] Researching: porvoo-ski-marathon
+Query: Porvoo Ski Marathon cross country ski race Porvoo
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: porvoo-ski-marathon
+  Videos found: 5
+  SKIP porvoo-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[120/173] Researching: pyeongchang-loppet
+Query: PyeongChang Loppet cross country ski race Alpensia Cross-Country Centre
+  Found 4 videos
+      Channel: The Loppet Foundation | Views: 213 | Date: 20150305
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: pyeongchang-loppet
+  Videos found: 4
+  SKIP pyeongchang-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[121/173] Researching: ranka-marathon
+Query: Ranka Kartonfabric Ski Marathon cross country ski race Ranka
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP ranka-marathon: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[122/173] Researching: raubichi-ski-marathon
+Query: Raubichi Ski Marathon cross country ski race Raubichi
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: raubichi-ski-marathon
+  Videos found: 11
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[123/173] Researching: rukajarvi-march
+Query: Rukajärvi March cross country ski race Kainuu wilderness
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: rukajarvi-march
+  Videos found: 1
+  SKIP rukajarvi-march: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[124/173] Researching: saariselka-ski-marathon
+Query: Saariselkä Ski Marathon cross country ski race Saariselkä
+  Found 12 videos
+SUMMARY: 1 races searched, 12 videos found
+
+  Enriching: saariselka-ski-marathon
+  Videos found: 12
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[125/173] Researching: salzkammergut-langlauf
+Query: Salzkammergut Langlauf cross country ski race Bad Goisern
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: salzkammergut-langlauf
+  Videos found: 11
+  SKIP salzkammergut-langlauf: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[126/173] Researching: sapporo-bankei-night-ski-race
+Query: Sapporo Bankei Night Ski Race cross country ski race Bankei
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: sapporo-bankei-night-ski-race
+  Videos found: 1
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[127/173] Researching: sapporo-moiwayama-classic
+Query: Sapporo Moiwayama Classic cross country ski race Mt Moiwa area
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: sapporo-moiwayama-classic
+  Videos found: 6
+    Dropped 'kRHOrd772Fc': too short (56)
+  SUCCESS: 1 curated videos, 1 quotes, 4 transcripts stored -> sapporo-moiwayama-classic.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[128/173] Researching: sar-planina-marathon
+Query: Šar Planina Marathon cross country ski race Popova Šapka
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: sar-planina-marathon
+  Videos found: 6
+  SKIP sar-planina-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[129/173] Researching: schlickelauf
+Query: Schlickelauf cross country ski race Fulpmes
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP schlickelauf: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[130/173] Researching: schwarzwald-skimarathon
+Query: Schwarzwald Skimarathon cross country ski race Schonach im Schwarzwald
+  Found 5 videos
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: schwarzwald-skimarathon
+  Videos found: 5
+  SKIP schwarzwald-skimarathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[131/173] Researching: shizma-klassika
+Query: Shizma Klassika cross country ski race Kirov Oblast
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP shizma-klassika: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[132/173] Researching: sierra-de-guadarrama-ski-marathon
+Query: Sierra de Guadarrama Ski Marathon cross country ski race Puerto de Navacerrada
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: sierra-de-guadarrama-ski-marathon
+  Videos found: 3
+  SKIP sierra-de-guadarrama-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[133/173] Researching: silver-star-loppet
+Query: Silver Star Loppet cross country ski race Silver Star Mountain Resort
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: silver-star-loppet
+  Videos found: 11
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[134/173] Researching: silverton-ski-marathon
+Query: Silverton Ski Marathon cross country ski race Silverton
+  Found 11 videos
+SUMMARY: 1 races searched, 11 videos found
+
+  Enriching: silverton-ski-marathon
+  Videos found: 11
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[135/173] Researching: sirdal-ski-marathon
+Query: Sirdal Ski Marathon cross country ski race Sirdal
+  Found 7 videos
+SUMMARY: 1 races searched, 7 videos found
+
+  Enriching: sirdal-ski-marathon
+  Videos found: 7
+  SUCCESS: 2 curated videos, 0 quotes, 2 transcripts stored -> sirdal-ski-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[136/173] Researching: ski-classics-finale
+Query: Ski Classics Finale cross country ski race Varies annually
+  Found 7 videos
+SUMMARY: 1 races searched, 7 videos found
+
+  Enriching: ski-classics-finale
+  Videos found: 7
+  SUCCESS: 2 curated videos, 2 quotes, 4 transcripts stored -> ski-classics-finale.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[137/173] Researching: ski-de-she
+Query: Ski de She cross country ski race Cable
+  Found 10 videos
+      Desc: American Birkebeiner Ski Foundation Event Director Kristy Maki provides an update on what you can expect this weekend at the Brent Carlson MD Birkie Tour and New Moon Night Race!   You can still regis...
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: ski-de-she
+  Videos found: 10
+    Dropped 'oniA519d4gI': too short (2:20)
+    Dropped 'ymO4uxRN5Yo': too short (1:21)
+    Dropped 'FNR4IsDS6Mg': too short (1:42)
+  SKIP ski-de-she: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[138/173] Researching: ski-marathon-montreal
+Query: Ski Marathon Montréal cross country ski race Parc Jean-Drapeau
+  Found 4 videos
+      Desc: Due to the bitter cold forecasted for this weekend, the Loppet Foundation will be canceling some of its events for the City of Lakes Loppet Winter Festival, according to organizers. Subscribe for more...
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: ski-marathon-montreal
+  Videos found: 4
+  SKIP ski-marathon-montreal: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[139/173] Researching: ski-north-loppet
+Query: Ski North Loppet cross country ski race Kamview Nordic Centre
+  Found 4 videos
+      Channel: Loppet Foundation | Views: 1381 | Date: 20191230
+  [3] The Loppet Foundation: Rosario's Story
+      Channel: Loppet Foundation | Views: 661 | Date: 20160120
+      Desc: Rosario was introduced to skiing in 3rd grade through The Loppet Foundation's MinneLoppet program at Nellie Stone Johnson Community School in North Minneapolis, challenged herself on that school's Jun...
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: ski-north-loppet
+  Videos found: 4
+  SKIP ski-north-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[140/173] Researching: ski-north-ultra
+Query: Ski North Ultra cross country ski race Lutsen / North Shore
+  Found 10 videos
+      Desc: John Munger, the executive director of the Loppet Foundation, says the skiers were “ecstatic” about the race Monday morning (0:44). WCCO 4 News At Noon – April 16, 2018...
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: ski-north-ultra
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[141/173] Researching: snow-mountain-ranch-stampede
+Query: Snow Mountain Ranch Stampede cross country ski race Granby
+  Found 8 videos
+SUMMARY: 1 races searched, 8 videos found
+
+  Enriching: snow-mountain-ranch-stampede
+  Videos found: 8
+    Dropped 'bdqX9HnSS9s': too long (4:46:44)
+    Dropped 'zyZvMN4XWHs': too long (4:00:09)
+  SKIP snow-mountain-ranch-stampede: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[142/173] Researching: sonot-kkaazoot
+Query: Sonot Kkaazoot cross country ski race Fairbanks
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: sonot-kkaazoot
+  Videos found: 2
+    Dropped '_nPYMGkdyDM': too short (0:35)
+  SKIP sonot-kkaazoot: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[143/173] Researching: sovereign-lake-loppet
+Query: Sovereign Lake Loppet cross country ski race Sovereign Lake Nordic Centre
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: sovereign-lake-loppet
+  Videos found: 10
+    Dropped 'xrcpaGGq00M': too short (1:04)
+    Dropped 'UgfxN8Rbv2E': too short (1:40)
+  SKIP sovereign-lake-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[144/173] Researching: spirit-of-the-rivers-loppet
+Query: Spirit of the Rivers Loppet cross country ski race Prince George
+  Found 3 videos
+      Desc: John Munger, the executive director of the Loppet Foundation, says the skiers were “ecstatic” about the race Monday morning (0:44). WCCO 4 News At Noon – April 16, 2018...
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: spirit-of-the-rivers-loppet
+  Videos found: 3
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[145/173] Researching: steirische-langlauf-marathon
+Query: Steirische Langlauf Marathon cross country ski race Mürzzuschlag
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: steirische-langlauf-marathon
+  Videos found: 3
+  SKIP steirische-langlauf-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[146/173] Researching: storlirennet
+Query: Storlirennet cross country ski race Storlien
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: storlirennet
+  Videos found: 2
+  SKIP storlirennet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[147/173] Researching: sumava-loppet
+Query: Šumava Loppet cross country ski race Kvílda
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: sumava-loppet
+  Videos found: 4
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[148/173] Researching: summit-2-senja
+Query: Grand Finale Summit 2 Senja cross country ski race Bardufoss to Finnsnes
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: summit-2-senja
+  Videos found: 2
+  SKIP summit-2-senja: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[149/173] Researching: suomi-hills-classic
+Query: Suomi Hills Classic cross country ski race Suomi Hills
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: suomi-hills-classic
+  Videos found: 9
+  SKIP suomi-hills-classic: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[150/173] Researching: superior-nordic-marathon
+Query: Superior Nordic Marathon cross country ski race Lutsen
+  Found 5 videos
+  [3] Minnesota Moment: New Loppet Foundation program to be led by Olympian
+      Desc: It's a new opportunity to get kids outside and active in the Twin Cities.  The Loppet Foundation is growing, and on Wednesday, it announced the creation of a new program called Loppet Run 365.  Full S...
+SUMMARY: 1 races searched, 5 videos found
+
+  Enriching: superior-nordic-marathon
+  Videos found: 5
+  SKIP superior-nordic-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[151/173] Researching: tallinn-ski-marathon
+Query: Tallinn Ski Marathon cross country ski race Kõrvemaa Nature Reserve
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: tallinn-ski-marathon
+  Videos found: 2
+  SKIP tallinn-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[152/173] Researching: tana-varangerrennet
+Query: Tana–Varangerrennet cross country ski race Seida to Vadsø
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP tana-varangerrennet: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[153/173] Researching: tarvisio-nordic-challenge
+Query: Tarvisio Nordic Challenge cross country ski race Tarvisio
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: tarvisio-nordic-challenge
+  Videos found: 2
+  SKIP tarvisio-nordic-challenge: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[154/173] Researching: tassasen-ski-marathon
+Query: Tåssåsen Ski Marathon cross country ski race Tåssåsen
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: tassasen-ski-marathon
+  Videos found: 2
+  SKIP tassasen-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[155/173] Researching: tbilisi-bakuriani-challenge
+Query: Tbilisi-Bakuriani Challenge cross country ski race Bakuriani
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: tbilisi-bakuriani-challenge
+  Videos found: 1
+  SKIP tbilisi-bakuriani-challenge: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[156/173] Researching: telemark-marathon
+Query: Telemark Marathon cross country ski race Telemark Resort
+  Found 10 videos
+      Desc: Short film of scenes of the Ski to the Sun Marathon and Relay race in the Methow Valley.  Sponsored by the Methow Trails and Methow Valley Nordic Ski Education Foundation.  Directed by Mike Tuggy  Vid...
+      Desc: Hosted by the Methow Trails and Methow Valley Nordic Skiing Educational Foundation, this marathon length race stretches the length of the Methow Valley from Mazama up to Sun Mountain.  41+ km with a r...
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: telemark-marathon
+  Videos found: 10
+  SUCCESS: 3 curated videos, 3 quotes, 5 transcripts stored -> telemark-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+[157/173] Researching: timmins-gold-rush-loppet
+Query: Timmins Gold Rush Loppet cross country ski race Timmins
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP timmins-gold-rush-loppet: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[158/173] Researching: tokachi-ski-marathon
+Query: Tokachi Ski Marathon cross country ski race Obihiro
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP tokachi-ski-marathon: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[159/173] Researching: tokamachi-snow-marathon
+Query: Tokamachi Snow Marathon cross country ski race Tokamachi
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: tokamachi-snow-marathon
+  Videos found: 1
+  SKIP tokamachi-snow-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[160/173] Researching: tour-of-anchorage
+Query: Tour of Anchorage cross country ski race Anchorage
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: tour-of-anchorage
+  Videos found: 10
+    Dropped 'lcL5ldUgPVs': too short (1:23)
+  SKIP tour-of-anchorage: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[161/173] Researching: trans-lapland
+Query: Trans-Lapland cross country ski race Enontekiö to Hetta
+  Found 4 videos
+SUMMARY: 1 races searched, 4 videos found
+
+  Enriching: trans-lapland
+  Videos found: 4
+  SKIP trans-lapland: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[162/173] Researching: tronfjell-rundt
+Query: Tronfjell Rundt cross country ski race Alvdal
+  Found 0 videos
+SUMMARY: 1 races searched, 0 videos found
+  SKIP tronfjell-rundt: no videos in research
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[163/173] Researching: tug-hill-tourathon
+Query: Tug Hill Tourathon cross country ski race Tug Hill Plateau
+  Found 1 videos
+SUMMARY: 1 races searched, 1 videos found
+
+  Enriching: tug-hill-tourathon
+  Videos found: 1
+  SKIP tug-hill-tourathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[164/173] Researching: turoa-to-whakapapa-challenge
+Query: Turoa to Whakapapa Challenge cross country ski race Mount Ruapehu
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: turoa-to-whakapapa-challenge
+  Videos found: 9
+  SKIP turoa-to-whakapapa-challenge: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[165/173] Researching: ulaanbaatar-nordic-ski-festival
+Query: Ulaanbaatar Nordic Ski Festival cross country ski race Bogd Khan Uul area
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: ulaanbaatar-nordic-ski-festival
+  Videos found: 3
+  SKIP ulaanbaatar-nordic-ski-festival: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[166/173] Researching: valle-nevado-nordic-challenge
+Query: Valle Nevado Nordic Challenge cross country ski race Valle Nevado
+  Found 6 videos
+SUMMARY: 1 races searched, 6 videos found
+
+  Enriching: valle-nevado-nordic-challenge
+  Videos found: 6
+  SKIP valle-nevado-nordic-challenge: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[167/173] Researching: vastgotaloppet
+Query: Vastgotaloppet cross country ski race Lassalyckan
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: vastgotaloppet
+  Videos found: 2
+    Dropped 'B4ZLzVwb3QU': too long (2:08:24)
+  SKIP vastgotaloppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[168/173] Researching: wachau-ski-marathon
+Query: Wachau Ski Marathon cross country ski race Göstling an der Ybbs
+  Found 2 videos
+SUMMARY: 1 races searched, 2 videos found
+
+  Enriching: wachau-ski-marathon
+  Videos found: 2
+  SKIP wachau-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[169/173] Researching: wasa-ski-club-loppet
+Query: Wasa Ski Club Loppet cross country ski race Duluth
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: wasa-ski-club-loppet
+  Videos found: 10
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[170/173] Researching: whitehorse-loppet
+Query: Whitehorse Loppet cross country ski race Whitehorse
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: whitehorse-loppet
+  Videos found: 9
+  SKIP whitehorse-loppet: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[171/173] Researching: yakutsk-ski-marathon
+Query: Yakutsk Ski Marathon cross country ski race Yakutsk
+  Found 9 videos
+SUMMARY: 1 races searched, 9 videos found
+
+  Enriching: yakutsk-ski-marathon
+  Videos found: 9
+  ERROR: Failed to parse API response: Expecting value: line 1 column 1 (char 0)
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[172/173] Researching: zao-ski-marathon
+Query: Zao Ski Marathon cross country ski race Zao Onsen
+  Found 3 videos
+SUMMARY: 1 races searched, 3 videos found
+
+  Enriching: zao-ski-marathon
+  Videos found: 3
+  SKIP zao-ski-marathon: no valid videos after filtering
+
+========================================
+YouTube enrichment complete:
+  Success: 0
+  Skipped: 1
+  Failed:  0
+
+[173/173] Researching: zlatibor-ski-marathon
+Query: Zlatibor Ski Marathon cross country ski race Zlatibor
+  Found 10 videos
+SUMMARY: 1 races searched, 10 videos found
+
+  Enriching: zlatibor-ski-marathon
+  Videos found: 10
+  SUCCESS: 1 curated videos, 0 quotes, 2 transcripts stored -> zlatibor-ski-marathon.json
+
+========================================
+YouTube enrichment complete:
+  Success: 1
+  Skipped: 0
+  Failed:  0
+
+=== BATCH COMPLETE ===
+Total: 173 | Success: 173 | Failed: 0
+Finished: Wed Mar 11 17:15:58 MDT 2026

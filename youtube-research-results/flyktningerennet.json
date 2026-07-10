@@ -1,0 +1,51 @@
+{
+  "slug": "flyktningerennet",
+  "race_name": "Flyktningerennet",
+  "query": "Flyktningerennet cross country ski race Nordli (NO) to G\u00e4ddede (SE)",
+  "video_count": 3,
+  "videos": [
+    {
+      "title": "Best moments of Flyktningerennet 2024",
+      "channel": "SC - The Ski Community",
+      "upload_date": "20240328",
+      "duration_string": "3:38",
+      "view_count": 357,
+      "like_count": 8,
+      "description": "The Best moments of Flyktningerennet 2024 \n\nVideo Credits: Flyktningerennet/Flyktingloppet",
+      "tags": [],
+      "url": "https://www.youtube.com/watch?v=9MkGbQDbk24"
+    },
+    {
+      "title": "LIERNE: FLYKTNINGERENNET MOSJON HERRER 31 MARS 2012",
+      "channel": "Bengt Steinar Nordbakk",
+      "upload_date": "20120402",
+      "duration_string": "1:37",
+      "view_count": 324,
+      "like_count": null,
+      "description": "Flyktningerennet l\u00f8rdag kl 11.40 Fellesstart herrer mosjon.",
+      "tags": [
+        "LIERNE",
+        "FLYKTNINGERENNET",
+        "SPORT",
+        "SKI"
+      ],
+      "url": "https://www.youtube.com/watch?v=2qPrNqRbkrw"
+    },
+    {
+      "title": "LIERNE: FLYKTNINGERENNET FELLESSTART DAMER MOSJON 31 MARS 2012",
+      "channel": "Bengt Steinar Nordbakk",
+      "upload_date": "20120402",
+      "duration_string": "3:03",
+      "view_count": 210,
+      "like_count": null,
+      "description": "Flyktningerennet fellesstart damer.",
+      "tags": [
+        "Lierne",
+        "flyktningerennet",
+        "sport",
+        "ski"
+      ],
+      "url": "https://www.youtube.com/watch?v=TaOyKBIV_CE"
+    }
+  ]
+}

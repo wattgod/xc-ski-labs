@@ -1,0 +1,30 @@
+{
+  "slug": "viru-maraton",
+  "race_name": "Viru Maraton",
+  "query": "Viru Maraton cross country ski race Virumaa",
+  "video_count": 2,
+  "videos": [
+    {
+      "title": "37. Viru Maraton - 1min video",
+      "channel": "Estoloppet",
+      "upload_date": "20230128",
+      "duration_string": "1:13",
+      "view_count": 257,
+      "like_count": 1,
+      "description": "",
+      "tags": [],
+      "url": "https://www.youtube.com/watch?v=TX4Q9VTS2_g"
+    },
+    {
+      "title": "35. Viru Maraton videokokkuv\u00f5te / 30.01.2021 / Estoloppet 2021",
+      "channel": "Estoloppet",
+      "upload_date": "20210205",
+      "duration_string": "9:06",
+      "view_count": 556,
+      "like_count": 1,
+      "description": "",
+      "tags": [],
+      "url": "https://www.youtube.com/watch?v=XYhsaus-xzw"
+    }
+  ]
+}

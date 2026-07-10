@@ -1,0 +1,43 @@
+{
+  "slug": "tallinn-ski-marathon",
+  "race_name": "Tallinn Ski Marathon",
+  "query": "Tallinn Ski Marathon cross country ski race K\u00f5rvemaa Nature Reserve",
+  "video_count": 2,
+  "videos": [
+    {
+      "title": "18.Tallinna Suusamaratoni staadion",
+      "channel": "Hendrik-Ulvar Peets",
+      "upload_date": "20160227",
+      "duration_string": "43",
+      "view_count": 156,
+      "like_count": null,
+      "description": "Estoloppet 2016",
+      "tags": [
+        "Estoloppet"
+      ],
+      "url": "https://www.youtube.com/watch?v=gClhC9whUqU"
+    },
+    {
+      "title": "Tartu Maraton 31km 2022, Estonia!",
+      "channel": "Bali Mowgli",
+      "upload_date": "20220316",
+      "duration_string": "4:28",
+      "view_count": 157,
+      "like_count": 3,
+      "description": "Attempting Tartu Maraton for the first time! Finish time 2:58:58.",
+      "tags": [
+        "skiing",
+        "xc skiing",
+        "winter",
+        "skiing track",
+        "classic xc skiing",
+        "estonia",
+        "tartu",
+        "tartu maraton",
+        "skiing race",
+        "lithuanian"
+      ],
+      "url": "https://www.youtube.com/watch?v=r2cOd2QZZsE"
+    }
+  ]
+}

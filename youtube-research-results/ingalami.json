@@ -1,0 +1,30 @@
+{
+  "slug": "ingalami",
+  "race_name": "IngaL\u00e5mi",
+  "query": "IngaL\u00e5mi cross country ski race Lillehammer",
+  "video_count": 2,
+  "videos": [
+    {
+      "title": "Ingal\u00e5mi 2019",
+      "channel": "birkebeiner",
+      "upload_date": "20190309",
+      "duration_string": "6:24:19",
+      "view_count": 637,
+      "like_count": 5,
+      "description": "",
+      "tags": [],
+      "url": "https://www.youtube.com/watch?v=ojHgPgUYDz0"
+    },
+    {
+      "title": "Ingal\u00e5mi 2019",
+      "channel": "birkebeiner",
+      "upload_date": "20190309",
+      "duration_string": "1:54",
+      "view_count": 524,
+      "like_count": 1,
+      "description": "\u00c5rets jentefest p\u00e5 Lillehammer",
+      "tags": [],
+      "url": "https://www.youtube.com/watch?v=IEWSgD-7Ruw"
+    }
+  ]
+}

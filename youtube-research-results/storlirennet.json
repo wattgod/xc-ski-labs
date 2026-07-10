@@ -1,0 +1,40 @@
+{
+  "slug": "storlirennet",
+  "race_name": "Storlirennet",
+  "query": "Storlirennet cross country ski race Storlien",
+  "video_count": 2,
+  "videos": [
+    {
+      "title": "Storlirennet 2016",
+      "channel": "Lene-Mari Pr\u00f8ven",
+      "upload_date": "20160320",
+      "duration_string": "5:03",
+      "view_count": 1561,
+      "like_count": 5,
+      "description": "Made by lptekstogbilder.no. Storlirennet 2016. Visit Mer\u00e5ker & Storlien. Music: Carefree av Kevin MacLeod er lisensiert under en Creative Commons Attribution-lisens (https://creativecommons.org/licenses/by/4.0/)\nKilde: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037\nArtist: http://incompetech.com/",
+      "tags": [
+        "Petter Northug",
+        "Emil Iversen",
+        "Storlirennet"
+      ],
+      "url": "https://www.youtube.com/watch?v=UPdyZX1wyD4",
+      "transcript": "[Music]\nsh\nhe\n[Applause]"
+    },
+    {
+      "title": "Storlien   Mera\u030aker 2019",
+      "channel": "Frode Selbo",
+      "upload_date": "20190416",
+      "duration_string": "5:24",
+      "view_count": 838,
+      "like_count": 8,
+      "description": "Fantastisk fatbiketur langs traseen for Storlirennet. Start p\u00e5 Storlien, m\u00e5l i Mer\u00e5ker sentrum. Faste, fine forhold, perfekt temperatur og helt stille. Kort og godt en optimal supertur!",
+      "tags": [
+        "fatbike",
+        "mtb",
+        "storlien",
+        "mer\u00e5ker"
+      ],
+      "url": "https://www.youtube.com/watch?v=S4yzTPHHJk0"
+    }
+  ]
+}

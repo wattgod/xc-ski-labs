@@ -1,0 +1,30 @@
+{
+  "slug": "kopaonik-nordic-race",
+  "race_name": "Kopaonik Nordic Race",
+  "query": "Kopaonik Nordic Race cross country ski race Kopaonik National Park",
+  "video_count": 2,
+  "videos": [
+    {
+      "title": "Ski Fall POV - Gobelja Kopaonik - February 2022.",
+      "channel": "milanm",
+      "upload_date": "20221225",
+      "duration_string": "10",
+      "view_count": 15,
+      "like_count": null,
+      "description": "",
+      "tags": [],
+      "url": "https://www.youtube.com/watch?v=4opMZClYnAY"
+    },
+    {
+      "title": "\"Three sides of Kopaonik\" - Official Aftermovie 2016",
+      "channel": "SU Na Sve Strane",
+      "upload_date": "20170110",
+      "duration_string": "10:39",
+      "view_count": 1041,
+      "like_count": 13,
+      "description": "Official Aftermovie of MTB marathon \"Three sides of Kopaonik\" which is held traditionally on terrains of National park Kopaonik in Serbia. \nRegister at: www.tristranekopaonika.rs/en/home-2/\nSave the date: 30.07.2017.",
+      "tags": [],
+      "url": "https://www.youtube.com/watch?v=g09bQ0YJ_M4"
+    }
+  ]
+}
