@@ -45,10 +45,16 @@ d["race"]["history"]["founded"]
 ## Brand
 - Name: **XC Ski Labs** (not "Nordic Lab" — that's the internal project folder name only)
 - Domain: `xcskilabs.com`
-- Neo-brutalist: no border-radius, no box-shadow, 2-3px solid borders
-- Colors: Nordic Night `#1a2332`, Fjord Blue `#2b4c7e`, `#357a88`, `#b34a1a`, Cream `#d4cdc4`, Paper `#f0f3f7`
-- Fonts: Sometype Mono (data), Source Serif 4 (editorial), Inter (UI)
-- CSS variables use `--nl-*` prefix (legacy from Nordic Lab name)
+- **CANONICAL BRAND SPEC: `docs/BRAND_GUIDELINES.md` ("Wax Bench", ratified Jul 9 2026)**
+  — 90s Swix wax-box direction: paper `#f2f0eb`, carbon `#141414`, swix-red `#d3222a`,
+  klister `#ffd200`, wax quartet (temperature data ONLY); display = system Helvetica/Arial
+  900 italic caps; reference mock in `docs/brand/`. Read it before touching any visual.
+- NOTE: the LIVE site still runs the superseded "Nordic Night" cold-blue palette
+  (`#1a2332`/`#2b4c7e`, inline `:root` in generators) until the X10 port ships. Do not
+  extend Nordic Night; new surfaces follow BRAND_GUIDELINES.md.
+- Neo-brutalist: no border-radius, no box-shadow
+- Fonts: Sometype Mono (data), Source Serif 4 (editorial); Inter (UI, being phased down)
+- Copy rule: never self-describe as honest — "rated", not "honestly rated"
 
 ## Known Pitfalls
 1. **Never hardcode API keys in scripts** — use `.env` loading. `batch_enrich.sh` had a leaked key.

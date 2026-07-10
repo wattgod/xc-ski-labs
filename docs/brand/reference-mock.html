@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>XC Ski Labs — Swix direction, full mock</title>
+<style>
+  /* ── Proposed --gl-* tokens (X10, direction B "Wax Bench") ──
+     paper        #f2f0eb   body background
+     carbon       #141414   ink / dark bands
+     swix-red     #d3222a   THE brand color — heroes, primary CTAs
+     red-deep     #a8161d   stripe partner / hover
+     klister      #ffd200   warm accent (sparingly: prices, highlights)
+     wax-green    #0a7d4f   temp ≤ -15   (data only)
+     wax-blue     #1266b3   temp -8..-15 (data only)
+     wax-violet   #7a3f9d   temp -2..-8  (data only)
+     Display: Helvetica/Arial Black italic caps (system, zero font cost — period-correct)
+     Data: Sometype Mono · Reading: Source Serif 4
+  */
+  * { box-sizing:border-box; }
+  body { margin:0; background:#f2f0eb; color:#141414; font-family:Georgia,'Source Serif 4',serif; }
+  .mono { font-family:'Sometype Mono',ui-monospace,Menlo,monospace; }
+  .disp { font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic;
+          text-transform:uppercase; letter-spacing:-.01em; }
+  .wrap { max-width:1160px; margin:0 auto; padding:0 24px; }
+  .note { max-width:1160px; margin:26px auto 6px; padding:0 24px; font-family:ui-monospace,monospace;
+          font-size:10.5px; letter-spacing:.2em; text-transform:uppercase; color:#8b877c; }
+
+  /* nav */
+  .nav { background:#141414; }
+  .nav-in { max-width:1160px; margin:0 auto; padding:14px 24px; display:flex; align-items:center; justify-content:space-between; }
+  .logo { color:#fff; font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic;
+          font-size:19px; letter-spacing:.02em; text-decoration:none; }
+  .logo em { color:#d3222a; font-style:italic; }
+  .navlinks a { color:#fff; font-family:ui-monospace,monospace; font-size:10.5px; font-weight:700;
+                letter-spacing:.18em; text-decoration:none; margin-left:26px; }
+  .navlinks a.hot { color:#ffd200; }
+
+  /* homepage hero */
+  .hp { background:#d3222a; color:#fff; position:relative; overflow:hidden; }
+  .hp .stripes { position:absolute; top:0; right:-60px; bottom:0; width:420px;
+    background:repeating-linear-gradient(115deg,#a8161d 0 28px,#d3222a 28px 56px); }
+  .hp-in { max-width:1160px; margin:0 auto; padding:58px 24px 54px; position:relative; }
+  .hp .kick { font-family:ui-monospace,monospace; font-size:11px; font-weight:700; letter-spacing:.3em;
+              color:#ffd200; text-transform:uppercase; margin:0 0 12px; }
+  .hp h1 { font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic;
+           text-transform:uppercase; font-size:64px; line-height:.92; margin:0 0 18px; max-width:13ch; }
+  .hp .deck { font-size:17px; max-width:46ch; line-height:1.55; color:#ffecec; margin:0 0 26px; }
+  .btn { display:inline-block; font-family:ui-monospace,monospace; font-size:11px; font-weight:700;
+         letter-spacing:.16em; text-transform:uppercase; text-decoration:none; padding:13px 22px; }
+  .btn-white { background:#fff; color:#141414; margin-right:10px; }
+  .btn-carbon { background:#141414; color:#fff; }
+  .hp .stat { font-family:ui-monospace,monospace; font-size:10.5px; letter-spacing:.22em; color:#ffd200;
+              text-transform:uppercase; margin-top:26px; }
+
+  /* db table band */
+  .db { background:#f2f0eb; border-bottom:4px solid #141414; }
+  .db-in { max-width:1160px; margin:0 auto; padding:40px 24px; }
+  .sec-h { display:flex; align-items:baseline; gap:12px; margin:0 0 18px; }
+  .sec-h .num { color:#d3222a; font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic; font-size:18px; }
+  .sec-h h2 { font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic;
+              text-transform:uppercase; font-size:22px; margin:0; }
+  table { width:100%; border-collapse:collapse; }
+  th { font-family:ui-monospace,monospace; font-size:9.5px; letter-spacing:.2em; text-transform:uppercase;
+       color:#8b877c; text-align:left; padding:8px 10px; border-bottom:3px solid #141414; }
+  td { padding:13px 10px; border-bottom:1px solid #d8d4c8; font-size:15.5px; }
+  th.r, td.r { text-align:right; }
+  .tchip { font-family:ui-monospace,monospace; font-size:9px; font-weight:700; letter-spacing:.1em;
+           background:#141414; color:#fff; padding:3px 8px; }
+  .score-red { color:#d3222a; font-weight:700; }
+  .rowlink { font-family:ui-monospace,monospace; font-size:10px; letter-spacing:.14em; color:#d3222a;
+             text-decoration:none; font-weight:700; }
+
+  /* race page hero */
+  .race { background:#141414; color:#fff; position:relative; overflow:hidden; }
+  .race .stripes { position:absolute; top:0; right:-60px; bottom:0; width:300px;
+    background:repeating-linear-gradient(115deg,#0e0e0e 0 26px,#141414 26px 52px); }
+  .race-in { max-width:1160px; margin:0 auto; padding:50px 24px 42px; position:relative; }
+  .race .kick { font-family:ui-monospace,monospace; font-size:10.5px; font-weight:700;
+                letter-spacing:.3em; color:#ffd200; text-transform:uppercase; margin:0 0 10px; }
+  .race h1 { font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic;
+             text-transform:uppercase; font-size:54px; line-height:.94; margin:0 0 14px; }
+  .race .tag { font-size:16px; color:#e9e6dd; max-width:52ch; line-height:1.55; margin:0 0 20px; font-style:italic; }
+  .chip { display:inline-block; background:#fff; color:#141414; font-family:ui-monospace,monospace;
+          font-size:10px; font-weight:700; letter-spacing:.12em; padding:6px 12px; margin:0 8px 8px 0; }
+  .scorebox { position:absolute; right:24px; top:46px; background:#d3222a; color:#fff;
+              padding:16px 22px 13px; text-align:center; transform:rotate(2deg); }
+  .scorebox .n { font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-size:46px; line-height:1; }
+  .scorebox .l { font-family:ui-monospace,monospace; font-size:8.5px; font-weight:700; letter-spacing:.2em; margin-top:4px; }
+
+  /* wax temp = real climate data */
+  .waxband { }
+  .waxband .waxbar { display:flex; }
+  .waxband .wax { flex:1; padding:9px 12px; color:#fff; font-family:ui-monospace,monospace;
+                  font-size:9.5px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; position:relative; }
+  .waxband .wax.active::after { content:"▲ RACE DAY"; position:absolute; left:12px; top:100%; margin-top:4px;
+                                color:#141414; font-size:8.5px; letter-spacing:.14em; }
+
+  /* race body section */
+  .rb { background:#f2f0eb; }
+  .rb-in { max-width:1160px; margin:0 auto; padding:56px 24px 40px; }
+  .rb p.prose { max-width:66ch; line-height:1.7; margin:0 0 14px; font-size:16.5px; }
+  .pull { border-left:6px solid #d3222a; padding:10px 0 10px 20px; margin:22px 0;
+          font-size:19px; font-style:italic; max-width:56ch; }
+
+  /* course lesson card */
+  .lesson { background:#fff; border:3px solid #141414; max-width:520px; margin:26px 0 0; }
+  .lesson .lh { background:#1266b3; color:#fff; padding:12px 16px; display:flex; justify-content:space-between; align-items:center; }
+  .lesson .lh .disp { font-size:14px; }
+  .lesson .lh .mono { font-size:9px; letter-spacing:.16em; }
+  .lesson .lb { padding:16px; }
+  .lesson .lb p { margin:0 0 12px; font-size:14.5px; line-height:1.55; }
+  .bar { height:8px; background:#e5e1d4; position:relative; }
+  .bar div { position:absolute; inset:0 40% 0 0; background:#d3222a; }
+
+  /* ladder */
+  .ladder { background:#141414; color:#fff; }
+  .ladder-in { max-width:1160px; margin:0 auto; padding:52px 24px 56px; }
+  .ladder h2 { font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic;
+               text-transform:uppercase; font-size:30px; margin:0 0 4px; }
+  .ladder .lead { color:#b9b5a9; font-style:italic; margin:0 0 26px; }
+  .rungs { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+  .rung { background:#1d1d1d; border-top:6px solid #d3222a; padding:18px; }
+  .rung .rk { font-family:ui-monospace,monospace; font-size:9px; font-weight:700; letter-spacing:.22em;
+              color:#ffd200; text-transform:uppercase; }
+  .rung h3 { font-family:'Helvetica Neue',Arial,sans-serif; font-weight:900; font-style:italic;
+             text-transform:uppercase; font-size:16px; margin:8px 0 8px; }
+  .rung p { font-size:13.5px; color:#cfcbc0; line-height:1.55; margin:0 0 14px; }
+  .rung .price { font-family:ui-monospace,monospace; font-size:10px; font-weight:700; letter-spacing:.1em; color:#ffd200; }
+  .rbtn { display:inline-block; background:#d3222a; color:#fff; font-family:ui-monospace,monospace;
+          font-size:10px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+          text-decoration:none; padding:10px 16px; margin-top:12px; }
+  .rbtn.ghost { background:transparent; border:2px solid #fff; }
+
+  /* footer strip */
+  .foot { background:#d3222a; }
+  .foot-in { max-width:1160px; margin:0 auto; padding:18px 24px; display:flex; justify-content:space-between; align-items:center; }
+  .foot .logo { font-size:15px; }
+  .foot .mono { color:#ffd200; font-size:9.5px; letter-spacing:.2em; }
+</style>
+</head>
+<body>
+
+<p class="note">Direction B — “Wax Bench” · full surfaces mock · tokens in source header</p>
+
+<!-- NAV -->
+<nav class="nav"><div class="nav-in">
+  <a class="logo" href="#">XC SKI <em>LABS</em></a>
+  <span class="navlinks">
+    <a href="#">Races</a><a href="#">Plans</a><a href="#">Course</a><a href="#">Coaching</a><a class="hot" href="#">Search</a>
+  </span>
+</div></nav>
+
+<!-- HOMEPAGE HERO -->
+<header class="hp">
+  <div class="stripes"></div>
+  <div class="hp-in">
+    <p class="kick">The XC Ski Race Database</p>
+    <h1>Every loppet, rated.</h1>
+    <p class="deck">229 races scored on 14 criteria and ranked into four tiers — every score assigned by hand, from the Birkebeiner to the backyard classics.</p>
+    <a class="btn btn-white" href="#">Search the races</a>
+    <a class="btn btn-carbon" href="#">How we rate</a>
+    <p class="stat">229 races · 30 countries · 4 tiers</p>
+  </div>
+</header>
+
+<!-- DATABASE TABLE -->
+<section class="db"><div class="db-in">
+  <div class="sec-h"><span class="num">01</span><h2>Tier 1 — The Monuments</h2></div>
+  <table>
+    <tr><th>Race</th><th>Country</th><th class="r">Distance</th><th>Style</th><th class="r">Score</th><th></th></tr>
+    <tr><td><span class="tchip">T1</span>&nbsp;&nbsp;Birkebeinerrennet</td><td>Norway</td><td class="mono r">54 km</td><td>Classic</td><td class="mono r score-red">90</td><td class="r"><a class="rowlink" href="#">READ →</a></td></tr>
+    <tr><td><span class="tchip">T1</span>&nbsp;&nbsp;Marcialonga</td><td>Italy</td><td class="mono r">70 km</td><td>Classic</td><td class="mono r">89</td><td class="r"><a class="rowlink" href="#">READ →</a></td></tr>
+    <tr><td><span class="tchip">T1</span>&nbsp;&nbsp;Vasaloppet</td><td>Sweden</td><td class="mono r">90 km</td><td>Classic</td><td class="mono r">87</td><td class="r"><a class="rowlink" href="#">READ →</a></td></tr>
+  </table>
+</div></section>
+
+<p class="note">Race page — hero + climate wax-bar (real data language) + body + course lesson card</p>
+
+<!-- RACE HERO -->
+<section class="race">
+  <div class="stripes"></div>
+  <div class="race-in">
+    <p class="kick">Tier 1 · Worldloppet · Norway</p>
+    <h1>Birkebeiner&#8209;rennet</h1>
+    <p class="tag">Carry the weight of history — 54 km with a 3.5 kg pack across the mountains from Rena to Lillehammer, as the Birkebeiners did.</p>
+    <span class="chip">54 KM</span><span class="chip">CLASSIC</span><span class="chip">MARCH</span><span class="chip">RENA → LILLEHAMMER</span>
+    <div class="scorebox"><div class="n">90</div><div class="l">LAB SCORE</div></div>
+  </div>
+</section>
+
+<!-- WAX BAR = climate data -->
+<div class="waxband">
+  <div class="waxbar">
+    <div class="wax" style="background:#0a7d4f">GREEN · −15° AND BELOW</div>
+    <div class="wax active" style="background:#1266b3">BLUE · −8° TO −15°</div>
+    <div class="wax" style="background:#7a3f9d">VIOLET · −2° TO −8°</div>
+    <div class="wax" style="background:#d3222a">RED · −2° AND ABOVE</div>
+  </div>
+</div>
+
+<!-- RACE BODY -->
+<section class="rb"><div class="rb-in">
+  <div class="sec-h"><span class="num">02</span><h2>Course overview</h2></div>
+  <p class="prose">The reading layer stays serif on paper — the shouting is reserved for the
+  chrome. Black rules, white data chips, one red block per viewport, and the kick-wax bar
+  doing honest work: that band above encodes the race's actual historical race-day
+  temperature range, in the color language every skier already reads fluently.</p>
+  <div class="pull">Loud where the sport is loud. Quiet where you're actually reading.</div>
+
+  <div class="lesson">
+    <div class="lh"><span class="disp">Lesson 04 — Double pole</span><span class="mono">XC SKI COURSE</span></div>
+    <div class="lb">
+      <p>Course lesson cards pick up the wax-blue header. Video, drills, and the check-off
+      live inside a hard 3px frame — Game Boy sturdy.</p>
+      <div class="bar"><div></div></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- LADDER -->
+<section class="ladder"><div class="ladder-in">
+  <h2>Get race ready</h2>
+  <p class="lead">Four ways in, depending on how much of the thinking you want done for you.</p>
+  <div class="rungs">
+    <div class="rung">
+      <span class="rk">Plans</span><h3>Training plans</h3>
+      <p>Structured plans for the classics — Birken, Vasaloppet, Marcialonga — built from race demands.</p>
+      <span class="price">FROM $60</span><br><a class="rbtn ghost" href="#">Browse</a>
+    </div>
+    <div class="rung">
+      <span class="rk">Custom</span><h3>Custom plan</h3>
+      <p>Your race, your hours, your history. Built for you from the intake.</p>
+      <span class="price">$60 – $249</span><br><a class="rbtn ghost" href="#">Start the intake</a>
+    </div>
+    <div class="rung">
+      <span class="rk">Course</span><h3>XC ski course</h3>
+      <p>Sixteen lessons from first glide to race preparation.</p>
+      <span class="price">SELF-PACED</span><br><a class="rbtn ghost" href="#">See the course</a>
+    </div>
+    <div class="rung">
+      <span class="rk">Coaching</span><h3>1:1 coaching</h3>
+      <p>A person reads your training and adjusts the plan the same week life changes.</p>
+      <span class="price">$199 – $1,200 / 4 WK</span><br><a class="rbtn" href="#">Apply</a>
+    </div>
+  </div>
+</div></section>
+
+<!-- FOOTER STRIP -->
+<footer class="foot"><div class="foot-in">
+  <span class="logo">XC SKI <em style="color:#ffd200">LABS</em></span>
+  <span class="mono">BUILT FOR SKIERS WHO CHASE START LINES</span>
+</div></footer>
+
+</body>
+</html>
