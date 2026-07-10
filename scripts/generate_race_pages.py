@@ -14,17 +14,20 @@ Usage:
 import argparse
 import html
 import json
+import math
 import os
 import re
 import sys
 from pathlib import Path
 from typing import Any, Optional
+import xml.etree.ElementTree as ET
 
 # ── Paths ──────────────────────────────────────────────────────
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
+DEFAULT_ART_DIR = SCRIPT_DIR.parent / "art"
 TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 
 # ── Rating Criteria ────────────────────────────────────────────
@@ -182,9 +185,303 @@ WAX_SEGMENTS = [
     ("red", "RED · -2° AND ABOVE", -2.0, float("inf")),
 ]
 
+WAX_CARD_BANDS = [
+    {
+        "key": "green",
+        "label": "Deep cold",
+        "range": "-15°C and below",
+        "low": -30.0,
+        "high": -15.0,
+        "guidance": "Hardwax green or blue-green range. Keep layers thin and test grip before adding more.",
+    },
+    {
+        "key": "blue",
+        "label": "Cold snow",
+        "range": "-15°C to -8°C",
+        "low": -15.0,
+        "high": -8.0,
+        "guidance": "Hardwax blue range. Cork several thin layers and check kick on the first sustained climb.",
+    },
+    {
+        "key": "violet",
+        "label": "Mixed cold",
+        "range": "-8°C to -2°C",
+        "low": -8.0,
+        "high": -2.0,
+        "guidance": "Hardwax violet range. Watch glazed tracks and add a warmer cover only if grip drops.",
+    },
+    {
+        "key": "red",
+        "label": "Near zero",
+        "range": "-2°C and above",
+        "low": -2.0,
+        "high": 5.0,
+        "guidance": "Red hardwax can work below freezing. At 0°C and above, expect klister or covered klister.",
+    },
+]
+
 
 def _ranges_overlap(low: float, high: float, seg_low: float, seg_high: float) -> bool:
     return high >= seg_low and low <= seg_high
+
+
+def _format_number(raw: Any) -> str:
+    if raw is None or raw == "":
+        return ""
+    try:
+        val = float(str(raw))
+    except (TypeError, ValueError):
+        return str(raw)
+    return f"{val:g}"
+
+
+def _distance_label(raw: Any) -> str:
+    val = _format_number(raw)
+    return f"{val} KM" if val else ""
+
+
+def _haversine_km(a: tuple[float, float], b: tuple[float, float]) -> float:
+    lat1, lon1 = math.radians(a[0]), math.radians(a[1])
+    lat2, lon2 = math.radians(b[0]), math.radians(b[1])
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    h = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
+    return 6371.0 * 2 * math.asin(min(1.0, math.sqrt(h)))
+
+
+def _downsample_points(points: list[dict[str, float]], limit: int = 80) -> list[dict[str, float]]:
+    if len(points) <= limit:
+        return points
+    step = (len(points) - 1) / (limit - 1)
+    out = []
+    for i in range(limit):
+        out.append(points[round(i * step)])
+    return out
+
+
+def parse_gpx_profile(gpx_path: Path) -> dict[str, Any]:
+    """Parse a GPX profile into distance/elevation points using stdlib XML."""
+    root = ET.parse(gpx_path).getroot()
+    raw_points: list[tuple[float, float, float]] = []
+    for el in root.iter():
+        tag = el.tag.rsplit("}", 1)[-1]
+        if tag not in {"trkpt", "rtept"}:
+            continue
+        lat = el.get("lat")
+        lon = el.get("lon")
+        if lat is None or lon is None:
+            continue
+        ele = None
+        for child in el:
+            if child.tag.rsplit("}", 1)[-1] == "ele" and child.text:
+                ele = child.text
+                break
+        try:
+            raw_points.append((float(lat), float(lon), float(ele) if ele is not None else 0.0))
+        except ValueError:
+            continue
+
+    if not raw_points:
+        raise ValueError(f"No trkpt/rtept points found in {gpx_path}")
+
+    series = []
+    total_km = 0.0
+    prev = None
+    for lat, lon, ele in raw_points:
+        if prev is not None:
+            total_km += _haversine_km((prev[0], prev[1]), (lat, lon))
+        series.append({"distance_km": total_km, "elevation_m": ele})
+        prev = (lat, lon)
+
+    return {
+        "distance_km": total_km,
+        "points": _downsample_points(series),
+        "start_elevation_m": series[0]["elevation_m"],
+        "finish_elevation_m": series[-1]["elevation_m"],
+        "high_point_m": max(p["elevation_m"] for p in series),
+    }
+
+
+def _split_route_names(race: dict) -> tuple[str, str]:
+    v = race.get("vitals", {})
+    for raw in (v.get("location"), v.get("location_badge"), race.get("course", {}).get("route")):
+        if not raw:
+            continue
+        text = str(raw)
+        for sep in (" to ", " – ", " — ", "->", "→"):
+            if sep in text:
+                a, b = text.split(sep, 1)
+                return a.strip() or "START", b.strip() or "FINISH"
+    return "START", "FINISH"
+
+
+def _profile_path(points: list[dict[str, float]], width: int = 330, height: int = 150) -> tuple[str, list[tuple[float, float, dict[str, float]]]]:
+    if not points:
+        return "", []
+    min_ele = min(p["elevation_m"] for p in points)
+    max_ele = max(p["elevation_m"] for p in points)
+    total = max(points[-1]["distance_km"], 1.0)
+    span = max(max_ele - min_ele, 1.0)
+    mapped = []
+    for p in points:
+        x = (p["distance_km"] / total) * width
+        y = height - ((p["elevation_m"] - min_ele) / span) * (height - 18) - 8
+        mapped.append((x, y, p))
+    line = " ".join(f"{x:.1f},{y:.1f}" for x, y, _ in mapped)
+    massif = f"M0,{height} L{line} L{width},{height} Z"
+    return massif, mapped
+
+
+def render_course_plate(race: dict, profile: dict[str, Any]) -> str:
+    """Tier A plate: real route elevation massif."""
+    start_name, finish_name = _split_route_names(race)
+    points = profile["points"]
+    massif, mapped = _profile_path(points)
+    high_idx = max(range(len(mapped)), key=lambda i: mapped[i][2]["elevation_m"])
+    sx, sy, sp = mapped[0]
+    hx, hy, hp = mapped[high_idx]
+    fx, fy, fp = mapped[-1]
+    dots = []
+    for i, (x, y, _) in enumerate(mapped):
+        if i % 7 == 0 or i == len(mapped) - 1:
+            dots.append(f'<circle class="gl-plate-dot" cx="{x:.1f}" cy="{y:.1f}" r="2.5"/>')
+    labels = [
+        (max(4, sx), max(18, sy - 16), "start", start_name, sp["elevation_m"], "start"),
+        (min(270, hx + 8), max(18, hy - 18), "high point", None, hp["elevation_m"], "middle"),
+        (min(318, fx), max(18, fy - 16), "finish", finish_name, fp["elevation_m"], "end"),
+    ]
+    label_html = ""
+    for x, y, key, name, ele, anchor in labels:
+        detail = f"{esc(str(name).upper())} · {ele:.0f} M" if name else f"{ele:.0f} M"
+        label_html += (
+            f'<text class="gl-plate-label" x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}">'
+            f'<tspan>{esc(key.upper())}</tspan>'
+            f'<tspan x="{x:.1f}" dy="12">{detail}</tspan>'
+            f'</text>'
+        )
+    distance = f"{profile['distance_km']:.1f} KM"
+    return f"""
+<div class="gl-hero-plate" aria-hidden="true">
+  <svg class="gl-art-plate gl-art-plate--course" viewBox="0 0 360 210" focusable="false">
+    <path class="gl-plate-stripes" d="M0 0H360V210H0Z"/>
+    <path class="gl-plate-massif" d="{massif}" transform="translate(15 38)"/>
+    <polyline class="gl-plate-profile" points="{' '.join(f'{x + 15:.1f},{y + 38:.1f}' for x, y, _ in mapped)}"/>
+    <g transform="translate(15 38)">{''.join(dots)}</g>
+    <g transform="translate(15 38)">{label_html}</g>
+    <text class="gl-plate-title" x="18" y="26">{esc(_distance_label(distance.replace(" KM", "")))}</text>
+  </svg>
+</div>
+"""
+
+
+def render_data_plate(race: dict) -> str:
+    """Tier B plate: abstract terrain with real profile scalars."""
+    v = race.get("vitals", {})
+    r = race.get("nordic_lab_rating", {})
+    discipline = r.get("discipline", v.get("discipline", ""))
+    distance = _distance_label(v.get("distance_km"))
+    figures = []
+    if distance:
+        figures.append(("distance", distance))
+    if v.get("elevation_m") is not None:
+        figures.append(("gain", f"{_format_number(v.get('elevation_m'))} M"))
+    if v.get("altitude_m") is not None:
+        figures.append(("altitude", f"{_format_number(v.get('altitude_m'))} M"))
+    if discipline:
+        figures.append(("technique", DISCIPLINE_LABELS.get(discipline, discipline).upper()))
+    figure_html = ""
+    y = 50
+    for label, value in figures[:4]:
+        figure_html += f'<text class="gl-plate-stat" x="24" y="{y}"><tspan>{esc(label.upper())}</tspan><tspan x="24" dy="21">{esc(value)}</tspan></text>'
+        y += 46
+    route_label = distance or "ROUTE"
+    return f"""
+<div class="gl-hero-plate" aria-hidden="true">
+  <svg class="gl-art-plate gl-art-plate--data" viewBox="0 0 360 210" focusable="false">
+    <path class="gl-plate-stripes" d="M0 0H360V210H0Z"/>
+    <path class="gl-plate-ridge" d="M146 56C182 28 205 76 236 48S291 63 334 34"/>
+    <path class="gl-plate-ridge gl-plate-ridge--quiet" d="M146 102C178 82 205 117 237 91S292 112 337 82"/>
+    <path class="gl-plate-ridge gl-plate-ridge--quiet" d="M146 150C184 128 206 168 238 139S294 164 337 132"/>
+    <rect class="gl-plate-square" x="154" y="170" width="12" height="12"/>
+    <rect class="gl-plate-square" x="324" y="88" width="12" height="12"/>
+    <path class="gl-plate-route" d="M166 176C206 158 220 118 250 112S295 101 324 94"/>
+    <text class="gl-plate-route-label" x="238" y="143">{esc(route_label)}</text>
+    {figure_html}
+  </svg>
+</div>
+"""
+
+
+def select_art_plate_tier(slug: str, art_dir: Path = DEFAULT_ART_DIR) -> str:
+    return "A" if (art_dir / "gpx" / f"{slug}.gpx").exists() else "B"
+
+
+def build_hero_plate(race: dict, art_dir: Path = DEFAULT_ART_DIR) -> tuple[str, dict[str, str]]:
+    slug = race["slug"]
+    gpx_path = art_dir / "gpx" / f"{slug}.gpx"
+    if gpx_path.exists():
+        profile = parse_gpx_profile(gpx_path)
+        license_path = art_dir / "gpx" / f"{slug}.license"
+        license_text = license_path.read_text(encoding="utf-8").strip() if license_path.exists() else "UNVERIFIED — do not deploy"
+        source = f"art/gpx/{slug}.gpx"
+        return render_course_plate(race, profile), {"tier": "A", "source": source, "license": license_text}
+    return render_data_plate(race), {"tier": "B", "source": f"race-data/{slug}.json", "license": "Profile data"}
+
+
+def write_art_manifest(records: dict[str, dict[str, str]], art_dir: Path = DEFAULT_ART_DIR) -> None:
+    art_dir.mkdir(parents=True, exist_ok=True)
+    manifest_path = art_dir / "manifest.json"
+    manifest_path.write_text(json.dumps(records, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def select_wax_card_bands(temp_range: tuple[float, float]) -> list[dict[str, Any]]:
+    low, high = temp_range
+    scored = []
+    for idx, band in enumerate(WAX_CARD_BANDS):
+        overlap = max(0.0, min(high, band["high"]) - max(low, band["low"]))
+        if overlap > 0:
+            distance = 0.0
+        elif high < band["low"]:
+            distance = band["low"] - high
+        else:
+            distance = low - band["high"]
+        scored.append((0 if overlap > 0 else 1, -overlap, distance, idx, band))
+    selected = sorted(scored)[:3]
+    return [item[-1] for item in sorted(selected, key=lambda item: item[3])]
+
+
+def build_quiz_fact(race: dict) -> Optional[dict[str, Any]]:
+    history = race.get("history", {})
+    founded = history.get("founded")
+    if founded is None:
+        founded = race.get("vitals", {}).get("founded")
+    try:
+        year = int(founded)
+    except (TypeError, ValueError):
+        year = None
+    if year:
+        options = sorted({year, year - 10, year + 10})
+        return {
+            "question": f"Founded in ___?",
+            "options": options,
+            "correct": year,
+            "feedback": f"{race.get('display_name', race.get('name', 'The race'))} was founded in {year}.",
+        }
+    distance = race.get("vitals", {}).get("distance_km")
+    if distance is None:
+        return None
+    try:
+        dist = int(float(str(distance)))
+    except (TypeError, ValueError):
+        return None
+    offsets = [dist - 10, dist, dist + 10] if dist > 15 else [dist, dist + 5, dist + 10]
+    options = sorted({max(1, o) for o in offsets})
+    return {
+        "question": "Main distance?",
+        "options": options,
+        "correct": dist,
+        "feedback": f"The main profile distance is {dist} km.",
+    }
 
 
 # ── CSS ────────────────────────────────────────────────────────
@@ -375,6 +672,22 @@ a {{ color: inherit; }}
   max-width: var(--gl-measure);
   margin: 0 auto;
   padding: 52px var(--gl-space-5) 42px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  align-items: end;
+  gap: var(--gl-space-6);
+}}
+
+.gl-hero-copy {{ min-width: 0; position: static; }}
+
+.gl-hero-plate {{
+  position: relative;
+  z-index: 1;
+  align-self: end;
+  margin-top: 56px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
 }}
 
 .gl-hero-kicker {{
@@ -389,7 +702,7 @@ a {{ color: inherit; }}
 
 .gl-hero-name {{
   max-width: 14ch;
-  margin: 0 180px var(--gl-space-4) 0;
+  margin: 0 0 var(--gl-space-4);
   font-family: var(--gl-font-display);
   font-size: clamp(3rem, 8vw, 5.9rem);
   font-weight: 900;
@@ -404,7 +717,7 @@ a {{ color: inherit; }}
 
 .gl-hero-tagline {{
   max-width: 54ch;
-  margin: 0 180px var(--gl-space-5) 0;
+  margin: 0 0 var(--gl-space-5);
   color: var(--gl-hairline);
   font-family: var(--gl-font-editorial);
   font-size: 1.08rem;
@@ -430,8 +743,9 @@ a {{ color: inherit; }}
 
 .gl-scorebox {{
   position: absolute;
-  right: var(--gl-space-5);
-  top: 48px;
+  right: var(--gl-space-4);
+  top: 34px;
+  z-index: 3;
   width: 136px;
   background: var(--gl-swix-red);
   color: var(--gl-white);
@@ -458,6 +772,54 @@ a {{ color: inherit; }}
   letter-spacing: .18em;
   text-transform: uppercase;
 }}
+
+.gl-art-plate {{
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid var(--gl-white);
+  background: var(--gl-carbon);
+}}
+
+.gl-plate-stripes {{ fill: var(--gl-carbon); }}
+.gl-art-plate .gl-plate-stripes {{
+  opacity: .9;
+}}
+.gl-art-plate--course .gl-plate-massif {{ fill: var(--gl-red-deep); }}
+.gl-plate-profile,
+.gl-plate-route {{
+  fill: none;
+  stroke: var(--gl-swix-red);
+  stroke-width: 4;
+  stroke-linecap: square;
+  stroke-linejoin: round;
+}}
+.gl-plate-dot,
+.gl-plate-square {{
+  fill: var(--gl-klister);
+}}
+.gl-plate-label,
+.gl-plate-title,
+.gl-plate-stat,
+.gl-plate-route-label {{
+  fill: var(--gl-white);
+  font-family: var(--gl-font-data);
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}}
+.gl-plate-label {{ font-size: 7px; }}
+.gl-plate-title,
+.gl-plate-route-label {{ font-size: 11px; }}
+.gl-plate-stat {{ font-size: 8px; }}
+.gl-plate-stat tspan:first-child {{ fill: var(--gl-klister); }}
+.gl-plate-ridge {{
+  fill: none;
+  stroke: var(--gl-white);
+  stroke-width: 2;
+  opacity: .9;
+}}
+.gl-plate-ridge--quiet {{ opacity: .36; }}
 
 .gl-waxbar {{ display: grid; grid-template-columns: repeat(4, 1fr); }}
 .gl-wax {{
@@ -612,6 +974,150 @@ a {{ color: inherit; }}
   font-style: italic;
 }}
 
+.gl-rise-grid {{
+  display: grid;
+  gap: var(--gl-space-5);
+}}
+
+.gl-process {{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 3px solid var(--gl-carbon);
+}}
+
+.gl-process-step {{
+  background: var(--gl-white);
+  border-right: 1px solid var(--gl-hairline);
+  border-bottom: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-5);
+}}
+
+.gl-process-num {{
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: var(--gl-space-4);
+  background: var(--gl-carbon);
+  color: var(--gl-klister);
+  font-family: var(--gl-font-display);
+  font-size: 1.4rem;
+  font-weight: 900;
+  font-style: italic;
+}}
+
+.gl-process-step h3,
+.gl-wax-call h3,
+.gl-knowledge h3 {{
+  margin: 0 0 var(--gl-space-2);
+  font-family: var(--gl-font-display);
+  font-size: 1.05rem;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}}
+
+.gl-process-step p,
+.gl-wax-card-face p,
+.gl-knowledge-result {{
+  margin: 0;
+  font-size: .96rem;
+  line-height: 1.55;
+}}
+
+.gl-wax-cards {{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gl-space-4);
+}}
+
+.gl-wax-card {{
+  min-height: 184px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--gl-white);
+  cursor: pointer;
+  perspective: 900px;
+  text-align: left;
+}}
+
+.gl-wax-card-inner {{
+  display: block;
+  position: relative;
+  min-height: 184px;
+  transform-style: preserve-3d;
+  transition: transform .35s;
+}}
+@media (prefers-reduced-motion: reduce) {{
+  .gl-wax-card-inner {{ transition: none; }}
+}}
+
+.gl-wax-card.is-flipped .gl-wax-card-inner {{ transform: rotateY(180deg); }}
+
+.gl-wax-card-face {{
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--gl-space-5);
+  backface-visibility: hidden;
+}}
+
+.gl-wax-card-back {{
+  background: var(--gl-carbon);
+  transform: rotateY(180deg);
+}}
+
+.gl-wax-card-green .gl-wax-card-front {{ background: var(--gl-wax-green); }}
+.gl-wax-card-blue .gl-wax-card-front {{ background: var(--gl-wax-blue); }}
+.gl-wax-card-violet .gl-wax-card-front {{ background: var(--gl-wax-violet); }}
+.gl-wax-card-red .gl-wax-card-front {{ background: var(--gl-swix-red); }}
+
+.gl-wax-card-kicker,
+.gl-knowledge-link {{
+  font-family: var(--gl-font-data);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}}
+
+.gl-knowledge {{
+  background: var(--gl-white);
+  border: 3px solid var(--gl-carbon);
+  padding: var(--gl-space-5);
+}}
+
+.gl-quiz-options {{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gl-space-3);
+  margin: var(--gl-space-4) 0;
+}}
+
+.gl-quiz-option {{
+  min-height: 44px;
+  border: 2px solid var(--gl-carbon);
+  background: var(--gl-white);
+  color: var(--gl-carbon);
+  padding: 0 var(--gl-space-4);
+  font-family: var(--gl-font-data);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}}
+
+.gl-quiz-option.is-correct {{ background: var(--gl-wax-green); color: var(--gl-white); border-color: var(--gl-wax-green); }}
+.gl-quiz-option.is-wrong {{ background: var(--gl-swix-red); color: var(--gl-white); border-color: var(--gl-swix-red); }}
+.gl-knowledge-result {{ min-height: 28px; font-style: italic; }}
+.gl-knowledge-link {{ display: inline-block; margin-top: var(--gl-space-4); color: var(--gl-carbon); text-decoration: none; }}
+
 .gl-series-badges {{ display: flex; flex-wrap: wrap; gap: var(--gl-space-2); }}
 .gl-series-badge,
 .gl-placeholder {{
@@ -710,9 +1216,14 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
 @media (max-width: 820px) {{
   .gl-hero-name,
   .gl-hero-tagline {{ margin-right: 0; }}
+  .gl-hero-inner {{ grid-template-columns: 1fr; }}
+  .gl-hero-copy {{ padding-right: 0; }}
+  .gl-hero-plate {{ min-height: 0; max-width: 440px; }}
   .gl-scorebox {{ position: static; margin: var(--gl-space-5) 0 0; }}
   .gl-waxbar,
-  .gl-rungs {{ grid-template-columns: 1fr 1fr; }}
+  .gl-rungs,
+  .gl-process,
+  .gl-wax-cards {{ grid-template-columns: 1fr 1fr; }}
 }}
 
 @media (max-width: 640px) {{
@@ -724,6 +1235,8 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
   .gl-hero-inner {{ padding-top: 40px; }}
   .gl-waxbar,
   .gl-rungs,
+  .gl-process,
+  .gl-wax-cards,
   .gl-rating-row {{ grid-template-columns: 1fr; }}
   .gl-rating-label {{ text-align: left; }}
   .gl-sticky-cta-name {{ display: none; }}
@@ -786,7 +1299,7 @@ def build_nav_header(active: str = "") -> str:
 <nav class="gl-nav">
   <div class="gl-nav-inner">
     <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS">XC SKI <em>LABS</em></a>
-    <button class="gl-nav-hamburger" aria-label="Toggle navigation" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')">&#9776;</button>
+    <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
         <a href="/search/"{_active("races")}>Races</a>
@@ -821,18 +1334,22 @@ def build_hero(race: dict) -> str:
 
     chips_html = "".join(f'<span class="gl-chip">{esc(chip)}</span>' for chip in chips)
     kicker = f'{tier_label(tier)} · {_series_label(race)} · {v.get("country", "")}'
+    plate_html, _ = build_hero_plate(race)
 
     return f"""
 <section class="gl-hero" id="hero">
   <div class="gl-hero-inner">
-    <p class="gl-hero-kicker">{esc(kicker)}</p>
-    <h1 class="{_hero_name_class(race.get("display_name", race["name"]))}">{_display_caps(race.get("display_name", race["name"]))}</h1>
-    <p class="gl-hero-tagline">{esc(race.get("tagline", ""))}</p>
-    <div class="gl-hero-chips">{chips_html}</div>
-    <div class="gl-scorebox" aria-label="Lab Score {score} out of 100">
-      <span class="gl-scorebox-number">{score}</span>
-      <span class="gl-scorebox-label">Lab Score</span>
+    <div class="gl-hero-copy">
+      <p class="gl-hero-kicker">{esc(kicker)}</p>
+      <h1 class="{_hero_name_class(race.get("display_name", race["name"]))}">{_display_caps(race.get("display_name", race["name"]))}</h1>
+      <p class="gl-hero-tagline">{esc(race.get("tagline", ""))}</p>
+      <div class="gl-hero-chips">{chips_html}</div>
+      <div class="gl-scorebox" aria-label="Lab Score {score} out of 100">
+        <span class="gl-scorebox-number">{score}</span>
+        <span class="gl-scorebox-label">Lab Score</span>
+      </div>
     </div>
+    {plate_html}
   </div>
 </section>
 """
@@ -983,10 +1500,112 @@ def build_climate(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="climate">
-  {build_section_header('03', 'Weather and conditions')}
+  {build_section_header('04', 'Weather and conditions')}
   {temp_html}
   <p class="gl-section-prose">{esc(desc)}</p>
   {challenges_html}
+</section>
+"""
+
+
+def _discipline_phrase(race: dict) -> str:
+    v = race.get("vitals", {})
+    raw = race.get("nordic_lab_rating", {}).get("discipline", v.get("discipline", ""))
+    if raw == "classic":
+        return "classic kick and glide"
+    if raw == "skate":
+        return "skate pacing"
+    if raw == "both":
+        return "classic and skate options"
+    return str(raw).replace("_", " ") if raw else "race technique"
+
+
+def build_race_week_stepper(race: dict) -> str:
+    name = race.get("display_name", race.get("name", "the race"))
+    date = race.get("vitals", {}).get("date_specific") or race.get("vitals", {}).get("date") or "race day"
+    discipline = _discipline_phrase(race)
+    steps = [
+        ("Check the week", f"Use the {esc(date)} timing as the anchor. Confirm travel, bib pickup, and the latest organizer notices before you adjust training."),
+        ("Tune the sessions", f"Keep the final intensity short and specific to {esc(discipline)}. The goal is readiness, not added fitness."),
+        ("Set race morning", f"Pack layers, food, and wax options for {esc(name)} before the last evening. Leave only weather checks for the morning."),
+    ]
+    cards = []
+    for idx, (title, body) in enumerate(steps, start=1):
+        cards.append(f"""
+    <div class="gl-process-step">
+      <span class="gl-process-num">{idx}</span>
+      <h3>{esc(title)}</h3>
+      <p>{body}</p>
+    </div>""")
+    return f"""
+  <div class="gl-process" aria-label="Race week protocol">
+    {''.join(cards)}
+  </div>
+"""
+
+
+def build_wax_call_cards(race: dict) -> str:
+    parsed = parse_temperature_range(race.get("climate", {}).get("typical_temp_c"))
+    if parsed is None:
+        return ""
+    cards = []
+    for band in select_wax_card_bands(parsed):
+        cards.append(f"""
+    <button class="gl-wax-card gl-wax-card-{esc(band['key'])}" type="button" aria-pressed="false">
+      <span class="gl-wax-card-inner">
+        <span class="gl-wax-card-face gl-wax-card-front">
+          <span class="gl-wax-card-kicker">{esc(band['range'])}</span>
+          <span><h3>{esc(band['label'])}</h3><p>Scenario for this race's typical temperature window.</p></span>
+        </span>
+        <span class="gl-wax-card-face gl-wax-card-back">
+          <span class="gl-wax-card-kicker">Standard kick wax</span>
+          <span><h3>Wax call</h3><p>{esc(band['guidance'])}</p></span>
+        </span>
+      </span>
+    </button>""")
+    return f"""
+  <div class="gl-wax-call">
+    <h3>Wax call</h3>
+    <div class="gl-wax-cards">{''.join(cards)}</div>
+  </div>
+"""
+
+
+def build_knowledge_check(race: dict) -> str:
+    fact = build_quiz_fact(race)
+    if fact is None:
+        return ""
+    slug = esc(race["slug"])
+    options = "".join(
+        f'<button class="gl-quiz-option" type="button" data-answer="{esc(opt)}">{esc(opt)}{(" KM" if fact["question"] == "Main distance?" else "")}</button>'
+        for opt in fact["options"]
+    )
+    correct_display = f'{fact["correct"]} KM' if fact["question"] == "Main distance?" else str(fact["correct"])
+    return f"""
+  <div class="gl-knowledge" data-quiz-correct="{esc(fact['correct'])}" data-quiz-feedback="{esc(fact['feedback'])}">
+    <h3>Knowledge check</h3>
+    <p class="gl-section-prose">{esc(fact['question'])}</p>
+    <div class="gl-quiz-options" role="group" aria-label="Knowledge check options">{options}</div>
+    <p class="gl-knowledge-result" aria-live="polite" data-empty="Choose one answer.">Choose one answer.</p>
+    <a class="gl-knowledge-link" href="/questionnaire/?race={slug}">Build my {esc(race.get('display_name', race.get('name', 'race')))} plan &rarr;</a>
+    <span class="gl-placeholder" hidden>{esc(correct_display)}</span>
+  </div>
+"""
+
+
+def build_interactive_blocks(race: dict) -> str:
+    wax = build_wax_call_cards(race)
+    quiz = build_knowledge_check(race)
+    if not wax and not quiz:
+        return ""
+    return f"""
+<section class="gl-section" id="race-week">
+  {build_section_header('03', 'Race week')}
+  <div class="gl-rise-grid">
+    {build_race_week_stepper(race)}
+    {wax}
+    {quiz}
+  </div>
 </section>
 """
 
@@ -1020,7 +1639,7 @@ def build_rating_breakdown(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="rating">
-  {build_section_header('04', '14-criteria analysis')}
+  {build_section_header('05', '14-criteria analysis')}
   <div class="gl-rating-bars">
     {rows_html}
   </div>
@@ -1045,7 +1664,7 @@ def build_history(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="history">
-  {build_section_header('05', 'History and heritage')}
+  {build_section_header('06', 'History and heritage')}
   <p class="gl-section-prose">{esc(summary)}</p>
   {facts_html}
 </section>
@@ -1070,7 +1689,7 @@ def build_series(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="series">
-  {build_section_header('06', 'Race series')}
+  {build_section_header('07', 'Race series')}
   <div class="gl-series-badges">
     {badges_html}
   </div>
@@ -1087,7 +1706,7 @@ def build_youtube_placeholder(race: dict) -> str:
 
     return f"""
 <section class="gl-section" id="videos">
-  {build_section_header('07', 'Race videos')}
+  {build_section_header('08', 'Race videos')}
   <div class="gl-placeholder">VIDEO ENRICHMENT COMING SOON</div>
 </section>
 """
@@ -1142,10 +1761,67 @@ def build_sticky_cta(race: dict) -> str:
       <a href="/questionnaire/?race={slug}" class="gl-sticky-cta-btn" id="gl-sticky-cta-link">
         <span id="gl-sticky-cta-text">Build my plan</span>
       </a>
-      <button class="gl-sticky-cta-dismiss" onclick="document.getElementById('gl-sticky-cta').style.display='none';try{{sessionStorage.setItem('xl-cta-dismissed','1')}}catch(e){{}}" aria-label="Dismiss">&times;</button>
+      <button class="gl-sticky-cta-dismiss" data-sticky-dismiss aria-label="Dismiss">&times;</button>
     </div>
   </div>
 </div>
+"""
+
+
+def build_interactions_js() -> str:
+    """Small dependency-free handlers for page controls."""
+    return """
+<script>
+(function() {
+  var navToggle = document.querySelector('[data-nav-toggle]');
+  var navLinks = document.querySelector('.gl-nav-links');
+  if (navToggle && navLinks) {
+    navToggle.addEventListener('click', function() {
+      var open = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
+  var dismiss = document.querySelector('[data-sticky-dismiss]');
+  if (dismiss) {
+    dismiss.addEventListener('click', function() {
+      var cta = document.getElementById('gl-sticky-cta');
+      if (cta) { cta.style.display = 'none'; }
+      try { sessionStorage.setItem('xl-cta-dismissed', '1'); } catch(e) {}
+    });
+  }
+
+  document.querySelectorAll('.gl-wax-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var flipped = card.classList.toggle('is-flipped');
+      card.setAttribute('aria-pressed', flipped ? 'true' : 'false');
+    });
+  });
+
+  document.querySelectorAll('.gl-knowledge').forEach(function(quiz) {
+    var correct = quiz.getAttribute('data-quiz-correct');
+    var feedback = quiz.getAttribute('data-quiz-feedback') || '';
+    var result = quiz.querySelector('.gl-knowledge-result');
+    quiz.querySelectorAll('.gl-quiz-option').forEach(function(button) {
+      button.addEventListener('click', function() {
+        quiz.querySelectorAll('.gl-quiz-option').forEach(function(option) {
+          option.classList.remove('is-correct', 'is-wrong');
+          option.disabled = true;
+        });
+        if (button.getAttribute('data-answer') === correct) {
+          button.classList.add('is-correct');
+          if (result) { result.textContent = feedback; }
+        } else {
+          button.classList.add('is-wrong');
+          var correctButton = quiz.querySelector('[data-answer="' + correct + '"]');
+          if (correctButton) { correctButton.classList.add('is-correct'); }
+          if (result) { result.textContent = 'Not quite. ' + feedback; }
+        }
+      });
+    });
+  });
+})();
+</script>
 """
 
 
@@ -1281,6 +1957,7 @@ def generate_page(race: dict) -> str:
     hero = build_hero(race)
     vitals = build_at_a_glance(race)
     course = build_course(race)
+    interactive = build_interactive_blocks(race)
     climate = build_climate(race)
     rating = build_rating_breakdown(race)
     wax_bar = build_wax_bar(race)
@@ -1289,6 +1966,7 @@ def generate_page(race: dict) -> str:
     series = build_series(race)
     youtube = build_youtube_placeholder(race)
     sticky_cta = build_sticky_cta(race)
+    interactions_js = build_interactions_js()
     sticky_js = build_sticky_js()
     cookie_consent = build_cookie_consent()
     footer = build_footer(race)
@@ -1320,6 +1998,7 @@ def generate_page(race: dict) -> str:
 <div class="gl-wrap">
 {vitals}
 {course}
+{interactive}
 {climate}
 {rating}
 {history}
@@ -1332,6 +2011,7 @@ def generate_page(race: dict) -> str:
 {footer}
 </div>
 {sticky_cta}
+{interactions_js}
 {sticky_js}
 {cookie_consent}
 </body>
@@ -1379,6 +2059,7 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
     total = 0
     errors = 0
     tiers = {1: 0, 2: 0, 3: 0, 4: 0}
+    art_records: dict[str, dict[str, str]] = {}
 
     for filepath in files:
         race = load_race(filepath)
@@ -1388,6 +2069,10 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
 
         slug = race["slug"]
         tier = race["nordic_lab_rating"]["tier"]
+        _, art_record = build_hero_plate(race)
+        art_records[slug] = art_record
+        if art_record["tier"] == "A" and art_record["license"].startswith("UNVERIFIED"):
+            print(f"  WARN {slug}: missing GPX license file for {art_record['source']}")
 
         page_html = generate_page(race)
 
@@ -1401,6 +2086,7 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
         total += 1
         tiers[tier] = tiers.get(tier, 0) + 1
 
+    write_art_manifest(art_records)
     print(f"\nGenerated {total} race pages → {output_dir}/")
     if errors:
         print(f"  Skipped/errors: {errors}")

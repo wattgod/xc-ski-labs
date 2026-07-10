@@ -1,0 +1,1147 @@
+{
+  "3-zinnen-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/3-zinnen-ski-marathon.json",
+    "tier": "B"
+  },
+  "7-mila": {
+    "license": "Profile data",
+    "source": "race-data/7-mila.json",
+    "tier": "B"
+  },
+  "alley-loop": {
+    "license": "Profile data",
+    "source": "race-data/alley-loop.json",
+    "tier": "B"
+  },
+  "alutaguse-maraton": {
+    "license": "Profile data",
+    "source": "race-data/alutaguse-maraton.json",
+    "tier": "B"
+  },
+  "american-birkebeiner": {
+    "license": "Profile data",
+    "source": "race-data/american-birkebeiner.json",
+    "tier": "B"
+  },
+  "arctic-circle-race": {
+    "license": "Profile data",
+    "source": "race-data/arctic-circle-race.json",
+    "tier": "B"
+  },
+  "asarna-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/asarna-ski-marathon.json",
+    "tier": "B"
+  },
+  "attraverso-campra": {
+    "license": "Profile data",
+    "source": "race-data/attraverso-campra.json",
+    "tier": "B"
+  },
+  "avacha-marathon": {
+    "license": "Profile data",
+    "source": "race-data/avacha-marathon.json",
+    "tier": "B"
+  },
+  "bad-gastein-criterium": {
+    "license": "Profile data",
+    "source": "race-data/bad-gastein-criterium.json",
+    "tier": "B"
+  },
+  "baikal-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/baikal-ski-marathon.json",
+    "tier": "B"
+  },
+  "bedrichov-night-light": {
+    "license": "Profile data",
+    "source": "race-data/bedrichov-night-light.json",
+    "tier": "B"
+  },
+  "bessemerloppet": {
+    "license": "Profile data",
+    "source": "race-data/bessemerloppet.json",
+    "tier": "B"
+  },
+  "bieg-bystrzycki": {
+    "license": "Profile data",
+    "source": "race-data/bieg-bystrzycki.json",
+    "tier": "B"
+  },
+  "bieg-lotnikow": {
+    "license": "Profile data",
+    "source": "race-data/bieg-lotnikow.json",
+    "tier": "B"
+  },
+  "bieg-piastow": {
+    "license": "Profile data",
+    "source": "race-data/bieg-piastow.json",
+    "tier": "B"
+  },
+  "bieg-podhalanski": {
+    "license": "Profile data",
+    "source": "race-data/bieg-podhalanski.json",
+    "tier": "B"
+  },
+  "biela-stopa": {
+    "license": "Profile data",
+    "source": "race-data/biela-stopa.json",
+    "tier": "B"
+  },
+  "billingens-langlopp": {
+    "license": "Profile data",
+    "source": "race-data/billingens-langlopp.json",
+    "tier": "B"
+  },
+  "birkebeinerrennet": {
+    "license": "source: https://app.racedaymap.com/skibirken/birkebeinerrennet (official Birken course\nmap service, linked from birken.no/en/ski/birkebeinerrennet-54-km \"Track map and GPX\")\nretrieved: 2026-07-09\nuse: course geometry rendered as elevation-plate art on xcskilabs.com race page;\nfactual geographic data, publicly offered for download by the organizer.",
+    "source": "art/gpx/birkebeinerrennet.gpx",
+    "tier": "A"
+  },
+  "black-jack-loppet": {
+    "license": "Profile data",
+    "source": "race-data/black-jack-loppet.json",
+    "tier": "B"
+  },
+  "blafjallagangan": {
+    "license": "Profile data",
+    "source": "race-data/blafjallagangan.json",
+    "tier": "B"
+  },
+  "boden-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/boden-ski-marathon.json",
+    "tier": "B"
+  },
+  "book-across-the-bay": {
+    "license": "Profile data",
+    "source": "race-data/book-across-the-bay.json",
+    "tier": "B"
+  },
+  "boulder-mountain-tour": {
+    "license": "Profile data",
+    "source": "race-data/boulder-mountain-tour.json",
+    "tier": "B"
+  },
+  "budorrennet": {
+    "license": "Profile data",
+    "source": "race-data/budorrennet.json",
+    "tier": "B"
+  },
+  "california-gold-rush": {
+    "license": "Profile data",
+    "source": "race-data/california-gold-rush.json",
+    "tier": "B"
+  },
+  "canadian-birkebeiner": {
+    "license": "Profile data",
+    "source": "race-data/canadian-birkebeiner.json",
+    "tier": "B"
+  },
+  "canadian-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/canadian-ski-marathon.json",
+    "tier": "B"
+  },
+  "carpathian-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/carpathian-ski-marathon.json",
+    "tier": "B"
+  },
+  "cascade-crest": {
+    "license": "Profile data",
+    "source": "race-data/cascade-crest.json",
+    "tier": "B"
+  },
+  "chama-chile-ski-classic": {
+    "license": "Profile data",
+    "source": "race-data/chama-chile-ski-classic.json",
+    "tier": "B"
+  },
+  "city-of-lakes-loppet": {
+    "license": "Profile data",
+    "source": "race-data/city-of-lakes-loppet.json",
+    "tier": "B"
+  },
+  "cookie-race": {
+    "license": "Profile data",
+    "source": "race-data/cookie-race.json",
+    "tier": "B"
+  },
+  "craft-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/craft-ski-marathon.json",
+    "tier": "B"
+  },
+  "craftsbury-marathon": {
+    "license": "Profile data",
+    "source": "race-data/craftsbury-marathon.json",
+    "tier": "B"
+  },
+  "crescent-lake-challenge": {
+    "license": "Profile data",
+    "source": "race-data/crescent-lake-challenge.json",
+    "tier": "B"
+  },
+  "demino-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/demino-ski-marathon.json",
+    "tier": "B"
+  },
+  "dolomitenlauf": {
+    "license": "Profile data",
+    "source": "race-data/dolomitenlauf.json",
+    "tier": "B"
+  },
+  "einsiedler-skimarathon": {
+    "license": "Profile data",
+    "source": "race-data/einsiedler-skimarathon.json",
+    "tier": "B"
+  },
+  "engadin-frauenlauf": {
+    "license": "Profile data",
+    "source": "race-data/engadin-frauenlauf.json",
+    "tier": "B"
+  },
+  "engadin-la-diagonela": {
+    "license": "Profile data",
+    "source": "race-data/engadin-la-diagonela.json",
+    "tier": "B"
+  },
+  "engadin-skimarathon": {
+    "license": "Profile data",
+    "source": "race-data/engadin-skimarathon.json",
+    "tier": "B"
+  },
+  "engelbrektsloppet": {
+    "license": "Profile data",
+    "source": "race-data/engelbrektsloppet.json",
+    "tier": "B"
+  },
+  "erzgebirge-24h": {
+    "license": "Profile data",
+    "source": "race-data/erzgebirge-24h.json",
+    "tier": "B"
+  },
+  "etoile-des-saisies": {
+    "license": "Profile data",
+    "source": "race-data/etoile-des-saisies.json",
+    "tier": "B"
+  },
+  "finlandia-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/finlandia-hiihto.json",
+    "tier": "B"
+  },
+  "fjalltopploppet": {
+    "license": "Profile data",
+    "source": "race-data/fjalltopploppet.json",
+    "tier": "B"
+  },
+  "flyktningerennet": {
+    "license": "Profile data",
+    "source": "race-data/flyktningerennet.json",
+    "tier": "B"
+  },
+  "forbush-memorial-classic": {
+    "license": "Profile data",
+    "source": "race-data/forbush-memorial-classic.json",
+    "tier": "B"
+  },
+  "fossavatnsgangan": {
+    "license": "Profile data",
+    "source": "race-data/fossavatnsgangan.json",
+    "tier": "B"
+  },
+  "foulee-blanche": {
+    "license": "Profile data",
+    "source": "race-data/foulee-blanche.json",
+    "tier": "B"
+  },
+  "franches-nordique": {
+    "license": "Profile data",
+    "source": "race-data/franches-nordique.json",
+    "tier": "B"
+  },
+  "frosty-freestyle": {
+    "license": "Profile data",
+    "source": "race-data/frosty-freestyle.json",
+    "tier": "B"
+  },
+  "furusjoen-rundt": {
+    "license": "Profile data",
+    "source": "race-data/furusjoen-rundt.json",
+    "tier": "B"
+  },
+  "galtuer-nordic-volumes": {
+    "license": "Profile data",
+    "source": "race-data/galtuer-nordic-volumes.json",
+    "tier": "B"
+  },
+  "ganghoferlauf": {
+    "license": "Profile data",
+    "source": "race-data/ganghoferlauf.json",
+    "tier": "B"
+  },
+  "gantrisch-loppet": {
+    "license": "Profile data",
+    "source": "race-data/gantrisch-loppet.json",
+    "tier": "B"
+  },
+  "gatineau-55": {
+    "license": "Profile data",
+    "source": "race-data/gatineau-55.json",
+    "tier": "B"
+  },
+  "gatineau-loppet": {
+    "license": "Profile data",
+    "source": "race-data/gatineau-loppet.json",
+    "tier": "B"
+  },
+  "gommerlauf": {
+    "license": "Profile data",
+    "source": "race-data/gommerlauf.json",
+    "tier": "B"
+  },
+  "grand-mesa-classic": {
+    "license": "Profile data",
+    "source": "race-data/grand-mesa-classic.json",
+    "tier": "B"
+  },
+  "granfondo-dobbiaco-cortina": {
+    "license": "Profile data",
+    "source": "race-data/granfondo-dobbiaco-cortina.json",
+    "tier": "B"
+  },
+  "great-bear-chase": {
+    "license": "Profile data",
+    "source": "race-data/great-bear-chase.json",
+    "tier": "B"
+  },
+  "great-glen-nordic": {
+    "license": "Profile data",
+    "source": "race-data/great-glen-nordic.json",
+    "tier": "B"
+  },
+  "great-glen-to-bretton-woods": {
+    "license": "Profile data",
+    "source": "race-data/great-glen-to-bretton-woods.json",
+    "tier": "B"
+  },
+  "great-nordeen": {
+    "license": "Profile data",
+    "source": "race-data/great-nordeen.json",
+    "tier": "B"
+  },
+  "great-ski-race": {
+    "license": "Profile data",
+    "source": "race-data/great-ski-race.json",
+    "tier": "B"
+  },
+  "grenaderlopet": {
+    "license": "Profile data",
+    "source": "race-data/grenaderlopet.json",
+    "tier": "B"
+  },
+  "gsieser-tal-lauf": {
+    "license": "Profile data",
+    "source": "race-data/gsieser-tal-lauf.json",
+    "tier": "B"
+  },
+  "haanja-maraton": {
+    "license": "Profile data",
+    "source": "race-data/haanja-maraton.json",
+    "tier": "B"
+  },
+  "hafjell-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/hafjell-ski-marathon.json",
+    "tier": "B"
+  },
+  "haldo-hansson-minne": {
+    "license": "Profile data",
+    "source": "race-data/haldo-hansson-minne.json",
+    "tier": "B"
+  },
+  "holmenkollmarsjen": {
+    "license": "Profile data",
+    "source": "race-data/holmenkollmarsjen.json",
+    "tier": "B"
+  },
+  "hovdentour": {
+    "license": "Profile data",
+    "source": "race-data/hovdentour.json",
+    "tier": "B"
+  },
+  "idre-classic": {
+    "license": "Profile data",
+    "source": "race-data/idre-classic.json",
+    "tier": "B"
+  },
+  "ingalami": {
+    "license": "Profile data",
+    "source": "race-data/ingalami.json",
+    "tier": "B"
+  },
+  "jackrabbit-marathon": {
+    "license": "Profile data",
+    "source": "race-data/jackrabbit-marathon.json",
+    "tier": "B"
+  },
+  "jamtland-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/jamtland-ski-marathon.json",
+    "tier": "B"
+  },
+  "jatkankynttila": {
+    "license": "Profile data",
+    "source": "race-data/jatkankynttila.json",
+    "tier": "B"
+  },
+  "jizerska-50": {
+    "license": "Profile data",
+    "source": "race-data/jizerska-50.json",
+    "tier": "B"
+  },
+  "john-craig-memorial": {
+    "license": "Profile data",
+    "source": "race-data/john-craig-memorial.json",
+    "tier": "B"
+  },
+  "jyvaskyla-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/jyvaskyla-ski-marathon.json",
+    "tier": "B"
+  },
+  "kalix-loppet": {
+    "license": "Profile data",
+    "source": "race-data/kalix-loppet.json",
+    "tier": "B"
+  },
+  "kananaskis-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/kananaskis-ski-marathon.json",
+    "tier": "B"
+  },
+  "kandersteger-volkslauf": {
+    "license": "Profile data",
+    "source": "race-data/kandersteger-volkslauf.json",
+    "tier": "B"
+  },
+  "kangaroo-hoppet": {
+    "license": "Profile data",
+    "source": "race-data/kangaroo-hoppet.json",
+    "tier": "B"
+  },
+  "kazan-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/kazan-ski-marathon.json",
+    "tier": "B"
+  },
+  "khanty-mansiysk-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/khanty-mansiysk-ski-marathon.json",
+    "tier": "B"
+  },
+  "koasalauf": {
+    "license": "Profile data",
+    "source": "race-data/koasalauf.json",
+    "tier": "B"
+  },
+  "kobberlopet": {
+    "license": "Profile data",
+    "source": "race-data/kobberlopet.json",
+    "tier": "B"
+  },
+  "konig-ludwig-lauf": {
+    "license": "Profile data",
+    "source": "race-data/konig-ludwig-lauf.json",
+    "tier": "B"
+  },
+  "krasnogorsk-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/krasnogorsk-ski-marathon.json",
+    "tier": "B"
+  },
+  "kungsledenrannet": {
+    "license": "Profile data",
+    "source": "race-data/kungsledenrannet.json",
+    "tier": "B"
+  },
+  "kuzbass-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/kuzbass-ski-marathon.json",
+    "tier": "B"
+  },
+  "la-savoyarde": {
+    "license": "Profile data",
+    "source": "race-data/la-savoyarde.json",
+    "tier": "B"
+  },
+  "la-sgambeda": {
+    "license": "Profile data",
+    "source": "race-data/la-sgambeda.json",
+    "tier": "B"
+  },
+  "lake-louise-loppet": {
+    "license": "Profile data",
+    "source": "race-data/lake-louise-loppet.json",
+    "tier": "B"
+  },
+  "lake-placid-loppet": {
+    "license": "Profile data",
+    "source": "race-data/lake-placid-loppet.json",
+    "tier": "B"
+  },
+  "lapponia-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/lapponia-hiihto.json",
+    "tier": "B"
+  },
+  "larch-hills-loppet": {
+    "license": "Profile data",
+    "source": "race-data/larch-hills-loppet.json",
+    "tier": "B"
+  },
+  "latloppet-madona": {
+    "license": "Profile data",
+    "source": "race-data/latloppet-madona.json",
+    "tier": "B"
+  },
+  "leadville-loppet": {
+    "license": "Profile data",
+    "source": "race-data/leadville-loppet.json",
+    "tier": "B"
+  },
+  "lemming-loppet": {
+    "license": "Profile data",
+    "source": "race-data/lemming-loppet.json",
+    "tier": "B"
+  },
+  "levi-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/levi-ski-marathon.json",
+    "tier": "B"
+  },
+  "lofsdalen-epic": {
+    "license": "Profile data",
+    "source": "race-data/lofsdalen-epic.json",
+    "tier": "B"
+  },
+  "mammoth-marathon": {
+    "license": "Profile data",
+    "source": "race-data/mammoth-marathon.json",
+    "tier": "B"
+  },
+  "manitoba-loppet": {
+    "license": "Profile data",
+    "source": "race-data/manitoba-loppet.json",
+    "tier": "B"
+  },
+  "marathon-de-bessans": {
+    "license": "Profile data",
+    "source": "race-data/marathon-de-bessans.json",
+    "tier": "B"
+  },
+  "marathon-des-belles-combes": {
+    "license": "Profile data",
+    "source": "race-data/marathon-des-belles-combes.json",
+    "tier": "B"
+  },
+  "marathon-des-glieres": {
+    "license": "Profile data",
+    "source": "race-data/marathon-des-glieres.json",
+    "tier": "B"
+  },
+  "marathon-du-grand-bec": {
+    "license": "Profile data",
+    "source": "race-data/marathon-du-grand-bec.json",
+    "tier": "B"
+  },
+  "marchablanca": {
+    "license": "Profile data",
+    "source": "race-data/marchablanca.json",
+    "tier": "B"
+  },
+  "marcia-gran-paradiso": {
+    "license": "Profile data",
+    "source": "race-data/marcia-gran-paradiso.json",
+    "tier": "B"
+  },
+  "marcialonga": {
+    "license": "Profile data",
+    "source": "race-data/marcialonga.json",
+    "tier": "B"
+  },
+  "marcialonga-bodo": {
+    "license": "Profile data",
+    "source": "race-data/marcialonga-bodo.json",
+    "tier": "B"
+  },
+  "markatrimmen": {
+    "license": "Profile data",
+    "source": "race-data/markatrimmen.json",
+    "tier": "B"
+  },
+  "marxa-beret": {
+    "license": "Profile data",
+    "source": "race-data/marxa-beret.json",
+    "tier": "B"
+  },
+  "mcmurdo-ski-race": {
+    "license": "Profile data",
+    "source": "race-data/mcmurdo-ski-race.json",
+    "tier": "B"
+  },
+  "merino-muster": {
+    "license": "Profile data",
+    "source": "race-data/merino-muster.json",
+    "tier": "B"
+  },
+  "methow-valley-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/methow-valley-ski-marathon.json",
+    "tier": "B"
+  },
+  "michigan-cup-relays": {
+    "license": "Profile data",
+    "source": "race-data/michigan-cup-relays.json",
+    "tier": "B"
+  },
+  "minnesota-finlandia": {
+    "license": "Profile data",
+    "source": "race-data/minnesota-finlandia.json",
+    "tier": "B"
+  },
+  "minocqua-northwoods-loppet": {
+    "license": "Profile data",
+    "source": "race-data/minocqua-northwoods-loppet.json",
+    "tier": "B"
+  },
+  "moraloppet": {
+    "license": "Profile data",
+    "source": "race-data/moraloppet.json",
+    "tier": "B"
+  },
+  "mt-ashwabay-summit": {
+    "license": "Profile data",
+    "source": "race-data/mt-ashwabay-summit.json",
+    "tier": "B"
+  },
+  "muffin-race": {
+    "license": "Profile data",
+    "source": "race-data/muffin-race.json",
+    "tier": "B"
+  },
+  "murmansk-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/murmansk-ski-marathon.json",
+    "tier": "B"
+  },
+  "muskoka-loppet": {
+    "license": "Profile data",
+    "source": "race-data/muskoka-loppet.json",
+    "tier": "B"
+  },
+  "nattvasan": {
+    "license": "Profile data",
+    "source": "race-data/nattvasan.json",
+    "tier": "B"
+  },
+  "neeruti-maraton": {
+    "license": "Profile data",
+    "source": "race-data/neeruti-maraton.json",
+    "tier": "B"
+  },
+  "nikolov-perevoz": {
+    "license": "Profile data",
+    "source": "race-data/nikolov-perevoz.json",
+    "tier": "B"
+  },
+  "niseko-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/niseko-ski-marathon.json",
+    "tier": "B"
+  },
+  "noquemanon": {
+    "license": "Profile data",
+    "source": "race-data/noquemanon.json",
+    "tier": "B"
+  },
+  "nordenskioldsloppet": {
+    "license": "Profile data",
+    "source": "race-data/nordenskioldsloppet.json",
+    "tier": "B"
+  },
+  "north-american-vasa": {
+    "license": "Profile data",
+    "source": "race-data/north-american-vasa.json",
+    "tier": "B"
+  },
+  "north-end-classic": {
+    "license": "Profile data",
+    "source": "race-data/north-end-classic.json",
+    "tier": "B"
+  },
+  "oosik-classic": {
+    "license": "Profile data",
+    "source": "race-data/oosik-classic.json",
+    "tier": "B"
+  },
+  "oppet-spar": {
+    "license": "Profile data",
+    "source": "race-data/oppet-spar.json",
+    "tier": "B"
+  },
+  "orsa-gronklitt-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/orsa-gronklitt-ski-marathon.json",
+    "tier": "B"
+  },
+  "owl-creek-chase": {
+    "license": "Profile data",
+    "source": "race-data/owl-creek-chase.json",
+    "tier": "B"
+  },
+  "pac-nw-loppet-series": {
+    "license": "Profile data",
+    "source": "race-data/pac-nw-loppet-series.json",
+    "tier": "B"
+  },
+  "panorama-nordic-loppet": {
+    "license": "Profile data",
+    "source": "race-data/panorama-nordic-loppet.json",
+    "tier": "B"
+  },
+  "payakentsut": {
+    "license": "Profile data",
+    "source": "race-data/payakentsut.json",
+    "tier": "B"
+  },
+  "pepsi-challenge": {
+    "license": "Profile data",
+    "source": "race-data/pepsi-challenge.json",
+    "tier": "B"
+  },
+  "per-johnsen-ozbaldy": {
+    "license": "Profile data",
+    "source": "race-data/per-johnsen-ozbaldy.json",
+    "tier": "B"
+  },
+  "pirkan-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/pirkan-hiihto.json",
+    "tier": "B"
+  },
+  "planica-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/planica-ski-marathon.json",
+    "tier": "B"
+  },
+  "planoiras-volkslanglauf": {
+    "license": "Profile data",
+    "source": "race-data/planoiras-volkslanglauf.json",
+    "tier": "B"
+  },
+  "pogostan-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/pogostan-hiihto.json",
+    "tier": "B"
+  },
+  "pokljuka-nordic-marathon": {
+    "license": "Profile data",
+    "source": "race-data/pokljuka-nordic-marathon.json",
+    "tier": "B"
+  },
+  "pragelato-sestriere": {
+    "license": "Profile data",
+    "source": "race-data/pragelato-sestriere.json",
+    "tier": "B"
+  },
+  "pyeongchang-loppet": {
+    "license": "Profile data",
+    "source": "race-data/pyeongchang-loppet.json",
+    "tier": "B"
+  },
+  "race-of-the-methow": {
+    "license": "Profile data",
+    "source": "race-data/race-of-the-methow.json",
+    "tier": "B"
+  },
+  "rajalta-rajalle-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/rajalta-rajalle-hiihto.json",
+    "tier": "B"
+  },
+  "ranka-marathon": {
+    "license": "Profile data",
+    "source": "race-data/ranka-marathon.json",
+    "tier": "B"
+  },
+  "reistadlopet": {
+    "license": "Profile data",
+    "source": "race-data/reistadlopet.json",
+    "tier": "B"
+  },
+  "rennsteig-ski-lauf": {
+    "license": "Profile data",
+    "source": "race-data/rennsteig-ski-lauf.json",
+    "tier": "B"
+  },
+  "rothenthurmer-volksskilauf": {
+    "license": "Profile data",
+    "source": "race-data/rothenthurmer-volksskilauf.json",
+    "tier": "B"
+  },
+  "sakhalin-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/sakhalin-ski-marathon.json",
+    "tier": "B"
+  },
+  "sapporo-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/sapporo-ski-marathon.json",
+    "tier": "B"
+  },
+  "saskaloppet": {
+    "license": "Profile data",
+    "source": "race-data/saskaloppet.json",
+    "tier": "B"
+  },
+  "seeley-hills-classic": {
+    "license": "Profile data",
+    "source": "race-data/seeley-hills-classic.json",
+    "tier": "B"
+  },
+  "silver-star-loppet": {
+    "license": "Profile data",
+    "source": "race-data/silver-star-loppet.json",
+    "tier": "B"
+  },
+  "sirdal-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/sirdal-ski-marathon.json",
+    "tier": "B"
+  },
+  "sisu-ski-fest": {
+    "license": "Profile data",
+    "source": "race-data/sisu-ski-fest.json",
+    "tier": "B"
+  },
+  "sjusjoen-skimarathon": {
+    "license": "Profile data",
+    "source": "race-data/sjusjoen-skimarathon.json",
+    "tier": "B"
+  },
+  "skadi-loppet": {
+    "license": "Profile data",
+    "source": "race-data/skadi-loppet.json",
+    "tier": "B"
+  },
+  "skarverennet": {
+    "license": "Profile data",
+    "source": "race-data/skarverennet.json",
+    "tier": "B"
+  },
+  "ski-classics-finale": {
+    "license": "Profile data",
+    "source": "race-data/ski-classics-finale.json",
+    "tier": "B"
+  },
+  "ski-de-she": {
+    "license": "Profile data",
+    "source": "race-data/ski-de-she.json",
+    "tier": "B"
+  },
+  "ski-north-ultra": {
+    "license": "Profile data",
+    "source": "race-data/ski-north-ultra.json",
+    "tier": "B"
+  },
+  "ski-to-the-sun": {
+    "license": "Profile data",
+    "source": "race-data/ski-to-the-sun.json",
+    "tier": "B"
+  },
+  "ski-trail-tannheimer-tal": {
+    "license": "Profile data",
+    "source": "race-data/ski-trail-tannheimer-tal.json",
+    "tier": "B"
+  },
+  "sleeping-giant-loppet": {
+    "license": "Profile data",
+    "source": "race-data/sleeping-giant-loppet.json",
+    "tier": "B"
+  },
+  "snow-farm-challenge": {
+    "license": "Profile data",
+    "source": "race-data/snow-farm-challenge.json",
+    "tier": "B"
+  },
+  "snow-mountain-ranch-stampede": {
+    "license": "Profile data",
+    "source": "race-data/snow-mountain-ranch-stampede.json",
+    "tier": "B"
+  },
+  "sonot-kkaazoot": {
+    "license": "Profile data",
+    "source": "race-data/sonot-kkaazoot.json",
+    "tier": "B"
+  },
+  "sovereign-lake-loppet": {
+    "license": "Profile data",
+    "source": "race-data/sovereign-lake-loppet.json",
+    "tier": "B"
+  },
+  "sovereign2silverstar": {
+    "license": "Profile data",
+    "source": "race-data/sovereign2silverstar.json",
+    "tier": "B"
+  },
+  "spirit-of-the-rivers-loppet": {
+    "license": "Profile data",
+    "source": "race-data/spirit-of-the-rivers-loppet.json",
+    "tier": "B"
+  },
+  "spokane-loppet": {
+    "license": "Profile data",
+    "source": "race-data/spokane-loppet.json",
+    "tier": "B"
+  },
+  "stafettvasan": {
+    "license": "Profile data",
+    "source": "race-data/stafettvasan.json",
+    "tier": "B"
+  },
+  "storlirennet": {
+    "license": "Profile data",
+    "source": "race-data/storlirennet.json",
+    "tier": "B"
+  },
+  "stowe-derby": {
+    "license": "Profile data",
+    "source": "race-data/stowe-derby.json",
+    "tier": "B"
+  },
+  "sudtirol-moonlight-classic": {
+    "license": "Profile data",
+    "source": "race-data/sudtirol-moonlight-classic.json",
+    "tier": "B"
+  },
+  "sumava-loppet": {
+    "license": "Profile data",
+    "source": "race-data/sumava-loppet.json",
+    "tier": "B"
+  },
+  "sumavsky-skimaraton": {
+    "license": "Profile data",
+    "source": "race-data/sumavsky-skimaraton.json",
+    "tier": "B"
+  },
+  "summit-2-senja": {
+    "license": "Profile data",
+    "source": "race-data/summit-2-senja.json",
+    "tier": "B"
+  },
+  "sun-valley-nordic-festival": {
+    "license": "Profile data",
+    "source": "race-data/sun-valley-nordic-festival.json",
+    "tier": "B"
+  },
+  "svalbard-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/svalbard-ski-marathon.json",
+    "tier": "B"
+  },
+  "tahoe-rim-tour": {
+    "license": "Profile data",
+    "source": "race-data/tahoe-rim-tour.json",
+    "tier": "B"
+  },
+  "tallinn-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/tallinn-ski-marathon.json",
+    "tier": "B"
+  },
+  "tamsalu-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/tamsalu-ski-marathon.json",
+    "tier": "B"
+  },
+  "tana-varangerrennet": {
+    "license": "Profile data",
+    "source": "race-data/tana-varangerrennet.json",
+    "tier": "B"
+  },
+  "tartu-maraton": {
+    "license": "Profile data",
+    "source": "race-data/tartu-maraton.json",
+    "tier": "B"
+  },
+  "tartu-maratoni-retrosoit": {
+    "license": "Profile data",
+    "source": "race-data/tartu-maratoni-retrosoit.json",
+    "tier": "B"
+  },
+  "tassasen-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/tassasen-ski-marathon.json",
+    "tier": "B"
+  },
+  "teacup-classic": {
+    "license": "Profile data",
+    "source": "race-data/teacup-classic.json",
+    "tier": "B"
+  },
+  "tervahiihto": {
+    "license": "Profile data",
+    "source": "race-data/tervahiihto.json",
+    "tier": "B"
+  },
+  "thorleif-haugs-minnelop": {
+    "license": "Profile data",
+    "source": "race-data/thorleif-haugs-minnelop.json",
+    "tier": "B"
+  },
+  "tjejvasan": {
+    "license": "Profile data",
+    "source": "race-data/tjejvasan.json",
+    "tier": "B"
+  },
+  "tornedalen-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/tornedalen-ski-marathon.json",
+    "tier": "B"
+  },
+  "tour-de-gaspe": {
+    "license": "Profile data",
+    "source": "race-data/tour-de-gaspe.json",
+    "tier": "B"
+  },
+  "tour-de-stowe": {
+    "license": "Profile data",
+    "source": "race-data/tour-de-stowe.json",
+    "tier": "B"
+  },
+  "tour-of-anchorage": {
+    "license": "Profile data",
+    "source": "race-data/tour-of-anchorage.json",
+    "tier": "B"
+  },
+  "trans-vercors": {
+    "license": "Profile data",
+    "source": "race-data/trans-vercors.json",
+    "tier": "B"
+  },
+  "transjurassienne": {
+    "license": "Profile data",
+    "source": "race-data/transjurassienne.json",
+    "tier": "B"
+  },
+  "traverse-du-massacre": {
+    "license": "Profile data",
+    "source": "race-data/traverse-du-massacre.json",
+    "tier": "B"
+  },
+  "tromso-skimaraton": {
+    "license": "Profile data",
+    "source": "race-data/tromso-skimaraton.json",
+    "tier": "B"
+  },
+  "trysil-skimaraton": {
+    "license": "Profile data",
+    "source": "race-data/trysil-skimaraton.json",
+    "tier": "B"
+  },
+  "ugra-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/ugra-ski-marathon.json",
+    "tier": "B"
+  },
+  "ushuaia-loppet": {
+    "license": "Profile data",
+    "source": "race-data/ushuaia-loppet.json",
+    "tier": "B"
+  },
+  "ushuaia-ski-marathon": {
+    "license": "Profile data",
+    "source": "race-data/ushuaia-ski-marathon.json",
+    "tier": "B"
+  },
+  "valdres-skimaraton": {
+    "license": "Profile data",
+    "source": "race-data/valdres-skimaraton.json",
+    "tier": "B"
+  },
+  "vantaa-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/vantaa-hiihto.json",
+    "tier": "B"
+  },
+  "vasaloppet": {
+    "license": "Profile data",
+    "source": "race-data/vasaloppet.json",
+    "tier": "B"
+  },
+  "vasaloppet-china": {
+    "license": "Profile data",
+    "source": "race-data/vasaloppet-china.json",
+    "tier": "B"
+  },
+  "vasaloppet-japan": {
+    "license": "Profile data",
+    "source": "race-data/vasaloppet-japan.json",
+    "tier": "B"
+  },
+  "vasaloppet-usa": {
+    "license": "Profile data",
+    "source": "race-data/vasaloppet-usa.json",
+    "tier": "B"
+  },
+  "vaskoolihiihto": {
+    "license": "Profile data",
+    "source": "race-data/vaskoolihiihto.json",
+    "tier": "B"
+  },
+  "vastgotaloppet": {
+    "license": "Profile data",
+    "source": "race-data/vastgotaloppet.json",
+    "tier": "B"
+  },
+  "viru-maraton": {
+    "license": "Profile data",
+    "source": "race-data/viru-maraton.json",
+    "tier": "B"
+  },
+  "vuokatti-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/vuokatti-hiihto.json",
+    "tier": "B"
+  },
+  "wasatch-citizens-series": {
+    "license": "Profile data",
+    "source": "race-data/wasatch-citizens-series.json",
+    "tier": "B"
+  },
+  "white-mountain-classic": {
+    "license": "Profile data",
+    "source": "race-data/white-mountain-classic.json",
+    "tier": "B"
+  },
+  "white-pine-stampede": {
+    "license": "Profile data",
+    "source": "race-data/white-pine-stampede.json",
+    "tier": "B"
+  },
+  "yellowstone-rendezvous": {
+    "license": "Profile data",
+    "source": "race-data/yellowstone-rendezvous.json",
+    "tier": "B"
+  },
+  "yllas-levi-hiihto": {
+    "license": "Profile data",
+    "source": "race-data/yllas-levi-hiihto.json",
+    "tier": "B"
+  }
+}

@@ -514,7 +514,7 @@ def build_nav_header(active: str = "") -> str:
 <nav class="gl-nav">
   <div class="gl-nav-inner">
     <a href="/" class="gl-nav-logo">XC SKI LABS</a>
-    <button class="gl-nav-hamburger" aria-label="Toggle navigation" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')">&#9776;</button>
+    <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
         <a href="/search/"{_active("races")}>Races</a>
@@ -540,6 +540,13 @@ def build_nav_header(active: str = "") -> str:
     </ul>
   </div>
 </nav>
+<script>
+(function(){{
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var links=document.querySelector('.gl-nav-links');
+  if(toggle&&links){{toggle.addEventListener('click',function(){{var open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false')}});}}
+}})();
+</script>
 """
 
 

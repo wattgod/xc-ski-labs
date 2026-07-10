@@ -1060,7 +1060,7 @@ a:focus-visible, button:focus-visible {{
 <header class="gl-nav-header">
   <div class="gl-nav-inner">
     <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS">XC SKI <em>LABS</em></a>
-    <button class="gl-nav-hamburger" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <button class="gl-nav-hamburger" data-nav-toggle aria-expanded="false" aria-label="Menu">&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
         <a href="/search/">Races</a>
@@ -1217,14 +1217,19 @@ a:focus-visible, button:focus-visible {{
   <div class="gl-cookie-inner">
     <div>We use cookies for analytics to improve the experience. <a href="/privacy/" style="color:var(--gl-klister)">Privacy policy</a>.</div>
     <div class="gl-cookie-btns">
-      <button class="gl-cookie-btn gl-cookie-accept" onclick="xlConsent('accepted')">Accept</button>
-      <button class="gl-cookie-btn gl-cookie-decline" onclick="xlConsent('declined')">Decline</button>
+      <button class="gl-cookie-btn gl-cookie-accept" data-consent-choice="accepted">Accept</button>
+      <button class="gl-cookie-btn gl-cookie-decline" data-consent-choice="declined">Decline</button>
     </div>
   </div>
 </div>
 <script>
 function xlConsent(c){{document.cookie='xl_consent='+c+';path=/;max-age=31536000;SameSite=Lax;Secure';if(typeof gtag==='function')gtag('consent','update',{{'analytics_storage':c==='accepted'?'granted':'denied'}});document.getElementById('gl-cookie-banner').classList.remove('show')}}
-(function(){{if(!/xl_consent=/.test(document.cookie))document.getElementById('gl-cookie-banner').classList.add('show')}})();
+(function(){{
+var navToggle=document.querySelector('[data-nav-toggle]');var navLinks=document.querySelector('.gl-nav-links');
+if(navToggle&&navLinks){{navToggle.addEventListener('click',function(){{var open=navLinks.classList.toggle('open');navToggle.setAttribute('aria-expanded',open?'true':'false')}})}}
+document.querySelectorAll('[data-consent-choice]').forEach(function(btn){{btn.addEventListener('click',function(){{xlConsent(btn.getAttribute('data-consent-choice'))}})}});
+if(!/xl_consent=/.test(document.cookie))document.getElementById('gl-cookie-banner').classList.add('show')
+}})();
 </script>
 
 {coverage_js}

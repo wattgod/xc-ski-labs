@@ -774,7 +774,7 @@ def build_nav():
 <nav class="gl-nav">
   <div class="gl-nav-inner">
     <a href="/" class="gl-nav-logo">XC SKI LABS</a>
-    <button class="gl-nav-hamburger" aria-label="Toggle navigation" onclick="document.querySelector('.gl-nav-links').classList.toggle('open')">&#9776;</button>
+    <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
         <a href="/search/">Races</a>
@@ -794,6 +794,13 @@ def build_nav():
     </ul>
   </div>
 </nav>
+<script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var links=document.querySelector('.gl-nav-links');
+  if(toggle&&links){toggle.addEventListener('click',function(){var open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false')});}
+})();
+</script>
 """
 
 
@@ -1110,8 +1117,7 @@ def build_faq():
     for i, (q, a) in enumerate(faqs):
         items += f"""
     <div class="gl-faq-item">
-      <button class="gl-faq-q" aria-expanded="false" aria-controls="faq-{i}"
-              onclick="this.setAttribute('aria-expanded',this.getAttribute('aria-expanded')==='true'?'false':'true');this.nextElementSibling.classList.toggle('open')">
+      <button class="gl-faq-q" aria-expanded="false" aria-controls="faq-{i}" data-faq-toggle>
         {esc(q)}
       </button>
       <div class="gl-faq-a" id="faq-{i}">
@@ -1310,8 +1316,8 @@ def generate_page():
             <a href="/privacy/">Privacy policy</a>.
         </div>
         <div class="xl-consent-btns">
-            <button class="xl-consent-btn xl-consent-accept" onclick="xlConsent('accepted')">Accept</button>
-            <button class="xl-consent-btn xl-consent-decline" onclick="xlConsent('declined')">Decline</button>
+            <button class="xl-consent-btn xl-consent-accept" data-consent-choice="accepted">Accept</button>
+            <button class="xl-consent-btn xl-consent-decline" data-consent-choice="declined">Decline</button>
         </div>
     </div>
 </div>
@@ -1325,6 +1331,20 @@ function xlConsent(choice) {{
     document.getElementById('xl-consent-banner').classList.remove('show');
 }}
 (function() {{
+    document.querySelectorAll('[data-faq-toggle]').forEach(function(btn) {{
+        btn.addEventListener('click', function() {{
+            var open = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+            if (btn.nextElementSibling) {{
+                btn.nextElementSibling.classList.toggle('open');
+            }}
+        }});
+    }});
+    document.querySelectorAll('[data-consent-choice]').forEach(function(btn) {{
+        btn.addEventListener('click', function() {{
+            xlConsent(btn.getAttribute('data-consent-choice'));
+        }});
+    }});
     if (!/xl_consent=/.test(document.cookie)) {{
         document.getElementById('xl-consent-banner').classList.add('show');
     }}
