@@ -699,6 +699,653 @@
           "url": "https://fasterskier.com/fsarticle/what-are-moose-hoofs/"
         }
       ]
+    },
+    {
+      "number": 4,
+      "id": "technique-and-execution",
+      "title": "Technique & Workout Execution",
+      "subtitle": "The gears, the drills, and holding form when it hurts",
+      "gated": true,
+      "cta_after": "training_plans",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "technique-is-fitness",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "This is the chapter that separates skiers who train hard from skiers who get faster. Everything before it built the engine; this one teaches the engine to stop wasting itself.\n\nStart with the humbling research: when scientists measure economy — how much oxygen a skier burns to hold a given speed — recreational skiers are 8 to 12 percent less efficient than elite juniors[^fs-economy-efficiency-journals]. That gap is not fitness. It is technique, and it is worth more than any interval block a busy skier has time for, because it pays out on every single stride for the rest of your skiing life.\n\nThe foundation under all of it is stance. Most endurance athletes arrive at skiing as, in one coach's phrase, a big motor on lousy suspension — strong engines with poor balance and coordination[^fs-ski-stance-fundamentals]. You cannot pole powerfully off a platform you can't balance on. Before gears and intervals, the work is standing on one gliding ski without fighting for it."
+            },
+            {
+              "type": "callout",
+              "style": "tip",
+              "title": "The one-ski test",
+              "content": "On flat, groomed snow, glide on a single ski as long as you can before the other touches down. If it's under two seconds, your season's biggest free speed isn't in the gym — it's in balance drills. Do them at the start of every session, when you're fresh."
+            }
+          ]
+        },
+        {
+          "id": "classic-gears",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Classic skiing has three gears, and skiing well means shifting between them the way you'd shift a bike — matching the gear to the terrain instead of grinding one everywhere.\n\nDiagonal stride is the climbing gear: opposite arm and leg, a committed press onto the kick wax to make it grip, a real weight transfer onto a gliding ski. It's the gear beginners think classic skiing is, and the one they do worst, because they shuffle instead of committing to one ski at a time.\n\nKick double-pole is the rolling-terrain gear: one leg kick followed by a double-pole push, efficient on gradual rises where full striding is too slow and pure double-pole is too hard.\n\nDouble-pole is the speed gear: no kick at all, both poles driving through the trunk. Over the last two decades it has taken over long-distance racing so completely that the governing body wrote rules to protect classic striding from disappearing entirely[^fs-double-pole-alsgaard]. On Marcialonga's gentle valley, the fast skiers double-pole almost the whole 70 km."
+            },
+            {
+              "type": "prose",
+              "content": "Double-pole deserves special attention because newcomers underestimate it as arm work. It isn't. Biomechanically it's a whole-body movement — trunk, hip, knee, and ankle all contributing to drive the poles, with the best skiers generating more pole force through smaller, faster joint angles in a shorter push[^holmberg-dp-2005]. The legs matter so much that restricting knee and ankle motion measurably degrades a skilled double-pole[^holmberg-legs-dp-2006]. When you double-pole, you are not doing an ab crunch with poles; you are falling onto the poles with your whole body and catching yourself with your core."
+            },
+            {
+              "type": "tabs",
+              "tabs": [
+                {
+                  "label": "Diagonal stride",
+                  "content": "Climbing gear. Opposite arm/leg, commit weight fully onto one gliding ski, press down to make the wax grip. The test: can you glide on the kicking ski, or are you shuffling?"
+                },
+                {
+                  "label": "Kick double-pole",
+                  "content": "Rolling gear. One kick + a double-pole push. Bridges the gap where striding is too slow and double-poling alone is too hard. Rhythm is everything."
+                },
+                {
+                  "label": "Double-pole",
+                  "content": "Speed gear. No kick. Whole-body fall onto the poles, core catches it, legs and ankles drive. Dominant on flat, fast classic courses. Trainable indoors on a ski erg."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "skate-gears",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Skate skiing has its own gearbox, named by how many poles-per-skate you use.\n\nV1 is the climbing gear: one double-pole for every two skate pushes, poling to the same side each time, an asymmetric rhythm that feels awkward until the day it doesn't. V2 is the flats-and-gradual gear: a pole push with every skate, symmetric, the most powerful and most aerobic gear. V2-alternate (or open-field skate) poles every other skate, a recovery gear for very fast, gentle terrain.\n\nThe cruel truth of skate skiing is that it degrades faster than classic when you tire. As the heart rate climbs, timing falls apart, the pole push arrives late, and the whole movement gets expensive exactly when you can least afford it. This is why skate interval sessions must be stopped the moment form breaks — a skate interval done with collapsed technique trains the wrong pattern into your body."
+            },
+            {
+              "type": "process_list",
+              "title": "How to run an interval without ruining your technique",
+              "steps": [
+                {
+                  "title": "Warm up the movement, not just the engine",
+                  "content": "Ten minutes easy with two or three 15-second pickups at target technique — fast feet, clean timing — before the first real interval."
+                },
+                {
+                  "title": "Pick a gear and hold it",
+                  "content": "Choose the gear the terrain calls for and commit. Interval quality is about repeating one clean pattern, not surviving."
+                },
+                {
+                  "title": "Stop when form breaks, not when the clock says",
+                  "content": "The last two reps done with collapsed technique are worse than useless — they teach your body the pattern you'll default to on race day."
+                },
+                {
+                  "title": "Recover fully between reps",
+                  "content": "Technique needs a fresh nervous system. Short recoveries turn a technique session into a fatigue session."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rollerski-reality",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Most of your technique work happens on rollerskis, on pavement, in shorts, months before the snow. This is the great secret of the sport: the dry-land months are where technique is built and repeated under controlled conditions, so that when snow arrives you are recalibrating a skill you already own rather than relearning it.\n\nTwo cautions the tradition treats as non-negotiable. Wear a helmet and use skis with a working speed-control mechanism — rollerskis do not stop the way snow does. And route around the hills you'd happily descend on snow; a rollerski descent that goes wrong is a road-rash-and-worse event, not a soft landing in a snowbank. Plan climbs, avoid descents, ski defensively on shoulders."
+            },
+            {
+              "type": "knowledge_check",
+              "question": "Why stop a skate interval when your technique breaks down?",
+              "options": [
+                {
+                  "label": "To avoid injury",
+                  "correct": false,
+                  "response": "Form breakdown isn't mainly an injury risk here — the real cost is what you're teaching your body."
+                },
+                {
+                  "label": "Because you're training the wrong movement pattern",
+                  "correct": true,
+                  "response": "Right. Reps with collapsed technique groove the exact pattern you'll default to when you're tired on race day — the opposite of what you want."
+                },
+                {
+                  "label": "Intervals should always be short",
+                  "correct": false,
+                  "response": "Length isn't the issue — quality is. A long interval with clean form is fine; two sloppy reps are not."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "fs-economy-efficiency-journals",
+          "title": "This Month in Journals: Examining Economy, Efficiency and Pacing Strategy on Skis",
+          "author": "Chelsea Little",
+          "publisher": "FasterSkier",
+          "year": 2013,
+          "url": "https://fasterskier.com/2013/06/this-month-in-journals-examining-economy-efficiency-and-pacing-strategy-on-skis/"
+        },
+        {
+          "id": "fs-ski-stance-fundamentals",
+          "title": "In Good Standing - Fundamental Elements of Ski Stance",
+          "author": "Ned Dowling",
+          "publisher": "FasterSkier",
+          "year": 2023,
+          "url": "https://fasterskier.com/2023/10/in-good-standing-fundamental-elements-of-ski-stance/"
+        },
+        {
+          "id": "fs-double-pole-alsgaard",
+          "title": "Alsgaard on the Advent of Double Poling and FIS's 'Stupid Rule'",
+          "author": "Jake Ellis",
+          "publisher": "FasterSkier",
+          "year": 2016,
+          "url": "https://fasterskier.com/fsarticle/alsgaard-advent-double-poling-fiss-stupid-rule/"
+        },
+        {
+          "id": "holmberg-dp-2005",
+          "title": "Biomechanical Analysis of Double Poling in Elite Cross-Country Skiers",
+          "author": "Holmberg HC et al.",
+          "publisher": "Med Sci Sports Exerc 37(5):807-818",
+          "year": 2005,
+          "url": "https://doi.org/10.1249/01.mss.0000162615.47763.c8"
+        },
+        {
+          "id": "holmberg-legs-dp-2006",
+          "title": "Contribution of the Legs to Double-Poling Performance in Elite Cross-Country Skiers",
+          "author": "Holmberg HC et al.",
+          "publisher": "Med Sci Sports Exerc 38(10):1853-1860",
+          "year": 2006,
+          "url": "https://doi.org/10.1249/01.mss.0000230121.83641.d1"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "nutrition-fueling-cold",
+      "title": "Nutrition, Fueling & Cold",
+      "subtitle": "Carbs, warm feeds, and racing in air that bites",
+      "gated": true,
+      "cta_after": "training_plans",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "the-fuel-math",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "A long loppet is won and lost at the feed stations, and the physiology is unforgiving: your working muscles burn carbohydrate faster than your gut can absorb it, and when the stored carbohydrate runs out, you don't slow down gracefully — you fall off a cliff. The skiers who fade in the last 20 km of a 90 km race are, more often than not, skiers who under-fueled the first 40.\n\nThe research gives clean numbers. A single carbohydrate source — say, plain glucose — can be absorbed at only about 60 grams per hour before it backs up and causes gut distress[^jeukendrup-cho-2014]. But mixing glucose with fructose uses a second intestinal transporter, and total absorption climbs toward 90 grams an hour and beyond[^jeukendrup-cho-2014]. For a race over two and a half or three hours, that dual-source fueling at up to ~90 g/hr is the difference between finishing strong and negotiating with your brain at kilometer 70. Practice it in training — the gut is trainable, and race day is the worst possible time to find out yours isn't."
+            },
+            {
+              "type": "data_table",
+              "title": "Fueling by race length (practice these in training)",
+              "headers": [
+                "Race duration",
+                "Carb target",
+                "Practical form"
+              ],
+              "rows": [
+                [
+                  "Under 90 min",
+                  "Optional; water + a gel if you like",
+                  "You have enough stored glycogen. Don't overthink it."
+                ],
+                [
+                  "90 min - 2.5 hr",
+                  "~60 g/hr, single source is fine",
+                  "Sports drink at feeds + a gel or two."
+                ],
+                [
+                  "2.5 hr and up",
+                  "Up to ~90 g/hr, glucose + fructose",
+                  "Dual-source drink/gels; take something at every station."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-cold-problem",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Everything about fueling is harder in the cold, because the cold freezes your food and hides your thirst.\n\nBottles freeze — the valve first, then the whole thing — which is why loppet feed stations serve warm drink and why experienced skiers carry an insulated flask or none at all and rely on the stations. Gels turn to taffy you can't squeeze. And cold blunts the thirst signal, so you arrive at the finish more dehydrated than you feel. The rule of thumb: drink to a schedule, not to thirst, and take warm carbohydrate at every station even when you don't want it. The blueberry soup at the Scandinavian classics is not a charming tradition — it is warm, sweet, fast fuel, engineered by a century of frozen skiers."
+            },
+            {
+              "type": "callout",
+              "style": "warning",
+              "title": "The heated-cabin trap",
+              "content": "Big loppets have warm changing cabins at the start. Skiers over-dress for the cabin, sweat before the gun, and start the race already wet and chilled. Dress for kilometer 5, not for the start pen — you are a furnace once you're moving. Bring a throwaway layer you can hand off or drop, and be cold for the first two minutes on purpose."
+            }
+          ]
+        },
+        {
+          "id": "the-air-that-bites",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Cold air is not just uncomfortable; it is a genuine physiological stressor, and understanding it will keep you healthier across a skiing life.\n\nThe governing body cancels or postpones races below about -20 degrees C, a limit set mainly to prevent frostbite and hypothermia[^fs-cold-air-mask-tutt]. But the airway problems start well above that cutoff. Cold air is dry air, and every breath you heat and humidify in your lungs pulls water and heat from the bronchial lining; do that at racing ventilation for years and the airways inflame and narrow[^fs-cold-air-mask-tutt]. This is why asthma is, statistically, an occupational disease of cross-country skiers: about one in five competitive skiers carries a physician diagnosis, and their airway inflammation looks different from ordinary allergic asthma — a signature of cold, dry, high-volume breathing rather than pollen[^asthma-skiers-2020][^kennedy-airway-2020]. A heat-and-moisture-exchanging mask — a buff or a purpose-built device over the mouth on the coldest days — measurably reduces the airway hit[^kennedy-airway-2020][^fs-cold-air-mask-tutt]. It is not weakness; it is lung insurance."
+            },
+            {
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "Layering for a race effort",
+                  "content": "Thin, wind-blocking front, breathable back, a buff you can pull over your mouth on the coldest sections. If you're warm at the start line, you're overdressed. Wind chill on fast descents is the real enemy, not the ambient number."
+                },
+                {
+                  "title": "Extremities",
+                  "content": "Hands and feet are where cold races end early. Warm gloves you can still pole in, and on brutal days, chemical warmers in the mitts. A frostnipped fingertip ends more loppets than any muscle."
+                },
+                {
+                  "title": "When to use a mask",
+                  "content": "Colder than about -10 C, or any day your chest tightens or you cough for hours after skiing. A simple buff over the mouth pre-warms and pre-humidifies the air. Chronic post-ski cough is worth a conversation with a doctor, not toughing out."
+                }
+              ]
+            },
+            {
+              "type": "knowledge_check",
+              "question": "Why serve warm drinks and soup at feed stations?",
+              "options": [
+                {
+                  "label": "Tradition and comfort",
+                  "correct": false,
+                  "response": "It feels traditional, but the reason is physiological, not sentimental."
+                },
+                {
+                  "label": "Cold freezes bottles and blunts thirst — warm carbs get in fast",
+                  "correct": true,
+                  "response": "Right. Frozen valves, taffy gels, and a suppressed thirst signal all conspire against you; warm sweet drink is fast, drinkable fuel that a century of frozen skiers engineered on purpose."
+                },
+                {
+                  "label": "Warm drinks raise core temperature significantly",
+                  "correct": false,
+                  "response": "The core-temperature effect is minor. The point is getting drinkable carbohydrate in when everything else has frozen."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "jeukendrup-cho-2014",
+          "title": "A Step Towards Personalized Sports Nutrition: Carbohydrate Intake During Exercise",
+          "author": "Jeukendrup AE",
+          "publisher": "Sports Med 44(S1):S25-S33",
+          "year": 2014,
+          "url": "https://doi.org/10.1007/s40279-014-0148-z"
+        },
+        {
+          "id": "fs-cold-air-mask-tutt",
+          "title": "Another mask to add to your wardrobe?",
+          "author": "Alasdair Tutt",
+          "publisher": "FasterSkier",
+          "year": 2020,
+          "url": "https://fasterskier.com/2020/11/another-mask-to-add-to-your-wardrobe-by-alasdair-tutt-msc/"
+        },
+        {
+          "id": "asthma-skiers-2020",
+          "title": "Asthma in Competitive Cross-Country Skiers: A Systematic Review and Meta-analysis",
+          "author": "",
+          "publisher": "Sports Med 50:1963-1981",
+          "year": 2020,
+          "url": "https://doi.org/10.1007/s40279-020-01334-4"
+        },
+        {
+          "id": "kennedy-airway-2020",
+          "title": "Exercise in Sub-zero Temperatures and Airway Health",
+          "author": "Kennedy MD, Faulhaber M, et al.",
+          "publisher": "Front Sports Act Living 2:34",
+          "year": 2020,
+          "url": "https://doi.org/10.3389/fspor.2020.00034"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "tactics-and-the-mind",
+      "title": "Mental Training & Race Tactics",
+      "subtitle": "A mass start you can't win in the first kilometer but can lose",
+      "gated": true,
+      "cta_after": "coaching",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "the-start",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "A loppet start is organized chaos, and the skiers who understand it save minutes over the ones who panic.\n\nYou start in a wave — a seeded group assigned by a previous result. Waves exist because thousands of skiers cannot fairly start at once, and your wave shapes your entire race: the tracks you get, the traffic you fight, the company you keep. At the American Birkebeiner, the top sixty finishers auto-qualify for the elite wave, and skiers just outside can petition to move up[^fs-elite-wave] — the seeding system is a game worth learning, because a better wave is cleaner tracks and faster company, both free speed[^fs-birkie-wave-part3].\n\nWhatever your wave, the first kilometers reward patience with almost mathematical reliability. Two thousand people cannot accelerate at once; tracks are limited; poles are everywhere. Going out hard into that wall spends matches you'll want at kilometer 70 and gains you almost nothing, because the field is the bottleneck, not your legs. Settle, find a rhythm, let the accordion stretch out, and start racing when there's room to race."
+            },
+            {
+              "type": "callout",
+              "style": "note",
+              "title": "Drafting is real",
+              "content": "On flat, fast sections a skier ahead of you breaks the air, and sitting on a double-pole train costs measurably less than leading it. Take your turns, but don't be a hero on the front for 20 km — tuck in, save the engine, and spend it where the race is actually decided: the climbs and the final third."
+            }
+          ]
+        },
+        {
+          "id": "pacing-the-grind",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The middle of a long loppet is a psychological event as much as a physical one. Somewhere past halfway, the novelty is gone, the finish is still abstract, and your brain begins offering reasons to ease off. This conversation is normal and universal; the skiers who finish strong are simply the ones who planned for it in advance.\n\nThe practical tools are boring and they work. Break the race into feed-station segments and race only to the next station, never the whole remaining distance. Have a fueling schedule and follow it mechanically — a fueled brain negotiates less. Pick a small technical focus for the low moments, because giving the mind a job (clean weight transfer, quiet upper body) crowds out the negotiation. And accept that feeling bad at kilometer 60 of 90 predicts nothing about kilometer 85; the low patch passes if you keep eating and keep moving."
+            },
+            {
+              "type": "process_list",
+              "title": "A pacing plan for a long loppet",
+              "steps": [
+                {
+                  "title": "First third: sit on your hands",
+                  "content": "Deliberately easier than feels right. Fuel, find trains, let the field sort out. You cannot win here; you can only overspend."
+                },
+                {
+                  "title": "Middle third: hold and fuel",
+                  "content": "Settle into race effort. Race station-to-station. Follow the fuel schedule mechanically through the mental low patch."
+                },
+                {
+                  "title": "Final third: spend what's left",
+                  "content": "Now it's a race. If you paced the first two-thirds honestly, you'll pass people who didn't — the best feeling in the sport."
+                }
+              ]
+            },
+            {
+              "type": "personalized_content",
+              "variants": {
+                "lantern_rouge": "Your race is against the cutoff and your own head, not the field. The segment-by-segment trick is your whole tactical plan, and it's enough.",
+                "finisher": "Negative-splitting a loppet — second half faster than the first — is the most satisfying result available to you, and it's a pacing decision, not a fitness one.",
+                "wave_chaser": "Your seeding for next year is set by this result, so a disciplined even effort that banks a strong time is worth more than a heroic blow-up.",
+                "elite_wave": "In the front waves the race is tactical: who leads the train, who covers the climbs, when to commit. Position is as trainable as fitness."
+              }
+            }
+          ]
+        },
+        {
+          "id": "the-feed-with-poles",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "A small skill with a large payoff: feeding without stopping. The best skiers grab warm drink and food at speed, poles dangling from their wrist straps, and are gone while others queue and cool down. Practice it — genuinely rehearse grabbing a cup at 15 km/h in training — because a loppet has six to ten stations, and ten seconds saved and momentum kept at each one is a minute or more, plus the compounding cost of repeatedly stopping and restarting a heavy body on skis."
+            },
+            {
+              "type": "knowledge_check",
+              "question": "How should you ski the first third of a long loppet?",
+              "options": [
+                {
+                  "label": "As hard as possible to bank time before you tire",
+                  "correct": false,
+                  "response": "Banking time early is the classic blow-up. The field is the bottleneck; hard efforts here buy almost nothing and cost you the finish."
+                },
+                {
+                  "label": "Deliberately controlled — the field is the bottleneck, not your legs",
+                  "correct": true,
+                  "response": "Right. Two thousand people can't accelerate at once. Settle, fuel, find trains, and save the racing for the final third where it actually counts."
+                },
+                {
+                  "label": "At exactly your goal average pace, evenly",
+                  "correct": false,
+                  "response": "Closer, but a long loppet usually rewards a slightly conservative first third and a strong finish — a gentle negative split beats dead-even here."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "fs-elite-wave",
+          "title": "Welcome to the Elite Wave",
+          "author": "Jason Albert",
+          "publisher": "FasterSkier",
+          "year": 2019,
+          "url": "https://fasterskier.com/2019/03/welcome-to-the-elite-wave/"
+        },
+        {
+          "id": "fs-birkie-wave-part3",
+          "title": "Why Skiing (and Am I in the Right Birkie Wave?): Part III",
+          "author": "Scott Cummings",
+          "publisher": "FasterSkier",
+          "year": 2018,
+          "url": "https://fasterskier.com/2018/02/skiing-right-birkie-wave-part-iii/"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "race-week-protocol",
+      "title": "Race Week Protocol",
+      "subtitle": "Taper, travel, wax, and the morning of",
+      "gated": true,
+      "cta_after": "coaching",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "the-taper",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The taper is where fitness you already own gets revealed — it cannot create fitness, only unmask it, and the most common taper mistake is doing too much, the second most common is doing too little of the right thing.\n\nThe principle coaches converge on: cut volume hard, keep intensity. Strength and speed are slow to lose, so the long base work can be trimmed early and aggressively; endurance and race-sharpness fade faster and must be touched right up to race week[^fs-tapering-art]. A concrete, battle-tested protocol from Birkie coaching: with a solid base behind you, add sharpening intervals four to six weeks out, then cut total training volume by roughly half — on the order of 40 to 60 percent — over the final two weeks while keeping short, race-pace touches so the body stays fast[^fs-peaking-big-race]. You will feel restless and slightly guilty. That feeling is the taper working."
+            },
+            {
+              "type": "data_table",
+              "title": "The final two weeks",
+              "headers": [
+                "When",
+                "Volume",
+                "Intensity",
+                "Feel"
+              ],
+              "rows": [
+                [
+                  "14 days out",
+                  "Down ~40%",
+                  "Keep 1-2 short race-pace sessions",
+                  "Restless, over-rested"
+                ],
+                [
+                  "7 days out",
+                  "Down ~50-60%",
+                  "One short sharpening session",
+                  "Twitchy, doubting the taper"
+                ],
+                [
+                  "Race week",
+                  "Easy + openers",
+                  "A few 20-30s pickups 1-2 days before",
+                  "Trust it. The work is done."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "travel-and-altitude",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Many monuments require travel, sometimes to altitude, and both deserve planning.\n\nArrive early enough to be a person again before you're an athlete — a red-eye and a hard next-day effort is a recipe for a flat race. If the race sits at altitude, know that the honest options are narrow: real acclimatization takes weeks, and the best-supported model is to live high and train low so you gain the blood adaptation without losing training speed[^fs-live-high-train-low] — a plan for skiers who can spend weeks in the mountains, not a race-week fix. For everyone else, arriving either a couple of days before (racing before the worst of the altitude hit lands) or accepting a modestly slower race is more honest than any supplement. Don't try anything new with altitude on race week."
+            }
+          ]
+        },
+        {
+          "id": "wax-and-morning",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Wax is where classic skiers earn or lose their race before the gun, and where our brand's color language comes from. Grip wax is chosen by snow temperature: harder waxes for cold, fresh snow; softer waxes and eventually klister for warm, transformed, or icy snow, applied in thin layers and corked smooth[^fs-kick-waxing-toko]. The color bands you see across this site — green, blue, violet, red — are the actual temperature bands of the kick-wax system, from very cold to near-freezing.\n\nYou do not need to be a wax technician. You need a rule of thumb, the forecast, and the humility to test on the morning's snow: cold and fresh means a hard wax; near freezing and transformed means klister and clean hands afterward, never; in between, a mid-range wax and a short test-ski to confirm grip. Waxless skis skip this entirely and give up a little glide for total simplicity — the right trade for many skiers on many days."
+            },
+            {
+              "type": "process_list",
+              "title": "The morning of",
+              "steps": [
+                {
+                  "title": "Check the real snow, not just the app",
+                  "content": "Forecasts lie about snow surface. Feel it, squeeze it, and test-ski your grip if you're on waxable classic skis."
+                },
+                {
+                  "title": "Dress for kilometer 5",
+                  "content": "If you're comfortable standing in the start pen, you're overdressed. Cold for two minutes is correct."
+                },
+                {
+                  "title": "Fuel and hydrate early",
+                  "content": "Breakfast 2-3 hours out, a top-up 30-60 minutes before. Start the race already fueled, not chasing it from behind."
+                },
+                {
+                  "title": "Warm up briefly, then wait warm",
+                  "content": "A short warm-up and a few pickups, then keep warm with a throwaway layer until the gun."
+                }
+              ]
+            },
+            {
+              "type": "knowledge_check",
+              "question": "What can a taper actually do?",
+              "options": [
+                {
+                  "label": "Build a final layer of fitness",
+                  "correct": false,
+                  "response": "It can't build fitness — that ship sailed weeks ago. Cramming intensity in race week digs a hole instead."
+                },
+                {
+                  "label": "Reveal fitness you already have by cutting volume, keeping intensity",
+                  "correct": true,
+                  "response": "Right. Strength/speed fade slowly (cut early), endurance/sharpness fade fast (keep touching them). Drop volume ~40-60%, keep short race-pace efforts, arrive fresh."
+                },
+                {
+                  "label": "Rest completely for two weeks",
+                  "correct": false,
+                  "response": "Full rest makes you flat and slow. The taper keeps intensity while cutting volume — rest the legs, not the sharpness."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "fs-tapering-art",
+          "title": "Wednesday Workout: The Art of Tapering",
+          "author": "Alex Kochon",
+          "publisher": "FasterSkier",
+          "year": 2013,
+          "url": "https://fasterskier.com/2013/07/wednesday-workout-the-art-of-tapering/"
+        },
+        {
+          "id": "fs-peaking-big-race",
+          "title": "Peaking for the Big Race",
+          "author": "Adam St. Pierre",
+          "publisher": "FasterSkier",
+          "year": 2011,
+          "url": "https://fasterskier.com/fsarticle/peaking-for-the-big-race/"
+        },
+        {
+          "id": "fs-live-high-train-low",
+          "title": "Is Live High, Train Low Dead? Not a Chance, Says Stray-Gundersen",
+          "author": "Chelsea Little",
+          "publisher": "FasterSkier",
+          "year": 2012,
+          "url": "https://fasterskier.com/2012/07/is-live-high-train-low-dead-not-a-chance-says-stray-gundersen-its-just-hard/"
+        },
+        {
+          "id": "fs-kick-waxing-toko",
+          "title": "Toko: Kick Waxing",
+          "author": "Matthew Voisin",
+          "publisher": "FasterSkier",
+          "year": 2012,
+          "url": "https://fasterskier.com/fsarticle/toko-kick-waxing/"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "post-race-and-offseason",
+      "title": "Post-Race & The Off-Season",
+      "subtitle": "Recovery, the April gap, and building next year",
+      "gated": true,
+      "cta_after": "coaching",
+      "hero_image": null,
+      "sections": [
+        {
+          "id": "recovery",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "You crossed the line, ate the soup, and now the season asks one more decision: recover properly, or spend the fitness you just built chasing one more race.\n\nA 50-to-90 km race is a deep hole. The muscle damage, glycogen depletion, and immune suppression are real and measured in weeks, not days. The week after a monument is for easy movement and eating, not for proving anything. Skiers who stack a second big race two weeks after the first almost always ski the second one worse and pay for it into the spring. If you have two monuments in you, put a month between them and treat the first as preparation for the second, not a warm-up you can shrug off."
+            },
+            {
+              "type": "callout",
+              "style": "note",
+              "title": "The April gap is a feature",
+              "content": "When the snow goes, most skiers panic-train or vanish. Both are wrong. April is a genuine off-season: a few unstructured weeks of whatever keeps you happy and moving — running, biking, hiking, nothing measured. The body needs the psychological and physical break, and the skiers who take it honestly arrive at May's dry-land base hungry instead of frayed."
+            }
+          ]
+        },
+        {
+          "id": "building-next-year",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The best skiers treat the off-season as the real season, because it is. The engine you race on in February is built between May and November, on rollerskis and running trails and gym floors, doing work that is measurable and repeatable precisely because the snow isn't there to complicate it.\n\nThe shape of a strong dry-land year is unglamorous: a big block of easy aerobic volume through early summer, a rising volume peak in late summer, the return of intensity and strength through the fall, and technique kept alive on rollerskis the whole way. The single most common mistake — worth repeating because it's so reliable — is compressing all the volume into October in a panic as the season approaches, arriving at the first race tired instead of fit. The volume peak belongs in August. October is for sharpening what summer built. Your season, genuinely, is built in July."
+            },
+            {
+              "type": "timeline",
+              "title": "The off-season, in order",
+              "items": [
+                {
+                  "label": "April",
+                  "content": "Off. Unstructured, unmeasured, whatever keeps you moving and sane."
+                },
+                {
+                  "label": "May-June",
+                  "content": "Base: easy aerobic volume, rollerski technique, strength twice a week. Boring on purpose."
+                },
+                {
+                  "label": "July-Aug",
+                  "content": "The volume peak. The biggest, most consistent weeks of the whole year. Your season is built here."
+                },
+                {
+                  "label": "Sep-Oct",
+                  "content": "Intensity and strength return; sharpen what volume built. Do NOT save all the volume for now."
+                },
+                {
+                  "label": "Nov",
+                  "content": "First snow, technique recalibration, race the plan from here."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "the-ladder",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "This guide gives away the whole information layer on purpose — the physiology, the technique, the tactics, the year. What it can't do is build the plan for your race, your hours, your history, and your dry-land reality. That's where the four rungs come in: a structured training plan built from a race's demands, a custom plan shaped to your intake, the full XC ski course when you want to see technique instead of read it, and one-to-one coaching when you want a person watching the data between sessions. If this guide made you faster, those exist to make you faster still."
+            },
+            {
+              "type": "knowledge_check",
+              "question": "When is next season actually built?",
+              "options": [
+                {
+                  "label": "In the fall, when intensity ramps up",
+                  "correct": false,
+                  "response": "Fall sharpens the engine, but the engine itself was built over the summer months of aerobic volume."
+                },
+                {
+                  "label": "May through August, in the dry-land base and volume peak",
+                  "correct": true,
+                  "response": "Right. The February engine is built in July. Fall sharpens it; winter spends it. The October cram is the classic way to arrive tired instead of fit."
+                },
+                {
+                  "label": "During the races themselves",
+                  "correct": false,
+                  "response": "Racing spends fitness, it doesn't build it. The build happens in the unglamorous dry-land months."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "source_library": {
