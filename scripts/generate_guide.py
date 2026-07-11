@@ -131,14 +131,21 @@ def build_css() -> str:
 .gl-guide-gate { background: var(--gl-white); border: 3px solid var(--gl-carbon); border-top: 6px solid var(--gl-swix-red); padding: var(--gl-space-5); margin: var(--gl-space-5) 0 0; }
 .gl-guide-gate h2 { margin: 0 0 var(--gl-space-2); font-family: var(--gl-font-display); font-size: 1.45rem; font-weight: 900; font-style: italic; letter-spacing: 0; text-transform: uppercase; }
 .gl-guide-gate p { max-width: var(--gl-prose); margin: 0 0 var(--gl-space-4); }
+.gl-guide-gate-label { font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--gl-muted); display: block; margin: 0 0 var(--gl-space-2); }
+.gl-guide-gate-row { display: flex; gap: var(--gl-space-2); flex-wrap: wrap; }
+.gl-guide-gate-input { flex: 1 1 240px; min-height: 44px; border: 2px solid var(--gl-carbon); padding: 0 var(--gl-space-3); font-family: var(--gl-font-editorial); font-size: 1rem; background: var(--gl-paper); }
+.gl-guide-gate-note { font-size: .82rem; color: var(--gl-muted); margin: var(--gl-space-3) 0 0; }
+.gl-guide-gate-note a { color: var(--gl-swix-red); font-weight: 700; }
+.gl-guide-locked[hidden] { display: none; }
 .gl-guide-btn { min-height: 44px; display: inline-flex; align-items: center; background: var(--gl-carbon); color: var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; }
 .gl-guide-plate-num { fill: var(--gl-muted); opacity: .34; font-family: var(--gl-font-display); font-size: 140px; font-weight: 900; font-style: italic; }
 .gl-plate-bar, .gl-plate-zone { fill: var(--gl-klister); }
 .gl-plate-bar--quiet, .gl-plate-zone--quiet { opacity: .45; }
 .gl-guide-block { margin: var(--gl-space-5) 0; }
 .gl-callout { max-width: var(--gl-prose); background: var(--gl-white); border: 3px solid var(--gl-carbon); border-left: 8px solid var(--gl-swix-red); padding: var(--gl-space-4); }
-.gl-callout--tip { border-left-color: var(--gl-wax-green); }
-.gl-callout--warning { border-left-color: var(--gl-wax-violet); }
+.gl-callout--note { border-left-color: var(--gl-carbon); }
+.gl-callout--tip { border-left-color: var(--gl-klister); }
+.gl-callout--warning { border-left-color: var(--gl-swix-red); }
 .gl-callout h3, .gl-tabs h3, .gl-accordion summary, .gl-data-table-title, .gl-timeline-title, .gl-flashcard h3, .gl-calc h3, .gl-race-ref h3, .gl-personal h3 { margin: 0 0 var(--gl-space-2); font-family: var(--gl-font-display); font-size: 1.05rem; font-weight: 900; font-style: italic; line-height: 1; letter-spacing: 0; text-transform: uppercase; }
 .gl-tabs, .gl-accordion, .gl-calc, .gl-personal { max-width: var(--gl-prose); }
 .gl-tab-buttons, .gl-personal-buttons { display: flex; flex-wrap: wrap; gap: var(--gl-space-2); margin-bottom: var(--gl-space-3); }
@@ -290,23 +297,44 @@ def build_section_header(num: str, title: str) -> str:
     return f'<div class="gl-section-header"><span class="gl-section-num">{esc(num)}</span><h2 class="gl-section-title">{esc(title)}</h2></div>'
 
 
+GATE_EMAIL = "coaching@xcskilabs.com"
+
+
 def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
     parts = []
-    if chapter.get("gated"):
-        parts.append("""
-<aside class="gl-guide-gate">
-  <p class="gl-guide-tag">Subscriber chapter</p>
-  <h2>Email gate coming next</h2>
-  <p>This chapter is marked noindex while the email worker is built. For now, use the intake fallback.</p>
-  <!-- TODO: Replace this soft gate with the X3 email-capture worker. -->
-  <a class="gl-guide-btn" href="/questionnaire/">Go to intake</a>
+    gated = chapter.get("gated")
+    if gated:
+        cid = esc(chapter.get("id", ""))
+        parts.append(f"""
+<aside class="gl-guide-gate" data-guide-gate>
+  <p class="gl-guide-tag">Free — one email</p>
+  <h2>Read the rest of the guide</h2>
+  <p>Chapters four through eight — technique, fueling, tactics, race week, and the off-season — plus the whole guide, for your email. No spam; unsubscribe anytime.</p>
+  <form class="gl-guide-gate-form" data-guide-gate-form action="https://formsubmit.co/{GATE_EMAIL}" method="POST">
+    <input type="hidden" name="_subject" value="Guide unlock — {cid}">
+    <input type="hidden" name="chapter" value="{cid}">
+    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+    <label class="gl-guide-gate-label" for="gate-email-{cid}">Email</label>
+    <div class="gl-guide-gate-row">
+      <input class="gl-guide-gate-input" id="gate-email-{cid}" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+      <button class="gl-guide-btn" type="submit">Unlock the guide</button>
+    </div>
+    <p class="gl-guide-gate-note">Prefer a plan built for you? <a href="/questionnaire/">Start the intake</a> instead.</p>
+  </form>
 </aside>
 """)
+    body = []
     for idx, section in enumerate(chapter.get("sections", []), start=1):
         blocks = "\n".join(render_block(block, chapter, content) for block in section.get("blocks", []))
         title = section.get("title") or section.get("id", "").replace("-", " ")
-        parts.append(f'<section class="gl-section" id="{esc(section["id"])}">{build_section_header(f"{idx:02d}", title)}{blocks}</section>')
-    parts.append(build_sources(chapter))
+        body.append(f'<section class="gl-section" id="{esc(section["id"])}">{build_section_header(f"{idx:02d}", title)}{blocks}</section>')
+    body.append(build_sources(chapter))
+    body_html = "\n".join(body)
+    if gated:
+        # Content hidden until unlocked (JS reveals on email submit or returning reader)
+        parts.append(f'<div class="gl-guide-locked" data-guide-locked hidden>{body_html}</div>')
+    else:
+        parts.append(body_html)
     return "\n".join(parts)
 
 
@@ -366,6 +394,29 @@ def build_script() -> str:
     }
     input.addEventListener('input', update);
     update();
+  });
+
+  // Guide email gate: reveal gated content on submit (or for returning readers)
+  var UNLOCK_KEY = 'xl_guide_unlocked';
+  function unlock() {
+    document.querySelectorAll('[data-guide-locked]').forEach(function(el) { el.hidden = false; });
+    document.querySelectorAll('[data-guide-gate]').forEach(function(el) { el.hidden = true; });
+  }
+  try { if (localStorage.getItem(UNLOCK_KEY) === '1') unlock(); } catch (e) {}
+  document.querySelectorAll('[data-guide-gate-form]').forEach(function(form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var honey = form.querySelector('[name="_honey"]');
+      if (honey && honey.value) return; // bot
+      var data = new FormData(form);
+      // Fire-and-forget: record the email, don't block the reader on the network
+      fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } }).catch(function(){});
+      try { localStorage.setItem(UNLOCK_KEY, '1'); } catch (e) {}
+      if (typeof gtag === 'function') gtag('event', 'guide_unlock', { chapter: (form.querySelector('[name="chapter"]') || {}).value || '' });
+      unlock();
+      var target = document.querySelector('[data-guide-locked]');
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   });
 })();
 </script>

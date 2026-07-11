@@ -38,11 +38,16 @@ def test_gate_meta_correct_per_chapter():
         html = _chapter_html(chapter)
         if chapter["number"] <= 3:
             assert '<meta name="robots" content="index, follow">' in html
-            assert "Email gate coming next" not in html
+            assert 'class="gl-guide-gate-form"' not in html
+            assert 'class="gl-guide-locked"' not in html
         else:
             assert '<meta name="robots" content="noindex">' in html
-            assert "Email gate coming next" in html
-            assert '<a class="gl-guide-btn" href="/questionnaire/">' in html
+            # Real email gate: capture form + locked content wrapper + honeypot
+            assert 'class="gl-guide-gate-form"' in html
+            assert 'class="gl-guide-locked"' in html
+            assert 'name="_honey"' in html
+            assert 'formsubmit.co' in html
+            assert '/questionnaire/' in html  # intake fallback link
 
 
 def test_every_inline_citation_resolves_to_rendered_source_link():
