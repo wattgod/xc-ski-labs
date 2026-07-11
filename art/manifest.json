@@ -205,14 +205,14 @@
     "tier": "B"
   },
   "engadin-la-diagonela": {
-    "license": "Profile data",
-    "source": "race-data/engadin-la-diagonela.json",
-    "tier": "B"
+    "license": "source: https://www.outdooractive.com/en/route/cross-country-skiing/engadin-st.-moritz/engadin-la-diagonela/62911188/ (posted by official Engadin St. Moritz destination account)\ngpx: https://www.outdooractive.com/en/download.tour.gpx?i=62911188&project=outdooractive\nretrieved: 2026-07-10\nuse: course geometry rendered as elevation-plate art on xcskilabs.com. NOTE: may reflect classic ~55km course (Ski Classics shortened to 47km for 2026).",
+    "source": "art/gpx/engadin-la-diagonela.gpx",
+    "tier": "A"
   },
   "engadin-skimarathon": {
-    "license": "Profile data",
-    "source": "race-data/engadin-skimarathon.json",
-    "tier": "B"
+    "license": "source: https://www.maps.engadin.ch/en/tour/cross-country-skiing/engadin-skimarathon-switzerlandmobility-route-265-/23436226/ (Engadin St. Moritz Tourism official trail portal; SwitzerlandMobility Route 265)\ngpx: https://www.maps.engadin.ch/en/download.tour.gpx?i=23436226&project=oad-engadin-st-moritz\nretrieved: 2026-07-10\nuse: course geometry rendered as elevation-plate art on xcskilabs.com; official, publicly downloadable.",
+    "source": "art/gpx/engadin-skimarathon.gpx",
+    "tier": "A"
   },
   "engelbrektsloppet": {
     "license": "Profile data",
@@ -400,9 +400,9 @@
     "tier": "B"
   },
   "jizerska-50": {
-    "license": "Profile data",
-    "source": "race-data/jizerska-50.json",
-    "tier": "B"
+    "license": "source: https://jiz50.cz/en/cms.front.maps/ (official Jizersk\u00e1 50 race site, maps page)\ngpx: https://jiz50.cz/upload/maps/2025_j50.gpx.zip (2025 main 50km course)\nretrieved: 2026-07-10\nuse: course geometry rendered as elevation-plate art on xcskilabs.com; official, publicly offered.",
+    "source": "art/gpx/jizerska-50.gpx",
+    "tier": "A"
   },
   "john-craig-memorial": {
     "license": "Profile data",
