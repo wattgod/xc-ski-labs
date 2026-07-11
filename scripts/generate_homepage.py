@@ -1067,6 +1067,9 @@ a:focus-visible, button:focus-visible {{
         <div class="gl-nav-dropdown"><a href="/search/">All XC Ski Races</a></div>
       </li>
       <li class="gl-nav-item">
+        <a href="/guide/">Guide</a>
+              </li>
+      <li class="gl-nav-item">
         <a href="/training-plans/">Plans</a>
               </li>
       <li class="gl-nav-item">
