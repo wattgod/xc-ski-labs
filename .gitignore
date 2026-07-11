@@ -37,3 +37,7 @@ node_modules/
 
 # Output (regenerated)
 output/
+
+# Immune system — transient (report snapshot + scan telemetry). ledger.jsonl IS tracked.
+immune/report.json
+immune/scans.jsonl
