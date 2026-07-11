@@ -1130,6 +1130,7 @@ def build_nav() -> str:
     <a href="/">Home</a>
     <a href="/search/">Search</a>
     <a href="/training/">Training Plans</a>
+    <a href="/guide/">Guide</a>
     <a href="/coaching/apply/" class="active">Coaching</a>
   </div>
 </nav>"""

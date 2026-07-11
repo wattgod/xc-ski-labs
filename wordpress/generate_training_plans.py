@@ -817,6 +817,7 @@ def build_nav():
         <a href="/search/">Races</a>
         <div class="gl-nav-dropdown"><a href="/search/">All XC Ski Races</a></div>
       </li>
+      <li class="gl-nav-item"><a href="/guide/">Guide</a></li>
       <li class="gl-nav-item">
         <a href="/training-plans/" class="active">Products</a>
         <div class="gl-nav-dropdown"><a href="/training-plans/">Training Plans</a></div>

@@ -423,6 +423,9 @@ def build_nav_header() -> str:
         </div>
       </li>
       <li class="gl-nav-item">
+        <a href="/guide/">Guide</a>
+      </li>
+      <li class="gl-nav-item">
         <a href="/training-plans/">Products</a>
         <div class="gl-nav-dropdown">
           <a href="/training-plans/">Training Plans</a>

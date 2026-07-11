@@ -473,6 +473,7 @@ def build_nav() -> str:
     <a href="/" class="gl-nav-logo">XC SKI LABS</a>
     <div class="gl-nav-links">
       <a href="/search/">Search</a>
+      <a href="/guide/">Guide</a>
       <a href="/training-plans/" class="active">Plans</a>
       <a href="/coaching/apply/">Coaching</a>
     </div>
