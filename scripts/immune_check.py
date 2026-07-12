@@ -50,6 +50,7 @@ IMMUNE_DIR = PROJECT_ROOT / "immune"
 REPORT_FILE = IMMUNE_DIR / "report.json"      # latest snapshot (gitignored — churns every run)
 SCANS_FILE = IMMUNE_DIR / "scans.jsonl"       # scan telemetry / streak (gitignored)
 LEDGER_FILE = IMMUNE_DIR / "ledger.jsonl"     # permanent FIX log (tracked — the memory)
+BASELINE_FILE = IMMUNE_DIR / "baseline.json"  # known/accepted backlog fingerprints (tracked)
 
 BRAND = "xc-ski-labs"
 GREEN, YELLOW, RED = "green", "yellow", "red"
@@ -69,6 +70,7 @@ class Finding:
     remedy: str          # what a fix would do, in plain words
     auto_fix: str | None = None   # the exact safe command (GREEN only), else None
     source: str = "preflight"     # which detector raised it
+    new: bool = True              # not in the accepted baseline (a new/worsening finding)
 
 
 # ── Classification table ──────────────────────────────────────────────────────
@@ -280,16 +282,41 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def fingerprint(f: Finding) -> str:
+    """Stable identity for a finding, so the baseline can recognise a recurrence."""
+    return f"{f.code}::{f.detail}"
+
+
+def load_baseline() -> set[str]:
+    """Fingerprints the user has accepted as known backlog (not alerted nightly)."""
+    if not BASELINE_FILE.exists():
+        return set()
+    try:
+        return set(json.loads(BASELINE_FILE.read_text(encoding="utf-8")).get("fingerprints", []))
+    except (OSError, json.JSONDecodeError):
+        return set()
+
+
+def mark_new(findings: list[Finding], baseline: set[str]) -> None:
+    """Flag each finding new/known vs the baseline. SAFETY: RED findings (money
+    path / security / systemic) are ALWAYS treated as new — you can never
+    accidentally baseline away an emergency."""
+    for f in findings:
+        f.new = f.lane == RED or fingerprint(f) not in baseline
+
+
 def write_outputs(findings: list[Finding], mode: dict) -> dict:
     IMMUNE_DIR.mkdir(exist_ok=True)
     lanes = {GREEN: 0, YELLOW: 0, RED: 0}
     for f in findings:
         lanes[f.lane] += 1
+    new_ct = sum(1 for f in findings if f.new)
     report = {
         "brand": BRAND,
         "generated_at": now_iso(),
         "mode": mode,
-        "counts": {"total": len(findings), **lanes},
+        "counts": {"total": len(findings), **lanes,
+                   "new": new_ct, "backlog": len(findings) - new_ct},
         "findings": [asdict(f) for f in findings],
     }
     REPORT_FILE.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
@@ -309,30 +336,51 @@ def write_outputs(findings: list[Finding], mode: dict) -> dict:
 def print_digest(report: dict) -> None:
     findings = [Finding(**f) for f in report["findings"]]
     c = report["counts"]
+    new = [f for f in findings if f.new]
+    known = [f for f in findings if not f.new]
     print("=" * 60)
-    print(f"🩺 XC Ski Labs — Immune scan  ({report['generated_at']})")
+    print(f"🩺 {BRAND} — Immune scan  ({report['generated_at']})")
     print(f"   mode: {report['mode']}")
     print("=" * 60)
 
-    def block(lane, emoji, label):
-        items = [f for f in findings if f.lane == lane]
+    def block(items, lane, emoji, label):
+        items = [f for f in items if f.lane == lane]
         if not items:
             return
         print(f"\n{emoji} {label} ({len(items)})")
+        # Group by code so a big class shows as a count + a few examples, not a wall.
+        by_code: dict[str, list[Finding]] = {}
         for f in items:
-            print(f"   • [{f.severity}] {f.title}: {f.detail}")
-            print(f"       → {f.remedy}")
-            if f.auto_fix:
-                print(f"       ⤷ safe auto-fix: {f.auto_fix}")
+            by_code.setdefault(f.code, []).append(f)
+        for code, group in sorted(by_code.items(), key=lambda kv: -len(kv[1])):
+            head = group[0]
+            print(f"   • {code} ({len(group)}) — {head.remedy}")
+            for f in group[:3]:
+                print(f"       – {f.detail}")
+            if len(group) > 3:
+                print(f"       … +{len(group) - 3} more")
 
-    block(GREEN, "🟢", "AUTO-HEALABLE (the loop would fix these itself)")
-    block(YELLOW, "🟡", "NEEDS YOU (a fix is proposed → PR for your approval)")
-    block(RED, "🔴", "ISSUE ONLY (unsafe to auto-fix — money path / security / systemic)")
+    if new:
+        print(f"\n🆕 NEW SINCE LAST ACCEPTED BASELINE ({len(new)}) — this is what to look at")
+        block(new, RED, "🔴", "ISSUE (money path / security / systemic — never auto-fixed)")
+        block(new, YELLOW, "🟡", "NEEDS YOU (a fix is proposed → PR for your approval)")
+        block(new, GREEN, "🟢", "AUTO-HEALABLE (the loop would fix these itself)")
+
+    if known:
+        by_code: dict[str, int] = {}
+        for f in known:
+            by_code[f.code] = by_code.get(f.code, 0) + 1
+        print(f"\n📉 KNOWN BACKLOG ({len(known)}) — accepted, tracked, not alerted")
+        for code, n in sorted(by_code.items(), key=lambda kv: -kv[1]):
+            print(f"   · {n:>4}  {code}")
 
     print("\n" + "-" * 60)
-    print(f"total {c['total']}  |  🟢 {c['green']}  🟡 {c['yellow']}  🔴 {c['red']}")
+    print(f"total {c['total']}  |  🆕 new {c.get('new', c['total'])}  📉 backlog {c.get('backlog', 0)}"
+          f"  |  🟢 {c['green']}  🟡 {c['yellow']}  🔴 {c['red']}")
     if c["total"] == 0:
         print("🧬 All clear. Streak intact.")
+    elif not new:
+        print("🧬 Nothing new — all findings are accepted backlog.")
     print("-" * 60)
 
 
@@ -344,7 +392,10 @@ def main() -> int:
                         help="also run the live money-path / 404 check (network)")
     parser.add_argument("--json", action="store_true", help="print machine JSON only")
     parser.add_argument("--fail-on", choices=["red", "any"], default="any",
-                        help="exit non-zero on RED only, or on any RED/YELLOW (default: any)")
+                        help="exit non-zero on RED only, or on any NEW RED/YELLOW (default: any)")
+    parser.add_argument("--accept-baseline", action="store_true",
+                        help="catalogue ALL current findings as accepted backlog "
+                             "(they stop alerting; only new/worsening issues alert after)")
     args = parser.parse_args()
 
     if args.regen:
@@ -359,6 +410,20 @@ def main() -> int:
     if args.live:
         findings += run_live_link_check()
 
+    if args.accept_baseline:
+        # RED is never baselined (mark_new keeps it alerting); only accept non-RED.
+        fps = sorted({fingerprint(f) for f in findings if f.lane != RED})
+        IMMUNE_DIR.mkdir(exist_ok=True)
+        BASELINE_FILE.write_text(json.dumps(
+            {"accepted_at": now_iso(), "brand": BRAND, "fingerprints": fps}, indent=2) + "\n",
+            encoding="utf-8")
+        reds = sum(1 for f in findings if f.lane == RED)
+        print(f"✅ Accepted {len(fps)} findings as known backlog for {BRAND}.")
+        if reds:
+            print(f"⚠️  {reds} RED finding(s) were NOT baselined — they will keep alerting.")
+        return 0
+
+    mark_new(findings, load_baseline())
     mode = {"regen": args.regen, "live": args.live}
     report = write_outputs(findings, mode)
 
@@ -367,10 +432,12 @@ def main() -> int:
     else:
         print_digest(report)
 
-    # Non-zero if anything needs attention, so CI / the agent can gate on it.
+    # Non-zero only on NEW attention-worthy findings, so CI / the agent gate on
+    # what changed, not on accepted backlog.
+    new = [f for f in findings if f.new]
     if args.fail_on == "red":
-        return 1 if report["counts"]["red"] else 0
-    return 0 if report["counts"]["yellow"] == 0 and report["counts"]["red"] == 0 else 1
+        return 1 if any(f.lane == RED for f in new) else 0
+    return 1 if new else 0
 
 
 if __name__ == "__main__":

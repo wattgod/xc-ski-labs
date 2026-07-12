@@ -53,30 +53,57 @@ def clean_scan_streak() -> int:
 
 
 def render(report: dict) -> tuple[str, str, str]:
-    """Return (subject, text_body, html_body)."""
+    """Return (subject, text_body, html_body). Leads with what's NEW since the
+    accepted baseline; collapses accepted backlog to per-class counts."""
     c = report["counts"]
     findings = report["findings"]
     date = report["generated_at"][:10]
-    need = c["yellow"] + c["red"]
-    subject = f"🩺 Immune report — {date} ({need} need you)" if need else \
+    brand = report.get("brand", "immune")
+    new = [f for f in findings if f.get("new", True)]
+    known = [f for f in findings if not f.get("new", True)]
+    new_red = [f for f in new if f["lane"] == "red"]
+    need = len(new)
+    icon = "🚨" if new_red else "🩺"
+    subject = f"{icon} Immune report — {date} ({need} new)" if need else \
               f"🩺 Immune report — {date} (all clear)"
 
-    def lane(name):
-        return [f for f in findings if f["lane"] == name]
+    lines = [f"{brand} — Immune report · {date}", ""]
 
-    lines = [f"XC Ski Labs — Immune report · {date}", ""]
-    if lane("green"):
-        lines.append(f"✅ AUTO-HEALABLE ({len(lane('green'))})")
-        lines += [f"   • {f['title']}: {f['detail']}" for f in lane("green")]
+    def grouped_block(items, lane, emoji, label):
+        items = [f for f in items if f["lane"] == lane]
+        if not items:
+            return
+        by_code: dict[str, list] = {}
+        for f in items:
+            by_code.setdefault(f["code"], []).append(f)
+        lines.append(f"{emoji} {label} ({len(items)})")
+        for code, group in sorted(by_code.items(), key=lambda kv: -len(kv[1])):
+            lines.append(f"   • {code} ({len(group)}) → {group[0]['remedy']}")
+            for f in group[:3]:
+                lines.append(f"       – {f['detail']}")
+            if len(group) > 3:
+                lines.append(f"       … +{len(group) - 3} more")
         lines.append("")
-    if lane("yellow"):
-        lines.append(f"⚠️ NEEDS YOU ({len(lane('yellow'))})")
-        lines += [f"   • {f['title']}: {f['detail']}\n     → {f['remedy']}" for f in lane("yellow")]
+
+    if new:
+        lines.append(f"🆕 NEW since last baseline ({len(new)}) — this is what to look at")
         lines.append("")
-    if lane("red"):
-        lines.append(f"🔴 ISSUE ({len(lane('red'))})")
-        lines += [f"   • {f['title']}: {f['detail']}\n     → {f['remedy']}" for f in lane("red")]
+        grouped_block(new, "red", "🔴", "ISSUE (money path / security / systemic)")
+        grouped_block(new, "yellow", "⚠️", "NEEDS YOU (proposed fix → PR)")
+        grouped_block(new, "green", "✅", "AUTO-HEALABLE (loop would fix once enabled)")
+    else:
+        lines.append("🆕 Nothing new since your last baseline.")
         lines.append("")
+
+    if known:
+        by_code: dict[str, int] = {}
+        for f in known:
+            by_code[f["code"]] = by_code.get(f["code"], 0) + 1
+        lines.append(f"📉 Known backlog ({len(known)}) — accepted, tracked, working down:")
+        for code, n in sorted(by_code.items(), key=lambda kv: -kv[1]):
+            lines.append(f"   · {n:>4}  {code}")
+        lines.append("")
+
     if not findings:
         lines.append("🧬 All clear — nothing broke.")
     n = clean_scan_streak()
