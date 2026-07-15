@@ -49,6 +49,37 @@ RATING_CRITERIA = [
     ("competitive_depth", "Comp. Depth"),
 ]
 
+RATING_GROUPS = [
+    (
+        "course",
+        "Course & conditions",
+        [
+            "distance",
+            "elevation",
+            "altitude",
+            "course_technicality",
+            "snow_reliability",
+            "grooming_quality",
+            "scenery",
+        ],
+    ),
+    (
+        "experience",
+        "Race experience",
+        [
+            "field_size",
+            "prestige",
+            "international_draw",
+            "accessibility",
+            "community",
+            "organization",
+            "competitive_depth",
+        ],
+    ),
+]
+
+RATING_LABELS = dict(RATING_CRITERIA)
+
 # ── Series Labels ──────────────────────────────────────────────
 
 SERIES_LABELS = {
@@ -773,6 +804,17 @@ a {{ color: inherit; }}
   text-transform: uppercase;
 }}
 
+.gl-scorebox-tier {{
+  display: block;
+  margin-top: var(--gl-space-2);
+  border-top: 1px solid var(--gl-white);
+  padding-top: var(--gl-space-2);
+  font-family: var(--gl-font-data);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+}}
+
 .gl-art-plate {{
   width: 100%;
   height: auto;
@@ -960,12 +1002,68 @@ a {{ color: inherit; }}
   text-transform: uppercase;
 }}
 
-.gl-rating-bars {{ display: grid; gap: var(--gl-space-2); max-width: 760px; }}
-.gl-rating-row {{ display: grid; grid-template-columns: 150px 1fr 36px; align-items: center; gap: var(--gl-space-3); }}
-.gl-rating-label {{ text-align: right; margin: 0; }}
-.gl-rating-track {{ height: 20px; background: var(--gl-white); border: 1px solid var(--gl-hairline); }}
-.gl-rating-fill {{ height: 100%; background: var(--gl-carbon); }}
-.gl-rating-value {{ font-family: var(--gl-font-data); font-weight: 700; text-align: center; }}
+.gl-rating-intro {{ max-width: var(--gl-prose); margin: 0 0 var(--gl-space-5); font-size: 1.05rem; line-height: 1.65; }}
+.gl-rating-tablist {{ display: grid; grid-template-columns: 1fr 1fr; border: 3px solid var(--gl-carbon); }}
+.gl-rating-tablist button {{
+  min-height: 48px;
+  border: 0;
+  border-right: 3px solid var(--gl-carbon);
+  background: var(--gl-white);
+  color: var(--gl-carbon);
+  padding: var(--gl-space-3) var(--gl-space-4);
+  font-family: var(--gl-font-data);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}}
+.gl-rating-tablist button:last-child {{ border-right: 0; }}
+.gl-rating-tablist button[aria-selected="true"] {{ background: var(--gl-carbon); color: var(--gl-white); }}
+.gl-rating-tablist button span {{ color: var(--gl-klister); }}
+.gl-rating-panel {{ display: grid; grid-template-columns: minmax(300px, 1.05fr) minmax(280px, .95fr); grid-template-areas: "radar tiles" "radar detail"; border: 3px solid var(--gl-carbon); border-top: 0; }}
+.gl-rating-panel[hidden] {{ display: none; }}
+.gl-radar-chart {{ grid-area: radar; display: flex; align-items: center; border-right: 1px solid var(--gl-hairline); background: var(--gl-white); padding: var(--gl-space-3); }}
+.gl-radar-svg {{ display: block; width: 100%; height: auto; }}
+.gl-radar-grid {{ fill: none; stroke: var(--gl-hairline); stroke-width: 1; }}
+.gl-radar-spoke {{ stroke: var(--gl-hairline); stroke-width: 1; }}
+.gl-radar-spoke.is-active {{ stroke: var(--gl-swix-red); stroke-width: 2; }}
+.gl-radar-polygon {{ fill: var(--gl-swix-red); fill-opacity: .18; stroke: var(--gl-swix-red); stroke-width: 3; }}
+.gl-radar-hit {{ fill: transparent; cursor: pointer; }}
+.gl-radar-hit:focus {{ outline: none; }}
+.gl-radar-dot {{ fill: var(--gl-klister); stroke: var(--gl-carbon); stroke-width: 2; }}
+.gl-radar-axis-label,
+.gl-radar-axis-score,
+.gl-radar-total,
+.gl-radar-total-max {{ font-family: var(--gl-font-data); font-weight: 700; }}
+.gl-radar-axis-label {{ fill: var(--gl-carbon); font-size: 9px; letter-spacing: .04em; }}
+.gl-radar-axis-score {{ fill: var(--gl-swix-red); font-size: 10px; }}
+.gl-radar-total {{ fill: var(--gl-swix-red); font-size: 24px; }}
+.gl-radar-total-max {{ fill: var(--gl-muted); font-size: 9px; letter-spacing: .1em; }}
+.gl-rating-tiles {{ grid-area: tiles; display: grid; grid-template-columns: 1fr 1fr; align-content: start; }}
+.gl-rating-tile {{
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gl-space-3);
+  border: 0;
+  border-bottom: 1px solid var(--gl-hairline);
+  border-right: 1px solid var(--gl-hairline);
+  background: var(--gl-white);
+  color: var(--gl-carbon);
+  padding: var(--gl-space-3);
+  text-align: left;
+  cursor: pointer;
+}}
+.gl-rating-tile[aria-pressed="true"] {{ background: var(--gl-paper); box-shadow: inset 5px 0 0 var(--gl-swix-red); }}
+.gl-rating-tile-label {{ font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }}
+.gl-rating-tile-score {{ font-family: var(--gl-font-display); font-size: 1.35rem; font-style: italic; font-weight: 900; }}
+.gl-rating-tile-score small {{ font-family: var(--gl-font-data); font-size: .58rem; }}
+.gl-rating-explanation {{ grid-area: detail; align-self: stretch; border-top: 3px solid var(--gl-carbon); padding: var(--gl-space-4); }}
+.gl-rating-explanation-head {{ display: flex; align-items: baseline; justify-content: space-between; gap: var(--gl-space-3); font-family: var(--gl-font-data); text-transform: uppercase; }}
+.gl-rating-explanation-head span {{ color: var(--gl-swix-red); font-weight: 700; }}
+.gl-rating-explanation p {{ margin: var(--gl-space-3) 0 0; line-height: 1.55; }}
 .gl-score-note {{
   max-width: var(--gl-prose);
   margin-top: var(--gl-space-5);
@@ -973,6 +1071,18 @@ a {{ color: inherit; }}
   padding: var(--gl-space-3) 0 var(--gl-space-3) var(--gl-space-5);
   font-style: italic;
 }}
+
+.gl-breakdown-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); border: 3px solid var(--gl-carbon); }}
+.gl-breakdown-tile {{ min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; gap: var(--gl-space-4); border-right: 1px solid var(--gl-hairline); border-bottom: 1px solid var(--gl-hairline); background: var(--gl-white); color: var(--gl-carbon); padding: var(--gl-space-4); text-decoration: none; }}
+.gl-breakdown-tile strong {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; }}
+.gl-breakdown-tile span {{ color: var(--gl-muted); font-size: .88rem; line-height: 1.45; }}
+.gl-breakdown-tile:hover {{ background: var(--gl-paper); box-shadow: inset 0 -5px 0 var(--gl-klister); }}
+
+.gl-transition {{ max-width: var(--gl-measure); margin: 0 auto; padding: var(--gl-space-7) var(--gl-space-5); background: var(--gl-swix-red); color: var(--gl-white); }}
+.gl-transition-kicker {{ margin: 0 0 var(--gl-space-3); color: var(--gl-klister); font-family: var(--gl-font-data); font-size: .66rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }}
+.gl-transition h2 {{ max-width: 20ch; margin: 0 0 var(--gl-space-4); font-family: var(--gl-font-display); font-size: clamp(2rem, 5vw, 3.8rem); font-style: italic; font-weight: 900; line-height: .98; text-transform: uppercase; }}
+.gl-transition > p:last-child {{ max-width: var(--gl-prose); margin: 0; line-height: 1.6; }}
+.gl-deep-dive {{ padding-top: var(--gl-space-5); }}
 
 .gl-rise-grid {{
   display: grid;
@@ -1236,11 +1346,20 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
   .gl-waxbar,
   .gl-rungs,
   .gl-process,
-  .gl-wax-cards,
-  .gl-rating-row {{ grid-template-columns: 1fr; }}
-  .gl-rating-label {{ text-align: left; }}
+  .gl-wax-cards {{ grid-template-columns: 1fr; }}
+  .gl-rating-panel {{ grid-template-columns: 1fr; grid-template-areas: "radar" "tiles" "detail"; }}
+  .gl-radar-chart {{ border-right: 0; border-bottom: 1px solid var(--gl-hairline); }}
+  .gl-breakdown-grid {{ grid-template-columns: 1fr 1fr; }}
   .gl-sticky-cta-name {{ display: none; }}
   .gl-footer-inner {{ align-items: flex-start; flex-direction: column; }}
+}}
+
+@media (max-width: 460px) {{
+  .gl-rating-tablist,
+  .gl-rating-tiles,
+  .gl-breakdown-grid {{ grid-template-columns: 1fr; }}
+  .gl-rating-tablist button {{ border-right: 0; border-bottom: 3px solid var(--gl-carbon); }}
+  .gl-rating-tablist button:last-child {{ border-bottom: 0; }}
 }}
 """
 
@@ -1348,6 +1467,7 @@ def build_hero(race: dict) -> str:
       <div class="gl-scorebox" aria-label="Lab Score {score} out of 100">
         <span class="gl-scorebox-number">{score}</span>
         <span class="gl-scorebox-label">Lab Score</span>
+        <span class="gl-scorebox-tier">{esc(tier_label(tier))}</span>
       </div>
     </div>
     {plate_html}
@@ -1611,42 +1731,197 @@ def build_interactive_blocks(race: dict) -> str:
 """
 
 
-def build_rating_breakdown(race: dict) -> str:
-    """[05] Rating Breakdown with horizontal bars."""
-    r = race["nordic_lab_rating"]
+def _criterion_explanation(race: dict, key: str, score: int) -> str:
+    """Explain a stored score using only facts already present in the profile."""
+    v = race.get("vitals", {})
+    course = race.get("course", {})
+    climate = race.get("climate", {})
+    history = race.get("history", {})
+    label = RATING_LABELS.get(key, key.replace("_", " ").title())
+    context = ""
+    if key == "distance" and v.get("distance_km") is not None:
+        context = f" The primary distance is {format_distance(v['distance_km'])}."
+    elif key == "elevation" and v.get("elevation_m") is not None:
+        context = f" The profile lists {format_elevation(v['elevation_m'])} of elevation."
+    elif key == "altitude" and v.get("altitude_m") is not None:
+        context = f" The listed altitude is {format_altitude(v['altitude_m'])}."
+    elif key in {"field_size", "competitive_depth"} and v.get("field_size"):
+        context = f" The listed field size is {v['field_size']} skiers."
+    elif key == "course_technicality" and course.get("technical_rating") is not None:
+        context = f" The course profile lists technical difficulty at {course['technical_rating']} out of 5."
+    elif key == "snow_reliability" and climate.get("typical_temp_c"):
+        context = f" The typical race-day range is {climate['typical_temp_c']}°C."
+    elif key == "grooming_quality" and course.get("grooming"):
+        context = f" Grooming note: {course['grooming']}"
+    elif key == "accessibility" and v.get("location_badge", v.get("location")):
+        context = f" The race is listed in {v.get('location_badge', v.get('location'))}."
+    elif key == "prestige" and v.get("founded"):
+        context = f" The event was founded in {v['founded']}."
+    elif key == "community" and history.get("notable_facts"):
+        context = f" Profile note: {history['notable_facts'][0]}"
+    return f"Wax Bench scores {label} {score} out of 5.{context}"
 
-    rows_html = ""
-    for key, label in RATING_CRITERIA:
-        score = _parse_score(r.get(key))
-        if score is None:
-            continue
-        pct = (score / 5) * 100
-        score_class = f"score-{score}" if 1 <= score <= 5 else "score-3"
-        rows_html += (
-            f'<div class="gl-rating-row">'
-            f'<div class="gl-rating-label">{esc(label)}</div>'
-            f'<div class="gl-rating-track">'
-            f'<div class="gl-rating-fill {score_class}" style="width:{pct}%"></div>'
-            f'</div>'
-            f'<div class="gl-rating-value">{score}</div>'
-            f'</div>'
+
+def _radar_svg(race: dict, group_id: str, label: str, keys: list[str]) -> str:
+    """Render a complete SVG radar before JavaScript runs."""
+    rating = race["nordic_lab_rating"]
+    width, height = 440, 390
+    cx, cy, radius = 220, 182, 104
+    label_radius = radius + 34
+    offset = -math.pi / 2
+    count = len(keys)
+
+    def point(index: int, distance: float) -> tuple[float, float]:
+        angle = offset + index * 2 * math.pi / count
+        return cx + distance * math.cos(angle), cy + distance * math.sin(angle)
+
+    rings = []
+    for level in range(1, 6):
+        points = " ".join(
+            f"{point(i, radius * level / 5)[0]:.1f},{point(i, radius * level / 5)[1]:.1f}"
+            for i in range(count)
+        )
+        rings.append(f'<polygon points="{points}" class="gl-radar-grid"/>')
+
+    scores = [max(0, min(5, _parse_score(rating.get(key)) or 0)) for key in keys]
+    polygon = " ".join(
+        f"{point(i, radius * score / 5)[0]:.1f},{point(i, radius * score / 5)[1]:.1f}"
+        for i, score in enumerate(scores)
+    )
+    spokes = []
+    points_html = []
+    labels = []
+    for index, (key, score) in enumerate(zip(keys, scores)):
+        outer_x, outer_y = point(index, radius)
+        dot_x, dot_y = point(index, radius * score / 5)
+        label_x, label_y = point(index, label_radius)
+        criterion = RATING_LABELS.get(key, key.replace("_", " ").title())
+        anchor = "middle"
+        if label_x < cx - 15:
+            anchor = "end"
+        elif label_x > cx + 15:
+            anchor = "start"
+        spokes.append(
+            f'<line x1="{cx}" y1="{cy}" x2="{outer_x:.1f}" y2="{outer_y:.1f}" '
+            f'class="gl-radar-spoke" data-rating-key="{esc(key)}"/>'
+        )
+        points_html.append(
+            f'<circle cx="{dot_x:.1f}" cy="{dot_y:.1f}" r="14" class="gl-radar-hit" '
+            f'data-rating-group="{esc(group_id)}" data-rating-key="{esc(key)}" tabindex="0" role="button" '
+            f'aria-label="Explain {esc(criterion)}, scored {score} out of 5"/>'
+            f'<circle cx="{dot_x:.1f}" cy="{dot_y:.1f}" r="5" class="gl-radar-dot" pointer-events="none"/>'
+        )
+        labels.append(
+            f'<text x="{label_x:.1f}" y="{label_y - 5:.1f}" text-anchor="{anchor}" class="gl-radar-axis-label">'
+            f'{esc(criterion.upper())}</text>'
+            f'<text x="{label_x:.1f}" y="{label_y + 9:.1f}" text-anchor="{anchor}" class="gl-radar-axis-score">'
+            f'{score}/5</text>'
         )
 
-    # Score note
-    note_html = ""
-    score_note = r.get("score_note", "")
-    if score_note:
-        note_html = f'<div class="gl-score-note">{esc(score_note)}</div>'
-
+    total = sum(scores)
+    title_id = f"gl-radar-{group_id}-title"
     return f"""
-<section class="gl-section" id="rating">
-  {build_section_header('05', '14-criteria analysis')}
-  <div class="gl-rating-bars">
-    {rows_html}
-  </div>
+<div class="gl-radar-chart" data-rating-group="{esc(group_id)}">
+  <svg viewBox="0 0 {width} {height}" class="gl-radar-svg" role="img" aria-labelledby="{title_id}">
+    <title id="{title_id}">{esc(label)} ratings. Select a score point for its explanation.</title>
+    {''.join(rings)}
+    {''.join(spokes)}
+    <polygon points="{polygon}" class="gl-radar-polygon"/>
+    {''.join(points_html)}
+    {''.join(labels)}
+    <text x="{cx}" y="{cy - 4}" text-anchor="middle" class="gl-radar-total">{total}</text>
+    <text x="{cx}" y="{cy + 12}" text-anchor="middle" class="gl-radar-total-max">/35</text>
+  </svg>
+</div>"""
+
+
+def _rating_tiles(race: dict, group_id: str, keys: list[str]) -> str:
+    rating = race["nordic_lab_rating"]
+    tiles = []
+    first_label = ""
+    first_score = 0
+    first_explanation = ""
+    for index, key in enumerate(keys):
+        score = max(0, min(5, _parse_score(rating.get(key)) or 0))
+        label = RATING_LABELS.get(key, key.replace("_", " ").title())
+        explanation = _criterion_explanation(race, key, score)
+        if index == 0:
+            first_label, first_score, first_explanation = label, score, explanation
+        tiles.append(f"""
+<button type="button" class="gl-rating-tile" data-rating-group="{esc(group_id)}" data-rating-key="{esc(key)}" aria-pressed="{'true' if index == 0 else 'false'}">
+  <span class="gl-rating-tile-label">{esc(label)}</span>
+  <span class="gl-rating-tile-score">{score}<small>/5</small></span>
+  <span class="gl-rating-source" hidden>{esc(explanation)}</span>
+</button>""")
+    return f"""
+<div class="gl-rating-tiles">{''.join(tiles)}</div>
+<div class="gl-rating-explanation" id="gl-rating-detail-{esc(group_id)}" role="status" aria-live="polite">
+  <div class="gl-rating-explanation-head"><strong>{esc(first_label)}</strong><span>{first_score}/5</span></div>
+  <p>{esc(first_explanation)}</p>
+</div>"""
+
+
+def build_rating_breakdown(race: dict) -> str:
+    """Interactive, accessible two-radar decision tool."""
+    panels = []
+    tabs = []
+    rating = race["nordic_lab_rating"]
+    for index, (group_id, label, keys) in enumerate(RATING_GROUPS):
+        selected = index == 0
+        total = sum(max(0, min(5, _parse_score(rating.get(key)) or 0)) for key in keys)
+        tabs.append(
+            f'<button type="button" id="gl-rating-tab-{group_id}" role="tab" '
+            f'aria-selected="{str(selected).lower()}" aria-controls="gl-rating-panel-{group_id}" '
+            f'tabindex="{0 if selected else -1}">{esc(label)} <span>{total}/35</span></button>'
+        )
+        panels.append(f"""
+<div id="gl-rating-panel-{group_id}" class="gl-rating-panel" role="tabpanel" aria-labelledby="gl-rating-tab-{group_id}" data-rating-group="{group_id}"{' hidden' if not selected else ''}>
+  {_radar_svg(race, group_id, label, keys)}
+  {_rating_tiles(race, group_id, keys)}
+</div>""")
+
+    score_note = rating.get("score_note", "")
+    note_html = f'<div class="gl-score-note">{esc(score_note)}</div>' if score_note else ""
+    return f"""
+<section class="gl-section gl-rating-section" id="rating">
+  {build_section_header('01', 'The Wax Bench rating')}
+  <p class="gl-rating-intro">Two views of the same race: what the course demands, and what the event delivers. Select any criterion for the profile evidence.</p>
+  <div class="gl-rating-tablist" role="tablist" aria-label="Rating categories">{''.join(tabs)}</div>
+  {''.join(panels)}
   {note_html}
 </section>
 """
+
+
+def build_breakdown_tiles(race: dict) -> str:
+    """Compact map from the decision tool to the available deep-dive evidence."""
+    candidates = [
+        ("vitals", "Race vitals", "Distance, date, field, and format", bool(race.get("vitals"))),
+        ("course", "Course", "Terrain, grooming, and technical demands", bool(race.get("course"))),
+        ("race-week", "Race week", "Technique, wax, and start-line protocol", True),
+        ("climate", "Conditions", "Temperature and snow variables", bool(race.get("climate"))),
+        ("history", "Heritage", "Why this race matters", bool(race.get("history"))),
+        ("series", "Series", "Championship and circuit context", bool(race.get("series_membership"))),
+    ]
+    tiles = "".join(
+        f'<a class="gl-breakdown-tile" href="#{anchor}"><strong>{esc(title)}</strong><span>{esc(body)}</span></a>'
+        for anchor, title, body, active in candidates if active
+    )
+    return f"""
+<section class="gl-section" id="breakdown">
+  {build_section_header('02', 'What the score means')}
+  <div class="gl-breakdown-grid">{tiles}</div>
+</section>"""
+
+
+def build_transition_callout(race: dict) -> str:
+    name = esc(race.get("display_name", race.get("name", "this race")))
+    return f"""
+<section class="gl-transition" aria-labelledby="gl-transition-title">
+  <p class="gl-transition-kicker">Rating into action</p>
+  <h2 id="gl-transition-title">A score tells you what {name} demands. A plan prepares you for it.</h2>
+  <p>Use the profile below for the race facts. Use a custom plan when you want those demands translated into your available weeks, hours, and ski background.</p>
+</section>"""
 
 
 def build_history(race: dict) -> str:
@@ -1714,16 +1989,16 @@ def build_youtube_placeholder(race: dict) -> str:
 
 
 def build_product_ladder(race: dict) -> str:
-    """Product ladder band for high-intent race pages."""
+    """Custom-first offer, followed by the higher-touch coaching path."""
     slug = esc(race["slug"])
     rungs = [
-        ("Plans", "Training plans", "Structured blocks for classic ski-marathon preparation.", "FROM $60", "/training-plans/", "Browse", False, False),
-        ("Custom", "Custom plan", "Your race, your hours, your history. Built from the intake.", "$60-$249", f"/questionnaire/?race={slug}", "Start the intake", False, False),
-        ("Coaching", "1:1 coaching", "A person reads your training and adjusts the plan as life changes.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply", True, False),
+        ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background — built from the intake.", "$60-$249", f"/questionnaire/?race={slug}", "Start the intake", True, False),
+        ("Higher touch", "1:1 coaching", "A coach reads your training and adjusts the plan as conditions, recovery, and life change.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply for coaching", False, False),
+        ("Free reference", "Race prep guide", "Technique, pacing, fueling, and wax fundamentals to use while you evaluate your next step.", "FREE", "/guide/", "Read the guide", False, False),
     ]
     learn_path = DEFAULT_OUTPUT_DIR / "learn" / "index.html"
     if learn_path.exists():
-        rungs.insert(2, ("Course", "XC ski course", "Self-paced lessons from first glide to race preparation.", "SELF-PACED", "/learn/", "See the course", False, True))
+        rungs.append(("Learn", "XC ski course", "Self-paced lessons from first glide to race preparation.", "SELF-PACED", "/learn/", "See the course", False, True))
 
     cards = []
     for kicker, title, desc, price, href, label, primary, nofollow in rungs:
@@ -1741,8 +2016,8 @@ def build_product_ladder(race: dict) -> str:
     return f"""
 <section class="gl-ladder" id="training">
   <div class="gl-ladder-inner">
-    <h2>Get race ready</h2>
-    <p class="gl-ladder-lead">Choose the amount of structure you want around the start line.</p>
+    <h2>Built for your start line</h2>
+    <p class="gl-ladder-lead">Start with a plan shaped around this race. Move up to coaching when you want ongoing judgment and adjustment.</p>
     <div class="gl-rungs">{''.join(cards)}</div>
   </div>
 </section>
@@ -1782,6 +2057,69 @@ def build_interactions_js() -> str:
       navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   }
+
+  var ratingTabs = Array.prototype.slice.call(document.querySelectorAll('.gl-rating-tablist [role="tab"]'));
+  function activateRatingTab(tab, focus) {
+    ratingTabs.forEach(function(item) {
+      var selected = item === tab;
+      item.setAttribute('aria-selected', selected ? 'true' : 'false');
+      item.setAttribute('tabindex', selected ? '0' : '-1');
+      var panel = document.getElementById(item.getAttribute('aria-controls'));
+      if (panel) { panel.hidden = !selected; }
+    });
+    if (focus) { tab.focus(); }
+    if (typeof gtag === 'function') {
+      gtag('event', 'rating_tab_click', {rating_group: tab.id.replace('gl-rating-tab-', '')});
+    }
+  }
+  ratingTabs.forEach(function(tab, index) {
+    tab.addEventListener('click', function() { activateRatingTab(tab, false); });
+    tab.addEventListener('keydown', function(event) {
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') { return; }
+      event.preventDefault();
+      var step = event.key === 'ArrowRight' ? 1 : -1;
+      activateRatingTab(ratingTabs[(index + step + ratingTabs.length) % ratingTabs.length], true);
+    });
+  });
+
+  function activateCriterion(group, key, trackEvent) {
+    var panel = document.querySelector('.gl-rating-panel[data-rating-group="' + group + '"]');
+    if (!panel) { return; }
+    var selected = panel.querySelector('.gl-rating-tile[data-rating-key="' + key + '"]');
+    if (!selected) { return; }
+    panel.querySelectorAll('.gl-rating-tile').forEach(function(tile) {
+      tile.setAttribute('aria-pressed', tile === selected ? 'true' : 'false');
+    });
+    panel.querySelectorAll('.gl-radar-spoke').forEach(function(spoke) {
+      spoke.classList.toggle('is-active', spoke.getAttribute('data-rating-key') === key);
+    });
+    var detail = document.getElementById('gl-rating-detail-' + group);
+    if (detail) {
+      var label = selected.querySelector('.gl-rating-tile-label');
+      var score = selected.querySelector('.gl-rating-tile-score');
+      var source = selected.querySelector('.gl-rating-source');
+      var detailLabel = detail.querySelector('strong');
+      var detailScore = detail.querySelector('.gl-rating-explanation-head span');
+      var detailCopy = detail.querySelector('p');
+      if (label && detailLabel) { detailLabel.textContent = label.textContent; }
+      if (score && detailScore) { detailScore.textContent = score.textContent; }
+      if (source && detailCopy) { detailCopy.textContent = source.textContent; }
+    }
+    if (trackEvent && typeof gtag === 'function') {
+      gtag('event', 'rating_criterion_click', {rating_group: group, rating_criterion: key});
+    }
+  }
+  document.querySelectorAll('.gl-rating-tile, .gl-radar-hit').forEach(function(control) {
+    function select() {
+      activateCriterion(control.getAttribute('data-rating-group'), control.getAttribute('data-rating-key'), true);
+    }
+    control.addEventListener('click', select);
+    if (control.classList.contains('gl-radar-hit')) {
+      control.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); select(); }
+      });
+    }
+  });
 
   var dismiss = document.querySelector('[data-sticky-dismiss]');
   if (dismiss) {
@@ -1961,11 +2299,12 @@ def generate_page(race: dict) -> str:
     interactive = build_interactive_blocks(race)
     climate = build_climate(race)
     rating = build_rating_breakdown(race)
+    breakdown = build_breakdown_tiles(race)
+    transition = build_transition_callout(race)
     wax_bar = build_wax_bar(race)
     ladder = build_product_ladder(race)
     history = build_history(race)
     series = build_series(race)
-    youtube = build_youtube_placeholder(race)
     sticky_cta = build_sticky_cta(race)
     interactions_js = build_interactions_js()
     sticky_js = build_sticky_js()
@@ -1997,18 +2336,21 @@ def generate_page(race: dict) -> str:
 {hero}
 {wax_bar}
 <div class="gl-wrap">
+{rating}
+{breakdown}
+</div>
+{transition}
+</div>
+{ladder}
+<div class="gl-page">
+<div class="gl-wrap gl-deep-dive" id="deep-dive">
 {vitals}
 {course}
 {interactive}
 {climate}
-{rating}
 {history}
 {series}
-{youtube}
 </div>
-</div>
-{ladder}
-<div class="gl-page">
 {footer}
 </div>
 {sticky_cta}
