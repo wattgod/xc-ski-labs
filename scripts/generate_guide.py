@@ -408,9 +408,25 @@ def build_script() -> str:
       e.preventDefault();
       var honey = form.querySelector('[name="_honey"]');
       if (honey && honey.value) return; // bot
-      var data = new FormData(form);
-      // Fire-and-forget: record the email, don't block the reader on the network
-      fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } }).catch(function(){});
+      // Fire-and-forget to the lead worker: record the email + chapter,
+      // never block the reader on the network (unlock happens regardless).
+      var viewed = [];
+      try {
+        viewed = (JSON.parse(localStorage.getItem('xc_viewed_races') || '[]') || [])
+          .map(function(r) { return r && r.name; }).filter(Boolean).slice(0, 5);
+      } catch (e2) {}
+      fetch('https://fueling-lead-intake.gravelgodcoaching.workers.dev', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: 'training_guide',
+          brand: 'xcskilabs',
+          email: (form.querySelector('[name="email"]') || {}).value || '',
+          guide_chapter: (form.querySelector('[name="chapter"]') || {}).value || '',
+          viewed_races: viewed,
+          website: ''
+        })
+      }).catch(function(){});
       try { localStorage.setItem(UNLOCK_KEY, '1'); } catch (e) {}
       if (typeof gtag === 'function') gtag('event', 'guide_unlock', { chapter: (form.querySelector('[name="chapter"]') || {}).value || '' });
       unlock();
