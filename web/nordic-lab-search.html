@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>XC Ski Labs — Race Search</title>
 <meta name="description" content="Search every scored cross-country ski race — classic and skate, worldwide.">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+(function(){var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
+if(c==='declined')return;gtag('js',new Date());gtag('config','G-3JQLSQLPPM')})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -72,6 +78,14 @@ h1 { margin: 0; font-family: var(--gl-font-display); font-size: clamp(2.6rem, 7v
 .race-name { font-weight: 700; }
 .rowlink { color: var(--gl-swix-red); font-family: var(--gl-font-data); font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-decoration: none; white-space: nowrap; }
 .empty-state { padding: var(--gl-space-7) 0; color: var(--gl-muted); font-family: var(--gl-font-data); letter-spacing: .12em; text-transform: uppercase; }
+.gl-cookie-consent { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; display: none; background: var(--gl-carbon); border-top: 4px solid var(--gl-swix-red); color: var(--gl-white); padding: var(--gl-space-5); }
+.gl-cookie-consent.visible { display: block; }
+.gl-cookie-inner { max-width: var(--gl-measure); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-4); flex-wrap: wrap; }
+.gl-cookie-text { margin: 0; max-width: 62ch; }
+.gl-cookie-buttons { display: flex; gap: var(--gl-space-2); }
+.gl-cookie-btn { min-width: 44px; min-height: 44px; border: 2px solid var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }
+.gl-cookie-btn.accept { background: var(--gl-swix-red); color: var(--gl-white); border-color: var(--gl-swix-red); }
+.gl-cookie-btn.decline { background: transparent; color: var(--gl-white); }
 
 .gl-footer { background: var(--gl-swix-red); color: var(--gl-white); }
 .gl-footer-inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-5); }
@@ -150,6 +164,33 @@ h1 { margin: 0; font-family: var(--gl-font-display); font-size: clamp(2.6rem, 7v
     <span class="gl-footer-motto">BUILT FOR SKIERS WHO CHASE START LINES</span>
   </div>
 </footer>
+
+<div class="gl-cookie-consent" id="gl-cookie-consent">
+  <div class="gl-cookie-inner">
+    <p class="gl-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline.</p>
+    <div class="gl-cookie-buttons">
+      <button class="gl-cookie-btn accept" id="gl-cookie-accept">Accept</button>
+      <button class="gl-cookie-btn decline" id="gl-cookie-decline">Decline</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var banner=document.getElementById('gl-cookie-consent');
+  if(!banner||document.cookie.match(/xl_consent=/))return;
+  banner.classList.add('visible');
+  document.getElementById('gl-cookie-accept').addEventListener('click',function(){
+    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
+    banner.classList.remove('visible');
+    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});gtag('js',new Date());gtag('config','G-3JQLSQLPPM');}
+  });
+  document.getElementById('gl-cookie-decline').addEventListener('click',function(){
+    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
+    banner.classList.remove('visible');
+    if(typeof gtag==='function')gtag('consent','update',{'analytics_storage':'denied'});
+  });
+})();
+</script>
 
 <script src="nordic-lab-search.js"></script>
 </body>

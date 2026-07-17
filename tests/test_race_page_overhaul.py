@@ -25,7 +25,9 @@ def test_spine_first_page_order_and_custom_first_offer():
     page = _load_generator().generate_page(_vasaloppet())
 
     ordered_markers = [
+        'class="gl-breadcrumb"',
         'id="hero"',
+        'id="verdict"',
         'id="rating"',
         'id="breakdown"',
         'class="gl-transition"',
@@ -37,6 +39,9 @@ def test_spine_first_page_order_and_custom_first_offer():
     assert page.index("Custom plan") < page.index("1:1 coaching")
     assert "Training plans" not in page
     assert "VIDEO ENRICHMENT COMING SOON" not in page
+    assert 'data-page-format="spine-v2"' in page
+    assert '"@type":"BreadcrumbList"' in page
+    assert 'id="related"' in page
 
 
 def test_rating_is_server_rendered_two_radar_and_click_explain():
@@ -49,6 +54,9 @@ def test_rating_is_server_rendered_two_radar_and_click_explain():
     assert 'role="tablist"' in page
     assert 'role="status" aria-live="polite"' in page
     assert "rating_criterion_click" in page
+    assert "race_section_view" in page
+    assert "related_race_click" in page
+    assert ".gl-deep-dive > section[id]" in page
     assert ".gl-rating-panel[hidden] { display: none; }" in page
 
 

@@ -28,6 +28,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
 DEFAULT_ART_DIR = SCRIPT_DIR.parent / "art"
+DEFAULT_INDEX_PATH = SCRIPT_DIR.parent / "web" / "race-index.json"
 TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 
 # ── Rating Criteria ────────────────────────────────────────────
@@ -679,6 +680,21 @@ a {{ color: inherit; }}
   cursor: pointer;
 }}
 
+.gl-breadcrumb {{
+  max-width: var(--gl-measure);
+  margin: 0 auto;
+  padding: var(--gl-space-2) var(--gl-space-5);
+  font-family: var(--gl-font-data);
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}}
+.gl-breadcrumb a {{ color: var(--gl-muted); text-decoration: none; }}
+.gl-breadcrumb a:hover {{ color: var(--gl-swix-red); }}
+.gl-breadcrumb-sep {{ margin: 0 var(--gl-space-2); color: var(--gl-hairline); }}
+.gl-breadcrumb-current {{ color: var(--gl-carbon); }}
+
 .gl-hero {{
   position: relative;
   overflow: hidden;
@@ -892,6 +908,17 @@ a {{ color: inherit; }}
   background: var(--gl-paper);
 }}
 
+.gl-verdict {{
+  max-width: var(--gl-measure);
+  margin: 0 auto;
+  border-top: 6px solid var(--gl-klister);
+  background: var(--gl-carbon);
+  color: var(--gl-white);
+  padding: var(--gl-space-5);
+}}
+.gl-verdict-kicker {{ margin: 0 0 var(--gl-space-2); color: var(--gl-klister); font-family: var(--gl-font-data); font-size: .66rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }}
+.gl-verdict-copy {{ max-width: var(--gl-prose); margin: 0; font-family: var(--gl-font-editorial); font-size: 1.08rem; line-height: 1.65; }}
+
 .gl-section {{
   border-bottom: 1px solid var(--gl-hairline);
   padding: var(--gl-space-7) 0;
@@ -1064,14 +1091,6 @@ a {{ color: inherit; }}
 .gl-rating-explanation-head {{ display: flex; align-items: baseline; justify-content: space-between; gap: var(--gl-space-3); font-family: var(--gl-font-data); text-transform: uppercase; }}
 .gl-rating-explanation-head span {{ color: var(--gl-swix-red); font-weight: 700; }}
 .gl-rating-explanation p {{ margin: var(--gl-space-3) 0 0; line-height: 1.55; }}
-.gl-score-note {{
-  max-width: var(--gl-prose);
-  margin-top: var(--gl-space-5);
-  border-left: 6px solid var(--gl-swix-red);
-  padding: var(--gl-space-3) 0 var(--gl-space-3) var(--gl-space-5);
-  font-style: italic;
-}}
-
 .gl-breakdown-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); border: 3px solid var(--gl-carbon); }}
 .gl-breakdown-tile {{ min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; gap: var(--gl-space-4); border-right: 1px solid var(--gl-hairline); border-bottom: 1px solid var(--gl-hairline); background: var(--gl-white); color: var(--gl-carbon); padding: var(--gl-space-4); text-decoration: none; }}
 .gl-breakdown-tile strong {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; }}
@@ -1083,6 +1102,13 @@ a {{ color: inherit; }}
 .gl-transition h2 {{ max-width: 20ch; margin: 0 0 var(--gl-space-4); font-family: var(--gl-font-display); font-size: clamp(2rem, 5vw, 3.8rem); font-style: italic; font-weight: 900; line-height: .98; text-transform: uppercase; }}
 .gl-transition > p:last-child {{ max-width: var(--gl-prose); margin: 0; line-height: 1.6; }}
 .gl-deep-dive {{ padding-top: var(--gl-space-5); }}
+.gl-deep-dive::before {{ content: 'DEEP DIVE'; display: block; margin-bottom: var(--gl-space-2); color: var(--gl-muted); font-family: var(--gl-font-data); font-size: .64rem; font-weight: 700; letter-spacing: .2em; }}
+.gl-related-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); border: 3px solid var(--gl-carbon); }}
+.gl-related-card {{ min-height: 150px; display: flex; flex-direction: column; justify-content: space-between; gap: var(--gl-space-4); border-right: 1px solid var(--gl-hairline); background: var(--gl-white); padding: var(--gl-space-4); text-decoration: none; }}
+.gl-related-card:last-child {{ border-right: 0; }}
+.gl-related-card:hover {{ background: var(--gl-paper); box-shadow: inset 0 -5px 0 var(--gl-klister); }}
+.gl-related-card strong {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; }}
+.gl-related-meta {{ color: var(--gl-muted); font-family: var(--gl-font-data); font-size: .66rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }}
 
 .gl-rise-grid {{
   display: grid;
@@ -1117,8 +1143,7 @@ a {{ color: inherit; }}
 }}
 
 .gl-process-step h3,
-.gl-wax-call h3,
-.gl-knowledge h3 {{
+.gl-wax-call h3 {{
   margin: 0 0 var(--gl-space-2);
   font-family: var(--gl-font-display);
   font-size: 1.05rem;
@@ -1130,8 +1155,7 @@ a {{ color: inherit; }}
 }}
 
 .gl-process-step p,
-.gl-wax-card-face p,
-.gl-knowledge-result {{
+.gl-wax-card-face p {{
   margin: 0;
   font-size: .96rem;
   line-height: 1.55;
@@ -1187,46 +1211,13 @@ a {{ color: inherit; }}
 .gl-wax-card-violet .gl-wax-card-front {{ background: var(--gl-wax-violet); }}
 .gl-wax-card-red .gl-wax-card-front {{ background: var(--gl-swix-red); }}
 
-.gl-wax-card-kicker,
-.gl-knowledge-link {{
+.gl-wax-card-kicker {{
   font-family: var(--gl-font-data);
   font-size: .62rem;
   font-weight: 700;
   letter-spacing: .18em;
   text-transform: uppercase;
 }}
-
-.gl-knowledge {{
-  background: var(--gl-white);
-  border: 3px solid var(--gl-carbon);
-  padding: var(--gl-space-5);
-}}
-
-.gl-quiz-options {{
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gl-space-3);
-  margin: var(--gl-space-4) 0;
-}}
-
-.gl-quiz-option {{
-  min-height: 44px;
-  border: 2px solid var(--gl-carbon);
-  background: var(--gl-white);
-  color: var(--gl-carbon);
-  padding: 0 var(--gl-space-4);
-  font-family: var(--gl-font-data);
-  font-size: .72rem;
-  font-weight: 700;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  cursor: pointer;
-}}
-
-.gl-quiz-option.is-correct {{ background: var(--gl-wax-green); color: var(--gl-white); border-color: var(--gl-wax-green); }}
-.gl-quiz-option.is-wrong {{ background: var(--gl-swix-red); color: var(--gl-white); border-color: var(--gl-swix-red); }}
-.gl-knowledge-result {{ min-height: 28px; font-style: italic; }}
-.gl-knowledge-link {{ display: inline-block; margin-top: var(--gl-space-4); color: var(--gl-carbon); text-decoration: none; }}
 
 .gl-series-badges {{ display: flex; flex-wrap: wrap; gap: var(--gl-space-2); }}
 .gl-series-badge,
@@ -1350,6 +1341,8 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
   .gl-rating-panel {{ grid-template-columns: 1fr; grid-template-areas: "radar" "tiles" "detail"; }}
   .gl-radar-chart {{ border-right: 0; border-bottom: 1px solid var(--gl-hairline); }}
   .gl-breakdown-grid {{ grid-template-columns: 1fr 1fr; }}
+  .gl-related-grid {{ grid-template-columns: 1fr; }}
+  .gl-related-card {{ min-height: 110px; border-right: 0; border-bottom: 1px solid var(--gl-hairline); }}
   .gl-sticky-cta-name {{ display: none; }}
   .gl-footer-inner {{ align-items: flex-start; flex-direction: column; }}
 }}
@@ -1430,6 +1423,18 @@ def build_nav_header(active: str = "") -> str:
       <li class="gl-nav-item"><a href="/about/"{_active("about")}>About</a></li>
     </ul>
   </div>
+</nav>
+"""
+
+
+def build_breadcrumb(race: dict) -> str:
+    """Visible, crawlable race hierarchy with a JS-enhanced return target."""
+    name = race.get("display_name", race.get("name", "Race"))
+    return f"""
+<nav class="gl-breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a><span class="gl-breadcrumb-sep">&rsaquo;</span>
+  <a href="/search/" id="gl-races-crumb">Races</a><span class="gl-breadcrumb-sep">&rsaquo;</span>
+  <span class="gl-breadcrumb-current" aria-current="page">{esc(name)}</span>
 </nav>
 """
 
@@ -1716,8 +1721,7 @@ def build_knowledge_check(race: dict) -> str:
 
 def build_interactive_blocks(race: dict) -> str:
     wax = build_wax_call_cards(race)
-    quiz = build_knowledge_check(race)
-    if not wax and not quiz:
+    if not wax:
         return ""
     return f"""
 <section class="gl-section" id="race-week">
@@ -1725,7 +1729,6 @@ def build_interactive_blocks(race: dict) -> str:
   <div class="gl-rise-grid">
     {build_race_week_stepper(race)}
     {wax}
-    {quiz}
   </div>
 </section>
 """
@@ -1880,15 +1883,12 @@ def build_rating_breakdown(race: dict) -> str:
   {_rating_tiles(race, group_id, keys)}
 </div>""")
 
-    score_note = rating.get("score_note", "")
-    note_html = f'<div class="gl-score-note">{esc(score_note)}</div>' if score_note else ""
     return f"""
-<section class="gl-section gl-rating-section" id="rating">
+<section class="gl-section gl-rating-section" id="rating" data-measure-section="rating">
   {build_section_header('01', 'The Wax Bench rating')}
   <p class="gl-rating-intro">Two views of the same race: what the course demands, and what the event delivers. Select any criterion for the profile evidence.</p>
   <div class="gl-rating-tablist" role="tablist" aria-label="Rating categories">{''.join(tabs)}</div>
   {''.join(panels)}
-  {note_html}
 </section>
 """
 
@@ -1898,7 +1898,12 @@ def build_breakdown_tiles(race: dict) -> str:
     candidates = [
         ("vitals", "Race vitals", "Distance, date, field, and format", bool(race.get("vitals"))),
         ("course", "Course", "Terrain, grooming, and technical demands", bool(race.get("course"))),
-        ("race-week", "Race week", "Technique, wax, and start-line protocol", True),
+        (
+            "race-week",
+            "Race week",
+            "Technique, wax, and start-line protocol",
+            parse_temperature_range(race.get("climate", {}).get("typical_temp_c")) is not None,
+        ),
         ("climate", "Conditions", "Temperature and snow variables", bool(race.get("climate"))),
         ("history", "Heritage", "Why this race matters", bool(race.get("history"))),
         ("series", "Series", "Championship and circuit context", bool(race.get("series_membership"))),
@@ -1908,7 +1913,7 @@ def build_breakdown_tiles(race: dict) -> str:
         for anchor, title, body, active in candidates if active
     )
     return f"""
-<section class="gl-section" id="breakdown">
+<section class="gl-section" id="breakdown" data-measure-section="breakdown">
   {build_section_header('02', 'What the score means')}
   <div class="gl-breakdown-grid">{tiles}</div>
 </section>"""
@@ -1917,7 +1922,7 @@ def build_breakdown_tiles(race: dict) -> str:
 def build_transition_callout(race: dict) -> str:
     name = esc(race.get("display_name", race.get("name", "this race")))
     return f"""
-<section class="gl-transition" aria-labelledby="gl-transition-title">
+<section class="gl-transition" aria-labelledby="gl-transition-title" data-measure-section="transition">
   <p class="gl-transition-kicker">Rating into action</p>
   <h2 id="gl-transition-title">A score tells you what {name} demands. A plan prepares you for it.</h2>
   <p>Use the profile below for the race facts. Use a custom plan when you want those demands translated into your available weeks, hours, and ski background.</p>
@@ -1943,6 +1948,70 @@ def build_history(race: dict) -> str:
   {build_section_header('06', 'History and heritage')}
   <p class="gl-section-prose">{esc(summary)}</p>
   {facts_html}
+</section>
+"""
+
+
+def build_verdict(race: dict) -> str:
+    """Use the existing editor-authored score note as the compact verdict."""
+    note = race.get("nordic_lab_rating", {}).get("score_note", "")
+    if not note:
+        return ""
+    return f"""
+<section class="gl-verdict" id="verdict" data-measure-section="verdict">
+  <p class="gl-verdict-kicker">Lab verdict</p>
+  <p class="gl-verdict-copy">{esc(note)}</p>
+</section>
+"""
+
+
+def load_race_index() -> list[dict]:
+    """Load the compact race index used by search and internal linking."""
+    if not DEFAULT_INDEX_PATH.exists():
+        return []
+    try:
+        payload = json.loads(DEFAULT_INDEX_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    return payload.get("races", []) if isinstance(payload, dict) else []
+
+
+def build_related_races(race: dict, race_index: list[dict]) -> str:
+    """Three evidence-based next-race links, biased to country and technique."""
+    slug = race.get("slug", "")
+    vitals = race.get("vitals", {})
+    rating = race.get("nordic_lab_rating", {})
+    country = vitals.get("country_code", "")
+    discipline = rating.get("discipline", vitals.get("discipline", ""))
+    score = rating.get("overall_score", 0) or 0
+
+    candidates = [entry for entry in race_index if entry.get("s") != slug]
+    candidates.sort(key=lambda entry: (
+        entry.get("cc") == country,
+        entry.get("di") == discipline,
+        -abs((entry.get("sc") or 0) - score),
+    ), reverse=True)
+    selected = candidates[:3]
+    if not selected:
+        return ""
+
+    cards = []
+    for entry in selected:
+        name = entry.get("dn") or entry.get("n") or entry.get("s", "Race")
+        meta = " · ".join(filter(None, [
+            f"T{entry.get('t')}" if entry.get("t") else "",
+            entry.get("co", ""),
+            DISCIPLINE_LABELS.get(entry.get("di"), entry.get("di", "")),
+        ]))
+        cards.append(
+            f'<a class="gl-related-card" href="/race/{esc(entry.get("s", ""))}/" '
+            f'data-related-race="{esc(entry.get("s", ""))}">'
+            f'<strong>{esc(name)}</strong><span class="gl-related-meta">{esc(meta)}</span></a>'
+        )
+    return f"""
+<section class="gl-section" id="related">
+  {build_section_header('08', 'Keep exploring')}
+  <div class="gl-related-grid">{''.join(cards)}</div>
 </section>
 """
 
@@ -2010,11 +2079,11 @@ def build_product_ladder(race: dict) -> str:
       <h3>{esc(title)}</h3>
       <p>{esc(desc)}</p>
       <span class="gl-rung-price">{esc(price)}</span><br>
-      <a class="{btn_class}" href="{href}"{rel}>{esc(label)}</a>
+      <a class="{btn_class}" href="{href}" data-cta="{'custom_plan' if primary else 'coaching' if title == '1:1 coaching' else 'guide'}"{rel}>{esc(label)}</a>
     </div>""")
 
     return f"""
-<section class="gl-ladder" id="training">
+<section class="gl-ladder" id="training" data-measure-section="offer">
   <div class="gl-ladder-inner">
     <h2>Built for your start line</h2>
     <p class="gl-ladder-lead">Start with a plan shaped around this race. Move up to coaching when you want ongoing judgment and adjustment.</p>
@@ -2034,7 +2103,7 @@ def build_sticky_cta(race: dict) -> str:
   <div class="gl-sticky-cta-inner">
     <span class="gl-sticky-cta-name">{name}</span>
     <div class="gl-sticky-cta-actions">
-      <a href="/questionnaire/?race={slug}" class="gl-sticky-cta-btn" id="gl-sticky-cta-link">
+      <a href="/questionnaire/?race={slug}" class="gl-sticky-cta-btn" id="gl-sticky-cta-link" data-cta="custom_plan_sticky">
         <span id="gl-sticky-cta-text">Build my plan</span>
       </a>
       <button class="gl-sticky-cta-dismiss" data-sticky-dismiss aria-label="Dismiss">&times;</button>
@@ -2049,6 +2118,27 @@ def build_interactions_js() -> str:
     return """
 <script>
 (function() {
+  var raceSlug = document.body.getAttribute('data-race-slug') || '';
+  var pageFormat = document.body.getAttribute('data-page-format') || '';
+  function track(eventName, params) {
+    if (typeof gtag !== 'function') { return; }
+    params = params || {};
+    params.race_slug = raceSlug;
+    params.page_format = pageFormat;
+    gtag('event', eventName, params);
+  }
+
+  var racesCrumb = document.getElementById('gl-races-crumb');
+  if (racesCrumb && document.referrer) {
+    try {
+      var referrer = new URL(document.referrer);
+      if (referrer.origin === window.location.origin && referrer.pathname === '/search/') {
+        racesCrumb.href = referrer.pathname + referrer.search;
+        racesCrumb.textContent = 'Back to results';
+      }
+    } catch(e) {}
+  }
+
   var navToggle = document.querySelector('[data-nav-toggle]');
   var navLinks = document.querySelector('.gl-nav-links');
   if (navToggle && navLinks) {
@@ -2068,9 +2158,7 @@ def build_interactions_js() -> str:
       if (panel) { panel.hidden = !selected; }
     });
     if (focus) { tab.focus(); }
-    if (typeof gtag === 'function') {
-      gtag('event', 'rating_tab_click', {rating_group: tab.id.replace('gl-rating-tab-', '')});
-    }
+    track('rating_tab_click', {rating_group: tab.id.replace('gl-rating-tab-', '')});
   }
   ratingTabs.forEach(function(tab, index) {
     tab.addEventListener('click', function() { activateRatingTab(tab, false); });
@@ -2105,9 +2193,7 @@ def build_interactions_js() -> str:
       if (score && detailScore) { detailScore.textContent = score.textContent; }
       if (source && detailCopy) { detailCopy.textContent = source.textContent; }
     }
-    if (trackEvent && typeof gtag === 'function') {
-      gtag('event', 'rating_criterion_click', {rating_group: group, rating_criterion: key});
-    }
+    if (trackEvent) { track('rating_criterion_click', {rating_group: group, rating_criterion: key}); }
   }
   document.querySelectorAll('.gl-rating-tile, .gl-radar-hit').forEach(function(control) {
     function select() {
@@ -2120,6 +2206,38 @@ def build_interactions_js() -> str:
       });
     }
   });
+
+  document.querySelectorAll('a[data-cta]').forEach(function(link) {
+    link.addEventListener('click', function() {
+      track('cta_click', {
+        cta_type: link.getAttribute('data-cta') || 'other',
+        cta_destination: link.getAttribute('href') || ''
+      });
+    });
+  });
+
+  document.querySelectorAll('a[data-related-race]').forEach(function(link) {
+    link.addEventListener('click', function() {
+      track('related_race_click', {related_race_slug: link.getAttribute('data-related-race') || ''});
+    });
+  });
+
+  if ('IntersectionObserver' in window) {
+    var seenSections = {};
+    var sectionObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (!entry.isIntersecting) { return; }
+        var section = entry.target.getAttribute('data-measure-section') || ('deep_' + (entry.target.id || 'section'));
+        if (!section || seenSections[section]) { return; }
+        seenSections[section] = true;
+        track('race_section_view', {section_name: section});
+        sectionObserver.unobserve(entry.target);
+      });
+    }, {threshold: 0.35});
+    document.querySelectorAll('[data-measure-section], .gl-deep-dive > section[id]').forEach(function(section) {
+      sectionObserver.observe(section);
+    });
+  }
 
   var dismiss = document.querySelector('[data-sticky-dismiss]');
   if (dismiss) {
@@ -2137,28 +2255,6 @@ def build_interactions_js() -> str:
     });
   });
 
-  document.querySelectorAll('.gl-knowledge').forEach(function(quiz) {
-    var correct = quiz.getAttribute('data-quiz-correct');
-    var feedback = quiz.getAttribute('data-quiz-feedback') || '';
-    var result = quiz.querySelector('.gl-knowledge-result');
-    quiz.querySelectorAll('.gl-quiz-option').forEach(function(button) {
-      button.addEventListener('click', function() {
-        quiz.querySelectorAll('.gl-quiz-option').forEach(function(option) {
-          option.classList.remove('is-correct', 'is-wrong');
-          option.disabled = true;
-        });
-        if (button.getAttribute('data-answer') === correct) {
-          button.classList.add('is-correct');
-          if (result) { result.textContent = feedback; }
-        } else {
-          button.classList.add('is-wrong');
-          var correctButton = quiz.querySelector('[data-answer="' + correct + '"]');
-          if (correctButton) { correctButton.classList.add('is-correct'); }
-          if (result) { result.textContent = 'Not quite. ' + feedback; }
-        }
-      });
-    });
-  });
 })();
 </script>
 """
@@ -2262,16 +2358,29 @@ def build_jsonld(race: dict) -> str:
         },
     }
 
+    breadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://xcskilabs.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Races", "item": "https://xcskilabs.com/search/"},
+            {"@type": "ListItem", "position": 3, "name": race["name"], "item": f"https://xcskilabs.com/race/{race['slug']}/"},
+        ],
+    }
+
     return (
         '<script type="application/ld+json">'
         + _safe_json_for_script(event, ensure_ascii=False, separators=(",", ":"))
+        + "</script>"
+        + '<script type="application/ld+json">'
+        + _safe_json_for_script(breadcrumb, ensure_ascii=False, separators=(",", ":"))
         + "</script>"
     )
 
 
 # ── Page Assembly ──────────────────────────────────────────────
 
-def generate_page(race: dict) -> str:
+def generate_page(race: dict, race_index: Optional[list[dict]] = None) -> str:
     """Generate a complete HTML page for a race."""
     name = race.get("display_name", race["name"])
     slug = race["slug"]
@@ -2293,7 +2402,9 @@ def generate_page(race: dict) -> str:
     ga4_snippet = build_ga4_snippet()
 
     nav_header = build_nav_header()
+    breadcrumb = build_breadcrumb(race)
     hero = build_hero(race)
+    verdict = build_verdict(race)
     vitals = build_at_a_glance(race)
     course = build_course(race)
     interactive = build_interactive_blocks(race)
@@ -2305,6 +2416,7 @@ def generate_page(race: dict) -> str:
     ladder = build_product_ladder(race)
     history = build_history(race)
     series = build_series(race)
+    related = build_related_races(race, race_index if race_index is not None else load_race_index())
     sticky_cta = build_sticky_cta(race)
     interactions_js = build_interactions_js()
     sticky_js = build_sticky_js()
@@ -2329,12 +2441,14 @@ def generate_page(race: dict) -> str:
   {ga4_snippet}
   <style>{css}</style>
 </head>
-<body>
+<body data-race-slug="{esc(slug)}" data-page-format="spine-v2">
 <a href="#course" class="gl-skip-link">Skip to content</a>
 {nav_header}
+{breadcrumb}
 <div class="gl-page">
 {hero}
 {wax_bar}
+{verdict}
 <div class="gl-wrap">
 {rating}
 {breakdown}
@@ -2343,13 +2457,14 @@ def generate_page(race: dict) -> str:
 </div>
 {ladder}
 <div class="gl-page">
-<div class="gl-wrap gl-deep-dive" id="deep-dive">
+<div class="gl-wrap gl-deep-dive" id="deep-dive" data-measure-section="deep-dive">
 {vitals}
 {course}
 {interactive}
 {climate}
 {history}
 {series}
+{related}
 </div>
 {footer}
 </div>
@@ -2403,6 +2518,7 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
     errors = 0
     tiers = {1: 0, 2: 0, 3: 0, 4: 0}
     art_records: dict[str, dict[str, str]] = {}
+    race_index = load_race_index()
 
     for filepath in files:
         race = load_race(filepath)
@@ -2417,7 +2533,7 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
         if art_record["tier"] == "A" and art_record["license"].startswith("UNVERIFIED"):
             print(f"  WARN {slug}: missing GPX license file for {art_record['source']}")
 
-        page_html = generate_page(race)
+        page_html = generate_page(race, race_index)
 
         # Write to output/{slug}/index.html
         page_dir = output_dir / slug
