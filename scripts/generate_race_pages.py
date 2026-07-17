@@ -1173,7 +1173,7 @@ a {{ color: inherit; }}
 .gl-capture-sub {{ font-family: var(--gl-font-data); font-size: .8rem; color: var(--gl-white); margin: 0 0 14px; }}
 .gl-capture-row {{ display: flex; gap: 8px; }}
 .gl-capture-input {{ flex: 1; padding: 12px; font-family: var(--gl-font-data); font-size: .85rem; border: 2px solid var(--gl-white); background: var(--gl-white); color: var(--gl-carbon); }}
-.gl-capture-btn {{ padding: 12px 22px; font-family: var(--gl-font-data); font-weight: 700; letter-spacing: .1em; border: 2px solid var(--gl-klister); background: var(--gl-klister); color: var(--gl-carbon); cursor: pointer; }}
+.gl-capture-btn {{ padding: 12px 22px; font-family: var(--gl-font-data); font-weight: 700; letter-spacing: .1em; border: 2px solid var(--gl-paper); background: var(--gl-paper); color: var(--gl-carbon); cursor: pointer; }}
 .gl-capture-btn:disabled {{ opacity: .6; cursor: wait; }}
 .gl-capture-honey {{ position: absolute; left: -9999px; }}
 .gl-capture-ok, .gl-capture-err {{ font-family: var(--gl-font-data); font-size: .85rem; color: var(--gl-klister); margin: 8px 0 0; }}
@@ -1291,10 +1291,10 @@ def build_capture_js() -> str:
 (function() {
   // trail: remember the last 5 race pages viewed (first-party, local only)
   try {
-    var parts = window.location.pathname.split('/');
-    var el = document.querySelector('.gl-hero h1') || document.querySelector('h1');
-    if (parts[1] === 'race' && parts[2] && el) {
-      var slug = parts[2], name = el.textContent.trim();
+    var f0 = document.getElementById('gl-capture-form');
+    var slug = f0 && f0.elements.race_slug ? f0.elements.race_slug.value : '';
+    var name = f0 && f0.elements.race_name ? f0.elements.race_name.value : '';
+    if (slug && name) {
       var races = [];
       try { races = JSON.parse(localStorage.getItem('xc_viewed_races') || '[]'); } catch (e) {}
       if (!Array.isArray(races)) races = [];
@@ -1318,7 +1318,7 @@ def build_capture_js() -> str:
     var viewed = [];
     try {
       viewed = (JSON.parse(localStorage.getItem('xc_viewed_races') || '[]') || [])
-        .map(function(r) { return r && r.name; }).filter(Boolean).slice(0, 5);
+        .map(function(r) { return r && typeof r.name === 'string' ? r.name : null; }).filter(Boolean).slice(0, 5);
     } catch (e) {}
     if (btn) btn.disabled = true;
     if (err) err.hidden = true;
@@ -1336,7 +1336,7 @@ def build_capture_js() -> str:
       })
     }).then(function(resp) { return resp.ok ? resp.json() : Promise.reject(); })
       .then(function(data) {
-        if (data && data.success) { form.hidden = true; if (ok) ok.hidden = false; }
+        if (data && data.success === true) { form.hidden = true; if (ok) ok.hidden = false; }
         else { return Promise.reject(); }
       })
       .catch(function() { if (btn) btn.disabled = false; if (err) err.hidden = false; });
