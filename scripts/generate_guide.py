@@ -305,6 +305,7 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
     gated = chapter.get("gated")
     if gated:
         cid = esc(chapter.get("id", ""))
+        ctitle = esc(chapter.get("title") or chapter.get("id", ""))
         parts.append(f"""
 <aside class="gl-guide-gate" data-guide-gate>
   <p class="gl-guide-tag">Free — one email</p>
@@ -312,7 +313,7 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
   <p>Chapters four through eight — technique, fueling, tactics, race week, and the off-season — plus the whole guide, for your email. No spam; unsubscribe anytime.</p>
   <form class="gl-guide-gate-form" data-guide-gate-form action="https://formsubmit.co/{GATE_EMAIL}" method="POST">
     <input type="hidden" name="_subject" value="Guide unlock — {cid}">
-    <input type="hidden" name="chapter" value="{cid}">
+    <input type="hidden" name="chapter" value="{ctitle}">
     <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
     <label class="gl-guide-gate-label" for="gate-email-{cid}">Email</label>
     <div class="gl-guide-gate-row">
