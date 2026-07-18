@@ -15,6 +15,9 @@ Usage:
     python deploy.py --sync-coaching               # coaching page + intake form to /coaching/
     python deploy.py --sync-thanks                 # success page to /thanks/
     python deploy.py --sync-feeds                  # llms.txt, RSS, robots.txt, race dates
+    python deploy.py --sync-llms                   # regenerate + upload llms.txt/llms-full.txt/IndexNow key
+    python deploy.py --sync-markdown                # markdown race profiles to /race/{slug}.md
+    python deploy.py --sync-markdown --ping-indexnow # markdown sync + IndexNow ping (non-fatal)
     python deploy.py --purge-cache                 # purge SiteGround caches
     python deploy.py --deploy-all                  # everything + cache purge
 """
@@ -23,6 +26,7 @@ import argparse
 import os
 import shutil
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
@@ -34,6 +38,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
 NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "questionnaire", "search", "thanks", "training-plans"}
+SITE_URL = "https://xcskilabs.com"
 
 
 def get_ssh_credentials():
@@ -504,6 +509,115 @@ def sync_feeds():
     return False
 
 
+def sync_llms(output_dir=None):
+    """Regenerate then upload llms.txt, llms-full.txt, and the IndexNow key
+    file to the site root.
+
+    Regenerating here (rather than trusting whatever's on disk) keeps the
+    "Last generated" date in llms.txt fresh at deploy time instead of going
+    stale between manual generate_llms_txt.py runs.
+    """
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+
+    try:
+        subprocess.run(
+            [sys.executable, str(SCRIPT_DIR / "generate_llms_txt.py")],
+            check=True, capture_output=True, text=True, timeout=60,
+        )
+        print("  Regenerated llms.txt + llms-full.txt")
+    except subprocess.CalledProcessError as e:
+        print(f"  llms.txt regeneration failed, uploading existing files: {e.stderr.strip()}")
+    except Exception as e:
+        print(f"  llms.txt regeneration failed, uploading existing files: {e}")
+
+    out_dir = Path(output_dir) if output_dir else PROJECT_ROOT / "output"
+    remote_base = get_remote_base()
+
+    import indexnow_ping
+    files = [
+        (out_dir / "llms.txt", f"{remote_base}/llms.txt"),
+        (out_dir / "llms-full.txt", f"{remote_base}/llms-full.txt"),
+        (
+            PROJECT_ROOT / "web" / f"{indexnow_ping.INDEXNOW_KEY}.txt",
+            f"{remote_base}/{indexnow_ping.INDEXNOW_KEY}.txt",
+        ),
+    ]
+
+    success = 0
+    for local, remote in files:
+        if not local.exists():
+            print(f"  Missing: {local}")
+            if local.suffix == ".txt" and local.name in ("llms.txt", "llms-full.txt"):
+                print("  Run: python scripts/generate_llms_txt.py first")
+            continue
+        if _scp_upload(host, user, port, local, remote):
+            success += 1
+
+    if success == len(files):
+        print("  Deployed llms.txt + llms-full.txt + IndexNow key file to site root")
+        return True
+
+    print(f"  FAILED: partial llms deploy {success}/{len(files)} files")
+    return success == len(files)
+
+
+def sync_markdown(markdown_dir=None):
+    """Upload markdown race profiles to /race/{slug}.md via tar+ssh.
+
+    Files are named {slug}.md in web/markdown/, so they upload as flat
+    files straight into the existing /race/ slug-directory tree — this is
+    what makes them resolvable at https://xcskilabs.com/race/{slug}.md.
+
+    Returns the list of uploaded .md URLs on success (for IndexNow pinging),
+    or None on failure.
+    """
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return None
+    host, user, port = ssh
+
+    md_path = Path(markdown_dir) if markdown_dir else PROJECT_ROOT / "web" / "markdown"
+    if not md_path.exists():
+        print(f"  Markdown directory not found: {md_path}")
+        print("  Run: python scripts/generate_markdown_profiles.py first")
+        return None
+
+    md_files = sorted(md_path.glob("*.md"))
+    if not md_files:
+        print(f"  No .md files found in {md_path}")
+        return None
+
+    remote_base = f"{get_remote_base()}/race"
+
+    print(f"  Uploading {len(md_files)} markdown profiles via tar+ssh...")
+    if not _tar_ssh_upload(host, user, port, md_path, remote_base):
+        return None
+
+    _ssh_run(host, user, port, f"chmod 644 {remote_base}/*.md 2>/dev/null")
+
+    print(f"  Deployed {len(md_files)} markdown profiles to /race/*.md")
+    return [f"{SITE_URL}/race/{f.stem}.md" for f in md_files]
+
+
+def ping_indexnow(urls):
+    """POST synced markdown URLs to IndexNow. Never fails the deploy — a
+    ping failure (missing credentials, no synced URLs, network error) is
+    a warning only."""
+    if not urls:
+        print("  --ping-indexnow had no synced URLs to ping (did --sync-markdown succeed?)")
+        return False
+    try:
+        import indexnow_ping
+        indexnow_ping.ping(urls)
+        return True
+    except Exception as e:
+        print(f"  IndexNow ping failed (non-fatal): {e}")
+        return False
+
+
 def purge_cache():
     """Purge SiteGround caches.
 
@@ -548,6 +662,8 @@ def deploy_all():
         ("Thanks", sync_thanks),
         ("Sitemap", sync_sitemap),
         ("Feeds", sync_feeds),
+        ("LLMs + IndexNow Key", sync_llms),
+        ("Markdown Mirrors", sync_markdown),
         ("Cache Purge", purge_cache),
     ]
 
@@ -630,6 +746,23 @@ if __name__ == "__main__":
         help="Upload llms.txt, race-dates.json, robots.txt, and feed/races.xml"
     )
     parser.add_argument(
+        "--sync-llms", action="store_true",
+        help="Regenerate then upload llms.txt, llms-full.txt, and the IndexNow key file to site root"
+    )
+    parser.add_argument(
+        "--sync-markdown", action="store_true",
+        help="Upload markdown race profiles to /race/{slug}.md via tar+ssh"
+    )
+    parser.add_argument(
+        "--markdown-dir", default=None,
+        help="Path to markdown profiles directory (default: web/markdown)"
+    )
+    parser.add_argument(
+        "--ping-indexnow", action="store_true",
+        help="After a successful --sync-markdown, POST the synced .md URLs to IndexNow "
+             "(never fails the deploy — a ping failure only prints a warning)"
+    )
+    parser.add_argument(
         "--purge-cache", action="store_true",
         help="Purge all SiteGround caches"
     )
@@ -678,6 +811,16 @@ if __name__ == "__main__":
             ran = True
         if args.sync_feeds:
             sync_feeds()
+            ran = True
+        synced_markdown_urls = None
+        if args.sync_llms:
+            sync_llms()
+            ran = True
+        if args.sync_markdown:
+            synced_markdown_urls = sync_markdown(args.markdown_dir)
+            ran = True
+        if args.ping_indexnow:
+            ping_indexnow(synced_markdown_urls)
             ran = True
         if args.purge_cache:
             purge_cache()

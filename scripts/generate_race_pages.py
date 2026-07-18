@@ -2080,6 +2080,7 @@ def generate_page(race: dict) -> str:
   <title>{title}</title>
   <meta name="description" content="{description}">
   <meta name="robots" content="index, follow">
+  <link rel="alternate" type="text/markdown" href="https://xcskilabs.com/race/{esc(slug)}.md">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">

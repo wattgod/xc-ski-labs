@@ -578,6 +578,27 @@ class TestWaxBenchRacePages:
         assert '<div class="gl-waxbar"' not in body_markup
         assert "RACE DAY" not in body_markup
 
+    def test_has_markdown_alternate_link(self):
+        """Head must advertise the Markdown mirror at /race/{slug}.md (AI-search ingestibility)."""
+        gen = self._race_generator()
+        race = {
+            "name": "Fixture Race",
+            "slug": "fixture-race",
+            "display_name": "Fixture Race",
+            "tagline": "A quiet fixture race.",
+            "vitals": {"country": "Norway", "distance_km": 10, "discipline": "classic", "date": "March"},
+            "climate": {"typical_temp_c": "cold", "description": "Variable."},
+            "course": {"primary": "Rolling course."},
+            "nordic_lab_rating": {
+                "overall_score": 50,
+                "tier": 3,
+                "discipline": "classic",
+                **{key: 3 for key, _ in gen.RATING_CRITERIA},
+            },
+        }
+        html = gen.generate_page(race)
+        assert '<link rel="alternate" type="text/markdown" href="https://xcskilabs.com/race/fixture-race.md">' in html
+
     def test_generated_race_pages_avoid_banned_substrings(self):
         banned = re.compile(r"(honestly rated|honest review|unbiased)", re.IGNORECASE)
         for slug_dir in OUTPUT_DIR.iterdir():
