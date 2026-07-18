@@ -25,7 +25,10 @@ OUTPUT_DIR = PROJECT_ROOT / "output"
 TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
 
 TOTAL_SECTIONS = 12
-FORM_ACTION = "https://formsubmit.co/coaching@xcskilabs.com"
+# FormSubmit alias for gravelgodcoaching@gmail.com (the one mailbox Matti reads; the alias
+# keeps the address out of the HTML). coaching@xcskilabs.com was never a real mailbox and
+# the form was never FormSubmit-activated, so submissions vanished. Activated Jul 18 2026.
+FORM_ACTION = "https://formsubmit.co/97279e3477a42fb94b02e94f92ec236c"
 FORM_SUBJECT = "New Coaching Application \u2014 XC Ski Labs"
 
 
