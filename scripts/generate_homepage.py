@@ -1073,7 +1073,7 @@ a:focus-visible, button:focus-visible {{
         <a href="/training-plans/">Plans</a>
               </li>
       <li class="gl-nav-item">
-        <a href="/coaching/apply/">Coaching</a>
+        <a href="/coaching/">Coaching</a>
               </li>
       <li class="gl-nav-item">
         <a href="/about/">About</a>
@@ -1210,7 +1210,7 @@ a:focus-visible, button:focus-visible {{
     <div style="display:flex;gap:16px;flex-wrap:wrap">
       <a href="/search/" class="footer-link">Races</a>
       <a href="/training-plans/" class="footer-link">Training Plans</a>
-      <a href="/coaching/apply/" class="footer-link">Coaching</a>
+      <a href="/coaching/" class="footer-link">Coaching</a>
     </div>
   </div>
 </footer>

@@ -1134,7 +1134,7 @@ def build_nav() -> str:
     <a href="/search/">Search</a>
     <a href="/training/">Training Plans</a>
     <a href="/guide/">Guide</a>
-    <a href="/coaching/apply/" class="active">Coaching</a>
+    <a href="/coaching/" class="active">Coaching</a>
   </div>
 </nav>"""
 
@@ -1150,7 +1150,7 @@ def build_footer() -> str:
     <a href="/">Home</a>
     <a href="/search/">Search</a>
     <a href="/training/">Training Plans</a>
-    <a href="/coaching/apply/">Coaching</a>
+    <a href="/coaching/">Coaching</a>
   </div>
   <div class="gl-footer-copy">&copy; 2026 XC Ski Labs. All rights reserved.</div>
 </footer>"""

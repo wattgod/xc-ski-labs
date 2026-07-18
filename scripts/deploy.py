@@ -12,7 +12,7 @@ Usage:
     python deploy.py --sync-index                  # race-index.json to /search/
     python deploy.py --sync-sitemap                # sitemap to site root
     python deploy.py --sync-training               # training plans to /training-plans/
-    python deploy.py --sync-coaching               # coaching form to /coaching/apply/
+    python deploy.py --sync-coaching               # coaching page + intake form to /coaching/
     python deploy.py --sync-thanks                 # success page to /thanks/
     python deploy.py --sync-feeds                  # llms.txt, RSS, robots.txt, race dates
     python deploy.py --purge-cache                 # purge SiteGround caches
@@ -344,29 +344,57 @@ def sync_training():
 
 
 def sync_coaching():
-    """Upload coaching intake form to /coaching/apply/ on SiteGround."""
+    """Upload the coaching landing page (/coaching/) and intake form
+    (/coaching/apply/) to SiteGround.
+
+    Uses the same scp-per-file, count-successes pattern as sync_search()
+    (repo pitfall #35: fail on partial deploys — return success ==
+    len(files), not success > 0).
+    """
     ssh = get_ssh_credentials()
     if not ssh:
         return False
     host, user, port = ssh
 
-    coaching_file = PROJECT_ROOT / "output" / "coaching" / "apply" / "index.html"
-    if not coaching_file.exists():
-        print(f"  Coaching intake form not found: {coaching_file}")
-        print("  Run: python wordpress/generate_coaching_apply.py")
+    remote_base = get_remote_base()
+    files = [
+        (
+            PROJECT_ROOT / "output" / "coaching" / "index.html",
+            f"{remote_base}/coaching",
+            f"{remote_base}/coaching/index.html",
+            "wordpress/generate_coaching.py",
+        ),
+        (
+            PROJECT_ROOT / "output" / "coaching" / "apply" / "index.html",
+            f"{remote_base}/coaching/apply",
+            f"{remote_base}/coaching/apply/index.html",
+            "wordpress/generate_coaching_apply.py",
+        ),
+    ]
+
+    missing = [(local, gen) for local, _, _, gen in files if not local.exists()]
+    if missing:
+        for local, gen in missing:
+            print(f"  Coaching page not found: {local}")
+            print(f"  Run: python {gen}")
         return False
 
-    remote_dir = f"{get_remote_base()}/coaching/apply"
-    ok, _, err = _ssh_run(host, user, port,
-                          f"mkdir -p {remote_dir} && chmod 755 {remote_dir}")
-    if not ok:
-        print(f"  Failed to create /coaching/apply/ directory: {err}")
-        return False
+    success = 0
+    for local, remote_dir, remote_file, _ in files:
+        ok, _, err = _ssh_run(host, user, port,
+                              f"mkdir -p {remote_dir} && chmod 755 {remote_dir}")
+        if not ok:
+            print(f"  Failed to create {remote_dir}: {err}")
+            continue
+        if _scp_upload(host, user, port, local, remote_file):
+            success += 1
 
-    if _scp_upload(host, user, port, coaching_file, f"{remote_dir}/index.html"):
-        print("  Deployed coaching intake form to /coaching/apply/")
+    if success == len(files):
+        print("  Deployed coaching landing page (/coaching/) and intake form (/coaching/apply/)")
         return True
-    return False
+
+    print(f"  FAILED: partial coaching deploy {success}/{len(files)} files")
+    return success == len(files)
 
 
 def _sync_static_page(name: str, remote_path: str):
@@ -513,7 +541,7 @@ def deploy_all():
         ("Search UI", sync_search),
         ("Race Pages", sync_pages),
         ("Training Plans", sync_training),
-        ("Coaching Form", sync_coaching),
+        ("Coaching", sync_coaching),
         ("Questionnaire", sync_questionnaire),
         ("About", sync_about),
         ("Guide", sync_guide),
@@ -579,7 +607,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--sync-coaching", action="store_true",
-        help="Upload coaching intake form to /coaching/apply/"
+        help="Upload coaching landing page (/coaching/) and intake form (/coaching/apply/)"
     )
     parser.add_argument(
         "--sync-guide", action="store_true",

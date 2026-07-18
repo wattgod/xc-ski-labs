@@ -823,8 +823,8 @@ def build_nav():
         <div class="gl-nav-dropdown"><a href="/training-plans/">Training Plans</a></div>
       </li>
       <li class="gl-nav-item">
-        <a href="/coaching/apply/">Services</a>
-        <div class="gl-nav-dropdown"><a href="/coaching/apply/">Coaching</a></div>
+        <a href="/coaching/">Services</a>
+        <div class="gl-nav-dropdown"><a href="/coaching/">Coaching</a></div>
       </li>
       <li class="gl-nav-item">
         <a href="/about/">About</a>
