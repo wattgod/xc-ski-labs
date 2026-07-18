@@ -319,6 +319,85 @@ class TestHomepage:
             assert page.exists(), \
                 f"Homepage links to race/{slug}/ but output/{slug}/index.html doesn't exist"
 
+    def test_homepage_hero_kicker_h1_sub(self):
+        """Hero kicker/H1/sub reflect the ladder-strip spec copy."""
+        hp = OUTPUT_DIR / "index.html"
+        if not hp.exists():
+            pytest.skip("Homepage not generated")
+        content = hp.read_text()
+        assert "The XC ski race database" in content
+        assert "<h1>Every cross country ski race, rated.</h1>" in content
+        assert "criteria &mdash; and the training to show up ready for the one you pick." in content
+        # Existing hero interactions (search + "How we rate") stay untouched.
+        assert '<a href="/search/" class="hero-cta">Search the races</a>' in content
+        assert '<a href="/about/" class="hero-cta secondary">How we rate</a>' in content
+        # New anchor is ADDED, not a repurpose of an existing button.
+        assert '<a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>' in content
+
+    def test_homepage_ladder_strip_present_once(self):
+        """Ladder strip section appears exactly once, right after the hero."""
+        hp = OUTPUT_DIR / "index.html"
+        if not hp.exists():
+            pytest.skip("Homepage not generated")
+        content = hp.read_text()
+        assert content.count('id="ladder"') == 1
+        assert content.count('class="gl-hp-ladder"') == 1
+        # Immediately after hero, before the Tier 1 table.
+        hero_close = content.index("</section>", content.index('<section class="hero">'))
+        ladder_open = content.index('id="ladder"')
+        tier1_open = content.index("Tier 1 — The monuments")
+        assert hero_close < ladder_open < tier1_open
+
+    def test_homepage_ladder_strip_three_cells(self):
+        hp = OUTPUT_DIR / "index.html"
+        if not hp.exists():
+            pytest.skip("Homepage not generated")
+        content = hp.read_text()
+        assert content.count('class="gl-hp-ladder-cell"') == 3
+        for num in ("01", "02", "03"):
+            assert f'<span class="gl-hp-ladder-num">{num}</span>' in content
+
+    def test_homepage_ladder_strip_copy_and_hrefs(self):
+        hp = OUTPUT_DIR / "index.html"
+        if not hp.exists():
+            pytest.skip("Homepage not generated")
+        content = hp.read_text()
+
+        # Cell 01 — Pick a race
+        assert '<h2 class="gl-hp-ladder-headline">Pick a race</h2>' in content
+        assert "races, rated. Start with yours." in content
+        assert '<a href="/search/" class="gl-hp-ladder-cta" data-ga="ladder_pick_race">SEARCH &rarr;</a>' in content
+
+        # Cell 02 — Get a plan
+        assert '<h2 class="gl-hp-ladder-headline">Get a plan</h2>' in content
+        assert "Built for the race on your calendar, around the hours you actually have." in content
+        assert '<a href="/training-plans/" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>' in content
+
+        # Cell 03 — Coaching
+        assert '<h2 class="gl-hp-ladder-headline">Find out what you could be.</h2>' in content
+        assert "A human in your corner &mdash; not an AI, not a spreadsheet." in content
+        assert '<a href="/coaching/" class="gl-hp-ladder-cta" data-ga="ladder_coaching">GET ME IN YOUR CORNER &rarr;</a>' in content
+
+    def test_homepage_ladder_strip_no_animation(self):
+        hp = OUTPUT_DIR / "index.html"
+        if not hp.exists():
+            pytest.skip("Homepage not generated")
+        content = hp.read_text()
+        assert "data-animate" not in content
+
+    def test_homepage_ladder_css_no_hardcoded_hex(self):
+        """New ladder CSS block must be tokens-only (scoped to the new block —
+        legacy homepage CSS carries intentional hex elsewhere)."""
+        hp = OUTPUT_DIR / "index.html"
+        if not hp.exists():
+            pytest.skip("Homepage not generated")
+        content = hp.read_text()
+        start = content.index("/* ── Ladder Strip (homepage) ──")
+        end = content.index(".db-band {")
+        ladder_css = content[start:end]
+        hex_literals = re.findall(r'(?<!&)#[0-9A-Fa-f]{3,8}\b', ladder_css)
+        assert not hex_literals, f"Hardcoded hex in ladder CSS: {hex_literals}"
+
 
 # ── Questionnaire Tests ────────────────────────────────────────
 
@@ -539,7 +618,7 @@ class TestWaxBenchRacePages:
     def test_homepage_uses_wax_bench_chrome(self):
         homepage = OUTPUT_DIR / "index.html"
         html = homepage.read_text(encoding="utf-8")
-        assert "Every loppet, rated." in html
+        assert "Every cross country ski race, rated." in html
         assert "honestly rated" not in html.lower()
         assert "gl-ladder" in html
         assert "Get race ready" in html

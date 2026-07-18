@@ -453,8 +453,112 @@ a:hover {{ text-decoration: underline; }}
   text-decoration: none;
 }}
 
+/* Added CTA (not a repurpose of the existing secondary "How we rate" link) —
+   existing hero controls stay untouched; this is a new element that anchors
+   to the ladder strip below. */
+.hero-getready-cta {{
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 14px 32px;
+  margin-left: 10px;
+  font-family: var(--gl-font-data);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: transparent;
+  color: var(--gl-white);
+  border: 2px solid var(--gl-klister);
+  text-decoration: none;
+}}
+
+.hero-getready-cta:hover {{
+  text-decoration: none;
+}}
+
 .mono {{ font-family: var(--gl-font-data); }}
 .r {{ text-align: right; }}
+
+/* ── Ladder Strip (homepage) ──
+   3-cell band: pick a race / get a plan / coaching. Tokens only, no hex. */
+.gl-hp-ladder {{
+  border-top: 1px solid var(--gl-carbon);
+  border-bottom: 1px solid var(--gl-carbon);
+  background: var(--gl-paper);
+}}
+
+.gl-hp-ladder-inner {{
+  max-width: var(--gl-measure);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}}
+
+.gl-hp-ladder-cell {{
+  padding: var(--gl-space-6) var(--gl-space-5);
+  border-left: 1px solid var(--gl-hairline);
+}}
+
+.gl-hp-ladder-cell:first-child {{
+  border-left: none;
+}}
+
+.gl-hp-ladder-num {{
+  display: block;
+  margin-bottom: var(--gl-space-3);
+  font-family: var(--gl-font-data);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--gl-muted);
+}}
+
+.gl-hp-ladder-headline {{
+  margin: 0 0 var(--gl-space-2);
+  font-family: var(--gl-font-editorial);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--gl-carbon);
+}}
+
+.gl-hp-ladder-body {{
+  margin: 0 0 var(--gl-space-4);
+  font-family: var(--gl-font-editorial);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--gl-muted);
+}}
+
+.gl-hp-ladder-cta {{
+  display: inline-block;
+  font-family: var(--gl-font-data);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gl-swix-red);
+  text-decoration: none;
+}}
+
+.gl-hp-ladder-cta:hover {{
+  text-decoration: underline;
+}}
+
+@media (max-width: 719px) {{
+  .gl-hp-ladder-inner {{
+    grid-template-columns: 1fr;
+  }}
+  .gl-hp-ladder-cell {{
+    border-left: none;
+    border-top: 1px solid var(--gl-hairline);
+    padding: var(--gl-space-5);
+  }}
+  .gl-hp-ladder-cell:first-child {{
+    border-top: none;
+  }}
+}}
 
 .db-band {{
   background: var(--gl-paper);
@@ -1021,6 +1125,7 @@ a:focus-visible, button:focus-visible {{
   .hero {{ padding: 48px 16px 40px; }}
   .hero-stats {{ gap: 20px; }}
   .hero-cta.secondary {{ margin: 10px 0 0; }}
+  .hero-getready-cta {{ margin: 10px 0 0; }}
   .section {{ padding: 40px 16px; }}
   .race-grid {{ grid-template-columns: 1fr; }}
   .coverage-grid {{ grid-template-columns: 1fr 1fr; }}
@@ -1085,11 +1190,12 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Hero ── -->
 <section class="hero">
   <div class="hero-inner">
-    <p class="hero-sub">The XC Ski Race Database</p>
-    <h1>Every loppet, rated.</h1>
-    <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria and ranked into four tiers, from the Birkebeiner to the backyard classics.</p>
+    <p class="hero-sub">The XC ski race database</p>
+    <h1>Every cross country ski race, rated.</h1>
+    <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria &mdash; and the training to show up ready for the one you pick.</p>
     <a href="/search/" class="hero-cta">Search the races</a>
     <a href="/about/" class="hero-cta secondary">How we rate</a>
+    <a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>
     <div class="hero-stats">
       <div class="hero-stat">
         <span class="num" id="statRaces">{race_count}</span>
@@ -1107,6 +1213,34 @@ a:focus-visible, button:focus-visible {{
         <span class="num">{TIER_COUNT}</span>
         <span class="label">Tiers</span>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Ladder Strip (immediately after hero, before rankings) ── -->
+<section class="gl-hp-ladder" id="ladder">
+  <div class="gl-hp-ladder-inner">
+    <div class="gl-hp-ladder-cell">
+      <span class="gl-hp-ladder-num">01</span>
+      <h2 class="gl-hp-ladder-headline">Pick a race</h2>
+      <p class="gl-hp-ladder-body">{race_count} races, rated. Start with yours.</p>
+      <a href="/search/" class="gl-hp-ladder-cta" data-ga="ladder_pick_race">SEARCH &rarr;</a>
+    </div>
+    <div class="gl-hp-ladder-cell">
+      <span class="gl-hp-ladder-num">02</span>
+      <h2 class="gl-hp-ladder-headline">Get a plan</h2>
+      <p class="gl-hp-ladder-body">Built for the race on your calendar, around the hours you actually have.</p>
+      <a href="/training-plans/" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>
+    </div>
+    <div class="gl-hp-ladder-cell">
+      <span class="gl-hp-ladder-num">03</span>
+      <h2 class="gl-hp-ladder-headline">Find out what you could be.</h2>
+      <!-- SANCTIONED EXCEPTION to the anti-defensive-messaging rule (docs/BRAND_GUIDELINES.md
+           section 7): this line mirrors the owner-approved "human in your corner... not an
+           AI..." copy precedent-set on the /coaching/ hero, wordpress/generate_coaching.py
+           build_hero() (Matti sanctioned 2026-07-18). -->
+      <p class="gl-hp-ladder-body">A human in your corner &mdash; not an AI, not a spreadsheet.</p>
+      <a href="/coaching/" class="gl-hp-ladder-cta" data-ga="ladder_coaching">GET ME IN YOUR CORNER &rarr;</a>
     </div>
   </div>
 </section>
