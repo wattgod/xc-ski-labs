@@ -100,10 +100,17 @@ class LinkExtractor(HTMLParser):
 
 # SiteGround's bot protection answers with HTTP 202 + an `sg-captcha` header
 # instead of the page (Roadie Labs, 2026-07-22: 18 false "dead" findings, all
-# 202). A 202 is never a real response from this static site, so treat it as
-# a challenge: back off, retry, and report still-challenged URLs separately
-# rather than as dead links.
-CHALLENGE_BACKOFF = (20, 45)  # seconds to wait before each retry
+# 202). A 202 is never a real response from this static site, so exactly 202
+# is treated as a challenge (a real 404/500 stays dead even if it carries the
+# header): back off, retry, and report still-challenged URLs separately
+# rather than as dead links. Retries draw from a scan-wide sleep budget so a
+# long WAF window can't blow the caller's timeout (immune_check allows 900s
+# for the whole subprocess) — once the budget is spent, challenged URLs are
+# recorded immediately without retrying.
+CHALLENGE_BACKOFF = (20, 45)   # seconds to wait before each retry
+CHALLENGE_RETRY_BUDGET = 180   # total seconds of backoff sleep per scan
+
+_challenge_budget = CHALLENGE_RETRY_BUDGET
 
 
 def fetch_once(url: str, timeout: int = 15) -> tuple[int, str, bool]:
@@ -113,21 +120,24 @@ def fetch_once(url: str, timeout: int = 15) -> tuple[int, str, bool]:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             content_type = resp.headers.get("Content-Type", "")
             body = resp.read(800_000).decode("utf-8", "replace") if "text/" in content_type or "xml" in content_type else ""
-            challenged = resp.status == 202 or "sg-captcha" in resp.headers
-            return resp.status, body, challenged
+            return resp.status, body, resp.status == 202
     except urllib.error.HTTPError as e:
-        challenged = e.code == 202 or (e.headers is not None and "sg-captcha" in e.headers)
-        return e.code, "", challenged
+        return e.code, "", e.code == 202
     except Exception:
         return 0, "", False
 
 
 def fetch(url: str, timeout: int = 15) -> tuple[int, str, bool]:
-    """fetch_once, retrying with backoff while the WAF challenges us."""
+    """fetch_once, retrying with backoff (budget-capped) while the WAF challenges us."""
+    global _challenge_budget
     status, body, challenged = fetch_once(url, timeout)
     for pause in CHALLENGE_BACKOFF:
         if not challenged:
             break
+        if _challenge_budget < pause:
+            print(f"  WAF challenge on {url} — retry budget spent, recording as challenged")
+            break
+        _challenge_budget -= pause
         print(f"  WAF challenge on {url} — retrying in {pause}s")
         time.sleep(pause)
         status, body, challenged = fetch_once(url, timeout)
@@ -150,23 +160,25 @@ def parse_sitemap_xml(xml_text: str) -> set[str]:
     return urls
 
 
-def load_sitemap_urls(delay: float) -> tuple[set[str], str]:
+def load_sitemap_urls(delay: float) -> tuple[set[str], str, bool]:
     """Prefer the LIVE sitemap (deployed truth), fall back to local generated ones.
 
     Local sitemaps include races generated but not yet deployed — seeding from
     them reports 'not deployed yet' as 'dead', which is noise for a live checker.
+    Returns (urls, source, live_sitemap_challenged) — a challenged live sitemap
+    falls back to local files but must be surfaced, not silently absorbed.
     """
     live_url = f"{SITE}/sitemap.xml"
-    status, body, _challenged = fetch(live_url)
+    status, body, challenged = fetch(live_url)
     time.sleep(delay)
-    if status == 200:
-        return parse_sitemap_xml(body), live_url
+    if status == 200 and not challenged:
+        return parse_sitemap_xml(body), live_url, False
 
     for sitemap in LOCAL_SITEMAPS:
         if sitemap.exists():
-            return parse_sitemap_xml(sitemap.read_text(encoding="utf-8")), str(sitemap)
+            return parse_sitemap_xml(sitemap.read_text(encoding="utf-8")), str(sitemap), challenged
 
-    return set(), f"{live_url} ({status or 'ERR'})"
+    return set(), f"{live_url} ({status or 'ERR'})", challenged
 
 
 def load_race_slugs() -> set[str]:
@@ -225,7 +237,7 @@ def main() -> int:
     parser.add_argument("--race-sample-size", type=int, default=10)
     args = parser.parse_args()
 
-    sitemap_urls, sitemap_source = load_sitemap_urls(args.delay)
+    sitemap_urls, sitemap_source, sitemap_challenged = load_sitemap_urls(args.delay)
     generator_urls = extract_generator_hrefs()
     race_sample = race_sample_from_sitemap(sitemap_urls, args.race_sample_size)
 
@@ -241,6 +253,8 @@ def main() -> int:
         ))
 
     challenged_urls: list[tuple[int, str]] = []
+    if sitemap_challenged:
+        challenged_urls.append((202, f"{SITE}/sitemap.xml"))
     for url in race_sample:
         status, body, challenged = fetch(url)
         if challenged:
@@ -269,24 +283,33 @@ def main() -> int:
             dead.append((status, url))
         time.sleep(args.delay)
 
-    print(f"Sitemap source: {sitemap_source}")
-    print(f"Checked {len(race_sample)} live race sample pages")
+    challenged_set = {u for _, u in challenged_urls}
+    n_challenged_seeds = len(challenged_set & set(race_sample))
+    print(f"Sitemap source: {sitemap_source}"
+          + (" (LIVE sitemap challenged — fell back to local)" if sitemap_challenged else ""))
+    print(f"Checked {len(race_sample) - n_challenged_seeds} of {len(race_sample)} live race sample pages"
+          + (f" ({n_challenged_seeds} challenged — their outbound links NOT crawled "
+             f"this run)" if n_challenged_seeds else ""))
     print(f"Checked {len(cta_urls)} CTA URLs + {len(urls)} discovered URLs")
     # Print challenged BEFORE dead: immune_check parses everything after the
     # "DEAD LINKS" header as dead links.
     if challenged_urls:
-        print(f"\nWAF-CHALLENGED ({len(challenged_urls)}): still behind SiteGround's "
+        rows = sorted(set(challenged_urls), key=lambda d: d[1])
+        print(f"\nWAF-CHALLENGED ({len(rows)}): still behind SiteGround's "
               f"bot challenge after retries — scan inconclusive, NOT dead links")
-        for status, url in sorted(challenged_urls, key=lambda d: d[1]):
+        for status, url in rows:
             print(f"  {status or 'ERR':>4}  {url}")
     if dead:
-        print(f"\nDEAD LINKS ({len(dead)}):")
-        for status, url in sorted(dead, key=lambda d: d[1]):
+        rows = sorted(set(dead), key=lambda d: d[1])
+        print(f"\nDEAD LINKS ({len(rows)}):")
+        for status, url in rows:
             print(f"  {status or 'ERR':>4}  {url}")
         return 1
     if challenged_urls:
-        print("No dead links; some URLs unverifiable this run (WAF challenge).")
-        return 0
+        # Exit 2, not 0: an inconclusive scan must not read as a green one in
+        # the weekly workflow. immune_check treats rc 2 + WAF block as YELLOW.
+        print("No dead links found, but the scan is INCONCLUSIVE (WAF challenges).")
+        return 2
     print("All links alive.")
     return 0
 

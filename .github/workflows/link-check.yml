@@ -2,6 +2,9 @@ name: Link Check
 
 # Weekly dead-link sweep of the live site. A red run means something a visitor
 # can click is broken, including race-page CTAs sampled from the live sitemap.
+# Exit codes: 1 = dead links (broken for visitors); 2 = inconclusive (the
+# scan tripped SiteGround's WAF bot-challenge and could not verify) — both
+# are red, but 2 usually just needs a re-run, not a fix.
 
 on:
   schedule:
