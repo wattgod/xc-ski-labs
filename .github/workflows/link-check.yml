@@ -21,4 +21,15 @@ jobs:
         with:
           python-version: "3.12"
       - name: Check live links (xcskilabs.com)
-        run: python3 scripts/check_links.py --max-urls 300 --delay 0.4
+        run: |
+          status=0
+          python3 scripts/check_links.py --max-urls 300 --delay 0.4 || status=$?
+          # Exit 2 = inconclusive: the WAF challenged this datacenter runner,
+          # so nothing was proven dead OR alive. Warn-and-pass — a red here
+          # would fire most weeks from runner IPs alone. The nightly immune
+          # scan from a residential IP is the authoritative challenge monitor.
+          if [ "$status" = "2" ]; then
+            echo "::warning::Link check INCONCLUSIVE — SiteGround WAF challenged the runner; dead-link status unverified this run"
+            exit 0
+          fi
+          exit "$status"
