@@ -98,18 +98,40 @@ class LinkExtractor(HTMLParser):
                 self.cta_urls.add(cta_url)
 
 
-def fetch(url: str, timeout: int = 15) -> tuple[int, str]:
-    """GET a URL following redirects; return (final_status, body_or_empty)."""
+# SiteGround's bot protection answers with HTTP 202 + an `sg-captcha` header
+# instead of the page (Roadie Labs, 2026-07-22: 18 false "dead" findings, all
+# 202). A 202 is never a real response from this static site, so treat it as
+# a challenge: back off, retry, and report still-challenged URLs separately
+# rather than as dead links.
+CHALLENGE_BACKOFF = (20, 45)  # seconds to wait before each retry
+
+
+def fetch_once(url: str, timeout: int = 15) -> tuple[int, str, bool]:
+    """GET a URL following redirects; return (final_status, body, challenged)."""
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             content_type = resp.headers.get("Content-Type", "")
             body = resp.read(800_000).decode("utf-8", "replace") if "text/" in content_type or "xml" in content_type else ""
-            return resp.status, body
+            challenged = resp.status == 202 or "sg-captcha" in resp.headers
+            return resp.status, body, challenged
     except urllib.error.HTTPError as e:
-        return e.code, ""
+        challenged = e.code == 202 or (e.headers is not None and "sg-captcha" in e.headers)
+        return e.code, "", challenged
     except Exception:
-        return 0, ""
+        return 0, "", False
+
+
+def fetch(url: str, timeout: int = 15) -> tuple[int, str, bool]:
+    """fetch_once, retrying with backoff while the WAF challenges us."""
+    status, body, challenged = fetch_once(url, timeout)
+    for pause in CHALLENGE_BACKOFF:
+        if not challenged:
+            break
+        print(f"  WAF challenge on {url} — retrying in {pause}s")
+        time.sleep(pause)
+        status, body, challenged = fetch_once(url, timeout)
+    return status, body, challenged
 
 
 def parse_sitemap_xml(xml_text: str) -> set[str]:
@@ -135,7 +157,7 @@ def load_sitemap_urls(delay: float) -> tuple[set[str], str]:
     them reports 'not deployed yet' as 'dead', which is noise for a live checker.
     """
     live_url = f"{SITE}/sitemap.xml"
-    status, body = fetch(live_url)
+    status, body, _challenged = fetch(live_url)
     time.sleep(delay)
     if status == 200:
         return parse_sitemap_xml(body), live_url
@@ -218,9 +240,12 @@ def main() -> int:
             f"expected {args.race_sample_size}",
         ))
 
+    challenged_urls: list[tuple[int, str]] = []
     for url in race_sample:
-        status, body = fetch(url)
-        if status != 200:
+        status, body, challenged = fetch(url)
+        if challenged:
+            challenged_urls.append((status, url))
+        elif status != 200:
             seed_failures.append((status, url))
         else:
             extractor = LinkExtractor(url)
@@ -237,19 +262,31 @@ def main() -> int:
 
     dead = list(seed_failures)
     for url in sorted(cta_urls) + urls:
-        status, _ = fetch(url)
-        if status != 200:
+        status, _, challenged = fetch(url)
+        if challenged:
+            challenged_urls.append((status, url))
+        elif status != 200:
             dead.append((status, url))
         time.sleep(args.delay)
 
     print(f"Sitemap source: {sitemap_source}")
     print(f"Checked {len(race_sample)} live race sample pages")
     print(f"Checked {len(cta_urls)} CTA URLs + {len(urls)} discovered URLs")
+    # Print challenged BEFORE dead: immune_check parses everything after the
+    # "DEAD LINKS" header as dead links.
+    if challenged_urls:
+        print(f"\nWAF-CHALLENGED ({len(challenged_urls)}): still behind SiteGround's "
+              f"bot challenge after retries — scan inconclusive, NOT dead links")
+        for status, url in sorted(challenged_urls, key=lambda d: d[1]):
+            print(f"  {status or 'ERR':>4}  {url}")
     if dead:
         print(f"\nDEAD LINKS ({len(dead)}):")
         for status, url in sorted(dead, key=lambda d: d[1]):
             print(f"  {status or 'ERR':>4}  {url}")
         return 1
+    if challenged_urls:
+        print("No dead links; some URLs unverifiable this run (WAF challenge).")
+        return 0
     print("All links alive.")
     return 0
 
