@@ -107,7 +107,7 @@ def generate_llms_txt(races: list[dict]) -> str:
 
 ## Overview
 
-XC Ski Labs is an independent cross-country ski race database covering {count} races worldwide. Every race is scored on 14 criteria ({', '.join(CRITERIA)}) on a 1-5 scale, producing an overall score out of 100 (round(sum of the 14 criteria / 70 * 100)) and a tier assignment (T1=elite, T2=strong, T3=solid, T4=developing).
+XC Ski Labs is a cross-country ski race database covering {count} races worldwide. Every race is scored on 14 criteria ({', '.join(CRITERIA)}) on a 1-5 scale, producing an overall score out of 100 (round(sum of the 14 criteria / 70 * 100)) and a tier assignment (T1=elite, T2=strong, T3=solid, T4=developing).
 
 - **Tier 1 (Elite)**: {tier_counts.get(1, 0)} races — score >= 80, or prestige=5 + score>=75
 - **Tier 2 (Strong)**: {tier_counts.get(2, 0)} races — score >= 60
