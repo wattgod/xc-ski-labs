@@ -90,6 +90,8 @@ def generate_sitemap(domain, profiles):
     add_url(f"{domain}/search/", "0.8", "weekly")
     add_url(f"{domain}/training-plans/", "0.8", "monthly")
     add_url(f"{domain}/about/", "0.5", "monthly")
+    add_url(f"{domain}/methodology/", "0.5", "monthly")
+    add_url(f"{domain}/privacy/", "0.3", "yearly")
 
     # Free guide — pillar + only the OPEN (indexable) chapters; gated ones are noindex
     add_url(f"{domain}/guide/", "0.9", "monthly")
@@ -164,10 +166,11 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path.write_bytes(xml_bytes)
 
-    total_urls = 2 + len(sorted_profiles)
+    static_urls = 10  # homepage, search, training, about, methodology, privacy, guide + 3 open chapters
+    total_urls = static_urls + len(sorted_profiles)
     print(f"\nWrote {output_path}")
     print(f"  Total URLs: {total_urls}")
-    print(f"  Static:     2 (homepage, search)")
+    print(f"  Static:     {static_urls} (site pages + indexable guide pages)")
     print(f"  Races:      {len(sorted_profiles)}")
     for tier in sorted(tier_counts):
         print(f"    T{tier}: {tier_counts[tier]}")

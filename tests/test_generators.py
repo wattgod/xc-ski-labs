@@ -24,7 +24,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 WEB_DIR = PROJECT_ROOT / "web"
 OUTPUT_DIR = PROJECT_ROOT / "output"
-NON_RACE_DIRS = {"about", "coaching", "feed", "guide", "questionnaire", "search", "thanks", "training-plans"}
+NON_RACE_DIRS = {"about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "thanks", "training-plans"}
 
 
 # ── Race Page Generator Tests ─────────────────────────────────
@@ -328,9 +328,9 @@ class TestHomepage:
         assert "The XC ski race database" in content
         assert "<h1>Every cross country ski race, rated.</h1>" in content
         assert "criteria &mdash; and the training to show up ready for the one you pick." in content
-        # Existing hero interactions (search + "How we rate") stay untouched.
+        # The hero retains its search CTA and routes methodology questions to /methodology/.
         assert '<a href="/search/" class="hero-cta">Search the races</a>' in content
-        assert '<a href="/about/" class="hero-cta secondary">How we rate</a>' in content
+        assert '<a href="/methodology/" class="hero-cta secondary">How we rate</a>' in content
         # New anchor is ADDED, not a repurpose of an existing button.
         assert '<a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>' in content
 

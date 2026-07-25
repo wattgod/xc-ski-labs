@@ -110,6 +110,7 @@ add_action('wp_head', function () {
 add_action('wp_body_open', function () {
     $path = $_SERVER['REQUEST_URI'] ?? '';
     $is_races   = (strpos($path, '/search') !== false || strpos($path, '/race/') !== false);
+    $is_guide   = (strpos($path, '/guide') !== false);
     $is_plans   = (strpos($path, '/training') !== false || strpos($path, '/questionnaire') !== false);
     $is_coach   = (strpos($path, '/coaching') !== false);
     $is_about   = (strpos($path, '/about') !== false);
@@ -120,8 +121,9 @@ add_action('wp_body_open', function () {
         <button class="xl-hamburger" type="button" data-xl-nav-toggle aria-label="Menu">&#9776;</button>
         <nav class="xl-nav">
             <a href="/search/"<?php echo $is_races ? ' class="active"' : ''; ?>>Races</a>
-            <a href="/training-plans/"<?php echo $is_plans ? ' class="active"' : ''; ?>>Training Plans</a>
-            <a href="/coaching/apply/"<?php echo $is_coach ? ' class="active"' : ''; ?>>Coaching</a>
+            <a href="/guide/"<?php echo $is_guide ? ' class="active"' : ''; ?>>Guide</a>
+            <a href="/training-plans/"<?php echo $is_plans ? ' class="active"' : ''; ?>>Plans</a>
+            <a href="/coaching/"<?php echo $is_coach ? ' class="active"' : ''; ?>>Coaching</a>
             <a href="/about/"<?php echo $is_about ? ' class="active"' : ''; ?>>About</a>
         </nav>
     </div>

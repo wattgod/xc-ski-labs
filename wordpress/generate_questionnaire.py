@@ -472,10 +472,11 @@ def build_nav() -> str:
   <div class="gl-nav-inner">
     <a href="/" class="gl-nav-logo">XC SKI LABS</a>
     <div class="gl-nav-links">
-      <a href="/search/">Search</a>
+      <a href="/search/">Races</a>
       <a href="/guide/">Guide</a>
       <a href="/training-plans/" class="active">Plans</a>
       <a href="/coaching/">Coaching</a>
+      <a href="/about/">About</a>
     </div>
   </div>
 </nav>"""

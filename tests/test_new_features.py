@@ -14,8 +14,11 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import pytest
+
+from scripts.scoring import CRITERIA, TIER_THRESHOLDS
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
@@ -23,7 +26,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
-NON_RACE_DIRS = {"about", "coaching", "feed", "questionnaire", "search", "thanks", "training-plans"}
+NON_RACE_DIRS = {"about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "thanks", "training-plans"}
 
 # ── Helpers ──────────────────────────────────────────────────────
 
@@ -53,6 +56,22 @@ def _all_race_pages():
         index = slug_dir / "index.html"
         if index.exists():
             yield slug_dir.name, index.read_text(encoding="utf-8")
+
+
+def _known_routes():
+    """Build the site's internal routes from generated output and race profiles."""
+    routes = {"/"}
+    for index in OUTPUT_DIR.rglob("index.html"):
+        relative_parent = index.parent.relative_to(OUTPUT_DIR)
+        if relative_parent != Path("."):
+            routes.add(f"/{relative_parent.as_posix()}/")
+    for profile_path in RACE_DATA_DIR.glob("*.json"):
+        if profile_path.name == "_schema.json":
+            continue
+        slug = json.loads(profile_path.read_text(encoding="utf-8")).get("race", {}).get("slug")
+        if slug:
+            routes.add(f"/race/{slug}/")
+    return routes
 
 
 # ── GA4 Tracking ─────────────────────────────────────────────────
@@ -165,6 +184,47 @@ class TestNavHeader:
         # Check for hamburger-related element (button with menu icon or aria label)
         assert "hamburger" in html.lower() or "menu" in html.lower() or "☰" in html or "&#9776;" in html, \
             "No mobile hamburger menu found"
+
+    @pytest.mark.parametrize("page", [
+        "index.html",
+        "search/index.html",
+        "about/index.html",
+        "privacy/index.html",
+        "methodology/index.html",
+        "training-plans/index.html",
+        "questionnaire/index.html",
+        "coaching/index.html",
+        "coaching/apply/index.html",
+        "guide/index.html",
+    ])
+    def test_static_pages_use_canonical_nav_links(self, page):
+        """Static pages must retain canonical nav and footer links."""
+        html = _load_page(page)
+        primary_nav = re.search(
+            r'<(?:nav|header)\b[^>]*class="[^"]*gl-nav[^"]*"[^>]*>.*?</(?:nav|header)>',
+            html,
+            re.DOTALL,
+        )
+        assert primary_nav, f"{page}: primary navigation not found"
+        nav_html = primary_nav.group(0)
+        for href, label in (
+            ("/search/", "Races"),
+            ("/guide/", "Guide"),
+            ("/training-plans/", "Plans"),
+            ("/coaching/", "Coaching"),
+            ("/about/", "About"),
+        ):
+            assert re.search(
+                rf'<a\s+[^>]*href="{re.escape(href)}"[^>]*>{label}</a>', nav_html
+            ), f"{page}: missing canonical nav link {label} ({href})"
+
+        footer = re.search(r'<footer\b[^>]*>.*?</footer>', html, re.DOTALL)
+        assert footer, f"{page}: footer not found"
+        for href in re.findall(r'<a\s+[^>]*href="([^"]+)"', footer.group(0)):
+            if not href.startswith("/") or href.startswith("//"):
+                continue
+            path = urlsplit(href).path
+            assert path in _known_routes(), f"{page}: footer links to unknown route {href}"
 
 
 # ── Sticky CTA ───────────────────────────────────────────────────
@@ -431,6 +491,42 @@ class TestAboutPage:
         assert "<img" not in html.lower(), "About page should be type-only"
         assert "og:image" not in html.lower(), "About page should not define image metadata"
         assert "twitter:image" not in html.lower(), "About page should not define image metadata"
+
+
+class TestPrivacyAndMethodologyPages:
+    """The legal and methodology pages are generated static pages."""
+
+    @pytest.mark.parametrize("generator,relpath", [
+        ("generate_privacy.py", "privacy/index.html"),
+        ("generate_methodology.py", "methodology/index.html"),
+    ])
+    def test_page_generates(self, generator, relpath):
+        result = subprocess.run(
+            [sys.executable, str(WORDPRESS_DIR / generator)],
+            capture_output=True, text=True, timeout=30, cwd=str(PROJECT_ROOT),
+        )
+        assert result.returncode == 0, f"{generator} failed: {result.stderr[-300:]}"
+        assert (OUTPUT_DIR / relpath).exists(), f"{relpath} was not generated"
+
+    def test_privacy_page_has_policy_content(self):
+        html = _load_page("privacy/index.html")
+        assert "Privacy Policy" in html
+        assert "FormSubmit" in html
+        assert "Effective date: July 2026" in html
+        assert "Analytics is active by default" in html
+        assert "disables analytics on subsequent page views" in html
+        assert "Information stored in your browser" in html
+        assert "including health, injury, and medication information" in html
+        assert "not transmitted to us until you submit" in html
+
+    def test_methodology_page_uses_scoring_constants(self):
+        html = _load_page("methodology/index.html")
+        assert "gl-method-table" in html, "Methodology page is missing the tier table"
+        assert f"{len(CRITERIA)} dimension scores" in html
+        assert f"/ {len(CRITERIA) * 5})" in html
+        for tier, threshold in TIER_THRESHOLDS.items():
+            assert f"TIER {tier}" in html
+            assert str(threshold) in html
 
 
 # ── Coaching Form ────────────────────────────────────────────────

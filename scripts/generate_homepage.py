@@ -1194,7 +1194,7 @@ a:focus-visible, button:focus-visible {{
     <h1>Every cross country ski race, rated.</h1>
     <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria &mdash; and the training to show up ready for the one you pick.</p>
     <a href="/search/" class="hero-cta">Search the races</a>
-    <a href="/about/" class="hero-cta secondary">How we rate</a>
+    <a href="/methodology/" class="hero-cta secondary">How we rate</a>
     <a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>
     <div class="hero-stats">
       <div class="hero-stat">

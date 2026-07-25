@@ -541,10 +541,11 @@ class TestOutputIntegrity:
         url_count = content.count("<url>")
 
         profile_count = len(ALL_PROFILES)
-        # Static/marketing URLs: homepage, search, training-plans, about,
+        # Static/marketing URLs: homepage, search, training-plans, about, methodology,
+        # privacy,
         # guide pillar + 3 open (indexable) guide chapters. Gated chapters
         # are noindex and intentionally excluded from the sitemap.
-        static_urls = 8  # home, search, training-plans, about, guide pillar + 3 open chapters
+        static_urls = 10  # home, search, training-plans, about, methodology, privacy, guide + 3 open chapters
         expected = profile_count + static_urls
 
         assert url_count == expected, \
@@ -565,7 +566,7 @@ class TestOutputIntegrity:
         for d in OUTPUT_DIR.iterdir():
             if not d.is_dir():
                 continue
-            if d.name in ("about", "coaching", "feed", "guide", "questionnaire", "search", "thanks", "training-plans"):
+            if d.name in ("about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "thanks", "training-plans"):
                 continue
             if d.name not in profile_slugs:
                 orphaned.append(d.name)

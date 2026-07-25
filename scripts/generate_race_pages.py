@@ -12,6 +12,7 @@ Usage:
 """
 
 import argparse
+from datetime import datetime
 import html
 import json
 import math
@@ -97,6 +98,83 @@ def _parse_score(raw: Any) -> Optional[int]:
         return int(float(str(raw)))
     except (ValueError, TypeError):
         return None
+
+
+def parse_date_specific(value: Any) -> Optional[str]:
+    """Return an ISO start date from a profile's date_specific value, if clear.
+
+    Profiles use values such as ``2026: March 1``. Some also describe a date
+    range or a discipline after the opening date; that opening date is still a
+    usable event start date. Values without a day, cancellation notes, and
+    invalid calendar dates are deliberately omitted.
+    """
+    if not isinstance(value, str):
+        return None
+    raw = value.strip()
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
+        try:
+            return datetime.strptime(raw, fmt).date().isoformat()
+        except ValueError:
+            pass
+
+    match = re.match(
+        r"^(?P<year>\d{4})\s*:\s*(?P<month>January|February|March|April|May|June|"
+        r"July|August|September|October|November|December)\s+(?P<day>\d{1,2})(?:\b|[-(])",
+        raw,
+    )
+    if not match:
+        return None
+    try:
+        parsed = datetime.strptime(
+            f"{match.group('year')} {match.group('month')} {match.group('day')}",
+            "%Y %B %d",
+        )
+    except ValueError:
+        return None
+    return parsed.date().isoformat()
+
+
+def _profile_haversine_km(first: dict, second: dict) -> float:
+    """Calculate distance between profile coordinates, or infinity if absent."""
+    try:
+        lat1 = math.radians(float(first["vitals"]["lat"]))
+        lng1 = math.radians(float(first["vitals"]["lng"]))
+        lat2 = math.radians(float(second["vitals"]["lat"]))
+        lng2 = math.radians(float(second["vitals"]["lng"]))
+    except (KeyError, TypeError, ValueError):
+        return math.inf
+    delta_lat = lat2 - lat1
+    delta_lng = lng2 - lng1
+    a = math.sin(delta_lat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(delta_lng / 2) ** 2
+    return 6371.0 * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+
+def similar_races(race: dict, candidates: list[dict], limit: int = 6) -> list[dict]:
+    """Select deterministic, series-first, tier-aware nearby race profiles."""
+    current_slug = race.get("slug")
+    current_series = set(race.get("series_membership") or [])
+    current_tier = _parse_score(race.get("nordic_lab_rating", {}).get("tier"))
+    ranked = []
+    for candidate in candidates:
+        if candidate.get("slug") == current_slug:
+            continue
+        rating = candidate.get("nordic_lab_rating", {})
+        candidate_tier = _parse_score(rating.get("tier"))
+        if candidate_tier is None:
+            continue
+        shared_series = len(current_series.intersection(candidate.get("series_membership") or []))
+        tier_delta = abs(candidate_tier - current_tier) if current_tier is not None else 2
+        tier_group = 0 if tier_delta == 0 else 1 if tier_delta == 1 else 2
+        ranked.append((
+            0 if shared_series else 1,
+            -shared_series,
+            tier_group,
+            _profile_haversine_km(race, candidate),
+            str(candidate.get("slug", "")),
+            candidate,
+        ))
+    ranked.sort(key=lambda item: item[:-1])
+    return [item[-1] for item in ranked[:limit]]
 
 
 def format_distance(km: Any) -> str:
@@ -1131,6 +1209,56 @@ a {{ color: inherit; }}
   text-transform: uppercase;
 }}
 
+.gl-similar-grid {{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 3px solid var(--gl-carbon);
+}}
+.gl-similar-card {{
+  display: flex;
+  min-height: 156px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gl-space-4);
+  background: var(--gl-white);
+  border-right: 1px solid var(--gl-hairline);
+  border-bottom: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-4);
+  text-decoration: none;
+}}
+.gl-similar-card:hover {{ background: var(--gl-paper); }}
+.gl-similar-name {{
+  font-family: var(--gl-font-display);
+  font-size: 1.12rem;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+  text-transform: uppercase;
+}}
+.gl-similar-meta {{
+  color: var(--gl-muted);
+  font-family: var(--gl-font-data);
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}}
+.gl-source-list {{
+  max-width: var(--gl-prose);
+  margin: 0;
+  padding-left: 1.5rem;
+}}
+.gl-source-list li {{
+  border-bottom: 1px solid var(--gl-hairline);
+  padding: var(--gl-space-3) 0;
+}}
+.gl-source-list a {{
+  color: var(--gl-carbon);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+}}
+
 .gl-ladder {{ background: var(--gl-carbon); color: var(--gl-white); }}
 .gl-ladder-inner {{ max-width: var(--gl-measure); margin: 0 auto; padding: 52px var(--gl-space-5) 56px; }}
 .gl-ladder h2 {{
@@ -1235,7 +1363,8 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
   .gl-waxbar,
   .gl-rungs,
   .gl-process,
-  .gl-wax-cards {{ grid-template-columns: 1fr 1fr; }}
+  .gl-wax-cards,
+  .gl-similar-grid {{ grid-template-columns: 1fr 1fr; }}
 }}
 
 @media (max-width: 640px) {{
@@ -1249,6 +1378,7 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
   .gl-rungs,
   .gl-process,
   .gl-wax-cards,
+  .gl-similar-grid,
   .gl-rating-row {{ grid-template-columns: 1fr; }}
   .gl-rating-label {{ text-align: left; }}
   .gl-sticky-cta-name {{ display: none; }}
@@ -1360,7 +1490,7 @@ def build_cookie_consent() -> str:
     return """
 <div class="gl-cookie-consent" id="gl-cookie-consent">
   <div class="gl-cookie-inner">
-    <p class="gl-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline.</p>
+    <p class="gl-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline. <a href="/privacy/">Privacy policy</a>.</p>
     <div class="gl-cookie-buttons">
       <button class="gl-cookie-btn accept" id="gl-cookie-accept">Accept</button>
       <button class="gl-cookie-btn decline" id="gl-cookie-decline">Decline</button>
@@ -1483,6 +1613,20 @@ def build_wax_bar(race: dict) -> str:
 
 def build_section_header(num: str, title: str) -> str:
     return f'<div class="gl-section-header"><span class="gl-section-num">{esc(num)}</span><h2 class="gl-section-title">{esc(title)}</h2></div>'
+
+
+def renumber_section_kickers(sections: list[str]) -> str:
+    """Join rendered sections with sequential kickers despite optional content."""
+    numbered = []
+    for section in (section for section in sections if section):
+        number = len(numbered) + 1
+        numbered.append(re.sub(
+            r'(<span class="gl-section-num">)\d+(</span>)',
+            rf'\g<1>{number:02d}\g<2>',
+            section,
+            count=1,
+        ))
+    return "".join(numbered)
 
 
 def build_at_a_glance(race: dict) -> str:
@@ -1796,6 +1940,67 @@ def build_series(race: dict) -> str:
 """
 
 
+def build_similar_races(race: dict, candidates: list[dict]) -> str:
+    """Render up to six data-derived race recommendations."""
+    entries = similar_races(race, candidates)
+    if not entries:
+        return ""
+
+    cards = []
+    for entry in entries:
+        vitals = entry.get("vitals", {})
+        rating = entry.get("nordic_lab_rating", {})
+        name = entry.get("display_name") or entry.get("name") or entry.get("slug", "Race")
+        location = vitals.get("location_badge") or vitals.get("location") or vitals.get("country") or "Location unavailable"
+        cards.append(f"""
+    <a class="gl-similar-card" data-similar-race="{esc(entry.get('slug', ''))}" href="/race/{esc(entry.get('slug', ''))}/">
+      <span class="gl-similar-name">{esc(name)}</span>
+      <span class="gl-similar-meta">T{esc(rating.get('tier', '—'))} &middot; {esc(rating.get('overall_score', '—'))}/100<br>{esc(location)}</span>
+    </a>""")
+
+    return f"""
+<section class="gl-section" id="similar-races">
+  {build_section_header('08', 'Similar races')}
+  <div class="gl-similar-grid">
+    {''.join(cards)}
+  </div>
+</section>
+"""
+
+
+def build_sources(race: dict) -> str:
+    """Render only official and YouTube URLs present in this profile."""
+    vitals = race.get("vitals", {})
+    source_map = []
+    website = vitals.get("website")
+    if isinstance(website, str) and website.startswith(("https://", "http://")):
+        source_map.append(("Official race website", website))
+
+    for video in race.get("youtube_data", {}).get("videos", []):
+        if not isinstance(video, dict):
+            continue
+        url = video.get("url")
+        if not isinstance(url, str) or not url.startswith(("https://", "http://")):
+            continue
+        title = video.get("title") or "YouTube video"
+        channel = video.get("channel")
+        label = f"{title} — {channel}" if channel else title
+        source_map.append((label, url))
+
+    if not source_map:
+        return ""
+    items = "".join(
+        f'<li><a href="{esc(url)}" rel="noopener noreferrer">{esc(label)}</a></li>'
+        for label, url in source_map
+    )
+    return f"""
+<section class="gl-section gl-sources" id="sources">
+  {build_section_header('09', 'Sources')}
+  <ol class="gl-source-list">{items}</ol>
+</section>
+"""
+
+
 def build_youtube_placeholder(race: dict) -> str:
     """[08] YouTube placeholder section."""
     videos = race.get("youtube_data", {}).get("videos", [])
@@ -1980,9 +2185,13 @@ def build_jsonld(race: dict) -> str:
     """Build SportsEvent JSON-LD structured data."""
     v = race["vitals"]
     r = race["nordic_lab_rating"]
+    slug = race["slug"]
+    page_url = f"https://xcskilabs.com/race/{slug}/"
+    event_id = f"{page_url}#event"
+    review_id = f"{page_url}#review"
 
     event = {
-        "@context": "https://schema.org",
+        "@id": event_id,
         "@type": "SportsEvent",
         "name": race["name"],
         "sport": "Cross-Country Skiing",
@@ -1998,6 +2207,10 @@ def build_jsonld(race: dict) -> str:
         },
     }
 
+    start_date = parse_date_specific(v.get("date_specific"))
+    if start_date:
+        event["startDate"] = start_date
+
     if v.get("lat") and v.get("lng"):
         event["location"]["geo"] = {
             "@type": "GeoCoordinates",
@@ -2008,8 +2221,11 @@ def build_jsonld(race: dict) -> str:
     if v.get("website"):
         event["url"] = v["website"]
 
-    event["review"] = {
+    event["review"] = {"@id": review_id}
+    review = {
+        "@id": review_id,
         "@type": "Review",
+        "itemReviewed": {"@id": event_id},
         "author": {
             "@type": "Organization",
             "name": "XC Ski Labs",
@@ -2022,16 +2238,29 @@ def build_jsonld(race: dict) -> str:
         },
     }
 
+    breadcrumbs = {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://xcskilabs.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Search", "item": "https://xcskilabs.com/search/"},
+            {"@type": "ListItem", "position": 3, "name": race.get("display_name", race["name"]), "item": page_url},
+        ],
+    }
+
     return (
         '<script type="application/ld+json">'
-        + _safe_json_for_script(event, ensure_ascii=False, separators=(",", ":"))
+        + _safe_json_for_script(
+            {"@context": "https://schema.org", "@graph": [event, review, breadcrumbs]},
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
         + "</script>"
     )
 
 
 # ── Page Assembly ──────────────────────────────────────────────
 
-def generate_page(race: dict) -> str:
+def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
     """Generate a complete HTML page for a race."""
     name = race.get("display_name", race["name"])
     slug = race["slug"]
@@ -2063,7 +2292,12 @@ def generate_page(race: dict) -> str:
     ladder = build_product_ladder(race)
     history = build_history(race)
     series = build_series(race)
+    similar = build_similar_races(race, all_races or [])
     youtube = build_youtube_placeholder(race)
+    sources = build_sources(race)
+    sections = renumber_section_kickers([
+        vitals, course, interactive, climate, rating, history, series, similar, youtube, sources,
+    ])
     sticky_cta = build_sticky_cta(race)
     interactions_js = build_interactions_js()
     sticky_js = build_sticky_js()
@@ -2098,14 +2332,7 @@ def generate_page(race: dict) -> str:
 {hero}
 {wax_bar}
 <div class="gl-wrap">
-{vitals}
-{course}
-{interactive}
-{climate}
-{rating}
-{history}
-{series}
-{youtube}
+{sections}
 </div>
 </div>
 {ladder}
@@ -2147,8 +2374,9 @@ def load_race(filepath: Path) -> Optional[dict]:
 
 def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = None):
     """Generate HTML pages for all races (or a single slug)."""
-    files = sorted(data_dir.glob("*.json"))
-    files = [f for f in files if f.name != "_schema.json"]
+    all_files = sorted(data_dir.glob("*.json"))
+    all_files = [f for f in all_files if f.name != "_schema.json"]
+    files = all_files
 
     if slug_filter:
         target = data_dir / f"{slug_filter}.json"
@@ -2165,12 +2393,18 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
     tiers = {1: 0, 2: 0, 3: 0, 4: 0}
     art_records: dict[str, dict[str, str]] = {}
 
-    for filepath in files:
+    races = []
+    for filepath in all_files:
         race = load_race(filepath)
-        if not race:
+        if race:
+            races.append(race)
+        elif filepath in files:
             errors += 1
-            continue
 
+    selected_slugs = {filepath.stem for filepath in files}
+    for race in races:
+        if race["slug"] not in selected_slugs:
+            continue
         slug = race["slug"]
         tier = race["nordic_lab_rating"]["tier"]
         _, art_record = build_hero_plate(race)
@@ -2178,7 +2412,7 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
         if art_record["tier"] == "A" and art_record["license"].startswith("UNVERIFIED"):
             print(f"  WARN {slug}: missing GPX license file for {art_record['source']}")
 
-        page_html = generate_page(race)
+        page_html = generate_page(race, races)
 
         # Write to output/{slug}/index.html
         page_dir = output_dir / slug

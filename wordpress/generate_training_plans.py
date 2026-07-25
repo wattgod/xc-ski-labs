@@ -23,6 +23,11 @@ OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
 TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
 
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+
 # ── Price per week (cents) — derived from stripe-products.json ──
 
 PRICE_PER_WEEK_CENTS = 1500  # $15/week
@@ -807,31 +812,7 @@ a:focus-visible, button:focus-visible {
 
 def build_nav():
     """Top navigation bar."""
-    return """
-<nav class="gl-nav">
-  <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo">XC SKI LABS</a>
-    <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
-    <ul class="gl-nav-links">
-      <li class="gl-nav-item">
-        <a href="/search/">Races</a>
-        <div class="gl-nav-dropdown"><a href="/search/">All XC Ski Races</a></div>
-      </li>
-      <li class="gl-nav-item"><a href="/guide/">Guide</a></li>
-      <li class="gl-nav-item">
-        <a href="/training-plans/" class="active">Products</a>
-        <div class="gl-nav-dropdown"><a href="/training-plans/">Training Plans</a></div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/coaching/">Services</a>
-        <div class="gl-nav-dropdown"><a href="/coaching/">Coaching</a></div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/about/">About</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    return build_canonical_nav_header(active="plans") + """
 <script>
 (function(){
   var toggle=document.querySelector('[data-nav-toggle]');

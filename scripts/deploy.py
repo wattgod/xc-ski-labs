@@ -37,7 +37,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "questionnaire", "search", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 
@@ -465,6 +465,16 @@ def sync_about():
     return _sync_static_page("about", "about")
 
 
+def sync_privacy():
+    """Upload privacy policy to /privacy/."""
+    return _sync_static_page("privacy", "privacy")
+
+
+def sync_methodology():
+    """Upload scoring methodology to /methodology/."""
+    return _sync_static_page("methodology", "methodology")
+
+
 def sync_thanks():
     """Upload payment success page to /thanks/."""
     return _sync_static_page("thanks", "thanks")
@@ -658,6 +668,8 @@ def deploy_all():
         ("Coaching", sync_coaching),
         ("Questionnaire", sync_questionnaire),
         ("About", sync_about),
+        ("Privacy", sync_privacy),
+        ("Methodology", sync_methodology),
         ("Guide", sync_guide),
         ("Thanks", sync_thanks),
         ("Sitemap", sync_sitemap),
@@ -738,6 +750,14 @@ if __name__ == "__main__":
         help="Upload about page to /about/"
     )
     parser.add_argument(
+        "--sync-privacy", action="store_true",
+        help="Upload privacy policy to /privacy/"
+    )
+    parser.add_argument(
+        "--sync-methodology", action="store_true",
+        help="Upload scoring methodology to /methodology/"
+    )
+    parser.add_argument(
         "--sync-thanks", action="store_true",
         help="Upload payment success page to /thanks/"
     )
@@ -805,6 +825,12 @@ if __name__ == "__main__":
             ran = True
         if args.sync_about:
             sync_about()
+            ran = True
+        if args.sync_privacy:
+            sync_privacy()
+            ran = True
+        if args.sync_methodology:
+            sync_methodology()
             ran = True
         if args.sync_thanks:
             sync_thanks()

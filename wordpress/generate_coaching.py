@@ -23,6 +23,7 @@ Usage:
 
 import html
 import json
+import sys
 from pathlib import Path
 
 # ── Paths ──────────────────────────────────────────────────────
@@ -31,6 +32,11 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
 
 SITE_BASE_URL = "https://xcskilabs.com"
 APPLY_URL = "/coaching/apply/"
@@ -142,6 +148,87 @@ a:focus-visible, button:focus-visible {
   color: var(--gl-white);
   border-bottom: 2px solid var(--gl-white);
   padding-bottom: 2px;
+}
+
+/* Shared site navigation */
+.gl-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--gl-carbon);
+  border-bottom: 3px solid var(--gl-white);
+  padding: 0 24px;
+}
+.gl-nav-inner {
+  max-width: var(--gl-measure);
+  min-height: 52px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gl-nav-logo {
+  font-family: var(--gl-font-data);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gl-white);
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.gl-nav-logo em { color: var(--gl-white); }
+.gl-nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.gl-nav-item { position: relative; }
+.gl-nav-item > a {
+  display: block;
+  padding: 16px 14px;
+  color: var(--gl-muted);
+  font-family: var(--gl-font-data);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.gl-nav-item > a:hover, .gl-nav-item > a.active { color: var(--gl-white); }
+.gl-nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  padding: 8px 0;
+  background: var(--gl-carbon);
+  border: 2px solid var(--gl-white);
+}
+.gl-nav-item:hover .gl-nav-dropdown { display: block; }
+.gl-nav-dropdown a {
+  display: block;
+  padding: 10px 16px;
+  color: var(--gl-muted);
+  font-family: var(--gl-font-data);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.gl-nav-dropdown a:hover { background: var(--gl-white); color: var(--gl-carbon); }
+.gl-nav-hamburger {
+  display: none;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 8px;
+  background: transparent;
+  border: 0;
+  color: var(--gl-white);
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 
 /* ── Bands ────────────────────────────────────── */
@@ -629,6 +716,22 @@ a:focus-visible, button:focus-visible {
   .gl-coach-fit { grid-template-columns: 1fr; gap: 24px; }
   .gl-coach-final-hook { font-size: 1.25rem; }
   .gl-coach-nav-links { gap: 12px; }
+  .gl-nav { padding: 0 20px; }
+  .gl-nav-hamburger { display: block; }
+  .gl-nav-links {
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--gl-carbon);
+    border-bottom: 3px solid var(--gl-white);
+  }
+  .gl-nav-links.open { display: flex; }
+  .gl-nav-dropdown { display: block; position: static; border: 0; padding: 0 0 0 16px; }
+  .gl-nav-item > a { padding: 12px 0; }
 }
 
 @media (max-width: 400px) {
@@ -642,17 +745,14 @@ a:focus-visible, button:focus-visible {
 
 def build_nav() -> str:
     """Site navigation bar. Coaching is the active item — this IS /coaching/."""
-    return """
-<nav class="gl-coach-nav">
-  <a href="/" class="gl-coach-nav-brand">XC Ski Labs</a>
-  <div class="gl-coach-nav-links">
-    <a href="/">Home</a>
-    <a href="/search/">Search</a>
-    <a href="/training-plans/">Training Plans</a>
-    <a href="/guide/">Guide</a>
-    <a href="/coaching/" class="active">Coaching</a>
-  </div>
-</nav>"""
+    return build_canonical_nav_header(active="coaching") + """
+<script>
+(function(){
+  var toggle=document.querySelector('[data-nav-toggle]');
+  var links=document.querySelector('.gl-nav-links');
+  if(toggle&&links){toggle.addEventListener('click',function(){var open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false')});}
+})();
+</script>"""
 
 
 def build_footer() -> str:

@@ -6,6 +6,7 @@ Generates the static /about/ page into output/about/index.html.
 
 import argparse
 import html
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +16,11 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_DATA_DIR = PROJECT_ROOT / "race-data"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
 
 
 def esc(text: Any) -> str:
@@ -409,40 +415,8 @@ def build_cookie_consent() -> str:
 
 
 def build_nav_header() -> str:
-    """Sticky top nav bar with About marked active."""
-    return """
-<nav class="gl-nav">
-  <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo">XC SKI LABS</a>
-    <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
-    <ul class="gl-nav-links">
-      <li class="gl-nav-item">
-        <a href="/search/">Races</a>
-        <div class="gl-nav-dropdown">
-          <a href="/search/">All XC Ski Races</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/guide/">Guide</a>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/training-plans/">Products</a>
-        <div class="gl-nav-dropdown">
-          <a href="/training-plans/">Training Plans</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/coaching/">Services</a>
-        <div class="gl-nav-dropdown">
-          <a href="/coaching/">Coaching</a>
-        </div>
-      </li>
-      <li class="gl-nav-item">
-        <a href="/about/" class="active">About</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    """Return the shared race-page navigation with About marked active."""
+    return build_canonical_nav_header(active="about") + """
 <script>
 (function(){
   var toggle=document.querySelector('[data-nav-toggle]');
