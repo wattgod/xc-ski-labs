@@ -24,6 +24,11 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+try:
+    from scripts.text_utils import strip_emoji
+except ModuleNotFoundError:  # Supports direct execution from scripts/.
+    from text_utils import strip_emoji
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
@@ -306,10 +311,10 @@ def _section_videos(rd: dict) -> str:
     parts = ["## Race Footage\n"]
     parts.append("*YouTube titles referenced during research (not embedded).*\n")
     for v in videos:
-        title = v.get("title")
+        title = strip_emoji(v.get("title"))
         if not title:
             continue
-        channel = v.get("channel", "")
+        channel = strip_emoji(v.get("channel", ""))
         if channel:
             parts.append(f"- {title} ({channel})")
         else:
@@ -322,7 +327,7 @@ def _section_videos(rd: dict) -> str:
     if quotes:
         parts.append("\n### Rider Quotes\n")
         for q in quotes:
-            text = q.get("text", "")
+            text = strip_emoji(q.get("text", ""))
             if text:
                 parts.append(f"> {text}")
 

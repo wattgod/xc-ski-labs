@@ -23,6 +23,11 @@ from pathlib import Path
 from typing import Any, Optional
 import xml.etree.ElementTree as ET
 
+try:
+    from scripts.text_utils import strip_emoji
+except ModuleNotFoundError:  # Supports direct execution from scripts/.
+    from text_utils import strip_emoji
+
 # ── Paths ──────────────────────────────────────────────────────
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -1982,8 +1987,8 @@ def build_sources(race: dict) -> str:
         url = video.get("url")
         if not isinstance(url, str) or not url.startswith(("https://", "http://")):
             continue
-        title = video.get("title") or "YouTube video"
-        channel = video.get("channel")
+        title = strip_emoji(video.get("title")) or "YouTube video"
+        channel = strip_emoji(video.get("channel"))
         label = f"{title} — {channel}" if channel else title
         source_map.append((label, url))
 
