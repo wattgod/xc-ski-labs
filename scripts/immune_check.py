@@ -91,6 +91,10 @@ RULES: list[tuple[str, str, str, str, str, str | None]] = [
     (r"Output has \d+ pages|output/ directory not found|Homepage missing",
      "pages-stale", GREEN, "high",
      "Generated pages are stale/missing — regenerate output/.", REGEN_PAGES),
+    (r"Search not in output/search|will need to copy before deploy",
+     "search-not-in-output", GREEN, "low",
+     "Search deploys straight from web/ via deploy.py sync_search() — informational, "
+     "not a deploy risk.", None),
     (r"Homepage shows \d+ (races|countries)",
      "homepage-stats-stale", GREEN, "low",
      "Homepage counters drifted from the data — regenerate the homepage.", REGEN_HOME),
