@@ -152,3 +152,17 @@ pytest tests/ -v
 36. **Post-deploy validation is mandatory** — Count `index.html` files on remote after tar+ssh upload. Partial deploys corrupt the site silently.
 37. **FormSubmit.co needs `_next` redirect** — Without it, users see a generic third-party page after submit.
 38. **Coaching form collects medical data** — Must have privacy policy notice before submit button.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues (`wattgod/xc-ski-labs`), via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: root `CONTEXT.md` + `docs/adr/` (created lazily by `/domain-modeling`). See `docs/agents/domain.md`.
