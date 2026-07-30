@@ -133,27 +133,42 @@ def test_sources_omit_the_section_when_the_profile_has_no_citable_urls():
     assert gen.build_sources({"vitals": {}, "youtube_data": {"videos": []}}) == ""
 
 
-def test_jsonld_has_parseable_start_dates_linked_reviews_and_breadcrumbs():
+def test_jsonld_omits_sports_event_when_start_date_is_unparseable():
     gen = _generator()
     profiles = _profiles()
     dated = 0
+    undated = 0
     for race in profiles:
         graph = _jsonld(gen.build_jsonld(race))
-        event = _event(graph)
         expected_date = gen.parse_date_specific(race["vitals"].get("date_specific"))
+        events = [node for node in graph["@graph"] if node["@type"] == "SportsEvent"]
         reviews = [node for node in graph["@graph"] if node["@type"] == "Review"]
         breadcrumbs = [node for node in graph["@graph"] if node["@type"] == "BreadcrumbList"]
 
         if expected_date:
             dated += 1
-            assert event["startDate"] == expected_date
+            assert len(events) == 1
+            assert events[0]["startDate"] == expected_date
+            assert len(reviews) == 1
+            assert reviews[0]["itemReviewed"] == {"@id": events[0]["@id"]}
         else:
-            assert "startDate" not in event
-        assert len(reviews) == 1
-        assert reviews[0]["itemReviewed"] == {"@id": event["@id"]}
+            # SportsEvent without startDate is a critical GSC error — omit it
+            # (and the Review that references it) entirely.
+            undated += 1
+            assert events == []
+            assert reviews == []
         assert len(breadcrumbs) == 1
         assert [item["name"] for item in breadcrumbs[0]["itemListElement"][:2]] == ["Home", "Search"]
     assert dated > 0
+    assert undated > 0
+
+
+def test_jsonld_dated_events_include_description_from_tagline():
+    gen = _generator()
+    race = next(p for p in _profiles() if p["slug"] == "american-birkebeiner")
+    graph = _jsonld(gen.build_jsonld(race))
+    event = _event(graph)
+    assert event["description"] == race["tagline"]
 
 
 def test_race_cookie_banner_links_to_privacy_policy():

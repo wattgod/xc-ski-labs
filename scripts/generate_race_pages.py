@@ -2187,7 +2187,12 @@ def build_footer(race: dict) -> str:
 
 
 def build_jsonld(race: dict) -> str:
-    """Build SportsEvent JSON-LD structured data."""
+    """Build SportsEvent JSON-LD structured data.
+
+    A SportsEvent without a startDate is a critical GSC error (blocks rich
+    results), so races whose date_specific cannot be parsed emit breadcrumbs
+    only — same policy as the road/gravel generators.
+    """
     v = race["vitals"]
     r = race["nordic_lab_rating"]
     slug = race["slug"]
@@ -2195,53 +2200,57 @@ def build_jsonld(race: dict) -> str:
     event_id = f"{page_url}#event"
     review_id = f"{page_url}#review"
 
-    event = {
-        "@id": event_id,
-        "@type": "SportsEvent",
-        "name": race["name"],
-        "sport": "Cross-Country Skiing",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-        "location": {
-            "@type": "Place",
-            "name": v.get("location", ""),
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": v.get("country_code", ""),
-            },
-        },
-    }
-
+    nodes = []
     start_date = parse_date_specific(v.get("date_specific"))
     if start_date:
-        event["startDate"] = start_date
-
-    if v.get("lat") and v.get("lng"):
-        event["location"]["geo"] = {
-            "@type": "GeoCoordinates",
-            "latitude": v["lat"],
-            "longitude": v["lng"],
+        event = {
+            "@id": event_id,
+            "@type": "SportsEvent",
+            "name": race["name"],
+            "sport": "Cross-Country Skiing",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "startDate": start_date,
+            "location": {
+                "@type": "Place",
+                "name": v.get("location", ""),
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": v.get("country_code", ""),
+                },
+            },
         }
 
-    if v.get("website"):
-        event["url"] = v["website"]
+        if race.get("tagline"):
+            event["description"] = race["tagline"]
 
-    event["review"] = {"@id": review_id}
-    review = {
-        "@id": review_id,
-        "@type": "Review",
-        "itemReviewed": {"@id": event_id},
-        "author": {
-            "@type": "Organization",
-            "name": "XC Ski Labs",
-        },
-        "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": str(r["overall_score"]),
-            "bestRating": "100",
-            "worstRating": "0",
-        },
-    }
+        if v.get("lat") and v.get("lng"):
+            event["location"]["geo"] = {
+                "@type": "GeoCoordinates",
+                "latitude": v["lat"],
+                "longitude": v["lng"],
+            }
+
+        if v.get("website"):
+            event["url"] = v["website"]
+
+        event["review"] = {"@id": review_id}
+        review = {
+            "@id": review_id,
+            "@type": "Review",
+            "itemReviewed": {"@id": event_id},
+            "author": {
+                "@type": "Organization",
+                "name": "XC Ski Labs",
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": str(r["overall_score"]),
+                "bestRating": "100",
+                "worstRating": "0",
+            },
+        }
+        nodes = [event, review]
 
     breadcrumbs = {
         "@type": "BreadcrumbList",
@@ -2252,10 +2261,12 @@ def build_jsonld(race: dict) -> str:
         ],
     }
 
+    nodes.append(breadcrumbs)
+
     return (
         '<script type="application/ld+json">'
         + _safe_json_for_script(
-            {"@context": "https://schema.org", "@graph": [event, review, breadcrumbs]},
+            {"@context": "https://schema.org", "@graph": nodes},
             ensure_ascii=False,
             separators=(",", ":"),
         )
