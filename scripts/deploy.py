@@ -629,30 +629,26 @@ def ping_indexnow(urls):
 
 
 def purge_cache():
-    """Purge SiteGround caches.
+    """Purge SiteGround caches via site-tools-client (static site — no wp-cli).
 
-    Tries wp-cli. If unavailable (static site), prints manual instructions.
-    Returns True either way (non-fatal).
+    Returns True on success, "manual" with instructions otherwise (non-fatal).
     """
     ssh = get_ssh_credentials()
     if not ssh:
         return False
     host, user, port = ssh
 
-    wp_path = get_remote_base()
-
     ok, stdout, stderr = _ssh_run(
         host, user, port,
-        f"wp --path={wp_path} sg purge 2>&1",
+        "site-tools-client domain update id=1 flush_cache=1 2>&1",
         timeout=30,
     )
-    if ok:
-        print("  SiteGround cache purged (wp-cli)")
+    if ok and "msg=OK" in stdout:
+        print("  SiteGround cache purged (site-tools-client)")
         return True
 
     print("  Cache purge requires manual action: go to SiteGround Site Tools → Speed → Caching → Flush Cache")
     return "manual"
-    return True  # Non-fatal — pages are still deployed
 
 
 def deploy_all():
