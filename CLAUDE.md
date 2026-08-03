@@ -37,9 +37,10 @@ d["race"]["history"]["founded"]
 
 ## Deploy
 - SiteGround via tar+ssh (NOT GitHub Pages)
-- SSH key: `~/.ssh/xcskilabs_key`
-- Env vars: `GL_SSH_HOST`, `GL_SSH_USER`, `GL_SSH_PORT`, `GL_REMOTE_BASE` (GL_ prefix is legacy)
-- Always purge SiteGround cache after deploy
+- SSH key: `~/.ssh/xcskilabs_key` (RSA-4096, rebuilt 2026-08-03; imported in Site Tools as `xcskilabs-deploy`. SiteGround's key Import field REJECTS ed25519 — RSA only, error is just "Invalid field")
+- Env vars in `.env` (gitignored): `GL_SSH_HOST=ssh.xcskilabs.com`, `GL_SSH_USER`, `GL_SSH_PORT=18765`; `GL_REMOTE_BASE` defaults to `~/www/xcskilabs.com/public_html` (GL_ prefix is legacy)
+- xcskilabs.com is its OWN SiteGround site — gravel/road servers and keys don't reach it
+- Cache purge is automated (`--purge-cache` / `--deploy-all` use `site-tools-client domain update id=1 flush_cache=1` over SSH)
 - Pre-deploy: `python scripts/preflight.py` (or `--deploy` to chain)
 
 ## Brand
