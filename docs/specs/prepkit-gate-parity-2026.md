@@ -29,12 +29,24 @@ gate should be live and indexed BEFORE seasonal traffic arrives.
   brand memory) — generate pages, but flag deploy for human review in your
   recap rather than pushing to the live site yourself.
 
+## Repo facts that override anything implied above
+
+- This is a STATIC site (no WordPress — CLAUDE.md pitfall 29). Kit pages
+  render to `output/{slug}/prep-kit/index.html`; GA4/consent embed directly
+  in the generated HTML like the race pages do.
+- New visual surfaces follow `docs/BRAND_GUIDELINES.md` ("Wax Bench") — do
+  NOT extend the live Nordic Night palette.
+- Sitemap (`scripts/generate_sitemap.py`) and preflight must account for
+  the new pages; regenerate output and keep the test-count parity checks
+  green.
+
 ## Deliverables
 
 1. `scripts/generate_prep_kit.py` (this repo): XC prep-kit pages at
    `/race/{slug}/prep-kit/`. Content assembled ONLY from fields that
-   actually exist in this repo's `race-data/` profiles — inventory the
-   schema first and list in the recap which sections were possible.
+   actually exist in this repo's `race-data/` profiles (schema shape in
+   CLAUDE.md) — inventory first and list in the recap which sections were
+   possible.
    Target sections (include what data supports, in this order): race
    logistics (date, venue, distances, technique classic/skate), pacing
    guidance by distance, fueling outline (adapt effort-duration bands, not
