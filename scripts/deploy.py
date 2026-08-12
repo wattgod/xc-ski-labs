@@ -188,7 +188,10 @@ def sync_pages(pages_dir=None):
             shutil.copytree(slug_dir, dst)
 
         page_count = len(slug_dirs)
-        print(f"  Uploading {page_count} race pages via tar+ssh...")
+        # Slug dirs now carry prep-kit/ subpages — validate against what was
+        # actually staged, not the slug count, or the check warns forever.
+        staged_count = sum(1 for _ in tmpdir.rglob("index.html"))
+        print(f"  Uploading {page_count} race pages ({staged_count} documents) via tar+ssh...")
 
         if not _tar_ssh_upload(host, user, port, tmpdir, remote_base):
             return False
@@ -204,8 +207,8 @@ def sync_pages(pages_dir=None):
     )
     if ok and stdout.strip().isdigit():
         remote_count = int(stdout.strip())
-        if remote_count != page_count:
-            print(f"  WARNING: expected {page_count} index.html files on remote, found {remote_count}")
+        if remote_count != staged_count:
+            print(f"  WARNING: expected {staged_count} index.html files on remote, found {remote_count}")
         else:
             print(f"  Verified: {remote_count} index.html files on remote")
 
