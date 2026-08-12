@@ -530,9 +530,7 @@ class TestOutputIntegrity:
             f"but web/race-index.json has {len(web_data['races'])}"
 
     def test_sitemap_race_count_matches(self):
-        """output/sitemap.xml URL count should match profile count + 2
-        (homepage + search).
-        """
+        """Sitemap should contain every race profile and prep-kit URL."""
         sitemap = OUTPUT_DIR / "sitemap.xml"
         if not sitemap.exists():
             pytest.skip("Sitemap not generated yet")
@@ -546,11 +544,12 @@ class TestOutputIntegrity:
         # guide pillar + 3 open (indexable) guide chapters. Gated chapters
         # are noindex and intentionally excluded from the sitemap.
         static_urls = 10  # home, search, training-plans, about, methodology, privacy, guide + 3 open chapters
-        expected = profile_count + static_urls
+        expected = (profile_count * 2) + static_urls
 
         assert url_count == expected, \
             f"Sitemap has {url_count} URLs but expected {expected} " \
-            f"({profile_count} profiles + {static_urls} static/guide URLs)"
+            f"({profile_count} profiles + {profile_count} prep kits + " \
+            f"{static_urls} static/guide URLs)"
 
     def test_no_orphaned_output_dirs(self):
         """Every race dir in output/ should correspond to an existing profile

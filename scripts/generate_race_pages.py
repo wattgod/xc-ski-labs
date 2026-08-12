@@ -1300,17 +1300,17 @@ a {{ color: inherit; }}
 }}
 .gl-rung-btn.apply {{ border-color: var(--gl-swix-red); background: var(--gl-swix-red); }}
 
-.gl-capture {{ background: var(--gl-carbon); border-top: 3px solid var(--gl-klister); padding: var(--gl-space-6, 32px) var(--gl-space-5, 24px); }}
-.gl-capture-inner {{ max-width: var(--gl-measure); margin: 0 auto; }}
-.gl-capture-head {{ font-family: var(--gl-font-data); font-weight: 700; font-size: 1rem; letter-spacing: .12em; color: var(--gl-klister); margin: 0 0 4px; }}
-.gl-capture-sub {{ font-family: var(--gl-font-data); font-size: .8rem; color: var(--gl-white); margin: 0 0 14px; }}
+.gl-capture {{ background: var(--gl-paper); padding: var(--gl-space-6, 32px) var(--gl-space-5, 24px); }}
+.gl-capture-inner {{ max-width: var(--gl-measure); margin: 0 auto; border: 3px solid var(--gl-carbon); padding: var(--gl-space-5, 24px); }}
+.gl-capture-head {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; font-weight: 900; font-size: clamp(1.35rem, 3vw, 2rem); line-height: 1; color: var(--gl-carbon); margin: 0 0 8px; }}
+.gl-capture-sub {{ font-family: var(--gl-font-editorial); font-size: 1rem; color: var(--gl-carbon); margin: 0 0 14px; }}
 .gl-capture-row {{ display: flex; gap: 8px; }}
-.gl-capture-input {{ flex: 1; padding: 12px; font-family: var(--gl-font-data); font-size: .85rem; border: 2px solid var(--gl-white); background: var(--gl-white); color: var(--gl-carbon); }}
-.gl-capture-btn {{ padding: 12px 22px; font-family: var(--gl-font-data); font-weight: 700; letter-spacing: .1em; border: 2px solid var(--gl-paper); background: var(--gl-paper); color: var(--gl-carbon); cursor: pointer; }}
+.gl-capture-input {{ flex: 1; min-height: 44px; padding: 12px; font-family: var(--gl-font-data); font-size: .85rem; border: 2px solid var(--gl-carbon); background: var(--gl-white); color: var(--gl-carbon); }}
+.gl-capture-btn {{ min-height: 44px; padding: 12px 22px; font-family: var(--gl-font-data); font-weight: 700; letter-spacing: .1em; border: 2px solid var(--gl-carbon); background: var(--gl-carbon); color: var(--gl-white); cursor: pointer; }}
 .gl-capture-btn:disabled {{ opacity: .6; cursor: wait; }}
 .gl-capture-honey {{ position: absolute; left: -9999px; }}
-.gl-capture-ok, .gl-capture-err {{ font-family: var(--gl-font-data); font-size: .85rem; color: var(--gl-klister); margin: 8px 0 0; }}
-.gl-capture-err {{ color: var(--gl-white); }}
+.gl-capture-ok, .gl-capture-err {{ font-family: var(--gl-font-data); font-size: .85rem; color: var(--gl-carbon); margin: 8px 0 0; }}
+.gl-capture-err {{ color: var(--gl-swix-red); font-weight: 700; }}
 @media (max-width: 560px) {{ .gl-capture-row {{ flex-direction: column; }} }}
 .gl-footer {{ background: var(--gl-swix-red); color: var(--gl-white); }}
 .gl-footer-inner {{ max-width: var(--gl-measure); min-height: 72px; margin: 0 auto; padding: var(--gl-space-4) var(--gl-space-5); display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-5); }}
@@ -1395,33 +1395,32 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
 # ── HTML Builders ──────────────────────────────────────────────
 
 def build_email_capture(race: dict) -> str:
-    """Friend-register email capture — posts to the multi-brand lead worker
-    (brand: xcskilabs). Deadpan register: about them, one field, no promises."""
+    """Prep-kit gate posting to the multi-brand lead worker."""
     r = race.get("race", race)
     name = esc(r.get("display_name") or r.get("name", ""))
     slug = esc(r.get("slug", ""))
     return f"""
 <section class="gl-capture" id="gl-capture">
   <div class="gl-capture-inner">
-    <p class="gl-capture-head">GETTING READY FOR {name}?</p>
-    <p class="gl-capture-sub">Leave your email. I'll help.</p>
+    <p class="gl-capture-head">{name} prep kit</p>
+    <p class="gl-capture-sub">Leave your email &mdash; the {name} prep kit is yours.</p>
     <form class="gl-capture-form" id="gl-capture-form" autocomplete="off">
       <input type="hidden" name="race_name" value="{name}">
       <input type="hidden" name="race_slug" value="{slug}">
       <input type="text" name="website" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="gl-capture-honey">
       <div class="gl-capture-row">
         <input class="gl-capture-input" type="email" name="email" required placeholder="you@example.com" aria-label="Email address">
-        <button class="gl-capture-btn" type="submit">SEND</button>
+        <button class="gl-capture-btn" type="submit">GET PREP KIT</button>
       </div>
     </form>
-    <p class="gl-capture-ok" id="gl-capture-ok" hidden>&#10003; Got it &mdash; reply when my email lands.</p>
+    <p class="gl-capture-ok" id="gl-capture-ok" hidden>&#10003; Prep kit unlocked. Opening it now.</p>
     <p class="gl-capture-err" id="gl-capture-err" hidden>That didn't send. Try once more.</p>
   </div>
 </section>"""
 
 
 def build_capture_js() -> str:
-    """Trail capture (localStorage xc_viewed_races) + capture form submit."""
+    """Submit the prep-kit gate and redirect only after worker success."""
     return """<script>
 (function() {
   // trail: remember the last 5 race pages viewed (first-party, local only)
@@ -1446,32 +1445,31 @@ def build_capture_js() -> str:
     var ok = document.getElementById('gl-capture-ok');
     var err = document.getElementById('gl-capture-err');
     var btn = form.querySelector('.gl-capture-btn');
+    var kitUrl = '/race/' + form.elements.race_slug.value + '/prep-kit/';
     // honeypot: bots get a fake success, no network call
     if (form.elements.website && form.elements.website.value) {
-      form.hidden = true; if (ok) ok.hidden = false; return;
+      form.hidden = true; if (ok) ok.hidden = false;
+      window.location.assign(kitUrl); return;
     }
-    var viewed = [];
-    try {
-      viewed = (JSON.parse(localStorage.getItem('xc_viewed_races') || '[]') || [])
-        .map(function(r) { return r && typeof r.name === 'string' ? r.name : null; }).filter(Boolean).slice(0, 5);
-    } catch (e) {}
     if (btn) btn.disabled = true;
     if (err) err.hidden = true;
     fetch('https://fueling-lead-intake.gravelgodcoaching.workers.dev', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        source: 'race_profile',
-        brand: 'xcskilabs',
         email: form.elements.email.value,
-        race_name: form.elements.race_name.value,
         race_slug: form.elements.race_slug.value,
-        viewed_races: viewed,
+        race_name: form.elements.race_name.value,
+        source: 'prep_kit_gate',
+        brand: 'xcskilabs',
         website: ''
       })
     }).then(function(resp) { return resp.ok ? resp.json() : Promise.reject(); })
       .then(function(data) {
-        if (data && data.success === true) { form.hidden = true; if (ok) ok.hidden = false; }
+        if (data && data.success === true) {
+          form.hidden = true; if (ok) ok.hidden = false;
+          window.location.assign(kitUrl);
+        }
         else { return Promise.reject(); }
       })
       .catch(function() { if (btn) btn.disabled = false; if (err) err.hidden = false; });

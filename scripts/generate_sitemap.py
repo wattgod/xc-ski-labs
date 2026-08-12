@@ -98,7 +98,7 @@ def generate_sitemap(domain, profiles):
     for gid in ("what-is-xc-ski-racing", "race-selection", "training-fundamentals"):
         add_url(f"{domain}/guide/{gid}/", "0.7", "monthly")
 
-    # Race pages — already sorted
+    # Race pages and their indexable prep kits — already sorted
     tier_counts = {}
     for p in profiles:
         tier = p["tier"]
@@ -107,6 +107,11 @@ def generate_sitemap(domain, profiles):
             f"{domain}/race/{p['slug']}/",
             config["priority"],
             config["changefreq"],
+        )
+        add_url(
+            f"{domain}/race/{p['slug']}/prep-kit/",
+            "0.6",
+            "monthly",
         )
         tier_counts[tier] = tier_counts.get(tier, 0) + 1
 
@@ -167,11 +172,12 @@ def main():
     output_path.write_bytes(xml_bytes)
 
     static_urls = 10  # homepage, search, training, about, methodology, privacy, guide + 3 open chapters
-    total_urls = static_urls + len(sorted_profiles)
+    total_urls = static_urls + (2 * len(sorted_profiles))
     print(f"\nWrote {output_path}")
     print(f"  Total URLs: {total_urls}")
     print(f"  Static:     {static_urls} (site pages + indexable guide pages)")
     print(f"  Races:      {len(sorted_profiles)}")
+    print(f"  Prep kits:  {len(sorted_profiles)}")
     for tier in sorted(tier_counts):
         print(f"    T{tier}: {tier_counts[tier]}")
 

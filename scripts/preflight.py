@@ -230,7 +230,7 @@ def check_search_index(result: PreflightResult):
 
 
 def check_output_pages(result: PreflightResult):
-    """Verify output pages exist and match profiles."""
+    """Verify race and prep-kit output pages exist and match profiles."""
     print("\n[3/6] Validating output pages...")
 
     if not OUTPUT_DIR.exists():
@@ -251,6 +251,21 @@ def check_output_pages(result: PreflightResult):
         )
     else:
         print(f"  Pages match: {len(page_slugs)} pages")
+
+    kit_slugs = {
+        slug for slug in page_slugs
+        if (OUTPUT_DIR / slug / "prep-kit" / "index.html").exists()
+    }
+    missing_kits = sorted(page_slugs - kit_slugs)
+    if missing_kits:
+        preview = ", ".join(missing_kits[:5])
+        suffix = f" (and {len(missing_kits) - 5} more)" if len(missing_kits) > 5 else ""
+        result.error(
+            f"Missing {len(missing_kits)} prep-kit pages: {preview}{suffix} — "
+            "run generate_prep_kit.py"
+        )
+    elif len(kit_slugs) == profile_count:
+        print(f"  Prep kits match: {len(kit_slugs)} pages")
 
     # Check homepage exists
     hp = OUTPUT_DIR / "index.html"
