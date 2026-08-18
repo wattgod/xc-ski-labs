@@ -5,7 +5,13 @@
  * Injects branded navigation header into WordPress pages.
  * Hides native Astra theme header, replaces with XC Ski Labs nav.
  *
- * Nav items: RACES, TRAINING PLANS, COACHING, ABOUT
+ * Nav items: RACES, TRAINING PLANS, COACHING, CONSULTING, ABOUT
+ *
+ * NOTE: xcskilabs.com is a static site with no WordPress (repo pitfall
+ * #29 in CLAUDE.md) — this mu-plugin is kept for reference only and is
+ * NOT what renders the live nav. The live nav is build_nav_header() in
+ * scripts/generate_race_pages.py, embedded directly into every
+ * generated page. Keep this file's nav item list in sync by hand.
  */
 
 defined('ABSPATH') || exit;
@@ -113,6 +119,7 @@ add_action('wp_body_open', function () {
     $is_guide   = (strpos($path, '/guide') !== false);
     $is_plans   = (strpos($path, '/training') !== false || strpos($path, '/questionnaire') !== false);
     $is_coach   = (strpos($path, '/coaching') !== false);
+    $is_consult = (strpos($path, '/consulting') !== false);
     $is_about   = (strpos($path, '/about') !== false);
     ?>
 <header class="xl-header">
@@ -124,6 +131,7 @@ add_action('wp_body_open', function () {
             <a href="/guide/"<?php echo $is_guide ? ' class="active"' : ''; ?>>Guide</a>
             <a href="/training-plans/"<?php echo $is_plans ? ' class="active"' : ''; ?>>Plans</a>
             <a href="/coaching/"<?php echo $is_coach ? ' class="active"' : ''; ?>>Coaching</a>
+            <a href="/consulting/"<?php echo $is_consult ? ' class="active"' : ''; ?>>Consulting</a>
             <a href="/about/"<?php echo $is_about ? ' class="active"' : ''; ?>>About</a>
         </nav>
     </div>
