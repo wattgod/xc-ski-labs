@@ -1181,6 +1181,9 @@ a:focus-visible, button:focus-visible {{
         <a href="/coaching/">Coaching</a>
               </li>
       <li class="gl-nav-item">
+        <a href="/consulting/">Consulting</a>
+              </li>
+      <li class="gl-nav-item">
         <a href="/about/">About</a>
       </li>
     </ul>

@@ -13,6 +13,7 @@ Usage:
     python deploy.py --sync-sitemap                # sitemap to site root
     python deploy.py --sync-training               # training plans to /training-plans/
     python deploy.py --sync-coaching               # coaching page + intake form to /coaching/
+    python deploy.py --sync-consulting             # consulting page + intake + confirmed to /consulting/
     python deploy.py --sync-thanks                 # success page to /thanks/
     python deploy.py --sync-feeds                  # llms.txt, RSS, robots.txt, race dates
     python deploy.py --sync-llms                   # regenerate + upload llms.txt/llms-full.txt/IndexNow key
@@ -405,6 +406,68 @@ def sync_coaching():
     return success == len(files)
 
 
+def sync_consulting():
+    """Upload the consulting landing page (/consulting/), intake form
+    (/consulting/intake/), and confirmation page (/consulting/confirmed/)
+    to SiteGround.
+
+    Uses the same scp-per-file, count-successes pattern as sync_coaching()
+    (repo pitfall #35: fail on partial deploys — return success ==
+    len(files), not success > 0).
+    """
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+
+    remote_base = get_remote_base()
+    files = [
+        (
+            PROJECT_ROOT / "output" / "consulting" / "index.html",
+            f"{remote_base}/consulting",
+            f"{remote_base}/consulting/index.html",
+            "wordpress/generate_consulting.py",
+        ),
+        (
+            PROJECT_ROOT / "output" / "consulting" / "intake" / "index.html",
+            f"{remote_base}/consulting/intake",
+            f"{remote_base}/consulting/intake/index.html",
+            "wordpress/generate_consult_intake.py",
+        ),
+        (
+            PROJECT_ROOT / "output" / "consulting" / "confirmed" / "index.html",
+            f"{remote_base}/consulting/confirmed",
+            f"{remote_base}/consulting/confirmed/index.html",
+            "wordpress/generate_consult_confirmed.py",
+        ),
+    ]
+
+    missing = [(local, gen) for local, _, _, gen in files if not local.exists()]
+    if missing:
+        for local, gen in missing:
+            print(f"  Consulting page not found: {local}")
+            print(f"  Run: python {gen}")
+        return False
+
+    success = 0
+    for local, remote_dir, remote_file, _ in files:
+        ok, _, err = _ssh_run(host, user, port,
+                              f"mkdir -p {remote_dir} && chmod 755 {remote_dir}")
+        if not ok:
+            print(f"  Failed to create {remote_dir}: {err}")
+            continue
+        if _scp_upload(host, user, port, local, remote_file):
+            success += 1
+
+    if success == len(files):
+        print("  Deployed consulting landing page (/consulting/), intake form "
+              "(/consulting/intake/), and confirmation page (/consulting/confirmed/)")
+        return True
+
+    print(f"  FAILED: partial consulting deploy {success}/{len(files)} files")
+    return success == len(files)
+
+
 def _sync_static_page(name: str, remote_path: str):
     """Upload a single generated static page dir (output/{name}/index.html)."""
     ssh = get_ssh_credentials()
@@ -665,6 +728,7 @@ def deploy_all():
         ("Race Pages", sync_pages),
         ("Training Plans", sync_training),
         ("Coaching", sync_coaching),
+        ("Consulting", sync_consulting),
         ("Questionnaire", sync_questionnaire),
         ("About", sync_about),
         ("Privacy", sync_privacy),
@@ -735,6 +799,11 @@ if __name__ == "__main__":
     parser.add_argument(
         "--sync-coaching", action="store_true",
         help="Upload coaching landing page (/coaching/) and intake form (/coaching/apply/)"
+    )
+    parser.add_argument(
+        "--sync-consulting", action="store_true",
+        help="Upload consulting landing page (/consulting/), intake form "
+             "(/consulting/intake/), and confirmation page (/consulting/confirmed/)"
     )
     parser.add_argument(
         "--sync-guide", action="store_true",
@@ -816,6 +885,9 @@ if __name__ == "__main__":
             ran = True
         if args.sync_coaching:
             sync_coaching()
+            ran = True
+        if args.sync_consulting:
+            sync_consulting()
             ran = True
         if args.sync_guide:
             sync_guide()
