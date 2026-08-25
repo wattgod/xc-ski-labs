@@ -411,27 +411,56 @@ class TestTrainingPlansPage:
     def test_custom_plan_preview_has_requested_controls(self):
         html = _load_page("training-plans/index.html")
         assert 'id="custom-plan-preview"' in html
-        assert 'id="gl-preview-hours"' in html
-        assert html.count('class="gl-preview-day"') == 7
-        assert 'id="gl-preview-level"' in html
+        assert 'data-role="race"' in html
+        assert 'data-role="hours"' in html
+        assert html.count('class="tp-sim-day-toggle"') == 7
+        assert 'data-role="experience"' in html
 
-    def test_custom_plan_preview_has_server_rendered_week(self):
+    def test_custom_plan_preview_has_presets_and_calendar_shell(self):
         html = _load_page("training-plans/index.html")
-        assert html.count('data-preview-day=') == 7
-        assert "Threshold double pole" in html
-        assert "Long race-specific ski" in html
+        assert html.count('data-preset="') == 3
+        assert 'data-preset="committed-8"' in html
+        assert html.count('class="tp-sim-day"') == 7
+        assert "TRAININGPEAKS" in html
+
+    def test_custom_plan_preview_embeds_all_race_demands(self):
+        html = _load_page("training-plans/index.html")
+        assert html.count('<option value=') >= 229
+        assert 'value="birkebeinerrennet" selected' in html
+        assert '"course_technicality":8' in html
+        assert '"snow_reliability":10' in html
 
     def test_custom_plan_preview_passes_choices_to_intake(self):
         html = _load_page("training-plans/index.html")
-        assert "new URLSearchParams" in html
-        assert "hours: String(totalHours)" in html
-        assert "days: selected.join(',')" in html
-        assert "experience: level.value" in html
+        assert "url.searchParams.set('race'" in html
+        assert "url.searchParams.set('hours'" in html
+        assert "url.searchParams.set('days'" in html
+        assert "url.searchParams.set('experience'" in html
+
+    def test_custom_plan_preview_uses_engine_contract_and_native_projection(self):
+        html = _load_page("training-plans/index.html")
+        assert "training-plan-preview-request/v1" in html
+        assert "training-plan-preview/v1" in html
+        assert "/api/training-plan-preview" in html
+        assert "session.structure" in html
+        assert "structure.polyline" in html
+        assert "session.fueling_guidance" in html
+        assert "session.coach_note" in html
+        assert "response.week.weekly_self_review" in html
+        assert "response.week.comment_protocol" in html
+        assert "response.engine_version" in html
+        assert "response.voice_version" in html
+        assert ".innerHTML" not in html
+
+    def test_custom_plan_preview_debounces_and_cancels_stale_requests(self):
+        html = _load_page("training-plans/index.html")
+        assert "setTimeout(load,immediate?0:350)" in html
+        assert "new AbortController()" in html
 
     def test_custom_plan_preview_analytics_waits_for_interaction(self):
         html = _load_page("training-plans/index.html")
-        assert "var touched = false" in html
-        assert "if (touched && typeof gtag === 'function')" in html
+        assert "var touched=false" in html
+        assert "if(touched&&typeof gtag==='function')" in html
         assert "plan_preview_update" in html
 
     def test_jsonld_schema(self):

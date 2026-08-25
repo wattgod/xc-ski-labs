@@ -27,6 +27,8 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from plan_simulator import (get_plan_simulator_css, get_plan_simulator_js,
+                            render_plan_simulator)
 
 # ── Price per week (cents) — derived from stripe-products.json ──
 
@@ -90,6 +92,43 @@ def count_race_profiles():
         return 229
     files = [f for f in data_dir.glob("*.json") if f.name != "_schema.json"]
     return len(files)
+
+
+def load_simulator_races():
+    """Project every indexed race's rated demands for the preview selector."""
+    criteria = (
+        "distance", "elevation", "altitude", "field_size", "prestige",
+        "international_draw", "course_technicality", "snow_reliability",
+        "grooming_quality", "accessibility", "community", "scenery",
+        "organization", "competitive_depth",
+    )
+    races = []
+    for path in sorted((PROJECT_ROOT / "race-data").glob("*.json")):
+        if path.name == "_schema.json":
+            continue
+        try:
+            document = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        race = document.get("race", document)
+        rating = race.get("nordic_lab_rating") or {}
+        demands = {}
+        for key in criteria:
+            value = rating.get(key)
+            if isinstance(value, (int, float)):
+                demands[key] = max(0, min(10, int(round(value * 2))))
+        if not demands:
+            continue
+        races.append({
+            "slug": race.get("slug"),
+            "name": race.get("display_name") or race.get("name"),
+            "vitals": {"discipline": (race.get("vitals") or {}).get("discipline")},
+            "demands": demands,
+            "score": rating.get("overall_score") or 0,
+        })
+    races.sort(key=lambda race: (
+        race["slug"] != "birkebeinerrennet", -race["score"], race["name"]))
+    return races
 
 
 def load_tokens_css():
@@ -246,37 +285,6 @@ a:focus-visible, button:focus-visible {
 }
 
 /* ── Interactive plan preview ────────────────────── */
-.gl-preview { max-width: 960px; margin: 36px auto 0; padding: 28px; border: 4px solid var(--gl-carbon); background: var(--gl-paper); }
-.gl-preview-kicker { margin: 0 0 8px; font-family: var(--gl-font-data); font-size: .68rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gl-swix-red); }
-.gl-preview h2 { margin: 0 0 8px; font-family: var(--gl-font-display); font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; font-style: italic; line-height: 1; text-transform: uppercase; }
-.gl-preview-lede { max-width: 66ch; margin: 0 0 22px; }
-.gl-preview-layout { display: grid; grid-template-columns: minmax(220px, .8fr) minmax(340px, 1.2fr); gap: 24px; align-items: start; }
-.gl-preview-controls { display: grid; gap: 18px; }
-.gl-preview-field { display: grid; gap: 8px; margin: 0; padding: 0; border: 0; font-family: var(--gl-font-data); font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
-.gl-preview-range { display: flex; align-items: center; gap: 10px; }
-.gl-preview-range input { flex: 1; accent-color: var(--gl-swix-red); }
-.gl-preview-range output { min-width: 64px; text-align: right; }
-.gl-preview-days > div { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
-.gl-preview-day { position: relative; cursor: pointer; }
-.gl-preview-day input { position: absolute; opacity: 0; pointer-events: none; }
-.gl-preview-day span { display: grid; min-height: 44px; place-items: center; border: 2px solid var(--gl-hairline); background: var(--gl-white); }
-.gl-preview-day input:checked + span { border-color: var(--gl-carbon); background: var(--gl-carbon); color: var(--gl-white); }
-.gl-preview-day input:focus-visible + span { outline: 3px solid var(--gl-swix-red); outline-offset: 2px; }
-.gl-preview-field select { min-height: 44px; border: 2px solid var(--gl-carbon); background: var(--gl-white); color: var(--gl-carbon); padding: 8px; font: inherit; }
-.gl-preview-result { border: 3px solid var(--gl-carbon); background: var(--gl-white); }
-.gl-preview-result-head { display: grid; gap: 4px; padding: 14px 16px; border-bottom: 3px solid var(--gl-carbon); }
-.gl-preview-result-head span, .gl-preview-result-head small { font-family: var(--gl-font-data); font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; }
-.gl-preview-result-head strong { font-family: var(--gl-font-display); font-size: 1rem; font-weight: 900; font-style: italic; text-transform: uppercase; }
-.gl-preview-week { list-style: none; margin: 0; padding: 0; }
-.gl-preview-week li { display: grid; grid-template-columns: 42px 1fr 50px; gap: 10px; align-items: baseline; padding: 9px 14px; border-bottom: 1px solid var(--gl-hairline); }
-.gl-preview-day-name, .gl-preview-duration { font-family: var(--gl-font-data); font-size: .68rem; text-transform: uppercase; }
-.gl-preview-duration { text-align: right; }
-.gl-preview-session { font-size: .86rem; }
-.gl-preview-lock { display: grid; gap: 5px; padding: 14px 16px; border-top: 2px solid var(--gl-carbon); font-size: .82rem; line-height: 1.45; }
-.gl-preview-lock strong { font-family: var(--gl-font-data); font-size: .68rem; letter-spacing: .05em; text-transform: uppercase; }
-.gl-preview-cta { display: block; min-height: 48px; padding: 13px 18px; border-top: 3px solid var(--gl-carbon); background: var(--gl-swix-red); color: var(--gl-white); font-family: var(--gl-font-data); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-align: center; text-decoration: none; text-transform: uppercase; }
-.gl-preview-cta:hover { background: var(--gl-red-deep); color: var(--gl-white); }
-@media (max-width: 720px) { .gl-preview { margin: 24px 20px 0; padding: 20px; } .gl-preview-layout { grid-template-columns: 1fr; } }
 
 .gl-hero-sub {
   font-family: var(--gl-font-editorial);
@@ -838,7 +846,15 @@ a:focus-visible, button:focus-visible {
 }
 
 .xl-consent-decline:hover { color: var(--gl-white); border-color: var(--gl-white); }
-"""
+""" + get_plan_simulator_css(
+        ink="var(--gl-carbon)",
+        paper="var(--gl-paper)",
+        panel="var(--gl-white)",
+        line="var(--gl-hairline)",
+        accent="var(--gl-swix-red)",
+        data_font="var(--gl-font-data)",
+        body_font="var(--gl-font-editorial)",
+    )
 
 
 # ── Section Builders ───────────────────────────────────────────
@@ -878,45 +894,22 @@ def build_hero(race_count):
 
 
 def build_plan_preview():
-    """Interactive preview of a week shaped by hours, days, and experience."""
-    day_controls = "".join(
-        f'''<label class="gl-preview-day"><input type="checkbox" value="{day}"'''
-        f'''{" checked" if day in ("Tue", "Thu", "Sat", "Sun") else ""}>'''
-        f'''<span>{day}</span></label>'''
-        for day in ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+    """Contract-backed calendar preview with every indexed race available."""
+    races = load_simulator_races()
+    if not races:
+        return ""
+    race = races[0]
+    return render_plan_simulator(
+        brand="xc_ski_labs",
+        race=race,
+        demands=race["demands"],
+        race_options=races,
+        questionnaire_url="/questionnaire/",
+        heading=f"See a {race['name']} week before you buy.",
+        lede=("Choose your race and the week you actually have. The current "
+              "plan engine uses those constraints and the race's rated "
+              "demands to build a real calendar preview beside them."),
     )
-    week = "".join(
-        f'''<li data-preview-day="{day}"><span class="gl-preview-day-name">{day}</span>'''
-        f'''<strong class="gl-preview-session">{session}</strong>'''
-        f'''<span class="gl-preview-duration">{duration}</span></li>'''
-        for day, session, duration in (
-            ("Mon", "Rest + mobility", "—"),
-            ("Tue", "Threshold double pole", "1:15"),
-            ("Wed", "Rest", "—"),
-            ("Thu", "Easy technique ski", "1:30"),
-            ("Fri", "Rest", "—"),
-            ("Sat", "Long race-specific ski", "3:30"),
-            ("Sun", "Recovery endurance", "1:45"),
-        )
-    )
-    return f'''<section class="gl-preview" id="custom-plan-preview">
-  <p class="gl-preview-kicker">YOUR WEEK, NOT A TEMPLATE</p>
-  <h2>See how your plan could fit.</h2>
-  <p class="gl-preview-lede">Set the constraints that usually break a ready-made plan. This representative ski week reshapes itself around them.</p>
-  <div class="gl-preview-layout">
-    <form class="gl-preview-controls" id="gl-preview-controls">
-      <label class="gl-preview-field" for="gl-preview-hours"><span>Available hours / week</span><span class="gl-preview-range"><input id="gl-preview-hours" type="range" min="4" max="18" step="1" value="8"><output id="gl-preview-hours-value" for="gl-preview-hours">8 hours</output></span></label>
-      <fieldset class="gl-preview-field gl-preview-days"><legend>Preferred training days</legend><div>{day_controls}</div></fieldset>
-      <label class="gl-preview-field" for="gl-preview-level"><span>Experience level</span><select id="gl-preview-level"><option value="beginner">New to structured training</option><option value="intermediate" selected>Experienced / intermediate</option><option value="advanced">Advanced racer</option></select></label>
-    </form>
-    <div class="gl-preview-result" aria-live="polite">
-      <div class="gl-preview-result-head"><span>REPRESENTATIVE BUILD WEEK</span><strong id="gl-preview-summary">8 hours across 4 preferred days</strong><small>Classic, skate, or both are set in the full intake.</small></div>
-      <ol class="gl-preview-week">{week}</ol>
-      <div class="gl-preview-lock"><strong>This is the shape. The full plan supplies the progression.</strong><span>Every block, recovery step, strength session, technique progression, and race-week adjustment is built from the complete intake.</span></div>
-      <a class="gl-preview-cta" id="gl-preview-cta" href="/questionnaire/" data-cta="training_plan_preview">BUILD MY FULL PLAN &rarr;</a>
-    </div>
-  </div>
-</section>'''
 
 
 def build_how_it_works():
@@ -1342,6 +1335,7 @@ def generate_page():
     nav = build_nav()
     hero = build_hero(race_count)
     preview = build_plan_preview()
+    plan_simulator_js = get_plan_simulator_js()
     how_it_works = build_how_it_works()
     deliverables = build_deliverables()
     sample_week = build_sample_week()
@@ -1430,6 +1424,7 @@ def generate_page():
 {faq}
 {final_cta}
 {footer}
+<script>{plan_simulator_js}</script>
 
 <!-- Cookie Consent Banner -->
 <div class="xl-consent-banner" id="xl-consent-banner">
@@ -1454,88 +1449,6 @@ function xlConsent(choice) {{
     document.getElementById('xl-consent-banner').classList.remove('show');
 }}
 (function() {{
-    var preview = document.getElementById('gl-preview-controls');
-    if (preview) {{
-        var hours = document.getElementById('gl-preview-hours');
-        var hoursValue = document.getElementById('gl-preview-hours-value');
-        var level = document.getElementById('gl-preview-level');
-        var summary = document.getElementById('gl-preview-summary');
-        var previewCta = document.getElementById('gl-preview-cta');
-        var dayInputs = Array.prototype.slice.call(preview.querySelectorAll('.gl-preview-day input'));
-        var rows = Array.prototype.slice.call(document.querySelectorAll('[data-preview-day]'));
-        var sessions = {{
-            beginner: ['Controlled tempo ski', 'Easy technique ski', 'Long easy ski', 'Recovery ski', 'Strength + mobility'],
-            intermediate: ['Threshold double pole', 'Easy technique ski', 'Long race-specific ski', 'Recovery endurance', 'Ski strength'],
-            advanced: ['Race-pace over-unders', 'VO2 hill repeats', 'Long race simulation', 'Recovery endurance', 'Aerobic technique ski']
-        }};
-        var touched = false;
-
-        function selectedDays() {{
-            return dayInputs.filter(function(input) {{ return input.checked; }}).map(function(input) {{ return input.value; }});
-        }}
-
-        function renderPreview() {{
-            var totalHours = Number(hours.value);
-            var selected = selectedDays();
-            var selectedSet = new Set(selected);
-            var planSessions = sessions[level.value] || sessions.intermediate;
-            var minutes = totalHours * 60;
-            var weights = selected.map(function(_day, index) {{
-                if (index === selected.length - 1) return 1.8;
-                if (index === 0) return 1.15;
-                return 1;
-            }});
-            var weightTotal = weights.reduce(function(total, weight) {{ return total + weight; }}, 0) || 1;
-            var sessionIndex = 0;
-
-            hoursValue.textContent = totalHours + (totalHours === 1 ? ' hour' : ' hours');
-            summary.textContent = totalHours + ' hours across ' + selected.length + ' preferred days';
-            rows.forEach(function(row) {{
-                var day = row.getAttribute('data-preview-day');
-                var session = row.querySelector('.gl-preview-session');
-                var duration = row.querySelector('.gl-preview-duration');
-                if (!selectedSet.has(day)) {{
-                    session.textContent = 'Rest / mobility';
-                    duration.textContent = '—';
-                    return;
-                }}
-                var plannedMinutes = Math.max(30, Math.round((minutes * weights[sessionIndex] / weightTotal) / 5) * 5);
-                session.textContent = planSessions[sessionIndex % planSessions.length];
-                duration.textContent = plannedMinutes + ' min';
-                sessionIndex += 1;
-            }});
-
-            var params = new URLSearchParams({{
-                hours: String(totalHours),
-                days: selected.join(','),
-                experience: level.value
-            }});
-            previewCta.setAttribute('href', '/questionnaire/?' + params.toString());
-
-            if (touched && typeof gtag === 'function') {{
-                gtag('event', 'plan_preview_update', {{
-                    source: 'training_plans',
-                    hours_per_week: totalHours,
-                    preferred_days_count: selected.length,
-                    experience_level: level.value
-                }});
-            }}
-        }}
-
-        preview.addEventListener('input', function(event) {{
-            if (event.target.matches('.gl-preview-day input') && selectedDays().length < 2) {{
-                event.target.checked = true;
-                return;
-            }}
-            touched = true;
-            renderPreview();
-        }});
-        preview.addEventListener('change', function() {{
-            touched = true;
-            renderPreview();
-        }});
-        renderPreview();
-    }}
     document.querySelectorAll('[data-faq-toggle]').forEach(function(btn) {{
         btn.addEventListener('click', function() {{
             var open = btn.getAttribute('aria-expanded') === 'true';
