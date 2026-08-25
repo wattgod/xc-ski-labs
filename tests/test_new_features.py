@@ -456,6 +456,7 @@ class TestTrainingPlansPage:
         html = _load_page("training-plans/index.html")
         assert "setTimeout(load,immediate?0:350)" in html
         assert "new AbortController()" in html
+        assert "Stale preview contract" in html
 
     def test_custom_plan_preview_analytics_waits_for_interaction(self):
         html = _load_page("training-plans/index.html")
