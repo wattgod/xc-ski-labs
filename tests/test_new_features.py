@@ -423,6 +423,13 @@ class TestTrainingPlansPage:
         assert html.count('class="tp-sim-day"') == 7
         assert "TRAININGPEAKS" in html
 
+    def test_custom_plan_preview_has_brand_safe_module_tray(self):
+        html = _load_page("training-plans/index.html")
+        assert 'data-role="modules-toggle"' in html
+        assert 'data-plan-module="strength"' in html
+        assert 'data-plan-module="fueling"' in html
+        assert "gravel_grit" not in html
+
     def test_custom_plan_preview_embeds_all_race_demands(self):
         html = _load_page("training-plans/index.html")
         assert html.count('<option value=') >= 229
