@@ -408,6 +408,32 @@ class TestTrainingPlansPage:
         html = _load_page("training-plans/index.html")
         assert "/questionnaire/" in html, "Missing questionnaire link"
 
+    def test_custom_plan_preview_has_requested_controls(self):
+        html = _load_page("training-plans/index.html")
+        assert 'id="custom-plan-preview"' in html
+        assert 'id="gl-preview-hours"' in html
+        assert html.count('class="gl-preview-day"') == 7
+        assert 'id="gl-preview-level"' in html
+
+    def test_custom_plan_preview_has_server_rendered_week(self):
+        html = _load_page("training-plans/index.html")
+        assert html.count('data-preview-day=') == 7
+        assert "Threshold double pole" in html
+        assert "Long race-specific ski" in html
+
+    def test_custom_plan_preview_passes_choices_to_intake(self):
+        html = _load_page("training-plans/index.html")
+        assert "new URLSearchParams" in html
+        assert "hours: String(totalHours)" in html
+        assert "days: selected.join(',')" in html
+        assert "experience: level.value" in html
+
+    def test_custom_plan_preview_analytics_waits_for_interaction(self):
+        html = _load_page("training-plans/index.html")
+        assert "var touched = false" in html
+        assert "if (touched && typeof gtag === 'function')" in html
+        assert "plan_preview_update" in html
+
     def test_jsonld_schema(self):
         """JSON-LD should have Product schema."""
         html = _load_page("training-plans/index.html")
