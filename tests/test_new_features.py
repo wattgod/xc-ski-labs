@@ -446,8 +446,11 @@ class TestTrainingPlansPage:
 
     def test_custom_plan_preview_uses_engine_contract_and_native_projection(self):
         html = _load_page("training-plans/index.html")
-        assert "training-plan-preview-request/v1" in html
-        assert "training-plan-preview/v1" in html
+        assert "training-plan-preview-request/v2" in html
+        assert "training-plan-preview/v2" in html
+        assert "TRAINING LOAD BY WEEK" in html
+        assert "native ski preview" in html.lower()
+        assert "sample_week_number" in html
         assert "/api/training-plan-preview" in html
         assert "session.structure" in html
         assert "structure.polyline" in html
@@ -459,8 +462,8 @@ class TestTrainingPlansPage:
         assert 'data-role="strength-exercises"' in html
         assert "exercise.sets+' × '+exercise.reps" in html
         assert "step.label||step.type" in html
-        assert "response.week.weekly_self_review" in html
-        assert "response.week.comment_protocol" in html
+        assert "week.weekly_self_review" in html
+        assert "week.comment_protocol" in html
         assert "response.engine_version" in html
         assert "response.voice_version" in html
         assert ".innerHTML" not in html
