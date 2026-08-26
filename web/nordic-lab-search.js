@@ -11,6 +11,41 @@
   let activeCountry = "";
   let activeSort = "score";
   let searchQuery = "";
+  let lastTrackedSignature = "";
+
+  function normalizeSearchQuery(value) {
+    return String(value || "").trim().replace(/\s+/g, " ").toLowerCase();
+  }
+
+  function loadStateFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    searchQuery = normalizeSearchQuery(params.get("q"));
+    activeFilter = params.get("filter") || "all";
+    activeCountry = params.get("country") || "";
+    activeSort = params.get("sort") || "score";
+
+    document.getElementById("searchInput").value = searchQuery;
+    document.getElementById("countryFilter").value = activeCountry;
+    document.getElementById("sortSelect").value = activeSort;
+    document.querySelectorAll(".filter-btn").forEach(function (button) {
+      button.classList.toggle("active", button.dataset.filter === activeFilter);
+    });
+  }
+
+  function saveStateToURL() {
+    const params = new URLSearchParams();
+    if (searchQuery) params.set("q", searchQuery);
+    if (activeFilter !== "all") params.set("filter", activeFilter);
+    if (activeCountry) params.set("country", activeCountry);
+    if (activeSort !== "score") params.set("sort", activeSort);
+    const query = params.toString();
+    window.history.replaceState({}, "", window.location.pathname + (query ? "?" + query : ""));
+  }
+
+  function track(eventName, params) {
+    if (typeof gtag !== "function") return;
+    gtag("event", eventName, params || {});
+  }
 
   const SERIES_LABELS = {
     worldloppet: "Worldloppet",
@@ -30,6 +65,7 @@
       const data = await resp.json();
       allRaces = data.races;
       populateCountryFilter();
+      loadStateFromURL();
       updateStats();
       render();
       bindEvents();
@@ -72,12 +108,11 @@
   }
 
   function getFilteredRaces() {
-    let races = allRaces;
+    let races = allRaces.slice();
 
     // Search
     if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      races = races.filter((r) => r.st.includes(q));
+      races = races.filter((r) => r.st.includes(searchQuery));
     }
 
     // Tier/discipline filter
@@ -117,23 +152,33 @@
     const distText = r.d ? r.d + "km" : "";
     const tierClass = "t" + r.t;
 
-    row.innerHTML =
-      '<td><span class="tier-badge ' + tierClass + '"></span><span class="race-name"></span></td>' +
-      '<td></td>' +
-      '<td class="mono r"></td>' +
-      '<td></td>' +
-      '<td class="mono r score-display ' + tierClass + '"></td>' +
-      '<td class="r"><a class="rowlink"></a></td>';
+    const nameCell = document.createElement("td");
+    const tier = document.createElement("span");
+    tier.className = "tier-badge " + tierClass;
+    tier.textContent = "T" + r.t;
+    const name = document.createElement("span");
+    name.className = "race-name";
+    name.textContent = r.dn || r.n;
+    nameCell.append(tier, name);
 
-    row.querySelector(".tier-badge").textContent = "T" + r.t;
-    row.querySelector(".race-name").textContent = r.dn || r.n;
-    row.children[1].textContent = r.co;
-    row.children[2].textContent = distText;
-    row.children[3].textContent = r.di;
-    row.children[4].textContent = r.sc;
-    const link = row.querySelector(".rowlink");
+    const country = document.createElement("td");
+    country.textContent = r.co;
+    const distance = document.createElement("td");
+    distance.className = "mono r";
+    distance.textContent = distText;
+    const discipline = document.createElement("td");
+    discipline.textContent = r.di;
+    const score = document.createElement("td");
+    score.className = "mono r score-display " + tierClass;
+    score.textContent = r.sc;
+    const linkCell = document.createElement("td");
+    linkCell.className = "r";
+    const link = document.createElement("a");
+    link.className = "rowlink";
     link.href = "/race/" + encodeURIComponent(r.s) + "/";
     link.textContent = "READ →";
+    linkCell.appendChild(link);
+    row.append(nameCell, country, distance, discipline, score, linkCell);
 
     return row;
   }
@@ -141,14 +186,37 @@
   function render() {
     const races = getFilteredRaces();
     const grid = document.getElementById("raceGrid");
-    grid.innerHTML = "";
+    grid.replaceChildren();
 
     for (const r of races) {
       grid.appendChild(createCard(r));
     }
 
+    if (races.length === 0) {
+      const row = document.createElement("tr");
+      const cell = document.createElement("td");
+      cell.colSpan = 6;
+      cell.className = "empty-state";
+      cell.textContent = "No races match. Try a broader search or clear a filter.";
+      row.appendChild(cell);
+      grid.appendChild(row);
+    }
+
     document.getElementById("resultsInfo").textContent =
       races.length + " of " + allRaces.length + " races";
+    saveStateToURL();
+
+    const signature = [searchQuery, activeFilter, activeCountry, activeSort].join("|");
+    if (signature !== lastTrackedSignature && signature.replace(/\|/g, "")) {
+      lastTrackedSignature = signature;
+      track("race_search", {
+        search_term: searchQuery,
+        filter: activeFilter,
+        country: activeCountry,
+        sort: activeSort,
+        result_count: races.length
+      });
+    }
   }
 
   function bindEvents() {
@@ -158,7 +226,7 @@
     searchInput.addEventListener("input", function () {
       clearTimeout(debounce);
       debounce = setTimeout(function () {
-        searchQuery = searchInput.value.trim();
+        searchQuery = normalizeSearchQuery(searchInput.value);
         render();
       }, 200);
     });
@@ -190,6 +258,21 @@
         activeSort = e.target.value;
         render();
       });
+
+    document.getElementById("raceGrid").addEventListener("click", function (event) {
+      const link = event.target.closest("a.rowlink");
+      if (!link) return;
+      const match = (link.getAttribute("href") || "").match(/\/race\/([^/?#]+)/);
+      if (match) {
+        track("race_result_click", {
+          race_slug: match[1],
+          search_term: searchQuery,
+          filter: activeFilter,
+          country: activeCountry,
+          sort: activeSort
+        });
+      }
+    });
   }
 
   document.addEventListener("DOMContentLoaded", init);

@@ -408,6 +408,78 @@ class TestTrainingPlansPage:
         html = _load_page("training-plans/index.html")
         assert "/questionnaire/" in html, "Missing questionnaire link"
 
+    def test_custom_plan_preview_has_requested_controls(self):
+        html = _load_page("training-plans/index.html")
+        assert 'id="custom-plan-preview"' in html
+        assert 'data-role="race"' in html
+        assert 'data-role="hours"' in html
+        assert html.count('class="tp-sim-day-toggle"') == 7
+        assert 'data-role="experience"' in html
+
+    def test_custom_plan_preview_has_presets_and_calendar_shell(self):
+        html = _load_page("training-plans/index.html")
+        assert html.count('data-preset="') == 3
+        assert 'data-preset="committed-8"' in html
+        assert html.count('class="tp-sim-day"') == 7
+        assert "TRAININGPEAKS" in html
+
+    def test_custom_plan_preview_has_brand_safe_module_tray(self):
+        html = _load_page("training-plans/index.html")
+        assert 'data-role="modules-toggle"' in html
+        assert 'data-plan-module="strength"' in html
+        assert 'data-plan-module="fueling"' in html
+        assert "gravel_grit" not in html
+
+    def test_custom_plan_preview_embeds_all_race_demands(self):
+        html = _load_page("training-plans/index.html")
+        assert html.count('<option value=') >= 229
+        assert 'value="birkebeinerrennet" selected' in html
+        assert '"course_technicality":8' in html
+        assert '"snow_reliability":10' in html
+
+    def test_custom_plan_preview_passes_choices_to_intake(self):
+        html = _load_page("training-plans/index.html")
+        assert "url.searchParams.set('race'" in html
+        assert "url.searchParams.set('hours'" in html
+        assert "url.searchParams.set('days'" in html
+        assert "url.searchParams.set('experience'" in html
+
+    def test_custom_plan_preview_uses_engine_contract_and_native_projection(self):
+        html = _load_page("training-plans/index.html")
+        assert "training-plan-preview-request/v2" in html
+        assert "training-plan-preview/v2" in html
+        assert "TRAINING LOAD BY WEEK" in html
+        assert "native ski preview" in html.lower()
+        assert "sample_week_number" in html
+        assert "/api/training-plan-preview" in html
+        assert "session.structure" in html
+        assert "structure.polyline" in html
+        assert "session.purpose" in html
+        assert "session.fueling_guidance" in html
+        assert "session.coach_note" in html
+        assert "strengthGraph(session.strength" in html
+        assert "STRUCTURED STRENGTH" in html
+        assert 'data-role="strength-exercises"' in html
+        assert "exercise.sets+' × '+exercise.reps" in html
+        assert "step.label||step.type" in html
+        assert "week.weekly_self_review" in html
+        assert "week.comment_protocol" in html
+        assert "response.engine_version" in html
+        assert "response.voice_version" in html
+        assert ".innerHTML" not in html
+
+    def test_custom_plan_preview_debounces_and_cancels_stale_requests(self):
+        html = _load_page("training-plans/index.html")
+        assert "setTimeout(load,immediate?0:350)" in html
+        assert "new AbortController()" in html
+        assert "Stale preview contract" in html
+
+    def test_custom_plan_preview_analytics_waits_for_interaction(self):
+        html = _load_page("training-plans/index.html")
+        assert "var touched=false" in html
+        assert "if(touched&&typeof gtag==='function')" in html
+        assert "plan_preview_update" in html
+
     def test_jsonld_schema(self):
         """JSON-LD should have Product schema."""
         html = _load_page("training-plans/index.html")

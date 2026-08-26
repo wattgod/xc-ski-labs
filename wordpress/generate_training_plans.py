@@ -27,6 +27,8 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from plan_simulator import (get_plan_simulator_css, get_plan_simulator_js,
+                            render_plan_simulator)
 
 # ── Price per week (cents) — derived from stripe-products.json ──
 
@@ -90,6 +92,43 @@ def count_race_profiles():
         return 229
     files = [f for f in data_dir.glob("*.json") if f.name != "_schema.json"]
     return len(files)
+
+
+def load_simulator_races():
+    """Project every indexed race's rated demands for the preview selector."""
+    criteria = (
+        "distance", "elevation", "altitude", "field_size", "prestige",
+        "international_draw", "course_technicality", "snow_reliability",
+        "grooming_quality", "accessibility", "community", "scenery",
+        "organization", "competitive_depth",
+    )
+    races = []
+    for path in sorted((PROJECT_ROOT / "race-data").glob("*.json")):
+        if path.name == "_schema.json":
+            continue
+        try:
+            document = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        race = document.get("race", document)
+        rating = race.get("nordic_lab_rating") or {}
+        demands = {}
+        for key in criteria:
+            value = rating.get(key)
+            if isinstance(value, (int, float)):
+                demands[key] = max(0, min(10, int(round(value * 2))))
+        if not demands:
+            continue
+        races.append({
+            "slug": race.get("slug"),
+            "name": race.get("display_name") or race.get("name"),
+            "vitals": {"discipline": (race.get("vitals") or {}).get("discipline")},
+            "demands": demands,
+            "score": rating.get("overall_score") or 0,
+        })
+    races.sort(key=lambda race: (
+        race["slug"] != "birkebeinerrennet", -race["score"], race["name"]))
+    return races
 
 
 def load_tokens_css():
@@ -244,6 +283,8 @@ a:focus-visible, button:focus-visible {
   line-height: 1.1;
   margin: 0 0 20px;
 }
+
+/* ── Interactive plan preview ────────────────────── */
 
 .gl-hero-sub {
   font-family: var(--gl-font-editorial);
@@ -805,7 +846,15 @@ a:focus-visible, button:focus-visible {
 }
 
 .xl-consent-decline:hover { color: var(--gl-white); border-color: var(--gl-white); }
-"""
+""" + get_plan_simulator_css(
+        ink="var(--gl-carbon)",
+        paper="var(--gl-paper)",
+        panel="var(--gl-white)",
+        line="var(--gl-hairline)",
+        accent="var(--gl-swix-red)",
+        data_font="var(--gl-font-data)",
+        body_font="var(--gl-font-editorial)",
+    )
 
 
 # ── Section Builders ───────────────────────────────────────────
@@ -842,6 +891,25 @@ def build_hero(race_count):
   <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
 </section>
 """
+
+
+def build_plan_preview():
+    """Contract-backed calendar preview with every indexed race available."""
+    races = load_simulator_races()
+    if not races:
+        return ""
+    race = races[0]
+    return render_plan_simulator(
+        brand="xc_ski_labs",
+        race=race,
+        demands=race["demands"],
+        race_options=races,
+        questionnaire_url="/questionnaire/",
+        heading=f"See a {race['name']} week before you buy.",
+        lede=("Choose your race and the week you actually have. The current "
+              "plan engine uses those constraints and the race's rated "
+              "demands to build a real calendar preview beside them."),
+    )
 
 
 def build_how_it_works():
@@ -1266,6 +1334,8 @@ def generate_page():
 
     nav = build_nav()
     hero = build_hero(race_count)
+    preview = build_plan_preview()
+    plan_simulator_js = get_plan_simulator_js()
     how_it_works = build_how_it_works()
     deliverables = build_deliverables()
     sample_week = build_sample_week()
@@ -1346,6 +1416,7 @@ def generate_page():
 <body>
 {nav}
 {hero}
+{preview}
 {how_it_works}
 {deliverables}
 {sample_week}
@@ -1353,6 +1424,7 @@ def generate_page():
 {faq}
 {final_cta}
 {footer}
+<script>{plan_simulator_js}</script>
 
 <!-- Cookie Consent Banner -->
 <div class="xl-consent-banner" id="xl-consent-banner">
