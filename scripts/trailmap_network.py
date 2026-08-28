@@ -163,7 +163,8 @@ def build_network_svg(races: dict[str, dict], href: str = "/{slug}/") -> str:
                     f'viewBox="0 0 {view} 20"><use href="#g-{glyph}"/></svg>'
                     if glyph else '<circle class="nw-unrated" r="6"/>')
             nodes.append(
-                f'<a class="nw-node nw-t{race["tier"]}" href="{esc(href.format(slug=race["slug"]))}" '
+                f'<a class="nw-node nw-t{race["tier"]} nw-x{race["tech"] or 0}" '
+                f'href="{esc(href.format(slug=race["slug"]))}" '
                 f'data-n="{esc(race["name"])}" data-c="{esc(race["country"])}" data-k="{race["km"]}" '
                 f'data-s="{race["score"]}" data-t="{race["tier"]}" data-x="{race["tech"] or 0}" '
                 f'data-d="{esc(race["disc"])}" data-sr="{esc(trail["label"])}" '
