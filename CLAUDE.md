@@ -1,5 +1,11 @@
 # XC Ski Labs — Nordic Race Automation
 
+## AI writing as Matti
+
+Before drafting, rewriting, or approving copy presented as Matti Rowe or one of
+his brands, read `docs/AI_WRITING_POLICY.md`. Its source-retrieval,
+provenance, privacy, and anti-slop requirements are binding.
+
 ## Project Overview
 XC ski race database at `xcskilabs.com`. 229 race profiles scored across 14 criteria.
 Modeled after Gravel God (`gravel-race-automation`). Same deploy pattern (tar+ssh to SiteGround).
