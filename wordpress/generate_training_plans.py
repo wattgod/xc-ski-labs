@@ -1268,7 +1268,9 @@ def build_footer():
 <footer class="gl-footer">
   <a href="/">Home</a> &middot;
   <a href="/search/">Search</a> &middot;
-  <a href="/training-plans/">Training Plans</a>
+  <a href="/training-plans/">Training Plans</a> &middot;
+  <a href="/privacy/">Privacy</a> &middot;
+  <a href="/terms/">Terms</a>
   <div class="gl-footer-brand">XC Ski Labs &mdash; Built for skiers who chase start lines.</div>
 </footer>
 """

@@ -26,7 +26,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
-NON_RACE_DIRS = {"about", "coaching", "consulting", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "thanks", "training-plans"}
+NON_RACE_DIRS = {"about", "coaching", "consulting", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 
 # ── Helpers ──────────────────────────────────────────────────────
 
@@ -190,6 +190,7 @@ class TestNavHeader:
         "search/index.html",
         "about/index.html",
         "privacy/index.html",
+        "terms/index.html",
         "methodology/index.html",
         "training-plans/index.html",
         "questionnaire/index.html",
@@ -570,6 +571,7 @@ class TestPrivacyAndMethodologyPages:
 
     @pytest.mark.parametrize("generator,relpath", [
         ("generate_privacy.py", "privacy/index.html"),
+        ("generate_terms.py", "terms/index.html"),
         ("generate_methodology.py", "methodology/index.html"),
     ])
     def test_page_generates(self, generator, relpath):
@@ -590,6 +592,15 @@ class TestPrivacyAndMethodologyPages:
         assert "Information stored in your browser" in html
         assert "including health, injury, and medication information" in html
         assert "not transmitted to us until you submit" in html
+
+    def test_terms_page_has_service_terms_and_legal_links(self):
+        html = _load_page("terms/index.html")
+        assert "Terms of Service" in html
+        assert "Training and coaching" in html
+        assert "Purchases, delivery, and refunds" in html
+        assert 'rel="canonical" href="https://xcskilabs.com/terms/"' in html
+        assert 'href="/privacy/"' in html
+        assert 'href="/terms/"' in html
 
     def test_methodology_page_uses_scoring_constants(self):
         html = _load_page("methodology/index.html")

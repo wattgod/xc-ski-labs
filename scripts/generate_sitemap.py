@@ -92,6 +92,7 @@ def generate_sitemap(domain, profiles):
     add_url(f"{domain}/about/", "0.5", "monthly")
     add_url(f"{domain}/methodology/", "0.5", "monthly")
     add_url(f"{domain}/privacy/", "0.3", "yearly")
+    add_url(f"{domain}/terms/", "0.3", "yearly")
 
     # Free guide — pillar + only the OPEN (indexable) chapters; gated ones are noindex
     add_url(f"{domain}/guide/", "0.9", "monthly")
@@ -171,7 +172,7 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path.write_bytes(xml_bytes)
 
-    static_urls = 10  # homepage, search, training, about, methodology, privacy, guide + 3 open chapters
+    static_urls = 11  # homepage, search, training, about, methodology, privacy, terms, guide + 3 open chapters
     total_urls = static_urls + (2 * len(sorted_profiles))
     print(f"\nWrote {output_path}")
     print(f"  Total URLs: {total_urls}")

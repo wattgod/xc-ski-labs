@@ -114,7 +114,7 @@ def generate_html() -> str:
     <h2>Contact</h2>
     <div class="gl-cta-links"><a class="gl-cta-link" href="mailto:{contact}">{contact}</a></div>
   </section>
-  <footer class="gl-footer">XC Ski Labs</footer>
+  <footer class="gl-footer">XC Ski Labs &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></footer>
 </main>
 {build_cookie_consent()}
 </body>
