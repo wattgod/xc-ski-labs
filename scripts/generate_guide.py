@@ -440,7 +440,7 @@ def build_script() -> str:
 """
 
 
-def assemble_page(title: str, description: str, robots: str, body: str, jsonld: str) -> str:
+def assemble_page(title: str, description: str, robots: str, canonical: str, body: str, jsonld: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -449,6 +449,7 @@ def assemble_page(title: str, description: str, robots: str, body: str, jsonld: 
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}">
   <meta name="robots" content="{esc(robots)}">
+  <link rel="canonical" href="{esc(canonical)}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
@@ -501,6 +502,7 @@ def build_pillar(content: dict[str, Any]) -> str:
         f'{content["title"]} | XC Ski Labs',
         content.get("meta_description", ""),
         "index, follow",
+        "https://xcskilabs.com/guide/",
         body,
         build_jsonld(content["title"], content.get("meta_description", ""), "https://xcskilabs.com/guide/", "Course"),
     )
@@ -525,6 +527,7 @@ def build_chapter_page(chapter: dict[str, Any], content: dict[str, Any]) -> str:
         title,
         description,
         robots,
+        f'https://xcskilabs.com/guide/{chapter["id"]}/',
         body,
         build_jsonld(title, description, f'https://xcskilabs.com/guide/{chapter["id"]}/'),
     )

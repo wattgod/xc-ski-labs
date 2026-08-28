@@ -229,7 +229,7 @@ def build_page(race: dict) -> str:
     <section class="pk-section"><div class="pk-heading"><span>{3 + section_offset:02d}</span><h2>Gear and wax day</h2></div>{build_checklist(race)}<p class="pk-note">This profile does not contain a race-specific wax prescription. Measure current conditions and make the final wax call with products and processes you have already tested.</p></section>
     <a class="pk-back" href="/race/{esc(slug)}/">Back to the {esc(name)} race page &rarr;</a>
   </main>
-  <footer class="pk-footer"><div class="pk-wrap"><p>XC Ski Labs &middot; Built for skiers who chase start lines</p></div></footer>
+  <footer class="pk-footer"><div class="pk-wrap"><p>XC Ski Labs &middot; Built for skiers who chase start lines &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></p></div></footer>
   {consent}
 </body>
 </html>"""

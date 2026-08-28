@@ -38,7 +38,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 
@@ -536,6 +536,11 @@ def sync_privacy():
     return _sync_static_page("privacy", "privacy")
 
 
+def sync_terms():
+    """Upload terms of service to /terms/."""
+    return _sync_static_page("terms", "terms")
+
+
 def sync_methodology():
     """Upload scoring methodology to /methodology/."""
     return _sync_static_page("methodology", "methodology")
@@ -732,6 +737,7 @@ def deploy_all():
         ("Questionnaire", sync_questionnaire),
         ("About", sync_about),
         ("Privacy", sync_privacy),
+        ("Terms", sync_terms),
         ("Methodology", sync_methodology),
         ("Guide", sync_guide),
         ("Thanks", sync_thanks),
@@ -822,6 +828,10 @@ if __name__ == "__main__":
         help="Upload privacy policy to /privacy/"
     )
     parser.add_argument(
+        "--sync-terms", action="store_true",
+        help="Upload terms of service to /terms/"
+    )
+    parser.add_argument(
         "--sync-methodology", action="store_true",
         help="Upload scoring methodology to /methodology/"
     )
@@ -899,6 +909,9 @@ if __name__ == "__main__":
             ran = True
         if args.sync_privacy:
             sync_privacy()
+            ran = True
+        if args.sync_terms:
+            sync_terms()
             ran = True
         if args.sync_methodology:
             sync_methodology()

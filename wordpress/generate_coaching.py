@@ -765,6 +765,8 @@ def build_footer() -> str:
     <a href="/search/">Search</a>
     <a href="/training-plans/">Training Plans</a>
     <a href="/coaching/">Coaching</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
   </div>
   <div class="gl-coach-footer-copy">&copy; 2026 XC Ski Labs. All rights reserved.</div>
 </footer>"""

@@ -888,7 +888,9 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
   {build_form()}
 </main>
 <footer class="gl-footer">
-  <a href="/training-plans/">Back to training plans</a>
+  <a href="/training-plans/">Back to training plans</a> &middot;
+  <a href="/privacy/">Privacy</a> &middot;
+  <a href="/terms/">Terms</a>
 </footer>
 {build_cookie_banner()}
 {build_questionnaire_js(slug_map, race_details)}

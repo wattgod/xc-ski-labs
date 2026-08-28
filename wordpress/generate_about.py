@@ -490,7 +490,7 @@ def generate_html(race_count: int) -> str:
     </div>
   </section>
 
-  <footer class="gl-footer">XC Ski Labs</footer>
+  <footer class="gl-footer">XC Ski Labs &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></footer>
 </main>
 {build_cookie_consent()}
 </body>

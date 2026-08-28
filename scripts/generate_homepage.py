@@ -1348,6 +1348,8 @@ a:focus-visible, button:focus-visible {{
       <a href="/search/" class="footer-link">Races</a>
       <a href="/training-plans/" class="footer-link">Training Plans</a>
       <a href="/coaching/" class="footer-link">Coaching</a>
+      <a href="/privacy/" class="footer-link">Privacy</a>
+      <a href="/terms/" class="footer-link">Terms</a>
     </div>
   </div>
 </footer>

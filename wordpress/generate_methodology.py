@@ -201,7 +201,7 @@ def generate_html(races: list[dict]) -> str:
     <h3>How often are ratings updated?</h3><p>Ratings are updated when material race information or the scoring record changes.</p>
     <h3>Can organizers pay for a rating?</h3><p>No. Organizers cannot pay for a rating or a tier.</p>
   </section>
-  <footer class="gl-footer">XC Ski Labs</footer>
+  <footer class="gl-footer">XC Ski Labs &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></footer>
 </main>
 {build_cookie_consent()}
 </body>

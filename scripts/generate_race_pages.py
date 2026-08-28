@@ -2755,7 +2755,7 @@ def build_footer(race: dict) -> str:
   <div class="gl-footer-inner">
     <span class="gl-footer-logo">XC SKI <em>LABS</em></span>
     <span class="gl-footer-motto">BUILT FOR SKIERS WHO CHASE START LINES</span>
-    <span class="gl-footer-links"><a href="/search/">Back to search</a><a href="/">Home</a></span>
+    <span class="gl-footer-links"><a href="/search/">Back to search</a><a href="/">Home</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></span>
   </div>
 </footer>
 """
@@ -2908,6 +2908,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
   <title>{title}</title>
   <meta name="description" content="{description}">
   <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://xcskilabs.com/race/{esc(slug)}/">
   <link rel="alternate" type="text/markdown" href="https://xcskilabs.com/race/{esc(slug)}.md">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
