@@ -1131,8 +1131,11 @@ a {{ color: inherit; }}
 .gl-rating-tablist button:last-child {{ border-right: 0; }}
 .gl-rating-tablist button[aria-selected="true"] {{ background: var(--gl-carbon); color: var(--gl-white); }}
 .gl-rating-tablist button span {{ color: var(--gl-klister); }}
-.gl-rating-panel {{ display: grid; grid-template-columns: minmax(300px, 1.05fr) minmax(280px, .95fr); grid-template-areas: "radar tiles" "radar detail"; border: 3px solid var(--gl-carbon); border-top: 0; }}
+.gl-rating-panel {{ display: grid; grid-template-columns: minmax(300px, 1.05fr) minmax(280px, .95fr); grid-template-areas: "summary summary" "radar tiles" "radar detail"; border: 3px solid var(--gl-carbon); border-top: 0; }}
 .gl-rating-panel[hidden] {{ display: none; }}
+.gl-rating-summary {{ grid-area: summary; border-bottom: 3px solid var(--gl-carbon); background: var(--gl-paper); padding: var(--gl-space-4) var(--gl-space-5); }}
+.gl-rating-summary span {{ display: block; color: var(--gl-swix-red); font-family: var(--gl-font-data); font-size: .64rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }}
+.gl-rating-summary p {{ max-width: 72ch; margin: var(--gl-space-2) 0 0; font-family: var(--gl-font-editorial); font-size: 1.08rem; font-weight: 650; line-height: 1.5; }}
 .gl-radar-chart {{ grid-area: radar; display: flex; align-items: center; border-right: 1px solid var(--gl-hairline); background: var(--gl-white); padding: var(--gl-space-3); }}
 .gl-radar-svg {{ display: block; width: 100%; height: auto; }}
 .gl-radar-grid {{ fill: none; stroke: var(--gl-hairline); stroke-width: 1; }}
@@ -1485,7 +1488,7 @@ a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); o
   .gl-process,
   .gl-wax-cards,
   .gl-similar-grid {{ grid-template-columns: 1fr; }}
-  .gl-rating-panel {{ grid-template-columns: 1fr; grid-template-areas: "radar" "tiles" "detail"; }}
+  .gl-rating-panel {{ grid-template-columns: 1fr; grid-template-areas: "summary" "radar" "tiles" "detail"; }}
   .gl-radar-chart {{ border-right: 0; border-bottom: 1px solid var(--gl-hairline); }}
   .gl-breakdown-grid {{ grid-template-columns: 1fr 1fr; }}
   .gl-related-grid {{ grid-template-columns: 1fr; }}
@@ -1980,6 +1983,59 @@ def build_interactive_blocks(race: dict) -> str:
 """
 
 
+def _rating_bumper(text: str, *, min_chars: int = 48, max_chars: int = 220) -> str:
+    """Return a compact, complete-sentence verdict from existing profile copy."""
+    clean = re.sub(r'\s+', ' ', str(text or '')).strip()
+    if not clean:
+        return ''
+    if clean.startswith('['):
+        return ''
+    sentences = re.split(r'(?<=[.!?])\s+', clean)
+    chosen = []
+    for sentence in sentences:
+        candidate = ' '.join(chosen + [sentence]).strip()
+        if chosen and len(candidate) > max_chars:
+            break
+        chosen.append(sentence)
+        if len(candidate) >= min_chars:
+            break
+    bumper = ' '.join(chosen).strip()
+    if len(bumper) <= max_chars:
+        return bumper
+    candidate = bumper[:max_chars + 1]
+    clause_break = max(candidate.rfind(mark) for mark in ('; ', ' — ', ', '))
+    if clause_break >= min_chars:
+        return candidate[:clause_break].rstrip(' ,;:—-') + '.'
+    word_break = candidate.rfind(' ')
+    return candidate[:word_break].rstrip(' ,;:—-') + '…'
+
+
+def _rating_group_summary(race: dict, group_id: str, total: int) -> str:
+    explicit = race.get('rating_summaries', {})
+    if group_id == 'course':
+        sources = (
+            explicit.get('course'),
+            race.get('course', {}).get('primary'),
+            race.get('tagline', ''),
+        )
+        fallback_label = 'course and conditions'
+    else:
+        sources = (
+            explicit.get('experience'),
+            explicit.get('editorial'),
+            race.get('nordic_lab_rating', {}).get('score_note'),
+            race.get('tagline', ''),
+        )
+        fallback_label = 'race experience'
+    summary = next((
+        bumper for source in sources if (bumper := _rating_bumper(source))
+    ), '')
+    if summary:
+        return summary
+    name = race.get('display_name', race.get('name', 'This race'))
+    return f"{name} scores {total}/35 for {fallback_label}."
+
+
 def _criterion_explanation(race: dict, key: str, score: int) -> str:
     """Explain a stored score using only facts already present in the profile."""
     v = race.get("vitals", {})
@@ -2087,26 +2143,21 @@ def _radar_svg(race: dict, group_id: str, label: str, keys: list[str]) -> str:
 def _rating_tiles(race: dict, group_id: str, keys: list[str]) -> str:
     rating = race["nordic_lab_rating"]
     tiles = []
-    first_label = ""
-    first_score = 0
-    first_explanation = ""
-    for index, key in enumerate(keys):
+    for key in keys:
         score = max(0, min(5, _parse_score(rating.get(key)) or 0))
         label = RATING_LABELS.get(key, key.replace("_", " ").title())
         explanation = _criterion_explanation(race, key, score)
-        if index == 0:
-            first_label, first_score, first_explanation = label, score, explanation
         tiles.append(f"""
-<button type="button" class="gl-rating-tile" data-rating-group="{esc(group_id)}" data-rating-key="{esc(key)}" aria-pressed="{'true' if index == 0 else 'false'}">
+<button type="button" class="gl-rating-tile" data-rating-group="{esc(group_id)}" data-rating-key="{esc(key)}" aria-pressed="false">
   <span class="gl-rating-tile-label">{esc(label)}</span>
   <span class="gl-rating-tile-score">{score}<small>/5</small></span>
   <span class="gl-rating-source" hidden>{esc(explanation)}</span>
 </button>""")
     return f"""
 <div class="gl-rating-tiles">{''.join(tiles)}</div>
-<div class="gl-rating-explanation" id="gl-rating-detail-{esc(group_id)}" role="status" aria-live="polite">
-  <div class="gl-rating-explanation-head"><strong>{esc(first_label)}</strong><span>{first_score}/5</span></div>
-  <p>{esc(first_explanation)}</p>
+<div class="gl-rating-explanation" id="gl-rating-detail-{esc(group_id)}" role="status" aria-live="polite" hidden>
+  <div class="gl-rating-explanation-head"><strong></strong><span></span></div>
+  <p></p>
 </div>"""
 
 
@@ -2125,6 +2176,10 @@ def build_rating_breakdown(race: dict) -> str:
         )
         panels.append(f"""
 <div id="gl-rating-panel-{group_id}" class="gl-rating-panel" role="tabpanel" aria-labelledby="gl-rating-tab-{group_id}" data-rating-group="{group_id}"{' hidden' if not selected else ''}>
+  <div class="gl-rating-summary">
+    <span>{esc(label)} verdict</span>
+    <p>{esc(_rating_group_summary(race, group_id, total))}</p>
+  </div>
   {_radar_svg(race, group_id, label, keys)}
   {_rating_tiles(race, group_id, keys)}
 </div>""")
@@ -2490,6 +2545,7 @@ def build_interactions_js() -> str:
     });
     var detail = document.getElementById('gl-rating-detail-' + group);
     if (detail) {
+      detail.hidden = false;
       var label = selected.querySelector('.gl-rating-tile-label');
       var score = selected.querySelector('.gl-rating-tile-score');
       var source = selected.querySelector('.gl-rating-source');

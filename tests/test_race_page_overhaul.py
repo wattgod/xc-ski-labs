@@ -2,6 +2,7 @@
 
 import importlib.util
 import json
+import re
 from pathlib import Path
 
 
@@ -63,6 +64,43 @@ def test_rating_is_server_rendered_two_radar_and_click_explain():
     assert "related_race_click" in page
     assert ".gl-deep-dive > section[id]" in page
     assert ".gl-rating-panel[hidden] { display: none; }" in page
+
+
+def test_rating_leads_with_group_verdicts_not_first_criterion():
+    page = _load_generator().generate_page(_vasaloppet())
+
+    assert page.count('class="gl-rating-summary"') == 2
+    assert "Course &amp; conditions verdict" in page
+    assert "Race experience verdict" in page
+    assert '<button type="button" class="gl-rating-tile"' in page
+    assert not re.search(r'<button[^>]+class="gl-rating-tile"[^>]+aria-pressed="true"', page)
+    assert page.count('role="status" aria-live="polite" hidden') == 2
+
+
+def test_rating_bumper_keeps_short_opening_with_followup():
+    generator = _load_generator()
+    assert generator._rating_bumper(
+        "Relentless. Not one killer climb, but 90 kilometers of attrition. Extra detail."
+    ) == "Relentless. Not one killer climb, but 90 kilometers of attrition."
+
+
+def test_catalog_rating_summaries_are_present_and_compact():
+    generator = _load_generator()
+    violations = []
+    for path in (ROOT / "race-data").glob("*.json"):
+        if path.name == "_schema.json":
+            continue
+        race = json.loads(path.read_text(encoding="utf-8"))["race"]
+        rating = race["nordic_lab_rating"]
+        for group_id, _label, keys in generator.RATING_GROUPS:
+            total = sum(
+                max(0, min(5, generator._parse_score(rating.get(key)) or 0))
+                for key in keys
+            )
+            summary = generator._rating_group_summary(race, group_id, total)
+            if not summary or len(summary) > 220:
+                violations.append(f"{path.stem}.{group_id} length={len(summary)}")
+    assert not violations, "\n".join(violations[:30])
 
 
 def test_rating_uses_nordic_schema_and_profile_evidence():
