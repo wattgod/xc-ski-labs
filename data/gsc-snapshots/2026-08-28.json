@@ -1,0 +1,397 @@
+{
+  "date": "2026-08-28",
+  "window": {
+    "start": "2026-08-22",
+    "end": "2026-08-28"
+  },
+  "overall": {
+    "clicks": 1,
+    "impressions": 189,
+    "ctr": 0.53,
+    "position": 15.9
+  },
+  "top_queries": [
+    {
+      "query": "birkebeinerrennet",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "query": "birkebeinerrennet profil",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "query": "engadin ski marathon",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 45.5
+    },
+    {
+      "query": "engadin skimarathon",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "query": "la transjurassienne",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "query": "marcialonga",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 17.5
+    },
+    {
+      "query": "marcialonga 2020",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 14.5
+    },
+    {
+      "query": "marcialonga 2022",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "query": "marcialonga 2025",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "query": "marcialonga l\u00e4ngd",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "query": "mora vasaloppet",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 27.6
+    },
+    {
+      "query": "nattvasa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "query": "nattvasan",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "rothenthurmer volksskilauf",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "ski classics",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "query": "skilauf",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 44
+    },
+    {
+      "query": "stafettvasan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "query": "stafettvasan l\u00f6pning",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "query": "tjejvasan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 54
+    },
+    {
+      "query": "transjurassienne",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 11.7
+    },
+    {
+      "query": "vasaloppet",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "query": "vasaloppet 2015",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "query": "vasaloppet 2023",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    }
+  ],
+  "top_pages": [
+    {
+      "page": "/race/engadin-skimarathon/",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 6.2,
+      "position": 29.6
+    },
+    {
+      "page": "/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/attraverso-campra/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9.3
+    },
+    {
+      "page": "/race/bad-gastein-criterium/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "page": "/race/birkebeinerrennet/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 36.9
+    },
+    {
+      "page": "/race/engadin-la-diagonela/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "page": "/race/jizerska-50/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "page": "/race/marcialonga/",
+      "clicks": 0,
+      "impressions": 32,
+      "ctr": 0,
+      "position": 14.6
+    },
+    {
+      "page": "/race/nattvasan/",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 14.5
+    },
+    {
+      "page": "/race/oppet-spar/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.7
+    },
+    {
+      "page": "/race/rothenthurmer-volksskilauf/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "page": "/race/ski-classics-finale/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 14.8
+    },
+    {
+      "page": "/race/stafettvasan/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 21.9
+    },
+    {
+      "page": "/race/transjurassienne/",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "/race/vasaloppet/",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 13.7
+    },
+    {
+      "page": "/search/",
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": 0,
+      "position": 12.1
+    },
+    {
+      "page": "/training-plans/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 48.3
+    }
+  ],
+  "race_pages": [
+    {
+      "page": "/race/engadin-skimarathon/",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 6.2,
+      "position": 29.6
+    },
+    {
+      "page": "/race/attraverso-campra/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9.3
+    },
+    {
+      "page": "/race/bad-gastein-criterium/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "page": "/race/birkebeinerrennet/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 36.9
+    },
+    {
+      "page": "/race/engadin-la-diagonela/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "page": "/race/jizerska-50/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "page": "/race/marcialonga/",
+      "clicks": 0,
+      "impressions": 32,
+      "ctr": 0,
+      "position": 14.6
+    },
+    {
+      "page": "/race/nattvasan/",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 14.5
+    },
+    {
+      "page": "/race/oppet-spar/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.7
+    },
+    {
+      "page": "/race/rothenthurmer-volksskilauf/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "page": "/race/ski-classics-finale/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 14.8
+    },
+    {
+      "page": "/race/stafettvasan/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 21.9
+    },
+    {
+      "page": "/race/transjurassienne/",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "/race/vasaloppet/",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 13.7
+    }
+  ]
+}
