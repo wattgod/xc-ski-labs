@@ -2018,7 +2018,6 @@ def _rating_group_summary(race: dict, group_id: str, total: int) -> str:
             race.get('course', {}).get('primary'),
             race.get('tagline', ''),
         )
-        fallback_label = 'course and conditions'
     else:
         sources = (
             explicit.get('experience'),
@@ -2026,14 +2025,115 @@ def _rating_group_summary(race: dict, group_id: str, total: int) -> str:
             race.get('nordic_lab_rating', {}).get('score_note'),
             race.get('tagline', ''),
         )
-        fallback_label = 'race experience'
     summary = next((
-        bumper for source in sources if (bumper := _rating_bumper(source))
+        bumper for source in sources if (bumper := _rating_bumper(source, max_chars=214))
     ), '')
     if summary:
-        return summary
-    name = race.get('display_name', race.get('name', 'This race'))
-    return f"{name} scores {total}/35 for {fallback_label}."
+        return _append_rating_citations(race, group_id, summary)
+    if group_id == 'course':
+        if total >= 31:
+            summary = "The course and conditions leave nowhere to hide."
+        elif total >= 26:
+            summary = "A demanding ski course rewards complete preparation."
+        elif total >= 21:
+            summary = "The course is hard enough to punish weak execution."
+        elif total >= 16:
+            summary = "The course is manageable with ordinary marathon preparation."
+        else:
+            summary = "The course keeps the physical bill relatively low."
+    elif total >= 31:
+        summary = "This race earns its reputation and the trip."
+    elif total >= 26:
+        summary = "A strong event justifies a serious calendar slot."
+    elif total >= 21:
+        summary = "The race is solid, with a few obvious compromises."
+    elif total >= 16:
+        summary = "The race works best for skiers already nearby."
+    else:
+        summary = "Treat this as a local option."
+    return _append_rating_citations(race, group_id, summary)
+
+
+def _source_entries(race: dict) -> list[tuple[str, str]]:
+    """Return the stable, numbered source registry shared by prose and footer."""
+    vitals = race.get("vitals", {})
+    entries = []
+    seen = set()
+
+    website = vitals.get("website") or vitals.get("official_website_url")
+    if isinstance(website, str) and website.startswith(("https://", "http://")):
+        entries.append(("Official race website", website))
+        seen.add(website)
+
+    for source in race.get("sources", []):
+        if not isinstance(source, dict):
+            continue
+        url = source.get("url")
+        if not isinstance(url, str) or not url.startswith(("https://", "http://")) or url in seen:
+            continue
+        entries.append((strip_emoji(source.get("label")) or "Race source", url))
+        seen.add(url)
+
+    for video in race.get("youtube_data", {}).get("videos", []):
+        if not isinstance(video, dict):
+            continue
+        url = video.get("url")
+        if not isinstance(url, str) or not url.startswith(("https://", "http://")) or url in seen:
+            continue
+        title = strip_emoji(video.get("title")) or "YouTube video"
+        channel = strip_emoji(video.get("channel"))
+        entries.append((f"{title} — {channel}" if channel else title, url))
+        seen.add(url)
+    return entries
+
+
+def _append_rating_citations(race: dict, key: str, text: str) -> str:
+    """Append valid numbered markers to every rendered rating claim."""
+    clean = str(text or "").strip()
+    if not clean:
+        return clean
+    source_count = len(_source_entries(race))
+    if not source_count:
+        return clean
+    clean = re.sub(
+        r"\[(\d+)\]",
+        lambda match: match.group(0) if 1 <= int(match.group(1)) <= source_count else "",
+        clean,
+    )
+    if re.search(r"\[\d+\]", clean):
+        return clean
+
+    raw_refs = race.get("rating_citation_refs", {}).get(key, [1])
+    if not isinstance(raw_refs, (list, tuple)):
+        raw_refs = [raw_refs]
+    refs = []
+    for value in raw_refs:
+        try:
+            ref = int(value)
+        except (TypeError, ValueError):
+            continue
+        if 1 <= ref <= source_count and ref not in refs:
+            refs.append(ref)
+    if not refs:
+        refs = [1]
+    return clean + "".join(f"[{ref}]" for ref in refs)
+
+
+def _rating_score_judgment(label: str, score: int) -> str:
+    """Turn the stored score into direct copy without a synthetic brand narrator."""
+    if score >= 5:
+        verdict = "sits at the top of the scale"
+    elif score >= 4:
+        verdict = "lands high on the scale"
+    elif score >= 3:
+        verdict = "lands in the middle of the scale"
+    elif score >= 2:
+        verdict = "lands low on the scale"
+    elif score > 0:
+        verdict = "sits at the bottom of the scale"
+    else:
+        verdict = "is unrated"
+    return f"{label} {verdict}."
 
 
 def _criterion_explanation(race: dict, key: str, score: int) -> str:
@@ -2047,13 +2147,13 @@ def _criterion_explanation(race: dict, key: str, score: int) -> str:
     if key == "distance" and v.get("distance_km") is not None:
         context = f" The primary distance is {format_distance(v['distance_km'])}."
     elif key == "elevation" and v.get("elevation_m") is not None:
-        context = f" The profile lists {format_elevation(v['elevation_m'])} of elevation."
+        context = f" The course carries {format_elevation(v['elevation_m'])} of elevation."
     elif key == "altitude" and v.get("altitude_m") is not None:
-        context = f" The listed altitude is {format_altitude(v['altitude_m'])}."
+        context = f" Altitude reaches {format_altitude(v['altitude_m'])}."
     elif key in {"field_size", "competitive_depth"} and v.get("field_size"):
-        context = f" The listed field size is {v['field_size']} skiers."
+        context = f" The field is listed at {v['field_size']} skiers."
     elif key == "course_technicality" and course.get("technical_rating") is not None:
-        context = f" The course profile lists technical difficulty at {course['technical_rating']} out of 5."
+        context = f" Technical difficulty is listed at {course['technical_rating']} out of 5."
     elif key == "snow_reliability" and climate.get("typical_temp_c"):
         context = f" The typical race-day range is {climate['typical_temp_c']}°C."
     elif key == "grooming_quality" and course.get("grooming"):
@@ -2063,8 +2163,10 @@ def _criterion_explanation(race: dict, key: str, score: int) -> str:
     elif key == "prestige" and v.get("founded"):
         context = f" The event was founded in {v['founded']}."
     elif key == "community" and history.get("notable_facts"):
-        context = f" Profile note: {history['notable_facts'][0]}"
-    return f"Wax Bench scores {label} {score} out of 5.{context}"
+        context = f" {history['notable_facts'][0]}"
+    return _append_rating_citations(
+        race, key, f"{_rating_score_judgment(label, score)}{context}"
+    )
 
 
 def _radar_svg(race: dict, group_id: str, label: str, keys: list[str]) -> str:
@@ -2373,28 +2475,12 @@ def build_similar_races(race: dict, candidates: list[dict]) -> str:
 
 def build_sources(race: dict) -> str:
     """Render only official and YouTube URLs present in this profile."""
-    vitals = race.get("vitals", {})
-    source_map = []
-    website = vitals.get("website")
-    if isinstance(website, str) and website.startswith(("https://", "http://")):
-        source_map.append(("Official race website", website))
-
-    for video in race.get("youtube_data", {}).get("videos", []):
-        if not isinstance(video, dict):
-            continue
-        url = video.get("url")
-        if not isinstance(url, str) or not url.startswith(("https://", "http://")):
-            continue
-        title = strip_emoji(video.get("title")) or "YouTube video"
-        channel = strip_emoji(video.get("channel"))
-        label = f"{title} — {channel}" if channel else title
-        source_map.append((label, url))
-
+    source_map = _source_entries(race)
     if not source_map:
         return ""
     items = "".join(
-        f'<li><a href="{esc(url)}" rel="noopener noreferrer">{esc(label)}</a></li>'
-        for label, url in source_map
+        f'<li id="xc-citation-{index}"><a href="{esc(url)}" rel="noopener noreferrer">{esc(label)}</a></li>'
+        for index, (label, url) in enumerate(source_map, start=1)
     )
     return f"""
 <section class="gl-section gl-sources" id="sources">

@@ -100,6 +100,46 @@ def test_catalog_rating_summaries_are_present_and_compact():
             summary = generator._rating_group_summary(race, group_id, total)
             if not summary or len(summary) > 220:
                 violations.append(f"{path.stem}.{group_id} length={len(summary)}")
+            if not re.search(r"\[\d+\]$", summary):
+                violations.append(f"{path.stem}.{group_id} lacks citation marker")
+    assert not violations, "\n".join(violations[:30])
+
+
+def test_catalog_rating_claims_resolve_to_numbered_sources():
+    generator = _load_generator()
+    violations = []
+    slop = re.compile(
+        r"according to|assessment rings true|Wax Bench scores|"
+        r"experts agree|studies show|many argue|widely regarded as|"
+        r"stands as a testament|marks a pivotal moment|plays a vital role|"
+        r"solidifies its position|underscores its significance|"
+        r"\bAs\s+[^,:]{1,100}\s+(?:puts it|notes?|reports?|describes?|captures?)[,:]",
+        re.IGNORECASE,
+    )
+    for path in (ROOT / "race-data").glob("*.json"):
+        if path.name == "_schema.json":
+            continue
+        race = json.loads(path.read_text(encoding="utf-8"))["race"]
+        sources = generator._source_entries(race)
+        if not sources:
+            violations.append(f"{path.stem} has no source registry")
+            continue
+        for _group_id, _label, keys in generator.RATING_GROUPS:
+            for key in keys:
+                score = max(0, min(5, generator._parse_score(
+                    race["nordic_lab_rating"].get(key)
+                ) or 0))
+                explanation = generator._criterion_explanation(race, key, score)
+                if slop.search(explanation):
+                    violations.append(f"{path.stem}.{key} uses source/slop scaffolding")
+                refs = [int(value) for value in re.findall(r"\[(\d+)\]", explanation)]
+                if not refs:
+                    violations.append(f"{path.stem}.{key} lacks citation marker")
+                elif any(ref < 1 or ref > len(sources) for ref in refs):
+                    violations.append(f"{path.stem}.{key} has unresolved marker {refs}")
+        source_html = generator.build_sources(race)
+        if 'id="xc-citation-1"' not in source_html:
+            violations.append(f"{path.stem} source list is not numbered")
     assert not violations, "\n".join(violations[:30])
 
 
@@ -109,7 +149,7 @@ def test_rating_uses_nordic_schema_and_profile_evidence():
     assert "Course &amp; conditions" in page
     assert "Race experience" in page
     assert "The primary distance is 90 km." in page
-    assert "The listed field size is 16000 skiers." in page
+    assert "The field is listed at 16000 skiers." in page
     assert "gravel_god_rating" not in page
     assert "fondo_rating" not in page
 

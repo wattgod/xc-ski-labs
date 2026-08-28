@@ -359,6 +359,9 @@ class TestDuplicateDetection:
             "mbsef.org",            # Mt Baker Ski Education Foundation events
             "ugraloppet.ru",        # Ugra region events
             "yllaslevi.fi",         # Yllas-Levi region events
+            "estoloppet.ee",        # Estoloppet national series event pages
+            "worldloppet.com",      # Worldloppet event directory pages
+            "ushuaialoppet.com",    # Distinct Ushuaia loppet/marathon events, shared organizer
         }
 
         domain_map = {}
