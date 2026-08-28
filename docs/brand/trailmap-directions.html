@@ -1,0 +1,859 @@
+<title>Trail Key</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Sometype+Mono:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600&display=swap">
+
+<style>
+/* ─────────────────────────────────────────────────────────────
+   TRAIL KEY — XC Ski Labs visual direction review
+   Palette sampled from the Devil's Thumb Ranch trail map photo.
+   Single-theme by intent: this is a paper-derived identity.
+   ───────────────────────────────────────────────────────────── */
+:root{
+  --paper:#eae4d6;
+  --paper-lit:#f4efe4;
+  --paper-deep:#ded6c4;
+  --ink:#15171b;
+  --ink-2:#565a63;
+  --ink-3:#8a8779;
+  --crease:#cfc5b1;
+  --tape:#3fa8c4;
+  --tape-deep:#22778f;
+
+  --f-hand:"Shantell Sans","Segoe Print",cursive;
+  --f-read:"Source Serif 4",Georgia,serif;
+  --f-data:"Sometype Mono",ui-monospace,Menlo,monospace;
+  --f-disp:"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  --measure:1080px;
+  --prose:66ch;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--f-read);
+  font-size:16.5px;
+  line-height:1.62;
+}
+img{max-width:100%}
+::selection{background:var(--tape);color:#fff}
+:focus-visible{outline:2.5px solid var(--tape-deep);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 24px}
+.prose{max-width:var(--prose)}
+
+/* ── Review-document chrome ─────────────────────────────────── */
+.sheet-top{border-bottom:3px solid var(--ink);background:var(--paper-lit)}
+.sheet-top .wrap{padding-top:34px;padding-bottom:30px;display:flex;flex-wrap:wrap;gap:28px;align-items:flex-end;justify-content:space-between}
+.doc-kicker{font-family:var(--f-data);font-size:.66rem;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-2);margin:0 0 10px}
+h1{font-family:var(--f-hand);font-weight:700;font-size:clamp(2.3rem,6vw,3.4rem);line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.doc-stamp{font-family:var(--f-data);font-size:.66rem;line-height:1.9;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);border:2px solid var(--ink);padding:10px 14px;transform:rotate(-1.5deg);background:var(--paper)}
+.doc-stamp b{color:var(--ink);letter-spacing:.14em}
+
+section{padding:52px 0}
+section + section{border-top:1px solid var(--crease)}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin:0 0 6px}
+.sec-num{font-family:var(--f-data);font-size:.7rem;font-weight:700;letter-spacing:.2em;color:var(--tape-deep);flex:none}
+h2{font-family:var(--f-hand);font-weight:700;font-size:clamp(1.5rem,3.4vw,2.05rem);line-height:1.1;margin:0;letter-spacing:-.005em}
+h3{font-family:var(--f-data);font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-2);margin:34px 0 12px}
+.lede{font-size:1.09rem;line-height:1.6;margin:14px 0 0;max-width:64ch}
+p{margin:1em 0}
+strong{font-weight:640}
+em.note{font-style:italic;color:var(--ink-2)}
+code{font-family:var(--f-data);font-size:.86em;background:var(--paper-deep);padding:1px 5px}
+
+/* ── Glyph plumbing ─────────────────────────────────────────── */
+.glyph{width:1em;height:1em;display:inline-block;vertical-align:-.13em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square}
+.glyph--fill{fill:currentColor;stroke:none}
+
+/* ── The legend spec table ──────────────────────────────────── */
+.keytable{width:100%;border-collapse:collapse;margin-top:8px;font-size:.95rem}
+.keytable th{font-family:var(--f-data);font-size:.64rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);text-align:left;padding:0 14px 8px 0;border-bottom:3px solid var(--ink)}
+.keytable td{padding:13px 14px 13px 0;border-bottom:1px solid var(--crease);vertical-align:top}
+.keytable td:first-child{width:52px;font-size:1.5rem;line-height:1;color:var(--ink)}
+.keytable .k-name{font-family:var(--f-data);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
+.keytable .k-src{font-family:var(--f-data);font-size:.7rem;color:var(--ink-2)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+/* ── Direction picker ───────────────────────────────────────── */
+.picker{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0;border:3px solid var(--ink);background:var(--paper-lit);margin:26px 0 0}
+.opt{position:relative;display:block;padding:18px 20px 20px;cursor:pointer;border-right:1px solid var(--crease)}
+.opt:last-child{border-right:0}
+.opt input{position:absolute;opacity:0;width:0;height:0}
+.opt-tag{font-family:var(--f-data);font-size:.64rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-2);display:flex;align-items:center;gap:8px}
+.opt-tag::before{content:"";width:13px;height:13px;border:2px solid var(--ink);border-radius:50%;flex:none;background:var(--paper)}
+.opt-name{font-family:var(--f-hand);font-weight:700;font-size:1.18rem;line-height:1.15;margin:7px 0 5px}
+.opt-why{font-size:.88rem;line-height:1.45;color:var(--ink-2);margin:0}
+.opt:has(input:checked){background:var(--ink);color:var(--paper-lit)}
+.opt:has(input:checked) .opt-tag{color:var(--tape)}
+.opt:has(input:checked) .opt-tag::before{background:var(--tape);border-color:var(--tape)}
+.opt:has(input:checked) .opt-why{color:#c9c3b4}
+.opt input:focus-visible + .opt-tag{outline:2.5px solid var(--tape-deep);outline-offset:4px}
+
+.surfaces{display:flex;flex-wrap:wrap;gap:0;margin:22px 0 0;border-bottom:3px solid var(--ink)}
+.surf-btn{appearance:none;background:none;border:0;border-bottom:4px solid transparent;margin-bottom:-3px;padding:11px 17px;font-family:var(--f-data);font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);cursor:pointer;min-height:44px}
+.surf-btn[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--tape)}
+.surf-btn:hover{color:var(--ink)}
+
+/* ── Mock viewport ──────────────────────────────────────────── */
+.viewport{border:3px solid var(--ink);border-top:0;background:var(--paper);overflow:hidden}
+.vp-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 14px;background:var(--ink);color:var(--paper-lit);font-family:var(--f-data);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase}
+.vp-bar span:last-child{color:var(--tape)}
+.mock{position:relative;padding:0}
+.mock[hidden]{display:none}
+
+/* ═══════════════════════════════════════════════════════════════
+   SHARED MOCK COMPONENTS — skinned by [data-fid]
+   ═══════════════════════════════════════════════════════════════ */
+.m-wrap{max-width:820px;margin:0 auto;padding:0 26px}
+.m-nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding:13px 0;border-bottom:2px solid var(--ink)}
+.m-logo{font-family:var(--f-disp);font-weight:900;font-style:italic;text-transform:uppercase;font-size:1.02rem;letter-spacing:-.01em;white-space:nowrap}
+.m-links{display:flex;flex-wrap:wrap;gap:8px 16px;font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.m-links b{color:var(--ink);border-bottom:2px solid var(--tape);padding-bottom:2px}
+
+.m-hero{padding:40px 0 30px;position:relative}
+.m-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 322px;gap:34px;align-items:start}
+.m-plate{margin-top:4px}
+.m-plate svg{width:100%;height:auto;display:block;overflow:visible}
+.m-plate .rt{fill:none;stroke:var(--ink);stroke-width:2.1;stroke-linejoin:round;stroke-linecap:round}
+.m-plate .tick{stroke:var(--ink);stroke-width:1.5}
+.m-plate .chev{fill:none;stroke:var(--ink);stroke-width:1.5;stroke-linecap:round}
+.m-plate .mk{fill:var(--ink);stroke:none}
+.m-plate .mk-hi{fill:var(--tape-deep);stroke:none}
+.m-plate .lbl{font-family:var(--f-data);font-size:7.4px;font-weight:700;letter-spacing:.16em;fill:var(--ink-2);text-transform:uppercase}
+.m-plate .lbl-hand{font-family:var(--f-hand);font-size:12px;font-weight:700;fill:var(--ink)}
+.m-plate-cap{margin:9px 0 0;font-family:var(--f-data);font-size:.56rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-2);line-height:1.7}
+.m-plate-cap b{color:var(--ink)}
+.m-kick{font-family:var(--f-data);font-size:.62rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--tape-deep);margin:0 0 12px}
+.m-h1{font-family:var(--f-disp);font-weight:900;font-style:italic;text-transform:uppercase;font-size:clamp(2rem,5.6vw,3.15rem);line-height:.94;letter-spacing:-.015em;margin:0;text-wrap:balance}
+.m-deck{font-size:1.02rem;line-height:1.55;margin:16px 0 0;max-width:52ch;color:var(--ink)}
+.m-cta{display:inline-flex;align-items:center;gap:9px;margin-top:22px;padding:12px 20px;background:var(--ink);color:var(--paper-lit);font-family:var(--f-data);font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;min-height:44px}
+
+.m-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);margin:34px 0 0}
+.m-stat{padding:16px 14px;border-right:1px solid var(--crease)}
+.m-stat:last-child{border-right:0}
+.m-stat b{display:block;font-family:var(--f-disp);font-weight:900;font-style:italic;font-size:1.75rem;line-height:1;letter-spacing:-.02em}
+.m-stat span{display:block;margin-top:6px;font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+
+/* Trail-name section header */
+.m-trailhead{display:flex;align-items:center;gap:12px;margin:38px 0 4px;padding-bottom:7px;border-bottom:3px solid var(--ink)}
+.m-trailname{font-family:var(--f-data);font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+.m-trailhead .glyph{flex:none;color:var(--tape-deep)}
+.m-trailhead .m-dist{margin-left:auto;font-family:var(--f-data);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+
+/* Race rows — "trail segments" */
+.m-rows{display:flex;flex-direction:column}
+.m-row{display:grid;grid-template-columns:34px 1fr auto auto;gap:14px;align-items:center;padding:13px 0;border-bottom:1px solid var(--crease);text-decoration:none;color:inherit}
+.m-row:hover{background:var(--paper-lit)}
+.m-row .m-diff{font-size:1.15rem;line-height:1;color:var(--ink);text-align:center}
+.m-name{font-family:var(--f-read);font-weight:600;font-size:1.02rem;line-height:1.25}
+.m-meta{display:block;font-family:var(--f-data);font-size:.6rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin-top:3px}
+.m-tier{font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.12em;padding:3px 7px;border:1.5px solid var(--ink);white-space:nowrap}
+.m-tier.t1{background:var(--ink);color:var(--paper-lit)}
+.m-score{font-family:var(--f-disp);font-weight:900;font-style:italic;font-size:1.28rem;letter-spacing:-.02em;font-variant-numeric:tabular-nums;min-width:2.2ch;text-align:right}
+
+/* Race page pieces */
+.m-chips{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 0}
+.m-chip{font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:6px 10px;border:1.5px solid var(--ink)}
+.m-tagline{font-family:var(--f-read);font-style:italic;font-size:1.06rem;line-height:1.5;margin:18px 0 0;max-width:54ch;color:var(--ink)}
+.m-scorebox{position:absolute;top:44px;right:26px;width:112px;padding:12px 10px 11px;background:var(--ink);color:var(--paper-lit);text-align:center;transform:rotate(-2deg)}
+.m-scorebox b{display:block;font-family:var(--f-disp);font-weight:900;font-style:italic;font-size:2.7rem;line-height:.9;letter-spacing:-.03em}
+.m-scorebox span{display:block;margin-top:6px;font-family:var(--f-data);font-size:.53rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--tape)}
+
+/* the 14-criterion "climb ladder" plate */
+.m-crit{display:grid;grid-template-columns:repeat(2,1fr);gap:0 30px;margin-top:6px}
+.m-crit-row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid var(--crease)}
+.m-crit-name{font-family:var(--f-data);font-size:.63rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2)}
+.m-ladder{display:flex;gap:3px;align-items:center}
+.m-rung{width:7px;height:16px;background:var(--ink);display:block;border:1.5px solid var(--ink)}
+.m-rung.off{background:none;border-color:var(--ink-3)}
+
+.m-elev{width:100%;height:74px;display:block;margin-top:14px;overflow:visible}
+.m-elev .route{fill:none;stroke:var(--ink);stroke-width:2}
+.m-elev .base{stroke:var(--crease);stroke-width:1.5}
+.m-elev .peak{fill:var(--tape-deep)}
+.m-elev text{font-family:var(--f-data);font-size:8px;letter-spacing:.12em;fill:var(--ink-2);text-transform:uppercase}
+
+/* Database table */
+.m-filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 4px}
+.m-filter{font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:8px 12px;border:1.5px solid var(--ink);background:none;min-height:38px}
+.m-filter.on{background:var(--tape);border-color:var(--tape);color:#0b2b34}
+.m-search{width:100%;padding:13px 14px;border:3px solid var(--ink);background:var(--paper-lit);font-family:var(--f-data);font-size:.8rem;letter-spacing:.1em;color:var(--ink-2);margin-top:20px}
+
+/* Legend block that ships on every page */
+.m-key{border:3px solid var(--ink);padding:16px 18px 18px;margin:34px 0 40px;background:var(--paper-lit)}
+.m-key-h{font-family:var(--f-hand);font-weight:700;font-size:1.1rem;margin:0 0 12px;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+.m-key-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:9px 22px}
+.m-key-item{display:flex;align-items:center;gap:9px;font-family:var(--f-data);font-size:.61rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2)}
+.m-key-item .glyph{font-size:1.05rem;color:var(--ink);flex:none}
+
+.m-foot{margin-top:8px;padding:16px 0 34px;border-top:3px solid var(--ink);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+
+/* ═══════════════════════════════════════════════════════════════
+   SKIN A — Cartographic system, drawn honestly
+   Straight geometry, exact glyphs, hand lettering rationed to
+   trail names and the legend heading only.
+   ═══════════════════════════════════════════════════════════════ */
+[data-fid="a"] .m-trailname{font-family:var(--f-hand);font-weight:700;font-size:1.02rem;letter-spacing:0;text-transform:none}
+[data-fid="a"] .m-hero::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:1px;
+  background:repeating-linear-gradient(90deg,var(--ink) 0 9px,transparent 9px 17px);
+}
+[data-fid="a"] .m-row:hover .m-name{text-decoration:underline;text-underline-offset:3px}
+
+/* ═══════════════════════════════════════════════════════════════
+   SKIN B — Full hand-drawn pastiche
+   Hand lettering everywhere, fold creases, paper grain, ink wobble.
+   ═══════════════════════════════════════════════════════════════ */
+[data-fid="b"] .m-logo,
+[data-fid="b"] .m-h1,
+[data-fid="b"] .m-stat b,
+[data-fid="b"] .m-score,
+[data-fid="b"] .m-scorebox b{font-family:var(--f-hand);font-style:normal;font-weight:800;letter-spacing:0}
+[data-fid="b"] .m-h1{font-size:clamp(1.9rem,5.2vw,2.85rem);line-height:1.02;text-transform:none}
+[data-fid="b"] .m-trailname{font-family:var(--f-hand);font-weight:700;font-size:1.08rem;letter-spacing:0;text-transform:none}
+[data-fid="b"] .m-name{font-family:var(--f-hand);font-weight:600}
+[data-fid="b"] .m-deck,
+[data-fid="b"] .m-tagline{font-family:var(--f-hand);font-weight:400;font-style:normal}
+[data-fid="b"] .m-cta,
+[data-fid="b"] .m-chip,
+[data-fid="b"] .m-tier,
+[data-fid="b"] .m-filter{font-family:var(--f-hand);font-weight:700;letter-spacing:.04em;text-transform:none;font-size:.82rem}
+[data-fid="b"] .m-key-h{font-size:1.3rem}
+[data-fid="b"] .mock{
+  background-image:
+    /* horizontal fold */
+    linear-gradient(180deg,transparent calc(50% - 1px),rgba(21,23,27,.055) 50%,transparent calc(50% + 1px)),
+    /* vertical folds at thirds */
+    linear-gradient(90deg,transparent calc(33.3% - 1px),rgba(21,23,27,.045) 33.3%,transparent calc(33.3% + 1px)),
+    linear-gradient(90deg,transparent calc(66.6% - 1px),rgba(21,23,27,.045) 66.6%,transparent calc(66.6% + 1px)),
+    /* grain */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.17'/%3E%3C/svg%3E");
+  background-color:var(--paper);
+  background-blend-mode:multiply,multiply,multiply,multiply;
+}
+[data-fid="b"] .m-trailhead,
+[data-fid="b"] .m-stats,
+[data-fid="b"] .m-key,
+[data-fid="b"] .m-search,
+[data-fid="b"] .m-nav{filter:url(#wobble)}
+[data-fid="b"] .m-trailhead{border-bottom-width:4px}
+[data-fid="b"] .m-stats{border-top-width:4px;border-bottom-width:4px}
+[data-fid="b"] .m-nav{border-bottom-width:3px}
+[data-fid="b"] .m-key{border-width:4px}
+[data-fid="b"] .m-plate .rt{stroke-width:2.6}
+[data-fid="b"] .m-plate{filter:url(#wobble)}
+[data-fid="b"] .m-plate .lbl{font-family:var(--f-hand);font-size:8.6px;font-weight:700;letter-spacing:.02em;text-transform:none}
+[data-fid="b"] .m-scorebox{transform:rotate(-3.5deg)}
+[data-fid="b"] .m-tier,[data-fid="b"] .m-chip{transform:rotate(-.6deg)}
+[data-fid="b"] .m-row:nth-child(even) .m-tier{transform:rotate(.7deg)}
+
+/* ═══════════════════════════════════════════════════════════════
+   SKIN C — Restrained: paper ground + glyphs, no hand lettering
+   ═══════════════════════════════════════════════════════════════ */
+[data-fid="c"] .m-key{border-width:1.5px;background:none;padding:14px 0 0;border-left:0;border-right:0;border-bottom:0}
+[data-fid="c"] .m-key-h{font-family:var(--f-data);font-size:.66rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:var(--ink-2)}
+[data-fid="c"] .m-trailhead{border-bottom-width:2px}
+[data-fid="c"] .m-scorebox{transform:none}
+[data-fid="c"] .m-diff{color:var(--ink-2)}
+[data-fid="c"] .m-plate .lbl-hand{font-family:var(--f-data);font-size:7.4px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;fill:var(--ink-2)}
+[data-fid="c"] .m-plate .mk-hi{fill:var(--ink)}
+
+/* ── Trade-off table ────────────────────────────────────────── */
+.trade{width:100%;border-collapse:collapse;font-size:.93rem;min-width:620px}
+.trade th{font-family:var(--f-data);font-size:.62rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;text-align:left;padding:0 16px 9px 0;border-bottom:3px solid var(--ink);color:var(--ink-2);vertical-align:bottom}
+.trade th:first-child{width:170px}
+.trade td{padding:13px 16px 13px 0;border-bottom:1px solid var(--crease);vertical-align:top;line-height:1.45}
+.trade tr:has(td.rec) td{background:rgba(63,168,196,.09)}
+.trade .rowname{font-family:var(--f-data);font-size:.68rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.verdict{font-family:var(--f-data);font-size:.61rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;padding:3px 7px;border:1.5px solid var(--ink);display:inline-block;white-space:nowrap}
+.verdict.ok{background:var(--ink);color:var(--paper-lit)}
+.verdict.warn{border-style:dashed;color:var(--ink-2)}
+
+/* ── Port plan ──────────────────────────────────────────────── */
+.plan{list-style:none;padding:0;margin:14px 0 0;counter-reset:step}
+.plan li{counter-increment:step;display:grid;grid-template-columns:34px 1fr;gap:16px;padding:13px 0;border-bottom:1px solid var(--crease);align-items:start}
+.plan li::before{content:counter(step,decimal-leading-zero);font-family:var(--f-data);font-size:.72rem;font-weight:700;letter-spacing:.06em;color:var(--tape-deep);padding-top:3px}
+.plan b{font-family:var(--f-data);font-size:.7rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;display:block;margin-bottom:3px}
+.plan span{color:var(--ink-2);font-size:.94rem}
+
+.callout{border-left:5px solid var(--tape);padding:4px 0 4px 18px;margin:26px 0;max-width:62ch}
+.callout p{margin:.4em 0}
+
+footer.docfoot{border-top:3px solid var(--ink);background:var(--paper-lit);padding:26px 0 40px}
+footer.docfoot .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;font-family:var(--f-data);font-size:.62rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+
+@media (max-width:720px){
+  .m-stats{grid-template-columns:repeat(2,1fr)}
+  .m-stat:nth-child(2){border-right:0}
+  .m-stat:nth-child(1),.m-stat:nth-child(2){border-bottom:1px solid var(--crease)}
+  .m-hero-grid{grid-template-columns:1fr;gap:26px}
+  .m-crit{grid-template-columns:1fr}
+  .m-scorebox{position:static;margin-top:20px;transform:rotate(-2deg);width:104px}
+  .m-row{grid-template-columns:28px 1fr auto;row-gap:6px}
+  .m-row .m-score{grid-column:3}
+  .m-row .m-tier{grid-column:2;justify-self:start}
+  .doc-stamp{transform:none}
+}
+</style>
+
+<!-- glyph library + ink-wobble filter -->
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <defs>
+    <filter id="wobble" x="-3%" y="-3%" width="106%" height="106%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.35" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <symbol id="g-circle" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.4"/></symbol>
+    <symbol id="g-square" viewBox="0 0 20 20"><rect x="3.2" y="3.2" width="13.6" height="13.6"/></symbol>
+    <symbol id="g-diamond" viewBox="0 0 20 20"><path d="M10 2.2 17.8 10 10 17.8 2.2 10Z"/></symbol>
+    <symbol id="g-dbldiamond" viewBox="0 0 30 20"><path d="M8 2.6 14.4 10 8 17.4 1.6 10Z"/><path d="M22 2.6 28.4 10 22 17.4 15.6 10Z"/></symbol>
+    <symbol id="g-climb" viewBox="0 0 24 20"><path d="M2 3.4h20M2 8h20M2 12.6h20M2 17.2h20"/><path d="M2 1v18M22 1v18"/></symbol>
+    <symbol id="g-descent" viewBox="0 0 24 20"><path d="M3 3.5 12 8l9-4.5M3 10 12 14.5 21 10"/></symbol>
+    <symbol id="g-arrow" viewBox="0 0 24 20"><path d="M1.5 10h19"/><path d="M14.5 4.2 20.5 10l-6 5.8"/></symbol>
+    <symbol id="g-star" viewBox="0 0 20 20"><path d="M10 1.6 12.5 7.4 18.8 8 14 12.2 15.5 18.4 10 15.1 4.5 18.4 6 12.2 1.2 8 7.5 7.4Z"/></symbol>
+    <symbol id="g-fence" viewBox="0 0 24 20"><path d="M4 4v12M20 4v12M4 10h16"/></symbol>
+    <symbol id="g-dashed" viewBox="0 0 24 20"><path d="M1 10h4M8 10h4M15 10h4M22 10h1.5"/></symbol>
+  </defs>
+</svg>
+
+<header class="sheet-top">
+  <div class="wrap">
+    <div>
+      <p class="doc-kicker">XC Ski Labs · visual direction · not yet shipped</p>
+      <h1>Trail Key</h1>
+      <p class="lede">Three ways to rebuild xcskilabs.com around the Devil&rsquo;s Thumb Ranch nordic map &mdash;
+      creased paper, felt-tip lettering, and a legend that actually encodes something. Pick one and I&rsquo;ll port
+      every surface to it.</p>
+    </div>
+    <div class="doc-stamp">
+      Supersedes<br><b>&ldquo;Wax Bench&rdquo;</b><br>ratified 9 Jul 2026
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h2>The idea worth stealing</h2></div>
+    <div class="prose">
+      <p>The Devil&rsquo;s Thumb map isn&rsquo;t charming because it&rsquo;s hand-drawn. It&rsquo;s charming because
+      <strong>every mark on it means something</strong>. Hatch ladders are climbs. Chevrons are descents. Arrows are
+      one-way. Stars are benches you can actually sit on. And the Trail Key at the bottom left teaches you the whole
+      language in nine lines.</p>
+
+      <p>XC Ski Labs scores 229 races across 14 criteria and currently renders all of it as numbers in boxes. The map
+      hands us a ready-made data language for exactly that job &mdash; one every skier already reads without being
+      taught. That&rsquo;s the part to take. The creased paper is what makes people stop; the legend is what makes the
+      site better than it was.</p>
+
+      <div class="callout">
+        <p><strong>The rule that keeps it from becoming a costume:</strong> a symbol appears only where it carries real
+        data from <code>race-data/*.json</code>. No decorative arrows, no chevrons that aren&rsquo;t a descent, no
+        stars that aren&rsquo;t a feed station.</p>
+      </div>
+    </div>
+
+    <h3>The legend, mapped to fields we already have</h3>
+    <div class="scroll">
+    <table class="keytable">
+      <thead>
+        <tr><th></th><th>Mark</th><th>Means</th><th>Reads from</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg></td>
+          <td class="k-name">Easiest</td>
+          <td>Technically forgiving course &mdash; rolling, wide, well-tracked</td>
+          <td class="k-src">course.technical_rating 1&ndash;2</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></td>
+          <td class="k-name">More difficult</td>
+          <td>Sustained climbing or real descents; sharpens with fatigue</td>
+          <td class="k-src">course.technical_rating 3</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg></td>
+          <td class="k-name">Most difficult</td>
+          <td>Technical course that punishes weak downhill skiing</td>
+          <td class="k-src">course.technical_rating 4</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true" style="width:1.5em"><use href="#g-dbldiamond"/></svg></td>
+          <td class="k-name">Expert only</td>
+          <td>Committing. Exposure, cutoffs, or terrain that ends bad days</td>
+          <td class="k-src">course.technical_rating 5</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-climb"/></svg></td>
+          <td class="k-name">Climb ladder</td>
+          <td>Any 1&ndash;5 criterion score, drawn as rungs instead of a number</td>
+          <td class="k-src">nordic_lab_rating &times; 14</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-descent"/></svg></td>
+          <td class="k-name">Downhill</td>
+          <td>Net-losing sections on the elevation plate</td>
+          <td class="k-src">vitals.elevation_gain_m</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-star"/></svg></td>
+          <td class="k-name">Feed station</td>
+          <td>Aid on course &mdash; plotted where the data names positions</td>
+          <td class="k-src">vitals.aid_stations</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-arrow"/></svg></td>
+          <td class="k-name">Direction to ski</td>
+          <td>Point-to-point, not a loop &mdash; and which way</td>
+          <td class="k-src">course.format</td>
+        </tr>
+        <tr>
+          <td><svg class="glyph" aria-hidden="true"><use href="#g-dashed"/></svg></td>
+          <td class="k-name">Unverified</td>
+          <td>A claim we haven&rsquo;t sourced. Drawn, never hidden</td>
+          <td class="k-src">missing / null fields</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <p style="margin-top:14px"><em class="note">Tier stays typographic (T1&ndash;T4). Difficulty glyphs describe the
+    course; tier describes the race. Collapsing them would say a hard race is a good one, which isn&rsquo;t what the
+    scores mean.</em></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Three fidelities, same language</h2></div>
+    <p class="lede">Same markup, same tokens, same legend. What changes is how much of the hand shows. Switch a
+    direction and a surface &mdash; the mocks below are live HTML running real profiles from
+    <code>race-data/</code>, not screenshots.</p>
+
+    <div class="picker" role="radiogroup" aria-label="Fidelity direction">
+      <label class="opt">
+        <input type="radio" name="fid" value="a" checked>
+        <span class="opt-tag">Direction A</span>
+        <span class="opt-name">Cartographic system</span>
+        <p class="opt-why">Exact geometry, real glyphs, hand lettering rationed to trail names and the legend. Reads
+        as a map made by someone who loved the old one.</p>
+      </label>
+      <label class="opt">
+        <input type="radio" name="fid" value="b">
+        <span class="opt-tag">Direction B</span>
+        <span class="opt-name">Hand-drawn pastiche</span>
+        <p class="opt-why">Lettering everywhere, fold creases, paper grain, wobble on every rule. Maximum charm &mdash;
+        and you can see what it costs the data table.</p>
+      </label>
+      <label class="opt">
+        <input type="radio" name="fid" value="c">
+        <span class="opt-tag">Direction C</span>
+        <span class="opt-name">Paper and glyphs</span>
+        <p class="opt-why">Today&rsquo;s layout keeps its bones. Paper ground, ink instead of carbon, glyph legend.
+        The safe port &mdash; and possibly too safe to feel like a change.</p>
+      </label>
+    </div>
+
+    <div class="surfaces" role="tablist" aria-label="Surface">
+      <button class="surf-btn" role="tab" aria-selected="true" aria-controls="mk-home" id="tab-home">Homepage</button>
+      <button class="surf-btn" role="tab" aria-selected="false" aria-controls="mk-race" id="tab-race">Race page</button>
+      <button class="surf-btn" role="tab" aria-selected="false" aria-controls="mk-db" id="tab-db">Database</button>
+    </div>
+
+    <div class="viewport">
+      <div class="vp-bar">
+        <span id="vp-url">xcskilabs.com/</span>
+        <span id="vp-fid">Direction A &mdash; cartographic system</span>
+      </div>
+      <div id="skin" data-fid="a">
+
+        <!-- ══ HOMEPAGE ══ -->
+        <div class="mock" id="mk-home" role="tabpanel" aria-labelledby="tab-home">
+          <div class="m-wrap">
+            <nav class="m-nav">
+              <span class="m-logo">XC Ski Labs</span>
+              <span class="m-links"><b>Races</b><span>Plans</span><span>Course</span><span>Coaching</span></span>
+            </nav>
+
+            <div class="m-hero">
+              <div class="m-hero-grid">
+              <div>
+              <p class="m-kick">229 loppets · 14 criteria · 30 countries</p>
+              <h1 class="m-h1">Every loppet,<br>rated.</h1>
+              <p class="m-deck">Course, snow, grooming, field, prestige &mdash; scored the same way for every race on
+              earth, so you can tell a bucket-list start line from a bad weekend.</p>
+              <a class="m-cta" href="#0">Open the database
+                <svg class="glyph" aria-hidden="true" style="width:1.3em"><use href="#g-arrow"/></svg></a>
+              </div>
+              <div class="m-plate">
+                <svg viewBox="0 0 322 214" role="img" aria-label="Course drawing of Birkebeinerrennet: 54 kilometres from Rena over the Birkebeiner ridge at 900 metres to Lillehammer, with two feed stations marked.">
+                  <path class="rt" d="M14 176 C40 172 52 150 74 142 S108 138 122 118 S146 74 176 62 S218 52 236 40"/>
+                  <path class="rt" d="M236 40 C256 34 264 52 276 66 S296 96 302 122 S300 158 292 182"/>
+                  <g class="tick">
+                    <path d="M60 152 66 141M74 158 80 147M88 161 94 150M102 156 108 145M116 145 122 134M128 128 134 117M142 108 148 97M156 94 162 83M172 80 178 69M190 70 196 59M208 62 214 51"/>
+                  </g>
+                  <g class="chev">
+                    <path d="M262 52 271 60 280 54M272 82 281 90 290 84M283 116 292 124 301 118M285 152 294 160 303 154"/>
+                  </g>
+                  <path class="mk-hi" d="M236 30.5 240 38.5 248.6 39.4 242.2 45.2 244 53.6 236 49.2 228 53.6 229.8 45.2 223.4 39.4 232 38.5Z"/>
+                  <path class="mk" d="M122 108.5 125.2 115 132.2 115.7 127 120.4 128.5 127.2 122 123.6 115.5 127.2 117 120.4 111.8 115.7 118.8 115Z"/>
+                  <path class="mk" d="M276 56.5 279.2 63 286.2 63.7 281 68.4 282.5 75.2 276 71.6 269.5 75.2 271 68.4 265.8 63.7 272.8 63Z"/>
+                  <circle class="mk" cx="14" cy="176" r="3.4"/>
+                  <path class="rt" d="M282 190 292 182 288 194" transform="translate(2 -4)"/>
+                  <text class="lbl" x="4" y="196">Rena 240 m</text>
+                  <text class="lbl-hand" x="186" y="20">Birkebeiner ridge</text>
+                  <text class="lbl" x="186" y="31">900 m &#183; treeline</text>
+                  <text class="lbl" x="248" y="200" text-anchor="end">Lillehammer</text>
+                </svg>
+                <p class="m-plate-cap"><b>Birkebeinerrennet</b> &#183; 54 km &#183; classic<br>Highest score in the database</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="m-stats">
+              <div class="m-stat"><b>229</b><span>Races scored</span></div>
+              <div class="m-stat"><b>14</b><span>Criteria each</span></div>
+              <div class="m-stat"><b>30</b><span>Countries</span></div>
+              <div class="m-stat"><b>7</b><span>Tier one</span></div>
+            </div>
+
+            <div class="m-trailhead">
+              <svg class="glyph" aria-hidden="true"><use href="#g-arrow"/></svg>
+              <span class="m-trailname">The Tier Ones</span>
+              <span class="m-dist">7 races · 80+</span>
+            </div>
+            <div class="m-rows">
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg></span>
+                <span><span class="m-name">Birkebeinerrennet</span><span class="m-meta">Norway · 54 km · Classic · March</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">90</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></span>
+                <span><span class="m-name">Marcialonga</span><span class="m-meta">Italy · 70 km · Classic · January</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">89</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></span>
+                <span><span class="m-name">Vasaloppet</span><span class="m-meta">Sweden · 90 km · Classic · March</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">87</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg></span>
+                <span><span class="m-name">Engadin Skimarathon</span><span class="m-meta">Switzerland · 42 km · Skate &amp; classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">86</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg></span>
+                <span><span class="m-name">Jizersk&aacute; 50</span><span class="m-meta">Czech Republic · 50 km · Skate &amp; classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">81</span></a>
+            </div>
+
+            <div class="m-key">
+              <p class="m-key-h">Trail Key</p>
+              <div class="m-key-grid">
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg>Easiest course</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg>More difficult</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg>Most difficult</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true" style="width:1.5em"><use href="#g-dbldiamond"/></svg>Expert only</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-star"/></svg>Feed station</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-arrow"/></svg>Point-to-point</span>
+              </div>
+            </div>
+
+            <div class="m-foot"><span>Built for skiers who chase start lines</span><span>Rated, not ranked</span></div>
+          </div>
+        </div>
+
+        <!-- ══ RACE PAGE ══ -->
+        <div class="mock" id="mk-race" role="tabpanel" aria-labelledby="tab-race" hidden>
+          <div class="m-wrap">
+            <nav class="m-nav">
+              <span class="m-logo">XC Ski Labs</span>
+              <span class="m-links"><b>Races</b><span>Plans</span><span>Course</span><span>Coaching</span></span>
+            </nav>
+
+            <div class="m-hero">
+              <p class="m-kick">Worldloppet · Norway · since 1932</p>
+              <h1 class="m-h1">Birkebeiner-<br>rennet</h1>
+              <p class="m-tagline">Carry the weight of history &mdash; 54 km with a 3.5 kg pack across the Norwegian
+              mountains, just as the Birkebeiner warriors did 800 years ago.</p>
+              <div class="m-chips">
+                <span class="m-chip">54 km</span>
+                <span class="m-chip">Classic</span>
+                <span class="m-chip">Rena &rarr; Lillehammer</span>
+                <span class="m-chip">10,000 starters</span>
+                <span class="m-chip">&minus;12 to 0 &deg;C</span>
+              </div>
+              <div class="m-scorebox"><b>90</b><span>Tier 1</span></div>
+            </div>
+
+            <div class="m-trailhead">
+              <svg class="glyph" aria-hidden="true"><use href="#g-arrow"/></svg>
+              <span class="m-trailname">The Course</span>
+              <span class="m-dist">Point-to-point · 1,050 m</span>
+            </div>
+            <svg class="m-elev" viewBox="0 0 760 74" preserveAspectRatio="none" role="img"
+                 aria-label="Elevation profile: Rena at 240 metres climbing to the Birkebeiner ridge at 900 metres, then descending to Lillehammer.">
+              <line class="base" x1="0" y1="66" x2="760" y2="66"/>
+              <polyline class="route" points="0,58 70,50 150,38 230,24 310,12 380,10 450,18 530,30 610,26 690,44 760,56"/>
+              <circle class="peak" cx="380" cy="10" r="4"/>
+              <text x="0" y="76">Rena 240 m</text>
+              <text x="352" y="4">Ridge 900 m</text>
+              <text x="700" y="76">Lillehammer</text>
+            </svg>
+            <p style="font-size:.97rem;margin:14px 0 0">Point-to-point mountain crossing with the infamous climb to the
+            high point on the Birkebeiner ridge, above treeline and fully exposed to wind. Machine-groomed classic
+            tracks the whole way, Worldloppet standard.</p>
+
+            <div class="m-trailhead">
+              <svg class="glyph" aria-hidden="true"><use href="#g-climb"/></svg>
+              <span class="m-trailname">The Score</span>
+              <span class="m-dist">14 criteria · 90 / 100</span>
+            </div>
+            <div class="m-crit">
+              <div class="m-crit-row"><span class="m-crit-name">Prestige</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Field size</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">International draw</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Snow reliability</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Grooming</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Community</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Organization</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Competitive depth</span><span class="m-ladder" role="img" aria-label="5 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Distance</span><span class="m-ladder" role="img" aria-label="4 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung off"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Elevation</span><span class="m-ladder" role="img" aria-label="4 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung off"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Course technicality</span><span class="m-ladder" role="img" aria-label="4 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung off"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Accessibility</span><span class="m-ladder" role="img" aria-label="4 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung off"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Scenery</span><span class="m-ladder" role="img" aria-label="4 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung off"></i></span></div>
+              <div class="m-crit-row"><span class="m-crit-name">Altitude</span><span class="m-ladder" role="img" aria-label="3 of 5"><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung"></i><i class="m-rung off"></i><i class="m-rung off"></i></span></div>
+            </div>
+
+            <div class="m-key">
+              <p class="m-key-h">Trail Key</p>
+              <div class="m-key-grid">
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-climb"/></svg>Rungs = score of 5</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg>Most difficult course</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-arrow"/></svg>Point-to-point</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-dashed"/></svg>Unverified claim</span>
+              </div>
+            </div>
+
+            <div class="m-foot"><span>Sources: 11 cited</span><span>Last verified March 2026</span></div>
+          </div>
+        </div>
+
+        <!-- ══ DATABASE ══ -->
+        <div class="mock" id="mk-db" role="tabpanel" aria-labelledby="tab-db" hidden>
+          <div class="m-wrap">
+            <nav class="m-nav">
+              <span class="m-logo">XC Ski Labs</span>
+              <span class="m-links"><b>Races</b><span>Plans</span><span>Course</span><span>Coaching</span></span>
+            </nav>
+
+            <div class="m-hero" style="padding-bottom:14px">
+              <p class="m-kick">The database</p>
+              <h1 class="m-h1">229 races,<br>one scale.</h1>
+              <input class="m-search" type="search" value="Search 229 races — name, country, distance" aria-label="Search races">
+              <div class="m-filters">
+                <button class="m-filter on">All</button>
+                <button class="m-filter">Classic</button>
+                <button class="m-filter">Skate</button>
+                <button class="m-filter">T1 only</button>
+                <button class="m-filter">Worldloppet</button>
+                <button class="m-filter">Under 50 km</button>
+              </div>
+            </div>
+
+            <div class="m-trailhead">
+              <svg class="glyph" aria-hidden="true"><use href="#g-descent"/></svg>
+              <span class="m-trailname">Sorted by score</span>
+              <span class="m-dist">229 results</span>
+            </div>
+            <div class="m-rows">
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg></span>
+                <span><span class="m-name">Birkebeinerrennet</span><span class="m-meta">Norway · 54 km · Classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">90</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></span>
+                <span><span class="m-name">Marcialonga</span><span class="m-meta">Italy · 70 km · Classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">89</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></span>
+                <span><span class="m-name">Vasaloppet</span><span class="m-meta">Sweden · 90 km · Classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">87</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg></span>
+                <span><span class="m-name">Engadin Skimarathon</span><span class="m-meta">Switzerland · 42 km · Skate &amp; classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">86</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg></span>
+                <span><span class="m-name">Engadin La Diagonela</span><span class="m-meta">Switzerland · 55 km · Classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">83</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg></span>
+                <span><span class="m-name">Jizersk&aacute; 50</span><span class="m-meta">Czech Republic · 50 km · Skate &amp; classic</span></span>
+                <span class="m-tier t1">T1</span><span class="m-score">81</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></span>
+                <span><span class="m-name">StafettVasan</span><span class="m-meta">Sweden · 90 km · Classic · relay</span></span>
+                <span class="m-tier">T2</span><span class="m-score">79</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg></span>
+                <span><span class="m-name">Skarverennet</span><span class="m-meta">Norway · 37 km · Skate &amp; classic</span></span>
+                <span class="m-tier">T2</span><span class="m-score">79</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></span>
+                <span><span class="m-name">Nattvasan</span><span class="m-meta">Sweden · 90 km · Night · teams of two</span></span>
+                <span class="m-tier">T2</span><span class="m-score">79</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true" style="width:1.5em"><use href="#g-dbldiamond"/></svg></span>
+                <span><span class="m-name">La Transjurassienne</span><span class="m-meta">France · 68 km · Skate &amp; classic</span></span>
+                <span class="m-tier">T2</span><span class="m-score">77</span></a>
+              <a class="m-row" href="#0"><span class="m-diff"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg></span>
+                <span><span class="m-name">&Ouml;ppet Sp&aring;r</span><span class="m-meta">Sweden · 90 km · Classic · untimed</span></span>
+                <span class="m-tier">T2</span><span class="m-score">76</span></a>
+            </div>
+
+            <div class="m-key">
+              <p class="m-key-h">Trail Key</p>
+              <div class="m-key-grid">
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg>Easiest course</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg>More difficult</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg>Most difficult</span>
+                <span class="m-key-item"><svg class="glyph" aria-hidden="true" style="width:1.5em"><use href="#g-dbldiamond"/></svg>Expert only</span>
+                <span class="m-key-item">T1&ndash;T4 &mdash; race tier, not difficulty</span>
+                <span class="m-key-item">Score &mdash; sum of 14 criteria</span>
+              </div>
+            </div>
+
+            <div class="m-foot"><span>7 T1 · 85 T2 · 106 T3 · 31 T4</span><span>Rated, not ranked</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><h2>What each one costs</h2></div>
+    <p class="lede">The honest version, including the parts that argue against my own recommendation.</p>
+    <div class="scroll" style="margin-top:22px">
+      <table class="trade">
+        <thead>
+          <tr><th></th><th>A &mdash; Cartographic</th><th>B &mdash; Pastiche</th><th>C &mdash; Paper &amp; glyphs</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rowname rec">Feels like the map</td>
+            <td class="rec">Yes, structurally. The legend is the map; the geometry is yours.</td>
+            <td>Yes, literally. It looks photographed.</td>
+            <td>Partly. Reads as a palette change more than a redesign.</td>
+          </tr>
+          <tr>
+            <td class="rowname rec">Reads at 15px</td>
+            <td class="rec"><span class="verdict ok">Clean</span> Serif and mono do the reading; the hand only labels.</td>
+            <td><span class="verdict warn">Strained</span> A hand face across 229 table rows is genuinely tiring.</td>
+            <td><span class="verdict ok">Clean</span></td>
+          </tr>
+          <tr>
+            <td class="rowname rec">Accessibility</td>
+            <td class="rec">Shape-encoded difficulty passes without color. Contrast holds at every size.</td>
+            <td>Displacement filters blur stroke edges; the wobble can't be tested for contrast reliably.</td>
+            <td>Unchanged from today &mdash; already passing.</td>
+          </tr>
+          <tr>
+            <td class="rowname rec">Weight on page</td>
+            <td class="rec">One new webfont, used sparingly. Glyphs are a shared <code>&lt;defs&gt;</code> block, ~1 KB.</td>
+            <td>Same font at every weight, plus grain and two SVG filters per view.</td>
+            <td>Zero new bytes.</td>
+          </tr>
+          <tr>
+            <td class="rowname rec">Generator work</td>
+            <td class="rec">Token rewrite + a shared <code>trailkey.py</code> the generators import. Real, bounded.</td>
+            <td>Same, plus texture layers and per-element rotations to tune by hand across 15 templates.</td>
+            <td>Token rewrite only. A day.</td>
+          </tr>
+          <tr>
+            <td class="rowname rec">Ages how</td>
+            <td class="rec">Like a good map. The legend keeps earning its place as data grows.</td>
+            <td>Like a themed restaurant. Charming in March, costume by November.</td>
+            <td>Fine, quietly. Nobody will mention it.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout">
+      <p><strong>My call: A.</strong> B is the one that makes you smile in this review and the one you'd get tired of on
+      race page 140. C won't answer the thing you actually said &mdash; that you don't like the UI. A takes the map's
+      idea rather than its surface, and it makes the site more useful, not just more charming.</p>
+      <p>If you want more of B's warmth inside A, the dial is the paper grain and the fold crease &mdash; both are
+      single tokens I can turn up without touching the type.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">04</span><h2>How the port runs</h2></div>
+    <p class="lede">Every surface, in the order that keeps the site shippable at each step. Nothing here needs a
+    feature flag &mdash; each stage is a green deploy on its own.</p>
+    <ol class="plan">
+      <li><b>Tokens</b><span><code>tokens/tokens.css</code> rewritten to the paper palette. Every generator already
+      imports it, so the whole site changes ground on commit one.</span></li>
+      <li><b>Shared trail key</b><span>New <code>wordpress/trailkey.py</code>: the glyph <code>&lt;defs&gt;</code>
+      block, the climb-ladder builder, the legend component, and the difficulty mapper. One source, fifteen
+      consumers.</span></li>
+      <li><b>Race pages</b><span><code>generate_race_pages.py</code> &mdash; 229 pages, the hardest surface, and the
+      one that proves the criteria ladders. Elevation plates read real <code>vitals</code>.</span></li>
+      <li><b>Homepage and database</b><span><code>generate_homepage.py</code> and
+      <code>web/nordic-lab-search.html</code>, plus the copy of the search files into <code>output/search/</code> that
+      the deploy reads from.</span></li>
+      <li><b>Conversion surfaces</b><span>Coaching, consulting, apply, intake, questionnaire, training plans, success
+      and confirmation pages &mdash; the eleven WordPress generators.</span></li>
+      <li><b>Guide, legal, prep kit</b><span>The remaining static surfaces, then <code>generate_feeds.py</code> and OG
+      images.</span></li>
+      <li><b>Guards</b><span>Token-only hex rule extended, a legend-vocabulary test that fails if a glyph renders
+      without a backing field, and before/after screenshots on the seven surfaces you review.</span></li>
+    </ol>
+    <p style="margin-top:24px"><em class="note">The 7,987-test suite stays green throughout; the brand guidelines doc
+    gets rewritten in the same commit as the tokens so the spec never lags the code.</em></p>
+  </div>
+</section>
+
+<footer class="docfoot">
+  <div class="wrap">
+    <span>XC Ski Labs &mdash; visual direction review</span>
+    <span>Reply with A, B, or C</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var skin = document.getElementById('skin');
+  var vpFid = document.getElementById('vp-fid');
+  var vpUrl = document.getElementById('vp-url');
+  var names = {
+    a: 'Direction A — cartographic system',
+    b: 'Direction B — hand-drawn pastiche',
+    c: 'Direction C — paper and glyphs'
+  };
+  var urls = { 'mk-home':'xcskilabs.com/', 'mk-race':'xcskilabs.com/birkebeinerrennet/', 'mk-db':'xcskilabs.com/search/' };
+
+  document.querySelectorAll('input[name="fid"]').forEach(function(r){
+    r.addEventListener('change', function(){
+      if (!r.checked) return;
+      skin.setAttribute('data-fid', r.value);
+      vpFid.textContent = names[r.value];
+    });
+  });
+
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.surf-btn'));
+  function select(btn){
+    tabs.forEach(function(t){
+      var on = t === btn;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+    vpUrl.textContent = urls[btn.getAttribute('aria-controls')];
+  }
+  tabs.forEach(function(btn, i){
+    btn.addEventListener('click', function(){ select(btn); });
+    btn.addEventListener('keydown', function(e){
+      var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (!d) return;
+      e.preventDefault();
+      var next = tabs[(i + d + tabs.length) % tabs.length];
+      next.focus(); select(next);
+    });
+  });
+})();
+</script>
