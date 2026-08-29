@@ -1,0 +1,909 @@
+<title>Marked Trails</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Sometype+Mono:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600&display=swap">
+
+<style>
+/* ═══════════════════════════════════════════════════════════════
+   XC SKI LABS — Network + Groomer's Note + Someone's Copy
+   The three recommended moves, built as the actual surfaces.
+   Single-theme by intent: a paper identity should read as paper
+   on any host ground, so every colour here is painted explicitly.
+   ═══════════════════════════════════════════════════════════════ */
+:root{
+  --paper:#eae4d6; --paper-lit:#f4efe4; --paper-deep:#ded6c4;
+  --ink:#15171b; --ink-2:#565a63; --ink-3:#615e50;
+  --crease:#cfc5b1; --pencil:#6b6456;
+  /* Three accent jobs, three tokens. The old single --tape was used as a fill
+     AND as small text; as text on paper it measured 4.04:1, which is why it
+     read wrong. Marks may be light; text may not. */
+  --accent:#3fa8c4;        /* decorative fill: tack, selection, active filter  */
+  --accent-ink:#14596e;    /* text and meaningful lines — 6.2:1 on paper       */
+  --accent-on:#07222a;     /* text sitting on an --accent fill — 6.0:1         */
+  --tape:var(--accent); --tape-deep:var(--accent-ink);
+  --f-disp-fam:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --f-disp-style:italic; --f-disp-weight:900; --f-disp-track:-.025em;
+  --f-hand:"Shantell Sans","Segoe Print",cursive;
+  --f-read:"Source Serif 4",Georgia,serif;
+  --f-data:"Sometype Mono",ui-monospace,Menlo,monospace;
+  --f-disp:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --measure:1180px;
+  --grain-src:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ═══ THE FOUR DIALS ═══════════════════════════════════════════
+   Every value below is a token. Nothing downstream hardcodes a
+   width, a gap, a grain or a difficulty colour.
+   ═════════════════════════════════════════════════════════════ */
+:root{
+  /* COLOUR — ink only (as approved) */
+  --c-easy:var(--ink); --c-more:var(--ink); --c-most:var(--ink); --c-expert:var(--ink);
+  --c-warn-bg:var(--ink); --c-warn-fg:var(--paper-lit); --c-warn-ic:var(--accent);
+  --c-cta:var(--ink); --c-t1-bg:var(--ink); --c-t1-fg:var(--paper-lit);
+  --c-kick:var(--accent-ink); --c-band:var(--ink); --c-rung:var(--accent-ink);
+  --node-fill:var(--paper-lit);
+  /* SPACING — as approved */
+  --sp-page:44px; --sp-sec:42px; --sp-row:13px; --sp-sheet:38px; --sp-note:28px;
+  --sp-gap:34px; --lh-body:1.6; --lh-note:1.74; --sp-chip:6px 10px;
+  /* TEXTURE — as approved */
+  --tex-grain:.13; --tex-fold:.045; --tex-sheet:.05; --tex-vig:0;
+  /* BORDER WEIGHT — as approved */
+  --w-frame:3px; --w-rule:1.5px; --w-hair:1px; --w-card:1px;
+  --w-path:1.5px; --w-path-major:2.4px; --w-node:1.9;
+}
+
+/* ── PALETTE — the world the design lives in ─────────────────
+   Orthogonal to the colour dial: palette sets the ground, ink
+   and accent; colour decides how much difficulty encoding rides
+   on top. Every value below is contrast-checked against its own
+   ground, not against paper. */
+:root[data-dir="amundsen"]{
+  /* Undyed wool, peat ink, madder-dyed accent. Expedition kit, not sportswear. */
+  --paper:#e6e0d0; --paper-lit:#f1ecdf; --paper-deep:#d8d1bd;
+  --ink:#23211c; --ink-2:#5b564b; --ink-3:#615c45; --crease:#c8c0aa; --pencil:#6a6250;
+  --accent:#b06134; --accent-ink:#8a4520; --accent-on:#ffffff;
+  --f-disp-style:normal; --f-disp-track:-.008em;
+}
+:root[data-dir="ralph"]{
+  /* Oxford cream, navy-black ink, club red. Serif caps, no italic. */
+  --paper:#efeae0; --paper-lit:#f8f5ee; --paper-deep:#e2dbcd;
+  --ink:#17202e; --ink-2:#4e5a6c; --ink-3:#606875; --crease:#d3cec1; --pencil:#66707e;
+  --accent:#8f2230; --accent-ink:#7d1d2a; --accent-on:#ffffff;
+  --f-disp-fam:"Source Serif 4",Georgia,serif;
+  --f-disp-style:normal; --f-disp-weight:700; --f-disp-track:.06em;
+}
+/* difficulty encoding, re-tuned per world */
+:root[data-dir="amundsen"][data-color="signage"],
+:root[data-dir="amundsen"][data-color="full"]{ --c-easy:#4d5a44; --c-more:#2c5f7a }
+:root[data-dir="amundsen"][data-color="full"]{ --c-warn-bg:#8a4520; --c-warn-ic:#e8c37a }
+:root[data-dir="ralph"][data-color="signage"],
+:root[data-dir="ralph"][data-color="full"]{ --c-easy:#26543a; --c-more:#1b3a5c }
+:root[data-dir="ralph"][data-color="full"]{ --c-warn-bg:#8f2230; --c-warn-ic:#e8d9a8 }
+
+/* ═══ DIRECTION — not a palette. A different idea of what a page is. ═══════
+   Paper     asymmetric, left-aligned, the network as hero. Cartographic.
+   Amundsen  THE LOG. A field record on ruled stock: numbered entries,
+             coordinates, a conditions form. Nothing is sold to you; it is
+             written down. Left rail of labels, right column of values.
+   Ralph     THE PLATE WALL. Centred axis, framed plates in a symmetric grid
+             like a trophy room, double rules, a monogram, a drop cap and
+             justified columns. Ornament is structural, not decorative.
+   ═════════════════════════════════════════════════════════════════════════ */
+
+/* ── AMUNDSEN · The Log ───────────────────────────────────── */
+:root[data-dir="amundsen"] .page{
+  background-image:repeating-linear-gradient(180deg,transparent 0 30px,rgba(35,33,28,.08) 30px 31px);
+  background-position:0 -1px;
+}
+/* a sheet is a separate piece of paper laid on the ledger — it covers the rules */
+:root[data-dir="amundsen"] .sheet,
+:root[data-dir="amundsen"] .netwrap,
+:root[data-dir="amundsen"] .band{background-color:var(--paper-lit)}
+:root[data-dir="amundsen"] .band{background-color:var(--c-band)}
+/* the record table sits on the ledger pitch, so its rows match it exactly */
+:root[data-dir="amundsen"] .log dt,
+:root[data-dir="amundsen"] .log dd{padding-top:6px;padding-bottom:5px;min-height:31px}
+[data-dir="amundsen"] .kick{letter-spacing:.3em;font-size:.58rem}
+[data-dir="amundsen"] h1.big{font-size:clamp(1.9rem,4.4vw,2.9rem);line-height:1.02}
+[data-dir="amundsen"] .deck{font-size:.98rem}
+/* the hero stops shouting and starts reporting */
+@media (min-width:861px){ [data-dir="amundsen"] .herorow{grid-template-columns:minmax(0,1fr) 420px} }
+[data-dir="amundsen"] .stats{border-top:none;border-bottom:none;grid-template-columns:1fr;gap:0}
+[data-dir="amundsen"] .stat{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:14px;
+  padding:5px 0;border-right:0;border-bottom:1px solid var(--crease)}
+[data-dir="amundsen"] .stat b{font-size:1.02rem;font-family:var(--f-data);font-style:normal;font-weight:700;order:2}
+[data-dir="amundsen"] .stat span{margin:0;order:1}
+/* every race is a numbered record */
+[data-dir="amundsen"] .rows{counter-reset:rec}
+[data-dir="amundsen"] .row{grid-template-columns:40px 30px 1fr auto auto;counter-increment:rec;align-items:baseline}
+[data-dir="amundsen"] .row::before{content:counter(rec,decimal-leading-zero);font-family:var(--f-data);
+  font-size:.62rem;font-weight:700;letter-spacing:.08em;color:var(--ink-3);font-variant-numeric:tabular-nums}
+[data-dir="amundsen"] .rname{font-family:var(--f-data);font-weight:700;font-size:.86rem;letter-spacing:.02em;text-transform:uppercase}
+[data-dir="amundsen"] .sc{font-family:var(--f-data);font-style:normal;font-weight:700;font-size:1rem;letter-spacing:.02em}
+[data-dir="amundsen"] .tier{border:0;padding:0;color:var(--ink-3)}
+/* the race page becomes a form someone filled in */
+[data-dir="amundsen"] .chips{display:none}
+[data-dir="amundsen"] .log{display:block}
+@media (min-width:901px){ [data-dir="amundsen"] .racehead{grid-template-columns:minmax(0,1fr) 340px} }
+[data-dir="amundsen"] .tagline{font-style:normal;font-family:var(--f-read);font-size:.99rem;max-width:52ch}
+[data-dir="amundsen"] .note::before{content:"Observations"}
+[data-dir="amundsen"] .note{border-width:0;border-top:var(--w-rule) solid var(--ink);border-bottom:var(--w-rule) solid var(--ink);
+  padding-left:0;padding-right:0;background:none}
+[data-dir="amundsen"] .note::before{left:0;background:var(--paper-lit)}
+[data-dir="amundsen"] .critrow{grid-template-columns:1fr auto auto;gap:14px}
+[data-dir="amundsen"] .sheet{box-shadow:none}
+[data-dir="amundsen"] .stamp{border-radius:0}
+
+/* ── RALPH · The Plate Wall ───────────────────────────────── */
+[data-dir="ralph"] .crest{display:block}
+[data-dir="ralph"] .wrap > .kick,
+[data-dir="ralph"] h1.big{text-align:center}
+[data-dir="ralph"] h1.big{font-size:clamp(2rem,5.6vw,4rem);line-height:1.04}
+[data-dir="ralph"] .herorow{grid-template-columns:1fr;justify-items:center;text-align:center;gap:26px}
+[data-dir="ralph"] .herorow .deck{max-width:52ch;text-align:center}
+[data-dir="ralph"] .herorow .cta{margin-left:auto;margin-right:auto}
+[data-dir="ralph"] .stats{max-width:760px;margin-left:auto;margin-right:auto;
+  border-top:4px double var(--ink);border-bottom:4px double var(--ink)}
+[data-dir="ralph"] .stat{text-align:center}
+/* section heads become centred rules with the name inset */
+[data-dir="ralph"] .trailhead{justify-content:center;border-bottom:0;position:relative;padding-bottom:0;margin-top:calc(var(--sp-sec) + 12px)}
+[data-dir="ralph"] .trailhead::before{content:"";position:absolute;left:0;right:0;top:50%;
+  border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);height:3px;z-index:0}
+[data-dir="ralph"] .trailhead > *{position:relative;z-index:1;background:var(--paper);padding:0 14px}
+[data-dir="ralph"] .trailhead .dist{margin-left:0}
+[data-dir="ralph"] .trailname{font-family:var(--f-disp-fam);font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:.92rem}
+/* the list becomes a wall of framed plates */
+[data-dir="ralph"] .rows{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(216px,100%),1fr));
+  gap:16px;margin-top:22px}
+[data-dir="ralph"] .row{display:block;text-align:center;border:var(--w-rule) solid var(--ink);
+  padding:20px 14px 16px;background:var(--paper-lit);position:relative}
+[data-dir="ralph"] .row::after{content:"";position:absolute;inset:5px;border:1px solid var(--crease);pointer-events:none}
+[data-dir="ralph"] .row:hover{background:var(--paper-deep)}
+[data-dir="ralph"] .row > *{display:block;margin:0 auto}
+[data-dir="ralph"] .diff{font-size:1.3rem;margin-bottom:10px}
+[data-dir="ralph"] .rname{font-family:var(--f-disp-fam);font-weight:700;text-transform:uppercase;
+  letter-spacing:.05em;font-size:.9rem;line-height:1.25}
+[data-dir="ralph"] .rmeta{margin-top:7px}
+[data-dir="ralph"] .sc{font-size:1.9rem;margin-top:12px;text-align:center}
+[data-dir="ralph"] .tier{margin-top:10px;width:fit-content;border-width:1px}
+/* the note is set as a column with a drop cap */
+[data-dir="ralph"] .racehead{grid-template-columns:1fr;text-align:center;justify-items:center}
+[data-dir="ralph"] .tagline{text-align:center;max-width:44ch}
+[data-dir="ralph"] .chips{justify-content:center}
+[data-dir="ralph"] .plate{padding-top:0;max-width:340px;width:100%}
+[data-dir="ralph"] .note{border:0;border-top:4px double var(--ink);border-bottom:4px double var(--ink);
+  padding:30px 0 26px;background:none}
+[data-dir="ralph"] .note::before{left:50%;transform:translateX(-50%);background:var(--paper-lit);content:"\2726"}
+[data-dir="ralph"] .note p{font-family:var(--f-read);font-size:1.02rem;max-width:none}
+[data-dir="ralph"] .note p:first-of-type::first-letter{float:left;font-family:var(--f-disp-fam);font-weight:700;
+  font-size:3.3em;line-height:.82;padding:.06em .1em 0 0;color:var(--ink)}
+[data-dir="ralph"] .note-by{justify-content:center}
+[data-dir="ralph"] .sources,[data-dir="ralph"] .gn-sign{justify-content:center}
+[data-dir="ralph"] .margin{margin-left:auto;margin-right:auto;transform:none;text-align:center;padding-left:0}
+[data-dir="ralph"] .margin::before{display:none}
+[data-dir="ralph"] .stamp{right:auto;left:50%;top:auto;bottom:-18px;transform:translateX(-50%) rotate(-2deg)}
+[data-dir="ralph"] .band h2{text-align:center}
+[data-dir="ralph"] .rungcard{text-align:center;border-top:0;border:1px solid rgba(255,255,255,.22)}
+[data-dir="ralph"] footer.site .wrap{justify-content:center;gap:26px}
+[data-dir="ralph"] .netwrap{border-width:var(--w-rule)}
+@media (max-width:640px){
+  [data-dir="ralph"] .rows{grid-template-columns:1fr}
+  [data-dir="amundsen"] .row{grid-template-columns:26px 22px 1fr auto;gap:8px}
+  [data-dir="amundsen"] .row .sc{grid-column:4}
+  [data-dir="amundsen"] .row .tier{grid-column:3;justify-self:start}
+  [data-dir="amundsen"] .log dl{grid-template-columns:1fr}
+  [data-dir="amundsen"] .log dt{border-bottom:0;padding-bottom:0}
+}
+
+/* ── colour ────────────────────────────────────────────────── */
+:root[data-color="signage"]{
+  --c-easy:#2e7d4f; --c-more:#1668ad; --c-most:var(--ink); --c-expert:var(--ink);
+}
+:root[data-color="full"]{
+  --c-easy:#2e7d4f; --c-more:#1668ad; --c-most:var(--ink); --c-expert:var(--ink);
+  /* the only red on the site: a cutoff is a safety instruction, so it gets
+     the one colour nobody scrolls past. Kickers, CTAs and tier chips stay ink. */
+  --c-warn-bg:#b3202a; --c-warn-fg:#fff; --c-warn-ic:#ffd200;
+}
+/* ── spacing ───────────────────────────────────────────────── */
+:root[data-space="dense"]{
+  --sp-page:26px; --sp-sec:26px; --sp-row:8px; --sp-sheet:26px; --sp-note:20px;
+  --sp-gap:22px; --lh-body:1.45; --lh-note:1.56; --sp-chip:4px 8px;
+}
+:root[data-space="open"]{
+  --sp-page:64px; --sp-sec:60px; --sp-row:19px; --sp-sheet:52px; --sp-note:38px;
+  --sp-gap:48px; --lh-body:1.72; --lh-note:1.9; --sp-chip:9px 14px;
+}
+/* ── texture ───────────────────────────────────────────────── */
+:root[data-tex="clean"]{ --tex-grain:0; --tex-fold:0; --tex-sheet:0; --tex-vig:0 }
+:root[data-tex="photo"]{ --tex-grain:.3; --tex-fold:.115; --tex-sheet:.1; --tex-vig:.14 }
+/* ── border weight ─────────────────────────────────────────── */
+:root[data-rule="hair"]{
+  --w-frame:1px; --w-rule:1px; --w-hair:1px; --w-card:1px;
+  --w-path:1px; --w-path-major:1.6px; --w-node:1.4;
+}
+:root[data-rule="heavy"]{
+  --w-frame:6px; --w-rule:2.5px; --w-hair:1.5px; --w-card:2.5px;
+  --w-path:2.2px; --w-path-major:4px; --w-node:2.8;
+}
+
+*{box-sizing:border-box}
+body,.sheet{background-blend-mode:normal}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:900;
+  background-image:var(--grain-src);opacity:var(--tex-grain);mix-blend-mode:multiply}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;color:var(--ink);font-family:var(--f-read);font-size:16.5px;line-height:var(--lh-body);
+  background-color:var(--paper);
+  /* the sheet was folded in three and kept */
+  background-image:
+    radial-gradient(120% 92% at 50% 44%,transparent 52%,rgba(21,23,27,var(--tex-vig)) 100%),
+    linear-gradient(90deg,transparent calc(33.4% - 1.5px),rgba(21,23,27,var(--tex-fold)) 33.4%,transparent calc(33.4% + 1.5px)),
+    linear-gradient(90deg,transparent calc(66.8% - 1.5px),rgba(21,23,27,var(--tex-fold)) 66.8%,transparent calc(66.8% + 1.5px)),
+    none;
+  background-attachment:fixed,scroll,scroll,scroll;
+}
+a{color:inherit}
+::selection{background:var(--accent);color:var(--accent-on)}
+:focus-visible{outline:2.5px solid var(--accent-ink);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.001ms!important}}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 26px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.glyph{width:1em;height:1em;display:inline-block;vertical-align:-.13em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square}
+
+/* ── review shell (not part of the design) ─────────────────── */
+.shell{background:var(--ink);color:var(--paper-lit);border-bottom:4px solid var(--tape)}
+.shell .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-top:9px;padding-bottom:9px}
+.shell p{margin:0;font-family:var(--f-data);font-size:.61rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.shell p em{font-style:normal;color:var(--tape)}
+.shell nav{display:flex;flex-wrap:wrap;gap:2px}
+.shell button{appearance:none;background:none;border:0;border-bottom:3px solid transparent;color:#b9b3a5;padding:8px 13px;min-height:40px;
+  font-family:var(--f-data);font-size:.62rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;cursor:pointer}
+.shell button[aria-selected="true"]{color:var(--paper-lit);border-bottom-color:var(--tape)}
+.shell button:hover{color:var(--paper-lit)}
+
+
+/* ── dial rail (review chrome, not part of the design) ─────── */
+.crest{display:none;width:78px;height:78px;margin:0 auto 18px;color:var(--ink)}
+.crest text{font-family:var(--f-disp-fam);font-weight:700;letter-spacing:.02em}
+.log{display:none;margin:20px 0 0;border-top:var(--w-rule) solid var(--ink);border-bottom:var(--w-rule) solid var(--ink)}
+.log dl{display:grid;grid-template-columns:minmax(120px,auto) 1fr;gap:0;margin:0}
+.log dt{font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase;
+  color:var(--ink-2);padding:7px 18px 7px 0;border-bottom:1px solid var(--crease)}
+.log dd{margin:0;font-family:var(--f-data);font-size:.72rem;font-weight:500;letter-spacing:.04em;
+  padding:7px 0;border-bottom:1px solid var(--crease);font-variant-numeric:tabular-nums}
+.log dd.unset{color:var(--ink-3)}
+.log dt:last-of-type,.log dd:last-of-type{border-bottom:0}
+.recno{display:none;font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}
+[data-dir="amundsen"] .recno{display:block}
+.dials{background:#0e1013;color:#cfcabc;border-bottom:1px solid #2a2d33}
+.dials .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 26px;padding-top:11px;padding-bottom:12px}
+.dial{display:flex;align-items:center;gap:9px}
+.dial > b{font-family:var(--f-data);font-size:.55rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#7d8189;min-width:52px}
+.seg{display:flex;border:1px solid #34383f}
+.seg button{appearance:none;background:none;border:0;color:#a7a294;padding:7px 11px;min-height:34px;cursor:pointer;
+  font-family:var(--f-data);font-size:.56rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;white-space:nowrap}
+.seg button + button{border-left:1px solid #34383f}
+.seg button[aria-pressed="true"]{background:var(--tape);color:#07222a}
+.seg button:hover:not([aria-pressed="true"]){color:#efeade}
+.presets{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-left:auto}
+.presets span{font-family:var(--f-data);font-size:.55rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#7d8189}
+.presets button{appearance:none;background:none;border:1px solid #4a4e56;color:#cfcabc;padding:7px 12px;min-height:34px;cursor:pointer;
+  font-family:var(--f-data);font-size:.56rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.presets button:hover{border-color:var(--tape);color:#fff}
+.presets button.rec{border-color:var(--tape);color:#fff}
+.presets button.rec::after{content:" \2605";color:var(--tape)}
+@media (max-width:760px){.presets{margin-left:0}.dial > b{min-width:0}}
+
+/* ── site chrome ───────────────────────────────────────────── */
+.nav{border-bottom:var(--w-frame) solid var(--ink)}
+.nav .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 20px;padding-top:16px;padding-bottom:14px}
+.logo{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);text-transform:uppercase;font-size:1.12rem;letter-spacing:var(--f-disp-track);white-space:nowrap;text-decoration:none}
+.navlinks{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--f-data);font-size:.61rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.navlinks a{text-decoration:none}
+.navlinks a:hover{color:var(--ink)}
+.navlinks a[aria-current]{color:var(--ink);border-bottom:2px solid var(--accent-ink);padding-bottom:2px}
+
+.kick{font-family:var(--f-data);font-size:.62rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--c-kick);margin:0 0 12px}
+h1.big{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);text-transform:uppercase;
+  font-size:clamp(2.4rem,8.2vw,5.4rem);line-height:.9;letter-spacing:var(--f-disp-track);margin:0;text-wrap:balance}
+.herorow{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:40px;align-items:end;margin-top:26px}
+.herorow .deck{margin:0;max-width:44ch}
+.herorow .cta{margin-top:20px}
+@media (max-width:860px){.herorow{grid-template-columns:1fr;gap:26px;align-items:start}}
+.deck{font-size:1.04rem;line-height:1.55;margin:16px 0 0;max-width:48ch}
+.cta{display:inline-flex;align-items:center;gap:10px;margin-top:22px;padding:13px 21px;background:var(--c-cta);color:var(--paper-lit);
+  font-family:var(--f-data);font-size:.67rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;min-height:44px}
+.cta:hover{background:var(--tape-deep)}
+
+/* trail-name section head */
+.trailhead{display:flex;align-items:center;gap:12px;margin:var(--sp-sec) 0 6px;padding-bottom:8px;border-bottom:var(--w-frame) solid var(--ink)}
+.trailhead .glyph{flex:none;color:var(--accent-ink)}
+.trailname{font-family:var(--f-hand);font-weight:700;font-size:1.14rem;line-height:1.1}
+.trailhead .dist{margin-left:auto;font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+
+/* ── the network ───────────────────────────────────────────── */
+.netwrap{display:grid;grid-template-columns:minmax(0,1fr) 264px;gap:0;border:var(--w-frame) solid var(--ink);background:var(--paper-lit);margin-top:var(--sp-gap)}
+.netcanvas{padding:10px 10px 0;min-width:0}
+svg.netmap{width:100%;height:auto;display:block}
+.nw-path{fill:none;stroke:var(--ink);stroke-width:var(--w-path);stroke-linejoin:round}
+.nw-path--major{stroke-width:var(--w-path-major)}
+.nw-grand{fill:none;stroke:var(--accent-ink);stroke-width:3.2;stroke-dasharray:1.5 6;stroke-linecap:round}
+.nw-junction{stroke:var(--ink);stroke-width:1.2;stroke-dasharray:4 4}
+.nw-junction-ring{fill:none;stroke:var(--ink);stroke-width:1.2}
+.nw-leader{stroke:var(--ink-3);stroke-width:1;fill:none}
+.nw-node{cursor:pointer}
+.nw-hit{fill:transparent}
+.nw-g{color:var(--ink);overflow:visible}
+.nw-g use{fill:var(--node-fill);stroke:currentColor;stroke-width:var(--w-node);vector-effect:non-scaling-stroke}
+.nw-t1 .nw-g use{fill:currentColor}
+.nw-unrated{fill:none;stroke:var(--ink-3);stroke-width:1.6;stroke-dasharray:3 3}
+.nw-node:hover .nw-g,.nw-node:focus .nw-g{color:var(--accent-ink)}
+.nw-node:hover .nw-g use,.nw-node:focus .nw-g use{fill:var(--accent)}
+.nw-node[data-on] .nw-g{color:var(--accent-ink)}
+.nw-node[data-on] .nw-g use{fill:var(--accent)}
+.nw-node:focus{outline:none}
+.nw-node:focus .nw-hit{stroke:var(--accent-ink);stroke-width:2;fill:none}
+.nw-name{font-family:var(--f-data);font-size:8.2px;font-weight:700;letter-spacing:.13em;fill:var(--ink);text-transform:uppercase;pointer-events:none}
+.nw-trailname{font-family:var(--f-data);font-size:9px;font-weight:700;letter-spacing:.22em;fill:var(--ink-2);text-transform:uppercase;pointer-events:none}
+.nw-trailname--hand{font-family:var(--f-hand);font-size:15px;font-weight:700;letter-spacing:0;fill:var(--ink);text-transform:none}
+.nw-un{fill:none;stroke:var(--ink-3);stroke-width:1.3;stroke-linecap:round}
+.nw-note{font-family:var(--f-hand);font-size:15px;font-weight:700;fill:var(--ink);text-anchor:middle;pointer-events:none}
+.nw-note--sub{font-family:var(--f-data);font-size:8.4px;font-weight:700;letter-spacing:.18em;fill:var(--ink-3);text-transform:uppercase}
+
+.netside{border-left:var(--w-frame) solid var(--ink);padding:18px;display:flex;flex-direction:column;gap:14px}
+.rd-k{font-family:var(--f-data);font-size:.56rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--tape-deep);margin:0}
+.rd-n{font-family:var(--f-read);font-weight:700;font-size:1.2rem;line-height:1.16;margin:6px 0 0}
+.rd-m{font-family:var(--f-data);font-size:.59rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2);margin:8px 0 0;line-height:1.9}
+.rd-s{display:flex;align-items:baseline;gap:9px;margin-top:13px;padding-top:12px;border-top:var(--w-rule) solid var(--ink)}
+.rd-s b{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);font-size:2.2rem;line-height:.9;letter-spacing:var(--f-disp-track);font-variant-numeric:tabular-nums}
+.rd-s span{font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.rd-go{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-ink);text-decoration:none;border-bottom:2px solid var(--accent-ink);padding-bottom:3px}
+.rd-go:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.key{margin-top:auto;padding-top:16px;border-top:var(--w-hair) solid var(--crease);display:flex;flex-direction:column;gap:7px}
+.key-h{font-family:var(--f-hand);font-weight:700;font-size:.98rem;margin:0 0 3px;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+.key-i{display:flex;flex-wrap:wrap;align-items:center;gap:9px;font-family:var(--f-data);font-size:.56rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2)}
+.key-i .glyph{flex:none;font-size:.95rem;color:var(--ink)}
+.key-i i.dot{display:block;width:15px;height:0;border-top:2.6px dotted var(--accent-ink);flex:none}
+.key-i i.dash{display:block;width:15px;height:0;border-top:1.6px dashed var(--ink-3);flex:none}
+
+/* ── stats + rows ──────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:var(--w-frame) solid var(--ink);border-bottom:var(--w-frame) solid var(--ink);margin-top:var(--sp-gap)}
+.stat b{font-variant-numeric:tabular-nums}
+.stat{padding:15px 14px;border-right:var(--w-hair) solid var(--crease)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);font-size:1.7rem;line-height:1;letter-spacing:var(--f-disp-track)}
+.stat span{display:block;margin-top:5px;font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+
+.rows{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:32px 1fr auto auto;gap:14px;align-items:center;padding:var(--sp-row) 0;border-bottom:var(--w-hair) solid var(--crease);text-decoration:none;color:inherit}
+.row:hover{background:var(--paper-lit)}
+.row:hover .rname{text-decoration:underline;text-underline-offset:3px}
+.diff{font-size:1.12rem;line-height:1;text-align:center;color:var(--ink)}
+.diff.x1,.diff.x2,.key-i.x1 .glyph{color:var(--c-easy)}
+.diff.x3,.key-i.x3 .glyph{color:var(--c-more)}
+.diff.x4,.key-i.x4 .glyph{color:var(--c-most)}
+.diff.x5,.key-i.x5 .glyph{color:var(--c-expert)}
+.nw-x1 .nw-g,.nw-x2 .nw-g{color:var(--c-easy)}
+.nw-x3 .nw-g{color:var(--c-more)}
+.nw-x4 .nw-g{color:var(--c-most)}
+.nw-x5 .nw-g{color:var(--c-expert)}
+.rname{font-family:var(--f-read);font-weight:600;font-size:1.01rem;line-height:1.24}
+.rmeta{display:block;font-family:var(--f-data);font-size:.59rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin-top:3px}
+.tier{font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.12em;padding:3px 7px;border:var(--w-rule) solid var(--ink);white-space:nowrap}
+.tier.t1{background:var(--c-t1-bg);color:var(--c-t1-fg);border-color:var(--c-t1-bg)}
+.sc{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);font-size:1.26rem;letter-spacing:var(--f-disp-track);font-variant-numeric:tabular-nums;min-width:2.2ch;text-align:right}
+
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0}
+.filter{font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:9px 13px;border:var(--w-rule) solid var(--ink);background:none;min-height:40px;cursor:pointer}
+.filter.on{background:var(--accent);border-color:var(--accent);color:var(--accent-on)}
+.search{width:100%;padding:14px;border:var(--w-frame) solid var(--ink);background:var(--paper-lit);font-family:var(--f-data);font-size:.78rem;letter-spacing:.1em;color:var(--ink-2);margin-top:22px}
+
+/* ── race sheet (Someone's Copy) ───────────────────────────── */
+.sheet{position:relative;background:var(--paper-lit);border:var(--w-card) solid var(--crease);margin:26px 0 0;
+  padding:var(--sp-sheet) calc(var(--sp-sheet) + 4px) calc(var(--sp-sheet) - 4px);
+  box-shadow:0 1px 0 var(--crease),0 18px 34px -24px rgba(21,23,27,.55);
+  background-image:
+    linear-gradient(180deg,transparent calc(46% - 1.5px),rgba(21,23,27,var(--tex-sheet)) 46%,transparent calc(46% + 1.5px)),
+    linear-gradient(90deg,transparent calc(50% - 1.5px),rgba(21,23,27,calc(var(--tex-sheet) * .8)) 50%,transparent calc(50% + 1.5px)),
+    none}
+.sheet::after{content:"";position:absolute;right:0;bottom:0;width:38px;height:38px;
+  background:linear-gradient(135deg,transparent 50%,var(--paper-deep) 50%);border-left:1px solid var(--crease);border-top:1px solid var(--crease)}
+.tack{position:absolute;top:-18px;left:-16px;width:56px;height:50px;color:var(--accent)}
+.stamp{position:absolute;right:32px;top:30px;transform:rotate(8deg);border:2.5px solid var(--accent-ink);color:var(--accent-ink);padding:8px 12px 7px;text-align:center;opacity:.86}
+.stamp b{display:block;font-family:var(--f-data);font-size:.64rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;line-height:1.2}
+.stamp span{display:block;margin-top:2px;font-family:var(--f-data);font-size:.51rem;font-weight:700;letter-spacing:.14em}
+.stamp.none{border-style:dashed;border-color:var(--ink-3);color:var(--ink-3);opacity:.9}
+
+.racehead{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:34px;align-items:start}
+@media (max-width:900px){.plate{padding-top:0}}
+.tagline{font-family:var(--f-read);font-style:italic;font-size:1.05rem;line-height:1.5;margin:16px 0 0;max-width:46ch;color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:20px 0 0}
+.chip{font-family:var(--f-data);font-size:.59rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;padding:var(--sp-chip);border:var(--w-rule) solid var(--ink)}
+.chip.unknown{border-style:dashed;border-color:var(--ink-3);color:var(--ink-3)}
+
+.plate{padding-top:74px}
+.plate svg{width:100%;height:auto;display:block;overflow:visible}
+.plate .rt{fill:none;stroke:var(--ink);stroke-width:2.1;stroke-linejoin:round;stroke-linecap:round}
+.plate .tick{stroke:var(--ink);stroke-width:1.5}
+.plate .chev{fill:none;stroke:var(--ink);stroke-width:1.5;stroke-linecap:round}
+.plate .mk{fill:var(--ink)}
+.plate .mk-hi{fill:var(--accent-ink)}
+.plate .lbl{font-family:var(--f-data);font-size:7.4px;font-weight:700;letter-spacing:.16em;fill:var(--ink-2);text-transform:uppercase}
+.plate .lbl-hand{font-family:var(--f-hand);font-size:12px;font-weight:700;fill:var(--ink)}
+.plate-cap{margin:9px 0 0;font-family:var(--f-data);font-size:.55rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-2);line-height:1.7}
+
+/* the note */
+.note{margin:var(--sp-gap) 0 0;padding:var(--sp-note) calc(var(--sp-note) + 2px);border:var(--w-frame) solid var(--ink);position:relative;background:var(--paper)}
+.note::before{content:"The note";position:absolute;top:-12px;left:24px;padding:0 10px;background:var(--paper);
+  font-family:var(--f-hand);font-weight:700;font-size:.95rem;color:var(--ink)}
+.note p{font-family:var(--f-hand);font-weight:400;font-size:1.05rem;line-height:var(--lh-note);margin:0 0 1.05em;max-width:56ch}
+.note p:last-of-type{margin-bottom:0}
+.note p.hard{font-weight:700}
+.note-by{margin-top:20px;padding-top:13px;border-top:1px solid var(--crease);font-family:var(--f-data);font-size:.55rem;font-weight:700;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:5px 18px}
+
+/* the honest absence of a note */
+.nonote{margin:34px 0 0;padding:24px 26px;border:2px dashed var(--ink-3);background:none}
+.nonote p{margin:0;font-size:.98rem;line-height:1.55;color:var(--ink-2);max-width:56ch}
+.nonote p + p{margin-top:.7em}
+.nonote b{font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);display:block;margin-bottom:9px}
+
+.rule{display:flex;align-items:center;gap:13px;margin:var(--sp-gap) 0 0;padding:14px 17px;background:var(--c-warn-bg);color:var(--c-warn-fg)}
+.rule .glyph{flex:none;color:var(--c-warn-ic)}
+.rule p{margin:0;font-family:var(--f-data);font-size:.66rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;line-height:1.55}
+
+.crit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(360px,100%),1fr));gap:0 44px;margin-top:8px}
+.critrow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:var(--sp-row) 0;border-bottom:var(--w-hair) solid var(--crease)}
+.critrow span{font-family:var(--f-data);font-size:.61rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2)}
+.ladder{display:flex;gap:3px}
+.rung{width:7px;height:16px;background:var(--ink);border:var(--w-rule) solid var(--ink);display:block}
+.rung.off{background:none;border-color:var(--ink-3)}
+
+.margin{margin:26px 0 0;font-family:var(--f-hand);font-weight:400;font-size:.95rem;line-height:1.45;color:var(--pencil);
+  max-width:34ch;transform:rotate(-.9deg);padding-left:24px;position:relative}
+.margin::before{content:"";position:absolute;left:0;top:.55em;width:16px;height:0;border-top:1.6px solid var(--pencil);transform:rotate(-12deg)}
+
+.sources{margin-top:28px;padding-top:14px;border-top:var(--w-rule) solid var(--ink);display:flex;flex-wrap:wrap;gap:6px 20px;
+  font-family:var(--f-data);font-size:.56rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+
+/* ladder band */
+.band{background:var(--c-band);color:var(--paper-lit);margin-top:52px}
+.band .wrap{padding-top:34px;padding-bottom:36px}
+.band h2{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);text-transform:uppercase;font-size:1.5rem;letter-spacing:var(--f-disp-track);margin:0 0 20px}
+.rungs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:14px}
+.rungcard{background:rgba(255,255,255,.055);border-top:5px solid var(--c-rung);padding:16px 16px 18px}
+.rungcard b{display:block;font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--c-rung)}
+.rungcard strong{display:block;margin-top:8px;font-family:var(--f-read);font-weight:700;font-size:1.02rem}
+.rungcard p{margin:6px 0 0;font-size:.87rem;line-height:1.45;color:#b9b3a5}
+
+footer.site{border-top:var(--w-frame) solid var(--ink);padding:24px 0 44px}
+footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;font-family:var(--f-data);font-size:.59rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+
+.page[hidden]{display:none}
+.subtabs{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 0}
+.subtab{font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:9px 14px;
+  border:1.5px solid var(--ink);background:none;min-height:40px;cursor:pointer}
+.subtab[aria-selected="true"]{background:var(--ink);color:var(--paper-lit)}
+
+@media (max-width:900px){
+  .netwrap{grid-template-columns:1fr}
+  .netside{border-left:0;border-top:3px solid var(--ink)}
+  .key{margin-top:18px}
+  .racehead{grid-template-columns:1fr;gap:24px}
+}
+@media (max-width:640px){
+  body{background-image:var(--grain)}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:0}
+  .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--crease)}
+  .sheet{padding:26px 20px 28px}
+  .stamp{position:static;display:inline-block;transform:rotate(-2deg);margin-bottom:14px}
+  .tack{display:none}
+  .note{padding:22px 18px}
+  .row{grid-template-columns:26px 1fr auto;row-gap:6px}
+  .row .sc{grid-column:3}
+  .row .tier{grid-column:2;justify-self:start}
+}
+</style>
+
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <defs>
+    <symbol id="g-circle" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.4"/></symbol>
+    <symbol id="g-square" viewBox="0 0 20 20"><rect x="3.2" y="3.2" width="13.6" height="13.6"/></symbol>
+    <symbol id="g-diamond" viewBox="0 0 20 20"><path d="M10 2.2 17.8 10 10 17.8 2.2 10Z"/></symbol>
+    <symbol id="g-dbldiamond" viewBox="0 0 30 20"><path d="M8 2.6 14.4 10 8 17.4 1.6 10Z"/><path d="M22 2.6 28.4 10 22 17.4 15.6 10Z"/></symbol>
+    <symbol id="g-climb" viewBox="0 0 24 20"><path d="M2 3.4h20M2 8h20M2 12.6h20M2 17.2h20"/><path d="M2 1v18M22 1v18"/></symbol>
+    <symbol id="g-descent" viewBox="0 0 24 20"><path d="M3 3.5 12 8l9-4.5M3 10 12 14.5 21 10"/></symbol>
+    <symbol id="g-arrow" viewBox="0 0 24 20"><path d="M1.5 10h19"/><path d="M14.5 4.2 20.5 10l-6 5.8"/></symbol>
+    <symbol id="g-star" viewBox="0 0 20 20"><path d="M10 1.6 12.5 7.4 18.8 8 14 12.2 15.5 18.4 10 15.1 4.5 18.4 6 12.2 1.2 8 7.5 7.4Z"/></symbol>
+    <symbol id="g-warn" viewBox="0 0 24 20"><path d="M12 2 22.5 18H1.5Z"/><path d="M12 8v4.6"/><path d="M12 15.4v.2"/></symbol>
+  </defs>
+</svg>
+
+<div class="shell">
+  <div class="wrap">
+    <p>XC Ski Labs &#183; <em>Network + Groomer&rsquo;s Note + Someone&rsquo;s Copy</em></p>
+    <nav role="tablist" aria-label="Surface">
+      <button role="tab" id="t-home" aria-controls="p-home" aria-selected="true">Homepage</button>
+      <button role="tab" id="t-db" aria-controls="p-db" aria-selected="false">Database</button>
+      <button role="tab" id="t-race" aria-controls="p-race" aria-selected="false">Race page</button>
+    </nav>
+  </div>
+</div>
+
+
+<div class="dials">
+  <div class="wrap">
+    <div class="dial"><b>Direction</b><div class="seg" role="group" aria-label="Direction">
+      <button data-dial="dir" data-v="paper" aria-pressed="true">Paper</button>
+      <button data-dial="dir" data-v="amundsen" aria-pressed="false">Amundsen</button>
+      <button data-dial="dir" data-v="ralph" aria-pressed="false">Ralph</button>
+    </div></div>
+    <div class="dial"><b>Colour</b><div class="seg" role="group" aria-label="Colour">
+      <button data-dial="color" data-v="ink" aria-pressed="true">Ink only</button>
+      <button data-dial="color" data-v="signage" aria-pressed="false">Signage</button>
+      <button data-dial="color" data-v="full" aria-pressed="false">Signage + alarm</button>
+    </div></div>
+    <div class="dial"><b>Spacing</b><div class="seg" role="group" aria-label="Spacing">
+      <button data-dial="space" data-v="dense" aria-pressed="false">Dense</button>
+      <button data-dial="space" data-v="std" aria-pressed="true">Standard</button>
+      <button data-dial="space" data-v="open" aria-pressed="false">Open</button>
+    </div></div>
+    <div class="dial"><b>Texture</b><div class="seg" role="group" aria-label="Texture">
+      <button data-dial="tex" data-v="clean" aria-pressed="false">Clean</button>
+      <button data-dial="tex" data-v="std" aria-pressed="true">Subtle</button>
+      <button data-dial="tex" data-v="photo" aria-pressed="false">Photographed</button>
+    </div></div>
+    <div class="dial"><b>Rules</b><div class="seg" role="group" aria-label="Border weight">
+      <button data-dial="rule" data-v="hair" aria-pressed="false">Hairline</button>
+      <button data-dial="rule" data-v="std" aria-pressed="true">Standard</button>
+      <button data-dial="rule" data-v="heavy" aria-pressed="false">Heavy</button>
+    </div></div>
+    <div class="presets">
+      <span>Presets</span>
+      <button data-preset="paper,ink,std,std,std">As approved</button>
+      <button class="rec" data-preset="paper,full,dense,std,heavy">The Sheet</button>
+      <button data-preset="ralph,signage,open,clean,hair">Ralph</button>
+      <button data-preset="amundsen,full,dense,photo,heavy">Amundsen</button>
+    </div>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#0">XC Ski Labs</a>
+    <nav class="navlinks">
+      <a href="#0" aria-current="page">Races</a><a href="#0">Plans</a><a href="#0">Course</a>
+      <a href="#0">Coaching</a><a href="#0">About</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ══════════════ HOMEPAGE ══════════════ -->
+<main class="page" id="p-home" role="tabpanel" aria-labelledby="t-home">
+  <div class="wrap" style="padding-top:var(--sp-page)">
+      <svg class="crest" viewBox="0 0 78 78" role="img" aria-label="XC Ski Labs monogram">
+        <circle cx="39" cy="39" r="37" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="39" cy="39" r="32" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M39 13 41.5 22 39 20.5 36.5 22Z" fill="currentColor"/>
+        <text x="39" y="46" text-anchor="middle" font-size="19" fill="currentColor">XSL</text>
+        <path d="M22 56h34" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    <p class="kick">{{STAT_RACES}} races &#183; {{STAT_CRITERIA}} criteria &#183; {{STAT_SERIES}} marked series</p>
+    <h1 class="big">Every loppet,<br>rated.</h1>
+    <div class="herorow">
+      <div>
+        <p class="deck">The marked series are drawn as trails and every race sits on one. The {{UNGROOMED}} races
+        belonging to no series are still scored &mdash; they&rsquo;re just off the network.</p>
+        <a class="cta" href="#0">Open the database <svg class="glyph" aria-hidden="true" style="width:1.3em"><use href="#g-arrow"/></svg></a>
+      </div>
+      <div class="stats" style="margin:0">
+        <div class="stat"><b>{{STAT_RACES}}</b><span>Races scored</span></div>
+        <div class="stat"><b>{{STAT_CRITERIA}}</b><span>Criteria each</span></div>
+        <div class="stat"><b>{{STAT_SERIES}}</b><span>Marked series</span></div>
+        <div class="stat"><b>{{STAT_T1}}</b><span>Tier one</span></div>
+      </div>
+    </div>
+
+    <div class="netwrap">
+      <div class="netcanvas">
+        <svg class="netmap" viewBox="0 0 1240 730" role="img" aria-label="The race database drawn as a trail network: eight marked series as trails carrying 92 races, and 122 unaffiliated races as ungroomed snow.">
+{{NETWORK}}
+        </svg>
+      </div>
+      <aside class="netside" aria-live="polite">
+        <div>
+          <p class="rd-k" data-rd="k">Worldloppet</p>
+          <p class="rd-n" data-rd="n">Birkebeinerrennet</p>
+          <p class="rd-m" data-rd="m">Norway &#183; 54 km &#183; classic<br>Most difficult course</p>
+          <div class="rd-s"><b data-rd="s">90</b><span data-rd="t">Tier 1</span></div>
+          <a class="rd-go" href="#0">Open race page <svg class="glyph" aria-hidden="true" style="width:1.25em"><use href="#g-arrow"/></svg></a>
+        </div>
+        <div class="key">
+          <p class="key-h">Trail Key</p>
+          <span class="key-i x1"><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg>Easiest course</span>
+          <span class="key-i x3"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg>More difficult</span>
+          <span class="key-i x4"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg>Most difficult</span>
+          <span class="key-i"><svg class="glyph" aria-hidden="true" style="width:1.5em"><use href="#g-dbldiamond"/></svg>Expert only</span>
+          <span class="key-i"><i class="dot"></i>Grand Classic</span>
+          <span class="key-i"><i class="dash"></i>Junction &#183; two series</span>
+          <span class="key-i">Filled = tier one</span>
+        </div>
+      </aside>
+    </div>
+
+    <div class="trailhead">
+      <svg class="glyph" aria-hidden="true"><use href="#g-arrow"/></svg>
+      <span class="trailname">The Tier Ones</span><span class="dist">{{TIER1_COUNT}} races</span>
+    </div>
+    <div class="rows">
+      {{ROWS_TIER1}}
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="wrap">
+      <h2>Get race ready</h2>
+      <div class="rungs">
+        <div class="rungcard"><b>Stock plans</b><strong>Built for the race you picked</strong><p>Twelve to twenty-four weeks, matched to the loppet&rsquo;s distance and terrain.</p></div>
+        <div class="rungcard"><b>Custom</b><strong>Your calendar, your hours</strong><p>Written around the weeks you actually have.</p></div>
+        <div class="rungcard"><b>The course</b><strong>Learn to ski it properly</strong><p>Technique, waxing and pacing for marathon distance.</p></div>
+        <div class="rungcard"><b>Coaching</b><strong>Week by week, with a coach</strong><p>Limited spots. Apply and we&rsquo;ll talk.</p></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ══════════════ DATABASE ══════════════ -->
+<main class="page" id="p-db" role="tabpanel" aria-labelledby="t-db" hidden>
+  <div class="wrap" style="padding-top:var(--sp-page)">
+      <svg class="crest" viewBox="0 0 78 78" role="img" aria-label="XC Ski Labs monogram">
+        <circle cx="39" cy="39" r="37" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="39" cy="39" r="32" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M39 13 41.5 22 39 20.5 36.5 22Z" fill="currentColor"/>
+        <text x="39" y="46" text-anchor="middle" font-size="19" fill="currentColor">XSL</text>
+        <path d="M22 56h34" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    <p class="kick">The database</p>
+    <h1 class="big">{{STAT_RACES}} races,<br>one scale.</h1>
+    <input class="search" type="search" value="Search by name, country, distance or series" aria-label="Search races">
+    <div class="filters">
+      <button class="filter on">All</button><button class="filter">Classic</button><button class="filter">Skate</button>
+      <button class="filter">Worldloppet</button><button class="filter">T1 and T2</button><button class="filter">Under 50 km</button>
+      <button class="filter">Ungroomed only</button>
+    </div>
+
+    <div class="trailhead">
+      <svg class="glyph" aria-hidden="true"><use href="#g-arrow"/></svg>
+      <span class="trailname">Browse the network</span><span class="dist">{{NETWORK_PLACED}} on marked trails</span>
+    </div>
+    <div class="netwrap" style="margin-top:14px">
+      <div class="netcanvas">
+        <svg class="netmap" viewBox="0 0 1240 730" role="img" aria-label="Browsable trail network of the race database.">
+{{NETWORK}}
+        </svg>
+      </div>
+      <aside class="netside" aria-live="polite">
+        <div>
+          <p class="rd-k" data-rd="k">Worldloppet</p>
+          <p class="rd-n" data-rd="n">Birkebeinerrennet</p>
+          <p class="rd-m" data-rd="m">Norway &#183; 54 km &#183; classic<br>Most difficult course</p>
+          <div class="rd-s"><b data-rd="s">90</b><span data-rd="t">Tier 1</span></div>
+          <a class="rd-go" href="#0">Open race page <svg class="glyph" aria-hidden="true" style="width:1.25em"><use href="#g-arrow"/></svg></a>
+        </div>
+        <div class="key">
+          <p class="key-h">Trail Key</p>
+          <span class="key-i x1"><svg class="glyph" aria-hidden="true"><use href="#g-circle"/></svg>Easiest course</span>
+          <span class="key-i x3"><svg class="glyph" aria-hidden="true"><use href="#g-square"/></svg>More difficult</span>
+          <span class="key-i x4"><svg class="glyph" aria-hidden="true"><use href="#g-diamond"/></svg>Most difficult</span>
+          <span class="key-i"><svg class="glyph" aria-hidden="true" style="width:1.5em"><use href="#g-dbldiamond"/></svg>Expert only</span>
+          <span class="key-i"><i class="dot"></i>Grand Classic</span>
+          <span class="key-i">T1&ndash;T4 is the race, not the course</span>
+        </div>
+      </aside>
+    </div>
+
+    <div class="trailhead">
+      <svg class="glyph" aria-hidden="true"><use href="#g-descent"/></svg>
+      <span class="trailname">Sorted by score</span><span class="dist">{{DB_RESULTS}} results</span>
+    </div>
+    <div class="rows">
+      {{ROWS_DB}}
+    </div>
+  </div>
+  <footer class="site"><div class="wrap"><span>{{TIER_COUNTS}}</span><span>Rated, not ranked</span></div></footer>
+</main>
+
+<!-- ══════════════ RACE PAGE ══════════════ -->
+<main class="page" id="p-race" role="tabpanel" aria-labelledby="t-race" hidden>
+  <div class="wrap" style="padding-top:var(--sp-page)">
+    <div class="subtabs" role="tablist" aria-label="Race">
+      <button class="subtab" role="tab" id="s-birken" aria-controls="r-birken" aria-selected="true">Birkebeinerrennet &#183; T1, with a note</button>
+      <button class="subtab" role="tab" id="s-gantrisch" aria-controls="r-gantrisch" aria-selected="false">Gantrisch Loppet &#183; T4, no note yet</button>
+    </div>
+
+    <!-- ── T1, fully written ── -->
+    <article class="sheet" id="r-birken" role="tabpanel" aria-labelledby="s-birken">
+      <svg class="tack" viewBox="0 0 56 50" aria-hidden="true">
+        <path fill="currentColor" opacity=".78" d="M10 7c8-7 20-8 30-3s15 13 14 22-10 16-20 19-22 3-27-5-5-27 3-33Z"/>
+        <path fill="currentColor" opacity=".5" d="M22 4c7-3 15-2 19 3s3 13-2 16-14 2-18-3-6-13 1-16Z"/>
+      </svg>
+      {{BIRKEN_STAMP}}
+
+      <div class="racehead">
+        <div>
+          {{BIRKEN_RECNO}}
+          <p class="kick">{{BIRKEN_KICKER}}</p>
+          <h1 class="big" style="font-size:clamp(1.8rem,4.4vw,2.7rem)">Birkebeiner-<br>rennet</h1>
+          <p class="tagline">{{BIRKEN_TAGLINE}}</p>
+          <div class="chips">
+            {{BIRKEN_CHIPS}}
+          </div>
+          {{BIRKEN_LOG}}
+
+        </div>
+        <div class="plate">
+          <svg viewBox="0 0 300 200" role="img" aria-label="Course drawing: Rena at 240 metres climbing to the Birkebeiner ridge at 900 metres, then descending to Lillehammer. Two feed stations marked.">
+            <path class="rt" d="M12 166 C36 162 48 142 68 134 S100 130 114 112 S136 70 164 58 S204 48 220 38"/>
+            <path class="rt" d="M220 38 C238 32 246 50 256 62 S276 90 282 116 S280 150 272 172"/>
+            <g class="tick"><path d="M56 144 62 133M70 150 76 139M84 152 90 141M96 148 102 137M110 138 116 127M122 122 128 111M134 104 140 93M148 90 154 79M164 76 170 65M180 66 186 55M196 58 202 47"/></g>
+            <g class="chev"><path d="M244 50 252 58 260 52M252 78 260 86 268 80M262 110 270 118 278 112M264 144 272 152 280 146"/></g>
+            <path class="mk-hi" d="M220 28.5 224 36.5 232.6 37.4 226.2 43.2 228 51.6 220 47.2 212 51.6 213.8 43.2 207.4 37.4 216 36.5Z"/>
+            <path class="mk" d="M114 102.5 117.2 109 124.2 109.7 119 114.4 120.5 121.2 114 117.6 107.5 121.2 109 114.4 103.8 109.7 110.8 109Z"/>
+            <path class="mk" d="M256 52.5 259.2 59 266.2 59.7 261 64.4 262.5 71.2 256 67.6 249.5 71.2 251 64.4 245.8 59.7 252.8 59Z"/>
+            <circle class="mk" cx="12" cy="166" r="3.4"/>
+            <text class="lbl" x="2" y="186">Rena, start</text>
+            <text class="lbl-hand" x="176" y="20">Birkebeiner ridge</text>
+            <text class="lbl" x="176" y="31">900 m &#183; treeline</text>
+            <text class="lbl" x="240" y="190" text-anchor="end">Lillehammer</text>
+          </svg>
+          <p class="plate-cap">Point-to-point &#183; 1,050 m climbing<br>Two feed stations shown</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <p>The Birken is not a technical race. It is a long one, in a place where the weather decides. Fifty-four
+        kilometres from Rena, up onto the ridge at 900 metres where there is no shelter at all, then down into
+        Lillehammer.</p>
+        <p>You carry 3.5 kilos the whole way. That is the race &mdash; not the distance, the pack, and the hour you
+        spend above treeline in March carrying it.</p>
+        <p>Ten thousand people start and the tracks will be good; grooming here is as reliable as it gets anywhere.
+        What ends days is the top. Skiers strong enough for the climb get cold on the plateau and lose the descent.
+        Dress for the ridge, not for the start pen. If it is blowing hard the organisers move the route down, and you
+        should be glad when they do.</p>
+        <p class="hard">Do not make this your first marathon.</p>
+        <div class="note-by">{{BIRKEN_NOTEBY}}</div>
+      </div>
+
+      <div class="rule">
+        <svg class="glyph" aria-hidden="true" style="width:1.25em"><use href="#g-warn"/></svg>
+        <p>Cutoff approximately 8.5 hours &#183; registration opens in spring and sells out</p>
+      </div>
+
+      <div class="trailhead" style="margin-top:34px">
+        <svg class="glyph" aria-hidden="true"><use href="#g-climb"/></svg>
+        <span class="trailname">The Score</span><span class="dist">{{BIRKEN_CRITCOUNT}} criteria &#183; {{BIRKEN_SCORE}} of 100</span>
+      </div>
+      <div class="crit">
+        {{BIRKEN_CRIT}}
+      </div>
+
+      <p class="margin">field size confirmed with organiser &mdash; 10k starters, not the 12k quoted elsewhere</p>
+      <div class="sources">{{BIRKEN_SOURCES}}</div>
+    </article>
+
+    <!-- ── T4, honestly empty ── -->
+    <article class="sheet" id="r-gantrisch" role="tabpanel" aria-labelledby="s-gantrisch" hidden>
+      {{GANTRISCH_STAMP}}
+      <div class="racehead">
+        <div>
+          {{GANTRISCH_RECNO}}
+          <p class="kick">{{GANTRISCH_KICKER}}</p>
+          <h1 class="big" style="font-size:clamp(1.8rem,4.4vw,2.7rem)">Gantrisch<br>Loppet</h1>
+          <p class="tagline">{{GANTRISCH_TAGLINE}}</p>
+          <div class="chips">
+            {{GANTRISCH_CHIPS}}
+          </div>
+          {{GANTRISCH_LOG}}
+        </div>
+        <div class="plate" style="display:flex;align-items:center">
+          <p class="plate-cap" style="margin:0;border:2px dashed var(--ink-3);padding:18px;width:100%">
+            No course drawing &mdash; elevation profile not yet sourced.<br>The 477 m figure comes from the organiser,
+            unverified against a GPS trace.</p>
+        </div>
+      </div>
+
+      <div class="nonote">
+        <b>No note on this one yet</b>
+        <p>Nobody at the Labs has skied Gantrisch, and we won&rsquo;t write a note from a website. What&rsquo;s below is
+        the scoring, which comes from published data and reads the same way for all {{STAT_RACES}} races.</p>
+        <p>What we can say from the numbers: it&rsquo;s a short skate race in a small field at 1,000 metres, where
+        snow reliability is the weak point &mdash; a two out of five, and the reason it scores where it does.</p>
+      </div>
+
+      <div class="trailhead" style="margin-top:34px">
+        <svg class="glyph" aria-hidden="true"><use href="#g-climb"/></svg>
+        <span class="trailname">The Score</span><span class="dist">{{GANTRISCH_CRITCOUNT}} criteria &#183; {{GANTRISCH_SCORE}} of 100</span>
+      </div>
+      <div class="crit">
+        {{GANTRISCH_CRIT}}
+      </div>
+      <div class="sources">{{GANTRISCH_SOURCES}}</div>
+    </article>
+  </div>
+  <footer class="site"><div class="wrap"><span>Built for skiers who chase start lines</span><span>Rated, not ranked</span></div></footer>
+</main>
+
+<script>
+(function(){
+
+  /* ── dials ── */
+  var root = document.documentElement;
+  var DIALS = ['dir','color','space','tex','rule'];
+  function setDial(dial, value){
+    root.setAttribute('data-' + dial, value);
+    document.querySelectorAll('[data-dial="' + dial + '"]').forEach(function(b){
+      b.setAttribute('aria-pressed', b.dataset.v === value ? 'true' : 'false');
+    });
+  }
+  var DEFAULTS = { dir:'paper', color:'ink', space:'std', tex:'std', rule:'std' };
+  DIALS.forEach(function(d){ setDial(d, DEFAULTS[d]); });
+  document.querySelectorAll('[data-dial]').forEach(function(b){
+    b.addEventListener('click', function(){ setDial(b.dataset.dial, b.dataset.v); });
+  });
+  document.querySelectorAll('[data-preset]').forEach(function(b){
+    b.addEventListener('click', function(){
+      b.dataset.preset.split(',').forEach(function(v, i){ setDial(DIALS[i], v); });
+    });
+  });
+
+  var TECH = {0:'Course not yet rated',1:'Easiest course',2:'Easiest course',3:'More difficult',4:'Most difficult',5:'Expert only'};
+
+  /* every network on the page drives its own readout */
+  document.querySelectorAll('.netwrap').forEach(function(wrap){
+    var out = {};
+    wrap.querySelectorAll('[data-rd]').forEach(function(el){ out[el.dataset.rd] = el; });
+    var active = null;
+    function show(node){
+      if (active) active.removeAttribute('data-on');
+      active = node; node.setAttribute('data-on','');
+      var d = node.dataset;
+      out.k.textContent = d.sr;
+      out.n.textContent = d.n;
+      out.m.innerHTML = [d.c, d.k && d.k !== 'None' ? d.k + ' km' : null, d.d].filter(Boolean).join(' · ')
+        + '<br>' + (TECH[d.x] || TECH[0]);
+      out.s.textContent = d.s;
+      out.t.textContent = 'Tier ' + d.t;
+    }
+    wrap.querySelectorAll('.nw-node').forEach(function(n){
+      ['mouseenter','focus'].forEach(function(ev){ n.addEventListener(ev, function(){ show(n); }); });
+      n.addEventListener('click', function(e){ e.preventDefault(); show(n); });
+    });
+  });
+
+  function tabs(list, hideAttr){
+    list.forEach(function(btn, i){
+      function select(){
+        list.forEach(function(o){
+          var on = o === btn;
+          o.setAttribute('aria-selected', on ? 'true' : 'false');
+          document.getElementById(o.getAttribute('aria-controls')).hidden = !on;
+        });
+        window.scrollTo({ top: 0, behavior: 'instant' });
+      }
+      btn.addEventListener('click', select);
+      btn.addEventListener('keydown', function(e){
+        var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!d) return;
+        e.preventDefault();
+        var next = list[(i + d + list.length) % list.length];
+        next.focus(); next.click();
+      });
+    });
+  }
+  tabs(Array.prototype.slice.call(document.querySelectorAll('.shell [role="tab"]')));
+  tabs(Array.prototype.slice.call(document.querySelectorAll('.subtab')));
+})();
+</script>
