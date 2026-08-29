@@ -12,8 +12,17 @@
    ═══════════════════════════════════════════════════════════════ */
 :root{
   --paper:#eae4d6; --paper-lit:#f4efe4; --paper-deep:#ded6c4;
-  --ink:#15171b; --ink-2:#565a63; --ink-3:#8a8779;
-  --crease:#cfc5b1; --tape:#3fa8c4; --tape-deep:#22778f; --pencil:#6b6456;
+  --ink:#15171b; --ink-2:#565a63; --ink-3:#615e50;
+  --crease:#cfc5b1; --pencil:#6b6456;
+  /* Three accent jobs, three tokens. The old single --tape was used as a fill
+     AND as small text; as text on paper it measured 4.04:1, which is why it
+     read wrong. Marks may be light; text may not. */
+  --accent:#3fa8c4;        /* decorative fill: tack, selection, active filter  */
+  --accent-ink:#14596e;    /* text and meaningful lines — 6.2:1 on paper       */
+  --accent-on:#07222a;     /* text sitting on an --accent fill — 6.0:1         */
+  --tape:var(--accent); --tape-deep:var(--accent-ink);
+  --f-disp-fam:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --f-disp-style:italic; --f-disp-weight:900; --f-disp-track:-.025em;
   --f-hand:"Shantell Sans","Segoe Print",cursive;
   --f-read:"Source Serif 4",Georgia,serif;
   --f-data:"Sometype Mono",ui-monospace,Menlo,monospace;
@@ -29,9 +38,9 @@
 :root{
   /* COLOUR — ink only (as approved) */
   --c-easy:var(--ink); --c-more:var(--ink); --c-most:var(--ink); --c-expert:var(--ink);
-  --c-warn-bg:var(--ink); --c-warn-fg:var(--paper-lit); --c-warn-ic:var(--tape);
+  --c-warn-bg:var(--ink); --c-warn-fg:var(--paper-lit); --c-warn-ic:var(--accent);
   --c-cta:var(--ink); --c-t1-bg:var(--ink); --c-t1-fg:var(--paper-lit);
-  --c-kick:var(--tape-deep); --c-band:var(--ink); --c-rung:var(--tape);
+  --c-kick:var(--accent-ink); --c-band:var(--ink); --c-rung:var(--accent-ink);
   --node-fill:var(--paper-lit);
   /* SPACING — as approved */
   --sp-page:44px; --sp-sec:42px; --sp-row:13px; --sp-sheet:38px; --sp-note:28px;
@@ -42,6 +51,34 @@
   --w-frame:3px; --w-rule:1.5px; --w-hair:1px; --w-card:1px;
   --w-path:1.5px; --w-path-major:2.4px; --w-node:1.9;
 }
+
+/* ── PALETTE — the world the design lives in ─────────────────
+   Orthogonal to the colour dial: palette sets the ground, ink
+   and accent; colour decides how much difficulty encoding rides
+   on top. Every value below is contrast-checked against its own
+   ground, not against paper. */
+:root[data-palette="amundsen"]{
+  /* Undyed wool, peat ink, madder-dyed accent. Expedition kit, not sportswear. */
+  --paper:#e6e0d0; --paper-lit:#f1ecdf; --paper-deep:#d8d1bd;
+  --ink:#23211c; --ink-2:#5b564b; --ink-3:#615c45; --crease:#c8c0aa; --pencil:#6a6250;
+  --accent:#b06134; --accent-ink:#8a4520; --accent-on:#ffffff;
+  --f-disp-style:normal; --f-disp-track:-.008em;
+}
+:root[data-palette="ralph"]{
+  /* Oxford cream, navy-black ink, club red. Serif caps, no italic. */
+  --paper:#efeae0; --paper-lit:#f8f5ee; --paper-deep:#e2dbcd;
+  --ink:#17202e; --ink-2:#4e5a6c; --ink-3:#606875; --crease:#d3cec1; --pencil:#66707e;
+  --accent:#8f2230; --accent-ink:#7d1d2a; --accent-on:#ffffff;
+  --f-disp-fam:"Source Serif 4",Georgia,serif;
+  --f-disp-style:normal; --f-disp-weight:700; --f-disp-track:.06em;
+}
+/* difficulty encoding, re-tuned per world */
+:root[data-palette="amundsen"][data-color="signage"],
+:root[data-palette="amundsen"][data-color="full"]{ --c-easy:#4d5a44; --c-more:#2c5f7a }
+:root[data-palette="amundsen"][data-color="full"]{ --c-warn-bg:#8a4520; --c-warn-ic:#e8c37a }
+:root[data-palette="ralph"][data-color="signage"],
+:root[data-palette="ralph"][data-color="full"]{ --c-easy:#26543a; --c-more:#1b3a5c }
+:root[data-palette="ralph"][data-color="full"]{ --c-warn-bg:#8f2230; --c-warn-ic:#e8d9a8 }
 /* ── colour ────────────────────────────────────────────────── */
 :root[data-color="signage"]{
   --c-easy:#2e7d4f; --c-more:#1668ad; --c-most:var(--ink); --c-expert:var(--ink);
@@ -91,8 +128,8 @@ body{
   background-attachment:fixed,scroll,scroll,scroll;
 }
 a{color:inherit}
-::selection{background:var(--tape);color:#fff}
-:focus-visible{outline:2.5px solid var(--tape-deep);outline-offset:3px}
+::selection{background:var(--accent);color:var(--accent-on)}
+:focus-visible{outline:2.5px solid var(--accent-ink);outline-offset:3px}
 @media (prefers-reduced-motion:reduce){*{transition-duration:.001ms!important}}
 .wrap{max-width:var(--measure);margin:0 auto;padding:0 26px}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
@@ -133,15 +170,15 @@ a{color:inherit}
 /* ── site chrome ───────────────────────────────────────────── */
 .nav{border-bottom:var(--w-frame) solid var(--ink)}
 .nav .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 20px;padding-top:16px;padding-bottom:14px}
-.logo{font-family:var(--f-disp);font-weight:900;font-style:italic;text-transform:uppercase;font-size:1.12rem;letter-spacing:-.015em;white-space:nowrap;text-decoration:none}
+.logo{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);text-transform:uppercase;font-size:1.12rem;letter-spacing:var(--f-disp-track);white-space:nowrap;text-decoration:none}
 .navlinks{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--f-data);font-size:.61rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
 .navlinks a{text-decoration:none}
 .navlinks a:hover{color:var(--ink)}
-.navlinks a[aria-current]{color:var(--ink);border-bottom:2px solid var(--tape);padding-bottom:2px}
+.navlinks a[aria-current]{color:var(--ink);border-bottom:2px solid var(--accent-ink);padding-bottom:2px}
 
 .kick{font-family:var(--f-data);font-size:.62rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--c-kick);margin:0 0 12px}
-h1.big{font-family:var(--f-disp);font-weight:900;font-style:italic;text-transform:uppercase;
-  font-size:clamp(2.4rem,8.2vw,5.4rem);line-height:.9;letter-spacing:-.025em;margin:0;text-wrap:balance}
+h1.big{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);text-transform:uppercase;
+  font-size:clamp(2.4rem,8.2vw,5.4rem);line-height:.9;letter-spacing:var(--f-disp-track);margin:0;text-wrap:balance}
 .herorow{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:40px;align-items:end;margin-top:26px}
 .herorow .deck{margin:0;max-width:44ch}
 .herorow .cta{margin-top:20px}
@@ -153,7 +190,7 @@ h1.big{font-family:var(--f-disp);font-weight:900;font-style:italic;text-transfor
 
 /* trail-name section head */
 .trailhead{display:flex;align-items:center;gap:12px;margin:var(--sp-sec) 0 6px;padding-bottom:8px;border-bottom:var(--w-frame) solid var(--ink)}
-.trailhead .glyph{flex:none;color:var(--tape-deep)}
+.trailhead .glyph{flex:none;color:var(--accent-ink)}
 .trailname{font-family:var(--f-hand);font-weight:700;font-size:1.14rem;line-height:1.1}
 .trailhead .dist{margin-left:auto;font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
 
@@ -163,7 +200,7 @@ h1.big{font-family:var(--f-disp);font-weight:900;font-style:italic;text-transfor
 svg.netmap{width:100%;height:auto;display:block}
 .nw-path{fill:none;stroke:var(--ink);stroke-width:var(--w-path);stroke-linejoin:round}
 .nw-path--major{stroke-width:var(--w-path-major)}
-.nw-grand{fill:none;stroke:var(--tape-deep);stroke-width:3.2;stroke-dasharray:1.5 6;stroke-linecap:round}
+.nw-grand{fill:none;stroke:var(--accent-ink);stroke-width:3.2;stroke-dasharray:1.5 6;stroke-linecap:round}
 .nw-junction{stroke:var(--ink);stroke-width:1.2;stroke-dasharray:4 4}
 .nw-junction-ring{fill:none;stroke:var(--ink);stroke-width:1.2}
 .nw-leader{stroke:var(--ink-3);stroke-width:1;fill:none}
@@ -173,12 +210,12 @@ svg.netmap{width:100%;height:auto;display:block}
 .nw-g use{fill:var(--node-fill);stroke:currentColor;stroke-width:var(--w-node);vector-effect:non-scaling-stroke}
 .nw-t1 .nw-g use{fill:currentColor}
 .nw-unrated{fill:none;stroke:var(--ink-3);stroke-width:1.6;stroke-dasharray:3 3}
-.nw-node:hover .nw-g,.nw-node:focus .nw-g{color:var(--tape-deep)}
-.nw-node:hover .nw-g use,.nw-node:focus .nw-g use{fill:var(--tape)}
-.nw-node[data-on] .nw-g{color:var(--tape-deep)}
-.nw-node[data-on] .nw-g use{fill:var(--tape)}
+.nw-node:hover .nw-g,.nw-node:focus .nw-g{color:var(--accent-ink)}
+.nw-node:hover .nw-g use,.nw-node:focus .nw-g use{fill:var(--accent)}
+.nw-node[data-on] .nw-g{color:var(--accent-ink)}
+.nw-node[data-on] .nw-g use{fill:var(--accent)}
 .nw-node:focus{outline:none}
-.nw-node:focus .nw-hit{stroke:var(--tape-deep);stroke-width:2;fill:none}
+.nw-node:focus .nw-hit{stroke:var(--accent-ink);stroke-width:2;fill:none}
 .nw-name{font-family:var(--f-data);font-size:8.2px;font-weight:700;letter-spacing:.13em;fill:var(--ink);text-transform:uppercase;pointer-events:none}
 .nw-trailname{font-family:var(--f-data);font-size:9px;font-weight:700;letter-spacing:.22em;fill:var(--ink-2);text-transform:uppercase;pointer-events:none}
 .nw-trailname--hand{font-family:var(--f-hand);font-size:15px;font-weight:700;letter-spacing:0;fill:var(--ink);text-transform:none}
@@ -191,15 +228,15 @@ svg.netmap{width:100%;height:auto;display:block}
 .rd-n{font-family:var(--f-read);font-weight:700;font-size:1.2rem;line-height:1.16;margin:6px 0 0}
 .rd-m{font-family:var(--f-data);font-size:.59rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2);margin:8px 0 0;line-height:1.9}
 .rd-s{display:flex;align-items:baseline;gap:9px;margin-top:13px;padding-top:12px;border-top:var(--w-rule) solid var(--ink)}
-.rd-s b{font-family:var(--f-disp);font-weight:900;font-style:italic;font-size:2.2rem;line-height:.9;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.rd-s b{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);font-size:2.2rem;line-height:.9;letter-spacing:var(--f-disp-track);font-variant-numeric:tabular-nums}
 .rd-s span{font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
-.rd-go{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--tape-deep);text-decoration:none;border-bottom:2px solid var(--tape);padding-bottom:3px}
+.rd-go{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-ink);text-decoration:none;border-bottom:2px solid var(--accent-ink);padding-bottom:3px}
 .rd-go:hover{color:var(--ink);border-bottom-color:var(--ink)}
 .key{margin-top:auto;padding-top:16px;border-top:var(--w-hair) solid var(--crease);display:flex;flex-direction:column;gap:7px}
 .key-h{font-family:var(--f-hand);font-weight:700;font-size:.98rem;margin:0 0 3px;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
 .key-i{display:flex;flex-wrap:wrap;align-items:center;gap:9px;font-family:var(--f-data);font-size:.56rem;font-weight:500;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-2)}
 .key-i .glyph{flex:none;font-size:.95rem;color:var(--ink)}
-.key-i i.dot{display:block;width:15px;height:0;border-top:2.6px dotted var(--tape-deep);flex:none}
+.key-i i.dot{display:block;width:15px;height:0;border-top:2.6px dotted var(--accent-ink);flex:none}
 .key-i i.dash{display:block;width:15px;height:0;border-top:1.6px dashed var(--ink-3);flex:none}
 
 /* ── stats + rows ──────────────────────────────────────────── */
@@ -207,7 +244,7 @@ svg.netmap{width:100%;height:auto;display:block}
 .stat b{font-variant-numeric:tabular-nums}
 .stat{padding:15px 14px;border-right:var(--w-hair) solid var(--crease)}
 .stat:last-child{border-right:0}
-.stat b{display:block;font-family:var(--f-disp);font-weight:900;font-style:italic;font-size:1.7rem;line-height:1;letter-spacing:-.02em}
+.stat b{display:block;font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);font-size:1.7rem;line-height:1;letter-spacing:var(--f-disp-track)}
 .stat span{display:block;margin-top:5px;font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
 
 .rows{display:flex;flex-direction:column}
@@ -227,11 +264,11 @@ svg.netmap{width:100%;height:auto;display:block}
 .rmeta{display:block;font-family:var(--f-data);font-size:.59rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin-top:3px}
 .tier{font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.12em;padding:3px 7px;border:var(--w-rule) solid var(--ink);white-space:nowrap}
 .tier.t1{background:var(--c-t1-bg);color:var(--c-t1-fg);border-color:var(--c-t1-bg)}
-.sc{font-family:var(--f-disp);font-weight:900;font-style:italic;font-size:1.26rem;letter-spacing:-.02em;font-variant-numeric:tabular-nums;min-width:2.2ch;text-align:right}
+.sc{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);font-size:1.26rem;letter-spacing:var(--f-disp-track);font-variant-numeric:tabular-nums;min-width:2.2ch;text-align:right}
 
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0}
 .filter{font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:9px 13px;border:var(--w-rule) solid var(--ink);background:none;min-height:40px;cursor:pointer}
-.filter.on{background:var(--tape);border-color:var(--tape);color:#0a2a33}
+.filter.on{background:var(--accent);border-color:var(--accent);color:var(--accent-on)}
 .search{width:100%;padding:14px;border:var(--w-frame) solid var(--ink);background:var(--paper-lit);font-family:var(--f-data);font-size:.78rem;letter-spacing:.1em;color:var(--ink-2);margin-top:22px}
 
 /* ── race sheet (Someone's Copy) ───────────────────────────── */
@@ -244,8 +281,8 @@ svg.netmap{width:100%;height:auto;display:block}
     none}
 .sheet::after{content:"";position:absolute;right:0;bottom:0;width:38px;height:38px;
   background:linear-gradient(135deg,transparent 50%,var(--paper-deep) 50%);border-left:1px solid var(--crease);border-top:1px solid var(--crease)}
-.tack{position:absolute;top:-18px;left:-16px;width:56px;height:50px;color:var(--tape)}
-.stamp{position:absolute;right:32px;top:30px;transform:rotate(8deg);border:2.5px solid var(--tape-deep);color:var(--tape-deep);padding:8px 12px 7px;text-align:center;opacity:.86}
+.tack{position:absolute;top:-18px;left:-16px;width:56px;height:50px;color:var(--accent)}
+.stamp{position:absolute;right:32px;top:30px;transform:rotate(8deg);border:2.5px solid var(--accent-ink);color:var(--accent-ink);padding:8px 12px 7px;text-align:center;opacity:.86}
 .stamp b{display:block;font-family:var(--f-data);font-size:.64rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;line-height:1.2}
 .stamp span{display:block;margin-top:2px;font-family:var(--f-data);font-size:.51rem;font-weight:700;letter-spacing:.14em}
 .stamp.none{border-style:dashed;border-color:var(--ink-3);color:var(--ink-3);opacity:.9}
@@ -263,7 +300,7 @@ svg.netmap{width:100%;height:auto;display:block}
 .plate .tick{stroke:var(--ink);stroke-width:1.5}
 .plate .chev{fill:none;stroke:var(--ink);stroke-width:1.5;stroke-linecap:round}
 .plate .mk{fill:var(--ink)}
-.plate .mk-hi{fill:var(--tape-deep)}
+.plate .mk-hi{fill:var(--accent-ink)}
 .plate .lbl{font-family:var(--f-data);font-size:7.4px;font-weight:700;letter-spacing:.16em;fill:var(--ink-2);text-transform:uppercase}
 .plate .lbl-hand{font-family:var(--f-hand);font-size:12px;font-weight:700;fill:var(--ink)}
 .plate-cap{margin:9px 0 0;font-family:var(--f-data);font-size:.55rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-2);line-height:1.7}
@@ -305,7 +342,7 @@ svg.netmap{width:100%;height:auto;display:block}
 /* ladder band */
 .band{background:var(--c-band);color:var(--paper-lit);margin-top:52px}
 .band .wrap{padding-top:34px;padding-bottom:36px}
-.band h2{font-family:var(--f-disp);font-weight:900;font-style:italic;text-transform:uppercase;font-size:1.5rem;letter-spacing:-.015em;margin:0 0 20px}
+.band h2{font-family:var(--f-disp-fam);font-weight:var(--f-disp-weight);font-style:var(--f-disp-style);text-transform:uppercase;font-size:1.5rem;letter-spacing:var(--f-disp-track);margin:0 0 20px}
 .rungs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:14px}
 .rungcard{background:rgba(255,255,255,.055);border-top:5px solid var(--c-rung);padding:16px 16px 18px}
 .rungcard b{display:block;font-family:var(--f-data);font-size:.57rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--c-rung)}
@@ -370,6 +407,11 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
 
 <div class="dials">
   <div class="wrap">
+    <div class="dial"><b>Palette</b><div class="seg" role="group" aria-label="Palette">
+      <button data-dial="palette" data-v="paper" aria-pressed="true">Paper</button>
+      <button data-dial="palette" data-v="amundsen" aria-pressed="false">Amundsen</button>
+      <button data-dial="palette" data-v="ralph" aria-pressed="false">Ralph</button>
+    </div></div>
     <div class="dial"><b>Colour</b><div class="seg" role="group" aria-label="Colour">
       <button data-dial="color" data-v="ink" aria-pressed="true">Ink only</button>
       <button data-dial="color" data-v="signage" aria-pressed="false">Signage</button>
@@ -392,10 +434,10 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
     </div></div>
     <div class="presets">
       <span>Presets</span>
-      <button data-preset="ink,std,std,std">As approved</button>
-      <button class="rec" data-preset="full,dense,std,heavy">The Sheet</button>
-      <button data-preset="ink,open,clean,hair">Gallery</button>
-      <button data-preset="full,dense,photo,heavy">Turned up</button>
+      <button data-preset="paper,ink,std,std,std">As approved</button>
+      <button class="rec" data-preset="paper,full,dense,std,heavy">The Sheet</button>
+      <button data-preset="ralph,signage,open,clean,hair">Ralph</button>
+      <button data-preset="amundsen,full,dense,photo,heavy">Amundsen</button>
     </div>
   </div>
 </div>
@@ -608,7 +650,7 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
       <div class="racehead">
         <div>
           <p class="kick">Worldloppet &#183; Grand Classic &#183; since 1932</p>
-          <h1 class="big" style="font-size:clamp(1.9rem,4.6vw,2.9rem)">Birkebeiner-<br>rennet</h1>
+          <h1 class="big" style="font-size:clamp(1.8rem,4.4vw,2.7rem)">Birkebeiner-<br>rennet</h1>
           <p class="tagline">Fifty-four kilometres from Rena to Lillehammer, carrying 3.5 kilos over the mountain, as
           the Birkebeiner warriors did with a child eight hundred years ago.</p>
           <div class="chips">
@@ -685,7 +727,7 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
       <div class="racehead">
         <div>
           <p class="kick">Swiss Loppet &#183; Bern, Switzerland</p>
-          <h1 class="big" style="font-size:clamp(1.9rem,4.6vw,2.9rem)">Gantrisch<br>Loppet</h1>
+          <h1 class="big" style="font-size:clamp(1.8rem,4.4vw,2.7rem)">Gantrisch<br>Loppet</h1>
           <p class="tagline">Compact freestyle skiing in the pre-Alpine Gantrisch nature park, an hour south of Bern,
           with the Bernese Alps on the skyline.</p>
           <div class="chips">
@@ -736,15 +778,15 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
 
   /* ── dials ── */
   var root = document.documentElement;
-  var DIALS = ['color','space','tex','rule'];
+  var DIALS = ['palette','color','space','tex','rule'];
   function setDial(dial, value){
     root.setAttribute('data-' + dial, value);
     document.querySelectorAll('[data-dial="' + dial + '"]').forEach(function(b){
       b.setAttribute('aria-pressed', b.dataset.v === value ? 'true' : 'false');
     });
   }
-  DIALS.forEach(function(d){ root.setAttribute('data-' + d, d === 'color' ? 'ink' : 'std'); });
-  root.setAttribute('data-color','ink');
+  var DEFAULTS = { palette:'paper', color:'ink', space:'std', tex:'std', rule:'std' };
+  DIALS.forEach(function(d){ setDial(d, DEFAULTS[d]); });
   document.querySelectorAll('[data-dial]').forEach(function(b){
     b.addEventListener('click', function(){ setDial(b.dataset.dial, b.dataset.v); });
   });
