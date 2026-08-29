@@ -353,8 +353,7 @@ def sync_training():
 
 
 def sync_coaching():
-    """Upload the coaching landing page (/coaching/) and intake form
-    (/coaching/apply/) to SiteGround.
+    """Upload coaching landing, intake, and welcome pages to SiteGround.
 
     Uses the same scp-per-file, count-successes pattern as sync_search()
     (repo pitfall #35: fail on partial deploys — return success ==
@@ -379,6 +378,12 @@ def sync_coaching():
             f"{remote_base}/coaching/apply/index.html",
             "wordpress/generate_coaching_apply.py",
         ),
+        (
+            PROJECT_ROOT / "output" / "coaching" / "welcome" / "index.html",
+            f"{remote_base}/coaching/welcome",
+            f"{remote_base}/coaching/welcome/index.html",
+            "wordpress/generate_coaching_welcome.py",
+        ),
     ]
 
     missing = [(local, gen) for local, _, _, gen in files if not local.exists()]
@@ -399,7 +404,7 @@ def sync_coaching():
             success += 1
 
     if success == len(files):
-        print("  Deployed coaching landing page (/coaching/) and intake form (/coaching/apply/)")
+        print("  Deployed coaching landing, intake, and welcome pages")
         return True
 
     print(f"  FAILED: partial coaching deploy {success}/{len(files)} files")
@@ -798,7 +803,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--sync-coaching", action="store_true",
-        help="Upload coaching landing page (/coaching/) and intake form (/coaching/apply/)"
+        help="Upload coaching landing, intake, and post-payment welcome pages"
     )
     parser.add_argument(
         "--sync-consulting", action="store_true",

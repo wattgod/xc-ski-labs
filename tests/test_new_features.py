@@ -511,10 +511,12 @@ class TestPrivacyAndMethodologyPages:
     def test_privacy_page_has_policy_content(self):
         html = _load_page("privacy/index.html")
         assert "Privacy Policy" in html
-        assert "FormSubmit" in html
-        assert "Effective date: July 2026" in html
-        assert "Analytics is active by default" in html
-        assert "disables analytics on subsequent page views" in html
+        assert "SignWell" in html
+        assert "Railway" in html
+        assert "FormSubmit" not in html
+        assert "Effective date: August 26, 2026" in html
+        assert "Browser analytics follows the consent setting" in html
+        assert "Declining analytics does not affect your use" in html
         assert "Information stored in your browser" in html
         assert "including health, injury, and medication information" in html
         assert "not transmitted to us until you submit" in html
@@ -548,9 +550,48 @@ class TestCoachingForm:
         html = _load_page("coaching/apply/index.html")
         assert "noindex" in html, "Coaching form missing noindex meta"
 
-    def test_form_action_is_formsubmit(self):
+    def test_form_posts_json_to_shared_intake_worker(self):
         html = _load_page("coaching/apply/index.html")
-        assert "formsubmit.co" in html, "Form action not FormSubmit.co"
+        assert "https://coaching-intake.gravelgodcoaching.workers.dev" in html
+        assert "formsubmit.co" not in html.lower()
+        assert "Content-Type': 'application/json" in html
+
+    def test_shared_offer_selector(self):
+        html = _load_page("coaching/apply/index.html")
+        for value, label in (("min", "Min"), ("mid", "Mid"), ("max", "Max")):
+            assert f'<option value="{value}">{label}</option>' in html
+        assert 'name="tier"' in html
+        assert "TrainingPeaks Premium is included" in html
+        assert "new URLSearchParams(window.location.search).get('tier')" in html
+
+    def test_stable_submission_id_and_retryable_failure(self):
+        html = _load_page("coaching/apply/index.html")
+        assert "coaching_intake_submission_id" in html
+        assert "crypto.randomUUID" in html
+        assert "result.success" in html
+        assert "Your answers are still saved" in html
+        assert "localStorage.removeItem(STORAGE_KEY)" in html
+        assert "coaching_apply_started" in html
+        assert "coaching_apply_submitted" in html
+        assert "coaching_apply_error" in html
+
+    def test_submission_preserves_consent_mode_state(self):
+        html = _load_page("coaching/apply/index.html")
+        assert "analyticsConsentState" in html
+        assert "xl_consent=accepted" in html
+        assert "? 'granted'" in html
+        assert ": 'denied'" in html
+        assert "data.analytics_consent = analyticsConsentState()" in html
+
+    def test_low_friction_onboarding_context_is_collected(self):
+        html = _load_page("coaching/apply/index.html")
+        for field in (
+                'date_of_birth', 'home_location', 'desired_start_date',
+                'preferred_contact_channel', 'trainingpeaks_connection_status',
+                'home_timezone'):
+            assert f'name="{field}"' in html
+        assert "Intl.DateTimeFormat().resolvedOptions().timeZone" in html
+        assert 'id="home_timezone" required' not in html
 
     def test_required_fields_enforced(self):
         """Name and email must be required."""
@@ -561,8 +602,11 @@ class TestCoachingForm:
     def test_input_validation_bounds(self):
         """Numeric inputs must have min/max bounds."""
         html = _load_page("coaching/apply/index.html")
-        assert 'min="16"' in html, "Age field missing min=16"
+        assert 'min="13"' in html, "Age field missing supported teen minimum"
         assert 'max="100"' in html, "Age field missing max=100"
+        for field in ('guardian_name', 'guardian_email', 'guardian_relationship'):
+            assert f'name="{field}"' in html
+        assert 'separate consent step' in html
         assert 'min="30"' in html, "Weight field missing min=30"
 
     def test_double_submit_protection(self):
@@ -578,10 +622,9 @@ class TestCoachingForm:
             "localStorage error is still silent — no user feedback"
 
     def test_redirect_after_submit(self):
-        """Form must redirect to success page, not generic FormSubmit page."""
+        """Form must redirect only after the intake API accepts the case."""
         html = _load_page("coaching/apply/index.html")
-        assert "_next" in html or "submitted=true" in html, \
-            "No redirect configured — user sees generic FormSubmit page"
+        assert "window.location.replace('/coaching/apply/?submitted=true')" in html
 
     def test_privacy_notice(self):
         """Must have privacy policy link before submit."""

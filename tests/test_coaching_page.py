@@ -3,7 +3,7 @@
 XC Ski Labs — Tests for the /coaching/ landing page ("The Dossier")
 
 Covers wordpress/generate_coaching.py: hero, five numbered terms, three
-service tiers (monthly billing, no setup fee), fit check, seven-item
+service tiers (four-week billing, shared setup terms), fit check, seven-item
 FAQ, dark application close, mobile sticky CTA, GA4 + consent, and the
 nav retarget from /coaching/apply/ to /coaching/ across the site.
 
@@ -249,13 +249,13 @@ class TestTiers:
         assert "Mid" in tiers
         assert "Max" in tiers
 
-    def test_prices_and_monthly_interval(self):
+    def test_prices_and_four_week_interval(self):
         tiers = build_tiers()
         assert "$199" in tiers
         assert "$299" in tiers
         assert "$1,200" in tiers
-        assert tiers.count("/ MONTH") == 3
-        assert "/ 4 WEEKS" not in tiers
+        assert tiers.count("/ 4 WEEKS") == 3
+        assert "/ MONTH" not in tiers
 
     def test_get_started_links(self):
         tiers = build_tiers()
@@ -264,14 +264,16 @@ class TestTiers:
         assert f"{APPLY_URL}?tier=mid" in tiers
         assert f"{APPLY_URL}?tier=max" in tiers
 
-    def test_no_setup_fee(self, coaching_html):
-        assert "setup fee" not in coaching_html.lower()
-        assert "$99" not in coaching_html
+    def test_shared_platform_and_setup_terms(self, coaching_html):
+        assert "TrainingPeaks Premium is included" in coaching_html
+        assert "one-time $99 setup fee" in coaching_html
+        assert "NOSETUP" not in coaching_html
+        assert "privately, case by case" in coaching_html
 
     def test_disclaimer(self):
         tiers = build_tiers()
         assert "skipped workouts" in tiers
-        assert "24 hours" in tiers
+        assert "two business days" in tiers
 
     def test_min_tier_features(self):
         tiers = build_tiers()
@@ -365,11 +367,11 @@ class TestFAQ:
         assert "$99 setup fee" not in f
         assert "setup fee" not in f.lower()
 
-    def test_cancel_anytime_says_monthly_cycle(self):
+    def test_cancel_anytime_says_four_week_cycle(self):
         f = build_faq()
         assert "Can I cancel anytime?" in f
-        assert "monthly cycle" in f
-        assert "4-week cycle" not in f
+        assert "renews every four weeks" in f
+        assert "monthly cycle" not in f
 
     def test_accordion_aria(self):
         f = build_faq()
@@ -395,7 +397,7 @@ class TestClose:
         c = build_close()
         assert "Ten minutes of honest answers. I read every one myself." in c
         assert (
-            "You&rsquo;ll hear from me within 48 hours &mdash; including "
+            "You&rsquo;ll usually hear from me within two business days &mdash; including "
             "if I don&rsquo;t think coaching is what you need." in c
         )
 
@@ -600,6 +602,6 @@ class TestSiteWideNavRetarget:
         html = self._generated("index.html")
         assert 'class="gl-rung-btn apply" href="/coaching/apply/">Apply</a>' in html
 
-    def test_apply_form_redirect_unchanged(self):
+    def test_apply_form_redirects_after_worker_success(self):
         html = self._generated("coaching/apply/index.html")
-        assert 'value="https://xcskilabs.com/coaching/apply/?submitted=true"' in html
+        assert "window.location.replace('/coaching/apply/?submitted=true')" in html

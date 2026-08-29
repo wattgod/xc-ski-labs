@@ -6,9 +6,10 @@ Generates the public /coaching/ landing page: hero, five numbered terms
 of engagement, three service tiers, a fit check, FAQ, and a dark
 application close. Structure and copy mirror the Roadie Labs "Dossier"
 coaching page (road-race-automation/wordpress/generate_coaching.py)
-verbatim except for XC-specific swaps: monthly billing (not 4-week),
-no setup fee, watch/ski-erg language in place of trainer/head-unit,
-and no coaching@ contact line (no verified mailbox on this domain yet).
+with XC-specific watch/ski-erg language in place of trainer/head-unit copy.
+The core commercial contract stays aligned across the three Endurance Labs
+verticals: four-week billing, TrainingPeaks Premium included, and the shared
+setup-fee waiver path.
 
 Self-contained HTML matching this repo's convention (see
 wordpress/generate_coaching_apply.py): tokens.css embedded, nav/footer/
@@ -850,7 +851,7 @@ def build_tiers() -> str:
       <div class="gl-coach-tiers">
         <div class="gl-coach-tier-col">
           <div class="gl-coach-tier-name">Min</div>
-          <div class="gl-coach-tier-price">$199<span class="gl-coach-tier-interval">/ MONTH</span></div>
+          <div class="gl-coach-tier-price">$199<span class="gl-coach-tier-interval">/ 4 WEEKS</span></div>
           <p class="gl-coach-tier-desc">The plan, plus a weekly check of your training. For athletes who execute on their own and want the thinking done right.</p>
           <ul class="gl-coach-tier-list">
             <li>Weekly training review</li>
@@ -864,7 +865,7 @@ def build_tiers() -> str:
         </div>
         <div class="gl-coach-tier-col">
           <div class="gl-coach-tier-name">Mid</div>
-          <div class="gl-coach-tier-price">$299<span class="gl-coach-tier-interval">/ MONTH</span></div>
+          <div class="gl-coach-tier-price">$299<span class="gl-coach-tier-interval">/ 4 WEEKS</span></div>
           <p class="gl-coach-tier-desc">The plan, watched. Someone reads the data between sessions and adjusts the same week life changes. Most athletes belong here.</p>
           <ul class="gl-coach-tier-list">
             <li>Everything in Min</li>
@@ -878,7 +879,7 @@ def build_tiers() -> str:
         </div>
         <div class="gl-coach-tier-col">
           <div class="gl-coach-tier-name">Max</div>
-          <div class="gl-coach-tier-price">$1,200<span class="gl-coach-tier-interval">/ MONTH</span></div>
+          <div class="gl-coach-tier-price">$1,200<span class="gl-coach-tier-interval">/ 4 WEEKS</span></div>
           <p class="gl-coach-tier-desc">Everything, daily. For the race where you want nothing left to chance.</p>
           <ul class="gl-coach-tier-list">
             <li>Everything in Mid</li>
@@ -891,7 +892,8 @@ def build_tiers() -> str:
           <a href="{APPLY_URL}?tier=max" class="gl-coach-tier-cta">GET STARTED</a>
         </div>
       </div>
-      <p class="gl-coach-tier-disclaimer">Coaching doesn&rsquo;t fix skipped workouts or feedback you don&rsquo;t act on. If this isn&rsquo;t a fit, I&rsquo;ll tell you within 24 hours.</p>
+      <p class="gl-coach-tier-disclaimer">Coaching doesn&rsquo;t fix skipped workouts or feedback you don&rsquo;t act on. I review applications and usually reply within two business days &mdash; including when I don&rsquo;t think coaching is the right fit.</p>
+      <p class="gl-coach-tier-disclaimer">TrainingPeaks Premium is included with every tier. Checkout includes a one-time $99 setup fee for intake analysis and your first plan build. Any waiver is offered privately, case by case.</p>
     </div>
   </section>'''
 
@@ -952,7 +954,7 @@ def build_faq() -> str:
         ),
         (
             "Can I cancel anytime?",
-            "Yes. No contracts, no cancellation fees. Your coaching access continues through the end of your current monthly cycle.",
+            "Yes. There is no long-term commitment. Coaching renews every four weeks; cancel before the next renewal and your access continues through the paid cycle. There is no cancellation fee.",
         ),
     ]
 
@@ -984,7 +986,7 @@ def build_close() -> str:
     <div class="gl-coach-inner">
       <div class="gl-coach-final">
         <p class="gl-coach-final-kicker">APPLICATION</p>
-        <p class="gl-coach-final-hook">Ten minutes of honest answers. I read every one myself. You&rsquo;ll hear from me within 48 hours &mdash; including if I don&rsquo;t think coaching is what you need.</p>
+        <p class="gl-coach-final-hook">Ten minutes of honest answers. I read every one myself. You&rsquo;ll usually hear from me within two business days &mdash; including if I don&rsquo;t think coaching is what you need.</p>
         <a href="{APPLY_URL}" class="gl-coach-final-cta">GET ME IN YOUR CORNER &rarr;</a>
       </div>
     </div>

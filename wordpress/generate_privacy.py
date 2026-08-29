@@ -12,7 +12,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
-EFFECTIVE_DATE = "July 2026"
+EFFECTIVE_DATE = "August 26, 2026"
 
 
 def esc(value: str) -> str:
@@ -81,7 +81,7 @@ def generate_html() -> str:
 
   <section class="gl-section">
     <h2 class="gl-section-title">Cookies and analytics</h2>
-    <p>XC Ski Labs uses cookies to remember your analytics choice and Google Analytics to understand site traffic. Analytics is active by default. You can decline analytics at any time through the site&rsquo;s consent banner; this disables analytics on subsequent page views. Declining analytics does not affect your use of the site.</p>
+    <p>XC Ski Labs uses cookies to remember your analytics choice and Google Analytics to understand site traffic. Browser analytics follows the consent setting shown on the site. The coaching backend sends a purchase event only when that same preserved analytics-consent state is granted. That event uses a synthetic per-order client identifier and commerce metadata; it does not include name, email, health data, questionnaire text, or full payment information. Declining analytics does not affect your use of the site.</p>
   </section>
 
   <section class="gl-section">
@@ -91,18 +91,19 @@ def generate_html() -> str:
 
   <section class="gl-section">
     <h2 class="gl-section-title">Service providers and sharing</h2>
-    <p>We use service providers to operate the site and process requests, including Google Analytics for analytics and FormSubmit for form delivery. If a subscription form links to Substack, Substack processes the information submitted through that form under its own privacy policy.</p>
+    <p>We use Cloudflare for web delivery, the intake edge, security, and logs; Railway for the private onboarding backend and persistent case storage; SignWell for electronic signatures and signed records; Stripe for recurring billing and payment metadata; TrainingPeaks for training history, workouts, calendar delivery, comments, and Premium account linkage; Google for Analytics, email, booking, and related workspace operations; Resend for transactional email; SiteGround for hosting; and AI service providers for assisted summarization, drafting, classification, and plan or review preparation with human approval. If a subscription form links to Substack, Substack processes that information under its own privacy policy.</p>
     <p>We do not sell personal information. We may disclose information when required by law, to protect our rights or safety, or in connection with a business transfer.</p>
   </section>
 
   <section class="gl-section">
     <h2 class="gl-section-title">Retention and security</h2>
-    <p>We retain personal information only for as long as reasonably necessary for the purposes described in this policy, including service delivery, recordkeeping, and legal obligations. No online system is completely secure; please do not submit information you are not comfortable providing electronically.</p>
+    <p>Unaccepted intake cases are retained for up to 24 months; active coaching records for the coaching relationship plus 3 years; signed agreements, consent receipts, and payment or tax records for 7 years after termination or a longer legally required period; and routine application or security logs for 90 days unless an incident requires preservation. Deletion requests remain subject to legal, tax, safety, dispute, and backup limits.</p>
+    <p>We use restricted access, encrypted provider transport and storage where available, strong authentication, secret management, audit logs, data minimization, and synthetic production tests. No online system is completely secure.</p>
   </section>
 
   <section class="gl-section">
     <h2 class="gl-section-title">Your choices</h2>
-    <p>You may request access to, correction of, or deletion of personal information we hold about you, subject to applicable law and recordkeeping requirements. You may also decline analytics cookies using the consent banner.</p>
+    <p>You may request access to, correction or deletion of, or a portable copy of personal information we hold about you, subject to identity verification, applicable law, and recordkeeping requirements. You may also decline analytics cookies using the consent banner.</p>
   </section>
 
   <section class="gl-section">

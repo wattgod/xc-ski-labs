@@ -29,12 +29,8 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
 
-TOTAL_SECTIONS = 12
-# FormSubmit alias for gravelgodcoaching@gmail.com (the one mailbox Matti reads; the alias
-# keeps the address out of the HTML). coaching@xcskilabs.com was never a real mailbox and
-# the form was never FormSubmit-activated, so submissions vanished. Activated Jul 18 2026.
-FORM_ACTION = "https://formsubmit.co/97279e3477a42fb94b02e94f92ec236c"
-FORM_SUBJECT = "New Coaching Application \u2014 XC Ski Labs"
+TOTAL_SECTIONS = 13
+COACHING_INTAKE_WORKER_URL = "https://coaching-intake.gravelgodcoaching.workers.dev"
 
 
 # ── Helpers ────────────────────────────────────────────────────
@@ -926,12 +922,44 @@ def build_section_basic_info() -> str:
       {_text_field("name", "Full Name", required=True, placeholder="First Last")}
       {_text_field("email", "Email Address", required=True, field_type="email", placeholder="you@example.com")}
     </div>
+    <div class="gl-field-row">
+      {_text_field("date_of_birth", "Date of Birth", field_type="date", hint="Optional. Used for age-group context and birthday reminders.")}
+      {_text_field("home_location", "Home Location", placeholder="City, state/province, country", hint="Used for climate, altitude, daylight, and travel context.")}
+    </div>
+    <div class="gl-field-row">
+      {_text_field("desired_start_date", "When do you want coaching to start?", field_type="date")}
+      {_select_field("preferred_contact_channel", "Best place for time-sensitive coaching messages", [
+          ("email", "Email"),
+          ("trainingpeaks", "TrainingPeaks"),
+          ("text", "Text / Messages"),
+      ])}
+    </div>
+    {_select_field("trainingpeaks_connection_status", "Are you already attached to my TrainingPeaks coaching account?", [
+        ("attached", "Yes"),
+        ("not_attached", "No"),
+        ("not_sure", "Not sure"),
+        ("no_account", "I do not have a TrainingPeaks account yet"),
+    ], hint="This prevents duplicate setup instructions; I still verify the connection before releasing your plan.")}
     <div class="gl-field-row-3">
-      {_text_field("age", "Age", field_type="number", placeholder="e.g. 35", extra_attrs='min="16" max="100"')}
+      {_text_field("age", "Age", field_type="number", placeholder="e.g. 35", extra_attrs='min="13" max="100"')}
       {_select_field("sex", "Sex", [("M", "Male"), ("F", "Female"), ("Other", "Other / Prefer not to say")])}
       {_text_field("weight", "Weight (kg)", field_type="number", placeholder="e.g. 72", hint="Used for power-to-weight calculations", extra_attrs='min="30" max="200"')}
     </div>
     {_text_field("height", "Height (cm)", field_type="number", placeholder="e.g. 178", hint="Helps with equipment and pole-length recommendations", extra_attrs='min="100" max="230"')}
+    <div class="gl-conditional" id="cond-guardian">
+      <div class="gl-field">
+        <label>For athletes under 18</label>
+        <div class="gl-hint">A parent or legal guardian must complete the separate consent step before coaching can start.</div>
+      </div>
+      <div class="gl-field-row">
+        {_text_field("guardian_name", "Parent / Guardian Full Name")}
+        {_text_field("guardian_email", "Parent / Guardian Email", field_type="email")}
+      </div>
+      {_select_field("guardian_relationship", "Relationship to Athlete", [
+          ("parent", "Parent"),
+          ("legal_guardian", "Legal guardian"),
+      ])}
+    </div>
 """
     return build_section(1, "Basic Info", fields)
 
@@ -1228,6 +1256,26 @@ def build_progress_bar() -> str:
 </div>"""
 
 
+def build_tier_selector() -> str:
+    """Shared Min/Mid/Max offer selector with XC Ski Labs presentation."""
+    fields = _select_field(
+        "tier", "Coaching Tier",
+        [("min", "Min"), ("mid", "Mid"), ("max", "Max")],
+        required=True,
+        hint="TrainingPeaks Premium is included with coaching; it is not a tier name.",
+    )
+    return f"""
+<div class="gl-section" data-section="tier">
+  <div class="gl-section-header">
+    <span class="gl-section-num">PLAN</span>
+    <span class="gl-section-title">Coaching Tier</span>
+  </div>
+  <div class="gl-section-body">
+    {fields}
+  </div>
+</div>"""
+
+
 # ── Navigation ─────────────────────────────────────────────────
 
 def build_nav() -> str:
@@ -1309,6 +1357,58 @@ def build_form_js() -> str:
   var progressFill = document.getElementById('progressFill');
   var progressPct = document.getElementById('progressPct');
   var saveIndicator = document.getElementById('saveIndicator');
+  var COACHING_INTAKE_URL = '""" + COACHING_INTAKE_WORKER_URL + """';
+
+  function ga4(name, params) {
+    if (typeof gtag === 'function') gtag('event', name, params || {});
+  }
+
+  function analyticsConsentState() {
+    return /(^|; )xl_consent=accepted/.test(document.cookie)
+      ? 'granted'
+      : 'denied';
+  }
+  var applyStartedTracked = false;
+  function trackApplyStarted() {
+    if (applyStartedTracked) return;
+    applyStartedTracked = true;
+    ga4('coaching_apply_started', {
+      tier: (document.getElementById('tier') || {}).value || 'unknown'
+    });
+  }
+
+  function getSubmissionId() {
+    var key = 'coaching_intake_submission_id';
+    var existing = localStorage.getItem(key);
+    if (existing) return existing;
+    var id;
+    if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+      id = window.crypto.randomUUID();
+    } else {
+      id = '10000000-1000-4000-8000-100000000000'.replace(/[018]/g, function(c) {
+        return (c ^ window.crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16);
+      });
+    }
+    localStorage.setItem(key, id);
+    return id;
+  }
+
+  function initializeTier() {
+    var tier = new URLSearchParams(window.location.search).get('tier');
+    if (['min', 'mid', 'max'].indexOf(tier) !== -1) {
+      document.getElementById('tier').value = tier;
+    }
+  }
+
+  function initializeTimezone() {
+    var field = document.getElementById('home_timezone');
+    if (!field || field.value) return;
+    try {
+      field.value = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    } catch (_) {
+      field.value = '';
+    }
+  }
 
   // ── localStorage Save / Restore ─────────────────────────
 
@@ -1425,11 +1525,22 @@ def build_form_js() -> str:
         raceNameCond.classList.remove('visible');
       }
     }
+    var age = parseInt((document.getElementById('age') || {}).value, 10);
+    var guardianCond = document.getElementById('cond-guardian');
+    var isMinor = age >= 13 && age < 18;
+    if (guardianCond) {
+      guardianCond.classList.toggle('visible', isMinor);
+      var guardianFields = guardianCond.querySelectorAll('input, select');
+      for (var g = 0; g < guardianFields.length; g++) {
+        guardianFields[g].required = isMinor;
+      }
+    }
   }
 
   // ── Event Listeners ─────────────────────────────────────
 
   form.addEventListener('input', function() {
+    trackApplyStarted();
     saveFormData();
     updateProgress();
     updateConditionals();
@@ -1441,18 +1552,55 @@ def build_form_js() -> str:
     updateConditionals();
   });
 
-  // Double-submit protection and clear localStorage on submit
-  form.addEventListener('submit', function() {
-    localStorage.removeItem(STORAGE_KEY);
+  // Durable intake submission with double-submit protection.
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
     var btn = document.getElementById('submitBtn');
     if (btn) {
       btn.disabled = true;
       btn.textContent = 'SUBMITTING...';
-      setTimeout(function() {
+    }
+
+    var data = getFormData();
+    data.submission_id = getSubmissionId();
+    data.analytics_consent = analyticsConsentState();
+    var submittedAge = parseInt(data.age, 10);
+    if (submittedAge < 18 && (!data.guardian_name || !data.guardian_email || !data.guardian_relationship)) {
+      showToast('Please add your parent or legal guardian details.');
+      if (btn) {
         btn.disabled = false;
         btn.textContent = 'Submit Application';
-      }, 5000);
+      }
+      return;
     }
+    fetch(COACHING_INTAKE_URL, {
+      method: 'POST',
+      headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    }).then(function(response) {
+      return response.json().catch(function() { return {}; }).then(function(result) {
+        if (!response.ok || !result.success) {
+          throw new Error(result.error || 'Server returned ' + response.status);
+        }
+        return result;
+      });
+    }).then(function() {
+      localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem('coaching_intake_submission_id');
+      ga4('coaching_apply_submitted', {
+        tier: data.tier,
+        primary_goal: data.primary_goal,
+        transport_type: 'beacon'
+      });
+      window.location.replace('/coaching/apply/?submitted=true');
+    }).catch(function() {
+      ga4('coaching_apply_error', {stage: 'submit'});
+      showToast('Could not submit. Your answers are still saved — please try again.');
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = 'Submit Application';
+      }
+    });
   });
 
   // ── Toast ───────────────────────────────────────────────
@@ -1480,7 +1628,7 @@ def build_form_js() -> str:
 
     var successDiv = document.createElement('div');
     successDiv.className = 'gl-success-message';
-    successDiv.innerHTML = '<h2>Application Received</h2><p>Thank you for applying. We review applications within 48 hours and will reply by email.</p><a href="/">Back to Home</a>';
+    successDiv.innerHTML = '<h2>Application Received</h2><p>Check your email for confirmation. I will review your intake and send the next steps from there.</p><a href="/">Back to Home</a>';
     var page = document.querySelector('.gl-page');
     if (page) page.appendChild(successDiv);
     return;
@@ -1489,6 +1637,8 @@ def build_form_js() -> str:
   // ── Init ────────────────────────────────────────────────
 
   restoreFormData();
+  initializeTimezone();
+  initializeTier();
   updateProgress();
   updateConditionals();
 
@@ -1553,18 +1703,18 @@ def generate_page(output_dir: Path = None) -> Path:
     <p>Tell us about yourself, your skiing, and your goals. The more detail you provide, the better we can tailor your coaching experience. Your responses are saved automatically and will be here if you need to come back.</p>
   </div>
 
-  <form id="coachingForm" action="{esc(FORM_ACTION)}" method="POST">
-    <input type="hidden" name="_subject" value="{esc(FORM_SUBJECT)}">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="https://xcskilabs.com/coaching/apply/?submitted=true">
+  <form id="coachingForm">
+
+    <input type="hidden" name="home_timezone" id="home_timezone" value="">
+
+    {build_tier_selector()}
 
     {"".join(sections)}
 
     <div class="gl-submit-wrap">
-      <p class="gl-privacy-notice">By submitting this form, you agree to our <a href="/privacy/">Privacy Policy</a>. Your data is used solely for coaching purposes.</p>
+      <p class="gl-privacy-notice">Your answers, including health information you choose to provide, are processed to review and deliver coaching as described in our <a href="/privacy/">Privacy Policy</a>. Analytics is separately controlled by your privacy choice.</p>
       <button type="submit" class="gl-submit-btn" id="submitBtn">Submit Application</button>
-      <div class="gl-submit-note">We review applications within 48 hours and will reply by email.</div>
+      <div class="gl-submit-note">I review applications and usually reply within two business days.</div>
     </div>
   </form>
 
