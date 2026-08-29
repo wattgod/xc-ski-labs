@@ -57,14 +57,14 @@
    and accent; colour decides how much difficulty encoding rides
    on top. Every value below is contrast-checked against its own
    ground, not against paper. */
-:root[data-palette="amundsen"]{
+:root[data-dir="amundsen"]{
   /* Undyed wool, peat ink, madder-dyed accent. Expedition kit, not sportswear. */
   --paper:#e6e0d0; --paper-lit:#f1ecdf; --paper-deep:#d8d1bd;
   --ink:#23211c; --ink-2:#5b564b; --ink-3:#615c45; --crease:#c8c0aa; --pencil:#6a6250;
   --accent:#b06134; --accent-ink:#8a4520; --accent-on:#ffffff;
   --f-disp-style:normal; --f-disp-track:-.008em;
 }
-:root[data-palette="ralph"]{
+:root[data-dir="ralph"]{
   /* Oxford cream, navy-black ink, club red. Serif caps, no italic. */
   --paper:#efeae0; --paper-lit:#f8f5ee; --paper-deep:#e2dbcd;
   --ink:#17202e; --ink-2:#4e5a6c; --ink-3:#606875; --crease:#d3cec1; --pencil:#66707e;
@@ -73,12 +73,128 @@
   --f-disp-style:normal; --f-disp-weight:700; --f-disp-track:.06em;
 }
 /* difficulty encoding, re-tuned per world */
-:root[data-palette="amundsen"][data-color="signage"],
-:root[data-palette="amundsen"][data-color="full"]{ --c-easy:#4d5a44; --c-more:#2c5f7a }
-:root[data-palette="amundsen"][data-color="full"]{ --c-warn-bg:#8a4520; --c-warn-ic:#e8c37a }
-:root[data-palette="ralph"][data-color="signage"],
-:root[data-palette="ralph"][data-color="full"]{ --c-easy:#26543a; --c-more:#1b3a5c }
-:root[data-palette="ralph"][data-color="full"]{ --c-warn-bg:#8f2230; --c-warn-ic:#e8d9a8 }
+:root[data-dir="amundsen"][data-color="signage"],
+:root[data-dir="amundsen"][data-color="full"]{ --c-easy:#4d5a44; --c-more:#2c5f7a }
+:root[data-dir="amundsen"][data-color="full"]{ --c-warn-bg:#8a4520; --c-warn-ic:#e8c37a }
+:root[data-dir="ralph"][data-color="signage"],
+:root[data-dir="ralph"][data-color="full"]{ --c-easy:#26543a; --c-more:#1b3a5c }
+:root[data-dir="ralph"][data-color="full"]{ --c-warn-bg:#8f2230; --c-warn-ic:#e8d9a8 }
+
+/* ═══ DIRECTION — not a palette. A different idea of what a page is. ═══════
+   Paper     asymmetric, left-aligned, the network as hero. Cartographic.
+   Amundsen  THE LOG. A field record on ruled stock: numbered entries,
+             coordinates, a conditions form. Nothing is sold to you; it is
+             written down. Left rail of labels, right column of values.
+   Ralph     THE PLATE WALL. Centred axis, framed plates in a symmetric grid
+             like a trophy room, double rules, a monogram, a drop cap and
+             justified columns. Ornament is structural, not decorative.
+   ═════════════════════════════════════════════════════════════════════════ */
+
+/* ── AMUNDSEN · The Log ───────────────────────────────────── */
+:root[data-dir="amundsen"] .page{
+  background-image:repeating-linear-gradient(180deg,transparent 0 30px,rgba(35,33,28,.08) 30px 31px);
+  background-position:0 -1px;
+}
+/* a sheet is a separate piece of paper laid on the ledger — it covers the rules */
+:root[data-dir="amundsen"] .sheet,
+:root[data-dir="amundsen"] .netwrap,
+:root[data-dir="amundsen"] .band{background-color:var(--paper-lit)}
+:root[data-dir="amundsen"] .band{background-color:var(--c-band)}
+/* the record table sits on the ledger pitch, so its rows match it exactly */
+:root[data-dir="amundsen"] .log dt,
+:root[data-dir="amundsen"] .log dd{padding-top:6px;padding-bottom:5px;min-height:31px}
+[data-dir="amundsen"] .kick{letter-spacing:.3em;font-size:.58rem}
+[data-dir="amundsen"] h1.big{font-size:clamp(1.9rem,4.4vw,2.9rem);line-height:1.02}
+[data-dir="amundsen"] .deck{font-size:.98rem}
+/* the hero stops shouting and starts reporting */
+@media (min-width:861px){ [data-dir="amundsen"] .herorow{grid-template-columns:minmax(0,1fr) 420px} }
+[data-dir="amundsen"] .stats{border-top:none;border-bottom:none;grid-template-columns:1fr;gap:0}
+[data-dir="amundsen"] .stat{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:14px;
+  padding:5px 0;border-right:0;border-bottom:1px solid var(--crease)}
+[data-dir="amundsen"] .stat b{font-size:1.02rem;font-family:var(--f-data);font-style:normal;font-weight:700;order:2}
+[data-dir="amundsen"] .stat span{margin:0;order:1}
+/* every race is a numbered record */
+[data-dir="amundsen"] .rows{counter-reset:rec}
+[data-dir="amundsen"] .row{grid-template-columns:40px 30px 1fr auto auto;counter-increment:rec;align-items:baseline}
+[data-dir="amundsen"] .row::before{content:counter(rec,decimal-leading-zero);font-family:var(--f-data);
+  font-size:.62rem;font-weight:700;letter-spacing:.08em;color:var(--ink-3);font-variant-numeric:tabular-nums}
+[data-dir="amundsen"] .rname{font-family:var(--f-data);font-weight:700;font-size:.86rem;letter-spacing:.02em;text-transform:uppercase}
+[data-dir="amundsen"] .sc{font-family:var(--f-data);font-style:normal;font-weight:700;font-size:1rem;letter-spacing:.02em}
+[data-dir="amundsen"] .tier{border:0;padding:0;color:var(--ink-3)}
+/* the race page becomes a form someone filled in */
+[data-dir="amundsen"] .chips{display:none}
+[data-dir="amundsen"] .log{display:block}
+@media (min-width:901px){ [data-dir="amundsen"] .racehead{grid-template-columns:minmax(0,1fr) 340px} }
+[data-dir="amundsen"] .tagline{font-style:normal;font-family:var(--f-read);font-size:.99rem;max-width:52ch}
+[data-dir="amundsen"] .note::before{content:"Observations"}
+[data-dir="amundsen"] .note{border-width:0;border-top:var(--w-rule) solid var(--ink);border-bottom:var(--w-rule) solid var(--ink);
+  padding-left:0;padding-right:0;background:none}
+[data-dir="amundsen"] .note::before{left:0;background:var(--paper-lit)}
+[data-dir="amundsen"] .critrow{grid-template-columns:1fr auto auto;gap:14px}
+[data-dir="amundsen"] .sheet{box-shadow:none}
+[data-dir="amundsen"] .stamp{border-radius:0}
+
+/* ── RALPH · The Plate Wall ───────────────────────────────── */
+[data-dir="ralph"] .crest{display:block}
+[data-dir="ralph"] .wrap > .kick,
+[data-dir="ralph"] h1.big{text-align:center}
+[data-dir="ralph"] h1.big{font-size:clamp(2rem,5.6vw,4rem);line-height:1.04}
+[data-dir="ralph"] .herorow{grid-template-columns:1fr;justify-items:center;text-align:center;gap:26px}
+[data-dir="ralph"] .herorow .deck{max-width:52ch;text-align:center}
+[data-dir="ralph"] .herorow .cta{margin-left:auto;margin-right:auto}
+[data-dir="ralph"] .stats{max-width:760px;margin-left:auto;margin-right:auto;
+  border-top:4px double var(--ink);border-bottom:4px double var(--ink)}
+[data-dir="ralph"] .stat{text-align:center}
+/* section heads become centred rules with the name inset */
+[data-dir="ralph"] .trailhead{justify-content:center;border-bottom:0;position:relative;padding-bottom:0;margin-top:calc(var(--sp-sec) + 12px)}
+[data-dir="ralph"] .trailhead::before{content:"";position:absolute;left:0;right:0;top:50%;
+  border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);height:3px;z-index:0}
+[data-dir="ralph"] .trailhead > *{position:relative;z-index:1;background:var(--paper);padding:0 14px}
+[data-dir="ralph"] .trailhead .dist{margin-left:0}
+[data-dir="ralph"] .trailname{font-family:var(--f-disp-fam);font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:.92rem}
+/* the list becomes a wall of framed plates */
+[data-dir="ralph"] .rows{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(216px,100%),1fr));
+  gap:16px;margin-top:22px}
+[data-dir="ralph"] .row{display:block;text-align:center;border:var(--w-rule) solid var(--ink);
+  padding:20px 14px 16px;background:var(--paper-lit);position:relative}
+[data-dir="ralph"] .row::after{content:"";position:absolute;inset:5px;border:1px solid var(--crease);pointer-events:none}
+[data-dir="ralph"] .row:hover{background:var(--paper-deep)}
+[data-dir="ralph"] .row > *{display:block;margin:0 auto}
+[data-dir="ralph"] .diff{font-size:1.3rem;margin-bottom:10px}
+[data-dir="ralph"] .rname{font-family:var(--f-disp-fam);font-weight:700;text-transform:uppercase;
+  letter-spacing:.05em;font-size:.9rem;line-height:1.25}
+[data-dir="ralph"] .rmeta{margin-top:7px}
+[data-dir="ralph"] .sc{font-size:1.9rem;margin-top:12px;text-align:center}
+[data-dir="ralph"] .tier{margin-top:10px;width:fit-content;border-width:1px}
+/* the note is set as a column with a drop cap */
+[data-dir="ralph"] .racehead{grid-template-columns:1fr;text-align:center;justify-items:center}
+[data-dir="ralph"] .tagline{text-align:center;max-width:44ch}
+[data-dir="ralph"] .chips{justify-content:center}
+[data-dir="ralph"] .plate{padding-top:0;max-width:340px;width:100%}
+[data-dir="ralph"] .note{border:0;border-top:4px double var(--ink);border-bottom:4px double var(--ink);
+  padding:30px 0 26px;background:none}
+[data-dir="ralph"] .note::before{left:50%;transform:translateX(-50%);background:var(--paper-lit);content:"\2726"}
+[data-dir="ralph"] .note p{font-family:var(--f-read);font-size:1.02rem;max-width:none}
+[data-dir="ralph"] .note p:first-of-type::first-letter{float:left;font-family:var(--f-disp-fam);font-weight:700;
+  font-size:3.3em;line-height:.82;padding:.06em .1em 0 0;color:var(--ink)}
+[data-dir="ralph"] .note-by{justify-content:center}
+[data-dir="ralph"] .sources,[data-dir="ralph"] .gn-sign{justify-content:center}
+[data-dir="ralph"] .margin{margin-left:auto;margin-right:auto;transform:none;text-align:center;padding-left:0}
+[data-dir="ralph"] .margin::before{display:none}
+[data-dir="ralph"] .stamp{right:auto;left:50%;top:auto;bottom:-18px;transform:translateX(-50%) rotate(-2deg)}
+[data-dir="ralph"] .band h2{text-align:center}
+[data-dir="ralph"] .rungcard{text-align:center;border-top:0;border:1px solid rgba(255,255,255,.22)}
+[data-dir="ralph"] footer.site .wrap{justify-content:center;gap:26px}
+[data-dir="ralph"] .netwrap{border-width:var(--w-rule)}
+@media (max-width:640px){
+  [data-dir="ralph"] .rows{grid-template-columns:1fr}
+  [data-dir="amundsen"] .row{grid-template-columns:26px 22px 1fr auto;gap:8px}
+  [data-dir="amundsen"] .row .sc{grid-column:4}
+  [data-dir="amundsen"] .row .tier{grid-column:3;justify-self:start}
+  [data-dir="amundsen"] .log dl{grid-template-columns:1fr}
+  [data-dir="amundsen"] .log dt{border-bottom:0;padding-bottom:0}
+}
+
 /* ── colour ────────────────────────────────────────────────── */
 :root[data-color="signage"]{
   --c-easy:#2e7d4f; --c-more:#1668ad; --c-most:var(--ink); --c-expert:var(--ink);
@@ -148,6 +264,19 @@ a{color:inherit}
 
 
 /* ── dial rail (review chrome, not part of the design) ─────── */
+.crest{display:none;width:78px;height:78px;margin:0 auto 18px;color:var(--ink)}
+.crest text{font-family:var(--f-disp-fam);font-weight:700;letter-spacing:.02em}
+.log{display:none;margin:20px 0 0;border-top:var(--w-rule) solid var(--ink);border-bottom:var(--w-rule) solid var(--ink)}
+.log dl{display:grid;grid-template-columns:minmax(120px,auto) 1fr;gap:0;margin:0}
+.log dt{font-family:var(--f-data);font-size:.58rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase;
+  color:var(--ink-2);padding:7px 18px 7px 0;border-bottom:1px solid var(--crease)}
+.log dd{margin:0;font-family:var(--f-data);font-size:.72rem;font-weight:500;letter-spacing:.04em;
+  padding:7px 0;border-bottom:1px solid var(--crease);font-variant-numeric:tabular-nums}
+.log dd.unset{color:var(--ink-3)}
+.log dt:last-of-type,.log dd:last-of-type{border-bottom:0}
+.recno{display:none;font-family:var(--f-data);font-size:.6rem;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}
+[data-dir="amundsen"] .recno{display:block}
 .dials{background:#0e1013;color:#cfcabc;border-bottom:1px solid #2a2d33}
 .dials .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 26px;padding-top:11px;padding-bottom:12px}
 .dial{display:flex;align-items:center;gap:9px}
@@ -407,10 +536,10 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
 
 <div class="dials">
   <div class="wrap">
-    <div class="dial"><b>Palette</b><div class="seg" role="group" aria-label="Palette">
-      <button data-dial="palette" data-v="paper" aria-pressed="true">Paper</button>
-      <button data-dial="palette" data-v="amundsen" aria-pressed="false">Amundsen</button>
-      <button data-dial="palette" data-v="ralph" aria-pressed="false">Ralph</button>
+    <div class="dial"><b>Direction</b><div class="seg" role="group" aria-label="Direction">
+      <button data-dial="dir" data-v="paper" aria-pressed="true">Paper</button>
+      <button data-dial="dir" data-v="amundsen" aria-pressed="false">Amundsen</button>
+      <button data-dial="dir" data-v="ralph" aria-pressed="false">Ralph</button>
     </div></div>
     <div class="dial"><b>Colour</b><div class="seg" role="group" aria-label="Colour">
       <button data-dial="color" data-v="ink" aria-pressed="true">Ink only</button>
@@ -455,6 +584,13 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
 <!-- ══════════════ HOMEPAGE ══════════════ -->
 <main class="page" id="p-home" role="tabpanel" aria-labelledby="t-home">
   <div class="wrap" style="padding-top:var(--sp-page)">
+      <svg class="crest" viewBox="0 0 78 78" role="img" aria-label="XC Ski Labs monogram">
+        <circle cx="39" cy="39" r="37" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="39" cy="39" r="32" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M39 13 41.5 22 39 20.5 36.5 22Z" fill="currentColor"/>
+        <text x="39" y="46" text-anchor="middle" font-size="19" fill="currentColor">XSL</text>
+        <path d="M22 56h34" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
     <p class="kick">229 races &#183; 14 criteria &#183; 30 countries</p>
     <h1 class="big">Every loppet,<br>rated.</h1>
     <div class="herorow">
@@ -549,6 +685,13 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
 <!-- ══════════════ DATABASE ══════════════ -->
 <main class="page" id="p-db" role="tabpanel" aria-labelledby="t-db" hidden>
   <div class="wrap" style="padding-top:var(--sp-page)">
+      <svg class="crest" viewBox="0 0 78 78" role="img" aria-label="XC Ski Labs monogram">
+        <circle cx="39" cy="39" r="37" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="39" cy="39" r="32" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M39 13 41.5 22 39 20.5 36.5 22Z" fill="currentColor"/>
+        <text x="39" y="46" text-anchor="middle" font-size="19" fill="currentColor">XSL</text>
+        <path d="M22 56h34" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
     <p class="kick">The database</p>
     <h1 class="big">229 races,<br>one scale.</h1>
     <input class="search" type="search" value="Search by name, country, distance or series" aria-label="Search races">
@@ -649,6 +792,7 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
 
       <div class="racehead">
         <div>
+          <p class="recno">Record 048 &#183; surveyed 14 &#183; 03 &#183; 2026</p>
           <p class="kick">Worldloppet &#183; Grand Classic &#183; since 1932</p>
           <h1 class="big" style="font-size:clamp(1.8rem,4.4vw,2.7rem)">Birkebeiner-<br>rennet</h1>
           <p class="tagline">Fifty-four kilometres from Rena to Lillehammer, carrying 3.5 kilos over the mountain, as
@@ -657,6 +801,21 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
             <span class="chip">54 km</span><span class="chip">Classic</span><span class="chip">1,050 m</span>
             <span class="chip">10,000 starters</span><span class="chip">&minus;12 to 0 &deg;C</span>
           </div>
+          <div class="log">
+            <dl>
+              <dt>Record</dt><dd>048 of 229</dd>
+              <dt>Position</dt><dd>61.1153 N, 10.4663 E</dd>
+              <dt>Route</dt><dd>Rena to Lillehammer, point to point</dd>
+              <dt>Distance</dt><dd>54 km, classic</dd>
+              <dt>Ascent</dt><dd>1,050 m &#183; high point 900 m</dd>
+              <dt>Field</dt><dd>10,000 starters</dd>
+              <dt>Race-day temp</dt><dd>&minus;12 to 0 &deg;C</dd>
+              <dt>Cutoff</dt><dd>8 h 30 m</dd>
+              <dt>First held</dt><dd>1932</dd>
+              <dt>Surveyed</dt><dd>14 March 2026, on skis</dd>
+            </dl>
+          </div>
+
         </div>
         <div class="plate">
           <svg viewBox="0 0 300 200" role="img" aria-label="Course drawing: Rena at 240 metres climbing to the Birkebeiner ridge at 900 metres, then descending to Lillehammer. Two feed stations marked.">
@@ -726,6 +885,7 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
       <div class="stamp none"><b>Not visited</b><span>Desk-checked only</span></div>
       <div class="racehead">
         <div>
+          <p class="recno">Record 170 &#183; not visited</p>
           <p class="kick">Swiss Loppet &#183; Bern, Switzerland</p>
           <h1 class="big" style="font-size:clamp(1.8rem,4.4vw,2.7rem)">Gantrisch<br>Loppet</h1>
           <p class="tagline">Compact freestyle skiing in the pre-Alpine Gantrisch nature park, an hour south of Bern,
@@ -778,14 +938,14 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-bet
 
   /* ── dials ── */
   var root = document.documentElement;
-  var DIALS = ['palette','color','space','tex','rule'];
+  var DIALS = ['dir','color','space','tex','rule'];
   function setDial(dial, value){
     root.setAttribute('data-' + dial, value);
     document.querySelectorAll('[data-dial="' + dial + '"]').forEach(function(b){
       b.setAttribute('aria-pressed', b.dataset.v === value ? 'true' : 'false');
     });
   }
-  var DEFAULTS = { palette:'paper', color:'ink', space:'std', tex:'std', rule:'std' };
+  var DEFAULTS = { dir:'paper', color:'ink', space:'std', tex:'std', rule:'std' };
   DIALS.forEach(function(d){ setDial(d, DEFAULTS[d]); });
   document.querySelectorAll('[data-dial]').forEach(function(b){
     b.addEventListener('click', function(){ setDial(b.dataset.dial, b.dataset.v); });
