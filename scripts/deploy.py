@@ -617,6 +617,12 @@ def sync_llms(output_dir=None):
     out_dir = Path(output_dir) if output_dir else PROJECT_ROOT / "output"
     remote_base = get_remote_base()
 
+    # /llms.txt is left chmod 444 on the server (see re-lock below) so a
+    # server-side regenerator (AIOSEO) fails instead of clobbering our
+    # content — same defense Gravel God runs. Unlock before our own upload.
+    _ssh_run(host, user, port,
+             f"chmod 644 {remote_base}/llms.txt 2>/dev/null || true")
+
     import indexnow_ping
     files = [
         (out_dir / "llms.txt", f"{remote_base}/llms.txt"),
@@ -638,7 +644,12 @@ def sync_llms(output_dir=None):
             success += 1
 
     if success == len(files):
-        print("  Deployed llms.txt + llms-full.txt + IndexNow key file to site root")
+        # RE-LOCK: read-only is what actually keeps our content live —
+        # nginx serves the physical file, so a writable llms.txt gets
+        # displaced by the next server-side regeneration.
+        _ssh_run(host, user, port,
+                 f"chmod 444 {remote_base}/llms.txt 2>/dev/null")
+        print("  Deployed llms.txt + llms-full.txt + IndexNow key file to site root (llms.txt locked 444)")
         return True
 
     print(f"  FAILED: partial llms deploy {success}/{len(files)} files")
