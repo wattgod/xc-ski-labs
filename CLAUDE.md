@@ -44,7 +44,7 @@ Modeled after Gravel God (`gravel-race-automation`). Same deploy pattern (tar+ss
 - **Search UI**: `web/nordic-lab-search.html` + `web/nordic-lab-search.js`
 - **Search index**: `web/race-index.json`
 - **Output**: `output/` (generated, gitignored)
-- **Scripts**: `scripts/generate_race_pages.py`, `scripts/generate_race_index.py`, `scripts/generate_homepage.py`, `scripts/generate_sitemap.py`
+- **Scripts**: `scripts/generate_race_pages.py`, `scripts/generate_prep_kit.py`, `scripts/generate_race_index.py`, `scripts/generate_homepage.py`, `scripts/generate_sitemap.py`
 - **Deploy**: `scripts/deploy.py`, `scripts/preflight.py`
 - **Tests**: `tests/test_race_profiles.py` (parametrized per-profile), `tests/test_generators.py`, `tests/test_youtube.py`
 
@@ -139,6 +139,7 @@ python scripts/qc_new_profiles.py --slug my-race --dry-run # schema only, no API
 # Full regeneration pipeline
 python scripts/generate_race_index.py          # web/race-index.json
 python scripts/generate_race_pages.py           # output/{slug}/index.html
+python scripts/generate_prep_kit.py             # output/{slug}/prep-kit/index.html (preflight requires one per profile)
 python scripts/generate_homepage.py             # output/index.html
 python scripts/generate_sitemap.py              # output/sitemap.xml
 cp web/nordic-lab-search.html output/search/index.html
@@ -160,6 +161,7 @@ pytest tests/ -v
 
 ## Website Pages (generated)
 - **Race pages**: 229 (`output/{slug}/index.html`) — with GA4, consent, nav, sticky CTA, training section
+- **Prep kits**: 229 (`output/{slug}/prep-kit/index.html`) — linked from the race-page gate and day-0 kit emails
 - **Training plans**: `output/training-plans/index.html` — pricing from `data/stripe-products.json`
 - **Coaching form**: `output/coaching/apply/index.html` — 12-section intake, FormSubmit.co
 - **Homepage**: `output/index.html`

@@ -54,7 +54,7 @@ To move something between lanes, edit one row there — that's the whole policy 
 
 ```bash
 python3 scripts/immune_check.py            # fast, offline: data + index + duplicates + money-path wiring
-python3 scripts/immune_check.py --regen     # regenerate output/ first, then also pages/branding/homepage
+python3 scripts/immune_check.py --regen     # regenerate output/ (pages, prep kits, homepage) first, then also pages/branding/homepage
 python3 scripts/immune_check.py --live       # also hit production for dead money-path / 404s
 python3 scripts/immune_check.py --json        # machine JSON (what the nightly agent reads)
 python3 scripts/immune_check.py --fail-on red # CI mode: only fail the build on a true emergency
@@ -62,7 +62,10 @@ python3 scripts/immune_check.py --fail-on red # CI mode: only fail the build on 
 
 It reuses your existing, battle-tested `preflight.py` and `check_links.py` — it
 does not reinvent them. It writes `immune/report.json` (latest full result) and
-appends a run record to `immune/ledger.jsonl`. **It never edits, commits, or deploys.**
+appends a `type:"scan"` run record to `immune/scans.jsonl` (both gitignored — they
+churn every run; `send_digest.py` reads the streak from there). The tracked
+`immune/ledger.jsonl` only ever gains `type:"fix"` records. **It never edits,
+commits, or deploys.**
 
 ---
 
@@ -98,11 +101,15 @@ Subject: 🩺 Immune report — <date> (<N> need you)
 
 ## The ledger — why the same mistake can't sneak back
 
-`immune/ledger.jsonl` is the memory. Two record types:
-- `type:"scan"` — every run's counts (the health history / streak).
+`immune/ledger.jsonl` is the memory. It holds one record type:
 - `type:"fix"` — a resolved issue: what broke, root cause, the fix, and crucially
   **`regression_check`** — the exact check in `immune_check.py` that now fails if
   it recurs.
+
+Per-run `type:"scan"` records (every run's counts — the health history / streak)
+are deliberately kept out of the tracked ledger so routine scans don't churn git;
+they go to the gitignored `immune/scans.jsonl` (see `write_outputs()` in
+`immune_check.py`).
 
 The rule that makes it an immune system, not a diary: **every fix must name a
 regression_check.** If a new class of bug appears that no check would catch, the

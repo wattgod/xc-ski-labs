@@ -13,7 +13,8 @@ This is the "immune system's" senses. It does three things and NOTHING else:
         YELLOW (needs you)  judgment — a fix is proposed, but a human approves
         RED    (issue only) unsafe to auto-fix — money path / security / systemic
   3. REPORT   — write immune/report.json, append a run record to
-                immune/ledger.jsonl, and print a human digest.
+                immune/scans.jsonl (gitignored telemetry), and print a human
+                digest. immune/ledger.jsonl is the tracked FIX log only.
 
 IMPORTANT: this script never edits data, commits, or deploys. It is the *verifier*
 the nightly repair loop checks its candidate fixes against — the Karpathy rule:
@@ -22,8 +23,9 @@ anything new red. Anything else becomes a PR (YELLOW) or an issue (RED).
 
 Usage:
     python3 scripts/immune_check.py            # fast, offline: data + index checks
-    python3 scripts/immune_check.py --regen     # regenerate output/ first, then also
-                                                #   check pages / branding / homepage
+    python3 scripts/immune_check.py --regen     # regenerate output/ (pages + prep kits +
+                                                #   homepage) first, then also check
+                                                #   pages / branding / homepage
     python3 scripts/immune_check.py --live       # also run the live money-path / 404 check
     python3 scripts/immune_check.py --json        # print machine JSON only (for the agent)
 
@@ -80,6 +82,7 @@ class Finding:
 # confidently classify.
 REGEN_INDEX = "python3 scripts/generate_race_index.py"
 REGEN_PAGES = "python3 scripts/generate_race_pages.py"
+REGEN_PREPKIT = "python3 scripts/generate_prep_kit.py"
 REGEN_HOME = "python3 scripts/generate_homepage.py"
 NORMALIZE = "python3 scripts/normalize_profiles.py"
 
@@ -91,6 +94,11 @@ RULES: list[tuple[str, str, str, str, str, str | None]] = [
     (r"Output has \d+ pages|output/ directory not found|Homepage missing",
      "pages-stale", GREEN, "high",
      "Generated pages are stale/missing — regenerate output/.", REGEN_PAGES),
+    (r"Missing \d+ prep-kit pages",
+     "prep-kit-pages-stale", GREEN, "high",
+     "Prep-kit pages are missing from output/ — regenerate them (deterministic from "
+     "race-data, like the race pages). Distinct from prep-kit-missing, which is a "
+     "live 404.", REGEN_PREPKIT),
     (r"Search not in output/search|will need to copy before deploy",
      "search-not-in-output", GREEN, "low",
      "Search deploys straight from web/ via deploy.py sync_search() — informational, "
@@ -344,13 +352,16 @@ def run_live_link_check() -> list[Finding]:
         shown = sorted(set(challenged))
         findings.append(Finding(
             "live-check-challenged", YELLOW, "low", "Live Check Challenged by WAF",
-            f"{len(shown)} URLs unverifiable behind SiteGround's bot challenge "
-            f"(HTTP 202) after backoff retries: " + " ".join(shown[:12])
+            f"{len(shown)} URLs unverifiable after backoff retries (SiteGround bot "
+            f"challenge, HTTP 202, or a connection timeout/reset under WAF pressure): "
+            + " ".join(shown[:12])
             + (f" (+{len(shown) - 12} more)" if len(shown) > 12 else ""),
-            "The scanner tripped SiteGround's bot protection, so these URLs could not "
-            "be verified this run — an inconclusive scan, not an outage (Roadie Labs "
-            "2026-07-22: 18 false money-path-404/dead-link findings were exactly "
-            "this). Re-run later; investigate only if it persists across days.",
+            "The scanner tripped SiteGround's bot protection (or had its connections "
+            "stalled/dropped by it), so these URLs could not be verified this run — an "
+            "inconclusive scan, not an outage (Roadie Labs 2026-07-22: 18 false "
+            "money-path-404/dead-link findings were exactly this; #12: one ERR "
+            "dead-link was a timeout). Re-run later; investigate only if it persists "
+            "across days.",
             None, "check_links"))
     for status, url in dead:
         money = "/questionnaire/" in url or "/coaching/" in url
@@ -521,7 +532,7 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.regen:
-        for cmd in (REGEN_INDEX, REGEN_PAGES, REGEN_HOME):
+        for cmd in (REGEN_INDEX, REGEN_PAGES, REGEN_PREPKIT, REGEN_HOME):
             subprocess.run(cmd.split(), cwd=PROJECT_ROOT, check=False,
                            stdout=subprocess.DEVNULL)
 

@@ -1,7 +1,9 @@
 {
-  "accepted_at": "2026-07-27T17:51:35Z",
+  "accepted_at": "2026-09-04T00:00:00Z",
   "brand": "xc-ski-labs",
   "fingerprints": [
+    "live-check-challenged",
+    "prep-kit-check-blocked",
     "search-not-in-output::Search not in output/search/ \u2014 will need to copy before deploy"
   ]
 }
