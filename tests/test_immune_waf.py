@@ -4,12 +4,22 @@ findings that were all HTTP 202 bot-challenge responses).
 
 Covers: challenge classification, retry budget, checker exit semantics, and
 immune_check's parsing of the checker's output (including crash handling).
+
+Also (#12) connection-level failures under WAF pressure — timeout / reset /
+SSL / URLError — which must be retried and reported as inconclusive, never as
+dead links; and (#15) the bounded worker pool's shared retry budget.
 """
 
 from __future__ import annotations
 
+import http.client
 import io
+import re
+import socket
+import ssl
 import sys
+import threading
+import time
 import urllib.error
 from pathlib import Path
 from types import SimpleNamespace
@@ -96,6 +106,163 @@ def test_incident_pattern_fits_subprocess_timeout():
     """18 persistently challenged URLs (the Jul 22 pattern) must not be able
     to sleep past immune_check's 900s subprocess timeout."""
     assert check_links.CHALLENGE_RETRY_BUDGET + 300 < 900
+
+
+# ── Connection-level failures are inconclusive, not dead (#12) ───────────────
+# 2026-08-31: `ERR https://xcskilabs.com/race/stafettvasan/` was reported as a
+# dead-link while 242 sibling URLs were WAF-challenged in the same run; the
+# URL curled 202 three times. fetch_once's bare `except Exception` had turned a
+# socket timeout into status 0 / not-challenged, skipping the retry budget.
+@pytest.mark.parametrize("exc", [
+    socket.timeout("timed out"),
+    TimeoutError("timed out"),
+    ConnectionResetError(54, "Connection reset by peer"),
+    ssl.SSLError(1, "SSL handshake failed"),
+    urllib.error.URLError("[Errno 8] nodename nor servname provided"),
+    http.client.RemoteDisconnected("Remote end closed connection without response"),
+    http.client.IncompleteRead(b""),
+], ids=lambda e: type(e).__name__)
+def test_transport_failure_is_inconclusive_not_dead(monkeypatch, exc):
+    def raise_it(req, timeout=15):
+        raise exc
+    monkeypatch.setattr(check_links.urllib.request, "urlopen", raise_it)
+    status, _, inconclusive = check_links.fetch_once("https://xcskilabs.com/race/stafettvasan/")
+    assert status == 0 and inconclusive
+
+
+def test_non_transport_exception_is_still_dead(monkeypatch):
+    """A failure that is NOT the network (e.g. a malformed URL) stays a real
+    ERR/dead result — only transport noise was reclassified."""
+    def raise_it(req, timeout=15):
+        raise ValueError("unknown url type")
+    monkeypatch.setattr(check_links.urllib.request, "urlopen", raise_it)
+    status, _, inconclusive = check_links.fetch_once("https://xcskilabs.com/x/")
+    assert status == 0 and not inconclusive
+
+
+def test_socket_timeout_is_retried_then_recovers(monkeypatch):
+    """A socket.timeout on the first attempt draws from CHALLENGE_BACKOFF and the
+    retry's clean 200 is the final answer."""
+    sleeps: list[float] = []
+    monkeypatch.setattr(check_links.time, "sleep", sleeps.append)
+    monkeypatch.setattr(check_links, "_challenge_budget", check_links.CHALLENGE_RETRY_BUDGET)
+    attempts = iter([socket.timeout("timed out"), FakeResponse(200, body=b"<html></html>")])
+
+    def urlopen(req, timeout=15):
+        result = next(attempts)
+        if isinstance(result, Exception):
+            raise result
+        return result
+    monkeypatch.setattr(check_links.urllib.request, "urlopen", urlopen)
+    status, _, inconclusive = check_links.fetch("https://xcskilabs.com/race/stafettvasan/")
+    assert status == 200 and not inconclusive
+    assert sleeps == [check_links.CHALLENGE_BACKOFF[0]]
+
+
+def _run_main(monkeypatch, urlopen, seeded: set[str]):
+    """Drive check_links.main() offline: no sitemap/generator/race-data reads,
+    a fake urlopen, no real sleeping, a fresh retry budget, default workers."""
+    monkeypatch.setattr(check_links, "load_sitemap_urls", lambda delay: (seeded, "local", None))
+    monkeypatch.setattr(check_links, "extract_generator_hrefs", lambda: set())
+    monkeypatch.setattr(check_links, "race_sample_from_sitemap", lambda urls, n: [])
+    monkeypatch.setattr(check_links.time, "sleep", lambda s: None)
+    monkeypatch.setattr(check_links, "_challenge_budget", check_links.CHALLENGE_RETRY_BUDGET)
+    monkeypatch.setattr(check_links.urllib.request, "urlopen", urlopen)
+    monkeypatch.setattr(sys, "argv", ["check_links.py", "--race-sample-size", "0", "--delay", "0"])
+    return check_links.main()
+
+
+def test_persistent_timeout_lands_in_waf_block_not_dead(monkeypatch, capsys):
+    """End to end: a URL that times out on every attempt is printed as ERR in
+    the WAF-CHALLENGED block (rc 2), never under DEAD LINKS (rc 1), and
+    immune_check reads it as live-check-challenged, not dead-link."""
+    flaky = "https://xcskilabs.com/race/stafettvasan/"
+
+    def urlopen(req, timeout=15):
+        if req.full_url == flaky:
+            raise socket.timeout("timed out")
+        return FakeResponse(200, body=b"<html></html>")
+    rc = _run_main(monkeypatch, urlopen, {flaky})
+    out = capsys.readouterr().out
+    assert rc == 2
+    assert "DEAD LINKS" not in out
+    assert re.search(r"^\s+ERR\s+" + re.escape(flaky) + r"$", out, re.M), out
+    findings = parse(monkeypatch, out, rc)
+    assert [f.code for f in findings] == ["live-check-challenged"]
+    assert flaky in findings[0].detail
+
+
+def test_real_404_is_still_dead_with_worker_pool(monkeypatch, capsys):
+    """The pool must not change classification: an HTTPError 404 is a dead link."""
+    gone = "https://xcskilabs.com/race/gone/"
+
+    def urlopen(req, timeout=15):
+        if req.full_url == gone:
+            raise urllib.error.HTTPError(gone, 404, "Not Found", {}, io.BytesIO(b""))
+        return FakeResponse(200, body=b"<html></html>")
+    rc = _run_main(monkeypatch, urlopen, {gone})
+    out = capsys.readouterr().out
+    assert rc == 1
+    assert re.search(r"^\s+404\s+" + re.escape(gone) + r"$", out, re.M), out
+    findings = parse(monkeypatch, out, rc)
+    assert [f.code for f in findings] == ["dead-link"]
+
+
+# ── Concurrent budget accounting (#15) ───────────────────────────────────────
+def test_concurrent_budget_never_goes_negative(monkeypatch):
+    """Workers hitting persistent challenges simultaneously share ONE retry
+    budget. The locked check-and-decrement must refuse most of them once the
+    budget is short, and the sum of reserved sleeps must equal what left the
+    budget — never overspend, never go negative."""
+    n_workers = 16
+    start_budget = 100          # < 16 * 20: most first retries must be refused
+    real_sleep = time.sleep     # captured BEFORE patching (check_links.time is the time module)
+    reserved: list[int] = []
+    reserved_lock = threading.Lock()
+
+    def fake_sleep(pause):
+        with reserved_lock:
+            reserved.append(pause)
+        real_sleep(0.005)       # yield so the workers actually interleave
+    monkeypatch.setattr(check_links.time, "sleep", fake_sleep)
+    monkeypatch.setattr(check_links, "fetch_once", lambda url, timeout=15: (202, "", True))
+    monkeypatch.setattr(check_links, "_challenge_budget", start_budget)
+
+    barrier = threading.Barrier(n_workers)
+
+    def worker(i: int):
+        barrier.wait()
+        check_links.fetch(f"https://xcskilabs.com/{i}/")
+    threads = [threading.Thread(target=worker, args=(i,)) for i in range(n_workers)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+
+    assert check_links._challenge_budget >= 0
+    assert sum(reserved) <= start_budget
+    assert sum(reserved) == start_budget - check_links._challenge_budget
+    assert all(p in check_links.CHALLENGE_BACKOFF for p in reserved)
+
+
+def test_worst_case_wall_clock_fits_subprocess_timeout():
+    """Even if EVERY request burned its full socket timeout (site totally
+    unresponsive), the bounded pool + shared sleep budget keep a default scan
+    under immune_check's 900s subprocess budget. Serial worst-case terms:
+    sitemap fetch + its retries, the seed sample (one pool round), the main
+    loop rounds, the whole sleep budget spent serially, every budgeted retry
+    fetch timing out, and the per-request jitter."""
+    t = check_links.DEFAULT_TIMEOUT
+    rounds = -(-check_links.DEFAULT_MAX_URLS // check_links.DEFAULT_WORKERS)
+    retries = check_links.CHALLENGE_RETRY_BUDGET // min(check_links.CHALLENGE_BACKOFF)
+    jitter = check_links.DEFAULT_MAX_URLS * 1.5 * check_links.DEFAULT_DELAY / check_links.DEFAULT_WORKERS
+    worst = (t * (1 + len(check_links.CHALLENGE_BACKOFF))   # live sitemap + retries
+             + t                                           # seed sample round
+             + rounds * t                                  # main loop
+             + check_links.CHALLENGE_RETRY_BUDGET           # all backoff sleeps, serial
+             + retries * t                                 # every budgeted retry fetch
+             + jitter)
+    assert worst < 900, worst
 
 
 # ── immune_check parsing of checker output ───────────────────────────────────
