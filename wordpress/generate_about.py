@@ -86,7 +86,7 @@ a:focus-visible, button:focus-visible {
 .gl-skip-link:focus { top: 16px; }
 
 .gl-page {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   padding: 0 20px 80px;
 }
@@ -101,7 +101,7 @@ a:focus-visible, button:focus-visible {
   padding: 0 20px;
 }
 .gl-nav-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -298,7 +298,7 @@ a:focus-visible, button:focus-visible {
 }
 .gl-cookie-consent.visible { display: block; }
 .gl-cookie-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;

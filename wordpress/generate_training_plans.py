@@ -167,7 +167,7 @@ a:focus-visible, button:focus-visible {
 }
 
 .gl-page {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -183,7 +183,7 @@ a:focus-visible, button:focus-visible {
   padding: 0 20px;
 }
 .gl-nav-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -795,7 +795,7 @@ a:focus-visible, button:focus-visible {
 .xl-consent-banner.show { display: block; }
 
 .xl-consent-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;
