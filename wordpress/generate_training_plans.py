@@ -906,9 +906,8 @@ def build_plan_preview():
         race_options=races,
         questionnaire_url="/questionnaire/",
         heading=f"See a {race['name']} week before you buy.",
-        lede=("Choose your race and the week you actually have. The current "
-              "plan engine uses those constraints and the race's rated "
-              "demands to build a real calendar preview beside them."),
+        lede=("Choose your race and the week you actually have. See how those "
+              "constraints and the race's demands shape a calendar preview."),
     )
 
 
