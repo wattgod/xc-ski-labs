@@ -521,7 +521,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .gl-consult-cookie-consent.visible { display: block; }
 .gl-consult-cookie-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;

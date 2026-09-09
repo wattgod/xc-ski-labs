@@ -665,7 +665,7 @@ a:focus-visible, button:focus-visible {
 }
 .gl-coach-cookie-consent.visible { display: block; }
 .gl-coach-cookie-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;

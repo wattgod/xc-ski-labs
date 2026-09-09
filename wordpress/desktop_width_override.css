@@ -1,0 +1,36 @@
+/* XC Ski Labs desktop-width correction. Append as the final <head> style. */
+:root {
+  --gl-measure: 1200px;
+}
+
+.gl-nav-inner,
+.footer-inner,
+.gl-cookie-inner,
+.xl-consent-inner,
+.gl-coach-cookie-inner,
+.gl-consult-cookie-inner {
+  max-width: var(--gl-measure) !important;
+}
+
+main.gl-page#main,
+.gl-hero ~ .gl-page {
+  max-width: var(--gl-measure) !important;
+}
+
+.pk-nav-inner,
+.pk-wrap {
+  width: min(100% - 40px, var(--gl-measure)) !important;
+}
+
+@media (max-width: 640px) {
+  .tier-table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .pk-nav-inner,
+  .pk-wrap {
+    width: min(100% - 28px, var(--gl-measure)) !important;
+  }
+}

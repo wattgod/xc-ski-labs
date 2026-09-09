@@ -120,7 +120,7 @@ textarea:focus-visible {
   padding: 0 20px;
 }
 .gl-nav-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -398,7 +398,7 @@ textarea {
 }
 .gl-cookie-consent.visible { display: block; }
 .gl-cookie-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;

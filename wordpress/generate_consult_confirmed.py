@@ -394,7 +394,7 @@ a:focus-visible, button:focus-visible {
 }
 .gl-consult-cookie-consent.visible { display: block; }
 .gl-consult-cookie-inner {
-  max-width: 900px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;

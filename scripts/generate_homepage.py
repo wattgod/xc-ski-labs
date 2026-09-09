@@ -853,7 +853,7 @@ footer {{
 }}
 
 .footer-inner {{
-  max-width: 960px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -989,7 +989,7 @@ a:focus-visible, button:focus-visible {{
   z-index: 999;
 }}
 .gl-nav-inner {{
-  max-width: 960px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -1087,7 +1087,7 @@ a:focus-visible, button:focus-visible {{
 }}
 .gl-cookie-banner.show {{ display: block; }}
 .gl-cookie-inner {{
-  max-width: 960px;
+  max-width: var(--gl-measure);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -1134,6 +1134,7 @@ a:focus-visible, button:focus-visible {{
   .tier-table td:nth-child(3),
   .tier-table th:nth-child(4),
   .tier-table td:nth-child(4) {{ display: none; }}
+  .tier-table {{ display: block; max-width: 100%; overflow-x: auto; }}
   .footer-inner {{ flex-direction: column; text-align: center; }}
   .gl-nav-hamburger {{ display: block; }}
   .gl-nav-links {{
