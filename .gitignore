@@ -40,3 +40,6 @@ output/
 # Immune system — transient (report snapshot + scan telemetry). ledger.jsonl IS tracked.
 immune/report.json
 immune/scans.jsonl
+
+# Jev advisory audit reports (generated locally)
+data/jev/

@@ -29,3 +29,6 @@ tokens/             Design system tokens (CSS)
 ## Status
 
 Research phase. 100 race profiles created. Search UI functional.
+
+Optional Jev advisory audits use `TYPESAFE_API_KEY` when set; keep it in the
+environment and never commit its value.
