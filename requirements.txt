@@ -1,2 +1,3 @@
 # Nordic Race Automation dependencies
 # Add packages here as needed
+typesafe-sdk==0.5.7
