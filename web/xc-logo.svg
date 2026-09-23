@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
   <title id="title">XC Ski Labs</title>
-  <desc id="desc">A pair of Nordic skis with curved tips and bindings.</desc>
-  <rect width="240" height="240" fill="#202822"/>
-  <path d="M66 34 Q66 22 52 18 Q78 19 83 37 L83 209 Q74 220 65 209Z" fill="#fffdf6"/>
-  <path d="M157 34 Q157 22 143 18 Q169 19 174 37 L174 209 Q165 220 156 209Z" fill="#efc65f"/>
-  <path d="M65 141H83 M156 141H174 M65 170H83 M156 170H174" stroke="#202822" stroke-width="5"/>
-  <rect x="60" y="103" width="28" height="20" fill="#efc65f" stroke="#202822" stroke-width="3"/>
-  <rect x="151" y="103" width="28" height="20" fill="#fffdf6" stroke="#202822" stroke-width="3"/>
-  <path d="M73 46V97 M164 46V97" stroke="#202822" stroke-width="2"/>
-  <path d="M108 66 124 45 132 50 117 72Z" fill="#fffdf6"/>
-  <path d="M106 70 135 174" stroke="#fffdf6" stroke-width="4"/>
-  <path d="M132 68 109 174" stroke="#efc65f" stroke-width="4"/>
+  <desc id="desc">Two long, slim Nordic skis cross on a dark field, with curved tips and small binding marks.</desc>
+  <rect width="300" height="300" fill="#202822"/>
+  <g transform="translate(150 150)">
+    <g transform="rotate(-32)">
+      <path d="M-9 129V-108 C-9 -122 -14 -132 -22 -137 Q-10 -140 0 -133 C6 -128 9 -120 9 -108 V129 Q0 137 -9 129Z" fill="#f0e8d8"/>
+      <path d="M0 -111V104" stroke="#202822" stroke-width="1.8"/>
+      <path d="M-9 29H9 M-9 44H9" stroke="#202822" stroke-width="3"/>
+      <rect x="-6" y="23" width="12" height="8" fill="#a83d2d"/>
+    </g>
+    <g transform="rotate(32) scale(-1 1)">
+      <path d="M-9 129V-108 C-9 -122 -14 -132 -22 -137 Q-10 -140 0 -133 C6 -128 9 -120 9 -108 V129 Q0 137 -9 129Z" fill="#f0e8d8"/>
+      <path d="M0 -111V104" stroke="#202822" stroke-width="1.8"/>
+      <path d="M-9 29H9 M-9 44H9" stroke="#202822" stroke-width="3"/>
+      <rect x="-6" y="23" width="12" height="8" fill="#a83d2d"/>
+    </g>
+  </g>
 </svg>

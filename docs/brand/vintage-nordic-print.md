@@ -30,8 +30,8 @@ preferences and never animate the logo continuously.
 
 ## Marks
 
-`web/xc-logo.svg` is the compact mark: two Nordic skis with curved tips and
-bindings on a dark square. Pair it with the `XC SKI LABS` wordmark in site navigation. The
+`web/xc-logo.svg` is the compact mark: two long Nordic skis with curved tips
+and small binding cues, crossed on a dark square. Pair it with the `XC SKI LABS` wordmark in site navigation. The
 wordmark carries the accessible name; the adjacent image is decorative there.
 The standalone SVG contains its own accessible title and description.
 
