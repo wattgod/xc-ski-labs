@@ -1,18 +1,31 @@
-/* XC Ski Labs design tokens: Wax Bench */
+/* XC Ski Labs design tokens: 1970s Nordic print */
 :root {
-  --gl-paper: #f2f0eb;
-  --gl-carbon: #141414;
-  --gl-swix-red: #d3222a;
-  --gl-red-deep: #a8161d;
-  --gl-klister: #ffd200;
-  --gl-wax-green: #0a7d4f;
-  --gl-wax-blue: #1266b3;
-  --gl-wax-violet: #7a3f9d;
-  --gl-white: #ffffff;
-  --gl-hairline: #d8d4c8;
-  --gl-muted: #8b877c;
+  /* Warm stock, dark ink, and two restrained spot colors. */
+  --gl-paper: #f0e8d8;
+  --gl-ink: #202822;
+  --gl-rust: #a83d2d;
+  --gl-rust-deep: #81291f;
+  --gl-ochre: #efc65f;
+  --gl-slate: #315f70;
+  --gl-pine: #416348;
+  --gl-snow: #fffdf6;
+  --gl-rule: #c5bba7;
+  --gl-caption: #615d51;
+  --gl-caption-on-dark: #c9c4b3;
 
-  --gl-measure: 1200px;
+  /* Compatibility names used by existing page generators. */
+  --gl-carbon: var(--gl-ink);
+  --gl-swix-red: var(--gl-rust);
+  --gl-red-deep: var(--gl-rust-deep);
+  --gl-klister: var(--gl-ochre);
+  --gl-wax-green: var(--gl-pine);
+  --gl-wax-blue: var(--gl-slate);
+  --gl-wax-violet: #654a68;
+  --gl-white: var(--gl-snow);
+  --gl-hairline: var(--gl-rule);
+  --gl-muted: var(--gl-caption);
+
+  --gl-measure: 960px;
   --gl-prose: 66ch;
   --gl-space-1: 4px;
   --gl-space-2: 8px;
@@ -23,8 +36,34 @@
   --gl-space-7: 48px;
   --gl-space-8: 64px;
 
-  --gl-font-display: "Helvetica Neue", Arial, sans-serif;
+  --gl-font-display: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --gl-font-data: "Sometype Mono", ui-monospace, Menlo, monospace;
   --gl-font-editorial: "Source Serif 4", Georgia, serif;
-  --gl-font-ui: Inter, system-ui, sans-serif;
+  --gl-font-ui: Arial, system-ui, sans-serif;
+
+  --gl-rule-width: 3px;
+  --gl-motion-quick: 120ms;
+  --gl-motion-normal: 220ms;
+  --gl-motion-ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+/* Legacy --gl-muted is used on both stock and ink. Give dark modules their
+   own inherited value until those templates use explicit semantic tokens. */
+:where(.gl-nav, .gl-nav-header, .gl-coach-nav, .gl-hero, .hero,
+       .gl-ladder, .gl-cookie-banner, .gl-cookie-consent,
+       .gl-consult-cookie-consent, .gl-consult-footer, .gl-coach-footer,
+       .gl-footer) {
+  --gl-muted: var(--gl-caption-on-dark);
+}
+
+/* Shared wordmark sizing. Page templates supply their own nav colors. */
+.gl-nav-logo { display: inline-flex; align-items: center; gap: 9px; white-space: nowrap; }
+.gl-nav-logo .gl-brand-mark { display: block; width: 30px; height: 30px; flex: none; }
+.gl-nav-logo .gl-brand-mark svg { display: block; width: 100%; height: 100%; }
+.gl-nav-logo .gl-brand-name { font-family: var(--gl-font-display); font-weight: 900; font-style: normal; font-stretch: condensed; letter-spacing: -.025em; }
+.gl-nav-logo .gl-brand-name em { color: var(--gl-ochre); font-style: normal; }
+
+@media (max-width: 420px) {
+  .gl-nav-logo .gl-brand-mark { width: 26px; height: 26px; }
+  .gl-nav-logo .gl-brand-name { font-size: .92em; }
 }

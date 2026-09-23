@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">XC Ski Labs</title>
+  <desc id="desc">Two pairs of crossed Nordic ski tracks.</desc>
+  <rect width="64" height="64" fill="#202822"/>
+  <g fill="none" stroke-linecap="square" stroke-width="4">
+    <path d="M12 12 45 52M19 12 52 52" stroke="#fffdf6"/>
+    <path d="M52 12 19 52M45 12 12 52" stroke="#efc65f"/>
+  </g>
+</svg>

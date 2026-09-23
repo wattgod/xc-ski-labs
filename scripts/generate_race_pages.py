@@ -789,11 +789,11 @@ a {{ color: inherit; }}
   content: "";
   position: absolute;
   top: 0;
-  right: -72px;
+  right: 0;
   bottom: 0;
-  width: 340px;
-  background: repeating-linear-gradient(115deg, var(--gl-carbon) 0 26px, var(--gl-muted) 26px 27px, var(--gl-carbon) 27px 52px);
-  opacity: .35;
+  width: 28%;
+  background: var(--gl-rust-deep);
+  clip-path: polygon(24% 0, 100% 0, 100% 100%, 0 100%);
 }}
 
 .gl-hero-inner {{
@@ -836,7 +836,7 @@ a {{ color: inherit; }}
   font-family: var(--gl-font-display);
   font-size: clamp(3rem, 8vw, 5.9rem);
   font-weight: 900;
-  font-style: italic;
+  font-style: normal;
   line-height: .92;
   text-transform: uppercase;
   letter-spacing: 0;
@@ -1644,7 +1644,7 @@ def build_nav_header(active: str = "") -> str:
     return f"""
 <nav class="gl-nav">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS">XC SKI <em>LABS</em></a>
+    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
     <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
@@ -2903,6 +2903,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title}</title>

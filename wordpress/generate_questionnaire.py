@@ -470,7 +470,7 @@ gtag('config', 'G-3JQLSQLPPM');
 def build_nav() -> str:
     return """<nav class="gl-nav" aria-label="Primary">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo">XC SKI LABS</a>
+    <a href="/" class="gl-nav-logo"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
     <div class="gl-nav-links">
       <a href="/search/">Races</a>
       <a href="/guide/">Guide</a>
@@ -856,6 +856,7 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom Plan Intake | XC Ski Labs</title>

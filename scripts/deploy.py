@@ -218,7 +218,7 @@ def sync_pages(pages_dir=None):
 
 
 def sync_homepage(homepage_file=None):
-    """Upload homepage to site root as index.html."""
+    """Upload homepage and the shared brand mark to the site root."""
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -240,10 +240,17 @@ def sync_homepage(homepage_file=None):
         print(f"  Failed to create remote directory: {err}")
         return False
 
-    if _scp_upload(host, user, port, homepage, f"{remote_base}/index.html"):
-        print(f"  Deployed homepage to /")
-        return True
-    return False
+    logo = PROJECT_ROOT / "web" / "xc-logo.svg"
+    if not logo.exists():
+        print(f"  Logo not found: {logo}")
+        return False
+    if not _scp_upload(host, user, port, logo, f"{remote_base}/xc-logo.svg"):
+        return False
+    if not _scp_upload(host, user, port, homepage, f"{remote_base}/index.html"):
+        print("  FAILED: logo uploaded but homepage did not")
+        return False
+    print("  Deployed homepage and logo to /")
+    return True
 
 
 def sync_search():
