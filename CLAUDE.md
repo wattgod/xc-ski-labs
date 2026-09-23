@@ -85,9 +85,11 @@ d["race"]["history"]["founded"]
   — 90s Swix wax-box direction: paper `#f2f0eb`, carbon `#141414`, swix-red `#d3222a`,
   klister `#ffd200`, wax quartet (temperature data ONLY); display = system Helvetica/Arial
   900 italic caps; reference mock in `docs/brand/`. Read it before touching any visual.
-- NOTE: the LIVE site still runs the superseded "Nordic Night" cold-blue palette
-  (`#1a2332`/`#2b4c7e`, inline `:root` in generators) until the X10 port ships. Do not
-  extend Nordic Night; new surfaces follow BRAND_GUIDELINES.md.
+- STATUS: the Wax Bench port SHIPPED 2026-07-09 — `dd8cd33` (X10a: tokens + all 229 race
+  pages) and `531f3a5` (X10b: homepage, search, static pages). The superseded cold-blue
+  palette (`#1a2332`/`#2b4c7e`) is gone from the generators, which now read Wax Bench
+  tokens from `tokens/tokens.css`. Do not redo this port. Known residual: one favicon
+  data-URI in `wordpress/generate_training_plans.py` still hardcodes the old blue.
 - Neo-brutalist: no border-radius, no box-shadow
 - Fonts: Sometype Mono (data), Source Serif 4 (editorial); Inter (UI, being phased down)
 - Copy rule: never self-describe as honest — "rated", not "honestly rated"
