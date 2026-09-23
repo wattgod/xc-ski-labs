@@ -611,6 +611,8 @@ def build_css() -> str:
 
 *, *::before, *::after {{
   box-sizing: border-box;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }}
 
 html {{
