@@ -490,7 +490,12 @@ def render_course_plate(race: dict, profile: dict[str, Any]) -> str:
 
 
 def render_data_plate(race: dict) -> str:
-    """Tier B plate: abstract terrain with real profile scalars."""
+    """Tier B plate: real profile scalars set in type.
+
+    No course geometry is drawn here. Only tier A races have real GPX data
+    (see render_course_plate); inventing ridge lines or a route for tier B
+    would read as that race's elevation profile without being one.
+    """
     v = race.get("vitals", {})
     r = race.get("nordic_lab_rating", {})
     discipline = r.get("discipline", v.get("discipline", ""))
@@ -509,18 +514,10 @@ def render_data_plate(race: dict) -> str:
     for label, value in figures[:4]:
         figure_html += f'<text class="gl-plate-stat" x="24" y="{y}"><tspan>{esc(label.upper())}</tspan><tspan x="24" dy="21">{esc(value)}</tspan></text>'
         y += 46
-    route_label = distance or "ROUTE"
     return f"""
 <div class="gl-hero-plate" aria-hidden="true">
   <svg class="gl-art-plate gl-art-plate--data" viewBox="0 0 360 210" focusable="false">
     <path class="gl-plate-stripes" d="M0 0H360V210H0Z"/>
-    <path class="gl-plate-ridge" d="M146 56C182 28 205 76 236 48S291 63 334 34"/>
-    <path class="gl-plate-ridge gl-plate-ridge--quiet" d="M146 102C178 82 205 117 237 91S292 112 337 82"/>
-    <path class="gl-plate-ridge gl-plate-ridge--quiet" d="M146 150C184 128 206 168 238 139S294 164 337 132"/>
-    <rect class="gl-plate-square" x="154" y="170" width="12" height="12"/>
-    <rect class="gl-plate-square" x="324" y="88" width="12" height="12"/>
-    <path class="gl-plate-route" d="M166 176C206 158 220 118 250 112S295 101 324 94"/>
-    <text class="gl-plate-route-label" x="238" y="143">{esc(route_label)}</text>
     {figure_html}
   </svg>
 </div>
