@@ -490,7 +490,12 @@ def render_course_plate(race: dict, profile: dict[str, Any]) -> str:
 
 
 def render_data_plate(race: dict) -> str:
-    """Tier B plate: abstract terrain with real profile scalars."""
+    """Tier B plate: real profile scalars set in type.
+
+    No course geometry is drawn here. Only tier A races have real GPX data
+    (see render_course_plate); inventing ridge lines or a route for tier B
+    would read as that race's elevation profile without being one.
+    """
     v = race.get("vitals", {})
     r = race.get("nordic_lab_rating", {})
     discipline = r.get("discipline", v.get("discipline", ""))
@@ -509,18 +514,10 @@ def render_data_plate(race: dict) -> str:
     for label, value in figures[:4]:
         figure_html += f'<text class="gl-plate-stat" x="24" y="{y}"><tspan>{esc(label.upper())}</tspan><tspan x="24" dy="21">{esc(value)}</tspan></text>'
         y += 46
-    route_label = distance or "ROUTE"
     return f"""
 <div class="gl-hero-plate" aria-hidden="true">
   <svg class="gl-art-plate gl-art-plate--data" viewBox="0 0 360 210" focusable="false">
     <path class="gl-plate-stripes" d="M0 0H360V210H0Z"/>
-    <path class="gl-plate-ridge" d="M146 56C182 28 205 76 236 48S291 63 334 34"/>
-    <path class="gl-plate-ridge gl-plate-ridge--quiet" d="M146 102C178 82 205 117 237 91S292 112 337 82"/>
-    <path class="gl-plate-ridge gl-plate-ridge--quiet" d="M146 150C184 128 206 168 238 139S294 164 337 132"/>
-    <rect class="gl-plate-square" x="154" y="170" width="12" height="12"/>
-    <rect class="gl-plate-square" x="324" y="88" width="12" height="12"/>
-    <path class="gl-plate-route" d="M166 176C206 158 220 118 250 112S295 101 324 94"/>
-    <text class="gl-plate-route-label" x="238" y="143">{esc(route_label)}</text>
     {figure_html}
   </svg>
 </div>
@@ -543,9 +540,32 @@ def build_hero_plate(race: dict, art_dir: Path = DEFAULT_ART_DIR) -> tuple[str, 
     return render_data_plate(race), {"tier": "B", "source": f"race-data/{slug}.json", "license": "Profile data"}
 
 
-def write_art_manifest(records: dict[str, dict[str, str]], art_dir: Path = DEFAULT_ART_DIR) -> None:
+def write_art_manifest(
+    records: dict[str, dict[str, str]],
+    art_dir: Path = DEFAULT_ART_DIR,
+    *,
+    merge: bool = False,
+) -> None:
+    """Write the art provenance manifest.
+
+    A full build passes every race, so it replaces the file wholesale.
+    A single-slug run passes exactly one race and MUST merge: writing that
+    one record straight out would silently truncate the manifest from 229
+    entries to 1 and destroy the tier/source/license data for every other
+    race. That made `--slug` a data-corruption trap for anyone doing a
+    single-race spot check.
+    """
     art_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = art_dir / "manifest.json"
+    if merge and manifest_path.exists():
+        try:
+            existing = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            existing = {}
+        if isinstance(existing, dict):
+            merged = dict(existing)
+            merged.update(records)
+            records = merged
     manifest_path.write_text(json.dumps(records, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
@@ -614,6 +634,8 @@ def build_css() -> str:
 
 *, *::before, *::after {{
   box-sizing: border-box;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }}
 
 html {{
@@ -1169,7 +1191,7 @@ a {{ color: inherit; }}
   text-align: left;
   cursor: pointer;
 }}
-.gl-rating-tile[aria-pressed="true"] {{ background: var(--gl-paper); box-shadow: inset 5px 0 0 var(--gl-swix-red); }}
+.gl-rating-tile[aria-pressed="true"] {{ background: var(--gl-swix-red); color: var(--gl-white); }}
 .gl-rating-tile-label {{ font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }}
 .gl-rating-tile-score {{ font-family: var(--gl-font-display); font-size: 1.35rem; font-style: italic; font-weight: 900; }}
 .gl-rating-tile-score small {{ font-family: var(--gl-font-data); font-size: .58rem; }}
@@ -1181,7 +1203,7 @@ a {{ color: inherit; }}
 .gl-breakdown-tile {{ min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; gap: var(--gl-space-4); border-right: 1px solid var(--gl-hairline); border-bottom: 1px solid var(--gl-hairline); background: var(--gl-white); color: var(--gl-carbon); padding: var(--gl-space-4); text-decoration: none; }}
 .gl-breakdown-tile strong {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; }}
 .gl-breakdown-tile span {{ color: var(--gl-muted); font-size: .88rem; line-height: 1.45; }}
-.gl-breakdown-tile:hover {{ background: var(--gl-paper); box-shadow: inset 0 -5px 0 var(--gl-klister); }}
+.gl-breakdown-tile:hover {{ background-color: var(--gl-paper); background-image: linear-gradient(var(--gl-klister), var(--gl-klister)); background-repeat: no-repeat; background-position: bottom left; background-size: 100% 5px; }}
 
 .gl-transition {{ max-width: var(--gl-measure); margin: 0 auto; padding: var(--gl-space-7) var(--gl-space-5); background: var(--gl-swix-red); color: var(--gl-white); }}
 .gl-transition-kicker {{ margin: 0 0 var(--gl-space-3); color: var(--gl-klister); font-family: var(--gl-font-data); font-size: .66rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }}
@@ -1192,7 +1214,7 @@ a {{ color: inherit; }}
 .gl-related-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); border: 3px solid var(--gl-carbon); }}
 .gl-related-card {{ min-height: 150px; display: flex; flex-direction: column; justify-content: space-between; gap: var(--gl-space-4); border-right: 1px solid var(--gl-hairline); background: var(--gl-white); padding: var(--gl-space-4); text-decoration: none; }}
 .gl-related-card:last-child {{ border-right: 0; }}
-.gl-related-card:hover {{ background: var(--gl-paper); box-shadow: inset 0 -5px 0 var(--gl-klister); }}
+.gl-related-card:hover {{ background-color: var(--gl-paper); background-image: linear-gradient(var(--gl-klister), var(--gl-klister)); background-repeat: no-repeat; background-position: bottom left; background-size: 100% 5px; }}
 .gl-related-card strong {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; }}
 .gl-related-meta {{ color: var(--gl-muted); font-family: var(--gl-font-data); font-size: .66rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }}
 
@@ -3026,7 +3048,7 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
         total += 1
         tiers[tier] = tiers.get(tier, 0) + 1
 
-    write_art_manifest(art_records)
+    write_art_manifest(art_records, merge=bool(slug_filter))
     print(f"\nGenerated {total} race pages → {output_dir}/")
     if errors:
         print(f"  Skipped/errors: {errors}")
