@@ -127,8 +127,13 @@ frames, 4–6px statement rules only.
   serif body, red-on-hairline progress bar.
 - **Footer:** red strip, wordmark + mono motto (`BUILT FOR SKIERS WHO CHASE START LINES`),
   above a carbon mega-footer (links, legal) if/when needed.
-- **Pull quotes:** 6px red left rule, serif italic. **Email capture:** paper band, carbon
-  frame, mono button — one per page max (X3).
+- **Pull quotes:** thin neutral hairline rule, serif italic — permitted ONLY on true
+  quotations (words a real person actually said or wrote). This is the single narrow
+  exception to the ban on side rules.
+- **All other callouts (note, warning, tip, caution, aside):** no side rule of any kind,
+  and never a colored one. Distinguish them with a small mono label and with
+  spacing/density alone.
+- **Email capture:** paper band, carbon frame, mono button — one per page max (X3).
 
 ## 6. Imagery & graphics
 
