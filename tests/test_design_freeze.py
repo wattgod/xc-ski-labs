@@ -74,3 +74,37 @@ def test_race_pages_and_prep_kit_ship_the_radius_shadow_reset():
         text = (REPO_ROOT / "scripts" / name).read_text(encoding="utf-8")
         assert "border-radius: 0 !important" in text, f"{name} missing border-radius reset"
         assert "box-shadow: none !important" in text, f"{name} missing box-shadow reset"
+
+
+# ── Selected / hover states must survive the global reset ──────────────
+
+
+def _race_pages_css():
+    return (REPO_ROOT / "scripts" / "generate_race_pages.py").read_text(encoding="utf-8")
+
+
+def test_selected_rating_tile_uses_solid_signal_background():
+    """A selected state must read as deliberate at a glance: solid signal
+    background, high-contrast text. Pale tints are rejected, and the old
+    red inset LEFT bar is a banned side strip -- it must not come back."""
+    css = _race_pages_css()
+    rule = '.gl-rating-tile[aria-pressed="true"] {{ background: var(--gl-swix-red); color: var(--gl-white); }}'
+    assert rule in css, "selected rating tile lost its solid signal background"
+    assert "inset 5px 0 0" not in css, "banned red inset left strip was reintroduced"
+
+
+def test_hover_underlines_survive_the_box_shadow_reset():
+    """The klister hover underlines are underlines, not side strips, so they
+    are allowed -- but they must not be drawn with box-shadow, which the
+    global `box-shadow: none !important` reset strips."""
+    css = _race_pages_css()
+    for selector in (".gl-breakdown-tile:hover", ".gl-related-card:hover"):
+        start = css.index(selector + " {{")
+        body = css[start:css.index("}}", start)]
+        assert "var(--gl-klister)" in body, f"{selector} lost its klister underline"
+        assert "box-shadow" not in body, f"{selector} underline would be stripped by the reset"
+
+
+def test_no_inset_box_shadow_marks_remain_in_race_page_css():
+    """Any inset mark is dead on arrival under the global reset."""
+    assert "box-shadow: inset" not in _race_pages_css()
