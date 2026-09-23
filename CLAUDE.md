@@ -81,13 +81,14 @@ d["race"]["history"]["founded"]
 ## Brand
 - Name: **XC Ski Labs** (not "Nordic Lab" — that's the internal project folder name only)
 - Domain: `xcskilabs.com`
-- **CANONICAL BRAND SPEC: `docs/BRAND_GUIDELINES.md` ("Wax Bench", ratified Jul 9 2026)**
-  — 90s Swix wax-box direction: paper `#f2f0eb`, carbon `#141414`, swix-red `#d3222a`,
-  klister `#ffd200`, wax quartet (temperature data ONLY); display = system Helvetica/Arial
-  900 italic caps; reference mock in `docs/brand/`. Read it before touching any visual.
-- NOTE: the LIVE site still runs the superseded "Nordic Night" cold-blue palette
-  (`#1a2332`/`#2b4c7e`, inline `:root` in generators) until the X10 port ships. Do not
-  extend Nordic Night; new surfaces follow BRAND_GUIDELINES.md.
+- **CURRENT BRAND SPEC: `docs/brand/vintage-nordic-print.md`** — 1970s Nordic
+  print direction. `tokens/tokens.css` holds the current paper, ink, rust, and
+  ochre values; `web/xc-logo.svg` is the approved crossed-ski mark. Read the
+  current spec before touching any visual. `docs/BRAND_GUIDELINES.md` records
+  the earlier Wax Bench direction for historical context.
+- Older Nordic Night and Wax Bench colors may remain in unported templates.
+  New visual work follows `docs/brand/vintage-nordic-print.md` and the current
+  token values; verify generated pages before deployment.
 - Neo-brutalist: no border-radius, no box-shadow
 - Fonts: Sometype Mono (data), Source Serif 4 (editorial); Inter (UI, being phased down)
 - Copy rule: never self-describe as honest — "rated", not "honestly rated"

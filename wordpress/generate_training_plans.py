@@ -1355,6 +1355,7 @@ def generate_page():
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(title)}</title>
@@ -1364,7 +1365,6 @@ def generate_page():
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%231a2332'/><text x='16' y='24' text-anchor='middle' font-family='monospace' font-size='22' font-weight='700' fill='%23e8edf2'>GL</text></svg>">
 
   <!-- OG Meta -->
   <meta property="og:title" content="{esc(title)}">

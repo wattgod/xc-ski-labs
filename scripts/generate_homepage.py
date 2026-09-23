@@ -14,6 +14,7 @@ Usage:
 import argparse
 import html
 import json
+import shutil
 import sys
 from collections import Counter
 from pathlib import Path
@@ -296,6 +297,7 @@ def generate_homepage(races: list[dict]) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>XC Ski Labs — XC Ski Race Database</title>
@@ -345,17 +347,32 @@ a:hover {{ text-decoration: underline; }}
   position: relative;
   overflow: hidden;
   padding: 80px 24px 64px;
-  border-bottom: 4px solid var(--gl-carbon);
+  border-bottom: var(--gl-rule-width) solid var(--gl-carbon);
 }}
 
 .hero::after {{
   content: "";
   position: absolute;
   top: 0;
-  right: -60px;
+  right: 0;
   bottom: 0;
-  width: 420px;
-  background: repeating-linear-gradient(115deg, var(--gl-red-deep) 0 28px, var(--gl-swix-red) 28px 56px);
+  width: 33%;
+  background: var(--gl-red-deep);
+  clip-path: polygon(24% 0, 100% 0, 100% 100%, 0 100%);
+}}
+
+.hero::before {{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -12%;
+  right: 15%;
+  width: 20px;
+  height: 125%;
+  border-left: 5px solid var(--gl-klister);
+  border-right: 5px solid var(--gl-klister);
+  transform: rotate(18deg);
+  pointer-events: none;
 }}
 
 .hero-inner {{
@@ -369,11 +386,12 @@ a:hover {{ text-decoration: underline; }}
   font-family: var(--gl-font-display);
   font-size: clamp(3rem, 8vw, 5rem);
   font-weight: 900;
-  font-style: italic;
-  line-height: .92;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: .94;
   text-transform: uppercase;
   margin: 0 0 20px;
-  letter-spacing: 0;
+  letter-spacing: -.045em;
   max-width: 13ch;
 }}
 
@@ -382,7 +400,7 @@ a:hover {{ text-decoration: underline; }}
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--gl-klister);
-  letter-spacing: 0.05em;
+  letter-spacing: .18em;
   text-transform: uppercase;
   margin-bottom: 20px;
 }}
@@ -423,7 +441,7 @@ a:hover {{ text-decoration: underline; }}
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gl-muted);
+  color: var(--gl-caption-on-dark);
   margin-top: 4px;
 }}
 
@@ -875,7 +893,7 @@ footer {{
   font-family: var(--gl-font-editorial);
   font-size: 0.85rem;
   font-style: italic;
-  color: var(--gl-muted);
+  color: var(--gl-caption-on-dark);
 }}
 
 .footer-link {{
@@ -1021,7 +1039,7 @@ a:focus-visible, button:focus-visible {{
   font-family: var(--gl-font-data);
   font-size: 0.75rem;
   font-weight: 700;
-  color: var(--gl-muted);
+  color: var(--gl-caption-on-dark);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1049,7 +1067,7 @@ a:focus-visible, button:focus-visible {{
   font-family: var(--gl-font-data);
   font-size: 0.65rem;
   font-weight: 700;
-  color: var(--gl-muted);
+  color: var(--gl-caption-on-dark);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1123,6 +1141,7 @@ a:focus-visible, button:focus-visible {{
 /* ── Responsive ── */
 @media (max-width: 640px) {{
   .hero {{ padding: 48px 16px 40px; }}
+  .hero::before, .hero::after {{ display: none; }}
   .hero-stats {{ gap: 20px; }}
   .hero-cta.secondary {{ margin: 10px 0 0; }}
   .hero-getready-cta {{ margin: 10px 0 0; }}
@@ -1165,7 +1184,7 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Nav Header ── -->
 <header class="gl-nav-header">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS">XC SKI <em>LABS</em></a>
+    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
     <button class="gl-nav-hamburger" data-nav-toggle aria-expanded="false" aria-label="Menu">&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
@@ -1431,6 +1450,7 @@ def main():
     out_path = output_dir / "index.html"
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html_content)
+    shutil.copy2(SCRIPT_DIR.parent / "web" / "xc-logo.svg", output_dir / "xc-logo.svg")
     print(f"  Wrote {out_path} ({len(html_content):,} bytes)")
 
 
