@@ -540,9 +540,32 @@ def build_hero_plate(race: dict, art_dir: Path = DEFAULT_ART_DIR) -> tuple[str, 
     return render_data_plate(race), {"tier": "B", "source": f"race-data/{slug}.json", "license": "Profile data"}
 
 
-def write_art_manifest(records: dict[str, dict[str, str]], art_dir: Path = DEFAULT_ART_DIR) -> None:
+def write_art_manifest(
+    records: dict[str, dict[str, str]],
+    art_dir: Path = DEFAULT_ART_DIR,
+    *,
+    merge: bool = False,
+) -> None:
+    """Write the art provenance manifest.
+
+    A full build passes every race, so it replaces the file wholesale.
+    A single-slug run passes exactly one race and MUST merge: writing that
+    one record straight out would silently truncate the manifest from 229
+    entries to 1 and destroy the tier/source/license data for every other
+    race. That made `--slug` a data-corruption trap for anyone doing a
+    single-race spot check.
+    """
     art_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = art_dir / "manifest.json"
+    if merge and manifest_path.exists():
+        try:
+            existing = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            existing = {}
+        if isinstance(existing, dict):
+            merged = dict(existing)
+            merged.update(records)
+            records = merged
     manifest_path.write_text(json.dumps(records, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
@@ -3025,7 +3048,7 @@ def generate_all(data_dir: Path, output_dir: Path, slug_filter: Optional[str] = 
         total += 1
         tiers[tier] = tiers.get(tier, 0) + 1
 
-    write_art_manifest(art_records)
+    write_art_manifest(art_records, merge=bool(slug_filter))
     print(f"\nGenerated {total} race pages → {output_dir}/")
     if errors:
         print(f"  Skipped/errors: {errors}")
