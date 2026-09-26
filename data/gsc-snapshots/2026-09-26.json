@@ -1,0 +1,320 @@
+{
+  "date": "2026-09-26",
+  "window": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "overall": {
+    "clicks": 1,
+    "impressions": 294,
+    "ctr": 0.34,
+    "position": 6.8
+  },
+  "top_queries": [
+    {
+      "query": "birkebeinerrennet",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 23.5
+    },
+    {
+      "query": "engadin ski marathon",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 40
+    },
+    {
+      "query": "engadine ski marathon",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "query": "la transjurassienne",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "nattvasan",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "query": "ski classic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "query": "stafettvasan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "transjurassienne",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "query": "vasaloppet",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "query": "vasaloppet distance",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "query": "vasaloppet ski race",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 14
+    }
+  ],
+  "top_pages": [
+    {
+      "page": "/race/transjurassienne/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 5.9,
+      "position": 7.9
+    },
+    {
+      "page": "https://www.xcskilabs.com/guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5
+    },
+    {
+      "page": "/coaching/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "/methodology/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "page": "/race/bad-gastein-criterium/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/birkebeinerrennet/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 16.7
+    },
+    {
+      "page": "/race/engadin-la-diagonela/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "page": "/race/engadin-skimarathon/",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 14.4
+    },
+    {
+      "page": "/race/jizerska-50/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 6.7
+    },
+    {
+      "page": "/race/konig-ludwig-lauf/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 6.8
+    },
+    {
+      "page": "/race/marcialonga/",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 8.9
+    },
+    {
+      "page": "/race/nattvasan/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 8.1
+    },
+    {
+      "page": "/race/oppet-spar/",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 6.4
+    },
+    {
+      "page": "/race/ski-classics-finale/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "page": "/race/stafettvasan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 6.2
+    },
+    {
+      "page": "/race/vasaloppet/",
+      "clicks": 0,
+      "impressions": 171,
+      "ctr": 0,
+      "position": 5.2
+    },
+    {
+      "page": "/search/",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "page": "/training-plans/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.3
+    }
+  ],
+  "race_pages": [
+    {
+      "page": "/race/transjurassienne/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 5.9,
+      "position": 7.9
+    },
+    {
+      "page": "/race/bad-gastein-criterium/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/birkebeinerrennet/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 16.7
+    },
+    {
+      "page": "/race/engadin-la-diagonela/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "page": "/race/engadin-skimarathon/",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 14.4
+    },
+    {
+      "page": "/race/jizerska-50/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 6.7
+    },
+    {
+      "page": "/race/konig-ludwig-lauf/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 6.8
+    },
+    {
+      "page": "/race/marcialonga/",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 8.9
+    },
+    {
+      "page": "/race/nattvasan/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 8.1
+    },
+    {
+      "page": "/race/oppet-spar/",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 6.4
+    },
+    {
+      "page": "/race/ski-classics-finale/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "page": "/race/stafettvasan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 6.2
+    },
+    {
+      "page": "/race/vasaloppet/",
+      "clicks": 0,
+      "impressions": 171,
+      "ctr": 0,
+      "position": 5.2
+    }
+  ]
+}
