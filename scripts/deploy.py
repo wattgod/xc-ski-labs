@@ -38,7 +38,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 
@@ -533,6 +533,11 @@ def sync_questionnaire():
     return _sync_static_page("questionnaire", "questionnaire")
 
 
+def sync_goals():
+    """Upload the season-goal lead page to /goals/."""
+    return _sync_static_page("goals", "goals")
+
+
 def sync_about():
     """Upload about page to /about/."""
     return _sync_static_page("about", "about")
@@ -753,6 +758,7 @@ def deploy_all():
         ("Coaching", sync_coaching),
         ("Consulting", sync_consulting),
         ("Questionnaire", sync_questionnaire),
+        ("Goals", sync_goals),
         ("About", sync_about),
         ("Privacy", sync_privacy),
         ("Terms", sync_terms),
@@ -838,6 +844,10 @@ if __name__ == "__main__":
         help="Upload plan questionnaire to /questionnaire/"
     )
     parser.add_argument(
+        "--sync-goals", action="store_true",
+        help="Upload the season-goal lead page to /goals/"
+    )
+    parser.add_argument(
         "--sync-about", action="store_true",
         help="Upload about page to /about/"
     )
@@ -921,6 +931,9 @@ if __name__ == "__main__":
             sync_guide()
         if args.sync_questionnaire:
             sync_questionnaire()
+            ran = True
+        if args.sync_goals:
+            sync_goals()
             ran = True
         if args.sync_about:
             sync_about()
