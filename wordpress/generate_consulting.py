@@ -311,7 +311,7 @@ def build_who() -> str:
     <div class="gl-consult-inner">
       <h2 class="gl-consult-section-title">Who you&rsquo;ll talk to</h2>
       <div class="gl-consult-bio-text">
-        <p>I&rsquo;m Matti. Twelve years at TrainingPeaks, 100+ athletes coached, 1,000+ training plans sold. I&rsquo;ve raced endurance events at a national level and paid for bad pacing enough times to know what it actually costs.</p>
+        <p>I&rsquo;m Matti. Twelve years at TrainingPeaks. I&rsquo;ve raced endurance events at a national level and paid for bad pacing enough times to know what it actually costs.</p>
         <p>I built a database of {race_count} cross-country ski races &mdash; terrain, climbing, altitude, how they tend to be won and lost. When you ask &ldquo;which race should I do?&rdquo; or &ldquo;how do I fuel for this one?&rdquo;, the answer comes from that, not from vibes.</p>
       </div>
     </div>
