@@ -303,3 +303,12 @@ class TestGoalCardStateMath:
 
     def test_hidden_on_unparseable_dates(self):
         assert self._run("not-a-date", "not-a-date", "2026-09-27")["state"] == "hidden"
+
+
+def test_plan_intake_scrubs_private_token_before_ga4_loads():
+    questionnaire = _load_module("generate_questionnaire_privacy", WORDPRESS_DIR / "generate_questionnaire.py")
+    # The page generator writes to disk; use a temporary output in the test.
+    import tempfile
+    with tempfile.TemporaryDirectory() as directory:
+        html = questionnaire.generate_page(Path(directory)).read_text()
+    assert html.index("sessionStorage.setItem('xc_goal_prefill_token'") < html.index("googletagmanager.com/gtag/js")

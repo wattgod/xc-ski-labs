@@ -1009,8 +1009,8 @@ def build_js() -> str:
           ctaUrl.searchParams.set("offer_variant", key);
           if (RACE_SLUG) { ctaUrl.searchParams.set("race", RACE_SLUG); }
           if (ENTRY_SRC) { ctaUrl.searchParams.set("entry_src", ENTRY_SRC); }
-          if (POSTER_TOKEN) { ctaUrl.searchParams.set("t", POSTER_TOKEN); }
-          cta.href = ctaUrl.pathname + ctaUrl.search;
+          if (POSTER_TOKEN) { ctaUrl.hash = "t=" + encodeURIComponent(POSTER_TOKEN); }
+          cta.href = ctaUrl.pathname + ctaUrl.search + ctaUrl.hash;
         } catch (err) {}
         ga4("goal_offer_view", { offer_variant: key, plan_type: planType });
         cta.addEventListener("click", function() { ga4("goal_offer_click", { offer_variant: key, plan_type: planType }); });
