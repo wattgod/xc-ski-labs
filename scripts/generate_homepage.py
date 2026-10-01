@@ -495,6 +495,21 @@ a:hover {{ text-decoration: underline; }}
   text-decoration: none;
 }}
 
+/* A direct entry to the existing season review, after the race database hero. */
+.gl-hp-goals {{ background: var(--gl-paper); border-bottom: 3px solid var(--gl-ink); }}
+.gl-hp-goals-inner {{ max-width: var(--gl-measure); margin: 0 auto; padding: 36px 24px; display: grid; grid-template-columns: minmax(0, 1fr) 210px; align-items: center; gap: 40px; }}
+.gl-hp-goals-kicker, .gl-hp-goals-sample, .gl-hp-goals-poster-year, .gl-hp-goals-poster-foot {{ font: 700 11px var(--gl-font-data); letter-spacing: .12em; text-transform: uppercase; }}
+.gl-hp-goals-kicker {{ color: var(--gl-rust); margin: 0 0 12px; }}
+.gl-hp-goals h2 {{ font-family: var(--gl-font-display); font-weight: 900; font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1; text-transform: uppercase; margin: 0 0 10px; color: var(--gl-ink); }}
+.gl-hp-goals-copy > p:not(.gl-hp-goals-kicker) {{ font-family: var(--gl-font-editorial); font-size: 1.05rem; line-height: 1.55; max-width: 52ch; margin: 0 0 20px; color: var(--gl-ink); }}
+.gl-hp-goals-cta {{ min-height: 44px; display: inline-flex; align-items: center; padding: 9px 16px; background: var(--gl-rust); color: var(--gl-snow); font: 700 12px var(--gl-font-data); letter-spacing: .08em; text-transform: uppercase; border: 2px solid var(--gl-rust); text-decoration: none; }}
+.gl-hp-goals-cta:hover, .gl-hp-goals-cta:focus-visible {{ background: var(--gl-ink); border-color: var(--gl-ink); color: var(--gl-snow); text-decoration: none; }}
+.gl-hp-goals-poster {{ position: relative; min-height: 240px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; background: var(--gl-snow); border: 3px solid var(--gl-ink); color: var(--gl-ink); }}
+.gl-hp-goals-poster strong {{ font-family: var(--gl-font-display); font-size: 30px; line-height: 1; text-transform: uppercase; }}
+.gl-hp-goals-sample {{ align-self: flex-end; border: 1px solid currentColor; padding: 3px 5px; }}
+.gl-hp-goals-poster-foot {{ color: var(--gl-rust); }}
+@media (max-width: 700px) {{ .gl-hp-goals-inner {{ grid-template-columns: 1fr; gap: 24px; }} .gl-hp-goals-poster {{ max-width: 240px; }} }}
+
 .mono {{ font-family: var(--gl-font-data); }}
 .r {{ text-align: right; }}
 
@@ -1240,6 +1255,24 @@ a:focus-visible, button:focus-visible {{
   </div>
 </section>
 
+<!-- ── Season review entry ── -->
+<section class="gl-hp-goals" aria-labelledby="gl-hp-goals-title">
+  <div class="gl-hp-goals-inner">
+    <div class="gl-hp-goals-copy">
+      <p class="gl-hp-goals-kicker">2025–26 REVIEW / 2026–27 GOAL</p>
+      <h2 id="gl-hp-goals-title">The next winter, on paper.</h2>
+      <p>Look back at last winter. Name the race you care about and one habit that will carry you to its start line.</p>
+      <a href="/goals/?src=home" class="gl-hp-goals-cta" data-ga="goal_hero_click">Make my season poster &rarr;</a>
+    </div>
+    <div class="gl-hp-goals-poster" aria-label="Sample XC Ski Labs goal poster">
+      <span class="gl-hp-goals-sample">SAMPLE</span>
+      <span class="gl-hp-goals-poster-year">2026–27 / GOAL FILE</span>
+      <strong>One race.<br>One goal.</strong>
+      <span class="gl-hp-goals-poster-foot">XC SKI LABS</span>
+    </div>
+  </div>
+</section>
+
 <!-- ── Ladder Strip (immediately after hero, before rankings) ── -->
 <section class="gl-hp-ladder" id="ladder">
   <div class="gl-hp-ladder-inner">
@@ -1390,6 +1423,7 @@ function xlConsent(c){{document.cookie='xl_consent='+c+';path=/;max-age=31536000
 var navToggle=document.querySelector('[data-nav-toggle]');var navLinks=document.querySelector('.gl-nav-links');
 if(navToggle&&navLinks){{navToggle.addEventListener('click',function(){{var open=navLinks.classList.toggle('open');navToggle.setAttribute('aria-expanded',open?'true':'false')}})}}
 document.querySelectorAll('[data-consent-choice]').forEach(function(btn){{btn.addEventListener('click',function(){{xlConsent(btn.getAttribute('data-consent-choice'))}})}});
+document.querySelectorAll('[data-ga="goal_hero_click"]').forEach(function(link){{link.addEventListener('click',function(){{if(typeof gtag==='function')gtag('event','goal_hero_click',{{src:'home'}})}})}});
 if(!/xl_consent=/.test(document.cookie))document.getElementById('gl-cookie-banner').classList.add('show')
 }})();
 </script>
