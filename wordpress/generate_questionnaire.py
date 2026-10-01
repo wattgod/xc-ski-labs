@@ -693,7 +693,8 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   var submitted = params.get('submitted');
   var goalsMode = params.get('src') === 'goals';
   var goalToken = goalsMode ? (params.get('t') ||
-    (window.history.state && window.history.state.goalToken) || '') : '';
+    (window.history.state && window.history.state.goalToken) ||
+    new URLSearchParams(window.location.hash.slice(1)).get('t') || '') : '';
   if (goalsMode && !goalToken) {{
     try {{
       goalToken = sessionStorage.getItem('xc_goal_prefill_token') || '';
@@ -824,11 +825,15 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
 
   if (submitted === '1') {{
     try {{
-      var completedKey = sessionStorage.getItem('xc_goal_pending_submitted') || '';
-      if (/^xc_goal_draft_[A-Za-z0-9_-]{{16,64}}$/.test(completedKey)) {{
-        sessionStorage.removeItem(completedKey);
+      var confirmation = params.get('confirm') || '';
+      if (/^[0-9a-f]{{32}}$/.test(confirmation)) {{
+        var pendingKey = 'xc_goal_pending_' + confirmation;
+        var completedKey = sessionStorage.getItem(pendingKey) || '';
+        if (/^xc_goal_draft_[A-Za-z0-9_-]{{16,64}}$/.test(completedKey)) {{
+          sessionStorage.removeItem(completedKey);
+        }}
+        sessionStorage.removeItem(pendingKey);
       }}
-      sessionStorage.removeItem('xc_goal_pending_submitted');
     }} catch (e) {{}}
     var page = document.querySelector('.gl-page');
     if (page) {{
@@ -899,7 +904,14 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }});
   form.addEventListener('submit', function() {{
     if (goalsMode && GOAL_STORAGE_KEY) {{
-      try {{ sessionStorage.setItem('xc_goal_pending_submitted', GOAL_STORAGE_KEY); }} catch (e) {{}}
+      try {{
+        var bytes = new Uint8Array(16);
+        crypto.getRandomValues(bytes);
+        var nonce = Array.from(bytes).map(function(b) {{ return b.toString(16).padStart(2, '0'); }}).join('');
+        sessionStorage.setItem('xc_goal_pending_' + nonce, GOAL_STORAGE_KEY);
+        form.querySelector('[name="_next"]').value =
+          'https://xcskilabs.com/questionnaire/?submitted=1&confirm=' + nonce;
+      }} catch (e) {{}}
     }} else if (!goalsMode) {{
       localStorage.removeItem(STORAGE_KEY);
     }}
@@ -957,11 +969,11 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
       var u = new URL(location.href);
       var t = u.searchParams.get('t') || new URLSearchParams(u.hash.slice(1)).get('t') || '';
       var hasToken = u.searchParams.has('t') || new URLSearchParams(u.hash.slice(1)).has('t');
-      sessionStorage.removeItem('xc_goal_prefill_token');
       var valid = u.searchParams.get('src') === 'goals' && /^[A-Za-z0-9_-]{{16,64}}$/.test(t);
-      if (valid) {{
-        sessionStorage.setItem('xc_goal_prefill_token', t);
-      }}
+      try {{
+        sessionStorage.removeItem('xc_goal_prefill_token');
+        if (valid) sessionStorage.setItem('xc_goal_prefill_token', t);
+      }} catch (e) {{}}
       if (hasToken) {{
         u.searchParams.delete('t');
         if (new URLSearchParams(u.hash.slice(1)).has('t')) u.hash = '';
