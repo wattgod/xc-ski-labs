@@ -158,16 +158,13 @@ def render_sections() -> str:
 def personal_link_js() -> str:
     return r"""<script>
 (function(){
-  var keys=['name','email','athlete'], found={}, kept=[], removed=false;
+  var keys=['name','email','athlete'], found={};
   try {
-    var params=new URLSearchParams(window.location.search);
-    window.location.search.replace(/^\?/,'').split('&').forEach(function(part){
-      if(!part)return; var raw=part.split('=')[0], key=raw;
-      try{key=decodeURIComponent(raw.replace(/\+/g,' '));}catch(e){}
-      if(keys.indexOf(key)===-1){kept.push(part);return;}
-      removed=true; if(!(key in found))found[key]=params.get(key)||'';
+    var params=new URLSearchParams(window.location.hash.replace(/^#\??/,''));
+    keys.forEach(function(key){
+      if(params.has(key))found[key]=params.get(key)||'';
     });
-    if(removed)history.replaceState(history.state,'',window.location.pathname+(kept.length?'?'+kept.join('&'):'')+window.location.hash);
+    if(Object.keys(found).length)history.replaceState(history.state,'',window.location.pathname+window.location.search);
   }catch(e){}
   window.xcPersonalLink=found;
 })();
@@ -197,18 +194,18 @@ def build_js() -> str:
   'use strict';
   var STORAGE_KEY='xcskilabs_athlete_exit_v1';
   var form=document.getElementById('exit-form'), message=document.getElementById('message');
-  var submit=document.getElementById('exit-submit'), saveTimer=null;
+  var submit=document.getElementById('exit-submit'), saveTimer=null, submitted=false;
   function show(kind,text){{message.className='gl-message '+kind;message.textContent=text;message.classList.remove('hidden');}}
   function collect(){{var data={{}};new FormData(form).forEach(function(value,key){{if(key!=='website'&&String(value).trim())data[key]=String(value).trim();}});return data;}}
   function save(silent){{try{{localStorage.setItem(STORAGE_KEY,JSON.stringify(collect()));if(!silent)show('info','Saved in this browser. Close the page and come back any time.');return true;}}catch(error){{if(!silent)show('error','This browser will not let me save. Keep the page open until you submit.');return false;}}}}
   function paintChoices(){{form.querySelectorAll('.gl-choice').forEach(function(label){{var input=label.querySelector('input');label.classList.toggle('selected',!!(input&&input.checked));}});}}
   function updateProgress(){{var all=Array.prototype.slice.call(form.querySelectorAll('[required]'));var fields=all.filter(function(el,i){{return all.findIndex(function(x){{return x.name===el.name;}})===i;}});var filled=fields.filter(function(el){{return el.type==='radio'?!!form.querySelector('input[name="'+el.name+'"]:checked'):!!el.value.trim();}}).length;var pct=fields.length?Math.round(filled/fields.length*100):0;document.getElementById('progress-fill').style.width=pct+'%';document.getElementById('progress-text').textContent=pct+'% complete';}}
-  function restore(){{var saved=null;try{{saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||'null');}}catch(error){{}}var personal=window.xcPersonalLink||{{}};if(saved){{Object.keys(saved).forEach(function(key){{form.querySelectorAll('[name="'+key+'"]').forEach(function(el){{if(el.type==='radio'||el.type==='checkbox')el.checked=el.value===saved[key];else el.value=saved[key];}});}});show('info','Picked up where you left off.');}}['name','email','athlete'].forEach(function(key){{var el=document.getElementById(key);if(el&&personal[key]&&!el.value)el.value=personal[key];}});paintChoices();updateProgress();}}
+  function restore(){{var saved=null;try{{saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||'null');}}catch(error){{}}var personal=window.xcPersonalLink||{{}};if(saved){{Object.keys(saved).forEach(function(key){{form.querySelectorAll('[name="'+key+'"]').forEach(function(el){{if(el.type==='radio'||el.type==='checkbox')el.checked=el.value===saved[key];else el.value=saved[key];}});}});show('info','Picked up where you left off.');}}['name','email','athlete'].forEach(function(key){{var el=document.getElementById(key);if(el&&personal[key])el.value=personal[key];}});if(Object.keys(personal).length)save(true);paintChoices();updateProgress();}}
   form.addEventListener('input',function(){{clearTimeout(saveTimer);saveTimer=setTimeout(function(){{save(true);}},700);paintChoices();updateProgress();}});
   form.addEventListener('change',function(){{paintChoices();updateProgress();}});
   document.getElementById('exit-save').addEventListener('click',function(){{save(false);}});
-  window.addEventListener('beforeunload',function(){{save(true);}});
-  form.addEventListener('submit',function(event){{event.preventDefault();if(form.website.value){{show('error','Something filled a hidden field. Clear autofill and try again.');return;}}var data=collect(),answers={{}};Object.keys(data).forEach(function(key){{if(!['name','email','athlete'].includes(key))answers[key]=data[key];}});submit.disabled=true;submit.textContent='Submitting…';save(true);var controller=typeof AbortController==='function'?new AbortController():null;var timeout=setTimeout(function(){{if(controller)controller.abort();}},25000);fetch('{WORKER_URL}',{{method:'POST',headers:{{'Content-Type':'application/json','Accept':'application/json'}},body:JSON.stringify({{source:'athlete_exit',brand:'{BRAND}',name:data.name,email:data.email,athlete:data.athlete||'',goal_answers:answers,website:''}}),signal:controller?controller.signal:undefined}}).then(function(response){{if(!response.ok)throw new Error('worker failed');clearTimeout(timeout);clearTimeout(saveTimer);try{{localStorage.removeItem(STORAGE_KEY);}}catch(error){{}}form.hidden=true;message.classList.add('hidden');var success=document.getElementById('exit-success');success.hidden=false;success.scrollIntoView({{behavior:'smooth',block:'start'}});if(typeof gtag==='function')gtag('event','athlete_exit_submitted',{{brand:'{BRAND}'}});}}).catch(function(){{clearTimeout(timeout);submit.disabled=false;submit.textContent='Send It to Matti';show('error','That did not go through. Your answers are saved in this browser. Try again, or email {CONTACT_EMAIL}.');}});}});
+  window.addEventListener('beforeunload',function(){{if(!submitted&&!form.hidden)save(true);}});
+  form.addEventListener('submit',function(event){{event.preventDefault();if(form.website.value){{show('error','Something filled a hidden field. Clear autofill and try again.');return;}}var data=collect(),answers={{}};Object.keys(data).forEach(function(key){{if(!['name','email','athlete'].includes(key))answers[key]=data[key];}});submit.disabled=true;submit.textContent='Submitting…';var draftSaved=save(true);var controller=typeof AbortController==='function'?new AbortController():null;var timeout=setTimeout(function(){{if(controller)controller.abort();}},25000);fetch('{WORKER_URL}',{{method:'POST',headers:{{'Content-Type':'application/json','Accept':'application/json'}},body:JSON.stringify({{source:'athlete_exit',brand:'{BRAND}',name:data.name,email:data.email,athlete:data.athlete||'',goal_answers:answers,website:''}}),signal:controller?controller.signal:undefined}}).then(function(response){{if(!response.ok)throw new Error('worker failed');clearTimeout(timeout);clearTimeout(saveTimer);submitted=true;try{{localStorage.removeItem(STORAGE_KEY);}}catch(error){{}}form.hidden=true;message.classList.add('hidden');var success=document.getElementById('exit-success');success.hidden=false;success.scrollIntoView({{behavior:'smooth',block:'start'}});if(typeof gtag==='function')gtag('event','athlete_exit_submitted',{{brand:'{BRAND}'}});}}).catch(function(){{clearTimeout(timeout);submit.disabled=false;submit.textContent='Send It to Matti';show('error',draftSaved?'That did not go through. Your answers are saved in this browser. Try again, or email {CONTACT_EMAIL}.':'That did not go through, and this browser could not save a draft. Keep this page open and try again, or email {CONTACT_EMAIL}.');}});}});
   restore();
 }})();
 </script>"""

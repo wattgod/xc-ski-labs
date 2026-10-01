@@ -61,6 +61,8 @@ def test_brand_language_and_print_tokens_are_xc_specific():
 def test_private_link_is_stripped_before_analytics_and_page_is_not_indexed():
     page = exit_page.generate_page()
     assert page.index("history.replaceState") < page.index("googletagmanager.com")
+    assert "window.location.hash" in page
+    assert "new URLSearchParams(window.location.search)" not in exit_page.personal_link_js()
     assert '<meta name="robots" content="noindex, nofollow">' in page
     assert 'href="https://xcskilabs.com/coaching/exit/"' in page
 
