@@ -693,7 +693,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   var submitted = params.get('submitted');
   var goalsMode = params.get('src') === 'goals';
   var goalToken = params.get('t') || '';
-  if (!goalToken) {{
+  if (goalsMode && !goalToken) {{
     try {{
       goalToken = sessionStorage.getItem('xc_goal_prefill_token') || '';
       sessionStorage.removeItem('xc_goal_prefill_token');
@@ -732,7 +732,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
 
   function applyRacePrefill() {{
     var raceSlug = params.get('race');
-    if (!raceSlug || !races[raceSlug]) return;
+    if (goalsMode || !raceSlug || !races[raceSlug]) return;
     raceInput.value = races[raceSlug];
     raceSlugInput.value = raceSlug;
     var detail = raceDetails[raceSlug] || {{}};
@@ -778,6 +778,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   function saveFormData() {{
+    if (goalsMode) return;
     try {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(getFormData())); }} catch(e) {{}}
     if (saveIndicator) {{
       saveIndicator.classList.add('show');
@@ -822,7 +823,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
 
   // A token link is a fresh lead's intake. Never show a prior visitor's
   // autosaved answers from a shared browser while the lookup is in flight.
-  if (!(goalsMode && goalToken)) restoreFormData();
+  if (!goalsMode) restoreFormData();
   applyRacePrefill();
   if (goalsMode) {{
     document.querySelectorAll('.gl-section[data-section="3"], .gl-section[data-section="6"]').forEach(function(section) {{
@@ -833,24 +834,40 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   if (goalsMode && goalToken) {{
     var initialRace = raceInput.value;
     var initialDate = dateInput.value;
+    var reviewEmail = '';
+    var hashedRef = '';
+    var reviewGoal = '';
+    var reviewHabits = '';
+    function updateReviewAttribution() {{
+      var emailField = document.getElementById('email');
+      var sameLead = reviewEmail && emailField && emailField.value.trim().toLowerCase() === reviewEmail;
+      document.getElementById('goalRef').value = sameLead ? hashedRef : '';
+      document.getElementById('reviewGoal').value = sameLead ? reviewGoal : '';
+      document.getElementById('reviewHabits').value = sameLead ? reviewHabits : '';
+    }}
+    document.getElementById('email').addEventListener('input', updateReviewAttribution);
+    form.addEventListener('submit', updateReviewAttribution);
     fetch('https://athlete-profiles-production.up.railway.app/api/season-plan/prefill/' + encodeURIComponent(goalToken), {{
       headers: {{ 'Accept': 'application/json' }}
     }}).then(function(r) {{ return r.ok ? r.json() : null; }}).then(function(data) {{
       if (!data) return;
       var email = document.getElementById('email');
       if (email && !email.value && data.email) email.value = data.email;
+      reviewEmail = String(data.email || '').trim().toLowerCase();
+      reviewGoal = data.goal || '';
+      reviewHabits = data.habits || '';
       if (data.a_race_name && (!raceInput.value || raceInput.value === initialRace)) raceInput.value = data.a_race_name;
       if (data.a_race_date && (!dateInput.value || dateInput.value === initialDate)) dateInput.value = data.a_race_date;
-      document.getElementById('reviewGoal').value = data.goal || '';
-      document.getElementById('reviewHabits').value = data.habits || '';
+      updateReviewAttribution();
       saveFormData();
       updateProgress();
     }}).catch(function() {{}});
     if (window.crypto && crypto.subtle) {{
       crypto.subtle.digest('SHA-256', new TextEncoder().encode(goalToken)).then(function(hash) {{
-        document.getElementById('goalRef').value = Array.from(new Uint8Array(hash)).map(function(b) {{
+        hashedRef = Array.from(new Uint8Array(hash)).map(function(b) {{
           return b.toString(16).padStart(2, '0');
         }}).join('');
+        updateReviewAttribution();
       }}).catch(function() {{}});
     }}
   }}
@@ -921,8 +938,10 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
     try {{
       var u = new URL(location.href);
       var t = u.searchParams.get('t') || new URLSearchParams(u.hash.slice(1)).get('t') || '';
-      if (!/^[A-Za-z0-9_-]{{16,64}}$/.test(t)) return;
-      sessionStorage.setItem('xc_goal_prefill_token', t);
+      sessionStorage.removeItem('xc_goal_prefill_token');
+      if (u.searchParams.get('src') === 'goals' && /^[A-Za-z0-9_-]{{16,64}}$/.test(t)) {{
+        sessionStorage.setItem('xc_goal_prefill_token', t);
+      }}
       u.searchParams.delete('t');
       u.hash = '';
       history.replaceState(null, '', u.pathname + u.search + u.hash);
