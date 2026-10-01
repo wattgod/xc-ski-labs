@@ -26,7 +26,7 @@ WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
-NON_RACE_DIRS = {"about", "coaching", "consulting", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+NON_RACE_DIRS = {"about", "coaching", "coaching-exit", "consulting", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 
 # ── Helpers ──────────────────────────────────────────────────────
 

@@ -38,7 +38,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "coaching-exit", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 
@@ -538,6 +538,11 @@ def sync_goals():
     return _sync_static_page("goals", "goals")
 
 
+def sync_exit_interview():
+    """Upload the athlete exit interview to /coaching/exit/."""
+    return _sync_static_page("coaching-exit", "coaching/exit")
+
+
 def sync_about():
     """Upload about page to /about/."""
     return _sync_static_page("about", "about")
@@ -759,6 +764,7 @@ def deploy_all():
         ("Consulting", sync_consulting),
         ("Questionnaire", sync_questionnaire),
         ("Goals", sync_goals),
+        ("Exit Interview", sync_exit_interview),
         ("About", sync_about),
         ("Privacy", sync_privacy),
         ("Terms", sync_terms),
@@ -848,6 +854,10 @@ if __name__ == "__main__":
         help="Upload the season-goal lead page to /goals/"
     )
     parser.add_argument(
+        "--sync-exit-interview", action="store_true",
+        help="Upload the athlete exit interview to /coaching/exit/"
+    )
+    parser.add_argument(
         "--sync-about", action="store_true",
         help="Upload about page to /about/"
     )
@@ -934,6 +944,9 @@ if __name__ == "__main__":
             ran = True
         if args.sync_goals:
             sync_goals()
+            ran = True
+        if args.sync_exit_interview:
+            sync_exit_interview()
             ran = True
         if args.sync_about:
             sync_about()
