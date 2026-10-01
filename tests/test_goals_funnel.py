@@ -27,6 +27,7 @@ def _load_module(name: str, path: Path):
 
 goals = _load_module("generate_goals", WORDPRESS_DIR / "generate_goals.py")
 race_pages = _load_module("generate_race_pages_goalcard", SCRIPTS_DIR / "generate_race_pages.py")
+homepage = _load_module("generate_homepage_goal_entry", SCRIPTS_DIR / "generate_homepage.py")
 
 
 def _load_race(slug: str) -> dict:
@@ -158,6 +159,14 @@ class TestGoalCardDeploySurfacing:
     def test_sitemap_includes_goals(self):
         sitemap_src = (SCRIPTS_DIR / "generate_sitemap.py").read_text(encoding="utf-8")
         assert "/goals/" in sitemap_src
+
+    def test_homepage_links_to_the_review_with_attribution(self):
+        races = homepage.load_all_races(RACE_DATA_DIR)
+        html = homepage.generate_homepage(races)
+        assert 'href="/goals/?src=home"' in html
+        assert 'data-ga="goal_hero_click"' in html
+        assert 'SAMPLE' in html
+        assert html.index('class="hero"') < html.index('class="gl-hp-goals"')
 
 
 class TestGoalsSectionFields:

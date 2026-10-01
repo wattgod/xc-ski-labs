@@ -165,7 +165,7 @@ SECTIONS: list[dict] = [
                      ("disappear", "Quietly disappear", "Go dark for a week and hope nobody notices")]},
         {"name": "competing_wants", "kind": "text", "req": True,
          "label": "What do you love that&#39;s quietly making you slower?",
-         "ph": "Mine&#39;s the après-ski. Two days wrecked, twenty times a season. Do the math."},
+         "ph": "e.g., Staying out for one more loop when you needed sleep"},
     ]},
     {"title": NEXT_SEASON, "sub": "&ldquo;Ski more&rdquo; isn&#39;t a goal. It&#39;s a direction.", "fields": [
         {"name": "outcome_goal", "kind": "text", "req": True,
