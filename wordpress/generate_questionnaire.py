@@ -692,7 +692,8 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   var params = new URLSearchParams(window.location.search);
   var submitted = params.get('submitted');
   var goalsMode = params.get('src') === 'goals';
-  var goalToken = params.get('t') || '';
+  var goalToken = goalsMode ? (params.get('t') ||
+    (window.history.state && window.history.state.goalToken) || '') : '';
   if (goalsMode && !goalToken) {{
     try {{
       goalToken = sessionStorage.getItem('xc_goal_prefill_token') || '';
@@ -700,10 +701,11 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     }} catch (e) {{}}
   }}
   if (!/^[A-Za-z0-9_-]{{16,64}}$/.test(goalToken)) goalToken = '';
+  var GOAL_STORAGE_KEY = goalToken ? 'xc_goal_draft_' + goalToken : '';
   if (goalToken && window.history && window.history.replaceState) {{
     var safeUrl = new URL(window.location.href);
     safeUrl.searchParams.delete('t');
-    window.history.replaceState(null, '', safeUrl.pathname + safeUrl.search);
+    window.history.replaceState({{ goalToken: goalToken }}, '', safeUrl.pathname + safeUrl.search);
   }}
   var form = document.getElementById('planIntake');
   var raceInput = document.getElementById('targetRace');
@@ -761,7 +763,8 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   function restoreFormData() {{
-    var raw = localStorage.getItem(STORAGE_KEY);
+    var raw = (goalsMode ? sessionStorage : localStorage).getItem(
+      goalsMode ? GOAL_STORAGE_KEY : STORAGE_KEY);
     if (!raw) return;
     var data;
     try {{ data = JSON.parse(raw); }} catch(e) {{ return; }}
@@ -778,8 +781,11 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   function saveFormData() {{
-    if (goalsMode) return;
-    try {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(getFormData())); }} catch(e) {{}}
+    if (goalsMode && !GOAL_STORAGE_KEY) return;
+    try {{
+      (goalsMode ? sessionStorage : localStorage).setItem(
+        goalsMode ? GOAL_STORAGE_KEY : STORAGE_KEY, JSON.stringify(getFormData()));
+    }} catch(e) {{}}
     if (saveIndicator) {{
       saveIndicator.classList.add('show');
       clearTimeout(saveIndicator._timeout);
@@ -823,7 +829,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
 
   // A token link is a fresh lead's intake. Never show a prior visitor's
   // autosaved answers from a shared browser while the lookup is in flight.
-  if (!goalsMode) restoreFormData();
+  if (!goalsMode || GOAL_STORAGE_KEY) restoreFormData();
   applyRacePrefill();
   if (goalsMode) {{
     document.querySelectorAll('.gl-section[data-section="3"], .gl-section[data-section="6"]').forEach(function(section) {{
@@ -884,7 +890,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     updateConditionals();
   }});
   form.addEventListener('submit', function() {{
-    localStorage.removeItem(STORAGE_KEY);
+    if (!goalsMode) localStorage.removeItem(STORAGE_KEY);
     if (typeof gtag === 'function') gtag('event', 'generate_lead', {{ form_name: 'custom_plan_intake' }});
     var btn = document.getElementById('submitBtn');
     if (btn) {{
@@ -938,13 +944,18 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
     try {{
       var u = new URL(location.href);
       var t = u.searchParams.get('t') || new URLSearchParams(u.hash.slice(1)).get('t') || '';
+      var hasToken = u.searchParams.has('t') || new URLSearchParams(u.hash.slice(1)).has('t');
       sessionStorage.removeItem('xc_goal_prefill_token');
-      if (u.searchParams.get('src') === 'goals' && /^[A-Za-z0-9_-]{{16,64}}$/.test(t)) {{
+      var valid = u.searchParams.get('src') === 'goals' && /^[A-Za-z0-9_-]{{16,64}}$/.test(t);
+      if (valid) {{
         sessionStorage.setItem('xc_goal_prefill_token', t);
       }}
-      u.searchParams.delete('t');
-      u.hash = '';
-      history.replaceState(null, '', u.pathname + u.search + u.hash);
+      if (hasToken) {{
+        u.searchParams.delete('t');
+        if (new URLSearchParams(u.hash.slice(1)).has('t')) u.hash = '';
+        history.replaceState(valid ? {{ goalToken: t }} : history.state,
+          '', u.pathname + u.search + u.hash);
+      }}
     }} catch (e) {{}}
   }})();</script>
   {build_ga4()}
