@@ -763,8 +763,11 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   function restoreFormData() {{
-    var raw = (goalsMode ? sessionStorage : localStorage).getItem(
-      goalsMode ? GOAL_STORAGE_KEY : STORAGE_KEY);
+    var raw;
+    try {{
+      raw = (goalsMode ? sessionStorage : localStorage).getItem(
+        goalsMode ? GOAL_STORAGE_KEY : STORAGE_KEY);
+    }} catch (e) {{ return; }}
     if (!raw) return;
     var data;
     try {{ data = JSON.parse(raw); }} catch(e) {{ return; }}
@@ -820,6 +823,13 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   if (submitted === '1') {{
+    try {{
+      var completedKey = sessionStorage.getItem('xc_goal_pending_submitted') || '';
+      if (/^xc_goal_draft_[A-Za-z0-9_-]{{16,64}}$/.test(completedKey)) {{
+        sessionStorage.removeItem(completedKey);
+      }}
+      sessionStorage.removeItem('xc_goal_pending_submitted');
+    }} catch (e) {{}}
     var page = document.querySelector('.gl-page');
     if (page) {{
       page.innerHTML = '<div class="gl-success-message"><h2>Questionnaire received.</h2><p>Payment received or not, we read the intake before building the plan. Check your email for the next step.</p><a href="/training-plans/">Back to training plans</a></div>';
@@ -838,8 +848,6 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     }});
   }}
   if (goalsMode && goalToken) {{
-    var initialRace = raceInput.value;
-    var initialDate = dateInput.value;
     var reviewEmail = '';
     var hashedRef = '';
     var reviewGoal = '';
@@ -862,8 +870,8 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
       reviewEmail = String(data.email || '').trim().toLowerCase();
       reviewGoal = data.goal || '';
       reviewHabits = data.habits || '';
-      if (data.a_race_name && (!raceInput.value || raceInput.value === initialRace)) raceInput.value = data.a_race_name;
-      if (data.a_race_date && (!dateInput.value || dateInput.value === initialDate)) dateInput.value = data.a_race_date;
+      if (data.a_race_name && !raceInput.value) raceInput.value = data.a_race_name;
+      if (data.a_race_date && !dateInput.value) dateInput.value = data.a_race_date;
       updateReviewAttribution();
       saveFormData();
       updateProgress();
@@ -890,7 +898,11 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     updateConditionals();
   }});
   form.addEventListener('submit', function() {{
-    if (!goalsMode) localStorage.removeItem(STORAGE_KEY);
+    if (goalsMode && GOAL_STORAGE_KEY) {{
+      try {{ sessionStorage.setItem('xc_goal_pending_submitted', GOAL_STORAGE_KEY); }} catch (e) {{}}
+    }} else if (!goalsMode) {{
+      localStorage.removeItem(STORAGE_KEY);
+    }}
     if (typeof gtag === 'function') gtag('event', 'generate_lead', {{ form_name: 'custom_plan_intake' }});
     var btn = document.getElementById('submitBtn');
     if (btn) {{
