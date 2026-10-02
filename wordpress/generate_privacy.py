@@ -12,7 +12,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
-EFFECTIVE_DATE = "July 2026"
+EFFECTIVE_DATE = "October 2, 2026"
 
 
 def esc(value: str) -> str:
@@ -67,6 +67,14 @@ def generate_html() -> str:
   <section class="gl-section">
     <h2 class="gl-section-title">Scope</h2>
     <p>This Privacy Policy explains how XC Ski Labs (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) collects, uses, and shares information when you use xcskilabs.com.</p>
+  </section>
+
+  <section class="gl-section">
+    <h2 class="gl-section-title">Race discovery plugin</h2>
+    <p>When you use the XC Ski Labs race discovery plugin in ChatGPT or Codex, the platform sends the tool arguments needed for your request to our public race service at <a href="https://races.endurelabs.app/">races.endurelabs.app</a>. These can include search words, broad location and distance filters, and race slugs. The plugin does not require an account. Do not include health, payment, or private training information in a plugin request.</p>
+    <p>We use those inputs to return public event facts, comparisons, published race demands, and guide links. The service does not save tool inputs to its application database. Event-detail and preparation requests fetch public race profiles from pinned GitHub revisions. GitHub receives the requested profile path from our server, not your account information.</p>
+    <p>Vercel hosts the service and processes request metadata, including IP address and time, to deliver requests and limit abuse. Vercel stores standard runtime logs for one day on our current Pro plan. We have no external log drain for this service. Vercel may process separate network and security data under its own privacy policy.</p>
+    <p>Guide links include campaign tags identifying the plugin and workflow, but they do not include your search words or other tool inputs. If you open a guide, the website practices described in this policy apply. For plugin privacy requests, email <a href="mailto:{contact}">{contact}</a>.</p>
   </section>
 
   <section class="gl-section">
