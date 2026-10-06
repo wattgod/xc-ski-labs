@@ -308,17 +308,9 @@ def generate_homepage(races: list[dict]) -> str:
 <meta property="og:description" content="{race_count}+ cross-country ski races across {country_count} countries. Scored, ranked, and searchable.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://xcskilabs.com/">
-<script>
-window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}
-(function(){{var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-gtag('consent','default',{{'analytics_storage':c==='accepted'?'granted':'denied','ad_storage':'denied'}});
-if(c==='declined')return;
-var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM';document.head.appendChild(s);
-gtag('js',new Date());gtag('config','G-3JQLSQLPPM')}})();
-</script>
+<script src="/xc-assets/analytics.js"></script>
 {jsonld_block}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/xc-assets/fonts.css">
 <style>
 {tokens_css}
 

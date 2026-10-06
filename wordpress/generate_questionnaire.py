@@ -447,24 +447,7 @@ textarea {
 
 
 def build_ga4() -> str:
-    return """<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-(function(){
-  var consent = (document.cookie.match(/xl_consent=([^;]+)/) || [])[1];
-  gtag('consent','default',{
-    'analytics_storage': consent === 'accepted' ? 'granted' : 'denied',
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'functionality_storage': 'granted',
-    'security_storage': 'granted'
-  });
-})();
-gtag('js', new Date());
-gtag('config', 'G-3JQLSQLPPM');
-</script>"""
+    return """<script src="/xc-assets/analytics.js"></script>"""
 
 
 def build_nav() -> str:
@@ -961,9 +944,7 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
   <meta name="description" content="Tell XC Ski Labs about your target race, technique, schedule, training access, and constraints for a custom ski training plan.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/questionnaire/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   <script>(function(){{
     try {{
       var u = new URL(location.href);

@@ -49,9 +49,7 @@ def generate_html() -> str:
   <meta name="description" content="{description}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/terms/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   {build_ga4_snippet()}
   <style>{build_css()}</style>
 </head>

@@ -1305,12 +1305,20 @@ def build_form_js() -> str:
 (function() {
   'use strict';
 
-  var STORAGE_KEY = 'xcskilabs_coaching_form';
+  var STORAGE_KEY = 'xcskilabs_coaching_form_v2';
+  var LEGACY_STORAGE_KEY = 'xcskilabs_coaching_form';
+  var DRAFT_LIFETIME_MS = 24 * 60 * 60 * 1000;
+  var SAVED_FIELDS = {
+    primary_goal: true, target_race: true, target_date: true,
+    years_skiing: true, discipline_pref: true, racing_experience: true,
+    preferred_days: true, time_preference: true, max_hours: true
+  };
   var TOTAL_SECTIONS = """ + str(TOTAL_SECTIONS) + """;
   var form = document.getElementById('coachingForm');
   var progressFill = document.getElementById('progressFill');
   var progressPct = document.getElementById('progressPct');
   var saveIndicator = document.getElementById('saveIndicator');
+  try { localStorage.removeItem(LEGACY_STORAGE_KEY); } catch(e) {}
 
   // ── localStorage Save / Restore ─────────────────────────
 
@@ -1319,7 +1327,7 @@ def build_form_js() -> str:
     var elements = form.elements;
     for (var i = 0; i < elements.length; i++) {
       var el = elements[i];
-      if (!el.name || el.name.startsWith('_')) continue;
+      if (!SAVED_FIELDS[el.name]) continue;
 
       if (el.type === 'checkbox') {
         if (!data[el.name]) data[el.name] = [];
@@ -1334,16 +1342,28 @@ def build_form_js() -> str:
   }
 
   function restoreFormData() {
-    var raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return;
+    var raw;
     try {
-      var data = JSON.parse(raw);
+      raw = localStorage.getItem(STORAGE_KEY);
     } catch(e) { return; }
+    if (!raw) return;
+    var draft;
+    try {
+      draft = JSON.parse(raw);
+      if (!draft || !draft.savedAt || Date.now() - draft.savedAt > DRAFT_LIFETIME_MS || draft.savedAt > Date.now()) {
+        localStorage.removeItem(STORAGE_KEY);
+        return;
+      }
+    } catch(e) {
+      try { localStorage.removeItem(STORAGE_KEY); } catch(storageError) {}
+      return;
+    }
+    var data = draft.values || {};
 
     var elements = form.elements;
     for (var i = 0; i < elements.length; i++) {
       var el = elements[i];
-      if (!el.name || el.name.startsWith('_')) continue;
+      if (!SAVED_FIELDS[el.name]) continue;
 
       if (el.type === 'checkbox') {
         var vals = data[el.name];
@@ -1361,7 +1381,9 @@ def build_form_js() -> str:
   function saveFormData() {
     var data = getFormData();
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      if (Object.keys(data).length) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({savedAt: Date.now(), values: data}));
+      }
     } catch(e) {
       showToast('Storage full \u2014 please submit now');
     }
@@ -1431,21 +1453,24 @@ def build_form_js() -> str:
 
   // ── Event Listeners ─────────────────────────────────────
 
-  form.addEventListener('input', function() {
-    saveFormData();
+  form.addEventListener('input', function(event) {
+    if (SAVED_FIELDS[event.target.name]) saveFormData();
     updateProgress();
     updateConditionals();
   });
 
-  form.addEventListener('change', function() {
-    saveFormData();
+  form.addEventListener('change', function(event) {
+    if (SAVED_FIELDS[event.target.name]) saveFormData();
     updateProgress();
     updateConditionals();
   });
 
   // Double-submit protection and clear localStorage on submit
   form.addEventListener('submit', function() {
-    localStorage.removeItem(STORAGE_KEY);
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem(LEGACY_STORAGE_KEY);
+    } catch(e) { /* Submission must proceed if storage is unavailable. */ }
     var btn = document.getElementById('submitBtn');
     if (btn) {
       btn.disabled = true;
@@ -1532,16 +1557,9 @@ def generate_page(output_dir: Path = None) -> Path:
   <title>Coaching Application | XC Ski Labs</title>
   <meta name="description" content="Apply for 1-on-1 XC ski coaching with XC Ski Labs. Detailed intake form covering goals, experience, technique, and training access.">
   <meta name="robots" content="noindex, nofollow">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   <style>{build_css()}</style>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-  <script>
-  window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}
-  (function(){{var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-  if(c==='declined')return;gtag('js',new Date());gtag('config','G-3JQLSQLPPM')}})();
-  </script>
+  <script src="/xc-assets/analytics.js"></script>
 </head>
 <body>
 
@@ -1553,7 +1571,7 @@ def generate_page(output_dir: Path = None) -> Path:
 
   <div class="gl-page-header">
     <h1>Coaching Application</h1>
-    <p>Tell us about yourself, your skiing, and your goals. The more detail you provide, the better we can tailor your coaching experience. Your responses are saved automatically and will be here if you need to come back.</p>
+    <p>Tell us about yourself, your skiing, and your goals. Your race goal and schedule preferences are saved on this device for 24 hours. Health answers are only sent when you submit.</p>
   </div>
 
   <form id="coachingForm" action="{esc(FORM_ACTION)}" method="POST">
@@ -1573,7 +1591,7 @@ def generate_page(output_dir: Path = None) -> Path:
 
 </main>
 
-<div class="gl-save-indicator" id="saveIndicator">Draft saved</div>
+<div class="gl-save-indicator" id="saveIndicator">Goal and schedule draft saved</div>
 <div class="gl-toast" id="glToast"></div>
 
 {build_footer()}

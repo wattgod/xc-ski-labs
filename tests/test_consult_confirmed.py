@@ -71,7 +71,7 @@ class TestPageGeneration:
         assert "noindex" in confirmed_html
 
     def test_has_ga4(self, confirmed_html):
-        assert "G-3JQLSQLPPM" in confirmed_html
+        assert '<script src="/xc-assets/analytics.js"></script>' in confirmed_html
 
 
 class TestHero:
