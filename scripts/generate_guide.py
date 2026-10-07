@@ -451,9 +451,7 @@ def assemble_page(title: str, description: str, robots: str, canonical: str, bod
   <meta name="description" content="{esc(description)}">
   <meta name="robots" content="{esc(robots)}">
   <link rel="canonical" href="{esc(canonical)}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   {jsonld}
   {build_ga4_snippet()}
   <style>{build_css()}</style>

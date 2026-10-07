@@ -1362,9 +1362,7 @@ def generate_page():
   <meta name="description" content="{esc(description)}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/training-plans/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
 
   <!-- OG Meta -->
   <meta property="og:title" content="{esc(title)}">
@@ -1399,13 +1397,7 @@ def generate_page():
   </script>
 
   <!-- GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', 'G-3JQLSQLPPM');
-  </script>
+  <script src="/xc-assets/analytics.js"></script>
 
   <!-- JSON-LD -->
   <script type="application/ld+json">

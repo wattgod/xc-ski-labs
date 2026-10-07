@@ -127,8 +127,8 @@ class TestPageGeneration:
         assert "/consulting/" in consulting_html
 
     def test_has_ga4(self, consulting_html):
-        assert GA4_ID in consulting_html
-        assert "googletagmanager.com" in consulting_html
+        assert '<script src="/xc-assets/analytics.js"></script>' in consulting_html
+        assert "googletagmanager.com" not in consulting_html
 
     def test_has_jsonld(self, consulting_html):
         assert 'application/ld+json' in consulting_html

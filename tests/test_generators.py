@@ -513,7 +513,7 @@ class TestQuestionnaireGenerator:
 
     def test_ga4_and_cookie_consent_present(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
-        assert "G-3JQLSQLPPM" in html
+        assert '<script src="/xc-assets/analytics.js"></script>' in html
         assert "xl_consent" in html
         assert "gl-cookie-consent" in html
         assert "Accept" in html

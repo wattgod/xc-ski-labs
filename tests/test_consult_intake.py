@@ -87,8 +87,8 @@ class TestPageGeneration:
         assert "/consulting/intake/" in intake_html
 
     def test_has_ga4(self, intake_html):
-        assert "G-3JQLSQLPPM" in intake_html
-        assert "googletagmanager.com" in intake_html
+        assert '<script src="/xc-assets/analytics.js"></script>' in intake_html
+        assert "googletagmanager.com" not in intake_html
 
     def test_has_meta_robots_noindex(self, intake_html):
         assert 'name="robots"' in intake_html

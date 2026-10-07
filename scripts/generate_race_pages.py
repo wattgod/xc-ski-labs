@@ -1652,12 +1652,7 @@ def build_capture_js() -> str:
 
 def build_ga4_snippet() -> str:
     """GA4 tracking snippet with cookie consent gating."""
-    return """<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-<script>
-window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-(function(){var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-if(c==='declined')return;gtag('js',new Date());gtag('config','G-3JQLSQLPPM')})();
-</script>"""
+    return """<script src="/xc-assets/analytics.js"></script>"""
 
 
 def build_cookie_consent() -> str:
@@ -3210,9 +3205,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/race/{esc(slug)}/">
   <link rel="alternate" type="text/markdown" href="https://xcskilabs.com/race/{esc(slug)}.md">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
   <meta property="og:type" content="article">

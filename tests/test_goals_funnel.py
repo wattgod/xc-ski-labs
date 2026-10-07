@@ -51,7 +51,7 @@ class TestGoalsPage:
 
     def test_has_the_shared_ga4_property(self):
         html = goals.generate_page()
-        assert "G-3JQLSQLPPM" in html
+        assert '<script src="/xc-assets/analytics.js"></script>' in html
 
     def test_posts_to_the_shared_worker_with_the_xc_brand(self):
         html = goals.generate_page()
@@ -311,4 +311,4 @@ def test_plan_intake_scrubs_private_token_before_ga4_loads():
     import tempfile
     with tempfile.TemporaryDirectory() as directory:
         html = questionnaire.generate_page(Path(directory)).read_text()
-    assert html.index("sessionStorage.setItem('xc_goal_prefill_token'") < html.index("googletagmanager.com/gtag/js")
+    assert html.index("sessionStorage.setItem('xc_goal_prefill_token'") < html.index('/xc-assets/analytics.js')
