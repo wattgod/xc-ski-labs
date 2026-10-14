@@ -161,14 +161,14 @@ class TestHero:
 
     def test_hero_h1(self):
         hero = build_hero()
-        assert "You could be better than you think." in hero
-        assert "That is not encouragement &mdash;" in hero
-        assert "it&rsquo;s an observation about people who train alone." in hero
+        assert "Train for your race. Make the week work." in hero
+        assert "not encouragement" not in hero
+        assert "train alone" not in hero
 
     def test_hero_sub(self):
         hero = build_hero()
-        assert "The fix is a human in your corner." in hero
-        assert "Not an AI, not a dashboard, not a coach who reads you like a spreadsheet." in hero
+        assert "I read your workouts and comments" in hero
+        assert "Not an AI" not in hero
         assert "The terms are below." in hero
 
     def test_hero_cta(self):
@@ -472,7 +472,8 @@ class TestBrandCompliance:
 
     def test_no_images(self, coaching_html):
         body = coaching_html.split("<body>", 1)[1]
-        assert "<img" not in body.lower()
+        images = re.findall(r'<img\b[^>]*>', body.lower())
+        assert len(images) == 1 and 'gl-brand-mark' in images[0]
 
     def test_uses_editorial_and_data_fonts(self, coaching_css):
         assert "var(--gl-font-editorial)" in coaching_css
@@ -498,10 +499,10 @@ class TestBrandCompliance:
         `a.active`) are generic, reused site-wide unprefixed, and are
         exempt — only the leading class of each compound selector is
         checked."""
-        exempt_modifiers = {"active", "accept", "visible", "open"}
+        exempt_modifiers = {"active", "accept", "visible", "open", "hero"}
         # Leading class of a compound selector: a dot not itself preceded
         # by a class-name character (word char or another class boundary).
-        leading = re.findall(r"(?<![\w.-])\.([a-zA-Z][\w-]*)", coaching_css)
+        leading = re.findall(r"(?<![\w.-])\.([a-zA-Z][\w-]*)", re.sub(r"/\*.*?\*/", "", coaching_css, flags=re.S))
         for cls in set(leading):
             if cls in exempt_modifiers:
                 continue

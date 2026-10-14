@@ -452,7 +452,7 @@ class TestTrainingPlansPage:
         assert "WEEKLY LOAD" in html
         assert "Generated ski weeks are not available yet" in html
         assert "Build Phase &mdash; Week 3 of 4" not in html
-        assert "sample_week_number" in html
+        assert "responseData.sample_weeks" in html
         assert "/api/training-plan-preview" in html
         assert "session.structure" in html
         assert "structure.polyline" in html
