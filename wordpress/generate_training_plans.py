@@ -904,10 +904,10 @@ def build_plan_preview():
         race=race,
         demands=race["demands"],
         race_options=races,
-        questionnaire_url="/questionnaire/",
-        heading=f"See a {race['name']} week before you buy.",
-        lede=("Choose your race and the week you actually have. See how those "
-              "constraints and the race's demands shape a calendar preview."),
+        questionnaire_url="/questionnaire/?src=plan_preview",
+        heading="Plan around your ski race.",
+        lede=("Choose your race and available training week. Your "
+              "schedule and race details carry into the questionnaire. Generated ski weeks are not available yet."),
     )
 
 
@@ -1170,8 +1170,7 @@ def build_pricing(stripe_data, payment_links):
       {grid_cells}
     </div>
     <div class="gl-pricing-note">
-      Plans 17 weeks or longer cap at ${cap_price}. Less than a single wax session
-      at a Worldloppet feed zone.
+      Plans 17 weeks or longer cap at ${cap_price}. Your total is shown before payment.
     </div>
     <a href="/questionnaire/" class="gl-cta-btn">Start Your Plan</a>
   </div>
@@ -1339,7 +1338,7 @@ def generate_page():
     plan_simulator_js = get_plan_simulator_js()
     how_it_works = build_how_it_works()
     deliverables = build_deliverables()
-    sample_week = build_sample_week()
+    sample_week = ""  # Athlete-facing dose awaits the native Motoren release gate.
     pricing = build_pricing(stripe_data, payment_links)
     faq = build_faq()
     final_cta = build_final_cta()

@@ -1286,7 +1286,7 @@ a:focus-visible, button:focus-visible {{
       <span class="gl-hp-ladder-num">02</span>
       <h2 class="gl-hp-ladder-headline">Get a plan</h2>
       <p class="gl-hp-ladder-body">Built for the race on your calendar, around the hours you actually have.</p>
-      <a href="/training-plans/" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>
+      <a href="/training-plans/#custom-plan-preview" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>
     </div>
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">03</span>
@@ -1370,7 +1370,7 @@ a:focus-visible, button:focus-visible {{
       <div class="gl-rung">
         <span class="gl-rung-kicker">Custom</span>
         <h3>Custom plan</h3>
-        <p>Your race, your hours, your history. Built from the intake.</p>
+        <p>Built around your target race, training hours, technique, and access to snow or dry-land equipment.</p>
         <span class="gl-rung-price">$60-$249</span><br>
         <a class="gl-rung-btn" href="/questionnaire/">Start the intake</a>
       </div>

@@ -371,7 +371,7 @@ class TestHomepage:
         # Cell 02 — Get a plan
         assert '<h2 class="gl-hp-ladder-headline">Get a plan</h2>' in content
         assert "Built for the race on your calendar, around the hours you actually have." in content
-        assert '<a href="/training-plans/" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>' in content
+        assert '<a href="/training-plans/#custom-plan-preview" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>' in content
 
         # Cell 03 — Coaching
         assert '<h2 class="gl-hp-ladder-headline">Find out what you could be.</h2>' in content

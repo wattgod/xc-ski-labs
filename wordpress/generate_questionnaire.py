@@ -845,6 +845,17 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   // A token link is a fresh lead's intake. Never show a prior visitor's
   // autosaved answers from a shared browser while the lookup is in flight.
   if (!goalsMode || GOAL_STORAGE_KEY) restoreFormData();
+  if (params.get('src') === 'plan_preview') {{
+    var previewHours = Number(params.get('hours'));
+    var previewDate = params.get('race_date') || '';
+    var hoursInput = document.getElementById('weeklyHours');
+    var dateInput = document.getElementById('raceDate');
+    if (hoursInput && !hoursInput.value && previewHours >= 4 && previewHours <= 18) hoursInput.value = previewHours;
+    if (dateInput && !dateInput.value && /^\\d{{4}}-\\d{{2}}-\\d{{2}}$/.test(previewDate)) {{
+      var parsedPreviewDate = new Date(previewDate + 'T12:00:00Z');
+      if (!isNaN(parsedPreviewDate.getTime()) && parsedPreviewDate.toISOString().slice(0, 10) === previewDate) dateInput.value = previewDate;
+    }}
+  }}
   applyRacePrefill();
   if (goalsMode) {{
     document.querySelectorAll('.gl-section[data-section="3"], .gl-section[data-section="6"]').forEach(function(section) {{
