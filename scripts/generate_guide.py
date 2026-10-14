@@ -225,7 +225,7 @@ def render_block(block, chapter, content):
     if kind == "zone_visualizer":
         zones=block.get("zones",[])
         body=reference_bars([(zone["name"],float(zone["share"].replace("~","").replace("%",""))) for zone in zones],100,'%')
-        body+=reference_table({'title':'Effort cues','headers':['Effort','How it feels','Use'],'rows':[[zone['name'],zone['cue'],zone['use']] for zone in zones]},inline)
+        body+=reference_table({'title':'Effort cues','headers':['Effort','HR and RPE target','Use'],'rows':[[zone['name'],zone['cue'],zone['use']] for zone in zones]},inline)
         return reference_figure('How this chapter distributes training effort',body,'Illustrative proportions from this chapter. Your prescribed plan determines your own workload.',example=True)
     if kind == "flashcard":
         return '<div class="guide-visual-surface">'+''.join('<details class="guide-knowledge"><summary>'+esc(card.get('front',''))+'</summary>'+_paragraphs(card.get('back',''),source_map)+'</details>' for card in block.get('cards',[]))+'</div>'
