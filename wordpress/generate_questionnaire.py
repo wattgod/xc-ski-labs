@@ -851,6 +851,10 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     var hoursInput = document.getElementById('weeklyHours');
     var dateInput = document.getElementById('raceDate');
     if (hoursInput && !hoursInput.value && previewHours >= 4 && previewHours <= 18) hoursInput.value = previewHours;
+    var previewDays = (params.get('days') || '').split(',');
+    var daysInput = document.getElementById('daysWeek');
+    var dayNames = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+    if (daysInput && !daysInput.value && previewDays.length >= 3 && previewDays.length <= 7 && previewDays.every(function(day) {{ return dayNames.indexOf(day) !== -1; }}) && new Set(previewDays).size === previewDays.length) daysInput.value = previewDays.length;
     if (dateInput && !dateInput.value && /^\\d{{4}}-\\d{{2}}-\\d{{2}}$/.test(previewDate)) {{
       var parsedPreviewDate = new Date(previewDate + 'T12:00:00Z');
       if (!isNaN(parsedPreviewDate.getTime()) && parsedPreviewDate.toISOString().slice(0, 10) === previewDate) dateInput.value = previewDate;
