@@ -37,6 +37,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.endure_offer import get_endure_offer_html
 
 SITE_BASE_URL = "https://xcskilabs.com"
 APPLY_URL = "/coaching/apply/"
@@ -769,7 +770,7 @@ def build_footer() -> str:
     <a href="/terms/">Terms</a>
   </div>
   <div class="gl-coach-footer-copy">&copy; 2026 XC Ski Labs. All rights reserved.</div>
-</footer>"""
+</footer>""".replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
 # ── Section builders ─────────────────────────────────────────────

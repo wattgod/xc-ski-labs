@@ -27,6 +27,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.endure_offer import get_endure_offer_html
 from plan_simulator import (get_plan_simulator_css, get_plan_simulator_js,
                             render_plan_simulator)
 
@@ -1272,7 +1273,7 @@ def build_footer():
   <a href="/terms/">Terms</a>
   <div class="gl-footer-brand">XC Ski Labs &mdash; Built for skiers who chase start lines.</div>
 </footer>
-"""
+""".replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
 def build_jsonld(stripe_data):
