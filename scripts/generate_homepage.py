@@ -20,6 +20,11 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Optional
 
+try:
+    from scripts.endure_offer import get_endure_offer_html
+except ModuleNotFoundError:
+    from endure_offer import get_endure_offer_html
+
 # ── Paths ──────────────────────────────────────────────────────
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -1405,6 +1410,7 @@ a:focus-visible, button:focus-visible {{
       <a href="/terms/" class="footer-link">Terms</a>
     </div>
   </div>
+{get_endure_offer_html()}
 </footer>
 
 <!-- ── Cookie Consent ── -->

@@ -28,6 +28,11 @@ try:
 except ModuleNotFoundError:  # Supports direct execution from scripts/.
     from text_utils import strip_emoji
 
+try:
+    from scripts.endure_offer import get_endure_offer_html
+except ModuleNotFoundError:
+    from endure_offer import get_endure_offer_html
+
 # ── Paths ──────────────────────────────────────────────────────
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -3056,7 +3061,7 @@ def build_footer(race: dict) -> str:
     <span class="gl-footer-links"><a href="/search/">Back to search</a><a href="/">Home</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></span>
   </div>
 </footer>
-"""
+""".replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
 def build_jsonld(race: dict) -> str:
