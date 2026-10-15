@@ -1,0 +1,50 @@
+[
+  {
+    "brand": "road",
+    "pose": "point",
+    "file": "coach-road-point.svg",
+    "character_version": "gravel-god-v6.2-locked-2026-10-02",
+    "locked_head_art_preserved": true,
+    "source_repo_modified": false
+  },
+  {
+    "brand": "road",
+    "pose": "arms_crossed",
+    "file": "coach-road-arms_crossed.svg",
+    "character_version": "gravel-god-v6.2-locked-2026-10-02",
+    "locked_head_art_preserved": true,
+    "source_repo_modified": false
+  },
+  {
+    "brand": "road",
+    "pose": "stand",
+    "file": "coach-road-stand.svg",
+    "character_version": "gravel-god-v6.2-locked-2026-10-02",
+    "locked_head_art_preserved": true,
+    "source_repo_modified": false
+  },
+  {
+    "brand": "ski",
+    "pose": "point",
+    "file": "coach-ski-point.svg",
+    "character_version": "gravel-god-v6.2-locked-2026-10-02",
+    "locked_head_art_preserved": true,
+    "source_repo_modified": false
+  },
+  {
+    "brand": "ski",
+    "pose": "arms_crossed",
+    "file": "coach-ski-arms_crossed.svg",
+    "character_version": "gravel-god-v6.2-locked-2026-10-02",
+    "locked_head_art_preserved": true,
+    "source_repo_modified": false
+  },
+  {
+    "brand": "ski",
+    "pose": "stand",
+    "file": "coach-ski-stand.svg",
+    "character_version": "gravel-god-v6.2-locked-2026-10-02",
+    "locked_head_art_preserved": true,
+    "source_repo_modified": false
+  }
+]

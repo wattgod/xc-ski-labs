@@ -1,0 +1,183 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "brand": "gravel",
+      "width": 1440,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/gravel-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-point.svg",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "gravel",
+      "width": 1024,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/gravel-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-point.svg",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "gravel",
+      "width": 390,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/gravel-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-point.svg",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "road",
+      "width": 1440,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/road-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-road-point.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "road",
+      "width": 1024,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/road-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-road-point.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "road",
+      "width": 390,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/road-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-road-point.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "road",
+      "mode": 0,
+      "allSteps": true
+    },
+    {
+      "brand": "road",
+      "mode": 1,
+      "allSteps": true
+    },
+    {
+      "brand": "road",
+      "mode": 2,
+      "allSteps": true
+    },
+    {
+      "brand": "road",
+      "keyboardLabels": true
+    },
+    {
+      "brand": "ski",
+      "width": 1440,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/ski-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-ski-point.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "ski",
+      "width": 1024,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/ski-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-ski-point.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "ski",
+      "width": 390,
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/ski-setting.png",
+          "ok": true
+        },
+        {
+          "src": "assets/coach-ski-point.png",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "brand": "ski",
+      "mode": 0,
+      "allSteps": true
+    },
+    {
+      "brand": "ski",
+      "mode": 1,
+      "allSteps": true
+    },
+    {
+      "brand": "ski",
+      "mode": 2,
+      "allSteps": true
+    },
+    {
+      "brand": "ski",
+      "mode": 3,
+      "allSteps": true
+    },
+    {
+      "brand": "ski",
+      "keyboardLabels": true
+    }
+  ]
+}

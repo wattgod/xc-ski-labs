@@ -1,0 +1,14 @@
+{
+  "locked_character_version": "gravel-god-v6.2-locked-2026-10-02",
+  "verification": "Compare each outfit with a fresh, unmodified street-outfit render at the same camera and pose. The older chapter render used a different view.",
+  "canonical_head_image_hashes_at_matching_view": [
+    "1bdd6adadee06aec51ba5414ea79bda0a84bf3acdbaff7276a9ad9e9a5100969",
+    "2d0845e7390155416bf875f08120a2f79986c42114960d252cd29f84df51ea4d",
+    "5355cf673bd844aa31a2c1fa30527bb56c5bea5b50279c4beddefda8918b8be3",
+    "6d713fe5f3045251871f80ad4cd5a7aeca937f8ff02714a7e686c2361a297c74",
+    "d82004a8fd6b65fdd25f04fdfc6156507999f638809e7d3304d0bc9c32421d03"
+  ],
+  "road_matches_locked_head": true,
+  "ski_matches_locked_head": true,
+  "canonical_character_files_edited": false
+}
