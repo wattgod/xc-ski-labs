@@ -208,7 +208,31 @@ def build_jump_nav(chapters: list[dict[str, Any]]) -> str:
     return f'<nav class="gl-guide-jump" aria-label="Guide chapters"><div class="gl-guide-jump-inner"><a href="/guide/">Guide home</a>{"".join(links)}</div></nav>'
 
 
-def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[str, Any]) -> str:
+from guide_reference import table as reference_table, figure as reference_figure, sequence as reference_sequence, bars as reference_bars, css as reference_css
+
+
+def render_block(block, chapter, content):
+    source_map = {source["id"]: i+1 for i,source in enumerate(chapter.get("sources",[]))}
+    inline = lambda value: _md_inline(value,source_map)
+    kind = block.get("type")
+    if kind == "data_table":
+        return reference_table(block,inline)
+    if kind in {"process_list","timeline"}:
+        key = "steps" if kind == "process_list" else "items"
+        items = [(item.get("title") or item.get("label", ""),item.get("content", "")) for item in block.get(key,[])]
+        body = reference_sequence(items,lambda value: _paragraphs(value,source_map))
+        return reference_figure(block.get("title", "Reference"),body, 'Read with the chapter guidance and sources below.')
+    if kind == "zone_visualizer":
+        zones=block.get("zones",[])
+        body=reference_bars([(zone["name"],float(zone["share"].replace("~","").replace("%",""))) for zone in zones],100,'%')
+        body+=reference_table({'title':'Effort cues','headers':['Effort','HR and RPE target','Use'],'rows':[[zone['name'],zone['cue'],zone['use']] for zone in zones]},inline)
+        return reference_figure('How this chapter distributes training effort',body,'Illustrative proportions from this chapter. Your prescribed plan determines your own workload.',example=True)
+    if kind == "flashcard":
+        return '<div class="guide-visual-surface">'+''.join('<details class="guide-knowledge"><summary>'+esc(card.get('front',''))+'</summary>'+_paragraphs(card.get('back',''),source_map)+'</details>' for card in block.get('cards',[]))+'</div>'
+    return render_block_legacy(block,chapter,content)
+
+
+def render_block_legacy(block: dict[str, Any], chapter: dict[str, Any], content: dict[str, Any]) -> str:
     kind = block.get("type")
     source_map = {s["id"]: i + 1 for i, s in enumerate(chapter.get("sources", []))}
     if kind == "prose":
@@ -253,7 +277,7 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
             cards.append(f'<button class="gl-wax-card gl-wax-card-blue" type="button" aria-pressed="false"><span class="gl-wax-card-inner"><span class="gl-wax-card-face gl-wax-card-front"><span class="gl-wax-card-kicker">Flashcard</span><span><h3>{esc(card.get("front", ""))}</h3><p>Tap to reveal.</p></span></span><span class="gl-wax-card-face gl-wax-card-back"><span class="gl-wax-card-kicker">Answer</span><span><h3>Answer</h3>{_paragraphs(card.get("back", ""), source_map)}</span></span></span></button>')
         return f'<div class="gl-guide-block gl-flashcard"><div class="gl-wax-cards">{"".join(cards)}</div></div>'
     if kind == "calculator":
-        return f'<div class="gl-guide-block gl-calc" data-guide-calculator><h3>{esc(block.get("title", ""))}</h3><p>{esc(_plain(block.get("description", "")))}</p><label class="gl-mono">Hours <input type="number" min="0" max="24" step="1" value="6" data-hours-input></label><div class="gl-calc-output" data-hours-output>6 hours: two easy sessions, one technique session, one longer ski.</div></div>'
+        return f'<div class="gl-guide-block gl-calc" data-guide-calculator><h3>{esc(block.get("title", ""))}</h3><p>{esc(_plain(block.get("description", "")))}</p><label class="gl-mono">Hours <input type="number" min="0" max="24" step="1" value="6" data-hours-input></label><div class="gl-calc-output" data-hours-output>6 hours: two easy workouts, one technique workout, one longer ski.</div></div>'
     if kind == "knowledge_check":
         opts = []
         correct = ""
@@ -359,6 +383,26 @@ def build_jsonld(name: str, description: str, url: str, kind: str = "Article") -
     return '<script type="application/ld+json">' + _safe_json_for_script(obj, ensure_ascii=False, separators=(",", ":")) + "</script>"
 
 
+_base_guide_css = build_css
+
+def build_css():
+    return _base_guide_css()+reference_css(
+        'var(--gl-ink)','var(--gl-paper)','var(--gl-white)','var(--gl-hairline)',
+        'var(--gl-rust)','var(--gl-font-data)','var(--gl-font-editorial)')+"""
+.gl-callout { border:0; border-block:1px solid var(--gl-ink); background:transparent; padding:24px 0; }
+.gl-race-ref { border-left:0; }
+.gl-guide-block h3,.gl-callout h3 { font-style:normal; text-transform:none; letter-spacing:0; line-height:1.3; }
+.gl-guide-card h3 { font-style:normal; }
+.gl-guide-tag,.gl-guide-card-kicker,.gl-guide-gate-label { font-size:12px; letter-spacing:.04em; color:var(--gl-caption); }
+.gl-guide-tag--free { color:var(--gl-ink); }
+.gl-guide-plate-num { opacity:1; fill:var(--gl-caption-on-dark); font-style:normal; }
+.gl-guide-plate .gl-plate-title { font-size:15px; fill:var(--gl-caption-on-dark); }
+.gl-plate-bar,.gl-plate-zone { fill:var(--gl-ochre); }
+.guide-knowledge { border-block:1px solid var(--gl-hairline); padding:16px 0; }
+.guide-knowledge summary { min-height:44px; cursor:pointer; font:700 18px/1.4 var(--gl-font-editorial); }
+"""
+
+
 def build_script() -> str:
     return build_interactions_js() + """
 <script>
@@ -390,7 +434,7 @@ def build_script() -> str:
     if (!input || !output) return;
     function update() {
       var hours = parseFloat(input.value || '0');
-      var label = hours < 4 ? 'two short easy sessions and one technique touch' : hours < 8 ? 'two easy sessions, one technique session, one longer ski' : hours < 12 ? 'three aerobic sessions, one interval session, one technique block, one long ski' : 'a planned week with volume, intensity, strength, and recovery protected';
+      var label = hours < 4 ? 'two short easy workouts and one technique touch' : hours < 8 ? 'two easy workouts, one technique workout, one longer ski' : hours < 12 ? 'three aerobic workouts, one interval workout, one technique block, one long ski' : 'a planned week with volume, intensity, strength, and recovery protected';
       output.textContent = hours + ' hours: ' + label + '.';
     }
     input.addEventListener('input', update);

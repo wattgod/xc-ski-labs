@@ -786,19 +786,16 @@ def _sec_head(num: str, title: str) -> str:
 # SANCTIONED EXCEPTION to the anti-defensive-messaging rule (see
 # docs/BRAND_GUIDELINES.md, section 7 "Voice" — phrases naming what
 # something ISN'T are normally banned because they plant doubt nobody
-# had). The sub-line below ("Not an AI, not a dashboard, not a coach
-# who reads you like a spreadsheet") is an explicit, owner-approved
 # exception. Matti sanctioned this specific line 2026-07-18 as an
 # aspirational "corner" frame — it names what you're getting, not a
 # defensive rebuttal to an objection nobody raised. This /coaching/
-# hero is the precedent-setting instance for XC Ski Labs (it mirrors
 # the separately-approved exception already shipped on Roadie Labs'
 # /coaching/ hero).
 def build_hero() -> str:
     return f'''<section class="gl-coach-band gl-coach-hero" id="hero">
     <div class="gl-coach-inner">
-      <h1>You could be better than you think. That is not encouragement &mdash; it&rsquo;s an observation about people who train alone.</h1>
-      <p class="gl-coach-tagline">The fix is a human in your corner. Not an AI, not a dashboard, not a coach who reads you like a spreadsheet. The terms are below.</p>
+      <h1>Train for your race. Make the week work.</h1>
+      <p class="gl-coach-tagline">I read your workouts and comments, ask what happened, and adjust the week around your racing and your life. The terms are below.</p>
       <a href="{APPLY_URL}" class="gl-coach-hero-cta">GET ME IN YOUR CORNER &rarr;</a>
     </div>
   </section>'''
@@ -809,7 +806,7 @@ def build_terms() -> str:
         (
             "01",
             "Every file, read by a person",
-            "Software flags a number. I notice the interval you bailed on and ask why.",
+            "I read the workout file and your comments. If an interval fell apart, we look at what happened before deciding what comes next.",
         ),
         (
             "02",
@@ -819,7 +816,7 @@ def build_terms() -> str:
         (
             "03",
             "The plan moves when your life does",
-            "Sick kid, work trip, tender knee &mdash; the week adjusts that week, not after three missed targets teach an algorithm what a person would have seen on Tuesday.",
+            "Sick kid, work trip, tender knee &mdash; tell me what changed. We adjust the workouts around the week you actually have.",
         ),
         (
             "04",

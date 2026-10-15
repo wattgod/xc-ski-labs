@@ -452,7 +452,7 @@ class TestTrainingPlansPage:
         assert "WEEKLY LOAD" in html
         assert "Generated ski weeks are not available yet" in html
         assert "Build Phase &mdash; Week 3 of 4" not in html
-        assert "sample_week_number" in html
+        assert "responseData.sample_weeks" in html
         assert "/api/training-plan-preview" in html
         assert "session.structure" in html
         assert "structure.polyline" in html
@@ -868,3 +868,16 @@ class TestEdgeCases:
                             if f.name != "_schema.json"])
         assert int(m.group(1)) == profile_count, \
             f"Homepage shows {m.group(1)} races but {profile_count} profiles exist"
+
+
+def test_ski_sales_page_describes_review_until_generation_is_live():
+    from pathlib import Path
+    page = (Path(__file__).parents[1] / 'output/training-plans/index.html').read_text()
+    assert 'Generated ski plans are not live yet.' in page
+    assert 'Opening this page does not confirm' not in page
+    assert 'power targets' not in page
+    assert 'Every workout pushed directly' not in page
+    assert '3 workouts per week in base' not in page
+    assert 'https://schema.org/InStock' not in page
+    assert 'https://schema.org/OutOfStock' in page
+    assert 'does not purchase a plan or start automatic delivery' in page

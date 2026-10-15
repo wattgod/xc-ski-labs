@@ -234,7 +234,7 @@
                 },
                 {
                   "title": "Do I need a power meter equivalent?",
-                  "content": "No. XC pacing runs on effort and heart rate. A ski erg gives numbers if you love numbers, but the sport's dashboard is your breathing."
+                  "content": "No. XC workouts use HR zones calibrated for the exercise mode and RPE on a 1–10 scale. Ski-erg power can be useful on that device, but it does not supply an on-snow power target."
                 },
                 {
                   "title": "Can I train for this on rollerskis alone?",
@@ -520,7 +520,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "You need three intensities, honestly separated. The sport's dashboard is breathing, not gadgets.\n\nEasy means conversational — full sentences, nose-breathing on the flats, the pace that feels embarrassingly slow the first month and turns out to be where the engine is built. Most of your time lives here. When easy drifts toward medium, which it always tries to do, both ends of your training get worse: too tired to go hard, too hard to recover.\n\nThreshold is comfortably hard — phrases, not sentences; sustainable for tens of minutes; the intensity of a long climb taken seriously. This is race pace for most loppet skiers, and you visit it on purpose once or twice a week in season.\n\nHard is 3-to-8-minute-interval hard: single words, honest discomfort, technique holding by will. It sharpens the top end and it is the first thing to cut when life compresses a week, because the base pays the bills.\n\nThe proportions: roughly 80 percent easy, 20 percent not-easy[^seiler-kjerland-2006], counted over a month rather than policed daily. This split is the most replicated finding in endurance training, it's how the Norwegians train, and it survives contact with a normal life better than any exotic alternative."
+              "content": "Use heart rate and RPE together. The workout should name the intensity domain, the RPE target on a 1–10 scale, and the HR zone calibrated for that mode: classic, skate, running, or rollerskiing. Cycling zones do not automatically transfer to skiing.[^matti-original-xc-guide]\n\nEasy work builds endurance. Threshold work is controlled, sustained effort. Hard repeats develop the upper end while keeping the prescribed movement intact. The ranges below help you interpret the effort; your workout supplies the exact target and duration. HR responds slowly at the start of a repeat, so do not surge to chase the number.\n\nThe time split shown is an illustrative example, not a required weekly recipe. Training distribution varies with your background, race, and recovery.[^seiler-kjerland-2006]"
             },
             {
               "type": "zone_visualizer",
@@ -528,30 +528,30 @@
                 {
                   "name": "Easy",
                   "share": "~80%",
-                  "cue": "Full sentences. Nose breathing. Feels too slow.",
-                  "use": "Engine construction. Most sessions."
+                  "cue": "RPE 2–4/10; calibrated easy HR zone.",
+                  "use": "Endurance and recovery workouts."
                 },
                 {
                   "name": "Threshold",
                   "share": "~15%",
-                  "cue": "Phrases. Comfortably hard. A serious climb.",
-                  "use": "Race pace. 1-2 focused sessions/week in season."
+                  "cue": "RPE 6–8/10; calibrated threshold HR zone.",
+                  "use": "Controlled sustained work, when prescribed."
                 },
                 {
                   "name": "Hard",
                   "share": "~5%",
-                  "cue": "Words. 3-8 min repeats. Technique on will.",
-                  "use": "Top-end sharpening. First thing cut in a bad week."
+                  "cue": "RPE 8–9/10; calibrated high-intensity HR zone.",
+                  "use": "Hard repeats, when prescribed."
                 }
               ]
             },
             {
               "type": "personalized_content",
               "variants": {
-                "lantern_rouge": "At 0-4 hours, skip formal intervals entirely: make one session a week 'hilly and honest' and keep the rest conversational. Consistency IS your intensity plan.",
-                "finisher": "One threshold session a week, everything else easy. Your gains come from never missing the long session, not from interval heroics.",
-                "wave_chaser": "The classic week: one threshold, one hard-intervals, one long easy, the rest genuinely easy. Guard the easy days from ambition.",
-                "elite_wave": "You can carry two intensity days plus a long threshold-tempo. The discipline that separates you now is how slow your easy days are."
+                "lantern_rouge": "Use the HR and RPE targets in your workout. Available hours alone do not determine how many hard workouts you can recover from.",
+                "finisher": "Use the HR and RPE targets in your workout. Available hours alone do not determine how many hard workouts you can recover from.",
+                "wave_chaser": "Use the HR and RPE targets in your workout. Available hours alone do not determine how many hard workouts you can recover from.",
+                "elite_wave": "Use the HR and RPE targets in your workout. Available hours alone do not determine how many hard workouts you can recover from."
               }
             }
           ]
@@ -613,7 +613,7 @@
                 },
                 {
                   "front": "What's bounding?",
-                  "back": "Uphill running with poles, exaggerating ski motion. The classic dry-land intensity session: brutal, specific, older than your coach."
+                  "back": "Uphill running with poles, exaggerating ski motion. The classic dry-land intensity workout: brutal, specific, older than your coach."
                 }
               ]
             },
@@ -636,6 +636,42 @@
                   "correct": false,
                   "response": "A taper reveals fitness; it can't create any. Chapter 7 covers what it CAN do."
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hr-rpe-controls",
+          "title": "Workout targets: HR and RPE",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "Use heart rate and RPE to follow the prescribed intensity. Your original ski training guide uses ski threshold heart rate as a reference and RPE when a monitor is unavailable. Keep the measurement basis clear: threshold HR and maximum HR are different references.[^matti-original-xc-guide]"
+            },
+            {
+              "type": "data_table",
+              "caption": "Read the target before the workout",
+              "headers": [
+                "Control",
+                "What you need",
+                "How to use it"
+              ],
+              "rows": [
+                [
+                  "Heart rate",
+                  "A calibrated range for the ski mode you are training",
+                  "Follow the prescribed HR range. Do not copy cycling zones or infer BPM from age."
+                ],
+                [
+                  "RPE",
+                  "The prescribed range on a 1–10 effort scale",
+                  "Use the numeric effort target, including during warm-up and recovery."
+                ],
+                [
+                  "Technique",
+                  "The lesson’s movement cues and stop conditions",
+                  "Reduce the effort when you cannot maintain the movement. Breathing is a cross-check, not the workout target."
+                ]
               ]
             }
           ]
@@ -697,6 +733,14 @@
           "publisher": "FasterSkier",
           "year": 2005,
           "url": "https://fasterskier.com/fsarticle/what-are-moose-hoofs/"
+        },
+        {
+          "id": "matti-original-xc-guide",
+          "title": "XC Ski Guide — original HR and RPE training guidance",
+          "author": "Matti Rowe",
+          "publisher": "Summit Endurance Academy",
+          "year": 2017,
+          "url": "https://docs.google.com/document/d/17UikAgE4vYNV7E4Jlx1bXiOZfi98eCieuUmTO4zqF_s/edit"
         }
       ]
     },
@@ -710,6 +754,37 @@
       "hero_image": null,
       "sections": [
         {
+          "id": "glide-learning-progression",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The Glide Labs course starts each technique with body position, then teaches timing, then power. Start with the part that is breaking down. Adding force to mistimed movement usually makes the error harder to see.[^glide-original-course]"
+            },
+            {
+              "type": "process_list",
+              "title": "Learn the movement before adding power",
+              "steps": [
+                {
+                  "title": "Body position",
+                  "content": "Find balance over the gliding ski. Check ankle and knee flexion and the position of your hips. Use easy terrain where you can repeat the movement."
+                },
+                {
+                  "title": "Timing",
+                  "content": "Learn where the pole plant belongs relative to the ski push. Use the technique-specific rhythm below, then watch a short video of yourself."
+                },
+                {
+                  "title": "Power",
+                  "content": "Add force after position and timing hold together. If the movement falls apart, return to the previous step."
+                }
+              ]
+            },
+            {
+              "type": "prose",
+              "content": "Choose one skill, use its drill near the beginning of the workout, and compare a short recording with the lesson. The original course calls for repetition and feedback from yourself, video, or a coach.[^glide-original-course]"
+            }
+          ]
+        },
+        {
           "id": "technique-is-fitness",
           "blocks": [
             {
@@ -720,7 +795,7 @@
               "type": "callout",
               "style": "tip",
               "title": "The one-ski test",
-              "content": "On flat, groomed snow, glide on a single ski as long as you can before the other touches down. If it's under two seconds, your season's biggest free speed isn't in the gym — it's in balance drills. Do them at the start of every session, when you're fresh."
+              "content": "On flat, groomed snow, glide on a single ski as long as you can before the other touches down. If it's under two seconds, your season's biggest free speed isn't in the gym — it's in balance drills. Do them at the start of every workout, when you're fresh."
             }
           ]
         },
@@ -759,7 +834,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "Skate skiing has its own gearbox, named by how many poles-per-skate you use.\n\nV1 is the climbing gear: one double-pole for every two skate pushes, poling to the same side each time, an asymmetric rhythm that feels awkward until the day it doesn't. V2 is the flats-and-gradual gear: a pole push with every skate, symmetric, the most powerful and most aerobic gear. V2-alternate (or open-field skate) poles every other skate, a recovery gear for very fast, gentle terrain.\n\nThe cruel truth of skate skiing is that it degrades faster than classic when you tire. As the heart rate climbs, timing falls apart, the pole push arrives late, and the whole movement gets expensive exactly when you can least afford it. This is why skate interval sessions must be stopped the moment form breaks — a skate interval done with collapsed technique trains the wrong pattern into your body."
+              "content": "Skate technique changes with terrain and speed. V1 is the climbing gear, with both poles and the poling-side ski meeting the snow together. V2 poles on each skate push. V2 alternate poles on one side of the cycle but adds a distinct glide before the return push. Free skate removes poling when speed and terrain allow it. Use the timing reference below to distinguish the movements.[^glide-original-course]\n\nWhen fatigue changes the movement, ease off and restore the rhythm. A hard workout should still practice the technique you intend to race with."
             },
             {
               "type": "process_list",
@@ -779,9 +854,48 @@
                 },
                 {
                   "title": "Recover fully between reps",
-                  "content": "Technique needs a fresh nervous system. Short recoveries turn a technique session into a fatigue session."
+                  "content": "Technique needs a fresh nervous system. Short recoveries turn a technique workout into a fatigue workout."
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "glide-skate-timing",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "V1 and V2 alternate both pole on one side of a two-skate cycle. Their timing is different. Counting pole pushes alone does not tell you which technique you are using.[^glide-original-course]"
+            },
+            {
+              "type": "data_table",
+              "caption": "Skate timing: the cues from Glide Labs",
+              "headers": [
+                "Technique",
+                "Timing cue",
+                "What to check on video"
+              ],
+              "rows": [
+                [
+                  "V1",
+                  "Count “3–1” as both poles and the poling-side ski meet the snow together; glide on the opposite ski.",
+                  "The non-poling side still transfers weight and contributes to forward movement."
+                ],
+                [
+                  "V2",
+                  "“Double pole, push” on both sides.",
+                  "The pole plant leads the skate push; the rhythm repeats symmetrically."
+                ],
+                [
+                  "V2 alternate",
+                  "“Pole–glide–drive.”",
+                  "Keep a distinct glide phase, then coordinate the arm return with the skate back toward the poling side."
+                ]
+              ]
+            },
+            {
+              "type": "prose",
+              "content": "Practice the rhythm at easy intensity before using it in a hard workout. Compare the movement with the original lesson videos: [V1 timing](https://youtu.be/20U3_ZD0tXc), [V2 timing](https://youtu.be/Mysw7I0usJo), and [V2 alternate](https://youtu.be/Ze8R9eIfLYA).[^glide-original-course]"
             }
           ]
         },
@@ -811,6 +925,57 @@
                   "correct": false,
                   "response": "Length isn't the issue — quality is. A long interval with clean form is fine; two sloppy reps are not."
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "course-drill-reference",
+          "title": "The XC course: choose a drill for the skill",
+          "blocks": [
+            {
+              "type": "prose",
+              "content": "The course separates skate, classic, and skills used in both. Use this list to find the relevant lesson and drill. Learn the movement before adding speed or fatigue. The drill names below come from the course shot list.[^matti-xc-course]"
+            },
+            {
+              "type": "data_table",
+              "caption": "Course drill reference",
+              "headers": [
+                "Skill",
+                "Drills from the course",
+                "What to review"
+              ],
+              "rows": [
+                [
+                  "Free skate",
+                  "Poles behind hips; Cowboy hips; V-slide",
+                  "Weight transfer and glide"
+                ],
+                [
+                  "V1",
+                  "No Pole Mimic; One Pole; V1 Hop Skate",
+                  "The climbing gear and its timing"
+                ],
+                [
+                  "V2",
+                  "Double Tap; DP start; Extended Glide Challenge",
+                  "Poling timing and glide"
+                ],
+                [
+                  "Diagonal stride",
+                  "No poles; Single Stride; Skips; Glide Challenge",
+                  "Kick, balance and glide"
+                ],
+                [
+                  "Double pole",
+                  "Long Jump; Frozen upper body; Up tempo; Down tempo; A sync",
+                  "Coordination across the poling movement"
+                ],
+                [
+                  "Descending",
+                  "Basic position; Step Turn; Pizza; Carving",
+                  "Control before speed"
+                ]
               ]
             }
           ]
@@ -856,6 +1021,22 @@
           "publisher": "Med Sci Sports Exerc 38(10):1853-1860",
           "year": 2006,
           "url": "https://doi.org/10.1249/01.mss.0000230121.83641.d1"
+        },
+        {
+          "id": "matti-xc-course",
+          "title": "XC Ski Course Shot List — Matti Rowe’s course curriculum",
+          "author": "Matti Rowe",
+          "publisher": "Personal course material",
+          "year": 2024,
+          "url": "https://docs.google.com/document/d/1jlw3efzuNQ75FHtQcKOJVNO3fE3llf5_cOZpdHyjgt0/edit"
+        },
+        {
+          "id": "glide-original-course",
+          "title": "Cross Country Skiing — Introductory Course: original Rise course, Skate Technique and Classic Technique",
+          "author": "Matti Rowe / Glide Labs",
+          "publisher": "Glide Labs original course export",
+          "year": 2026,
+          "url": "https://github.com/wattgod/xc-ski-course-audit/blob/main/01-original-rise/raw/course_data.json"
         }
       ]
     },
@@ -1140,13 +1321,13 @@
                 [
                   "14 days out",
                   "Down ~40%",
-                  "Keep 1-2 short race-pace sessions",
+                  "Keep 1-2 short race-pace workouts",
                   "Restless, over-rested"
                 ],
                 [
                   "7 days out",
                   "Down ~50-60%",
-                  "One short sharpening session",
+                  "One short sharpening workout",
                   "Twitchy, doubting the taper"
                 ],
                 [
@@ -1320,7 +1501,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "This guide gives away the whole information layer on purpose — the physiology, the technique, the tactics, the year. What it can't do is build the plan for your race, your hours, your history, and your dry-land reality. That's where the four rungs come in: a structured training plan built from a race's demands, a custom plan shaped to your intake, the full XC ski course when you want to see technique instead of read it, and one-to-one coaching when you want a person watching the data between sessions. If this guide made you faster, those exist to make you faster still."
+              "content": "This guide gives away the whole information layer on purpose — the physiology, the technique, the tactics, the year. What it can't do is build the plan for your race, your hours, your history, and your dry-land reality. That's where the four rungs come in: a structured training plan built from a race's demands, a custom plan shaped to your intake, the full XC ski course when you want to see technique instead of read it, and one-to-one coaching when you want a person watching the data between workouts. If this guide made you faster, those exist to make you faster still."
             },
             {
               "type": "knowledge_check",

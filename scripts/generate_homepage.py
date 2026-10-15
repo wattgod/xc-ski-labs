@@ -1295,7 +1295,7 @@ a:focus-visible, button:focus-visible {{
            section 7): this line mirrors the owner-approved "human in your corner... not an
            AI..." copy precedent-set on the /coaching/ hero, wordpress/generate_coaching.py
            build_hero() (Matti sanctioned 2026-07-18). -->
-      <p class="gl-hp-ladder-body">A human in your corner &mdash; not an AI, not a spreadsheet.</p>
+      <p class="gl-hp-ladder-body">A coach who reads your workouts, answers your questions, and adjusts the week with you.</p>
       <a href="/coaching/" class="gl-hp-ladder-cta" data-ga="ladder_coaching">GET ME IN YOUR CORNER &rarr;</a>
     </div>
   </div>

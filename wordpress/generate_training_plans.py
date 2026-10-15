@@ -879,16 +879,16 @@ def build_hero(race_count):
   <div class="gl-hero-label">Custom XC Ski Training</div>
   <h1>Your Race. Your Hours.<br>Your Plan.</h1>
   <p class="gl-hero-sub">
-    Race-specific periodization built around your goal event, your schedule,
-    and the demands of the course. Classic, skate, or both &mdash; we build the
-    blocks that get you to the start line ready.
+    Generated ski plans are not live yet. Start with a coach-reviewed intake
+    covering your race, classic or skate technique, available hours, and
+    access to snow or dryland training.
   </p>
   <div class="gl-hero-stats">
     <span>{esc(str(race_count))}</span> races indexed &middot;
     <span>14</span> scoring criteria &middot;
-    <span>4&ndash;17</span> week plans
+    <span>Coach</span> review before a plan
   </div>
-  <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
+  <a href="/questionnaire/" class="gl-cta-btn">Start Coach Review</a>
 </section>
 """
 
@@ -930,21 +930,20 @@ def build_how_it_works():
     </div>
     <div class="gl-step">
       <div class="gl-step-num">02</div>
-      <div class="gl-step-title">Get Your Plan</div>
+      <div class="gl-step-title">Review Your Options</div>
       <div class="gl-step-desc">
-        A periodized training block lands in your TrainingPeaks calendar: on-snow workouts,
-        roller ski progressions, SkiErg intervals, and the strength work your
-        posterior chain actually needs. Base through taper, calibrated to your
-        zones and available hours.
+        Generated ski plans are not available yet. Submit your race, training history,
+        technique, available hours, and access to snow or rollerskis for coach review.
+        The review establishes the next steps before a plan is offered.
       </div>
     </div>
     <div class="gl-step">
       <div class="gl-step-num">03</div>
       <div class="gl-step-title">Train Smarter</div>
       <div class="gl-step-desc">
-        No guessing whether today is V2 intervals or easy distance. Every workout has
-        power targets, RPE, cadence cues, and technique notes. You train; the plan
-        adapts across your base, build, peak, and taper phases.
+        Ski workout targets use heart rate, RPE, duration, and technique cues.
+        Strength work uses sets and reps. Your intake helps the coach assess
+        which targets and training modes fit your current experience.
       </div>
     </div>
   </div>
@@ -953,15 +952,15 @@ def build_how_it_works():
 
 
 def build_deliverables():
-    """What You Get section — 5 deliverables."""
+    """What to Include in Your Intake section — 5 deliverables."""
     return """
 <section class="gl-section">
   <div class="gl-section-label">Deliverables</div>
-  <div class="gl-section-title">What You Get</div>
+  <div class="gl-section-title">What to Include in Your Intake</div>
   <div class="gl-section-prose">
-    Every plan is built for your specific race. Not a template &mdash; a structured
-    training block that accounts for the course, the climate, and the hours you
-    actually have.
+    Generated ski plans and checkout are not live. The questionnaire collects
+    what the coach needs to review your race and training options. Submitting it
+    does not purchase a plan or start automatic delivery.
   </div>
   <div class="gl-deliverables">
     <div class="gl-deliverable">
@@ -969,10 +968,9 @@ def build_deliverables():
       <div>
         <div class="gl-deliverable-title">TrainingPeaks Calendar</div>
         <div class="gl-deliverable-desc">
-          Every workout pushed directly to your TrainingPeaks calendar. Open your watch,
-          see today&rsquo;s workout. Intervals have HR zones, RPE, and duration. On-snow,
-          roller ski, and SkiErg workouts all include technique cues for classic stride,
-          V1, V2, and double pole.
+          Tell us which training platform and watch you use. Ski workouts use HR,
+          RPE, duration, and technique cues; strength workouts use sets and reps.
+          Calendar delivery will be confirmed with you after review.
         </div>
       </div>
     </div>
@@ -981,9 +979,8 @@ def build_deliverables():
       <div>
         <div class="gl-deliverable-title">Periodized Plan</div>
         <div class="gl-deliverable-desc">
-          Base &rarr; Build &rarr; Peak &rarr; Taper. Each phase has a purpose,
-          each week has a structure, each workout has a reason. Volume and intensity
-          progress through the block so you arrive at race day sharp, not shattered.
+          Include your recent training, available hours, and race date so the coach
+          can assess how much preparation fits before the event.
         </div>
       </div>
     </div>
@@ -993,8 +990,8 @@ def build_deliverables():
         <div class="gl-deliverable-title">Climate &amp; Altitude Prep</div>
         <div class="gl-deliverable-desc">
           Racing at altitude in Engadin or dealing with March slush at Vasaloppet?
-          Your plan includes acclimatization protocols, heat/cold management,
-          and wax-day contingencies based on the race&rsquo;s historical weather data.
+          Include those conditions in your intake, along with your access to snow
+          and any equipment or waxing constraints.
         </div>
       </div>
     </div>
@@ -1003,9 +1000,8 @@ def build_deliverables():
       <div>
         <div class="gl-deliverable-title">Nutrition &amp; Fueling Strategy</div>
         <div class="gl-deliverable-desc">
-          Carb-loading protocol, race-day fueling timeline, and feed-zone strategy.
-          Calibrated to distance and expected effort &mdash; a 50&thinsp;km skate race
-          demands different fueling than a 90&thinsp;km classic marathon.
+          Describe what you currently eat and drink during long workouts,
+          any stomach trouble, and the feed-zone information for your race.
         </div>
       </div>
     </div>
@@ -1014,9 +1010,9 @@ def build_deliverables():
       <div>
         <div class="gl-deliverable-title">Strength &amp; Mobility Program</div>
         <div class="gl-deliverable-desc">
-          Nordic-specific strength work: single-leg stability for classic technique,
-          hip flexor mobility for V2, posterior chain loading for double pole.
-          3 workouts per week in base, tapering to maintenance before race day.
+          Include your lifting experience, available equipment, and any limitations
+          that affect strength or technique practice. Sets, reps and progression
+          need to match the skier being reviewed.
         </div>
       </div>
     </div>
@@ -1026,55 +1022,8 @@ def build_deliverables():
 
 
 def build_sample_week():
-    """Visual weekly layout for a sample build-phase week."""
-    return """
-<section class="gl-section">
-  <div class="gl-section-label">Sample Week</div>
-  <div class="gl-section-title">Build Phase &mdash; Week 3 of 4</div>
-  <div class="gl-section-prose">
-    This is what a typical build-phase week looks like for a skier targeting a 50&thinsp;km
-    classic race with 8&ndash;10 hours available. Your plan will vary based on your
-    race distance, discipline, and schedule.
-  </div>
-  <div class="gl-week">
-    <div class="gl-day gl-day--rest">
-      <div class="gl-day-label">Mon</div>
-      <div class="gl-day-type">Rest</div>
-      <div class="gl-day-desc">Full recovery. Foam roll, mobility.</div>
-    </div>
-    <div class="gl-day gl-day--intensity">
-      <div class="gl-day-label">Tue</div>
-      <div class="gl-day-type">VO2max</div>
-      <div class="gl-day-desc">4&times;4 min @ 95% HR max. Roller ski or SkiErg.</div>
-    </div>
-    <div class="gl-day gl-day--endurance">
-      <div class="gl-day-label">Wed</div>
-      <div class="gl-day-type">Easy Ski</div>
-      <div class="gl-day-desc">60&ndash;75 min zone 2. Technique focus: diagonal stride.</div>
-    </div>
-    <div class="gl-day gl-day--threshold">
-      <div class="gl-day-label">Thu</div>
-      <div class="gl-day-type">Threshold</div>
-      <div class="gl-day-desc">2&times;15 min @ LT. Double-pole intervals on flats.</div>
-    </div>
-    <div class="gl-day gl-day--strength">
-      <div class="gl-day-label">Fri</div>
-      <div class="gl-day-type">Strength</div>
-      <div class="gl-day-desc">Single-leg squats, pull-ups, core. 45 min.</div>
-    </div>
-    <div class="gl-day gl-day--endurance">
-      <div class="gl-day-label">Sat</div>
-      <div class="gl-day-type">Long Ski</div>
-      <div class="gl-day-desc">2&ndash;2.5 hr classic distance. Steady pace, race nutrition practice.</div>
-    </div>
-    <div class="gl-day gl-day--rest">
-      <div class="gl-day-label">Sun</div>
-      <div class="gl-day-type">Recovery</div>
-      <div class="gl-day-desc">30 min easy spin or walk. Stretching.</div>
-    </div>
-  </div>
-</section>
-"""
+    """No sample dose until native ski prescriptions are approved."""
+    return ""
 
 
 def build_pricing(stripe_data, payment_links):
@@ -1155,7 +1104,7 @@ def build_pricing(stripe_data, payment_links):
   <div class="gl-section-title">Pricing</div>
   <div class="gl-pricing-box">
     <div class="gl-pricing-headline">${ppw_dollars}/week. That&rsquo;s it.</div>
-    <div class="gl-pricing-sub">No subscription. No recurring charges. One plan, one price.</div>
+    <div class="gl-pricing-sub">Pricing reference only. Generated ski plans and checkout are not available yet.</div>
     <div class="gl-pricing-example">
       12-week plan = <strong>$180</strong>
     </div>
@@ -1172,7 +1121,7 @@ def build_pricing(stripe_data, payment_links):
     <div class="gl-pricing-note">
       Plans 17 weeks or longer cap at ${cap_price}. Your total is shown before payment.
     </div>
-    <a href="/questionnaire/" class="gl-cta-btn">Start Your Plan</a>
+    <a href="/questionnaire/" class="gl-cta-btn">Start Your Review</a>
   </div>
 </section>
 """
@@ -1183,14 +1132,13 @@ def build_faq():
     faqs = [
         (
             "How do I get the workouts?",
-            "Every workout is pushed to your TrainingPeaks calendar. Sync your Garmin, "
-            "COROS, or Polar watch and the workout is on your wrist. On-snow and roller ski "
-            "workouts include heart rate zones, RPE, cadence targets, and technique cues. "
-            "SkiErg workouts have full interval structure with rest periods."
+            "Generated ski plans are not live yet. The questionnaire starts a coach review; "
+            "it does not trigger payment or calendar delivery. Ski targets use HR, RPE, "
+            "duration and technique cues, with sets and reps for strength."
         ),
         (
             "I race both classic and skate. Can the plan cover both?",
-            "Yes. If your target race offers both techniques (or you have two target races "
+            "List both techniques and races for coach review. If your target race offers both techniques (or you have two target races "
             "in different disciplines), we structure the plan around your primary goal and "
             "weave in technique-specific workouts for the secondary discipline. Double-pole "
             "work carries over to both."
@@ -1255,7 +1203,7 @@ def build_final_cta():
     Tell us your race, your hours, and when you need to be ready.
     We handle the periodization.
   </p>
-  <a href="/questionnaire/" class="gl-cta-btn gl-cta-btn--outline">Build My Plan</a>
+  <a href="/questionnaire/" class="gl-cta-btn gl-cta-btn--outline">Start Coach Review</a>
 </section>
 """
 
@@ -1268,6 +1216,7 @@ def build_footer():
   <a href="/search/">Search</a> &middot;
   <a href="/training-plans/">Training Plans</a> &middot;
   <a href="/privacy/">Privacy</a> &middot;
+  <a href="/privacy/#privacy-choices" id="xl-privacy-choices">Privacy choices</a> &middot;
   <a href="/terms/">Terms</a>
   <div class="gl-footer-brand">XC Ski Labs &mdash; Built for skiers who chase start lines.</div>
 </footer>
@@ -1301,7 +1250,8 @@ def build_jsonld(stripe_data):
         "description": (
             "Race-specific periodized training plan for cross-country skiing. "
             "Includes structured workouts, nutrition strategy, strength program, "
-            "and climate preparation. 4-17 week plans available."
+            "and climate preparation. Generated ski plans are not available yet; "
+            "the questionnaire starts a coach review."
         ),
         "brand": {
             "@type": "Organization",
@@ -1313,7 +1263,7 @@ def build_jsonld(stripe_data):
             "lowPrice": low_price,
             "highPrice": high_price,
             "offerCount": offer_count,
-            "availability": "https://schema.org/InStock",
+            "availability": "https://schema.org/OutOfStock",
         },
         "category": "Sports Training Plans",
     }
@@ -1347,8 +1297,8 @@ def generate_page():
     title = "Custom XC Ski Training Plans | XC Ski Labs"
     description = (
         "Race-specific periodized training plans for cross-country skiing. "
-        "229 races indexed. Structured workouts, nutrition strategy, and "
-        "strength programming. $15/week."
+        "229 races indexed. Generated plans are not available yet. "
+        "Start a coach-reviewed intake for classic and skate preparation."
     )
 
     page = f"""<!DOCTYPE html>
@@ -1449,6 +1399,12 @@ function xlConsent(choice) {{
     document.getElementById('xl-consent-banner').classList.remove('show');
 }}
 (function() {{
+    var choices = document.getElementById('xl-privacy-choices');
+    if (choices) choices.addEventListener('click', function(event) {{
+        event.preventDefault();
+        document.getElementById('xl-consent-banner').classList.add('show');
+        document.querySelector('[data-consent-choice="accepted"]').focus();
+    }});
     document.querySelectorAll('[data-faq-toggle]').forEach(function(btn) {{
         btn.addEventListener('click', function() {{
             var open = btn.getAttribute('aria-expanded') === 'true';

@@ -1,0 +1,36 @@
+{
+  "source_material": [
+    {
+      "title": "XC Ski Course Shot List",
+      "drive_id": "1jlw3efzuNQ75FHtQcKOJVNO3fE3llf5_cOZpdHyjgt0",
+      "use": "Course skill families and exact drill names; no new automated training doses."
+    },
+    {
+      "title": "Drills List",
+      "drive_id": "1Ewin3TxjDJ7vWhaaM1clWDdxj9M2C2A2h7wC5wu6Xtw",
+      "use": "Front/back/side observation framing; not an approved prescription."
+    },
+    {
+      "title": "XC Ski Guide",
+      "drive_id": "17UikAgE4vYNV7E4Jlx1bXiOZfi98eCieuUmTO4zqF_s",
+      "use": "HR and RPE control basis; historic HR examples are not imported as universal percentages."
+    }
+  ],
+  "course_identification": {
+    "owner_confirmation": "User confirmed Glide Labs on 2026-10-14",
+    "title": "Cross Country Skiing - Introductory Course",
+    "repository": "https://github.com/wattgod/xc-ski-course-audit",
+    "original_file": "01-original-rise/raw/course_data.json",
+    "original_sha256": "7a3b3855572b7ad52bbd64faf19dfa60cae01a6fc7cfc00a9dc62f895b595fca",
+    "adaptations": [
+      "Body position, timing, power progression",
+      "Deliberate practice with video feedback",
+      "V1, V2 and V2 alternate timing reference"
+    ],
+    "exclusions": [
+      "Generated improvement plans are not treated as original lessons",
+      "Historic HR examples are not universal percentages",
+      "Course drills do not ratify automated training doses"
+    ]
+  }
+}

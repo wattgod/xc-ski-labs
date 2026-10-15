@@ -91,3 +91,22 @@ def test_no_banned_register_phrases_in_guide_output():
         html = path.read_text(encoding="utf-8").lower()
         for phrase in banned:
             assert phrase not in html, (path, phrase)
+
+
+def test_confirmed_glide_course_progression_and_timing_render():
+    content = _content()
+    chapter = next(c for c in content["chapters"] if c["id"] == "technique-and-execution")
+    page = _chapter_html(chapter)
+    assert "Body position" in page and "Timing" in page and "Power" in page
+    assert "Pole–glide–drive" in page
+    assert "20U3_ZD0tXc" in page
+    assert "glide-original-course" in page
+
+
+def test_public_targets_use_hr_rpe_instead_of_breathing_prescriptions():
+    content = _content()
+    chapter = next(c for c in content["chapters"] if c["id"] == "training-fundamentals")
+    page = _chapter_html(chapter)
+    assert "calibrated easy HR zone" in page and "RPE 2–4/10" in page
+    assert "dashboard is breathing" not in page
+    assert "Nose breathing" not in page
