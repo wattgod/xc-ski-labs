@@ -449,8 +449,9 @@ class TestTrainingPlansPage:
         html = _load_page("training-plans/index.html")
         assert "training-plan-preview-request/v2" in html
         assert "training-plan-preview/v2" in html
-        assert "TRAINING LOAD BY WEEK" in html
-        assert "native ski preview" in html.lower()
+        assert "WEEKLY LOAD" in html
+        assert "Generated ski weeks are not available yet" in html
+        assert "Build Phase &mdash; Week 3 of 4" not in html
         assert "sample_week_number" in html
         assert "/api/training-plan-preview" in html
         assert "session.structure" in html

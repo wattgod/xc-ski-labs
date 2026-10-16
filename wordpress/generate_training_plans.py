@@ -905,10 +905,10 @@ def build_plan_preview():
         race=race,
         demands=race["demands"],
         race_options=races,
-        questionnaire_url="/questionnaire/",
-        heading=f"See a {race['name']} week before you buy.",
-        lede=("Choose your race and the week you actually have. See how those "
-              "constraints and the race's demands shape a calendar preview."),
+        questionnaire_url="/questionnaire/?src=plan_preview",
+        heading="Plan around your ski race.",
+        lede=("Choose your race and available training week. Your "
+              "schedule and race details carry into the questionnaire. Generated ski weeks are not available yet."),
     )
 
 
@@ -933,7 +933,7 @@ def build_how_it_works():
       <div class="gl-step-num">02</div>
       <div class="gl-step-title">Get Your Plan</div>
       <div class="gl-step-desc">
-        A periodized training block lands in your TrainingPeaks calendar: on-snow sessions,
+        A periodized training block lands in your TrainingPeaks calendar: on-snow workouts,
         roller ski progressions, SkiErg intervals, and the strength work your
         posterior chain actually needs. Base through taper, calibrated to your
         zones and available hours.
@@ -943,7 +943,7 @@ def build_how_it_works():
       <div class="gl-step-num">03</div>
       <div class="gl-step-title">Train Smarter</div>
       <div class="gl-step-desc">
-        No guessing whether today is V2 intervals or easy distance. Every session has
+        No guessing whether today is V2 intervals or easy distance. Every workout has
         power targets, RPE, cadence cues, and technique notes. You train; the plan
         adapts across your base, build, peak, and taper phases.
       </div>
@@ -970,9 +970,9 @@ def build_deliverables():
       <div>
         <div class="gl-deliverable-title">TrainingPeaks Calendar</div>
         <div class="gl-deliverable-desc">
-          Every session pushed directly to your TrainingPeaks calendar. Open your watch,
+          Every workout pushed directly to your TrainingPeaks calendar. Open your watch,
           see today&rsquo;s workout. Intervals have HR zones, RPE, and duration. On-snow,
-          roller ski, and SkiErg sessions all include technique cues for classic stride,
+          roller ski, and SkiErg workouts all include technique cues for classic stride,
           V1, V2, and double pole.
         </div>
       </div>
@@ -983,7 +983,7 @@ def build_deliverables():
         <div class="gl-deliverable-title">Periodized Plan</div>
         <div class="gl-deliverable-desc">
           Base &rarr; Build &rarr; Peak &rarr; Taper. Each phase has a purpose,
-          each week has a structure, each session has a reason. Volume and intensity
+          each week has a structure, each workout has a reason. Volume and intensity
           progress through the block so you arrive at race day sharp, not shattered.
         </div>
       </div>
@@ -1017,7 +1017,7 @@ def build_deliverables():
         <div class="gl-deliverable-desc">
           Nordic-specific strength work: single-leg stability for classic technique,
           hip flexor mobility for V2, posterior chain loading for double pole.
-          3 sessions per week in base, tapering to maintenance before race day.
+          3 workouts per week in base, tapering to maintenance before race day.
         </div>
       </div>
     </div>
@@ -1171,8 +1171,7 @@ def build_pricing(stripe_data, payment_links):
       {grid_cells}
     </div>
     <div class="gl-pricing-note">
-      Plans 17 weeks or longer cap at ${cap_price}. Less than a single wax session
-      at a Worldloppet feed zone.
+      Plans 17 weeks or longer cap at ${cap_price}. Your total is shown before payment.
     </div>
     <a href="/questionnaire/" class="gl-cta-btn">Start Your Plan</a>
   </div>
@@ -1185,28 +1184,28 @@ def build_faq():
     faqs = [
         (
             "How do I get the workouts?",
-            "Every session is pushed to your TrainingPeaks calendar. Sync your Garmin, "
+            "Every workout is pushed to your TrainingPeaks calendar. Sync your Garmin, "
             "COROS, or Polar watch and the workout is on your wrist. On-snow and roller ski "
-            "sessions include heart rate zones, RPE, cadence targets, and technique cues. "
-            "SkiErg sessions have full interval structure with rest periods."
+            "workouts include heart rate zones, RPE, cadence targets, and technique cues. "
+            "SkiErg workouts have full interval structure with rest periods."
         ),
         (
             "I race both classic and skate. Can the plan cover both?",
             "Yes. If your target race offers both techniques (or you have two target races "
             "in different disciplines), we structure the plan around your primary goal and "
-            "weave in technique-specific sessions for the secondary discipline. Double-pole "
+            "weave in technique-specific workouts for the secondary discipline. Double-pole "
             "work carries over to both."
         ),
         (
             "How do you account for roller skiing vs. on-snow training?",
             "We build plans assuming a mixed environment. Early-season blocks lean on roller "
-            "skis, SkiErg, and running with poles. As snow arrives, sessions shift to on-snow "
+            "skis, SkiErg, and running with poles. As snow arrives, workouts shift to on-snow "
             "with the same intensity targets. If you train year-round on snow (lucky you), we "
             "adjust accordingly."
         ),
         (
             "What if I only have 5 hours per week?",
-            "We build with what you have. A 5-hour week means fewer sessions but sharper "
+            "We build with what you have. A 5-hour week means fewer workouts but sharper "
             "prioritization: the key intervals stay, the junk miles go. Every plan is "
             "calibrated to your available hours &mdash; we do not pad volume for the sake of it."
         ),
@@ -1340,7 +1339,7 @@ def generate_page():
     plan_simulator_js = get_plan_simulator_js()
     how_it_works = build_how_it_works()
     deliverables = build_deliverables()
-    sample_week = build_sample_week()
+    sample_week = ""  # Athlete-facing dose awaits the native Motoren release gate.
     pricing = build_pricing(stripe_data, payment_links)
     faq = build_faq()
     final_cta = build_final_cta()
