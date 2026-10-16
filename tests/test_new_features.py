@@ -78,9 +78,9 @@ def _known_routes():
 
 
 class TestGA4:
-    """GA4 must be present on every generated page, consent-gated."""
+    """Pages use the shared first-party consent-gated analytics loader."""
 
-    GA4_ID = "G-3JQLSQLPPM"
+    LOADER = '<script src="/xc-assets/analytics.js"></script>'
 
     @pytest.mark.parametrize("page,label", [
         ("vasaloppet/index.html", "race page"),
@@ -90,7 +90,8 @@ class TestGA4:
     ])
     def test_ga4_present(self, page, label):
         html = _load_page(page)
-        assert self.GA4_ID in html, f"GA4 ID missing from {label}"
+        assert self.LOADER in html, f"Analytics loader missing from {label}"
+        assert "googletagmanager.com/gtag/js" not in html
 
     @pytest.mark.parametrize("page", [
         "vasaloppet/index.html",
@@ -99,22 +100,21 @@ class TestGA4:
         "questionnaire/index.html",
     ])
     def test_ga4_consent_gated(self, page):
-        """GA4 must check xl_consent cookie before firing."""
+        """Consent controls remain available on each page."""
         html = _load_page(page)
-        assert "xl_consent" in html, \
-            f"{page}: GA4 not gated by consent cookie"
+        assert "xl_consent" in html
 
     def test_ga4_in_head_not_body(self):
         """GA4 script must be in <head>, not <body>."""
         html = _load_race_page("vasaloppet")
         head = html.split("</head>")[0]
-        assert self.GA4_ID in head, "GA4 snippet not in <head>"
+        assert self.LOADER in head, "Analytics loader not in <head>"
 
     def test_all_race_pages_have_ga4(self):
         """Every single race page must have GA4."""
         missing = []
         for slug, html in _all_race_pages():
-            if self.GA4_ID not in html:
+            if self.LOADER not in html:
                 missing.append(slug)
         assert not missing, f"{len(missing)} pages missing GA4: {missing[:5]}"
 
@@ -529,7 +529,7 @@ class TestAboutPage:
     def test_about_has_ga4_and_consent(self):
         html = _load_page("about/index.html")
         head = html.split("</head>")[0]
-        assert "G-3JQLSQLPPM" in head, "GA4 snippet missing from about head"
+        assert '<script src="/xc-assets/analytics.js"></script>' in head
         assert "xl_consent" in html, "About page GA4 not gated by consent cookie"
         assert "gl-cookie-consent" in html, "About page missing consent banner"
         assert "Accept" in html and "Decline" in html, "Consent choices missing"
@@ -586,12 +586,11 @@ class TestPrivacyAndMethodologyPages:
         html = _load_page("privacy/index.html")
         assert "Privacy Policy" in html
         assert "FormSubmit" in html
-        assert "Effective date: July 2026" in html
-        assert "Analytics is active by default" in html
-        assert "disables analytics on subsequent page views" in html
+        assert "Effective date: October 6, 2026" in html
+        assert "Google Analytics loads only if you select Accept" in html
         assert "Information stored in your browser" in html
-        assert "including health, injury, and medication information" in html
-        assert "not transmitted to us until you submit" in html
+        assert "It does not save contact, body, health, injury, allergy, or medication answers" in html
+        assert "Draft answers are not sent to us until you submit" in html
 
     def test_terms_page_has_service_terms_and_legal_links(self):
         html = _load_page("terms/index.html")

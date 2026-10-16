@@ -215,9 +215,7 @@ def build_page(race: dict) -> str:
   <meta name="description" content="Race logistics, pacing, fueling, and a wax-day checklist for {esc(name)}.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{canonical}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   {ga4}
   <style>{tokens}\n{css}</style>
 </head>

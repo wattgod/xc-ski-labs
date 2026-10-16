@@ -12,7 +12,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
-EFFECTIVE_DATE = "October 2, 2026"
+EFFECTIVE_DATE = "October 6, 2026"
 
 
 def esc(value: str) -> str:
@@ -48,9 +48,7 @@ def generate_html() -> str:
   <meta name="description" content="{description}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/privacy/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   {build_ga4_snippet()}
   <style>{build_css()}</style>
 </head>
@@ -90,12 +88,12 @@ def generate_html() -> str:
 
   <section class="gl-section">
     <h2 class="gl-section-title">Cookies and analytics</h2>
-    <p>XC Ski Labs uses cookies to remember your analytics choice and Google Analytics to understand site traffic. Analytics is active by default. You can decline analytics at any time through the site&rsquo;s consent banner; this disables analytics on subsequent page views. Declining analytics does not affect your use of the site.</p>
+    <p>XC Ski Labs uses a cookie to remember your analytics choice. Google Analytics loads only if you select Accept in the consent banner. Declining does not affect your use of the site. You can change your choice by clearing this site&rsquo;s cookies in your browser.</p>
   </section>
 
   <section class="gl-section">
     <h2 class="gl-section-title">Information stored in your browser</h2>
-    <p>The coaching application saves all draft answers, including health, injury, and medication information, in local storage on your device. Drafts remain on your device without an expiry and are not transmitted to us until you submit the application. You can remove them by clearing this site&rsquo;s data in your browser.</p>
+    <p>The coaching application saves selected race-goal, skiing-experience, and schedule answers in local storage on your device for up to 24 hours. It does not save contact, body, health, injury, allergy, or medication answers as a draft. Draft answers are not sent to us until you submit the application. You can remove the draft by clearing this site&rsquo;s data in your browser.</p>
   </section>
 
   <section class="gl-section">

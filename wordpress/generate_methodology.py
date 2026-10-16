@@ -144,9 +144,7 @@ def generate_html(races: list[dict]) -> str:
   <meta name="description" content="How XC Ski Labs scores and tiers cross-country ski races.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/methodology/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   {build_ga4_snippet()}
   <style>{build_css()}
   .gl-method-table {{ width: 100%; border-collapse: collapse; font-size: 0.95rem; }}

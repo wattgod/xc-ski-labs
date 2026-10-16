@@ -110,12 +110,12 @@ class TestPageGeneration:
 
 class TestGA4AndConsent:
     def test_ga4_present(self, coaching_html):
-        assert GA4_ID in coaching_html
-        assert "googletagmanager.com" in coaching_html
+        assert '<script src="/xc-assets/analytics.js"></script>' in coaching_html
+        assert "googletagmanager.com" not in coaching_html
 
     def test_ga4_in_head(self, coaching_html):
         head = coaching_html.split("</head>")[0]
-        assert GA4_ID in head
+        assert '<script src="/xc-assets/analytics.js"></script>' in head
 
     def test_consent_gated(self, coaching_html):
         assert "xl_consent" in coaching_html

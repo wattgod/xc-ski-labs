@@ -310,6 +310,33 @@ def sync_index():
     return False
 
 
+def sync_assets():
+    """Upload versioned first-party site assets before pages that reference them."""
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+    source = PROJECT_ROOT / "web" / "xc-assets"
+    files = sorted(path for path in source.rglob("*") if path.is_file())
+    if not files:
+        print("  No XC assets found")
+        return False
+    remote_root = f"{get_remote_base()}/xc-assets"
+    for directory in sorted({path.parent.relative_to(source) for path in files}, key=str):
+        remote_dir = remote_root if directory == Path(".") else f"{remote_root}/{directory.as_posix()}"
+        ok, _, err = _ssh_run(host, user, port, f"mkdir -p {remote_dir}")
+        if not ok:
+            print(f"  Failed to create {remote_dir}: {err}")
+            return False
+    for path in files:
+        remote = f"{remote_root}/{path.relative_to(source).as_posix()}"
+        if not _scp_upload(host, user, port, path, remote):
+            print(f"  Failed to upload {path}")
+            return False
+    print(f"  Deployed {len(files)} XC assets")
+    return True
+
+
 def sync_sitemap():
     """Upload sitemap.xml to site root."""
     ssh = get_ssh_credentials()
@@ -756,6 +783,7 @@ def deploy_all():
     print("=" * 40)
 
     steps = [
+        ("Assets", sync_assets),
         ("Homepage", sync_homepage),
         ("Search UI", sync_search),
         ("Race Pages", sync_pages),
@@ -799,6 +827,10 @@ def deploy_all():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Deploy XC Ski Labs race pages to SiteGround"
+    )
+    parser.add_argument(
+        "--sync-assets", action="store_true",
+        help="Upload first-party fonts and other shared assets to /xc-assets/"
     )
     parser.add_argument(
         "--sync-pages", action="store_true",
@@ -913,6 +945,9 @@ if __name__ == "__main__":
         deploy_all()
     else:
         ran = False
+        if args.sync_assets:
+            sync_assets()
+            ran = True
         if args.sync_pages:
             sync_pages(args.pages_dir)
             ran = True

@@ -532,16 +532,9 @@ def generate_page(output_dir: Path = None) -> Path:
   <meta name="description" content="{description}">
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="{canonical_url}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/xc-assets/fonts.css">
   <style>{css}</style>
-  <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
-  <script>
-  window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}
-  (function(){{var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-  if(c==='declined')return;gtag('js',new Date());gtag('config','{GA4_ID}')}})();
-  </script>
+  <script src="/xc-assets/analytics.js"></script>
 </head>
 <body>
 
