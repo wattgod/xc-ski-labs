@@ -237,7 +237,7 @@ def check_output_pages(result: PreflightResult):
         result.error("output/ directory not found — run generate_race_pages.py")
         return
 
-    NON_RACE_DIRS = {"about", "coaching", "coaching-exit", "consulting", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+    NON_RACE_DIRS = {"about", "coaching", "coaching-exit", "consulting", "feed", "goals", "guide", "media", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
     page_slugs = set()
     for d in OUTPUT_DIR.iterdir():
         if d.is_dir() and d.name not in NON_RACE_DIRS and (d / "index.html").exists():
@@ -271,6 +271,17 @@ def check_output_pages(result: PreflightResult):
     hp = OUTPUT_DIR / "index.html"
     if not hp.exists():
         result.error("Homepage missing at output/index.html")
+
+    # Every technique loop a page points at must exist in web/media/loops/ (deploy uploads that folder)
+    media_dir = PROJECT_ROOT / "web" / "media" / "loops"
+    wanted = set()
+    for html_file in OUTPUT_DIR.rglob("index.html"):
+        wanted.update(re.findall(r'/media/loops/([A-Za-z0-9_-]+\.(?:mp4|jpg))', html_file.read_text(encoding="utf-8")))
+    missing_media = sorted(f for f in wanted if not (media_dir / f).exists())
+    if missing_media:
+        result.error(f"Pages reference {len(missing_media)} missing technique loops: {', '.join(missing_media[:5])}")
+    elif wanted:
+        print(f"  Technique loops present: {len(wanted)} files referenced")
 
     # Check search deployed
     search = OUTPUT_DIR / "search" / "index.html"

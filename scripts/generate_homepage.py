@@ -20,6 +20,9 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Optional
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from xsl_loops import BAND_CSS, LOOP_CSS, LOOP_JS, copy_media, loops_band  # noqa: E402
+
 try:
     from scripts.endure_offer import get_endure_offer_html
 except ModuleNotFoundError:
@@ -298,6 +301,14 @@ def generate_homepage(races: list[dict]) -> str:
         + "\n</script>"
     )
     tokens_css = load_tokens_css()
+    # Classic technique loops (Gravel God, motion-captured from Matti's course videos). Words match the guide's
+    # "Classic gears" section, which the band links to.
+    motion_band = loops_band(
+        "Classic skiing has three gears.",
+        "Diagonal stride, kick double-pole and double-pole, animated from motion capture of Matti's own technique videos.",
+        ["diagonal", "kickdp", "doublepole"],
+        "/guide/technique-and-execution/", "Read the technique chapter", band_id="motion")
+    loop_css = BAND_CSS + LOOP_CSS
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -326,6 +337,7 @@ gtag('js',new Date());gtag('config','G-3JQLSQLPPM')}})();
 <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 {tokens_css}
+{loop_css}
 
 *, *::before, *::after {{
   box-sizing: border-box;
@@ -1260,6 +1272,9 @@ a:focus-visible, button:focus-visible {{
   </div>
 </section>
 
+<!-- ── Classic technique, in motion ── -->
+{motion_band}
+
 <!-- ── Season review entry ── -->
 <section class="gl-hp-goals" aria-labelledby="gl-hp-goals-title">
   <div class="gl-hp-goals-inner">
@@ -1435,6 +1450,7 @@ if(!/xl_consent=/.test(document.cookie))document.getElementById('gl-cookie-banne
 </script>
 
 {coverage_js}
+{LOOP_JS}
 </body>
 </html>"""
 
@@ -1491,6 +1507,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html_content)
     shutil.copy2(SCRIPT_DIR.parent / "web" / "xc-logo.svg", output_dir / "xc-logo.svg")
+    print(f"  Copied {copy_media(output_dir)} technique-loop files to {output_dir / 'media' / 'loops'}")
     print(f"  Wrote {out_path} ({len(html_content):,} bytes)")
 
 

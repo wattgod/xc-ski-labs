@@ -21,6 +21,9 @@ import re
 import sys
 from pathlib import Path
 from typing import Any, Optional
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from xsl_loops import DISCIPLINE_LOOP, LOOP_CSS, LOOP_JS, LOOPS, loop_figure  # noqa: E402
 import xml.etree.ElementTree as ET
 
 try:
@@ -658,8 +661,10 @@ def _token_hex(name: str) -> str:
 def build_css() -> str:
     """Build the complete CSS for race pages."""
     tokens = load_tokens_css()
+    loops = LOOP_CSS + RACE_LOOP_CSS
     return f"""
 {tokens}
+{loops}
 
 *, *::before, *::after {{
   box-sizing: border-box;
@@ -2808,6 +2813,39 @@ def build_goal_card(race: dict) -> str:
     return html_out + script_out
 
 
+RACE_LOOP_CSS = """
+.xsl-race-motion { max-width: var(--gl-measure); margin: 0 auto; padding: 40px 20px 8px; display: grid;
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr); gap: 20px 32px; align-items: center; }
+.xsl-race-motion h2 { margin: 0 0 8px; font-family: var(--gl-font-display); font-weight: 900;
+  font-stretch: condensed; font-size: clamp(24px, 3.4vw, 32px); line-height: 1.05; text-transform: uppercase; color: var(--gl-ink); }
+.xsl-race-motion p { margin: 0 0 12px; font-family: var(--gl-font-editorial); font-size: 17px; color: var(--gl-ink); max-width: 52ch; }
+.xsl-race-motion a { font-family: var(--gl-font-data); font-size: 13px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--gl-ink); text-decoration: none; border-bottom: 3px solid var(--gl-rust); }
+.xsl-race-motion p.xsl-race-motion-gear { font-family: var(--gl-font-data); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--gl-caption); }
+@media (max-width: 640px) { .xsl-race-motion { grid-template-columns: 1fr; } .xsl-race-motion .xsl-loop { max-width: 300px; } }
+"""
+
+
+def build_technique_motion(race: dict) -> str:
+    """Classic and dual-technique races: one technique loop (Gravel God, captured from Matti's course videos)
+    beside a pointer to the guide's classic gears. Skate-only races get nothing: no skate technique is captured."""
+    disc = (race.get("vitals", {}) or {}).get("discipline", "")
+    tech = DISCIPLINE_LOOP.get(str(disc).lower())
+    if not tech:
+        return ""
+    name, gear, _ = LOOPS[tech]
+    return f"""
+<section class="xsl-race-motion" aria-labelledby="xsl-race-motion-title">
+  {loop_figure(tech, "square", caption=False)}
+  <div>
+    <h2 id="xsl-race-motion-title">{esc(name)}</h2>
+    <p class="xsl-race-motion-gear">{esc(gear)}</p>
+    <a href="/guide/technique-and-execution/">Classic gears in the guide &rarr;</a>
+  </div>
+</section>
+"""
+
+
 def build_product_ladder(race: dict) -> str:
     """Custom-first offer, followed by the higher-touch coaching path."""
     slug = esc(race["slug"])
@@ -3186,7 +3224,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
     breakdown = build_breakdown_tiles(race)
     transition = build_transition_callout(race)
     wax_bar = build_wax_bar(race)
-    ladder = build_product_ladder(race)
+    ladder = build_technique_motion(race) + build_product_ladder(race)
     goal_card = build_goal_card(race)
     history = build_history(race)
     series = build_series(race)
@@ -3250,6 +3288,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
 {sticky_cta}
 {capture_js}
 {interactions_js}
+{LOOP_JS if 'data-xsl-loop' in ladder else ''}
 {sticky_js}
 {cookie_consent}
 </body>
