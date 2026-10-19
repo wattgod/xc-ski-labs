@@ -152,6 +152,8 @@ def sync_pages(pages_dir=None):
 
     Uses {slug}/index.html directory structure from the output dir.
     """
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -219,6 +221,8 @@ def sync_pages(pages_dir=None):
 
 def sync_homepage(homepage_file=None):
     """Upload homepage and the shared brand mark to the site root."""
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -251,6 +255,64 @@ def sync_homepage(homepage_file=None):
         return False
     print("  Deployed homepage and logo to /")
     return True
+
+
+def sync_media():
+    """Upload the technique loops (web/media/loops/: muted MP4 + poster JPG per technique) to /media/loops/.
+    Runs before the pages in --deploy-all so no page ever points at a loop the server doesn't have."""
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+    local = PROJECT_ROOT / "web" / "media" / "loops"
+    files = sorted(p for p in local.glob("*") if p.suffix in (".mp4", ".jpg"))
+    if not files:
+        print(f"  No loop media in {local}")
+        return False
+    remote_dir = f"{get_remote_base()}/media/loops"
+    ok, _, err = _ssh_run(host, user, port, f"mkdir -p {remote_dir} && chmod 755 {get_remote_base()}/media {remote_dir}")
+    if not ok:
+        print(f"  Failed to create {remote_dir}: {err}")
+        return False
+    if not _tar_ssh_upload(host, user, port, local, remote_dir):
+        return False
+    if not media_on_server(host, user, port, files, remote_dir):
+        return False
+    print(f"  Deployed {len(files)} technique-loop files to /media/loops/")
+    return True
+
+
+def media_on_server(host, user, port, files, remote_dir):
+    """Pitfall #36: verify, don't assume. Every local loop file must be on the server under the same name with
+    the same byte size (a stale extra file can't hide a missing one)."""
+    ok, out, err = _ssh_run(host, user, port,
+                            f"cd {remote_dir} 2>/dev/null && for f in *.mp4 *.jpg; do [ -f \"$f\" ] && echo \"$f $(wc -c < \"$f\")\"; done; true")
+    if not ok:
+        print(f"  FAILED: could not list {remote_dir}: {err}")
+        return False
+    remote = {}
+    for line in out.splitlines():
+        parts = line.split()
+        if len(parts) == 2 and parts[1].isdigit():
+            remote[parts[0]] = int(parts[1])
+    bad = [f.name for f in files if remote.get(f.name) != f.stat().st_size]
+    if bad:
+        print(f"  FAILED: {len(bad)} loop files missing or different on the server: {', '.join(bad[:5])}")
+        return False
+    return True
+
+
+_MEDIA_READY = False
+
+
+def ensure_media():
+    """Pages point at /media/loops/: upload (and verify) the loops before any page that uses them, once per run."""
+    global _MEDIA_READY
+    if not _MEDIA_READY:
+        _MEDIA_READY = bool(sync_media())
+        if not _MEDIA_READY:
+            print("  Stopping: the technique loops are not on the server, so pages that show them are not uploaded.")
+    return _MEDIA_READY
 
 
 def sync_search():
@@ -334,6 +396,8 @@ def sync_sitemap():
 
 def sync_training():
     """Upload training plans page to /training-plans/ on SiteGround."""
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -503,6 +567,8 @@ def _sync_static_page(name: str, remote_path: str):
 
 def sync_guide():
     """Upload the guide tree (pillar + 8 chapters) to /guide/ via tar+ssh."""
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -756,6 +822,7 @@ def deploy_all():
     print("=" * 40)
 
     steps = [
+        ("Technique Loops", sync_media),
         ("Homepage", sync_homepage),
         ("Search UI", sync_search),
         ("Race Pages", sync_pages),
@@ -783,6 +850,9 @@ def deploy_all():
         print(f"\n[{name}]")
         ok = fn()
         results.append((name, ok))
+        if name == "Technique Loops" and not ok:
+            print("  Stopping the deploy: no page is uploaded while the loops it shows are missing.")
+            break
 
     print("\n" + "=" * 40)
     print("Deploy Summary:")
@@ -840,6 +910,10 @@ if __name__ == "__main__":
         "--sync-consulting", action="store_true",
         help="Upload consulting landing page (/consulting/), intake form "
              "(/consulting/intake/), and confirmation page (/consulting/confirmed/)"
+    )
+    parser.add_argument(
+        "--sync-media", action="store_true",
+        help="Upload the technique loops (web/media/loops/) to /media/loops/"
     )
     parser.add_argument(
         "--sync-guide", action="store_true",
@@ -910,7 +984,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.deploy_all:
-        deploy_all()
+        if not deploy_all():
+            sys.exit(1)
     else:
         ran = False
         if args.sync_pages:
@@ -936,6 +1011,9 @@ if __name__ == "__main__":
             ran = True
         if args.sync_consulting:
             sync_consulting()
+            ran = True
+        if args.sync_media:
+            sync_media()
             ran = True
         if args.sync_guide:
             sync_guide()

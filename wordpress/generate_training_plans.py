@@ -28,6 +28,13 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
 from scripts.endure_offer import get_endure_offer_html
+from scripts.xsl_loops import LOOP_CSS, LOOP_JS, loop_figure  # noqa: E402
+
+# Gravel God skiing, motion-captured from Matti's course videos (scripts/xsl_loops.py); caption only, no new copy
+PAGE_MOTION = f'<section class="xsl-page-motion">{loop_figure("doublepole", "wide")}</section>'
+XSL_PAGE_MOTION_CSS = """
+.xsl-page-motion { max-width: var(--gl-measure); margin: 0 auto; padding: 40px 20px 8px; }
+"""
 from plan_simulator import (get_plan_simulator_css, get_plan_simulator_js,
                             render_plan_simulator)
 
@@ -1332,10 +1339,11 @@ def generate_page():
     race_count = count_race_profiles()
 
     css = build_css()
+    css = css + LOOP_CSS + XSL_PAGE_MOTION_CSS
     jsonld_data = build_jsonld(stripe_data)
 
     nav = build_nav()
-    hero = build_hero(race_count)
+    hero = build_hero(race_count) + PAGE_MOTION
     preview = build_plan_preview()
     plan_simulator_js = get_plan_simulator_js()
     how_it_works = build_how_it_works()
@@ -1483,6 +1491,7 @@ function xlConsent(choice) {{
     }}
 }})();
 </script>
+{LOOP_JS}
 </body>
 </html>"""
 

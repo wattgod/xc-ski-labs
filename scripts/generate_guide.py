@@ -38,6 +38,8 @@ from generate_race_pages import (  # noqa: E402
 )
 
 
+from xsl_loops import LOOP_JS, loop_figure  # noqa: E402
+
 CITE_RE = re.compile(r"\[\^([A-Za-z0-9_.-]+)\]")
 
 
@@ -228,6 +230,10 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
     if kind == "accordion":
         items = "".join(f'<details><summary>{esc(item.get("title", ""))}</summary>{_paragraphs(item.get("content", ""), source_map)}</details>' for item in block.get("items", []))
         return f'<div class="gl-guide-block gl-accordion">{items}</div>'
+    if kind == "technique_loops":
+        # Gravel God skiing each gear, motion-captured from Matti's course videos (scripts/xsl_loops.py)
+        figs = "".join(loop_figure(t, "square") for t in block.get("techniques", []))
+        return f'<div class="gl-guide-block xsl-loop-grid">{figs}</div>'
     if kind == "data_table":
         title = f'<h3 class="gl-data-table-title">{esc(block.get("title", ""))}</h3>' if block.get("title") else ""
         headers = "".join(f"<th>{esc(h)}</th>" for h in block.get("headers", []))
@@ -360,7 +366,7 @@ def build_jsonld(name: str, description: str, url: str, kind: str = "Article") -
 
 
 def build_script() -> str:
-    return build_interactions_js() + """
+    return build_interactions_js() + LOOP_JS + """
 <script>
 (function(){
   document.querySelectorAll('[data-tab-target]').forEach(function(button) {
