@@ -25,17 +25,18 @@ def _load(name, path):
 @pytest.mark.parametrize("tech", sorted(xsl_loops.LOOPS))
 @pytest.mark.parametrize("shape", sorted(xsl_loops.SIZES))
 def test_every_loop_has_web_sized_video_and_poster(tech, shape):
-    mp4, jpg = xsl_loops.media_files(tech, shape)
-    assert mp4.exists() and jpg.exists(), f"missing media for {tech}/{shape}"
+    mp4, poster = xsl_loops.media_files(tech, shape)
+    assert mp4.exists() and poster.exists(), f"missing media for {tech}/{shape}"
+    assert poster.suffix == ".webp", "posters ship as WebP"
     assert mp4.stat().st_size < 600_000, f"{mp4.name} is too heavy for an autoplaying loop"
-    assert jpg.stat().st_size < 400_000
+    assert poster.stat().st_size < 400_000
 
 
 def test_figure_is_lazy_muted_inline_and_decorative():
     html = xsl_loops.loop_figure("diagonal", "square")
     video = re.search(r"<video[^>]*>", html).group(0)
     for attr in ("muted", "loop", "playsinline", 'preload="none"', 'aria-hidden="true"', 'data-src="/media/loops/diagonal_square.mp4"',
-                 'poster="/media/loops/diagonal_square.jpg"'):
+                 'poster="/media/loops/diagonal_square.webp"'):
         assert attr in video
     assert " src=" not in video, "the video must not download before it scrolls into view"
     assert "Diagonal stride" in html and "Climbing gear" in html

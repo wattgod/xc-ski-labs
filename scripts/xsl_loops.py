@@ -43,13 +43,14 @@ def copy_media(output_dir: Path) -> int:
     dest.mkdir(parents=True, exist_ok=True)
     n = 0
     for f in sorted(MEDIA_DIR.glob("*")):
-        if f.suffix in (".mp4", ".jpg"):
+        if f.suffix in (".mp4", ".jpg", ".webp"):
             shutil.copy2(f, dest / f.name); n += 1
     return n
 
 
 def media_files(tech: str, shape: str) -> tuple[Path, Path]:
-    return MEDIA_DIR / f"{tech}_{shape}.mp4", MEDIA_DIR / f"{tech}_{shape}.jpg"
+    """(video, poster). Posters ship as WebP (about 60% lighter than the JPG originals, which stay as sources)."""
+    return MEDIA_DIR / f"{tech}_{shape}.mp4", MEDIA_DIR / f"{tech}_{shape}.webp"
 
 
 def loop_figure(tech: str, shape: str = "wide", caption: bool = True, extra_class: str = "") -> str:
@@ -63,7 +64,7 @@ def loop_figure(tech: str, shape: str = "wide", caption: bool = True, extra_clas
     cls = f"xsl-loop xsl-loop--{shape}" + (f" {extra_class}" if extra_class else "")
     return (f'<figure class="{cls}" data-xsl-loop>'
             f'<div class="xsl-loop-frame"><video class="xsl-loop-video" muted loop playsinline preload="none" '
-            f'poster="{stem}.jpg" data-src="{stem}.mp4" width="{w}" height="{h}" aria-hidden="true"></video></div>'
+            f'poster="{stem}.webp" data-src="{stem}.mp4" width="{w}" height="{h}" aria-hidden="true"></video></div>'
             f'{cap}</figure>')
 
 

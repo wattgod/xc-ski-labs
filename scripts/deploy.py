@@ -38,7 +38,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "coaching-exit", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "coaching-exit", "consulting", "feed", "goals", "guide", "learn", "media", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 
@@ -147,10 +147,14 @@ def _tar_ssh_upload(host, user, port, local_dir, remote_dir, timeout=300):
 # ── Sync Functions ────────────────────────────────────────────
 
 
-def sync_pages(pages_dir=None):
+def sync_pages(pages_dir=None, with_sitemap=True):
     """Upload race pages to /race/ on SiteGround via tar+ssh.
 
     Uses {slug}/index.html directory structure from the output dir.
+    After a successful upload the sitemap is regenerated and uploaded too
+    (with_sitemap=True), so a pages-only deploy can never leave new races
+    out of sitemap.xml again. deploy_all() passes False because it runs its
+    own Sitemap step.
     """
     if not ensure_media():
         return False
@@ -216,6 +220,10 @@ def sync_pages(pages_dir=None):
             print(f"  Verified: {remote_count} index.html files on remote")
 
     print(f"  Deployed {page_count} race pages to /race/")
+    if with_sitemap and not pages_dir:
+        print("  Refreshing sitemap.xml to match the deployed race pages...")
+        if not sync_sitemap():
+            print("  WARNING: race pages are live but sitemap.xml was not refreshed")
     return True
 
 
@@ -258,14 +266,14 @@ def sync_homepage(homepage_file=None):
 
 
 def sync_media():
-    """Upload the technique loops (web/media/loops/: muted MP4 + poster JPG per technique) to /media/loops/.
+    """Upload the technique loops (web/media/loops/: muted MP4 + WebP poster, with its JPG source, per technique) to /media/loops/.
     Runs before the pages in --deploy-all so no page ever points at a loop the server doesn't have."""
     ssh = get_ssh_credentials()
     if not ssh:
         return False
     host, user, port = ssh
     local = PROJECT_ROOT / "web" / "media" / "loops"
-    files = sorted(p for p in local.glob("*") if p.suffix in (".mp4", ".jpg"))
+    files = sorted(p for p in local.glob("*") if p.suffix in (".mp4", ".jpg", ".webp"))
     if not files:
         print(f"  No loop media in {local}")
         return False
@@ -286,7 +294,7 @@ def media_on_server(host, user, port, files, remote_dir):
     """Pitfall #36: verify, don't assume. Every local loop file must be on the server under the same name with
     the same byte size (a stale extra file can't hide a missing one)."""
     ok, out, err = _ssh_run(host, user, port,
-                            f"cd {remote_dir} 2>/dev/null && for f in *.mp4 *.jpg; do [ -f \"$f\" ] && echo \"$f $(wc -c < \"$f\")\"; done; true")
+                            f"cd {remote_dir} 2>/dev/null && for f in *.mp4 *.jpg *.webp; do [ -f \"$f\" ] && echo \"$f $(wc -c < \"$f\")\"; done; true")
     if not ok:
         print(f"  FAILED: could not list {remote_dir}: {err}")
         return False
@@ -373,18 +381,34 @@ def sync_index():
 
 
 def sync_sitemap():
-    """Upload sitemap.xml to site root."""
+    """Regenerate output/sitemap.xml from race-data, then upload it to the site root.
+
+    Regenerating here (rather than trusting whatever's on disk) is what keeps
+    the live sitemap in step with the race pages: on 2026-10-31 the live
+    sitemap still had 186 races from Sept 28 while 229 race pages were live.
+    A failed regeneration stops the upload so a stale file never ships.
+    """
     ssh = get_ssh_credentials()
     if not ssh:
         return False
     host, user, port = ssh
 
-    # generate_sitemap.py writes output/sitemap.xml — prefer it; web/ copy is legacy
+    try:
+        subprocess.run(
+            [sys.executable, str(SCRIPT_DIR / "generate_sitemap.py")],
+            check=True, capture_output=True, text=True, timeout=120,
+        )
+        print("  Regenerated sitemap.xml")
+    except subprocess.CalledProcessError as e:
+        print(f"  sitemap.xml regeneration failed, not uploading: {e.stderr.strip()}")
+        return False
+    except Exception as e:
+        print(f"  sitemap.xml regeneration failed, not uploading: {e}")
+        return False
+
     sitemap = PROJECT_ROOT / "output" / "sitemap.xml"
     if not sitemap.exists():
-        sitemap = PROJECT_ROOT / "web" / "sitemap.xml"
-    if not sitemap.exists():
-        print("  sitemap.xml not found — generate it first")
+        print("  sitemap.xml not found after regeneration")
         return False
 
     remote = f"{get_remote_base()}/sitemap.xml"
@@ -825,7 +849,7 @@ def deploy_all():
         ("Technique Loops", sync_media),
         ("Homepage", sync_homepage),
         ("Search UI", sync_search),
-        ("Race Pages", sync_pages),
+        ("Race Pages", lambda: sync_pages(with_sitemap=False)),
         ("Training Plans", sync_training),
         ("Coaching", sync_coaching),
         ("Consulting", sync_consulting),

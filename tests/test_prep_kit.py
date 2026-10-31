@@ -109,3 +109,11 @@ def test_sitemap_includes_one_prep_kit_per_race():
     text = xml.decode("utf-8")
     assert text.count("/prep-kit/") == len(profiles)
     assert "https://xcskilabs.com/race/alpha/prep-kit/" in text
+
+
+def test_every_race_page_links_its_prep_kit():
+    """The goal card (the kit's other link) only renders for dated races; the
+    footer link keeps every indexable prep kit from being an orphan page."""
+    race = {"slug": "alpha", "name": "Alpha Loppet"}
+    footer = race_pages.build_footer(race)
+    assert '<a href="/race/alpha/prep-kit/">Prep kit</a>' in footer

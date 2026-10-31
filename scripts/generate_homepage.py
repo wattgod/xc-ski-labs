@@ -255,6 +255,16 @@ coverage.forEach(function(c) {{
 
 # ── Full Page ──────────────────────────────────────────────────
 
+LEARN_RUNG_HTML = """      <div class="gl-rung">
+        <span class="gl-rung-kicker">Course</span>
+        <h3>XC ski course</h3>
+        <p>Lessons from first glide to race preparation.</p>
+        <span class="gl-rung-price">SELF-PACED</span><br>
+        <a class="gl-rung-btn" href="/learn/">See the course</a>
+      </div>
+"""
+
+
 def generate_homepage(races: list[dict]) -> str:
     """Generate the complete homepage HTML."""
     # ── Compute stats ──
@@ -274,6 +284,11 @@ def generate_homepage(races: list[dict]) -> str:
     t2_top = t2_races[:T2_HIGHLIGHT_COUNT]
     t2_cards = "\n\n".join(build_race_card(r) for r in t2_top)
     t2_total = len(t2_races)
+
+    # ── Course rung ──
+    # /learn/ only exists once the course is built; linking it before then
+    # ships a broken link (it 404s live), same guard as the race pages use.
+    learn_rung = LEARN_RUNG_HTML if (DEFAULT_OUTPUT_DIR / "learn" / "index.html").exists() else ""
 
     # ── Coverage ──
     coverage = build_coverage_data(races)
@@ -1394,14 +1409,7 @@ a:focus-visible, button:focus-visible {{
         <span class="gl-rung-price">$60-$249</span><br>
         <a class="gl-rung-btn" href="/questionnaire/">Start the intake</a>
       </div>
-      <div class="gl-rung">
-        <span class="gl-rung-kicker">Course</span>
-        <h3>XC ski course</h3>
-        <p>Lessons from first glide to race preparation.</p>
-        <span class="gl-rung-price">SELF-PACED</span><br>
-        <a class="gl-rung-btn" href="/learn/">See the course</a>
-      </div>
-      <div class="gl-rung">
+{learn_rung}      <div class="gl-rung">
         <span class="gl-rung-kicker">Coaching</span>
         <h3>Coaching</h3>
         <p>Direct support when the season needs more than a template.</p>

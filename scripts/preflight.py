@@ -276,7 +276,7 @@ def check_output_pages(result: PreflightResult):
     media_dir = PROJECT_ROOT / "web" / "media" / "loops"
     wanted = set()
     for html_file in OUTPUT_DIR.rglob("index.html"):
-        wanted.update(re.findall(r'/media/loops/([A-Za-z0-9_-]+\.(?:mp4|jpg))', html_file.read_text(encoding="utf-8")))
+        wanted.update(re.findall(r'/media/loops/([A-Za-z0-9_-]+\.(?:mp4|jpg|webp))', html_file.read_text(encoding="utf-8")))
     missing_media = sorted(f for f in wanted if not (media_dir / f).exists())
     if missing_media:
         result.error(f"Pages reference {len(missing_media)} missing technique loops: {', '.join(missing_media[:5])}")
