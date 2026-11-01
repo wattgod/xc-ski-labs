@@ -3090,13 +3090,21 @@ def build_sticky_js() -> str:
 
 
 def build_footer(race: dict) -> str:
-    """Red footer strip."""
-    return """
+    """Red footer strip.
+
+    Carries a plain link to the race's prep kit. The kit is indexable and in
+    the sitemap, but its only other link sits in the goal card, which renders
+    only for races with a parseable date, so 133 of 229 kits had no internal
+    link at all (orphans).
+    """
+    slug = esc(race.get("slug", ""))
+    prep_kit_link = f'<a href="/race/{slug}/prep-kit/">Prep kit</a>' if slug else ""
+    return f"""
 <footer class="gl-footer">
   <div class="gl-footer-inner">
     <span class="gl-footer-logo">XC SKI <em>LABS</em></span>
     <span class="gl-footer-motto">BUILT FOR SKIERS WHO CHASE START LINES</span>
-    <span class="gl-footer-links"><a href="/search/">Back to search</a><a href="/">Home</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></span>
+    <span class="gl-footer-links"><a href="/search/">Back to search</a><a href="/">Home</a>{prep_kit_link}<a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></span>
   </div>
 </footer>
 """.replace("</footer>", get_endure_offer_html() + "</footer>")

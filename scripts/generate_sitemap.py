@@ -90,6 +90,8 @@ def generate_sitemap(domain, profiles):
     add_url(f"{domain}/search/", "0.8", "weekly")
     add_url(f"{domain}/goals/", "0.8", "weekly")
     add_url(f"{domain}/training-plans/", "0.8", "monthly")
+    add_url(f"{domain}/coaching/", "0.7", "monthly")
+    add_url(f"{domain}/consulting/", "0.7", "monthly")
     add_url(f"{domain}/about/", "0.5", "monthly")
     add_url(f"{domain}/methodology/", "0.5", "monthly")
     add_url(f"{domain}/privacy/", "0.3", "yearly")
@@ -173,8 +175,8 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path.write_bytes(xml_bytes)
 
-    static_urls = 11  # homepage, search, training, about, methodology, privacy, terms, guide + 3 open chapters
-    total_urls = static_urls + (2 * len(sorted_profiles))
+    total_urls = xml_bytes.count(b"<loc>")
+    static_urls = total_urls - (2 * len(sorted_profiles))
     print(f"\nWrote {output_path}")
     print(f"  Total URLs: {total_urls}")
     print(f"  Static:     {static_urls} (site pages + indexable guide pages)")

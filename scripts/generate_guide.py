@@ -272,7 +272,7 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
         return f'<div class="gl-guide-block gl-knowledge" data-quiz-correct="{esc(correct)}" data-quiz-feedback="{esc(_plain(feedback))}"><h3>Knowledge check</h3><p class="gl-section-prose">{_md_inline(block.get("question", ""), source_map)}</p><div class="gl-quiz-options" role="group" aria-label="Knowledge check options">{"".join(opts)}</div><p class="gl-knowledge-result" aria-live="polite" data-empty="Choose one answer.">Choose one answer.</p></div>'
     if kind == "race_reference":
         slug = block.get("slug", "")
-        return f'<aside class="gl-guide-block gl-race-ref" data-race-reference="{esc(slug)}"><h3>Race reference</h3><p>{_md_inline(block.get("context", ""), source_map)}</p><a href="/{esc(slug)}/">Open race profile</a></aside>'
+        return f'<aside class="gl-guide-block gl-race-ref" data-race-reference="{esc(slug)}"><h3>Race reference</h3><p>{_md_inline(block.get("context", ""), source_map)}</p><a href="/race/{esc(slug)}/">Open race profile</a></aside>'
     if kind == "personalized_content":
         riders = content.get("personalization", {}).get("rider_types", [])
         buttons = []
