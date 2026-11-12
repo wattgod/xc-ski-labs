@@ -23,7 +23,9 @@ SOURCE_GLOBS = (
 # `border-left-color` longhands). Raising this number means you are adding a
 # colored side rule -- the owner has a standing ban on those, with a narrow
 # exception for true prose blockquotes. See docs/BRAND_GUIDELINES.md section 5.
-MAX_BORDER_LEFT = 17
+# Raised to 18 when main was merged in: #30 added one decorative klister line
+# inside the homepage hero art (generate_homepage.py), not a callout strip.
+MAX_BORDER_LEFT = 18
 
 BORDER_LEFT_RE = re.compile(r"border-left")
 
