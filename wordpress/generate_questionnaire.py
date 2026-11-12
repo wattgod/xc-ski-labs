@@ -470,7 +470,7 @@ gtag('config', 'G-3JQLSQLPPM');
 def build_nav() -> str:
     return """<nav class="gl-nav" aria-label="Primary">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo">XC SKI LABS</a>
+    <a href="/" class="gl-nav-logo"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
     <div class="gl-nav-links">
       <a href="/search/">Races</a>
       <a href="/guide/">Guide</a>
@@ -522,6 +522,9 @@ def build_form() -> str:
   <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="race_slug" id="raceSlug">
+  <input type="hidden" name="review_goal" id="reviewGoal">
+  <input type="hidden" name="review_habits" id="reviewHabits">
+  <input type="hidden" name="goal_ref" id="goalRef">
 
   {section(1, "Your race", '''
     <div class="gl-field">
@@ -688,6 +691,23 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   var raceDetails = {_safe_json_for_script(race_details, separators=(',', ':'))};
   var params = new URLSearchParams(window.location.search);
   var submitted = params.get('submitted');
+  var goalsMode = params.get('src') === 'goals';
+  var goalToken = goalsMode ? (params.get('t') ||
+    (window.history.state && window.history.state.goalToken) ||
+    new URLSearchParams(window.location.hash.slice(1)).get('t') || '') : '';
+  if (goalsMode && !goalToken) {{
+    try {{
+      goalToken = sessionStorage.getItem('xc_goal_prefill_token') || '';
+      sessionStorage.removeItem('xc_goal_prefill_token');
+    }} catch (e) {{}}
+  }}
+  if (!/^[A-Za-z0-9_-]{{16,64}}$/.test(goalToken)) goalToken = '';
+  var GOAL_STORAGE_KEY = goalToken ? 'xc_goal_draft_' + goalToken : '';
+  if (goalToken && window.history && window.history.replaceState) {{
+    var safeUrl = new URL(window.location.href);
+    safeUrl.searchParams.delete('t');
+    window.history.replaceState({{ goalToken: goalToken }}, '', safeUrl.pathname + safeUrl.search);
+  }}
   var form = document.getElementById('planIntake');
   var raceInput = document.getElementById('targetRace');
   var raceSlugInput = document.getElementById('raceSlug');
@@ -715,7 +735,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
 
   function applyRacePrefill() {{
     var raceSlug = params.get('race');
-    if (!raceSlug || !races[raceSlug]) return;
+    if (goalsMode || !raceSlug || !races[raceSlug]) return;
     raceInput.value = races[raceSlug];
     raceSlugInput.value = raceSlug;
     var detail = raceDetails[raceSlug] || {{}};
@@ -730,7 +750,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   function getFormData() {{
     var data = {{}};
     Array.prototype.forEach.call(form.elements, function(el) {{
-      if (!el.name || el.name.charAt(0) === '_') return;
+      if (!el.name || el.name.charAt(0) === '_' || /^(review_goal|review_habits|goal_ref)$/.test(el.name)) return;
       if (el.type === 'checkbox') {{
         if (!data[el.name]) data[el.name] = [];
         if (el.checked) data[el.name].push(el.value);
@@ -744,12 +764,16 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   function restoreFormData() {{
-    var raw = localStorage.getItem(STORAGE_KEY);
+    var raw;
+    try {{
+      raw = (goalsMode ? sessionStorage : localStorage).getItem(
+        goalsMode ? GOAL_STORAGE_KEY : STORAGE_KEY);
+    }} catch (e) {{ return; }}
     if (!raw) return;
     var data;
     try {{ data = JSON.parse(raw); }} catch(e) {{ return; }}
     Array.prototype.forEach.call(form.elements, function(el) {{
-      if (!el.name || el.name.charAt(0) === '_') return;
+      if (!el.name || el.name.charAt(0) === '_' || /^(review_goal|review_habits|goal_ref)$/.test(el.name)) return;
       if (el.type === 'checkbox') {{
         el.checked = Array.isArray(data[el.name]) && data[el.name].indexOf(el.value) !== -1;
       }} else if (el.type === 'radio') {{
@@ -761,7 +785,11 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   function saveFormData() {{
-    try {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(getFormData())); }} catch(e) {{}}
+    if (goalsMode && !GOAL_STORAGE_KEY) return;
+    try {{
+      (goalsMode ? sessionStorage : localStorage).setItem(
+        goalsMode ? GOAL_STORAGE_KEY : STORAGE_KEY, JSON.stringify(getFormData()));
+    }} catch(e) {{}}
     if (saveIndicator) {{
       saveIndicator.classList.add('show');
       clearTimeout(saveIndicator._timeout);
@@ -776,14 +804,16 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   function updateProgress() {{
-    var sections = document.querySelectorAll('.gl-section');
+    var sections = Array.prototype.filter.call(document.querySelectorAll('.gl-section'), function(section) {{
+      return !section.hidden;
+    }});
     var filled = 0;
     Array.prototype.forEach.call(sections, function(section) {{
       var inputs = section.querySelectorAll('input, select, textarea');
       var hasContent = Array.prototype.some.call(inputs, fieldHasValue);
       if (hasContent) filled += 1;
     }});
-    var pct = Math.round((filled / TOTAL_SECTIONS) * 100);
+    var pct = Math.round((filled / (sections.length || TOTAL_SECTIONS)) * 100);
     if (progressFill) progressFill.style.width = pct + '%';
     if (progressPct) progressPct.textContent = pct + '%';
   }}
@@ -794,6 +824,17 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   }}
 
   if (submitted === '1') {{
+    try {{
+      var confirmation = params.get('confirm') || '';
+      if (/^[0-9a-f]{{32}}$/.test(confirmation)) {{
+        var pendingKey = 'xc_goal_pending_' + confirmation;
+        var completedKey = sessionStorage.getItem(pendingKey) || '';
+        if (/^xc_goal_draft_[A-Za-z0-9_-]{{16,64}}$/.test(completedKey)) {{
+          sessionStorage.removeItem(completedKey);
+        }}
+        sessionStorage.removeItem(pendingKey);
+      }}
+    }} catch (e) {{}}
     var page = document.querySelector('.gl-page');
     if (page) {{
       page.innerHTML = '<div class="gl-success-message"><h2>Questionnaire received.</h2><p>Payment received or not, we read the intake before building the plan. Check your email for the next step.</p><a href="/training-plans/">Back to training plans</a></div>';
@@ -801,8 +842,54 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     return;
   }}
 
-  restoreFormData();
+  // A token link is a fresh lead's intake. Never show a prior visitor's
+  // autosaved answers from a shared browser while the lookup is in flight.
+  if (!goalsMode || GOAL_STORAGE_KEY) restoreFormData();
   applyRacePrefill();
+  if (goalsMode) {{
+    document.querySelectorAll('.gl-section[data-section="3"], .gl-section[data-section="6"]').forEach(function(section) {{
+      section.hidden = true;
+      section.querySelectorAll('[required]').forEach(function(field) {{ field.required = false; }});
+    }});
+  }}
+  if (goalsMode && goalToken) {{
+    var reviewEmail = '';
+    var hashedRef = '';
+    var reviewGoal = '';
+    var reviewHabits = '';
+    function updateReviewAttribution() {{
+      var emailField = document.getElementById('email');
+      var sameLead = reviewEmail && emailField && emailField.value.trim().toLowerCase() === reviewEmail;
+      document.getElementById('goalRef').value = sameLead ? hashedRef : '';
+      document.getElementById('reviewGoal').value = sameLead ? reviewGoal : '';
+      document.getElementById('reviewHabits').value = sameLead ? reviewHabits : '';
+    }}
+    document.getElementById('email').addEventListener('input', updateReviewAttribution);
+    form.addEventListener('submit', updateReviewAttribution);
+    fetch('https://athlete-profiles-production.up.railway.app/api/season-plan/prefill/' + encodeURIComponent(goalToken), {{
+      headers: {{ 'Accept': 'application/json' }}
+    }}).then(function(r) {{ return r.ok ? r.json() : null; }}).then(function(data) {{
+      if (!data) return;
+      var email = document.getElementById('email');
+      if (email && !email.value && data.email) email.value = data.email;
+      reviewEmail = String(data.email || '').trim().toLowerCase();
+      reviewGoal = data.goal || '';
+      reviewHabits = data.habits || '';
+      if (data.a_race_name && !raceInput.value) raceInput.value = data.a_race_name;
+      if (data.a_race_date && !dateInput.value) dateInput.value = data.a_race_date;
+      updateReviewAttribution();
+      saveFormData();
+      updateProgress();
+    }}).catch(function() {{}});
+    if (window.crypto && crypto.subtle) {{
+      crypto.subtle.digest('SHA-256', new TextEncoder().encode(goalToken)).then(function(hash) {{
+        hashedRef = Array.from(new Uint8Array(hash)).map(function(b) {{
+          return b.toString(16).padStart(2, '0');
+        }}).join('');
+        updateReviewAttribution();
+      }}).catch(function() {{}});
+    }}
+  }}
   updateProgress();
   updateConditionals();
 
@@ -816,7 +903,18 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     updateConditionals();
   }});
   form.addEventListener('submit', function() {{
-    localStorage.removeItem(STORAGE_KEY);
+    if (goalsMode && GOAL_STORAGE_KEY) {{
+      try {{
+        var bytes = new Uint8Array(16);
+        crypto.getRandomValues(bytes);
+        var nonce = Array.from(bytes).map(function(b) {{ return b.toString(16).padStart(2, '0'); }}).join('');
+        sessionStorage.setItem('xc_goal_pending_' + nonce, GOAL_STORAGE_KEY);
+        form.querySelector('[name="_next"]').value =
+          'https://xcskilabs.com/questionnaire/?submitted=1&confirm=' + nonce;
+      }} catch (e) {{}}
+    }} else if (!goalsMode) {{
+      localStorage.removeItem(STORAGE_KEY);
+    }}
     if (typeof gtag === 'function') gtag('event', 'generate_lead', {{ form_name: 'custom_plan_intake' }});
     var btn = document.getElementById('submitBtn');
     if (btn) {{
@@ -856,6 +954,7 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom Plan Intake | XC Ski Labs</title>
@@ -865,6 +964,24 @@ def generate_page(output_dir: Path = OUTPUT_DIR, race_index: Path = RACE_INDEX) 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <script>(function(){{
+    try {{
+      var u = new URL(location.href);
+      var t = u.searchParams.get('t') || new URLSearchParams(u.hash.slice(1)).get('t') || '';
+      var hasToken = u.searchParams.has('t') || new URLSearchParams(u.hash.slice(1)).has('t');
+      var valid = u.searchParams.get('src') === 'goals' && /^[A-Za-z0-9_-]{{16,64}}$/.test(t);
+      try {{
+        sessionStorage.removeItem('xc_goal_prefill_token');
+        if (valid) sessionStorage.setItem('xc_goal_prefill_token', t);
+      }} catch (e) {{}}
+      if (hasToken) {{
+        u.searchParams.delete('t');
+        if (new URLSearchParams(u.hash.slice(1)).has('t')) u.hash = '';
+        history.replaceState(valid ? {{ goalToken: t }} : history.state,
+          '', u.pathname + u.search + u.hash);
+      }}
+    }} catch (e) {{}}
+  }})();</script>
   {build_ga4()}
   <style>{build_css()}</style>
 </head>

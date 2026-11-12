@@ -721,6 +721,14 @@
               "style": "tip",
               "title": "The one-ski test",
               "content": "On flat, groomed snow, glide on a single ski as long as you can before the other touches down. If it's under two seconds, your season's biggest free speed isn't in the gym — it's in balance drills. Do them at the start of every session, when you're fresh."
+            },
+            {
+              "type": "technique_loops",
+              "techniques": [
+                "nopoles",
+                "singlestick",
+                "frozendp"
+              ]
             }
           ]
         },
@@ -734,6 +742,14 @@
             {
               "type": "prose",
               "content": "Double-pole deserves special attention because newcomers underestimate it as arm work. It isn't. Biomechanically it's a whole-body movement — trunk, hip, knee, and ankle all contributing to drive the poles, with the best skiers generating more pole force through smaller, faster joint angles in a shorter push[^holmberg-dp-2005]. The legs matter so much that restricting knee and ankle motion measurably degrades a skilled double-pole[^holmberg-legs-dp-2006]. When you double-pole, you are not doing an ab crunch with poles; you are falling onto the poles with your whole body and catching yourself with your core."
+            },
+            {
+              "type": "technique_loops",
+              "techniques": [
+                "diagonal",
+                "kickdp",
+                "doublepole"
+              ]
             },
             {
               "type": "tabs",

@@ -28,6 +28,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.endure_offer import get_endure_offer_html
 
 TOTAL_SECTIONS = 12
 # FormSubmit alias for gravelgodcoaching@gmail.com (the one mailbox Matti reads; the alias
@@ -1258,7 +1259,7 @@ def build_footer() -> str:
     <a href="/terms/">Terms</a>
   </div>
   <div class="gl-footer-copy">&copy; 2026 XC Ski Labs. All rights reserved.</div>
-</footer>"""
+</footer>""".replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
 # ── Cookie Consent ─────────────────────────────────────────────
@@ -1526,6 +1527,7 @@ def generate_page(output_dir: Path = None) -> Path:
     page_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coaching Application | XC Ski Labs</title>

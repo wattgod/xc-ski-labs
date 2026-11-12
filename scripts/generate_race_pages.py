@@ -21,12 +21,20 @@ import re
 import sys
 from pathlib import Path
 from typing import Any, Optional
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from xsl_loops import DISCIPLINE_LOOP, LOOP_CSS, LOOP_JS, LOOPS, loop_figure  # noqa: E402
 import xml.etree.ElementTree as ET
 
 try:
     from scripts.text_utils import strip_emoji
 except ModuleNotFoundError:  # Supports direct execution from scripts/.
     from text_utils import strip_emoji
+
+try:
+    from scripts.endure_offer import get_endure_offer_html
+except ModuleNotFoundError:
+    from endure_offer import get_endure_offer_html
 
 # ── Paths ──────────────────────────────────────────────────────
 
@@ -166,6 +174,37 @@ def parse_date_specific(value: Any) -> Optional[str]:
             f"{match.group('year')} {match.group('month')} {match.group('day')}",
             "%Y %B %d",
         )
+    except ValueError:
+        return None
+    return parsed.date().isoformat()
+
+
+_MONTH_NAMES = ("January|February|March|April|May|June|"
+                "July|August|September|October|November|December")
+
+
+def parse_date_specific_end(value: Any) -> Optional[str]:
+    """Return an ISO end date when date_specific describes a range, such as
+    ``2026: March 7-8`` (same month) or ``2026: January 31 - February 1``
+    (crosses a month). Used so a multi-day event's goal card stays in the
+    "week" state for its whole span, not just its opening day. Returns None
+    when the value isn't a range or the end date can't be parsed — callers
+    should treat that as "ends the same day it starts".
+    """
+    if not isinstance(value, str):
+        return None
+    raw = value.strip()
+    match = re.match(
+        rf"^(?P<year>\d{{4}})\s*:\s*(?P<month>{_MONTH_NAMES})\s+(?P<day>\d{{1,2}})"
+        rf"\s*-\s*(?:(?P<end_month>{_MONTH_NAMES})\s+)?(?P<end_day>\d{{1,2}})\b",
+        raw,
+    )
+    if not match:
+        return None
+    end_month = match.group("end_month") or match.group("month")
+    try:
+        parsed = datetime.strptime(
+            f"{match.group('year')} {end_month} {match.group('end_day')}", "%Y %B %d")
     except ValueError:
         return None
     return parsed.date().isoformat()
@@ -626,11 +665,26 @@ def load_tokens_css() -> str:
     return TOKENS_CSS.read_text(encoding="utf-8").strip()
 
 
+def _token_hex(name: str) -> str:
+    """Resolve one --gl-* custom property's literal hex value out of
+    tokens/tokens.css, for the few spots (a <canvas> 2D context) that
+    cannot reference a CSS custom property directly. Keeps the single
+    hex literal in tokens.css, per the "never hardcode hex" rule
+    (test_race_generator_has_no_hex_literals bans hex literals in this
+    file's own source)."""
+    match = re.search(rf"--{re.escape(name)}:\s*(#[0-9A-Fa-f]{{3,8}})", load_tokens_css())
+    if not match:
+        raise ValueError(f"token --{name} not found in tokens.css")
+    return match.group(1)
+
+
 def build_css() -> str:
     """Build the complete CSS for race pages."""
     tokens = load_tokens_css()
+    loops = LOOP_CSS + RACE_LOOP_CSS
     return f"""
 {tokens}
+{loops}
 
 *, *::before, *::after {{
   box-sizing: border-box;
@@ -811,11 +865,11 @@ a {{ color: inherit; }}
   content: "";
   position: absolute;
   top: 0;
-  right: -72px;
+  right: 0;
   bottom: 0;
-  width: 340px;
-  background: repeating-linear-gradient(115deg, var(--gl-carbon) 0 26px, var(--gl-muted) 26px 27px, var(--gl-carbon) 27px 52px);
-  opacity: .35;
+  width: 28%;
+  background: var(--gl-rust-deep);
+  clip-path: polygon(24% 0, 100% 0, 100% 100%, 0 100%);
 }}
 
 .gl-hero-inner {{
@@ -858,7 +912,7 @@ a {{ color: inherit; }}
   font-family: var(--gl-font-display);
   font-size: clamp(3rem, 8vw, 5.9rem);
   font-weight: 900;
-  font-style: italic;
+  font-style: normal;
   line-height: .92;
   text-transform: uppercase;
   letter-spacing: 0;
@@ -1438,6 +1492,19 @@ a {{ color: inherit; }}
 .gl-capture-ok, .gl-capture-err {{ font-family: var(--gl-font-data); font-size: .85rem; color: var(--gl-carbon); margin: 8px 0 0; }}
 .gl-capture-err {{ color: var(--gl-swix-red); font-weight: 700; }}
 @media (max-width: 560px) {{ .gl-capture-row {{ flex-direction: column; }} }}
+
+.gl-goal-card {{ background: var(--gl-white); border-top: 6px solid var(--gl-swix-red); border-bottom: 3px solid var(--gl-carbon); }}
+.gl-goal-card-body {{ max-width: var(--gl-measure); margin: 0 auto; padding: var(--gl-space-6, 32px) var(--gl-space-5, 24px); }}
+.gl-goal-card-headline {{ margin: 0 0 4px; font-family: var(--gl-font-display); font-style: italic; font-weight: 900; text-transform: uppercase; font-size: clamp(1.3rem, 3vw, 1.9rem); line-height: 1; color: var(--gl-carbon); }}
+.gl-goal-card-sub {{ margin: 0 0 var(--gl-space-4, 16px); color: var(--gl-muted); font-family: var(--gl-font-editorial); font-size: 1rem; }}
+.gl-goal-card-buttons {{ display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: var(--gl-space-3, 12px); }}
+.gl-goal-card-btn {{ min-height: 44px; padding: 0 16px; border: 2px solid var(--gl-carbon); background: var(--gl-paper); color: var(--gl-carbon); font-family: var(--gl-font-data); font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; }}
+.gl-goal-card-btn:hover {{ background: var(--gl-carbon); color: var(--gl-white); }}
+.gl-goal-card-prep-link {{ display: inline-block; margin: 0 0 var(--gl-space-3, 12px); font-family: var(--gl-font-data); font-size: .78rem; font-weight: 700; letter-spacing: .04em; color: var(--gl-swix-red); text-decoration: none; }}
+.gl-goal-card-poster-wrap {{ margin-top: var(--gl-space-3, 12px); }}
+.gl-goal-card-poster-canvas {{ display: block; width: 100%; max-width: 420px; border: 3px solid var(--gl-carbon); }}
+.gl-goal-card-poster-cta {{ display: inline-block; margin-top: 8px; font-family: var(--gl-font-data); font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--gl-carbon); }}
+
 .gl-footer {{ background: var(--gl-swix-red); color: var(--gl-white); }}
 .gl-footer-inner {{ max-width: var(--gl-measure); min-height: 72px; margin: 0 auto; padding: var(--gl-space-4) var(--gl-space-5); display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-5); }}
 .gl-footer-links {{ display: flex; gap: var(--gl-space-4); flex-wrap: wrap; }}
@@ -1666,7 +1733,7 @@ def build_nav_header(active: str = "") -> str:
     return f"""
 <nav class="gl-nav">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS">XC SKI <em>LABS</em></a>
+    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
     <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
@@ -2527,6 +2594,280 @@ def build_youtube_placeholder(race: dict) -> str:
 """
 
 
+# ── Goal card: a small year-round countdown widget linking into /goals/ ──
+# Ported from the Gravel God race-page goal card (gravel-race-automation PR 397,
+# generate_neo_brutalist.py build_goal_card) so the same behavior — a
+# 4-state countdown, three tap-to-set goal buttons, and a one-line poster
+# teaser drawn on the card itself — exists on XC Ski Labs race pages,
+# in ski voice and ski colors. The state math (GOAL_CARD_STATE_JS) is
+# copied verbatim: it is date arithmetic, not brand copy, so there is
+# nothing to adapt there.
+
+GOAL_CARD_COPY = {
+    "far": {
+        "headline": "{race} {year} is {days} out.",
+        "sub": "What are you going there to do?",
+    },
+    "near": {
+        "headline": "{days} to {race}.",
+        "sub": "Still the goal?",
+    },
+    "week": {
+        "headline": "{race} is {weekday}.",
+        "sub": "",
+    },
+    "post": {
+        "headline": "{race} was {days} ago.",
+        "sub": "Same goal next season, or a bigger one?",
+    },
+    "buttons": {
+        "finish": "Finish",
+        "beat_time": "Beat a time",
+        "race_it": "Race it",
+        "same": "Same",
+        "bigger": "Bigger",
+    },
+    "goal_lines": {
+        "finish": "Finish {race}.",
+        "beat_time": "Finish {race} faster than last time.",
+        "race_it": "Race {race}, not just ski it.",
+        "same": "Ski {race} again, and ski it better.",
+        "bigger": "Take on something bigger than {race}.",
+    },
+    "poster_label": "BY {date}, I WILL",
+    # A past date in "BY {date}, I WILL" reads as nonsense once the race is
+    # over — the post-race states (Same/Bigger) get their own label with no
+    # date claim, since there's no confirmed next edition yet.
+    "poster_label_post": "NEXT TIME, I WILL",
+    "poster_cta": "Finish the poster →",
+    "prep_kit_link": "Open the {race} prep kit →",
+}
+
+# Which of the 4 time windows applies, run against the real "today" in the
+# browser — race pages aren't rebuilt daily, so a value baked in at
+# generation time would go stale the moment the calendar turns. A multi-day
+# event stays in "week" for its whole span (today between start and end
+# inclusive), and the post-race day count is measured from the END date.
+GOAL_CARD_STATE_JS = r'''function glGoalCardCompute(startISO, endISO, todayISO) {
+  var WD = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var MO = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var start = new Date(startISO + "T00:00:00Z");
+  var end = new Date((endISO || startISO) + "T00:00:00Z");
+  var today = new Date(todayISO + "T00:00:00Z");
+  if (isNaN(start.getTime()) || isNaN(end.getTime()) || isNaN(today.getTime())) { return { state: "hidden" }; }
+  var msDay = 86400000;
+  var diffToStart = Math.round((start.getTime() - today.getTime()) / msDay);
+  var diffFromEnd = Math.round((today.getTime() - end.getTime()) / msDay);
+  var state, days;
+  if (diffFromEnd > 0) {
+    if (diffFromEnd > 60) { state = "hidden"; }
+    else { state = "post"; days = diffFromEnd === 1 ? "1 day" : (diffFromEnd + " days"); }
+  } else if (diffToStart > 90) {
+    state = "far"; days = diffToStart === 1 ? "1 day" : (diffToStart + " days");
+  } else if (diffToStart >= 8) {
+    state = "near"; days = diffToStart === 1 ? "1 day" : (diffToStart + " days");
+  } else {
+    state = "week";
+  }
+  return {
+    state: state,
+    days: days,
+    weekday: WD[start.getUTCDay()],
+    year: String(start.getUTCFullYear()),
+    date: MO[start.getUTCMonth()] + " " + start.getUTCDate() + ", " + start.getUTCFullYear()
+  };
+}'''
+
+GOAL_CARD_SCRIPT = r'''<script>
+(function() {
+  var D = __GOAL_CARD_STATIC__;
+  var COPY = __GOAL_CARD_COPY__;
+__GOAL_CARD_STATE_FN__
+  function fill(tpl, vars) {
+    return tpl.replace(/\{(\w+)\}/g, function(m, k) { return vars[k] != null ? vars[k] : ""; });
+  }
+  function drawPoster(canvas, header, goal) {
+    var ctx = canvas.getContext("2d");
+    if (!ctx) { return; }
+    var W = canvas.width, pad = 28;
+    var ink = "__GL_INK__", paper = "__GL_PAPER__", accent = "__GL_RUST__";
+    var maxW = W - pad * 2;
+    var goalFont = "700 32px 'Source Serif 4', Georgia, serif";
+    ctx.font = goalFont;
+    var words = String(goal).split(/\s+/), lines = [], line = "";
+    words.forEach(function(w) {
+      var next = line ? line + " " + w : w;
+      if (ctx.measureText(next).width <= maxW || !line) { line = next; }
+      else { lines.push(line); line = w; }
+    });
+    if (line) { lines.push(line); }
+    lines = lines.slice(0, 4);
+    var goalTop = pad + 46;
+    var H = goalTop + lines.length * 40 + 8 + 5 + pad;
+    canvas.height = H;
+    ctx.fillStyle = paper; ctx.fillRect(0, 0, W, H);
+    ctx.textBaseline = "top";
+    ctx.font = "700 15px 'Sometype Mono', monospace";
+    ctx.fillStyle = accent;
+    ctx.fillText(header, pad, pad);
+    ctx.font = goalFont;
+    ctx.fillStyle = ink;
+    var y = goalTop;
+    lines.forEach(function(l) { ctx.fillText(l, pad, y); y += 40; });
+    ctx.fillStyle = accent;
+    ctx.fillRect(pad, y + 8, 120, 5);
+  }
+  var card = document.getElementById("goal-card");
+  var headline = document.getElementById("gl-goal-card-headline");
+  var sub = document.getElementById("gl-goal-card-sub");
+  var buttons = document.getElementById("gl-goal-card-buttons");
+  var prepLink = document.getElementById("gl-goal-card-prep-link");
+  var posterWrap = document.getElementById("gl-goal-card-poster-wrap");
+  var posterCanvas = document.getElementById("gl-goal-card-poster-canvas");
+  var posterCta = document.getElementById("gl-goal-card-poster-cta");
+  if (!card || !headline || !posterCanvas) { return; }
+
+  var now = new Date();
+  var todayISO = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+  var computed = glGoalCardCompute(D.startISO, D.endISO, todayISO);
+  if (computed.state === "hidden") { return; }
+
+  var vars = { race: D.race, year: computed.year, days: computed.days, weekday: computed.weekday, date: computed.date };
+  headline.textContent = fill(COPY[computed.state].headline, vars);
+  var subText = COPY[computed.state].sub;
+  if (subText) { sub.textContent = subText; sub.hidden = false; } else { sub.hidden = true; }
+
+  var showButtons = computed.state === "far" || computed.state === "near" || computed.state === "post";
+  buttons.hidden = !showButtons;
+  var isPost = computed.state === "post";
+  var goalTypes = isPost ? ["same", "bigger"] : ["finish", "beat_time", "race_it"];
+  var allButtons = buttons.querySelectorAll("[data-goal]");
+  for (var i = 0; i < allButtons.length; i++) {
+    var goal = allButtons[i].getAttribute("data-goal");
+    allButtons[i].hidden = !(showButtons && goalTypes.indexOf(goal) !== -1);
+  }
+  prepLink.hidden = !(computed.state === "near" || computed.state === "week");
+
+  var lastGoalType = "";
+  function fireClick(goalType) {
+    if (typeof gtag === "function") {
+      gtag("event", "goal_hero_click", { src: "race", race_slug: D.slug, goal_type: goalType });
+    }
+  }
+  buttons.addEventListener("click", function(e) {
+    var btn = e.target.closest ? e.target.closest("[data-goal]") : null;
+    if (!btn || btn.hidden) { return; }
+    var goalType = btn.getAttribute("data-goal");
+    lastGoalType = goalType;
+    var goalLine = fill(COPY.goal_lines[goalType], vars);
+    var labelTpl = isPost ? COPY.poster_label_post : COPY.poster_label;
+    drawPoster(posterCanvas, fill(labelTpl, vars).toUpperCase(), goalLine);
+    posterWrap.hidden = false;
+    posterCta.setAttribute("href", D.goalsHref + "&goal_type=" + encodeURIComponent(goalType));
+    fireClick(goalType);
+  });
+  posterCta.addEventListener("click", function() {
+    if (lastGoalType) { fireClick(lastGoalType); }
+  });
+
+  card.hidden = false;
+})();
+</script>'''
+
+
+def build_goal_card(race: dict) -> str:
+    """Year-round race-page goal card linking into /goals/.
+
+    Which of the 4 time-window states applies is computed client-side from
+    the race's real date (see GOAL_CARD_STATE_JS's docstring). No parseable
+    date, or more than 60 days past the race, hides the card entirely.
+    Hidden by default; unhidden by the inline script only when a visible
+    state is computed.
+    """
+    date_specific = race.get("vitals", {}).get("date_specific")
+    start_iso = parse_date_specific(date_specific)
+    if not start_iso:
+        return ""
+    # Multi-day events (e.g. "2026: March 7-8") must stay in the "week"
+    # state for their whole span, not just their opening day — a stray
+    # end_iso == start_iso would flip day two straight to "post".
+    end_iso = parse_date_specific_end(date_specific) or start_iso
+
+    slug = race["slug"]
+    name = esc(race.get("display_name", race["name"]))
+    goals_href = f"/goals/?src=race&race={slug}"
+    prep_kit_href = f"/race/{slug}/prep-kit/"
+    prep_kit_text = esc(GOAL_CARD_COPY["prep_kit_link"].replace("{race}", race.get("display_name", race["name"])))
+
+    static_data = {
+        "slug": slug, "race": race.get("display_name", race["name"]), "goalsHref": goals_href,
+        "startISO": start_iso, "endISO": end_iso,
+    }
+
+    html_out = f'''<section class="gl-goal-card" id="goal-card" data-measure-section="goal-card" hidden>
+  <div class="gl-goal-card-body">
+    <p class="gl-goal-card-headline" id="gl-goal-card-headline"></p>
+    <p class="gl-goal-card-sub" id="gl-goal-card-sub" hidden></p>
+    <div class="gl-goal-card-buttons" id="gl-goal-card-buttons" hidden>
+      <button type="button" class="gl-goal-card-btn" data-goal="finish" hidden>{esc(GOAL_CARD_COPY['buttons']['finish'])}</button>
+      <button type="button" class="gl-goal-card-btn" data-goal="beat_time" hidden>{esc(GOAL_CARD_COPY['buttons']['beat_time'])}</button>
+      <button type="button" class="gl-goal-card-btn" data-goal="race_it" hidden>{esc(GOAL_CARD_COPY['buttons']['race_it'])}</button>
+      <button type="button" class="gl-goal-card-btn" data-goal="same" hidden>{esc(GOAL_CARD_COPY['buttons']['same'])}</button>
+      <button type="button" class="gl-goal-card-btn" data-goal="bigger" hidden>{esc(GOAL_CARD_COPY['buttons']['bigger'])}</button>
+    </div>
+    <a href="{esc(prep_kit_href)}" class="gl-goal-card-prep-link" id="gl-goal-card-prep-link" hidden>{prep_kit_text}</a>
+    <div class="gl-goal-card-poster-wrap" id="gl-goal-card-poster-wrap" hidden aria-live="polite">
+      <canvas class="gl-goal-card-poster-canvas" id="gl-goal-card-poster-canvas" width="640" height="300" aria-label="Your goal, drawn as a small poster"></canvas>
+      <a class="gl-goal-card-poster-cta" id="gl-goal-card-poster-cta" href="{esc(goals_href)}">{esc(GOAL_CARD_COPY['poster_cta'])}</a>
+    </div>
+  </div>
+</section>
+'''
+    script_out = (
+        GOAL_CARD_SCRIPT
+        .replace("__GOAL_CARD_STATIC__", _safe_json_for_script(static_data))
+        .replace("__GOAL_CARD_COPY__", _safe_json_for_script(GOAL_CARD_COPY))
+        .replace("__GOAL_CARD_STATE_FN__", GOAL_CARD_STATE_JS)
+        .replace("__GL_INK__", _token_hex("gl-ink"))
+        .replace("__GL_PAPER__", _token_hex("gl-paper"))
+        .replace("__GL_RUST__", _token_hex("gl-rust"))
+    )
+    return html_out + script_out
+
+
+RACE_LOOP_CSS = """
+.xsl-race-motion { max-width: var(--gl-measure); margin: 0 auto; padding: 40px 20px 8px; display: grid;
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr); gap: 20px 32px; align-items: center; }
+.xsl-race-motion h2 { margin: 0 0 8px; font-family: var(--gl-font-display); font-weight: 900;
+  font-stretch: condensed; font-size: clamp(24px, 3.4vw, 32px); line-height: 1.05; text-transform: uppercase; color: var(--gl-ink); }
+.xsl-race-motion p { margin: 0 0 12px; font-family: var(--gl-font-editorial); font-size: 17px; color: var(--gl-ink); max-width: 52ch; }
+.xsl-race-motion a { font-family: var(--gl-font-data); font-size: 13px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--gl-ink); text-decoration: none; border-bottom: 3px solid var(--gl-rust); }
+.xsl-race-motion p.xsl-race-motion-gear { font-family: var(--gl-font-data); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--gl-caption); }
+@media (max-width: 640px) { .xsl-race-motion { grid-template-columns: 1fr; } .xsl-race-motion .xsl-loop { max-width: 300px; } }
+"""
+
+
+def build_technique_motion(race: dict) -> str:
+    """Classic and dual-technique races: one technique loop (Gravel God, captured from Matti's course videos)
+    beside a pointer to the guide's classic gears. Skate-only races get nothing: no skate technique is captured."""
+    disc = (race.get("vitals", {}) or {}).get("discipline", "")
+    tech = DISCIPLINE_LOOP.get(str(disc).lower())
+    if not tech:
+        return ""
+    name, gear, _ = LOOPS[tech]
+    return f"""
+<section class="xsl-race-motion" aria-labelledby="xsl-race-motion-title">
+  {loop_figure(tech, "square", caption=False)}
+  <div>
+    <h2 id="xsl-race-motion-title">{esc(name)}</h2>
+    <p class="xsl-race-motion-gear">{esc(gear)}</p>
+    <a href="/guide/technique-and-execution/">Classic gears in the guide &rarr;</a>
+  </div>
+</section>
+"""
+
+
 def build_product_ladder(race: dict) -> str:
     """Custom-first offer, followed by the higher-touch coaching path."""
     slug = esc(race["slug"])
@@ -2780,7 +3121,7 @@ def build_footer(race: dict) -> str:
     <span class="gl-footer-links"><a href="/search/">Back to search</a><a href="/">Home</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></span>
   </div>
 </footer>
-"""
+""".replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
 def build_jsonld(race: dict) -> str:
@@ -2905,7 +3246,8 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
     breakdown = build_breakdown_tiles(race)
     transition = build_transition_callout(race)
     wax_bar = build_wax_bar(race)
-    ladder = build_product_ladder(race)
+    ladder = build_technique_motion(race) + build_product_ladder(race)
+    goal_card = build_goal_card(race)
     history = build_history(race)
     series = build_series(race)
     similar = build_similar_races(race, all_races or [])
@@ -2925,6 +3267,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title}</title>
@@ -2956,6 +3299,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
 {transition}
 </div>
 {ladder}
+{goal_card}
 <div class="gl-page">
 <div class="gl-wrap gl-deep-dive" id="deep-dive" data-measure-section="deep-dive">
 {sections}
@@ -2966,6 +3310,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
 {sticky_cta}
 {capture_js}
 {interactions_js}
+{LOOP_JS if 'data-xsl-loop' in ladder else ''}
 {sticky_js}
 {cookie_consent}
 </body>

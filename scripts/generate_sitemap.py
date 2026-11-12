@@ -88,6 +88,7 @@ def generate_sitemap(domain, profiles):
     # Static pages
     add_url(f"{domain}/", "1.0", "weekly")
     add_url(f"{domain}/search/", "0.8", "weekly")
+    add_url(f"{domain}/goals/", "0.8", "weekly")
     add_url(f"{domain}/training-plans/", "0.8", "monthly")
     add_url(f"{domain}/about/", "0.5", "monthly")
     add_url(f"{domain}/methodology/", "0.5", "monthly")

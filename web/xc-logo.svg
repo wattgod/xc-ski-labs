@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">XC Ski Labs</title>
+  <desc id="desc">Two long, slim Nordic skis cross on a dark field, with curved tips and small binding marks.</desc>
+  <rect width="300" height="300" fill="#202822"/>
+  <g transform="translate(150 150)">
+    <g transform="rotate(-32)">
+      <path d="M-9 129V-108 C-9 -122 -14 -132 -22 -137 Q-10 -140 0 -133 C6 -128 9 -120 9 -108 V129 Q0 137 -9 129Z" fill="#f0e8d8"/>
+      <path d="M0 -111V104" stroke="#202822" stroke-width="1.8"/>
+      <path d="M-9 29H9 M-9 44H9" stroke="#202822" stroke-width="3"/>
+      <rect x="-6" y="23" width="12" height="8" fill="#a83d2d"/>
+    </g>
+    <g transform="rotate(32) scale(-1 1)">
+      <path d="M-9 129V-108 C-9 -122 -14 -132 -22 -137 Q-10 -140 0 -133 C6 -128 9 -120 9 -108 V129 Q0 137 -9 129Z" fill="#f0e8d8"/>
+      <path d="M0 -111V104" stroke="#202822" stroke-width="1.8"/>
+      <path d="M-9 29H9 M-9 44H9" stroke="#202822" stroke-width="3"/>
+      <rect x="-6" y="23" width="12" height="8" fill="#a83d2d"/>
+    </g>
+  </g>
+</svg>

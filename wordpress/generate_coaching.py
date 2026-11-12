@@ -37,6 +37,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.endure_offer import get_endure_offer_html
 
 SITE_BASE_URL = "https://xcskilabs.com"
 APPLY_URL = "/coaching/apply/"
@@ -769,7 +770,7 @@ def build_footer() -> str:
     <a href="/terms/">Terms</a>
   </div>
   <div class="gl-coach-footer-copy">&copy; 2026 XC Ski Labs. All rights reserved.</div>
-</footer>"""
+</footer>""".replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
 # ── Section builders ─────────────────────────────────────────────
@@ -1138,6 +1139,7 @@ def generate_page(output_dir: Path = None) -> Path:
     page_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(title)}</title>
@@ -1147,7 +1149,6 @@ def generate_page(output_dir: Path = None) -> Path:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23141414'/><text x='16' y='24' text-anchor='middle' font-family='monospace' font-size='22' font-weight='700' fill='%23f2f0eb'>GL</text></svg>">
   {og_tags}
   {jsonld}
   <style>{css}</style>

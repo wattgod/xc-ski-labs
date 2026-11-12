@@ -38,7 +38,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "feed", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "coaching", "coaching-exit", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 
@@ -152,6 +152,8 @@ def sync_pages(pages_dir=None):
 
     Uses {slug}/index.html directory structure from the output dir.
     """
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -218,7 +220,9 @@ def sync_pages(pages_dir=None):
 
 
 def sync_homepage(homepage_file=None):
-    """Upload homepage to site root as index.html."""
+    """Upload homepage and the shared brand mark to the site root."""
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -240,10 +244,75 @@ def sync_homepage(homepage_file=None):
         print(f"  Failed to create remote directory: {err}")
         return False
 
-    if _scp_upload(host, user, port, homepage, f"{remote_base}/index.html"):
-        print(f"  Deployed homepage to /")
-        return True
-    return False
+    logo = PROJECT_ROOT / "web" / "xc-logo.svg"
+    if not logo.exists():
+        print(f"  Logo not found: {logo}")
+        return False
+    if not _scp_upload(host, user, port, logo, f"{remote_base}/xc-logo.svg"):
+        return False
+    if not _scp_upload(host, user, port, homepage, f"{remote_base}/index.html"):
+        print("  FAILED: logo uploaded but homepage did not")
+        return False
+    print("  Deployed homepage and logo to /")
+    return True
+
+
+def sync_media():
+    """Upload the technique loops (web/media/loops/: muted MP4 + poster JPG per technique) to /media/loops/.
+    Runs before the pages in --deploy-all so no page ever points at a loop the server doesn't have."""
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+    local = PROJECT_ROOT / "web" / "media" / "loops"
+    files = sorted(p for p in local.glob("*") if p.suffix in (".mp4", ".jpg"))
+    if not files:
+        print(f"  No loop media in {local}")
+        return False
+    remote_dir = f"{get_remote_base()}/media/loops"
+    ok, _, err = _ssh_run(host, user, port, f"mkdir -p {remote_dir} && chmod 755 {get_remote_base()}/media {remote_dir}")
+    if not ok:
+        print(f"  Failed to create {remote_dir}: {err}")
+        return False
+    if not _tar_ssh_upload(host, user, port, local, remote_dir):
+        return False
+    if not media_on_server(host, user, port, files, remote_dir):
+        return False
+    print(f"  Deployed {len(files)} technique-loop files to /media/loops/")
+    return True
+
+
+def media_on_server(host, user, port, files, remote_dir):
+    """Pitfall #36: verify, don't assume. Every local loop file must be on the server under the same name with
+    the same byte size (a stale extra file can't hide a missing one)."""
+    ok, out, err = _ssh_run(host, user, port,
+                            f"cd {remote_dir} 2>/dev/null && for f in *.mp4 *.jpg; do [ -f \"$f\" ] && echo \"$f $(wc -c < \"$f\")\"; done; true")
+    if not ok:
+        print(f"  FAILED: could not list {remote_dir}: {err}")
+        return False
+    remote = {}
+    for line in out.splitlines():
+        parts = line.split()
+        if len(parts) == 2 and parts[1].isdigit():
+            remote[parts[0]] = int(parts[1])
+    bad = [f.name for f in files if remote.get(f.name) != f.stat().st_size]
+    if bad:
+        print(f"  FAILED: {len(bad)} loop files missing or different on the server: {', '.join(bad[:5])}")
+        return False
+    return True
+
+
+_MEDIA_READY = False
+
+
+def ensure_media():
+    """Pages point at /media/loops/: upload (and verify) the loops before any page that uses them, once per run."""
+    global _MEDIA_READY
+    if not _MEDIA_READY:
+        _MEDIA_READY = bool(sync_media())
+        if not _MEDIA_READY:
+            print("  Stopping: the technique loops are not on the server, so pages that show them are not uploaded.")
+    return _MEDIA_READY
 
 
 def sync_search():
@@ -327,6 +396,8 @@ def sync_sitemap():
 
 def sync_training():
     """Upload training plans page to /training-plans/ on SiteGround."""
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -496,6 +567,8 @@ def _sync_static_page(name: str, remote_path: str):
 
 def sync_guide():
     """Upload the guide tree (pillar + 8 chapters) to /guide/ via tar+ssh."""
+    if not ensure_media():
+        return False
     ssh = get_ssh_credentials()
     if not ssh:
         return False
@@ -524,6 +597,16 @@ def sync_guide():
 def sync_questionnaire():
     """Upload plan questionnaire to /questionnaire/."""
     return _sync_static_page("questionnaire", "questionnaire")
+
+
+def sync_goals():
+    """Upload the season-goal lead page to /goals/."""
+    return _sync_static_page("goals", "goals")
+
+
+def sync_exit_interview():
+    """Upload the athlete exit interview to /coaching/exit/."""
+    return _sync_static_page("coaching-exit", "coaching/exit")
 
 
 def sync_about():
@@ -739,6 +822,7 @@ def deploy_all():
     print("=" * 40)
 
     steps = [
+        ("Technique Loops", sync_media),
         ("Homepage", sync_homepage),
         ("Search UI", sync_search),
         ("Race Pages", sync_pages),
@@ -746,6 +830,8 @@ def deploy_all():
         ("Coaching", sync_coaching),
         ("Consulting", sync_consulting),
         ("Questionnaire", sync_questionnaire),
+        ("Goals", sync_goals),
+        ("Exit Interview", sync_exit_interview),
         ("About", sync_about),
         ("Privacy", sync_privacy),
         ("Terms", sync_terms),
@@ -764,6 +850,9 @@ def deploy_all():
         print(f"\n[{name}]")
         ok = fn()
         results.append((name, ok))
+        if name == "Technique Loops" and not ok:
+            print("  Stopping the deploy: no page is uploaded while the loops it shows are missing.")
+            break
 
     print("\n" + "=" * 40)
     print("Deploy Summary:")
@@ -823,12 +912,24 @@ if __name__ == "__main__":
              "(/consulting/intake/), and confirmation page (/consulting/confirmed/)"
     )
     parser.add_argument(
+        "--sync-media", action="store_true",
+        help="Upload the technique loops (web/media/loops/) to /media/loops/"
+    )
+    parser.add_argument(
         "--sync-guide", action="store_true",
         help="Upload the guide (pillar + 8 chapters) to /guide/"
     )
     parser.add_argument(
         "--sync-questionnaire", action="store_true",
         help="Upload plan questionnaire to /questionnaire/"
+    )
+    parser.add_argument(
+        "--sync-goals", action="store_true",
+        help="Upload the season-goal lead page to /goals/"
+    )
+    parser.add_argument(
+        "--sync-exit-interview", action="store_true",
+        help="Upload the athlete exit interview to /coaching/exit/"
     )
     parser.add_argument(
         "--sync-about", action="store_true",
@@ -883,7 +984,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.deploy_all:
-        deploy_all()
+        if not deploy_all():
+            sys.exit(1)
     else:
         ran = False
         if args.sync_pages:
@@ -910,10 +1012,19 @@ if __name__ == "__main__":
         if args.sync_consulting:
             sync_consulting()
             ran = True
+        if args.sync_media:
+            sync_media()
+            ran = True
         if args.sync_guide:
             sync_guide()
         if args.sync_questionnaire:
             sync_questionnaire()
+            ran = True
+        if args.sync_goals:
+            sync_goals()
+            ran = True
+        if args.sync_exit_interview:
+            sync_exit_interview()
             ran = True
         if args.sync_about:
             sync_about()

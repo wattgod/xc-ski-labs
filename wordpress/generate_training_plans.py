@@ -27,6 +27,14 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.endure_offer import get_endure_offer_html
+from scripts.xsl_loops import LOOP_CSS, LOOP_JS, loop_figure  # noqa: E402
+
+# Gravel God skiing, motion-captured from Matti's course videos (scripts/xsl_loops.py); caption only, no new copy
+PAGE_MOTION = f'<section class="xsl-page-motion">{loop_figure("doublepole", "wide")}</section>'
+XSL_PAGE_MOTION_CSS = """
+.xsl-page-motion { max-width: var(--gl-measure); margin: 0 auto; padding: 40px 20px 8px; }
+"""
 from plan_simulator import (get_plan_simulator_css, get_plan_simulator_js,
                             render_plan_simulator)
 
@@ -1272,7 +1280,7 @@ def build_footer():
   <a href="/terms/">Terms</a>
   <div class="gl-footer-brand">XC Ski Labs &mdash; Built for skiers who chase start lines.</div>
 </footer>
-"""
+""".replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
 def build_jsonld(stripe_data):
@@ -1331,10 +1339,11 @@ def generate_page():
     race_count = count_race_profiles()
 
     css = build_css()
+    css = css + LOOP_CSS + XSL_PAGE_MOTION_CSS
     jsonld_data = build_jsonld(stripe_data)
 
     nav = build_nav()
-    hero = build_hero(race_count)
+    hero = build_hero(race_count) + PAGE_MOTION
     preview = build_plan_preview()
     plan_simulator_js = get_plan_simulator_js()
     how_it_works = build_how_it_works()
@@ -1355,6 +1364,7 @@ def generate_page():
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(title)}</title>
@@ -1364,7 +1374,6 @@ def generate_page():
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%231a2332'/><text x='16' y='24' text-anchor='middle' font-family='monospace' font-size='22' font-weight='700' fill='%23e8edf2'>GL</text></svg>">
 
   <!-- OG Meta -->
   <meta property="og:title" content="{esc(title)}">
@@ -1482,6 +1491,7 @@ function xlConsent(choice) {{
     }}
 }})();
 </script>
+{LOOP_JS}
 </body>
 </html>"""
 

@@ -93,6 +93,7 @@ p {
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Payment Received | XC Ski Labs</title>
@@ -101,7 +102,7 @@ p {
   <style>{css}</style>
 </head>
 <body>
-  <nav class="gl-nav"><a href="/">XC SKI LABS</a></nav>
+  <nav class="gl-nav"><a href="/" class="gl-nav-logo" aria-label="XC Ski Labs"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a></nav>
   <main class="gl-page">
     <div class="gl-kicker">Wax Bench</div>
     <h1>Payment received.</h1>
