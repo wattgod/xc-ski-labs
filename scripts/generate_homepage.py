@@ -257,6 +257,18 @@ coverage.forEach(function(c) {{
 
 def generate_homepage(races: list[dict]) -> str:
     """Generate the complete homepage HTML."""
+    # The course rung links /learn/, which 404s until the course ships.
+    # Same gate as generate_race_pages.build_product_ladder: no page, no link.
+    course_rung = ""
+    if (DEFAULT_OUTPUT_DIR / "learn" / "index.html").exists():
+        course_rung = """      <div class="gl-rung">
+        <span class="gl-rung-kicker">Course</span>
+        <h3>XC ski course</h3>
+        <p>Lessons from first glide to race preparation.</p>
+        <span class="gl-rung-price">SELF-PACED</span><br>
+        <a class="gl-rung-btn" href="/learn/">See the course</a>
+      </div>
+"""
     # ── Compute stats ──
     race_count = len(races)
     countries = set(get_country(r) for r in races if get_country(r) != "Unknown")
@@ -1394,14 +1406,7 @@ a:focus-visible, button:focus-visible {{
         <span class="gl-rung-price">$60-$249</span><br>
         <a class="gl-rung-btn" href="/questionnaire/">Start the intake</a>
       </div>
-      <div class="gl-rung">
-        <span class="gl-rung-kicker">Course</span>
-        <h3>XC ski course</h3>
-        <p>Lessons from first glide to race preparation.</p>
-        <span class="gl-rung-price">SELF-PACED</span><br>
-        <a class="gl-rung-btn" href="/learn/">See the course</a>
-      </div>
-      <div class="gl-rung">
+{course_rung}      <div class="gl-rung">
         <span class="gl-rung-kicker">Coaching</span>
         <h3>Coaching</h3>
         <p>Direct support when the season needs more than a template.</p>
