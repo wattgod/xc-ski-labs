@@ -169,7 +169,7 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
 
   <section class="gl-section">
     <h2 class="gl-section-title">How the lessons work</h2>
-    <p>I spent years in tight lycra racing cross-country before I ever raced a bike, and roller skied endless miles trying to get fast. Every technique in the course gets broken into the same three parts: body position, timing, and where the power comes from. Each part has a video and a drill you can take onto the snow.</p>
+    <p>I spent years in tight lycra racing cross-country before I ever raced a bike, and roller skied endless miles trying to get fast. Every technique lesson covers body position and timing, with filmed demos, drills you can take onto the snow, and a short quiz at the end.</p>
     <p>Learning a new technique as an adult is humbling. You go from embarrassing to bad, bad to OK, and OK to good, and the drills are how you get through those steps faster.</p>
   </section>
 
