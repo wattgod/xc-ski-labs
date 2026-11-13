@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Generate the XC Ski Labs Technique Course sales page at /course/.
+"""Generate the XC Ski Labs Course sales page at /course/.
 
 Course modules 1 and 2 of the approved course plan (Classic Technique, Skate
-Technique) plus the shared basics: 13 lessons. The course itself is the static
+Technique), sold alone or as a bundle of every module, plus the shared basics
+lessons every buyer gets: 13 lessons today. The course itself is the static
 site from glide-labs-platform, served behind the PHP gate at /learn/.
 
 The buy button POSTs to the pipeline's /api/create-course-checkout
@@ -37,20 +38,30 @@ DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 PRODUCTION_API = "https://athlete-custom-training-plan-pipeline-production.up.railway.app"
 CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
 
-COURSE_ID = "xc-technique"
-COURSE_NAME = "XC Ski Labs Technique Course"
-PRICE_USD = 49
+COURSE_NAME = "XC Ski Labs Course"
 REFUND_DAYS = 14
 LEGAL_ENTITY = "Gravel God Cycling LLC"
-VIDEO_COUNT = 31  # unique filmed clips across the 13 lessons
+BUNDLE_PRICE_USD = 49
 
-SECTIONS = (
-    ("Start here", ("Getting Started", "Finding Your Trails", "Athletic Foundation", "How Snow Works")),
-    ("Classic", ("Diagonal Stride", "Double Pole & Kick Double Pole", "Herringbone & Downhills")),
-    ("Skate", ("Free Skate", "V1 & Climbing Variations", "V2 & V2 Alternate")),
-    ("On the trail", ("Downhills & Cornering", "Technique Selection", "Trail Etiquette")),
+# Matti, 2026-11-13: modules sell alone at $29; the bundle ($49) is every
+# module, including the ones added later. Product ids are the pipeline's
+# (webhook/course_access.py COURSES). Counts are pinned to the course JSON by
+# tests/test_course_page.py.
+PRODUCTS = (
+    {"id": "xc-classic", "name": "Classic Technique", "price": 29, "button": "Buy Classic",
+     "dek": "Diagonal stride, double pole and kick double pole, and herringbone.",
+     "lessons": ("Diagonal Stride", "Double Pole & Kick Double Pole", "Herringbone & Downhills"), "clips": 14},
+    {"id": "xc-skate", "name": "Skate Technique", "price": 29, "button": "Buy Skate",
+     "dek": "Free skate, V1 and its climbing variations, V2 and V2 alternate.",
+     "lessons": ("Free Skate", "V1 & Climbing Variations", "V2 & V2 Alternate"), "clips": 16},
+    {"id": "xc-all", "name": "Every module", "price": BUNDLE_PRICE_USD, "button": "Buy every module",
+     "dek": "Classic and Skate now, and every module I add to the course later at no extra cost.",
+     "lessons": (), "clips": None},
 )
-LESSON_COUNT = sum(len(lessons) for _, lessons in SECTIONS)
+BASICS = ("Getting Started", "Finding Your Trails", "Athletic Foundation", "How Snow Works",
+          "Downhills & Cornering", "Technique Selection", "Trail Etiquette")
+VIDEO_COUNT = 31  # unique filmed clips across the course
+LESSON_COUNT = len(BASICS) + sum(len(p["lessons"]) for p in PRODUCTS)
 
 
 def esc(value) -> str:
@@ -72,8 +83,15 @@ def build_nav() -> str:
 
 
 PAGE_CSS = """
-.gl-course-buy { margin: 28px 0 8px; display: grid; gap: 10px; max-width: 420px; }
-.gl-course-buy label { font-family: var(--gl-font-data); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gl-slate); }
+.gl-course-buy { margin: 28px 0 8px; display: grid; gap: 14px; }
+.gl-course-email { display: grid; gap: 6px; max-width: 420px; }
+.gl-course-products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.gl-course-product { border: 2px solid var(--gl-carbon); background: var(--gl-white); color: var(--gl-carbon); padding: 16px; display: grid; gap: 8px; align-content: start; }
+.gl-course-product h3 { margin: 0; font-family: var(--gl-font-display); color: var(--gl-carbon); }
+.gl-course-product .gl-course-stats { color: var(--gl-slate); }
+.gl-course-product p { margin: 0; }
+.gl-course-price { font-family: var(--gl-font-data); font-weight: 700; font-size: 1.25rem; }
+.gl-course-buy label { font-family: var(--gl-font-data); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: inherit; }
 .gl-course-buy input { font: inherit; padding: 10px 12px; border: 2px solid var(--gl-carbon); background: var(--gl-white); color: var(--gl-carbon); }
 .gl-course-buy button { font-family: var(--gl-font-data); font-weight: 700; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.06em; padding: 14px 18px; border: 0; background: var(--gl-swix-red); color: var(--gl-white); cursor: pointer; }
 .gl-course-buy button:hover { background: var(--gl-klister); }
@@ -89,17 +107,31 @@ PAGE_CSS = """
 
 
 def build_lessons() -> str:
-    cols = []
-    for title, lessons in SECTIONS:
+    cols = [("Every buyer gets", BASICS)] + [(p["name"] + " module", p["lessons"]) for p in PRODUCTS if p["lessons"]]
+    out = []
+    for title, lessons in cols:
         items = "".join(f"<li>{esc(name)}</li>" for name in lessons)
-        cols.append(f'<div><h3>{esc(title)}</h3><ol>{items}</ol></div>')
-    return '<div class="gl-course-list">' + "".join(cols) + "</div>"
+        out.append(f'<div><h3>{esc(title)}</h3><ol>{items}</ol></div>')
+    return '<div class="gl-course-list">' + "".join(out) + "</div>"
+
+
+def build_products() -> str:
+    cards = []
+    for p in PRODUCTS:
+        detail = (f'<p class="gl-course-stats">{len(p["lessons"])} lessons, {p["clips"]} clips, plus the basics</p>'
+                  if p["lessons"] else '<p class="gl-course-stats">Everything on this page, plus what comes next</p>')
+        cards.append(
+            f'<div class="gl-course-product" id="{esc(p["id"])}"><h3>{esc(p["name"])}</h3>'
+            f'<p class="gl-course-price">${p["price"]}</p><p>{esc(p["dek"])}</p>{detail}'
+            f'<button type="submit" name="product" value="{esc(p["id"])}" data-price="{p["price"]}" '
+            f'data-name="{esc(COURSE_NAME + ": " + p["name"])}">{esc(p["button"])}, ${p["price"]}</button></div>')
+    return '<div class="gl-course-products">' + "".join(cards) + "</div>"
 
 
 def generate_html(api_base: str = PRODUCTION_API) -> str:
     title = f"{COURSE_NAME} | XC Ski Labs"
-    description = (f"{LESSON_COUNT} classic and skate technique lessons with {VIDEO_COUNT} "
-                   f"filmed demos and drills. ${PRICE_USD}, paid once.")
+    description = (f"Classic and skate technique lessons with {VIDEO_COUNT} filmed demos and drills. "
+                   f"$29 a module or ${BUNDLE_PRICE_USD} for every module.")
     contact = esc(CONTACT_EMAIL)
     endpoint = esc(api_base.rstrip("/") + "/api/create-course-checkout")
     return f"""<!DOCTYPE html>
@@ -123,34 +155,35 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
 {build_nav()}
 <main class="gl-page" id="main">
   <section class="gl-hero">
-    <p class="gl-kicker">TECHNIQUE COURSE</p>
+    <p class="gl-kicker">COURSE</p>
     <h1>{esc(COURSE_NAME)}</h1>
-    <p class="gl-hero-sub">Classic and skate technique for adult skiers, from your first hour on snow to picking the right gear on a climb. {LESSON_COUNT} lessons, {VIDEO_COUNT} filmed demos and drills, and a short quiz after twelve of them.</p>
+    <p class="gl-hero-sub">Cross-country ski lessons for adult skiers, with {VIDEO_COUNT} filmed demos and drills. Buy the module you need or every module. The basics lessons come with any purchase.</p>
     <form class="gl-course-buy" id="course-buy" novalidate>
-      <label for="course-email">Email (optional, Stripe asks if you skip it)</label>
-      <input id="course-email" name="email" type="email" autocomplete="email">
-      <button type="submit">Buy the course, ${PRICE_USD}</button>
+      <div class="gl-course-email"><label for="course-email">Email (optional, Stripe asks if you skip it)</label>
+      <input id="course-email" name="email" type="email" autocomplete="email"></div>
+      {build_products()}
       <div class="gl-course-msg" role="alert" aria-live="polite"></div>
-      <p class="gl-course-fine">One payment. Full refund within {REFUND_DAYS} days if it isn&rsquo;t for you. Sold by {esc(LEGAL_ENTITY)}; see the <a href="/terms/">terms</a>.</p>
+      <p class="gl-course-fine">One payment each. Full refund within {REFUND_DAYS} days if it isn&rsquo;t for you. Sold by {esc(LEGAL_ENTITY)}; see the <a href="/terms/">terms</a>.</p>
     </form>
   </section>
 
   <section class="gl-section">
     <h2 class="gl-section-title">How the lessons work</h2>
-    <p>I spent years in tight lycra racing cross-country before I ever raced a bike, and roller skied endless miles trying to get fast. Every technique in this course gets broken into the same three parts: body position, timing, and where the power comes from. Each part has a video and a drill you can take onto the snow.</p>
+    <p>I spent years in tight lycra racing cross-country before I ever raced a bike, and roller skied endless miles trying to get fast. Every technique in the course gets broken into the same three parts: body position, timing, and where the power comes from. Each part has a video and a drill you can take onto the snow.</p>
     <p>Learning a new technique as an adult is humbling. You go from embarrassing to bad, bad to OK, and OK to good, and the drills are how you get through those steps faster.</p>
   </section>
 
   <section class="gl-section">
     <h2 class="gl-section-title">The {LESSON_COUNT} lessons</h2>
     {build_lessons()}
-    <p class="gl-course-stats">It covers technique. Training plans, strength work and race tactics aren&rsquo;t in this course.</p>
+    <p class="gl-course-stats">A short quiz follows twelve of the lessons.</p>
   </section>
 
   <section class="gl-section">
     <h2 class="gl-section-title">After you pay</h2>
-    <p>Stripe sends you straight into the course, and I email you a link that opens it on your phone or any other device. Lost the link? The course page has a box that sends a new one to the email you paid with.</p>
-    <p>If the course isn&rsquo;t for you, email <a href="mailto:{contact}">{contact}</a> within {REFUND_DAYS} days of buying and I&rsquo;ll refund the full ${PRICE_USD}. Access ends after a refund.</p>
+    <p>Stripe sends you straight into the course, and I email you a link that opens it on your phone or any other device. If you lose the link, the course page has a box that sends a new one to the email you paid with.</p>
+    <p>If you bought one module and want the rest, open a lesson you don&rsquo;t have yet, and you can get every module for ${BUNDLE_PRICE_USD} minus what you already paid.</p>
+    <p>If it isn&rsquo;t for you, email <a href="mailto:{contact}">{contact}</a> within {REFUND_DAYS} days of buying and I&rsquo;ll refund that purchase in full. Access to what you bought ends after a refund.</p>
   </section>
 
   <footer class="gl-footer">XC Ski Labs &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></footer>
@@ -159,24 +192,26 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
 (function(){{
   var form=document.getElementById('course-buy');
   var msg=form.querySelector('.gl-course-msg');
-  var btn=form.querySelector('button');
+  var btns=form.querySelectorAll('button[name=product]');
   form.addEventListener('submit',function(e){{
     e.preventDefault();
+    var btn=e.submitter&&e.submitter.name==='product'?e.submitter:null;
+    if(!btn){{msg.textContent='Pick a module or every module.';return;}}
     msg.textContent='';
-    btn.disabled=true;
+    btns.forEach(function(b){{b.disabled=true;}});
     var email=(form.email.value||'').trim();
     fetch('{endpoint}',{{method:'POST',headers:{{'Content-Type':'application/json'}},
-      body:JSON.stringify({{course_id:'{COURSE_ID}',email:email}})}})
+      body:JSON.stringify({{course_id:btn.value,email:email}})}})
       .then(function(r){{return r.json().then(function(d){{return {{ok:r.ok,d:d}};}});}})
       .then(function(res){{
         if(res.ok&&res.d.checkout_url){{
-          if(window.gtag){{gtag('event','begin_checkout',{{currency:'USD',value:{PRICE_USD},items:[{{item_id:'{COURSE_ID}',item_name:'{esc(COURSE_NAME)}'}}]}});}}
+          if(window.gtag){{gtag('event','begin_checkout',{{currency:'USD',value:Number(btn.dataset.price),items:[{{item_id:btn.value,item_name:btn.dataset.name}}]}});}}
           window.location.href=res.d.checkout_url;return;
         }}
         msg.textContent=res.d.error||'Checkout did not open. Try again in a minute.';
-        btn.disabled=false;
+        btns.forEach(function(b){{b.disabled=false;}});
       }})
-      .catch(function(){{msg.textContent='Checkout did not open. Check your connection and try again.';btn.disabled=false;}});
+      .catch(function(){{msg.textContent='Checkout did not open. Check your connection and try again.';btns.forEach(function(b){{b.disabled=false;}});}});
   }});
 }})();
 </script>
