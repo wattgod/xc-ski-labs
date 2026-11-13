@@ -20,6 +20,7 @@ FOOTER_OWNERS = (
     "wordpress/generate_coaching.py",
     "wordpress/generate_coaching_apply.py",
     "wordpress/generate_consulting.py",
+    "wordpress/generate_course.py",
     "wordpress/generate_methodology.py",
     "wordpress/generate_privacy.py",
     "wordpress/generate_questionnaire.py",
