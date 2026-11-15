@@ -322,29 +322,38 @@ def tier_label(tier: int) -> str:
     return tier_badge(tier)
 
 
+_BREAK_SUFFIXES = ("rennet", "rännet", "loppet", "marsjen", "maraton", "marathon",
+                   "rittet", "gangan")
+
+
 def _display_caps(text: Any) -> str:
     """Format display text for the Wax Bench hero.
 
-    Existing hyphens become non-breaking (the name breaks where WE say);
-    known Nordic compound suffixes get a soft hyphen so very long single
-    words (BIRKEBEINERRENNET) break with a real hyphen, per guidelines §3;
-    a suffix that already follows a hyphen gets <wbr>, never a second one.
+    The name breaks only where WE say (guidelines §3):
+    - a hyphen is non-breaking, except in a word over 11 letters
+      (Ski-Marathon, Pragelato-Sestriere), where the line may break after
+      it with <wbr>, which adds no glyph;
+    - a part over 14 letters gets a soft hyphen before a known Nordic
+      compound suffix (Birkebeiner-rennet, Fossavatns-gangan), so the break
+      draws exactly one hyphen. Lengths are measured on the raw name.
     """
-    out = esc(text).replace("-", "&#8209;")
-    words = out.split(" ")
     fixed = []
-    for w in words:
-        if len(w) > 14:
-            for suffix in ("rennet", "loppet", "marsjen", "maraton", "marathon", "rittet"):
-                idx = w.lower().rfind(suffix)
-                if idx > 3:
-                    # Already hyphenated (Ski-Marathon): break after the
-                    # visible hyphen with <wbr>. A soft hyphen there would
-                    # draw a second hyphen at the line end ("SKI--").
-                    brk = "<wbr>" if w[:idx].endswith("&#8209;") else "&shy;"
-                    w = w[:idx] + brk + w[idx:]
-                    break
-        fixed.append(w)
+    for word in str(text).split(" "):
+        parts = []
+        for part in word.split("-"):
+            if len(part) > 14:
+                for suffix in _BREAK_SUFFIXES:
+                    idx = part.lower().rfind(suffix)
+                    if idx > 3:
+                        part = esc(part[:idx]) + "&shy;" + esc(part[idx:])
+                        break
+                else:
+                    part = esc(part)
+            else:
+                part = esc(part)
+            parts.append(part)
+        joiner = "&#8209;<wbr>" if len(word) > 11 else "&#8209;"
+        fixed.append(joiner.join(parts))
     return " ".join(fixed)
 
 
@@ -971,10 +980,10 @@ a {{ color: inherit; }}
   overflow-wrap: normal;
   hyphens: manual;
 }}
-.gl-hero-name--long {{ font-size: clamp(2.4rem, 6vw, 4.4rem); }}
+.gl-hero-name--long {{ font-size: clamp(1.75rem, 6vw, 4.4rem); }}
 /* Race titles: the book's stencil (README §3); names with diacritics stay in
    Libre Franklin 600 until Big Shoulders' glyph coverage is checked. */
-.gl-hero h1.gl-hero-name {{ font-family: var(--font-stencil); font-weight: 900; font-style: normal; letter-spacing: .01em; }}
+.gl-hero h1.gl-hero-name {{ font-family: var(--font-stencil); font-weight: 900; font-style: normal; letter-spacing: .01em; overflow-wrap: break-word; }}
 .gl-hero h1.gl-name--diacritic {{ font-family: var(--font-body); font-weight: 600; }}
 
 .gl-hero-tagline {{

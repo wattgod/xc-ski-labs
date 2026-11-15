@@ -162,3 +162,14 @@ def test_hyphenated_race_names_never_draw_a_second_hyphen():
     assert "&#8209;&shy;" not in out
     assert "Ski&#8209;<wbr>Marathon" in out
     assert "Birkebeiner&shy;rennet" in generate_race_pages._display_caps("Birkebeinerrennet")
+
+
+@pytest.mark.parametrize("name,expected", [
+    ("Kungsledenrännet", "Kungsleden&shy;rännet"),
+    ("Fossavatnsgangan", "Fossavatns&shy;gangan"),
+    ("Pragelato-Sestriere", "Pragelato&#8209;<wbr>Sestriere"),
+    ("A & B-Marathon", "A &amp; B&#8209;Marathon"),
+])
+def test_long_race_names_get_one_break_point(name, expected):
+    import generate_race_pages
+    assert generate_race_pages._display_caps(name) == expected
