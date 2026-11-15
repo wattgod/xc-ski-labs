@@ -2,6 +2,7 @@
 """Generate the XC Ski Labs terms of service at /terms/."""
 
 import argparse
+import sys
 import html
 from datetime import date
 from pathlib import Path
@@ -13,6 +14,25 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
+
+
+# The plan billed every 4 weeks, as the checkout server's terms_text states it
+# at Stripe checkout (race_plan_subscription.terms_text, approved 2026-11-12).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import plan_offer  # noqa: E402
+
+PLAN_TERMS = (
+    "The custom XC ski training plan is sold by Gravel God Cycling LLC. It is billed "
+    f"{plan_offer.PRICE_LINE} from the day you sign up, one payment for each "
+    f"{plan_offer.BLOCK_WEEKS}-week block of your plan, and it ends after your race week. "
+    f"If your race isn't a whole number of {plan_offer.BLOCK_WEEKS}-week blocks away, the "
+    f"last, shorter block costs {plan_offer.WEEK_PRICE} a week. Checkout shows your number "
+    "of payments and your total before you pay. You can cancel any time from your plan "
+    "page and keep the block you've paid for. Within "
+    f"{plan_offer.REFUND_DAYS} days of your first payment you can cancel from your plan "
+    "page with a full refund of that payment, which ends the plan. Later payments aren't "
+    "refunded, except where the law says otherwise."
+)
 
 
 def esc(value: str) -> str:
@@ -39,6 +59,7 @@ def generate_html() -> str:
     description = "Terms governing use of XC Ski Labs, xcskilabs.com, and its services."
     contact = esc(CONTACT_EMAIL)
     effective_date = date.today().strftime("%B %Y")
+    plan_terms = esc(PLAN_TERMS)
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,6 +108,7 @@ def generate_html() -> str:
     <h2 class="gl-section-title">Purchases, delivery, and refunds</h2>
     <p>Prices, billing cadence, included services, and delivery terms are shown on the applicable offer or checkout page. Payments are processed by third-party payment providers. You agree to provide accurate billing and delivery information.</p>
     <p>If a service is not delivered as described or you believe a charge is incorrect, contact <a href="mailto:{contact}">{contact}</a>. Any offer-specific cancellation or refund terms shown before purchase form part of these terms.</p>
+    <p><strong>Custom ski training plan.</strong> {plan_terms}</p>
     <p><strong>XC Ski Labs Course.</strong> Each course module, and the bundle of every module, is a one-time purchase sold by Gravel God Cycling LLC. The bundle includes modules added to the course after you buy it. You can ask for a full refund of any course purchase, for any reason, within 14 days of that purchase by emailing <a href="mailto:{contact}">{contact}</a>. Access to what a refunded purchase included ends after the refund. Your access is for your own personal use; do not share your access link or republish the videos.</p>
   </section>
 

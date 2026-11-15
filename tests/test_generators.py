@@ -403,7 +403,9 @@ class TestHomepage:
 
 
 class TestQuestionnaireGenerator:
-    """Test wordpress/generate_questionnaire.py for the plan intake path."""
+    """wordpress/generate_questionnaire.py: the v2 skier questionnaire and buy
+    button for the custom ski plan billed every 4 weeks. Deeper checks of the
+    intake, refusals and offer copy are in tests/test_plan_offer.py."""
 
     def _generate_with_fixture(self, tmp_path: Path) -> str:
         fixture = tmp_path / "race-index.json"
@@ -448,7 +450,7 @@ class TestQuestionnaireGenerator:
             f"Questionnaire generator failed: {result.stderr[-300:]}"
         assert (OUTPUT_DIR / "questionnaire" / "index.html").exists()
 
-    def test_race_slug_map_prefills_vasaloppet(self, tmp_path):
+    def test_race_slug_map_prefills_the_race_name(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
         assert '"vasaloppet":"Vasaloppet"' in html
         assert "params.get('race')" in html
@@ -457,59 +459,70 @@ class TestQuestionnaireGenerator:
     def test_embedded_slug_map_is_script_safe(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
         assert "Test <\\/script> Race" in html
+        assert "Test </script> Race" not in html
 
-    def test_form_posts_to_formsubmit_with_honeypot_and_redirect(self, tmp_path):
+    def test_posts_to_the_checkout_server_not_formsubmit(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
-        assert 'action="https://formsubmit.co/coaching@xcskilabs.com"' in html
-        assert 'method="POST"' in html
-        assert 'name="_honey"' in html
-        assert 'name="_next" value="https://xcskilabs.com/questionnaire/?submitted=1"' in html
-        assert 'name="_subject" value="New Plan Questionnaire' in html
-        assert "XC Ski Labs" in html
+        assert "formsubmit.co" not in html
+        assert ("https://athlete-custom-training-plan-pipeline-production.up.railway.app"
+                "/api/create-checkout") in html
+        assert '"product":"race_plan_4weekly"' in html
+        assert '"schemaVersion":"xc-skier-intake/v2"' in html
+        # Only a Stripe Checkout URL is ever followed.
+        assert "/^https:\\/\\/checkout\\.stripe\\.com\\//" in html
 
-    def test_success_state_for_submitted_query(self, tmp_path):
+    def test_every_question_the_schema_needs_is_on_the_page(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
-        assert "params.get('submitted')" in html
-        assert "submitted === '1'" in html
-        assert "Questionnaire received." in html
-
-    def test_expected_fields_present(self, tmp_path):
-        html = self._generate_with_fixture(tmp_path)
-        for field in [
-            'name="target_race"',
-            'name="race_date"',
-            'name="race_distance"',
-            'name="weekly_hours"',
-            'name="days_per_week"',
-            'name="structured_training_years"',
-            'name="technique_background"',
-            'name="technique"',
-            'name="technique_confidence"',
-            'name="rollerski_access"',
-            'name="ski_erg_access"',
-            'name="strength_access"',
-            'name="running_tolerance"',
-            'name="recent_result"',
-            'name="resting_hr"',
-            'name="injuries"',
-            'name="constraints"',
-            'name="home_altitude"',
-            'name="race_altitude"',
-            'name="email"',
-            'name="plan_workarounds"',
+        for name in [
+            "race_choice", "race_name", "race_date", "race_km", "race_technique",
+            "b_races_answer", "plan_start", "last_race_on", "display_name", "age_years",
+            "level", "winters_on_snow", "last_season_hours", "last_season_hours_basis",
+            "layoff_answer", "layoff_restart", "available_hours", "long_session_day",
+            "rest_day", "rest_day_swap", "blocked_answer", "snow_from", "snow_until",
+            "gear", "rollerski_safe_route", "rollerski_experience", "running_tolerance",
+            "hr_monitor", "ski_max_hr_answer", "hr_bpm", "hr_month", "hr_mode",
+            "hr_source", "hr_medicine", "strength_history", "strength_access",
+            "medicine_ball", "familiar_lifts", "injury_flags", "fuel_practised_g_per_h",
+            "fuel_practised_sessions", "recent_illness", "health_review", "health_note",
+            "heat_access", "heat_health_flag", "email",
         ]:
-            assert field in html
+            assert f'name="{name}"' in html, name
+        for day in range(7):
+            assert f'name="cap_{day}"' in html
         assert 'type="email"' in html
-        assert 'maxlength="1200"' in html
-        assert "You'll get your plan details and payment link by email, usually within a day." in html
 
-    def test_v2_intake_behaviors_present(self, tmp_path):
+    def test_heat_answers_reach_the_intake(self, tmp_path):
+        """Engine AE-SKI-4.1 requires heat_access and heat_health_flag; without
+        them every order is refused as missing fields."""
         html = self._generate_with_fixture(tmp_path)
-        assert "xcskilabs_plan_intake_v2" in html
+        assert "heat_access: heat.filter(" in html
+        assert "heat_health_flag: heatHealth" in html
+        assert "err('heat_access', 'pick_one')" in html
+        for value in ("sauna", "hot_bath", "none"):
+            assert f'name="heat_access" value="{value}"' in html, value
+
+    def test_no_free_text_beyond_name_race_and_email(self, tmp_path):
+        """The engine intake carries no free text: the only text boxes are the
+        skier's name, an unlisted race's name and the email."""
+        html = self._generate_with_fixture(tmp_path)
+        assert "<textarea" not in html
+        text_inputs = re.findall(r'<input[^>]*type="(?:text|email)"[^>]*>', html)
+        names = sorted(re.search(r'name="([^"]+)"', i).group(1) for i in text_inputs)
+        assert names == ["display_name", "email", "race_name"]
+
+    def test_health_questions_sit_behind_the_privacy_notice(self, tmp_path):
+        html = self._generate_with_fixture(tmp_path)
+        notice = html.index('class="gl-notice"')
+        assert 'href="/privacy/"' in html[notice:notice + 400]
+        for name in ("recent_illness", "health_review", "health_note"):
+            assert html.index(f'name="{name}"') > notice
+        assert notice < html.index('id="submitBtn"')
+
+    def test_answers_are_saved_in_this_browser(self, tmp_path):
+        html = self._generate_with_fixture(tmp_path)
+        assert '"storageKey":"xcskilabs_ski_intake_v2"' in html
         assert "localStorage" in html
-        assert "progressFill" in html
         assert "gl-conditional" in html
-        assert "TOTAL_SECTIONS = 8" in html
 
     def test_ga4_and_cookie_consent_present(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
@@ -583,6 +596,12 @@ class TestPaymentLinksAndFeeds:
         assert "Payment received." in html
         assert "Check your email" in html
         assert "Wax Bench" in html
+        # Stripe's success_url for the plan billed every 4 weeks.
+        plan = (tmp_path / "training-plans" / "success" / "index.html").read_text(encoding="utf-8")
+        assert "Payment received." in plan
+        assert '<link rel="canonical" href="https://xcskilabs.com/training-plans/success/">' in plan
+        assert "connect TrainingPeaks" in plan
+        assert "24 hours" not in plan and "within a day" not in plan
 
 class TestWaxBenchRacePages:
     """Wax Bench-specific race page invariants."""

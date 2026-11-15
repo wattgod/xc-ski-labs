@@ -35,13 +35,7 @@ PAGE_MOTION = f'<section class="xsl-page-motion">{loop_figure("doublepole", "wid
 XSL_PAGE_MOTION_CSS = """
 .xsl-page-motion { max-width: var(--gl-measure); margin: 0 auto; padding: 40px 20px 8px; }
 """
-from plan_simulator import (get_plan_simulator_css, get_plan_simulator_js,
-                            render_plan_simulator)
-
-# ── Price per week (cents) — derived from stripe-products.json ──
-
-PRICE_PER_WEEK_CENTS = 1500  # $15/week
-
+import plan_offer  # noqa: E402  (wordpress/plan_offer.py: price and terms)
 
 # ── Helpers ────────────────────────────────────────────────────
 
@@ -63,36 +57,6 @@ def _safe_json_for_script(obj, **kwargs):
     return raw.replace("</", "<\\/")
 
 
-def load_stripe_products():
-    """Load Stripe products/prices from data/stripe-products.json."""
-    filepath = DATA_DIR / "stripe-products.json"
-    if not filepath.exists():
-        print(f"  WARNING: {filepath} not found — using default pricing")
-        return None
-    with open(filepath, "r", encoding="utf-8") as fh:
-        return json.load(fh)
-
-
-def load_payment_links():
-    """Load generated Stripe Payment Links if present."""
-    filepath = DATA_DIR / "stripe-payment-links.json"
-    if not filepath.exists():
-        return {}
-    with open(filepath, "r", encoding="utf-8") as fh:
-        data = json.load(fh)
-    return data if isinstance(data, dict) else {}
-
-
-def get_price_per_week(stripe_data):
-    """Extract price-per-week from Stripe data (4-week plan / 4)."""
-    if not stripe_data:
-        return PRICE_PER_WEEK_CENTS
-    for p in stripe_data.get("prices", []):
-        if "4-week" in p.get("nickname", "").lower():
-            return p["amount"] // 4
-    return PRICE_PER_WEEK_CENTS
-
-
 def count_race_profiles():
     """Count race JSON files in race-data/."""
     data_dir = PROJECT_ROOT / "race-data"
@@ -102,49 +66,33 @@ def count_race_profiles():
     return len(files)
 
 
-def load_simulator_races():
-    """Project every indexed race's rated demands for the preview selector."""
-    criteria = (
-        "distance", "elevation", "altitude", "field_size", "prestige",
-        "international_draw", "course_technicality", "snow_reliability",
-        "grooming_quality", "accessibility", "community", "scenery",
-        "organization", "competitive_depth",
-    )
-    races = []
-    for path in sorted((PROJECT_ROOT / "race-data").glob("*.json")):
-        if path.name == "_schema.json":
-            continue
-        try:
-            document = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            continue
-        race = document.get("race", document)
-        rating = race.get("nordic_lab_rating") or {}
-        demands = {}
-        for key in criteria:
-            value = rating.get(key)
-            if isinstance(value, (int, float)):
-                demands[key] = max(0, min(10, int(round(value * 2))))
-        if not demands:
-            continue
-        races.append({
-            "slug": race.get("slug"),
-            "name": race.get("display_name") or race.get("name"),
-            "vitals": {"discipline": (race.get("vitals") or {}).get("discipline")},
-            "demands": demands,
-            "score": rating.get("overall_score") or 0,
-        })
-    races.sort(key=lambda race: (
-        race["slug"] != "birkebeinerrennet", -race["score"], race["name"]))
-    return races
-
-
 def load_tokens_css():
     """Read shared Wax Bench tokens for static embedding."""
     return TOKENS_CSS.read_text(encoding="utf-8").strip()
 
 
 # ── CSS ────────────────────────────────────────────────────────
+
+OFFER_CSS = """
+.gl-offer-lines {
+  max-width: 640px;
+  margin: 0 auto 20px;
+  text-align: left;
+  padding-left: 1.2em;
+  font-family: var(--gl-font-editorial);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.gl-offer-lines li { margin-bottom: 6px; }
+.gl-included {
+  list-style: none; padding: 0; margin: 0 0 24px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px 32px;
+}
+.gl-included li { padding-left: 22px; position: relative; line-height: 1.4; }
+.gl-included li::before { content: "✓"; position: absolute; left: 0; font-weight: 700; }
+.gl-fine-print { font-size: 13px; line-height: 1.5; opacity: 0.75; margin: 16px 0 0; }
+"""
+
 
 def build_css():
     """Build the complete CSS for the training plans landing page."""
@@ -291,8 +239,6 @@ a:focus-visible, button:focus-visible {
   line-height: 1.1;
   margin: 0 0 20px;
 }
-
-/* ── Interactive plan preview ────────────────────── */
 
 .gl-hero-sub {
   font-family: var(--gl-font-editorial);
@@ -854,15 +800,7 @@ a:focus-visible, button:focus-visible {
 }
 
 .xl-consent-decline:hover { color: var(--gl-white); border-color: var(--gl-white); }
-""" + get_plan_simulator_css(
-        ink="var(--gl-carbon)",
-        paper="var(--gl-paper)",
-        panel="var(--gl-white)",
-        line="var(--gl-hairline)",
-        accent="var(--gl-swix-red)",
-        data_font="var(--gl-font-data)",
-        body_font="var(--gl-font-editorial)",
-    )
+"""
 
 
 # ── Section Builders ───────────────────────────────────────────
@@ -885,303 +823,66 @@ def build_hero(race_count):
     return f"""
 <section class="gl-hero">
   <div class="gl-hero-label">Custom XC Ski Training</div>
-  <h1>Your Race. Your Hours.<br>Your Plan.</h1>
-  <p class="gl-hero-sub">
-    Race-specific periodization built around your goal event, your schedule,
-    and the demands of the course. Classic, skate, or both &mdash; we build the
-    blocks that get you to the start line ready.
-  </p>
-  <div class="gl-hero-stats">
-    <span>{esc(str(race_count))}</span> races indexed &middot;
-    <span>14</span> scoring criteria &middot;
-    <span>4&ndash;17</span> week plans
-  </div>
+  <h1>{esc(plan_offer.HEADLINE)}</h1>
+  <p class="gl-hero-sub">{esc(plan_offer.PRICE_LINE)}.</p>
   <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
 </section>
 """
 
 
-def build_plan_preview():
-    """Contract-backed calendar preview with every indexed race available."""
-    races = load_simulator_races()
-    if not races:
-        return ""
-    race = races[0]
-    return render_plan_simulator(
-        brand="xc_ski_labs",
-        race=race,
-        demands=race["demands"],
-        race_options=races,
-        questionnaire_url="/questionnaire/",
-        heading=f"See a {race['name']} week before you buy.",
-        lede=("Choose your race and the week you actually have. See how those "
-              "constraints and the race's demands shape a calendar preview."),
-    )
+# Rider-facing copy on this page (Matti speaking). The headline, the list of
+# what's included and the fine print live in plan_offer.py; each claim is
+# something the ski engine builds (athletes/scripts/ski_engine.py,
+# ALGORITHM_EVIDENCE §20), the course grant opens or the plan's emails send.
+FAQS = (
+    ("How do I get the workouts?",
+     "Each block goes on your TrainingPeaks calendar after I've looked it over. The email "
+     "you get after paying tells you how to connect your account. Every block also comes "
+     "by email with a guide that lists its workouts."),
+    ("Which races can I get a plan for?",
+     f"{plan_offer.FIT_LINES[0]} Pick your race from the list in the questionnaire, or "
+     "enter its date, distance and technique yourself."),
+    ("I race classic and skate. Can the plan cover both?",
+     "The plan follows your target race's technique. For a skiathlon, classic and skate "
+     "sessions alternate, with the hard sessions split evenly between them. Other races you "
+     "list in the questionnaire go into the plan with their own date, distance and technique."),
+    ("What if I don't have rollerskis?",
+     "You can still get a plan. Before snow, the hard sessions go on running or a SkiErg "
+     "instead. If you have neither rollerskis nor running, I can't set your training zones "
+     "with a test, so I can't build the plan yet."),
+    ("What if I only have 5 hours a week?",
+     "Every week is built to the hours you say you can keep up for months, and every "
+     "session fits the longest time you gave me for its day."),
+    ("Can I cancel?",
+     f"{plan_offer.CANCEL_LINE} {plan_offer.REFUND_LINE}"),
+)
 
 
-def build_how_it_works():
-    """3-step process section."""
-    return """
-<div class="gl-page">
-<section class="gl-section">
-  <div class="gl-section-label">Process</div>
-  <div class="gl-section-title">How It Works</div>
-  <div class="gl-steps">
-    <div class="gl-step">
-      <div class="gl-step-num">01</div>
-      <div class="gl-step-title">Tell Us Your Race</div>
-      <div class="gl-step-desc">
-        Pick your target event &mdash; Vasaloppet, Birkebeinerrennet, American Birkebeiner,
-        or any of the 229 races in our database. We analyze the course profile, altitude,
-        snow conditions, and competitive field to map what the race actually demands.
-      </div>
-    </div>
-    <div class="gl-step">
-      <div class="gl-step-num">02</div>
-      <div class="gl-step-title">Get Your Plan</div>
-      <div class="gl-step-desc">
-        A periodized training block lands in your TrainingPeaks calendar: on-snow sessions,
-        roller ski progressions, SkiErg intervals, and the strength work your
-        posterior chain actually needs. Base through taper, calibrated to your
-        zones and available hours.
-      </div>
-    </div>
-    <div class="gl-step">
-      <div class="gl-step-num">03</div>
-      <div class="gl-step-title">Train Smarter</div>
-      <div class="gl-step-desc">
-        No guessing whether today is V2 intervals or easy distance. Every session has
-        power targets, RPE, cadence cues, and technique notes. You train; the plan
-        adapts across your base, build, peak, and taper phases.
-      </div>
-    </div>
-  </div>
-</section>
-"""
-
-
-def build_deliverables():
-    """What You Get section — 5 deliverables."""
-    return """
-<section class="gl-section">
-  <div class="gl-section-label">Deliverables</div>
-  <div class="gl-section-title">What You Get</div>
-  <div class="gl-section-prose">
-    Every plan is built for your specific race. Not a template &mdash; a structured
-    training block that accounts for the course, the climate, and the hours you
-    actually have.
-  </div>
-  <div class="gl-deliverables">
-    <div class="gl-deliverable">
-      <div class="gl-deliverable-icon">TP</div>
-      <div>
-        <div class="gl-deliverable-title">TrainingPeaks Calendar</div>
-        <div class="gl-deliverable-desc">
-          Every session pushed directly to your TrainingPeaks calendar. Open your watch,
-          see today&rsquo;s workout. Intervals have HR zones, RPE, and duration. On-snow,
-          roller ski, and SkiErg sessions all include technique cues for classic stride,
-          V1, V2, and double pole.
-        </div>
-      </div>
-    </div>
-    <div class="gl-deliverable">
-      <div class="gl-deliverable-icon">P</div>
-      <div>
-        <div class="gl-deliverable-title">Periodized Plan</div>
-        <div class="gl-deliverable-desc">
-          Base &rarr; Build &rarr; Peak &rarr; Taper. Each phase has a purpose,
-          each week has a structure, each session has a reason. Volume and intensity
-          progress through the block so you arrive at race day sharp, not shattered.
-        </div>
-      </div>
-    </div>
-    <div class="gl-deliverable">
-      <div class="gl-deliverable-icon">C</div>
-      <div>
-        <div class="gl-deliverable-title">Climate &amp; Altitude Prep</div>
-        <div class="gl-deliverable-desc">
-          Racing at altitude in Engadin or dealing with March slush at Vasaloppet?
-          Your plan includes acclimatization protocols, heat/cold management,
-          and wax-day contingencies based on the race&rsquo;s historical weather data.
-        </div>
-      </div>
-    </div>
-    <div class="gl-deliverable">
-      <div class="gl-deliverable-icon">N</div>
-      <div>
-        <div class="gl-deliverable-title">Nutrition &amp; Fueling Strategy</div>
-        <div class="gl-deliverable-desc">
-          Carb-loading protocol, race-day fueling timeline, and feed-zone strategy.
-          Calibrated to distance and expected effort &mdash; a 50&thinsp;km skate race
-          demands different fueling than a 90&thinsp;km classic marathon.
-        </div>
-      </div>
-    </div>
-    <div class="gl-deliverable">
-      <div class="gl-deliverable-icon">S</div>
-      <div>
-        <div class="gl-deliverable-title">Strength &amp; Mobility Program</div>
-        <div class="gl-deliverable-desc">
-          Nordic-specific strength work: single-leg stability for classic technique,
-          hip flexor mobility for V2, posterior chain loading for double pole.
-          3 sessions per week in base, tapering to maintenance before race day.
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-"""
-
-
-def build_sample_week():
-    """Visual weekly layout for a sample build-phase week."""
-    return """
-<section class="gl-section">
-  <div class="gl-section-label">Sample Week</div>
-  <div class="gl-section-title">Build Phase &mdash; Week 3 of 4</div>
-  <div class="gl-section-prose">
-    This is what a typical build-phase week looks like for a skier targeting a 50&thinsp;km
-    classic race with 8&ndash;10 hours available. Your plan will vary based on your
-    race distance, discipline, and schedule.
-  </div>
-  <div class="gl-week">
-    <div class="gl-day gl-day--rest">
-      <div class="gl-day-label">Mon</div>
-      <div class="gl-day-type">Rest</div>
-      <div class="gl-day-desc">Full recovery. Foam roll, mobility.</div>
-    </div>
-    <div class="gl-day gl-day--intensity">
-      <div class="gl-day-label">Tue</div>
-      <div class="gl-day-type">VO2max</div>
-      <div class="gl-day-desc">4&times;4 min @ 95% HR max. Roller ski or SkiErg.</div>
-    </div>
-    <div class="gl-day gl-day--endurance">
-      <div class="gl-day-label">Wed</div>
-      <div class="gl-day-type">Easy Ski</div>
-      <div class="gl-day-desc">60&ndash;75 min zone 2. Technique focus: diagonal stride.</div>
-    </div>
-    <div class="gl-day gl-day--threshold">
-      <div class="gl-day-label">Thu</div>
-      <div class="gl-day-type">Threshold</div>
-      <div class="gl-day-desc">2&times;15 min @ LT. Double-pole intervals on flats.</div>
-    </div>
-    <div class="gl-day gl-day--strength">
-      <div class="gl-day-label">Fri</div>
-      <div class="gl-day-type">Strength</div>
-      <div class="gl-day-desc">Single-leg squats, pull-ups, core. 45 min.</div>
-    </div>
-    <div class="gl-day gl-day--endurance">
-      <div class="gl-day-label">Sat</div>
-      <div class="gl-day-type">Long Ski</div>
-      <div class="gl-day-desc">2&ndash;2.5 hr classic distance. Steady pace, race nutrition practice.</div>
-    </div>
-    <div class="gl-day gl-day--rest">
-      <div class="gl-day-label">Sun</div>
-      <div class="gl-day-type">Recovery</div>
-      <div class="gl-day-desc">30 min easy spin or walk. Stretching.</div>
-    </div>
-  </div>
-</section>
-"""
-
-
-def build_pricing(stripe_data, payment_links):
-    """Pricing section with dynamic calculation from Stripe data."""
-    ppw = get_price_per_week(stripe_data)
-    ppw_dollars = ppw // 100
-
-    # Build example rows from stripe prices
-    examples = []
-    if stripe_data:
-        for p in stripe_data.get("prices", []):
-            nick = p.get("nickname", "")
-            if "week plan" in nick.lower():
-                amount = p["amount"] // 100
-                # Extract week count (handles "4-week", "12-Week", etc.)
-                m = re.search(r'(\d+)', nick)
-                if m:
-                    weeks = int(m.group(1))
-                    examples.append((weeks, amount, p.get("id", ""), nick))
-
-    # Fallback if no stripe data
-    if not examples:
-        examples = [
-            (4, 60, "", "4-week plan ($60)"),
-            (6, 90, "", "6-week plan ($90)"),
-            (8, 120, "", "8-week plan ($120)"),
-            (10, 150, "", "10-week plan ($150)"),
-            (12, 180, "", "12-week plan ($180)"),
-            (14, 210, "", "14-week plan ($210)"),
-            (16, 240, "", "16-week plan ($240)"),
-            (17, 249, "", "17+ week plan ($249 cap)"),
-        ]
-
-    examples.sort()
-
-    # Build pricing grid rows (show a representative subset)
-    has_checkout = bool(payment_links)
-    if has_checkout:
-        show = examples
-    else:
-        show = [e for e in examples if e[0] in (4, 6, 8, 10, 12, 16)]
-        if not show:
-            show = examples[:6]
-
-    grid_cells = ""
-    grid_class = "gl-pricing-grid has-checkout" if has_checkout else "gl-pricing-grid"
-    action_header = '<div class="gl-pricing-cell gl-pricing-cell--header">Checkout</div>' if has_checkout else ""
-    for weeks, total, price_id, nick in show:
-        duration = "17+ weeks" if "17+" in nick else f"{weeks} weeks"
-        action_cell = ""
-        if has_checkout:
-            link = payment_links.get(price_id, {}) if price_id else {}
-            url = link.get("url", "") if isinstance(link, dict) else ""
-            if url:
-                action_cell = (
-                    f'\n    <div class="gl-pricing-cell"><a class="gl-pricing-checkout" '
-                    f'href="{esc(url)}" data-checkout-link data-price-id="{esc(price_id)}" '
-                    f'data-price-nickname="{esc(nick)}">Pay</a></div>'
-                )
-            else:
-                action_cell = '\n    <div class="gl-pricing-cell">&mdash;</div>'
-        grid_cells += f"""
-    <div class="gl-pricing-cell">{duration}</div>
-    <div class="gl-pricing-cell">${ppw_dollars}/wk</div>
-    <div class="gl-pricing-cell"><strong>${total}</strong></div>{action_cell}"""
-
-    # Cap note
-    cap_price = 249
-    if stripe_data:
-        for p in stripe_data.get("prices", []):
-            if "17" in p.get("nickname", ""):
-                cap_price = p["amount"] // 100
-                break
-
+def build_included():
+    """Everything the plan includes, as a fast list (plan_offer.INCLUDED)."""
+    items = "".join(f"<li>{esc(line)}</li>" for line in plan_offer.INCLUDED)
     return f"""
-<section class="gl-section">
-  <div class="gl-section-label">Investment</div>
-  <div class="gl-section-title">Pricing</div>
+<div class="gl-page">
+<section class="gl-section" id="included">
+  <div class="gl-section-title">What&rsquo;s Included</div>
+  <ul class="gl-included">{items}
+  </ul>
+  <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
+</section>
+</div>
+"""
+
+
+def build_offer():
+    """The plan billed every 4 weeks: price and terms (wordpress/plan_offer.py)."""
+    # Opens .gl-page; build_final_cta closes it after the FAQ.
+    return f"""
+<div class="gl-page">
+<section class="gl-section" id="price">
   <div class="gl-pricing-box">
-    <div class="gl-pricing-headline">${ppw_dollars}/week. That&rsquo;s it.</div>
-    <div class="gl-pricing-sub">No subscription. No recurring charges. One plan, one price.</div>
-    <div class="gl-pricing-example">
-      12-week plan = <strong>$180</strong>
-    </div>
-    <div class="gl-pricing-example">
-      8-week plan = <strong>$120</strong>
-    </div>
-    <div class="{grid_class}">
-      <div class="gl-pricing-cell gl-pricing-cell--header">Duration</div>
-      <div class="gl-pricing-cell gl-pricing-cell--header">Rate</div>
-      <div class="gl-pricing-cell gl-pricing-cell--header">Total</div>
-      {action_header}
-      {grid_cells}
-    </div>
-    <div class="gl-pricing-note">
-      Plans 17 weeks or longer cap at ${cap_price}. Less than a single wax session
-      at a Worldloppet feed zone.
-    </div>
-    <a href="/questionnaire/" class="gl-cta-btn">Start Your Plan</a>
+    <div class="gl-pricing-headline">{esc(plan_offer.PRICE_LINE)}.</div>
+    <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
+    <p class="gl-fine-print">{esc(plan_offer.FINE_PRINT)}</p>
   </div>
 </section>
 """
@@ -1189,52 +890,8 @@ def build_pricing(stripe_data, payment_links):
 
 def build_faq():
     """FAQ accordion section."""
-    faqs = [
-        (
-            "How do I get the workouts?",
-            "Every session is pushed to your TrainingPeaks calendar. Sync your Garmin, "
-            "COROS, or Polar watch and the workout is on your wrist. On-snow and roller ski "
-            "sessions include heart rate zones, RPE, cadence targets, and technique cues. "
-            "SkiErg sessions have full interval structure with rest periods."
-        ),
-        (
-            "I race both classic and skate. Can the plan cover both?",
-            "Yes. If your target race offers both techniques (or you have two target races "
-            "in different disciplines), we structure the plan around your primary goal and "
-            "weave in technique-specific sessions for the secondary discipline. Double-pole "
-            "work carries over to both."
-        ),
-        (
-            "How do you account for roller skiing vs. on-snow training?",
-            "We build plans assuming a mixed environment. Early-season blocks lean on roller "
-            "skis, SkiErg, and running with poles. As snow arrives, sessions shift to on-snow "
-            "with the same intensity targets. If you train year-round on snow (lucky you), we "
-            "adjust accordingly."
-        ),
-        (
-            "What if I only have 5 hours per week?",
-            "We build with what you have. A 5-hour week means fewer sessions but sharper "
-            "prioritization: the key intervals stay, the junk miles go. Every plan is "
-            "calibrated to your available hours &mdash; we do not pad volume for the sake of it."
-        ),
-        (
-            "Do you cover race-day logistics like waxing and feed zones?",
-            "Your plan includes a race-week checklist covering wax prep, feed-zone strategy, "
-            "warm-up protocol, and pacing guidance. For major Worldloppet and Ski Classics "
-            "events, we include course-specific notes from our database of "
-            "229 scored race profiles."
-        ),
-        (
-            "Can I get a plan for an ultramarathon ski race?",
-            "Absolutely. We have profiles for events from 10&thinsp;km sprints to "
-            "220&thinsp;km ultra-distance races like Nordenskioldsloppet. Longer races "
-            "get additional fueling protocols, pacing strategy, and durability-focused "
-            "training blocks."
-        ),
-    ]
-
     items = ""
-    for i, (q, a) in enumerate(faqs):
+    for i, (q, a) in enumerate(FAQS):
         items += f"""
     <div class="gl-faq-item">
       <button class="gl-faq-q" aria-expanded="false" aria-controls="faq-{i}" data-faq-toggle>
@@ -1261,8 +918,7 @@ def build_final_cta():
 <section class="gl-final-cta">
   <h2>Ready?</h2>
   <p>
-    Tell us your race, your hours, and when you need to be ready.
-    We handle the periodization.
+    Tell me your race, your week and when you&rsquo;re on snow.
   </p>
   <a href="/questionnaire/" class="gl-cta-btn gl-cta-btn--outline">Build My Plan</a>
 </section>
@@ -1283,46 +939,34 @@ def build_footer():
 """.replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
-def build_jsonld(stripe_data):
-    """Build Product JSON-LD structured data."""
-    ppw = get_price_per_week(stripe_data)
-    ppw_dollars = f"{ppw / 100:.2f}"
-
-    # Extract lowPrice, highPrice, offerCount from Stripe data
-    low_price = "60.00"
-    high_price = "249.00"
-    offer_count = "14"
-    if stripe_data:
-        amounts = []
-        for p in stripe_data.get("prices", []):
-            amt = p.get("amount", 0)
-            if amt > 0:
-                amounts.append(amt)
-        if amounts:
-            low_price = f"{min(amounts) / 100:.2f}"
-            high_price = f"{max(amounts) / 100:.2f}"
-            offer_count = str(len(amounts))
-
+def build_jsonld():
+    """Product JSON-LD: one plan, $49.99 per 4-week block."""
+    price = f"{plan_offer.BLOCK_PRICE_CENTS / 100:.2f}"
     product = {
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Custom XC Ski Training Plan",
         "description": (
-            "Race-specific periodized training plan for cross-country skiing. "
-            "Includes structured workouts, nutrition strategy, strength program, "
-            "and climate preparation. 4-17 week plans available."
+            "A custom cross-country ski training plan built around your race, your hours "
+            "and your snow, delivered one 4-week block at a time until race week."
         ),
         "brand": {
             "@type": "Organization",
             "name": "XC Ski Labs",
         },
         "offers": {
-            "@type": "AggregateOffer",
+            "@type": "Offer",
+            "url": "https://xcskilabs.com/questionnaire/",
+            "price": price,
             "priceCurrency": "USD",
-            "lowPrice": low_price,
-            "highPrice": high_price,
-            "offerCount": offer_count,
             "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": price,
+                "priceCurrency": "USD",
+                "billingDuration": plan_offer.BLOCK_WEEKS,
+                "unitCode": "WEE",
+            },
         },
         "category": "Sports Training Plans",
     }
@@ -1334,31 +978,24 @@ def build_jsonld(stripe_data):
 
 def generate_page():
     """Generate the complete training plans landing page."""
-    stripe_data = load_stripe_products()
-    payment_links = load_payment_links()
     race_count = count_race_profiles()
 
     css = build_css()
-    css = css + LOOP_CSS + XSL_PAGE_MOTION_CSS
-    jsonld_data = build_jsonld(stripe_data)
+    css = css + LOOP_CSS + XSL_PAGE_MOTION_CSS + OFFER_CSS
+    jsonld_data = build_jsonld()
 
     nav = build_nav()
     hero = build_hero(race_count) + PAGE_MOTION
-    preview = build_plan_preview()
-    plan_simulator_js = get_plan_simulator_js()
-    how_it_works = build_how_it_works()
-    deliverables = build_deliverables()
-    sample_week = build_sample_week()
-    pricing = build_pricing(stripe_data, payment_links)
+    included = build_included()
+    pricing = build_offer()
     faq = build_faq()
     final_cta = build_final_cta()
     footer = build_footer()
 
     title = "Custom XC Ski Training Plans | XC Ski Labs"
     description = (
-        "Race-specific periodized training plans for cross-country skiing. "
-        "229 races indexed. Structured workouts, nutrition strategy, and "
-        "strength programming. $15/week."
+        "A custom cross-country ski training plan built around your race, your hours "
+        f"and your snow. {plan_offer.PRICE_TO_RACE}."
     )
 
     page = f"""<!DOCTYPE html>
@@ -1426,15 +1063,11 @@ def generate_page():
 <body>
 {nav}
 {hero}
-{preview}
-{how_it_works}
-{deliverables}
-{sample_week}
+{included}
 {pricing}
 {faq}
 {final_cta}
 {footer}
-<script>{plan_simulator_js}</script>
 
 <!-- Cookie Consent Banner -->
 <div class="xl-consent-banner" id="xl-consent-banner">
@@ -1473,19 +1106,6 @@ function xlConsent(choice) {{
             xlConsent(btn.getAttribute('data-consent-choice'));
         }});
     }});
-    document.querySelectorAll('[data-checkout-link]').forEach(function(link) {{
-        link.addEventListener('click', function() {{
-            if (typeof gtag === 'function') {{
-                gtag('event', 'begin_checkout', {{
-                    currency: 'USD',
-                    items: [{{
-                        item_id: link.getAttribute('data-price-id') || '',
-                        item_name: link.getAttribute('data-price-nickname') || 'Training plan'
-                    }}]
-                }});
-            }}
-        }});
-    }});
     if (!/xl_consent=/.test(document.cookie)) {{
         document.getElementById('xl-consent-banner').classList.add('show');
     }}
@@ -1505,7 +1125,6 @@ function xlConsent(choice) {{
 
     print(f"  Generated: {output_file}")
     print(f"  Race count: {race_count}")
-    print(f"  Stripe data: {'loaded' if stripe_data else 'defaults'}")
 
 
 if __name__ == "__main__":

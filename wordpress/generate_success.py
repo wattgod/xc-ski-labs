@@ -17,7 +17,9 @@ def load_tokens_css() -> str:
     return TOKENS_CSS.read_text(encoding="utf-8").strip()
 
 
-def build_page() -> str:
+def build_page(*, canonical: str = "https://xcskilabs.com/thanks/", kicker: str = "Wax Bench",
+               paragraphs: tuple[str, ...] = ("Check your email \u2014 plan details usually within a day.",)) -> str:
+    body = "\n    ".join(f"<p>{p}</p>" for p in paragraphs)
     css = load_tokens_css() + """
 *, *::before, *::after {
   box-sizing: border-box;
@@ -98,20 +100,37 @@ p {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Payment Received | XC Ski Labs</title>
   <meta name="robots" content="noindex, follow">
-  <link rel="canonical" href="https://xcskilabs.com/thanks/">
+  <link rel="canonical" href="{canonical}">
   <style>{css}</style>
 </head>
 <body>
   <nav class="gl-nav"><a href="/" class="gl-nav-logo" aria-label="XC Ski Labs"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a></nav>
   <main class="gl-page">
-    <div class="gl-kicker">Wax Bench</div>
+    <div class="gl-kicker">{kicker}</div>
     <h1>Payment received.</h1>
-    <p>Check your email — plan details usually within a day.</p>
+    {body}
     <a class="gl-button" href="/training-plans/">Back to plans</a>
   </main>
 </body>
 </html>
 """
+
+
+# Stripe's success_url for the plan billed every 4 weeks
+# (webhook/app.py: {site}/training-plans/success/?session_id=...). Rider-facing,
+# Matti speaking; it promises only what the payment email carries.
+PLAN_SUCCESS_PARAGRAPHS = (
+    "Thanks for signing up. Your payment email is on its way. It shows what you paid and "
+    "when the next payment is, and it has the links to connect TrainingPeaks and to manage "
+    "your plan.",
+    "I look over every block before it goes on your calendar. If anything in your answers "
+    "changes before then, reply to that email and tell me.",
+)
+
+
+def build_plan_success_page() -> str:
+    return build_page(canonical="https://xcskilabs.com/training-plans/success/",
+                      kicker="Custom ski plan", paragraphs=PLAN_SUCCESS_PARAGRAPHS)
 
 
 def main() -> None:
@@ -123,6 +142,11 @@ def main() -> None:
     out_file = out_dir / "index.html"
     out_file.write_text(build_page(), encoding="utf-8")
     print(f"Generated: {out_file}")
+    plan_dir = Path(args.output_dir) / "training-plans" / "success"
+    plan_dir.mkdir(parents=True, exist_ok=True)
+    plan_file = plan_dir / "index.html"
+    plan_file.write_text(build_plan_success_page(), encoding="utf-8")
+    print(f"Generated: {plan_file}")
 
 
 if __name__ == "__main__":
