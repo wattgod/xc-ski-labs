@@ -534,12 +534,16 @@ class TestNoTestimonials:
 class TestCSSQuality:
     def test_no_border_radius(self, consulting_css):
         for m in re.finditer(r"border-radius:\s*([^;!]+)", consulting_css):
-            assert m.group(1).strip() == "0", f"Non-zero border-radius: {m.group(0)}"
+            # Sledge Stores (README §5): square everywhere; only the round
+            # eyelets on tags are 50%.
+            assert m.group(1).strip() in ("0", "50%"), f"Non-zero border-radius: {m.group(0)}"
 
     def test_no_box_shadow(self, consulting_css):
         for m in re.finditer(r"box-shadow:\s*([^;]+)", consulting_css):
             value = m.group(1).strip().replace(" !important", "")
-            assert value == "none", f"Non-none box-shadow: {m.group(0)}"
+            # Sledge Stores (README §1.8): no elevation. An inset line draws
+            # the button underline and the eyelet rings, and is allowed.
+            assert value == "none" or value.startswith("inset "), f"Non-none box-shadow: {m.group(0)}"
 
     def test_uses_brand_tokens(self, consulting_css):
         assert "var(--gl-" in consulting_css
@@ -553,7 +557,7 @@ class TestCSSQuality:
         for cls in set(leading):
             if cls in exempt_modifiers:
                 continue
-            assert cls.startswith("gl-"), f"Non gl- prefixed class in consulting CSS: .{cls}"
+            assert cls.startswith(("gl-", "xc-")), f"Non gl-/xc- prefixed class in consulting CSS: .{cls}"
 
     def test_responsive_breakpoint(self, consulting_css):
         assert "768px" in consulting_css

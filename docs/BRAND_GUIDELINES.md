@@ -1,8 +1,9 @@
 # XC Ski Labs — Brand Guidelines ("Wax Bench")
 
-> **Historical reference.** The September 2026 site direction is the 1970s Nordic
-> print system in [`docs/brand/vintage-nordic-print.md`](brand/vintage-nordic-print.md).
-> It supersedes the palette, logo, and display treatment below for the static site.
+> **Historical reference. Retired.** The live brand is the Sledge Stores book in
+> [`docs/brand/sledge-stores/README.md`](brand/sledge-stores/README.md), ported to the
+> live site on 2026-11-15. The 1970s print direction that followed this one,
+> [`docs/brand/vintage-nordic-print.md`](brand/vintage-nordic-print.md), is retired too.
 
 **Status:** Ratified by Matti 2026-07-09 ("ngl I like B a lot more" → "build a brand
 guidelines comprehensive spec around this").

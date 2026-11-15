@@ -2,8 +2,8 @@
 
 > **Locked by Matti on 2026-11-14.** This is the ratified XC Ski Labs brand. It was copied from the private design-system artifact (version 11).
 > - Colour, type, spacing and line values live in `tokens.json`.
-> - Component CSS is in `components/bundle.css`, with each component's rules and a preview in `components/<Name>/`. The previews expect the tokens as CSS variables, so they don't render standalone yet.
-> - The live site still runs the 1970s print tokens (`tokens/tokens.css`) until a port ships. Porting is separate work.
+> - Component CSS is in `components/bundle.css`, with each component's rules and a preview in `components/<Name>/`. Each preview links `tokens/tokens.css`, which `scripts/build_brand_tokens.py` builds from `tokens.json` and `bundle.css`; the live site embeds the same file.
+> - The live site runs this book since 2026-11-15: `tokens/tokens.css` is built from `tokens.json` and `bundle.css` by `scripts/build_brand_tokens.py`.
 > - Background is in `rationale.md`. The competitor check is in `separation.md`.
 
 XC Ski Labs looks like an expedition outfitter's stores: wool canvas, oat crates with timber slats, navy stencils, shipping tags, and one salmon thing per screen. The mood is early polar expeditions, when skiers packed every gram by hand and labelled every crate. The page reads like a packing manifest. Prices are stencilled big, stats hang off crates on luggage tags, lessons are a checklist, and the fine print is a tag tied to the box. Salmon is the splash. It is never the background. It marks the one crate worth opening first.
@@ -184,7 +184,7 @@ A stitch sits *inside* a filled object. An empty slot is a dashed box *with noth
 
 ## 7. Components
 
-Each component has a card with rules and a live preview. None of this is built on xcskilabs.com yet.
+Each component has a card with rules and a live preview. On xcskilabs.com the colours, type, lockup, favicon, straps, hero panels and buttons are ported (2026-11-15); crates, tags and checklists are available as `xc-*` classes but no page uses them yet.
 
 | Component | Built here | Not specified yet |
 |---|---|---|
@@ -220,7 +220,7 @@ Each component has a card with rules and a live preview. None of this is built o
 | Fjord | navy | one wool, one salmon | navy | On wool and oat grounds, social avatars |
 
   The salmon ski is always the one running from the lower left to the upper right.
-- **Files:** `logos/xc-mark-wool.svg` and `logos/xc-mark-fjord.svg`. Favicons and app icons up to 32px use `logos/xc-mark-small.svg` (approved by Matti, 2026-11-14). The previous drawing, `xc-crossed-skis.svg` (cream skis on dark green), stays the live favicon until the new mark ships, then retires.
+- **Files:** `logos/xc-mark-wool.svg` and `logos/xc-mark-fjord.svg`. Favicons and app icons up to 32px use `logos/xc-mark-small.svg` (approved by Matti, 2026-11-14). The previous drawing, `xc-crossed-skis.svg` (cream skis on dark green), retired on 2026-11-15 when the small mark became the live favicon.
 - **Sizes and spacing:** at least 24px on screen and 10mm in print. Favicons and app icons up to 32px use the small mark (see the Small mark component). Clear space is one ski's width on every side.
 - **Lockup:** the mark (44px on a strap, 36px in the footer) plus `XC SKI LABS` in Big Shoulders Text 800, 22px, tracked .2em, with a 12px gap.
   - The wordmark is the accessible name; the mark is decorative.

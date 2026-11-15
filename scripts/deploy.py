@@ -244,16 +244,19 @@ def sync_homepage(homepage_file=None):
         print(f"  Failed to create remote directory: {err}")
         return False
 
-    logo = PROJECT_ROOT / "web" / "xc-logo.svg"
-    if not logo.exists():
-        print(f"  Logo not found: {logo}")
-        return False
-    if not _scp_upload(host, user, port, logo, f"{remote_base}/xc-logo.svg"):
-        return False
+    # The strap lockup mark and the favicon (the book's small mark) go up
+    # before any page that references them.
+    for name in ("xc-logo.svg", "favicon.svg"):
+        mark = PROJECT_ROOT / "web" / name
+        if not mark.exists():
+            print(f"  Brand mark not found: {mark}")
+            return False
+        if not _scp_upload(host, user, port, mark, f"{remote_base}/{name}"):
+            return False
     if not _scp_upload(host, user, port, homepage, f"{remote_base}/index.html"):
-        print("  FAILED: logo uploaded but homepage did not")
+        print("  FAILED: brand marks uploaded but homepage did not")
         return False
-    print("  Deployed homepage and logo to /")
+    print("  Deployed homepage, logo and favicon to /")
     return True
 
 

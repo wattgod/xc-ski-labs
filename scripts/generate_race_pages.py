@@ -3,7 +3,7 @@
 XC Ski Labs — Race Page Generator
 
 Generates self-contained HTML race pages from JSON profiles.
-Wax Bench design system, with tokens embedded from tokens/tokens.css.
+Sledge Stores brand (docs/brand/sledge-stores), with tokens embedded from tokens/tokens.css.
 
 Usage:
     python generate_race_pages.py              # all races
@@ -682,10 +682,15 @@ def _token_hex(name: str) -> str:
     hex literal in tokens.css, per the "never hardcode hex" rule
     (test_race_generator_has_no_hex_literals bans hex literals in this
     file's own source)."""
-    match = re.search(rf"--{re.escape(name)}:\s*(#[0-9A-Fa-f]{{3,8}})", load_tokens_css())
-    if not match:
-        raise ValueError(f"token --{name} not found in tokens.css")
-    return match.group(1)
+    css = load_tokens_css()
+    for _ in range(4):  # follow var(--alias) chains to the literal
+        match = re.search(rf"--{re.escape(name)}:\s*(#[0-9A-Fa-f]{{3,8}}|var\(--([a-z0-9-]+)\))", css)
+        if not match:
+            raise ValueError(f"token --{name} not found in tokens.css")
+        if match.group(2) is None:
+            return match.group(1)
+        name = match.group(2)
+    raise ValueError(f"token --{name}: var() chain too deep in tokens.css")
 
 
 def build_css() -> str:
@@ -861,7 +866,7 @@ a {{ color: inherit; }}
 }}
 .gl-breadcrumb a {{ color: var(--gl-muted); text-decoration: none; }}
 .gl-breadcrumb a:hover {{ color: var(--gl-swix-red); }}
-.gl-breadcrumb-sep {{ margin: 0 var(--gl-space-2); color: var(--gl-hairline); }}
+.gl-breadcrumb-sep {{ margin: 0 var(--gl-space-2); color: var(--gl-muted); }}
 .gl-breadcrumb-current {{ color: var(--gl-carbon); }}
 
 .gl-hero {{
@@ -934,7 +939,7 @@ a {{ color: inherit; }}
 .gl-hero-tagline {{
   max-width: 54ch;
   margin: 0 0 var(--gl-space-5);
-  color: var(--gl-hairline);
+  color: var(--gl-muted);
   font-family: var(--gl-font-editorial);
   font-size: 1.08rem;
   font-style: italic;
@@ -1216,7 +1221,7 @@ a {{ color: inherit; }}
 }}
 .gl-rating-tablist button:last-child {{ border-right: 0; }}
 .gl-rating-tablist button[aria-selected="true"] {{ background: var(--gl-carbon); color: var(--gl-white); }}
-.gl-rating-tablist button span {{ color: var(--gl-klister); }}
+.gl-rating-tablist button span {{ color: inherit; }}
 .gl-rating-panel {{ display: grid; grid-template-columns: minmax(300px, 1.05fr) minmax(280px, .95fr); grid-template-areas: "summary summary" "radar tiles" "radar detail"; border: 3px solid var(--gl-carbon); border-top: 0; }}
 .gl-rating-panel[hidden] {{ display: none; }}
 .gl-rating-summary {{ grid-area: summary; border-bottom: 3px solid var(--gl-carbon); background: var(--gl-paper); padding: var(--gl-space-4) var(--gl-space-5); }}
@@ -1515,7 +1520,7 @@ a {{ color: inherit; }}
 .gl-goal-card-poster-canvas {{ display: block; width: 100%; max-width: 420px; border: 3px solid var(--gl-carbon); }}
 .gl-goal-card-poster-cta {{ display: inline-block; margin-top: 8px; font-family: var(--gl-font-data); font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--gl-carbon); }}
 
-.gl-footer {{ background: var(--gl-swix-red); color: var(--gl-white); }}
+.gl-footer {{ --gl-muted: var(--gl-caption-on-dark); background: var(--gl-swix-red); color: var(--gl-white); }}
 .gl-footer-inner {{ max-width: var(--gl-measure); min-height: 72px; margin: 0 auto; padding: var(--gl-space-4) var(--gl-space-5); display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-5); }}
 .gl-footer-links {{ display: flex; gap: var(--gl-space-4); flex-wrap: wrap; }}
 .gl-footer-links a,
@@ -2651,7 +2656,7 @@ __GOAL_CARD_STATE_FN__
     var W = canvas.width, pad = 28;
     var ink = "__GL_INK__", paper = "__GL_PAPER__", accent = "__GL_RUST__";
     var maxW = W - pad * 2;
-    var goalFont = "700 32px 'Source Serif 4', Georgia, serif";
+    var goalFont = "600 32px 'Libre Franklin', Arial, sans-serif";
     ctx.font = goalFont;
     var words = String(goal).split(/\s+/), lines = [], line = "";
     words.forEach(function(w) {
@@ -2666,7 +2671,7 @@ __GOAL_CARD_STATE_FN__
     canvas.height = H;
     ctx.fillStyle = paper; ctx.fillRect(0, 0, W, H);
     ctx.textBaseline = "top";
-    ctx.font = "700 15px 'Sometype Mono', monospace";
+    ctx.font = "800 15px 'Big Shoulders Text', 'Arial Narrow', sans-serif";
     ctx.fillStyle = accent;
     ctx.fillText(header, pad, pad);
     ctx.font = goalFont;
@@ -3226,7 +3231,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title}</title>
@@ -3236,7 +3241,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
   <link rel="alternate" type="text/markdown" href="https://xcskilabs.com/race/{esc(slug)}.md">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
   <meta property="og:type" content="article">

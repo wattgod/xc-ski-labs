@@ -213,11 +213,11 @@ def build_js() -> str:
 
 def generate_page() -> str:
     return f"""<!DOCTYPE html><html lang="en"><head>
-<link rel="icon" type="image/svg+xml" href="/xc-logo.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Before You Go | XC Ski Labs</title><meta name="description" content="A private exit interview for XC Ski Labs coaching athletes.">
 <meta name="robots" content="noindex, nofollow"><link rel="canonical" href="https://xcskilabs.com/coaching/exit/">
 {personal_link_js()}<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 {build_ga4()}<style>{build_site_css()}{build_exit_css()}</style></head><body>
 <a href="#exit-form" class="gl-skip-link">Skip to questionnaire</a>{build_nav()}
 <main class="gl-page"><header class="gl-page-header"><div class="gl-kicker">Exit Interview</div><h1>Before You Go</h1>

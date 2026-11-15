@@ -341,7 +341,7 @@ def generate_homepage(races: list[dict]) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>XC Ski Labs — XC Ski Race Database</title>
@@ -355,7 +355,7 @@ def generate_homepage(races: list[dict]) -> str:
 {XL_GA4_HEAD}
 {jsonld_block}
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 {tokens_css}
 {loop_css}
@@ -378,38 +378,20 @@ body {{
 a {{ color: var(--gl-swix-red); text-decoration: none; }}
 a:hover {{ text-decoration: underline; }}
 
-/* ── Hero ── */
+/* ── Hero: the book's Hero (oat panel, inset stitch, kicker, stencil title) ── */
 .hero {{
-  background: var(--gl-swix-red);
-  color: var(--gl-white);
+  background: var(--panel);
+  color: var(--ink);
   position: relative;
-  overflow: hidden;
-  padding: 80px 24px 64px;
-  border-bottom: var(--gl-rule-width) solid var(--gl-carbon);
-}}
-
-.hero::after {{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 33%;
-  background: var(--gl-red-deep);
-  clip-path: polygon(24% 0, 100% 0, 100% 100%, 0 100%);
+  padding: clamp(56px, 8vw, 104px) clamp(28px, 4vw, 48px);
+  border-bottom: var(--stroke-band) solid var(--ink);
 }}
 
 .hero::before {{
   content: "";
   position: absolute;
-  z-index: 1;
-  top: -12%;
-  right: 15%;
-  width: 20px;
-  height: 125%;
-  border-left: 5px solid var(--gl-klister);
-  border-right: 5px solid var(--gl-klister);
-  transform: rotate(18deg);
+  inset: var(--space-3);
+  border: var(--stroke-stitch) dashed var(--stitch-soft);
   pointer-events: none;
 }}
 
@@ -417,119 +399,88 @@ a:hover {{ text-decoration: underline; }}
   max-width: var(--gl-measure);
   margin: 0 auto;
   position: relative;
-  z-index: 1;
 }}
 
 .hero h1 {{
-  font-family: var(--gl-font-display);
-  font-size: clamp(3rem, 8vw, 5rem);
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: condensed;
-  line-height: .94;
+  font: var(--type-stencil-xl-weight) clamp(56px, 11vw, 168px)/var(--type-stencil-xl-line-height) var(--font-stencil);
+  letter-spacing: var(--type-stencil-xl-tracking);
   text-transform: uppercase;
-  margin: 0 0 20px;
-  letter-spacing: -.045em;
-  max-width: 13ch;
+  margin: 0 0 28px;
+  max-width: 11ch;
+  color: var(--ink);
 }}
 
 .hero-sub {{
-  font-family: var(--gl-font-data);
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--gl-klister);
-  letter-spacing: .18em;
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 6px 12px 6px 16px;
+  background: var(--ink);
+  color: var(--ground);
+  font: var(--type-kicker-weight) var(--type-kicker-size)/var(--type-kicker-line-height) var(--font-label);
+  letter-spacing: var(--type-kicker-tracking);
   text-transform: uppercase;
-  margin-bottom: 20px;
 }}
 
 .hero-desc {{
-  font-family: var(--gl-font-editorial);
-  font-size: 1.15rem;
-  color: var(--gl-white);
-  max-width: 600px;
-  line-height: 1.5;
-  margin-bottom: 28px;
+  font: var(--type-lede-weight) clamp(18px, 1.7vw, 21px)/var(--type-lede-line-height) var(--font-body);
+  color: var(--ink);
+  max-width: 38ch;
+  margin: 0 0 32px;
 }}
 
 .hero-stats {{
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
-  margin-top: 28px;
-  margin-bottom: 0;
-  color: var(--gl-klister);
+  margin-top: 32px;
 }}
 
-.hero-stat {{
-  display: flex;
-  flex-direction: column;
-}}
+.hero-stat {{ display: flex; flex-direction: column; }}
 
 .hero-stat .num {{
-  font-family: var(--gl-font-data);
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--gl-klister);
-  line-height: 1;
+  font: 900 clamp(36px, 4vw, 48px)/1 var(--font-stencil);
+  color: var(--ink);
 }}
 
 .hero-stat .label {{
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
+  font: 600 16px/1.3 var(--font-label);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--gl-caption-on-dark);
+  letter-spacing: .1em;
+  color: var(--ink-2);
   margin-top: 4px;
 }}
 
-.hero-cta {{
+/* Buttons: the book's Button. Primary is the action slab with the salmon
+   underline; the others are quiet outlines in ink. */
+.hero-cta, .hero-getready-cta {{
   display: inline-flex;
   align-items: center;
-  min-height: 44px;
-  padding: 14px 32px;
-  font-family: var(--gl-font-data);
-  font-size: 0.9rem;
-  font-weight: 700;
+  justify-content: center;
+  min-height: 56px;
+  padding: 10px 22px;
+  margin: 0 10px 10px 0;
+  font: var(--type-button-weight) var(--type-button-size)/var(--type-button-line-height) var(--font-label);
+  letter-spacing: var(--type-button-tracking);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  background: var(--gl-white);
-  color: var(--gl-carbon);
-  border: 2px solid var(--gl-white);
-}}
-
-.hero-cta.secondary {{
-  background: var(--gl-carbon);
-  color: var(--gl-white);
-  border-color: var(--gl-carbon);
-  margin-left: 10px;
-}}
-
-.hero-cta:hover {{
   text-decoration: none;
+  background: var(--action);
+  color: var(--on-action);
+  border: var(--stroke-button) solid var(--action);
+  box-shadow: inset 0 calc(-1 * var(--stroke-underline)) 0 var(--splash) !important;
+  transition: background-color 150ms ease-out, color 150ms ease-out;
 }}
 
-/* Added CTA (not a repurpose of the existing secondary "How we rate" link) —
-   existing hero controls stay untouched; this is a new element that anchors
-   to the ladder strip below. */
-.hero-getready-cta {{
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 14px 32px;
-  margin-left: 10px;
-  font-family: var(--gl-font-data);
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.hero-cta.secondary, .hero-getready-cta {{
   background: transparent;
-  color: var(--gl-white);
-  border: 2px solid var(--gl-klister);
-  text-decoration: none;
+  color: var(--ink);
+  border-color: var(--ink);
+  box-shadow: none !important;
 }}
 
-.hero-getready-cta:hover {{
+.hero-cta:hover, .hero-getready-cta:hover {{
+  background: var(--ground);
+  color: var(--ink);
+  border-color: var(--ink);
   text-decoration: none;
 }}
 
@@ -981,7 +932,7 @@ footer {{
 
 .gl-ladder-lead {{
   margin: 0 0 var(--gl-space-6);
-  color: var(--gl-hairline);
+  color: var(--gl-muted);
   font-style: italic;
 }}
 
@@ -1019,7 +970,7 @@ footer {{
 
 .gl-rung p {{
   margin: 0 0 var(--gl-space-4);
-  color: var(--gl-hairline);
+  color: var(--gl-muted);
   font-size: .9rem;
   line-height: 1.55;
 }}
@@ -1145,11 +1096,8 @@ a:focus-visible, button:focus-visible {{
 
 /* ── Responsive ── */
 @media (max-width: 640px) {{
-  .hero {{ padding: 48px 16px 40px; }}
-  .hero::before, .hero::after {{ display: none; }}
+  .hero {{ padding: 56px 28px 48px; }}
   .hero-stats {{ gap: 20px; }}
-  .hero-cta.secondary {{ margin: 10px 0 0; }}
-  .hero-getready-cta {{ margin: 10px 0 0; }}
   .section {{ padding: 40px 16px; }}
   .race-grid {{ grid-template-columns: 1fr; }}
   .coverage-grid {{ grid-template-columns: 1fr 1fr; }}

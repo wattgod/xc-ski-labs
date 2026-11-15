@@ -745,6 +745,8 @@ class TestBranding:
             pytest.skip("Homepage not generated")
         hp_content = hp.read_text()
 
-        # Check that homepage uses the same data font as race pages
-        assert "Sometype Mono" in hp_content, \
-            "Homepage missing Sometype Mono font"
+        # Sledge Stores (README §3): Big Shoulders Stencil Display, Big
+        # Shoulders Text and Libre Franklin; the print-era faces are gone.
+        for family in ("Big+Shoulders+Stencil+Display", "Big+Shoulders+Text", "Libre+Franklin"):
+            assert family in hp_content, f"Homepage missing {family}"
+        assert "Sometype" not in hp_content, "Homepage still loads Sometype Mono"

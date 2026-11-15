@@ -158,7 +158,7 @@ a:focus-visible, button:focus-visible {
   text-decoration: none;
   letter-spacing: 0.1em;
 }
-.gl-nav-logo:hover { color: var(--gl-hairline); }
+.gl-nav-logo:hover { text-decoration: underline; }
 .gl-nav-links {
   display: flex;
   gap: 0;
@@ -658,6 +658,7 @@ a:focus-visible, button:focus-visible {
 /* ── Footer ──────────────────────────────────────── */
 
 .gl-footer {
+  --gl-muted: var(--gl-caption-on-dark);
   background: var(--gl-carbon);
   color: var(--gl-muted);
   padding: 28px 32px;
@@ -933,7 +934,7 @@ def generate_page():
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(title)}</title>
@@ -942,7 +943,7 @@ def generate_page():
   <link rel="canonical" href="https://xcskilabs.com/training-plans/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
   <!-- OG Meta -->
   <meta property="og:title" content="{esc(title)}">

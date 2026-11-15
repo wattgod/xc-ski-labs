@@ -29,6 +29,15 @@ MAX_BORDER_LEFT = 18
 
 BORDER_LEFT_RE = re.compile(r"border-left")
 
+# tokens/tokens.css and the search page's token block are generated from the
+# ratified Sledge Stores book (docs/brand/sledge-stores, locked 2026-11-14) by
+# scripts/build_brand_tokens.py. The book's own components (the fine-print
+# strip's 6px ink edge) are governed by the book, not by this ratchet.
+GENERATED_FROM_BOOK = {"tokens/tokens.css"}
+BOOK_BLOCK_RE = re.compile(
+    r"/\* BRAND TOKENS:BEGIN.*?/\* BRAND TOKENS:END \*/", re.S
+)
+
 
 def _source_files():
     files = []
@@ -41,7 +50,9 @@ def count_border_left():
     """Return {relative path: occurrence count} for every source file with a hit."""
     counts = {}
     for path in _source_files():
-        text = path.read_text(encoding="utf-8", errors="replace")
+        if str(path.relative_to(REPO_ROOT)) in GENERATED_FROM_BOOK:
+            continue
+        text = BOOK_BLOCK_RE.sub("", path.read_text(encoding="utf-8", errors="replace"))
         hits = len(BORDER_LEFT_RE.findall(text))
         if hits:
             counts[str(path.relative_to(REPO_ROOT))] = hits

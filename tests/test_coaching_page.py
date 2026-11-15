@@ -471,12 +471,16 @@ class TestBrandCompliance:
         assert "border-radius: 0" in coaching_css
         # No non-zero border-radius declarations anywhere.
         for m in re.finditer(r"border-radius:\s*([^;!]+)", coaching_css):
-            assert m.group(1).strip() == "0", f"Non-zero border-radius: {m.group(0)}"
+            # Sledge Stores (README §5): square everywhere; only the round
+            # eyelets on tags are 50%.
+            assert m.group(1).strip() in ("0", "50%"), f"Non-zero border-radius: {m.group(0)}"
 
     def test_no_box_shadow(self, coaching_css):
         for m in re.finditer(r"box-shadow:\s*([^;]+)", coaching_css):
             value = m.group(1).strip().replace(" !important", "")
-            assert value == "none", f"Non-none box-shadow: {m.group(0)}"
+            # Sledge Stores (README §1.8): no elevation. An inset line draws
+            # the button underline and the eyelet rings, and is allowed.
+            assert value == "none" or value.startswith("inset "), f"Non-none box-shadow: {m.group(0)}"
 
     def test_no_images(self, coaching_html):
         body = coaching_html.split("<body>", 1)[1]
@@ -513,7 +517,7 @@ class TestBrandCompliance:
         for cls in set(leading):
             if cls in exempt_modifiers:
                 continue
-            assert cls.startswith("gl-"), f"Non gl- prefixed class in coaching CSS: .{cls}"
+            assert cls.startswith(("gl-", "xc-")), f"Non gl-/xc- prefixed class in coaching CSS: .{cls}"
 
 
 # ── No animations ────────────────────────────────────────────────
