@@ -1192,7 +1192,10 @@ QUESTIONNAIRE_JS = r"""
   }
   function text(id) { var f = el(id); return f ? String(f.value || '').trim() : ''; }
   function show(id, on) {
-    var node = el(id) || form.querySelector('[data-q="' + id + '"]');
+    // The question's wrapper first: a question whose input has the same id
+    // (last_race_on) starts hidden in its wrapper, and showing the input
+    // alone left the required question invisible.
+    var node = form.querySelector('[data-q="' + id + '"]') || el(id);
     if (!node) return;
     if (node.classList.contains('gl-conditional')) node.classList.toggle('visible', !!on);
     else node.hidden = !on;

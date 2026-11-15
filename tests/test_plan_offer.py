@@ -192,6 +192,15 @@ class TestQuestionnairePage:
         hits = {m.group(0) for m in BANNED.finditer(text)}
         assert not hits, hits
 
+    def test_show_reveals_the_question_wrapper_first(self):
+        # A spring start shows 'When was your last race?' (last_race_on). Its
+        # input shares the question id; showing the input alone left the
+        # required question hidden and blocked checkout (Devin on #53).
+        js = gq.QUESTIONNAIRE_JS
+        body = js[js.index("function show(id, on)"):]
+        body = body[:body.index("}\n")]
+        assert body.index("[data-q=") < body.index("el(id)")
+
     def test_athlete_id_is_random_not_personal(self):
         assert "'xc-' +" in gq.QUESTIONNAIRE_JS
         assert "crypto.getRandomValues" in gq.QUESTIONNAIRE_JS
