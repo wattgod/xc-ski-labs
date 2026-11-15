@@ -398,6 +398,7 @@ CLI_GENERATORS = [
     "wordpress/generate_exit_interview.py",
     "wordpress/generate_goals.py",
     "wordpress/generate_methodology.py",
+    "wordpress/generate_404.py",
     "wordpress/generate_privacy.py",
     "wordpress/generate_questionnaire.py",
     "wordpress/generate_terms.py",
