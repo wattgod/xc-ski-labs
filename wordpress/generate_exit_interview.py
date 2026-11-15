@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "output" / "coaching-exit"
 WORKER_URL = "https://fueling-lead-intake.gravelgodcoaching.workers.dev"
 BRAND = "xcskilabs"
-CONTACT_EMAIL = "coach@xcskilabs.com"
+CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
 MAX_ANSWER_LEN = 4000
 
 

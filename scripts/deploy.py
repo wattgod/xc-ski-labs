@@ -652,8 +652,31 @@ def sync_thanks():
     return _sync_static_page("thanks", "thanks")
 
 
+ICON_FILES = ("favicon.ico", "favicon-32.png", "apple-touch-icon.png")
+
+
+def sync_icons():
+    """Upload the raster icons browsers and iOS request from the site root
+    (web/, built by scripts/build_icons.py from the Sledge Stores marks)."""
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+    remote_base = get_remote_base()
+    for name in ICON_FILES:
+        local = PROJECT_ROOT / "web" / name
+        if not local.exists():
+            print(f"  Missing: {local} (run scripts/build_icons.py)")
+            return False
+        if not _scp_upload(host, user, port, local, f"{remote_base}/{name}"):
+            return False
+    print(f"  Deployed {', '.join('/' + n for n in ICON_FILES)}")
+    return True
+
+
 def sync_errors():
-    """Upload web/.htaccess (www -> apex 301, ErrorDocument 404) and output/404.html.
+    """Upload web/.htaccess (www -> apex 301, ErrorDocument 404), output/404.html
+    and web/.well-known/security.txt.
 
     The 404 page goes first so the ErrorDocument never points at a missing file.
     The live .htaccess, if any, is copied to .htaccess.bak-<timestamp> first.
@@ -680,7 +703,12 @@ def sync_errors():
         return False
     if not _scp_upload(host, user, port, htaccess, f"{remote_base}/.htaccess"):
         return False
-    print("  Deployed /404.html and /.htaccess")
+    security = PROJECT_ROOT / "web" / ".well-known" / "security.txt"
+    ok, _, err = _ssh_run(host, user, port, f"mkdir -p {remote_base}/.well-known")
+    if not ok or not _scp_upload(host, user, port, security, f"{remote_base}/.well-known/security.txt"):
+        print(f"  FAILED: /.well-known/security.txt {err}")
+        return False
+    print("  Deployed /404.html, /.htaccess and /.well-known/security.txt")
     return True
 
 
@@ -890,6 +918,7 @@ def deploy_all():
         ("Guide", sync_guide),
         ("Thanks", sync_thanks),
         ("404 + .htaccess", sync_errors),
+        ("Icons", sync_icons),
         ("Sitemap", sync_sitemap),
         ("Feeds", sync_feeds),
         ("LLMs + IndexNow Key", sync_llms),
@@ -1004,6 +1033,10 @@ if __name__ == "__main__":
         help="Upload payment success page to /thanks/"
     )
     parser.add_argument(
+        "--sync-icons", action="store_true",
+        help="Upload /favicon.ico, /favicon-32.png and /apple-touch-icon.png"
+    )
+    parser.add_argument(
         "--sync-errors", action="store_true",
         help="Upload /404.html and /.htaccess (www -> apex 301, ErrorDocument 404)"
     )
@@ -1096,6 +1129,9 @@ if __name__ == "__main__":
             ran = True
         if args.sync_thanks:
             sync_thanks()
+            ran = True
+        if args.sync_icons:
+            sync_icons()
             ran = True
         if args.sync_errors:
             sync_errors()
