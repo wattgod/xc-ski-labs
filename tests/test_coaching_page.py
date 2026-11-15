@@ -161,18 +161,19 @@ class TestHero:
 
     def test_hero_h1(self):
         hero = build_hero()
-        assert "You could be better than you think." in hero
-        assert "That is not encouragement &mdash;" in hero
-        assert "it&rsquo;s an observation about people who train alone." in hero
+        assert (
+            "<h1>Ski coaching for people who&rsquo;ll roller ski in July "
+            "to pass people in February.</h1>" in hero
+        )
 
     def test_hero_sub(self):
         hero = build_hero()
-        assert "The fix is having me in your corner." in hero
-        assert "The terms are below." in hero
+        assert "I plan your dryland and your snow weeks around your races" in hero
+        assert "From $199 every 4 weeks." in hero
 
     def test_hero_cta(self):
         hero = build_hero()
-        assert "GET ME IN YOUR CORNER &rarr;" in hero
+        assert "APPLY FOR SKI COACHING &rarr;" in hero
         assert f'href="{APPLY_URL}"' in hero
         assert 'class="gl-coach-hero-cta"' in hero
 
@@ -216,22 +217,18 @@ class TestTerms:
     def test_clause_titles(self):
         t = build_terms()
         for title in (
-            "I read every file",
-            "The patterns you can&rsquo;t see",
-            "The plan moves when your life does",
-            "The truth, on schedule",
-            "Involvement is the only variable",
+            "I read your sessions",
+            "Dryland that counts",
+            "Classic, skate or both",
+            "Plans that follow the snow",
+            "Plain feedback",
         ):
             assert title in t
 
-    def test_blindspot_sentence(self):
-        t = build_terms()
-        assert (
-            "Every athlete is their own worst blindspot: too fresh to rest, "
-            "too stubborn to taper, too close to their own data to see the "
-            "shape of it." in t
-        )
-        assert "Seeing it is the job." in t
+    def test_week_changes_are_mid_and_max(self):
+        """Weekly plan adjustments are a Mid/Max inclusion; the term
+        promising a same-week change must say so."""
+        assert "At Mid and Max," in build_terms()
 
 
 # ── Tiers ────────────────────────────────────────────────────────
@@ -283,8 +280,9 @@ class TestTiers:
 
     def test_disclaimer(self):
         tiers = build_tiers()
-        assert "skipped workouts" in tiers
-        assert "24 hours" in tiers
+        assert "skipped sessions" in tiers
+        assert "48 hours" in tiers
+        assert "24 hours" not in tiers
 
     def test_min_tier_features(self):
         tiers = build_tiers()
@@ -327,32 +325,28 @@ class TestFit:
 
     def test_yes_no_headings(self):
         f = build_fit()
-        assert "Coaching is for you if:" in f
-        assert "It isn&rsquo;t:" in f
+        assert "Coaching fits if:" in f
+        assert "Probably not a fit if:" in f
 
     def test_yes_list(self):
         f = build_fit()
         for item in (
-            "You&rsquo;ll do the training when the thinking is done right",
-            "You have a race and a reason",
-            "You&rsquo;re ready to be honest about your habits",
-            "You want a plan smarter than the one you&rsquo;d build alone",
+            "You have a ski race picked out and time to train for it",
+            "You&rsquo;ll upload your sessions and tell me how they felt",
         ):
             assert item in f
 
     def test_no_list(self):
         f = build_fit()
         for item in (
-            "Accountability texts when you skip a Tuesday",
-            "Validation dressed up as feedback",
-            "A rescue for a race that&rsquo;s next week",
-            "A substitute for doing the work",
+            "Race day is a week away",
+            "See a physio for that one first",
         ):
             assert item in f
 
-    def test_eight_list_items(self):
+    def test_six_list_items(self):
         f = build_fit()
-        assert f.count("<li>") == 8
+        assert f.count("<li>") == 6
 
 
 # ── FAQ ──────────────────────────────────────────────────────────
@@ -362,21 +356,20 @@ class TestFAQ:
     def test_faq_id(self):
         assert 'id="faq"' in build_faq()
 
-    def test_seven_questions(self):
+    def test_nine_questions(self):
         f = build_faq()
-        assert f.count('class="gl-coach-faq-item"') == 7
+        assert f.count('class="gl-coach-faq-item"') == 9
 
-    def test_power_meter_question_replaced(self):
+    def test_data_question(self):
         f = build_faq()
         assert "Do I need a power meter?" not in f
         assert "What data do I need?" in f
         assert "A watch with heart rate is plenty." in f
-        assert "Every workout carries effort-based targets you can train by feel." in f
 
     def test_cancel_anytime_says_four_week_cycle(self):
         f = build_faq()
         assert "Can I cancel anytime?" in f
-        assert "current 4-week cycle" in f
+        assert "4-week cycle you&rsquo;ve paid for" in f
         assert "month" not in f.lower()
 
     def test_accordion_aria(self):
@@ -401,20 +394,17 @@ class TestClose:
 
     def test_close_line(self):
         c = build_close()
-        assert "Ten minutes of honest answers. I read every one myself." in c
-        assert (
-            "You&rsquo;ll hear from me within 48 hours &mdash; including "
-            "if I don&rsquo;t think coaching is what you need." in c
-        )
+        assert "Ten minutes on your skiing, your races and your week." in c
+        assert "I reply to each one within 48 hours." in c
 
     def test_cta(self):
         c = build_close()
-        assert "GET ME IN YOUR CORNER &rarr;" in c
+        assert "APPLY FOR SKI COACHING &rarr;" in c
         assert f'href="{APPLY_URL}"' in c
 
     def test_no_contact_line(self, coaching_html):
-        """No verified receiving mailbox on xcskilabs.com — the
-        'Questions first?' close-line contact must be omitted entirely."""
+        """No verified receiving mailbox on xcskilabs.com. Athletes write
+        to gravelgodcoaching@gmail.com instead."""
         assert "Questions first?" not in coaching_html
         assert "coach@xcskilabs.com" not in coaching_html
         assert "mailto:coach@" not in coaching_html
@@ -429,7 +419,7 @@ class TestMobileStickyCTA:
 
     def test_sticky_cta_link(self):
         sticky = build_mobile_sticky_cta()
-        assert "GET ME IN YOUR CORNER &rarr;" in sticky
+        assert "APPLY FOR SKI COACHING &rarr;" in sticky
         assert f'href="{APPLY_URL}"' in sticky
 
     def test_sticky_cta_page_bottom_padding(self, coaching_css):
@@ -611,3 +601,39 @@ class TestSiteWideNavRetarget:
     def test_apply_form_redirect_unchanged(self):
         html = self._generated("coaching/apply/index.html")
         assert 'value="https://xcskilabs.com/coaching/apply/?submitted=true"' in html
+
+
+# ── Copy guards (Matti, 2026-11-15 rewrite) ─────────────────────
+
+
+class TestCoachingCopy2026Rewrite:
+    BANNED = [
+        "better than you think",
+        "Not an AI",
+        "not an AI",
+        "monthly",
+        "/mo",
+        "per month",
+        "Matt ",
+        "your coach",
+        "GET ME IN YOUR CORNER",
+        "Most athletes belong here",
+        "Someone reads",
+        "difference between a plan and coaching",
+    ]
+
+    def test_banned_phrases_absent(self, coaching_html):
+        hits = [b for b in self.BANNED if b in coaching_html]
+        assert hits == [], hits
+
+    def test_one_reply_time(self, coaching_html):
+        assert "48 hours" in coaching_html
+        assert "24 hours" not in coaching_html
+        assert "within a day" not in coaching_html
+
+    def test_contact_is_gravelgodcoaching(self):
+        c = build_faq()
+        assert 'href="mailto:gravelgodcoaching@gmail.com"' in c
+
+    def test_setup_fee_faq(self, coaching_html):
+        assert "What&rsquo;s the $99 setup fee?" in coaching_html
