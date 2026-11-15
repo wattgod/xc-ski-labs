@@ -484,12 +484,22 @@ class TestQuestionnaireGenerator:
             "hr_source", "hr_medicine", "strength_history", "strength_access",
             "medicine_ball", "familiar_lifts", "injury_flags", "fuel_practised_g_per_h",
             "fuel_practised_sessions", "recent_illness", "health_review", "health_note",
-            "email",
+            "heat_access", "heat_health_flag", "email",
         ]:
             assert f'name="{name}"' in html, name
         for day in range(7):
             assert f'name="cap_{day}"' in html
         assert 'type="email"' in html
+
+    def test_heat_answers_reach_the_intake(self, tmp_path):
+        """Engine AE-SKI-4.1 requires heat_access and heat_health_flag; without
+        them every order is refused as missing fields."""
+        html = self._generate_with_fixture(tmp_path)
+        assert "heat_access: heat.filter(" in html
+        assert "heat_health_flag: heatHealth" in html
+        assert "err('heat_access', 'pick_one')" in html
+        for value in ("sauna", "hot_bath", "none"):
+            assert f'name="heat_access" value="{value}"' in html, value
 
     def test_no_free_text_beyond_name_race_and_email(self, tmp_path):
         """The engine intake carries no free text: the only text boxes are the

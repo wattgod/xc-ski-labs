@@ -1000,7 +1000,7 @@ def build_form(catalog: dict[str, Any]) -> str:
 
     health_notice = (
         '<p class="gl-notice">I only ask yes or no here, never details. If you answer yes to '
-        'any of these, your plan waits until I&rsquo;ve reviewed your answers. How I store '
+        'any of the first three, your plan waits until I&rsquo;ve reviewed your answers. How I store '
         'them is in the <a href="/privacy/">privacy policy</a>.</p>')
     illness = yes_no("recent_illness",
                      "Are you sick right now, or did an illness stop your training in the last 2 weeks?",
@@ -1014,6 +1014,16 @@ def build_form(catalog: dict[str, Any]) -> str:
                    "Is there anything about your heart or lungs I should know, such as asthma "
                    "or a heart condition?",
                    "health_note")
+    # Engine AE-SKI-4.1 (heat sessions): I4 access, I5 health question.
+    heat_access = choice_field(
+        "heat_access", "Do you have a sauna, or a bath you can fill to your shoulders, that you "
+        "could use straight after training?", "heat_access",
+        (("sauna", "Sauna"), ("hot_bath", "Bath"), ("none", "Neither")), kind="checkbox")
+    heat_health = yes_no("heat_health_flag",
+                         "Has a doctor told you to avoid saunas or hot baths, are you pregnant, "
+                         "or have you ever fainted in a sauna or hot bath?",
+                         "heat_health_flag",
+                         hint="A yes means your plan has no heat sessions. It doesn't hold up your plan.")
 
     terms = "".join(f"<li>{esc(line)}</li>" for line in (
         plan_offer.BLOCK_LINE, plan_offer.LAST_BLOCK_LINE, plan_offer.ENDS_LINE,
@@ -1047,11 +1057,11 @@ def build_form(catalog: dict[str, Any]) -> str:
       "This winter, from what date can you usually ski on snow near home?",
       '<input id="snow_from" name="snow_from" type="date">')
     + input_field("snow_until", "And until what date?", '<input id="snow_until" name="snow_until" type="date">')
-    + gear + rs_route + rs_exp + running)}
+    + gear + rs_route + rs_exp + running + heat_access)}
   {section(7, "Heart rate", hr_monitor + max_hr + hr_medicine)}
   {section(8, "Strength", strength_history + strength_access + med_ball + lifts + injuries)}
   {section(9, "Fueling", fuel + fuel_sessions)}
-  {section(10, "Health", health_notice + illness + red_s + heart)}
+  {section(10, "Health", health_notice + illness + red_s + heart + heat_health)}
   <section class="gl-section" data-section="11">
     <div class="gl-section-header">
       <div class="gl-section-num">11</div>
@@ -1527,6 +1537,9 @@ QUESTIONNAIRE_JS = r"""
     var redS = radio('health_review');
     if (!redS) err('health_review', 'required');
     var heart = bool('health_note');
+    var heat = checked('heat_access');
+    if (!heat.length) err('heat_access', 'pick_one');
+    var heatHealth = bool('heat_health_flag');
 
     var email = text('email');
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) err('email', 'email');
@@ -1571,7 +1584,9 @@ QUESTIONNAIRE_JS = r"""
       fuel_practised_sessions: fuelSessions,
       recent_illness: illness,
       health_review: redS ? redS !== 'no' : null,
-      health_note: heart
+      health_note: heart,
+      heat_access: heat.filter(function(v) { return v !== 'none'; }),
+      heat_health_flag: heatHealth
     };
     return { errors: errors, intake: intake, name: name, email: email, raceName: raceName };
   }

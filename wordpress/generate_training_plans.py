@@ -934,6 +934,9 @@ PLAN_PARTS = (
     ("F", "Fueling",
      "Long sessions carry a carbohydrate target that starts from what you've practised. A "
      "race of 42 km or more gets a two-day carb-load before it."),
+    ("T", "Heat training",
+     "If you have a sauna or a bath, and the health questions don't rule it out, I add up to "
+     "three short heat sessions a week after training, from August until your taper."),
 )
 
 FAQS = (
