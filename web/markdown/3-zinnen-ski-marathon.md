@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Italy"
 region: "Trentino-Alto Adige"
 location: "Sexten to Niederdorf"
-date: "2027: January 9-10"
+date: "2027: January 9"
 url: "https://xcskilabs.com/race/3-zinnen-ski-marathon/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/3-zinnen-ski-marathon/"
 | Altitude | 1,300 m |
 | Location | Sexten to Niederdorf |
 | Country | Italy |
-| Date | 2027: January 9-10 |
+| Date | 2027: January 9 |
 | Discipline | classic |
 | Field Size | 100 |
 | Founded | 1976 |

@@ -218,3 +218,6 @@ def test_date_sources_are_https_and_match_profiles():
     for slug, rec in sources["applied"].items():
         assert rec["source_url"].startswith("https://"), slug
         assert profiles[slug]["vitals"]["date_specific"] == rec["date_specific"], slug
+        # Official-page evidence: the page's own words and when they were read.
+        assert rec.get("source_quote"), slug
+        assert rec.get("verified_on"), slug
