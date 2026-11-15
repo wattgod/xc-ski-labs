@@ -600,9 +600,9 @@ class TestSiteWideNavRetarget:
         html = self._generated("about/index.html")
         assert 'href="/coaching/apply/">Coaching application</a>' in html
 
-    def test_homepage_apply_button_still_points_to_apply(self):
+    def test_homepage_coaching_link_points_to_the_coaching_page(self):
         html = self._generated("index.html")
-        assert 'class="gl-rung-btn apply" href="/coaching/apply/">Apply</a>' in html
+        assert '<a href="/coaching/" data-ga="ladder_coaching">Coaching</a>' in html
 
     def test_apply_form_redirect_unchanged(self):
         html = self._generated("coaching/apply/index.html")

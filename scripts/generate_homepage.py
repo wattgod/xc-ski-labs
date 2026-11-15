@@ -16,7 +16,6 @@ import html
 import json
 import shutil
 import sys
-from collections import Counter
 from pathlib import Path
 from typing import Any, Optional
 
@@ -58,12 +57,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
 
-# The XC ski course is not live: /learn/ and /course/ both return 404 on
-# xcskilabs.com (checked 2026-11-14). Until it ships, no page links it.
-# Flip to True only after /learn/ answers 200 in production. This replaces
-# the old "output/learn/index.html exists" check, which a stale local build
-# could satisfy while production still 404'd.
-COURSE_LIVE = False
+# The homepage never pitches the XC ski course (Matti, 2026-11-15).
 TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 
 # ── Constants ──────────────────────────────────────────────────
@@ -71,7 +65,6 @@ TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 CRITERIA_COUNT = 14
 TIER_COUNT = 4
 TIER_THRESHOLDS = {1: 80, 2: 60, 3: 45}  # T4 is < 45
-T2_HIGHLIGHT_COUNT = 6
 
 DISCIPLINE_LABELS = {
     "classic": "Classic",
@@ -198,38 +191,6 @@ def get_tagline(race: dict) -> str:
 
 # ── HTML Builders ──────────────────────────────────────────────
 
-def build_race_card(race: dict) -> str:
-    """Generate a single race card HTML."""
-    slug = esc(race.get("slug", ""))
-    name = esc(race.get("display_name") or race.get("name", ""))
-    tagline = esc(get_tagline(race))
-    country = esc(get_country(race))
-    distance = esc(get_distance_display(race))
-    score = get_score(race)
-    tier = get_tier(race)
-    discipline = get_discipline(race)
-    disc_label = DISCIPLINE_LABELS.get(discipline, esc(discipline.title()))
-    disc_class = DISCIPLINE_CSS_CLASS.get(discipline, "classic")
-
-    return f"""    <div class="race-card">
-      <a href="race/{slug}/">
-        <div class="rc-header">
-          <h3>{name}</h3>
-          <span class="tier-badge t{tier}">TIER {tier}</span>
-        </div>
-        <div class="rc-tagline">{tagline}</div>
-        <div class="rc-meta">
-          <span class="lbl">Country</span><span class="val">{country}</span>
-          <span class="lbl">Distance</span><span class="val">{distance}</span>
-        </div>
-        <div class="rc-footer">
-          <span class="discipline-badge {disc_class}">{disc_label}</span>
-          <span class="score-display">{score}/100</span>
-        </div>
-      </a>
-    </div>"""
-
-
 def build_tier_row(race: dict) -> str:
     """Generate a single Tier 1 table row."""
     slug = esc(race.get("slug", ""))
@@ -251,57 +212,10 @@ def build_tier_row(race: dict) -> str:
     </tr>"""
 
 
-def build_coverage_data(races: list[dict]) -> list[tuple[str, int]]:
-    """Return sorted (country, count) pairs."""
-    counter: Counter = Counter()
-    for race in races:
-        country = get_country(race)
-        if country and country != "Unknown":
-            counter[country] += 1
-    return sorted(counter.items(), key=lambda x: (-x[1], x[0]))
-
-
-def build_coverage_js(coverage: list[tuple[str, int]]) -> str:
-    """Build the coverage grid JavaScript using safe JSON + textContent."""
-    safe = _safe_json_for_script(coverage)
-    return f"""<script>
-var coverage = {safe};
-coverage.sort(function(a, b) {{ return b[1] - a[1]; }});
-var grid = document.getElementById("coverageGrid");
-coverage.forEach(function(c) {{
-  var div = document.createElement("div");
-  div.className = "coverage-item";
-  var countrySpan = document.createElement("span");
-  countrySpan.className = "country";
-  countrySpan.textContent = c[0];
-  var countSpan = document.createElement("span");
-  countSpan.className = "count";
-  countSpan.textContent = c[1];
-  div.appendChild(countrySpan);
-  div.appendChild(countSpan);
-  grid.appendChild(div);
-}});
-</script>"""
-
-
 # ── Full Page ──────────────────────────────────────────────────
 
 def generate_homepage(races: list[dict]) -> str:
     """Generate the complete homepage HTML."""
-    # The course rung links /learn/, which 404s until the course ships.
-    # Same gate as generate_race_pages.build_product_ladder: COURSE_LIVE.
-    course_rung = ""
-    # Custom plan + coaching, plus the course rung once it ships.
-    rung_count = 3 if COURSE_LIVE else 2
-    if COURSE_LIVE:
-        course_rung = """      <div class="gl-rung">
-        <span class="gl-rung-kicker">Course</span>
-        <h3>XC ski course</h3>
-        <p>Lessons from first glide to race preparation.</p>
-        <span class="gl-rung-price">SELF-PACED</span><br>
-        <a class="gl-rung-btn" href="/learn/">See the course</a>
-      </div>
-"""
     # ── Compute stats ──
     race_count = len(races)
     countries = set(get_country(r) for r in races if get_country(r) != "Unknown")
@@ -309,20 +223,8 @@ def generate_homepage(races: list[dict]) -> str:
 
     # ── Tier buckets ──
     t1_races = [r for r in races if get_tier(r) == 1]
-    t2_races = [r for r in races if get_tier(r) == 2]
 
-    # ── T1 cards ──
-    t1_cards = "\n\n".join(build_race_card(r) for r in t1_races)
     t1_rows = "\n".join(build_tier_row(r) for r in t1_races)
-
-    # ── T2 top N cards ──
-    t2_top = t2_races[:T2_HIGHLIGHT_COUNT]
-    t2_cards = "\n\n".join(build_race_card(r) for r in t2_top)
-    t2_total = len(t2_races)
-
-    # ── Coverage ──
-    coverage = build_coverage_data(races)
-    coverage_js = build_coverage_js(coverage)
 
     # ── JSON-LD ──
     jsonld_obj = {
@@ -334,8 +236,8 @@ def generate_homepage(races: list[dict]) -> str:
                 "name": "XC Ski Labs",
                 "url": "https://xcskilabs.com/",
                 "description": (
-                    f"The world's most comprehensive cross-country ski race database. "
-                    f"{race_count}+ races across {country_count} countries."
+                    f"{race_count} cross-country ski races across {country_count} countries, scored, "
+                    f"with training plans built around your race and the technique to ski it fast."
                 ),
                 "publisher": {"@id": ORGANIZATION_JSONLD["@id"]},
                 "potentialAction": {
@@ -353,11 +255,11 @@ def generate_homepage(races: list[dict]) -> str:
         + "\n</script>"
     )
     tokens_css = load_tokens_css()
-    # Classic technique loops (Gravel God, motion-captured from Matti's course videos). Words match the guide's
+    # Classic technique loops (Gravel God, motion-captured from the technique videos). Words match the guide's
     # "Classic gears" section, which the band links to.
     motion_band = loops_band(
         "Classic skiing has three gears.",
-        "Diagonal stride, kick double-pole and double-pole, animated from motion capture of Matti's own technique videos.",
+        "Diagonal stride for the climbs, kick double-pole for the rollers, double-pole for the flats.",
         ["diagonal", "kickdp", "doublepole"],
         "/guide/technique-and-execution/", "Read the technique chapter", band_id="motion")
     loop_css = BAND_CSS + LOOP_CSS
@@ -368,12 +270,12 @@ def generate_homepage(races: list[dict]) -> str:
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>XC Ski Labs — XC Ski Race Database</title>
-<meta name="description" content="The world's most comprehensive cross-country ski race database. {race_count}+ races across {country_count} countries. Scored, ranked, and searchable.">
+<title>XC Ski Labs — Find Your Race, Train Right, Race Fast</title>
+<meta name="description" content="{race_count} cross-country ski races across {country_count} countries, scored on {CRITERIA_COUNT} criteria. Find your race, get a plan built around it, and learn the technique to ski it fast.">
 <meta name="keywords" content="cross-country ski races, XC skiing, marathon skiing, Worldloppet, Ski Classics, classic skiing, skate skiing">
 <link rel="canonical" href="https://xcskilabs.com/">
-<meta property="og:title" content="XC Ski Labs — XC Ski Race Database">
-<meta property="og:description" content="{race_count}+ cross-country ski races across {country_count} countries. Scored, ranked, and searchable.">
+<meta property="og:title" content="XC Ski Labs — Find Your Race, Train Right, Race Fast">
+<meta property="og:description" content="{race_count} cross-country ski races scored on {CRITERIA_COUNT} criteria, plans built around your race, and the technique to ski it fast.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://xcskilabs.com/">
 {XL_GA4_HEAD}
@@ -426,13 +328,14 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 .hero h1 {{
-  font: var(--type-stencil-xl-weight) clamp(56px, 11vw, 168px)/var(--type-stencil-xl-line-height) var(--font-stencil);
+  font: var(--type-stencil-xl-weight) clamp(40px, 8.5vw, 132px)/var(--type-stencil-xl-line-height) var(--font-stencil);
   letter-spacing: var(--type-stencil-xl-tracking);
   text-transform: uppercase;
   margin: 0 0 28px;
-  max-width: 11ch;
   color: var(--ink);
 }}
+/* One line per promise: find, train, race. */
+.hero h1 span {{ display: block; }}
 
 .hero-sub {{
   display: inline-block;
@@ -452,27 +355,6 @@ a:hover {{ text-decoration: underline; }}
   margin: 0 0 32px;
 }}
 
-.hero-stats {{
-  display: flex;
-  gap: 32px;
-  flex-wrap: wrap;
-  margin-top: 32px;
-}}
-
-.hero-stat {{ display: flex; flex-direction: column; }}
-
-.hero-stat .num {{
-  font: 900 clamp(36px, 4vw, 48px)/1 var(--font-stencil);
-  color: var(--ink);
-}}
-
-.hero-stat .label {{
-  font: 600 16px/1.3 var(--font-label);
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  color: var(--ink-2);
-  margin-top: 4px;
-}}
 
 /* Buttons: the book's Button. Primary is the action slab with the salmon
    underline; the others are quiet outlines in ink. */
@@ -508,21 +390,14 @@ a:hover {{ text-decoration: underline; }}
   text-decoration: none;
 }}
 
-/* A direct entry to the existing season review, after the race database hero. */
+/* Season review entry: set a goal, learn from last winter, beat yourself. */
 .gl-hp-goals {{ background: var(--gl-paper); border-bottom: 3px solid var(--gl-ink); }}
-.gl-hp-goals-inner {{ max-width: var(--gl-measure); margin: 0 auto; padding: 36px 24px; display: grid; grid-template-columns: minmax(0, 1fr) 210px; align-items: center; gap: 40px; }}
-.gl-hp-goals-kicker, .gl-hp-goals-sample, .gl-hp-goals-poster-year, .gl-hp-goals-poster-foot {{ font: 700 11px var(--gl-font-data); letter-spacing: .12em; text-transform: uppercase; }}
-.gl-hp-goals-kicker {{ color: var(--gl-rust); margin: 0 0 12px; }}
+.gl-hp-goals-inner {{ max-width: var(--gl-measure); margin: 0 auto; padding: 36px 24px; }}
+.gl-hp-goals-kicker {{ font: 700 11px var(--gl-font-data); letter-spacing: .12em; text-transform: uppercase; color: var(--gl-rust); margin: 0 0 12px; }}
 .gl-hp-goals h2 {{ font-family: var(--gl-font-display); font-weight: 900; font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1; text-transform: uppercase; margin: 0 0 10px; color: var(--gl-ink); }}
 .gl-hp-goals-copy > p:not(.gl-hp-goals-kicker) {{ font-family: var(--gl-font-editorial); font-size: 1.05rem; line-height: 1.55; max-width: 52ch; margin: 0 0 20px; color: var(--gl-ink); }}
 .gl-hp-goals-cta {{ min-height: 44px; display: inline-flex; align-items: center; padding: 9px 16px; background: var(--gl-rust); color: var(--gl-snow); font: 700 12px var(--gl-font-data); letter-spacing: .08em; text-transform: uppercase; border: 2px solid var(--gl-rust); text-decoration: none; }}
 .gl-hp-goals-cta:hover, .gl-hp-goals-cta:focus-visible {{ background: var(--gl-ink); border-color: var(--gl-ink); color: var(--gl-snow); text-decoration: none; }}
-.gl-hp-goals-poster {{ position: relative; min-height: 240px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; background: var(--gl-snow); border: 3px solid var(--gl-ink); color: var(--gl-ink); }}
-.gl-hp-goals-poster strong {{ font-family: var(--gl-font-display); font-size: 30px; line-height: 1; text-transform: uppercase; }}
-.gl-hp-goals-sample {{ align-self: flex-end; border: 1px solid currentColor; padding: 3px 5px; }}
-.gl-hp-goals-poster-foot {{ color: var(--gl-rust); }}
-@media (max-width: 700px) {{ .gl-hp-goals-inner {{ grid-template-columns: 1fr; gap: 24px; }} .gl-hp-goals-poster {{ max-width: 240px; }} }}
-
 .mono {{ font-family: var(--gl-font-data); }}
 .r {{ text-align: right; }}
 
@@ -576,6 +451,7 @@ a:hover {{ text-decoration: underline; }}
   line-height: 1.5;
   color: var(--gl-muted);
 }}
+.gl-hp-ladder-body a {{ color: inherit; text-decoration: underline; text-underline-offset: 3px; }}
 
 .gl-hp-ladder-cta {{
   display: inline-block;
@@ -691,28 +567,6 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 /* ── Tier Showcase ── */
-.section {{
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  padding: 64px 24px;
-}}
-
-.section-header {{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 32px;
-  border-bottom: 2px solid var(--gl-carbon);
-  padding-bottom: 12px;
-}}
-
-.section-title {{
-  font-family: var(--gl-font-data);
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}}
 
 .section-link {{
   font-family: var(--gl-font-data);
@@ -723,23 +577,7 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 /* ── Race Cards ── */
-.race-grid {{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 16px;
-}}
 
-.race-card {{
-  background: var(--gl-white);
-  border: 2px solid var(--gl-carbon);
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.1s;
-}}
-
-.race-card:hover {{ transform: translateY(-2px); }}
-.race-card a {{ color: inherit; text-decoration: none; display: block; }}
-.race-card a:hover {{ text-decoration: none; }}
 
 .rc-header {{
   padding: 14px 16px 8px;
@@ -831,64 +669,8 @@ a:hover {{ text-decoration: underline; }}
 }}
 
 /* ── Coverage Map (text version) ── */
-.coverage-grid {{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 12px;
-}}
-
-.coverage-item {{
-  background: var(--gl-white);
-  border: 2px solid var(--gl-carbon);
-  padding: 12px 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}}
-
-.coverage-item .country {{
-  font-family: var(--gl-font-ui);
-  font-size: 0.9rem;
-  font-weight: 600;
-}}
-
-.coverage-item .count {{
-  font-family: var(--gl-font-data);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--gl-swix-red);
-}}
 
 /* ── About ── */
-.about-grid {{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-}}
-
-.about-card {{
-  background: var(--gl-white);
-  border: 2px solid var(--gl-carbon);
-  padding: 24px;
-}}
-
-.about-card h3 {{
-  font-family: var(--gl-font-data);
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0 0 12px;
-  color: var(--gl-swix-red);
-}}
-
-.about-card p {{
-  font-family: var(--gl-font-editorial);
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--gl-muted);
-  margin: 0;
-}}
 
 /* ── Footer ── */
 footer {{
@@ -931,93 +713,6 @@ footer {{
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--gl-klister);
-}}
-
-.gl-ladder {{
-  background: var(--gl-carbon);
-  color: var(--gl-white);
-}}
-
-.gl-ladder-inner {{
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  padding: 52px var(--gl-space-5) 56px;
-}}
-
-.gl-ladder h2 {{
-  margin: 0 0 4px;
-  font-family: var(--gl-font-display);
-  font-size: 1.9rem;
-  font-weight: 900;
-  font-style: italic;
-  line-height: 1;
-  text-transform: uppercase;
-}}
-
-.gl-ladder-lead {{
-  margin: 0 0 var(--gl-space-6);
-  color: var(--gl-muted);
-  font-style: italic;
-}}
-
-.gl-rungs {{
-  display: grid;
-  grid-template-columns: repeat({rung_count}, 1fr);
-  gap: var(--gl-space-4);
-}}
-
-.gl-rung {{
-  background: var(--gl-carbon);
-  border: 1px solid var(--gl-muted);
-  border-top: 6px solid var(--gl-swix-red);
-  padding: var(--gl-space-5);
-}}
-
-.gl-rung-kicker,
-.gl-rung-price {{
-  color: var(--gl-klister);
-  font-family: var(--gl-font-data);
-  font-size: .62rem;
-  font-weight: 700;
-  letter-spacing: .2em;
-  text-transform: uppercase;
-}}
-
-.gl-rung h3 {{
-  margin: var(--gl-space-2) 0;
-  font-family: var(--gl-font-display);
-  font-size: 1.05rem;
-  font-weight: 900;
-  font-style: italic;
-  text-transform: uppercase;
-}}
-
-.gl-rung p {{
-  margin: 0 0 var(--gl-space-4);
-  color: var(--gl-muted);
-  font-size: .9rem;
-  line-height: 1.55;
-}}
-
-.gl-rung-btn {{
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  margin-top: var(--gl-space-3);
-  border: 2px solid var(--gl-white);
-  color: var(--gl-white);
-  padding: 0 var(--gl-space-4);
-  font-family: var(--gl-font-data);
-  font-size: .68rem;
-  font-weight: 700;
-  letter-spacing: .14em;
-  text-decoration: none;
-  text-transform: uppercase;
-}}
-
-.gl-rung-btn.apply {{
-  border-color: var(--gl-swix-red);
-  background: var(--gl-swix-red);
 }}
 
 /* ── Focus ── */
@@ -1121,11 +816,6 @@ a:focus-visible, button:focus-visible {{
 /* ── Responsive ── */
 @media (max-width: 640px) {{
   .hero {{ padding: 56px 28px 48px; }}
-  .hero-stats {{ gap: 20px; }}
-  .section {{ padding: 40px 16px; }}
-  .race-grid {{ grid-template-columns: 1fr; }}
-  .coverage-grid {{ grid-template-columns: 1fr 1fr; }}
-  .gl-rungs {{ grid-template-columns: 1fr; }}
   .tier-table th:nth-child(3),
   .tier-table td:nth-child(3),
   .tier-table th:nth-child(4),
@@ -1190,82 +880,42 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Hero ── -->
 <section class="hero">
   <div class="hero-inner">
-    <p class="hero-sub">The XC ski race database</p>
-    <h1>Every cross country ski race, rated.</h1>
-    <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria &mdash; and the training to show up ready for the one you pick.</p>
+    <p class="hero-sub">XC ski races, training and technique</p>
+    <h1><span>Find your race.</span> <span>Train right.</span> <span>Race fast.</span></h1>
+    <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria, a plan built around the one you pick, and the technique to ski it fast.</p>
     <a href="/search/" class="hero-cta">Search the races</a>
-    <a href="/methodology/" class="hero-cta secondary">How we rate</a>
     <a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <span class="num" id="statRaces">{race_count}</span>
-        <span class="label">Races</span>
-      </div>
-      <div class="hero-stat">
-        <span class="num" id="statCountries">{country_count}</span>
-        <span class="label">Countries</span>
-      </div>
-      <div class="hero-stat">
-        <span class="num">{CRITERIA_COUNT}</span>
-        <span class="label">Criteria</span>
-      </div>
-      <div class="hero-stat">
-        <span class="num">{TIER_COUNT}</span>
-        <span class="label">Tiers</span>
-      </div>
-    </div>
   </div>
 </section>
 
-<!-- ── Classic technique, in motion ── -->
-{motion_band}
-
-<!-- ── Season review entry ── -->
-<section class="gl-hp-goals" aria-labelledby="gl-hp-goals-title">
-  <div class="gl-hp-goals-inner">
-    <div class="gl-hp-goals-copy">
-      <p class="gl-hp-goals-kicker">2025–26 REVIEW / 2026–27 GOAL</p>
-      <h2 id="gl-hp-goals-title">The next winter, on paper.</h2>
-      <p>Look back at last winter. Name the race you care about and one habit that will carry you to its start line.</p>
-      <a href="/goals/?src=home" class="gl-hp-goals-cta" data-ga="goal_hero_click">Make my season poster &rarr;</a>
-    </div>
-    <div class="gl-hp-goals-poster" aria-label="Sample XC Ski Labs goal poster">
-      <span class="gl-hp-goals-sample">SAMPLE</span>
-      <span class="gl-hp-goals-poster-year">2026–27 / GOAL FILE</span>
-      <strong>One race.<br>One goal.</strong>
-      <span class="gl-hp-goals-poster-foot">XC SKI LABS</span>
-    </div>
-  </div>
-</section>
-
-<!-- ── Ladder Strip (immediately after hero, before rankings) ── -->
+<!-- ── Find / train / race: the three things the site does ── -->
 <section class="gl-hp-ladder" id="ladder">
   <div class="gl-hp-ladder-inner">
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">01</span>
-      <h2 class="gl-hp-ladder-headline">Pick a race</h2>
-      <p class="gl-hp-ladder-body">{race_count} races, rated. Start with yours.</p>
-      <a href="/search/" class="gl-hp-ladder-cta" data-ga="ladder_pick_race">SEARCH &rarr;</a>
+      <h2 class="gl-hp-ladder-headline">Find your race</h2>
+      <p class="gl-hp-ladder-body"><span id="statRaces">{race_count}</span> races in {country_count} countries, scored on {CRITERIA_COUNT} criteria. <a href="/methodology/">How we rate</a></p>
+      <a href="/search/" class="gl-hp-ladder-cta" data-ga="ladder_pick_race">SEARCH THE RACES &rarr;</a>
     </div>
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">02</span>
-      <h2 class="gl-hp-ladder-headline">Get a plan</h2>
-      <p class="gl-hp-ladder-body">Built for the race on your calendar, around the hours you actually have.</p>
+      <h2 class="gl-hp-ladder-headline">Train right</h2>
+      <p class="gl-hp-ladder-body">A plan built around your race and the hours you actually have, {esc(plan_offer.BLOCK_PRICE)} every {plan_offer.BLOCK_WEEKS} weeks. Want me reading every session? <a href="/coaching/" data-ga="ladder_coaching">Coaching</a></p>
       <a href="/training-plans/" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>
     </div>
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">03</span>
-      <h2 class="gl-hp-ladder-headline">Find out what you could be.</h2>
-      <p class="gl-hp-ladder-body">I read every file and change the week when your life does.</p>
-      <a href="/coaching/" class="gl-hp-ladder-cta" data-ga="ladder_coaching">GET ME IN YOUR CORNER &rarr;</a>
+      <h2 class="gl-hp-ladder-headline">Race fast</h2>
+      <p class="gl-hp-ladder-body">Technique, pacing, wax and fueling for the day that counts.</p>
+      <a href="/guide/" class="gl-hp-ladder-cta" data-ga="ladder_guide">READ THE GUIDE &rarr;</a>
     </div>
   </div>
 </section>
 
-<!-- ── Tier 1 Table ── -->
+<!-- ── The top tier, then the rest live in search ── -->
 <section class="db-band">
   <div class="db-inner">
-    <div class="section-heading"><span class="num">01</span><h2>Tier 1 — {TIER_NAMES[1]}</h2></div>
+    <div class="section-heading"><h2>Tier 1 — {TIER_NAMES[1]}</h2><a href="/search/" class="section-link">All {race_count} races &rarr;</a></div>
     <table class="tier-table">
       <thead><tr><th>Race</th><th>Country</th><th class="r">Distance</th><th>Style</th><th class="r">Score</th><th></th></tr></thead>
       <tbody>
@@ -1275,66 +925,17 @@ a:focus-visible, button:focus-visible {{
   </div>
 </section>
 
-<!-- ── Tier 2 Highlights ── -->
-<div class="section" style="background: var(--gl-white); margin: 0; max-width: none; padding-left: calc((100% - var(--gl-measure))/2 + 24px); padding-right: calc((100% - var(--gl-measure))/2 + 24px);">
-  <div class="section-header">
-    <span class="section-title">Tier 2 &mdash; {TIER_NAMES[2]}</span>
-    <a href="/search/" class="section-link">View All {t2_total} &rarr;</a>
-  </div>
-  <div class="race-grid">
-{t2_cards}
-  </div>
-</div>
+<!-- ── Classic technique, in motion ── -->
+{motion_band}
 
-<!-- ── Coverage ── -->
-<div class="section">
-  <div class="section-header">
-    <span class="section-title">Global Coverage</span>
-  </div>
-  <div class="coverage-grid" id="coverageGrid"></div>
-</div>
-
-<!-- ── What We Score ── -->
-<div class="section" style="background: var(--gl-white); margin: 0; max-width: none; padding-left: calc((100% - var(--gl-measure))/2 + 24px); padding-right: calc((100% - var(--gl-measure))/2 + 24px);">
-  <div class="section-header">
-    <span class="section-title">How We Score</span>
-  </div>
-  <div class="about-grid">
-    <div class="about-card">
-      <h3>{CRITERIA_COUNT} Criteria</h3>
-      <p>Distance, elevation, altitude, field size, prestige, international draw, course technicality, snow reliability, grooming quality, accessibility, community, scenery, organization, and competitive depth. Each rated 1-5.</p>
-    </div>
-    <div class="about-card">
-      <h3>{TIER_COUNT} Tiers</h3>
-      <p>Tier 1 (&ge;80) &mdash; {TIER_NAMES[1]}. Tier 2 (&ge;60) &mdash; {TIER_NAMES[2]}. Tier 3 (&ge;45) &mdash; {TIER_NAMES[3]}. Tier 4 (&lt;45) &mdash; {TIER_NAMES[4]}. Prestige overrides promote races with outsized cultural significance.</p>
-    </div>
-    <div class="about-card">
-      <h3>Every Race, Every Detail</h3>
-      <p>Course profiles, climate data, wax conditions, travel logistics, YouTube video curation with skier intel &mdash; everything you need to pick your next start line.</p>
-    </div>
-  </div>
-</div>
-
-<!-- ── Ladder ── -->
-<section class="gl-ladder" id="training">
-  <div class="gl-ladder-inner">
-    <h2>Get race ready</h2>
-    <p class="gl-ladder-lead">Choose the amount of structure you want around the start line.</p>
-    <div class="gl-rungs">
-      <div class="gl-rung">
-        <span class="gl-rung-kicker">Plan</span>
-        <h3>Custom plan</h3>
-        <p>Your race, your hours, your history. I build it from your answers.</p>
-        <span class="gl-rung-price">{esc(plan_offer.BLOCK_PRICE)} / {plan_offer.BLOCK_WEEKS} WK</span><br>
-        <a class="gl-rung-btn" href="/training-plans/">See the plan</a>
-      </div>
-{course_rung}      <div class="gl-rung">
-        <span class="gl-rung-kicker">Coaching</span>
-        <h3>Coaching</h3>
-        <p>Direct support when the season needs more than a template.</p>
-        <span class="gl-rung-price">APPLICATION</span><br>
-        <a class="gl-rung-btn apply" href="/coaching/apply/">Apply</a>
-      </div>
+<!-- ── Season review: set a goal, learn from last winter, beat yourself ── -->
+<section class="gl-hp-goals" aria-labelledby="gl-hp-goals-title">
+  <div class="gl-hp-goals-inner">
+    <div class="gl-hp-goals-copy">
+      <p class="gl-hp-goals-kicker">2026–27 GOALS</p>
+      <h2 id="gl-hp-goals-title">Beat last winter&rsquo;s you.</h2>
+      <p>Fifteen minutes. Look back at last season honestly, set one goal for this one, and name the habit most likely to wreck it.</p>
+      <a href="/goals/?src=home" class="gl-hp-goals-cta" data-ga="goal_hero_click">Set my goal &rarr;</a>
     </div>
   </div>
 </section>
@@ -1364,7 +965,6 @@ document.querySelectorAll('[data-ga="goal_hero_click"]').forEach(function(link){
 }})();
 </script>
 
-{coverage_js}
 {LOOP_JS}
 </body>
 </html>"""

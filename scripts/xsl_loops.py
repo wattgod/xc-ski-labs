@@ -54,11 +54,10 @@ def media_files(tech: str, shape: str) -> tuple[Path, Path]:
 
 def loop_figure(tech: str, shape: str = "wide", caption: bool = True, extra_class: str = "") -> str:
     """One technique loop. The video is decorative (aria-hidden); the caption carries the technique name."""
-    name, gear, cycle = LOOPS[tech]
+    name = LOOPS[tech][0]
     w, h = SIZES[shape]
     stem = f"{MEDIA_URL}/{tech}_{shape}"
-    cap = (f'<figcaption class="xsl-loop-cap"><span class="xsl-loop-name">{html.escape(name)}</span>'
-           f'<span class="xsl-loop-meta">{html.escape(gear)} &middot; {cycle:.2f} s cycle</span></figcaption>'
+    cap = (f'<figcaption class="xsl-loop-cap"><span class="xsl-loop-name">{html.escape(name)}</span></figcaption>'
            if caption else "")
     cls = f"xsl-loop xsl-loop--{shape}" + (f" {extra_class}" if extra_class else "")
     return (f'<figure class="{cls}" data-xsl-loop>'
@@ -78,7 +77,6 @@ LOOP_CSS = """
 .xsl-loop-cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding-top: 4px;
   font-family: var(--gl-font-data); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
 .xsl-loop-name { font-weight: 700; color: var(--gl-ink); }
-.xsl-loop-meta { color: var(--gl-caption); font-variant-numeric: tabular-nums; }
 .xsl-loop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 28px 24px; }
 @media (prefers-reduced-motion: reduce) { .xsl-loop-frame::before { transform: translate(5px, 5px); } }
 """

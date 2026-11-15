@@ -275,7 +275,7 @@ class TestOtherPagesQuoteThePlan:
         sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
         import generate_homepage
         html = generate_homepage.generate_homepage([])
-        assert self.PRICE_TAG in html
+        assert f"{plan_offer.BLOCK_PRICE} every {plan_offer.BLOCK_WEEKS} weeks" in html
         assert plan_offer.stale_offer_phrases(html) == []
 
     def test_goals_page(self):

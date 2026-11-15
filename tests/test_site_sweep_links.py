@@ -2,7 +2,7 @@
 the sitemap.
 
 /learn/ and /course/ return 404 on xcskilabs.com, so no generated page may
-link them while COURSE_LIVE is False, even when a stale local build left
+link them, even when a stale local build left
 output/learn/index.html behind. /coaching/ and /consulting/ are live,
 indexable pages and belong in the sitemap; apply/intake/confirmation pages
 do not.
@@ -35,11 +35,14 @@ def _fake_course_build(tmp_path: Path) -> Path:
 
 
 class TestNoCourseLinkUntilLive:
-    def test_homepage_flag_is_off(self):
-        assert _load("hp_sweep", "scripts/generate_homepage.py").COURSE_LIVE is False
-
-    def test_race_pages_flag_is_off(self):
-        assert _load("rp_sweep", "scripts/generate_race_pages.py").COURSE_LIVE is False
+    def test_no_generator_pitches_the_course(self):
+        """The site never upsells the XC ski course (Matti, 2026-11-15): no flag
+        can turn a course rung back on."""
+        for rel in ("scripts/generate_homepage.py", "scripts/generate_race_pages.py"):
+            src = (ROOT / rel).read_text(encoding="utf-8")
+            assert "COURSE_LIVE" not in src, rel
+            assert "See the course" not in src, rel
+            assert '"/learn/"' not in src and 'href="/learn/' not in src, rel
 
     def test_homepage_has_no_course_link_even_with_local_build(self, tmp_path):
         hp = _load("hp_sweep2", "scripts/generate_homepage.py")
