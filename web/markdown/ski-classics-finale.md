@@ -126,4 +126,4 @@ The Ski Classics Finale is the season-ending race of the Visma Ski Classics pro 
 > 3 minutes and 40 seconds of racing through slush, up steep climbs, down technical descents. Classic technique, no skating, just kick and glide. Power and precision.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski Classics Finale". Canonical: https://xcskilabs.com/race/ski-classics-finale/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski Classics Finale". Canonical: https://xcskilabs.com/race/ski-classics-finale/. Generated 2026-11-15.*

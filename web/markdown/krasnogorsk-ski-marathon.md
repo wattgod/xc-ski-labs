@@ -121,4 +121,4 @@ The Krasnogorsk Ski Marathon takes place in Krasnogorsk, a city directly adjacen
 - The American Birkebeiner cross-country ski race (CBS Sunday Morning)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Krasnogorsk Ski Marathon". Canonical: https://xcskilabs.com/race/krasnogorsk-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Krasnogorsk Ski Marathon". Canonical: https://xcskilabs.com/race/krasnogorsk-ski-marathon/. Generated 2026-11-15.*

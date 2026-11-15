@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/ushuaia-ski-marathon/"
 | Field Size | 95 |
 | Founded | 2005 |
 | Registration | Online and local registration |
+| Website | https://www.ushuaialoppet.com/ |
 
 ## Course
 
@@ -113,4 +114,4 @@ The Ushuaia Ski Marathon is a separate event from the better-known Ushuaia Loppe
 - COMING NEXT USHUAIA LOPPET (Worldloppet)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ushuaia Ski Marathon". Canonical: https://xcskilabs.com/race/ushuaia-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ushuaia Ski Marathon". Canonical: https://xcskilabs.com/race/ushuaia-ski-marathon/. Generated 2026-11-15.*

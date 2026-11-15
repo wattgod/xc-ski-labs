@@ -504,7 +504,9 @@ class TestAboutPage:
 
     def test_about_has_zero_images(self):
         html = _load_page("about/index.html")
-        assert "<img" not in html.lower(), "About page should be type-only"
+        # The brand book's crossed-skis mark in the nav strap is the one allowed image.
+        body = re.sub(r'<img class="gl-brand-mark"[^>]*>', "", html)
+        assert "<img" not in body.lower(), "About page should be type-only"
         assert "og:image" not in html.lower(), "About page should not define image metadata"
         assert "twitter:image" not in html.lower(), "About page should not define image metadata"
 

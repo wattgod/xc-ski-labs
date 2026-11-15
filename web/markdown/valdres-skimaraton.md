@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/valdres-skimaraton/"
 | Discipline | classic |
 | Field Size | 800 |
 | Registration | Open registration |
+| Website | https://www.valdresskimaraton.no/ |
 
 ## Course
 
@@ -116,4 +117,4 @@ A classic-technique marathon through the Valdres valley in central Norway, runni
 - Valdres Skimaraton 2022 (Langsveien. no)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Valdres Skimaraton". Canonical: https://xcskilabs.com/race/valdres-skimaraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Valdres Skimaraton". Canonical: https://xcskilabs.com/race/valdres-skimaraton/. Generated 2026-11-15.*

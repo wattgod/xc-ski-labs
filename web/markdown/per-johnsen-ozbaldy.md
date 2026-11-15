@@ -100,4 +100,4 @@ The Per Johnsen Ozbaldy Memorial is a small marathon ski race near Snoqualmie Pa
 - Part of the Pacific Northwest Nordic tradition
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Per Johnsen Ozbaldy". Canonical: https://xcskilabs.com/race/per-johnsen-ozbaldy/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Per Johnsen Ozbaldy". Canonical: https://xcskilabs.com/race/per-johnsen-ozbaldy/. Generated 2026-11-15.*

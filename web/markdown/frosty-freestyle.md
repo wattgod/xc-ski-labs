@@ -117,4 +117,4 @@ A community-organized skate ski race in Eau Claire, Wisconsin, part of the state
 - 2013 Frosty Freestyle Nordic Ski Race (dirtkahuna)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Frosty Freestyle". Canonical: https://xcskilabs.com/race/frosty-freestyle/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Frosty Freestyle". Canonical: https://xcskilabs.com/race/frosty-freestyle/. Generated 2026-11-15.*

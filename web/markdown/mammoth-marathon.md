@@ -118,4 +118,4 @@ Founded in 1978, the Mammoth Marathon is one of the oldest Nordic ski marathons 
 - Loppet du Mont-Sainte-Anne présentée par Québecor 2018 (Gestev)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Mammoth Marathon". Canonical: https://xcskilabs.com/race/mammoth-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Mammoth Marathon". Canonical: https://xcskilabs.com/race/mammoth-marathon/. Generated 2026-11-15.*

@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/bieg-podhalanski/"
 | Discipline | both |
 | Field Size | 600 |
 | Registration | Open registration |
+| Website | https://www.nowytarg.pl/miasto-nowy-targ/aktualnosci/xiii-bieg-podhalanski-17-stycznia-2026-r%2C2850 |
 
 ## Course
 
@@ -106,4 +107,4 @@ The Bieg Podhalański is a ski marathon in the Podhale region of southern Poland
 - The Podhale's traditional wooden architecture is a UNESCO-recognized heritage
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Podhalański". Canonical: https://xcskilabs.com/race/bieg-podhalanski/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Podhalański". Canonical: https://xcskilabs.com/race/bieg-podhalanski/. Generated 2026-11-15.*

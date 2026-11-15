@@ -114,4 +114,4 @@ Founded in 1973 to promote skiing in the Sirdal mountain plateau, one of southwe
 - Sirdal Skimaraton (6min) (mrLV)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sirdal Ski Marathon". Canonical: https://xcskilabs.com/race/sirdal-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sirdal Ski Marathon". Canonical: https://xcskilabs.com/race/sirdal-ski-marathon/. Generated 2026-11-15.*

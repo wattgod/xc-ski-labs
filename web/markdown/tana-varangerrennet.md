@@ -112,4 +112,4 @@ Founded in 1998, Tana–Varangerrennet is an 80km classic marathon crossing the 
 - ski_classics_challengers
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tana–Varangerrennet". Canonical: https://xcskilabs.com/race/tana-varangerrennet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tana–Varangerrennet". Canonical: https://xcskilabs.com/race/tana-varangerrennet/. Generated 2026-11-15.*

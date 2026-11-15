@@ -126,4 +126,4 @@ Founded in 1981 at the Craftsbury Outdoor Center, the Craftsbury Marathon has gr
 > This race course in the snow falling snow and whatnot definitely favored people who could get off the line pretty quickly, so I was definitely focused on that trying to make sure that I was like getting off the line really fast once I heard that gun go off.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Craftsbury Marathon". Canonical: https://xcskilabs.com/race/craftsbury-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Craftsbury Marathon". Canonical: https://xcskilabs.com/race/craftsbury-marathon/. Generated 2026-11-15.*

@@ -110,4 +110,4 @@ Vaskoolihiihto is a traditional Finnish ski marathon in the Posio area of Finnis
 - Vaskoolihiihto 2013 (Luontoon.fi_Official)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vaskoolihiihto". Canonical: https://xcskilabs.com/race/vaskoolihiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vaskoolihiihto". Canonical: https://xcskilabs.com/race/vaskoolihiihto/. Generated 2026-11-15.*

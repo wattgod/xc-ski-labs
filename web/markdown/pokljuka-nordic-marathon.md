@@ -106,4 +106,4 @@ Founded in 2003 to leverage Pokljuka's growing biathlon infrastructure, this mar
 - Slovenia punches well above its weight in winter sports for a country of 2 million
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pokljuka Nordic Marathon". Canonical: https://xcskilabs.com/race/pokljuka-nordic-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pokljuka Nordic Marathon". Canonical: https://xcskilabs.com/race/pokljuka-nordic-marathon/. Generated 2026-11-15.*

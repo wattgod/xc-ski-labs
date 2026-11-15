@@ -132,4 +132,4 @@ The Dolomitenlauf was founded in 1970 in Obertilliach, a small village in Austri
 > It was really great. I also like the course very much. It was fast with simply perfect conditions, excellent tracks, a fantastic panorama, and great to ski.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Dolomitenlauf". Canonical: https://xcskilabs.com/race/dolomitenlauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Dolomitenlauf". Canonical: https://xcskilabs.com/race/dolomitenlauf/. Generated 2026-11-15.*

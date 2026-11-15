@@ -127,4 +127,4 @@ Book Across the Bay began in 1996 as a nighttime community ski event crossing fr
 > There are rest stops and water stops every kilometer. The first 4 were nothing to write home about. After that they get better. The best is at 8 k. They have a fire breathing dragon.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Book Across the Bay". Canonical: https://xcskilabs.com/race/book-across-the-bay/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Book Across the Bay". Canonical: https://xcskilabs.com/race/book-across-the-bay/. Generated 2026-11-15.*

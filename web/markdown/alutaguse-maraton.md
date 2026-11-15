@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/alutaguse-maraton/"
 | Discipline | classic |
 | Field Size | 800 |
 | Registration | Open registration via Estoloppet |
+| Website | https://www.alutagusemaraton.ee/ |
 
 ## Course
 
@@ -128,4 +129,4 @@ The Alutaguse Maraton is the flagship event of the Estoloppet series, drawing th
 > It was a fun course with turns and ups and downs and high speed all the time. I really had to dig deep to get the victory but it was fun to race there.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Alutaguse Maraton". Canonical: https://xcskilabs.com/race/alutaguse-maraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Alutaguse Maraton". Canonical: https://xcskilabs.com/race/alutaguse-maraton/. Generated 2026-11-15.*

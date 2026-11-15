@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/tallinn-ski-marathon/"
 | Field Size | 1500 |
 | Founded | 1998 |
 | Registration | Open registration |
+| Website | https://www.worldloppet.com/tallinn-ski-marathon/ |
 
 ## Course
 
@@ -110,4 +111,4 @@ Founded in 1998, the Tallinn Ski Marathon is a 38km freestyle race through the K
 - estoloppet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tallinn Ski Marathon". Canonical: https://xcskilabs.com/race/tallinn-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tallinn Ski Marathon". Canonical: https://xcskilabs.com/race/tallinn-ski-marathon/. Generated 2026-11-15.*

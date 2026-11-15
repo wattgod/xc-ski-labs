@@ -546,7 +546,7 @@ class TestOutputIntegrity:
         # methodology, privacy, terms,
         # guide pillar + 3 open (indexable) guide chapters. Gated chapters
         # are noindex and intentionally excluded from the sitemap.
-        static_urls = 12  # home, search, goals, training-plans, about, methodology, privacy, terms, guide + 3 open chapters
+        static_urls = 14  # home, search, goals, training-plans, coaching, consulting, about, methodology, privacy, terms, guide + 3 open chapters
         expected = (profile_count * 2) + static_urls
 
         assert url_count == expected, \

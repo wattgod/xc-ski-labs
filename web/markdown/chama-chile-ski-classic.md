@@ -120,4 +120,4 @@ The Chama Chile Ski Classic is a small community ski race in Chama, New Mexico, 
 > They don't have a big groomer here so it's like snowmobiley very undulating you're always on your edge like you know your legs are always under pressure lots of hair pins really pretty fun but boy it's challenging.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Chama Chile Ski Classic". Canonical: https://xcskilabs.com/race/chama-chile-ski-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Chama Chile Ski Classic". Canonical: https://xcskilabs.com/race/chama-chile-ski-classic/. Generated 2026-11-15.*

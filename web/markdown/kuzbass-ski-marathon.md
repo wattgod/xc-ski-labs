@@ -113,4 +113,4 @@ The Kuzbass Ski Marathon takes place in the Kemerovo Oblast, the heart of Russia
 - KuzbasSki. 50 км борьбы с ветром и снежными переметами. (Саня Kimi)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kuzbass Ski Marathon". Canonical: https://xcskilabs.com/race/kuzbass-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kuzbass Ski Marathon". Canonical: https://xcskilabs.com/race/kuzbass-ski-marathon/. Generated 2026-11-15.*

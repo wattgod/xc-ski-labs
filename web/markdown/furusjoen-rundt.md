@@ -122,4 +122,4 @@ A 45km classic race circling Furusjøen lake in Norway's Innlandet region, in th
 - Furusjøen Rundt-løpet 2015 (Furusjøen Rundt)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Furusjøen Rundt". Canonical: https://xcskilabs.com/race/furusjoen-rundt/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Furusjøen Rundt". Canonical: https://xcskilabs.com/race/furusjoen-rundt/. Generated 2026-11-15.*

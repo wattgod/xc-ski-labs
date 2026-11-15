@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/mt-ashwabay-summit/"
 | Discipline | both |
 | Field Size | 300 |
 | Registration | Online registration |
+| Website | https://ashwabaysummitskirace.com/ |
 
 ## Course
 
@@ -118,4 +119,4 @@ The Mt. Ashwabay Summit is a skiathlon event on Wisconsin's Bayfield Peninsula, 
 - Mt.Ashwabay (DONEWITHIT666)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Mt. Ashwabay Summit". Canonical: https://xcskilabs.com/race/mt-ashwabay-summit/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Mt. Ashwabay Summit". Canonical: https://xcskilabs.com/race/mt-ashwabay-summit/. Generated 2026-11-15.*

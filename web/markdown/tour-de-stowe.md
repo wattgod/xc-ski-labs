@@ -121,4 +121,4 @@ Tour de Stowe is a community Nordic ski event in Stowe, Vermont, one of New Engl
 > The Derby is the Derby Derby fever hits but once it goes it's a ball people are crashing and people are passing each other it's very entertaining from an observation point of view.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tour de Stowe". Canonical: https://xcskilabs.com/race/tour-de-stowe/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tour de Stowe". Canonical: https://xcskilabs.com/race/tour-de-stowe/. Generated 2026-11-15.*

@@ -102,4 +102,4 @@ Founded in 1946 as a memorial race for Haldo Hansson (1891-1944), a legendary sk
 - Jämtland has produced many of Sweden's greatest cross-country skiers
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Haldo Hansson Minne". Canonical: https://xcskilabs.com/race/haldo-hansson-minne/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Haldo Hansson Minne". Canonical: https://xcskilabs.com/race/haldo-hansson-minne/. Generated 2026-11-15.*

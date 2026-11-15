@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/marathon-du-grand-bec/"
 | Field Size | 800 |
 | Founded | 1985 |
 | Registration | Online registration |
+| Website | https://www.marathondugrandbec.com/ |
 
 ## Course
 
@@ -127,4 +128,4 @@ Founded around 1985, the Marathon du Grand Bec is a 42km skate marathon set in C
 - Marathon du Grand Bec 2020 (damien souvy)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon du Grand Bec". Canonical: https://xcskilabs.com/race/marathon-du-grand-bec/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon du Grand Bec". Canonical: https://xcskilabs.com/race/marathon-du-grand-bec/. Generated 2026-11-15.*

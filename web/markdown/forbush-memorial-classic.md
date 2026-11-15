@@ -100,4 +100,4 @@ The Forbush Memorial Classic is a small community ski race at Forbush Corner in 
 - Part of Michigan's grassroots Nordic community
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Forbush Memorial Classic". Canonical: https://xcskilabs.com/race/forbush-memorial-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Forbush Memorial Classic". Canonical: https://xcskilabs.com/race/forbush-memorial-classic/. Generated 2026-11-15.*

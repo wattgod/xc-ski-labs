@@ -116,4 +116,4 @@ The Pacific Northwest Loppet Series brings community Nordic racing to various ve
 > We got a good crowd showing up, they're expecting about sixty people to do the event today. Got a big day of skate skiing ahead of me and it is nine degrees out so it's cold but sounds like they got a warming hut fired up with Lakeshore bakery, hot juice so we'll be nourished throughout the day.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pacific Northwest Loppet Series". Canonical: https://xcskilabs.com/race/pac-nw-loppet-series/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pacific Northwest Loppet Series". Canonical: https://xcskilabs.com/race/pac-nw-loppet-series/. Generated 2026-11-15.*

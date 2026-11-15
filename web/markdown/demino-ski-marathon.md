@@ -128,4 +128,4 @@ Founded in 2007, the Demino Ski Marathon quickly established itself as Russia's 
 - XI Rostec Demino Ski Marathon - Marathon, 50 km Evgeniy Tikhonov #1358 (Eugene Tikhonov)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Demino Ski Marathon". Canonical: https://xcskilabs.com/race/demino-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Demino Ski Marathon". Canonical: https://xcskilabs.com/race/demino-ski-marathon/. Generated 2026-11-15.*

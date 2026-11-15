@@ -127,4 +127,4 @@ The Gatineau 55 (also known as the Gatineau Loppet) has been a fixture of easter
 > It was so cold the batteries died and it got very little footage. Next day was the freestyle or skate skiing day and the weather was much nicer - it was actually about 15 degrees warmer the second day.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gatineau 55". Canonical: https://xcskilabs.com/race/gatineau-55/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gatineau 55". Canonical: https://xcskilabs.com/race/gatineau-55/. Generated 2026-11-15.*

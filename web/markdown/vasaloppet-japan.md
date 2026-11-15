@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/vasaloppet-japan/"
 | Field Size | 2000 |
 | Founded | 1981 |
 | Registration | Online registration |
+| Website | https://www.vasaloppet.jp/ |
 
 ## Course
 
@@ -119,4 +120,4 @@ Founded in 1981, Vasaloppet Japan brought the Scandinavian long-distance skiing 
 - Vasaloppet 2026 - A Cross Country Ski Journey in Sweden Teacher Paul Sports (Teacher Paul Sports)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet Japan". Canonical: https://xcskilabs.com/race/vasaloppet-japan/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet Japan". Canonical: https://xcskilabs.com/race/vasaloppet-japan/. Generated 2026-11-15.*

@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/7-mila/"
 | Field Size | 600 |
 | Founded | 1980 |
 | Registration | Online registration |
+| Website | https://www.7-mila.se/ |
 
 ## Course
 
@@ -106,4 +107,4 @@ Founded around 1980, 7-Mila is a 76km classic race in Robertsfors, Västerbotten
 - Attracts dedicated endurance skiers from across northern Sweden
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — 7-Mila". Canonical: https://xcskilabs.com/race/7-mila/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — 7-Mila". Canonical: https://xcskilabs.com/race/7-mila/. Generated 2026-11-15.*

@@ -123,4 +123,4 @@ Founded in 1964 in the Troms region of northern Norway, Reistadløpet has become
 - POV: Reistadløpet (Magnus Waaler)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Reistadløpet". Canonical: https://xcskilabs.com/race/reistadlopet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Reistadløpet". Canonical: https://xcskilabs.com/race/reistadlopet/. Generated 2026-11-15.*

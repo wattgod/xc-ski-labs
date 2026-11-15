@@ -120,4 +120,4 @@ Galtuer Nordic Volumes is the season-closing leg of the Tirol3 Nordic Challenge,
 - Langlaufen in Galtür: Silvaparkloipe (Galtür - Tirol, Austria)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Galtuer Nordic Volumes". Canonical: https://xcskilabs.com/race/galtuer-nordic-volumes/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Galtuer Nordic Volumes". Canonical: https://xcskilabs.com/race/galtuer-nordic-volumes/. Generated 2026-11-15.*

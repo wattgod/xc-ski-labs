@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/ski-de-she/"
 | Discipline | classic |
 | Field Size | 150 |
 | Registration | Online registration — women only |
+| Website | https://www.birkie.com/ski/events/ski-de-she/ |
 
 ## Course
 
@@ -106,4 +107,4 @@ Ski de She is a women-only cross-country ski marathon held near Cable, Wisconsin
 - Benefits from the Birkebeiner trail grooming and infrastructure
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski de She". Canonical: https://xcskilabs.com/race/ski-de-she/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski de She". Canonical: https://xcskilabs.com/race/ski-de-she/. Generated 2026-11-15.*

@@ -113,4 +113,4 @@ The Spokane Loppet is part of the Inland Northwest's Nordic skiing community, of
 - Skijoring in Three Rivers Parks with Kristine Zellmer (Three Rivers Parks)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Spokane Loppet". Canonical: https://xcskilabs.com/race/spokane-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Spokane Loppet". Canonical: https://xcskilabs.com/race/spokane-loppet/. Generated 2026-11-15.*

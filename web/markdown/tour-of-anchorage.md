@@ -108,4 +108,4 @@ Founded in 1988, the Tour of Anchorage is Alaska's premier Nordic ski marathon. 
 - Anchorage is the only major US city where Nordic skiing is a mainstream sport
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tour of Anchorage". Canonical: https://xcskilabs.com/race/tour-of-anchorage/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tour of Anchorage". Canonical: https://xcskilabs.com/race/tour-of-anchorage/. Generated 2026-11-15.*

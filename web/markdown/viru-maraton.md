@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/viru-maraton/"
 | Discipline | skate |
 | Field Size | 450 |
 | Registration | Open registration via Estoloppet |
+| Website | https://www.estoloppet.ee/en/etapid?competition_id=455 |
 
 ## Course
 
@@ -117,4 +118,4 @@ The Viru Maraton is part of the Estoloppet series, Estonia's national circuit of
 - 35. Viru Maraton videokokkuvõte / 30.01.2021 / Estoloppet 2021 (Estoloppet)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Viru Maraton". Canonical: https://xcskilabs.com/race/viru-maraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Viru Maraton". Canonical: https://xcskilabs.com/race/viru-maraton/. Generated 2026-11-15.*

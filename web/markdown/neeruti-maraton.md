@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/neeruti-maraton/"
 | Discipline | skate |
 | Field Size | 350 |
 | Registration | Open registration via Estoloppet |
+| Website | https://www.estoloppet.ee/et/etapid?competition_id=458 |
 
 ## Course
 
@@ -124,4 +125,4 @@ The Neeruti Maraton is a skate-technique event in the Estoloppet series, held in
 - Vahur Leemets 26. Neeruti maratonist (Estoloppet)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Neeruti Maraton". Canonical: https://xcskilabs.com/race/neeruti-maraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Neeruti Maraton". Canonical: https://xcskilabs.com/race/neeruti-maraton/. Generated 2026-11-15.*

@@ -119,4 +119,4 @@ Idre Classic is a smaller Swedish ski marathon in the Dalarna mountain region ne
 > This has been quite a productive training camp... the track was really bad really good but uh and then it was a bit flushy but yeah a bit too warm nothing I can do about that.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Idre Classic". Canonical: https://xcskilabs.com/race/idre-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Idre Classic". Canonical: https://xcskilabs.com/race/idre-classic/. Generated 2026-11-15.*

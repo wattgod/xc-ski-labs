@@ -122,4 +122,4 @@ Founded in 2008, two years after the 2006 Turin Winter Olympics brought world-cl
 - Snowboard Ski Sestriere italy January 2017 speed run, slope #1 (Or Karpfen)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pragelato-Sestriere". Canonical: https://xcskilabs.com/race/pragelato-sestriere/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pragelato-Sestriere". Canonical: https://xcskilabs.com/race/pragelato-sestriere/. Generated 2026-11-15.*

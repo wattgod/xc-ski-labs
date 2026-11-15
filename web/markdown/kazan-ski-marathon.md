@@ -120,4 +120,4 @@ The Kazan Ski Marathon is held near Russia's third-largest city, the capital of 
 - Kazan - sports capital of Russia (Kazan marathon)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kazan Ski Marathon". Canonical: https://xcskilabs.com/race/kazan-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kazan Ski Marathon". Canonical: https://xcskilabs.com/race/kazan-ski-marathon/. Generated 2026-11-15.*

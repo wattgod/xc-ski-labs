@@ -124,4 +124,4 @@ Great Glen Trails has hosted Nordic racing since the mid-1990s at the base of Mo
 > Cross-country skiers are so down to earth, they're accessible. Usually they come from small towns, they have roots with the common people. They don't grow up in these huge gymnasiums, they grow up skiing in ten degree days getting their training in.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Glen Nordic Race Series". Canonical: https://xcskilabs.com/race/great-glen-nordic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Glen Nordic Race Series". Canonical: https://xcskilabs.com/race/great-glen-nordic/. Generated 2026-11-15.*

@@ -102,4 +102,4 @@ Founded in 1978 in Boden, Sweden's largest garrison town, where the military pre
 - Norrbotten county is Sweden's largest by area, smallest by population density
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Boden Ski Marathon". Canonical: https://xcskilabs.com/race/boden-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Boden Ski Marathon". Canonical: https://xcskilabs.com/race/boden-ski-marathon/. Generated 2026-11-15.*

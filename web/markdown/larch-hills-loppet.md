@@ -117,4 +117,4 @@ The Larch Hills Loppet is a community-driven Nordic ski event in the Shuswap reg
 > We served about 160 pounds of beef to 600 people - beef on a bun and hot dogs and burgers. The really best part is when people did their 15 or 20 or 30 kilometres and they show up here and they turn in their ticket they get a beef in a bun and then they say thank you to us.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Larch Hills Loppet". Canonical: https://xcskilabs.com/race/larch-hills-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Larch Hills Loppet". Canonical: https://xcskilabs.com/race/larch-hills-loppet/. Generated 2026-11-15.*

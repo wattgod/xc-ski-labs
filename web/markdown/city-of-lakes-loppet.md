@@ -126,4 +126,4 @@ Founded in 2003 by the Loppet Foundation, the City of Lakes Loppet was created t
 > 2012 winter season it has really played some Havoc upon lit organizers as well weatherwise we've had lack of snow and moderate temperatures really uh creating some issues for us so instead of having our events here in the Uptown area as we've have over the past 10 years we're taking our act north side to the jewel of all Nordic facilities in all of North America.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — City of Lakes Loppet". Canonical: https://xcskilabs.com/race/city-of-lakes-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — City of Lakes Loppet". Canonical: https://xcskilabs.com/race/city-of-lakes-loppet/. Generated 2026-11-15.*

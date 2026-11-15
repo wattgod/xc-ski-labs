@@ -104,4 +104,4 @@ Attraverso Campra is part of the Swiss Loppet series, uniquely representing Swit
 - swiss_loppet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Attraverso Campra". Canonical: https://xcskilabs.com/race/attraverso-campra/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Attraverso Campra". Canonical: https://xcskilabs.com/race/attraverso-campra/. Generated 2026-11-15.*

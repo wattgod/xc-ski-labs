@@ -106,4 +106,4 @@ Founded in 1978 in the Šumava mountains during the Czechoslovak era. The race t
 - The Šumava National Park protects over 680 square kilometers of ancient forest
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Šumava Loppet". Canonical: https://xcskilabs.com/race/sumava-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Šumava Loppet". Canonical: https://xcskilabs.com/race/sumava-loppet/. Generated 2026-11-15.*

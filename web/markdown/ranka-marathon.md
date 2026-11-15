@@ -111,4 +111,4 @@ The Ranka Kartonfabric Ski Marathon is a multi-distance freestyle event in the L
 - ski_classics_challengers
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ranka Marathon". Canonical: https://xcskilabs.com/race/ranka-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ranka Marathon". Canonical: https://xcskilabs.com/race/ranka-marathon/. Generated 2026-11-15.*

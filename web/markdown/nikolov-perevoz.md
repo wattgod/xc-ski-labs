@@ -115,4 +115,4 @@ Nikolov Perevoz is one of the premier events in the Russialoppet marathon series
 - Nikolov Perevoz 2019 / Николов Перевоз 2019 (GarAgeR)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Nikolov Perevoz". Canonical: https://xcskilabs.com/race/nikolov-perevoz/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Nikolov Perevoz". Canonical: https://xcskilabs.com/race/nikolov-perevoz/. Generated 2026-11-15.*

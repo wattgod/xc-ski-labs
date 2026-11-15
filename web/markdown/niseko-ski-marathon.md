@@ -127,4 +127,4 @@ Founded in 1982 as Hokkaido's premier citizen XC ski marathon, the Niseko Ski Ma
 > The 50 kilometer event with a course set in the world renowned beautiful wilderness of Sapporo will give satisfaction to both full-fledged competitors and enthusiasts.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Niseko Ski Marathon". Canonical: https://xcskilabs.com/race/niseko-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Niseko Ski Marathon". Canonical: https://xcskilabs.com/race/niseko-ski-marathon/. Generated 2026-11-15.*

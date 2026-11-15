@@ -117,4 +117,4 @@ The Tour de Gaspé is a multi-day Nordic ski expedition traversing Quebec's remo
 - The Best Places to visit in Canada - Gaspésie Peninsula (Discover Canada series) (Akyia Media Productions)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tour de Gaspé". Canonical: https://xcskilabs.com/race/tour-de-gaspe/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tour de Gaspé". Canonical: https://xcskilabs.com/race/tour-de-gaspe/. Generated 2026-11-15.*

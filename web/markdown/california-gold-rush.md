@@ -126,4 +126,4 @@ The California Gold Rush takes its name from the state's famous 1849 gold rush a
 - California's Gold S01E12 Lost Sierra (CA's Gold Fan)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — California Gold Rush". Canonical: https://xcskilabs.com/race/california-gold-rush/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — California Gold Rush". Canonical: https://xcskilabs.com/race/california-gold-rush/. Generated 2026-11-15.*

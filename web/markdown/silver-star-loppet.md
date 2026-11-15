@@ -104,4 +104,4 @@ Established in 2001 on the Sovereign Lake Nordic Centre trails near Silver Star 
 - The trail network connects to the Sovereign to Silver Star point-to-point race route
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Silver Star Loppet". Canonical: https://xcskilabs.com/race/silver-star-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Silver Star Loppet". Canonical: https://xcskilabs.com/race/silver-star-loppet/. Generated 2026-11-15.*

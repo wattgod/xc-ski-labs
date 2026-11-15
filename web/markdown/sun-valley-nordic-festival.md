@@ -121,4 +121,4 @@ Sun Valley has been a skiing destination since 1936 when the Union Pacific Railr
 > It's amazing the trails are awesome. They call it Nordic town USA and it's no wonder - as far as just kilometers of trail facilities for Nordic skiers, different venues and then the community that we have here, I'm hard pressed to think of any other town in the country that can compete with Sun Valley for cross-country skiing.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sun Valley Nordic Festival". Canonical: https://xcskilabs.com/race/sun-valley-nordic-festival/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sun Valley Nordic Festival". Canonical: https://xcskilabs.com/race/sun-valley-nordic-festival/. Generated 2026-11-15.*

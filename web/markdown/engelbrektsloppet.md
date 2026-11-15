@@ -124,4 +124,4 @@ Founded in 1969 and named after Engelbrekt Engelbrektsson, a 15th-century Swedis
 - Tävlingsmoment Skidor 2018 – Engelbrektsloppet/Vasaloppet (Skolklassikern)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engelbrektsloppet". Canonical: https://xcskilabs.com/race/engelbrektsloppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engelbrektsloppet". Canonical: https://xcskilabs.com/race/engelbrektsloppet/. Generated 2026-11-15.*

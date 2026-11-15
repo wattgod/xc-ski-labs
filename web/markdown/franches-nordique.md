@@ -104,4 +104,4 @@ Franches Nordique is a Swiss Loppet series race through the Franches-Montagnes r
 - swiss_loppet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Franches Nordique". Canonical: https://xcskilabs.com/race/franches-nordique/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Franches Nordique". Canonical: https://xcskilabs.com/race/franches-nordique/. Generated 2026-11-15.*

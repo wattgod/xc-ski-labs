@@ -118,4 +118,4 @@ The Svalbard Ski Marathon has been held since 1993 in Longyearbyen, the main set
 - Svalbard Ski Marathon 2014 (Lättja If)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Svalbard Ski Marathon". Canonical: https://xcskilabs.com/race/svalbard-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Svalbard Ski Marathon". Canonical: https://xcskilabs.com/race/svalbard-ski-marathon/. Generated 2026-11-15.*

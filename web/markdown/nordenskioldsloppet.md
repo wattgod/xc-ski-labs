@@ -124,4 +124,4 @@ Founded in 1884, Nordenskiöldsloppet is the world's longest cross-country ski r
 > I could see after one hour my heart rate started dropping from like 185 I could top at 185 and then after two laps one hour around one hour it started dropping so I couldn't even get to that beats per minute so that was obviously because I didn't eat as much energy as I should.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Nordenskiöldsloppet". Canonical: https://xcskilabs.com/race/nordenskioldsloppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Nordenskiöldsloppet". Canonical: https://xcskilabs.com/race/nordenskioldsloppet/. Generated 2026-11-15.*

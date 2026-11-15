@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/kananaskis-ski-marathon/"
 | Field Size | 500 |
 | Founded | 2005 |
 | Registration | Opens in autumn; limited field |
+| Website | https://www.foothillsnordic.ca/cookie-race |
 
 ## Course
 
@@ -122,4 +123,4 @@ A relatively young race established in the mid-2000s to showcase the Kananaskis 
 > It's not so bad if you put your weight really low. I don't know why that happened because I look back I didn't realize... down the curve I kind of got intimidated by this.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kananaskis Ski Marathon". Canonical: https://xcskilabs.com/race/kananaskis-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kananaskis Ski Marathon". Canonical: https://xcskilabs.com/race/kananaskis-ski-marathon/. Generated 2026-11-15.*

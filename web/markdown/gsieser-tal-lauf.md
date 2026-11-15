@@ -128,4 +128,4 @@ Founded in 1984, the Gsieser Tal Lauf has built its reputation on one extraordin
 - Gsieser Tal Lauf 2020 Classic - Highlights (Gsiesertallauf)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gsieser Tal Lauf". Canonical: https://xcskilabs.com/race/gsieser-tal-lauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gsieser Tal Lauf". Canonical: https://xcskilabs.com/race/gsieser-tal-lauf/. Generated 2026-11-15.*

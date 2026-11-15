@@ -55,18 +55,18 @@ def date_specific(race: dict[str, Any]) -> str:
 
 
 def parse_race_date(raw: str, today: date) -> date | None:
+    """The profile's stated date, as written. A past date stays past: it is
+    never rolled forward a year, which would publish a guessed date as the
+    next edition (sweep XC-04). Callers drop dates before ``today``."""
     text = raw.strip()
     if not text:
         return None
     iso = re.search(r"(20\d{2})-(\d{1,2})-(\d{1,2})", text)
     if iso:
-        parsed = date(int(iso.group(1)), int(iso.group(2)), int(iso.group(3)))
-        while parsed < today:
-            try:
-                parsed = parsed.replace(year=parsed.year + 1)
-            except ValueError:
-                parsed = parsed.replace(year=parsed.year + 1, day=28)
-        return parsed
+        try:
+            return date(int(iso.group(1)), int(iso.group(2)), int(iso.group(3)))
+        except ValueError:
+            return None
     match = re.search(
         r"(?:(20\d{2})\s*:\s*)?"
         r"(January|February|March|April|May|June|July|August|September|October|November|December)"
@@ -76,18 +76,16 @@ def parse_race_date(raw: str, today: date) -> date | None:
     )
     if not match:
         return None
-    year = int(match.group(1)) if match.group(1) else today.year
+    if not match.group(1):
+        # No year: the profile doesn't say which edition, so there is no date.
+        return None
+    year = int(match.group(1))
     month = MONTHS[match.group(2).lower()]
     day = int(match.group(3))
     try:
         parsed = date(year, month, day)
     except ValueError:
         return None
-    while parsed < today:
-        try:
-            parsed = parsed.replace(year=parsed.year + 1)
-        except ValueError:
-            parsed = parsed.replace(year=parsed.year + 1, day=28)
     return parsed
 
 

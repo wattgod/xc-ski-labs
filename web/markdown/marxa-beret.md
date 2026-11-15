@@ -132,4 +132,4 @@ Founded in 1981, the Marxa Beret is Spain's premier cross-country ski race, held
 > This race started as a popular race - people from the villages came to practice nordic ski, and then a few years later it starts to be a competitive race championship with 35 years of history.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marxa Beret". Canonical: https://xcskilabs.com/race/marxa-beret/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marxa Beret". Canonical: https://xcskilabs.com/race/marxa-beret/. Generated 2026-11-15.*

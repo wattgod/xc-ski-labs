@@ -134,4 +134,4 @@ The Kangaroo Hoppet was founded in 1991 (with a precursor event in 1979) at Fall
 > That was really fun. The boys kind of strung it out and so I was a little bit alone but then I caught up to Liam and Kristoff and we skied together a bit. Got a little bit soft at the end, but it was really good up there.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kangaroo Hoppet". Canonical: https://xcskilabs.com/race/kangaroo-hoppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kangaroo Hoppet". Canonical: https://xcskilabs.com/race/kangaroo-hoppet/. Generated 2026-11-15.*
