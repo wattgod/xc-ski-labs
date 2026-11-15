@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Michigan"
 location: "Traverse City"
-date: "2026: February 7"
+date: "2027: February 13-14"
 url: "https://xcskilabs.com/race/north-american-vasa/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/north-american-vasa/"
 | Altitude | 300 m |
 | Location | Traverse City |
 | Country | United States |
-| Date | 2026: February 7 |
+| Date | 2027: February 13-14 |
 | Discipline | both |
 | Field Size | 1000 |
 | Founded | 1977 |
@@ -126,4 +126,4 @@ Founded in 1977, the North American Vasa takes its name from the Swedish Vasalop
 > The downhills are scary - these skis do not have a metal edge so the snow plowing is only marginally effective and you can see the skis just skittering all over.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — North American Vasa". Canonical: https://xcskilabs.com/race/north-american-vasa/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — North American Vasa". Canonical: https://xcskilabs.com/race/north-american-vasa/. Generated 2026-11-15.*

@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Upper Midwest"
 location: "Mora, Minnesota"
-date: "2026: February 8"
+date: "2027: February 13-14"
 url: "https://xcskilabs.com/race/vasaloppet-usa/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/vasaloppet-usa/"
 | Altitude | 430 m |
 | Location | Mora, Minnesota |
 | Country | United States |
-| Date | 2026: February 8 |
+| Date | 2027: February 13-14 |
 | Discipline | both |
 | Field Size | 3000 |
 | Founded | 1973 |
@@ -120,4 +120,4 @@ Founded in 1973 by a group of Scandinavian-Americans in Mora, Minnesota — a to
 - Introducing Moraloppet Ski for the Cure Ribbon Tying (VasaloppetUSA)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet USA". Canonical: https://xcskilabs.com/race/vasaloppet-usa/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet USA". Canonical: https://xcskilabs.com/race/vasaloppet-usa/. Generated 2026-11-15.*

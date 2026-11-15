@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Washington"
 location: "Methow Valley"
-date: "2026: February 28"
+date: "2027: February 6"
 url: "https://xcskilabs.com/race/ski-to-the-sun/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/ski-to-the-sun/"
 | Altitude | 750 m |
 | Location | Methow Valley |
 | Country | United States |
-| Date | 2026: February 28 |
+| Date | 2027: February 6 |
 | Discipline | both |
 | Field Size | 400 |
 | Founded | 2019 |
@@ -126,4 +126,4 @@ Founded in 2019, Ski to the Sun is a relatively new race that leverages the Meth
 > It was so fun and beautiful to ski through the trees and to end that's such a perfect place like the Sun Mountain Lodge... we could not have hoped for more perfect weather or more perfect tracks.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski to the Sun". Canonical: https://xcskilabs.com/race/ski-to-the-sun/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski to the Sun". Canonical: https://xcskilabs.com/race/ski-to-the-sun/. Generated 2026-11-15.*

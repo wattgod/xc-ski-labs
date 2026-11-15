@@ -8,7 +8,7 @@ discipline: "both"
 country: "France"
 region: "Auvergne-Rhône-Alpes"
 location: "Bessans"
-date: "2026: January 17"
+date: "2027: January 9-10"
 url: "https://xcskilabs.com/race/marathon-de-bessans/"
 ---
 
@@ -28,11 +28,12 @@ url: "https://xcskilabs.com/race/marathon-de-bessans/"
 | Altitude | 1,750 m |
 | Location | Bessans |
 | Country | France |
-| Date | 2026: January 17 |
+| Date | 2027: January 9-10 |
 | Discipline | both |
 | Field Size | 1500 |
 | Founded | 1979 |
 | Registration | Online registration; opens in autumn |
+| Website | https://www.marathondebessans.com/ |
 
 ## Course
 
@@ -129,4 +130,4 @@ Founded in 1979, the Marathon de Bessans has served as Europe's season-opening s
 > It's so cold, but in the sun it's perfect. I think it's minus 20 here. Slow condition and difficult to ski in the cold, but then I can eat a lot, so I'm happy.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon de Bessans". Canonical: https://xcskilabs.com/race/marathon-de-bessans/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon de Bessans". Canonical: https://xcskilabs.com/race/marathon-de-bessans/. Generated 2026-11-15.*

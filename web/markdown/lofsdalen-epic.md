@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Harjedalen"
 location: "Lofsdalen, Harjedalen"
-date: "2026: March 28"
+date: "2027: March 20"
 url: "https://xcskilabs.com/race/lofsdalen-epic/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/lofsdalen-epic/"
 | Altitude | 600 m |
 | Location | Lofsdalen, Harjedalen |
 | Country | Sweden |
-| Date | 2026: March 28 |
+| Date | 2027: March 20 |
 | Discipline | classic |
 | Field Size | 300 |
 | Founded | 2010 |
@@ -121,4 +121,4 @@ Lofsdalen Epic is one of the newer additions to the Swedish long-distance ski ca
 - Stina Nilsson vinner Lofsdalen Epic 2025! (Långloppspodden)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lofsdalen Epic". Canonical: https://xcskilabs.com/race/lofsdalen-epic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lofsdalen Epic". Canonical: https://xcskilabs.com/race/lofsdalen-epic/. Generated 2026-11-15.*

@@ -1,15 +1,21 @@
 name: Link Check
 
 # Weekly dead-link sweep of the live site. A red run means something a visitor
-# can click is broken, including race-page CTAs sampled from the live sitemap.
-# Exit codes: 1 = dead links (broken for visitors); 2 = inconclusive (the
-# scan tripped SiteGround's WAF bot-challenge and could not verify) — both
-# are red, but 2 usually just needs a re-run, not a fix.
+# can click is broken, including race-page CTAs sampled from the live sitemap,
+# or that the site has gone unchecked two runs in a row.
+# check_links.py exit codes: 1 = dead links; 2 = inconclusive (the scan
+# tripped SiteGround's WAF bot-challenge and could not verify anything).
+# scripts/link_check_verdict.py passes one inconclusive run with a warning
+# and fails the second in a row; each run stores its outcome as an artifact.
 
 on:
   schedule:
     - cron: "0 12 * * 3"   # Wednesdays 12:00 UTC
   workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
 
 jobs:
   check-links:
@@ -21,15 +27,34 @@ jobs:
         with:
           python-version: "3.12"
       - name: Check live links (xcskilabs.com)
+        id: scan
         run: |
           status=0
           python3 scripts/check_links.py --max-urls 300 --delay 0.4 || status=$?
-          # Exit 2 = inconclusive: the WAF challenged this datacenter runner,
-          # so nothing was proven dead OR alive. Warn-and-pass — a red here
-          # would fire most weeks from runner IPs alone. The nightly immune
-          # scan from a residential IP is the authoritative challenge monitor.
-          if [ "$status" = "2" ]; then
-            echo "::warning::Link check INCONCLUSIVE — SiteGround WAF challenged the runner; dead-link status unverified this run"
-            exit 0
+          echo "rc=$status" >> "$GITHUB_OUTPUT"
+      - name: Fetch the previous run's outcome
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p prev
+          prev_id=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow link-check.yml --status completed --limit 1 --json databaseId --jq '.[0].databaseId // empty')
+          if [ -n "$prev_id" ]; then
+            gh run download "$prev_id" --repo "$GITHUB_REPOSITORY" -n link-check-status -D prev || echo "Previous run $prev_id has no outcome artifact."
+          else
+            echo "No previous completed run."
           fi
-          exit "$status"
+      - name: Verdict
+        id: verdict
+        run: |
+          code=0
+          python3 scripts/link_check_verdict.py --rc "${{ steps.scan.outputs.rc }}" --previous prev/status.txt --out status/status.txt || code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+      - name: Record this run's outcome
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-status
+          path: status/status.txt
+          retention-days: 90
+      - name: Fail on dead links or a repeat inconclusive run
+        if: steps.verdict.outputs.code != '0'
+        run: exit 1

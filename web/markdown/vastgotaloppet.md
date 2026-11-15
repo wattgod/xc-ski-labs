@@ -8,7 +8,7 @@ discipline: "both"
 country: "Sweden"
 region: "Vastergotland"
 location: "Lassalyckan, Ulricehamn, Vastergotland"
-date: "2026: January 31 (Skate), February 1 (Classic)"
+date: "2027: February 6-7"
 url: "https://xcskilabs.com/race/vastgotaloppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/vastgotaloppet/"
 | Altitude | 300 m |
 | Location | Lassalyckan, Ulricehamn, Vastergotland |
 | Country | Sweden |
-| Date | 2026: January 31 (Skate), February 1 (Classic) |
+| Date | 2027: February 6-7 |
 | Discipline | both |
 | Field Size | 1000 |
 | Founded | 2000 |
@@ -110,4 +110,4 @@ Västgötaloppet emerged in the early 2000s at Lassalyckan in Ulricehamn, wester
 - ski_classics_challengers
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Västgötaloppet". Canonical: https://xcskilabs.com/race/vastgotaloppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Västgötaloppet". Canonical: https://xcskilabs.com/race/vastgotaloppet/. Generated 2026-11-15.*

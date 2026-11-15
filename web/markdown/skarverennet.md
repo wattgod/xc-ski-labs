@@ -8,7 +8,7 @@ discipline: "skate"
 country: "Norway"
 region: "Buskerud/Vestland"
 location: "Geilo/Finse to Ustaoset area"
-date: "2026: April 25"
+date: "2027: April 17"
 url: "https://xcskilabs.com/race/skarverennet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/skarverennet/"
 | Altitude | 1,200 m |
 | Location | Geilo/Finse to Ustaoset area |
 | Country | Norway |
-| Date | 2026: April 25 |
+| Date | 2027: April 17 |
 | Discipline | both |
 | Field Size | 12000 |
 | Founded | 1974 |
@@ -125,4 +125,4 @@ Founded in 1974, Skarverennet has grown to become Norway's largest ski race by p
 > Try to find the best route, avoiding the bare patches, the heather, the little streams and ponds that are scattering the tracks. To get uphill on cross country skis, you have to herringbone.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Skarverennet". Canonical: https://xcskilabs.com/race/skarverennet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Skarverennet". Canonical: https://xcskilabs.com/race/skarverennet/. Generated 2026-11-15.*

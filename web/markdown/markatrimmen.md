@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Norway"
 region: "Trondelag"
 location: "Bymarka, Trondheim"
-date: "2026: February 7"
+date: "2027: February 6"
 url: "https://xcskilabs.com/race/markatrimmen/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/markatrimmen/"
 | Altitude | 300 m |
 | Location | Bymarka, Trondheim |
 | Country | Norway |
-| Date | 2026: February 7 |
+| Date | 2027: February 6 |
 | Discipline | classic |
 | Field Size | 400 |
 | Registration | Online registration |
@@ -106,4 +106,4 @@ Markatrimmen is a classic Norwegian turrenn (citizen ski race) organized by Tron
 - Multiple distance options from 30km to 50km
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Markatrimmen". Canonical: https://xcskilabs.com/race/markatrimmen/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Markatrimmen". Canonical: https://xcskilabs.com/race/markatrimmen/. Generated 2026-11-15.*

@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Norway"
 region: "Northern Norway"
 location: "Bardufoss to Finnsnes"
-date: "2026: March 29"
+date: "2027: April 4"
 url: "https://xcskilabs.com/race/summit-2-senja/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/summit-2-senja/"
 | Altitude | 300 m |
 | Location | Bardufoss to Finnsnes |
 | Country | Norway |
-| Date | 2026: March 29 |
+| Date | 2027: April 4 |
 | Discipline | classic |
 | Field Size | 250 |
 | Founded | 2024 |
@@ -116,4 +116,4 @@ Summit 2 Senja is the Ski Classics Pro Tour Grand Finale, first held in 2024 as 
 - ski_classics_pro_tour
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Summit 2 Senja". Canonical: https://xcskilabs.com/race/summit-2-senja/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Summit 2 Senja". Canonical: https://xcskilabs.com/race/summit-2-senja/. Generated 2026-11-15.*

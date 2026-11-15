@@ -8,7 +8,7 @@ discipline: "both"
 country: "Finland"
 region: "Lapland"
 location: "Ylläsjärvi to Levi"
-date: "2026: April 18"
+date: "2027: April 2-3"
 url: "https://xcskilabs.com/race/yllas-levi-hiihto/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/yllas-levi-hiihto/"
 | Altitude | 700 m |
 | Location | Ylläsjärvi to Levi |
 | Country | Finland |
-| Date | 2026: April 18 |
+| Date | 2027: April 2-3 |
 | Discipline | both |
 | Field Size | 2000 |
 | Founded | 1985 |
@@ -132,4 +132,4 @@ Founded in 1985, the Ylläs-Levi Hiihto is one of Finnish Lapland's premier ski 
 > In this weather condition I have zero grip, zero. I think probably the ski is wet I don't know but I don't have any grip.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ylläs-Levi Hiihto". Canonical: https://xcskilabs.com/race/yllas-levi-hiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ylläs-Levi Hiihto". Canonical: https://xcskilabs.com/race/yllas-levi-hiihto/. Generated 2026-11-15.*

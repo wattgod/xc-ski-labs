@@ -8,7 +8,7 @@ discipline: "classic"
 country: "United States"
 region: "Upper Midwest"
 location: "Lutsen / North Shore"
-date: "2026: March 7"
+date: "2027: March 6"
 url: "https://xcskilabs.com/race/ski-north-ultra/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/ski-north-ultra/"
 | Altitude | 400 m |
 | Location | Lutsen / North Shore |
 | Country | United States |
-| Date | 2026: March 7 |
+| Date | 2027: March 6 |
 | Discipline | classic |
 | Field Size | 100 |
 | Founded | 2025 |
@@ -110,4 +110,4 @@ Ski North Ultra launched in 2025 as one of North America's very few 100km cross-
 - Fills a gap for ultra-distance classic skiing in North America
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski North Ultra". Canonical: https://xcskilabs.com/race/ski-north-ultra/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski North Ultra". Canonical: https://xcskilabs.com/race/ski-north-ultra/. Generated 2026-11-15.*

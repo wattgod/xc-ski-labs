@@ -8,7 +8,7 @@ discipline: "both"
 country: "Finland"
 region: "North Karelia"
 location: "Ilomantsi, North Karelia"
-date: "2026: March 14"
+date: "2027: March 6"
 url: "https://xcskilabs.com/race/pogostan-hiihto/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/pogostan-hiihto/"
 | Altitude | 200 m |
 | Location | Ilomantsi, North Karelia |
 | Country | Finland |
-| Date | 2026: March 14 |
+| Date | 2027: March 6 |
 | Discipline | both |
 | Field Size | 500 |
 | Founded | 1960 |
@@ -123,4 +123,4 @@ Pogostan Hiihto is one of Finland's longest-established mass skiing events, dati
 - Pogostan Hiihtoon osallistuva Vesa Suomalainen Radio Pogostan haastateltavana (Radio Pogosta)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pogostan Hiihto". Canonical: https://xcskilabs.com/race/pogostan-hiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pogostan Hiihto". Canonical: https://xcskilabs.com/race/pogostan-hiihto/. Generated 2026-11-15.*

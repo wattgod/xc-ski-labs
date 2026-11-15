@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Norway"
 region: "Nordland"
 location: "Sulitjelma to Fauske"
-date: "2026: April 11"
+date: "2027: April 17"
 url: "https://xcskilabs.com/race/kobberlopet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/kobberlopet/"
 | Altitude | 500 m |
 | Location | Sulitjelma to Fauske |
 | Country | Norway |
-| Date | 2026: April 11 |
+| Date | 2027: April 17 |
 | Discipline | classic |
 | Field Size | 800 |
 | Founded | 1968 |
@@ -124,4 +124,4 @@ Founded in 1968, Kobberløpet is named after the copper mining heritage of Sulit
 - Starten i Kobberløpet 43 kilometer (Bodø Nu)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kobberløpet". Canonical: https://xcskilabs.com/race/kobberlopet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kobberløpet". Canonical: https://xcskilabs.com/race/kobberlopet/. Generated 2026-11-15.*

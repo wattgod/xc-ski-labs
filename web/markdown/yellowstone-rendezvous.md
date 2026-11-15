@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Rocky Mountains"
 location: "West Yellowstone"
-date: "2026: March 7"
+date: "2027: March 6"
 url: "https://xcskilabs.com/race/yellowstone-rendezvous/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/yellowstone-rendezvous/"
 | Altitude | 2,012 m |
 | Location | West Yellowstone |
 | Country | United States |
-| Date | 2026: March 7 |
+| Date | 2027: March 6 |
 | Discipline | both |
 | Field Size | 1000 |
 | Founded | 1981 |
@@ -118,4 +118,4 @@ Founded in 1981, the Yellowstone Rendezvous has become one of the premier ski ma
 - LNR West Yellowstone Ski Festival Highlights (Loppet Foundation)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Yellowstone Rendezvous". Canonical: https://xcskilabs.com/race/yellowstone-rendezvous/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Yellowstone Rendezvous". Canonical: https://xcskilabs.com/race/yellowstone-rendezvous/. Generated 2026-11-15.*

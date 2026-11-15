@@ -8,7 +8,7 @@ discipline: "both"
 country: "Canada"
 region: "British Columbia"
 location: "Whistler Olympic Park"
-date: "2026: February 14"
+date: "2027: February 27"
 url: "https://xcskilabs.com/race/payakentsut/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/payakentsut/"
 | Altitude | 850 m |
 | Location | Whistler Olympic Park |
 | Country | Canada |
-| Date | 2026: February 14 |
+| Date | 2027: February 27 |
 | Discipline | both |
 | Field Size | 500 |
 | Founded | 2011 |
@@ -108,4 +108,4 @@ Founded in 2011, Payakentsut was created to activate the 2010 Vancouver Winter O
 - The venue regularly hosts national-level and World Cup junior competitions
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Payakentsut". Canonical: https://xcskilabs.com/race/payakentsut/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Payakentsut". Canonical: https://xcskilabs.com/race/payakentsut/. Generated 2026-11-15.*

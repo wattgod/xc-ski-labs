@@ -8,7 +8,7 @@ discipline: "skate"
 country: "United States"
 region: "Pacific Northwest"
 location: "Mt. Bachelor to Wanoga Sno Park, Bend"
-date: "2026: February 1"
+date: "2027: February 27"
 url: "https://xcskilabs.com/race/great-nordeen/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/great-nordeen/"
 | Altitude | 1,900 m |
 | Location | Mt. Bachelor to Wanoga Sno Park, Bend |
 | Country | United States |
-| Date | 2026: February 1 |
+| Date | 2027: February 27 |
 | Discipline | skate |
 | Field Size | 200 |
 | Founded | 2004 |
@@ -108,4 +108,4 @@ The Great Nordeen is Central Oregon's largest cross-country ski race, first held
 - Bend, Oregon is one of America's premier outdoor recreation towns
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Nordeen". Canonical: https://xcskilabs.com/race/great-nordeen/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Nordeen". Canonical: https://xcskilabs.com/race/great-nordeen/. Generated 2026-11-15.*

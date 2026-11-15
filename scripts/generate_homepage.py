@@ -1352,7 +1352,7 @@ a:focus-visible, button:focus-visible {{
       <div class="gl-rung">
         <span class="gl-rung-kicker">Plan</span>
         <h3>Custom plan</h3>
-        <p>Your race, your hours, your history. Built from the intake.</p>
+        <p>Your race, your hours, your history. I build it from your answers.</p>
         <span class="gl-rung-price">{esc(plan_offer.BLOCK_PRICE)} / {plan_offer.BLOCK_WEEKS} WK</span><br>
         <a class="gl-rung-btn" href="/training-plans/">See the plan</a>
       </div>
