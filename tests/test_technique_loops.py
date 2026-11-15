@@ -1,4 +1,4 @@
-"""Technique loops: Gravel God skiing each classic technique (scripts/xsl_loops.py)."""
+"""Technique loops: Gravel God skiing each technique (scripts/xsl_loops.py)."""
 
 import importlib.util
 import json
@@ -22,8 +22,7 @@ def _load(name, path):
     return module
 
 
-@pytest.mark.parametrize("tech", sorted(xsl_loops.LOOPS))
-@pytest.mark.parametrize("shape", sorted(xsl_loops.SIZES))
+@pytest.mark.parametrize("tech,shape", [(t, sh) for t in sorted(xsl_loops.LOOPS) for sh in xsl_loops.shapes(t)])
 def test_every_loop_has_web_sized_video_and_poster(tech, shape):
     mp4, jpg = xsl_loops.media_files(tech, shape)
     assert mp4.exists() and jpg.exists(), f"missing media for {tech}/{shape}"
@@ -38,9 +37,33 @@ def test_figure_is_lazy_muted_inline_and_decorative():
                  'poster="/media/loops/diagonal_square.jpg"'):
         assert attr in video
     assert " src=" not in video, "the video must not download before it scrolls into view"
-    assert "Diagonal stride" in html
+    assert "Diagonal stride" in html and 'data-name="Diagonal stride"' in video
     # The caption is the technique name only: no gear or cycle-time line under the loop.
     assert "Climbing gear" not in html and "cycle" not in html
+
+
+def test_a_loop_is_only_offered_in_shapes_it_was_rendered_in():
+    assert xsl_loops.shapes("v2_front") == ("portrait",)
+    assert xsl_loops.shapes("diagonal") == ("wide", "square")
+    with pytest.raises(ValueError):
+        xsl_loops.loop_figure("v2_front", "square")
+    with pytest.raises(ValueError):
+        xsl_loops.loop_figure("diagonal", "portrait")
+
+
+def test_homepage_hero_has_the_front_on_skate_loop_beside_the_title():
+    gen = _load("generate_homepage", SCRIPTS_DIR / "generate_homepage.py")
+    html = gen.generate_homepage(gen.load_all_races(PROJECT_ROOT / "race-data"))
+    hero = html[html.index('<section class="hero">'):]
+    hero = hero[:hero.index("</section>")]
+    copy_end = hero.index("</div>", hero.index('class="hero-copy"'))
+    assert "<h1>" in hero[:copy_end] and 'class="hero-cta"' in hero[:copy_end]
+    loop = hero[copy_end:]
+    video = re.search(r"<video[^>]*>", loop).group(0)
+    assert 'data-src="/media/loops/v2_front_portrait.mp4"' in video and 'poster="/media/loops/v2_front_portrait.jpg"' in video
+    assert 'preload="none"' in video and " src=" not in video          # lazy: nothing downloads up front
+    assert "<figcaption" not in loop                                    # no caption under the animation
+    assert "grid-template-columns: minmax(0, 1fr) clamp(260px, 30vw, 400px)" in html
 
 
 def test_loop_script_respects_reduced_motion_and_guards_entries():
@@ -48,6 +71,11 @@ def test_loop_script_respects_reduced_motion_and_guards_entries():
     assert "prefers-reduced-motion: reduce" in js
     assert js.index("if (mq && mq.matches) return;") < js.index("IntersectionObserver(")
     assert "addEventListener('change'" in js and "v.pause()" in js     # turned on mid-visit: loops stop
+    assert "v.removeAttribute('src'); v.load();" in js                 # ...and go back to the poster frame
+    # a pause control, added only when a loop plays (after the reduced-motion early return)
+    assert js.index("if (mq && mq.matches) return;") < js.index("function toggle(")
+    assert "(off ? 'Play ' : 'Pause ') + what + ' animation'" in js and "aria-pressed" not in js
+    assert "addEventListener('playing'" in js                          # no button when autoplay is refused
     assert "!entries.length" in js                      # pitfall #33
     assert "requestAnimationFrame" in js
 

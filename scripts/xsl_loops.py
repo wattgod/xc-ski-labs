@@ -1,7 +1,8 @@
-"""Technique loops: Gravel God skiing each classic technique, printed like a 1970s Nordic race poster.
+"""Technique loops: Gravel God skiing each technique, printed like a 1970s Nordic race poster.
 
 The motion is motion-captured from Matti's own XC Ski Labs course videos and rendered by
-wattgod/gravel-god-character (`rig/print_loops.py`). The files live in web/media/loops/ and deploy to
+wattgod/gravel-god-character: classic side-on by `rig/print_loops.py` (wide + square), V2 skate front-on by
+`rig/print_skate.py` (portrait, for the homepage hero). The files live in web/media/loops/ and deploy to
 /media/loops/ (scripts/deploy.py --sync-media). Each loop is a whole number of technique cycles, so it repeats
 seamlessly.
 
@@ -18,7 +19,7 @@ from pathlib import Path
 
 MEDIA_URL = "/media/loops"
 MEDIA_DIR = Path(__file__).resolve().parent.parent / "web" / "media" / "loops"
-SIZES = {"wide": (1280, 720), "square": (900, 900)}
+SIZES = {"wide": (1280, 720), "square": (900, 900), "portrait": (960, 1200)}
 
 # technique -> (name, gear / role, cycle seconds). Names and gear labels match the guide's "Classic gears".
 LOOPS = {
@@ -30,9 +31,19 @@ LOOPS = {
     "nopoles": ("No-poles drill", "Diagonal stride drill", 1.12),
     "singlestick": ("Single-stick drill", "Diagonal stride drill", 1.22),
     "frozendp": ("Frozen double-pole drill", "Double-pole drill", 1.09),
+    "v2_front": ("V2 skate", "Skating gear", 1.83),
 }
 
-# race discipline -> the loop that fits it (skate has no captured technique yet)
+# technique -> the shapes it is rendered in (every other technique: wide and square)
+LOOP_SHAPES = {"v2_front": ("portrait",)}
+
+
+def shapes(tech: str) -> tuple[str, ...]:
+    return LOOP_SHAPES.get(tech, ("wide", "square"))
+
+
+# race discipline -> the loop that fits it. Skate races get none: the one skate loop is a portrait made for the
+# homepage hero, and race pages show square loops.
 DISCIPLINE_LOOP = {"classic": "diagonal", "both": "kickdp"}
 
 
@@ -55,6 +66,8 @@ def media_files(tech: str, shape: str) -> tuple[Path, Path]:
 def loop_figure(tech: str, shape: str = "wide", caption: bool = True, extra_class: str = "") -> str:
     """One technique loop. The video is decorative (aria-hidden); the caption carries the technique name."""
     name = LOOPS[tech][0]
+    if shape not in shapes(tech):
+        raise ValueError(f"{tech} is not rendered as {shape}; it exists as {', '.join(shapes(tech))}")
     w, h = SIZES[shape]
     stem = f"{MEDIA_URL}/{tech}_{shape}"
     cap = (f'<figcaption class="xsl-loop-cap"><span class="xsl-loop-name">{html.escape(name)}</span></figcaption>'
@@ -62,7 +75,7 @@ def loop_figure(tech: str, shape: str = "wide", caption: bool = True, extra_clas
     cls = f"xsl-loop xsl-loop--{shape}" + (f" {extra_class}" if extra_class else "")
     return (f'<figure class="{cls}" data-xsl-loop>'
             f'<div class="xsl-loop-frame"><video class="xsl-loop-video" muted loop playsinline preload="none" '
-            f'poster="{stem}.jpg" data-src="{stem}.mp4" width="{w}" height="{h}" aria-hidden="true"></video></div>'
+            f'poster="{stem}.jpg" data-src="{stem}.mp4" data-name="{html.escape(name)}" width="{w}" height="{h}" aria-hidden="true"></video></div>'
             f'{cap}</figure>')
 
 
@@ -74,9 +87,15 @@ LOOP_CSS = """
 .xsl-loop-video { display: block; width: 100%; height: auto; background: var(--gl-paper); }
 .xsl-loop--wide .xsl-loop-video { aspect-ratio: 16 / 9; }
 .xsl-loop--square .xsl-loop-video { aspect-ratio: 1 / 1; }
+.xsl-loop--portrait .xsl-loop-video { aspect-ratio: 4 / 5; }
 .xsl-loop-cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding-top: 4px;
   font-family: var(--gl-font-data); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
 .xsl-loop-name { font-weight: 700; color: var(--gl-ink); }
+.xsl-loop-toggle { position: absolute; right: 8px; bottom: 8px; width: 36px; height: 36px; display: flex; align-items: center;
+  justify-content: center; padding: 0; border: 2px solid var(--gl-ink); background: var(--gl-paper); color: var(--gl-ink);
+  font: 700 12px/1 var(--gl-font-data); letter-spacing: -.1em; cursor: pointer; opacity: .85; }
+.xsl-loop-toggle:hover, .xsl-loop-toggle:focus-visible { opacity: 1; background: var(--gl-ink); color: var(--gl-paper); }
+.xsl-loop-toggle:focus-visible { outline: 3px solid var(--gl-rust); outline-offset: 2px; }
 .xsl-loop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 28px 24px; }
 @media (prefers-reduced-motion: reduce) { .xsl-loop-frame::before { transform: translate(5px, 5px); } }
 """
@@ -88,14 +107,41 @@ LOOP_JS = """
   if (!figs.length) return;
   var mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
   if (mq && mq.matches) return;             // keep the poster frame; never download or play
-  if (mq && mq.addEventListener) {          // turned on mid-visit: stop every loop where it is
+  if (mq && mq.addEventListener) {          // turned on mid-visit: every loop goes back to its poster frame
     mq.addEventListener('change', function (e) {
-      if (e.matches) { figs.forEach(function (v) { v.pause(); v.removeAttribute('autoplay'); }); if (io) io.disconnect(); }
+      if (!e.matches) return;
+      if (io) io.disconnect();
+      figs.forEach(function (v) {
+        v.pause(); v.removeAttribute('autoplay');
+        if (v.getAttribute('src')) { v.removeAttribute('src'); v.load(); }
+        var b = v.parentNode.querySelector('.xsl-loop-toggle');
+        if (b) { if (document.activeElement === b) { v.closest('figure').setAttribute('tabindex', '-1'); v.closest('figure').focus(); } b.remove(); }
+      });
     });
   }
   var io = null;
+  // A pause button, added only once a loop really plays (never with reduced motion). A paused loop stays paused.
+  function toggle(v) {
+    if (v.parentNode.querySelector('.xsl-loop-toggle')) return;
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'xsl-loop-toggle';
+    var what = v.getAttribute('data-name') || '';
+    function show() { var off = v.hasAttribute('data-paused');
+      b.setAttribute('aria-label', (off ? 'Play ' : 'Pause ') + what + ' animation');
+      b.innerHTML = off ? '&#9654;&#xFE0E;' : '&#10073;&#10073;'; }
+    b.addEventListener('click', function () {
+      if (v.hasAttribute('data-paused')) { v.removeAttribute('data-paused'); var p = v.play(); if (p && p.catch) { p.catch(function () {}); } }
+      else { v.setAttribute('data-paused', ''); v.pause(); }
+      show();
+    });
+    show(); v.parentNode.appendChild(b);
+  }
   function start(v) {
+    if (v.hasAttribute('data-paused')) return;
     if (!v.getAttribute('src')) { v.setAttribute('src', v.getAttribute('data-src')); }
+    if (!v.hasAttribute('data-toggle')) {     // the button comes only once it really plays (autoplay can be refused)
+      v.setAttribute('data-toggle', ''); v.addEventListener('playing', function () { toggle(v); });
+    }
     var p = v.play(); if (p && p.catch) { p.catch(function () {}); }
   }
   if (!('IntersectionObserver' in window)) { figs.forEach(start); return; }
