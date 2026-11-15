@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Norway"
 region: "Innlandet"
 location: "Lillehammer"
-date: "2026: February 28"
+date: "2027: March 13"
 url: "https://xcskilabs.com/race/ingalami/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/ingalami/"
 | Altitude | 500 m |
 | Location | Lillehammer |
 | Country | Norway |
-| Date | 2026: February 28 |
+| Date | 2027: March 13 |
 | Discipline | classic |
 | Field Size | 5000 |
 | Founded | 2006 |
@@ -108,4 +108,4 @@ IngaLåmi was founded in 2006 as Norway's answer to the growing demand for a maj
 - Part of the Birkebeiner festival week alongside the main Birkebeinerrennet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — IngaLåmi". Canonical: https://xcskilabs.com/race/ingalami/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — IngaLåmi". Canonical: https://xcskilabs.com/race/ingalami/. Generated 2026-11-15.*

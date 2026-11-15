@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Dalarna"
 location: "Gronklitt, Orsa, Dalarna"
-date: "2026: January 11"
+date: "2027: January 10"
 url: "https://xcskilabs.com/race/craft-ski-marathon/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/craft-ski-marathon/"
 | Altitude | 450 m |
 | Location | Gronklitt, Orsa, Dalarna |
 | Country | Sweden |
-| Date | 2026: January 11 |
+| Date | 2027: January 10 |
 | Discipline | classic |
 | Field Size | 500 |
 | Founded | 2000 |
@@ -128,4 +128,4 @@ The Craft Ski Marathon emerged in the early 2000s at Gronklitt, one of Sweden's 
 > It was really fast condition so it has been a really fun race I like speed and it has been a lot of that. It was a tough beginning with a crash after 200 meters and so then I had to go really hard.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Craft Ski Marathon". Canonical: https://xcskilabs.com/race/craft-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Craft Ski Marathon". Canonical: https://xcskilabs.com/race/craft-ski-marathon/. Generated 2026-11-15.*

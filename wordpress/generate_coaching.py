@@ -761,17 +761,28 @@ def _sec_head(num: str, title: str) -> str:
     )
 
 
-# Hero sub-line (Matti, 2026-11-14): "we never position ourselves against
-# AI, never say we don't use it, we just don't bring it up." The line says
-# what I do, with no comparison to software, apps or other coaches. The
-# 2026-07-18 "Not an AI, not a dashboard..." exception is withdrawn.
+# Hero (Matti, 2026-11-15): he picked this H1 and sub-line and asked for the
+# page to read "like Johnny Klister would write it", the wax-bench voice.
+# The H1 says what is for sale: ski coaching. No positioning against AI or
+# software anywhere on the page (Matti, 2026-11-14);
 # tests/test_no_ai_positioning.py enforces this on every generated page.
+HERO_H1 = "Ski coaching for people who&rsquo;ll roller ski in July to pass people in February."
+HERO_SUB = (
+    "I plan your dryland and your snow weeks around your races, read the "
+    "sessions you upload, and move the week when life or a thaw gets in the "
+    "way. From $199 every 4 weeks."
+)
+APPLY_CTA = "APPLY FOR SKI COACHING &rarr;"
+REPLY_TIME = "48 hours"
+CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
+
+
 def build_hero() -> str:
     return f'''<section class="gl-coach-band gl-coach-hero" id="hero">
     <div class="gl-coach-inner">
-      <h1>You could be better than you think. That is not encouragement &mdash; it&rsquo;s an observation about people who train alone.</h1>
-      <p class="gl-coach-tagline">The fix is having me in your corner. The terms are below.</p>
-      <a href="{APPLY_URL}" class="gl-coach-hero-cta">GET ME IN YOUR CORNER &rarr;</a>
+      <h1>{HERO_H1}</h1>
+      <p class="gl-coach-tagline">{HERO_SUB}</p>
+      <a href="{APPLY_URL}" class="gl-coach-hero-cta">{APPLY_CTA}</a>
     </div>
   </section>'''
 
@@ -780,28 +791,28 @@ def build_terms() -> str:
     clauses = [
         (
             "01",
-            "I read every file",
-            "I notice the interval you bailed on and ask why.",
+            "I read your sessions",
+            "Heart rate, pace and how it felt. I look for the intervals that drifted and the easy distance that crept up into threshold.",
         ),
         (
             "02",
-            "The patterns you can&rsquo;t see",
-            "You can know everything about training and still train wrong. Knowledge isn&rsquo;t the limiter &mdash; application is. Every athlete is their own worst blindspot: too fresh to rest, too stubborn to taper, too close to their own data to see the shape of it. Seeing it is the job.",
+            "Dryland that counts",
+            "Roller skis, running, bounding and strength from spring until the trails open. Then the snow block goes to skiing.",
         ),
         (
             "03",
-            "The plan moves when your life does",
-            "Your training happens inside your life. When a sick kid, a work trip or a tender knee lands, I change the week that week.",
+            "Classic, skate or both",
+            "Your plan follows your technique and your races, from a club 10k to the Birkie.",
         ),
         (
             "04",
-            "The truth, on schedule",
-            "&ldquo;You&rsquo;re sandbagging&rdquo; and &ldquo;take the rest week&rdquo; are both part of the service.",
+            "Plans that follow the snow",
+            "At Mid and Max, a work trip, a head cold or a thaw that turns the trails to mashed potatoes changes the week that week.",
         ),
         (
             "05",
-            "Involvement is the only variable",
-            "Same coach, same standards. The difference is how often I&rsquo;m looking.",
+            "Plain feedback",
+            "If your easy days are too hard, I&rsquo;ll tell you. If you&rsquo;re waxing for a race you haven&rsquo;t trained for, I&rsquo;ll tell you that too.",
         ),
     ]
     rows = "\n        ".join(
@@ -825,7 +836,7 @@ def build_tiers() -> str:
         <div class="gl-coach-tier-col">
           <div class="gl-coach-tier-name">Min</div>
           <div class="gl-coach-tier-price">$199<span class="gl-coach-tier-interval">/ 4 WEEKS</span></div>
-          <p class="gl-coach-tier-desc">The plan, plus a weekly check of your training. For athletes who execute on their own and want the thinking done right.</p>
+          <p class="gl-coach-tier-desc">You keep your own training going and want my eyes on it each week.</p>
           <ul class="gl-coach-tier-list">
             <li>Weekly training review</li>
             <li>File analysis</li>
@@ -839,7 +850,7 @@ def build_tiers() -> str:
         <div class="gl-coach-tier-col">
           <div class="gl-coach-tier-name">Mid</div>
           <div class="gl-coach-tier-price">$299<span class="gl-coach-tier-interval">/ 4 WEEKS</span></div>
-          <p class="gl-coach-tier-desc">The plan, watched. Someone reads the data between sessions and adjusts the same week life changes. Most athletes belong here.</p>
+          <p class="gl-coach-tier-desc">I check each session as it comes in and adjust the next days to match.</p>
           <ul class="gl-coach-tier-list">
             <li>Everything in Min</li>
             <li>Detailed training-file analysis</li>
@@ -853,7 +864,7 @@ def build_tiers() -> str:
         <div class="gl-coach-tier-col">
           <div class="gl-coach-tier-name">Max</div>
           <div class="gl-coach-tier-price">$1,200<span class="gl-coach-tier-interval">/ 4 WEEKS</span></div>
-          <p class="gl-coach-tier-desc">Everything, daily. For the race where you want nothing left to chance.</p>
+          <p class="gl-coach-tier-desc">Every session read the day you upload it. For the season built around one race.</p>
           <ul class="gl-coach-tier-list">
             <li>Everything in Mid</li>
             <li>Daily file review</li>
@@ -865,7 +876,7 @@ def build_tiers() -> str:
           <a href="{APPLY_URL}?tier=max" class="gl-coach-tier-cta">GET STARTED</a>
         </div>
       </div>
-      <p class="gl-coach-tier-disclaimer">Coaching doesn&rsquo;t fix skipped workouts or feedback you don&rsquo;t act on. If this isn&rsquo;t a fit, I&rsquo;ll tell you within 24 hours.</p>
+      <p class="gl-coach-tier-disclaimer">Coaching won&rsquo;t fix skipped sessions or feedback you ignore. If it isn&rsquo;t a fit for you, I&rsquo;ll say so within {REPLY_TIME}.</p>
       <p class="gl-coach-tier-setup-fee">TrainingPeaks Premium is included with every tier. Checkout includes a one-time $99 setup fee for intake analysis and your first plan build. Any waiver is offered privately, case by case.</p>
     </div>
   </section>'''
@@ -877,21 +888,19 @@ def build_fit() -> str:
       {_sec_head("06", "A fit, or not")}
       <div class="gl-coach-fit">
         <div>
-          <h3 class="gl-coach-fit-heading">Coaching is for you if:</h3>
+          <h3 class="gl-coach-fit-heading">Coaching fits if:</h3>
           <ul class="gl-coach-fit-list">
-            <li>You&rsquo;ll do the training when the thinking is done right</li>
-            <li>You have a race and a reason</li>
-            <li>You&rsquo;re ready to be honest about your habits</li>
-            <li>You want a plan smarter than the one you&rsquo;d build alone</li>
+            <li>You have a ski race picked out and time to train for it</li>
+            <li>You&rsquo;ll train through summer and fall, while race day is still a long way off</li>
+            <li>You&rsquo;ll upload your sessions and tell me how they felt</li>
           </ul>
         </div>
         <div>
-          <h3 class="gl-coach-fit-heading gl-coach-fit-heading--no">It isn&rsquo;t:</h3>
+          <h3 class="gl-coach-fit-heading gl-coach-fit-heading--no">Probably not a fit if:</h3>
           <ul class="gl-coach-fit-list gl-coach-fit-list--no">
-            <li>Accountability texts when you skip a Tuesday</li>
-            <li>Validation dressed up as feedback</li>
-            <li>A rescue for a race that&rsquo;s next week</li>
-            <li>A substitute for doing the work</li>
+            <li>Race day is a week away</li>
+            <li>You need an injury managed. See a physio for that one first</li>
+            <li>You won&rsquo;t wear a heart rate monitor or log what you did</li>
           </ul>
         </div>
       </div>
@@ -902,32 +911,40 @@ def build_fit() -> str:
 def build_faq() -> str:
     faqs = [
         (
-            "What&rsquo;s the difference between a plan and coaching?",
-            "A plan is a document. Coaching is the relationship that changes the document when your life changes.",
+            "What happens after I apply?",
+            f"I reply within {REPLY_TIME}, yes or no, with the reason.",
+        ),
+        (
+            "Can I ask you something before I apply?",
+            f'Yes. Write to <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> with anything you want to ask before applying.',
         ),
         (
             "How often will I hear from you?",
-            "Weekly at minimum, more near your race. You can message me anytime.",
+            "At least once a week, more in the last weeks before your race. Mid and Max can message me any time.",
         ),
         (
             "What data do I need?",
-            "A watch with heart rate is plenty. Every workout carries effort-based targets you can train by feel.",
+            "A watch with heart rate is plenty. Every session has effort targets you can ski by feel.",
         ),
         (
-            "What if I miss workouts?",
-            "Life happens. I adjust. The plan serves you, not the other way around.",
+            "I live where snow is short. Can you still coach me?",
+            "Yes. Most of the year is dryland anyway, and I plan the snow weeks around when you can get on snow.",
         ),
         (
-            "How do I know if coaching is working?",
-            "We set baselines at intake and measure against them. You&rsquo;ll know.",
+            "What if I miss sessions?",
+            "Let me know. At Mid and Max I shift the week right away, and at Min it gets sorted in the weekly review. Either way, a missed interval session doesn&rsquo;t get made up on tired legs.",
         ),
         (
-            "What&rsquo;s the time commitment?",
-            "The training you&rsquo;re already doing, but smarter. I&rsquo;m not adding hours &mdash; I&rsquo;m making the ones you have count.",
+            "How will I know it&rsquo;s working?",
+            "We set baselines at intake and check against them as the season goes.",
+        ),
+        (
+            "What&rsquo;s the $99 setup fee?",
+            "It covers intake analysis, a look through your training history and your first plan build. It&rsquo;s charged once, with your first 4 weeks.",
         ),
         (
             "Can I cancel anytime?",
-            "Yes. No contracts, no cancellation fees. Your coaching access continues through the end of your current 4-week cycle.",
+            "Yes. No contracts and no cancellation fee. Your coaching runs through the end of the 4-week cycle you&rsquo;ve paid for.",
         ),
     ]
 
@@ -959,8 +976,8 @@ def build_close() -> str:
     <div class="gl-coach-inner">
       <div class="gl-coach-final">
         <p class="gl-coach-final-kicker">APPLICATION</p>
-        <p class="gl-coach-final-hook">Ten minutes of honest answers. I read every one myself. You&rsquo;ll hear from me within 48 hours &mdash; including if I don&rsquo;t think coaching is what you need.</p>
-        <a href="{APPLY_URL}" class="gl-coach-final-cta">GET ME IN YOUR CORNER &rarr;</a>
+        <p class="gl-coach-final-hook">Ten minutes on your skiing, your races and your week. I reply to each one within {REPLY_TIME}.</p>
+        <a href="{APPLY_URL}" class="gl-coach-final-cta">{APPLY_CTA}</a>
       </div>
     </div>
   </section>'''
@@ -968,7 +985,7 @@ def build_close() -> str:
 
 def build_mobile_sticky_cta() -> str:
     return f'''<div class="gl-coach-sticky-cta">
-    <a href="{APPLY_URL}">GET ME IN YOUR CORNER &rarr;</a>
+    <a href="{APPLY_URL}">{APPLY_CTA}</a>
   </div>'''
 
 
@@ -1036,7 +1053,7 @@ def build_jsonld() -> str:
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Coaching | XC Ski Labs",
-        "description": "1:1 cross-country ski coaching. I read your training data, change the plan when your life changes, and tell you what I see.",
+        "description": "Ski coaching for people who'll roller ski in July to pass people in February. I plan dryland and snow around your races and read the sessions you upload.",
         "url": f"{SITE_BASE_URL}/coaching/",
         "isPartOf": {
             "@type": "WebSite",
@@ -1053,7 +1070,7 @@ def build_jsonld() -> str:
             "name": "XC Ski Labs",
             "url": SITE_BASE_URL,
         },
-        "description": "Cross-country ski coaching: three tiers of involvement from weekly review to daily high-touch support. One coach reads every file — built around your race, your schedule, and your training history.",
+        "description": "Cross-country ski coaching in three levels, from a weekly review to every session read the day you upload it. From $199 every 4 weeks.",
     }
     wp_tag = f'<script type="application/ld+json">{_safe_json_for_script(webpage, separators=(",", ":"))}</script>'
     svc_tag = f'<script type="application/ld+json">{_safe_json_for_script(service, separators=(",", ":"))}</script>'
@@ -1073,9 +1090,9 @@ def generate_page(output_dir: Path = None) -> Path:
     canonical_url = f"{SITE_BASE_URL}/coaching/"
     title = "1:1 XC Ski Coaching | XC Ski Labs"
     description = (
-        "1:1 cross-country ski coaching from one coach. Three tiers of "
-        "involvement, weekly review to daily support, and a plan that "
-        "moves when your life does. From $199 every 4 weeks."
+        "Cross-country ski coaching from me, from roller-ski season to race "
+        "day. Three levels, from a weekly review to every session read the "
+        "day you upload it. From $199 every 4 weeks."
     )
 
     nav = build_nav()

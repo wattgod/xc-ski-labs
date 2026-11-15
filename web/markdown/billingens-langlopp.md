@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Vastergotland"
 location: "Billingen area, Vastergotland"
-date: "2026: January 31"
+date: "2027: January 30"
 url: "https://xcskilabs.com/race/billingens-langlopp/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/billingens-langlopp/"
 | Altitude | 300 m |
 | Location | Billingen area, Vastergotland |
 | Country | Sweden |
-| Date | 2026: January 31 |
+| Date | 2027: January 30 |
 | Discipline | classic |
 | Field Size | 500 |
 | Founded | 1980 |
@@ -119,4 +119,4 @@ Billingens Långlopp has been part of the western Swedish ski calendar since app
 - Billingens Långlopp (Billingen)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Billingens Långlopp". Canonical: https://xcskilabs.com/race/billingens-langlopp/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Billingens Långlopp". Canonical: https://xcskilabs.com/race/billingens-langlopp/. Generated 2026-11-15.*

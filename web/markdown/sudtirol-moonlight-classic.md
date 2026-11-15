@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Italy"
 region: "South Tyrol"
 location: "Compatsch, Seiser Alm (Alpe di Siusi)"
-date: "2026: January 31"
+date: "2027: January 22"
 url: "https://xcskilabs.com/race/sudtirol-moonlight-classic/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/sudtirol-moonlight-classic/"
 | Altitude | 1,850 m |
 | Location | Compatsch, Seiser Alm (Alpe di Siusi) |
 | Country | Italy |
-| Date | 2026: January 31 |
+| Date | 2027: January 22 |
 | Discipline | classic |
 | Field Size | 1000 |
 | Founded | 2009 |
@@ -123,4 +123,4 @@ The Südtirol Moonlight Classic was first held in 2009 on the Seiser Alm, Europe
 - Seiser alm 2022 (Rickard Frejemyr)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Südtirol Moonlight Classic". Canonical: https://xcskilabs.com/race/sudtirol-moonlight-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Südtirol Moonlight Classic". Canonical: https://xcskilabs.com/race/sudtirol-moonlight-classic/. Generated 2026-11-15.*

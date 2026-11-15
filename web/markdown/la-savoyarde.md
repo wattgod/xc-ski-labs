@@ -8,7 +8,7 @@ discipline: "skate"
 country: "France"
 region: "French Alps"
 location: "La Feclaz"
-date: "2026: February 1"
+date: "2027: February 7"
 url: "https://xcskilabs.com/race/la-savoyarde/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/la-savoyarde/"
 | Altitude | 1,400 m |
 | Location | La Feclaz |
 | Country | France |
-| Date | 2026: February 1 |
+| Date | 2027: February 7 |
 | Discipline | both |
 | Field Size | 800 |
 | Registration | Online registration via Marathon Ski Tour |
@@ -111,4 +111,4 @@ La Savoyarde is an established international Nordic skiing marathon held at La F
 - marathon_ski_tour
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — La Savoyarde". Canonical: https://xcskilabs.com/race/la-savoyarde/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — La Savoyarde". Canonical: https://xcskilabs.com/race/la-savoyarde/. Generated 2026-11-15.*

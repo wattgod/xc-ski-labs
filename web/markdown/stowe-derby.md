@@ -8,7 +8,7 @@ discipline: "classic"
 country: "United States"
 region: "New England"
 location: "Stowe"
-date: "2026: February 22"
+date: "2027: February 28"
 url: "https://xcskilabs.com/race/stowe-derby/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/stowe-derby/"
 | Altitude | 1,200 m |
 | Location | Stowe |
 | Country | United States |
-| Date | 2026: February 22 |
+| Date | 2027: February 28 |
 | Discipline | both |
 | Field Size | 500 |
 | Founded | 1945 |
@@ -124,4 +124,4 @@ Founded in 1945, the Stowe Derby is one of the oldest ski races in the United St
 > Derby fever hits but once it goes it's a ball people are crashing and people are passing each other it's very entertaining from an observation point of view.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Stowe Derby". Canonical: https://xcskilabs.com/race/stowe-derby/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Stowe Derby". Canonical: https://xcskilabs.com/race/stowe-derby/. Generated 2026-11-15.*

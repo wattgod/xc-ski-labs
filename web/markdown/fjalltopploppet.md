@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Härjedalen"
 location: "Bruksvallarna"
-date: "2026: March 28"
+date: "2027: April 16-18"
 url: "https://xcskilabs.com/race/fjalltopploppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/fjalltopploppet/"
 | Altitude | 900 m |
 | Location | Bruksvallarna |
 | Country | Sweden |
-| Date | 2026: March 28 |
+| Date | 2027: April 16-18 |
 | Discipline | skate |
 | Field Size | 300 |
 | Founded | 1982 |
@@ -117,4 +117,4 @@ Founded in 1982, Fjälltopploppet was created to showcase the unique above-treel
 - Fjälltopploppet | Carl Olander vlogg #66 (Carl Olander)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Fjälltopploppet". Canonical: https://xcskilabs.com/race/fjalltopploppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Fjälltopploppet". Canonical: https://xcskilabs.com/race/fjalltopploppet/. Generated 2026-11-15.*

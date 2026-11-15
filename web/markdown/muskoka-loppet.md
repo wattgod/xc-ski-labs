@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Canada"
 region: "Ontario"
 location: "Arrowhead Provincial Park, Huntsville"
-date: "2026: January 24"
+date: "2027: January 24"
 url: "https://xcskilabs.com/race/muskoka-loppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/muskoka-loppet/"
 | Altitude | 320 m |
 | Location | Arrowhead Provincial Park, Huntsville |
 | Country | Canada |
-| Date | 2026: January 24 |
+| Date | 2027: January 24 |
 | Discipline | classic |
 | Field Size | 500 |
 | Founded | 1985 |
@@ -124,4 +124,4 @@ Founded in 1985, the Muskoka Loppet has been a fixture of the Ontario Nordic ski
 > Today we have 220 racers which I think is a record as far as my memory goes for the recent years. We have three different race courses - there's a 15k, a 30k, and a 5k so the 5k is more for social skiers and kids and we have a couple special olympic skiers as well.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Muskoka Loppet". Canonical: https://xcskilabs.com/race/muskoka-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Muskoka Loppet". Canonical: https://xcskilabs.com/race/muskoka-loppet/. Generated 2026-11-15.*

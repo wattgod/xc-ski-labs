@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Canada"
 region: "Alberta"
 location: "Lake Louise, Alberta"
-date: "2026: March 1"
+date: "2027: February 21"
 url: "https://xcskilabs.com/race/lake-louise-loppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/lake-louise-loppet/"
 | Altitude | 1,540 m |
 | Location | Lake Louise, Alberta |
 | Country | Canada |
-| Date | 2026: March 1 |
+| Date | 2027: February 21 |
 | Discipline | classic |
 | Field Size | 200 |
 | Founded | 1972 |
@@ -120,4 +120,4 @@ The Lake Louise Loppet was founded in 1972, making it the longest-running loppet
 - banff lake louise loppet (TheUnameful)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lake Louise Loppet". Canonical: https://xcskilabs.com/race/lake-louise-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lake Louise Loppet". Canonical: https://xcskilabs.com/race/lake-louise-loppet/. Generated 2026-11-15.*

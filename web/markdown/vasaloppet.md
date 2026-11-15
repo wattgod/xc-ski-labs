@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Dalarna"
 location: "Sälen to Mora"
-date: "2026: March 1"
+date: "2027: March 7"
 url: "https://xcskilabs.com/race/vasaloppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/vasaloppet/"
 | Altitude | 350 m |
 | Location | Sälen to Mora |
 | Country | Sweden |
-| Date | 2026: March 1 |
+| Date | 2027: March 7 |
 | Discipline | classic |
 | Field Size | 16000 |
 | Founded | 1922 |
@@ -134,4 +134,4 @@ Founded in 1922 by newspaper editor Anders Pers to commemorate Gustav Vasa's 152
 > You can really learn a new sport as an old adult. Even if it's very basic, the only thing you need to do is make sure you have your skis on at the right moment, but you do get a little bit nervous when you see all these committed men getting their perfect skis on.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet". Canonical: https://xcskilabs.com/race/vasaloppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet". Canonical: https://xcskilabs.com/race/vasaloppet/. Generated 2026-11-15.*

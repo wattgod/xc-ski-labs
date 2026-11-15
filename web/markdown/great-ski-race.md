@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "California"
 location: "Tahoe City to Truckee, California"
-date: "2026: March 7"
+date: "2027: March 7"
 url: "https://xcskilabs.com/race/great-ski-race/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/great-ski-race/"
 | Altitude | 1,900 m |
 | Location | Tahoe City to Truckee, California |
 | Country | United States |
-| Date | 2026: March 7 |
+| Date | 2027: March 7 |
 | Discipline | both |
 | Field Size | 1000 |
 | Founded | 1977 |
@@ -125,4 +125,4 @@ The Great Ski Race has been a North Lake Tahoe tradition since 1977, making it o
 - Engadin Ski Marathon 2025 HIGHLIGHTS | 03/09/25 | beIN SPORTS USA (beIN SPORTS USA)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — The Great Ski Race". Canonical: https://xcskilabs.com/race/great-ski-race/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — The Great Ski Race". Canonical: https://xcskilabs.com/race/great-ski-race/. Generated 2026-11-15.*

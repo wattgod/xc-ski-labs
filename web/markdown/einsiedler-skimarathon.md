@@ -8,7 +8,7 @@ discipline: "skate"
 country: "Switzerland"
 region: "Schwyz"
 location: "Einsiedeln, Schwyz"
-date: "2026: February 8"
+date: "2027: February 14"
 url: "https://xcskilabs.com/race/einsiedler-skimarathon/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/einsiedler-skimarathon/"
 | Altitude | 900 m |
 | Location | Einsiedeln, Schwyz |
 | Country | Switzerland |
-| Date | 2026: February 8 |
+| Date | 2027: February 14 |
 | Discipline | skate |
 | Field Size | 500 |
 | Founded | 1969 |
@@ -125,4 +125,4 @@ The Einsiedler Skimarathon was founded in 1969 and is the most traditional race 
 - Einsiedler Skimarathon 2017 (Bella Luna)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Einsiedler Skimarathon". Canonical: https://xcskilabs.com/race/einsiedler-skimarathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Einsiedler Skimarathon". Canonical: https://xcskilabs.com/race/einsiedler-skimarathon/. Generated 2026-11-15.*

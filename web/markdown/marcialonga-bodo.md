@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Norway"
 region: "Nordland"
 location: "Bodo, Nordland"
-date: "2026: March 21"
+date: "2027: February 27"
 url: "https://xcskilabs.com/race/marcialonga-bodo/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/marcialonga-bodo/"
 | Altitude | 50 m |
 | Location | Bodo, Nordland |
 | Country | Norway |
-| Date | 2026: March 21 |
+| Date | 2027: February 27 |
 | Discipline | classic |
 | Field Size | 1500 |
 | Founded | 2024 |
@@ -122,4 +122,4 @@ Marcialonga Bodo is a relatively new addition to the Ski Classics calendar, laun
 - Reistadløpet - reklame (Salangen- Nyheter AS)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marcialonga Bodo". Canonical: https://xcskilabs.com/race/marcialonga-bodo/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marcialonga Bodo". Canonical: https://xcskilabs.com/race/marcialonga-bodo/. Generated 2026-11-15.*

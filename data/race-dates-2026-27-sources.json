@@ -1,0 +1,298 @@
+{
+  "checked": "2026-11-15",
+  "rule": "Date applied only when the organizer's site or an official series/federation calendar states it; nothing computed from a pattern.",
+  "applied": {
+    "3-zinnen-ski-marathon": {
+      "date_specific": "2027: January 9-10",
+      "source_url": "https://www.ski-marathon.com/programm/"
+    },
+    "alley-loop": {
+      "date_specific": "2027: January 30",
+      "source_url": "https://www.cbnordic.org/alley-loop"
+    },
+    "american-birkebeiner": {
+      "date_specific": "2027: February 27",
+      "source_url": "https://cdn.birkie.com/ski/events/birkie/"
+    },
+    "biela-stopa": {
+      "date_specific": "2027: February 6-7",
+      "source_url": "https://www.bielastopa.sk"
+    },
+    "billingens-langlopp": {
+      "date_specific": "2027: January 30",
+      "source_url": "https://skiclassics.com/events/challengers/billingens-langlopp/"
+    },
+    "birkebeinerrennet": {
+      "date_specific": "2027: March 20",
+      "source_url": "https://birken.no/en/ski/birkebeinerrennet-54-km"
+    },
+    "cascade-crest": {
+      "date_specific": "2027: April 3",
+      "source_url": "https://mbsef.org/mt-bachelor-cup-nordic-races"
+    },
+    "craft-ski-marathon": {
+      "date_specific": "2027: January 10",
+      "source_url": "https://skiclassics.com/events/challengers/craft-ski-marathon/"
+    },
+    "einsiedler-skimarathon": {
+      "date_specific": "2027: February 14",
+      "source_url": "https://www.swiss-ski.ch/events/swiss-loppet/"
+    },
+    "engadin-la-diagonela": {
+      "date_specific": "2027: January 16",
+      "source_url": "https://skiclassics.com/ski-classics-world-championship-season-xviii/"
+    },
+    "engadin-skimarathon": {
+      "date_specific": "2027: March 14",
+      "source_url": "https://www.engadin-skimarathon.ch"
+    },
+    "fjalltopploppet": {
+      "date_specific": "2027: April 16-18",
+      "source_url": "https://www.fjalltopploppet.se"
+    },
+    "foulee-blanche": {
+      "date_specific": "2027: January 27-31",
+      "source_url": "https://www.lafouleeblanche.com"
+    },
+    "great-bear-chase": {
+      "date_specific": "2027: March 13",
+      "source_url": "https://www.greatbearchase.com"
+    },
+    "great-nordeen": {
+      "date_specific": "2027: February 27",
+      "source_url": "https://mbsef.org/great-nordeen-nordic-and-fatbike-race/"
+    },
+    "great-ski-race": {
+      "date_specific": "2027: March 7",
+      "source_url": "https://raceroster.com/events/2027/116672/the-great-ski-race-2027"
+    },
+    "ingalami": {
+      "date_specific": "2027: March 13",
+      "source_url": "http://lillehammer-skiklub.no/ingalaami"
+    },
+    "jatkankynttila": {
+      "date_specific": "2027: March 20",
+      "source_url": "https://jatkankynttilaskimarathon.fi/"
+    },
+    "jizerska-50": {
+      "date_specific": "2027: February 14",
+      "source_url": "https://jiz50.cz/en/propozice/cez-jizerska-50"
+    },
+    "kobberlopet": {
+      "date_specific": "2027: April 17",
+      "source_url": "https://www.kobberlopet.no"
+    },
+    "la-savoyarde": {
+      "date_specific": "2027: February 7",
+      "source_url": "https://www.lasavoyardeorganisation.com"
+    },
+    "lake-louise-loppet": {
+      "date_specific": "2027: February 21",
+      "source_url": "https://calgaryskiclub.org/loppet"
+    },
+    "lake-placid-loppet": {
+      "date_specific": "2027: March 6",
+      "source_url": "https://www.lakeplacid.com/events/lakeplacidloppet"
+    },
+    "lofsdalen-epic": {
+      "date_specific": "2027: March 20",
+      "source_url": "https://skiclassics.com/events/challengers/lofsdalen-epic/"
+    },
+    "marathon-de-bessans": {
+      "date_specific": "2027: January 9-10",
+      "source_url": "https://www.marathondebessans.com/"
+    },
+    "marcia-gran-paradiso": {
+      "date_specific": "2027: February 7",
+      "source_url": "https://www.marciagranparadiso.it/pagina.php?id=5"
+    },
+    "marcialonga": {
+      "date_specific": "2027: January 31",
+      "source_url": "https://www.marcialonga.it/marcialonga_ski/"
+    },
+    "marcialonga-bodo": {
+      "date_specific": "2027: February 27",
+      "source_url": "https://www.arcticmarcialonga.no/"
+    },
+    "markatrimmen": {
+      "date_specific": "2027: February 6",
+      "source_url": "https://skiklubben.no/aktiviteter/markatrimmen/"
+    },
+    "moraloppet": {
+      "date_specific": "2027: January 16",
+      "source_url": "https://skiclassics.com/events/?sort=challengers"
+    },
+    "muskoka-loppet": {
+      "date_specific": "2027: January 24",
+      "source_url": "https://arrowheadnordic.ca"
+    },
+    "nattvasan": {
+      "date_specific": "2027: March 5",
+      "source_url": "https://www.vasaloppet.se"
+    },
+    "north-american-vasa": {
+      "date_specific": "2027: February 13-14",
+      "source_url": "https://runsignup.com/Race/NorthAmericanVasaFestivalofRaces/Page/Events"
+    },
+    "oosik-classic": {
+      "date_specific": "2027: March 13",
+      "source_url": "https://denalinordicskiclub.org/oosik-classic/"
+    },
+    "oppet-spar": {
+      "date_specific": "2027: March 1",
+      "source_url": "https://www.vasaloppet.se/en/ski/oppet-spar-sunday/"
+    },
+    "payakentsut": {
+      "date_specific": "2027: February 27",
+      "source_url": "https://www.payak.ca/"
+    },
+    "pepsi-challenge": {
+      "date_specific": "2027: March 6",
+      "source_url": "https://pepsichallengeskirace.com"
+    },
+    "planica-ski-marathon": {
+      "date_specific": "2027: January 31",
+      "source_url": "https://planicaski.eventrac.co.uk"
+    },
+    "pogostan-hiihto": {
+      "date_specific": "2027: March 6",
+      "source_url": "https://ilu.fi/pogostan-hiihto"
+    },
+    "race-of-the-methow": {
+      "date_specific": "2027: January 30-31",
+      "source_url": "https://www.methowvalleynordic.org/events"
+    },
+    "seeley-hills-classic": {
+      "date_specific": "2027: January 9",
+      "source_url": "https://www.birkie.com/ski/events/seeley-hills-classic/"
+    },
+    "skarverennet": {
+      "date_specific": "2027: April 17",
+      "source_url": "https://www.skarverennet.no"
+    },
+    "ski-north-ultra": {
+      "date_specific": "2027: March 6",
+      "source_url": "https://runsignup.com/Race/MN/Lutsen/SkiNorthUltra"
+    },
+    "ski-to-the-sun": {
+      "date_specific": "2027: February 6",
+      "source_url": "https://methowtrails.org/events/ski-to-the-sun"
+    },
+    "sonot-kkaazoot": {
+      "date_specific": "2027: March 27",
+      "source_url": "https://www.sonotkkaazoot.org"
+    },
+    "sovereign2silverstar": {
+      "date_specific": "2027: April 3-4",
+      "source_url": "https://www.sovereign2silverstar.com"
+    },
+    "stafettvasan": {
+      "date_specific": "2027: March 5",
+      "source_url": "https://www.vasaloppet.se/en/ski/stafettvasan/"
+    },
+    "stowe-derby": {
+      "date_specific": "2027: February 28",
+      "source_url": "https://runsignup.com/Race/VT/Stowe/stowederby"
+    },
+    "sudtirol-moonlight-classic": {
+      "date_specific": "2027: January 22",
+      "source_url": "https://skiclassics.com/events/challengers/sudtirol-moonlight-classic-seiser-alm/"
+    },
+    "summit-2-senja": {
+      "date_specific": "2027: April 4",
+      "source_url": "https://skiclassics.com/ski-classics-world-championship-season-xviii/"
+    },
+    "tartu-maraton": {
+      "date_specific": "2027: February 28",
+      "source_url": "https://tartumaraton.ee/en/tartu-maraton-2027/6331-km-ct"
+    },
+    "tjejvasan": {
+      "date_specific": "2027: February 27",
+      "source_url": "https://www.vasaloppet.se/en/races/tjejvasan/"
+    },
+    "trans-vercors": {
+      "date_specific": "2027: February 7",
+      "source_url": "https://transvercors-nordic.com/"
+    },
+    "transjurassienne": {
+      "date_specific": "2027: February 14",
+      "source_url": "https://www.latransju.com/evenements/la-transju/epreuves/la-transjurassienne-70-km/"
+    },
+    "vantaa-hiihto": {
+      "date_specific": "2027: January 30",
+      "source_url": "https://www.vhs.fi/vantaahiihto"
+    },
+    "vasaloppet": {
+      "date_specific": "2027: March 7",
+      "source_url": "https://www.vasaloppet.se"
+    },
+    "vasaloppet-usa": {
+      "date_specific": "2027: February 13-14",
+      "source_url": "https://www.vasaloppet.us"
+    },
+    "vastgotaloppet": {
+      "date_specific": "2027: February 6-7",
+      "source_url": "https://vastgotaloppet.se/"
+    },
+    "vuokatti-hiihto": {
+      "date_specific": "2027: March 6",
+      "source_url": "https://endurancekainuu.fi/vuokatti-hiihto/"
+    },
+    "white-pine-stampede": {
+      "date_specific": "2027: February 6",
+      "source_url": "https://www.whitepinestampede.org"
+    },
+    "yellowstone-rendezvous": {
+      "date_specific": "2027: March 6",
+      "source_url": "https://www.skirunbikemt.com/yellowstone-rendezvous-race/home"
+    },
+    "yllas-levi-hiihto": {
+      "date_specific": "2027: April 2-3",
+      "source_url": "https://yllaslevi.fi/en/register/cancellation-policy/"
+    }
+  },
+  "not_found": {
+    "bieg-lotnikow": "",
+    "boden-ski-marathon": "",
+    "california-gold-rush": "",
+    "carpathian-ski-marathon": "",
+    "cookie-race": "https://www.foothillsnordic.ca/cookie-race",
+    "craftsbury-marathon": "",
+    "demino-ski-marathon": "",
+    "frosty-freestyle": "",
+    "galtuer-nordic-volumes": "",
+    "grand-mesa-classic": "",
+    "great-glen-to-bretton-woods": "",
+    "haanja-maraton": "https://www.estoloppet.ee",
+    "haldo-hansson-minne": "",
+    "khanty-mansiysk-ski-marathon": "",
+    "latloppet-madona": "https://skiclassics.com/events/challengers/latloppet/",
+    "mammoth-marathon": "",
+    "marathon-des-belles-combes": "",
+    "marathon-des-glieres": "",
+    "mcmurdo-ski-race": "",
+    "minnesota-finlandia": "",
+    "minocqua-northwoods-loppet": "",
+    "muffin-race": "",
+    "niseko-ski-marathon": "",
+    "pokljuka-nordic-marathon": "",
+    "saskaloppet": "",
+    "silver-star-loppet": "https://sovereignlake.com/major-competitions/",
+    "sirdal-ski-marathon": "",
+    "snow-mountain-ranch-stampede": "https://www.ymcarockies.org/snow-mountain-ranch/events/granby/snow-mountain-ranch-stampede",
+    "sun-valley-nordic-festival": "",
+    "tour-of-anchorage": ""
+  },
+  "held": {
+    "bad-gastein-criterium": {
+      "date_specific": "2026: December 20",
+      "source_url": "https://skiclassics.com/ski-classics-world-championship-season-xviii/",
+      "reason": "ambiguous: orsa profile may mix two events; Gastein has two criteriums (Dec 13 and Dec 20)"
+    },
+    "orsa-gronklitt-ski-marathon": {
+      "date_specific": "2027: February 6",
+      "source_url": "https://www.worldloppet.com/global-ski-marathon-calendar",
+      "reason": "ambiguous: orsa profile may mix two events; Gastein has two criteriums (Dec 13 and Dec 20)"
+    }
+  }
+}

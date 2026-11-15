@@ -652,16 +652,49 @@ def sync_thanks():
     return _sync_static_page("thanks", "thanks")
 
 
+def sync_errors():
+    """Upload web/.htaccess (www -> apex 301, ErrorDocument 404) and output/404.html.
+
+    The 404 page goes first so the ErrorDocument never points at a missing file.
+    The live .htaccess, if any, is copied to .htaccess.bak-<timestamp> first.
+    """
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+    remote_base = get_remote_base()
+    page = PROJECT_ROOT / "output" / "404.html"
+    htaccess = PROJECT_ROOT / "web" / ".htaccess"
+    for path in (page, htaccess):
+        if not path.exists():
+            print(f"  Missing: {path} (run wordpress/generate_404.py)")
+            return False
+    if not _scp_upload(host, user, port, page, f"{remote_base}/404.html"):
+        return False
+    ok, _, err = _ssh_run(
+        host, user, port,
+        f"cd {remote_base} && if [ -f .htaccess ]; then cp -p .htaccess .htaccess.bak-$(date +%Y%m%d%H%M%S); fi",
+    )
+    if not ok:
+        print(f"  Could not back up the live .htaccess: {err}")
+        return False
+    if not _scp_upload(host, user, port, htaccess, f"{remote_base}/.htaccess"):
+        return False
+    print("  Deployed /404.html and /.htaccess")
+    return True
+
+
 def sync_feeds():
-    """Upload crawler support feed files to site root and /feed/."""
+    """Upload race-dates.json, robots.txt and feed/races.xml (llms.txt: sync_llms)."""
     ssh = get_ssh_credentials()
     if not ssh:
         return False
     host, user, port = ssh
 
     output_dir = PROJECT_ROOT / "output"
+    # llms.txt is not here: sync_llms owns it (regenerates, uploads, then
+    # locks it 444), so uploading it again here was refused and failed the step.
     files = [
-        (output_dir / "llms.txt", f"{get_remote_base()}/llms.txt"),
         (output_dir / "race-dates.json", f"{get_remote_base()}/race-dates.json"),
         (output_dir / "robots.txt", f"{get_remote_base()}/robots.txt"),
         (output_dir / "feed" / "races.xml", f"{get_remote_base()}/feed/races.xml"),
@@ -856,6 +889,7 @@ def deploy_all():
         ("Methodology", sync_methodology),
         ("Guide", sync_guide),
         ("Thanks", sync_thanks),
+        ("404 + .htaccess", sync_errors),
         ("Sitemap", sync_sitemap),
         ("Feeds", sync_feeds),
         ("LLMs + IndexNow Key", sync_llms),
@@ -970,8 +1004,12 @@ if __name__ == "__main__":
         help="Upload payment success page to /thanks/"
     )
     parser.add_argument(
+        "--sync-errors", action="store_true",
+        help="Upload /404.html and /.htaccess (www -> apex 301, ErrorDocument 404)"
+    )
+    parser.add_argument(
         "--sync-feeds", action="store_true",
-        help="Upload llms.txt, race-dates.json, robots.txt, and feed/races.xml"
+        help="Upload race-dates.json, robots.txt, and feed/races.xml (llms.txt goes with --sync-llms)"
     )
     parser.add_argument(
         "--sync-llms", action="store_true",
@@ -1058,6 +1096,9 @@ if __name__ == "__main__":
             ran = True
         if args.sync_thanks:
             sync_thanks()
+            ran = True
+        if args.sync_errors:
+            sync_errors()
             ran = True
         if args.sync_feeds:
             sync_feeds()

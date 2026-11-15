@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Wisconsin"
 location: "Cable to Hayward, Wisconsin"
-date: "2026: February 28"
+date: "2027: February 27"
 url: "https://xcskilabs.com/race/american-birkebeiner/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/american-birkebeiner/"
 | Altitude | 400 m |
 | Location | Cable to Hayward, Wisconsin |
 | Country | United States |
-| Date | 2026: February 28 |
+| Date | 2027: February 27 |
 | Discipline | both |
 | Field Size | 10000 |
 | Founded | 1973 |
@@ -130,4 +130,4 @@ Founded in 1973 by Tony Wise, inspired by Norway's Birkebeinerrennet. The first 
 > We all got the Berkey fever and it's just the excitement that builds about not only the race but the whole event of Berkey week.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — American Birkebeiner". Canonical: https://xcskilabs.com/race/american-birkebeiner/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — American Birkebeiner". Canonical: https://xcskilabs.com/race/american-birkebeiner/. Generated 2026-11-15.*

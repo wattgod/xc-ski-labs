@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Czech Republic"
 region: "Liberec Region"
 location: "Bedřichov, Jizera Mountains"
-date: "2026: February 15"
+date: "2027: February 14"
 url: "https://xcskilabs.com/race/jizerska-50/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/jizerska-50/"
 | Altitude | 900 m |
 | Location | Bedřichov, Jizera Mountains |
 | Country | Czech Republic |
-| Date | 2026: February 15 |
+| Date | 2027: February 14 |
 | Discipline | both |
 | Field Size | 6000 |
 | Founded | 1968 |
@@ -126,4 +126,4 @@ Founded in 1968, Jizerská 50 has grown from a regional Czech event to one of th
 - Jizerska 50 2023 Teaser Movie (Worldloppet)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jizerská 50". Canonical: https://xcskilabs.com/race/jizerska-50/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jizerská 50". Canonical: https://xcskilabs.com/race/jizerska-50/. Generated 2026-11-15.*
