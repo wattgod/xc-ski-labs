@@ -122,3 +122,35 @@ def test_race_names_with_diacritics_use_libre_franklin():
     assert "gl-name--diacritic" not in generate_race_pages._hero_name_class("Vasaloppet")
     assert "gl-name--diacritic" in generate_prep_kit._diacritic_attr("Öppet Spår")
     assert generate_prep_kit._diacritic_attr("Vasaloppet") == ""
+
+
+def test_marks_go_up_with_the_icons_before_any_page():
+    deploy = (ROOT / "scripts" / "deploy.py").read_text(encoding="utf-8")
+    icons = re.search(r"ICON_FILES = \(([^)]*)\)", deploy).group(1)
+    assert '"favicon.svg"' in icons and '"xc-logo.svg"' in icons
+    assert deploy.index('("Icons", sync_icons)') < deploy.index('("Homepage", sync_homepage)')
+    assert 'if name == "Icons" and not ok:' in deploy
+
+
+def test_focus_ring_and_button_underline_outrank_the_template_resets():
+    css = build_brand_tokens.build_css()
+    assert "html body :focus-visible { outline: var(--stroke-button) solid var(--focus) !important;" in css
+    assert "html body :is(.gl-rung-btn.apply" in css
+    assert ":where(.gl-rung-btn.apply" not in css
+
+
+def test_no_body_hover_turns_klister():
+    """klister maps to wool now; a hover on a wool or oat ground must not use it.
+    Hovers inside the navy straps (nav) may, since there it is the strap text."""
+    for rel in ("wordpress/generate_about.py", "wordpress/generate_training_plans.py",
+                "wordpress/generate_course.py", "scripts/generate_race_pages.py"):
+        src = (ROOT / rel).read_text(encoding="utf-8")
+        for m in re.finditer(r"([^{}]*:hover[^{]*)\{+([^}]*)\}", src):
+            if "nav" in m.group(1):
+                continue
+            assert "klister" not in m.group(2), f"{rel}: {m.group(1).strip()[-60:]}"
+
+
+def test_post_payment_pages_load_the_book_faces():
+    src = (ROOT / "wordpress" / "generate_success.py").read_text(encoding="utf-8")
+    assert "{BRAND_FONT_LINKS}" in src

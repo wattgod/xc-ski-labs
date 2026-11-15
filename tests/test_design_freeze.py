@@ -107,14 +107,14 @@ def test_selected_rating_tile_uses_solid_signal_background():
 
 
 def test_hover_underlines_survive_the_box_shadow_reset():
-    """The klister hover underlines are underlines, not side strips, so they
+    """The ink hover underlines (klister was the old print accent) are underlines, not side strips, so they
     are allowed -- but they must not be drawn with box-shadow, which the
     global `box-shadow: none !important` reset strips."""
     css = _race_pages_css()
     for selector in (".gl-breakdown-tile:hover", ".gl-related-card:hover"):
         start = css.index(selector + " {{")
         body = css[start:css.index("}}", start)]
-        assert "var(--gl-klister)" in body, f"{selector} lost its klister underline"
+        assert "var(--ink)" in body, f"{selector} lost its ink underline"
         assert "box-shadow" not in body, f"{selector} underline would be stripped by the reset"
 
 

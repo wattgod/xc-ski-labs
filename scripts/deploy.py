@@ -652,7 +652,9 @@ def sync_thanks():
     return _sync_static_page("thanks", "thanks")
 
 
-ICON_FILES = ("favicon.ico", "favicon-32.png", "apple-touch-icon.png")
+# favicon.svg and xc-logo.svg (the Sledge Stores marks) ride with the raster
+# icons: every page references them, so they go up before any page does.
+ICON_FILES = ("favicon.ico", "favicon-32.png", "apple-touch-icon.png", "favicon.svg", "xc-logo.svg")
 
 
 def sync_icons():
@@ -902,6 +904,7 @@ def deploy_all():
 
     steps = [
         ("Technique Loops", sync_media),
+        ("Icons", sync_icons),
         ("Homepage", sync_homepage),
         ("Search UI", sync_search),
         ("Race Pages", sync_pages),
@@ -918,7 +921,6 @@ def deploy_all():
         ("Guide", sync_guide),
         ("Thanks", sync_thanks),
         ("404 + .htaccess", sync_errors),
-        ("Icons", sync_icons),
         ("Sitemap", sync_sitemap),
         ("Feeds", sync_feeds),
         ("LLMs + IndexNow Key", sync_llms),
@@ -933,6 +935,9 @@ def deploy_all():
         results.append((name, ok))
         if name == "Technique Loops" and not ok:
             print("  Stopping the deploy: no page is uploaded while the loops it shows are missing.")
+            break
+        if name == "Icons" and not ok:
+            print("  Stopping the deploy: no page is uploaded while its favicon and logo are missing.")
             break
 
     print("\n" + "=" * 40)
