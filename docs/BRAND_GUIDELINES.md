@@ -164,6 +164,14 @@ to say Honestly Rated; just say rated"). "Honestly rated", "honest reviews", "un
 "rated", "scored", "reviewed"; let the T4s on famous races do the proving.
 (RestraintGuard enforces: banned substrings `honestly rated`, `honest review`, `unbiased`.)
 
+**Never position against AI** (Matti, Nov 14 2026: "we never position ourselves
+against AI, never say we don't use it, we just don't bring it up"). Say what I do
+("I read every file"), never what I am not: no "not an AI", "not an algorithm",
+"not a dashboard", "read by a person", "a human in your corner". This withdraws the
+Jul 18 2026 coaching-hero exception. Privacy-policy processor disclosures are legal
+text and stay as written. (`tests/test_no_ai_positioning.py` scans every generated
+page.)
+
 ## 8. Enforcement (ships with the port)
 
 - `tokens/tokens.css` is the only place hex values live; a test greps generators for

@@ -51,7 +51,7 @@ Modeled after Gravel God (`gravel-race-automation`). Same deploy pattern (tar+ss
 ## Scoring System
 - 14 criteria, each 1-5: distance, elevation, altitude, field_size, prestige, international_draw, course_technicality, snow_reliability, grooming_quality, accessibility, community, scenery, organization, competitive_depth
 - `overall_score = round((sum_of_14 / 70) * 100)` — denominator 70 is intentional (same as Gravel God)
-- **Tiers**: T1 (>=80), T2 (>=60), T3 (>=45), T4 (<45)
+- **Tiers**: T1 Elite (>=80), T2 Contender (>=60), T3 Solid (>=45), T4 Roster (<45). Names are Gravel God's; `scripts/tiers.py` is the only mapping (tests/test_tier_names.py)
 - **Prestige overrides**: p5+score>=75 → T1, p5+score<75 → cap at T2, p4 → promote 1 tier (not into T1)
 
 ## Race JSON Structure

@@ -784,22 +784,16 @@ def _sec_head(num: str, title: str) -> str:
     )
 
 
-# SANCTIONED EXCEPTION to the anti-defensive-messaging rule (see
-# docs/BRAND_GUIDELINES.md, section 7 "Voice" — phrases naming what
-# something ISN'T are normally banned because they plant doubt nobody
-# had). The sub-line below ("Not an AI, not a dashboard, not a coach
-# who reads you like a spreadsheet") is an explicit, owner-approved
-# exception. Matti sanctioned this specific line 2026-07-18 as an
-# aspirational "corner" frame — it names what you're getting, not a
-# defensive rebuttal to an objection nobody raised. This /coaching/
-# hero is the precedent-setting instance for XC Ski Labs (it mirrors
-# the separately-approved exception already shipped on Roadie Labs'
-# /coaching/ hero).
+# Hero sub-line (Matti, 2026-11-14): "we never position ourselves against
+# AI, never say we don't use it, we just don't bring it up." The line says
+# what I do, with no comparison to software, apps or other coaches. The
+# 2026-07-18 "Not an AI, not a dashboard..." exception is withdrawn.
+# tests/test_no_ai_positioning.py enforces this on every generated page.
 def build_hero() -> str:
     return f'''<section class="gl-coach-band gl-coach-hero" id="hero">
     <div class="gl-coach-inner">
       <h1>You could be better than you think. That is not encouragement &mdash; it&rsquo;s an observation about people who train alone.</h1>
-      <p class="gl-coach-tagline">The fix is a human in your corner. Not an AI, not a dashboard, not a coach who reads you like a spreadsheet. The terms are below.</p>
+      <p class="gl-coach-tagline">The fix is having me in your corner. The terms are below.</p>
       <a href="{APPLY_URL}" class="gl-coach-hero-cta">GET ME IN YOUR CORNER &rarr;</a>
     </div>
   </section>'''
@@ -809,8 +803,8 @@ def build_terms() -> str:
     clauses = [
         (
             "01",
-            "Every file, read by a person",
-            "Software flags a number. I notice the interval you bailed on and ask why.",
+            "I read every file",
+            "I notice the interval you bailed on and ask why.",
         ),
         (
             "02",
@@ -820,7 +814,7 @@ def build_terms() -> str:
         (
             "03",
             "The plan moves when your life does",
-            "Sick kid, work trip, tender knee &mdash; the week adjusts that week, not after three missed targets teach an algorithm what a person would have seen on Tuesday.",
+            "Your training happens inside your life. When a sick kid, a work trip or a tender knee lands, I change the week that week.",
         ),
         (
             "04",
@@ -1071,7 +1065,7 @@ def build_jsonld() -> str:
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Coaching | XC Ski Labs",
-        "description": "1:1 cross-country ski coaching from one coach. A human who reads your training data, adjusts the plan when your life changes, and tells you the truth.",
+        "description": "1:1 cross-country ski coaching. I read your training data, change the plan when your life changes, and tell you what I see.",
         "url": f"{SITE_BASE_URL}/coaching/",
         "isPartOf": {
             "@type": "WebSite",
