@@ -81,16 +81,20 @@ d["race"]["history"]["founded"]
 ## Brand
 - Name: **XC Ski Labs** (not "Nordic Lab" — that's the internal project folder name only)
 - Domain: `xcskilabs.com`
-- **CURRENT BRAND SPEC: `docs/brand/vintage-nordic-print.md`** — 1970s Nordic
-  print direction. `tokens/tokens.css` holds the current paper, ink, rust, and
-  ochre values; `web/xc-logo.svg` is the approved crossed-ski mark. Read the
-  current spec before touching any visual. `docs/BRAND_GUIDELINES.md` records
-  the earlier Wax Bench direction for historical context.
-- Older Nordic Night and Wax Bench colors may remain in unported templates.
-  New visual work follows `docs/brand/vintage-nordic-print.md` and the current
-  token values; verify generated pages before deployment.
+- **RATIFIED BRAND: `docs/brand/sledge-stores/README.md`** — Sledge Stores ·
+  Splash on wool, locked by Matti on 2026-11-14. Wool, oat and fjord navy with
+  one salmon object per page; Big Shoulders Stencil, Big Shoulders Text and
+  Libre Franklin; the crossed-skis mark in `docs/brand/sledge-stores/logos/`.
+  Read it before touching any visual. New visual work follows it.
+- **The live site has not been ported yet.** `tokens/tokens.css` and
+  `web/xc-logo.svg` still carry the 1970s print direction
+  (`docs/brand/vintage-nordic-print.md`) until a port ships. Older Nordic
+  Night and Wax Bench colors may remain in unported templates.
+  `docs/BRAND_GUIDELINES.md` is historical. Verify generated pages before
+  deployment.
 - Neo-brutalist: no border-radius, no box-shadow
-- Fonts: Sometype Mono (data), Source Serif 4 (editorial); Inter (UI, being phased down)
+- Fonts on the live site today: Sometype Mono (data), Source Serif 4 (editorial);
+  Inter (UI, being phased down). The ratified book replaces them when ported.
 - Copy rule: never self-describe as honest — "rated", not "honestly rated"
 
 ## Known Pitfalls
