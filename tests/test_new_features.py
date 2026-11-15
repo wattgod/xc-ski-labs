@@ -378,12 +378,13 @@ class TestTrainingPlansPage:
         )
         assert result.returncode == 0, f"Training plans generator failed: {result.stderr[-300:]}"
 
-    def test_stripe_prices_extracted(self):
-        """Pricing grid must show real Stripe prices, not hardcoded fallbacks."""
+    def test_offer_is_every_4_weeks(self):
+        """The page sells the plan billed $49.99 every 4 weeks, not the retired
+        $15-a-week one-off (wordpress/plan_offer.py)."""
         html = _load_page("training-plans/index.html")
-        # Check that the pricing grid exists and has price entries
-        assert "$60" in html, "Pricing grid missing $60 (4-week plan)"
-        assert "$249" in html, "Pricing grid missing $249 (17+ week cap)"
+        assert "$49.99 every 4 weeks" in html
+        assert "$12.50 a week" in html
+        assert "$249" not in html
 
     def test_no_unescaped_faq_answers(self):
         """FAQ answers must be HTML-escaped (use esc())."""

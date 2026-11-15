@@ -1,0 +1,24 @@
+{
+  "note": "Copy of the verified races in athlete-custom-training-plan-pipeline athletes/config/ski/event_catalog.json. The checkout server refuses a race whose facts are older than max_age_days (event_facts_stale), so the questionnaire only offers an entry while it is fresh. Update this file whenever the pipeline catalog is re-verified; tests/test_plan_offer.py compares the two when the pipeline repo is checked out next to this one.",
+  "max_age_days": 30,
+  "events": [
+    {
+      "event_id": "american-birkebeiner-classic",
+      "name": "American Birkebeiner",
+      "site_slug": "american-birkebeiner",
+      "technique": "classic",
+      "event_date": "2027-02-27",
+      "distance_km": 53,
+      "verified_on": "2026-11-13"
+    },
+    {
+      "event_id": "american-birkebeiner-skate",
+      "name": "American Birkebeiner",
+      "site_slug": "american-birkebeiner",
+      "technique": "skate",
+      "event_date": "2027-02-27",
+      "distance_km": 50,
+      "verified_on": "2026-11-13"
+    }
+  ]
+}

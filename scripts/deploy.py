@@ -417,8 +417,23 @@ def sync_training():
         print(f"  Failed to create /training-plans/ directory: {err}")
         return False
 
-    if _scp_upload(host, user, port, training_file, f"{remote_dir}/index.html"):
-        print("  Deployed training plans page to /training-plans/")
+    # Stripe sends a paying skier to /training-plans/success/ (the checkout
+    # server's success_url), so the plan page never ships without it.
+    success_file = training_dir / "success" / "index.html"
+    if not success_file.exists():
+        print(f"  Plan success page not found: {success_file}")
+        print("  Run: python wordpress/generate_success.py")
+        return False
+
+    if not _scp_upload(host, user, port, training_file, f"{remote_dir}/index.html"):
+        return False
+    ok, _, err = _ssh_run(host, user, port,
+                          f"mkdir -p {remote_dir}/success && chmod 755 {remote_dir}/success")
+    if not ok:
+        print(f"  Failed to create /training-plans/success/ directory: {err}")
+        return False
+    if _scp_upload(host, user, port, success_file, f"{remote_dir}/success/index.html"):
+        print("  Deployed training plans page to /training-plans/ and /training-plans/success/")
         return True
     return False
 
