@@ -14,6 +14,20 @@ Consent behaviour:
 - ``wait_for_update: 500`` gives the banner time to update before tags fire.
 - The "Privacy choices" link opens the banner in every region.
 
+Nothing goes to Google unless analytics is granted (Matti, 2026-11-15: the
+code matches the privacy policy, "declining turns analytics off"):
+- gtag.js is loaded and ``gtag('config')`` runs only from
+  ``window.xlAnalyticsStart()``, which the head calls when the effective
+  state is granted and the banner's Accept calls otherwise. A declined or
+  not-yet-answered visitor never loads gtag.js, so no cookieless pings.
+- ``gtag('event', ...)`` calls made before analytics starts are dropped,
+  not queued, so pre-consent clicks are never replayed after Accept.
+- Decline on a page where gtag.js already loaded sets Google's
+  ``ga-disable-<id>`` flag and stops page events, so nothing more is sent.
+- A checkout ``session_id`` is removed from the address bar before config
+  (kept in ``window.xlCheckoutSessionId``) so it never reaches GA4 as
+  page_location or as the next page's referrer.
+
 The Consent Mode default runs in the same synchronous <script> block as
 ``gtag('config')`` and before it (CLAUDE.md pitfall 31). Every generator
 uses ``get_ga4_head()`` in <head> and ``get_consent_banner_html()`` before
@@ -110,7 +124,8 @@ def get_consent_head_script(ga_measurement_id: str = GA4_MEASUREMENT_ID) -> str:
     timezone_json = json.dumps(EEA_UK_CH_TIMEZONES, separators=(",", ":"))
     return (
         "<script>window.dataLayer=window.dataLayer||[];"
-        "function gtag(){dataLayer.push(arguments)}"
+        "function gtag(){if(arguments[0]==='event'&&!window.xlAnalyticsOn)return;"
+        "dataLayer.push(arguments)}"
         f"var xlConsentStrictTimezones=new Set({timezone_json});"
         "var xlConsentTimezone='';var xlConsentTimezoneKnown=false;"
         "try{xlConsentTimezone=Intl.DateTimeFormat().resolvedOptions().timeZone||'';"
@@ -127,22 +142,37 @@ def get_consent_head_script(ga_measurement_id: str = GA4_MEASUREMENT_ID) -> str:
         "gtag('consent','default',{'analytics_storage':xlConsentAnalytics,"
         "'ad_storage':'denied','ad_user_data':'denied',"
         "'ad_personalization':'denied','wait_for_update':500});"
+        "try{var xlConsentUrl=new URL(location.href);"
+        "var xlCheckoutSession=xlConsentUrl.searchParams.get('session_id');"
+        "if(xlCheckoutSession!==null){window.xlCheckoutSessionId=xlCheckoutSession;"
+        "xlConsentUrl.searchParams.delete('session_id');"
+        "history.replaceState(history.state,'',"
+        "xlConsentUrl.pathname+xlConsentUrl.search+xlConsentUrl.hash)}}"
+        "catch(xlConsentUrlError){}"
+        "window.xlAnalyticsOn=false;"
+        "window.xlAnalyticsStart=function(){"
+        f"window['ga-disable-{ga_measurement_id}']=false;"
+        "window.xlAnalyticsOn=true;"
+        "if(window.xlAnalyticsLoaded)return;window.xlAnalyticsLoaded=true;"
         "gtag('js',new Date());"
-        f"gtag('config','{ga_measurement_id}');</script>"
+        f"gtag('config','{ga_measurement_id}');"
+        "var s=document.createElement('script');s.async=true;"
+        f"s.src='https://www.googletagmanager.com/gtag/js?id={ga_measurement_id}';"
+        "document.head.appendChild(s)};"
+        "window.xlAnalyticsStop=function(){window.xlAnalyticsOn=false;"
+        f"window['ga-disable-{ga_measurement_id}']=true}};"
+        "if(xlConsentAnalytics==='granted'){window.xlAnalyticsStart()}</script>"
     )
 
 
 def get_ga4_head(ga_measurement_id: str = GA4_MEASUREMENT_ID) -> str:
-    """Return the consent default + config block, then the async gtag.js loader.
+    """Return the consent head block. It injects gtag.js itself, and only
+    when analytics is granted (no static loader tag).
 
     Raw HTML with literal braces: concatenate it or pass it as an f-string
     value, never paste it inside an f-string template.
     """
-    return (
-        get_consent_head_script(ga_measurement_id)
-        + "\n"
-        + f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga_measurement_id}"></script>'
-    )
+    return get_consent_head_script(ga_measurement_id)
 
 
 def get_consent_banner_html() -> str:
@@ -199,10 +229,12 @@ def get_consent_banner_html() -> str:
   document.getElementById('xl-consent-accept').addEventListener('click',function(){
     document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax;Secure';
     if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'})}
+    if(typeof window.xlAnalyticsStart==='function'){window.xlAnalyticsStart()}
     b.classList.remove('xl-consent-show');
   });
   document.getElementById('xl-consent-decline').addEventListener('click',function(){
     document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax;Secure';
+    if(typeof window.xlAnalyticsStop==='function'){window.xlAnalyticsStop()}
     if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'denied'})}
     b.classList.remove('xl-consent-show');
   });

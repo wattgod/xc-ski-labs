@@ -102,6 +102,19 @@ class TestHeadScript:
         snippet = get_ga4_head()
         assert snippet.index("gtag('consent','default'") < snippet.index("googletagmanager.com/gtag/js")
 
+    def test_no_static_loader_tag(self):
+        """gtag.js is injected by xlAnalyticsStart only, never by a static tag."""
+        assert "<script async" not in get_ga4_head()
+        assert get_ga4_head().count("googletagmanager.com/gtag/js") == 1
+
+    def test_config_and_loader_live_only_in_start(self, head):
+        start = head.index("window.xlAnalyticsStart=function(){")
+        end = head.index("window.xlAnalyticsStop=")
+        for needle in ("gtag('config'", "gtag('js'", "googletagmanager.com/gtag/js", "createElement('script')"):
+            assert head.count(needle) == 1, needle
+            assert start < head.index(needle) < end, needle
+        assert head.endswith("if(xlConsentAnalytics==='granted'){window.xlAnalyticsStart()}</script>")
+
     @pytest.mark.skipif(not HAS_NODE, reason="node not installed")
     @pytest.mark.parametrize(
         "timezone, cookie, expected",
@@ -118,20 +131,131 @@ class TestHeadScript:
         ],
     )
     def test_head_script_behaviour(self, head, timezone, cookie, expected):
-        body = head.replace("<script>", "").replace("</script>", "")
-        harness = (
-            "var calls=[];var window={};var document={cookie:%s};"
-            "var dataLayer=[];"
-            "var Intl={DateTimeFormat:function(l,o){"
-            "if(o&&o.timeZone&&o.timeZone!==%s)throw new RangeError('bad');"
-            "return {resolvedOptions:function(){return {timeZone:%s}}}}};"
-            "%s\n"
-            "var d=dataLayer.filter(function(a){return a[0]==='consent'&&a[1]==='default'})[0][2];"
-            "process.stdout.write(d.analytics_storage+'|'+String(window.xlConsentRequiresOptIn));"
-        ) % (json.dumps(cookie), json.dumps(timezone), json.dumps(timezone), body)
-        result = subprocess.run(["node", "-e", harness], capture_output=True, text=True, timeout=10)
-        assert result.returncode == 0, result.stderr
-        assert result.stdout.split("|")[0] == expected
+        out = _run_page(timezone, cookie, "")
+        assert out["default"] == expected
+        # Granted loads gtag.js and configures GA4 once; denied (declined or
+        # not yet answered) loads nothing and configures nothing.
+        if expected == "granted":
+            assert out["scripts"] == [f"https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"]
+            assert out["commands"].count("config") == 1
+        else:
+            assert out["scripts"] == []
+            assert "config" not in out["commands"] and "js" not in out["commands"]
+
+
+# ── Behaviour in a fake browser (node) ─────────────────────
+
+_FAKE_BROWSER = r"""
+var scripts=[];var replaced=[];var timers=[];
+function El(){this.h={};this.cls={};var self=this;
+  this.addEventListener=function(t,f){self.h[t]=f};
+  this.classList={add:function(c){self.cls[c]=true},remove:function(c){delete self.cls[c]}};
+  this.click=function(){self.h.click&&self.h.click({preventDefault:function(){}})}}
+var els={'xl-consent-banner':new El(),'xl-privacy-choices':new El(),
+  'xl-consent-accept':new El(),'xl-consent-decline':new El()};
+var dataLayer=[];var window={dataLayer:dataLayer,addEventListener:function(){},removeEventListener:function(){}};
+var document={cookie:COOKIE,getElementById:function(i){return els[i]||null},
+  createElement:function(){return {}},
+  head:{appendChild:function(s){scripts.push(s.src)}}};
+var location={href:HREF};
+var history={state:null,replaceState:function(s,t,u){replaced.push(u)}};
+function setTimeout(f){timers.push(f);return 1}function clearTimeout(){}
+var Intl={DateTimeFormat:function(l,o){
+  if(o&&o.timeZone&&o.timeZone!==TZ)throw new RangeError('bad');
+  return {resolvedOptions:function(){return {timeZone:TZ}}}}};
+"""
+
+
+def _run_page(timezone: str, cookie: str, steps: str, href: str = "https://xcskilabs.com/") -> dict:
+    """Run the shared head, then the banner script, then ``steps`` in node.
+
+    Returns the default analytics state, every gtag command name in order
+    ('event:<name>' for events), the injected script srcs, URLs passed to
+    history.replaceState and the captured checkout session id.
+    """
+    head_js = get_consent_head_script().replace("<script>", "").replace("</script>", "")
+    banner_js = _extract_js(get_consent_banner_html())
+    harness = (
+        _FAKE_BROWSER.replace("COOKIE", json.dumps(cookie))
+        .replace("HREF", json.dumps(href))
+        .replace("TZ", json.dumps(timezone))
+        + head_js + "\n" + banner_js + "\n" + steps + "\n"
+        + "var d=dataLayer.filter(function(a){return a[0]==='consent'&&a[1]==='default'})[0][2];"
+        + "process.stdout.write(JSON.stringify({default:d.analytics_storage,"
+        + "commands:dataLayer.map(function(a){return a[0]==='event'?'event:'+a[1]:a[0]}),"
+        + "scripts:scripts,replaced:replaced,session:window.xlCheckoutSessionId||null,"
+        + "disabled:window['ga-disable-" + GA4_MEASUREMENT_ID + "']===true}));"
+    )
+    result = subprocess.run(["node", "-e", harness], capture_output=True, text=True, timeout=10)
+    assert result.returncode == 0, result.stderr
+    return json.loads(result.stdout)
+
+
+@pytest.mark.skipif(not HAS_NODE, reason="node not installed")
+class TestNothingSentWithoutConsent:
+    @pytest.mark.parametrize("timezone", ["America/Denver", "Europe/Oslo", ""])
+    def test_declined_visitor_loads_nothing(self, timezone):
+        out = _run_page(timezone, "xl_consent=declined", "gtag('event','cta_click',{});")
+        assert out["scripts"] == []
+        assert out["commands"] == ["consent"]
+
+    def test_eea_visitor_without_choice_loads_nothing(self):
+        out = _run_page("Europe/Oslo", "", "gtag('event','cta_click',{});")
+        assert out["scripts"] == []
+        assert out["commands"] == ["consent"]
+
+    def test_eea_accept_loads_and_configures_without_reload(self):
+        out = _run_page(
+            "Europe/Oslo", "",
+            "gtag('event','before_accept',{});"
+            "els['xl-consent-accept'].click();"
+            "gtag('event','after_accept',{});",
+        )
+        assert out["scripts"] == [f"https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"]
+        # Pre-consent event dropped; update precedes js/config.
+        assert out["commands"] == ["consent", "consent", "js", "config", "event:after_accept"]
+
+    def test_accept_after_decline_works_without_reload(self):
+        out = _run_page(
+            "America/Denver", "xl_consent=declined",
+            "els['xl-privacy-choices'].click();els['xl-consent-accept'].click();"
+            "gtag('event','after_accept',{});",
+        )
+        assert len(out["scripts"]) == 1
+        assert out["commands"].count("config") == 1
+        assert out["commands"][-1] == "event:after_accept"
+        assert out["disabled"] is False
+
+    def test_accept_twice_configures_once(self):
+        out = _run_page("Europe/Oslo", "", "els['xl-consent-accept'].click();els['xl-consent-accept'].click();")
+        assert len(out["scripts"]) == 1
+        assert out["commands"].count("config") == 1
+
+    def test_decline_after_load_stops_collection(self):
+        out = _run_page(
+            "America/Denver", "",
+            "els['xl-privacy-choices'].click();els['xl-consent-decline'].click();"
+            "gtag('event','after_decline',{});",
+        )
+        assert out["disabled"] is True
+        assert "event:after_decline" not in out["commands"]
+
+
+@pytest.mark.skipif(not HAS_NODE, reason="node not installed")
+class TestCheckoutSessionIdNeverReachesGa4:
+    def test_session_id_stripped_before_config(self):
+        out = _run_page(
+            "America/Denver", "", "",
+            href="https://xcskilabs.com/consulting/confirmed/?session_id=cs_test_abc&x=1#top",
+        )
+        assert out["session"] == "cs_test_abc"
+        assert out["replaced"] == ["/consulting/confirmed/?x=1#top"]
+        assert "cs_test" not in json.dumps(out["commands"])
+
+    def test_no_session_id_leaves_url_alone(self):
+        out = _run_page("America/Denver", "", "", href="https://xcskilabs.com/coaching/?a=1")
+        assert out["replaced"] == []
+        assert out["session"] is None
 
 
 # ── Banner structure ───────────────────────────────────────
@@ -207,9 +331,12 @@ class TestBannerJs:
         assert "'analytics_storage':'denied'" in js
         assert "typeof gtag==='function'" in js
 
-    def test_accept_does_not_reconfigure(self, js):
+    def test_banner_never_configures_directly(self, js):
+        """Accept starts analytics through the head's xlAnalyticsStart (once)."""
         assert "gtag('config'" not in js
         assert "gtag('js'" not in js
+        assert "window.xlAnalyticsStart()" in js
+        assert "window.xlAnalyticsStop()" in js
 
     def test_auto_show_only_for_strict_geo_without_cookie(self, js):
         assert "window.xlConsentRequiresOptIn!==false" in js
@@ -348,3 +475,26 @@ def test_coaching_ctas_send_cta_click(generated_pages):
     assert "'tier_' + m[1]" in html
     for tier in ("min", "mid", "max"):
         assert f"?tier={tier}" in html
+
+
+@pytest.mark.skipif(not HAS_NODE, reason="node not installed")
+def test_coaching_tier_regex_matches_every_tier(generated_pages):
+    """The tier regex once lost its \\b to a Python backspace and matched nothing."""
+    html = next(v for k, v in generated_pages.items() if k.startswith("generate_coaching/coaching/"))
+    assert "\x08" not in html
+    regex = re.search(r"match\((/\[\?&\]tier=.*?/)\)", html).group(1)
+    js = (
+        "var r=%s;process.stdout.write(JSON.stringify(['min','mid','max','maxi'].map("
+        "function(t){var m=('/coaching/apply/?tier='+t).match(r);return m?m[1]:null})))" % regex
+    )
+    result = subprocess.run(["node", "-e", js], capture_output=True, text=True, timeout=10)
+    assert result.returncode == 0, result.stderr
+    assert json.loads(result.stdout) == ["min", "mid", "max", None]
+
+
+def test_coaching_privacy_choices_clears_sticky_cta(generated_pages):
+    """The bottom padding sits on body, so the strip after .gl-coach-page clears the fixed CTA."""
+    html = next(v for k, v in generated_pages.items() if k.startswith("generate_coaching/coaching/"))
+    mobile = html[html.index("@media (max-width: 768px) {\n  .gl-coach-sticky-cta"):]
+    mobile = mobile[: mobile.index("\n}\n")]
+    assert "body { padding-bottom: 80px; }" in mobile

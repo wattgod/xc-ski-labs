@@ -417,11 +417,13 @@ def build_page_js() -> str:
 
     No browser ``purchase`` event: anyone can load this URL with any
     ?session_id=, so a purchase fired from the URL counts fake revenue.
-    The success view carries no revenue and no checkout id."""
+    The success view carries no revenue and no checkout id, and the id
+    never reaches GA4's page_location (the head strips it from the URL)."""
     return """<script>
 (function() {
-  var params = new URLSearchParams(window.location.search);
-  var sessionId = params.get('session_id') || '';
+  // The shared consent head (scripts/consent.py) removes ?session_id=
+  // from the address bar before GA4 can see it and keeps it here.
+  var sessionId = window.xlCheckoutSessionId || '';
   var productType = document.querySelector('[data-product-type]');
   var ptype = productType ? productType.getAttribute('data-product-type') : 'unknown';
 

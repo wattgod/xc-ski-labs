@@ -665,9 +665,11 @@ a:focus-visible, button:focus-visible {
     padding: 6px 0;
     min-height: 44px;
   }
-  /* Repo pitfall #32: without bottom padding on the page, the sticky
-     CTA overlaps the footer on short pages. */
-  .gl-coach-page { padding-bottom: 80px; }
+  /* Repo pitfall #32: the fixed sticky CTA must not cover the end of the
+     page. The padding sits on body, not .gl-coach-page, because the
+     Privacy choices strip comes after the page wrapper and must stay
+     tappable. */
+  body { padding-bottom: 80px; }
 }
 
 /* ── Cookie Consent ───────────────────────────── */
@@ -997,7 +999,7 @@ def build_page_js() -> str:
     document.querySelectorAll(pair[0]).forEach(function(el) { trackCta(el, pair[1]); });
   });
   document.querySelectorAll('.gl-coach-tier-cta').forEach(function(el) {
-    var m = (el.getAttribute('href') || '').match(/[?&]tier=(min|mid|max)\b/);
+    var m = (el.getAttribute('href') || '').match(/[?&]tier=(min|mid|max)\\b/);
     if (m) trackCta(el, 'tier_' + m[1]);
   });
 
