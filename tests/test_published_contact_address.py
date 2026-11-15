@@ -46,3 +46,8 @@ def test_guide_gate_unlocks_only_after_the_worker_stores_the_email():
     assert block.index("gtag('event', 'guide_unlock'") > then_at
     assert block.index("unlock();") > then_at
     assert "data-guide-gate-error" in src
+
+
+def test_guide_gate_never_puts_the_email_in_the_url():
+    src = (ROOT / "scripts" / "generate_guide.py").read_text()
+    assert '<form class="gl-guide-gate-form" data-guide-gate-form method="post">' in src

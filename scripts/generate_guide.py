@@ -315,7 +315,7 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
   <p class="gl-guide-tag">Free — one email</p>
   <h2>Read the rest of the guide</h2>
   <p>Chapters four through eight — technique, fueling, tactics, race week, and the off-season — plus the whole guide, for your email. No spam; unsubscribe anytime.</p>
-  <form class="gl-guide-gate-form" data-guide-gate-form>
+  <form class="gl-guide-gate-form" data-guide-gate-form method="post">
     <input type="hidden" name="chapter" value="{ctitle}">
     <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
     <label class="gl-guide-gate-label" for="gate-email-{cid}">Email</label>
