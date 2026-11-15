@@ -123,6 +123,13 @@ OFFER_CSS = """
   line-height: 1.55;
 }
 .gl-offer-lines li { margin-bottom: 6px; }
+.gl-included {
+  list-style: none; padding: 0; margin: 0 0 24px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px 32px;
+}
+.gl-included li { padding-left: 22px; position: relative; line-height: 1.4; }
+.gl-included li::before { content: "✓"; position: absolute; left: 0; font-weight: 700; }
+.gl-fine-print { font-size: 13px; line-height: 1.5; opacity: 0.75; margin: 16px 0 0; }
 """
 
 
@@ -865,15 +872,8 @@ def build_hero(race_count):
     return f"""
 <section class="gl-hero">
   <div class="gl-hero-label">Custom XC Ski Training</div>
-  <h1>Your Race. Your Hours.<br>Your Plan.</h1>
-  <p class="gl-hero-sub">
-    {esc(HERO_SUB)}
-  </p>
-  <div class="gl-hero-stats">
-    <span>{esc(str(race_count))}</span> races indexed &middot;
-    <span>14</span> scoring criteria &middot;
-    <span>{esc(plan_offer.BLOCK_PRICE)}</span> every {plan_offer.BLOCK_WEEKS} weeks
-  </div>
+  <h1>{esc(plan_offer.HEADLINE)}</h1>
+  <p class="gl-hero-sub">{esc(plan_offer.PRICE_LINE)}.</p>
   <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
 </section>
 """
@@ -897,48 +897,10 @@ def build_plan_preview():
     )
 
 
-# Rider-facing copy on this page (Matti speaking). Every line is in the PR's
-# approval list; each claim is something the ski engine builds
-# (athletes/scripts/ski_engine.py, ALGORITHM_EVIDENCE §20) or the plan's
-# emails send (race_plan_emails).
-HERO_SUB = ("A plan built around your race, the hours you have and when you're on snow, "
-            "one 4-week block at a time. Classic, skate or skiathlon.")
-
-STEPS = (
-    ("01", "Answer the questionnaire",
-     "Your race, the hours you can keep up, the longest session each day allows, when "
-     "you're on snow, and what you have to train on before then."),
-    ("02", "I check every block",
-     "Your plan comes one 4-week block at a time. I look over each block before it goes "
-     "on your TrainingPeaks calendar, and a few days before each payment I email to ask "
-     "what's changed."),
-    ("03", "Train it",
-     "Each block also comes by email with a guide that lists every workout in it."),
-)
-
-PLAN_PARTS = (
-    ("S", "Built around your snow",
-     "Before your snow date, sessions use the rollerskis, running, SkiErg or bike you told "
-     "me you have. Once you're on snow, they move to snow."),
-    ("W", "Your week, your days",
-     "Every session fits the longest time you gave me for its day. Your long session lands "
-     "on the day you picked, and days you can't train stay rest days."),
-    ("L", "Load and taper",
-     "Three weeks of building, then a lighter week, and a two-week taper into your race."),
-    ("G", "Strength every week",
-     "Strength work for where you can lift, whether that's a gym, dumbbells at home or "
-     "only your own bodyweight."),
-    ("H", "Effort and heart rate",
-     "Hard sessions are written by effort. If you've seen your max heart rate on skis with a "
-     "chest strap in the last 3 years, sessions in that technique also get heart-rate ranges."),
-    ("F", "Fueling",
-     "Long sessions carry a carbohydrate target that starts from what you've practised. A "
-     "race of 42 km or more gets a two-day carb-load before it."),
-    ("T", "Heat training",
-     "If you have a sauna or a bath, and the health questions don't rule it out, I add up to "
-     "three short heat sessions a week after training, from August until your taper."),
-)
-
+# Rider-facing copy on this page (Matti speaking). The headline, the list of
+# what's included and the fine print live in plan_offer.py; each claim is
+# something the ski engine builds (athletes/scripts/ski_engine.py,
+# ALGORITHM_EVIDENCE §20), the course grant opens or the plan's emails send.
 FAQS = (
     ("How do I get the workouts?",
      "Each block goes on your TrainingPeaks calendar after I've looked it over. The email "
@@ -963,62 +925,31 @@ FAQS = (
 )
 
 
-def build_how_it_works():
-    """3-step process section."""
-    steps = "".join(f"""
-    <div class="gl-step">
-      <div class="gl-step-num">{num}</div>
-      <div class="gl-step-title">{esc(title)}</div>
-      <div class="gl-step-desc">{esc(desc)}</div>
-    </div>""" for num, title, desc in STEPS)
+def build_included():
+    """Everything the plan includes, as a fast list (plan_offer.INCLUDED)."""
+    items = "".join(f"<li>{esc(line)}</li>" for line in plan_offer.INCLUDED)
     return f"""
 <div class="gl-page">
-<section class="gl-section">
-  <div class="gl-section-label">Process</div>
-  <div class="gl-section-title">How It Works</div>
-  <div class="gl-steps">{steps}
-  </div>
+<section class="gl-section" id="included">
+  <div class="gl-section-title">What&rsquo;s Included</div>
+  <ul class="gl-included">{items}
+  </ul>
+  <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
 </section>
-"""
-
-
-def build_deliverables():
-    """What the ski engine puts in the plan."""
-    parts = "".join(f"""
-    <div class="gl-deliverable">
-      <div class="gl-deliverable-icon">{esc(icon)}</div>
-      <div>
-        <div class="gl-deliverable-title">{esc(title)}</div>
-        <div class="gl-deliverable-desc">{esc(desc)}</div>
-      </div>
-    </div>""" for icon, title, desc in PLAN_PARTS)
-    return f"""
-<section class="gl-section">
-  <div class="gl-section-label">Deliverables</div>
-  <div class="gl-section-title">What&rsquo;s In The Plan</div>
-  <div class="gl-deliverables">{parts}
-  </div>
-</section>
+</div>
 """
 
 
 def build_offer():
     """The plan billed every 4 weeks: price and terms (wordpress/plan_offer.py)."""
-    lines = "".join(f"<li>{esc(line)}</li>" for line in plan_offer.OFFER_LINES)
-    fit = "".join(f"<li>{esc(line)}</li>" for line in plan_offer.FIT_LINES)
+    # Opens .gl-page; build_final_cta closes it after the FAQ.
     return f"""
+<div class="gl-page">
 <section class="gl-section" id="price">
-  <div class="gl-section-label">Price</div>
-  <div class="gl-section-title">What It Costs</div>
   <div class="gl-pricing-box">
     <div class="gl-pricing-headline">{esc(plan_offer.PRICE_LINE)}.</div>
-    <div class="gl-pricing-sub">Until race week.</div>
-    <ul class="gl-offer-lines">{lines}
-    </ul>
-    <div class="gl-pricing-note">I build this plan for:</div>
-    <ul class="gl-offer-lines">{fit}
-    </ul>
     <a href="/questionnaire/" class="gl-cta-btn">Build My Plan</a>
+    <p class="gl-fine-print">{esc(plan_offer.FINE_PRINT)}</p>
   </div>
 </section>
 """
@@ -1124,8 +1055,7 @@ def generate_page():
     hero = build_hero(race_count) + PAGE_MOTION
     preview = build_plan_preview()
     plan_simulator_js = get_plan_simulator_js()
-    how_it_works = build_how_it_works()
-    deliverables = build_deliverables()
+    included = build_included()
     pricing = build_offer()
     faq = build_faq()
     final_cta = build_final_cta()
@@ -1202,9 +1132,8 @@ def generate_page():
 <body>
 {nav}
 {hero}
+{included}
 {preview}
-{how_it_works}
-{deliverables}
 {pricing}
 {faq}
 {final_cta}

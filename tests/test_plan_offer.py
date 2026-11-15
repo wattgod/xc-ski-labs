@@ -198,11 +198,24 @@ class TestQuestionnairePage:
 
 
 class TestTrainingPlansPage:
-    def test_offer_lines_present(self, training_plans_html):
+    def test_headline_list_and_fine_print(self, training_plans_html):
         text = plan_offer.visible_text(training_plans_html)
-        for line in plan_offer.OFFER_LINES + plan_offer.FIT_LINES:
+        for line in (plan_offer.HEADLINE, plan_offer.FINE_PRINT) + plan_offer.INCLUDED:
             assert line in text, line
-        assert 'id="price"' in training_plans_html
+        assert 'id="price"' in training_plans_html and 'id="included"' in training_plans_html
+
+    def test_sells_plainly(self, training_plans_html):
+        # Matti, 2026-11-15: never against coaching, never per-day, no value or
+        # refund pitch above the fine print.
+        text = plan_offer.visible_text(training_plans_html)
+        pitch = text.split(plan_offer.HEADLINE, 1)[1].split(plan_offer.FINE_PRINT)[0]
+        for phrase in ("a day", "per day", "coaching", "value", "bargain", "deal",
+                       "refund", "money back", "guarantee"):
+            assert phrase not in pitch.lower(), phrase
+
+    def test_pitch_lines_pass_the_banned_words(self):
+        for line in (plan_offer.HEADLINE, plan_offer.FINE_PRINT) + plan_offer.INCLUDED:
+            assert not BANNED.search(line), line
 
     def test_no_retired_offer(self, training_plans_html):
         assert plan_offer.stale_offer_phrases(training_plans_html) == []

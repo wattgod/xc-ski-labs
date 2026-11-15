@@ -99,6 +99,33 @@ FIT_LINES = (
 OFFER_LINES = (BLOCK_LINE, LAST_BLOCK_LINE, ENDS_LINE, NO_CAP_LINE, REVIEW_LINE,
                CANCEL_LINE, REFUND_LINE)
 
+# ── The sales page (Matti, 2026-11-15): one plain headline, a fast list of
+# what's in it, the terms as fine print. Never compared with coaching, never
+# a per-day price, never a value or refund pitch (docs/AI_WRITING_POLICY.md).
+# Every item is built: the course grant is pipeline #459, heat is #458.
+HEADLINE = ("A custom ski plan built around your race and your life, adjusted every "
+            f"{BLOCK_WEEKS} weeks, for less than a block of race wax.")
+INCLUDED = (
+    "Built for your race: classic, skate or skiathlon, up to 90 km",
+    "Fits your week: your hours, your days, your long day",
+    "Follows your snow: rollerski, run, SkiErg or bike until it falls",
+    f"Checked by me every {BLOCK_WEEKS} weeks, with your changes built in",
+    "The XC Ski Labs Course: every technique module, and every one I add",
+    "Strength every week, for a gym, dumbbells or bodyweight",
+    "Fueling targets for long sessions, carb-load before the race",
+    "Heat training, if you have a sauna or a hot bath",
+    "Effort targets on every session, heart rate where you know your ski max",
+    "Test sessions that reset your ranges",
+    "Taper into race week",
+    "On your TrainingPeaks calendar, with a guide for every block",
+)
+FINE_PRINT = (
+    f"Billed {PRICE_LINE} until race week, then it stops. {LAST_BLOCK_LINE} "
+    f"{CANCEL_LINE} {REFUND_LINE} For skiers {MIN_AGE} or older with at least one full "
+    f"winter on skis, racing classic, skate or skiathlon from {RACE_MONTHS}, up to "
+    f"{MAX_DISTANCE_KM} km."
+)
+
 
 # ── Guard: the retired one-off offer must not reappear next to the plan ──
 
