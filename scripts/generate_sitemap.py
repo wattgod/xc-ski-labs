@@ -92,6 +92,10 @@ def generate_sitemap(domain, profiles):
     add_url(f"{domain}/training-plans/", "0.8", "monthly")
     add_url(f"{domain}/about/", "0.5", "monthly")
     add_url(f"{domain}/methodology/", "0.5", "monthly")
+    # Public service pages (indexable, canonical). Apply/intake/confirmation
+    # pages stay out of the sitemap.
+    add_url(f"{domain}/coaching/", "0.7", "monthly")
+    add_url(f"{domain}/consulting/", "0.6", "monthly")
     add_url(f"{domain}/privacy/", "0.3", "yearly")
     add_url(f"{domain}/terms/", "0.3", "yearly")
 

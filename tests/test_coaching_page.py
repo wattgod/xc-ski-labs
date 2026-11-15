@@ -3,7 +3,7 @@
 XC Ski Labs — Tests for the /coaching/ landing page ("The Dossier")
 
 Covers wordpress/generate_coaching.py: hero, five numbered terms, three
-service tiers (monthly billing, no setup fee), fit check, seven-item
+service tiers (billed every 4 weeks, one-time $99 setup fee), fit check, seven-item
 FAQ, dark application close, mobile sticky CTA, GA4 + consent, and the
 nav retarget from /coaching/apply/ to /coaching/ across the site.
 
@@ -249,13 +249,15 @@ class TestTiers:
         assert "Mid" in tiers
         assert "Max" in tiers
 
-    def test_prices_and_monthly_interval(self):
+    def test_prices_and_four_week_interval(self):
+        # Checkout bills every 28 days (brands.yaml xcskilabs.coaching
+        # billing_period_days: 28), not monthly.
         tiers = build_tiers()
         assert "$199" in tiers
         assert "$299" in tiers
         assert "$1,200" in tiers
-        assert tiers.count("/ MONTH") == 3
-        assert "/ 4 WEEKS" not in tiers
+        assert tiers.count("/ 4 WEEKS") == 3
+        assert "MONTH" not in tiers.upper()
 
     def test_get_started_links(self):
         tiers = build_tiers()
@@ -264,9 +266,21 @@ class TestTiers:
         assert f"{APPLY_URL}?tier=mid" in tiers
         assert f"{APPLY_URL}?tier=max" in tiers
 
-    def test_no_setup_fee(self, coaching_html):
-        assert "setup fee" not in coaching_html.lower()
-        assert "$99" not in coaching_html
+    def test_setup_fee_disclosed(self):
+        # Checkout adds a one-time $99 setup fee (setup_fee_cents: 9900).
+        tiers = build_tiers()
+        assert "one-time $99 setup fee" in tiers
+        assert "TrainingPeaks Premium is included with every tier" in tiers
+
+    def test_no_month_in_billing_context(self, coaching_html):
+        """Coaching bills every 4 weeks (13 cycles a year). Month wording
+        anywhere in the generated page's billing copy misstates the charge."""
+        bad = re.compile(r"month|/\s*mo\b|per\s+mo\b", re.IGNORECASE)
+        text = coaching_html
+        hits = [m.group(0) for m in bad.finditer(text)]
+        assert hits == [], f"month wording in coaching page: {hits}"
+        meta = re.search(r'<meta name="description" content="([^"]*)"', text)
+        assert meta and "From $199 every 4 weeks" in meta.group(1)
 
     def test_disclaimer(self):
         tiers = build_tiers()
@@ -360,16 +374,11 @@ class TestFAQ:
         assert "A watch with heart rate is plenty." in f
         assert "Every workout carries effort-based targets you can train by feel." in f
 
-    def test_setup_fee_question_removed(self):
-        f = build_faq()
-        assert "$99 setup fee" not in f
-        assert "setup fee" not in f.lower()
-
-    def test_cancel_anytime_says_monthly_cycle(self):
+    def test_cancel_anytime_says_four_week_cycle(self):
         f = build_faq()
         assert "Can I cancel anytime?" in f
-        assert "monthly cycle" in f
-        assert "4-week cycle" not in f
+        assert "current 4-week cycle" in f
+        assert "month" not in f.lower()
 
     def test_accordion_aria(self):
         f = build_faq()

@@ -33,6 +33,13 @@ except ModuleNotFoundError:
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
+
+# The XC ski course is not live: /learn/ and /course/ both return 404 on
+# xcskilabs.com (checked 2026-11-14). Until it ships, no page links it.
+# Flip to True only after /learn/ answers 200 in production. This replaces
+# the old "output/learn/index.html exists" check, which a stale local build
+# could satisfy while production still 404'd.
+COURSE_LIVE = False
 TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 
 # ── Constants ──────────────────────────────────────────────────
@@ -258,9 +265,9 @@ coverage.forEach(function(c) {{
 def generate_homepage(races: list[dict]) -> str:
     """Generate the complete homepage HTML."""
     # The course rung links /learn/, which 404s until the course ships.
-    # Same gate as generate_race_pages.build_product_ladder: no page, no link.
+    # Same gate as generate_race_pages.build_product_ladder: COURSE_LIVE.
     course_rung = ""
-    if (DEFAULT_OUTPUT_DIR / "learn" / "index.html").exists():
+    if COURSE_LIVE:
         course_rung = """      <div class="gl-rung">
         <span class="gl-rung-kicker">Course</span>
         <h3>XC ski course</h3>
