@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/jamtland-ski-marathon/"
 
 # Jämtland Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jamtland-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jamtland-ski-marathon/*
 
 > Sixty kilometers through the deep forests of inland Sweden — Jämtland's quiet answer to the coastal crowds.
 

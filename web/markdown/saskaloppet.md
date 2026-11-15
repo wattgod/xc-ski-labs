@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/saskaloppet/"
 
 # Saskaloppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/saskaloppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/saskaloppet/*
 
 > Fifty-five kilometers through Saskatchewan's boreal shield — where the cold is absolute, the forest endless, and the snow guaranteed.
 

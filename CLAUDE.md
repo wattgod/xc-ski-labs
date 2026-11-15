@@ -36,7 +36,7 @@ email, and product surface:
   can still be bad copy, and clean copy can still be unsupported. Verify both.
 
 ## Project Overview
-XC ski race database at `xcskilabs.com`. 229 race profiles scored across 14 criteria.
+XC ski race database at `xcskilabs.com`. 227 race profiles scored across 14 criteria.
 Modeled after Gravel God (`gravel-race-automation`). Same deploy pattern (tar+ssh to SiteGround).
 
 ## Key Paths
@@ -171,7 +171,7 @@ pytest tests/ -v
 ```
 
 ## Test Counts
-- `test_race_profiles.py`: ~5,267 parametrized (229 profiles × ~23 tests each)
+- `test_race_profiles.py`: ~5,267 parametrized (227 profiles × ~23 tests each)
 - `test_generators.py`: 23 tests
 - `test_new_features.py`: 72 tests (GA4, consent, nav, CTA, training, coaching, security, Stripe, deploy, edge cases)
 - `test_youtube.py`: 69 tests
@@ -179,8 +179,8 @@ pytest tests/ -v
 - Total: ~7,970 passing
 
 ## Website Pages (generated)
-- **Race pages**: 229 (`output/{slug}/index.html`) — with GA4, consent, nav, sticky CTA, training section
-- **Prep kits**: 229 (`output/{slug}/prep-kit/index.html`) — linked from the race-page gate and day-0 kit emails
+- **Race pages**: 227 (`output/{slug}/index.html`) — with GA4, consent, nav, sticky CTA, training section
+- **Prep kits**: 227 (`output/{slug}/prep-kit/index.html`) — linked from the race-page gate and day-0 kit emails
 - **Training plans**: `output/training-plans/index.html` — pricing from `data/stripe-products.json`
 - **Coaching form**: `output/coaching/apply/index.html` — 12-section intake, FormSubmit.co
 - **Homepage**: `output/index.html`

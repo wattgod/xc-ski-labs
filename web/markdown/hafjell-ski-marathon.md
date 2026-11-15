@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/hafjell-ski-marathon/"
 
 # Hafjell Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/hafjell-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/hafjell-ski-marathon/*
 
 > Forty-two kilometers of pure skate through the Øyer highlands — Norway's longest freestyle race and the skating counterpart to the Birkebeiner tradition.
 

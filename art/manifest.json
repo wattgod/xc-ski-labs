@@ -289,11 +289,6 @@
     "source": "race-data/gantrisch-loppet.json",
     "tier": "B"
   },
-  "gatineau-55": {
-    "license": "Profile data",
-    "source": "race-data/gatineau-55.json",
-    "tier": "B"
-  },
   "gatineau-loppet": {
     "license": "Profile data",
     "source": "race-data/gatineau-loppet.json",
@@ -1062,11 +1057,6 @@
   "ushuaia-loppet": {
     "license": "Profile data",
     "source": "race-data/ushuaia-loppet.json",
-    "tier": "B"
-  },
-  "ushuaia-ski-marathon": {
-    "license": "Profile data",
-    "source": "race-data/ushuaia-ski-marathon.json",
     "tier": "B"
   },
   "valdres-skimaraton": {

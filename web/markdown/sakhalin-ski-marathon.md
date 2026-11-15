@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/sakhalin-ski-marathon/"
 
 # Sakhalin Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sakhalin-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sakhalin-ski-marathon/*
 
 > Fifty kilometers on Russia's Pacific island — Sakhalin's maritime snowfields deliver deep powder and Sea of Okhotsk winds.
 

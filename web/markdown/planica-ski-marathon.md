@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/planica-ski-marathon/"
 
 # Planica Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/planica-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/planica-ski-marathon/*
 
 > Forty-two kilometers on a World Championship course beneath the Julian Alps — Slovenia's newest marathon where ski jumping history meets cross-country ambition.
 

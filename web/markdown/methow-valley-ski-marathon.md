@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/methow-valley-ski-marathon/"
 
 # Methow Valley Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/methow-valley-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/methow-valley-ski-marathon/*
 
 > Forty-two kilometers across the sun-drenched Methow Valley — Pacific Northwest skiing at marathon distance.
 

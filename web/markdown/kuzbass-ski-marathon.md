@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/kuzbass-ski-marathon/"
 
 # Kuzbass Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kuzbass-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kuzbass-ski-marathon/*
 
 > Fifty kilometers through western Siberia's coal country — the Kuzbass basin delivers a thousand-strong field and solid Russialoppet racing.
 

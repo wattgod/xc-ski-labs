@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/marathon-des-belles-combes/"
 
 # Marathon des Belles Combes
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-des-belles-combes/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-des-belles-combes/*
 
 > Season-opening 42km freestyle marathon in the Jura Mountains — the first race of France's Marathon Ski Tour circuit kicks off the French Nordic calendar.
 

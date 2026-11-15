@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/valdres-skimaraton/"
 
 # Valdres Skimaraton
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/valdres-skimaraton/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/valdres-skimaraton/*
 
 > Sixty-seven kilometers from Aurdal to Beitostølen through the Valdres valley — a classic marathon beneath the Jotunheimen giants where Norway's mountain heart beats loudest.
 

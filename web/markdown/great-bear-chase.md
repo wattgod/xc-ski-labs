@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/great-bear-chase/"
 
 # Great Bear Chase
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-bear-chase/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-bear-chase/*
 
 > Fifty-two kilometers through Michigan's Copper Country on 230 inches of annual snow — where Lake Superior's fury becomes the Upper Peninsula's gift and every finisher earns a pasty.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tour-de-gaspe/"
 
 # Tour de Gaspé
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tour-de-gaspe/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tour-de-gaspe/*
 
 > A multi-day expedition across Quebec's Gaspé Peninsula — 150 kilometers of classic skiing through remote boreal wilderness between the St. Lawrence and the Chic-Choc Mountains.
 

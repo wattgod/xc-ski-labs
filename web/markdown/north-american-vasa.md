@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/north-american-vasa/"
 
 # North American Vasa
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/north-american-vasa/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/north-american-vasa/*
 
 > Fifty kilometers through Michigan's frozen north woods — where the American Midwest meets Scandinavian grit.
 

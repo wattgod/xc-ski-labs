@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/vasaloppet-japan/"
 
 # Vasaloppet Japan
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vasaloppet-japan/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vasaloppet-japan/*
 
 > Forty-five kilometers of Hokkaido powder — Japan's tribute to the Swedish original, three laps through the snow country where Siberian winds meet volcanic terrain.
 

@@ -326,8 +326,6 @@ class TestDuplicateDetection:
             # These are legitimate separate events — only fail on unexpected ones.
             known_norm_dupes = {
                 "vasaloppet",  # vasaloppet, vasaloppet-china, vasaloppet-japan, vasaloppet-usa
-                "gatineau",    # gatineau-55 / gatineau-loppet both normalize to "gatineau"
-                "ushuaia",     # ushuaia-loppet / ushuaia-ski-marathon are distinct events
             }
             unexpected = {k: v for k, v in duplicates.items()
                           if k not in known_norm_dupes}

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/demino-ski-marathon/"
 
 # Demino Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/demino-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/demino-ski-marathon/*
 
 > Fifty kilometers on the frozen banks of the Volga — Russia's most prestigious citizen ski marathon, now suspended from the world stage but still drawing thousands to Rybinsk.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/khanty-mansiysk-ski-marathon/"
 
 # Khanty-Mansiysk Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/khanty-mansiysk-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/khanty-mansiysk-ski-marathon/*
 
 > Fifty kilometers through western Siberia's taiga — Russia's oil capital delivers World Cup biathlon trails on the frozen banks of the Irtysh River.
 

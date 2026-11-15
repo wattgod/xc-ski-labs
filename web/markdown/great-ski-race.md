@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/great-ski-race/"
 
 # The Great Ski Race
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-ski-race/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-ski-race/*
 
 > 26 kilometers from Tahoe City to Truckee across the Sierra Nevada ridge — the West Coast's largest cross-country ski race and a beloved fundraiser since 1977.
 

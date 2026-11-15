@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/sovereign-lake-loppet/"
 
 # Sovereign Lake Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sovereign-lake-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sovereign-lake-loppet/*
 
 > Fifty kilometers across the Okanagan Highland's snowbound plateau — where British Columbia's interior delivers cold, dry snow and cathedral forest silence.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/white-pine-stampede/"
 
 # White Pine Stampede
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/white-pine-stampede/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/white-pine-stampede/*
 
 > 42 kilometers point-to-point through northern Michigan's frozen forests — the state's oldest and most iconic Nordic marathon since 1977.
 

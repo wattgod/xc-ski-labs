@@ -48,3 +48,23 @@ def test_deploy_uploads_the_page_before_the_htaccess():
     body = src[src.index("def sync_errors"):src.index("def sync_feeds")]
     assert body.index('"404.html"') < body.index('".htaccess"')
     assert ".htaccess.bak-" in body
+
+
+REMOVED_DUPLICATES = {  # removed slug -> surviving race (#87)
+    "gatineau-55": "gatineau-loppet",
+    "ushuaia-ski-marathon": "ushuaia-loppet",
+}
+
+
+def test_removed_duplicates_redirect_page_and_markdown():
+    """A removed profile is gone from the data and both its URLs 301 to the survivor."""
+    import re as _re
+    from pathlib import Path as _Path
+    root = _Path(__file__).resolve().parent.parent
+    htaccess = (root / "web" / ".htaccess").read_text(encoding="utf-8")
+    for old, new in REMOVED_DUPLICATES.items():
+        assert not (root / "race-data" / f"{old}.json").exists(), old
+        assert (root / "race-data" / f"{new}.json").exists(), new
+        md = _re.search(rf"^RewriteRule \^race/{_re.escape(old)}\\\.md\$ https://xcskilabs\.com/race/{new}\.md \[R=301,L\]$", htaccess, _re.M)
+        page = _re.search(rf"^RewriteRule \^race/{_re.escape(old)}\(\?:/\(\.\*\)\)\?\$ https://xcskilabs\.com/race/{new}/\$1 \[R=301,L\]$", htaccess, _re.M)
+        assert md and page, old

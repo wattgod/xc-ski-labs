@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/great-glen-to-bretton-woods/"
 
 # Great Glen to Bretton Woods
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-glen-to-bretton-woods/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-glen-to-bretton-woods/*
 
 > Fifty kilometers through New Hampshire's Presidential Range — a wild point-to-point traverse of the White Mountains.
 

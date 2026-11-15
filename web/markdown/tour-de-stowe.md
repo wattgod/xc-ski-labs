@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tour-de-stowe/"
 
 # Tour de Stowe
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tour-de-stowe/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tour-de-stowe/*
 
 > Vermont's community ski tour linking Stowe's trail networks — a low-key citizen event through New England's most iconic ski town.
 

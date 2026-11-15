@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/idre-classic/"
 
 # Idre Classic
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/idre-classic/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/idre-classic/*
 
 > A growing Swedish marathon in the reliable snow country of Dalarna — classic technique through Idre's forested mountain terrain.
 

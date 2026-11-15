@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/city-of-lakes-loppet/"
 
 # City of Lakes Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/city-of-lakes-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/city-of-lakes-loppet/*
 
 > Thirty-three kilometers through the frozen heart of Minneapolis — the only major marathon ski race woven through an American city.
 

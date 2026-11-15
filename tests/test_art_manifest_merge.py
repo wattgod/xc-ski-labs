@@ -2,7 +2,7 @@
 
 `generate_race_pages.py --slug <one>` used to call write_art_manifest()
 with only the selected race, silently rewriting the tracked manifest from
-229 entries down to 1 and destroying every other race's tier, source and
+227 entries down to 1 and destroying every other race's tier, source and
 licence record. These tests pin the merge behaviour that fixes it.
 """
 
@@ -28,18 +28,18 @@ gen = _load_generator()
 
 
 def _seed_manifest(tmp_path) -> tuple[Path, dict]:
-    """Copy the real 229-entry manifest into a throwaway art dir."""
+    """Copy the real 227-entry manifest into a throwaway art dir."""
     art_dir = tmp_path / "art"
     art_dir.mkdir()
     shutil.copy(REAL_MANIFEST, art_dir / "manifest.json")
     return art_dir, json.loads(REAL_MANIFEST.read_text(encoding="utf-8"))
 
 
-def test_real_manifest_still_has_229_entries():
+def test_real_manifest_still_has_227_entries():
     """Guard the guard: if the real manifest changes size, the numbers below
     need rechecking rather than silently passing."""
     manifest = json.loads(REAL_MANIFEST.read_text(encoding="utf-8"))
-    assert len(manifest) == 229
+    assert len(manifest) == 227
 
 
 def test_single_slug_write_preserves_every_other_entry(tmp_path):
@@ -54,7 +54,7 @@ def test_single_slug_write_preserves_every_other_entry(tmp_path):
     )
 
     after = json.loads((art_dir / "manifest.json").read_text(encoding="utf-8"))
-    assert len(after) == 229, f"manifest truncated to {len(after)} entries"
+    assert len(after) == 227, f"manifest truncated to {len(after)} entries"
     assert after[slug]["source"] == "spot-check", "selected race was not refreshed"
     untouched = {k: v for k, v in after.items() if k != slug}
     assert untouched == {k: v for k, v in original.items() if k != slug}
@@ -85,4 +85,4 @@ def test_generate_all_merges_only_for_single_slug_runs(tmp_path, monkeypatch):
 
     gen.generate_all(REPO_ROOT / "race-data", tmp_path / "all", None)
     assert seen["merge"] is False
-    assert seen["count"] == 229
+    assert seen["count"] == 227

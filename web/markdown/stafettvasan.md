@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/stafettvasan/"
 
 # StafettVasan
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/stafettvasan/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/stafettvasan/*
 
 > Ninety kilometers, five legs, one team — the world's largest ski relay, splitting the legendary Vasaloppet course among friends from Sälen to Mora.
 

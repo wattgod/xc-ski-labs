@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/pokljuka-nordic-marathon/"
 
 # Pokljuka Nordic Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pokljuka-nordic-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pokljuka-nordic-marathon/*
 
 > Forty-two kilometers on Slovenia's highest plateau — the Julian Alps' biathlon heartland where World Championship trails meet pristine alpine forest.
 

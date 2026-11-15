@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/vantaa-hiihto/"
 
 # Vantaa-hiihto
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vantaa-hiihto/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vantaa-hiihto/*
 
 > Thirty to fifty kilometers of mass skiing in the Helsinki metropolitan area — Finland's capital-region citizen race that brings marathon-distance Nordic to the urban doorstep.
 

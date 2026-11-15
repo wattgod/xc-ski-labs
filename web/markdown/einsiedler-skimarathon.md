@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/einsiedler-skimarathon/"
 
 # Einsiedler Skimarathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/einsiedler-skimarathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/einsiedler-skimarathon/*
 
 > Nearly six decades of Swiss Loppet tradition in the shadow of one of Europe's great pilgrimage towns.
 

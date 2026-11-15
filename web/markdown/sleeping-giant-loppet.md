@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/sleeping-giant-loppet/"
 
 # Sleeping Giant Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sleeping-giant-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sleeping-giant-loppet/*
 
 > Fifty kilometers through Ontario's boreal wilderness along the shores of Lake Superior — where the Sleeping Giant watches over Canada's most scenic Nordic terrain.
 

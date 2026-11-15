@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/sjusjoen-skimarathon/"
 
 # Sjusjøen Skimarathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sjusjoen-skimarathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sjusjoen-skimarathon/*
 
 > A full marathon on one of Norway's finest trail networks — the gateway to Birkebeinerrennet qualification.
 

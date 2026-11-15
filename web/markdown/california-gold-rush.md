@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/california-gold-rush/"
 
 # California Gold Rush
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/california-gold-rush/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/california-gold-rush/*
 
 > 45 kilometers of freestyle racing at Royal Gorge in the Sierra Nevada — the ASM Series finale where the West Coast's fastest skaters chase gold in the mountains.
 

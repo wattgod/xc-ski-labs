@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/marcia-gran-paradiso/"
 
 # Marcia Gran Paradiso
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marcia-gran-paradiso/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marcia-gran-paradiso/*
 
 > Forty kilometers beneath the highest peak entirely within Italy — a Ski Classics Challenger in the pristine heart of Gran Paradiso National Park.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/holmenkollmarsjen/"
 
 # Holmenkollmarsjen
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/holmenkollmarsjen/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/holmenkollmarsjen/*
 
 > Fifty-two kilometers through the Oslo hills to the most famous ski jump in the world — where Norwegian ski culture lives and breathes.
 

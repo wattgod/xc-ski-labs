@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/grenaderlopet/"
 
 # Grenaderløpet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/grenaderlopet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/grenaderlopet/*
 
 > Ninety grueling kilometers through the Buskerud wilderness — Norway's longest single-day classic and a proving ground for Birkebeiner hopefuls.
 

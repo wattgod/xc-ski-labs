@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/billingens-langlopp/"
 
 # Billingens Långlopp
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/billingens-langlopp/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/billingens-langlopp/*
 
 > Western Sweden's Ski Classics Challengers event — forty kilometers through the table mountain landscape of Västergötland.
 

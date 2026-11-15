@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/7-mila/"
 
 # 7-Mila
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/7-mila/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/7-mila/*
 
 > Seven Swedish miles through the forests of Västerbotten — a 76km odyssey in the deep north where daylight is still a luxury in March.
 

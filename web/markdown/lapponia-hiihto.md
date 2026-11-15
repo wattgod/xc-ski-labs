@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/lapponia-hiihto/"
 
 # Lapponia Hiihto
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/lapponia-hiihto/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/lapponia-hiihto/*
 
 > One hundred and ninety kilometers across the fells of Finnish Lapland in three days — the longest multi-stage ski race in the Nordic world.
 

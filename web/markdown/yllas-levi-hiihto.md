@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/yllas-levi-hiihto/"
 
 # Ylläs-Levi Hiihto
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/yllas-levi-hiihto/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/yllas-levi-hiihto/*
 
 > Seventy kilometers across three Lapland fells through a national park above the Arctic Circle — Finland's wildest marathon where the snow never lies.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/sapporo-ski-marathon/"
 
 # Sapporo Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sapporo-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/sapporo-ski-marathon/*
 
 > Fifty kilometers through Hokkaido's deep powder country — Japan's Olympic city delivers world-class snow and meticulous organization.
 

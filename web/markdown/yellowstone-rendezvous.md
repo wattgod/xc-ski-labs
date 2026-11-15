@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/yellowstone-rendezvous/"
 
 # Yellowstone Rendezvous
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/yellowstone-rendezvous/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/yellowstone-rendezvous/*
 
 > Fifty kilometers at 6,600 feet on the doorstep of Yellowstone — where Montana's deepest snowpack and the world's first national park meet at the Rendezvous trails.
 

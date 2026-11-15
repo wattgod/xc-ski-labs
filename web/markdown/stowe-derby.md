@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/stowe-derby/"
 
 # Stowe Derby
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/stowe-derby/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/stowe-derby/*
 
 > Twenty kilometers of pure descent down Mount Mansfield — America's oldest ski race, where 2,700 feet of vertical drop separates the bold from the bruised since 1945.
 

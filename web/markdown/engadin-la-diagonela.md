@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/engadin-la-diagonela/"
 
 # Engadin La Diagonela
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/engadin-la-diagonela/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/engadin-la-diagonela/*
 
 > The Engadin's pro-tour classic — 55 kilometers at altitude where Ski Classics elites battle beneath the Bernina massif.
 

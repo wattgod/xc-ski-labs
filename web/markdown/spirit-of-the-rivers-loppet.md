@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/spirit-of-the-rivers-loppet/"
 
 # Spirit of the Rivers Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/spirit-of-the-rivers-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/spirit-of-the-rivers-loppet/*
 
 > Community Nordic skiing in northern British Columbia — Prince George's Caledonia Nordic Club hosts this loppet in one of Canada's most dedicated winter sport regions.
 

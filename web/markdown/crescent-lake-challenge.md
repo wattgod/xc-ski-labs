@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/crescent-lake-challenge/"
 
 # Crescent Lake Challenge
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/crescent-lake-challenge/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/crescent-lake-challenge/*
 
 > A short freestyle challenge in the Oregon Cascades — backcountry-flavored Nordic racing near Crescent Lake.
 

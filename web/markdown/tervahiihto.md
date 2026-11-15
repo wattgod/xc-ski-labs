@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tervahiihto/"
 
 # Tervahiihto
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tervahiihto/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tervahiihto/*
 
 > Seventy kilometers from Oulu since 1889 — the world's oldest continuously held cross-country ski race, born in the tar-trading capital of Finland's frozen north.
 

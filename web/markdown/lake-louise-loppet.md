@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/lake-louise-loppet/"
 
 # Lake Louise Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/lake-louise-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/lake-louise-loppet/*
 
 > Western Canada's longest-running loppet — classic skiing beneath the turquoise-tinted Canadian Rockies.
 

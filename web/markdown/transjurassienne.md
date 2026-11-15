@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/transjurassienne/"
 
 # La Transjurassienne
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/transjurassienne/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/transjurassienne/*
 
 > France's toughest ski marathon — 68 hilly kilometers through the Jura Mountains where snow is never guaranteed but suffering always is.
 

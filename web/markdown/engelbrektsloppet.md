@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/engelbrektsloppet/"
 
 # Engelbrektsloppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/engelbrektsloppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/engelbrektsloppet/*
 
 > Sixty kilometers through the mining country of Bergslagen — Sweden's second-largest ski race and a pillar of En Svensk Klassiker.
 

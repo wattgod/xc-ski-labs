@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/biela-stopa/"
 
 # Biela Stopa
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/biela-stopa/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/biela-stopa/*
 
 > Fifty kilometers across the Kremnica highlands at 1,200 meters — Slovakia's oldest cross-country race, where Central European grit meets mountain solitude.
 

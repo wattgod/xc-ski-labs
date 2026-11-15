@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/ushuaia-loppet/"
 
 # Ushuaia Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ushuaia-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ushuaia-loppet/*
 
 > Forty-two kilometers at the bottom of the world — the most southern ski race on Earth, where Tierra del Fuego's sub-Antarctic winds test every stride.
 

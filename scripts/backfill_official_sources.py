@@ -45,7 +45,6 @@ OFFICIAL_URLS = {
     "thorleif-haugs-minnelop": "https://www.hauern.no/next/p/27881/hauern---thorleif-haugs-minnelop",
     "traverse-du-massacre": "https://www.ski-massif-jurassien.com/infos/traversee-du-massacre-01-03-2026/",
     "ushuaia-loppet": "https://www.ushuaialoppet.com/",
-    "ushuaia-ski-marathon": "https://www.ushuaialoppet.com/",
     "valdres-skimaraton": "https://www.valdresskimaraton.no/",
     "vasaloppet-japan": "https://www.vasaloppet.jp/",
     "viru-maraton": "https://www.estoloppet.ee/en/etapid?competition_id=455",

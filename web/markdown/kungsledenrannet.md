@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/kungsledenrannet/"
 
 # Kungsledenrännet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kungsledenrannet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kungsledenrannet/*
 
 > Eighty kilometers through the Vindelfjällen wilderness — Sweden's most remote ski race crosses a nature reserve where reindeer outnumber spectators.
 

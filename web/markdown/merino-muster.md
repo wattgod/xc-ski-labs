@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/merino-muster/"
 
 # Merino Muster
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/merino-muster/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/merino-muster/*
 
 > The Southern Hemisphere's Worldloppet race — forty-two kilometers across New Zealand's Snow Farm where winter arrives in August.
 

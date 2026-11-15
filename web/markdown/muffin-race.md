@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/muffin-race/"
 
 # Muffin Race
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/muffin-race/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/muffin-race/*
 
 > Bozeman's beloved casual classic — ski 25 kilometers through the Bridger Mountains and earn a homemade muffin at the finish.
 

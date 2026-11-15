@@ -631,7 +631,7 @@ def write_art_manifest(
 
     A full build passes every race, so it replaces the file wholesale.
     A single-slug run passes exactly one race and MUST merge: writing that
-    one record straight out would silently truncate the manifest from 229
+    one record straight out would silently truncate the manifest from 227
     entries to 1 and destroy the tier/source/license data for every other
     race. That made `--slug` a data-corruption trap for anyone doing a
     single-race spot check.

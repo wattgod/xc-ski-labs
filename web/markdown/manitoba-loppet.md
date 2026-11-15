@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/manitoba-loppet/"
 
 # Manitoba Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/manitoba-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/manitoba-loppet/*
 
 > A prairie loppet on the Canadian flatlands — community Nordic skiing where the cold is guaranteed but the hills are not.
 

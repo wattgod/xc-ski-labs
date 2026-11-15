@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/pragelato-sestriere/"
 
 # Pragelato-Sestriere
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pragelato-sestriere/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pragelato-sestriere/*
 
 > Thirty kilometers between two Olympic venues — climbing from the Nordic stadium to the alpine summit on the tracks where champions raced in 2006.
 

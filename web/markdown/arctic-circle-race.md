@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/arctic-circle-race/"
 
 # Arctic Circle Race
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/arctic-circle-race/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/arctic-circle-race/*
 
 > Three days, 160 kilometers, minus twenty-five — sleep in tents on the Greenland ice sheet and ski through the most extreme wilderness race on the planet.
 

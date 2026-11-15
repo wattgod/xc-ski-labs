@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/snow-mountain-ranch-stampede/"
 
 # Snow Mountain Ranch Stampede
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/snow-mountain-ranch-stampede/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/snow-mountain-ranch-stampede/*
 
 > 50 kilometers at 8,700 feet in the Colorado Rockies — earn the Ranch Boss buckle by conquering both classic and freestyle on the same weekend.
 

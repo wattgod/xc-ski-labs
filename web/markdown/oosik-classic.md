@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/oosik-classic/"
 
 # Oosik Classic
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/oosik-classic/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/oosik-classic/*
 
 > Fifty kilometers of classic skiing through the Alaskan wilderness near Denali — a course that changes every year, starting at high noon in Talkeetna's breathtaking backcountry.
 

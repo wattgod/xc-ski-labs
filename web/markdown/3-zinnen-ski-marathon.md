@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/3-zinnen-ski-marathon/"
 
 # 3 Zinnen Ski-Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/3-zinnen-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/3-zinnen-ski-marathon/*
 
 > Sixty-two classic kilometers through the South Tyrolean Dolomites — where the Drei Zinnen spires watch over one of the oldest ski marathons in the Alps.
 

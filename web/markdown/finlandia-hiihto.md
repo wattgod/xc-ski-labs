@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/finlandia-hiihto/"
 
 # Finlandia-hiihto
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/finlandia-hiihto/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/finlandia-hiihto/*
 
 > Finland's national ski marathon — once the world's largest, still the heartbeat of Lahti's legendary ski culture.
 

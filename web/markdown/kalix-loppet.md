@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/kalix-loppet/"
 
 # Kalix Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kalix-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kalix-loppet/*
 
 > Thirty classic kilometers along the Bothnian coast — northern Sweden's riverside loppet where the Kalix River meets the frozen Gulf of Bothnia.
 

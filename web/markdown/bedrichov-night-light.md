@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/bedrichov-night-light/"
 
 # Bedrichov Night Light
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bedrichov-night-light/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bedrichov-night-light/*
 
 > Thirty kilometers through the Jizera Mountains by headlamp and moonlight — the atmospheric evening prelude to the legendary Jizerska 50.
 

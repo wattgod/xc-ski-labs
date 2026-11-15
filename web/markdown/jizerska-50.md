@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/jizerska-50/"
 
 # Jizerská 50
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jizerska-50/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jizerska-50/*
 
 > Fifty freezing kilometers through the Jizera Mountains — Czech grit meets Worldloppet prestige in one of skiing's toughest mid-winter classics.
 

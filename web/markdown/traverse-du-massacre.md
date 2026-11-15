@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/traverse-du-massacre/"
 
 # Traversée du Massacre
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/traverse-du-massacre/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/traverse-du-massacre/*
 
 > Forty-two kilometers through the Forest of Massacre — half a century of skate racing through the Jura's darkest woods, where the name promises exactly what the legs deliver.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/summit-2-senja/"
 
 # Summit 2 Senja
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/summit-2-senja/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/summit-2-senja/*
 
 > Sixty demanding kilometers from the mountains to the fjords across three Arctic municipalities — the Ski Classics Grand Finale featuring the iconic Magdaskaret climb and spectacular fjord views.
 

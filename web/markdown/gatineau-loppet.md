@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/gatineau-loppet/"
 
 # Gatineau Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/gatineau-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/gatineau-loppet/*
 
 > Fifty-one kilometers through Canada's capital region — Gatineau Park's frozen forests deliver North America's premier Worldloppet marathon.
 

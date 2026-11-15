@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/erzgebirge-24h/"
 
 # Erzgebirge 24-Hour Ski Race
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/erzgebirge-24h/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/erzgebirge-24h/*
 
 > Twenty-four hours on a 6km loop in the Ore Mountains — a niche ultra-endurance format where skiers chase maximum distance through the night.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/krasnogorsk-ski-marathon/"
 
 # Krasnogorsk Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/krasnogorsk-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/krasnogorsk-ski-marathon/*
 
 > Fifty kilometers just outside Moscow's ring road — fifteen hundred skiers make this Russialoppet's most accessible mass-start marathon.
 

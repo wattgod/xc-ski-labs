@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/boden-ski-marathon/"
 
 # Boden Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/boden-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/boden-ski-marathon/*
 
 > Forty-five kilometers through the garrison town's boreal forests — Norrbotten skiing with military precision and Arctic grit.
 

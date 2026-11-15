@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/ski-de-she/"
 
 # Ski de She
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-de-she/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-de-she/*
 
 > Twenty-four kilometers of classic skiing for women only — Wisconsin's all-women Nordic marathon celebrating the growing community of female distance skiers in the upper Midwest.
 

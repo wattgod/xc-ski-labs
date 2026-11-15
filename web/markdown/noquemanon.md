@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/noquemanon/"
 
 # Noquemanon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/noquemanon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/noquemanon/*
 
 > Fifty kilometers and a thousand feet of net descent through Michigan's Upper Peninsula — Lake Superior's snow belt delivers the goods every January.
 

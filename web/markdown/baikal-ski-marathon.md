@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/baikal-ski-marathon/"
 
 # Baikal Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/baikal-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/baikal-ski-marathon/*
 
 > Fifty skate kilometers on the shores of the world's deepest lake — Siberia's iconic marathon where frozen Baikal meets taiga trails.
 

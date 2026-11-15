@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/rothenthurmer-volksskilauf/"
 
 # Rothenthurmer Volksskilauf
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/rothenthurmer-volksskilauf/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/rothenthurmer-volksskilauf/*
 
 > Swiss Loppet racing through the protected Rothenthurm moorland — a compact freestyle marathon in one of Switzerland's most scenic Nordic venues.
 

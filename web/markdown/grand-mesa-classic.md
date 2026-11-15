@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/grand-mesa-classic/"
 
 # Grand Mesa 10km Classic
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/grand-mesa-classic/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/grand-mesa-classic/*
 
 > A short but scenic classic-only race on the world's largest flat-topped mountain — Grand Mesa's high-altitude snow fields deliver reliable Colorado Nordic skiing.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tjejvasan/"
 
 # Tjejvasan
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tjejvasan/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tjejvasan/*
 
 > Thirty kilometers of sisterhood through the Dalarna wilderness — the world's largest women-only ski race, where 8,000 skiers share the same frozen trail that legends built.
 

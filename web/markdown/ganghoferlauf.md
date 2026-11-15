@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/ganghoferlauf/"
 
 # Ganghoferlauf
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ganghoferlauf/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ganghoferlauf/*
 
 > Fifty kilometers across the Olympic plateau of Seefeld — where Tyrolean tradition meets world-class grooming at the crossroads of the Alps.
 

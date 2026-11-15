@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/marathon-de-bessans/"
 
 # Marathon de Bessans
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-de-bessans/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-de-bessans/*
 
 > Sixty kilometers at 1,750 meters in the high Maurienne valley — France's altitude crucible that opens the European marathon season before anyone else has even waxed.
 

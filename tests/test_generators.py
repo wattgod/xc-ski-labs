@@ -573,7 +573,7 @@ class TestPaymentLinksAndFeeds:
         assert (tmp_path / "race-dates.json").exists()
         assert (tmp_path / "robots.txt").exists()
         llms = (tmp_path / "llms.txt").read_text(encoding="utf-8")
-        assert "229 scored race profiles" in llms
+        assert "227 scored race profiles" in llms
         assert "https://xcskilabs.com/feed/races.xml" in llms
         robots = (tmp_path / "robots.txt").read_text(encoding="utf-8")
         assert "Sitemap: https://xcskilabs.com/sitemap.xml" in robots

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/svalbard-ski-marathon/"
 
 # Svalbard Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/svalbard-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/svalbard-ski-marathon/*
 
 > The world's northernmost touring race at 78°N — skiing through Arctic wilderness with armed polar bear guards on the frozen edge of civilization.
 

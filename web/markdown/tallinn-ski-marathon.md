@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tallinn-ski-marathon/"
 
 # Tallinn Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tallinn-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tallinn-ski-marathon/*
 
 > Thirty-eight kilometers through the Kõrvemaa Nature Reserve — Estonia's flagship ski marathon where Baltic forests and frozen bogs form the unlikely proving ground for a young nation's Nordic ambitions.
 

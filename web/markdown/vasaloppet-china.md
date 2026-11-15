@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/vasaloppet-china/"
 
 # Vasaloppet China
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vasaloppet-china/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vasaloppet-china/*
 
 > The Swedish classic goes east — fifty kilometers through Changchun's frozen forest park where China's growing Nordic ski scene takes shape.
 

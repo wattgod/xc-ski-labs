@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/etoile-des-saisies/"
 
 # Étoile des Saisies
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/etoile-des-saisies/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/etoile-des-saisies/*
 
 > Forty-two kilometers of skate skiing at altitude in the Savoie — where the Mont Blanc panorama and France's premier Nordic resort deliver a Marathon Ski Tour classic.
 

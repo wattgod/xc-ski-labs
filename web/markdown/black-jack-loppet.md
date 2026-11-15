@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/black-jack-loppet/"
 
 # Black Jack Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/black-jack-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/black-jack-loppet/*
 
 > Thirty kilometers through the Kootenay mountain powder — Rossland's high-altitude Nordic gem in British Columbia's interior.
 

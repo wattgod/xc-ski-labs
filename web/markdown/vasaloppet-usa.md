@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/vasaloppet-usa/"
 
 # Vasaloppet USA
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vasaloppet-usa/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vasaloppet-usa/*
 
 > The Swedish legend transplanted to the frozen lakes and birch forests of Minnesota — fifty-eight kilometers of Nordic heartland grit.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/birkebeinerrennet/"
 
 # Birkebeinerrennet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/birkebeinerrennet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/birkebeinerrennet/*
 
 > Carry the weight of history — 54km with a 3.5kg pack across the Norwegian mountains, just as the Birkebeiner warriors did 800 years ago.
 
