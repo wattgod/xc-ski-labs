@@ -89,10 +89,15 @@ def _token_hex(name: str) -> str:
     reference a CSS custom property directly. Brand tokens stay the single
     source of truth for color, per CLAUDE.md's "never hardcode hex" rule."""
     import re as _re
-    match = _re.search(rf"--{_re.escape(name)}:\s*(#[0-9A-Fa-f]{{3,8}})", load_tokens_css())
-    if not match:
-        raise ValueError(f"token --{name} not found in tokens.css")
-    return match.group(1)
+    css = load_tokens_css()
+    for _ in range(4):  # follow var(--alias) chains to the literal
+        match = _re.search(rf"--{_re.escape(name)}:\s*(#[0-9A-Fa-f]{{3,8}}|var\(--([a-z0-9-]+)\))", css)
+        if not match:
+            raise ValueError(f"token --{name} not found in tokens.css")
+        if match.group(2) is None:
+            return match.group(1)
+        name = match.group(2)
+    raise ValueError(f"token --{name}: var() chain too deep in tokens.css")
 
 
 # ── Question set (ski version of GG's GOAL_2027 variant) ──────────────
@@ -895,14 +900,14 @@ def build_js() -> str:
     ctx.fillRect(0, 0, W, H);
     ctx.textBaseline = "top";
 
-    ctx.font = "700 26px 'Sometype Mono', monospace";
+    ctx.font = "800 26px 'Big Shoulders Text', 'Arial Narrow', sans-serif";
     ctx.fillStyle = POSTER.accent;
     ctx.fillText("__NEXT_SEASON__ · GOAL FILE", pad, pad);
     ctx.fillStyle = POSTER.ink;
     ctx.textAlign = "right";
     ctx.fillText("XC SKI LABS", W - pad, pad);
     ctx.textAlign = "left";
-    ctx.font = "22px 'Sometype Mono', monospace";
+    ctx.font = "22px 'Big Shoulders Text', 'Arial Narrow', sans-serif";
     ctx.fillStyle = POSTER.grey;
     ctx.fillText("XCSKILABS.COM", pad, H - pad - 20);
 
@@ -913,23 +918,23 @@ def build_js() -> str:
                 ["WATCH FOR", posterClean(d.inner_obstacle, 150)]]
       .filter(function(r) { return r[1]; })
       .map(function(r) {
-        ctx.font = "30px 'Sometype Mono', monospace";
+        ctx.font = "30px 'Big Shoulders Text', 'Arial Narrow', sans-serif";
         return [r[0], wrapText(ctx, r[1], inner).slice(0, 2)];
       });
     var framed = rows.reduce(function(h, r) { return h + 56 + r[1].length * 38; }, 0);
     var frameTop = H - pad - 60 - framed;
     var y = frameTop;
     rows.forEach(function(row) {
-      ctx.font = "700 24px 'Sometype Mono', monospace";
+      ctx.font = "800 24px 'Big Shoulders Text', 'Arial Narrow', sans-serif";
       ctx.fillStyle = POSTER.accent;
       ctx.fillText(row[0], pad, y);
-      ctx.font = "30px 'Sometype Mono', monospace";
+      ctx.font = "30px 'Big Shoulders Text', 'Arial Narrow', sans-serif";
       ctx.fillStyle = POSTER.ink;
       row[1].forEach(function(line, i) { ctx.fillText(line, pad, y + 34 + i * 38); });
       y += 56 + row[1].length * 38;
     });
 
-    ctx.font = "italic 38px 'Source Serif 4', Georgia, serif";
+    ctx.font = "italic 38px 'Libre Franklin', Arial, sans-serif";
     var why = posterClean([d.why_5, d.why_4, d.why_3, d.why_2, d.outcome_why]
       .filter(function(w) { return w && String(w).trim(); })[0], 200);
     var whyLines = why ? wrapText(ctx, "“" + why + "”", inner).slice(0, 3) : [];
@@ -943,22 +948,22 @@ def build_js() -> str:
     [104, 92, 80, 68, 58, 48].forEach(function(candidate) {
       if (goalLines.length && goalLines.length * Math.round(size * 1.06) <= available) { return; }
       size = candidate;
-      ctx.font = "700 " + size + "px 'Source Serif 4', Georgia, serif";
+      ctx.font = "600 " + size + "px 'Libre Franklin', Arial, sans-serif";
       goalLines = wrapText(ctx, goal, inner);
     });
 
-    ctx.font = "26px 'Sometype Mono', monospace";
+    ctx.font = "26px 'Big Shoulders Text', 'Arial Narrow', sans-serif";
     ctx.fillStyle = POSTER.grey;
     ctx.fillText("BY THE END OF __NEXT_SEASON__, " + (posterClean(d.name, 40) || "I").toUpperCase() + " WILL", pad, labelY);
 
-    ctx.font = "700 " + size + "px 'Source Serif 4', Georgia, serif";
+    ctx.font = "600 " + size + "px 'Libre Franklin', Arial, sans-serif";
     ctx.fillStyle = POSTER.ink;
     y = labelY + 60;
     goalLines.slice(0, 6).forEach(function(line) { ctx.fillText(line, pad, y); y += Math.round(size * 1.06); });
     ctx.fillStyle = POSTER.accent;
     ctx.fillRect(pad, y + 24, 150, 6);
 
-    ctx.font = "italic 38px 'Source Serif 4', Georgia, serif";
+    ctx.font = "italic 38px 'Libre Franklin', Arial, sans-serif";
     ctx.fillStyle = POSTER.grey;
     y = frameTop - whyHeight;
     whyLines.forEach(function(line) { ctx.fillText(line, pad, y); y += 50; });
@@ -1064,7 +1069,7 @@ def generate_page() -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/svg+xml" href="/xc-logo.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(title)}</title>
@@ -1077,7 +1082,7 @@ def generate_page() -> str:
   <meta property="og:url" content="https://xcskilabs.com/goals/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   {build_ga4()}
   <style>{build_css()}</style>
 </head>
