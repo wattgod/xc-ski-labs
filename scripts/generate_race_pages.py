@@ -980,7 +980,10 @@ a {{ color: inherit; }}
   overflow-wrap: normal;
   hyphens: manual;
 }}
-.gl-hero-name--long {{ font-size: clamp(1.75rem, 6vw, 4.4rem); }}
+/* Stencil never under 36px (README §3); the Libre Franklin titles
+   (diacritics) may go to 28px on phones so Nordenskiöldsloppet fits. */
+.gl-hero-name--long {{ font-size: clamp(2.25rem, 6vw, 4.4rem); }}
+.gl-hero-name--long.gl-name--diacritic {{ font-size: clamp(1.75rem, 6vw, 4.4rem); }}
 /* Race titles: the book's stencil (README §3); names with diacritics stay in
    Libre Franklin 600 until Big Shoulders' glyph coverage is checked. */
 .gl-hero h1.gl-hero-name {{ font-family: var(--font-stencil); font-weight: 900; font-style: normal; letter-spacing: .01em; overflow-wrap: break-word; }}
