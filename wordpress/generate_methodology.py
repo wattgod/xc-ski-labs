@@ -22,6 +22,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from scripts.generate_race_pages import build_nav_header
 from scripts.scoring import CRITERIA, TIER_THRESHOLDS, calculate_overall_score
+from scripts.tiers import tier_label
 
 
 DIMENSION_GROUPS = (
@@ -98,7 +99,7 @@ def build_tier_rows(examples: dict[int, dict]) -> str:
         rating = example["nordic_lab_rating"]
         rows.append(
             "<tr>"
-            f"<td>TIER {tier}</td>"
+            f"<td>{esc(tier_label(tier))}</td>"
             f"<td>{tier_range(tier)}</td>"
             f"<td><a href=\"/race/{esc(example['slug'])}/\">{esc(example['name'])}</a> ({rating['overall_score']})</td>"
             "</tr>"
@@ -126,7 +127,7 @@ def worked_example(races: list[dict]) -> str:
     return (
         f"<p><strong>{esc(race['name'])}.</strong> Its {len(CRITERIA)} dimension scores total "
         f"{total}. The calculation is round(({total} / {len(CRITERIA) * 5}) &times; 100) = "
-        f"<strong>{calculated}</strong>. Its stored profile score is {rating['overall_score']} and its tier is TIER {rating['tier']}.</p>"
+        f"<strong>{calculated}</strong>. Its stored profile score is {rating['overall_score']} and its tier is {esc(tier_label(rating['tier']))}.</p>"
     )
 
 
@@ -193,7 +194,7 @@ def generate_html(races: list[dict]) -> str:
 
   <section class="gl-section">
     <h2 class="gl-section-title">Prestige overrides</h2>
-    <p>A prestige score of 5 places a race in TIER 1 when its overall score is at least 75; otherwise it cannot fall below TIER 2. A prestige score of 4 can promote a race by one tier, but never into TIER 1.</p>
+    <p>A prestige score of 5 places a race in Tier 1 (Elite) when its overall score is at least 75; otherwise it cannot fall below Tier 2 (Contender). A prestige score of 4 can promote a race by one tier, but never into Tier 1.</p>
   </section>
 
   <section class="gl-section">

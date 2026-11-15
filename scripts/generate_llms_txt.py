@@ -29,7 +29,10 @@ RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 SITE_URL = "https://xcskilabs.com"
 
-TIER_LABELS = {1: "Tier 1 (Elite)", 2: "Tier 2 (Strong)", 3: "Tier 3 (Solid)", 4: "Tier 4 (Developing)"}
+sys.path.insert(0, str(SCRIPT_DIR))
+from tiers import TIER_NAMES, tier_label  # noqa: E402
+
+TIER_LABELS = {t: tier_label(t) for t in TIER_NAMES}
 
 # Order matches CLAUDE.md's Scoring System section and generate_race_pages.py's
 # RATING_CRITERIA — 14 criteria, denominator 70, no bonus criterion.
@@ -107,12 +110,12 @@ def generate_llms_txt(races: list[dict]) -> str:
 
 ## Overview
 
-XC Ski Labs is a cross-country ski race database covering {count} races worldwide. Every race is scored on 14 criteria ({', '.join(CRITERIA)}) on a 1-5 scale, producing an overall score out of 100 (round(sum of the 14 criteria / 70 * 100)) and a tier assignment (T1=elite, T2=strong, T3=solid, T4=developing).
+XC Ski Labs is a cross-country ski race database covering {count} races worldwide. Every race is scored on 14 criteria ({', '.join(CRITERIA)}) on a 1-5 scale, producing an overall score out of 100 (round(sum of the 14 criteria / 70 * 100)) and a tier assignment (T1={TIER_NAMES[1]}, T2={TIER_NAMES[2]}, T3={TIER_NAMES[3]}, T4={TIER_NAMES[4]}).
 
-- **Tier 1 (Elite)**: {tier_counts.get(1, 0)} races — score >= 80, or prestige=5 + score>=75
-- **Tier 2 (Strong)**: {tier_counts.get(2, 0)} races — score >= 60
-- **Tier 3 (Solid)**: {tier_counts.get(3, 0)} races — score >= 45
-- **Tier 4 (Developing)**: {tier_counts.get(4, 0)} races — score < 45
+- **{TIER_LABELS[1]}**: {tier_counts.get(1, 0)} races — score >= 80, or prestige=5 + score>=75
+- **{TIER_LABELS[2]}**: {tier_counts.get(2, 0)} races — score >= 60
+- **{TIER_LABELS[3]}**: {tier_counts.get(3, 0)} races — score >= 45
+- **{TIER_LABELS[4]}**: {tier_counts.get(4, 0)} races — score < 45
 
 Prestige overrides: prestige=5 + score>=75 confirms Tier 1; prestige=5 + score<75 caps at Tier 2; prestige=4 promotes one tier (never into Tier 1).
 
@@ -172,10 +175,10 @@ def generate_llms_full_txt(races: list[dict]) -> str:
     lines.append("Overall score = round((sum of the 14 criteria / 70) * 100).")
     lines.append("")
     lines.append("Tier assignment:")
-    lines.append("- Tier 1 (Elite): score >= 80, OR prestige=5 + score>=75")
-    lines.append("- Tier 2 (Strong): score >= 60, OR prestige=5 + score<75 (capped at T2)")
-    lines.append("- Tier 3 (Solid): score >= 45")
-    lines.append("- Tier 4 (Developing): score < 45")
+    lines.append(f"- {TIER_LABELS[1]}: score >= 80, OR prestige=5 + score>=75")
+    lines.append(f"- {TIER_LABELS[2]}: score >= 60, OR prestige=5 + score<75 (capped at T2)")
+    lines.append(f"- {TIER_LABELS[3]}: score >= 45")
+    lines.append(f"- {TIER_LABELS[4]}: score < 45")
     lines.append("- Prestige 4 promotes one tier (but not into T1)")
     lines.append("")
 

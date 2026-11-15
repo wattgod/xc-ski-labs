@@ -345,7 +345,7 @@ class TestHomepage:
         # Immediately after hero, before the Tier 1 table.
         hero_close = content.index("</section>", content.index('<section class="hero">'))
         ladder_open = content.index('id="ladder"')
-        tier1_open = content.index("Tier 1 — The monuments")
+        tier1_open = content.index("Tier 1 — Elite")
         assert hero_close < ladder_open < tier1_open
 
     def test_homepage_ladder_strip_three_cells(self):
@@ -375,7 +375,7 @@ class TestHomepage:
 
         # Cell 03 — Coaching
         assert '<h2 class="gl-hp-ladder-headline">Find out what you could be.</h2>' in content
-        assert "A human in your corner &mdash; not an AI, not a spreadsheet." in content
+        assert "I read every file and change the week when your life does." in content
         assert '<a href="/coaching/" class="gl-hp-ladder-cta" data-ga="ladder_coaching">GET ME IN YOUR CORNER &rarr;</a>' in content
 
     def test_homepage_ladder_strip_no_animation(self):

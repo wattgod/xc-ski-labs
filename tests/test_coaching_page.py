@@ -167,8 +167,7 @@ class TestHero:
 
     def test_hero_sub(self):
         hero = build_hero()
-        assert "The fix is a human in your corner." in hero
-        assert "Not an AI, not a dashboard, not a coach who reads you like a spreadsheet." in hero
+        assert "The fix is having me in your corner." in hero
         assert "The terms are below." in hero
 
     def test_hero_cta(self):
@@ -217,7 +216,7 @@ class TestTerms:
     def test_clause_titles(self):
         t = build_terms()
         for title in (
-            "Every file, read by a person",
+            "I read every file",
             "The patterns you can&rsquo;t see",
             "The plan moves when your life does",
             "The truth, on schedule",

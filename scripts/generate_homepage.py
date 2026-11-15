@@ -22,6 +22,7 @@ from typing import Any, Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from xsl_loops import BAND_CSS, LOOP_CSS, LOOP_JS, copy_media, loops_band  # noqa: E402
+from tiers import TIER_NAMES  # noqa: E402
 
 try:
     from scripts.endure_offer import get_endure_offer_html
@@ -1330,11 +1331,7 @@ a:focus-visible, button:focus-visible {{
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">03</span>
       <h2 class="gl-hp-ladder-headline">Find out what you could be.</h2>
-      <!-- SANCTIONED EXCEPTION to the anti-defensive-messaging rule (docs/BRAND_GUIDELINES.md
-           section 7): this line mirrors the owner-approved "human in your corner... not an
-           AI..." copy precedent-set on the /coaching/ hero, wordpress/generate_coaching.py
-           build_hero() (Matti sanctioned 2026-07-18). -->
-      <p class="gl-hp-ladder-body">A human in your corner &mdash; not an AI, not a spreadsheet.</p>
+      <p class="gl-hp-ladder-body">I read every file and change the week when your life does.</p>
       <a href="/coaching/" class="gl-hp-ladder-cta" data-ga="ladder_coaching">GET ME IN YOUR CORNER &rarr;</a>
     </div>
   </div>
@@ -1343,7 +1340,7 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Tier 1 Table ── -->
 <section class="db-band">
   <div class="db-inner">
-    <div class="section-heading"><span class="num">01</span><h2>Tier 1 — The monuments</h2></div>
+    <div class="section-heading"><span class="num">01</span><h2>Tier 1 — {TIER_NAMES[1]}</h2></div>
     <table class="tier-table">
       <thead><tr><th>Race</th><th>Country</th><th class="r">Distance</th><th>Style</th><th class="r">Score</th><th></th></tr></thead>
       <tbody>
@@ -1356,7 +1353,7 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Tier 2 Highlights ── -->
 <div class="section" style="background: var(--gl-white); margin: 0; max-width: none; padding-left: calc((100% - var(--gl-measure))/2 + 24px); padding-right: calc((100% - var(--gl-measure))/2 + 24px);">
   <div class="section-header">
-    <span class="section-title">Tier 2 &mdash; Must-Do Races</span>
+    <span class="section-title">Tier 2 &mdash; {TIER_NAMES[2]}</span>
     <a href="/search/" class="section-link">View All {t2_total} &rarr;</a>
   </div>
   <div class="race-grid">
@@ -1384,7 +1381,7 @@ a:focus-visible, button:focus-visible {{
     </div>
     <div class="about-card">
       <h3>{TIER_COUNT} Tiers</h3>
-      <p>Tier 1 (&ge;80) &mdash; the monuments. Tier 2 (&ge;60) &mdash; must-do races. Tier 3 (&ge;45) &mdash; solid events. Tier 4 (&lt;45) &mdash; niche picks. Prestige overrides promote races with outsized cultural significance.</p>
+      <p>Tier 1 (&ge;80) &mdash; {TIER_NAMES[1]}. Tier 2 (&ge;60) &mdash; {TIER_NAMES[2]}. Tier 3 (&ge;45) &mdash; {TIER_NAMES[3]}. Tier 4 (&lt;45) &mdash; {TIER_NAMES[4]}. Prestige overrides promote races with outsized cultural significance.</p>
     </div>
     <div class="about-card">
       <h3>Every Race, Every Detail</h3>

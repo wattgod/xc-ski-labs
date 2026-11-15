@@ -19,6 +19,7 @@ from urllib.parse import urlsplit
 import pytest
 
 from scripts.scoring import CRITERIA, TIER_THRESHOLDS
+from scripts.tiers import tier_label
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
@@ -550,7 +551,7 @@ class TestPrivacyAndMethodologyPages:
         assert f"{len(CRITERIA)} dimension scores" in html
         assert f"/ {len(CRITERIA) * 5})" in html
         for tier, threshold in TIER_THRESHOLDS.items():
-            assert f"TIER {tier}" in html
+            assert tier_label(tier) in html
             assert str(threshold) in html
 
 

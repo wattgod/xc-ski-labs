@@ -24,6 +24,7 @@ from typing import Any, Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from xsl_loops import DISCIPLINE_LOOP, LOOP_CSS, LOOP_JS, LOOPS, loop_figure  # noqa: E402
+from tiers import tier_badge, tier_label as tier_full_label  # noqa: E402
 import xml.etree.ElementTree as ET
 
 try:
@@ -287,9 +288,8 @@ def tier_class(tier: int) -> str:
 
 
 def tier_label(tier: int) -> str:
-    """Return display label for tier."""
-    labels = {1: "TIER 1", 2: "TIER 2", 3: "TIER 3", 4: "TIER 4"}
-    return labels.get(tier, "TIER 4")
+    """Return display label for tier: 'TIER 1 · ELITE' (scripts/tiers.py)."""
+    return tier_badge(tier)
 
 
 def _display_caps(text: Any) -> str:
@@ -3234,7 +3234,7 @@ def generate_page(race: dict, all_races: Optional[list[dict]] = None) -> str:
     title = f"{esc(name)} | XC Ski Labs XC Ski Race Review"
     description = (
         f"{esc(race.get('tagline', name))} "
-        f"Rated {score}/100 (Tier {tier}) in {esc(country)}. "
+        f"Rated {score}/100, {esc(tier_full_label(tier))}, in {esc(country)}. "
         f"Course, climate, ratings &amp; full breakdown."
     )
 
