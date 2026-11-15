@@ -750,3 +750,19 @@ class TestBranding:
         for family in ("Big+Shoulders+Stencil+Display", "Big+Shoulders+Text", "Libre+Franklin"):
             assert family in hp_content, f"Homepage missing {family}"
         assert "Sometype" not in hp_content, "Homepage still loads Sometype Mono"
+
+
+def test_feed_dates_are_never_rolled_forward():
+    """XC-04: a past edition must not appear in the RSS as next year's race."""
+    import importlib.util
+    from datetime import date as _date
+    spec = importlib.util.spec_from_file_location(
+        "generate_feeds", Path(__file__).resolve().parent.parent / "scripts" / "generate_feeds.py")
+    feeds = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(feeds)
+    today = _date(2026, 11, 15)
+    assert feeds.parse_race_date("2026: January 24", today) == _date(2026, 1, 24)
+    assert feeds.parse_race_date("2027: March 7", today) == _date(2027, 3, 7)
+    assert feeds.parse_race_date("2026-01-24", today) == _date(2026, 1, 24)
+    assert feeds.parse_race_date("January 24", today) is None
+    assert feeds.parse_race_date("2027: February 30", today) is None
