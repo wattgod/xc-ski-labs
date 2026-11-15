@@ -218,3 +218,14 @@ def test_date_sources_are_https_and_match_profiles():
     for slug, rec in sources["applied"].items():
         assert rec["source_url"].startswith("https://"), slug
         assert profiles[slug]["vitals"]["date_specific"] == rec["date_specific"], slug
+        # Official-page evidence: the page's own words and when they were read.
+        assert rec.get("source_quote"), slug
+        assert rec.get("verified_on"), slug
+
+
+def test_search_index_dates_match_profiles():
+    """web/race-index.json is uploaded as committed: its dates must match the profiles."""
+    index = json.loads((Path(__file__).resolve().parent.parent / "web" / "race-index.json").read_text())
+    profiles = {p["slug"]: p for p in _profiles()}
+    for row in index["races"]:
+        assert (row.get("ds") or "") == (profiles[row["s"]]["vitals"].get("date_specific") or ""), row["s"]
