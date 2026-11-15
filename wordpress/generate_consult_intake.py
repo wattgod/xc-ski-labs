@@ -48,6 +48,7 @@ from generate_consulting import (
     build_nav,
     build_footer,
     build_cookie_consent,
+    XL_GA4_HEAD,
 )
 
 CONSULT_INTAKE_API = "https://athlete-custom-training-plan-pipeline-production.up.railway.app/api/consult-intake"
@@ -508,50 +509,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 /* ── Cookie Consent (matches wordpress/generate_consulting.py) ── */
-.gl-consult-cookie-consent {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: var(--gl-carbon);
-  border-top: 1px solid var(--gl-paper);
-  padding: 20px;
-  display: none;
-}
-.gl-consult-cookie-consent.visible { display: block; }
-.gl-consult-cookie-inner {
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.gl-consult-cookie-text {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.85rem;
-  color: var(--gl-white);
-  flex: 1;
-  min-width: 200px;
-}
-.gl-consult-cookie-buttons { display: flex; gap: 10px; }
-.gl-consult-cookie-btn {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 10px 20px;
-  border: 1px solid var(--gl-white);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  min-width: 44px;
-  min-height: 44px;
-  background: transparent;
-  color: var(--gl-white);
-}
-.gl-consult-cookie-btn.accept { background: var(--gl-white); color: var(--gl-carbon); }
 
 /* ── Responsive ───────────────────────────────── */
 
@@ -733,12 +690,7 @@ def generate_intake_page(output_dir: Path = None) -> Path:
   <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
   {jsonld}
   <style>{intake_css}</style>
-  <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
-  <script>
-  window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}
-  (function(){{var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-  if(c==='declined')return;gtag('js',new Date());gtag('config','{GA4_ID}')}})();
-  </script>
+  {XL_GA4_HEAD}
 </head>
 <body>
 

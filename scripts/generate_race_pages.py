@@ -25,6 +25,7 @@ from typing import Any, Optional
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from xsl_loops import DISCIPLINE_LOOP, LOOP_CSS, LOOP_JS, LOOPS, loop_figure  # noqa: E402
 from tiers import tier_badge, tier_label as tier_full_label  # noqa: E402
+from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
 import xml.etree.ElementTree as ET
 
 try:
@@ -1537,24 +1538,6 @@ a {{ color: inherit; }}
 .gl-sticky-cta-btn {{ min-height: 44px; display: inline-flex; align-items: center; background: var(--gl-swix-red); color: var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-decoration: none; text-transform: uppercase; white-space: nowrap; }}
 .gl-sticky-cta-dismiss {{ min-width: 44px; min-height: 44px; border: 0; background: transparent; color: var(--gl-white); font-size: 1.4rem; cursor: pointer; }}
 
-.gl-cookie-consent {{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  display: none;
-  background: var(--gl-carbon);
-  border-top: 4px solid var(--gl-swix-red);
-  padding: var(--gl-space-5);
-}}
-.gl-cookie-consent.visible {{ display: block; }}
-.gl-cookie-inner {{ max-width: var(--gl-measure); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-4); flex-wrap: wrap; }}
-.gl-cookie-text {{ margin: 0; color: var(--gl-white); max-width: 62ch; }}
-.gl-cookie-buttons {{ display: flex; gap: var(--gl-space-2); }}
-.gl-cookie-btn {{ min-width: 44px; min-height: 44px; border: 2px solid var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }}
-.gl-cookie-btn.accept {{ background: var(--gl-swix-red); color: var(--gl-white); border-color: var(--gl-swix-red); }}
-.gl-cookie-btn.decline {{ background: transparent; color: var(--gl-white); }}
 
 a:focus-visible, button:focus-visible {{ outline: 3px solid var(--gl-klister); outline-offset: 2px; }}
 
@@ -1690,46 +1673,13 @@ def build_capture_js() -> str:
 
 
 def build_ga4_snippet() -> str:
-    """GA4 tracking snippet with cookie consent gating."""
-    return """<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-<script>
-window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-(function(){var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-if(c==='declined')return;gtag('js',new Date());gtag('config','G-3JQLSQLPPM')})();
-</script>"""
+    """GA4 head: consent default + config, then gtag.js (scripts/consent.py)."""
+    return get_ga4_head()
 
 
 def build_cookie_consent() -> str:
-    """Cookie consent banner with accept/decline buttons."""
-    return """
-<div class="gl-cookie-consent" id="gl-cookie-consent">
-  <div class="gl-cookie-inner">
-    <p class="gl-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline. <a href="/privacy/">Privacy policy</a>.</p>
-    <div class="gl-cookie-buttons">
-      <button class="gl-cookie-btn accept" id="gl-cookie-accept">Accept</button>
-      <button class="gl-cookie-btn decline" id="gl-cookie-decline">Decline</button>
-    </div>
-  </div>
-</div>
-<script>
-(function(){
-  var banner=document.getElementById('gl-cookie-consent');
-  if(!banner)return;
-  if(document.cookie.match(/xl_consent=/)){return;}
-  banner.classList.add('visible');
-  document.getElementById('gl-cookie-accept').addEventListener('click',function(){
-    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});gtag('js',new Date());gtag('config','G-3JQLSQLPPM');}
-  });
-  document.getElementById('gl-cookie-decline').addEventListener('click',function(){
-    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'denied'});}
-  });
-})();
-</script>
-"""
+    """Shared consent banner and Privacy choices strip (scripts/consent.py)."""
+    return get_consent_banner_html()
 
 
 def build_nav_header(active: str = "") -> str:

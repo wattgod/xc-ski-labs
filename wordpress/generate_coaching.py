@@ -42,6 +42,10 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.consent import get_consent_banner_html, get_ga4_head  # noqa: E402
+
+XL_GA4_HEAD = get_ga4_head()
+XL_CONSENT_BANNER = get_consent_banner_html()
 from scripts.endure_offer import get_endure_offer_html
 
 SITE_BASE_URL = "https://xcskilabs.com"
@@ -668,50 +672,6 @@ a:focus-visible, button:focus-visible {
 
 /* ── Cookie Consent ───────────────────────────── */
 
-.gl-coach-cookie-consent {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: var(--gl-carbon);
-  border-top: 1px solid var(--gl-paper);
-  padding: 20px;
-  display: none;
-}
-.gl-coach-cookie-consent.visible { display: block; }
-.gl-coach-cookie-inner {
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.gl-coach-cookie-text {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.85rem;
-  color: var(--gl-white);
-  flex: 1;
-  min-width: 200px;
-}
-.gl-coach-cookie-buttons { display: flex; gap: 10px; }
-.gl-coach-cookie-btn {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 10px 20px;
-  border: 1px solid var(--gl-white);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  min-width: 44px;
-  min-height: 44px;
-  background: transparent;
-  color: var(--gl-white);
-}
-.gl-coach-cookie-btn.accept { background: var(--gl-white); color: var(--gl-carbon); }
 
 /* ── Responsive ───────────────────────────────── */
 
@@ -1011,43 +971,36 @@ def build_mobile_sticky_cta() -> str:
 
 
 def build_cookie_consent() -> str:
-    """Cookie consent banner — monochrome variant of the repo's standard pattern."""
-    return """
-<div class="gl-coach-cookie-consent" id="gl-coach-cookie-consent">
-  <div class="gl-coach-cookie-inner">
-    <p class="gl-coach-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline.</p>
-    <div class="gl-coach-cookie-buttons">
-      <button class="gl-coach-cookie-btn accept" id="gl-coach-cookie-accept">Accept</button>
-      <button class="gl-coach-cookie-btn" id="gl-coach-cookie-decline">Decline</button>
-    </div>
-  </div>
-</div>
-<script>
-(function(){
-  var banner=document.getElementById('gl-coach-cookie-consent');
-  if(!banner)return;
-  if(document.cookie.match(/xl_consent=/)){return;}
-  banner.classList.add('visible');
-  document.getElementById('gl-coach-cookie-accept').addEventListener('click',function(){
-    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});gtag('js',new Date());gtag('config','""" + GA4_ID + """');}
-  });
-  document.getElementById('gl-coach-cookie-decline').addEventListener('click',function(){
-    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'denied'});}
-  });
-})();
-</script>
-"""
+    """Shared consent banner and Privacy choices strip (scripts/consent.py)."""
+    return get_consent_banner_html()
 
 
 def build_page_js() -> str:
-    """FAQ accordion toggle — single-open behavior, no CSS transitions."""
+    """FAQ accordion toggle — single-open behavior, no CSS transitions —
+    and cta_click events with Gravel God's coaching-page cta_name values
+    (gravel-race-automation wordpress/generate_coaching.py): hero_apply,
+    tier_min / tier_mid / tier_max, final_fill_intake, sticky_cta."""
     return """
 <script>
 (function() {
+  var ctaNames = [
+    ['.gl-coach-hero-cta', 'hero_apply'],
+    ['.gl-coach-final-cta', 'final_fill_intake'],
+    ['.gl-coach-sticky-cta a', 'sticky_cta']
+  ];
+  function trackCta(el, name) {
+    el.addEventListener('click', function() {
+      if (typeof gtag === 'function') gtag('event', 'cta_click', { source: 'coaching', cta_name: name });
+    });
+  }
+  ctaNames.forEach(function(pair) {
+    document.querySelectorAll(pair[0]).forEach(function(el) { trackCta(el, pair[1]); });
+  });
+  document.querySelectorAll('.gl-coach-tier-cta').forEach(function(el) {
+    var m = (el.getAttribute('href') || '').match(/[?&]tier=(min|mid|max)\b/);
+    if (m) trackCta(el, 'tier_' + m[1]);
+  });
+
   var items = document.querySelectorAll('.gl-coach-faq-item');
   items.forEach(function(item) {
     var q = item.querySelector('.gl-coach-faq-q');
@@ -1162,12 +1115,7 @@ def generate_page(output_dir: Path = None) -> Path:
   {og_tags}
   {jsonld}
   <style>{css}</style>
-  <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
-  <script>
-  window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}
-  (function(){{var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-  if(c==='declined')return;gtag('js',new Date());gtag('config','{GA4_ID}')}})();
-  </script>
+  {XL_GA4_HEAD}
 </head>
 <body>
 

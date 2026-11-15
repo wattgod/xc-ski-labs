@@ -122,15 +122,15 @@ class TestGoalsPage:
 
     def test_cookie_banner_is_wired_up_not_inert(self):
         html = goals.generate_page()
-        assert 'getElementById("gl-cookie-accept")' in html
-        assert 'getElementById("gl-cookie-decline")' in html
+        assert "getElementById('xl-consent-accept')" in html
+        assert "getElementById('xl-consent-decline')" in html
         assert "xl_consent=accepted" in html
         assert "xl_consent=declined" in html
 
     def test_cookie_buttons_meet_the_44px_touch_target_rule(self):
         html = goals.generate_page()
-        assert "min-height: 44px" in re.search(
-            r"\.gl-cookie-actions button \{[^}]*\}", html
+        assert "min-height:44px" in re.search(
+            r"\.xl-consent-btn\{[^}]*\}", html
         ).group(0)
 
     def test_reduced_motion_is_honored(self):

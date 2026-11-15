@@ -8,12 +8,8 @@
 <meta name="description" content="Search every scored cross-country ski race — classic and skate, worldwide.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://xcskilabs.com/search/">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}var xlConsentStrictTimezones=new Set(["Africa/Ceuta","Asia/Famagusta","Asia/Nicosia","Atlantic/Azores","Atlantic/Canary","America/Cayenne","America/Guadeloupe","America/Marigot","America/Martinique","Arctic/Longyearbyen","Atlantic/Faeroe","Indian/Mayotte","Indian/Reunion","Atlantic/Reykjavik","Atlantic/Faroe","Atlantic/Madeira","Europe/Amsterdam","Europe/Athens","Europe/Belfast","Europe/Berlin","Europe/Bratislava","Europe/Brussels","Europe/Bucharest","Europe/Budapest","Europe/Busingen","Europe/Copenhagen","Europe/Dublin","Europe/Helsinki","Europe/Lisbon","Europe/Ljubljana","Europe/London","Europe/Luxembourg","Europe/Madrid","Europe/Malta","Europe/Mariehamn","Europe/Nicosia","Europe/Oslo","Europe/Paris","Europe/Prague","Europe/Riga","Europe/Rome","Europe/Sofia","Europe/Stockholm","Europe/Tallinn","Europe/Vaduz","Europe/Vienna","Europe/Vilnius","Europe/Warsaw","Europe/Zagreb","Europe/Zurich"]);var xlConsentTimezone='';var xlConsentTimezoneKnown=false;try{xlConsentTimezone=Intl.DateTimeFormat().resolvedOptions().timeZone||'';if(xlConsentTimezone){new Intl.DateTimeFormat('en-US',{timeZone:xlConsentTimezone});xlConsentTimezoneKnown=true}}catch(xlConsentTimezoneError){}var xlConsentRequiresOptIn=!xlConsentTimezoneKnown||xlConsentStrictTimezones.has(xlConsentTimezone);window.xlConsentRequiresOptIn=xlConsentRequiresOptIn;var xlConsentAccepted=/(^|; )xl_consent=accepted/.test(document.cookie);var xlConsentDeclined=/(^|; )xl_consent=declined/.test(document.cookie);var xlConsentAnalytics=xlConsentAccepted?'granted':xlConsentDeclined?'denied':xlConsentRequiresOptIn?'denied':'granted';gtag('consent','default',{'analytics_storage':xlConsentAnalytics,'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','wait_for_update':500});gtag('js',new Date());gtag('config','G-3JQLSQLPPM');</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-<script>
-window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-(function(){var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-if(c==='declined')return;gtag('js',new Date());gtag('config','G-3JQLSQLPPM')})();
-</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
 <style>
@@ -86,14 +82,6 @@ h1 { margin: 0; font-family: var(--gl-font-display); font-size: clamp(2.6rem, 7v
 .race-name { font-weight: 700; }
 .rowlink { color: var(--gl-swix-red); font-family: var(--gl-font-data); font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-decoration: none; white-space: nowrap; }
 .empty-state { padding: var(--gl-space-7) 0; color: var(--gl-muted); font-family: var(--gl-font-data); letter-spacing: .12em; text-transform: uppercase; }
-.gl-cookie-consent { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; display: none; background: var(--gl-carbon); border-top: 4px solid var(--gl-swix-red); color: var(--gl-white); padding: var(--gl-space-5); }
-.gl-cookie-consent.visible { display: block; }
-.gl-cookie-inner { max-width: var(--gl-measure); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-4); flex-wrap: wrap; }
-.gl-cookie-text { margin: 0; max-width: 62ch; }
-.gl-cookie-buttons { display: flex; gap: var(--gl-space-2); }
-.gl-cookie-btn { min-width: 44px; min-height: 44px; border: 2px solid var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }
-.gl-cookie-btn.accept { background: var(--gl-swix-red); color: var(--gl-white); border-color: var(--gl-swix-red); }
-.gl-cookie-btn.decline { background: transparent; color: var(--gl-white); }
 
 .gl-footer { background: var(--gl-swix-red); color: var(--gl-white); }
 .gl-footer-inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-5); }
@@ -190,29 +178,61 @@ h1 { margin: 0; font-family: var(--gl-font-display); font-size: clamp(2.6rem, 7v
 </aside>
 </footer>
 
-<div class="gl-cookie-consent" id="gl-cookie-consent">
-  <div class="gl-cookie-inner">
-    <p class="gl-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline.</p>
-    <div class="gl-cookie-buttons">
-      <button class="gl-cookie-btn accept" id="gl-cookie-accept">Accept</button>
-      <button class="gl-cookie-btn decline" id="gl-cookie-decline">Decline</button>
-    </div>
-  </div>
+<style>
+.xl-privacy-choices-footer{padding:8px 16px;background:var(--gl-carbon);font-family:var(--gl-font-data);display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.xl-privacy-choices{color:var(--gl-paper);font-size:11px;letter-spacing:1px;text-transform:uppercase;text-decoration:underline;text-underline-offset:3px}
+.xl-privacy-choices:hover{color:var(--gl-white)}
+.xl-privacy-choices:focus-visible{outline:2px solid var(--gl-klister);outline-offset:2px}
+.xl-consent-banner{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:var(--gl-carbon);border-top:3px solid var(--gl-swix-red);padding:16px 24px;display:none;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;font-family:var(--gl-font-data)}
+.xl-consent-banner.xl-consent-show{display:flex}
+.xl-consent-text{color:var(--gl-paper);font-size:13px;line-height:1.5;max-width:640px;margin:0}
+.xl-consent-text a{color:var(--gl-klister)}
+.xl-consent-text a:hover{color:var(--gl-white)}
+.xl-consent-btn{min-width:44px;min-height:44px;padding:8px 20px;font-family:var(--gl-font-data);font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;cursor:pointer;border:2px solid;transition:background-color .3s,color .3s,border-color .3s}
+.xl-consent-btn:focus-visible{outline:2px solid var(--gl-klister);outline-offset:2px}
+.xl-consent-accept{background:var(--gl-swix-red);color:var(--gl-white);border-color:var(--gl-swix-red)}
+.xl-consent-accept:hover{background:var(--gl-carbon);color:var(--gl-white)}
+.xl-consent-decline{background:transparent;color:var(--gl-white);border-color:var(--gl-white)}
+.xl-consent-decline:hover{background:var(--gl-white);color:var(--gl-carbon)}
+@media(max-width:600px){.xl-consent-banner{padding:10px 16px;gap:10px}.xl-consent-text{font-size:11px;text-align:center}.xl-consent-btn{padding:6px 14px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){.xl-consent-btn{transition:none}}
+</style>
+<footer class="xl-privacy-choices-footer" aria-label="Legal"><a class="xl-privacy-choices" id="xl-privacy-choices" href="/privacy/#cookies">Privacy choices</a><a class="xl-privacy-choices" href="/privacy/">Privacy</a><a class="xl-privacy-choices" href="/terms/">Terms</a></footer>
+<div class="xl-consent-banner" id="xl-consent-banner" role="dialog" aria-label="Cookie consent" aria-describedby="xl-consent-desc">
+  <p class="xl-consent-text" id="xl-consent-desc">I use analytics cookies to see which pages get read. No ad cookies. <a href="/privacy/#cookies">Privacy policy</a>.</p>
+  <button type="button" class="xl-consent-btn xl-consent-accept" id="xl-consent-accept">Accept</button>
+  <button type="button" class="xl-consent-btn xl-consent-decline" id="xl-consent-decline">Decline</button>
 </div>
 <script>
 (function(){
-  var banner=document.getElementById('gl-cookie-consent');
-  if(!banner||document.cookie.match(/xl_consent=/))return;
-  banner.classList.add('visible');
-  document.getElementById('gl-cookie-accept').addEventListener('click',function(){
-    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});gtag('js',new Date());gtag('config','G-3JQLSQLPPM');}
+  var b=document.getElementById('xl-consent-banner');
+  var p=document.getElementById('xl-privacy-choices');
+  if(!b)return;
+  var tid;var autoPending=false;
+  function cancelAutoShow(){
+    if(!autoPending)return;autoPending=false;
+    clearTimeout(tid);
+    window.removeEventListener('scroll',showBanner);
+  }
+  function showBanner(){
+    cancelAutoShow();
+    b.classList.add('xl-consent-show');
+  }
+  if(p){p.addEventListener('click',function(e){e.preventDefault();showBanner()})}
+  if(!/(^|; )xl_consent=/.test(document.cookie)&&window.xlConsentRequiresOptIn!==false){
+    autoPending=true;
+    window.addEventListener('scroll',showBanner,{passive:true,once:true});
+    tid=setTimeout(showBanner,3000);
+  }
+  document.getElementById('xl-consent-accept').addEventListener('click',function(){
+    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax;Secure';
+    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'})}
+    b.classList.remove('xl-consent-show');
   });
-  document.getElementById('gl-cookie-decline').addEventListener('click',function(){
-    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function')gtag('consent','update',{'analytics_storage':'denied'});
+  document.getElementById('xl-consent-decline').addEventListener('click',function(){
+    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax;Secure';
+    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'denied'})}
+    b.classList.remove('xl-consent-show');
   });
 })();
 </script>

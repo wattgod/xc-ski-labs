@@ -181,13 +181,14 @@ pytest tests/ -v
 
 ## GA4
 - **Measurement ID**: `G-3JQLSQLPPM` (XC Ski Labs property)
-- **Consent-gated**: Only fires if `xl_consent` cookie is not `declined`
-- **Embedded in**: All generated pages (race, training, coaching) — NOT via mu-plugins
+- **Consent**: Gravel God's region-aware model (Matti, 2026-11-14). `scripts/consent.py` is the only consent code: `get_ga4_head()` in `<head>`, `get_consent_banner_html()` before `</body>`. Analytics defaults to granted outside EEA/UK/CH (browser timezone) unless `xl_consent=declined`; EEA/UK/CH or an unreadable timezone defaults to denied and shows the banner; ad_storage/ad_user_data/ad_personalization always denied; `wait_for_update: 500`. "Privacy choices" link on every page reopens the banner.
+- **Embedded in**: All generated pages (race, training, coaching) — NOT via mu-plugins. `tests/test_consent.py` fails if a page configures GA4 any other way. Exception: `wordpress/generate_questionnaire.py` still has its own snippet (pending its FormSubmit move).
+- **No browser `purchase` events**: success pages are reachable with any `?session_id=`, so they fire only non-revenue views.
 
 ## Known Pitfalls (additions)
 29. **Mu-plugins don't work on static sites** — xcskilabs.com has no WordPress. GA4, consent, nav must be embedded directly in HTML generators, not PHP mu-plugins. The `wordpress/mu-plugins/` directory is kept for reference only.
 30. **Stripe price extraction needs regex** — `word.isdigit()` fails on "4-week". Use `re.search(r'(\d+)', nickname)`.
-31. **Cookie consent must fire before GA4** — Set consent defaults in the same `<script>` block, before `gtag('config', ...)`.
+31. **Cookie consent must fire before GA4** — Set consent defaults in the same `<script>` block, before `gtag('config', ...)`. `scripts/consent.py` does this; never hand-write a GA4 snippet.
 32. **Sticky CTA needs padding-bottom on page** — Without `padding-bottom: 80px` on `.gl-page`, the CTA overlaps the footer on short pages.
 33. **IntersectionObserver must guard entries** — Always check `entries.length > 0` before `entries[0]`. Wrap updates in `requestAnimationFrame`.
 34. **Touch targets must be >= 44px** — WCAG 2.1 SC 2.5.5. Dismiss button needs `min-width: 44px; min-height: 44px`.

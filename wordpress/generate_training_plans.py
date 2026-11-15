@@ -27,6 +27,10 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.consent import get_consent_banner_html, get_ga4_head  # noqa: E402
+
+XL_GA4_HEAD = get_ga4_head()
+XL_CONSENT_BANNER = get_consent_banner_html()
 from scripts.endure_offer import get_endure_offer_html
 from scripts.xsl_loops import LOOP_CSS, LOOP_JS, loop_figure  # noqa: E402
 
@@ -728,78 +732,6 @@ a:focus-visible, button:focus-visible {
   .gl-pricing-cell { border-right: none; }
   .gl-pricing-cell { padding: 8px 4px; }
 }
-
-/* ── Cookie Consent ─────────────────────────────── */
-
-.xl-consent-banner {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: var(--gl-carbon);
-  color: var(--gl-white);
-  border-top: 3px solid var(--gl-swix-red);
-  padding: 16px 20px;
-  font-family: var(--gl-font-data);
-  font-size: 0.8rem;
-  display: none;
-}
-
-.xl-consent-banner.show { display: block; }
-
-.xl-consent-inner {
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.xl-consent-text {
-  flex: 1;
-  min-width: 200px;
-  line-height: 1.5;
-}
-
-.xl-consent-text a {
-  color: var(--gl-klister);
-  text-decoration: underline;
-}
-
-.xl-consent-btns {
-  display: flex;
-  gap: 8px;
-  flex-shrink: 0;
-}
-
-.xl-consent-btn {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 8px 16px;
-  border: 2px solid var(--gl-white);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.xl-consent-accept {
-  background: var(--gl-swix-red);
-  color: var(--gl-white);
-}
-
-.xl-consent-accept:hover { background: var(--gl-klister); }
-
-.xl-consent-decline {
-  background: transparent;
-  color: var(--gl-muted);
-  border-color: var(--gl-muted);
-}
-
-.xl-consent-decline:hover { color: var(--gl-white); border-color: var(--gl-white); }
 """
 
 
@@ -1026,32 +958,8 @@ def generate_page():
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="twitter:image" content="https://xcskilabs.com/images/og-training.jpg">
 
-  <!-- Consent Mode v2 (must fire BEFORE GA4) -->
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  (function() {{
-      var consent = (document.cookie.match(/xl_consent=([^;]+)/) || [])[1];
-      var granted = (consent === 'accepted') ? 'granted' : 'denied';
-      gtag('consent', 'default', {{
-          'analytics_storage': granted,
-          'ad_storage': 'denied',
-          'ad_user_data': 'denied',
-          'ad_personalization': 'denied',
-          'functionality_storage': 'granted',
-          'security_storage': 'granted'
-      }});
-  }})();
-  </script>
-
-  <!-- GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', 'G-3JQLSQLPPM');
-  </script>
+  <!-- Consent Mode v2 default + GA4 config (scripts/consent.py) -->
+  {XL_GA4_HEAD}
 
   <!-- JSON-LD -->
   <script type="application/ld+json">
@@ -1069,28 +977,8 @@ def generate_page():
 {final_cta}
 {footer}
 
-<!-- Cookie Consent Banner -->
-<div class="xl-consent-banner" id="xl-consent-banner">
-    <div class="xl-consent-inner">
-        <div class="xl-consent-text">
-            We use cookies for analytics to improve the experience.
-            <a href="/privacy/">Privacy policy</a>.
-        </div>
-        <div class="xl-consent-btns">
-            <button class="xl-consent-btn xl-consent-accept" data-consent-choice="accepted">Accept</button>
-            <button class="xl-consent-btn xl-consent-decline" data-consent-choice="declined">Decline</button>
-        </div>
-    </div>
-</div>
+{XL_CONSENT_BANNER}
 <script>
-function xlConsent(choice) {{
-    document.cookie = 'xl_consent=' + choice + ';path=/;max-age=31536000;SameSite=Lax;Secure';
-    var storage = (choice === 'accepted') ? 'granted' : 'denied';
-    if (typeof gtag === 'function') {{
-        gtag('consent', 'update', {{ 'analytics_storage': storage }});
-    }}
-    document.getElementById('xl-consent-banner').classList.remove('show');
-}}
 (function() {{
     document.querySelectorAll('[data-faq-toggle]').forEach(function(btn) {{
         btn.addEventListener('click', function() {{
@@ -1101,14 +989,6 @@ function xlConsent(choice) {{
             }}
         }});
     }});
-    document.querySelectorAll('[data-consent-choice]').forEach(function(btn) {{
-        btn.addEventListener('click', function() {{
-            xlConsent(btn.getAttribute('data-consent-choice'));
-        }});
-    }});
-    if (!/xl_consent=/.test(document.cookie)) {{
-        document.getElementById('xl-consent-banner').classList.add('show');
-    }}
 }})();
 </script>
 {LOOP_JS}

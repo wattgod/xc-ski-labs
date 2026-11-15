@@ -47,6 +47,12 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
 
+import sys  # noqa: E402
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+from scripts.consent import get_consent_banner_html, get_ga4_head  # noqa: E402
+
 LAST_SEASON = "2025-26"
 NEXT_SEASON = "2026-27"
 
@@ -398,24 +404,8 @@ def render_modules() -> str:
 
 
 def build_ga4() -> str:
-    return """<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-(function(){
-  var consent = (document.cookie.match(/xl_consent=([^;]+)/) || [])[1];
-  gtag('consent','default',{
-    'analytics_storage': consent === 'accepted' ? 'granted' : 'denied',
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'functionality_storage': 'granted',
-    'security_storage': 'granted'
-  });
-})();
-gtag('js', new Date());
-gtag('config', 'G-3JQLSQLPPM');
-</script>"""
+    """GA4 head: consent default + config, then gtag.js (scripts/consent.py)."""
+    return get_ga4_head()
 
 
 def build_nav() -> str:
@@ -434,15 +424,8 @@ def build_nav() -> str:
 
 
 def build_cookie_banner() -> str:
-    return """<div class="gl-cookie-consent" id="gl-cookie-consent">
-  <div class="gl-cookie-inner">
-    <div class="gl-cookie-text">We use analytics cookies to improve XC Ski Labs.</div>
-    <div class="gl-cookie-actions">
-      <button type="button" id="gl-cookie-accept">Accept</button>
-      <button type="button" id="gl-cookie-decline">Decline</button>
-    </div>
-  </div>
-</div>"""
+    """Shared consent banner and Privacy choices strip (scripts/consent.py)."""
+    return get_consent_banner_html()
 
 
 def build_results() -> str:
@@ -560,13 +543,6 @@ textarea.gl-long { min-height: 220px; }
 .gl-offer-terms { color: var(--gl-muted); font-size: 0.82rem; margin: 8px 0; }
 .gl-offer-decline { font-family: var(--gl-font-data); font-size: 0.75rem; color: var(--gl-muted); text-decoration: underline; }
 .gl-footer { max-width: 760px; margin: 0 auto; padding: 34px 20px 60px; color: var(--gl-muted); font-family: var(--gl-font-data); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
-.gl-cookie-consent { position: fixed; left: 20px; right: 20px; bottom: 20px; z-index: 2000; display: none; background: var(--gl-carbon); color: var(--gl-white); border: 2px solid var(--gl-swix-red); padding: 14px; }
-.gl-cookie-consent.visible { display: block; }
-.gl-cookie-inner { max-width: var(--gl-measure); margin: 0 auto; display: flex; align-items: center; gap: 16px; justify-content: space-between; }
-.gl-cookie-text { font-family: var(--gl-font-data); font-size: 0.72rem; color: var(--gl-hairline); }
-.gl-cookie-actions { display: flex; gap: 8px; }
-.gl-cookie-actions button { min-height: 44px; border: 2px solid var(--gl-white); background: transparent; color: var(--gl-white); font-family: var(--gl-font-data); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 8px 12px; cursor: pointer; }
-.gl-cookie-actions button:first-child { background: var(--gl-white); color: var(--gl-carbon); }
 @media (prefers-reduced-motion: reduce) {
   .gl-progress-fill { transition: none; }
   .gl-save-indicator { transition: none; }
@@ -577,7 +553,6 @@ textarea.gl-long { min-height: 220px; }
   .gl-nav-links { flex-wrap: wrap; gap: 12px; }
   .gl-progress-wrap { top: 86px; }
   .gl-field-row { grid-template-columns: 1fr; }
-  .gl-cookie-inner { align-items: flex-start; flex-direction: column; }
   .gl-actions { flex-wrap: wrap; }
 }
 """
@@ -1064,25 +1039,6 @@ def build_js() -> str:
 
   restore();
   ga4("season_review_view", {});
-
-  var cookieBanner = document.getElementById("gl-cookie-consent");
-  if (cookieBanner && !/xl_consent=/.test(document.cookie)) { cookieBanner.classList.add("visible"); }
-  var cookieAccept = document.getElementById("gl-cookie-accept");
-  var cookieDecline = document.getElementById("gl-cookie-decline");
-  if (cookieAccept) {
-    cookieAccept.addEventListener("click", function() {
-      document.cookie = "xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax";
-      cookieBanner.classList.remove("visible");
-      if (typeof gtag === "function") { gtag("consent", "update", { analytics_storage: "granted" }); }
-    });
-  }
-  if (cookieDecline) {
-    cookieDecline.addEventListener("click", function() {
-      document.cookie = "xl_consent=declined;path=/;max-age=31536000;SameSite=Lax";
-      cookieBanner.classList.remove("visible");
-      if (typeof gtag === "function") { gtag("consent", "update", { analytics_storage: "denied" }); }
-    });
-  }
 })();
 </script>"""
     return (js.replace("__STORAGE_KEY__", "xcskilabs_goal_2026_27_v1")

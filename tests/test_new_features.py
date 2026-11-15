@@ -474,7 +474,7 @@ class TestAboutPage:
         head = html.split("</head>")[0]
         assert "G-3JQLSQLPPM" in head, "GA4 snippet missing from about head"
         assert "xl_consent" in html, "About page GA4 not gated by consent cookie"
-        assert "gl-cookie-consent" in html, "About page missing consent banner"
+        assert "xl-consent-banner" in html, "About page missing consent banner"
         assert "Accept" in html and "Decline" in html, "Consent choices missing"
 
     def test_about_count_is_not_hardcoded(self, tmp_path):
@@ -530,8 +530,11 @@ class TestPrivacyAndMethodologyPages:
         assert "Privacy Policy" in html
         assert "FormSubmit" in html
         assert "Effective date: July 2026" in html
-        assert "Analytics is active by default" in html
-        assert "disables analytics on subsequent page views" in html
+        assert "European Economic Area, the United Kingdom or Switzerland" in html
+        assert "analytics stays off until you accept it" in html
+        assert "Elsewhere, analytics is active by default." in html
+        assert "Privacy choices link" in html
+        assert 'id="cookies"' in html
         assert "Information stored in your browser" in html
         assert "including health, injury, and medication information" in html
         assert "not transmitted to us until you submit" in html
