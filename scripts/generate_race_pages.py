@@ -2857,25 +2857,23 @@ RACE_LOOP_CSS = """
 .xsl-race-motion p { margin: 0 0 12px; font-family: var(--gl-font-editorial); font-size: 17px; color: var(--gl-ink); max-width: 52ch; }
 .xsl-race-motion a { font-family: var(--gl-font-data); font-size: 13px; font-weight: 700; letter-spacing: .08em;
   text-transform: uppercase; color: var(--gl-ink); text-decoration: none; border-bottom: 3px solid var(--gl-rust); }
-.xsl-race-motion p.xsl-race-motion-gear { font-family: var(--gl-font-data); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--gl-caption); }
 @media (max-width: 640px) { .xsl-race-motion { grid-template-columns: 1fr; } .xsl-race-motion .xsl-loop { max-width: 300px; } }
 """
 
 
 def build_technique_motion(race: dict) -> str:
-    """Classic and dual-technique races: one technique loop (Gravel God, captured from Matti's course videos)
+    """Classic and dual-technique races: one technique loop (Gravel God, motion-captured)
     beside a pointer to the guide's classic gears. Skate-only races get nothing: no skate technique is captured."""
     disc = (race.get("vitals", {}) or {}).get("discipline", "")
     tech = DISCIPLINE_LOOP.get(str(disc).lower())
     if not tech:
         return ""
-    name, gear, _ = LOOPS[tech]
+    name = LOOPS[tech][0]
     return f"""
 <section class="xsl-race-motion" aria-labelledby="xsl-race-motion-title">
   {loop_figure(tech, "square", caption=False)}
   <div>
     <h2 id="xsl-race-motion-title">{esc(name)}</h2>
-    <p class="xsl-race-motion-gear">{esc(gear)}</p>
     <a href="/guide/technique-and-execution/">Classic gears in the guide &rarr;</a>
   </div>
 </section>

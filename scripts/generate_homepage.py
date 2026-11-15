@@ -816,6 +816,8 @@ a:focus-visible, button:focus-visible {{
 /* ── Responsive ── */
 @media (max-width: 640px) {{
   .hero {{ padding: 56px 28px 48px; }}
+  .tier-table th:nth-child(2),
+  .tier-table td:nth-child(2),
   .tier-table th:nth-child(3),
   .tier-table td:nth-child(3),
   .tier-table th:nth-child(4),
@@ -894,7 +896,7 @@ a:focus-visible, button:focus-visible {{
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">01</span>
       <h2 class="gl-hp-ladder-headline">Find your race</h2>
-      <p class="gl-hp-ladder-body"><span id="statRaces">{race_count}</span> races in {country_count} countries, scored on {CRITERIA_COUNT} criteria. <a href="/methodology/">How we rate</a></p>
+      <p class="gl-hp-ladder-body"><span id="statRaces">{race_count}</span> races in <span id="statCountries">{country_count}</span> countries, scored on {CRITERIA_COUNT} criteria. <a href="/methodology/">How we rate</a></p>
       <a href="/search/" class="gl-hp-ladder-cta" data-ga="ladder_pick_race">SEARCH THE RACES &rarr;</a>
     </div>
     <div class="gl-hp-ladder-cell">

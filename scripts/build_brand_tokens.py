@@ -256,7 +256,8 @@ html body .gl-cta-link:hover { text-decoration: none; }
 /* Every nav sits on a strap: the wordmark is on-strap. */
 :is(.gl-nav, .gl-nav-header, .gl-coach-nav) .gl-nav-logo,
 :is(.gl-nav, .gl-nav-header, .gl-coach-nav) .gl-nav-logo:hover { color: var(--on-strap); }
-.gl-nav-logo { display: inline-flex; align-items: center; gap: 12px; white-space: nowrap; }
+.gl-nav-logo { display: inline-flex; align-items: center; gap: 12px; white-space: nowrap; text-decoration: none; }
+.gl-nav-logo:hover { text-decoration: none; }
 .gl-nav-logo .gl-brand-mark { display: block; width: 44px; height: 44px; flex: none; }
 .gl-nav-logo .gl-brand-mark svg { display: block; width: 100%; height: 100%; }
 .gl-nav-logo .gl-brand-name { font-family: var(--font-label); font-weight: 800; font-style: normal; font-size: 22px; letter-spacing: .2em; line-height: 1; text-transform: uppercase; }
