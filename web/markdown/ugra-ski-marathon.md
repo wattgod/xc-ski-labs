@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/ugra-ski-marathon/"
 
 # Ugra Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ugra-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ugra-ski-marathon/*
 
 > Fifty kilometers of flat freestyle racing on the frozen Gornaya River floodplain in Siberia's oil capital — a Russialoppet event that attracts Olympic and world champions.
 

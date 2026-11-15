@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/frosty-freestyle/"
 
 # Frosty Freestyle
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/frosty-freestyle/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/frosty-freestyle/*
 
 > Eau Claire's fast and flat skate race — 25 kilometers of Wisconsin river valley trails in full freestyle flight.
 

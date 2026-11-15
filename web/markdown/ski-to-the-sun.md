@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/ski-to-the-sun/"
 
 # Ski to the Sun
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-to-the-sun/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-to-the-sun/*
 
 > Forty-two kilometers through the Methow Valley's 200-kilometer trail network — North America's Nordic paradise, finishing at Sun Mountain Lodge.
 

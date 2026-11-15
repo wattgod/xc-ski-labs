@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/minnesota-finlandia/"
 
 # Minnesota Finlandia
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/minnesota-finlandia/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/minnesota-finlandia/*
 
 > 50 kilometers through the frozen North Woods of Bemidji — the Nordic Festival of the North, honoring Minnesota's Finnish heritage since 1982.
 

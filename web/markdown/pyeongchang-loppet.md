@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/pyeongchang-loppet/"
 
 # PyeongChang Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pyeongchang-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pyeongchang-loppet/*
 
 > Ten kilometers on Olympic snow — the 2018 Winter Games venue opens its doors for Asia's newest Ski Classics challenger on the Alpensia tracks.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/marathon-du-grand-bec/"
 
 # Marathon du Grand Bec
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-du-grand-bec/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-du-grand-bec/*
 
 > Forty-two kilometers beneath the Grand Bec summit — a Vanoise Alps skate marathon where glaciated peaks tower over every stride through Champagny's high valley.
 

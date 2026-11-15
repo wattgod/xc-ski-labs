@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/orsa-gronklitt-ski-marathon/"
 
 # Orsa Gronklitt Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/orsa-gronklitt-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/orsa-gronklitt-ski-marathon/*
 
 > Forty-two kilometers through the forests of Dalarna at one of Sweden's most respected Nordic venues — a Vasaloppet qualifier on classic terrain.
 

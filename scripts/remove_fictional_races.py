@@ -14,6 +14,8 @@ listings, social media, YouTube, and registration pages.
   jamtkraft-ski-marathon → craft-ski-marathon
   kainuu-ski-marathon → vuokatti-hiihto
   keskinada-loppet → gatineau-loppet (old name 1996-2008)
+  gatineau-55 → gatineau-loppet (old name 1983-1996; removed 2026-11-15, #87)
+  ushuaia-ski-marathon → ushuaia-loppet (same 42 km race; removed 2026-11-15, #87)
   kortvasan → discontinued Vasaloppet sub-event
   krkonossky-maraton → jizerska-50 (region)
   salpausselka-hiihto → finlandia-hiihto (same venue)

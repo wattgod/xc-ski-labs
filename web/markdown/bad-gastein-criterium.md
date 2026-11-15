@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/bad-gastein-criterium/"
 
 # Bad Gastein Criterium
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bad-gastein-criterium/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bad-gastein-criterium/*
 
 > Thirty-six kilometers of elite freestyle racing at 1,600 meters in Sportgastein — the Ski Classics Pro Tour season opener with The Wall, tactical sprints, and climbing competitions.
 

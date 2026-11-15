@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/craftsbury-marathon/"
 
 # Craftsbury Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/craftsbury-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/craftsbury-marathon/*
 
 > The Northeast Kingdom's longest day on snow — forty-five kilometers of Vermont's fiercest winter through America's most storied ski center.
 

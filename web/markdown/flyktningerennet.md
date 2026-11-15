@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/flyktningerennet/"
 
 # Flyktningerennet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/flyktningerennet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/flyktningerennet/*
 
 > Forty-four kilometers from Norway to Sweden on the escape route refugees took in 1944 — a cross-border memorial race where every kilometer carries the weight of wartime history.
 

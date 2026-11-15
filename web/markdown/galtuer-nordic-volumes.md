@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/galtuer-nordic-volumes/"
 
 # Galtuer Nordic Volumes
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/galtuer-nordic-volumes/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/galtuer-nordic-volumes/*
 
 > Season-closing Nordic racing in the Tyrolean Alps — the third leg of the Tirol3 Nordic Challenge brings the Austrian cross-country calendar to a spring finale.
 

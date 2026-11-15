@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/chama-chile-ski-classic/"
 
 # Chama Chile Ski Classic
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/chama-chile-ski-classic/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/chama-chile-ski-classic/*
 
 > High-altitude Nordic racing in northern New Mexico — green chile at the finish line and 2,400 meters of mountain air.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/mcmurdo-ski-race/"
 
 # McMurdo Ski Race
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/mcmurdo-ski-race/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/mcmurdo-ski-race/*
 
 > Twenty kilometers on Ross Island at the bottom of the world — the southernmost cross-country ski race on Earth.
 

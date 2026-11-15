@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/jatkankynttila/"
 
 # Jatkankynttila
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jatkankynttila/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jatkankynttila/*
 
 > Fifty kilometers through the Lapland wilderness near Rovaniemi — named after the iconic Lumberjack's Candle bridge, a Finnish mass skiing event with Arctic reliability.
 

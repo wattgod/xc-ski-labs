@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/mammoth-marathon/"
 
 # Mammoth Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/mammoth-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/mammoth-marathon/*
 
 > Forty-two kilometers at 8,000 feet in the Eastern Sierra — the highest-altitude Nordic marathon in America, where thin air meets deep snow.
 

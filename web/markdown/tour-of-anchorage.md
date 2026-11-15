@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tour-of-anchorage/"
 
 # Tour of Anchorage
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tour-of-anchorage/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tour-of-anchorage/*
 
 > Fifty kilometers from mountains to sea — a point-to-point urban odyssey through Alaska's wild heart.
 

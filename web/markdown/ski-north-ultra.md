@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/ski-north-ultra/"
 
 # Ski North Ultra
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-north-ultra/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-north-ultra/*
 
 > One hundred kilometers of classic-only skiing along Minnesota's North Shore of Lake Superior — one of North America's few 100K XC ski races, launched in 2025.
 

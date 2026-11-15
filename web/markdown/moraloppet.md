@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/moraloppet/"
 
 # Moraloppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/moraloppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/moraloppet/*
 
 > Forty-two kilometers on the Vasaloppet Arena — skiing in the footsteps of kings from Oxberg to Mora.
 

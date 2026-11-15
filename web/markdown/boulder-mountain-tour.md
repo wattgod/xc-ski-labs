@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/boulder-mountain-tour/"
 
 # Boulder Mountain Tour
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/boulder-mountain-tour/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/boulder-mountain-tour/*
 
 > Thirty-four kilometers through Idaho's Sawtooth wilderness — Sun Valley's crown jewel of citizen racing since 1974.
 

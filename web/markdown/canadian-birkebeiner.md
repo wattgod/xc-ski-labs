@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/canadian-birkebeiner/"
 
 # Canadian Birkebeiner
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/canadian-birkebeiner/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/canadian-birkebeiner/*
 
 > Fifty-five kilometers with a 5.5-kilogram pack through Elk Island's frozen wilderness — Canada's tribute to the warriors who saved a king.
 

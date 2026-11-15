@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/great-nordeen/"
 
 # Great Nordeen
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-nordeen/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-nordeen/*
 
 > Thirty kilometers of net-downhill freestyle racing from Mt. Bachelor through the Deschutes National Forest — Central Oregon's largest Nordic race, honoring local ski pioneer Emil Nordeen.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/per-johnsen-ozbaldy/"
 
 # Per Johnsen Ozbaldy
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/per-johnsen-ozbaldy/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/per-johnsen-ozbaldy/*
 
 > A memorial marathon at Snoqualmie Pass — fifty backcountry-influenced kilometers through the Washington Cascades.
 

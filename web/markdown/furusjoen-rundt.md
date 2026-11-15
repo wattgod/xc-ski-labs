@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/furusjoen-rundt/"
 
 # Furusjøen Rundt
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/furusjoen-rundt/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/furusjoen-rundt/*
 
 > Forty-five kilometers circling Furusjøen in the Rondane foothills — a February classic that doubles as your Birken qualifier and a Ski Classics Challengers test piece.
 

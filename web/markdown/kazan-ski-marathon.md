@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/kazan-ski-marathon/"
 
 # Kazan Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kazan-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kazan-ski-marathon/*
 
 > Fifty kilometers through Tatarstan's Volga forests — where Russia's third capital brings a thousand skiers to the trails each winter.
 

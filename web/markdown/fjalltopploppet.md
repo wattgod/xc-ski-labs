@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/fjalltopploppet/"
 
 # Fjälltopploppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/fjalltopploppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/fjalltopploppet/*
 
 > Forty-two kilometers across the Swedish mountain plateau where treeline gives way to open fjäll and Arctic wind.
 

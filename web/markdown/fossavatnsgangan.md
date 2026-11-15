@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/fossavatnsgangan/"
 
 # Fossavatnsgangan
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/fossavatnsgangan/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/fossavatnsgangan/*
 
 > The most northerly Worldloppet race — fifty kilometers across Iceland's wild Westfjords where volcanic landscape meets Arctic snow.
 

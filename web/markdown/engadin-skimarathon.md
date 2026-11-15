@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/engadin-skimarathon/"
 
 # Engadin Skimarathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/engadin-skimarathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/engadin-skimarathon/*
 
 > Thirteen thousand skaters gliding across frozen Engadin lakes at 1,800 meters — the world's fastest marathon on the world's most beautiful course.
 

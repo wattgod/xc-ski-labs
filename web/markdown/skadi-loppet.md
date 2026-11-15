@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/skadi-loppet/"
 
 # Skadi Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/skadi-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/skadi-loppet/*
 
 > Forty-two kilometers and 1,077 meters of climbing through the Bavarian Forest — named for the Norse goddess of winter and built to break you.
 

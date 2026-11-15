@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/storlirennet/"
 
 # Storlirennet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/storlirennet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/storlirennet/*
 
 > A cross-border freestyle race from Sweden to Norway — 35 kilometers from Storlien across the Scandinavian divide into Meraaker.
 

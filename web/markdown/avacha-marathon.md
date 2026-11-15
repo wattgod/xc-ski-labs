@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/avacha-marathon/"
 
 # Avacha Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/avacha-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/avacha-marathon/*
 
 > Fifty skate kilometers beneath Kamchatka's smoking volcanoes — the most remote marathon in the Russialoppet series.
 

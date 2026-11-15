@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/planoiras-volkslanglauf/"
 
 # Planoiras Volkslanglauf
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/planoiras-volkslanglauf/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/planoiras-volkslanglauf/*
 
 > Twenty-five kilometers of freestyle racing through the snow-covered winter landscape of Lenzerheide — the traditional opener of the Swiss Loppet series.
 

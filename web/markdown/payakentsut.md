@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/payakentsut/"
 
 # Payakentsut
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/payakentsut/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/payakentsut/*
 
 > Fifty kilometers on Olympic rings — where 2010 legacy trails meet Coast Mountain grandeur in the Sea-to-Sky corridor.
 

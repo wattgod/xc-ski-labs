@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/neeruti-maraton/"
 
 # Neeruti Maraton
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/neeruti-maraton/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/neeruti-maraton/*
 
 > Thirty-one kilometers of skate skiing through the Neeruti landscape reserve — Estonia's free-technique sprint through drumlins and pine forest in Lääne-Virumaa.
 

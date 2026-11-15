@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/larch-hills-loppet/"
 
 # Larch Hills Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/larch-hills-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/larch-hills-loppet/*
 
 > British Columbia's interior loppet through the Larch Hills — a community-driven citizen race in the Shuswap region.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/jyvaskyla-ski-marathon/"
 
 # Jyväskylä Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jyvaskyla-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/jyvaskyla-ski-marathon/*
 
 > Fifty kilometers along the Metso Route through the Finnish Lakeland — where a thousand frozen lakes frame the quintessential Nordic ski marathon in the heart of Central Finland.
 

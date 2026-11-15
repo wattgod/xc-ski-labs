@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/great-glen-nordic/"
 
 # Great Glen Nordic Race Series
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-glen-nordic/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/great-glen-nordic/*
 
 > Nordic racing at the base of Mount Washington — New England's most iconic peak looms over a community race series with three decades of history.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/ski-classics-finale/"
 
 # Ski Classics Finale
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-classics-finale/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/ski-classics-finale/*
 
 > The season-ending showdown where the pro tour's toughest settle it on the final tracks.
 

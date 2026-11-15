@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/lofsdalen-epic/"
 
 # Lofsdalen Epic
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/lofsdalen-epic/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/lofsdalen-epic/*
 
 > Fifty-five kilometers of mountain village skiing in Härjedalen — where Swedish cross-country meets wilderness epic.
 

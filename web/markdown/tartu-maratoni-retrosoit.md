@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tartu-maratoni-retrosoit/"
 
 # Tartu Maratoni Retrosõit
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tartu-maratoni-retrosoit/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tartu-maratoni-retrosoit/*
 
 > Thirty kilometers of wooden-ski nostalgia through the Estonian snowfields — where the Tartu Marathon tradition lives in its purest form.
 

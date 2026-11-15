@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/viru-maraton/"
 
 # Viru Maraton
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/viru-maraton/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/viru-maraton/*
 
 > Forty-two kilometers through the ancient forests of Virumaa — Estonia's classic-technique marathon where Baltic pine and frozen bog define an Estoloppet staple.
 

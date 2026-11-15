@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/haldo-hansson-minne/"
 
 # Haldo Hansson Minne
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/haldo-hansson-minne/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/haldo-hansson-minne/*
 
 > A memorial race in Åsarna honoring a legendary Jämtland skier — forty-two kilometers of Swedish mountain tradition.
 

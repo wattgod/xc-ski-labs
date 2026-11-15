@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/pirkan-hiihto/"
 
 # Pirkan Hiihto
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pirkan-hiihto/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pirkan-hiihto/*
 
 > Ninety kilometers across the Finnish lakeland — a silent, frozen marathon through the country that treats cross-country skiing as a birthright.
 

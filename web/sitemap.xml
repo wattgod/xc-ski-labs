@@ -2,1388 +2,2810 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://xcskilabs.com/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/search/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xcskilabs.com/race/birkebeinerrennet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <loc>https://xcskilabs.com/goals/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/training-plans/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/about/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/methodology/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/coaching/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/consulting/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/privacy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/terms/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/guide/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/guide/what-is-xc-ski-racing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/guide/race-selection/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/guide/training-fundamentals/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/birkebeinerrennet/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/birkebeinerrennet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marcialonga/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marcialonga/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vasaloppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vasaloppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/engadin-skimarathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/engadin-skimarathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/engadin-la-diagonela/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/engadin-la-diagonela/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/jizerska-50/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/jizerska-50/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ski-classics-finale/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://xcskilabs.com/race/ski-classics-finale/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://xcskilabs.com/race/nattvasan/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/nattvasan/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/skarverennet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/skarverennet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/stafettvasan/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/stafettvasan/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/transjurassienne/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/transjurassienne/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/oppet-spar/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/oppet-spar/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/bad-gastein-criterium/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/bad-gastein-criterium/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/finlandia-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/finlandia-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ganghoferlauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ganghoferlauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/holmenkollmarsjen/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/holmenkollmarsjen/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/summit-2-senja/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/summit-2-senja/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/gatineau-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/gatineau-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/konig-ludwig-lauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/konig-ludwig-lauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/reistadlopet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/reistadlopet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/3-zinnen-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/3-zinnen-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/american-birkebeiner/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/american-birkebeiner/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/gommerlauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/gommerlauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/granfondo-dobbiaco-cortina/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/granfondo-dobbiaco-cortina/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ingalami/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ingalami/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tjejvasan/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tjejvasan/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/yllas-levi-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/yllas-levi-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/arctic-circle-race/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/arctic-circle-race/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/dolomitenlauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/dolomitenlauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/lapponia-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/lapponia-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marathon-de-bessans/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marathon-de-bessans/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/nordenskioldsloppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/nordenskioldsloppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sudtirol-moonlight-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sudtirol-moonlight-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/trans-vercors/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/trans-vercors/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/bieg-piastow/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/bieg-piastow/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/boulder-mountain-tour/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/boulder-mountain-tour/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/foulee-blanche/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/foulee-blanche/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/grenaderlopet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/grenaderlopet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/gsieser-tal-lauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/gsieser-tal-lauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/la-sgambeda/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/la-sgambeda/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marathon-du-grand-bec/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marathon-du-grand-bec/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marcialonga-bodo/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marcialonga-bodo/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tervahiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tervahiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/traverse-du-massacre/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/traverse-du-massacre/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/etoile-des-saisies/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/etoile-des-saisies/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/hafjell-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/hafjell-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/koasalauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/koasalauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kobberlopet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kobberlopet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/lake-placid-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/lake-placid-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/pirkan-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/pirkan-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/skadi-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/skadi-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ski-trail-tannheimer-tal/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ski-trail-tannheimer-tal/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/canadian-birkebeiner/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/canadian-birkebeiner/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/canadian-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xcskilabs.com/race/gatineau-55/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <loc>https://xcskilabs.com/race/canadian-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marxa-beret/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marxa-beret/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/niseko-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/niseko-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/pokljuka-nordic-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/pokljuka-nordic-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vuokatti-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vuokatti-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/engadin-frauenlauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/engadin-frauenlauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/payakentsut/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/payakentsut/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tartu-maraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tartu-maraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/valdres-skimaraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/valdres-skimaraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/great-ski-race/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/great-ski-race/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marathon-des-glieres/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marathon-des-glieres/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/pepsi-challenge/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/pepsi-challenge/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tour-of-anchorage/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tour-of-anchorage/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/alley-loop/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/alley-loop/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/baikal-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/baikal-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/fjalltopploppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/fjalltopploppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/fossavatnsgangan/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/fossavatnsgangan/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kangaroo-hoppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kangaroo-hoppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/khanty-mansiysk-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/khanty-mansiysk-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/levi-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/levi-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/mammoth-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/mammoth-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/murmansk-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/murmansk-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sapporo-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sapporo-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/snow-mountain-ranch-stampede/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/snow-mountain-ranch-stampede/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sumavsky-skimaraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sumavsky-skimaraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/thorleif-haugs-minnelop/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/thorleif-haugs-minnelop/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vasaloppet-japan/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vasaloppet-japan/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vasaloppet-usa/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vasaloppet-usa/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/california-gold-rush/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/california-gold-rush/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/einsiedler-skimarathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/einsiedler-skimarathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/flyktningerennet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/flyktningerennet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/lake-louise-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/lake-louise-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/pogostan-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/pogostan-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sovereign-lake-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sovereign-lake-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/stowe-derby/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/stowe-derby/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/yellowstone-rendezvous/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/yellowstone-rendezvous/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/engelbrektsloppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/engelbrektsloppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marcia-gran-paradiso/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://xcskilabs.com/race/marcia-gran-paradiso/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://xcskilabs.com/race/asarna-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/asarna-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/cascade-crest/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/cascade-crest/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/city-of-lakes-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/city-of-lakes-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kananaskis-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kananaskis-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/methow-valley-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/methow-valley-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sjusjoen-skimarathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sjusjoen-skimarathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sovereign2silverstar/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sovereign2silverstar/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/avacha-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/avacha-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/cookie-race/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/cookie-race/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/haldo-hansson-minne/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/haldo-hansson-minne/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/jackrabbit-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/jackrabbit-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/jyvaskyla-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/jyvaskyla-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/krasnogorsk-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/krasnogorsk-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kungsledenrannet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kungsledenrannet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/la-savoyarde/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/la-savoyarde/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/lofsdalen-epic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/lofsdalen-epic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/moraloppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/moraloppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/nikolov-perevoz/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/nikolov-perevoz/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/noquemanon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/noquemanon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/north-american-vasa/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/north-american-vasa/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/planica-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/planica-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/seeley-hills-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/seeley-hills-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ski-to-the-sun/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ski-to-the-sun/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/snow-farm-challenge/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/snow-farm-challenge/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sun-valley-nordic-festival/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sun-valley-nordic-festival/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/svalbard-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/svalbard-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tromso-skimaraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tromso-skimaraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/blafjallagangan/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/blafjallagangan/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/furusjoen-rundt/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/furusjoen-rundt/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/hovdentour/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/hovdentour/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kazan-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kazan-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/minnesota-finlandia/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/minnesota-finlandia/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/pragelato-sestriere/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/pragelato-sestriere/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/pyeongchang-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/pyeongchang-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/silver-star-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/silver-star-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/storlirennet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/storlirennet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tana-varangerrennet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tana-varangerrennet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tassasen-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tassasen-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/biela-stopa/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/biela-stopa/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/black-jack-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/black-jack-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/carpathian-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/carpathian-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/craft-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/craft-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/demino-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/demino-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/galtuer-nordic-volumes/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/galtuer-nordic-volumes/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/great-bear-chase/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/great-bear-chase/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/great-glen-to-bretton-woods/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/great-glen-to-bretton-woods/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/haanja-maraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/haanja-maraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kuzbass-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kuzbass-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/latloppet-madona/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/latloppet-madona/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marathon-des-belles-combes/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marathon-des-belles-combes/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/rajalta-rajalle-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/rajalta-rajalle-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sakhalin-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sakhalin-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/wasatch-citizens-series/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/wasatch-citizens-series/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/bessemerloppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/bessemerloppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/billingens-langlopp/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/billingens-langlopp/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/craftsbury-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/craftsbury-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/jamtland-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/jamtland-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kandersteger-volkslauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kandersteger-volkslauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/merino-muster/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/merino-muster/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/planoiras-volkslanglauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/planoiras-volkslanglauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sirdal-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sirdal-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tahoe-rim-tour/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tahoe-rim-tour/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/trysil-skimaraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/trysil-skimaraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vastgotaloppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vastgotaloppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/white-mountain-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/white-mountain-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/7-mila/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/7-mila/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/bedrichov-night-light/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/bedrichov-night-light/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/bieg-lotnikow/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/bieg-lotnikow/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/leadville-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/leadville-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/muskoka-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/muskoka-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/orsa-gronklitt-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/orsa-gronklitt-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/race-of-the-methow/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/race-of-the-methow/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ski-north-ultra/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ski-north-ultra/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sleeping-giant-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sleeping-giant-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tornedalen-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tornedalen-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/white-pine-stampede/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/white-pine-stampede/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/bieg-podhalanski/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/bieg-podhalanski/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/great-nordeen/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/great-nordeen/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/michigan-cup-relays/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/michigan-cup-relays/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sumava-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sumava-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tour-de-gaspe/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tour-de-gaspe/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ushuaia-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ushuaia-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/boden-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/boden-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/markatrimmen/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/markatrimmen/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/muffin-race/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/muffin-race/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/oosik-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/oosik-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/rennsteig-ski-lauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/rennsteig-ski-lauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ugra-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ugra-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/alutaguse-maraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/alutaguse-maraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/budorrennet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/budorrennet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/marchablanca/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/marchablanca/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/mcmurdo-ski-race/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/mcmurdo-ski-race/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/mt-ashwabay-summit/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/mt-ashwabay-summit/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ranka-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ranka-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sisu-ski-fest/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sisu-ski-fest/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tallinn-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tallinn-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vasaloppet-china/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vasaloppet-china/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/bieg-bystrzycki/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/bieg-bystrzycki/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/jatkankynttila/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/jatkankynttila/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/owl-creek-chase/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/owl-creek-chase/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/saskaloppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/saskaloppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/sonot-kkaazoot/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/sonot-kkaazoot/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tartu-maratoni-retrosoit/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://xcskilabs.com/race/ushuaia-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <loc>https://xcskilabs.com/race/tartu-maratoni-retrosoit/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vantaa-hiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vantaa-hiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/viru-maraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/viru-maraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/great-glen-nordic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/great-glen-nordic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/larch-hills-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/larch-hills-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/lemming-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/lemming-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/minocqua-northwoods-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/minocqua-northwoods-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/pac-nw-loppet-series/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/pac-nw-loppet-series/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/panorama-nordic-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/panorama-nordic-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/rothenthurmer-volksskilauf/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/rothenthurmer-volksskilauf/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/ski-de-she/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/ski-de-she/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/vaskoolihiihto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/vaskoolihiihto/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/idre-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/idre-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/kalix-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/kalix-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/neeruti-maraton/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/neeruti-maraton/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/spokane-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/spokane-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/attraverso-campra/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/attraverso-campra/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/book-across-the-bay/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/book-across-the-bay/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/chama-chile-ski-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/chama-chile-ski-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/franches-nordique/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/franches-nordique/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/frosty-freestyle/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/frosty-freestyle/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/gantrisch-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/gantrisch-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tamsalu-ski-marathon/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tamsalu-ski-marathon/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/spirit-of-the-rivers-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/spirit-of-the-rivers-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/tour-de-stowe/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/tour-de-stowe/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/erzgebirge-24h/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/erzgebirge-24h/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/grand-mesa-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/grand-mesa-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/john-craig-memorial/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/john-craig-memorial/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/crescent-lake-challenge/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/crescent-lake-challenge/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/north-end-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/north-end-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/per-johnsen-ozbaldy/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/per-johnsen-ozbaldy/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/teacup-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/teacup-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://xcskilabs.com/race/manitoba-loppet/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xcskilabs.com/race/manitoba-loppet/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://xcskilabs.com/race/forbush-memorial-classic/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xcskilabs.com/race/forbush-memorial-classic/prep-kit/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

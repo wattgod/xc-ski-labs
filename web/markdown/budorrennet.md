@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/budorrennet/"
 
 # Budorrennet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/budorrennet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/budorrennet/*
 
 > Forty-one flat kilometers across Hedmarksvidda — the most accessible turrenn in Innlandet's long-distance cup.
 

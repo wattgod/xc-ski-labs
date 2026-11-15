@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/trans-vercors/"
 
 # Trans'Vercors
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/trans-vercors/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/trans-vercors/*
 
 > 53 kilometers and 1,140 meters of climbing across the Vercors Massif — one of France's oldest and most demanding XC ski marathons since 1968.
 

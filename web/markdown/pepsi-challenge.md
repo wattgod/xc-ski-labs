@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/pepsi-challenge/"
 
 # Pepsi Challenge
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pepsi-challenge/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pepsi-challenge/*
 
 > 50 kilometers on a World Cup venue in Minnesota's Iron Range — where the sport's fastest surfaces meet the Midwest's deepest competitive field.
 

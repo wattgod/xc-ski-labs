@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/granfondo-dobbiaco-cortina/"
 
 # Granfondo Dobbiaco-Cortina
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/granfondo-dobbiaco-cortina/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/granfondo-dobbiaco-cortina/*
 
 > Forty-two kilometers along the old railway through the heart of the Dolomites — Italian skiing at its most scenic and civilized.
 

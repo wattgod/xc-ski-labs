@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/marathon-des-glieres/"
 
 # Marathon des Glières
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-des-glieres/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marathon-des-glieres/*
 
 > 42 kilometers across the Plateau des Glières — skiing on sacred ground where French Resistance fighters held the mountains against occupation in 1944.
 

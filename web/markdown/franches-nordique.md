@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/franches-nordique/"
 
 # Franches Nordique
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/franches-nordique/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/franches-nordique/*
 
 > Freestyle skiing through the rolling Jura pastures of Franches-Montagnes — a Swiss Loppet race in the heart of the Jura plateau.
 

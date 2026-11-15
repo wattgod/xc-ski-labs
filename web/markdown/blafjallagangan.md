@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/blafjallagangan/"
 
 # Bláfjallagangan
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/blafjallagangan/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/blafjallagangan/*
 
 > Forty kilometers across Iceland's volcanic highlands — the only Euroloppet on a volcanic island, where lava fields meet snow fields just 35 minutes from Reykjavik.
 

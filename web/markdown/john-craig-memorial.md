@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/john-craig-memorial/"
 
 # John Craig Memorial
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/john-craig-memorial/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/john-craig-memorial/*
 
 > A memorial citizen ski race in the Pacific Northwest mountains — honoring a local skiing pioneer with high-altitude Nordic racing.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/craft-ski-marathon/"
 
 # Craft Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/craft-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/craft-ski-marathon/*
 
 > The Swedish season opener at Gronklitt — first tracks of winter on one of Dalarna's finest trail networks.
 

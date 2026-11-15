@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/bieg-podhalanski/"
 
 # Bieg Podhalański
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bieg-podhalanski/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bieg-podhalanski/*
 
 > Thirty kilometers through the Tatra Mountain foothills — where Poland's highland culture, Góral traditions, and reliable Carpathian snow create a distinct Polish ski marathon.
 

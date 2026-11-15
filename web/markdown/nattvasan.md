@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/nattvasan/"
 
 # Nattvasan
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/nattvasan/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/nattvasan/*
 
 > Ninety kilometers through the Swedish night — headlamps piercing the Dalarna darkness on the Vasaloppet course, where two-person teams race from dusk to dawn.
 

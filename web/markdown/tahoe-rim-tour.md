@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tahoe-rim-tour/"
 
 # Tahoe Rim Tour
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tahoe-rim-tour/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tahoe-rim-tour/*
 
 > Thirty kilometers along the Sierra Nevada rim with Lake Tahoe shimmering below — high-altitude skiing in California sunshine.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/wasatch-citizens-series/"
 
 # Wasatch Citizens Series
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/wasatch-citizens-series/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/wasatch-citizens-series/*
 
 > Twenty-five kilometers on Olympic-legacy trails — citizen racing on the 2002 Winter Games cross-country venue in Utah's Wasatch Range.
 

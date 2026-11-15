@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/carpathian-ski-marathon/"
 
 # Carpathian Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/carpathian-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/carpathian-ski-marathon/*
 
 > Forty-two kilometers through the Ukrainian Carpathians from Slavske — Eastern Europe's frontier Nordic marathon where Soviet-era trails meet wild mountain forest.
 

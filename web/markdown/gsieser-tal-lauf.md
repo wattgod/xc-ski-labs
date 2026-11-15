@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/gsieser-tal-lauf/"
 
 # Gsieser Tal Lauf
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/gsieser-tal-lauf/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/gsieser-tal-lauf/*
 
 > Forty-two kilometers through South Tyrol's snow-sure Gsies Valley — never cancelled since 1984, the Dolomites' most reliable date.
 

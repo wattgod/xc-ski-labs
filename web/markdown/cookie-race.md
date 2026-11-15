@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/cookie-race/"
 
 # Cookie Race
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/cookie-race/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/cookie-race/*
 
 > Thirty kilometers through the Rocky Mountain foothills of Kananaskis Country — Alberta's second-oldest Nordic event, where the aid stations serve homemade cookies.
 

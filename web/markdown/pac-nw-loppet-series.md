@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/pac-nw-loppet-series/"
 
 # Pacific Northwest Loppet Series
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pac-nw-loppet-series/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/pac-nw-loppet-series/*
 
 > Community loppet racing across Oregon's Cascades — a series of citizen races through Pacific Northwest old-growth forest and volcanic terrain.
 

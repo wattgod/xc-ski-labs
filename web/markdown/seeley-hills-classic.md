@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/seeley-hills-classic/"
 
 # Seeley Hills Classic
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/seeley-hills-classic/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/seeley-hills-classic/*
 
 > 42 kilometers of classic-only skiing on the legendary Birkie Trail — the Midwest's premier test of traditional technique through the Northwoods.
 

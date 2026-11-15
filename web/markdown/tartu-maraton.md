@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tartu-maraton/"
 
 # Tartu Maraton
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tartu-maraton/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tartu-maraton/*
 
 > Estonia's winter marathon — 63 kilometers across the frozen Baltic lowlands, where one of Europe's oldest ski races meets the flattest course in the Worldloppet.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/niseko-ski-marathon/"
 
 # Niseko Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/niseko-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/niseko-ski-marathon/*
 
 > Forty-two kilometers through Hokkaido's powder capital — where the world's deepest snowpack meets Japanese precision on trails beneath Mount Yōtei's volcanic cone.
 

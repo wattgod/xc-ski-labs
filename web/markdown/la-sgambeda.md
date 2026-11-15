@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/la-sgambeda/"
 
 # La Sgambeda
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/la-sgambeda/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/la-sgambeda/*
 
 > Thirty kilometers at 1,800 meters in the December thin air of Livigno — the season opener where the Ski Classics world shakes off the rust on Italy's highest-altitude racing stage.
 

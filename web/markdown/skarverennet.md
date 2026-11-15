@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/skarverennet/"
 
 # Skarverennet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/skarverennet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/skarverennet/*
 
 > Twelve thousand Norwegians skating across the Hardangervidda in April — Norway's biggest ski race on Europe's largest mountain plateau.
 

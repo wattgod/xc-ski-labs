@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/vuokatti-hiihto/"
 
 # Vuokatti Hiihto
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vuokatti-hiihto/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/vuokatti-hiihto/*
 
 > Fifty to seventy kilometers through Finnish Lapland's most reliable snowfields — Vuokatti's machine-made guarantee keeps this marathon running when others cancel.
 

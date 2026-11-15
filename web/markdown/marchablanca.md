@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/marchablanca/"
 
 # Marchablanca
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marchablanca/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/marchablanca/*
 
 > Twenty-one kilometers of cross-country skiing at the bottom of the world near Ushuaia — South America's most important XC ski race since 1986, on the trails of Tierra del Fuego.
 

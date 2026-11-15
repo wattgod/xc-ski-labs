@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/kangaroo-hoppet/"
 
 # Kangaroo Hoppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kangaroo-hoppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kangaroo-hoppet/*
 
 > Forty-two kilometers in the Australian Alps — the Southern Hemisphere's only Worldloppet race, where snow gums replace spruce and August means winter.
 

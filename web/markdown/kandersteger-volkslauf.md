@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/kandersteger-volkslauf/"
 
 # Kandersteger Volkslauf
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kandersteger-volkslauf/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/kandersteger-volkslauf/*
 
 > Twenty-seven kilometers of freestyle racing beneath the towering Bluemlisalp massif — Swiss Loppet skiing in one of the Bernese Oberland's most dramatic mountain settings.
 

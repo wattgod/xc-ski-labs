@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tamsalu-ski-marathon/"
 
 # Tamsalu Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tamsalu-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tamsalu-ski-marathon/*
 
 > Forty-two kilometers of classic technique through the forests of Lääne-Virumaa — an Estoloppet series staple where Estonian tradition and Baltic forest define a no-frills Nordic marathon.
 

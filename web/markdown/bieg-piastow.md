@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/bieg-piastow/"
 
 # Bieg Piastów
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bieg-piastow/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/bieg-piastow/*
 
 > Five thousand skiers in the Jizera Mountains — Poland's national ski marathon where Eastern European grit meets Worldloppet tradition.
 

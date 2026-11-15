@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/asarna-ski-marathon/"
 
 # Åsarna Ski Marathon
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/asarna-ski-marathon/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/asarna-ski-marathon/*
 
 > Ninety kilometers through the frozen heart of Jämtland — Sweden's great northern endurance test.
 

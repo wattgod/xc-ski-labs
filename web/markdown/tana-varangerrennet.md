@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/tana-varangerrennet/"
 
 # Tana–Varangerrennet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tana-varangerrennet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/tana-varangerrennet/*
 
 > Eighty kilometers across the Finnmark tundra from Seida to Vadsø — Norway's northeasternmost marathon where the Arctic plateau stretches to the horizon and the midnight sun is still months away.
 

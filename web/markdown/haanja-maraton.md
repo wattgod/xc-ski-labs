@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/haanja-maraton/"
 
 # Haanja Maraton
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/haanja-maraton/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/haanja-maraton/*
 
 > 42 kilometers of classic skiing through the rolling hills of southern Estonia — where the Baltic's highest point meets one of the country's oldest marathon traditions.
 

@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/hovdentour/"
 
 # HovdenTour
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/hovdentour/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/hovdentour/*
 
 > Mountain skiing in Setesdal — a 42-kilometer tour through Southern Norway's finest high-altitude trails.
 

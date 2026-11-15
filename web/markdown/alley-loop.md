@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/alley-loop/"
 
 # Alley Loop
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/alley-loop/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/alley-loop/*
 
 > Forty-two kilometers at 8,900 feet in costume through Crested Butte's backcountry — the highest, weirdest, most joyously unhinged ski marathon in America.
 

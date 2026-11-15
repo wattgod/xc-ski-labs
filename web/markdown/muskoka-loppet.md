@@ -14,7 +14,7 @@ url: "https://xcskilabs.com/race/muskoka-loppet/"
 
 # Muskoka Loppet
 
-> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 229 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/muskoka-loppet/*
+> *Source: [XC Ski Labs](https://xcskilabs.com/) — a cross-country ski race database covering 227 races, scored on 14 criteria. Canonical page: https://xcskilabs.com/race/muskoka-loppet/*
 
 > Thirty kilometers of classic skiing through the frozen forests of Arrowhead Provincial Park — Ontario's signature Nordic race in Canada's cottage country.
 
