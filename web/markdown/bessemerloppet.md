@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/bessemerloppet/"
 | Field Size | 800 |
 | Founded | 1960 |
 | Registration | Open registration |
+| Website | https://www.bessemerloppet.se/ |
 
 ## Course
 
@@ -119,4 +120,4 @@ Founded in 1960 at Högbo Bruk, a historic ironworks in Sandviken, Sweden. Named
 - Bessemerloppet 2019 (Jonathan Hedbys)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bessemerloppet". Canonical: https://xcskilabs.com/race/bessemerloppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bessemerloppet". Canonical: https://xcskilabs.com/race/bessemerloppet/. Generated 2026-11-15.*

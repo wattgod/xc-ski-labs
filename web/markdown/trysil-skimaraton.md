@@ -127,4 +127,4 @@ Trysil Skimaraton has been a citizen ski race since approximately the 1980s, set
 > It was a bit difficult conditions, it was nice and flat but once in the uphills the poles kind of went through the snow so a lot of energy went out on just trying to sort out my technique.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Trysil Skimaraton". Canonical: https://xcskilabs.com/race/trysil-skimaraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Trysil Skimaraton". Canonical: https://xcskilabs.com/race/trysil-skimaraton/. Generated 2026-11-15.*

@@ -474,6 +474,8 @@ class TestBrandCompliance:
 
     def test_no_images(self, coaching_html):
         body = coaching_html.split("<body>", 1)[1]
+        # The brand book's crossed-skis mark in the nav strap is the one allowed image.
+        body = re.sub(r'<img class="gl-brand-mark"[^>]*>', "", body)
         assert "<img" not in body.lower()
 
     def test_uses_editorial_and_data_fonts(self, coaching_css):

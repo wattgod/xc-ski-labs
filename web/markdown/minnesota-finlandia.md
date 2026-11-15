@@ -133,4 +133,4 @@ The Minnesota Finlandia was founded in 1982 to celebrate the deep Finnish herita
 > We had drifts like we're out in Yellowstone so we had to work the snow down to get it fast that's the way the skiers like it skiers like to go fast so it's a joy to work with this organization.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Minnesota Finlandia". Canonical: https://xcskilabs.com/race/minnesota-finlandia/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Minnesota Finlandia". Canonical: https://xcskilabs.com/race/minnesota-finlandia/. Generated 2026-11-15.*

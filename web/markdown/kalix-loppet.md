@@ -122,4 +122,4 @@ Kalix Loppet is a regional classic-technique ski marathon held in the town of Ka
 > The course starts out quite easy at the beginning, but after just 500 m it starts to go uphill with 1.1 km where we have the first time placement up on the slalom hill here in Kalix. It continues to be very tough, with both tough downhill runs and difficult hills - a really tough course, tougher than the World Cup course in Trondheim, just in terms of the number of vertical meters and climbs.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kalix Loppet". Canonical: https://xcskilabs.com/race/kalix-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kalix Loppet". Canonical: https://xcskilabs.com/race/kalix-loppet/. Generated 2026-11-15.*

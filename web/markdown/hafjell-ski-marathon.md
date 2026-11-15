@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/hafjell-ski-marathon/"
 | Field Size | 950 |
 | Founded | 1990 |
 | Registration | Online registration |
+| Website | https://hafjellskimarathon.no/ |
 
 ## Course
 
@@ -121,4 +122,4 @@ Founded around 1990, the Hafjell Ski Marathon is Norway's longest dedicated skat
 - Ski Marathon Europameisterschaften 2015 - Loipenbesichtigung (Euroloppet Your World of Ski Marathon)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Hafjell Ski Marathon". Canonical: https://xcskilabs.com/race/hafjell-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Hafjell Ski Marathon". Canonical: https://xcskilabs.com/race/hafjell-ski-marathon/. Generated 2026-11-15.*

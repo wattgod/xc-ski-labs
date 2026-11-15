@@ -122,4 +122,4 @@ Founded in 1974, Holmenkollmarsjen was created to give recreational skiers a mas
 - Vasaloppet 2022 - 100-års jubileum - målgången i Mora (DammRåttan)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Holmenkollmarsjen". Canonical: https://xcskilabs.com/race/holmenkollmarsjen/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Holmenkollmarsjen". Canonical: https://xcskilabs.com/race/holmenkollmarsjen/. Generated 2026-11-15.*

@@ -129,4 +129,4 @@ The Haanja Maraton is the second-oldest marathon ski race in Estonia and a key e
 > The thing that killed me is the sprints in every 10k tried to push really hard on the change to the lap so kind of ran out of energy in the last two laps but I think overall it was pretty good I could all the time push really hard.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Haanja Maraton". Canonical: https://xcskilabs.com/race/haanja-maraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Haanja Maraton". Canonical: https://xcskilabs.com/race/haanja-maraton/. Generated 2026-11-15.*

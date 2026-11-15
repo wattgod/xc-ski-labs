@@ -121,4 +121,4 @@ The Ski Trail Tannheimer Tal has been held since 1985 in one of Tirol's most bea
 - SKI-TRAIL Tannheimer Tal - Bad Hindelang 2010 - Sonntag Skating (skitrail)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski Trail Tannheimer Tal". Canonical: https://xcskilabs.com/race/ski-trail-tannheimer-tal/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ski Trail Tannheimer Tal". Canonical: https://xcskilabs.com/race/ski-trail-tannheimer-tal/. Generated 2026-11-15.*

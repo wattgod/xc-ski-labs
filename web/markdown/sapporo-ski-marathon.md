@@ -126,4 +126,4 @@ Founded in 1981, the Sapporo Ski Marathon capitalizes on the cross-country skiin
 > The tracks are in really good condition here at the finish line and there were people who speak English so no troubles picking my bib up, and there are stables and wax benches where you can fix your skis yourself.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sapporo Ski Marathon". Canonical: https://xcskilabs.com/race/sapporo-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sapporo Ski Marathon". Canonical: https://xcskilabs.com/race/sapporo-ski-marathon/. Generated 2026-11-15.*

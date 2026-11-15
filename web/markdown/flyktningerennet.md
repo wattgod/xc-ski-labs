@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/flyktningerennet/"
 | Field Size | 600 |
 | Founded | 1950 |
 | Registration | Open registration |
+| Website | https://flyktningerennet.no/ |
 
 ## Course
 
@@ -118,4 +119,4 @@ Founded in 1950 to commemorate the flight of Norwegian refugees across the mount
 - LIERNE: FLYKTNINGERENNET FELLESSTART DAMER MOSJON 31 MARS 2012 (Bengt Steinar Nordbakk)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Flyktningerennet". Canonical: https://xcskilabs.com/race/flyktningerennet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Flyktningerennet". Canonical: https://xcskilabs.com/race/flyktningerennet/. Generated 2026-11-15.*

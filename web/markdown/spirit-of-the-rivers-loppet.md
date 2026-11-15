@@ -103,4 +103,4 @@ The Spirit of the Rivers Loppet is a community Nordic event hosted by the Caledo
 - Community-focused loppet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Spirit of the Rivers Loppet". Canonical: https://xcskilabs.com/race/spirit-of-the-rivers-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Spirit of the Rivers Loppet". Canonical: https://xcskilabs.com/race/spirit-of-the-rivers-loppet/. Generated 2026-11-15.*

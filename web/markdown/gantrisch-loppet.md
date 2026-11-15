@@ -105,4 +105,4 @@ The Gantrisch Loppet is a Swiss Loppet series race in the Gantrisch Nature Park 
 - swiss_loppet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gantrisch Loppet". Canonical: https://xcskilabs.com/race/gantrisch-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gantrisch Loppet". Canonical: https://xcskilabs.com/race/gantrisch-loppet/. Generated 2026-11-15.*

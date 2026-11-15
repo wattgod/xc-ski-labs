@@ -102,4 +102,4 @@ Minocqua, known as the 'Island City' for its location amid northern Wisconsin's 
 - The race passes near several frozen lakes along the course
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Minocqua Northwoods Loppet". Canonical: https://xcskilabs.com/race/minocqua-northwoods-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Minocqua Northwoods Loppet". Canonical: https://xcskilabs.com/race/minocqua-northwoods-loppet/. Generated 2026-11-15.*

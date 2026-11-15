@@ -110,4 +110,4 @@ The Kandersteger Volkslauf is a Swiss Loppet series race set in the spectacular 
 - swiss_loppet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kandersteger Volkslauf". Canonical: https://xcskilabs.com/race/kandersteger-volkslauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kandersteger Volkslauf". Canonical: https://xcskilabs.com/race/kandersteger-volkslauf/. Generated 2026-11-15.*

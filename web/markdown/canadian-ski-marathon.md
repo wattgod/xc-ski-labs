@@ -132,4 +132,4 @@ The Canadian Ski Marathon was founded in 1967 — Canada's centennial year — m
 > Saturday 1:30 coming to the last checkpoint... a little after 4:30 Sunday morning... 150 just entering the last checkpoint.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Canadian Ski Marathon". Canonical: https://xcskilabs.com/race/canadian-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Canadian Ski Marathon". Canonical: https://xcskilabs.com/race/canadian-ski-marathon/. Generated 2026-11-15.*

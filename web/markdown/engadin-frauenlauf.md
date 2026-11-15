@@ -129,4 +129,4 @@ The Engadin Frauenlauf (Engadin Women's Race) was created in 2001 as a companion
 > What makes our valley stand out are the lakes and the topography of the course, which isn't too hard and enables cross-country skiers who aren't so well trained to race here. At the same time though, you're on the start line with Olympic and world champions.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engadin Frauenlauf". Canonical: https://xcskilabs.com/race/engadin-frauenlauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engadin Frauenlauf". Canonical: https://xcskilabs.com/race/engadin-frauenlauf/. Generated 2026-11-15.*

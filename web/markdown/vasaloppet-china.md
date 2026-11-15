@@ -127,4 +127,4 @@ Founded in 2003 as a collaboration between the Swedish Vasaloppet organization a
 > Changchun is located in the world's golden latitude zone for ice and snow. As the platinum card of Changchun's ice and snow, Vasaloppet China will offer participants a rich and diverse experience of ice and snow culture.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet China". Canonical: https://xcskilabs.com/race/vasaloppet-china/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vasaloppet China". Canonical: https://xcskilabs.com/race/vasaloppet-china/. Generated 2026-11-15.*

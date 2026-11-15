@@ -130,4 +130,4 @@ Founded in 1977, the Granfondo Dobbiaco-Cortina follows the route of the decommi
 > It was tough race from the beginning and then in the downhill we had several attacks and the group stayed together with four guys and luckily in the sprint in the end I was the fastest.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Granfondo Dobbiaco-Cortina". Canonical: https://xcskilabs.com/race/granfondo-dobbiaco-cortina/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Granfondo Dobbiaco-Cortina". Canonical: https://xcskilabs.com/race/granfondo-dobbiaco-cortina/. Generated 2026-11-15.*

@@ -108,4 +108,4 @@ Organized informally since the early 2000s by outdoor recreation staff at McMurd
 - Multi-national field — personnel from the US, New Zealand, Italy, and other Antarctic Treaty nations
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — McMurdo Ski Race". Canonical: https://xcskilabs.com/race/mcmurdo-ski-race/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — McMurdo Ski Race". Canonical: https://xcskilabs.com/race/mcmurdo-ski-race/. Generated 2026-11-15.*

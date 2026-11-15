@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/kungsledenrannet/"
 | Field Size | 300 |
 | Founded | 1985 |
 | Registration | Online registration; limited spots |
+| Website | https://www.kungsledenrannet.se/ |
 
 ## Course
 
@@ -115,4 +116,4 @@ Founded around 1985, Kungsledenrännet is an 80km wilderness classic race throug
 - Kungsledenrännet 2018, Team SikSki, Efter tärnasjön (Johannes S)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kungsledenrännet". Canonical: https://xcskilabs.com/race/kungsledenrannet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Kungsledenrännet". Canonical: https://xcskilabs.com/race/kungsledenrannet/. Generated 2026-11-15.*

@@ -134,4 +134,4 @@ The Gatineau Loppet was founded in 1979 and quickly became Canada's premier mara
 > The day's temperature started out somewhere around minus 8 with a bright sun and almost no wind we had great Glide and kick to start things off making our way along the course.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gatineau Loppet". Canonical: https://xcskilabs.com/race/gatineau-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gatineau Loppet". Canonical: https://xcskilabs.com/race/gatineau-loppet/. Generated 2026-11-15.*

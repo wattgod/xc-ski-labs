@@ -117,4 +117,4 @@ The Sakhalin Ski Marathon takes place on Russia's largest island in the Pacific.
 - XXI Сахалинский лыжный марафон Фархутдинова (Газпром трансгаз Томск)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sakhalin Ski Marathon". Canonical: https://xcskilabs.com/race/sakhalin-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sakhalin Ski Marathon". Canonical: https://xcskilabs.com/race/sakhalin-ski-marathon/. Generated 2026-11-15.*

@@ -125,4 +125,4 @@ Founded in 1973 in the Tyrolean skiing heartland of St. Johann in Tirol. The Koa
 - Koasalauf 2015 (guenter62able)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Koasalauf". Canonical: https://xcskilabs.com/race/koasalauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Koasalauf". Canonical: https://xcskilabs.com/race/koasalauf/. Generated 2026-11-15.*

@@ -107,4 +107,4 @@ The Grand Mesa 10km Classic is part of the Southwest Nordic Race Series, held on
 - southwest_nordic_race_series
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Grand Mesa 10km Classic". Canonical: https://xcskilabs.com/race/grand-mesa-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Grand Mesa 10km Classic". Canonical: https://xcskilabs.com/race/grand-mesa-classic/. Generated 2026-11-15.*

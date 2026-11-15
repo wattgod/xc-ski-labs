@@ -103,4 +103,4 @@ The Jämtland Ski Marathon is a 60km classic race through the interior forests o
 - Course passes through terrain frequented by moose, lynx, and wolverine
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jämtland Ski Marathon". Canonical: https://xcskilabs.com/race/jamtland-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jämtland Ski Marathon". Canonical: https://xcskilabs.com/race/jamtland-ski-marathon/. Generated 2026-11-15.*

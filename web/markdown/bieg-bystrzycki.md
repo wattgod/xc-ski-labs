@@ -106,4 +106,4 @@ Founded in 1992 shortly after the fall of communism in Poland, the Bieg Bystrzyc
 - The Kłodzko Valley is one of Poland's most scenic winter landscapes
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Bystrzycki". Canonical: https://xcskilabs.com/race/bieg-bystrzycki/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Bystrzycki". Canonical: https://xcskilabs.com/race/bieg-bystrzycki/. Generated 2026-11-15.*

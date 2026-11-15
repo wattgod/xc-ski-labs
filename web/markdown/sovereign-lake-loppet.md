@@ -106,4 +106,4 @@ The Sovereign Lake Loppet is held at the Sovereign Lake Nordic Centre near Verno
 - Located in the Okanagan — better known for wine country in summer
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sovereign Lake Loppet". Canonical: https://xcskilabs.com/race/sovereign-lake-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sovereign Lake Loppet". Canonical: https://xcskilabs.com/race/sovereign-lake-loppet/. Generated 2026-11-15.*

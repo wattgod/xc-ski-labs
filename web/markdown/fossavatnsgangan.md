@@ -133,4 +133,4 @@ Founded in 1935, Fossavatnsgangan is one of the oldest organized ski races in th
 > Today was weather-wise a medium day but the conditions and the atmosphere was great so it was a top top day
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Fossavatnsgangan". Canonical: https://xcskilabs.com/race/fossavatnsgangan/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Fossavatnsgangan". Canonical: https://xcskilabs.com/race/fossavatnsgangan/. Generated 2026-11-15.*

@@ -112,4 +112,4 @@ The Manitoba Loppet is a community Nordic ski event in Birds Hill Provincial Par
 - 2009 City of Lakes Loppet Saturday (CityofLakesLoppet)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Manitoba Loppet". Canonical: https://xcskilabs.com/race/manitoba-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Manitoba Loppet". Canonical: https://xcskilabs.com/race/manitoba-loppet/. Generated 2026-11-15.*

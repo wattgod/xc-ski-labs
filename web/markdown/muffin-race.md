@@ -102,4 +102,4 @@ A grassroots race organized by the Bridger Ski Foundation and held at Bohart Ran
 - The Bozeman area has a thriving Nordic skiing community
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Muffin Race". Canonical: https://xcskilabs.com/race/muffin-race/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Muffin Race". Canonical: https://xcskilabs.com/race/muffin-race/. Generated 2026-11-15.*

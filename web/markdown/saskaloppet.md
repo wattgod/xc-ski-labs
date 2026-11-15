@@ -123,4 +123,4 @@ Founded around 2002, the Saskaloppet brings marathon ski racing to northern Sask
 > One thing that's nice about skiing is you get the adrenaline of ripping down hills at 50 km an hour on twisty windy technical descents and then the runner's high or the endorphin high of working hard and getting in a good workout.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Saskaloppet". Canonical: https://xcskilabs.com/race/saskaloppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Saskaloppet". Canonical: https://xcskilabs.com/race/saskaloppet/. Generated 2026-11-15.*

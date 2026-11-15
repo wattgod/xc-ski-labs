@@ -131,4 +131,4 @@ Founded in 1973, the Gommerlauf has grown into one of Switzerland's premier citi
 > The rental of the skis, including all the accessories, was 45 francs per person, which includes the pole, the accessory that goes on your foot, you know, for gliding, and the boots, which are also personalized.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gommerlauf". Canonical: https://xcskilabs.com/race/gommerlauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Gommerlauf". Canonical: https://xcskilabs.com/race/gommerlauf/. Generated 2026-11-15.*

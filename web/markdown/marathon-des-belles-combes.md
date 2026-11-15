@@ -114,4 +114,4 @@ The Marathon des Belles Combes opens the Marathon Ski Tour season each December 
 - 2 PODIUMS EN 1 WEEK-END ?!? (Les Belles Combes 2023, Marathon Ski Tour) (Basile Bunoz)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon des Belles Combes". Canonical: https://xcskilabs.com/race/marathon-des-belles-combes/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon des Belles Combes". Canonical: https://xcskilabs.com/race/marathon-des-belles-combes/. Generated 2026-11-15.*

@@ -107,4 +107,4 @@ Founded around 1980, the Cookie Race is the second-oldest Nordic skiing event in
 - The race draws primarily from Calgary's active Nordic community
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Cookie Race". Canonical: https://xcskilabs.com/race/cookie-race/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Cookie Race". Canonical: https://xcskilabs.com/race/cookie-race/. Generated 2026-11-15.*

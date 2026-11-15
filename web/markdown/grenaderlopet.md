@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/grenaderlopet/"
 | Field Size | 1500 |
 | Founded | 1975 |
 | Registration | Online registration; early entry recommended |
+| Website | https://www.grenaderen.com/next/p/96737/hjem |
 
 ## Course
 
@@ -119,4 +120,4 @@ Founded in 1975, Grenaderløpet is one of Norway's longest single-day classic sk
 > Norway's longest and toughest ski race is taking place right in my backyard. The Grenader race is 90km and almost 2000 meter of elevation gain. It's a brutal race in the heart of Nordmarka and using grip wax or skin skis is usually a good option.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Grenaderløpet". Canonical: https://xcskilabs.com/race/grenaderlopet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Grenaderløpet". Canonical: https://xcskilabs.com/race/grenaderlopet/. Generated 2026-11-15.*

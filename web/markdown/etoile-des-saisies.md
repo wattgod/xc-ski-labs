@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/etoile-des-saisies/"
 | Discipline | skate |
 | Field Size | 600 |
 | Registration | Opens in fall via Marathon Ski Tour |
+| Website | https://www.lessaisies.com/evenements/etoile-des-saisies/ |
 
 ## Course
 
@@ -125,4 +126,4 @@ The Étoile des Saisies is based at Les Saisies, France's most prestigious Nordi
 - Etoile des Saisies 2013, championnat de France longues distances (Ms39)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Étoile des Saisies". Canonical: https://xcskilabs.com/race/etoile-des-saisies/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Étoile des Saisies". Canonical: https://xcskilabs.com/race/etoile-des-saisies/. Generated 2026-11-15.*

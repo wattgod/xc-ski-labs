@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/panorama-nordic-loppet/"
 | Field Size | 100 |
 | Founded | 2012 |
 | Registration | Opens in autumn; small field fills quickly |
+| Website | https://www.panoramaresort.com/explore/nipika-panorama-loppet |
 
 ## Course
 
@@ -102,4 +103,4 @@ A young event started around 2012 by the local Nordic club to promote cross-coun
 - One of the few organized Nordic races in the East Kootenay region
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Panorama Nordic Loppet". Canonical: https://xcskilabs.com/race/panorama-nordic-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Panorama Nordic Loppet". Canonical: https://xcskilabs.com/race/panorama-nordic-loppet/. Generated 2026-11-15.*

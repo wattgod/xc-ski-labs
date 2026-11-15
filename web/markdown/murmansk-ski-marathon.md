@@ -124,4 +124,4 @@ The Murmansk Ski Marathon is part of the Prazdnik Severa (Celebration of the Nor
 - Murmansk marathon 2018 (Михаил Иваненко)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Murmansk Ski Marathon (Prazdnik Severa)". Canonical: https://xcskilabs.com/race/murmansk-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Murmansk Ski Marathon (Prazdnik Severa)". Canonical: https://xcskilabs.com/race/murmansk-ski-marathon/. Generated 2026-11-15.*

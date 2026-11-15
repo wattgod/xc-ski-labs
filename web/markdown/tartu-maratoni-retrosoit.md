@@ -116,4 +116,4 @@ Launched in 2005 as a companion event to the main Tartu Marathon, the Retrosõit
 - 50. Tartu Maraton - Tartu Ski Marathon - 2km point - 2024 (EestiMaal)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tartu Maratoni Retrosõit". Canonical: https://xcskilabs.com/race/tartu-maratoni-retrosoit/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tartu Maratoni Retrosõit". Canonical: https://xcskilabs.com/race/tartu-maratoni-retrosoit/. Generated 2026-11-15.*

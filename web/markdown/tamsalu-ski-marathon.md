@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/tamsalu-ski-marathon/"
 | Discipline | classic |
 | Field Size | 300 |
 | Registration | Open registration via Estoloppet |
+| Website | https://www.worldloppet.com/tamsalu-neeruti-maraton/ |
 
 ## Course
 
@@ -124,4 +125,4 @@ The Tamsalu Ski Marathon is a classic-technique event in the Estoloppet series, 
 - Karl Mathias Tamsalu-Neeruti maratoni lastesõidul (Mailiis Kivi)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tamsalu Ski Marathon". Canonical: https://xcskilabs.com/race/tamsalu-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tamsalu Ski Marathon". Canonical: https://xcskilabs.com/race/tamsalu-ski-marathon/. Generated 2026-11-15.*

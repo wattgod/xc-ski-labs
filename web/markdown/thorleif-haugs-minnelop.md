@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/thorleif-haugs-minnelop/"
 | Field Size | 700 |
 | Founded | 1966 |
 | Registration | Open registration |
+| Website | https://www.hauern.no/next/p/27881/hauern---thorleif-haugs-minnelop |
 
 ## Course
 
@@ -117,4 +118,4 @@ Founded in 1966 to honor Thorleif Haug (1894–1934), who won three gold medals 
 - Hauern 2018 (a hansen (arhansen))
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Thorleif Haugs Minneløp". Canonical: https://xcskilabs.com/race/thorleif-haugs-minnelop/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Thorleif Haugs Minneløp". Canonical: https://xcskilabs.com/race/thorleif-haugs-minnelop/. Generated 2026-11-15.*

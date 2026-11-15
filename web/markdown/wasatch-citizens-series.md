@@ -125,4 +125,4 @@ The Wasatch Citizens Series takes advantage of the Olympic-legacy infrastructure
 > There you can see how the wax is playing out in the back.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Wasatch Citizens Series". Canonical: https://xcskilabs.com/race/wasatch-citizens-series/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Wasatch Citizens Series". Canonical: https://xcskilabs.com/race/wasatch-citizens-series/. Generated 2026-11-15.*

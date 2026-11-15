@@ -114,4 +114,4 @@ A relatively new event that takes advantage of the trail systems at both Great G
 - A Day at Great Glen Trails (Great Glen Trails)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Glen to Bretton Woods". Canonical: https://xcskilabs.com/race/great-glen-to-bretton-woods/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Glen to Bretton Woods". Canonical: https://xcskilabs.com/race/great-glen-to-bretton-woods/. Generated 2026-11-15.*

@@ -119,4 +119,4 @@ Rajalta Rajalle Hiihto (Border to Border Ski) is an extreme multi-day guided ski
 - Rajalta Rajalle 2014 (Tuukka Luukkonen)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Rajalta Rajalle Hiihto". Canonical: https://xcskilabs.com/race/rajalta-rajalle-hiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Rajalta Rajalle Hiihto". Canonical: https://xcskilabs.com/race/rajalta-rajalle-hiihto/. Generated 2026-11-15.*

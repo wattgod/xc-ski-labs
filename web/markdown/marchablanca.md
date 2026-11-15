@@ -124,4 +124,4 @@ The Marchablanca has been South America's most important cross-country ski race 
 - Ushuaia - Mes Internacional del Esquí de Fondo 2014 (Ushuaia Esqui de fondo)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marchablanca". Canonical: https://xcskilabs.com/race/marchablanca/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marchablanca". Canonical: https://xcskilabs.com/race/marchablanca/. Generated 2026-11-15.*

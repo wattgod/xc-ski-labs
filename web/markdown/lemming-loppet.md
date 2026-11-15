@@ -109,4 +109,4 @@ Founded in 2016, the Lemming Loppet is a newer Nordic ski marathon modeled after
 - Reino Keski-Salmi Loppet 2019 (Sarah Wallensteen-Lauze)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lemming Loppet". Canonical: https://xcskilabs.com/race/lemming-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lemming Loppet". Canonical: https://xcskilabs.com/race/lemming-loppet/. Generated 2026-11-15.*

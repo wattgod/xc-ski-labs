@@ -120,4 +120,4 @@ The Baikal Ski Marathon takes place near Listvyanka on the shores of Lake Baikal
 - МАРАФОН Лыжня Байкала 2021 | Marathon Ski Baikal 2021 (Алексей)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Baikal Ski Marathon". Canonical: https://xcskilabs.com/race/baikal-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Baikal Ski Marathon". Canonical: https://xcskilabs.com/race/baikal-ski-marathon/. Generated 2026-11-15.*

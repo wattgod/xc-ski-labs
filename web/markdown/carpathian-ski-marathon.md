@@ -105,4 +105,4 @@ Founded in 1975 during the Soviet era, when Slavske was developed as a winter sp
 - The race continued through Ukrainian independence and economic turbulence
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Carpathian Ski Marathon". Canonical: https://xcskilabs.com/race/carpathian-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Carpathian Ski Marathon". Canonical: https://xcskilabs.com/race/carpathian-ski-marathon/. Generated 2026-11-15.*

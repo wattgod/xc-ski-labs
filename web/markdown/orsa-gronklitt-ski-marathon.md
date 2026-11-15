@@ -123,4 +123,4 @@ The Orsa Gronklitt Ski Marathon takes place at one of Sweden's most respected No
 > It was a rough one really rough one I've been in the shower of like 1 hour trying to heal my broken body. I got a total time of 3 hours and 26 minutes and that gives me starting line 9 or 8 not sure yet in Walsall open so mission accomplished.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Orsa Gronklitt Ski Marathon". Canonical: https://xcskilabs.com/race/orsa-gronklitt-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Orsa Gronklitt Ski Marathon". Canonical: https://xcskilabs.com/race/orsa-gronklitt-ski-marathon/. Generated 2026-11-15.*
