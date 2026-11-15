@@ -1,0 +1,10 @@
+# XC Ski Labs (static site on SiteGround). Deployed by scripts/deploy.py --sync-errors.
+# http -> https is enforced by SiteGround itself, before this file.
+
+# One hostname: www.xcskilabs.com goes to xcskilabs.com with the same path.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.xcskilabs\.com$ [NC]
+RewriteRule ^ https://xcskilabs.com%{REQUEST_URI} [R=301,L]
+
+# Branded not-found page (wordpress/generate_404.py).
+ErrorDocument 404 /404.html
