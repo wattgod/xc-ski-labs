@@ -90,6 +90,11 @@ LOOP_CSS = """
 .xsl-loop-cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding-top: 4px;
   font-family: var(--gl-font-data); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
 .xsl-loop-name { font-weight: 700; color: var(--gl-ink); }
+.xsl-loop-toggle { position: absolute; right: 8px; bottom: 8px; width: 36px; height: 36px; display: flex; align-items: center;
+  justify-content: center; padding: 0; border: 2px solid var(--gl-ink); background: var(--gl-paper); color: var(--gl-ink);
+  font: 700 12px/1 var(--gl-font-data); letter-spacing: -.1em; cursor: pointer; opacity: .85; }
+.xsl-loop-toggle:hover, .xsl-loop-toggle:focus-visible { opacity: 1; background: var(--gl-ink); color: var(--gl-paper); }
+.xsl-loop-toggle:focus-visible { outline: 3px solid var(--gl-rust); outline-offset: 2px; }
 .xsl-loop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 28px 24px; }
 @media (prefers-reduced-motion: reduce) { .xsl-loop-frame::before { transform: translate(5px, 5px); } }
 """
@@ -101,15 +106,38 @@ LOOP_JS = """
   if (!figs.length) return;
   var mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
   if (mq && mq.matches) return;             // keep the poster frame; never download or play
-  if (mq && mq.addEventListener) {          // turned on mid-visit: stop every loop where it is
+  if (mq && mq.addEventListener) {          // turned on mid-visit: every loop goes back to its poster frame
     mq.addEventListener('change', function (e) {
-      if (e.matches) { figs.forEach(function (v) { v.pause(); v.removeAttribute('autoplay'); }); if (io) io.disconnect(); }
+      if (!e.matches) return;
+      if (io) io.disconnect();
+      figs.forEach(function (v) {
+        v.pause(); v.removeAttribute('autoplay');
+        if (v.getAttribute('src')) { v.removeAttribute('src'); v.load(); }
+        var b = v.parentNode.querySelector('.xsl-loop-toggle'); if (b) b.remove();
+      });
     });
   }
   var io = null;
+  // A pause button, added only once a loop really plays (never with reduced motion). A paused loop stays paused.
+  function toggle(v) {
+    if (v.parentNode.querySelector('.xsl-loop-toggle')) return;
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'xsl-loop-toggle';
+    function show() { var off = v.hasAttribute('data-paused');
+      b.setAttribute('aria-label', off ? 'Play animation' : 'Pause animation'); b.setAttribute('aria-pressed', off ? 'true' : 'false');
+      b.innerHTML = off ? '&#9654;' : '&#10073;&#10073;'; }
+    b.addEventListener('click', function () {
+      if (v.hasAttribute('data-paused')) { v.removeAttribute('data-paused'); var p = v.play(); if (p && p.catch) { p.catch(function () {}); } }
+      else { v.setAttribute('data-paused', ''); v.pause(); }
+      show();
+    });
+    show(); v.parentNode.appendChild(b);
+  }
   function start(v) {
+    if (v.hasAttribute('data-paused')) return;
     if (!v.getAttribute('src')) { v.setAttribute('src', v.getAttribute('data-src')); }
     var p = v.play(); if (p && p.catch) { p.catch(function () {}); }
+    toggle(v);
   }
   if (!('IntersectionObserver' in window)) { figs.forEach(start); return; }
   io = new IntersectionObserver(function (entries) {

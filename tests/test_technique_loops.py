@@ -71,6 +71,10 @@ def test_loop_script_respects_reduced_motion_and_guards_entries():
     assert "prefers-reduced-motion: reduce" in js
     assert js.index("if (mq && mq.matches) return;") < js.index("IntersectionObserver(")
     assert "addEventListener('change'" in js and "v.pause()" in js     # turned on mid-visit: loops stop
+    assert "v.removeAttribute('src'); v.load();" in js                 # ...and go back to the poster frame
+    # a pause control, added only when a loop plays (after the reduced-motion early return)
+    assert js.index("if (mq && mq.matches) return;") < js.index("function toggle(")
+    assert "'Pause animation'" in js and "aria-pressed" in js
     assert "!entries.length" in js                      # pitfall #33
     assert "requestAnimationFrame" in js
 
