@@ -38,3 +38,9 @@ def test_generators_emit_offer_without_replacing_purchased_product_links():
     for footer in [build_footer({}), plans_footer(), coaching_footer(), apply_footer()]:
         assert footer.count('class="endure-trial-offer"') == 1
         assert '/privacy/' in footer and '/terms/' in footer
+
+def test_static_search_page_carries_the_same_offer():
+    """The search page is static HTML uploaded as-is: keep its offer identical."""
+    search = (ROOT / "web/nordic-lab-search.html").read_text(encoding="utf-8")
+    assert offer.get_endure_offer_html().strip() in search
+    assert "7 days" not in offer.get_endure_offer_html()
