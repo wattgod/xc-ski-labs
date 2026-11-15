@@ -26,6 +26,15 @@ def test_tokens_css_is_built_from_the_book():
     assert build_brand_tokens.main(["--check"]) == 0
 
 
+def test_course_brand_layer_has_no_site_names():
+    """The /learn/ course vendors tokens/course-brand.css; its own blocks use
+    .gl-* classes, so no legacy name or site shim may ride along."""
+    css = build_brand_tokens.build_course_css()
+    assert ".gl-" not in css and "--gl-" not in css and "html body" not in css
+    assert ".xc-crate" in css and ".xc-list" in css and "--splash:" in css
+    assert build_brand_tokens.COURSE_OUT.read_text(encoding="utf-8") == css
+
+
 def test_every_book_colour_is_a_variable():
     css = (ROOT / "tokens" / "tokens.css").read_text(encoding="utf-8")
     tokens = build_brand_tokens.load_tokens()

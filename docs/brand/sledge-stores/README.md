@@ -184,7 +184,7 @@ A stitch sits *inside* a filled object. An empty slot is a dashed box *with noth
 
 ## 7. Components
 
-Each component has a card with rules and a live preview. On xcskilabs.com the colours, type, lockup, favicon, straps, hero panels and buttons are ported (2026-11-15); crates, tags and checklists are available as `xc-*` classes but no page uses them yet.
+Each component has a card with rules and a live preview. On xcskilabs.com the colours, type, lockup, favicon, straps, hero panels and buttons are ported (2026-11-15). The /course/ sales page (`wordpress/generate_course.py`) is built from the crates, tags and checklists, and the /learn/ course reads the same tokens and components from `tokens/course-brand.css`.
 
 | Component | Built here | Not specified yet |
 |---|---|---|
@@ -238,6 +238,7 @@ Each component has a card with rules and a live preview. On xcskilabs.com the co
 - **Photography** is real and permissioned only: Matti's own footage and photos, or licensed photos with written permission. Natural colour, no filters, no duotones, no sepia "expedition" ageing.
 - **Empty slots** are 2px dashed ink boxes with an uppercase label naming the photo that belongs there.
 - **Illustration** is limited to the objects in §4. There are no drawn skiers, maps, compasses or polar scenes. The mood comes from the objects, not from pictures of the era.
+  - **Exception, inside the course only (Matti, 2026-11-15):** the XC Ski Labs character, drawn from Matti's own filmed motion, stays in the /learn/ lessons: lesson heroes, technique strips and annotated figures. It does not appear on the sales page, race pages, emails or any other surface.
 - **Open Graph images** (1200×630) follow the course mockup:
   - a wool ground with the weave
   - the stencil title
@@ -377,3 +378,4 @@ Kept:
 - 2026-11-14: small mark approved for favicons and app icons (Matti).
 - 2026-11-14: name kept as XC Ski Labs; book locked (Matti).
 - 2026-11-14: leather rule, eyelets, tag tilt and stitches kept (Matti).
+- 2026-11-15: the character stays inside the course; §9 exception added (Matti).

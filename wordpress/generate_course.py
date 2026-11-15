@@ -32,7 +32,10 @@ if str(PROJECT_ROOT) not in sys.path:
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
+import shutil  # noqa: E402
+
 from generate_about import build_cookie_consent, build_css, build_ga4_snippet  # noqa: E402
+from scripts.brand_head import BRAND_FONT_LINKS  # noqa: E402
 
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 PRODUCTION_API = "https://athlete-custom-training-plan-pipeline-production.up.railway.app"
@@ -82,50 +85,61 @@ def build_nav() -> str:
 """
 
 
+# Sledge Stores (docs/brand/sledge-stores): the crates, tags and checklist
+# come from tokens/tokens.css (bundle.css). Only the hero photo and the
+# checkout error line need page rules, and both read book tokens.
 PAGE_CSS = """
-.gl-course-buy { margin: 28px 0 8px; display: grid; gap: 14px; }
-.gl-course-email { display: grid; gap: 6px; max-width: 420px; }
-.gl-course-products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
-.gl-course-product { border: 2px solid var(--gl-carbon); background: var(--gl-white); color: var(--gl-carbon); padding: 16px; display: grid; gap: 8px; align-content: start; }
-.gl-course-product h3 { margin: 0; font-family: var(--gl-font-display); color: var(--gl-carbon); }
-.gl-course-product .gl-course-stats { color: var(--gl-slate); }
-.gl-course-product p { margin: 0; }
-.gl-course-price { font-family: var(--gl-font-data); font-weight: 700; font-size: 1.25rem; }
-.gl-course-buy label { font-family: var(--gl-font-data); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: inherit; }
-.gl-course-buy input { font: inherit; padding: 10px 12px; border: 2px solid var(--gl-carbon); background: var(--gl-white); color: var(--gl-carbon); }
-.gl-course-buy button { font-family: var(--gl-font-data); font-weight: 700; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.06em; padding: 14px 18px; border: var(--stroke-button) solid var(--action); background: var(--gl-swix-red); color: var(--gl-white); cursor: pointer; }
-.gl-course-buy button:hover { background: var(--ground); color: var(--ink); border-color: var(--ink); }
-.gl-course-buy button[disabled] { opacity: 0.6; cursor: wait; }
-.gl-course-msg { font-family: var(--gl-font-data); font-size: 0.8125rem; color: var(--gl-red-deep); min-height: 1.2em; }
-.gl-course-fine { font-family: var(--gl-font-data); font-size: 0.75rem; color: var(--gl-slate); }
-.gl-course-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 16px 0 0; }
-.gl-course-list h3 { font-family: var(--gl-font-data); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 6px; color: var(--gl-slate); }
-.gl-course-list ol { margin: 0; padding-left: 1.2em; }
-.gl-course-list li { margin: 2px 0; }
-.gl-course-stats { font-family: var(--gl-font-data); font-size: 0.8125rem; color: var(--gl-slate); }
+.xc-course { font: 400 17px/1.6 var(--font-body); color: var(--ink); }
+.xc-course .xc-band > .xc-wrap > p { max-width: 58ch; }
+.xc-hero__photo { margin: 0; align-self: center; border: var(--stroke-stitch) solid var(--ink); }
+.xc-hero__photo img { display: block; width: 100%; height: auto; }
+.xc-buy-msg { margin: 18px 0 0; font-weight: 600; color: var(--danger); }
+.xc-buy-msg:empty { display: none; }
+.xc-buy-msg::before { content: "\\26A0\\FE0E  "; }
+/* build_css() ends with a universal radius/shadow reset (!important) for the
+   old templates. The book's button underline and round tag eyelets are
+   allowed decoration (README §5, Button, LuggageTag, ShippingTag): restore them. */
+html body .xc-course .xc-btn { box-shadow: inset 0 calc(-1 * var(--stroke-underline)) 0 var(--splash) !important; }
+html body .xc-course .xc-crate--splash .xc-btn { box-shadow: none !important; }
+html body .xc-course .xc-tag::before { border-radius: 50% !important; box-shadow: inset 0 0 0 2px var(--on-tag) !important; }
+html body .xc-course .xc-ship::before { border-radius: 50% !important; box-shadow: inset 0 0 0 3px var(--on-tag) !important; }
 """
+
+HERO_PHOTO = "diagonal-stride.jpg"  # a frame of Matti's own diagonal stride clip
+HERO_PHOTO_SRC = Path.home() / "glide-labs-platform" / "output" / "learn" / "static" / "img" / "diagonal-stride-hero.jpg"
+HERO_PHOTO_FILE = SCRIPT_DIR / "course_media" / HERO_PHOTO
 
 
 def build_lessons() -> str:
-    cols = [("Every buyer gets", BASICS)] + [(p["name"] + " module", p["lessons"]) for p in PRODUCTS if p["lessons"]]
+    cols = [("Every buyer gets", BASICS, "")] + [
+        (p["name"] + " module", p["lessons"], " xc-list--module") for p in PRODUCTS if p["lessons"]]
     out = []
-    for title, lessons in cols:
+    for title, lessons, mod in cols:
         items = "".join(f"<li>{esc(name)}</li>" for name in lessons)
-        out.append(f'<div><h3>{esc(title)}</h3><ol>{items}</ol></div>')
-    return '<div class="gl-course-list">' + "".join(out) + "</div>"
+        out.append(f'<div class="xc-list{mod}"><h3>{esc(title)}</h3><ul>{items}</ul></div>')
+    return '<div class="xc-lists">' + "".join(out) + "</div>"
+
+
+def stat_line(p: dict) -> str:
+    if p["lessons"]:
+        return f'{len(p["lessons"])} lessons, {p["clips"]} clips, plus the basics.'
+    return f"{LESSON_COUNT} lessons, {VIDEO_COUNT} clips, plus every new module."
 
 
 def build_products() -> str:
-    cards = []
-    for p in PRODUCTS:
-        detail = (f'<p class="gl-course-stats">{len(p["lessons"])} lessons, {p["clips"]} clips, plus the basics</p>'
-                  if p["lessons"] else '<p class="gl-course-stats">Everything on this page, plus what comes next</p>')
-        cards.append(
-            f'<div class="gl-course-product" id="{esc(p["id"])}"><h3>{esc(p["name"])}</h3>'
-            f'<p class="gl-course-price">${p["price"]}</p><p>{esc(p["dek"])}</p>{detail}'
-            f'<button type="submit" name="product" value="{esc(p["id"])}" data-price="{p["price"]}" '
-            f'data-name="{esc(COURSE_NAME + ": " + p["name"])}">{esc(p["button"])}, ${p["price"]}</button></div>')
-    return '<div class="gl-course-products">' + "".join(cards) + "</div>"
+    """The bundle is the one splash crate (Recommended) and comes first in the source."""
+    ordered = sorted(PRODUCTS, key=lambda p: p["lessons"] != ())
+    crates = []
+    for p in ordered:
+        splash = not p["lessons"]
+        crates.append(
+            f'<li class="xc-crate{" xc-crate--splash" if splash else ""}" id="{esc(p["id"])}">'
+            + ('<span class="xc-ribbon">Recommended</span>' if splash else "")
+            + f'<div class="xc-crate__in"><h3>{esc(p["name"])}</h3><p class="xc-price">${p["price"]}</p>'
+            f'<p class="xc-crate__d">{esc(p["dek"])}</p><span class="xc-tag">{esc(stat_line(p))}</span>'
+            f'<button class="xc-btn" type="submit" name="product" value="{esc(p["id"])}" data-price="{p["price"]}" '
+            f'data-name="{esc(COURSE_NAME + ": " + p["name"])}">{esc(p["button"])}, ${p["price"]}</button></div></li>')
+    return '<ul class="xc-crates">' + "".join(crates) + "</ul>"
 
 
 def generate_html(api_base: str = PRODUCTION_API) -> str:
@@ -144,54 +158,58 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
   <meta name="description" content="{esc(description)}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://xcskilabs.com/course/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  {BRAND_FONT_LINKS}
   {build_ga4_snippet()}
   <style>{build_css()}{PAGE_CSS}</style>
 </head>
 <body>
 <a href="#main" class="gl-skip-link">Skip to content</a>
 {build_nav()}
-<main class="gl-page" id="main">
-  <section class="gl-hero">
-    <p class="gl-kicker">COURSE</p>
-    <h1>{esc(COURSE_NAME)}</h1>
-    <p class="gl-hero-sub">Cross-country ski lessons for adult skiers, with {VIDEO_COUNT} filmed demos and drills. Buy the module you need or every module. The basics lessons come with any purchase.</p>
-    <form class="gl-course-buy" id="course-buy" novalidate>
-      <div class="gl-course-email"><label for="course-email">Email (optional, Stripe asks if you skip it)</label>
-      <input id="course-email" name="email" type="email" autocomplete="email"></div>
+<main class="xc-course" id="main">
+  <section class="xc-hero"><div class="xc-hero__in">
+    <div><p class="xc-kicker">COURSE</p>
+      <h1 class="xc-title">XC Ski Labs <span>Course</span></h1>
+      <p class="xc-lede">Cross-country ski lessons for adult skiers, with {VIDEO_COUNT} filmed demos and drills. Buy the module you need or every module. The basics lessons come with any purchase.</p></div>
+    <figure class="xc-hero__photo"><img src="{HERO_PHOTO}" alt="Me skiing diagonal stride in the classic tracks" width="1600" height="899" fetchpriority="high"></figure>
+  </div></section>
+
+  <section class="xc-band" aria-labelledby="buy-head"><div class="xc-wrap">
+    <div class="xc-head"><h2 id="buy-head">Modules</h2></div>
+    <form id="course-buy" novalidate>
       {build_products()}
-      <div class="gl-course-msg" role="alert" aria-live="polite"></div>
-      <p class="gl-course-fine">One payment each. Full refund within {REFUND_DAYS} days if it isn&rsquo;t for you. Sold by {esc(LEGAL_ENTITY)}; see the <a href="/terms/">terms</a>.</p>
+      <p class="xc-buy-msg" role="alert" aria-live="polite"></p>
     </form>
-  </section>
+    <p class="xc-fine">One payment each. Full refund within {REFUND_DAYS} days if it isn&rsquo;t for you. Sold by {esc(LEGAL_ENTITY)}; see the <a class="xc-link" href="/terms/">terms</a>.</p>
+  </div></section>
 
-  <section class="gl-section">
-    <h2 class="gl-section-title">How the lessons work</h2>
+  <section class="xc-band xc-band--panel" aria-labelledby="how-head"><div class="xc-wrap">
+    <div class="xc-head"><h2 id="how-head">How the lessons work</h2></div>
     <p>I spent years in tight lycra racing cross-country before I ever raced a bike, and roller skied endless miles trying to get fast. Every technique lesson covers body position and timing, with filmed demos, drills you can take onto the snow, and a short quiz at the end.</p>
-    <p>Learning a new technique as an adult is humbling. You go from embarrassing to bad, bad to OK, and OK to good, and the drills are how you get through those steps faster.</p>
-  </section>
+    <p class="xc-pull">Learning a new technique as an adult is humbling.</p>
+    <p>You go from embarrassing to bad, bad to OK, and OK to good, and the drills are how you get through those steps faster.</p>
+  </div></section>
 
-  <section class="gl-section">
-    <h2 class="gl-section-title">The {LESSON_COUNT} lessons</h2>
+  <section class="xc-band" aria-labelledby="lessons-head"><div class="xc-wrap">
+    <div class="xc-head"><h2 id="lessons-head">The {LESSON_COUNT} lessons</h2></div>
     {build_lessons()}
-    <p class="gl-course-stats">A short quiz follows twelve of the lessons.</p>
-  </section>
+    <p class="xc-note">A short quiz follows twelve of the lessons.</p>
+  </div></section>
 
-  <section class="gl-section">
-    <h2 class="gl-section-title">After you pay</h2>
-    <p>Stripe sends you straight into the course, and I email you a link that opens it on your phone or any other device. If you lose the link, the course page has a box that sends a new one to the email you paid with.</p>
-    <p>If you bought one module and want the rest, open a lesson you don&rsquo;t have yet, and you can get every module for ${BUNDLE_PRICE_USD} minus what you already paid.</p>
-    <p>If it isn&rsquo;t for you, email <a href="mailto:{contact}">{contact}</a> within {REFUND_DAYS} days of buying and I&rsquo;ll refund that purchase in full. Access to what you bought ends after a refund.</p>
-  </section>
+  <section class="xc-band xc-band--panel" aria-labelledby="after-head"><div class="xc-wrap">
+    <div class="xc-head"><h2 id="after-head">After you pay</h2></div>
+    <ul class="xc-tags">
+      <li class="xc-ship"><p>Stripe sends you straight into the course, and I email you a link that opens it on your phone or any other device. If you lose the link, the course page has a box that sends a new one to the email you paid with.</p></li>
+      <li class="xc-ship"><p>If you bought one module and want the rest, open a lesson you don&rsquo;t have yet, and you can get every module for ${BUNDLE_PRICE_USD} minus what you already paid.</p></li>
+      <li class="xc-ship"><p>If it isn&rsquo;t for you, email <a class="xc-link" href="mailto:{contact}">{contact}</a> within {REFUND_DAYS} days of buying and I&rsquo;ll refund that purchase in full. Access to what you bought ends after a refund.</p></li>
+    </ul>
+  </div></section>
 
   <footer class="gl-footer">XC Ski Labs &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></footer>
 </main>
 <script>
 (function(){{
   var form=document.getElementById('course-buy');
-  var msg=form.querySelector('.gl-course-msg');
+  var msg=form.querySelector('.xc-buy-msg');
   var btns=form.querySelectorAll('button[name=product]');
   form.addEventListener('submit',function(e){{
     e.preventDefault();
@@ -199,9 +217,8 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
     if(!btn){{msg.textContent='Pick a module or every module.';return;}}
     msg.textContent='';
     btns.forEach(function(b){{b.disabled=true;}});
-    var email=(form.email.value||'').trim();
     fetch('{endpoint}',{{method:'POST',headers:{{'Content-Type':'application/json'}},
-      body:JSON.stringify({{course_id:btn.value,email:email}})}})
+      body:JSON.stringify({{course_id:btn.value}})}})
       .then(function(r){{return r.json().then(function(d){{return {{ok:r.ok,d:d}};}});}})
       .then(function(res){{
         if(res.ok&&res.d.checkout_url){{
@@ -224,6 +241,9 @@ def generate_page(output_dir: Path = DEFAULT_OUTPUT_DIR, api_base: str = PRODUCT
     output_path = output_dir / "course" / "index.html"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(generate_html(api_base), encoding="utf-8")
+    if not HERO_PHOTO_FILE.exists():
+        raise SystemExit(f"{HERO_PHOTO_FILE} is missing; the hero has no photo. Copy it from {HERO_PHOTO_SRC}.")
+    shutil.copyfile(HERO_PHOTO_FILE, output_path.parent / HERO_PHOTO)
     print(f"Generated {output_path}")
     return output_path
 
