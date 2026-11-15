@@ -20,7 +20,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from xsl_loops import BAND_CSS, LOOP_CSS, LOOP_JS, copy_media, loops_band  # noqa: E402
+from xsl_loops import BAND_CSS, LOOP_CSS, LOOP_JS, copy_media, loop_figure, loops_band  # noqa: E402
 from tiers import TIER_NAMES  # noqa: E402
 from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
 
@@ -263,6 +263,8 @@ def generate_homepage(races: list[dict]) -> str:
         ["diagonal", "kickdp", "doublepole"],
         "/guide/technique-and-execution/", "Read the technique chapter", band_id="motion")
     loop_css = BAND_CSS + LOOP_CSS
+    # Hero: Gravel God skating V2 straight at you, front-on (rig/print_skate.py). No caption under it.
+    hero_loop = loop_figure("v2_front", "portrait", caption=False, extra_class="hero-loop")
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -325,6 +327,17 @@ a:hover {{ text-decoration: underline; }}
   max-width: var(--gl-measure);
   margin: 0 auto;
   position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 44px;
+}}
+.hero-copy {{ min-width: 0; }}
+/* The skate loop: under the buttons on a phone, kept narrow so it never crowds the title */
+.hero-loop {{ width: min(100%, 340px); justify-self: center; }}
+@media (min-width: 900px) {{
+  /* Title and buttons on the left, the loop on the right */
+  .hero-inner {{ grid-template-columns: minmax(0, 1fr) minmax(260px, 400px); align-items: center; gap: clamp(32px, 4vw, 64px); }}
+  .hero-loop {{ width: 100%; }}
 }}
 
 .hero h1 {{
@@ -336,6 +349,8 @@ a:hover {{ text-decoration: underline; }}
 }}
 /* One line per promise: find, train, race. */
 .hero h1 span {{ display: block; }}
+/* Beside the loop the title gets about two thirds of the row */
+@media (min-width: 900px) {{ .hero h1 {{ font-size: clamp(40px, 6.4vw, 104px); }} }}
 
 .hero-sub {{
   display: inline-block;
@@ -908,11 +923,14 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Hero ── -->
 <section class="hero">
   <div class="hero-inner">
-    <p class="hero-sub">XC ski races, training and technique</p>
-    <h1><span>Find your race.</span> <span>Train right.</span> <span>Race fast.</span></h1>
-    <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria, a plan built around the one you pick, and the technique to ski it fast.</p>
-    <a href="/search/" class="hero-cta">Search the races</a>
-    <a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>
+    <div class="hero-copy">
+      <p class="hero-sub">XC ski races, training and technique</p>
+      <h1><span>Find your race.</span> <span>Train right.</span> <span>Race fast.</span></h1>
+      <p class="hero-desc">{race_count} races scored on {CRITERIA_COUNT} criteria, a plan built around the one you pick, and the technique to ski it fast.</p>
+      <a href="/search/" class="hero-cta">Search the races</a>
+      <a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>
+    </div>
+    {hero_loop}
   </div>
 </section>
 

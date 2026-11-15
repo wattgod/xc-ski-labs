@@ -1,7 +1,8 @@
-"""Technique loops: Gravel God skiing each classic technique, printed like a 1970s Nordic race poster.
+"""Technique loops: Gravel God skiing each technique, printed like a 1970s Nordic race poster.
 
 The motion is motion-captured from Matti's own XC Ski Labs course videos and rendered by
-wattgod/gravel-god-character (`rig/print_loops.py`). The files live in web/media/loops/ and deploy to
+wattgod/gravel-god-character: classic side-on by `rig/print_loops.py` (wide + square), V2 skate front-on by
+`rig/print_skate.py` (portrait, for the homepage hero). The files live in web/media/loops/ and deploy to
 /media/loops/ (scripts/deploy.py --sync-media). Each loop is a whole number of technique cycles, so it repeats
 seamlessly.
 
@@ -18,7 +19,7 @@ from pathlib import Path
 
 MEDIA_URL = "/media/loops"
 MEDIA_DIR = Path(__file__).resolve().parent.parent / "web" / "media" / "loops"
-SIZES = {"wide": (1280, 720), "square": (900, 900)}
+SIZES = {"wide": (1280, 720), "square": (900, 900), "portrait": (960, 1200)}
 
 # technique -> (name, gear / role, cycle seconds). Names and gear labels match the guide's "Classic gears".
 LOOPS = {
@@ -30,9 +31,18 @@ LOOPS = {
     "nopoles": ("No-poles drill", "Diagonal stride drill", 1.12),
     "singlestick": ("Single-stick drill", "Diagonal stride drill", 1.22),
     "frozendp": ("Frozen double-pole drill", "Double-pole drill", 1.09),
+    "v2_front": ("V2 skate", "Skating gear", 1.83),
 }
 
-# race discipline -> the loop that fits it (skate has no captured technique yet)
+# technique -> the shapes it is rendered in (every other technique: wide and square)
+LOOP_SHAPES = {"v2_front": ("portrait",)}
+
+
+def shapes(tech: str) -> tuple[str, ...]:
+    return LOOP_SHAPES.get(tech, ("wide", "square"))
+
+# race discipline -> the loop that fits it. Skate races get none: the one skate loop is a portrait made for the
+# homepage hero, and race pages show square loops.
 DISCIPLINE_LOOP = {"classic": "diagonal", "both": "kickdp"}
 
 
@@ -55,6 +65,8 @@ def media_files(tech: str, shape: str) -> tuple[Path, Path]:
 def loop_figure(tech: str, shape: str = "wide", caption: bool = True, extra_class: str = "") -> str:
     """One technique loop. The video is decorative (aria-hidden); the caption carries the technique name."""
     name = LOOPS[tech][0]
+    if shape not in shapes(tech):
+        raise ValueError(f"{tech} is not rendered as {shape}; it exists as {', '.join(shapes(tech))}")
     w, h = SIZES[shape]
     stem = f"{MEDIA_URL}/{tech}_{shape}"
     cap = (f'<figcaption class="xsl-loop-cap"><span class="xsl-loop-name">{html.escape(name)}</span></figcaption>'
@@ -74,6 +86,7 @@ LOOP_CSS = """
 .xsl-loop-video { display: block; width: 100%; height: auto; background: var(--gl-paper); }
 .xsl-loop--wide .xsl-loop-video { aspect-ratio: 16 / 9; }
 .xsl-loop--square .xsl-loop-video { aspect-ratio: 1 / 1; }
+.xsl-loop--portrait .xsl-loop-video { aspect-ratio: 4 / 5; }
 .xsl-loop-cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding-top: 4px;
   font-family: var(--gl-font-data); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
 .xsl-loop-name { font-weight: 700; color: var(--gl-ink); }
