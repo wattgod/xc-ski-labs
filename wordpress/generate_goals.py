@@ -41,6 +41,10 @@ import html
 import json
 from pathlib import Path
 from typing import Any
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import plan_offer  # noqa: E402  (wordpress/plan_offer.py: the plan's price)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -261,12 +265,11 @@ OFFER = {
         {"key": "C", "h": "That&#39;s step one. Step two is the part everyone skips.",
          "p": f"A ski plan for the {NEXT_SEASON} season, built from what you just told me."},
     ],
-    # One real plan, one real destination: XC Ski Labs has no live checkout
-    # (verified against data/stripe-products.json and the current
-    # /training-plans/ page — every CTA there routes to this same intake
-    # form). No second "season plan" button: that page does not exist here.
+    # One real plan, one real destination: the custom ski plan billed every
+    # 4 weeks (wordpress/plan_offer.py), sold through the /questionnaire/
+    # checkout. No second "season plan" button: that page does not exist here.
     "plans": [
-        {"key": "race", "price": "Ski Plan: $60–$249, priced by the week from your race date",
+        {"key": "race", "price": f"Ski Plan: {plan_offer.PRICE_TO_RACE}",
          "cta": f"Build my {NEXT_SEASON} plan", "cta_href": "/questionnaire/?src=goals"},
     ],
     "decline": "Just the poster, thanks",

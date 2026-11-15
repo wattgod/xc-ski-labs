@@ -14,7 +14,7 @@ or "per month"; adding a next race is not built for ski plans, so never offer
 it.
 
 ``stale_offer_phrases`` is the guard: tests fail a page that shows the
-retired one-off offer ($15 a week, $249 cap, "no subscription") next to
+retired one-off offer ($15 a week, $60-$249, "no subscription") next to
 this plan.
 """
 from __future__ import annotations
@@ -131,6 +131,7 @@ FINE_PRINT = (
 
 STALE_OFFER_PATTERNS: dict[str, re.Pattern] = {
     "$249": re.compile(r"\$249\b"),
+    "$60": re.compile(r"\$60\b"),
     "$15 a week": re.compile(r"\$15\s*(?:/\s*(?:wk|week)\b|a week|per week)", re.I),
     "One-time payment": re.compile(r"\bone[- ]time payment", re.I),
     "One plan, one price": re.compile(r"\bone plan, one price\b", re.I),
