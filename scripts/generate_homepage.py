@@ -26,6 +26,23 @@ from tiers import TIER_NAMES  # noqa: E402
 from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
 
 XL_GA4_HEAD = get_ga4_head()
+
+# Who runs the site, for search engines and assistants (sweep XC-07 / ALL-10).
+# Only facts on the site itself: the seller named in /terms/ and the contact
+# address published there. No sameAs: XC Ski Labs has no social accounts yet.
+# No logo: Google needs a raster image, and the brand port will supply one.
+ORGANIZATION_JSONLD = {
+    "@type": "Organization",
+    "@id": "https://xcskilabs.com/#organization",
+    "name": "XC Ski Labs",
+    "url": "https://xcskilabs.com/",
+    "email": "gravelgodcoaching@gmail.com",
+    "parentOrganization": {
+        "@type": "Organization",
+        "name": "Gravel God Cycling LLC",
+        "url": "https://gravelgodcycling.com/",
+    },
+}
 XL_CONSENT_BANNER = get_consent_banner_html()
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "wordpress"))
 import plan_offer  # noqa: E402  (wordpress/plan_offer.py: the custom plan's price)
@@ -310,18 +327,25 @@ def generate_homepage(races: list[dict]) -> str:
     # ── JSON-LD ──
     jsonld_obj = {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "XC Ski Labs",
-        "url": "https://xcskilabs.com/",
-        "description": (
-            f"The world's most comprehensive cross-country ski race database. "
-            f"{race_count}+ races across {country_count} countries."
-        ),
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://xcskilabs.com/search/?q={search_term_string}",
-            "query-input": "required name=search_term_string",
-        },
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://xcskilabs.com/#website",
+                "name": "XC Ski Labs",
+                "url": "https://xcskilabs.com/",
+                "description": (
+                    f"The world's most comprehensive cross-country ski race database. "
+                    f"{race_count}+ races across {country_count} countries."
+                ),
+                "publisher": {"@id": ORGANIZATION_JSONLD["@id"]},
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://xcskilabs.com/search/?q={search_term_string}",
+                    "query-input": "required name=search_term_string",
+                },
+            },
+            ORGANIZATION_JSONLD,
+        ],
     }
     jsonld_block = (
         '<script type="application/ld+json">\n'
