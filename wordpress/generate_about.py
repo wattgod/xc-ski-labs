@@ -21,6 +21,10 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.generate_race_pages import build_nav_header as build_canonical_nav_header
+from scripts.consent import get_consent_banner_html, get_ga4_head  # noqa: E402
+
+XL_GA4_HEAD = get_ga4_head()
+XL_CONSENT_BANNER = get_consent_banner_html()
 
 
 def esc(text: Any) -> str:
@@ -285,58 +289,6 @@ a:focus-visible, button:focus-visible {
 }
 
 /* Cookie Consent */
-.gl-cookie-consent {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: var(--gl-carbon);
-  border-top: 3px solid var(--gl-swix-red);
-  padding: 20px;
-  display: none;
-}
-.gl-cookie-consent.visible { display: block; }
-.gl-cookie-inner {
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.gl-cookie-text {
-  font-family: var(--gl-font-editorial);
-  font-size: 0.85rem;
-  color: var(--gl-white);
-  flex: 1;
-  min-width: 200px;
-}
-.gl-cookie-buttons {
-  display: flex;
-  gap: 10px;
-}
-.gl-cookie-btn {
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 10px 20px;
-  border: 2px solid var(--gl-white);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  min-width: 44px;
-  min-height: 44px;
-}
-.gl-cookie-btn.accept {
-  background: var(--gl-swix-red);
-  color: var(--gl-white);
-}
-.gl-cookie-btn.decline {
-  background: transparent;
-  color: var(--gl-white);
-}
 
 @media (max-width: 640px) {
   .gl-hero {
@@ -372,46 +324,13 @@ a:focus-visible, button:focus-visible {
 
 
 def build_ga4_snippet() -> str:
-    """GA4 tracking snippet with cookie consent gating."""
-    return """<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-<script>
-window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-(function(){var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-if(c==='declined')return;gtag('js',new Date());gtag('config','G-3JQLSQLPPM')})();
-</script>"""
+    """GA4 head: consent default + config, then gtag.js (scripts/consent.py)."""
+    return get_ga4_head()
 
 
 def build_cookie_consent() -> str:
-    """Cookie consent banner with accept/decline buttons."""
-    return """
-<div class="gl-cookie-consent" id="gl-cookie-consent">
-  <div class="gl-cookie-inner">
-    <p class="gl-cookie-text">We use cookies for analytics to improve your experience. You can accept or decline.</p>
-    <div class="gl-cookie-buttons">
-      <button class="gl-cookie-btn accept" id="gl-cookie-accept">Accept</button>
-      <button class="gl-cookie-btn decline" id="gl-cookie-decline">Decline</button>
-    </div>
-  </div>
-</div>
-<script>
-(function(){
-  var banner=document.getElementById('gl-cookie-consent');
-  if(!banner)return;
-  if(document.cookie.match(/xl_consent=/)){return;}
-  banner.classList.add('visible');
-  document.getElementById('gl-cookie-accept').addEventListener('click',function(){
-    document.cookie='xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});gtag('js',new Date());gtag('config','G-3JQLSQLPPM');}
-  });
-  document.getElementById('gl-cookie-decline').addEventListener('click',function(){
-    document.cookie='xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'denied'});}
-  });
-})();
-</script>
-"""
+    """Shared consent banner and Privacy choices strip (scripts/consent.py)."""
+    return get_consent_banner_html()
 
 
 def build_nav_header() -> str:

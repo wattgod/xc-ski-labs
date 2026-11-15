@@ -35,6 +35,8 @@ EVENT_CATALOG = PROJECT_ROOT / "data" / "ski-event-catalog.json"
 
 sys.path.insert(0, str(SCRIPT_DIR))
 import plan_offer  # noqa: E402
+sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
+from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
 
 SCHEMA_VERSION = "xc-skier-intake/v2"
 STORAGE_KEY = "xcskilabs_ski_intake_v2"
@@ -379,53 +381,6 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-.gl-cookie-consent {
-  position: fixed;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  z-index: 2000;
-  display: none;
-  background: var(--gl-carbon);
-  color: var(--gl-white);
-  border: 2px solid var(--gl-swix-red);
-  padding: 14px;
-}
-.gl-cookie-consent.visible { display: block; }
-.gl-cookie-inner {
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  justify-content: space-between;
-}
-.gl-cookie-text {
-  font-family: var(--gl-font-data);
-  font-size: 0.72rem;
-  color: var(--gl-hairline);
-}
-.gl-cookie-actions {
-  display: flex;
-  gap: 8px;
-}
-.gl-cookie-actions button {
-  min-height: 40px;
-  border: 2px solid var(--gl-white);
-  background: transparent;
-  color: var(--gl-white);
-  font-family: var(--gl-font-data);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 8px 12px;
-  cursor: pointer;
-}
-.gl-cookie-actions button:first-child {
-  background: var(--gl-white);
-  color: var(--gl-carbon);
-}
 @media (max-width: 700px) {
   .gl-nav-inner { align-items: flex-start; flex-direction: column; padding: 12px 0; }
   .gl-nav-links { flex-wrap: wrap; gap: 12px; }
@@ -436,30 +391,13 @@ textarea {
   .gl-scale-group {
     grid-template-columns: 1fr;
   }
-  .gl-cookie-inner { align-items: flex-start; flex-direction: column; }
 }
 """
 
 
 def build_ga4() -> str:
-    return """<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-(function(){
-  var consent = (document.cookie.match(/xl_consent=([^;]+)/) || [])[1];
-  gtag('consent','default',{
-    'analytics_storage': consent === 'accepted' ? 'granted' : 'denied',
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'functionality_storage': 'granted',
-    'security_storage': 'granted'
-  });
-})();
-gtag('js', new Date());
-gtag('config', 'G-3JQLSQLPPM');
-</script>"""
+    """The shared region-aware consent head (scripts/consent.py)."""
+    return get_ga4_head()
 
 
 def build_nav() -> str:
@@ -1081,15 +1019,8 @@ def build_form(catalog: dict[str, Any]) -> str:
 
 
 def build_cookie_banner() -> str:
-    return """<div class="gl-cookie-consent" id="gl-cookie-consent">
-  <div class="gl-cookie-inner">
-    <div class="gl-cookie-text">We use analytics cookies to improve XC Ski Labs.</div>
-    <div class="gl-cookie-actions">
-      <button type="button" id="gl-cookie-accept">Accept</button>
-      <button type="button" id="gl-cookie-decline">Decline</button>
-    </div>
-  </div>
-</div>"""
+    """The shared consent banner and Privacy choices link (scripts/consent.py)."""
+    return get_consent_banner_html()
 
 
 def page_config(slug_map: dict[str, str], catalog: dict[str, Any]) -> dict[str, Any]:
@@ -1837,21 +1768,6 @@ QUESTIONNAIRE_JS = r"""
     });
   });
 
-  // ── Cookie banner ──
-  var banner = document.getElementById('gl-cookie-consent');
-  if (banner && !/xl_consent=/.test(document.cookie)) banner.classList.add('visible');
-  var accept = document.getElementById('gl-cookie-accept');
-  var decline = document.getElementById('gl-cookie-decline');
-  if (accept) accept.addEventListener('click', function() {
-    document.cookie = 'xl_consent=accepted;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if (typeof gtag === 'function') gtag('consent', 'update', { 'analytics_storage': 'granted' });
-  });
-  if (decline) decline.addEventListener('click', function() {
-    document.cookie = 'xl_consent=declined;path=/;max-age=31536000;SameSite=Lax';
-    banner.classList.remove('visible');
-    if (typeof gtag === 'function') gtag('consent', 'update', { 'analytics_storage': 'denied' });
-  });
 })();
 """
 

@@ -12,7 +12,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
-EFFECTIVE_DATE = "October 2, 2026"
+EFFECTIVE_DATE = "November 15, 2026"
 
 
 def esc(value: str) -> str:
@@ -88,9 +88,9 @@ def generate_html() -> str:
     <p>We use information to respond to enquiries, review coaching applications, provide requested services, operate and improve the site, measure site use, and meet legal obligations.</p>
   </section>
 
-  <section class="gl-section">
+  <section class="gl-section" id="cookies">
     <h2 class="gl-section-title">Cookies and analytics</h2>
-    <p>XC Ski Labs uses cookies to remember your analytics choice and Google Analytics to understand site traffic. Analytics is active by default. You can decline analytics at any time through the site&rsquo;s consent banner; this disables analytics on subsequent page views. Declining analytics does not affect your use of the site.</p>
+    <p>XC Ski Labs uses a cookie (<code>xl_consent</code>) to remember your analytics choice and Google Analytics to understand site traffic. If your browser&rsquo;s time zone is in the European Economic Area, the United Kingdom or Switzerland, or cannot be read, analytics stays off until you accept it in the consent banner. Elsewhere, analytics is active by default. You can accept or decline analytics at any time with the Privacy choices link at the bottom of every page; declining turns analytics off. Advertising storage and ad personalization are always off. Declining analytics does not affect your use of the site.</p>
   </section>
 
   <section class="gl-section">
@@ -111,7 +111,7 @@ def generate_html() -> str:
 
   <section class="gl-section">
     <h2 class="gl-section-title">Your choices</h2>
-    <p>You may request access to, correction of, or deletion of personal information we hold about you, subject to applicable law and recordkeeping requirements. You may also decline analytics cookies using the consent banner.</p>
+    <p>You may request access to, correction of, or deletion of personal information we hold about you, subject to applicable law and recordkeeping requirements. You may also accept or decline analytics cookies with the Privacy choices link at the bottom of every page.</p>
   </section>
 
   <section class="gl-section">

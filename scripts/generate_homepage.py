@@ -23,6 +23,10 @@ from typing import Any, Optional
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from xsl_loops import BAND_CSS, LOOP_CSS, LOOP_JS, copy_media, loops_band  # noqa: E402
 from tiers import TIER_NAMES  # noqa: E402
+from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
+
+XL_GA4_HEAD = get_ga4_head()
+XL_CONSENT_BANNER = get_consent_banner_html()
 
 try:
     from scripts.endure_offer import get_endure_offer_html
@@ -344,14 +348,7 @@ def generate_homepage(races: list[dict]) -> str:
 <meta property="og:description" content="{race_count}+ cross-country ski races across {country_count} countries. Scored, ranked, and searchable.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://xcskilabs.com/">
-<script>
-window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}
-(function(){{var c=(document.cookie.match(/xl_consent=([^;]+)/)||[])[1];
-gtag('consent','default',{{'analytics_storage':c==='accepted'?'granted':'denied','ad_storage':'denied'}});
-if(c==='declined')return;
-var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-3JQLSQLPPM';document.head.appendChild(s);
-gtag('js',new Date());gtag('config','G-3JQLSQLPPM')}})();
-</script>
+{XL_GA4_HEAD}
 {jsonld_block}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -1141,54 +1138,6 @@ a:focus-visible, button:focus-visible {{
 }}
 
 /* ── Cookie Consent ── */
-.gl-cookie-banner {{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: var(--gl-carbon);
-  border-top: 3px solid var(--gl-swix-red);
-  padding: 16px 20px;
-  font-family: var(--gl-font-data);
-  font-size: 0.8rem;
-  color: var(--gl-white);
-  display: none;
-}}
-.gl-cookie-banner.show {{ display: block; }}
-.gl-cookie-inner {{
-  max-width: var(--gl-measure);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}}
-.gl-cookie-btns {{
-  display: flex;
-  gap: 8px;
-  flex-shrink: 0;
-}}
-.gl-cookie-btn {{
-  font-family: var(--gl-font-data);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 8px 16px;
-  border: 2px solid var(--gl-white);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}}
-.gl-cookie-accept {{
-  background: var(--gl-swix-red);
-  color: var(--gl-white);
-}}
-.gl-cookie-decline {{
-  background: transparent;
-  color: var(--gl-muted);
-  border-color: var(--gl-muted);
-}}
 
 /* ── Responsive ── */
 @media (max-width: 640px) {{
@@ -1437,24 +1386,12 @@ a:focus-visible, button:focus-visible {{
 {get_endure_offer_html()}
 </footer>
 
-<!-- ── Cookie Consent ── -->
-<div class="gl-cookie-banner" id="gl-cookie-banner">
-  <div class="gl-cookie-inner">
-    <div>We use cookies for analytics to improve the experience. <a href="/privacy/" style="color:var(--gl-klister)">Privacy policy</a>.</div>
-    <div class="gl-cookie-btns">
-      <button class="gl-cookie-btn gl-cookie-accept" data-consent-choice="accepted">Accept</button>
-      <button class="gl-cookie-btn gl-cookie-decline" data-consent-choice="declined">Decline</button>
-    </div>
-  </div>
-</div>
+{XL_CONSENT_BANNER}
 <script>
-function xlConsent(c){{document.cookie='xl_consent='+c+';path=/;max-age=31536000;SameSite=Lax;Secure';if(typeof gtag==='function')gtag('consent','update',{{'analytics_storage':c==='accepted'?'granted':'denied'}});document.getElementById('gl-cookie-banner').classList.remove('show')}}
 (function(){{
 var navToggle=document.querySelector('[data-nav-toggle]');var navLinks=document.querySelector('.gl-nav-links');
 if(navToggle&&navLinks){{navToggle.addEventListener('click',function(){{var open=navLinks.classList.toggle('open');navToggle.setAttribute('aria-expanded',open?'true':'false')}})}}
-document.querySelectorAll('[data-consent-choice]').forEach(function(btn){{btn.addEventListener('click',function(){{xlConsent(btn.getAttribute('data-consent-choice'))}})}});
 document.querySelectorAll('[data-ga="goal_hero_click"]').forEach(function(link){{link.addEventListener('click',function(){{if(typeof gtag==='function')gtag('event','goal_hero_click',{{src:'home'}})}})}});
-if(!/xl_consent=/.test(document.cookie))document.getElementById('gl-cookie-banner').classList.add('show')
 }})();
 </script>
 

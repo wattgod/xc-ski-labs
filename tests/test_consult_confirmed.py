@@ -121,11 +121,20 @@ class TestJS:
     def test_sets_intake_link_from_session_id(self, confirmed_js):
         assert "consult-intake-link" in confirmed_js
         assert "/consulting/intake/#ref=" in confirmed_js
-        assert "session_id" in confirmed_js
+        # The head strips ?session_id= before GA4 runs and hands it over.
+        assert "window.xlCheckoutSessionId" in confirmed_js
+        assert "URLSearchParams" not in confirmed_js
 
-    def test_fires_purchase_event(self, confirmed_js):
-        assert "'purchase'" in confirmed_js
-        assert "transaction_id: sessionId" in confirmed_js
+    def test_no_browser_purchase_event(self, confirmed_js):
+        """A purchase fired from a URL parameter counts fake revenue."""
+        assert "'purchase'" not in confirmed_js
+        assert '"purchase"' not in confirmed_js
+        assert "transaction_id" not in confirmed_js
+
+    def test_fires_non_revenue_success_view(self, confirmed_js):
+        assert "gtag('event', 'success_page_view'" in confirmed_js
+        assert "value:" not in confirmed_js
+        assert "currency" not in confirmed_js
 
     def test_js_syntax_valid(self, confirmed_js):
         js = confirmed_js.replace("<script>", "").replace("</script>", "")

@@ -121,7 +121,7 @@ class TestGA4AndConsent:
         assert "xl_consent" in coaching_html
 
     def test_consent_banner_accept_decline(self, coaching_html):
-        assert "gl-coach-cookie-consent" in coaching_html
+        assert "xl-consent-banner" in coaching_html
         assert "Accept" in coaching_html
         assert "Decline" in coaching_html
 
