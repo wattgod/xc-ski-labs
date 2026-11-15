@@ -66,7 +66,7 @@ NEXT_SEASON = "2026-27"
 LEAD_WORKER_URL = "https://fueling-lead-intake.gravelgodcoaching.workers.dev"
 LEAD_SOURCE = "goal_2027"
 BRAND = "xcskilabs"
-CONTACT_EMAIL = "coaching@xcskilabs.com"
+CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
 
 
 def esc(text: Any) -> str:

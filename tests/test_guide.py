@@ -46,7 +46,8 @@ def test_gate_meta_correct_per_chapter():
             assert 'class="gl-guide-gate-form"' in html
             assert 'class="gl-guide-locked"' in html
             assert 'name="_honey"' in html
-            assert 'formsubmit.co' in html
+            assert 'formsubmit.co' not in html
+            assert 'fueling-lead-intake.gravelgodcoaching.workers.dev' in html
             assert '/questionnaire/' in html  # intake fallback link
 
 

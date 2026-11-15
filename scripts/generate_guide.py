@@ -136,6 +136,7 @@ def build_css() -> str:
 .gl-guide-gate-label { font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--gl-muted); display: block; margin: 0 0 var(--gl-space-2); }
 .gl-guide-gate-row { display: flex; gap: var(--gl-space-2); flex-wrap: wrap; }
 .gl-guide-gate-input { flex: 1 1 240px; min-height: 44px; border: 2px solid var(--gl-carbon); padding: 0 var(--gl-space-3); font-family: var(--gl-font-editorial); font-size: 1rem; background: var(--gl-paper); }
+.gl-guide-gate-error { font-size: .82rem; color: var(--gl-swix-red); font-weight: 700; margin: var(--gl-space-3) 0 0; }
 .gl-guide-gate-note { font-size: .82rem; color: var(--gl-muted); margin: var(--gl-space-3) 0 0; }
 .gl-guide-gate-note a { color: var(--gl-swix-red); font-weight: 700; }
 .gl-guide-locked[hidden] { display: none; }
@@ -303,9 +304,6 @@ def build_section_header(num: str, title: str) -> str:
     return f'<div class="gl-section-header"><span class="gl-section-num">{esc(num)}</span><h2 class="gl-section-title">{esc(title)}</h2></div>'
 
 
-GATE_EMAIL = "coaching@xcskilabs.com"
-
-
 def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
     parts = []
     gated = chapter.get("gated")
@@ -317,8 +315,7 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
   <p class="gl-guide-tag">Free — one email</p>
   <h2>Read the rest of the guide</h2>
   <p>Chapters four through eight — technique, fueling, tactics, race week, and the off-season — plus the whole guide, for your email. No spam; unsubscribe anytime.</p>
-  <form class="gl-guide-gate-form" data-guide-gate-form action="https://formsubmit.co/{GATE_EMAIL}" method="POST">
-    <input type="hidden" name="_subject" value="Guide unlock — {cid}">
+  <form class="gl-guide-gate-form" data-guide-gate-form>
     <input type="hidden" name="chapter" value="{ctitle}">
     <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
     <label class="gl-guide-gate-label" for="gate-email-{cid}">Email</label>
@@ -326,6 +323,7 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
       <input class="gl-guide-gate-input" id="gate-email-{cid}" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
       <button class="gl-guide-btn" type="submit">Unlock the guide</button>
     </div>
+    <p class="gl-guide-gate-error" data-guide-gate-error role="alert" hidden></p>
     <p class="gl-guide-gate-note">Prefer a plan built for you? <a href="/questionnaire/">Start the intake</a> instead.</p>
   </form>
 </aside>
@@ -415,13 +413,18 @@ def build_script() -> str:
       e.preventDefault();
       var honey = form.querySelector('[name="_honey"]');
       if (honey && honey.value) return; // bot
-      // Fire-and-forget to the lead worker: record the email + chapter,
-      // never block the reader on the network (unlock happens regardless).
+      // Unlock only once the lead worker has stored the email, so the
+      // guide_unlock count matches real captures.
       var viewed = [];
       try {
         viewed = (JSON.parse(localStorage.getItem('xc_viewed_races') || '[]') || [])
           .map(function(r) { return r && r.name; }).filter(Boolean).slice(0, 5);
       } catch (e2) {}
+      var btn = form.querySelector('button[type="submit"]');
+      var err = form.querySelector('[data-guide-gate-error]');
+      if (err) { err.hidden = true; err.textContent = ''; }
+      if (btn) btn.disabled = true;
+      var chapter = (form.querySelector('[name="chapter"]') || {}).value || '';
       fetch('https://fueling-lead-intake.gravelgodcoaching.workers.dev', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -429,16 +432,22 @@ def build_script() -> str:
           source: 'training_guide',
           brand: 'xcskilabs',
           email: (form.querySelector('[name="email"]') || {}).value || '',
-          guide_chapter: (form.querySelector('[name="chapter"]') || {}).value || '',
+          guide_chapter: chapter,
           viewed_races: viewed,
           website: ''
-        })
-      }).catch(function(){});
-      try { localStorage.setItem(UNLOCK_KEY, '1'); } catch (e) {}
-      if (typeof gtag === 'function') gtag('event', 'guide_unlock', { chapter: (form.querySelector('[name="chapter"]') || {}).value || '' });
-      unlock();
-      var target = document.querySelector('[data-guide-locked]');
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }),
+        signal: (typeof AbortSignal !== 'undefined' && AbortSignal.timeout) ? AbortSignal.timeout(10000) : undefined
+      }).then(function(r) {
+        if (!r.ok) throw new Error('bad status');
+        try { localStorage.setItem(UNLOCK_KEY, '1'); } catch (e) {}
+        if (typeof gtag === 'function') gtag('event', 'guide_unlock', { chapter: chapter });
+        unlock();
+        var target = document.querySelector('[data-guide-locked]');
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }).catch(function() {
+        if (btn) btn.disabled = false;
+        if (err) { err.textContent = "That didn't go through. Check the address and try again."; err.hidden = false; }
+      });
     });
   });
 })();
