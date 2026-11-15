@@ -343,8 +343,6 @@ html body {
 }
 
 /* Components: docs/brand/sledge-stores/components/bundle.css */
-900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap");
-
 /* XC Ski Labs: Sledge Stores. Every colour reads a token. Square, flat, no shadows; salmon is a splash. */
 
 .xc-page { background-color: var(--ground); color: var(--ink); font: 400 17px/1.6 var(--font-body);

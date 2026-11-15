@@ -358,8 +358,6 @@ html body {
 }
 
 /* Components: docs/brand/sledge-stores/components/bundle.css */
-900&family=Big+Shoulders+Text:wght@600;800&family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap");
-
 /* XC Ski Labs: Sledge Stores. Every colour reads a token. Square, flat, no shadows; salmon is a splash. */
 
 .xc-page { background-color: var(--ground); color: var(--ink); font: 400 17px/1.6 var(--font-body);
@@ -472,21 +470,17 @@ a { color: inherit; }
 .wrap { max-width: var(--gl-measure); margin: 0 auto; padding: 0 var(--gl-space-5); }
 .gl-nav { position: sticky; top: 0; z-index: 1000; background: var(--gl-carbon); color: var(--gl-white); }
 .gl-nav-inner { min-height: 56px; display: flex; align-items: center; justify-content: space-between; gap: var(--gl-space-5); }
-.gl-nav-logo { font-family: var(--gl-font-display); font-weight: 900; font-style: normal; text-transform: uppercase; text-decoration: none; letter-spacing: 0; }
-.gl-nav-logo em { color: var(--gl-klister); font-style: normal; }
-.gl-nav-logo { display: inline-flex; align-items: center; gap: 9px; white-space: nowrap; }
-.gl-nav-logo .gl-brand-mark { display: block; width: 30px; height: 30px; flex: none; }
-.gl-nav-logo .gl-brand-name { font-style: normal; letter-spacing: -.025em; }
-.gl-nav-logo .gl-brand-name em { color: var(--gl-klister); font-style: normal; }
 .gl-nav-links { display: flex; align-items: center; gap: var(--gl-space-2); list-style: none; margin: 0; padding: 0; }
 .gl-nav-links a { min-height: 44px; display: flex; align-items: center; padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .68rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; text-decoration: none; color: var(--gl-white); }
 .gl-nav-links a.active, .gl-nav-links a:hover { color: var(--gl-klister); }
 
-.hero { background: var(--gl-carbon); color: var(--gl-white); border-bottom: 4px solid var(--gl-swix-red); }
+.gl-nav-logo { text-decoration: none; }
+/* Hero: the book's oat panel with an ink edge (README §4). */
+.hero { background: var(--panel); color: var(--ink); border-bottom: var(--stroke-band) solid var(--ink); }
 .hero .wrap { padding-top: var(--gl-space-7); padding-bottom: var(--gl-space-6); }
-.kick { margin: 0 0 var(--gl-space-3); color: var(--gl-klister); font-family: var(--gl-font-data); font-size: .7rem; font-weight: 700; letter-spacing: .28em; text-transform: uppercase; }
-h1 { margin: 0; font-family: var(--gl-font-display); font-size: clamp(2.6rem, 7vw, 4.6rem); font-weight: 900; font-style: normal; line-height: .94; letter-spacing: -.04em; text-transform: uppercase; }
-.stats-bar { display: flex; flex-wrap: wrap; gap: var(--gl-space-5); margin-top: var(--gl-space-5); color: var(--gl-klister); font-family: var(--gl-font-data); font-size: .68rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.kick { margin: 0 0 var(--gl-space-3); color: var(--ink); font-family: var(--gl-font-data); font-size: .7rem; font-weight: 700; letter-spacing: .28em; text-transform: uppercase; }
+h1 { margin: 0; font-family: var(--font-stencil); font-size: clamp(56px, 11vw, 168px); font-weight: 900; font-style: normal; line-height: .84; letter-spacing: .01em; text-transform: uppercase; }
+.stats-bar { display: flex; flex-wrap: wrap; gap: var(--gl-space-5); margin-top: var(--gl-space-5); color: var(--ink); font-family: var(--gl-font-data); font-size: .68rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
 
 .controls { display: grid; grid-template-columns: minmax(220px, 1fr) repeat(2, minmax(150px, auto)); gap: var(--gl-space-3); align-items: center; padding: var(--gl-space-5) 0 var(--gl-space-3); }
 .filter-row { display: flex; flex-wrap: wrap; gap: var(--gl-space-2); grid-column: 1 / -1; }

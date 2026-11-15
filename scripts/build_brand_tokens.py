@@ -123,7 +123,11 @@ def _scale_vars(tokens: dict) -> list[str]:
 
 def _bundle_rules() -> str:
     css = BUNDLE_CSS.read_text(encoding="utf-8")
-    css = re.sub(r"^@import[^;]*;\s*", "", css, flags=re.M)
+    # The URL itself contains semicolons (wght@700;900), so match the whole
+    # url("...") and its closing ");" rather than stopping at the first ";".
+    css = re.sub(r'^@import\s+url\("[^"]*"\);[ \t]*\n?', "", css, flags=re.M)
+    if "@import" in css or not css.lstrip().startswith("/*"):
+        raise ValueError("bundle.css: could not strip the font @import cleanly")
     if HEX.search(css) or re.search(r"#[0-9a-fA-F]{3,8}\b", css):
         raise ValueError("bundle.css carries a hex literal; colours must read a token")
     return css.strip()

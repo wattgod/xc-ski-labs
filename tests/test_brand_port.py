@@ -104,3 +104,21 @@ def test_built_pages_use_the_favicon_and_fonts():
             assert BRAND_FONT_URL.replace("&", "&amp;") in html or BRAND_FONT_URL in html, f"{rel}: other font URL"
         for face in RETIRED_FACES:
             assert face not in html, f"{rel}: loads {face}"
+
+
+def test_component_rules_survive_the_import_strip():
+    css = build_brand_tokens.build_css()
+    section = css.split("/* Components: docs/brand/sledge-stores/components/bundle.css */", 1)[1]
+    assert "@import" not in section
+    assert "family=" not in section, "a fragment of the font URL leaked into the CSS"
+    body = re.sub(r"/\*.*?\*/", "", section, flags=re.S).lstrip()
+    assert body.startswith(".xc-page {"), body[:80]
+
+
+def test_race_names_with_diacritics_use_libre_franklin():
+    import generate_race_pages
+    import generate_prep_kit
+    assert "gl-name--diacritic" in generate_race_pages._hero_name_class("Jizerská 50")
+    assert "gl-name--diacritic" not in generate_race_pages._hero_name_class("Vasaloppet")
+    assert "gl-name--diacritic" in generate_prep_kit._diacritic_attr("Öppet Spår")
+    assert generate_prep_kit._diacritic_attr("Vasaloppet") == ""

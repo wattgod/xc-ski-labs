@@ -345,7 +345,12 @@ def _display_caps(text: Any) -> str:
 
 def _hero_name_class(name: str) -> str:
     longest = max((len(w) for w in str(name).split()), default=0)
-    return "gl-hero-name gl-hero-name--long" if longest > 14 else "gl-hero-name"
+    cls = "gl-hero-name gl-hero-name--long" if longest > 14 else "gl-hero-name"
+    # README §3: race names with diacritics are set in Libre Franklin 600
+    # until Big Shoulders' glyph coverage is checked.
+    if any(ord(c) > 127 and c.isalpha() for c in str(name)):
+        cls += " gl-name--diacritic"
+    return cls
 
 
 def _series_label(race: dict) -> str:
@@ -962,6 +967,7 @@ a {{ color: inherit; }}
   hyphens: manual;
 }}
 .gl-hero-name--long {{ font-size: clamp(2.4rem, 6vw, 4.4rem); }}
+.gl-hero h1.gl-name--diacritic {{ font-family: var(--font-body); font-weight: 600; }}
 
 .gl-hero-tagline {{
   max-width: 54ch;
