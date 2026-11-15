@@ -1744,7 +1744,7 @@ def build_nav_header(active: str = "") -> str:
     return f"""
 <nav class="gl-nav">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
+    <a href="/" class="gl-nav-logo" aria-label="XC Ski Labs, powered by Endure Labs"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
     <button class="gl-nav-hamburger" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">

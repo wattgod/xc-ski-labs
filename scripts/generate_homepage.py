@@ -851,7 +851,7 @@ a:focus-visible, button:focus-visible {{
 <!-- ── Nav Header ── -->
 <header class="gl-nav-header">
   <div class="gl-nav-inner">
-    <a href="/" class="gl-nav-logo" aria-label="XC SKI LABS"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
+    <a href="/" class="gl-nav-logo" aria-label="XC Ski Labs, powered by Endure Labs"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a>
     <button class="gl-nav-hamburger" data-nav-toggle aria-expanded="false" aria-label="Menu">&#9776;</button>
     <ul class="gl-nav-links">
       <li class="gl-nav-item">
