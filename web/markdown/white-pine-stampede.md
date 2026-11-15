@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Michigan"
 location: "Mancelona to Bellaire, Michigan"
-date: "2026: February 7"
+date: "2027: February 6"
 url: "https://xcskilabs.com/race/white-pine-stampede/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/white-pine-stampede/"
 | Altitude | 380 m |
 | Location | Mancelona to Bellaire, Michigan |
 | Country | United States |
-| Date | 2026: February 7 |
+| Date | 2027: February 6 |
 | Discipline | both |
 | Field Size | 400 |
 | Founded | 1977 |
@@ -121,4 +121,4 @@ The White Pine Stampede has been northern Michigan's premier Nordic ski marathon
 > We've had uh 45° weather all the way to below zero weather. So this is about Perfect Isn't it absolutely.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — White Pine Stampede". Canonical: https://xcskilabs.com/race/white-pine-stampede/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — White Pine Stampede". Canonical: https://xcskilabs.com/race/white-pine-stampede/. Generated 2026-11-15.*

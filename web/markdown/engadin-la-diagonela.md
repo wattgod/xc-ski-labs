@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Switzerland"
 region: "Graubünden"
 location: "Pontresina to Zuoz"
-date: "2026: January 17"
+date: "2027: January 16"
 url: "https://xcskilabs.com/race/engadin-la-diagonela/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/engadin-la-diagonela/"
 | Altitude | 1,800 m |
 | Location | Pontresina to Zuoz |
 | Country | Switzerland |
-| Date | 2026: January 17 |
+| Date | 2027: January 16 |
 | Discipline | classic |
 | Field Size | 2000 |
 | Founded | 2014 |
@@ -133,4 +133,4 @@ La Diagonela is the youngest race in this collection, founded in 2014 as a Ski C
 > I felt really good from the gun and amazing skis and amazing teammates. I was really tired last four kilometers when it's really hard then I heard that I got four minutes and then I knew that it was a good chance to be first. The last two three kilometers it was really emotional.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engadin La Diagonela". Canonical: https://xcskilabs.com/race/engadin-la-diagonela/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engadin La Diagonela". Canonical: https://xcskilabs.com/race/engadin-la-diagonela/. Generated 2026-11-15.*

@@ -4,6 +4,7 @@
 import importlib.util
 import json
 import re
+from datetime import date
 from pathlib import Path
 
 
@@ -138,8 +139,9 @@ def test_jsonld_omits_sports_event_when_start_date_is_unparseable():
     profiles = _profiles()
     dated = 0
     undated = 0
+    season_start = date(2025, 11, 1)  # every parseable profile date is after this
     for race in profiles:
-        graph = _jsonld(gen.build_jsonld(race))
+        graph = _jsonld(gen.build_jsonld(race, today=season_start))
         expected_date = gen.parse_date_specific(race["vitals"].get("date_specific"))
         events = [node for node in graph["@graph"] if node["@type"] == "SportsEvent"]
         reviews = [node for node in graph["@graph"] if node["@type"] == "Review"]
@@ -166,7 +168,7 @@ def test_jsonld_omits_sports_event_when_start_date_is_unparseable():
 def test_jsonld_dated_events_include_description_from_tagline():
     gen = _generator()
     race = next(p for p in _profiles() if p["slug"] == "american-birkebeiner")
-    graph = _jsonld(gen.build_jsonld(race))
+    graph = _jsonld(gen.build_jsonld(race, today=date(2025, 11, 1)))
     event = _event(graph)
     assert event["description"] == race["tagline"]
 
@@ -174,3 +176,36 @@ def test_jsonld_dated_events_include_description_from_tagline():
 def test_race_cookie_banner_links_to_privacy_policy():
     gen = _generator()
     assert 'href="/privacy/"' in gen.build_cookie_consent()
+
+
+def test_jsonld_omits_sports_event_for_a_past_edition():
+    """XC-04: last season's date is not a scheduled event."""
+    gen = _generator()
+    race = {"slug": "x", "name": "X", "vitals": {"date_specific": "2026: March 1", "location": "Mora"},
+            "nordic_lab_rating": {"overall_score": 90}}
+    before = _jsonld(gen.build_jsonld(race, today=date(2026, 2, 28)))
+    after = _jsonld(gen.build_jsonld(race, today=date(2026, 3, 2)))
+    assert [n["@type"] for n in before["@graph"]].count("SportsEvent") == 1
+    assert [n["@type"] for n in after["@graph"]] == ["BreadcrumbList"]
+
+
+def test_multi_day_event_stays_upcoming_until_its_last_day():
+    gen = _generator()
+    vitals = {"date_specific": "2027: March 6-7"}
+    assert gen.upcoming_start_date(vitals, date(2027, 3, 7)) == "2027-03-06"
+    assert gen.upcoming_start_date(vitals, date(2027, 3, 8)) is None
+
+
+def test_stepper_uses_the_pattern_for_a_past_edition():
+    gen = _generator()
+    race = {"name": "X", "vitals": {"date_specific": "2020: March 1", "date": "First Sunday in March"}}
+    html = gen.build_race_week_stepper(race)
+    assert "First Sunday in March" in html
+    assert "2020" not in html
+
+
+def test_display_date_shows_the_next_edition_then_the_pattern():
+    gen = _generator()
+    vitals = {"date_specific": "2027: March 6-7", "date": "First weekend in March"}
+    assert gen.display_date(vitals, date(2027, 1, 1)) == "March 6-7, 2027"
+    assert gen.display_date(vitals, date(2027, 3, 8)) == "First weekend in March"

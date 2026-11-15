@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Italy"
 region: "Trentino-Alto Adige"
 location: "Moena to Cavalese"
-date: "2026: January 25"
+date: "2027: January 31"
 url: "https://xcskilabs.com/race/marcialonga/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/marcialonga/"
 | Altitude | 1,100 m |
 | Location | Moena to Cavalese |
 | Country | Italy |
-| Date | 2026: January 25 |
+| Date | 2027: January 31 |
 | Discipline | classic |
 | Field Size | 7000 |
 | Founded | 1971 |
@@ -135,4 +135,4 @@ Founded in 1971 as a 70km classic race through the Val di Fiemme and Val di Fass
 > Something happens with the body when it passes two and a half hours and that's when you really see who's the best. You have to be really focused to get the feeding during the race and to drink energy drink.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marcialonga". Canonical: https://xcskilabs.com/race/marcialonga/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marcialonga". Canonical: https://xcskilabs.com/race/marcialonga/. Generated 2026-11-15.*

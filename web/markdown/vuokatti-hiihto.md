@@ -8,7 +8,7 @@ discipline: "both"
 country: "Finland"
 region: "Kainuu"
 location: "Vuokatti, Sotkamo"
-date: "2026: March 14"
+date: "2027: March 6"
 url: "https://xcskilabs.com/race/vuokatti-hiihto/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/vuokatti-hiihto/"
 | Altitude | 250 m |
 | Location | Vuokatti, Sotkamo |
 | Country | Finland |
-| Date | 2026: March 14 |
+| Date | 2027: March 6 |
 | Discipline | both |
 | Field Size | 2000 |
 | Founded | 1989 |
@@ -119,4 +119,4 @@ Vuokatti Hiihto takes advantage of one of Finland's premier Nordic training cent
 - Vuokatti Hiihto -one of the biggest ski marathons in Finland (Kainuun Liikunta)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vuokatti Hiihto". Canonical: https://xcskilabs.com/race/vuokatti-hiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vuokatti Hiihto". Canonical: https://xcskilabs.com/race/vuokatti-hiihto/. Generated 2026-11-15.*

@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Dalarna"
 location: "Sälen to Mora"
-date: "2026: March 2"
+date: "2027: March 1"
 url: "https://xcskilabs.com/race/oppet-spar/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/oppet-spar/"
 | Altitude | 350 m |
 | Location | Sälen to Mora |
 | Country | Sweden |
-| Date | 2026: March 2 |
+| Date | 2027: March 1 |
 | Discipline | classic |
 | Field Size | 8000 |
 | Founded | 1945 |
@@ -111,4 +111,4 @@ Founded in 1945 as an untimed, open-track version of Vasaloppet, held the day af
 - vasaloppet_winter_week
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Öppet Spår". Canonical: https://xcskilabs.com/race/oppet-spar/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Öppet Spår". Canonical: https://xcskilabs.com/race/oppet-spar/. Generated 2026-11-15.*

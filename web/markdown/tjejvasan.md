@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Dalarna"
 location: "Oxberg to Mora"
-date: "2026: February 28"
+date: "2027: February 27"
 url: "https://xcskilabs.com/race/tjejvasan/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/tjejvasan/"
 | Altitude | 400 m |
 | Location | Oxberg to Mora |
 | Country | Sweden |
-| Date | 2026: February 28 |
+| Date | 2027: February 27 |
 | Discipline | classic |
 | Field Size | 7850 |
 | Founded | 1988 |
@@ -126,4 +126,4 @@ Founded in 1988 as a women-only complement to Vasaloppet, Tjejvasan covers the f
 - VLOG 0047 - Tjejvasan 2023 med Clara (Bättre flås!)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tjejvasan". Canonical: https://xcskilabs.com/race/tjejvasan/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tjejvasan". Canonical: https://xcskilabs.com/race/tjejvasan/. Generated 2026-11-15.*

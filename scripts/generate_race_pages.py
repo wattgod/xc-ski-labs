@@ -12,7 +12,7 @@ Usage:
 """
 
 import argparse
-from datetime import datetime
+from datetime import date, datetime
 import html
 import json
 import math
@@ -219,6 +219,33 @@ def parse_date_specific_end(value: Any) -> Optional[str]:
     except ValueError:
         return None
     return parsed.date().isoformat()
+
+
+def upcoming_start_date(vitals: dict, today: Optional[date] = None) -> Optional[str]:
+    """ISO start date of the profile's dated edition, only while it is still
+    ahead (or under way, for a multi-day event).
+
+    A past edition is not the next race: it gets no SportsEvent markup and
+    no "this date" copy until date_specific is refreshed to the next edition.
+    """
+    value = (vitals or {}).get("date_specific")
+    start = parse_date_specific(value)
+    if not start:
+        return None
+    end = parse_date_specific_end(value) or start
+    today = today or date.today()
+    return start if end >= today.isoformat() else None
+
+
+def display_date(vitals: dict, today: Optional[date] = None) -> str:
+    """The date a reader sees: the next edition's exact date while it is
+    ahead ("March 7, 2027"), otherwise the recurring pattern
+    ("First Sunday in March")."""
+    vitals = vitals or {}
+    if upcoming_start_date(vitals, today):
+        year, _, rest = str(vitals["date_specific"]).partition(":")
+        return f"{rest.strip()}, {year.strip()}"
+    return str(vitals.get("date") or "")
 
 
 def _profile_haversine_km(first: dict, second: dict) -> float:
@@ -1735,8 +1762,8 @@ def build_hero(race: dict) -> str:
         chips.append(format_distance(v["distance_km"]).upper())
     if discipline:
         chips.append(DISCIPLINE_LABELS.get(discipline, discipline).upper())
-    if v.get("date"):
-        chips.append(str(v["date"]).upper())
+    if display_date(v):
+        chips.append(display_date(v).upper())
     if v.get("location_badge") or v.get("location"):
         chips.append(str(v.get("location_badge", v.get("location"))).upper())
 
@@ -1823,7 +1850,7 @@ def build_at_a_glance(race: dict) -> str:
         ("Founded", str(v.get("founded", "—")) if v.get("founded") else "—"),
         ("Technique", DISCIPLINE_LABELS.get(discipline, discipline or "—")),
         ("Format", (race.get("course", {}).get("format", "—") or "—").replace("-", " ").title()),
-        ("Date", v.get("date", "—")),
+        ("Date", display_date(v) or "—"),
     ]
 
     # Add distance options if present
@@ -1945,7 +1972,10 @@ def _discipline_phrase(race: dict) -> str:
 
 def build_race_week_stepper(race: dict) -> str:
     name = race.get("display_name", race.get("name", "the race"))
-    date = race.get("vitals", {}).get("date_specific") or race.get("vitals", {}).get("date") or "race day"
+    vitals = race.get("vitals", {})
+    # Last season's exact date is no anchor for this season; use the
+    # recurring pattern ("First Sunday in March") until the profile is refreshed.
+    date = (vitals.get("date_specific") if upcoming_start_date(vitals) else None) or vitals.get("date") or "race day"
     discipline = _discipline_phrase(race)
     steps = [
         ("Check the week", f"Use the {esc(date)} timing as the anchor. Confirm travel, bib pickup, and the latest organizer notices before you adjust training."),
@@ -3083,12 +3113,14 @@ def build_footer(race: dict) -> str:
 """.replace("</footer>", get_endure_offer_html() + "</footer>")
 
 
-def build_jsonld(race: dict) -> str:
+def build_jsonld(race: dict, today: Optional[date] = None) -> str:
     """Build SportsEvent JSON-LD structured data.
 
     A SportsEvent without a startDate is a critical GSC error (blocks rich
     results), so races whose date_specific cannot be parsed emit breadcrumbs
-    only — same policy as the road/gravel generators.
+    only — same policy as the road/gravel generators. A date that has
+    already passed is last season's edition, not a scheduled event, so it
+    gets breadcrumbs only too (upcoming_start_date).
     """
     v = race["vitals"]
     r = race["nordic_lab_rating"]
@@ -3098,7 +3130,7 @@ def build_jsonld(race: dict) -> str:
     review_id = f"{page_url}#review"
 
     nodes = []
-    start_date = parse_date_specific(v.get("date_specific"))
+    start_date = upcoming_start_date(v, today)
     if start_date:
         event = {
             "@id": event_id,

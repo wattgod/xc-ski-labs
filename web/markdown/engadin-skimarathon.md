@@ -8,7 +8,7 @@ discipline: "skate"
 country: "Switzerland"
 region: "Graubünden"
 location: "Maloja to S-chanf"
-date: "2026: March 8"
+date: "2027: March 14"
 url: "https://xcskilabs.com/race/engadin-skimarathon/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/engadin-skimarathon/"
 | Altitude | 1,800 m |
 | Location | Maloja to S-chanf |
 | Country | Switzerland |
-| Date | 2026: March 8 |
+| Date | 2027: March 14 |
 | Discipline | both |
 | Field Size | 13500 |
 | Founded | 1969 |
@@ -133,4 +133,4 @@ Founded in 1969 with 945 participants, the Engadin Skimarathon has grown to beco
 > We have a temperature of minus 4 degrees but the conditions with the sun will be really interesting. The track record here at the Engadin ski marathon over this 42 kilometers is 1 hour 24 and 30 seconds.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engadin Skimarathon". Canonical: https://xcskilabs.com/race/engadin-skimarathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Engadin Skimarathon". Canonical: https://xcskilabs.com/race/engadin-skimarathon/. Generated 2026-11-15.*

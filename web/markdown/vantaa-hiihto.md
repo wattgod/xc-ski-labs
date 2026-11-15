@@ -8,7 +8,7 @@ discipline: "both"
 country: "Finland"
 region: "Greater Helsinki"
 location: "Vantaa"
-date: "2026: March 1"
+date: "2027: January 30"
 url: "https://xcskilabs.com/race/vantaa-hiihto/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/vantaa-hiihto/"
 | Altitude | 50 m |
 | Location | Vantaa |
 | Country | Finland |
-| Date | 2026: March 1 |
+| Date | 2027: January 30 |
 | Discipline | both |
 | Field Size | 500 |
 | Registration | Online registration |
@@ -122,4 +122,4 @@ The Vantaa-hiihto is a popular mass skiing event serving Finland's Helsinki metr
 - Finlandia-Hiihto 2022 [4K] (PiliPali Producktion)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vantaa-hiihto". Canonical: https://xcskilabs.com/race/vantaa-hiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Vantaa-hiihto". Canonical: https://xcskilabs.com/race/vantaa-hiihto/. Generated 2026-11-15.*

@@ -8,7 +8,7 @@ discipline: "skate"
 country: "Sweden"
 region: "Dalarna"
 location: "Sälen to Mora"
-date: "2026: February 27"
+date: "2027: March 5"
 url: "https://xcskilabs.com/race/nattvasan/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/nattvasan/"
 | Altitude | 350 m |
 | Location | Sälen to Mora |
 | Country | Sweden |
-| Date | 2026: February 27 |
+| Date | 2027: March 5 |
 | Discipline | both |
 | Field Size | 4000 |
 | Founded | 2003 |
@@ -131,4 +131,4 @@ Nattvasan was founded in 2003 as part of the expanding Vasaloppet Winter Week pr
 > I've never been that exhausted in my life. Vasaloppet is crazy we know that but doing this whole thing during the night oh man.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Nattvasan". Canonical: https://xcskilabs.com/race/nattvasan/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Nattvasan". Canonical: https://xcskilabs.com/race/nattvasan/. Generated 2026-11-15.*

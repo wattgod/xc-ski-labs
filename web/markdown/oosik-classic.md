@@ -8,7 +8,7 @@ discipline: "classic"
 country: "United States"
 region: "Southcentral Alaska"
 location: "Talkeetna"
-date: "2026: March 14"
+date: "2027: March 13"
 url: "https://xcskilabs.com/race/oosik-classic/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/oosik-classic/"
 | Altitude | 100 m |
 | Location | Talkeetna |
 | Country | United States |
-| Date | 2026: March 14 |
+| Date | 2027: March 13 |
 | Discipline | classic |
 | Field Size | 800 |
 | Registration | Online registration via Denali Nordic Ski Club |
@@ -123,4 +123,4 @@ The Oosik Classic is a citizen ski marathon hosted by the Denali Nordic Ski Club
 > Skiing as a centaur was some of the most fun I've had on skis... it's a wild wacky and wonderful Alaskan party on skis most people dress up in costumes of some kind.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Oosik Classic". Canonical: https://xcskilabs.com/race/oosik-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Oosik Classic". Canonical: https://xcskilabs.com/race/oosik-classic/. Generated 2026-11-15.*

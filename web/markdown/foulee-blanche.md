@@ -8,7 +8,7 @@ discipline: "skate"
 country: "France"
 region: "Auvergne-Rhône-Alpes"
 location: "Autrans-Méaudre en Vercors"
-date: "2026: January 25"
+date: "2027: January 27-31"
 url: "https://xcskilabs.com/race/foulee-blanche/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/foulee-blanche/"
 | Altitude | 1,050 m |
 | Location | Autrans-Méaudre en Vercors |
 | Country | France |
-| Date | 2026: January 25 |
+| Date | 2027: January 27-31 |
 | Discipline | skate |
 | Field Size | 2000 |
 | Founded | 1979 |
@@ -123,4 +123,4 @@ Founded in 1979, La Foulée Blanche is France's largest and most prestigious cro
 - Foulée blanche 2026 - Le résumé de la 48e édition (Foulée Blanche)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Foulée Blanche". Canonical: https://xcskilabs.com/race/foulee-blanche/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Foulée Blanche". Canonical: https://xcskilabs.com/race/foulee-blanche/. Generated 2026-11-15.*

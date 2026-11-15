@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Estonia"
 region: "Tartu County"
 location: "Otepää to Elva"
-date: "2026: February 15"
+date: "2027: February 28"
 url: "https://xcskilabs.com/race/tartu-maraton/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/tartu-maraton/"
 | Altitude | 100 m |
 | Location | Otepää to Elva |
 | Country | Estonia |
-| Date | 2026: February 15 |
+| Date | 2027: February 28 |
 | Discipline | both |
 | Field Size | 4000 |
 | Founded | 1966 |
@@ -126,4 +126,4 @@ Founded in 1960, the Tartu Maraton is one of the oldest ski marathons in Europe 
 - 46th Tartu Maraton - trailer (TartuMaratoniKlassik)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tartu Maraton". Canonical: https://xcskilabs.com/race/tartu-maraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tartu Maraton". Canonical: https://xcskilabs.com/race/tartu-maraton/. Generated 2026-11-15.*

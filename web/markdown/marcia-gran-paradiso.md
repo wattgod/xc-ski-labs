@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Italy"
 region: "Aosta Valley"
 location: "Cogne, Aosta Valley"
-date: "2026: March 14"
+date: "2027: February 7"
 url: "https://xcskilabs.com/race/marcia-gran-paradiso/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/marcia-gran-paradiso/"
 | Altitude | 1,534 m |
 | Location | Cogne, Aosta Valley |
 | Country | Italy |
-| Date | 2026: March 14 |
+| Date | 2027: February 7 |
 | Discipline | classic |
 | Field Size | 800 |
 | Founded | 1975 |
@@ -129,4 +129,4 @@ Founded in 1975, the Marcia Gran Paradiso is one of Italy's historic ski maratho
 > I loved beautiful views of the mountains the course was in very good condition just a little bit cold from kilometer 15 to 20 up in the valley but I really enjoyed the last downhill.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marcia Gran Paradiso". Canonical: https://xcskilabs.com/race/marcia-gran-paradiso/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marcia Gran Paradiso". Canonical: https://xcskilabs.com/race/marcia-gran-paradiso/. Generated 2026-11-15.*

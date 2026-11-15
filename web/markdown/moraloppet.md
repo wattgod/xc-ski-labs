@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Dalarna"
 location: "Oxberg to Mora, Dalarna (Vasaloppet Arena)"
-date: "2026: January 17"
+date: "2027: January 16"
 url: "https://xcskilabs.com/race/moraloppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/moraloppet/"
 | Altitude | 350 m |
 | Location | Oxberg to Mora, Dalarna (Vasaloppet Arena) |
 | Country | Sweden |
-| Date | 2026: January 17 |
+| Date | 2027: January 16 |
 | Discipline | classic |
 | Field Size | 1000 |
 | Founded | 1990 |
@@ -131,4 +131,4 @@ Moraloppet was established in the 1990s to offer skiers the chance to race on th
 > Queuing is inevitable and there's nothing you can do - just relax don't stress and just go with the flow. By stressing you're just risking breaking your pole and upsetting all the other people around you. You're going to get to the top and it might take you 30 minutes or it might take you 1 hour and 30 minutes but you will get to the top eventually.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Moraloppet". Canonical: https://xcskilabs.com/race/moraloppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Moraloppet". Canonical: https://xcskilabs.com/race/moraloppet/. Generated 2026-11-15.*

@@ -8,7 +8,7 @@ discipline: "both"
 country: "Finland"
 region: "Lapland"
 location: "Rovaniemi"
-date: "2026: March 21"
+date: "2027: March 20"
 url: "https://xcskilabs.com/race/jatkankynttila/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/jatkankynttila/"
 | Altitude | 150 m |
 | Location | Rovaniemi |
 | Country | Finland |
-| Date | 2026: March 21 |
+| Date | 2027: March 20 |
 | Discipline | classic |
 | Field Size | 300 |
 | Registration | Online registration |
@@ -106,4 +106,4 @@ The Jatkankynttila Ski Marathon is a Lapland mass skiing event based in Rovaniem
 - Both classic and freestyle techniques offered
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jatkankynttila". Canonical: https://xcskilabs.com/race/jatkankynttila/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jatkankynttila". Canonical: https://xcskilabs.com/race/jatkankynttila/. Generated 2026-11-15.*

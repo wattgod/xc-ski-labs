@@ -8,7 +8,7 @@ discipline: "skate"
 country: "United States"
 region: "Alaska"
 location: "Fairbanks"
-date: "2026: March 21"
+date: "2027: March 27"
 url: "https://xcskilabs.com/race/sonot-kkaazoot/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/sonot-kkaazoot/"
 | Altitude | 200 m |
 | Location | Fairbanks |
 | Country | United States |
-| Date | 2026: March 21 |
+| Date | 2027: March 27 |
 | Discipline | skate |
 | Field Size | 200 |
 | Founded | 1988 |
@@ -108,4 +108,4 @@ Founded in 1988, the Sonot Kkaazoot takes its name from the Lower Tanana Athabas
 - Small field size — typically around 200 — gives it a backcountry expedition feel
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sonot Kkaazoot". Canonical: https://xcskilabs.com/race/sonot-kkaazoot/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sonot Kkaazoot". Canonical: https://xcskilabs.com/race/sonot-kkaazoot/. Generated 2026-11-15.*

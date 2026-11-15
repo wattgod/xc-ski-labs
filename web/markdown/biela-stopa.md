@@ -8,7 +8,7 @@ discipline: "both"
 country: "Slovakia"
 region: "Banská Bystrica"
 location: "Kremnica / Skalka"
-date: "2026: February 14"
+date: "2027: February 6-7"
 url: "https://xcskilabs.com/race/biela-stopa/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/biela-stopa/"
 | Altitude | 1,050 m |
 | Location | Kremnica / Skalka |
 | Country | Slovakia |
-| Date | 2026: February 14 |
+| Date | 2027: February 6-7 |
 | Discipline | both |
 | Field Size | 800 |
 | Founded | 1973 |
@@ -123,4 +123,4 @@ Founded around 1973, Biela Stopa ('White Track') is Slovakia's oldest cross-coun
 - Biela stopa 2020 Skalka (Xixo gg)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Biela Stopa". Canonical: https://xcskilabs.com/race/biela-stopa/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Biela Stopa". Canonical: https://xcskilabs.com/race/biela-stopa/. Generated 2026-11-15.*

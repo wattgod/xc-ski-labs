@@ -8,7 +8,7 @@ discipline: "both"
 country: "Slovenia"
 region: "Upper Carniola"
 location: "Planica Nordic Centre"
-date: "2026: January 31"
+date: "2027: January 31"
 url: "https://xcskilabs.com/race/planica-ski-marathon/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/planica-ski-marathon/"
 | Altitude | 850 m |
 | Location | Planica Nordic Centre |
 | Country | Slovenia |
-| Date | 2026: January 31 |
+| Date | 2027: January 31 |
 | Discipline | both |
 | Field Size | 1000 |
 | Founded | 2020 |
@@ -111,4 +111,4 @@ The Planica Ski Marathon is one of the newest events on the European marathon ci
 - euroloppet
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Planica Ski Marathon". Canonical: https://xcskilabs.com/race/planica-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Planica Ski Marathon". Canonical: https://xcskilabs.com/race/planica-ski-marathon/. Generated 2026-11-15.*

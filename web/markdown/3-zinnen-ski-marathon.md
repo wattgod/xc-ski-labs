@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Italy"
 region: "Trentino-Alto Adige"
 location: "Sexten to Niederdorf"
-date: "2026: January 18"
+date: "2027: January 9-10"
 url: "https://xcskilabs.com/race/3-zinnen-ski-marathon/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/3-zinnen-ski-marathon/"
 | Altitude | 1,300 m |
 | Location | Sexten to Niederdorf |
 | Country | Italy |
-| Date | 2026: January 18 |
+| Date | 2027: January 9-10 |
 | Discipline | classic |
 | Field Size | 100 |
 | Founded | 1976 |
@@ -117,4 +117,4 @@ Founded in 1976, the 3 Zinnen Ski-Marathon is one of the oldest ski marathons in
 - 50 Years – Pustertaler | 3 Zinnen Ski-Marathon | 1976 - 2026 (3 Zinnen Ski-Marathon)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — 3 Zinnen Ski-Marathon". Canonical: https://xcskilabs.com/race/3-zinnen-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — 3 Zinnen Ski-Marathon". Canonical: https://xcskilabs.com/race/3-zinnen-ski-marathon/. Generated 2026-11-15.*
