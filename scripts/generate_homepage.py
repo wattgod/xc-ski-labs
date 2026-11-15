@@ -336,7 +336,7 @@ a:hover {{ text-decoration: underline; }}
 .hero-loop {{ width: min(100%, 340px); justify-self: center; }}
 @media (min-width: 900px) {{
   /* Title and buttons on the left, the loop on the right */
-  .hero-inner {{ grid-template-columns: minmax(0, 1fr) minmax(260px, 400px); align-items: center; gap: clamp(32px, 4vw, 64px); }}
+  .hero-inner {{ grid-template-columns: minmax(0, 1fr) clamp(260px, 30vw, 400px); align-items: center; gap: clamp(32px, 4vw, 64px); }}
   .hero-loop {{ width: 100%; }}
 }}
 

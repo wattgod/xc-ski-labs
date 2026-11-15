@@ -1,4 +1,4 @@
-"""Technique loops: Gravel God skiing each classic technique (scripts/xsl_loops.py)."""
+"""Technique loops: Gravel God skiing each technique (scripts/xsl_loops.py)."""
 
 import importlib.util
 import json
@@ -37,7 +37,7 @@ def test_figure_is_lazy_muted_inline_and_decorative():
                  'poster="/media/loops/diagonal_square.jpg"'):
         assert attr in video
     assert " src=" not in video, "the video must not download before it scrolls into view"
-    assert "Diagonal stride" in html
+    assert "Diagonal stride" in html and 'data-name="Diagonal stride"' in video
     # The caption is the technique name only: no gear or cycle-time line under the loop.
     assert "Climbing gear" not in html and "cycle" not in html
 
@@ -63,7 +63,7 @@ def test_homepage_hero_has_the_front_on_skate_loop_beside_the_title():
     assert 'data-src="/media/loops/v2_front_portrait.mp4"' in video and 'poster="/media/loops/v2_front_portrait.jpg"' in video
     assert 'preload="none"' in video and " src=" not in video          # lazy: nothing downloads up front
     assert "<figcaption" not in loop                                    # no caption under the animation
-    assert "grid-template-columns: minmax(0, 1fr) minmax(260px, 400px)" in html
+    assert "grid-template-columns: minmax(0, 1fr) clamp(260px, 30vw, 400px)" in html
 
 
 def test_loop_script_respects_reduced_motion_and_guards_entries():
@@ -74,7 +74,8 @@ def test_loop_script_respects_reduced_motion_and_guards_entries():
     assert "v.removeAttribute('src'); v.load();" in js                 # ...and go back to the poster frame
     # a pause control, added only when a loop plays (after the reduced-motion early return)
     assert js.index("if (mq && mq.matches) return;") < js.index("function toggle(")
-    assert "'Pause animation'" in js and "aria-pressed" in js
+    assert "(off ? 'Play ' : 'Pause ') + what + ' animation'" in js and "aria-pressed" not in js
+    assert "addEventListener('playing'" in js                          # no button when autoplay is refused
     assert "!entries.length" in js                      # pitfall #33
     assert "requestAnimationFrame" in js
 

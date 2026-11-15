@@ -41,6 +41,7 @@ LOOP_SHAPES = {"v2_front": ("portrait",)}
 def shapes(tech: str) -> tuple[str, ...]:
     return LOOP_SHAPES.get(tech, ("wide", "square"))
 
+
 # race discipline -> the loop that fits it. Skate races get none: the one skate loop is a portrait made for the
 # homepage hero, and race pages show square loops.
 DISCIPLINE_LOOP = {"classic": "diagonal", "both": "kickdp"}
@@ -74,7 +75,7 @@ def loop_figure(tech: str, shape: str = "wide", caption: bool = True, extra_clas
     cls = f"xsl-loop xsl-loop--{shape}" + (f" {extra_class}" if extra_class else "")
     return (f'<figure class="{cls}" data-xsl-loop>'
             f'<div class="xsl-loop-frame"><video class="xsl-loop-video" muted loop playsinline preload="none" '
-            f'poster="{stem}.jpg" data-src="{stem}.mp4" width="{w}" height="{h}" aria-hidden="true"></video></div>'
+            f'poster="{stem}.jpg" data-src="{stem}.mp4" data-name="{html.escape(name)}" width="{w}" height="{h}" aria-hidden="true"></video></div>'
             f'{cap}</figure>')
 
 
@@ -113,7 +114,8 @@ LOOP_JS = """
       figs.forEach(function (v) {
         v.pause(); v.removeAttribute('autoplay');
         if (v.getAttribute('src')) { v.removeAttribute('src'); v.load(); }
-        var b = v.parentNode.querySelector('.xsl-loop-toggle'); if (b) b.remove();
+        var b = v.parentNode.querySelector('.xsl-loop-toggle');
+        if (b) { if (document.activeElement === b) { v.closest('figure').setAttribute('tabindex', '-1'); v.closest('figure').focus(); } b.remove(); }
       });
     });
   }
@@ -123,9 +125,10 @@ LOOP_JS = """
     if (v.parentNode.querySelector('.xsl-loop-toggle')) return;
     var b = document.createElement('button');
     b.type = 'button'; b.className = 'xsl-loop-toggle';
+    var what = v.getAttribute('data-name') || '';
     function show() { var off = v.hasAttribute('data-paused');
-      b.setAttribute('aria-label', off ? 'Play animation' : 'Pause animation'); b.setAttribute('aria-pressed', off ? 'true' : 'false');
-      b.innerHTML = off ? '&#9654;' : '&#10073;&#10073;'; }
+      b.setAttribute('aria-label', (off ? 'Play ' : 'Pause ') + what + ' animation');
+      b.innerHTML = off ? '&#9654;&#xFE0E;' : '&#10073;&#10073;'; }
     b.addEventListener('click', function () {
       if (v.hasAttribute('data-paused')) { v.removeAttribute('data-paused'); var p = v.play(); if (p && p.catch) { p.catch(function () {}); } }
       else { v.setAttribute('data-paused', ''); v.pause(); }
@@ -136,8 +139,10 @@ LOOP_JS = """
   function start(v) {
     if (v.hasAttribute('data-paused')) return;
     if (!v.getAttribute('src')) { v.setAttribute('src', v.getAttribute('data-src')); }
+    if (!v.hasAttribute('data-toggle')) {     // the button comes only once it really plays (autoplay can be refused)
+      v.setAttribute('data-toggle', ''); v.addEventListener('playing', function () { toggle(v); });
+    }
     var p = v.play(); if (p && p.catch) { p.catch(function () {}); }
-    toggle(v);
   }
   if (!('IntersectionObserver' in window)) { figs.forEach(start); return; }
   io = new IntersectionObserver(function (entries) {
