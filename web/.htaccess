@@ -10,5 +10,7 @@ RewriteRule ^ https://xcskilabs.com%{REQUEST_URI} [R=301,L]
 ErrorDocument 404 /404.html
 
 # Duplicate profiles removed 2026-11-15 (#87): send old URLs to the surviving race.
-RewriteRule ^race/gatineau-55/(.*)$ https://xcskilabs.com/race/gatineau-loppet/$1 [R=301,L]
-RewriteRule ^race/ushuaia-ski-marathon/(.*)$ https://xcskilabs.com/race/ushuaia-loppet/$1 [R=301,L]
+RewriteRule ^race/gatineau-55\.md$ https://xcskilabs.com/race/gatineau-loppet.md [R=301,L]
+RewriteRule ^race/gatineau-55(?:/(.*))?$ https://xcskilabs.com/race/gatineau-loppet/$1 [R=301,L]
+RewriteRule ^race/ushuaia-ski-marathon\.md$ https://xcskilabs.com/race/ushuaia-loppet.md [R=301,L]
+RewriteRule ^race/ushuaia-ski-marathon(?:/(.*))?$ https://xcskilabs.com/race/ushuaia-loppet/$1 [R=301,L]
