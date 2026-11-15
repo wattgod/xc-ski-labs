@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Canada"
 region: "Ontario"
 location: "Arrowhead Provincial Park, Huntsville"
-date: "2027: January 24"
+date: "2026: January 24"
 url: "https://xcskilabs.com/race/muskoka-loppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/muskoka-loppet/"
 | Altitude | 320 m |
 | Location | Arrowhead Provincial Park, Huntsville |
 | Country | Canada |
-| Date | 2027: January 24 |
+| Date | 2026: January 24 |
 | Discipline | classic |
 | Field Size | 500 |
 | Founded | 1985 |

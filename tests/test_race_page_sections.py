@@ -209,3 +209,12 @@ def test_display_date_shows_the_next_edition_then_the_pattern():
     vitals = {"date_specific": "2027: March 6-7", "date": "First weekend in March"}
     assert gen.display_date(vitals, date(2027, 1, 1)) == "March 6-7, 2027"
     assert gen.display_date(vitals, date(2027, 3, 8)) == "First weekend in March"
+
+
+def test_date_sources_are_https_and_match_profiles():
+    """XC-04 provenance: every applied 2026-27 date has an https source and is in its profile."""
+    sources = json.loads((Path(__file__).resolve().parent.parent / "data" / "race-dates-2026-27-sources.json").read_text())
+    profiles = {p["slug"]: p for p in _profiles()}
+    for slug, rec in sources["applied"].items():
+        assert rec["source_url"].startswith("https://"), slug
+        assert profiles[slug]["vitals"]["date_specific"] == rec["date_specific"], slug
