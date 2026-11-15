@@ -529,7 +529,7 @@ class TestPrivacyAndMethodologyPages:
         html = _load_page("privacy/index.html")
         assert "Privacy Policy" in html
         assert "FormSubmit" in html
-        assert "Effective date: July 2026" in html
+        assert "Effective date: November 15, 2026" in html
         assert "European Economic Area, the United Kingdom or Switzerland" in html
         assert "analytics stays off until you accept it" in html
         assert "Elsewhere, analytics is active by default." in html

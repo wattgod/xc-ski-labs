@@ -12,7 +12,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
-EFFECTIVE_DATE = "October 2, 2026"
+EFFECTIVE_DATE = "November 15, 2026"
 
 
 def esc(value: str) -> str:

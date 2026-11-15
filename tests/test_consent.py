@@ -5,8 +5,7 @@ Ported from Gravel God's tests/test_cookie_consent.py (Matti's ruling
 plus XC checks that every generated page carries the one shared head and
 banner and nothing else configures GA4.
 
-wordpress/generate_questionnaire.py is excluded: it is being moved off
-FormSubmit in a separate PR and still carries its own consent snippet.
+The questionnaire (the $49.99 storefront) uses the same head and banner.
 """
 from __future__ import annotations
 
@@ -400,6 +399,7 @@ CLI_GENERATORS = [
     "wordpress/generate_goals.py",
     "wordpress/generate_methodology.py",
     "wordpress/generate_privacy.py",
+    "wordpress/generate_questionnaire.py",
     "wordpress/generate_terms.py",
 ]
 
