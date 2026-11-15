@@ -17,9 +17,81 @@ RACE_INDEX = PROJECT_ROOT / "web" / "race-index.json"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 TOKENS_CSS = PROJECT_ROOT / "tokens" / "tokens.css"
 
-FORM_ACTION = "https://formsubmit.co/coaching@xcskilabs.com"
-FORM_SUBJECT = "New Plan Questionnaire \u2014 XC Ski Labs"
+# The shared lead worker (wattgod/gravel-race-automation
+# workers/fueling-lead-intake), the same URL /goals/ posts to. It stores the
+# answers in Mission Control (source plan_intake) and Matti gets an alert with
+# every answer. It answers 200 with success only once they are stored.
+# The page used to post to FormSubmit at an address that was never activated,
+# so every submission was discarded.
+LEAD_WORKER_URL = "https://fueling-lead-intake.gravelgodcoaching.workers.dev"
+LEAD_SOURCE = "plan_intake"
+BRAND = "xcskilabs"
+CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
+SUBMIT_TIMEOUT_MS = 35000  # the worker waits up to 28 s on Mission Control
+# The worker and Mission Control keep at most 64 answers, keys matching
+# ANSWER_KEY_PATTERN, 4000 characters each, 40000 in total.
+ANSWER_KEY_PATTERN = r"^[a-z0-9_]{1,40}$"
+MAX_ANSWER_KEYS = 64
+MAX_ANSWER_LEN = 4000
+MAX_ANSWERS_TOTAL = 40000
 TOTAL_SECTIONS = 8
+
+# Pure helpers for the submit path, kept separate so tests run this exact
+# source through Node. glPlanIntakePayload builds the worker body from the
+# form's name/value pairs; glPlanIntakeSend resolves true only for a 200 whose
+# body says success, and false for anything else (error status, bad JSON,
+# network failure, timeout).
+PLAN_INTAKE_SUBMIT_JS = r"""
+function glPlanIntakePayload(pairs, ctx) {
+  var KEY_RE = /^[a-z0-9_]{1,40}$/;
+  var answers = {};
+  var count = 0;
+  var website = '';
+  pairs.forEach(function(pair) {
+    var key = pair[0];
+    var value = pair[1] == null ? '' : String(pair[1]).trim();
+    if (key === 'website') { website = value; return; }
+    if (!KEY_RE.test(key) || !value || count >= 64) return;
+    if (answers[key] !== undefined) { answers[key] += ', ' + value; return; }
+    answers[key] = value.slice(0, 4000);
+    count += 1;
+  });
+  var raceName = answers.target_race || '';
+  var slug = String(ctx.raceSlug || '');
+  if (!ctx.races || ctx.races[slug] !== raceName) slug = '';
+  return {
+    email: answers.email || '',
+    name: answers.name || '',
+    brand: ctx.brand,
+    source: ctx.source,
+    race_slug: slug,
+    race_name: raceName,
+    goal_answers: answers,
+    website: website
+  };
+}
+
+function glPlanIntakeSend(fetchFn, url, payload, timeoutMs) {
+  var ctrl = typeof AbortController === 'function' ? new AbortController() : null;
+  var killer = setTimeout(function() { if (ctrl) ctrl.abort(); }, timeoutMs);
+  return Promise.resolve().then(function() {
+    return fetchFn(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: ctrl ? ctrl.signal : undefined
+    });
+  }).then(function(r) {
+    if (!r || r.status !== 200) return false;
+    return r.json().then(function(body) {
+      return !!(body && body.success === true);
+    }, function() { return false; });
+  }).catch(function() { return false; }).then(function(ok) {
+    clearTimeout(killer);
+    return ok;
+  });
+}
+"""
 
 
 def esc(text: Any) -> str:
@@ -360,6 +432,15 @@ textarea {
   font-size: 0.95rem;
   margin: 12px 0 0;
 }
+.gl-submit-error {
+  border-left: 4px solid var(--gl-swix-red);
+  color: var(--gl-carbon);
+  font-size: 0.95rem;
+  margin: 12px 0 0;
+  padding: 4px 0 4px 12px;
+}
+.gl-submit-error[hidden] { display: none; }
+.gl-website-field { position: absolute; left: -9999px; }
 .gl-success-message {
   border: 3px solid var(--gl-carbon);
   background: var(--gl-white);
@@ -516,11 +597,15 @@ def section(num: int, title: str, body: str) -> str:
 
 
 def build_form() -> str:
-    return f"""<form id="planIntake" class="gl-form" action="{esc(FORM_ACTION)}" method="POST">
-  <input type="hidden" name="_subject" value="{esc(FORM_SUBJECT)}">
-  <input type="hidden" name="_next" value="https://xcskilabs.com/questionnaire/?submitted=1">
-  <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
-  <input type="hidden" name="_captcha" value="false">
+    # No action: the page's script sends the answers to the lead worker.
+    # There is no working no-JS path (the old one was FormSubmit, which
+    # discarded everything); <noscript> says so and gives the email address.
+    return f"""<form id="planIntake" class="gl-form" method="post">
+  <noscript><p class="gl-submit-error">This form needs JavaScript to send. If you can't turn it on, email me your answers at <a href="mailto:{esc(CONTACT_EMAIL)}">{esc(CONTACT_EMAIL)}</a>.</p></noscript>
+  <div class="gl-website-field" aria-hidden="true">
+    <label for="website">Leave this empty</label>
+    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+  </div>
   <input type="hidden" name="race_slug" id="raceSlug">
   <input type="hidden" name="review_goal" id="reviewGoal">
   <input type="hidden" name="review_habits" id="reviewHabits">
@@ -529,13 +614,13 @@ def build_form() -> str:
   {section(1, "Your race", '''
     <div class="gl-field">
       <label for="targetRace">Target race <span class="req">*</span></label>
-      <input id="targetRace" name="target_race" type="text" required autocomplete="off">
+      <input id="targetRace" name="target_race" type="text" required autocomplete="off" maxlength="200">
       <div class="gl-hint">Tell me about your race.</div>
     </div>
     <div class="gl-field-row">
       <div class="gl-field">
         <label for="raceDate">Race date <span class="req">*</span></label>
-        <input id="raceDate" name="race_date" type="text" required placeholder="March 1, 2027">
+        <input id="raceDate" name="race_date" type="text" required placeholder="March 1, 2027" maxlength="100">
       </div>
       <div class="gl-field">
         <label for="raceDistance">Distance</label>
@@ -642,19 +727,25 @@ def build_form() -> str:
     <div class="gl-field-row">
       <div class="gl-field">
         <label for="homeAltitude">Altitude where you live</label>
-        <input id="homeAltitude" name="home_altitude" type="text">
+        <input id="homeAltitude" name="home_altitude" type="text" maxlength="100">
       </div>
       <div class="gl-field">
         <label for="raceAltitude">Altitude where you race</label>
-        <input id="raceAltitude" name="race_altitude" type="text">
+        <input id="raceAltitude" name="race_altitude" type="text" maxlength="100">
       </div>
     </div>
   ''')}
 
   {section(8, "Email and notes", '''
-    <div class="gl-field">
-      <label for="email">Email <span class="req">*</span></label>
-      <input id="email" name="email" type="email" required autocomplete="email">
+    <div class="gl-field-row">
+      <div class="gl-field">
+        <label for="email">Email <span class="req">*</span></label>
+        <input id="email" name="email" type="email" required autocomplete="email" maxlength="254">
+      </div>
+      <div class="gl-field">
+        <label for="athleteName">Your name</label>
+        <input id="athleteName" name="name" type="text" autocomplete="name" maxlength="200">
+      </div>
     </div>
     <div class="gl-field">
       <label for="planNotes">Anything the plan must work around</label>
@@ -665,6 +756,7 @@ def build_form() -> str:
   <div class="gl-submit-wrap">
     <button type="submit" class="gl-submit-btn" id="submitBtn">Send questionnaire</button>
     <p class="gl-submit-note">You'll get your plan details and payment link by email, usually within a day.</p>
+    <p class="gl-submit-error" id="submitError" role="alert" hidden></p>
   </div>
 </form>"""
 
@@ -683,8 +775,14 @@ def build_cookie_banner() -> str:
 
 def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dict[str, Any]]) -> str:
     return f"""<script>
+{PLAN_INTAKE_SUBMIT_JS}
 (function() {{
   'use strict';
+  var LEAD_WORKER_URL = {_safe_json_for_script(LEAD_WORKER_URL)};
+  var LEAD_SOURCE = {_safe_json_for_script(LEAD_SOURCE)};
+  var BRAND = {_safe_json_for_script(BRAND)};
+  var CONTACT_EMAIL = {_safe_json_for_script(CONTACT_EMAIL)};
+  var SUBMIT_TIMEOUT_MS = {SUBMIT_TIMEOUT_MS};
   var STORAGE_KEY = 'xcskilabs_plan_intake_v2';
   var TOTAL_SECTIONS = {TOTAL_SECTIONS};
   var races = {_safe_json_for_script(slug_map, separators=(',', ':'))};
@@ -750,7 +848,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
   function getFormData() {{
     var data = {{}};
     Array.prototype.forEach.call(form.elements, function(el) {{
-      if (!el.name || el.name.charAt(0) === '_' || /^(review_goal|review_habits|goal_ref)$/.test(el.name)) return;
+      if (!el.name || el.name === 'website' || /^(review_goal|review_habits|goal_ref)$/.test(el.name)) return;
       if (el.type === 'checkbox') {{
         if (!data[el.name]) data[el.name] = [];
         if (el.checked) data[el.name].push(el.value);
@@ -773,7 +871,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     var data;
     try {{ data = JSON.parse(raw); }} catch(e) {{ return; }}
     Array.prototype.forEach.call(form.elements, function(el) {{
-      if (!el.name || el.name.charAt(0) === '_' || /^(review_goal|review_habits|goal_ref)$/.test(el.name)) return;
+      if (!el.name || el.name === 'website' || /^(review_goal|review_habits|goal_ref)$/.test(el.name)) return;
       if (el.type === 'checkbox') {{
         el.checked = Array.isArray(data[el.name]) && data[el.name].indexOf(el.value) !== -1;
       }} else if (el.type === 'radio') {{
@@ -837,7 +935,7 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     }} catch (e) {{}}
     var page = document.querySelector('.gl-page');
     if (page) {{
-      page.innerHTML = '<div class="gl-success-message"><h2>Questionnaire received.</h2><p>Payment received or not, we read the intake before building the plan. Check your email for the next step.</p><a href="/training-plans/">Back to training plans</a></div>';
+      page.innerHTML = '<div class="gl-success-message"><h2>Questionnaire received.</h2><p>Payment received or not, I read the intake before building the plan. Check your email for the next step.</p><a href="/training-plans/">Back to training plans</a></div>';
     }}
     return;
   }}
@@ -902,29 +1000,79 @@ def build_questionnaire_js(slug_map: dict[str, str], race_details: dict[str, dic
     updateProgress();
     updateConditionals();
   }});
-  form.addEventListener('submit', function() {{
+  var submitBtn = document.getElementById('submitBtn');
+  var submitError = document.getElementById('submitError');
+  var sending = false;
+
+  function showSubmitError(text) {{
+    if (!submitError) return;
+    submitError.textContent = text;
+    submitError.hidden = false;
+  }}
+
+  function formPairs() {{
+    var pairs = [];
+    Array.prototype.forEach.call(form.elements, function(el) {{
+      if (!el.name || el.disabled) return;
+      if ((el.type === 'checkbox' || el.type === 'radio') && !el.checked) return;
+      var value = el.value;
+      // Prefilled from the goal review: kept short so the whole intake stays
+      // inside the worker's per-answer and total caps.
+      if (/^(review_goal|review_habits)$/.test(el.name)) value = String(value || '').slice(0, 1000);
+      pairs.push([el.name, value]);
+    }});
+    return pairs;
+  }}
+
+  function confirmedUrl() {{
+    var url = 'https://xcskilabs.com/questionnaire/?submitted=1';
     if (goalsMode && GOAL_STORAGE_KEY) {{
       try {{
         var bytes = new Uint8Array(16);
         crypto.getRandomValues(bytes);
         var nonce = Array.from(bytes).map(function(b) {{ return b.toString(16).padStart(2, '0'); }}).join('');
         sessionStorage.setItem('xc_goal_pending_' + nonce, GOAL_STORAGE_KEY);
-        form.querySelector('[name="_next"]').value =
-          'https://xcskilabs.com/questionnaire/?submitted=1&confirm=' + nonce;
+        url += '&confirm=' + nonce;
       }} catch (e) {{}}
-    }} else if (!goalsMode) {{
-      localStorage.removeItem(STORAGE_KEY);
     }}
-    if (typeof gtag === 'function') gtag('event', 'generate_lead', {{ form_name: 'custom_plan_intake' }});
-    var btn = document.getElementById('submitBtn');
-    if (btn) {{
-      btn.disabled = true;
-      btn.textContent = 'Sending...';
-      setTimeout(function() {{
-        btn.disabled = false;
-        btn.textContent = 'Send questionnaire';
-      }}, 5000);
+    return url;
+  }}
+
+  form.addEventListener('submit', function(e) {{
+    e.preventDefault();
+    if (sending) return;
+    if (submitError) submitError.hidden = true;
+    var payload = glPlanIntakePayload(formPairs(), {{
+      raceSlug: raceSlugInput.value, races: races, brand: BRAND, source: LEAD_SOURCE
+    }});
+    if (payload.website) {{
+      showSubmitError("Something filled a hidden field. Clear your browser's autofill for this page and try again, or email me at " + CONTACT_EMAIL + ".");
+      return;
     }}
+    sending = true;
+    saveFormData();
+    if (submitBtn) {{
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+    }}
+    glPlanIntakeSend(window.fetch.bind(window), LEAD_WORKER_URL, payload, SUBMIT_TIMEOUT_MS).then(function(ok) {{
+      if (!ok) {{
+        // The draft stays where it is (nothing is cleared), so a retry or a
+        // reload still has every answer.
+        sending = false;
+        if (submitBtn) {{
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send questionnaire';
+        }}
+        showSubmitError("That didn't go through, and your answers are still here. Please try again. If it keeps failing, email me at " + CONTACT_EMAIL + ".");
+        return;
+      }}
+      if (!goalsMode) {{
+        try {{ localStorage.removeItem(STORAGE_KEY); }} catch (err) {{}}
+      }}
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', {{ form_name: 'custom_plan_intake' }});
+      window.location.href = confirmedUrl();
+    }});
   }});
 
   var banner = document.getElementById('gl-cookie-consent');

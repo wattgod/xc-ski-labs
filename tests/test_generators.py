@@ -458,14 +458,166 @@ class TestQuestionnaireGenerator:
         html = self._generate_with_fixture(tmp_path)
         assert "Test <\\/script> Race" in html
 
-    def test_form_posts_to_formsubmit_with_honeypot_and_redirect(self, tmp_path):
+    def test_form_posts_to_the_lead_worker_not_formsubmit(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
-        assert 'action="https://formsubmit.co/coaching@xcskilabs.com"' in html
-        assert 'method="POST"' in html
-        assert 'name="_honey"' in html
-        assert 'name="_next" value="https://xcskilabs.com/questionnaire/?submitted=1"' in html
-        assert 'name="_subject" value="New Plan Questionnaire' in html
-        assert "XC Ski Labs" in html
+        lowered = html.lower()
+        assert "formsubmit" not in lowered
+        assert "coaching@xcskilabs.com" not in lowered
+        for gone in ('name="_honey"', 'name="_next"', 'name="_subject"', 'name="_captcha"'):
+            assert gone not in html
+        form_tag = re.search(r'<form id="planIntake"[^>]*>', html).group(0)
+        assert "action=" not in form_tag
+        assert 'method="post"' in form_tag
+        assert 'name="website"' in html
+        assert '"https://fueling-lead-intake.gravelgodcoaching.workers.dev"' in html
+        assert 'var LEAD_SOURCE = "plan_intake"' in html
+        assert 'var BRAND = "xcskilabs"' in html
+        assert "gravelgodcoaching@gmail.com" in html
+        assert "<noscript>" in html
+
+    def test_payload_keys_fit_mission_control_caps(self, tmp_path):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("gq", WORDPRESS_DIR / "generate_questionnaire.py")
+        gq = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(gq)
+        html = self._generate_with_fixture(tmp_path)
+        form = html[html.index('<form id="planIntake"'):html.index("</form>")]
+        keys = set(re.findall(r'name="([^"]+)"', form)) - {"website"}
+        assert keys, "no fields found"
+        bad = [k for k in keys if not re.match(gq.ANSWER_KEY_PATTERN, k)]
+        assert not bad, bad
+        assert len(keys) <= gq.MAX_ANSWER_KEYS
+        # Every free-text field is length-capped, so the longest possible
+        # submission fits the worker's 40000-character total.
+        free_text = re.findall(r'<(?:textarea|input)[^>]*name="([^"]+)"[^>]*>', form)
+        budget = 0
+        for tag in re.findall(r'<(?:textarea|input)[^>]*>', form):
+            name = re.search(r'name="([^"]+)"', tag)
+            if not name or name.group(1) == "website":
+                continue
+            kind = re.search(r'type="([^"]+)"', tag)
+            kind = kind.group(1) if kind else "textarea"
+            if kind in ("radio", "checkbox", "number"):
+                budget += 20
+                continue
+            if kind == "hidden":
+                budget += {"race_slug": 100, "goal_ref": 64}.get(name.group(1), 1000)
+                continue
+            limit = re.search(r'maxlength="(\d+)"', tag)
+            assert limit, f"{name.group(1)} has no maxlength"
+            assert int(limit.group(1)) <= gq.MAX_ANSWER_LEN
+            budget += int(limit.group(1))
+        assert free_text and budget <= gq.MAX_ANSWERS_TOTAL, budget
+        # the two prefilled review fields are cut to 1000 before sending
+        assert ".slice(0, 1000)" in html
+
+    def test_success_only_on_a_200_with_success(self, tmp_path):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("gq", WORDPRESS_DIR / "generate_questionnaire.py")
+        gq = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(gq)
+        script = gq.PLAN_INTAKE_SUBMIT_JS + r"""
+        const cases = [
+          [200, '{"success":true}', true],
+          [200, '{"success":"false"}', false],
+          [200, '{"success":false}', false],
+          [200, 'not json', false],
+          [400, '{"error":"Unknown source"}', false],
+          [503, '{"error":"Could not store your answers."}', false],
+          [201, '{"success":true}', false],
+        ];
+        (async () => {
+          const out = [];
+          for (const [status, body, want] of cases) {
+            const got = await glPlanIntakeSend(async () => new Response(body, { status }), 'u', {}, 1000);
+            out.push([status, body, got, want]);
+          }
+          out.push(['network', '', await glPlanIntakeSend(async () => { throw new TypeError('offline'); }, 'u', {}, 1000), false]);
+          const hang = (url, opts) => new Promise((res, rej) => opts.signal.addEventListener('abort', () => rej(new Error('aborted'))));
+          out.push(['timeout', '', await glPlanIntakeSend(hang, 'u', {}, 20), false]);
+          let sent = null;
+          await glPlanIntakeSend(async (url, opts) => { sent = [url, opts.method, opts.headers['Content-Type'], opts.body]; return new Response('{"success":true}'); }, 'https://w', { a: 1 }, 1000);
+          out.push(['request', JSON.stringify(sent), true, true]);
+          console.log(JSON.stringify(out));
+        })();
+        """
+        result = subprocess.run(["node", "-e", script], capture_output=True, text=True, timeout=20)
+        assert result.returncode == 0, result.stderr
+        for label, body, got, want in json.loads(result.stdout):
+            assert got == want, (label, body)
+        sent = json.loads(json.loads(result.stdout)[-1][1])
+        assert sent == ["https://w", "POST", "application/json", '{"a":1}']
+
+    def test_payload_shape(self, tmp_path):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("gq", WORDPRESS_DIR / "generate_questionnaire.py")
+        gq = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(gq)
+        pairs = [["race_slug", "vasaloppet"], ["target_race", "Vasaloppet"], ["email", "s@example.com"],
+                 ["name", "Test Skier"], ["technique", "classic"], ["injuries", "  "],
+                 ["goal_ref", "a" * 64], ["review_goal", "Test goal"], ["website", ""],
+                 ["Bad-Key", "x"], ["recent_result", "y" * 5000]]
+        script = gq.PLAN_INTAKE_SUBMIT_JS + f"""
+        const races = {{ vasaloppet: 'Vasaloppet' }};
+        const ctx = {{ raceSlug: 'vasaloppet', races, brand: 'xcskilabs', source: 'plan_intake' }};
+        console.log(JSON.stringify([
+          glPlanIntakePayload({json.dumps(pairs)}, ctx),
+          glPlanIntakePayload([["target_race", "Some Other Race"], ["website", "bot"]], ctx),
+        ]));
+        """
+        result = subprocess.run(["node", "-e", script], capture_output=True, text=True, timeout=20)
+        assert result.returncode == 0, result.stderr
+        full, other = json.loads(result.stdout)
+        assert full["source"] == "plan_intake" and full["brand"] == "xcskilabs"
+        assert full["email"] == "s@example.com" and full["name"] == "Test Skier"
+        assert full["race_slug"] == "vasaloppet" and full["race_name"] == "Vasaloppet"
+        assert full["website"] == ""
+        answers = full["goal_answers"]
+        assert answers["goal_ref"] == "a" * 64 and answers["review_goal"] == "Test goal"
+        assert "injuries" not in answers and "Bad-Key" not in answers and "website" not in answers
+        assert len(answers["recent_result"]) == 4000
+        assert all(re.match(gq.ANSWER_KEY_PATTERN, k) for k in answers)
+        # a typed race that is not the prefilled one drops the stale slug
+        assert other["race_slug"] == "" and other["race_name"] == "Some Other Race"
+        assert other["website"] == "bot"
+
+    def test_success_state_and_lead_event_only_after_a_stored_submit(self, tmp_path):
+        html = self._generate_with_fixture(tmp_path)
+        js = html[html.index("form.addEventListener('submit', function(e)"):]
+        assert "e.preventDefault()" in js
+        fail = js.index("if (!ok) {")
+        ret = js.index("return;", fail)
+        failure_branch = js[fail:ret]
+        assert "localStorage.removeItem" not in failure_branch
+        assert "generate_lead" not in failure_branch
+        assert "submitBtn.disabled = false" in failure_branch
+        assert "gravelgodcoaching@gmail.com" not in failure_branch  # comes from CONTACT_EMAIL
+        assert "CONTACT_EMAIL" in failure_branch
+        after = js[ret:]
+        assert after.index("localStorage.removeItem(STORAGE_KEY)") < after.index("window.location.href = confirmedUrl()")
+        assert after.index("generate_lead") < after.index("window.location.href = confirmedUrl()")
+        assert html.count("generate_lead") == 1
+
+    def test_goals_mode_confirm_nonce_survives(self, tmp_path):
+        html = self._generate_with_fixture(tmp_path)
+        assert "'https://xcskilabs.com/questionnaire/?submitted=1'" in html
+        assert "url += '&confirm=' + nonce" in html
+        assert "sessionStorage.setItem('xc_goal_pending_' + nonce, GOAL_STORAGE_KEY)" in html
+        assert "form.addEventListener('submit', updateReviewAttribution)" in html
+        assert html.index("form.addEventListener('submit', updateReviewAttribution)") < \
+            html.index("form.addEventListener('submit', function(e)")
+
+    def test_copy_is_first_person(self, tmp_path):
+        html = self._generate_with_fixture(tmp_path)
+        assert "I read the intake before building the plan" in html
+        assert "we read the intake" not in html
+
+    def test_whole_page_script_parses(self, tmp_path):
+        html = self._generate_with_fixture(tmp_path)
+        js = html[html.rindex("<script>") + len("<script>"):html.rindex("</script>")]
+        result = subprocess.run(["node", "-e", "new Function(require('fs').readFileSync(0, 'utf8'))"],
+                                input=js, capture_output=True, text=True, timeout=20)
+        assert result.returncode == 0, result.stderr
 
     def test_success_state_for_submitted_query(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
@@ -497,6 +649,7 @@ class TestQuestionnaireGenerator:
             'name="race_altitude"',
             'name="email"',
             'name="plan_workarounds"',
+            'name="name"',
         ]:
             assert field in html
         assert 'type="email"' in html
