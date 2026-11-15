@@ -852,25 +852,25 @@ a:focus-visible, button:focus-visible {{
    inner width and padding, separated by exactly one 3px ink rule. Section
    titles share one style. The hero keeps its 6px band edge. */
 .gl-hp-ladder, .db-band, .xsl-motion, .gl-hp-goals {{
-  background: var(--ground); border: 0;
+  background: var(--gl-paper); border: 0;
 }}
 .hero + section {{ border-top: 0; }}
-.gl-hp-ladder + section, .db-band + section, .xsl-motion + section {{ border-top: var(--stroke-button) solid var(--ink); }}
+.gl-hp-ladder + section, .db-band + section, .xsl-motion + section {{ border-top: var(--stroke-button) solid var(--xc-light-ink); }}
 .db-inner, .xsl-motion-inner, .gl-hp-goals-inner {{ max-width: var(--gl-measure); margin: 0 auto; padding: 64px 24px; }}
 .xsl-motion-inner {{ gap: 18px; }}
 .db-band .section-heading {{ align-items: baseline; justify-content: space-between; margin: 0 0 24px; }}
 .db-band .section-heading h2, .xsl-motion-title, .gl-hp-goals h2 {{
   font-family: var(--font-label); font-weight: 800; font-style: normal; font-stretch: normal;
   font-size: clamp(30px, 4.4vw, 46px); line-height: 1; letter-spacing: .01em;
-  text-transform: uppercase; color: var(--ink); margin: 0;
+  text-transform: uppercase; color: var(--xc-light-ink); margin: 0;
 }}
 .gl-hp-goals h2 {{ margin: 0 0 12px; }}
-.gl-hp-goals-kicker {{ color: var(--ink-2); }}
+.gl-hp-goals-kicker {{ color: var(--xc-light-ink-2); }}
 /* Footer: the book's lockup type, no italics, one strap. */
 .footer-brand {{ font-family: var(--font-label); font-weight: 800; font-style: normal; letter-spacing: .2em; }}
 .footer-tagline {{ font-style: normal; }}
 @media (max-width: 640px) {{
-  .db-inner, .xsl-motion-inner, .gl-hp-goals-inner {{ padding: 48px 20px; }}
+  .db-inner, .xsl-motion-inner, .gl-hp-goals-inner {{ padding: 48px 20px; }} .gl-hp-ladder-cell {{ padding-left: 20px; padding-right: 20px; }}
 }}
 </style>
 </head>
