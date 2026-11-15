@@ -1,6 +1,8 @@
 # XC Ski Labs: 1970s Nordic print direction
 
-**Status:** September 2026 site direction. Source of truth for current CSS values:
+**Status:** Superseded on 2026-11-14 by the ratified Sledge Stores book in
+[`sledge-stores/README.md`](sledge-stores/README.md). It still describes what the live site
+runs until the port ships. Previously the September 2026 site direction. Source of truth for current CSS values:
 `tokens/tokens.css`.
 
 ## Reference

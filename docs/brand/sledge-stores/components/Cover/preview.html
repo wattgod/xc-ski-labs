@@ -1,0 +1,32 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>XC Ski Labs</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  /* Derivation: the stores themselves. An oat crate with navy slats and a stitch, a salmon crate behind it with its luggage tag, on the woven wool ground. Art held at x >= 480. */
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; }
+  .c1, .c2 { position:absolute; width:210px; height:200px; padding:12px; box-sizing:border-box; }
+  .c1 { left:40px; top:56px; background:var(--panel); }
+  .c2 { left:210px; top:28px; background:var(--splash); }
+  .c1::before,.c1::after,.c2::before,.c2::after { content:""; position:absolute; left:0; right:0; height:12px; }
+  .c1::before,.c1::after { background:repeating-linear-gradient(90deg,var(--ink) 0 20px,var(--panel) 20px 24px); }
+  .c2::before,.c2::after { background:repeating-linear-gradient(90deg,var(--splash-deep) 0 20px,var(--splash) 20px 24px); }
+  .c1::before,.c2::before { top:0; } .c1::after,.c2::after { bottom:0; }
+  .st { width:100%; height:100%; box-sizing:border-box; border:var(--stroke-stitch) dashed var(--ink); }
+  .c2 .st { border-color:var(--on-splash); display:grid; place-items:center; font:900 72px/1 var(--font-stencil); color:var(--on-splash); }
+  .tg { position:absolute; left:200px; top:236px; }
+  .name { position:absolute; left:32px; bottom:28px; margin:0; font:900 104px/.84 var(--font-stencil); text-transform:uppercase; color:var(--ink); }
+  .mk { position:absolute; left:32px; top:28px; width:48px; height:48px; }
+  .mk svg { width:48px; height:48px; display:block; }
+</style></head>
+<body class="xc-page">
+<div class="cover">
+  <div class="mk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" aria-hidden="true"><rect width="300" height="300" rx="28" fill="#1e2b3c"/><g transform="translate(150 150)"><g transform="rotate(-34)"><path d="M-11 125V-94C-11-112-17-124-26-132C-7-133 11-118 11-96V125Q0 133-11 125Z" fill="#f1e9dc"/><rect x="-6" y="29" width="12" height="24" rx="3" fill="#1e2b3c"/></g><g transform="rotate(34)"><path d="M-11 125V-96C-11-118 7-133 26-132C17-124 11-112 11-94V125Q0 133-11 125Z" fill="#e3876d"/><rect x="-6" y="29" width="12" height="24" rx="3" fill="#1e2b3c"/></g></g></svg></div>
+  <h1 class="name">XC Ski<br>Labs</h1>
+  <div class="art"><div class="c1"><div class="st"></div></div><div class="c2"><div class="st">$49</div></div><span class="xc-tag tg">Every module</span></div>
+</div>
+</body>
+</html>
