@@ -68,7 +68,7 @@
     },
     "ingalami": {
       "date_specific": "2027: March 13",
-      "source_url": "http://lillehammer-skiklub.no/ingalaami"
+      "source_url": "https://lillehammer-skiklub.no/ingalaami"
     },
     "jatkankynttila": {
       "date_specific": "2027: March 20",
@@ -88,7 +88,7 @@
     },
     "lake-louise-loppet": {
       "date_specific": "2027: February 21",
-      "source_url": "https://calgaryskiclub.org/loppet"
+      "source_url": "https://zone4.ca/register.asp?id=42749"
     },
     "lake-placid-loppet": {
       "date_specific": "2027: March 6",
@@ -121,10 +121,6 @@
     "moraloppet": {
       "date_specific": "2027: January 16",
       "source_url": "https://skiclassics.com/events/?sort=challengers"
-    },
-    "muskoka-loppet": {
-      "date_specific": "2027: January 24",
-      "source_url": "https://arrowheadnordic.ca"
     },
     "nattvasan": {
       "date_specific": "2027: March 5",
@@ -274,6 +270,7 @@
     "minnesota-finlandia": "",
     "minocqua-northwoods-loppet": "",
     "muffin-race": "",
+    "muskoka-loppet": "https://arrowheadnordic.ca (lists \"Jan 24\" with no year; muskokaloppet.ca does not resolve; reverted 2026-11-15)",
     "niseko-ski-marathon": "",
     "pokljuka-nordic-marathon": "",
     "saskaloppet": "",
@@ -294,5 +291,12 @@
       "source_url": "https://www.worldloppet.com/global-ski-marathon-calendar",
       "reason": "ambiguous: orsa profile may mix two events; Gastein has two criteriums (Dec 13 and Dec 20)"
     }
+  },
+  "notes": {
+    "vantaa-hiihto": "Organizer states Saturday 30.1.2027; the profile pattern \"First Sunday of March\" predates this and is wrong; fix the pattern when a second edition confirms the new timing.",
+    "yellowstone-rendezvous": "Re-checked 2026-11-15: organizer page lists \"Date: March 6, 2027\" (its intro paragraph still says 2026).",
+    "lake-louise-loppet": "Re-checked 2026-11-15 on the official Zone4 registration page: \"SUNDAY, FEBRUARY 21ST 2027\".",
+    "stowe-derby": "Re-checked 2026-11-15 on RunSignup: \"Sun February 28, 2027\" (a third-party calendar says Feb 21).",
+    "ingalami": "Re-checked 2026-11-15 over https: \"13. mars 2027\"."
   }
 }
