@@ -273,7 +273,7 @@ OFFER = {
          "cta": f"Build my {NEXT_SEASON} plan", "cta_href": "/questionnaire/?src=goals"},
     ],
     "decline": "Just the poster, thanks",
-    "terms": "Every plan is coach-built. You see the price before you pay.",
+    "terms": "I build every plan myself. You see the full terms before you pay.",
 }
 
 

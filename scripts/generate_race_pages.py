@@ -2831,8 +2831,8 @@ def build_product_ladder(race: dict) -> str:
     """Custom-first offer, followed by the higher-touch coaching path."""
     slug = esc(race["slug"])
     rungs = [
-        ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background — built from the intake.", f"{plan_offer.BLOCK_PRICE} / {plan_offer.BLOCK_WEEKS} WK", f"/questionnaire/?race={slug}", "Start the intake", True, False),
-        ("Higher touch", "1:1 coaching", "A coach reads your training and adjusts the plan as conditions, recovery, and life change.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply for coaching", False, False),
+        ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background. I build it from your answers.", f"{plan_offer.BLOCK_PRICE} / {plan_offer.BLOCK_WEEKS} WK", f"/questionnaire/?race={slug}", "Start the intake", True, False),
+        ("Higher touch", "1:1 coaching", "I read your training and adjust the plan as conditions, recovery, and life change.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply for coaching", False, False),
         ("Free reference", "Race prep guide", "Technique, pacing, fueling, and wax fundamentals to use while you evaluate your next step.", "FREE", "/guide/", "Read the guide", False, False),
     ]
     # Course rung only once the course is live (see COURSE_LIVE).
