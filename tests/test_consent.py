@@ -469,28 +469,19 @@ def test_no_browser_purchase_events(generated_pages):
 
 
 def test_coaching_ctas_send_cta_click(generated_pages):
+    """Every apply link names its Gravel God cta_name in data-cta; one
+    listener sends it as a cta_click event."""
     html = next(v for k, v in generated_pages.items() if k.startswith("generate_coaching/coaching/"))
-    assert "gtag('event', 'cta_click', { source: 'coaching', cta_name: name })" in html
+    assert "gtag('event', 'cta_click', { source: 'coaching', cta_name: el.getAttribute('data-cta') })" in html
     for name in ("hero_apply", "final_fill_intake", "sticky_cta"):
-        assert f"'{name}'" in html
-    assert "'tier_' + m[1]" in html
-    for tier in ("min", "mid", "max"):
-        assert f"?tier={tier}" in html
+        assert f'data-cta="{name}"' in html
 
 
-@pytest.mark.skipif(not HAS_NODE, reason="node not installed")
-def test_coaching_tier_regex_matches_every_tier(generated_pages):
-    """The tier regex once lost its \\b to a Python backspace and matched nothing."""
+def test_coaching_tier_ctas_name_their_own_tier(generated_pages):
+    """Each tier button's data-cta matches the tier in its own link."""
     html = next(v for k, v in generated_pages.items() if k.startswith("generate_coaching/coaching/"))
-    assert "\x08" not in html
-    regex = re.search(r"match\((/\[\?&\]tier=.*?/)\)", html).group(1)
-    js = (
-        "var r=%s;process.stdout.write(JSON.stringify(['min','mid','max','maxi'].map("
-        "function(t){var m=('/coaching/apply/?tier='+t).match(r);return m?m[1]:null})))" % regex
-    )
-    result = subprocess.run(["node", "-e", js], capture_output=True, text=True, timeout=10)
-    assert result.returncode == 0, result.stderr
-    assert json.loads(result.stdout) == ["min", "mid", "max", None]
+    pairs = re.findall(r'href="/coaching/apply/\?tier=(\w+)"[^>]*data-cta="tier_(\w+)"', html)
+    assert sorted(pairs) == [("max", "max"), ("mid", "mid"), ("min", "min")]
 
 
 def test_coaching_privacy_choices_clears_sticky_cta(generated_pages):

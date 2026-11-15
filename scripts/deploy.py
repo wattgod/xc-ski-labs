@@ -477,6 +477,26 @@ def sync_coaching():
             print(f"  Run: python {gen}")
         return False
 
+    # Images go up before the page, so the live page never points at a
+    # picture that isn't there yet. Any failure stops the deploy here.
+    img_dir = PROJECT_ROOT / "output" / "coaching" / "img"
+    images = sorted(img_dir.glob("*.webp"))
+    if not images:
+        print(f"  Coaching images not found in {img_dir}")
+        print("  Run: python wordpress/generate_coaching.py")
+        return False
+    remote_img_dir = f"{remote_base}/coaching/img"
+    ok, _, err = _ssh_run(host, user, port,
+                          f"mkdir -p {remote_img_dir} && chmod 755 {remote_img_dir}")
+    if not ok:
+        print(f"  Failed to create {remote_img_dir}: {err}")
+        return False
+    for image in images:
+        if not _scp_upload(host, user, port, image, f"{remote_img_dir}/{image.name}"):
+            print(f"  FAILED: coaching image upload {image.name}; page not deployed")
+            return False
+    print(f"  Uploaded {len(images)} coaching images to /coaching/img/")
+
     success = 0
     for local, remote_dir, remote_file, _ in files:
         ok, _, err = _ssh_run(host, user, port,
