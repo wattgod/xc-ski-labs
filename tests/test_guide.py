@@ -46,8 +46,12 @@ def test_gate_meta_correct_per_chapter():
             assert 'class="gl-guide-gate-form"' in html
             assert 'class="gl-guide-locked"' in html
             assert 'name="_honey"' in html
-            assert 'formsubmit.co' in html
+            assert 'formsubmit.co' not in html  # unactivated endpoint dropped posts
+            assert 'fueling-lead-intake.gravelgodcoaching.workers.dev' in html
             assert '/questionnaire/' in html  # intake fallback link
+            # Readable without JS; the gate starts hidden and JS shows it.
+            assert '<div class="gl-guide-locked" data-guide-locked>' in html
+            assert 'data-guide-gate hidden>' in html
 
 
 def test_every_inline_citation_resolves_to_rendered_source_link():
@@ -91,3 +95,18 @@ def test_no_banned_register_phrases_in_guide_output():
         html = path.read_text(encoding="utf-8").lower()
         for phrase in banned:
             assert phrase not in html, (path, phrase)
+
+
+def test_gate_unlocks_only_after_the_worker_accepts():
+    """ALL-03 (XC): no unlock or guide_unlock before the lead is stored."""
+    chapter = next(c for c in _content()["chapters"] if c["number"] > 3)
+    html = _chapter_html(chapter)
+    js = html[html.index("Guide email gate."):]
+    ok_branch = js[js.index("if (!res.ok) throw"):js.index(".catch(function() {")]
+    assert "gtag('event', 'guide_unlock'" in ok_branch
+    assert "localStorage.setItem(UNLOCK_KEY, '1')" in ok_branch
+    assert "unlock();" in ok_branch
+    before_fetch = js[:js.index("fetch('https://fueling-lead-intake")]
+    assert "'guide_unlock'" not in before_fetch
+    assert "setItem(UNLOCK_KEY" not in before_fetch
+    assert 'data-guide-gate-error' in html and 'gravelgodcoaching@gmail.com' in html
