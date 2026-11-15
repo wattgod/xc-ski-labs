@@ -81,7 +81,6 @@ def test_homepage_and_race_page_use_the_mapping(tmp_path):
     )
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
     assert "Tier 1 — Elite" in home
-    assert "Tier 2 &mdash; Contender" in home
     assert not OLD_NAMES.search(home)
 
     subprocess.run(

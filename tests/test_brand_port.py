@@ -173,3 +173,13 @@ def test_hyphenated_race_names_never_draw_a_second_hyphen():
 def test_long_race_names_get_one_break_point(name, expected):
     import generate_race_pages
     assert generate_race_pages._display_caps(name) == expected
+
+
+def test_endure_badge_is_in_every_logo_links_name():
+    """The badge is CSS-generated text; an aria-label on the logo link would hide
+    it from screen readers unless the label says it too."""
+    css = build_brand_tokens.build_css()
+    assert 'content: "Powered by Endure Labs";' in css
+    for path in _generator_sources():
+        for label in re.findall(r'class="gl-nav-logo"[^>]*aria-label="([^"]*)"', path.read_text(encoding="utf-8")):
+            assert "Endure Labs" in label, f"{path.name}: {label}"

@@ -325,12 +325,12 @@ class TestHomepage:
         if not hp.exists():
             pytest.skip("Homepage not generated")
         content = hp.read_text()
-        assert "The XC ski race database" in content
-        assert "<h1>Every cross country ski race, rated.</h1>" in content
-        assert "criteria &mdash; and the training to show up ready for the one you pick." in content
-        # The hero retains its search CTA and routes methodology questions to /methodology/.
+        assert "XC ski races, training and technique" in content
+        assert "<h1><span>Find your race.</span> <span>Train right.</span> <span>Race fast.</span></h1>" in content
+        assert "criteria, a plan built around the one you pick, and the technique to ski it fast." in content
+        # Two hero actions: search, and the find/train/race strip below.
         assert '<a href="/search/" class="hero-cta">Search the races</a>' in content
-        assert '<a href="/methodology/" class="hero-cta secondary">How we rate</a>' in content
+        assert 'class="hero-cta secondary"' not in content
         # New anchor is ADDED, not a repurpose of an existing button.
         assert '<a href="#ladder" class="hero-getready-cta" data-ga="hero_get_race_ready">GET RACE-READY &darr;</a>' in content
 
@@ -363,20 +363,19 @@ class TestHomepage:
             pytest.skip("Homepage not generated")
         content = hp.read_text()
 
-        # Cell 01 — Pick a race
-        assert '<h2 class="gl-hp-ladder-headline">Pick a race</h2>' in content
-        assert "races, rated. Start with yours." in content
-        assert '<a href="/search/" class="gl-hp-ladder-cta" data-ga="ladder_pick_race">SEARCH &rarr;</a>' in content
+        # Cell 01 — Find your race (methodology lives here now)
+        assert '<h2 class="gl-hp-ladder-headline">Find your race</h2>' in content
+        assert '<a href="/methodology/">How we rate</a>' in content
+        assert '<a href="/search/" class="gl-hp-ladder-cta" data-ga="ladder_pick_race">SEARCH THE RACES &rarr;</a>' in content
 
-        # Cell 02 — Get a plan
-        assert '<h2 class="gl-hp-ladder-headline">Get a plan</h2>' in content
-        assert "Built for the race on your calendar, around the hours you actually have." in content
+        # Cell 02 — Train right (plan, with coaching as the alternative)
+        assert '<h2 class="gl-hp-ladder-headline">Train right</h2>' in content
         assert '<a href="/training-plans/" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>' in content
+        assert '<a href="/coaching/" data-ga="ladder_coaching">Coaching</a>' in content
 
-        # Cell 03 — Coaching
-        assert '<h2 class="gl-hp-ladder-headline">Find out what you could be.</h2>' in content
-        assert "I read every file and change the week when your life does." in content
-        assert '<a href="/coaching/" class="gl-hp-ladder-cta" data-ga="ladder_coaching">GET ME IN YOUR CORNER &rarr;</a>' in content
+        # Cell 03 — Race fast
+        assert '<h2 class="gl-hp-ladder-headline">Race fast</h2>' in content
+        assert '<a href="/guide/" class="gl-hp-ladder-cta" data-ga="ladder_guide">READ THE GUIDE &rarr;</a>' in content
 
     def test_homepage_ladder_strip_no_animation(self):
         hp = OUTPUT_DIR / "index.html"
@@ -637,10 +636,9 @@ class TestWaxBenchRacePages:
     def test_homepage_uses_wax_bench_chrome(self):
         homepage = OUTPUT_DIR / "index.html"
         html = homepage.read_text(encoding="utf-8")
-        assert "Every cross country ski race, rated." in html
+        assert "<span>Find your race.</span> <span>Train right.</span> <span>Race fast.</span>" in html
         assert "honestly rated" not in html.lower()
-        assert "gl-ladder" in html
-        assert "Get race ready" in html
+        assert "gl-hp-ladder" in html
         assert "tier-table" in html
         assert 'id="statRaces">' in html
         assert "--gl-nordic-night" not in html

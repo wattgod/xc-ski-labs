@@ -38,7 +38,9 @@ def test_figure_is_lazy_muted_inline_and_decorative():
                  'poster="/media/loops/diagonal_square.jpg"'):
         assert attr in video
     assert " src=" not in video, "the video must not download before it scrolls into view"
-    assert "Diagonal stride" in html and "Climbing gear" in html
+    assert "Diagonal stride" in html
+    # The caption is the technique name only: no gear or cycle-time line under the loop.
+    assert "Climbing gear" not in html and "cycle" not in html
 
 
 def test_loop_script_respects_reduced_motion_and_guards_entries():

@@ -109,7 +109,7 @@ p {
   <style>{css}</style>
 </head>
 <body>
-  <nav class="gl-nav"><a href="/" class="gl-nav-logo" aria-label="XC Ski Labs"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a></nav>
+  <nav class="gl-nav"><a href="/" class="gl-nav-logo" aria-label="XC Ski Labs, powered by Endure Labs"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a></nav>
   <main class="gl-page">
     <div class="gl-kicker">{kicker}</div>
     <h1>Payment received.</h1>

@@ -256,11 +256,21 @@ html body .gl-cta-link:hover { text-decoration: none; }
 /* Every nav sits on a strap: the wordmark is on-strap. */
 :is(.gl-nav, .gl-nav-header, .gl-coach-nav) .gl-nav-logo,
 :is(.gl-nav, .gl-nav-header, .gl-coach-nav) .gl-nav-logo:hover { color: var(--on-strap); }
-.gl-nav-logo { display: inline-flex; align-items: center; gap: 12px; white-space: nowrap; }
+.gl-nav-logo { display: inline-flex; align-items: center; gap: 12px; white-space: nowrap; text-decoration: none; }
+.gl-nav-logo:hover { text-decoration: none; }
 .gl-nav-logo .gl-brand-mark { display: block; width: 44px; height: 44px; flex: none; }
 .gl-nav-logo .gl-brand-mark svg { display: block; width: 100%; height: 100%; }
 .gl-nav-logo .gl-brand-name { font-family: var(--font-label); font-weight: 800; font-style: normal; font-size: 22px; letter-spacing: .2em; line-height: 1; text-transform: uppercase; }
 .gl-nav-logo .gl-brand-name em { color: inherit; font-style: normal; }
+/* Endure Labs badge under the wordmark (Matti, 2026-11-15): a small stitched
+   chip in the strap's text colour. Generated text, so every nav carries it
+   without touching the generators' markup. */
+.gl-nav-logo .gl-brand-name::after {
+  content: "Powered by Endure Labs";
+  display: block; width: max-content; margin-top: 6px; padding: 3px 6px 2px;
+  border: 1.5px solid currentColor;
+  font: 800 11px/1 var(--font-label); letter-spacing: .12em; text-transform: uppercase;
+}
 @media (max-width: 520px) {
   .gl-nav-logo .gl-brand-name { font-size: 19px; }
   .gl-nav-logo .gl-brand-mark { width: 36px; height: 36px; }

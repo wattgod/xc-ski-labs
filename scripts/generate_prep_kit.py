@@ -228,7 +228,7 @@ def build_page(race: dict) -> str:
   <style>{tokens}\n{css}</style>
 </head>
 <body>
-  <nav class="pk-nav"><div class="pk-nav-inner"><a class="pk-wordmark" href="/" aria-label="XC Ski Labs"><img src="/xc-logo.svg" alt="" width="30" height="30">XC SKI <span>LABS</span></a><a href="/race/{esc(slug)}/">Race profile</a></div></nav>
+  <nav class="pk-nav"><div class="pk-nav-inner"><a class="pk-wordmark gl-nav-logo" href="/" aria-label="XC Ski Labs, powered by Endure Labs"><img class="gl-brand-mark" src="/xc-logo.svg" alt="" width="30" height="30"><span class="gl-brand-name">XC SKI <em>LABS</em></span></a><a href="/race/{esc(slug)}/">Race profile</a></div></nav>
   <header class="pk-hero"><div class="pk-wrap"><p class="pk-kicker">Race prep kit</p><h1{_diacritic_attr(name)}>{esc(name)}</h1><p>Use the profile facts. Check the organizer. Make the final calls in race week.</p></div></header>
   <main class="pk-wrap pk-main">
     <section class="pk-section"><div class="pk-heading"><span>01</span><h2>Race logistics</h2></div>{build_logistics(race)}</section>

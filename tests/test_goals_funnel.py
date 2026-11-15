@@ -165,7 +165,9 @@ class TestGoalCardDeploySurfacing:
         html = homepage.generate_homepage(races)
         assert 'href="/goals/?src=home"' in html
         assert 'data-ga="goal_hero_click"' in html
-        assert 'SAMPLE' in html
+        # A goal-setting entry, not a poster upsell (Matti, 2026-11-15).
+        assert "Set my goal" in html
+        assert "SAMPLE" not in html and "season poster" not in html.lower()
         assert html.index('class="hero"') < html.index('class="gl-hp-goals"')
 
 
