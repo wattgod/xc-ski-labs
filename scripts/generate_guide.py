@@ -136,6 +136,7 @@ def build_css() -> str:
 .gl-guide-gate-label { font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--gl-muted); display: block; margin: 0 0 var(--gl-space-2); }
 .gl-guide-gate-row { display: flex; gap: var(--gl-space-2); flex-wrap: wrap; }
 .gl-guide-gate-input { flex: 1 1 240px; min-height: 44px; border: 2px solid var(--gl-carbon); padding: 0 var(--gl-space-3); font-family: var(--gl-font-editorial); font-size: 1rem; background: var(--gl-paper); }
+.gl-guide-gate-error { font-size: .9rem; color: var(--gl-swix-red); font-weight: 700; margin: var(--gl-space-3) 0 0; }
 .gl-guide-gate-note { font-size: .82rem; color: var(--gl-muted); margin: var(--gl-space-3) 0 0; }
 .gl-guide-gate-note a { color: var(--gl-swix-red); font-weight: 700; }
 .gl-guide-locked[hidden] { display: none; }
@@ -303,7 +304,12 @@ def build_section_header(num: str, title: str) -> str:
     return f'<div class="gl-section-header"><span class="gl-section-num">{esc(num)}</span><h2 class="gl-section-title">{esc(title)}</h2></div>'
 
 
-GATE_EMAIL = "coaching@xcskilabs.com"
+# The gate posts to the shared lead Worker (brand xcskilabs). There is no
+# FormSubmit fallback: coaching@xcskilabs.com was never activated there, so a
+# no-JS post was silently dropped. Without JS the chapter is simply readable.
+LEAD_WORKER_URL = "https://fueling-lead-intake.gravelgodcoaching.workers.dev"
+GATE_ERROR = ("That didn't go through, and I don't have your email yet. Try again, "
+              "or write to me at gravelgodcoaching@gmail.com.")
 
 
 def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
@@ -313,12 +319,11 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
         cid = esc(chapter.get("id", ""))
         ctitle = esc(chapter.get("title") or chapter.get("id", ""))
         parts.append(f"""
-<aside class="gl-guide-gate" data-guide-gate>
+<aside class="gl-guide-gate" data-guide-gate hidden>
   <p class="gl-guide-tag">Free — one email</p>
   <h2>Read the rest of the guide</h2>
   <p>Chapters four through eight — technique, fueling, tactics, race week, and the off-season — plus the whole guide, for your email. No spam; unsubscribe anytime.</p>
-  <form class="gl-guide-gate-form" data-guide-gate-form action="https://formsubmit.co/{GATE_EMAIL}" method="POST">
-    <input type="hidden" name="_subject" value="Guide unlock — {cid}">
+  <form class="gl-guide-gate-form" data-guide-gate-form novalidate>
     <input type="hidden" name="chapter" value="{ctitle}">
     <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
     <label class="gl-guide-gate-label" for="gate-email-{cid}">Email</label>
@@ -326,6 +331,7 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
       <input class="gl-guide-gate-input" id="gate-email-{cid}" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
       <button class="gl-guide-btn" type="submit">Unlock the guide</button>
     </div>
+    <p class="gl-guide-gate-error" data-guide-gate-error role="alert" hidden>{esc(GATE_ERROR)}</p>
     <p class="gl-guide-gate-note">Prefer a plan built for you? <a href="/questionnaire/">Start the intake</a> instead.</p>
   </form>
 </aside>
@@ -339,7 +345,8 @@ def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
     body_html = "\n".join(body)
     if gated:
         # Content hidden until unlocked (JS reveals on email submit or returning reader)
-        parts.append(f'<div class="gl-guide-locked" data-guide-locked hidden>{body_html}</div>')
+        # Readable without JS; the gate script hides it until the email is captured.
+        parts.append(f'<div class="gl-guide-locked" data-guide-locked>{body_html}</div>')
     else:
         parts.append(body_html)
     return "\n".join(parts)
@@ -403,42 +410,66 @@ def build_script() -> str:
     update();
   });
 
-  // Guide email gate: reveal gated content on submit (or for returning readers)
+  // Guide email gate. The chapter is readable without JS; here it is hidden
+  // behind the gate until the lead Worker confirms it has the email (or the
+  // reader unlocked before). Unlock and guide_unlock happen only on success.
   var UNLOCK_KEY = 'xl_guide_unlocked';
+  var unlocked = false;
+  try { unlocked = localStorage.getItem(UNLOCK_KEY) === '1'; } catch (e) {}
   function unlock() {
     document.querySelectorAll('[data-guide-locked]').forEach(function(el) { el.hidden = false; });
     document.querySelectorAll('[data-guide-gate]').forEach(function(el) { el.hidden = true; });
   }
-  try { if (localStorage.getItem(UNLOCK_KEY) === '1') unlock(); } catch (e) {}
+  if (unlocked) {
+    unlock();
+  } else {
+    document.querySelectorAll('[data-guide-locked]').forEach(function(el) { el.hidden = true; });
+    document.querySelectorAll('[data-guide-gate]').forEach(function(el) { el.hidden = false; });
+  }
   document.querySelectorAll('[data-guide-gate-form]').forEach(function(form) {
+    var busy = false;
+    var errorEl = form.querySelector('[data-guide-gate-error]');
+    var button = form.querySelector('button[type="submit"]');
     form.addEventListener('submit', function(e) {
       e.preventDefault();
+      if (busy) return;
       var honey = form.querySelector('[name="_honey"]');
       if (honey && honey.value) return; // bot
-      // Fire-and-forget to the lead worker: record the email + chapter,
-      // never block the reader on the network (unlock happens regardless).
+      var emailEl = form.querySelector('[name="email"]');
+      if (emailEl && !emailEl.checkValidity()) { emailEl.reportValidity(); return; }
+      var chapter = (form.querySelector('[name="chapter"]') || {}).value || '';
       var viewed = [];
       try {
         viewed = (JSON.parse(localStorage.getItem('xc_viewed_races') || '[]') || [])
           .map(function(r) { return r && r.name; }).filter(Boolean).slice(0, 5);
       } catch (e2) {}
+      busy = true;
+      if (errorEl) errorEl.hidden = true;
+      if (button) button.disabled = true;
       fetch('https://fueling-lead-intake.gravelgodcoaching.workers.dev', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           source: 'training_guide',
           brand: 'xcskilabs',
-          email: (form.querySelector('[name="email"]') || {}).value || '',
-          guide_chapter: (form.querySelector('[name="chapter"]') || {}).value || '',
+          email: emailEl ? emailEl.value : '',
+          guide_chapter: chapter,
           viewed_races: viewed,
           website: ''
         })
-      }).catch(function(){});
-      try { localStorage.setItem(UNLOCK_KEY, '1'); } catch (e) {}
-      if (typeof gtag === 'function') gtag('event', 'guide_unlock', { chapter: (form.querySelector('[name="chapter"]') || {}).value || '' });
-      unlock();
-      var target = document.querySelector('[data-guide-locked]');
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }).then(function(res) {
+        if (!res.ok) throw new Error('status ' + res.status);
+        try { localStorage.setItem(UNLOCK_KEY, '1'); } catch (e3) {}
+        if (typeof gtag === 'function') gtag('event', 'guide_unlock', { chapter: chapter });
+        unlock();
+        var target = document.querySelector('[data-guide-locked]');
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }).catch(function() {
+        if (errorEl) errorEl.hidden = false;
+      }).then(function() {
+        busy = false;
+        if (button) button.disabled = false;
+      });
     });
   });
 })();
