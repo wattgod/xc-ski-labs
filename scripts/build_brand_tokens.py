@@ -159,7 +159,8 @@ html body {
    with navy text: inside them the legacy dark-field names point at the
    panel and ink. Straps (.gl-nav, footers, sticky CTA) are not listed. */
 :where(.gl-hero, .gl-verdict, .gl-transition, .gl-ladder,
-       .gl-final-cta, .gl-coach-band--dark, .gl-consult-cta) {
+       .gl-final-cta, .gl-coach-band--dark, .gl-consult-cta,
+       .gl-confirmed-crosssell, .gl-cta-band) {
   --gl-carbon: var(--xc-light-panel);
   --gl-ink: var(--xc-light-panel);
   --gl-white: var(--xc-light-ink);
@@ -173,8 +174,10 @@ html body {
   --gl-hairline: var(--xc-light-ink);
   --gl-rule: var(--xc-light-ink);
 }
-:where(.gl-hero, .gl-verdict, .gl-transition, .gl-ladder, .gl-final-cta,
-       .gl-coach-band--dark, .gl-consult-cta) {
+/* html body :is() so the 6px rules outrank each template's own band border. */
+html body :is(.gl-hero, .gl-verdict, .gl-transition, .gl-ladder, .gl-final-cta,
+       .gl-coach-band--dark, .gl-consult-cta,
+       .gl-confirmed-crosssell, .gl-cta-band) {
   border-top: var(--stroke-band) solid var(--ink);
   border-bottom: var(--stroke-band) solid var(--ink);
 }
@@ -182,7 +185,8 @@ html body {
 /* Filled objects inside those bands (the score box, primary buttons) keep
    the action pair: a navy slab with wool text. */
 :where(.gl-hero, .gl-verdict, .gl-transition, .gl-ladder,
-       .gl-final-cta, .gl-coach-band--dark, .gl-consult-cta)
+       .gl-final-cta, .gl-coach-band--dark, .gl-consult-cta,
+       .gl-confirmed-crosssell, .gl-cta-band)
   :where(.gl-scorebox, .gl-rung-btn.apply, .gl-cta-btn:not(.gl-cta-btn--outline),
          .gl-capture-btn, .gl-process-num, .gl-course-buy button, .gl-consult-btn-primary) {
   --gl-carbon: var(--xc-light-action);
@@ -197,7 +201,8 @@ html body {
 }
 /* Light cards that sit inside a band keep the Wool mapping. */
 :where(.gl-hero, .gl-verdict, .gl-transition, .gl-ladder,
-       .gl-final-cta, .gl-coach-band--dark, .gl-consult-cta)
+       .gl-final-cta, .gl-coach-band--dark, .gl-consult-cta,
+       .gl-confirmed-crosssell, .gl-cta-band)
   :where(.gl-course-product) {
   --gl-carbon: var(--xc-light-ink);
   --gl-ink: var(--xc-light-ink);
@@ -218,7 +223,8 @@ html body {
 .gl-coach-hero .gl-coach-hero-cta:hover { background: var(--ground); color: var(--ink); border-color: var(--ink); }
 
 /* Primary buttons carry the salmon underline (README §2, Button). */
-:where(.gl-rung-btn.apply, .gl-cta-btn:not(.gl-cta-btn--outline), .gl-course-buy button,
+/* html body :is() so it outranks each template's universal shadow reset. */
+html body :is(.gl-rung-btn.apply, .gl-cta-btn:not(.gl-cta-btn--outline), .gl-course-buy button,
        .gl-consult-btn-primary) {
   box-shadow: inset 0 calc(-1 * var(--stroke-underline)) 0 var(--splash) !important;
 }
@@ -227,6 +233,23 @@ html body {
    objects (README §9). */
 .gl-hero::after, .gl-hero::before { content: none !important; }
 .gl-scorebox { transform: none !important; }
+
+/* Focus (README §7, §12): 3px ring, 3px offset. Navy on wool and oat; the
+   strap's text colour on navy straps; footers and the privacy strip use their
+   own text colour, which the contrast scan holds against their ground. */
+html body :focus-visible { outline: var(--stroke-button) solid var(--focus) !important; outline-offset: 3px !important; }
+html body :is(.xc-strap, .gl-nav, .gl-nav-header, .gl-coach-nav, [class~="pk-nav"], .gl-sticky-cta,
+              .gl-coach-sticky-cta, [class~="xl-consent-banner"]) :focus-visible { outline-color: var(--on-strap) !important; }
+html body :is(footer, .gl-footer, .gl-coach-footer, .gl-consult-footer) :focus-visible,
+html body [class~="xl-privacy-choices"]:focus-visible { outline-color: currentColor !important; }
+html body .xc-crate--splash :focus-visible { outline-color: var(--on-splash) !important; }
+
+/* Controls take the page's faces instead of the browser's default
+   (README §3); zero specificity, so any template font rule still wins. */
+:where(button, input, select, textarea) { font-family: inherit; }
+
+/* Boxed CTA links keep their box on hover, not a prose underline. */
+html body .gl-cta-link:hover { text-decoration: none; }
 
 /* Lockup in the old nav markup: mark 44px, XC SKI LABS in Big Shoulders
    Text 800, 22px, tracked .2em, 12px gap (README §8). */

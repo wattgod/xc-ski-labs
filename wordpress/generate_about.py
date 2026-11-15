@@ -65,7 +65,7 @@ body {
 }
 
 a { color: var(--gl-swix-red); }
-a:hover { color: var(--gl-klister); }
+a:hover { text-decoration: underline; }
 
 a:focus-visible, button:focus-visible {
   outline: 3px solid var(--gl-swix-red);

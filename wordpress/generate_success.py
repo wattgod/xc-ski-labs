@@ -5,6 +5,10 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+from brand_head import BRAND_FONT_LINKS  # noqa: E402
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -101,6 +105,7 @@ p {
   <title>Payment Received | XC Ski Labs</title>
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="{canonical}">
+  {BRAND_FONT_LINKS}
   <style>{css}</style>
 </head>
 <body>

@@ -967,6 +967,9 @@ a {{ color: inherit; }}
   hyphens: manual;
 }}
 .gl-hero-name--long {{ font-size: clamp(2.4rem, 6vw, 4.4rem); }}
+/* Race titles: the book's stencil (README §3); names with diacritics stay in
+   Libre Franklin 600 until Big Shoulders' glyph coverage is checked. */
+.gl-hero h1.gl-hero-name {{ font-family: var(--font-stencil); font-weight: 900; font-style: normal; letter-spacing: .01em; }}
 .gl-hero h1.gl-name--diacritic {{ font-family: var(--font-body); font-weight: 600; }}
 
 .gl-hero-tagline {{
@@ -1305,7 +1308,7 @@ a {{ color: inherit; }}
 .gl-breakdown-tile {{ min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; gap: var(--gl-space-4); border-right: 1px solid var(--gl-hairline); border-bottom: 1px solid var(--gl-hairline); background: var(--gl-white); color: var(--gl-carbon); padding: var(--gl-space-4); text-decoration: none; }}
 .gl-breakdown-tile strong {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; }}
 .gl-breakdown-tile span {{ color: var(--gl-muted); font-size: .88rem; line-height: 1.45; }}
-.gl-breakdown-tile:hover {{ background-color: var(--gl-paper); background-image: linear-gradient(var(--gl-klister), var(--gl-klister)); background-repeat: no-repeat; background-position: bottom left; background-size: 100% 5px; }}
+.gl-breakdown-tile:hover {{ background-color: var(--gl-paper); background-image: linear-gradient(var(--ink), var(--ink)); background-repeat: no-repeat; background-position: bottom left; background-size: 100% 5px; }}
 
 .gl-transition {{ max-width: var(--gl-measure); margin: 0 auto; padding: var(--gl-space-7) var(--gl-space-5); background: var(--gl-swix-red); color: var(--gl-white); }}
 .gl-transition-kicker {{ margin: 0 0 var(--gl-space-3); color: var(--gl-klister); font-family: var(--gl-font-data); font-size: .66rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }}
@@ -1316,7 +1319,7 @@ a {{ color: inherit; }}
 .gl-related-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); border: 3px solid var(--gl-carbon); }}
 .gl-related-card {{ min-height: 150px; display: flex; flex-direction: column; justify-content: space-between; gap: var(--gl-space-4); border-right: 1px solid var(--gl-hairline); background: var(--gl-white); padding: var(--gl-space-4); text-decoration: none; }}
 .gl-related-card:last-child {{ border-right: 0; }}
-.gl-related-card:hover {{ background-color: var(--gl-paper); background-image: linear-gradient(var(--gl-klister), var(--gl-klister)); background-repeat: no-repeat; background-position: bottom left; background-size: 100% 5px; }}
+.gl-related-card:hover {{ background-color: var(--gl-paper); background-image: linear-gradient(var(--ink), var(--ink)); background-repeat: no-repeat; background-position: bottom left; background-size: 100% 5px; }}
 .gl-related-card strong {{ font-family: var(--gl-font-display); font-style: italic; text-transform: uppercase; }}
 .gl-related-meta {{ color: var(--gl-muted); font-family: var(--gl-font-data); font-size: .66rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }}
 
