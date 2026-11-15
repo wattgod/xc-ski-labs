@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/pyeongchang-loppet/"
 | Field Size | 500 |
 | Founded | 2026 |
 | Registration | Online registration via Ski Classics platform |
+| Website | https://skiclassics.com/events/challengers/pyeongchang-loppet/ |
 
 ## Course
 
@@ -111,4 +112,4 @@ Launched in 2026 as a brand-new addition to the Ski Classics Challengers series,
 - ski_classics_challengers
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — PyeongChang Loppet". Canonical: https://xcskilabs.com/race/pyeongchang-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — PyeongChang Loppet". Canonical: https://xcskilabs.com/race/pyeongchang-loppet/. Generated 2026-11-15.*

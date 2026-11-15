@@ -114,4 +114,4 @@ The Avacha Marathon is held near Petropavlovsk-Kamchatsky on Russia's Kamchatka 
 - Мастера спорта: «Авачинский марафон-2018» - гонка снежных стайеров на Камчатке (Камчатка Сегодня)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Avacha Marathon". Canonical: https://xcskilabs.com/race/avacha-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Avacha Marathon". Canonical: https://xcskilabs.com/race/avacha-marathon/. Generated 2026-11-15.*

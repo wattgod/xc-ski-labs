@@ -126,4 +126,4 @@ Founded in 1968, the Ganghoferlauf is named after Ludwig Ganghofer, a beloved Ty
 - The Best Moments of Ganghoferlauf Classic 2025 (SC - The Ski Community)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ganghoferlauf". Canonical: https://xcskilabs.com/race/ganghoferlauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ganghoferlauf". Canonical: https://xcskilabs.com/race/ganghoferlauf/. Generated 2026-11-15.*

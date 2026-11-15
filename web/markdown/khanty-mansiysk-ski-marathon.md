@@ -106,4 +106,4 @@ Founded in 1997 as the oil-rich Yugra region invested heavily in winter sports, 
 - Located at the confluence of the Irtysh and Ob — two of Asia's great rivers
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Khanty-Mansiysk Ski Marathon". Canonical: https://xcskilabs.com/race/khanty-mansiysk-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Khanty-Mansiysk Ski Marathon". Canonical: https://xcskilabs.com/race/khanty-mansiysk-ski-marathon/. Generated 2026-11-15.*

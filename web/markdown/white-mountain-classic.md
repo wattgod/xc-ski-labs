@@ -126,4 +126,4 @@ The White Mountain Classic grew out of the Jackson XC ski touring community, one
 > There's a piece of the ski in the middle of the ski that has some grip called fish scales and that's where we got a little grip to get up the hill.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — White Mountain Classic". Canonical: https://xcskilabs.com/race/white-mountain-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — White Mountain Classic". Canonical: https://xcskilabs.com/race/white-mountain-classic/. Generated 2026-11-15.*

@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/sumavsky-skimaraton/"
 | Field Size | 1500 |
 | Founded | 1984 |
 | Registration | Open registration |
+| Website | https://www.skisumava.cz/ski |
 
 ## Course
 
@@ -122,4 +123,4 @@ Founded in 1984, the Šumavský Skimaraton is a 46km freestyle race through Šum
 - Šumavský skimaraton TV NOVA 2022 Sobota (SportSoft Timing)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Šumavský Skimaraton". Canonical: https://xcskilabs.com/race/sumavsky-skimaraton/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Šumavský Skimaraton". Canonical: https://xcskilabs.com/race/sumavsky-skimaraton/. Generated 2026-11-15.*

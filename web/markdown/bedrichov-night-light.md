@@ -122,4 +122,4 @@ The Bedrichov Night Light Marathon is an atmospheric evening race held on the sa
 - Bedřichovský Night Light Marathon - sobota 6. 1. 2018 (ČEZ SkiTour)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bedrichov Night Light". Canonical: https://xcskilabs.com/race/bedrichov-night-light/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bedrichov Night Light". Canonical: https://xcskilabs.com/race/bedrichov-night-light/. Generated 2026-11-15.*

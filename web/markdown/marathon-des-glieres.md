@@ -120,4 +120,4 @@ The Marathon des Glières, founded around 1991, takes place on one of France's m
 - Lidingöloppet 2018 highlight video (TCSGlobal)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon des Glières". Canonical: https://xcskilabs.com/race/marathon-des-glieres/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Marathon des Glières". Canonical: https://xcskilabs.com/race/marathon-des-glieres/. Generated 2026-11-15.*

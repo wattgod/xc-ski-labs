@@ -121,4 +121,4 @@ The Levi Ski Marathon is held in the fell landscape around Levi, Finland's large
 > In this weather condition I have zero grip, zero. I think probably the skin is wet I don't know but I don't have any grip.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Levi Ski Marathon". Canonical: https://xcskilabs.com/race/levi-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Levi Ski Marathon". Canonical: https://xcskilabs.com/race/levi-ski-marathon/. Generated 2026-11-15.*

@@ -103,4 +103,4 @@ The Erzgebirge 24-Hour Ski Race is a niche ultra-endurance event in Saxony's Ore
 - Night skiing through German-Czech border mountains
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Erzgebirge 24-Hour Ski Race". Canonical: https://xcskilabs.com/race/erzgebirge-24h/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Erzgebirge 24-Hour Ski Race". Canonical: https://xcskilabs.com/race/erzgebirge-24h/. Generated 2026-11-15.*

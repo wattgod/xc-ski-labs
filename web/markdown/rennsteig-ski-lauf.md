@@ -123,4 +123,4 @@ The Rennsteig Ski-Lauf is the winter counterpart to the famous Rennsteiglauf tra
 - 13. Februar 2011 - Start Rennsteig-Ski-Lauf - 30km Klassisch (htzmt2011)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Rennsteig Ski-Lauf". Canonical: https://xcskilabs.com/race/rennsteig-ski-lauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Rennsteig Ski-Lauf". Canonical: https://xcskilabs.com/race/rennsteig-ski-lauf/. Generated 2026-11-15.*

@@ -107,4 +107,4 @@ The Black Jack Loppet is organized by the Black Jack Cross Country Ski Club in R
 - The local Nordic community maintains trails through volunteer effort
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Black Jack Loppet". Canonical: https://xcskilabs.com/race/black-jack-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Black Jack Loppet". Canonical: https://xcskilabs.com/race/black-jack-loppet/. Generated 2026-11-15.*

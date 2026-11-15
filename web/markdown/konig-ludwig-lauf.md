@@ -130,4 +130,4 @@ König Ludwig Lauf was founded in 1968 in Oberammergau, the Bavarian village fam
 > It's time for a royal weekend here in germany it's time for konig ludwig love finally reconnect ludwig laugh again I'm here at the start area the start will take place only in a few minutes and what we have experienced this weekend here in oberamagao and why you should definitely come here to ski the koenig ludwig love.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — König Ludwig Lauf". Canonical: https://xcskilabs.com/race/konig-ludwig-lauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — König Ludwig Lauf". Canonical: https://xcskilabs.com/race/konig-ludwig-lauf/. Generated 2026-11-15.*

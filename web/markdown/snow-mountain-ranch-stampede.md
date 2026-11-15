@@ -107,4 +107,4 @@ The Snow Mountain Ranch Stampede has been held at the YMCA of the Rockies since 
 - Views toward the Continental Divide on clear race days
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Snow Mountain Ranch Stampede". Canonical: https://xcskilabs.com/race/snow-mountain-ranch-stampede/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Snow Mountain Ranch Stampede". Canonical: https://xcskilabs.com/race/snow-mountain-ranch-stampede/. Generated 2026-11-15.*

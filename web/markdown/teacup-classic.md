@@ -115,4 +115,4 @@ The Teacup Classic is a small community ski race on the Teacup Lake Nordic trail
 - The American Birkebeiner cross-country ski race (CBS Sunday Morning)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Teacup Classic". Canonical: https://xcskilabs.com/race/teacup-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Teacup Classic". Canonical: https://xcskilabs.com/race/teacup-classic/. Generated 2026-11-15.*

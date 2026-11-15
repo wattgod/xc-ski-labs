@@ -125,4 +125,4 @@ HovdenTour has been a fixture of the Southern Norwegian ski calendar since appro
 > It's been my main goal this whole season, kind of big nervous but really really stoked just ready to do this. Hopefully finish, that's the main goal and hopefully don't lose either.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — HovdenTour". Canonical: https://xcskilabs.com/race/hovdentour/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — HovdenTour". Canonical: https://xcskilabs.com/race/hovdentour/. Generated 2026-11-15.*

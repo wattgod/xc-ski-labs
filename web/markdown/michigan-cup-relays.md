@@ -112,4 +112,4 @@ The Michigan Cup has been the backbone of competitive cross-country skiing in Mi
 - 2017 Michigan Cup Relays (NordicSkiRacer)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Michigan Cup Relays". Canonical: https://xcskilabs.com/race/michigan-cup-relays/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Michigan Cup Relays". Canonical: https://xcskilabs.com/race/michigan-cup-relays/. Generated 2026-11-15.*

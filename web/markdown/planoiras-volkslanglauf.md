@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/planoiras-volkslanglauf/"
 | Field Size | 500 |
 | Founded | 1986 |
 | Registration | Online registration via Swiss Loppet / Datasport |
+| Website | https://arosalenzerheide.swiss/de/Lenzerheide/Top-Events/Sport/Planoiras-Volkslanglauf |
 
 ## Course
 
@@ -120,4 +121,4 @@ Founded in 1986, the Planoiras Volkslanglauf is the traditional season-opening r
 - Planoiras Volkslanglauf 2022 I Official aftermovie (livemotion)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Planoiras Volkslanglauf". Canonical: https://xcskilabs.com/race/planoiras-volkslanglauf/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Planoiras Volkslanglauf". Canonical: https://xcskilabs.com/race/planoiras-volkslanglauf/. Generated 2026-11-15.*

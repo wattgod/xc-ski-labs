@@ -112,4 +112,4 @@ Prestige 5 with score < 75 caps at TIER 2
 - Tervahiihto Ski Marathon, Oulu Finland (Tervahiihto)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tervahiihto". Canonical: https://xcskilabs.com/race/tervahiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tervahiihto". Canonical: https://xcskilabs.com/race/tervahiihto/. Generated 2026-11-15.*

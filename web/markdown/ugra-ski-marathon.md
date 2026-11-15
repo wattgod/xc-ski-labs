@@ -131,4 +131,4 @@ The Ugra Ski Marathon, founded in 2013 in Khanty-Mansiysk, is a major Russian ci
 > Very flat and windy.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ugra Ski Marathon". Canonical: https://xcskilabs.com/race/ugra-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ugra Ski Marathon". Canonical: https://xcskilabs.com/race/ugra-ski-marathon/. Generated 2026-11-15.*

@@ -129,4 +129,4 @@ Founded in 2001, the Noquemanon Ski Marathon takes its name from a Chippewa word
 > The trails were nice and white with snow so it made it tough to climb up the hills with the skis on your feet. The cold and the snow really took a toll on some people when they were out on the trails for more than 3 hours - take a look at this guy's beard, this defines how cold and snowy it was out on the trail today.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Noquemanon". Canonical: https://xcskilabs.com/race/noquemanon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Noquemanon". Canonical: https://xcskilabs.com/race/noquemanon/. Generated 2026-11-15.*

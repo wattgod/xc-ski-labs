@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/ushuaia-loppet/"
 | Field Size | 400 |
 | Founded | 1986 |
 | Registration | Online registration |
+| Website | https://www.ushuaialoppet.com/ |
 
 ## Course
 
@@ -127,4 +128,4 @@ Founded in 1986, the Ushuaia Loppet holds the distinction of being the world's m
 > Traveling to the end of the world to the door to Antarctica is a thing for itself already, but having a chance to get a stamp in your Worldloppet passport here in Tierra Del Fuego at the end of the world is definitely a special thing.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ushuaia Loppet". Canonical: https://xcskilabs.com/race/ushuaia-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Ushuaia Loppet". Canonical: https://xcskilabs.com/race/ushuaia-loppet/. Generated 2026-11-15.*

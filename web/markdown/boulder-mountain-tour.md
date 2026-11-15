@@ -132,4 +132,4 @@ Founded in 1974, the Boulder Mountain Tour is one of the oldest citizen XC ski r
 > Clear skies allowed for a morning low of -12F leaving cold sharp snow on the track.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Boulder Mountain Tour". Canonical: https://xcskilabs.com/race/boulder-mountain-tour/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Boulder Mountain Tour". Canonical: https://xcskilabs.com/race/boulder-mountain-tour/. Generated 2026-11-15.*

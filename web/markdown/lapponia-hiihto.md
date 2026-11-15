@@ -132,4 +132,4 @@ Founded in 1978, Lapponia Hiihto was conceived as a multi-day wilderness crossin
 > I remember so good that feeling when I was finishing and I'll go over that finishing line I just fell down.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lapponia Hiihto". Canonical: https://xcskilabs.com/race/lapponia-hiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lapponia Hiihto". Canonical: https://xcskilabs.com/race/lapponia-hiihto/. Generated 2026-11-15.*

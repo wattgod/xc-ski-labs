@@ -125,4 +125,4 @@ Finlandia-hiihto was founded in 1974 in Lahti, Finland's undisputed winter sport
 - Finlandia-hiihto - 25th February 2023 - Start (Vesa Lampinen)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Finlandia-hiihto". Canonical: https://xcskilabs.com/race/finlandia-hiihto/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Finlandia-hiihto". Canonical: https://xcskilabs.com/race/finlandia-hiihto/. Generated 2026-11-15.*

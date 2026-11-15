@@ -112,4 +112,4 @@ The Tornedalen Ski Marathon follows the frozen Torne River along the Swedish-Fin
 - Tornedalsloppet 50-årsjubileum 2017 (Göran Lahti)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tornedalen Ski Marathon". Canonical: https://xcskilabs.com/race/tornedalen-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tornedalen Ski Marathon". Canonical: https://xcskilabs.com/race/tornedalen-ski-marathon/. Generated 2026-11-15.*

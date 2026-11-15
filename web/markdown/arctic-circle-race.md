@@ -133,4 +133,4 @@ The Arctic Circle Race was founded in 1998 in Sisimiut, West Greenland. It was c
 > Day 1 is a 54.8 km trek with difficult and steep gradients to the campsite, day two is a 50k loop which features a climb to the top of K6 a 664 meter peak overlooking Sisimiut, while day three follows the same route as day one only in reverse.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Arctic Circle Race". Canonical: https://xcskilabs.com/race/arctic-circle-race/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Arctic Circle Race". Canonical: https://xcskilabs.com/race/arctic-circle-race/. Generated 2026-11-15.*

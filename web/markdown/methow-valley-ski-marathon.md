@@ -127,4 +127,4 @@ The Methow Valley Ski Marathon takes advantage of the Methow Valley Sport Trails
 > Methow Valley is the largest cross-country trail system in North America with over 120 miles of available nordic skiing stretching from Winthrop all the way to Mazama.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Methow Valley Ski Marathon". Canonical: https://xcskilabs.com/race/methow-valley-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Methow Valley Ski Marathon". Canonical: https://xcskilabs.com/race/methow-valley-ski-marathon/. Generated 2026-11-15.*

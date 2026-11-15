@@ -124,4 +124,4 @@ The Snow Farm Challenge is held at Snow Farm, the Southern Hemisphere's only ded
 > Two days before race day checking out the tracks and honestly I'm more like checking out the views it's so beautiful up here. Another extraordinary place for ski marathon.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Snow Farm Challenge". Canonical: https://xcskilabs.com/race/snow-farm-challenge/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Snow Farm Challenge". Canonical: https://xcskilabs.com/race/snow-farm-challenge/. Generated 2026-11-15.*

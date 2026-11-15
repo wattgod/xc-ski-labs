@@ -123,4 +123,4 @@ The Sjusjoen Skimarathon emerged in the 1990s on one of Norway's most extensive 
 > A lot of flat terrain like this which is perfect for beginners like us who are looking to learn, but it's also where all the pros and the Olympians come as well - you got some really steep incline and some really challenging terrain so there's something for everyone.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sjusjøen Skimarathon". Canonical: https://xcskilabs.com/race/sjusjoen-skimarathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sjusjøen Skimarathon". Canonical: https://xcskilabs.com/race/sjusjoen-skimarathon/. Generated 2026-11-15.*

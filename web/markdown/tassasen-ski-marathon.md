@@ -104,4 +104,4 @@ The Tåssåsen Ski Marathon is one of Sweden's most extreme ultra-distance ski r
 - Attracts ultra-endurance specialists seeking maximum distance
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tåssåsen Ski Marathon". Canonical: https://xcskilabs.com/race/tassasen-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tåssåsen Ski Marathon". Canonical: https://xcskilabs.com/race/tassasen-ski-marathon/. Generated 2026-11-15.*

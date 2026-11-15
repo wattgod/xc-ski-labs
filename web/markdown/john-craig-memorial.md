@@ -100,4 +100,4 @@ The John Craig Memorial is a small citizen ski race in Washington's Cascade Moun
 - Part of the Pacific Northwest Nordic community
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — John Craig Memorial". Canonical: https://xcskilabs.com/race/john-craig-memorial/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — John Craig Memorial". Canonical: https://xcskilabs.com/race/john-craig-memorial/. Generated 2026-11-15.*

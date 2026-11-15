@@ -128,4 +128,4 @@ Bieg Piastów was founded in 1976 in Jakuszyce, in the Jizera Mountains of south
 - BIEG PIASTÓW - Polana Jakuszyce (RDLP w Krośnie)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Piastów". Canonical: https://xcskilabs.com/race/bieg-piastow/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Piastów". Canonical: https://xcskilabs.com/race/bieg-piastow/. Generated 2026-11-15.*

@@ -128,4 +128,4 @@ The Owl Creek Chase is a popular citizen race in Aspen, Colorado, part of the Ut
 > The course was different from last year and the finish was different from last year was really cool finish we got to go on the trails right behind their middle school so awesome. It's so crazy those trails are free they're really great quality in really good condition really good terrain.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Owl Creek Chase". Canonical: https://xcskilabs.com/race/owl-creek-chase/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Owl Creek Chase". Canonical: https://xcskilabs.com/race/owl-creek-chase/. Generated 2026-11-15.*

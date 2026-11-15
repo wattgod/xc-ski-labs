@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/jyvaskyla-ski-marathon/"
 | Discipline | both |
 | Field Size | 1100 |
 | Registration | Open registration |
+| Website | https://jyvaskylaskimarathon.fi/ |
 
 ## Course
 
@@ -123,4 +124,4 @@ A 50km ski marathon in Jyväskylä, Central Finland, offering both classic and f
 - VLOG 12/Euroloppet Skadi-Loppet (Lorenz Lampl)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jyväskylä Ski Marathon". Canonical: https://xcskilabs.com/race/jyvaskyla-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jyväskylä Ski Marathon". Canonical: https://xcskilabs.com/race/jyvaskyla-ski-marathon/. Generated 2026-11-15.*

@@ -120,4 +120,4 @@ The Sleeping Giant Loppet has been a cornerstone of Ontario Nordic skiing since 
 - Sleeping Giant Loppet (tbnewswatch)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sleeping Giant Loppet". Canonical: https://xcskilabs.com/race/sleeping-giant-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sleeping Giant Loppet". Canonical: https://xcskilabs.com/race/sleeping-giant-loppet/. Generated 2026-11-15.*

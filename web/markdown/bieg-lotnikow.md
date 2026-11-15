@@ -114,4 +114,4 @@ Founded in 1985 as a tribute to Polish aviators, this race through the Beskid S�
 - Elbrus Zatorska2016 (Ustjanowa Wieś)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Lotników". Canonical: https://xcskilabs.com/race/bieg-lotnikow/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Bieg Lotników". Canonical: https://xcskilabs.com/race/bieg-lotnikow/. Generated 2026-11-15.*

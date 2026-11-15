@@ -126,4 +126,4 @@ Founded in 1985 by Edmonton's Norwegian-Canadian community, the Canadian Birkebe
 - Canadian Ski Marathon celebrates 50th anniversary (Canadian Geographic)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Canadian Birkebeiner". Canonical: https://xcskilabs.com/race/canadian-birkebeiner/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Canadian Birkebeiner". Canonical: https://xcskilabs.com/race/canadian-birkebeiner/. Generated 2026-11-15.*

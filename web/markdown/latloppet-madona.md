@@ -121,4 +121,4 @@ Founded in 2018, LatLoppet Madona is Latvia's bid to establish a major Nordic sk
 - LATLOPPET MADONA (SWAMP EDGE VIDEO) (SWAMP EDGE FILMS)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — LatLoppet Madona". Canonical: https://xcskilabs.com/race/latloppet-madona/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — LatLoppet Madona". Canonical: https://xcskilabs.com/race/latloppet-madona/. Generated 2026-11-15.*

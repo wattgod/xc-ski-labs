@@ -120,4 +120,4 @@ The Tahoe Rim Tour emerged from the Lake Tahoe Nordic community, leveraging the 
 - Classic Cross-Country Skiing for Beginners: Everything You Need to Know to Get Started || REI (REI)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tahoe Rim Tour". Canonical: https://xcskilabs.com/race/tahoe-rim-tour/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Tahoe Rim Tour". Canonical: https://xcskilabs.com/race/tahoe-rim-tour/. Generated 2026-11-15.*

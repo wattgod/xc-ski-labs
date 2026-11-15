@@ -32,6 +32,7 @@ url: "https://xcskilabs.com/race/sisu-ski-fest/"
 | Discipline | both |
 | Field Size | 350 |
 | Registration | Online registration |
+| Website | https://www.sisuskifest.com/ |
 
 ## Course
 
@@ -120,4 +121,4 @@ The Sisu Ski Fest celebrates the Finnish-American heritage of Michigan's Upper P
 - 2011 City of Lakes Loppet - Mens Open Sprint Final (Skinnyski.com Videos)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sisu Ski Fest". Canonical: https://xcskilabs.com/race/sisu-ski-fest/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sisu Ski Fest". Canonical: https://xcskilabs.com/race/sisu-ski-fest/. Generated 2026-11-15.*

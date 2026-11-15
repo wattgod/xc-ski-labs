@@ -100,4 +100,4 @@ The Crescent Lake Challenge is a small Nordic ski event in the Oregon Cascades, 
 - High Cascades provide reliable snowpack
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Crescent Lake Challenge". Canonical: https://xcskilabs.com/race/crescent-lake-challenge/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Crescent Lake Challenge". Canonical: https://xcskilabs.com/race/crescent-lake-challenge/. Generated 2026-11-15.*

@@ -127,4 +127,4 @@ Founded in 2000, the Skadi Loppet takes its name from the Norse goddess Skadi, a
 - Skadi Loppet 2015 (Euroloppet Your World of Ski Marathon)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Skadi Loppet". Canonical: https://xcskilabs.com/race/skadi-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Skadi Loppet". Canonical: https://xcskilabs.com/race/skadi-loppet/. Generated 2026-11-15.*

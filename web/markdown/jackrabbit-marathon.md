@@ -124,4 +124,4 @@ Named after Herman 'Jackrabbit' Johannsen (1875-1987), the Norwegian-born pionee
 > By noon the weather had turned nasty. Despite the weather it was great fun, and Saturday night they would sleep in comfort at an inn in Montebello.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jackrabbit Marathon". Canonical: https://xcskilabs.com/race/jackrabbit-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Jackrabbit Marathon". Canonical: https://xcskilabs.com/race/jackrabbit-marathon/. Generated 2026-11-15.*

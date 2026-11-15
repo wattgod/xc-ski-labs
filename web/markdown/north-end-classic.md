@@ -122,4 +122,4 @@ The North End Classic is a small citizen ski race in the Cable, Wisconsin area, 
 > Each winter thousands of cross-country skiers from all across the world travel to the North Woods of Wisconsin to travel more than 30 miles between the towns of cable and Hayward.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — North End Classic". Canonical: https://xcskilabs.com/race/north-end-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — North End Classic". Canonical: https://xcskilabs.com/race/north-end-classic/. Generated 2026-11-15.*

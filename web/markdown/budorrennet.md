@@ -126,4 +126,4 @@ Budorrennet has been a Norwegian turrenn since approximately the 1970s, held on 
 > This snow is so slow that use so much energy on the double ping and he don't get much back... the snow is it's like sandpaper you can just hear a squeaking in the snow all the time and it was just super slow.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Budorrennet". Canonical: https://xcskilabs.com/race/budorrennet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Budorrennet". Canonical: https://xcskilabs.com/race/budorrennet/. Generated 2026-11-15.*

@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/la-sgambeda/"
 | Field Size | 500 |
 | Founded | 1990 |
 | Registration | Open registration |
+| Website | https://www.lasgambeda.it/ |
 
 ## Course
 
@@ -123,4 +124,4 @@ Founded around 1990, La Sgambeda is a 30km freestyle race in Livigno, Italy, at 
 - La Sgambeda 2017 (Team Forever Nordic)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — La Sgambeda". Canonical: https://xcskilabs.com/race/la-sgambeda/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — La Sgambeda". Canonical: https://xcskilabs.com/race/la-sgambeda/. Generated 2026-11-15.*

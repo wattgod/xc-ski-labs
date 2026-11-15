@@ -33,6 +33,7 @@ url: "https://xcskilabs.com/race/traverse-du-massacre/"
 | Field Size | 700 |
 | Founded | 1975 |
 | Registration | Online registration |
+| Website | https://www.ski-massif-jurassien.com/infos/traversee-du-massacre-01-03-2026/ |
 
 ## Course
 
@@ -126,4 +127,4 @@ Founded in 1975, the Traversée du Massacre is approaching its 50th edition, mak
 - Traversée du Massacre 2014 21 FT (JULIEN MILLET)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Traversée du Massacre". Canonical: https://xcskilabs.com/race/traverse-du-massacre/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Traversée du Massacre". Canonical: https://xcskilabs.com/race/traverse-du-massacre/. Generated 2026-11-15.*

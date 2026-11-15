@@ -118,4 +118,4 @@ The Åsarna Ski Marathon has been a fixture of Swedish long-distance skiing sinc
 - Inför Jämtkraft skimarathon (Carl Olander)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Åsarna Ski Marathon". Canonical: https://xcskilabs.com/race/asarna-ski-marathon/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Åsarna Ski Marathon". Canonical: https://xcskilabs.com/race/asarna-ski-marathon/. Generated 2026-11-15.*

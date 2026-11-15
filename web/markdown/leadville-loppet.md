@@ -117,4 +117,4 @@ The Leadville Loppet has been held since 2003 on the Mineral Belt Trail in Leadv
 - Collide.mov (theRosedot)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Leadville Loppet". Canonical: https://xcskilabs.com/race/leadville-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Leadville Loppet". Canonical: https://xcskilabs.com/race/leadville-loppet/. Generated 2026-11-15.*

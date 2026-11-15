@@ -128,4 +128,4 @@ Founded in 1995 at the Snow Farm, New Zealand's only dedicated Nordic ski area i
 > We've got quite a large International representation at this field skiers from 20 countries represented and you can see there's plenty of Australians in New Zealand but most importantly an awful lot of skiers from Europe and Scandinavia from Asia even from South America who've come out for this event.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Merino Muster". Canonical: https://xcskilabs.com/race/merino-muster/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Merino Muster". Canonical: https://xcskilabs.com/race/merino-muster/. Generated 2026-11-15.*
