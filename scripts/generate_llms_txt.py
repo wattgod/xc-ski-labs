@@ -146,7 +146,7 @@ e.g. {SITE_URL}/race/vasaloppet.md
 ## Contact
 
 - Website: {SITE_URL}
-- Email: coaching@xcskilabs.com
+- Email: gravelgodcoaching@gmail.com
 """
 
 
