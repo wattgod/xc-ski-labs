@@ -154,3 +154,22 @@ def test_no_body_hover_turns_klister():
 def test_post_payment_pages_load_the_book_faces():
     src = (ROOT / "wordpress" / "generate_success.py").read_text(encoding="utf-8")
     assert "{BRAND_FONT_LINKS}" in src
+
+
+def test_hyphenated_race_names_never_draw_a_second_hyphen():
+    import generate_race_pages
+    out = generate_race_pages._display_caps("3 Zinnen Ski-Marathon")
+    assert "&#8209;&shy;" not in out
+    assert "Ski&#8209;<wbr>Marathon" in out
+    assert "Birkebeiner&shy;rennet" in generate_race_pages._display_caps("Birkebeinerrennet")
+
+
+@pytest.mark.parametrize("name,expected", [
+    ("Kungsledenrännet", "Kungsleden&shy;rännet"),
+    ("Fossavatnsgangan", "Fossavatns&shy;gangan"),
+    ("Pragelato-Sestriere", "Pragelato&#8209;<wbr>Sestriere"),
+    ("A & B-Marathon", "A &amp; B&#8209;Marathon"),
+])
+def test_long_race_names_get_one_break_point(name, expected):
+    import generate_race_pages
+    assert generate_race_pages._display_caps(name) == expected
