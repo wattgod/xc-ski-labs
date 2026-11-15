@@ -932,7 +932,7 @@ def build_faq() -> str:
         ),
         (
             "What if I miss sessions?",
-            "Let me know and I&rsquo;ll shift the week. A missed interval session doesn&rsquo;t get made up on tired legs.",
+            "Let me know. At Mid and Max I shift the week right away, and at Min it gets sorted in the weekly review. Either way, a missed interval session doesn&rsquo;t get made up on tired legs.",
         ),
         (
             "How will I know it&rsquo;s working?",
