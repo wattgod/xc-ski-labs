@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Oregon"
 location: "Mt Bachelor"
-date: "2026: April 4"
+date: "2027: April 3"
 url: "https://xcskilabs.com/race/cascade-crest/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/cascade-crest/"
 | Altitude | 1,920 m |
 | Location | Mt Bachelor |
 | Country | United States |
-| Date | 2026: April 4 |
+| Date | 2027: April 3 |
 | Discipline | both |
 | Field Size | 120 |
 | Founded | 2010 |
@@ -127,4 +127,4 @@ Founded around 2010, the Cascade Crest ski marathon takes advantage of the deep 
 > This is my third running at cascade crest. I love this race so I'm going to keep coming because I love the trails I love the mountains out here the views and they put on a really good experience top quality event.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Cascade Crest". Canonical: https://xcskilabs.com/race/cascade-crest/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Cascade Crest". Canonical: https://xcskilabs.com/race/cascade-crest/. Generated 2026-11-15.*

@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "New York"
 location: "Lake Placid"
-date: "2026: January 24"
+date: "2027: March 6"
 url: "https://xcskilabs.com/race/lake-placid-loppet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/lake-placid-loppet/"
 | Altitude | 600 m |
 | Location | Lake Placid |
 | Country | United States |
-| Date | 2026: January 24 |
+| Date | 2027: March 6 |
 | Discipline | both |
 | Field Size | 400 |
 | Founded | 1982 |
@@ -119,4 +119,4 @@ Founded around 1982, the Lake Placid Loppet capitalizes on the cross-country ski
 - Gatineau Loppet 2016 (Gatineau Loppet)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lake Placid Loppet". Canonical: https://xcskilabs.com/race/lake-placid-loppet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Lake Placid Loppet". Canonical: https://xcskilabs.com/race/lake-placid-loppet/. Generated 2026-11-15.*

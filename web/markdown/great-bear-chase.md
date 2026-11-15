@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Upper Peninsula"
 location: "Calumet"
-date: "2026: March 14"
+date: "2027: March 13"
 url: "https://xcskilabs.com/race/great-bear-chase/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/great-bear-chase/"
 | Altitude | 370 m |
 | Location | Calumet |
 | Country | United States |
-| Date | 2026: March 14 |
+| Date | 2027: March 13 |
 | Discipline | both |
 | Field Size | 800 |
 | Founded | 1981 |
@@ -128,4 +128,4 @@ Founded in 1981, the Great Bear Chase has become the premier ski marathon of Mic
 > I still have yet to go down a hill without falling... there are so many people with abs around here it's inspirational... I went down three hills without falling this is a big hill I call it the death hill.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Bear Chase". Canonical: https://xcskilabs.com/race/great-bear-chase/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Great Bear Chase". Canonical: https://xcskilabs.com/race/great-bear-chase/. Generated 2026-11-15.*

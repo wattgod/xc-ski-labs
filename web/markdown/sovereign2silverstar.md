@@ -8,7 +8,7 @@ discipline: "both"
 country: "Canada"
 region: "British Columbia"
 location: "Vernon"
-date: "2026: April 4"
+date: "2027: April 3-4"
 url: "https://xcskilabs.com/race/sovereign2silverstar/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/sovereign2silverstar/"
 | Altitude | 1,600 m |
 | Location | Vernon |
 | Country | Canada |
-| Date | 2026: April 4 |
+| Date | 2027: April 3-4 |
 | Discipline | both |
 | Field Size | 800 |
 | Founded | 2010 |
@@ -125,4 +125,4 @@ Founded around 2010, Sovereign to Silver Star connects two of British Columbia's
 - Best Moments of Sovereign 2 SilverStar Ski Marathon Classic and Skate 2024 (SC - The Ski Community)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sovereign to Silver Star". Canonical: https://xcskilabs.com/race/sovereign2silverstar/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Sovereign to Silver Star". Canonical: https://xcskilabs.com/race/sovereign2silverstar/. Generated 2026-11-15.*

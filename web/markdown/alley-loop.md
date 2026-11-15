@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Rocky Mountains"
 location: "Crested Butte"
-date: "2026: February 7"
+date: "2027: January 30"
 url: "https://xcskilabs.com/race/alley-loop/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/alley-loop/"
 | Altitude | 2,713 m |
 | Location | Crested Butte |
 | Country | United States |
-| Date | 2026: February 7 |
+| Date | 2027: January 30 |
 | Discipline | both |
 | Field Size | 800 |
 | Founded | 1982 |
@@ -126,4 +126,4 @@ Founded around 1994, the Alley Loop emerged from Crested Butte's legendary count
 > My skis were destroyed after all the rocks on the road... Kyle brought red got first place in an hour forty-four minutes so he was 19 minutes faster than me which is insane.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Alley Loop". Canonical: https://xcskilabs.com/race/alley-loop/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Alley Loop". Canonical: https://xcskilabs.com/race/alley-loop/. Generated 2026-11-15.*

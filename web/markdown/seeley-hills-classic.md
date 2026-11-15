@@ -8,7 +8,7 @@ discipline: "classic"
 country: "United States"
 region: "Wisconsin"
 location: "Seeley, Wisconsin"
-date: "2026: January 17"
+date: "2027: January 9"
 url: "https://xcskilabs.com/race/seeley-hills-classic/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/seeley-hills-classic/"
 | Altitude | 430 m |
 | Location | Seeley, Wisconsin |
 | Country | United States |
-| Date | 2026: January 17 |
+| Date | 2027: January 9 |
 | Discipline | classic |
 | Field Size | 600 |
 | Founded | 1992 |
@@ -124,4 +124,4 @@ Founded in 1992 as a classic-technique-only event on the American Birkebeiner Tr
 > They're starting from Double O heading up to the high point turning around at that point and then heading back to Double O from Double O they go down past Gravel Pit to the turnaround and then return back to Double O for the Finish Line total distance 42K.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Seeley Hills Classic". Canonical: https://xcskilabs.com/race/seeley-hills-classic/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Seeley Hills Classic". Canonical: https://xcskilabs.com/race/seeley-hills-classic/. Generated 2026-11-15.*

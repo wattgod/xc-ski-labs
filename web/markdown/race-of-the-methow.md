@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Washington"
 location: "Methow Valley, Washington"
-date: "2026: January 31 - February 1"
+date: "2027: January 30-31"
 url: "https://xcskilabs.com/race/race-of-the-methow/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/race-of-the-methow/"
 | Altitude | 550 m |
 | Location | Methow Valley, Washington |
 | Country | United States |
-| Date | 2026: January 31 - February 1 |
+| Date | 2027: January 30-31 |
 | Discipline | both |
 | Field Size | 200 |
 | Registration | Online registration |
@@ -123,4 +123,4 @@ The Race of the Methow is a signature racing event in Washington's Methow Valley
 > It was good fast were good was fast it was icy underneath though so on certain steep Corners you got little ice it was a little bit hard but it was good it was a good race.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Race of the Methow". Canonical: https://xcskilabs.com/race/race-of-the-methow/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Race of the Methow". Canonical: https://xcskilabs.com/race/race-of-the-methow/. Generated 2026-11-15.*

@@ -8,7 +8,7 @@ discipline: "both"
 country: "United States"
 region: "Minnesota"
 location: "Biwabik, Minnesota"
-date: "2026: February 28"
+date: "2027: March 6"
 url: "https://xcskilabs.com/race/pepsi-challenge/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/pepsi-challenge/"
 | Altitude | 490 m |
 | Location | Biwabik, Minnesota |
 | Country | United States |
-| Date | 2026: February 28 |
+| Date | 2027: March 6 |
 | Discipline | both |
 | Field Size | 500 |
 | Founded | 1987 |
@@ -120,4 +120,4 @@ The Pepsi Challenge has been a fixture of Minnesota Nordic racing since 1987, le
 - Cross country skiing challenge in Minnesota (Robertolino Vargas)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pepsi Challenge". Canonical: https://xcskilabs.com/race/pepsi-challenge/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Pepsi Challenge". Canonical: https://xcskilabs.com/race/pepsi-challenge/. Generated 2026-11-15.*

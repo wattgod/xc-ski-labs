@@ -8,7 +8,7 @@ discipline: "skate"
 country: "France"
 region: "Isère"
 location: "Saint-Agnan to Villard-de-Lans"
-date: "2026: February 15"
+date: "2027: February 7"
 url: "https://xcskilabs.com/race/trans-vercors/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/trans-vercors/"
 | Altitude | 1,200 m |
 | Location | Saint-Agnan to Villard-de-Lans |
 | Country | France |
-| Date | 2026: February 15 |
+| Date | 2027: February 7 |
 | Discipline | skate |
 | Field Size | 600 |
 | Founded | 1968 |
@@ -121,4 +121,4 @@ The Trans'Vercors is one of France's oldest cross-country ski marathons, first h
 - Caméra embarquée - 53km Trans'Vercors Nordic - 4 mars 2018 (Admin Transvercors)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Trans'Vercors". Canonical: https://xcskilabs.com/race/trans-vercors/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Trans'Vercors". Canonical: https://xcskilabs.com/race/trans-vercors/. Generated 2026-11-15.*

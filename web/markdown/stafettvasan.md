@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Sweden"
 region: "Dalarna"
 location: "Sälen to Mora"
-date: "2026: February 22"
+date: "2027: March 5"
 url: "https://xcskilabs.com/race/stafettvasan/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/stafettvasan/"
 | Altitude | 350 m |
 | Location | Sälen to Mora |
 | Country | Sweden |
-| Date | 2026: February 22 |
+| Date | 2027: March 5 |
 | Discipline | classic |
 | Field Size | 5000 |
 | Founded | 2003 |
@@ -130,4 +130,4 @@ StafettVasan was launched in 2003 as part of the Vasaloppet organization's effor
 - Stafettvasan 2012 (Pål Erlandsson)
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — StafettVasan". Canonical: https://xcskilabs.com/race/stafettvasan/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — StafettVasan". Canonical: https://xcskilabs.com/race/stafettvasan/. Generated 2026-11-15.*

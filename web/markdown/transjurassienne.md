@@ -8,7 +8,7 @@ discipline: "both"
 country: "France"
 region: "Bourgogne-Franche-Comté"
 location: "Lamoura to Mouthe"
-date: "2026: February 15"
+date: "2027: February 14"
 url: "https://xcskilabs.com/race/transjurassienne/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/transjurassienne/"
 | Altitude | 1,000 m |
 | Location | Lamoura to Mouthe |
 | Country | France |
-| Date | 2026: February 15 |
+| Date | 2027: February 14 |
 | Discipline | both |
 | Field Size | 4000 |
 | Founded | 1979 |
@@ -130,4 +130,4 @@ Founded in 1979, La Transjurassienne traverses the Jura Mountains in eastern Fra
 > At 9:30 thousands of skiers started at Bois de Mille to ski the 60 kilometre ft race to the finish in show nerve the race was a hard one on this the athletes agreed in the finished first it was snowing then it was snowing heavily then there was a mixture of snow and rain hence it was not warm but the competition was a hot one.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — La Transjurassienne". Canonical: https://xcskilabs.com/race/transjurassienne/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — La Transjurassienne". Canonical: https://xcskilabs.com/race/transjurassienne/. Generated 2026-11-15.*

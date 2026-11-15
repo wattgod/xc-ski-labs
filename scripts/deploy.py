@@ -682,15 +682,16 @@ def sync_errors():
 
 
 def sync_feeds():
-    """Upload crawler support feed files to site root and /feed/."""
+    """Upload race-dates.json, robots.txt and feed/races.xml (llms.txt: sync_llms)."""
     ssh = get_ssh_credentials()
     if not ssh:
         return False
     host, user, port = ssh
 
     output_dir = PROJECT_ROOT / "output"
+    # llms.txt is not here: sync_llms owns it (regenerates, uploads, then
+    # locks it 444), so uploading it again here was refused and failed the step.
     files = [
-        (output_dir / "llms.txt", f"{get_remote_base()}/llms.txt"),
         (output_dir / "race-dates.json", f"{get_remote_base()}/race-dates.json"),
         (output_dir / "robots.txt", f"{get_remote_base()}/robots.txt"),
         (output_dir / "feed" / "races.xml", f"{get_remote_base()}/feed/races.xml"),
@@ -1005,7 +1006,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--sync-feeds", action="store_true",
-        help="Upload llms.txt, race-dates.json, robots.txt, and feed/races.xml"
+        help="Upload race-dates.json, robots.txt, and feed/races.xml (llms.txt goes with --sync-llms)"
     )
     parser.add_argument(
         "--sync-llms", action="store_true",

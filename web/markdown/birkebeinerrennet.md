@@ -8,7 +8,7 @@ discipline: "classic"
 country: "Norway"
 region: "Innlandet"
 location: "Rena to Lillehammer"
-date: "2026: March 21"
+date: "2027: March 20"
 url: "https://xcskilabs.com/race/birkebeinerrennet/"
 ---
 
@@ -28,7 +28,7 @@ url: "https://xcskilabs.com/race/birkebeinerrennet/"
 | Altitude | 800 m |
 | Location | Rena to Lillehammer |
 | Country | Norway |
-| Date | 2026: March 21 |
+| Date | 2027: March 20 |
 | Discipline | classic |
 | Field Size | 10000 |
 | Founded | 1932 |
@@ -134,4 +134,4 @@ The race commemorates the 1206 rescue of the infant Prince Haakon Haakonsson by 
 > I was warned about how hard this race would be, but it still took me by surprise how long and disgustingly hard the climbs actually are... this has been so freaking brutal so far.
 
 ---
-*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Birkebeinerrennet". Canonical: https://xcskilabs.com/race/birkebeinerrennet/. Generated 2026-07-26.*
+*This profile is by XC Ski Labs (xcskilabs.com). Cite as: "XC Ski Labs — Birkebeinerrennet". Canonical: https://xcskilabs.com/race/birkebeinerrennet/. Generated 2026-11-15.*
