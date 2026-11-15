@@ -98,3 +98,15 @@ def test_hero_photo_is_a_real_frame_shipped_with_the_page(tmp_path):
     out = gc.generate_page(tmp_path)
     assert (out.parent / gc.HERO_PHOTO).stat().st_size > 50_000
     assert f'src="{gc.HERO_PHOTO}"' in out.read_text()
+
+
+def test_book_decoration_survives_the_template_reset():
+    css = gc.PAGE_CSS
+    assert "var(--stroke-underline)) 0 var(--splash) !important" in css
+    assert ".xc-tag::before { border-radius: 50% !important" in css
+    assert ".xc-ship::before { border-radius: 50% !important" in css
+
+
+def test_every_tag_counts_what_it_counts():
+    for p in gc.PRODUCTS:
+        assert re.match(r"\d+ lessons, \d+ clips", gc.stat_line(p))

@@ -96,6 +96,13 @@ PAGE_CSS = """
 .xc-buy-msg { margin: 18px 0 0; font-weight: 600; color: var(--danger); }
 .xc-buy-msg:empty { display: none; }
 .xc-buy-msg::before { content: "\\26A0\\FE0E  "; }
+/* build_css() ends with a universal radius/shadow reset (!important) for the
+   old templates. The book's button underline and round tag eyelets are
+   allowed decoration (README §5, Button, LuggageTag, ShippingTag): restore them. */
+html body .xc-course .xc-btn { box-shadow: inset 0 calc(-1 * var(--stroke-underline)) 0 var(--splash) !important; }
+html body .xc-course .xc-crate--splash .xc-btn { box-shadow: none !important; }
+html body .xc-course .xc-tag::before { border-radius: 50% !important; box-shadow: inset 0 0 0 2px var(--on-tag) !important; }
+html body .xc-course .xc-ship::before { border-radius: 50% !important; box-shadow: inset 0 0 0 3px var(--on-tag) !important; }
 """
 
 HERO_PHOTO = "diagonal-stride.jpg"  # a frame of Matti's own diagonal stride clip
@@ -116,7 +123,7 @@ def build_lessons() -> str:
 def stat_line(p: dict) -> str:
     if p["lessons"]:
         return f'{len(p["lessons"])} lessons, {p["clips"]} clips, plus the basics.'
-    return "Everything on this page, plus what comes next."
+    return f"{LESSON_COUNT} lessons, {VIDEO_COUNT} clips, plus every new module."
 
 
 def build_products() -> str:
