@@ -327,7 +327,8 @@ def _display_caps(text: Any) -> str:
 
     Existing hyphens become non-breaking (the name breaks where WE say);
     known Nordic compound suffixes get a soft hyphen so very long single
-    words (BIRKEBEINERRENNET) break with a real hyphen, per guidelines §3.
+    words (BIRKEBEINERRENNET) break with a real hyphen, per guidelines §3;
+    a suffix that already follows a hyphen gets <wbr>, never a second one.
     """
     out = esc(text).replace("-", "&#8209;")
     words = out.split(" ")
@@ -337,7 +338,11 @@ def _display_caps(text: Any) -> str:
             for suffix in ("rennet", "loppet", "marsjen", "maraton", "marathon", "rittet"):
                 idx = w.lower().rfind(suffix)
                 if idx > 3:
-                    w = w[:idx] + "&shy;" + w[idx:]
+                    # Already hyphenated (Ski-Marathon): break after the
+                    # visible hyphen with <wbr>. A soft hyphen there would
+                    # draw a second hyphen at the line end ("SKI--").
+                    brk = "<wbr>" if w[:idx].endswith("&#8209;") else "&shy;"
+                    w = w[:idx] + brk + w[idx:]
                     break
         fixed.append(w)
     return " ".join(fixed)

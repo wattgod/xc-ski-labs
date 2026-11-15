@@ -154,3 +154,11 @@ def test_no_body_hover_turns_klister():
 def test_post_payment_pages_load_the_book_faces():
     src = (ROOT / "wordpress" / "generate_success.py").read_text(encoding="utf-8")
     assert "{BRAND_FONT_LINKS}" in src
+
+
+def test_hyphenated_race_names_never_draw_a_second_hyphen():
+    import generate_race_pages
+    out = generate_race_pages._display_caps("3 Zinnen Ski-Marathon")
+    assert "&#8209;&shy;" not in out
+    assert "Ski&#8209;<wbr>Marathon" in out
+    assert "Birkebeiner&shy;rennet" in generate_race_pages._display_caps("Birkebeinerrennet")
