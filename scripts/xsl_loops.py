@@ -93,7 +93,10 @@ LOOP_CSS = """
 .xsl-loop-name { font-weight: 700; color: var(--gl-ink); }
 .xsl-loop-toggle { position: absolute; right: 8px; bottom: 8px; width: 36px; height: 36px; display: flex; align-items: center;
   justify-content: center; padding: 0; border: 2px solid var(--gl-ink); background: var(--gl-paper); color: var(--gl-ink);
-  font: 700 12px/1 var(--gl-font-data); letter-spacing: -.1em; cursor: pointer; opacity: .85; }
+  cursor: pointer; opacity: .85; }
+/* icons drawn in CSS: the site's fonts have no pause glyph, and a fallback font drew it as one thin bar */
+.xsl-i-pause { display: block; width: 12px; height: 14px; border-left: 4px solid currentColor; border-right: 4px solid currentColor; box-sizing: border-box; }
+.xsl-i-play { display: block; width: 0; height: 0; margin-left: 3px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 12px solid currentColor; }
 .xsl-loop-toggle:hover, .xsl-loop-toggle:focus-visible { opacity: 1; background: var(--gl-ink); color: var(--gl-paper); }
 .xsl-loop-toggle:focus-visible { outline: 3px solid var(--gl-rust); outline-offset: 2px; }
 .xsl-loop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 28px 24px; }
@@ -128,7 +131,7 @@ LOOP_JS = """
     var what = v.getAttribute('data-name') || '';
     function show() { var off = v.hasAttribute('data-paused');
       b.setAttribute('aria-label', (off ? 'Play ' : 'Pause ') + what + ' animation');
-      b.innerHTML = off ? '&#9654;&#xFE0E;' : '&#10073;&#10073;'; }
+      b.innerHTML = '<span class="' + (off ? 'xsl-i-play' : 'xsl-i-pause') + '" aria-hidden="true"></span>'; }
     b.addEventListener('click', function () {
       if (v.hasAttribute('data-paused')) { v.removeAttribute('data-paused'); var p = v.play(); if (p && p.catch) { p.catch(function () {}); } }
       else { v.setAttribute('data-paused', ''); v.pause(); }

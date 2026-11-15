@@ -76,6 +76,9 @@ def test_loop_script_respects_reduced_motion_and_guards_entries():
     assert js.index("if (mq && mq.matches) return;") < js.index("function toggle(")
     assert "(off ? 'Play ' : 'Pause ') + what + ' animation'" in js and "aria-pressed" not in js
     assert "addEventListener('playing'" in js                          # no button when autoplay is refused
+    # icons are drawn in CSS, never a font glyph (the site fonts have no pause glyph)
+    assert "xsl-i-pause" in js and "&#10073;" not in js and "&#9654;" not in js
+    assert ".xsl-i-pause" in xsl_loops.LOOP_CSS and ".xsl-i-play" in xsl_loops.LOOP_CSS
     assert "!entries.length" in js                      # pitfall #33
     assert "requestAnimationFrame" in js
 
