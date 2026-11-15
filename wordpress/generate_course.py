@@ -93,8 +93,8 @@ PAGE_CSS = """
 .gl-course-price { font-family: var(--gl-font-data); font-weight: 700; font-size: 1.25rem; }
 .gl-course-buy label { font-family: var(--gl-font-data); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: inherit; }
 .gl-course-buy input { font: inherit; padding: 10px 12px; border: 2px solid var(--gl-carbon); background: var(--gl-white); color: var(--gl-carbon); }
-.gl-course-buy button { font-family: var(--gl-font-data); font-weight: 700; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.06em; padding: 14px 18px; border: 0; background: var(--gl-swix-red); color: var(--gl-white); cursor: pointer; }
-.gl-course-buy button:hover { background: var(--ground); color: var(--ink); }
+.gl-course-buy button { font-family: var(--gl-font-data); font-weight: 700; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.06em; padding: 14px 18px; border: var(--stroke-button) solid var(--action); background: var(--gl-swix-red); color: var(--gl-white); cursor: pointer; }
+.gl-course-buy button:hover { background: var(--ground); color: var(--ink); border-color: var(--ink); }
 .gl-course-buy button[disabled] { opacity: 0.6; cursor: wait; }
 .gl-course-msg { font-family: var(--gl-font-data); font-size: 0.8125rem; color: var(--gl-red-deep); min-height: 1.2em; }
 .gl-course-fine { font-family: var(--gl-font-data); font-size: 0.75rem; color: var(--gl-slate); }
