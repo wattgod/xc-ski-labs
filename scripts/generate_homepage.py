@@ -27,6 +27,8 @@ from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
 
 XL_GA4_HEAD = get_ga4_head()
 XL_CONSENT_BANNER = get_consent_banner_html()
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "wordpress"))
+import plan_offer  # noqa: E402  (wordpress/plan_offer.py: the custom plan's price)
 
 try:
     from scripts.endure_offer import get_endure_offer_html
@@ -272,6 +274,8 @@ def generate_homepage(races: list[dict]) -> str:
     # The course rung links /learn/, which 404s until the course ships.
     # Same gate as generate_race_pages.build_product_ladder: COURSE_LIVE.
     course_rung = ""
+    # Custom plan + coaching, plus the course rung once it ships.
+    rung_count = 3 if COURSE_LIVE else 2
     if COURSE_LIVE:
         course_rung = """      <div class="gl-rung">
         <span class="gl-rung-kicker">Course</span>
@@ -983,7 +987,7 @@ footer {{
 
 .gl-rungs {{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat({rung_count}, 1fr);
   gap: var(--gl-space-4);
 }}
 
@@ -1346,18 +1350,11 @@ a:focus-visible, button:focus-visible {{
     <p class="gl-ladder-lead">Choose the amount of structure you want around the start line.</p>
     <div class="gl-rungs">
       <div class="gl-rung">
-        <span class="gl-rung-kicker">Plans</span>
-        <h3>Training plans</h3>
-        <p>Structured plans for classic races, skate races, and long winter builds.</p>
-        <span class="gl-rung-price">FROM $60</span><br>
-        <a class="gl-rung-btn" href="/training-plans/">Browse</a>
-      </div>
-      <div class="gl-rung">
-        <span class="gl-rung-kicker">Custom</span>
+        <span class="gl-rung-kicker">Plan</span>
         <h3>Custom plan</h3>
         <p>Your race, your hours, your history. Built from the intake.</p>
-        <span class="gl-rung-price">$60-$249</span><br>
-        <a class="gl-rung-btn" href="/questionnaire/">Start the intake</a>
+        <span class="gl-rung-price">{esc(plan_offer.BLOCK_PRICE)} / {plan_offer.BLOCK_WEEKS} WK</span><br>
+        <a class="gl-rung-btn" href="/training-plans/">See the plan</a>
       </div>
 {course_rung}      <div class="gl-rung">
         <span class="gl-rung-kicker">Coaching</span>

@@ -26,6 +26,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from xsl_loops import DISCIPLINE_LOOP, LOOP_CSS, LOOP_JS, LOOPS, loop_figure  # noqa: E402
 from tiers import tier_badge, tier_label as tier_full_label  # noqa: E402
 from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "wordpress"))
+import plan_offer  # noqa: E402  (wordpress/plan_offer.py: the custom plan's price)
 import xml.etree.ElementTree as ET
 
 try:
@@ -2829,7 +2831,7 @@ def build_product_ladder(race: dict) -> str:
     """Custom-first offer, followed by the higher-touch coaching path."""
     slug = esc(race["slug"])
     rungs = [
-        ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background — built from the intake.", "$60-$249", f"/questionnaire/?race={slug}", "Start the intake", True, False),
+        ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background — built from the intake.", f"{plan_offer.BLOCK_PRICE} / {plan_offer.BLOCK_WEEKS} WK", f"/questionnaire/?race={slug}", "Start the intake", True, False),
         ("Higher touch", "1:1 coaching", "A coach reads your training and adjusts the plan as conditions, recovery, and life change.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply for coaching", False, False),
         ("Free reference", "Race prep guide", "Technique, pacing, fueling, and wax fundamentals to use while you evaluate your next step.", "FREE", "/guide/", "Read the guide", False, False),
     ]

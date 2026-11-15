@@ -257,6 +257,34 @@ class TestSuccessAndTerms:
         assert not re.search(r"\bmonthly\b|/mo\b|per month", terms, re.I)
 
 
+class TestOtherPagesQuoteThePlan:
+    """The homepage, every race page (and the guide, which reuses the race
+    ladder) and /goals/ name the plan's price. They quote plan_offer, never
+    the retired $60-$249 range."""
+
+    PRICE_TAG = f"{plan_offer.BLOCK_PRICE} / {plan_offer.BLOCK_WEEKS} WK"
+
+    def test_race_page_ladder(self):
+        sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
+        import generate_race_pages
+        ladder = generate_race_pages.build_product_ladder({"slug": "vasaloppet"})
+        assert self.PRICE_TAG in ladder
+        assert plan_offer.stale_offer_phrases(ladder) == []
+
+    def test_homepage(self):
+        sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
+        import generate_homepage
+        html = generate_homepage.generate_homepage([])
+        assert self.PRICE_TAG in html
+        assert plan_offer.stale_offer_phrases(html) == []
+
+    def test_goals_page(self):
+        import generate_goals
+        html = generate_goals.generate_page()
+        assert f"Ski Plan: {plan_offer.PRICE_TO_RACE}" in html
+        assert plan_offer.stale_offer_phrases(html) == []
+
+
 @pytest.mark.skipif(not PIPELINE.exists(), reason="pipeline checkout not next to this repo")
 class TestAgainstCheckoutServer:
     """The page's copy of the server's rules must match the server."""
