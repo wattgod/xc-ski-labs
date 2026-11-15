@@ -650,7 +650,8 @@ def sync_thanks():
 
 
 def sync_errors():
-    """Upload web/.htaccess (www -> apex 301, ErrorDocument 404) and output/404.html.
+    """Upload web/.htaccess (www -> apex 301, ErrorDocument 404), output/404.html
+    and web/.well-known/security.txt.
 
     The 404 page goes first so the ErrorDocument never points at a missing file.
     The live .htaccess, if any, is copied to .htaccess.bak-<timestamp> first.
@@ -677,7 +678,12 @@ def sync_errors():
         return False
     if not _scp_upload(host, user, port, htaccess, f"{remote_base}/.htaccess"):
         return False
-    print("  Deployed /404.html and /.htaccess")
+    security = PROJECT_ROOT / "web" / ".well-known" / "security.txt"
+    ok, _, err = _ssh_run(host, user, port, f"mkdir -p {remote_base}/.well-known")
+    if not ok or not _scp_upload(host, user, port, security, f"{remote_base}/.well-known/security.txt"):
+        print(f"  FAILED: /.well-known/security.txt {err}")
+        return False
+    print("  Deployed /404.html, /.htaccess and /.well-known/security.txt")
     return True
 
 
