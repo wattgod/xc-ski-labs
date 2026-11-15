@@ -101,10 +101,11 @@ def generate_sitemap(domain, profiles):
     add_url(f"{domain}/privacy/", "0.3", "yearly")
     add_url(f"{domain}/terms/", "0.3", "yearly")
 
-    # Free guide — pillar + only the OPEN (indexable) chapters; gated ones are noindex
+    # Free guide: pillar + every chapter (all open). Retired chapter URLs are redirects, not listed.
     add_url(f"{domain}/guide/", "0.9", "monthly")
-    for gid in ("what-is-xc-ski-racing", "race-selection", "training-fundamentals"):
-        add_url(f"{domain}/guide/{gid}/", "0.7", "monthly")
+    guide = json.loads((SCRIPT_DIR.parent / "guide" / "xc-guide-content.json").read_text(encoding="utf-8"))
+    for chapter in guide["chapters"]:
+        add_url(f"{domain}/guide/{chapter['id']}/", "0.7", "monthly")
 
     # Race pages and their indexable prep kits — already sorted
     tier_counts = {}

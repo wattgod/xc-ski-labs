@@ -2874,7 +2874,7 @@ def build_technique_motion(race: dict) -> str:
   {loop_figure(tech, "square", caption=False)}
   <div>
     <h2 id="xsl-race-motion-title">{esc(name)}</h2>
-    <a href="/guide/technique-and-execution/">Classic gears in the guide &rarr;</a>
+    <a href="/guide/the-gears/">Classic gears in the guide &rarr;</a>
   </div>
 </section>
 """

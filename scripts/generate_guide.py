@@ -38,7 +38,7 @@ from generate_race_pages import (  # noqa: E402
 )
 
 
-from xsl_loops import LOOP_JS, loop_figure  # noqa: E402
+from xsl_loops import LOOP_JS, loop_figure, shapes as loop_shapes  # noqa: E402
 
 CITE_RE = re.compile(r"\[\^([A-Za-z0-9_.-]+)\]")
 
@@ -130,16 +130,6 @@ def build_css() -> str:
 .gl-guide-card-meta { margin-top: auto; display: flex; gap: var(--gl-space-2); flex-wrap: wrap; }
 .gl-guide-tag { border: 1px solid var(--gl-hairline); padding: var(--gl-space-1) var(--gl-space-2); }
 .gl-guide-tag--free { color: var(--gl-swix-red); }
-.gl-guide-gate { background: var(--gl-white); border: 3px solid var(--gl-carbon); border-top: 6px solid var(--gl-swix-red); padding: var(--gl-space-5); margin: var(--gl-space-5) 0 0; }
-.gl-guide-gate h2 { margin: 0 0 var(--gl-space-2); font-family: var(--gl-font-display); font-size: 1.45rem; font-weight: 900; font-style: italic; letter-spacing: 0; text-transform: uppercase; }
-.gl-guide-gate p { max-width: var(--gl-prose); margin: 0 0 var(--gl-space-4); }
-.gl-guide-gate-label { font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--gl-muted); display: block; margin: 0 0 var(--gl-space-2); }
-.gl-guide-gate-row { display: flex; gap: var(--gl-space-2); flex-wrap: wrap; }
-.gl-guide-gate-input { flex: 1 1 240px; min-height: 44px; border: 2px solid var(--gl-carbon); padding: 0 var(--gl-space-3); font-family: var(--gl-font-editorial); font-size: 1rem; background: var(--gl-paper); }
-.gl-guide-gate-error { font-size: .9rem; color: var(--gl-swix-red); font-weight: 700; margin: var(--gl-space-3) 0 0; }
-.gl-guide-gate-note { font-size: .82rem; color: var(--gl-muted); margin: var(--gl-space-3) 0 0; }
-.gl-guide-gate-note a { color: var(--gl-swix-red); font-weight: 700; }
-.gl-guide-locked[hidden] { display: none; }
 .gl-guide-btn { min-height: 44px; display: inline-flex; align-items: center; background: var(--gl-carbon); color: var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; }
 .gl-guide-plate-num { fill: var(--gl-muted); opacity: .34; font-family: var(--gl-font-display); font-size: 140px; font-weight: 900; font-style: italic; }
 .gl-plate-bar, .gl-plate-zone { fill: var(--gl-klister); }
@@ -186,11 +176,27 @@ def build_css() -> str:
 .gl-prev-next { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gl-space-4); margin: var(--gl-space-7) 0; }
 .gl-prev-next a { background: var(--gl-white); border: 3px solid var(--gl-carbon); padding: var(--gl-space-4); text-decoration: none; }
 .gl-prev-next span { display: block; color: var(--gl-muted); font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.gl-guide-hero-loop { width: 100%; max-width: 360px; }
+@media (max-width: 820px) { .gl-guide-hero-loop { max-width: 240px; } }
+.gl-guide-offer { max-width: var(--gl-prose); background: var(--gl-white); border: 3px solid var(--gl-carbon); border-top: 8px solid var(--gl-swix-red); padding: var(--gl-space-5); margin: var(--gl-space-6) 0; }
+.gl-guide-offer h2 { margin: 0 0 var(--gl-space-3); font-family: var(--gl-font-display); font-size: 1.6rem; font-weight: 900; line-height: 1; text-transform: uppercase; }
+.gl-guide-offer p { margin: 0 0 var(--gl-space-3); }
+.gl-guide-offer ul { margin: 0 0 var(--gl-space-4); padding-left: var(--gl-space-5); }
+.gl-guide-offer li { margin: 0 0 var(--gl-space-2); }
+.gl-guide-loop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 28px 24px; }
+.gl-guide-loop-grid--single { max-width: 320px; }
 @media (max-width: 820px) { .gl-guide-grid, .gl-zone-grid, .gl-hero-stats, .gl-prev-next { grid-template-columns: 1fr; } .gl-guide-card { grid-template-columns: 1fr; } .gl-guide-card-plate { min-height: 180px; } }
 """
 
 
-def build_guide_hero(title: str, subtitle: str, kicker: str, plate: str) -> str:
+def hero_loop(tech: str) -> str:
+    """A chapter's header art: Gravel God skiing one technique (names only under the loop)."""
+    avail = loop_shapes(tech)
+    shape = "square" if "square" in avail else avail[0]
+    return f'<div class="gl-hero-plate">{loop_figure(tech, shape, extra_class="gl-guide-hero-loop")}</div>'
+
+
+def build_guide_hero(title: str, subtitle: str, kicker: str, plate: str, chips: str = "") -> str:
     return f"""
 <section class="gl-hero" id="hero">
   <div class="gl-hero-inner">
@@ -198,7 +204,7 @@ def build_guide_hero(title: str, subtitle: str, kicker: str, plate: str) -> str:
       <p class="gl-hero-kicker">{esc(kicker)}</p>
       <h1 class="gl-hero-name gl-hero-name--long">{esc(title)}</h1>
       <p class="gl-hero-tagline">{esc(_plain(subtitle))}</p>
-      <div class="gl-hero-chips"><span class="gl-chip">8 chapters</span><span class="gl-chip">Training guide</span><span class="gl-chip">XC ski racing</span></div>
+      {chips}
     </div>
     {plate}
   </div>
@@ -233,8 +239,10 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
         return f'<div class="gl-guide-block gl-accordion">{items}</div>'
     if kind == "technique_loops":
         # Gravel God skiing each gear, motion-captured from Matti's course videos (scripts/xsl_loops.py)
-        figs = "".join(loop_figure(t, "square") for t in block.get("techniques", []))
-        return f'<div class="gl-guide-block xsl-loop-grid">{figs}</div>'
+        techs = block.get("techniques", [])
+        figs = "".join(loop_figure(t, "square" if "square" in loop_shapes(t) else loop_shapes(t)[0]) for t in techs)
+        single = " gl-guide-loop-grid--single" if len(techs) == 1 else ""
+        return f'<div class="gl-guide-block gl-guide-loop-grid{single}">{figs}</div>'
     if kind == "data_table":
         title = f'<h3 class="gl-data-table-title">{esc(block.get("title", ""))}</h3>' if block.get("title") else ""
         headers = "".join(f"<th>{esc(h)}</th>" for h in block.get("headers", []))
@@ -259,8 +267,6 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
         for card in block.get("cards", []):
             cards.append(f'<button class="gl-wax-card gl-wax-card-blue" type="button" aria-pressed="false"><span class="gl-wax-card-inner"><span class="gl-wax-card-face gl-wax-card-front"><span class="gl-wax-card-kicker">Flashcard</span><span><h3>{esc(card.get("front", ""))}</h3><p>Tap to reveal.</p></span></span><span class="gl-wax-card-face gl-wax-card-back"><span class="gl-wax-card-kicker">Answer</span><span><h3>Answer</h3>{_paragraphs(card.get("back", ""), source_map)}</span></span></span></button>')
         return f'<div class="gl-guide-block gl-flashcard"><div class="gl-wax-cards">{"".join(cards)}</div></div>'
-    if kind == "calculator":
-        return f'<div class="gl-guide-block gl-calc" data-guide-calculator><h3>{esc(block.get("title", ""))}</h3><p>{esc(_plain(block.get("description", "")))}</p><label class="gl-mono">Hours <input type="number" min="0" max="24" step="1" value="6" data-hours-input></label><div class="gl-calc-output" data-hours-output>6 hours: two easy sessions, one technique session, one longer ski.</div></div>'
     if kind == "knowledge_check":
         opts = []
         correct = ""
@@ -274,18 +280,7 @@ def render_block(block: dict[str, Any], chapter: dict[str, Any], content: dict[s
     if kind == "race_reference":
         slug = block.get("slug", "")
         return f'<aside class="gl-guide-block gl-race-ref" data-race-reference="{esc(slug)}"><h3>Race reference</h3><p>{_md_inline(block.get("context", ""), source_map)}</p><a href="/{esc(slug)}/">Open race profile</a></aside>'
-    if kind == "personalized_content":
-        riders = content.get("personalization", {}).get("rider_types", [])
-        buttons = []
-        panels = []
-        variants = block.get("variants", {})
-        for i, rider in enumerate(riders):
-            rid = rider["id"]
-            active = " is-active" if i == 0 else ""
-            buttons.append(f'<button class="gl-personal-button{active}" type="button" data-rider-target="{esc(rid)}">{esc(rider["label"])}</button>')
-            panels.append(f'<div class="gl-personal-panel{active}" data-rider-panel="{esc(rid)}"><span class="gl-guide-tag">{esc(rider.get("hours", ""))}</span>{_paragraphs(variants.get(rid, ""), source_map)}</div>')
-        return f'<div class="gl-guide-block gl-personal"><h3>I am a:</h3><div class="gl-personal-buttons">{"".join(buttons)}</div>{"".join(panels)}</div>'
-    return f'<div class="gl-guide-block gl-placeholder">Unsupported block: {esc(kind)}</div>'
+    raise ValueError(f"{chapter['id']}: unsupported guide block type {kind!r}")
 
 
 def build_sources(chapter: dict[str, Any]) -> str:
@@ -304,52 +299,28 @@ def build_section_header(num: str, title: str) -> str:
     return f'<div class="gl-section-header"><span class="gl-section-num">{esc(num)}</span><h2 class="gl-section-title">{esc(title)}</h2></div>'
 
 
-# The gate posts to the shared lead Worker (brand xcskilabs). There is no
-# FormSubmit fallback: coaching@xcskilabs.com was never activated there, so a
-# no-JS post was silently dropped. Without JS the chapter is simply readable.
-LEAD_WORKER_URL = "https://fueling-lead-intake.gravelgodcoaching.workers.dev"
-GATE_ERROR = ("That didn't go through, and I don't have your email yet. Try again, "
-              "or write to me at gravelgodcoaching@gmail.com.")
+def build_course_offer(content: dict[str, Any]) -> str:
+    """The guide's one upsell: the course. Rendered only once the course can be bought
+    (course_offer.live). Until then nothing is shown in its place."""
+    offer = content.get("course_offer") or {}
+    if not offer.get("live"):
+        return ""
+    items = "".join(f"<li>{esc(_plain(i))}</li>" for i in offer.get("items", []))
+    return (f'<aside class="gl-guide-offer" data-guide-offer>'
+            f'<h2>{esc(offer["title"])}</h2><p>{esc(_plain(offer.get("lead", "")))}</p><ul>{items}</ul>'
+            f'<a class="gl-guide-btn" href="{esc(offer["href"])}" data-ga="guide_course">{esc(offer["cta"])} &rarr;</a></aside>')
 
 
 def build_chapter_body(chapter: dict[str, Any], content: dict[str, Any]) -> str:
-    parts = []
-    gated = chapter.get("gated")
-    if gated:
-        cid = esc(chapter.get("id", ""))
-        ctitle = esc(chapter.get("title") or chapter.get("id", ""))
-        parts.append(f"""
-<aside class="gl-guide-gate" data-guide-gate hidden>
-  <p class="gl-guide-tag">Free — one email</p>
-  <h2>Read the rest of the guide</h2>
-  <p>Chapters four through eight — technique, fueling, tactics, race week, and the off-season — plus the whole guide, for your email. No spam; unsubscribe anytime.</p>
-  <form class="gl-guide-gate-form" data-guide-gate-form method="post" novalidate>
-    <input type="hidden" name="chapter" value="{ctitle}">
-    <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-    <label class="gl-guide-gate-label" for="gate-email-{cid}">Email</label>
-    <div class="gl-guide-gate-row">
-      <input class="gl-guide-gate-input" id="gate-email-{cid}" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
-      <button class="gl-guide-btn" type="submit">Unlock the guide</button>
-    </div>
-    <p class="gl-guide-gate-error" data-guide-gate-error role="alert" hidden>{esc(GATE_ERROR)}</p>
-    <p class="gl-guide-gate-note">Prefer a plan built for you? <a href="/questionnaire/">Start the intake</a> instead.</p>
-  </form>
-</aside>
-""")
     body = []
     for idx, section in enumerate(chapter.get("sections", []), start=1):
         blocks = "\n".join(render_block(block, chapter, content) for block in section.get("blocks", []))
         title = section.get("title") or section.get("id", "").replace("-", " ")
         body.append(f'<section class="gl-section" id="{esc(section["id"])}">{build_section_header(f"{idx:02d}", title)}{blocks}</section>')
     body.append(build_sources(chapter))
-    body_html = "\n".join(body)
-    if gated:
-        # Content hidden until unlocked (JS reveals on email submit or returning reader)
-        # Readable without JS; the gate script hides it until the email is captured.
-        parts.append(f'<div class="gl-guide-locked" data-guide-locked>{body_html}</div>')
-    else:
-        parts.append(body_html)
-    return "\n".join(parts)
+    if chapter is content["chapters"][-1]:
+        body.append(build_course_offer(content))
+    return "\n".join(b for b in body if b)
 
 
 def build_prev_next(chapter: dict[str, Any], chapters: list[dict[str, Any]]) -> str:
@@ -386,92 +357,6 @@ def build_script() -> str:
       if (panel) panel.classList.add('is-active');
     });
   });
-  document.querySelectorAll('[data-rider-target]').forEach(function(button) {
-    button.addEventListener('click', function() {
-      var wrap = button.closest('.gl-personal');
-      if (!wrap) return;
-      var target = button.getAttribute('data-rider-target');
-      wrap.querySelectorAll('.gl-personal-button,.gl-personal-panel').forEach(function(el) { el.classList.remove('is-active'); });
-      button.classList.add('is-active');
-      var panel = wrap.querySelector('[data-rider-panel="' + target + '"]');
-      if (panel) panel.classList.add('is-active');
-    });
-  });
-  document.querySelectorAll('[data-guide-calculator]').forEach(function(calc) {
-    var input = calc.querySelector('[data-hours-input]');
-    var output = calc.querySelector('[data-hours-output]');
-    if (!input || !output) return;
-    function update() {
-      var hours = parseFloat(input.value || '0');
-      var label = hours < 4 ? 'two short easy sessions and one technique touch' : hours < 8 ? 'two easy sessions, one technique session, one longer ski' : hours < 12 ? 'three aerobic sessions, one interval session, one technique block, one long ski' : 'a planned week with volume, intensity, strength, and recovery protected';
-      output.textContent = hours + ' hours: ' + label + '.';
-    }
-    input.addEventListener('input', update);
-    update();
-  });
-
-  // Guide email gate. The chapter is readable without JS; here it is hidden
-  // behind the gate until the lead Worker confirms it has the email (or the
-  // reader unlocked before). Unlock and guide_unlock happen only on success.
-  var UNLOCK_KEY = 'xl_guide_unlocked';
-  var unlocked = false;
-  try { unlocked = localStorage.getItem(UNLOCK_KEY) === '1'; } catch (e) {}
-  function unlock() {
-    document.querySelectorAll('[data-guide-locked]').forEach(function(el) { el.hidden = false; });
-    document.querySelectorAll('[data-guide-gate]').forEach(function(el) { el.hidden = true; });
-  }
-  if (unlocked) {
-    unlock();
-  } else {
-    document.querySelectorAll('[data-guide-locked]').forEach(function(el) { el.hidden = true; });
-    document.querySelectorAll('[data-guide-gate]').forEach(function(el) { el.hidden = false; });
-  }
-  document.querySelectorAll('[data-guide-gate-form]').forEach(function(form) {
-    var busy = false;
-    var errorEl = form.querySelector('[data-guide-gate-error]');
-    var button = form.querySelector('button[type="submit"]');
-    form.addEventListener('submit', function(e) {
-      e.preventDefault();
-      if (busy) return;
-      var honey = form.querySelector('[name="_honey"]');
-      if (honey && honey.value) return; // bot
-      var emailEl = form.querySelector('[name="email"]');
-      if (emailEl && !emailEl.checkValidity()) { emailEl.reportValidity(); return; }
-      var chapter = (form.querySelector('[name="chapter"]') || {}).value || '';
-      var viewed = [];
-      try {
-        viewed = (JSON.parse(localStorage.getItem('xc_viewed_races') || '[]') || [])
-          .map(function(r) { return r && r.name; }).filter(Boolean).slice(0, 5);
-      } catch (e2) {}
-      busy = true;
-      if (errorEl) errorEl.hidden = true;
-      if (button) button.disabled = true;
-      fetch('https://fueling-lead-intake.gravelgodcoaching.workers.dev', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          source: 'training_guide',
-          brand: 'xcskilabs',
-          email: emailEl ? emailEl.value : '',
-          guide_chapter: chapter,
-          viewed_races: viewed,
-          website: ''
-        })
-      }).then(function(res) {
-        if (!res.ok) throw new Error('status ' + res.status);
-        try { localStorage.setItem(UNLOCK_KEY, '1'); } catch (e3) {}
-        if (typeof gtag === 'function') gtag('event', 'guide_unlock', { chapter: chapter });
-        unlock();
-        var target = document.querySelector('[data-guide-locked]');
-        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }).catch(function() {
-        if (errorEl) errorEl.hidden = false;
-      }).then(function() {
-        busy = false;
-        if (button) button.disabled = false;
-      });
-    });
-  });
 })();
 </script>
 """
@@ -506,11 +391,14 @@ def assemble_page(title: str, description: str, robots: str, canonical: str, bod
 </html>"""
 
 
+def _chips(*labels: str) -> str:
+    return '<div class="gl-hero-chips">' + "".join(f'<span class="gl-chip">{esc(l)}</span>' for l in labels) + "</div>"
+
+
 def build_pillar(content: dict[str, Any]) -> str:
     chapters = content["chapters"]
     card_html = []
     for ch in chapters:
-        tags = f'<span class="gl-guide-tag gl-guide-tag--free">Open</span>' if not ch.get("gated") else '<span class="gl-guide-tag">Noindex</span>'
         card_html.append(f"""
 <a class="gl-guide-card" href="/guide/{esc(ch["id"])}/">
   <div class="gl-guide-card-plate">{render_guide_plate(ch)}</div>
@@ -518,22 +406,22 @@ def build_pillar(content: dict[str, Any]) -> str:
     <span class="gl-guide-card-kicker">Chapter {int(ch["number"]):02d}</span>
     <h3>{esc(ch["title"])}</h3>
     <p>{esc(_plain(ch.get("subtitle", "")))}</p>
-    <div class="gl-guide-card-meta">{tags}<span class="gl-guide-tag">{_estimate_read_time(ch)} min</span></div>
+    <div class="gl-guide-card-meta"><span class="gl-guide-tag">{_estimate_read_time(ch)} min</span></div>
   </div>
 </a>""")
-    plate = render_guide_plate({"number": 1})
+    chips = _chips(f"{len(chapters)} chapters", "Classic and skate", "Free")
     body = f"""
 <div class="gl-page">
-{build_guide_hero(content["title"], content["subtitle"], "Free guide", plate)}
+{build_guide_hero(content["title"], content["subtitle"], "Free guide", hero_loop(content["hero_loop"]), chips)}
 {build_jump_nav(chapters)}
 <main class="gl-wrap" id="content">
   <section class="gl-section">
-    {build_section_header("01", "Guide chapters")}
+    {build_section_header("01", "Chapters")}
     <div class="gl-guide-grid">{"".join(card_html)}</div>
   </section>
+  {build_course_offer(content)}
 </main>
 </div>
-{build_product_ladder({"slug": "guide"})}
 <div class="gl-page">{build_footer({})}</div>
 """
     return assemble_page(
@@ -542,17 +430,17 @@ def build_pillar(content: dict[str, Any]) -> str:
         "index, follow",
         "https://xcskilabs.com/guide/",
         body,
-        build_jsonld(content["title"], content.get("meta_description", ""), "https://xcskilabs.com/guide/", "Course"),
+        build_jsonld(content["title"], content.get("meta_description", ""), "https://xcskilabs.com/guide/"),
     )
 
 
 def build_chapter_page(chapter: dict[str, Any], content: dict[str, Any]) -> str:
     title = f'Chapter {chapter["number"]}: {chapter["title"]} | XC Ski Labs'
     description = chapter.get("subtitle") or content.get("meta_description", "")
-    robots = "noindex" if chapter.get("gated") else "index, follow"
+    kicker = f'Chapter {int(chapter["number"]):02d} of {len(content["chapters"]):02d}'
     body = f"""
 <div class="gl-page">
-{build_guide_hero(chapter["title"], chapter.get("subtitle", ""), f'Chapter {int(chapter["number"]):02d}', render_guide_plate(chapter))}
+{build_guide_hero(chapter["title"], chapter.get("subtitle", ""), kicker, hero_loop(chapter["hero_loop"]))}
 {build_jump_nav(content["chapters"])}
 <main class="gl-wrap" id="content">
 {build_chapter_body(chapter, content)}
@@ -564,22 +452,62 @@ def build_chapter_page(chapter: dict[str, Any], content: dict[str, Any]) -> str:
     return assemble_page(
         title,
         description,
-        robots,
+        "index, follow",
         f'https://xcskilabs.com/guide/{chapter["id"]}/',
         body,
         build_jsonld(title, description, f'https://xcskilabs.com/guide/{chapter["id"]}/'),
     )
 
 
+def build_redirect(target: str) -> str:
+    """A retired chapter URL: send the reader to the chapter that replaced it, or the guide home."""
+    t = esc(target)
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://xcskilabs.com{t}">
+  <meta http-equiv="refresh" content="0; url={t}">
+  <title>Moved | XC Ski Labs</title>
+  <script>location.replace({_safe_json_for_script(target)});</script>
+</head>
+<body><p>This chapter moved. <a href="{t}">Read the guide</a>.</p></body>
+</html>"""
+
+
+def retired_targets(content: dict[str, Any]) -> dict[str, str]:
+    live = {c["id"] for c in content["chapters"]}
+    out = {}
+    for old, new in (content.get("retired_chapters") or {}).items():
+        if old in live:
+            raise ValueError(f"retired chapter {old} is still a live chapter")
+        if new and new not in live:
+            raise ValueError(f"retired chapter {old} points at missing chapter {new}")
+        out[old] = f"/guide/{new}/" if new else "/guide/"
+    return out
+
+
 def generate(output_dir: Path = OUTPUT_DIR) -> None:
+    import shutil
     content = load_content()
+    retired = retired_targets(content)
+    keep = {c["id"] for c in content["chapters"]} | set(retired)
     output_dir.mkdir(parents=True, exist_ok=True)
+    for child in output_dir.iterdir():  # a chapter dropped from the guide must never ship from an old build
+        if child.is_dir() and child.name not in keep and (child / "index.html").exists():
+            shutil.rmtree(child)
     (output_dir / "index.html").write_text(build_pillar(content), encoding="utf-8")
     for chapter in content["chapters"]:
         ch_dir = output_dir / chapter["id"]
         ch_dir.mkdir(parents=True, exist_ok=True)
         (ch_dir / "index.html").write_text(build_chapter_page(chapter, content), encoding="utf-8")
-    print(f"Generated guide pillar and {len(content['chapters'])} chapters in {output_dir}")
+    for old, target in retired.items():
+        (output_dir / old).mkdir(parents=True, exist_ok=True)
+        (output_dir / old / "index.html").write_text(build_redirect(target), encoding="utf-8")
+    if not (content.get("course_offer") or {}).get("live"):
+        print("NOTE: course_offer.live is false; the guide ships with no course link until /course/ is live")
+    print(f"Generated guide pillar, {len(content['chapters'])} chapters and {len(retired)} redirects in {output_dir}")
 
 
 def validate_references(content: dict[str, Any]) -> list[str]:

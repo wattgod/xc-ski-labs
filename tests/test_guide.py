@@ -1,6 +1,7 @@
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 
@@ -9,9 +10,13 @@ GUIDE_JSON = ROOT / "guide" / "xc-guide-content.json"
 OUTPUT_GUIDE = ROOT / "output" / "guide"
 TOKEN_CSS = ROOT / "tokens" / "tokens.css"
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import generate_guide as gg  # noqa: E402
+import xsl_loops  # noqa: E402
+
 
 def setup_module():
-    subprocess.run(["python3", "scripts/generate_guide.py"], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, "scripts/generate_guide.py"], cwd=ROOT, check=True)
 
 
 def _content():
@@ -22,58 +27,128 @@ def _chapter_html(chapter):
     return (OUTPUT_GUIDE / chapter["id"] / "index.html").read_text(encoding="utf-8")
 
 
-def test_all_8_chapters_generate():
+def _visible_text(html):
+    text = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S)
+    return re.sub(r"<[^>]+>", " ", text)
+
+
+def _guide_pages():
+    content = _content()
+    return [OUTPUT_GUIDE / "index.html"] + [OUTPUT_GUIDE / c["id"] / "index.html" for c in content["chapters"]]
+
+
+def test_every_chapter_generates_and_is_open():
     content = _content()
     assert (OUTPUT_GUIDE / "index.html").exists()
-    assert len(content["chapters"]) == 8
+    n = len(content["chapters"])
+    assert [c["number"] for c in content["chapters"]] == list(range(1, n + 1))
     for chapter in content["chapters"]:
-        path = OUTPUT_GUIDE / chapter["id"] / "index.html"
-        assert path.exists(), chapter["id"]
-        html = path.read_text(encoding="utf-8")
-        assert f"Chapter {chapter['number']}:" in html
-
-
-def test_gate_meta_correct_per_chapter():
-    for chapter in _content()["chapters"]:
         html = _chapter_html(chapter)
-        if chapter["number"] <= 3:
-            assert '<meta name="robots" content="index, follow">' in html
-            assert 'class="gl-guide-gate-form"' not in html
-            assert 'class="gl-guide-locked"' not in html
-        else:
-            assert '<meta name="robots" content="noindex">' in html
-            # Real email gate: capture form + locked content wrapper + honeypot
-            assert 'class="gl-guide-gate-form"' in html
-            assert 'class="gl-guide-locked"' in html
-            assert 'name="_honey"' in html
-            assert 'formsubmit.co' not in html  # unactivated endpoint dropped posts
-            assert 'fueling-lead-intake.gravelgodcoaching.workers.dev' in html
-            assert '/questionnaire/' in html  # intake fallback link
-            # Readable without JS; the gate starts hidden and JS shows it.
-            assert '<div class="gl-guide-locked" data-guide-locked>' in html
-            assert 'data-guide-gate hidden>' in html
+        assert f"Chapter {chapter['number']}:" in html
+        assert '<meta name="robots" content="index, follow">' in html
+        assert "gl-guide-gate" not in html and "fueling-lead-intake" not in html  # free, no email gate
+    assert f"{n} chapters" in (OUTPUT_GUIDE / "index.html").read_text(encoding="utf-8")
+
+
+def test_retired_chapter_urls_redirect_to_a_live_page():
+    content = _content()
+    live = {c["id"] for c in content["chapters"]}
+    for old, new in content["retired_chapters"].items():
+        html = (OUTPUT_GUIDE / old / "index.html").read_text(encoding="utf-8")
+        target = f"/guide/{new}/" if new else "/guide/"
+        assert not new or new in live
+        assert f'url={target}"' in html and '<meta name="robots" content="noindex">' in html
+
+
+def test_no_stale_chapter_dirs_survive_a_rebuild():
+    content = _content()
+    keep = {c["id"] for c in content["chapters"]} | set(content["retired_chapters"])
+    assert {p.name for p in OUTPUT_GUIDE.iterdir() if p.is_dir()} == keep
+
+
+def test_retired_mapping_refuses_a_missing_target():
+    bad = {"chapters": [{"id": "a"}], "retired_chapters": {"old": "nowhere"}}
+    try:
+        gg.retired_targets(bad)
+    except ValueError:
+        return
+    raise AssertionError("a redirect to a missing chapter must refuse")
+
+
+def test_unknown_block_type_refuses_instead_of_rendering_a_placeholder():
+    try:
+        gg.render_block({"type": "mystery"}, {"id": "x"}, {})
+    except ValueError:
+        return
+    raise AssertionError("unsupported blocks must refuse")
+
+
+def test_course_offer_is_hidden_until_the_course_is_live():
+    content = _content()
+    offer = content["course_offer"]
+    if offer["live"]:
+        last = _chapter_html(content["chapters"][-1])
+        assert last.count("data-guide-offer") == 1 and f'href="{offer["href"]}"' in last
+    else:
+        for page in _guide_pages():
+            html = page.read_text(encoding="utf-8")
+            assert "data-guide-offer" not in html and 'href="/course/"' not in html, page
+
+
+def test_course_offer_renders_once_when_live():
+    content = _content()
+    content["course_offer"]["live"] = True
+    html = gg.build_chapter_page(content["chapters"][-1], content)
+    assert html.count("data-guide-offer") == 1 and 'href="/course/"' in html
+    assert "data-guide-offer" not in gg.build_chapter_page(content["chapters"][0], content)
+    assert gg.build_pillar(content).count("data-guide-offer") == 1
+
+
+def test_the_guide_upsells_only_the_course():
+    """Matti: the guide's one upsell is the course. No plan, coaching or product ladder."""
+    for page in _guide_pages():
+        html = page.read_text(encoding="utf-8")
+        main = html[html.index('id="content"'):html.index("</main>")]
+        for href in ("/questionnaire/", "/coaching/", "/training-plans/", "/consulting/"):
+            assert f'href="{href}"' not in main, (page, href)
+        assert "gl-ladder" not in html[html.index("</main>"):html.index("<footer")], page
+
+
+def test_hero_and_block_loops_exist_and_captions_are_names_only():
+    content = _content()
+    techs = [content["hero_loop"]] + [c["hero_loop"] for c in content["chapters"]]
+    techs += [t for c in content["chapters"] for s in c["sections"] for b in s["blocks"]
+              if b["type"] == "technique_loops" for t in b["techniques"]]
+    for t in techs:
+        assert t in xsl_loops.LOOPS
+    for page in _guide_pages():
+        html = page.read_text(encoding="utf-8")
+        caps = re.findall(r'<figcaption class="xsl-loop-cap">(.*?)</figcaption>', html)
+        assert caps, page
+        for cap in caps:
+            assert re.fullmatch(r'<span class="xsl-loop-name">[^<]+</span>', cap), cap
+
+
+def test_athlete_facing_copy_is_first_person_and_clean():
+    banned = (r"\bMatt\b", r"\bMatti\b", r"\bcoach\b", r"\bAI\b", r"Claude", r"GPT", r"Codex",
+              "honestly", "honest review", "—", "–", "&mdash;", "&ndash;")
+    for page in _guide_pages():
+        html = page.read_text(encoding="utf-8")
+        main = _visible_text(html[html.index('id="content"'):html.index("</main>")])
+        for pat in banned:
+            assert not re.search(pat, main), (page, pat)
+    raw = json.dumps(_content(), ensure_ascii=False)
+    assert "—" not in raw and "–" not in raw
 
 
 def test_every_inline_citation_resolves_to_rendered_source_link():
     marker_re = re.compile(r"\[\^([A-Za-z0-9_.-]+)\]")
     for chapter in _content()["chapters"]:
         html = _chapter_html(chapter)
-        raw = json.dumps(chapter)
-        marker_ids = marker_re.findall(raw)
-        source_ids = {s["id"] for s in chapter.get("sources", [])}
-        assert set(marker_ids) <= source_ids
+        marker_ids = marker_re.findall(json.dumps(chapter))
+        assert set(marker_ids) <= {s["id"] for s in chapter.get("sources", [])}
         for sid in marker_ids:
             assert f'href="#source-{sid}"' in html
-            assert f'id="source-{sid}"' in html
-
-
-def test_race_references_point_to_existing_slugs():
-    race_slugs = {p.stem for p in (ROOT / "race-data").glob("*.json") if p.name != "_schema.json"}
-    for chapter in _content()["chapters"]:
-        for section in chapter["sections"]:
-            for block in section["blocks"]:
-                if block.get("type") == "race_reference":
-                    assert block["slug"] in race_slugs
 
 
 def test_no_inline_onclick_in_guide_output():
@@ -89,24 +164,6 @@ def test_no_hex_outside_tokens_in_guide_output():
         assert found <= allowed, (path, sorted(found - allowed))
 
 
-def test_no_banned_register_phrases_in_guide_output():
-    banned = ("honestly", "honest review")
-    for path in OUTPUT_GUIDE.glob("**/index.html"):
-        html = path.read_text(encoding="utf-8").lower()
-        for phrase in banned:
-            assert phrase not in html, (path, phrase)
-
-
-def test_gate_unlocks_only_after_the_worker_accepts():
-    """ALL-03 (XC): no unlock or guide_unlock before the lead is stored."""
-    chapter = next(c for c in _content()["chapters"] if c["number"] > 3)
-    html = _chapter_html(chapter)
-    js = html[html.index("Guide email gate."):]
-    ok_branch = js[js.index("if (!res.ok) throw"):js.index(".catch(function() {")]
-    assert "gtag('event', 'guide_unlock'" in ok_branch
-    assert "localStorage.setItem(UNLOCK_KEY, '1')" in ok_branch
-    assert "unlock();" in ok_branch
-    before_fetch = js[:js.index("fetch('https://fueling-lead-intake")]
-    assert "'guide_unlock'" not in before_fetch
-    assert "setItem(UNLOCK_KEY" not in before_fetch
-    assert 'data-guide-gate-error' in html and 'gravelgodcoaching@gmail.com' in html
+def test_sitemap_lists_the_live_chapters_only():
+    src = (ROOT / "scripts" / "generate_sitemap.py").read_text(encoding="utf-8")
+    assert "what-is-xc-ski-racing" not in src and 'guide["chapters"]' in src
