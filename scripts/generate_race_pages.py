@@ -41,6 +41,13 @@ except ModuleNotFoundError:
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
+
+# The XC ski course is not live: /learn/ and /course/ both return 404 on
+# xcskilabs.com (checked 2026-11-14). Until it ships, no page links it.
+# Flip to True only after /learn/ answers 200 in production. This replaces
+# the old "output/learn/index.html exists" check, which a stale local build
+# could satisfy while production still 404'd.
+COURSE_LIVE = False
 DEFAULT_ART_DIR = SCRIPT_DIR.parent / "art"
 DEFAULT_INDEX_PATH = SCRIPT_DIR.parent / "web" / "race-index.json"
 TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
@@ -2876,8 +2883,8 @@ def build_product_ladder(race: dict) -> str:
         ("Higher touch", "1:1 coaching", "A coach reads your training and adjusts the plan as conditions, recovery, and life change.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply for coaching", False, False),
         ("Free reference", "Race prep guide", "Technique, pacing, fueling, and wax fundamentals to use while you evaluate your next step.", "FREE", "/guide/", "Read the guide", False, False),
     ]
-    learn_path = DEFAULT_OUTPUT_DIR / "learn" / "index.html"
-    if learn_path.exists():
+    # Course rung only once the course is live (see COURSE_LIVE).
+    if COURSE_LIVE:
         rungs.append(("Learn", "XC ski course", "Self-paced lessons from first glide to race preparation.", "SELF-PACED", "/learn/", "See the course", False, True))
 
     cards = []
