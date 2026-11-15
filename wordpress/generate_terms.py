@@ -68,6 +68,7 @@ def generate_html() -> str:
   <section class="gl-section">
     <h2 class="gl-section-title">Agreement</h2>
     <p>These terms govern your use of xcskilabs.com and the race information, training plans, coaching, consulting, and related services offered through XC Ski Labs. By using the site or purchasing a service, you agree to these terms. If you do not agree, do not use the site or services.</p>
+    <p>XC Ski Labs is operated by Gravel God Cycling LLC, which is the seller of every purchase made on this site.</p>
   </section>
 
   <section class="gl-section">
@@ -86,6 +87,7 @@ def generate_html() -> str:
     <h2 class="gl-section-title">Purchases, delivery, and refunds</h2>
     <p>Prices, billing cadence, included services, and delivery terms are shown on the applicable offer or checkout page. Payments are processed by third-party payment providers. You agree to provide accurate billing and delivery information.</p>
     <p>If a service is not delivered as described or you believe a charge is incorrect, contact <a href="mailto:{contact}">{contact}</a>. Any offer-specific cancellation or refund terms shown before purchase form part of these terms.</p>
+    <p><strong>XC Ski Labs Course.</strong> Each course module, and the bundle of every module, is a one-time purchase sold by Gravel God Cycling LLC. The bundle includes modules added to the course after you buy it. You can ask for a full refund of any course purchase, for any reason, within 14 days of that purchase by emailing <a href="mailto:{contact}">{contact}</a>. Access to what a refunded purchase included ends after the refund. Your access is for your own personal use; do not share your access link or republish the videos.</p>
   </section>
 
   <section class="gl-section">
