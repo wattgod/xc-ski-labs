@@ -61,12 +61,18 @@ def _safe_json_for_script(obj, **kwargs):
     return raw.replace("</", "<\\/")
 
 
-def count_race_profiles():
-    """Count race JSON files in race-data/."""
-    data_dir = PROJECT_ROOT / "race-data"
-    if not data_dir.exists():
-        return 229
+def count_race_profiles(data_dir=None):
+    """Count race JSON files in race-data/.
+
+    No fallback: a missing or empty race-data/ is an error, never a guessed
+    count printed on the page.
+    """
+    data_dir = data_dir or (PROJECT_ROOT / "race-data")
+    if not data_dir.is_dir():
+        raise SystemExit(f"race-data/ not found at {data_dir}: cannot count race profiles")
     files = [f for f in data_dir.glob("*.json") if f.name != "_schema.json"]
+    if not files:
+        raise SystemExit(f"no race profiles in {data_dir}: cannot count race profiles")
     return len(files)
 
 
