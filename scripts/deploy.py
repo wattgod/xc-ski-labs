@@ -668,8 +668,20 @@ def sync_methodology():
 
 
 def sync_course():
-    """Upload the course sales page to /course/ (the lessons are glide-labs-platform's, behind /learn/)."""
-    return _sync_static_page("course", "course")
+    """Upload the course sales page to /course/ with its hero image (the lessons are glide-labs-platform's,
+    behind /learn/). Refuses when the image the page references is missing."""
+    hero = PROJECT_ROOT / "output" / "course" / "diagonal-stride.jpg"
+    if not hero.exists():
+        print(f"  Hero image not found: {hero}")
+        print("  Run: python wordpress/generate_course.py")
+        return False
+    if not _sync_static_page("course", "course"):
+        return False
+    host, user, port = get_ssh_credentials()
+    if _scp_upload(host, user, port, hero, f"{get_remote_base()}/course/{hero.name}"):
+        print(f"  Deployed /course/{hero.name}")
+        return True
+    return False
 
 
 def sync_thanks():
