@@ -39,7 +39,6 @@ from scripts.brand_head import BRAND_FONT_LINKS  # noqa: E402
 
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
 PRODUCTION_API = "https://athlete-custom-training-plan-pipeline-production.up.railway.app"
-CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
 
 COURSE_NAME = "XC Ski Labs Course"
 REFUND_DAYS = 14
@@ -88,6 +87,8 @@ def build_nav() -> str:
 # come from tokens/tokens.css (bundle.css). Only the hero photo and the
 # checkout error line need page rules, and both read book tokens.
 PAGE_CSS = """
+.xc-band--panel .xc-tags { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 860px) { .xc-band--panel .xc-tags { grid-template-columns: 1fr; } }
 .xc-course { font: 400 17px/1.6 var(--font-body); color: var(--ink); }
 .xc-course .xc-band > .xc-wrap > p { max-width: 58ch; }
 .xc-hero__photo { margin: 0; align-self: center; border: var(--stroke-stitch) solid var(--ink); }
@@ -148,7 +149,6 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
     title = f"{COURSE_NAME} | XC Ski Labs"
     description = (f"Classic and skate technique lessons with {VIDEO_COUNT} filmed demos and drills. "
                    f"$29 a module or ${BUNDLE_PRICE_USD} for every module.")
-    contact = esc(CONTACT_EMAIL)
     endpoint = esc(api_base.rstrip("/") + "/api/create-course-checkout")
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -202,7 +202,6 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
     <ul class="xc-tags">
       <li class="xc-ship"><p>Stripe sends you straight into the course, and I email you a link that opens it on your phone or any other device. If you lose the link, the course page has a box that sends a new one to the email you paid with.</p></li>
       <li class="xc-ship"><p>If you bought one module and want the rest, open a lesson you don&rsquo;t have yet, and you can get every module for ${BUNDLE_PRICE_USD} minus what you already paid.</p></li>
-      <li class="xc-ship"><p>If it isn&rsquo;t for you, email <a class="xc-link" href="mailto:{contact}">{contact}</a> within {REFUND_DAYS} days of buying and I&rsquo;ll refund that purchase in full. Access to what you bought ends after a refund.</p></li>
     </ul>
   </div></section>
 

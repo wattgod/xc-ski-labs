@@ -24,6 +24,8 @@ def test_page_states_price_and_refund_and_leaves_the_seller_to_the_terms():
     page = gc.generate_html()
     assert "Buy Classic, $29" in page and "Buy Skate, $29" in page and "Buy every module, $49" in page
     assert "within 14 days" in page
+    # The refund lives in the fine print under the price only, never in the pitch (Matti, 2026-11-16).
+    assert page.count("refund") == 1 and 'class="xc-fine">One payment each. Full refund within 14 days' in page
     assert "Gravel God" not in page  # the terms page names the seller (Matti, 2026-11-16)
     assert 'href="/terms/"' in page and 'href="/privacy/"' in page
 
@@ -84,7 +86,7 @@ def test_page_is_built_from_the_sledge_components():
     assert crates == ["xc-all", "xc-classic", "xc-skate"]
     assert '<span class="xc-ribbon">Recommended</span>' in body
     assert body.count('class="xc-tag"') == 3
-    assert 'class="xc-lists"' in body and body.count('class="xc-ship"') == 3
+    assert 'class="xc-lists"' in body and body.count('class="xc-ship"') == 2
     # Sales checklists: every row planned, nothing salmon.
     assert "is-now" not in body and "is-done" not in body
     # Placeholders never ship; colours come from tokens only.
