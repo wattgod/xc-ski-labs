@@ -50,20 +50,39 @@ def test_every_chapter_generates_and_is_open():
     assert f"{n} chapters" in (OUTPUT_GUIDE / "index.html").read_text(encoding="utf-8")
 
 
+OLD_CHAPTERS = ("what-is-xc-ski-racing", "race-selection", "training-fundamentals", "technique-and-execution",
+                "nutrition-fueling-cold", "tactics-and-the-mind", "race-week-protocol", "post-race-and-offseason")
+
+
 def test_retired_chapter_urls_redirect_to_a_live_page():
     content = _content()
     live = {c["id"] for c in content["chapters"]}
+    assert set(OLD_CHAPTERS) <= set(content["retired_chapters"])  # every URL the old guide published
     for old, new in content["retired_chapters"].items():
         html = (OUTPUT_GUIDE / old / "index.html").read_text(encoding="utf-8")
         target = f"/guide/{new}/" if new else "/guide/"
         assert not new or new in live
-        assert f'url={target}"' in html and '<meta name="robots" content="noindex">' in html
+        assert f'url={target}"' in html and f'href="https://xcskilabs.com{target}"' in html
 
 
 def test_no_stale_chapter_dirs_survive_a_rebuild():
     content = _content()
     keep = {c["id"] for c in content["chapters"]} | set(content["retired_chapters"])
     assert {p.name for p in OUTPUT_GUIDE.iterdir() if p.is_dir()} == keep
+
+
+def test_cleanup_removes_only_pages_the_guide_wrote(tmp_path):
+    out = tmp_path / "guide"
+    stale = out / "dropped-chapter"
+    stale.mkdir(parents=True)
+    (stale / "index.html").write_text("<html>" + gg.GUIDE_MARKER + "</html>")
+    other = out / "vasaloppet"  # e.g. a wrong --output-dir pointing at the site root
+    other.mkdir()
+    (other / "index.html").write_text("<html>race page</html>")
+    gg.generate(out)
+    assert not stale.exists()
+    assert (other / "index.html").read_text() == "<html>race page</html>"
+    assert (out / "the-gears" / "index.html").exists()
 
 
 def test_retired_mapping_refuses_a_missing_target():
@@ -93,6 +112,13 @@ def test_course_offer_is_hidden_until_the_course_is_live():
         for page in _guide_pages():
             html = page.read_text(encoding="utf-8")
             assert "data-guide-offer" not in html and 'href="/course/"' not in html, page
+
+
+def test_course_offer_needs_live_to_be_exactly_true():
+    content = _content()
+    for value in ("false", "true", 1, None):
+        content["course_offer"]["live"] = value
+        assert gg.build_course_offer(content) == ""
 
 
 def test_course_offer_renders_once_when_live():
@@ -127,6 +153,43 @@ def test_hero_and_block_loops_exist_and_captions_are_names_only():
         assert caps, page
         for cap in caps:
             assert re.fullmatch(r'<span class="xsl-loop-name">[^<]+</span>', cap), cap
+
+
+def _strings(obj):
+    if isinstance(obj, str):
+        yield obj
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            if k not in ("id", "href", "url", "retired_chapters", "techniques", "hero_loop"):
+                yield from _strings(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from _strings(v)
+
+
+def test_every_string_in_the_content_is_in_my_voice():
+    """All copy, including quiz feedback, titles, meta and the course offer, case-insensitively."""
+    banned = (r"\bmatti?\b", r"\bcoach", r"\bAI\b", r"\bclaude\b", r"\bgpt\b", r"\bcodex\b",
+              r"\bwe\b", r"\bour\b", r"\bus\b", "honestly", "\u2014", "\u2013")
+    content = _content()
+    texts = list(_strings({k: v for k, v in content.items() if k != "chapters"}))
+    for ch in content["chapters"]:
+        texts += [s for s in _strings({k: v for k, v in ch.items() if k != "sources"})]
+    for text in texts:
+        for pat in banned:
+            flags = 0 if pat == r"\bAI\b" else re.I
+            assert not re.search(pat, text, flags), (pat, text)
+
+
+def test_every_loop_the_guide_uses_has_its_media():
+    content = _content()
+    techs = {content["hero_loop"]} | {c["hero_loop"] for c in content["chapters"]}
+    techs |= {t for c in content["chapters"] for s in c["sections"] for b in s["blocks"]
+              if b["type"] == "technique_loops" for t in b["techniques"]}
+    for t in techs:
+        shape = "square" if "square" in xsl_loops.shapes(t) else xsl_loops.shapes(t)[0]
+        for f in xsl_loops.media_files(t, shape):
+            assert f.exists() and f.stat().st_size > 0, f
 
 
 def test_athlete_facing_copy_is_first_person_and_clean():
@@ -165,5 +228,11 @@ def test_no_hex_outside_tokens_in_guide_output():
 
 
 def test_sitemap_lists_the_live_chapters_only():
-    src = (ROOT / "scripts" / "generate_sitemap.py").read_text(encoding="utf-8")
-    assert "what-is-xc-ski-racing" not in src and 'guide["chapters"]' in src
+    import generate_sitemap as gs
+    xml, _ = gs.generate_sitemap("https://xcskilabs.com", [])
+    xml = xml.decode()
+    for ch in _content()["chapters"]:
+        assert f"https://xcskilabs.com/guide/{ch['id']}/" in xml
+    for old in OLD_CHAPTERS:
+        assert f"/guide/{old}/" not in xml
+        assert f"/guide/{old}/" not in (ROOT / "web" / "sitemap.xml").read_text(encoding="utf-8")

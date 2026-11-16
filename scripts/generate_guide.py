@@ -10,7 +10,6 @@ Builds the Wax Bench static guide pages:
 from __future__ import annotations
 
 import argparse
-import html
 import json
 import re
 import sys
@@ -31,7 +30,6 @@ from generate_race_pages import (  # noqa: E402
     build_ga4_snippet,
     build_interactions_js,
     build_nav_header,
-    build_product_ladder,
     build_sticky_js,
     build_css as build_race_css,
     esc,
@@ -299,11 +297,14 @@ def build_section_header(num: str, title: str) -> str:
     return f'<div class="gl-section-header"><span class="gl-section-num">{esc(num)}</span><h2 class="gl-section-title">{esc(title)}</h2></div>'
 
 
+GUIDE_MARKER = '<meta name="xl-guide-page" content="1">'
+
+
 def build_course_offer(content: dict[str, Any]) -> str:
     """The guide's one upsell: the course. Rendered only once the course can be bought
     (course_offer.live). Until then nothing is shown in its place."""
     offer = content.get("course_offer") or {}
-    if not offer.get("live"):
+    if offer.get("live") is not True:
         return ""
     items = "".join(f"<li>{esc(_plain(i))}</li>" for i in offer.get("items", []))
     return (f'<aside class="gl-guide-offer" data-guide-offer>'
@@ -372,6 +373,7 @@ def assemble_page(title: str, description: str, robots: str, canonical: str, bod
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}">
   <meta name="robots" content="{esc(robots)}">
+  {GUIDE_MARKER}
   <link rel="canonical" href="{esc(canonical)}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -466,7 +468,7 @@ def build_redirect(target: str) -> str:
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex">
+  {GUIDE_MARKER}
   <link rel="canonical" href="https://xcskilabs.com{t}">
   <meta http-equiv="refresh" content="0; url={t}">
   <title>Moved | XC Ski Labs</title>
@@ -498,7 +500,11 @@ def generate(output_dir: Path = OUTPUT_DIR) -> None:
     keep = {c["id"] for c in content["chapters"]} | set(retired)
     output_dir.mkdir(parents=True, exist_ok=True)
     for child in output_dir.iterdir():  # a chapter dropped from the guide must never ship from an old build
-        if child.is_dir() and child.name not in keep and (child / "index.html").exists():
+        if child.name in keep or child.is_symlink() or not child.is_dir():
+            continue
+        page = child / "index.html"
+        # Only a page this generator wrote carries the marker, so a wrong --output-dir can't delete the site.
+        if page.is_file() and GUIDE_MARKER in page.read_text(encoding="utf-8", errors="ignore"):
             shutil.rmtree(child)
     (output_dir / "index.html").write_text(build_pillar(content), encoding="utf-8")
     for chapter in content["chapters"]:
@@ -508,7 +514,7 @@ def generate(output_dir: Path = OUTPUT_DIR) -> None:
     for old, target in retired.items():
         (output_dir / old).mkdir(parents=True, exist_ok=True)
         (output_dir / old / "index.html").write_text(build_redirect(target), encoding="utf-8")
-    if not (content.get("course_offer") or {}).get("live"):
+    if (content.get("course_offer") or {}).get("live") is not True:
         print("NOTE: course_offer.live is false; the guide ships with no course link until /course/ is live")
     print(f"Generated guide pillar, {len(content['chapters'])} chapters and {len(retired)} redirects in {output_dir}")
 
@@ -537,6 +543,10 @@ def main() -> int:
 
     content = load_content()
     errors = validate_references(content)
+    try:
+        retired_targets(content)
+    except ValueError as e:
+        errors.append(str(e))
     if errors:
         for err in errors:
             print(f"ERROR: {err}")

@@ -180,8 +180,8 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path.write_bytes(xml_bytes)
 
-    static_urls = 12  # homepage, search, training, about, weekly, methodology, privacy, terms, guide + 3 open chapters
-    total_urls = static_urls + (2 * len(sorted_profiles))
+    total_urls = xml_bytes.count(b"<url>")
+    static_urls = total_urls - (2 * len(sorted_profiles))  # site pages + guide pillar + every guide chapter
     print(f"\nWrote {output_path}")
     print(f"  Total URLs: {total_urls}")
     print(f"  Static:     {static_urls} (site pages + indexable guide pages)")

@@ -953,7 +953,7 @@ a:focus-visible, button:focus-visible {{
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">03</span>
       <h2 class="gl-hp-ladder-headline">Race fast</h2>
-      <p class="gl-hp-ladder-body">Technique, pacing, wax and fueling for the day that counts.</p>
+      <p class="gl-hp-ladder-body">Every classic and skate technique, when to use it, and how snow and wax work.</p>
       <a href="/guide/" class="gl-hp-ladder-cta" data-ga="ladder_guide">READ THE GUIDE &rarr;</a>
     </div>
   </div>

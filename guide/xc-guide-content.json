@@ -51,7 +51,7 @@
                 },
                 {
                   "label": "Skate",
-                  "content": "Skis push out in a V on a wide, groomed lane. There's no kick zone; the whole base is smooth and you push off the edge. It's faster on good snow and harder to learn, mostly because balancing on one gliding ski is the whole game.\n\nThe skis are shorter, the poles reach your chin or nose and the boots are stiffer, with a higher cuff."
+                  "content": "Skis push out in a V on a wide, groomed lane. There's no kick zone; the whole base is smooth and you push off the edge. It's faster on good snow and harder to learn, mostly because so much of it is balancing on one gliding ski.\n\nThe skis are shorter, the poles reach your chin or nose and the boots are stiffer, with a higher cuff."
                 }
               ]
             },
@@ -69,7 +69,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "In another life I roller skied endless miles trying to be a fast cross-country ski racer. I never became one. A friend of mine had been skiing in Minnesota since he was tiny, didn't go to all the ski camps, and still showed up to every race and beat me.\n\nIf you've never skied, you can't jump into a ski race and beat people on fitness alone, however fit you are. Technique is a second engine, and a skier with modest fitness and clean technique glides right past a stronger athlete who's fighting the snow.\n\nTechnique is learnable, and most of it comes down to three fundamentals in chapter 3."
+              "content": "In another life I roller skied endless miles trying to be a fast cross-country ski racer. I never became one. A guy on my college ski team had started skiing in the womb and made all-state in Minnesota in high school. He didn't go to all the ski camps, and he still showed up to every race and beat me.\n\nIf you've never skied, you can't jump into a ski race and beat people on fitness alone, however fit you are. Technique is a second engine, and a skier with modest fitness and clean technique glides right past a stronger athlete who's fighting the snow.\n\nTechnique is learnable, and most of it comes down to three fundamentals in chapter 3."
             }
           ]
         },
@@ -124,7 +124,7 @@
                 },
                 {
                   "front": "Double black diamond",
-                  "back": "Expert only. The steepest, fastest and most technical terrain at the center. If you're reading this guide, these can wait."
+                  "back": "Expert only, and not every center uses it. The steepest, fastest and most technical terrain there is. If you're reading this guide, these can wait."
                 }
               ]
             }
@@ -288,9 +288,24 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "Keep your first outings to 30 to 60 minutes. Tell someone where you're going, carry your phone in an inside pocket so the battery stays warm, and bring water and a snack. You still sweat in cold, dry air.\n\nWind chill matters more than the thermometer, and your own speed adds wind. At 20°F with a 15 mph wind the wind chill is about 6°F. FIS won't start a race when the coldest point on the course is below -20°C (-4°F). Use that as your limit too, then check the wind chill on top of it.\n\nFrostbite turns skin white or waxy and numb. Get inside, warm it with body heat or warm (not hot) water, never rub it, and see a doctor. Shivering, confusion and clumsy hands are early hypothermia. Go in.\n\nSkip whiteouts, when you can't see trail markers or other skiers, and the sheet ice that follows rain and a freeze. Wait for fresh grooming."
+              "content": "Keep your first outings to 30 to 60 minutes. Tell someone where you're going, carry your phone in an inside pocket so the battery stays warm, and bring water and a snack. You still sweat in cold, dry air.\n\nWind chill matters more than the thermometer, and your own speed adds wind. At 20°F with a 15 mph wind the wind chill is about 6°F. FIS won't start a race when the coldest point on the course is below -20°C (-4°F)[^fis-icr]. That's a rule for organized races, not a safe line for you. Wind, how long you'll be out, what you're wearing and how far you are from a warm building matter as much as the number[^nws-windchill].\n\nFrostbite turns skin white or waxy and numb. Get inside, warm it with body heat or warm (not hot) water, never rub it, and see a doctor. Don't rewarm it if it could freeze again before you're inside for good.\n\nShivering and fumbling hands mean you're getting too cold. Go in, get dry and warm, and eat something. Confusion, slurred speech, drowsiness or shivering that stops are signs of real hypothermia. That's an emergency. Call emergency services, get the person somewhere warm and replace wet clothes while you wait.\n\nSkip whiteouts, when you can't see trail markers or other skiers, and the sheet ice that follows rain and a freeze. Wait for fresh grooming."
             }
           ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "fis-icr",
+          "title": "The International Ski and Snowboard Competition Rules (ICR), Book II: Cross-Country",
+          "publisher": "FIS",
+          "year": 2025,
+          "url": "https://assets.fis-ski.com/f/252177/x/8d80ac5c93/icr-crosscountry-2025_clean.pdf"
+        },
+        {
+          "id": "nws-windchill",
+          "title": "Wind Chill Chart",
+          "publisher": "National Weather Service",
+          "url": "https://www.weather.gov/safety/cold-wind-chill-chart"
         }
       ]
     },
@@ -307,7 +322,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "Classic or skate, uphill or down, every technique rests on an athletic stance, full weight transfer and high, forward hips. When a skier looks effortless, it's usually these three. When a skier is working hard and going nowhere, it's usually these three too."
+              "content": "Classic or skate, uphill or down, every technique rests on an athletic stance, full weight transfer and high, forward hips. A skier who works hard and goes nowhere is almost always missing one of them."
             }
           ]
         },
@@ -333,12 +348,12 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "This is the biggest difference between a struggling beginner and a competent skier. Whenever you glide on one ski, all of your weight goes over that ski, not most of it. (Double poling is the exception; both skis share your weight.)\n\nNew skiers keep their weight between their skis because it feels safe. Split weight means neither ski has enough pressure to glide, so you shuffle. Getting your hip over one ski feels like you're about to fall over. Commit anyway. That falling feeling is what weight transfer feels like."
+              "content": "This is the biggest difference between a struggling beginner and a competent skier. Whenever you glide on one ski, all of your weight goes over that ski, not most of it. (Double poling is the exception; both skis share your weight.)\n\nNew skiers keep their weight between their skis because it feels safe. With split weight you're balanced on neither ski, so you can't ride a glide, and on classic skis you can't press the kick zone into the snow hard enough to grip. You end up shuffling. Getting your hip over one ski feels like you're about to fall over. Commit anyway. That falling feeling is what weight transfer feels like."
             },
             {
               "type": "callout",
               "style": "tip",
-              "title": "Find it in ten seconds",
+              "title": "Feel where your hip goes",
               "content": "Stand on one foot and hop. Your hip is right over that foot. That's where it belongs on every one-ski glide."
             }
           ]
@@ -349,7 +364,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "With your hips high and forward, your body weight presses the ski into the snow, and that pressure is your glide and your grip. With your hips back, your legs have to make up the difference on every stride, spending energy on work your body weight would have done for free.\n\nThe right position feels wrong for a while. If you feel comfortable, your hips are probably too far back."
+              "content": "With your hips high and forward, your body weight is over the ski. On classic skis that weight presses the kick zone down for grip, and on every technique it lets you balance and ride the glide. With your hips back, your legs have to make up the difference on every stride, spending energy on work your body weight would have done for free.\n\nThe right position feels wrong for a while. If you feel comfortable, your hips are probably too far back."
             }
           ]
         },
@@ -359,7 +374,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "More kilometers of the same mistakes make you very good at the mistakes. You get better through a loop: try one thing, get feedback, adjust, repeat.\n\nExpect a long, annoying stretch where you know what good looks like and can't do it yet. That's where most people quit, and it's where practice pays off most."
+              "content": "More kilometers of the same mistakes make you very good at the mistakes. You get better through a loop: try one thing, get feedback, adjust, repeat.\n\nExpect a long, annoying stretch where you know what good looks like and can't do it yet. Drills pay off most in that stretch."
             },
             {
               "type": "process_list",
@@ -387,7 +402,7 @@
               "type": "callout",
               "style": "note",
               "title": "Practice where falling is cheap",
-              "content": "Flat ground, soft snow, nobody behind you. If you never fall while you're practicing a new position, you're not really trying the new position."
+              "content": "Flat ground, soft snow, nobody behind you. A new position will feel unstable, and a fall there costs nothing."
             },
             {
               "type": "knowledge_check",
@@ -404,7 +419,7 @@
                 {
                   "label": "All of it on the right ski, hip over the foot",
                   "correct": true,
-                  "response": "All of it. Split weight means neither ski has the pressure to glide."
+                  "response": "All of it. With split weight you're balanced on neither ski, so you can't ride the glide."
                 }
               ]
             }
@@ -435,23 +450,52 @@
           "blocks": [
             {
               "type": "technique_loops",
-              "techniques": ["doublepole", "kickdp", "diagonal", "herringbone"]
+              "techniques": [
+                "doublepole",
+                "kickdp",
+                "diagonal",
+                "herringbone"
+              ]
             },
             {
               "type": "data_table",
               "title": "Classic, from flat to steep",
-              "headers": ["Technique", "Terrain", "What it is"],
+              "headers": [
+                "Technique",
+                "Terrain",
+                "What it is"
+              ],
               "rows": [
-                ["Double pole", "Flats and gentle downhills on fast snow", "Both poles plant together and you drive your body weight down through them. Your upper body and core do the work and your legs get a break."],
-                ["Kick double pole", "Rolling terrain, gentle climbs, slow snow", "One kick, then a double pole. The kick carries you further between pole plants when double poling alone runs out of steam."],
-                ["Diagonal stride", "Steady climbs", "Opposite arm, opposite leg, like walking or running. The kick presses the grip zone into the snow, and you glide on the other ski."],
-                ["Herringbone", "Climbs too steep to stride", "Tips out in a V, skis on their inside edges, and walk up. Slow, ugly, and it works. Fast skiers herringbone the steepest pitches too."],
-                ["Tuck", "Straight downhills", "Low and still, and only on a hill you can already stop on."]
+                [
+                  "Double pole",
+                  "Flats and gentle downhills on fast snow",
+                  "Both poles plant together and you drive your body weight down through them. Your upper body and core do the work and your legs get a break."
+                ],
+                [
+                  "Kick double pole",
+                  "Rolling terrain, gentle climbs, slow snow",
+                  "One kick, then a double pole. The kick carries you further between pole plants when double poling alone runs out of steam."
+                ],
+                [
+                  "Diagonal stride",
+                  "Steady climbs",
+                  "Opposite arm, opposite leg, like walking or running. The kick presses the grip zone into the snow, and you glide on the other ski."
+                ],
+                [
+                  "Herringbone",
+                  "Climbs too steep to stride",
+                  "Tips out in a V, skis on their inside edges, and walk up. Slow, ugly, and it works. Fast skiers herringbone the steepest pitches too."
+                ],
+                [
+                  "Tuck",
+                  "Straight downhills",
+                  "Low and still, and only on a hill you can already stop on."
+                ]
               ]
             },
             {
               "type": "prose",
-              "content": "There's one more classic gear, the Klaebo step, named for the Norwegian sprinter who made it famous. It's a quick, running diagonal stride with very little glide, for short, steep pitches."
+              "content": "There's one more classic gear, the Klaebo step, named for the Norwegian sprinter who made it famous. It's a diagonal stride turned into a run: high cadence, very little glide, for hills too short to be worth slowing down for and too steep for a normal stride."
             }
           ]
         },
@@ -461,7 +505,9 @@
           "blocks": [
             {
               "type": "technique_loops",
-              "techniques": ["v2_front"]
+              "techniques": [
+                "v2_front"
+              ]
             },
             {
               "type": "prose",
@@ -470,13 +516,37 @@
             {
               "type": "data_table",
               "title": "Skate, from flat to steep",
-              "headers": ["Technique", "Terrain", "What it is"],
+              "headers": [
+                "Technique",
+                "Terrain",
+                "What it is"
+              ],
               "rows": [
-                ["Free skate", "Downhills and very fast flats", "No poles. Push off one ski's edge and glide on the other, arms swinging for balance."],
-                ["V2 alternate", "Flats and gentle downhills", "One double pole for every two skate pushes. The gear you can hold for a long time."],
-                ["V2", "Flats and gentle rises, accelerating", "A double pole with every skate push. Faster to get up to speed, harder to sustain."],
-                ["V1", "Climbs", "One pole plant for every two skate pushes, both poles planting together as you step onto one side. The main skate climbing gear. On steeper pitches, shorten everything and pick up the tempo."],
-                ["Herringbone", "Climbs too steep to V1", "Same as in classic."]
+                [
+                  "Free skate",
+                  "Downhills and very fast flats",
+                  "No poles. Push off one ski's edge and glide on the other, arms swinging for balance."
+                ],
+                [
+                  "V2 alternate",
+                  "Flats and gentle downhills",
+                  "One double pole for every two skate pushes. The gear you can hold for a long time."
+                ],
+                [
+                  "V2",
+                  "Flats and gentle rises, accelerating",
+                  "A double pole with every skate push. Faster to get up to speed, harder to sustain."
+                ],
+                [
+                  "V1",
+                  "Climbs",
+                  "One pole plant for every two skate pushes, both poles planting together as you step onto one side. The main skate climbing gear. On steeper pitches, shorten everything and pick up the tempo."
+                ],
+                [
+                  "Herringbone",
+                  "Climbs too steep to V1",
+                  "Same as in classic."
+                ]
               ]
             }
           ]
@@ -498,7 +568,7 @@
                 },
                 {
                   "title": "Snow",
-                  "content": "Slow, wet snow punishes the bigger gears, so add a kick to your double pole, and on skate skis shift down sooner. Cold, fast snow lets you hold the bigger gears longer."
+                  "content": "Slow, wet snow punishes the bigger gears, so add a kick to your double pole, and on skate skis shift down sooner. Firm snow in the sweet spot (chapter 5) lets you hold the bigger gears longer."
                 },
                 {
                   "title": "Trail width",
@@ -514,7 +584,7 @@
               "type": "callout",
               "style": "tip",
               "title": "When in doubt, shift down",
-              "content": "Smooth in an easier technique beats ragged in a harder one. A sloppy V2 is slower than a clean V2 alternate, and a struggling double pole is slower than a solid kick double pole."
+              "content": "Smooth in an easier technique beats ragged in a harder one. A sloppy V2 on a rise is slower than a clean V1, and a struggling double pole is slower than a solid kick double pole."
             },
             {
               "type": "prose",
@@ -556,7 +626,7 @@
           "blocks": [
             {
               "type": "prose",
-              "content": "Temperature and the shape of the snow crystals decide how fast you glide, how well you grip and whether your wax works. You don't need a meteorology degree. Four zones cover nearly every day you'll ski."
+              "content": "Temperature and the shape of the snow crystals decide how fast you glide, how well you grip and whether your wax works. Four temperature zones cover nearly every day you'll ski."
             },
             {
               "type": "tabs",
@@ -567,11 +637,11 @@
                 },
                 {
                   "label": "The sweet spot (15 to 30°F)",
-                  "content": "Fast and smooth. There's enough moisture for a thin water film under the ski and the snow is still firm. Good glide, good grip, and everything feels crisp. Pick the kick wax whose printed range matches the day."
+                  "content": "Fast and smooth. There's enough moisture for a thin water film under the ski and the snow is still firm. Good glide, good grip, and everything feels crisp. Pick the kick wax whose printed range matches the day, and check whether the chart means air or snow temperature; brands differ."
                 },
                 {
                   "label": "Warm and wet (above 30°F)",
-                  "content": "Heavy and draggy, and you'll sweat more than you expect. Free water sits on the surface and the crystals round off. Hard kick wax stops gripping, so classic skiers need klister or waxless skis. Skate holds up better than classic. Go early, before the sun softens everything further."
+                  "content": "Heavy and draggy, and you'll sweat more than you expect. Free water sits on the surface and the crystals round off. Once the snow is wet, or old and coarse, hard kick wax stops gripping, so classic skiers need klister or waxless skis. (On new snow right around freezing, the warmest hard waxes can still work.) Skate holds up better than classic. Go early, before the sun softens everything further."
                 },
                 {
                   "label": "Spring corn",
@@ -598,7 +668,7 @@
                 },
                 {
                   "title": "Glide wax",
-                  "content": "Goes on the whole base of a skate ski and on the tips and tails of a classic ski, to make it slide. You iron it on, let it cool and scrape it off. Most beginners have a shop do it or use a rub-on or spray-on. Use fluoro-free wax; FIS banned fluorinated wax from the 2023/24 season."
+                  "content": "Goes on the whole base of a skate ski and on the tips and tails of a classic ski, to make it slide. You iron it on, let it cool and scrape it off. Most beginners have a shop do it or use a rub-on or spray-on. Use fluoro-free wax. FIS banned fluorinated wax from the 2023/24 season[^fis-fluoro]."
                 },
                 {
                   "title": "Why waxless skis exist",
@@ -626,11 +696,11 @@
                 },
                 {
                   "title": "The grooming report",
-                  "content": "Which trails were groomed, when, and any notes. Today's timestamp or it doesn't count. No report, call."
+                  "content": "Which trails were groomed, when, and any notes. Look for today's timestamp, and if there's no report, call."
                 },
                 {
                   "title": "Wind chill",
-                  "content": "At 15°F with a 15 mph wind it's about 0°F on your face, and your own speed adds more. The National Weather Service chart puts frostbite on exposed skin at about 30 minutes once the wind chill reaches about -19°F. Below about -20°F, think about staying home."
+                  "content": "At 15°F with a 15 mph wind it's about 0°F on your face, and your own speed adds more. The National Weather Service chart puts frostbite on exposed skin at about 30 minutes once the wind chill reaches about -19°F[^nws-windchill]. Below about -20°F, think about staying home."
                 },
                 {
                   "title": "Classic or skate",
@@ -659,6 +729,21 @@
             }
           ]
         }
+      ],
+      "sources": [
+        {
+          "id": "fis-fluoro",
+          "title": "FIS widens scope of fluor testing after successful first season",
+          "publisher": "FIS",
+          "year": 2024,
+          "url": "https://www.fis-ski.com/inside-fis/news/2024-25/fis-widens-scope-of-fluor-testing-after-successful-first-season"
+        },
+        {
+          "id": "nws-windchill",
+          "title": "Wind Chill Chart",
+          "publisher": "National Weather Service",
+          "url": "https://www.weather.gov/safety/cold-wind-chill-chart"
+        }
       ]
     },
     {
@@ -670,11 +755,11 @@
       "sections": [
         {
           "id": "the-idea",
-          "title": "One idea",
+          "title": "Pay attention",
           "blocks": [
             {
               "type": "prose",
-              "content": "Nobody likes the skier who snowplows down the middle of the classic tracks, stops on a blind corner and has music so loud they never hear \"on your left\". Etiquette comes down to one idea: pay attention to the people around you. The safety rules come first, because a collision hurts people. Everything else is manners."
+              "content": "Nobody likes the skier who snowplows down the middle of the classic tracks, stops on a blind corner and has music so loud they never hear \"on your left\". Etiquette comes down to paying attention to the people around you. The safety rules come first, because a collision hurts people. Everything else is manners."
             }
           ]
         },
