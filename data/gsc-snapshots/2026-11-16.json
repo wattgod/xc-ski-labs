@@ -1,0 +1,873 @@
+{
+  "date": "2026-11-16",
+  "window": {
+    "start": "2026-11-10",
+    "end": "2026-11-16"
+  },
+  "overall": {
+    "clicks": 5,
+    "impressions": 232,
+    "ctr": 2.16,
+    "position": 13.1
+  },
+  "top_queries": [
+    {
+      "query": "american birkebeiner",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 17.6
+    },
+    {
+      "query": "birkebeiner",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "query": "canadian ski marathon",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "query": "engadin ski marathon",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 41
+    },
+    {
+      "query": "great bear chase",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "query": "grenaderl\u00f8pet",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "gr\u00f6nklitt ski marathon",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "hafjell langrend",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 92.5
+    },
+    {
+      "query": "jizerska",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "query": "lake placid loppet",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10.3
+    },
+    {
+      "query": "langrend hafjell",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 97
+    },
+    {
+      "query": "mora vasaloppet",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 41.8
+    },
+    {
+      "query": "nattvasan 90",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "query": "percorso completo",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "query": "profil trate",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "query": "ski to the sun",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "snowboard course lamoura",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 17.5
+    },
+    {
+      "query": "stafett vasan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "stafettvasan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "query": "summit 2 senja",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "summit to senja",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "transjurasienne",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "transjurassienne",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "valdres skimaraton",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "vasaloppet usa",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "query": "white pine stampede",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.3
+    }
+  ],
+  "top_pages": [
+    {
+      "page": "/",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 2
+    },
+    {
+      "page": "/race/canadian-ski-marathon/",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 6.2,
+      "position": 8.8
+    },
+    {
+      "page": "/race/snow-mountain-ranch-stampede/",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 16.7,
+      "position": 5.3
+    },
+    {
+      "page": "/race/spirit-of-the-rivers-loppet/",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 1.5
+    },
+    {
+      "page": "/race/transjurassienne/",
+      "clicks": 1,
+      "impressions": 20,
+      "ctr": 5.0,
+      "position": 12.6
+    },
+    {
+      "page": "/guide/race-selection/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 12.1
+    },
+    {
+      "page": "/guide/training-fundamentals/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/guide/what-is-xc-ski-racing/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/american-birkebeiner/",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "page": "/race/attraverso-campra/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "/race/bad-gastein-criterium/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.7
+    },
+    {
+      "page": "/race/birkebeinerrennet/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.8
+    },
+    {
+      "page": "/race/boulder-mountain-tour/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "page": "/race/engadin-la-diagonela/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "/race/engadin-skimarathon/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 21.4
+    },
+    {
+      "page": "/race/engelbrektsloppet/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "page": "/race/fossavatnsgangan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.8
+    },
+    {
+      "page": "/race/gatineau-loppet/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "page": "/race/granfondo-dobbiaco-cortina/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/great-bear-chase/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 11.8
+    },
+    {
+      "page": "/race/grenaderlopet/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "page": "/race/hafjell-ski-marathon/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 95.9
+    },
+    {
+      "page": "/race/idre-classic/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "/race/jizerska-50/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "page": "/race/john-craig-memorial/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "/race/kalix-loppet/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/kazan-ski-marathon/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "page": "/race/khanty-mansiysk-ski-marathon/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 4.6
+    },
+    {
+      "page": "/race/konig-ludwig-lauf/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "page": "/race/lake-placid-loppet/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.6
+    },
+    {
+      "page": "/race/marcialonga/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 6.7
+    },
+    {
+      "page": "/race/minnesota-finlandia/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "page": "/race/minnesota-finlandia/prep-kit/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.3
+    },
+    {
+      "page": "/race/mt-ashwabay-summit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "page": "/race/nattvasan/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 7.6
+    },
+    {
+      "page": "/race/orsa-gronklitt-ski-marathon/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "page": "/race/owl-creek-chase/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/panorama-nordic-loppet/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "page": "/race/sisu-ski-fest/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 25.8
+    },
+    {
+      "page": "/race/ski-to-the-sun/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/ski-to-the-sun/prep-kit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/sovereign-lake-loppet/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/stafettvasan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 3.8
+    },
+    {
+      "page": "/race/sudtirol-moonlight-classic/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "page": "/race/summit-2-senja/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/tromso-skimaraton/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "page": "/race/valdres-skimaraton/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/vasaloppet-japan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 11.2
+    },
+    {
+      "page": "/race/vasaloppet-usa/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 26.9
+    },
+    {
+      "page": "/race/vasaloppet/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 3.8
+    }
+  ],
+  "race_pages": [
+    {
+      "page": "/race/canadian-ski-marathon/",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 6.2,
+      "position": 8.8
+    },
+    {
+      "page": "/race/snow-mountain-ranch-stampede/",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 16.7,
+      "position": 5.3
+    },
+    {
+      "page": "/race/spirit-of-the-rivers-loppet/",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 1.5
+    },
+    {
+      "page": "/race/transjurassienne/",
+      "clicks": 1,
+      "impressions": 20,
+      "ctr": 5.0,
+      "position": 12.6
+    },
+    {
+      "page": "/race/american-birkebeiner/",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "page": "/race/attraverso-campra/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "/race/bad-gastein-criterium/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.7
+    },
+    {
+      "page": "/race/birkebeinerrennet/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.8
+    },
+    {
+      "page": "/race/boulder-mountain-tour/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "page": "/race/engadin-la-diagonela/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "/race/engadin-skimarathon/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 21.4
+    },
+    {
+      "page": "/race/engelbrektsloppet/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "page": "/race/fossavatnsgangan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.8
+    },
+    {
+      "page": "/race/gatineau-loppet/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "page": "/race/granfondo-dobbiaco-cortina/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/great-bear-chase/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 11.8
+    },
+    {
+      "page": "/race/grenaderlopet/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "page": "/race/hafjell-ski-marathon/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 95.9
+    },
+    {
+      "page": "/race/idre-classic/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "/race/jizerska-50/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "page": "/race/john-craig-memorial/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "/race/kalix-loppet/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/kazan-ski-marathon/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "page": "/race/khanty-mansiysk-ski-marathon/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 4.6
+    },
+    {
+      "page": "/race/konig-ludwig-lauf/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "page": "/race/lake-placid-loppet/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.6
+    },
+    {
+      "page": "/race/marcialonga/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 6.7
+    },
+    {
+      "page": "/race/minnesota-finlandia/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "page": "/race/minnesota-finlandia/prep-kit/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.3
+    },
+    {
+      "page": "/race/mt-ashwabay-summit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "page": "/race/nattvasan/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 7.6
+    },
+    {
+      "page": "/race/orsa-gronklitt-ski-marathon/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "page": "/race/owl-creek-chase/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/panorama-nordic-loppet/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "page": "/race/sisu-ski-fest/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 25.8
+    },
+    {
+      "page": "/race/ski-to-the-sun/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/ski-to-the-sun/prep-kit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "/race/sovereign-lake-loppet/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/stafettvasan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 3.8
+    },
+    {
+      "page": "/race/sudtirol-moonlight-classic/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "page": "/race/summit-2-senja/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/tromso-skimaraton/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "page": "/race/valdres-skimaraton/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "/race/vasaloppet-japan/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 11.2
+    },
+    {
+      "page": "/race/vasaloppet-usa/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 26.9
+    },
+    {
+      "page": "/race/vasaloppet/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 3.8
+    }
+  ]
+}
