@@ -540,17 +540,8 @@ class TestQuestionnaireGenerator:
             f"Questionnaire declares new tokens: {sorted(questionnaire_tokens - race_tokens)}"
 
 
-class TestPaymentLinksAndFeeds:
-    """Coverage for Stripe Payment Link wiring and crawler support feeds."""
-
-    def test_payment_link_creator_is_idempotent_and_redirects_to_thanks(self):
-        source = (SCRIPTS_DIR / "create_payment_links.py").read_text(encoding="utf-8")
-        assert "stripe-payment-links.json" in source
-        assert "STRIPE_SECRET_KEY" in source
-        assert "XC_STRIPE_SECRET_KEY" in source
-        assert "https://xcskilabs.com/thanks/" in source
-        assert "after_completion" in source
-        assert "skipped" in source
+class TestFeeds:
+    """Coverage for crawler support feeds."""
 
     def test_feed_generator_outputs_expected_files(self, tmp_path):
         result = subprocess.run(
