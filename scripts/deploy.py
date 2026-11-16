@@ -681,13 +681,18 @@ def sync_course():
             print(f"  Hero media not found: {f}")
             print("  Run: python wordpress/generate_course.py")
             return False
-    host, user, port = get_ssh_credentials()
-    # Media first: the page must never go up pointing at a file that is not there.
+    ssh = get_ssh_credentials()
+    if not ssh:
+        return False
+    host, user, port = ssh
+    # The page first: it creates /course/ on a fresh server. Then the media it plays.
+    if not _sync_static_page("course", "course"):
+        return False
     for f in media:
         if not _scp_upload(host, user, port, f, f"{get_remote_base()}/course/{f.name}"):
             return False
         print(f"  Deployed /course/{f.name}")
-    return _sync_static_page("course", "course")
+    return True
 
 
 def sync_thanks():
