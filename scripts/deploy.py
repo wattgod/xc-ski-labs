@@ -673,20 +673,30 @@ def sync_methodology():
 
 
 def sync_course():
-    """Upload the course sales page to /course/ with its hero image (the lessons are glide-labs-platform's,
-    behind /learn/). Refuses when the image the page references is missing."""
-    hero = PROJECT_ROOT / "output" / "course" / "diagonal-stride.jpg"
-    if not hero.exists():
-        print(f"  Hero image not found: {hero}")
-        print("  Run: python wordpress/generate_course.py")
+    """Upload the course sales page to /course/ with its hero video and poster (the lessons are
+    glide-labs-platform's, behind /learn/). Refuses when media the page references is missing."""
+    media = [PROJECT_ROOT / "output" / "course" / name for name in ("v2-side.mp4", "v2-side.jpg")]
+    for f in media:
+        if not f.exists():
+            print(f"  Hero media not found: {f}")
+            print("  Run: python wordpress/generate_course.py")
+            return False
+    ssh = get_ssh_credentials()
+    if not ssh:
         return False
-    if not _sync_static_page("course", "course"):
+    host, user, port = ssh
+    remote_dir = f"{get_remote_base()}/course"
+    ok, _, err = _ssh_run(host, user, port, f"mkdir -p {remote_dir} && chmod 755 {remote_dir}")
+    if not ok:
+        print(f"  Failed to create /course/ directory: {err}")
         return False
-    host, user, port = get_ssh_credentials()
-    if _scp_upload(host, user, port, hero, f"{get_remote_base()}/course/{hero.name}"):
-        print(f"  Deployed /course/{hero.name}")
-        return True
-    return False
+    # Media before the page, so the page never goes up pointing at a file that is not there.
+    # The video is about 10 MB: give it the time the tar uploads get.
+    for f in media:
+        if not _scp_upload(host, user, port, f, f"{remote_dir}/{f.name}", timeout=300):
+            return False
+        print(f"  Deployed /course/{f.name}")
+    return _sync_static_page("course", "course")
 
 
 def sync_thanks():

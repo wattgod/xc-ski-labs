@@ -407,6 +407,7 @@ def build_nav() -> str:
     <div class="gl-nav-links">
       <a href="/search/">Races</a>
       <a href="/guide/">Guide</a>
+      <a href="/course/">Course</a>
       <a href="/training-plans/" class="active">Plans</a>
       <a href="/coaching/">Coaching</a>
       <a href="/about/">About</a>

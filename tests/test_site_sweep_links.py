@@ -2,8 +2,8 @@
 service pages in the sitemap.
 
 /course/ is live (2026-11-15) and in the sitemap, but Matti asked for no
-course upsell on the homepage, so those pages still must not link /course/
-or /learn/, even when a local build left output/learn/index.html behind. /coaching/ and /consulting/ are live,
+course upsell on the homepage, so those pages carry only the nav's Course link
+(added 2026-11-16 so the course can be found) and never /learn/, even when a local build left output/learn/index.html behind. /coaching/ and /consulting/ are live,
 indexable pages and belong in the sitemap; apply/intake/confirmation pages
 do not.
 """
@@ -49,7 +49,9 @@ class TestNoCourseLinkUntilLive:
         hp.DEFAULT_OUTPUT_DIR = _fake_course_build(tmp_path)
         page = hp.generate_homepage([_race("vasaloppet"), _race("birkebeinerrennet")])
         assert 'href="/learn/' not in page
-        assert 'href="/course/' not in page
+        # The nav's plain Course link is the one way in (Matti, 2026-11-16); nothing else pitches it.
+        assert page.count('href="/course/') == 1
+        assert '<a href="/course/">Course</a>' in page
         assert "See the course" not in page
 
     def test_race_page_ladder_has_no_course_link_even_with_local_build(self, tmp_path):

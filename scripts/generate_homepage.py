@@ -58,7 +58,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = SCRIPT_DIR.parent / "race-data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
 
-# The homepage never pitches the XC ski course (Matti, 2026-11-15).
+# The homepage never pitches the XC ski course (Matti, 2026-11-15). The nav
+# carries a plain Course link so the course can be found (Matti, 2026-11-16).
 TOKENS_CSS = SCRIPT_DIR.parent / "tokens" / "tokens.css"
 
 # ── Constants ──────────────────────────────────────────────────
@@ -905,6 +906,9 @@ a:focus-visible, button:focus-visible {{
       <li class="gl-nav-item">
         <a href="/guide/">Guide</a>
               </li>
+      <li class="gl-nav-item">
+        <a href="/course/">Course</a>
+      </li>
       <li class="gl-nav-item">
         <a href="/training-plans/">Plans</a>
               </li>
