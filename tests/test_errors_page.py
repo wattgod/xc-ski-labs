@@ -68,3 +68,20 @@ def test_removed_duplicates_redirect_page_and_markdown():
         md = _re.search(rf"^RewriteRule \^race/{_re.escape(old)}\\\.md\$ https://xcskilabs\.com/race/{new}\.md \[R=301,L\]$", htaccess, _re.M)
         page = _re.search(rf"^RewriteRule \^race/{_re.escape(old)}\(\?:/\(\.\*\)\)\?\$ https://xcskilabs\.com/race/{new}/\$1 \[R=301,L\]$", htaccess, _re.M)
         assert md and page, old
+
+
+def test_plan_manage_redirects_to_the_pipeline_page():
+    """xcskilabs.com/plan/manage sends riders to the plan manage page (Railway).
+
+    Only exact /plan/manage and /plan/manage/ move; the fragment token rides along
+    in the browser, so the rule must not add a query string or a trailing path.
+    """
+    target = "https://athlete-custom-training-plan-pipeline-production.up.railway.app/plan/manage"
+    rules = re.findall(r"^RewriteRule (\S+) (\S+) \[([^\]]+)\]$", HTACCESS, re.M)
+    hits = [(p, t, f) for p, t, f in rules if t == target]
+    assert hits == [(r"^plan/manage/?$", target, "R=302,L")]
+    pattern = hits[0][0]
+    for path in ("plan/manage", "plan/manage/"):
+        assert re.search(pattern, path)
+    for path in ("plan/manage/x", "plan/", "plan/managed", "xplan/manage"):
+        assert not re.search(pattern, path)

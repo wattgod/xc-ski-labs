@@ -14,3 +14,11 @@ RewriteRule ^race/gatineau-55\.md$ https://xcskilabs.com/race/gatineau-loppet.md
 RewriteRule ^race/gatineau-55(?:/(.*))?$ https://xcskilabs.com/race/gatineau-loppet/$1 [R=301,L]
 RewriteRule ^race/ushuaia-ski-marathon\.md$ https://xcskilabs.com/race/ushuaia-loppet.md [R=301,L]
 RewriteRule ^race/ushuaia-ski-marathon(?:/(.*))?$ https://xcskilabs.com/race/ushuaia-loppet/$1 [R=301,L]
+
+# Custom plan manage page (cancel, refund, next race). The training-plan
+# pipeline serves it on Railway; Stripe checkout terms and plan emails link
+# riders here. The page reads its #t= token from the URL fragment, which
+# browsers keep across a redirect, and posts to relative /api/race-plan/*
+# paths, so it can't be copied to this site. 302: the Railway address may
+# change and a 301 is cached.
+RewriteRule ^plan/manage/?$ https://athlete-custom-training-plan-pipeline-production.up.railway.app/plan/manage [R=302,L]
