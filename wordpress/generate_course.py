@@ -13,8 +13,8 @@ to /learn/claim. The lesson list and counts below must match
 glide-labs-platform/course/content/xc-ski-technique.json;
 tests/test_course_page.py pins them.
 
-Not wired into scripts/deploy.py on purpose: this page goes live only after
-Matti says yes and /learn/ is deployed.
+Deployed by scripts/deploy.py (step "Course"). The lessons and their gate
+deploy from glide-labs-platform (scripts/deploy_course.py) to /learn/.
 
 Usage:
     python wordpress/generate_course.py [--output-dir output] [--api-base URL]

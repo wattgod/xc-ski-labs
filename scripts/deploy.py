@@ -667,6 +667,11 @@ def sync_methodology():
     return _sync_static_page("methodology", "methodology")
 
 
+def sync_course():
+    """Upload the course sales page to /course/ (the lessons are glide-labs-platform's, behind /learn/)."""
+    return _sync_static_page("course", "course")
+
+
 def sync_thanks():
     """Upload payment success page to /thanks/."""
     return _sync_static_page("thanks", "thanks")
@@ -939,6 +944,7 @@ def deploy_all():
         ("Terms", sync_terms),
         ("Methodology", sync_methodology),
         ("Guide", sync_guide),
+        ("Course", sync_course),
         ("Thanks", sync_thanks),
         ("404 + .htaccess", sync_errors),
         ("Sitemap", sync_sitemap),
