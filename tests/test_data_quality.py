@@ -544,7 +544,7 @@ class TestOutputIntegrity:
         # methodology, privacy, terms,
         # guide pillar + 3 open (indexable) guide chapters. Gated chapters
         # are noindex and intentionally excluded from the sitemap.
-        static_urls = 15  # home, search, goals, training-plans, coaching, consulting, about, weekly, methodology, privacy, terms, guide + 3 open chapters
+        static_urls = 16  # home, search, goals, training-plans, coaching, consulting, course, about, weekly, methodology, privacy, terms, guide + 3 open chapters
         expected = (profile_count * 2) + static_urls
 
         assert url_count == expected, \
@@ -566,7 +566,7 @@ class TestOutputIntegrity:
         for d in OUTPUT_DIR.iterdir():
             if not d.is_dir():
                 continue
-            if d.name in ("about", "weekly", "coaching", "coaching-exit", "consulting", "feed", "goals", "guide", "media", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"):
+            if d.name in ("about", "weekly", "coaching", "coaching-exit", "consulting", "course", "feed", "goals", "guide", "media", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"):
                 continue
             if d.name not in profile_slugs:
                 orphaned.append(d.name)

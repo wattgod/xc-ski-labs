@@ -1,9 +1,9 @@
-"""Site sweep 2026-11-14: no links to the unshipped course, service pages in
-the sitemap.
+"""Site sweep 2026-11-14: no course upsell on the homepage or race pages,
+service pages in the sitemap.
 
-/learn/ and /course/ return 404 on xcskilabs.com, so no generated page may
-link them, even when a stale local build left
-output/learn/index.html behind. /coaching/ and /consulting/ are live,
+/course/ is live (2026-11-15) and in the sitemap, but Matti asked for no
+course upsell on the homepage, so those pages still must not link /course/
+or /learn/, even when a local build left output/learn/index.html behind. /coaching/ and /consulting/ are live,
 indexable pages and belong in the sitemap; apply/intake/confirmation pages
 do not.
 """
@@ -74,5 +74,5 @@ class TestSitemapServicePages:
     def test_no_apply_intake_or_confirmation_pages(self):
         xml = self._xml()
         for path in ("/coaching/apply/", "/coaching/welcome/", "/consulting/intake/",
-                     "/consulting/confirmed/", "/learn/", "/course/"):
+                     "/consulting/confirmed/", "/learn/"):
             assert f"<loc>https://xcskilabs.com{path}</loc>" not in xml
