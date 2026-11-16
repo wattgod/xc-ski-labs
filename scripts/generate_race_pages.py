@@ -2874,7 +2874,7 @@ def build_technique_motion(race: dict) -> str:
   {loop_figure(tech, "square", caption=False)}
   <div>
     <h2 id="xsl-race-motion-title">{esc(name)}</h2>
-    <a href="/guide/technique-and-execution/">Classic gears in the guide &rarr;</a>
+    <a href="/guide/the-gears/">Classic gears in the guide &rarr;</a>
   </div>
 </section>
 """
@@ -2886,9 +2886,9 @@ def build_product_ladder(race: dict) -> str:
     rungs = [
         ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background. I build it from your answers.", f"{plan_offer.BLOCK_PRICE} / {plan_offer.BLOCK_WEEKS} WK", f"/questionnaire/?race={slug}", "Start the intake", True, False),
         ("Higher touch", "1:1 coaching", "I read your training and adjust the plan as conditions, recovery, and life change.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply for coaching", False, False),
-        ("Free reference", "Race prep guide", "Technique, pacing, fueling, and wax fundamentals to use while you evaluate your next step.", "FREE", "/guide/", "Read the guide", False, False),
+        ("Free reference", "Free guide", "Classic and skate technique, when to use each one, snow and wax, and trail etiquette.", "FREE", "/guide/", "Read the guide", False, False),
     ]
-    # No course rung: the site never pitches the XC ski course (Matti, 2026-11-15).
+    # No course rung: race pages never pitch the XC ski course; the guide carries its one course upsell (Matti, 2026-11-15).
 
     cards = []
     for kicker, title, desc, price, href, label, primary, nofollow in rungs:

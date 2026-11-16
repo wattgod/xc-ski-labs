@@ -262,7 +262,7 @@ def generate_homepage(races: list[dict]) -> str:
         "Classic skiing has three gears.",
         "Diagonal stride for the climbs, kick double-pole for the rollers, double-pole for the flats.",
         ["diagonal", "kickdp", "doublepole"],
-        "/guide/technique-and-execution/", "Read the technique chapter", band_id="motion")
+        "/guide/the-gears/", "Read the technique chapter", band_id="motion")
     loop_css = BAND_CSS + LOOP_CSS + newsletter_css()
     # Hero: Gravel God skating V2 straight at you, front-on (rig/print_skate.py). No caption under it.
     hero_loop = loop_figure("v2_front", "portrait", caption=False, extra_class="hero-loop")
@@ -953,7 +953,7 @@ a:focus-visible, button:focus-visible {{
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">03</span>
       <h2 class="gl-hp-ladder-headline">Race fast</h2>
-      <p class="gl-hp-ladder-body">Technique, pacing, wax and fueling for the day that counts.</p>
+      <p class="gl-hp-ladder-body">Every classic and skate technique, when to use it, and how snow and wax work.</p>
       <a href="/guide/" class="gl-hp-ladder-cta" data-ga="ladder_guide">READ THE GUIDE &rarr;</a>
     </div>
   </div>

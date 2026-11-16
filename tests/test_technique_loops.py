@@ -111,7 +111,7 @@ def test_homepage_band_links_to_the_technique_chapter():
     band = html[html.index('id="motion"'):]
     band = band[:band.index("</section>")]
     assert band.count("data-xsl-loop") == 3
-    assert 'href="/guide/technique-and-execution/"' in band
+    assert 'href="/guide/the-gears/"' in band
     assert "prefers-reduced-motion: reduce" in html
 
 

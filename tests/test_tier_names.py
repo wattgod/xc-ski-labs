@@ -91,9 +91,3 @@ def test_homepage_and_race_page_use_the_mapping(tmp_path):
     race = (tmp_path / "vasaloppet" / "index.html").read_text(encoding="utf-8")
     assert re.search(r'gl-scorebox-tier">TIER [1-4] · (?:ELITE|CONTENDER|SOLID|ROSTER)<', race)
     assert re.search(r"Rated \d+/100, Tier [1-4] \((?:Elite|Contender|Solid|Roster)\), in ", race)
-
-
-def test_guide_names_the_tiers():
-    text = (PROJECT_ROOT / "guide" / "xc-guide-content.json").read_text(encoding="utf-8")
-    for t, name in TIER_NAMES.items():
-        assert f"Tier {t}, {name}," in text

@@ -604,7 +604,7 @@ def _sync_static_page(name: str, remote_path: str):
 
 
 def sync_guide():
-    """Upload the guide tree (pillar + 8 chapters) to /guide/ via tar+ssh."""
+    """Upload the guide tree (pillar + chapters) to /guide/ via tar+ssh."""
     if not ensure_media():
         return False
     ssh = get_ssh_credentials()
@@ -1047,7 +1047,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--sync-guide", action="store_true",
-        help="Upload the guide (pillar + 8 chapters) to /guide/"
+        help="Upload the guide (pillar + chapters) to /guide/"
     )
     parser.add_argument(
         "--sync-questionnaire", action="store_true",
