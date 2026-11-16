@@ -74,7 +74,7 @@ def esc(value) -> str:
 def build_nav() -> str:
     from scripts.generate_race_pages import build_nav_header
 
-    return build_nav_header() + """
+    return build_nav_header(active="course") + """
 <script>
 (function(){
   var toggle=document.querySelector('[data-nav-toggle]');
@@ -92,7 +92,7 @@ PAGE_CSS = """
 .xc-course { font: 400 17px/1.6 var(--font-body); color: var(--ink); }
 .xc-course .xc-band > .xc-wrap > p { max-width: 58ch; }
 .xc-hero__photo { margin: 0; align-self: center; border: var(--stroke-stitch) solid var(--ink); }
-.xc-hero__photo img { display: block; width: 100%; height: auto; }
+.xc-hero__photo video { display: block; width: 100%; height: auto; }
 .xc-buy-msg { margin: 18px 0 0; font-weight: 600; color: var(--danger); }
 .xc-buy-msg:empty { display: none; }
 .xc-buy-msg::before { content: "\\26A0\\FE0E  "; }
@@ -105,9 +105,12 @@ html body .xc-course .xc-tag::before { border-radius: 50% !important; box-shadow
 html body .xc-course .xc-ship::before { border-radius: 50% !important; box-shadow: inset 0 0 0 3px var(--on-tag) !important; }
 """
 
-HERO_PHOTO = "diagonal-stride.jpg"  # a frame of Matti's own diagonal stride clip
-HERO_PHOTO_SRC = Path.home() / "glide-labs-platform" / "output" / "learn" / "static" / "img" / "diagonal-stride-hero.jpg"
-HERO_PHOTO_FILE = SCRIPT_DIR / "course_media" / HERO_PHOTO
+# Matti's own side-on V2 clip ("V2_Side Profile.mp4" on the Seagate drive),
+# 960x540, no sound, with a frame of it as the poster.
+HERO_VIDEO = "v2-side.mp4"
+HERO_POSTER = "v2-side.jpg"
+HERO_MEDIA = (HERO_VIDEO, HERO_POSTER)
+HERO_MEDIA_DIR = SCRIPT_DIR / "course_media"
 
 
 def build_lessons() -> str:
@@ -170,7 +173,7 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
     <div><p class="xc-kicker">COURSE</p>
       <h1 class="xc-title">XC Ski Labs <span>Course</span></h1>
       <p class="xc-lede">Cross-country ski lessons for adult skiers, with {VIDEO_COUNT} filmed demos and drills. Buy the module you need or every module. The basics lessons come with any purchase.</p></div>
-    <figure class="xc-hero__photo"><img src="{HERO_PHOTO}" alt="Me skiing diagonal stride in the classic tracks" width="1600" height="899" fetchpriority="high"></figure>
+    <figure class="xc-hero__photo"><video src="{HERO_VIDEO}" poster="{HERO_POSTER}" muted loop playsinline controls preload="metadata" width="960" height="540" aria-label="Me skiing V2, filmed from the side" data-hero-video></video></figure>
   </div></section>
 
   <section class="xc-band" aria-labelledby="buy-head"><div class="xc-wrap">
@@ -179,7 +182,7 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
       {build_products()}
       <p class="xc-buy-msg" role="alert" aria-live="polite"></p>
     </form>
-    <p class="xc-fine">One payment each. Full refund within {REFUND_DAYS} days if it isn&rsquo;t for you. Sold by {esc(LEGAL_ENTITY)}; see the <a class="xc-link" href="/terms/">terms</a>.</p>
+    <p class="xc-fine">One payment each. Full refund within {REFUND_DAYS} days if it isn&rsquo;t for you. See the <a class="xc-link" href="/terms/">terms</a>.</p>
   </div></section>
 
   <section class="xc-band xc-band--panel" aria-labelledby="how-head"><div class="xc-wrap">
@@ -208,6 +211,9 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
 </main>
 <script>
 (function(){{
+  var hv=document.querySelector('[data-hero-video]');
+  var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(hv&&!still){{var p=hv.play();if(p&&p.catch){{p.catch(function(){{}});}}}}
   var form=document.getElementById('course-buy');
   var msg=form.querySelector('.xc-buy-msg');
   var btns=form.querySelectorAll('button[name=product]');
@@ -241,9 +247,11 @@ def generate_page(output_dir: Path = DEFAULT_OUTPUT_DIR, api_base: str = PRODUCT
     output_path = output_dir / "course" / "index.html"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(generate_html(api_base), encoding="utf-8")
-    if not HERO_PHOTO_FILE.exists():
-        raise SystemExit(f"{HERO_PHOTO_FILE} is missing; the hero has no photo. Copy it from {HERO_PHOTO_SRC}.")
-    shutil.copyfile(HERO_PHOTO_FILE, output_path.parent / HERO_PHOTO)
+    for name in HERO_MEDIA:
+        src = HERO_MEDIA_DIR / name
+        if not src.exists():
+            raise SystemExit(f"{src} is missing; the hero has no video. Rebuild it from the side-on V2 clip.")
+        shutil.copyfile(src, output_path.parent / name)
     print(f"Generated {output_path}")
     return output_path
 

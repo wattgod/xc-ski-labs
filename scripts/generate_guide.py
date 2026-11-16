@@ -36,7 +36,7 @@ from generate_race_pages import (  # noqa: E402
 )
 
 
-from xsl_loops import LOOP_JS, loop_figure, shapes as loop_shapes  # noqa: E402
+from xsl_loops import LOOP_JS, MEDIA_URL as LOOP_MEDIA_URL, SIZES as LOOP_SIZES, loop_figure, shapes as loop_shapes  # noqa: E402
 
 CITE_RE = re.compile(r"\[\^([A-Za-z0-9_.-]+)\]")
 
@@ -86,29 +86,13 @@ def _estimate_read_time(chapter: dict[str, Any]) -> int:
     return max(4, round(chars / 1000) + extra)
 
 
-def render_guide_plate(chapter: dict[str, Any]) -> str:
-    num = int(chapter["number"])
-    motifs = {
-        1: '<path class="gl-plate-ridge" d="M154 74C190 42 224 88 262 58S318 70 342 40"/><path class="gl-plate-route" d="M64 160C110 118 154 184 204 132S284 96 326 126"/>',
-        2: '<path class="gl-plate-ridge" d="M148 58H324"/><rect class="gl-plate-bar" x="154" y="86" width="126" height="16"/><rect class="gl-plate-bar gl-plate-bar--quiet" x="154" y="120" width="168" height="16"/><rect class="gl-plate-bar gl-plate-bar--quiet" x="154" y="154" width="84" height="16"/>',
-        3: '<rect class="gl-plate-zone" x="154" y="78" width="36" height="86"/><rect class="gl-plate-zone gl-plate-zone--quiet" x="198" y="78" width="36" height="86"/><rect class="gl-plate-zone gl-plate-zone--quiet" x="242" y="78" width="36" height="86"/><rect class="gl-plate-zone gl-plate-zone--quiet" x="286" y="78" width="36" height="86"/>',
-        4: '<path class="gl-plate-route" d="M156 162V76L214 116L272 76V162"/><path class="gl-plate-ridge" d="M146 182H328"/>',
-        5: '<path class="gl-plate-ridge" d="M150 116H326"/><path class="gl-plate-ridge gl-plate-ridge--quiet" d="M178 76V156M238 76V156M298 76V156"/><rect class="gl-plate-square" x="174" y="110" width="10" height="10"/><rect class="gl-plate-square" x="234" y="110" width="10" height="10"/><rect class="gl-plate-square" x="294" y="110" width="10" height="10"/>',
-        6: '<path class="gl-plate-route" d="M154 148C190 58 234 184 274 98S316 72 336 52"/><rect class="gl-plate-square" x="210" y="139" width="10" height="10"/><rect class="gl-plate-square" x="298" y="70" width="10" height="10"/>',
-        7: '<path class="gl-plate-ridge" d="M154 118H326"/><path class="gl-plate-ridge gl-plate-ridge--quiet" d="M176 80V154M224 80V154M272 80V154M320 80V154"/>',
-        8: '<path class="gl-plate-ridge gl-plate-ridge--quiet" d="M154 112C196 186 226 190 252 118S304 42 336 72"/><path class="gl-plate-route" d="M154 146H326"/>',
-    }
-    motif = motifs.get(num, motifs[1])
-    return f"""
-<div class="gl-hero-plate" aria-hidden="true">
-  <svg class="gl-art-plate gl-guide-plate" viewBox="0 0 360 210" focusable="false">
-    <path class="gl-plate-stripes" d="M0 0H360V210H0Z"/>
-    <text class="gl-guide-plate-num" x="24" y="170">{num:02d}</text>
-    {motif}
-    <text class="gl-plate-title" x="154" y="192">CHAPTER {num:02d}</text>
-  </svg>
-</div>
-"""
+def card_art(chapter: dict[str, Any]) -> str:
+    """A chapter card's picture: the poster frame of that chapter's own header loop."""
+    tech = chapter["hero_loop"]
+    avail = loop_shapes(tech)
+    shape = "square" if "square" in avail else avail[0]
+    w, h = LOOP_SIZES[shape]
+    return f'<img src="{LOOP_MEDIA_URL}/{tech}_{shape}.jpg" alt="" width="{w}" height="{h}" loading="lazy">'
 
 
 def build_css() -> str:
@@ -118,9 +102,9 @@ def build_css() -> str:
 .gl-guide-jump-inner { max-width: var(--gl-measure); margin: 0 auto; padding: var(--gl-space-3) var(--gl-space-5); display: flex; flex-wrap: wrap; gap: var(--gl-space-2); }
 .gl-guide-jump a { min-height: 44px; display: inline-flex; align-items: center; border: 1px solid var(--gl-hairline); padding: 0 var(--gl-space-3); font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; background: var(--gl-paper); }
 .gl-guide-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gl-space-4); margin: var(--gl-space-6) 0; }
-.gl-guide-card { display: grid; grid-template-columns: 144px 1fr; min-height: 180px; background: var(--gl-white); border: 3px solid var(--gl-carbon); color: inherit; text-decoration: none; }
-.gl-guide-card-plate { background: var(--gl-carbon); display: flex; align-items: center; justify-content: center; padding: var(--gl-space-3); }
-.gl-guide-card-plate .gl-art-plate { border-color: var(--gl-white); }
+.gl-guide-card { display: grid; grid-template-columns: 180px 1fr; min-height: 180px; background: var(--gl-white); border: 3px solid var(--gl-carbon); color: inherit; text-decoration: none; }
+.gl-guide-card-plate { background: var(--gl-carbon); overflow: hidden; }
+.gl-guide-card-plate img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
 .gl-guide-card-body { padding: var(--gl-space-4); display: flex; flex-direction: column; gap: var(--gl-space-2); }
 .gl-guide-card-kicker, .gl-guide-tag { color: var(--gl-muted); font-family: var(--gl-font-data); font-size: .62rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
 .gl-guide-card h3 { margin: 0; font-family: var(--gl-font-display); font-size: 1.25rem; font-weight: 900; font-style: italic; line-height: 1; letter-spacing: 0; text-transform: uppercase; }
@@ -129,9 +113,6 @@ def build_css() -> str:
 .gl-guide-tag { border: 1px solid var(--gl-hairline); padding: var(--gl-space-1) var(--gl-space-2); }
 .gl-guide-tag--free { color: var(--gl-swix-red); }
 .gl-guide-btn { min-height: 44px; display: inline-flex; align-items: center; background: var(--gl-carbon); color: var(--gl-white); padding: 0 var(--gl-space-4); font-family: var(--gl-font-data); font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; }
-.gl-guide-plate-num { fill: var(--gl-muted); opacity: .34; font-family: var(--gl-font-display); font-size: 140px; font-weight: 900; font-style: italic; }
-.gl-plate-bar, .gl-plate-zone { fill: var(--gl-klister); }
-.gl-plate-bar--quiet, .gl-plate-zone--quiet { opacity: .45; }
 .gl-guide-block { margin: var(--gl-space-5) 0; }
 .gl-callout { max-width: var(--gl-prose); background: var(--gl-white); border: 3px solid var(--gl-carbon); border-left: 8px solid var(--gl-swix-red); padding: var(--gl-space-4); }
 .gl-callout--note { border-left-color: var(--gl-carbon); }
@@ -183,7 +164,7 @@ def build_css() -> str:
 .gl-guide-offer li { margin: 0 0 var(--gl-space-2); }
 .gl-guide-loop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 28px 24px; }
 .gl-guide-loop-grid--single { max-width: 320px; }
-@media (max-width: 820px) { .gl-guide-grid, .gl-zone-grid, .gl-hero-stats, .gl-prev-next { grid-template-columns: 1fr; } .gl-guide-card { grid-template-columns: 1fr; } .gl-guide-card-plate { min-height: 180px; } }
+@media (max-width: 820px) { .gl-guide-grid, .gl-zone-grid, .gl-hero-stats, .gl-prev-next { grid-template-columns: 1fr; } .gl-guide-card { grid-template-columns: 1fr; } .gl-guide-card-plate { height: 220px; } }
 """
 
 
@@ -403,7 +384,7 @@ def build_pillar(content: dict[str, Any]) -> str:
     for ch in chapters:
         card_html.append(f"""
 <a class="gl-guide-card" href="/guide/{esc(ch["id"])}/">
-  <div class="gl-guide-card-plate">{render_guide_plate(ch)}</div>
+  <div class="gl-guide-card-plate">{card_art(ch)}</div>
   <div class="gl-guide-card-body">
     <span class="gl-guide-card-kicker">Chapter {int(ch["number"]):02d}</span>
     <h3>{esc(ch["title"])}</h3>

@@ -20,11 +20,11 @@ COURSE_JSON = Path(os.environ.get(
     Path.home() / "glide-labs-platform" / "course" / "content" / "xc-ski-technique.json"))
 
 
-def test_page_states_price_refund_and_seller():
+def test_page_states_price_and_refund_and_leaves_the_seller_to_the_terms():
     page = gc.generate_html()
     assert "Buy Classic, $29" in page and "Buy Skate, $29" in page and "Buy every module, $49" in page
     assert "within 14 days" in page
-    assert "Gravel God Cycling LLC" in page
+    assert "Gravel God" not in page  # the terms page names the seller (Matti, 2026-11-16)
     assert 'href="/terms/"' in page and 'href="/privacy/"' in page
 
 
@@ -94,10 +94,20 @@ def test_page_is_built_from_the_sledge_components():
     assert "gl-course-" not in body and "gl-course-" not in gc.PAGE_CSS
 
 
-def test_hero_photo_is_a_real_frame_shipped_with_the_page(tmp_path):
+def test_hero_is_my_side_on_v2_clip_shipped_with_the_page(tmp_path):
     out = gc.generate_page(tmp_path)
-    assert (out.parent / gc.HERO_PHOTO).stat().st_size > 50_000
-    assert f'src="{gc.HERO_PHOTO}"' in out.read_text()
+    assert (out.parent / gc.HERO_VIDEO).stat().st_size > 1_000_000
+    assert (out.parent / gc.HERO_POSTER).stat().st_size > 30_000
+    page = out.read_text()
+    assert f'src="{gc.HERO_VIDEO}"' in page and f'poster="{gc.HERO_POSTER}"' in page
+    assert " autoplay" not in page  # started by script, so reduced-motion visitors keep the poster
+
+
+def test_site_nav_links_the_course():
+    from scripts.generate_race_pages import build_nav_header
+    assert '<a href="/course/">Course</a>' in build_nav_header()
+    assert '<a href="/course/" class="active">Course</a>' in gc.generate_html()
+
 
 
 def test_book_decoration_survives_the_template_reset():

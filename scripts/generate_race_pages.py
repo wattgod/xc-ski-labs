@@ -1752,6 +1752,7 @@ def build_nav_header(active: str = "") -> str:
         <div class="gl-nav-dropdown"><a href="/search/">All races</a></div>
       </li>
       <li class="gl-nav-item"><a href="/guide/"{_active("guide")}>Guide</a></li>
+      <li class="gl-nav-item"><a href="/course/"{_active("course")}>Course</a></li>
       <li class="gl-nav-item"><a href="/training-plans/"{_active("plans")}>Plans</a></li>
       <li class="gl-nav-item"><a href="/coaching/"{_active("coaching")}>Coaching</a></li>
       <li class="gl-nav-item"><a href="/consulting/"{_active("consulting")}>Consulting</a></li>
