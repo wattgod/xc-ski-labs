@@ -107,6 +107,10 @@ def test_site_nav_links_the_course():
     from scripts.generate_race_pages import build_nav_header
     assert '<a href="/course/">Course</a>' in build_nav_header()
     assert '<a href="/course/" class="active">Course</a>' in gc.generate_html()
+    # every hand-written nav too (the search page, homepage and the form pages keep their own)
+    for rel in ("web/nordic-lab-search.html", "wordpress/generate_questionnaire.py",
+                "wordpress/generate_goals.py", "scripts/generate_homepage.py"):
+        assert 'href="/course/">Course</a>' in (PROJECT_ROOT / rel).read_text(encoding="utf-8"), rel
 
 
 

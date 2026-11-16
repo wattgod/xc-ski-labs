@@ -43,7 +43,6 @@ CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
 
 COURSE_NAME = "XC Ski Labs Course"
 REFUND_DAYS = 14
-LEGAL_ENTITY = "Gravel God Cycling LLC"
 BUNDLE_PRICE_USD = 49
 
 # Matti, 2026-11-13: modules sell alone at $29; the bundle ($49) is every
@@ -173,7 +172,7 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
     <div><p class="xc-kicker">COURSE</p>
       <h1 class="xc-title">XC Ski Labs <span>Course</span></h1>
       <p class="xc-lede">Cross-country ski lessons for adult skiers, with {VIDEO_COUNT} filmed demos and drills. Buy the module you need or every module. The basics lessons come with any purchase.</p></div>
-    <figure class="xc-hero__photo"><video src="{HERO_VIDEO}" poster="{HERO_POSTER}" muted loop playsinline controls preload="metadata" width="960" height="540" aria-label="Me skiing V2, filmed from the side" data-hero-video></video></figure>
+    <figure class="xc-hero__photo"><video src="{HERO_VIDEO}" poster="{HERO_POSTER}" muted loop playsinline controls preload="none" width="960" height="540" aria-label="Me skiing V2, filmed from the side" data-hero-video></video></figure>
   </div></section>
 
   <section class="xc-band" aria-labelledby="buy-head"><div class="xc-wrap">
@@ -212,8 +211,10 @@ def generate_html(api_base: str = PRODUCTION_API) -> str:
 <script>
 (function(){{
   var hv=document.querySelector('[data-hero-video]');
-  var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(hv&&!still){{var p=hv.play();if(p&&p.catch){{p.catch(function(){{}});}}}}
+  var mm=window.matchMedia?function(q){{return window.matchMedia(q);}}:function(){{return {{matches:false}};}};
+  var saver=navigator.connection&&navigator.connection.saveData;
+  /* The clip is about 10 MB: it starts by itself on a wide screen only. Phones, data-saver and reduced-motion visitors keep the poster and the play button. */
+  if(hv&&mm('(min-width: 821px)').matches&&!mm('(prefers-reduced-motion: reduce)').matches&&!saver){{var p=hv.play();if(p&&p.catch){{p.catch(function(){{}});}}}}
   var form=document.getElementById('course-buy');
   var msg=form.querySelector('.xc-buy-msg');
   var btns=form.querySelectorAll('button[name=product]');

@@ -685,14 +685,18 @@ def sync_course():
     if not ssh:
         return False
     host, user, port = ssh
-    # The page first: it creates /course/ on a fresh server. Then the media it plays.
-    if not _sync_static_page("course", "course"):
+    remote_dir = f"{get_remote_base()}/course"
+    ok, _, err = _ssh_run(host, user, port, f"mkdir -p {remote_dir} && chmod 755 {remote_dir}")
+    if not ok:
+        print(f"  Failed to create /course/ directory: {err}")
         return False
+    # Media before the page, so the page never goes up pointing at a file that is not there.
+    # The video is about 10 MB: give it the time the tar uploads get.
     for f in media:
-        if not _scp_upload(host, user, port, f, f"{get_remote_base()}/course/{f.name}"):
+        if not _scp_upload(host, user, port, f, f"{remote_dir}/{f.name}", timeout=300):
             return False
         print(f"  Deployed /course/{f.name}")
-    return True
+    return _sync_static_page("course", "course")
 
 
 def sync_thanks():
