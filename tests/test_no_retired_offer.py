@@ -31,7 +31,8 @@ def test_no_page_quotes_a_retired_offer():
 
 
 @pytest.mark.skipif(not PAGES, reason="output/ not generated")
-@pytest.mark.parametrize("rel", ["index.html", "vasaloppet/index.html", "guide/index.html", "goals/index.html"])
+# The guide is not an offer surface: its one upsell is the course (Matti, 2026-11-15).
+@pytest.mark.parametrize("rel", ["index.html", "vasaloppet/index.html", "goals/index.html"])
 def test_offer_surfaces_show_the_current_price(rel):
     text = plan_offer.visible_text((OUTPUT / rel).read_text(encoding="utf-8"))
     assert plan_offer.BLOCK_PRICE in text

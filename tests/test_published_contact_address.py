@@ -34,6 +34,7 @@ def test_contact_constants_point_at_matti():
         assert CONTACT in (ROOT / rel).read_text(), rel
 
 
-def test_guide_gate_never_puts_the_email_in_the_url():
+def test_guide_collects_no_email():
+    """The guide is free with no email gate (rebuilt 2026-11-15), so it has no form to leak an email."""
     src = (ROOT / "scripts" / "generate_guide.py").read_text()
-    assert '<form class="gl-guide-gate-form" data-guide-gate-form method="post" novalidate>' in src
+    assert "<form" not in src and 'type="email"' not in src

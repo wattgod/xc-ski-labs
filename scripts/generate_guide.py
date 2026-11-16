@@ -470,9 +470,12 @@ def build_redirect(target: str) -> str:
   <link rel="canonical" href="https://xcskilabs.com{t}">
   <meta http-equiv="refresh" content="0; url={t}">
   <title>Moved | XC Ski Labs</title>
+  {build_ga4_snippet()}
   <script>location.replace({_safe_json_for_script(target)});</script>
 </head>
-<body><p>This chapter moved. <a href="{t}">Read the guide</a>.</p></body>
+<body><p>This chapter moved. <a href="{t}">Read the guide</a>.</p>
+{build_cookie_consent()}
+</body>
 </html>"""
 
 

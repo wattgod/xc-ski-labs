@@ -542,9 +542,10 @@ class TestOutputIntegrity:
         profile_count = len(ALL_PROFILES)
         # Static/marketing URLs: homepage, search, goals, training-plans, about,
         # methodology, privacy, terms,
-        # guide pillar + 3 open (indexable) guide chapters. Gated chapters
-        # are noindex and intentionally excluded from the sitemap.
-        static_urls = 16  # home, search, goals, training-plans, coaching, consulting, course, about, weekly, methodology, privacy, terms, guide + 3 open chapters
+        # guide pillar + every guide chapter (all open). Retired chapter
+        # URLs are redirects and stay out of the sitemap.
+        guide = json.loads((PROJECT_ROOT / "guide" / "xc-guide-content.json").read_text(encoding="utf-8"))
+        static_urls = 13 + len(guide["chapters"])  # home, search, goals, training-plans, coaching, consulting, course, about, weekly, methodology, privacy, terms, guide + chapters
         expected = (profile_count * 2) + static_urls
 
         assert url_count == expected, \
