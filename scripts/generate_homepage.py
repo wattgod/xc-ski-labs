@@ -22,6 +22,7 @@ from typing import Any, Optional
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from xsl_loops import BAND_CSS, LOOP_CSS, LOOP_JS, copy_media, loop_figure, loops_band  # noqa: E402
 from tiers import TIER_NAMES  # noqa: E402
+from newsletter_signup import newsletter_css, newsletter_form_html  # noqa: E402
 from consent import get_consent_banner_html, get_ga4_head  # noqa: E402
 
 XL_GA4_HEAD = get_ga4_head()
@@ -262,7 +263,7 @@ def generate_homepage(races: list[dict]) -> str:
         "Diagonal stride for the climbs, kick double-pole for the rollers, double-pole for the flats.",
         ["diagonal", "kickdp", "doublepole"],
         "/guide/technique-and-execution/", "Read the technique chapter", band_id="motion")
-    loop_css = BAND_CSS + LOOP_CSS
+    loop_css = BAND_CSS + LOOP_CSS + newsletter_css()
     # Hero: Gravel God skating V2 straight at you, front-on (rig/print_skate.py). No caption under it.
     hero_loop = loop_figure("v2_front", "portrait", caption=False, extra_class="hero-loop")
 
@@ -986,6 +987,18 @@ a:focus-visible, button:focus-visible {{
   </div>
 </section>
 
+<!-- ── The weekly round-up sign-up ── -->
+<section class="gl-hp-goals gl-hp-weekly" aria-labelledby="gl-hp-weekly-title">
+  <div class="gl-hp-goals-inner">
+    <div class="gl-hp-goals-copy">
+      <p class="gl-hp-goals-kicker">THE WEEKLY</p>
+      <h2 id="gl-hp-weekly-title">The week in cross-country, once a week.</h2>
+      <p>The news from Langrenn.com, NRK, FasterSkier and the Swedish and German ski press, the podcast episodes worth hearing, and a paragraph or two of my take. Every item links to the original. <a href="/weekly/" class="xc-link">What&rsquo;s in it &rarr;</a></p>
+      {newsletter_form_html("homepage")}
+    </div>
+  </div>
+</section>
+
 <!-- ── Footer ── -->
 <footer>
   <div class="footer-inner">
@@ -995,6 +1008,7 @@ a:focus-visible, button:focus-visible {{
       <a href="/search/" class="footer-link">Races</a>
       <a href="/training-plans/" class="footer-link">Training Plans</a>
       <a href="/coaching/" class="footer-link">Coaching</a>
+      <a href="/weekly/" class="footer-link">Weekly</a>
       <a href="/privacy/" class="footer-link">Privacy</a>
       <a href="/terms/" class="footer-link">Terms</a>
     </div>

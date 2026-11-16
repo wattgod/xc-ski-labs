@@ -38,7 +38,7 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "coaching", "coaching-exit", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+NON_RACE_OUTPUT_DIRS = {"about", "weekly", "coaching", "coaching-exit", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 
@@ -652,6 +652,11 @@ def sync_about():
     return _sync_static_page("about", "about")
 
 
+def sync_weekly():
+    """Upload the XC Ski Labs Weekly sign-up page to /weekly/."""
+    return _sync_static_page("weekly", "weekly")
+
+
 def sync_privacy():
     """Upload privacy policy to /privacy/."""
     return _sync_static_page("privacy", "privacy")
@@ -952,6 +957,7 @@ def deploy_all():
         ("Goals", sync_goals),
         ("Exit Interview", sync_exit_interview),
         ("About", sync_about),
+        ("Weekly", sync_weekly),
         ("Privacy", sync_privacy),
         ("Terms", sync_terms),
         ("Methodology", sync_methodology),
@@ -1060,6 +1066,10 @@ if __name__ == "__main__":
         help="Upload about page to /about/"
     )
     parser.add_argument(
+        "--sync-weekly", action="store_true",
+        help="Upload the XC Ski Labs Weekly sign-up page to /weekly/"
+    )
+    parser.add_argument(
         "--sync-privacy", action="store_true",
         help="Upload privacy policy to /privacy/"
     )
@@ -1160,6 +1170,9 @@ if __name__ == "__main__":
             ran = True
         if args.sync_about:
             sync_about()
+            ran = True
+        if args.sync_weekly:
+            sync_weekly()
             ran = True
         if args.sync_privacy:
             sync_privacy()
