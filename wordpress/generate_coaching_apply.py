@@ -39,7 +39,7 @@ TOTAL_SECTIONS = 12
 # keeps the address out of the HTML). coaching@xcskilabs.com was never a real mailbox and
 # the form was never FormSubmit-activated, so submissions vanished. Activated Jul 18 2026.
 FORM_ACTION = "https://formsubmit.co/97279e3477a42fb94b02e94f92ec236c"
-FORM_SUBJECT = "New Coaching Application \u2014 XC Ski Labs"
+FORM_SUBJECT = "New Coaching Application — XC Ski Labs"
 
 
 # ── Helpers ────────────────────────────────────────────────────
@@ -923,10 +923,10 @@ def build_section_experience() -> str:
     ])}
 
     {_radio_group("racing_experience", "Racing Experience", [
-        ("none", "None \u2014 I ski recreationally"),
-        ("citizen", "Citizen racer \u2014 I enter events but don't train specifically for them"),
-        ("competitive", "Competitive \u2014 I train with race goals and track results"),
-        ("elite", "Elite / Former elite \u2014 national or international level"),
+        ("none", "None — I ski recreationally"),
+        ("citizen", "Citizen racer — I enter events but don't train specifically for them"),
+        ("competitive", "Competitive — I train with race goals and track results"),
+        ("elite", "Elite / Former elite — national or international level"),
     ])}
 
     {_text_field("longest_race", "Longest Race Completed",
@@ -982,9 +982,9 @@ def build_section_technique() -> str:
                   hint="1 = can barely V2, 5 = smooth and powerful across all gears")}
 
     {_radio_group("double_pole_strength", "Double Pole Strength", [
-        ("weak", "Weak \u2014 I fatigue quickly and avoid flat sections"),
-        ("moderate", "Moderate \u2014 I can sustain it but it is not a strength"),
-        ("strong", "Strong \u2014 double pole is one of my best techniques"),
+        ("weak", "Weak — I fatigue quickly and avoid flat sections"),
+        ("moderate", "Moderate — I can sustain it but it is not a strength"),
+        ("strong", "Strong — double pole is one of my best techniques"),
     ])}
 
     {_checkbox_group("technique_improve", "Areas You Want to Improve", [
@@ -1039,8 +1039,8 @@ def build_section_training_access() -> str:
 
     <div class="gl-field-row-3">
       {_radio_group("roller_ski_access", "Roller Ski Access", [
-          ("yes", "Yes \u2014 safe roads or paths available"),
-          ("no", "No \u2014 no safe roller skiing options"),
+          ("yes", "Yes — safe roads or paths available"),
+          ("no", "No — no safe roller skiing options"),
       ])}
       {_radio_group("gym_access", "Gym Access", [
           ("yes", "Yes"),
@@ -1053,9 +1053,9 @@ def build_section_training_access() -> str:
     </div>
 
     {_radio_group("terrain", "Typical Training Terrain", [
-        ("flat", "Flat \u2014 mostly level skiing"),
-        ("hilly", "Hilly \u2014 moderate climbs and descents"),
-        ("mountainous", "Mountainous \u2014 significant elevation changes"),
+        ("flat", "Flat — mostly level skiing"),
+        ("hilly", "Hilly — moderate climbs and descents"),
+        ("mountainous", "Mountainous — significant elevation changes"),
     ])}
 """
     return build_section(7, "Training Access", fields)
@@ -1103,7 +1103,7 @@ def build_section_health() -> str:
                      rows=2)}
 
     {_textarea_field("medications", "Medications That Affect Training",
-                     placeholder="Beta blockers, asthma inhalers, thyroid medication, etc. \u2014 anything that could affect heart rate or performance",
+                     placeholder="Beta blockers, asthma inhalers, thyroid medication, etc. — anything that could affect heart rate or performance",
                      rows=2, hint="Optional but important for accurate HR zone prescription")}
 """
     return build_section(9, "Health", fields)
@@ -1113,9 +1113,9 @@ def build_section_nutrition() -> str:
     """Section 10: Nutrition."""
     fields = f"""
     {_radio_group("nutrition_approach", "Current Nutrition Approach", [
-        ("none", "No particular approach \u2014 I eat what I want"),
-        ("casual", "Casual attention \u2014 I try to eat well around training"),
-        ("structured", "Structured \u2014 I track macros or follow a plan"),
+        ("none", "No particular approach — I eat what I want"),
+        ("casual", "Casual attention — I try to eat well around training"),
+        ("structured", "Structured — I track macros or follow a plan"),
     ])}
 
     {_textarea_field("race_fueling", "Race Fueling Experience",
@@ -1123,9 +1123,9 @@ def build_section_nutrition() -> str:
                      rows=3)}
 
     {_radio_group("hydration", "Hydration Habits During Training", [
-        ("minimal", "Minimal \u2014 I often forget or skip it"),
-        ("moderate", "Moderate \u2014 I drink when thirsty"),
-        ("diligent", "Diligent \u2014 I plan hydration with electrolytes"),
+        ("minimal", "Minimal — I often forget or skip it"),
+        ("moderate", "Moderate — I drink when thirsty"),
+        ("diligent", "Diligent — I plan hydration with electrolytes"),
     ])}
 """
     return build_section(10, "Nutrition", fields)
@@ -1158,7 +1158,7 @@ def build_section_anything_else() -> str:
     """Section 12: Anything Else."""
     fields = f"""
     {_textarea_field("anything_else", "Anything Else We Should Know",
-                     placeholder="Motivation, fears, past experiences, what you love about skiing, what frustrates you, specific questions \u2014 anything that helps us understand you as an athlete.",
+                     placeholder="Motivation, fears, past experiences, what you love about skiing, what frustrates you, specific questions — anything that helps us understand you as an athlete.",
                      rows=6)}
 """
     return build_section(12, "Anything Else", fields)
@@ -1287,7 +1287,7 @@ def build_form_js() -> str:
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     } catch(e) {
-      showToast('Storage full \u2014 please submit now');
+      showToast('Storage full — please submit now');
     }
     showSaveIndicator();
   }
