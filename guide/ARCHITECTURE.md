@@ -28,10 +28,9 @@ names only.
 
 ## The upsell
 `course_offer` renders once at the end of the last chapter and once on the pillar, linking
-`/course/`, and only when `course_offer.live` is true. While the course can't be bought
-(as of 2026-11-15 `/course/` and `/learn/` are 404 and deploy.py doesn't publish `/course/`),
-nothing renders in its place: no plan, coaching or product-ladder stand-in. Flip `live` in the
-same change that puts `/course/` live.
+`/course/`, and only when `course_offer.live` is true (it went live 2026-11-15 with xc-ski-labs#105).
+If the course is ever pulled, set it false: nothing renders in its place, with no plan, coaching or product-ladder stand-in. Never link `/learn/`;
+that's for buyers.
 
 ## Retired URLs
 `retired_chapters` maps each old chapter id to its replacement (or "" for the guide home).

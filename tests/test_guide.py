@@ -236,3 +236,8 @@ def test_sitemap_lists_the_live_chapters_only():
     for old in OLD_CHAPTERS:
         assert f"/guide/{old}/" not in xml
         assert f"/guide/{old}/" not in (ROOT / "web" / "sitemap.xml").read_text(encoding="utf-8")
+
+
+def test_guide_never_links_the_buyers_only_lessons():
+    for path in OUTPUT_GUIDE.glob("**/index.html"):
+        assert 'href="/learn/' not in path.read_text(encoding="utf-8"), path

@@ -14,7 +14,7 @@
     "post-race-and-offseason": ""
   },
   "course_offer": {
-    "live": false,
+    "live": true,
     "href": "/course/",
     "title": "The course",
     "lead": "This guide tells you what each technique is and when to use it. The course teaches you to do them.",
@@ -22,7 +22,7 @@
       "The classic module covers diagonal stride, double pole and kick double pole, herringbone and downhills.",
       "The skate module covers free skate, V1 and its climbing variations, V2 and V2 alternate.",
       "Every technique lesson covers body position, timing, where the power comes from, the common errors and the drills that fix them, with filmed demos.",
-      "The basics lessons come with either module."
+      "The basics lessons come with any purchase."
     ],
     "cta": "See the course"
   },
