@@ -91,6 +91,7 @@ def generate_sitemap(domain, profiles):
     add_url(f"{domain}/goals/", "0.8", "weekly")
     add_url(f"{domain}/training-plans/", "0.8", "monthly")
     add_url(f"{domain}/about/", "0.5", "monthly")
+    add_url(f"{domain}/weekly/", "0.6", "monthly")
     add_url(f"{domain}/methodology/", "0.5", "monthly")
     # Public service pages (indexable, canonical). Apply/intake/confirmation
     # pages stay out of the sitemap.
@@ -177,7 +178,7 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path.write_bytes(xml_bytes)
 
-    static_urls = 11  # homepage, search, training, about, methodology, privacy, terms, guide + 3 open chapters
+    static_urls = 12  # homepage, search, training, about, weekly, methodology, privacy, terms, guide + 3 open chapters
     total_urls = static_urls + (2 * len(sorted_profiles))
     print(f"\nWrote {output_path}")
     print(f"  Total URLs: {total_urls}")
