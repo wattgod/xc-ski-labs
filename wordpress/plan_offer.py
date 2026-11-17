@@ -137,10 +137,13 @@ STALE_OFFER_PATTERNS: dict[str, re.Pattern] = {
     "per month": re.compile(r"\bper month\b", re.I),
     "next race": re.compile(r"\bnext race\b", re.I),
     # Rate only (Matti, 2026-11-17): no total, payment count or per-race sum.
-    "a total ('in all')": re.compile(r"\bin all\b", re.I),
-    "a payment count": re.compile(r"\b\d+ payments?\b", re.I),
+    # Scoped to money so race-page prose ("in all conditions", "the total
+    # climbing") never trips them.
+    "a total ('in all')": re.compile(r"\$[\d,]+(?:\.\d{2})?,? in all\b", re.I),
+    "a payment count": re.compile(r"\b\d+ payments\b|\bblock \d+ of \d+\b", re.I),
     "number of payments": re.compile(r"\bnumber of payments\b", re.I),
-    "your total": re.compile(r"\b(?:your|the) total\b", re.I),
+    "your total": re.compile(
+        r"\b(?:your|the) total\b(?=[^.]{0,40}(?:\$|\bpay|\bcharge|\bcost|\bplan\b))", re.I),
 }
 
 

@@ -128,9 +128,14 @@ class TestRiderCopy:
 
     def test_stale_offer_guard_catches_the_old_offer(self):
         old = "<p>$249 cap. $15 a week. One-time payment, no subscription. $50/mo, monthly.</p>"
-        totals = "<p>4 payments, $187.47 in all. Checkout shows your number of payments and your total.</p>"
+        totals = "<p>4 payments, $187.47 in all. Checkout shows your number of payments and your total before you pay.</p>"
         assert set(plan_offer.stale_offer_phrases(totals)) == {
             "a total ('in all')", "a payment count", "number of payments", "your total"}
+        assert "your total" in plan_offer.stale_offer_phrases("<p>Your total is $187.47.</p>")
+        # Race-page prose is not a price.
+        prose = ("<p>Ski in all conditions. The total climbing is 900 m. Your total time "
+                 "was 3:12. 2 laps in all, and 4 feed stations.</p>")
+        assert plan_offer.stale_offer_phrases(prose) == []
         assert set(plan_offer.stale_offer_phrases(old)) >= {
             "$249", "$15 a week", "One-time payment", "no subscription", "/mo", "monthly"}
         assert plan_offer.stale_offer_phrases("<script>var a='monthly';</script><p>ok</p>") == []
@@ -223,17 +228,31 @@ class TestQuestionnairePage:
             f"var CFG={json.dumps({'blockWeeks': page_config['blockWeeks'], 'priceLine': page_config['priceLine']})};"
             "function nice(d){return d;}\n" + money.group(0) + "\n" + fn.group(0) +
             "\nconsole.log(JSON.stringify([quoteText(15,4999,'Dec 1'),quoteText(3,3750,'Dec 1'),"
-            "quoteText(1,1250,'Dec 1')]));"
+            "quoteText(1,1250,'Dec 1'),quoteText(4,4999,'Dec 1')]));"
         )
         out = subprocess.run(["node", "-e", script], capture_output=True, text=True, timeout=20)
         assert out.returncode == 0, out.stderr
         lines = json.loads(out.stdout)
         assert lines[0] == ("Your plan: 15 weeks, from Dec 1 through race week. "
                             "$49.99 / four weeks until race week. $49.99 today.")
+        assert lines[3] == ("Your plan: 4 weeks, from Dec 1 through race week. "
+                            "$49.99 / four weeks until race week. $49.99 today.")
         assert lines[1].endswith("one charge of $37.50 today, nothing after race week.")
         assert lines[2].startswith("Your plan: 1 week, ")
         for line in lines:
             assert plan_offer.stale_offer_phrases(f"<p>{line}</p>") == [], line
+
+    def test_quote_callers_pass_weeks_charge_start(self):
+        # Both callers use the (weeks, firstCents, start) order: the live quote
+        # and the server's changed-plan alert, which reads only weeks and the
+        # first charge from checkout's payment_plan.
+        js = gq.QUESTIONNAIRE_JS
+        calls = re.findall(r"quoteText\(([^;]*?)\);", js, re.S)
+        args = [re.sub(r"\s+", " ", c) for c in calls]
+        assert "q.weeks, q.firstCents, q.start" in args
+        assert "plan.weeks, plan.first_payment_cents, startDates[radio('plan_start')]" in args
+        assert len(args) == 2, args
+        assert "t.textContent = 'Your plan changed';" in js
 
     def test_athlete_id_is_random_not_personal(self):
         assert "'xc-' +" in gq.QUESTIONNAIRE_JS
