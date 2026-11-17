@@ -204,13 +204,13 @@ def build_tier_row(race: dict) -> str:
     discipline = DISCIPLINE_LABELS.get(get_discipline(race), esc(get_discipline(race).title()))
     score_class = " score-red" if tier == 1 else ""
 
-    return f"""    <tr>
-      <td><span class="tchip">T{tier}</span> {name}</td>
+    return f"""    <tr class="race-row">
+      <td><span class="tchip">T{tier}</span> <a class="race-name" href="/race/{slug}/">{name}</a></td>
       <td>{country}</td>
       <td class="mono r">{distance}</td>
       <td>{discipline}</td>
       <td class="mono r{score_class}">{score}</td>
-      <td class="r"><a class="rowlink" href="/race/{slug}/">READ &rarr;</a></td>
+      <td class="r"><span class="rowlink" aria-hidden="true">READ &rarr;</span></td>
     </tr>"""
 
 
@@ -582,6 +582,24 @@ a:hover {{ text-decoration: underline; }}
   text-decoration: none;
   white-space: nowrap;
 }}
+
+/* Whole-row link: the race name is the row's one link and its ::after
+   covers the row, so every cell opens the race. READ is a visual cue only. */
+/* WebKit ignores position:relative on a table row. The no-op transform makes
+   the row the ::after's containing block there, but WebKit still sizes the
+   ::after down to the table's bottom edge; clip-path trims it (and its hit
+   area) to the row. Checked by hit-test in WebKit, Chromium and Firefox. */
+.tier-table .race-row {{ position: relative; transform: translate(0); clip-path: inset(0); }}
+.tier-table .race-name {{ font-weight: 700; color: var(--ink); text-decoration: none; }}
+.tier-table .race-name::after {{ content: ""; position: absolute; inset: 0; }}
+/* Hover fills the cells, not the row: WebKit leaves seams between the cells
+   of a transformed row's own background. */
+.tier-table .race-row:hover > td {{ background: var(--panel); }}
+.tier-table .race-row:hover .race-name, .tier-table .race-name:focus-visible {{ text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }}
+/* Keyboard focus rings the whole row instead of the name. Where :has() is
+   unsupported both rules drop and the name keeps the site's own ring. */
+.tier-table .race-row:has(.race-name:focus-visible) {{ outline: var(--stroke-button) solid var(--focus); outline-offset: calc(-1 * var(--stroke-button)); }}
+html body .tier-table .race-row:has(.race-name:focus-visible) .race-name:focus-visible {{ outline: none !important; }}
 
 /* ── Tier Showcase ── */
 

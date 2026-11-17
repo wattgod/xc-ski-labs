@@ -149,6 +149,7 @@
 
   function createCard(r) {
     const row = document.createElement("tr");
+    row.className = "race-row";
     const distText = r.d ? r.d + "km" : "";
     const tierClass = "t" + r.t;
 
@@ -156,8 +157,10 @@
     const tier = document.createElement("span");
     tier.className = "tier-badge " + tierClass;
     tier.textContent = "T" + r.t;
-    const name = document.createElement("span");
+    // The race name is the row's one link; its ::after covers the row.
+    const name = document.createElement("a");
     name.className = "race-name";
+    name.href = "/race/" + encodeURIComponent(r.s) + "/";
     name.textContent = r.dn || r.n;
     nameCell.append(tier, name);
 
@@ -171,13 +174,14 @@
     const score = document.createElement("td");
     score.className = "mono r score-display " + tierClass;
     score.textContent = r.sc;
+    // A visual cue only: the stretched name link already covers this cell.
     const linkCell = document.createElement("td");
     linkCell.className = "r";
-    const link = document.createElement("a");
-    link.className = "rowlink";
-    link.href = "/race/" + encodeURIComponent(r.s) + "/";
-    link.textContent = "READ →";
-    linkCell.appendChild(link);
+    const cue = document.createElement("span");
+    cue.className = "rowlink";
+    cue.setAttribute("aria-hidden", "true");
+    cue.textContent = "READ →";
+    linkCell.appendChild(cue);
     row.append(nameCell, country, distance, discipline, score, linkCell);
 
     return row;
@@ -260,7 +264,7 @@
       });
 
     document.getElementById("raceGrid").addEventListener("click", function (event) {
-      const link = event.target.closest("a.rowlink");
+      const link = event.target.closest("a.race-name");
       if (!link) return;
       const match = (link.getAttribute("href") || "").match(/\/race\/([^/?#]+)/);
       if (match) {

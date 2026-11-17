@@ -532,7 +532,23 @@ h1 { margin: 0; font-family: var(--font-stencil); font-size: clamp(56px, 11vw, 1
 .tier-badge.t1 { background: var(--gl-carbon); color: var(--gl-white); }
 .tier-badge.t2, .tier-badge.t3, .tier-badge.t4 { background: var(--gl-white); color: var(--gl-carbon); border: 2px solid var(--gl-carbon); }
 .score-display.t1 { color: var(--gl-swix-red); }
-.race-name { font-weight: 700; }
+/* Whole-row link: the race name is the row's one link and its ::after
+   covers the row, so every cell opens the race. READ is a visual cue only. */
+/* WebKit ignores position:relative on a table row. The no-op transform makes
+   the row the ::after's containing block there, but WebKit still sizes the
+   ::after down to the table's bottom edge; clip-path trims it (and its hit
+   area) to the row. Checked by hit-test in WebKit, Chromium and Firefox. */
+.race-table .race-row { position: relative; transform: translate(0); clip-path: inset(0); }
+.race-table .race-name { font-weight: 700; color: var(--ink); text-decoration: none; }
+.race-table .race-name::after { content: ""; position: absolute; inset: 0; }
+/* Hover fills the cells, not the row: WebKit leaves seams between the cells
+   of a transformed row's own background. */
+.race-table .race-row:hover > td { background: var(--panel); }
+.race-table .race-row:hover .race-name, .race-table .race-name:focus-visible { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+/* Keyboard focus rings the whole row instead of the name. Where :has() is
+   unsupported both rules drop and the name keeps the site's own ring. */
+.race-table .race-row:has(.race-name:focus-visible) { outline: var(--stroke-button) solid var(--focus); outline-offset: calc(-1 * var(--stroke-button)); }
+html body .race-table .race-row:has(.race-name:focus-visible) .race-name:focus-visible { outline: none !important; }
 .rowlink { color: var(--gl-swix-red); font-family: var(--gl-font-data); font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-decoration: none; white-space: nowrap; }
 .empty-state { padding: var(--gl-space-7) 0; color: var(--gl-muted); font-family: var(--gl-font-data); letter-spacing: .12em; text-transform: uppercase; }
 
