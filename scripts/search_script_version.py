@@ -20,6 +20,8 @@ import argparse
 import hashlib
 import re
 import sys
+from html.parser import HTMLParser
+from urllib.parse import parse_qs, urlsplit
 from pathlib import Path
 
 WEB_DIR = Path(__file__).resolve().parent.parent / "web"
@@ -37,16 +39,39 @@ def script_tag(js_path: Path = SEARCH_JS) -> str:
     return f'<script src="nordic-lab-search.js?v={script_version(js_path)}"></script>'
 
 
+class _ScriptSrcs(HTMLParser):
+    """Collect the src of every real <script> element (comments are skipped)."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.srcs = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "script":
+            src = dict(attrs).get("src")
+            if src is not None:
+                self.srcs.append(src)
+
+
+def search_script_srcs(html: str) -> list:
+    """Every active <script src> that points at the search script, any quoting or case."""
+    parser = _ScriptSrcs()
+    parser.feed(html)
+    parser.close()
+    return [src for src in parser.srcs
+            if urlsplit(src.strip()).path.rsplit("/", 1)[-1].lower() == SEARCH_JS.name.lower()]
+
+
 def check(html_path: Path = SEARCH_HTML, js_path: Path = SEARCH_JS) -> str | None:
     """Return a problem description, or None when the page loads the current script."""
-    html = html_path.read_text(encoding="utf-8")
-    tags = re.findall(r'<script[^>]*\bsrc="[^"]*nordic-lab-search\.js[^"]*"[^>]*>', html)
-    if len(tags) != 1:
-        return f"{html_path.name}: expected one nordic-lab-search.js script tag, found {len(tags)}"
-    want = script_tag(js_path)
-    if not html.count(want):
-        return (f"{html_path.name}: search script is not versioned with the current hash "
-                f"(want {want}); run python scripts/search_script_version.py")
+    srcs = search_script_srcs(html_path.read_text(encoding="utf-8"))
+    if len(srcs) != 1:
+        return f"{html_path.name}: expected one active {SEARCH_JS.name} script tag, found {len(srcs)}: {srcs}"
+    want = script_version(js_path)
+    got = parse_qs(urlsplit(srcs[0]).query).get("v", [])
+    if got != [want]:
+        return (f"{html_path.name}: search script {srcs[0]!r} is not versioned with the current hash "
+                f"v={want}; run python scripts/search_script_version.py")
     return None
 
 
@@ -59,6 +84,9 @@ def stamp(html_path: Path = SEARCH_HTML, js_path: Path = SEARCH_JS) -> bool:
     if new == html:
         return False
     html_path.write_text(new, encoding="utf-8")
+    problem = check(html_path, js_path)
+    if problem:
+        raise SystemExit(problem)
     return True
 
 

@@ -289,6 +289,9 @@ def check_output_pages(result: PreflightResult):
         result.warn("Search not in output/search/ — will need to copy before deploy")
 
     # The script is cached for a year; the page must load it by content hash.
+    scripts_dir = str(Path(__file__).resolve().parent)
+    if scripts_dir not in sys.path:
+        sys.path.insert(0, scripts_dir)
     from search_script_version import check as check_search_script_version
     problem = check_search_script_version()
     if problem:

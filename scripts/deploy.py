@@ -327,8 +327,7 @@ def sync_search():
 
     # The script is served with a one-year max-age; never ship a page that
     # loads it without its current content hash.
-    from search_script_version import check as check_search_script_version
-    problem = check_search_script_version()
+    problem = _search_script_version_problem()
     if problem:
         print(f"  REFUSING search deploy: {problem}")
         return False
@@ -342,26 +341,50 @@ def sync_search():
         print(f"  Failed to create /search/ directory: {err}")
         return False
 
+    # Order matters: the page names the script by hash, so the script (and
+    # the index it fetches) must be live before the page that points at it.
+    # Otherwise a visitor in between caches the OLD script under the NEW URL
+    # for a year. Each file is uploaded beside its target and renamed into
+    # place, and the run stops at the first failure so the page never goes
+    # out ahead of its script.
     files = [
-        (web_dir / "nordic-lab-search.html", f"{remote_search}/index.html"),
         (web_dir / "nordic-lab-search.js", f"{remote_search}/nordic-lab-search.js"),
         (web_dir / "race-index.json", f"{remote_search}/race-index.json"),
+        (web_dir / "nordic-lab-search.html", f"{remote_search}/index.html"),
     ]
+    missing = [local.name for local, _ in files if not local.exists()]
+    if missing:
+        print(f"  FAILED: missing {', '.join(missing)}; nothing uploaded")
+        return False
 
-    success = 0
-    for local, remote in files:
-        if not local.exists():
-            print(f"  Missing: {local.name}")
-            continue
-        if _scp_upload(host, user, port, local, remote):
-            success += 1
+    for done, (local, remote) in enumerate(files):
+        if not _scp_replace(host, user, port, local, remote):
+            print(f"  FAILED: stopped at {local.name} after {done}/{len(files)} files")
+            return False
 
-    if success == len(files):
-        print(f"  Deployed search UI ({success} files) to /search/")
-        return True
+    print(f"  Deployed search UI ({len(files)} files) to /search/")
+    return True
 
-    print(f"  FAILED: partial deploy {success}/{len(files)} files")
-    return success == len(files)
+
+def _scp_replace(host, user, port, local_path, remote_path):
+    """Upload to a temporary name beside the target, then rename it into place."""
+    tmp = f"{remote_path}.uploading-{os.getpid()}"
+    if not _scp_upload(host, user, port, local_path, tmp):
+        _ssh_run(host, user, port, f"rm -f {tmp}")
+        return False
+    ok, _, err = _ssh_run(host, user, port, f"chmod 644 {tmp} && mv -f {tmp} {remote_path}")
+    if not ok:
+        print(f"  Rename into place failed for {remote_path}: {err}")
+        _ssh_run(host, user, port, f"rm -f {tmp}")
+    return ok
+
+
+def _search_script_version_problem():
+    """Run scripts/search_script_version.check(), however this module was imported."""
+    if str(SCRIPT_DIR) not in sys.path:
+        sys.path.insert(0, str(SCRIPT_DIR))
+    from search_script_version import check
+    return check()
 
 
 def sync_index():
