@@ -124,6 +124,7 @@ d["race"]["history"]["founded"]
 10. **Estonian spelling matters** — it's `tartu-maraton` not `tartu-marathon`.
 11. **Preflight regex can match its own source** — skip self when scanning for API key patterns.
 12. **Copy search files to output/search/ after any web/ changes** — the deploy reads from output/.
+12a. **The search script is cached for a year** — `web/nordic-lab-search.html` loads it as `nordic-lab-search.js?v=<sha256[:12]>`. After editing the JS run `python scripts/search_script_version.py`; tests, preflight and `deploy.py --sync-search` refuse a stale or missing version.
 13. **YouTube `video_id` can be int from API** — always coerce to str.
 14. **Race page nav links**: `/search/` not `/nordic-lab-search.html` (production URL structure).
 15. **Git history**: check if secrets were committed before assuming removal is sufficient.
@@ -161,6 +162,7 @@ python scripts/generate_race_pages.py           # output/{slug}/index.html
 python scripts/generate_prep_kit.py             # output/{slug}/prep-kit/index.html (preflight requires one per profile)
 python scripts/generate_homepage.py             # output/index.html
 python scripts/generate_sitemap.py              # output/sitemap.xml
+python scripts/search_script_version.py       # after ANY change to web/nordic-lab-search.js
 cp web/nordic-lab-search.html output/search/index.html
 cp web/nordic-lab-search.js output/search/
 cp web/race-index.json output/search/
