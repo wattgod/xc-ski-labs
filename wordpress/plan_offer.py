@@ -9,13 +9,14 @@ Source of the numbers and terms: the checkout server's
 ``webhook/race_plan_subscription.py`` in athlete-custom-training-plan-pipeline
 (``payment_plan`` and ``terms_text``, shown at Stripe checkout and approved by
 Matti 2026-11-12) and its payment email (``race_plan_emails``). Nothing here
-promises more than those say. Rules: "every 4 weeks", never "monthly", "/mo"
-or "per month"; adding a next race is not built for ski plans, so never offer
-it.
+promises more than those say. Rules: the rate only, "$49.99 / four weeks",
+never a total, a payment count or a per-race sum (Matti, 2026-11-17, every
+brand); never "monthly", "/mo" or "per month"; adding a next race is not built
+for ski plans, so never offer it.
 
 ``stale_offer_phrases`` is the guard: tests fail a page that shows the
 retired one-off offer ($15 a week, $60-$249, "no subscription") next to
-this plan.
+this plan, or a total or payment count for it.
 """
 from __future__ import annotations
 
@@ -63,23 +64,17 @@ def payment_plan(weeks: int) -> dict:
 
 BLOCK_PRICE = money(BLOCK_PRICE_CENTS)   # "$49.99"
 WEEK_PRICE = money(WEEK_PRICE_CENTS)     # "$12.50"
-PRICE_LINE = f"{BLOCK_PRICE} every {BLOCK_WEEKS} weeks"
+PRICE_UNIT = "four weeks"
+PRICE_LINE = f"{BLOCK_PRICE} / {PRICE_UNIT}"   # "$49.99 / four weeks"
 PRICE_TO_RACE = f"{PRICE_LINE} until race week"
-
-_EXAMPLE_WEEKS = 15
-_EXAMPLE = payment_plan(_EXAMPLE_WEEKS)
 
 # ── Rider-facing lines (Matti speaking). Every one is listed for approval. ──
 BLOCK_LINE = f"Each payment covers one {BLOCK_WEEKS}-week block of your plan."
+# The $12.50 week rate is a billing term for /terms/ only; offer copy
+# carries one rate.
 LAST_BLOCK_LINE = (f"If your race isn't a whole number of {BLOCK_WEEKS}-week blocks away, "
-                   f"the last, shorter block costs {WEEK_PRICE} a week.")
+                   "the last block is shorter and costs less.")
 ENDS_LINE = "It ends after race week. Nothing is charged after that."
-NO_CAP_LINE = (
-    "There's no cap on the total; it depends on how far away your race is. "
-    f"A race {_EXAMPLE_WEEKS} weeks out is {_EXAMPLE['payment_count']} payments: "
-    f"{_EXAMPLE['payment_count'] - 1} at {BLOCK_PRICE} and one at "
-    f"{money(_EXAMPLE['payments_cents'][-1])}, {money(_EXAMPLE['total_cents'])} in all."
-)
 REVIEW_LINE = ("I look over every block before it goes on your TrainingPeaks calendar, "
                "and each block comes with a guide by email.")
 CANCEL_LINE = "Cancel any time from your plan page; you keep any block you've paid for."
@@ -96,7 +91,7 @@ FIT_LINES = (
     "Week 1 starts this week or next week.",
 )
 
-OFFER_LINES = (BLOCK_LINE, LAST_BLOCK_LINE, ENDS_LINE, NO_CAP_LINE, REVIEW_LINE,
+OFFER_LINES = (BLOCK_LINE, LAST_BLOCK_LINE, ENDS_LINE, REVIEW_LINE,
                CANCEL_LINE, REFUND_LINE)
 
 # ── The sales page (Matti, 2026-11-15): one plain headline, a fast list of
@@ -141,6 +136,14 @@ STALE_OFFER_PATTERNS: dict[str, re.Pattern] = {
     "monthly": re.compile(r"\bmonthly\b", re.I),
     "per month": re.compile(r"\bper month\b", re.I),
     "next race": re.compile(r"\bnext race\b", re.I),
+    # Rate only (Matti, 2026-11-17): no total, payment count or per-race sum.
+    # Scoped to money so race-page prose ("in all conditions", "the total
+    # climbing") never trips them.
+    "a total ('in all')": re.compile(r"\$[\d,]+(?:\.\d{2})?,? in all\b", re.I),
+    "a payment count": re.compile(r"\b\d+ payments\b|\bblock \d+ of \d+\b", re.I),
+    "number of payments": re.compile(r"\bnumber of payments\b", re.I),
+    "your total": re.compile(
+        r"\b(?:your|the) total\b(?=[^.]{0,40}(?:\$|\bpay|\bcharge|\bcost|\bplan\b))", re.I),
 }
 
 

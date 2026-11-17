@@ -1009,7 +1009,7 @@ def build_form(catalog: dict[str, Any]) -> str:
     <div class="gl-section-body">
       {input_field("email", "What email should I send your plan to?",
         '<input id="email" name="email" type="email" maxlength="254" autocomplete="email">')}
-      <div class="gl-quote" id="quote" aria-live="polite">Pick your race and when week 1 starts to see your payments.</div>
+      <div class="gl-quote" id="quote" aria-live="polite">Pick your race and when week 1 starts to see your plan.</div>
       <ul class="gl-terms">{terms}</ul>
       <div class="gl-alert" id="formAlert" role="alert" tabindex="-1"></div>
       <button type="submit" class="gl-submit-btn" id="submitBtn">Continue to payment</button>
@@ -1034,6 +1034,7 @@ def page_config(slug_map: dict[str, str], catalog: dict[str, Any]) -> dict[str, 
         "blockWeeks": plan_offer.BLOCK_WEEKS,
         "blockCents": plan_offer.BLOCK_PRICE_CENTS,
         "weekCents": plan_offer.WEEK_PRICE_CENTS,
+        "priceLine": plan_offer.PRICE_LINE,
         "catalog": catalog,
         "races": slug_map,
         "refusals": REFUSALS,
@@ -1291,24 +1292,28 @@ QUESTIONNAIRE_JS = r"""
     var weeks = Math.round(daysBetween(start, mondayOf(raceDay)) / 7) + 1;
     if (weeks < 1) return null;
     var full = Math.floor(weeks / CFG.blockWeeks), left = weeks % CFG.blockWeeks;
-    var payments = full + (left ? 1 : 0);
-    var total = full * CFG.blockCents + left * CFG.weekCents;
     var first = full ? CFG.blockCents : left * CFG.weekCents;
-    return { weeks: weeks, payments: payments, totalCents: total, firstCents: first, start: start };
+    return { weeks: weeks, firstCents: first, start: start };
   }
-  function quoteText(weeks, payments, totalCents, firstCents, start) {
-    return 'Your plan: ' + weeks + (weeks === 1 ? ' week' : ' weeks') + ', from ' + nice(start) +
-      ' through race week. ' + payments + (payments === 1 ? ' payment, ' : ' payments, ') +
-      money(totalCents) + ' in all. ' + money(firstCents) + ' today.';
+  // The rate only, never a total or payment count (Matti, 2026-11-17).
+  // Under four weeks out the one charge is below the block price; say so.
+  function quoteText(weeks, firstCents, start) {
+    var head = 'Your plan: ' + weeks + (weeks === 1 ? ' week' : ' weeks') + ', from ' + nice(start) +
+      ' through race week. ';
+    if (weeks < CFG.blockWeeks) {
+      return head + 'Your race is under four weeks away: one charge of ' + money(firstCents) +
+        ' today, nothing after race week.';
+    }
+    return head + CFG.priceLine + ' until race week. ' + money(firstCents) + ' today.';
   }
   function updateQuote() {
     var q = quote();
     if (!q) {
-      quoteEl.textContent = 'Pick your race and when week 1 starts to see your payments.';
+      quoteEl.textContent = 'Pick your race and when week 1 starts to see your plan.';
       submitBtn.textContent = 'Continue to payment';
       return;
     }
-    quoteEl.textContent = quoteText(q.weeks, q.payments, q.totalCents, q.firstCents, q.start);
+    quoteEl.textContent = quoteText(q.weeks, q.firstCents, q.start);
     submitBtn.textContent = 'Continue to payment: ' + money(q.firstCents) + ' today';
   }
 
@@ -1745,11 +1750,11 @@ QUESTIONNAIRE_JS = r"""
         alertBox.setAttribute('data-kind', 'payments');
         var t = document.createElement('p');
         t.className = 'gl-alert-title';
-        t.textContent = 'Your payments changed';
+        t.textContent = 'Your plan changed';
         var p = document.createElement('p');
         p.textContent = 'When I built your plan it came out at ' + plan.weeks + ' weeks, not the ' +
-          (q ? q.weeks : '') + ' shown above. ' + quoteText(plan.weeks, plan.payment_count, plan.total_cents,
-          plan.first_payment_cents, startDates[radio('plan_start')]);
+          (q ? q.weeks : '') + ' shown above. ' + quoteText(plan.weeks, plan.first_payment_cents,
+          startDates[radio('plan_start')]);
         var a = document.createElement('a');
         a.className = 'gl-submit-btn gl-continue';
         a.href = url;

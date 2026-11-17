@@ -969,7 +969,7 @@ a:focus-visible, button:focus-visible {{
     <div class="gl-hp-ladder-cell">
       <span class="gl-hp-ladder-num">02</span>
       <h2 class="gl-hp-ladder-headline">Train right</h2>
-      <p class="gl-hp-ladder-body">A plan built around your race and the hours you actually have, {esc(plan_offer.BLOCK_PRICE)} every {plan_offer.BLOCK_WEEKS} weeks. Want me reading every session? <a href="/coaching/" data-ga="ladder_coaching">Coaching</a></p>
+      <p class="gl-hp-ladder-body">A plan built around your race and the hours you actually have, {esc(plan_offer.PRICE_LINE)}. Want me reading every session? <a href="/coaching/" data-ga="ladder_coaching">Coaching</a></p>
       <a href="/training-plans/" class="gl-hp-ladder-cta" data-ga="ladder_get_plan">GET A TRAINING PLAN &rarr;</a>
     </div>
     <div class="gl-hp-ladder-cell">

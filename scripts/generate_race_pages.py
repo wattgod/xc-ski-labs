@@ -2885,7 +2885,7 @@ def build_product_ladder(race: dict) -> str:
     """Custom-first offer, followed by the higher-touch coaching path."""
     slug = esc(race["slug"])
     rungs = [
-        ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background. I build it from your answers.", f"{plan_offer.BLOCK_PRICE} / {plan_offer.BLOCK_WEEKS} WK", f"/questionnaire/?race={slug}", "Start the intake", True, False),
+        ("Built for your race", "Custom plan", "Your race, your weeks, your available hours, and your ski background. I build it from your answers.", plan_offer.PRICE_LINE.upper(), f"/questionnaire/?race={slug}", "Start the intake", True, False),
         ("Higher touch", "1:1 coaching", "I read your training and adjust the plan as conditions, recovery, and life change.", "$199-$1,200 / 4 WK", "/coaching/apply/", "Apply for coaching", False, False),
         ("Free reference", "Free guide", "Classic and skate technique, when to use each one, snow and wax, and trail etiquette.", "FREE", "/guide/", "Read the guide", False, False),
     ]
