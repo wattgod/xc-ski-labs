@@ -53,7 +53,7 @@ async function check(name, width) {
   page.setDefaultNavigationTimeout(10000);
   await route(page);
   let jsLoads = 0;
-  page.on("request", (q) => { if (q.url().endsWith("/nordic-lab-search.js")) jsLoads++; });
+  page.on("request", (q) => { if (new URL(q.url()).pathname === "/search/nordic-lab-search.js") jsLoads++; });
   await page.goto(ORIGIN + "/search/");
   await page.waitForSelector(".race-table tbody tr a.race-name");
 

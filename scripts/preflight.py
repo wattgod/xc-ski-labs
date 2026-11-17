@@ -288,6 +288,12 @@ def check_output_pages(result: PreflightResult):
     if not search.exists():
         result.warn("Search not in output/search/ — will need to copy before deploy")
 
+    # The script is cached for a year; the page must load it by content hash.
+    from search_script_version import check as check_search_script_version
+    problem = check_search_script_version()
+    if problem:
+        result.error(problem)
+
 
 def check_branding(result: PreflightResult):
     """Check for stale branding (Nordic Lab, Glide Labs)."""

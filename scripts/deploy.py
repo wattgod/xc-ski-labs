@@ -325,6 +325,14 @@ def sync_search():
         return False
     host, user, port = ssh
 
+    # The script is served with a one-year max-age; never ship a page that
+    # loads it without its current content hash.
+    from search_script_version import check as check_search_script_version
+    problem = check_search_script_version()
+    if problem:
+        print(f"  REFUSING search deploy: {problem}")
+        return False
+
     web_dir = PROJECT_ROOT / "web"
     remote_search = f"{get_remote_base()}/search"
 
