@@ -49,6 +49,8 @@ async function check(name, width) {
   const opts = name === "chromium" && process.env.XC_CHROMIUM_PATH ? { executablePath: process.env.XC_CHROMIUM_PATH } : {};
   const browser = await pw[name].launch(opts);
   const page = await browser.newPage({ viewport: { width, height: 900 } });
+  page.setDefaultTimeout(10000);
+  page.setDefaultNavigationTimeout(10000);
   await route(page);
   let jsLoads = 0;
   page.on("request", (q) => { if (q.url().endsWith("/nordic-lab-search.js")) jsLoads++; });
@@ -128,7 +130,11 @@ async function check(name, width) {
   for (const name of ["chromium", "webkit", "firefox"]) {
     for (const width of [1440, 390]) {
       try {
-        const r = await check(name, width);
+        // A hung engine must not stall the suite: give each run 60s.
+        const r = await Promise.race([
+          check(name, width),
+          new Promise((_, reject) => setTimeout(() => reject(new Error("timed out after 60s")), 60000)),
+        ]);
         console.log(JSON.stringify({ engine: name, width, status: "ran", ...r }));
       } catch (e) {
         const msg = String(e && e.message || e);
@@ -137,4 +143,5 @@ async function check(name, width) {
       }
     }
   }
+  process.exit(0);
 })();
