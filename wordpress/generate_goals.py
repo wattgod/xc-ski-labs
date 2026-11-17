@@ -22,12 +22,9 @@ There is no email backstop here (worker-only transport): XC Ski Labs has no
 FormSubmit endpoint wired for this page, and Mission Control is already the
 record.
 
-Offer: XC Ski Labs has no live self-serve checkout (verified against the
-current site and data/stripe-products.json — Stripe products/prices exist,
-but every training-plans CTA still routes to the manual, coach-mediated
-/questionnaire/ intake, same as every other purchase path on this site
-today). The offer below points there rather than to a payment link that
-does not exist.
+Offer: the custom ski plan billed every 4 weeks (wordpress/plan_offer.py).
+It is sold through the /questionnaire/ checkout, so the offer below points
+there and never at a Stripe payment link.
 
 Usage:
     python wordpress/generate_goals.py

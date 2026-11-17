@@ -181,17 +181,17 @@ pytest tests/ -v
 ## Website Pages (generated)
 - **Race pages**: 227 (`output/{slug}/index.html`) — with GA4, consent, nav, sticky CTA, training section
 - **Prep kits**: 227 (`output/{slug}/prep-kit/index.html`) — linked from the race-page gate and day-0 kit emails
-- **Training plans**: `output/training-plans/index.html` — pricing from `data/stripe-products.json`
+- **Training plans**: `output/training-plans/index.html` — price and terms from `wordpress/plan_offer.py`
 - **Coaching form**: `output/coaching/apply/index.html` — 12-section intake, FormSubmit.co
 - **Homepage**: `output/index.html`
 - **Search**: `web/nordic-lab-search.html` + `web/nordic-lab-search.js`
 - **Sitemap**: `output/sitemap.xml` (231 URLs)
 
-## Stripe
-- **Account**: xcskilabs (Endurance Labs org)
-- **Products**: 5 (Custom Training Plan, Coaching Min/Mid/Max, Consulting)
-- **Prices**: 18 (14 plan durations + 3 coaching tiers + 1 consulting)
-- **Data**: `data/stripe-products.json` (source of truth for pricing)
+## Pricing and checkout
+- No Stripe data lives in this repo. Checkout runs on the shared athlete-custom-training-plan-pipeline server.
+- **Ski plan**: $49.99 every 4 weeks. Numbers and terms in `wordpress/plan_offer.py`, copied from the pipeline's `webhook/race_plan_subscription.py`.
+- **Coaching**: Min $199, Mid $299, Max $1,200, billed every 4 weeks, plus a one-time $99 setup fee. Source: the pipeline's `athletes/config/brands.yaml` `xcskilabs.coaching` (`billing_period_days: 28`, `setup_fee_cents: 9900`). Never "monthly", "/mo" or "per month".
+- `data/stripe-products.json` (March 2026, a different Stripe account) and `scripts/create_payment_links.py` were retired on 2026-11-16 (#113).
 
 ## GA4
 - **Measurement ID**: `G-3JQLSQLPPM` (XC Ski Labs property)

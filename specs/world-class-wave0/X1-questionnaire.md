@@ -25,8 +25,8 @@ include FormSubmit honeypot (_honey) + _next redirect back to /questionnaire/?su
 and render a calm success state when ?submitted=1.
 
 Below the form, one quiet line: "You'll get your plan details and payment link by email,
-usually within a day." (Plans are fulfilled manually via Stripe links in
-data/stripe-products.json — do NOT build checkout.)
+usually within a day." (Plans were fulfilled manually via Stripe links when
+this spec was written — do NOT build checkout.)
 
 Page chrome: same nav header + GA4 + consent pattern as generate_race_pages.py output.
 Kicker "TRAINING PLANS", H1 "Tell me about your race.", one-line sub in the understated

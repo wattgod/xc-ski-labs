@@ -26,7 +26,6 @@ SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 RACE_DATA_DIR = PROJECT_ROOT / "race-data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
-DATA_DIR = PROJECT_ROOT / "data"
 NON_RACE_DIRS = {"about", "coaching", "coaching-exit", "consulting", "course", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 
 # ── Helpers ──────────────────────────────────────────────────────
@@ -675,55 +674,6 @@ class TestSecurity:
             assert "sk_live_" not in html, f"{slug}: Stripe secret key leaked!"
             assert "sk_test_" not in html, f"{slug}: Stripe test key leaked!"
             assert "PERPLEXITY_API_KEY" not in html, f"{slug}: API key reference leaked!"
-
-
-# ── Stripe Products ──────────────────────────────────────────────
-
-
-class TestStripeProducts:
-    """Verify stripe-products.json integrity."""
-
-    def test_stripe_products_exist(self):
-        path = DATA_DIR / "stripe-products.json"
-        assert path.exists(), "stripe-products.json not found"
-
-    def test_stripe_products_valid_json(self):
-        path = DATA_DIR / "stripe-products.json"
-        with open(path) as f:
-            data = json.load(f)
-        assert "products" in data, "Missing 'products' key"
-        assert "prices" in data, "Missing 'prices' key"
-
-    def test_stripe_has_5_products(self):
-        with open(DATA_DIR / "stripe-products.json") as f:
-            data = json.load(f)
-        assert len(data["products"]) == 5, \
-            f"Expected 5 products, got {len(data['products'])}"
-
-    def test_stripe_has_18_prices(self):
-        with open(DATA_DIR / "stripe-products.json") as f:
-            data = json.load(f)
-        assert len(data["prices"]) == 18, \
-            f"Expected 18 prices, got {len(data['prices'])}"
-
-    def test_stripe_no_placeholder_ids(self):
-        with open(DATA_DIR / "stripe-products.json") as f:
-            data = json.load(f)
-        for p in data["products"]:
-            assert "PLACEHOLDER" not in p["id"], \
-                f"Product {p['name']} still has placeholder ID"
-        for p in data["prices"]:
-            assert "PLACEHOLDER" not in p["id"], \
-                f"Price {p['nickname']} still has placeholder ID"
-
-    def test_training_plan_price_range(self):
-        """Training plans: $60 (4wk) to $249 (17+wk)."""
-        with open(DATA_DIR / "stripe-products.json") as f:
-            data = json.load(f)
-        plan_prices = [p["amount"] for p in data["prices"]
-                       if "plan" in p.get("nickname", "").lower()]
-        assert min(plan_prices) == 6000, f"Lowest plan price is ${min(plan_prices)/100}, expected $60"
-        assert max(plan_prices) == 24900, f"Highest plan price is ${max(plan_prices)/100}, expected $249"
 
 
 # ── Deploy Script ────────────────────────────────────────────────

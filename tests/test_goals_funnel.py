@@ -101,11 +101,9 @@ class TestGoalsPage:
         assert html.count('class="gl-offer" data-offer-variant="') == len(goals.OFFER["variants"]) == 3
 
     def test_offer_points_to_the_real_working_intake_not_a_dead_checkout(self):
-        """XC Ski Labs has no live self-serve checkout (verified against
-        data/stripe-products.json and the current /training-plans/ page:
-        every CTA there also routes to this same manual, coach-mediated
-        intake). The offer must point at a real destination, never a
-        payment link that doesn't exist."""
+        """The ski plan is sold through the /questionnaire/ checkout, the
+        same destination as every /training-plans/ CTA. The offer must point
+        there, never at a Stripe payment link."""
         html = goals.generate_page()
         assert "/questionnaire/" in html
         assert "buy.stripe.com" not in html
