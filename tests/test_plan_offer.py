@@ -105,18 +105,19 @@ class TestPaymentPlan:
         assert plan_offer.money(1250) == "$12.50"
         assert plan_offer.money(18747) == "$187.47"
 
-    def test_example_line_matches_the_math(self):
-        assert "4 payments: 3 at $49.99 and one at $37.50, $187.47 in all" in plan_offer.NO_CAP_LINE
 
 
 class TestRiderCopy:
-    def test_offer_says_every_4_weeks(self):
-        assert plan_offer.PRICE_LINE == "$49.99 every 4 weeks"
-        assert "$12.50 a week" in plan_offer.LAST_BLOCK_LINE
+    def test_offer_is_the_rate_only(self):
+        # Matti, 2026-11-17, every brand: no total, payment count or per-race sum.
+        assert plan_offer.PRICE_LINE == "$49.99 / four weeks"
+        assert not hasattr(plan_offer, "NO_CAP_LINE")
+        assert plan_offer.WEEK_PRICE not in plan_offer.LAST_BLOCK_LINE  # one rate in offer copy
+        for line in plan_offer.OFFER_LINES + (plan_offer.TERMS_SHORT, plan_offer.FINE_PRINT):
+            assert plan_offer.stale_offer_phrases(f"<p>{line}</p>") == [], line
         assert "14 days" in plan_offer.REFUND_LINE and "plan page" in plan_offer.REFUND_LINE
         assert "plan page" in plan_offer.CANCEL_LINE
         assert "race week" in plan_offer.ENDS_LINE
-        assert "no cap" in plan_offer.NO_CAP_LINE
 
     @pytest.mark.parametrize("line", _rider_lines())
     def test_no_banned_words(self, line):
@@ -127,6 +128,9 @@ class TestRiderCopy:
 
     def test_stale_offer_guard_catches_the_old_offer(self):
         old = "<p>$249 cap. $15 a week. One-time payment, no subscription. $50/mo, monthly.</p>"
+        totals = "<p>4 payments, $187.47 in all. Checkout shows your number of payments and your total.</p>"
+        assert set(plan_offer.stale_offer_phrases(totals)) == {
+            "a total ('in all')", "a payment count", "number of payments", "your total"}
         assert set(plan_offer.stale_offer_phrases(old)) >= {
             "$249", "$15 a week", "One-time payment", "no subscription", "/mo", "monthly"}
         assert plan_offer.stale_offer_phrases("<script>var a='monthly';</script><p>ok</p>") == []
@@ -201,6 +205,36 @@ class TestQuestionnairePage:
         body = body[:body.index("}\n")]
         assert body.index("[data-q=") < body.index("el(id)")
 
+    def test_quote_js_never_states_a_total(self):
+        js = gq.QUESTIONNAIRE_JS
+        for gone in ("payment_count", "total_cents", "totalCents", "' in all", "payments changed"):
+            assert gone not in js, gone
+
+    def test_quote_line_states_the_rate_or_the_one_charge(self, page_config):
+        import shutil
+        import subprocess
+        if shutil.which("node") is None:
+            pytest.skip("node not installed")
+        js = gq.QUESTIONNAIRE_JS
+        fn = re.search(r"  function quoteText\(weeks, firstCents, start\) \{.*?\n  \}", js, re.S)
+        money = re.search(r"  function money\(c\) \{.*?\n  \}", js, re.S)
+        assert fn and money
+        script = (
+            f"var CFG={json.dumps({'blockWeeks': page_config['blockWeeks'], 'priceLine': page_config['priceLine']})};"
+            "function nice(d){return d;}\n" + money.group(0) + "\n" + fn.group(0) +
+            "\nconsole.log(JSON.stringify([quoteText(15,4999,'Dec 1'),quoteText(3,3750,'Dec 1'),"
+            "quoteText(1,1250,'Dec 1')]));"
+        )
+        out = subprocess.run(["node", "-e", script], capture_output=True, text=True, timeout=20)
+        assert out.returncode == 0, out.stderr
+        lines = json.loads(out.stdout)
+        assert lines[0] == ("Your plan: 15 weeks, from Dec 1 through race week. "
+                            "$49.99 / four weeks until race week. $49.99 today.")
+        assert lines[1].endswith("one charge of $37.50 today, nothing after race week.")
+        assert lines[2].startswith("Your plan: 1 week, ")
+        for line in lines:
+            assert plan_offer.stale_offer_phrases(f"<p>{line}</p>") == [], line
+
     def test_athlete_id_is_random_not_personal(self):
         assert "'xc-' +" in gq.QUESTIONNAIRE_JS
         assert "crypto.getRandomValues" in gq.QUESTIONNAIRE_JS
@@ -251,7 +285,9 @@ class TestSuccessAndTerms:
     def test_terms_name_the_plan_and_refund(self):
         import generate_terms
         terms = generate_terms.PLAN_TERMS
-        assert "$49.99 every 4 weeks" in terms
+        assert "$49.99 / four weeks" in terms
+        assert "$12.50 a week" in terms  # the billing term lives here only
+        assert plan_offer.stale_offer_phrases(f"<p>{terms}</p>") == []
         assert "14 days" in terms
         assert "Gravel God Cycling LLC" in terms
         assert not re.search(r"\bmonthly\b|/mo\b|per month", terms, re.I)
@@ -262,7 +298,7 @@ class TestOtherPagesQuoteThePlan:
     ladder) and /goals/ name the plan's price. They quote plan_offer, never
     the retired $60-$249 range."""
 
-    PRICE_TAG = f"{plan_offer.BLOCK_PRICE} / {plan_offer.BLOCK_WEEKS} WK"
+    PRICE_TAG = "$49.99 / FOUR WEEKS"
 
     def test_race_page_ladder(self):
         sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
@@ -275,7 +311,7 @@ class TestOtherPagesQuoteThePlan:
         sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
         import generate_homepage
         html = generate_homepage.generate_homepage([])
-        assert f"{plan_offer.BLOCK_PRICE} every {plan_offer.BLOCK_WEEKS} weeks" in html
+        assert plan_offer.PRICE_LINE in html
         assert plan_offer.stale_offer_phrases(html) == []
 
     def test_goals_page(self):

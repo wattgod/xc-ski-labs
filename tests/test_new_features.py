@@ -378,12 +378,13 @@ class TestTrainingPlansPage:
         )
         assert result.returncode == 0, f"Training plans generator failed: {result.stderr[-300:]}"
 
-    def test_offer_is_every_4_weeks(self):
-        """The page sells the plan billed $49.99 every 4 weeks, not the retired
-        $15-a-week one-off (wordpress/plan_offer.py)."""
+    def test_offer_is_the_rate_only(self):
+        """The page sells the plan at $49.99 / four weeks, the rate only (Matti,
+        2026-11-17), not the retired $15-a-week one-off (wordpress/plan_offer.py)."""
         html = _load_page("training-plans/index.html")
-        assert "$49.99 every 4 weeks" in html
-        assert "$12.50 a week" in html
+        assert "$49.99 / four weeks" in html
+        assert "$12.50 a week" not in html
+        assert " in all" not in html
         assert "$249" not in html
 
     def test_no_unescaped_faq_answers(self):
