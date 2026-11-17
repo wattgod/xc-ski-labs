@@ -19,7 +19,7 @@ from __future__ import annotations
 import html
 import re
 
-LEAD_WORKER_URL = "https://fueling-lead-intake.gravelgodcycling.workers.dev"
+LEAD_WORKER_URL = "https://fueling-lead-intake.gravelgodcoaching.workers.dev"
 NEWSLETTER_SOURCE = "newsletter_subscribe"
 NEWSLETTER_BRAND = "xcskilabs"
 

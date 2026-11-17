@@ -30,10 +30,29 @@ def page():
 
 
 def test_posts_xc_brand_and_newsletter_source_to_the_worker(form):
-    assert "https://fueling-lead-intake.gravelgodcycling.workers.dev" in form
+    assert "https://fueling-lead-intake.gravelgodcoaching.workers.dev" in form
     assert "brand:'xcskilabs'" in form
     assert "source:'newsletter_subscribe'" in form
     assert "brand:'gravelgod'" not in form
+
+
+def test_worker_host_is_the_gravelgodcoaching_account(form):
+    # gravelgodcycling.workers.dev does not resolve; posting there lost every sign-up (#115).
+    from urllib.parse import urlparse
+    host = urlparse(ns.LEAD_WORKER_URL).hostname
+    assert ns.LEAD_WORKER_URL.startswith("https://")
+    assert host == "fueling-lead-intake.gravelgodcoaching.workers.dev"
+    assert "gravelgodcycling.workers.dev" not in form
+
+
+def test_no_page_source_posts_to_the_dead_worker_host():
+    hits = []
+    for folder in ("scripts", "wordpress", "web"):
+        for path in (ROOT / folder).rglob("*"):
+            if path.suffix in {".py", ".html", ".js"} and path.is_file():
+                if "gravelgodcycling.workers.dev" in path.read_text(errors="ignore"):
+                    hits.append(str(path.relative_to(ROOT)))
+    assert hits == []
 
 
 def test_success_only_after_a_2xx(form):
