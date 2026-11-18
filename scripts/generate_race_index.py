@@ -13,8 +13,12 @@ RACE_DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "race-data")
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "web")
 
 
-def build_index():
-    """Build a compact race index for the search UI."""
+def build_index(output_dir=OUTPUT_DIR):
+    """Build a compact race index for the search UI.
+
+    Only a build into web/ stamps the search page; any other output_dir (a
+    test's temp folder) leaves the committed page alone.
+    """
     races = []
     files = sorted(glob.glob(os.path.join(RACE_DATA_DIR, "*.json")))
     files = [f for f in files if "_schema" not in f]
@@ -76,8 +80,8 @@ def build_index():
         "races": races,
     }
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    output_path = os.path.join(OUTPUT_DIR, "race-index.json")
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, "race-index.json")
     with open(output_path, "w", encoding="utf-8") as fh:
         json.dump(index, fh, ensure_ascii=False, separators=(",", ":"))
 
@@ -85,10 +89,11 @@ def build_index():
 
     # The search page fetches the index as race-index.json?v=<hash> (it is
     # cached for 180 days), so stamp the new hash into the page now.
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from search_script_version import index_version, stamp
-    stamp()
-    print(f"Search page now loads race-index.json?v={index_version()}")
+    if os.path.realpath(output_dir) == os.path.realpath(OUTPUT_DIR):
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from search_script_version import index_version, stamp
+        stamp()
+        print(f"Search page now loads race-index.json?v={index_version()}")
 
     # Stats
     tiers = {}
@@ -105,4 +110,8 @@ def build_index():
 
 
 if __name__ == "__main__":
-    build_index()
+    import argparse
+    parser = argparse.ArgumentParser(description="Generate the search race index.")
+    parser.add_argument("--output-dir", default=OUTPUT_DIR,
+                        help="where to write race-index.json (default web/; only web/ stamps the search page)")
+    build_index(parser.parse_args().output_dir)
