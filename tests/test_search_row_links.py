@@ -86,8 +86,9 @@ global.document = {
   querySelectorAll: () => [],
   addEventListener: (t, f) => { if (t === "DOMContentLoaded") docListeners.push(f); },
 };
+global.document.currentScript = { getAttribute: (k) => (k === "data-index-version" ? "abc123def456" : null) };
 global.window = { location: { search: "", pathname: "/search/" }, history: { replaceState() {} } };
-global.fetch = async () => ({ json: async () => ({ races: [
+global.fetch = async () => ({ ok: true, json: async () => ({ races: [
   { n: "Fixture Loppet", dn: "Fixture Loppet", s: "fixture-loppet", t: 1, sc: 88, co: "Norway", cc: "NO", d: 50, di: "classic", st: "fixture loppet" },
 ] }) });
 const src = fs.readFileSync(process.argv[1], "utf8");
