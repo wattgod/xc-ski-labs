@@ -168,13 +168,22 @@ class TestRacePageGenerator:
 class TestSearchIndex:
     """Test generate_race_index.py and the index JSON."""
 
-    def test_index_generator_runs(self):
+    def test_index_generator_runs(self, tmp_path):
+        """Build into a temp dir: a test run must not rewrite the committed
+        web/race-index.json or restamp the search page that names its hash."""
+        tracked = [WEB_DIR / "race-index.json", WEB_DIR / "nordic-lab-search.html"]
+        before = [p.read_bytes() for p in tracked]
         result = subprocess.run(
-            [sys.executable, str(SCRIPTS_DIR / "generate_race_index.py")],
+            [sys.executable, str(SCRIPTS_DIR / "generate_race_index.py"), "--output-dir", str(tmp_path)],
             capture_output=True, text=True, timeout=30,
         )
         assert result.returncode == 0, \
             f"Index generator failed: {result.stderr[-300:]}"
+        assert [p.read_bytes() for p in tracked] == before, "generator test rewrote committed web/ files"
+        built = json.loads((tmp_path / "race-index.json").read_text(encoding="utf-8"))
+        committed = json.loads((WEB_DIR / "race-index.json").read_text(encoding="utf-8"))
+        assert built["races"] == committed["races"], \
+            "web/race-index.json is stale: run python scripts/generate_race_index.py"
 
     def test_index_json_valid(self):
         index_file = WEB_DIR / "race-index.json"
