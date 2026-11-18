@@ -124,7 +124,7 @@ d["race"]["history"]["founded"]
 10. **Estonian spelling matters** — it's `tartu-maraton` not `tartu-marathon`.
 11. **Preflight regex can match its own source** — skip self when scanning for API key patterns.
 12. **Copy search files to output/search/ after any web/ changes** — the deploy reads from output/.
-12a. **The search script is cached for a year** — `web/nordic-lab-search.html` loads it as `nordic-lab-search.js?v=<sha256[:12]>`. After editing the JS run `python scripts/search_script_version.py`; tests, preflight and `deploy.py --sync-search` refuse a stale or missing version.
+12a. **The search script (1 year) and race index (180 days) are long-cached** — `web/nordic-lab-search.html` loads `nordic-lab-search.js?v=<sha256[:12]>` with `data-index-version="<sha256[:12] of race-index.json>"`, and the script fetches `race-index.json?v=<that>`. `generate_race_index.py` stamps the page; after editing the JS run `python scripts/search_script_version.py`. Tests, preflight, `deploy.py --sync-search` and `--sync-index` refuse a stale or missing version, and upload the index before the page.
 13. **YouTube `video_id` can be int from API** — always coerce to str.
 14. **Race page nav links**: `/search/` not `/nordic-lab-search.html` (production URL structure).
 15. **Git history**: check if secrets were committed before assuming removal is sufficient.
@@ -157,7 +157,7 @@ python scripts/qc_new_profiles.py --slug my-race --dry-run # schema only, no API
 ## Regeneration Commands
 ```bash
 # Full regeneration pipeline
-python scripts/generate_race_index.py          # web/race-index.json
+python scripts/generate_race_index.py          # web/race-index.json (+ stamps its hash into the search page)
 python scripts/generate_race_pages.py           # output/{slug}/index.html
 python scripts/generate_prep_kit.py             # output/{slug}/prep-kit/index.html (preflight requires one per profile)
 python scripts/generate_homepage.py             # output/index.html

@@ -83,6 +83,13 @@ def build_index():
 
     print(f"Generated race index: {len(races)} races → {output_path}")
 
+    # The search page fetches the index as race-index.json?v=<hash> (it is
+    # cached for 180 days), so stamp the new hash into the page now.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from search_script_version import index_version, stamp
+    stamp()
+    print(f"Search page now loads race-index.json?v={index_version()}")
+
     # Stats
     tiers = {}
     countries = set()

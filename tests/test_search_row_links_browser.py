@@ -59,3 +59,13 @@ def test_one_click_one_event_and_navigation(results):
         assert r["events"] == ["fixture-race-2"], (r["engine"], r["width"])
         assert r["navigated"], (r["engine"], r["width"])
         assert r["jsLoads"] == 1, (r["engine"], r["width"])
+
+
+def test_page_fetches_the_index_by_its_content_hash(results):
+    """The index is cached for 180 days; the page must fetch it as ?v=<hash> (#123)."""
+    import sys
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import search_script_version as ssv
+    want = [f"/search/race-index.json?v={ssv.index_version()}"]
+    for r in results:
+        assert r["indexUrls"] == want, (r["engine"], r["width"], r["indexUrls"])

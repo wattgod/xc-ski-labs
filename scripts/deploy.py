@@ -9,7 +9,7 @@ Usage:
     python deploy.py --sync-pages                 # race pages to /race/
     python deploy.py --sync-homepage               # homepage to site root
     python deploy.py --sync-search                 # search UI + index to /search/
-    python deploy.py --sync-index                  # race-index.json to /search/
+    python deploy.py --sync-index                  # race-index.json + search page to /search/
     python deploy.py --sync-sitemap                # sitemap to site root
     python deploy.py --sync-training               # training plans to /training-plans/
     python deploy.py --sync-coaching               # coaching page + intake form to /coaching/
@@ -325,8 +325,8 @@ def sync_search():
         return False
     host, user, port = ssh
 
-    # The script is served with a one-year max-age; never ship a page that
-    # loads it without its current content hash.
+    # The script (one year) and index (180 days) are long-cached; never ship
+    # a page that names either without its current content hash.
     problem = _search_script_version_problem()
     if problem:
         print(f"  REFUSING search deploy: {problem}")
@@ -388,22 +388,37 @@ def _search_script_version_problem():
 
 
 def sync_index():
-    """Upload just the race-index.json to /search/."""
+    """Upload race-index.json, then the search page that names it by hash, to /search/."""
     ssh = get_ssh_credentials()
     if not ssh:
         return False
     host, user, port = ssh
 
-    index_file = PROJECT_ROOT / "web" / "race-index.json"
-    if not index_file.exists():
-        print(f"  Index file not found: {index_file}")
+    # The index is cached for 180 days and fetched as race-index.json?v=<hash>;
+    # a new index only reaches returning visitors with a page naming its hash.
+    problem = _search_script_version_problem()
+    if problem:
+        print(f"  REFUSING index deploy: {problem}")
         return False
 
-    remote = f"{get_remote_base()}/search/race-index.json"
-    if _scp_upload(host, user, port, index_file, remote):
-        print(f"  Deployed race-index.json to /search/")
-        return True
-    return False
+    web_dir = PROJECT_ROOT / "web"
+    remote_search = f"{get_remote_base()}/search"
+    # Index first: the page must never name a hash the server can't serve yet.
+    files = [
+        (web_dir / "race-index.json", f"{remote_search}/race-index.json"),
+        (web_dir / "nordic-lab-search.html", f"{remote_search}/index.html"),
+    ]
+    missing = [local.name for local, _ in files if not local.exists()]
+    if missing:
+        print(f"  FAILED: missing {', '.join(missing)}; nothing uploaded")
+        return False
+
+    for done, (local, remote) in enumerate(files):
+        if not _scp_replace(host, user, port, local, remote):
+            print(f"  FAILED: stopped at {local.name} after {done}/{len(files)} files")
+            return False
+    print("  Deployed race-index.json and the search page that loads it to /search/")
+    return True
 
 
 def sync_sitemap():
@@ -1063,7 +1078,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--sync-index", action="store_true",
-        help="Upload race-index.json to /search/ via SCP"
+        help="Upload race-index.json, then the search page that names its hash, to /search/"
     )
     parser.add_argument(
         "--sync-sitemap", action="store_true",

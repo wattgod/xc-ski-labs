@@ -53,7 +53,12 @@ async function check(name, width) {
   page.setDefaultNavigationTimeout(10000);
   await route(page);
   let jsLoads = 0;
-  page.on("request", (q) => { if (new URL(q.url()).pathname === "/search/nordic-lab-search.js") jsLoads++; });
+  const indexUrls = [];
+  page.on("request", (q) => {
+    const u = new URL(q.url());
+    if (u.pathname === "/search/nordic-lab-search.js") jsLoads++;
+    if (u.pathname === "/search/race-index.json") indexUrls.push(u.pathname + u.search);
+  });
   await page.goto(ORIGIN + "/search/");
   await page.waitForSelector(".race-table tbody tr a.race-name");
 
@@ -114,6 +119,7 @@ async function check(name, width) {
   const events = await page.evaluate(() => window.__events.filter((e) => e[1] === "race_result_click").map((e) => e[2].race_slug));
 
   const firstLoadJs = jsLoads;
+  const firstIndexUrls = indexUrls.slice();
   // And a real click navigates to that race.
   await page.goto(ORIGIN + "/search/");
   await page.waitForSelector(".race-table tbody tr a.race-name");
@@ -123,7 +129,7 @@ async function check(name, width) {
   await Promise.all([page.waitForURL("**/race/fixture-race-3/", { timeout: 10000 }), page.mouse.click(box.x + box.width / 2, box.y + box.height / 2)]);
 
   await browser.close();
-  return { ...geo, reached, ring, nextIsRow2, events, jsLoads: firstLoadJs, navigated: true };
+  return { ...geo, reached, ring, nextIsRow2, events, jsLoads: firstLoadJs, indexUrls: firstIndexUrls, navigated: true };
 }
 
 (async () => {

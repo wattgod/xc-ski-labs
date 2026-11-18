@@ -6,6 +6,12 @@
 (function () {
   "use strict";
 
+  // The index is cached for 180 days, so the page names it by content hash
+  // (data-index-version on this script's tag, stamped by
+  // scripts/search_script_version.py). Without it there is no current URL
+  // to fetch, so the page reports the failure instead of loading a stale list.
+  const indexVersion = document.currentScript && document.currentScript.getAttribute("data-index-version");
+
   let allRaces = [];
   let activeFilter = "all";
   let activeCountry = "";
@@ -61,7 +67,9 @@
 
   async function init() {
     try {
-      const resp = await fetch("race-index.json");
+      if (!indexVersion) throw new Error("search page has no data-index-version");
+      const resp = await fetch("race-index.json?v=" + encodeURIComponent(indexVersion));
+      if (!resp.ok) throw new Error("race index HTTP " + resp.status);
       const data = await resp.json();
       allRaces = data.races;
       populateCountryFilter();
