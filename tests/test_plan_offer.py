@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -21,7 +22,12 @@ import pytest
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 WORDPRESS_DIR = PROJECT_ROOT / "wordpress"
 CATALOG = PROJECT_ROOT / "data" / "ski-event-catalog.json"
-PIPELINE = Path.home() / "athlete-custom-training-plan-pipeline"
+# XC_PIPELINE_DIR points at a pipeline checkout that isn't in the home folder.
+PIPELINE = Path(os.environ.get("XC_PIPELINE_DIR")
+                or Path.home() / "athlete-custom-training-plan-pipeline")
+FIXTURES = PROJECT_ROOT / "tests" / "fixtures"
+SCHEMA = json.loads((FIXTURES / "ski_intake_v2_schema.json").read_text(encoding="utf-8"))
+CHECKOUT_TERMS = json.loads((FIXTURES / "checkout_terms_text.json").read_text(encoding="utf-8"))
 
 sys.path.insert(0, str(WORDPRESS_DIR))
 import plan_offer  # noqa: E402
@@ -175,7 +181,7 @@ class TestQuestionnairePage:
         assert page_config["blockCents"] == 4999
         assert page_config["weekCents"] == 1250
         assert page_config["refusals"] == gq.REFUSALS
-        assert page_config["races"]["american-birkebeiner"] == "American Birkebeiner"
+        assert page_config["races"]["american-birkebeiner"]["n"] == "American Birkebeiner"
 
     def test_catalog_races_offered(self, questionnaire_html):
         catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
@@ -304,7 +310,7 @@ class TestSuccessAndTerms:
     def test_terms_name_the_plan_and_refund(self):
         import generate_terms
         terms = generate_terms.PLAN_TERMS
-        assert "$49.99 / four weeks" in terms
+        assert "$49.99 every 4 weeks" in terms
         assert "$12.50 a week" in terms  # the billing term lives here only
         assert plan_offer.stale_offer_phrases(f"<p>{terms}</p>") == []
         assert "14 days" in terms
@@ -338,6 +344,158 @@ class TestOtherPagesQuoteThePlan:
         html = generate_goals.generate_page()
         assert f"Ski Plan: {plan_offer.PRICE_TO_RACE}" in html
         assert plan_offer.stale_offer_phrases(html) == []
+
+
+
+def _scripts(page_html: str) -> str:
+    return "\n".join(re.findall(r"<script\b[^>]*>(.*?)</script>", page_html, re.S))
+
+
+class TestStorefrontContract:
+    """The storefront pieces of the XC launch checklist (rows 8-10): the form
+    against a pinned copy of the v2 schema, page hygiene, the headline ruling
+    and the terms against the checkout's own terms text."""
+
+    def test_intake_object_sends_every_schema_field(self):
+        js = gq.QUESTIONNAIRE_JS
+        body = js[js.index("var intake = {"):]
+        body = body[:body.index("};")]
+        sent = set(re.findall(r"^\s*([a-z_]+):", body, re.M))
+        assert sent == set(SCHEMA["fields"]), sorted(sent ^ set(SCHEMA["fields"]))
+        assert gq.SCHEMA_VERSION == SCHEMA["schema_version"]
+
+    @pytest.mark.parametrize("field", [
+        "level", "technique", "rollerski_experience", "running_tolerance", "hr_monitor",
+        "strength_history", "strength_access", "familiar_lifts", "injury_flags",
+        "fuel_practised_g_per_h", "fuel_practised_sessions", "heat_access",
+        "last_season_hours_basis", "ski_max_hr.mode", "ski_max_hr.source"])
+    def test_every_enum_value_can_be_answered(self, questionnaire_html, field):
+        for value in SCHEMA["enums"][field]:
+            assert f'value="{value}"' in questionnaire_html, (field, value)
+
+    def test_form_options_are_only_schema_values(self):
+        allowed = {
+            "LEVELS": "level", "TECHNIQUES": "technique", "LIFTS": "familiar_lifts",
+            "INJURIES": "injury_flags"}
+        for const, field in allowed.items():
+            values = {v for v, _ in getattr(gq, const)}
+            assert values == set(SCHEMA["enums"][field]), const
+        caps = {int(v) for v, _ in gq.DAY_CAP_OPTIONS}
+        assert caps == set(SCHEMA["enums"]["day_caps"])
+        gear = {v for v, _ in gq.GEAR} | {"running"}
+        assert gear == set(SCHEMA["enums"]["available_modalities"])
+
+    def test_bounds_match_the_schema(self, questionnaire_html):
+        b = SCHEMA["bounds"]
+        js = gq.QUESTIONNAIRE_JS
+        assert f"age < {b['age_years_min']}" in js
+        assert f"winters > {b['winters_on_snow'][1]}" in js
+        assert f"seasonHours > {b['last_season_hours'][1]}" in js
+        assert f"weekHours > {b['available_hours'][1]}" in js
+        assert f"km > {b['distance_km'][1]}" in js
+        assert f"bpm < {b['ski_max_hr.bpm'][0]} || bpm > {b['ski_max_hr.bpm'][1]}" in js
+        assert f"list.length > {b['b_races_max']}" in js
+
+    def test_honeypot_present_and_never_sent(self, questionnaire_html):
+        assert re.search(r'<input type="text" id="website" name="website" tabindex="-1" '
+                         r'autocomplete="off"', questionnaire_html)
+        assert 'class="gl-hp" aria-hidden="true"' in questionnaire_html
+        js = gq.QUESTIONNAIRE_JS
+        submit = js[js.index("form.addEventListener('submit'"):]
+        assert submit.index("el('website')") < submit.index("fetch(CFG.endpoint")
+        payload = submit[submit.index("var payload = {"):]
+        assert "website" not in payload[:payload.index("};")]
+
+    @pytest.mark.parametrize("page", ["questionnaire", "training_plans"])
+    def test_no_inline_handlers_or_innerhtml(self, request, page):
+        html = request.getfixturevalue(f"{page}_html")
+        assert not re.search(r"<[^>]+\son[a-z]+\s*=", html, re.I), "inline event handler"
+        js = _scripts(html)
+        if page == "questionnaire":
+            for sink in ("innerHTML", "outerHTML", "insertAdjacentHTML", "document.write"):
+                assert sink not in js, sink
+        else:
+            # The shared video loop control (scripts/xsl_loops.py) writes a
+            # fixed icon span; nothing data-derived reaches an HTML sink.
+            for m in re.finditer(r"innerHTML\s*=\s*([^;]*);", js):
+                rhs = re.sub(r"'[^']*'|\boff\b|[()?:+\s]", "", m.group(1))
+                assert rhs == "", m.group(0)
+
+    @pytest.mark.parametrize("page", ["questionnaire", "training_plans"])
+    def test_consent_snippet_and_no_purchase_event(self, request, page):
+        sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
+        from consent import get_consent_banner_html, get_ga4_head
+        html = request.getfixturevalue(f"{page}_html")
+        assert get_ga4_head().strip() in html
+        assert get_consent_banner_html().strip() in html
+        assert not re.search(r"""gtag\(\s*['"]event['"]\s*,\s*['"]purchase['"]""", html)
+
+    @pytest.mark.parametrize("page", ["questionnaire", "training_plans"])
+    def test_billing_words(self, request, page):
+        text = plan_offer.visible_text(request.getfixturevalue(f"{page}_html"))
+        assert not re.search(r"\bmonthly\b|/\s?mo\b|\bper month\b", text, re.I)
+        assert plan_offer.PRICE_LINE in text
+
+    def test_offer_strings_come_from_plan_offer(self, training_plans_html, questionnaire_html):
+        tp = plan_offer.visible_text(training_plans_html)
+        q = plan_offer.visible_text(questionnaire_html)
+        for line in (plan_offer.HEADLINE, plan_offer.FINE_PRINT) + plan_offer.INCLUDED:
+            assert line in tp, line
+        for line in (plan_offer.BLOCK_LINE, plan_offer.LAST_BLOCK_LINE, plan_offer.ENDS_LINE,
+                     plan_offer.CANCEL_LINE, plan_offer.REFUND_LINE) + plan_offer.FIT_LINES:
+            assert line in q, line
+        assert 'href="/questionnaire/" class="gl-cta-btn"' in training_plans_html
+
+    def test_headline_is_plain(self):
+        # Matti, 2026-11-15: one plain headline that says what it is; no
+        # comparison with something else's price, no value words.
+        h = plan_offer.HEADLINE
+        for phrase in ("less than", "cheaper", "price of", "wax", "value", "deal", "coaching",
+                       "a day", "honest"):
+            assert phrase not in h.lower(), phrase
+        assert "—" not in h and "!" not in h
+
+    def test_terms_repeat_the_checkout_terms(self):
+        import generate_terms
+        checkout = CHECKOUT_TERMS["text"].replace(
+            "{cancel_url}", "your plan page, xcskilabs.com/plan/manage")
+        assert generate_terms.PLAN_TERMS.endswith(checkout)
+        assert "paid by card" in generate_terms.PLAN_TERMS
+
+    def test_checkout_terms_copy_uses_plan_offer_numbers(self):
+        text = CHECKOUT_TERMS["text"]
+        assert f"{plan_offer.BLOCK_PRICE} every {plan_offer.BLOCK_WEEKS} weeks" in text
+        assert f"costs {plan_offer.WEEK_PRICE} a week" in text
+        assert f"within {plan_offer.REFUND_DAYS} days of your first payment" in text
+
+
+class TestRacePrefill:
+    TODAY = __import__("datetime").date(2026, 11, 22)
+
+    def test_single_values_fill_in(self):
+        row = {"s": "x", "n": "X Loppet", "ds": "2027: March 20", "d": 54, "do": ["54km"],
+               "di": "classic"}
+        assert gq.race_prefill(row, self.TODAY) == {
+            "n": "X Loppet", "dt": "2027-03-20", "km": 54, "te": "classic"}
+
+    @pytest.mark.parametrize("row", [
+        {"n": "A", "ds": "2027: April 2-3", "d": 50, "do": ["50km", "25km"], "di": "both"},
+        {"n": "A", "ds": "", "d": 120, "do": ["120km"], "di": "skiathlon"},
+        {"n": "A", "ds": "2026: February 1", "d": None, "do": [], "di": None},
+        {"n": "A", "ds": "2027: Smarch 3", "d": True, "do": [], "di": "both"},
+    ])
+    def test_unknowns_stay_blank(self, row):
+        assert gq.race_prefill(row, self.TODAY) == {"n": "A"}
+
+    def test_display_name_wins(self):
+        assert gq.race_prefill({"n": "a", "dn": "A Race"}, self.TODAY)["n"] == "A Race"
+
+    def test_prefill_js_fills_only_what_is_known(self):
+        js = gq.QUESTIONNAIRE_JS
+        for line in ("if (known.dt) el('race_date').value = known.dt;",
+                     "if (known.km) el('race_km').value = String(known.km);",
+                     "if (known.te) {"):
+            assert line in js, line
 
 
 @pytest.mark.skipif(not PIPELINE.exists(), reason="pipeline checkout not next to this repo")
@@ -396,3 +554,22 @@ class TestAgainstCheckoutServer:
         codes.discard("available_modalities")
         missing = sorted(c for c in codes if c not in gq.REFUSALS)
         assert not missing, missing
+
+    def test_schema_fixture_matches(self, ski_intake):
+        assert sorted(ski_intake.FIELDS) == SCHEMA["fields"]
+        e = SCHEMA["enums"]
+        assert list(ski_intake.LEVELS) == e["level"]
+        assert list(ski_intake.MODALITIES) == e["available_modalities"]
+        assert list(ski_intake.DAY_CAP_VALUES) == e["day_caps"]
+        assert list(ski_intake.APPROVED_LIFTS) == e["familiar_lifts"]
+        assert list(ski_intake.INJURY_CODES) == e["injury_flags"]
+        assert list(ski_intake.HEAT_ACCESS) == e["heat_access"]
+
+    def test_checkout_terms_fixture_matches(self):
+        sys.path.insert(0, str(PIPELINE / "webhook"))
+        try:
+            import race_plan_subscription as rp
+        except ImportError as exc:
+            pytest.skip(f"pipeline import failed: {exc}")
+        assert rp.TERMS_VERSION == CHECKOUT_TERMS["terms_version"]
+        assert rp.terms_text("{cancel_url}") == CHECKOUT_TERMS["text"]

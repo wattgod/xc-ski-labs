@@ -1,0 +1,5 @@
+{
+  "_source": "athlete-custom-training-plan-pipeline webhook/race_plan_subscription.py terms_text(cancel_url) at commit ce3e915bb493a7a73c9e83c9883a930c8fd43cc2, TERMS_VERSION race_plan_4weekly_terms/2026-11-17.1 (copied 2026-11-22). Shown above Stripe's pay button. {cancel_url} is the plan page.",
+  "terms_version": "race_plan_4weekly_terms/2026-11-17.1",
+  "text": "Billing. $49.99 every 4 weeks from the day you sign up, one payment per block. If your race isn't a whole number of 4-week blocks away, the last, shorter block costs $12.50 a week. Payments end after your race week. Cancel any time at {cancel_url}; you keep the block you've paid for. Refunds. Full refund within 14 days of your first payment; refunding it ends the plan. Adding another race to this plan later doesn't start a new 14-day window. Later payments aren't refunded, except where the law says otherwise."
+}
