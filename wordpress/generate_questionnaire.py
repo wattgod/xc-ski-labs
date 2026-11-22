@@ -789,6 +789,21 @@ fieldset.gl-field legend { padding: 0; }
 @media (max-width: 700px) {
   .gl-row { grid-template-columns: 1fr 1fr; }
 }
+/* Brand book: running text is never under 15px and people read it in
+   font-body; typed answers at 16px so phones don't zoom on focus. */
+input[type="text"], input[type="email"], input[type="number"], input[type="date"],
+input[type="month"], select {
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+.gl-hint, .gl-field-error, .gl-quote, .gl-terms, .gl-alert, .gl-notice {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+.gl-quote { font-size: 1rem; }
+.gl-submit-btn { min-height: 56px; }  /* brand book: buttons are 56px */
+.gl-section-body > .gl-conditional.visible { margin-bottom: 18px; }
 """
 
 
