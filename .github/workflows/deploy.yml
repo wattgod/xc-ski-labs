@@ -117,9 +117,20 @@ jobs:
           set -euo pipefail
           python scripts/deploy.py --sync-pages --sync-homepage --sync-index --sync-sitemap --purge-cache 2>&1 | tee deploy.log
           # deploy.py does not exit non-zero for every failed step: read its own words.
-          if grep -Eiq 'failed|not found|WARNING: expected' deploy.log; then
+          if grep -Eiq 'failed|not found' deploy.log; then
             echo "::error::deploy.py reported a problem; see the log above"
             exit 1
+          fi
+          # Fewer pages on the server than were sent is a partial upload. More is leftovers from
+          # retired races (the upload only adds files): worth a note, not a failed deploy.
+          counts=$(sed -n 's/.*WARNING: expected \([0-9]*\) index.html files on remote, found \([0-9]*\).*/\1 \2/p' deploy.log | head -n 1)
+          if [ -n "${counts}" ]; then
+            read -r expected found <<< "${counts}"
+            if [ "${found}" -lt "${expected}" ]; then
+              echo "::error::Partial upload: expected ${expected} pages on the server, found ${found}"
+              exit 1
+            fi
+            echo "::warning::The server has $((found - expected)) page(s) this build no longer makes"
           fi
 
       - name: Deploy the plan storefront
@@ -137,17 +148,24 @@ jobs:
         run: |
           set -euo pipefail
           sleep 20
-          fetch() { curl -fsS --max-time 30 -H 'Cache-Control: no-cache' "$1?cb=${GITHUB_RUN_ID}"; }
+          # Each page is saved first, then searched: piping curl into "grep -q" closes the pipe
+          # at the first match and curl reports that as a failure.
+          fetch() { curl -fsS --max-time 30 -H 'Cache-Control: no-cache' -o "$2" "$1?cb=${GITHUB_RUN_ID}"; }
           if [ "${TARGET}" = "race-pages" ]; then
             # The live race page must be the one this run built.
             want=$(grep -o '<p class="gl-capture-sub">[^<]*' output/american-birkebeiner/index.html)
-            fetch https://xcskilabs.com/race/american-birkebeiner/ | grep -qF "${want}"
-            fetch https://xcskilabs.com/ | grep -q 'id="statRaces"'
+            fetch https://xcskilabs.com/race/american-birkebeiner/ live-race.html
+            grep -qF "${want}" live-race.html
+            fetch https://xcskilabs.com/ live-home.html
+            grep -q 'id="statRaces"' live-home.html
           else
-            fetch https://xcskilabs.com/questionnaire/ | grep -q 'xc-skier-intake/v2'
+            fetch https://xcskilabs.com/questionnaire/ live-questionnaire.html
+            grep -q 'xc-skier-intake/v2' live-questionnaire.html
             want=$(python -c "import sys; sys.path.insert(0, 'wordpress'); import plan_offer; print(plan_offer.HEADLINE)")
-            fetch https://xcskilabs.com/training-plans/ | python -c "import html, sys; want = sys.argv[1]; page = html.unescape(sys.stdin.read()); sys.exit(0 if want in page else 1)" "${want}"
-            fetch https://xcskilabs.com/terms/ | grep -q 'every 4 weeks'
+            fetch https://xcskilabs.com/training-plans/ live-training.html
+            python -c "import html, sys; want = sys.argv[1]; page = html.unescape(open('live-training.html', encoding='utf-8').read()); sys.exit(0 if want in page else 1)" "${want}"
+            fetch https://xcskilabs.com/terms/ live-terms.html
+            grep -q 'every 4 weeks' live-terms.html
           fi
 
       - name: Remove the key
