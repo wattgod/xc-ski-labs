@@ -43,3 +43,7 @@ immune/scans.jsonl
 
 # Jev advisory audit reports (generated locally)
 data/jev/
+
+# Weekly re-check reports (scripts/recheck_official_sites.py)
+data/recheck/
+recheck/
