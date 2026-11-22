@@ -1,0 +1,73 @@
+name: Weekly Date Re-check (report only)
+
+# Re-reads organizer pages for races whose dated edition has passed, or that
+# have no dated edition, and opens an issue listing what differs from the
+# profiles: next edition date, cancellations, discipline and distance.
+#
+# Report only: this workflow never edits race-data/. Profile edits go through
+# scripts/qc_new_profiles.py as usual.
+#
+# Cost: about $0.002 per page with thinkingmachines/inkling-2-mini, so a
+# 40-page run is roughly $0.08.
+
+on:
+  schedule:
+    - cron: "23 13 * * 4"   # Thursdays 13:23 UTC
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum races to check"
+        required: false
+        default: "40"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: weekly-date-recheck
+  cancel-in-progress: false
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      LIMIT: ${{ inputs.limit || '40' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install requests
+      - name: Check the model key
+        run: |
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::error::OPENROUTER_API_KEY secret is not set"
+            exit 1
+          fi
+      - name: Re-check official sites
+        run: python3 scripts/recheck_official_sites.py --limit "$LIMIT" --out recheck
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recheck-report
+          path: recheck/
+          if-no-files-found: ignore
+          retention-days: 90
+      - name: Count findings
+        id: report
+        run: |
+          count=$(python3 -c "import json; print(sum(len(r.get('findings', [])) for r in json.load(open('recheck/recheck-report.json'))))")
+          echo "findings=$count" >> "$GITHUB_OUTPUT"
+      - name: Open an issue when something differs
+        if: steps.report.outputs.findings != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "Date re-check: ${{ steps.report.outputs.findings }} finding(s) against official sites" \
+            --body-file recheck/recheck-report.md
