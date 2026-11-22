@@ -1,0 +1,174 @@
+{
+  "_source": "athlete-custom-training-plan-pipeline athletes/scripts/ski_intake.py at commit ce3e915bb493a7a73c9e83c9883a930c8fd43cc2 (copied 2026-11-22). Re-copy when the schema changes; tests/test_plan_offer.py checks the form against this copy and, when the pipeline is checked out next to this repo, this copy against the pipeline.",
+  "schema_version": "xc-skier-intake/v2",
+  "fields": [
+    "age_years",
+    "athlete_id",
+    "available_hours",
+    "available_modalities",
+    "b_races",
+    "blocked_dates",
+    "day_caps",
+    "display_name",
+    "event_id",
+    "familiar_lifts",
+    "fuel_practised_g_per_h",
+    "fuel_practised_sessions",
+    "health_note",
+    "health_review",
+    "heat_access",
+    "heat_health_flag",
+    "hr_medicine",
+    "hr_monitor",
+    "injury_flags",
+    "last_race_on",
+    "last_season_hours",
+    "last_season_hours_basis",
+    "layoff",
+    "level",
+    "long_session_day",
+    "medicine_ball",
+    "own_event",
+    "plan_start",
+    "recent_illness",
+    "rest_day_swap",
+    "rest_days",
+    "rollerski_experience",
+    "rollerski_safe_route",
+    "running_tolerance",
+    "schema_version",
+    "ski_max_hr",
+    "snow_from",
+    "snow_until",
+    "strength_access",
+    "strength_history",
+    "technique",
+    "winters_on_snow"
+  ],
+  "enums": {
+    "level": [
+      "recreational",
+      "keen_racer",
+      "top_amateur"
+    ],
+    "technique": [
+      "classic",
+      "skate",
+      "skiathlon"
+    ],
+    "available_modalities": [
+      "rollerski_classic",
+      "rollerski_skate",
+      "ski_erg",
+      "running",
+      "cycling"
+    ],
+    "day_caps": [
+      0,
+      30,
+      45,
+      60,
+      90,
+      120,
+      150,
+      180,
+      240
+    ],
+    "rollerski_experience": [
+      "never",
+      "a_few_times",
+      "one_summer",
+      "several_summers"
+    ],
+    "running_tolerance": [
+      "any",
+      "short_easy_only",
+      "none"
+    ],
+    "hr_monitor": [
+      "chest_strap",
+      "wrist_only",
+      "none"
+    ],
+    "strength_history": [
+      "none",
+      "on_and_off",
+      "summer_regular"
+    ],
+    "strength_access": [
+      "gym",
+      "home_dumbbells",
+      "bodyweight_only"
+    ],
+    "familiar_lifts": [
+      "goblet_squat",
+      "romanian_deadlift",
+      "lat_pulldown",
+      "supported_split_squat",
+      "seated_row",
+      "dumbbell_bench_press"
+    ],
+    "injury_flags": [
+      "current_injury",
+      "deep_squat",
+      "single_leg_balance",
+      "push_up",
+      "hip",
+      "lower_back",
+      "shoulder"
+    ],
+    "fuel_practised_g_per_h": [
+      "under_30",
+      "30_60",
+      "60_90",
+      "90_120",
+      "never_counted"
+    ],
+    "fuel_practised_sessions": [
+      "0",
+      "1_2",
+      "3_plus"
+    ],
+    "heat_access": [
+      "sauna",
+      "hot_bath"
+    ],
+    "last_season_hours_basis": [
+      "logged",
+      "estimate"
+    ],
+    "ski_max_hr.mode": [
+      "classic",
+      "skate"
+    ],
+    "ski_max_hr.source": [
+      "test",
+      "race"
+    ]
+  },
+  "bounds": {
+    "age_years_min": 18,
+    "age_years_max": 100,
+    "winters_on_snow": [
+      1,
+      80
+    ],
+    "last_season_hours": [
+      0,
+      1500
+    ],
+    "available_hours": [
+      0,
+      40
+    ],
+    "distance_km": [
+      0,
+      90
+    ],
+    "ski_max_hr.bpm": [
+      120,
+      230
+    ],
+    "b_races_max": 10
+  }
+}

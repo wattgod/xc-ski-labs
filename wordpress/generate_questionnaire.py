@@ -22,7 +22,9 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 import sys
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -56,17 +58,57 @@ def load_tokens_css() -> str:
     return TOKENS_CSS.read_text(encoding="utf-8").strip()
 
 
-def load_race_slug_map(index_path: Path = RACE_INDEX) -> dict[str, str]:
-    """Load a compact slug-to-name map from web/race-index.json."""
+_MONTHS = {m: i for i, m in enumerate(
+    ("January", "February", "March", "April", "May", "June", "July", "August",
+     "September", "October", "November", "December"), start=1)}
+
+
+def _index_date(ds: Any, today: date) -> str | None:
+    """ISO date from the index's ``ds`` ("2027: February 27"), only for a
+    single day that is still ahead. Ranges ("April 2-3") and missing dates
+    stay unknown, so the skier fills them in."""
+    m = re.fullmatch(r"(\d{4}): ([A-Z][a-z]+) (\d{1,2})", str(ds or "").strip())
+    if not m or m.group(2) not in _MONTHS:
+        return None
+    try:
+        d = date(int(m.group(1)), _MONTHS[m.group(2)], int(m.group(3)))
+    except ValueError:
+        return None
+    return d.isoformat() if d >= today else None
+
+
+def race_prefill(race: dict[str, Any], today: date) -> dict[str, Any]:
+    """What a race page link can fill in for the skier, from the race's own
+    index row: name always; date, distance and technique only where the
+    profile states one unambiguous value the engine can take. A race with
+    several distances, "both" techniques or over 90 km leaves those blank."""
+    out: dict[str, Any] = {"n": str(race.get("dn") or race.get("n"))}
+    when = _index_date(race.get("ds"), today)
+    if when:
+        out["dt"] = when
+    km = race.get("d")
+    options = race.get("do") or []
+    if (isinstance(km, (int, float)) and not isinstance(km, bool)
+            and 0 < km <= plan_offer.MAX_DISTANCE_KM and len(options) <= 1):
+        out["km"] = km
+    if race.get("di") in ("classic", "skate"):
+        out["te"] = race["di"]
+    return out
+
+
+def load_race_slug_map(index_path: Path = RACE_INDEX,
+                       today: date | None = None) -> dict[str, dict[str, Any]]:
+    """Slug to prefill data (``race_prefill``) from web/race-index.json."""
     if not index_path.exists():
         return {}
+    today = today or date.today()
     data = json.loads(index_path.read_text(encoding="utf-8"))
-    slug_map: dict[str, str] = {}
+    slug_map: dict[str, dict[str, Any]] = {}
     for race in data.get("races", []):
         slug = race.get("s")
         name = race.get("dn") or race.get("n")
         if slug and name:
-            slug_map[str(slug)] = str(name)
+            slug_map[str(slug)] = race_prefill(race, today)
     return dict(sorted(slug_map.items()))
 
 
@@ -468,6 +510,10 @@ REFUSALS: dict[str, str] = {
         "Week 1 has to start this week or next week, and the start you picked no longer "
         f"fits. Pick your start week again and press the button once more. {NOT_CHARGED}"),
     "race_name_required": f"Tell me the name of your race. {NOT_CHARGED}",
+    # Only a listed test buyer can get this one (RACE_PLAN_TEST_BUYERS).
+    "test_coupon_unavailable": (
+        "The free test order isn't set up right now, so I couldn't take it. "
+        f"{NOT_CHARGED} Email me at {{contact}}."),
     "juniors_not_built": f"I only build these plans for skiers 18 and older. {NOT_CHARGED}",
     "first_season_not_built": (
         "I build these plans for skiers with at least one full winter on skis, so I can't "
@@ -582,6 +628,7 @@ def _short_date(iso: str) -> str:
 
 EXTRA_CSS = """
 [hidden] { display: none !important; }
+.gl-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .gl-section-header h2 { margin: 0; }
 input[type="month"] {
   width: 100%;
@@ -1007,6 +1054,10 @@ def build_form(catalog: dict[str, Any]) -> str:
       <h2 class="gl-section-title">Your plan and payment</h2>
     </div>
     <div class="gl-section-body">
+      <div class="gl-hp" aria-hidden="true">
+        <label for="website">Leave this empty</label>
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" value="">
+      </div>
       {input_field("email", "What email should I send your plan to?",
         '<input id="email" name="email" type="email" maxlength="254" autocomplete="email">')}
       <div class="gl-quote" id="quote" aria-live="polite">Pick your race and when week 1 starts to see your plan.</div>
@@ -1140,11 +1191,28 @@ QUESTIONNAIRE_JS = r"""
     return isFinite(n) ? n : null;
   }
 
-  // ── Repeating rows: other races and blocked dates ──
+  // ── Repeating rows: other races and blocked dates (built as DOM nodes, never HTML strings) ──
+  function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+  function make(tag, attrs, label) {
+    var n = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function(k) { n.setAttribute(k, attrs[k]); });
+    if (label) n.textContent = label;
+    return n;
+  }
+  function cell(label, control) {
+    var wrap = make('div');
+    wrap.appendChild(make('label', {}, label));
+    if (!control.hasAttribute('aria-label')) control.setAttribute('aria-label', label);
+    wrap.appendChild(control);
+    return wrap;
+  }
   function techniqueSelect() {
-    return '<select data-k="technique"><option value="">Pick</option>' +
-      '<option value="classic">Classic</option><option value="skate">Skate</option>' +
-      '<option value="skiathlon">Skiathlon</option></select>';
+    var sel = make('select', { 'data-k': 'technique' });
+    [['', 'Pick'], ['classic', 'Classic'], ['skate', 'Skate'], ['skiathlon', 'Skiathlon']].forEach(function(o) {
+      var opt = make('option', { value: o[0] }, o[1]);
+      sel.appendChild(opt);
+    });
+    return sel;
   }
   function addRow(containerId, kind, values) {
     var box = el(containerId);
@@ -1152,15 +1220,13 @@ QUESTIONNAIRE_JS = r"""
     if (kind === 'race' && box.children.length >= 10) return;
     var row = document.createElement('div');
     row.className = 'gl-row' + (kind === 'date' ? ' gl-row--date' : '');
+    row.appendChild(cell('Date', make('input', { type: 'date', 'data-k': 'date' })));
     if (kind === 'race') {
-      row.innerHTML = '<div><label>Date</label><input type="date" data-k="date"></div>' +
-        '<div><label>Km</label><input type="number" min="0.1" max="90" step="0.1" data-k="distance_km"></div>' +
-        '<div><label>Technique</label>' + techniqueSelect() + '</div>' +
-        '<button type="button" class="gl-link-btn" data-remove>Remove</button>';
-    } else {
-      row.innerHTML = '<div><label>Date</label><input type="date" data-k="date"></div>' +
-        '<button type="button" class="gl-link-btn" data-remove>Remove</button>';
+      row.appendChild(cell('Km', make('input', { type: 'number', min: '0.1', max: '90', step: '0.1',
+        inputmode: 'decimal', 'data-k': 'distance_km' })));
+      row.appendChild(cell('Technique', techniqueSelect()));
     }
+    row.appendChild(make('button', { type: 'button', 'class': 'gl-link-btn', 'data-remove': '' }, 'Remove'));
     if (values) {
       Array.prototype.forEach.call(row.querySelectorAll('[data-k]'), function(f) {
         var v = values[f.getAttribute('data-k')];
@@ -1217,7 +1283,8 @@ QUESTIONNAIRE_JS = r"""
     var c = caps();
     var longSel = el('long_session_day');
     var current = longSel.value;
-    longSel.innerHTML = '<option value="">Pick a day</option>';
+    clear(longSel);
+    longSel.appendChild(make('option', { value: '' }, 'Pick a day'));
     for (var i = 0; i < 7; i++) {
       if (c[i] && c[i] !== '0') {
         var o = document.createElement('option');
@@ -1558,7 +1625,7 @@ QUESTIONNAIRE_JS = r"""
     return first;
   }
   function showAlert(title, message, saved, kind) {
-    alertBox.innerHTML = '';
+    clear(alertBox);
     alertBox.setAttribute('data-kind', kind || 'refusal');
     var t = document.createElement('p');
     t.className = 'gl-alert-title';
@@ -1609,7 +1676,7 @@ QUESTIONNAIRE_JS = r"""
   function snapshot() {
     var data = { fields: {}, bRaces: rows('bRaces'), blocked: rows('blockedRows') };
     Array.prototype.forEach.call(form.elements, function(f) {
-      if (!f.name) return;
+      if (!f.name || f.name === 'website') return;
       if (f.type === 'checkbox') {
         if (!data.fields[f.name]) data.fields[f.name] = [];
         if (f.checked) data.fields[f.name].push(f.value);
@@ -1638,7 +1705,7 @@ QUESTIONNAIRE_JS = r"""
     }
     refreshWeek();
     Array.prototype.forEach.call(form.elements, function(f) {
-      if (!f.name || !(f.name in data.fields)) return;
+      if (!f.name || f.name === 'website' || !(f.name in data.fields)) return;
       var v = data.fields[f.name];
       if (f.type === 'checkbox') f.checked = Array.isArray(v) && v.indexOf(f.value) !== -1;
       else if (f.type === 'radio') f.checked = v === f.value;
@@ -1660,12 +1727,25 @@ QUESTIONNAIRE_JS = r"""
   if (!/^[a-z0-9-]{1,80}$/.test(raceSlug) || !races[raceSlug]) raceSlug = '';
   if (!goalsMode || storageKey) restore();
   var raceInput = el('race_name');
-  if (raceSlug && !raceInput.value) {
-    var listed = CFG.catalog.events.some(function(e) { return e.site_slug === raceSlug && catalog[e.event_id]; });
-    if (!listed) {
-      raceInput.value = races[raceSlug];
+  if (raceSlug && !raceInput.value && !radio('race_choice')) {
+    // A verified race is picked from the list (one technique: picked for the
+    // skier; two: the skier picks). Anything else goes in "My race isn't
+    // listed" with what the race's profile states; unknowns stay blank.
+    var listed = CFG.catalog.events.filter(function(e) { return e.site_slug === raceSlug && catalog[e.event_id]; });
+    if (listed.length === 1) {
+      var pickIt = form.querySelector('input[name="race_choice"][value="' + listed[0].event_id + '"]');
+      if (pickIt) pickIt.checked = true;
+    } else if (!listed.length) {
+      var known = races[raceSlug];
+      raceInput.value = known.n;
+      if (known.dt) el('race_date').value = known.dt;
+      if (known.km) el('race_km').value = String(known.km);
+      if (known.te) {
+        var tech = form.querySelector('input[name="race_technique"][value="' + known.te + '"]');
+        if (tech) tech.checked = true;
+      }
       var own = form.querySelector('input[name="race_choice"][value="own"]');
-      if (own && !radio('race_choice')) own.checked = true;
+      if (own) own.checked = true;
     }
   }
   var reviewEmail = '', hashedRef = '';
@@ -1698,6 +1778,10 @@ QUESTIONNAIRE_JS = r"""
     ev.preventDefault();
     if (busy) return;
     clearErrors();
+    // Honeypot: a person never sees this field. A filled one is a bot, so
+    // nothing is sent and no checkout is made.
+    var hp = el('website');
+    if (hp && hp.value) { showAlert('Check your answers', CFG.summaryError, false, 'check'); return; }
     var c = collect();
     if (c.errors.length) {
       var first = markErrors(c.errors);
@@ -1746,7 +1830,7 @@ QUESTIONNAIRE_JS = r"""
           return;
         }
         // The server's numbers differ from the ones shown: show them first.
-        alertBox.innerHTML = '';
+        clear(alertBox);
         alertBox.setAttribute('data-kind', 'payments');
         var t = document.createElement('p');
         t.className = 'gl-alert-title';

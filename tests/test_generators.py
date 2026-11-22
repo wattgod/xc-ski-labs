@@ -460,9 +460,9 @@ class TestQuestionnaireGenerator:
 
     def test_race_slug_map_prefills_the_race_name(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
-        assert '"vasaloppet":"Vasaloppet"' in html
+        assert '"vasaloppet":{"n":"Vasaloppet"' in html
         assert "params.get('race')" in html
-        assert "raceInput.value = races[raceSlug]" in html
+        assert "raceInput.value = known.n;" in html
 
     def test_embedded_slug_map_is_script_safe(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
@@ -511,12 +511,13 @@ class TestQuestionnaireGenerator:
 
     def test_no_free_text_beyond_name_race_and_email(self, tmp_path):
         """The engine intake carries no free text: the only text boxes are the
-        skier's name, an unlisted race's name and the email."""
+        skier's name, an unlisted race's name and the email, plus the
+        honeypot, which is never sent."""
         html = self._generate_with_fixture(tmp_path)
         assert "<textarea" not in html
         text_inputs = re.findall(r'<input[^>]*type="(?:text|email)"[^>]*>', html)
         names = sorted(re.search(r'name="([^"]+)"', i).group(1) for i in text_inputs)
-        assert names == ["display_name", "email", "race_name"]
+        assert names == ["display_name", "email", "race_name", "website"]
 
     def test_health_questions_sit_behind_the_privacy_notice(self, tmp_path):
         html = self._generate_with_fixture(tmp_path)
