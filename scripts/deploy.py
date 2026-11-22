@@ -38,7 +38,9 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 SSH_KEY = Path.home() / ".ssh" / "xcskilabs_key"
-NON_RACE_OUTPUT_DIRS = {"about", "weekly", "coaching", "coaching-exit", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
+# Every generated folder in output/ that is not a race page. A folder missing from this set is
+# uploaded to /race/<name>/ as if it were a race: "consulting" and "course" were, until 2026-11-22.
+NON_RACE_OUTPUT_DIRS = {"about", "weekly", "coaching", "coaching-exit", "consulting", "course", "feed", "goals", "guide", "methodology", "privacy", "questionnaire", "search", "terms", "thanks", "training-plans"}
 SITE_URL = "https://xcskilabs.com"
 
 

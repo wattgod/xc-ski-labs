@@ -14,6 +14,8 @@ name: Deploy xcskilabs.com
 # The host key is pinned on purpose: the job never accepts an unknown host.
 # Run "check" first after setting or changing the secrets: it builds, runs preflight and
 # proves the SSH login, and changes nothing on the site.
+# "list-leftover-race-pages" names the pages under /race/ this build no longer makes (the
+# upload only adds files); "remove-leftover-race-pages" deletes exactly those.
 
 on:
   workflow_dispatch:
@@ -27,6 +29,8 @@ on:
           - check
           - race-pages
           - plan-storefront
+          - list-leftover-race-pages
+          - remove-leftover-race-pages
 
 concurrency:
   group: deploy-xcskilabs
@@ -143,8 +147,19 @@ jobs:
             exit 1
           fi
 
+      - name: List leftover race pages on the server
+        if: inputs.target == 'list-leftover-race-pages'
+        run: python scripts/stale_race_pages.py
+
+      - name: Remove leftover race pages from the server
+        if: inputs.target == 'remove-leftover-race-pages'
+        run: |
+          set -euo pipefail
+          python scripts/stale_race_pages.py --remove
+          python scripts/deploy.py --purge-cache
+
       - name: Check the live site
-        if: inputs.target != 'check'
+        if: inputs.target == 'race-pages' || inputs.target == 'plan-storefront'
         run: |
           set -euo pipefail
           sleep 20
