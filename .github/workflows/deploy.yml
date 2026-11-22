@@ -1,0 +1,155 @@
+name: Deploy xcskilabs.com
+
+# Manual only. Builds the chosen pages from main, runs preflight, uploads them with
+# scripts/deploy.py over SSH and purges the SiteGround cache. This is the way to change
+# the live site from a session that has no SSH key of its own (a cloud session, CI).
+#
+# Repository secrets it needs (Settings -> Secrets and variables -> Actions):
+#   XCSKILABS_SSH_KEY      the private deploy key (the file ~/.ssh/xcskilabs_key)
+#   XCSKILABS_KNOWN_HOSTS  the server's host key line(s) for [ssh.xcskilabs.com]:18765
+#   GL_SSH_HOST            ssh.xcskilabs.com
+#   GL_SSH_USER            the SiteGround SSH user
+#   GL_SSH_PORT            18765 (optional; deploy.py defaults to it)
+#
+# The host key is pinned on purpose: the job never accepts an unknown host.
+# Run "check" first after setting or changing the secrets: it builds, runs preflight and
+# proves the SSH login, and changes nothing on the site.
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "What to deploy"
+        required: true
+        type: choice
+        default: check
+        options:
+          - check
+          - race-pages
+          - plan-storefront
+
+concurrency:
+  group: deploy-xcskilabs
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: github.ref == 'refs/heads/main'
+    env:
+      TARGET: ${{ inputs.target }}
+      GL_SSH_HOST: ${{ secrets.GL_SSH_HOST }}
+      GL_SSH_USER: ${{ secrets.GL_SSH_USER }}
+      GL_SSH_PORT: ${{ secrets.GL_SSH_PORT }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install python-dotenv requests Pillow
+
+      - name: Require the deploy secrets
+        env:
+          SSH_KEY: ${{ secrets.XCSKILABS_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.XCSKILABS_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          missing=""
+          [ -n "${SSH_KEY}" ] || missing="${missing} XCSKILABS_SSH_KEY"
+          [ -n "${KNOWN_HOSTS}" ] || missing="${missing} XCSKILABS_KNOWN_HOSTS"
+          [ -n "${GL_SSH_HOST}" ] || missing="${missing} GL_SSH_HOST"
+          [ -n "${GL_SSH_USER}" ] || missing="${missing} GL_SSH_USER"
+          if [ -n "${missing}" ]; then
+            echo "::error::Missing repository secrets:${missing}"
+            exit 1
+          fi
+
+      - name: Install the deploy key and the pinned host key
+        env:
+          SSH_KEY: ${{ secrets.XCSKILABS_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.XCSKILABS_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "${SSH_KEY}" > ~/.ssh/xcskilabs_key
+          chmod 600 ~/.ssh/xcskilabs_key
+          printf '%s\n' "${KNOWN_HOSTS}" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+          # Never prompt, never trust a host that is not pinned above.
+          printf 'Host *\n  BatchMode yes\n  StrictHostKeyChecking yes\n  IdentitiesOnly yes\n' > ~/.ssh/config
+          chmod 600 ~/.ssh/config
+
+      - name: Build
+        run: |
+          set -euo pipefail
+          python scripts/generate_race_index.py
+          python scripts/generate_race_pages.py
+          python scripts/generate_prep_kit.py
+          python scripts/generate_homepage.py
+          python scripts/generate_sitemap.py
+          mkdir -p output/search
+          cp web/nordic-lab-search.html output/search/index.html
+          cp web/nordic-lab-search.js output/search/
+          cp web/race-index.json output/search/
+          python wordpress/generate_training_plans.py
+          python wordpress/generate_success.py
+          python wordpress/generate_questionnaire.py
+          python wordpress/generate_terms.py
+
+      - name: Preflight
+        run: python scripts/preflight.py
+
+      - name: Prove the SSH login
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/xcskilabs_key -p "${GL_SSH_PORT:-18765}" "${GL_SSH_USER}@${GL_SSH_HOST}" 'echo login-ok' | grep -q login-ok
+
+      - name: Deploy race pages
+        if: inputs.target == 'race-pages'
+        run: |
+          set -euo pipefail
+          python scripts/deploy.py --sync-pages --sync-homepage --sync-index --sync-sitemap --purge-cache 2>&1 | tee deploy.log
+          # deploy.py does not exit non-zero for every failed step: read its own words.
+          if grep -Eiq 'failed|not found|WARNING: expected' deploy.log; then
+            echo "::error::deploy.py reported a problem; see the log above"
+            exit 1
+          fi
+
+      - name: Deploy the plan storefront
+        if: inputs.target == 'plan-storefront'
+        run: |
+          set -euo pipefail
+          python scripts/deploy.py --sync-training --sync-questionnaire --sync-terms --purge-cache 2>&1 | tee deploy.log
+          if grep -Eiq 'failed|not found' deploy.log; then
+            echo "::error::deploy.py reported a problem; see the log above"
+            exit 1
+          fi
+
+      - name: Check the live site
+        if: inputs.target != 'check'
+        run: |
+          set -euo pipefail
+          sleep 20
+          fetch() { curl -fsS --max-time 30 -H 'Cache-Control: no-cache' "$1?cb=${GITHUB_RUN_ID}"; }
+          if [ "${TARGET}" = "race-pages" ]; then
+            # The live race page must be the one this run built.
+            want=$(grep -o '<p class="gl-capture-sub">[^<]*' output/american-birkebeiner/index.html)
+            fetch https://xcskilabs.com/race/american-birkebeiner/ | grep -qF "${want}"
+            fetch https://xcskilabs.com/ | grep -q 'id="statRaces"'
+          else
+            fetch https://xcskilabs.com/questionnaire/ | grep -q 'xc-skier-intake/v2'
+            want=$(python -c "import sys; sys.path.insert(0, 'wordpress'); import plan_offer; print(plan_offer.HEADLINE)")
+            fetch https://xcskilabs.com/training-plans/ | python -c "import html, sys; want = sys.argv[1]; page = html.unescape(sys.stdin.read()); sys.exit(0 if want in page else 1)" "${want}"
+            fetch https://xcskilabs.com/terms/ | grep -q 'every 4 weeks'
+          fi
+
+      - name: Remove the key
+        if: always()
+        run: rm -f ~/.ssh/xcskilabs_key
