@@ -146,6 +146,15 @@ class TestGoalCardDeploySurfacing:
         deploy = _load_module("deploy_for_goals_test", SCRIPTS_DIR / "deploy.py")
         assert "goals" in deploy.NON_RACE_OUTPUT_DIRS
 
+    def test_no_site_page_folder_is_uploaded_as_a_race(self):
+        """Every folder a page generator writes under output/ is either a race slug or listed as
+        not a race. One that is neither goes to /race/<name>/ with the race pages."""
+        deploy = _load_module("deploy_for_race_folder_test", SCRIPTS_DIR / "deploy.py")
+        race_slugs = {p.stem for p in (PROJECT_ROOT / "race-data").glob("*.json") if not p.name.startswith("_")}
+        for name in ("consulting", "course", "coaching", "training-plans", "questionnaire", "terms"):
+            assert name not in race_slugs
+            assert name in deploy.NON_RACE_OUTPUT_DIRS, name
+
     def test_deploy_has_a_sync_goals_step(self):
         deploy = _load_module("deploy_for_goals_test2", SCRIPTS_DIR / "deploy.py")
         assert hasattr(deploy, "sync_goals")
