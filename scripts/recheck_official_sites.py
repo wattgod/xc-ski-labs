@@ -13,7 +13,7 @@ and a contested finding needs a second source (CLAUDE.md pitfalls 16 and 27).
 
 Usage:
   python scripts/recheck_official_sites.py --dry-run            # list targets
-  python scripts/recheck_official_sites.py --limit 40           # weekly run
+  python scripts/recheck_official_sites.py --limit 40           # this week's 40; the window moves weekly
   python scripts/recheck_official_sites.py --slug vasaloppet --all
   python scripts/recheck_official_sites.py --limit 40 --out recheck
 
@@ -108,15 +108,21 @@ _MONTH_WORDS = {
 
 
 def date_is_on_page(html: str, iso_date) -> bool:
-    """True when the page itself shows this day, month and year together.
+    """True when the page itself shows this day, month and year as one date.
 
     A model can project last year's date forward and return a plausible date
     the organizer never published. Only a date written on the page is kept.
+    The year must belong to the date: "7 March 2026. See you in 2027!" does
+    not show 7 March 2027.
     """
     m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", str(iso_date or "").strip())
     if not m or not html:
         return False
     year, month, day = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    try:
+        date(year, month, day)
+    except ValueError:
+        return False
     text = re.sub(r"<[^>]+>", " ", html).lower()
     text = re.sub(r"\s+", " ", text)
 
@@ -134,8 +140,14 @@ def date_is_on_page(html: str, iso_date) -> bool:
     day_first = rf"(?<!\d){d}(?:st|nd|rd|th|er|\.|º)?(?:\s(?:and|et|e|y|und|en|[-–&])\s?\d{{1,2}})?\s(?:de\s|of\s)?(?:{words})\b"
     month_first = rf"\b(?:{words})\.?\s(?:\d{{1,2}}(?:st|nd|rd|th)?\s?(?:and|[-–&,])\s?)?{d}(?!\d)"
     for match in re.finditer(rf"{day_first}|{month_first}", text):
-        window = text[max(0, match.start() - 40): match.end() + 40]
-        if str(year) in window:
+        # The first year written after the date (or the one right before it) is the date's year.
+        after = re.search(r"(?<!\d)(\d{4})(?!\d)", text[match.end(): match.end() + 16])
+        if after:
+            if int(after.group(1)) == year:
+                return True
+            continue
+        before = re.search(r"(?<!\d)(\d{4})\W{1,3}$", text[max(0, match.start() - 8): match.start()])
+        if before and int(before.group(1)) == year:
             return True
     return False
 
@@ -187,9 +199,39 @@ def load_targets(slug: str | None = None, include_fresh: bool = False,
     return sorted(targets, key=order)
 
 
+def weekly_batch(targets: list[dict], limit: int, today: date | None = None) -> list[dict]:
+    """This week's slice of the targets.
+
+    A fixed "first N" would re-check the same races every week and never reach
+    the rest, because a page with nothing new keeps its place. The window moves
+    by `limit` each ISO week and wraps, so every target is reached in turn.
+    """
+    if limit <= 0 or not targets:
+        return []
+    if limit >= len(targets):
+        return list(targets)
+    year, week, _ = (today or date.today()).isocalendar()
+    start = ((year * 53 + week) * limit) % len(targets)
+    return [targets[(start + i) % len(targets)] for i in range(limit)]
+
+
 # ---------------------------------------------------------------------------
 # Fetch and extract
 # ---------------------------------------------------------------------------
+
+def _is_public_https(url: str) -> bool:
+    """HTTPS to a named public host: not an IP address, localhost or a bare name."""
+    from urllib.parse import urlsplit
+
+    try:
+        parts = urlsplit(url)
+        host = (parts.hostname or "").lower()
+    except ValueError:
+        return False
+    if parts.scheme != "https" or "." not in host or host.endswith((".local", ".internal", ".localhost")):
+        return False
+    return not re.fullmatch(r"[\d.]+", host) and ":" not in host
+
 
 def fetch_page(url: str) -> tuple[str | None, str | None]:
     """(html, None) on success, (None, reason) when the page cannot be read."""
@@ -202,6 +244,9 @@ def fetch_page(url: str) -> tuple[str | None, str | None]:
         return None, type(e).__name__
     if response.status_code != 200:
         return None, f"http_{response.status_code}"
+    # The profile URL is HTTPS; a redirect must not lead anywhere else.
+    if not _is_public_https(response.url):
+        return None, "redirected_off_public_https"
     if len(response.text) < 500:
         return None, "page_too_short"
     return response.text, None
@@ -251,6 +296,41 @@ def parse_json_reply(text: str) -> dict:
     return json.loads(text.strip())
 
 
+_ENUMS = {
+    "event_status": {"scheduled", "cancelled", "postponed"},
+    "discipline": {"classic", "skate", "both"},
+    "registration_status": {"open", "closed", "sold_out", "lottery", "coming_soon"},
+}
+
+
+def _clean_facts(raw: dict) -> dict:
+    """Keep only fields of the expected shape; the reply is model output built from a web page.
+
+    Dates must be real calendar dates in YYYY-MM-DD. Enumerated fields must be
+    one of their values. Free text is cut to a short plain string. Anything
+    else becomes None, so a malformed reply can never crash the batch or carry
+    page text into a report.
+    """
+    facts = {}
+    for field in DATE_FIELDS:
+        value = str(raw.get(field) or "").strip()
+        try:
+            facts[field] = date.fromisoformat(value).isoformat() if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value) else None
+        except ValueError:
+            facts[field] = None
+    for field, allowed in _ENUMS.items():
+        value = str(raw.get(field) or "").strip().lower()
+        facts[field] = value if value in allowed else None
+    distances = raw.get("distances_km")
+    if isinstance(distances, (int, float)) and not isinstance(distances, bool):
+        distances = [distances]
+    facts["distances_km"] = [d for d in distances if isinstance(d, (int, float))
+                             and not isinstance(d, bool) and 0 < d < 1000] if isinstance(distances, list) else []
+    fee = raw.get("entry_fee")
+    facts["entry_fee"] = (re.sub(r"[^\w\s.,:/€$£+()-]", "", str(fee))[:60].strip() or None) if fee else None
+    return facts
+
+
 def extract_facts(html: str, target: dict, today: date | None = None) -> dict:
     """Facts from one page, or {"error": ...}.
 
@@ -269,11 +349,19 @@ def extract_facts(html: str, target: dict, today: date | None = None) -> dict:
     if not isinstance(facts, dict) or not facts:
         return {"error": "extraction did not return a JSON object with fields"}
 
+    facts = _clean_facts(facts)
+    today = today or date.today()
+
     unverified = {}
     for field in DATE_FIELDS:
         claimed = facts.get(field)
-        if claimed and not date_is_on_page(html, claimed):
+        if not claimed:
+            continue
+        if not date_is_on_page(html, claimed):
             unverified[field] = claimed
+            facts[field] = None
+        elif field == "next_edition_date" and date.fromisoformat(claimed) < today:
+            # A past edition on an archive page is on the page but is not the next edition.
             facts[field] = None
     if unverified:
         facts["unverified_dates"] = unverified
@@ -365,12 +453,17 @@ def recheck(target: dict, today: date | None = None) -> dict:
     if html is None:
         result["error"] = f"fetch: {reason}"
         return result
-    facts = extract_facts(html, target, today)
-    if "error" in facts:
-        result["error"] = f"extract: {facts['error']}"
+    try:
+        facts = extract_facts(html, target, today)
+        if "error" in facts:
+            result["error"] = f"extract: {facts['error']}"
+            return result
+        findings = compare(target, facts)
+    except Exception as e:  # one bad page must not lose the rest of the batch
+        result["error"] = f"recheck: {type(e).__name__}"
         return result
     result["facts"] = facts
-    result["findings"] = compare(target, facts)
+    result["findings"] = findings
     return result
 
 
@@ -387,7 +480,7 @@ def main() -> int:
     targets = load_targets(slug=args.slug, include_fresh=args.all)
     dated = sum(1 for t in targets if t["has_date"])
     print(f"{len(targets)} target(s): {dated} with a passed date, {len(targets) - dated} with no dated edition")
-    targets = targets[:max(0, args.limit)]
+    targets = weekly_batch(targets, args.limit)
 
     if args.dry_run:
         for t in targets:

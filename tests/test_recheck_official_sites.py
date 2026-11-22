@@ -217,6 +217,75 @@ class TestDateIsOnPage:
     def test_wrong_year_is_rejected(self):
         assert not recheck.date_is_on_page("March 7, 2026", "2027-03-07")
 
+    def test_year_must_belong_to_the_date(self):
+        assert not recheck.date_is_on_page("Race day was 7 March 2026. See you in 2027!", "2027-03-07")
+        assert recheck.date_is_on_page("Race day was 7 March 2026. See you in 2027!", "2026-03-07")
+        assert recheck.date_is_on_page("2027: March 7", "2027-03-07")
+        assert recheck.date_is_on_page("Departure on June 5 and 6, 2027", "2027-06-05")
+
+    def test_impossible_date_is_rejected_not_raised(self):
+        assert not recheck.date_is_on_page("13/13/2027", "2027-13-01")
+        assert not recheck.date_is_on_page("31 February 2027", "2027-02-31")
+
+
+class TestWeeklyBatch:
+    TARGETS = [{"slug": f"r{i}"} for i in range(10)]
+
+    def test_every_target_is_reached_within_a_cycle(self):
+        from datetime import timedelta
+        seen = set()
+        for week in range(4):
+            batch = recheck.weekly_batch(self.TARGETS, 3, TODAY + timedelta(weeks=week))
+            assert len(batch) == 3
+            seen.update(t["slug"] for t in batch)
+        assert len(seen) == 10
+
+    def test_consecutive_weeks_differ(self):
+        from datetime import timedelta
+        a = recheck.weekly_batch(self.TARGETS, 3, TODAY)
+        b = recheck.weekly_batch(self.TARGETS, 3, TODAY + timedelta(weeks=1))
+        assert a != b
+
+    def test_limit_covering_everything_returns_everything(self):
+        assert recheck.weekly_batch(self.TARGETS, 40, TODAY) == self.TARGETS
+        assert recheck.weekly_batch(self.TARGETS, 0, TODAY) == []
+        assert recheck.weekly_batch([], 5, TODAY) == []
+
+
+class TestCleanFacts:
+    def test_malformed_fields_become_empty(self):
+        facts = recheck._clean_facts({
+            "next_edition_date": "2027-13-01", "registration_opens": "soon",
+            "event_status": "CANCELLED", "discipline": "nordic",
+            "distances_km": 42, "entry_fee": "€50 <script>alert(1)</script> [x](http://evil)",
+            "anything_else": "| injected | table |",
+        })
+        assert facts["next_edition_date"] is None and facts["registration_opens"] is None
+        assert facts["event_status"] == "cancelled" and facts["discipline"] is None
+        assert facts["distances_km"] == [42]
+        assert "<" not in facts["entry_fee"] and "[" not in facts["entry_fee"] and len(facts["entry_fee"]) <= 60
+        assert "anything_else" not in facts
+
+    def test_distances_drop_junk(self):
+        assert recheck._clean_facts({"distances_km": [50, "90", True, -3, 5000]})["distances_km"] == [50]
+        assert recheck._clean_facts({"distances_km": "many"})["distances_km"] == []
+
+
+class TestFetchSafety:
+    def test_public_https_only(self):
+        assert recheck._is_public_https("https://www.vasaloppet.se/en/")
+        for bad in ("http://www.vasaloppet.se", "https://127.0.0.1/", "https://localhost/",
+                    "https://intranet/", "https://box.internal/x", "https://[::1]/"):
+            assert not recheck._is_public_https(bad), bad
+
+    def test_redirect_off_https_is_refused(self):
+        class Response:
+            status_code = 200
+            text = "x" * 1000
+            url = "http://169.254.169.254/latest/meta-data"
+        with patch("requests.get", return_value=Response()):
+            assert recheck.fetch_page("https://example.org") == (None, "redirected_off_public_https")
+
 
 class TestExtractFacts:
     PAGE = "<main>Vasaloppet 2027 takes place on March 7, 2027. 90 km classic.</main>" + " " * 600
@@ -239,6 +308,16 @@ class TestExtractFacts:
         assert facts["next_edition_date"] is None and facts["registration_opens"] is None
         assert facts["unverified_dates"] == {"next_edition_date": "2027-03-06",
                                              "registration_opens": "2026-12-01"}
+
+    def test_past_edition_is_not_the_next_edition(self):
+        page = "<main>Results: the race was held on March 1, 2026.</main>" + " " * 600
+        facts, _ = self._run({"next_edition_date": "2026-03-01"}, page=page)
+        assert facts["next_edition_date"] is None
+        assert "unverified_dates" not in facts
+
+    def test_impossible_date_does_not_raise(self):
+        facts, _ = self._run({"next_edition_date": "2027-13-01", "distances_km": 42})
+        assert facts["next_edition_date"] is None and facts["distances_km"] == [42]
 
     def test_empty_object_is_an_error(self):
         facts, _ = self._run({})
@@ -298,6 +377,12 @@ class TestRecheckAndReport:
             result = recheck.recheck(_target(), TODAY)
         assert result["error"] == "fetch: http_404" and "findings" not in result
 
+    def test_a_crash_on_one_race_is_an_error_row(self):
+        with patch.object(recheck, "fetch_page", return_value=("x" * 1000, None)), \
+             patch.object(recheck, "extract_facts", side_effect=KeyError(13)):
+            result = recheck.recheck(_target(), TODAY)
+        assert result["error"] == "recheck: KeyError"
+
     def test_report_lists_findings_unverified_and_failures(self):
         results = [
             {"slug": "a", "facts": {"extraction_cost_usd": 0.002},
@@ -343,6 +428,9 @@ class TestWorkflow:
 
     def test_fails_loudly_without_the_key(self):
         assert "OPENROUTER_API_KEY secret is not set" in WORKFLOW
+
+    def test_keeps_the_report_even_on_failure(self):
+        assert "actions/upload-artifact@v4" in WORKFLOW and "if: always()" in WORKFLOW
 
     def test_runs_the_recheck_and_opens_an_issue(self):
         assert "scripts/recheck_official_sites.py" in WORKFLOW
