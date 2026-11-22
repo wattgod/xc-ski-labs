@@ -80,7 +80,10 @@ def test_race_page_contains_prep_kit_gate():
     data = json.loads((RACE_DATA_DIR / "american-birkebeiner.json").read_text())
     html = race_pages.generate_page(data["race"], [data["race"]])
 
-    assert "Leave your email &mdash; the American Birkebeiner prep kit is yours." in html
+    # The gate says what the lead will get by email: the kit link and one short note (Mission Control
+    # xc_kit_delivery_v1 and xc_nurture_v1). If those sequences change, this sentence changes with them.
+    assert ("Leave your email and the American Birkebeiner prep kit opens now. "
+            "I&rsquo;ll also email you the link, and one short note a couple of days later.") in html
     assert "GET PREP KIT" in html
     assert "prep_kit_gate" in html
     assert "brand: 'xcskilabs'" in html

@@ -1651,7 +1651,7 @@ def build_email_capture(race: dict) -> str:
 <section class="gl-capture" id="gl-capture">
   <div class="gl-capture-inner">
     <p class="gl-capture-head">{name} prep kit</p>
-    <p class="gl-capture-sub">Leave your email &mdash; the {name} prep kit is yours.</p>
+    <p class="gl-capture-sub">Leave your email and the {name} prep kit opens now. I&rsquo;ll also email you the link, and one short note a couple of days later.</p>
     <form class="gl-capture-form" id="gl-capture-form" autocomplete="off">
       <input type="hidden" name="race_name" value="{name}">
       <input type="hidden" name="race_slug" value="{slug}">
