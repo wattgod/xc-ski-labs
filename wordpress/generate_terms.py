@@ -21,16 +21,23 @@ CONTACT_EMAIL = "gravelgodcoaching@gmail.com"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import plan_offer  # noqa: E402
 
+# DRAFT for Matti (2026-11-22): the billing and refund sentences now repeat the
+# checkout's terms_text word for word (TERMS_VERSION
+# race_plan_4weekly_terms/2026-11-17.1), with the plan page named where the
+# checkout prints its address, plus the card sentence.
 PLAN_TERMS = (
-    "The custom XC ski training plan is sold by Gravel God Cycling LLC. It is billed "
-    f"{plan_offer.PRICE_LINE} from the day you sign up, one payment for each "
-    f"{plan_offer.BLOCK_WEEKS}-week block of your plan, and it ends after your race week. "
-    f"If your race isn't a whole number of {plan_offer.BLOCK_WEEKS}-week blocks away, the "
-    f"last, shorter block costs {plan_offer.WEEK_PRICE} a week. You can cancel any time from your plan "
-    "page and keep the block you've paid for. Within "
-    f"{plan_offer.REFUND_DAYS} days of your first payment you can cancel from your plan "
-    "page with a full refund of that payment, which ends the plan. Later payments aren't "
-    "refunded, except where the law says otherwise."
+    "The custom XC ski training plan is sold by Gravel God Cycling LLC and paid by "
+    "card. "
+    f"Billing. {plan_offer.BLOCK_PRICE} every {plan_offer.BLOCK_WEEKS} weeks from the day you "
+    "sign up, one payment per block. If your race isn't a whole number "
+    f"of {plan_offer.BLOCK_WEEKS}-week blocks away, the last, shorter block costs "
+    f"{plan_offer.WEEK_PRICE} a week. Payments end after your race week. "
+    "Cancel any time at your plan page, xcskilabs.com/plan/manage; you keep the "
+    "block you've paid for. "
+    f"Refunds. Full refund within {plan_offer.REFUND_DAYS} days of your first payment; "
+    "refunding it ends the plan. Adding another race to this plan later doesn't start a "
+    f"new {plan_offer.REFUND_DAYS}-day window. Later payments aren't refunded, except where "
+    "the law says otherwise."
 )
 
 

@@ -98,8 +98,11 @@ OFFER_LINES = (BLOCK_LINE, LAST_BLOCK_LINE, ENDS_LINE, REVIEW_LINE,
 # what's in it, the terms as fine print. Never compared with coaching, never
 # a per-day price, never a value or refund pitch (docs/AI_WRITING_POLICY.md).
 # Every item is built: the course grant is pipeline #459, heat is #458.
-HEADLINE = ("A custom ski plan built around your race and your life, adjusted every "
-            f"{BLOCK_WEEKS} weeks, for less than a block of race wax.")
+# DRAFT for Matti (2026-11-22): replaces "..., adjusted every 4 weeks, for less
+# than a block of race wax.", which compares the price with something else
+# and reads as a value pitch under the 2026-11-15 ruling.
+HEADLINE = ("A custom ski plan for your race, built around your week and checked "
+            f"by me one {BLOCK_WEEKS}-week block at a time.")
 INCLUDED = (
     "Built for your race: classic, skate or skiathlon, up to 90 km",
     "Fits your week: your hours, your days, your long day",
