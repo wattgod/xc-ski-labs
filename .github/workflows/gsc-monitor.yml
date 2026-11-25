@@ -47,7 +47,7 @@ jobs:
           fi
           git worktree add --detach "$RUNNER_TEMP/gsc-state" "$state_commit"
 
-      - name: Run GSC tracker
+      - name: Capture GSC snapshot
         shell: bash
         env:
           GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
@@ -59,7 +59,12 @@ jobs:
           printf '%s' "$GSC_SERVICE_ACCOUNT_JSON" > "$credentials_file"
           unset GSC_SERVICE_ACCOUNT_JSON
           export GOOGLE_APPLICATION_CREDENTIALS="$credentials_file"
-          python scripts/gsc_tracker.py --snapshot --report --alert
+          python scripts/gsc_tracker.py --snapshot
+
+      - name: Report GSC trends and alerts
+        env:
+          GSC_SNAPSHOT_DIR: ${{ runner.temp }}/gsc-state/data/gsc-snapshots
+        run: python scripts/gsc_tracker.py --report --alert
 
       - name: Publish snapshots
         shell: bash
@@ -68,8 +73,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -- data/gsc-snapshots
-          if git diff --cached --quiet; then
-            exit 0
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: GSC monitoring snapshot"
           fi
-          git commit -m "chore: GSC monitoring snapshot"
           git push origin HEAD:refs/heads/gsc-monitoring-state
