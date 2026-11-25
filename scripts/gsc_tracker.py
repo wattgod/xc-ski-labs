@@ -7,6 +7,9 @@ Usage:
     python scripts/gsc_tracker.py --alert             # Check alert thresholds
     python scripts/gsc_tracker.py --snapshot --report  # Capture + report
 
+Reports refresh the scheduled history from Git when available. Set
+GSC_SNAPSHOT_DIR to use a specific local directory without contacting Git.
+
 Requires:
     - GOOGLE_APPLICATION_CREDENTIALS env var → service account JSON
     - Service account needs GSC "Viewer" role on the property
@@ -17,12 +20,18 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import subprocess
 import sys
 from datetime import date, timedelta
 from pathlib import Path
 
 SITE_URL = "sc-domain:xcskilabs.com"
-SNAPSHOT_DIR = Path(__file__).resolve().parent.parent / "data" / "gsc-snapshots"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+SNAPSHOT_PATH = Path("data/gsc-snapshots")
+DEFAULT_SNAPSHOT_DIR = REPO_ROOT / SNAPSHOT_PATH
+SNAPSHOT_DIR = Path(os.environ.get("GSC_SNAPSHOT_DIR", DEFAULT_SNAPSHOT_DIR))
+STATE_BRANCH = "gsc-monitoring-state"
+STATE_REF = f"refs/remotes/origin/{STATE_BRANCH}"
 
 # Alert thresholds
 IMPRESSION_DROP_PCT = 20  # warn if impressions drop >20% vs 7d ago
@@ -136,22 +145,57 @@ def save_snapshot(snapshot: dict) -> Path:
     return path
 
 
-def load_snapshot(target_date: date) -> dict | None:
+def refresh_scheduled_history() -> str | None:
+    """Return the cached history commit after attempting a read-only refresh."""
+    if "GSC_SNAPSHOT_DIR" in os.environ:
+        return None
+
+    git = ["git", "-C", str(REPO_ROOT)]
+    try:
+        subprocess.run(
+            [*git, "fetch", "--no-tags", "origin", f"refs/heads/{STATE_BRANCH}:{STATE_REF}"],
+            check=True, capture_output=True, timeout=10,
+            env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        )
+    except (OSError, subprocess.SubprocessError):
+        print("Could not refresh scheduled snapshots. Using cached or local history.", file=sys.stderr)
+
+    try:
+        return subprocess.check_output(
+            [*git, "rev-parse", "--verify", STATE_REF],
+            stderr=subprocess.DEVNULL, text=True,
+        ).strip()
+    except (OSError, subprocess.CalledProcessError):
+        return None
+
+
+def load_snapshot(target_date: date, history_commit: str | None = None) -> dict | None:
     """Load a snapshot by date, or None if not found."""
-    path = SNAPSHOT_DIR / f"{target_date.isoformat()}.json"
+    filename = f"{target_date.isoformat()}.json"
+    path = SNAPSHOT_DIR / filename
     if path.exists():
         return json.loads(path.read_text())
+    if history_commit:
+        snapshot_object = f"{history_commit}:{(SNAPSHOT_PATH / filename).as_posix()}"
+        completed = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "show", snapshot_object],
+            capture_output=True, text=True,
+        )
+        if completed.returncode == 0:
+            return json.loads(completed.stdout)
     return None
 
 
-def find_nearest_snapshot(target_date: date, max_days: int = 3) -> dict | None:
+def find_nearest_snapshot(
+    target_date: date, max_days: int = 3, *, history_commit: str | None = None,
+) -> dict | None:
     """Find the nearest snapshot within max_days of target_date."""
     for offset in range(max_days + 1):
-        snap = load_snapshot(target_date - timedelta(days=offset))
+        snap = load_snapshot(target_date - timedelta(days=offset), history_commit)
         if snap:
             return snap
         if offset > 0:
-            snap = load_snapshot(target_date + timedelta(days=offset))
+            snap = load_snapshot(target_date + timedelta(days=offset), history_commit)
             if snap:
                 return snap
     return None
@@ -173,11 +217,11 @@ def pct_change(current: float, previous: float) -> str:
     return f"{arrow} {abs(change):.1f}%"
 
 
-def print_report(today: date):
+def print_report(today: date, history_commit: str | None = None):
     """Print trend report comparing latest vs 7d/30d ago."""
-    latest = find_nearest_snapshot(today)
-    week_ago = find_nearest_snapshot(today - timedelta(days=7))
-    month_ago = find_nearest_snapshot(today - timedelta(days=30))
+    latest = find_nearest_snapshot(today, history_commit=history_commit)
+    week_ago = find_nearest_snapshot(today - timedelta(days=7), history_commit=history_commit)
+    month_ago = find_nearest_snapshot(today - timedelta(days=30), history_commit=history_commit)
 
     if not latest:
         print("No snapshots found. Run --snapshot first.")
@@ -238,10 +282,10 @@ def print_report(today: date):
     print()
 
 
-def check_alerts(today: date) -> int:
+def check_alerts(today: date, history_commit: str | None = None) -> int:
     """Check alert thresholds. Returns exit code (0=ok, 1=alerts)."""
-    latest = find_nearest_snapshot(today)
-    week_ago = find_nearest_snapshot(today - timedelta(days=7))
+    latest = find_nearest_snapshot(today, history_commit=history_commit)
+    week_ago = find_nearest_snapshot(today - timedelta(days=7), history_commit=history_commit)
 
     if not latest:
         print("No snapshots found. Run --snapshot first.")
@@ -330,11 +374,12 @@ def main():
                 if not (args.report or args.alert):
                     sys.exit(1)
 
+    history_commit = refresh_scheduled_history() if args.report or args.alert else None
     if args.report:
-        print_report(today)
+        print_report(today, history_commit)
 
     if args.alert:
-        exit_code = check_alerts(today)
+        exit_code = check_alerts(today, history_commit)
         if exit_code and not args.report:
             sys.exit(exit_code)
 
