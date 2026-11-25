@@ -173,17 +173,24 @@ def load_snapshot(target_date: date, history_commit: str | None = None) -> dict 
     """Load a snapshot by date, or None if not found."""
     filename = f"{target_date.isoformat()}.json"
     path = SNAPSHOT_DIR / filename
-    if path.exists():
-        return json.loads(path.read_text())
+    local = path.read_text(encoding="utf-8") if path.exists() else None
     if history_commit:
-        snapshot_object = f"{history_commit}:{(SNAPSHOT_PATH / filename).as_posix()}"
-        completed = subprocess.run(
-            ["git", "-C", str(REPO_ROOT), "show", snapshot_object],
-            capture_output=True, text=True,
-        )
-        if completed.returncode == 0:
-            return json.loads(completed.stdout)
-    return None
+        snapshot_path = (SNAPSHOT_PATH / filename).as_posix()
+        # A locally captured snapshot wins over Git history. An unchanged
+        # checkout copy can be replaced by a newer scheduled run of that date.
+        if local is None or local == _snapshot_text("HEAD", snapshot_path):
+            scheduled = _snapshot_text(history_commit, snapshot_path)
+            if scheduled is not None:
+                return json.loads(scheduled)
+    return json.loads(local) if local is not None else None
+
+
+def _snapshot_text(revision: str, path: str) -> str | None:
+    completed = subprocess.run(
+        ["git", "-C", str(REPO_ROOT), "show", f"{revision}:{path}"],
+        capture_output=True, encoding="utf-8",
+    )
+    return completed.stdout if completed.returncode == 0 else None
 
 
 def find_nearest_snapshot(
