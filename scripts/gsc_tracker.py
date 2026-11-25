@@ -173,17 +173,24 @@ def load_snapshot(target_date: date, history_commit: str | None = None) -> dict 
     """Load a snapshot by date, or None if not found."""
     filename = f"{target_date.isoformat()}.json"
     path = SNAPSHOT_DIR / filename
-    if path.exists():
-        return json.loads(path.read_text())
+    local = path.read_text(encoding="utf-8") if path.exists() else None
     if history_commit:
-        snapshot_object = f"{history_commit}:{(SNAPSHOT_PATH / filename).as_posix()}"
-        completed = subprocess.run(
-            ["git", "-C", str(REPO_ROOT), "show", snapshot_object],
-            capture_output=True, text=True,
-        )
-        if completed.returncode == 0:
-            return json.loads(completed.stdout)
-    return None
+        snapshot_path = (SNAPSHOT_PATH / filename).as_posix()
+        # A locally captured snapshot wins over Git history. An unchanged
+        # checkout copy can be replaced by a newer scheduled run of that date.
+        if local is None or local == _snapshot_text("HEAD", snapshot_path):
+            scheduled = _snapshot_text(history_commit, snapshot_path)
+            if scheduled is not None:
+                return json.loads(scheduled)
+    return json.loads(local) if local is not None else None
+
+
+def _snapshot_text(revision: str, path: str) -> str | None:
+    completed = subprocess.run(
+        ["git", "-C", str(REPO_ROOT), "show", f"{revision}:{path}"],
+        capture_output=True, encoding="utf-8",
+    )
+    return completed.stdout if completed.returncode == 0 else None
 
 
 def find_nearest_snapshot(
@@ -217,9 +224,9 @@ def pct_change(current: float, previous: float) -> str:
     return f"{arrow} {abs(change):.1f}%"
 
 
-def print_report(today: date, history_commit: str | None = None):
+def print_report(today: date, history_commit: str | None = None, captured: dict | None = None):
     """Print trend report comparing latest vs 7d/30d ago."""
-    latest = find_nearest_snapshot(today, history_commit=history_commit)
+    latest = captured if captured is not None else find_nearest_snapshot(today, history_commit=history_commit)
     week_ago = find_nearest_snapshot(today - timedelta(days=7), history_commit=history_commit)
     month_ago = find_nearest_snapshot(today - timedelta(days=30), history_commit=history_commit)
 
@@ -282,9 +289,9 @@ def print_report(today: date, history_commit: str | None = None):
     print()
 
 
-def check_alerts(today: date, history_commit: str | None = None) -> int:
+def check_alerts(today: date, history_commit: str | None = None, captured: dict | None = None) -> int:
     """Check alert thresholds. Returns exit code (0=ok, 1=alerts)."""
-    latest = find_nearest_snapshot(today, history_commit=history_commit)
+    latest = captured if captured is not None else find_nearest_snapshot(today, history_commit=history_commit)
     week_ago = find_nearest_snapshot(today - timedelta(days=7), history_commit=history_commit)
 
     if not latest:
@@ -346,6 +353,7 @@ def main():
         return
 
     today = date.fromisoformat(args.date) if args.date else date.today()
+    captured = None
 
     if args.snapshot:
         service = get_gsc_service()
@@ -364,6 +372,7 @@ def main():
             try:
                 snapshot = fetch_snapshot(service, today)
                 path = save_snapshot(snapshot)
+                captured = snapshot
                 o = snapshot.get("overall", {})
                 print(f"  Snapshot saved: {path.name}")
                 print(f"  Clicks: {o.get('clicks', 0):,}  Impressions: {o.get('impressions', 0):,}  "
@@ -376,10 +385,10 @@ def main():
 
     history_commit = refresh_scheduled_history() if args.report or args.alert else None
     if args.report:
-        print_report(today, history_commit)
+        print_report(today, history_commit, captured)
 
     if args.alert:
-        exit_code = check_alerts(today, history_commit)
+        exit_code = check_alerts(today, history_commit, captured)
         if exit_code and not args.report:
             sys.exit(exit_code)
 
