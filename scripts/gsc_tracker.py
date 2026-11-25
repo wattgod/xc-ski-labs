@@ -22,7 +22,8 @@ from datetime import date, timedelta
 from pathlib import Path
 
 SITE_URL = "sc-domain:xcskilabs.com"
-SNAPSHOT_DIR = Path(__file__).resolve().parent.parent / "data" / "gsc-snapshots"
+DEFAULT_SNAPSHOT_DIR = Path(__file__).resolve().parent.parent / "data" / "gsc-snapshots"
+SNAPSHOT_DIR = Path(os.environ.get("GSC_SNAPSHOT_DIR", DEFAULT_SNAPSHOT_DIR))
 
 # Alert thresholds
 IMPRESSION_DROP_PCT = 20  # warn if impressions drop >20% vs 7d ago

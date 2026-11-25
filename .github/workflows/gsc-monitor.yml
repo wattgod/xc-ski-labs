@@ -6,11 +6,16 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: gsc-monitoring-snapshots
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   monitor:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -26,21 +31,45 @@ jobs:
         run: |
           pip install google-api-python-client google-auth
 
-      - name: Setup GSC credentials
-        run: echo "$GSC_SERVICE_ACCOUNT_JSON" > /tmp/gsc-creds.json
-        env:
-          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+      - name: Prepare snapshot worktree
+        shell: bash
+        run: |
+          state_ref=refs/heads/gsc-monitoring-state
+          state_commit=HEAD
+          if git ls-remote --exit-code origin "$state_ref" > /dev/null; then
+            git fetch --depth=1 --no-tags origin "$state_ref"
+            state_commit=FETCH_HEAD
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then
+              exit "$status"
+            fi
+          fi
+          git worktree add --detach "$RUNNER_TEMP/gsc-state" "$state_commit"
 
       - name: Run GSC tracker
+        shell: bash
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gsc-creds.json
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_SNAPSHOT_DIR: ${{ runner.temp }}/gsc-state/data/gsc-snapshots
         run: |
+          umask 077
+          credentials_file=$(mktemp "$RUNNER_TEMP/gsc-creds.XXXXXX")
+          trap 'rm -f "$credentials_file"' EXIT
+          printf '%s' "$GSC_SERVICE_ACCOUNT_JSON" > "$credentials_file"
+          unset GSC_SERVICE_ACCOUNT_JSON
+          export GOOGLE_APPLICATION_CREDENTIALS="$credentials_file"
           python scripts/gsc_tracker.py --snapshot --report --alert
 
-      - name: Commit changes
+      - name: Publish snapshots
+        shell: bash
         run: |
+          cd "$RUNNER_TEMP/gsc-state"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet || git commit -m "chore: GSC monitoring snapshot"
-          git push
+          git add -- data/gsc-snapshots
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: GSC monitoring snapshot"
+          git push origin HEAD:refs/heads/gsc-monitoring-state
