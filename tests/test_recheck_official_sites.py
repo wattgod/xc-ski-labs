@@ -6,6 +6,7 @@ import json
 import sys
 import urllib.error
 from datetime import date
+import re
 from pathlib import Path
 from unittest.mock import patch
 
@@ -430,7 +431,8 @@ class TestWorkflow:
         assert "OPENROUTER_API_KEY secret is not set" in WORKFLOW
 
     def test_keeps_the_report_even_on_failure(self):
-        assert "actions/upload-artifact@v4" in WORKFLOW and "if: always()" in WORKFLOW
+        assert re.search(r"actions/upload-artifact@[a-f0-9]{40}\b", WORKFLOW)
+        assert "if: always()" in WORKFLOW
 
     def test_runs_the_recheck_and_opens_an_issue(self):
         assert "scripts/recheck_official_sites.py" in WORKFLOW
